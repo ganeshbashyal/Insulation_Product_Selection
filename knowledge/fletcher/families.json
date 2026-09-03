@@ -10,7 +10,7 @@
       "keywords": ["wall heat", "wall insulation", "pink batts wall", "external wall", "internal wall thermal"],
       "scores": {"acoustic_comfort": 3, "energy_efficiency": 5, "sustainability": 4, "installation_practicality": 4, "compliance_readiness": 4},
       "score_notes": "Strong general wall-thermal fit. Soundbreak is the stronger Fletcher family when acoustic transfer is the primary problem.",
-      "confidence": "manufacturer_supported", "knowledge_file": "pink-batts-wall.md", "source_url": "https://insulation.com.au/product/pink-batts-insulation/",
+      "confidence": "manufacturer_supported", "knowledge_file": "pink-batts-wall.md", "detailed_knowledge_status": "complete_2026-09-04", "source_url": "https://insulation.com.au/product/pink-batts-insulation/",
       "questions": ["Is the wall internal or external?", "What stud spacing and cavity depth are available?", "What required material or total R-value applies?"],
       "human_gates": ["Select R-value and width from the actual wall system", "Confirm climate-zone, condensation and NCC requirements", "Do not use a batt rating as a complete wall-system rating"]
     },
@@ -21,7 +21,7 @@
       "keywords": ["ceiling heat", "ceiling insulation", "roof space", "pink batts ceiling", "energy bills"],
       "scores": {"acoustic_comfort": 3, "energy_efficiency": 5, "sustainability": 4, "installation_practicality": 4, "compliance_readiness": 4},
       "score_notes": "Primary Fletcher thermal family for ceilings; select by required R-value, available depth and regional product code.",
-      "confidence": "manufacturer_supported", "knowledge_file": "pink-batts-ceiling.md", "source_url": "https://insulation.com.au/product/pink-batts-ceiling-insulation/",
+      "confidence": "manufacturer_supported", "knowledge_file": "pink-batts-ceiling.md", "detailed_knowledge_status": "complete_2026-09-04", "source_url": "https://insulation.com.au/product/pink-batts-ceiling-insulation/",
       "questions": ["Is this a new ceiling or retrofit?", "What existing insulation is present?", "What R-value, joist depth and downlight clearances apply?"],
       "human_gates": ["Confirm current regional SKU and CodeMark coverage", "Assess existing insulation and electrical clearances", "Confirm total system R-value"]
     },
@@ -32,7 +32,7 @@
       "keywords": ["cold floor", "underfloor", "suspended floor", "floor heat", "pink floor batts"],
       "scores": {"acoustic_comfort": 3, "energy_efficiency": 5, "sustainability": 4, "installation_practicality": 3, "compliance_readiness": 3},
       "score_notes": "Thermal floor family; access, support and moisture conditions govern practical suitability.",
-      "confidence": "manufacturer_supported", "knowledge_file": "pink-batts-floor.md", "source_url": "https://insulation.com.au/products/",
+      "confidence": "manufacturer_supported", "knowledge_file": "pink-batts-floor.md", "detailed_knowledge_status": "complete_2026-09-04", "source_url": "https://insulation.com.au/products/",
       "questions": ["Is the floor suspended and accessible from below?", "What joist spacing and depth apply?", "Is moisture or exposed subfloor wind a concern?"],
       "human_gates": ["Confirm current TDS and available SKU", "Verify retention/support method", "Check moisture, services and subfloor conditions"]
     },
@@ -43,9 +43,9 @@
       "keywords": ["voices through wall", "room noise", "sound transfer", "media room", "soundbreak", "acoustic batt"],
       "scores": {"acoustic_comfort": 5, "energy_efficiency": 4, "sustainability": 4, "installation_practicality": 4, "compliance_readiness": 4},
       "score_notes": "Strong Fletcher choice when cavity absorption and thermal performance are both important; system construction controls the achieved Rw.",
-      "confidence": "manufacturer_supported", "knowledge_file": "soundbreak.md", "source_url": "https://insulation.com.au/product/soundbreak/",
+      "confidence": "manufacturer_supported", "knowledge_file": "soundbreak.md", "source_url": "https://insulation.com.au/product/soundbreak/", "datasheet_url": "https://insulation.com.au/wp-content/uploads/2024/10/TDS-Soundbreak-Rev7-091024.pdf", "detailed_knowledge_status": "complete_2026-09-04",
       "questions": ["Which wall, ceiling or floor construction is involved?", "Is the noise airborne or impact noise?", "What cavity depth and acoustic target apply?"],
-      "human_gates": ["Do not present material R-value as Rw", "Use tested system evidence for an acoustic target", "Confirm batt size and complete construction"]
+      "human_gates": ["Do not present material R-value, NRC or alpha-w as Rw", "Use tested system evidence for an acoustic target", "Reconcile legacy 9021xx/4006068 codes before quoting", "Confirm batt size, cavity depth and complete construction"]
     },
     {
       "family_id": "FLETCHER_PINK_PARTITION", "manufacturer": "Fletcher", "name": "Pink Partition Insulation", "category": "Commercial acoustic and thermal insulation",
@@ -54,7 +54,7 @@
       "keywords": ["partition", "commercial wall", "steel stud", "office acoustic", "pink partition"],
       "scores": {"acoustic_comfort": 5, "energy_efficiency": 4, "sustainability": 4, "installation_practicality": 4, "compliance_readiness": 4},
       "score_notes": "Commercial partition family with multiple densities and sizes; density alone is not an installed acoustic rating.",
-      "confidence": "manufacturer_supported", "knowledge_file": "pink-partition.md", "source_url": "https://insulation.com.au/product/pink-partition-insulation/",
+      "confidence": "manufacturer_supported", "knowledge_file": "pink-partition.md", "detailed_knowledge_status": "complete_2026-09-04", "source_url": "https://insulation.com.au/product/pink-partition-insulation/",
       "questions": ["What stud depth and spacing apply?", "What wall system and acoustic/fire target is specified?", "Is thermal resistance also required?"],
       "human_gates": ["Select density and thickness from tested/specifed system", "Do not infer Rw from density", "Confirm fire and project specification"]
     },
@@ -65,7 +65,7 @@
       "keywords": ["fi32", "duct lining", "internal duct", "process equipment", "plant room", "acoustic baffle"],
       "scores": {"acoustic_comfort": 4, "energy_efficiency": 4, "sustainability": 4, "installation_practicality": 3, "compliance_readiness": 4},
       "score_notes": "Technical HVAC/industrial family with facing options; suitability depends on airflow, facing, temperature and system design.",
-      "confidence": "manufacturer_supported", "knowledge_file": "fi32-semi-rigid.md", "source_url": "https://insulation.com.au/product/fi32-semi-rigid-insulation/",
+      "confidence": "manufacturer_supported", "knowledge_file": "fi32-semi-rigid.md", "detailed_knowledge_status": "complete_2026-09-04", "source_url": "https://insulation.com.au/product/fi32-semi-rigid-insulation/",
       "questions": ["Is this internal duct lining or equipment insulation?", "What thickness, facing and air velocity are specified?", "What fire, hygiene and acoustic requirements apply?"],
       "human_gates": ["Confirm facing and exposure", "Verify HVAC/fire/hygiene specification", "Use current TDS for R-value and acoustic data"]
     },
@@ -76,7 +76,7 @@
       "keywords": ["fi22 flex dliner", "fi24", "flex ductliner", "duct liner", "air conditioning duct"],
       "scores": {"acoustic_comfort": 4, "energy_efficiency": 4, "sustainability": 4, "installation_practicality": 4, "compliance_readiness": 4},
       "score_notes": "Purpose-made internal duct-liner family; the sheet's FI22 name needs code/TDS confirmation against the current FI24 range.",
-      "confidence": "manufacturer_supported_identity_review", "knowledge_file": "fi24-flex-ductliner.md", "source_url": "https://insulation.com.au/product/fi24-flexible-ductliner/",
+      "confidence": "manufacturer_supported_identity_review", "knowledge_file": "fi24-flex-ductliner.md", "detailed_knowledge_status": "complete_2026-09-04", "source_url": "https://insulation.com.au/product/fi24-flexible-ductliner/",
       "questions": ["What duct dimensions and internal lining detail apply?", "What product code, facing, thickness and air velocity are required?", "Is the sheet's FI22 record a legacy designation?"],
       "human_gates": ["Confirm legacy FI22-to-current-FI24 identity", "Check facing, air velocity and hygiene requirements", "Confirm current product code"]
     },
@@ -87,7 +87,7 @@
       "keywords": ["thermal slab", "under slab", "soffit insulation", "concrete slab", "foil faced board"],
       "scores": {"acoustic_comfort": 4, "energy_efficiency": 5, "sustainability": 4, "installation_practicality": 3, "compliance_readiness": 4},
       "score_notes": "Strong commercial soffit/under-slab family; facing, fixings and fire classification must match the installation.",
-      "confidence": "manufacturer_supported", "knowledge_file": "pink-thermal-slab.md", "source_url": "https://insulation.com.au/product/pink-thermal-slab/",
+      "confidence": "manufacturer_supported", "knowledge_file": "pink-thermal-slab.md", "detailed_knowledge_status": "complete_2026-09-04", "source_url": "https://insulation.com.au/product/pink-thermal-slab/",
       "questions": ["Is the application an exposed soffit, floor, roof or wall?", "What R-value and fixing system are specified?", "What lining/fire classification applies?"],
       "human_gates": ["Confirm fixing and facing detail", "Retain exact fire-classification context", "Verify project specification"]
     },
@@ -98,7 +98,7 @@
       "keywords": ["party wall", "intertenancy", "fire stop", "fireseal", "fire strip", "protect pwall", "flanking noise"],
       "scores": {"acoustic_comfort": 4, "energy_efficiency": 2, "sustainability": 3, "installation_practicality": 3, "compliance_readiness": 5},
       "score_notes": "Specialist fire/acoustic family. Recommendation means use the Fletcher party-wall system family—not that a project detail is automatically compliant.",
-      "confidence": "manufacturer_supported", "knowledge_file": "party-wall-stonewool.md", "source_url": "https://insulation.com.au/product/fletcher-protect-party-wall-stonewool-batts/",
+      "confidence": "manufacturer_supported", "knowledge_file": "party-wall-stonewool.md", "detailed_knowledge_status": "complete_2026-09-04", "source_url": "https://insulation.com.au/product/fletcher-protect-party-wall-stonewool-batts/",
       "questions": ["Which tested party-wall system and junction is involved?", "Is a batt, strip or foil-faced blanket specified?", "What FRL/NCC detail and compression requirement applies?"],
       "human_gates": ["Follow the nominated tested system and installation guide", "Confirm exact component code", "No standalone compliance claim"]
     },
@@ -109,7 +109,7 @@
       "keywords": ["permastop", "metal roof heat", "rain noise", "roof blanket", "warehouse insulation", "shed insulation"],
       "scores": {"acoustic_comfort": 4, "energy_efficiency": 5, "sustainability": 4, "installation_practicality": 4, "compliance_readiness": 4},
       "score_notes": "Strong metal-roof thermal/condensation family with useful rain-noise benefit; blanket R-value and facing duty are SKU-specific.",
-      "confidence": "manufacturer_supported", "knowledge_file": "permastop.md", "source_url": "https://insulation.com.au/product/permastop-building-blanket/",
+      "confidence": "manufacturer_supported", "knowledge_file": "permastop.md", "detailed_knowledge_status": "complete_2026-09-04", "source_url": "https://insulation.com.au/product/permastop-building-blanket/",
       "questions": ["Is this roof or wall, and what cladding is used?", "What R-value, blanket thickness and facing duty are specified?", "What climate, condensation and BAL requirements apply?"],
       "human_gates": ["Confirm blanket compression and installed R-value", "Select foil duty and roll size", "Verify condensation, BAL and roof-system requirements"]
     },
@@ -120,7 +120,7 @@
       "keywords": ["vapawrap wall", "vapour permeable wall", "condensation wall", "wall wrap", "vp4"],
       "scores": {"acoustic_comfort": 2, "energy_efficiency": 4, "sustainability": 3, "installation_practicality": 4, "compliance_readiness": 5},
       "score_notes": "Strong moisture-management option where a vapour-permeable wall membrane is required; climate and wall build-up govern selection.",
-      "confidence": "manufacturer_supported", "knowledge_file": "vapawrap-wall.md", "source_url": "https://insulation.com.au/product/sisalation-vapawrap-residential-wall-wrap/",
+      "confidence": "manufacturer_supported", "knowledge_file": "vapawrap-wall.md", "detailed_knowledge_status": "complete_2026-09-04", "source_url": "https://insulation.com.au/product/sisalation-vapawrap-residential-wall-wrap/",
       "questions": ["What climate zone and cladding apply?", "Is a Class 4 vapour-permeable membrane required?", "What UV exposure period is expected before cladding?"],
       "human_gates": ["Confirm vapour class and climate-zone selection", "Seal laps and penetrations to the installation guide", "Verify BAL/NCC edition and wall system"]
     },
@@ -131,7 +131,7 @@
       "keywords": ["vapawrap metal roof", "roof condensation", "vapour permeable roof", "roof sarking"],
       "scores": {"acoustic_comfort": 2, "energy_efficiency": 4, "sustainability": 3, "installation_practicality": 4, "compliance_readiness": 5},
       "score_notes": "Purpose-specific condensation-management membrane; it is not interchangeable with wall wrap or a vapour barrier.",
-      "confidence": "manufacturer_supported", "knowledge_file": "vapawrap-metal-roof.md", "source_url": "https://insulation.com.au/product/sisalation-vapawrap-metal-roof/",
+      "confidence": "manufacturer_supported", "knowledge_file": "vapawrap-metal-roof.md", "detailed_knowledge_status": "complete_2026-09-04", "source_url": "https://insulation.com.au/product/sisalation-vapawrap-metal-roof/",
       "questions": ["What roof cladding and pitch apply?", "What climate-zone and condensation design apply?", "How will drainage, laps and penetrations be detailed?"],
       "human_gates": ["Verify roof assembly and drainage detail", "Confirm vapour-permeability requirement", "Do not substitute wall-wrap SKU without evidence"]
     },
@@ -142,7 +142,7 @@
       "keywords": ["tuff wrap", "multipurpose 439", "sisalation", "reflective wall wrap", "roof sarking", "radiant heat"],
       "scores": {"acoustic_comfort": 2, "energy_efficiency": 4, "sustainability": 3, "installation_practicality": 4, "compliance_readiness": 4},
       "score_notes": "Broad family for discovery only; exact Tuff Wrap or Multipurpose duty/class must be selected from climate, assembly and current TDS.",
-      "confidence": "manufacturer_supported_variant_review", "knowledge_file": "sisalation-wrap.md", "source_url": "https://insulation.com.au/product/sisalation-tuff-wrap/",
+      "confidence": "manufacturer_supported_variant_review", "knowledge_file": "sisalation-wrap.md", "detailed_knowledge_status": "complete_2026-09-04", "source_url": "https://insulation.com.au/product/sisalation-tuff-wrap/",
       "questions": ["Is the application a wall or roof?", "Is vapour permeability or a vapour barrier required?", "What duty, climate zone, water barrier and BAL requirements apply?"],
       "human_gates": ["Select exact membrane variant", "Confirm vapour classification and duty", "Verify BAL/NCC evidence for current product and edition"]
     },
@@ -153,7 +153,7 @@
       "keywords": ["foam cell", "bubble cell", "thermal break membrane", "reflective foam", "shed sarking"],
       "scores": {"acoustic_comfort": 2, "energy_efficiency": 4, "sustainability": 3, "installation_practicality": 5, "compliance_readiness": 4},
       "score_notes": "Practical reflective family; Foam Cell and Bubble Cell are distinct variants and must not share R-values or fire classifications.",
-      "confidence": "manufacturer_supported_variant_review", "knowledge_file": "foam-bubble-cell.md", "source_url": "https://insulation.com.au/product/foam-cell-mutlipurpose/",
+      "confidence": "manufacturer_supported_variant_review", "knowledge_file": "foam-bubble-cell.md", "detailed_knowledge_status": "complete_2026-09-04", "source_url": "https://insulation.com.au/product/foam-cell-mutlipurpose/",
       "questions": ["Is a thermal break, vapour barrier or sarking function required?", "Is a Group Number required?", "What roof/wall assembly and BAL requirement apply?"],
       "human_gates": ["Select exact Foam Cell or Bubble Cell variant", "Keep product and total system R-values separate", "Verify fire/BAL context"]
     },
@@ -164,7 +164,7 @@
       "keywords": ["supabatt", "external wall barrier", "7 star wall", "continuous insulation", "vp4 batt"],
       "scores": {"acoustic_comfort": 3, "energy_efficiency": 5, "sustainability": 4, "installation_practicality": 5, "compliance_readiness": 4},
       "score_notes": "External-wall thermal family with faced and unfaced options; the broader wall/condensation design remains project-specific.",
-      "confidence": "manufacturer_supported", "knowledge_file": "supabatt.md", "source_url": "https://insulation.com.au/product/supabatt/",
+      "confidence": "manufacturer_supported", "knowledge_file": "supabatt.md", "detailed_knowledge_status": "complete_2026-09-04", "source_url": "https://insulation.com.au/product/supabatt/",
       "questions": ["Is the product being installed outside the frame?", "Is the VP4 faced option required?", "What wall R-value and condensation design apply?"],
       "human_gates": ["Choose faced or unfaced SKU", "Confirm compatibility with adjacent membranes", "Verify full wall system and NCC target"]
     },
@@ -175,7 +175,7 @@
       "keywords": ["thermatape", "vapastop tape", "plain foil tape", "3m seaming tape", "seal membrane", "thermal break tape"],
       "scores": {"acoustic_comfort": 1, "energy_efficiency": 3, "sustainability": 2, "installation_practicality": 5, "compliance_readiness": 3},
       "score_notes": "Accessory family only. Recommend the compatible accessory type after identifying the parent membrane or insulation system.",
-      "confidence": "manufacturer_supported_variant_review", "knowledge_file": "tapes-accessories.md", "source_url": "https://insulation.com.au/product/vapastop-883-tape/",
+      "confidence": "manufacturer_supported_variant_review", "knowledge_file": "tapes-accessories.md", "detailed_knowledge_status": "complete_2026-09-04", "source_url": "https://insulation.com.au/product/vapastop-883-tape/",
       "questions": ["Which parent Fletcher product is being installed?", "Is the task a thermal break, foil seam or vapour-permeable membrane seam?", "What width and exposure conditions apply?"],
       "human_gates": ["Confirm accessory compatibility", "Thermatape compression changes R-value", "Do not treat tape as standalone insulation"]
     },
@@ -186,7 +186,7 @@
       "keywords": ["safe'n'silent", "safe n silent", "pro350"],
       "scores": {"acoustic_comfort": 0, "energy_efficiency": 0, "sustainability": 0, "installation_practicality": 0, "compliance_readiness": 0},
       "score_notes": "Not scored until the current identity and technical source are confirmed.",
-      "confidence": "identity_unverified", "knowledge_file": "safe-n-silent-legacy.md", "source_url": "",
+      "confidence": "identity_unverified", "knowledge_file": "safe-n-silent-legacy.md", "detailed_knowledge_status": "complete_2026-09-04", "source_url": "",
       "questions": ["Is this a discontinued or renamed Fletcher product?", "Can purchasing confirm codes 4007197, 4007198 and 4007200?", "Is a current TDS available?"],
       "human_gates": ["Do not recommend or quote until identity is verified", "Do not automatically substitute Soundbreak"]
     },
@@ -197,7 +197,7 @@
       "keywords": ["ff hd", "facing foil", "500m", "4008040"],
       "scores": {"acoustic_comfort": 0, "energy_efficiency": 0, "sustainability": 0, "installation_practicality": 0, "compliance_readiness": 0},
       "score_notes": "Not scored until identity and intended parent system are verified.",
-      "confidence": "identity_unverified", "knowledge_file": "ff-hd-legacy.md", "source_url": "",
+      "confidence": "identity_unverified", "knowledge_file": "ff-hd-legacy.md", "detailed_knowledge_status": "complete_2026-09-04", "source_url": "",
       "questions": ["Is this a fabrication facing rather than installed insulation?", "Can purchasing confirm product code 4008040?", "Which parent system and current TDS apply?"],
       "human_gates": ["Do not recommend or quote until identity is verified", "Do not infer membrane performance from the abbreviated name"]
     }

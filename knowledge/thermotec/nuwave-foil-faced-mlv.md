@@ -33,3 +33,24 @@ The bot may use this record to recognise the product name and capture an enquiry
 ## Secondary owned source
 
 [Insulation Easy Australia product page](https://insulationeasy.com.au/product/nuwave-4zero-foil-faced-mlv-soundproofing/)
+
+## Deep-dive evidence dossier
+
+This owned secondary page describes a foil-faced NuWave MLV configuration. Keep it distinct from **Thermotec 4-Zero pipe insulation**, a factory-faced thermal pipe product. Similar wording does not establish equivalence.
+
+No current Thermotec page/data sheet and exact fire report are linked. The bot can collect an enquiry but cannot select a grade, repeat a fire classification or recommend it for a regulated application. Foil may be wanted for protection or facing continuity; it does not itself prove R-value, non-combustibility, BAL suitability or assembly compliance.
+
+| Priority | Score / 5 | Confidence | Reason |
+|---|---:|---|---|
+| Acoustic comfort | 4 | Low | MLV concept is relevant; exact variant unresolved. |
+| Energy efficiency | 1 | High | Foil alone is not a valid R-value claim. |
+| Sustainability | 2 | Low | No current quantified evidence. |
+| Installation practicality | 2 | Low | Facing, laps and tapes need manufacturer detail. |
+| Compliance readiness | 1 | High | Fire evidence and identity are pending. |
+| BAL suitability | Gate | High | No BAL statement supported. |
+
+Ask why foil is required, application, construction, mass/grade, fire clause and exposure. Offer NuWave Base only if a standard internal barrier meets the brief; never silently substitute it.
+
+```json
+{"family_id":"THERMOTEC_NUWAVE_FOIL_FACED_MLV","recommendation_level":"blocked_pending_manufacturer_verification","do_not_confuse_with":"THERMOTEC_4_ZERO","required_inputs":["application","reason_for_facing","grade","construction","fire_clause"],"human_gates":["identity","datasheet","fire_report","installation","compliance","BAL"]}
+```

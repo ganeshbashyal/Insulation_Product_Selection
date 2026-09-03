@@ -2,6 +2,8 @@
 
 Bot-facing product knowledge for Thermotec Australia. Each file represents a technical family, not an individual stock SKU. SKU records should link to these files through the `family_id` in each file's front matter.
 
+All 13 family files received a structured deep-dive review on 2026-09-04. “Complete” means the decision record, boundaries, customer-priority logic and evidence gaps are documented; it does **not** mean every SKU or compliance claim is verified. The Fence MLV, foil-faced MLV and Maxflex Coil records remain deliberately blocked pending primary evidence.
+
 ## Family index
 
 | Family ID | Product family | File | Status |

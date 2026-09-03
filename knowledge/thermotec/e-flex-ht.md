@@ -40,3 +40,23 @@ The manufacturer publishes a continuous operating temperature of 150°C and a ma
 
 [Thermotec E-Flex HT Solar Pipe Insulation](https://thermotec.com.au/products/thermotec-e-flex-ht-solar-pipe-insulation)
 
+## Deep-dive decision guidance
+
+E-Flex HT is an EPDM closed-cell pipe insulation family for solar/hot services and locations needing greater temperature and UV/weather tolerance. Thermotec states 150 °C continuous and 175 °C intermittent limits. Treat these as manufacturer limits, not a design temperature selection without allowance for actual service, heat tracing, stagnation and external protection.
+
+Prefer ST for ordinary indoor HVAC/refrigeration/general plumbing within its conditions; prefer HT for solar, elevated temperature or documented exposure; prefer Rockwool Pipe for still higher industrial service. Outdoor suitability does not remove the need to confirm mechanical protection, joints, water ingress and local installation instructions.
+
+| Priority | Score / 5 | Confidence | Reason |
+|---|---:|---|---|
+| Energy efficiency | 5 | High | Direct control of pipe heat loss/gain. |
+| Acoustic comfort | 2 | Low | No standalone acoustic result. |
+| Sustainability | 3 | Low | Durability may help service life; no EPD is linked. |
+| Installation practicality | 4 | Medium | Flexible pipe format; exposed details remain important. |
+| Compliance readiness | 3 | Medium | Verify exact fire and plumbing/project requirements. |
+| BAL suitability | Gate | High | UV/weather resistance is not BAL evidence. |
+
+Capture pipe OD, fluid, continuous/peak/stagnation temperature, location, UV/weather, required wall thickness, protective cladding and fire/BAL clause. Family recommendation is permitted; exact size and system design require review.
+
+```json
+{"family_id":"THERMOTEC_E_FLEX_HT","recommendation_level":"family_only","temperature_c":{"continuous":150,"intermittent":175},"best_for":["solar hot water","higher-temperature pipe","UV/weather exposure"],"required_inputs":["pipe_od","fluid","continuous_temperature","peak_temperature","exposure","protection"],"human_gates":["sku","thickness","stagnation_review","compliance","BAL"]}
+```

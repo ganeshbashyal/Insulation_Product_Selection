@@ -8,8 +8,9 @@ canonical_name: Thermotec NuWave Base Mass Loaded Vinyl Acoustic Barrier
 category: Acoustic barrier
 material: High-density flexible hybrid polymer mass loaded vinyl
 primary_noise_type: Airborne noise
-bot_mode: enquiry_only
-recommendation_allowed: false
+bot_mode: demo_family_recommendation
+recommendation_allowed: true
+recommendation_scope: manufacturer_supported_family_only
 requires_human_selection: true
 validation_status: manufacturer_supported_secondary_claims_pending
 last_validated: 2026-09-03
@@ -34,7 +35,7 @@ official_installation_url: https://cdn.shopify.com/s/files/1/0676/6827/9608/file
 
 This is the canonical internal description for NuWave Base. It aligns the terminology used by the enquiry bot, sales team and future Aircall CSV.
 
-The bot may explain the documented role of the product and collect enquiry details. It must not recommend NuWave, choose a grade, calculate an order quantity or confirm acoustic, fire, NCC or BAL compliance. All product-selection decisions require a human callback.
+For the demonstration, the bot may recommend the **NuWave Base family** when the customer's problem is airborne sound transmission through a suitable wall, floor, ceiling or partition. It must not choose a grade, calculate an order quantity or confirm acoustic, fire, NCC or BAL compliance. Those decisions remain human-reviewed.
 
 ## Canonical description
 
@@ -223,8 +224,9 @@ Claims appearing only in this older literature remain pending until matched to a
   "family_id": "THERMOTEC_NUWAVE_BASE_MLV",
   "manufacturer": "Thermotec Australia",
   "canonical_name": "Thermotec NuWave Base Mass Loaded Vinyl Acoustic Barrier",
-  "bot_mode": "enquiry_only",
-  "recommendation_allowed": false,
+  "bot_mode": "demo_family_recommendation",
+  "recommendation_allowed": true,
+  "recommendation_scope": "manufacturer_supported_family_only",
   "primary_function": "Reduce airborne sound transmission as part of a complete construction",
   "applications": ["wall", "floor", "ceiling", "partition"],
   "grades": [

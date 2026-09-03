@@ -39,3 +39,24 @@ Published shop options include 3 mm thickness, 50 or 98 mm width and 9.1 m roll 
 ## Source
 
 [Thermotec MaxTape FR Insulating Foam Tape](https://thermotec.com.au/products/thermotec-maxflex-insulating-foam-tape)
+
+## Deep-dive decision guidance
+
+MaxTape FR is closed-cell EPDM insulating foam tape with acrylic pressure-sensitive adhesive. It supports insulation continuity, local condensation control, thermal-break detailing and purlin isolation/thermal-movement noise. It is an accessory, not a substitute for correctly sized pipe insulation, a complete vapour barrier or an acoustic barrier.
+
+The product page uses fire-related wording, but the exact report/classification and field of application must be attached before the bot repeats a compliance result. Adhesive suitability also depends on substrate preparation, temperature, exposure and service conditions.
+
+| Priority | Score / 5 | Confidence | Reason |
+|---|---:|---|---|
+| Energy efficiency | 3 | Medium | Useful for continuity and local thermal bridging. |
+| Acoustic comfort | 2 | Medium | Purlin isolation may reduce movement noise; no Rw claim. |
+| Sustainability | 2 | Low | No quantified environmental evidence linked. |
+| Installation practicality | 5 | High | Self-adhesive accessory format is its main strength. |
+| Compliance readiness | 2 | Medium | Exact fire and adhesive evidence must match. |
+| BAL suitability | Gate | High | No BAL recommendation. |
+
+Capture adjoining insulation/system, purpose, width/thickness, substrate, service temperature, indoor/outdoor exposure, surface condition and fire clause. The bot may suggest it as an accessory, but a person confirms size, adhesion and regulatory suitability.
+
+```json
+{"family_id":"THERMOTEC_MAXTAPE_FR","recommendation_level":"accessory_family_only","best_for":["insulation continuity","local condensation detailing","purlin isolation"],"not_for":["standalone pipe insulation","standalone acoustic barrier"],"required_inputs":["system","purpose","substrate","temperature","exposure"],"human_gates":["size","adhesion","fire_report_scope","BAL"]}
+```

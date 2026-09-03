@@ -33,3 +33,24 @@ An acoustic fence works as a complete barrier: height, continuity, gaps, line of
 ## Secondary owned source
 
 [Insulation Easy Australia legacy product page](https://insulationeasy.com.au/product/mass-loaded-vinyl-treated-for-uv-radiation-acoustic-sound-noise-barrier-fence-insulation/)
+
+## Deep-dive evidence dossier
+
+The owned secondary page describes a UV-treated MLV for acoustic fence/barrier use and currently indicates out-of-stock status. No current Thermotec page, data sheet, test report, warranty or supply confirmation is linked. This is a **candidate/legacy configuration**, not a recommendation-ready current family.
+
+An outdoor barrier works mainly by blocking line of sight and avoiding gaps. Height, length, mass, wind loading, supports, ground junction, returns, weathering and source/receiver geometry matter. MLV alone is not an engineered fence; never promise a dB reduction without site geometry and design. Do not adopt suggestions about painting ordinary MLV as a canonical Thermotec method.
+
+| Priority | Score / 5 | Confidence | Reason |
+|---|---:|---|---|
+| Acoustic comfort | 4 | Low | Relevant concept; current product/system evidence is missing. |
+| Energy efficiency | 1 | High | Not the intended function. |
+| Sustainability | 2 | Low | No current quantified evidence. |
+| Installation practicality | 2 | Medium | Outdoor support, wind and sealing require design. |
+| Compliance readiness | 1 | High | Identity and reports unresolved. |
+| BAL suitability | Gate | High | No BAL claim. |
+
+Capture address, source/receiver positions, target, geometry, wind exposure, support, BAL/fire requirement and quantity. State the concept may be relevant, but current status and engineered construction must be confirmed.
+
+```json
+{"family_id":"THERMOTEC_NUWAVE_FENCE_MLV","recommendation_level":"blocked_pending_manufacturer_verification","evidence":"owned_secondary_source_only","required_inputs":["site_geometry","noise_source","target","wind_exposure","support_system","BAL"],"human_gates":["identity","availability","datasheet","weathering","engineering","compliance"]}
+```

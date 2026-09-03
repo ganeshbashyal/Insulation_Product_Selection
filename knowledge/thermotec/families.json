@@ -14,6 +14,7 @@
       "score_notes": "Strong acoustic-barrier fit. Energy and sustainability are not its primary documented functions. Compliance depends on the complete construction.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "nuwave-mass-loaded-vinyl.md",
+      "detailed_knowledge_status": "complete_2026-09-04",
       "source_url": "https://thermotec.com.au/products/nuwave_mlv_acoustic_barriers_2",
       "questions": ["Is the noise airborne or impact noise?", "What is the complete wall, floor or ceiling build-up?", "Is there a target Rw/Rw+Ctr or consultant specification?"],
       "human_gates": ["Select grade only after system and target are known", "Verify fire, NCC and BAL requirements for the complete construction", "Product Rw is not the completed-system Rw"]
@@ -29,6 +30,7 @@
       "score_notes": "Purpose-led fit for floor impact noise. System performance and floor-finish compatibility require confirmation.",
       "confidence": "manufacturer_supported_performance_pending",
       "knowledge_file": "nuwave-underlay.md",
+      "detailed_knowledge_status": "complete_2026-09-04",
       "source_url": "https://thermotec.com.au/products/carpet-underlay",
       "questions": ["What floor finish will be installed?", "Is the concern impact noise, airborne noise, or both?", "Is there a body-corporate or consultant target?"],
       "human_gates": ["Verify floor-finish compatibility", "Confirm tested system or consultant requirement", "Do not promise an installed-system result from a component claim"]
@@ -44,6 +46,7 @@
       "score_notes": "Potential outdoor acoustic fit, but current manufacturer identity, availability and system evidence must be confirmed.",
       "confidence": "secondary_owned_source_only",
       "knowledge_file": "nuwave-fence-mlv.md",
+      "detailed_knowledge_status": "complete_2026-09-04",
       "source_url": "https://insulationeasy.com.au/product/mass-loaded-vinyl-treated-for-uv-radiation-acoustic-sound-noise-barrier-fence-insulation/",
       "questions": ["Is the barrier continuously exposed to weather and UV?", "What noise source, fence height and line-of-sight condition apply?", "Is current supply confirmed?"],
       "human_gates": ["Confirm current Thermotec product identity and availability", "Engineering review of the complete fence/barrier", "No BAL or fire claim without project evidence"]
@@ -59,6 +62,7 @@
       "score_notes": "Acoustic-barrier relevance is plausible; current manufacturer evidence and exact fire-test context are pending.",
       "confidence": "secondary_owned_source_only",
       "knowledge_file": "nuwave-foil-faced-mlv.md",
+      "detailed_knowledge_status": "complete_2026-09-04",
       "source_url": "https://insulationeasy.com.au/product/nuwave-4zero-foil-faced-mlv-soundproofing/",
       "questions": ["Why is a foil-faced configuration required?", "What surface mass and construction are specified?", "Is there a fire or project specification?"],
       "human_gates": ["Confirm current manufacturer technical data", "Review the exact fire report and application", "Do not confuse with Thermotec 4-Zero pipe insulation"]
@@ -74,6 +78,7 @@
       "score_notes": "Strong services-noise fit. Thermal and compliance outcomes depend on the service and complete installed system.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "nuwrap-5.md",
+      "detailed_knowledge_status": "complete_2026-09-04",
       "source_url": "https://thermotec.com.au/products/nuwrap-acoustic-lagging",
       "questions": ["What service and pipe/duct size is involved?", "Is the noise airborne breakout, vibration, or both?", "Is the service internal, external, hot, cold or fire-rated?"],
       "human_gates": ["Confirm service temperature and diameter", "Verify joints, penetrations and complete system", "Check fire and project specification"]
@@ -89,6 +94,7 @@
       "score_notes": "High installation-practicality relevance where flexibility is documented; confirm exact product variant and system.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "nuwrap-xtraflex.md",
+      "detailed_knowledge_status": "complete_2026-09-04",
       "source_url": "https://thermotec.com.au/products/thermotec_acoustic_nuwrap_xtraflex_2",
       "questions": ["Does access require a highly conformable lagging?", "What service, size and temperature apply?", "What acoustic target or consultant detail applies?"],
       "human_gates": ["Choose between NuWrap variants from current data", "Confirm service conditions", "Verify complete system and compliance"]
@@ -104,6 +110,7 @@
       "score_notes": "Strong thermal-services fit. Compliance score means useful documented evidence, not automatic project compliance.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "4-zero-pipe-insulation.md",
+      "detailed_knowledge_status": "complete_2026-09-04",
       "source_url": "https://thermotec.com.au/products/thermotec-4-zero",
       "questions": ["What is the pipe outside diameter and service temperature?", "What insulation thickness is required?", "What exact fire or project clause applies?"],
       "human_gates": ["Select diameter and thickness from design", "Retain exact fire-test context", "Confirm condensation, exposure and project requirements"]
@@ -119,6 +126,7 @@
       "score_notes": "Primary strength is thermal/condensation control with broad sizes and formats. Project compliance remains system-specific.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "e-flex-st.md",
+      "detailed_knowledge_status": "complete_2026-09-04",
       "source_url": "https://thermotec.com.au/products/thermotec-e-flex-st-hot-water-hvac-refrigeration-pipe-insulation",
       "questions": ["What is the pipe outside diameter?", "What fluid and operating temperature apply?", "Is the installation indoors, outdoors or UV exposed?", "Is tube, coil or self-seal preferred?"],
       "human_gates": ["Confirm thickness from thermal and condensation design", "Use HT rather than ST where exposure/temperature requires it", "No generic family R-value"]
@@ -134,6 +142,7 @@
       "score_notes": "Strong fit for higher-temperature and exposed pipe services; verify actual temperature, weathering and protection.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "e-flex-ht.md",
+      "detailed_knowledge_status": "complete_2026-09-04",
       "source_url": "https://thermotec.com.au/products/thermotec-e-flex-ht-solar-pipe-insulation",
       "questions": ["What are continuous and intermittent temperatures?", "Will the insulation be outdoors or UV exposed?", "What pipe diameter and thickness are required?"],
       "human_gates": ["Confirm documented temperature limit", "Confirm weather/mechanical protection", "Verify regulatory and system requirements"]
@@ -149,6 +158,7 @@
       "score_notes": "Strong high-temperature thermal fit; density is not Rw and final performance depends on thickness and system.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "rockwool-pipe-insulation.md",
+      "detailed_knowledge_status": "complete_2026-09-04",
       "source_url": "https://thermotec.com.au/products/thermotec-rockwool-pipe-insulation",
       "questions": ["What is the maximum service temperature?", "What pipe diameter and insulation thickness are specified?", "What jacketing and environmental exposure apply?"],
       "human_gates": ["Confirm temperature and thickness", "Select jacketing/protection", "Do not interpret density as an acoustic rating"]
@@ -164,6 +174,7 @@
       "score_notes": "Energy-efficiency relevance is high when correctly installed in a designed system. System R-values and condensation design need verification.",
       "confidence": "manufacturer_supported_performance_pending",
       "knowledge_file": "e-therm-reflective-insulation.md",
+      "detailed_knowledge_status": "complete_2026-09-04",
       "source_url": "https://thermotec.com.au/products/thermotec-e-therm-roof-wall-insulation",
       "questions": ["Is this a roof, wall, shed or conditioned building?", "What air spaces and roof/wall build-up are proposed?", "What climate zone and condensation requirements apply?"],
       "human_gates": ["Verify system R-value, not just product layer", "Check condensation and installation orientation", "Confirm NCC and project specification"]
@@ -179,6 +190,7 @@
       "score_notes": "An installation accessory rather than a stand-alone insulation solution; correct system compatibility matters.",
       "confidence": "manufacturer_supported_classification_pending",
       "knowledge_file": "maxtape-fr.md",
+      "detailed_knowledge_status": "complete_2026-09-04",
       "source_url": "https://thermotec.com.au/products/thermotec-maxflex-insulating-foam-tape",
       "questions": ["Which parent insulation system is being installed?", "Is the tape for joints, fittings or repair?", "Is a fire classification specified?"],
       "human_gates": ["Confirm compatibility with parent system", "Verify current fire-classification evidence", "Do not sell as stand-alone insulation"]
@@ -194,6 +206,7 @@
       "score_notes": "Not scored because the current product identity and technical source could not be verified.",
       "confidence": "identity_unverified",
       "knowledge_file": "maxflex-pipe.md",
+      "detailed_knowledge_status": "complete_2026-09-04",
       "source_url": "",
       "questions": ["Can purchasing or Thermotec confirm the current family name?", "Is this an E-Flex ST coil or a distinct product?", "Is a current technical data sheet available?"],
       "human_gates": ["Do not recommend, quote or map specifications until identity is verified", "Confirm both MPNs with manufacturer or purchasing records"]

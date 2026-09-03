@@ -39,3 +39,23 @@ Published shop variants include nominal 5, 7 and 8 mm products, with a listed ro
 
 [Thermotec E-Therm Reflective Roof and Wall Insulation](https://thermotec.com.au/products/thermotec-e-therm-roof-wall-insulation)
 
+## Deep-dive decision guidance
+
+E-Therm is double-sided reflective foam intended for suitable roof, wall and underfloor systems, particularly metal roofs and sheds. Its role combines a reflective surface with a foam core and water-resistant layer. Reflective performance depends on orientation to an appropriate airspace; never quote a universal system Total R-value from the product name alone.
+
+Use E-Therm where a reflective/foam layer matches the construction and condensation strategy. Use bulk Pink Batts/SupaBATT-type products where cavity material R-value is the primary need. In a hybrid system, both may be useful, but added R-values must follow the applicable calculation method rather than simple marketing arithmetic.
+
+| Priority | Score / 5 | Confidence | Reason |
+|---|---:|---|---|
+| Energy efficiency | 4 | Medium | Relevant when installed with the documented airspace/construction. |
+| Acoustic comfort | 2 | Low | Do not infer rain-noise or Rw performance. |
+| Sustainability | 3 | Low | No current quantified EPD is linked. |
+| Installation practicality | 4 | Medium | Flexible sheet format; laps, airspace and penetrations matter. |
+| Compliance readiness | 2 | Medium | System R-value and condensation design require project evidence. |
+| BAL suitability | Gate | High | Reflective facing is not BAL evidence. |
+
+Capture roof/wall/floor location, metal/tile construction, climate zone, airspace geometry, bulk insulation, condensation/vapour strategy, exposure, fire/BAL requirements and target Total R-value. Recommend the family only after confirming the assembly can provide the required airspace.
+
+```json
+{"family_id":"THERMOTEC_E_THERM","recommendation_level":"family_only","best_for":["reflective roof system","metal shed","wall or underfloor reflective layer"],"required_inputs":["element","construction","climate_zone","airspace","bulk_insulation","target_total_r","condensation_strategy"],"human_gates":["system_r_calculation","installation_detail","compliance","BAL"]}
+```

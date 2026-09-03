@@ -46,3 +46,23 @@ E-Flex ST and E-Flex HT are different product families. ST is the general HVAC, 
 
 [Thermotec E-Flex ST product page](https://thermotec.com.au/products/thermotec-e-flex-st-hot-water-hvac-refrigeration-pipe-insulation)
 
+## Deep-dive decision guidance
+
+E-Flex ST is closed-cell elastomeric foam for HVAC, refrigeration, hot-water and general plumbing. The current page states continuous use to 110 °C, internal diameters from 9 to 114 mm, wall thicknesses from 9 to 38 mm, 2 m tubes, and selected continuous-coil/self-seal options. It references AS/NZS 1530.3/BCA and NFPA 274 FRV testing; quote the exact result only from the applicable report.
+
+This family is the general-service choice. Move to E-Flex HT when actual temperature, solar duty, UV or weather exposure requires the EPDM higher-temperature family. Move to Rockwool Pipe for high industrial temperatures. Use 4-Zero when its factory aluminium facing and documented test context are specified.
+
+| Priority | Score / 5 | Confidence | Reason |
+|---|---:|---|---|
+| Energy efficiency | 5 | High | Primary thermal-service function. |
+| Acoustic comfort | 2 | Low | Do not invent an acoustic rating. |
+| Sustainability | 3 | Low | No family EPD is linked in this record. |
+| Installation practicality | 5 | High | Broad sizes, tube/coil and selected self-seal formats. |
+| Compliance readiness | 3 | Medium | Test references require application-specific verification. |
+| BAL suitability | Gate | High | No family-level BAL claim. |
+
+Capture pipe OD, service/fluid, operating and peak temperature, ambient design, indoor/outdoor exposure, required thickness, vapour-seal continuity and format preference. Never assign one generic R-value to this family: resistance varies with thickness, pipe geometry and temperature.
+
+```json
+{"family_id":"THERMOTEC_E_FLEX_ST","recommendation_level":"family_only","documented_limit_c_continuous":110,"range":{"id_mm":"9-114","wall_mm":"9-38","tube_length_m":2},"required_inputs":["pipe_od","fluid","temperature","ambient","exposure","thickness"],"human_gates":["sku","thermal_design","condensation","fire_report_scope","BAL"]}
+```

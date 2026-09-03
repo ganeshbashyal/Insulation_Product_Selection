@@ -40,3 +40,23 @@ Thermotec publishes a nominal density range of 115–140 kg/m³ and a maximum co
 
 [Thermotec Rockwool Pipe Insulation](https://thermotec.com.au/products/thermotec-rockwool-pipe-insulation)
 
+## Deep-dive decision guidance
+
+Thermotec describes preformed foil-faced rockwool/mineral-wool pipe sections for commercial and industrial service, with nominal density 115–140 kg/m³ and service temperature up to 650 °C. Density describes mass per volume; it is neither material R-value nor Rw. Thermal performance depends on thickness, mean temperature and pipe geometry.
+
+Choose this family for high-temperature/process/steam duties that exceed elastomeric limits. E-Flex ST/HT and 4-Zero are generally more practical for lower-temperature closed-cell condensation-control duties. The foil facing is not automatically weatherproof cladding; confirm jacketing for the actual environment.
+
+| Priority | Score / 5 | Confidence | Reason |
+|---|---:|---|---|
+| Energy efficiency | 5 | High | Strong high-temperature thermal fit. |
+| Acoustic comfort | 3 | Low | Fibrous mass may assist systems, but no product Rw is inferred. |
+| Sustainability | 3 | Low | No project-specific EPD is linked here. |
+| Installation practicality | 2 | Medium | Sections, joints and jacketing need skilled detailing. |
+| Compliance readiness | 3 | Medium | Temperature/material evidence exists; system evidence still needed. |
+| BAL suitability | Gate | High | Non-combustibility/BAL claims require exact evidence and assembly. |
+
+Capture pipe OD, service, operating/maximum temperature, insulation thickness, location, moisture/chemical exposure, jacketing, personnel-protection requirement and specification. Family recommendation only; engineering selects thickness, facing and SKU.
+
+```json
+{"family_id":"THERMOTEC_ROCKWOOL_PIPE","recommendation_level":"family_only","density_kg_m3":"115-140","documented_max_temperature_c":650,"required_inputs":["pipe_od","service","temperature","thickness","environment","jacketing"],"human_gates":["sku","thermal_design","material_compatibility","fire_evidence","BAL"]}
+```
