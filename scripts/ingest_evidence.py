@@ -26,28 +26,40 @@ class TextExtractor(HTMLParser):
             self.parts.append(value)
 
 
-def extract_text(content: bytes, content_type: str, url: str) -> str:
+def extract_candidates(content: bytes, content_type: str, url: str) -> tuple[list[dict], bool]:
+    pattern = re.compile(r"\b(Rw|NRC|αw|alpha w|R[- ]?value|AS/NZS|temperature|fire|vapour|permeance)\b", re.I)
     if "pdf" in content_type.casefold() or urlparse(url).path.casefold().endswith(".pdf"):
         from pypdf import PdfReader
-        return "\n".join(page.extract_text() or "" for page in PdfReader(BytesIO(content)).pages)
+        candidates = []
+        pages_with_text = 0
+        pages = PdfReader(BytesIO(content)).pages
+        for page_number, page in enumerate(pages, start=1):
+            page_text = page.extract_text() or ""
+            if page_text.strip():
+                pages_with_text += 1
+            for line in page_text.splitlines():
+                if pattern.search(line):
+                    candidates.append({"text": line.strip(), "page": page_number, "region": "text line; coordinates unavailable", "extractor_confidence": 0.75, "ocr_confidence": None})
+        return candidates[:200], bool(pages) and pages_with_text == 0
     parser = TextExtractor()
     parser.feed(content.decode("utf-8", errors="replace"))
-    return "\n".join(parser.parts)
+    candidates = [{"text": line, "page": None, "region": "HTML text block", "extractor_confidence": 0.8, "ocr_confidence": None} for line in parser.parts if pattern.search(line)]
+    return candidates[:200], False
 
 
-def candidate_lines(text: str) -> list[str]:
-    pattern = re.compile(r"\b(Rw|NRC|αw|alpha w|R[- ]?value|AS/NZS|temperature|fire|vapour|permeance)\b", re.I)
-    return [line.strip() for line in text.splitlines() if pattern.search(line)][:200]
-
-
-def ingest(family_id: str, url: str, output_dir: Path) -> Path:
+def ingest(family_id: str, url: str, output_dir: Path, raw_dir: Path) -> Path:
     request = Request(url, headers={"User-Agent": "InsulationEvidencePOC/1.0"})
     with urlopen(request, timeout=45) as response:
         content = response.read()
         content_type = response.headers.get_content_type()
     checksum = hashlib.sha256(content).hexdigest()
-    text = extract_text(content, content_type, url)
+    candidates, ocr_required = extract_candidates(content, content_type, url)
     timestamp = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    suffix = ".pdf" if "pdf" in content_type.casefold() or urlparse(url).path.casefold().endswith(".pdf") else ".html"
+    raw_dir.mkdir(parents=True, exist_ok=True)
+    raw_path = raw_dir / f"{checksum}{suffix}"
+    if not raw_path.exists():
+        raw_path.write_bytes(content)
     record = {
         "family_id": family_id,
         "source_url": url,
@@ -55,8 +67,11 @@ def ingest(family_id: str, url: str, output_dir: Path) -> Path:
         "sha256": checksum,
         "content_type": content_type,
         "review_status": "pending_human_review",
-        "candidate_lines": candidate_lines(text),
-        "review_instructions": "Compare each candidate with the source page/report. Add only approved claims to knowledge/performance_evidence.json with scope, variant, standard and test context.",
+        "raw_binary": str(raw_path.relative_to(ROOT)).replace("\\", "/"),
+        "ocr_required": ocr_required,
+        "auto_promotion_allowed": False,
+        "candidates": candidates,
+        "review_instructions": "Compare each candidate with the hashed raw source. Record page/region, scope, variant and standard. Only an authorised human may add verified_by and verified_at and promote a claim.",
     }
     output_dir.mkdir(parents=True, exist_ok=True)
     destination = output_dir / f"{family_id.casefold()}-{checksum[:10]}.json"
@@ -69,8 +84,9 @@ def main() -> None:
     parser.add_argument("--family-id", required=True)
     parser.add_argument("--url", required=True)
     parser.add_argument("--output-dir", type=Path, default=ROOT / "evidence" / "inbox")
+    parser.add_argument("--raw-dir", type=Path, default=ROOT / "evidence" / "raw")
     args = parser.parse_args()
-    print(ingest(args.family_id, args.url, args.output_dir))
+    print(ingest(args.family_id, args.url, args.output_dir, args.raw_dir))
 
 
 if __name__ == "__main__":

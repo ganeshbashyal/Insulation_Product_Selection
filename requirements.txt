@@ -3,3 +3,4 @@ openpyxl>=3.1
 jupyterlab>=4.0
 streamlit>=1.40
 pypdf>=5.0
+cryptography>=43.0

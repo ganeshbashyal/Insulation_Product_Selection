@@ -1,21 +1,18 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://insulation.local/schemas/families.schema.json",
+  "$id": "https://insulation.local/schemas/families-v2.schema.json",
   "title": "Product family catalogue",
   "type": "object",
   "required": ["schema_version", "scope", "rating_scale", "families"],
   "properties": {
-    "schema_version": {"type": "string", "const": "1.0"},
+    "schema_version": {"type": "string", "const": "2.0"},
     "scope": {"type": "string", "minLength": 1},
     "rating_scale": {"type": "string", "minLength": 1},
-    "families": {
-      "type": "array",
-      "minItems": 1,
-      "items": {"$ref": "#/$defs/family"}
-    }
+    "families": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/family"}}
   },
   "additionalProperties": false,
   "$defs": {
+    "uriOrNull": {"anyOf": [{"type": "string", "format": "uri", "pattern": "^https://"}, {"type": "null"}]},
     "family": {
       "type": "object",
       "required": ["family_id", "name", "category", "primary_function", "applications", "keywords", "scores", "score_notes", "confidence", "knowledge_file", "source_url", "questions", "human_gates"],
@@ -40,11 +37,11 @@
         },
         "score_notes": {"type": "string", "minLength": 1},
         "manufacturer": {"type": "string", "enum": ["Thermotec", "Fletcher"]},
-        "confidence": {"type": "string", "minLength": 1},
+        "confidence": {"enum": ["manufacturer_supported", "manufacturer_supported_performance_pending", "manufacturer_supported_classification_pending", "manufacturer_supported_identity_review", "manufacturer_supported_variant_review", "secondary_owned_source_only", "identity_unverified"]},
         "knowledge_file": {"type": "string", "pattern": "^[^/\\\\]+\\.md$"},
         "detailed_knowledge_status": {"type": "string"},
-        "source_url": {"type": "string"},
-        "datasheet_url": {"type": "string"},
+        "source_url": {"$ref": "#/$defs/uriOrNull"},
+        "datasheet_url": {"$ref": "#/$defs/uriOrNull"},
         "questions": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
         "human_gates": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}}
       },

@@ -1,46 +1,788 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "2.0",
   "families": [
     {
       "family_id": "THERMOTEC_NUWAVE_BASE_MLV",
       "automation_status": "enabled_family_only",
       "evidence_items": [
-        {"evidence_id":"NUWAVE-RW-2KG","metric_type":"acoustic_rw","value":24,"unit":"dB","scope":"product","variant":"2 kg/m²","test_standard":"Manufacturer datasheet","test_context":"Product-only laboratory rating; not a completed wall, floor or ceiling system rating.","source_url":"https://thermotec.com.au/products/nuwave_mlv_acoustic_barriers_2","source_type":"manufacturer","evidence_status":"verified","reviewed_at":"2026-09-04","notes":"Use only to compare NuWave grades."},
-        {"evidence_id":"NUWAVE-RW-4KG","metric_type":"acoustic_rw","value":26,"unit":"dB","scope":"product","variant":"4 kg/m²","test_standard":"Manufacturer datasheet","test_context":"Product-only laboratory rating; not installed-system performance.","source_url":"https://thermotec.com.au/products/nuwave_mlv_acoustic_barriers_2","source_type":"manufacturer","evidence_status":"verified","reviewed_at":"2026-09-04","notes":"Use only to compare NuWave grades."},
-        {"evidence_id":"NUWAVE-RW-6KG","metric_type":"acoustic_rw","value":29,"unit":"dB","scope":"product","variant":"6 kg/m²","test_standard":"Manufacturer datasheet","test_context":"Product-only laboratory rating; not installed-system performance.","source_url":"https://thermotec.com.au/products/nuwave_mlv_acoustic_barriers_2","source_type":"manufacturer","evidence_status":"verified","reviewed_at":"2026-09-04","notes":"Use only to compare NuWave grades."},
-        {"evidence_id":"NUWAVE-RW-8KG","metric_type":"acoustic_rw","value":30,"unit":"dB","scope":"product","variant":"8 kg/m²","test_standard":"Manufacturer datasheet","test_context":"Product-only laboratory rating; not installed-system performance.","source_url":"https://thermotec.com.au/products/nuwave_mlv_acoustic_barriers_2","source_type":"manufacturer","evidence_status":"verified","reviewed_at":"2026-09-04","notes":"Use only to compare NuWave grades."},
-        {"evidence_id":"NUWAVE-RW-10KG","metric_type":"acoustic_rw","value":34,"unit":"dB","scope":"product","variant":"10 kg/m²","test_standard":"Manufacturer datasheet","test_context":"Product-only laboratory rating; not installed-system performance.","source_url":"https://thermotec.com.au/products/nuwave_mlv_acoustic_barriers_2","source_type":"manufacturer","evidence_status":"verified","reviewed_at":"2026-09-04","notes":"Use only to compare NuWave grades."}
+        {
+          "evidence_id": "NUWAVE-RW-2KG",
+          "metric_type": "acoustic_rw",
+          "value": 24,
+          "unit": "dB",
+          "scope": "product",
+          "variant": "2 kg/m²",
+          "test_standard": "Manufacturer datasheet",
+          "test_context": "Product-only laboratory rating; not a completed wall, floor or ceiling system rating.",
+          "source_url": "https://thermotec.com.au/products/nuwave_mlv_acoustic_barriers_2",
+          "source_type": "manufacturer",
+          "evidence_status": "pending_human_review",
+          "notes": "Use only to compare NuWave grades.",
+          "value_type": "scalar",
+          "source_locator": "Source page; exact section or page locator pending",
+          "extraction_method": "legacy_migration",
+          "extractor_confidence": 0.75,
+          "ocr_confidence": null,
+          "verified_by": null,
+          "verified_at": null
+        },
+        {
+          "evidence_id": "NUWAVE-RW-4KG",
+          "metric_type": "acoustic_rw",
+          "value": 26,
+          "unit": "dB",
+          "scope": "product",
+          "variant": "4 kg/m²",
+          "test_standard": "Manufacturer datasheet",
+          "test_context": "Product-only laboratory rating; not installed-system performance.",
+          "source_url": "https://thermotec.com.au/products/nuwave_mlv_acoustic_barriers_2",
+          "source_type": "manufacturer",
+          "evidence_status": "pending_human_review",
+          "notes": "Use only to compare NuWave grades.",
+          "value_type": "scalar",
+          "source_locator": "Source page; exact section or page locator pending",
+          "extraction_method": "legacy_migration",
+          "extractor_confidence": 0.75,
+          "ocr_confidence": null,
+          "verified_by": null,
+          "verified_at": null
+        },
+        {
+          "evidence_id": "NUWAVE-RW-6KG",
+          "metric_type": "acoustic_rw",
+          "value": 29,
+          "unit": "dB",
+          "scope": "product",
+          "variant": "6 kg/m²",
+          "test_standard": "Manufacturer datasheet",
+          "test_context": "Product-only laboratory rating; not installed-system performance.",
+          "source_url": "https://thermotec.com.au/products/nuwave_mlv_acoustic_barriers_2",
+          "source_type": "manufacturer",
+          "evidence_status": "pending_human_review",
+          "notes": "Use only to compare NuWave grades.",
+          "value_type": "scalar",
+          "source_locator": "Source page; exact section or page locator pending",
+          "extraction_method": "legacy_migration",
+          "extractor_confidence": 0.75,
+          "ocr_confidence": null,
+          "verified_by": null,
+          "verified_at": null
+        },
+        {
+          "evidence_id": "NUWAVE-RW-8KG",
+          "metric_type": "acoustic_rw",
+          "value": 30,
+          "unit": "dB",
+          "scope": "product",
+          "variant": "8 kg/m²",
+          "test_standard": "Manufacturer datasheet",
+          "test_context": "Product-only laboratory rating; not installed-system performance.",
+          "source_url": "https://thermotec.com.au/products/nuwave_mlv_acoustic_barriers_2",
+          "source_type": "manufacturer",
+          "evidence_status": "pending_human_review",
+          "notes": "Use only to compare NuWave grades.",
+          "value_type": "scalar",
+          "source_locator": "Source page; exact section or page locator pending",
+          "extraction_method": "legacy_migration",
+          "extractor_confidence": 0.75,
+          "ocr_confidence": null,
+          "verified_by": null,
+          "verified_at": null
+        },
+        {
+          "evidence_id": "NUWAVE-RW-10KG",
+          "metric_type": "acoustic_rw",
+          "value": 34,
+          "unit": "dB",
+          "scope": "product",
+          "variant": "10 kg/m²",
+          "test_standard": "Manufacturer datasheet",
+          "test_context": "Product-only laboratory rating; not installed-system performance.",
+          "source_url": "https://thermotec.com.au/products/nuwave_mlv_acoustic_barriers_2",
+          "source_type": "manufacturer",
+          "evidence_status": "pending_human_review",
+          "notes": "Use only to compare NuWave grades.",
+          "value_type": "scalar",
+          "source_locator": "Source page; exact section or page locator pending",
+          "extraction_method": "legacy_migration",
+          "extractor_confidence": 0.75,
+          "ocr_confidence": null,
+          "verified_by": null,
+          "verified_at": null
+        }
       ]
     },
-    {"family_id":"THERMOTEC_NUWAVE_UNDERLAY","automation_status":"pending_review","evidence_items":[]},
-    {"family_id":"THERMOTEC_NUWAVE_FENCE_MLV","automation_status":"blocked_evidence","evidence_items":[]},
-    {"family_id":"THERMOTEC_NUWAVE_FOIL_FACED_MLV","automation_status":"blocked_evidence","evidence_items":[]},
-    {"family_id":"THERMOTEC_NUWRAP_5","automation_status":"enabled_family_only","evidence_items":[{"evidence_id":"NUWRAP5-FIRE-CONTEXT","metric_type":"fire_class","value":"Test references recorded; classification extraction pending","unit":"","scope":"product","variant":"NuWrap 5","test_standard":"AS/NZS 1530.3; BS 476 Parts 6 and 7","test_context":"Standards are references, not a project compliance determination.","source_url":"https://thermotec.com.au/products/nuwrap-acoustic-lagging","source_type":"manufacturer","evidence_status":"pending_human_review","reviewed_at":"2026-09-04","notes":"Attach and verify the actual reports before quoting a classification."}]},
-    {"family_id":"THERMOTEC_NUWRAP_XTRAFLEX","automation_status":"enabled_family_only","evidence_items":[]},
-    {"family_id":"THERMOTEC_4_ZERO","automation_status":"enabled_family_only","evidence_items":[{"evidence_id":"4ZERO-FIRE-CONTEXT","metric_type":"fire_class","value":"Fire-retardant product; exact classification pending report review","unit":"","scope":"product","variant":"4-Zero","test_standard":"Manufacturer technical literature","test_context":"Do not infer building-system or NCC compliance.","source_url":"https://thermotec.com.au/products/thermotec-4-zero","source_type":"manufacturer","evidence_status":"pending_human_review","reviewed_at":"2026-09-04","notes":"Exact report and tested configuration required."}]},
-    {"family_id":"THERMOTEC_E_FLEX_ST","automation_status":"enabled_family_only","evidence_items":[{"evidence_id":"EFLEXST-TEMP","metric_type":"temperature_limit","value":110,"unit":"°C continuous","scope":"product","variant":"E-Flex ST","test_standard":"Manufacturer technical literature","test_context":"Maximum continuous service-temperature statement; selection also depends on diameter, thickness, exposure and service.","source_url":"https://thermotec.com.au/products/thermotec-e-flex-st-hot-water-hvac-refrigeration-pipe-insulation","source_type":"manufacturer","evidence_status":"verified","reviewed_at":"2026-09-04","notes":"Confirm the current TDS for the ordered SKU."}]},
-    {"family_id":"THERMOTEC_E_FLEX_HT","automation_status":"enabled_family_only","evidence_items":[{"evidence_id":"EFLEXHT-TEMP-CONT","metric_type":"temperature_limit","value":150,"unit":"°C continuous","scope":"product","variant":"E-Flex HT","test_standard":"Manufacturer technical literature","test_context":"Continuous service-temperature statement.","source_url":"https://thermotec.com.au/products/thermotec-e-flex-ht-solar-pipe-insulation","source_type":"manufacturer","evidence_status":"verified","reviewed_at":"2026-09-04","notes":"Confirm ordered SKU and current TDS."},{"evidence_id":"EFLEXHT-TEMP-INT","metric_type":"temperature_limit","value":175,"unit":"°C intermittent","scope":"product","variant":"E-Flex HT","test_standard":"Manufacturer technical literature","test_context":"Intermittent limit; not a continuous design temperature.","source_url":"https://thermotec.com.au/products/thermotec-e-flex-ht-solar-pipe-insulation","source_type":"manufacturer","evidence_status":"verified","reviewed_at":"2026-09-04","notes":"Confirm duty cycle and current TDS."}]},
-    {"family_id":"THERMOTEC_ROCKWOOL_PIPE","automation_status":"enabled_family_only","evidence_items":[{"evidence_id":"ROCKWOOL-TEMP","metric_type":"temperature_limit","value":650,"unit":"°C maximum","scope":"product","variant":"Rockwool pipe insulation","test_standard":"Manufacturer technical literature","test_context":"Maximum service-temperature statement; facing, binder, joints and support details can impose lower limits.","source_url":"https://thermotec.com.au/products/thermotec-rockwool-pipe-insulation","source_type":"manufacturer","evidence_status":"verified","reviewed_at":"2026-09-04","notes":"Engineering review is required for high-temperature service."},{"evidence_id":"ROCKWOOL-DENSITY","metric_type":"density","value":"115–140","unit":"kg/m³","scope":"material","variant":"Product range","test_standard":"Manufacturer technical literature","test_context":"Published range; exact SKU density requires confirmation.","source_url":"https://thermotec.com.au/products/thermotec-rockwool-pipe-insulation","source_type":"manufacturer","evidence_status":"verified","reviewed_at":"2026-09-04","notes":"Do not assign the range to an individual SKU without its TDS."}]},
-    {"family_id":"THERMOTEC_E_THERM","automation_status":"pending_review","evidence_items":[]},
-    {"family_id":"THERMOTEC_MAXTAPE_FR","automation_status":"pending_review","evidence_items":[]},
-    {"family_id":"THERMOTEC_MAXFLEX_PIPE","automation_status":"blocked_evidence","evidence_items":[]},
-    {"family_id":"FLETCHER_PINK_BATTS_WALL","automation_status":"enabled_family_only","evidence_items":[{"evidence_id":"PBW-R15","metric_type":"thermal_r","value":1.5,"unit":"m²·K/W","scope":"product","variant":"70 mm wall batt","test_standard":"Manufacturer product literature","test_context":"Material R-value for the named product variant, not total wall-system R-value.","source_url":"https://insulation.com.au/product/pink-batts-insulation/","source_type":"manufacturer","evidence_status":"verified","reviewed_at":"2026-09-04","notes":"Confirm pack/SKU before quotation."},{"evidence_id":"PBW-R20","metric_type":"thermal_r","value":2.0,"unit":"m²·K/W","scope":"product","variant":"90 mm wall batt","test_standard":"Manufacturer product literature","test_context":"Material R-value; not total system R-value.","source_url":"https://insulation.com.au/product/pink-batts-insulation/","source_type":"manufacturer","evidence_status":"verified","reviewed_at":"2026-09-04","notes":"Confirm pack/SKU."},{"evidence_id":"PBW-R25HD","metric_type":"thermal_r","value":2.5,"unit":"m²·K/W","scope":"product","variant":"90 mm high-density wall batt","test_standard":"Manufacturer product literature","test_context":"Material R-value; not total system R-value.","source_url":"https://insulation.com.au/product/pink-batts-insulation/","source_type":"manufacturer","evidence_status":"verified","reviewed_at":"2026-09-04","notes":"Confirm high-density SKU."}]},
-    {"family_id":"FLETCHER_PINK_BATTS_CEILING","automation_status":"enabled_family_only","evidence_items":[{"evidence_id":"PBC-R25","metric_type":"thermal_r","value":2.5,"unit":"m²·K/W","scope":"product","variant":"Ceiling batt range","test_standard":"Manufacturer product literature","test_context":"Material R-value; exact thickness and SKU must match current pack data.","source_url":"https://insulation.com.au/product/pink-batts-ceiling-insulation/","source_type":"manufacturer","evidence_status":"verified","reviewed_at":"2026-09-04","notes":"Representative lower range value."},{"evidence_id":"PBC-R60","metric_type":"thermal_r","value":6.0,"unit":"m²·K/W","scope":"product","variant":"Ceiling batt range","test_standard":"Manufacturer product literature","test_context":"Material R-value; exact thickness and SKU must match current pack data.","source_url":"https://insulation.com.au/product/pink-batts-ceiling-insulation/","source_type":"manufacturer","evidence_status":"verified","reviewed_at":"2026-09-04","notes":"Representative upper range value; do not infer availability."}]},
-    {"family_id":"FLETCHER_PINK_BATTS_FLOOR","automation_status":"enabled_family_only","evidence_items":[]},
-    {"family_id":"FLETCHER_SOUNDBREAK","automation_status":"enabled_family_only","evidence_items":[{"evidence_id":"SOUNDBREAK-RANGE-R","metric_type":"thermal_r","value":"R1.7–R3.1","unit":"m²·K/W","scope":"product","variant":"Current Soundbreak range","test_standard":"Manufacturer product literature","test_context":"Variant-dependent material R-values; never treat as acoustic Rw.","source_url":"https://insulation.com.au/product/soundbreak/","source_type":"manufacturer","evidence_status":"verified","reviewed_at":"2026-09-04","notes":"Use the SKU dataset for individual variants."},{"evidence_id":"SOUNDBREAK-ABSORPTION","metric_type":"acoustic_nrc","value":"Variant/frequency dependent","unit":"NRC / αw","scope":"product","variant":"Current Soundbreak range","test_standard":"Manufacturer acoustic test data","test_context":"Absorption rating for batt variants; not wall-system Rw.","source_url":"https://insulation.com.au/product/soundbreak/","source_type":"manufacturer","evidence_status":"pending_human_review","reviewed_at":"2026-09-04","notes":"Individual NRC/αw rows must retain thickness and test context."}]},
-    {"family_id":"FLETCHER_PINK_PARTITION","automation_status":"enabled_family_only","evidence_items":[]},
-    {"family_id":"FLETCHER_FI32_SEMI_RIGID","automation_status":"enabled_family_only","evidence_items":[{"evidence_id":"FI32-R-RANGE","metric_type":"thermal_r","value":"R0.71 at 25 mm to R3.0 at 100 mm","unit":"m²·K/W","scope":"product","variant":"FI32 thickness range","test_standard":"Manufacturer product literature","test_context":"Material R-value varies by thickness; exact SKU mapping required.","source_url":"https://insulation.com.au/product/fi32-semi-rigid-insulation/","source_type":"manufacturer","evidence_status":"verified","reviewed_at":"2026-09-04","notes":"Never substitute a range endpoint for an SKU value."}]},
-    {"family_id":"FLETCHER_FI24_FLEX_DUCTLINER","automation_status":"blocked_evidence","evidence_items":[]},
-    {"family_id":"FLETCHER_PINK_THERMAL_SLAB","automation_status":"enabled_family_only","evidence_items":[]},
-    {"family_id":"FLETCHER_PARTY_WALL_STONEWOOL","automation_status":"enabled_family_only","evidence_items":[]},
-    {"family_id":"FLETCHER_PERMASTOP","automation_status":"enabled_family_only","evidence_items":[]},
-    {"family_id":"FLETCHER_VAPAWRAP_WALL","automation_status":"enabled_family_only","evidence_items":[{"evidence_id":"VAPAWRAP-WALL-VAPOUR","metric_type":"vapour_class","value":"Class 4","unit":"AS 4200.1 classification","scope":"product","variant":"Residential wall wrap","test_standard":"AS 4200.1","test_context":"Product classification must still be checked against climate zone, wall build-up and current NCC adoption.","source_url":"https://insulation.com.au/product/sisalation-vapawrap-residential-wall-wrap/","source_type":"manufacturer","evidence_status":"verified","reviewed_at":"2026-09-04","notes":"Not a blanket statement of project compliance."}]},
-    {"family_id":"FLETCHER_VAPAWRAP_METAL_ROOF","automation_status":"enabled_family_only","evidence_items":[]},
-    {"family_id":"FLETCHER_SISALATION_WRAP","automation_status":"pending_review","evidence_items":[]},
-    {"family_id":"FLETCHER_FOAM_BUBBLE_CELL","automation_status":"pending_review","evidence_items":[]},
-    {"family_id":"FLETCHER_SUPABATT","automation_status":"enabled_family_only","evidence_items":[]},
-    {"family_id":"FLETCHER_TAPES_ACCESSORIES","automation_status":"pending_review","evidence_items":[]},
-    {"family_id":"FLETCHER_SAFE_N_SILENT_LEGACY","automation_status":"blocked_evidence","evidence_items":[]},
-    {"family_id":"FLETCHER_FF_HD_LEGACY","automation_status":"blocked_evidence","evidence_items":[]}
+    {
+      "family_id": "THERMOTEC_NUWAVE_UNDERLAY",
+      "automation_status": "pending_review",
+      "evidence_items": []
+    },
+    {
+      "family_id": "THERMOTEC_NUWAVE_FENCE_MLV",
+      "automation_status": "blocked_evidence",
+      "evidence_items": []
+    },
+    {
+      "family_id": "THERMOTEC_NUWAVE_FOIL_FACED_MLV",
+      "automation_status": "blocked_evidence",
+      "evidence_items": []
+    },
+    {
+      "family_id": "THERMOTEC_NUWRAP_5",
+      "automation_status": "enabled_family_only",
+      "evidence_items": [
+        {
+          "evidence_id": "NUWRAP5-FIRE-CONTEXT",
+          "metric_type": "fire_class",
+          "value": "Test references recorded; classification extraction pending",
+          "unit": "",
+          "scope": "product",
+          "variant": "NuWrap 5",
+          "test_standard": "AS/NZS 1530.3; BS 476 Parts 6 and 7",
+          "test_context": "Standards are references, not a project compliance determination.",
+          "source_url": "https://thermotec.com.au/products/nuwrap-acoustic-lagging",
+          "source_type": "manufacturer",
+          "evidence_status": "pending_human_review",
+          "notes": "Attach and verify the actual reports before quoting a classification.",
+          "value_type": "text_classification",
+          "source_locator": "Source page; exact section or page locator pending",
+          "extraction_method": "legacy_migration",
+          "extractor_confidence": 0.75,
+          "ocr_confidence": null,
+          "verified_by": null,
+          "verified_at": null
+        }
+      ]
+    },
+    {
+      "family_id": "THERMOTEC_NUWRAP_XTRAFLEX",
+      "automation_status": "enabled_family_only",
+      "evidence_items": [
+        {
+          "evidence_id": "THERMOTEC_NUWRAP_XTRAFLEX-IDENTITY",
+          "metric_type": "product_identity",
+          "value": "Manufacturer page identifies the named product family",
+          "value_type": "text_classification",
+          "unit": "",
+          "scope": "product",
+          "variant": "Family identity",
+          "test_standard": "Not applicable",
+          "test_context": "Identity pointer only; it does not establish performance or compliance.",
+          "source_url": "https://thermotec.com.au/products/thermotec_acoustic_nuwrap_xtraflex_2",
+          "source_type": "manufacturer_page",
+          "source_locator": "Manufacturer product-page title and product description",
+          "extraction_method": "manufacturer_page_link",
+          "extractor_confidence": 1.0,
+          "ocr_confidence": null,
+          "evidence_status": "pending_human_review",
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "An authorised reviewer must confirm this is the current manufacturer family before verification."
+        }
+      ]
+    },
+    {
+      "family_id": "THERMOTEC_4_ZERO",
+      "automation_status": "enabled_family_only",
+      "evidence_items": [
+        {
+          "evidence_id": "4ZERO-FIRE-CONTEXT",
+          "metric_type": "fire_class",
+          "value": "Fire-retardant product; exact classification pending report review",
+          "unit": "",
+          "scope": "product",
+          "variant": "4-Zero",
+          "test_standard": "Manufacturer technical literature",
+          "test_context": "Do not infer building-system or NCC compliance.",
+          "source_url": "https://thermotec.com.au/products/thermotec-4-zero",
+          "source_type": "manufacturer",
+          "evidence_status": "pending_human_review",
+          "notes": "Exact report and tested configuration required.",
+          "value_type": "text_classification",
+          "source_locator": "Source page; exact section or page locator pending",
+          "extraction_method": "legacy_migration",
+          "extractor_confidence": 0.75,
+          "ocr_confidence": null,
+          "verified_by": null,
+          "verified_at": null
+        }
+      ]
+    },
+    {
+      "family_id": "THERMOTEC_E_FLEX_ST",
+      "automation_status": "enabled_family_only",
+      "evidence_items": [
+        {
+          "evidence_id": "EFLEXST-TEMP",
+          "metric_type": "temperature_limit",
+          "value": 110,
+          "unit": "°C continuous",
+          "scope": "product",
+          "variant": "E-Flex ST",
+          "test_standard": "Manufacturer technical literature",
+          "test_context": "Maximum continuous service-temperature statement; selection also depends on diameter, thickness, exposure and service.",
+          "source_url": "https://thermotec.com.au/products/thermotec-e-flex-st-hot-water-hvac-refrigeration-pipe-insulation",
+          "source_type": "manufacturer",
+          "evidence_status": "pending_human_review",
+          "notes": "Confirm the current TDS for the ordered SKU.",
+          "value_type": "scalar",
+          "source_locator": "Source page; exact section or page locator pending",
+          "extraction_method": "legacy_migration",
+          "extractor_confidence": 0.75,
+          "ocr_confidence": null,
+          "verified_by": null,
+          "verified_at": null
+        }
+      ]
+    },
+    {
+      "family_id": "THERMOTEC_E_FLEX_HT",
+      "automation_status": "enabled_family_only",
+      "evidence_items": [
+        {
+          "evidence_id": "EFLEXHT-TEMP-CONT",
+          "metric_type": "temperature_limit",
+          "value": 150,
+          "unit": "°C continuous",
+          "scope": "product",
+          "variant": "E-Flex HT",
+          "test_standard": "Manufacturer technical literature",
+          "test_context": "Continuous service-temperature statement.",
+          "source_url": "https://thermotec.com.au/products/thermotec-e-flex-ht-solar-pipe-insulation",
+          "source_type": "manufacturer",
+          "evidence_status": "pending_human_review",
+          "notes": "Confirm ordered SKU and current TDS.",
+          "value_type": "scalar",
+          "source_locator": "Source page; exact section or page locator pending",
+          "extraction_method": "legacy_migration",
+          "extractor_confidence": 0.75,
+          "ocr_confidence": null,
+          "verified_by": null,
+          "verified_at": null
+        },
+        {
+          "evidence_id": "EFLEXHT-TEMP-INT",
+          "metric_type": "temperature_limit",
+          "value": 175,
+          "unit": "°C intermittent",
+          "scope": "product",
+          "variant": "E-Flex HT",
+          "test_standard": "Manufacturer technical literature",
+          "test_context": "Intermittent limit; not a continuous design temperature.",
+          "source_url": "https://thermotec.com.au/products/thermotec-e-flex-ht-solar-pipe-insulation",
+          "source_type": "manufacturer",
+          "evidence_status": "pending_human_review",
+          "notes": "Confirm duty cycle and current TDS.",
+          "value_type": "scalar",
+          "source_locator": "Source page; exact section or page locator pending",
+          "extraction_method": "legacy_migration",
+          "extractor_confidence": 0.75,
+          "ocr_confidence": null,
+          "verified_by": null,
+          "verified_at": null
+        }
+      ]
+    },
+    {
+      "family_id": "THERMOTEC_ROCKWOOL_PIPE",
+      "automation_status": "enabled_family_only",
+      "evidence_items": [
+        {
+          "evidence_id": "ROCKWOOL-TEMP",
+          "metric_type": "temperature_limit",
+          "value": 650,
+          "unit": "°C maximum",
+          "scope": "product",
+          "variant": "Rockwool pipe insulation",
+          "test_standard": "Manufacturer technical literature",
+          "test_context": "Maximum service-temperature statement; facing, binder, joints and support details can impose lower limits.",
+          "source_url": "https://thermotec.com.au/products/thermotec-rockwool-pipe-insulation",
+          "source_type": "manufacturer",
+          "evidence_status": "pending_human_review",
+          "notes": "Engineering review is required for high-temperature service.",
+          "value_type": "scalar",
+          "source_locator": "Source page; exact section or page locator pending",
+          "extraction_method": "legacy_migration",
+          "extractor_confidence": 0.75,
+          "ocr_confidence": null,
+          "verified_by": null,
+          "verified_at": null
+        },
+        {
+          "evidence_id": "ROCKWOOL-DENSITY",
+          "metric_type": "density",
+          "value": "115–140",
+          "unit": "kg/m³",
+          "scope": "material",
+          "variant": "Product range",
+          "test_standard": "Manufacturer technical literature",
+          "test_context": "Published range; exact SKU density requires confirmation.",
+          "source_url": "https://thermotec.com.au/products/thermotec-rockwool-pipe-insulation",
+          "source_type": "manufacturer",
+          "evidence_status": "pending_human_review",
+          "notes": "Do not assign the range to an individual SKU without its TDS.",
+          "value_type": "range",
+          "source_locator": "Source page; exact section or page locator pending",
+          "extraction_method": "legacy_migration",
+          "extractor_confidence": 0.75,
+          "ocr_confidence": null,
+          "verified_by": null,
+          "verified_at": null
+        }
+      ]
+    },
+    {
+      "family_id": "THERMOTEC_E_THERM",
+      "automation_status": "pending_review",
+      "evidence_items": []
+    },
+    {
+      "family_id": "THERMOTEC_MAXTAPE_FR",
+      "automation_status": "pending_review",
+      "evidence_items": []
+    },
+    {
+      "family_id": "THERMOTEC_MAXFLEX_PIPE",
+      "automation_status": "blocked_evidence",
+      "evidence_items": []
+    },
+    {
+      "family_id": "FLETCHER_PINK_BATTS_WALL",
+      "automation_status": "enabled_family_only",
+      "evidence_items": [
+        {
+          "evidence_id": "PBW-R15",
+          "metric_type": "thermal_r",
+          "value": 1.5,
+          "unit": "m²·K/W",
+          "scope": "product",
+          "variant": "70 mm wall batt",
+          "test_standard": "Manufacturer product literature",
+          "test_context": "Material R-value for the named product variant, not total wall-system R-value.",
+          "source_url": "https://insulation.com.au/product/pink-batts-insulation/",
+          "source_type": "manufacturer",
+          "evidence_status": "pending_human_review",
+          "notes": "Confirm pack/SKU before quotation.",
+          "value_type": "scalar",
+          "source_locator": "Source page; exact section or page locator pending",
+          "extraction_method": "legacy_migration",
+          "extractor_confidence": 0.75,
+          "ocr_confidence": null,
+          "verified_by": null,
+          "verified_at": null
+        },
+        {
+          "evidence_id": "PBW-R20",
+          "metric_type": "thermal_r",
+          "value": 2.0,
+          "unit": "m²·K/W",
+          "scope": "product",
+          "variant": "90 mm wall batt",
+          "test_standard": "Manufacturer product literature",
+          "test_context": "Material R-value; not total system R-value.",
+          "source_url": "https://insulation.com.au/product/pink-batts-insulation/",
+          "source_type": "manufacturer",
+          "evidence_status": "pending_human_review",
+          "notes": "Confirm pack/SKU.",
+          "value_type": "scalar",
+          "source_locator": "Source page; exact section or page locator pending",
+          "extraction_method": "legacy_migration",
+          "extractor_confidence": 0.75,
+          "ocr_confidence": null,
+          "verified_by": null,
+          "verified_at": null
+        },
+        {
+          "evidence_id": "PBW-R25HD",
+          "metric_type": "thermal_r",
+          "value": 2.5,
+          "unit": "m²·K/W",
+          "scope": "product",
+          "variant": "90 mm high-density wall batt",
+          "test_standard": "Manufacturer product literature",
+          "test_context": "Material R-value; not total system R-value.",
+          "source_url": "https://insulation.com.au/product/pink-batts-insulation/",
+          "source_type": "manufacturer",
+          "evidence_status": "pending_human_review",
+          "notes": "Confirm high-density SKU.",
+          "value_type": "scalar",
+          "source_locator": "Source page; exact section or page locator pending",
+          "extraction_method": "legacy_migration",
+          "extractor_confidence": 0.75,
+          "ocr_confidence": null,
+          "verified_by": null,
+          "verified_at": null
+        }
+      ]
+    },
+    {
+      "family_id": "FLETCHER_PINK_BATTS_CEILING",
+      "automation_status": "enabled_family_only",
+      "evidence_items": [
+        {
+          "evidence_id": "PBC-R25",
+          "metric_type": "thermal_r",
+          "value": 2.5,
+          "unit": "m²·K/W",
+          "scope": "product",
+          "variant": "Ceiling batt range",
+          "test_standard": "Manufacturer product literature",
+          "test_context": "Material R-value; exact thickness and SKU must match current pack data.",
+          "source_url": "https://insulation.com.au/product/pink-batts-ceiling-insulation/",
+          "source_type": "manufacturer",
+          "evidence_status": "pending_human_review",
+          "notes": "Representative lower range value.",
+          "value_type": "scalar",
+          "source_locator": "Source page; exact section or page locator pending",
+          "extraction_method": "legacy_migration",
+          "extractor_confidence": 0.75,
+          "ocr_confidence": null,
+          "verified_by": null,
+          "verified_at": null
+        },
+        {
+          "evidence_id": "PBC-R60",
+          "metric_type": "thermal_r",
+          "value": 6.0,
+          "unit": "m²·K/W",
+          "scope": "product",
+          "variant": "Ceiling batt range",
+          "test_standard": "Manufacturer product literature",
+          "test_context": "Material R-value; exact thickness and SKU must match current pack data.",
+          "source_url": "https://insulation.com.au/product/pink-batts-ceiling-insulation/",
+          "source_type": "manufacturer",
+          "evidence_status": "pending_human_review",
+          "notes": "Representative upper range value; do not infer availability.",
+          "value_type": "scalar",
+          "source_locator": "Source page; exact section or page locator pending",
+          "extraction_method": "legacy_migration",
+          "extractor_confidence": 0.75,
+          "ocr_confidence": null,
+          "verified_by": null,
+          "verified_at": null
+        }
+      ]
+    },
+    {
+      "family_id": "FLETCHER_PINK_BATTS_FLOOR",
+      "automation_status": "enabled_family_only",
+      "evidence_items": [
+        {
+          "evidence_id": "FLETCHER_PINK_BATTS_FLOOR-IDENTITY",
+          "metric_type": "product_identity",
+          "value": "Manufacturer page identifies the named product family",
+          "value_type": "text_classification",
+          "unit": "",
+          "scope": "product",
+          "variant": "Family identity",
+          "test_standard": "Not applicable",
+          "test_context": "Identity pointer only; it does not establish performance or compliance.",
+          "source_url": "https://insulation.com.au/products/",
+          "source_type": "manufacturer_page",
+          "source_locator": "Manufacturer product-page title and product description",
+          "extraction_method": "manufacturer_page_link",
+          "extractor_confidence": 1.0,
+          "ocr_confidence": null,
+          "evidence_status": "pending_human_review",
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "An authorised reviewer must confirm this is the current manufacturer family before verification."
+        }
+      ]
+    },
+    {
+      "family_id": "FLETCHER_SOUNDBREAK",
+      "automation_status": "enabled_family_only",
+      "evidence_items": [
+        {
+          "evidence_id": "SOUNDBREAK-RANGE-R",
+          "metric_type": "thermal_r",
+          "value": "R1.7–R3.1",
+          "unit": "m²·K/W",
+          "scope": "product",
+          "variant": "Current Soundbreak range",
+          "test_standard": "Manufacturer product literature",
+          "test_context": "Variant-dependent material R-values; never treat as acoustic Rw.",
+          "source_url": "https://insulation.com.au/product/soundbreak/",
+          "source_type": "manufacturer",
+          "evidence_status": "pending_human_review",
+          "notes": "Use the SKU dataset for individual variants.",
+          "value_type": "range",
+          "source_locator": "Source page; exact section or page locator pending",
+          "extraction_method": "legacy_migration",
+          "extractor_confidence": 0.75,
+          "ocr_confidence": null,
+          "verified_by": null,
+          "verified_at": null
+        },
+        {
+          "evidence_id": "SOUNDBREAK-ABSORPTION",
+          "metric_type": "acoustic_nrc",
+          "value": "Variant/frequency dependent",
+          "unit": "NRC / αw",
+          "scope": "product",
+          "variant": "Current Soundbreak range",
+          "test_standard": "Manufacturer acoustic test data",
+          "test_context": "Absorption rating for batt variants; not wall-system Rw.",
+          "source_url": "https://insulation.com.au/product/soundbreak/",
+          "source_type": "manufacturer",
+          "evidence_status": "pending_human_review",
+          "notes": "Individual NRC/αw rows must retain thickness and test context.",
+          "value_type": "range",
+          "source_locator": "Source page; exact section or page locator pending",
+          "extraction_method": "legacy_migration",
+          "extractor_confidence": 0.75,
+          "ocr_confidence": null,
+          "verified_by": null,
+          "verified_at": null
+        }
+      ]
+    },
+    {
+      "family_id": "FLETCHER_PINK_PARTITION",
+      "automation_status": "enabled_family_only",
+      "evidence_items": [
+        {
+          "evidence_id": "FLETCHER_PINK_PARTITION-IDENTITY",
+          "metric_type": "product_identity",
+          "value": "Manufacturer page identifies the named product family",
+          "value_type": "text_classification",
+          "unit": "",
+          "scope": "product",
+          "variant": "Family identity",
+          "test_standard": "Not applicable",
+          "test_context": "Identity pointer only; it does not establish performance or compliance.",
+          "source_url": "https://insulation.com.au/product/pink-partition-insulation/",
+          "source_type": "manufacturer_page",
+          "source_locator": "Manufacturer product-page title and product description",
+          "extraction_method": "manufacturer_page_link",
+          "extractor_confidence": 1.0,
+          "ocr_confidence": null,
+          "evidence_status": "pending_human_review",
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "An authorised reviewer must confirm this is the current manufacturer family before verification."
+        }
+      ]
+    },
+    {
+      "family_id": "FLETCHER_FI32_SEMI_RIGID",
+      "automation_status": "enabled_family_only",
+      "evidence_items": [
+        {
+          "evidence_id": "FI32-R-RANGE",
+          "metric_type": "thermal_r",
+          "value": "R0.71 at 25 mm to R3.0 at 100 mm",
+          "unit": "m²·K/W",
+          "scope": "product",
+          "variant": "FI32 thickness range",
+          "test_standard": "Manufacturer product literature",
+          "test_context": "Material R-value varies by thickness; exact SKU mapping required.",
+          "source_url": "https://insulation.com.au/product/fi32-semi-rigid-insulation/",
+          "source_type": "manufacturer",
+          "evidence_status": "pending_human_review",
+          "notes": "Never substitute a range endpoint for an SKU value.",
+          "value_type": "per_thickness",
+          "source_locator": "Source page; exact section or page locator pending",
+          "extraction_method": "legacy_migration",
+          "extractor_confidence": 0.75,
+          "ocr_confidence": null,
+          "verified_by": null,
+          "verified_at": null
+        }
+      ]
+    },
+    {
+      "family_id": "FLETCHER_FI24_FLEX_DUCTLINER",
+      "automation_status": "blocked_evidence",
+      "evidence_items": []
+    },
+    {
+      "family_id": "FLETCHER_PINK_THERMAL_SLAB",
+      "automation_status": "enabled_family_only",
+      "evidence_items": [
+        {
+          "evidence_id": "FLETCHER_PINK_THERMAL_SLAB-IDENTITY",
+          "metric_type": "product_identity",
+          "value": "Manufacturer page identifies the named product family",
+          "value_type": "text_classification",
+          "unit": "",
+          "scope": "product",
+          "variant": "Family identity",
+          "test_standard": "Not applicable",
+          "test_context": "Identity pointer only; it does not establish performance or compliance.",
+          "source_url": "https://insulation.com.au/product/pink-thermal-slab/",
+          "source_type": "manufacturer_page",
+          "source_locator": "Manufacturer product-page title and product description",
+          "extraction_method": "manufacturer_page_link",
+          "extractor_confidence": 1.0,
+          "ocr_confidence": null,
+          "evidence_status": "pending_human_review",
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "An authorised reviewer must confirm this is the current manufacturer family before verification."
+        }
+      ]
+    },
+    {
+      "family_id": "FLETCHER_PARTY_WALL_STONEWOOL",
+      "automation_status": "enabled_family_only",
+      "evidence_items": [
+        {
+          "evidence_id": "FLETCHER_PARTY_WALL_STONEWOOL-IDENTITY",
+          "metric_type": "product_identity",
+          "value": "Manufacturer page identifies the named product family",
+          "value_type": "text_classification",
+          "unit": "",
+          "scope": "product",
+          "variant": "Family identity",
+          "test_standard": "Not applicable",
+          "test_context": "Identity pointer only; it does not establish performance or compliance.",
+          "source_url": "https://insulation.com.au/product/fletcher-protect-party-wall-stonewool-batts/",
+          "source_type": "manufacturer_page",
+          "source_locator": "Manufacturer product-page title and product description",
+          "extraction_method": "manufacturer_page_link",
+          "extractor_confidence": 1.0,
+          "ocr_confidence": null,
+          "evidence_status": "pending_human_review",
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "An authorised reviewer must confirm this is the current manufacturer family before verification."
+        }
+      ]
+    },
+    {
+      "family_id": "FLETCHER_PERMASTOP",
+      "automation_status": "enabled_family_only",
+      "evidence_items": [
+        {
+          "evidence_id": "FLETCHER_PERMASTOP-IDENTITY",
+          "metric_type": "product_identity",
+          "value": "Manufacturer page identifies the named product family",
+          "value_type": "text_classification",
+          "unit": "",
+          "scope": "product",
+          "variant": "Family identity",
+          "test_standard": "Not applicable",
+          "test_context": "Identity pointer only; it does not establish performance or compliance.",
+          "source_url": "https://insulation.com.au/product/permastop-building-blanket/",
+          "source_type": "manufacturer_page",
+          "source_locator": "Manufacturer product-page title and product description",
+          "extraction_method": "manufacturer_page_link",
+          "extractor_confidence": 1.0,
+          "ocr_confidence": null,
+          "evidence_status": "pending_human_review",
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "An authorised reviewer must confirm this is the current manufacturer family before verification."
+        }
+      ]
+    },
+    {
+      "family_id": "FLETCHER_VAPAWRAP_WALL",
+      "automation_status": "enabled_family_only",
+      "evidence_items": [
+        {
+          "evidence_id": "VAPAWRAP-WALL-VAPOUR",
+          "metric_type": "vapour_class",
+          "value": "Class 4",
+          "unit": "AS 4200.1 classification",
+          "scope": "product",
+          "variant": "Residential wall wrap",
+          "test_standard": "AS 4200.1",
+          "test_context": "Product classification must still be checked against climate zone, wall build-up and current NCC adoption.",
+          "source_url": "https://insulation.com.au/product/sisalation-vapawrap-residential-wall-wrap/",
+          "source_type": "manufacturer",
+          "evidence_status": "pending_human_review",
+          "notes": "Not a blanket statement of project compliance.",
+          "value_type": "text_classification",
+          "source_locator": "Source page; exact section or page locator pending",
+          "extraction_method": "legacy_migration",
+          "extractor_confidence": 0.75,
+          "ocr_confidence": null,
+          "verified_by": null,
+          "verified_at": null
+        }
+      ]
+    },
+    {
+      "family_id": "FLETCHER_VAPAWRAP_METAL_ROOF",
+      "automation_status": "enabled_family_only",
+      "evidence_items": [
+        {
+          "evidence_id": "FLETCHER_VAPAWRAP_METAL_ROOF-IDENTITY",
+          "metric_type": "product_identity",
+          "value": "Manufacturer page identifies the named product family",
+          "value_type": "text_classification",
+          "unit": "",
+          "scope": "product",
+          "variant": "Family identity",
+          "test_standard": "Not applicable",
+          "test_context": "Identity pointer only; it does not establish performance or compliance.",
+          "source_url": "https://insulation.com.au/product/sisalation-vapawrap-metal-roof/",
+          "source_type": "manufacturer_page",
+          "source_locator": "Manufacturer product-page title and product description",
+          "extraction_method": "manufacturer_page_link",
+          "extractor_confidence": 1.0,
+          "ocr_confidence": null,
+          "evidence_status": "pending_human_review",
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "An authorised reviewer must confirm this is the current manufacturer family before verification."
+        }
+      ]
+    },
+    {
+      "family_id": "FLETCHER_SISALATION_WRAP",
+      "automation_status": "pending_review",
+      "evidence_items": []
+    },
+    {
+      "family_id": "FLETCHER_FOAM_BUBBLE_CELL",
+      "automation_status": "pending_review",
+      "evidence_items": []
+    },
+    {
+      "family_id": "FLETCHER_SUPABATT",
+      "automation_status": "enabled_family_only",
+      "evidence_items": [
+        {
+          "evidence_id": "FLETCHER_SUPABATT-IDENTITY",
+          "metric_type": "product_identity",
+          "value": "Manufacturer page identifies the named product family",
+          "value_type": "text_classification",
+          "unit": "",
+          "scope": "product",
+          "variant": "Family identity",
+          "test_standard": "Not applicable",
+          "test_context": "Identity pointer only; it does not establish performance or compliance.",
+          "source_url": "https://insulation.com.au/product/supabatt/",
+          "source_type": "manufacturer_page",
+          "source_locator": "Manufacturer product-page title and product description",
+          "extraction_method": "manufacturer_page_link",
+          "extractor_confidence": 1.0,
+          "ocr_confidence": null,
+          "evidence_status": "pending_human_review",
+          "verified_by": null,
+          "verified_at": null,
+          "notes": "An authorised reviewer must confirm this is the current manufacturer family before verification."
+        }
+      ]
+    },
+    {
+      "family_id": "FLETCHER_TAPES_ACCESSORIES",
+      "automation_status": "pending_review",
+      "evidence_items": []
+    },
+    {
+      "family_id": "FLETCHER_SAFE_N_SILENT_LEGACY",
+      "automation_status": "blocked_evidence",
+      "evidence_items": []
+    },
+    {
+      "family_id": "FLETCHER_FF_HD_LEGACY",
+      "automation_status": "blocked_evidence",
+      "evidence_items": []
+    }
   ]
 }

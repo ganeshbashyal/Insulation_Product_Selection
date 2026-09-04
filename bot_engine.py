@@ -2,7 +2,16 @@
 from __future__ import annotations
 
 import re
+import json
 from difflib import SequenceMatcher
+from pathlib import Path
+
+CONFIG_PATH = Path(__file__).resolve().parent / "config" / "matching.json"
+MATCHING_CONFIG = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
+STATE_CONFIG = json.loads((CONFIG_PATH.parent / "catalogue_states.json").read_text(encoding="utf-8"))
+FUZZY_WORD_THRESHOLD = float(MATCHING_CONFIG["fuzzy_word_threshold"])
+NO_RELIABLE_MATCH_SCORE = float(MATCHING_CONFIG["no_reliable_match_score"])
+SINGULARISATION_EXCEPTIONS = set(MATCHING_CONFIG["singularisation_exceptions"])
 
 PRIORITY_LABELS = {
     "acoustic_comfort": "Acoustic comfort",
@@ -20,40 +29,28 @@ PRIORITY_TERMS = {
     "compliance_readiness": ["compliance", "ncc", "fire", "bal", "spec", "consultant", "certification"],
 }
 
-SYNONYMS = {
-    "soundproofing": "soundproof",
-    "sound insulation": "acoustic insulation",
-    "heat retention": "thermal efficiency",
-    "power bills": "energy efficiency",
-    "roof cavity": "roof space",
-    "rafters": "rafter",
-    "trusses": "truss",
-    "under floor": "underfloor",
-    "sub floor": "subfloor",
-    "interfloor": "between floors",
-    "mid floor": "midfloor",
-    "stories": "storeys",
-}
+SYNONYMS = MATCHING_CONFIG["synonyms"]
 
-BLOCKING_CONFIDENCE_MARKERS = ("identity_unverified", "secondary", "identity_review")
+RECOMMENDATION_ALLOWED_STATES = set(STATE_CONFIG["recommendation_allowed"])
+RECOMMENDATION_BLOCKED_STATES = set(STATE_CONFIG["recommendation_blocked"])
 
 
 def canonical_text(value: str) -> str:
     text = value.casefold().replace("’", "'")
-    for phrase, replacement in SYNONYMS.items():
+    for phrase, replacement in sorted(SYNONYMS.items(), key=lambda item: len(item[0]), reverse=True):
         text = text.replace(phrase, replacement)
     return text
 
 
 def normalised_words(value: str) -> set[str]:
     words = re.findall(r"[a-z0-9]+", canonical_text(value))
-    return {word[:-1] if len(word) > 3 and word.endswith("s") else word for word in words}
+    return {word[:-1] if len(word) > 3 and word.endswith("s") and word not in SINGULARISATION_EXCEPTIONS else word for word in words}
 
 
 def fuzzy_word_match(expected: str, actual_words: set[str]) -> bool:
     if len(expected) < 5:
         return False
-    return any(SequenceMatcher(None, expected, actual).ratio() >= 0.84 for actual in actual_words if len(actual) >= 5)
+    return any(SequenceMatcher(None, expected, actual).ratio() >= FUZZY_WORD_THRESHOLD for actual in actual_words if len(actual) >= 5)
 
 
 def term_match_score(term: str, text: str, text_words: set[str]) -> float:
@@ -104,8 +101,7 @@ def placement_adjustment(family_id: str, text: str, priority: str) -> float:
 def recommendation_allowed(family: dict | None) -> bool:
     if not family:
         return False
-    confidence = family.get("confidence", "")
-    return confidence.startswith("manufacturer_supported") and not any(marker in confidence for marker in BLOCKING_CONFIDENCE_MARKERS)
+    return family.get("confidence") in RECOMMENDATION_ALLOWED_STATES
 
 
 def rank_families(families: list[dict], answers: dict[str, str], manufacturer_scope: str | None = None) -> list[dict]:
@@ -128,6 +124,7 @@ def rank_families(families: list[dict], answers: dict[str, str], manufacturer_sc
         match_score += placement_adjustment(family["family_id"], text, priority)
         if not recommendation_allowed(family):
             match_score -= 6
+        reliable_match = bool(keyword_hits or application_hits) and match_score >= NO_RELIABLE_MATCH_SCORE
         ranked.append({
             **family,
             "match_score": round(match_score, 3),
@@ -135,11 +132,14 @@ def rank_families(families: list[dict], answers: dict[str, str], manufacturer_sc
             "matched_keywords": keyword_hits,
             "matched_applications": application_hits,
             "priority_key": priority,
+            "reliable_match": reliable_match,
         })
     return sorted(ranked, key=lambda item: (item["match_score"], item["scores"].get(priority, 0)), reverse=True)
 
 
 def technical_gate(answers: dict[str, str], family: dict | None) -> tuple[str, str]:
+    if family and not family.get("reliable_match", True):
+        return "BLOCKED", "There is no reliable product-family match yet. A person needs to review the enquiry."
     if not recommendation_allowed(family):
         return "BLOCKED", "We need to confirm the product identity and evidence before selecting or quoting it."
     requirements = answers.get("requirements", "").casefold()

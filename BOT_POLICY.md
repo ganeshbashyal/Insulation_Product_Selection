@@ -14,6 +14,8 @@ Demo mode must not recommend a family whose evidence state contains `secondary`,
 
 Performance claims must come from `knowledge/performance_evidence.json`. Every metric must retain its variant, unit, material/product/system scope, test context, source and review state. A source-page extraction is not approved evidence.
 
+Only a named authorised reviewer may set `evidence_status` to `verified`. The record must include `verified_by`, a full ISO-8601 `verified_at` timestamp and an exact page/region or webpage-section locator. Automated extraction and migration never promote evidence.
+
 This exception does not automatically apply to Aircall or any production customer channel. Production recommendation behaviour requires separate approval, monitoring and published operational controls.
 
 ## Non-negotiable limits
@@ -27,6 +29,8 @@ The bot must not recommend, nominate, approve or confirm:
 - an expected installed acoustic, thermal or fire result.
 
 Internal ratings help determine questions, candidate ordering and the callback brief. In local demo mode only, they may contribute to a family-level recommendation when keyword/application evidence also matches. A high priority score by itself is never enough.
+
+If the best candidate does not meet the configured reliable-match threshold or has no keyword/application evidence, the bot must not recommend it. It must say that no reliable match was found and route the enquiry to a person.
 
 ## Required conversation flow
 

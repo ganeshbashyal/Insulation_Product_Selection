@@ -17,6 +17,8 @@ The local POC may recommend a manufacturer-supported product family. Exact produ
 - [`schemas/`](schemas/) and [`scripts/validate_catalogue.py`](scripts/validate_catalogue.py) — machine-enforced structures and cross-file safety checks.
 - [`tests/`](tests/) and [`.github/workflows/ci.yml`](.github/workflows/ci.yml) — ranking, gating, catalogue and audit regression checks run on every push and pull request.
 - [`aircall/`](aircall/README.md) — generated trial knowledge, agent instructions and four-question intake configuration derived from the governed catalogue.
+- [`config/matching.json`](config/matching.json) — reviewed synonyms, fuzzy threshold, singularisation exceptions and the no-reliable-match threshold.
+- [`CONTRIBUTING.md`](CONTRIBUTING.md) and [`AUDIT_SECURITY.md`](AUDIT_SECURITY.md) — evidence approval, rollback, access, encryption and retention controls.
 
 ## Data model
 
@@ -41,12 +43,12 @@ The proof of concept currently compares Thermotec and Fletcher. A family may be 
 Rebuild the normalized SKU dataset from a validated local workbook export:
 
 ```powershell
-python scripts/build_sku_dataset.py --source "C:\path\to\Product_Master_Bot_Sheet1_Validated.xlsx"
+python scripts/build_sku_dataset.py --source "C:\path\to\Product_Master_Bot_Sheet1_Validated.xlsx" --source-retrieved-at "2026-09-04T07:00:00Z"
 python scripts/validate_catalogue.py
 pytest -q
 ```
 
-The checked-in CSV records the source workbook filename and SHA-256 hash. Only rows marked `PASS` and `READY`, attached to an evidence-eligible family, can set `sku_selection_eligible=true`. The demo still does not select that SKU automatically.
+The checked-in CSV records the source workbook filename, source row, retrieval timestamp and SHA-256 hash. `sku_evidence_manifest.csv` provides the SKU → family → evidence chain. Only rows marked `PASS` and `READY`, attached to an evidence-eligible family with verified evidence, can set `sku_selection_eligible=true`. The demo still does not select that SKU automatically.
 
 Aircall does not currently accept spreadsheet files as AI Voice Agent knowledge. `scripts/build_aircall_pack.py` converts the same governed family/evidence records into a concise paste-ready content block. Its manifest binds the generated pack to the exact source hashes, and validation prevents blocked families from entering the supported section.
 

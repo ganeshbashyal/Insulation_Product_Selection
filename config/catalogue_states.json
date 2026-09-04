@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "recommendation_allowed": [
+    "manufacturer_supported",
+    "manufacturer_supported_performance_pending",
+    "manufacturer_supported_classification_pending",
+    "manufacturer_supported_variant_review"
+  ],
+  "recommendation_blocked": [
+    "manufacturer_supported_identity_review",
+    "secondary_owned_source_only",
+    "identity_unverified"
+  ]
+}

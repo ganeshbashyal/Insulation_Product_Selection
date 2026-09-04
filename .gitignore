@@ -4,11 +4,14 @@ data/raw/*
 data/processed/*
 !data/processed/.gitkeep
 !data/processed/product_catalogue_skus.csv
+!data/processed/sku_evidence_manifest.csv
 reports/*
 !reports/.gitkeep
 data/local/
 evidence/inbox/*
 !evidence/inbox/.gitkeep
+evidence/raw/*
+!evidence/raw/.gitkeep
 
 # Jupyter and Python
 .ipynb_checkpoints/

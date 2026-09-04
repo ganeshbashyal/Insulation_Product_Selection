@@ -44,3 +44,20 @@ def test_unverified_identity_is_never_recommendable():
     family = {"confidence": "manufacturer_supported_identity_review"}
     assert recommendation_allowed(family) is False
     assert technical_gate({}, family)[0] == "BLOCKED"
+
+
+def test_secondary_source_family_is_never_recommendable():
+    assert recommendation_allowed({"confidence": "secondary_owned_source_only"}) is False
+    assert recommendation_allowed({"confidence": "identity_unverified"}) is False
+
+
+def test_no_reliable_match_for_unrelated_enquiry():
+    result = top({"challenge": "I need something for my garden fountain", "application": "unknown", "priority": "budget"})
+    assert result["reliable_match"] is False
+    assert technical_gate({}, result)[0] == "BLOCKED"
+
+
+def test_singularisation_exception_keeps_services_intact():
+    result = top({"challenge": "noise breakout", "application": "building services waste pipe", "priority": "acoustic comfort"}, "Thermotec")
+    assert result["family_id"] in {"THERMOTEC_NUWRAP_5", "THERMOTEC_NUWRAP_XTRAFLEX"}
+    assert result["reliable_match"] is True

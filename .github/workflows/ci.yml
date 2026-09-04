@@ -15,4 +15,10 @@ jobs:
       - run: pip install -r requirements-dev.txt
       - run: python scripts/validate_catalogue.py
       - run: python scripts/validate_aircall_pack.py
+      - run: python scripts/evidence_triage.py
       - run: pytest -q
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: evidence-triage
+          path: reports/evidence_triage.csv

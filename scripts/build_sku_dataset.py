@@ -6,6 +6,7 @@ import hashlib
 import json
 import re
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
 import pandas as pd
@@ -47,10 +48,14 @@ def clean(value):
     return "" if pd.isna(value) else value
 
 
-def build(source: Path, output: Path) -> pd.DataFrame:
+def build(source: Path, output: Path, source_retrieved_at: str, manifest_output: Path) -> pd.DataFrame:
     rows = pd.read_excel(source, sheet_name="Sheet1")
     rows = rows[rows["Manufacturer Name"].astype(str).str.casefold().isin(["thermotec", "fletcher"])].copy()
     families = load_families()
+    evidence = {
+        record["family_id"]: record
+        for record in json.loads((ROOT / "knowledge" / "performance_evidence.json").read_text(encoding="utf-8"))["families"]
+    }
     rows["family_id"] = rows.apply(lambda row: thermotec_family_id(row) if str(row["Manufacturer Name"]).casefold() == "thermotec" else fletcher_family_id(row), axis=1)
     if (rows["family_id"] == "UNMAPPED").any():
         names = rows.loc[rows["family_id"] == "UNMAPPED", "Our Product Name"].astype(str).unique()
@@ -62,6 +67,11 @@ def build(source: Path, output: Path) -> pd.DataFrame:
         "material_type": rows["Material Type"], "product_use": rows["Product Use"], "mpn": rows["MPN"],
         "family_id": rows["family_id"],
     })
+    result.insert(0, "source_sheet_row", rows.index + 2)
+    result.insert(0, "sku_record_id", [
+        "SKU-" + hashlib.sha256(f"{row['Manufacturer Name']}|{index + 2}|{row['Our SKU']}|{row['SKU']}".encode()).hexdigest()[:16].upper()
+        for index, row in rows.iterrows()
+    ])
     result["family_name"] = rows["family_id"].map(lambda value: families[value]["name"])
     result["knowledge_file"] = rows.apply(lambda row: f"knowledge/{str(row['Manufacturer Name']).casefold()}/{families[row['family_id']]['knowledge_file']}", axis=1)
     result["thermal_r_value"] = rows["Thermal R Value"]
@@ -75,12 +85,19 @@ def build(source: Path, output: Path) -> pd.DataFrame:
     result["bot_content_status"] = rows["Bot Content Status"]
     result["family_confidence"] = rows["family_id"].map(lambda value: families[value]["confidence"])
     result["family_recommendation_eligible"] = rows["family_id"].map(lambda value: recommendation_allowed(families[value]))
-    result["sku_selection_eligible"] = result["family_recommendation_eligible"] & result["validation_status"].astype(str).str.upper().eq("PASS") & result["bot_content_status"].astype(str).str.upper().eq("READY")
+    result["verified_evidence_available"] = rows["family_id"].map(lambda family_id: any(item["evidence_status"] == "verified" for item in evidence[family_id]["evidence_items"]))
+    result["sku_selection_eligible"] = result["family_recommendation_eligible"] & result["verified_evidence_available"] & result["validation_status"].astype(str).str.upper().eq("PASS") & result["bot_content_status"].astype(str).str.upper().eq("READY")
     result["source_workbook"] = source.name
     result["source_sha256"] = source_hash
+    result["source_retrieved_at"] = source_retrieved_at
     result = result.map(clean)
     output.parent.mkdir(parents=True, exist_ok=True)
     result.to_csv(output, index=False, encoding="utf-8")
+    manifest = result[["sku_record_id", "source_sheet_row", "manufacturer", "our_sku", "supplier_sku", "family_id"]].copy()
+    manifest["evidence_ids"] = result["family_id"].map(lambda family_id: ";".join(item["evidence_id"] for item in evidence[family_id]["evidence_items"]))
+    manifest["evidence_statuses"] = result["family_id"].map(lambda family_id: ";".join(sorted({item["evidence_status"] for item in evidence[family_id]["evidence_items"]})))
+    manifest_output.parent.mkdir(parents=True, exist_ok=True)
+    manifest.to_csv(manifest_output, index=False, encoding="utf-8")
     return result
 
 
@@ -88,9 +105,13 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--source", type=Path, required=True)
     parser.add_argument("--output", type=Path, default=ROOT / "data" / "processed" / "product_catalogue_skus.csv")
+    parser.add_argument("--manifest-output", type=Path, default=ROOT / "data" / "processed" / "sku_evidence_manifest.csv")
+    parser.add_argument("--source-retrieved-at", help="ISO-8601 timestamp for when this exact source export was acquired")
     args = parser.parse_args()
-    result = build(args.source, args.output)
-    print(json.dumps({"rows": len(result), "families": result["family_id"].nunique(), "family_eligible": int(result["family_recommendation_eligible"].sum()), "sku_eligible": int(result["sku_selection_eligible"].sum()), "output": str(args.output)}))
+    retrieved_at = args.source_retrieved_at or datetime.now(timezone.utc).isoformat(timespec="seconds")
+    datetime.fromisoformat(retrieved_at.replace("Z", "+00:00"))
+    result = build(args.source, args.output, retrieved_at, args.manifest_output)
+    print(json.dumps({"rows": len(result), "families": result["family_id"].nunique(), "family_eligible": int(result["family_recommendation_eligible"].sum()), "sku_eligible": int(result["sku_selection_eligible"].sum()), "output": str(args.output), "manifest": str(args.manifest_output)}))
 
 
 if __name__ == "__main__":

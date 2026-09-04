@@ -21,8 +21,7 @@ Mandatory checks before quote or order:
 - Confirm facing and exposure
 - Verify HVAC/fire/hygiene specification
 - Use current TDS for R-value and acoustic data
-Approved structured performance evidence:
-- thermal_r: R0.71 at 25 mm to R3.0 at 100 mm m²·K/W; variant: FI32 thickness range; scope: product; context: Material R-value varies by thickness; exact SKU mapping required.
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
 Primary product source: https://insulation.com.au/product/fi32-semi-rigid-insulation/
 Safe wording: FI32 Semi-Rigid Insulation may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
@@ -94,9 +93,7 @@ Mandatory checks before quote or order:
 - Confirm current regional SKU and CodeMark coverage
 - Assess existing insulation and electrical clearances
 - Confirm total system R-value
-Approved structured performance evidence:
-- thermal_r: 2.5 m²·K/W; variant: Ceiling batt range; scope: product; context: Material R-value; exact thickness and SKU must match current pack data.
-- thermal_r: 6.0 m²·K/W; variant: Ceiling batt range; scope: product; context: Material R-value; exact thickness and SKU must match current pack data.
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
 Primary product source: https://insulation.com.au/product/pink-batts-ceiling-insulation/
 Safe wording: Pink Batts Ceiling Insulation may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
@@ -132,10 +129,7 @@ Mandatory checks before quote or order:
 - Select R-value and width from the actual wall system
 - Confirm climate-zone, condensation and NCC requirements
 - Do not use a batt rating as a complete wall-system rating
-Approved structured performance evidence:
-- thermal_r: 1.5 m²·K/W; variant: 70 mm wall batt; scope: product; context: Material R-value for the named product variant, not total wall-system R-value.
-- thermal_r: 2.0 m²·K/W; variant: 90 mm wall batt; scope: product; context: Material R-value; not total system R-value.
-- thermal_r: 2.5 m²·K/W; variant: 90 mm high-density wall batt; scope: product; context: Material R-value; not total system R-value.
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
 Primary product source: https://insulation.com.au/product/pink-batts-insulation/
 Safe wording: Pink Batts Wall Insulation may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
@@ -243,8 +237,7 @@ Mandatory checks before quote or order:
 - Confirm vapour class and climate-zone selection
 - Seal laps and penetrations to the installation guide
 - Verify BAL/NCC edition and wall system
-Approved structured performance evidence:
-- vapour_class: Class 4 AS 4200.1 classification; variant: Residential wall wrap; scope: product; context: Product classification must still be checked against climate zone, wall build-up and current NCC adoption.
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
 Primary product source: https://insulation.com.au/product/sisalation-vapawrap-residential-wall-wrap/
 Safe wording: Sisalation Vapawrap Residential Wall Wrap may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
@@ -263,8 +256,7 @@ Mandatory checks before quote or order:
 - Use tested system evidence for an acoustic target
 - Reconcile legacy 9021xx/4006068 codes before quoting
 - Confirm batt size, cavity depth and complete construction
-Approved structured performance evidence:
-- thermal_r: R1.7–R3.1 m²·K/W; variant: Current Soundbreak range; scope: product; context: Variant-dependent material R-values; never treat as acoustic Rw.
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
 Primary product source: https://insulation.com.au/product/soundbreak/
 Safe wording: Soundbreak Acoustic Insulation may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
@@ -318,9 +310,7 @@ Mandatory checks before quote or order:
 - Confirm documented temperature limit
 - Confirm weather/mechanical protection
 - Verify regulatory and system requirements
-Approved structured performance evidence:
-- temperature_limit: 150 °C continuous; variant: E-Flex HT; scope: product; context: Continuous service-temperature statement.
-- temperature_limit: 175 °C intermittent; variant: E-Flex HT; scope: product; context: Intermittent limit; not a continuous design temperature.
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
 Primary product source: https://thermotec.com.au/products/thermotec-e-flex-ht-solar-pipe-insulation
 Safe wording: E-Flex HT Solar Pipe Insulation may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
@@ -339,8 +329,7 @@ Mandatory checks before quote or order:
 - Confirm thickness from thermal and condensation design
 - Use HT rather than ST where exposure/temperature requires it
 - No generic family R-value
-Approved structured performance evidence:
-- temperature_limit: 110 °C continuous; variant: E-Flex ST; scope: product; context: Maximum continuous service-temperature statement; selection also depends on diameter, thickness, exposure and service.
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
 Primary product source: https://thermotec.com.au/products/thermotec-e-flex-st-hot-water-hvac-refrigeration-pipe-insulation
 Safe wording: E-Flex ST Pipe Insulation may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
@@ -412,12 +401,7 @@ Mandatory checks before quote or order:
 - Select grade only after system and target are known
 - Verify fire, NCC and BAL requirements for the complete construction
 - Product Rw is not the completed-system Rw
-Approved structured performance evidence:
-- acoustic_rw: 24 dB; variant: 2 kg/m²; scope: product; context: Product-only laboratory rating; not a completed wall, floor or ceiling system rating.
-- acoustic_rw: 26 dB; variant: 4 kg/m²; scope: product; context: Product-only laboratory rating; not installed-system performance.
-- acoustic_rw: 29 dB; variant: 6 kg/m²; scope: product; context: Product-only laboratory rating; not installed-system performance.
-- acoustic_rw: 30 dB; variant: 8 kg/m²; scope: product; context: Product-only laboratory rating; not installed-system performance.
-- acoustic_rw: 34 dB; variant: 10 kg/m²; scope: product; context: Product-only laboratory rating; not installed-system performance.
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
 Primary product source: https://thermotec.com.au/products/nuwave_mlv_acoustic_barriers_2
 Safe wording: NuWave Mass Loaded Vinyl Acoustic Barrier may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
@@ -471,9 +455,7 @@ Mandatory checks before quote or order:
 - Confirm temperature and thickness
 - Select jacketing/protection
 - Do not interpret density as an acoustic rating
-Approved structured performance evidence:
-- temperature_limit: 650 °C maximum; variant: Rockwool pipe insulation; scope: product; context: Maximum service-temperature statement; facing, binder, joints and support details can impose lower limits.
-- density: 115–140 kg/m³; variant: Product range; scope: material; context: Published range; exact SKU density requires confirmation.
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
 Primary product source: https://thermotec.com.au/products/thermotec-rockwool-pipe-insulation
 Safe wording: Rockwool Pipe Insulation may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 

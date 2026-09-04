@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 from datetime import datetime
 from pathlib import Path
@@ -232,7 +233,9 @@ def process_customer_message(prompt: str) -> None:
     else:
         st.session_state.demo_complete = True
         top = rank_families(st.session_state.answers, st.session_state.get("manufacturer_scope", "Compare both"))[0]
-        if recommendation_allowed(top):
+        if not top["reliable_match"]:
+            reply = "I don’t have a reliable product match from those details. I’ll send this to the team for review rather than guess."
+        elif recommendation_allowed(top):
             application = next(iter(dict.fromkeys(top["matched_applications"])), "")
             priority = PRIORITY_LABELS[top["priority_key"]].lower()
             why = f"It suits {application} applications and your focus on {priority}." if application else f"It lines up with your focus on {priority}."
@@ -241,7 +244,11 @@ def process_customer_message(prompt: str) -> None:
             reply = f"**{top['name']}** is the closest match, but its product evidence still needs checking. I’ll flag it for the team before anything is selected or quoted."
         st.session_state.messages.append({"role": "assistant", "content": reply})
         if st.session_state.review_id is None:
-            st.session_state.review_id = create_review(callback_payload())
+            st.session_state.review_id = create_review(
+                callback_payload(),
+                retention_days=int(os.getenv("AUDIT_RETENTION_DAYS", "30")),
+                require_encryption=os.getenv("AUDIT_REQUIRE_ENCRYPTION", "false").casefold() == "true",
+            )
 
 
 def load_example(name: str) -> None:
@@ -265,7 +272,7 @@ def callback_payload() -> dict:
         "created_at": datetime.now().isoformat(timespec="seconds"), "demo_only": True,
         "review_id": st.session_state.get("review_id"),
         "customer_answers": st.session_state.answers,
-        "demo_recommendation": ({"family_id": top["family_id"], "name": top["name"], "scope": "product_family_only"} if recommendation_allowed(top) else None),
+        "demo_recommendation": ({"family_id": top["family_id"], "name": top["name"], "scope": "product_family_only"} if recommendation_allowed(top) and top.get("reliable_match", False) else None),
         "candidate_families": [{"family_id": x["family_id"], "name": x["name"], "confidence": x["confidence"]} for x in ranked[:3]],
         "technical_review": {"status": gate, "reason": reason},
         "ncc_climate_zone_screen": {
@@ -359,7 +366,7 @@ with conversation_tab:
                 review = get_review(st.session_state.review_id)
                 st.caption(f"Review queue: {st.session_state.review_id} · {review['status'] if review else 'UNKNOWN'}")
             if st.button("Simulate technical approval", type="primary", width="stretch"):
-                decide_review(st.session_state.review_id, "APPROVED", "demo-sales-engineer", "POC approval")
+                decide_review(st.session_state.review_id, "APPROVED", os.getenv("AUDIT_REVIEWER", "demo-sales-engineer"), "POC approval")
                 st.session_state.human_approved = True
                 st.rerun()
         elif st.session_state.myob_quote is None:

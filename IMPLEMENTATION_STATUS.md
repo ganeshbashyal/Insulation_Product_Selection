@@ -11,6 +11,9 @@
 | No TDS ingestion | `scripts/ingest_evidence.py` downloads PDF/HTML, hashes it and extracts candidates into an ignored review inbox. | It never promotes claims automatically. OCR for scanned PDFs and reviewer UI remain future work. |
 | No audit/approval workflow | `audit_store.py` persists enquiries and immutable approval/rejection events in local SQLite; the Streamlit approval action uses the review ID. | CRM/ticket submission is not enabled until a platform, credentials, privacy/retention rules and field mapping are approved. |
 | Aircall cannot ingest the catalogue CSV as knowledge | `scripts/build_aircall_pack.py` publishes a paste-ready knowledge block, agent instructions, intake questions and a source-hash manifest from the governed catalogue. | Trial users paste/configure these files manually. A hosted knowledge page or API Action can replace this after the trial. |
+| Matching false positives | `config/matching.json` controls vocabulary, fuzzy matching and a mandatory no-reliable-match threshold; tests cover unrelated enquiries and placement language. | Tune only against a growing labelled enquiry set and track precision/recall before production. |
+| Evidence extraction auditability | Raw downloads are stored by SHA-256 outside Git; candidates retain page/region and extraction/OCR confidence; CI produces an evidence triage artifact. | Scanned documents are flagged for OCR rather than interpreted automatically. An authorised reviewer must verify every promoted claim. |
+| Callback PII | Optional Fernet encryption, reviewer allowlist and per-record retention deadlines are implemented; production can require encryption through environment configuration. | Local SQLite has no network API. Production requires authenticated RBAC, TLS and a managed encrypted database. |
 
 ## Release rule
 

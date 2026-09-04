@@ -1,46 +1,47 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://insulation.local/schemas/performance-evidence.schema.json",
+  "$id": "https://insulation.local/schemas/performance-evidence-v2.schema.json",
   "title": "Normalized product-family performance evidence",
   "type": "object",
   "required": ["schema_version", "families"],
   "properties": {
-    "schema_version": {"type": "string", "const": "1.0"},
-    "families": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "required": ["family_id", "automation_status", "evidence_items"],
-        "properties": {
-          "family_id": {"type": "string", "pattern": "^[A-Z0-9_]+$"},
-          "automation_status": {"enum": ["enabled_family_only", "pending_review", "blocked_evidence"]},
-          "evidence_items": {
-            "type": "array",
-            "items": {"$ref": "#/$defs/evidence"}
-          }
-        },
-        "additionalProperties": false
-      }
-    }
+    "schema_version": {"type": "string", "const": "2.0"},
+    "families": {"type": "array", "items": {"$ref": "#/$defs/familyEvidence"}}
   },
   "additionalProperties": false,
   "$defs": {
+    "familyEvidence": {
+      "type": "object",
+      "required": ["family_id", "automation_status", "evidence_items"],
+      "properties": {
+        "family_id": {"type": "string", "pattern": "^[A-Z0-9_]+$"},
+        "automation_status": {"enum": ["enabled_family_only", "pending_review", "blocked_evidence"]},
+        "evidence_items": {"type": "array", "items": {"$ref": "#/$defs/evidence"}}
+      },
+      "additionalProperties": false
+    },
     "evidence": {
       "type": "object",
-      "required": ["evidence_id", "metric_type", "value", "unit", "scope", "variant", "test_standard", "test_context", "source_url", "source_type", "evidence_status", "reviewed_at", "notes"],
+      "required": ["evidence_id", "metric_type", "value", "value_type", "unit", "scope", "variant", "test_standard", "test_context", "source_url", "source_type", "source_locator", "extraction_method", "extractor_confidence", "ocr_confidence", "evidence_status", "verified_by", "verified_at", "notes"],
       "properties": {
-        "evidence_id": {"type": "string", "pattern": "^[A-Z0-9_-]+$"},
-        "metric_type": {"enum": ["thermal_r", "acoustic_rw", "acoustic_nrc", "acoustic_aw", "fire_class", "temperature_limit", "density", "vapour_class", "vapour_permeance"]},
+        "evidence_id": {"type": "string", "pattern": "^[A-Z0-9]+(?:[-_][A-Z0-9]+)*$", "maxLength": 100},
+        "metric_type": {"enum": ["product_identity", "thermal_r", "acoustic_rw", "acoustic_nrc", "acoustic_aw", "fire_class", "temperature_limit", "density", "vapour_class", "vapour_permeance"]},
         "value": {"type": ["number", "string"]},
+        "value_type": {"enum": ["scalar", "range", "per_thickness", "text_classification"]},
         "unit": {"type": "string"},
         "scope": {"enum": ["material", "product", "component", "system"]},
         "variant": {"type": "string"},
         "test_standard": {"type": "string"},
         "test_context": {"type": "string", "minLength": 1},
-        "source_url": {"type": "string", "minLength": 1},
+        "source_url": {"type": "string", "format": "uri", "pattern": "^https://"},
         "source_type": {"enum": ["manufacturer", "manufacturer_page", "manufacturer_tds", "test_report", "owned_secondary_source"]},
+        "source_locator": {"type": "string", "minLength": 1},
+        "extraction_method": {"enum": ["manual_transcription", "html_text", "pdf_text", "ocr", "legacy_migration", "manufacturer_page_link"]},
+        "extractor_confidence": {"type": "number", "minimum": 0, "maximum": 1},
+        "ocr_confidence": {"anyOf": [{"type": "number", "minimum": 0, "maximum": 1}, {"type": "null"}]},
         "evidence_status": {"enum": ["verified", "pending_human_review", "legacy_unverified"]},
-        "reviewed_at": {"type": ["string", "null"], "format": "date"},
+        "verified_by": {"type": ["string", "null"]},
+        "verified_at": {"anyOf": [{"type": "string", "format": "date-time"}, {"type": "null"}]},
         "notes": {"type": "string"}
       },
       "additionalProperties": false
