@@ -1,0 +1,491 @@
+INSULATION PRODUCT KNOWLEDGE — AIRCALL TRIAL
+
+Purpose: help qualify enquiries and identify a suitable supported product family for human review.
+This material does not authorise exact SKU, grade, thickness, quantity, price or compliance selection.
+R-value, Rw and NRC/alpha-w are different metrics and must never be substituted for one another.
+A product or material rating is not the rating of the completed wall, floor, ceiling, roof or service system.
+
+SUPPORTED PRODUCT FAMILIES
+
+## Fletcher — FI32 Semi-Rigid Insulation
+Reference ID: FLETCHER_FI32_SEMI_RIGID
+Product role: Semi-rigid glasswool in sheet or roll form for internal duct lining, process equipment and acoustic baffles.
+Typical applications: duct liner, sheet metal duct, plant room, process vessel, acoustic baffle.
+Useful customer language: fi32, duct lining, internal duct, process equipment, plant room, acoustic baffle.
+Selection guidance: Technical HVAC/industrial family with facing options; suitability depends on airflow, facing, temperature and system design.
+Before suggesting this family, clarify:
+- Is this internal duct lining or equipment insulation?
+- What thickness, facing and air velocity are specified?
+- What fire, hygiene and acoustic requirements apply?
+Mandatory checks before quote or order:
+- Confirm facing and exposure
+- Verify HVAC/fire/hygiene specification
+- Use current TDS for R-value and acoustic data
+Approved structured performance evidence:
+- thermal_r: R0.71 at 25 mm to R3.0 at 100 mm m²·K/W; variant: FI32 thickness range; scope: product; context: Material R-value varies by thickness; exact SKU mapping required.
+Primary product source: https://insulation.com.au/product/fi32-semi-rigid-insulation/
+Safe wording: FI32 Semi-Rigid Insulation may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Fletcher — Fletcher Membrane Tapes and Thermal Break Accessories
+Reference ID: FLETCHER_TAPES_ACCESSORIES
+Product role: System accessories including Thermatape, Vapastop foil tape, plain foil tape and 3M seaming tape for their nominated parent systems.
+Typical applications: steel frame thermal break, membrane seam, foil insulation joint, vapour seal, installation accessory.
+Useful customer language: thermatape, vapastop tape, plain foil tape, 3m seaming tape, seal membrane, thermal break tape.
+Selection guidance: Accessory family only. Recommend the compatible accessory type after identifying the parent membrane or insulation system.
+Before suggesting this family, clarify:
+- Which parent Fletcher product is being installed?
+- Is the task a thermal break, foil seam or vapour-permeable membrane seam?
+- What width and exposure conditions apply?
+Mandatory checks before quote or order:
+- Confirm accessory compatibility
+- Thermatape compression changes R-value
+- Do not treat tape as standalone insulation
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://insulation.com.au/product/vapastop-883-tape/
+Safe wording: Fletcher Membrane Tapes and Thermal Break Accessories may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Fletcher — Fletcher Protect / Fire Stop Party Wall Stonewool
+Reference ID: FLETCHER_PARTY_WALL_STONEWOOL
+Product role: Stonewool batts, strips and foil-faced blanket for compress-filling nominated party-wall and separating-wall details.
+Typical applications: party wall, separating wall, intertenancy wall, roof junction, fire stopping.
+Useful customer language: party wall, intertenancy, fire stop, fireseal, fire strip, protect pwall, flanking noise.
+Selection guidance: Specialist fire/acoustic family. Recommendation means use the Fletcher party-wall system family—not that a project detail is automatically compliant.
+Before suggesting this family, clarify:
+- Which tested party-wall system and junction is involved?
+- Is a batt, strip or foil-faced blanket specified?
+- What FRL/NCC detail and compression requirement applies?
+Mandatory checks before quote or order:
+- Follow the nominated tested system and installation guide
+- Confirm exact component code
+- No standalone compliance claim
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://insulation.com.au/product/fletcher-protect-party-wall-stonewool-batts/
+Safe wording: Fletcher Protect / Fire Stop Party Wall Stonewool may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Fletcher — Permastop Building Blanket
+Reference ID: FLETCHER_PERMASTOP
+Product role: Foil-faced glasswool building blanket for metal roofs and suitable wall systems, providing thermal insulation, condensation control and rain-noise reduction.
+Typical applications: metal roof, warehouse roof, shed roof, commercial roof, external wall.
+Useful customer language: permastop, metal roof heat, rain noise, roof blanket, warehouse insulation, shed insulation.
+Selection guidance: Strong metal-roof thermal/condensation family with useful rain-noise benefit; blanket R-value and facing duty are SKU-specific.
+Before suggesting this family, clarify:
+- Is this roof or wall, and what cladding is used?
+- What R-value, blanket thickness and facing duty are specified?
+- What climate, condensation and BAL requirements apply?
+Mandatory checks before quote or order:
+- Confirm blanket compression and installed R-value
+- Select foil duty and roll size
+- Verify condensation, BAL and roof-system requirements
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://insulation.com.au/product/permastop-building-blanket/
+Safe wording: Permastop Building Blanket may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Fletcher — Pink Batts Ceiling Insulation
+Reference ID: FLETCHER_PINK_BATTS_CEILING
+Product role: Glasswool thermal insulation for residential ceiling applications.
+Typical applications: ceiling, roof space, ceiling retrofit, residential ceiling.
+Useful customer language: ceiling heat, ceiling insulation, roof space, pink batts ceiling, energy bills.
+Selection guidance: Primary Fletcher thermal family for ceilings; select by required R-value, available depth and regional product code.
+Before suggesting this family, clarify:
+- Is this a new ceiling or retrofit?
+- What existing insulation is present?
+- What R-value, joist depth and downlight clearances apply?
+Mandatory checks before quote or order:
+- Confirm current regional SKU and CodeMark coverage
+- Assess existing insulation and electrical clearances
+- Confirm total system R-value
+Approved structured performance evidence:
+- thermal_r: 2.5 m²·K/W; variant: Ceiling batt range; scope: product; context: Material R-value; exact thickness and SKU must match current pack data.
+- thermal_r: 6.0 m²·K/W; variant: Ceiling batt range; scope: product; context: Material R-value; exact thickness and SKU must match current pack data.
+Primary product source: https://insulation.com.au/product/pink-batts-ceiling-insulation/
+Safe wording: Pink Batts Ceiling Insulation may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Fletcher — Pink Batts Floor Insulation
+Reference ID: FLETCHER_PINK_BATTS_FLOOR
+Product role: Glasswool thermal insulation for suitable suspended-floor applications.
+Typical applications: suspended floor, timber floor, underfloor, floor insulation.
+Useful customer language: cold floor, underfloor, suspended floor, floor heat, pink floor batts.
+Selection guidance: Thermal floor family; access, support and moisture conditions govern practical suitability.
+Before suggesting this family, clarify:
+- Is the floor suspended and accessible from below?
+- What joist spacing and depth apply?
+- Is moisture or exposed subfloor wind a concern?
+Mandatory checks before quote or order:
+- Confirm current TDS and available SKU
+- Verify retention/support method
+- Check moisture, services and subfloor conditions
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://insulation.com.au/products/
+Safe wording: Pink Batts Floor Insulation may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Fletcher — Pink Batts Wall Insulation
+Reference ID: FLETCHER_PINK_BATTS_WALL
+Product role: Glasswool thermal insulation for internal and external residential wall cavities.
+Typical applications: internal wall, external wall, timber frame wall, residential wall.
+Useful customer language: wall heat, wall insulation, pink batts wall, external wall, internal wall thermal.
+Selection guidance: Strong general wall-thermal fit. Soundbreak is the stronger Fletcher family when acoustic transfer is the primary problem.
+Before suggesting this family, clarify:
+- Is the wall internal or external?
+- What stud spacing and cavity depth are available?
+- What required material or total R-value applies?
+Mandatory checks before quote or order:
+- Select R-value and width from the actual wall system
+- Confirm climate-zone, condensation and NCC requirements
+- Do not use a batt rating as a complete wall-system rating
+Approved structured performance evidence:
+- thermal_r: 1.5 m²·K/W; variant: 70 mm wall batt; scope: product; context: Material R-value for the named product variant, not total wall-system R-value.
+- thermal_r: 2.0 m²·K/W; variant: 90 mm wall batt; scope: product; context: Material R-value; not total system R-value.
+- thermal_r: 2.5 m²·K/W; variant: 90 mm high-density wall batt; scope: product; context: Material R-value; not total system R-value.
+Primary product source: https://insulation.com.au/product/pink-batts-insulation/
+Safe wording: Pink Batts Wall Insulation may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Fletcher — Pink Partition Insulation
+Reference ID: FLETCHER_PINK_PARTITION
+Product role: Glasswool insulation for commercial internal and external partition systems across common steel-stud sizes.
+Typical applications: commercial partition, steel stud wall, office wall, hospital wall, school wall.
+Useful customer language: partition, commercial wall, steel stud, office acoustic, pink partition.
+Selection guidance: Commercial partition family with multiple densities and sizes; density alone is not an installed acoustic rating.
+Before suggesting this family, clarify:
+- What stud depth and spacing apply?
+- What wall system and acoustic/fire target is specified?
+- Is thermal resistance also required?
+Mandatory checks before quote or order:
+- Select density and thickness from tested/specifed system
+- Do not infer Rw from density
+- Confirm fire and project specification
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://insulation.com.au/product/pink-partition-insulation/
+Safe wording: Pink Partition Insulation may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Fletcher — Pink Thermal Slab
+Reference ID: FLETCHER_PINK_THERMAL_SLAB
+Product role: Foil-faced semi-rigid glasswool board for commercial under-slab soffits, concrete floors, roofs and walls.
+Typical applications: under slab, soffit, concrete floor, commercial roof, concrete wall.
+Useful customer language: thermal slab, under slab, soffit insulation, concrete slab, foil faced board.
+Selection guidance: Strong commercial soffit/under-slab family; facing, fixings and fire classification must match the installation.
+Before suggesting this family, clarify:
+- Is the application an exposed soffit, floor, roof or wall?
+- What R-value and fixing system are specified?
+- What lining/fire classification applies?
+Mandatory checks before quote or order:
+- Confirm fixing and facing detail
+- Retain exact fire-classification context
+- Verify project specification
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://insulation.com.au/product/pink-thermal-slab/
+Safe wording: Pink Thermal Slab may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Fletcher — Sisalation Foam Cell and Bubble Cell
+Reference ID: FLETCHER_FOAM_BUBBLE_CELL
+Product role: Reflective composite membranes for suitable roof and wall systems, with selected Foam Cell products also serving as a thermal break.
+Typical applications: steel frame thermal break, shed roof, external wall, roof, vapour barrier.
+Useful customer language: foam cell, bubble cell, thermal break membrane, reflective foam, shed sarking.
+Selection guidance: Practical reflective family; Foam Cell and Bubble Cell are distinct variants and must not share R-values or fire classifications.
+Before suggesting this family, clarify:
+- Is a thermal break, vapour barrier or sarking function required?
+- Is a Group Number required?
+- What roof/wall assembly and BAL requirement apply?
+Mandatory checks before quote or order:
+- Select exact Foam Cell or Bubble Cell variant
+- Keep product and total system R-values separate
+- Verify fire/BAL context
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://insulation.com.au/product/foam-cell-mutlipurpose/
+Safe wording: Sisalation Foam Cell and Bubble Cell may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Fletcher — Sisalation Tuff Wrap and Multipurpose Sarking
+Reference ID: FLETCHER_SISALATION_WRAP
+Product role: Reflective pliable membranes for nominated wall and roof applications, helping manage radiant heat, water and draughts.
+Typical applications: wall wrap, roof sarking, brick veneer, tile roof, metal roof.
+Useful customer language: tuff wrap, multipurpose 439, sisalation, reflective wall wrap, roof sarking, radiant heat.
+Selection guidance: Broad family for discovery only; exact Tuff Wrap or Multipurpose duty/class must be selected from climate, assembly and current TDS.
+Before suggesting this family, clarify:
+- Is the application a wall or roof?
+- Is vapour permeability or a vapour barrier required?
+- What duty, climate zone, water barrier and BAL requirements apply?
+Mandatory checks before quote or order:
+- Select exact membrane variant
+- Confirm vapour classification and duty
+- Verify BAL/NCC evidence for current product and edition
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://insulation.com.au/product/sisalation-tuff-wrap/
+Safe wording: Sisalation Tuff Wrap and Multipurpose Sarking may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Fletcher — Sisalation Vapawrap Metal Roof
+Reference ID: FLETCHER_VAPAWRAP_METAL_ROOF
+Product role: Vapour-permeable roof sarking for condensation management beneath suitable roof cladding.
+Typical applications: metal roof, roof sarking, vapour permeable roof, condensation management.
+Useful customer language: vapawrap metal roof, roof condensation, vapour permeable roof, roof sarking.
+Selection guidance: Purpose-specific condensation-management membrane; it is not interchangeable with wall wrap or a vapour barrier.
+Before suggesting this family, clarify:
+- What roof cladding and pitch apply?
+- What climate-zone and condensation design apply?
+- How will drainage, laps and penetrations be detailed?
+Mandatory checks before quote or order:
+- Verify roof assembly and drainage detail
+- Confirm vapour-permeability requirement
+- Do not substitute wall-wrap SKU without evidence
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://insulation.com.au/product/sisalation-vapawrap-metal-roof/
+Safe wording: Sisalation Vapawrap Metal Roof may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Fletcher — Sisalation Vapawrap Residential Wall Wrap
+Reference ID: FLETCHER_VAPAWRAP_WALL
+Product role: Vapour-permeable water-barrier wall wrap for suitable cladding and climate-zone applications.
+Typical applications: external wall wrap, brick veneer, lightweight cladding, vapour permeable membrane.
+Useful customer language: vapawrap wall, vapour permeable wall, condensation wall, wall wrap, vp4.
+Selection guidance: Strong moisture-management option where a vapour-permeable wall membrane is required; climate and wall build-up govern selection.
+Before suggesting this family, clarify:
+- What climate zone and cladding apply?
+- Is a Class 4 vapour-permeable membrane required?
+- What UV exposure period is expected before cladding?
+Mandatory checks before quote or order:
+- Confirm vapour class and climate-zone selection
+- Seal laps and penetrations to the installation guide
+- Verify BAL/NCC edition and wall system
+Approved structured performance evidence:
+- vapour_class: Class 4 AS 4200.1 classification; variant: Residential wall wrap; scope: product; context: Product classification must still be checked against climate zone, wall build-up and current NCC adoption.
+Primary product source: https://insulation.com.au/product/sisalation-vapawrap-residential-wall-wrap/
+Safe wording: Sisalation Vapawrap Residential Wall Wrap may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Fletcher — Soundbreak Acoustic Insulation
+Reference ID: FLETCHER_SOUNDBREAK
+Product role: Higher-density glasswool insulation for reducing sound transfer through designed walls, ceilings and floors while also providing thermal resistance.
+Typical applications: internal wall, external wall, ceiling, floor, media room, bedroom.
+Useful customer language: voices through wall, room noise, sound transfer, media room, soundbreak, acoustic batt.
+Selection guidance: Strong Fletcher choice when cavity absorption and thermal performance are both important; system construction controls the achieved Rw.
+Before suggesting this family, clarify:
+- Which wall, ceiling or floor construction is involved?
+- Is the noise airborne or impact noise?
+- What cavity depth and acoustic target apply?
+Mandatory checks before quote or order:
+- Do not present material R-value, NRC or alpha-w as Rw
+- Use tested system evidence for an acoustic target
+- Reconcile legacy 9021xx/4006068 codes before quoting
+- Confirm batt size, cavity depth and complete construction
+Approved structured performance evidence:
+- thermal_r: R1.7–R3.1 m²·K/W; variant: Current Soundbreak range; scope: product; context: Variant-dependent material R-values; never treat as acoustic Rw.
+Primary product source: https://insulation.com.au/product/soundbreak/
+Safe wording: Soundbreak Acoustic Insulation may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Fletcher — supaBATT External Wall Barrier
+Reference ID: FLETCHER_SUPABATT
+Product role: Rigid glasswool external-wall board, available unfaced or with a Class 4 vapour-permeable facing.
+Typical applications: external wall, brick veneer, continuous wall insulation, vapour permeable wall.
+Useful customer language: supabatt, external wall barrier, 7 star wall, continuous insulation, vp4 batt.
+Selection guidance: External-wall thermal family with faced and unfaced options; the broader wall/condensation design remains project-specific.
+Before suggesting this family, clarify:
+- Is the product being installed outside the frame?
+- Is the VP4 faced option required?
+- What wall R-value and condensation design apply?
+Mandatory checks before quote or order:
+- Choose faced or unfaced SKU
+- Confirm compatibility with adjacent membranes
+- Verify full wall system and NCC target
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://insulation.com.au/product/supabatt/
+Safe wording: supaBATT External Wall Barrier may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Thermotec — 4-Zero Fire Retardant Pipe Insulation
+Reference ID: THERMOTEC_4_ZERO
+Product role: Thermal insulation and condensation control for pipe services where the documented 4-Zero fire-performance context is relevant.
+Typical applications: HVAC pipe, refrigeration pipe, hot water pipe, commercial services.
+Useful customer language: 4-zero pipe, fire retardant pipe, hvac, refrigeration, condensation, thermal pipe.
+Selection guidance: Strong thermal-services fit. Compliance score means useful documented evidence, not automatic project compliance.
+Before suggesting this family, clarify:
+- What is the pipe outside diameter and service temperature?
+- What insulation thickness is required?
+- What exact fire or project clause applies?
+Mandatory checks before quote or order:
+- Select diameter and thickness from design
+- Retain exact fire-test context
+- Confirm condensation, exposure and project requirements
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://thermotec.com.au/products/thermotec-4-zero
+Safe wording: 4-Zero Fire Retardant Pipe Insulation may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Thermotec — E-Flex HT Solar Pipe Insulation
+Reference ID: THERMOTEC_E_FLEX_HT
+Product role: EPDM pipe insulation for solar and higher-temperature, UV/weather-exposed services within documented limits.
+Typical applications: solar hot water, outdoor pipe, high-temperature pipe, UV-exposed service.
+Useful customer language: e-flex ht, solar, high temperature, outdoor, uv, weather, hot pipe.
+Selection guidance: Strong fit for higher-temperature and exposed pipe services; verify actual temperature, weathering and protection.
+Before suggesting this family, clarify:
+- What are continuous and intermittent temperatures?
+- Will the insulation be outdoors or UV exposed?
+- What pipe diameter and thickness are required?
+Mandatory checks before quote or order:
+- Confirm documented temperature limit
+- Confirm weather/mechanical protection
+- Verify regulatory and system requirements
+Approved structured performance evidence:
+- temperature_limit: 150 °C continuous; variant: E-Flex HT; scope: product; context: Continuous service-temperature statement.
+- temperature_limit: 175 °C intermittent; variant: E-Flex HT; scope: product; context: Intermittent limit; not a continuous design temperature.
+Primary product source: https://thermotec.com.au/products/thermotec-e-flex-ht-solar-pipe-insulation
+Safe wording: E-Flex HT Solar Pipe Insulation may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Thermotec — E-Flex ST Pipe Insulation
+Reference ID: THERMOTEC_E_FLEX_ST
+Product role: Closed-cell elastomeric insulation for HVAC, refrigeration, plumbing and hot-water services up to the documented operating limit.
+Typical applications: HVAC, refrigeration, general plumbing, hot water, indoor pipe.
+Useful customer language: e-flex st, hot water, chilled water, refrigeration, hvac, condensation, pipe insulation.
+Selection guidance: Primary strength is thermal/condensation control with broad sizes and formats. Project compliance remains system-specific.
+Before suggesting this family, clarify:
+- What is the pipe outside diameter?
+- What fluid and operating temperature apply?
+- Is the installation indoors, outdoors or UV exposed?
+- Is tube, coil or self-seal preferred?
+Mandatory checks before quote or order:
+- Confirm thickness from thermal and condensation design
+- Use HT rather than ST where exposure/temperature requires it
+- No generic family R-value
+Approved structured performance evidence:
+- temperature_limit: 110 °C continuous; variant: E-Flex ST; scope: product; context: Maximum continuous service-temperature statement; selection also depends on diameter, thickness, exposure and service.
+Primary product source: https://thermotec.com.au/products/thermotec-e-flex-st-hot-water-hvac-refrigeration-pipe-insulation
+Safe wording: E-Flex ST Pipe Insulation may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Thermotec — E-Therm Reflective Roof and Wall Insulation
+Reference ID: THERMOTEC_E_THERM
+Product role: Reflective insulation for suitable roof and wall systems, particularly metal-roof and shed applications.
+Typical applications: metal roof, shed, roof, wall, reflective insulation.
+Useful customer language: roof heat, shed heat, metal roof, reflective, radiant heat, wall insulation.
+Selection guidance: Energy-efficiency relevance is high when correctly installed in a designed system. System R-values and condensation design need verification.
+Before suggesting this family, clarify:
+- Is this a roof, wall, shed or conditioned building?
+- What air spaces and roof/wall build-up are proposed?
+- What climate zone and condensation requirements apply?
+Mandatory checks before quote or order:
+- Verify system R-value, not just product layer
+- Check condensation and installation orientation
+- Confirm NCC and project specification
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://thermotec.com.au/products/thermotec-e-therm-roof-wall-insulation
+Safe wording: E-Therm Reflective Roof and Wall Insulation may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Thermotec — MaxTape FR Insulating Foam Tape
+Reference ID: THERMOTEC_MAXTAPE_FR
+Product role: Insulating foam tape used to finish compatible insulation systems, joints and fittings.
+Typical applications: pipe insulation joint, fitting, insulation repair, system accessory.
+Useful customer language: tape, join insulation, seal joint, maxtape, accessory, fitting.
+Selection guidance: An installation accessory rather than a stand-alone insulation solution; correct system compatibility matters.
+Before suggesting this family, clarify:
+- Which parent insulation system is being installed?
+- Is the tape for joints, fittings or repair?
+- Is a fire classification specified?
+Mandatory checks before quote or order:
+- Confirm compatibility with parent system
+- Verify current fire-classification evidence
+- Do not sell as stand-alone insulation
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://thermotec.com.au/products/thermotec-maxflex-insulating-foam-tape
+Safe wording: MaxTape FR Insulating Foam Tape may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Thermotec — NuWave Acoustic Floor Underlay
+Reference ID: THERMOTEC_NUWAVE_UNDERLAY
+Product role: Improve floor impact-noise comfort beneath a compatible floor finish as part of a tested or engineered floor system.
+Typical applications: floor, apartment floor, timber floor, laminate floor, carpet underlay.
+Useful customer language: footsteps, impact, floor, upstairs, chair, underlay.
+Selection guidance: Purpose-led fit for floor impact noise. System performance and floor-finish compatibility require confirmation.
+Before suggesting this family, clarify:
+- What floor finish will be installed?
+- Is the concern impact noise, airborne noise, or both?
+- Is there a body-corporate or consultant target?
+Mandatory checks before quote or order:
+- Verify floor-finish compatibility
+- Confirm tested system or consultant requirement
+- Do not promise an installed-system result from a component claim
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://thermotec.com.au/products/carpet-underlay
+Safe wording: NuWave Acoustic Floor Underlay may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Thermotec — NuWave Mass Loaded Vinyl Acoustic Barrier
+Reference ID: THERMOTEC_NUWAVE_BASE_MLV
+Product role: Add flexible surface mass to reduce airborne sound transmission in a designed wall, ceiling or floor system.
+Typical applications: internal wall, ceiling, floor, partition, vehicle, general acoustic barrier.
+Useful customer language: airborne, voices, television, music, wall, ceiling, thin acoustic barrier, mlv.
+Selection guidance: Strong acoustic-barrier fit. Energy and sustainability are not its primary documented functions. Compliance depends on the complete construction.
+Before suggesting this family, clarify:
+- Is the noise airborne or impact noise?
+- What is the complete wall, floor or ceiling build-up?
+- Is there a target Rw/Rw+Ctr or consultant specification?
+Mandatory checks before quote or order:
+- Select grade only after system and target are known
+- Verify fire, NCC and BAL requirements for the complete construction
+- Product Rw is not the completed-system Rw
+Approved structured performance evidence:
+- acoustic_rw: 24 dB; variant: 2 kg/m²; scope: product; context: Product-only laboratory rating; not a completed wall, floor or ceiling system rating.
+- acoustic_rw: 26 dB; variant: 4 kg/m²; scope: product; context: Product-only laboratory rating; not installed-system performance.
+- acoustic_rw: 29 dB; variant: 6 kg/m²; scope: product; context: Product-only laboratory rating; not installed-system performance.
+- acoustic_rw: 30 dB; variant: 8 kg/m²; scope: product; context: Product-only laboratory rating; not installed-system performance.
+- acoustic_rw: 34 dB; variant: 10 kg/m²; scope: product; context: Product-only laboratory rating; not installed-system performance.
+Primary product source: https://thermotec.com.au/products/nuwave_mlv_acoustic_barriers_2
+Safe wording: NuWave Mass Loaded Vinyl Acoustic Barrier may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Thermotec — NuWrap 5 Acoustic Pipe Lagging
+Reference ID: THERMOTEC_NUWRAP_5
+Product role: Flexible acoustic lagging for reducing noise breakout from pipes, ducts and building services.
+Typical applications: waste pipe, stormwater pipe, duct, building services, plumbing.
+Useful customer language: waste pipe, stormwater, plumbing noise, duct noise, pipe breakout, lagging.
+Selection guidance: Strong services-noise fit. Thermal and compliance outcomes depend on the service and complete installed system.
+Before suggesting this family, clarify:
+- What service and pipe/duct size is involved?
+- Is the noise airborne breakout, vibration, or both?
+- Is the service internal, external, hot, cold or fire-rated?
+Mandatory checks before quote or order:
+- Confirm service temperature and diameter
+- Verify joints, penetrations and complete system
+- Check fire and project specification
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://thermotec.com.au/products/nuwrap-acoustic-lagging
+Safe wording: NuWrap 5 Acoustic Pipe Lagging may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Thermotec — NuWrap XtraFlex Acoustic Lagging
+Reference ID: THERMOTEC_NUWRAP_XTRAFLEX
+Product role: Flexible acoustic lagging for pipes, ducts and services where conformability and installation access matter.
+Typical applications: waste pipe, duct, building services, tight access.
+Useful customer language: xtraflex, flexible lagging, tight access, pipe noise, duct noise.
+Selection guidance: High installation-practicality relevance where flexibility is documented; confirm exact product variant and system.
+Before suggesting this family, clarify:
+- Does access require a highly conformable lagging?
+- What service, size and temperature apply?
+- What acoustic target or consultant detail applies?
+Mandatory checks before quote or order:
+- Choose between NuWrap variants from current data
+- Confirm service conditions
+- Verify complete system and compliance
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://thermotec.com.au/products/thermotec_acoustic_nuwrap_xtraflex_2
+Safe wording: NuWrap XtraFlex Acoustic Lagging may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Thermotec — Rockwool Pipe Insulation
+Reference ID: THERMOTEC_ROCKWOOL_PIPE
+Product role: Mineral-wool pipe insulation for industrial and high-temperature service applications within documented limits.
+Typical applications: industrial pipe, high-temperature pipe, plant room, process service.
+Useful customer language: rockwool, stonewool, mineral wool, industrial pipe, very high temperature, process pipe.
+Selection guidance: Strong high-temperature thermal fit; density is not Rw and final performance depends on thickness and system.
+Before suggesting this family, clarify:
+- What is the maximum service temperature?
+- What pipe diameter and insulation thickness are specified?
+- What jacketing and environmental exposure apply?
+Mandatory checks before quote or order:
+- Confirm temperature and thickness
+- Select jacketing/protection
+- Do not interpret density as an acoustic rating
+Approved structured performance evidence:
+- temperature_limit: 650 °C maximum; variant: Rockwool pipe insulation; scope: product; context: Maximum service-temperature statement; facing, binder, joints and support details can impose lower limits.
+- density: 115–140 kg/m³; variant: Product range; scope: material; context: Published range; exact SKU density requires confirmation.
+Primary product source: https://thermotec.com.au/products/thermotec-rockwool-pipe-insulation
+Safe wording: Rockwool Pipe Insulation may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+PRODUCTS THAT MUST NOT BE RECOMMENDED
+These names may be recognised if a caller asks about them, but their identity or primary evidence is unresolved. Say that the product record requires technical review and arrange a callback.
+- Fletcher — FI24 Flexible Ductliner (FLETCHER_FI24_FLEX_DUCTLINER)
+- Fletcher — Safe'n'Silent Pro350 (legacy identity review) (FLETCHER_SAFE_N_SILENT_LEGACY)
+- Fletcher — Sisalation FF HD facing roll (identity review) (FLETCHER_FF_HD_LEGACY)
+- Thermotec — Maxflex Coil Pipe Insulation (identity unverified) (THERMOTEC_MAXFLEX_PIPE)
+- Thermotec — NuWave 4-Zero Foil-faced MLV (THERMOTEC_NUWAVE_FOIL_FACED_MLV)
+- Thermotec — NuWave UV-treated Fence MLV (THERMOTEC_NUWAVE_FENCE_MLV)
+
+UNIVERSAL ESCALATION
+Arrange human technical review for NCC, fire, BAL, consultant specifications, target R/Rw/NRC/alpha-w values, high temperatures, condensation risk, exterior exposure, sensitive buildings, guarantees or installed-performance questions.
+Do not say that a product makes a project compliant. Do not invent availability, price, stock, lead time or performance.

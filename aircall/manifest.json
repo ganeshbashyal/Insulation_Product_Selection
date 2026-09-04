@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "generated_on": "2026-09-04",
+  "source_sha256": "f218a8bcd609bc113c9fd6f063b540567c79c6cb153523fcadc9e8b78789ec48",
+  "total_families": 31,
+  "recommendation_eligible_families": 25,
+  "blocked_families": 6,
+  "knowledge_characters": 36980,
+  "aircall_context_threshold": 300000,
+  "files": {
+    "knowledge_base": "aircall_knowledge_base.txt",
+    "agent_instructions": "aircall_agent_instructions.txt",
+    "intake_questions": "aircall_intake_questions.txt"
+  }
+}

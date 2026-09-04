@@ -10,6 +10,7 @@
 | Fragile keyword matching | Canonical synonyms, phrase/token matching and conservative fuzzy-word fallback are isolated in `bot_engine.py`. | This is deterministic and auditable, not semantic AI search. Evaluate embeddings only with a labelled enquiry set and a safe fallback. |
 | No TDS ingestion | `scripts/ingest_evidence.py` downloads PDF/HTML, hashes it and extracts candidates into an ignored review inbox. | It never promotes claims automatically. OCR for scanned PDFs and reviewer UI remain future work. |
 | No audit/approval workflow | `audit_store.py` persists enquiries and immutable approval/rejection events in local SQLite; the Streamlit approval action uses the review ID. | CRM/ticket submission is not enabled until a platform, credentials, privacy/retention rules and field mapping are approved. |
+| Aircall cannot ingest the catalogue CSV as knowledge | `scripts/build_aircall_pack.py` publishes a paste-ready knowledge block, agent instructions, intake questions and a source-hash manifest from the governed catalogue. | Trial users paste/configure these files manually. A hosted knowledge page or API Action can replace this after the trial. |
 
 ## Release rule
 
@@ -17,6 +18,7 @@ Run both commands before merging catalogue or ranking changes:
 
 ```powershell
 python scripts/validate_catalogue.py
+python scripts/validate_aircall_pack.py
 pytest -q
 ```
 

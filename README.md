@@ -16,6 +16,7 @@ The local POC may recommend a manufacturer-supported product family. Exact produ
 - [`knowledge/performance_evidence.json`](knowledge/performance_evidence.json) — normalized R, Rw, NRC/αw, fire, vapour and temperature evidence with variant, scope, test context and provenance.
 - [`schemas/`](schemas/) and [`scripts/validate_catalogue.py`](scripts/validate_catalogue.py) — machine-enforced structures and cross-file safety checks.
 - [`tests/`](tests/) and [`.github/workflows/ci.yml`](.github/workflows/ci.yml) — ranking, gating, catalogue and audit regression checks run on every push and pull request.
+- [`aircall/`](aircall/README.md) — generated trial knowledge, agent instructions and four-question intake configuration derived from the governed catalogue.
 
 ## Data model
 
@@ -46,6 +47,8 @@ pytest -q
 ```
 
 The checked-in CSV records the source workbook filename and SHA-256 hash. Only rows marked `PASS` and `READY`, attached to an evidence-eligible family, can set `sku_selection_eligible=true`. The demo still does not select that SKU automatically.
+
+Aircall does not currently accept spreadsheet files as AI Voice Agent knowledge. `scripts/build_aircall_pack.py` converts the same governed family/evidence records into a concise paste-ready content block. Its manifest binds the generated pack to the exact source hashes, and validation prevents blocked families from entering the supported section.
 
 ## Evidence and approval workflow
 

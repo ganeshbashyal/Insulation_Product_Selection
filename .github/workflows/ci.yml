@@ -14,4 +14,5 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements-dev.txt
       - run: python scripts/validate_catalogue.py
+      - run: python scripts/validate_aircall_pack.py
       - run: pytest -q
