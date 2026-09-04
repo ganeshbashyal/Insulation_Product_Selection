@@ -3,11 +3,14 @@ data/raw/*
 !data/raw/.gitkeep
 data/processed/*
 !data/processed/.gitkeep
+!data/processed/product_catalogue_skus.csv
 reports/*
 !reports/.gitkeep
+data/local/
+evidence/inbox/*
+!evidence/inbox/.gitkeep
 
 # Jupyter and Python
 .ipynb_checkpoints/
 __pycache__/
 *.py[cod]
-

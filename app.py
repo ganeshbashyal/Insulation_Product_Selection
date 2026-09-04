@@ -1,11 +1,21 @@
 from __future__ import annotations
 
 import json
+import re
 from datetime import datetime
 from pathlib import Path
 
 import pandas as pd
 import streamlit as st
+
+from audit_store import create_review, decide_review, get_review
+from bot_engine import (
+    PRIORITY_LABELS,
+    detected_priority,
+    rank_families as rank_catalogue,
+    recommendation_allowed,
+    technical_gate,
+)
 
 APP_TITLE = "Insulation Sales Engineer"
 REPO_ROOT = Path(__file__).resolve().parent
@@ -13,51 +23,79 @@ CATALOGUE_FILES = [
     REPO_ROOT / "knowledge" / "thermotec" / "families.json",
     REPO_ROOT / "knowledge" / "fletcher" / "families.json",
 ]
+PERFORMANCE_FILE = REPO_ROOT / "knowledge" / "performance_evidence.json"
 
 QUESTIONS = [
-    ("challenge", "What are you trying to improve, and what noise, heat, condensation or comfort problem are you experiencing?"),
-    ("application", "Where is it—for example an internal wall, floor, roof, hot-water pipe, waste pipe, plant room or outdoor fence?"),
-    ("priority", "What matters most: acoustic comfort, energy efficiency, sustainability, installation practicality, budget or documented compliance?"),
-    ("conditions", "What conditions matter—temperature, pipe size, floor finish, weather/UV exposure, limited space or another constraint?"),
-    ("project", "Is this residential, commercial or industrial—and a new build, renovation, repair or retrofit?"),
-    ("requirements", "Is there an Rw/Rw+Ctr target, NCC, fire, BAL, consultant or project specification? It is fine if you are not sure."),
-    ("contact", "Would you prefer to call the team, receive a callback, or have the enquiry emailed for review? No real contact details are needed in this demo."),
+    ("challenge", "What would you like to improve—noise, heat, condensation or general comfort?"),
+    ("application", "Where is the problem—wall, floor, roof, pipe or somewhere else?"),
+    ("priority", "What matters most: comfort, energy savings, sustainability, easy installation, budget or compliance?"),
+    ("conditions", "Any practical constraints, such as limited space, weather exposure, temperature or floor finish?"),
+    ("project", "Is this residential, commercial or industrial? Is it new work or a retrofit?"),
+    ("locality", "What suburb and postcode is the project in? I’ll use it for the NCC climate-zone check."),
+    ("requirements", "Do you have a target rating, NCC, fire, BAL or consultant requirement? It’s okay if you’re unsure."),
+    ("contact", "Would you prefer to call us, receive a callback or have the brief emailed to the team?"),
 ]
 
-PRIORITY_LABELS = {
-    "acoustic_comfort": "Acoustic comfort",
-    "energy_efficiency": "Energy efficiency",
-    "sustainability": "Sustainability",
-    "installation_practicality": "Installation practicality",
-    "compliance_readiness": "Evidence readiness",
-}
-PRIORITY_TERMS = {
-    "acoustic_comfort": ["acoustic", "quiet", "noise", "sound", "comfort"],
-    "energy_efficiency": ["energy", "thermal", "heat", "condensation", "efficiency", "r-value", "r value"],
-    "sustainability": ["sustainable", "sustainability", "environment", "recycled", "low carbon"],
-    "installation_practicality": ["install", "easy", "access", "space", "thin", "practical", "retrofit"],
-    "compliance_readiness": ["compliance", "ncc", "fire", "bal", "spec", "consultant", "certification"],
+NCC_ZONE_GUIDE = [
+    {"Zone": 1, "Climate": "High-humidity summer, warm winter", "Wall wrap / external wall layer": "No zone-specific minimum in 10.8.1(2); membrane must still meet 10.8.1(1)", "Roof-space note": "General condensation design applies"},
+    {"Zone": 2, "Climate": "Warm-humid summer, mild winter", "Wall wrap / external wall layer": "No zone-specific minimum in 10.8.1(2); membrane must still meet 10.8.1(1)", "Roof-space note": "General condensation design applies"},
+    {"Zone": 3, "Climate": "Hot-dry summer, warm winter", "Wall wrap / external wall layer": "No zone-specific minimum in 10.8.1(2); membrane must still meet 10.8.1(1)", "Roof-space note": "General condensation design applies"},
+    {"Zone": 4, "Climate": "Hot-dry summer, cool winter", "Wall wrap / external wall layer": "≥ 0.143 µg/N·s; Class 3 or 4 meets the explanatory threshold", "Roof-space note": "General condensation design applies"},
+    {"Zone": 5, "Climate": "Warm temperate", "Wall wrap / external wall layer": "≥ 0.143 µg/N·s; Class 3 or 4 meets the explanatory threshold", "Roof-space note": "General condensation design applies"},
+    {"Zone": 6, "Climate": "Mild temperate", "Wall wrap / external wall layer": "≥ 1.14 µg/N·s; Class 4", "Roof-space note": "10.8.3 roof-space/ventilation provisions apply, subject to details and exceptions"},
+    {"Zone": 7, "Climate": "Cool temperate", "Wall wrap / external wall layer": "≥ 1.14 µg/N·s; Class 4", "Roof-space note": "10.8.3 roof-space/ventilation provisions apply, subject to details and exceptions"},
+    {"Zone": 8, "Climate": "Alpine", "Wall wrap / external wall layer": "≥ 1.14 µg/N·s; Class 4", "Roof-space note": "10.8.3 plus alpine provisions; specialist review"},
+]
+
+LOCALITY_ZONE_HINTS = {
+    "darwin": 1, "cairns": 1,
+    "brisbane": 2, "gold coast": 2,
+    "alice springs": 3,
+    "perth": 5, "adelaide": 5, "sydney": 5, "newcastle": 5, "wollongong": 5,
+    "melbourne": 6,
+    "canberra": 7, "hobart": 7,
+    "thredbo": 8,
 }
 EXAMPLES = {
+    "Thermal wall comfort": [
+        "The rooms are cold in winter and hot in summer.", "External timber-framed walls.",
+        "Energy efficiency and thermal comfort.", "The wall cavities are accessible during renovation.",
+        "Residential renovation.", "Parramatta, Sydney NSW 2150.", "No special fire or BAL requirement is known.", "Please arrange a callback.",
+    ],
+    "Roof at ceiling level": [
+        "We need to improve the thermal insulation in the roof.", "The insulation will sit at ceiling level below the roof space.",
+        "Energy efficiency and year-round comfort.", "It is a tiled roof with good access above the ceiling.",
+        "Residential retrofit.", "Sydney NSW 2000.", "No special fire or BAL requirement is known.", "Please arrange a callback.",
+    ],
+    "Thermal subfloor": [
+        "The timber floor is cold in winter.", "Insulation will sit underneath the suspended ground floor.",
+        "Energy efficiency and thermal comfort.", "There is crawl-space access and some wind exposure.",
+        "Residential retrofit.", "Hobart TAS 7000.", "No target rating is available yet.", "Please arrange a callback.",
+    ],
+    "Between-floor noise": [
+        "We hear voices between the ground and first floor.", "The insulation will sit inside the cavity between storeys.",
+        "Acoustic comfort.", "The ceiling will be opened during renovation.",
+        "Residential renovation.", "Melbourne VIC 3000.", "No acoustic target is known.", "Email the brief to the team.",
+    ],
     "Airborne wall noise": [
         "We hear conversations and television through the wall.", "An existing internal stud wall between a bedroom and living room.",
         "Acoustic comfort first, with minimal added thickness.", "The wall cavity is accessible during renovation.",
-        "Residential renovation in Melbourne.", "No target is known and I am not sure about fire requirements.", "Please arrange an afternoon callback.",
+        "Residential renovation.", "Melbourne VIC 3000.", "No target is known and I am not sure about fire requirements.", "Please arrange an afternoon callback.",
     ],
     "Noisy waste pipe": [
         "Water movement in a waste pipe is loud in the bedroom.", "A 100 mm PVC waste pipe in a boxed service riser.",
         "Acoustic comfort and practical installation in tight access.", "Indoor service, limited access, temperature is not high.",
-        "Apartment renovation.", "The consultant detail is available but I do not know the clause.", "Email the enquiry for review.",
+        "Apartment renovation.", "Brisbane QLD 4000.", "The consultant detail is available but I do not know the clause.", "Email the enquiry for review.",
     ],
     "Outdoor solar pipe": [
         "We need to reduce heat loss from solar hot-water pipes.", "Copper pipe running outside on the roof.",
         "Energy efficiency and weather durability.", "High temperature with continuous sun and UV exposure; pipe size is 22 mm.",
-        "Residential retrofit.", "The plumber needs an NCC-suitable system but no clause was supplied.", "Please arrange a callback.",
+        "Residential retrofit.", "Brisbane QLD 4000.", "The plumber needs an NCC-suitable system but no clause was supplied.", "Please arrange a callback.",
     ],
     "Hot metal shed": [
         "The metal shed becomes extremely hot in summer.", "Under a new metal roof and in the walls.",
         "Energy efficiency and summer comfort.", "The roof has a ventilated air space; condensation design is not complete.",
-        "Commercial shed refurbishment.", "The certifier will review NCC and condensation requirements.", "Email the project brief.",
+        "Commercial shed refurbishment.", "Perth WA 6000.", "The certifier will review NCC and condensation requirements.", "Email the project brief.",
     ],
 }
 
@@ -75,12 +113,16 @@ def load_catalogue() -> dict:
 
 CATALOGUE = load_catalogue()
 FAMILIES = CATALOGUE["families"]
+PERFORMANCE = {
+    record["family_id"]: record
+    for record in json.loads(PERFORMANCE_FILE.read_text(encoding="utf-8"))["families"]
+}
 
 
 def initialise_state() -> None:
     defaults = {
-        "messages": [{"role": "assistant", "content": "Thanks for calling. I’ll capture the application and priorities, then prepare an evidence-linked product-family pathway for technical review. " + QUESTIONS[0][1]}],
-        "answers": {}, "step": 0, "demo_complete": False, "human_approved": False, "myob_quote": None,
+        "messages": [{"role": "assistant", "content": "Hi—" + QUESTIONS[0][1]}],
+        "answers": {}, "step": 0, "demo_complete": False, "human_approved": False, "myob_quote": None, "review_id": None,
     }
     for key, value in defaults.items():
         if key not in st.session_state:
@@ -88,45 +130,79 @@ def initialise_state() -> None:
 
 
 def reset_demo() -> None:
-    for key in ["messages", "answers", "step", "demo_complete", "human_approved", "myob_quote"]:
+    for key in ["messages", "answers", "step", "demo_complete", "human_approved", "myob_quote", "review_id"]:
         st.session_state.pop(key, None)
     initialise_state()
 
 
-def detected_priority(text: str) -> str:
-    folded = text.casefold()
-    scored = {key: sum(term in folded for term in terms) for key, terms in PRIORITY_TERMS.items()}
-    best = max(scored, key=scored.get)
-    return best if scored[best] else "acoustic_comfort"
+def enquiry_text(answers: dict[str, str]) -> str:
+    return " ".join(answers.values()).casefold()
+
+
+def has_any(text: str, terms: list[str]) -> bool:
+    return any(term in text for term in terms)
+
+
+def detected_element(answers: dict[str, str]) -> str | None:
+    text = enquiry_text(answers)
+    element_terms = {
+        "roof": ["roof", "ceiling", "rafter", "truss"],
+        "floor": ["floor", "subfloor", "underfloor", "storey", "storeys"],
+        "wall": ["wall", "partition"],
+        "pipe": ["pipe", "plumbing", "waste", "solar hot water"],
+        "duct": ["duct", "hvac"],
+    }
+    return next((element for element, terms in element_terms.items() if has_any(text, terms)), None)
+
+
+def question_for_step(step: int, answers: dict[str, str]) -> str:
+    if step == 1:
+        text = enquiry_text(answers)
+        element = detected_element(answers)
+        if element == "roof":
+            if has_any(text, ["ceiling level", "ceiling space", "roofline", "rafter", "truss"]):
+                return "What type of roof is it—metal, tile or something else?"
+            return "Should the insulation sit at ceiling level or up near the roofline, rafters or trusses?"
+        if element == "floor":
+            if has_any(text, ["subfloor", "underfloor", "suspended floor", "between floors", "between storeys", "floor finish", "underlay"]):
+                return "What is the floor construction—timber, concrete or something else?"
+            return "Is it under a suspended ground floor, inside the cavity between storeys, or directly beneath the floor finish?"
+        if element == "wall":
+            return "Is it an internal or external wall, and what is the frame made from?"
+        if element in {"pipe", "duct"}:
+            return "What service is it, and is it indoors or exposed to weather?"
+    if step == 3:
+        text = enquiry_text(answers)
+        element = detected_element(answers)
+        if element == "roof":
+            if has_any(text, ["metal roof", "tiled roof", "tile roof"]):
+                return "How much space is available, and are condensation or rain noise concerns?"
+            return "What type of roof is it, and are condensation or rain noise concerns?"
+        if element == "floor":
+            return "What access, cavity depth, moisture or floor-finish constraints should we allow for?"
+    return QUESTIONS[step][1]
+
+
+def supplied_locality(answers: dict[str, str]) -> str | None:
+    return next((value for value in answers.values() if re.search(r"\b\d{4}\b", value)), None)
+
+
+def ncc_zone_hint(locality: str) -> dict | None:
+    folded = locality.casefold()
+    zone = next((zone for place, zone in LOCALITY_ZONE_HINTS.items() if place in folded), None)
+    return next((row for row in NCC_ZONE_GUIDE if row["Zone"] == zone), None)
+
+
+def wall_wrap_zone_summary(zone: int) -> str:
+    if zone <= 3:
+        return "No zone-specific minimum permeance in 10.8.1(2); the membrane and installation requirements still apply."
+    if zone <= 5:
+        return "Minimum 0.143 µg/N·s where 10.8.1(2) applies; Class 3 or 4 meets the explanatory threshold."
+    return "Minimum 1.14 µg/N·s where 10.8.1(2) applies; Class 4."
 
 
 def rank_families(answers: dict[str, str], manufacturer_scope: str | None = None) -> list[dict]:
-    text = " ".join(answers.values()).casefold()
-    priority = detected_priority(answers.get("priority", ""))
-    ranked = []
-    for family in FAMILIES:
-        if manufacturer_scope and manufacturer_scope != "Compare both" and family["manufacturer"].casefold() != manufacturer_scope.casefold():
-            continue
-        keyword_hits = [term for term in family["keywords"] if term.casefold() in text]
-        application_hits = [term for term in family["applications"] if term.casefold() in text]
-        score = len(keyword_hits) * 4 + len(application_hits) * 3 + family["scores"].get(priority, 0) * 0.35
-        if family["confidence"] == "identity_unverified":
-            score -= 6
-        ranked.append({**family, "match_score": score, "matched": keyword_hits + application_hits, "priority_key": priority})
-    return sorted(ranked, key=lambda item: (item["match_score"], item["scores"].get(priority, 0)), reverse=True)
-
-
-def recommendation_allowed(family: dict | None) -> bool:
-    return bool(family and family["confidence"].startswith("manufacturer_supported"))
-
-
-def technical_gate(answers: dict[str, str], family: dict | None) -> tuple[str, str]:
-    if family and family["confidence"] == "identity_unverified":
-        return "BLOCKED", "The catalogue identity is unverified. Manufacturer or purchasing confirmation is mandatory."
-    requirements = answers.get("requirements", "").casefold()
-    if any(term in requirements for term in ["rw", "ncc", "fire", "bal", "bushfire", "consultant", "spec", "certifier"]):
-        return "REVIEW REQUIRED", "A stated technical or regulatory requirement must be checked against the complete installed system."
-    return "REVIEW REQUIRED", "The demo may recommend this documented family; a person must still confirm construction, size/grade, evidence and availability before quoting."
+    return rank_catalogue(FAMILIES, answers, manufacturer_scope)
 
 
 def confidence_label(value: str) -> str:
@@ -146,17 +222,26 @@ def process_customer_message(prompt: str) -> None:
         key, _ = QUESTIONS[st.session_state.step]
         st.session_state.answers[key] = prompt.strip()
         st.session_state.step += 1
+    if st.session_state.step < len(QUESTIONS) and QUESTIONS[st.session_state.step][0] == "locality":
+        locality = supplied_locality(st.session_state.answers)
+        if locality:
+            st.session_state.answers["locality"] = locality
+            st.session_state.step += 1
     if st.session_state.step < len(QUESTIONS):
-        st.session_state.messages.append({"role": "assistant", "content": "Thanks, I’ve noted that. " + QUESTIONS[st.session_state.step][1]})
+        st.session_state.messages.append({"role": "assistant", "content": question_for_step(st.session_state.step, st.session_state.answers)})
     else:
         st.session_state.demo_complete = True
         top = rank_families(st.session_state.answers, st.session_state.get("manufacturer_scope", "Compare both"))[0]
-        match_reason = ", ".join(top["matched"][:3]) or top["primary_function"].lower()
         if recommendation_allowed(top):
-            reply = f"Based on the information provided, this demo recommends the **{top['name']} family** because the enquiry aligns with {match_reason}. This is a family-level recommendation—not a confirmed SKU, grade, quantity, installed result or compliance decision. A team member must verify those details before any quote or order."
+            application = next(iter(dict.fromkeys(top["matched_applications"])), "")
+            priority = PRIORITY_LABELS[top["priority_key"]].lower()
+            why = f"It suits {application} applications and your focus on {priority}." if application else f"It lines up with your focus on {priority}."
+            reply = f"**{top['name']}** looks like the best fit. {why} We’ll confirm the exact product and compliance details before quoting."
         else:
-            reply = f"The closest catalogue match is **{top['name']}**, but the demo cannot recommend it because its evidence status is {confidence_label(top['confidence']).lower()}. The enquiry has been flagged for human verification before selection or quotation."
+            reply = f"**{top['name']}** is the closest match, but its product evidence still needs checking. I’ll flag it for the team before anything is selected or quoted."
         st.session_state.messages.append({"role": "assistant", "content": reply})
+        if st.session_state.review_id is None:
+            st.session_state.review_id = create_review(callback_payload())
 
 
 def load_example(name: str) -> None:
@@ -174,12 +259,20 @@ def callback_payload() -> dict:
     ranked = rank_families(st.session_state.answers, st.session_state.get("manufacturer_scope", "Compare both")) if st.session_state.answers else []
     top = ranked[0] if ranked else None
     gate, reason = technical_gate(st.session_state.answers, top)
+    locality = st.session_state.answers.get("locality", "")
+    zone = ncc_zone_hint(locality) if locality else None
     return {
         "created_at": datetime.now().isoformat(timespec="seconds"), "demo_only": True,
+        "review_id": st.session_state.get("review_id"),
         "customer_answers": st.session_state.answers,
         "demo_recommendation": ({"family_id": top["family_id"], "name": top["name"], "scope": "product_family_only"} if recommendation_allowed(top) else None),
         "candidate_families": [{"family_id": x["family_id"], "name": x["name"], "confidence": x["confidence"]} for x in ranked[:3]],
         "technical_review": {"status": gate, "reason": reason},
+        "ncc_climate_zone_screen": {
+            "locality": locality,
+            "indicative_zone": zone["Zone"] if zone else None,
+            "status": "indicative_only_confirm_with_abcb_map" if zone else "exact_zone_lookup_required",
+        },
         "myob_status": "mock_draft_created" if st.session_state.myob_quote else "not_created",
         "catalogue_sources": [path.relative_to(REPO_ROOT).as_posix() for path in CATALOGUE_FILES],
     }
@@ -230,8 +323,16 @@ with conversation_tab:
         if not answers:
             st.info("Candidates, priority scores and evidence gates will appear as the caller responds.")
         else:
-            priority_key = detected_priority(answers.get("priority", ""))
+            priority_context = " ".join(value for key, value in answers.items() if key != "priority")
+            priority_key = detected_priority(answers.get("priority", ""), priority_context)
             st.markdown(f'<div class="card good"><div class="label">Detected customer priority</div><div class="value">{PRIORITY_LABELS[priority_key]}</div></div>', unsafe_allow_html=True)
+            locality = answers.get("locality", "")
+            zone = ncc_zone_hint(locality) if locality else None
+            if locality and zone:
+                zone_note = wall_wrap_zone_summary(zone["Zone"])
+                st.markdown(f'<div class="card gate"><div class="label">Indicative NCC climate zone</div><div class="value">Zone {zone["Zone"]} · {zone["Climate"]}</div><div class="note">{locality}<br>Wall wrap: {zone_note}<br>Confirm the exact address, applicable NCC edition and jurisdictional variations.</div></div>', unsafe_allow_html=True)
+            elif locality:
+                st.markdown(f'<div class="card gate"><div class="label">NCC climate zone</div><div class="value">Exact lookup required</div><div class="note">{locality}<br>This locality is not in the demo hint list. Confirm it with the official ABCB Climate Map.</div></div>', unsafe_allow_html=True)
             if top:
                 recommendation_label = "Demo recommendation" if recommendation_allowed(top) else "Closest match — recommendation withheld"
                 st.markdown(f'<div class="card"><div class="label">{recommendation_label}</div><div class="value">{top["manufacturer"]} · {top["name"]}</div><div class="note">{top["primary_function"]}<br>{confidence_label(top["confidence"])} · Family level only; no SKU or grade selected.</div></div>', unsafe_allow_html=True)
@@ -254,7 +355,13 @@ with conversation_tab:
         if not st.session_state.demo_complete: st.caption("Complete the enquiry before preparing a quote handoff.")
         elif not st.session_state.human_approved:
             st.warning("MYOB action locked: technical approval is pending.")
-            if st.button("Simulate technical approval", type="primary", width="stretch"): st.session_state.human_approved = True; st.rerun()
+            if st.session_state.review_id:
+                review = get_review(st.session_state.review_id)
+                st.caption(f"Review queue: {st.session_state.review_id} · {review['status'] if review else 'UNKNOWN'}")
+            if st.button("Simulate technical approval", type="primary", width="stretch"):
+                decide_review(st.session_state.review_id, "APPROVED", "demo-sales-engineer", "POC approval")
+                st.session_state.human_approved = True
+                st.rerun()
         elif st.session_state.myob_quote is None:
             st.success("Technical approval simulated for this demonstration.")
             if st.button("Create mock MYOB draft quote", type="primary", width="stretch"):
@@ -288,6 +395,17 @@ with explorer_tab:
         with right:
             st.markdown("**Evidence status**"); st.write(confidence_label(selected["confidence"]))
             st.markdown("**Knowledge file**"); st.code(f"knowledge/{selected['manufacturer'].casefold()}/{selected['knowledge_file']}")
+        performance = PERFORMANCE[selected["family_id"]]
+        st.markdown("**Structured performance evidence**")
+        st.caption(f"Automation status: {performance['automation_status'].replace('_', ' ')}")
+        if performance["evidence_items"]:
+            st.dataframe(pd.DataFrame([{
+                "Metric": item["metric_type"], "Value": f"{item['value']} {item['unit']}".strip(),
+                "Variant": item["variant"], "Scope": item["scope"], "Evidence": item["evidence_status"],
+                "Context": item["test_context"],
+            } for item in performance["evidence_items"]]), hide_index=True, width="stretch")
+        else:
+            st.warning("No normalized performance claim has been approved for this family yet.")
         st.markdown("**Questions before selection**")
         for question in selected["questions"]: st.markdown(f"- {question}")
         if selected["source_url"]: st.link_button("Open supporting source", selected["source_url"])
@@ -297,6 +415,10 @@ with architecture_tab:
     st.markdown("**Google Sheet SKU rows** → family ID → **versioned Markdown + structured catalogue** → Streamlit/Aircall retrieval → human approval → **MYOB draft quote**")
     st.info("The structured catalogue controls matching and ratings; Markdown holds the fuller explanation, limits and source context. Both use the same family ID.")
     st.markdown("#### Current controls")
-    st.markdown("- Demo mode may recommend a manufacturer-supported product family.\n- It does not select a SKU, grade, thickness, quantity or promise an installed outcome.\n- Secondary-source and identity-unverified families are not recommended.\n- Fire, NCC, BAL, acoustic targets and exact selection remain human gates.\n- MYOB is mocked and cannot create or send a real quote.")
+    st.markdown("- Demo mode may recommend a manufacturer-supported product family.\n- It does not select a SKU, grade, thickness, quantity or promise an installed outcome.\n- Secondary-source, identity-unverified and identity-review families are not recommended.\n- Normalized performance claims retain their variant, scope, test context and source.\n- Fire, NCC, BAL, acoustic targets and exact selection remain human gates.\n- Every completed enquiry receives a local review ID; MYOB is mocked and cannot create or send a real quote.")
+    st.markdown("#### NCC climate-zone screening")
+    st.dataframe(pd.DataFrame(NCC_ZONE_GUIDE), hide_index=True, width="stretch")
+    st.caption("NCC 2022 Housing Provisions 10.8 screening aid only. Required roof, wall and floor Total R-values are project-specific; confirm the exact address, building class, compliance pathway, applicable NCC edition and state or territory variations.")
+    st.link_button("Open the official ABCB Climate Map", "https://ncc.abcb.gov.au/abcb-climate-map")
 
 st.markdown('<p class="small-note">Demonstration only. No live Aircall, Google Drive, MYOB, pricing, stock, customer-record or ordering connection is used.</p>', unsafe_allow_html=True)

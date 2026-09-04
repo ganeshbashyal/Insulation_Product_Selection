@@ -2,11 +2,14 @@
 from __future__ import annotations
 
 import json
+import sys
 from pathlib import Path
 
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from bot_engine import recommendation_allowed  # noqa: E402
 SOURCE = ROOT / "data" / "raw" / "Product_Master_Bot.xlsx"
 CATALOGUE = ROOT / "knowledge" / "fletcher" / "families.json"
 REPORT = ROOT / "reports" / "fletcher_validation_report.csv"
@@ -62,7 +65,7 @@ def main() -> None:
     rows["Family Evidence Status"] = rows["Mapped Family ID"].map(lambda x: families.get(x, {}).get("confidence", "missing"))
     rows["Knowledge File"] = rows["Mapped Family ID"].map(lambda x: f"knowledge/fletcher/{families[x]['knowledge_file']}" if x in families else "")
     rows["Knowledge File Exists"] = rows["Knowledge File"].map(lambda x: bool(x) and (ROOT / x).exists())
-    rows["Usable for Family Recommendation"] = rows["Family Evidence Status"].str.startswith("manufacturer_supported") & rows["Knowledge File Exists"]
+    rows["Usable for Family Recommendation"] = rows["Mapped Family ID"].map(lambda x: recommendation_allowed(families.get(x))) & rows["Knowledge File Exists"]
     rows["Usable for SKU Selection"] = rows["Usable for Family Recommendation"] & rows["Validation Status"].eq("PASS") & rows["Bot Content Status"].eq("READY")
     columns = [
         "Our SKU", "SKU", "Our Product Name", "Active?", "Category", "Product Use", "MPN",

@@ -12,6 +12,10 @@ The local POC may recommend a manufacturer-supported product family. Exact produ
 - [`knowledge/fletcher/families.json`](knowledge/fletcher/families.json) — the 18-family Fletcher catalogue used in cross-manufacturer comparison.
 - [`notebooks/01_thermotec_poc.ipynb`](notebooks/01_thermotec_poc.ipynb) — maps and validates all 280 Thermotec rows currently in `Sheet1`.
 - [`scripts/validate_fletcher.py`](scripts/validate_fletcher.py) — maps and validates the 134 Fletcher rows and writes `reports/fletcher_validation_report.csv`.
+- [`data/processed/product_catalogue_skus.csv`](data/processed/product_catalogue_skus.csv) — the checked-in, normalized 414-row SKU catalogue for Thermotec and Fletcher. Stock-control fields are deliberately excluded.
+- [`knowledge/performance_evidence.json`](knowledge/performance_evidence.json) — normalized R, Rw, NRC/αw, fire, vapour and temperature evidence with variant, scope, test context and provenance.
+- [`schemas/`](schemas/) and [`scripts/validate_catalogue.py`](scripts/validate_catalogue.py) — machine-enforced structures and cross-file safety checks.
+- [`tests/`](tests/) and [`.github/workflows/ci.yml`](.github/workflows/ci.yml) — ranking, gating, catalogue and audit regression checks run on every push and pull request.
 
 ## Data model
 
@@ -32,6 +36,24 @@ Performance values must retain their test metric and system context. For example
 Each product-family file includes front matter with a stable `family_id`, manufacturer, validation status, and validation date. Product claims should be traceable to the official sources listed in that file.
 
 The proof of concept currently compares Thermotec and Fletcher. A family may be recommended only when its identity is supported; exact SKU selection still requires row-level evidence and human review.
+
+Rebuild the normalized SKU dataset from a validated local workbook export:
+
+```powershell
+python scripts/build_sku_dataset.py --source "C:\path\to\Product_Master_Bot_Sheet1_Validated.xlsx"
+python scripts/validate_catalogue.py
+pytest -q
+```
+
+The checked-in CSV records the source workbook filename and SHA-256 hash. Only rows marked `PASS` and `READY`, attached to an evidence-eligible family, can set `sku_selection_eligible=true`. The demo still does not select that SKU automatically.
+
+## Evidence and approval workflow
+
+Use [`scripts/ingest_evidence.py`](scripts/ingest_evidence.py) to put a PDF/HTML extraction into the ignored human-review inbox. Extraction never publishes a claim or changes recommendation eligibility. Approved claims must be normalized manually in `performance_evidence.json`.
+
+Completed demo enquiries are written to an append-audited local SQLite review queue. Approval unlocks only the mock MYOB step. A live CRM/ticket adapter is intentionally not configured: the chosen platform, field mapping, credentials, retention and privacy controls require owner approval before any external submission is enabled.
+
+See [`IMPLEMENTATION_STATUS.md`](IMPLEMENTATION_STATUS.md) for the control mapped to each identified gap and the remaining production work.
 
 ## Team demonstration
 

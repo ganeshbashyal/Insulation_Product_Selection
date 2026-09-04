@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://insulation.local/schemas/performance-evidence.schema.json",
+  "title": "Normalized product-family performance evidence",
+  "type": "object",
+  "required": ["schema_version", "families"],
+  "properties": {
+    "schema_version": {"type": "string", "const": "1.0"},
+    "families": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["family_id", "automation_status", "evidence_items"],
+        "properties": {
+          "family_id": {"type": "string", "pattern": "^[A-Z0-9_]+$"},
+          "automation_status": {"enum": ["enabled_family_only", "pending_review", "blocked_evidence"]},
+          "evidence_items": {
+            "type": "array",
+            "items": {"$ref": "#/$defs/evidence"}
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "evidence": {
+      "type": "object",
+      "required": ["evidence_id", "metric_type", "value", "unit", "scope", "variant", "test_standard", "test_context", "source_url", "source_type", "evidence_status", "reviewed_at", "notes"],
+      "properties": {
+        "evidence_id": {"type": "string", "pattern": "^[A-Z0-9_-]+$"},
+        "metric_type": {"enum": ["thermal_r", "acoustic_rw", "acoustic_nrc", "acoustic_aw", "fire_class", "temperature_limit", "density", "vapour_class", "vapour_permeance"]},
+        "value": {"type": ["number", "string"]},
+        "unit": {"type": "string"},
+        "scope": {"enum": ["material", "product", "component", "system"]},
+        "variant": {"type": "string"},
+        "test_standard": {"type": "string"},
+        "test_context": {"type": "string", "minLength": 1},
+        "source_url": {"type": "string", "minLength": 1},
+        "source_type": {"enum": ["manufacturer", "manufacturer_page", "manufacturer_tds", "test_report", "owned_secondary_source"]},
+        "evidence_status": {"enum": ["verified", "pending_human_review", "legacy_unverified"]},
+        "reviewed_at": {"type": ["string", "null"], "format": "date"},
+        "notes": {"type": "string"}
+      },
+      "additionalProperties": false
+    }
+  }
+}

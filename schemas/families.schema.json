@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://insulation.local/schemas/families.schema.json",
+  "title": "Product family catalogue",
+  "type": "object",
+  "required": ["schema_version", "scope", "rating_scale", "families"],
+  "properties": {
+    "schema_version": {"type": "string", "const": "1.0"},
+    "scope": {"type": "string", "minLength": 1},
+    "rating_scale": {"type": "string", "minLength": 1},
+    "families": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/family"}
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "family": {
+      "type": "object",
+      "required": ["family_id", "name", "category", "primary_function", "applications", "keywords", "scores", "score_notes", "confidence", "knowledge_file", "source_url", "questions", "human_gates"],
+      "properties": {
+        "family_id": {"type": "string", "pattern": "^[A-Z0-9_]+$"},
+        "name": {"type": "string", "minLength": 1},
+        "category": {"type": "string", "minLength": 1},
+        "primary_function": {"type": "string", "minLength": 1},
+        "applications": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+        "keywords": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+        "scores": {
+          "type": "object",
+          "required": ["acoustic_comfort", "energy_efficiency", "sustainability", "installation_practicality", "compliance_readiness"],
+          "properties": {
+            "acoustic_comfort": {"type": "integer", "minimum": 0, "maximum": 5},
+            "energy_efficiency": {"type": "integer", "minimum": 0, "maximum": 5},
+            "sustainability": {"type": "integer", "minimum": 0, "maximum": 5},
+            "installation_practicality": {"type": "integer", "minimum": 0, "maximum": 5},
+            "compliance_readiness": {"type": "integer", "minimum": 0, "maximum": 5}
+          },
+          "additionalProperties": false
+        },
+        "score_notes": {"type": "string", "minLength": 1},
+        "manufacturer": {"type": "string", "enum": ["Thermotec", "Fletcher"]},
+        "confidence": {"type": "string", "minLength": 1},
+        "knowledge_file": {"type": "string", "pattern": "^[^/\\\\]+\\.md$"},
+        "detailed_knowledge_status": {"type": "string"},
+        "source_url": {"type": "string"},
+        "datasheet_url": {"type": "string"},
+        "questions": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+        "human_gates": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}}
+      },
+      "additionalProperties": false
+    }
+  }
+}
