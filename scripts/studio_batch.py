@@ -189,6 +189,13 @@ def ingest_batch(batch_no: int) -> None:
     written = failed = 0
     touched_dirs = set()
     for item in items:
+        # tolerate a repair returning a list wrapper or other non-dict element
+        if isinstance(item, list):
+            item = next((x for x in item if isinstance(x, dict)), None)
+        if not isinstance(item, dict):
+            print("  skip malformed element (not an object)")
+            failed += 1
+            continue
         fid = item.get("family_id")
         if fid not in by_id:
             print(f"  skip unknown family_id: {fid}")
