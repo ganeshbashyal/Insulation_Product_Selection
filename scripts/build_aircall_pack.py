@@ -12,10 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from bot_engine import recommendation_allowed  # noqa: E402
 
-CATALOGUE_PATHS = [
-    ROOT / "knowledge" / "thermotec" / "families.json",
-    ROOT / "knowledge" / "fletcher" / "families.json",
-]
+CATALOGUE_PATHS = sorted((ROOT / "knowledge").glob("*/families.json"))
 EVIDENCE_PATH = ROOT / "knowledge" / "performance_evidence.json"
 
 
@@ -59,7 +56,7 @@ def build_knowledge(families: list[dict], evidence: dict[str, dict]) -> str:
         "SUPPORTED PRODUCT FAMILIES",
     ]
     for family in enabled:
-        record = evidence[family["family_id"]]
+        record = evidence.get(family["family_id"], {"evidence_items": []})
         verified = [item for item in record["evidence_items"] if item["evidence_status"] == "verified"]
         lines.extend([
             "",

@@ -7,6 +7,350 @@ A product or material rating is not the rating of the completed wall, floor, cei
 
 SUPPORTED PRODUCT FAMILIES
 
+## Acoustica — Acoustica Accessory
+Reference ID: ACOUSTICA_ACCESSORY
+Product role: Accessory insulation product from Acoustica.
+Typical applications: General Installation, Internal Wall, External Wall.
+Useful customer language: accessory, acoustica, 72mm premium tape 050.
+Selection guidance: Deep-dive scoring for Acoustica Accessory: 10 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.acoustica.com.au/
+Safe wording: Acoustica Accessory may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Acoustica — Acoustica Acoustic Barrier
+Reference ID: ACOUSTICA_ACOUSTIC_BARRIER
+Product role: Acoustic Barrier insulation product from Acoustica.
+Typical applications: Internal Wall | Ceiling | Floor | General Acoustic.
+Useful customer language: acoustic barrier, acoustica, quietwave membrane.
+Selection guidance: Deep-dive scoring for Acoustica Acoustic Barrier: 7 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.acoustica.com.au/
+Safe wording: Acoustica Acoustic Barrier may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Acoustica — Acoustica Pipe
+Reference ID: ACOUSTICA_PIPE
+Product role: Pipe insulation product from Acoustica.
+Typical applications: Pipe | Duct | Services Acoustic | Plumbing.
+Useful customer language: pipe, acoustica, gl 15/3 - 3m flat foam full or split rolls.
+Selection guidance: Deep-dive scoring for Acoustica Pipe: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.acoustica.com.au/
+Safe wording: Acoustica Pipe may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Acoustica — Acoustica Underlay
+Reference ID: ACOUSTICA_UNDERLAY
+Product role: Underlay insulation product from Acoustica.
+Typical applications: Floor | Acoustic Floor.
+Useful customer language: underlay, acoustica, angelstep gold8.
+Selection guidance: Deep-dive scoring for Acoustica Underlay: 8 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.acoustica.com.au/
+Safe wording: Acoustica Underlay may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Aircell — Aircell Reflective
+Reference ID: AIRCELL_REFLECTIVE
+Product role: Reflective insulation product from Aircell.
+Typical applications: Internal Wall, Floor, General Installation, Metal Roof / Shed.
+Useful customer language: reflective, aircell, 100000065076.
+Selection guidance: Deep-dive scoring for Aircell Reflective: 23 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.aircell.com.au/
+Safe wording: Aircell Reflective may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Ametalin — Ametalin Accessory
+Reference ID: AMETALIN_ACCESSORY
+Product role: Accessory insulation product from Ametalin.
+Typical applications: General Installation, External Wall.
+Useful customer language: accessory, ametalin, idt-5050.
+Selection guidance: Deep-dive scoring for Ametalin Accessory: 8 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.ametalin.com.au/
+Safe wording: Ametalin Accessory may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Autex — Autex Accessory
+Reference ID: AUTEX_ACCESSORY
+Product role: Accessory insulation product from Autex.
+Typical applications: Internal Wall | Ceiling | General Acoustic, General Installation.
+Useful customer language: accessory, autex, autex frontier fins - non-standard powder coated extrusions - 150mm.
+Selection guidance: Deep-dive scoring for Autex Accessory: 21 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.autex.com.au/
+Safe wording: Autex Accessory may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Autex — Autex Batt
+Reference ID: AUTEX_BATT
+Product role: Batt insulation product from Autex.
+Typical applications: Internal Wall | Ceiling | General Acoustic, Ceiling | General Acoustic.
+Useful customer language: batt, autex, autex frontier fins - standard kit 12mm - 2400 x 150 - category 1.
+Selection guidance: Deep-dive scoring for Autex GreenStuf Batt: 92 SKUs across 5 grades (R1.5, Rw 35/40/45/50). Mixed thermal/acoustic rating types require per-SKU confirmation before customer-facing claims.
+Before suggesting this family, clarify:
+- Do you need thermal comfort, acoustic control, or both?
+- What is the building type and construction (wall, ceiling, soffit, open-plan)?
+- Is there a specified R-value, Rw target, NCC or BAL requirement?
+- Are you looking for standard cavity batts or specialised acoustic hardware (Fins/Raft/Cove/ASL)?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm rating type (thermal R vs acoustic Rw) per SKU before quoting
+- Validate compliance with relevant NCC/BAL/fire standards
+- Confirm current TDS/SDS per SKU prior to customer commitment
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.autex.com.au/
+Safe wording: Autex Batt may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Autex — Autex Panel
+Reference ID: AUTEX_PANEL
+Product role: Panel insulation product from Autex.
+Typical applications: Internal Wall | Ceiling | General Acoustic, Internal Wall | General Acoustic, Ceiling, Internal Wall.
+Useful customer language: panel, autex, autex vertiface - standard roll rate.
+Selection guidance: Deep-dive scoring for Autex Panel: 196 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.autex.com.au/
+Safe wording: Autex Panel may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Bradford — Bradford Batt
+Reference ID: BRADFORD_BATT
+Product role: Batt insulation product from Bradford.
+Typical applications: Metal Roof / Shed, Underfloor, Internal Wall | Ceiling | General Acoustic, Party Wall Fire, Ceiling, Internal Wall, Internal Wall | External Wall, Duct, Internal Wall | Ceiling | Floor | General Acoustic.
+Useful customer language: batt, bradford, cs15417.
+Selection guidance: Deep-dive scoring for Bradford Batt: 129 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.bradford.com.au/
+Safe wording: Bradford Batt may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Bradford — Bradford Board
+Reference ID: BRADFORD_BOARD
+Product role: Board insulation product from Bradford.
+Typical applications: Duct | General Acoustic.
+Useful customer language: board, bradford, cs114044.
+Selection guidance: Deep-dive scoring for Bradford Board: 13 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.bradford.com.au/
+Safe wording: Bradford Board may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Bradford — Bradford Reflective
+Reference ID: BRADFORD_REFLECTIVE
+Product role: Reflective insulation product from Bradford.
+Typical applications: Wall Wrap / Sarking.
+Useful customer language: reflective, bradford, cs40483.
+Selection guidance: Deep-dive scoring for Bradford Reflective: 9 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.bradford.com.au/
+Safe wording: Bradford Reflective may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Bradford — Bradford Wrap
+Reference ID: BRADFORD_WRAP
+Product role: Wrap insulation product from Bradford.
+Typical applications: Wall Wrap / Sarking.
+Useful customer language: wrap, bradford, cs106703.
+Selection guidance: Deep-dive scoring for Bradford Wrap: 3 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.bradford.com.au/
+Safe wording: Bradford Wrap may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## DCTech — DCTech Acoustic Barrier
+Reference ID: DCTECH_ACOUSTIC_BARRIER
+Product role: Acoustic Barrier insulation product from DCTech.
+Typical applications: Internal Wall | Ceiling | Floor | General Acoustic.
+Useful customer language: acoustic barrier, dctech, tecsound 35.
+Selection guidance: Deep-dive scoring for DCTech Acoustic Barrier: 8 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.dctech.com.au/
+Safe wording: DCTech Acoustic Barrier may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## DCTech — DCTech Board
+Reference ID: DCTECH_BOARD
+Product role: Board insulation product from DCTech.
+Typical applications: Underfloor.
+Useful customer language: board, dctech, dct xps 300 30.
+Selection guidance: Deep-dive scoring for DCTech Board: 6 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.dctech.com.au/
+Safe wording: DCTech Board may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Ecowool — Ecowool Accessory
+Reference ID: ECOWOOL_ACCESSORY
+Product role: Accessory insulation product from Ecowool.
+Typical applications: Sealing Tape.
+Useful customer language: accessory, ecowool, eco 351501.
+Selection guidance: Deep-dive scoring for Ecowool Accessory: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.ecowool.com.au/
+Safe wording: Ecowool Accessory may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Ecowool — Ecowool Batt
+Reference ID: ECOWOOL_BATT
+Product role: Batt insulation product from Ecowool.
+Typical applications: Ceiling | Wall, Internal Wall | Acoustic, Acoustic, Roof Blanket.
+Useful customer language: batt, ecowool, eco 600014.
+Selection guidance: Deep-dive scoring for Ecowool Batt: 54 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.ecowool.com.au/
+Safe wording: Ecowool Batt may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Ecowool — Ecowool Roll
+Reference ID: ECOWOOL_ROLL
+Product role: Roll insulation product from Ecowool.
+Typical applications: Internal Wall | Acoustic.
+Useful customer language: roll, ecowool, eco 616002.
+Selection guidance: Deep-dive scoring for Ecowool Roll: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.ecowool.com.au/
+Safe wording: Ecowool Roll may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Ecowool — Ecowool Wrap
+Reference ID: ECOWOOL_WRAP
+Product role: Wrap insulation product from Ecowool.
+Typical applications: Wall Wrap | Roof Wrap.
+Useful customer language: wrap, ecowool, eco tt-10501.
+Selection guidance: Deep-dive scoring for Ecowool Wrap: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.ecowool.com.au/
+Safe wording: Ecowool Wrap may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
 ## Fletcher — FI32 Semi-Rigid Insulation
 Reference ID: FLETCHER_FI32_SEMI_RIGID
 Product role: Semi-rigid glasswool in sheet or roll form for internal duct lining, process equipment and acoustic baffles.
@@ -278,6 +622,564 @@ Approved structured performance evidence: no numerical claim is approved for voi
 Primary product source: https://insulation.com.au/product/supabatt/
 Safe wording: supaBATT External Wall Barrier may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
+## Foilboard — Foilboard Accessory
+Reference ID: FOILBOARD_ACCESSORY
+Product role: Accessory insulation product from Foilboard.
+Typical applications: Floor, General Installation.
+Useful customer language: accessory, foilboard, fb041p.
+Selection guidance: Deep-dive scoring for Foilboard Accessory: 20 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.foilboard.com.au/
+Safe wording: Foilboard Accessory may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Foilboard — Foilboard Board
+Reference ID: FOILBOARD_BOARD
+Product role: Board insulation product from Foilboard.
+Typical applications: Roof, Underfloor, External Wall | Ceiling | Underfloor, Garage Door.
+Useful customer language: board, foilboard, fb001.
+Selection guidance: Deep-dive scoring for Foilboard Board: 29 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.foilboard.com.au/
+Safe wording: Foilboard Board may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Higgins Insulation — Higgins Insulation Acoustic Sheet
+Reference ID: HIGGINS_INSULATION_ACOUSTIC_SHEET
+Product role: Acoustic Sheet insulation product from Higgins Insulation.
+Typical applications: Cut to Size Acoustic Treatment.
+Useful customer language: acoustic sheet, higgins insulation, hig-hdac2050.
+Selection guidance: Deep-dive scoring for Higgins Insulation Acoustic Sheet: 11 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.higginsinsulation.com.au/
+Safe wording: Higgins Insulation Acoustic Sheet may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Higgins Insulation — Higgins Insulation Batt
+Reference ID: HIGGINS_INSULATION_BATT
+Product role: Batt insulation product from Higgins Insulation.
+Typical applications: Internal Wall | External Wall, Ceiling, Acoustic Wall / Ceiling, Acoustic Wall / Partition.
+Useful customer language: batt, higgins insulation, hig-p15430.
+Selection guidance: Deep-dive scoring for Higgins Insulation Batt: 31 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.higginsinsulation.com.au/
+Safe wording: Higgins Insulation Batt may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Higgins Insulation — Higgins Insulation Reflective
+Reference ID: HIGGINS_INSULATION_REFLECTIVE
+Product role: Reflective insulation product from Higgins Insulation.
+Typical applications: Breather Wall Wrap / Sarking, Non-Breather Wall Wrap / Sarking.
+Useful customer language: reflective, higgins insulation, hig-foilb60.
+Selection guidance: Deep-dive scoring for Higgins Insulation Reflective: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.higginsinsulation.com.au/
+Safe wording: Higgins Insulation Reflective may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Higgins Insulation — Higgins Insulation Roll
+Reference ID: HIGGINS_INSULATION_ROLL
+Product role: Roll insulation product from Higgins Insulation.
+Typical applications: Acoustic Wall / Ceiling, Acoustic Wall / Partition Roll.
+Useful customer language: roll, higgins insulation, hig-hsb2450.
+Selection guidance: Deep-dive scoring for Higgins Insulation Roll: 12 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.higginsinsulation.com.au/
+Safe wording: Higgins Insulation Roll may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Hushtec — Hushtec Acoustic Barrier
+Reference ID: HUSHTEC_ACOUSTIC_BARRIER
+Product role: Acoustic Barrier insulation product from Hushtec.
+Typical applications: Internal Wall | Ceiling | Floor | General Acoustic.
+Useful customer language: acoustic barrier, hushtec, mlv 4kg/m2 1.2m x 6m roll.
+Selection guidance: Deep-dive scoring for Hushtec Acoustic Barrier: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.hushtec.com.au/
+Safe wording: Hushtec Acoustic Barrier may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Hushtec — Hushtec Batt
+Reference ID: HUSHTEC_BATT
+Product role: Batt insulation product from Hushtec.
+Typical applications: Internal Wall | Ceiling | Floor | General Acoustic.
+Useful customer language: batt, hushtec, mlc 2kg/m2 1.3m x 20m roll.
+Selection guidance: Deep-dive scoring for Hushtec Batt: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.hushtec.com.au/
+Safe wording: Hushtec Batt may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Hushtec — Hushtec Reflective
+Reference ID: HUSHTEC_REFLECTIVE
+Product role: Reflective insulation product from Hushtec.
+Typical applications: Metal Roof / Shed | External Wall.
+Useful customer language: reflective, hushtec, performance series panels.
+Selection guidance: Deep-dive scoring for Hushtec Reflective: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.hushtec.com.au/
+Safe wording: Hushtec Reflective may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## James Hardie — James Hardie Batt
+Reference ID: JAMES_HARDIE_BATT
+Product role: Batt insulation product from James Hardie.
+Typical applications: Party Wall Fire.
+Useful customer language: batt, james hardie, hfib1142_60.
+Selection guidance: Deep-dive scoring for James Hardie Batt: 5 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.jameshardie.com.au/
+Safe wording: James Hardie Batt may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Kingspan — Kingspan Board
+Reference ID: KINGSPAN_BOARD
+Product role: Board insulation product from Kingspan.
+Typical applications: Ceiling | Underfloor, Underfloor, General Installation, Internal Wall, External Wall, Internal Wall | External Wall.
+Useful customer language: board, kingspan, 100000037889.
+Selection guidance: Deep-dive scoring for Kingspan Board: 93 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.kingspan.com.au/
+Safe wording: Kingspan Board may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Knauf — Knauf Batt
+Reference ID: KNAUF_BATT
+Product role: Batt insulation product from Knauf.
+Typical applications: Internal Wall | External Wall, Ceiling, Metal Roof / Shed, Internal Wall | Ceiling | General Acoustic.
+Useful customer language: batt, knauf, ewr15430.
+Selection guidance: Deep-dive scoring for Knauf Batt: 53 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.knauf.com.au/
+Safe wording: Knauf Batt may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Martini — Martini Batt
+Reference ID: MARTINI_BATT
+Product role: Batt insulation product from Martini.
+Typical applications: Internal Wall | Ceiling | General Acoustic.
+Useful customer language: batt, martini, cs131699.
+Selection guidance: Deep-dive scoring for Martini Batt: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.martini.com.au/
+Safe wording: Martini Batt may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Metecno — Metecno Accessory
+Reference ID: METECNO_ACCESSORY
+Product role: Accessory insulation product from Metecno.
+Typical applications: General Installation.
+Useful customer language: accessory, metecno, agft10050.
+Selection guidance: Deep-dive scoring for Metecno Accessory: 12 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.metecno.com.au/
+Safe wording: Metecno Accessory may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Metecno — Metecno Board
+Reference ID: METECNO_BOARD
+Product role: Board insulation product from Metecno.
+Typical applications: Ceiling | Underfloor.
+Useful customer language: board, metecno, pir-mtg2-25.
+Selection guidance: Deep-dive scoring for Metecno Board: 10 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.metecno.com.au/
+Safe wording: Metecno Board may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Misc — Misc Accessory
+Reference ID: MISC_ACCESSORY
+Product role: Accessory insulation product from Misc.
+Typical applications: General Installation.
+Useful customer language: accessory, misc, pt 50 nr1540-48.
+Selection guidance: Deep-dive scoring for Misc Accessory: 13 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.misc.com.au/
+Safe wording: Misc Accessory may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Misc — Misc Reflective
+Reference ID: MISC_REFLECTIVE
+Product role: Reflective insulation product from Misc.
+Typical applications: Wall Wrap / Sarking.
+Useful customer language: reflective, misc, foil breather rp-51b-30,.
+Selection guidance: Deep-dive scoring for Misc Reflective: 5 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.misc.com.au/
+Safe wording: Misc Reflective may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Misc — Misc Wrap
+Reference ID: MISC_WRAP
+Product role: Wrap insulation product from Misc.
+Typical applications: Wall Wrap / Sarking.
+Useful customer language: wrap, misc, rp-51bm-l-30.
+Selection guidance: Deep-dive scoring for Misc Wrap: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.misc.com.au/
+Safe wording: Misc Wrap may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Paroc — Paroc Batt
+Reference ID: PAROC_BATT
+Product role: Batt insulation product from Paroc.
+Typical applications: Roof | External Wall | General Acoustic, Party Wall Acoustic, Internal Wall | Ceiling | Floor | General Acoustic.
+Useful customer language: batt, paroc, insr8586321.
+Selection guidance: Deep-dive scoring for Paroc Batt: 12 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.paroc.com.au/
+Safe wording: Paroc Batt may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Polyair — Polyair Reflective
+Reference ID: POLYAIR_REFLECTIVE
+Product role: Reflective insulation product from Polyair.
+Typical applications: Metal Roof / Shed | External Wall.
+Useful customer language: reflective, polyair, cs152161.
+Selection guidance: Deep-dive scoring for Polyair Reflective: 5 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.polyair.com.au/
+Safe wording: Polyair Reflective may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Polyester Solutions — Polyester Solutions Batt
+Reference ID: POLYESTER_SOLUTIONS_BATT
+Product role: Batt insulation product from Polyester Solutions.
+Typical applications: Ceiling, Internal Wall, Internal Wall | External Wall, Internal Wall | General Acoustic, Floor.
+Useful customer language: batt, polyester solutions, p15430.
+Selection guidance: Deep-dive scoring for Polyester Solutions Batt: 32 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.polyestersolutions.com.au/
+Safe wording: Polyester Solutions Batt may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Proctor — Proctor Accessory
+Reference ID: PROCTOR_ACCESSORY
+Product role: Accessory insulation product from Proctor.
+Typical applications: Passive House Membrane, Ventilation.
+Useful customer language: accessory, proctor, proctor passive rainscreen with integrated tape (rs-it).
+Selection guidance: Deep-dive scoring for Proctor Accessory: 31 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.proctor.com.au/
+Safe wording: Proctor Accessory may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Proctor — Proctor Acoustic Membrane
+Reference ID: PROCTOR_ACOUSTIC_MEMBRANE
+Product role: Acoustic Membrane insulation product from Proctor.
+Typical applications: Acoustic Treatment.
+Useful customer language: acoustic membrane, proctor, proctor q-silence p80.
+Selection guidance: Deep-dive scoring for Proctor Acoustic Membrane: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.proctor.com.au/
+Safe wording: Proctor Acoustic Membrane may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Proctor — Proctor Drainage / Ventilation
+Reference ID: PROCTOR_DRAINAGE_VENTILATION
+Product role: Drainage / Ventilation insulation product from Proctor.
+Typical applications: Drainage / Ventilation.
+Useful customer language: drainage / ventilation, proctor, proctorgeo irma (3m).
+Selection guidance: Deep-dive scoring for Proctor Drainage / Ventilation: 8 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.proctor.com.au/
+Safe wording: Proctor Drainage / Ventilation may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Proctor — Proctor Membrane
+Reference ID: PROCTOR_MEMBRANE
+Product role: Membrane insulation product from Proctor.
+Typical applications: Passive House Membrane.
+Useful customer language: membrane, proctor, proctor passive wraptite sa.
+Selection guidance: Deep-dive scoring for Proctor Membrane: 5 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.proctor.com.au/
+Safe wording: Proctor Membrane may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Proctor — Proctor Mesh
+Reference ID: PROCTOR_MESH
+Product role: Mesh insulation product from Proctor.
+Typical applications: Bushfire / Ember Protection.
+Useful customer language: mesh, proctor, proctor bal 40 mesh 15m x 1m.
+Selection guidance: Deep-dive scoring for Proctor Mesh: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.proctor.com.au/
+Safe wording: Proctor Mesh may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Proctor — Proctor Reflective
+Reference ID: PROCTOR_REFLECTIVE
+Product role: Reflective insulation product from Proctor.
+Typical applications: Wall Wrap / Sarking.
+Useful customer language: reflective, proctor, proctorwrap rw 1.5m x 30m.
+Selection guidance: Deep-dive scoring for Proctor Reflective: 11 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.proctor.com.au/
+Safe wording: Proctor Reflective may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Proctor — Proctor Wrap
+Reference ID: PROCTOR_WRAP
+Product role: Wrap insulation product from Proctor.
+Typical applications: Wall Wrap / Sarking.
+Useful customer language: wrap, proctor, proctorwrap high tack tape (10 rolls per carton).
+Selection guidance: Deep-dive scoring for Proctor Wrap: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.proctor.com.au/
+Safe wording: Proctor Wrap may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Rockwool — Rockwool Reflective
+Reference ID: ROCKWOOL_REFLECTIVE
+Product role: Reflective insulation product from Rockwool.
+Typical applications: Pipe.
+Useful customer language: reflective, rockwool, 931391302535.
+Selection guidance: Deep-dive scoring for Rockwool Reflective: 71 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.rockwool.com.au/
+Safe wording: Rockwool Reflective may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Sonata Acoustic Panels — Sonata Acoustic Panels Panel
+Reference ID: SONATA_ACOUSTIC_PANELS_PANEL
+Product role: Panel insulation product from Sonata Acoustic Panels.
+Typical applications: Acoustic Treatment.
+Useful customer language: panel, sonata acoustic panels, sonata 4021592.
+Selection guidance: Deep-dive scoring for Sonata Acoustic Panels Panel: 48 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.sonataacousticpanels.com.au/
+Safe wording: Sonata Acoustic Panels Panel may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Stinger — Stinger Accessory
+Reference ID: STINGER_ACCESSORY
+Product role: Accessory insulation product from Stinger.
+Typical applications: General Installation.
+Useful customer language: accessory, stinger, 136450.
+Selection guidance: Deep-dive scoring for Stinger Accessory: 13 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.stinger.com.au/
+Safe wording: Stinger Accessory may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
 ## Thermotec — 4-Zero Fire Retardant Pipe Insulation
 Reference ID: THERMOTEC_4_ZERO
 Product role: Thermal insulation and condensation control for pipe services where the documented 4-Zero fire-performance context is relevant.
@@ -458,6 +1360,42 @@ Mandatory checks before quote or order:
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
 Primary product source: https://thermotec.com.au/products/thermotec-rockwool-pipe-insulation
 Safe wording: Rockwool Pipe Insulation may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Trade Select — Trade Select Reflective
+Reference ID: TRADE_SELECT_REFLECTIVE
+Product role: Reflective insulation product from Trade Select.
+Typical applications: Thermal Break, Metal Roof / Shed, General Installation, Internal Wall, Wall Wrap / Sarking.
+Useful customer language: reflective, trade select, tsld-40.
+Selection guidance: Deep-dive scoring for Trade Select Reflective: 51 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.tradeselect.com.au/
+Safe wording: Trade Select Reflective may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
+
+## Trade Select — Trade Select Wrap
+Reference ID: TRADE_SELECT_WRAP
+Product role: Wrap insulation product from Trade Select.
+Typical applications: Wall Wrap / Sarking.
+Useful customer language: wrap, trade select, tsld-40-b.
+Selection guidance: Deep-dive scoring for Trade Select Wrap: 8 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.
+Before suggesting this family, clarify:
+- What is the primary application for this product?
+- What performance requirements apply?
+- What space or area constraints exist?
+Mandatory checks before quote or order:
+- Verify manufacturer identity from primary source
+- Confirm product specifications and performance claims
+- Validate compliance with relevant standards
+Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
+Primary product source: https://www.tradeselect.com.au/
+Safe wording: Trade Select Wrap may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 PRODUCTS THAT MUST NOT BE RECOMMENDED
 These names may be recognised if a caller asks about them, but their identity or primary evidence is unresolved. Say that the product record requires technical review and arrange a callback.

@@ -20,10 +20,7 @@ from bot_engine import (
 
 APP_TITLE = "Insulation Sales Engineer"
 REPO_ROOT = Path(__file__).resolve().parent
-CATALOGUE_FILES = [
-    REPO_ROOT / "knowledge" / "thermotec" / "families.json",
-    REPO_ROOT / "knowledge" / "fletcher" / "families.json",
-]
+CATALOGUE_FILES = sorted((REPO_ROOT / "knowledge").glob("*/families.json"))
 PERFORMANCE_FILE = REPO_ROOT / "knowledge" / "performance_evidence.json"
 
 QUESTIONS = [
@@ -114,10 +111,12 @@ def load_catalogue() -> dict:
 
 CATALOGUE = load_catalogue()
 FAMILIES = CATALOGUE["families"]
+MANUFACTURERS = sorted({family["manufacturer"] for family in FAMILIES})
 PERFORMANCE = {
     record["family_id"]: record
     for record in json.loads(PERFORMANCE_FILE.read_text(encoding="utf-8"))["families"]
 }
+EMPTY_PERFORMANCE = {"automation_status": "not_yet_extracted", "evidence_items": []}
 
 
 def initialise_state() -> None:
@@ -291,12 +290,12 @@ st.markdown("""
 <style>
 :root{--ink:#17232c;--muted:#66737c;--teal:#087f7a;--teal2:#0aa39a;--line:#dce3df}.stApp{background:linear-gradient(135deg,#f7faf8 0%,#eef5f3 55%,#f6f1e8 100%);color:var(--ink)}[data-testid="stHeader"]{background:rgba(247,250,248,.75)}.block-container{max-width:1500px;padding-top:1.1rem;padding-bottom:2rem}h1,h2,h3{letter-spacing:-.025em;color:var(--ink)}.hero{background:#102b32;border-radius:22px;padding:1.35rem 1.55rem;color:white;box-shadow:0 18px 50px rgba(21,48,54,.14);margin-bottom:.7rem}.hero h1{color:white;margin:.15rem 0 .25rem;font-size:2rem}.hero p{color:#c7dedb;margin:0}.eyebrow,.panel-title{color:var(--teal);font-size:.77rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}.pill{display:inline-block;background:#e5a647;color:#2b2113;padding:.28rem .58rem;border-radius:99px;font-size:.72rem;font-weight:800}.card{background:rgba(255,255,255,.84);border:1px solid var(--line);border-radius:16px;padding:.85rem 1rem;margin:.48rem 0}.card .label{color:var(--muted);font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700}.card .value{color:var(--ink);font-size:1.02rem;font-weight:760;margin-top:.18rem}.card .note{color:var(--muted);font-size:.82rem;margin-top:.3rem;line-height:1.4}.gate{border-left:4px solid #df8b2e}.good{border-left:4px solid var(--teal2)}.blocked{border-left:4px solid #c8463a}[data-testid="stChatMessage"]{background:rgba(255,255,255,.75);border:1px solid var(--line);border-radius:16px;padding:.25rem .7rem;margin-bottom:.6rem}[data-testid="stSidebar"]{background:#102b32}[data-testid="stSidebar"] *{color:#eef8f6}[data-testid="stSidebar"] .stButton button{background:#1b444b;color:white;border-color:#35636a}.small-note{color:var(--muted);font-size:.78rem;line-height:1.45}div[data-testid="stProgress"]>div>div{background-color:var(--teal2)}
 </style>""", unsafe_allow_html=True)
-st.markdown("""<div class="hero"><span class="pill">TWO-MANUFACTURER POC</span><div class="eyebrow" style="color:#78d7d0;margin-top:.65rem">Evidence-led customer conversation</div><h1>Insulation Sales Engineer</h1><p>Qualify the problem, compare Fletcher and Thermotec, and recommend the best documented product family.</p></div>""", unsafe_allow_html=True)
+st.markdown(f"""<div class="hero"><span class="pill">{len(MANUFACTURERS)}-MANUFACTURER CATALOGUE</span><div class="eyebrow" style="color:#78d7d0;margin-top:.65rem">Evidence-led customer conversation</div><h1>Insulation Sales Engineer</h1><p>Qualify the problem, compare {len(MANUFACTURERS)} manufacturers across {len(FAMILIES)} product families, and recommend the best documented product family.</p></div>""", unsafe_allow_html=True)
 
 with st.sidebar:
     st.markdown("## Demo controls")
     st.caption("Choose a realistic scenario or enter your own answers.")
-    manufacturer_scope = st.radio("Manufacturer scope", ["Compare both", "Thermotec", "Fletcher"], horizontal=False, key="manufacturer_scope")
+    manufacturer_scope = st.radio("Manufacturer scope", ["Compare both"] + MANUFACTURERS, horizontal=False, key="manufacturer_scope")
     example_name = st.selectbox("Scenario", list(EXAMPLES))
     if st.button("▶ Load scenario", width="stretch"):
         load_example(example_name); st.rerun()
@@ -304,9 +303,9 @@ with st.sidebar:
         reset_demo(); st.rerun()
     st.divider()
     count_cols = st.columns(2)
-    count_cols[0].metric("Thermotec", sum(x["manufacturer"] == "Thermotec" for x in FAMILIES))
-    count_cols[1].metric("Fletcher", sum(x["manufacturer"] == "Fletcher" for x in FAMILIES))
-    st.caption("280 Thermotec and 134 Fletcher Sheet1 rows are represented. Evidence gates remain visible.")
+    count_cols[0].metric("Manufacturers", len(MANUFACTURERS))
+    count_cols[1].metric("Product families", len(FAMILIES))
+    st.caption(f"{sum(x.get('product_count', 0) for x in FAMILIES)} catalogue SKU rows are represented across all manufacturers. Evidence gates remain visible.")
     st.markdown("✓ Evidence-linked family records\n\n✓ Priority comparison\n\n✓ Human technical gate\n\n◌ MYOB — simulated only")
 
 conversation_tab, explorer_tab, architecture_tab = st.tabs(["Customer conversation", "Product range explorer", "Demo architecture"])
@@ -379,10 +378,10 @@ with conversation_tab:
         if answers: st.download_button("Download callback brief", json.dumps(callback_payload(), indent=2, ensure_ascii=False), "demo_callback_brief.json", "application/json", width="stretch")
 
 with explorer_tab:
-    st.subheader("Fletcher and Thermotec family catalogue")
+    st.subheader("All-manufacturer family catalogue")
     st.caption(CATALOGUE["rating_scale"] + ". Zero means not scored because evidence is unverified.")
     c0, c1, c2 = st.columns(3)
-    with c0: selected_manufacturers = st.multiselect("Filter manufacturer", ["Thermotec", "Fletcher"])
+    with c0: selected_manufacturers = st.multiselect("Filter manufacturer", MANUFACTURERS)
     categories = sorted({item["category"] for item in FAMILIES})
     with c1: selected_categories = st.multiselect("Filter category", categories)
     with c2: query = st.text_input("Search application or problem", placeholder="e.g. solar pipe, footsteps, metal roof")
@@ -402,7 +401,7 @@ with explorer_tab:
         with right:
             st.markdown("**Evidence status**"); st.write(confidence_label(selected["confidence"]))
             st.markdown("**Knowledge file**"); st.code(f"knowledge/{selected['manufacturer'].casefold()}/{selected['knowledge_file']}")
-        performance = PERFORMANCE[selected["family_id"]]
+        performance = PERFORMANCE.get(selected["family_id"], EMPTY_PERFORMANCE)
         st.markdown("**Structured performance evidence**")
         st.caption(f"Automation status: {performance['automation_status'].replace('_', ' ')}")
         if performance["evidence_items"]:
