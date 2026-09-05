@@ -24,10 +24,10 @@
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Initial categorization of Sonata Acoustic Panels Panel products. Scores based on product category.",
+      "score_notes": "Deep-dive scoring for Sonata Acoustic Panels Panel: 48 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "panel.md",
-      "detailed_knowledge_status": "initial_2026-09-05",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
       "source_url": "https://www.sonataacousticpanels.com.au/",
       "questions": [
         "What is the primary application for this product?",

@@ -24,10 +24,10 @@
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Initial categorization of Higgins Insulation Acoustic Sheet products. Scores based on product category.",
+      "score_notes": "Deep-dive scoring for Higgins Insulation Acoustic Sheet: 11 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "acoustic_sheet.md",
-      "detailed_knowledge_status": "initial_2026-09-05",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
       "source_url": "https://www.higginsinsulation.com.au/",
       "questions": [
         "What is the primary application for this product?",
@@ -65,10 +65,10 @@
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Initial categorization of Higgins Insulation Batt products. Scores based on product category.",
+      "score_notes": "Deep-dive scoring for Higgins Insulation Batt: 31 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "batt.md",
-      "detailed_knowledge_status": "initial_2026-09-05",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
       "source_url": "https://www.higginsinsulation.com.au/",
       "questions": [
         "What is the primary application for this product?",
@@ -99,15 +99,15 @@
       ],
       "scores": {
         "acoustic_comfort": 3,
-        "energy_efficiency": 3,
-        "sustainability": 3,
-        "installation_practicality": 3,
+        "energy_efficiency": 4,
+        "sustainability": 2,
+        "installation_practicality": 4,
         "compliance_readiness": 3
       },
-      "score_notes": "Initial categorization of Higgins Insulation Reflective products. Scores based on product category.",
+      "score_notes": "Deep-dive scoring for Higgins Insulation Reflective: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "reflective.md",
-      "detailed_knowledge_status": "initial_2026-09-05",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
       "source_url": "https://www.higginsinsulation.com.au/",
       "questions": [
         "What is the primary application for this product?",
@@ -143,10 +143,10 @@
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Initial categorization of Higgins Insulation Roll products. Scores based on product category.",
+      "score_notes": "Deep-dive scoring for Higgins Insulation Roll: 12 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "roll.md",
-      "detailed_knowledge_status": "initial_2026-09-05",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
       "source_url": "https://www.higginsinsulation.com.au/",
       "questions": [
         "What is the primary application for this product?",

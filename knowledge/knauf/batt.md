@@ -1,55 +1,436 @@
 ---
+id: knauf-batt
 family_id: KNAUF_BATT
 manufacturer: Knauf
 category: Batt
-status: Initial documentation
-date_created: 2026-09-05
+canonical_name: Knauf Batt
+material: Glasswool
+bot_mode: demo_family_recommendation
+recommendation_allowed: true
+recommendation_scope: manufacturer_supported_family_only
+requires_human_selection: true
+validation_status: manufacturer_supported_secondary_claims_pending
+last_validated: 2026-09-05
+rating_framework_version: 1
+priority_sustainability_score: 4
+priority_sustainability_confidence: medium
+priority_energy_efficiency_score: 5
+priority_energy_efficiency_confidence: medium
+priority_acoustic_comfort_score: 3
+priority_acoustic_comfort_confidence: medium
+priority_installation_practicality_score: 4
+priority_installation_practicality_confidence: medium
+gate_ncc_project_compliance: conditional_project_specific_evidence_required
+gate_fire_compliance: not_verified_per_sku
+gate_bal: not_verified
+official_datasheet_url: https://www.earthwool.com.au/wp-content/uploads/2024/11/datasheet_earthwool_wall_batt.pdf
+official_sds_url: https://thermacon.com.au/wp-content/uploads/2025/09/Earthwool-MSDS.pdf
+product_count: 53
+rating_basis: mixed
 ---
 
 # Knauf Batt
 
-Knauf Batt product family documentation.
+## Purpose of this file
 
-## Product Family
+This is the canonical internal description for the Knauf Batt family. It aligns the terminology used by the enquiry bot, sales team and future Aircall CSV.
 
-This family contains 53 product variants from Knauf in the Batt category.
+For the demonstration, the bot may recommend the **Knauf Batt family** when the customer's problem matches its documented applications. It must not choose a specific grade, calculate order quantity, or confirm thermal, acoustic, fire, NCC or BAL compliance for a project. Those decisions remain human-reviewed.
 
-### Applications
+## Canonical description
 
-- Thermal insulation
-- Acoustic control
-- Building envelope
-- General building applications
+Global insulation leader with innovative ECOSE Technology. The firm friction fit design means batts stay in place permanently - no sagging or settling. Low itch formula makes installation more comfortable than ever. Perfect for achieving maximum thermal performance in roof/ceiling applications. Backed by manufacturer warranty. Manufacturer-published features and benefits include: FBS-1 Glasswool Bio-Soluble Insulation - safe to use and non-hazardous; manufactured from up to 80% recycled glass content; CodeMark Certificate of Conformity CM 30006; non-combustible to AS 1530.1; low itch soft next-gen formula for comfortable handling; excellent thermal performance for roof/ceiling applications; helps meet NCC energy efficiency requirements; ECOSE Technology - bio-based binder, formaldehyde-free; manufactured to ISO 9001 quality standards This family covers 53 SKU variant(s) in the current catalogue. It is not a complete compliant building system on its own; project-specific claims about a finished construction must be confirmed by a human reviewer against a tested system that matches the proposed build-up.
 
-### Key Product Attributes
+## Current manufacturer-supported facts
 
-- **Manufacturer**: Knauf
-- **Category**: Batt
-- **Status**: Initial documentation
+- Product type: Batt insulation product from Knauf.
+- Material: Glasswool.
+- Rating basis: both thermal insulation (R-value) and acoustic performance (Rw/NRC).
+- FBS-1 Glasswool Bio-Soluble Insulation - safe to use and non-hazardous.
+- manufactured from up to 80% recycled glass content.
+- CodeMark Certificate of Conformity CM 30006.
+- non-combustible to AS 1530.1.
+- low itch soft next-gen formula for comfortable handling.
+- excellent thermal performance for roof/ceiling applications.
+- The catalogue includes 53 unique SKU variant(s) in this family.
 
-## Performance Claims
+## Grade and catalogue reconciliation
 
-Performance data and thermal specifications are maintained in the centralized evidence registry.
+The following reflects the current internal SKU extraction from the master product catalogue. Manufacturer TDS values must be re-confirmed per SKU before quoting.
 
-## Limitations and Important Notices
+| Rating (as supplied) | Rating type | Thickness (mm) | Dimensions (L x W mm) | SKU count |
+| --- | --- | ---: | --- | ---: |
+| R1.5 | thermal_r_value | 75 | 1160 x 430 | 1 |
+| R1.5 | thermal_r_value | 75 | 1160 x 580 | 1 |
+| R2.0 | thermal_r_value | 90 | 1160 x 430 | 1 |
+| R2.0 | thermal_r_value | 90 | 1160 x 580 | 1 |
+| R2.5 | thermal_r_value | 125 | 1160 x 430 | 1 |
+| R2.5 | thermal_r_value | 125 | 1160 x 580 | 1 |
+| R3.0 | thermal_r_value | 145 | 1160 x 430 | 1 |
+| R3.0 | thermal_r_value | 145 | 1160 x 580 | 1 |
+| R3.5 | thermal_r_value | 175 | 1160 x 430 | 1 |
+| R3.5 | thermal_r_value | 175 | 1160 x 580 | 1 |
+| R4.0 | thermal_r_value | 195 | 1160 x 430 | 1 |
+| R4.0 | thermal_r_value | 195 | 1160 x 580 | 1 |
+| R5.0 | thermal_r_value | 210 | 1160 x 430 | 1 |
+| R5.0 | thermal_r_value | 210 | 1160 x 580 | 1 |
+| R6.0 | thermal_r_value | 275 | 1160 x 430 | 1 |
+| R6.0 | thermal_r_value | 275 | 1160 x 580 | 1 |
+| R7.0 | thermal_r_value | 330 | 1160 x 460 | 1 |
+| R7.0 | thermal_r_value | 330 | 1160 x 620 | 1 |
+| R8.0 | thermal_r_value | 350 | 1160 x 460 | 1 |
+| R8.0 | thermal_r_value | 350 | 1160 x 620 | 1 |
+| R2.0 | thermal_r_value | 75 | 1160 x 430 | 1 |
+| R2.0 | thermal_r_value | 75 | 1160 x 580 | 1 |
+| R2.5 | thermal_r_value | 90 | 1160 x 430 | 1 |
+| R2.5 | thermal_r_value | 90 | 1160 x 580 | 1 |
+| R2.7 | thermal_r_value | 90 | 1160 x 430 | 1 |
+| R2.7 | thermal_r_value | 90 | 1160 x 580 | 1 |
+| R4.0 | thermal_r_value | 140 | 1160 x 430 | 1 |
+| R4.0 | thermal_r_value | 140 | 1160 x 580 | 1 |
+| R1.2 | thermal_r_value | 50 | 2700 x 450 | 1 |
+| R1.2 | thermal_r_value | 50 | 2700 x 600 | 1 |
+| R1.8 | thermal_r_value | 75 | 2700 x 450 | 1 |
+| R1.8 | thermal_r_value | 75 | 2700 x 600 | 1 |
+| R2.2 | thermal_r_value | 90 | 11600 x 600 | 1 |
+| R2.5 | thermal_r_value | 110 | 1160 x 600 | 1 |
+| R1.3 | thermal_r_value | 50 | 1160 x 430 | 1 |
+| R1.3 | thermal_r_value | 50 | 1160 x 600 | 1 |
+| R1.9 | thermal_r_value | 75 | 1160 x 430 | 1 |
+| R1.9 | thermal_r_value | 75 | 1160 x 600 | 1 |
+| R2.2 | thermal_r_value | 90 | 9100 x 600 | 1 |
+| Not specified | unspecified | 25 | 18900 x 600 | 1 |
+| Rw 45 | acoustic_rw | 75 | 6200 x 600 | 1 |
+| Rw 45 | acoustic_rw | 90 | 5300 x 600 | 1 |
+| Rw 40 | acoustic_rw | 50 | 7200 x 600 | 1 |
+| Rw 45 | acoustic_rw | 75 | 4800 x 600 | 1 |
+| Rw 45 | acoustic_rw | 90 | 4000 x 450 | 1 |
+| Rw 45 | acoustic_rw | 90 | 4000 x 600 | 1 |
+| Rw 50 | acoustic_rw | 100 | 3600 x 600 | 1 |
+| R1.3 | thermal_r_value | 55 | 15000 x 1200 | 1 |
+| R1.8 | thermal_r_value | 75 | 15000 x 1200 | 1 |
+| R2.3 | thermal_r_value | 100 | 10000 x 1200 | 1 |
+| R2.5 | thermal_r_value | 105 | 10000 x 1200 | 1 |
+| R3 | thermal_r_value | 120 | 8000 x 1200 | 1 |
+| R3.2 | thermal_r_value | 130 | 8000 x 1200 | 1 |
 
-- All product selection must be verified against current manufacturer technical data sheets
-- Installation requirements must be confirmed for the specific application
-- Compliance with NCC, BAL, and fire ratings must be validated independently
+### Critical rating interpretation
 
-## Next Steps
+Ratings prefixed `R` are thermal resistance values; ratings including `Rw` are weighted sound reduction/absorption indices; ratings including `NRC` are noise reduction coefficients. These are not interchangeable, and a manufacturer-published product rating is not automatically the rating of a finished, installed construction. The human reviewer must confirm which rating type applies to the specific SKU before making any performance statement to a customer.
 
-1. Extract performance data from manufacturer TDS
-2. Verify material composition and specifications
-3. Validate acoustic and thermal ratings
-4. Confirm availability and sourcing
+## Application boundaries
 
-## References
+### Within the Batt family
 
-- Manufacturer website: Knauf
-- Technical Data Sheet: [To be sourced]
-- Safety Data Sheet: [To be sourced]
+- Internal Wall | External Wall
+- Ceiling
+- Internal Wall | Ceiling | General Acoustic
+- Metal Roof / Shed
+
+### Separate product families
+
+Do not transfer claims from this family to other Knauf product families without their own current technical evidence. Where Knauf sells multiple categories (batt, board, reflective, pipe, wrap, panel, accessory), each is a distinct family with its own grade table and evidence.
+
+This family should not be presented as a fire-rated system, a complete compliant wall/ceiling assembly, or a guaranteed noise-elimination/thermal-comfort product. Record the customer's requirement and construction context for human review rather than confirming compliance directly.
+
+## Installation context for enquiry handling
+
+Manufacturer literature notes:
+
+- Friction fit between timber or steel studs at time of construction.
+- install before fixing internal lining.
+- cut cleanly for snug fit using sharp knife or batt cutter.
+- ensure complete coverage without gaps, voids or compression.
+- wear long sleeves, gloves and dust mask for comfort during handling.
+- ensure clearance around recessed lighting per AS/NZS 3000.
+
+The bot may use this information to understand the customer's project, but must not issue project-specific installation instructions. The human reviewer must confirm the complete construction, fixing method, junction/penetration treatment, moisture/vapour requirements, manual-handling requirements and the current manufacturer installation guide.
+
+## Manufacturer-stated limitations and warnings
+
+- Keep dry during storage and installation - if product becomes wet, dry thoroughly before installing.
+- not a water or vapour barrier - use appropriate building wrap.
+- do not compress - compression reduces R-value performance.
+- not to be exposed to weather.
+- maximum service temperature 340°C (glasswool) / 750°C (stonewool).
+- confirm product selection matches specified thermal/acoustic/fire rating.
+
+## Customer-priority profile
+
+These ratings are internal conversation aids. They determine useful follow-up questions and callback notes; they do not rank or recommend products to customers.
+
+| Customer priority | Internal rating | Confidence | Interpretation |
+| --- | ---: | --- | --- |
+| Sustainability | 4/5 | Medium | Based on product category norms; product-specific certification not yet verified. |
+| Energy efficiency | 5/5 | Medium | Based on both thermal insulation (R-value) and acoustic performance (Rw/NRC); confirm per-SKU rating before quoting a thermal target. |
+| Acoustic comfort | 3/5 | Medium | Based on product category norms and any Rw/NRC ratings present in this family. |
+| Installation practicality | 4/5 | Medium | Based on manufacturer install notes above; confirm access and handling requirements per project. |
+
+## Mandatory human-review gates
+
+| Requirement | Status for Knauf Batt | Enquiry-bot action |
+| --- | --- | --- |
+| Acoustic/thermal target / NCC | CONDITIONAL | Record the building type, construction and target rating. Do not confirm compliance; arrange human review. |
+| Fire requirement | NOT VERIFIED PER SKU | Record the required fire test, classification or system and arrange human review. |
+| BAL / bushfire construction | NOT VERIFIED | Record the site's BAL and the external building element involved; arrange human review. |
+| Rating-type confirmation | REQUIRES CONFIRMATION | Confirm which rating type (R, Rw, NRC) applies to the customer's requirement before referencing any specific grade. |
+
+## Aircall enquiry flow
+
+1. What are you trying to improve or solve for this project?
+2. Where is the problem located: wall, ceiling, floor, roof, duct, pipe, or elsewhere?
+3. Is this mainly a thermal comfort/energy issue, a noise issue, or both?
+4. Is this a home, apartment, office, commercial building, industrial site or other project?
+5. Is it a new build, renovation, retrofit or repair?
+6. What is most important: sustainability, energy efficiency, acoustic comfort, budget, or ease of installation?
+7. Do plans, a consultant or a certifier specify a thermal, acoustic, NCC, fire or BAL requirement?
+8. What is the approximate area or length involved, if known?
+9. Are there access, manual-handling, moisture or exposure considerations?
+10. Would the caller prefer to phone the team directly or request a callback?
+
+The agent must not ask the caller to choose a specific grade or SKU. If the caller names a grade, record it as caller-provided information rather than confirming it.
+
+## Approved customer-facing language
+
+### General explanation
+
+> Knauf Batt is a manufacturer-supported product family used for both thermal insulation (R-value) and acoustic performance (Rw/NRC). The right grade depends on the complete construction and project requirements. I can collect the details for our team to review.
+
+### When asked which grade to buy
+
+> I cannot select a specific grade or confirm the result of an installed system. If you tell me about the location, requirement and any project specification, I can prepare the enquiry for our team. Would you prefer to call them or request a callback?
+
+### When asked about compliance or BAL
+
+> Compliance and bushfire suitability depend on the complete construction and supporting documentation for the specific product selected. I cannot confirm that from a product name alone. I will flag this for technical review and arrange the next contact step.
+
+## Language controls
+
+Prefer:
+
+- "manufacturer-published rating" rather than a guaranteed result;
+- "complete construction" or "complete installed system";
+- "requires confirmation by our team";
+- "customer-stated requirement" when recording a target.
+
+Avoid:
+
+- "soundproof," "eliminates noise" or "guaranteed";
+- confusing thermal R-value with acoustic Rw or NRC;
+- "best," "perfect" or "compliant" without qualification;
+- calling any SKU fire-rated or BAL-rated without current verification;
+- asserting exact recycled-content percentage, certification or warranty terms until current supporting documentation is accepted for that specific SKU.
+
+## Source reconciliation and evidence hierarchy
+
+### Tier 1 — current manufacturer source
+
+Technical Data Sheet: https://www.earthwool.com.au/wp-content/uploads/2024/11/datasheet_earthwool_wall_batt.pdf
+
+Safety Data Sheet: https://thermacon.com.au/wp-content/uploads/2025/09/Earthwool-MSDS.pdf
+
+Use this source for the canonical product identity, current grades, published ratings, primary applications and material composition.
+
+### Tier 2 — current internal catalogue
+
+The master product catalogue provides current commercial records for 53 SKUs, including internal SKU codes, dimensions, grade labels and stock. Commercial data does not validate technical performance; grade labels must be cross-checked against current manufacturer TDS per SKU before quoting.
+
+### Tier 3 — authorised owned-site literature
+
+Reseller and distributor listings may repeat manufacturer copy. Claims appearing only in this literature remain pending until matched to an accepted current TDS, SDS or certification document for the specific SKU.
+
+## Machine-readable family record
+
+```json
+{
+  "family_id": "KNAUF_BATT",
+  "manufacturer": "Knauf",
+  "canonical_name": "Knauf Batt",
+  "bot_mode": "demo_family_recommendation",
+  "recommendation_allowed": true,
+  "recommendation_scope": "manufacturer_supported_family_only",
+  "primary_function": "both thermal insulation (R-value) and acoustic performance (Rw/NRC)",
+  "material": "Glasswool",
+  "applications": [
+    "Internal Wall | External Wall",
+    "Ceiling",
+    "Internal Wall | Ceiling | General Acoustic",
+    "Metal Roof / Shed"
+  ],
+  "product_count": 53,
+  "grades": [
+    {
+      "rating": "R2.5",
+      "rating_type": "thermal_r_value",
+      "sku_count": 6
+    },
+    {
+      "rating": "Rw 45",
+      "rating_type": "acoustic_rw",
+      "sku_count": 5
+    },
+    {
+      "rating": "R2.0",
+      "rating_type": "thermal_r_value",
+      "sku_count": 4
+    },
+    {
+      "rating": "R4.0",
+      "rating_type": "thermal_r_value",
+      "sku_count": 4
+    },
+    {
+      "rating": "R1.8",
+      "rating_type": "thermal_r_value",
+      "sku_count": 3
+    },
+    {
+      "rating": "R1.3",
+      "rating_type": "thermal_r_value",
+      "sku_count": 3
+    },
+    {
+      "rating": "R1.5",
+      "rating_type": "thermal_r_value",
+      "sku_count": 2
+    },
+    {
+      "rating": "R3.0",
+      "rating_type": "thermal_r_value",
+      "sku_count": 2
+    },
+    {
+      "rating": "R3.5",
+      "rating_type": "thermal_r_value",
+      "sku_count": 2
+    },
+    {
+      "rating": "R5.0",
+      "rating_type": "thermal_r_value",
+      "sku_count": 2
+    },
+    {
+      "rating": "R6.0",
+      "rating_type": "thermal_r_value",
+      "sku_count": 2
+    },
+    {
+      "rating": "R7.0",
+      "rating_type": "thermal_r_value",
+      "sku_count": 2
+    },
+    {
+      "rating": "R8.0",
+      "rating_type": "thermal_r_value",
+      "sku_count": 2
+    },
+    {
+      "rating": "R2.7",
+      "rating_type": "thermal_r_value",
+      "sku_count": 2
+    },
+    {
+      "rating": "R1.2",
+      "rating_type": "thermal_r_value",
+      "sku_count": 2
+    },
+    {
+      "rating": "R2.2",
+      "rating_type": "thermal_r_value",
+      "sku_count": 2
+    },
+    {
+      "rating": "R1.9",
+      "rating_type": "thermal_r_value",
+      "sku_count": 2
+    },
+    {
+      "rating": "not_specified",
+      "rating_type": "unspecified",
+      "sku_count": 1
+    },
+    {
+      "rating": "Rw 40",
+      "rating_type": "acoustic_rw",
+      "sku_count": 1
+    },
+    {
+      "rating": "Rw 50",
+      "rating_type": "acoustic_rw",
+      "sku_count": 1
+    },
+    {
+      "rating": "R2.3",
+      "rating_type": "thermal_r_value",
+      "sku_count": 1
+    },
+    {
+      "rating": "R3",
+      "rating_type": "thermal_r_value",
+      "sku_count": 1
+    },
+    {
+      "rating": "R3.2",
+      "rating_type": "thermal_r_value",
+      "sku_count": 1
+    }
+  ],
+  "priority_profile": {
+    "sustainability": {
+      "score": 4,
+      "confidence": "medium"
+    },
+    "energy_efficiency": {
+      "score": 5,
+      "confidence": "medium"
+    },
+    "acoustic_comfort": {
+      "score": 3,
+      "confidence": "medium"
+    },
+    "installation_practicality": {
+      "score": 4,
+      "confidence": "medium"
+    }
+  },
+  "human_review_gates": {
+    "ncc_and_project_compliance": "conditional_project_specific_evidence_required",
+    "fire": "not_verified_per_sku",
+    "bal": "not_verified"
+  },
+  "callback_required": true,
+  "source_url": "https://www.earthwool.com.au/wp-content/uploads/2024/11/datasheet_earthwool_wall_batt.pdf"
+}
+```
+
+## Performance evidence summary
+
+| Evidence type | Status | Reference |
+| --- | --- | --- |
+| Performance rating(s) | Manufacturer-published, not yet SKU-matched to current TDS | https://www.earthwool.com.au/wp-content/uploads/2024/11/datasheet_earthwool_wall_batt.pdf |
+| Material composition | Manufacturer-claimed | https://www.earthwool.com.au/wp-content/uploads/2024/11/datasheet_earthwool_wall_batt.pdf |
+| Fire performance | Not verified per SKU | Pending SDS/test report review |
+| Installation guidance | Extracted from manufacturer spec text (see above) | https://www.earthwool.com.au/wp-content/uploads/2024/11/datasheet_earthwool_wall_batt.pdf |
+
+## Quality checklist validation
+
+- [x] YAML front-matter with priority scores, gates and source URLs
+- [x] Canonical description generated from manufacturer sales pitch/features text
+- [x] Manufacturer-supported facts table present
+- [x] Grade reconciliation table covers all SKUs in this family
+- [x] Application boundaries with explicit inclusions/exclusions
+- [x] Installation context documented (non-project-specific)
+- [x] Manufacturer-stated limitations and warnings captured
+- [x] Customer priority profile with confidence scoring
+- [x] Mandatory human-review gates documented
+- [x] Aircall enquiry flow with 10 questions
+- [x] Approved customer-facing language for 3 scenarios
+- [x] Language controls (prefer/avoid lists)
+- [x] 3-tier source hierarchy documented
+- [x] JSON machine-readable record included
+- [x] Performance evidence summary table included
+- [ ] Manually reviewed against current manufacturer TDS/SDS (pending human QA)
 
 ---
 
-*This documentation was initially generated on 2026-09-05 and requires detailed technical review and validation against primary manufacturer sources.*
+*This documentation was generated 2026-09-05 by scripts/generate_deep_dive_docs.py directly from the master product catalogue's manufacturer-sourced spec fields (Features & Benefits, Sales Pitch, Install Instructions, Limitations & Warnings, TDS/SDS URLs). It follows the Thermotec NuWave/Autex Batt documentation standard. Human QA against current manufacturer TDS/SDS is still required before full sign-off.*

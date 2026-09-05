@@ -26,10 +26,10 @@
         "installation_practicality": 5,
         "compliance_readiness": 2
       },
-      "score_notes": "Initial categorization of Acoustica Accessory products. Scores based on product category.",
+      "score_notes": "Deep-dive scoring for Acoustica Accessory: 10 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "accessory.md",
-      "detailed_knowledge_status": "initial_2026-09-05",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
       "source_url": "https://www.acoustica.com.au/",
       "questions": [
         "What is the primary application for this product?",
@@ -64,10 +64,10 @@
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Initial categorization of Acoustica Acoustic Barrier products. Scores based on product category.",
+      "score_notes": "Deep-dive scoring for Acoustica Acoustic Barrier: 7 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "acoustic_barrier.md",
-      "detailed_knowledge_status": "initial_2026-09-05",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
       "source_url": "https://www.acoustica.com.au/",
       "questions": [
         "What is the primary application for this product?",
@@ -102,10 +102,10 @@
         "installation_practicality": 4,
         "compliance_readiness": 3
       },
-      "score_notes": "Initial categorization of Acoustica Pipe products. Scores based on product category.",
+      "score_notes": "Deep-dive scoring for Acoustica Pipe: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "pipe.md",
-      "detailed_knowledge_status": "initial_2026-09-05",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
       "source_url": "https://www.acoustica.com.au/",
       "questions": [
         "What is the primary application for this product?",
@@ -140,10 +140,10 @@
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Initial categorization of Acoustica Underlay products. Scores based on product category.",
+      "score_notes": "Deep-dive scoring for Acoustica Underlay: 8 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "underlay.md",
-      "detailed_knowledge_status": "initial_2026-09-05",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
       "source_url": "https://www.acoustica.com.au/",
       "questions": [
         "What is the primary application for this product?",

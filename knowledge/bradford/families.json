@@ -32,10 +32,10 @@
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Initial categorization of Bradford Batt products. Scores based on product category.",
+      "score_notes": "Deep-dive scoring for Bradford Batt: 129 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "batt.md",
-      "detailed_knowledge_status": "initial_2026-09-05",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
       "source_url": "https://www.bradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
@@ -70,10 +70,10 @@
         "installation_practicality": 3,
         "compliance_readiness": 4
       },
-      "score_notes": "Initial categorization of Bradford Board products. Scores based on product category.",
+      "score_notes": "Deep-dive scoring for Bradford Board: 13 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "board.md",
-      "detailed_knowledge_status": "initial_2026-09-05",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
       "source_url": "https://www.bradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
@@ -103,15 +103,15 @@
       ],
       "scores": {
         "acoustic_comfort": 3,
-        "energy_efficiency": 3,
-        "sustainability": 3,
-        "installation_practicality": 3,
+        "energy_efficiency": 4,
+        "sustainability": 2,
+        "installation_practicality": 4,
         "compliance_readiness": 3
       },
-      "score_notes": "Initial categorization of Bradford Reflective products. Scores based on product category.",
+      "score_notes": "Deep-dive scoring for Bradford Reflective: 9 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "reflective.md",
-      "detailed_knowledge_status": "initial_2026-09-05",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
       "source_url": "https://www.bradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
@@ -146,10 +146,10 @@
         "installation_practicality": 4,
         "compliance_readiness": 3
       },
-      "score_notes": "Initial categorization of Bradford Wrap products. Scores based on product category.",
+      "score_notes": "Deep-dive scoring for Bradford Wrap: 3 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "wrap.md",
-      "detailed_knowledge_status": "initial_2026-09-05",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
       "source_url": "https://www.bradford.com.au/",
       "questions": [
         "What is the primary application for this product?",

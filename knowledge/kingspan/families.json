@@ -29,10 +29,10 @@
         "installation_practicality": 3,
         "compliance_readiness": 4
       },
-      "score_notes": "Initial categorization of Kingspan Board products. Scores based on product category.",
+      "score_notes": "Deep-dive scoring for Kingspan Board: 93 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "board.md",
-      "detailed_knowledge_status": "initial_2026-09-05",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
       "source_url": "https://www.kingspan.com.au/",
       "questions": [
         "What is the primary application for this product?",

@@ -1,55 +1,497 @@
 ---
+id: kingspan-board
 family_id: KINGSPAN_BOARD
 manufacturer: Kingspan
 category: Board
-status: Initial documentation
-date_created: 2026-09-05
+canonical_name: Kingspan Board
+material: Phenolic
+bot_mode: demo_family_recommendation
+recommendation_allowed: true
+recommendation_scope: manufacturer_supported_family_only
+requires_human_selection: true
+validation_status: manufacturer_supported_secondary_claims_pending
+last_validated: 2026-09-05
+rating_framework_version: 1
+priority_sustainability_score: 3
+priority_sustainability_confidence: medium
+priority_energy_efficiency_score: 4
+priority_energy_efficiency_confidence: medium
+priority_acoustic_comfort_score: 2
+priority_acoustic_comfort_confidence: medium
+priority_installation_practicality_score: 3
+priority_installation_practicality_confidence: medium
+gate_ncc_project_compliance: conditional_project_specific_evidence_required
+gate_fire_compliance: not_verified_per_sku
+gate_bal: not_verified
+official_datasheet_url: https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf
+official_sds_url: https://allcongroup.com.au/wp-content/uploads/2025/10/kingspan-greenguard-safety-data-sheet-en-au.pdf
+product_count: 93
+rating_basis: thermal
 ---
 
 # Kingspan Board
 
-Kingspan Board product family documentation.
+## Purpose of this file
 
-## Product Family
+This is the canonical internal description for the Kingspan Board family. It aligns the terminology used by the enquiry bot, sales team and future Aircall CSV.
 
-This family contains 93 product variants from Kingspan in the Board category.
+For the demonstration, the bot may recommend the **Kingspan Board family** when the customer's problem matches its documented applications. It must not choose a specific grade, calculate order quantity, or confirm thermal, acoustic, fire, NCC or BAL compliance for a project. Those decisions remain human-reviewed.
 
-### Applications
+## Canonical description
 
-- Thermal insulation
-- Acoustic control
-- Building envelope
-- General building applications
+Global leader in high-performance insulation solutions. Ultra-thin, ultra-efficient. Maximum thermal performance when space is at a premium. Manufacturer-published features and benefits include: Ultra-low thermal conductivity phenolic foam; highest thermal performance in thin profiles; fire-resistant with low smoke emission; dimensionally stable over wide temperature range; Global leader in high-performance insulation; zero ODP manufacturing This family covers 93 SKU variant(s) in the current catalogue. It is not a complete compliant building system on its own; project-specific claims about a finished construction must be confirmed by a human reviewer against a tested system that matches the proposed build-up.
 
-### Key Product Attributes
+## Current manufacturer-supported facts
 
-- **Manufacturer**: Kingspan
-- **Category**: Board
-- **Status**: Initial documentation
+- Product type: Board insulation product from Kingspan.
+- Material: Phenolic.
+- Rating basis: thermal insulation (R-value).
+- Ultra-low thermal conductivity phenolic foam.
+- highest thermal performance in thin profiles.
+- fire-resistant with low smoke emission.
+- dimensionally stable over wide temperature range.
+- Global leader in high-performance insulation.
+- zero ODP manufacturing.
+- The catalogue includes 93 unique SKU variant(s) in this family.
 
-## Performance Claims
+## Grade and catalogue reconciliation
 
-Performance data and thermal specifications are maintained in the centralized evidence registry.
+The following reflects the current internal SKU extraction from the master product catalogue. Manufacturer TDS values must be re-confirmed per SKU before quoting.
 
-## Limitations and Important Notices
+| Rating (as supplied) | Rating type | Thickness (mm) | Dimensions (L x W mm) | SKU count |
+| --- | --- | ---: | --- | ---: |
+| R1.75 | thermal_r_value | 40 | 2400 x 1200 | 3 |
+| R2.30 | thermal_r_value | 50 | 2400 x 1200 | 3 |
+| R2.30 | thermal_r_value | 70 | 2400 x 1200 | 3 |
+| R1.10 | thermal_r_value | 25 | 2400 x 1200 | 2 |
+| R3.60 | thermal_r_value | 80 | 2400 x 1200 | 2 |
+| R2.25 | thermal_r_value | 25 | 2400 x 1200 | 2 |
+| R2.30 | thermal_r_value | 60 | 2400 x 1200 | 2 |
+| R3.60 | thermal_r_value | 90 | 2400 x 1200 | 2 |
+| R3.60 | thermal_r_value | 100 | 2400 x 1200 | 2 |
+| R1.30 | thermal_r_value | 30 | 2400 x 1200 | 1 |
+| R1.30 | thermal_r_value | 30 | 2700 x 1200 | 1 |
+| R1.75 | thermal_r_value | 40 | 2700 x 1200 | 1 |
+| R1.75 | thermal_r_value | 40 | 3000 x 1200 | 1 |
+| R2.30 | thermal_r_value | 70 | 3000 x 1200 | 1 |
+| R1.4 | thermal_r_value | 25 | 2400 x 1200 | 1 |
+| R4.10 | thermal_r_value | 25 | 2700 x 1200 | 1 |
+| R1.4 | thermal_r_value | 25 | 3000 x 1200 | 1 |
+| R1.6 | thermal_r_value | 30 | 2400 x 1200 | 1 |
+| R1.6 | thermal_r_value | 30 | 2700 x 1200 | 1 |
+| R2.0 | thermal_r_value | 40 | 2400 x 1200 | 1 |
+| R3.65 | thermal_r_value | 40 | 2700 x 1200 | 1 |
+| R1.35 | thermal_r_value | 40 | 3000 x 1200 | 1 |
+| R2.5 | thermal_r_value | 50 | 2400 x 1200 | 1 |
+| R3.20 | thermal_r_value | 50 | 2700 x 1200 | 1 |
+| R1.10 | thermal_r_value | 50 | 3000 x 1200 | 1 |
+| R3.0 | thermal_r_value | 60 | 2400 x 1200 | 1 |
+| R3.0 | thermal_r_value | 60 | 2700 x 1200 | 1 |
+| R3.4 | thermal_r_value | 70 | 2700 x 1200 | 1 |
+| R3.4 | thermal_r_value | 70 | 3000 x 1200 | 1 |
+| R3.8 | thermal_r_value | 80 | 3000 x 1200 | 1 |
+| R4.3 | thermal_r_value | 90 | 3000 x 1200 | 1 |
+| R0.2 | thermal_r_value | 25 | 2400 x 1200 | 1 |
+| R2.75 | thermal_r_value | 25 | 2700 x 1200 | 1 |
+| R1.3 | thermal_r_value | 30 | 2700 x 1200 | 1 |
+| R2.30 | thermal_r_value | 40 | 2700 x 1200 | 1 |
+| R4.55 | thermal_r_value | 40 | 3000 x 1200 | 1 |
+| R1.80 | thermal_r_value | 50 | 2700 x 1200 | 1 |
+| R4.10 | thermal_r_value | 50 | 3000 x 1200 | 1 |
+| R1.3 | thermal_r_value | 60 | 2400 x 1200 | 1 |
+| R1.3 | thermal_r_value | 60 | 3000 x 1200 | 1 |
+| R1.3 | thermal_r_value | 70 | 2400 x 1200 | 1 |
+| R1.3 | thermal_r_value | 80 | 2400 x 1200 | 1 |
+| R1.3 | thermal_r_value | 25 | 2400 x 1200 | 1 |
+| R1.80 | thermal_r_value | 50 | 2400 x 1200 | 1 |
+| R2.75 | thermal_r_value | 25 | 2400 x 1200 | 1 |
+| R2.25 | thermal_r_value | 30 | 2400 x 1200 | 1 |
+| R1.80 | thermal_r_value | 40 | 2400 x 1200 | 1 |
+| R1.10 | thermal_r_value | 45 | 2400 x 1200 | 1 |
+| R1.35 | thermal_r_value | 50 | 2400 x 1200 | 1 |
+| R1.10 | thermal_r_value | 60 | 2400 x 1200 | 1 |
+| R4.55 | thermal_r_value | 70 | 2400 x 1200 | 1 |
+| R4.10 | thermal_r_value | 80 | 2400 x 1200 | 1 |
+| R3.65 | thermal_r_value | 90 | 2400 x 1200 | 1 |
+| R3.20 | thermal_r_value | 100 | 2400 x 1200 | 1 |
+| R3.65 | thermal_r_value | 30 | 2400 x 1200 | 1 |
+| R2.30 | thermal_r_value | 45 | 2400 x 1200 | 1 |
+| R1.1 | thermal_r_value | 25 | 2400 x 1200 | 1 |
+| R1.4 | thermal_r_value | 30 | 2400 x 1200 | 1 |
+| R2.3 | thermal_r_value | 50 | 2400 x 1200 | 1 |
+| R2.75 | thermal_r_value | 60 | 2400 x 1200 | 1 |
+| R3.25 | thermal_r_value | 70 | 2400 x 1200 | 1 |
+| R3.7 | thermal_r_value | 80 | 2400 x 1200 | 1 |
+| R4.15 | thermal_r_value | 90 | 2400 x 1200 | 1 |
+| R4.62 | thermal_r_value | 100 | 2400 x 1200 | 1 |
+| R1.80 | thermal_r_value | 30 | 2400 x 1200 | 1 |
+| R1.35 | thermal_r_value | 40 | 2400 x 1200 | 1 |
+| R1.10 | thermal_r_value | 50 | 2400 x 1200 | 1 |
+| R1.3 | thermal_r_value | 25 | 1200 x 514 | 1 |
+| R1.3 | thermal_r_value | 40 | 1200 x 514 | 1 |
+| R1.3 | thermal_r_value | 30 | 2400 x 300 | 1 |
+| R1.3 | thermal_r_value | 40 | 2400 x 300 | 1 |
+| R1.10 | thermal_r_value | 25 | 1200 (width varies) | 1 |
+| R1.30 | thermal_r_value | 30 | 1200 (width varies) | 1 |
+| R1.75 | thermal_r_value | 40 | 1200 (width varies) | 1 |
+| R2.30 | thermal_r_value | 50 | 1200 (width varies) | 1 |
+| R2.30 | thermal_r_value | 60 | 1200 (width varies) | 1 |
+| R2.30 | thermal_r_value | 70 | 1200 (width varies) | 1 |
+| R3.60 | thermal_r_value | 80 | 1200 (width varies) | 1 |
+| R3.60 | thermal_r_value | 90 | 1200 (width varies) | 1 |
+| R3.60 | thermal_r_value | 100 | 1200 (width varies) | 1 |
+| R1.3 | thermal_r_value | Varies | 1200 (width varies) | 1 |
 
-- All product selection must be verified against current manufacturer technical data sheets
-- Installation requirements must be confirmed for the specific application
-- Compliance with NCC, BAL, and fire ratings must be validated independently
+### Critical rating interpretation
 
-## Next Steps
+Ratings prefixed `R` are thermal resistance values; ratings including `Rw` are weighted sound reduction/absorption indices; ratings including `NRC` are noise reduction coefficients. These are not interchangeable, and a manufacturer-published product rating is not automatically the rating of a finished, installed construction. The human reviewer must confirm which rating type applies to the specific SKU before making any performance statement to a customer.
 
-1. Extract performance data from manufacturer TDS
-2. Verify material composition and specifications
-3. Validate acoustic and thermal ratings
-4. Confirm availability and sourcing
+## Application boundaries
 
-## References
+### Within the Board family
 
-- Manufacturer website: Kingspan
-- Technical Data Sheet: [To be sourced]
-- Safety Data Sheet: [To be sourced]
+- Ceiling | Underfloor
+- Internal Wall
+- Internal Wall | External Wall
+- External Wall
+- Underfloor
+- General Installation
+
+### Separate product families
+
+Do not transfer claims from this family to other Kingspan product families without their own current technical evidence. Where Kingspan sells multiple categories (batt, board, reflective, pipe, wrap, panel, accessory), each is a distinct family with its own grade table and evidence.
+
+This family should not be presented as a fire-rated system, a complete compliant wall/ceiling assembly, or a guaranteed noise-elimination/thermal-comfort product. Record the customer's requirement and construction context for human review rather than confirming compliance directly.
+
+## Installation context for enquiry handling
+
+Manufacturer literature notes:
+
+- Cut to size using sharp knife or fine-tooth saw.
+- fix mechanically with appropriate fixings or adhesive.
+- tape all joints with compatible tape for vapour barrier continuity.
+- ensure no gaps at edges or penetrations.
+- Follow AS 4773.1 installation practices.
+
+The bot may use this information to understand the customer's project, but must not issue project-specific installation instructions. The human reviewer must confirm the complete construction, fixing method, junction/penetration treatment, moisture/vapour requirements, manual-handling requirements and the current manufacturer installation guide.
+
+## Manufacturer-stated limitations and warnings
+
+- Combustible material - do not expose to flame or high heat sources.
+- protect from UV exposure during installation.
+- check compatibility with solvents and chemicals before use.
+- not suitable for direct contact with bitumen without barrier.
+- Ensure adequate subfloor ventilation is maintained.
+- do not leave exposed to ground moisture or subfloor dampness.
+
+## Customer-priority profile
+
+These ratings are internal conversation aids. They determine useful follow-up questions and callback notes; they do not rank or recommend products to customers.
+
+| Customer priority | Internal rating | Confidence | Interpretation |
+| --- | ---: | --- | --- |
+| Sustainability | 3/5 | Medium | Based on product category norms; product-specific certification not yet verified. |
+| Energy efficiency | 4/5 | Medium | Based on thermal insulation (R-value); confirm per-SKU rating before quoting a thermal target. |
+| Acoustic comfort | 2/5 | Medium | Based on product category norms and any Rw/NRC ratings present in this family. |
+| Installation practicality | 3/5 | Medium | Based on manufacturer install notes above; confirm access and handling requirements per project. |
+
+## Mandatory human-review gates
+
+| Requirement | Status for Kingspan Board | Enquiry-bot action |
+| --- | --- | --- |
+| Acoustic/thermal target / NCC | CONDITIONAL | Record the building type, construction and target rating. Do not confirm compliance; arrange human review. |
+| Fire requirement | NOT VERIFIED PER SKU | Record the required fire test, classification or system and arrange human review. |
+| BAL / bushfire construction | NOT VERIFIED | Record the site's BAL and the external building element involved; arrange human review. |
+| Rating-type confirmation | REQUIRES CONFIRMATION | Confirm which rating type (R, Rw, NRC) applies to the customer's requirement before referencing any specific grade. |
+
+## Aircall enquiry flow
+
+1. What are you trying to improve or solve for this project?
+2. Where is the problem located: wall, ceiling, floor, roof, duct, pipe, or elsewhere?
+3. Is this mainly a thermal comfort/energy issue, a noise issue, or both?
+4. Is this a home, apartment, office, commercial building, industrial site or other project?
+5. Is it a new build, renovation, retrofit or repair?
+6. What is most important: sustainability, energy efficiency, acoustic comfort, budget, or ease of installation?
+7. Do plans, a consultant or a certifier specify a thermal, acoustic, NCC, fire or BAL requirement?
+8. What is the approximate area or length involved, if known?
+9. Are there access, manual-handling, moisture or exposure considerations?
+10. Would the caller prefer to phone the team directly or request a callback?
+
+The agent must not ask the caller to choose a specific grade or SKU. If the caller names a grade, record it as caller-provided information rather than confirming it.
+
+## Approved customer-facing language
+
+### General explanation
+
+> Kingspan Board is a manufacturer-supported product family used for thermal insulation (R-value). The right grade depends on the complete construction and project requirements. I can collect the details for our team to review.
+
+### When asked which grade to buy
+
+> I cannot select a specific grade or confirm the result of an installed system. If you tell me about the location, requirement and any project specification, I can prepare the enquiry for our team. Would you prefer to call them or request a callback?
+
+### When asked about compliance or BAL
+
+> Compliance and bushfire suitability depend on the complete construction and supporting documentation for the specific product selected. I cannot confirm that from a product name alone. I will flag this for technical review and arrange the next contact step.
+
+## Language controls
+
+Prefer:
+
+- "manufacturer-published rating" rather than a guaranteed result;
+- "complete construction" or "complete installed system";
+- "requires confirmation by our team";
+- "customer-stated requirement" when recording a target.
+
+Avoid:
+
+- "soundproof," "eliminates noise" or "guaranteed";
+- confusing thermal R-value with acoustic Rw or NRC;
+- "best," "perfect" or "compliant" without qualification;
+- calling any SKU fire-rated or BAL-rated without current verification;
+- asserting exact recycled-content percentage, certification or warranty terms until current supporting documentation is accepted for that specific SKU.
+
+## Source reconciliation and evidence hierarchy
+
+### Tier 1 — current manufacturer source
+
+Technical Data Sheet: https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf
+
+Safety Data Sheet: https://allcongroup.com.au/wp-content/uploads/2025/10/kingspan-greenguard-safety-data-sheet-en-au.pdf
+
+Use this source for the canonical product identity, current grades, published ratings, primary applications and material composition.
+
+### Tier 2 — current internal catalogue
+
+The master product catalogue provides current commercial records for 93 SKUs, including internal SKU codes, dimensions, grade labels and stock. Commercial data does not validate technical performance; grade labels must be cross-checked against current manufacturer TDS per SKU before quoting.
+
+### Tier 3 — authorised owned-site literature
+
+Reseller and distributor listings may repeat manufacturer copy. Claims appearing only in this literature remain pending until matched to an accepted current TDS, SDS or certification document for the specific SKU.
+
+## Machine-readable family record
+
+```json
+{
+  "family_id": "KINGSPAN_BOARD",
+  "manufacturer": "Kingspan",
+  "canonical_name": "Kingspan Board",
+  "bot_mode": "demo_family_recommendation",
+  "recommendation_allowed": true,
+  "recommendation_scope": "manufacturer_supported_family_only",
+  "primary_function": "thermal insulation (R-value)",
+  "material": "Phenolic",
+  "applications": [
+    "Ceiling | Underfloor",
+    "Internal Wall",
+    "Internal Wall | External Wall",
+    "External Wall",
+    "Underfloor",
+    "General Installation"
+  ],
+  "product_count": 93,
+  "grades": [
+    {
+      "rating": "R2.30",
+      "rating_type": "thermal_r_value",
+      "sku_count": 14
+    },
+    {
+      "rating": "R1.3",
+      "rating_type": "thermal_r_value",
+      "sku_count": 11
+    },
+    {
+      "rating": "R3.60",
+      "rating_type": "thermal_r_value",
+      "sku_count": 9
+    },
+    {
+      "rating": "R1.10",
+      "rating_type": "thermal_r_value",
+      "sku_count": 7
+    },
+    {
+      "rating": "R1.75",
+      "rating_type": "thermal_r_value",
+      "sku_count": 6
+    },
+    {
+      "rating": "R1.80",
+      "rating_type": "thermal_r_value",
+      "sku_count": 4
+    },
+    {
+      "rating": "R1.30",
+      "rating_type": "thermal_r_value",
+      "sku_count": 3
+    },
+    {
+      "rating": "R1.4",
+      "rating_type": "thermal_r_value",
+      "sku_count": 3
+    },
+    {
+      "rating": "R4.10",
+      "rating_type": "thermal_r_value",
+      "sku_count": 3
+    },
+    {
+      "rating": "R3.65",
+      "rating_type": "thermal_r_value",
+      "sku_count": 3
+    },
+    {
+      "rating": "R1.35",
+      "rating_type": "thermal_r_value",
+      "sku_count": 3
+    },
+    {
+      "rating": "R2.75",
+      "rating_type": "thermal_r_value",
+      "sku_count": 3
+    },
+    {
+      "rating": "R2.25",
+      "rating_type": "thermal_r_value",
+      "sku_count": 3
+    },
+    {
+      "rating": "R1.6",
+      "rating_type": "thermal_r_value",
+      "sku_count": 2
+    },
+    {
+      "rating": "R3.20",
+      "rating_type": "thermal_r_value",
+      "sku_count": 2
+    },
+    {
+      "rating": "R3.0",
+      "rating_type": "thermal_r_value",
+      "sku_count": 2
+    },
+    {
+      "rating": "R3.4",
+      "rating_type": "thermal_r_value",
+      "sku_count": 2
+    },
+    {
+      "rating": "R4.55",
+      "rating_type": "thermal_r_value",
+      "sku_count": 2
+    },
+    {
+      "rating": "R2.0",
+      "rating_type": "thermal_r_value",
+      "sku_count": 1
+    },
+    {
+      "rating": "R2.5",
+      "rating_type": "thermal_r_value",
+      "sku_count": 1
+    },
+    {
+      "rating": "R3.8",
+      "rating_type": "thermal_r_value",
+      "sku_count": 1
+    },
+    {
+      "rating": "R4.3",
+      "rating_type": "thermal_r_value",
+      "sku_count": 1
+    },
+    {
+      "rating": "R0.2",
+      "rating_type": "thermal_r_value",
+      "sku_count": 1
+    },
+    {
+      "rating": "R1.1",
+      "rating_type": "thermal_r_value",
+      "sku_count": 1
+    },
+    {
+      "rating": "R2.3",
+      "rating_type": "thermal_r_value",
+      "sku_count": 1
+    },
+    {
+      "rating": "R3.25",
+      "rating_type": "thermal_r_value",
+      "sku_count": 1
+    },
+    {
+      "rating": "R3.7",
+      "rating_type": "thermal_r_value",
+      "sku_count": 1
+    },
+    {
+      "rating": "R4.15",
+      "rating_type": "thermal_r_value",
+      "sku_count": 1
+    },
+    {
+      "rating": "R4.62",
+      "rating_type": "thermal_r_value",
+      "sku_count": 1
+    }
+  ],
+  "priority_profile": {
+    "sustainability": {
+      "score": 3,
+      "confidence": "medium"
+    },
+    "energy_efficiency": {
+      "score": 4,
+      "confidence": "medium"
+    },
+    "acoustic_comfort": {
+      "score": 2,
+      "confidence": "medium"
+    },
+    "installation_practicality": {
+      "score": 3,
+      "confidence": "medium"
+    }
+  },
+  "human_review_gates": {
+    "ncc_and_project_compliance": "conditional_project_specific_evidence_required",
+    "fire": "not_verified_per_sku",
+    "bal": "not_verified"
+  },
+  "callback_required": true,
+  "source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf"
+}
+```
+
+## Performance evidence summary
+
+| Evidence type | Status | Reference |
+| --- | --- | --- |
+| Performance rating(s) | Manufacturer-published, not yet SKU-matched to current TDS | https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf |
+| Material composition | Manufacturer-claimed | https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf |
+| Fire performance | Not verified per SKU | Pending SDS/test report review |
+| Installation guidance | Extracted from manufacturer spec text (see above) | https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf |
+
+## Quality checklist validation
+
+- [x] YAML front-matter with priority scores, gates and source URLs
+- [x] Canonical description generated from manufacturer sales pitch/features text
+- [x] Manufacturer-supported facts table present
+- [x] Grade reconciliation table covers all SKUs in this family
+- [x] Application boundaries with explicit inclusions/exclusions
+- [x] Installation context documented (non-project-specific)
+- [x] Manufacturer-stated limitations and warnings captured
+- [x] Customer priority profile with confidence scoring
+- [x] Mandatory human-review gates documented
+- [x] Aircall enquiry flow with 10 questions
+- [x] Approved customer-facing language for 3 scenarios
+- [x] Language controls (prefer/avoid lists)
+- [x] 3-tier source hierarchy documented
+- [x] JSON machine-readable record included
+- [x] Performance evidence summary table included
+- [ ] Manually reviewed against current manufacturer TDS/SDS (pending human QA)
 
 ---
 
-*This documentation was initially generated on 2026-09-05 and requires detailed technical review and validation against primary manufacturer sources.*
+*This documentation was generated 2026-09-05 by scripts/generate_deep_dive_docs.py directly from the master product catalogue's manufacturer-sourced spec fields (Features & Benefits, Sales Pitch, Install Instructions, Limitations & Warnings, TDS/SDS URLs). It follows the Thermotec NuWave/Autex Batt documentation standard. Human QA against current manufacturer TDS/SDS is still required before full sign-off.*
