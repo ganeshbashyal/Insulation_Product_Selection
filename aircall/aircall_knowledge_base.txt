@@ -25,7 +25,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf
+Primary product source: https://acoustica.com.au/
 Safe wording: Acoustica Accessory may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Acoustica — Acoustica Acoustic Barrier
@@ -37,7 +37,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf
+Primary product source: https://acoustica.com.au/
 Safe wording: Acoustica Acoustic Barrier may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Acoustica — Acoustica Acoustiflex SQ
@@ -49,7 +49,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf
+Primary product source: https://acoustica.com.au/
 Safe wording: Acoustica Acoustiflex SQ may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Acoustica — Acoustica AngelStep
@@ -61,7 +61,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf
+Primary product source: https://acoustica.com.au/
 Safe wording: Acoustica AngelStep may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Acoustica — Acoustica Dust foam filter
@@ -73,7 +73,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf
+Primary product source: https://acoustica.com.au/
 Safe wording: Acoustica Dust foam filter may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Acoustica — Acoustica Gl
@@ -85,7 +85,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf
+Primary product source: https://acoustica.com.au/
 Safe wording: Acoustica Gl may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Acoustica — Acoustica Underlay
@@ -97,7 +97,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf
+Primary product source: https://acoustica.com.au/
 Safe wording: Acoustica Underlay may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Aircell — Aircell Biscuits
@@ -109,7 +109,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf
+Primary product source: https://www.kingspan.com/au/
 Safe wording: Aircell Biscuits may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Aircell — Aircell Foil Tape
@@ -121,7 +121,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf
+Primary product source: https://www.kingspan.com/au/
 Safe wording: Aircell Foil Tape may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Aircell — Aircell Glareshield
@@ -133,7 +133,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf
+Primary product source: https://www.kingspan.com/au/
 Safe wording: Aircell Glareshield may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Aircell — Aircell Insulbreak
@@ -145,7 +145,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf
+Primary product source: https://www.kingspan.com/au/
 Safe wording: Aircell Insulbreak may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Aircell — Aircell Insuliner
@@ -157,7 +157,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf
+Primary product source: https://www.kingspan.com/au/
 Safe wording: Aircell Insuliner may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Aircell — Aircell Insulshed
@@ -169,7 +169,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf
+Primary product source: https://www.kingspan.com/au/
 Safe wording: Aircell Insulshed may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Aircell — Aircell Insulwhite
@@ -181,7 +181,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf
+Primary product source: https://www.kingspan.com/au/
 Safe wording: Aircell Insulwhite may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Aircell — Aircell Permicav
@@ -193,7 +193,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf
+Primary product source: https://www.kingspan.com/au/
 Safe wording: Aircell Permicav may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Aircell — Aircell Permifloor
@@ -205,7 +205,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf
+Primary product source: https://www.kingspan.com/au/
 Safe wording: Aircell Permifloor may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Aircell — Aircell Permishield
@@ -217,7 +217,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf
+Primary product source: https://www.kingspan.com/au/
 Safe wording: Aircell Permishield may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Aircell — Aircell Permiwall
@@ -229,7 +229,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf
+Primary product source: https://www.kingspan.com/au/
 Safe wording: Aircell Permiwall may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Aircell — Aircell Retroshield
@@ -241,7 +241,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf
+Primary product source: https://www.kingspan.com/au/
 Safe wording: Aircell Retroshield may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Aircell — Aircell Retroshield Handypack
@@ -253,7 +253,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf
+Primary product source: https://www.kingspan.com/au/
 Safe wording: Aircell Retroshield Handypack may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Aircell — Aircell Retroshield XL
@@ -265,7 +265,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf
+Primary product source: https://www.kingspan.com/au/
 Safe wording: Aircell Retroshield XL may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Aircell — Aircell Spacer Biscuits
@@ -277,7 +277,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf
+Primary product source: https://www.kingspan.com/au/
 Safe wording: Aircell Spacer Biscuits may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Ametalin — Ametalin Accessory
@@ -325,7 +325,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Accent Ceiling Tiles may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Accessory
@@ -337,7 +337,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Accessory may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Acoustic Timber - Acoustic Timber Panel
@@ -349,7 +349,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Acoustic Timber - Acoustic Timber Panel may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Acoustic Timber - Acoustic Timber Raft
@@ -361,7 +361,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Acoustic Timber - Acoustic Timber Raft may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Acoustic Timber - Ceiling Tiles
@@ -373,7 +373,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Acoustic Timber - Ceiling Tiles may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Acoustic Timber - Quietspace
@@ -385,7 +385,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Acoustic Timber - Quietspace may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Batt
@@ -397,7 +397,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Batt may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Bespoke Print Cube
@@ -409,7 +409,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Bespoke Print Cube may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Bespoke Print Quietspace
@@ -421,7 +421,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Bespoke Print Quietspace may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Cascade Acoustic Hanging Screens - Expanding
@@ -433,7 +433,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Cascade Acoustic Hanging Screens - Expanding may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Cascade Acoustic Hanging Screens - Folding
@@ -445,7 +445,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Cascade Acoustic Hanging Screens - Folding may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Cascade Acoustic Hanging Screens - Static
@@ -457,7 +457,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Cascade Acoustic Hanging Screens - Static may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Composition - Smooth Panel
@@ -469,7 +469,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Composition - Smooth Panel may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Composition - Smooth Roll
@@ -481,7 +481,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Composition - Smooth Roll may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Composition - Velour Panel
@@ -493,7 +493,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Composition - Velour Panel may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Composition - Velour Roll
@@ -505,7 +505,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Composition - Velour Roll may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Cove Acoustic Desk Divider - Arc
@@ -517,7 +517,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Cove Acoustic Desk Divider - Arc may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Cove Acoustic Desk Divider - Bevel
@@ -529,7 +529,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Cove Acoustic Desk Divider - Bevel may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Cove Acoustic Desk Divider - Classic
@@ -541,7 +541,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Cove Acoustic Desk Divider - Classic may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Cube
@@ -553,7 +553,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Cube may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Frontier Fins - Axis
@@ -565,7 +565,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Frontier Fins - Axis may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Frontier Fins - Non-Standard Powder Coated Extrusions
@@ -577,7 +577,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Frontier Fins - Non-Standard Powder Coated Extrusions may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Frontier Fins - Standard Kit
@@ -589,7 +589,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Frontier Fins - Standard Kit may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Frontier Raft - Beam
@@ -601,7 +601,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Frontier Raft - Beam may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Frontier Raft - Blade
@@ -613,7 +613,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Frontier Raft - Blade may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Frontier Raft - Trapezoid
@@ -625,7 +625,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Frontier Raft - Trapezoid may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Greenstuf Autex Soffit & Slab Liner
@@ -637,7 +637,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Greenstuf Autex Soffit & Slab Liner may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Greenstuf Polyester Acoustic Blanket
@@ -649,7 +649,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Greenstuf Polyester Acoustic Blanket may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Grid Ceiling Tiles - Frame - Rectangle - Uncapped
@@ -661,7 +661,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Grid Ceiling Tiles - Frame - Rectangle - Uncapped may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Grid Ceiling Tiles - Frame/Vertex - Rectangle - Capped
@@ -673,7 +673,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Grid Ceiling Tiles - Frame/Vertex - Rectangle - Capped may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Grid Ceiling Tiles - Frame/Vertex - Square - Capped
@@ -685,7 +685,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Grid Ceiling Tiles - Frame/Vertex - Square - Capped may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Grid Ceiling Tiles - Frame/Vertex - Square - Uncapped
@@ -697,7 +697,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Grid Ceiling Tiles - Frame/Vertex - Square - Uncapped may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Grid Ceiling Tiles - Linear/Hatch/Angle/Louvre - Rectangle - Capped
@@ -709,7 +709,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Grid Ceiling Tiles - Linear/Hatch/Angle/Louvre - Rectangle - Capped may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Grid Ceiling Tiles - Linear/Hatch/Angle/Louvre - Rectangle - Uncapped
@@ -721,7 +721,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Grid Ceiling Tiles - Linear/Hatch/Angle/Louvre - Rectangle - Uncapped may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Grid Ceiling Tiles - Linear/Hatch/Angle/Louvre - Square - Capped
@@ -733,7 +733,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Grid Ceiling Tiles - Linear/Hatch/Angle/Louvre - Square - Capped may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Grid Ceiling Tiles - Linear/Hatch/Angle/Louvre - Square - Uncapped
@@ -745,7 +745,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Grid Ceiling Tiles - Linear/Hatch/Angle/Louvre - Square - Uncapped may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Grid Ceiling Tiles - Vault - Rectangle - Uncapped
@@ -757,7 +757,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Grid Ceiling Tiles - Vault - Rectangle - Uncapped may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Grid Ceiling Tiles - Vault - Square - Uncapped
@@ -769,7 +769,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Grid Ceiling Tiles - Vault - Square - Uncapped may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Groove
@@ -781,7 +781,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Groove may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Horizon - Circle
@@ -793,7 +793,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Horizon - Circle may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Horizon - Hexagon
@@ -805,7 +805,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Horizon - Hexagon may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Horizon - Oval
@@ -817,7 +817,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Horizon - Oval may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Horizon - Rectangle
@@ -829,7 +829,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Horizon - Rectangle may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Horizon - Square
@@ -841,7 +841,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Horizon - Square may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Horizon - Steel Cable
@@ -853,7 +853,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Horizon - Steel Cable may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Horizon - Triangle
@@ -865,7 +865,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Horizon - Triangle may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Lanes Baffle Peak
@@ -877,7 +877,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Lanes Baffle Peak may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Lanes Baffle Plane
@@ -889,7 +889,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Lanes Baffle Plane may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Lanes Baffle Sawtooth
@@ -901,7 +901,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Lanes Baffle Sawtooth may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Mirage Cube
@@ -913,7 +913,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Mirage Cube may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Panel
@@ -925,7 +925,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Panel may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Printed Lanes Baffle Peak
@@ -937,7 +937,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Printed Lanes Baffle Peak may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Printed Lanes Baffle Plane
@@ -949,7 +949,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Printed Lanes Baffle Plane may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Printed Lanes Baffle Sawtooth
@@ -961,7 +961,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Printed Lanes Baffle Sawtooth may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Quietspace Lattice - Eclipse
@@ -973,7 +973,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Quietspace Lattice - Eclipse may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Quietspace Lattice - Torus
@@ -985,7 +985,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Quietspace Lattice - Torus may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Quietspace Lattice - Trapezium
@@ -997,7 +997,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Quietspace Lattice - Trapezium may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Quietspace Panel
@@ -1009,7 +1009,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Quietspace Panel may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Solid Colour Ceiling Tiles
@@ -1021,7 +1021,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Solid Colour Ceiling Tiles may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Solid Colour Cube
@@ -1033,7 +1033,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Solid Colour Cube may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Solid Colour Frontier Raft beam
@@ -1045,7 +1045,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Solid Colour Frontier Raft beam may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Solid Colour Quietspace
@@ -1057,7 +1057,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Solid Colour Quietspace may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Surface Finishes Ceiling Tiles
@@ -1069,7 +1069,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Surface Finishes Ceiling Tiles may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Surface Finishes Cube
@@ -1081,7 +1081,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Surface Finishes Cube may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Surface Finishes Frontier Raft beam
@@ -1093,7 +1093,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Surface Finishes Frontier Raft beam may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Surface Finishes Quietspace
@@ -1105,7 +1105,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Surface Finishes Quietspace may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Verve - Acoustic Timber
@@ -1117,7 +1117,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Verve - Acoustic Timber may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Verve - Surface Finishes
@@ -1129,7 +1129,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Verve - Surface Finishes may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Verve Cube
@@ -1141,7 +1141,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Verve Cube may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Vicinity - Desk Screen - Crest
@@ -1153,7 +1153,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Vicinity - Desk Screen - Crest may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Vicinity - Desk Screen - Den
@@ -1165,7 +1165,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Vicinity - Desk Screen - Den may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Vicinity - Desk Screen - Haven
@@ -1177,7 +1177,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Vicinity - Desk Screen - Haven may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Vicinity - Desk Screen - Hedge
@@ -1189,7 +1189,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Vicinity - Desk Screen - Hedge may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Vicinity - Desk Screen - Nook
@@ -1201,7 +1201,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Vicinity - Desk Screen - Nook may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Vicinity - Desk Screen - Polka
@@ -1213,7 +1213,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Vicinity - Desk Screen - Polka may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Vicinity - Desk Screen - Slate
@@ -1225,7 +1225,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Vicinity - Desk Screen - Slate may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Vicinity - Desk Screen - Sol
@@ -1237,7 +1237,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Vicinity - Desk Screen - Sol may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Willie Weston / Emma Hayes Cube
@@ -1249,7 +1249,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Willie Weston / Emma Hayes Cube may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Autex — Autex Willie Weston / Emma Hayes Quietspace
@@ -1261,7 +1261,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Primary product source: https://www.autexacoustics.com.au/
 Safe wording: Autex Willie Weston / Emma Hayes Quietspace may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Bradford — Bradford Acoustigard
@@ -1273,7 +1273,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
+Primary product source: https://www.csrbradford.com.au/
 Safe wording: Bradford Acoustigard may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Bradford — Bradford Anticon Blanket
@@ -1285,7 +1285,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
+Primary product source: https://www.csrbradford.com.au/
 Safe wording: Bradford Anticon Blanket may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Bradford — Bradford Anticon Roofing Blanket - Heavy Duty Foil
@@ -1297,7 +1297,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
+Primary product source: https://www.csrbradford.com.au/
 Safe wording: Bradford Anticon Roofing Blanket - Heavy Duty Foil may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Bradford — Bradford Anticon Roofing Blanket - Light Duty Foil
@@ -1309,7 +1309,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
+Primary product source: https://www.csrbradford.com.au/
 Safe wording: Bradford Anticon Roofing Blanket - Light Duty Foil may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Bradford — Bradford Anticon Roofing Blanket - Medium Duty Foil
@@ -1321,7 +1321,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
+Primary product source: https://www.csrbradford.com.au/
 Safe wording: Bradford Anticon Roofing Blanket - Medium Duty Foil may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Bradford — Bradford Fibertex
@@ -1333,7 +1333,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
+Primary product source: https://www.csrbradford.com.au/
 Safe wording: Bradford Fibertex may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Bradford — Bradford Fire Protection - Damper Strip
@@ -1345,7 +1345,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
+Primary product source: https://www.csrbradford.com.au/
 Safe wording: Bradford Fire Protection - Damper Strip may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Bradford — Bradford Fire Protection - Filler
@@ -1357,7 +1357,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
+Primary product source: https://www.csrbradford.com.au/
 Safe wording: Bradford Fire Protection - Filler may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Bradford — Bradford Fire Protection - Metal Roof
@@ -1369,7 +1369,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
+Primary product source: https://www.csrbradford.com.au/
 Safe wording: Bradford Fire Protection - Metal Roof may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Bradford — Bradford Fire Protection - Tile Roof
@@ -1381,7 +1381,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
+Primary product source: https://www.csrbradford.com.au/
 Safe wording: Bradford Fire Protection - Tile Roof may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Bradford — Bradford Fire Protection - Wall Batt
@@ -1393,7 +1393,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
+Primary product source: https://www.csrbradford.com.au/
 Safe wording: Bradford Fire Protection - Wall Batt may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Bradford — Bradford Fireseal Party Wall Batts
@@ -1405,7 +1405,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
+Primary product source: https://www.csrbradford.com.au/
 Safe wording: Bradford Fireseal Party Wall Batts may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Bradford — Bradford Gold Batts
@@ -1417,7 +1417,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
+Primary product source: https://www.csrbradford.com.au/
 Safe wording: Bradford Gold Batts may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Bradford — Bradford Gold Hi-Performance Batts
@@ -1429,7 +1429,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
+Primary product source: https://www.csrbradford.com.au/
 Safe wording: Bradford Gold Hi-Performance Batts may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Bradford — Bradford Multitel - Foil - Faced
@@ -1441,7 +1441,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
+Primary product source: https://www.csrbradford.com.au/
 Safe wording: Bradford Multitel - Foil - Faced may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Bradford — Bradford Optimo
@@ -1453,7 +1453,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
+Primary product source: https://www.csrbradford.com.au/
 Safe wording: Bradford Optimo may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Bradford — Bradford Polyester - Polymax
@@ -1465,7 +1465,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
+Primary product source: https://www.csrbradford.com.au/
 Safe wording: Bradford Polyester - Polymax may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Bradford — Bradford Polymax Ceiling Insulation
@@ -1477,7 +1477,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
+Primary product source: https://www.csrbradford.com.au/
 Safe wording: Bradford Polymax Ceiling Insulation may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Bradford — Bradford Soundcsreen Acoustic Batts
@@ -1489,7 +1489,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
+Primary product source: https://www.csrbradford.com.au/
 Safe wording: Bradford Soundcsreen Acoustic Batts may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Bradford — Bradford Soundscreen Acoustic - Bradford
@@ -1501,7 +1501,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
+Primary product source: https://www.csrbradford.com.au/
 Safe wording: Bradford Soundscreen Acoustic - Bradford may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Bradford — Bradford Supertel Faced - Heavy Duty Foil
@@ -1513,7 +1513,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
+Primary product source: https://www.csrbradford.com.au/
 Safe wording: Bradford Supertel Faced - Heavy Duty Foil may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Bradford — Bradford Supertel Faced - Heavy Duty Perforated
@@ -1525,7 +1525,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
+Primary product source: https://www.csrbradford.com.au/
 Safe wording: Bradford Supertel Faced - Heavy Duty Perforated may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Bradford — Bradford Supertel Plain
@@ -1537,7 +1537,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
+Primary product source: https://www.csrbradford.com.au/
 Safe wording: Bradford Supertel Plain may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Bradford — Bradford Supertel Plain - Plain - Unfaced
@@ -1549,7 +1549,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
+Primary product source: https://www.csrbradford.com.au/
 Safe wording: Bradford Supertel Plain - Plain - Unfaced may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Bradford — Bradford Thermal - Bradford
@@ -1561,7 +1561,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
+Primary product source: https://www.csrbradford.com.au/
 Safe wording: Bradford Thermal - Bradford may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Bradford — Bradford Thermal Underfloor / Optimo
@@ -1573,7 +1573,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
+Primary product source: https://www.csrbradford.com.au/
 Safe wording: Bradford Thermal Underfloor / Optimo may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Bradford — Bradford Wall Wraps - Black Label With Integrated Tape
@@ -1585,7 +1585,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
+Primary product source: https://www.csrbradford.com.au/
 Safe wording: Bradford Wall Wraps - Black Label With Integrated Tape may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Bradford — Bradford Wall Wraps - Enviroseal Hightack Tape
@@ -1597,7 +1597,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
+Primary product source: https://www.csrbradford.com.au/
 Safe wording: Bradford Wall Wraps - Enviroseal Hightack Tape may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Bradford — Bradford Wall Wraps - Enviroseal Ultra Tape
@@ -1609,7 +1609,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
+Primary product source: https://www.csrbradford.com.au/
 Safe wording: Bradford Wall Wraps - Enviroseal Ultra Tape may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Bradford — Bradford Wall Wraps - Light Duty Commercial
@@ -1621,7 +1621,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
+Primary product source: https://www.csrbradford.com.au/
 Safe wording: Bradford Wall Wraps - Light Duty Commercial may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Bradford — Bradford Wall Wraps - Light Duty Metal Roof
@@ -1633,7 +1633,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
+Primary product source: https://www.csrbradford.com.au/
 Safe wording: Bradford Wall Wraps - Light Duty Metal Roof may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Bradford — Bradford Wall Wraps - Light Duty Residential
@@ -1645,7 +1645,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
+Primary product source: https://www.csrbradford.com.au/
 Safe wording: Bradford Wall Wraps - Light Duty Residential may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Bradford — Bradford Wall Wraps - Medium Duty Polyweave Wall Wrap
@@ -1657,7 +1657,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
+Primary product source: https://www.csrbradford.com.au/
 Safe wording: Bradford Wall Wraps - Medium Duty Polyweave Wall Wrap may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Bradford — Bradford Wall Wraps - Medium Duty Polyweave Wrap
@@ -1669,7 +1669,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
+Primary product source: https://www.csrbradford.com.au/
 Safe wording: Bradford Wall Wraps - Medium Duty Polyweave Wrap may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## DCTech — DCTech Acoustic Barrier
@@ -2072,7 +2072,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf
+Primary product source: https://www.foilboard.com.au/
 Safe wording: Foilboard Accessory may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Foilboard — Foilboard Blank Plates
@@ -2084,7 +2084,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf
+Primary product source: https://www.foilboard.com.au/
 Safe wording: Foilboard Blank Plates may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Foilboard — Foilboard Board
@@ -2096,7 +2096,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf
+Primary product source: https://www.foilboard.com.au/
 Safe wording: Foilboard Board may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Foilboard — Foilboard DIY/Fast Trade Pack
@@ -2108,7 +2108,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf
+Primary product source: https://www.foilboard.com.au/
 Safe wording: Foilboard DIY/Fast Trade Pack may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Foilboard — Foilboard Flexifast Fasteners
@@ -2120,7 +2120,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf
+Primary product source: https://www.foilboard.com.au/
 Safe wording: Foilboard Flexifast Fasteners may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Foilboard — Foilboard Floor Saddles
@@ -2132,7 +2132,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf
+Primary product source: https://www.foilboard.com.au/
 Safe wording: Foilboard Floor Saddles may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Foilboard — Foilboard Garage Door Kit
@@ -2144,7 +2144,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf
+Primary product source: https://www.foilboard.com.au/
 Safe wording: Foilboard Garage Door Kit may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Foilboard — Foilboard Green
@@ -2156,7 +2156,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf
+Primary product source: https://www.foilboard.com.au/
 Safe wording: Foilboard Green may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Foilboard — Foilboard Green Joining Tape
@@ -2168,7 +2168,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf
+Primary product source: https://www.foilboard.com.au/
 Safe wording: Foilboard Green Joining Tape may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Foilboard — Foilboard Silver Joining Tape
@@ -2180,7 +2180,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf
+Primary product source: https://www.foilboard.com.au/
 Safe wording: Foilboard Silver Joining Tape may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Foilboard — Foilboard Spacer Blocks
@@ -2192,7 +2192,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf
+Primary product source: https://www.foilboard.com.au/
 Safe wording: Foilboard Spacer Blocks may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Foilboard — Foilboard Standard Fasteners
@@ -2204,7 +2204,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf
+Primary product source: https://www.foilboard.com.au/
 Safe wording: Foilboard Standard Fasteners may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Foilboard — Foilboard Standard Tek Screws
@@ -2216,7 +2216,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf
+Primary product source: https://www.foilboard.com.au/
 Safe wording: Foilboard Standard Tek Screws may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Foilboard — Foilboard Ultra Fasteners
@@ -2228,7 +2228,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf
+Primary product source: https://www.foilboard.com.au/
 Safe wording: Foilboard Ultra Fasteners may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Foilboard — Foilboard Ultra Tek Screws
@@ -2240,7 +2240,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf
+Primary product source: https://www.foilboard.com.au/
 Safe wording: Foilboard Ultra Tek Screws may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Higgins Insulation — Higgins Insulation Acoustic Sheet
@@ -2408,7 +2408,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf
+Primary product source: https://www.kingspan.com/au/
 Safe wording: Kingspan K10 may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Kingspan — Kingspan K12
@@ -2420,7 +2420,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf
+Primary product source: https://www.kingspan.com/au/
 Safe wording: Kingspan K12 may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Kingspan — Kingspan K15
@@ -2432,7 +2432,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf
+Primary product source: https://www.kingspan.com/au/
 Safe wording: Kingspan K15 may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Kingspan — Kingspan K17
@@ -2444,7 +2444,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf
+Primary product source: https://www.kingspan.com/au/
 Safe wording: Kingspan K17 may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Kingspan — Kingspan K18
@@ -2456,7 +2456,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf
+Primary product source: https://www.kingspan.com/au/
 Safe wording: Kingspan K18 may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Kingspan — Kingspan K3
@@ -2468,7 +2468,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf
+Primary product source: https://www.kingspan.com/au/
 Safe wording: Kingspan K3 may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Kingspan — Kingspan K8
@@ -2480,7 +2480,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf
+Primary product source: https://www.kingspan.com/au/
 Safe wording: Kingspan K8 may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Kingspan — Kingspan Universal Insulation Retaining Clips
@@ -2492,7 +2492,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf
+Primary product source: https://www.kingspan.com/au/
 Safe wording: Kingspan Universal Insulation Retaining Clips may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Kingspan — Kingspan XPS Strip Slap Edge Insulation
@@ -2504,7 +2504,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf
+Primary product source: https://www.kingspan.com/au/
 Safe wording: Kingspan XPS Strip Slap Edge Insulation may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Knauf — Knauf Batt
@@ -2540,7 +2540,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf
+Primary product source: https://martini.com.au/
 Safe wording: Martini Commercial Polyester / Martini MAB may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Metecno — Metecno Accessory
@@ -2552,7 +2552,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://insulationessentials.com.au/wp-content/uploads/2024/10/Current-MetecnoPIR-Tech-Data-Sheets-MetecnoTherm-v4_v4-2.pdf
+Primary product source: https://metecno.com/
 Safe wording: Metecno Accessory may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Metecno — Metecno Aluminium Glass Foil Tape
@@ -2564,7 +2564,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://insulationessentials.com.au/wp-content/uploads/2024/10/Current-MetecnoPIR-Tech-Data-Sheets-MetecnoTherm-v4_v4-2.pdf
+Primary product source: https://metecno.com/
 Safe wording: Metecno Aluminium Glass Foil Tape may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Metecno — Metecno Ballistic Point Insulation Fastene
@@ -2576,7 +2576,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://insulationessentials.com.au/wp-content/uploads/2024/10/Current-MetecnoPIR-Tech-Data-Sheets-MetecnoTherm-v4_v4-2.pdf
+Primary product source: https://metecno.com/
 Safe wording: Metecno Ballistic Point Insulation Fastene may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Metecno — Metecno Board
@@ -2588,7 +2588,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://insulationessentials.com.au/wp-content/uploads/2024/10/Current-MetecnoPIR-Tech-Data-Sheets-MetecnoTherm-v4_v4-2.pdf
+Primary product source: https://metecno.com/
 Safe wording: Metecno Board may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Misc — Misc Accessory
@@ -2720,7 +2720,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://fminsulation.com.au/wp-content/uploads/2023/12/98-tds-rockwool-slab-s80.pdf
+Primary product source: https://www.paroc.com/en
 Safe wording: Paroc InsulRock Party Wall Batt may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Paroc — Paroc Rockwool
@@ -2732,7 +2732,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://fminsulation.com.au/wp-content/uploads/2023/12/98-tds-rockwool-slab-s80.pdf
+Primary product source: https://www.paroc.com/en
 Safe wording: Paroc Rockwool may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Polyair — Polyair Reflective
@@ -2744,7 +2744,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://hmrsupplies.com.au/wp-content/uploads/2024/05/Bradford™-Poly-Air-Perfroma™-XHD-Data.pdf
+Primary product source: https://www.polyair.com.au/
 Safe wording: Polyair Reflective may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Polyair — Polyair Thermo Reflective Products - Polyair Unicell
@@ -2756,7 +2756,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://hmrsupplies.com.au/wp-content/uploads/2024/05/Bradford™-Poly-Air-Perfroma™-XHD-Data.pdf
+Primary product source: https://www.polyair.com.au/
 Safe wording: Polyair Thermo Reflective Products - Polyair Unicell may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Polyair — Polyair Thermo Reflective Products - Polyair Unicell Self Adhesive
@@ -2768,7 +2768,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://hmrsupplies.com.au/wp-content/uploads/2024/05/Bradford™-Poly-Air-Perfroma™-XHD-Data.pdf
+Primary product source: https://www.polyair.com.au/
 Safe wording: Polyair Thermo Reflective Products - Polyair Unicell Self Adhesive may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Polyester Solutions — Polyester Solutions Batt
@@ -2780,7 +2780,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf
+Primary product source: https://www.polyestersolutions.com.au/
 Safe wording: Polyester Solutions Batt may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Polyester Solutions — Polyester Solutions Thermal batts - P
@@ -2792,7 +2792,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf
+Primary product source: https://www.polyestersolutions.com.au/
 Safe wording: Polyester Solutions Thermal batts - P may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Polyester Solutions — Polyester Solutions Under Floor Rolls - PolyFB
@@ -2804,7 +2804,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf
+Primary product source: https://www.polyestersolutions.com.au/
 Safe wording: Polyester Solutions Under Floor Rolls - PolyFB may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Polyester Solutions — Polyester Solutions Wall Block - Baffle block Batts
@@ -2816,7 +2816,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf
+Primary product source: https://www.polyestersolutions.com.au/
 Safe wording: Polyester Solutions Wall Block - Baffle block Batts may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Polyester Solutions — Polyester Solutions Wall Block - Baffle block rolls
@@ -2828,7 +2828,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf
+Primary product source: https://www.polyestersolutions.com.au/
 Safe wording: Polyester Solutions Wall Block - Baffle block rolls may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Proctor — Proctor Accessory
@@ -2840,7 +2840,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://proctorgroup.com.au/
 Safe wording: Proctor Accessory may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Proctor — Proctor BAL
@@ -2852,7 +2852,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://proctorgroup.com.au/
 Safe wording: Proctor BAL may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Proctor — Proctor Drainage / Ventilation
@@ -2864,7 +2864,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://proctorgroup.com.au/
 Safe wording: Proctor Drainage / Ventilation may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Proctor — Proctor Gable Vent
@@ -2876,7 +2876,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://proctorgroup.com.au/
 Safe wording: Proctor Gable Vent may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Proctor — Proctor Membrane
@@ -2888,7 +2888,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://proctorgroup.com.au/
 Safe wording: Proctor Membrane may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Proctor — Proctor Passive DriFlash Tape
@@ -2900,7 +2900,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://proctorgroup.com.au/
 Safe wording: Proctor Passive DriFlash Tape may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Proctor — Proctor Passive Rainscreen with Integrated Tape
@@ -2912,7 +2912,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://proctorgroup.com.au/
 Safe wording: Proctor Passive Rainscreen with Integrated Tape may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Proctor — Proctor Passive SmartVap
@@ -2924,7 +2924,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://proctorgroup.com.au/
 Safe wording: Proctor Passive SmartVap may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Proctor — Proctor Passive Wraptite SA Tape
@@ -2936,7 +2936,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://proctorgroup.com.au/
 Safe wording: Proctor Passive Wraptite SA Tape may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Proctor — Proctor Q-Silence P
@@ -2948,7 +2948,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://proctorgroup.com.au/
 Safe wording: Proctor Q-Silence P may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Proctor — Proctor Reflective
@@ -2960,7 +2960,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://proctorgroup.com.au/
 Safe wording: Proctor Reflective may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Proctor — Proctor TightMate
@@ -2972,7 +2972,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://proctorgroup.com.au/
 Safe wording: Proctor TightMate may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Proctor — Proctor YouRippa Curing Tape
@@ -2984,7 +2984,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://proctorgroup.com.au/
 Safe wording: Proctor YouRippa Curing Tape may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Proctor — Proctor YouRippa Cyclone
@@ -2996,7 +2996,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://proctorgroup.com.au/
 Safe wording: Proctor YouRippa Cyclone may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Proctor — Proctor YouRippa Easy
@@ -3008,7 +3008,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://proctorgroup.com.au/
 Safe wording: Proctor YouRippa Easy may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Proctor — Proctor YouRippa Protect Tape
@@ -3020,7 +3020,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://proctorgroup.com.au/
 Safe wording: Proctor YouRippa Protect Tape may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Proctor — Proctor YouRippa Silver
@@ -3032,7 +3032,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://proctorgroup.com.au/
 Safe wording: Proctor YouRippa Silver may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Proctor — ProctorGeo HC
@@ -3044,7 +3044,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://proctorgroup.com.au/
 Safe wording: ProctorGeo HC may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Proctor — ProctorGeo IRMA
@@ -3056,7 +3056,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://proctorgroup.com.au/
 Safe wording: ProctorGeo IRMA may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Proctor — ProctorGeo Vap
@@ -3068,7 +3068,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://proctorgroup.com.au/
 Safe wording: ProctorGeo Vap may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Proctor — ProctorPassive YouByute Flexi Tape
@@ -3080,7 +3080,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://proctorgroup.com.au/
 Safe wording: ProctorPassive YouByute Flexi Tape may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Proctor — ProctorPassive YouByute Sealing Tape
@@ -3092,7 +3092,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://proctorgroup.com.au/
 Safe wording: ProctorPassive YouByute Sealing Tape may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Proctor — ProctorPassive YouRippa Duo Tape
@@ -3104,7 +3104,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://proctorgroup.com.au/
 Safe wording: ProctorPassive YouRippa Duo Tape may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Proctor — ProctorWrap HT
@@ -3116,7 +3116,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://proctorgroup.com.au/
 Safe wording: ProctorWrap HT may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Proctor — ProctorWrap High Tack PLUS Tape
@@ -3128,7 +3128,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://proctorgroup.com.au/
 Safe wording: ProctorWrap High Tack PLUS Tape may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Proctor — ProctorWrap High Tack Plus Tape
@@ -3140,7 +3140,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://proctorgroup.com.au/
 Safe wording: ProctorWrap High Tack Plus Tape may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Proctor — ProctorWrap High Tack Tape
@@ -3152,7 +3152,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://proctorgroup.com.au/
 Safe wording: ProctorWrap High Tack Tape may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Proctor — ProctorWrap Plasti-Grip Washers
@@ -3164,7 +3164,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://proctorgroup.com.au/
 Safe wording: ProctorWrap Plasti-Grip Washers may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Rockwool — Rockwool Reflective
@@ -3188,7 +3188,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://www.acransoundcontrol.com.au/media/website_pages/noise-control-products/acoustic-panels/sonata_acoustic_panels.pdf
+Primary product source: https://sonataacousticpanels.com.au/
 Safe wording: Sonata Acoustic Panels Sonata Recital Core may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Stinger — Stinger Accessory
@@ -3441,7 +3441,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://tradeselect.com.au/
 Safe wording: Trade Select Aluminium Glass Foil Tape may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Trade Select — Trade Select Ballistic Point Insulation Fastene
@@ -3453,7 +3453,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://tradeselect.com.au/
 Safe wording: Trade Select Ballistic Point Insulation Fastene may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Trade Select — Trade Select EasySeal Insulation Flashing Tape
@@ -3465,7 +3465,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://tradeselect.com.au/
 Safe wording: Trade Select EasySeal Insulation Flashing Tape may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Trade Select — Trade Select NC Thermal Break Strips
@@ -3477,7 +3477,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://tradeselect.com.au/
 Safe wording: Trade Select NC Thermal Break Strips may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Trade Select — Trade Select NC Thermal Break Strips Adhesive backed
@@ -3489,7 +3489,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://tradeselect.com.au/
 Safe wording: Trade Select NC Thermal Break Strips Adhesive backed may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Trade Select — Trade Select Non-combustible Insulation Flashing Tape
@@ -3501,7 +3501,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://tradeselect.com.au/
 Safe wording: Trade Select Non-combustible Insulation Flashing Tape may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Trade Select — Trade Select Reflective
@@ -3513,7 +3513,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://tradeselect.com.au/
 Safe wording: Trade Select Reflective may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Trade Select — Trade Select Thermal Break Strips
@@ -3525,7 +3525,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://tradeselect.com.au/
 Safe wording: Trade Select Thermal Break Strips may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 ## Trade Select — Trade Select Wrap
@@ -3537,7 +3537,7 @@ Selection guidance: Auto-derived from catalogue data; human QA against manufactu
 Before suggesting this family, clarify: standard intake questions above.
 Mandatory checks before quote or order: standard mandatory checks above.
 Approved structured performance evidence: no numerical claim is approved for voice use yet. Discuss product role only and arrange human review.
-Primary product source: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Primary product source: https://tradeselect.com.au/
 Safe wording: Trade Select Wrap may suit this application at product-family level. Our team must confirm the construction, exact product and project requirements before quoting.
 
 PRODUCTS THAT MUST NOT BE RECOMMENDED

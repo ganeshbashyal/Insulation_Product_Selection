@@ -18,17 +18,17 @@
         "polyester solutions"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Polyester Solutions Batt: 11 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Polyester Solutions Batt: 11 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "batt.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf",
+      "source_url": "https://www.polyestersolutions.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -39,7 +39,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 11
+      "product_count": 11,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "POLYESTER_SOLUTIONS_THERMAL_BATTS_P",
@@ -57,17 +59,17 @@
         "thermal batts - p"
       ],
       "scores": {
-        "acoustic_comfort": 3,
+        "acoustic_comfort": 2,
         "energy_efficiency": 5,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Polyester Solutions Thermal batts - P: 14 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Polyester Solutions Thermal batts - P: 14 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "thermal_batts_p.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf",
+      "source_url": "https://www.polyestersolutions.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -78,7 +80,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 14
+      "product_count": 14,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "POLYESTER_SOLUTIONS_UNDER_FLOOR_ROLLS_POLYFB",
@@ -105,7 +109,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "under_floor_rolls_polyfb.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf",
+      "source_url": "https://www.polyestersolutions.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -116,7 +120,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 5
+      "product_count": 5,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "POLYESTER_SOLUTIONS_WALL_BLOCK_BAFFLE_BLOCK_BATTS",
@@ -133,17 +139,17 @@
         "wall block - baffle block batts"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Polyester Solutions Wall Block - Baffle block Batts: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Polyester Solutions Wall Block - Baffle block Batts: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "wall_block_baffle_block_batts.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf",
+      "source_url": "https://www.polyestersolutions.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -154,7 +160,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "POLYESTER_SOLUTIONS_WALL_BLOCK_BAFFLE_BLOCK_ROLLS",
@@ -171,17 +179,17 @@
         "wall block - baffle block rolls"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Polyester Solutions Wall Block - Baffle block rolls: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Polyester Solutions Wall Block - Baffle block rolls: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "wall_block_baffle_block_rolls.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf",
+      "source_url": "https://www.polyestersolutions.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -192,7 +200,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     }
   ]
 }

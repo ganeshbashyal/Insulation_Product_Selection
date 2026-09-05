@@ -27,7 +27,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "accessory.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://insulationessentials.com.au/wp-content/uploads/2024/10/Current-MetecnoPIR-Tech-Data-Sheets-MetecnoTherm-v4_v4-2.pdf",
+      "source_url": "https://metecno.com/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -38,7 +38,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "legacy_source_url": "https://insulationessentials.com.au/wp-content/uploads/2024/10/Current-MetecnoPIR-Tech-Data-Sheets-MetecnoTherm-v4_v4-2.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "METECNO_ALUMINIUM_GLASS_FOIL_TAPE",
@@ -65,7 +67,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "aluminium_glass_foil_tape.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://insulationessentials.com.au/wp-content/uploads/2024/10/Current-MetecnoPIR-Tech-Data-Sheets-MetecnoTherm-v4_v4-2.pdf",
+      "source_url": "https://metecno.com/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -76,7 +78,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "legacy_source_url": "https://insulationessentials.com.au/wp-content/uploads/2024/10/Current-MetecnoPIR-Tech-Data-Sheets-MetecnoTherm-v4_v4-2.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "METECNO_BALLISTIC_POINT_INSULATION_FASTENE",
@@ -103,7 +107,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "ballistic_point_insulation_fastene.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://insulationessentials.com.au/wp-content/uploads/2024/10/Current-MetecnoPIR-Tech-Data-Sheets-MetecnoTherm-v4_v4-2.pdf",
+      "source_url": "https://metecno.com/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -114,7 +118,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 10
+      "product_count": 10,
+      "legacy_source_url": "https://insulationessentials.com.au/wp-content/uploads/2024/10/Current-MetecnoPIR-Tech-Data-Sheets-MetecnoTherm-v4_v4-2.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "METECNO_BOARD",
@@ -131,16 +137,16 @@
       ],
       "scores": {
         "acoustic_comfort": 2,
-        "energy_efficiency": 4,
+        "energy_efficiency": 5,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Metecno Board: 10 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Metecno Board: 10 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "board.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://insulationessentials.com.au/wp-content/uploads/2024/10/Current-MetecnoPIR-Tech-Data-Sheets-MetecnoTherm-v4_v4-2.pdf",
+      "source_url": "https://metecno.com/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -151,7 +157,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 10
+      "product_count": 10,
+      "legacy_source_url": "https://insulationessentials.com.au/wp-content/uploads/2024/10/Current-MetecnoPIR-Tech-Data-Sheets-MetecnoTherm-v4_v4-2.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     }
   ]
 }

@@ -32,7 +32,7 @@ An acoustic fence works as a complete barrier: height, continuity, gaps, line of
 
 ## Secondary owned source
 
-[Insulation Easy Australia legacy product page](https://insulationeasy.com.au/product/mass-loaded-vinyl-treated-for-uv-radiation-acoustic-sound-noise-barrier-fence-insulation/)
+[Insulation Easy Australia legacy product page](https://thermotec.com.au/)
 
 ## Deep-dive evidence dossier
 

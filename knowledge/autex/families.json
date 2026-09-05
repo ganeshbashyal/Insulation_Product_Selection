@@ -28,7 +28,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "accent_ceiling_tiles.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -39,7 +39,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 4
+      "product_count": 4,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_ACCESSORY",
@@ -66,7 +68,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "accessory.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -77,7 +79,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 18
+      "product_count": 18,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_ACOUSTIC_TIMBER_ACOUSTIC_TIMBER_PANEL",
@@ -94,17 +98,17 @@
         "panel"
       ],
       "scores": {
-        "acoustic_comfort": 4,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Autex Acoustic Timber - Acoustic Timber Panel: 6 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Acoustic Timber - Acoustic Timber Panel: 6 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "acoustic_timber_acoustic_timber_panel.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -115,7 +119,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 6
+      "product_count": 6,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_ACOUSTIC_TIMBER_ACOUSTIC_TIMBER_RAFT",
@@ -133,17 +139,17 @@
         "batt"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Autex Acoustic Timber - Acoustic Timber Raft: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Acoustic Timber - Acoustic Timber Raft: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "acoustic_timber_acoustic_timber_raft.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -154,7 +160,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 4
+      "product_count": 4,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_ACOUSTIC_TIMBER_CEILING_TILES",
@@ -171,17 +179,17 @@
         "panel"
       ],
       "scores": {
-        "acoustic_comfort": 4,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Autex Acoustic Timber - Ceiling Tiles: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Acoustic Timber - Ceiling Tiles: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "acoustic_timber_ceiling_tiles.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -192,7 +200,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_ACOUSTIC_TIMBER_QUIETSPACE",
@@ -209,17 +219,17 @@
         "panel"
       ],
       "scores": {
-        "acoustic_comfort": 4,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Autex Acoustic Timber - Quietspace: 3 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Acoustic Timber - Quietspace: 3 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "acoustic_timber_quietspace.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -230,7 +240,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 3
+      "product_count": 3,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_BATT",
@@ -246,17 +258,17 @@
         "batt"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Autex Batt: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Batt: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "batt.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -267,7 +279,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_BESPOKE_PRINT_CUBE",
@@ -284,17 +298,17 @@
         "panel"
       ],
       "scores": {
-        "acoustic_comfort": 4,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Autex Bespoke Print Cube: 6 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Bespoke Print Cube: 6 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "bespoke_print_cube.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -305,7 +319,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 6
+      "product_count": 6,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_BESPOKE_PRINT_QUIETSPACE",
@@ -322,17 +338,17 @@
         "panel"
       ],
       "scores": {
-        "acoustic_comfort": 4,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Autex Bespoke Print Quietspace: 3 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Bespoke Print Quietspace: 3 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "bespoke_print_quietspace.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -343,7 +359,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 3
+      "product_count": 3,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_CASCADE_ACOUSTIC_HANGING_SCREENS_EXPANDI",
@@ -360,17 +378,17 @@
         "panel"
       ],
       "scores": {
-        "acoustic_comfort": 4,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Autex Cascade Acoustic Hanging Screens - Expanding: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Cascade Acoustic Hanging Screens - Expanding: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "cascade_acoustic_hanging_screens_expandi.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -381,7 +399,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_CASCADE_ACOUSTIC_HANGING_SCREENS_FOLDING",
@@ -398,17 +418,17 @@
         "panel"
       ],
       "scores": {
-        "acoustic_comfort": 4,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Autex Cascade Acoustic Hanging Screens - Folding: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Cascade Acoustic Hanging Screens - Folding: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "cascade_acoustic_hanging_screens_folding.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -419,7 +439,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_CASCADE_ACOUSTIC_HANGING_SCREENS_STATIC",
@@ -436,17 +458,17 @@
         "panel"
       ],
       "scores": {
-        "acoustic_comfort": 4,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Autex Cascade Acoustic Hanging Screens - Static: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Cascade Acoustic Hanging Screens - Static: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "cascade_acoustic_hanging_screens_static.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -457,7 +479,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_COMPOSITION_SMOOTH_PANEL",
@@ -474,17 +498,17 @@
         "panel"
       ],
       "scores": {
-        "acoustic_comfort": 4,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Autex Composition - Smooth Panel: 3 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Composition - Smooth Panel: 3 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "composition_smooth_panel.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -495,7 +519,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 3
+      "product_count": 3,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_COMPOSITION_SMOOTH_ROLL",
@@ -512,17 +538,17 @@
         "panel"
       ],
       "scores": {
-        "acoustic_comfort": 4,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Autex Composition - Smooth Roll: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Composition - Smooth Roll: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "composition_smooth_roll.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -533,7 +559,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_COMPOSITION_VELOUR_PANEL",
@@ -550,17 +578,17 @@
         "panel"
       ],
       "scores": {
-        "acoustic_comfort": 4,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Autex Composition - Velour Panel: 3 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Composition - Velour Panel: 3 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "composition_velour_panel.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -571,7 +599,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 3
+      "product_count": 3,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_COMPOSITION_VELOUR_ROLL",
@@ -588,17 +618,17 @@
         "panel"
       ],
       "scores": {
-        "acoustic_comfort": 4,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Autex Composition - Velour Roll: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Composition - Velour Roll: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "composition_velour_roll.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -609,7 +639,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_COVE_ACOUSTIC_DESK_DIVIDER_ARC",
@@ -626,17 +658,17 @@
         "batt"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Autex Cove Acoustic Desk Divider - Arc: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Cove Acoustic Desk Divider - Arc: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "cove_acoustic_desk_divider_arc.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -647,7 +679,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_COVE_ACOUSTIC_DESK_DIVIDER_BEVEL",
@@ -664,17 +698,17 @@
         "batt"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Autex Cove Acoustic Desk Divider - Bevel: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Cove Acoustic Desk Divider - Bevel: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "cove_acoustic_desk_divider_bevel.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -685,7 +719,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_COVE_ACOUSTIC_DESK_DIVIDER_CLASSIC",
@@ -702,17 +738,17 @@
         "batt"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Autex Cove Acoustic Desk Divider - Classic: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Cove Acoustic Desk Divider - Classic: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "cove_acoustic_desk_divider_classic.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -723,7 +759,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_CUBE",
@@ -740,17 +778,17 @@
         "panel"
       ],
       "scores": {
-        "acoustic_comfort": 4,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Autex Cube: 16 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Cube: 16 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "cube.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -761,7 +799,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 16
+      "product_count": 16,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_FRONTIER_FINS_AXIS",
@@ -778,17 +818,17 @@
         "batt"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Autex Frontier Fins - Axis: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Frontier Fins - Axis: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "frontier_fins_axis.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -799,7 +839,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_FRONTIER_FINS_NON_STANDARD_POWDER_COATED",
@@ -826,7 +868,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "frontier_fins_non_standard_powder_coated.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -837,7 +879,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_FRONTIER_FINS_STANDARD_KIT",
@@ -854,17 +898,17 @@
         "batt"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Autex Frontier Fins - Standard Kit: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Frontier Fins - Standard Kit: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "frontier_fins_standard_kit.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -875,7 +919,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 4
+      "product_count": 4,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_FRONTIER_RAFT_BEAM",
@@ -892,17 +938,17 @@
         "batt"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Autex Frontier Raft - Beam: 8 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Frontier Raft - Beam: 8 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "frontier_raft_beam.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -913,7 +959,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 8
+      "product_count": 8,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_FRONTIER_RAFT_BLADE",
@@ -930,17 +978,17 @@
         "batt"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Autex Frontier Raft - Blade: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Frontier Raft - Blade: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "frontier_raft_blade.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -951,7 +999,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 4
+      "product_count": 4,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_FRONTIER_RAFT_TRAPEZOID",
@@ -968,17 +1018,17 @@
         "batt"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Autex Frontier Raft - Trapezoid: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Frontier Raft - Trapezoid: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "frontier_raft_trapezoid.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -989,7 +1039,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 4
+      "product_count": 4,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_GREENSTUF_AUTEX_SOFFIT_SLAB_LINER",
@@ -1006,17 +1058,17 @@
         "greenstuf autex soffit & slab liner"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 4,
+        "energy_efficiency": 4,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Autex Greenstuf Autex Soffit & Slab Liner: 15 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Greenstuf Autex Soffit & Slab Liner: 15 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "greenstuf_autex_soffit_slab_liner.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -1027,7 +1079,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 15
+      "product_count": 15,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_GREENSTUF_POLYESTER_ACOUSTIC_BLANKET",
@@ -1044,17 +1098,17 @@
         "greenstuf polyester acoustic blanket"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 4,
+        "energy_efficiency": 4,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Autex Greenstuf Polyester Acoustic Blanket: 15 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Greenstuf Polyester Acoustic Blanket: 15 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "greenstuf_polyester_acoustic_blanket.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -1065,7 +1119,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 15
+      "product_count": 15,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_GRID_CEILING_TILES_FRAME_RECTANGLE_UNCAP",
@@ -1092,7 +1148,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "grid_ceiling_tiles_frame_rectangle_uncap.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -1103,7 +1159,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_GRID_CEILING_TILES_FRAME_VERTEX_RECTANGL",
@@ -1130,7 +1188,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "grid_ceiling_tiles_frame_vertex_rectangl.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -1141,7 +1199,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_GRID_CEILING_TILES_FRAME_VERTEX_SQUARE_C",
@@ -1168,7 +1228,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "grid_ceiling_tiles_frame_vertex_square_c.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -1179,7 +1239,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_GRID_CEILING_TILES_FRAME_VERTEX_SQUARE_U",
@@ -1206,7 +1268,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "grid_ceiling_tiles_frame_vertex_square_u.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -1217,7 +1279,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_GRID_CEILING_TILES_LINEAR_HATCH_ANGLE_LO",
@@ -1244,7 +1308,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "grid_ceiling_tiles_linear_hatch_angle_lo.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -1255,7 +1319,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_GRID_CEILING_TILES_LINEAR_HATCH_ANGLE_LO_2",
@@ -1282,7 +1348,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "grid_ceiling_tiles_linear_hatch_angle_lo_2.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -1293,7 +1359,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_GRID_CEILING_TILES_LINEAR_HATCH_ANGLE_LO_3",
@@ -1320,7 +1388,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "grid_ceiling_tiles_linear_hatch_angle_lo_3.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -1331,7 +1399,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_GRID_CEILING_TILES_LINEAR_HATCH_ANGLE_LO_4",
@@ -1358,7 +1428,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "grid_ceiling_tiles_linear_hatch_angle_lo_4.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -1369,7 +1439,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_GRID_CEILING_TILES_VAULT_RECTANGLE_UNCAP",
@@ -1396,7 +1468,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "grid_ceiling_tiles_vault_rectangle_uncap.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -1407,7 +1479,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_GRID_CEILING_TILES_VAULT_SQUARE_UNCAPPED",
@@ -1434,7 +1508,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "grid_ceiling_tiles_vault_square_uncapped.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -1445,7 +1519,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_GROOVE",
@@ -1462,17 +1538,17 @@
         "panel"
       ],
       "scores": {
-        "acoustic_comfort": 4,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Autex Groove: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Groove: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "groove.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -1483,7 +1559,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 4
+      "product_count": 4,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_HORIZON_CIRCLE",
@@ -1500,17 +1578,17 @@
         "panel"
       ],
       "scores": {
-        "acoustic_comfort": 4,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Autex Horizon - Circle: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Horizon - Circle: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "horizon_circle.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -1521,7 +1599,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_HORIZON_HEXAGON",
@@ -1538,17 +1618,17 @@
         "panel"
       ],
       "scores": {
-        "acoustic_comfort": 4,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Autex Horizon - Hexagon: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Horizon - Hexagon: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "horizon_hexagon.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -1559,7 +1639,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_HORIZON_OVAL",
@@ -1576,17 +1658,17 @@
         "panel"
       ],
       "scores": {
-        "acoustic_comfort": 4,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Autex Horizon - Oval: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Horizon - Oval: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "horizon_oval.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -1597,7 +1679,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_HORIZON_RECTANGLE",
@@ -1614,17 +1698,17 @@
         "panel"
       ],
       "scores": {
-        "acoustic_comfort": 4,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Autex Horizon - Rectangle: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Horizon - Rectangle: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "horizon_rectangle.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -1635,7 +1719,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_HORIZON_SQUARE",
@@ -1652,17 +1738,17 @@
         "panel"
       ],
       "scores": {
-        "acoustic_comfort": 4,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Autex Horizon - Square: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Horizon - Square: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "horizon_square.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -1673,7 +1759,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_HORIZON_STEEL_CABLE",
@@ -1700,7 +1788,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "horizon_steel_cable.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -1711,7 +1799,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_HORIZON_TRIANGLE",
@@ -1728,17 +1818,17 @@
         "panel"
       ],
       "scores": {
-        "acoustic_comfort": 4,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Autex Horizon - Triangle: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Horizon - Triangle: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "horizon_triangle.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -1749,7 +1839,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_LANES_BAFFLE_PEAK",
@@ -1766,17 +1858,17 @@
         "batt"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Autex Lanes Baffle Peak: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Lanes Baffle Peak: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "lanes_baffle_peak.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -1787,7 +1879,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 4
+      "product_count": 4,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_LANES_BAFFLE_PLANE",
@@ -1804,17 +1898,17 @@
         "batt"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Autex Lanes Baffle Plane: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Lanes Baffle Plane: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "lanes_baffle_plane.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -1825,7 +1919,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 4
+      "product_count": 4,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_LANES_BAFFLE_SAWTOOTH",
@@ -1842,17 +1938,17 @@
         "batt"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Autex Lanes Baffle Sawtooth: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Lanes Baffle Sawtooth: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "lanes_baffle_sawtooth.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -1863,7 +1959,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 4
+      "product_count": 4,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_MIRAGE_CUBE",
@@ -1880,17 +1978,17 @@
         "panel"
       ],
       "scores": {
-        "acoustic_comfort": 4,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Autex Mirage Cube: 8 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Mirage Cube: 8 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "mirage_cube.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -1901,7 +1999,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 8
+      "product_count": 8,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_PANEL",
@@ -1919,17 +2019,17 @@
         "panel"
       ],
       "scores": {
-        "acoustic_comfort": 4,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Autex Panel: 21 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Panel: 21 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "panel.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -1940,7 +2040,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 21
+      "product_count": 21,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_PRINTED_LANES_BAFFLE_PEAK",
@@ -1957,17 +2059,17 @@
         "batt"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Autex Printed Lanes Baffle Peak: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Printed Lanes Baffle Peak: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "printed_lanes_baffle_peak.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -1978,7 +2080,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 4
+      "product_count": 4,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_PRINTED_LANES_BAFFLE_PLANE",
@@ -1995,17 +2099,17 @@
         "batt"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Autex Printed Lanes Baffle Plane: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Printed Lanes Baffle Plane: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "printed_lanes_baffle_plane.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -2016,7 +2120,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 4
+      "product_count": 4,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_PRINTED_LANES_BAFFLE_SAWTOOTH",
@@ -2033,17 +2139,17 @@
         "batt"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Autex Printed Lanes Baffle Sawtooth: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Printed Lanes Baffle Sawtooth: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "printed_lanes_baffle_sawtooth.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -2054,7 +2160,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 4
+      "product_count": 4,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_QUIETSPACE_LATTICE_ECLIPSE",
@@ -2071,17 +2179,17 @@
         "panel"
       ],
       "scores": {
-        "acoustic_comfort": 4,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Autex Quietspace Lattice - Eclipse: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Quietspace Lattice - Eclipse: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "quietspace_lattice_eclipse.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -2092,7 +2200,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_QUIETSPACE_LATTICE_TORUS",
@@ -2109,17 +2219,17 @@
         "panel"
       ],
       "scores": {
-        "acoustic_comfort": 4,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Autex Quietspace Lattice - Torus: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Quietspace Lattice - Torus: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "quietspace_lattice_torus.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -2130,7 +2240,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_QUIETSPACE_LATTICE_TRAPEZIUM",
@@ -2147,17 +2259,17 @@
         "panel"
       ],
       "scores": {
-        "acoustic_comfort": 4,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Autex Quietspace Lattice - Trapezium: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Quietspace Lattice - Trapezium: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "quietspace_lattice_trapezium.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -2168,7 +2280,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_QUIETSPACE_PANEL",
@@ -2185,17 +2299,17 @@
         "panel"
       ],
       "scores": {
-        "acoustic_comfort": 4,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Autex Quietspace Panel: 32 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Quietspace Panel: 32 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "quietspace_panel.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -2206,7 +2320,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 32
+      "product_count": 32,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_SOLID_COLOUR_CEILING_TILES",
@@ -2233,7 +2349,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "solid_colour_ceiling_tiles.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -2244,7 +2360,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_SOLID_COLOUR_CUBE",
@@ -2261,17 +2379,17 @@
         "panel"
       ],
       "scores": {
-        "acoustic_comfort": 4,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Autex Solid Colour Cube: 6 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Solid Colour Cube: 6 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "solid_colour_cube.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -2282,7 +2400,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 6
+      "product_count": 6,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_SOLID_COLOUR_FRONTIER_RAFT_BEAM",
@@ -2299,17 +2419,17 @@
         "batt"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Autex Solid Colour Frontier Raft beam: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Solid Colour Frontier Raft beam: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "solid_colour_frontier_raft_beam.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -2320,7 +2440,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 4
+      "product_count": 4,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_SOLID_COLOUR_QUIETSPACE",
@@ -2337,17 +2459,17 @@
         "panel"
       ],
       "scores": {
-        "acoustic_comfort": 4,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Autex Solid Colour Quietspace: 3 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Solid Colour Quietspace: 3 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "solid_colour_quietspace.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -2358,7 +2480,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 3
+      "product_count": 3,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_SURFACE_FINISHES_CEILING_TILES",
@@ -2385,7 +2509,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "surface_finishes_ceiling_tiles.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -2396,7 +2520,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_SURFACE_FINISHES_CUBE",
@@ -2413,17 +2539,17 @@
         "panel"
       ],
       "scores": {
-        "acoustic_comfort": 4,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Autex Surface Finishes Cube: 6 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Surface Finishes Cube: 6 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "surface_finishes_cube.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -2434,7 +2560,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 6
+      "product_count": 6,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_SURFACE_FINISHES_FRONTIER_RAFT_BEAM",
@@ -2451,17 +2579,17 @@
         "batt"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Autex Surface Finishes Frontier Raft beam: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Surface Finishes Frontier Raft beam: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "surface_finishes_frontier_raft_beam.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -2472,7 +2600,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 4
+      "product_count": 4,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_SURFACE_FINISHES_QUIETSPACE",
@@ -2489,17 +2619,17 @@
         "panel"
       ],
       "scores": {
-        "acoustic_comfort": 4,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Autex Surface Finishes Quietspace: 3 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Surface Finishes Quietspace: 3 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "surface_finishes_quietspace.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -2510,7 +2640,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 3
+      "product_count": 3,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_VERVE_ACOUSTIC_TIMBER",
@@ -2527,17 +2659,17 @@
         "panel"
       ],
       "scores": {
-        "acoustic_comfort": 4,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Autex Verve - Acoustic Timber: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Verve - Acoustic Timber: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "verve_acoustic_timber.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -2548,7 +2680,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_VERVE_SURFACE_FINISHES",
@@ -2565,17 +2699,17 @@
         "panel"
       ],
       "scores": {
-        "acoustic_comfort": 4,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Autex Verve - Surface Finishes: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Verve - Surface Finishes: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "verve_surface_finishes.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -2586,7 +2720,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_VERVE_CUBE",
@@ -2603,17 +2739,17 @@
         "panel"
       ],
       "scores": {
-        "acoustic_comfort": 4,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Autex Verve Cube: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Verve Cube: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "verve_cube.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -2624,7 +2760,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 4
+      "product_count": 4,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_VICINITY_DESK_SCREEN_CREST",
@@ -2641,17 +2779,17 @@
         "batt"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Autex Vicinity - Desk Screen - Crest: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Vicinity - Desk Screen - Crest: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "vicinity_desk_screen_crest.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -2662,7 +2800,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_VICINITY_DESK_SCREEN_DEN",
@@ -2679,17 +2819,17 @@
         "batt"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Autex Vicinity - Desk Screen - Den: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Vicinity - Desk Screen - Den: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "vicinity_desk_screen_den.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -2700,7 +2840,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_VICINITY_DESK_SCREEN_HAVEN",
@@ -2717,17 +2859,17 @@
         "batt"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Autex Vicinity - Desk Screen - Haven: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Vicinity - Desk Screen - Haven: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "vicinity_desk_screen_haven.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -2738,7 +2880,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_VICINITY_DESK_SCREEN_HEDGE",
@@ -2755,17 +2899,17 @@
         "batt"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Autex Vicinity - Desk Screen - Hedge: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Vicinity - Desk Screen - Hedge: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "vicinity_desk_screen_hedge.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -2776,7 +2920,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_VICINITY_DESK_SCREEN_NOOK",
@@ -2793,17 +2939,17 @@
         "batt"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Autex Vicinity - Desk Screen - Nook: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Vicinity - Desk Screen - Nook: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "vicinity_desk_screen_nook.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -2814,7 +2960,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_VICINITY_DESK_SCREEN_POLKA",
@@ -2831,17 +2979,17 @@
         "batt"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Autex Vicinity - Desk Screen - Polka: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Vicinity - Desk Screen - Polka: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "vicinity_desk_screen_polka.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -2852,7 +3000,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_VICINITY_DESK_SCREEN_SLATE",
@@ -2869,17 +3019,17 @@
         "batt"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Autex Vicinity - Desk Screen - Slate: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Vicinity - Desk Screen - Slate: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "vicinity_desk_screen_slate.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -2890,7 +3040,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_VICINITY_DESK_SCREEN_SOL",
@@ -2907,17 +3059,17 @@
         "batt"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Autex Vicinity - Desk Screen - Sol: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Vicinity - Desk Screen - Sol: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "vicinity_desk_screen_sol.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -2928,7 +3080,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_WILLIE_WESTON_EMMA_HAYES_CUBE",
@@ -2945,17 +3099,17 @@
         "panel"
       ],
       "scores": {
-        "acoustic_comfort": 4,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Autex Willie Weston / Emma Hayes Cube: 6 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Willie Weston / Emma Hayes Cube: 6 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "willie_weston_emma_hayes_cube.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -2966,7 +3120,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 6
+      "product_count": 6,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "AUTEX_WILLIE_WESTON_EMMA_HAYES_QUIETSPACE",
@@ -2983,17 +3139,17 @@
         "panel"
       ],
       "scores": {
-        "acoustic_comfort": 4,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Autex Willie Weston / Emma Hayes Quietspace: 3 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Autex Willie Weston / Emma Hayes Quietspace: 3 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "willie_weston_emma_hayes_quietspace.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url": "https://www.autexacoustics.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -3004,7 +3160,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 3
+      "product_count": 3,
+      "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     }
   ]
 }

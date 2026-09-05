@@ -21,16 +21,16 @@
       ],
       "scores": {
         "acoustic_comfort": 2,
-        "energy_efficiency": 4,
+        "energy_efficiency": 5,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Kingspan K10: 48 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Kingspan K10: 48 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "k10.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf",
+      "source_url": "https://www.kingspan.com/au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -41,7 +41,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 48
+      "product_count": 48,
+      "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "KINGSPAN_K12",
@@ -59,16 +61,16 @@
       ],
       "scores": {
         "acoustic_comfort": 2,
-        "energy_efficiency": 4,
+        "energy_efficiency": 5,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Kingspan K12: 8 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Kingspan K12: 8 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "k12.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf",
+      "source_url": "https://www.kingspan.com/au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -79,7 +81,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 8
+      "product_count": 8,
+      "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "KINGSPAN_K15",
@@ -97,16 +101,16 @@
       ],
       "scores": {
         "acoustic_comfort": 2,
-        "energy_efficiency": 4,
+        "energy_efficiency": 5,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Kingspan K15: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Kingspan K15: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "k15.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf",
+      "source_url": "https://www.kingspan.com/au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -117,7 +121,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "KINGSPAN_K17",
@@ -144,7 +150,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "k17.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf",
+      "source_url": "https://www.kingspan.com/au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -155,7 +161,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 17
+      "product_count": 17,
+      "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "KINGSPAN_K18",
@@ -182,7 +190,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "k18.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf",
+      "source_url": "https://www.kingspan.com/au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -193,7 +201,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 11
+      "product_count": 11,
+      "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "KINGSPAN_K3",
@@ -211,16 +221,16 @@
       ],
       "scores": {
         "acoustic_comfort": 2,
-        "energy_efficiency": 4,
+        "energy_efficiency": 5,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Kingspan K3: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Kingspan K3: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "k3.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf",
+      "source_url": "https://www.kingspan.com/au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -231,7 +241,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "KINGSPAN_K8",
@@ -249,16 +261,16 @@
       ],
       "scores": {
         "acoustic_comfort": 2,
-        "energy_efficiency": 4,
+        "energy_efficiency": 5,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Kingspan K8: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Kingspan K8: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "k8.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf",
+      "source_url": "https://www.kingspan.com/au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -269,7 +281,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "KINGSPAN_UNIVERSAL_INSULATION_RETAINING_CLIPS",
@@ -296,7 +310,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "universal_insulation_retaining_clips.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf",
+      "source_url": "https://www.kingspan.com/au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -307,7 +321,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "KINGSPAN_XPS_STRIP_SLAP_EDGE_INSULATION",
@@ -325,16 +341,16 @@
       ],
       "scores": {
         "acoustic_comfort": 2,
-        "energy_efficiency": 4,
+        "energy_efficiency": 5,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Kingspan XPS Strip Slap Edge Insulation: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Kingspan XPS Strip Slap Edge Insulation: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "xps_strip_slap_edge_insulation.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf",
+      "source_url": "https://www.kingspan.com/au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -345,7 +361,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     }
   ]
 }

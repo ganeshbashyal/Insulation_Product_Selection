@@ -120,7 +120,7 @@
       "confidence": "secondary_owned_source_only",
       "knowledge_file": "nuwave-fence-mlv.md",
       "detailed_knowledge_status": "complete_2026-09-04",
-      "source_url": "https://insulationeasy.com.au/product/mass-loaded-vinyl-treated-for-uv-radiation-acoustic-sound-noise-barrier-fence-insulation/",
+      "source_url": "https://thermotec.com.au/",
       "questions": [
         "Is the barrier continuously exposed to weather and UV?",
         "What noise source, fence height and line-of-sight condition apply?",
@@ -130,7 +130,9 @@
         "Confirm current Thermotec product identity and availability",
         "Engineering review of the complete fence/barrier",
         "No BAL or fire claim without project evidence"
-      ]
+      ],
+      "legacy_source_url": "https://insulationeasy.com.au/product/mass-loaded-vinyl-treated-for-uv-radiation-acoustic-sound-noise-barrier-fence-insulation/",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "THERMOTEC_NUWAVE_FOIL_FACED_MLV",
@@ -159,7 +161,7 @@
       "confidence": "secondary_owned_source_only",
       "knowledge_file": "nuwave-foil-faced-mlv.md",
       "detailed_knowledge_status": "complete_2026-09-04",
-      "source_url": "https://insulationeasy.com.au/product/nuwave-4zero-foil-faced-mlv-soundproofing/",
+      "source_url": "https://thermotec.com.au/",
       "questions": [
         "Why is a foil-faced configuration required?",
         "What surface mass and construction are specified?",
@@ -169,7 +171,9 @@
         "Confirm current manufacturer technical data",
         "Review the exact fire report and application",
         "Do not confuse with Thermotec 4-Zero pipe insulation"
-      ]
+      ],
+      "legacy_source_url": "https://insulationeasy.com.au/product/nuwave-4zero-foil-faced-mlv-soundproofing/",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "THERMOTEC_NUWRAP_5",
@@ -536,7 +540,7 @@
       "confidence": "identity_unverified",
       "knowledge_file": "maxflex-pipe.md",
       "detailed_knowledge_status": "complete_2026-09-04",
-      "source_url": null,
+      "source_url": "https://thermotec.com.au/",
       "questions": [
         "Can purchasing or Thermotec confirm the current family name?",
         "Is this an E-Flex ST coil or a distinct product?",
@@ -545,7 +549,8 @@
       "human_gates": [
         "Do not recommend, quote or map specifications until identity is verified",
         "Confirm both MPNs with manufacturer or purchasing records"
-      ]
+      ],
+      "source_url_status": "manufacturer_site_root_tds_pending"
     }
   ]
 }

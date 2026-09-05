@@ -19,13 +19,13 @@
         "knauf"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 4,
+        "energy_efficiency": 4,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Knauf Batt: 47 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Knauf Batt: 47 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "batt.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
@@ -57,13 +57,13 @@
         "knauf"
       ],
       "scores": {
-        "acoustic_comfort": 3,
+        "acoustic_comfort": 2,
         "energy_efficiency": 5,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Knauf Blanket Roof Lamin: 6 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Knauf Blanket Roof Lamin: 6 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "blanket_roof_lamin.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",

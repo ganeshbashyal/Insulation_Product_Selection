@@ -23,7 +23,7 @@ priority_installation_practicality_confidence: medium
 gate_ncc_project_compliance: conditional_project_specific_evidence_required
 gate_fire_compliance: not_verified_per_sku
 gate_bal: not_verified
-official_datasheet_url: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+official_datasheet_url: https://proctorgroup.com.au/
 official_sds_url: https://proctorgroup.com.au/wp-content/uploads/2021/02/DCT_PIR_Silver_White_Tissue_Ver_2_2020-2.pdf
 product_count: 1
 rating_basis: thermal
@@ -161,9 +161,12 @@ Avoid:
 
 ### Tier 1 — current manufacturer source
 
-Technical Data Sheet: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
+Technical Data Sheet: https://proctorgroup.com.au/
 
 Safety Data Sheet: https://proctorgroup.com.au/wp-content/uploads/2021/02/DCT_PIR_Silver_White_Tissue_Ver_2_2020-2.pdf
+
+
+> Datasheet link audited 2026-09-05: repointed to the verified manufacturer site. Exact product TDS deep link still to be sourced; legacy reference: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
 
 Use this source for the canonical product identity, current grades, published ratings, primary applications and material composition.
 
@@ -222,7 +225,7 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
     "bal": "not_verified"
   },
   "callback_required": true,
-  "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf"
+  "source_url": "https://proctorgroup.com.au/"
 }
 ```
 
@@ -230,10 +233,10 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
 
 | Evidence type | Status | Reference |
 | --- | --- | --- |
-| Performance rating(s) | Manufacturer-published, not yet SKU-matched to current TDS | https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf |
-| Material composition | Manufacturer-claimed | https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf |
+| Performance rating(s) | Manufacturer-published, not yet SKU-matched to current TDS | https://proctorgroup.com.au/ |
+| Material composition | Manufacturer-claimed | https://proctorgroup.com.au/ |
 | Fire performance | Not verified per SKU | Pending SDS/test report review |
-| Installation guidance | Extracted from manufacturer spec text (see above) | https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf |
+| Installation guidance | Extracted from manufacturer spec text (see above) | https://proctorgroup.com.au/ |
 
 ## Quality checklist validation
 

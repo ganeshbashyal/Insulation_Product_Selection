@@ -32,7 +32,7 @@ The bot may use this record to recognise the product name and capture an enquiry
 
 ## Secondary owned source
 
-[Insulation Easy Australia product page](https://insulationeasy.com.au/product/nuwave-4zero-foil-faced-mlv-soundproofing/)
+[Insulation Easy Australia product page](https://thermotec.com.au/)
 
 ## Deep-dive evidence dossier
 

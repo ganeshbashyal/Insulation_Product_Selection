@@ -719,7 +719,7 @@
       "confidence": "identity_unverified",
       "knowledge_file": "safe-n-silent-legacy.md",
       "detailed_knowledge_status": "complete_2026-09-04",
-      "source_url": null,
+      "source_url": "https://insulation.com.au/",
       "questions": [
         "Is this a discontinued or renamed Fletcher product?",
         "Can purchasing confirm codes 4007197, 4007198 and 4007200?",
@@ -728,7 +728,8 @@
       "human_gates": [
         "Do not recommend or quote until identity is verified",
         "Do not automatically substitute Soundbreak"
-      ]
+      ],
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "FLETCHER_FF_HD_LEGACY",
@@ -757,7 +758,7 @@
       "confidence": "identity_unverified",
       "knowledge_file": "ff-hd-legacy.md",
       "detailed_knowledge_status": "complete_2026-09-04",
-      "source_url": null,
+      "source_url": "https://insulation.com.au/",
       "questions": [
         "Is this a fabrication facing rather than installed insulation?",
         "Can purchasing confirm product code 4008040?",
@@ -766,7 +767,8 @@
       "human_gates": [
         "Do not recommend or quote until identity is verified",
         "Do not infer membrane performance from the abbreviated name"
-      ]
+      ],
+      "source_url_status": "manufacturer_site_root_tds_pending"
     }
   ]
 }
