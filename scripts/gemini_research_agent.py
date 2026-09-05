@@ -81,11 +81,12 @@ def research_family(manufacturer: str, family: dict) -> dict:
     )
     client = _client()
     grounding = types.Tool(google_search=types.GoogleSearch())
-    response = client.models.generate_content(
+    # use Chat to avoid the automatic-function-calling deprecation warning
+    chat = client.chats.create(
         model=MODEL,
-        contents=prompt,
         config=types.GenerateContentConfig(tools=[grounding], temperature=0),
     )
+    response = chat.send_message(prompt)
     text = response.text or ""
     match = re.search(r"\{.*\}", text, re.S)
     if not match:
