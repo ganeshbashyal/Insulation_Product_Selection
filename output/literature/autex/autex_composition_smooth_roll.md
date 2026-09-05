@@ -1,7 +1,7 @@
 ---
 title: "Autex Composition - Smooth Roll - Panel Insulation | Autex"
-description: "Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled pla"
-keywords: "Autex Composition - Smooth Roll, Autex panel, acoustic insulation, wall insulation, ceiling insulation, insulation Australia, Autex Australia"
+description: "Autex Composition Smooth Roll is a high-performance acoustic wallcovering supplied in continuous 1.22m x 25m rolls with a sleek, flat-pile smooth fini"
+keywords: "Autex Composition - Smooth Roll, Autex panel, wall insulation, insulation Australia, Autex Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AUTEX_COMPOSITION_SMOOTH_ROLL
 ---
@@ -10,30 +10,33 @@ family_id: AUTEX_COMPOSITION_SMOOTH_ROLL
 
 **Autex Panel** — acoustic panels for sound absorption and interior finish.
 
-Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled plastic bottles, it's the sustainable choice for modern buildings.
+Autex Composition Smooth Roll is a high-performance acoustic wallcovering supplied in continuous 1.22m x 25m rolls with a sleek, flat-pile smooth finish. Engineered to replace paint and wallpaper while dramatically reducing reverberation and chatter, it provides floor-to-ceiling seamless wall coverage without horizontal joins. Combining an acoustic polyester backing with a smooth Vertiface surface, it is pinnable, hook-and-loop receptive, and Group 1 fire rated for classrooms, offices, and commercial interiors.
 
 ## Key features
 
-- 100% polyester - safe to handle without protective equipment.
-- contains minimum 80% recycled PET plastic bottles.
-- non-allergenic, non-irritant formulation.
-- will not support mould or mildew growth.
-- maintains performance when wet - dries out naturally.
-- excellent thermal performance for roof/ceiling applications.
-- helps meet NCC energy efficiency requirements.
-- Made from recycled PET bottles.
+- Continuous roll form (1.22m x 25m) for seamless floor-to-ceiling application.
+- Sleek, smooth flat-pile Vertiface finish.
+- Eliminates horizontal seams on standard height walls.
+- Acoustic absorption reducing reverberation (NRC 0.40).
+- Pinnable, self-healing, and hook-and-loop receptive surface.
+- Made from 100% polyester fibre containing min 49% recycled PET.
+- Group 1 fire rating to AS ISO 9705 - 2003.
+- Certified Carbon Neutral product with third-party verified EPD.
+- Durable and low-maintenance alternative to painting.
+- Non-toxic, non-allergenic, and low VOC.
 
 ## Applications and selection
 
-- Internal Wall | Ceiling | General Acoustic
+- wall
+- internal wall
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm total wall length and height to calculate required roll meterage (each roll covers 30.5m²).
+2. Verify smooth flat-pile finish specification.
+3. Choose colour from Autex Vertiface palette.
+4. Ensure batch numbers match across all ordered rolls.
+5. Verify substrate is sealed to prevent excessive adhesive suction.
 
 
 ## Current catalogue range
@@ -44,36 +47,57 @@ Specialists in sustainable polyester acoustic solutions. Safe to handle without 
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Panel | Manufacturer catalogue |
-| Material | Polyester | Manufacturer catalogue |
-| Applications | Internal Wall | Ceiling | General Acoustic | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Noise Reduction Coefficient (NRC) | 0.40 | ISO 354 |
+| Roll Dimensions | 1.22 m x 25 m (+5mm x +10mm) | - |
+| Thickness | 10 - 12 mm (nominal) | - |
+| Weight | Typically 1600 - 1680 gsm | - |
+| Finish | Smooth flat-pile finish | - |
+| Material Composition | 100% polyester fibre (PET) | - |
+| Recycled Content | Minimum 49% post-consumer recycled PET | - |
+| Fire Hazard Classification | Group 1 (AS ISO 9705 - 2003 / AS 5637.1); Group 1-S (ISO 9705:1993) | AS ISO 9705 / AS 5637.1 |
+| Thermal Resistance | R0.22 (@ 15°C) | - |
+| Microbial Resistance | Growth Rating: 0 (No growth) | ASTM G21-15 |
+| Volatile Organic Compounds (VOC) | < 0.0035 mg/m³ (7 days) | CDPH Standard |
 
-
+Extracted from manufacturer datasheet: https://www.autexglobal.com/au/products/composition/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+AS ISO 9705 - 2003: Group 1; ISO 9705: Group 1-S; BS EN 13501-1:2018: B - s1, d0
+
+NCC BCA Group 1 fire compliance; AS ISO 9705:2003; ISO 354; ISO 9001 and ISO 14001 accredited
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.autexacoustics.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://insulvac.com.au/wp-content/uploads/2020/04/autex-material-safety-data-sheet-msds.pdf.
 
+## Recommended accessories
+
+- Autex recommended water-based wallcovering adhesive.
+- Autex Edging Solutions Type A aluminium capping and joiner profiles.
+- Heavy wallcovering roller and trimming knives.
+
 
 ## Limitations and warnings
 
-- Not suitable for applications requiring fire rating without additional protection..
-- not to be exposed to weather or sustained moisture..
-- do not compress beyond manufacturer recommendations..
-- check fire-rated system requirements if fire rating is required..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Must be installed in vertical drops with pile running in the same direction.
+- Substrate imperfections can telegraph through; substrate must be smooth.
+- Indoor use only; avoid high moisture or exterior environments.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for applications requiring fire rating without additional protection.
+1. Inspect roll material before cutting and ensure all rolls are from the same batch.
+2. Substrate must be flat, smooth, clean, dry, and sealed with wallboard sealer.
+3. Cut vertical drops slightly oversized to allow trimming at ceiling and skirting.
+4. Hang in sequential order from the roll and maintain consistent pile/grain direction.
+5. Apply recommended water-based acoustic wallcovering adhesive using a notched trowel.
+6. Hang vertical drop onto wet adhesive and smooth down from center outward.
+7. Butt join adjacent drops tightly without overlapping.
+8. Roll thoroughly with a heavy smoothing roller to eliminate air bubbles and ensure 100% bond.
+9. Trim top and bottom edges neatly using a straight edge and fresh blade.
 
 ## Safety and handling
 
@@ -81,11 +105,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Carbon neutral product; contains minimum 49% recycled PET; Declare Red List Free; Low VOC; 100% recyclable
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Manufacturer's guarantee by Autex Acoustics
 
 ## Specification starting point
 

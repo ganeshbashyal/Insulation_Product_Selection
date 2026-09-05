@@ -1,0 +1,833 @@
+[ { "family_id": "AUTEX_ACOUSTIC_TIMBER_QUIETSPACE", "tds_url":
+"https://www.autexglobal.com/au/products/acoustic-timber/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Acoustic Timber Panel is a high-performance acoustic treatment designed
+to realistically imitate timber. Formed from thermally bonded high-density
+polyester using a 25mm Quietspace Panel base, it features woodgrain textures
+taken from real timber veneers digitally printed onto the panel surface with
+safe, water-based UV-cured ink. It delivers an authentic timber aesthetic while
+meeting strict seismic requirements and Group 1 fire compliance across wall and
+ceiling applications.", "features": [ "Authentic timber look digitally printed
+from real timber veneers", "Engineered on a 25mm dual-density Quietspace Panel
+base", "High acoustic performance achieving NRC 0.85", "Group 1 fire rating to
+AS ISO 9705 - 2003", "Printed using safe, water-based, UV-cured ink", "Contains
+minimum 58% post-consumer recycled PET", "Certified Carbon Neutral product with
+third-party verified EPD", "Non-toxic, non-allergenic, and non-irritant",
+"Naturally resistant to mould and mildew (ASTM G21-15 Growth Rating: 0)",
+"Lightweight and seismic compliant alternative to solid timber panelling" ],
+"applications": [ "wall", "internal wall", "ceiling" ], "technical": [ {
+"property": "Noise Reduction Coefficient (NRC)", "value": "0.85 (25mm Quietspace
+base)", "standard": "ISO 354" }, { "property": "Sound Absorption Class",
+"value": "Class C", "standard": "ISO 11654" }, { "property": "Thickness",
+"value": "25 mm (+/- 6%)", "standard": "" }, { "property": "Panel Dimensions",
+"value": "1200 mm x 2400 mm; 1200 mm x 2700 mm", "standard": "" }, { "property":
+"Material Composition", "value": "100% polyester fibre (PET) printed with
+UV-curable ink", "standard": "" }, { "property": "Recycled Content", "value":
+"Minimum 58% post-consumer recycled PET", "standard": "" }, { "property": "Fire
+Hazard Classification", "value": "Group 1 (AS ISO 9705 - 2003 / AS 5637.1);
+Group 1-S (ISO 9705:1993)", "standard": "AS ISO 9705 / AS 5637.1 / ISO 9705" },
+{ "property": "Water Vapour Sorption", "value": "0.4% by weight after 4 days
+at 49°C, 95% RH", "standard": "ASTM C1104 / C1104M-13a" }, { "property":
+"Microbial Resistance", "value": "Growth Rating: 0 (No growth)", "standard":
+"ASTM G21-15" }, { "property": "Volatile Organic Compounds (VOC)", "value":
+"< 0.019 mg/m³ (24 hours)", "standard": "CDPH Standard Method v1.2" } ],
+"range": [ { "variant": "Acoustic Timber Panel 25mm Quietspace",
+"size_or_rating": "1200 mm x 2400 mm x 25 mm, NRC 0.85", "pack": "Panel" }, {
+"variant": "Acoustic Timber Panel 25mm Quietspace (Custom Length)",
+"size_or_rating": "1200 mm x 2700 mm x 25 mm, NRC 0.85", "pack": "Panel" } ],
+"fire": "AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1;
+ISO 9705: 1993 Classification: Group 1-S; BS EN 13501-1:2018: B - s2, d2",
+"compliance": "NCC Specification 7 (BCA C1.10) Group 1 fire compliance; AS
+ISO 9705:2003; ISO 354; ISO 9001, ISO 14001, and ISO 45001 accredited
+manufacturing", "sustainability": "Certified Carbon Neutral; minimum 58%
+recycled PET; Declare Red List Free; low VOC (<0.019 mg/m³); 100% recyclable",
+"install": [ "Inspect panels prior to install and verify grain orientation and
+lot consistency", "Ensure the wall or ceiling substrate is flat, clean, dry, and
+dust-free", "Acclimatise panels in the installation environment for at least 24
+hours", "Cut through the face of the panel using a straight edge and sharp
+utility knife", "Place straight edge on excess section to avoid rubbing or
+friction on the decorative face", "Apply recommended contact or construction
+adhesive evenly across the panel backing", "Position panel onto the substrate
+and butt-join sheets tightly along vertical joins", "Apply firm, uniform
+pressure with a roller across the panel to ensure full bond contact" ],
+"selection_checklist": [ "Confirm woodgrain finish from available timber grains
+(e.g. Birch, Oak, Hoop Pine, Ash, Eucalyptus)", "Verify substrate flatness and
+suitability for direct-fix adhesive mounting", "Confirm thickness and acoustic
+performance target (25mm Quietspace base delivers NRC 0.85)", "Check that panel
+will be located in non-contact areas to prevent surface scuffing", "Confirm
+ceiling and wall dimensions to determine standard 2400mm vs 2700mm lengths" ],
+"accessories": [ "Autex Edging Solutions (Type C profile for 25mm panels)",
+"Construction adhesive / contact adhesive", "Straight edge and utility knife" ],
+"limitations": [ "Recommended for non-contact areas as printed surface may show
+scuff marks under impact", "Do not use in high-impact sports halls without
+protective screening", "Variations in grain pattern are intentional to replicate
+natural timber veneer", "Indoor use only; avoid direct prolonged water exposure"
+], "warranty": "Manufacturer's guarantee by Autex Acoustics", "found": true,
+"search_keywords": [ "Autex Acoustic Timber", "Acoustic Timber Quietspace",
+"timber look acoustic panel", "printed woodgrain acoustic panel", "Quietspace
+timber panel", "polyester timber acoustic panel", "wood look acoustic wall",
+"NRC 0.85 timber panel", "Group 1 timber acoustic panel" ], "problem_keywords":
+[ "echo in commercial lobby", "heavy solid timber acoustic limits", "timber wall
+reverberation", "meeting Group 1 fire rating with wood look", "seismic weight
+limits for timber panels", "office boardroom speech privacy" ], "placement": [
+"wall", "internal wall", "ceiling" ], "priority_fit": [ "acoustic", "fire",
+"sustainability" ], "use_cases": [ "lining commercial reception and boardroom
+walls with an authentic timber finish while controlling echo", "installing on
+auditorium and lecture theatre walls where timber aesthetics must comply with
+Group 1 fire codes", "providing lightweight woodgrain ceiling panels in spaces
+with strict seismic loading limits", "treating restaurant and hospitality dining
+rooms to soften acoustics with warm timber textures" ], "not_for": [
+"high-impact sports hall walls without protective screening", "outdoor cladding
+or external weather exposure", "wet areas with direct running water" ],
+"rag_summary": "Autex Acoustic Timber - Quietspace is a 25mm thick,
+high-performance acoustic wall and ceiling panel that realistically replicates
+natural timber grain. Constructed from thermally bonded 100% polyester fibres on
+a dual-density Quietspace Panel base, high-resolution woodgrains are digitally
+printed using safe, water-based UV-cured ink without reducing acoustic
+absorption. Delivering an outstanding NRC of 0.85, Group 1 fire classification,
+and carbon-neutral certification, it replaces heavy, resonant timber panelling
+with a lightweight, seismic-compliant solution that eliminates interior
+reverberation." }, { "family_id": "AUTEX_BATT", "tds_url":
+"https://www.greenstuf.com.au/products/thermal-batts/", "sds_url":
+"https://www.greenstuf.com.au/resources/technical-documents/", "description":
+"Autex GreenStuf Thermal Batts are 100% polyester insulation segments engineered
+to provide thermal and acoustic performance in residential and commercial
+buildings. Manufactured from thermally bonded polyester fibre without chemical
+binders or added flame retardants, they are completely safe to touch and install
+without protective gear. Pre-cut to fit common timber and steel framed walls,
+ceilings, and mid-floor cavities, they will not settle, crumble, or slump over
+their 50-year durability life.", "features": [ "User-friendly with no protective
+clothing required", "100% polyester fibre with zero chemical binders or resins",
+"Non-toxic, non-irritant, and non-allergenic", "50-year durability warranty",
+"Fire safe, achieving Group 1 fire classification to AS ISO 9705", "Improves
+wall sound transmission loss by 5-6 Rw points", "Moisture resistant with less
+than 0.03% absorption by weight", "Naturally resistant to insect and vermin
+attack", "Manufactured with recycled PET bottles and 100% recyclable", "Tested
+to AS/NZS 4859.1 for thermal performance" ], "applications": [ "ceiling",
+"wall", "external wall", "internal wall", "between floors", "underfloor" ],
+"technical": [ { "property": "Thermal Resistance (R-value)", "value": "R1.5,
+R2.0, R2.5, R2.7, R3.0, R3.5, R4.0", "standard": "AS/NZS 4859.1" }, {
+"property": "Material Composition", "value": "100% polyester fibre (thermally
+bonded)", "standard": "" }, { "property": "Batt Widths", "value": "430 mm (450
+mm framing centres) and 580 mm (600 mm framing centres)", "standard": "" }, {
+"property": "Acoustic Improvement", "value": "5 - 6 Rw points increase in
+typical cavity wall", "standard": "" }, { "property": "Fire Hazard Properties
+(AS 1530.3)", "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0,
+Smoke Developed: 0-3", "standard": "AS 1530.3" }, { "property": "Group Fire
+Rating", "value": "Group 1; SMOGRArc < 100 m²/s²", "standard": "AS ISO 9705:2003
+/ AS 5637.1" }, { "property": "Moisture Absorption", "value": "< 0.03% by weight
+after 4 days at 50°C and 90% RH", "standard": "" }, { "property": "Corrosion
+Resistance", "value": "Non-corrosive, pH 7.8", "standard": "AS/NZS 4859.1" }, {
+"property": "Volatile Organic Compounds (VOC)", "value": "0.01 mg/m³ (7 days)",
+"standard": "Cetec" } ], "range": [ { "variant": "GreenStuf Thermal Batts R1.5",
+"size_or_rating": "75mm thickness, 430mm / 580mm width", "pack": "Pack of batts"
+}, { "variant": "GreenStuf Thermal Batts R2.0", "size_or_rating": "90mm
+thickness, 430mm / 580mm width", "pack": "Pack of batts" }, { "variant":
+"GreenStuf Thermal Batts R2.5", "size_or_rating": "90-100mm thickness, 430mm
+/ 580mm width", "pack": "Pack of batts" }, { "variant": "GreenStuf Thermal Batts
+R3.0", "size_or_rating": "140mm thickness, 430mm / 580mm width", "pack": "Pack
+of batts" }, { "variant": "GreenStuf Thermal Batts R3.5", "size_or_rating":
+"175-185mm thickness, 430mm / 580mm width", "pack": "Pack of batts" }, {
+"variant": "GreenStuf Thermal Batts R4.0", "size_or_rating": "200mm
+thickness, 430mm / 580mm width", "pack": "Pack of batts" } ], "fire":
+"AS 1530.3: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke
+Developed 0-3; AS ISO 9705 Group 1 (SMOGRArc < 100 m²/s²)", "compliance":
+"AS/NZS 4859.1, AS 3999; NCC Volume One (Section J JP1, Section F FP5.1) and
+Volume Two (Part 2.6 P2.6.1, Part 3.8.6 P2.4.6)", "sustainability": "100%
+recyclable; contains recycled PET; zero ODP; non-toxic; low VOC (0.01 mg/m³);
+GECA / Declare Red List Free compliant", "install": [ "Install in accordance
+with AS 3999 and manufacturer instructions", "Friction-fit batts between timber
+or steel framing members without gaps", "Ensure batts are not compressed against
+linings to maintain full rated thickness", "Tear batts across width by hand or
+cut with a sharp serrated knife if trimming is needed", "Maintain minimum 50mm
+clearance around non-IC rated recessed downlights and flues", "In external
+walls, ensure batts do not protrude past the frame into cavity drainage space",
+"In ceilings, lay batts flat between ceiling joists and cover top plates at
+perimeters" ], "selection_checklist": [ "Confirm framing centres (450mm centres
+require 430mm batts; 600mm centres require 580mm batts)", "Confirm stud depth
+and cavity thickness (e.g. 70mm, 90mm, or 140mm)", "Verify target R-value
+required by NCC climate zone or NatHERS energy report", "Confirm acoustic
+requirements between rooms or floors", "Ensure downlight ratings (IC-4 / IC-F)
+allow continuous insulation coverage" ], "accessories": [ "Insulation strap /
+wire for overhead or underfloor batts", "Serrated insulation knife" ],
+"limitations": [ "Do not compress batts significantly as this degrades thermal
+R-value", "Do not cover non-IC rated light fittings or hot flues without proper
+clearances", "Not designed as an exposed decorative lining; must be enclosed
+behind internal wall/ceiling linings" ], "warranty": "50 Year Durability
+Warranty", "found": true, "search_keywords": [ "Autex batts", "Autex GreenStuf",
+"GreenStuf batts", "polyester wall batts", "polyester ceiling batts", "Autex
+thermal batts", "non itchy batts", "itch free insulation", "polyester acoustic
+batts", "R2.5 GreenStuf" ], "problem_keywords": [ "itchy fiberglass insulation",
+"cold rooms in winter", "hot ceiling heat transfer", "noise through interior
+walls", "asthma safe insulation", "slumping wall batts" ], "placement": [
+"ceiling", "wall", "internal wall", "external wall", "between floors",
+"underfloor" ], "priority_fit": [ "thermal", "sustainability", "easy_install",
+"acoustic" ], "use_cases": [ "insulating timber-stud external walls during new
+home builds for thermal efficiency without itch", "acoustic infill in internal
+partition walls to eliminate airborne noise between bedrooms and living areas",
+"retrofitting ceiling insulation in residential roof spaces to stop winter heat
+loss", "mid-floor cavity insulation between storeys to reduce footfall resonance
+and temperature loss" ], "not_for": [ "exposed decorative wall or ceiling lining
+without plasterboard covering", "direct masonry contact without moisture
+barrier", "operating temperatures continuously exceeding 120°C" ],
+"rag_summary": "Autex GreenStuf Batts (Autex Batt) are non-toxic, itch-free
+thermal and acoustic insulation segments manufactured in Australia and New
+Zealand from 100% thermally bonded polyester fibre with recycled PET content.
+Pre-cut to 430mm and 580mm widths for standard stud and joist spacings, they
+deliver thermal ratings from R1.5 to R4.0 and boost wall acoustic isolation by 5
+to 6 Rw points. Free from chemical binders, asbestos, and respirable fibres,
+they are safe to handle without protective gear, resistant to moisture and
+vermin, and backed by an industry-leading 50-year durability warranty." }, {
+"family_id": "AUTEX_BESPOKE_PRINT_CUBE", "tds_url":
+"https://www.autexglobal.com/au/products/cube/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Bespoke Print Cube is a fully customisable acoustic wall and ceiling
+panel that combines the acoustic performance of Cube solid polyester felt with
+bespoke digital printing. High-resolution imagery, brand graphics, patterns, or
+custom artwork are printed directly onto 12mm or 24mm Cube panels using safe,
+water-based, UV-cured inks. It delivers an authentic, high-definition visual
+finish with an NRC of 0.45 to 0.70 while maintaining Group 1 fire compliance and
+carbon-neutral credentials.", "features": [ "Full customisation with
+high-resolution digital UV printing", "Substrate is semi-rigid 100% polyester
+Cube panel", "Available in 12mm and 24mm thicknesses", "Printed surface has zero
+negative impact on acoustic sound absorption", "Group 1 fire rating to AS
+ISO 9705 - 2003", "Printed using safe, water-based, UV-cured inks", "Minimum 80%
+recycled post-consumer PET fibre content", "Zero chemical binders and low VOC
+emissions", "Certified Carbon Neutral product with third-party verified EPD",
+"Direct-fix, SpinFix, or Peel 'n' Stick installation options" ], "applications":
+[ "wall", "internal wall", "ceiling" ], "technical": [ { "property": "Noise
+Reduction Coefficient (NRC)", "value": "0.45 (12mm direct fix); 0.70 (24mm
+direct fix); up to 0.80 (with air gap)", "standard": "ISO 354" }, { "property":
+"Thickness", "value": "12 mm | 24 mm", "standard": "" }, { "property": "Panel
+Dimensions", "value": "1220 mm x 2440 mm; custom lengths up to 3600 mm",
+"standard": "" }, { "property": "Material Composition", "value": "100% polyester
+fibre (PET) printed with UV-curable ink", "standard": "" }, { "property":
+"Recycled Content", "value": "Minimum 80% recycled PET", "standard": "" }, {
+"property": "Fire Hazard Classification", "value": "Group 1 (AS ISO 9705 - 2003
+/ AS 5637.1); Group 1-S (ISO 9705:1993)", "standard": "AS ISO 9705 / AS 5637.1"
+}, { "property": "Water Vapour Sorption", "value": "< 0.4% by weight after 4
+days at 49°C, 95% RH", "standard": "ASTM C1104" }, { "property": "Microbial
+Resistance", "value": "Growth Rating: 0 (No growth)", "standard": "ASTM G21-15"
+}, { "property": "Volatile Organic Compounds (VOC)", "value": "< 0.019 mg/m³ (24
+hours)", "standard": "CDPH Standard Method v1.2" } ], "range": [ { "variant":
+"Bespoke Print Cube 12mm", "size_or_rating": "1220 mm x 2440 mm x 12 mm,
+NRC 0.45", "pack": "Panel" }, { "variant": "Bespoke Print Cube 24mm",
+"size_or_rating": "1220 mm x 2440 mm x 24 mm, NRC 0.70", "pack": "Panel" }, {
+"variant": "Bespoke Print Cube Custom Length", "size_or_rating": "1220 mm x up
+to 3600 mm", "pack": "Panel" } ], "fire": "AS ISO 9705 - 2003 and AS 5637.1
+Classification: Group 1; ISO 9705: Group 1-S; BS EN 13501-1:2018: B - s2, d0",
+"compliance": "NCC Specification 7 (BCA C1.10) Group 1 fire compliance; AS
+ISO 9705:2003; ISO 354; ISO 9001 and ISO 14001 accredited", "sustainability":
+"Certified Carbon Neutral; contains min 80% recycled PET; Declare Red List Free;
+Low VOC; 100% recyclable", "install": [ "Review the Bespoke Print layout diagram
+before handling or cutting panels", "Clean and prepare the substrate ensuring it
+is flat, dry, and dust-free", "Acclimatise panels in the installation
+environment for at least 24 hours prior to install", "Handle with clean cloth
+gloves to prevent soiling the printed decorative surface", "Use a sharp utility
+knife and straight edge on the offcut side when trimming", "Apply construction
+adhesive evenly across the panel back or use SpinFix mounting hardware", "Align
+printed pattern or imagery seams carefully across adjacent panels", "Press
+firmly with a clean roller across the surface to secure adhesive contact" ],
+"selection_checklist": [ "Provide high-resolution artwork (minimum 300 DPI
+at 1:1 scale or vector format)", "Confirm panel thickness (12mm for standard
+wall art vs 24mm for higher NRC 0.70 absorption)", "Confirm total wall
+dimensions and required panel seam alignments", "Choose mounting system (direct
+adhesive fix vs SpinFix demountable fixings)", "Ensure area is non-contact or
+low-impact to protect print quality" ], "accessories": [ "SpinFix mounting
+brackets", "Autex Edging Solutions (Type B for 12mm, Type C for 24mm)", "Contact
+or construction adhesive" ], "limitations": [ "Printed face can show scuffing or
+surface damage if subjected to hard mechanical contact", "Not recommended for
+high-impact sports zones or heavy corridor traffic without protection", "Ensure
+high-resolution artwork meets Autex print guidelines to prevent pixelation",
+"For interior applications only" ], "warranty": "Manufacturer's guarantee by
+Autex Acoustics", "found": true, "search_keywords": [ "Autex Bespoke Print",
+"printed acoustic panels", "Bespoke Print Cube", "custom printed acoustic
+panel", "acoustic artwork panel", "Cube 12mm printed", "Cube 24mm printed",
+"custom graphic sound panel", "Autex printed panel" ], "problem_keywords": [
+"reverberant conference room with plain walls", "ugly acoustic foam panels",
+"custom branding acoustic wall", "echo in corporate boardroom", "distracting
+office noise with decorative art", "meeting Group 1 fire code with custom
+artwork" ], "placement": [ "wall", "internal wall", "ceiling" ], "priority_fit":
+[ "acoustic", "fire", "sustainability" ], "use_cases": [ "printing corporate
+branding, murals, or logos on acoustic walls in office receptions", "acoustic
+feature walls displaying custom photography or artwork in hotel lobbies and
+restaurants", "creating educational graphics or school mottos on acoustic panels
+in classrooms and libraries", "decorative sound absorption in healthcare
+corridors requiring non-shedding, hygienic panels" ], "not_for": [ "high-impact
+gymnasiums without protective barrier netting", "outdoor weather-exposed walls",
+"areas with constant mechanical abrasion" ], "rag_summary": "Autex Bespoke Print
+Cube transforms Autex's flagship 12mm and 24mm solid polyester Cube panels into
+custom printed acoustic artwork. Using safe, water-based UV-cured inks, custom
+photography, murals, and corporate branding are printed directly onto the
+compressed PET felt without hindering its sound absorption capabilities
+(NRC 0.45 to 0.70). Featuring a Group 1 fire classification, carbon-neutral
+manufacturing, and minimum 80% recycled content, it provides an architecturally
+striking solution to unwanted reverberation in commercial and institutional
+interiors." }, { "family_id": "AUTEX_BESPOKE_PRINT_QUIETSPACE", "tds_url":
+"https://www.autexglobal.com/au/products/quietspace-panel/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Bespoke Print Quietspace is a premium, high-absorption acoustic panel
+engineered to deliver maximum acoustic performance alongside completely bespoke
+visual graphics. Built on a 25mm thick, dual-density Quietspace Panel base with
+a high-density compressed face and cushioned absorber backing, custom designs
+and murals are digitally UV printed directly onto the surface without
+compromising sound absorption. Achieving an exceptional NRC of 0.85 and Group 1
+fire classification, it is the ultimate acoustic art solution for reverberant
+interior spaces.", "features": [ "Bespoke digital UV printing on
+high-performance acoustic substrate", "25mm dual-density 100% polyester
+Quietspace Panel core", "Absorbs a minimum of 85% of sound energy (NRC 0.85)",
+"Printed surface has zero adverse effect on acoustic absorption", "Group 1 fire
+rating to AS ISO 9705 - 2003", "Engineered for broadband sound absorption across
+high and low frequencies", "Certified Carbon Neutral product with third-party
+verified EPD", "Contains minimum 58% post-consumer recycled PET", "Non-toxic,
+non-allergenic, and low VOC", "Lightweight, easy to handle and precision trim on
+site" ], "applications": [ "wall", "internal wall", "ceiling" ], "technical": [
+{ "property": "Noise Reduction Coefficient (NRC)", "value": "0.85 (25mm direct
+fix)", "standard": "ISO 354" }, { "property": "Sound Absorption Class", "value":
+"Class C (25mm)", "standard": "ISO 11654" }, { "property": "Thickness", "value":
+"25 mm (+/- 6%)", "standard": "" }, { "property": "Panel Dimensions", "value":
+"1200 mm x 2400 mm; 1200 mm x 2700 mm; custom lengths up to 3600 mm",
+"standard": "" }, { "property": "Weight", "value": "2300 gsm", "standard": "" },
+{ "property": "Material Composition", "value": "100% polyester fibre (PET)",
+"standard": "" }, { "property": "Recycled Content", "value": "Minimum 58%
+post-consumer recycled PET", "standard": "" }, { "property": "Fire Hazard
+Classification", "value": "Group 1 (AS ISO 9705 - 2003 / AS 5637.1); Group 1-S
+(ISO 9705:1993)", "standard": "AS ISO 9705 / AS 5637.1" }, { "property": "Soft
+Body Impact Resistance", "value": "Resists 120-joule impact when adhered to 10mm
+plasterboard", "standard": "" }, { "property": "Microbial Resistance", "value":
+"Growth Rating: 0 (No growth)", "standard": "ASTM G21-15" }, { "property":
+"Volatile Organic Compounds (VOC)", "value": "< 0.019 mg/m³ (24 hours)",
+"standard": "" } ], "range": [ { "variant": "Bespoke Print Quietspace 25mm",
+"size_or_rating": "1200 mm x 2400 mm x 25 mm, NRC 0.85", "pack": "Panel" }, {
+"variant": "Bespoke Print Quietspace 25mm Custom Length", "size_or_rating":
+"1200 mm x up to 3600 mm x 25 mm, NRC 0.85", "pack": "Panel" } ], "fire": "AS
+ISO 9705 - 2003 and AS 5637.1: Group 1; ISO 9705: Group 1-S; BS EN 13501-1:2018:
+B - s2, d2", "compliance": "NCC BCA Specification 7 (C1.10) Group 1 fire
+compliance; AS ISO 9705:2003; ISO 354; ISO 9001 and ISO 14001",
+"sustainability": "Certified Carbon Neutral; contains minimum 58% recycled PET;
+Red List Free (Declare); low VOC; 100% recyclable", "install": [ "Carry panels
+vertically upright with two people wearing clean gloves to prevent marks",
+"Ensure substrate is clean, dust-free, and sealed if porous", "Verify image
+layout and numbering across panel sequence prior to application", "Acclimatise
+panels in the installation space for at least 24 hours", "Trim edges squarely
+from the face using a sharp knife and metal straight edge on the offcut", "Apply
+recommended construction adhesive or contact adhesive evenly to the panel back",
+"Mount panel with high-density printed face outward and softer backing against
+substrate", "Apply uniform pressure with a clean roller across the face to
+activate adhesive bond" ], "selection_checklist": [ "Verify artwork resolution
+meets Autex minimum print specifications (300 DPI vector/raster)", "Confirm
+total wall/ceiling area and number of sequential panel drops", "Confirm acoustic
+target requires premium broadband absorption (NRC 0.85)", "Check clearances
+around light switches, GPOs, and service penetrations", "Determine edge
+treatment (butt-joined or Autex Type C aluminium profile trims)" ],
+"accessories": [ "Autex Edging Solutions Type C (24/25mm anodised aluminium
+trim)", "Contact or construction adhesive", "Clean installation gloves and
+pressure roller" ], "limitations": [ "Printed face can show scuffing if
+subjected to repetitive heavy friction", "Do not bend or crease panels as this
+causes permanent fracturing of the high-density face", "Indoor use only; avoid
+direct water saturation" ], "warranty": "Manufacturer's guarantee by Autex
+Acoustics", "found": true, "search_keywords": [ "Autex Bespoke Print
+Quietspace", "printed Quietspace panel", "Quietspace custom print", "25mm
+printed acoustic panel", "broadband acoustic art panel", "custom graphic
+acoustic absorber", "NRC 0.85 printed acoustic panel", "Quietspace mural panel"
+], "problem_keywords": [ "severe room echo needing decorative fix", "high
+reverberation in commercial boardroom", "auditorium speech clarity issues",
+"loud open plan office with plain walls", "recording studio acoustic
+reflection", "corporate video conferencing audio echo" ], "placement": [ "wall",
+"internal wall", "ceiling" ], "priority_fit": [ "acoustic", "fire",
+"sustainability" ], "use_cases": [ "controlling reverberation in video
+conferencing rooms and presentation suites with custom branded murals",
+"installing custom photographic art panels in recording studios and home cinemas
+for broadband absorption", "treating large open-plan dining rooms with
+high-absorption art panels to reduce diner chatter", "reducing harsh flutter
+echoes in school music rooms and auditoriums" ], "not_for": [ "heavy physical
+contact areas without barrier rails", "outdoor weather-exposed surfaces", "high
+humidity pool enclosures with direct splash exposure" ], "rag_summary": "Autex
+Bespoke Print Quietspace merges the class-leading sound absorption of 25mm
+dual-density Quietspace Panel with custom digital UV printing. With an
+engineered core that absorbs at least 85% of sound energy (NRC 0.85),
+high-resolution images, corporate logos, and vibrant graphics are printed
+directly onto the compressed face without impeding acoustic performance.
+Offering Group 1 fire safety, low VOC emissions, and carbon-neutral credentials,
+it serves as a high-performance acoustic broadband absorber masquerading as
+bespoke interior art." }, { "family_id":
+"AUTEX_CASCADE_ACOUSTIC_HANGING_SCREENS_EXPANDI", "tds_url":
+"https://www.autexglobal.com/au/products/cascade/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Cascade Acoustic Hanging Screens - Expanding are innovative suspended
+acoustic partitions that concertina open to define zones and control sound in
+open-plan spaces. Manufactured from 12mm Cube polyester panel with precision
+laser-cut geometry, the patented expanding design pulls open to grow by 100% in
+size without generating any cut-out material waste. Suspended from the ceiling
+via an aluminium channel and cable system, it introduces spatial separation and
+acoustic absorption while maintaining openness and natural light.", "features":
+[ "Patented expanding design that grows 100% in size without off-cut waste",
+"Constructed from 12mm semi-rigid Cube acoustic panel", "Suspended from ceiling
+via Frontier aluminium channel and wire kit", "Water-cut geometric patterns
+allow sight and light to filter through", "Controls reverberation and reduces
+background chatter in open areas", "Available in a wide range of solid
+colourways", "Group 1 fire rating to AS ISO 9705 - 2003", "Contains minimum 80%
+post-consumer recycled PET fibre", "Certified Carbon Neutral and Red List Free",
+"Complete kit including screen, channel, ceiling connectors, and suspension
+wires" ], "applications": [ "internal wall", "ceiling" ], "technical": [ {
+"property": "Acoustic Performance (NRC of base panel)", "value": "0.45 - 0.80
+(Cube 12mm base material)", "standard": "ISO 354" }, { "property": "Base Screen
+Dimensions (Unexpanded)", "value": "1200 mm x 1200 mm (nominal)", "standard": ""
+}, { "property": "Expanded Dimensions", "value": "1200 mm x 2400 mm (expands up
+to 100% in length)", "standard": "" }, { "property": "Thickness", "value": "12
+mm", "standard": "" }, { "property": "Material Composition", "value": "100%
+polyester fibre (PET) with aluminium channel", "standard": "" }, { "property":
+"Recycled Content", "value": "Minimum 80% post-consumer recycled PET",
+"standard": "" }, { "property": "Fire Hazard Classification", "value": "Group 1
+(AS ISO 9705 - 2003 / AS 5637.1); Group 1-S (ISO 9705:1993)", "standard": "AS
+ISO 9705 / AS 5637.1" }, { "property": "Suspension System", "value": "Frontier
+extruded aluminium channel with 1m suspension cables", "standard": "" }, {
+"property": "Microbial Resistance", "value": "Growth Rating: 0 (No growth)",
+"standard": "ASTM G21-15" } ], "range": [ { "variant": "Cascade Expanding Screen
+(Pattern E1-E6)", "size_or_rating": "1200 mm x 2400 mm expanded, 12mm
+thickness", "pack": "Kit (Screen + Suspension hardware)" } ], "fire": "AS
+ISO 9705 - 2003: Group 1; ISO 9705: Group 1-S; BS EN 13501-1:2018: B - s2, d0",
+"compliance": "NCC BCA Group 1 fire compliance; AS ISO 9705:2003; ISO 9001 and
+ISO 14001 accredited manufacturing", "sustainability": "Zero waste cutting
+process; min 80% recycled PET; certified Carbon Neutral; Declare Red List
+Free; 100% recyclable", "install": [ "Determine suspension anchor points on the
+ceiling at required spacing", "Fix ceiling connectors securely to structural
+ceiling or soffit", "Thread suspension wires into ceiling connectors and adjust
+to desired height", "Attach Frontier channel to top of the Cascade screen using
+sliders", "Carefully pull and concertina the expanding screen downward to reveal
+the pattern", "Lock the bottom in place using optional floor-fixing kit or allow
+to hang freely", "Fit black extrusion end caps to the channel ends for a clean
+finish" ], "selection_checklist": [ "Select expanding pattern design (E1, E2,
+E3, E4, E5, or E6)", "Select colour from Autex Cube palette (over 20 colours
+available)", "Confirm ceiling height and check if standard 1m suspension cable
+is sufficient", "Choose top-only suspension or top-and-base fixed
+configuration", "Verify structural ceiling anchor suitability" ], "accessories":
+[ "Cascade suspension kit (Frontier channel, ceiling connectors, 1m wires,
+sliders)", "Cascade channel end caps", "Extended suspension cables (if ceiling
+height exceeds 3.5m)" ], "limitations": [ "Designed as a spatial divider and
+acoustic baffle, not a physical security barrier", "Suspension anchors must be
+fixed to structurally sound ceiling elements", "Do not apply excessive tensile
+downward force on expanded pattern web" ], "warranty": "Manufacturer's guarantee
+by Autex Acoustics", "found": true, "search_keywords": [ "Autex Cascade",
+"Cascade Expanding screen", "acoustic hanging screen", "suspended acoustic
+divider", "hanging acoustic partition", "open plan office screen", "concertina
+acoustic screen", "expanding hanging screen", "Autex hanging panels" ],
+"problem_keywords": [ "open plan office noise distractions", "lack of privacy
+between workstations", "echo in large open space", "blocking sound without
+building solid walls", "need flexible room divider", "office zoning without
+blocking light" ], "placement": [ "ceiling", "internal wall" ], "priority_fit":
+[ "acoustic", "easy_install", "sustainability" ], "use_cases": [ "delineating
+breakout zones from desk banks in open-plan corporate headquarters", "creating
+semi-private quiet study alcoves in university libraries without wall
+construction", "providing acoustic absorption and visual screening between
+dining tables in restaurants", "retrofitting zoning screens in agile workspaces
+with demountable ceiling fixings" ], "not_for": [ "full acoustic isolation
+requiring high Rw sound transmission loss", "outdoor applications",
+"high-traffic corridors where people could pull on expanding mesh" ],
+"rag_summary": "Autex Cascade Acoustic Hanging Screens - Expanding are
+ceiling-suspended acoustic space dividers made from 12mm Cube polyester panels
+that concertina open to double their size without material waste. By expanding
+from 1200mm to 2400mm, these screens introduce visual semi-privacy and diffuse
+sound reflections in noisy open-plan layouts. Supported by an aluminium Frontier
+channel suspension kit, with Group 1 fire resistance and minimum 80% recycled
+content, they zone spaces without impeding light or air circulation." }, {
+"family_id": "AUTEX_CASCADE_ACOUSTIC_HANGING_SCREENS_FOLDING", "tds_url":
+"https://www.autexglobal.com/au/products/cascade/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Cascade Acoustic Hanging Screens - Folding are suspended acoustic space
+dividers that feature a patented 3D folding pattern cut into 12mm Cube panels.
+By pushing and pulling open cut geometric folds, the screen creates
+architectural depth, texture, and visual privacy without discarding any
+off-cuts. Suspended from the ceiling, it absorbs ambient noise reflections and
+reduces background chatter in commercial offices, educational facilities, and
+hospitality venues.", "features": [ "Patented 3D folding geometric design
+creates texture and shadow", "Manufactured with zero cut-out waste for maximum
+sustainability", "Constructed from 12mm semi-rigid Cube polyester felt",
+"Suspended via Frontier aluminium channel and adjustable wire kit", "Provides
+acoustic absorption while preserving line-of-sight and airflow", "Available in
+over 20 contemporary Cube colourways", "Group 1 fire rating to AS ISO 9705
+- 2003", "Minimum 80% recycled post-consumer PET fibre content", "Carbon neutral
+certified product with third-party verified EPD", "Supplied as a complete
+install-ready kit" ], "applications": [ "internal wall", "ceiling" ],
+"technical": [ { "property": "Acoustic Performance (NRC of base panel)",
+"value": "0.45 - 0.80 (Cube 12mm base material)", "standard": "ISO 354" }, {
+"property": "Screen Dimensions", "value": "1200 mm x 2400 mm", "standard": "" },
+{ "property": "Thickness", "value": "12 mm", "standard": "" }, { "property":
+"Material Composition", "value": "100% polyester fibre (PET) with aluminium
+channel", "standard": "" }, { "property": "Recycled Content", "value":
+"Minimum 80% post-consumer recycled PET", "standard": "" }, { "property": "Fire
+Hazard Classification", "value": "Group 1 (AS ISO 9705 - 2003 / AS 5637.1);
+Group 1-S (ISO 9705:1993)", "standard": "AS ISO 9705 / AS 5637.1"} }, {
+"property": "Suspension System", "value": "Frontier extruded aluminium channel
+with 1m suspension cables", "standard": "" }, { "property": "Microbial
+Resistance", "value": "Growth Rating: 0 (No growth)", "standard": "ASTM G21-15"
+} ], "range": [ { "variant": "Cascade Folding Screen (Pattern F1-F7)",
+"size_or_rating": "1200 mm x 2400 mm x 12 mm", "pack": "Kit (Screen + Suspension
+hardware)" } ], "fire": "AS ISO 9705 - 2003: Group 1; ISO 9705: Group 1-S; BS
+EN 13501-1:2018: B - s2, d0", "compliance": "NCC BCA Group 1 fire compliance; AS
+ISO 9705:2003; ISO 9001 and ISO 14001 accredited manufacturing",
+"sustainability": "Zero cut-out waste; min 80% recycled PET; certified Carbon
+Neutral; Declare Red List Free; 100% recyclable", "install": [ "Mark ceiling
+fixing points to match Frontier channel suspension slider positions", "Fasten
+ceiling connectors securely to structural ceiling or track", "Attach Frontier
+channel to the top edge of the 12mm folding screen", "Push and pull individual
+geometric tabs to create the 3D folding pattern", "Connect suspension wires to
+ceiling connectors and level the screen", "Attach bottom channel if installing
+in top-and-base fixed configuration", "Fit end caps to channel ends for a clean
+architectural finish" ], "selection_checklist": [ "Choose folding pattern design
+(e.g. F1, F2, F3, F7)", "Select colour from Autex Cube palette", "Verify ceiling
+height and check if extended suspension wire is needed", "Determine whether
+free-hanging or base-anchored configuration is preferred", "Check clearance from
+high-velocity air conditioning diffusers" ], "accessories": [ "Cascade
+suspension kit (Frontier channel, ceiling connectors, 1m cables, sliders)",
+"Frontier channel end caps", "Base channel kit (for floor anchoring)" ],
+"limitations": [ "Not a structural partition or barrier", "Avoid placement in
+direct path of strong drafts or high air conditioning flow that could cause
+swaying", "Tabs should be folded carefully along pre-cut hinge lines to avoid
+tearing" ], "warranty": "Manufacturer's guarantee by Autex Acoustics", "found":
+true, "search_keywords": [ "Cascade Folding screen", "Autex Cascade folding",
+"3D acoustic hanging screen", "textured hanging screen", "folding acoustic
+partition", "suspended 3D divider", "office hanging screen", "Autex folding
+screen" ], "problem_keywords": [ "background noise in open office", "flat boring
+partitions", "lack of visual separation", "cluttered open plan spaces",
+"reverberation across desks", "echoey collaborative areas" ], "placement": [
+"ceiling", "internal wall" ], "priority_fit": [ "acoustic", "easy_install",
+"sustainability" ], "use_cases": [ "adding acoustic texture and visual screening
+between project teams in agile corporate offices", "separating collaborative
+café zones from quiet desks in modern co-working hubs", "creating an
+eye-catching suspended backdrop behind reception desks to absorb foyer echo",
+"dividing open spaces in galleries, showrooms, and retail stores" ], "not_for":
+[ "airborne sound containment requiring solid soundproof walls", "outdoor
+weather-exposed installations", "wet rooms or high-humidity shower spaces" ],
+"rag_summary": "Autex Cascade Acoustic Hanging Screens - Folding are 12mm thick
+suspended acoustic screens that feature push-and-pull three-dimensional
+geometric folding patterns. Made from semi-rigid Cube polyester felt without
+generating off-cut waste, the folded tabs create dynamic light and shadow
+effects while capturing sound reflections in open interiors. Supported by an
+aluminium Frontier channel kit, with Group 1 fire performance and 80% recycled
+content, they deliver acoustic diffusion and visual separation for open-plan
+workspaces." }, { "family_id": "AUTEX_CASCADE_ACOUSTIC_HANGING_SCREENS_STATIC",
+"tds_url": "https://www.autexglobal.com/au/products/cascade/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Cascade Acoustic Hanging Screens - Static are elegant suspended acoustic
+screens crafted from 12mm Cube panels with precision water-cut geometric
+patterns. Designed to hang effortlessly from the ceiling to the floor, they
+establish visual privacy and spatial zones without blocking sightlines or light.
+Engineered to absorb reverberated sound and reduce ambient chatter, they provide
+an acoustic and aesthetic feature for open-plan commercial and educational
+interiors.", "features": [ "Precision water-cut open pattern designs for
+line-of-sight and light flow", "Crafted from 12mm solid colour Cube polyester
+panel", "Suspended from ceilings via Frontier aluminium channel and adjustable
+cables", "Reduces reverberation and background chatter in open spaces",
+"Available in standard 1200mm x 2400mm screen size", "Choice of more than 20
+solid colours and custom water-cut patterns", "Group 1 fire rating to AS
+ISO 9705 - 2003", "Manufactured with minimum 80% recycled post-consumer PET
+fibre", "Carbon neutral certified product with third-party verified EPD",
+"Pre-packaged with complete suspension hardware" ], "applications": [ "internal
+wall", "ceiling" ], "technical": [ { "property": "Acoustic Performance (NRC of
+base panel)", "value": "0.45 - 0.80 (Cube 12mm base material)", "standard":
+"ISO 354" }, { "property": "Screen Dimensions", "value": "1200 mm x 2400 mm",
+"standard": "" }, { "property": "Thickness", "value": "12 mm", "standard": "" },
+{ "property": "Material Composition", "value": "100% polyester fibre (PET) with
+aluminium channel", "standard": "" }, { "property": "Recycled Content", "value":
+"Minimum 80% post-consumer recycled PET", "standard": "" }, { "property": "Fire
+Hazard Classification", "value": "Group 1 (AS ISO 9705 - 2003 / AS 5637.1);
+Group 1-S (ISO 9705:1993)", "standard": "AS ISO 9705 / AS 5637.1"} }, {
+"property": "Suspension System", "value": "Frontier extruded aluminium channel
+with 1m suspension cables", "standard": "" }, { "property": "Microbial
+Resistance", "value": "Growth Rating: 0 (No growth)", "standard": "ASTM G21-15"
+} ], "range": [ { "variant": "Cascade Static Screen (Pattern S1-S14 or Custom)",
+"size_or_rating": "1200 mm x 2400 mm x 12 mm", "pack": "Kit (Screen + Suspension
+hardware)" } ], "fire": "AS ISO 9705 - 2003: Group 1; ISO 9705: Group 1-S; BS
+EN 13501-1:2018: B - s2, d0", "compliance": "NCC BCA Group 1 fire compliance; AS
+ISO 9705:2003; ISO 9001 and ISO 14001 accredited manufacturing",
+"sustainability": "Minimum 80% recycled PET; certified Carbon Neutral; Declare
+Red List Free; 100% recyclable", "install": [ "Establish ceiling suspension
+points aligned with channel attachment sliders", "Fasten ceiling connectors
+securely to structural ceiling or soffit", "Attach Frontier channel along the
+top edge of the 12mm static screen", "Connect suspension wires to ceiling
+connectors and adjust screen height", "Ensure screen hangs plumb and level", "If
+installing base channel, anchor base cable connectors to floor and attach to
+lower channel", "Push black end caps into channel ends for a clean finished
+look" ], "selection_checklist": [ "Select static pattern design from lookbook or
+request custom water-cut profile", "Choose screen colour from Autex Cube
+palette", "Confirm ceiling height and check if 1m suspension wires are
+sufficient", "Decide between free-hanging (top only) or floor-anchored (top &
+bottom) installation", "Verify ceiling anchor substrate suitability" ],
+"accessories": [ "Cascade suspension kit (Frontier channel, ceiling
+connectors, 1m wires, sliders)", "Channel end caps", "Base suspension kit (for
+floor anchoring)" ], "limitations": [ "Not a physical impact barrier or security
+partition", "Free-hanging screens may sway if placed in strong air currents or
+doorway drafts", "Avoid sharp bending of panel during installation" ],
+"warranty": "Manufacturer's guarantee by Autex Acoustics", "found": true,
+"search_keywords": [ "Autex Cascade Static", "Cascade Static screen", "cut out
+acoustic screen", "patterned hanging screen", "suspended acoustic divider",
+"water cut acoustic panel", "decorative acoustic partition", "hanging sound
+screen" ], "problem_keywords": [ "noisy open plan office", "distracting visual
+movements across room", "echo in large open space", "zoning office without solid
+walls", "lack of semi-private work zones", "glare and chatter in commercial
+spaces" ], "placement": [ "ceiling", "internal wall" ], "priority_fit": [
+"acoustic", "easy_install", "sustainability" ], "use_cases": [ "suspending
+between workstation clusters in tech offices to dampen speech chatter",
+"creating semi-private consultation zones in bank branches and customer service
+centres", "defining circulation paths in open-plan corporate and educational
+facilities", "introducing decorative suspended acoustic art into high-ceilinged
+hospitality venues" ], "not_for": [ "complete acoustic isolation requiring
+airtight partitions", "external wind-exposed areas", "heavy load-bearing or
+barrier requirements" ], "rag_summary": "Autex Cascade Acoustic Hanging Screens
+- Static are ceiling-suspended 12mm acoustic panels precision water-cut with
+intricate geometric patterns. Formed from solid-colour Cube polyester felt,
+these static screens soften sound reverberation and background speech while
+maintaining sightlines and open airflow across commercial interiors. Supplied
+with Frontier aluminium channels and height-adjustable suspension cables, they
+provide a Group 1 fire-rated, carbon-neutral solution for zoning open spaces."
+}, { "family_id": "AUTEX_COMPOSITION_SMOOTH_PANEL", "tds_url":
+"https://www.autexglobal.com/au/products/composition/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Composition Smooth Panel is a durable, high-performance acoustic wall
+panel featuring a sleek, flat-pile smooth finish. Engineered as a superior,
+sound-absorbing alternative to paint and wallpaper, it combines an acoustic
+non-woven polyester backing with a smooth Vertiface surface. Pinnable,
+self-healing, and hook-and-loop receptive, it delivers an NRC of 0.30 to 0.40
+and Group 1 fire rating, making it ideal for educational, commercial, and
+collaborative environments.", "features": [ "Sleek, flat-pile smooth felt
+surface finish", "10-12mm thickness with high acoustic performance (NRC 0.30
+- 0.40)", "Pinnable and hook-and-loop receptive self-healing surface", "Made
+from 100% polyester fibre with min. 49% recycled content", "Group 1 fire rating
+to AS ISO 9705 - 2003", "Certified Carbon Neutral product with third-party
+verified EPD", "Durable and flexible, replacing the need to paint or wallpaper",
+"Low VOC and CDPH compliant with zero chemical binders", "Does not rot, break
+down, or support mould and mildew", "Available in a wide palette of contemporary
+colours" ], "applications": [ "wall", "internal wall" ], "technical": [ {
+"property": "Noise Reduction Coefficient (NRC)", "value": "0.30 - 0.40",
+"standard": "ISO 354" }, { "property": "Thickness", "value": "10 - 12 mm
+(nominal)", "standard": "" }, { "property": "Dimensions", "value": "Panel sizes
+(e.g. 1200 x 2400 mm; 600 x 600 mm tiles)", "standard": "" }, { "property":
+"Weight", "value": "Typically 1600 - 1780 gsm", "standard": "" }, { "property":
+"Finish", "value": "Smooth flat-pile finish", "standard": "" }, { "property":
+"Material Composition", "value": "100% polyester fibre (PET)", "standard": "" },
+{ "property": "Recycled Content", "value": "Minimum 49% post-consumer recycled
+PET", "standard": "" }, { "property": "Fire Hazard Classification", "value":
+"Group 1 (AS ISO 9705 - 2003 / AS 5637.1); Group 1-S (ISO 9705:1993)",
+"standard": "AS ISO 9705 / AS 5637.1" }, { "property": "Thermal Performance",
+"value": "R0.22 (@ 15°C)", "standard": "" }, { "property": "Microbial
+Resistance", "value": "Growth Rating: 0 (No growth)", "standard": "ASTM G21-15"
+}, { "property": "Volatile Organic Compounds (VOC)", "value": "< 0.0035 mg/m³ (7
+days)", "standard": "CDPH Standard" } ], "range": [ { "variant": "Composition
+Smooth Panel", "size_or_rating": "1200 mm x 2400 mm x 10-12 mm, NRC 0.40",
+"pack": "Panel" }, { "variant": "Composition Smooth Tile (Peel 'n' Stick)",
+"size_or_rating": "600 mm x 600 mm x 10-12 mm, NRC 0.40", "pack": "Box of 6
+(2.16 m²)" } ], "fire": "AS ISO 9705 - 2003: Group 1; ISO 9705: Group 1-S; BS
+EN 13501-1:2018: B - s1, d0", "compliance": "NCC BCA Group 1 fire rating; AS
+ISO 9705:2003; ISO 354; ISO 9001 and ISO 14001", "sustainability": "Carbon
+neutral product; contains min 49% recycled PET; Declare Red List Free; Low
+VOC; 100% recyclable", "install": [ "Ensure substrate is clean, flat, dry,
+sealed, and free of dust, grease, and loose paint", "Stop plasterboard to
+minimum Level 3 and apply wallboard sealer prior to gluing", "Acclimatise panels
+in the space for at least 24 hours", "Check pile and grain direction; install
+all panels in uniform orientation", "Apply recommended contact or water-based
+wall adhesive evenly to substrate", "Position panel onto adhesive and butt joins
+tightly without overlapping", "Roll entire surface firmly using a pressure
+roller to ensure 100% adhesive bond", "Trim perimeters neatly using a sharp
+utility knife and metal straight edge" ], "selection_checklist": [ "Confirm
+smooth flat-pile finish (as distinct from velour finish)", "Select colour from
+Autex Vertiface colour palette", "Confirm panel format (pre-cut panel vs 600x600
+peel 'n' stick tile)", "Check substrate compatibility and requirement for
+wallboard sealer", "Ensure hook-and-loop / pinboard functionality is required"
+], "accessories": [ "Water-based wallcovering adhesive or contact adhesive",
+"Autex Edging Solutions Type A aluminium joiners/trims", "Application pressure
+roller and utility knife" ], "limitations": [ "Indoor use only; avoid direct
+water exposure or excessive moisture", "Do not mix different batch lots on the
+same wall to avoid shade variations", "All panels must be installed with the
+pile running in the same direction" ], "warranty": "Manufacturer's guarantee by
+Autex Acoustics", "found": true, "search_keywords": [ "Autex Composition
+Smooth", "Composition smooth panel", "acoustic pinboard panel", "flat pile
+acoustic wall panel", "Symphony panel Autex", "hook and loop acoustic wall",
+"pinnable acoustic panel", "classroom acoustic pinboard", "Composition acoustic
+tiles" ], "problem_keywords": [ "noisy classroom echo", "damaged walls from
+pinboard tacks", "chalkboard and whiteboard sound reflection", "office meeting
+room chatter", "scuffed painted walls in schools", "need functional pinnable
+wall with sound absorption" ], "placement": [ "wall", "internal wall" ],
+"priority_fit": [ "acoustic", "easy_install", "sustainability" ], "use_cases": [
+"installing pinnable acoustic pinboard panels across school classrooms and
+university study nooks", "lining commercial boardrooms and meeting spaces to
+create sleek, sound-damped noticeboards", "replacing high-maintenance painted
+drywall in creative agency design studios", "providing resilient, self-healing
+wall finishes in children's daycares and healthcare consult rooms" ], "not_for":
+[ "external weather-exposed walls", "floors or heavy foot traffic underfoot",
+"wet rooms with running water or high continuous steam" ], "rag_summary": "Autex
+Composition Smooth Panel is a 10-12mm thick acoustic wall panel featuring a
+sleek, flat-pile needle-punched finish that serves as a durable, sound-absorbing
+alternative to traditional paint or pinboards. Engineered from 100% polyester
+fibres with at least 49% recycled content, it provides an NRC of 0.30 to 0.40
+while functioning as a self-healing, hook-and-loop receptive pinboard. Rated
+Group 1 under AS ISO 9705 with carbon-neutral certification, it softens
+classroom and office chatter while offering a resilient, non-toxic
+wallcovering." }, { "family_id": "AUTEX_COMPOSITION_SMOOTH_ROLL", "tds_url":
+"https://www.autexglobal.com/au/products/composition/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Composition Smooth Roll is a high-performance acoustic wallcovering
+supplied in continuous 1.22m x 25m rolls with a sleek, flat-pile smooth finish.
+Engineered to replace paint and wallpaper while dramatically reducing
+reverberation and chatter, it provides floor-to-ceiling seamless wall coverage
+without horizontal joins. Combining an acoustic polyester backing with a smooth
+Vertiface surface, it is pinnable, hook-and-loop receptive, and Group 1 fire
+rated for classrooms, offices, and commercial interiors.", "features": [
+"Continuous roll form (1.22m x 25m) for seamless floor-to-ceiling application",
+"Sleek, smooth flat-pile Vertiface finish", "Eliminates horizontal seams on
+standard height walls", "Acoustic absorption reducing reverberation (NRC 0.40)",
+"Pinnable, self-healing, and hook-and-loop receptive surface", "Made from 100%
+polyester fibre containing min 49% recycled PET", "Group 1 fire rating to AS
+ISO 9705 - 2003", "Certified Carbon Neutral product with third-party verified
+EPD", "Durable and low-maintenance alternative to painting", "Non-toxic,
+non-allergenic, and low VOC" ], "applications": [ "wall", "internal wall" ],
+"technical": [ { "property": "Noise Reduction Coefficient (NRC)", "value":
+"0.40", "standard": "ISO 354" }, { "property": "Roll Dimensions", "value": "1.22
+m x 25 m (+5mm x +10mm)", "standard": "" }, { "property": "Thickness", "value":
+"10 - 12 mm (nominal)", "standard": "" }, { "property": "Weight", "value":
+"Typically 1600 - 1680 gsm", "standard": "" }, { "property": "Finish", "value":
+"Smooth flat-pile finish", "standard": "" }, { "property": "Material
+Composition", "value": "100% polyester fibre (PET)", "standard": "" }, {
+"property": "Recycled Content", "value": "Minimum 49% post-consumer recycled
+PET", "standard": "" }, { "property": "Fire Hazard Classification", "value":
+"Group 1 (AS ISO 9705 - 2003 / AS 5637.1); Group 1-S (ISO 9705:1993)",
+"standard": "AS ISO 9705 / AS 5637.1" }, { "property": "Thermal Resistance",
+"value": "R0.22 (@ 15°C)", "standard": "" }, { "property": "Microbial
+Resistance", "value": "Growth Rating: 0 (No growth)", "standard": "ASTM G21-15"
+}, { "property": "Volatile Organic Compounds (VOC)", "value": "< 0.0035 mg/m³ (7
+days)", "standard": "CDPH Standard" } ], "range": [ { "variant": "Composition
+Smooth Roll (1.22m x 25m)", "size_or_rating": "1.22 m x 25 m x 10-12 mm (30.5
+m²)", "pack": "Roll" } ], "fire": "AS ISO 9705 - 2003: Group 1; ISO 9705:
+Group 1-S; BS EN 13501-1:2018: B - s1, d0", "compliance": "NCC BCA Group 1 fire
+compliance; AS ISO 9705:2003; ISO 354; ISO 9001 and ISO 14001 accredited",
+"sustainability": "Carbon neutral product; contains minimum 49% recycled PET;
+Declare Red List Free; Low VOC; 100% recyclable", "install": [ "Inspect roll
+material before cutting and ensure all rolls are from the same batch",
+"Substrate must be flat, smooth, clean, dry, and sealed with wallboard sealer",
+"Cut vertical drops slightly oversized to allow trimming at ceiling and
+skirting", "Hang in sequential order from the roll and maintain consistent
+pile/grain direction", "Apply recommended water-based acoustic wallcovering
+adhesive using a notched trowel", "Hang vertical drop onto wet adhesive and
+smooth down from center outward", "Butt join adjacent drops tightly without
+overlapping", "Roll thoroughly with a heavy smoothing roller to eliminate air
+bubbles and ensure 100% bond", "Trim top and bottom edges neatly using a
+straight edge and fresh blade" ], "selection_checklist": [ "Confirm total wall
+length and height to calculate required roll meterage (each roll
+covers 30.5m²)", "Verify smooth flat-pile finish specification", "Choose colour
+from Autex Vertiface palette", "Ensure batch numbers match across all ordered
+rolls", "Verify substrate is sealed to prevent excessive adhesive suction" ],
+"accessories": [ "Autex recommended water-based wallcovering adhesive", "Autex
+Edging Solutions Type A aluminium capping and joiner profiles", "Heavy
+wallcovering roller and trimming knives" ], "limitations": [ "Must be installed
+in vertical drops with pile running in the same direction", "Substrate
+imperfections can telegraph through; substrate must be smooth", "Indoor use
+only; avoid high moisture or exterior environments" ], "warranty":
+"Manufacturer's guarantee by Autex Acoustics", "found": true, "search_keywords":
+[ "Autex Composition roll", "Composition smooth roll", "acoustic wall fabric
+roll", "Symphony wallcovering roll", "polyester acoustic wall roll", "pinnable
+wallcovering roll", "classroom wall carpet", "seamless acoustic wall roll",
+"1.22m acoustic roll" ], "problem_keywords": [ "horizontal joins in acoustic
+wall linings", "echo in primary school classrooms", "walls damaged by drawing
+pins and tape", "repetitive wall repainting in schools", "harsh acoustic flutter
+echo", "need floor to ceiling acoustic fabric" ], "placement": [ "wall",
+"internal wall" ], "priority_fit": [ "acoustic", "easy_install",
+"sustainability" ], "use_cases": [ "hanging continuous vertical drops
+floor-to-ceiling across primary school classrooms for full acoustic wall
+coverage", "lining commercial corridors and open-plan training rooms to
+eliminate slap echo and provide noticeboards", "retrofitting community halls and
+daycare centres to control high noise levels", "seamless acoustic wallcovering
+in corporate training rooms and lecture theatres" ], "not_for": [ "outdoor
+weatherproofing", "underfloor installation", "direct exposure to persistent
+dampness or mould" ], "rag_summary": "Autex Composition Smooth Roll is a
+continuous 1.22m x 25m roll of 10-12mm acoustic wallcovering engineered for
+seamless floor-to-ceiling application. Composed of needle-punched thermally
+bonded polyester with a smooth flat-pile Vertiface finish, it achieves an NRC
+of 0.40 while creating a fully pinnable and hook-and-loop receptive wall
+surface. Group 1 fire-rated and carbon-neutral certified, it replaces paint and
+wallpaper in education and commercial spaces, absorbing distracting chatter and
+echo across large wall expanses." }, { "family_id":
+"AUTEX_COMPOSITION_VELOUR_PANEL", "tds_url":
+"https://www.autexglobal.com/au/products/composition/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Composition Velour Panel is an acoustic wall panel featuring a plush
+fine-velour Vertiface finish that provides superior acoustic absorption and a
+soft tactile surface. Available as pre-cut panels and Peel 'n' Stick acoustic
+tiles (600mm x 600mm), it transforms blank walls into decorative, pinnable, and
+hook-and-loop receptive acoustic features. Made from 100% polyester fibre with
+recycled content, it achieves an NRC of 0.40 and Group 1 fire rating, delivering
+noise control and functionality for educational and commercial interiors.",
+"features": [ "Plush fine-velour Vertiface surface finish", "High acoustic
+performance with NRC 0.40", "Pinnable and hook-and-loop receptive self-healing
+surface", "Available in Peel 'n' Stick 600x600mm tiles and pre-cut panel
+formats", "Made from 100% polyester fibre containing recycled PET", "Group 1
+fire rating to AS ISO 9705 - 2003", "Non-toxic, non-irritant, non-allergenic,
+and low VOC", "Certified Carbon Neutral product with third-party verified EPD",
+"Easy DIY installation with Peel 'n' Stick adhesive backing", "Mould, mildew,
+and moisture resistant (ASTM G21-15 Growth Rating: 0)" ], "applications": [
+"wall", "internal wall" ], "technical": [ { "property": "Noise Reduction
+Coefficient (NRC)", "value": "0.40", "standard": "ISO 354" }, { "property":
+"Tile / Panel Dimensions", "value": "600 mm x 600 mm (Peel 'n' Stick); custom
+panel sizes", "standard": "" }, { "property": "Thickness", "value": "10 - 12
+mm", "standard": "" }, { "property": "Weight", "value": "Typically 1680 - 1780
+gsm", "standard": "" }, { "property": "Finish", "value": "Fine velour finish",
+"standard": "" }, { "property": "Material Composition", "value": "100% polyester
+fibre (PET)", "standard": "" }, { "property": "Recycled Content", "value":
+"Minimum 49% post-consumer recycled PET", "standard": "" }, { "property": "Fire
+Hazard Classification", "value": "Group 1 (AS ISO 9705 - 2003 / AS 5637.1);
+Group 1-S (ISO 9705:1993)", "standard": "AS ISO 9705 / AS 5637.1" }, {
+"property": "Thermal Resistance", "value": "R0.22 (@ 15°C)", "standard": "" }, {
+"property": "Hook-and-Loop Receptivity", "value": "Compatible with hook
+size 1.5mm or less; staple size 10mm", "standard": "" }, { "property":
+"Microbial Resistance", "value": "Growth Rating: 0 (No growth)", "standard":
+"ASTM G21-15" }, { "property": "Volatile Organic Compounds (VOC)", "value":
+"< 0.0035 mg/m³ (7 days)", "standard": "CDPH Standard" } ], "range": [ {
+"variant": "Composition Peel 'n' Stick Tile (Velour)", "size_or_rating": "600 mm
+x 600 mm x 10-12 mm (Pack of 6, 2.16 m²)", "pack": "Box of 6" }, { "variant":
+"Composition Velour Panel", "size_or_rating": "1200 mm x 2400 mm x 10-12 mm,
+NRC 0.40", "pack": "Panel" } ], "fire": "AS ISO 9705 - 2003: Group 1; ISO 9705:
+Group 1-S; BS EN 13501-1:2018: B - s1, d0", "compliance": "NCC BCA Group 1 fire
+compliance; AS ISO 9705:2003; ISO 354; ISO 9001 and ISO 14001",
+"sustainability": "Carbon neutral product; contains min 49% recycled PET;
+Declare Red List Free; Low VOC; 100% recyclable", "install": [ "Ensure substrate
+is clean, dust-free, dry, and sealed if bare plasterboard", "Acclimatise tiles
+or panels in the room for at least 24 hours", "Mark a level baseline and
+vertical plumb line on the wall", "Check arrow on backing release paper to
+maintain uniform pile direction or alternate for quarter-turn pattern", "Peel
+back release film from self-adhesive backing", "Position tile firmly against
+guideline and press into place", "Roll firmly across the entire tile surface
+with a pressure roller to activate pressure-sensitive adhesive", "Trim perimeter
+tiles using a straight edge and sharp utility knife" ], "selection_checklist": [
+"Confirm fine velour finish texture preference", "Select colour from Autex
+Vertiface palette", "Choose laying pattern (all arrows pointing in same
+direction vs alternating quarter-turn check)", "Calculate required square
+meterage (each 6-pack covers 2.16 m²)", "Confirm substrate is primed and free of
+peeling paint or grease" ], "accessories": [ "Autex pressure roller", "Autex
+Edging Solutions Type A aluminium trims", "Utility knife and metal straight
+edge" ], "limitations": [ "Pressure-sensitive adhesive requires firm rolling for
+permanent adhesion", "Indoor use only; not suitable for high-humidity or wet
+areas", "Do not apply over unprimed, powdery, or flaking surfaces" ],
+"warranty": "Manufacturer's guarantee by Autex Acoustics", "found": true,
+"search_keywords": [ "Autex Composition Velour", "Composition Peel n Stick",
+"velour acoustic tiles", "pinnable acoustic wall tiles", "Composition velour
+panel", "velcro receptive acoustic tile", "600x600 acoustic tiles", "DIY peel
+and stick acoustic tiles", "Autex pinboard tiles" ], "problem_keywords": [
+"noisy home office echo", "need DIY sound absorbing pinboard", "reverberation in
+small meeting room", "classroom pinboard without heavy framing", "scratched
+drywall needing soft cover", "quick modular acoustic installation" ],
+"placement": [ "wall", "internal wall" ], "priority_fit": [ "acoustic",
+"easy_install", "sustainability" ], "use_cases": [ "installing Peel 'n' Stick
+velour tiles in home offices to create decorative, sound-absorbing pinboard
+walls", "creating modular acoustic feature walls in school classrooms with
+vibrant colours", "reducing echo in commercial phone booths and meeting pods",
+"adding soft, hook-and-loop receptive noticeboards in staff breakout rooms and
+student accommodation" ], "not_for": [ "high-moisture shower rooms or wet
+areas", "unprimed concrete or crumbling brick substrates", "exterior
+weatherboard or brickwork" ], "rag_summary": "Autex Composition Velour Panel is
+a 10-12mm thick acoustic wall panel featuring a plush fine-velour Vertiface
+finish, available in modular 600mm x 600mm Peel 'n' Stick tiles and large
+panels. Engineered from 100% polyester fibre with recycled content, it provides
+an NRC of 0.40, excellent thermal resistance (R0.22), and an exceptionally
+durable hook-and-loop and pin-receptive surface. Group 1 fire-rated and
+carbon-neutral certified, it offers an easy, mess-free peel-and-stick
+installation that reduces chatter and creates functional pinboard surfaces in
+offices, schools, and homes." } ]

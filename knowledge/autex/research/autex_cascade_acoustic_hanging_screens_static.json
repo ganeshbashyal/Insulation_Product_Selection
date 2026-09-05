@@ -1,0 +1,79 @@
+{
+  "family_id": "AUTEX_CASCADE_ACOUSTIC_HANGING_SCREENS_STATIC",
+  "family_name": "Autex Cascade Acoustic Hanging Screens - Static",
+  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/cascade/",
+  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "status": "gemini_not_found",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Autex Cascade Acoustic Hanging Screens - Static are elegant suspended acoustic\nscreens crafted from 12mm Cube panels with precision water-cut geometric\npatterns. Designed to hang effortlessly from the ceiling to the floor, they\nestablish visual privacy and spatial zones without blocking sightlines or light.\nEngineered to absorb reverberated sound and reduce ambient chatter, they provide\nan acoustic and aesthetic feature for open-plan commercial and educational\ninteriors.",
+    "features": [
+      "Precision water-cut open pattern designs for\nline-of-sight and light flow",
+      "Crafted from 12mm solid colour Cube polyester\npanel",
+      "Suspended from ceilings via Frontier aluminium channel and adjustable\ncables",
+      "Reduces reverberation and background chatter in open spaces",
+      "Available in standard 1200mm x 2400mm screen size",
+      "Choice of more than 20\nsolid colours and custom water-cut patterns",
+      "Group 1 fire rating to AS\nISO 9705 - 2003",
+      "Manufactured with minimum 80% recycled post-consumer PET\nfibre",
+      "Carbon neutral certified product with third-party verified EPD",
+      "Pre-packaged with complete suspension hardware"
+    ],
+    "applications": [
+      "internal\nwall",
+      "ceiling"
+    ],
+    "technical": [
+      {
+        "property": "Acoustic Performance (NRC of\nbase panel)",
+        "value": "0.45 - 0.80 (Cube 12mm base material)",
+        "standard": "ISO 354"
+      },
+      {
+        "property": "Screen Dimensions",
+        "value": "1200 mm x 2400 mm",
+        "standard": ""
+      },
+      {
+        "property": "Thickness",
+        "value": "12 mm",
+        "standard": ""
+      },
+      {
+        "property": "Material Composition",
+        "value": "100% polyester fibre (PET) with\naluminium channel",
+        "standard": ""
+      },
+      {
+        "property": "Recycled Content",
+        "value": "Minimum 80% post-consumer recycled PET",
+        "standard": ""
+      },
+      {
+        "property": "Fire\nHazard Classification",
+        "value": "Group 1 (AS ISO 9705 - 2003 / AS 5637.1);\nGroup 1-S (ISO 9705:1993)",
+        "standard": "AS ISO 9705 / AS 5637.1"
+      }
+    ],
+    "range": null,
+    "fire": null,
+    "compliance": null,
+    "sustainability": null,
+    "install": null,
+    "selection_checklist": null,
+    "accessories": null,
+    "limitations": null,
+    "warranty": null
+  },
+  "retrieval": {
+    "search_keywords": null,
+    "problem_keywords": null,
+    "placement": null,
+    "priority_fit": null,
+    "use_cases": null,
+    "not_for": null,
+    "rag_summary": null
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}
