@@ -25,6 +25,7 @@ from pathlib import Path
 
 import llm_client
 import interaction_store
+import size_index
 from bot_engine import (
     PRIORITY_LABELS,
     rank_families,
@@ -143,9 +144,67 @@ def _phrase(text: str, use_llm: bool, context: dict | None = None) -> str:
     return llm_client.phrase(text, context=context) if use_llm else text
 
 
+_SIZE_Q_RE = re.compile(
+    r"\b(?:r\s?\d+(?:\.\d+)?|\d{2,3}\s?mm|\d{3,4}\s?mm|width|thickness|cavity|size|dimension|pack cover|square metre|sqm)\b",
+    re.I,
+)
+_QUESTION_MARK = "?"
+
+
+def detect_size_query(text: str) -> dict:
+    """Pull width / thickness / R-value constraints out of a customer message."""
+    folded = text.casefold()
+    width = thickness = rvalue = None
+    w = re.search(r"\b(\d{3,4})\s?mm\b(?=[^.]{0,40}(?:width|cavity|stud|fram))", folded) or \
+        re.search(r"(?:width|cavity|stud|fram)[^.]{0,40}?\b(\d{3,4})\s?mm\b", folded) or \
+        re.search(r"\b(430|450|580|600|415|565)\s?mm\b", folded)
+    if w:
+        width = float(w.group(1))
+    t = re.search(r"\b(\d{2,3})\s?mm\b(?=[^.]{0,40}thick)", folded) or \
+        re.search(r"thick(?:ness)?[^.]{0,40}?\b(\d{2,3})\s?mm\b", folded)
+    if t:
+        thickness = float(t.group(1))
+    r = re.search(r"\br\s?(\d+(?:\.\d+)?)\b", folded)
+    if r:
+        rvalue = float(r.group(1))
+    return {"width": width, "thickness": thickness, "rvalue": rvalue}
+
+
+def answer_size_query(text: str) -> str | None:
+    """If the message is a size/R-value availability question, answer it directly
+    from the size index. Returns None when it isn't such a question."""
+    if _QUESTION_MARK not in text and not _SIZE_Q_RE.search(text):
+        return None
+    constraints = detect_size_query(text)
+    if not any(constraints.values()):
+        return None
+    matches = size_index.query(
+        width=constraints["width"],
+        thickness=constraints["thickness"],
+        rvalue=constraints["rvalue"],
+    )
+    if not matches:
+        bits = [f"{k} {v:g}" for k, v in constraints.items() if v is not None]
+        return f"I don't have a family with {' and '.join(bits)} in the current catalogue. I'll flag it for the team to confirm a special order."
+    names = ", ".join(f"**{m['name']}** ({m['manufacturer']})" for m in matches[:4])
+    bits = []
+    if constraints["rvalue"]:
+        bits.append(f"R{constraints['rvalue']:g}")
+    if constraints["width"]:
+        bits.append(f"{constraints['width']:g} mm wide")
+    if constraints["thickness"]:
+        bits.append(f"{constraints['thickness']:g} mm thick")
+    extra = f" and {len(matches) - 4} more" if len(matches) > 4 else ""
+    return f"For {'/'.join(bits)}, current options include {names}{extra}. We'll confirm the exact variant, pack coverage and availability before quoting."
+
+
 def reply(conversation: Conversation, message: str, use_llm: bool = False, manufacturer_scope: str | None = None) -> str:
     """Advance the conversation by one customer message and return the agent reply."""
     if conversation.done:
+        # after completion, still answer direct size/availability follow-ups
+        size_answer = answer_size_query(message)
+        if size_answer:
+            return _phrase(size_answer, use_llm)
         return "This enquiry is already with the team for review. Start a new conversation for another project."
 
     key, _ = QUESTIONS[conversation.step]
