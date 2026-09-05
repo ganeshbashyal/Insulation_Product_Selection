@@ -37,7 +37,7 @@ BATCH_DIR = ROOT / "output" / "studio_batches"
 
 BATCH_PROMPT = """You are researching {n} insulation product families for an Australian supplier's knowledge base. For EACH family, use Google Search to find the OFFICIAL manufacturer Technical Data Sheet (TDS) and Safety Data Sheet (SDS) on the manufacturer's own website, read them, and extract the data.
 
-Return ONLY a single JSON array (no markdown fences, no commentary). The array must have exactly {n} objects, one per family IN THE SAME ORDER AS LISTED BELOW. Each object must have:
+Return ONLY a single JSON array (no markdown fences, no commentary, and NO inline citation markers like [1] or (https://...) inside the values — put source links only in the tds_url/sds_url fields). The array must have exactly {n} objects, one per family IN THE SAME ORDER AS LISTED BELOW. Each object must have:
 
   "family_id": the exact family_id string from the list below (copy it verbatim),
   "tds_url": absolute URL of the official TDS (PDF or product page), or "" if not found,
@@ -127,6 +127,27 @@ def _result_path(batch_no: int) -> Path:
     return BATCH_DIR / f"batch_{batch_no:03d}_result.json"
 
 
+def _strip_citations(raw: str) -> str:
+    """Remove AI Studio's grounding citation artifacts that corrupt the JSON.
+
+    Grounded responses inline markers like `[1]`, `[2]` and `(https://www.google.com/url?...)`
+    inside string/array values. Strip them so the result parses as clean JSON.
+    """
+    # drop google-redirect citation urls: (https://www.google.com/url?...) or bare vertexaisearch links
+    raw = re.sub(r"\(https?://(?:www\.)?google\.com/url\?[^)\s]*\)", "", raw)
+    raw = re.sub(r"https?://vertexaisearch\.cloud\.google\.com[^\s)\]\",]*", "", raw)
+    # drop bare numeric citation markers used as array entries: [[2],] or , [3],
+    raw = re.sub(r"\[\s*\d+\s*\]\s*,?", "", raw)
+    # collapse the empty slots/commas the removals leave behind
+    raw = re.sub(r",\s*,+", ",", raw)
+    raw = re.sub(r"\[\s*,", "[", raw)
+    raw = re.sub(r",\s*\]", "]", raw)
+    raw = re.sub(r",\s*\}", "}", raw)
+    # tidy double quotes left adjacent to removed markers
+    raw = re.sub(r'"\s*\]', '"]', raw)
+    return raw
+
+
 def ingest_batch(batch_no: int) -> None:
     path = _result_path(batch_no)
     if not path.exists():
@@ -137,11 +158,21 @@ def ingest_batch(batch_no: int) -> None:
     if not match:
         print("no JSON array found in the result file")
         sys.exit(1)
+    candidate = match.group(0)
     try:
-        items = json.loads(match.group(0))
-    except json.JSONDecodeError as exc:
-        print(f"invalid JSON: {exc}")
-        sys.exit(1)
+        items = json.loads(candidate)
+    except json.JSONDecodeError:
+        # AI Studio grounding sometimes inlines citation markers that break
+        # strict JSON; strip them and retry.
+        items = None
+        cleaned = _strip_citations(candidate)
+        try:
+            items = json.loads(cleaned)
+            print("note: stripped grounding citation markers to parse the result")
+        except json.JSONDecodeError as exc:
+            print(f"invalid JSON even after cleaning citations: {exc}")
+            print("tip: re-run the batch in AI Studio and ask it to 'return clean JSON with no citation markers'")
+            sys.exit(1)
 
     by_id = {f["family_id"]: (mdir, f) for mdir, f in all_families()}
     written = failed = 0
