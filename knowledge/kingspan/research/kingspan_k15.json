@@ -118,39 +118,68 @@
   },
   "retrieval": {
     "search_keywords": [
+      "BS 8414 rainscreen insulation",
+      "K15 Rainscreen",
+      "K15 Rainscreen Board",
       "Kingspan K15",
       "Kooltherm K15",
-      "K15 Rainscreen Board",
-      "rainscreen insulation\nboard",
+      "phenolic\n    rainscreen board",
       "phenolic rainscreen board",
-      "ventilated facade insulation",
+      "rainscreen insulation\nboard",
       "thin\nrainscreen insulation",
-      "BS 8414 rainscreen insulation"
+      "thin rainscreen insulation",
+      "ventilated facade board",
+      "ventilated facade insulation"
     ],
     "problem_keywords": [
-      "thick facade wall reducing floor area",
+      "- Negative Filter (not_for): Must be installed with an unblocked drainage",
+      "- Placement: External wall (behind ventilated rainscreen cladding).",
+      "- Positive Recommendation Rule: Specifically engineered for ventilated",
+      "Rainscreen cladding cavity space is narrow",
+      "afford to lose internal floor space to thick wall insulation",
+      "and stone rainscreens.",
+      "cavities behind terracotta tiles, aluminium composite panels (ACP), zinc,",
+      "cavity (minimum 38mm–50mm)",
+      "client cannot",
+      "do not use without outer rainscreen cladding.",
       "heat loss through rainscreen\ncladding",
-      "moisture behind ventilated facade",
+      "ingress behind open-joint panels.",
       "meeting low U-values in slim\nfacade",
-      "rainscreen cavity space constraints"
+      "moisture",
+      "moisture behind ventilated facade",
+      "rainscreen cavity space constraints",
+      "thick facade wall reducing floor area"
     ],
     "placement": [
+      "External wall (behind ventilated rainscreen cladding). - Positive Recommendation Rule: Specifically engineered for ventilated cavities behind terracotta tiles",
+      "aluminium composite panels (ACP)",
+      "and stone rainscreens. - Negative Filter (not_for): Must be installed with an unblocked drainage cavity (minimum 38mm–50mm); do not use without outer rainscreen cladding",
+      "external wall",
       "wall",
-      "external wall"
+      "zinc"
     ],
     "priority_fit": [
       "thermal",
       "fire"
     ],
     "use_cases": [
+      "- Negative Filter (not_for): Must be installed with an unblocked drainage",
       "Continuous exterior insulation behind ventilated rainscreen facades\n(terracotta, stone, and composite metal panels)",
       "High-performance thermal\nbarrier on commercial multi-storey building envelopes",
-      "Slim-profile external\nwall insulation to maximize interior floor area in high-density urban\ndevelopments"
+      "Slim-profile external\nwall insulation to maximize interior floor area in high-density urban\ndevelopments",
+      "Specifically engineered for ventilated",
+      "and stone rainscreens.",
+      "cavities behind terracotta tiles, aluminium composite panels (ACP), zinc,",
+      "cavity (minimum 38mm–50mm)",
+      "do not use without outer rainscreen cladding."
     ],
     "not_for": [
       "Direct interior wall lining without\nplasterboard",
       "Roof underlayment without drainage",
-      "Underground subterranean\ntanking"
+      "Underground subterranean\ntanking",
+      "cavity (minimum 38mm–50mm)",
+      "do not use without outer rainscreen cladding.",
+      "not_for): Must be installed with an unblocked drainage"
     ],
     "rag_summary": "Kingspan Kooltherm K15 Rainscreen Board is a premium\nperformance, fiber-free rigid thermoset phenolic insulation board engineered\nspecifically for ventilated rainscreen facade systems. Offering an ultra-low\nthermal conductivity of 0.021 W/m·K and low-emissivity composite foil facings,\nit achieves stringent thermal U-values with the thinnest possible wall profile.\nExtensively tested in large-scale facade fire tests (BS 8414 / BR 135) with a\nclosed-cell water-resistant core, it provides durable thermal protection behind\nmodern architectural claddings."
   },

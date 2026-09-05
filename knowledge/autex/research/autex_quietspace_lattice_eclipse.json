@@ -31,24 +31,56 @@
     "search_keywords": [
       "Lattice Eclipse",
       "Quietspace Lattice Eclipse",
+      "cloud\n    acoustic baffle",
       "cloud acoustic baffle",
       "organic acoustic ceiling baffle",
       "suspended acoustic sculpture"
     ],
     "problem_keywords": [
+      "- Negative Filter (not_for): Low-ceiling environments (<2.7m ceiling",
+      "- Placement: Ceiling (suspended baffle sculpture).",
+      "- Positive Recommendation Rule: Recommend when an organic, undulating",
+      "BATCH 006",
+      "Intersecting lattice fins capture sound from 360 degrees, achieving Class A",
+      "Reverberant high ceilings in reception atriums, hotel",
       "Reverberant high ceilings in reception atriums, hotel foyers, and open-plan offices",
-      "need for a sculptural focal point that absorbs sound rather than bounces it."
+      "absorbs sound rather than bounces it.",
+      "absorption (NRC 1.00).",
+      "cannot support integrated heavy lighting fixtures directly on",
+      "clearance)",
+      "foyers, and open-plan offices",
+      "need for a sculptural focal point that",
+      "need for a sculptural focal point that absorbs sound rather than bounces it.",
+      "seedpod/cloud shape is requested for open-ceiling commercial spaces.",
+      "the fins."
     ],
     "placement": [
-      "Ceiling (suspended baffle sculpture)"
+      "Ceiling (suspended baffle sculpture)",
+      "Ceiling (suspended baffle sculpture). - Positive Recommendation Rule: Recommend when an organic",
+      "achieving Class A absorption (NRC 1.00). - Negative Filter (not_for): Low-ceiling environments (<2.7m ceiling clearance); cannot support integrated heavy lighting fixtures directly on the fins",
+      "cloud shape is requested for open-ceiling commercial spaces. Intersecting lattice fins capture sound from 360 degrees",
+      "undulating seedpod"
     ],
     "not_for": [
       "BATCH 006",
+      "cannot support integrated heavy lighting fixtures directly on",
       "cannot support integrated heavy lighting fixtures directly on the fins.",
-      "not_for): Low-ceiling environments (<2.7m ceiling clearance)"
+      "clearance)",
+      "not_for): Low-ceiling environments (<2.7m ceiling",
+      "not_for): Low-ceiling environments (<2.7m ceiling clearance)",
+      "the fins."
     ],
     "use_cases": [
-      "Recommend when an organic, undulating seedpod/cloud shape is requested for open-ceiling commercial spaces. Intersecting lattice fins capture sound from 360 degrees, achieving Class A absorption (NRC 1.00)."
+      "- Negative Filter (not_for): Low-ceiling environments (<2.7m ceiling",
+      "BATCH 006",
+      "Intersecting lattice fins capture sound from 360 degrees, achieving Class A",
+      "Recommend when an organic, undulating",
+      "Recommend when an organic, undulating seedpod/cloud shape is requested for open-ceiling commercial spaces. Intersecting lattice fins capture sound from 360 degrees, achieving Class A absorption (NRC 1.00).",
+      "absorption (NRC 1.00).",
+      "cannot support integrated heavy lighting fixtures directly on",
+      "clearance)",
+      "seedpod/cloud shape is requested for open-ceiling commercial spaces.",
+      "the fins."
     ]
   },
   "source_excerpt": null,

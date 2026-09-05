@@ -1,0 +1,56 @@
+{
+  "family_id": "STINGER_CS",
+  "family_name": "Stinger Cs",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {},
+  "retrieval": {
+    "search_keywords": [
+      "CS150B",
+      "Stinger 136012",
+      "Stinger CS150B",
+      "Stinger cap stapler",
+      "condensation",
+      "easy_install",
+      "external wall",
+      "foam board cap\n    stapler",
+      "pneumatic cap stapler",
+      "roof",
+      "roofline",
+      "wall"
+    ],
+    "problem_keywords": [
+      "- Placement: [\"roof\", \"roofline\", \"wall\", \"external wall\"]",
+      "- Positive Recommendation Rule: Specify for high-speed residential and",
+      "- Priority Fit: [\"easy_install\", \"condensation\"]",
+      "Manual hammer tackers jamming when shooting through thick",
+      "commercial production lines installing housewrap, roof underlayment, and",
+      "high-volume installation speed needed.",
+      "rigid foam",
+      "rigid foam insulation boards (using 25mm–38mm staples).",
+      "thin staples pulling through housewrap on commercial jobs"
+    ],
+    "placement": [
+      "\"condensation\"] - Positive Recommendation Rule: Specify for high-speed residential and commercial production lines installing housewrap",
+      "\"external wall\"] - Priority Fit: [\"easy_install\"",
+      "\"roofline\"",
+      "\"wall\"",
+      "[\"roof\"",
+      "and rigid foam insulation boards (using 25mm–38mm staples)",
+      "roof underlayment"
+    ],
+    "use_cases": [
+      "Specify for high-speed residential and",
+      "commercial production lines installing housewrap, roof underlayment, and",
+      "rigid foam insulation boards (using 25mm–38mm staples)."
+    ],
+    "priority_fit": [
+      "condensation",
+      "easy_install"
+    ]
+  },
+  "source_excerpt": null,
+  "engine": "knowledge_base_txt"
+}

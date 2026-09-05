@@ -127,27 +127,44 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Kingspan K3",
-      "Kooltherm K3",
+      "7 star under slab board",
       "K3 Floorboard",
-      "under slab insulation",
+      "Kingspan K3",
+      "Kingspan floor insulation",
+      "Kooltherm K3",
+      "concrete slab insulation\n    board",
       "concrete slab insulation board",
       "phenolic floor\ninsulation",
-      "7 star under slab board",
+      "under slab\n    phenolic board",
+      "under slab insulation",
       "underfloor insulation K3"
     ],
     "problem_keywords": [
+      "- Negative Filter (not_for): Heavy industrial forklift slabs exceeding 150 kPa",
+      "- Placement: Floor, underfloor, concrete slab-on-ground, suspended slab.",
+      "- Positive Recommendation Rule: Placed under concrete slabs over a 0.2mm",
+      "Concrete floor slabs conducting cold from ground",
+      "beneath underfloor heating pipes.",
       "cold concrete floor slab",
-      "heat loss through ground\nfloor",
+      "damp-proof membrane, or laid over concrete slabs beneath a screed. Essential",
+      "design loads (use high-load XPS instead).",
       "failing 7 star NatHERS without slab insulation",
+      "failing 7-star ratings due to downward slab heat loss",
+      "heat loss through ground\nfloor",
+      "heating losing energy into the sub-base.",
+      "hydronic underfloor",
       "thick floor\ninsulation reducing ceiling height",
       "underfloor heating downward heat loss"
     ],
     "placement": [
+      "Floor",
+      "between floors",
+      "concrete slab-on-ground",
       "floor",
-      "underfloor",
+      "or laid over concrete slabs beneath a screed. Essential beneath underfloor heating pipes. - Negative Filter (not_for): Heavy industrial forklift slabs exceeding 150 kPa design loads (use high-load XPS instead)",
       "subfloor",
-      "between floors"
+      "suspended slab. - Positive Recommendation Rule: Placed under concrete slabs over a 0.2mm damp-proof membrane",
+      "underfloor"
     ],
     "priority_fit": [
       "thermal",
@@ -155,14 +172,21 @@
       "sustainability"
     ],
     "use_cases": [
+      "- Negative Filter (not_for): Heavy industrial forklift slabs exceeding 150 kPa",
       "Continuous under-slab thermal insulation beneath residential concrete\nground-bearing slabs to meet 7-star NatHERS standards",
       "Insulating beneath\nhydronic heated screeds to prevent downward thermal loss into concrete\nsubfloors",
-      "Thermal barrier installed over suspended concrete intermediate\nfloors separating commercial carparks and apartments"
+      "Placed under concrete slabs over a 0.2mm",
+      "Thermal barrier installed over suspended concrete intermediate\nfloors separating commercial carparks and apartments",
+      "beneath underfloor heating pipes.",
+      "damp-proof membrane, or laid over concrete slabs beneath a screed. Essential",
+      "design loads (use high-load XPS instead)."
     ],
     "not_for": [
-      "Heavy\nindustrial forklift floors (use GreenGuard GG500)",
       "Direct exposure to pooling\nwater without damp-proof membrane",
-      "Direct foot traffic during construction"
+      "Direct foot traffic during construction",
+      "Heavy\nindustrial forklift floors (use GreenGuard GG500)",
+      "design loads (use high-load XPS instead).",
+      "not_for): Heavy industrial forklift slabs exceeding 150 kPa"
     ],
     "rag_summary": "Kingspan Kooltherm K3 Floorboard is an ultra-thin, fiber-free\nrigid thermoset phenolic insulation board engineered specifically for concrete\nground-bearing and suspended floors. With a thermal conductivity of 0.021\n- 0.023 W/m·K and thicknesses from 25mm to 90mm (R1.1 to R3.9), it provides\nsuperior thermal resistance at minimal thickness to prevent ground heat loss and\nachieve 7-star NatHERS compliance. Built with high compressive strength (≥ 150\nkPa) and autohesively bonded glass tissue facings, it is CodeMark certified and\nmoisture-resistant."
   },

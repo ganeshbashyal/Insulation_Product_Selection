@@ -99,25 +99,42 @@
   "retrieval": {
     "search_keywords": [
       "Rhino Wrap\nBreather",
+      "Rhino Wrap Breather",
+      "Rhino building foil",
       "Rhino foil breather",
-      "perforated reflective foil",
+      "Rhino perforated foil",
       "Rhino wall wrap\nbreather",
-      "woven foil breather",
-      "reflective wall wrap",
       "medium duty breather\nfoil",
-      "Rhino building foil"
+      "medium duty foil\n    wrap",
+      "perforated reflective foil",
+      "reflective wall wrap",
+      "reflective wall wrap breather",
+      "woven foil breather"
     ],
     "problem_keywords": [
-      "radiant heat in external\nwalls",
-      "wall wrap tearing in wind",
-      "moisture build-up behind foil wrap",
+      "- Negative Filter (not_for): Cold climate zones (Zones 6, 7, 8) where",
+      "- Placement: Wall, external wall, shed.",
+      "- Positive Recommendation Rule: High-tensile woven scrim resists tears and",
+      "Wind ripping paper-backed foils on exposed jobsites",
+      "brick-tie punctures during construction in coastal and windy zones.",
       "drafty brick veneer walls",
-      "hot cavity walls in summer"
+      "heat",
+      "hot cavity walls in summer",
+      "in warmer zones.",
+      "moisture build-up behind foil wrap",
+      "non-perforated Class 4 spunbond membranes are required by the NCC.",
+      "penetrating brick veneer walls while requiring microscopic vapour diffusion",
+      "radiant heat in external\nwalls",
+      "wall wrap tearing in wind"
     ],
     "placement": [
-      "wall",
+      "7",
+      "8) where non-perforated Class 4 spunbond membranes are required by the NCC",
+      "Wall",
       "external wall",
-      "shed"
+      "shed",
+      "shed. - Positive Recommendation Rule: High-tensile woven scrim resists tears and brick-tie punctures during construction in coastal and windy zones. - Negative Filter (not_for): Cold climate zones (Zones 6",
+      "wall"
     ],
     "priority_fit": [
       "thermal",
@@ -125,14 +142,20 @@
       "easy_install"
     ],
     "use_cases": [
+      "- Negative Filter (not_for): Cold climate zones (Zones 6, 7, 8) where",
+      "High-tensile woven scrim resists tears and",
+      "Radiant\nbarrier behind lightweight external cladding with a ventilated airspace",
       "Reflective thermal wall wrap on residential\nbrick veneer in warm and temperate Australian climate zones",
       "Tear-resistant\nreflective wrap on timber and steel framed sheds and domestic garages",
-      "Radiant\nbarrier behind lightweight external cladding with a ventilated airspace"
+      "brick-tie punctures during construction in coastal and windy zones.",
+      "non-perforated Class 4 spunbond membranes are required by the NCC."
     ],
     "not_for": [
       "Cold climate zones (Zones 6 to 8) requiring Class 4 non-woven\npermeable membranes",
       "Direct floor traffic surfaces",
-      "Subterranean\nwaterproofing"
+      "Subterranean\nwaterproofing",
+      "non-perforated Class 4 spunbond membranes are required by the NCC.",
+      "not_for): Cold climate zones (Zones 6, 7, 8) where"
     ],
     "rag_summary": "Misc Rhino Wrap Breather is a Medium Duty\nreflective foil wall sarking manufactured from high-tensile woven polypropylene\nlaminated to pure aluminium foil with micro-perforations. Designed for external\nframed walls, it reflects up to 95% of radiant heat across an adjacent air\ncavity while allowing moisture vapour to breathe outward. Complying with\nAS/NZS 4200.1:2017 and possessing a Flammability Index ≤ 5 (BAL-40 suitable), it\ndelivers tear-resistant weather protection and thermal reflectance for\nresidential and shed construction."
   },

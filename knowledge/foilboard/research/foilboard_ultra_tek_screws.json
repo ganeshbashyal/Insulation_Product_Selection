@@ -106,38 +106,54 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Foilboard Ultra Tek Screws",
-      "Foilboard 50mm tek screws",
       "Foilboard 40mm tek screws",
-      "long tek screws\ninsulation",
-      "self drilling screws for 50mm Foilboard",
+      "Foilboard 50mm\n    tek screws",
+      "Foilboard 50mm tek screws",
+      "Foilboard Ultra Tek Screws",
       "Foilboard steel\nscrews 85mm",
       "heavy duty tek screws Foilboard",
-      "hex head insulation tek\nscrews"
+      "hex head Foilboard screws",
+      "hex head insulation tek\nscrews",
+      "long steel insulation screws",
+      "long tek screws\ninsulation",
+      "self drilling screws for 50mm Foilboard"
     ],
     "problem_keywords": [
-      "tek screws too short for 50mm insulation",
-      "securing 50mm Foilboard to steel girts",
-      "screws pulling through thick foam\nboard",
+      "- Placement: Wall, ceiling, shed, roof (steel framing).",
+      "- Positive Recommendation Rule: Mandatory for securing 40mm and 50mm Foilboard",
+      "Standard tek screws cannot reach steel purlins",
       "attaching thick insulation to metal shed",
-      "insulation sagging on steel\nframe"
+      "insulation sagging on steel\nframe",
+      "panels to steel portal frames, commercial girts, and purlins.",
+      "screws pulling through thick foam\nboard",
+      "securing 50mm Foilboard to steel girts",
+      "sheds.",
+      "tek screws too short for 50mm insulation",
+      "thick panels vibrating loose in high-wind steel",
+      "through 40mm/50mm boards"
     ],
     "placement": [
-      "wall",
+      "Wall",
+      "and purlins",
+      "ceiling",
+      "commercial girts",
       "external wall",
       "internal wall",
-      "ceiling",
+      "roof",
+      "roof (steel framing). - Positive Recommendation Rule: Mandatory for securing 40mm and 50mm Foilboard panels to steel portal frames",
       "shed",
-      "roof"
+      "wall"
     ],
     "priority_fit": [
       "easy_install",
       "thermal"
     ],
     "use_cases": [
-      "Securing thick 40mm and 50mm Foilboard Green panels to commercial steel wall\nstuds",
       "Fastening heavy high-R-value panels to steel purlins and girts in\nindustrial sheds and warehouses",
-      "Installing thick rigid thermal break boards\non light-gauge steel residential framing"
+      "Installing thick rigid thermal break boards\non light-gauge steel residential framing",
+      "Mandatory for securing 40mm and 50mm Foilboard",
+      "Securing thick 40mm and 50mm Foilboard Green panels to commercial steel wall\nstuds",
+      "panels to steel portal frames, commercial girts, and purlins."
     ],
     "not_for": [
       "Timber framing (use\nUltra Fasteners)",

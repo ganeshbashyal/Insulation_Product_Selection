@@ -56,28 +56,71 @@
   },
   "retrieval": {
     "search_keywords": [
+      "3D square slatted ceiling\n    tile",
       "3D square slatted ceiling tile",
       "600x600 slatted acoustic tile",
       "Cube slatted tile 600x600",
+      "Hatch square\n    capped 600x600",
       "Hatch square capped 600x600",
-      "Linear square capped tile"
+      "Linear square capped tile",
+      "batch 5 and 6"
     ],
     "problem_keywords": [
+      "- Negative Filter (not_for): Exterior soffits",
+      "- Placement: Ceiling (600x600 suspended grid).",
+      "- Positive Recommendation Rule: Ideal for corporate reception zones, cafes,",
+      "Australian Insulation Knowledge Base: Granular Sizing & Bot Logic",
+      "BATCH 005",
+      "Battens, Mirage Textured Cube, Quietspace Panels, and Frontier Raft Beams).",
+      "Manufacturer: Autex Acoustics",
       "Monotonous flat 600x600 drop ceilings",
-      "customer wants a high-end modular slatted look with high sound absorption that conceals overhead wiring and ductwork."
+      "PART 3: Batches 005 & 006 (Families 41–60)",
+      "Ready for Next Batches?",
+      "Reply with \"batch 5 and 6\" (covering Autex Horizon Clouds, Lanes 3D Wall",
+      "and executive suites with 600x600 grids. Can be laid in parallel rows or",
+      "contact.",
+      "customer wants a",
+      "customer wants a high-end modular slatted look with high sound absorption that conceals overhead wiring and ductwork.",
+      "high-end modular slatted look with high sound absorption that conceals",
+      "overhead wiring and ductwork.",
+      "rotated 90 degrees alternately for a textured woven parquet pattern.",
+      "wet areas with direct water"
     ],
     "placement": [
-      "Ceiling (600x600 suspended grid)"
+      "Ceiling (600x600 suspended grid)",
+      "Ceiling (600x600 suspended grid). - Positive Recommendation Rule: Ideal for corporate reception zones",
+      "and executive suites with 600x600 grids. Can be laid in parallel rows or rotated 90 degrees alternately for a textured woven parquet pattern. - Negative Filter (not_for): Exterior soffits; wet areas with direct water contact",
+      "cafes"
     ],
     "not_for": [
       "ART 3: Batches 005 & 006 (Families 41–60)",
+      "Australian Insulation Knowledge Base: Granular Sizing & Bot Logic",
       "BATCH 005",
+      "Battens, Mirage Textured Cube, Quietspace Panels, and Frontier Raft Beams).",
       "Manufacturer: Autex Acoustics",
+      "PART 3: Batches 005 & 006 (Families 41–60)",
+      "Ready for Next Batches?",
+      "Reply with \"batch 5 and 6\" (covering Autex Horizon Clouds, Lanes 3D Wall",
+      "contact.",
       "not_for): Exterior soffits",
+      "wet areas with direct water",
       "wet areas with direct water contact."
     ],
     "use_cases": [
-      "Ideal for corporate reception zones, cafes, and executive suites with 600x600 grids. Can be laid in parallel rows or rotated 90 degrees alternately for a textured woven parquet pattern."
+      "- Negative Filter (not_for): Exterior soffits",
+      "Australian Insulation Knowledge Base: Granular Sizing & Bot Logic",
+      "BATCH 005",
+      "Battens, Mirage Textured Cube, Quietspace Panels, and Frontier Raft Beams).",
+      "Ideal for corporate reception zones, cafes,",
+      "Ideal for corporate reception zones, cafes, and executive suites with 600x600 grids. Can be laid in parallel rows or rotated 90 degrees alternately for a textured woven parquet pattern.",
+      "Manufacturer: Autex Acoustics",
+      "PART 3: Batches 005 & 006 (Families 41–60)",
+      "Ready for Next Batches?",
+      "Reply with \"batch 5 and 6\" (covering Autex Horizon Clouds, Lanes 3D Wall",
+      "and executive suites with 600x600 grids. Can be laid in parallel rows or",
+      "contact.",
+      "rotated 90 degrees alternately for a textured woven parquet pattern.",
+      "wet areas with direct water"
     ]
   },
   "source_excerpt": null,

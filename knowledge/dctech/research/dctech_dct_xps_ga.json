@@ -135,33 +135,57 @@
   },
   "retrieval": {
     "search_keywords": [
-      "DCTech DCT XPS GA",
-      "DCT XPS\nGA 300",
-      "DCT GA 300",
-      "XPS GA 300",
-      "extruded polystyrene board",
-      "under slab\nXPS insulation",
-      "inverted roof insulation XPS",
-      "IRMA roof insulation",
       "300\nkPa XPS board",
+      "300 kPa XPS\n    board",
+      "DCT GA 300",
+      "DCT XPS\nGA 300",
+      "DCT XPS GA 300",
+      "DCTech DCT XPS GA",
       "DCTech XPS",
-      "tongue and groove XPS board"
+      "IRMA roof insulation",
+      "XPS GA 300",
+      "coolroom\n    floor XPS",
+      "extruded polystyrene board",
+      "extruded polystyrene under slab",
+      "inverted roof XPS",
+      "inverted roof insulation XPS",
+      "tongue and groove XPS board",
+      "under slab\nXPS insulation"
     ],
     "problem_keywords": [
+      "- Negative Filter (not_for): Internal room acoustic absorption (rigid foam",
+      "- Placement: Floor, underfloor, subfloor, inverted flat roof (IRMA), cavity",
+      "- Positive Recommendation Rule: Mandatory choice for under-slab foundation",
+      "BATCH 012",
+      "Heavy concrete slab crushing weak EPS foam",
+      "Inverted Roof Membrane Assemblies (IRMA) under ballast gravel or pavers.",
+      "avoid contact with solvent-based waterproofing or",
+      "coal-tar.",
       "cold concrete floor slab",
-      "heat loss through concrete\nfoundation",
-      "waterproofing membrane exposed to UV on flat roof",
+      "cold concrete floors",
       "condensation\non concrete roof",
+      "does not absorb sound)",
+      "failing 7-star NatHERS under-slab mandates.",
+      "flat roof",
+      "heat loss through concrete\nfoundation",
       "high load floor insulation failure",
-      "meeting 7-star NatHERS\nunder-slab insulation"
+      "insulation absorbing moisture and failing",
+      "insulation subjected to structural concrete loads and ground moisture, and",
+      "meeting 7-star NatHERS\nunder-slab insulation",
+      "wall.",
+      "waterproofing membrane exposed to UV on flat roof"
     ],
     "placement": [
+      "Floor",
+      "and Inverted Roof Membrane Assemblies (IRMA) under ballast gravel or pavers. - Negative Filter (not_for): Internal room acoustic absorption (rigid foam does not absorb sound); avoid contact with solvent-based waterproofing or coal-tar",
+      "cavity wall. - Positive Recommendation Rule: Mandatory choice for under-slab foundation insulation subjected to structural concrete loads and ground moisture",
+      "external wall",
       "floor",
-      "underfloor",
-      "subfloor",
+      "inverted flat roof (IRMA)",
       "roof",
-      "wall",
-      "external wall"
+      "subfloor",
+      "underfloor",
+      "wall"
     ],
     "priority_fit": [
       "thermal",
@@ -169,15 +193,28 @@
       "sustainability"
     ],
     "use_cases": [
-      "Under-slab thermal insulation beneath\nconcrete raft slabs to meet 7-star NatHERS energy ratings",
-      "Inverted roof\nmembrane assemblies (IRMA) protecting flat roof waterproofing under ballast or\npavers",
+      "- Negative Filter (not_for): Internal room acoustic absorption (rigid foam",
+      "BATCH 012",
+      "Cavity wall continuous thermal insulation in double-brick\nor precast concrete construction",
       "Heavy-load commercial cool room floors requiring high compressive\nstrength (300 kPa)",
-      "Cavity wall continuous thermal insulation in double-brick\nor precast concrete construction"
+      "Inverted Roof Membrane Assemblies (IRMA) under ballast gravel or pavers.",
+      "Inverted roof\nmembrane assemblies (IRMA) protecting flat roof waterproofing under ballast or\npavers",
+      "Mandatory choice for under-slab foundation",
+      "Under-slab thermal insulation beneath\nconcrete raft slabs to meet 7-star NatHERS energy ratings",
+      "avoid contact with solvent-based waterproofing or",
+      "coal-tar.",
+      "does not absorb sound)",
+      "insulation subjected to structural concrete loads and ground moisture, and"
     ],
     "not_for": [
       "Acoustic airborne sound\nabsorption inside open cavities (use fibrous batts)",
+      "BATCH 012",
+      "Contact with solvent-based adhesives or coal-tar membranes",
       "Operating temperatures\nexceeding 75°C",
-      "Contact with solvent-based adhesives or coal-tar membranes"
+      "avoid contact with solvent-based waterproofing or",
+      "coal-tar.",
+      "does not absorb sound)",
+      "not_for): Internal room acoustic absorption (rigid foam"
     ],
     "rag_summary": "DCTech DCT XPS GA (DCT XPS GA 300) is a rigid,\nhigh-compressive-strength (300 kPa) extruded polystyrene insulation board\nengineered for under-slab, inverted flat roof (IRMA), green roof, and cavity\nwall applications. Featuring a 100% closed-cell structure with near-zero water\nabsorption (<0.3%) and tongue-and-groove edges, it delivers durable thermal\nperformance (conductivity 0.028-0.034 W/m·K) that resists compression creep,\nground moisture, and freeze-thaw degradation over a 50-year design life.\nManufactured with zero ODP and CFC/HCFC-free blowing agents, it provides\nhigh-load thermal buffering beneath concrete slabs and protected membrane\nroofs."
   },

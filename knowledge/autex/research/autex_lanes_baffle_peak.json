@@ -47,6 +47,7 @@
   },
   "retrieval": {
     "search_keywords": [
+      "3D acoustic\n    battens",
       "3D acoustic battens",
       "Autex Lanes Peak",
       "Cube Peak batten",
@@ -55,19 +56,38 @@
       "triangular acoustic wall batten"
     ],
     "problem_keywords": [
+      "- Negative Filter (not_for): Not for external weather-exposed walls",
+      "- Placement: Wall, internal wall.",
+      "- Positive Recommendation Rule: Recommend when an architect wants strong",
       "Echo in commercial meeting rooms",
-      "client wants the 3D look of timber acoustic battens with crisp ridge geometry and no messy on-site adhesives."
+      "adhesives.",
+      "architectural relief and shadow play on interior feature walls with fast",
+      "client wants the 3D look",
+      "client wants the 3D look of timber acoustic battens with crisp ridge geometry and no messy on-site adhesives.",
+      "high-traffic impact corridors without chair rails.",
+      "mechanical clip installation.",
+      "not for",
+      "of timber acoustic battens with crisp ridge geometry and no messy on-site"
     ],
     "placement": [
       "Wall",
-      "internal wall"
+      "internal wall",
+      "internal wall. - Positive Recommendation Rule: Recommend when an architect wants strong architectural relief and shadow play on interior feature walls with fast mechanical clip installation. - Negative Filter (not_for): Not for external weather-exposed walls; not for high-traffic impact corridors without chair rails"
     ],
     "not_for": [
+      "high-traffic impact corridors without chair rails.",
+      "not for",
       "not for high-traffic impact corridors without chair rails.",
       "not_for): Not for external weather-exposed walls"
     ],
     "use_cases": [
-      "Recommend when an architect wants strong architectural relief and shadow play on interior feature walls with fast mechanical clip installation."
+      "- Negative Filter (not_for): Not for external weather-exposed walls",
+      "Recommend when an architect wants strong",
+      "Recommend when an architect wants strong architectural relief and shadow play on interior feature walls with fast mechanical clip installation.",
+      "architectural relief and shadow play on interior feature walls with fast",
+      "high-traffic impact corridors without chair rails.",
+      "mechanical clip installation.",
+      "not for"
     ]
   },
   "source_excerpt": null,

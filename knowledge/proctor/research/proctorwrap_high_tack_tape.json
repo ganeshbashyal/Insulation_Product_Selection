@@ -96,34 +96,65 @@
   },
   "retrieval": {
     "search_keywords": [
-      "ProctorWrap HighTack Tape",
+      "60mm HighTack",
+      "60mm wrap tape",
       "High Tack Tape",
       "Proctor HighTack",
-      "membrane joining tape",
-      "60mm HighTack",
+      "Proctor sealing tape",
+      "ProctorWrap HighTack Tape",
       "acrylic wrap tape",
       "building paper tape",
-      "Proctor sealing tape"
-    ],
-    "problem_keywords": [
-      "air leaks in wall wrap",
-      "water ingress through membrane\nseams",
-      "draughts around pipe penetrations",
-      "tape unsticking from building\nwrap",
-      "sealing window reveals"
-    ],
-    "placement": [
-      "wall",
+      "condensation",
+      "duct",
+      "easy_install",
       "external wall",
+      "internal wall",
+      "membrane joining tape",
+      "pipe",
       "roof",
       "roofline",
+      "vapour permeable sealing tape",
+      "wall"
+    ],
+    "problem_keywords": [
+      "- HighTack PLUS: Enhanced peel adhesion (≥ 45 N/25mm) and thinner",
+      "- Placement: [\"wall\", \"external wall\", \"roof\", \"roofline\", \"internal wall\",",
+      "- Priority Fit: [\"easy_install\", \"condensation\"]",
+      "- Selection Rule (HighTack vs HighTack PLUS):",
+      "- Standard HighTack: Excellent general-purpose sealing for overlaps and",
+      "Air infiltration through external wall framing seams",
+      "air leaks in wall wrap",
+      "draughts around pipe penetrations",
+      "flat sheathing joints.",
+      "membranes in high-wind conditions.",
+      "pipe\", \"duct\"]",
+      "sealing window reveals",
+      "semi-transparent carrier specifically engineered for creased or textured",
+      "tape unsticking from building\nwrap",
+      "water ingress through membrane\nseams",
+      "water leaks around pipe penetrations and window reveal interfaces."
+    ],
+    "placement": [
+      "\"condensation\"] - Selection Rule (HighTack vs HighTack PLUS): - Standard HighTack: Excellent general-purpose sealing for overlaps and flat sheathing joints. - HighTack PLUS: Enhanced peel adhesion (≥ 45 N",
+      "\"duct\"] - Priority Fit: [\"easy_install\"",
+      "\"external wall\"",
+      "\"internal wall\"",
+      "\"pipe\"",
+      "\"roof\"",
+      "\"roofline\"",
+      "25mm) and thinner semi-transparent carrier specifically engineered for creased or textured membranes in high-wind conditions",
+      "[\"wall\"",
+      "duct",
+      "external wall",
       "internal wall",
       "pipe",
-      "duct"
+      "roof",
+      "roofline",
+      "wall"
     ],
     "priority_fit": [
-      "easy_install",
-      "condensation"
+      "condensation",
+      "easy_install"
     ],
     "use_cases": [
       "Sealing horizontal and\nvertical laps on vapour-permeable wall wraps",

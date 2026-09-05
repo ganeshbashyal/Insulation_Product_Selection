@@ -98,9 +98,60 @@
       "25 mm wall (qty)",
       "38 mm wall (qty)",
       "50 mm wall (qty)"
+    ],
+    "accessories_upsell": "72mm reinforced aluminium foil tape and stainless steel pipe banding straps (installed at 300mm intervals)."
+  },
+  "retrieval": {
+    "search_keywords": [
+      "650 degree\n    pipe lagging",
+      "Thermotec rockwool pipe",
+      "acoustic",
+      "boiler pipe lagging",
+      "duct",
+      "fire",
+      "high temp pipe sections",
+      "pipe",
+      "rockwool pipe\n    insulation",
+      "steam pipe lagging",
+      "thermal",
+      "wall"
+    ],
+    "problem_keywords": [
+      "- Accessories Upsell: 72mm reinforced aluminium foil tape and stainless steel",
+      "- Placement: [\"pipe\", \"duct\", \"wall\"]",
+      "- Positive Recommendation Rule: Essential for steam pipes, boiler manifolds,",
+      "- Priority Fit: [\"fire\", \"thermal\", \"acoustic\"]",
+      "Foam lagging burning on industrial steam lines",
+      "autoclave lines, and industrial exhaust piping where temperatures",
+      "exceed 110°C (up to 650°C).",
+      "high-pressure boiler lines causing worker burn risks",
+      "knocking noise in steel piping.",
+      "pipe banding straps (installed at 300mm intervals).",
+      "turbulent fluid"
+    ],
+    "placement": [
+      "\"acoustic\"] - Positive Recommendation Rule: Essential for steam pipes",
+      "\"duct\"",
+      "\"thermal\"",
+      "\"wall\"] - Priority Fit: [\"fire\"",
+      "[\"pipe\"",
+      "and industrial exhaust piping where temperatures exceed 110°C (up to 650°C). - Accessories Upsell: 72mm reinforced aluminium foil tape and stainless steel pipe banding straps (installed at 300mm intervals)",
+      "autoclave lines",
+      "boiler manifolds"
+    ],
+    "use_cases": [
+      "- Accessories Upsell: 72mm reinforced aluminium foil tape and stainless steel",
+      "Essential for steam pipes, boiler manifolds,",
+      "autoclave lines, and industrial exhaust piping where temperatures",
+      "exceed 110°C (up to 650°C).",
+      "pipe banding straps (installed at 300mm intervals)."
+    ],
+    "priority_fit": [
+      "acoustic",
+      "fire",
+      "thermal"
     ]
   },
-  "retrieval": {},
   "source_excerpt": null,
   "engine": "manual_range_injection",
   "range_source": "manufacturer size/packaging breakdown (hand-supplied 2026-09-06)"

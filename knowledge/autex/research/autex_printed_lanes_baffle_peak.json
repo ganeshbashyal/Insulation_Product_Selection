@@ -47,22 +47,42 @@
   },
   "retrieval": {
     "search_keywords": [
+      "Acoustic Timber Lanes\n    Peak",
       "Acoustic Timber Lanes Peak",
       "Printed Lanes Peak",
+      "printed\n    Peak batten",
       "printed Peak batten",
       "timber batten acoustic wall",
       "wood look acoustic battens"
     ],
     "problem_keywords": [
+      "- Installation Add-on: Installs via mechanical clipping channels",
+      "- Placement: Wall, internal wall.",
+      "- Positive Recommendation Rule: Replaces real timber battens with a",
+      "Group 1 fire codes",
+      "Heavy timber battens exceed seismic weight budgets or fail",
       "Heavy timber battens exceed seismic weight budgets or fail Group 1 fire codes",
+      "lightweight, non-combustible, Group 1 fire-rated polyester alternative that",
+      "no glues",
+      "provides NRC 0.80 sound absorption.",
+      "required.",
       "solid timber walls cause acoustic reverberation."
     ],
     "placement": [
+      "Group 1 fire-rated polyester alternative that provides NRC 0.80 sound absorption. - Installation Add-on: Installs via mechanical clipping channels; no glues required",
       "Wall",
-      "internal wall"
+      "internal wall",
+      "internal wall. - Positive Recommendation Rule: Replaces real timber battens with a lightweight",
+      "non-combustible"
     ],
     "use_cases": [
-      "Replaces real timber battens with a lightweight, non-combustible, Group 1 fire-rated polyester alternative that provides NRC 0.80 sound absorption."
+      "- Installation Add-on: Installs via mechanical clipping channels",
+      "Replaces real timber battens with a",
+      "Replaces real timber battens with a lightweight, non-combustible, Group 1 fire-rated polyester alternative that provides NRC 0.80 sound absorption.",
+      "lightweight, non-combustible, Group 1 fire-rated polyester alternative that",
+      "no glues",
+      "provides NRC 0.80 sound absorption.",
+      "required."
     ]
   },
   "source_excerpt": null,

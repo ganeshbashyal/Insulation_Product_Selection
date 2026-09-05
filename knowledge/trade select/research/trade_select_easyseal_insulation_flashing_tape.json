@@ -65,7 +65,49 @@
       "Application"
     ]
   },
-  "retrieval": {},
+  "retrieval": {
+    "search_keywords": [
+      "EasySeal flashing tape",
+      "Trade Select\n    EasySeal",
+      "condensation",
+      "easy_install",
+      "external wall",
+      "insulation flashing tape",
+      "roof",
+      "roofline",
+      "wall",
+      "weatherproof butyl tape",
+      "window sill flashing tape"
+    ],
+    "problem_keywords": [
+      "- Placement: [\"wall\", \"external wall\", \"roof\", \"roofline\"]",
+      "- Positive Recommendation Rule: Heavy-duty weather-flashing tape. Use 150mm",
+      "- Priority Fit: [\"easy_install\", \"condensation\"]",
+      "Water leaking through window rough openings",
+      "air leakage",
+      "around door reveals",
+      "prior to window placement.",
+      "tape failing to seal around plumbing pipes penetrating",
+      "wall wraps.",
+      "width to create a continuous waterproof sill pan under window installations"
+    ],
+    "placement": [
+      "\"condensation\"] - Positive Recommendation Rule: Heavy-duty weather-flashing tape. Use 150mm width to create a continuous waterproof sill pan under window installations prior to window placement",
+      "\"external wall\"",
+      "\"roof\"",
+      "\"roofline\"] - Priority Fit: [\"easy_install\"",
+      "[\"wall\""
+    ],
+    "use_cases": [
+      "Heavy-duty weather-flashing tape. Use 150mm",
+      "prior to window placement.",
+      "width to create a continuous waterproof sill pan under window installations"
+    ],
+    "priority_fit": [
+      "condensation",
+      "easy_install"
+    ]
+  },
   "source_excerpt": null,
   "engine": "manual_range_injection",
   "range_source": "manufacturer size/packaging breakdown (hand-supplied 2026-09-06)"

@@ -40,21 +40,41 @@
     "search_keywords": [
       "3D air return ceiling tile",
       "600x600 open top tile",
+      "Frame square\n    uncapped",
       "Frame square uncapped",
       "Vertex square uncapped",
       "uncapped 600x600 grid tile"
     ],
     "problem_keywords": [
-      "Space needs architectural 3D ceiling relief in 600x600 grids, but mechanical HVAC requires return air circulation straight through the ceiling grid into the plenum."
+      "- Negative Filter (not_for): Do not specify if customer wants to hide ugly",
+      "- Placement: Ceiling (600x600 suspended grid).",
+      "- Positive Recommendation Rule: When airflow circulation, smoke dissipation,",
+      "Space needs architectural 3D ceiling relief in 600x600",
+      "Space needs architectural 3D ceiling relief in 600x600 grids, but mechanical HVAC requires return air circulation straight through the ceiling grid into the plenum.",
+      "ductwork or requires maximum sound absorption (specify Capped instead).",
+      "grids, but mechanical HVAC requires return air circulation straight through",
+      "or pendant downlight integration through the ceiling tile into the open",
+      "plenum is necessary.",
+      "the ceiling grid into the plenum."
     ],
     "placement": [
-      "Ceiling (600x600 suspended grid)"
+      "Ceiling (600x600 suspended grid)",
+      "Ceiling (600x600 suspended grid). - Positive Recommendation Rule: When airflow circulation",
+      "or pendant downlight integration through the ceiling tile into the open plenum is necessary. - Negative Filter (not_for): Do not specify if customer wants to hide ugly ductwork or requires maximum sound absorption (specify Capped instead)",
+      "smoke dissipation"
     ],
     "not_for": [
+      "ductwork or requires maximum sound absorption (specify Capped instead).",
+      "not_for): Do not specify if customer wants to hide ugly",
       "not_for): Do not specify if customer wants to hide ugly ductwork or requires maximum sound absorption (specify Capped instead)."
     ],
     "use_cases": [
-      "When airflow circulation, smoke dissipation, or pendant downlight integration through the ceiling tile into the open plenum is necessary."
+      "- Negative Filter (not_for): Do not specify if customer wants to hide ugly",
+      "When airflow circulation, smoke dissipation,",
+      "When airflow circulation, smoke dissipation, or pendant downlight integration through the ceiling tile into the open plenum is necessary.",
+      "ductwork or requires maximum sound absorption (specify Capped instead).",
+      "or pendant downlight integration through the ceiling tile into the open",
+      "plenum is necessary."
     ]
   },
   "source_excerpt": null,

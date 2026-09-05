@@ -11,29 +11,63 @@
       "Autex batts",
       "GreenStuf batts",
       "R2.5 GreenStuf",
+      "asthma friendly",
       "itch-free insulation",
+      "no-itch",
       "non-toxic ceiling batts",
-      "polyester batts"
+      "polyester\n    batts",
+      "polyester batts",
+      "zero VOC"
     ],
     "problem_keywords": [
+      "- Negative Filter (not_for): Not an exposed decorative finish (must be covered",
+      "- Placement: Ceiling, wall, internal wall, external wall, between floors.",
+      "- Positive Recommendation Rule: When customer asks for \"asthma friendly\",",
+      "- Warranty Support: 50-Year Durability Warranty.",
+      "580mm width for 600mm",
+      "Customer or installer refuses to handle glasswool due to",
       "Customer or installer refuses to handle glasswool due to itching/skin irritation",
+      "Thermal Batts. 430mm width for 450mm stud centres",
       "asthma and severe allergy concerns",
-      "slumping insulation in walls."
+      "by plasterboard)",
+      "insulation in walls.",
+      "itching/skin irritation",
+      "not for high-temperature flue pipes (>120°C).",
+      "slumping",
+      "slumping insulation in walls.",
+      "stud centres.",
+      "zero VOC\", or \"no-itch\" bulk insulation, default directly to GreenStuf"
     ],
     "placement": [
+      "\"zero VOC\"",
       "Ceiling",
       "between floors",
+      "between floors. - Positive Recommendation Rule: When customer asks for \"asthma friendly\"",
+      "default directly to GreenStuf Thermal Batts. 430mm width for 450mm stud centres; 580mm width for 600mm stud centres. - Negative Filter (not_for): Not an exposed decorative finish (must be covered by plasterboard); not for high-temperature flue pipes (>120°C). - Warranty Support: 50-Year Durability Warranty",
       "external wall",
       "internal wall",
+      "or \"no-itch\" bulk insulation",
       "wall"
     ],
     "not_for": [
+      "- Warranty Support: 50-Year Durability Warranty.",
+      "by plasterboard)",
       "not for high-temperature flue pipes (>120°C).",
+      "not_for): Not an exposed decorative finish (must be covered",
       "not_for): Not an exposed decorative finish (must be covered by plasterboard)"
     ],
     "use_cases": [
+      "- Negative Filter (not_for): Not an exposed decorative finish (must be covered",
+      "- Warranty Support: 50-Year Durability Warranty.",
+      "580mm width for 600mm",
       "580mm width for 600mm stud centres.",
-      "When customer asks for \"asthma friendly\", \"zero VOC\", or \"no-itch\" bulk insulation, default directly to GreenStuf Thermal Batts. 430mm width for 450mm stud centres"
+      "Thermal Batts. 430mm width for 450mm stud centres",
+      "When customer asks for \"asthma friendly\",",
+      "When customer asks for \"asthma friendly\", \"zero VOC\", or \"no-itch\" bulk insulation, default directly to GreenStuf Thermal Batts. 430mm width for 450mm stud centres",
+      "by plasterboard)",
+      "not for high-temperature flue pipes (>120°C).",
+      "stud centres.",
+      "zero VOC\", or \"no-itch\" bulk insulation, default directly to GreenStuf"
     ]
   },
   "source_excerpt": null,

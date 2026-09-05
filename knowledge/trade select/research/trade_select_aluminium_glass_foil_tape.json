@@ -49,7 +49,56 @@
       "Pallet"
     ]
   },
-  "retrieval": {},
+  "retrieval": {
+    "search_keywords": [
+      "AGFT100",
+      "Trade Select Aluminium Glass Foil Tape",
+      "condensation",
+      "duct",
+      "easy_install",
+      "external wall",
+      "glass cloth foil tape",
+      "heavy\n    duty duct tape foil",
+      "pipe",
+      "reinforced foil tape 100mm",
+      "roof",
+      "roofline",
+      "thermal",
+      "wall"
+    ],
+    "problem_keywords": [
+      "- Placement: [\"roof\", \"roofline\", \"wall\", \"external wall\", \"duct\", \"pipe\"]",
+      "- Positive Recommendation Rule: Use 72mm or 100mm AGFT on high-wind commercial",
+      "- Priority Fit: [\"easy_install\", \"condensation\", \"thermal\"]",
+      "Standard foil tape ripping under high wind pressure on",
+      "commercial roofs",
+      "high-vibration commercial HVAC ductwork joints splitting.",
+      "roof sarking laps, heavy industrial duct wrap, and thermal break strips",
+      "where maximum mechanical tear strength is mandatory."
+    ],
+    "placement": [
+      "\"condensation\"",
+      "\"duct\"",
+      "\"external wall\"",
+      "\"pipe\"] - Priority Fit: [\"easy_install\"",
+      "\"roofline\"",
+      "\"thermal\"] - Positive Recommendation Rule: Use 72mm or 100mm AGFT on high-wind commercial roof sarking laps",
+      "\"wall\"",
+      "[\"roof\"",
+      "and thermal break strips where maximum mechanical tear strength is mandatory",
+      "heavy industrial duct wrap"
+    ],
+    "use_cases": [
+      "Use 72mm or 100mm AGFT on high-wind commercial",
+      "roof sarking laps, heavy industrial duct wrap, and thermal break strips",
+      "where maximum mechanical tear strength is mandatory."
+    ],
+    "priority_fit": [
+      "condensation",
+      "easy_install",
+      "thermal"
+    ]
+  },
   "source_excerpt": null,
   "engine": "manual_range_injection",
   "range_source": "manufacturer size/packaging breakdown (hand-supplied 2026-09-06)"

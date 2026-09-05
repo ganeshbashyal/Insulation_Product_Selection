@@ -23,35 +23,53 @@
   "retrieval": {
     "search_keywords": [
       "Ballistic Point\nInsulation Fastener",
+      "Ballistic point insulation fasteners",
+      "GTIF\n    fasteners",
       "ICCONS ballistic point fastener",
-      "drive pin insulation\nfastener",
-      "concrete insulation fastener",
-      "gas nail insulation fastener",
+      "ICCONS insulation pins",
       "Metecno ballistic fastener",
+      "concrete insulation fastener",
+      "concrete soffit pins",
+      "drive pin insulation\nfastener",
+      "gas nail insulation fastener",
+      "gas nail insulation fasteners",
       "soffit insulation pin"
     ],
     "problem_keywords": [
-      "slow drilling and fixing soffit insulation",
-      "insulation fasteners pulling out\nof concrete",
-      "thermal bridging through metal fasteners",
+      "(Kooltherm K10, Pink Thermal Slab, or XPS) to concrete.",
+      "- Placement: Concrete soffits, carpark ceilings, precast basement walls.",
+      "- Positive Recommendation Rule: The fastest method for installing rigid boards",
+      "Hand-drilling thousands of holes overhead in hard concrete",
+      "anchor pull-outs.",
+      "carpark ceilings is exhausting and slow",
       "fastening rigid\ninsulation to concrete ceiling",
-      "fixing facade insulation to masonry"
+      "fixing facade insulation to masonry",
+      "insulation fasteners pulling out\nof concrete",
+      "slow drilling and fixing soffit insulation",
+      "thermal bridging through metal fasteners"
     ],
     "placement": [
+      "Concrete soffits",
+      "Pink Thermal Slab",
+      "carpark ceilings",
       "ceiling",
-      "wall",
       "external wall",
       "floor",
-      "underfloor"
+      "or XPS) to concrete",
+      "precast basement walls. - Positive Recommendation Rule: The fastest method for installing rigid boards (Kooltherm K10",
+      "underfloor",
+      "wall"
     ],
     "priority_fit": [
       "easy_install",
       "thermal"
     ],
     "use_cases": [
+      "(Kooltherm K10, Pink Thermal Slab, or XPS) to concrete.",
+      "Direct-fixing carpark\nceiling insulation boards without pre-drilling",
       "High-speed\nfastening of rigid insulation boards (EPS, PIR, phenolic) to concrete soffits\nusing gas or powder-actuated tools",
       "Securing commercial facade insulation\npanels to structural concrete columns and masonry walls",
-      "Direct-fixing carpark\nceiling insulation boards without pre-drilling"
+      "The fastest method for installing rigid boards"
     ],
     "not_for": [
       "Timber framing\nwithout concrete backing",

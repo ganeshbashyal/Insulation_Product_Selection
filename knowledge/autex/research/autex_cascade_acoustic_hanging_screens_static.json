@@ -38,21 +38,39 @@
       "Cascade Static",
       "decorative acoustic divider",
       "patterned hanging screen",
+      "perforated felt\n    screen",
       "perforated felt screen",
       "water cut acoustic screen"
     ],
     "problem_keywords": [
-      "Need clear sightline preservation with decorative patterns (botanical, linear, or lattice) while controlling background office chatter."
+      "(botanical, linear, or lattice) while controlling background office chatter.",
+      "- Negative Filter (not_for): Physical security or barrier loading (cannot",
+      "- Placement: Ceiling suspended, internal space divider.",
+      "- Positive Recommendation Rule: Recommend when an architect has a specific 2D",
+      "Need clear sightline preservation with decorative patterns",
+      "Need clear sightline preservation with decorative patterns (botanical, linear, or lattice) while controlling background office chatter.",
+      "decorative perforated pattern requirement or custom logo/motif to be",
+      "precision water-cut into the screen.",
+      "withstand climbing or heavy impact)."
     ],
     "placement": [
       "Ceiling suspended",
-      "internal space divider"
+      "internal space divider",
+      "internal space divider. - Positive Recommendation Rule: Recommend when an architect has a specific 2D decorative perforated pattern requirement or custom logo",
+      "motif to be precision water-cut into the screen. - Negative Filter (not_for): Physical security or barrier loading (cannot withstand climbing or heavy impact)"
     ],
     "not_for": [
-      "not_for): Physical security or barrier loading (cannot withstand climbing or heavy impact)."
+      "not_for): Physical security or barrier loading (cannot",
+      "not_for): Physical security or barrier loading (cannot withstand climbing or heavy impact).",
+      "withstand climbing or heavy impact)."
     ],
     "use_cases": [
-      "Recommend when an architect has a specific 2D decorative perforated pattern requirement or custom logo/motif to be precision water-cut into the screen."
+      "- Negative Filter (not_for): Physical security or barrier loading (cannot",
+      "Recommend when an architect has a specific 2D",
+      "Recommend when an architect has a specific 2D decorative perforated pattern requirement or custom logo/motif to be precision water-cut into the screen.",
+      "decorative perforated pattern requirement or custom logo/motif to be",
+      "precision water-cut into the screen.",
+      "withstand climbing or heavy impact)."
     ]
   },
   "source_excerpt": null,

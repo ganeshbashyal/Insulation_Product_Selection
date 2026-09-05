@@ -119,27 +119,42 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Autex Verve Cube",
-      "Verve Contoured Panel",
-      "fluted\nacoustic wall panel",
-      "sculpted acoustic panels",
       "3D contoured wall panel",
+      "3D fluted felt panel",
+      "Autex Verve Cube",
+      "Autex Verve solid colour",
       "Cube contoured panel",
+      "Verve Contoured Panel",
+      "Verve Cube",
       "Verve Flute Cube",
       "Verve Ovolo Cube",
-      "Verve Pillar\nCube"
+      "Verve Pillar\nCube",
+      "fluted\nacoustic wall panel",
+      "sculpted acoustic panels",
+      "sculpted acoustic wall panels"
     ],
     "problem_keywords": [
-      "flat boring drywall walls",
-      "echo in commercial\nboardroom",
-      "reverberation in open plan office",
-      "need sculptural acoustic\nfeature wall",
+      "- Placement: Wall, internal wall.",
+      "- Positive Recommendation Rule: Specify for custom boardroom feature walls,",
+      "Flat acoustic felt lacks architectural character",
       "distracting office chatter",
-      "meeting room speech privacy"
+      "echo in commercial\nboardroom",
+      "flat boring drywall walls",
+      "meeting room speech privacy",
+      "need bold 3D fluted or pillared walls in consistent brand/interior colors.",
+      "need sculptural acoustic\nfeature wall",
+      "reverberation in open plan office",
+      "solid-dyed polyester.",
+      "spaces",
+      "theatre entrances, and hotel lobbies requiring sculptural 3D relief in"
     ],
     "placement": [
-      "wall",
-      "internal wall"
+      "Wall",
+      "and hotel lobbies requiring sculptural 3D relief in solid-dyed polyester",
+      "internal wall",
+      "internal wall. - Positive Recommendation Rule: Specify for custom boardroom feature walls",
+      "theatre entrances",
+      "wall"
     ],
     "priority_fit": [
       "acoustic",
@@ -148,9 +163,12 @@
       "easy_install"
     ],
     "use_cases": [
-      "Creating sculpted 3D\nacoustic feature walls in commercial office boardrooms and receptions",
       "Acoustic treatment in creative workspaces, university lecture spaces, and\nlibraries",
-      "Adding architectural depth and noise dampening to modern retail\nstores and dining venues"
+      "Adding architectural depth and noise dampening to modern retail\nstores and dining venues",
+      "Creating sculpted 3D\nacoustic feature walls in commercial office boardrooms and receptions",
+      "Specify for custom boardroom feature walls,",
+      "solid-dyed polyester.",
+      "theatre entrances, and hotel lobbies requiring sculptural 3D relief in"
     ],
     "not_for": [
       "Flooring or subfloor applications",

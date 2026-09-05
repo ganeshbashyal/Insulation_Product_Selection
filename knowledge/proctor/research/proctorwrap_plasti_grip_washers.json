@@ -96,43 +96,84 @@
   },
   "retrieval": {
     "search_keywords": [
-      "ProctorWrap PlastiGrip Washers",
+      "45mm\ninsulation washers",
+      "45mm plastic washers",
+      "PlastiGrip",
       "PlastiGrip Washers",
       "Proctor PlastiGrip",
-      "wall wrap washers",
-      "45mm\ninsulation washers",
+      "Proctor buttons",
+      "ProctorWrap PlastiGrip Washers",
+      "ProctorWrap washers",
+      "easy_install",
+      "external wall",
+      "internal wall",
       "membrane fixing buttons",
-      "sarking fixing washers",
       "plastic cap washers",
-      "Proctor buttons"
-    ],
-    "problem_keywords": [
-      "staples\ntearing through wall wrap",
-      "wind blowing building wrap off frame",
-      "insulation\nboards pulling over screw heads",
-      "tears at fastener points in high winds",
-      "water leaks around staple penetrations"
-    ],
-    "placement": [
-      "wall",
-      "external\nwall",
       "roof",
       "roofline",
-      "internal wall"
+      "sarking fixing washers",
+      "sarking washers",
+      "thermal",
+      "wall",
+      "wall wrap washers"
+    ],
+    "problem_keywords": [
+      "- Negative Filter (not_for): Do not overtighten screws (causes cupped head",
+      "- Placement: [\"wall\", \"external wall\", \"roof\", \"roofline\", \"internal wall\"]",
+      "- Positive Recommendation Rule: Recommend on every jobsite using timber or",
+      "- Priority Fit: [\"easy_install\", \"thermal\"]",
+      "High wind tearing building wraps and roof underlays off",
+      "deformation). Cladding must be installed within the UV exposure window of",
+      "insulation\nboards pulling over screw heads",
+      "rigid foam boards cracking under screw heads.",
+      "scaffolding. Prevents wind blow-offs and water leaks.",
+      "staple lines on multi-storey framing",
+      "staples\ntearing through wall wrap",
+      "steel framing in wind regions B, C, or D, and on exposed multi-storey",
+      "tears at fastener points in high winds",
+      "the membrane.",
+      "water leaking through staple holes",
+      "water leaks around staple penetrations",
+      "wind blowing building wrap off frame"
+    ],
+    "placement": [
+      "\"external wall\"",
+      "\"internal wall\"] - Priority Fit: [\"easy_install\"",
+      "\"roof\"",
+      "\"roofline\"",
+      "\"thermal\"] - Positive Recommendation Rule: Recommend on every jobsite using timber or steel framing in wind regions B",
+      "C",
+      "[\"wall\"",
+      "and on exposed multi-storey scaffolding. Prevents wind blow-offs and water leaks. - Negative Filter (not_for): Do not overtighten screws (causes cupped head deformation). Cladding must be installed within the UV exposure window of the membrane",
+      "external\nwall",
+      "internal wall",
+      "or D",
+      "roof",
+      "roofline",
+      "wall"
     ],
     "priority_fit": [
       "easy_install",
       "thermal"
     ],
     "use_cases": [
+      "- Negative Filter (not_for): Do not overtighten screws (causes cupped head",
       "Fixing vapour-permeable wall wraps to steel framing\nstuds with screws in high-wind environments",
+      "Mechanically fastening\nrigid foam and insulation boards to exterior walls before cladding",
+      "Recommend on every jobsite using timber or",
       "Securing building wraps to timber\nframes as a tear-resistant alternative to staples",
-      "Mechanically fastening\nrigid foam and insulation boards to exterior walls before cladding"
+      "deformation). Cladding must be installed within the UV exposure window of",
+      "scaffolding. Prevents wind blow-offs and water leaks.",
+      "steel framing in wind regions B, C, or D, and on exposed multi-storey",
+      "the membrane."
     ],
     "not_for": [
-      "Permanent exposure to direct sunlight without cladding",
       "Direct\nstructural load-bearing cladding attachment",
-      "Underwater hydrostatic\napplications"
+      "Permanent exposure to direct sunlight without cladding",
+      "Underwater hydrostatic\napplications",
+      "deformation). Cladding must be installed within the UV exposure window of",
+      "not_for): Do not overtighten screws (causes cupped head",
+      "the membrane."
     ],
     "rag_summary": "ProctorWrap Plasti-Grip Washers are 45mm\ndiameter polypropylene fixing discs engineered to secure building wraps and\nrigid insulation boards to timber and steel framing. Designed with a flat base,\nflexible perimeter, and 5mm deep cupped head, they distribute clamping loads\nover an enlarged area to eliminate wind tear-out and water leakage associated\nwith staples. Compatible with 8g-10g screws and galvanised clouts at 4 per\nsquare metre, they ensure secure, tear-free mechanical fixing compliant with\nAS/NZS 4200.2:2017."
   },

@@ -41,23 +41,46 @@
       "Composition smooth",
       "Symphony panel",
       "acoustic pinboard tiles 600x600",
+      "peel and\n    stick pinboard",
       "peel and stick pinboard",
       "smooth acoustic wall panel"
     ],
     "problem_keywords": [
+      "- Negative Filter (not_for): Do not apply over powdery, unprimed plasterboard",
+      "- Placement: Wall, internal wall.",
+      "- Positive Recommendation Rule: Recommend Peel 'n' Stick tiles for DIY/modular",
       "Echo in classrooms and offices",
+      "damaged drywall from",
       "damaged drywall from pinboard pins",
-      "need for a sleek, non-fluffy pinboard surface that holds notices and dampens speech."
+      "installations",
+      "need for a sleek, non-fluffy pinboard surface that holds",
+      "need for a sleek, non-fluffy pinboard surface that holds notices and dampens speech.",
+      "noticeboards.",
+      "notices and dampens speech.",
+      "or unsealed concrete (must be sealed with a wallboard primer).",
+      "pinboard pins",
+      "recommend 1200x2400mm panels for continuous commercial"
     ],
     "placement": [
       "Wall",
-      "internal wall"
+      "internal wall",
+      "internal wall. - Positive Recommendation Rule: Recommend Peel 'n' Stick tiles for DIY",
+      "modular installations; recommend 1200x2400mm panels for continuous commercial noticeboards. - Negative Filter (not_for): Do not apply over powdery",
+      "unprimed plasterboard or unsealed concrete (must be sealed with a wallboard primer)"
     ],
     "not_for": [
-      "not_for): Do not apply over powdery, unprimed plasterboard or unsealed concrete (must be sealed with a wallboard primer)."
+      "not_for): Do not apply over powdery, unprimed plasterboard",
+      "not_for): Do not apply over powdery, unprimed plasterboard or unsealed concrete (must be sealed with a wallboard primer).",
+      "or unsealed concrete (must be sealed with a wallboard primer)."
     ],
     "use_cases": [
+      "- Negative Filter (not_for): Do not apply over powdery, unprimed plasterboard",
+      "Recommend Peel 'n' Stick tiles for DIY/modular",
       "Recommend Peel 'n' Stick tiles for DIY/modular installations",
+      "installations",
+      "noticeboards.",
+      "or unsealed concrete (must be sealed with a wallboard primer).",
+      "recommend 1200x2400mm panels for continuous commercial",
       "recommend 1200x2400mm panels for continuous commercial noticeboards."
     ]
   },

@@ -152,30 +152,56 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Fletcher FI32",
-      "FI32 Semi-Rigid Insulation",
+      "32kg duct\n    insulation",
       "32kg duct\ninsulation",
-      "internal duct liner",
-      "semi rigid glasswool board",
+      "Black Matt\n    Facing FI32",
+      "Black Matt\nFacing ductliner",
+      "FI32 Semi-Rigid Insulation",
+      "FI32 semi rigid",
       "FI32 sheet\ninsulation",
+      "Fletcher FI32",
       "Fletcher HVAC board",
+      "HDP perforated FI32",
       "HDP perforated ductliner",
-      "Black Matt\nFacing ductliner"
+      "internal duct liner",
+      "internal ductliner 32kg",
+      "semi rigid glasswool board"
     ],
     "problem_keywords": [
-      "fan noise in air ducts",
-      "heat gain\nin sheet metal ductwork",
-      "rumbling plant room noise",
-      "sweating air\nconditioning ducts",
+      "- Negative Filter (not_for): BMF facing cannot withstand mechanical brush duct",
+      "- Placement: Inside sheet metal ducts, plant room walls, acoustic baffles,",
+      "- Positive Recommendation Rule: Standard specification for internal HVAC duct",
+      "High-velocity HVAC fan roar",
       "air turbulence noise in HVAC",
+      "airstreams (up to 20 m/s)",
+      "cladding.",
+      "cleaning",
+      "do not install on outdoor ductwork without external sheet metal",
+      "fan noise in air ducts",
+      "grilles where insulation must remain visually black and non-reflective.",
+      "heat gain\nin sheet metal ductwork",
+      "heat gain in commercial",
+      "industrial vessels.",
+      "lining. Specify HDP (Heavy Duty Perforated Foil) for high-velocity",
+      "noise breakout from mechanical plant rooms and silencer",
+      "rumbling plant room noise",
+      "specify BMF (Black Matt Facing) behind return air",
+      "splitters.",
+      "supply ducts",
+      "sweating air\nconditioning ducts",
       "thermal loss on storage\nvessels"
     ],
     "placement": [
+      "Inside sheet metal ducts",
+      "acoustic baffles",
+      "ceiling",
       "duct",
-      "pipe",
-      "wall",
+      "industrial vessels. - Positive Recommendation Rule: Standard specification for internal HVAC duct lining. Specify HDP (Heavy Duty Perforated Foil) for high-velocity airstreams (up to 20 m",
       "internal wall",
-      "ceiling"
+      "pipe",
+      "plant room walls",
+      "s); specify BMF (Black Matt Facing) behind return air grilles where insulation must remain visually black and non-reflective. - Negative Filter (not_for): BMF facing cannot withstand mechanical brush duct cleaning; do not install on outdoor ductwork without external sheet metal cladding",
+      "wall"
     ],
     "priority_fit": [
       "thermal",
@@ -183,14 +209,27 @@
       "fire"
     ],
     "use_cases": [
+      "- Negative Filter (not_for): BMF facing cannot withstand mechanical brush duct",
+      "Insulating industrial process tanks, storage vessels, and\nelectrostatic precipitators",
       "Internal\nacoustic and thermal lining of sheet metal supply and return air conditioning\nducts",
       "Sound absorption lining inside plant rooms, generator enclosures, and\ndata centers",
-      "Insulating industrial process tanks, storage vessels, and\nelectrostatic precipitators"
+      "Standard specification for internal HVAC duct",
+      "airstreams (up to 20 m/s)",
+      "cladding.",
+      "cleaning",
+      "do not install on outdoor ductwork without external sheet metal",
+      "grilles where insulation must remain visually black and non-reflective.",
+      "lining. Specify HDP (Heavy Duty Perforated Foil) for high-velocity",
+      "specify BMF (Black Matt Facing) behind return air"
     ],
     "not_for": [
       "External weather-exposed surfaces\nwithout metal cladding",
+      "High-velocity\nairstreams without edge sealing",
       "Underfloor suspended timber floors",
-      "High-velocity\nairstreams without edge sealing"
+      "cladding.",
+      "cleaning",
+      "do not install on outdoor ductwork without external sheet metal",
+      "not_for): BMF facing cannot withstand mechanical brush duct"
     ],
     "rag_summary": "Fletcher FI32 Semi-Rigid\nInsulation is a 32 kg/m³ high-density glasswool board and roll insulation\nengineered for internal HVAC duct lining and industrial vessel lagging.\nDelivering superior sound absorption (NRC up to 1.00) and thermal conductivity\nof 0.032 W/m·K, it is available unfaced or with Sisalation HDP perforated foil,\nBlack Matt Facing, or Vapastop 883 vapour barrier. CodeMark certified (CM 30006)\nand non-combustible to AS 1530.1, it dampens air turbulence, fan noise, and heat\ntransfer in commercial ductwork and plant rooms."
   },

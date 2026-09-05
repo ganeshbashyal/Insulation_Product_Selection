@@ -128,31 +128,47 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Ecowool\nNoiseBreak",
-      "NoiseBreak batts",
-      "NoiseBreak acoustic insulation",
-      "high density\nacoustic batts",
-      "PGF NoiseBreak",
-      "R2.5 NoiseBreak",
-      "R2.7 NoiseBreak",
-      "R2.0\nNoiseBreak",
       "32kg acoustic batts",
+      "Ecowool\nNoiseBreak",
+      "Ecowool NoiseBreak",
+      "NoiseBreak acoustic insulation",
+      "NoiseBreak batts",
+      "PGF\n    NoiseBreak",
+      "PGF NoiseBreak",
+      "R2.0\nNoiseBreak",
+      "R2.5 NoiseBreak",
+      "R2.7 32kg\n    NoiseBreak",
+      "R2.7 NoiseBreak",
+      "high density\nacoustic batts",
+      "high density sound batts",
       "internal wall sound batts"
     ],
     "problem_keywords": [
-      "noise between bedrooms",
-      "home theatre sound\ntransmission",
-      "toilet flushing noise through internal wall",
-      "hearing music\nbetween rooms",
+      "- Placement: Internal wall, external wall, ceiling, between floors.",
+      "- Positive Recommendation Rule: The direct competitor to Bradford SoundScreen",
+      "Plumbing pipes knocking inside internal walls",
+      "R2.5 or R2.7 for 90mm walls around master bedrooms and home theatres.",
+      "TV/music keeping parents awake",
+      "and Fletcher Soundbreak. Recommend R2.0 (70mm) for standard 70mm internal",
+      "children's",
+      "duplex tenancies.",
       "footstep noise between floors",
-      "inter-tenancy noise in duplex"
+      "hearing music\nbetween rooms",
+      "home theatre sound\ntransmission",
+      "inter-tenancy noise in duplex",
+      "meeting strict Rw acoustic ratings between",
+      "noise between bedrooms",
+      "studs",
+      "toilet flushing noise through internal wall"
     ],
     "placement": [
-      "wall",
-      "internal wall",
-      "external wall",
+      "Internal wall",
+      "between\nfloors",
+      "between floors. - Positive Recommendation Rule: The direct competitor to Bradford SoundScreen and Fletcher Soundbreak. Recommend R2.0 (70mm) for standard 70mm internal studs; R2.5 or R2.7 for 90mm walls around master bedrooms and home theatres",
       "ceiling",
-      "between\nfloors"
+      "external wall",
+      "internal wall",
+      "wall"
     ],
     "priority_fit": [
       "acoustic",
@@ -161,9 +177,13 @@
       "sustainability"
     ],
     "use_cases": [
-      "Internal wall acoustic insulation between bedrooms, bathrooms,\nand home theatre rooms",
+      "Acoustic and thermal dampening in\nexternal walls facing busy street traffic",
       "Acoustic cavity infill between storeys in multi-level\nhomes to reduce floor-to-floor noise",
-      "Acoustic and thermal dampening in\nexternal walls facing busy street traffic"
+      "Internal wall acoustic insulation between bedrooms, bathrooms,\nand home theatre rooms",
+      "R2.5 or R2.7 for 90mm walls around master bedrooms and home theatres.",
+      "The direct competitor to Bradford SoundScreen",
+      "and Fletcher Soundbreak. Recommend R2.0 (70mm) for standard 70mm internal",
+      "studs"
     ],
     "not_for": [
       "Direct underfloor\napplications exposed to wind",

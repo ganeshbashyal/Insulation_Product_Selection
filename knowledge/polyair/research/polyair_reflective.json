@@ -117,30 +117,45 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Polyair Reflective",
       "Polyair\ninsulation",
-      "Polyair Performa",
       "Polyair 7.0",
       "Polyair 8.0",
-      "foam cell\nreflective insulation",
-      "thermal break foam foil",
+      "Polyair Performa",
+      "Polyair Reflective",
+      "Polyair shed\n    insulation",
       "Polyair shed insulation",
-      "reflective foam insulation"
+      "foam cell\nreflective insulation",
+      "reflective foam insulation",
+      "thermal break foam foil"
     ],
     "problem_keywords": [
-      "radiant heat in tin\nshed",
-      "thermal bridging on steel framing studs",
+      "- Placement: Roof, roofline, wall, external wall, shed.",
+      "- Positive Recommendation Rule: When installing steel-framed roofs or walls",
+      "BATCH 020",
+      "Thermal bridging through steel framing studs and roof",
       "condensation dripping from\nmetal roof",
+      "dripping condensation under corrugated iron",
       "hot metal roof space in summer",
-      "sweating steel portal frames"
+      "hot tin sheds in",
+      "mandates, specify Polyair Performa 7.0/8.0.",
+      "purlins",
+      "radiant heat in tin\nshed",
+      "requiring an in-situ R0.20 thermal break to meet NCC energy efficiency",
+      "summer.",
+      "sweating steel portal frames",
+      "thermal bridging on steel framing studs"
     ],
     "placement": [
+      "8.0",
+      "Roof",
+      "ceiling",
+      "external wall",
       "roof",
       "roofline",
-      "wall",
-      "external wall",
       "shed",
-      "ceiling"
+      "shed. - Positive Recommendation Rule: When installing steel-framed roofs or walls requiring an in-situ R0.20 thermal break to meet NCC energy efficiency mandates",
+      "specify Polyair Performa 7.0",
+      "wall"
     ],
     "priority_fit": [
       "thermal",
@@ -149,9 +164,13 @@
       "fire"
     ],
     "use_cases": [
+      "BATCH 020",
       "Installing over steel roof purlins and wall girts to provide a\ncompliant R0.20 thermal break in metal buildings",
       "Radiant heat reflection and\ncondensation control in domestic garages, workshops, and rural steel sheds",
-      "Thermal barrier insulation under corrugated metal roofs in residential homes"
+      "Thermal barrier insulation under corrugated metal roofs in residential homes",
+      "When installing steel-framed roofs or walls",
+      "mandates, specify Polyair Performa 7.0/8.0.",
+      "requiring an in-situ R0.20 thermal break to meet NCC energy efficiency"
     ],
     "not_for": [
       "Cold climate wall cavities requiring Class 4 vapour-permeable\nwraps",

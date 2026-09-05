@@ -118,25 +118,43 @@
   "retrieval": {
     "search_keywords": [
       "Autex Vicinity Slate",
+      "Autex workstation screen",
+      "Cube desk\nscreen",
+      "Slate 600",
+      "Slate 800",
+      "Vicinity Slate",
+      "Vicinity acoustic divider",
       "Vicinity desk\nscreen Slate",
       "acoustic desk screen",
-      "Autex workstation screen",
+      "desk clamp acoustic screen",
+      "desk divider between adjacent chairs",
+      "desk privacy divider",
       "pinnable\ndesk divider",
       "polyester acoustic screen",
-      "desk privacy divider",
-      "Cube desk\nscreen",
-      "Vicinity acoustic divider",
-      "desk clamp acoustic screen"
+      "short edge desk\n    screen",
+      "side desk screen"
     ],
     "problem_keywords": [
-      "noisy open plan office",
+      "- Negative Filter (not_for): Not long enough for rear desk dividers (use",
+      "- Placement: Internal partition / desk side mount.",
+      "- Positive Recommendation Rule: Specifically sized for the short depth of",
+      "Colleagues sitting side-by-side on long bench desks",
+      "Hedge 1600 or 1800 for rear edges).",
+      "along continuous shared bench desking.",
       "distracting desk-to-desk\nchatter",
+      "interfering with each other's workspaces",
       "lack of desk privacy",
-      "reverberation at workstation level",
+      "need dividers on the 800mm short",
+      "noisy open plan office",
       "phone\nnoise in open office",
-      "unattractive desk partitions"
+      "reverberation at workstation level",
+      "side of desks.",
+      "unattractive desk partitions",
+      "workstations (600mm or 800mm deep desks) to divide adjacent seated workers"
     ],
     "placement": [
+      "Internal partition",
+      "desk side mount. - Positive Recommendation Rule: Specifically sized for the short depth of workstations (600mm or 800mm deep desks) to divide adjacent seated workers along continuous shared bench desking. - Negative Filter (not_for): Not long enough for rear desk dividers (use Hedge 1600 or 1800 for rear edges)",
       "internal wall"
     ],
     "priority_fit": [
@@ -146,14 +164,21 @@
       "easy_install"
     ],
     "use_cases": [
-      "Mounting to commercial workstations in\nopen-plan offices to mitigate voice transfer between desks",
+      "- Negative Filter (not_for): Not long enough for rear desk dividers (use",
       "Creating focused\nacoustic study carrels in university libraries and schools",
-      "Providing visual\nand sound separation on sit-to-stand desks without drilling into desktops"
+      "Hedge 1600 or 1800 for rear edges).",
+      "Mounting to commercial workstations in\nopen-plan offices to mitigate voice transfer between desks",
+      "Providing visual\nand sound separation on sit-to-stand desks without drilling into desktops",
+      "Specifically sized for the short depth of",
+      "along continuous shared bench desking.",
+      "workstations (600mm or 800mm deep desks) to divide adjacent seated workers"
     ],
     "not_for": [
-      "Wall cavity thermal insulation batts",
+      "External building cladding",
       "Flooring or underfoot\napplications",
-      "External building cladding"
+      "Hedge 1600 or 1800 for rear edges).",
+      "Wall cavity thermal insulation batts",
+      "not_for): Not long enough for rear desk dividers (use"
     ],
     "rag_summary": "Autex Vicinity -\nDesk Screen - Slate is a lightweight acoustic workstation partition made\nfrom 12mm or 24mm Cube semi-rigid polyester felt containing at least 80%\nrecycled PET. Specifically shaped in the tailored Slate profile, it fixes\nnon-destructively to desktops via 100% recycled PET Vicinity clamps to absorb\nvoice frequencies (0.50 Sabins per 800mm unit) right where open-plan chatter\nstarts. Rated Group 1 fire compliant under AS ISO 9705 and certified carbon\nneutral, it provides durable, pinnable acoustic and visual shelter for modern\nagile offices."
   },

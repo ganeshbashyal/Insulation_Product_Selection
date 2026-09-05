@@ -87,19 +87,28 @@
   "retrieval": {
     "search_keywords": [
       "Foilboard Blank Plates",
+      "Foilboard blank plates",
+      "Foilboard fixing washers",
+      "Foilboard plates 250",
+      "Foilboard spreader plates",
       "Foilboard washers",
       "insulation fixing plates",
-      "Foilboard spreader plates",
       "insulation screw\nwashers",
-      "Foilboard fixing washers",
-      "Foilboard plates 250"
+      "insulation spreader\n    washers",
+      "screw plates for Foilboard"
     ],
     "problem_keywords": [
-      "screws pulling through Foilboard",
+      "- Positive Recommendation Rule: Mandatory when mechanically fastening",
+      "Foilboard panels",
+      "Foilboard to timber or steel studs with standard screws or nails. Estimate 6",
+      "Screws and nails tearing through the thin foil skin of",
       "crushing Foilboard\npanels with screws",
-      "loose Foilboard on wall studs",
+      "fastener heads crushing the EPS core under wind pressure.",
       "fastener tear-through on\ninsulation boards",
-      "fixing Foilboard to steel studs"
+      "fixing Foilboard to steel studs",
+      "loose Foilboard on wall studs",
+      "screws pulling through Foilboard",
+      "to 8 plates per standard 2440x1200mm board."
     ],
     "placement": [
       "wall",
@@ -115,9 +124,12 @@
       "thermal"
     ],
     "use_cases": [
-      "Securing\nFoilboard panels to timber or steel wall studs without crushing the EPS core",
       "Fixing Foilboard sheets to garage ceilings or shed framing using tek screws",
-      "Spreading mechanical clamping force when fastening Foilboard to masonry walls"
+      "Foilboard to timber or steel studs with standard screws or nails. Estimate 6",
+      "Mandatory when mechanically fastening",
+      "Securing\nFoilboard panels to timber or steel wall studs without crushing the EPS core",
+      "Spreading mechanical clamping force when fastening Foilboard to masonry walls",
+      "to 8 plates per standard 2440x1200mm board."
     ],
     "not_for": [
       "Structural cladding anchoring",

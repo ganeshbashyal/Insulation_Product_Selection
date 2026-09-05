@@ -40,25 +40,51 @@
     "search_keywords": [
       "Composition Peel n Stick",
       "Composition velour",
+      "Velcro receptive\n    velour tiles",
       "Velcro receptive velour tiles",
       "plush acoustic pinboard",
       "velour acoustic tiles"
     ],
     "problem_keywords": [
+      "- Negative Filter (not_for): High moisture zones (bathrooms/commercial",
+      "- Placement: Wall, internal wall.",
+      "- Positive Recommendation Rule: Recommend Peel 'n' Stick velour tiles for fast",
+      "BATCH 004",
+      "Echo in home offices, bedrooms, and commercial phone",
       "Echo in home offices, bedrooms, and commercial phone booths",
-      "desire for a soft, plush tactile finish on walls rather than a flat pile."
+      "booths",
+      "desire for a soft, plush tactile finish on walls rather than a flat",
+      "desire for a soft, plush tactile finish on walls rather than a flat pile.",
+      "directionality.",
+      "exterior walls.",
+      "home office and meeting pod upgrades. Lay in a quarter-turn checkerboard",
+      "kitchens)",
+      "pattern to create an intentional architectural texture and hide pile",
+      "pile."
     ],
     "placement": [
       "Wall",
-      "internal wall"
+      "commercial kitchens); exterior walls",
+      "internal wall",
+      "internal wall. - Positive Recommendation Rule: Recommend Peel 'n' Stick velour tiles for fast home office and meeting pod upgrades. Lay in a quarter-turn checkerboard pattern to create an intentional architectural texture and hide pile directionality. - Negative Filter (not_for): High moisture zones (bathrooms"
     ],
     "not_for": [
       "BATCH 004",
       "exterior walls.",
+      "kitchens)",
+      "not_for): High moisture zones (bathrooms/commercial",
       "not_for): High moisture zones (bathrooms/commercial kitchens)"
     ],
     "use_cases": [
-      "Recommend Peel 'n' Stick velour tiles for fast home office and meeting pod upgrades. Lay in a quarter-turn checkerboard pattern to create an intentional architectural texture and hide pile directionality."
+      "- Negative Filter (not_for): High moisture zones (bathrooms/commercial",
+      "BATCH 004",
+      "Recommend Peel 'n' Stick velour tiles for fast",
+      "Recommend Peel 'n' Stick velour tiles for fast home office and meeting pod upgrades. Lay in a quarter-turn checkerboard pattern to create an intentional architectural texture and hide pile directionality.",
+      "directionality.",
+      "exterior walls.",
+      "home office and meeting pod upgrades. Lay in a quarter-turn checkerboard",
+      "kitchens)",
+      "pattern to create an intentional architectural texture and hide pile"
     ]
   },
   "source_excerpt": null,

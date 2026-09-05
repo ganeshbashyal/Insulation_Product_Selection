@@ -125,31 +125,49 @@
       "Must not be left exposed to direct UV\nsunlight beyond 30 days (VP4-30) or 90 days (VP4-90)",
       "Ensure cladding\nmanufacturer requirements for cavity drainage are followed"
     ],
-    "warranty": "Backed by Fletcher Insulation consumer warranty"
+    "warranty": "Backed by Fletcher Insulation consumer warranty",
+    "accessories_upsell": "Sisalation VapaSeam Tape (48mm × 50m)."
   },
   "retrieval": {
     "search_keywords": [
-      "Sisalation Vapawrap",
-      "Vapawrap Wall Wrap",
-      "VP4-30 wall\nwrap",
-      "VP4-90 wall wrap",
       "Class 4 breathable wrap",
-      "vapour permeable wall\nwrap",
+      "Class 4 vapour permeable\n    wrap",
       "Fletcher breathable wrap",
+      "Sisalation\nbreathable foil",
+      "Sisalation Vapawrap",
+      "VP4-30",
+      "VP4-30 wall\nwrap",
+      "VP4-90",
+      "VP4-90 wall wrap",
+      "Vapawrap Wall Wrap",
+      "Vapawrap wall wrap",
       "residential house wrap",
-      "Sisalation\nbreathable foil"
+      "vapour permeable wall\nwrap"
     ],
     "problem_keywords": [
-      "mould inside external walls",
+      "- Accessories Upsell: Sisalation VapaSeam Tape (48mm × 50m).",
+      "- Placement: Wall, external wall.",
+      "- Positive Recommendation Rule: Specify behind residential brick veneer,",
+      "Moisture and condensation trapped inside timber or steel",
+      "air\nleakage through wall cladding",
       "condensation in timber wall frame",
       "drafty brick veneer walls",
-      "weatherboard\nmoisture rot",
       "meeting NCC condensation management in cooler climates",
-      "air\nleakage through wall cladding"
+      "mould behind external claddings in climate zones 2 to 8.",
+      "mould inside external walls",
+      "not be installed immediately and the wrap will be exposed to weather for up",
+      "timber weatherboard, and fibre-cement cladding. Use VP4-90 if cladding will",
+      "to 3 months.",
+      "wall frames",
+      "weatherboard\nmoisture rot"
     ],
     "placement": [
-      "wall",
-      "external wall"
+      "Wall",
+      "and fibre-cement cladding. Use VP4-90 if cladding will not be installed immediately and the wrap will be exposed to weather for up to 3 months. - Accessories Upsell: Sisalation VapaSeam Tape (48mm × 50m)",
+      "external wall",
+      "external wall. - Positive Recommendation Rule: Specify behind residential brick veneer",
+      "timber weatherboard",
+      "wall"
     ],
     "priority_fit": [
       "condensation",
@@ -157,9 +175,14 @@
       "easy_install"
     ],
     "use_cases": [
-      "Vapour-permeable weather barrier behind residential brick veneer, timber\nweatherboard, and fibre-cement claddings in climate zones 2 to 8",
+      "- Accessories Upsell: Sisalation VapaSeam Tape (48mm × 50m).",
       "Airtight\nhouse wrap to assist in passing residential blower-door air leakage testing",
-      "Preventing interstitial condensation and timber rot in cooler Australian\nclimate zones"
+      "Preventing interstitial condensation and timber rot in cooler Australian\nclimate zones",
+      "Specify behind residential brick veneer,",
+      "Vapour-permeable weather barrier behind residential brick veneer, timber\nweatherboard, and fibre-cement claddings in climate zones 2 to 8",
+      "not be installed immediately and the wrap will be exposed to weather for up",
+      "timber weatherboard, and fibre-cement cladding. Use VP4-90 if cladding will",
+      "to 3 months."
     ],
     "not_for": [
       "Roof sarking applications",

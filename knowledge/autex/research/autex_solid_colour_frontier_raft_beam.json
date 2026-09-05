@@ -38,6 +38,7 @@
   },
   "retrieval": {
     "search_keywords": [
+      "Autex\n    ceiling beams",
       "Autex ceiling beams",
       "Beam 100",
       "Beam 250",
@@ -46,15 +47,32 @@
       "solid colour acoustic beam"
     ],
     "problem_keywords": [
+      "- Accessories Included/Required: Extrusion tracks and mounting clips included",
+      "- Placement: Ceiling.",
+      "- Positive Recommendation Rule: Recommend Beam 100 for lower ceilings (<3.0m)",
       "Noisy open-plan offices with exposed concrete soffits",
-      "need for continuous linear ceiling beams in vibrant or muted solid colors that absorb speech chatter."
+      "commercial lobbies where deep acoustic fins create visual impact.",
+      "need for continuous linear ceiling beams in vibrant or muted solid colors",
+      "need for continuous linear ceiling beams in vibrant or muted solid colors that absorb speech chatter.",
+      "order suspension cables or threaded rod hangers separately.",
+      "recommend Beam 250 for tall atriums and high-ceiling",
+      "that absorb speech chatter.",
+      "to preserve headroom"
     ],
     "placement": [
-      "Ceiling"
+      "Ceiling",
+      "Ceiling. - Positive Recommendation Rule: Recommend Beam 100 for lower ceilings (<3.0m) to preserve headroom; recommend Beam 250 for tall atriums and high-ceiling commercial lobbies where deep acoustic fins create visual impact. - Accessories Included",
+      "Required: Extrusion tracks and mounting clips included; order suspension cables or threaded rod hangers separately"
     ],
     "use_cases": [
+      "- Accessories Included/Required: Extrusion tracks and mounting clips included",
+      "Recommend Beam 100 for lower ceilings (<3.0m)",
       "Recommend Beam 100 for lower ceilings (<3.0m) to preserve headroom",
-      "recommend Beam 250 for tall atriums and high-ceiling commercial lobbies where deep acoustic fins create visual impact."
+      "commercial lobbies where deep acoustic fins create visual impact.",
+      "order suspension cables or threaded rod hangers separately.",
+      "recommend Beam 250 for tall atriums and high-ceiling",
+      "recommend Beam 250 for tall atriums and high-ceiling commercial lobbies where deep acoustic fins create visual impact.",
+      "to preserve headroom"
     ]
   },
   "source_excerpt": null,

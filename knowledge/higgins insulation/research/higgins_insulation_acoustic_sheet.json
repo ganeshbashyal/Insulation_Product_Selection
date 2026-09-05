@@ -22,25 +22,39 @@
   },
   "retrieval": {
     "search_keywords": [
+      "Higgins Acoustic Sheet",
       "Higgins Insulation Acoustic Sheet",
+      "Higgins acoustic panel",
       "Higgins acoustic sheet",
+      "Higgins polyester\n    board",
       "Higgins polyester acoustic sheet",
-      "Higgins sound\ninsulation sheet",
       "Higgins polyester board",
-      "Higgins acoustic panel"
+      "Higgins sound\ninsulation sheet",
+      "Higgins sound sheet",
+      "acoustic sheet 24kg"
     ],
     "problem_keywords": [
-      "sound transfer through partition walls",
-      "echo in\ncommercial spaces",
-      "plant room noise breakout",
+      "- Negative Filter (not_for): Exposed decorative finish",
+      "- Placement: Wall, internal wall, ceiling, plant room.",
+      "- Positive Recommendation Rule: Commercial acoustic sheet for wall cavities",
+      "Airborne noise transmission through commercial drywall",
       "acoustic sheet insulation",
+      "and mechanical plant rooms requiring non-slumping acoustic absorption.",
+      "direct outdoor rain",
+      "echo in\ncommercial spaces",
+      "exposure.",
+      "need for rigid or semi-rigid acoustic backing behind perforated panels.",
+      "plant room noise breakout",
+      "sound transfer through partition walls",
       "soundproofing partition sheets"
     ],
     "placement": [
-      "wall",
-      "internal wall",
+      "Wall",
+      "between floors",
       "ceiling",
-      "between floors"
+      "internal wall",
+      "plant room. - Positive Recommendation Rule: Commercial acoustic sheet for wall cavities and mechanical plant rooms requiring non-slumping acoustic absorption. - Negative Filter (not_for): Exposed decorative finish; direct outdoor rain exposure",
+      "wall"
     ],
     "priority_fit": [
       "acoustic",
@@ -48,14 +62,22 @@
       "sustainability"
     ],
     "use_cases": [
+      "- Negative Filter (not_for): Exposed decorative finish",
+      "Acoustic damping in\nmechanical plant rooms and equipment enclosures",
       "Acoustic lining in commercial and\nresidential partition walls to dampen airborne sound transfer",
+      "Commercial acoustic sheet for wall cavities",
       "Sound\nabsorption behind perforated wall and ceiling panels",
-      "Acoustic damping in\nmechanical plant rooms and equipment enclosures"
+      "and mechanical plant rooms requiring non-slumping acoustic absorption.",
+      "direct outdoor rain",
+      "exposure."
     ],
     "not_for": [
-      "External\nweather-exposed cladding",
       "Direct foot traffic flooring without underlay",
-      "High-temperature flue exhaust wrapping"
+      "External\nweather-exposed cladding",
+      "High-temperature flue exhaust wrapping",
+      "direct outdoor rain",
+      "exposure.",
+      "not_for): Exposed decorative finish"
     ],
     "rag_summary": "Higgins Insulation\nAcoustic Sheet represents polyester or glass mineral wool acoustic sheet\ninsulation distributed for sound attenuation across commercial and residential\npartition walls and ceilings. Higgins Insulation (operating out of Queensland,\nAustralia) manufactures and supplies thermal and acoustic batts and blankets for\nbuilding applications. When supplied in rigid or semi-rigid sheet form, these\nproducts absorb airborne noise, reduce room reverberation, and provide\nnon-irritant, fiber-safe soundproofing for partition cavities and acoustic\nlinings."
   },

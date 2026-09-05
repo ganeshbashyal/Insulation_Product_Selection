@@ -116,32 +116,60 @@
       "Not a primary waterproofing membrane;\nmust be sheltered by rainscreen cladding",
       "Do not leave exposed to weather\nlonger than 120 days prior to cladding installation"
     ],
-    "warranty": "Backed by\nCSR Bradford product warranty"
+    "warranty": "Backed by\nCSR Bradford product warranty",
+    "accessories_upsell": "Bradford Enviroseal Black Label Tape (for window flashings, penetrations, and cut vertical edges)."
   },
   "retrieval": {
     "search_keywords": [
-      "Bradford\nBlack Label with Integrated Tape",
-      "Enviroseal ProctorWrap Black Label",
       "BL-IT",
-      "open joint facade wall wrap",
-      "rainscreen wall wrap",
-      "UV resistant\nwall wrap",
-      "black permeable wall wrap",
+      "Bradford\nBlack Label with Integrated Tape",
       "Bradford 106703",
       "Enviroseal BL-IT",
+      "Enviroseal Black Label",
+      "Enviroseal ProctorWrap Black Label",
+      "ProctorWrap BL-IT",
+      "UV resistant\nwall wrap",
+      "black permeable wall wrap",
+      "open joint facade wall wrap",
+      "open joint wall wrap",
+      "rainscreen wall wrap",
+      "rainscreen wrap\n    integrated tape",
       "vapour permeable open joint wrap"
     ],
     "problem_keywords": [
+      "- Accessories Upsell: Bradford Enviroseal Black Label Tape (for window",
+      "- Negative Filter (not_for): Roof sarking applications",
+      "- Placement: Wall, external wall.",
+      "- Positive Recommendation Rule: Mandatory choice when external cladding has",
+      "Sunlight and UV breaking down standard white wraps behind",
       "UV degrading wall\nwrap behind open cladding",
-      "water ingress behind open joint rainscreen",
+      "aesthetic need for a solid black background behind open",
+      "cassette facades",
       "condensation behind open timber battens",
-      "tearing of wall wrap in open joint\nfacades",
+      "drafts through open facade\ncladding",
+      "flashings, penetrations, and cut vertical edges).",
+      "fully glazed curtain",
+      "laps.",
       "need integrated tape on breathable wrap",
-      "drafts through open facade\ncladding"
+      "open architectural timber battens",
+      "open joints (up to 30% open facade area, up to 120°C heat load). Built-in",
+      "slats.",
+      "tape eliminates the need to purchase separate joining tape for horizontal",
+      "tearing of wall wrap in open joint\nfacades",
+      "total continuous UV exposure exceeding 120 days",
+      "unclad.",
+      "walls with zero shading",
+      "water ingress behind open joint rainscreen",
+      "water penetrating open-joint metal"
     ],
     "placement": [
-      "wall",
-      "external wall"
+      "Wall",
+      "and cut vertical edges)",
+      "external wall",
+      "external wall. - Positive Recommendation Rule: Mandatory choice when external cladding has open joints (up to 30% open facade area",
+      "penetrations",
+      "up to 120°C heat load). Built-in tape eliminates the need to purchase separate joining tape for horizontal laps. - Negative Filter (not_for): Roof sarking applications; fully glazed curtain walls with zero shading; total continuous UV exposure exceeding 120 days unclad. - Accessories Upsell: Bradford Enviroseal Black Label Tape (for window flashings",
+      "wall"
     ],
     "priority_fit": [
       "condensation",
@@ -149,14 +177,32 @@
       "easy_install"
     ],
     "use_cases": [
-      "Weatherproofing behind\nopen-joint architectural timber batten facades with up to 30% open area",
+      "- Accessories Upsell: Bradford Enviroseal Black Label Tape (for window",
+      "- Negative Filter (not_for): Roof sarking applications",
+      "High-temperature commercial facades subjected to intense\nsolar radiation and temperatures up to 120°C",
+      "Mandatory choice when external cladding has",
       "Vapour-permeable air barrier behind open-joint metal cassette rainscreen\ncladding systems",
-      "High-temperature commercial facades subjected to intense\nsolar radiation and temperatures up to 120°C"
+      "Weatherproofing behind\nopen-joint architectural timber batten facades with up to 30% open area",
+      "flashings, penetrations, and cut vertical edges).",
+      "fully glazed curtain",
+      "laps.",
+      "open joints (up to 30% open facade area, up to 120°C heat load). Built-in",
+      "tape eliminates the need to purchase separate joining tape for horizontal",
+      "total continuous UV exposure exceeding 120 days",
+      "unclad.",
+      "walls with zero shading"
     ],
     "not_for": [
+      "- Accessories Upsell: Bradford Enviroseal Black Label Tape (for window",
+      "Continuous immersion in water or subterranean tanking",
       "Fully glazed\ncurtain walls without spandrel protection",
       "Roofs (designed for walls only)",
-      "Continuous immersion in water or subterranean tanking"
+      "flashings, penetrations, and cut vertical edges).",
+      "fully glazed curtain",
+      "not_for): Roof sarking applications",
+      "total continuous UV exposure exceeding 120 days",
+      "unclad.",
+      "walls with zero shading"
     ],
     "rag_summary": "Bradford Wall Wraps - Black Label With Integrated Tape (Enviroseal ProctorWrap\nBL-IT, product code 106703) is a specialized Light Duty, Class 4\nvapour-permeable wall wrap engineered for open-joint rainscreen facades.\nManufactured with a high-temperature functional UV coating that withstands\ntemperatures up to 120°C, it is rated for facades with up to 30% open joint\narea. Equipped with an integrated adhesive lap tape system, it seals building\nenvelopes against wind-driven rain and air leakage while allowing interior\nmoisture vapour to breathe freely, complying with AS/NZS 4200.1 and AS 1530.2\n(Flammability Index ≤ 5)."
   },

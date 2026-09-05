@@ -97,26 +97,45 @@
   },
   "retrieval": {
     "search_keywords": [
+      "1350mm foil breather",
+      "Higgins\nsarking breather 81m2",
       "Higgins Foil\nBreather",
       "Higgins Medium Duty Breather",
-      "perforated wall foil wrap",
-      "Higgins\nsarking breather 81m2",
-      "reflective breather foil",
-      "medium duty wall sarking",
+      "Higgins breather\n    foil 81m2",
+      "Higgins foil breather",
+      "brick\n    veneer breather foil",
       "brick veneer breather wrap",
-      "1350mm foil breather"
+      "medium duty breather foil",
+      "medium duty wall sarking",
+      "perforated wall foil",
+      "perforated wall foil wrap",
+      "reflective breather foil"
     ],
     "problem_keywords": [
-      "trapped moisture inside wall frame",
-      "sweating brick veneer cavity",
+      "- Negative Filter (not_for): Cold climate zones (Zones 6–8) requiring",
+      "- Placement: Wall, external wall, shed.",
+      "- Positive Recommendation Rule: Recommend for brick veneer walls in warm to",
+      "High wind tearing paper-backed wraps on site",
+      "drafts in exterior framed walls",
+      "moisture inside brick veneer wall frames",
+      "non-perforated Class 4 spunbond wraps",
       "radiant\nheat transfer through walls",
+      "radiant heat entering external",
+      "roof applications.",
+      "site and micro-perforations to allow cavity moisture diffusion.",
+      "sweating brick veneer cavity",
+      "temperate climate zones where builders need heavy-duty tear resistance on",
+      "trapped",
+      "trapped moisture inside wall frame",
       "wall wrap tearing on windy building sites",
-      "drafts in exterior framed walls"
+      "walls."
     ],
     "placement": [
-      "wall",
+      "Wall",
       "external wall",
-      "shed"
+      "shed",
+      "shed. - Positive Recommendation Rule: Recommend for brick veneer walls in warm to temperate climate zones where builders need heavy-duty tear resistance on site and micro-perforations to allow cavity moisture diffusion. - Negative Filter (not_for): Cold climate zones (Zones 6–8) requiring non-perforated Class 4 spunbond wraps; roof applications",
+      "wall"
     ],
     "priority_fit": [
       "thermal",
@@ -124,14 +143,23 @@
       "easy_install"
     ],
     "use_cases": [
+      "- Negative Filter (not_for): Cold climate zones (Zones 6–8) requiring",
       "External wall wrap on residential brick veneer homes in\ntemperate and warm climate zones",
+      "Recommend for brick veneer walls in warm to",
+      "Reflective thermal barrier in\ndomestic steel shed wall construction",
       "Tear-resistant reflective sarking behind\nlightweight cladding on timber or steel frames",
-      "Reflective thermal barrier in\ndomestic steel shed wall construction"
+      "non-perforated Class 4 spunbond wraps",
+      "roof applications.",
+      "site and micro-perforations to allow cavity moisture diffusion.",
+      "temperate climate zones where builders need heavy-duty tear resistance on"
     ],
     "not_for": [
       "Cold climate zones\n(Zones 6-8) requiring Class 4 vapour-permeable membranes",
+      "Continuous water immersion",
       "Roof sarking under\nconcrete tiles or metal sheets",
-      "Continuous water immersion"
+      "non-perforated Class 4 spunbond wraps",
+      "not_for): Cold climate zones (Zones 6–8) requiring",
+      "roof applications."
     ],
     "rag_summary": "Higgins Insulation Higgins Foil Breather Medium Duty is a five-layer reflective\nfoil wall sarking membrane measuring 1350mm x 60m (81 m² per roll). Combining a\nUV-stabilized woven polypropylene core with a 97% reflective aluminum face and\nmicroscopic breathability perforations, it blocks radiant heat while allowing\ncavity moisture vapor to escape. Tear-resistant and compliant with AS/NZS 4200.1\nand AS 1530, it delivers durable weather protection and thermal air-gap\nresistance across external residential and shed walls."
   },

@@ -106,31 +106,46 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Foilboard Green Joining Tape",
-      "Foilboard\ngreen tape",
-      "anti-glare foil tape",
-      "green reinforced foil tape",
+      "72mm green\n    tape",
       "72mm green\nfoil tape",
+      "Foilboard\ngreen tape",
+      "Foilboard Green Joining Tape",
+      "Foilboard green tape",
       "Foilboard seam tape",
+      "Foilboard tape 72mm",
+      "anti-glare foil tape",
+      "anti-glare foil tape 72mm",
       "green aluminum tape",
-      "Foilboard tape 72mm"
+      "green foil\n    tape",
+      "green reinforced foil tape"
     ],
     "problem_keywords": [
-      "glare blinding installers on sunny roofs",
+      "- Placement: Roof, roofline, external wall, wall (green side of boards).",
+      "- Positive Recommendation Rule: Must be specified whenever taping the green",
+      "- Quantity Rule: 1 roll of 72mm tape per ~4 to 5 standard Foilboard sheets.",
+      "Sunlight glaring into installers' eyes on roofs and",
       "air\nleakage through Foilboard seams",
-      "unsealed insulation panel joins",
+      "external scaffolding",
+      "face of Foilboard Green panels in exposed outdoor or roof applications to",
+      "glare blinding installers on sunny roofs",
+      "maintain anti-glare protection and vapour integrity.",
       "moisture\npassing through insulation gaps",
-      "taping green face of Foilboard"
+      "taping green face of Foilboard",
+      "unsealed green-faced Foilboard joints leaking air or",
+      "unsealed insulation panel joins",
+      "vapour."
     ],
     "placement": [
-      "roof",
-      "roofline",
-      "wall",
+      "Roof",
+      "ceiling",
       "external wall",
       "internal wall",
-      "ceiling",
+      "roof",
+      "roofline",
       "shed",
-      "underfloor"
+      "underfloor",
+      "wall",
+      "wall (green side of boards). - Positive Recommendation Rule: Must be specified whenever taping the green face of Foilboard Green panels in exposed outdoor or roof applications to maintain anti-glare protection and vapour integrity. - Quantity Rule: 1 roll of 72mm tape per ~4 to 5 standard Foilboard sheets"
     ],
     "priority_fit": [
       "easy_install",
@@ -139,9 +154,13 @@
       "fire"
     ],
     "use_cases": [
-      "Sealing butt joints on the\ngreen anti-glare face of Foilboard Green panels in roof installations",
+      "- Quantity Rule: 1 roll of 72mm tape per ~4 to 5 standard Foilboard sheets.",
       "Joining\nexternal wall Foilboard panels on exposed, sunny scaffolding where glare\nreduction is critical",
-      "Sealing panel penetrations and window flashing\ninterfaces on green-faced Foilboard"
+      "Must be specified whenever taping the green",
+      "Sealing butt joints on the\ngreen anti-glare face of Foilboard Green panels in roof installations",
+      "Sealing panel penetrations and window flashing\ninterfaces on green-faced Foilboard",
+      "face of Foilboard Green panels in exposed outdoor or roof applications to",
+      "maintain anti-glare protection and vapour integrity."
     ],
     "not_for": [
       "Direct structural\nmechanical fastening",

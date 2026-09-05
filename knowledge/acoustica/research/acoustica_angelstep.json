@@ -67,26 +67,52 @@
     "search_keywords": [
       "AAAC 6 star underlay",
       "AngelStep",
+      "AngelStep\n    Gold4",
       "AngelStep Gold4",
       "AngelStep Gold8",
+      "acoustic tile\n    underlay",
       "acoustic tile underlay",
       "strata approved underlay"
     ],
     "problem_keywords": [
-      "Footstep thuds reported by downstairs neighbours, body corporate / strata acoustic failure, hard tile hollow clicking."
+      "(creates acoustic bridging)",
+      "- Negative Filter (not_for): Never mechanically screw/nail through AngelStep",
+      "- Placement: Floor, underfloor, between floors, subfloor (concrete slab or",
+      "- Positive Recommendation Rule: Recommend GOLD8 for multi-storey apartments",
+      "Footstep thuds reported by downstairs neighbours, body",
+      "Footstep thuds reported by downstairs neighbours, body corporate / strata acoustic failure, hard tile hollow clicking.",
+      "Recommend GOLD4 when threshold height clearance is limited to <5mm.",
+      "adhesives (use polyurethane like Bostik Ultraset SF or Sika T-55).",
+      "corporate / strata acoustic failure, hard tile hollow clicking.",
+      "do not use Modified Silicone (MS) polymer",
+      "timber joists).",
+      "where strata by-laws demand AAAC 5 or 6 Stars under timber flooring."
     ],
     "placement": [
       "Floor",
       "between floors",
+      "nail through AngelStep (creates acoustic bridging); do not use Modified Silicone (MS) polymer adhesives (use polyurethane like Bostik Ultraset SF or Sika T-55)",
       "subfloor (concrete slab or timber joists)",
+      "subfloor (concrete slab or timber joists). - Positive Recommendation Rule: Recommend GOLD8 for multi-storey apartments where strata by-laws demand AAAC 5 or 6 Stars under timber flooring. Recommend GOLD4 when threshold height clearance is limited to <5mm. - Negative Filter (not_for): Never mechanically screw",
       "underfloor"
     ],
     "not_for": [
+      "(creates acoustic bridging)",
+      "adhesives (use polyurethane like Bostik Ultraset SF or Sika T-55).",
+      "do not use Modified Silicone (MS) polymer",
       "do not use Modified Silicone (MS) polymer adhesives (use polyurethane like Bostik Ultraset SF or Sika T-55).",
+      "not_for): Never mechanically screw/nail through AngelStep",
       "not_for): Never mechanically screw/nail through AngelStep (creates acoustic bridging)"
     ],
     "use_cases": [
-      "Recommend GOLD8 for multi-storey apartments where strata by-laws demand AAAC 5 or 6 Stars under timber flooring. Recommend GOLD4 when threshold height clearance is limited to <5mm."
+      "(creates acoustic bridging)",
+      "- Negative Filter (not_for): Never mechanically screw/nail through AngelStep",
+      "Recommend GOLD4 when threshold height clearance is limited to <5mm.",
+      "Recommend GOLD8 for multi-storey apartments",
+      "Recommend GOLD8 for multi-storey apartments where strata by-laws demand AAAC 5 or 6 Stars under timber flooring. Recommend GOLD4 when threshold height clearance is limited to <5mm.",
+      "adhesives (use polyurethane like Bostik Ultraset SF or Sika T-55).",
+      "do not use Modified Silicone (MS) polymer",
+      "where strata by-laws demand AAAC 5 or 6 Stars under timber flooring."
     ]
   },
   "source_excerpt": null,

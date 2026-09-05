@@ -22,25 +22,41 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Paroc InsulRock Party Wall Batt",
+      "100x168 stone wool batt",
       "InsulRock Party Wall Batt",
+      "InsulRock acoustic batt",
+      "InsulRock party wall",
       "InsulRock stone\nwool batt",
+      "Paroc InsulRock",
+      "Paroc InsulRock Party Wall Batt",
       "Paroc party wall batt",
-      "rockwool party wall insulation",
       "fire\nparty wall batt",
-      "InsulRock acoustic batt"
+      "fire stop party wall\n    batt",
+      "rockwool party wall batt",
+      "rockwool party wall insulation"
     ],
     "problem_keywords": [
+      "- Placement: Wall, internal wall, party wall vertical joints.",
+      "- Positive Recommendation Rule: Purpose-designed for vertical joints in",
+      "Class 1 and Class 2 separating walls. Does not melt or shrink at",
+      "Inter-tenancy party walls failing fire compartmentation",
+      "acoustic privacy\nbetween duplex units",
+      "barriers.",
       "fire\nspread through party wall",
+      "fire bypassing cavity",
       "inter-tenancy wall noise transmission",
-      "townhouse\nseparating wall fire rating",
       "meeting NCC party wall FRL",
-      "acoustic privacy\nbetween duplex units"
+      "sound flanking between townhouse party walls",
+      "temperatures up to 1000°C.",
+      "tests",
+      "townhouse\nseparating wall fire rating"
     ],
     "placement": [
-      "wall",
+      "Wall",
+      "between\nfloors",
       "internal wall",
-      "between\nfloors"
+      "party wall vertical joints. - Positive Recommendation Rule: Purpose-designed for vertical joints in Class 1 and Class 2 separating walls. Does not melt or shrink at temperatures up to 1000°C",
+      "wall"
     ],
     "priority_fit": [
       "fire",
@@ -48,9 +64,12 @@
       "thermal"
     ],
     "use_cases": [
-      "Passive fire protection in Class 1 inter-tenancy separating walls between\ntownhouses and duplexes",
       "Acoustic and fire cavity infill in multi-residential\nparty wall systems",
-      "Acoustic decoupling and fire-stopping in internal\npartition walls"
+      "Acoustic decoupling and fire-stopping in internal\npartition walls",
+      "Class 1 and Class 2 separating walls. Does not melt or shrink at",
+      "Passive fire protection in Class 1 inter-tenancy separating walls between\ntownhouses and duplexes",
+      "Purpose-designed for vertical joints in",
+      "temperatures up to 1000°C."
     ],
     "not_for": [
       "Exposed external cladding",

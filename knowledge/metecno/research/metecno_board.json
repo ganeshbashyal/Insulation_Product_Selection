@@ -22,26 +22,43 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Metecno Board",
-      "MetecnoPanel",
-      "Metecno\nPIR board",
-      "Metecno EPS board",
       "Bondor Metecno panel",
-      "insulated sandwich\npanel board",
-      "coolroom board Metecno"
+      "Metecno\nPIR board",
+      "Metecno Board",
+      "Metecno EPS board",
+      "MetecnoPanel",
+      "MetecnoSpan",
+      "PIR sandwich\n    panel",
+      "coolroom board Metecno",
+      "coolroom panels",
+      "insulated roof panels",
+      "insulated sandwich\npanel board"
     ],
     "problem_keywords": [
-      "thermal loss in\ncold storage walls",
-      "slow wall construction with multi-layer systems",
+      "- Placement: Commercial external wall, roof, coolroom ceiling.",
+      "- Positive Recommendation Rule: Single-pass structural building envelope",
+      "Multi-layer wall construction takes too long",
+      "ceiling/wall in one product.",
+      "cold storage requires strict food-safe thermal envelopes.",
+      "combining roofing/cladding, insulation, and interior pre-finished steel",
+      "commercial",
       "condensation in food processing rooms",
-      "structural insulated panel\nrequirements"
+      "slow wall construction with multi-layer systems",
+      "structural insulated panel\nrequirements",
+      "thermal loss in\ncold storage walls"
     ],
     "placement": [
-      "wall",
-      "external wall",
+      "Commercial external wall",
+      "and interior pre-finished steel ceiling",
       "ceiling",
+      "cladding",
+      "coolroom ceiling. - Positive Recommendation Rule: Single-pass structural building envelope combining roofing",
+      "external wall",
+      "insulation",
       "roof",
-      "shed"
+      "shed",
+      "wall",
+      "wall in one product"
     ],
     "priority_fit": [
       "thermal",
@@ -49,9 +66,12 @@
       "easy_install"
     ],
     "use_cases": [
-      "Insulated structural walls and ceilings for cold storage, coolrooms, and food\nprocessing facilities",
+      "Cleanroom and pharmaceutical wall enclosures",
       "Commercial industrial building envelope wall panels\nwith pre-finished steel facings",
-      "Cleanroom and pharmaceutical wall enclosures"
+      "Insulated structural walls and ceilings for cold storage, coolrooms, and food\nprocessing facilities",
+      "Single-pass structural building envelope",
+      "ceiling/wall in one product.",
+      "combining roofing/cladding, insulation, and interior pre-finished steel"
     ],
     "not_for": [
       "Cavity infill behind standard plasterboard studs",

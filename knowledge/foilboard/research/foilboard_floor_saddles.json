@@ -89,36 +89,59 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Foilboard Floor Saddles",
-      "Foilboard saddles",
-      "underfloor insulation brackets",
-      "Foilboard joist clips",
-      "floor joist insulation saddles",
-      "Foilboard underfloor hangers",
+      "Foilboard\n    brackets",
       "Foilboard\nsaddle 100mm",
-      "Foilboard saddle 130mm"
+      "Foilboard Floor Saddles",
+      "Foilboard joist clips",
+      "Foilboard saddle 130mm",
+      "Foilboard saddles",
+      "Foilboard underfloor hangers",
+      "floor\n    saddles 100mm",
+      "floor joist insulation saddles",
+      "floor saddles 130mm",
+      "underfloor insulation brackets",
+      "underfloor joist clips"
     ],
     "problem_keywords": [
-      "underfloor\ninsulation sagging between joists",
-      "maintaining airspace under floorboards",
-      "installing Foilboard from above joists",
+      "- Placement: Underfloor, floor, subfloor joists (installation from above).",
+      "- Positive Recommendation Rule: Essential for new timber floor construction",
+      "- Warning Rule: If customer is retrofitting beneath an existing floor from a",
+      "Foilboard Retrofit Clips or strapping instead.",
+      "Underfloor insulation sagging or dislodging over time",
       "cold drafts through floorboards",
-      "fitting rigid insulation between joists"
+      "crawlspace below, saddles cannot be used over the top of joists—recommend",
+      "fitting rigid insulation between joists",
+      "floorboards.",
+      "installed. Space saddles at 600mm to 750mm intervals along joists.",
+      "installer unsure how to maintain the mandatory 20mm air gap beneath timber",
+      "installing Foilboard from above joists",
+      "maintaining airspace under floorboards",
+      "underfloor\ninsulation sagging between joists",
+      "where installation is performed from above before subfloor sheeting is"
     ],
     "placement": [
-      "underfloor",
+      "Underfloor",
+      "between floors",
       "floor",
+      "saddles cannot be used over the top of joists—recommend Foilboard Retrofit Clips or strapping instead",
       "subfloor",
-      "between floors"
+      "subfloor joists (installation from above). - Positive Recommendation Rule: Essential for new timber floor construction where installation is performed from above before subfloor sheeting is installed. Space saddles at 600mm to 750mm intervals along joists. - Warning Rule: If customer is retrofitting beneath an existing floor from a crawlspace below",
+      "underfloor"
     ],
     "priority_fit": [
       "easy_install",
       "thermal"
     ],
     "use_cases": [
+      "- Warning Rule: If customer is retrofitting beneath an existing floor from a",
       "Cradling Foilboard panels between timber joists in\nnew suspended residential floor construction",
+      "Essential for new timber floor construction",
+      "Foilboard Retrofit Clips or strapping instead.",
       "Guaranteeing a 20mm reflective\nair gap beneath tongue-and-groove timber floorboards",
-      "Preventing underfloor\ninsulation panels from shifting, sagging, or vibrating over time"
+      "Preventing underfloor\ninsulation panels from shifting, sagging, or vibrating over time",
+      "crawlspace below, saddles cannot be used over the top of joists—recommend",
+      "installed. Space saddles at 600mm to 750mm intervals along joists.",
+      "where installation is performed from above before subfloor sheeting is"
     ],
     "not_for": [
       "Wall installations (use Blank Plates or Flexifast)",

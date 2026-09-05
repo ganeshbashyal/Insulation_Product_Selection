@@ -13,22 +13,48 @@
       "Acoustic Absorption Blanket",
       "GreenStuf AAB",
       "black polyester acoustic blanket",
+      "slotted timber\n    acoustic backing",
       "slotted timber acoustic backing"
     ],
     "problem_keywords": [
+      "- Negative Filter (not_for): Not a stand-alone decorative wall panel in touch",
+      "- Placement: Behind perforated wall linings, ceiling plenum overlay, HVAC",
+      "- Positive Recommendation Rule: When client has slotted timber or perforated",
       "Echo in auditoriums, cinemas, and music rooms",
-      "ugly silver foil or yellow glasswool visible behind slotted timber or perforated metal ceiling/wall screens."
+      "attenuator infill.",
+      "ceiling/wall screens.",
+      "foil or yellow glasswool visible behind slotted timber or perforated metal",
+      "framing studs, provides deep black shadow lines, and delivers up to NRC 1.05",
+      "metal panels, specify Black AAB (32kg/m³ or 48kg/m³). It conceals wall",
+      "sound absorption.",
+      "ugly silver",
+      "ugly silver foil or yellow glasswool visible behind slotted timber or perforated metal ceiling/wall screens.",
+      "zones (use Quietspace Panel or Cube for exposed touch areas)."
     ],
     "placement": [
       "Behind perforated wall linings",
       "HVAC attenuator infill",
-      "ceiling plenum overlay"
+      "HVAC attenuator infill. - Positive Recommendation Rule: When client has slotted timber or perforated metal panels",
+      "and delivers up to NRC 1.05 sound absorption. - Negative Filter (not_for): Not a stand-alone decorative wall panel in touch zones (use Quietspace Panel or Cube for exposed touch areas)",
+      "ceiling plenum overlay",
+      "m³ or 48kg",
+      "m³). It conceals wall framing studs",
+      "provides deep black shadow lines",
+      "specify Black AAB (32kg"
     ],
     "not_for": [
-      "not_for): Not a stand-alone decorative wall panel in touch zones (use Quietspace Panel or Cube for exposed touch areas)."
+      "not_for): Not a stand-alone decorative wall panel in touch",
+      "not_for): Not a stand-alone decorative wall panel in touch zones (use Quietspace Panel or Cube for exposed touch areas).",
+      "zones (use Quietspace Panel or Cube for exposed touch areas)."
     ],
     "use_cases": [
-      "When client has slotted timber or perforated metal panels, specify Black AAB (32kg/m³ or 48kg/m³). It conceals wall framing studs, provides deep black shadow lines, and delivers up to NRC 1.05 sound absorption."
+      "- Negative Filter (not_for): Not a stand-alone decorative wall panel in touch",
+      "When client has slotted timber or perforated",
+      "When client has slotted timber or perforated metal panels, specify Black AAB (32kg/m³ or 48kg/m³). It conceals wall framing studs, provides deep black shadow lines, and delivers up to NRC 1.05 sound absorption.",
+      "framing studs, provides deep black shadow lines, and delivers up to NRC 1.05",
+      "metal panels, specify Black AAB (32kg/m³ or 48kg/m³). It conceals wall",
+      "sound absorption.",
+      "zones (use Quietspace Panel or Cube for exposed touch areas)."
     ]
   },
   "source_excerpt": null,

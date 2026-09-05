@@ -115,43 +115,73 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Fletcher Protect Party Wall",
-      "Party Wall\nStonewool Batts",
-      "Fire Stop Party Wall",
-      "stonewool party wall insulation",
-      "rockwool party wall batts",
+      "100x168 party wall batt",
       "100x168 party wall batts",
-      "townhouse fire barrier\nbatts",
+      "Fire Stop Party Wall",
+      "Fletcher Protect Party Wall",
+      "Fletcher fire stop batt",
       "Fletcher mineral wool batts",
-      "separating wall firestop"
+      "Party Wall\n    Stonewool Batts",
+      "Party Wall\nStonewool Batts",
+      "rockwool party wall batts",
+      "separating wall firestop",
+      "stonewool party wall blanket",
+      "stonewool party wall insulation",
+      "townhouse fire barrier\nbatts"
     ],
     "problem_keywords": [
-      "fire spread through townhouse party wall",
-      "separating\nwall gap fire risk",
+      "- For top-of-wall to roof junctions: Specify 50mm blanket for tiled",
+      "- For vertical cavity joints in separating walls: Specify 100mm × 168mm",
+      "- Negative Filter (not_for): Standard thermal insulation cavities (density is",
+      "- Placement: Internal party wall vertical joints, roofline top-of-wall",
+      "- Positive Recommendation Rule:",
+      "75mm blanket for profiled metal roofs.",
+      "Fire spreading through townhouse party walls",
       "NCC Class 1 party wall compliance",
-      "vertical joint fire\ncontainment",
+      "batts.",
+      "building certifier",
+      "fire spread through townhouse party wall",
       "flame bypass between roof and party wall",
-      "inter-tenancy noise\ntransmission"
+      "flame bypass between top-of-wall framing and roof sheets",
+      "inter-tenancy noise\ntransmission",
+      "junctions.",
+      "requiring NCC Part 9.3 separating wall compliance.",
+      "roofs",
+      "separating\nwall gap fire risk",
+      "smoke and",
+      "too high and costly for non-fire applications).",
+      "vertical joint fire\ncontainment"
     ],
     "placement": [
-      "wall",
+      "Internal party wall vertical joints",
       "internal wall",
       "roof",
-      "roofline"
+      "roofline",
+      "roofline top-of-wall junctions. - Positive Recommendation Rule: - For vertical cavity joints in separating walls: Specify 100mm × 168mm batts. - For top-of-wall to roof junctions: Specify 50mm blanket for tiled roofs; 75mm blanket for profiled metal roofs. - Negative Filter (not_for): Standard thermal insulation cavities (density is too high and costly for non-fire applications)",
+      "wall"
     ],
     "priority_fit": [
       "fire",
       "acoustic"
     ],
     "use_cases": [
+      "- For top-of-wall to roof junctions: Specify 50mm blanket for tiled",
+      "- Negative Filter (not_for): Standard thermal insulation cavities (density is",
+      "75mm blanket for profiled metal roofs.",
       "Compress-filling\nvertical joints between separating party walls in Class 1 townhouses and\nduplexes",
       "Fire-stopping gaps between the top of a fire-rated separating wall\nand the underside of metal or tile roofs",
-      "Packing service penetrations\ncrossing inter-tenancy boundaries to maintain fire separation"
+      "For vertical cavity joints in separating walls: Specify 100mm × 168mm",
+      "Packing service penetrations\ncrossing inter-tenancy boundaries to maintain fire separation",
+      "batts.",
+      "roofs",
+      "too high and costly for non-fire applications)."
     ],
     "not_for": [
-      "General cavity thermal wall batts",
       "Exposed internal decorative wall lining",
-      "Underfloor crawl space insulation"
+      "General cavity thermal wall batts",
+      "Underfloor crawl space insulation",
+      "not_for): Standard thermal insulation cavities (density is",
+      "too high and costly for non-fire applications)."
     ],
     "rag_summary": "Fletcher Protect Party\nWall Stonewool Batts and Blankets are non-combustible rock mineral wool\ninsulation products engineered specifically for passive fire protection in\nClass 1 multi-residential separating walls. Sized in 100mm x 168mm x 1200mm\nbatts and foil-faced rolls, they resist shrinkage at temperatures\nexceeding 1000°C to halt fire, smoke, and hot gases from bypassing inter-tenancy\nbarriers. Installed under a mandatory minimum 20% compression to ensure a\nvoid-free seal, they satisfy NCC Part 9.3 Deemed-to-Satisfy provisions for\ntownhouse and duplex party walls."
   },

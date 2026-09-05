@@ -49,7 +49,51 @@
       "Pallet"
     ]
   },
-  "retrieval": {},
+  "retrieval": {
+    "search_keywords": [
+      "AS 1530.1 thermal break",
+      "Non-combustible ThermalBreak Strip",
+      "R0.2\n    non-combustible strip",
+      "Trade Select NC Thermal Break",
+      "easy_install",
+      "external wall",
+      "fire",
+      "roof",
+      "roofline",
+      "steel frame thermal break strip",
+      "thermal",
+      "wall"
+    ],
+    "problem_keywords": [
+      "- Placement: [\"wall\", \"external wall\", \"roof\", \"roofline\"]",
+      "- Positive Recommendation Rule: Mandatory on commercial buildings of Type A or",
+      "- Priority Fit: [\"fire\", \"thermal\", \"easy_install\"]",
+      "B construction where the NCC forbids combustible materials on external steel",
+      "Building certifiers rejecting combustible foam thermal",
+      "breaks on multi-storey steel-frame commercial buildings",
+      "thermal bridging",
+      "through steel wall studs and roof purlins.",
+      "walls. 45mm width matches standard steel stud flanges."
+    ],
+    "placement": [
+      "\"easy_install\"] - Positive Recommendation Rule: Mandatory on commercial buildings of Type A or B construction where the NCC forbids combustible materials on external steel walls. 45mm width matches standard steel stud flanges",
+      "\"external wall\"",
+      "\"roof\"",
+      "\"roofline\"] - Priority Fit: [\"fire\"",
+      "\"thermal\"",
+      "[\"wall\""
+    ],
+    "use_cases": [
+      "B construction where the NCC forbids combustible materials on external steel",
+      "Mandatory on commercial buildings of Type A or",
+      "walls. 45mm width matches standard steel stud flanges."
+    ],
+    "priority_fit": [
+      "easy_install",
+      "fire",
+      "thermal"
+    ]
+  },
   "source_excerpt": null,
   "engine": "manual_range_injection",
   "range_source": "manufacturer size/packaging breakdown (hand-supplied 2026-09-06)"

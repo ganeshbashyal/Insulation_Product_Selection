@@ -51,17 +51,33 @@
       "Lanes Sawtooth",
       "NRC 0.85 acoustic battens",
       "directional acoustic battens",
+      "zigzag\n    acoustic wall",
       "zigzag acoustic wall"
     ],
     "problem_keywords": [
-      "Severe reverberation in large conference rooms or auditoriums requiring maximum acoustic absorption combined with dramatic directional lighting effects."
+      "- Orientation Rule: All panels must be installed in the same directional",
+      "- Placement: Wall, internal wall.",
+      "- Positive Recommendation Rule: Specify when maximum acoustic performance from",
+      "Severe reverberation in large conference rooms or",
+      "Severe reverberation in large conference rooms or auditoriums requiring maximum acoustic absorption combined with dramatic directional lighting effects.",
+      "auditoriums requiring maximum acoustic absorption combined with dramatic",
+      "directional lighting effects.",
+      "directional raking light for enhanced visual texture.",
+      "orientation across the wall to ensure consistent angular rhythm.",
+      "the Lanes family is required (NRC 0.85). Recommend positioning relative to"
     ],
     "placement": [
       "Wall",
-      "internal wall"
+      "internal wall",
+      "internal wall. - Positive Recommendation Rule: Specify when maximum acoustic performance from the Lanes family is required (NRC 0.85). Recommend positioning relative to directional raking light for enhanced visual texture. - Orientation Rule: All panels must be installed in the same directional orientation across the wall to ensure consistent angular rhythm"
     ],
     "use_cases": [
-      "Specify when maximum acoustic performance from the Lanes family is required (NRC 0.85). Recommend positioning relative to directional raking light for enhanced visual texture."
+      "- Orientation Rule: All panels must be installed in the same directional",
+      "Specify when maximum acoustic performance from",
+      "Specify when maximum acoustic performance from the Lanes family is required (NRC 0.85). Recommend positioning relative to directional raking light for enhanced visual texture.",
+      "directional raking light for enhanced visual texture.",
+      "orientation across the wall to ensure consistent angular rhythm.",
+      "the Lanes family is required (NRC 0.85). Recommend positioning relative to"
     ]
   },
   "source_excerpt": null,

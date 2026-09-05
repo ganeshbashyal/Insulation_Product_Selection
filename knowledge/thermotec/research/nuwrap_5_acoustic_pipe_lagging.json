@@ -1,0 +1,65 @@
+{
+  "family_id": "THERMOTEC_NUWRAP_5",
+  "family_name": "NuWrap 5 Acoustic Pipe Lagging",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "accessories_upsell": "Thermotec 72mm reinforced aluminium tape and UV-resistant cable ties (installed every 250mm)."
+  },
+  "retrieval": {
+    "search_keywords": [
+      "5kg pipe lagging",
+      "NuWrap 5",
+      "PVC\n    acoustic lagging",
+      "Thermotec pipe lagging",
+      "acoustic",
+      "acoustic\n    pipe wrap",
+      "ceiling",
+      "convoluted foam pipe lagging",
+      "duct",
+      "easy_install",
+      "fire",
+      "pipe",
+      "wall"
+    ],
+    "problem_keywords": [
+      "- Accessories Upsell: Thermotec 72mm reinforced aluminium tape and",
+      "- Placement: [\"pipe\", \"duct\", \"ceiling\", \"wall\"]",
+      "- Positive Recommendation Rule: Australia's benchmark pipe lagging. The",
+      "- Priority Fit: [\"acoustic\", \"fire\", \"easy_install\"]",
+      "Toilet flushing noise echoing through apartment ceiling",
+      "UV-resistant cable ties (installed every 250mm).",
+      "acoustic compliance for hydraulic pipes.",
+      "convoluted foam decouples the heavy 5kg barrier from pipe vibrations, and",
+      "passing NCC F5.6",
+      "plasterboard",
+      "stormwater pipes roaring during heavy rain",
+      "the outer 4-Zero foil facing complies with fire codes."
+    ],
+    "placement": [
+      "\"ceiling\"",
+      "\"duct\"",
+      "\"easy_install\"] - Positive Recommendation Rule: Australia's benchmark pipe lagging. The convoluted foam decouples the heavy 5kg barrier from pipe vibrations",
+      "\"fire\"",
+      "\"wall\"] - Priority Fit: [\"acoustic\"",
+      "[\"pipe\"",
+      "and the outer 4-Zero foil facing complies with fire codes. - Accessories Upsell: Thermotec 72mm reinforced aluminium tape and UV-resistant cable ties (installed every 250mm)"
+    ],
+    "use_cases": [
+      "- Accessories Upsell: Thermotec 72mm reinforced aluminium tape and",
+      "Australia's benchmark pipe lagging. The",
+      "UV-resistant cable ties (installed every 250mm).",
+      "convoluted foam decouples the heavy 5kg barrier from pipe vibrations, and",
+      "the outer 4-Zero foil facing complies with fire codes."
+    ],
+    "priority_fit": [
+      "acoustic",
+      "easy_install",
+      "fire"
+    ]
+  },
+  "source_excerpt": null,
+  "engine": "knowledge_base_txt"
+}

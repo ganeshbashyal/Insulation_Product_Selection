@@ -63,19 +63,36 @@
       "white insulation tape"
     ],
     "problem_keywords": [
-      "Vapour barrier failure at sheet laps, unsealed reflective foil joins, draft leaks through insulation seams."
+      "- Placement: Roof, wall, ceiling, floor, ductwork.",
+      "- Positive Recommendation Rule: 48mm width for wall cavity frames",
+      "- Rule of Thumb: 1 roll of 72mm tape for every 1.5 to 2 rolls of 30 m²",
+      "72mm width",
+      "AIR-CELL insulation.",
+      "Vapour barrier failure at sheet laps, unsealed reflective",
+      "Vapour barrier failure at sheet laps, unsealed reflective foil joins, draft leaks through insulation seams.",
+      "White 72mm tape exclusively",
+      "foil joins, draft leaks through insulation seams.",
+      "for all roof sarking laps and general ductwork",
+      "when joining AIR-CELL Insulwhite."
     ],
     "placement": [
       "Roof",
       "ceiling",
       "ductwork",
+      "ductwork. - Positive Recommendation Rule: 48mm width for wall cavity frames; 72mm width for all roof sarking laps and general ductwork; White 72mm tape exclusively when joining AIR-CELL Insulwhite. - Rule of Thumb: 1 roll of 72mm tape for every 1.5 to 2 rolls of 30 m² AIR-CELL insulation",
       "floor",
       "wall"
     ],
     "use_cases": [
+      "- Rule of Thumb: 1 roll of 72mm tape for every 1.5 to 2 rolls of 30 m²",
       "48mm width for wall cavity frames",
+      "72mm width",
       "72mm width for all roof sarking laps and general ductwork",
-      "White 72mm tape exclusively when joining AIR-CELL Insulwhite."
+      "AIR-CELL insulation.",
+      "White 72mm tape exclusively",
+      "White 72mm tape exclusively when joining AIR-CELL Insulwhite.",
+      "for all roof sarking laps and general ductwork",
+      "when joining AIR-CELL Insulwhite."
     ]
   },
   "source_excerpt": null,

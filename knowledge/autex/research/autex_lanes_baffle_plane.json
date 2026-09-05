@@ -49,23 +49,46 @@
     "search_keywords": [
       "Autex Lanes Plane",
       "Lanes Plane",
+      "flat\n    acoustic battens",
       "flat acoustic battens",
       "linear acoustic wall panels",
+      "modular acoustic wall\n    battens",
       "modular acoustic wall battens"
     ],
     "problem_keywords": [
+      "- Negative Filter (not_for): Do not glue flat to drywall (the rear air gap",
+      "- Placement: Wall, internal wall.",
+      "- Positive Recommendation Rule: Default choice when client requests a subtle,",
       "Flutter echo in commercial offices",
-      "client wants an understated, subtle linear batten look rather than sharp peaks or heavy timber."
+      "client wants an",
+      "client wants an understated, subtle linear batten look rather than sharp peaks or heavy timber.",
+      "created by the clipping system is critical to achieving its NRC 0.80",
+      "flat-faced timber-batten aesthetic. Delivers NRC 0.80 while protruding only",
+      "rating).",
+      "timber.",
+      "understated, subtle linear batten look rather than sharp peaks or heavy",
+      "~35mm from the wall."
     ],
     "placement": [
       "Wall",
-      "internal wall"
+      "flat-faced timber-batten aesthetic. Delivers NRC 0.80 while protruding only ~35mm from the wall. - Negative Filter (not_for): Do not glue flat to drywall (the rear air gap created by the clipping system is critical to achieving its NRC 0.80 rating)",
+      "internal wall",
+      "internal wall. - Positive Recommendation Rule: Default choice when client requests a subtle"
     ],
     "not_for": [
-      "not_for): Do not glue flat to drywall (the rear air gap created by the clipping system is critical to achieving its NRC 0.80 rating)."
+      "created by the clipping system is critical to achieving its NRC 0.80",
+      "not_for): Do not glue flat to drywall (the rear air gap",
+      "not_for): Do not glue flat to drywall (the rear air gap created by the clipping system is critical to achieving its NRC 0.80 rating).",
+      "rating)."
     ],
     "use_cases": [
-      "Default choice when client requests a subtle, flat-faced timber-batten aesthetic. Delivers NRC 0.80 while protruding only ~35mm from the wall."
+      "- Negative Filter (not_for): Do not glue flat to drywall (the rear air gap",
+      "Default choice when client requests a subtle,",
+      "Default choice when client requests a subtle, flat-faced timber-batten aesthetic. Delivers NRC 0.80 while protruding only ~35mm from the wall.",
+      "created by the clipping system is critical to achieving its NRC 0.80",
+      "flat-faced timber-batten aesthetic. Delivers NRC 0.80 while protruding only",
+      "rating).",
+      "~35mm from the wall."
     ]
   },
   "source_excerpt": null,

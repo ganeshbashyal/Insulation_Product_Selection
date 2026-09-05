@@ -136,30 +136,47 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Anticon Medium Duty",
-      "Anticon MD",
-      "Bradford Anticon MD",
-      "medium duty roofing blanket",
-      "standard Anticon blanket",
+      "Anticon 100 MD",
       "Anticon 60 MD",
       "Anticon 80 MD",
-      "Anticon 100 MD",
+      "Anticon MD",
+      "Anticon MD foil",
+      "Anticon Medium Duty",
+      "Bradford Anticon MD",
+      "Colorbond Anticon\nblanket",
+      "medium duty roofing blanket",
       "metal roof blanket MD",
-      "Colorbond Anticon\nblanket"
+      "standard Anticon blanket"
     ],
     "problem_keywords": [
+      "- Installation Direction: Foil facing must face downward toward the interior",
+      "- Placement: Roof, metal deck, shed.",
+      "- Positive Recommendation Rule: The most commonly sold roofing blanket in",
+      "Australia. Select Anticon 60 MD (R1.3) for minimum condensation control in",
+      "General residential and light-commercial metal roofs",
+      "ceiling",
       "condensation under Colorbond roof",
-      "noisy\nrain on tin roof",
+      "for 7-star energy compliance.",
+      "glasswool sits in contact with the underside of the metal roof",
       "heat radiating through metal roof",
-      "preventing roof space\ndampness",
+      "heavy duty foil.",
       "meeting 7 star energy rating roof R-value",
-      "roof space moisture in\nwinter"
+      "mild climates",
+      "noisy\nrain on tin roof",
+      "preventing roof space\ndampness",
+      "requiring robust tear resistance without the expense of full industrial",
+      "roof space moisture in\nwinter",
+      "select Anticon 80 MD (R1.8) or Anticon 100 MD (R2.3)",
+      "sheets."
     ],
     "placement": [
+      "Roof",
+      "ceiling",
+      "metal deck",
       "roof",
       "roofline",
       "shed",
-      "ceiling"
+      "shed. - Positive Recommendation Rule: The most commonly sold roofing blanket in Australia. Select Anticon 60 MD (R1.3) for minimum condensation control in mild climates; select Anticon 80 MD (R1.8) or Anticon 100 MD (R2.3) for 7-star energy compliance. - Installation Direction: Foil facing must face downward toward the interior ceiling; glasswool sits in contact with the underside of the metal roof sheets"
     ],
     "priority_fit": [
       "thermal",
@@ -168,9 +185,18 @@
       "fire"
     ],
     "use_cases": [
-      "Standard residential pitched and skillion metal roofs with battens spaced up\nto 900mm centres",
+      "- Installation Direction: Foil facing must face downward toward the interior",
+      "Australia. Select Anticon 60 MD (R1.3) for minimum condensation control in",
       "Light commercial offices, school classrooms, and childcare\ncentres under metal deck roofing",
-      "Regional and bushfire-prone domestic builds\nrequiring BAL-FZ compliant roof sarking and insulation"
+      "Regional and bushfire-prone domestic builds\nrequiring BAL-FZ compliant roof sarking and insulation",
+      "Standard residential pitched and skillion metal roofs with battens spaced up\nto 900mm centres",
+      "The most commonly sold roofing blanket in",
+      "ceiling",
+      "for 7-star energy compliance.",
+      "glasswool sits in contact with the underside of the metal roof",
+      "mild climates",
+      "select Anticon 80 MD (R1.8) or Anticon 100 MD (R2.3)",
+      "sheets."
     ],
     "not_for": [
       "Spans\nexceeding 900mm without safety mesh",

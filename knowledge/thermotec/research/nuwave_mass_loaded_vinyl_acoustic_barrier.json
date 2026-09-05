@@ -1,0 +1,77 @@
+{
+  "family_id": "THERMOTEC_NUWAVE_BASE_MLV",
+  "family_name": "NuWave Mass Loaded Vinyl Acoustic Barrier",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "accessories_upsell": "Thermotec 72mm reinforced aluminium tape and broad-head acoustic fixing screws."
+  },
+  "retrieval": {
+    "search_keywords": [
+      "4kg MLV",
+      "6kg sound barrier",
+      "8kg soundproofing vinyl",
+      "NuWave Base",
+      "Thermotec MLV",
+      "acoustic",
+      "acoustic\n    barrier roll",
+      "between floors",
+      "ceiling",
+      "duct",
+      "easy_install",
+      "external wall",
+      "floor",
+      "internal wall",
+      "mass loaded\n    vinyl",
+      "pipe",
+      "wall"
+    ],
+    "problem_keywords": [
+      "(Rw 26) is the standard residential specification",
+      "- Accessories Upsell: Thermotec 72mm reinforced aluminium tape and broad-head",
+      "- Placement: [\"wall\", \"internal wall\", \"external wall\", \"ceiling\", \"floor\",",
+      "- Positive Recommendation Rule: Drapes inside stud cavities or over ceiling",
+      "- Priority Fit: [\"acoustic\", \"easy_install\"]",
+      "6–8 kg/m² is specified",
+      "Airborne noise (speech, TV, hi-fi) penetrating lightweight",
+      "acoustic fixing screws.",
+      "between floors\", \"pipe\", \"duct\"]",
+      "ceiling plenum sound bleeding between commercial",
+      "drywall partition walls",
+      "for home theatres and commercial plant rooms.",
+      "generator and plant room acoustic breakout.",
+      "joists to add limp acoustic mass without increasing wall thickness. 4 kg/m²",
+      "tenancies"
+    ],
+    "placement": [
+      "\"between floors\"",
+      "\"ceiling\"",
+      "\"duct\"] - Priority Fit: [\"acoustic\"",
+      "\"easy_install\"] - Positive Recommendation Rule: Drapes inside stud cavities or over ceiling joists to add limp acoustic mass without increasing wall thickness. 4 kg",
+      "\"external wall\"",
+      "\"floor\"",
+      "\"internal wall\"",
+      "\"pipe\"",
+      "[\"wall\"",
+      "m² (Rw 26) is the standard residential specification; 6–8 kg",
+      "m² is specified for home theatres and commercial plant rooms. - Accessories Upsell: Thermotec 72mm reinforced aluminium tape and broad-head acoustic fixing screws"
+    ],
+    "use_cases": [
+      "(Rw 26) is the standard residential specification",
+      "- Accessories Upsell: Thermotec 72mm reinforced aluminium tape and broad-head",
+      "6–8 kg/m² is specified",
+      "Drapes inside stud cavities or over ceiling",
+      "acoustic fixing screws.",
+      "for home theatres and commercial plant rooms.",
+      "joists to add limp acoustic mass without increasing wall thickness. 4 kg/m²"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "easy_install"
+    ]
+  },
+  "source_excerpt": null,
+  "engine": "knowledge_base_txt"
+}

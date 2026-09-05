@@ -36,24 +36,54 @@
       "double sided foil bubble",
       "retroshield insulation",
       "shed retrofit foil",
+      "warehouse roof bubble\n    foil",
       "warehouse roof bubble foil"
     ],
     "problem_keywords": [
-      "Uninsulated steel sheds radiating summer heat, condensation dripping onto machinery or stored goods, unlined warehouse thermal loss."
+      "- Accessories Upsell: 72mm silver reinforced foil tape.",
+      "- Negative Filter (not_for): Not for outdoor installation without sun",
+      "- Placement: Roof, roofline, wall, ceiling, shed.",
+      "- Positive Recommendation Rule: Ideal for domestic garages, workshops,",
+      "Uninsulated steel sheds radiating summer heat,",
+      "Uninsulated steel sheds radiating summer heat, condensation dripping onto machinery or stored goods, unlined warehouse thermal loss.",
+      "causes severe eye",
+      "commercial sheds, and warehouse roofs where both faces can be exposed to air",
+      "condensation dripping onto machinery or stored goods, unlined warehouse",
+      "glare on roofs during sunny days).",
+      "protection during installation (no anti-glare coating",
+      "spaces (both sides have plain reflective foil without anti-glare).",
+      "thermal loss."
     ],
     "placement": [
       "Roof",
+      "and warehouse roofs where both faces can be exposed to air spaces (both sides have plain reflective foil without anti-glare). - Negative Filter (not_for): Not for outdoor installation without sun protection during installation (no anti-glare coating; causes severe eye glare on roofs during sunny days). - Accessories Upsell: 72mm silver reinforced foil tape",
       "ceiling",
+      "commercial sheds",
       "roofline",
       "shed",
-      "wall"
+      "shed. - Positive Recommendation Rule: Ideal for domestic garages",
+      "wall",
+      "workshops"
     ],
     "not_for": [
+      "- Accessories Upsell: 72mm silver reinforced foil tape.",
+      "causes severe eye",
       "causes severe eye glare on roofs during sunny days).",
-      "not_for): Not for outdoor installation without sun protection during installation (no anti-glare coating"
+      "glare on roofs during sunny days).",
+      "not_for): Not for outdoor installation without sun",
+      "not_for): Not for outdoor installation without sun protection during installation (no anti-glare coating",
+      "protection during installation (no anti-glare coating"
     ],
     "use_cases": [
-      "Ideal for domestic garages, workshops, commercial sheds, and warehouse roofs where both faces can be exposed to air spaces (both sides have plain reflective foil without anti-glare)."
+      "- Accessories Upsell: 72mm silver reinforced foil tape.",
+      "- Negative Filter (not_for): Not for outdoor installation without sun",
+      "Ideal for domestic garages, workshops,",
+      "Ideal for domestic garages, workshops, commercial sheds, and warehouse roofs where both faces can be exposed to air spaces (both sides have plain reflective foil without anti-glare).",
+      "causes severe eye",
+      "commercial sheds, and warehouse roofs where both faces can be exposed to air",
+      "glare on roofs during sunny days).",
+      "protection during installation (no anti-glare coating",
+      "spaces (both sides have plain reflective foil without anti-glare)."
     ]
   },
   "source_excerpt": null,

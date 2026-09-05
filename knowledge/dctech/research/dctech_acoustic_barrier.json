@@ -152,51 +152,72 @@
       "Ceiling applications require mechanical fastening in addition to\nadhesive bonding",
       "Heavy weight requires adequate structural support and\nmulti-person handling during overhead installation"
     ],
-    "warranty": "Backed by\nDCTech product warranty"
+    "warranty": "Backed by\nDCTech product warranty",
+    "accessories_upsell": "Tecsound S Band (for sealing all butt joints)."
   },
   "retrieval": {
     "search_keywords": [
       "DCTech Acoustic\nBarrier",
+      "DCTech acoustic membrane",
+      "DCTech soundproofing",
       "Tecsound",
-      "Tecsound SY 70",
+      "Tecsound 2FT",
       "Tecsound 50",
       "Tecsound 70",
-      "visco-elastic acoustic membrane",
-      "mass loaded vinyl alternative",
-      "soundproofing membrane",
-      "aircraft noise barrier",
-      "DCTech soundproofing",
+      "Tecsound SY 70",
       "acoustic damping sheet",
-      "Tecsound 2FT",
-      "plasterboard soundproofing membrane"
+      "aircraft noise barrier",
+      "limp\n    mass barrier 7kg",
+      "mass loaded vinyl alternative",
+      "plasterboard soundproofing membrane",
+      "soundproofing membrane",
+      "visco-elastic acoustic membrane",
+      "visco-elastic soundproofing membrane"
     ],
     "problem_keywords": [
+      "- Accessories Upsell: Tecsound S Band (for sealing all butt joints).",
+      "- Placement: Wall, internal wall, ceiling, roof, floor, ductwork.",
+      "- Positive Recommendation Rule: Specify Tecsound SY 70 (self-adhesive) for",
+      "Aircraft flyover noise penetrating lightweight ceilings",
+      "acoustic Rw ratings.",
       "aircraft noise through roof",
-      "noisy party wall",
-      "traffic noise through bedroom wall",
-      "rain noise drumming on metal roof",
+      "ceiling systems. Damps resonance and adds high acoustic mass without wall",
+      "direct lamination between plasterboard sheets in drywall partitions or",
+      "home\ntheatre sound leakage",
       "inter-tenancy noise transfer",
       "mechanical plant room noise breakout",
-      "home\ntheatre sound leakage"
+      "noisy party wall",
+      "rain drumming on standing seam zinc/metal roofs",
+      "rain noise drumming on metal roof",
+      "thickness growth.",
+      "thin party walls failing",
+      "traffic noise through bedroom wall"
     ],
     "placement": [
-      "wall",
-      "internal wall",
+      "Wall",
       "ceiling",
-      "roof",
-      "floor",
       "duct",
-      "pipe"
+      "ductwork. - Positive Recommendation Rule: Specify Tecsound SY 70 (self-adhesive) for direct lamination between plasterboard sheets in drywall partitions or ceiling systems. Damps resonance and adds high acoustic mass without wall thickness growth. - Accessories Upsell: Tecsound S Band (for sealing all butt joints)",
+      "floor",
+      "internal wall",
+      "pipe",
+      "roof",
+      "wall"
     ],
     "priority_fit": [
       "acoustic",
       "easy_install"
     ],
     "use_cases": [
+      "- Accessories Upsell: Tecsound S Band (for sealing all butt joints).",
       "Bonding to plasterboard in ceiling assemblies under flight\npaths to block aircraft noise",
-      "Laminating between plasterboard sheets on stud\npartition walls to boost speech privacy",
       "Damping rain noise impact on\nresidential and commercial standing seam metal roofs",
-      "Wrapping noisy waste\npipes and ventilation ducts to eliminate fluid flow noise"
+      "Laminating between plasterboard sheets on stud\npartition walls to boost speech privacy",
+      "Specify Tecsound SY 70 (self-adhesive) for",
+      "Wrapping noisy waste\npipes and ventilation ducts to eliminate fluid flow noise",
+      "ceiling systems. Damps resonance and adds high acoustic mass without wall",
+      "direct lamination between plasterboard sheets in drywall partitions or",
+      "thickness growth."
     ],
     "not_for": [
       "Direct exposed external roof or wall cladding",

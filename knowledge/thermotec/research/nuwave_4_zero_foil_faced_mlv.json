@@ -1,0 +1,68 @@
+{
+  "family_id": "THERMOTEC_NUWAVE_FOIL_FACED_MLV",
+  "family_name": "NuWave 4-Zero Foil-faced MLV",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {},
+  "retrieval": {
+    "search_keywords": [
+      "NuWave 4-Zero",
+      "acoustic",
+      "between\n    floors",
+      "ceiling",
+      "ceiling plenum acoustic\n    curtain",
+      "duct",
+      "external wall",
+      "fire",
+      "fire rated\n    acoustic barrier",
+      "foil faced MLV",
+      "foil faced mass loaded vinyl",
+      "four-zero",
+      "internal wall",
+      "pipe",
+      "thermal",
+      "wall"
+    ],
+    "problem_keywords": [
+      "- Placement: [\"wall\", \"internal wall\", \"external wall\", \"ceiling\", \"between",
+      "- Positive Recommendation Rule: Specify whenever an acoustic barrier is",
+      "- Priority Fit: [\"fire\", \"acoustic\", \"thermal\"]",
+      "Strict commercial building fire codes requiring AS 1530.3",
+      "acoustic barrier that also reflects radiant heat.",
+      "floors\", \"duct\", \"pipe\"]",
+      "four-zero\" fire indices in ceiling returns and service risers",
+      "need for an",
+      "rooms where building certifiers demand certified 0, 0, 0, 0–1 fire ratings.",
+      "suspended in return air ceiling plenums, electrical risers, or marine engine"
+    ],
+    "placement": [
+      "\"acoustic\"",
+      "\"between floors\"",
+      "\"ceiling\"",
+      "\"duct\"",
+      "\"external wall\"",
+      "\"internal wall\"",
+      "\"pipe\"] - Priority Fit: [\"fire\"",
+      "\"thermal\"] - Positive Recommendation Rule: Specify whenever an acoustic barrier is suspended in return air ceiling plenums",
+      "0",
+      "0–1 fire ratings",
+      "[\"wall\"",
+      "electrical risers",
+      "or marine engine rooms where building certifiers demand certified 0"
+    ],
+    "use_cases": [
+      "Specify whenever an acoustic barrier is",
+      "rooms where building certifiers demand certified 0, 0, 0, 0–1 fire ratings.",
+      "suspended in return air ceiling plenums, electrical risers, or marine engine"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "fire",
+      "thermal"
+    ]
+  },
+  "source_excerpt": null,
+  "engine": "knowledge_base_txt"
+}

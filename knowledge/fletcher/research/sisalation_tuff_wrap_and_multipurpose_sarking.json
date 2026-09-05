@@ -133,34 +133,51 @@
       "Breather 497 is not suitable where a strict water barrier is\nrequired under lightweight cladding in high rainfall",
       "Must not be left exposed\nto direct sunlight beyond recommended exposure window"
     ],
-    "warranty": "Backed by\nFletcher Insulation product warranty"
+    "warranty": "Backed by\nFletcher Insulation product warranty",
+    "accessories_upsell": "Vapastop 883 reinforced foil tape."
   },
   "retrieval": {
     "search_keywords": [
-      "Sisalation Tuff Wrap",
+      "Sisalation 456",
       "Sisalation 497",
       "Sisalation Multipurpose 456",
-      "polyweave wall wrap",
-      "reflective foil sarking",
+      "Sisalation Tuff Wrap",
+      "Sisalation foil",
       "Sisalation foil wrap",
-      "heavy\nduty wall wrap",
-      "extra heavy duty sarking",
+      "Tuff Wrap\nBreather",
       "Tuff Wrap Standard",
-      "Tuff Wrap\nBreather"
+      "extra heavy duty sarking",
+      "heavy\nduty wall wrap",
+      "polyweave foil wrap",
+      "polyweave wall wrap",
+      "reflective foil sarking"
     ],
     "problem_keywords": [
-      "tearing wall wrap on windy job sites",
-      "radiant heat entering home through brick walls",
+      "- Accessories Upsell: Vapastop 883 reinforced foil tape.",
+      "- For general brick veneer: Specify Tuff Wrap 497 Standard (impermeable",
+      "- For wide commercial purlin spans and tile roof sarking: Specify",
+      "- Placement: Wall, external wall, roof, roofline, shed.",
+      "- Selection Logic:",
+      "Multipurpose 456 EHD (Extra Heavy Duty).",
+      "Paper-backed foil tearing on windy building sites",
+      "barrier) or Breather (perforated).",
+      "bricklayers puncturing wrap with brick ties",
+      "cavity brick walls.",
       "drafty exterior wall frames",
+      "intense radiant heat entering",
       "puncture damage to building wrap from brick ties",
-      "solar heat radiation\nthrough roof and walls"
+      "radiant heat entering home through brick walls",
+      "solar heat radiation\nthrough roof and walls",
+      "tearing wall wrap on windy job sites"
     ],
     "placement": [
-      "wall",
+      "Wall",
       "external wall",
       "roof",
       "roofline",
-      "shed"
+      "shed",
+      "shed. - Selection Logic: - For general brick veneer: Specify Tuff Wrap 497 Standard (impermeable barrier) or Breather (perforated). - For wide commercial purlin spans and tile roof sarking: Specify Multipurpose 456 EHD (Extra Heavy Duty). - Accessories Upsell: Vapastop 883 reinforced foil tape",
+      "wall"
     ],
     "priority_fit": [
       "thermal",

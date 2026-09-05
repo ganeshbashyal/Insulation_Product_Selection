@@ -117,24 +117,40 @@
   "retrieval": {
     "search_keywords": [
       "Autex Vicinity Haven",
-      "Vicinity Desk Screen Haven",
-      "wrap\naround desk screen",
+      "Cube wrap\naround screen",
+      "Haven 1600",
       "Haven 1600 desk screen",
       "Haven 1800 desk screen",
-      "acoustic workstation enclosure",
+      "Haven desk screen",
+      "Vicinity Desk Screen Haven",
+      "Vicinity Haven",
       "acoustic privacy screen Haven",
-      "Cube wrap\naround screen",
-      "clamp desk screen Haven"
+      "acoustic workstation enclosure",
+      "clamp desk screen Haven",
+      "high absorption desk screen",
+      "wrap\naround desk screen",
+      "wrap-around desk divider"
     ],
     "problem_keywords": [
+      "- Placement: Internal partition / desk mount.",
+      "- Positive Recommendation Rule: When maximum acoustic absorption and deep",
+      "High open-plan ambient noise",
       "distracting\nnoise in open plan office",
+      "high 1.55 Sabins).",
       "lack of privacy on corner desks",
-      "phone\nconversation privacy in open office",
-      "noisy workstation cluster",
+      "need for maximum acoustic absorption per workstation (delivers a",
       "need wrap\naround desk partition",
-      "reverberation around workstations"
+      "neighbors",
+      "noisy workstation cluster",
+      "phone\nconversation privacy in open office",
+      "phone calls disturbing",
+      "reverberation around workstations",
+      "sound absorption of standard flat screens.",
+      "wrap-around boundary containment are required. Delivers more than double the"
     ],
     "placement": [
+      "Internal partition",
+      "desk mount. - Positive Recommendation Rule: When maximum acoustic absorption and deep wrap-around boundary containment are required. Delivers more than double the sound absorption of standard flat screens",
       "internal wall"
     ],
     "priority_fit": [
@@ -144,9 +160,12 @@
       "fire"
     ],
     "use_cases": [
-      "Wrapping corner and linear\nworkstations to create high-privacy acoustic pods in corporate offices",
       "Isolating noise between adjacent telephone-intensive customer service desks",
-      "Providing personal focus alcoves in university study hubs and co-working\nspaces"
+      "Providing personal focus alcoves in university study hubs and co-working\nspaces",
+      "When maximum acoustic absorption and deep",
+      "Wrapping corner and linear\nworkstations to create high-privacy acoustic pods in corporate offices",
+      "sound absorption of standard flat screens.",
+      "wrap-around boundary containment are required. Delivers more than double the"
     ],
     "not_for": [
       "Free-standing floor screens",

@@ -104,27 +104,42 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Higgins Builders Baffle",
       "Builders\nAcoustic Baffle",
-      "Higgins party wall baffle",
-      "polyester acoustic baffle\nblock",
-      "ceiling void sound barrier",
-      "party wall acoustic baffle",
       "Higgins\ninsulation baffle",
-      "acoustic baffle block"
+      "Higgins Builders Baffle",
+      "Higgins party wall baffle",
+      "acoustic baffle block",
+      "ceiling void baffle block",
+      "ceiling void sound barrier",
+      "party wall acoustic\n    baffle",
+      "party wall acoustic baffle",
+      "polyester acoustic baffle\nblock",
+      "polyester party wall baffle"
     ],
     "problem_keywords": [
-      "sound\ntraveling through ceiling space over party wall",
+      "- Negative Filter (not_for): Not a substitute for non-combustible stonewool",
+      "- Placement: Ceiling space directly above inter-tenancy party walls.",
+      "- Positive Recommendation Rule: Installed from the top plate of the party wall",
+      "Sound traveling over party walls through ceiling voids in",
+      "acoustic privacy between duplex units",
+      "compliance.",
       "flanking noise between\ntownhouses",
-      "party wall acoustic compliance failure",
+      "noise flanking between adjoining units failing NCC acoustic",
       "noise leakage through\nceiling void",
-      "acoustic privacy between duplex units"
+      "party wall acoustic compliance failure",
+      "paths between attached dwellings.",
+      "sound\ntraveling through ceiling space over party wall",
+      "townhouses",
+      "up to the underside of the roof sheeting/slab to block acoustic flanking",
+      "where a structural fire resistance level (FRL) is mandated."
     ],
     "placement": [
+      "Ceiling space directly above inter-tenancy party walls. - Positive Recommendation Rule: Installed from the top plate of the party wall up to the underside of the roof sheeting",
+      "between floors",
       "ceiling",
-      "wall",
       "internal wall",
-      "between floors"
+      "slab to block acoustic flanking paths between attached dwellings. - Negative Filter (not_for): Not a substitute for non-combustible stonewool where a structural fire resistance level (FRL) is mandated",
+      "wall"
     ],
     "priority_fit": [
       "acoustic",
@@ -132,14 +147,21 @@
       "easy_install"
     ],
     "use_cases": [
-      "Blocking\nflanking noise transmission through the ceiling cavity above party walls in\nmulti-residential townhouses",
+      "- Negative Filter (not_for): Not a substitute for non-combustible stonewool",
       "Acoustic void barrier above commercial office\npartitions terminating at suspended ceiling height",
-      "Sound baffle installation\nbetween attached duplex dwellings to satisfy NCC acoustic privacy regulations"
+      "Blocking\nflanking noise transmission through the ceiling cavity above party walls in\nmulti-residential townhouses",
+      "Installed from the top plate of the party wall",
+      "Sound baffle installation\nbetween attached duplex dwellings to satisfy NCC acoustic privacy regulations",
+      "paths between attached dwellings.",
+      "up to the underside of the roof sheeting/slab to block acoustic flanking",
+      "where a structural fire resistance level (FRL) is mandated."
     ],
     "not_for": [
       "Direct external cladding",
       "High-temperature fire stop where\nnon-combustible stonewool FRL is mandated",
-      "Underfloor soil direct contact"
+      "Underfloor soil direct contact",
+      "not_for): Not a substitute for non-combustible stonewool",
+      "where a structural fire resistance level (FRL) is mandated."
     ],
     "rag_summary": "Higgins Insulation Higgins Builders Baffle is a high-density\npolyester acoustic sound absorber engineered specifically to stop sound transfer\nthrough ceiling voids above party walls in Class 1 and Class 2 multi-residential\nbuildings. Manufactured in Queensland from 100% thermally bonded polyester\ncontaining up to 85% recycled PET, it friction-fits between the top of the wall\nand the roofline to block acoustic flanking paths. Completely itch-free,\nnon-toxic, hydrophobic, and fire-tested to AS/NZS 1530.3, it provides a safe,\npermanent acoustic barrier between adjoining tenancies."
   },

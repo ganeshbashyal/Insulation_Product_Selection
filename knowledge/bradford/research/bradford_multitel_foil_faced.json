@@ -137,28 +137,45 @@
   "retrieval": {
     "search_keywords": [
       "Bradford Multitel",
+      "Bradford duct blanket",
+      "CSR Multitel 16068",
+      "HVAC duct wrap",
+      "Multitel BAL 12.5-40",
       "Multitel Foil Faced",
       "Multitel HVAC Blanket",
-      "foil faced duct wrap",
+      "Multitel foil faced",
+      "air\n    conditioning wrap",
       "air\nconditioning duct insulation",
-      "glasswool duct wrap",
-      "Multitel BAL 12.5-40",
-      "Bradford duct blanket",
-      "CSR Multitel 16068"
+      "external duct insulation",
+      "foil faced duct wrap",
+      "glasswool duct wrap"
     ],
     "problem_keywords": [
+      "- Placement: Duct, pipe, roof, roofline.",
+      "- Positive Recommendation Rule: 1200mm wide rolls for wrapping rectangular and",
+      "Metal air conditioning ducts sweating/condensing in",
+      "acoustic breakout noise from duct fans",
+      "attack to AS 3959.",
+      "bushfire ember entry via roof valley gutters.",
       "condensation on AC ductwork",
       "heat loss through air conditioning ducts",
+      "meeting AS 4254 duct insulation code",
       "noisy ductwork fan noise",
-      "sweating metal air ducts",
       "sealing ember ingress\nin roof",
-      "meeting AS 4254 duct insulation code"
+      "specifically for roofers sealing valleys, fascia, and ridges against ember",
+      "spiral sheet-metal air conditioning ducts. Specify 100061 (300mm wide)",
+      "sweating metal air ducts",
+      "unconditioned ceiling voids"
     ],
     "placement": [
+      "Duct",
+      "and ridges against ember attack to AS 3959",
       "duct",
+      "fascia",
       "pipe",
       "roof",
-      "roofline"
+      "roofline",
+      "roofline. - Positive Recommendation Rule: 1200mm wide rolls for wrapping rectangular and spiral sheet-metal air conditioning ducts. Specify 100061 (300mm wide) specifically for roofers sealing valleys"
     ],
     "priority_fit": [
       "condensation",
@@ -167,9 +184,13 @@
       "fire"
     ],
     "use_cases": [
+      "1200mm wide rolls for wrapping rectangular and",
       "Externally wrapping rectangular and spiral\nsheet-metal air conditioning ducts in commercial and residential ceiling\nspaces",
       "Preventing condensation and heat gain on supply air ductwork in\nunconditioned roof cavities",
-      "Sealing roof valleys, gutters, and ridge joints\nagainst ember attack in BAL 12.5 to BAL-40 bushfire zones"
+      "Sealing roof valleys, gutters, and ridge joints\nagainst ember attack in BAL 12.5 to BAL-40 bushfire zones",
+      "attack to AS 3959.",
+      "specifically for roofers sealing valleys, fascia, and ridges against ember",
+      "spiral sheet-metal air conditioning ducts. Specify 100061 (300mm wide)"
     ],
     "not_for": [
       "Internal duct acoustic lining with moving airflow (use Bradford Supertel or\nUltratel)",

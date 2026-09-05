@@ -22,12 +22,16 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Metecno accessory",
-      "Metecno flashings",
       "Bondor Metecno accessories",
-      "insulated panel accessories",
+      "Bondor flashings",
+      "Metecno accessories",
+      "Metecno accessory",
+      "Metecno fixings",
+      "Metecno flashings",
       "coolroom panel\naccessories",
-      "Metecno fixings"
+      "coolroom panel fasteners",
+      "insulated panel accessories",
+      "insulated panel screws"
     ],
     "problem_keywords": [
       "thermal leaks at panel\njoints",
@@ -36,10 +40,12 @@
       "flashing insulated roof panels"
     ],
     "placement": [
-      "wall",
+      "External wall",
+      "ceiling",
+      "coolroom ceiling. - Matching Rule: Quote alongside MetecnoPanel or MetecnoSpan to ensure weathertight and airtight envelope flashing",
       "external\nwall",
       "roof",
-      "ceiling"
+      "wall"
     ],
     "priority_fit": [
       "easy_install",

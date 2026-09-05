@@ -115,26 +115,45 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Kingspan XPS Strip Slab Edge",
-      "GreenGuard GG350\nslab edge",
-      "slab edge insulation strip",
-      "Kingspan slab edge",
-      "XPS slab edge\nstrip",
       "2400x300x40 slab edge",
+      "7 star\n    slab edge strip",
+      "7 star slab edge\ninsulation",
+      "GreenGuard\n    GG350 slab edge",
+      "GreenGuard GG350\nslab edge",
+      "Kingspan XPS Strip Slab Edge",
+      "Kingspan slab edge",
+      "Kingspan slab edge insulation",
+      "XPS slab edge\nstrip",
+      "XPS strip slab edge",
       "concrete edge insulation",
-      "7 star slab edge\ninsulation"
+      "slab edge insulation strip"
     ],
     "problem_keywords": [
-      "heat escaping through concrete slab edge",
+      "- Negative Filter (not_for): Exposed above-ground sections must be covered",
+      "- Placement: Underfloor, floor slab edge (perimeter).",
+      "- Positive Recommendation Rule: Pre-cut to 300mm to match standard slab",
+      "BATCH 018",
+      "Failing NCC 2022 slab edge insulation mandates in Climate",
+      "Zones 7 and 8",
+      "cold floors at the external perimeter of concrete slabs",
       "cold perimeter floor slab in winter",
+      "concrete.",
+      "cracking of slab edge\ninsulation from backfill",
       "failing 7 star NatHERS energy rating",
+      "formwork depth. Installed vertically inside formwork prior to pouring",
+      "ground frost bridging into slabs.",
+      "heat escaping through concrete slab edge",
       "thermal bridging at concrete foundation edge",
-      "cracking of slab edge\ninsulation from backfill"
+      "with a parge coat, render, or flashing to protect against direct sunlight."
     ],
     "placement": [
+      "Underfloor",
       "floor",
-      "underfloor",
-      "subfloor"
+      "floor slab edge (perimeter). - Positive Recommendation Rule: Pre-cut to 300mm to match standard slab formwork depth. Installed vertically inside formwork prior to pouring concrete. - Negative Filter (not_for): Exposed above-ground sections must be covered with a parge coat",
+      "or flashing to protect against direct sunlight",
+      "render",
+      "subfloor",
+      "underfloor"
     ],
     "priority_fit": [
       "thermal",
@@ -142,14 +161,23 @@
       "sustainability"
     ],
     "use_cases": [
+      "- Negative Filter (not_for): Exposed above-ground sections must be covered",
+      "BATCH 018",
+      "Insulating slab edges of\nresidential raft slabs and pod slab systems before concrete pour",
       "Insulating the vertical perimeter edge of concrete ground-bearing slabs in\nClimate Zones 7 and 8 to satisfy mandatory NCC slab edge provisions",
+      "Pre-cut to 300mm to match standard slab",
       "Stopping\nperimeter thermal bridging in high-performance residential homes\ntargeting 7-star and 8-star NatHERS ratings",
-      "Insulating slab edges of\nresidential raft slabs and pod slab systems before concrete pour"
+      "concrete.",
+      "formwork depth. Installed vertically inside formwork prior to pouring",
+      "with a parge coat, render, or flashing to protect against direct sunlight."
     ],
     "not_for": [
+      "BATCH 018",
+      "Direct contact with coal-tar or petroleum solvents",
       "Exposed exterior facades without UV protective coating or parging",
       "Roof\nceiling cavities",
-      "Direct contact with coal-tar or petroleum solvents"
+      "not_for): Exposed above-ground sections must be covered",
+      "with a parge coat, render, or flashing to protect against direct sunlight."
     ],
     "rag_summary": "Kingspan XPS Strip Slab Edge Insulation (GreenGuard GG350) is\na 2400mm x 300mm x 40mm (R1.0) rigid extruded polystyrene strip purpose-designed\nto insulate exposed concrete slab perimeters. With a high compressive strength\nof 350 kPa (AS 2498.3) and near-zero water absorption (<1%), it halts thermal\nbridging where up to 49% of ground heat loss occurs, satisfying mandatory NCC\nslab edge insulation requirements in cooler climate zones. Durable against\nbackfill pressure and soil moisture, it installs easily inside perimeter\nformwork prior to concrete pouring."
   },

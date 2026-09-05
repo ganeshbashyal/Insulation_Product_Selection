@@ -27,6 +27,7 @@
   },
   "retrieval": {
     "search_keywords": [
+      "Autex Cascade\n    screen",
       "Autex Cascade screen",
       "Cascade Expanding",
       "concertina acoustic screen",
@@ -34,19 +35,48 @@
       "suspended acoustic divider"
     ],
     "problem_keywords": [
+      "- Installation Add-on: If ceiling exceeds 3.5m, advise purchasing extended",
+      "- Negative Filter (not_for): Does not provide high Rw acoustic separation (it",
+      "- Placement: Ceiling suspended, internal room divider.",
+      "- Positive Recommendation Rule: Recommend when an open-plan office requires",
       "Visual and acoustic distractions in open-plan offices",
+      "anchoring kit.",
       "desire for zero material waste.",
-      "need for spatial zoning without constructing permanent drywall partitions"
+      "if bottom sway must be prevented, add the bottom channel",
+      "is an open-grid screen, not a solid soundproof wall).",
+      "need for spatial zoning without constructing permanent drywall partitions",
+      "penetration and HVAC airflow.",
+      "semi-private visual screening and echo reduction while maintaining light",
+      "suspension cables"
     ],
     "placement": [
       "Ceiling suspended",
-      "internal room divider"
+      "add the bottom channel anchoring kit",
+      "advise purchasing extended suspension cables; if bottom sway must be prevented",
+      "internal room divider",
+      "internal room divider. - Positive Recommendation Rule: Recommend when an open-plan office requires semi-private visual screening and echo reduction while maintaining light penetration and HVAC airflow. - Negative Filter (not_for): Does not provide high Rw acoustic separation (it is an open-grid screen",
+      "not a solid soundproof wall). - Installation Add-on: If ceiling exceeds 3.5m"
     ],
     "not_for": [
-      "not_for): Does not provide high Rw acoustic separation (it is an open-grid screen, not a solid soundproof wall)."
+      "- Installation Add-on: If ceiling exceeds 3.5m, advise purchasing extended",
+      "anchoring kit.",
+      "if bottom sway must be prevented, add the bottom channel",
+      "is an open-grid screen, not a solid soundproof wall).",
+      "not_for): Does not provide high Rw acoustic separation (it",
+      "not_for): Does not provide high Rw acoustic separation (it is an open-grid screen, not a solid soundproof wall).",
+      "suspension cables"
     ],
     "use_cases": [
-      "Recommend when an open-plan office requires semi-private visual screening and echo reduction while maintaining light penetration and HVAC airflow."
+      "- Installation Add-on: If ceiling exceeds 3.5m, advise purchasing extended",
+      "- Negative Filter (not_for): Does not provide high Rw acoustic separation (it",
+      "Recommend when an open-plan office requires",
+      "Recommend when an open-plan office requires semi-private visual screening and echo reduction while maintaining light penetration and HVAC airflow.",
+      "anchoring kit.",
+      "if bottom sway must be prevented, add the bottom channel",
+      "is an open-grid screen, not a solid soundproof wall).",
+      "penetration and HVAC airflow.",
+      "semi-private visual screening and echo reduction while maintaining light",
+      "suspension cables"
     ]
   },
   "source_excerpt": null,

@@ -141,30 +141,45 @@
   },
   "retrieval": {
     "search_keywords": [
+      "Ecowool\n    R5.0",
+      "Ecowool R2.5 wall",
+      "Ecowool R4.0",
+      "Ecowool R5.0",
+      "Ecowool R7.0",
       "Ecowool Residential Batt",
       "Ecowool ceiling batts",
       "Ecowool wall batts",
       "PGF ceiling batts",
-      "Ecowool R4.0",
-      "Ecowool R5.0",
-      "Ecowool R2.5 wall",
+      "PGF ceiling insulation",
+      "SensiTouch batts",
       "SensiTouch ceiling batts",
-      "non-itchy ceiling insulation",
-      "Ecowool R7.0"
+      "non-itchy ceiling insulation"
     ],
     "problem_keywords": [
-      "hot rooms upstairs in summer",
+      "(AS 1530.1) and low VOC.",
+      "(all the way up to R7.0 for cold/alpine climates). Non-combustible",
+      "- Placement: Ceiling, wall, external wall.",
+      "- Positive Recommendation Rule: Excellent thermal performance at high R-values",
+      "High domestic power bills",
+      "ceiling plasterboard",
+      "cold drafts\nthrough external walls",
+      "cold winter drafts through",
       "high\nwinter heating costs",
-      "uninsulated ceiling heat escape",
+      "hot rooms upstairs in summer",
       "itchy fiberglass\nbatts replacement",
+      "low-dust glasswool.",
       "meeting 7-star NatHERS energy compliance",
-      "cold drafts\nthrough external walls"
+      "meeting 7-star NatHERS energy regulations with",
+      "uninsulated ceiling heat escape"
     ],
     "placement": [
+      "Ceiling",
+      "alpine climates). Non-combustible (AS 1530.1) and low VOC",
       "ceiling",
-      "wall",
       "external wall",
-      "internal wall"
+      "external wall. - Positive Recommendation Rule: Excellent thermal performance at high R-values (all the way up to R7.0 for cold",
+      "internal wall",
+      "wall"
     ],
     "priority_fit": [
       "thermal",
@@ -173,9 +188,12 @@
       "easy_install"
     ],
     "use_cases": [
+      "(AS 1530.1) and low VOC.",
+      "(all the way up to R7.0 for cold/alpine climates). Non-combustible",
+      "Excellent thermal performance at high R-values",
       "Insulating pitched roof ceiling spaces in\nresidential homes to achieve 7-star NatHERS energy ratings",
-      "Thermal insulation\nin external timber and steel framed walls behind brick veneer or lightweight\ncladding",
-      "Retrofitting existing uninsulated residential attic spaces to reduce\nenergy bills"
+      "Retrofitting existing uninsulated residential attic spaces to reduce\nenergy bills",
+      "Thermal insulation\nin external timber and steel framed walls behind brick veneer or lightweight\ncladding"
     ],
     "not_for": [
       "Underfloor suspended timber floors exposed to\ndrafts",

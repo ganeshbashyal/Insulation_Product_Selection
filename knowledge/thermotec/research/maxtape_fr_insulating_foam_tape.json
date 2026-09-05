@@ -45,7 +45,62 @@
       "Master carton"
     ]
   },
-  "retrieval": {},
+  "retrieval": {
+    "search_keywords": [
+      "EPDM foam\n    tape",
+      "MaxTape FR",
+      "Thermotec MaxTape",
+      "anti-creak purlin tape",
+      "condensation",
+      "duct",
+      "easy_install",
+      "fire",
+      "insulating foam tape",
+      "pipe",
+      "pipe lagging tape 50mm",
+      "purlin tape",
+      "roof",
+      "roofline",
+      "shed",
+      "thermal",
+      "wall"
+    ],
+    "problem_keywords": [
+      "- Placement: [\"pipe\", \"duct\", \"roof\", \"roofline\", \"wall\", \"shed\"]",
+      "- Positive Recommendation Rule: Quote MaxTape FR 98mm for wide structural",
+      "- Priority Fit: [\"thermal\", \"condensation\", \"fire\", \"easy_install\"]",
+      "Metal shed roof popping and creaking during temperature",
+      "changes",
+      "fittings with a 50% overlap.",
+      "purlins",
+      "quote MaxTape FR 50mm for pipe fittings and narrow girts. Wrap pipe",
+      "sweating valves and tees on chilled water or refrigeration lines",
+      "thermal bridging over narrow steel battens."
+    ],
+    "placement": [
+      "\"condensation\"",
+      "\"duct\"",
+      "\"easy_install\"] - Positive Recommendation Rule: Quote MaxTape FR 98mm for wide structural purlins; quote MaxTape FR 50mm for pipe fittings and narrow girts. Wrap pipe fittings with a 50% overlap",
+      "\"fire\"",
+      "\"roof\"",
+      "\"roofline\"",
+      "\"shed\"] - Priority Fit: [\"thermal\"",
+      "\"wall\"",
+      "[\"pipe\""
+    ],
+    "use_cases": [
+      "Quote MaxTape FR 98mm for wide structural",
+      "fittings with a 50% overlap.",
+      "purlins",
+      "quote MaxTape FR 50mm for pipe fittings and narrow girts. Wrap pipe"
+    ],
+    "priority_fit": [
+      "condensation",
+      "easy_install",
+      "fire",
+      "thermal"
+    ]
+  },
   "source_excerpt": null,
   "engine": "manual_range_injection",
   "range_source": "manufacturer size/packaging breakdown (hand-supplied 2026-09-06)"

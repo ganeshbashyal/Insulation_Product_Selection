@@ -116,25 +116,40 @@
   },
   "retrieval": {
     "search_keywords": [
+      "Autex Den screen",
       "Autex Vicinity Den",
+      "Cube desk\ndivider Den",
       "Vicinity\nDesk Screen Den",
-      "corner desk screen",
-      "desk screen with return wing",
-      "acoustic desk enclosure",
+      "Vicinity Den",
       "Vicinity Den 1600",
       "Vicinity Den 1800",
-      "Cube desk\ndivider Den",
+      "acoustic desk enclosure",
+      "acoustic privacy booth for desk",
+      "corner desk screen",
+      "desk\n    screen with wing",
+      "desk screen with return wing",
       "workstation privacy booth"
     ],
     "problem_keywords": [
-      "visual\ndistraction in open plan office",
-      "phone call noise at desk",
+      "- Placement: Internal partition / desk mount.",
+      "- Positive Recommendation Rule: Ideal for high-concentration workstations,",
+      "Workers distracted by peripheral vision movement in",
+      "call centers, and study desks where side-angle sound shielding and visual",
+      "desk partition without screws",
       "lack of\nworkstation boundary",
+      "need for dedicated focus pods on standard linear desks.",
       "noisy adjacent desks",
       "open plan office focus\nproblems",
-      "desk partition without screws"
+      "open-plan offices",
+      "perimeter protection are required.",
+      "phone call noise at desk",
+      "visual\ndistraction in open plan office"
     ],
     "placement": [
+      "Internal partition",
+      "and study desks where side-angle sound shielding and visual perimeter protection are required",
+      "call centers",
+      "desk mount. - Positive Recommendation Rule: Ideal for high-concentration workstations",
       "internal wall"
     ],
     "priority_fit": [
@@ -144,9 +159,12 @@
       "fire"
     ],
     "use_cases": [
+      "Acoustic and visual screening for individual study\ndesks in academic libraries",
       "Creating focused work pods in agile open-plan offices with\nside-return acoustic shielding",
+      "Ideal for high-concentration workstations,",
       "Providing speech dampening in call centres and\nfinancial trading desks",
-      "Acoustic and visual screening for individual study\ndesks in academic libraries"
+      "call centers, and study desks where side-angle sound shielding and visual",
+      "perimeter protection are required."
     ],
     "not_for": [
       "Free-standing floor dividers\nwithout desk support",

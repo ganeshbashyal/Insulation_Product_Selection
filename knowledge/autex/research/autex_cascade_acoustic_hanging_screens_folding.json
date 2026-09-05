@@ -28,24 +28,45 @@
   "retrieval": {
     "search_keywords": [
       "3D acoustic hanging screen",
+      "Autex folding\n    screen",
       "Autex folding screen",
       "Cascade Folding",
       "origami acoustic screen",
       "textured hanging divider"
     ],
     "problem_keywords": [
+      "- Negative Filter (not_for): Do not place directly in the path of",
+      "- Placement: Ceiling suspended, internal spatial divider.",
+      "- Positive Recommendation Rule: When customer requests 3D texture and acoustic",
       "Flat hanging screens look uninspired",
-      "need architectural texture, light-and-shadow interplay, and sound diffusion between desk clusters."
+      "anchored at base).",
+      "clusters.",
+      "diffusion in an open office, hotel lobby, or library break-out area.",
+      "high-velocity mechanical air supply registers (causes swinging if not",
+      "need architectural",
+      "need architectural texture, light-and-shadow interplay, and sound diffusion between desk clusters.",
+      "texture, light-and-shadow interplay, and sound diffusion between desk"
     ],
     "placement": [
       "Ceiling suspended",
-      "internal spatial divider"
+      "hotel lobby",
+      "internal spatial divider",
+      "internal spatial divider. - Positive Recommendation Rule: When customer requests 3D texture and acoustic diffusion in an open office",
+      "or library break-out area. - Negative Filter (not_for): Do not place directly in the path of high-velocity mechanical air supply registers (causes swinging if not anchored at base)"
     ],
     "not_for": [
+      "anchored at base).",
+      "high-velocity mechanical air supply registers (causes swinging if not",
+      "not_for): Do not place directly in the path of",
       "not_for): Do not place directly in the path of high-velocity mechanical air supply registers (causes swinging if not anchored at base)."
     ],
     "use_cases": [
-      "When customer requests 3D texture and acoustic diffusion in an open office, hotel lobby, or library break-out area."
+      "- Negative Filter (not_for): Do not place directly in the path of",
+      "When customer requests 3D texture and acoustic",
+      "When customer requests 3D texture and acoustic diffusion in an open office, hotel lobby, or library break-out area.",
+      "anchored at base).",
+      "diffusion in an open office, hotel lobby, or library break-out area.",
+      "high-velocity mechanical air supply registers (causes swinging if not"
     ]
   },
   "source_excerpt": null,

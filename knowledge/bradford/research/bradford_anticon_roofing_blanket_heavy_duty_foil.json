@@ -137,30 +137,46 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Anticon Heavy Duty",
-      "Anticon HD",
-      "Bradford Anticon HD",
-      "heavy duty foil blanket",
-      "commercial Anticon blanket",
+      "Anticon 100 HD",
       "Anticon 60 HD",
       "Anticon 80 HD",
-      "Anticon 100 HD",
+      "Anticon HD",
+      "Anticon HD foil",
+      "Anticon Heavy Duty",
+      "Bradford Anticon HD",
+      "commercial Anticon blanket",
+      "heavy duty foil blanket",
       "heavy duty roofing blanket",
       "wide span roof\nblanket"
     ],
     "problem_keywords": [
-      "foil tearing on wide purlins",
+      "- Placement: Roof, commercial metal deck, warehouse roof.",
+      "- Positive Recommendation Rule: Specify for commercial, industrial, and",
+      "High wind sites tearing standard roof foil during",
       "condensation\nin commercial metal building",
-      "rain drumming in warehouse",
+      "foil facing.",
+      "foil tearing on wide purlins",
       "heat transfer\nthrough commercial roof",
+      "high wind roof foil\nblowout",
+      "installation",
+      "installation demand an AS/NZS 4200.1 Heavy Duty puncture- and tear-resistant",
+      "large-span warehouse roofs where mechanical tensile forces during",
+      "rain drumming in warehouse",
+      "resistance.",
       "sagging roof insulation foil",
-      "high wind roof foil\nblowout"
+      "wide commercial purlin spans requiring higher tensile"
     ],
     "placement": [
+      "NZS 4200.1 Heavy Duty puncture- and tear-resistant foil facing",
+      "Roof",
+      "and large-span warehouse roofs where mechanical tensile forces during installation demand an AS",
+      "ceiling",
+      "commercial metal deck",
+      "industrial",
       "roof",
       "roofline",
       "shed",
-      "ceiling"
+      "warehouse roof. - Positive Recommendation Rule: Specify for commercial"
     ],
     "priority_fit": [
       "thermal",
@@ -169,9 +185,13 @@
       "acoustic"
     ],
     "use_cases": [
+      "Bushfire-prone\nresidential homes requiring BAL-FZ compliant under-roof insulation",
       "Commercial metal roof construction with wide purlin spacings up to 1200mm\nwithout safety mesh",
       "Industrial warehouses, distribution centres, and\nfactories requiring high tear-resistant roof sarking",
-      "Bushfire-prone\nresidential homes requiring BAL-FZ compliant under-roof insulation"
+      "Specify for commercial, industrial, and",
+      "foil facing.",
+      "installation demand an AS/NZS 4200.1 Heavy Duty puncture- and tear-resistant",
+      "large-span warehouse roofs where mechanical tensile forces during"
     ],
     "not_for": [
       "Tiled roofing without metal sheeting",

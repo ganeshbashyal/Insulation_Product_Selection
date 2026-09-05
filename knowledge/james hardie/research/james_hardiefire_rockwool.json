@@ -123,31 +123,59 @@
       "Must be installed\nwith 5mm compression in both directions to maintain certified FRL",
       "Must be\nused as part of complete HardieSmart tested systems to achieve warranty and\ncertified fire ratings"
     ],
-    "warranty": "10-year manufacturing warranty when used\nwith HardieSmart systems"
+    "warranty": "10-year manufacturing warranty when used\nwith HardieSmart systems",
+    "accessories_upsell": "HardieWrap weather barrier, Villaboard interior lining, and James Hardie 6mm+ external claddings."
   },
   "retrieval": {
     "search_keywords": [
+      "80kg mineral wool",
+      "80kg rockwool batts",
+      "FRL 60/60/60\ninsulation",
+      "FRL 60/60/60 insulation",
+      "HardieFire",
       "HardieFire\nInsulation",
-      "James Hardie Fire Rockwool",
       "HardieFire batts",
       "HardieSmart\ninsulation",
+      "HardieSmart insulation",
+      "James Hardie Fire Rockwool",
+      "James Hardie fire rockwool",
+      "James Hardie insulation",
       "mineral wool fire batts",
       "rockwool wall batts",
-      "FRL 60/60/60\ninsulation",
-      "80kg mineral wool",
-      "James Hardie insulation"
+      "zero lot line insulation"
     ],
     "problem_keywords": [
-      "fire rating boundary wall",
-      "meeting FRL 60/60/60",
-      "flame spread between zero lot walls",
+      "- Accessories Upsell: HardieWrap weather barrier, Villaboard interior lining,",
+      "- Negative Filter (not_for): Not a ceiling batt",
+      "- Placement: Wall, external wall, internal wall.",
+      "- Positive Recommendation Rule: Mandatory component of certified HardieSmart",
+      "BAL FZ boundary wall insulation",
+      "Boundary Wall, ZeroLot Wall, and Blade Wall systems.",
+      "House built within 900mm of boundary needing 60/60/60 fire",
       "aged care wall acoustic and fire\nrating",
-      "BAL FZ boundary wall insulation"
+      "and James Hardie 6mm+ external claddings.",
+      "certifier",
+      "fire rating boundary wall",
+      "flame spread between zero lot walls",
+      "meeting FRL 60/60/60",
+      "not for exposed outdoor",
+      "not to be installed loose without 5mm compression.",
+      "rating",
+      "requiring acoustic & fire-rated aged care or multi-res party walls.",
+      "weather without cladding",
+      "zero-lot wall construction between detached homes"
     ],
     "placement": [
-      "wall",
+      "Villaboard interior lining",
+      "Wall",
+      "ZeroLot Wall",
+      "and Blade Wall systems. - Negative Filter (not_for): Not a ceiling batt; not for exposed outdoor weather without cladding; not to be installed loose without 5mm compression. - Accessories Upsell: HardieWrap weather barrier",
+      "and James Hardie 6mm+ external claddings",
       "external\nwall",
-      "internal wall"
+      "external wall",
+      "internal wall",
+      "internal wall. - Positive Recommendation Rule: Mandatory component of certified HardieSmart Boundary Wall",
+      "wall"
     ],
     "priority_fit": [
       "fire",
@@ -155,14 +183,28 @@
       "thermal"
     ],
     "use_cases": [
+      "- Accessories Upsell: HardieWrap weather barrier, Villaboard interior lining,",
+      "- Negative Filter (not_for): Not a ceiling batt",
+      "Acoustic and fire isolation in HardieSmart Aged Care and Blade wall systems",
+      "Boundary Wall, ZeroLot Wall, and Blade Wall systems.",
       "Cavity infill in HardieSmart Boundary Wall Systems to achieve\ncertified FRL 60/60/60 fire resistance",
+      "Mandatory component of certified HardieSmart",
       "Sound and fire insulation in\nHardieSmart ZeroLot wall assemblies between detached zero-boundary homes",
-      "Acoustic and fire isolation in HardieSmart Aged Care and Blade wall systems"
+      "and James Hardie 6mm+ external claddings.",
+      "not for exposed outdoor",
+      "not to be installed loose without 5mm compression.",
+      "weather without cladding"
     ],
     "not_for": [
-      "Unprotected exterior exposure without cladding",
+      "- Accessories Upsell: HardieWrap weather barrier, Villaboard interior lining,",
       "Ceiling\nloose-fill insulation",
-      "Underfloor soil direct contact"
+      "Underfloor soil direct contact",
+      "Unprotected exterior exposure without cladding",
+      "and James Hardie 6mm+ external claddings.",
+      "not for exposed outdoor",
+      "not to be installed loose without 5mm compression.",
+      "not_for): Not a ceiling batt",
+      "weather without cladding"
     ],
     "rag_summary": "HardieFire Insulation is an 80 kg/m³ high-density mineral wool (rockwool) batt\nmanufactured by James Hardie for HardieSmart fire-rated boundary, zero-lot, and\ninter-tenancy wall systems. Formed from over 95% molten rock wool with cured\nbinders, it is non-combustible to AS 1530.4 and achieves certified FRLs up\nto 60/60/60 and BAL-FZ bushfire resistance when installed with a mandatory 5mm\ncompression. Available in 60mm (R1.7) and 85mm (R2.5) thicknesses to fit 450mm\nand 600mm stud centers, it provides combined passive fire containment, thermal\ncontrol, and acoustic isolation."
   },

@@ -97,26 +97,43 @@
   },
   "retrieval": {
     "search_keywords": [
+      "1350mm non breather foil",
       "Higgins Foil Non Breather",
       "Higgins Medium Duty Non\nBreather",
-      "non-perforated wall foil wrap",
+      "Higgins non breather foil",
       "Higgins sarking non breather 81m2",
-      "vapor barrier wall wrap",
-      "tropical wall sarking foil",
+      "Higgins vapour\n    barrier foil",
       "medium duty non\nbreather wrap",
-      "1350mm non breather foil"
+      "non-perforated wall foil wrap",
+      "solid foil wall wrap 81m2",
+      "tropical wall sarking",
+      "tropical wall sarking foil",
+      "vapor barrier wall wrap"
     ],
     "problem_keywords": [
-      "tropical\nhumidity entering wall cavity",
+      "- Negative Filter (not_for): Southern/cold climate zones where non-permeable",
+      "- Placement: Wall, external wall, shed.",
+      "- Positive Recommendation Rule: Mandatory choice for hot-humid and tropical",
+      "Humid, tropical moisture vapor driving inward through",
+      "air-conditioned building interiors.",
+      "climates where external moisture must be blocked from entering",
+      "draughts in steel",
       "external moisture vapor driving into frame",
+      "external walls in Northern Australia (Climate Zones 1–3)",
+      "external wraps cause internal moisture condensation.",
+      "need continuous vapor barrier in hot climate",
       "radiant heat transfer through brick veneer",
-      "wall wrap tearing during windy\nconstruction",
-      "need continuous vapor barrier in hot climate"
+      "shed walls.",
+      "tropical\nhumidity entering wall cavity",
+      "wall wrap tearing during windy\nconstruction"
     ],
     "placement": [
-      "wall",
+      "Wall",
+      "cold climate zones where non-permeable external wraps cause internal moisture condensation",
       "external wall",
-      "shed"
+      "shed",
+      "shed. - Positive Recommendation Rule: Mandatory choice for hot-humid and tropical climates where external moisture must be blocked from entering air-conditioned building interiors. - Negative Filter (not_for): Southern",
+      "wall"
     ],
     "priority_fit": [
       "thermal",
@@ -124,14 +141,21 @@
       "easy_install"
     ],
     "use_cases": [
+      "- Negative Filter (not_for): Southern/cold climate zones where non-permeable",
+      "Draught and moisture barrier lining in domestic workshops\nand industrial steel sheds",
       "External wall vapor barrier wrap in tropical\nand hot-humid climate zones (Zones 1-3) to block inward vapor drive",
       "Heavy-duty reflective sarking on timber or steel frames behind brick veneer in\nnorthern Australia",
-      "Draught and moisture barrier lining in domestic workshops\nand industrial steel sheds"
+      "Mandatory choice for hot-humid and tropical",
+      "air-conditioned building interiors.",
+      "climates where external moisture must be blocked from entering",
+      "external wraps cause internal moisture condensation."
     ],
     "not_for": [
       "Cold climate zones (Zones 6-8)\nrequiring breathable Class 4 membranes",
+      "Direct exposure without external cladding",
       "Direct roof sarking under roof tiles",
-      "Direct exposure without external cladding"
+      "external wraps cause internal moisture condensation.",
+      "not_for): Southern/cold climate zones where non-permeable"
     ],
     "rag_summary": "Higgins\nInsulation Higgins Foil Non Breather Medium Duty is a solid, unperforated\nfive-layer reflective foil wall wrap measuring 1350mm x 60m (81 m² per roll).\nEngineered with a high-strength woven polypropylene core and a 97% reflective\npure aluminum facing, it functions as an impermeable Class 1/2 vapor barrier and\nradiant heat reflector for hot, humid climate zones. Compliant with\nAS/NZS 4200.1 and AS 1530 fire standards, it prevents external moisture drive\nand draughts from penetrating building frames."
   },

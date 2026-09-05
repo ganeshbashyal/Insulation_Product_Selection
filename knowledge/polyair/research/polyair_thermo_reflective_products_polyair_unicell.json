@@ -114,33 +114,49 @@
       "Not designed as a primary roof cladding; must be protected\nby roof sheets",
       "Avoid contact with wet alkaline concrete or mortar"
     ],
-    "warranty": "Backed by CSR Bradford product warranty"
+    "warranty": "Backed by CSR Bradford product warranty",
+    "accessories_upsell": "72mm reinforced aluminium foil tape."
   },
   "retrieval": {
     "search_keywords": [
-      "Polyair Unicell",
       "Bradford Polyair Unicell",
+      "Polyair Unicell",
+      "Polyair bubble\nfoil",
       "Unicell\nshed insulation",
       "Unicell 4.0",
+      "bubble core\n    shed insulation",
       "bubble core reflective insulation",
-      "thermoreflective shed wrap",
+      "commercial shed\n    insulation",
+      "reflective bubble foil roll",
       "reflective shed insulation roll",
-      "Polyair bubble\nfoil"
+      "thermoreflective shed wrap"
     ],
     "problem_keywords": [
-      "hot shed in summer",
+      "- Accessories Upsell: 72mm reinforced aluminium foil tape.",
+      "- Placement: Roof, roofline, wall, external wall, shed.",
+      "- Positive Recommendation Rule: Commercial sheds and warehouses where extra",
+      "Radiant summer heat entering steel sheds",
+      "condensation",
       "condensation dripping in\ntin shed",
-      "uninsulated metal shed walls",
+      "dripping from unlined metal roofs",
+      "dust and draughts in shed",
+      "heavy-duty tensile strength is required across purlin spans. White facing",
+      "hot shed in summer",
+      "installation.",
       "radiant heat from metal roof",
       "shed\ninsulation without internal lining",
-      "dust and draughts in shed"
+      "tearing thin foils during warehouse",
+      "uninsulated metal shed walls",
+      "version brightens shed interiors and improves internal lighting."
     ],
     "placement": [
+      "Roof",
+      "external wall",
       "roof",
       "roofline",
-      "wall",
-      "external wall",
-      "shed"
+      "shed",
+      "shed. - Positive Recommendation Rule: Commercial sheds and warehouses where extra heavy-duty tensile strength is required across purlin spans. White facing version brightens shed interiors and improves internal lighting. - Accessories Upsell: 72mm reinforced aluminium foil tape",
+      "wall"
     ],
     "priority_fit": [
       "thermal",
@@ -148,9 +164,13 @@
       "easy_install"
     ],
     "use_cases": [
-      "Insulating roofs\nand walls of residential and rural steel sheds to reflect radiant heat",
+      "- Accessories Upsell: 72mm reinforced aluminium foil tape.",
+      "Commercial sheds and warehouses where extra",
       "Condensation control under corrugated metal roofing in workshops and garages",
-      "Thermal barrier wrap in commercial metal clad warehouses and outbuildings"
+      "Insulating roofs\nand walls of residential and rural steel sheds to reflect radiant heat",
+      "Thermal barrier wrap in commercial metal clad warehouses and outbuildings",
+      "heavy-duty tensile strength is required across purlin spans. White facing",
+      "version brightens shed interiors and improves internal lighting."
     ],
     "not_for": [
       "Direct underfloor soil contact",

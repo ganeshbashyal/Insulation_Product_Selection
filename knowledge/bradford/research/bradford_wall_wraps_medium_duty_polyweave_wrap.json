@@ -113,27 +113,46 @@
   },
   "retrieval": {
     "search_keywords": [
+      "Bradford 15123",
       "Bradford Medium\nDuty Polyweave Wrap",
-      "Thermoseal Wall Breather",
+      "Bradford wall\nbreather",
       "Medium Duty Polyweave\nBreather",
-      "perforated foil wall wrap",
-      "Thermoseal 15123",
       "Thermoseal 101254",
+      "Thermoseal 15123",
+      "Thermoseal Wall Breather",
+      "breathable\n    reflective foil",
       "breathable polyweave wrap",
       "brick veneer breather foil",
-      "Bradford wall\nbreather"
+      "medium duty breather foil",
+      "perforated\n    polyweave wrap",
+      "perforated foil wall wrap"
     ],
     "problem_keywords": [
-      "moisture trapped behind foil wrap",
-      "wall\nwrap tearing on windy building site",
+      "- Negative Filter (not_for): Do not install on roofs",
+      "- Placement: Wall, external wall, shed.",
+      "- Positive Recommendation Rule: For brick veneer in warmer/temperate climate",
+      "Need the heavy-duty tear resistance of woven polyweave",
+      "alpine/cold climates requiring non-perforated Class 4 membranes.",
       "brick tie punctures through wall foil",
       "heat radiating through brick veneer",
-      "sweating wall cavities in humid climate"
+      "moisture trapped behind foil wrap",
+      "not suitable for",
+      "perforations to release accidental cavity moisture.",
+      "sweating wall cavities in humid climate",
+      "temperate/warm climates.",
+      "wall\nwrap tearing on windy building site",
+      "with radiant heat reflection, but requiring microscopic vapour release in",
+      "zones where builders want tough polyweave that won't tear in wind, but want"
     ],
     "placement": [
-      "wall",
+      "Wall",
+      "but want perforations to release accidental cavity moisture. - Negative Filter (not_for): Do not install on roofs; not suitable for alpine",
+      "cold climates requiring non-perforated Class 4 membranes",
       "external wall",
-      "shed"
+      "shed",
+      "shed. - Positive Recommendation Rule: For brick veneer in warmer",
+      "temperate climate zones where builders want tough polyweave that won't tear in wind",
+      "wall"
     ],
     "priority_fit": [
       "thermal",
@@ -141,14 +160,23 @@
       "easy_install"
     ],
     "use_cases": [
+      "- Negative Filter (not_for): Do not install on roofs",
+      "For brick veneer in warmer/temperate climate",
       "Micro-perforated reflective\nwall wrap on residential brick veneer homes in temperate and warm climate\nzones",
+      "Reflective breather wrap in domestic shed and garage\nframed walls",
       "Tear-resistant external wall wrap on windy coastal residential\nconstruction sites",
-      "Reflective breather wrap in domestic shed and garage\nframed walls"
+      "alpine/cold climates requiring non-perforated Class 4 membranes.",
+      "not suitable for",
+      "perforations to release accidental cavity moisture.",
+      "zones where builders want tough polyweave that won't tear in wind, but want"
     ],
     "not_for": [
       "Cool or alpine climate zones requiring\nnon-perforated Class 4 vapour membranes",
+      "Exposed external\ncladding",
       "Roof applications",
-      "Exposed external\ncladding"
+      "alpine/cold climates requiring non-perforated Class 4 membranes.",
+      "not suitable for",
+      "not_for): Do not install on roofs"
     ],
     "rag_summary": "Bradford Wall Wraps - Medium Duty Polyweave Wrap\n(Bradford Thermoseal Wall Breather, product codes 15123 / 101254) is a\nmicro-perforated, high-strength woven polyweave reflective wall wrap designed\nfor brick veneer and lightweight framed walls. Engineered with a tough woven\npolymer core and reflective aluminium foil, it provides exceptional tear\nresistance against high site winds while its micro-perforations permit water\nvapour transmission to prevent trapped cavity moisture. Providing radiant\nthermal insulation across wall airspaces and achieving a Flammability Index ≤ 5\n(BAL 12.5-40 compliant), it offers robust weather and thermal protection for\nresidential envelopes."
   },

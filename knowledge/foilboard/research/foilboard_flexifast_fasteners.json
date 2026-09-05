@@ -101,29 +101,46 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Foilboard Flexifast",
+      "8mm insulation anchors",
+      "8mm masonry insulation fixings",
+      "Flexifast 45mm",
+      "Flexifast 70mm",
       "Flexifast fasteners",
       "Foilboard\nconcrete anchors",
-      "nylon insulation anchors",
-      "masonry insulation fixings",
+      "Foilboard Flexifast",
       "Foilboard masonry pins",
-      "8mm insulation anchors",
-      "Flexifast 70mm"
+      "concrete insulation pins",
+      "masonry insulation fixings",
+      "nylon insulation anchors"
     ],
     "problem_keywords": [
+      "- Placement: Concrete wall, basement wall, masonry blockwork, precast panels.",
+      "- Positive Recommendation Rule: One-piece hammer-in anchor. Drill an 8mm hole",
+      "Metal screws conducting cold through insulation",
+      "and plugging masonry walls is too slow",
+      "concrete walls.",
+      "drilling",
       "fixing Foilboard to concrete wall",
+      "fixing rigid insulation to basement",
       "installing\ninsulation to masonry basement",
-      "metal screws conducting cold through\ninsulation",
       "insulation fasteners tearing foil",
-      "thermal bridging on masonry\nwalls"
+      "metal screws conducting cold through\ninsulation",
+      "the 40mm head clamps flush. Zero thermal bridging.",
+      "thermal bridging on masonry\nwalls",
+      "through the Foilboard into concrete/brick and tap with a hammer until"
     ],
     "placement": [
-      "wall",
+      "Concrete wall",
+      "basement wall",
+      "brick and tap with a hammer until the 40mm head clamps flush. Zero thermal bridging",
+      "ceiling",
       "external wall",
       "internal wall",
-      "ceiling",
+      "masonry blockwork",
+      "precast panels. - Positive Recommendation Rule: One-piece hammer-in anchor. Drill an 8mm hole through the Foilboard into concrete",
+      "subfloor",
       "underfloor",
-      "subfloor"
+      "wall"
     ],
     "priority_fit": [
       "easy_install",
@@ -131,8 +148,11 @@
     ],
     "use_cases": [
       "Direct-fixing Foilboard panels to precast concrete basement\nwalls and car park soffits",
+      "One-piece hammer-in anchor. Drill an 8mm hole",
       "Securing rigid insulation to masonry blockwork in\ncavity wall construction",
-      "Thermal break insulation installation over concrete\ntilt-up industrial panels"
+      "Thermal break insulation installation over concrete\ntilt-up industrial panels",
+      "the 40mm head clamps flush. Zero thermal bridging.",
+      "through the Foilboard into concrete/brick and tap with a hammer until"
     ],
     "not_for": [
       "Structural exterior cladding\nbrackets",

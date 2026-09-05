@@ -119,30 +119,48 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Proctor BAL",
-      "ProctorVent BAL mesh",
-      "bushfire ember\nvent",
+      "AS 3959 eaves vent",
       "BAL-40 roof vent",
       "FV10 BAL",
       "FV25 BAL",
+      "Proctor BAL",
+      "Proctor BAL mesh",
+      "ProctorVent BAL mesh",
+      "RV10\n    BAL",
       "RV10 BAL",
-      "ember guard\nmesh 2mm",
+      "bushfire ember\nvent",
+      "bushfire ember vent",
       "bushfire roof ventilation",
-      "Proctor BAL mesh"
+      "ember guard\nmesh 2mm"
     ],
     "problem_keywords": [
-      "ember attack through roof eaves",
+      "- Placement: Roof eaves, fascia, ridge apex, wall cavity base.",
+      "- Positive Recommendation Rule: Mandatory when designing passive roof",
+      "BAL-29, BAL-40). Allows continuous airflow while blocking burning embers.",
+      "Burning embers entering roof space during bushfires",
       "bushfire compliance\nAS 3959",
       "condensation in bushfire zone roof",
+      "council approval.",
       "eaves vent allowing ember\nentry",
+      "ember attack through roof eaves",
+      "passing AS 3959",
       "ridge vent ember risk in BAL-40",
-      "roof space moisture buildup in\nbushfire area"
+      "roof space moisture buildup in\nbushfire area",
+      "unventilated roof space sweating in bushfire-prone zones",
+      "ventilation in designated Bushfire Attack Level zones (BAL-12.5, BAL-19,"
     ],
     "placement": [
+      "000 mm²",
+      "FZ** | Eaves",
+      "FZ** | Roof ridge apex | | **DB-FR BAL (Batten Option)** | Drained cavity spacer | **≤ 2.0 mm** | Non-combustible mesh | **BAL-12.5 to BAL-40** | Wall cladding cavity base |",
+      "Fascia board (pitch \\>22°) | | **FV25 BAL (Over-Fascia)** | **25",
+      "Fascia board (pitch ≤22°) | | **RV10 BAL (Ridge Vent)** | **10",
+      "external wall",
+      "linear metre** | **≤ 2.0 mm** | Corrosion-resistant metal wire | **BAL-12.5 to BAL-40",
       "roof",
       "roofline",
       "wall",
-      "external wall"
+      "| | :---------------------------- | :---------------------------- | :----------------------- | :----------------------------- | :-------------------------- | :--------------------------------- | | **FV10 BAL (Over-Fascia)** | **10"
     ],
     "priority_fit": [
       "fire",
@@ -150,9 +168,12 @@
       "easy_install"
     ],
     "use_cases": [
-      "Passive roof eaves and fascia ventilation in bushfire-prone areas up to BAL-40\nusing pre-fitted ≤2mm ember mesh",
+      "BAL-29, BAL-40). Allows continuous airflow while blocking burning embers.",
       "Continuous ridge ventilation on metal roofs\nin BAL-12.5 to BAL-40 zones with RV10 BAL vents",
-      "Ember-protected drainage\ncavity battens in external walls constructed to AS 3959 bushfire standards"
+      "Ember-protected drainage\ncavity battens in external walls constructed to AS 3959 bushfire standards",
+      "Mandatory when designing passive roof",
+      "Passive roof eaves and fascia ventilation in bushfire-prone areas up to BAL-40\nusing pre-fitted ≤2mm ember mesh",
+      "ventilation in designated Bushfire Attack Level zones (BAL-12.5, BAL-19,"
     ],
     "not_for": [
       "Internal drywall cavity batts",

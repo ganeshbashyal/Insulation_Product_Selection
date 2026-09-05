@@ -136,30 +136,53 @@
   },
   "retrieval": {
     "search_keywords": [
+      "14kg partition\nbatts",
+      "14kg partition batts",
+      "32kg partition batts",
+      "75mm acoustic batts",
       "Ecowool Acoustic Partition Batt",
+      "Ecowool R1.8\nacoustic",
+      "Ecowool R2.5 partition",
+      "Ecowool acoustic batts",
+      "Ecowool acoustic insulation",
+      "Ecowool partition\n    batts",
       "Ecowool partition batts",
       "PGF acoustic\nbatts",
-      "Ecowool acoustic insulation",
-      "75mm acoustic batts",
-      "14kg partition\nbatts",
-      "32kg partition batts",
-      "SensiTouch acoustic batts",
-      "Ecowool R1.8\nacoustic",
-      "Ecowool R2.5 partition"
+      "PGF acoustic batts",
+      "SensiTouch acoustic\n    insulation",
+      "SensiTouch acoustic batts"
     ],
     "problem_keywords": [
-      "noise between\noffice partitions",
+      "- Negative Filter (not_for): Unclad external walls exposed to rain",
+      "- Placement: Wall, internal wall, ceiling, between floors.",
+      "- Positive Recommendation Rule: High-value commercial drywall batt. 14kg/m³ is",
+      "32kg/m³ is specified for plant",
+      "Sound bleeding through drywall partitions in commercial",
+      "commercial wall acoustic compliance",
+      "glasswool batts.",
       "hearing conversations through bedroom wall",
-      "television\nnoise between rooms",
-      "meeting commercial acoustic partition code",
+      "installers demanding less itchy",
       "itchy\nfiberglass partition insulation",
-      "commercial wall acoustic compliance"
+      "joists without support.",
+      "meeting commercial acoustic partition code",
+      "noise between\noffice partitions",
+      "offices and multi-residential apartments",
+      "rooms, medical consulting suites, and cinemas.",
+      "standard for inter-office speech privacy",
+      "television\nnoise between rooms",
+      "underfloor"
     ],
     "placement": [
-      "wall",
-      "internal wall",
+      "Wall",
+      "and cinemas. - Negative Filter (not_for): Unclad external walls exposed to rain; underfloor joists without support",
+      "between floors",
+      "between floors. - Positive Recommendation Rule: High-value commercial drywall batt. 14kg",
       "ceiling",
-      "between floors"
+      "internal wall",
+      "medical consulting suites",
+      "m³ is specified for plant rooms",
+      "m³ is standard for inter-office speech privacy; 32kg",
+      "wall"
     ],
     "priority_fit": [
       "acoustic",
@@ -168,14 +191,24 @@
       "sustainability"
     ],
     "use_cases": [
+      "- Negative Filter (not_for): Unclad external walls exposed to rain",
+      "32kg/m³ is specified for plant",
       "Acoustic and thermal dampening in commercial steel-stud office\npartitions",
+      "High-value commercial drywall batt. 14kg/m³ is",
+      "Inter-tenancy acoustic infill in multi-residential\napartment walls",
       "Sound absorption in internal drywall partitions separating\nbedrooms and living areas",
-      "Inter-tenancy acoustic infill in multi-residential\napartment walls"
+      "joists without support.",
+      "rooms, medical consulting suites, and cinemas.",
+      "standard for inter-office speech privacy",
+      "underfloor"
     ],
     "not_for": [
-      "External weatherboard wrap",
       "Direct floor\ntraffic surfaces",
-      "Underfloor joist insulation without support"
+      "External weatherboard wrap",
+      "Underfloor joist insulation without support",
+      "joists without support.",
+      "not_for): Unclad external walls exposed to rain",
+      "underfloor"
     ],
     "rag_summary": "Ecowool Acoustic Partition Batts are non-combustible glass\nmineral wool batts manufactured by PGF Insulation using SensiTouch low-VOC,\nanti-formaldehyde technology. Available in densities of 11, 14, 24, and 32 kg/m³\nand thicknesses from 75mm to 110mm (R1.8 to R2.5), they fit 450mm and 600mm stud\nspacings to dampen room-to-room airborne noise transfer. Engineered from up\nto 80% recycled glass, they are non-combustible to AS 1530.1 and provide a soft,\nlow-itch installation for residential and commercial drywall partitions."
   },

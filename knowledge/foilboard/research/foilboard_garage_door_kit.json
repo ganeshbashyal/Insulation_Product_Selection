@@ -103,22 +103,45 @@
   "retrieval": {
     "search_keywords": [
       "Foilboard garage\ndoor kit",
-      "garage door insulation kit",
-      "insulated garage door DIY",
-      "sectional\ngarage door insulation",
-      "panel lift door insulation",
+      "Foilboard garage door kit",
       "Foilboard garage kit\ndouble",
       "Foilboard garage kit single",
-      "metal garage door heat insulation"
+      "batch 15 and 16",
+      "double garage door\n    kit",
+      "garage door\n    insulation DIY",
+      "garage door insulation kit",
+      "insulated garage door DIY",
+      "insulated sectional garage door",
+      "metal garage door heat insulation",
+      "panel lift door insulation",
+      "sectional\ngarage door insulation"
     ],
     "problem_keywords": [
-      "hot garage like an oven in summer",
-      "heat radiating from\nmetal garage door",
-      "cold drafty garage workshop",
+      "- Negative Filter (not_for): Continuous steel curtain roller doors (the ones",
+      "- Placement: Metal sectional panel-lift garage doors.",
+      "Australian Insulation Knowledge Base: Granular Sizing & Bot Logic",
+      "BATCH 015",
+      "Insulation polyester batts, blankets, and acoustic baffles).",
+      "Manufacturers: Foilboard Australia, Higgins Insulation & Hushtec",
+      "PART 7: Batches 015 & 016 (Families 141–160)",
+      "Ready for Next Batches?",
+      "Reply with \"batch 15 and 16\" (covering Foilboard Green accessories and Higgins",
+      "Western-facing metal garage door turning garage into an",
       "bedroom above hot garage",
-      "garage door vibration noise"
+      "cold drafty garage workshop",
+      "garage",
+      "garage door vibration noise",
+      "heat radiating from\nmetal garage door",
+      "heat radiating into bedrooms located directly above or adjoining the",
+      "hot garage like an oven in summer",
+      "metal door rattling in wind.",
+      "oven",
+      "sectional/panel-lift doors).",
+      "that roll into a round drum above the door cannot take rigid panels—only"
     ],
     "placement": [
+      "Metal sectional panel-lift garage doors. - Negative Filter (not_for): Continuous steel curtain roller doors (the ones that roll into a round drum above the door cannot take rigid panels—only sectional",
+      "panel-lift doors)",
       "shed",
       "wall"
     ],
@@ -133,9 +156,19 @@
       "Dampening street noise and\nrattle on metal panel-lift garage doors"
     ],
     "not_for": [
+      "Australian Insulation Knowledge Base: Granular Sizing & Bot Logic",
+      "BATCH 015",
       "Continuous steel\ncurtain roller doors that wrap around a central drum",
       "Direct exposure to open\nflame",
-      "External weather-exposed sides of the door"
+      "External weather-exposed sides of the door",
+      "Insulation polyester batts, blankets, and acoustic baffles).",
+      "Manufacturers: Foilboard Australia, Higgins Insulation & Hushtec",
+      "PART 7: Batches 015 & 016 (Families 141–160)",
+      "Ready for Next Batches?",
+      "Reply with \"batch 15 and 16\" (covering Foilboard Green accessories and Higgins",
+      "not_for): Continuous steel curtain roller doors (the ones",
+      "sectional/panel-lift doors).",
+      "that roll into a round drum above the door cannot take rigid panels—only"
     ],
     "rag_summary": "The\nFoilboard Garage Door Kit is an all-in-one DIY insulation system designed to\ninsulate residential sectional panel-lift metal garage doors. Comprising\nlightweight, pre-cut Foilboard Green panels (10mm or 15mm), heavy-duty mounting\nfasteners, and reinforced aluminum tape, it reflects up to 97% of radiant heat\nto lower garage temperatures by up to 10°C in summer. Adding only 4-6 kg to the\nentire door, it preserves automatic door opener balance while providing thermal,\nacoustic, and anti-vibration benefits backed by a 25-year warranty."
   },

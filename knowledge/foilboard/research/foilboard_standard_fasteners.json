@@ -99,43 +99,67 @@
   },
   "retrieval": {
     "search_keywords": [
+      "Foilboard\n    timber fixings",
       "Foilboard Standard\nFasteners",
-      "Foilboard timber fasteners",
+      "Foilboard Standard Fasteners",
       "Foilboard clouts",
-      "insulation fixing\nnails",
-      "Foilboard nails with washers",
-      "timber stud insulation fasteners",
+      "Foilboard fasteners box",
       "Foilboard fixings",
-      "Foilboard fasteners box"
+      "Foilboard nails with washers",
+      "Foilboard timber fasteners",
+      "clouts with washers",
+      "insulation fixing\nnails",
+      "insulation nails with plates",
+      "timber stud insulation fasteners"
     ],
     "problem_keywords": [
-      "nails\npulling through insulation board",
-      "fastening Foilboard to timber studs",
+      "(use Flexifast).",
+      "- Negative Filter (not_for): Steel framing (use Standard Tek Screws)",
+      "- Placement: Wall, external wall, internal wall, ceiling, timber framing.",
+      "- Positive Recommendation Rule: Use for fixing 10mm to 25mm Foilboard to",
       "Foilboard vibrating loose on wall frame",
+      "Nails tearing through the thin foil face of Foilboard",
       "crushing EPS core with hammer",
-      "fixing foil board without damage"
+      "fastening Foilboard to timber studs",
+      "fixing foil board without damage",
+      "hammer blows crushing the EPS core.",
+      "masonry",
+      "nails\npulling through insulation board",
+      "pull-through.",
+      "timber studs. The broad washer plate distributes the load and prevents"
     ],
     "placement": [
-      "wall",
+      "Wall",
+      "ceiling",
       "external wall",
       "internal wall",
-      "ceiling",
       "shed",
-      "underfloor"
+      "timber framing. - Positive Recommendation Rule: Use for fixing 10mm to 25mm Foilboard to timber studs. The broad washer plate distributes the load and prevents pull-through. - Negative Filter (not_for): Steel framing (use Standard Tek Screws); masonry (use Flexifast)",
+      "underfloor",
+      "wall"
     ],
     "priority_fit": [
       "easy_install",
       "thermal"
     ],
     "use_cases": [
+      "(use Flexifast).",
+      "- Negative Filter (not_for): Steel framing (use Standard Tek Screws)",
+      "Attaching thin\nFoilboard panels to internal timber partitions",
       "Fixing Foilboard Green panels\ndirectly to residential timber wall studs before cladding",
       "Securing Foilboard\nsheets to timber ceiling rafters in domestic sheds and garages",
-      "Attaching thin\nFoilboard panels to internal timber partitions"
+      "Use for fixing 10mm to 25mm Foilboard to",
+      "masonry",
+      "pull-through.",
+      "timber studs. The broad washer plate distributes the load and prevents"
     ],
     "not_for": [
-      "Steel framing\n(use Tek Screws)",
+      "(use Flexifast).",
       "Concrete or masonry substrates (use Flexifast)",
-      "Structural\nexterior cladding support"
+      "Steel framing\n(use Tek Screws)",
+      "Structural\nexterior cladding support",
+      "masonry",
+      "not_for): Steel framing (use Standard Tek Screws)"
     ],
     "rag_summary": "Foilboard Standard Fasteners are\ngalvanized timber-fixing fasteners equipped with wide washer heads designed to\nsecure 10mm to 25mm Foilboard panels to timber framing. By spreading mechanical\nholding loads over an enlarged surface area, they prevent nail heads from\ntearing through the aluminum facing or crushing the EPS core. Engineered for\nrapid hammer-in fixing on residential timber-stud walls and ceilings, they\nprovide durable mechanical retention without compromising panel performance."
   },

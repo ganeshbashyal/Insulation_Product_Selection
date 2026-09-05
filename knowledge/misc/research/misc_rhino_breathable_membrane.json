@@ -104,26 +104,45 @@
   },
   "retrieval": {
     "search_keywords": [
+      "Class 4 breathable house wrap",
+      "Class 4 breathable wrap",
+      "Rhino\n    membrane",
       "Rhino Breathable Membrane",
       "Rhino Wrap Breather",
-      "Class 4 breathable wrap",
-      "vapour permeable wall wrap",
+      "Rhino breathable wrap",
       "Rhino wall wrap",
-      "breathable building paper",
       "Rhino wrap 1500mm",
+      "Rhino wrap breather",
+      "breathable building paper",
+      "house wrap breathable",
+      "non-woven wall wrap 1500mm",
       "timber frame breathable\nwrap",
-      "house wrap breathable"
+      "vapour permeable wall wrap"
     ],
     "problem_keywords": [
-      "interstitial\ncondensation in wall frame",
-      "mould in wall cavity",
+      "- Negative Filter (not_for): Roof sarking under tiles or metal deck (must use",
+      "- Placement: Wall, external wall.",
+      "- Positive Recommendation Rule: Recommend behind residential timber or",
+      "Moisture build-up and mold rot inside timber wall frames",
+      "an approved Medium/Heavy Duty roof underlay).",
+      "breathable weather wrap is mandated.",
+      "condensation forming on the room-side of external cladding in colder climate",
       "draughts through brick\nveneer",
+      "interstitial\ncondensation in wall frame",
       "moisture trapped behind cladding",
-      "weatherproofing timber studs"
+      "mould in wall cavity",
+      "steel-framed brick veneer, weatherboard, and fibre-cement walls where a",
+      "weatherproofing timber studs",
+      "zones (Zones 4 to 8)."
     ],
     "placement": [
+      "Heavy Duty roof underlay)",
+      "Wall",
+      "and fibre-cement walls where a breathable weather wrap is mandated. - Negative Filter (not_for): Roof sarking under tiles or metal deck (must use an approved Medium",
+      "external wall",
+      "external wall. - Positive Recommendation Rule: Recommend behind residential timber or steel-framed brick veneer",
       "wall",
-      "external wall"
+      "weatherboard"
     ],
     "priority_fit": [
       "condensation",
@@ -131,14 +150,21 @@
       "fire"
     ],
     "use_cases": [
-      "Vapour-permeable wall wrap behind\nresidential brick veneer, timber weatherboards, and fibre cement in climate\nzones 4 to 8",
+      "- Negative Filter (not_for): Roof sarking under tiles or metal deck (must use",
       "Air and moisture barrier over timber and steel wall framing to\nassist with blower-door airtightness compliance",
-      "Weather barrier wrap behind\nlightweight composite external cladding"
+      "Recommend behind residential timber or",
+      "Vapour-permeable wall wrap behind\nresidential brick veneer, timber weatherboards, and fibre cement in climate\nzones 4 to 8",
+      "Weather barrier wrap behind\nlightweight composite external cladding",
+      "an approved Medium/Heavy Duty roof underlay).",
+      "breathable weather wrap is mandated.",
+      "steel-framed brick veneer, weatherboard, and fibre-cement walls where a"
     ],
     "not_for": [
-      "Roof sarking\napplications",
       "Direct exposure without outer cladding",
-      "Subfloor soil damp\nproofing"
+      "Roof sarking\napplications",
+      "Subfloor soil damp\nproofing",
+      "an approved Medium/Heavy Duty roof underlay).",
+      "not_for): Roof sarking under tiles or metal deck (must use"
     ],
     "rag_summary": "Rhino Breathable Membrane (Rhino Wrap Breather) is\na Class 4 vapour-permeable, Light Duty pliable building membrane manufactured\nfrom non-woven spunbonded polyolefin with a microporous core. Designed for\ntimber and steel-framed external walls, it allows interior moisture vapour to\ndiffuse freely while acting as a barrier against wind-driven rain, dust, and\ndraughts. Compliant with AS/NZS 4200.1:2017 and possessing a Flammability Index\n≤ 5 (BAL-40 suitable), it mitigates condensation and mould in residential and\ncommercial wall assemblies."
   },

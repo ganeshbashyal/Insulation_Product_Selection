@@ -124,25 +124,37 @@
   },
   "retrieval": {
     "search_keywords": [
+      "K18 Insulated\nPlasterboard",
+      "K18 Insulated Plasterboard",
+      "K18 batten board",
+      "K18 battened plasterboard",
       "Kingspan K18",
       "Kooltherm K18",
-      "K18 Insulated\nPlasterboard",
+      "internal wall insulation K18",
       "mechanically fixed insulated plasterboard",
-      "phenolic drylining\nboard",
-      "K18 battened plasterboard",
-      "internal wall insulation K18"
+      "phenolic drylining\nboard"
     ],
     "problem_keywords": [
+      "- If installing with adhesive dabs directly to masonry: Choose K17.",
+      "- If screw-fixing to timber battens or metal furring channels: Choose K18.",
+      "- Placement: Internal wall, ceiling lining.",
+      "- Selection Rule (K17 vs K18):",
+      "Uneven or damp masonry walls where adhesive bonding is",
+      "behind the lining.",
+      "cold interior walls in older buildings",
       "insulating uneven solid brick walls",
       "mechanically\nfixing insulated plasterboard",
-      "cold interior walls in older buildings",
+      "projects requiring timber battens or metal furring channels",
+      "space loss from internal wall\ninsulation",
       "thermal bridging across framing battens",
-      "space loss from internal wall\ninsulation"
+      "unsuitable"
     ],
     "placement": [
-      "wall",
+      "Internal wall",
+      "ceiling",
+      "ceiling lining. - Selection Rule (K17 vs K18): - If installing with adhesive dabs directly to masonry: Choose K17. - If screw-fixing to timber battens or metal furring channels: Choose K18",
       "internal wall",
-      "ceiling"
+      "wall"
     ],
     "priority_fit": [
       "thermal",

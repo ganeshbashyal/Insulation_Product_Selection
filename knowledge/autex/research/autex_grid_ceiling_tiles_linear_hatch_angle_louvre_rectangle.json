@@ -57,30 +57,78 @@
   "retrieval": {
     "search_keywords": [
       "Autex slatted grid tile",
+      "Hatch\n    ceiling tile 1200x600",
+      "Hatch\n    uncapped 1200x600",
       "Hatch ceiling tile 1200x600",
       "Hatch uncapped 1200x600",
       "Linear grid ceiling tile capped",
       "Linear uncapped ceiling tile",
       "Louvre capped ceiling tile",
+      "Louvre uncapped ceiling\n    tile",
       "Louvre uncapped ceiling tile",
       "open slatted grid tile",
+      "slatted ceiling\n    tile 1200x600",
       "slatted ceiling tile 1200x600"
     ],
     "problem_keywords": [
+      "- Negative Filter (not_for): Do not use if maximum sound absorption is",
+      "- Negative Filter (not_for): Must verify directional orientation during",
+      "- Placement: Ceiling (1200x600 suspended grid).",
+      "- Positive Recommendation Rule: Louvre uncapped provides directional",
+      "- Positive Recommendation Rule: Recommend Linear or Louvre styles in solid",
+      "Capped achieves up to",
+      "Client wants a linear timber-batten or timber-louvre",
       "Client wants a linear timber-batten or timber-louvre ceiling aesthetic, but is constrained to a standard 1200x600 suspended grid infrastructure.",
-      "Need the appearance of architectural slatted baffles in an existing 1200x600 ceiling grid while allowing upward lighting or HVAC air return into the ceiling void."
+      "NRC 0.85).",
+      "Need the appearance of architectural slatted baffles in an",
+      "Need the appearance of architectural slatted baffles in an existing 1200x600 ceiling grid while allowing upward lighting or HVAC air return into the ceiling void.",
+      "alternating for a parquet effect).",
+      "ceiling aesthetic, but is constrained to a standard 1200x600 suspended grid",
+      "colors or Acoustic Timber printed finishes. The solid capping panel ensures",
+      "existing 1200x600 ceiling grid while allowing upward lighting or HVAC air",
+      "high acoustic absorption while blocking visual sightlines to overhead",
+      "infrastructure.",
+      "install (tiles can be laid parallel for continuous linear runs or",
+      "return into the ceiling void.",
+      "screening—it blocks the view into the plenum from normal walking angles",
+      "services.",
+      "specified (Hatch uncapped achieves NRC 0.60",
+      "while remaining completely open vertically for ventilation."
     ],
     "placement": [
-      "Ceiling (1200x600 suspended grid)"
+      "Ceiling (1200x600 suspended grid)",
+      "Ceiling (1200x600 suspended grid). - Positive Recommendation Rule: Louvre uncapped provides directional screening—it blocks the view into the plenum from normal walking angles while remaining completely open vertically for ventilation. - Negative Filter (not_for): Do not use if maximum sound absorption is specified (Hatch uncapped achieves NRC 0.60; Capped achieves up to NRC 0.85)",
+      "Ceiling (1200x600 suspended grid). - Positive Recommendation Rule: Recommend Linear or Louvre styles in solid colors or Acoustic Timber printed finishes. The solid capping panel ensures high acoustic absorption while blocking visual sightlines to overhead services. - Negative Filter (not_for): Must verify directional orientation during install (tiles can be laid parallel for continuous linear runs or alternating for a parquet effect)"
     ],
     "not_for": [
+      "Capped achieves up to",
       "Capped achieves up to NRC 0.85).",
+      "NRC 0.85).",
+      "alternating for a parquet effect).",
+      "install (tiles can be laid parallel for continuous linear runs or",
+      "not_for): Do not use if maximum sound absorption is",
       "not_for): Do not use if maximum sound absorption is specified (Hatch uncapped achieves NRC 0.60",
-      "not_for): Must verify directional orientation during install (tiles can be laid parallel for continuous linear runs or alternating for a parquet effect)."
+      "not_for): Must verify directional orientation during",
+      "not_for): Must verify directional orientation during install (tiles can be laid parallel for continuous linear runs or alternating for a parquet effect).",
+      "specified (Hatch uncapped achieves NRC 0.60"
     ],
     "use_cases": [
+      "- Negative Filter (not_for): Do not use if maximum sound absorption is",
+      "- Negative Filter (not_for): Must verify directional orientation during",
+      "Capped achieves up to",
+      "Louvre uncapped provides directional",
       "Louvre uncapped provides directional screening—it blocks the view into the plenum from normal walking angles while remaining completely open vertically for ventilation.",
-      "Recommend Linear or Louvre styles in solid colors or Acoustic Timber printed finishes. The solid capping panel ensures high acoustic absorption while blocking visual sightlines to overhead services."
+      "NRC 0.85).",
+      "Recommend Linear or Louvre styles in solid",
+      "Recommend Linear or Louvre styles in solid colors or Acoustic Timber printed finishes. The solid capping panel ensures high acoustic absorption while blocking visual sightlines to overhead services.",
+      "alternating for a parquet effect).",
+      "colors or Acoustic Timber printed finishes. The solid capping panel ensures",
+      "high acoustic absorption while blocking visual sightlines to overhead",
+      "install (tiles can be laid parallel for continuous linear runs or",
+      "screening—it blocks the view into the plenum from normal walking angles",
+      "services.",
+      "specified (Hatch uncapped achieves NRC 0.60",
+      "while remaining completely open vertically for ventilation."
     ]
   },
   "source_excerpt": null,

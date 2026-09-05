@@ -108,26 +108,42 @@
   },
   "retrieval": {
     "search_keywords": [
-      "supaBATT",
-      "Fletcher supaBATT",
-      "external wall board\ninsulation",
-      "brick veneer continuous insulation",
-      "supaBATT VP4",
-      "rigid\nglasswool wall board",
       "7 star wall insulation",
+      "7 star wall insulation board",
+      "Fletcher supaBATT",
+      "brick veneer continuous insulation",
+      "continuous wall insulation batts",
+      "external face\n    of stud insulation",
+      "external wall board\ninsulation",
       "face of stud insulation",
-      "continuous wall insulation batts"
+      "rigid\nglasswool wall board",
+      "supaBATT",
+      "supaBATT VP4"
     ],
     "problem_keywords": [
-      "thermal bridging\nthrough timber and steel studs",
+      "- Negative Filter (not_for): Internal stud bay friction-fitting",
+      "- Placement: External wall (face of stud behind brick cavity).",
+      "- Positive Recommendation Rule: Specify supaBATT VP4 when the builder needs to",
+      "BATCH 014",
+      "Brick veneer homes failing 7-star NatHERS energy",
       "achieving 7 star NatHERS energy rating in\nbrick veneer",
-      "wall cavity space limitations for thick batts",
+      "bridging through timber and steel studs.",
+      "changing internal frame dimensions. The pre-faced VP4 membrane combines",
+      "cold framing studs conducting heat",
+      "compliance because wall cavity batts cannot be made any thicker",
+      "continuous insulation and weather wrap in a single installation pass.",
       "interstitial\nmoisture condensation in brick veneer",
-      "cold framing studs conducting heat"
+      "jump from 6-star to 7-star NatHERS in brick veneer construction without",
+      "soil contact.",
+      "thermal",
+      "thermal bridging\nthrough timber and steel studs",
+      "underfloor",
+      "wall cavity space limitations for thick batts"
     ],
     "placement": [
-      "wall",
-      "external wall"
+      "External wall (face of stud behind brick cavity). - Positive Recommendation Rule: Specify supaBATT VP4 when the builder needs to jump from 6-star to 7-star NatHERS in brick veneer construction without changing internal frame dimensions. The pre-faced VP4 membrane combines continuous insulation and weather wrap in a single installation pass. - Negative Filter (not_for): Internal stud bay friction-fitting; underfloor soil contact",
+      "external wall",
+      "wall"
     ],
     "priority_fit": [
       "thermal",
@@ -136,14 +152,26 @@
       "sustainability"
     ],
     "use_cases": [
-      "External\nface-of-stud continuous insulation on residential brick veneer homes to\nmeet 7-star NatHERS requirements",
+      "- Negative Filter (not_for): Internal stud bay friction-fitting",
+      "BATCH 014",
+      "Combined weatherproofing wrap\nand continuous bulk insulation using supaBATT VP4 behind masonry",
       "Continuous thermal barrier over light-gauge\nsteel frame walls to eliminate thermal bridging",
-      "Combined weatherproofing wrap\nand continuous bulk insulation using supaBATT VP4 behind masonry"
+      "External\nface-of-stud continuous insulation on residential brick veneer homes to\nmeet 7-star NatHERS requirements",
+      "Specify supaBATT VP4 when the builder needs to",
+      "changing internal frame dimensions. The pre-faced VP4 membrane combines",
+      "continuous insulation and weather wrap in a single installation pass.",
+      "jump from 6-star to 7-star NatHERS in brick veneer construction without",
+      "soil contact.",
+      "underfloor"
     ],
     "not_for": [
+      "BATCH 014",
       "Ceiling space insulation",
+      "Direct underfloor exposed to damp crawlspace ground",
       "Internal stud bays between plasterboard and\nframe",
-      "Direct underfloor exposed to damp crawlspace ground"
+      "not_for): Internal stud bay friction-fitting",
+      "soil contact.",
+      "underfloor"
     ],
     "rag_summary": "Fletcher supaBATT is a rigid, high-density glasswool board designed for\ninstallation onto the exterior face of timber or steel studs in brick veneer\nconstruction. Engineered to help builders achieve 7-star NatHERS energy\ncompliance under NCC 2022, it provides continuous external insulation that\neliminates stud thermal bridging. Available plain or factory-laminated with a\nClass 4 vapour-permeable membrane (supaBATT VP4), it combines non-combustible\nbulk thermal resistance (AS 1530.1) with condensation management, backed by a\nConsumer Lifetime Warranty."
   },

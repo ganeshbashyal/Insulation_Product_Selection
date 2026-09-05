@@ -55,19 +55,35 @@
       "25mm coloured acoustic panel",
       "Pantone matched acoustic panel",
       "Solid Colour Quietspace",
+      "coloured Quietspace\n    panel",
       "coloured Quietspace panel",
       "custom colour sound absorber"
     ],
     "problem_keywords": [
-      "High reverberation in corporate spaces where interior designers require exact Pantone, Dulux, or corporate brand color matching on high-absorption acoustic panels."
+      "- Accessories Upsell: Type C aluminium edge trims (anodised or powder-coated",
+      "- Placement: Wall, internal wall, ceiling.",
+      "- Positive Recommendation Rule: When customer requires broadband sound",
+      "High reverberation in corporate spaces where interior",
+      "High reverberation in corporate spaces where interior designers require exact Pantone, Dulux, or corporate brand color matching on high-absorption acoustic panels.",
+      "absorption (NRC 0.85–1.00) but standard white or grey nude panels are",
+      "designers require exact Pantone, Dulux, or corporate brand color matching on",
+      "high-absorption acoustic panels.",
+      "to match).",
+      "unacceptable aesthetically."
     ],
     "placement": [
       "Wall",
       "ceiling",
+      "ceiling. - Positive Recommendation Rule: When customer requires broadband sound absorption (NRC 0.85–1.00) but standard white or grey nude panels are unacceptable aesthetically. - Accessories Upsell: Type C aluminium edge trims (anodised or powder-coated to match)",
       "internal wall"
     ],
     "use_cases": [
-      "When customer requires broadband sound absorption (NRC 0.85–1.00) but standard white or grey nude panels are unacceptable aesthetically."
+      "- Accessories Upsell: Type C aluminium edge trims (anodised or powder-coated",
+      "When customer requires broadband sound",
+      "When customer requires broadband sound absorption (NRC 0.85–1.00) but standard white or grey nude panels are unacceptable aesthetically.",
+      "absorption (NRC 0.85–1.00) but standard white or grey nude panels are",
+      "to match).",
+      "unacceptable aesthetically."
     ]
   },
   "source_excerpt": null,

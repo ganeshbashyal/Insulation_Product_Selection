@@ -131,29 +131,45 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Higgins Sound Control\nBatts",
-      "Polyester Sound Control Batts",
-      "Higgins acoustic batts",
-      "14kg\npolyester sound batts",
       "11kg sound control batts",
+      "14kg\npolyester sound batts",
+      "14kg polyester sound batts",
+      "Higgins Sound Control\nBatts",
+      "Higgins Sound Control Batts",
+      "Higgins acoustic\n    batts",
+      "Higgins acoustic batts",
+      "Polyester Sound Control Batts",
+      "bedroom\nacoustic insulation",
       "internal wall acoustic\nbatts",
       "itch free sound batts",
-      "polyester wall soundproofing",
-      "bedroom\nacoustic insulation"
+      "polyester\n    acoustic wall batts",
+      "polyester wall soundproofing"
     ],
     "problem_keywords": [
-      "hearing TV through bedroom wall",
-      "noise between home office and living room",
+      "- Placement: Wall, internal wall, ceiling, between floors.",
+      "- Positive Recommendation Rule: 100% polyester acoustic batt. Specify 50mm",
+      "TV and speech noise traveling between bedrooms",
       "bathroom plumbing noise through\nwall",
-      "noisy internal walls in residential home",
+      "flanking noise through partition walls",
+      "for 70mm timber studs",
+      "hearing TV through bedroom wall",
+      "high-spec media rooms and home offices.",
+      "home office privacy concerns.",
       "itchy soundproofing\ninsulation",
-      "flanking noise through partition walls"
+      "noise between home office and living room",
+      "noise through bathroom walls",
+      "noisy internal walls in residential home",
+      "plumbing",
+      "specify 75mm for 90mm studs. Choose 14 kg/m³ for"
     ],
     "placement": [
-      "wall",
-      "internal wall",
+      "Wall",
+      "between floors",
+      "between floors. - Positive Recommendation Rule: 100% polyester acoustic batt. Specify 50mm for 70mm timber studs; specify 75mm for 90mm studs. Choose 14 kg",
       "ceiling",
-      "between floors"
+      "internal wall",
+      "m³ for high-spec media rooms and home offices",
+      "wall"
     ],
     "priority_fit": [
       "acoustic",
@@ -162,9 +178,13 @@
       "fire"
     ],
     "use_cases": [
+      "100% polyester acoustic batt. Specify 50mm",
       "Acoustic insulation\nin internal partition walls between bedrooms, bathrooms, and home theatres",
+      "Mid-floor acoustic insulation between ground and upper levels in two-storey\nhomes",
       "Sound dampening in home office walls to eliminate conversational distractions",
-      "Mid-floor acoustic insulation between ground and upper levels in two-storey\nhomes"
+      "for 70mm timber studs",
+      "high-spec media rooms and home offices.",
+      "specify 75mm for 90mm studs. Choose 14 kg/m³ for"
     ],
     "not_for": [
       "Exposed external cladding",

@@ -62,24 +62,46 @@
       "Acoustic Timber Cube",
       "Surface Finishes Cube",
       "concrete look acoustic panel",
+      "marble\n    acoustic panel",
       "marble acoustic panel",
       "timber look acoustic board"
     ],
     "problem_keywords": [
+      "- Negative Filter (not_for): High-impact sports halls without protective",
+      "- Placement: Wall, internal wall, ceiling.",
+      "- Positive Recommendation Rule: Replaces heavy wood panelling or marble",
+      "Solid timber wall linings or precast concrete panels are",
       "Solid timber wall linings or precast concrete panels are heavy, expensive, and acoustically reflective",
-      "building codes demand Group 1 fire ratings for wall linings."
+      "building codes demand Group 1",
+      "building codes demand Group 1 fire ratings for wall linings.",
+      "fire ratings for wall linings.",
+      "fluting with lightweight, easily installed polyester panels that absorb",
+      "heavy, expensive, and acoustically reflective",
+      "outdoor facades.",
+      "screening",
+      "sound (NRC up to 0.80)."
     ],
     "placement": [
       "Wall",
       "ceiling",
+      "ceiling. - Positive Recommendation Rule: Replaces heavy wood panelling or marble fluting with lightweight",
+      "easily installed polyester panels that absorb sound (NRC up to 0.80). - Negative Filter (not_for): High-impact sports halls without protective screening; outdoor facades",
       "internal wall"
     ],
     "not_for": [
+      "not_for): High-impact sports halls without protective",
       "not_for): High-impact sports halls without protective screening",
-      "outdoor facades."
+      "outdoor facades.",
+      "screening"
     ],
     "use_cases": [
-      "Replaces heavy wood panelling or marble fluting with lightweight, easily installed polyester panels that absorb sound (NRC up to 0.80)."
+      "- Negative Filter (not_for): High-impact sports halls without protective",
+      "Replaces heavy wood panelling or marble",
+      "Replaces heavy wood panelling or marble fluting with lightweight, easily installed polyester panels that absorb sound (NRC up to 0.80).",
+      "fluting with lightweight, easily installed polyester panels that absorb",
+      "outdoor facades.",
+      "screening",
+      "sound (NRC up to 0.80)."
     ]
   },
   "source_excerpt": null,

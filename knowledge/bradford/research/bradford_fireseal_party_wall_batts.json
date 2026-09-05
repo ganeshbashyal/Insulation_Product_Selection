@@ -105,25 +105,39 @@
   },
   "retrieval": {
     "search_keywords": [
+      "100x1200x168 fireseal",
+      "100x168 party wall batts",
+      "119161",
+      "Bradford 119161",
       "Bradford Fireseal Party Wall Batts",
       "Fireseal Party Wall\nBatts",
-      "party wall insulation batts",
+      "inter-tenancy wall\n    batts",
       "intertenancy wall fire batts",
-      "100x1200x168 fireseal",
+      "party wall insulation batts",
       "rockwool party wall batts",
       "vertical joint fire\nbatts",
-      "Bradford 119161"
+      "vertical joint fire batts"
     ],
     "problem_keywords": [
+      "- Negative Filter (not_for): Not for top-of-wall roof junctions (use Party",
+      "- Placement: Wall, internal wall (vertical joints only).",
+      "Fire jumping between townhouses through vertical",
+      "NCC Class 1 party wall FRL",
+      "Wall Sealer roll instead)",
+      "certifying Class 1 multi-residential",
+      "construction gaps in separating walls",
       "fire spread through party\nwall vertical gap",
       "inter-tenancy wall fire compliance",
+      "not for general thermal insulation.",
+      "party wall FRLs.",
       "separating wall\nvertical joint seal",
-      "NCC Class 1 party wall FRL",
       "townhouse separating wall\nfire containment"
     ],
     "placement": [
-      "wall",
-      "internal wall"
+      "Wall",
+      "internal wall",
+      "internal wall (vertical joints only). - Negative Filter (not_for): Not for top-of-wall roof junctions (use Party Wall Sealer roll instead); not for general thermal insulation",
+      "wall"
     ],
     "priority_fit": [
       "fire",
@@ -135,9 +149,12 @@
       "Passive fire protection between attached residential dwellings"
     ],
     "not_for": [
+      "Standard external cavity thermal insulation",
       "Top of wall / roof-to-wall junctions (use Party Wall Sealer)",
       "Underfloor insulation",
-      "Standard external cavity thermal insulation"
+      "Wall Sealer roll instead)",
+      "not for general thermal insulation.",
+      "not_for): Not for top-of-wall roof junctions (use Party"
     ],
     "rag_summary": "Bradford Fireseal Party Wall Batts are purpose-made,\nnon-combustible stone wool insulation batts measuring 100mm x 1200mm x 168mm\n(product code 119161) designed exclusively to seal vertical joints in Class 1\ninter-tenancy party walls. Engineered from high-temperature bio-soluble\nrockwool, they resist shrinkage at temperatures up to 1000°C and maintain fire\nintegrity between adjoining townhouses and duplexes. Installed under 10%\ncompression and compliant with AS 1530.1, they satisfy NCC Deemed-to-Satisfy\nprovisions for separating wall fire containment."
   },

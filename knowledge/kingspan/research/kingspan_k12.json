@@ -125,28 +125,45 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Kingspan K12",
-      "Kooltherm K12",
+      "7 star wall insulation",
       "K12 Framing Board",
+      "Kingspan K12",
+      "Kingspan wall board",
+      "Kooltherm K12",
+      "continuous wall insulation",
+      "phenolic\n    wall board",
       "phenolic framing\nboard",
       "rigid wall insulation",
-      "7 star wall insulation",
       "slim wall\ninsulation",
-      "Kingspan wall board",
-      "continuous wall insulation"
+      "slim wall insulation board"
     ],
     "problem_keywords": [
+      "- Negative Filter (not_for): For commercial Type A and B fire-rated",
+      "- Placement: Wall, internal wall, external wall, timber/steel frame.",
+      "- Positive Recommendation Rule: Delivers R2.15 in only 50mm thickness. Ideal",
+      "Failing 7-star NatHERS energy ratings in 90mm studs",
       "achieving 7 star NatHERS in 90mm studs",
-      "thermal\nbridging across steel wall studs",
+      "cavity depth too narrow for thick",
+      "construction, confirm building code compliance pathways before specifying.",
+      "fiberglass batts.",
+      "for continuous external face-of-stud installation to create an uninterrupted",
+      "meeting Type C wall fire compliance",
       "narrow wall cavity space limits",
       "slumping\nwall batts in cavity",
-      "meeting Type C wall fire compliance"
+      "thermal\nbridging across steel wall studs",
+      "thermal break, or friction-fit between framing studs.",
+      "thermal bridging across steel wall frames"
     ],
     "placement": [
-      "wall",
-      "internal wall",
+      "Wall",
+      "between floors",
+      "confirm building code compliance pathways before specifying",
       "external wall",
-      "between floors"
+      "internal wall",
+      "or friction-fit between framing studs. - Negative Filter (not_for): For commercial Type A and B fire-rated construction",
+      "steel frame. - Positive Recommendation Rule: Delivers R2.15 in only 50mm thickness. Ideal for continuous external face-of-stud installation to create an uninterrupted thermal break",
+      "timber",
+      "wall"
     ],
     "priority_fit": [
       "thermal",
@@ -154,14 +171,21 @@
       "sustainability"
     ],
     "use_cases": [
+      "- Negative Filter (not_for): For commercial Type A and B fire-rated",
       "Continuous or\nbetween-stud wall insulation in residential homes to achieve 7-star NatHERS\ncompliance within standard 90mm frames",
+      "Continuous thermal break layer over timber or steel stud framing to eliminate\nthermal bridging",
+      "Delivers R2.15 in only 50mm thickness. Ideal",
       "Direct-adhesive internal wall\ninsulation on concrete or masonry using the Kingspan Low-Rise Wall Solution",
-      "Continuous thermal break layer over timber or steel stud framing to eliminate\nthermal bridging"
+      "construction, confirm building code compliance pathways before specifying.",
+      "for continuous external face-of-stud installation to create an uninterrupted",
+      "thermal break, or friction-fit between framing studs."
     ],
     "not_for": [
-      "Type A or B fire-resisting construction\nwithout a Performance Solution",
+      "Direct floor foot traffic",
       "Exposed external cladding without weather\nwrap",
-      "Direct floor foot traffic"
+      "Type A or B fire-resisting construction\nwithout a Performance Solution",
+      "construction, confirm building code compliance pathways before specifying.",
+      "not_for): For commercial Type A and B fire-rated"
     ],
     "rag_summary": "Kingspan Kooltherm K12\nFraming Board is an ultra-thin, fiber-free rigid thermoset phenolic insulation\nboard with dual composite foil facings, designed for timber, steel, and masonry\nwall assemblies. Delivering a thermal conductivity of 0.021 - 0.023 W/m·K and\nmaterial ratings up to R4.35 (100mm), it allows builders to achieve 7-star\nNatHERS energy efficiency within standard 90mm stud cavities without widening\nfootprints. CodeMark certified and manufactured in Australia with zero ODP\nblowing agents, it provides continuous, non-slumping thermal efficiency for\nmodern building envelopes."
   },

@@ -58,28 +58,61 @@
     "search_keywords": [
       "Autex Soffit Liner",
       "GreenStuf ASL",
+      "Group 1 carpark\n    insulation",
       "Group 1 carpark insulation",
       "Soffit & Slab Liner",
       "carpark soffit insulation",
       "polyester slab liner"
     ],
     "problem_keywords": [
+      "- Fastener Rule: Must be direct-fixed using insulation masonry fasteners with",
+      "- Negative Filter (not_for): Not for unshielded exterior building facades",
+      "- Placement: Ceiling, floor, between floors, underfloor (concrete underside).",
+      "- Positive Recommendation Rule: Default recommendation for multi-residential",
       "Cold floors above uninsulated basement car parks",
+      "Group 1 polyester boards are specified.",
+      "basement car parks and commercial exposed soffits where non-itch, non-toxic,",
+      "booming",
       "booming reverberation under concrete podium slabs",
-      "need for an exposed ceiling liner meeting strict NCC Group 1 fire compliance without glasswool fibers falling on cars."
+      "exposed to driving rain",
+      "large 50–75mm diameter retention washer heads (minimum 5 to 6 fasteners",
+      "meeting strict NCC Group 1 fire compliance without glasswool fibers falling",
+      "need for an exposed ceiling liner",
+      "need for an exposed ceiling liner meeting strict NCC Group 1 fire compliance without glasswool fibers falling on cars.",
+      "not for under-screed floor impact isolation.",
+      "on cars.",
+      "per 1200x2400mm board).",
+      "reverberation under concrete podium slabs"
     ],
     "placement": [
       "Ceiling",
+      "Group 1 polyester boards are specified. - Negative Filter (not_for): Not for unshielded exterior building facades exposed to driving rain; not for under-screed floor impact isolation. - Fastener Rule: Must be direct-fixed using insulation masonry fasteners with large 50–75mm diameter retention washer heads (minimum 5 to 6 fasteners per 1200x2400mm board)",
       "between floors",
       "floor",
-      "underfloor (concrete underside)"
+      "non-toxic",
+      "underfloor (concrete underside)",
+      "underfloor (concrete underside). - Positive Recommendation Rule: Default recommendation for multi-residential basement car parks and commercial exposed soffits where non-itch"
     ],
     "not_for": [
+      "- Fastener Rule: Must be direct-fixed using insulation masonry fasteners with",
+      "exposed to driving rain",
+      "large 50–75mm diameter retention washer heads (minimum 5 to 6 fasteners",
       "not for under-screed floor impact isolation.",
-      "not_for): Not for unshielded exterior building facades exposed to driving rain"
+      "not_for): Not for unshielded exterior building facades",
+      "not_for): Not for unshielded exterior building facades exposed to driving rain",
+      "per 1200x2400mm board)."
     ],
     "use_cases": [
-      "Default recommendation for multi-residential basement car parks and commercial exposed soffits where non-itch, non-toxic, Group 1 polyester boards are specified."
+      "- Fastener Rule: Must be direct-fixed using insulation masonry fasteners with",
+      "- Negative Filter (not_for): Not for unshielded exterior building facades",
+      "Default recommendation for multi-residential",
+      "Default recommendation for multi-residential basement car parks and commercial exposed soffits where non-itch, non-toxic, Group 1 polyester boards are specified.",
+      "Group 1 polyester boards are specified.",
+      "basement car parks and commercial exposed soffits where non-itch, non-toxic,",
+      "exposed to driving rain",
+      "large 50–75mm diameter retention washer heads (minimum 5 to 6 fasteners",
+      "not for under-screed floor impact isolation.",
+      "per 1200x2400mm board)."
     ]
   },
   "source_excerpt": null,

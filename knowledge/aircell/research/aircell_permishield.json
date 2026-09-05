@@ -35,23 +35,48 @@
       "Permishield",
       "Permishield XV 70",
       "R0.2 thermal break wall wrap",
+      "breathable\n    foil insulation",
       "breathable foil insulation",
       "permeable Aircell"
     ],
     "problem_keywords": [
-      "Interstitial condensation behind fibre cement / timber claddings, steel stud thermal bridging, meeting NCC mandatory R0.20 thermal break on residential steel frames."
+      "- Accessories Upsell: AIR-CELL 48mm reinforced foil tape + AIR-CELL Spacer",
+      "- Negative Filter (not_for): Do not install on roofs where a Class 1/2",
+      "- Placement: External wall, wall, shed, reverse brick veneer.",
+      "- Positive Recommendation Rule: Recommend when a steel-framed residential or",
+      "Biscuits (approx. 3 per m² to preserve outer air cavity).",
+      "Interstitial condensation behind fibre cement / timber",
+      "Interstitial condensation behind fibre cement / timber claddings, steel stud thermal bridging, meeting NCC mandatory R0.20 thermal break on residential steel frames.",
+      "break on residential steel frames.",
+      "claddings, steel stud thermal bridging, meeting NCC mandatory R0.20 thermal",
+      "commercial wall requires both an in-situ R0.20 thermal break and a",
+      "impermeable vapour barrier is required.",
+      "vapour-permeable (Class 3) water barrier."
     ],
     "placement": [
+      "2 impermeable vapour barrier is required. - Accessories Upsell: AIR-CELL 48mm reinforced foil tape + AIR-CELL Spacer Biscuits (approx. 3 per m² to preserve outer air cavity)",
       "External wall",
       "reverse brick veneer",
+      "reverse brick veneer. - Positive Recommendation Rule: Recommend when a steel-framed residential or commercial wall requires both an in-situ R0.20 thermal break and a vapour-permeable (Class 3) water barrier. - Negative Filter (not_for): Do not install on roofs where a Class 1",
       "shed",
       "wall"
     ],
     "not_for": [
+      "- Accessories Upsell: AIR-CELL 48mm reinforced foil tape + AIR-CELL Spacer",
+      "Biscuits (approx. 3 per m² to preserve outer air cavity).",
+      "impermeable vapour barrier is required.",
+      "not_for): Do not install on roofs where a Class 1/2",
       "not_for): Do not install on roofs where a Class 1/2 impermeable vapour barrier is required."
     ],
     "use_cases": [
-      "Recommend when a steel-framed residential or commercial wall requires both an in-situ R0.20 thermal break and a vapour-permeable (Class 3) water barrier."
+      "- Accessories Upsell: AIR-CELL 48mm reinforced foil tape + AIR-CELL Spacer",
+      "- Negative Filter (not_for): Do not install on roofs where a Class 1/2",
+      "Biscuits (approx. 3 per m² to preserve outer air cavity).",
+      "Recommend when a steel-framed residential or",
+      "Recommend when a steel-framed residential or commercial wall requires both an in-situ R0.20 thermal break and a vapour-permeable (Class 3) water barrier.",
+      "commercial wall requires both an in-situ R0.20 thermal break and a",
+      "impermeable vapour barrier is required.",
+      "vapour-permeable (Class 3) water barrier."
     ]
   },
   "source_excerpt": null,

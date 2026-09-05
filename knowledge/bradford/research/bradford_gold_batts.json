@@ -147,30 +147,48 @@
   "retrieval": {
     "search_keywords": [
       "Bradford Gold\nBatts",
+      "Bradford Gold Batts",
+      "Bradford insulation batts",
       "Gold Ceiling Batts",
       "Gold Wall Batts",
-      "Bradford insulation batts",
-      "yellow batts",
+      "Gold ceiling batts",
+      "Gold wall batts",
+      "R2.0 gold wall batts",
+      "R2.0 wall batts",
+      "R2.5 gold\nbatts",
+      "R3.5 ceiling batts",
+      "R3.5 gold batts",
+      "R4.1 batts",
+      "R4.1 gold batts",
       "glasswool ceiling batts",
       "glasswool wall batts",
-      "R2.5 gold\nbatts",
-      "R3.5 gold batts",
-      "R4.1 gold batts",
-      "R2.0 gold wall batts"
+      "yellow batts"
     ],
     "problem_keywords": [
-      "hot ceiling in summer",
+      "- Placement: Ceiling, wall, external wall, internal wall.",
+      "- Positive Recommendation Rule: Default thermal batt for Australian",
+      "- Warranty: Backed by CSR Bradford's 70-Year Performance Warranty.",
+      "Ceiling R3.5 / R4.1 for standard climate zones.",
+      "High heating and cooling power bills",
+      "cold home in winter",
       "cold house in winter",
-      "high\nheating and cooling bills",
-      "uninsulated ceiling heat loss",
       "drafty cavity\nwalls",
-      "uninsulated home renovation"
+      "high\nheating and cooling bills",
+      "hot ceiling in summer",
+      "hot stuffy ceilings in summer",
+      "residential construction. Wall R2.0 (90mm) is standard for external walls",
+      "uninsulated ceiling heat loss",
+      "uninsulated home renovation",
+      "uninsulated renovation additions."
     ],
     "placement": [
+      "Ceiling",
+      "R4.1 for standard climate zones. - Warranty: Backed by CSR Bradford's 70-Year Performance Warranty",
       "ceiling",
-      "wall",
       "external wall",
-      "internal wall"
+      "internal wall",
+      "internal wall. - Positive Recommendation Rule: Default thermal batt for Australian residential construction. Wall R2.0 (90mm) is standard for external walls; Ceiling R3.5",
+      "wall"
     ],
     "priority_fit": [
       "thermal",
@@ -179,9 +197,13 @@
       "budget"
     ],
     "use_cases": [
+      "- Warranty: Backed by CSR Bradford's 70-Year Performance Warranty.",
+      "Ceiling R3.5 / R4.1 for standard climate zones.",
+      "Default thermal batt for Australian",
+      "Installing in external timber or steel stud walls behind brick veneer or\nlightweight cladding",
       "Insulating roof spaces in new\nresidential builds and renovations to achieve 7-star NatHERS energy ratings",
       "Retrofitting existing ceiling cavities to lower heating and cooling bills",
-      "Installing in external timber or steel stud walls behind brick veneer or\nlightweight cladding"
+      "residential construction. Wall R2.0 (90mm) is standard for external walls"
     ],
     "not_for": [
       "Underfloor installations (use Bradford\nOptimo)",

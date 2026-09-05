@@ -135,9 +135,73 @@
       "Imperial OD",
       "Carton (lineal m)",
       "Pcs/carton"
+    ],
+    "accessories_upsell": "Thermotec E-Flex Bond Contact Adhesive (500ml tin)."
+  },
+  "retrieval": {
+    "search_keywords": [
+      "150\n    degree pipe insulation",
+      "E-Flex HT",
+      "EPDM pipe\n    lagging",
+      "UV resistant pipe insulation",
+      "easy_install",
+      "fire",
+      "pipe",
+      "roof",
+      "roofline",
+      "solar hot water insulation",
+      "solar pipe insulation",
+      "thermal",
+      "wall"
+    ],
+    "problem_keywords": [
+      "- Accessories Upsell: Thermotec E-Flex Bond Contact Adhesive (500ml tin).",
+      "- Negative Filter (not_for): High-pressure continuous steam lines operating",
+      "- Placement: [\"pipe\", \"roof\", \"roofline\", \"wall\"]",
+      "- Positive Recommendation Rule: Mandatory specification for rooftop solar hot",
+      "- Priority Fit: [\"thermal\", \"fire\", \"easy_install\"]",
+      "Standard nitrile foam melting, hardening, or crumbling on",
+      "UV radiation destroying outdoor pipe lagging",
+      "above 150°C (use Rockwool Pipe)",
+      "and fluid temperatures over 90°C.",
+      "direct underground burial without",
+      "freezing external solar collector pipes.",
+      "protective conduit.",
+      "solar hot water roof lines",
+      "water flow/return lines and external heat pump connections exposed to sun"
+    ],
+    "placement": [
+      "\"easy_install\"] - Positive Recommendation Rule: Mandatory specification for rooftop solar hot water flow",
+      "\"fire\"",
+      "\"roof\"",
+      "\"roofline\"",
+      "\"wall\"] - Priority Fit: [\"thermal\"",
+      "[\"pipe\"",
+      "return lines and external heat pump connections exposed to sun and fluid temperatures over 90°C. - Negative Filter (not_for): High-pressure continuous steam lines operating above 150°C (use Rockwool Pipe); direct underground burial without protective conduit. - Accessories Upsell: Thermotec E-Flex Bond Contact Adhesive (500ml tin)"
+    ],
+    "not_for": [
+      "- Accessories Upsell: Thermotec E-Flex Bond Contact Adhesive (500ml tin).",
+      "above 150°C (use Rockwool Pipe)",
+      "direct underground burial without",
+      "not_for): High-pressure continuous steam lines operating",
+      "protective conduit."
+    ],
+    "use_cases": [
+      "- Accessories Upsell: Thermotec E-Flex Bond Contact Adhesive (500ml tin).",
+      "- Negative Filter (not_for): High-pressure continuous steam lines operating",
+      "Mandatory specification for rooftop solar hot",
+      "above 150°C (use Rockwool Pipe)",
+      "and fluid temperatures over 90°C.",
+      "direct underground burial without",
+      "protective conduit.",
+      "water flow/return lines and external heat pump connections exposed to sun"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "fire",
+      "thermal"
     ]
   },
-  "retrieval": {},
   "source_excerpt": null,
   "engine": "manual_range_injection",
   "range_source": "manufacturer size/packaging breakdown (hand-supplied 2026-09-06)"

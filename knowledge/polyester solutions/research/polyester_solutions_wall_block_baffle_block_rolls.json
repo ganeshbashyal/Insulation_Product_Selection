@@ -120,27 +120,37 @@
   },
   "retrieval": {
     "search_keywords": [
+      "Baffle Block rolls",
       "Polyester Solutions Baffle Block Rolls",
       "WallBlock baffle rolls",
       "ceiling baffle rolls",
-      "polyester acoustic plenum\nroll",
-      "sound blanket roll",
-      "plenum baffle blanket",
       "continuous acoustic\nbaffle roll",
-      "polyester sound roll"
+      "continuous sound baffle roll",
+      "plenum acoustic blanket",
+      "plenum baffle blanket",
+      "polyester acoustic plenum\nroll",
+      "polyester sound roll",
+      "sound blanket roll"
     ],
     "problem_keywords": [
-      "sound leaking\nthrough ceiling plenum",
-      "voice transfer over office partition walls",
-      "pipes\nand ducts causing acoustic flanking",
+      "- Placement: Ceiling plenum space above partition walls.",
+      "- Positive Recommendation Rule: Roll format allows workers to wrap and",
+      "Complicated overhead ceiling plenum with crossing air",
+      "ducts and pipes where rigid batts leave sound-leaking voids.",
       "gaps in ceiling acoustic barriers",
-      "office cross-talk through suspended ceiling"
+      "layer-stack insulation around irregular services in commercial ceiling voids",
+      "office cross-talk through suspended ceiling",
+      "pipes\nand ducts causing acoustic flanking",
+      "sound leaking\nthrough ceiling plenum",
+      "to stop room-to-room noise cross-talk.",
+      "voice transfer over office partition walls"
     ],
     "placement": [
+      "Ceiling plenum space above partition walls. - Positive Recommendation Rule: Roll format allows workers to wrap and layer-stack insulation around irregular services in commercial ceiling voids to stop room-to-room noise cross-talk",
+      "between floors",
       "ceiling",
-      "wall",
       "internal wall",
-      "between floors"
+      "wall"
     ],
     "priority_fit": [
       "acoustic",
@@ -148,9 +158,12 @@
       "sustainability"
     ],
     "use_cases": [
+      "Acoustic blanket infill in commercial and educational\nwall cavities",
       "Continuous layer-stacking in\nceiling plenum spaces above office partition walls to block sound transmission",
       "Moulding around complex overhead ductwork, cable trays, and pipes to seal\nacoustic flanking voids",
-      "Acoustic blanket infill in commercial and educational\nwall cavities"
+      "Roll format allows workers to wrap and",
+      "layer-stack insulation around irregular services in commercial ceiling voids",
+      "to stop room-to-room noise cross-talk."
     ],
     "not_for": [
       "Exterior weatherboard wrap",

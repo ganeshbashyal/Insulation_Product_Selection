@@ -103,32 +103,49 @@
       "Not an\nexternal weather-facing finish; must be enclosed within facade cladding",
       "Must\nbe protected from continuous water soaking during construction"
     ],
-    "warranty": "Backed by CSR Bradford product warranty"
+    "warranty": "Backed by CSR Bradford product warranty",
+    "accessories_upsell": "Mechanical steel impaling brackets and smoke seal foil backing plates."
   },
   "retrieval": {
     "search_keywords": [
+      "Bradford\nrockwool wall batts",
       "Bradford Fire Protection Wall Batt",
+      "Curtain Wall Batts",
       "Fireseal Curtain Wall Batts",
-      "fire\nsafing batts",
-      "spandrel insulation batts",
-      "rockwool wall batts fire",
+      "commercial facade fire\n    batts",
       "commercial facade fire batts",
+      "edge\n    of slab fire stop",
+      "fire\nsafing batts",
+      "fire safing batts",
       "perimeter fire barrier batts",
-      "Bradford\nrockwool wall batts"
+      "rockwool spandrel batts",
+      "rockwool wall batts fire",
+      "spandrel insulation batts"
     ],
     "problem_keywords": [
-      "fire spread between floors via\nfacade",
+      "- Accessories Upsell: Mechanical steel impaling brackets and smoke seal foil",
+      "- Placement: Edge of slab, between floors, external facade wall cavity.",
+      "- Positive Recommendation Rule: Commercial multi-storey buildings requiring",
+      "Fire and toxic smoke jumping floors externally via the",
+      "backing plates.",
       "curtain wall slab edge firestop",
-      "spandrel panel fire insulation",
-      "non-combustible wall insulation commercial",
       "facade perimeter fire safing\nFRL",
-      "smoke spread at slab edge"
+      "fire spread between floors via\nfacade",
+      "in multi-storey buildings.",
+      "non-combustible (AS 1530.1) perimeter fire safing at the floor slab junction",
+      "non-combustible wall insulation commercial",
+      "perimeter gap between concrete floor slabs and external curtain wall facades",
+      "smoke spread at slab edge",
+      "spandrel panel fire insulation",
+      "to maintain fire compartmentation between storeys."
     ],
     "placement": [
-      "wall",
+      "Edge of slab",
+      "between floors",
+      "external facade wall cavity. - Positive Recommendation Rule: Commercial multi-storey buildings requiring non-combustible (AS 1530.1) perimeter fire safing at the floor slab junction to maintain fire compartmentation between storeys. - Accessories Upsell: Mechanical steel impaling brackets and smoke seal foil backing plates",
       "external wall",
       "internal wall",
-      "between floors"
+      "wall"
     ],
     "priority_fit": [
       "fire",
@@ -136,9 +153,14 @@
       "thermal"
     ],
     "use_cases": [
+      "- Accessories Upsell: Mechanical steel impaling brackets and smoke seal foil",
+      "Commercial multi-storey buildings requiring",
+      "Fire containment\nin commercial external cavity walls",
       "Perimeter fire safing between concrete floor slabs\nand external curtain wall facades in multi-storey commercial towers",
       "Spandrel\npanel fire insulation behind glass or aluminum facade panels",
-      "Fire containment\nin commercial external cavity walls"
+      "backing plates.",
+      "non-combustible (AS 1530.1) perimeter fire safing at the floor slab junction",
+      "to maintain fire compartmentation between storeys."
     ],
     "not_for": [
       "Residential timber-stud\nthermal wall insulation (use Bradford Gold)",

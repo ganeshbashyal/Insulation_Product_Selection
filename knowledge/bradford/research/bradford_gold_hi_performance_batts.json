@@ -144,29 +144,48 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Bradford Gold Hi-Performance",
-      "Gold HP batts",
+      "7 star insulation\nbatts",
       "Bradford\nHP ceiling batts",
+      "Bradford Gold HP",
+      "Bradford Gold Hi-Performance",
+      "Bradford Hi Performance",
+      "Gold HP",
+      "Gold HP batts",
+      "R2.7 wall\n    batts",
       "R2.7 wall batts",
       "R5.0 ceiling batts",
       "R6.0 ceiling\nbatts",
+      "R6.0 ceiling batts",
+      "R7.0 batts",
       "R7.0 ceiling batts",
-      "high density wall batts",
-      "7 star insulation\nbatts",
-      "Bradford Gold HP"
+      "high\n    density wall batts",
+      "high density wall batts"
     ],
     "problem_keywords": [
-      "meeting 7 star energy\nrating",
-      "high R-value in 90mm wall stud",
+      "- Placement: Ceiling, wall, external wall.",
+      "- Positive Recommendation Rule: Whenever an energy rater mandates R2.7 in 90mm",
+      "House plans failing 7-star NatHERS energy compliance",
+      "cannot widen 90mm framing to fit thicker batts",
+      "eave clearance compresses",
+      "external walls, recommend Gold HP R2.7. When ceiling eaves are tight,",
       "extreme roof heat in alpine or\ndesert climate",
+      "high R-value in 90mm wall stud",
       "maximum thermal efficiency for new build",
+      "meeting 7 star energy\nrating",
+      "perimeter.",
+      "recommend R3.0 Perimeter Batts to avoid thermal bridging at the roof",
+      "standard ceiling insulation.",
       "tight eave\ninsulation compression"
     ],
     "placement": [
+      "Ceiling",
       "ceiling",
-      "wall",
       "external wall",
-      "internal wall"
+      "external wall. - Positive Recommendation Rule: Whenever an energy rater mandates R2.7 in 90mm external walls",
+      "internal wall",
+      "recommend Gold HP R2.7. When ceiling eaves are tight",
+      "recommend R3.0 Perimeter Batts to avoid thermal bridging at the roof perimeter",
+      "wall"
     ],
     "priority_fit": [
       "thermal",
@@ -175,9 +194,13 @@
       "easy_install"
     ],
     "use_cases": [
-      "Insulating external 90mm stud walls with R2.7\nHP batts to achieve 7-star energy compliance without changing frame thickness",
       "Installing R5.0 to R7.0 HP batts in ceilings of alpine, cold climate, or hot\ntropical homes",
-      "Using low-profile R3.0 Perimeter Batts to maintain compliant\nceiling insulation depth at roof eaves"
+      "Insulating external 90mm stud walls with R2.7\nHP batts to achieve 7-star energy compliance without changing frame thickness",
+      "Using low-profile R3.0 Perimeter Batts to maintain compliant\nceiling insulation depth at roof eaves",
+      "Whenever an energy rater mandates R2.7 in 90mm",
+      "external walls, recommend Gold HP R2.7. When ceiling eaves are tight,",
+      "perimeter.",
+      "recommend R3.0 Perimeter Batts to avoid thermal bridging at the roof"
     ],
     "not_for": [
       "Underfloor joists (use\nBradford Optimo)",

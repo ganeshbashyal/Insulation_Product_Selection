@@ -22,31 +22,57 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Stinger accessory",
-      "Stinger StaplePac",
+      "10mm StaplePac",
+      "Stinger\n    plastic caps",
+      "Stinger 136420",
       "Stinger NailPac",
-      "Stinger plastic caps",
-      "cap fasteners",
+      "Stinger StaplePac",
+      "Stinger accessory",
       "Stinger cap refills",
+      "Stinger plastic caps",
       "Stinger replacement parts",
-      "Stinger tool accessories"
-    ],
-    "problem_keywords": [
-      "housewrap tearing off staples",
-      "air and water leaks\naround staple holes",
-      "wind blowing underlayment off roof",
-      "running out of cap\nfasteners on site",
-      "staples pulling through building wrap"
-    ],
-    "placement": [
+      "Stinger tool accessories",
+      "cap fasteners",
+      "condensation",
+      "easy_install",
+      "external wall",
       "roof",
       "roofline",
-      "wall",
-      "external wall"
+      "wall"
+    ],
+    "problem_keywords": [
+      "- For CH38-2 / CH38A Cap Hammers: Quote StaplePac 10mm (#136420).",
+      "- For CN100B Cap Nailers: Quote NailPac 25mm (#136260 or #136262).",
+      "- For CS150B Cap Staplers: Quote Pneumatic StaplePac (#136421 to #136424).",
+      "- For HT38 Hammer Tackers: Quote A-11 Staples (#136452).",
+      "- Placement: [\"roof\", \"roofline\", \"wall\", \"external wall\"]",
+      "- Priority Fit: [\"easy_install\", \"condensation\"]",
+      "- System Pairing Rule:",
+      "Bare staples pulling through building wrap in wind",
+      "air and water leaks\naround staple holes",
+      "holes.",
+      "housewrap tearing off staples",
+      "running out of cap\nfasteners on site",
+      "running out of collated caps on site",
+      "staples pulling through building wrap",
+      "water leaking through standard nail",
+      "wind blowing underlayment off roof"
+    ],
+    "placement": [
+      "\"condensation\"] - System Pairing Rule: - For CH38-2",
+      "\"external wall\"] - Priority Fit: [\"easy_install\"",
+      "\"roofline\"",
+      "\"wall\"",
+      "CH38A Cap Hammers: Quote StaplePac 10mm (#136420). - For CN100B Cap Nailers: Quote NailPac 25mm (#136260 or #136262). - For CS150B Cap Staplers: Quote Pneumatic StaplePac (#136421 to #136424). - For HT38 Hammer Tackers: Quote A-11 Staples (#136452)",
+      "[\"roof\"",
+      "external wall",
+      "roof",
+      "roofline",
+      "wall"
     ],
     "priority_fit": [
-      "easy_install",
-      "condensation"
+      "condensation",
+      "easy_install"
     ],
     "use_cases": [
       "Collated plastic cap and fastener packs\n(StaplePac and NailPac) used with STINGER cap hammers and nailers",

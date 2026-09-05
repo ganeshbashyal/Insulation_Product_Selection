@@ -126,31 +126,41 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Higgins Insulation Roll",
-      "Polyester Sound Blankets",
-      "Higgins polyester roll",
-      "acoustic partition roll",
-      "Higgins underfloor roll",
-      "polyester blanket roll",
-      "itch free insulation roll",
       "450mm polyester roll",
-      "610mm polyester roll"
+      "610mm polyester roll",
+      "Higgins Insulation Roll",
+      "Higgins polyester roll",
+      "Higgins underfloor roll",
+      "Polyester Sound\n    Blankets",
+      "Polyester Sound Blankets",
+      "acoustic\n    partition roll",
+      "acoustic partition roll",
+      "itch free insulation roll",
+      "polyester blanket roll"
     ],
     "problem_keywords": [
-      "sound transfer through stud\nwalls",
+      "- Placement: Wall, internal wall, underfloor, floor, ceiling.",
+      "- Positive Recommendation Rule: Highly economical for underfloor joists (450mm",
+      "Installers wanting to unroll long, continuous strips into",
       "cold subfloor drafts",
       "gaps between small batt pieces",
+      "installation.",
       "itchy\ninsulation rolls",
+      "quick installation of\nacoustic blanket",
+      "sound transfer through stud\nwalls",
+      "stud bays or suspended underfloors without handling small individual batts.",
       "uninsulated wall cavity noise",
-      "quick installation of\nacoustic blanket"
+      "width fits standard joists) and continuous vertical stud cavity"
     ],
     "placement": [
-      "wall",
-      "internal wall",
+      "Wall",
+      "between floors",
       "ceiling",
-      "underfloor",
+      "ceiling. - Positive Recommendation Rule: Highly economical for underfloor joists (450mm width fits standard joists) and continuous vertical stud cavity installation",
       "floor",
-      "between floors"
+      "internal wall",
+      "underfloor",
+      "wall"
     ],
     "priority_fit": [
       "acoustic",
@@ -159,9 +169,12 @@
       "sustainability"
     ],
     "use_cases": [
+      "Acoustic blanket overlay in suspended ceiling spaces above office partitions",
       "Continuous\nacoustic insulation unrolled in internal stud walls for sound attenuation",
+      "Highly economical for underfloor joists (450mm",
       "Underfloor thermal and draft insulation unrolled between floor joists",
-      "Acoustic blanket overlay in suspended ceiling spaces above office partitions"
+      "installation.",
+      "width fits standard joists) and continuous vertical stud cavity"
     ],
     "not_for": [
       "Exterior exposed cladding",

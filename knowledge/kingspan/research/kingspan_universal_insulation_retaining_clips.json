@@ -96,33 +96,46 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Kingspan retaining clips",
-      "Universal Insulation\nRetaining Clips",
-      "insulation retaining discs",
-      "cavity wall tie clips",
       "80mm\ninsulation clips",
+      "80mm insulation\n    discs",
       "K8 retaining clips",
-      "brick tie insulation clips"
+      "Kingspan retaining clips",
+      "Universal\n    Insulation Retaining Clips",
+      "Universal Insulation\nRetaining Clips",
+      "brick tie insulation clips",
+      "cavity wall tie clips",
+      "insulation retaining discs"
     ],
     "problem_keywords": [
+      "- Placement: External cavity walls (clipped over wall ties).",
+      "- Positive Recommendation Rule: Automatic companion product whenever",
+      "KINGSPAN_K8 is sold. Slides over ties to lock boards flat against the inner",
+      "Rigid cavity boards slumping against the outer wet brick",
       "cavity insulation slumping against outer brick",
       "insulation boards vibrating loose on wall ties",
-      "mortar bridges pushing\ninsulation across cavity",
+      "leaf",
+      "loose\ninsulation boards in cavity wall",
       "maintaining clear cavity air space",
-      "loose\ninsulation boards in cavity wall"
+      "masonry leaf.",
+      "mortar bridges forming across cavity insulation.",
+      "mortar bridges pushing\ninsulation across cavity"
     ],
     "placement": [
-      "wall",
-      "external wall"
+      "External cavity walls (clipped over wall ties). - Positive Recommendation Rule: Automatic companion product whenever KINGSPAN_K8 is sold. Slides over ties to lock boards flat against the inner masonry leaf",
+      "external wall",
+      "wall"
     ],
     "priority_fit": [
       "easy_install",
       "thermal"
     ],
     "use_cases": [
+      "Automatic companion product whenever",
       "Holding Kingspan\nKooltherm K8 Cavity Boards firmly against the inner leaf of double brick cavity\nwalls",
+      "KINGSPAN_K8 is sold. Slides over ties to lock boards flat against the inner",
+      "Maintaining a permanent 40-50mm\nresidual drainage cavity in masonry wall construction",
       "Securing rigid PIR, XPS, or semi-rigid mineral wool slabs over\nbutterfly and vertical-twist wall ties",
-      "Maintaining a permanent 40-50mm\nresidual drainage cavity in masonry wall construction"
+      "masonry leaf."
     ],
     "not_for": [
       "Direct\nscrew or nail fixing without wall ties",

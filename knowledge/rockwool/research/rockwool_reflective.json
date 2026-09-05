@@ -22,33 +22,71 @@
   },
   "retrieval": {
     "search_keywords": [
+      "Rockwool\n    Reflective",
       "Rockwool Reflective",
+      "Rockwool foil blanket",
+      "Rockwool reflective",
+      "condensation",
+      "duct",
+      "external wall",
+      "fire",
+      "foil faced mineral\nwool",
       "foil faced rockwool",
       "foil faced stone wool",
-      "Rockwool foil blanket",
+      "mineral wool reflective\n    wrap",
+      "pipe",
       "reflective stone wool",
+      "rockwool foil blanket",
       "rockwool reflective insulation",
-      "foil faced mineral\nwool"
-    ],
-    "problem_keywords": [
-      "high temperature radiant heat loss",
-      "condensation on industrial pipes",
-      "fire protection with radiant barrier",
-      "thermal loss through metal roof",
-      "non combustible foil insulation"
-    ],
-    "placement": [
       "roof",
       "roofline",
-      "wall",
+      "thermal",
+      "wall"
+    ],
+    "problem_keywords": [
+      "- Bot Disambiguation Rule: When an Australian customer asks for \"Rockwool",
+      "- For fire-rated boundary walls: Route to JAMES_HARDIE_FIRE_ROCKWOOL.",
+      "- For high-temperature steam/process pipes: Route to",
+      "- For industrial boilers/plant rooms: Route to BRADFORD_FIBERTEX (with",
+      "- Placement: [\"roof\", \"roofline\", \"wall\", \"external wall\", \"pipe\", \"duct\"]",
+      "- Priority Fit: [\"fire\", \"thermal\", \"condensation\"]",
+      "High-temperature industrial pipework sweating or radiating",
+      "Reflective\", clarify the application:",
+      "THERMOTEC_ROCKWOOL_PIPE.",
+      "boiler rooms requiring non-combustible insulation with a radiant",
+      "commercial kitchen grease ducts.",
+      "condensation on industrial pipes",
+      "fire protection with radiant barrier",
+      "foil facing).",
+      "heat",
+      "high temperature radiant heat loss",
+      "non combustible foil insulation",
+      "thermal loss through metal roof",
+      "vapour barrier"
+    ],
+    "placement": [
+      "\"condensation\"] - Bot Disambiguation Rule: When an Australian customer asks for \"Rockwool Reflective\"",
+      "\"duct\"] - Priority Fit: [\"fire\"",
+      "\"external wall\"",
+      "\"pipe\"",
+      "\"roofline\"",
+      "\"thermal\"",
+      "\"wall\"",
+      "[\"roof\"",
+      "clarify the application: - For high-temperature steam",
+      "duct",
       "external wall",
       "pipe",
-      "duct"
+      "plant rooms: Route to BRADFORD_FIBERTEX (with foil facing)",
+      "process pipes: Route to THERMOTEC_ROCKWOOL_PIPE. - For fire-rated boundary walls: Route to JAMES_HARDIE_FIRE_ROCKWOOL. - For industrial boilers",
+      "roof",
+      "roofline",
+      "wall"
     ],
     "priority_fit": [
+      "condensation",
       "fire",
-      "thermal",
-      "condensation"
+      "thermal"
     ],
     "use_cases": [
       "Industrial thermal and acoustic lagging on high-temperature pipework and\nvessels",

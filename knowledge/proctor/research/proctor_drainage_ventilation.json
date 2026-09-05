@@ -136,30 +136,58 @@
   },
   "retrieval": {
     "search_keywords": [
+      "DB-FR batten",
+      "NCC 2022 20mm\n    cavity batten",
+      "NCC 2022 cavity drainage",
       "Proctor Drainage Ventilation",
       "ProctorPassive DB-FR",
       "ProctorVent VB10",
       "ProctorVent VB20",
-      "vented batten\nVB20",
+      "VB20 vented batten",
+      "batch 21 and 22",
+      "cladding drainage batten",
+      "over fascia vent",
       "over fascia vent FV25",
       "ridge vent RV10",
-      "cladding drainage batten",
       "roof ventilation batten",
-      "NCC 2022 cavity drainage"
+      "vented batten\nVB20"
     ],
     "problem_keywords": [
-      "trapped condensation behind wall cladding",
-      "moisture buildup under metal roof\nsheets",
-      "ponding on roof sarking behind battens",
-      "thermal bridging across\ncladding battens",
+      "- Air and moisture exhaust at the apex via RV10 Ridge Vents.",
+      "- Air enters at the eaves via FV10/FV25 Over-Fascia Vents.",
+      "- Air travels up the roof cavity via DB-FR or VB20 battens.",
+      "- For wall claddings: Specify VB20 to meet the 20mm cavity drainage",
+      "- Placement: Roof, roofline, external wall cladding cavity.",
+      "- Positive Recommendation Rule: Complete passive airflow system:",
+      "Australian Insulation Knowledge Base: Granular Sizing & Bot Logic",
+      "BATCH 023",
+      "Fastening Systems & Thermotec Australia",
+      "Manufacturers: Proctor Group Australia, Sonata Acoustic Panels, STINGER",
+      "Moisture pooling behind roof battens on sarking",
+      "PART 11: Batches 023 & 024 (Families 221–240)",
+      "Ready for Next Batches?",
+      "Reply with \"batch 21 and 22\" (covering Proctor specialty membranes, YouRippa",
+      "cathedral roof space overheating and",
+      "condensing.",
+      "growing behind lightweight cladding",
+      "mandate.",
       "meeting NCC 2022 20mm roof space rule",
-      "mold and rot in\ncathedral roof cavity"
+      "moisture buildup under metal roof\nsheets",
+      "mold and rot in\ncathedral roof cavity",
+      "mould",
+      "ponding on roof sarking behind battens",
+      "tapes, and ProctorGeo geotextiles).",
+      "thermal bridging across\ncladding battens",
+      "trapped condensation behind wall cladding"
     ],
     "placement": [
+      "FV25 Over-Fascia Vents. - Air travels up the roof cavity via DB-FR or VB20 battens. - Air and moisture exhaust at the apex via RV10 Ridge Vents. - For wall claddings: Specify VB20 to meet the 20mm cavity drainage mandate",
+      "Roof",
+      "external\nwall",
+      "external wall cladding cavity. - Positive Recommendation Rule: Complete passive airflow system: - Air enters at the eaves via FV10",
       "roof",
       "roofline",
-      "wall",
-      "external\nwall"
+      "wall"
     ],
     "priority_fit": [
       "condensation",
@@ -168,9 +196,23 @@
       "fire"
     ],
     "use_cases": [
+      "- Air and moisture exhaust at the apex via RV10 Ridge Vents.",
+      "- Air enters at the eaves via FV10/FV25 Over-Fascia Vents.",
+      "- Air travels up the roof cavity via DB-FR or VB20 battens.",
+      "- For wall claddings: Specify VB20 to meet the 20mm cavity drainage",
+      "Australian Insulation Knowledge Base: Granular Sizing & Bot Logic",
+      "BATCH 023",
+      "Complete passive airflow system:",
       "Creating compliant 10mm or 20mm drained and vented cavities\nbehind external wall claddings per NCC 2022 F8D5 and 10.8.3",
+      "Fastening Systems & Thermotec Australia",
+      "Manufacturers: Proctor Group Australia, Sonata Acoustic Panels, STINGER",
+      "PART 11: Batches 023 & 024 (Families 221–240)",
+      "Passive eaves-to-ridge natural convection roof\nventilation systems in low-pitch and cathedral roofs",
+      "Ready for Next Batches?",
+      "Reply with \"batch 21 and 22\" (covering Proctor specialty membranes, YouRippa",
       "Ventilating the\nspace between roof sarking and metal roof cladding using DB-FR or VB20 battens\nto stop condensation",
-      "Passive eaves-to-ridge natural convection roof\nventilation systems in low-pitch and cathedral roofs"
+      "mandate.",
+      "tapes, and ProctorGeo geotextiles)."
     ],
     "not_for": [
       "Primary\nstructural framing battens without fixing through to framing",

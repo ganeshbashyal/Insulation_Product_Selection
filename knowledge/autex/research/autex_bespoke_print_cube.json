@@ -73,19 +73,48 @@
       "printed acoustic panels"
     ],
     "problem_keywords": [
-      "Echo in commercial meeting rooms where blank walls require branding, corporate logos, murals, or custom artwork without sacrificing acoustics."
+      "(NRC 0.70+) is required.",
+      "- Accessories Upsell: Autex SpinFix mounting hardware or contact adhesive",
+      "- Artwork Requirements for Bot Prompting: Must advise customer that artwork",
+      "- Negative Filter (not_for): High-wear kick zones",
+      "- Placement: Wall, internal wall, ceiling.",
+      "- Positive Recommendation Rule: Recommend 12mm for standard wall feature",
+      "Echo in commercial meeting rooms where blank walls require",
+      "Echo in commercial meeting rooms where blank walls require branding, corporate logos, murals, or custom artwork without sacrificing acoustics.",
+      "Type B aluminium joiner profiles.",
+      "acoustics.",
+      "at 1:1 scale).",
+      "branding, corporate logos, murals, or custom artwork without sacrificing",
+      "files require vector format or high-resolution raster (minimum 300 DPI",
+      "outdoor installations.",
+      "prints",
+      "recommend 24mm where superior mid-to-low frequency speech absorption"
     ],
     "placement": [
       "Wall",
       "ceiling",
+      "ceiling. - Positive Recommendation Rule: Recommend 12mm for standard wall feature prints; recommend 24mm where superior mid-to-low frequency speech absorption (NRC 0.70+) is required. - Artwork Requirements for Bot Prompting: Must advise customer that artwork files require vector format or high-resolution raster (minimum 300 DPI at 1:1 scale). - Negative Filter (not_for): High-wear kick zones; outdoor installations. - Accessories Upsell: Autex SpinFix mounting hardware or contact adhesive; Type B aluminium joiner profiles",
       "internal wall"
     ],
     "not_for": [
+      "- Accessories Upsell: Autex SpinFix mounting hardware or contact adhesive",
+      "Type B aluminium joiner profiles.",
       "not_for): High-wear kick zones",
       "outdoor installations."
     ],
     "use_cases": [
+      "(NRC 0.70+) is required.",
+      "- Accessories Upsell: Autex SpinFix mounting hardware or contact adhesive",
+      "- Artwork Requirements for Bot Prompting: Must advise customer that artwork",
+      "- Negative Filter (not_for): High-wear kick zones",
+      "Recommend 12mm for standard wall feature",
       "Recommend 12mm for standard wall feature prints",
+      "Type B aluminium joiner profiles.",
+      "at 1:1 scale).",
+      "files require vector format or high-resolution raster (minimum 300 DPI",
+      "outdoor installations.",
+      "prints",
+      "recommend 24mm where superior mid-to-low frequency speech absorption",
       "recommend 24mm where superior mid-to-low frequency speech absorption (NRC 0.70+) is required."
     ]
   },

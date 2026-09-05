@@ -142,29 +142,43 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Bradford Supertel",
-      "Supertel Heavy Duty\nFoil",
-      "Supertel HD Foil",
       "32kg duct insulation",
+      "32kg foil faced board",
+      "Bradford Supertel",
+      "Bradford Supertel HDF",
+      "Bradford ductliner foil",
       "HVAC duct wrap foil faced",
       "Supertel 50mm foil",
-      "foil faced glasswool board",
+      "Supertel HD Foil",
+      "Supertel Heavy Duty\nFoil",
+      "Supertel heavy duty\n    foil",
       "commercial HVAC\ninsulation",
-      "Bradford ductliner foil",
+      "commercial ductliner solid foil",
+      "foil faced glasswool board",
       "soffit insulation board foil"
     ],
     "problem_keywords": [
-      "ductwork thermal heat loss",
-      "sweating air conditioning\nducts",
+      "- Placement: Duct, pipe, plant room wall, ceiling plenum.",
+      "- Positive Recommendation Rule: Specify when mechanical consultants require a",
+      "Commercial HVAC sheet metal ductwork requiring a rigid,",
       "condensation on metal ducts",
-      "noisy HVAC duct vibration",
+      "ductwork thermal heat loss",
       "meeting NCC\nSection J duct R-values",
-      "punctured foil on commercial ductwork"
+      "noisy HVAC duct vibration",
+      "non-perforated solid vapor-barrier foil surface inside supply air ducts to",
+      "prevents fiberglass fiber erosion.",
+      "punctured foil on commercial ductwork",
+      "resist moisture condensation.",
+      "sweating air conditioning\nducts",
+      "washable solid foil interior surface that acts as a vapor barrier and"
     ],
     "placement": [
+      "Duct",
+      "ceiling",
+      "ceiling plenum. - Positive Recommendation Rule: Specify when mechanical consultants require a non-perforated solid vapor-barrier foil surface inside supply air ducts to resist moisture condensation",
       "duct",
       "pipe",
-      "ceiling",
+      "plant room wall",
       "wall"
     ],
     "priority_fit": [
@@ -174,9 +188,12 @@
       "acoustic"
     ],
     "use_cases": [
+      "Acoustic enclosure lagging around noisy air-handling units and industrial fans",
       "External thermal wrap on\nrectangular and spiral sheet metal HVAC ductwork in commercial plant rooms",
+      "Specify when mechanical consultants require a",
       "Under-soffit thermal and acoustic insulation lining on exposed concrete slabs",
-      "Acoustic enclosure lagging around noisy air-handling units and industrial fans"
+      "non-perforated solid vapor-barrier foil surface inside supply air ducts to",
+      "resist moisture condensation."
     ],
     "not_for": [
       "Internal air-stream duct lining without mechanical protection\nwhere air velocities exceed limits",

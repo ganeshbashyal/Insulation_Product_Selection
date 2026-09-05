@@ -116,31 +116,54 @@
       "Claddings must\nprovide a drained cavity; provision must be given for drainage of trapped\nmoisture behind steel cladding",
       "Must not be left exposed to direct sunlight\nbeyond recommended UV exposure limits"
     ],
-    "warranty": "PGF Australia product\nwarranty"
+    "warranty": "PGF Australia product\nwarranty",
+    "accessories_upsell": "EcoSeal 201 Cloth Tape (for lap and penetration sealing)."
   },
   "retrieval": {
     "search_keywords": [
-      "Ecowool Wrap",
-      "ClimaWrap CW",
-      "ClimaWrap BMX800",
-      "Ecowool breathable wrap",
+      "BMX800",
+      "Class 4 breathable wrap",
       "Class 4 vapour permeable wrap",
-      "triple layer wall wrap",
-      "PGF ClimaWrap",
+      "ClimaWrap",
+      "ClimaWrap BMX800",
+      "ClimaWrap CW",
+      "Ecowool\n    wall wrap",
+      "Ecowool Wrap",
+      "Ecowool breathable wrap",
       "Ecowool wall wrap",
+      "PGF ClimaWrap",
+      "triple layer house wrap",
+      "triple layer wall wrap",
       "weather barrier\nwrap"
     ],
     "problem_keywords": [
+      "- Accessories Upsell: EcoSeal 201 Cloth Tape (for lap and penetration",
+      "- Negative Filter (not_for): Roof sarking applications",
+      "- Placement: Wall, external wall.",
+      "- Positive Recommendation Rule: Specify behind residential brick veneer and",
+      "Trapped moisture rotting timber framing",
+      "and air leakage.",
+      "compliance",
+      "condensation in",
+      "damp-proofing.",
+      "drafty\nframed external walls",
+      "external walls behind brick veneer or lightweight weatherboards",
+      "lightweight claddings across Australia. Breathable Class 4 structure stops",
+      "meeting NCC 2022 condensation management code",
+      "moisture build-up inside the stud cavity while acting as a barrier to rain",
       "mould in exterior wall cavity",
+      "rot in\ntimber wall studs",
+      "sealing).",
+      "subfloor soil",
       "trapped\ncondensation behind cladding",
       "water leaks through brick veneer",
-      "drafty\nframed external walls",
-      "meeting NCC 2022 condensation management code",
-      "rot in\ntimber wall studs"
+      "with NCC 2022 condensation management (Climate Zones 2 to 8)."
     ],
     "placement": [
-      "wall",
-      "external wall"
+      "Wall",
+      "external wall",
+      "external wall. - Positive Recommendation Rule: Specify behind residential brick veneer and lightweight claddings across Australia. Breathable Class 4 structure stops moisture build-up inside the stud cavity while acting as a barrier to rain and air leakage. - Negative Filter (not_for): Roof sarking applications; subfloor soil damp-proofing. - Accessories Upsell: EcoSeal 201 Cloth Tape (for lap and penetration sealing)",
+      "wall"
     ],
     "priority_fit": [
       "condensation",
@@ -148,14 +171,28 @@
       "easy_install"
     ],
     "use_cases": [
-      "Vapour-permeable\nweather barrier behind residential and commercial brick veneer walls",
+      "- Accessories Upsell: EcoSeal 201 Cloth Tape (for lap and penetration",
+      "- Negative Filter (not_for): Roof sarking applications",
+      "Air and water barrier house wrap on timber and light-gauge steel framing",
       "Moisture\nprotection behind fibre-cement and timber cladding in climate zones 2 to 8",
-      "Air and water barrier house wrap on timber and light-gauge steel framing"
+      "Specify behind residential brick veneer and",
+      "Vapour-permeable\nweather barrier behind residential and commercial brick veneer walls",
+      "and air leakage.",
+      "damp-proofing.",
+      "lightweight claddings across Australia. Breathable Class 4 structure stops",
+      "moisture build-up inside the stud cavity while acting as a barrier to rain",
+      "sealing).",
+      "subfloor soil"
     ],
     "not_for": [
+      "- Accessories Upsell: EcoSeal 201 Cloth Tape (for lap and penetration",
+      "Direct\nexposure without outer cladding",
       "Roof sarking applications",
       "Underfloor moisture barrier",
-      "Direct\nexposure without outer cladding"
+      "damp-proofing.",
+      "not_for): Roof sarking applications",
+      "sealing).",
+      "subfloor soil"
     ],
     "rag_summary": "Ecowool Wrap (ClimaWrap CW /\nBMX800) is a triple-layer, Class 4 vapour-permeable building wrap manufactured\nby PGF Insulation. Engineered with two non-woven spunbond outer layers\nprotecting an inner microporous breathable membrane, it stops liquid water and\ndraft infiltration while allowing water vapour to diffuse outward (3.967 µg/N·s\npermeance). Tested to AS/NZS 4200.1:2017 with a low Flammability Index (<5,\nBAL-40 compliant), it prevents condensation and timber rot behind residential\nand commercial wall claddings across climate zones 2 through 8."
   },

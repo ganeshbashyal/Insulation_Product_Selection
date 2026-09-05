@@ -98,44 +98,82 @@
   },
   "retrieval": {
     "search_keywords": [
+      "Stinger\n    CH38A",
+      "Stinger\nCH38-2",
       "Stinger CH",
       "Stinger CH38",
-      "Stinger\nCH38-2",
+      "Stinger CH38-2",
       "Stinger CH38A",
       "Stinger Cap Hammer",
+      "Stinger StaplePac 10mm",
       "cap hammer stapler",
+      "cap hammer tacker",
+      "cap stapler manual",
+      "condensation",
+      "easy_install",
+      "external wall",
       "hammer\ntacker with caps",
+      "housewrap cap hammer",
       "housewrap cap stapler",
+      "roof",
       "roof underlayment cap hammer",
-      "Stinger StaplePac 10mm"
+      "roofline",
+      "wall"
     ],
     "problem_keywords": [
-      "staples pulling through\nbuilding wrap",
-      "wind tearing underlayment off roof",
+      "- Negative Filter (not_for): Steel framing (timber substrates only)",
+      "- Placement: [\"roof\", \"roofline\", \"wall\", \"external wall\"]",
+      "- Positive Recommendation Rule: Recommend to residential builders and roofers",
+      "- Priority Fit: [\"easy_install\", \"condensation\"]",
+      "Housewrap tearing off framing when fixed with bare",
+      "and pitched roofs",
+      "blow-off protection without dragging pneumatic hoses.",
+      "compressors and air hoses posing tripping hazards on scaffolding",
       "dragging air hoses across\npitched roof",
-      "water leaking through staple holes",
+      "housewrap blow offs in wind",
+      "installing synthetic roof underlayment and wall wraps who want high wind",
+      "jobs",
       "slow hand nailing of cap\nfasteners",
-      "housewrap blow offs in wind"
+      "slow hand-nailing of cap washers.",
+      "staples",
+      "staples pulling through\nbuilding wrap",
+      "water leaking through staple holes",
+      "where engineering specifications mandate ring-shank nails (use CN100B).",
+      "wind tearing underlayment off roof"
     ],
     "placement": [
+      "\"condensation\"] - Positive Recommendation Rule: Recommend to residential builders and roofers installing synthetic roof underlayment and wall wraps who want high wind blow-off protection without dragging pneumatic hoses. - Negative Filter (not_for): Steel framing (timber substrates only); jobs where engineering specifications mandate ring-shank nails (use CN100B)",
+      "\"external wall\"] - Priority Fit: [\"easy_install\"",
+      "\"roofline\"",
+      "\"wall\"",
+      "[\"roof\"",
+      "external wall",
       "roof",
       "roofline",
-      "wall",
-      "external wall"
+      "wall"
     ],
     "priority_fit": [
-      "easy_install",
-      "condensation"
+      "condensation",
+      "easy_install"
     ],
     "use_cases": [
+      "- Negative Filter (not_for): Steel framing (timber substrates only)",
       "Fast manual installation of synthetic roof underlayment and\nroofing felt to timber roof trusses and plywood decking",
+      "Holding rolled blanket insulation in place before cladding without dragging air\nhoses on scaffolding",
+      "Recommend to residential builders and roofers",
       "Securing residential\nvapour-permeable wall wraps and reflective foil sarking to timber wall framing",
-      "Holding rolled blanket insulation in place before cladding without dragging air\nhoses on scaffolding"
+      "blow-off protection without dragging pneumatic hoses.",
+      "installing synthetic roof underlayment and wall wraps who want high wind",
+      "jobs",
+      "where engineering specifications mandate ring-shank nails (use CN100B)."
     ],
     "not_for": [
-      "Steel-framed structures (cannot drive\nstaples into steel studs)",
       "Concrete or masonry walls",
-      "Structural timber\njoints"
+      "Steel-framed structures (cannot drive\nstaples into steel studs)",
+      "Structural timber\njoints",
+      "jobs",
+      "not_for): Steel framing (timber substrates only)",
+      "where engineering specifications mandate ring-shank nails (use CN100B)."
     ],
     "rag_summary": "The STINGER CH (CH38-2 / CH38A) is a manual,\nnon-pneumatic cap hammer tacker engineered by National Nail to install\nhousewrap, roofing underlayment, and rolled insulation. With every swing, it\nautomatically positions a 25mm (1 inch) plastic collated cap and drives a 10mm\n(3/8 inch) crown staple through its center into timber framing. Weighing 1.17 kg\nand holding 168 caps and staples (loaded with STINGER StaplePac), it eliminates\ncompressor hoses on roofs while sealing staple penetrations against water leaks\nand preventing high-wind blow-offs."
   },

@@ -1,0 +1,51 @@
+{
+  "family_id": "STINGER_HT",
+  "family_name": "Stinger Ht",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {},
+  "retrieval": {
+    "search_keywords": [
+      "A-11 hammer tacker",
+      "HT38 hammer tacker",
+      "Stinger\n    slap stapler",
+      "Stinger 136450",
+      "Stinger HT38",
+      "budget",
+      "ceiling",
+      "easy_install",
+      "external wall",
+      "insulation batt stapler",
+      "roof",
+      "roofline",
+      "wall"
+    ],
+    "problem_keywords": [
+      "- If installing bare staples without caps for general tacking: Choose",
+      "- If installing caps + staples to stop wind tear-through: Choose CH38-2.",
+      "- Placement: [\"roof\", \"roofline\", \"wall\", \"external wall\", \"ceiling\"]",
+      "- Priority Fit: [\"easy_install\", \"budget\"]",
+      "- Selection Rule (HT38 vs CH38):",
+      "HT38.",
+      "Need a durable, lightweight, jam-resistant manual hammer",
+      "stapler for rapid fixing of standard insulation batts, building paper, and",
+      "tar paper where plastic caps are not required."
+    ],
+    "placement": [
+      "\"budget\"] - Selection Rule (HT38 vs CH38): - If installing bare staples without caps for general tacking: Choose HT38. - If installing caps + staples to stop wind tear-through: Choose CH38-2",
+      "\"ceiling\"] - Priority Fit: [\"easy_install\"",
+      "\"external wall\"",
+      "\"roofline\"",
+      "\"wall\"",
+      "[\"roof\""
+    ],
+    "priority_fit": [
+      "budget",
+      "easy_install"
+    ]
+  },
+  "source_excerpt": null,
+  "engine": "knowledge_base_txt"
+}

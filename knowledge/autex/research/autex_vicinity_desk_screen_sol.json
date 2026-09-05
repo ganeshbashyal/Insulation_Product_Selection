@@ -118,25 +118,41 @@
   "retrieval": {
     "search_keywords": [
       "Autex Vicinity Sol",
-      "Vicinity desk screen Sol",
-      "curved acoustic desk screen",
-      "arched desk divider",
       "Autex curved workstation\nscreen",
-      "pinnable acoustic divider",
-      "Vicinity Sol screen",
       "Cube curved desk\nscreen",
-      "acoustic desk baffle Sol"
+      "Sol 600",
+      "Vicinity Sol",
+      "Vicinity Sol screen",
+      "Vicinity desk screen Sol",
+      "acoustic desk baffle Sol",
+      "arched desk divider",
+      "compact desk\n    screen",
+      "curved acoustic desk screen",
+      "pinnable acoustic divider",
+      "small acoustic divider 600mm",
+      "square desk screen"
     ],
     "problem_keywords": [
-      "open plan office\nconversational distraction",
-      "stark angular office furniture",
+      "- Placement: Internal partition / desk mount.",
+      "- Positive Recommendation Rule: Smallest standalone square screen in the",
+      "Narrow study carrels, university library workstations, or",
+      "Vicinity family",
+      "ideal for compact hot-desks, library study pods, or modesty",
       "lack of acoustic\nseparation between desks",
-      "office telephone noise",
       "need curved acoustic\nscreen for desk",
-      "reverberation at workstation"
+      "office telephone noise",
+      "open plan office\nconversational distraction",
+      "panel extensions.",
+      "reverberation at workstation",
+      "small hot-desking setups requiring compact individual acoustic dampening.",
+      "stark angular office furniture"
     ],
     "placement": [
-      "internal\nwall"
+      "Internal partition",
+      "desk mount. - Positive Recommendation Rule: Smallest standalone square screen in the Vicinity family; ideal for compact hot-desks",
+      "internal\nwall",
+      "library study pods",
+      "or modesty panel extensions"
     ],
     "priority_fit": [
       "acoustic",
@@ -145,9 +161,13 @@
       "easy_install"
     ],
     "use_cases": [
-      "Providing acoustic speech absorption and curved design\naccents between hot desks in co-working spaces",
       "Desk-mounted privacy dividers\nin corporate call centres and collaborative office pods",
-      "Visual and acoustic\npartitioning on agile sit-to-stand workstations"
+      "Providing acoustic speech absorption and curved design\naccents between hot desks in co-working spaces",
+      "Smallest standalone square screen in the",
+      "Vicinity family",
+      "Visual and acoustic\npartitioning on agile sit-to-stand workstations",
+      "ideal for compact hot-desks, library study pods, or modesty",
+      "panel extensions."
     ],
     "not_for": [
       "Building\nenvelope ceiling or wall insulation batts",

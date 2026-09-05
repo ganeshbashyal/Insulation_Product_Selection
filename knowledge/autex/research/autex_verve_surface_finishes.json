@@ -119,27 +119,42 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Autex Verve Surface Finishes",
-      "Verve Contoured\nPanel stone",
-      "fluted stone acoustic panel",
-      "fluted concrete acoustic wall",
+      "3D concrete wall panel",
       "3D stone acoustic panel",
-      "sculptural concrete acoustic panel",
+      "Autex Verve Surface Finishes",
+      "Autex Verve stone",
       "Verve\nTravertine",
       "Verve Carrara",
-      "Autex Verve stone"
+      "Verve Contoured\nPanel stone",
+      "Verve Surface Finishes",
+      "Verve stone panel",
+      "fluted concrete acoustic wall",
+      "fluted marble acoustic\n    panel",
+      "fluted stone acoustic panel",
+      "sculptural\n    stone acoustic wall",
+      "sculptural concrete acoustic panel"
     ],
     "problem_keywords": [
-      "heavy fluted stone weight limits",
-      "reverberant fluted concrete walls",
-      "hard\ncold stone acoustics",
+      "- Placement: Wall, internal wall.",
+      "- Positive Recommendation Rule: Replaces real stone/concrete fluting with",
+      "Heavy stone fluting exceeds structural engineering load",
+      "allowances",
+      "concrete feature walls reflect sound and cause audio distortion.",
       "echo in commercial lobby",
+      "hard\ncold stone acoustics",
+      "heavy fluted stone weight limits",
+      "lightweight (PET) panels that absorb sound and provide dramatic 3D shadow",
       "need fluted marble feature\nwall with acoustic properties",
-      "office reception sound reflection"
+      "office reception sound reflection",
+      "play.",
+      "reverberant fluted concrete walls"
     ],
     "placement": [
-      "wall",
-      "internal wall"
+      "Wall",
+      "concrete fluting with lightweight (PET) panels that absorb sound and provide dramatic 3D shadow play",
+      "internal wall",
+      "internal wall. - Positive Recommendation Rule: Replaces real stone",
+      "wall"
     ],
     "priority_fit": [
       "acoustic",
@@ -148,9 +163,12 @@
       "easy_install"
     ],
     "use_cases": [
-      "Creating fluted stone or\ntravertine feature walls in commercial lobbies and executive boardrooms",
       "Acoustic feature wall panelling in high-end hospitality venues and\nrestaurants",
-      "Transforming flat walls into tactile concrete-look sculptural\nsurfaces in retail flagships"
+      "Creating fluted stone or\ntravertine feature walls in commercial lobbies and executive boardrooms",
+      "Replaces real stone/concrete fluting with",
+      "Transforming flat walls into tactile concrete-look sculptural\nsurfaces in retail flagships",
+      "lightweight (PET) panels that absorb sound and provide dramatic 3D shadow",
+      "play."
     ],
     "not_for": [
       "Flooring or foot traffic\nsurfaces",

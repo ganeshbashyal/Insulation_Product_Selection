@@ -107,32 +107,49 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Foilboard Silver Joining Tape",
-      "Foilboard silver tape",
-      "reinforced aluminum foil tape",
       "72mm silver foil tape",
-      "Foilboard underfloor\ntape",
-      "silver reflective joining tape",
+      "Foilboard Silver Joining Tape",
+      "Foilboard Silver Tape",
+      "Foilboard silver tape",
       "Foilboard tape 72mm silver",
-      "insulation foil tape"
+      "Foilboard underfloor\ntape",
+      "Foilboard underfloor tape",
+      "insulation foil tape",
+      "reinforced aluminum foil tape",
+      "reinforced silver tape 72mm",
+      "silver foil\n    tape",
+      "silver joining tape",
+      "silver reflective joining tape"
     ],
     "problem_keywords": [
-      "drafts through underfloor board\njoints",
-      "unsealed silver foil insulation seams",
-      "vapor barrier leaks in\nsubfloor",
+      "(sealing the downward-facing silver face of Foilboard) and internal",
+      "- Installation Rule: Must be squeegeed down firmly with a plastic squeegee to",
+      "- Placement: Underfloor, subfloor, floor, internal wall, ceiling.",
+      "- Positive Recommendation Rule: Default tape for all underfloor installations",
+      "Air and draught leakage through underfloor board butt",
+      "activate the pressure-sensitive adhesive.",
       "air leakage through ceiling Foilboard",
-      "taping silver side of\nFoilboard"
+      "drafts through underfloor board\njoints",
+      "joints",
+      "taping silver side of\nFoilboard",
+      "unsealed silver foil insulation seams",
+      "unsealed silver foil seams in interior walls or ceilings.",
+      "vapor barrier leaks in\nsubfloor",
+      "wall/ceiling seams."
     ],
     "placement": [
-      "underfloor",
-      "floor",
-      "subfloor",
-      "wall",
-      "external wall",
-      "internal wall",
+      "Underfloor",
       "ceiling",
+      "ceiling seams. - Installation Rule: Must be squeegeed down firmly with a plastic squeegee to activate the pressure-sensitive adhesive",
+      "ceiling. - Positive Recommendation Rule: Default tape for all underfloor installations (sealing the downward-facing silver face of Foilboard) and internal wall",
+      "external wall",
+      "floor",
+      "internal wall",
       "roof",
-      "shed"
+      "shed",
+      "subfloor",
+      "underfloor",
+      "wall"
     ],
     "priority_fit": [
       "easy_install",
@@ -141,9 +158,14 @@
       "fire"
     ],
     "use_cases": [
+      "(sealing the downward-facing silver face of Foilboard) and internal",
+      "- Installation Rule: Must be squeegeed down firmly with a plastic squeegee to",
+      "Creating an impermeable vapor seal around pipe and cable\npenetrations through Foilboard panels",
+      "Default tape for all underfloor installations",
       "Sealing\nbutt joints and seams on the silver face of Foilboard panels in suspended timber\nunderfloors",
       "Taping seams on internal wall and ceiling Foilboard\ninstallations",
-      "Creating an impermeable vapor seal around pipe and cable\npenetrations through Foilboard panels"
+      "activate the pressure-sensitive adhesive.",
+      "wall/ceiling seams."
     ],
     "not_for": [
       "Direct structural\nmechanical fastening",

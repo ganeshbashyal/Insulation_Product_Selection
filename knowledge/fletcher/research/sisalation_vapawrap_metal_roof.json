@@ -108,27 +108,41 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Vapawrap Metal Roof",
-      "Sisalation Vapawrap Metal Roof",
-      "vapour permeable roof\nsarking",
       "Class 4 roof sarking",
-      "breathable metal roof underlay",
-      "tin roof\nbreathable sarking",
+      "Fletcher 4006885",
       "Fletcher roof underlay",
       "Sisalation 4006885",
-      "anti-shrink roof membrane"
+      "Sisalation Vapawrap Metal Roof",
+      "Sisalation metal roof\n    wrap",
+      "Vapawrap Metal Roof",
+      "anti-shrink roof membrane",
+      "breathable metal roof sarking",
+      "breathable metal roof underlay",
+      "tin roof\nbreathable sarking",
+      "vapour permeable roof\nsarking"
     ],
     "problem_keywords": [
+      "(mandatory in Tasmania and cooler zones under NCC 2022).",
+      "- Negative Filter (not_for): Not for unbattened concrete tile roofs.",
+      "- Placement: Roof, roofline (beneath metal roof battens).",
+      "- Positive Recommendation Rule: Default specification for residential metal",
+      "Standard plastic roof sarking stretching, sagging, or",
       "condensation dripping in\nmetal roof cavity",
-      "plastic sarking shrinking under hot tin roof",
+      "condensation forming in cathedral/raked",
+      "meeting NCC Tasmanian Designer Guide roof condensation",
+      "metal roof spaces in colder climates.",
       "moisture\nbuildup under metal deck roof",
       "mould in cathedral ceiling roof cavity",
-      "meeting NCC Tasmanian Designer Guide roof condensation",
+      "plastic sarking shrinking under hot tin roof",
+      "roofs requiring Class 4 vapour permeability to exhaust roof cavity moisture",
+      "shrinking beneath hot tin roofs",
       "storm rain ingress\nthrough roof laps"
     ],
     "placement": [
+      "Roof",
       "roof",
-      "roofline"
+      "roofline",
+      "roofline (beneath metal roof battens). - Positive Recommendation Rule: Default specification for residential metal roofs requiring Class 4 vapour permeability to exhaust roof cavity moisture (mandatory in Tasmania and cooler zones under NCC 2022). - Negative Filter (not_for): Not for unbattened concrete tile roofs"
     ],
     "priority_fit": [
       "condensation",
@@ -136,14 +150,19 @@
       "easy_install"
     ],
     "use_cases": [
-      "Pitched residential\nmetal roofs in temperate and cold climate zones requiring Class 4 vapour\npermeability to discharge ceiling moisture",
+      "(mandatory in Tasmania and cooler zones under NCC 2022).",
+      "- Negative Filter (not_for): Not for unbattened concrete tile roofs.",
       "Commercial metal deck roofs\ninstalled over rafters or purlins as an airtight weather-draining underlay",
-      "Managing condensation under profiled steel roofs in accordance with the\nTasmanian Designers Guide and NCC 2022"
+      "Default specification for residential metal",
+      "Managing condensation under profiled steel roofs in accordance with the\nTasmanian Designers Guide and NCC 2022",
+      "Pitched residential\nmetal roofs in temperate and cold climate zones requiring Class 4 vapour\npermeability to discharge ceiling moisture",
+      "roofs requiring Class 4 vapour permeability to exhaust roof cavity moisture"
     ],
     "not_for": [
-      "External wall cladding\nwrap",
+      "Direct foot traffic\nwithout safety mesh",
       "Direct unbattened tile roofs without support",
-      "Direct foot traffic\nwithout safety mesh"
+      "External wall cladding\nwrap",
+      "not_for): Not for unbattened concrete tile roofs."
     ],
     "rag_summary": "Sisalation Vapawrap Vapour Permeable\nMetal Roof is a Medium Duty, Class 4 vapour-permeable synthetic roof sarking\nmembrane developed specifically for profiled metal roofs. Fabricated from\nspun-bonded polyolefin non-woven layers sandwiching a microporous core, it\ndelivers outstanding heat-shrink resistance to remain taut beneath hot metal\ndecks. Allowing moisture vapour to vent freely while preventing water leaks and\ndrafts, it complies with AS/NZS 4200.1, AS 1530.2 (Flammability Index ≤ 5), and\nAS 3959 (up to BAL-40) to mitigate roof condensation."
   },

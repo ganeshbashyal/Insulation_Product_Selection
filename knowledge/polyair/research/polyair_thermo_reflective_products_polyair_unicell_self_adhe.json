@@ -110,28 +110,40 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Polyair Unicell Self Adhesive",
       "Bradford Unicell Self Adhesive",
-      "self adhesive shed insulation",
-      "bubble foil\nwith adhesive strip",
       "Polyair 130304",
+      "Polyair Unicell Self Adhesive",
+      "Unicell peel and stick",
+      "Unicell self adhesive roll",
+      "bubble foil\nwith adhesive strip",
+      "bubble foil with tape strip",
       "peel and stick shed insulation",
       "self\nsealing reflective insulation",
-      "Unicell self adhesive roll"
+      "self adhesive shed insulation",
+      "self-adhesive\n    shed insulation"
     ],
     "problem_keywords": [
-      "insulation tape peeling in shed",
-      "difficult overhead lap\ntaping on roof",
+      "- Placement: Roof, wall, shed.",
+      "- Positive Recommendation Rule: Cuts installation time in half. Peel the liner",
+      "Installers struggling to tape overhead laps on windy days",
+      "air and water leaks at insulation laps",
+      "and press the overlapping foil sheet directly onto the adhesive strip for a",
       "condensation dripping through foil joins",
-      "slow shed\ninsulation installation",
-      "air and water leaks at insulation laps"
+      "continuous weather and vapour seal without separate tape on longitudinal",
+      "difficult overhead lap\ntaping on roof",
+      "high labour costs for two-person tape application on roof purlins.",
+      "insulation tape peeling in shed",
+      "runs.",
+      "slow shed\ninsulation installation"
     ],
     "placement": [
+      "Roof",
+      "external wall",
       "roof",
       "roofline",
-      "wall",
-      "external wall",
-      "shed"
+      "shed",
+      "shed. - Positive Recommendation Rule: Cuts installation time in half. Peel the liner and press the overlapping foil sheet directly onto the adhesive strip for a continuous weather and vapour seal without separate tape on longitudinal runs",
+      "wall"
     ],
     "priority_fit": [
       "easy_install",
@@ -139,9 +151,13 @@
       "condensation"
     ],
     "use_cases": [
+      "Condensation barrier under corrugated metal roofing\nwith streamlined overlap sealing",
+      "Cuts installation time in half. Peel the liner",
       "Fast single-person roof insulation installation in domestic metal sheds using\nintegrated self-adhesive laps",
       "Reflective wall insulation in commercial steel\nportal-frame warehouses",
-      "Condensation barrier under corrugated metal roofing\nwith streamlined overlap sealing"
+      "and press the overlapping foil sheet directly onto the adhesive strip for a",
+      "continuous weather and vapour seal without separate tape on longitudinal",
+      "runs."
     ],
     "not_for": [
       "Direct floor traffic\nsurfaces",

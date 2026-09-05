@@ -29,6 +29,7 @@
   },
   "retrieval": {
     "search_keywords": [
+      "Lattice\n    Trapezium",
       "Lattice Trapezium",
       "Quietspace Lattice Trapezium",
       "angular acoustic sculpture",
@@ -36,14 +37,28 @@
       "geometric acoustic baffle"
     ],
     "problem_keywords": [
+      "- Placement: Ceiling (suspended 4-point cable mount).",
+      "- Positive Recommendation Rule: Matches rectangular conference room layouts,",
+      "A acoustic absorption.",
+      "Booming reverberation over long rectangular conference",
       "Booming reverberation over long rectangular conference tables or linear work banks",
-      "desire for sharp geometric lines rather than curved organic shapes."
+      "curved organic shapes.",
+      "desire for sharp geometric lines rather than",
+      "desire for sharp geometric lines rather than curved organic shapes.",
+      "linear executive tables, and geometric architectural fitouts. Provides Class",
+      "tables or linear work banks"
     ],
     "placement": [
-      "Ceiling (suspended 4-point cable mount)"
+      "Ceiling (suspended 4-point cable mount)",
+      "Ceiling (suspended 4-point cable mount). - Positive Recommendation Rule: Matches rectangular conference room layouts",
+      "and geometric architectural fitouts. Provides Class A acoustic absorption",
+      "linear executive tables"
     ],
     "use_cases": [
-      "Matches rectangular conference room layouts, linear executive tables, and geometric architectural fitouts. Provides Class A acoustic absorption."
+      "A acoustic absorption.",
+      "Matches rectangular conference room layouts,",
+      "Matches rectangular conference room layouts, linear executive tables, and geometric architectural fitouts. Provides Class A acoustic absorption.",
+      "linear executive tables, and geometric architectural fitouts. Provides Class"
     ]
   },
   "source_excerpt": null,

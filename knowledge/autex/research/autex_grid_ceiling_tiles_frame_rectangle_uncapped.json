@@ -31,22 +31,50 @@
     "search_keywords": [
       "Grid Ceiling Tiles Frame Rectangle",
       "coffer ceiling tile 1200x600",
+      "open top\n    acoustic tile",
       "open top acoustic tile",
       "uncapped 1200x600 ceiling tile"
     ],
     "problem_keywords": [
+      "- Negative Filter (not_for): Do not recommend if customer needs to hide ugly",
+      "- Placement: Ceiling (1200x600 suspended grid).",
+      "- Positive Recommendation Rule: Recommend when the client wants a 3D",
       "Flat drop ceilings look dated",
-      "space requires architectural depth and shadow lines while allowing airflow or integrated lighting up into the ceiling plenum."
+      "architectural depth and shadow lines while allowing airflow or integrated",
+      "lighting up into the ceiling plenum.",
+      "plenum ductwork, wiring, or pipes (plenum remains visible through uncapped",
+      "rectangular coffer perimeter border in a standard 1200x600 T-bar grid and",
+      "space requires",
+      "space requires architectural depth and shadow lines while allowing airflow or integrated lighting up into the ceiling plenum.",
+      "specifically wants an open-top tile to allow air return or",
+      "sprinkler/lighting integration.",
+      "tiles",
+      "use Capped instead)."
     ],
     "placement": [
-      "Ceiling (1200x600 suspended grid)"
+      "Ceiling (1200x600 suspended grid)",
+      "Ceiling (1200x600 suspended grid). - Positive Recommendation Rule: Recommend when the client wants a 3D rectangular coffer perimeter border in a standard 1200x600 T-bar grid and specifically wants an open-top tile to allow air return or sprinkler",
+      "lighting integration. - Negative Filter (not_for): Do not recommend if customer needs to hide ugly plenum ductwork",
+      "or pipes (plenum remains visible through uncapped tiles; use Capped instead)",
+      "wiring"
     ],
     "not_for": [
+      "not_for): Do not recommend if customer needs to hide ugly",
       "not_for): Do not recommend if customer needs to hide ugly plenum ductwork, wiring, or pipes (plenum remains visible through uncapped tiles",
+      "plenum ductwork, wiring, or pipes (plenum remains visible through uncapped",
+      "tiles",
       "use Capped instead)."
     ],
     "use_cases": [
-      "Recommend when the client wants a 3D rectangular coffer perimeter border in a standard 1200x600 T-bar grid and specifically wants an open-top tile to allow air return or sprinkler/lighting integration."
+      "- Negative Filter (not_for): Do not recommend if customer needs to hide ugly",
+      "Recommend when the client wants a 3D",
+      "Recommend when the client wants a 3D rectangular coffer perimeter border in a standard 1200x600 T-bar grid and specifically wants an open-top tile to allow air return or sprinkler/lighting integration.",
+      "plenum ductwork, wiring, or pipes (plenum remains visible through uncapped",
+      "rectangular coffer perimeter border in a standard 1200x600 T-bar grid and",
+      "specifically wants an open-top tile to allow air return or",
+      "sprinkler/lighting integration.",
+      "tiles",
+      "use Capped instead)."
     ]
   },
   "source_excerpt": null,

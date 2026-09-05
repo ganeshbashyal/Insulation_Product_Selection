@@ -106,38 +106,55 @@
   },
   "retrieval": {
     "search_keywords": [
+      "Foilboard\n    steel screws",
+      "Foilboard 45mm tek screws",
       "Foilboard Standard Tek Screws",
+      "Foilboard screws with washers",
       "Foilboard steel screws",
       "Foilboard tek screws",
       "self drilling insulation\nscrews",
+      "shed insulation screws",
       "steel stud insulation screws",
-      "Foilboard screws with washers",
       "tek\nscrews for Foilboard",
-      "Foilboard 45mm tek screws"
+      "tek screws with washers"
     ],
     "problem_keywords": [
+      "- Placement: Wall, ceiling, shed, roof (steel framing).",
+      "- Positive Recommendation Rule: Use for securing 10mm to 25mm Foilboard",
+      "Pre-drilling steel shed girts takes too long",
+      "Self-drilling point eliminates pre-drilling.",
       "attaching Foilboard to steel studs",
+      "directly to light-gauge steel studs, girts, and purlins (up to 2.5mm thick).",
       "fixing insulation to metal shed girts",
-      "screws stripping in light gauge steel",
       "insulation screws tearing foil\nfacing",
-      "pre-drilling steel studs for insulation"
+      "pre-drilling steel studs for insulation",
+      "screw heads pull through foil facing.",
+      "screws stripping in light gauge steel",
+      "standard"
     ],
     "placement": [
-      "wall",
-      "external wall",
-      "internal wall",
+      "Wall",
+      "and purlins (up to 2.5mm thick). Self-drilling point eliminates pre-drilling",
       "ceiling",
+      "external wall",
+      "girts",
+      "internal wall",
+      "roof",
+      "roof (steel framing). - Positive Recommendation Rule: Use for securing 10mm to 25mm Foilboard directly to light-gauge steel studs",
       "shed",
-      "roof"
+      "wall"
     ],
     "priority_fit": [
       "easy_install",
       "thermal"
     ],
     "use_cases": [
-      "Securing 10mm to 25mm Foilboard\npanels to light-gauge steel wall framing in residential homes",
       "Fastening\nFoilboard insulation to steel wall girts and roof purlins in domestic metal\nsheds",
-      "Installing rigid foil boards on commercial steel drywall partitions"
+      "Installing rigid foil boards on commercial steel drywall partitions",
+      "Securing 10mm to 25mm Foilboard\npanels to light-gauge steel wall framing in residential homes",
+      "Self-drilling point eliminates pre-drilling.",
+      "Use for securing 10mm to 25mm Foilboard",
+      "directly to light-gauge steel studs, girts, and purlins (up to 2.5mm thick)."
     ],
     "not_for": [
       "Timber framing (use Standard Fasteners)",

@@ -57,7 +57,49 @@
       "Carton (lineal m)"
     ]
   },
-  "retrieval": {},
+  "retrieval": {
+    "search_keywords": [
+      "Maxflex coil",
+      "Maxflex pipe",
+      "black foam pipe coil",
+      "condensation",
+      "duct",
+      "easy_install",
+      "nitrile pipe\n    insulation",
+      "pipe",
+      "refrigeration pipe lagging",
+      "thermal"
+    ],
+    "problem_keywords": [
+      "- Placement: [\"pipe\", \"duct\"]",
+      "- Positive Recommendation Rule: Continuous coils are ideal for split-system",
+      "- Priority Fit: [\"thermal\", \"condensation\", \"easy_install\"]",
+      "Air conditioning line-sets sweating inside ceiling",
+      "air conditioning installers sliding insulation over long, unjointed copper",
+      "cavities",
+      "freezing water pipes in",
+      "heat loss from domestic hot water runs",
+      "line-sets without cutting and taping every 2 meters.",
+      "winter."
+    ],
+    "placement": [
+      "\"condensation\"",
+      "\"duct\"] - Priority Fit: [\"thermal\"",
+      "\"easy_install\"] - Positive Recommendation Rule: Continuous coils are ideal for split-system air conditioning installers sliding insulation over long",
+      "[\"pipe\"",
+      "unjointed copper line-sets without cutting and taping every 2 meters"
+    ],
+    "use_cases": [
+      "Continuous coils are ideal for split-system",
+      "air conditioning installers sliding insulation over long, unjointed copper",
+      "line-sets without cutting and taping every 2 meters."
+    ],
+    "priority_fit": [
+      "condensation",
+      "easy_install",
+      "thermal"
+    ]
+  },
   "source_excerpt": null,
   "engine": "manual_range_injection",
   "range_source": "manufacturer size/packaging breakdown (hand-supplied 2026-09-06)"

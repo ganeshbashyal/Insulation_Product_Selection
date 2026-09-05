@@ -59,24 +59,46 @@
       "Autex Mirage",
       "Mirage 24mm",
       "Mirage Cube",
+      "etched acoustic\n    panel",
       "etched acoustic panel",
       "tactile acoustic board",
       "textured Cube 12mm"
     ],
     "problem_keywords": [
+      "- Negative Filter (not_for): High-traffic kickboards subjected to aggressive",
+      "- Placement: Wall, internal wall, ceiling.",
+      "- Positive Recommendation Rule: Recommend for luxury executive suites,",
       "Standard flat acoustic felt looks too plain",
-      "space requires high-end architectural depth and tactile fabric/stone textures without adding heavy masonry or raw plaster."
+      "high-end hospitality dining, and hotel lobbies where a tactile, woven, or",
+      "mechanical scuffing.",
+      "rammed-earth aesthetic is desired with certified Group 1 fire safety.",
+      "requires high-end architectural depth and tactile fabric/stone textures",
+      "space",
+      "space requires high-end architectural depth and tactile fabric/stone textures without adding heavy masonry or raw plaster.",
+      "without adding heavy masonry or raw plaster."
     ],
     "placement": [
       "Wall",
+      "and hotel lobbies where a tactile",
       "ceiling",
-      "internal wall"
+      "ceiling. - Positive Recommendation Rule: Recommend for luxury executive suites",
+      "high-end hospitality dining",
+      "internal wall",
+      "or rammed-earth aesthetic is desired with certified Group 1 fire safety. - Negative Filter (not_for): High-traffic kickboards subjected to aggressive mechanical scuffing",
+      "woven"
     ],
     "not_for": [
+      "mechanical scuffing.",
+      "not_for): High-traffic kickboards subjected to aggressive",
       "not_for): High-traffic kickboards subjected to aggressive mechanical scuffing."
     ],
     "use_cases": [
-      "Recommend for luxury executive suites, high-end hospitality dining, and hotel lobbies where a tactile, woven, or rammed-earth aesthetic is desired with certified Group 1 fire safety."
+      "- Negative Filter (not_for): High-traffic kickboards subjected to aggressive",
+      "Recommend for luxury executive suites,",
+      "Recommend for luxury executive suites, high-end hospitality dining, and hotel lobbies where a tactile, woven, or rammed-earth aesthetic is desired with certified Group 1 fire safety.",
+      "high-end hospitality dining, and hotel lobbies where a tactile, woven, or",
+      "mechanical scuffing.",
+      "rammed-earth aesthetic is desired with certified Group 1 fire safety."
     ]
   },
   "source_excerpt": null,

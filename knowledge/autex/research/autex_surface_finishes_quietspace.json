@@ -137,32 +137,55 @@
       "Do not expose to\nconcentrated heat sources exceeding 80°C",
       "Recommended for non-contact areas as\nprinted surface may mark under heavy impact"
     ],
-    "warranty": "Manufacturer's\nGuarantee (10 years)"
+    "warranty": "Manufacturer's\nGuarantee (10 years)",
+    "accessories_upsell": "Type C aluminium edge channels (powder-coated to match stone edge) and high-grab MS polymer adhesive."
   },
   "retrieval": {
     "search_keywords": [
-      "Autex Surface\nFinishes Quietspace",
-      "printed Quietspace panel",
-      "stone finish acoustic panel",
-      "marble look acoustic panel",
-      "concrete look acoustic panel",
-      "broadband stone\nacoustic panel",
       "25mm printed acoustic panel",
       "50mm printed acoustic panel",
-      "Autex Quietspace stone"
+      "Autex Quietspace stone",
+      "Autex Surface\nFinishes Quietspace",
+      "Surface Finishes Quietspace",
+      "broadband stone\nacoustic panel",
+      "concrete look acoustic panel",
+      "concrete look acoustic panel 25mm",
+      "marble look acoustic panel",
+      "marble soundproofing panel",
+      "printed\n    Quietspace panel",
+      "printed Quietspace panel",
+      "stone acoustic panel",
+      "stone finish acoustic panel"
     ],
     "problem_keywords": [
-      "heavy solid stone weight\nlimits",
-      "reverberant polished concrete walls",
-      "marble wall acoustic\nreflection",
-      "harsh echo in luxury boardroom",
+      "- Accessories Upsell: Type C aluminium edge channels (powder-coated to match",
+      "- Negative Filter (not_for): High-impact sports halls without protective",
+      "- Placement: Wall, internal wall, ceiling.",
+      "- Positive Recommendation Rule: When a client wants the aesthetic of solid",
+      "Class A sound absorption (NRC 0.85 to 1.00) and a Group 1 fire rating (AS",
+      "Echo in corporate foyers, boardrooms, and luxury dining",
+      "ISO 9705).",
       "commercial reception noise",
-      "need stone aesthetic with high acoustic absorption"
+      "direct outdoor rain exposure.",
+      "harsh echo in luxury boardroom",
+      "heavy solid stone weight\nlimits",
+      "marble wall acoustic\nreflection",
+      "need stone aesthetic with high acoustic absorption",
+      "polished marble, travertine, or precast concrete combined with broadband",
+      "rails",
+      "reverberant polished concrete walls",
+      "spaces where architects specify marble, stone, or off-form concrete walls",
+      "stone edge) and high-grab MS polymer adhesive.",
+      "that cause acoustic reverberation."
     ],
     "placement": [
-      "wall",
+      "Wall",
+      "ceiling",
+      "ceiling. - Positive Recommendation Rule: When a client wants the aesthetic of solid polished marble",
       "internal wall",
-      "ceiling"
+      "or precast concrete combined with broadband Class A sound absorption (NRC 0.85 to 1.00) and a Group 1 fire rating (AS ISO 9705). - Negative Filter (not_for): High-impact sports halls without protective rails; direct outdoor rain exposure. - Accessories Upsell: Type C aluminium edge channels (powder-coated to match stone edge) and high-grab MS polymer adhesive",
+      "travertine",
+      "wall"
     ],
     "priority_fit": [
       "acoustic",
@@ -171,14 +194,28 @@
       "sustainability"
     ],
     "use_cases": [
+      "- Accessories Upsell: Type C aluminium edge channels (powder-coated to match",
+      "- Negative Filter (not_for): High-impact sports halls without protective",
+      "Broadband sound absorption in commercial meeting suites and\npresentation rooms",
+      "Class A sound absorption (NRC 0.85 to 1.00) and a Group 1 fire rating (AS",
       "Creating luxurious marble- or\ntravertine-look acoustic walls in corporate boardrooms and hotel lobbies",
+      "ISO 9705).",
       "Treating reverberation in high-end restaurants with industrial concrete-look\nacoustic panels",
-      "Broadband sound absorption in commercial meeting suites and\npresentation rooms"
+      "When a client wants the aesthetic of solid",
+      "direct outdoor rain exposure.",
+      "polished marble, travertine, or precast concrete combined with broadband",
+      "rails",
+      "stone edge) and high-grab MS polymer adhesive."
     ],
     "not_for": [
-      "Floors or subfloor impact insulation",
+      "- Accessories Upsell: Type C aluminium edge channels (powder-coated to match",
       "Exterior exposed facades",
-      "High-impact sports facilities without protective\nshielding"
+      "Floors or subfloor impact insulation",
+      "High-impact sports facilities without protective\nshielding",
+      "direct outdoor rain exposure.",
+      "not_for): High-impact sports halls without protective",
+      "rails",
+      "stone edge) and high-grab MS polymer adhesive."
     ],
     "rag_summary": "Autex Surface Finishes Quietspace pairs the\nbroadband sound absorption of dual-density Quietspace Panel (NRC 0.85 to 1.00)\nwith high-definition digital UV printing of natural stone, marble, concrete, and\ntextural finishes. Available in thicknesses from 25mm to 100mm in 1220mm\nx 2440mm sheets, it replicates heavy, reverberant architectural masonry without\nstructural weight, installation complexity, or acoustic compromise. Achieving\nGroup 1 fire compliance under AS ISO 9705 and containing up to 58% recycled PET,\nit delivers premium, carbon-neutral acoustic control for luxury corporate and\nhospitality interiors."
   },

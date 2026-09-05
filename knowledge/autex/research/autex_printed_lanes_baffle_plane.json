@@ -53,17 +53,28 @@
       "woodgrain flat acoustic battens"
     ],
     "problem_keywords": [
-      "Desire for a subtle, flat-faced timber-plank acoustic wall with visible shadow margins between planks."
+      "- Negative Filter (not_for): Outdoor weatherboarding.",
+      "- Placement: Wall, internal wall.",
+      "- Positive Recommendation Rule: Best option when customer wants a clean,",
+      "Desire for a subtle, flat-faced timber-plank acoustic wall",
+      "Desire for a subtle, flat-faced timber-plank acoustic wall with visible shadow margins between planks.",
+      "flat-slat Scandinavian timber look that absorbs speech echo (NRC 0.80).",
+      "with visible shadow margins between planks."
     ],
     "placement": [
       "Wall",
-      "internal wall"
+      "flat-slat Scandinavian timber look that absorbs speech echo (NRC 0.80). - Negative Filter (not_for): Outdoor weatherboarding",
+      "internal wall",
+      "internal wall. - Positive Recommendation Rule: Best option when customer wants a clean"
     ],
     "not_for": [
       "not_for): Outdoor weatherboarding."
     ],
     "use_cases": [
-      "Best option when customer wants a clean, flat-slat Scandinavian timber look that absorbs speech echo (NRC 0.80)."
+      "- Negative Filter (not_for): Outdoor weatherboarding.",
+      "Best option when customer wants a clean,",
+      "Best option when customer wants a clean, flat-slat Scandinavian timber look that absorbs speech echo (NRC 0.80).",
+      "flat-slat Scandinavian timber look that absorbs speech echo (NRC 0.80)."
     ]
   },
   "source_excerpt": null,

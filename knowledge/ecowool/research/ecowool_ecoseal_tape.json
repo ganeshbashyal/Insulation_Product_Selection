@@ -86,37 +86,57 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Ecowool EcoSeal Tape",
-      "EcoSeal 201 Cloth Tape",
-      "EcoSeal tape",
-      "ClimaWrap\ntape",
-      "building membrane cloth tape",
+      "48mm building wrap tape",
       "48mm cloth tape insulation",
+      "ClimaWrap\ntape",
+      "ClimaWrap tape",
+      "EcoSeal 201",
+      "EcoSeal 201 Cloth Tape",
+      "EcoSeal cloth\n    tape",
+      "EcoSeal tape",
+      "Ecowool EcoSeal Tape",
+      "Ecowool tape",
       "PGF\nEcoSeal tape",
-      "wall wrap sealing tape",
-      "vapour barrier tape"
+      "building membrane cloth tape",
+      "vapour barrier tape",
+      "wall wrap sealing tape"
     ],
     "problem_keywords": [
+      "- Placement: Wall, external wall, roof, roofline.",
+      "- Positive Recommendation Rule: High-tack cloth tape specifically designed to",
+      "Building wrap tearing at fastener penetrations",
+      "air",
       "air leakage through wall wrap laps",
-      "tears in building\nwrap on site",
-      "water leaks around wall wrap penetrations",
+      "join, seal, and mend ECOWOOL_WRAP (ClimaWrap) and flexible building",
+      "leakage through membrane overlaps",
+      "loose building wrap edges in wind",
+      "membranes. Hand-tearable for fast trade use on scaffolding.",
+      "repairing rips in house wrap on site.",
       "sealing breathable\nmembrane joins",
-      "loose building wrap edges in wind"
+      "tears in building\nwrap on site",
+      "water leaks around wall wrap penetrations"
     ],
     "placement": [
-      "wall",
+      "Wall",
+      "and mend ECOWOOL_WRAP (ClimaWrap) and flexible building membranes. Hand-tearable for fast trade use on scaffolding",
       "external wall",
       "roof",
-      "roofline"
+      "roofline",
+      "roofline. - Positive Recommendation Rule: High-tack cloth tape specifically designed to join",
+      "seal",
+      "wall"
     ],
     "priority_fit": [
       "easy_install",
       "condensation"
     ],
     "use_cases": [
-      "Sealing horizontal and vertical laps on\nEcowool ClimaWrap building membranes",
+      "High-tack cloth tape specifically designed to",
       "Mending accidental tears and punctures\nin wall wraps during construction",
-      "Sealing membrane interfaces around window\nand door frames"
+      "Sealing horizontal and vertical laps on\nEcowool ClimaWrap building membranes",
+      "Sealing membrane interfaces around window\nand door frames",
+      "join, seal, and mend ECOWOOL_WRAP (ClimaWrap) and flexible building",
+      "membranes. Hand-tearable for fast trade use on scaffolding."
     ],
     "not_for": [
       "High-temperature flue pipes exceeding 80°C",

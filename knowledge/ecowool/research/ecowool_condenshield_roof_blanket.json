@@ -128,33 +128,53 @@
       "Foil joints must be taped continuously to prevent\ncondensation breaching the vapour barrier",
       "Do not install directly over non-IC\nrated recessed lighting without proper clearances"
     ],
-    "warranty": "PGF Australia\nproduct warranty"
+    "warranty": "PGF Australia\nproduct warranty",
+    "accessories_upsell": "72mm reinforced aluminium foil tape (mandatory for sealing foil laps)."
   },
   "retrieval": {
     "search_keywords": [
-      "Ecowool CondenShield",
+      "CondenShield",
       "CondenShield roof blanket",
+      "Ecowool CondenShield",
+      "PGF\n    roof blanket",
       "PGF roof blanket",
-      "foil faced roof blanket",
-      "metal roof insulation blanket",
       "R1.3 roof blanket",
+      "R1.8 metal roof blanket",
       "R1.8 roof blanket",
+      "R2.5\n    CondenShield",
       "R2.5\nroof blanket",
       "condensation blanket metal roof",
+      "foil faced roof blanket",
+      "metal roof insulation blanket",
       "tin roof insulation blanket"
     ],
     "problem_keywords": [
+      "- Accessories Upsell: 72mm reinforced aluminium foil tape (mandatory for",
+      "- Placement: Roof, roofline, shed, ceiling.",
+      "- Positive Recommendation Rule: Install over purlins with foil facing down",
+      "AS 3959.",
+      "Condensation dripping from corrugated iron roofs in",
       "condensation under metal roof",
       "dripping tin roof in\nwinter",
-      "rain noise on corrugated iron roof",
+      "heating attic spaces.",
+      "high solar radiation",
       "hot roof space in summer",
+      "into the building space and glasswool in contact with the metal roof",
+      "meeting NCC roof thermal insulation\nrequirements",
       "radiant heat radiating down from roof",
-      "meeting NCC roof thermal insulation\nrequirements"
+      "rain noise on corrugated iron roof",
+      "sealing foil laps).",
+      "severe rain noise drumming on metal roofs",
+      "sheeting. Core is non-combustible (AS 1530.1)",
+      "suitable up to BAL-40 under",
+      "winter"
     ],
     "placement": [
+      "Roof",
+      "ceiling",
+      "ceiling. - Positive Recommendation Rule: Install over purlins with foil facing down into the building space and glasswool in contact with the metal roof sheeting. Core is non-combustible (AS 1530.1); suitable up to BAL-40 under AS 3959. - Accessories Upsell: 72mm reinforced aluminium foil tape (mandatory for sealing foil laps)",
       "roof",
       "roofline",
-      "ceiling",
       "shed"
     ],
     "priority_fit": [
@@ -164,9 +184,16 @@
       "fire"
     ],
     "use_cases": [
-      "Under-metal-deck roof insulation in residential homes to prevent condensation\ndripping and attenuate rain drumming",
+      "- Accessories Upsell: 72mm reinforced aluminium foil tape (mandatory for",
+      "AS 3959.",
       "Commercial warehouse and industrial shed\nroof thermal and condensation insulation",
-      "Under concrete slab and soffit\nthermal barrier applications"
+      "Install over purlins with foil facing down",
+      "Under concrete slab and soffit\nthermal barrier applications",
+      "Under-metal-deck roof insulation in residential homes to prevent condensation\ndripping and attenuate rain drumming",
+      "into the building space and glasswool in contact with the metal roof",
+      "sealing foil laps).",
+      "sheeting. Core is non-combustible (AS 1530.1)",
+      "suitable up to BAL-40 under"
     ],
     "not_for": [
       "Drywall cavity wall batts",

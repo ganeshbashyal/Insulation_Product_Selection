@@ -135,30 +135,48 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Bradford Acoustigard",
-      "Acoustigard partition batts",
-      "Acoustigard partition\nrolls",
-      "commercial wall insulation",
-      "steel stud acoustic insulation",
-      "non\ncombustible partition insulation",
-      "glasswool partition batts",
-      "Bradford\nacoustic batts",
+      "Acoustigard\n    rolls 75mm",
       "Acoustigard 14kg",
-      "Acoustigard 32kg"
+      "Acoustigard 32kg",
+      "Acoustigard partition\n    batts",
+      "Acoustigard partition\nrolls",
+      "Acoustigard partition batts",
+      "Bradford\nacoustic batts",
+      "Bradford Acoustigard",
+      "commercial partition batts",
+      "commercial wall insulation",
+      "glasswool partition batts",
+      "non\ncombustible partition insulation",
+      "steel stud acoustic insulation"
     ],
     "problem_keywords": [
-      "sound transmission through office walls",
-      "noisy commercial partition",
+      "- Negative Filter (not_for): External weatherboard wrapping",
+      "- Placement: Wall, internal wall, ceiling, between floors.",
+      "- Positive Recommendation Rule: The benchmark commercial partition batt for",
+      "600mm width",
+      "Sound bleeding through steel stud drywall partitions in",
+      "crawlspaces.",
+      "drywall contractors. 450mm width for 450mm stud centers",
+      "for 600mm stud centers. 14kg/m³ 75mm is the most widely specified",
       "inter-tenancy noise transfer",
+      "meeting BCA acoustic wall codes",
       "meeting room privacy",
+      "noisy commercial partition",
       "non-combustible wall\ninsulation requirement",
-      "meeting BCA acoustic wall codes"
+      "offices, clinics, consulting suites, and multi-residential apartments.",
+      "sound transmission through office walls",
+      "specification for inter-office acoustic privacy.",
+      "underfloor damp"
     ],
     "placement": [
-      "wall",
-      "internal wall",
+      "Wall",
+      "between floors",
+      "between floors. - Positive Recommendation Rule: The benchmark commercial partition batt for drywall contractors. 450mm width for 450mm stud centers; 600mm width for 600mm stud centers. 14kg",
+      "ceiling",
       "external wall",
-      "between floors"
+      "internal wall",
+      "m³ 75mm is the most widely specified specification for inter-office acoustic privacy. - Negative Filter (not_for): External weatherboard wrapping; underfloor damp crawlspaces",
+      "wall"
     ],
     "priority_fit": [
       "acoustic",
@@ -167,14 +185,25 @@
       "easy_install"
     ],
     "use_cases": [
-      "Friction-fitting into 64mm and 92mm steel stud drywall partitions in commercial\noffice fitouts to achieve Rw 45 to Rw 55+",
+      "- Negative Filter (not_for): External weatherboard wrapping",
+      "600mm width",
       "Acoustic and thermal infill in\nmulti-residential intertenancy party walls",
-      "Sound-dampening insulation inside\nhealthcare consulting rooms, hotel guestroom partitions, and cinema acoustic\nwalls"
+      "Friction-fitting into 64mm and 92mm steel stud drywall partitions in commercial\noffice fitouts to achieve Rw 45 to Rw 55+",
+      "Sound-dampening insulation inside\nhealthcare consulting rooms, hotel guestroom partitions, and cinema acoustic\nwalls",
+      "The benchmark commercial partition batt for",
+      "crawlspaces.",
+      "drywall contractors. 450mm width for 450mm stud centers",
+      "for 600mm stud centers. 14kg/m³ 75mm is the most widely specified",
+      "specification for inter-office acoustic privacy.",
+      "underfloor damp"
     ],
     "not_for": [
-      "Flooring underlay under tiles or timber",
       "Exposed\ndecorative wall linings",
-      "External roofing without waterproof membrane"
+      "External roofing without waterproof membrane",
+      "Flooring underlay under tiles or timber",
+      "crawlspaces.",
+      "not_for): External weatherboard wrapping",
+      "underfloor damp"
     ],
     "rag_summary": "Bradford Acoustigard is a non-combustible bio-soluble glasswool\ninsulation supplied in pre-cut batts and rolls, specifically formulated for\nacoustic control in commercial steel stud and timber drywall partitions.\nAvailable in densities from 11 kg/m3 to 32 kg/m3 and thicknesses of 50mm, 75mm,\nand 90mm (R1.3 to R2.7), it provides high sound transmission loss (Rw 42 to 60+)\nand cavity absorption. Manufactured in Australia with up to 65% recycled glass\nand certified non-combustible to AS 1530.1, it fits standard 64mm and 92mm studs\nsnugly without bulging plasterboard linings."
   },

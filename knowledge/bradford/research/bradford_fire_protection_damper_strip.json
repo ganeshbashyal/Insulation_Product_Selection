@@ -106,43 +106,71 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Bradford Fireseal Damper Strip",
-      "Fire Damper Strip",
-      "Fibertex 820 Damper\nStrip",
-      "fire damper rockwool strip",
-      "damper sleeve seal",
+      "13mm damper\n    strip",
       "13mm damper strip",
+      "Bradford Damper Strip",
+      "Bradford Fireseal Damper Strip",
+      "Fibertex 820 Damper\nStrip",
+      "Fibertex 820 damper\n    strip",
+      "Fire Damper Strip",
       "Hebel damper strip",
+      "damper packing strip",
+      "damper sleeve seal",
+      "fire damper rockwool strip",
       "firestop damper packing",
       "rockwool fire damper seal"
     ],
     "problem_keywords": [
-      "fire damper penetration gap",
-      "sealing around fire\ndamper",
+      "- Negative Filter (not_for): Not for general cavity thermal wall batts",
+      "- Placement: Duct, wall, internal wall, floor, pipe penetration.",
+      "- Positive Recommendation Rule: When mechanical contractors or certifiers",
+      "Hebel horizontal control joint fire seal",
+      "Sealing perimeter clearance around HVAC fire dampers",
+      "damper penetration inspection compliance",
+      "exterior weather-exposed joint without metal flashing or mastic sealant.",
+      "fire",
       "fire damper FRL compliance",
       "fire damper clearance seal",
+      "fire damper penetration gap",
+      "fire damper sleeves or Hebel horizontal joint seals.",
       "fire smoke\nspread through duct penetration",
-      "Hebel horizontal control joint fire seal"
+      "horizontal control joint fire",
+      "not an",
+      "require a tested AS 1668.1 / AS 4072.1 firestop packing strip for mechanical",
+      "sealing around fire\ndamper",
+      "stopping in Hebel PowerPanel walls."
     ],
     "placement": [
+      "AS 4072.1 firestop packing strip for mechanical fire damper sleeves or Hebel horizontal joint seals. - Negative Filter (not_for): Not for general cavity thermal wall batts; not an exterior weather-exposed joint without metal flashing or mastic sealant",
+      "Duct",
       "duct",
-      "pipe",
-      "wall",
+      "floor",
       "internal wall",
-      "floor"
+      "pipe",
+      "pipe penetration. - Positive Recommendation Rule: When mechanical contractors or certifiers require a tested AS 1668.1",
+      "wall"
     ],
     "priority_fit": [
       "fire"
     ],
     "use_cases": [
-      "Sealing the annular gap between\nmechanical fire damper sleeves and fire-rated wall penetrations",
+      "- Negative Filter (not_for): Not for general cavity thermal wall batts",
+      "Fire stopping metal pipe penetrations through concrete floor slabs",
       "Packing\nhorizontal control joints in Hebel PowerPanel inter-tenancy wall assemblies",
-      "Fire stopping metal pipe penetrations through concrete floor slabs"
+      "Sealing the annular gap between\nmechanical fire damper sleeves and fire-rated wall penetrations",
+      "When mechanical contractors or certifiers",
+      "exterior weather-exposed joint without metal flashing or mastic sealant.",
+      "fire damper sleeves or Hebel horizontal joint seals.",
+      "not an",
+      "require a tested AS 1668.1 / AS 4072.1 firestop packing strip for mechanical"
     ],
     "not_for": [
-      "General cavity thermal insulation batts",
       "Acoustic ceiling\noverlays",
-      "Direct exposed external roofing"
+      "Direct exposed external roofing",
+      "General cavity thermal insulation batts",
+      "exterior weather-exposed joint without metal flashing or mastic sealant.",
+      "not an",
+      "not_for): Not for general cavity thermal wall batts"
     ],
     "rag_summary": "Bradford Fire\nProtection - Damper Strip (Fireseal Fire Damper Strip / Fibertex 820 Damper\nStrip) is a specialized 13mm thick, high-density (110 kg/m³) rockwool insulation\nstrip engineered for passive fire stopping. Specifically designed to seal the\nperimeter clearance between fire dampers and fire-rated walls or floor slabs, it\nalso provides horizontal joint fire protection in Hebel and Speedpanel systems.\nIt resists shrinkage at temperatures up to 820°C, complies with AS 1530.1 as\nnon-combustible, and must be installed under a minimum 15% compression to\nachieve rated fire resistance levels (up to -/240/240)."
   },

@@ -101,30 +101,45 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Foilboard Handypack",
-      "Foilboard DIY pack",
-      "Foilboard trade pack",
-      "Foilboard small pack",
-      "car boot insulation pack",
+      "1200x600 Foilboard",
       "Foilboard 1200x600",
-      "small job underfloor insulation",
-      "shed insulation\nhandypack"
+      "Foilboard DIY pack",
+      "Foilboard Handypack",
+      "Foilboard small pack",
+      "Foilboard trade pack",
+      "car boot insulation pack",
+      "shed insulation\nhandypack",
+      "small Foilboard sheets",
+      "small job underfloor insulation"
     ],
     "problem_keywords": [
+      "- Placement: Underfloor, floor, shed, wall.",
+      "- Positive Recommendation Rule: Recommend whenever order size is small (<15",
+      "Customer driving a standard car or SUV who cannot",
       "cannot transport 2.4m sheets in car",
-      "small shed DIY insulation",
-      "tight subfloor crawlspace access",
+      "garage workbench insulation project",
+      "houses",
       "insulating\nsmall bedroom floor",
-      "garage workbench insulation project"
+      "m²) and customer does not have a commercial ute, roof racks, or delivery",
+      "small repair jobs.",
+      "small shed DIY insulation",
+      "tight access crawlspaces beneath existing",
+      "tight subfloor crawlspace access",
+      "transport 2.4m × 1.2m sheets",
+      "truck."
     ],
     "placement": [
-      "underfloor",
-      "floor",
-      "subfloor",
-      "wall",
+      "Underfloor",
+      "ceiling",
       "external wall",
+      "floor",
+      "or delivery truck",
+      "roof racks",
       "shed",
-      "ceiling"
+      "subfloor",
+      "underfloor",
+      "wall",
+      "wall. - Positive Recommendation Rule: Recommend whenever order size is small (<15 m²) and customer does not have a commercial ute"
     ],
     "priority_fit": [
       "easy_install",
@@ -134,7 +149,10 @@
     "use_cases": [
       "Insulating small subfloor areas and extensions with tight crawlspace access",
       "Lining hobby sheds and workshop walls without hiring commercial transport",
-      "Quick DIY thermal upgrades behind washing machines and kitchen joinery"
+      "Quick DIY thermal upgrades behind washing machines and kitchen joinery",
+      "Recommend whenever order size is small (<15",
+      "m²) and customer does not have a commercial ute, roof racks, or delivery",
+      "truck."
     ],
     "not_for": [
       "Commercial large-scale high-rise cladding",

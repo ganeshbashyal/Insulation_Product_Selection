@@ -51,21 +51,50 @@
       "soundproofing membrane"
     ],
     "problem_keywords": [
-      "Voices/TV noise carrying through party walls, machinery hum through stud cavities, lightweight ceiling bleed."
+      "- Negative Filter (not_for): Not a thermal insulation batt replacement",
+      "- Placement: Internal wall, external wall, ceiling, between floors.",
+      "- Positive Recommendation Rule: Recommend when an installer requires airborne",
+      "- Substitute Mapping: THERMOTEC_NUWAVE_BASE_MLV (4kg/6kg/8kg) or",
+      "DCTECH_TECSOUND (50/70).",
+      "Voices/TV noise carrying through party walls, machinery",
+      "Voices/TV noise carrying through party walls, machinery hum through stud cavities, lightweight ceiling bleed.",
+      "floor impact underlay (use AngelStep)",
+      "hum through stud cavities, lightweight ceiling bleed.",
+      "not a",
+      "not an exposed wall finish.",
+      "sound reduction (Rw improvement +4 to +8) inside a narrow wall cavity",
+      "without adding thick masonry or double-stud walls."
     ],
     "placement": [
+      "6kg",
+      "70)",
+      "8kg) or DCTECH_TECSOUND (50",
       "Internal wall",
       "between floors",
+      "between floors. - Positive Recommendation Rule: Recommend when an installer requires airborne sound reduction (Rw improvement +4 to +8) inside a narrow wall cavity without adding thick masonry or double-stud walls. - Negative Filter (not_for): Not a thermal insulation batt replacement; not a floor impact underlay (use AngelStep); not an exposed wall finish. - Substitute Mapping: THERMOTEC_NUWAVE_BASE_MLV (4kg",
       "ceiling",
       "external wall"
     ],
     "not_for": [
+      "- Substitute Mapping: THERMOTEC_NUWAVE_BASE_MLV (4kg/6kg/8kg) or",
+      "DCTECH_TECSOUND (50/70).",
+      "floor impact underlay (use AngelStep)",
+      "not a",
       "not a floor impact underlay (use AngelStep)",
       "not an exposed wall finish.",
       "not_for): Not a thermal insulation batt replacement"
     ],
     "use_cases": [
-      "Recommend when an installer requires airborne sound reduction (Rw improvement +4 to +8) inside a narrow wall cavity without adding thick masonry or double-stud walls."
+      "- Negative Filter (not_for): Not a thermal insulation batt replacement",
+      "- Substitute Mapping: THERMOTEC_NUWAVE_BASE_MLV (4kg/6kg/8kg) or",
+      "DCTECH_TECSOUND (50/70).",
+      "Recommend when an installer requires airborne",
+      "Recommend when an installer requires airborne sound reduction (Rw improvement +4 to +8) inside a narrow wall cavity without adding thick masonry or double-stud walls.",
+      "floor impact underlay (use AngelStep)",
+      "not a",
+      "not an exposed wall finish.",
+      "sound reduction (Rw improvement +4 to +8) inside a narrow wall cavity",
+      "without adding thick masonry or double-stud walls."
     ]
   },
   "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"

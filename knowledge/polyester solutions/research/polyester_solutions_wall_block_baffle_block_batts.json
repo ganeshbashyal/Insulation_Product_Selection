@@ -122,31 +122,44 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Polyester Solutions WallBlock",
-      "WallBlock batts",
       "Baffle\nblock batts",
-      "high density polyester acoustic batts",
+      "Baffle Block batts",
+      "HD acoustic batts",
+      "NRC 1.00\n    acoustic batts",
+      "NRC 1.00 acoustic batts",
+      "Polyester Solutions\n    WallBlock",
+      "Polyester Solutions WallBlock",
       "WallBlock R2.0",
       "WallBlock R2.5",
-      "HD acoustic batts",
-      "polyester acoustic wall batts",
+      "WallBlock batts",
       "ceiling\nbaffle batts",
-      "NRC 1.00 acoustic batts"
+      "high density polyester acoustic batts",
+      "high density polyester batts",
+      "polyester acoustic wall batts"
     ],
     "problem_keywords": [
-      "conversations\nheard through internal walls",
+      "- Placement: Wall, internal wall, ceiling plenum, between floors.",
+      "- Positive Recommendation Rule: High-density polyester acoustic batt. Stacks",
+      "Sound bleeding through bedroom or home theater walls",
       "TV noise bleeding between bedrooms",
+      "above partition walls in ceiling voids as a sound baffle or friction-fits",
+      "conversations\nheard through internal walls",
       "flanking\nsound through ceiling plenum",
-      "sound vibrations through wall frame",
+      "flanking noise traveling through ceiling voids over partition walls.",
+      "into wall studs for high Rw ratings.",
+      "meeting NCC acoustic partition code",
       "office\nprivacy acoustic failure",
-      "meeting NCC acoustic partition code"
+      "sound vibrations through wall frame"
     ],
     "placement": [
-      "wall",
-      "internal wall",
-      "external wall",
+      "Wall",
+      "between floors",
+      "between floors. - Positive Recommendation Rule: High-density polyester acoustic batt. Stacks above partition walls in ceiling voids as a sound baffle or friction-fits into wall studs for high Rw ratings",
       "ceiling",
-      "between floors"
+      "ceiling plenum",
+      "external wall",
+      "internal wall",
+      "wall"
     ],
     "priority_fit": [
       "acoustic",
@@ -155,9 +168,12 @@
       "easy_install"
     ],
     "use_cases": [
-      "High-density acoustic infill in internal timber or steel stud\nwalls separating bedrooms, home theatres, and bathrooms",
+      "Acoustic and thermal insulation in multi-residential inter-tenancy walls and\nhotel partitions",
       "Ceiling plenum baffle\nblocks stacked above partition walls to prevent room-to-room cross-talk",
-      "Acoustic and thermal insulation in multi-residential inter-tenancy walls and\nhotel partitions"
+      "High-density acoustic infill in internal timber or steel stud\nwalls separating bedrooms, home theatres, and bathrooms",
+      "High-density polyester acoustic batt. Stacks",
+      "above partition walls in ceiling voids as a sound baffle or friction-fits",
+      "into wall studs for high Rw ratings."
     ],
     "not_for": [
       "Unclad external walls exposed to driving\nrain",

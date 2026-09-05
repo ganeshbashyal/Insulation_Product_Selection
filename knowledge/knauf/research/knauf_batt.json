@@ -143,32 +143,47 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Knauf Batt",
+      "7\nstar insulation batts",
+      "ECOSE batts",
+      "Earthwool\n    ceiling batts",
       "Earthwool batts",
       "Earthwool ceiling batts",
       "Earthwool wall batts",
+      "Knauf Batt",
       "Knauf insulation batts",
       "R2.5 Earthwool",
       "R4.0\nEarthwool",
+      "R4.0 Earthwool",
       "R6.0 Earthwool",
-      "non-itchy glasswool batts",
-      "ECOSE batts",
-      "7\nstar insulation batts"
+      "R7.0 Earthwool",
+      "non-itchy glasswool batts"
     ],
     "problem_keywords": [
-      "itchy fiberglass batts",
-      "hot\nrooms upstairs in summer",
-      "high winter heating costs",
-      "uninsulated ceiling\nheat escape",
+      "- Placement: Ceiling, wall, internal wall, external wall, between floors.",
+      "- Positive Recommendation Rule: Top-tier choice for builders and DIYers",
+      "Itching from traditional fiberglass",
+      "cold rooms in winter",
       "drafts through external walls",
-      "meeting 7-star NatHERS energy\ncompliance"
+      "glasswool.",
+      "high winter heating costs",
+      "hot\nrooms upstairs in summer",
+      "hot attic space",
+      "itchy fiberglass batts",
+      "meeting 7-star NatHERS energy\ncompliance",
+      "meeting 7-star NatHERS energy regulations with low-dust",
+      "reduces transport volume. 50-year warranty.",
+      "uninsulated ceiling\nheat escape",
+      "wanting glasswool performance without the itch. High compression packaging"
     ],
     "placement": [
+      "Ceiling",
+      "between floors",
+      "between floors. - Positive Recommendation Rule: Top-tier choice for builders and DIYers wanting glasswool performance without the itch. High compression packaging reduces transport volume. 50-year warranty",
       "ceiling",
-      "wall",
-      "internal wall",
       "external\nwall",
-      "between floors"
+      "external wall",
+      "internal wall",
+      "wall"
     ],
     "priority_fit": [
       "thermal",
@@ -178,9 +193,12 @@
       "fire"
     ],
     "use_cases": [
+      "Acoustic noise reduction in\ninternal partition walls between bedrooms and bathrooms",
       "Insulating\nresidential pitched roof ceiling spaces to meet 7-star NatHERS energy\nrequirements",
       "Thermal insulation in external timber-stud and steel-stud walls\nbehind brick veneer or lightweight cladding",
-      "Acoustic noise reduction in\ninternal partition walls between bedrooms and bathrooms"
+      "Top-tier choice for builders and DIYers",
+      "reduces transport volume. 50-year warranty.",
+      "wanting glasswool performance without the itch. High compression packaging"
     ],
     "not_for": [
       "Exposed decorative wall lining without plasterboard",

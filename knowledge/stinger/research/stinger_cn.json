@@ -101,44 +101,81 @@
   },
   "retrieval": {
     "search_keywords": [
+      "Stinger 136252",
       "Stinger CN",
       "Stinger CN100",
       "Stinger CN100B",
-      "pneumatic cap nailer",
-      "roofing cap nailer",
       "Stinger NailPac",
+      "Stinger cap nailer",
       "cap\nnailer 25mm",
-      "underlayment nailer",
+      "condensation",
+      "easy_install",
+      "external wall",
+      "high wind cap\n    nailer",
       "high wind cap nailer",
-      "Stinger 136252"
+      "pneumatic cap nailer",
+      "roof",
+      "roofing cap nailer",
+      "roofing underlayment nailer",
+      "roofline",
+      "underlayment nailer",
+      "wall"
     ],
     "problem_keywords": [
-      "roof underlayment tearing off in high wind",
-      "staples\nblowing out during storms",
+      "- Negative Filter (not_for): Framing lumber or framing connections",
+      "- Placement: [\"roof\", \"roofline\", \"wall\", \"external wall\"]",
+      "- Positive Recommendation Rule: The highest-holding-power tool in the STINGER",
+      "- Priority Fit: [\"easy_install\", \"condensation\"]",
+      "BATCH 024",
+      "Code and IBHS FORTIFIED Roof standards for winds up to 180 mph.",
+      "Synthetic roof underlayment blowing off roofs in",
+      "building codes mandating ring-shank nails over",
+      "coastal/cyclonic wind events",
+      "hand nailing caps on\nsteep roofs",
       "meeting 180 mph wind roofing codes",
-      "water leakage\naround roofing nails",
+      "range. Fired with 25mm ring-shank nails, it complies with Florida Building",
+      "roof underlayment tearing off in high wind",
       "slow underlayment installation",
-      "hand nailing caps on\nsteep roofs"
+      "staples",
+      "staples\nblowing out during storms",
+      "steel-framed buildings.",
+      "water leakage\naround roofing nails",
+      "water leaking around roofing nail shanks."
     ],
     "placement": [
+      "\"condensation\"] - Positive Recommendation Rule: The highest-holding-power tool in the STINGER range. Fired with 25mm ring-shank nails",
+      "\"external wall\"] - Priority Fit: [\"easy_install\"",
+      "\"roofline\"",
+      "\"wall\"",
+      "[\"roof\"",
+      "external wall",
+      "it complies with Florida Building Code and IBHS FORTIFIED Roof standards for winds up to 180 mph. - Negative Filter (not_for): Framing lumber or framing connections; steel-framed buildings",
       "roof",
       "roofline",
-      "wall",
-      "external wall"
+      "wall"
     ],
     "priority_fit": [
-      "easy_install",
-      "condensation"
+      "condensation",
+      "easy_install"
     ],
     "use_cases": [
+      "- Negative Filter (not_for): Framing lumber or framing connections",
+      "BATCH 024",
+      "Code and IBHS FORTIFIED Roof standards for winds up to 180 mph.",
+      "Installing roof underlayment to meet IBHS FORTIFIED Roof and Florida\nBuilding Code high-wind standards",
       "Rapid\npneumatic fastening of synthetic underlayment, roofing felt, and ice barriers to\ntimber roof decks in high-wind and coastal regions",
       "Securing commercial and\nresidential weather-resistive barriers (housewrap) against strong winds before\ncladding",
-      "Installing roof underlayment to meet IBHS FORTIFIED Roof and Florida\nBuilding Code high-wind standards"
+      "The highest-holding-power tool in the STINGER",
+      "range. Fired with 25mm ring-shank nails, it complies with Florida Building",
+      "steel-framed buildings."
     ],
     "not_for": [
+      "BATCH 024",
+      "Concrete or masonry substrates",
       "Steel framing (cannot\npenetrate steel studs)",
       "Structural timber framing nails (framing lumber)",
-      "Concrete or masonry substrates"
+      "not_for): Framing lumber or framing connections",
+      "steel-framed buildings."
     ],
     "rag_summary": "The STINGER CN (CN100B) is a\nhigh-speed pneumatic cap nailer manufactured by National Nail for securing\nsynthetic underlayment, roofing felt, and housewrap to timber substrates. Firing\nup to 5 cap nails per second with a 200-count magazine capacity, it drives 25mm\n(1 inch) plastic collated caps with 25mm ring-shank nails (loaded via STINGER\nNailPac). Tested to withstand winds up to 180 mph and certified under IBHS\nFORTIFIED Home standards, it prevents underlayment blow-offs and seals fastener\npenetrations against water ingress."
   },

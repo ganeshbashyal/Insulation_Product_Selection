@@ -148,31 +148,49 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Sisalation Foam Cell",
-      "Sisalation Bubble Cell",
+      "4006742",
+      "Fletcher bubble cell",
+      "Foam Cell\n    Multipurpose",
       "Foam Cell Multipurpose",
-      "thermal break insulation foil",
-      "foil bubble insulation",
-      "cross linked foam\nfoil",
-      "Shed Liner insulation",
-      "Resi Liner foil",
       "R0.20 thermal break",
-      "R0.25\nthermal break"
+      "R0.20 thermal break foam",
+      "R0.25\nthermal break",
+      "Resi Liner foil",
+      "Shed\n    Liner insulation",
+      "Shed Liner insulation",
+      "Sisalation Bubble Cell",
+      "Sisalation Foam Cell",
+      "cross linked foam\nfoil",
+      "foil bubble insulation",
+      "thermal break insulation foil"
     ],
     "problem_keywords": [
-      "thermal bridging across steel framing\nstuds",
+      "- Commercial Rule: Specify Foam Cell Multipurpose (4006742) when the building",
+      "- Placement: Roof, roofline, wall, external wall, shed.",
+      "- Positive Recommendation Rule: Whenever building with steel framing,",
+      "NCC 2022 mandating an R0.20 thermal break on steel frames",
+      "Thermal bridging across steel wall studs and roof purlins",
+      "drafts in steel portal sheds",
       "hot metal shed condensation",
-      "sweating shed roof in winter",
+      "mandatory NCC in-situ R0.20 thermal break requirement.",
       "meeting\nNCC steel frame thermal break requirement",
       "radiant heat in corrugated roof",
-      "drafts in steel portal sheds"
+      "recommend Foam Cell Multipurpose (8.4mm) or Foam Cell LT to satisfy the",
+      "requires a Group 2 fire hazard classification under AS 5637.1.",
+      "roofs.",
+      "sweating shed",
+      "sweating shed roof in winter",
+      "thermal bridging across steel framing\nstuds"
     ],
     "placement": [
+      "Roof",
+      "external wall",
+      "recommend Foam Cell Multipurpose (8.4mm) or Foam Cell LT to satisfy the mandatory NCC in-situ R0.20 thermal break requirement. - Commercial Rule: Specify Foam Cell Multipurpose (4006742) when the building requires a Group 2 fire hazard classification under AS 5637.1",
       "roof",
       "roofline",
-      "wall",
-      "external wall",
-      "shed"
+      "shed",
+      "shed. - Positive Recommendation Rule: Whenever building with steel framing",
+      "wall"
     ],
     "priority_fit": [
       "thermal",
@@ -181,9 +199,14 @@
       "easy_install"
     ],
     "use_cases": [
+      "- Commercial Rule: Specify Foam Cell Multipurpose (4006742) when the building",
       "Installing over steel wall framing and roof\npurlins to provide a compliant R0.20 / R0.25 thermal break",
       "Insulating metal\ngarages, residential workshops, and agricultural sheds against heat and\ncondensation",
-      "Thermal break and vapour barrier in residential cavity brick and\ncommercial metal clad walls"
+      "Thermal break and vapour barrier in residential cavity brick and\ncommercial metal clad walls",
+      "Whenever building with steel framing,",
+      "mandatory NCC in-situ R0.20 thermal break requirement.",
+      "recommend Foam Cell Multipurpose (8.4mm) or Foam Cell LT to satisfy the",
+      "requires a Group 2 fire hazard classification under AS 5637.1."
     ],
     "not_for": [
       "Cold climate zones requiring\nbreathable Class 4 wall wraps",

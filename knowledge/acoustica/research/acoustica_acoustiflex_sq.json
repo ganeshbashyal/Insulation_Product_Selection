@@ -65,21 +65,51 @@
       "SQ 60"
     ],
     "problem_keywords": [
-      "Aircraft noise through metal roof, rain drumming on lightweight roofs, medical/legal consulting room privacy, temporary site fence noise."
+      "(must hang slightly loose for maximum damping)",
+      "- Complementary Upsell: 72mm reinforced aluminium tape (for all 75–100mm",
+      "- Negative Filter (not_for): Do not pull drum-tight over roof/ceiling rafters",
+      "- Placement: Roof, ceiling, wall, internal wall, temporary site fencing.",
+      "- Positive Recommendation Rule: When customer specifies Group 1 Fire Hazard",
+      "Aircraft noise through metal roof, rain drumming on",
+      "Aircraft noise through metal roof, rain drumming on lightweight roofs, medical/legal consulting room privacy, temporary site fence noise.",
+      "Classification (AS ISO 9705) for an acoustic barrier membrane (e.g. hung in",
+      "do not install under",
+      "fence noise.",
+      "foot-traffic flooring.",
+      "lightweight roofs, medical/legal consulting room privacy, temporary site",
+      "overlaps).",
+      "return air ceiling plenums or public building walls)."
     ],
     "placement": [
       "Roof",
       "ceiling",
+      "ceiling rafters (must hang slightly loose for maximum damping); do not install under foot-traffic flooring. - Complementary Upsell: 72mm reinforced aluminium tape (for all 75–100mm overlaps)",
       "internal wall",
       "temporary site fencing",
+      "temporary site fencing. - Positive Recommendation Rule: When customer specifies Group 1 Fire Hazard Classification (AS ISO 9705) for an acoustic barrier membrane (e.g. hung in return air ceiling plenums or public building walls). - Negative Filter (not_for): Do not pull drum-tight over roof",
       "wall"
     ],
     "not_for": [
+      "(must hang slightly loose for maximum damping)",
+      "- Complementary Upsell: 72mm reinforced aluminium tape (for all 75–100mm",
+      "do not install under",
       "do not install under foot-traffic flooring.",
-      "not_for): Do not pull drum-tight over roof/ceiling rafters (must hang slightly loose for maximum damping)"
+      "foot-traffic flooring.",
+      "not_for): Do not pull drum-tight over roof/ceiling rafters",
+      "not_for): Do not pull drum-tight over roof/ceiling rafters (must hang slightly loose for maximum damping)",
+      "overlaps)."
     ],
     "use_cases": [
-      "When customer specifies Group 1 Fire Hazard Classification (AS ISO 9705) for an acoustic barrier membrane (e.g. hung in return air ceiling plenums or public building walls)."
+      "(must hang slightly loose for maximum damping)",
+      "- Complementary Upsell: 72mm reinforced aluminium tape (for all 75–100mm",
+      "- Negative Filter (not_for): Do not pull drum-tight over roof/ceiling rafters",
+      "Classification (AS ISO 9705) for an acoustic barrier membrane (e.g. hung in",
+      "When customer specifies Group 1 Fire Hazard",
+      "When customer specifies Group 1 Fire Hazard Classification (AS ISO 9705) for an acoustic barrier membrane (e.g. hung in return air ceiling plenums or public building walls).",
+      "do not install under",
+      "foot-traffic flooring.",
+      "overlaps).",
+      "return air ceiling plenums or public building walls)."
     ]
   },
   "source_excerpt": null,

@@ -57,24 +57,51 @@
   "retrieval": {
     "search_keywords": [
       "25mm printed acoustic panel",
+      "Bespoke Print\n    Quietspace",
       "Bespoke Print Quietspace",
       "NRC 0.85 printed panel",
       "acoustic mural board",
       "printed Quietspace"
     ],
     "problem_keywords": [
-      "Severe acoustic reverberation in large video conference rooms or public spaces where 12mm panels (NRC 0.45) are acoustically insufficient."
+      "(dual-density compressed face will crack/crease).",
+      "- Handling Rule: Must be handled with clean white cotton gloves to prevent",
+      "- Negative Filter (not_for): Cannot be bent or curved around radiuses",
+      "- Placement: Wall, internal wall, ceiling.",
+      "- Positive Recommendation Rule: When customer wants custom graphics or",
+      "Severe acoustic reverberation in large video conference",
+      "Severe acoustic reverberation in large video conference rooms or public spaces where 12mm panels (NRC 0.45) are acoustically insufficient.",
+      "absorption of NRC 0.85 or higher (Class C/A).",
+      "insufficient.",
+      "oil/dirt marks on the printed face.",
+      "photography and the acoustic specification requires broadband sound",
+      "rooms or public spaces where 12mm panels (NRC 0.45) are acoustically"
     ],
     "placement": [
+      "A). - Negative Filter (not_for): Cannot be bent or curved around radiuses (dual-density compressed face will crack",
       "Wall",
       "ceiling",
+      "ceiling. - Positive Recommendation Rule: When customer wants custom graphics or photography and the acoustic specification requires broadband sound absorption of NRC 0.85 or higher (Class C",
+      "crease). - Handling Rule: Must be handled with clean white cotton gloves to prevent oil",
+      "dirt marks on the printed face",
       "internal wall"
     ],
     "not_for": [
-      "not_for): Cannot be bent or curved around radiuses (dual-density compressed face will crack/crease)."
+      "(dual-density compressed face will crack/crease).",
+      "- Handling Rule: Must be handled with clean white cotton gloves to prevent",
+      "not_for): Cannot be bent or curved around radiuses",
+      "not_for): Cannot be bent or curved around radiuses (dual-density compressed face will crack/crease).",
+      "oil/dirt marks on the printed face."
     ],
     "use_cases": [
-      "When customer wants custom graphics or photography and the acoustic specification requires broadband sound absorption of NRC 0.85 or higher (Class C/A)."
+      "(dual-density compressed face will crack/crease).",
+      "- Handling Rule: Must be handled with clean white cotton gloves to prevent",
+      "- Negative Filter (not_for): Cannot be bent or curved around radiuses",
+      "When customer wants custom graphics or",
+      "When customer wants custom graphics or photography and the acoustic specification requires broadband sound absorption of NRC 0.85 or higher (Class C/A).",
+      "absorption of NRC 0.85 or higher (Class C/A).",
+      "oil/dirt marks on the printed face.",
+      "photography and the acoustic specification requires broadband sound"
     ]
   },
   "source_excerpt": null,

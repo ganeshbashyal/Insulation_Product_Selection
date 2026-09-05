@@ -60,25 +60,56 @@
       "Acoustic Timber Quietspace",
       "Autex timber panel",
       "printed timber panel 25mm",
+      "timber look\n    acoustic panel",
       "timber look acoustic panel",
       "woodgrain acoustic board"
     ],
     "problem_keywords": [
+      "- Accessories Upsell: Autex Edging Solutions Type C (25mm anodised aluminium",
+      "- Negative Filter (not_for): High-impact sports halls without protective",
+      "- Placement: Wall, internal wall, ceiling.",
+      "- Positive Recommendation Rule: Recommend when an architect or client wants",
+      "High reverberation in corporate boardrooms where solid",
       "High reverberation in corporate boardrooms where solid timber panelling is specified but creates an echo chamber",
-      "meeting Group 1 fire codes where natural timber fails."
-    ],
-    "placement": [
-      "Wall",
-      "ceiling",
-      "internal wall"
-    ],
-    "not_for": [
+      "absorption (NRC 0.85–1.00) and a Group 1 fire rating (AS ISO 9705).",
+      "barrier rails",
       "direct contact wet areas.",
       "exterior facades",
-      "not_for): High-impact sports halls without protective barrier rails"
+      "fire codes where natural timber fails.",
+      "meeting Group 1",
+      "meeting Group 1 fire codes where natural timber fails.",
+      "perimeter channel) and high-grab MS polymer adhesive.",
+      "the warm visual of natural timber slats/veneer combined with Class C/A sound",
+      "timber panelling is specified but creates an echo chamber"
+    ],
+    "placement": [
+      "A sound absorption (NRC 0.85–1.00) and a Group 1 fire rating (AS ISO 9705). - Negative Filter (not_for): High-impact sports halls without protective barrier rails; exterior facades; direct contact wet areas. - Accessories Upsell: Autex Edging Solutions Type C (25mm anodised aluminium perimeter channel) and high-grab MS polymer adhesive",
+      "Wall",
+      "ceiling",
+      "ceiling. - Positive Recommendation Rule: Recommend when an architect or client wants the warm visual of natural timber slats",
+      "internal wall",
+      "veneer combined with Class C"
+    ],
+    "not_for": [
+      "- Accessories Upsell: Autex Edging Solutions Type C (25mm anodised aluminium",
+      "barrier rails",
+      "direct contact wet areas.",
+      "exterior facades",
+      "not_for): High-impact sports halls without protective",
+      "not_for): High-impact sports halls without protective barrier rails",
+      "perimeter channel) and high-grab MS polymer adhesive."
     ],
     "use_cases": [
-      "Recommend when an architect or client wants the warm visual of natural timber slats/veneer combined with Class C/A sound absorption (NRC 0.85–1.00) and a Group 1 fire rating (AS ISO 9705)."
+      "- Accessories Upsell: Autex Edging Solutions Type C (25mm anodised aluminium",
+      "- Negative Filter (not_for): High-impact sports halls without protective",
+      "Recommend when an architect or client wants",
+      "Recommend when an architect or client wants the warm visual of natural timber slats/veneer combined with Class C/A sound absorption (NRC 0.85–1.00) and a Group 1 fire rating (AS ISO 9705).",
+      "absorption (NRC 0.85–1.00) and a Group 1 fire rating (AS ISO 9705).",
+      "barrier rails",
+      "direct contact wet areas.",
+      "exterior facades",
+      "perimeter channel) and high-grab MS polymer adhesive.",
+      "the warm visual of natural timber slats/veneer combined with Class C/A sound"
     ]
   },
   "source_excerpt": null,

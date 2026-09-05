@@ -101,39 +101,53 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Foilboard Ultra Fasteners",
-      "Foilboard 50mm\nfasteners",
       "Foilboard 40mm fasteners",
-      "long insulation fasteners",
-      "thick\ninsulation board fixings",
+      "Foilboard 50mm\n    fasteners",
+      "Foilboard 50mm\nfasteners",
+      "Foilboard Ultra",
+      "Foilboard Ultra Fasteners",
       "Foilboard timber fixings 90mm",
+      "fasteners for 40mm Foilboard",
       "heavy duty\nFoilboard fasteners",
-      "Foilboard Ultra"
+      "long insulation fasteners",
+      "long insulation nails",
+      "thick\ninsulation board fixings"
     ],
     "problem_keywords": [
-      "standard\nfasteners too short for 50mm board",
-      "thick Foilboard falling off ceiling",
+      "- Placement: Wall, external wall, ceiling, timber framing.",
+      "- Positive Recommendation Rule: Mandatory when installing 40mm (Super 40) or",
+      "50mm (Max 50) Foilboard onto timber wall studs or raked ceiling rafters.",
       "50mm insulation sagging between studs",
+      "Standard fasteners are too short to penetrate through",
+      "ceiling applications.",
       "fastener pull-through on heavy\nboards",
-      "securing thick EPS boards to timber"
+      "securing thick EPS boards to timber",
+      "standard\nfasteners too short for 50mm board",
+      "thick 40mm/50mm boards into structural timber",
+      "thick Foilboard falling off ceiling",
+      "thick boards sagging in"
     ],
     "placement": [
-      "wall",
+      "Wall",
+      "ceiling",
       "external wall",
       "internal wall",
-      "ceiling",
-      "underfloor",
+      "shed",
       "subfloor",
-      "shed"
+      "timber framing. - Positive Recommendation Rule: Mandatory when installing 40mm (Super 40) or 50mm (Max 50) Foilboard onto timber wall studs or raked ceiling rafters",
+      "underfloor",
+      "wall"
     ],
     "priority_fit": [
       "easy_install",
       "thermal"
     ],
     "use_cases": [
-      "Securing\nthick 40mm and 50mm Foilboard Green panels to residential timber wall studs",
+      "50mm (Max 50) Foilboard onto timber wall studs or raked ceiling rafters.",
       "Fastening high-R-value 50mm panels to raked timber cathedral ceilings",
-      "Installing thick rigid panels in high-performance subfloor timber joist bays"
+      "Installing thick rigid panels in high-performance subfloor timber joist bays",
+      "Mandatory when installing 40mm (Super 40) or",
+      "Securing\nthick 40mm and 50mm Foilboard Green panels to residential timber wall studs"
     ],
     "not_for": [
       "Steel framing (use Ultra Tek Screws)",

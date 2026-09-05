@@ -111,40 +111,68 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Bradford Fireseal Metal Roof",
-      "Fire\nProtection Metal Roof",
-      "party wall sealer metal roof",
       "75mm fireseal party\nwall",
-      "metal roof fire seal",
+      "75mm party wall\n    sealer",
+      "BAL-FZ metal roof\n    seal",
+      "Bradford Fireseal Metal Roof",
+      "CSR Bradford 123444",
+      "Fire\nProtection Metal Roof",
+      "Fireseal 123444",
       "Fireseal FZ metal roof batts",
+      "Party Wall Sealer Metal Roof",
       "corrugated roof\nparty wall seal",
-      "CSR Bradford 123444"
+      "metal roof fire seal",
+      "party wall sealer metal roof"
     ],
     "problem_keywords": [
-      "fire spread\nunder tin roof",
-      "metal roof party wall gap",
-      "corrugated roof flutes fire\nbypass",
-      "party wall metal deck fire rating",
+      "- Negative Filter (not_for): Tiled roofs (use 50mm Party Wall Sealer Tile",
+      "- Placement: Roof, roofline, internal wall head.",
+      "- Positive Recommendation Rule: Specify 75mm thickness whenever the roof",
       "BAL FZ metal roof sealing",
-      "inter-tenancy fire spread metal roof"
+      "BAL-FZ flame zones.",
+      "Flame or burning embers traveling through the flutes and",
+      "Roof)",
+      "building in",
+      "cladding is profiled sheet metal. Use 300mm width for standard single-frame",
+      "corrugated roof flutes fire\nbypass",
+      "corrugations of metal roofing over an inter-tenancy party wall",
+      "fire spread\nunder tin roof",
+      "inter-tenancy fire spread metal roof",
+      "metal roof party wall gap",
+      "party wall metal deck fire rating",
+      "party walls",
+      "underfloor joist insulation.",
+      "use 360mm width for double-stud or cavity party walls."
     ],
     "placement": [
+      "Roof",
+      "internal wall",
+      "internal wall head. - Positive Recommendation Rule: Specify 75mm thickness whenever the roof cladding is profiled sheet metal. Use 300mm width for standard single-frame party walls; use 360mm width for double-stud or cavity party walls. - Negative Filter (not_for): Tiled roofs (use 50mm Party Wall Sealer Tile Roof); underfloor joist insulation",
       "roof",
       "roofline",
-      "internal wall",
       "wall"
     ],
     "priority_fit": [
       "fire"
     ],
     "use_cases": [
+      "- Negative Filter (not_for): Tiled roofs (use 50mm Party Wall Sealer Tile",
+      "Providing BAL-FZ ember and flame\nprotection at metal roof perimeters in bushfire zones",
+      "Roof)",
       "Sealing\nthe junction between the top of an inter-tenancy masonry or Hebel party wall and\ncorrugated metal roof sheeting in townhouses",
-      "Providing BAL-FZ ember and flame\nprotection at metal roof perimeters in bushfire zones"
+      "Specify 75mm thickness whenever the roof",
+      "cladding is profiled sheet metal. Use 300mm width for standard single-frame",
+      "party walls",
+      "underfloor joist insulation.",
+      "use 360mm width for double-stud or cavity party walls."
     ],
     "not_for": [
+      "HVAC internal duct lining",
+      "Roof)",
       "Tiled\nroof party wall junctions (which use 50mm)",
       "Underfloor timber floor\ninsulation",
-      "HVAC internal duct lining"
+      "not_for): Tiled roofs (use 50mm Party Wall Sealer Tile",
+      "underfloor joist insulation."
     ],
     "rag_summary": "Bradford Fire\nProtection - Metal Roof (Fireseal Party Wall Sealer for Metal Roofs) is a 75mm\nthick, non-combustible rockwool blanket engineered to seal the void between the\nhead of fire-rated party walls and profiled metal roof sheeting in Class 1\ndwellings. Its 75mm thickness compresses by 10-15% under corrugations and\ntrapezoidal profiles to block flames, sparks, and hot gases from bypassing\nseparating walls. Certified non-combustible to AS 1530.1 and compliant for\nBAL-FZ bushfire construction, it satisfies NCC Deemed-to-Satisfy requirements\nfor inter-tenancy fire containment."
   },

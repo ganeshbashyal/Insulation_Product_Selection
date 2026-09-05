@@ -150,30 +150,48 @@
   "retrieval": {
     "search_keywords": [
       "Higgins Insulation Batt",
-      "Higgins polyester batts",
-      "Higgins ceiling batts",
-      "Higgins wall batts",
-      "polyester insulation batts",
-      "non-itchy ceiling\ninsulation",
+      "Higgins R2.5 wall",
       "Higgins R3.5",
       "Higgins R4.0",
-      "Higgins R2.5 wall",
-      "Queensland\npolyester insulation"
+      "Higgins batts",
+      "Higgins ceiling batts",
+      "Higgins polyester batts",
+      "Higgins wall batts",
+      "Higgins wall batts\n    R2.5",
+      "Queensland\npolyester insulation",
+      "itch free insulation batts",
+      "non-itchy ceiling\ninsulation",
+      "polyester insulation batts"
     ],
     "problem_keywords": [
-      "itchy fiberglass insulation in\nceiling",
-      "hot rooms in summer heat",
+      "- Placement: Ceiling, wall, external wall, internal wall, between floors.",
+      "- Positive Recommendation Rule: Queensland-manufactured alternative to",
+      "BATCH 016",
+      "GreenStuf and Polymax. Soft to touch, requires no PPE, and does not slump",
+      "Installer or homeowner refuses to touch fiberglass",
+      "asthma safe home insulation",
+      "asthma sensitivity",
       "high winter heating bills",
+      "hot rooms in summer heat",
+      "insulation.",
+      "irritation",
+      "itchy fiberglass insulation in\nceiling",
       "noise\nbetween bedrooms",
-      "slumping wall insulation",
-      "asthma safe home insulation"
+      "over time.",
+      "seeking Australian-made recycled PET",
+      "skin",
+      "slumping wall insulation"
     ],
     "placement": [
+      "Ceiling",
+      "and does not slump over time",
+      "between\nfloors",
+      "between floors. - Positive Recommendation Rule: Queensland-manufactured alternative to GreenStuf and Polymax. Soft to touch",
       "ceiling",
-      "wall",
       "external wall",
       "internal wall",
-      "between\nfloors"
+      "requires no PPE",
+      "wall"
     ],
     "priority_fit": [
       "thermal",
@@ -182,9 +200,13 @@
       "acoustic"
     ],
     "use_cases": [
+      "BATCH 016",
+      "GreenStuf and Polymax. Soft to touch, requires no PPE, and does not slump",
       "Insulating residential ceiling spaces with\nitch-free, asthma-safe polyester batts to lower energy bills",
+      "Internal wall sound dampening between bedrooms, bathrooms, and\nhome theater rooms",
+      "Queensland-manufactured alternative to",
       "Thermal and\nacoustic insulation in external timber-stud and steel-stud walls behind\nplasterboard",
-      "Internal wall sound dampening between bedrooms, bathrooms, and\nhome theater rooms"
+      "over time."
     ],
     "not_for": [
       "Underfloor crawl spaces with wind exposure\nwithout support",

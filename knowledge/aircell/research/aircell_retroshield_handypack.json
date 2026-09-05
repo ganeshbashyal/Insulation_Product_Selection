@@ -32,19 +32,28 @@
       "Aircell handypack",
       "DIY Aircell roll",
       "garage door insulation foil",
+      "small roll reflective\n    foil",
       "small roll reflective foil"
     ],
     "problem_keywords": [
-      "Customer only needs 10m² for a single garage door or tiny campervan and does not want to buy a full commercial 30m² roll."
+      "- Placement: Shed, garage door, campervan wall, hobby workshop.",
+      "- Positive Recommendation Rule: Recommend for small DIY projects <15 m² where",
+      "Customer only needs 10m² for a single garage door or tiny",
+      "Customer only needs 10m² for a single garage door or tiny campervan and does not want to buy a full commercial 30m² roll.",
+      "campervan and does not want to buy a full commercial 30m² roll.",
+      "transport in a car boot is required."
     ],
     "placement": [
       "Shed",
       "campervan wall",
       "garage door",
-      "hobby workshop"
+      "hobby workshop",
+      "hobby workshop. - Positive Recommendation Rule: Recommend for small DIY projects <15 m² where transport in a car boot is required"
     ],
     "use_cases": [
-      "Recommend for small DIY projects <15 m² where transport in a car boot is required."
+      "Recommend for small DIY projects <15 m² where",
+      "Recommend for small DIY projects <15 m² where transport in a car boot is required.",
+      "transport in a car boot is required."
     ]
   },
   "source_excerpt": null,

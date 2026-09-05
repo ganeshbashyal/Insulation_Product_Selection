@@ -129,33 +129,49 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Martini MAB",
+      "CSR Martini",
       "CSR Martini MAB",
-      "Martini commercial polyester",
+      "MAB 48",
       "MAB acoustic insulation",
+      "Martini MAB",
       "Martini MAB 32",
       "Martini MAB 48",
-      "polyester acoustic batts",
+      "Martini commercial polyester",
       "black acoustic\nbacking polyester",
+      "black acoustic backing polyester",
+      "industrial acoustic\npolyester",
       "perforated panel acoustic backing",
-      "industrial acoustic\npolyester"
+      "polyester acoustic batts",
+      "polyester acoustic blanket"
     ],
     "problem_keywords": [
-      "reverberation behind slotted timber walls",
-      "sound reflection in sports hall",
+      "- Placement: Wall, internal wall, ceiling, duct silencer, plant room.",
+      "- Positive Recommendation Rule: The industry favorite for high-end",
+      "Echo in cinemas, studios, and sports halls",
       "HVAC silencer airflow noise",
+      "HVAC silencer noise.",
+      "and Class A acoustic absorption.",
+      "architectural acoustic backing. Specify Black MAB 32 or 48 behind perforated",
       "cinema and\nstudio echo",
       "flanking noise above suspended ceiling tiles",
-      "itchy acoustic\ninsulation replacement"
+      "glasswool fibers showing through slotted timber or perforated metal walls",
+      "itchy acoustic\ninsulation replacement",
+      "reverberation behind slotted timber walls",
+      "sound reflection in sports hall",
+      "timber slats or metal ceiling panels to provide complete shadow concealment",
+      "yellow"
     ],
     "placement": [
-      "wall",
-      "internal wall",
-      "ceiling",
+      "Wall",
       "between floors",
+      "ceiling",
       "duct",
+      "duct silencer",
+      "internal wall",
       "pipe",
-      "shed"
+      "plant room. - Positive Recommendation Rule: The industry favorite for high-end architectural acoustic backing. Specify Black MAB 32 or 48 behind perforated timber slats or metal ceiling panels to provide complete shadow concealment and Class A acoustic absorption",
+      "shed",
+      "wall"
     ],
     "priority_fit": [
       "acoustic",
@@ -165,8 +181,12 @@
     ],
     "use_cases": [
       "Acoustic backing absorber\ninstalled behind perforated metal or slotted timber panels in auditoriums and\nsports halls",
+      "Acoustic sound absorption infill in HVAC\nacoustic attenuators, duct silencers, and plant room enclosures",
       "Ceiling overlay above suspended grid tiles to control cross-talk\nand room-to-room flanking noise",
-      "Acoustic sound absorption infill in HVAC\nacoustic attenuators, duct silencers, and plant room enclosures"
+      "The industry favorite for high-end",
+      "and Class A acoustic absorption.",
+      "architectural acoustic backing. Specify Black MAB 32 or 48 behind perforated",
+      "timber slats or metal ceiling panels to provide complete shadow concealment"
     ],
     "not_for": [
       "Direct outdoor weather-exposed facades",

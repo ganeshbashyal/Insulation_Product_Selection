@@ -142,27 +142,40 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Autex Willie\nWeston Quietspace",
+      "25mm Indigenous art\n    acoustic panel",
       "Autex Emma Hayes Quietspace",
-      "Willie Weston acoustic\npanel 25mm",
-      "First Nations Quietspace panel",
+      "Autex Willie\nWeston Quietspace",
       "Emma Hayes Quietspace",
-      "NRC 0.85 printed acoustic panel",
+      "First Nations Quietspace",
+      "First Nations Quietspace panel",
       "Indigenous art sound absorbing panel",
+      "NRC 0.85 printed acoustic panel",
+      "Willie Weston Quietspace",
+      "Willie Weston acoustic\npanel 25mm",
       "decorative Quietspace panel"
     ],
     "problem_keywords": [
-      "severe echo in boardroom\nneeding art",
-      "reverberation in government atrium",
-      "noisy conference room",
+      "- Placement: Wall, internal wall, ceiling.",
+      "- Positive Recommendation Rule: When standard 12mm Cube (NRC 0.45) is",
+      "High-reverberation cultural centers, university lecture",
+      "Quietspace (NRC 0.85).",
+      "acoustically inadequate for a high-ceiling cultural space, upgrade to 25mm",
+      "featuring First Nations artwork.",
+      "halls, and council chambers requiring Class C/A sound absorption (NRC 0.85)",
+      "meeting Group 1 fire rating with wall murals",
       "need cultural First Nations artwork with acoustics",
-      "sound reflection in\nhigh-end reception",
-      "meeting Group 1 fire rating with wall murals"
+      "noisy conference room",
+      "reverberation in government atrium",
+      "severe echo in boardroom\nneeding art",
+      "sound reflection in\nhigh-end reception"
     ],
     "placement": [
-      "wall",
+      "Wall",
+      "ceiling",
+      "ceiling. - Positive Recommendation Rule: When standard 12mm Cube (NRC 0.45) is acoustically inadequate for a high-ceiling cultural space",
       "internal wall",
-      "ceiling"
+      "upgrade to 25mm Quietspace (NRC 0.85)",
+      "wall"
     ],
     "priority_fit": [
       "acoustic",
@@ -171,9 +184,12 @@
       "easy_install"
     ],
     "use_cases": [
+      "Acoustic feature art walls in\nhealthcare lobbies, wellness suites, and airport lounges",
       "High-performance acoustic murals in corporate boardrooms and executive suites\ndisplaying First Nations art",
+      "Quietspace (NRC 0.85).",
       "Taming reverberation in university lecture\nhalls, cultural centres, and civic buildings",
-      "Acoustic feature art walls in\nhealthcare lobbies, wellness suites, and airport lounges"
+      "When standard 12mm Cube (NRC 0.45) is",
+      "acoustically inadequate for a high-ceiling cultural space, upgrade to 25mm"
     ],
     "not_for": [
       "Floors or underfloor acoustic decoupling",

@@ -126,27 +126,46 @@
   },
   "retrieval": {
     "search_keywords": [
+      "Bradford 114175",
       "Bradford Light Duty\nCommercial Wall Wrap",
-      "Enviroseal ProctorWrap CW",
-      "Commercial Wall Wrap CW",
-      "Enviroseal CW 114175",
       "Bradford commercial wall wrap",
-      "vapour permeable\ncommercial wrap",
+      "Class 4 commercial wrap",
       "Class 4 wall wrap",
+      "Commercial Wall Wrap CW",
+      "Enviroseal CW",
+      "Enviroseal CW 114175",
+      "Enviroseal ProctorWrap CW",
+      "Hebel wall wrap\ncommercial",
+      "ProctorWrap CW",
       "steel frame wall wrap",
-      "Hebel wall wrap\ncommercial"
+      "vapour permeable\ncommercial wrap"
     ],
     "problem_keywords": [
-      "interstitial condensation in commercial\nwalls",
-      "mould in commercial wall cavity",
-      "water leakage through commercial\nfacade",
+      "- Negative Filter (not_for): Roof sarking under tiles or metal roofs (must use",
+      "- Placement: External wall, wall.",
+      "- Positive Recommendation Rule: The default specification behind CSR Hebel",
+      "NCC 2022 condensation management in commercial buildings.",
+      "Trapped condensation inside commercial steel-stud wall",
+      "a Medium Duty or Heavy Duty roof underlay).",
+      "cavities",
       "drafty steel stud walls",
+      "high-rise facade panels, commercial fibre cement, and architectural",
+      "interstitial condensation in commercial\nwalls",
       "meeting NCC condensation code in\napartments",
+      "meeting strict",
+      "moisture rot in multi-storey residential facades",
+      "mould in commercial wall cavity",
+      "rainscreens. Choose 114176 (CW-IT) to eliminate separate lap taping.",
+      "water leakage through commercial\nfacade",
       "weatherproofing multi storey walls"
     ],
     "placement": [
+      "External wall",
+      "and architectural rainscreens. Choose 114176 (CW-IT) to eliminate separate lap taping. - Negative Filter (not_for): Roof sarking under tiles or metal roofs (must use a Medium Duty or Heavy Duty roof underlay)",
+      "commercial fibre cement",
+      "external wall",
       "wall",
-      "external wall"
+      "wall. - Positive Recommendation Rule: The default specification behind CSR Hebel high-rise facade panels"
     ],
     "priority_fit": [
       "condensation",
@@ -154,14 +173,21 @@
       "easy_install"
     ],
     "use_cases": [
-      "Vapour-permeable weather barrier behind commercial lightweight\ncladding, fibre-cement, and masonry veneer",
+      "- Negative Filter (not_for): Roof sarking under tiles or metal roofs (must use",
       "Air and moisture barrier behind\nCSR Hebel high-rise facade panels in wind regions A and B",
-      "Multi-residential\ntimber and light-gauge steel frame external wall wraps"
+      "Multi-residential\ntimber and light-gauge steel frame external wall wraps",
+      "The default specification behind CSR Hebel",
+      "Vapour-permeable weather barrier behind commercial lightweight\ncladding, fibre-cement, and masonry veneer",
+      "a Medium Duty or Heavy Duty roof underlay).",
+      "high-rise facade panels, commercial fibre cement, and architectural",
+      "rainscreens. Choose 114176 (CW-IT) to eliminate separate lap taping."
     ],
     "not_for": [
-      "Roof\nsarking applications",
       "Open-joint cladding with permanent UV exposure",
-      "Primary waterproofing without outer cladding"
+      "Primary waterproofing without outer cladding",
+      "Roof\nsarking applications",
+      "a Medium Duty or Heavy Duty roof underlay).",
+      "not_for): Roof sarking under tiles or metal roofs (must use"
     ],
     "rag_summary": "Bradford Wall\nWraps - Light Duty Commercial (Enviroseal ProctorWrap Commercial Wall / CW,\nproduct code 114175) is a high-strength, Light Duty Class 4 vapour-permeable\nwall wrap engineered for commercial and multi-residential timber and steel stud\nconstruction. Fabricated from a spunbond polyolefin non-woven composite, it\nprovides superior water hold-out and airtightness while allowing internal water\nvapour to escape, preventing rot and mould in building assemblies. Suitable for\nwind regions A and B and compliant with AS/NZS 4200.1 and AS 1530.2\n(Flammability Index ≤ 5), it delivers heavy-duty tear resistance for commercial\njobsites."
   },

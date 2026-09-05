@@ -138,31 +138,45 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Polyester Solutions Batt",
+      "Melbourne polyester insulation",
       "PolyBatts",
-      "Polyester Solutions insulation",
-      "polyester wall batts",
-      "polyester ceiling\nbatts",
-      "non itchy insulation batts",
-      "recycled PET batts",
       "PolyBatts R2.5",
       "PolyBatts R4.0",
-      "Melbourne polyester insulation"
+      "Polyester Solutions Batt",
+      "Polyester Solutions batts",
+      "Polyester Solutions insulation",
+      "itch\n    free wall batts",
+      "non itchy insulation batts",
+      "non-toxic batts",
+      "polyester ceiling\nbatts",
+      "polyester ceiling insulation",
+      "polyester wall batts",
+      "recycled PET batts"
     ],
     "problem_keywords": [
-      "itchy fiberglass batts",
-      "hot rooms upstairs in summer",
-      "high winter heating\ncosts",
+      "- Placement: Ceiling, wall, internal wall, external wall, between floors.",
+      "- Positive Recommendation Rule: High-quality Australian-made polyester",
+      "Customer or installer allergic to glasswool",
+      "airborne fiber concerns in bedrooms and nurseries.",
       "airborne fiberglass particles in house",
-      "slumping wall insulation in\ntimber studs",
-      "allergy friendly home insulation"
+      "allergy friendly home insulation",
+      "batt. 100% recyclable, hydrophobic, and will not sag or crumble over time.",
+      "high winter heating\ncosts",
+      "hot rooms upstairs in summer",
+      "itchy fiberglass batts",
+      "itchy skin",
+      "slumping wall insulation in\ntimber studs"
     ],
     "placement": [
+      "Ceiling",
+      "and will not sag or crumble over time",
+      "between floors",
+      "between floors. - Positive Recommendation Rule: High-quality Australian-made polyester batt. 100% recyclable",
       "ceiling",
-      "wall",
-      "internal wall",
       "external wall",
-      "between floors"
+      "hydrophobic",
+      "internal wall",
+      "wall"
     ],
     "priority_fit": [
       "thermal",
@@ -171,9 +185,11 @@
       "acoustic"
     ],
     "use_cases": [
+      "Acoustic sound dampening in internal\npartition walls between bedrooms and bathrooms",
+      "High-quality Australian-made polyester",
       "Insulating residential ceilings to achieve 7-star NatHERS energy efficiency\nwithout itchy glass fibers",
       "Thermal and acoustic cavity insulation in external\ntimber-stud and steel-stud walls",
-      "Acoustic sound dampening in internal\npartition walls between bedrooms and bathrooms"
+      "batt. 100% recyclable, hydrophobic, and will not sag or crumble over time."
     ],
     "not_for": [
       "Exposed\ndecorative wall lining without plasterboard",

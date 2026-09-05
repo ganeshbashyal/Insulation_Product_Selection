@@ -130,27 +130,49 @@
   },
   "retrieval": {
     "search_keywords": [
+      "Bradford 118153",
       "Bradford Light Duty Residential Wall Wrap",
-      "Enviroseal ProctorWrap RW",
-      "Residential Wall Wrap RW",
-      "Enviroseal RW 118153",
       "Bradford breathable wall wrap",
-      "vapour permeable house wrap",
+      "Class 4\n    house wrap",
       "Class 4\nresidential wrap",
+      "Enviroseal 2750mm",
+      "Enviroseal ProctorWrap RW",
+      "Enviroseal RW",
+      "Enviroseal RW 118153",
       "Enviroseal RW 2750mm",
-      "house wrap 1500mm"
+      "Residential Wall Wrap RW",
+      "breathable house wrap",
+      "house wrap 1500mm",
+      "vapour permeable house wrap"
     ],
     "problem_keywords": [
-      "mould in residential wall cavity",
-      "interstitial\ncondensation in timber frame",
+      "(2.75m wide) to wrap standard residential storeys in a single continuous",
+      "- Negative Filter (not_for): Roof applications",
+      "- Placement: Wall, external wall.",
+      "- Positive Recommendation Rule: Australia's premier breathable house wrap for",
+      "Mould and rot inside timber wall frames",
+      "NatHERS building airtightness.",
+      "condensation",
       "drafts blowing through brick veneer",
-      "wet\ninsulation in external walls",
+      "failing 7-star",
+      "forming behind brick veneer or lightweight weatherboards",
+      "horizontal drop without horizontal laps.",
+      "interstitial\ncondensation in timber frame",
+      "meeting 7-star NatHERS wall sealing",
+      "mould in residential wall cavity",
+      "open-joint rainscreens where",
+      "residential brick veneer, timber cladding, and fibre cement. Specify 138628",
       "weatherboard wall moisture damage",
-      "meeting 7-star NatHERS wall sealing"
+      "wet\ninsulation in external walls",
+      "wrap is permanently exposed to sunlight (use Black Label)."
     ],
     "placement": [
-      "wall",
-      "external wall"
+      "Wall",
+      "and fibre cement. Specify 138628 (2.75m wide) to wrap standard residential storeys in a single continuous horizontal drop without horizontal laps. - Negative Filter (not_for): Roof applications; open-joint rainscreens where wrap is permanently exposed to sunlight (use Black Label)",
+      "external wall",
+      "external wall. - Positive Recommendation Rule: Australia's premier breathable house wrap for residential brick veneer",
+      "timber cladding",
+      "wall"
     ],
     "priority_fit": [
       "condensation",
@@ -158,14 +180,24 @@
       "easy_install"
     ],
     "use_cases": [
-      "Vapour-permeable weather barrier behind residential brick veneer, timber\nweatherboards, and fibre-cement cladding",
+      "(2.75m wide) to wrap standard residential storeys in a single continuous",
+      "- Negative Filter (not_for): Roof applications",
       "Air-barrier house wrap to pass\nresidential blower door airtightness testing",
-      "Condensation mitigation in\nclimate zones 6, 7, and 8 where internal moisture must escape"
+      "Australia's premier breathable house wrap for",
+      "Condensation mitigation in\nclimate zones 6, 7, and 8 where internal moisture must escape",
+      "Vapour-permeable weather barrier behind residential brick veneer, timber\nweatherboards, and fibre-cement cladding",
+      "horizontal drop without horizontal laps.",
+      "open-joint rainscreens where",
+      "residential brick veneer, timber cladding, and fibre cement. Specify 138628",
+      "wrap is permanently exposed to sunlight (use Black Label)."
     ],
     "not_for": [
-      "Roof sarking applications",
       "Open-joint cladding with permanent UV exposure",
-      "Underfloor moisture barrier"
+      "Roof sarking applications",
+      "Underfloor moisture barrier",
+      "not_for): Roof applications",
+      "open-joint rainscreens where",
+      "wrap is permanently exposed to sunlight (use Black Label)."
     ],
     "rag_summary": "Bradford Wall Wraps - Light\nDuty Residential (Enviroseal ProctorWrap Residential Wall / RW, product\ncodes 118153 / 138628) is a premium Light Duty, Class 4 vapour-permeable wall\nwrap designed for residential timber and steel stud construction. Featuring a\ntriple-layer non-woven polyolefin textile, it lets interior moisture vapour\nescape to prevent condensation, rot, and mould while acting as a barrier against\nwind-driven rain and drafts. Available in 1500mm and 2750mm roll widths with a\nFlammability Index ≤ 5 (BAL 12.5-40 compliant), it provides a durable, quiet\nweatherproofing layer behind residential brick veneer, weatherboards, and\nlightweight claddings."
   },

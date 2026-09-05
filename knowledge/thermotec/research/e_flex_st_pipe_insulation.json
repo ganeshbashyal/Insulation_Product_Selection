@@ -1,0 +1,80 @@
+{
+  "family_id": "THERMOTEC_E_FLEX_ST",
+  "family_name": "E-Flex ST Pipe Insulation",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "accessories_upsell": "E-Flex Bond Contact Adhesive (for joining seams and butt joints)."
+  },
+  "retrieval": {
+    "search_keywords": [
+      "E-Flex ST",
+      "batch 25",
+      "black foam pipe\n    insulation",
+      "chilled water pipe insulation",
+      "condensation",
+      "duct",
+      "fire",
+      "nitrile pipe insulation",
+      "pipe",
+      "refrigeration pipe insulation",
+      "rubber\n    pipe lagging",
+      "thermal"
+    ],
+    "problem_keywords": [
+      "- Accessories Upsell: E-Flex Bond Contact Adhesive (for joining seams and butt",
+      "- Placement: [\"pipe\", \"duct\"]",
+      "- Positive Recommendation Rule: The industry standard for air conditioning,",
+      "- Priority Fit: [\"thermal\", \"condensation\", \"fire\"]",
+      "Australian Insulation Knowledge Base: Granular Sizing & Bot Logic",
+      "BATCH 025",
+      "Chilled water and air conditioning refrigerant lines",
+      "Manufacturers: Thermotec Australia & Trade Select by Ametalin",
+      "MaxTape FR, and Trade Select Non-Combustible ThermalBreak Strips) to complete",
+      "PART 12: Batch 025 (Families 241–250) - FINAL BATCH",
+      "Ready for the Final Batch?",
+      "Reply with \"batch 25\" (covering Thermotec E-Flex HT, Rockwool Pipe, E-Therm,",
+      "VRV/VRF refrigeration lines, and chilled water pipes. Built-in vapour",
+      "barrier (µ ≥ 7,000) guarantees zero condensation moisture penetration.",
+      "heat gain on refrigeration",
+      "joints).",
+      "suction lines reducing cooling efficiency.",
+      "sweating and dripping condensation onto ceilings",
+      "the master markdown repository."
+    ],
+    "placement": [
+      "\"condensation\"",
+      "\"duct\"] - Priority Fit: [\"thermal\"",
+      "\"fire\"] - Positive Recommendation Rule: The industry standard for air conditioning",
+      "000) guarantees zero condensation moisture penetration. - Accessories Upsell: E-Flex Bond Contact Adhesive (for joining seams and butt joints)",
+      "VRF refrigeration lines",
+      "VRV",
+      "[\"pipe\"",
+      "and chilled water pipes. Built-in vapour barrier (µ ≥ 7"
+    ],
+    "use_cases": [
+      "- Accessories Upsell: E-Flex Bond Contact Adhesive (for joining seams and butt",
+      "Australian Insulation Knowledge Base: Granular Sizing & Bot Logic",
+      "BATCH 025",
+      "Manufacturers: Thermotec Australia & Trade Select by Ametalin",
+      "MaxTape FR, and Trade Select Non-Combustible ThermalBreak Strips) to complete",
+      "PART 12: Batch 025 (Families 241–250) - FINAL BATCH",
+      "Ready for the Final Batch?",
+      "Reply with \"batch 25\" (covering Thermotec E-Flex HT, Rockwool Pipe, E-Therm,",
+      "The industry standard for air conditioning,",
+      "VRV/VRF refrigeration lines, and chilled water pipes. Built-in vapour",
+      "barrier (µ ≥ 7,000) guarantees zero condensation moisture penetration.",
+      "joints).",
+      "the master markdown repository."
+    ],
+    "priority_fit": [
+      "condensation",
+      "fire",
+      "thermal"
+    ]
+  },
+  "source_excerpt": null,
+  "engine": "knowledge_base_txt"
+}

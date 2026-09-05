@@ -51,6 +51,7 @@
   },
   "retrieval": {
     "search_keywords": [
+      "25mm\n    acoustic board",
       "25mm acoustic board",
       "50mm acoustic panel",
       "Autex Panel",
@@ -59,18 +60,41 @@
       "broadband acoustic panel"
     ],
     "problem_keywords": [
-      "Severe reverberation in recording studios, radio broadcast booths, school gymnasiums, and multipurpose halls."
+      "- Negative Filter (not_for): Nude panels are utilitarian white, grey, or",
+      "- Placement: Wall, internal wall, ceiling.",
+      "- Positive Recommendation Rule: When customer requires Class A broadband",
+      "Severe reverberation in recording studios, radio broadcast",
+      "Severe reverberation in recording studios, radio broadcast booths, school gymnasiums, and multipurpose halls.",
+      "absorption (NRC 1.00), specify 50mm Quietspace Panel. Use 25mm (NRC 0.85)",
+      "black. For decorative front-of-house finishes, upsell with Vertiface fabric",
+      "booths, school gymnasiums, and multipurpose halls.",
+      "when wall cavity space is restricted.",
+      "wrapping or Bespoke Print."
     ],
     "placement": [
       "Wall",
       "ceiling",
-      "internal wall"
+      "ceiling. - Positive Recommendation Rule: When customer requires Class A broadband absorption (NRC 1.00)",
+      "grey",
+      "internal wall",
+      "or black. For decorative front-of-house finishes",
+      "specify 50mm Quietspace Panel. Use 25mm (NRC 0.85) when wall cavity space is restricted. - Negative Filter (not_for): Nude panels are utilitarian white",
+      "upsell with Vertiface fabric wrapping or Bespoke Print"
     ],
     "not_for": [
-      "not_for): Nude panels are utilitarian white, grey, or black. For decorative front-of-house finishes, upsell with Vertiface fabric wrapping or Bespoke Print."
+      "black. For decorative front-of-house finishes, upsell with Vertiface fabric",
+      "not_for): Nude panels are utilitarian white, grey, or",
+      "not_for): Nude panels are utilitarian white, grey, or black. For decorative front-of-house finishes, upsell with Vertiface fabric wrapping or Bespoke Print.",
+      "wrapping or Bespoke Print."
     ],
     "use_cases": [
-      "When customer requires Class A broadband absorption (NRC 1.00), specify 50mm Quietspace Panel. Use 25mm (NRC 0.85) when wall cavity space is restricted."
+      "- Negative Filter (not_for): Nude panels are utilitarian white, grey, or",
+      "When customer requires Class A broadband",
+      "When customer requires Class A broadband absorption (NRC 1.00), specify 50mm Quietspace Panel. Use 25mm (NRC 0.85) when wall cavity space is restricted.",
+      "absorption (NRC 1.00), specify 50mm Quietspace Panel. Use 25mm (NRC 0.85)",
+      "black. For decorative front-of-house finishes, upsell with Vertiface fabric",
+      "when wall cavity space is restricted.",
+      "wrapping or Bespoke Print."
     ]
   },
   "source_excerpt": null,

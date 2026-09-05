@@ -124,34 +124,52 @@
       "Do not cover\nelectrical subfloor wiring that may be susceptible to derating without checking\nAS/NZS 3000",
       "Do not block subfloor wall vents which are critical for moisture\ndissipation"
     ],
-    "warranty": "70 Year Product Performance Warranty"
+    "warranty": "70 Year Product Performance Warranty",
+    "accessories_upsell": "Rule: Always pair with Optimo Saddles (new build) or Optimo Straps / StayFast Brackets (retrofits)."
   },
   "retrieval": {
     "search_keywords": [
       "Bradford Optimo",
-      "Optimo underfloor batts",
-      "underfloor insulation",
-      "R2.5 underfloor batts",
-      "suspended timber floor\ninsulation",
+      "Optimo\nsaddles",
       "Optimo 415mm",
       "Optimo 565mm",
       "Optimo StayFast",
-      "Optimo\nsaddles",
-      "cold timber floor insulation"
+      "Optimo underfloor batts",
+      "R2.5 underfloor batts",
+      "cold timber floor insulation",
+      "suspended timber floor\ninsulation",
+      "timber floor insulation",
+      "underfloor batts",
+      "underfloor insulation"
     ],
     "problem_keywords": [
+      "- Accessories Upsell Rule: Always pair with Optimo Saddles (new build) or",
+      "- Placement: Underfloor, floor, subfloor, between floors.",
+      "- Positive Recommendation Rule: Purpose-sized narrower (415mm & 565mm) than",
+      "BATCH 010",
+      "Freezing cold timber floorboards in winter",
+      "Optimo Straps / StayFast Brackets (retrofits).",
+      "blowing up through floorboard gaps",
+      "cold draughts",
       "cold timber\nfloorboards in winter",
+      "creaking noisy timber floor",
       "draughts blowing up through floorboards",
       "heat loss\nthrough suspended floor",
-      "creaking noisy timber floor",
+      "hollow footstep echo in timber-floor",
+      "homes.",
+      "out. Cuts floor heat loss by up to 20% and reduces floor noise by up to 6dB.",
       "subfloor drafts",
-      "uninsulated timber floor"
+      "uninsulated timber floor",
+      "wall batts to friction-fit tightly between timber joists without falling"
     ],
     "placement": [
+      "StayFast Brackets (retrofits)",
+      "Underfloor",
+      "between floors",
+      "between floors. - Positive Recommendation Rule: Purpose-sized narrower (415mm & 565mm) than wall batts to friction-fit tightly between timber joists without falling out. Cuts floor heat loss by up to 20% and reduces floor noise by up to 6dB. - Accessories Upsell Rule: Always pair with Optimo Saddles (new build) or Optimo Straps",
       "floor",
-      "underfloor",
       "subfloor",
-      "between floors"
+      "underfloor"
     ],
     "priority_fit": [
       "thermal",
@@ -160,9 +178,15 @@
       "sustainability"
     ],
     "use_cases": [
-      "Retrofitting underfloor insulation beneath\nexisting polished timber floorboards in older homes to eliminate winter chills\nand draughts",
+      "- Accessories Upsell Rule: Always pair with Optimo Saddles (new build) or",
+      "BATCH 010",
+      "Dampening footstep noise and floor\nhollow resonance in double-storey homes",
       "Installing between joists from above in new suspended timber\nfloor construction using Optimo Saddles",
-      "Dampening footstep noise and floor\nhollow resonance in double-storey homes"
+      "Optimo Straps / StayFast Brackets (retrofits).",
+      "Purpose-sized narrower (415mm & 565mm) than",
+      "Retrofitting underfloor insulation beneath\nexisting polished timber floorboards in older homes to eliminate winter chills\nand draughts",
+      "out. Cuts floor heat loss by up to 20% and reduces floor noise by up to 6dB.",
+      "wall batts to friction-fit tightly between timber joists without falling"
     ],
     "not_for": [
       "Concrete slab\ninsulation",

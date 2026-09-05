@@ -50,24 +50,53 @@
       "AcoustiFlex joiner",
       "Acoustica tape",
       "GreenLAG tape",
+      "acoustic foil\n    tape 72mm",
       "acoustic foil tape 72mm",
       "lagging tape"
     ],
     "problem_keywords": [
-      "Acoustic flanking paths at sheet joins, unsealed perimeter gaps degrading wall Rw, vibration transmission through rigid drywall fasteners."
+      "(1 roll per ~30 m² of barrier or ~15 lineal metres of pipe lagging).",
+      "(Vapastop 883 72mm).",
+      "- Negative Filter (not_for): Do not recommend as structural fasteners or",
+      "- Placement: Wall, ceiling, pipe, duct, floor perimeter.",
+      "- Positive Recommendation Rule: Whenever ACOUSTICA_ACOUSTIFLEX_SQ or",
+      "- Substitute Mapping: If Acoustica-branded tape is out of stock, route",
+      "ACOUSTICA_GL is quoted, automatically prompt for 72mm reinforced foil tape",
+      "Acoustic flanking paths at sheet joins, unsealed perimeter",
+      "Acoustic flanking paths at sheet joins, unsealed perimeter gaps degrading wall Rw, vibration transmission through rigid drywall fasteners.",
+      "directly to AIRCELL_FOIL_TAPE (72mm) or FLETCHER_TAPES_ACCESSORIES",
+      "fasteners.",
+      "gaps degrading wall Rw, vibration transmission through rigid drywall",
+      "load-bearing drywall clips."
     ],
     "placement": [
       "Wall",
+      "automatically prompt for 72mm reinforced foil tape (1 roll per ~30 m² of barrier or ~15 lineal metres of pipe lagging). - Negative Filter (not_for): Do not recommend as structural fasteners or load-bearing drywall clips. - Substitute Mapping: If Acoustica-branded tape is out of stock",
       "ceiling",
       "duct",
       "floor perimeter",
-      "pipe"
+      "floor perimeter. - Positive Recommendation Rule: Whenever ACOUSTICA_ACOUSTIFLEX_SQ or ACOUSTICA_GL is quoted",
+      "pipe",
+      "route directly to AIRCELL_FOIL_TAPE (72mm) or FLETCHER_TAPES_ACCESSORIES (Vapastop 883 72mm)"
     ],
     "not_for": [
+      "(Vapastop 883 72mm).",
+      "- Substitute Mapping: If Acoustica-branded tape is out of stock, route",
+      "directly to AIRCELL_FOIL_TAPE (72mm) or FLETCHER_TAPES_ACCESSORIES",
+      "load-bearing drywall clips.",
+      "not_for): Do not recommend as structural fasteners or",
       "not_for): Do not recommend as structural fasteners or load-bearing drywall clips."
     ],
     "use_cases": [
-      "Whenever ACOUSTICA_ACOUSTIFLEX_SQ or ACOUSTICA_GL is quoted, automatically prompt for 72mm reinforced foil tape (1 roll per ~30 m² of barrier or ~15 lineal metres of pipe lagging)."
+      "(1 roll per ~30 m² of barrier or ~15 lineal metres of pipe lagging).",
+      "(Vapastop 883 72mm).",
+      "- Negative Filter (not_for): Do not recommend as structural fasteners or",
+      "- Substitute Mapping: If Acoustica-branded tape is out of stock, route",
+      "ACOUSTICA_GL is quoted, automatically prompt for 72mm reinforced foil tape",
+      "Whenever ACOUSTICA_ACOUSTIFLEX_SQ or",
+      "Whenever ACOUSTICA_ACOUSTIFLEX_SQ or ACOUSTICA_GL is quoted, automatically prompt for 72mm reinforced foil tape (1 roll per ~30 m² of barrier or ~15 lineal metres of pipe lagging).",
+      "directly to AIRCELL_FOIL_TAPE (72mm) or FLETCHER_TAPES_ACCESSORIES",
+      "load-bearing drywall clips."
     ]
   },
   "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"

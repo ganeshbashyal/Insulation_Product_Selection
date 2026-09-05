@@ -22,12 +22,15 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Ecowool Acoustic Partition Roll",
       "Ecowool\npartition roll",
-      "glasswool acoustic partition roll",
-      "PGF acoustic roll",
+      "Ecowool Acoustic Partition Roll",
       "Ecowool acoustic roll",
-      "commercial partition roll"
+      "Ecowool partition roll",
+      "PGF acoustic roll",
+      "commercial glasswool roll",
+      "commercial partition roll",
+      "glasswool acoustic partition roll",
+      "stud wall acoustic roll"
     ],
     "problem_keywords": [
       "sound transfer through partition walls",
@@ -47,8 +50,14 @@
       "easy_install"
     ],
     "use_cases": [
+      "- Catalog Availability Note: If local stock of rolls is limited, map directly",
+      "Acoustic sound absorption in multi-residential drywall cavity walls",
       "Continuous acoustic insulation unrolled in commercial steel stud partitions",
-      "Acoustic sound absorption in multi-residential drywall cavity walls"
+      "For commercial drywall contractors framing",
+      "batts.",
+      "continuous tall partitions (>3m high) who prefer unrolling one continuous",
+      "strip from ceiling track to floor track rather than stacking individual 1.2m",
+      "to ECOWOOL_ACOUSTIC_PARTITION_BATT."
     ],
     "not_for": [
       "External exposed cladding",

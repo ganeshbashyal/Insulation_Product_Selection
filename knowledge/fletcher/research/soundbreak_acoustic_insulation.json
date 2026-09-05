@@ -128,30 +128,49 @@
   "retrieval": {
     "search_keywords": [
       "Fletcher Soundbreak",
-      "Soundbreak acoustic\ninsulation",
       "Fletcher green batts",
-      "high density sound batts",
       "Soundbreak\nR2.0",
+      "Soundbreak R2.0",
       "Soundbreak R2.5",
       "Soundbreak R2.7",
       "Soundbreak R3.1",
-      "pink batts\nsoundbreak",
-      "acoustic wall batts Fletcher"
+      "Soundbreak acoustic\ninsulation",
+      "Soundbreak batts",
+      "acoustic wall batts Fletcher",
+      "high density acoustic batts",
+      "high density sound batts",
+      "pink batts\nsoundbreak"
     ],
     "problem_keywords": [
-      "noisy home\ntheatre room",
-      "hearing conversations between bedrooms",
+      "- Placement: Internal wall, external wall, ceiling, between floors.",
+      "- Positive Recommendation Rule: Australia's benchmark green acoustic batt.",
+      "Noisy home theatre rooms",
+      "R2.0 (70mm) for 70mm timber/steel studs",
+      "R2.5 or R2.7 for 90mm studs around",
+      "R3.1 (110mm) for mid-floor joists between",
       "bathroom plumbing\nnoise through walls",
-      "traffic noise through external walls",
+      "bathroom plumbing pipe rushing sounds",
+      "between storeys.",
+      "conversations heard clearly",
+      "foot traffic",
       "footstep noise\nbetween two storey floors",
-      "internal wall noise dampening"
+      "hearing conversations between bedrooms",
+      "home theatres and bedrooms",
+      "internal wall noise dampening",
+      "noisy home\ntheatre room",
+      "storeys.",
+      "through bedroom walls",
+      "traffic noise through external walls"
     ],
     "placement": [
-      "wall",
-      "internal wall",
-      "external wall",
+      "Internal wall",
+      "between floors",
+      "between floors. - Positive Recommendation Rule: Australia's benchmark green acoustic batt. R2.0 (70mm) for 70mm timber",
       "ceiling",
-      "between floors"
+      "external wall",
+      "internal wall",
+      "steel studs; R2.5 or R2.7 for 90mm studs around home theatres and bedrooms; R3.1 (110mm) for mid-floor joists between storeys",
+      "wall"
     ],
     "priority_fit": [
       "acoustic",
@@ -160,9 +179,15 @@
       "sustainability"
     ],
     "use_cases": [
-      "Internal wall acoustic insulation between bedrooms, home\noffices, and living rooms",
       "Acoustic isolation around media rooms, home\ntheatres, and laundry areas",
-      "Mid-floor acoustic insulation between ground and\nupper levels in multi-storey residences"
+      "Australia's benchmark green acoustic batt.",
+      "Internal wall acoustic insulation between bedrooms, home\noffices, and living rooms",
+      "Mid-floor acoustic insulation between ground and\nupper levels in multi-storey residences",
+      "R2.0 (70mm) for 70mm timber/steel studs",
+      "R2.5 or R2.7 for 90mm studs around",
+      "R3.1 (110mm) for mid-floor joists between",
+      "home theatres and bedrooms",
+      "storeys."
     ],
     "not_for": [
       "Direct underfloor\nexposed to outdoor wind",

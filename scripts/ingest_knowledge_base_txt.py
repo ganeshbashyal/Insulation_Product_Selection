@@ -82,6 +82,14 @@ def parse_placement(body: str) -> list[str]:
     return [p.strip() for p in re.split(r",|/", text) if p.strip()]
 
 
+def parse_priority_fit(body: str) -> list[str]:
+    """Extract `Priority Fit: ["thermal", "fire", ...]` lists."""
+    match = re.search(r'Priority Fit[:\s]*\[(.*?)\]', body, re.S)
+    if not match:
+        return []
+    return [t.strip().strip('"\'') for t in match.group(1).split(",") if t.strip()]
+
+
 def parse_size_table(body: str) -> list[dict]:
     """Extract the tab-separated granular sizing matrix rows (best-effort)."""
     section = re.search(r"Granular Sizing & Dimensional Matrix\n(.*?)(?=\nBot Decision-Making|\Z)", body, re.S)
@@ -117,8 +125,9 @@ def merge_family(family_id: str, body: str, dry_run: bool) -> str:
         "search_keywords": quoted_terms(body, "Search Triggers"),
         "problem_keywords": bullet_list(body, "Problem Triggers"),
         "placement": parse_placement(body),
-        "not_for": bullet_list(body, "Negative Filter"),
+        "not_for": bullet_list(body, "Negative Filter") or bullet_list(body, "not_for"),
         "use_cases": bullet_list(body, "Positive Recommendation Rule"),
+        "priority_fit": parse_priority_fit(body),
     }
     retrieval = {k: v for k, v in retrieval.items() if v}
     substitute = field_text(body, "Substitute Mapping") or field_text(body, "Substitute")

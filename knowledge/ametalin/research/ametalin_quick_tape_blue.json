@@ -60,24 +60,44 @@
       "QuickTape",
       "VapourTech tape",
       "hand tearable sarking tape",
+      "linerless\n    building tape",
       "linerless building tape"
     ],
     "problem_keywords": [
-      "Installer annoyed by release paper blowing all over site on windy days, tape not sticking in sub-zero winter mornings, slow knife-cutting on scaffolding."
+      "- Negative Filter (not_for): Not designed for permanent direct UV sunlight",
+      "- Placement: External wall, wall, roof, roofline, duct penetrations.",
+      "- Positive Recommendation Rule: Recommend for sealing non-woven",
+      "72mm",
+      "Installer annoyed by release paper blowing all over site",
+      "Installer annoyed by release paper blowing all over site on windy days, tape not sticking in sub-zero winter mornings, slow knife-cutting on scaffolding.",
+      "exceeding 60 days (cladding must enclose it).",
+      "for roof sarking and pipe penetrations.",
+      "knife-cutting on scaffolding.",
+      "on windy days, tape not sticking in sub-zero winter mornings, slow",
+      "vapour-permeable wraps (like Ametalin VapourTech). 48mm for wall laps"
     ],
     "placement": [
       "External wall",
       "duct penetrations",
+      "duct penetrations. - Positive Recommendation Rule: Recommend for sealing non-woven vapour-permeable wraps (like Ametalin VapourTech). 48mm for wall laps; 72mm for roof sarking and pipe penetrations. - Negative Filter (not_for): Not designed for permanent direct UV sunlight exceeding 60 days (cladding must enclose it)",
       "roof",
       "roofline",
       "wall"
     ],
     "not_for": [
+      "exceeding 60 days (cladding must enclose it).",
+      "not_for): Not designed for permanent direct UV sunlight",
       "not_for): Not designed for permanent direct UV sunlight exceeding 60 days (cladding must enclose it)."
     ],
     "use_cases": [
+      "- Negative Filter (not_for): Not designed for permanent direct UV sunlight",
+      "72mm",
       "72mm for roof sarking and pipe penetrations.",
-      "Recommend for sealing non-woven vapour-permeable wraps (like Ametalin VapourTech). 48mm for wall laps"
+      "Recommend for sealing non-woven",
+      "Recommend for sealing non-woven vapour-permeable wraps (like Ametalin VapourTech). 48mm for wall laps",
+      "exceeding 60 days (cladding must enclose it).",
+      "for roof sarking and pipe penetrations.",
+      "vapour-permeable wraps (like Ametalin VapourTech). 48mm for wall laps"
     ]
   },
   "source_excerpt": null,

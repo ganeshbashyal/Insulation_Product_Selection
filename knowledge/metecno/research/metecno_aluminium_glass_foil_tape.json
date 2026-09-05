@@ -22,25 +22,38 @@
   },
   "retrieval": {
     "search_keywords": [
+      "Aluminium glass foil tape",
       "Metecno Aluminium Glass Foil Tape",
       "aluminum glass cloth tape",
-      "reinforced foil tape Metecno",
+      "coolroom vapour seal tape",
+      "glass cloth foil\n    tape",
       "glass cloth foil\ntape",
       "insulated panel foil tape",
+      "reinforced foil tape",
+      "reinforced foil tape Metecno",
       "vapor seal foil tape"
     ],
     "problem_keywords": [
-      "vapor leakage at panel joints",
+      "- Placement: Roof, wall, duct, pipe, coolroom panel joint.",
+      "- Positive Recommendation Rule: High tensile strength glass-cloth carrier",
+      "Standard foil tape tearing under structural vibration or",
       "air leaks in coolroom\npanels",
+      "high wind",
       "joining foil faced insulation",
-      "tearing foil tape on insulated\npanels"
+      "panel joints.",
+      "prevents tearing and punctures on heavy commercial ductwork and insulated",
+      "tearing foil tape on insulated\npanels",
+      "vapor leakage at panel joints",
+      "vapour leaks at cold storage panel joints."
     ],
     "placement": [
+      "Roof",
+      "coolroom panel joint. - Positive Recommendation Rule: High tensile strength glass-cloth carrier prevents tearing and punctures on heavy commercial ductwork and insulated panel joints",
+      "duct",
+      "pipe",
       "roof",
       "roofline",
-      "wall",
-      "duct",
-      "pipe"
+      "wall"
     ],
     "priority_fit": [
       "condensation",
@@ -48,9 +61,12 @@
       "thermal"
     ],
     "use_cases": [
+      "High tensile strength glass-cloth carrier",
+      "Sealing\nHVAC ductwork and high-temperature pipe lagging seams",
       "Sealing joints and seams on aluminum-faced and foil-faced insulated panels",
       "Vapor-tight sealing across coolroom and cold storage panel joints",
-      "Sealing\nHVAC ductwork and high-temperature pipe lagging seams"
+      "panel joints.",
+      "prevents tearing and punctures on heavy commercial ductwork and insulated"
     ],
     "not_for": [
       "Structural mechanical load fastening",

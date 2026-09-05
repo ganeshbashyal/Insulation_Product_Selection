@@ -39,24 +39,41 @@
   "retrieval": {
     "search_keywords": [
       "600x600 3D ceiling tiles",
+      "Cube 600x600\n    capped",
       "Cube 600x600 capped",
       "Frame square capped",
       "Vertex square capped",
       "capped acoustic tile 600x600"
     ],
     "problem_keywords": [
+      "- Negative Filter (not_for): Unframed drywall ceilings",
+      "- Placement: Ceiling (600x600 suspended grid).",
+      "- Positive Recommendation Rule: Recommend for 600x600 metric ceiling grids",
+      "Excessive reverberation in corporate meeting rooms",
       "Excessive reverberation in corporate meeting rooms with 600x600 ceiling grids",
-      "desire for a high-end faceted geometric ceiling aesthetic that conceals overhead services."
+      "aesthetic that conceals overhead services.",
+      "desire for a high-end faceted geometric ceiling",
+      "desire for a high-end faceted geometric ceiling aesthetic that conceals overhead services.",
+      "geometry with full plenum concealment and high sound absorption.",
+      "outdoor awnings.",
+      "where client wants faceted pyramid (Vertex) or sunken coffer (Frame)",
+      "with 600x600 ceiling grids"
     ],
     "placement": [
-      "Ceiling (600x600 suspended grid)"
+      "Ceiling (600x600 suspended grid)",
+      "Ceiling (600x600 suspended grid). - Positive Recommendation Rule: Recommend for 600x600 metric ceiling grids where client wants faceted pyramid (Vertex) or sunken coffer (Frame) geometry with full plenum concealment and high sound absorption. - Negative Filter (not_for): Unframed drywall ceilings; outdoor awnings"
     ],
     "not_for": [
       "not_for): Unframed drywall ceilings",
       "outdoor awnings."
     ],
     "use_cases": [
-      "Recommend for 600x600 metric ceiling grids where client wants faceted pyramid (Vertex) or sunken coffer (Frame) geometry with full plenum concealment and high sound absorption."
+      "- Negative Filter (not_for): Unframed drywall ceilings",
+      "Recommend for 600x600 metric ceiling grids",
+      "Recommend for 600x600 metric ceiling grids where client wants faceted pyramid (Vertex) or sunken coffer (Frame) geometry with full plenum concealment and high sound absorption.",
+      "geometry with full plenum concealment and high sound absorption.",
+      "outdoor awnings.",
+      "where client wants faceted pyramid (Vertex) or sunken coffer (Frame)"
     ]
   },
   "source_excerpt": null,

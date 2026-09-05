@@ -22,30 +22,44 @@
   },
   "retrieval": {
     "search_keywords": [
-      "metalised tape",
-      "metalised foil tape",
-      "foil tape",
       "duct tape metalised",
-      "sarking tape",
-      "reflective insulation tape",
+      "duct tape silver",
+      "foil tape",
+      "insulation joining tape",
+      "insulation tape 72mm",
+      "metalised foil tape",
+      "metalised tape",
       "polypropylene metalised tape",
-      "insulation joining tape"
+      "reflective insulation tape",
+      "reflective tape",
+      "sarking\n    tape",
+      "sarking tape",
+      "silver foil tape"
     ],
     "problem_keywords": [
-      "unsealed insulation foil\njoins",
+      "- Placement: Roof, wall, duct, shed.",
+      "- Positive Recommendation Rule: Standard trade solution for sealing laps on",
+      "48mm for wall frames.",
+      "Air leaks and thermal bypass at insulation foil seams",
       "air leakage through sarking seams",
-      "moisture ingress at membrane\noverlaps",
+      "drafts through roof sarking",
       "loose foil insulation joins",
-      "drafts through roof sarking"
+      "moisture ingress at membrane\noverlaps",
+      "reflective building membranes and foil-faced blanket insulation. 72mm is",
+      "standard for roof sarking",
+      "unsealed insulation foil\njoins",
+      "unsealed joins in building sarking and flexible ducting."
     ],
     "placement": [
-      "roof",
-      "roofline",
-      "wall",
+      "Roof",
+      "duct",
       "external wall",
       "internal wall",
-      "duct",
-      "shed"
+      "roof",
+      "roofline",
+      "shed",
+      "shed. - Positive Recommendation Rule: Standard trade solution for sealing laps on reflective building membranes and foil-faced blanket insulation. 72mm is standard for roof sarking; 48mm for wall frames",
+      "wall"
     ],
     "priority_fit": [
       "easy_install",
@@ -53,9 +67,13 @@
       "thermal"
     ],
     "use_cases": [
+      "48mm for wall frames.",
+      "Repairing tears and punctures in aluminium foil building\nmembranes",
       "Sealing overlapping laps of reflective foil building wraps and\nroof sarking",
+      "Standard trade solution for sealing laps on",
       "Taping seams and joints on foil-faced glasswool blankets and\nHVAC duct wraps",
-      "Repairing tears and punctures in aluminium foil building\nmembranes"
+      "reflective building membranes and foil-faced blanket insulation. 72mm is",
+      "standard for roof sarking"
     ],
     "not_for": [
       "Structural mechanical load bearing",

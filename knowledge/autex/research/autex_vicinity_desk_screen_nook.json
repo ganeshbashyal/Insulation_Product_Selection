@@ -116,25 +116,40 @@
   },
   "retrieval": {
     "search_keywords": [
+      "3 sided\n    desk screen",
       "Autex Vicinity Nook",
-      "Vicinity Desk Screen Nook",
-      "three\nsided desk screen",
-      "U shaped desk screen",
-      "acoustic workstation booth",
+      "Cube Nook screen",
       "Nook 1600 desk screen",
       "Nook 1800 desk screen",
-      "Cube Nook screen",
-      "desk\nprivacy booth"
+      "Nook desk screen",
+      "U shaped desk screen",
+      "U-shaped desk screen",
+      "Vicinity Desk Screen Nook",
+      "Vicinity Nook",
+      "acoustic workstation booth",
+      "desk\nprivacy booth",
+      "three\nsided desk screen",
+      "workstation sanctuary screen"
     ],
     "problem_keywords": [
-      "high open plan office noise",
+      "- Placement: Internal partition / desk mount.",
+      "- Positive Recommendation Rule: Highest privacy rating available. Creates an",
+      "Extreme distraction in busy trading floors, legal review",
       "complete\nlack of workstation privacy",
+      "completely on three sides.",
       "distracting peripheral movement at desk",
-      "phone\ncall confidentiality in open office",
+      "high open plan office noise",
+      "individual micro-booth on any standard desk with zero tools or drilling",
       "need 3-sided acoustic desk pod",
+      "offices, or open-plan call centers",
+      "phone\ncall confidentiality in open office",
+      "required.",
+      "requirement to cocoon individual desks",
       "reverberation around individual desks"
     ],
     "placement": [
+      "Internal partition",
+      "desk mount. - Positive Recommendation Rule: Highest privacy rating available. Creates an individual micro-booth on any standard desk with zero tools or drilling required",
       "internal wall"
     ],
     "priority_fit": [
@@ -144,9 +159,12 @@
       "fire"
     ],
     "use_cases": [
-      "Enclosing desks on three sides in open-plan offices to create\ndedicated quiet focus booths",
       "Acoustic isolation for phone-intensive customer\nsupport and telehealth stations",
-      "Creating private study carrels in school,\nuniversity, and public libraries"
+      "Creating private study carrels in school,\nuniversity, and public libraries",
+      "Enclosing desks on three sides in open-plan offices to create\ndedicated quiet focus booths",
+      "Highest privacy rating available. Creates an",
+      "individual micro-booth on any standard desk with zero tools or drilling",
+      "required."
     ],
     "not_for": [
       "Free-standing floor dividers\nwithout desks",

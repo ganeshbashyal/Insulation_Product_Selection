@@ -136,25 +136,42 @@
   },
   "retrieval": {
     "search_keywords": [
+      "K17 Insulated Plasterboard",
       "Kingspan K17",
       "Kooltherm K17",
-      "K17 Insulated Plasterboard",
-      "phenolic insulated\nplasterboard",
-      "drylining insulation",
       "dot and dab insulated plasterboard",
-      "slimline plasterboard insulation",
-      "internal wall insulation K17"
+      "dot-and-dab",
+      "drylining insulation",
+      "internal wall insulation K17",
+      "phenolic insulated\nplasterboard",
+      "plasterboard\n    bonded insulation",
+      "slimline plasterboard insulation"
     ],
     "problem_keywords": [
+      "(\"dot-and-dab\") to masonry, concrete tilt-up, or existing blockwork without",
+      "- Fastener Rule: Minimum 2 mechanical safety anchors per board in addition to",
+      "- Placement: Internal wall, masonry lining, concrete wall.",
+      "- Positive Recommendation Rule: Default product for direct adhesive bonding",
+      "Solid concrete or brick internal walls are freezing cold",
       "cold solid masonry walls",
-      "losing floor space to thick\nwall framing",
       "condensation on concrete basement walls",
+      "condensing on interior blockwork.",
+      "framing a timber/steel stud wall shrinks the room too much",
+      "losing floor space to thick\nwall framing",
+      "masonry adhesive.",
+      "meeting 7 star rating in apartments",
+      "moisture",
       "retrofitting\ninsulation without framing",
-      "meeting 7 star rating in apartments"
+      "stud framing."
     ],
     "placement": [
-      "wall",
-      "internal wall"
+      "Internal wall",
+      "concrete tilt-up",
+      "concrete wall. - Positive Recommendation Rule: Default product for direct adhesive bonding (\"dot-and-dab\") to masonry",
+      "internal wall",
+      "masonry lining",
+      "or existing blockwork without stud framing. - Fastener Rule: Minimum 2 mechanical safety anchors per board in addition to masonry adhesive",
+      "wall"
     ],
     "priority_fit": [
       "thermal",
@@ -162,9 +179,14 @@
       "condensation"
     ],
     "use_cases": [
+      "(\"dot-and-dab\") to masonry, concrete tilt-up, or existing blockwork without",
+      "- Fastener Rule: Minimum 2 mechanical safety anchors per board in addition to",
+      "Default product for direct adhesive bonding",
       "Direct adhesive dot-and-dab\ndrylining on concrete walls and masonry blockwork to eliminate timber stud\nframing",
       "Internal wall thermal retrofits in existing apartments and historic\nsolid-brick buildings where exterior alterations are prohibited",
-      "Slimline\ninternal wall lining to achieve 7-star NatHERS ratings while maximizing usable\nfloor space"
+      "Slimline\ninternal wall lining to achieve 7-star NatHERS ratings while maximizing usable\nfloor space",
+      "masonry adhesive.",
+      "stud framing."
     ],
     "not_for": [
       "Overhead ceiling applications with adhesive only\n(mechanical fixing required)",

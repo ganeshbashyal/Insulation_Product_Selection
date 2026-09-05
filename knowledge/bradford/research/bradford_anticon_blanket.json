@@ -133,34 +133,50 @@
       "Foil must face downward\ntoward the ceiling/attic cavity to function as a vapor barrier and control\ncondensation",
       "Avoid over-compressing blanket directly under roof sheets unless\nusing roof spacer systems"
     ],
-    "warranty": "CSR Bradford Standard Product\nWarranty"
+    "warranty": "CSR Bradford Standard Product\nWarranty",
+    "accessories_upsell": "Bradford 72mm reinforced aluminium foil tape (min. 1 roll per 2 rolls of Anticon) and roof safety wire mesh."
   },
   "retrieval": {
     "search_keywords": [
-      "Bradford Anticon",
       "Anticon\nroofing blanket",
+      "Anticon 100",
       "Anticon 60",
       "Anticon 80",
-      "Anticon 100",
-      "metal roof\nblanket",
-      "foil backed roofing blanket",
-      "rain noise insulation",
-      "under tin\nroof insulation",
+      "Anticon blanket",
       "Anticon foil blanket",
-      "roof condensation blanket"
+      "Bradford Anticon",
+      "foil backed roofing blanket",
+      "metal\n    roof insulation blanket",
+      "metal roof\nblanket",
+      "rain noise blanket",
+      "rain noise insulation",
+      "roof condensation blanket",
+      "under tin\nroof insulation"
     ],
     "problem_keywords": [
-      "condensation dripping from metal roof",
-      "drumming rain\nnoise on corrugated iron",
-      "hot attic under metal deck",
-      "cold metal roof\ncondensation",
+      "- Accessories Upsell: Bradford 72mm reinforced aluminium foil tape (min. 1",
+      "- Placement: Roof, roofline, shed, ceiling.",
+      "- Positive Recommendation Rule: Australia's most specified metal roof blanket.",
+      "Foil face must face downward into the building",
+      "Metal roof condensation dripping into ceiling plaster",
       "bushfire ember entry under metal ridge",
+      "cold metal roof\ncondensation",
+      "condensation dripping from metal roof",
+      "deafening rain noise on tin roofs",
+      "drumming rain\nnoise on corrugated iron",
+      "glasswool must face upward",
+      "hot attic under metal deck",
+      "hot radiant ceiling spaces in summer.",
+      "in direct contact with the metal roof sheeting.",
+      "roll per 2 rolls of Anticon) and roof safety wire mesh.",
       "sweating tin roof in\nwinter"
     ],
     "placement": [
+      "Roof",
+      "ceiling",
+      "ceiling. - Positive Recommendation Rule: Australia's most specified metal roof blanket. Foil face must face downward into the building; glasswool must face upward in direct contact with the metal roof sheeting. - Accessories Upsell: Bradford 72mm reinforced aluminium foil tape (min. 1 roll per 2 rolls of Anticon) and roof safety wire mesh",
       "roof",
       "roofline",
-      "ceiling",
       "shed"
     ],
     "priority_fit": [
@@ -170,9 +186,15 @@
       "fire"
     ],
     "use_cases": [
+      "- Accessories Upsell: Bradford 72mm reinforced aluminium foil tape (min. 1",
+      "Australia's most specified metal roof blanket.",
+      "Bushfire\nzone metal roof installations requiring BAL-12.5 to BAL-FZ compliant ember\nsealing",
+      "Foil face must face downward into the building",
       "Installing directly beneath residential corrugated metal roofing to prevent\nwinter condensation and silence rain noise",
       "Under-roof insulation in\ncommercial warehouses, school gyms, and industrial metal buildings",
-      "Bushfire\nzone metal roof installations requiring BAL-12.5 to BAL-FZ compliant ember\nsealing"
+      "glasswool must face upward",
+      "in direct contact with the metal roof sheeting.",
+      "roll per 2 rolls of Anticon) and roof safety wire mesh."
     ],
     "not_for": [
       "Tiled roofs without metal sheeting",

@@ -1,0 +1,45 @@
+{
+  "family_id": "THERMOTEC_NUWRAP_XTRAFLEX",
+  "family_name": "NuWrap XtraFlex Acoustic Lagging",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {},
+  "retrieval": {
+    "search_keywords": [
+      "675mm pipe lagging",
+      "NuWrap XtraFlex",
+      "XtraFlex pipe lagging",
+      "ceiling",
+      "duct",
+      "flexible pipe lagging",
+      "pipe",
+      "thin acoustic pipe wrap",
+      "wall"
+    ],
+    "problem_keywords": [
+      "- Placement: [\"pipe\", \"duct\", \"ceiling\", \"wall\"]",
+      "- Positive Recommendation Rule: 30% lighter and significantly more pliable",
+      "Narrow ceiling cavities where 29mm convoluted lagging is",
+      "difficult to wrap with stiff lagging.",
+      "small-diameter pipes and complex multi-elbow junctions that are",
+      "than standard NuWrap 5. Specify Half Rolls (675mm wide) for single plumbers",
+      "too bulky",
+      "working in tight ceiling crawlspaces."
+    ],
+    "placement": [
+      "\"ceiling\"",
+      "\"duct\"",
+      "\"wall\"] - Positive Recommendation Rule: 30% lighter and significantly more pliable than standard NuWrap 5. Specify Half Rolls (675mm wide) for single plumbers working in tight ceiling crawlspaces",
+      "[\"pipe\""
+    ],
+    "use_cases": [
+      "30% lighter and significantly more pliable",
+      "than standard NuWrap 5. Specify Half Rolls (675mm wide) for single plumbers",
+      "working in tight ceiling crawlspaces."
+    ]
+  },
+  "source_excerpt": null,
+  "engine": "knowledge_base_txt"
+}

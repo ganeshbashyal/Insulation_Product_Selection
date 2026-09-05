@@ -131,37 +131,62 @@
       "Must be\nmechanically fixed; adhesive alone is not recommended for overhead soffit\ninstallations",
       "Avoid puncturing the foil facing during maintenance to preserve\nthe vapour barrier"
     ],
-    "warranty": "Backed by Fletcher Insulation commercial\nproduct warranty"
+    "warranty": "Backed by Fletcher Insulation commercial\nproduct warranty",
+    "accessories_upsell": "72mm reinforced aluminium foil tape (to seal all butt joints) and concrete insulation drive pins."
   },
   "retrieval": {
     "search_keywords": [
-      "Pink Thermal Slab",
       "Fletcher Thermal Slab",
-      "soffit insulation board",
-      "concrete slab insulation",
-      "carpark soffit insulation",
-      "foil faced glasswool slab",
+      "Fletcher thermal slab",
       "Group 1 soffit\nboard",
+      "Pink Thermal Slab",
       "Pink soffit slab",
       "R2.0 thermal slab",
-      "R2.5 thermal slab"
+      "R2.5 thermal slab",
+      "carpark ceiling insulation board",
+      "carpark soffit insulation",
+      "concrete slab insulation",
+      "concrete soffit board",
+      "foil faced\n    glasswool slab",
+      "foil faced glasswool slab",
+      "soffit insulation board"
     ],
     "problem_keywords": [
-      "cold floors above uninsulated basement carpark",
-      "concrete slab heat loss",
-      "carpark noise reverberation",
-      "meeting NCC Section J\ncarpark ceiling code",
+      "- Accessories Upsell: 72mm reinforced aluminium foil tape (to seal all butt",
+      "- Negative Filter (not_for): Adhesive-only ceiling installation (mechanical",
+      "- Placement: Ceiling (concrete soffits), floor (underside of slab), between",
+      "- Positive Recommendation Rule: Default commercial specification for exposed",
+      "Cold floors in apartments situated above unconditioned",
       "Group 1 fire rating on exposed concrete ceiling",
-      "condensation under concrete roof"
+      "basement car parks",
+      "booming car engine noise and tyre squeal echoing off",
+      "carpark noise reverberation",
+      "cold floors above uninsulated basement carpark",
+      "concrete carpark soffits. Direct-fixed with foil facing downward (exposed to",
+      "concrete slab heat loss",
+      "concrete slabs",
+      "condensation under concrete roof",
+      "direct foot traffic.",
+      "fire-rated board.",
+      "fixings are mandatory)",
+      "floors.",
+      "joints) and concrete insulation drive pins.",
+      "meeting NCC Section J\ncarpark ceiling code",
+      "meeting NCC Section J energy compliance with a Group 1",
+      "per board).",
+      "view) using mechanical masonry pins with 50mm–75mm washers (min. 5–6 fixings"
     ],
     "placement": [
-      "ceiling",
-      "floor",
-      "underfloor",
+      "Ceiling (concrete soffits)",
       "between floors",
+      "between floors. - Positive Recommendation Rule: Default commercial specification for exposed concrete carpark soffits. Direct-fixed with foil facing downward (exposed to view) using mechanical masonry pins with 50mm–75mm washers (min. 5–6 fixings per board). - Negative Filter (not_for): Adhesive-only ceiling installation (mechanical fixings are mandatory); direct foot traffic. - Accessories Upsell: 72mm reinforced aluminium foil tape (to seal all butt joints) and concrete insulation drive pins",
+      "ceiling",
+      "external wall",
+      "floor",
+      "floor (underside of slab)",
       "roof",
-      "wall",
-      "external wall"
+      "underfloor",
+      "wall"
     ],
     "priority_fit": [
       "thermal",
@@ -169,14 +194,28 @@
       "acoustic"
     ],
     "use_cases": [
+      "- Accessories Upsell: 72mm reinforced aluminium foil tape (to seal all butt",
+      "- Negative Filter (not_for): Adhesive-only ceiling installation (mechanical",
+      "Default commercial specification for exposed",
       "Exposed\nthermal and acoustic lining to concrete soffits in commercial underground\ncarparks",
+      "Lining concrete plant rooms and\ntransport terminal ceilings requiring Group 1 fire compliance",
       "Thermal insulation beneath suspended concrete floor slabs separating\nunconditioned basements and apartments",
-      "Lining concrete plant rooms and\ntransport terminal ceilings requiring Group 1 fire compliance"
+      "concrete carpark soffits. Direct-fixed with foil facing downward (exposed to",
+      "direct foot traffic.",
+      "fixings are mandatory)",
+      "joints) and concrete insulation drive pins.",
+      "per board).",
+      "view) using mechanical masonry pins with 50mm–75mm washers (min. 5–6 fixings"
     ],
     "not_for": [
+      "- Accessories Upsell: 72mm reinforced aluminium foil tape (to seal all butt",
       "Direct ground contact under footings",
       "External facades without protective\ncladding",
-      "Timber floor joists (use Pink Batts Floor or Optimo)"
+      "Timber floor joists (use Pink Batts Floor or Optimo)",
+      "direct foot traffic.",
+      "fixings are mandatory)",
+      "joints) and concrete insulation drive pins.",
+      "not_for): Adhesive-only ceiling installation (mechanical"
     ],
     "rag_summary": "Fletcher Pink Thermal Slab is a semi-rigid, foil-faced glasswool\ninsulation board engineered for direct fixing to commercial concrete soffits,\nroofs, and walls. Available in thicknesses from 50mm to 110mm (R1.5 to R3.5)\nwith a 1200mm x 2400mm format, it delivers excellent thermal control for NCC\nSection J compliance while dampening carpark reverberation. Backed by CodeMark\ncertification (CM 30006) and an AS 5637.1 Group 1 fire rating, it provides an\naesthetic, non-combustible thermal barrier beneath commercial concrete slabs."
   },

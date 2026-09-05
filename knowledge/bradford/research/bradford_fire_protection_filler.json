@@ -97,39 +97,69 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Bradford Fireseal Batten Fillers",
-      "Fire Protection Filler",
-      "party wall batten\nfiller",
-      "metal batten fire stop",
       "40mm batten filler",
+      "40mm roof batten firestop",
+      "Batten Fillers",
+      "Bradford 125418",
+      "Bradford Fireseal Batten Fillers",
+      "CSR batten filler 125418",
+      "Fire Protection Filler",
+      "Fireseal Batten Fillers",
+      "metal batten fire\n    plugs",
+      "metal batten fire stop",
+      "party wall batten\nfiller",
+      "party wall batten filler",
       "rockwool batten\ninsert",
-      "roof batten firestop",
-      "CSR batten filler 125418"
+      "roof batten firestop"
     ],
     "problem_keywords": [
+      "- Negative Filter (not_for): Not for broad cavity expansion joints (use Party",
+      "- Placement: Roof, roofline, ceiling, internal wall junction.",
+      "- Positive Recommendation Rule: Mandatory Deemed-to-Satisfy requirement under",
+      "Fire and hot smoke bypassing inter-tenancy party walls",
+      "NCC Class 1",
+      "NCC Part 9.3 for multi-residential townhouses and duplexes where steel roof",
+      "NCC separating wall batten compliance",
+      "Wall Batts 100x168mm)",
       "fire spread through roof battens",
       "hollow metal batten\nfire bypass",
+      "not for timber battens.",
+      "or ceiling battens run continuously over a separating party wall. One filler",
       "party wall roof junction fire rating",
+      "per continuous batten crossing the wall line.",
       "sealing steel battens\nover party wall",
-      "NCC separating wall batten compliance"
+      "separating wall inspection failure.",
+      "through continuous hollow steel roof or ceiling battens"
     ],
     "placement": [
-      "roof",
-      "roofline",
+      "Roof",
       "ceiling",
-      "internal wall"
+      "internal wall",
+      "internal wall junction. - Positive Recommendation Rule: Mandatory Deemed-to-Satisfy requirement under NCC Part 9.3 for multi-residential townhouses and duplexes where steel roof or ceiling battens run continuously over a separating party wall. One filler per continuous batten crossing the wall line. - Negative Filter (not_for): Not for broad cavity expansion joints (use Party Wall Batts 100x168mm); not for timber battens",
+      "roof",
+      "roofline"
     ],
     "priority_fit": [
       "fire"
     ],
     "use_cases": [
+      "- Negative Filter (not_for): Not for broad cavity expansion joints (use Party",
       "Filling continuous 40mm steel roof battens crossing fire-rated\ninter-tenancy walls in townhouses",
-      "Sealing ceiling battens at party wall\njunctions in Class 1 multi-residential duplexes"
+      "Mandatory Deemed-to-Satisfy requirement under",
+      "NCC Part 9.3 for multi-residential townhouses and duplexes where steel roof",
+      "Sealing ceiling battens at party wall\njunctions in Class 1 multi-residential duplexes",
+      "Wall Batts 100x168mm)",
+      "not for timber battens.",
+      "or ceiling battens run continuously over a separating party wall. One filler",
+      "per continuous batten crossing the wall line."
     ],
     "not_for": [
-      "Full-width\nwall cavity filling",
       "Acoustic room partition batts",
-      "Underfloor timber floor\ninsulation"
+      "Full-width\nwall cavity filling",
+      "Underfloor timber floor\ninsulation",
+      "Wall Batts 100x168mm)",
+      "not for timber battens.",
+      "not_for): Not for broad cavity expansion joints (use Party"
     ],
     "rag_summary": "Bradford Fire Protection - Filler (Fireseal Party\nWall Batten Fillers) are pre-formed non-combustible rockwool inserts\nmeasuring 100mm x 40mm, designed specifically to plug continuous metal roof and\nceiling battens passing over party walls in Class 1 buildings. They prevent\nfire, embers, and hot gases from channeling through hollow metal batten cavities\nacross inter-tenancy boundaries. Certified non-combustible to AS 1530.1 and\ntested to AS/NZS 1530.3, they are a critical Deemed-to-Satisfy component of\ncompliant multi-residential passive fire containment systems."
   },

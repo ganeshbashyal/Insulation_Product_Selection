@@ -48,19 +48,31 @@
   "retrieval": {
     "search_keywords": [
       "3D printed sawtooth battens",
+      "Acoustic Timber\n    Sawtooth",
       "Acoustic Timber Sawtooth",
       "Printed Lanes Sawtooth",
       "timber zigzag acoustic wall"
     ],
     "problem_keywords": [
-      "High echo in corporate boardrooms and auditoriums requiring high acoustic absorption (NRC 0.85) and an asymmetrical woodgrain feature wall."
+      "- Placement: Wall, internal wall.",
+      "- Positive Recommendation Rule: Highest acoustic absorption in the printed",
+      "High echo in corporate boardrooms and auditoriums",
+      "High echo in corporate boardrooms and auditoriums requiring high acoustic absorption (NRC 0.85) and an asymmetrical woodgrain feature wall.",
+      "batten collection. Delivers class-leading speech privacy and directional",
+      "feature wall.",
+      "requiring high acoustic absorption (NRC 0.85) and an asymmetrical woodgrain",
+      "shadow lines."
     ],
     "placement": [
       "Wall",
-      "internal wall"
+      "internal wall",
+      "internal wall. - Positive Recommendation Rule: Highest acoustic absorption in the printed batten collection. Delivers class-leading speech privacy and directional shadow lines"
     ],
     "use_cases": [
-      "Highest acoustic absorption in the printed batten collection. Delivers class-leading speech privacy and directional shadow lines."
+      "Highest acoustic absorption in the printed",
+      "Highest acoustic absorption in the printed batten collection. Delivers class-leading speech privacy and directional shadow lines.",
+      "batten collection. Delivers class-leading speech privacy and directional",
+      "shadow lines."
     ]
   },
   "source_excerpt": null,

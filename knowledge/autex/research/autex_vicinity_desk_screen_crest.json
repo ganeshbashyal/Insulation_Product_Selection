@@ -111,25 +111,40 @@
   },
   "retrieval": {
     "search_keywords": [
+      "Autex Crest desk screen",
       "Autex Vicinity Crest",
-      "Vicinity\nDesk Screen Crest",
-      "acoustic desk screen Crest",
-      "desk privacy screen Autex",
-      "acoustic desk divider 1600",
-      "curved desk acoustic screen",
-      "pinnable desk\nscreen",
       "Cube desk divider",
-      "clamp on desk screen"
+      "Vicinity\nDesk Screen Crest",
+      "Vicinity Crest",
+      "acoustic desk divider 1600",
+      "acoustic desk screen Crest",
+      "clamp on acoustic\n    screen",
+      "clamp on desk screen",
+      "curved desk acoustic screen",
+      "desk privacy screen Autex",
+      "pinnable desk\nscreen",
+      "wave desk divider"
     ],
     "problem_keywords": [
+      "- Placement: Internal partition / desk mount.",
+      "- Positive Recommendation Rule: Recommend for 1600mm wide workstations where",
+      "Office chatter carrying across open-plan desk rows",
+      "desk partition without drilling",
       "distracting open plan office noise",
-      "lack of privacy between desks",
       "echo in\nopen plan workstation",
+      "expensive desks.",
       "keyboard chatter noise",
+      "keyboard noise distraction",
+      "lack of privacy between desks",
+      "need for privacy dividers without drilling into",
       "need non destructive desk\nscreen",
-      "desk partition without drilling"
+      "users prefer an organic, curved wave profile that provides visual modesty",
+      "without blocking communication."
     ],
     "placement": [
+      "Internal partition",
+      "curved wave profile that provides visual modesty without blocking communication",
+      "desk mount. - Positive Recommendation Rule: Recommend for 1600mm wide workstations where users prefer an organic",
       "internal wall"
     ],
     "priority_fit": [
@@ -139,9 +154,12 @@
       "fire"
     ],
     "use_cases": [
+      "Creating pinnable, sound-absorbing\nbarriers in university computer labs and study halls",
       "Dividing facing desks in commercial open-plan offices to\nmitigate conversational distractions",
       "Providing personal acoustic shelter and\nvisual privacy in co-working spaces",
-      "Creating pinnable, sound-absorbing\nbarriers in university computer labs and study halls"
+      "Recommend for 1600mm wide workstations where",
+      "users prefer an organic, curved wave profile that provides visual modesty",
+      "without blocking communication."
     ],
     "not_for": [
       "Direct\nfloor standing partition without feet or frame",

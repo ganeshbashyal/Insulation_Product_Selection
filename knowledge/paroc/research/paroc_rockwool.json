@@ -109,32 +109,47 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Paroc Rockwool",
-      "Paroc stone wool",
-      "Paroc insulation",
-      "volcanic rockwool",
-      "Paroc fire slab",
-      "non-combustible stone wool",
+      "1000 degree rockwool",
       "Paroc\nacoustic batts",
+      "Paroc Rockwool",
       "Paroc facade insulation",
-      "1000 degree rockwool"
+      "Paroc fire slab",
+      "Paroc insulation",
+      "Paroc rockwool",
+      "Paroc stone wool",
+      "Paroc wired\n    mat",
+      "non-combustible rockwool slab",
+      "non-combustible stone wool",
+      "volcanic rockwool",
+      "volcanic rockwool batts"
     ],
     "problem_keywords": [
+      "- Placement: External wall, curtain wall, roof, pipe, duct, industrial vessel.",
+      "- Positive Recommendation Rule: High-performance non-combustible insulation",
+      "Extreme fire risk in commercial facades",
+      "acoustic noise transfer through\ncommercial walls",
       "flammable insulation risks in high-rise buildings",
       "high\ntemperature melting of insulation in fire",
-      "acoustic noise transfer through\ncommercial walls",
+      "industrial boiler",
+      "made from volcanic basalt rock. Melting point >1000°C.",
       "meeting non-combustible building code AS 1530.1",
+      "non-combustible compliance mandates.",
+      "or pipe temperatures exceeding glasswool limits (>350°C)",
+      "strict AS 1530.1",
       "thermal\nloss through commercial facade"
     ],
     "placement": [
-      "wall",
-      "external wall",
-      "internal wall",
+      "External wall",
       "ceiling",
-      "roof",
+      "curtain wall",
+      "duct",
+      "external wall",
       "floor",
+      "industrial vessel. - Positive Recommendation Rule: High-performance non-combustible insulation made from volcanic basalt rock. Melting point >1000°C",
+      "internal wall",
       "pipe",
-      "duct"
+      "roof",
+      "wall"
     ],
     "priority_fit": [
       "fire",
@@ -143,9 +158,11 @@
       "sustainability"
     ],
     "use_cases": [
+      "High-performance non-combustible insulation",
+      "High-temperature thermal and\nacoustic insulation on industrial pipework, boilers, and plant rooms",
       "Non-combustible external wall and rainscreen facade insulation on multi-storey\ncommercial towers",
       "Passive fire containment and sound insulation in party\nwalls, drywall partitions, and service shafts",
-      "High-temperature thermal and\nacoustic insulation on industrial pipework, boilers, and plant rooms"
+      "made from volcanic basalt rock. Melting point >1000°C."
     ],
     "not_for": [
       "Direct unshielded exposure to permanent outdoor weather",

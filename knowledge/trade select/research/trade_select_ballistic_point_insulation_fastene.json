@@ -65,7 +65,54 @@
       "Box qty"
     ]
   },
-  "retrieval": {},
+  "retrieval": {
+    "search_keywords": [
+      "Ballistic point insulation fasteners",
+      "GTIF\n    fasteners",
+      "ICCONS insulation pins",
+      "ceiling",
+      "concrete soffit pins 60mm",
+      "easy_install",
+      "external wall",
+      "floor",
+      "gas nail insulation fasteners",
+      "thermal",
+      "underfloor",
+      "wall"
+    ],
+    "problem_keywords": [
+      "- Placement: [\"ceiling\", \"wall\", \"external wall\", \"floor\", \"underfloor\"]",
+      "- Positive Recommendation Rule: The fastest mechanical fixing method for",
+      "- Priority Fit: [\"easy_install\", \"thermal\"]",
+      "Overhead drilling into cured concrete carpark ceilings is",
+      "Pink Thermal Slab, XPS) directly into concrete in under 3 seconds per fixing",
+      "anchors pull out of masonry.",
+      "commercial carparks and basements. Installs rigid boards (Kooltherm K10,",
+      "exhausting, slow, and creates hazardous silica dust",
+      "standard insulation",
+      "with zero drilling."
+    ],
+    "placement": [
+      "\"external wall\"",
+      "\"floor\"",
+      "\"thermal\"] - Positive Recommendation Rule: The fastest mechanical fixing method for commercial carparks and basements. Installs rigid boards (Kooltherm K10",
+      "\"underfloor\"] - Priority Fit: [\"easy_install\"",
+      "\"wall\"",
+      "Pink Thermal Slab",
+      "XPS) directly into concrete in under 3 seconds per fixing with zero drilling",
+      "[\"ceiling\""
+    ],
+    "use_cases": [
+      "Pink Thermal Slab, XPS) directly into concrete in under 3 seconds per fixing",
+      "The fastest mechanical fixing method for",
+      "commercial carparks and basements. Installs rigid boards (Kooltherm K10,",
+      "with zero drilling."
+    ],
+    "priority_fit": [
+      "easy_install",
+      "thermal"
+    ]
+  },
   "source_excerpt": null,
   "engine": "manual_range_injection",
   "range_source": "manufacturer size/packaging breakdown (hand-supplied 2026-09-06)"

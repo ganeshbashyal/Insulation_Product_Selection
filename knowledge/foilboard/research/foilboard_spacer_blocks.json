@@ -95,37 +95,60 @@
   },
   "retrieval": {
     "search_keywords": [
+      "20mm airspace spacers",
+      "20mm cavity spacers",
+      "25mm airspace blocks",
+      "25mm insulation\nspacers",
+      "EPS spacer blocks",
       "Foilboard Spacer Blocks",
+      "Foilboard cavity spacers",
       "Foilboard spacers",
       "insulation\nspacer blocks",
-      "EPS spacer blocks",
-      "20mm airspace spacers",
-      "25mm insulation\nspacers",
-      "Foilboard cavity spacers",
       "reflective airspace blocks"
     ],
     "problem_keywords": [
-      "insulation touching cladding losing R-value",
-      "maintaining 20mm air gap for foil insulation",
+      "(solvents dissolve EPS",
+      "- Placement: Wall, external wall, internal wall, ceiling, shed.",
+      "- Positive Recommendation Rule: Recommend when Foilboard is installed in",
+      "- Warning Rule: Do not use solvent-based adhesives to stick spacer blocks",
       "Foilboard bowing into wall\ncavity",
+      "Foilboard bowing or pressing flat against brickwork or",
+      "approximately 1 block per m² (or 4–6 per sheet) to maintain a",
+      "cavity brick or behind external cladding without battens. Space at",
+      "cladding pushing against\ninsulation board",
+      "cladding, eliminating the still airspace and losing up to R1.5 in thermal",
+      "insulation touching cladding losing R-value",
       "loss of reflective insulation performance",
-      "cladding pushing against\ninsulation board"
+      "maintaining 20mm air gap for foil insulation",
+      "non-collapsible 20mm/25mm airspace.",
+      "rating.",
+      "use water-based or polyurethane glues)."
     ],
     "placement": [
-      "wall",
+      "25mm airspace. - Warning Rule: Do not use solvent-based adhesives to stick spacer blocks (solvents dissolve EPS; use water-based or polyurethane glues)",
+      "Wall",
+      "ceiling",
       "external wall",
       "internal wall",
-      "ceiling",
-      "shed"
+      "shed",
+      "shed. - Positive Recommendation Rule: Recommend when Foilboard is installed in cavity brick or behind external cladding without battens. Space at approximately 1 block per m² (or 4–6 per sheet) to maintain a non-collapsible 20mm",
+      "wall"
     ],
     "priority_fit": [
       "thermal",
       "easy_install"
     ],
     "use_cases": [
+      "(solvents dissolve EPS",
+      "- Warning Rule: Do not use solvent-based adhesives to stick spacer blocks",
       "Maintaining a guaranteed 20mm or 25mm reflective airspace behind external\nwall claddings",
       "Preventing Foilboard panels from flexing into cavity brickwork\nor lightweight cladding",
-      "Spacing panels off masonry walls to create a still\nreflective thermal cavity"
+      "Recommend when Foilboard is installed in",
+      "Spacing panels off masonry walls to create a still\nreflective thermal cavity",
+      "approximately 1 block per m² (or 4–6 per sheet) to maintain a",
+      "cavity brick or behind external cladding without battens. Space at",
+      "non-collapsible 20mm/25mm airspace.",
+      "use water-based or polyurethane glues)."
     ],
     "not_for": [
       "Structural cladding support",

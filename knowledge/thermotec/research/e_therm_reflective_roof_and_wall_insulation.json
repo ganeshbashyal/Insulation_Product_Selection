@@ -57,9 +57,84 @@
       "Roll dia",
       "Weight",
       "Pallet"
+    ],
+    "accessories_upsell": "Thermotec 72mm Ezy Tear reinforced aluminium foil tape."
+  },
+  "retrieval": {
+    "search_keywords": [
+      "E-Therm 65",
+      "E-Therm 80",
+      "E-Therm insulation",
+      "E-Therm shed wrap",
+      "R0.2 thermal\n    break roll",
+      "Thermotec E-Therm",
+      "condensation",
+      "easy_install",
+      "external wall",
+      "fire",
+      "floor",
+      "reflective foam insulation",
+      "roof",
+      "roofline",
+      "shed",
+      "thermal",
+      "underfloor",
+      "wall"
+    ],
+    "problem_keywords": [
+      "- Accessories Upsell: Thermotec 72mm Ezy Tear reinforced aluminium foil tape.",
+      "- For domestic metal sheds: Specify E-Therm 50 or E-Therm 65.",
+      "- For residential/commercial steel frames: Specify E-Therm 65 (6.5mm) to",
+      "- Negative Filter (not_for): Cold-climate walls requiring Class 4",
+      "- Placement: [\"roof\", \"roofline\", \"wall\", \"external wall\", \"underfloor\",",
+      "- Positive Recommendation Rule:",
+      "- Priority Fit: [\"thermal\", \"condensation\", \"fire\", \"easy_install\"]",
+      "Thermal bridging across steel framing studs",
+      "direct floor traffic without subflooring.",
+      "floor\", \"shed\"]",
+      "hot tin sheds in summer",
+      "loud rain drumming",
+      "meet the mandatory NCC in-situ R0.20 thermal break.",
+      "metal roofs",
+      "noise.",
+      "sweating and dripping in winter",
+      "vapour-permeable wraps"
+    ],
+    "placement": [
+      "\"condensation\"",
+      "\"easy_install\"] - Positive Recommendation Rule: - For residential",
+      "\"external wall\"",
+      "\"fire\"",
+      "\"floor\"",
+      "\"roofline\"",
+      "\"shed\"] - Priority Fit: [\"thermal\"",
+      "\"underfloor\"",
+      "\"wall\"",
+      "[\"roof\"",
+      "commercial steel frames: Specify E-Therm 65 (6.5mm) to meet the mandatory NCC in-situ R0.20 thermal break. - For domestic metal sheds: Specify E-Therm 50 or E-Therm 65. - Negative Filter (not_for): Cold-climate walls requiring Class 4 vapour-permeable wraps; direct floor traffic without subflooring. - Accessories Upsell: Thermotec 72mm Ezy Tear reinforced aluminium foil tape"
+    ],
+    "not_for": [
+      "- Accessories Upsell: Thermotec 72mm Ezy Tear reinforced aluminium foil tape.",
+      "direct floor traffic without subflooring.",
+      "not_for): Cold-climate walls requiring Class 4",
+      "vapour-permeable wraps"
+    ],
+    "use_cases": [
+      "- Accessories Upsell: Thermotec 72mm Ezy Tear reinforced aluminium foil tape.",
+      "- For domestic metal sheds: Specify E-Therm 50 or E-Therm 65.",
+      "- Negative Filter (not_for): Cold-climate walls requiring Class 4",
+      "For residential/commercial steel frames: Specify E-Therm 65 (6.5mm) to",
+      "direct floor traffic without subflooring.",
+      "meet the mandatory NCC in-situ R0.20 thermal break.",
+      "vapour-permeable wraps"
+    ],
+    "priority_fit": [
+      "condensation",
+      "easy_install",
+      "fire",
+      "thermal"
     ]
   },
-  "retrieval": {},
   "source_excerpt": null,
   "engine": "manual_range_injection",
   "range_source": "manufacturer size/packaging breakdown (hand-supplied 2026-09-06)"

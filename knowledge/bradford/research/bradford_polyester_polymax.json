@@ -121,29 +121,45 @@
   "retrieval": {
     "search_keywords": [
       "Bradford\nPolymax",
-      "Polymax insulation",
-      "Polymax wall batts",
-      "polyester wall\ninsulation",
+      "Bradford Polymax",
       "Bradford polyester batts",
-      "non itchy wall batts",
-      "itch free\ninsulation",
       "Polymax R2.0",
       "Polymax R2.5",
-      "polyester thermal batts"
+      "Polymax insulation",
+      "Polymax wall batts",
+      "hypoallergenic insulation",
+      "itch free\ninsulation",
+      "non itchy wall batts",
+      "non-itch wall batts",
+      "polyester thermal batts",
+      "polyester wall\ninsulation",
+      "polyester wall insulation"
     ],
     "problem_keywords": [
-      "itchy fiberglass insulation",
+      "- Placement: Wall, internal wall, external wall, between floors.",
+      "- Positive Recommendation Rule: Bradford's dedicated polyester line. 100%",
+      "Customer dislikes glasswool fibers",
+      "asthma concerns",
+      "asthma safe\nwall insulation",
       "cold rooms in winter",
       "hot walls in summer",
-      "sound transfer through internal walls",
-      "asthma safe\nwall insulation",
-      "slumping wall batts"
+      "installer refuses to wear protective coveralls.",
+      "itchy fiberglass insulation",
+      "recyclable, zero chemical binders, Sensitive Choice approved.",
+      "skin allergies or",
+      "slumping wall batts",
+      "sound transfer through internal walls"
     ],
     "placement": [
-      "wall",
-      "internal\nwall",
+      "Sensitive Choice approved",
+      "Wall",
+      "between floors",
+      "between floors. - Positive Recommendation Rule: Bradford's dedicated polyester line. 100% recyclable",
       "external wall",
-      "between floors"
+      "internal\nwall",
+      "internal wall",
+      "wall",
+      "zero chemical binders"
     ],
     "priority_fit": [
       "sustainability",
@@ -152,9 +168,11 @@
       "acoustic"
     ],
     "use_cases": [
-      "Insulating external\ntimber-frame walls in new residential builds for thermal control without itchy\nglasswool fibres",
       "Acoustic and thermal partition insulation in internal walls\nof asthma and allergy-sensitive homes",
-      "Mid-floor acoustic and thermal infill\nbetween ground and first-floor living spaces"
+      "Bradford's dedicated polyester line. 100%",
+      "Insulating external\ntimber-frame walls in new residential builds for thermal control without itchy\nglasswool fibres",
+      "Mid-floor acoustic and thermal infill\nbetween ground and first-floor living spaces",
+      "recyclable, zero chemical binders, Sensitive Choice approved."
     ],
     "not_for": [
       "Commercial\nfire-rated wall assemblies requiring AS 1530.1 non-combustibility",

@@ -124,26 +124,46 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Fletcher\nFI24",
-      "FI24 Flexible Ductliner",
       "24kg ductliner",
-      "flexible glasswool\nductliner",
-      "coil line duct insulation",
-      "automated duct liner",
-      "internal duct\ninsulation roll",
+      "FI24 Flexible Ductliner",
+      "FI24 ductliner",
+      "Fletcher\nFI24",
+      "Fletcher FI24",
       "Fletcher HVAC ductliner",
+      "automated duct liner",
+      "automatic duct making\n    insulation",
+      "coil line duct insulation",
+      "coil line insulation roll",
+      "flexible\n    ductliner 24kg",
+      "flexible glasswool\nductliner",
+      "internal duct\ninsulation roll",
       "perforated foil ductliner"
     ],
     "problem_keywords": [
+      "- Negative Filter (not_for): External duct wrap lagging (use Permastop or FI22",
+      "- Placement: Duct, internal sheet metal air conditioning ductwork.",
+      "- Positive Recommendation Rule: Specifically engineered for mechanical duct",
+      "32kg boards are too rigid for automated coil line bending",
+      "Ductwrap)",
       "HVAC airflow noise",
-      "fan rumble in supply ducts",
+      "and fed-through duct machines",
+      "ductliner\ndelamination in air stream",
       "ductwork condensation",
+      "fabricators using automated coil lines. 24 kg/m³ density allows",
+      "fan rumble in supply ducts",
+      "need flexible rolls that retain resilience",
+      "sharp 90-degree internal brake-press bending without tearing or crimping.",
       "thermal loss in sheet metal ducts",
-      "ductliner\ndelamination in air stream"
+      "unsupported high-velocity ducts >20 m/s without pins.",
+      "without delaminating around 90° duct corners."
     ],
     "placement": [
+      "Duct",
       "duct",
+      "internal sheet metal air conditioning ductwork. - Positive Recommendation Rule: Specifically engineered for mechanical duct fabricators using automated coil lines. 24 kg",
       "internal wall",
+      "m³ density allows sharp 90-degree internal brake-press bending without tearing or crimping. - Negative Filter (not_for): External duct wrap lagging (use Permastop or FI22 Ductwrap); unsupported high-velocity ducts >20 m",
+      "s without pins",
       "wall"
     ],
     "priority_fit": [
@@ -152,14 +172,23 @@
       "easy_install"
     ],
     "use_cases": [
+      "- Negative Filter (not_for): External duct wrap lagging (use Permastop or FI22",
+      "Acoustic dampening in low-to-medium velocity air\nhandling duct runs",
+      "Ductwrap)",
       "Internal thermal and acoustic lining of sheet metal ductwork fabricated using\nautomated coil lines",
       "Lining HVAC plenum chambers and mixing boxes to suppress\nfan turbulence noise",
-      "Acoustic dampening in low-to-medium velocity air\nhandling duct runs"
+      "Specifically engineered for mechanical duct",
+      "fabricators using automated coil lines. 24 kg/m³ density allows",
+      "sharp 90-degree internal brake-press bending without tearing or crimping.",
+      "unsupported high-velocity ducts >20 m/s without pins."
     ],
     "not_for": [
+      "Ductwrap)",
       "External duct wrap lagging (use FI22\nDuctwrap or General Purpose Blanket)",
+      "High-temperature boiler exhausts",
       "Unsheltered outdoor HVAC ductwork",
-      "High-temperature boiler exhausts"
+      "not_for): External duct wrap lagging (use Permastop or FI22",
+      "unsupported high-velocity ducts >20 m/s without pins."
     ],
     "rag_summary": "Fletcher FI24 Flexible\nDuctliner is a 24 kg/m³ flexible glasswool internal duct lining roll\nspecifically engineered for automated coil-line and sheet metal duct\nmanufacturing. Combining the compressive recovery of a board with the\nflexibility of a blanket, it dampens airflow turbulence and equipment noise\nwhile delivering thermal ratings from R0.7 to R2.0. Non-combustible (AS 1530.1)\nand compliant with AS 4254, it is available unfaced or laminated with HDP\nperforated foil, Black Matt Facing, or Vapastop 883."
   },

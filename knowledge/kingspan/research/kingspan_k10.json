@@ -128,34 +128,57 @@
       "Not designed for external weather exposure without protective\ncladding",
       "Operating temperature must not exceed 100°C continuous exposure"
     ],
-    "warranty": "10-year project-specific warranty"
+    "warranty": "10-year project-specific warranty",
+    "accessories_upsell": "Kingspan 72mm reinforced foil tape (Silver or White)."
   },
   "retrieval": {
     "search_keywords": [
-      "Kingspan K10",
-      "Kooltherm K10 G2",
-      "K10 Soffit Board",
+      "Group 2 soffit board",
+      "K10 G2",
       "K10 G2W White",
       "K10 Plus",
-      "phenolic soffit board",
+      "K10 Soffit Board",
+      "K10 white",
+      "Kingspan K10",
+      "Kingspan concrete ceiling\n    insulation",
+      "Kingspan soffit\ninsulation",
+      "Kooltherm K10",
+      "Kooltherm K10 G2",
       "concrete carpark\ninsulation",
-      "rigid soffit board",
-      "Group 2 soffit board",
-      "Kingspan soffit\ninsulation"
+      "phenolic carpark board",
+      "phenolic soffit board",
+      "rigid soffit board"
     ],
     "problem_keywords": [
-      "cold floors above concrete carpark",
-      "low\nceiling clearance in basement",
-      "carpark soffit heat loss",
-      "meeting NCC Section\nJ soffit requirements",
+      "- Accessories Upsell: Kingspan 72mm reinforced foil tape (Silver or White).",
+      "- Fastener Rule: Minimum 5–6 mechanical insulation anchors with ≥35mm washer",
+      "- Placement: Ceiling, concrete soffits, floor underside, between floors.",
+      "- Positive Recommendation Rule: The industry standard for concrete carpark",
       "Group 2 fire compliant ceiling insulation",
-      "flammable\npolystyrene melting on soffits"
+      "Low ceiling height clearance in basement carparks",
+      "basements requiring high light reflectance.",
+      "carpark soffit heat loss",
+      "ceilings. Delivers R2.4 in just 50mm thickness. Select K10 G2 (Silver) for",
+      "cold floors above concrete carpark",
+      "concrete slab thermal loss",
+      "flammable\npolystyrene melting on soffits",
+      "heads per board.",
+      "industrial parking",
+      "low\nceiling clearance in basement",
+      "meeting NCC Section\nJ soffit requirements",
+      "meeting NCC Section J energy compliance without",
+      "select K10 G2W (White) for public carparks and retail",
+      "thick, sagging batts."
     ],
     "placement": [
+      "Ceiling",
+      "between floors",
+      "between floors. - Positive Recommendation Rule: The industry standard for concrete carpark ceilings. Delivers R2.4 in just 50mm thickness. Select K10 G2 (Silver) for industrial parking; select K10 G2W (White) for public carparks and retail basements requiring high light reflectance. - Fastener Rule: Minimum 5–6 mechanical insulation anchors with ≥35mm washer heads per board. - Accessories Upsell: Kingspan 72mm reinforced foil tape (Silver or White)",
       "ceiling",
-      "underfloor",
+      "concrete soffits",
       "floor",
-      "between floors"
+      "floor underside",
+      "underfloor"
     ],
     "priority_fit": [
       "thermal",
@@ -163,9 +186,17 @@
       "easy_install"
     ],
     "use_cases": [
+      "- Accessories Upsell: Kingspan 72mm reinforced foil tape (Silver or White).",
+      "- Fastener Rule: Minimum 5–6 mechanical insulation anchors with ≥35mm washer",
+      "Direct\nceiling insulation in institutional and health facilities requiring clean white\naesthetics (K10 G2W)",
       "Exposed thermal insulation beneath concrete carpark soffits\nin commercial and multi-residential buildings",
+      "The industry standard for concrete carpark",
       "Thermal lining to suspended\nconcrete floor slabs separating unconditioned basements and apartments",
-      "Direct\nceiling insulation in institutional and health facilities requiring clean white\naesthetics (K10 G2W)"
+      "basements requiring high light reflectance.",
+      "ceilings. Delivers R2.4 in just 50mm thickness. Select K10 G2 (Silver) for",
+      "heads per board.",
+      "industrial parking",
+      "select K10 G2W (White) for public carparks and retail"
     ],
     "not_for": [
       "Direct ground contact under footings",

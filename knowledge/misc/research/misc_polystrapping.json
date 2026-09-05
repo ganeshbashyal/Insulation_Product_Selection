@@ -22,26 +22,46 @@
   },
   "retrieval": {
     "search_keywords": [
-      "polystrapping\ninsulation",
+      "Bradfix strapping",
+      "Polystrapping",
+      "batt\n    strapping",
+      "batt\nstrapping",
       "insulation strapping",
-      "underfloor strapping",
-      "poly strapping\nroll",
       "plastic insulation strapping",
+      "poly strapping\nroll",
+      "poly strapping 19mm",
       "polypropylene strapping 19mm",
-      "batt\nstrapping"
+      "polystrapping\ninsulation",
+      "underfloor strapping"
     ],
     "problem_keywords": [
-      "underfloor batts falling down",
-      "sagging\nceiling batts during construction",
+      "- Negative Filter (not_for): Not a structural bracing strap (use metal",
+      "- Placement: Underfloor, floor, subfloor joists, cathedral ceiling rafters.",
+      "- Positive Recommendation Rule: Essential companion product for",
+      "BRADFORD_OPTIMO, POLYESTER_SOLUTIONS_UNDER_FLOOR_ROLLS_POLYFB, and any",
+      "Underfloor insulation batts sagging or falling out from",
+      "ceiling batts dropping down in cathedral roofs before plasterboard",
+      "fibrous underfloor installation. Stapled across joists at 400mm–500mm",
       "holding insulation in joists",
       "insulation\nbatts dropping out of subfloor",
-      "supporting overhead batts"
+      "intervals to cradle batts permanently.",
+      "is hung.",
+      "joists",
+      "sagging\nceiling batts during construction",
+      "strapping for wall frame shear bracing).",
+      "supporting overhead batts",
+      "underfloor batts falling down"
     ],
     "placement": [
-      "underfloor",
+      "POLYESTER_SOLUTIONS_UNDER_FLOOR_ROLLS_POLYFB",
+      "Underfloor",
+      "and any fibrous underfloor installation. Stapled across joists at 400mm–500mm intervals to cradle batts permanently. - Negative Filter (not_for): Not a structural bracing strap (use metal strapping for wall frame shear bracing)",
+      "cathedral ceiling rafters. - Positive Recommendation Rule: Essential companion product for BRADFORD_OPTIMO",
+      "ceiling",
       "floor",
       "subfloor",
-      "ceiling"
+      "subfloor joists",
+      "underfloor"
     ],
     "priority_fit": [
       "easy_install",
@@ -49,14 +69,22 @@
       "thermal"
     ],
     "use_cases": [
+      "- Negative Filter (not_for): Not a structural bracing strap (use metal",
+      "BRADFORD_OPTIMO, POLYESTER_SOLUTIONS_UNDER_FLOOR_ROLLS_POLYFB, and any",
+      "Essential companion product for",
+      "Holding bulk insulation batts in place\nbetween vertical open stud framing",
       "Stapled across the\nunderside of floor joists to support underfloor insulation batts and prevent\ngravity sagging",
       "Temporary support for ceiling batts prior to plasterboard\ninstallation in cathedral ceilings",
-      "Holding bulk insulation batts in place\nbetween vertical open stud framing"
+      "fibrous underfloor installation. Stapled across joists at 400mm–500mm",
+      "intervals to cradle batts permanently.",
+      "strapping for wall frame shear bracing)."
     ],
     "not_for": [
-      "Structural pallet strapping\nor load restraint beyond rated tension",
       "External weather-exposed UV\napplications exceeding 3 months",
-      "Thermal barrier substitute"
+      "Structural pallet strapping\nor load restraint beyond rated tension",
+      "Thermal barrier substitute",
+      "not_for): Not a structural bracing strap (use metal",
+      "strapping for wall frame shear bracing)."
     ],
     "rag_summary": "Misc Polystrapping is high-tensile polypropylene strapping (commonly 15mm\nto 19mm wide in 500m to 1000m rolls) widely utilized in the Australian building\nindustry to support underfloor and ceiling insulation batts. Stapled across\ntimber joists or steel purlins at 300mm to 450mm intervals, it cradles\nglasswool, polyester, and rockwool batts permanently in position, preventing\ngravity sag, wind dislodgement, and loss of thermal contact with the floor."
   },

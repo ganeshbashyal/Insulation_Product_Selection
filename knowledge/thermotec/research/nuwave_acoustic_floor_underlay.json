@@ -1,0 +1,66 @@
+{
+  "family_id": "THERMOTEC_NUWAVE_UNDERLAY",
+  "family_name": "NuWave Acoustic Floor Underlay",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {},
+  "retrieval": {
+    "search_keywords": [
+      "NuWave underlay",
+      "Thermotec carpet underlay",
+      "acoustic",
+      "acoustic carpet underlay",
+      "between floors",
+      "easy_install",
+      "floor",
+      "soundproof underlay 4kg",
+      "strata carpet\n    underlay",
+      "subfloor",
+      "underfloor"
+    ],
+    "problem_keywords": [
+      "- Negative Filter (not_for): Do not install directly under floating timber or",
+      "- Placement: [\"floor\", \"underfloor\", \"between floors\", \"subfloor\"]",
+      "- Positive Recommendation Rule: High-end acoustic carpet underlay. Foam side",
+      "- Priority Fit: [\"acoustic\", \"easy_install\"]",
+      "Downstairs neighbors complaining about footstep thuds",
+      "airborne sound traveling",
+      "barrier faces up beneath carpet. Rolls butt",
+      "between apartment levels.",
+      "body corporate strata by-law acoustic compliance",
+      "faces down against the subfloor",
+      "hybrid vinyl planks without a hard load-distribution board (use for carpet",
+      "installations).",
+      "together tightly and seams are taped with heavy-duty cloth tape."
+    ],
+    "placement": [
+      "\"between floors\"",
+      "\"easy_install\"] - Positive Recommendation Rule: High-end acoustic carpet underlay. Foam side faces down against the subfloor; barrier faces up beneath carpet. Rolls butt together tightly and seams are taped with heavy-duty cloth tape. - Negative Filter (not_for): Do not install directly under floating timber or hybrid vinyl planks without a hard load-distribution board (use for carpet installations)",
+      "\"subfloor\"] - Priority Fit: [\"acoustic\"",
+      "\"underfloor\"",
+      "[\"floor\""
+    ],
+    "not_for": [
+      "hybrid vinyl planks without a hard load-distribution board (use for carpet",
+      "installations).",
+      "not_for): Do not install directly under floating timber or"
+    ],
+    "use_cases": [
+      "- Negative Filter (not_for): Do not install directly under floating timber or",
+      "High-end acoustic carpet underlay. Foam side",
+      "barrier faces up beneath carpet. Rolls butt",
+      "faces down against the subfloor",
+      "hybrid vinyl planks without a hard load-distribution board (use for carpet",
+      "installations).",
+      "together tightly and seams are taped with heavy-duty cloth tape."
+    ],
+    "priority_fit": [
+      "acoustic",
+      "easy_install"
+    ]
+  },
+  "source_excerpt": null,
+  "engine": "knowledge_base_txt"
+}

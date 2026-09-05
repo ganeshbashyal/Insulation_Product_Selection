@@ -111,40 +111,64 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Bradford\nFireseal Tile Roof",
-      "Fire Protection Tile Roof",
-      "party wall sealer tile roof",
       "50mm fireseal party wall",
-      "tiled roof fire seal",
+      "50mm party wall\n    sealer",
+      "BAL-FZ tile roof batts",
+      "Bradford\nFireseal Tile Roof",
+      "CSR Bradford 123443",
+      "Fire Protection Tile Roof",
+      "Fireseal 123443",
       "Fireseal FZ tile roof\nbatts",
+      "Party Wall Sealer Tile Roof",
       "concrete tile party wall seal",
-      "CSR Bradford 123443"
+      "party wall sealer tile roof",
+      "tile roof fire seal",
+      "tiled roof fire seal"
     ],
     "problem_keywords": [
-      "fire spread under roof tiles",
-      "tile roof party wall\ngap",
-      "ember ingress under roof tiles",
-      "party wall tile roof fire rating",
+      "- Negative Filter (not_for): Profiled metal deck roofs (corrugations",
+      "- Placement: Roof, roofline, internal wall head.",
+      "- Positive Recommendation Rule: Specify 50mm thickness for concrete and",
       "BAL\nFZ tile roof sealing",
-      "inter-tenancy fire spread tile roof"
+      "Fire crossing townhouse party walls beneath concrete or",
+      "ember attack in bushfire zones breaching unsealed",
+      "ember ingress under roof tiles",
+      "fire spread under roof tiles",
+      "inter-tenancy fire spread tile roof",
+      "lifting tiles).",
+      "party wall tile roof fire rating",
+      "require 75mm thickness to avoid voids under the ribs).",
+      "terracotta roof tiles",
+      "terracotta roof tiles (compresses under tile battens and contours without",
+      "tile contours.",
+      "tile roof party wall\ngap"
     ],
     "placement": [
+      "Roof",
+      "internal wall",
+      "internal wall head. - Positive Recommendation Rule: Specify 50mm thickness for concrete and terracotta roof tiles (compresses under tile battens and contours without lifting tiles). - Negative Filter (not_for): Profiled metal deck roofs (corrugations require 75mm thickness to avoid voids under the ribs)",
       "roof",
       "roofline",
-      "internal wall",
       "wall"
     ],
     "priority_fit": [
       "fire"
     ],
     "use_cases": [
+      "- Negative Filter (not_for): Profiled metal deck roofs (corrugations",
+      "Providing BAL-FZ ember and flame protection under roof tiles in\nbushfire-prone areas",
       "Sealing the junction between the top of an inter-tenancy masonry\nor Hebel party wall and concrete/terracotta roof tiles in townhouses and\nduplexes",
-      "Providing BAL-FZ ember and flame protection under roof tiles in\nbushfire-prone areas"
+      "Specify 50mm thickness for concrete and",
+      "lifting tiles).",
+      "require 75mm thickness to avoid voids under the ribs).",
+      "terracotta roof tiles (compresses under tile battens and contours without"
     ],
     "not_for": [
+      "Cavity acoustic\npartition batts",
       "Profiled metal deck roofs\n(requiring 75mm)",
       "Underfloor timber floor insulation",
-      "Cavity acoustic\npartition batts"
+      "not_for): Profiled metal deck roofs (corrugations",
+      "require 75mm thickness to avoid voids under the ribs)."
     ],
     "rag_summary": "Bradford Fire Protection - Tile Roof\n(Fireseal Party Wall Sealer for Tiled Roofs) is a 50mm thick, non-combustible\nstone wool blanket designed to seal the gap between the top of fire-rated party\nwalls and concrete or terracotta roof tiles in Class 1 buildings. It compresses\nby 10-15% under tile battens and contours, creating an impenetrable barrier\nagainst flame, hot gases, and embers. Certified non-combustible to AS 1530.1 and\nrated for BAL-FZ bushfire conditions, it ensures multi-residential party wall\nassemblies comply with NCC Deemed-to-Satisfy fire separation standards."
   },

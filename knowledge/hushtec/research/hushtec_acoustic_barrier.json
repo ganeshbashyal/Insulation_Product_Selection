@@ -103,29 +103,52 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Hushtec Acoustic\nBarrier",
-      "Hushtec noise barrier",
-      "Hushtec Performance Series",
       "Hushtec\nPremium Series",
-      "temporary fence noise barrier",
-      "construction noise barrier\ncurtain",
+      "Hushtec Acoustic\nBarrier",
+      "Hushtec Acoustic Barrier",
+      "Hushtec Performance Series",
+      "Hushtec noise\n    barrier",
+      "Hushtec noise barrier",
       "acoustic fence panels",
-      "scaffolding acoustic curtain",
+      "construction noise barrier\ncurtain",
+      "construction noise curtain",
       "noise\ncontrol barrier",
-      "site soundproofing blanket"
+      "scaffolding acoustic curtain",
+      "site soundproofing blanket",
+      "temporary fence noise barrier"
     ],
     "problem_keywords": [
+      "- Negative Filter (not_for): Permanent internal drywall cavity batts",
+      "- Placement: Temporary site fencing, scaffolding, exterior plant hoardings,",
+      "- Positive Recommendation Rule: Temporary worksite acoustic barrier. Specify",
+      "Council noise complaints on civil/construction sites",
+      "Performance Series (up to 34 dB) for general construction",
+      "Series (up to 43 dB) for heavy demolition, pile-driving, and high-decibel",
+      "building",
       "construction noise complaints from neighbours",
-      "exceeding site decibel\nlimits",
-      "loud generator noise on site",
       "demolition noise and dust pollution",
+      "demolition perimeter.",
+      "exceeding site decibel\nlimits",
+      "generators.",
       "jackhammer noise mitigation",
-      "night works noise compliance"
+      "jackhammer or generator noise exceeding EPA decibel limits",
+      "loud generator noise on site",
+      "night work noise",
+      "night works noise compliance",
+      "restrictions.",
+      "specify Premium",
+      "thermal envelope insulation."
     ],
     "placement": [
-      "wall",
+      "Temporary site fencing",
+      "and high-decibel generators. - Negative Filter (not_for): Permanent internal drywall cavity batts; building thermal envelope insulation",
+      "demolition perimeter. - Positive Recommendation Rule: Temporary worksite acoustic barrier. Specify Performance Series (up to 34 dB) for general construction; specify Premium Series (up to 43 dB) for heavy demolition",
+      "exterior plant hoardings",
       "external wall",
-      "shed"
+      "pile-driving",
+      "scaffolding",
+      "shed",
+      "wall"
     ],
     "priority_fit": [
       "acoustic",
@@ -133,14 +156,25 @@
       "fire"
     ],
     "use_cases": [
+      "- Negative Filter (not_for): Permanent internal drywall cavity batts",
+      "Creating\nmobile acoustic enclosures around noisy diesel generators, concrete saws, and\ncompressors",
       "Hanging on temporary fencing around civil construction\nand demolition sites to protect nearby residents",
+      "Performance Series (up to 34 dB) for general construction",
+      "Series (up to 43 dB) for heavy demolition, pile-driving, and high-decibel",
+      "Temporary worksite acoustic barrier. Specify",
       "Wrapping scaffolding to\ncontain noisy power tools and dust during facade refurbishments",
-      "Creating\nmobile acoustic enclosures around noisy diesel generators, concrete saws, and\ncompressors"
+      "building",
+      "generators.",
+      "specify Premium",
+      "thermal envelope insulation."
     ],
     "not_for": [
       "Internal building cavity wall insulation (use bulk\nbatts)",
+      "Roof space thermal ceiling\ninsulation",
       "Underfloor timber floor insulation",
-      "Roof space thermal ceiling\ninsulation"
+      "building",
+      "not_for): Permanent internal drywall cavity batts",
+      "thermal envelope insulation."
     ],
     "rag_summary": "Hushtec Acoustic Barrier (Performance Series and\nPremium Series) is a heavy-duty, modular portable noise barrier panel engineered\nfor construction, demolition, and industrial noise containment. Featuring a\nmulti-layered acoustic composite core with waterproof, UV-resistant outer\nfacings, it achieves laboratory-tested sound reductions of up to 43 dB.\nMeasuring 1300mm x 2000mm with reinforced eyelets and airtight Velcro overlap\njoins, it mounts rapidly to temporary fencing and scaffolding to shield\nsurrounding communities from site noise and dust."
   },

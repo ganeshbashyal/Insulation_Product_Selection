@@ -29,6 +29,7 @@
   },
   "retrieval": {
     "search_keywords": [
+      "10mm drainage\n    strip",
       "10mm drainage strip",
       "Ametalin CDB",
       "cavity drainage battens",
@@ -36,20 +37,44 @@
       "polypropylene drainage battens"
     ],
     "problem_keywords": [
-      "Moisture trapped behind fibre cement / timber weatherboards, condensation pooling under metal roofs, compliance with NCC 2022 F8D5 / 10.8.3 (mandating 20mm drained cavities in specific climate zones)."
+      "- Negative Filter (not_for): Not a structural framing batten",
+      "- Placement: External wall, wall, roof, roofline.",
+      "- Positive Recommendation Rule: When builder is installing lightweight",
+      "CDB-451200. Stack two layers (10mm + 10mm) to create an instant",
+      "Moisture trapped behind fibre cement / timber",
+      "Moisture trapped behind fibre cement / timber weatherboards, condensation pooling under metal roofs, compliance with NCC 2022 F8D5 / 10.8.3 (mandating 20mm drained cavities in specific climate zones).",
+      "NCC 2022 F8D5 / 10.8.3 (mandating 20mm drained cavities in specific climate",
+      "NCC-compliant 20mm drained cavity without heavy timber battens.",
+      "cladding on steel/timber framing in high-rainfall zones, recommend",
+      "cladding screws",
+      "must pass completely through the batten into the structural studs.",
+      "weatherboards, condensation pooling under metal roofs, compliance with",
+      "zones)."
     ],
     "placement": [
       "External wall",
+      "recommend CDB-451200. Stack two layers (10mm + 10mm) to create an instant NCC-compliant 20mm drained cavity without heavy timber battens. - Negative Filter (not_for): Not a structural framing batten; cladding screws must pass completely through the batten into the structural studs",
       "roof",
       "roofline",
+      "roofline. - Positive Recommendation Rule: When builder is installing lightweight cladding on steel",
+      "timber framing in high-rainfall zones",
       "wall"
     ],
     "not_for": [
+      "cladding screws",
       "cladding screws must pass completely through the batten into the structural studs.",
+      "must pass completely through the batten into the structural studs.",
       "not_for): Not a structural framing batten"
     ],
     "use_cases": [
-      "When builder is installing lightweight cladding on steel/timber framing in high-rainfall zones, recommend CDB-451200. Stack two layers (10mm + 10mm) to create an instant NCC-compliant 20mm drained cavity without heavy timber battens."
+      "- Negative Filter (not_for): Not a structural framing batten",
+      "CDB-451200. Stack two layers (10mm + 10mm) to create an instant",
+      "NCC-compliant 20mm drained cavity without heavy timber battens.",
+      "When builder is installing lightweight",
+      "When builder is installing lightweight cladding on steel/timber framing in high-rainfall zones, recommend CDB-451200. Stack two layers (10mm + 10mm) to create an instant NCC-compliant 20mm drained cavity without heavy timber battens.",
+      "cladding on steel/timber framing in high-rainfall zones, recommend",
+      "cladding screws",
+      "must pass completely through the batten into the structural studs."
     ]
   },
   "source_excerpt": null,

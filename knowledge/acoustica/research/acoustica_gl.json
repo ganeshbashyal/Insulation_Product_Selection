@@ -64,20 +64,45 @@
       "quietwave pipe wrap"
     ],
     "problem_keywords": [
-      "Toilet flushing noise in apartment bedrooms, stormwater pipe gurgle through ceiling plasterboard, hydraulic pipe breakout."
+      "- Accessories Upsell: 72mm reinforced foil tape and 300mm/450mm UV-resistant",
+      "- Negative Filter (not_for): Foam must face the pipe",
+      "- Placement: Pipe, duct, ceiling cavity, service riser.",
+      "- Positive Recommendation Rule: Recommend GreenLAG 18mm when ceiling cavity",
+      "Toilet flushing noise in apartment bedrooms, stormwater",
+      "Toilet flushing noise in apartment bedrooms, stormwater pipe gurgle through ceiling plasterboard, hydraulic pipe breakout.",
+      "cable ties (every 250mm).",
+      "clearance is tight (it is thinner and lighter than traditional 25mm",
+      "convoluted foam lagging while exceeding NCC F5.6 requirements).",
+      "foil must face out. Not",
+      "for steam pipes exceeding 90°C.",
+      "pipe gurgle through ceiling plasterboard, hydraulic pipe breakout."
     ],
     "placement": [
+      "450mm UV-resistant cable ties (every 250mm)",
       "Pipe",
       "ceiling cavity",
       "duct",
-      "service riser"
+      "service riser",
+      "service riser. - Positive Recommendation Rule: Recommend GreenLAG 18mm when ceiling cavity clearance is tight (it is thinner and lighter than traditional 25mm convoluted foam lagging while exceeding NCC F5.6 requirements). - Negative Filter (not_for): Foam must face the pipe; foil must face out. Not for steam pipes exceeding 90°C. - Accessories Upsell: 72mm reinforced foil tape and 300mm"
     ],
     "not_for": [
+      "- Accessories Upsell: 72mm reinforced foil tape and 300mm/450mm UV-resistant",
+      "cable ties (every 250mm).",
+      "foil must face out. Not",
       "foil must face out. Not for steam pipes exceeding 90°C.",
+      "for steam pipes exceeding 90°C.",
       "not_for): Foam must face the pipe"
     ],
     "use_cases": [
-      "Recommend GreenLAG 18mm when ceiling cavity clearance is tight (it is thinner and lighter than traditional 25mm convoluted foam lagging while exceeding NCC F5.6 requirements)."
+      "- Accessories Upsell: 72mm reinforced foil tape and 300mm/450mm UV-resistant",
+      "- Negative Filter (not_for): Foam must face the pipe",
+      "Recommend GreenLAG 18mm when ceiling cavity",
+      "Recommend GreenLAG 18mm when ceiling cavity clearance is tight (it is thinner and lighter than traditional 25mm convoluted foam lagging while exceeding NCC F5.6 requirements).",
+      "cable ties (every 250mm).",
+      "clearance is tight (it is thinner and lighter than traditional 25mm",
+      "convoluted foam lagging while exceeding NCC F5.6 requirements).",
+      "foil must face out. Not",
+      "for steam pipes exceeding 90°C."
     ]
   },
   "source_excerpt": null,

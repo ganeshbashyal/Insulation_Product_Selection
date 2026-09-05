@@ -41,18 +41,29 @@
     "search_keywords": [
       "Acoustica foam filter",
       "fan intake dust foam",
+      "open-cell acoustic\n    filter",
       "open-cell acoustic filter",
       "reticulated filter foam"
     ],
     "problem_keywords": [
-      "Dust ingress into acoustic transfer ducts, fan noise paired with particulate intake, equipment enclosure overheating from clogged felt."
+      "- Negative Filter (not_for): Not a building thermal insulation product",
+      "- Placement: Duct, wall air transfer grilles, electronic racks.",
+      "Dust ingress into acoustic transfer ducts, fan noise",
+      "Dust ingress into acoustic transfer ducts, fan noise paired with particulate intake, equipment enclosure overheating from clogged felt.",
+      "felt.",
+      "high-temperature flue filter (max continuous temp 80°C).",
+      "not a",
+      "paired with particulate intake, equipment enclosure overheating from clogged"
     ],
     "placement": [
       "Duct",
       "electronic racks",
+      "electronic racks. - Negative Filter (not_for): Not a building thermal insulation product; not a high-temperature flue filter (max continuous temp 80°C)",
       "wall air transfer grilles"
     ],
     "not_for": [
+      "high-temperature flue filter (max continuous temp 80°C).",
+      "not a",
       "not a high-temperature flue filter (max continuous temp 80°C).",
       "not_for): Not a building thermal insulation product"
     ]

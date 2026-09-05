@@ -126,29 +126,44 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Polyester Solutions PolyFB",
-      "PolyFB underfloor rolls",
-      "Polyfloor underfloor insulation",
-      "polyester underfloor rolls",
-      "R2.0\nunderfloor polyester",
       "450mm underfloor insulation",
-      "subfloor polyester\nblanket",
+      "Poly-Floor rolls",
+      "PolyFB",
+      "PolyFB underfloor rolls",
+      "Polyester Solutions PolyFB",
       "Polyester Solutions underfloor",
+      "Polyfloor underfloor insulation",
+      "R2.0\nunderfloor polyester",
+      "polyester underfloor rolls",
+      "subfloor polyester\n    roll",
+      "subfloor polyester\nblanket",
       "timber floor insulation rolls"
     ],
     "problem_keywords": [
+      "- Placement: Underfloor, floor, subfloor, between floors.",
+      "- Positive Recommendation Rule: Clean, non-itchy roll format designed to",
+      "Cold winter floorboards",
       "cold timber floorboards in winter",
-      "draughts blowing up\nthrough floor",
-      "heat loss through suspended timber floor",
       "creaking\nfloorboards resonance",
+      "draughts blowing up\nthrough floor",
+      "glasswool underfloor batts falling out from gravity.",
+      "heat loss through suspended timber floor",
+      "insulation\nsagging between floor joists",
+      "staple strapping across joists at 500mm centers.",
       "subfloor dampness rotting insulation",
-      "insulation\nsagging between floor joists"
+      "subfloor draughts whistling",
+      "through floor cracks",
+      "unroll smoothly between floor joists from below. For long-term security,"
     ],
     "placement": [
+      "Underfloor",
+      "between floors",
+      "between floors. - Positive Recommendation Rule: Clean",
       "floor",
-      "underfloor",
+      "non-itchy roll format designed to unroll smoothly between floor joists from below. For long-term security",
+      "staple strapping across joists at 500mm centers",
       "subfloor",
-      "between floors"
+      "underfloor"
     ],
     "priority_fit": [
       "thermal",
@@ -156,9 +171,12 @@
       "sustainability"
     ],
     "use_cases": [
-      "Insulating beneath exposed timber\nfloorboards in existing homes to eliminate winter draughts and cold floors",
+      "Clean, non-itchy roll format designed to",
       "Friction-fit underfloor insulation between 450mm timber joists in new\nresidential construction",
-      "Mid-floor sound and thermal barrier between storeys\nin multi-level timber-framed residences"
+      "Insulating beneath exposed timber\nfloorboards in existing homes to eliminate winter draughts and cold floors",
+      "Mid-floor sound and thermal barrier between storeys\nin multi-level timber-framed residences",
+      "staple strapping across joists at 500mm centers.",
+      "unroll smoothly between floor joists from below. For long-term security,"
     ],
     "not_for": [
       "Concrete\nslab-on-ground insulation",

@@ -1,0 +1,63 @@
+{
+  "family_id": "THERMOTEC_NUWAVE_FENCE_MLV",
+  "family_name": "NuWave UV-treated Fence MLV",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {},
+  "retrieval": {
+    "search_keywords": [
+      "NuWave Fence",
+      "acoustic",
+      "acoustic fence wrap",
+      "easy_install",
+      "external wall",
+      "outdoor\n    noise barrier MLV",
+      "pool pump fence soundproofing",
+      "shed",
+      "traffic noise fence\n    barrier",
+      "wall"
+    ],
+    "problem_keywords": [
+      "- Acoustic Reality Rule: Remind customer that sound acts like water—if the",
+      "- Placement: [\"wall\", \"external wall\", \"shed\"] (fences, boundary walls,",
+      "- Positive Recommendation Rule: Attach to timber palings or colorbond fence",
+      "- Priority Fit: [\"acoustic\", \"easy_install\"]",
+      "Noisy neighbors",
+      "air conditioner condenser noise",
+      "backyards.",
+      "busy street traffic noise penetrating residential",
+      "equipment hoardings).",
+      "fence is lower than line-of-sight to the noise source, sound will spill over",
+      "pool pump whining",
+      "rails using galvanized screws with wide washers. Overlap joins by 50mm and",
+      "run to ground level to eliminate sound flanking.",
+      "swimming",
+      "the top."
+    ],
+    "placement": [
+      "\"easy_install\"] - Positive Recommendation Rule: Attach to timber palings or colorbond fence rails using galvanized screws with wide washers. Overlap joins by 50mm and run to ground level to eliminate sound flanking. - Acoustic Reality Rule: Remind customer that sound acts like water—if the fence is lower than line-of-sight to the noise source",
+      "\"external wall\"",
+      "\"shed\"] (fences",
+      "[\"wall\"",
+      "boundary walls",
+      "equipment hoardings). - Priority Fit: [\"acoustic\"",
+      "sound will spill over the top"
+    ],
+    "use_cases": [
+      "- Acoustic Reality Rule: Remind customer that sound acts like water—if the",
+      "Attach to timber palings or colorbond fence",
+      "fence is lower than line-of-sight to the noise source, sound will spill over",
+      "rails using galvanized screws with wide washers. Overlap joins by 50mm and",
+      "run to ground level to eliminate sound flanking.",
+      "the top."
+    ],
+    "priority_fit": [
+      "acoustic",
+      "easy_install"
+    ]
+  },
+  "source_excerpt": null,
+  "engine": "knowledge_base_txt"
+}

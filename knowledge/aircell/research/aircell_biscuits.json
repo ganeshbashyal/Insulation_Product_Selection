@@ -40,25 +40,47 @@
     "search_keywords": [
       "Aircell biscuits",
       "brick tie clips",
+      "cavity\n    wall biscuits",
       "cavity wall biscuits",
       "reflective airspace spacers",
       "spacer biscuits"
     ],
     "problem_keywords": [
-      "Reflective foil touching outer brickwork (eliminating air space and destroying thermal R-value), insulation sagging against wet brick."
+      "- Negative Filter (not_for): Not load-bearing",
+      "- Placement: Wall, external wall, double brick cavity, brick veneer.",
+      "- Positive Recommendation Rule: Whenever AIRCELL_PERMISHIELD or",
+      "AIRCELL_RETROSHIELD is quoted for cavity brick or framed wall systems,",
+      "Reflective foil touching outer brickwork (eliminating air",
+      "Reflective foil touching outer brickwork (eliminating air space and destroying thermal R-value), insulation sagging against wet brick.",
+      "calculate 1 biscuit per m² (or 1 per second wall tie) to maintain the",
+      "continuous operating",
+      "required 20mm airspace.",
+      "space and destroying thermal R-value), insulation sagging against wet brick.",
+      "temperature limit is 85°C (intermittent 105°C)."
     ],
     "placement": [
       "Wall",
       "brick veneer",
+      "brick veneer. - Positive Recommendation Rule: Whenever AIRCELL_PERMISHIELD or AIRCELL_RETROSHIELD is quoted for cavity brick or framed wall systems",
+      "calculate 1 biscuit per m² (or 1 per second wall tie) to maintain the required 20mm airspace. - Negative Filter (not_for): Not load-bearing; continuous operating temperature limit is 85°C (intermittent 105°C)",
       "double brick cavity",
       "external wall"
     ],
     "not_for": [
+      "continuous operating",
       "continuous operating temperature limit is 85°C (intermittent 105°C).",
-      "not_for): Not load-bearing"
+      "not_for): Not load-bearing",
+      "temperature limit is 85°C (intermittent 105°C)."
     ],
     "use_cases": [
-      "Whenever AIRCELL_PERMISHIELD or AIRCELL_RETROSHIELD is quoted for cavity brick or framed wall systems, calculate 1 biscuit per m² (or 1 per second wall tie) to maintain the required 20mm airspace."
+      "- Negative Filter (not_for): Not load-bearing",
+      "AIRCELL_RETROSHIELD is quoted for cavity brick or framed wall systems,",
+      "Whenever AIRCELL_PERMISHIELD or",
+      "Whenever AIRCELL_PERMISHIELD or AIRCELL_RETROSHIELD is quoted for cavity brick or framed wall systems, calculate 1 biscuit per m² (or 1 per second wall tie) to maintain the required 20mm airspace.",
+      "calculate 1 biscuit per m² (or 1 per second wall tie) to maintain the",
+      "continuous operating",
+      "required 20mm airspace.",
+      "temperature limit is 85°C (intermittent 105°C)."
     ]
   },
   "source_excerpt": null,

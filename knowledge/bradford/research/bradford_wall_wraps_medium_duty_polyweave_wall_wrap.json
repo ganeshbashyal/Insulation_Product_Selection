@@ -123,27 +123,51 @@
   },
   "retrieval": {
     "search_keywords": [
-      "Bradford Medium Duty Polyweave Wall Wrap",
-      "Thermoseal Polyweave Wall Wrap",
-      "Thermoseal Wall Wrap 15128",
-      "Medium Duty Wall Wrap",
-      "polyweave reflective\nfoil wrap",
-      "Thermoseal XP 124652",
-      "brick veneer wall wrap",
       "Bradford 40483",
-      "tear resistant wall wrap"
+      "Bradford Medium Duty Polyweave Wall Wrap",
+      "Medium Duty Polyweave",
+      "Medium Duty Wall Wrap",
+      "Thermoseal 15128",
+      "Thermoseal Polyweave Wall Wrap",
+      "Thermoseal Wall Wrap",
+      "Thermoseal Wall Wrap 15128",
+      "Thermoseal XP 124652",
+      "brick veneer polyweave foil",
+      "brick veneer wall wrap",
+      "polyweave reflective\nfoil wrap",
+      "tear resistant wall wrap",
+      "tear-resistant wall wrap"
     ],
     "problem_keywords": [
-      "wall wrap tearing in high\nwind on site",
+      "(use breathable Enviroseal RW).",
+      "- If stud cavity is packed with bulk batts: Specify Wall Wrap XP (Outward",
+      "- If stud cavity is uninsulated/empty: Specify Standard (Inward",
+      "- Negative Filter (not_for): Cold climate zones (Zones 6, 7, 8) where",
+      "- Placement: Wall, external wall, shed.",
+      "- Selection Logic Rule:",
+      "Lightweight building wraps tearing and shredding on windy",
+      "Reflective) 124652 so the foil faces the brick cavity air space.",
+      "Reflective) 15128.",
+      "brick ties puncturing paper-backed wraps",
+      "construction sites",
       "drafts penetrating brick veneer walls",
+      "heat radiating through external brick veneer.",
+      "non-permeable foil on the exterior causes winter interstitial condensation",
       "radiant heat entering\nhome through brick veneer",
+      "radiant summer",
+      "uninsulated\nstud cavity heat loss",
       "wall wrap punctures from brick ties",
-      "uninsulated\nstud cavity heat loss"
+      "wall wrap tearing in high\nwind on site"
     ],
     "placement": [
-      "wall",
+      "7",
+      "8) where non-permeable foil on the exterior causes winter interstitial condensation (use breathable Enviroseal RW)",
+      "Wall",
+      "empty: Specify Standard (Inward Reflective) 15128. - If stud cavity is packed with bulk batts: Specify Wall Wrap XP (Outward Reflective) 124652 so the foil faces the brick cavity air space. - Negative Filter (not_for): Cold climate zones (Zones 6",
       "external wall",
-      "shed"
+      "shed",
+      "shed. - Selection Logic Rule: - If stud cavity is uninsulated",
+      "wall"
     ],
     "priority_fit": [
       "thermal",
@@ -156,9 +180,12 @@
       "Heavy-duty protective wrap on residential and\nlight commercial building sites before cladding"
     ],
     "not_for": [
+      "(use breathable Enviroseal RW).",
       "Cold climate\nzones requiring breathable Class 4 wraps",
+      "Continuous water immersion",
       "Direct roof sarking under tiles (use\nRoof Tile sarking)",
-      "Continuous water immersion"
+      "non-permeable foil on the exterior causes winter interstitial condensation",
+      "not_for): Cold climate zones (Zones 6, 7, 8) where"
     ],
     "rag_summary": "Bradford\nWall Wraps - Medium Duty Polyweave Wall Wrap (Bradford Thermoseal Wall Wrap /\nWall Wrap XP, product codes 15128 / 40483 / 124652) is an ultra-tough,\ntear-resistant reflective foil laminate designed for exterior brick veneer and\ncavity wall construction. Constructed with a high-density woven polymer core and\npure aluminium foil, its Medium Duty rating resists wind flapping and tearing on\nexposed jobsites while acting as an effective water and vapour barrier. By\nreflecting radiant heat across adjacent air cavities, it boosts wall thermal\nperformance and complies with AS/NZS 4200.1 and AS 1530.2 (Flammability Index\n≤ 5, BAL 12.5-40)."
   },
