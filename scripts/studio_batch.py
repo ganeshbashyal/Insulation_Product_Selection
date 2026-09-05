@@ -152,7 +152,50 @@ def _strip_citations(raw: str) -> str:
     raw = re.sub(r",\s*\}", "}", raw)
     raw = re.sub(r":\s*,", ': ""', raw)         # `"key": ,` -> empty string
     raw = re.sub(r'"\s*\n\s*,', '",', raw)      # stray comma after string
+    # doubled closing braces from citation artifacts: `} }` inside an array -> `}`
+    raw = re.sub(r"\}\s*\}", "}", raw)
+    raw = _escape_control_chars(raw)             # literal newlines/tabs inside strings
     return raw
+
+
+def _escape_control_chars(raw: str) -> str:
+    """Escape literal newlines/tabs that appear INSIDE JSON string values.
+
+    AI Studio often returns pretty-printed JSON where a long string value wraps
+    onto real newlines. json.loads rejects raw control chars in strings, so walk
+    the text and escape control characters only when inside a string literal.
+    """
+    out = []
+    in_string = False
+    escaped = False
+    for ch in raw:
+        if in_string:
+            if escaped:
+                out.append(ch)
+                escaped = False
+                continue
+            if ch == "\\":
+                out.append(ch)
+                escaped = True
+                continue
+            if ch == '"':
+                out.append(ch)
+                in_string = False
+                continue
+            if ch == "\n":
+                out.append("\\n")
+                continue
+            if ch == "\t":
+                out.append("\\t")
+                continue
+            if ch == "\r":
+                continue
+            out.append(ch)
+        else:
+            out.append(ch)
+            if ch == '"':
+                in_string = True
+    return "".join(out)
 
 
 def ingest_batch(batch_no: int) -> None:
@@ -169,8 +212,9 @@ def ingest_batch(batch_no: int) -> None:
     try:
         items = json.loads(candidate)
     except json.JSONDecodeError:
-        # AI Studio grounding inlines citation markers that break strict JSON.
-        # Strip what we can, then fall back to a tolerant repair parser.
+        # AI Studio grounding inlines citation markers that break strict JSON,
+        # and string values often contain literal (unescaped) newlines. Strip
+        # citations, escape control chars, then fall back to a tolerant parser.
         cleaned = _strip_citations(candidate)
         try:
             items = json.loads(cleaned)
@@ -178,7 +222,10 @@ def ingest_batch(batch_no: int) -> None:
         except json.JSONDecodeError:
             try:
                 from json_repair import repair_json
-                items = json.loads(repair_json(cleaned))
+                repaired = repair_json(cleaned)
+                items = json.loads(repaired)
+                if not isinstance(items, list) or not any(isinstance(i, dict) for i in items):
+                    raise ValueError("repair produced no family objects")
                 print("note: repaired malformed JSON with json-repair")
             except Exception as exc:
                 print(f"invalid JSON even after citation stripping and repair: {exc}")
