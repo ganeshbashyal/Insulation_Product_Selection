@@ -35,7 +35,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from audit_datasheet_links import OFFICIAL_DOMAINS
 import tds_research_agent as local_agent  # reuse slugify, research_path, caching helpers
 
-MODEL = os.getenv("GEMINI_MODEL", "gemini-3.6-flash")
+MODEL = os.getenv("GEMINI_MODEL", "gemini-3.6-flash")  # billing enabled -> fast + current
+MAX_RETRIES = 5
 
 SPEC_KEYS = ["description", "features", "applications", "technical", "fire", "sustainability", "install"]
 
@@ -81,13 +82,27 @@ def research_family(manufacturer: str, family: dict) -> dict:
     )
     client = _client()
     grounding = types.Tool(google_search=types.GoogleSearch())
-    # use Chat to avoid the automatic-function-calling deprecation warning
-    chat = client.chats.create(
-        model=MODEL,
-        config=types.GenerateContentConfig(tools=[grounding], temperature=0),
-    )
-    response = chat.send_message(prompt)
-    text = response.text or ""
+    text = ""
+    last_error = None
+    for attempt in range(MAX_RETRIES):
+        try:
+            chat = client.chats.create(
+                model=MODEL,
+                config=types.GenerateContentConfig(tools=[grounding], temperature=0),
+            )
+            response = chat.send_message(prompt)
+            text = response.text or ""
+            break
+        except Exception as exc:  # noqa: BLE001
+            last_error = exc
+            if "429" in str(exc) or "RESOURCE_EXHAUSTED" in str(exc):
+                wait = min(60, 10 * (2 ** attempt))  # 10s,20s,40s,60s,60s
+                print(f"  quota hit, waiting {wait}s (attempt {attempt+1}/{MAX_RETRIES})")
+                time.sleep(wait)
+                continue
+            raise
+    else:
+        raise RuntimeError(f"Gemini failed after {MAX_RETRIES} attempts: {last_error}")
     match = re.search(r"\{.*\}", text, re.S)
     if not match:
         return {"status": "gemini_no_json", "raw": text[:500]}
