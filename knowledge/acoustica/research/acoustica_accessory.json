@@ -1,9 +1,68 @@
 {
   "family_id": "ACOUSTICA_ACCESSORY",
   "family_name": "Acoustica Accessory",
-  "datasheet_pdf_url": null,
-  "status": "no_pdf_found",
-  "researched_at": "2026-09-05",
-  "spec": null,
-  "source_excerpt": null
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "gemini_not_found",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "",
+    "features": [],
+    "applications": [],
+    "technical": [],
+    "range": [],
+    "fire": "",
+    "compliance": "",
+    "sustainability": "",
+    "install": [],
+    "selection_checklist": [],
+    "accessories": [],
+    "limitations": [],
+    "warranty": ""
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Acoustica accessory",
+      "acoustic tape",
+      "aluminium foil tape",
+      "lagging tape",
+      "acoustic adhesive",
+      "isolation tape",
+      "insulation accessory",
+      "perimeter sealing tape",
+      "acoustic joining tape"
+    ],
+    "problem_keywords": [
+      "sealing acoustic barriers",
+      "sound flanking at joins",
+      "acoustic tape for lagging",
+      "flanking noise through joints",
+      "fixing acoustic barrier",
+      "airtight acoustic seal"
+    ],
+    "placement": [
+      "wall",
+      "ceiling",
+      "floor",
+      "pipe",
+      "duct"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "easy_install"
+    ],
+    "use_cases": [
+      "sealing joints and seams in mass loaded vinyl and flexible acoustic barriers",
+      "taping overlaps on GreenLAG acoustic pipe lagging",
+      "adhering acoustic underlays to concrete slabs with approved adhesives"
+    ],
+    "not_for": [
+      "structural load bearing fastening",
+      "external weatherproofing without cladding",
+      "bulk thermal insulation batt replacement"
+    ],
+    "rag_summary": "Acoustica accessories comprise specialised companion components such as reinforced aluminium foil sealing tapes and acoustic adhesives engineered to seal joints in acoustic barriers, underlays, and pipe lagging systems. These accessories ensure airtight, gap-free perimeter and seam closures, eliminating acoustic flanking paths that would otherwise degrade sound transmission loss. Typically used across ceilings, walls, subfloors, and services piping, they are essential for achieving rated acoustic performance in residential and commercial soundproofing systems."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
 }

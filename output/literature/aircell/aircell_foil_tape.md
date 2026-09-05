@@ -1,7 +1,7 @@
 ---
 title: "Aircell Foil Tape - Reflective Insulation | Aircell"
-description: "Quality insulation engineered for Australian conditions. Reflects up to 97% of radiant heat, dramatically reducing summer cooling costs while providin"
-keywords: "Aircell Foil Tape, Aircell reflective, insulation Australia, Aircell Australia"
+description: "Kingspan AIR-CELL Insulation Tape is a reinforced aluminium foil tape engineered to provide a durable vapour seal join in aluminium-faced insulation p"
+keywords: "Aircell Foil Tape, Aircell reflective, wall insulation, roof insulation, floor insulation, duct insulation, insulation Australia, Aircell Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AIRCELL_FOIL_TAPE
 ---
@@ -10,26 +10,31 @@ family_id: AIRCELL_FOIL_TAPE
 
 **Aircell Reflective** — reflective foil insulation for radiant heat control.
 
-Quality insulation engineered for Australian conditions. Reflects up to 97% of radiant heat, dramatically reducing summer cooling costs while providing an effective vapour barrier.
+Kingspan AIR-CELL Insulation Tape is a reinforced aluminium foil tape engineered to provide a durable vapour seal join in aluminium-faced insulation products. Designed for use across the insulation and air conditioning industries, it features high-grab pressure-sensitive adhesion. The reinforced backing delivers an exceptional combination of tensile strength, flexibility and conformability.
 
 ## Key features
 
-- High-purity aluminium reflective facing.
-- reflects up to 97% of radiant heat.
-- lightweight and easy to install.
-- provides vapour barrier when properly sealed.
+- Reinforced for high tensile strength.
+- Strong pressure-sensitive adhesion.
+- Effective vapour sealing of aluminium foil faced insulations.
+- Available in silver and white finish.
+- Fire retardant with early fire hazard properties.
+- Flexible and conformable to corners and irregular surfaces.
+- Low VOC emitting (Green Star compliant).
+- Hand tearable for ease of application.
 
 ## Applications and selection
 
-- General Installation
+- vapour seal joins for AIR-CELL reflective insulation in roofs, walls and floors
+- HVAC ductwork sealing
+- aluminium faced pliable building membrane joints
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm width needed (48mm for wall cavity joins, 72mm for roof/general applications, 96mm for heavy commercial).
+2. Select color finish (silver for standard foil, white for AIR-CELL Insulwhite).
+3. Calculate total lineal meters required including overlaps and penetrations.
+4. Verify application surface is completely clean and dry.
 
 
 ## Current catalogue range
@@ -42,35 +47,50 @@ Quality insulation engineered for Australian conditions. Reflects up to 97% of r
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Reflective | Manufacturer catalogue |
-| Material | Reflective Composite | Manufacturer catalogue |
-| Applications | General Installation | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Roll Width | 48 mm / 72 mm / 96 mm | - |
+| Roll Length | 50 m | - |
+| Backing Material | Reinforced aluminium foil | - |
+| Adhesive Type | Pressure-sensitive synthetic adhesive | - |
+| VOC Emission | < 0.5 mg/m²/hr (Green Star compliant) | Cetec Certified |
+| Flammability | Fire retardant | AS 1530.2 |
+| Vapour Barrier Performance | Vapour seal join | ASTM E96 / AS/NZS 4200.1 |
 
-
+Extracted from manufacturer datasheet: https://www.insulation.kingspan.com/au/en/products/reflective-insulation/air-cell-insulation-tape
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Fire retardant; early fire hazard properties compliant with AS 1530.2
+
+AS/NZS 4200.1, AS/NZS 4859.1:2018; Cetec Green Star compliant
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.kingspan.com/au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://www.allcongroup.com.au/wp-content/uploads/2025/10/kingspan-greenguard-safety-data-sheet-en-au.pdf.
 
+## Recommended accessories
+
+- Application squeegee / roller.
+- Kingspan AIR-CELL insulation rolls.
+
 
 ## Limitations and warnings
 
-- Reflective performance requires maintained airspace..
-- conductive material - keep away from electrical services..
-- not suitable as sole insulation in cold climates..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Pressure-sensitive adhesive requires firm rubbing / rolling down for complete bonding.
+- Substrate must be completely dry and clean prior to application.
+- Non-structural; not suitable for carrying tensile loads.
+- Avoid contact with wet cement, lime or strong alkaline materials.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Reflective performance requires maintained airspace.
+1. Ensure surfaces to be taped are clean, dry and completely free of dust, oil and contaminants.
+2. Align sheets with minimum 50mm overlap or tightly butted as specified for the application.
+3. Centre the tape squarely over the joint.
+4. Press down firmly along the entire length of the tape.
+5. Wipe down with a plastic squeegee or roller to activate pressure-sensitive adhesive and remove air pockets.
+6. Do not stretch tape during application to avoid tension wrinkles.
 
 ## Safety and handling
 
@@ -78,11 +98,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Low VOC emitting (< 0.5 mg/m²/hr); Cetec Certified Green Star compliant
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Covered under Kingspan AIR-CELL product warranty system
 
 ## Specification starting point
 

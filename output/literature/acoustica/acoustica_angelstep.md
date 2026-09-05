@@ -1,6 +1,6 @@
 ---
 title: "Acoustica AngelStep - Underlay Insulation | Acoustica"
-description: "Quality insulation engineered for Australian conditions. Engineered specifically for noise control, delivering the acoustic separation required for NC"
+description: "AngelStep is an Australian designed and manufactured acoustic underlay range engineered to enhance the acoustic performance of residential and commerc"
 keywords: "Acoustica AngelStep, Acoustica underlay, acoustic insulation, floor insulation, insulation Australia, Acoustica Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: ACOUSTICA_ANGELSTEP
@@ -10,27 +10,38 @@ family_id: ACOUSTICA_ANGELSTEP
 
 **Acoustica Underlay** — underlay insulation product.
 
-Quality insulation engineered for Australian conditions. Engineered specifically for noise control, delivering the acoustic separation required for NCC compliance. Rigid design makes installation fast and efficient - no sagging or falling out.
+AngelStep is an Australian designed and manufactured acoustic underlay range engineered to enhance the acoustic performance of residential and commercial flooring [2]. Its construction combines impact vibration damping and sound absorption with decoupled noise barrier technology to minimise airborne and footfall noise [2]. Free from glues and binding agents, its double-needling process guarantees uniform resilience throughout the lifetime of the floor [2].
 
 ## Key features
 
-- Engineered specifically for acoustic performance.
-- high NRC/Rw ratings for effective sound control.
-- suitable for commercial and residential applications.
-- rigid design prevents sagging between joists.
-- reduces drafts and cold floors.
+- Easy to install [2].
+- High sound absorption [2].
+- Water and most chemical resistant [2].
+- Outstanding acoustic performance (consistently achieves AAAC 5 and 6 stars) [2].
+- Australian designed and manufactured [2].
+- Zero VOCs, zero emissions, non-toxic [2].
+- No glues or binding agents used; fibres held by double-needling process [2].
+- Polyester will not degrade or breakdown over time [2].
+- Vibration damping absorber made from 75% recycled material [2].
+- Will last the life of the flooring material [2].
 
 ## Applications and selection
 
-- Floor | Acoustic Floor
+- apartments and multi-residential separating floors [2]
+- townhouses and upmarket residential housing [2]
+- commercial and professional office suites [2]
+- under ceramic and stone tiles [2]
+- under solid timber, engineered timber and laminate flooring [2]
+- under vinyl flooring [2]
+- under carpet and carpet tiles [2]
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Identify subfloor structure (concrete slab vs timber joists) [2].
+2. Identify final floor finish (tile, timber, vinyl, or carpet) [2].
+3. Verify strata by-laws / body corporate acoustic target (BCA minimum vs AAAC 5 or 6 stars) [2].
+4. Confirm allowable buildup thickness (4mm, 8mm, 10mm, or 17mm) [2].
+5. Check subfloor flatness conforms to AS 3600:2001 (+/- 3mm over 3m) [2].
 
 
 ## Current catalogue range
@@ -43,36 +54,57 @@ Quality insulation engineered for Australian conditions. Engineered specifically
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Underlay | Manufacturer catalogue |
-| Material | Acoustic Composite | Manufacturer catalogue |
-| Applications | Floor | Acoustic Floor | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Nominal Thickness | 8mm (GOLD8, 48P); 4mm (GOLD4, 630, 250); 10mm (484P); 17/8mm (3D) | - |
+| Tile Dimensions | 1150mm x 1150mm (GOLD8, GOLD4, 48P, 484P, 250); 1200mm x 1200mm (3D) | - |
+| Water Vapour Transmission Rate | 1 gm/m²/day | ASTM F-1294 |
+| Compressive Strength at 10% deformation | 2.16 kPa | EN 826 |
+| Dynamic Stiffness | 19.99 MN/m³ | ISO 9052-1 |
+| Compressibility | 0.1mm @ 50 kPa | EN 12431 |
+| VOC Concentration | 0.01 mg/m³ (classified as low VOC) | Cetec (CV080408) |
+| Fire Hazard Classification | Group 1; SMOGRArc < 100 m²/s² | AS ISO 9705-2003 / BCA C1.10 (BRANZ FI 4871) |
+| Field Impact Sound Performance | L'nT,w 34 to 50 (AAAC 5 and 6 Star compliance) | ISO 16283-1:2014 / ISO 140-7:1998 |
 
-
+Extracted from manufacturer datasheet: https://acoustica.com.au/angelstep-gold8-technical-info/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+AS ISO 9705-2003 Group 1; SMOGRArc < 100 m²/s² as required by BCA C1.10 (BRANZ FI 4871); ISO 9705:1993 Group 1-S [2]
+
+Building Code of Australia (BCA) / NCC compliant for separating floors; AS ISO 9705-2003; ISO 16283-1:2014; AAAC Star Rating System [2]
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://acoustica.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://acoustica.com.au/.
 
+## Recommended accessories
+
+- Polyurethane-based flooring adhesive (Bostik Ultraset SF, Sika T-55J, Mapei Ultrabond P990) [2].
+- Aluminium joining tape [2].
+- Perimeter MDF battens [2].
+
 
 ## Limitations and warnings
 
-- Acoustic ratings are system-based - verify complete assembly matches tested configuration..
-- joints and penetrations must be properly sealed for rated performance..
-- Ensure adequate subfloor ventilation is maintained..
-- do not leave exposed to ground moisture or subfloor dampness..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Do not mechanically fix through AngelStep [2].
+- Do not use Modified Silicone Polymer adhesives [2].
+- Subfloor deviation must not exceed +/- 3mm in a 3m radius without levelling compound [2].
+- Must not be subject to maximum intermittent temperatures equal to or exceeding 60°C [2].
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Acoustic ratings are system-based - verify complete assembly matches tested configuration.
+1. Ensure concrete slab is flat with no more than +/- 3mm deviation in a 3m radius as per AS 3600:2001 [2].
+2. Subfloor surface must be clean, dry and completely free of debris [2].
+3. Fix any existing squeaks in timber floors prior to installation [2].
+4. Install 40mm x (AngelStep thickness - 1mm) MDF battens around perimeter of room for smooth edge grip installation if carpeting [2].
+5. Install AngelStep tiles tightly butted together [2].
+6. Joins may be taped using aluminium tape if necessary to ensure zero gaps between sheets [2].
+7. Spot glue AngelStep using a polyurethane-based flooring adhesive (e.g. Bostik Ultraset SF, Sika T-55J, Mapei Ultrabond P990) [2].
+8. Leave a 3-5mm expansion gap between walls and finished floor surface [2].
+9. Install skirting after flooring, maintaining a 3mm gap between floor finish and skirting [2].
+10. Cut tiles neatly using a sharp Stanley knife [2].
 
 ## Safety and handling
 
@@ -80,11 +112,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Zero VOCs, zero emissions, non-toxic; Cetec tested VOC concentration 0.01 mg/m³; absorber made from 75% recycled material [2]
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+10 years / will last the life of the flooring material [2]
 
 ## Specification starting point
 

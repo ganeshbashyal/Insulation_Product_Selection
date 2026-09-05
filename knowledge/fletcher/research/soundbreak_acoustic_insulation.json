@@ -1,9 +1,11 @@
 {
   "family_id": "FLETCHER_SOUNDBREAK",
   "family_name": "Soundbreak Acoustic Insulation",
-  "datasheet_pdf_url": null,
-  "status": "no_pdf_found",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "gemini_error",
   "researched_at": "2026-09-05",
   "spec": null,
-  "source_excerpt": null
+  "source_excerpt": null,
+  "engine": "gemini"
 }

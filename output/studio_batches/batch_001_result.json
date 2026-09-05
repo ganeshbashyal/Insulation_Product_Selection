@@ -1,0 +1,1282 @@
+
+[
+{
+"family_id": "ACOUSTICA_ACCESSORY",
+"tds_url": "",
+"sds_url": "",
+"description": "",
+"features": [],
+"applications": [],
+"technical": [],
+"range": [],
+"fire": "",
+"compliance": "",
+"sustainability": "",
+"install": [],
+"selection_checklist": [],
+"accessories": [],
+"limitations": [],
+"warranty": "",
+"found": false,
+"search_keywords": [
+"Acoustica accessory",
+"acoustic tape",
+"aluminium foil tape",
+"lagging tape",
+"acoustic adhesive",
+"isolation tape",
+"insulation accessory",
+"perimeter sealing tape",
+"acoustic joining tape"
+],
+"problem_keywords": [
+"sealing acoustic barriers",
+"sound flanking at joins",
+"acoustic tape for lagging",
+"flanking noise through joints",
+"fixing acoustic barrier",
+"airtight acoustic seal"
+],
+"placement": [
+"wall",
+"ceiling",
+"floor",
+"pipe",
+"duct"
+],
+"priority_fit": [
+"acoustic",
+"easy_install"
+],
+"use_cases": [
+"sealing joints and seams in mass loaded vinyl and flexible acoustic barriers",
+"taping overlaps on GreenLAG acoustic pipe lagging",
+"adhering acoustic underlays to concrete slabs with approved adhesives"
+],
+"not_for": [
+"structural load bearing fastening",
+"external weatherproofing without cladding",
+"bulk thermal insulation batt replacement"
+],
+"rag_summary": "Acoustica accessories comprise specialised companion components such as reinforced aluminium foil sealing tapes and acoustic adhesives engineered to seal joints in acoustic barriers, underlays, and pipe lagging systems. These accessories ensure airtight, gap-free perimeter and seam closures, eliminating acoustic flanking paths that would otherwise degrade sound transmission loss. Typically used across ceilings, walls, subfloors, and services piping, they are essential for achieving rated acoustic performance in residential and commercial soundproofing systems."
+},
+{
+"family_id": "ACOUSTICA_ACOUSTIC_BARRIER",
+"tds_url": "",
+"sds_url": "",
+"description": "",
+"features": [],
+"applications": [],
+"technical": [],
+"range": [],
+"fire": "",
+"compliance": "",
+"sustainability": "",
+"install": [],
+"selection_checklist": [],
+"accessories": [],
+"limitations": [],
+"warranty": "",
+"found": false,
+"search_keywords": [
+"Acoustica acoustic barrier",
+"mass loaded vinyl",
+"flexible noise barrier",
+"sound barrier sheet",
+"soundproofing membrane",
+"Acoustica barrier",
+"acoustic vinyl",
+"wall soundproofing sheet",
+"ceiling sound barrier"
+],
+"problem_keywords": [
+"noisy neighbours",
+"sound transmission through wall",
+"traffic noise in bedroom",
+"aircraft noise in roof",
+"home theatre soundproofing",
+"office privacy sound transfer",
+"party wall noise"
+],
+"placement": [
+"wall",
+"internal wall",
+"external wall",
+"ceiling",
+"roof",
+"between floors"
+],
+"priority_fit": [
+"acoustic",
+"fire"
+],
+"use_cases": [
+"upgrading airborne sound transmission loss in party walls and stud partitions",
+"adding acoustic mass between ceiling joists to block aircraft and traffic noise",
+"damping airborne sound transmission in home theatres and recording studios",
+"isolating noisy mechanical plant rooms from adjoining tenancies"
+],
+"not_for": [
+"thermal insulation replacement without bulk insulation batts",
+"direct floor wearing surface without underlay and flooring finish",
+"outdoor exposed weather-facing cladding without protection"
+],
+"rag_summary": "Acoustica Acoustic Barrier represents flexible, high-density mass-loaded acoustic barrier membranes engineered to dramatically reduce airborne sound transmission across walls, ceilings, and roofs. Formulated to provide high acoustic transmission loss (Rw) and vibration damping without adding substantial wall thickness, these membranes stop speech, entertainment, traffic, and aircraft noise. They are commonly incorporated into drywall partitions, ceiling cavities, and timber floor-ceiling assemblies in residential, commercial, and studio environments."
+},
+{
+"family_id": "ACOUSTICA_ACOUSTIFLEX_SQ",
+"tds_url": "https://acoustica.com.au/acoustiflex-sq-technical-info/",
+"sds_url": "",
+"description": "AcoustiFlex SQ flexible noise barrier and vibration damping material has a soft, cellular structure that increases vibration dampening to achieve superior Sound Transmission Loss (STL) for a given weight and thickness [1]. It consists of a flexible micro-cellular membrane bonded to an aluminium facing foil with a reinforced polyester backing [1]. Certified by the CSIRO Division of Materials Science and Engineering as Group 1 Fire Rated, it provides high sound attenuation across the full frequency spectrum [1].",
+"features": [
+"Group 1 Fire Rating [1]",
+"Low cost, long lasting [1]",
+"10 year guarantee [1]",
+"Low VOCs (Less than a recognised threshold of 0.5mg 'Green Star') [1]",
+"Easy to handle, cut and install [1]",
+"Available in different weights (other configurations available on request) [1]",
+"Environmentally safe (no protective wear required) [1]",
+"Proudly made in Australia [1]",
+"Soft and cellular structure increases vibration dampening [1]",
+"Matching acoustic performance of equivalent heavier competitive noise barriers [1]"
+],
+"applications": [
+"ceilings and roofs against overhead aircraft noise and rain [1]",
+"external walls and ceilings against traffic, train and neighbour noise [1]",
+"home theatres, entertainment areas and machinery rooms [1]",
+"offices, meeting rooms, doctors and lawyers consulting rooms [1]",
+"portable acoustic screens [1]",
+"construction site temporary fencing acoustic barriers [1]",
+"automotive cabins [1]"
+],
+"technical": [
+{
+"property": "Airborne Sound Insulation (Rw)",
+"value": "AcoustiFlex SQ 25: Rw 24; SQ 40: Rw 28; SQ 60: Rw 35; SQ 80: Rw 36",
+"standard": "ISO 717-1:2013 / ASTM E413-16 / ASTM E2249-02 / ISO 15186-1:2000"
+},
+{
+"property": "Fire Hazard Classification",
+"value": "Group 1",
+"standard": "AS ISO 9705 / CSIRO"
+},
+{
+"property": "VOC Emissions",
+"value": "< 0.5 mg/m²/hr (Green Star compliant)",
+"standard": "Cetec"
+},
+{
+"property": "Roll Dimensions (SQ 25)",
+"value": "1.3m x 5.4m",
+"standard": ""
+},
+{
+"property": "Roll Dimensions (SQ 40)",
+"value": "1.3m x 4m",
+"standard": ""
+},
+{
+"property": "Roll Dimensions (SQ 60)",
+"value": "1.3m x 2.5m",
+"standard": ""
+},
+{
+"property": "Roll Dimensions (SQ 80)",
+"value": "1.3m x 2.5m",
+"standard": ""
+}
+],
+"range": [
+{
+"variant": "AcoustiFlex SQ 25",
+"size_or_rating": "1.3m x 5.4m (Rw 24)",
+"pack": "Roll"
+},
+{
+"variant": "AcoustiFlex SQ 40",
+"size_or_rating": "1.3m x 4m (Rw 28)",
+"pack": "Roll"
+},
+{
+"variant": "AcoustiFlex SQ 60",
+"size_or_rating": "1.3m x 2.5m (Rw 35)",
+"pack": "Roll"
+},
+{
+"variant": "AcoustiFlex SQ 80",
+"size_or_rating": "1.3m x 2.5m (Rw 36)",
+"pack": "Roll"
+}
+],
+"fire": "Group 1 Fire Rated (certified by CSIRO Division of Materials Science and Engineering) [1]",
+"compliance": "ASTM E2249-02, ISO 15186-1:2000, ASTM E413-16, ISO 717-1:2013 [1]",
+"sustainability": "Low VOCs (less than the recognised Green Star threshold of 0.5 mg/m²/hr); Environmentally safe (no protective wear required); Australian Made certified [1]",
+"install": [
+"Treat installation the same way as a waterproof membrane or traditional sarking material [1]",
+"Lay AcoustiFlex SQ aluminium facing up [1]",
+"Hang loose over supports rather than tight [1]",
+"Overlap sheets by 75mm up to 100mm [1]",
+"Tape all joints on the aluminium side with reinforced 72mm wide aluminium tape [1]",
+"Nail or staple through to supports where necessary to prevent excessive deflection or sagging [1]",
+"Where butt jointed at supports, ensure each sheet end is tightly fitted, nailed through to the support, and taped [1]",
+"Fill floor/ceiling void between joists with acoustic or thermal insulation [1]",
+"Ensure all electrical cabling is installed or relocated over the AcoustiFlex SQ by a qualified electrician [1]"
+],
+"selection_checklist": [
+"Confirm required sound transmission loss rating (Rw 24, 28, 35, or 36) [1]",
+"Confirm installation type (roof, ceiling space, timber floor, or site fencing) [1]",
+"Verify BCA Group 1 fire rating compliance for the space [1]",
+"Calculate total area allowing for 75mm to 100mm overlaps [1]",
+"Ensure an electrician is scheduled to relocate any existing wiring over the membrane [1]"
+],
+"accessories": [
+"Reinforced 72mm wide aluminium tape [1]",
+"Fasteners (nails or staples) [1]"
+],
+"limitations": [
+"Must be hung loose over supports rather than pulled tight [1]",
+"All electrical cabling must be located above the membrane and never trapped beneath [1]",
+"All joints must be overlapped by 75-100mm and taped on the aluminium side [1]"
+],
+"warranty": "10 year guarantee [1]",
+"found": true,
+"search_keywords": [
+"Acoustiflex SQ",
+"Acoustica Acoustiflex",
+"Acoustiflex SQ 25",
+"Acoustiflex SQ 40",
+"Acoustiflex SQ 60",
+"flexible noise barrier",
+"acoustic membrane",
+"mass loaded barrier",
+"roof noise barrier",
+"Group 1 acoustic barrier",
+"aircraft noise insulation"
+],
+"problem_keywords": [
+"aircraft noise through roof",
+"rain noise on metal roof",
+"traffic noise through walls",
+"inter-tenancy noise transfer",
+"confidential meeting room noise leak",
+"construction site fence noise",
+"machinery room noise transmission"
+],
+"placement": [
+"ceiling",
+"roof",
+"roofline",
+"wall",
+"internal wall",
+"external wall",
+"between floors"
+],
+"priority_fit": [
+"acoustic",
+"fire",
+"sustainability"
+],
+"use_cases": [
+"draping across ceiling joists under metal deck roofs to mitigate aircraft and rain noise",
+"installing inside drywall wall cavities for medical and legal privacy consulting rooms",
+"hung as portable sound blankets or draped over temporary fencing on construction sites",
+"damping machinery room noise transmission to adjoining residential spaces"
+],
+"not_for": [
+"direct impact footstep noise reduction under floorboards without resilient underlay",
+"primary thermal insulation without bulk batts",
+"direct external exposure without protective cladding or fencing tarp"
+],
+"rag_summary": "Acoustica Acoustiflex SQ is an Australian-made, high-performance flexible noise barrier and vibration-damping membrane featuring a micro-cellular structure bonded to an aluminium foil facing with reinforced backing. Achieving CSIRO Group 1 fire classification and airborne sound reduction up to Rw 36, it is engineered for roofs, ceilings, inter-tenancy walls, plant rooms, and construction site barriers. It effectively attenuates airborne noise, aircraft flyover noise, heavy rain impact on metal roofs, and speech privacy issues while meeting stringent NCC fire and low-VOC requirements."
+},
+{
+"family_id": "ACOUSTICA_ANGELSTEP",
+"tds_url": "https://acoustica.com.au/angelstep-gold8-technical-info/",
+"sds_url": "",
+"description": "AngelStep is an Australian designed and manufactured acoustic underlay range engineered to enhance the acoustic performance of residential and commercial flooring [2]. Its construction combines impact vibration damping and sound absorption with decoupled noise barrier technology to minimise airborne and footfall noise [2]. Free from glues and binding agents, its double-needling process guarantees uniform resilience throughout the lifetime of the floor [2].",
+"features": [
+"Easy to install [2]",
+"High sound absorption [2]",
+"Water and most chemical resistant [2]",
+"Outstanding acoustic performance (consistently achieves AAAC 5 and 6 stars) [2]",
+"Australian designed and manufactured [2]",
+"Zero VOCs, zero emissions, non-toxic [2]",
+"No glues or binding agents used; fibres held by double-needling process [2]",
+"Polyester will not degrade or breakdown over time [2]",
+"Vibration damping absorber made from 75% recycled material [2]",
+"Will last the life of the flooring material [2]"
+],
+"applications": [
+"apartments and multi-residential separating floors [2]",
+"townhouses and upmarket residential housing [2]",
+"commercial and professional office suites [2]",
+"under ceramic and stone tiles [2]",
+"under solid timber, engineered timber and laminate flooring [2]",
+"under vinyl flooring [2]",
+"under carpet and carpet tiles [2]"
+],
+"technical": [
+{
+"property": "Nominal Thickness",
+"value": "8mm (GOLD8, 48P); 4mm (GOLD4, 630, 250); 10mm (484P); 17/8mm (3D)",
+"standard": ""
+},
+{
+"property": "Tile Dimensions",
+"value": "1150mm x 1150mm (GOLD8, GOLD4, 48P, 484P, 250); 1200mm x 1200mm (3D)",
+"standard": ""
+},
+{
+"property": "Water Vapour Transmission Rate",
+"value": "1 gm/m²/day",
+"standard": "ASTM F-1294"
+},
+{
+"property": "Compressive Strength at 10% deformation",
+"value": "2.16 kPa",
+"standard": "EN 826"
+},
+{
+"property": "Dynamic Stiffness",
+"value": "19.99 MN/m³",
+"standard": "ISO 9052-1"
+},
+{
+"property": "Compressibility",
+"value": "0.1mm @ 50 kPa",
+"standard": "EN 12431"
+},
+{
+"property": "VOC Concentration",
+"value": "0.01 mg/m³ (classified as low VOC)",
+"standard": "Cetec (CV080408)"
+},
+{
+"property": "Fire Hazard Classification",
+"value": "Group 1; SMOGRArc < 100 m²/s²",
+"standard": "AS ISO 9705-2003 / BCA C1.10 (BRANZ FI 4871)"
+},
+{
+"property": "Field Impact Sound Performance",
+"value": "L'nT,w 34 to 50 (AAAC 5 and 6 Star compliance)",
+"standard": "ISO 16283-1:2014 / ISO 140-7:1998"
+}
+],
+"range": [
+{
+"variant": "AngelStep GOLD8",
+"size_or_rating": "1150mm x 1150mm x 8mm",
+"pack": "Tile"
+},
+{
+"variant": "AngelStep GOLD4",
+"size_or_rating": "1150mm x 1150mm x 4mm",
+"pack": "Tile"
+},
+{
+"variant": "AngelStep 48P",
+"size_or_rating": "1150mm x 1150mm x 8mm",
+"pack": "Tile"
+},
+{
+"variant": "AngelStep 484P",
+"size_or_rating": "1150mm x 1150mm x 10mm",
+"pack": "Tile"
+},
+{
+"variant": "AngelStep 630",
+"size_or_rating": "1150mm x 1150mm x 4mm",
+"pack": "Tile"
+},
+{
+"variant": "AngelStep 3D",
+"size_or_rating": "1200mm x 1200mm x 17/8mm",
+"pack": "Tile"
+},
+{
+"variant": "AngelStep 250",
+"size_or_rating": "1150mm x 1150mm x 4mm",
+"pack": "Tile"
+}
+],
+"fire": "AS ISO 9705-2003 Group 1; SMOGRArc < 100 m²/s² as required by BCA C1.10 (BRANZ FI 4871); ISO 9705:1993 Group 1-S [2]",
+"compliance": "Building Code of Australia (BCA) / NCC compliant for separating floors; AS ISO 9705-2003; ISO 16283-1:2014; AAAC Star Rating System [2]",
+"sustainability": "Zero VOCs, zero emissions, non-toxic; Cetec tested VOC concentration 0.01 mg/m³; absorber made from 75% recycled material [2]",
+"install": [
+"Ensure concrete slab is flat with no more than +/- 3mm deviation in a 3m radius as per AS 3600:2001 [2]",
+"Subfloor surface must be clean, dry and completely free of debris [2]",
+"Fix any existing squeaks in timber floors prior to installation [2]",
+"Install 40mm x (AngelStep thickness - 1mm) MDF battens around perimeter of room for smooth edge grip installation if carpeting [2]",
+"Install AngelStep tiles tightly butted together [2]",
+"Joins may be taped using aluminium tape if necessary to ensure zero gaps between sheets [2]",
+"Spot glue AngelStep using a polyurethane-based flooring adhesive (e.g. Bostik Ultraset SF, Sika T-55J, Mapei Ultrabond P990) [2]",
+"Leave a 3-5mm expansion gap between walls and finished floor surface [2]",
+"Install skirting after flooring, maintaining a 3mm gap between floor finish and skirting [2]",
+"Cut tiles neatly using a sharp Stanley knife [2]"
+],
+"selection_checklist": [
+"Identify subfloor structure (concrete slab vs timber joists) [2]",
+"Identify final floor finish (tile, timber, vinyl, or carpet) [2]",
+"Verify strata by-laws / body corporate acoustic target (BCA minimum vs AAAC 5 or 6 stars) [2]",
+"Confirm allowable buildup thickness (4mm, 8mm, 10mm, or 17mm) [2]",
+"Check subfloor flatness conforms to AS 3600:2001 (+/- 3mm over 3m) [2]"
+],
+"accessories": [
+"Polyurethane-based flooring adhesive (Bostik Ultraset SF, Sika T-55J, Mapei Ultrabond P990) [2]",
+"Aluminium joining tape [2]",
+"Perimeter MDF battens [2]"
+],
+"limitations": [
+"Do not mechanically fix through AngelStep [2]",
+"Do not use Modified Silicone Polymer adhesives [2]",
+"Subfloor deviation must not exceed +/- 3mm in a 3m radius without levelling compound [2]",
+"Must not be subject to maximum intermittent temperatures equal to or exceeding 60°C [2]"
+],
+"warranty": "10 years / will last the life of the flooring material [2]",
+"found": true,
+"search_keywords": [
+"AngelStep",
+"AngelStep Gold8",
+"AngelStep Gold4",
+"AngelStep 484P",
+"Acoustica underlay",
+"acoustic flooring underlay",
+"timber floor underlay",
+"tile acoustic underlay",
+"AAAC 6 star underlay",
+"impact sound underlay",
+"strata acoustic underlay"
+],
+"problem_keywords": [
+"footstep noise through ceiling",
+"strata acoustic compliance",
+"heels clicking on timber floor",
+"impact noise downstairs",
+"creaking floorboards",
+"meeting body corporate sound requirements",
+"hard floor sound deadening"
+],
+"placement": [
+"floor",
+"underfloor",
+"between floors",
+"subfloor"
+],
+"priority_fit": [
+"acoustic",
+"sustainability",
+"fire"
+],
+"use_cases": [
+"installing under engineered timber or hybrid flooring in multi-storey apartments to achieve AAAC 5 or 6 stars",
+"decoupling ceramic and stone tiles over concrete slabs to prevent impact noise transmission",
+"retrofitting under carpet and vinyl in townhouses and luxury residences to silence footfall noise",
+"meeting strict body corporate impact sound criteria during apartment floor renovations"
+],
+"not_for": [
+"cavity wall soundproofing batts replacement",
+"pipe or duct lagging",
+"ceiling hanging acoustic baffles"
+],
+"rag_summary": "Acoustica AngelStep is a premium Australian-designed and manufactured acoustic flooring underlay engineered to control impact footfall and airborne noise transmission under timber, laminate, ceramic tiles, vinyl, and carpet. Constructed from double-needled resilient polyester without glues or binding agents and incorporating recycled damping materials, it achieves up to AAAC 6 Star acoustic performance and Group 1 fire classification. It is primarily installed over concrete slabs and timber subfloors in apartments, multi-residential dwellings, and commercial suites to satisfy stringent strata and NCC acoustic regulations."
+},
+{
+"family_id": "ACOUSTICA_DUST_FOAM_FILTER",
+"tds_url": "",
+"sds_url": "",
+"description": "",
+"features": [],
+"applications": [],
+"technical": [],
+"range": [],
+"fire": "",
+"compliance": "",
+"sustainability": "",
+"install": [],
+"selection_checklist": [],
+"accessories": [],
+"limitations": [],
+"warranty": "",
+"found": false,
+"search_keywords": [
+"Acoustica dust foam filter",
+"reticulated foam filter",
+"acoustic filter foam",
+"dust filter foam",
+"air intake foam filter",
+"Acoustica foam",
+"ventilation filter foam"
+],
+"problem_keywords": [
+"dust ingress in ventilation",
+"acoustic duct dust filter",
+"fan noise and dust",
+"equipment cabinet air filtration",
+"air vent dust infiltration"
+],
+"placement": [
+"duct",
+"wall"
+],
+"priority_fit": [
+"easy_install",
+"acoustic"
+],
+"use_cases": [
+"filtering dust while maintaining acoustic attenuation in HVAC transfer ducts",
+"inserting into electronic equipment enclosures and speaker grilles for dust and noise management"
+],
+"not_for": [
+"thermal wall insulation",
+"impact floor underlay",
+"high temperature flue insulation"
+],
+"rag_summary": "Acoustica Dust Foam Filter is an open-cell reticulated polyurethane foam designed to capture airborne particulates and dust while permitting controlled airflow in acoustic and ventilation systems. Commonly fitted within acoustic transfer ducts, ventilation grilles, and electronic equipment housings, it provides mild sound damping alongside particulate filtration. It is lightweight, easily cut to fit irregular apertures, and washable or replaceable for ongoing maintenance."
+},
+{
+"family_id": "ACOUSTICA_GL",
+"tds_url": "https://acoustica.com.au/greenlag-technical-info/",
+"sds_url": "",
+"description": "GreenLAG pipe lagging has a noise barrier with a microcellular structure designed to contain intrusive noise generated by the turbulent flow of liquids through pipes, fittings and ductwork break-out [3]. It incorporates a patented visco-elastic acoustic barrier using QuietWave technology bonded to a 15mm or 25mm solid foam decoupling layer and an outer durable aluminium foil facing [3]. Engineered for multi-storey residential, commercial and industrial buildings, it is the thinnest and lightest NCC-compliant acoustic pipe lagging on the Australian market [3].",
+"features": [
+"Improved vibration damping with microcellular noise barrier and solid foam layer [3]",
+"Reduced installation time resulting from flexibility and resilience [3]",
+"Exceeds the acoustic requirements of the National Construction Code of Australia (NCC) [3]",
+"Tough and tear-resistant yet easily cut and shaped [3]",
+"Patented visco-elastic acoustic barrier using QuietWave technology [3]",
+"Low VOCs (less than required for Green Star rating of 0.5mg) [3]",
+"Flat foam GreenLAG is thinnest and lighter NCC compliant acoustic pipe lagging [3]",
+"Non-toxic [3]",
+"Cost effective with a saving of 12.7% compared to convoluted foam equivalent [3]",
+"Proudly designed and manufactured in Australia [3]"
+],
+"applications": [
+"waste water and soil pipes [3]",
+"hydraulic pipes and fittings [3]",
+"ductwork noise break-out [3]",
+"fan housings [3]",
+"valves in multi-storey residential, commercial and industrial buildings [3]"
+],
+"technical": [
+{
+"property": "Acoustic Performance (Habitable Rooms)",
+"value": "Exceeds Rw+Ctr 40",
+"standard": "NCC 2019 / NCC 2022 Ref. F5.6"
+},
+{
+"property": "Acoustic Performance (Non-Habitable Rooms)",
+"value": "Exceeds Rw+Ctr 25",
+"standard": "NCC 2019 / NCC 2022 Ref. F5.6"
+},
+{
+"property": "Thickness (15mm foam)",
+"value": "18mm",
+"standard": ""
+},
+{
+"property": "Thickness (25mm foam)",
+"value": "25mm (nominal)",
+"standard": ""
+},
+{
+"property": "Roll Dimensions (18mm, 3m)",
+"value": "1.3m x 3m (3.9 m²/roll)",
+"standard": ""
+},
+{
+"property": "Roll Dimensions (18mm, 5m)",
+"value": "1.3m x 5m (6.5 m²/roll)",
+"standard": ""
+},
+{
+"property": "Roll Dimensions (25mm, 3m)",
+"value": "1.3m x 3m (3.9 m²/roll)",
+"standard": ""
+},
+{
+"property": "Roll Dimensions (25mm, 5m)",
+"value": "1.3m x 5m (6.5 m²/roll)",
+"standard": ""
+},
+{
+"property": "Area Weight (18mm)",
+"value": "3.6 kg/m ²",
+"standard": ""
+},
+{
+"property": "Area Weight (25mm)",
+"value": "5.0 kg/m ²",
+"standard": ""
+},
+{
+"property": "VOC Emission",
+"value": "< 0.5 mg/m²/hr (Green Star compliant)",
+"standard": ""
+}
+],
+"range": [
+{
+"variant": "GreenLAG 18mm x 3m",
+"size_or_rating": "1.3m x 3m (3.9m²), 18mm, 3.6kg/m²",
+"pack": "Roll"
+},
+{
+"variant": "GreenLAG 18mm x 5m",
+"size_or_rating": "1.3m x 5m (6.5m²), 18mm, 3.6kg/m²",
+"pack": "Roll"
+},
+{
+"variant": "GreenLAG 25mm x 3m",
+"size_or_rating": "1.3m x 3m (3.9m²), 25mm, 5.0kg/m²",
+"pack": "Roll"
+},
+{
+"variant": "GreenLAG 25mm x 5m",
+"size_or_rating": "1.3m x 5m (6.5m²), 25mm, 5.0kg/m²",
+"pack": "Roll"
+}
+],
+"fire": "Meets all fire codes set out in the National Construction Code (NCC) for waste water pipes [3]",
+"compliance": "Exceeds NCC 2019 / NCC 2022 Ref. F5.6 (habitable and non-habitable room requirements); Green Star compliant [3]",
+"sustainability": "Low VOCs (less than 0.5mg Green Star threshold); Non-toxic; Australian Made licensed [3]",
+"install": [
+"Measure pipe outside diameter and cut GreenLAG to size allowing for 50mm overlaps [3]",
+"Ensure foam decoupling layer faces inward directly against the pipe surface [3]",
+"Wrap GreenLAG tightly around the pipe, elbow, branch or ductwork [3]",
+"Overlap all longitudinal joints by a minimum of 50mm [3]",
+"Seal all longitudinal and circumferential joints with reinforced aluminium foil tape [3]",
+"Secure lagging with cable ties or tape at 200-300mm centres and at all joints [3]",
+"Ensure complete coverage around pipe brackets, bends and penetrations with no acoustic flanking gaps [3]"
+],
+"selection_checklist": [
+"Confirm pipe application (habitable room requiring Rw+Ctr 40 vs non-habitable requiring Rw+Ctr 25) [3]",
+"Confirm pipe diameter and total lineal meterage required [3]",
+"Select foam thickness (18mm total thickness / 15mm foam vs 25mm foam) [3]",
+"Check ceiling void / cavity clearance around pipework [3]",
+"Ensure adequate supply of reinforced aluminium tape and cable ties [3]"
+],
+"accessories": [
+"Reinforced aluminium foil tape (72mm) [3]",
+"Cable ties / pipe bands [3]"
+],
+"limitations": [
+"Foam decoupling layer must always face the pipe surface [3]",
+"All overlaps and penetrations must be fully sealed to prevent acoustic flanking [3]",
+"Not load-bearing [3]"
+],
+"warranty": "10 year guarantee [3]",
+"found": true,
+"search_keywords": [
+"Acoustica GreenLAG",
+"Acoustica GL",
+"GreenLAG",
+"acoustic pipe lagging",
+"pipe soundproofing",
+"PVC pipe lagging",
+"QuietWave pipe lagging",
+"drain pipe insulation",
+"hydraulic pipe lagging",
+"Rw+Ctr 40 pipe lagging",
+"waste pipe acoustic wrap"
+],
+"problem_keywords": [
+"water rushing noise in pipes",
+"toilet flushing noise through ceiling",
+"noisy PVC waste pipe",
+"hydraulic pipe breakout noise",
+"meeting NCC F5.6 pipe acoustic code",
+"sound transmission from stormwater pipes",
+"plumbing noise in bedrooms"
+],
+"placement": [
+"pipe",
+"duct",
+"ceiling",
+"wall"
+],
+"priority_fit": [
+"acoustic",
+"easy_install",
+"sustainability"
+],
+"use_cases": [
+"lagging PVC soil and waste water pipes above plasterboard ceilings in multi-storey apartments",
+"wrapping hydraulic pipes, valves and fan housings in commercial risers",
+"insulating rainwater downpipes running through habitable rooms to exceed NCC Rw+Ctr 40 requirements",
+"damping general noise breakout from air conditioning ductwork"
+],
+"not_for": [
+"high temperature steam pipe insulation without thermal insulation barrier",
+"under-slab floor impact isolation",
+"external weather-exposed roofing membrane"
+],
+"rag_summary": "Acoustica GreenLAG (Acoustica GL) is an ultra-thin, lightweight acoustic pipe lagging engineered to silence breakout noise from liquid flow in hydraulic, waste, and stormwater pipes. Constructed with a patented QuietWave visco-elastic microcellular acoustic barrier bonded to a 15mm or 25mm decoupling foam layer and reinforced aluminium foil outer face, it comfortably exceeds NCC acoustic requirements (Rw+Ctr 40 for habitable rooms and Rw+Ctr 25 for non-habitable rooms). Designed and manufactured in Australia with low VOC emissions, it wraps tightly around pipes, elbows, and ductwork to stop intrusive flushing and turbulent flow sounds in residential and commercial buildings."
+},
+{
+"family_id": "ACOUSTICA_UNDERLAY",
+"tds_url": "",
+"sds_url": "",
+"description": "",
+"features": [],
+"applications": [],
+"technical": [],
+"range": [],
+"fire": "",
+"compliance": "",
+"sustainability": "",
+"install": [],
+"selection_checklist": [],
+"accessories": [],
+"limitations": [],
+"warranty": "",
+"found": false,
+"search_keywords": [
+"Acoustica underlay",
+"acoustic underlay",
+"floor soundproofing underlay",
+"impact noise underlay",
+"concrete slab underlay",
+"strata underlay",
+"timber floor acoustic mat",
+"carpet acoustic underlay"
+],
+"problem_keywords": [
+"footstep noise downstairs",
+"noisy timber floors",
+"strata acoustic compliance",
+"impact sound through concrete slab",
+"drumming sound from laminate floors",
+"body corporate noise dispute"
+],
+"placement": [
+"floor",
+"underfloor",
+"between floors",
+"subfloor"
+],
+"priority_fit": [
+"acoustic",
+"easy_install"
+],
+"use_cases": [
+"installing below engineered timber, laminate, or carpet in multi-storey apartments to eliminate footfall impact noise",
+"isolating ceramic and stone floor tiles from concrete subfloors to comply with strata by-laws",
+"reducing flanking and impact sound transmission in multi-residential residential developments"
+],
+"not_for": [
+"pipe acoustic lagging",
+"wall batts cavity thermal insulation",
+"roof external sarking"
+],
+"rag_summary": "Acoustica Underlay encompasses specialised resilient acoustic underlayment systems engineered to attenuate impact and airborne noise transmission beneath hard floor coverings and carpets. Designed for installation over concrete slabs and timber subfloors in multi-level residential and commercial buildings, these underlays decouple flooring finishes to achieve high AAAC star ratings and meet National Construction Code (NCC) acoustic criteria. They eliminate loud footfall thuds and clicking sounds, delivering long-term resilience and enhanced peace between adjoining dwellings."
+},
+{
+"family_id": "AIRCELL_BISCUITS",
+"tds_url": "https://www.insulation.kingspan.com/au/en/products/reflective-insulation/air-cell-spacer-biscuits",
+"sds_url": "https://www.insulation.kingspan.com/au/en/products/reflective-insulation/",
+"description": "Kingspan AIR-CELL Spacer Biscuits are manufactured from expanded black polyethylene material and are engineered to achieve and maintain adequate reflective air spaces between reflective insulation and adjacent materials. They are slit to allow effortless placement over wall ties, providing strong holding power with no long-term deterioration. Adhesive backed for ease of installation onto foil facings, they can be re-positioned to ensure proper alignment with the wall substrate.",
+"features": [
+"Adhesive backed for ease of use on foil face",
+"Can be re-positioned to allow alignment with substrate",
+"Assists in maintaining adequate reflective air spaces in wall applications",
+"Made of expanded black polyethylene material",
+"Slit to allow easy placement over wall ties",
+"Provides strong holding power with no long-term deterioration",
+"Fibre-free, non-allergenic and non-irritant",
+"Manufactured under ISO 9001:2008 Quality Management system"
+],
+"applications": [
+"double brick cavity walls",
+"brick veneer cavity walls",
+"metal and timber framed walls"
+],
+"technical": [
+{
+"property": "Dimensions",
+"value": "60 x 60 mm",
+"standard": ""
+},
+{
+"property": "Thickness",
+"value": "20 mm",
+"standard": ""
+},
+{
+"property": "Material",
+"value": "Expanded black polyethylene",
+"standard": ""
+},
+{
+"property": "Service Temperature Range",
+"value": "-20°C to +85°C",
+"standard": ""
+},
+{
+"property": "Intermittent Temperature",
+"value": "105°C",
+"standard": ""
+},
+{
+"property": "Unit Weight (Bag of 50 pc)",
+"value": "200 g",
+"standard": ""
+},
+{
+"property": "Unit Weight (Box of 400 pc)",
+"value": "1.8 kg",
+"standard": ""
+},
+{
+"property": "Unit Size (Bag of 50 pc)",
+"value": "320 x 120 x 520 mm",
+"standard": ""
+},
+{
+"property": "Unit Size (Box of 400 pc)",
+"value": "390 x 385 x 460 mm",
+"standard": ""
+}
+],
+"range": [
+{
+"variant": "AIR-CELL Spacer Biscuits 50 pc",
+"size_or_rating": "60 x 60 x 20 mm",
+"pack": "Bag of 50 pcs"
+},
+{
+"variant": "AIR-CELL Spacer Biscuits 400 pc",
+"size_or_rating": "60 x 60 x 20 mm",
+"pack": "Box of 400 pcs"
+}
+],
+"fire": "Service temperature -20°C to +85°C; intermittent up to 105°C",
+"compliance": "ISO 9001:2008 Quality Management; NCC compliant system component when used with Kingspan AIR-CELL insulation",
+"sustainability": "Fibre-free core, non-hazardous, chemically inert polyethylene",
+"install": [
+"In cavity brick walls, lay outer leaf of brickwork with wire wall ties in place",
+"Clip Spacer Biscuit onto wire tie and push firmly against the brickwork",
+"Install approximately one biscuit per square metre or onto every second tie to maintain a nominal 20mm air space",
+"Roll out AIR-CELL horizontally with anti-glare facing the installer and offer up to wall",
+"Cut a slit in the AIR-CELL for each wire tie to protrude through using a sharp knife",
+"Push AIR-CELL over ties until firmly against the Spacer Biscuit",
+"In framed walls, peel adhesive backing and stick Spacer Biscuits to outside of AIR-CELL between framework",
+"Fix external cladding through the AIR-CELL to the frame ensuring maintained airspace"
+],
+"selection_checklist": [
+"Confirm wall system type (masonry cavity vs framed cladding)",
+"Confirm wire wall tie compatibility and thickness allowance (20mm)",
+"Calculate quantity required based on approx. 1 biscuit per square metre",
+"Choose pack size (bag of 50 or box of 400)"
+],
+"accessories": [
+"Kingspan AIR-CELL Permicav XV",
+"Kingspan AIR-CELL Permishield XV 70",
+"Kingspan AIR-CELL reinforced foil tape (48mm)"
+],
+"limitations": [
+"Maximum continuous service temperature 85°C, intermittent 105°C",
+"Avoid contact with sparks, open flame and hot tools",
+"Non-load bearing accessory"
+],
+"warranty": "Covered under Kingspan AIR-CELL warranty system",
+"found": true,
+"search_keywords": [
+"Aircell Biscuits",
+"Kingspan spacer biscuits",
+"AIR-CELL Spacer Biscuits",
+"insulation spacer biscuits",
+"reflective air space biscuits",
+"cavity wall spacers",
+"foil insulation spacers",
+"brick tie spacers"
+],
+"problem_keywords": [
+"foil touching brickwork",
+"losing reflective R-value in cavity",
+"maintaining 20mm air space",
+"wall ties compressing foil",
+"reflective foil gap maintenance",
+"air cavity collapsing"
+],
+"placement": [
+"wall",
+"external wall",
+"shed"
+],
+"priority_fit": [
+"thermal",
+"easy_install"
+],
+"use_cases": [
+"spacing Kingspan AIR-CELL reflective insulation over wire wall ties in double brick cavity walls",
+"maintaining a 20mm reflective airspace behind external cladding in brick veneer construction",
+"positioning on timber or metal stud frames to ensure foil insulation maintains designed thermal performance"
+],
+"not_for": [
+"acoustic impact noise dampening under floors",
+"pipe lagging",
+"use as standalone thermal insulation batts"
+],
+"rag_summary": "Kingspan AIR-CELL Spacer Biscuits are 60 x 60 x 20 mm expanded black polyethylene spacers designed to create and preserve a nominal 20mm reflective airspace between Kingspan AIR-CELL reflective insulation and adjacent wall substrates. Slit for rapid placement over standard wire wall ties and featuring an adhesive backing for repositionable installation against foil facings, they guarantee the reflective air cavity necessary to achieve rated system R-values. They are fibre-free, inert, and non-deteriorating, making them essential for cavity brick, brick veneer, and framed wall installations."
+},
+{
+"family_id": "AIRCELL_FOIL_TAPE",
+"tds_url": "https://www.insulation.kingspan.com/au/en/products/reflective-insulation/air-cell-insulation-tape",
+"sds_url": "https://www.insulation.kingspan.com/au/en/products/reflective-insulation/",
+"description": "Kingspan AIR-CELL Insulation Tape is a reinforced aluminium foil tape engineered to provide a durable vapour seal join in aluminium-faced insulation products. Designed for use across the insulation and air conditioning industries, it features high-grab pressure-sensitive adhesion. The reinforced backing delivers an exceptional combination of tensile strength, flexibility and conformability.",
+"features": [
+"Reinforced for high tensile strength",
+"Strong pressure-sensitive adhesion",
+"Effective vapour sealing of aluminium foil faced insulations",
+"Available in silver and white finish",
+"Fire retardant with early fire hazard properties",
+"Flexible and conformable to corners and irregular surfaces",
+"Low VOC emitting (Green Star compliant)",
+"Hand tearable for ease of application"
+],
+"applications": [
+"vapour seal joins for AIR-CELL reflective insulation in roofs, walls and floors",
+"HVAC ductwork sealing",
+"aluminium faced pliable building membrane joints"
+],
+"technical": [
+{
+"property": "Roll Width",
+"value": "48 mm / 72 mm / 96 mm",
+"standard": ""
+},
+{
+"property": "Roll Length",
+"value": "50 m",
+"standard": ""
+},
+{
+"property": "Backing Material",
+"value": "Reinforced aluminium foil",
+"standard": ""
+},
+{
+"property": "Adhesive Type",
+"value": "Pressure-sensitive synthetic adhesive",
+"standard": ""
+},
+{
+"property": "VOC Emission",
+"value": "< 0.5 mg/m²/hr (Green Star compliant)",
+"standard": "Cetec Certified"
+},
+{
+"property": "Flammability",
+"value": "Fire retardant",
+"standard": "AS 1530.2"
+},
+{
+"property": "Vapour Barrier Performance",
+"value": "Vapour seal join",
+"standard": "ASTM E96 / AS/NZS 4200.1"
+}
+],
+"range": [
+{
+"variant": "AIR-CELL Insulation Tape (Silver) 48mm",
+"size_or_rating": "48mm x 50m",
+"pack": "Roll (Carton of 24)"
+},
+{
+"variant": "AIR-CELL Insulation Tape (Silver) 72mm",
+"size_or_rating": "72mm x 50m",
+"pack": "Roll (Carton of 16)"
+},
+{
+"variant": "AIR-CELL Insulation Tape (Silver) 96mm",
+"size_or_rating": "96mm x 50m",
+"pack": "Roll (Carton of 12)"
+},
+{
+"variant": "AIR-CELL Insulation Tape (White) 72mm",
+"size_or_rating": "72mm x 50m",
+"pack": "Roll (Carton of 16)"
+}
+],
+"fire": "Fire retardant; early fire hazard properties compliant with AS 1530.2",
+"compliance": "AS/NZS 4200.1, AS/NZS 4859.1:2018; Cetec Green Star compliant",
+"sustainability": "Low VOC emitting (< 0.5 mg/m²/hr); Cetec Certified Green Star compliant",
+"install": [
+"Ensure surfaces to be taped are clean, dry and completely free of dust, oil and contaminants",
+"Align sheets with minimum 50mm overlap or tightly butted as specified for the application",
+"Centre the tape squarely over the joint",
+"Press down firmly along the entire length of the tape",
+"Wipe down with a plastic squeegee or roller to activate pressure-sensitive adhesive and remove air pockets",
+"Do not stretch tape during application to avoid tension wrinkles"
+],
+"selection_checklist": [
+"Confirm width needed (48mm for wall cavity joins, 72mm for roof/general applications, 96mm for heavy commercial)",
+"Select color finish (silver for standard foil, white for AIR-CELL Insulwhite)",
+"Calculate total lineal meters required including overlaps and penetrations",
+"Verify application surface is completely clean and dry"
+],
+"accessories": [
+"Application squeegee / roller",
+"Kingspan AIR-CELL insulation rolls"
+],
+"limitations": [
+"Pressure-sensitive adhesive requires firm rubbing / rolling down for complete bonding",
+"Substrate must be completely dry and clean prior to application",
+"Non-structural; not suitable for carrying tensile loads",
+"Avoid contact with wet cement, lime or strong alkaline materials"
+],
+"warranty": "Covered under Kingspan AIR-CELL product warranty system",
+"found": true,
+"search_keywords": [
+"Aircell Foil Tape",
+"Kingspan AIR-CELL insulation tape",
+"reinforced foil tape",
+"Aircell tape 72mm",
+"Aircell tape 48mm",
+"vapour seal tape",
+"reflective insulation joining tape",
+"aluminium foil tape",
+"duct tape foil"
+],
+"problem_keywords": [
+"gaps between foil insulation sheets",
+"air leakage at insulation joins",
+"vapour barrier seal failure",
+"drafts through wall insulation",
+"taping reflective sarking",
+"ductwork air leakage"
+],
+"placement": [
+"roof",
+"roofline",
+"wall",
+"external wall",
+"internal wall",
+"ceiling",
+"floor",
+"duct",
+"shed"
+],
+"priority_fit": [
+"easy_install",
+"condensation",
+"fire"
+],
+"use_cases": [
+"sealing overlaps and butt joins of Kingspan AIR-CELL insulation in metal and tiled roof systems",
+"creating continuous vapour barrier seals across wall insulation joints in brick veneer and framed walls",
+"sealing joints on HVAC duct wrap to prevent thermal leakage and condensation",
+"patching accidental tears or penetrations in foil building membranes"
+],
+"not_for": [
+"structural heavy load holding",
+"direct immersion in water or subterranean waterproofing",
+"unsupported expansion joints with high thermal movement"
+],
+"rag_summary": "Kingspan AIR-CELL Foil Tape (Insulation Tape) is a high-tensile, reinforced aluminium foil tape coated with an aggressive pressure-sensitive synthetic adhesive designed to create continuous vapour-tight seals along insulation joints. Available in 48mm, 72mm, and 96mm widths in silver or white, it conforms securely to overlaps and irregular edges on AIR-CELL reflective insulation, HVAC ductwork, and pliable building membranes. Fire-retardant and Green Star compliant with low VOC emissions, it prevents air and moisture leakage to ensure maximum installed thermal efficiency and condensation management."
+},
+{
+"family_id": "AIRCELL_GLARESHIELD",
+"tds_url": "https://www.insulation.kingspan.com/au/en/products/reflective-insulation/air-cell-glareshield",
+"sds_url": "https://www.insulation.kingspan.com/au/en/products/reflective-insulation/",
+"description": "Kingspan AIR-CELL Glareshield is an Australian-made thermo reflective anti-glare insulation designed to combat radiant, convective, and conductive heat transfer. It provides a 3-in-1 insulation, vapour barrier, and reflective barrier solution specifically engineered for roof applications. Built with a cross-linked closed-cell insulation core sandwiched between reflective foil facings, it is water-resistant, non-allergenic, and CodeMark-certified for NCC compliance.",
+"features": [
+"Australian made",
+"3-in-1 insulation, vapour barrier and reflective barrier",
+"CodeMark certified for NCC compliance",
+"Compliant with AS/NZS 4859.1:2018",
+"Fibre-free, non-allergenic, non-irritant",
+"Quick and easy to install",
+"Water-resistant and unaffected by moisture",
+"Anti-bacterial and anti-fungal",
+"Rodent and insect resistant",
+"Extra Heavy Duty rating (AS/NZS 4200.1)"
+],
+"applications": [
+"residential metal roofs",
+"residential tiled roofs",
+"commercial metal deck roofs",
+"shed and industrial roofs"
+],
+"technical": [
+{
+"property": "Material R-value",
+"value": "0.14 m²·K/W",
+"standard": "ASTM C518 at 23°C"
+},
+{
+"property": "Thickness",
+"value": "5.5 mm (nominal)",
+"standard": ""
+},
+{
+"property": "Roll Dimensions",
+"value": "1350 mm x 22.25 m (30 m²)",
+"standard": ""
+},
+{
+"property": "Roll Weight",
+"value": "11 kg (approx. 370 g/m²)",
+"standard": ""
+},
+{
+"property": "Flammability Index",
+"value": "≤ 5 (Low)",
+"standard": "AS 1530.2"
+},
+{
+"property": "IR Emittance (Reflective Face)",
+"value": "0.03 (IR Reflective)",
+"standard": "AS/NZS 4201.5"
+},
+{
+"property": "IR Emittance (Anti-Glare Face)",
+"value": "0.05 (IR Reflective)",
+"standard": "AS/NZS 4201.5"
+},
+{
+"property": "Vapour Control",
+"value": "Vapour Barrier Class 2 (< 0.020 µg/N·s)",
+"standard": "ASTM E96"
+},
+{
+"property": "Water Control",
+"value": "Pass (Water Barrier)",
+"standard": "AS/NZS 4201.4"
+},
+{
+"property": "Duty Rating",
+"value": "Extra Heavy Duty",
+"standard": "AS/NZS 4200.1:2017"
+},
+{
+"property": "Burst Strength",
+"value": "1.4 kN",
+"standard": "AS 3706.4 (CBR)"
+},
+{
+"property": "Tensile Strength",
+"value": "MD > 19.0 kN/m, LD > 16.0 kN/m",
+"standard": "AS/NZS 4200.1 / AS 1301.448s"
+},
+{
+"property": "Edge Tear",
+"value": "MD > 900 N, LD > 900 N",
+"standard": "AS/NZS 4200.1 / TAPPI T470"
+},
+{
+"property": "Moisture Shrinkage",
+"value": "< 0.5%",
+"standard": "AS/NZS 4201.3"
+},
+{
+"property": "Surface Water Absorbency",
+"value": "< 100 g/m² (Low)",
+"standard": "AS/NZS 4201.6"
+},
+{
+"property": "Corrosion Resistance",
+"value": "Pass",
+"standard": "AS/NZS 4859.1:2018 App. E"
+},
+{
+"property": "Acoustics",
+"value": "6 dB(A) noise reduction through an attic roof",
+"standard": "Bassett Acoustics MA0221j02"
+},
+{
+"property": "Maximum Unsupported Span",
+"value": "2.4 m",
+"standard": ""
+}
+],
+"range": [
+{
+"variant": "AIR-CELL Glareshield",
+"size_or_rating": "1350 mm x 22.25 m x 5.5 mm (30 m²)",
+"pack": "Roll (11 kg)"
+}
+],
+"fire": "Flammability Index ≤ 5 (Low) to AS 1530.2; Suitable for BAL Low - 40 as roof sarking under AS 3959",
+"compliance": "AS/NZS 4859.1:2018, AS/NZS 4200.1:2017, CodeMark Certified for NCC Compliance, AS 1530.2",
+"sustainability": "Fibre-free core, non-allergenic, non-irritant, zero ODP, low VOC",
+"install": [
+"Roll out Kingspan AIR-CELL Glareshield perpendicular to rafters or purlins with anti-glare face facing up",
+"Ensure a maximum 25mm overlap into the gutter",
+"Allow a nominal 40mm sag between battens/purlins to create reflective airspaces",
+"Overlap joins by 150mm if untaped, or 50mm when joins are taped",
+"End joins should be overlapped by 600mm if untaped or rafter spacing",
+"Tape joins with 72mm wide Kingspan AIR-CELL reinforced foil tape",
+"Fix sheeting by screwing through the insulation to purlins or fix battens over rafters",
+"Ensure at least 100mm clearance from hot flues, exhaust vents, and recessed lighting",
+"Where purlin/rafter spacing exceeds 2.4m, install safety wire mesh first to support the insulation"
+],
+"selection_checklist": [
+"Confirm roof structure (metal deck vs tiled roof)",
+"Verify framing spacing (support mesh required if framing exceeds 2.4m)",
+"Confirm required system Total R-value for climate zone",
+"Check bushfire attack level (BAL) compliance requirements",
+"Ensure anti-glare side faces upward during installation"
+],
+"accessories": [
+"Kingspan AIR-CELL reinforced aluminium tape (72mm)",
+"Roof safety mesh (for spans > 2.4m)",
+"Fasteners / staples"
+],
+"limitations": [
+"Can be damaged by intense heat above 105°C; avoid flame, blow torches, welders, and cutting tools",
+"Foil facings are electrically conductive; avoid contact with uninsulated electrical wiring",
+"Maximum unsupported span is 2.4m",
+"Smooth aluminium facing can become slippery underfoot when wet",
+"Non-load bearing; do not walk directly on unsupported insulation",
+"Must not be stored in direct contact with wet cement, lime or alkaline materials"
+],
+"warranty": "15 years",
+"found": true,
+"search_keywords": [
+"Aircell Glareshield",
+"Kingspan AIR-CELL Glareshield",
+"anti-glare roof insulation",
+"thermo reflective insulation",
+"3 in 1 roof insulation",
+"metal roof sarking",
+"reflective foil bubble insulation",
+"Glareshield 30m2",
+"roof blanket foil"
+],
+"problem_keywords": [
+"sweltering metal roof heat",
+"radiant heat in attic",
+"condensation under tin roof",
+"glare during roof installation",
+"rain drumming noise on corrugated iron",
+"meeting roof R-value in low pitch roof",
+"moisture dripping from shed roof"
+],
+"placement": [
+"roof",
+"roofline",
+"ceiling",
+"shed"
+],
+"priority_fit": [
+"thermal",
+"condensation",
+"acoustic",
+"fire",
+"easy_install"
+],
+"use_cases": [
+"installing over purlins under residential metal corrugated roofs with anti-glare facing up",
+"retrofitting under industrial and shed metal deck roofs to cut radiant heat gain and manage condensation",
+"laying beneath residential tiled roofs to serve as combined radiant barrier and water-resistant sarking",
+"providing up to 6 dB(A) rain noise attenuation and thermal comfort in cathedral or low-pitch roof spaces"
+],
+"not_for": [
+"direct impact floor underlay beneath timber or tiles",
+"cavity acoustic wall batts replacement",
+"direct application against surfaces exceeding 105°C continuous heat"
+],
+"rag_summary": "Kingspan AIR-CELL Glareshield is an Australian-made, CodeMark-certified 3-in-1 thermo-reflective insulation, water barrier, and vapour barrier engineered specifically for metal and tiled roof applications. Formulated with a closed-cell cross-linked polyolefin foam core faced with reflective foil and a patented upper anti-glare coating, it reflects radiant heat while mitigating rain noise by up to 6 dB(A) and controlling condensation. Rated Extra Heavy Duty with a Flammability Index ≤ 5 (suitable for bushfire zones up to BAL-40 as roof sarking under AS 3959), it provides a fibre-free, non-allergenic, and moisture-resistant thermal solution across residential, commercial, and shed roofs."
+}
+]

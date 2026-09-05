@@ -1,0 +1,174 @@
+{
+  "family_id": "ACOUSTICA_ACOUSTIFLEX_SQ",
+  "family_name": "Acoustica Acoustiflex SQ",
+  "datasheet_pdf_url": "https://acoustica.com.au/acoustiflex-sq-technical-info/",
+  "sds_url": "",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "AcoustiFlex SQ flexible noise barrier and vibration damping material has a soft, cellular structure that increases vibration dampening to achieve superior Sound Transmission Loss (STL) for a given weight and thickness [1]. It consists of a flexible micro-cellular membrane bonded to an aluminium facing foil with a reinforced polyester backing [1]. Certified by the CSIRO Division of Materials Science and Engineering as Group 1 Fire Rated, it provides high sound attenuation across the full frequency spectrum [1].",
+    "features": [
+      "Group 1 Fire Rating [1]",
+      "Low cost, long lasting [1]",
+      "10 year guarantee [1]",
+      "Low VOCs (Less than a recognised threshold of 0.5mg 'Green Star') [1]",
+      "Easy to handle, cut and install [1]",
+      "Available in different weights (other configurations available on request) [1]",
+      "Environmentally safe (no protective wear required) [1]",
+      "Proudly made in Australia [1]",
+      "Soft and cellular structure increases vibration dampening [1]",
+      "Matching acoustic performance of equivalent heavier competitive noise barriers [1]"
+    ],
+    "applications": [
+      "ceilings and roofs against overhead aircraft noise and rain [1]",
+      "external walls and ceilings against traffic, train and neighbour noise [1]",
+      "home theatres, entertainment areas and machinery rooms [1]",
+      "offices, meeting rooms, doctors and lawyers consulting rooms [1]",
+      "portable acoustic screens [1]",
+      "construction site temporary fencing acoustic barriers [1]",
+      "automotive cabins [1]"
+    ],
+    "technical": [
+      {
+        "property": "Airborne Sound Insulation (Rw)",
+        "value": "AcoustiFlex SQ 25: Rw 24; SQ 40: Rw 28; SQ 60: Rw 35; SQ 80: Rw 36",
+        "standard": "ISO 717-1:2013 / ASTM E413-16 / ASTM E2249-02 / ISO 15186-1:2000"
+      },
+      {
+        "property": "Fire Hazard Classification",
+        "value": "Group 1",
+        "standard": "AS ISO 9705 / CSIRO"
+      },
+      {
+        "property": "VOC Emissions",
+        "value": "< 0.5 mg/m²/hr (Green Star compliant)",
+        "standard": "Cetec"
+      },
+      {
+        "property": "Roll Dimensions (SQ 25)",
+        "value": "1.3m x 5.4m",
+        "standard": ""
+      },
+      {
+        "property": "Roll Dimensions (SQ 40)",
+        "value": "1.3m x 4m",
+        "standard": ""
+      },
+      {
+        "property": "Roll Dimensions (SQ 60)",
+        "value": "1.3m x 2.5m",
+        "standard": ""
+      },
+      {
+        "property": "Roll Dimensions (SQ 80)",
+        "value": "1.3m x 2.5m",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "AcoustiFlex SQ 25",
+        "size_or_rating": "1.3m x 5.4m (Rw 24)",
+        "pack": "Roll"
+      },
+      {
+        "variant": "AcoustiFlex SQ 40",
+        "size_or_rating": "1.3m x 4m (Rw 28)",
+        "pack": "Roll"
+      },
+      {
+        "variant": "AcoustiFlex SQ 60",
+        "size_or_rating": "1.3m x 2.5m (Rw 35)",
+        "pack": "Roll"
+      },
+      {
+        "variant": "AcoustiFlex SQ 80",
+        "size_or_rating": "1.3m x 2.5m (Rw 36)",
+        "pack": "Roll"
+      }
+    ],
+    "fire": "Group 1 Fire Rated (certified by CSIRO Division of Materials Science and Engineering) [1]",
+    "compliance": "ASTM E2249-02, ISO 15186-1:2000, ASTM E413-16, ISO 717-1:2013 [1]",
+    "sustainability": "Low VOCs (less than the recognised Green Star threshold of 0.5 mg/m²/hr); Environmentally safe (no protective wear required); Australian Made certified [1]",
+    "install": [
+      "Treat installation the same way as a waterproof membrane or traditional sarking material [1]",
+      "Lay AcoustiFlex SQ aluminium facing up [1]",
+      "Hang loose over supports rather than tight [1]",
+      "Overlap sheets by 75mm up to 100mm [1]",
+      "Tape all joints on the aluminium side with reinforced 72mm wide aluminium tape [1]",
+      "Nail or staple through to supports where necessary to prevent excessive deflection or sagging [1]",
+      "Where butt jointed at supports, ensure each sheet end is tightly fitted, nailed through to the support, and taped [1]",
+      "Fill floor/ceiling void between joists with acoustic or thermal insulation [1]",
+      "Ensure all electrical cabling is installed or relocated over the AcoustiFlex SQ by a qualified electrician [1]"
+    ],
+    "selection_checklist": [
+      "Confirm required sound transmission loss rating (Rw 24, 28, 35, or 36) [1]",
+      "Confirm installation type (roof, ceiling space, timber floor, or site fencing) [1]",
+      "Verify BCA Group 1 fire rating compliance for the space [1]",
+      "Calculate total area allowing for 75mm to 100mm overlaps [1]",
+      "Ensure an electrician is scheduled to relocate any existing wiring over the membrane [1]"
+    ],
+    "accessories": [
+      "Reinforced 72mm wide aluminium tape [1]",
+      "Fasteners (nails or staples) [1]"
+    ],
+    "limitations": [
+      "Must be hung loose over supports rather than pulled tight [1]",
+      "All electrical cabling must be located above the membrane and never trapped beneath [1]",
+      "All joints must be overlapped by 75-100mm and taped on the aluminium side [1]"
+    ],
+    "warranty": "10 year guarantee [1]"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Acoustiflex SQ",
+      "Acoustica Acoustiflex",
+      "Acoustiflex SQ 25",
+      "Acoustiflex SQ 40",
+      "Acoustiflex SQ 60",
+      "flexible noise barrier",
+      "acoustic membrane",
+      "mass loaded barrier",
+      "roof noise barrier",
+      "Group 1 acoustic barrier",
+      "aircraft noise insulation"
+    ],
+    "problem_keywords": [
+      "aircraft noise through roof",
+      "rain noise on metal roof",
+      "traffic noise through walls",
+      "inter-tenancy noise transfer",
+      "confidential meeting room noise leak",
+      "construction site fence noise",
+      "machinery room noise transmission"
+    ],
+    "placement": [
+      "ceiling",
+      "roof",
+      "roofline",
+      "wall",
+      "internal wall",
+      "external wall",
+      "between floors"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "fire",
+      "sustainability"
+    ],
+    "use_cases": [
+      "draping across ceiling joists under metal deck roofs to mitigate aircraft and rain noise",
+      "installing inside drywall wall cavities for medical and legal privacy consulting rooms",
+      "hung as portable sound blankets or draped over temporary fencing on construction sites",
+      "damping machinery room noise transmission to adjoining residential spaces"
+    ],
+    "not_for": [
+      "direct impact footstep noise reduction under floorboards without resilient underlay",
+      "primary thermal insulation without bulk batts",
+      "direct external exposure without protective cladding or fencing tarp"
+    ],
+    "rag_summary": "Acoustica Acoustiflex SQ is an Australian-made, high-performance flexible noise barrier and vibration-damping membrane featuring a micro-cellular structure bonded to an aluminium foil facing with reinforced backing. Achieving CSIRO Group 1 fire classification and airborne sound reduction up to Rw 36, it is engineered for roofs, ceilings, inter-tenancy walls, plant rooms, and construction site barriers. It effectively attenuates airborne noise, aircraft flyover noise, heavy rain impact on metal roofs, and speech privacy issues while meeting stringent NCC fire and low-VOC requirements."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

@@ -1,9 +1,71 @@
 {
   "family_id": "ACOUSTICA_ACOUSTIC_BARRIER",
   "family_name": "Acoustica Acoustic Barrier",
-  "datasheet_pdf_url": null,
-  "status": "no_pdf_found",
-  "researched_at": "2026-09-05",
-  "spec": null,
-  "source_excerpt": null
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "gemini_not_found",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "",
+    "features": [],
+    "applications": [],
+    "technical": [],
+    "range": [],
+    "fire": "",
+    "compliance": "",
+    "sustainability": "",
+    "install": [],
+    "selection_checklist": [],
+    "accessories": [],
+    "limitations": [],
+    "warranty": ""
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Acoustica acoustic barrier",
+      "mass loaded vinyl",
+      "flexible noise barrier",
+      "sound barrier sheet",
+      "soundproofing membrane",
+      "Acoustica barrier",
+      "acoustic vinyl",
+      "wall soundproofing sheet",
+      "ceiling sound barrier"
+    ],
+    "problem_keywords": [
+      "noisy neighbours",
+      "sound transmission through wall",
+      "traffic noise in bedroom",
+      "aircraft noise in roof",
+      "home theatre soundproofing",
+      "office privacy sound transfer",
+      "party wall noise"
+    ],
+    "placement": [
+      "wall",
+      "internal wall",
+      "external wall",
+      "ceiling",
+      "roof",
+      "between floors"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "fire"
+    ],
+    "use_cases": [
+      "upgrading airborne sound transmission loss in party walls and stud partitions",
+      "adding acoustic mass between ceiling joists to block aircraft and traffic noise",
+      "damping airborne sound transmission in home theatres and recording studios",
+      "isolating noisy mechanical plant rooms from adjoining tenancies"
+    ],
+    "not_for": [
+      "thermal insulation replacement without bulk insulation batts",
+      "direct floor wearing surface without underlay and flooring finish",
+      "outdoor exposed weather-facing cladding without protection"
+    ],
+    "rag_summary": "Acoustica Acoustic Barrier represents flexible, high-density mass-loaded acoustic barrier membranes engineered to dramatically reduce airborne sound transmission across walls, ceilings, and roofs. Formulated to provide high acoustic transmission loss (Rw) and vibration damping without adding substantial wall thickness, these membranes stop speech, entertainment, traffic, and aircraft noise. They are commonly incorporated into drywall partitions, ceiling cavities, and timber floor-ceiling assemblies in residential, commercial, and studio environments."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
 }
