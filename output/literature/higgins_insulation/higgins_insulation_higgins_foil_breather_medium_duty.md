@@ -1,7 +1,7 @@
 ---
 title: "Higgins Insulation Higgins Foil Breather Medium Duty - Reflective Insulation | Higgins Insulation"
-description: "Quality insulation engineered for Australian conditions. Reflects up to 97% of radiant heat, reducing summer cooling costs."
-keywords: "Higgins Insulation Higgins Foil Breather Medium Duty, Higgins Insulation reflective, wall insulation, insulation Australia, Higgins Insulation Australia"
+description: "Foil Wall Wrap Breather is a medium-duty, five-layer reflective foil wall insulation sarking with bright aluminum foil tested to 97% reflectivity adhe"
+keywords: "Higgins Insulation Higgins Foil Breather Medium Duty, Higgins Insulation reflective, wall insulation, shed insulation, insulation Australia, Higgins Insulation Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: HIGGINS_INSULATION_HIGGINS_FOIL_BREATHER_MEDIUM_DUTY
 ---
@@ -10,26 +10,31 @@ family_id: HIGGINS_INSULATION_HIGGINS_FOIL_BREATHER_MEDIUM_DUTY
 
 **Higgins Insulation Reflective** — reflective foil insulation for radiant heat control.
 
-Quality insulation engineered for Australian conditions. Reflects up to 97% of radiant heat, reducing summer cooling costs.
+Foil Wall Wrap Breather is a medium-duty, five-layer reflective foil wall insulation sarking with bright aluminum foil tested to 97% reflectivity adhered to one side. When installed with an adjacent still air gap of at least 20mm, it creates an effective radiant heat barrier while its micro-perforations permit moisture vapor to breathe through, reducing condensation risks in external wall cavities. The substrate is constructed from ultra-violet stabilized woven polypropylene with anti-oxidants and corona treatment, providing superior tear resistance on Australian building sites.
 
 ## Key features
 
-- High-purity aluminium reflective facing.
-- reflects up to 97% of radiant heat.
-- lightweight and easy to install.
-- provides vapour barrier when properly sealed.
+- Five-layer composite construction with UV-stabilized woven polypropylene substrate.
+- Bright aluminum foil facing tested to 97% reflectivity.
+- Micro-perforated breather design allows trapped water vapor to escape the wall cavity.
+- Medium Duty classification providing superior puncture and tear resistance.
+- Corona-treated substrate ensures superior adhesive lamination strength.
+- Acts as a weather barrier protecting frames from wind-driven rain and dust.
+- Manufactured in Australia to comply with Australian fire standard AS 1530.
+- Large roll size (1350mm x 60m) covering 81 m² with minimal joins.
 
 ## Applications and selection
 
-- Breather Wall Wrap / Sarking
+- wall
+- external wall
+- shed
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm wall construction is brick veneer or lightweight cladding in climate zones where breather foil is recommended.
+2. Verify roll coverage (81m² per roll) allows for 150mm overlaps.
+3. Confirm minimum 20mm air gap can be maintained in the wall assembly.
+4. Order matching reinforced aluminum joining tape.
 
 
 ## Current catalogue range
@@ -40,35 +45,50 @@ Quality insulation engineered for Australian conditions. Reflects up to 97% of r
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Reflective | Manufacturer catalogue |
-| Material | Foil | Manufacturer catalogue |
-| Applications | Breather Wall Wrap / Sarking | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material Structure | Five-layer laminate of UV-stabilized woven polypropylene and pure aluminum foil | - |
+| Duty Classification | Medium Duty | AS/NZS 4200.1 |
+| Vapor Permeance | Perforated Breather (allows moisture vapor diffusion) | AS/NZS 4200.1 |
+| Reflectivity | 97% radiant heat reflectivity (emittance 0.03) | AS/NZS 4201.5 |
+| Roll Dimensions | 1350 mm width x 60 m length (81 m² per roll) | - |
+| Water Control | Water Barrier (under standard testing conditions) | AS/NZS 4201.4 |
+| Flammability | Complies with Australian Fire Standard AS 1530 | AS 1530 |
 
-
+Extracted from manufacturer datasheet: https://higginsinsulation.com.au/product/sarking-wall-insulation-breather-foil-medium-duty-81m2/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Manufactured to meet the Australian fire standard AS 1530; Flammability Index ≤ 5
+
+AS/NZS 4200.1, AS/NZS 4200.2, AS 1530, NCC Volume One and Two
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://higginsinsulation.com.au/wp-content/uploads/2019/10/FI96-HDEI-Insulation-Technical-Data-Sheet.pdf (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://db4dv8bb88ruo.cloudfront.net/media/ListingAdditions/Document/5/0/2/0/7/5/aexx9wdzrze9.pdf.
 
+## Recommended accessories
+
+- Reinforced aluminum foil tape.
+- Galvanized clouts / staples.
+
 
 ## Limitations and warnings
 
-- Reflective performance requires maintained airspace..
-- conductive material - keep away from electrical services..
-- not suitable as sole insulation in cold climates..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Not recommended for roof applications (designed specifically for walls).
+- Not suitable for cold climate zones where non-perforated Class 4 spunbond membranes are required by the NCC.
+- Protect from direct prolonged weather exposure prior to cladding installation.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Reflective performance requires maintained airspace.
+1. Roll out horizontally on the exterior face of timber or steel wall framing studs starting from the bottom plate.
+2. Fasten with broad-headed galvanized clouts or staples at maximum 300mm centers to studs and plates.
+3. Overlap upper sheets over lower sheets by at least 150mm to ensure water shedding.
+4. Ensure a minimum 20mm still air space is maintained adjacent to the reflective foil face.
+5. Tape all horizontal and vertical joins with reinforced foil tape to maximize air sealing.
+6. Fix neatly around window and door openings prior to installing joinery flashings.
+7. Ensure a drained and ventilated cavity exists between the wrap and exterior cladding.
 
 ## Safety and handling
 
@@ -76,11 +96,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Recyclable woven polymer and aluminum materials; zero ODP; non-toxic
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Backed by Higgins Insulation product warranty
 
 ## Specification starting point
 

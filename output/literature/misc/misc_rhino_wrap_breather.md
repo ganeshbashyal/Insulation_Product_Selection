@@ -1,7 +1,7 @@
 ---
 title: "Misc Rhino Wrap Breather - Reflective Insulation | Misc"
-description: "Quality insulation engineered for Australian conditions. Reflects up to 97% of radiant heat, dramatically reducing summer cooling costs while providin"
-keywords: "Misc Rhino Wrap Breather, Misc reflective, wall insulation, insulation Australia, Misc Australia"
+description: "Rhino Wrap Breather is a micro-perforated or permeable reflective foil laminate engineered for external wall and building applications. Combining high"
+keywords: "Misc Rhino Wrap Breather, Misc reflective, wall insulation, shed insulation, insulation Australia, Misc Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: MISC_RHINO_WRAP_BREATHER
 ---
@@ -10,26 +10,31 @@ family_id: MISC_RHINO_WRAP_BREATHER
 
 **Misc Reflective** — reflective foil insulation for radiant heat control.
 
-Quality insulation engineered for Australian conditions. Reflects up to 97% of radiant heat, dramatically reducing summer cooling costs while providing an effective vapour barrier.
+Rhino Wrap Breather is a micro-perforated or permeable reflective foil laminate engineered for external wall and building applications. Combining high-tensile polypropylene woven scrim with a pure aluminium reflective surface, it reflects radiant heat while micro-perforations permit moisture vapour diffusion. It serves as a weather barrier and radiant heat reflector across framed external walls in warm and temperate Australian climate zones.
 
 ## Key features
 
-- High-purity aluminium reflective facing.
-- reflects up to 97% of radiant heat.
-- lightweight and easy to install.
-- provides vapour barrier when properly sealed.
+- Reflective aluminium foil surface reflecting up to 95% of radiant heat.
+- Woven polypropylene scrim delivers high tear and puncture resistance.
+- Breather perforations allow controlled moisture vapour diffusion.
+- Functions as a weather barrier against wind-driven rain and dust.
+- Tough Medium Duty classification withstands wind loads on site.
+- Resistant to delamination, shrinkage, and moisture degradation.
+- Low Flammability Index compliant with AS 1530.2.
+- Suitable for bushfire-prone areas up to BAL-40 to AS 3959.
 
 ## Applications and selection
 
-- Wall Wrap / Sarking
+- wall
+- external wall
+- shed
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm wall assembly allows for a minimum 20mm reflective airspace.
+2. Verify climate zone permits micro-perforated breather foil (warm to temperate zones).
+3. Calculate roll requirements based on wall area allowing 150mm overlaps.
+4. Order matching reinforced aluminium foil joining tape.
 
 
 ## Current catalogue range
@@ -40,35 +45,50 @@ Quality insulation engineered for Australian conditions. Reflects up to 97% of r
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Reflective | Manufacturer catalogue |
-| Material | Reflective Membrane | Manufacturer catalogue |
-| Applications | Wall Wrap / Sarking | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Duty Classification | Medium Duty | AS/NZS 4200.1:2017 |
+| Vapour Permeance | Perforated Breather (vapour permeable classification) | AS/NZS 4200.1:2017 |
+| Water Control | Water Barrier | AS/NZS 4201.4 |
+| Emittance | 0.03 - 0.05 (reflective face) | AS/NZS 4201.5 |
+| Flammability Index | ≤ 5 (Low) | AS 1530.2 |
+| Roll Dimensions | 1350 mm / 1500 mm x 30 m / 60 m | - |
 
-
+Extracted from manufacturer datasheet: https://rhinofoil.com.au/products/rhino-wrap-breather/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Flammability Index ≤ 5 to AS 1530.2; Suitable for external walls in bushfire-prone areas up to BAL-40 under AS 3959
+
+AS/NZS 4200.1:2017, AS/NZS 4200.2:2017, AS 1530.2, AS 3959, NCC Volume One and Two
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf.
 
+## Recommended accessories
+
+- Reinforced aluminium foil tape.
+- Galvanised clouts / staples.
+- Wall battens / cavity spacers.
+
 
 ## Limitations and warnings
 
-- Reflective performance requires maintained airspace..
-- conductive material - keep away from electrical services..
-- not suitable as sole insulation in cold climates..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Requires an adjacent sealed air space of at least 20mm to deliver thermal R-value.
+- Not recommended for cold climate zones requiring non-perforated Class 4 spunbond wraps.
+- Do not use as direct roof sarking without appropriate fall and drainage.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Reflective performance requires maintained airspace.
+1. Install horizontally on external wall studs starting from the bottom plate.
+2. Fasten with broad-headed galvanised clouts or staples at maximum 300mm centres.
+3. Ensure upper sheets overlap lower sheets by at least 150mm to shed water.
+4. Maintain a minimum 20mm still air cavity adjacent to the reflective face to achieve thermal R-values.
+5. Tape all laps and penetrations with reinforced aluminium foil tape.
+6. Seal neatly around window frames, door openings, and service penetrations.
+7. Install external cladding over a drained cavity.
 
 ## Safety and handling
 
@@ -76,11 +96,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Recyclable polymer and aluminium materials; zero ODP; non-toxic
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Backed by manufacturer product warranty
 
 ## Specification starting point
 

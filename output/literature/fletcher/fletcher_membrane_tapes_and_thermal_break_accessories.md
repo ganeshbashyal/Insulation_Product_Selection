@@ -1,7 +1,7 @@
 ---
 title: "Fletcher Membrane Tapes and Thermal Break Accessories - Accessory Insulation | Fletcher"
-description: "This family contains distinct joining/sealing accessories such as Thermatape, Vapastop 883 Tape and 3M Seaming Tape. A tape must be selected for the e"
-keywords: "Fletcher Membrane Tapes and Thermal Break Accessories, Fletcher accessory, thermal insulation, R-value insulation, insulation Australia, Fletcher Australia"
+description: "Fletcher Membrane Tapes and Thermal Break Accessories comprise high-performance sealing tapes and thermal break materials designed to complement Fletc"
+keywords: "Fletcher Membrane Tapes and Thermal Break Accessories, Fletcher accessory, thermal insulation, wall insulation, roof insulation, duct insulation, shed insulation, R-value insulation, insulation Australia, Fletcher Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: FLETCHER_TAPES_ACCESSORIES
 ---
@@ -10,30 +10,65 @@ family_id: FLETCHER_TAPES_ACCESSORIES
 
 **Fletcher Accessory** — installation accessories and fixings.
 
-This family contains distinct joining/sealing accessories such as Thermatape, Vapastop 883 Tape and 3M Seaming Tape. A tape must be selected for the exact membrane/facing, substrate, temperature, exposure and required seal. Brand-level grouping is useful for discovery but unsafe for substitution.
+Fletcher Membrane Tapes and Thermal Break Accessories comprise high-performance sealing tapes and thermal break materials designed to complement Fletcher's Sisalation, Vapawrap, and glasswool insulation systems. Tapes like Vapastop 883 and VapaSeam are engineered from reinforced aluminum foil or technical acrylic polymers to provide durable vapor-tight and air-tight seams. Thermal break accessories ensure continuous thermal isolation over steel and timber framing members in compliance with NCC energy efficiency provisions.
 
 ## Key features
 
-- Refer to the manufacturer datasheet for published features.
+- Reinforced aluminum foil backing for high tensile strength.
+- Aggressive cold-weather acrylic and synthetic rubber adhesives.
+- Vapor-tight seal preventing moisture migration across membrane laps.
+- Airtight barrier improving blower-door building tightness.
+- Tested for low flammability to AS 1530.2.
+- Hand-tearable and easy-release liners for fast jobsite installation.
+- Compatible with Sisalation reflective foils, Vapawrap, and HVAC duct wrap.
+- Resistant to UV degradation and temperature extremes.
 
 ## Applications and selection
 
-- steel frame thermal break
-- membrane seam
-- foil insulation joint
-- vapour seal
-- installation accessory
+- roof
+- roofline
+- wall
+- external wall
+- internal wall
+- duct
+- shed
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm membrane type (use Vapastop 883 for reflective foils; VapaSeam for breathable wraps).
+2. Select width (48mm standard, 72mm for roofs and wide gaps).
+3. Calculate total lineal meters required for laps and penetrations.
+4. Verify application temperature exceeds +5°C.
+
+## Manufacturer range
+
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Vapastop 883 Reinforced Foil Tape 48mm | 48 mm x 50 m | Roll (Carton of 24) |
+| Vapastop 883 Reinforced Foil Tape 72mm | 72 mm x 50 m | Roll (Carton of 16) |
+| Sisalation VapaSeam Acrylic Tape 48mm | 48 mm x 50 m | Roll (Carton of 24) |
+
+**Internal catalogue range**
+
+| SKU | Product | Published rating |
+| --- | --- | --- |
+| FL-4006792 | TAPE THERMATAPE R0.2 Thermal Break Tape 10MX30MMX10MM | R0.42, R0.2 |
+| FL-4006794 | TAPE VAPASTOP 883 50M X 48MM VapaStop Tape | R1.37, R1.2 |
+| FL-4006798 | TAPE VAPASTOP 883 50M X 63MM | R1.74, R1.6 |
+| FL-4006802 | TAPE PLAIN FOIL 400F 50M X 48MM Foil Tape | R1.37, R1.2 |
+| FL-4006803 | TAPE PLAIN FOIL 400F 50M X 72MM | R1.97, R1.8 |
+| FL-4006809 | 3M SEAMING TAPE WHITE 3M Seaming Tape 50MX48MM | R1.37, R1.2 |
 
 
 ## Current catalogue range
+
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Vapastop 883 Reinforced Foil Tape 48mm | 48 mm x 50 m | Roll (Carton of 24) |
+| Vapastop 883 Reinforced Foil Tape 72mm | 72 mm x 50 m | Roll (Carton of 16) |
+| Sisalation VapaSeam Acrylic Tape 48mm | 48 mm x 50 m | Roll (Carton of 24) |
+
+**Internal catalogue range**
 
 | SKU | Product | Published rating |
 | --- | --- | --- |
@@ -46,28 +81,48 @@ This family contains distinct joining/sealing accessories such as Thermatape, Va
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Accessory | Manufacturer catalogue |
-| Material | Tape / Sealant | Manufacturer catalogue |
-| Applications | steel frame thermal break; membrane seam; foil insulation joint; vapour seal; installation accessory | Manufacturer catalogue |
-| Published ratings | R0.2, R0.42, R1.2, R1.37, R1.6, R1.74, R1.8, R1.97 | Internal catalogue; confirm against current TDS |
+| Tape Widths | 48 mm, 72 mm, 96 mm | - |
+| Roll Lengths | 50 m | - |
+| Flammability Index | ≤ 5 (Low Flammability) | AS 1530.2 |
+| Adhesive Type | Pressure-sensitive acrylic / synthetic adhesive | - |
+| Operating Temperature | -20°C to +80°C | - |
+| Vapor Transmission | Vapor Barrier Class 1 / Class 2 seal | ASTM E96 |
 
-
+Extracted from manufacturer datasheet: https://insulation.com.au/product/vapastop-883-reinforced-foil-tape/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Flammability Index ≤ 5 to AS 1530.2; Suitable for bushfire construction up to BAL-40 to AS 3959 when used with compliant membranes
+
+AS/NZS 4200.2:2017, AS 1530.2, AS 3959, NCC Volume One and Two
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://insulation.com.au/product/vapastop-883-tape/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: to be sourced.
 
+## Recommended accessories
+
+- Plastic application squeegee.
+- Utility knife.
+
+
+## Limitations and warnings
+
+- Pressure-sensitive adhesive requires firm squeegee pressure for permanent bond.
+- Must not be applied to wet, oily, or frozen surfaces.
+- Not intended for structural load-bearing applications.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU.
+1. Ensure substrate and membrane surfaces are dry, clean, and free from dust, oil, and frost.
+2. Overlap building membrane sheets by a minimum of 150mm (or 50mm if fully taped).
+3. Center tape squarely over the overlapping seam or penetration interface.
+4. Press tape firmly down along the entire length using a plastic squeegee or roller.
+5. Ensure all air bubbles and wrinkles are completely smoothed out.
+6. Do not overstretch tape during application to avoid tension wrinkles.
 
 ## Safety and handling
 
@@ -75,11 +130,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Low VOC emissions; zero ozone-depleting potential (ODP)
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Backed by Fletcher Insulation product warranty
 
 ## Specification starting point
 

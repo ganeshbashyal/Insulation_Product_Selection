@@ -1,7 +1,7 @@
 ---
 title: "Knauf Blanket Roof Lamin - Batt Insulation | Knauf"
-description: "Global insulation leader with innovative ECOSE Technology. Firm friction fit design means batts stay in place permanently. Low itch formula for comfor"
-keywords: "Knauf Blanket Roof Lamin, Knauf batt, roof insulation, shed insulation, insulation Australia, Knauf Australia"
+description: "Earthwool Roof Blanket (with reflective foil laminate / Space Blanket) is a glass mineral wool roll insulation factory-bonded to a reflective foil fac"
+keywords: "Knauf Blanket Roof Lamin, Knauf batt, ceiling insulation, roof insulation, floor insulation, underfloor insulation, shed insulation, insulation Australia, Knauf Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: KNAUF_BLANKET_ROOF_LAMIN
 ---
@@ -10,30 +10,36 @@ family_id: KNAUF_BLANKET_ROOF_LAMIN
 
 **Knauf Batt** — bulk insulation batts for thermal and acoustic performance.
 
-Global insulation leader with innovative ECOSE Technology. Firm friction fit design means batts stay in place permanently. Low itch formula for comfortable installation.
+Earthwool Roof Blanket (with reflective foil laminate / Space Blanket) is a glass mineral wool roll insulation factory-bonded to a reflective foil facing, designed for thermal performance, condensation control, and acoustic absorption under metal roofs. Manufactured with ECOSE Technology using bio-based binders and up to 80% recycled glass, it significantly reduces radiant heat gain and exterior rain drumming noise. The reflective foil facing acts as a vapor barrier and radiant barrier, protecting metal roof assemblies from condensation damage while complying with NCC fire and bushfire standards up to BAL-40.
 
 ## Key features
 
-- FBS-1 Glasswool Bio-Soluble Insulation - safe to use and non-hazardous.
-- manufactured from up to 80% recycled glass content.
-- CodeMark Certificate of Conformity CM 30006.
-- non-combustible to AS 1530.1.
-- low itch soft next-gen formula for comfortable handling.
-- excellent thermal performance for roof/ceiling applications.
-- ECOSE Technology - formaldehyde-free.
-- ISO 9001 quality standards.
+- Factory-laminated with reflective foil facing including a 150mm overlap flap.
+- Dual thermal and acoustic performance: slows heat flow and dampens rain impact drumming.
+- Controls condensation formation on the underside of metal roof sheeting.
+- Non-combustible glass mineral wool core complying with AS 1530.1.
+- ECOSE Technology bio-based binder with no added formaldehyde or harsh chemicals.
+- Tested to AS 1530.2 with a low Flammability Index (≤ 5).
+- Suitable for sealing ember entry points in bushfire zones up to BAL-40 under AS 3959.
+- Made using up to 80% recycled glass.
+- Soft to handle, low dust, and odorless.
+- Group 1 fire classification compliant with AS 5637.1 / AS ISO 9705.
 
 ## Applications and selection
 
-- Metal Roof / Shed
+- roof
+- roofline
+- ceiling
+- shed
+- underfloor
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm roof type (pitched or curved metal deck roof, shed, or commercial warehouse).
+2. Select required R-value (R1.3 to R3.6) to meet NCC roof energy compliance.
+3. Choose foil duty rating (Light, Medium, or Heavy Duty) based on span and roof traffic.
+4. Calculate total roof area including 150mm overlap allowance.
+5. Order matching 72mm reinforced foil tape and safety wire mesh.
 
 
 ## Current catalogue range
@@ -49,37 +55,53 @@ Global insulation leader with innovative ECOSE Technology. Firm friction fit des
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Batt | Manufacturer catalogue |
-| Material | Glasswool | Manufacturer catalogue |
-| Applications | Metal Roof / Shed | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material Composition | Bio-soluble glass mineral wool blanket bonded with ECOSE binder, laminated with reflective foil facing | - |
+| Material R-values | R1.3 (55mm), R1.8 (75mm), R2.5 (100mm), R3.0 (125mm), R3.2 (130mm), R3.6 (140mm) | AS/NZS 4859.1 |
+| Thicknesses | 55 mm, 75 mm, 100 mm, 125 mm, 130 mm, 140 mm | - |
+| Width | 1200 mm | - |
+| Roll Lengths | 10 m, 15 m, 20 m (depending on thickness) | - |
+| Foil Flap Width | 150 mm edge overlap flap | - |
+| Combustibility (Core) | Non-combustible | AS 1530.1 |
+| Early Fire Hazard Indices | Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1 | AS/NZS 1530.3 |
+| Facing Flammability Index | ≤ 5 | AS 1530.2 |
+| Group Fire Rating | Group 1 | AS 5637.1 / AS ISO 9705 |
 
-
+Extracted from manufacturer datasheet: https://www.knaufinsulation.com.au/products/earthwool-roof-blanket
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Core non-combustible to AS 1530.1; Group 1 to AS 5637.1 / AS ISO 9705; Facing Flammability Index ≤ 5 (AS 1530.2); Suitable for BAL-12.5 to BAL-40 under AS 3959
+
+AS/NZS 4859.1, AS/NZS 4200.1, AS 3959, NCC 2022 Volume One and Volume Two
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.earthwool.com.au/wp-content/uploads/2024/11/datasheet_earthwool_wall_batt.pdf (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://thermacon.com.au/wp-content/uploads/2025/09/Earthwool-MSDS.pdf.
 
+## Recommended accessories
+
+- 72mm Reinforced Aluminum Foil Tape.
+- Roof safety wire mesh.
+- Thermal roof spacers / Roof Razor.
+
 
 ## Limitations and warnings
 
-- Keep dry during storage and installation..
-- not a water or vapour barrier - use appropriate building wrap..
-- do not compress - compression reduces R-value performance..
-- not to be exposed to weather..
-- maximum service temperature 340°C..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Must not be left exposed to rain or weather prior to roof sheet installation.
+- Foil lap joints must be taped continuously to maintain vapor barrier performance.
+- For tropical high-humidity climates, verify condensation design before installing foil facing inward.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Keep dry during storage and installation.
+1. Roll out blanket over roof purlins, rafters, or safety wire mesh with reflective foil facing downward towards building interior.
+2. Overlap adjacent rolls using the factory 150mm foil flap.
+3. Tape all foil lap joints continuously with 72mm reinforced aluminum foil tape to maintain vapor barrier integrity.
+4. Allow a nominal 40mm drape between purlins to promote condensation drainage towards eaves if unmeshed.
+5. Fasten metal roofing sheets directly over the blanket through to purlins.
+6. Ensure blanket terminates neatly at gutter line without obstructing stormwater flow.
 
 ## Safety and handling
 
@@ -87,11 +109,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Manufactured with up to 80% recycled glass; ECOSE Technology bio-based binder; zero added formaldehyde; low VOC emissions
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+50 Year Product Warranty
 
 ## Specification starting point
 

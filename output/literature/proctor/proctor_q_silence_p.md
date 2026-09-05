@@ -1,7 +1,7 @@
 ---
 title: "Proctor Q-Silence P - Acoustic Membrane Insulation | Proctor"
-description: "Quality insulation engineered for Australian conditions. Engineered for noise control, delivering acoustic separation for NCC compliance."
-keywords: "Proctor Q-Silence P, Proctor acoustic membrane, acoustic insulation, insulation Australia, Proctor Australia"
+description: "Proctor Q-Silence P is an acoustic underlay and isolation membrane engineered for impact noise reduction beneath screeds, floating timber, and tile fl"
+keywords: "Proctor Q-Silence P, Proctor acoustic membrane, floor insulation, underfloor insulation, insulation Australia, Proctor Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: PROCTOR_Q_SILENCE_P
 ---
@@ -10,25 +10,32 @@ family_id: PROCTOR_Q_SILENCE_P
 
 **Proctor Acoustic Membrane** — acoustic membrane insulation product.
 
-Quality insulation engineered for Australian conditions. Engineered for noise control, delivering acoustic separation for NCC compliance.
+Proctor Q-Silence P is an acoustic underlay and isolation membrane engineered for impact noise reduction beneath screeds, floating timber, and tile flooring systems. Fabricated from high-density elastomeric and resilient acoustic polymer compounds, it decouples the finished floor from the structural subfloor to limit footstep and structural vibration transmission. It assists multi-residential apartments and commercial developments in meeting National Construction Code (NCC) acoustic impact sound performance standards.
 
 ## Key features
 
-- High-performance membrane technology.
-- provides effective vapour and moisture management.
-- compatible with a wide range of substrates.
+- High-performance acoustic isolation reducing footstep impact noise.
+- Decouples floor finishes from concrete and timber structural subfloors.
+- Engineered for installation under screeds, engineered timber, and tiles.
+- Resilient elastomeric polymer structure maintains cushioning under heavy loads.
+- Resists compression creep over the building life cycle.
+- Water and rot resistant; will not degrade in damp construction conditions.
+- Fast, roll-out installation with minimal floor buildup height.
+- Assists in complying with NCC Part F5 impact sound ratings.
 
 ## Applications and selection
 
-- Acoustic Treatment
+- floor
+- underfloor
+- between floors
+- subfloor
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm floor finish type (sand-cement screed, engineered timber, laminate, or tiles).
+2. Verify target acoustic impact rating (L'nT,w target from acoustic consultant).
+3. Ensure perimeter isolation strips are included to eliminate acoustic flanking.
+4. Calculate total floor area including waste allowance.
 
 
 ## Current catalogue range
@@ -39,34 +46,49 @@ Quality insulation engineered for Australian conditions. Engineered for noise co
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Acoustic Membrane | Manufacturer catalogue |
-| Material | Acoustic Membrane | Manufacturer catalogue |
-| Applications | Acoustic Treatment | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material | Resilient elastomeric acoustic polymer composite | - |
+| Application | Impact sound isolation underlay | - |
+| Acoustic Impact Performance | Reduces impact sound transmission (L'nT,w compliant) | ISO 717-2 / ISO 10140 |
+| Thickness | Resilient slimline profile | - |
+| Roll Dimensions | Roll format for rapid coverage | - |
 
-
+Extracted from manufacturer datasheet: https://proctorgroup.com.au/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Tested for low early fire hazard properties in flooring assemblies
+
+NCC Volume One (Part F5 / Specification 28) impact sound ratings, ISO 717-2
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://proctorgroup.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://proctorgroup.com.au/wp-content/uploads/2021/02/DCT_PIR_Silver_White_Tissue_Ver_2_2020-2.pdf.
 
+## Recommended accessories
+
+- Perimeter acoustic flanking strips.
+- Waterproof joining tape.
+- Subfloor levelling compound.
+
 
 ## Limitations and warnings
 
-- Acoustic ratings are system-based - verify complete assembly matches tested configuration..
-- joints and penetrations must be properly sealed..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Subfloor must be within allowable flatness tolerances prior to installation.
+- Do not mechanically fix through the membrane as screws create acoustic bridges.
+- Must be isolated from perimeter walls and skirtings.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Acoustic ratings are system-based - verify complete assembly matches tested configuration.
+1. Ensure structural concrete slab or timber subfloor is level, clean, and dry.
+2. Repair subfloor cracks and remove protrusions before laying underlay.
+3. Roll out Q-Silence P membrane across the floor area, butting edges tightly.
+4. Run acoustic isolation strips up the perimeter walls to isolate the floor finish from skirting.
+5. Tape all adjoining underlay seams with waterproof tape to prevent screed slurry bridging.
+6. Pour screed or install floor overlay directly over the membrane according to flooring specification.
+7. Trim excess perimeter isolation strips flush after flooring is completed.
 
 ## Safety and handling
 
@@ -74,11 +96,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Recyclable synthetic polymer, zero ODP, non-hazardous
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Backed by Proctor Group Australia product warranty
 
 ## Specification starting point
 

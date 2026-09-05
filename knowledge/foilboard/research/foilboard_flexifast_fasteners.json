@@ -1,0 +1,146 @@
+{
+  "family_id": "FOILBOARD_FLEXIFAST_FASTENERS",
+  "family_name": "Foilboard Flexifast Fasteners",
+  "datasheet_pdf_url": "https://www.foilboard.com.au/product-category/accessories/",
+  "sds_url": "https://www.foilboard.com.au/wp-content/uploads/2021/04/Foilboard-Green-Safety-Data-Sheet.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Foilboard Flexifast Fasteners are specialized one-piece nylon\nanchor fasteners engineered to secure Foilboard rigid insulation panels directly\nto masonry, brickwork, concrete tilt-up slabs, and timber substrates. Featuring\na large, flexible clamping head integrated with an expanding ribbed shank,\nFlexifast anchors eliminate thermal bridging while firmly holding panels without\ntearing through the aluminum foil facing. They provide an efficient, hammer-in\nor push-in fixing solution for residential basement walls, commercial carpark\nsoffits, and precast facades.",
+    "features": [
+      "One-piece non-conductive nylon\nconstruction eliminates thermal bridging",
+      "Broad flexible head clamps panels\nfirmly without puncturing the aluminum facing",
+      "Expanding barbed anchor shank\nlocks tightly into pre-drilled masonry or concrete",
+      "Durable, UV-stabilized,\nand non-corrosive in damp environments",
+      "Fast push-in or hammer-in installation\ninto 8mm pre-drilled holes",
+      "Available in multiple lengths (45mm, 70mm, 95mm)\nto suit 10mm to 50mm panels",
+      "High pull-out resistance to withstand wind\nsuction and panel weight",
+      "Ideal for precast concrete, brick, blockwork, and\ntimber"
+    ],
+    "applications": [
+      "wall",
+      "external wall",
+      "internal wall",
+      "ceiling",
+      "underfloor",
+      "subfloor"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "High-grade UV-stabilized engineered nylon / polypropylene",
+        "standard": ""
+      },
+      {
+        "property": "Head Diameter",
+        "value": "35 mm - 45 mm wide\nclamping washer head",
+        "standard": ""
+      },
+      {
+        "property": "Anchor Lengths",
+        "value": "45 mm (for 10-15mm board), 70 mm (for 20-25mm board), 95 mm\n(for 40-50mm board)",
+        "standard": ""
+      },
+      {
+        "property": "Drill Hole Diameter",
+        "value": "8 mm masonry drill bit",
+        "standard": ""
+      },
+      {
+        "property": "Thermal\nBridging",
+        "value": "Zero thermal bridging (non-metallic)",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Flexifast 45mm",
+        "size_or_rating": "45 mm length\n(suits 10-15mm boards)",
+        "pack": "Box of 250"
+      },
+      {
+        "variant": "Flexifast 70mm",
+        "size_or_rating": "70 mm length (suits 20-25mm boards)",
+        "pack": "Box of 250"
+      },
+      {
+        "variant": "Flexifast 95mm",
+        "size_or_rating": "95 mm length (suits 40-50mm\nboards)",
+        "pack": "Box of 250"
+      }
+    ],
+    "fire": "Non-contributing polymer anchor;\ncompatible with NCC fire compliance systems",
+    "compliance": "AS/NZS 4859.1,\nAS 3999, NCC Volume One and Two",
+    "sustainability": "100% recyclable nylon; zero\nODP; non-toxic",
+    "install": [
+      "Position Foilboard panel flat against masonry,\nconcrete, or timber substrate",
+      "Drill an 8mm hole through the Foilboard panel\ninto the masonry substrate to minimum 35mm depth",
+      "Insert the Flexifast\nfastener through the panel into the drilled hole",
+      "Tap gently with a hammer or\npress firmly until the broad head seats flush against the foil",
+      "Ensure anchor\nhead clamps the panel firmly without over-driving into the EPS core",
+      "Space\nfasteners at 600mm centers around the perimeter and across the board face",
+      "Tape over fastener heads with Foilboard 72mm reinforced foil tape if an\nairtight vapor seal is required"
+    ],
+    "selection_checklist": [
+      "Measure Foilboard\nboard thickness to select correct anchor length (45mm, 70mm, or 95mm)",
+      "Confirm\nmasonry drill bit size is 8mm",
+      "Calculate quantity needed based on approx. 6-8\nfasteners per 2440x1200mm board",
+      "Verify substrate is concrete, brick,\nblockwork, or dense timber"
+    ],
+    "accessories": [
+      "8mm masonry drill bit",
+      "Foilboard Green panels",
+      "Foilboard 72mm reinforced foil tape"
+    ],
+    "limitations": [
+      "Requires pre-drilling into concrete and masonry",
+      "Not\ndesigned for hollow plasterboard or soft substrates without structural backing",
+      "Non-structural; cannot support secondary heavy cladding hung from the fastener"
+    ],
+    "warranty": "Backed by Foilboard product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Foilboard Flexifast",
+      "Flexifast fasteners",
+      "Foilboard\nconcrete anchors",
+      "nylon insulation anchors",
+      "masonry insulation fixings",
+      "Foilboard masonry pins",
+      "8mm insulation anchors",
+      "Flexifast 70mm"
+    ],
+    "problem_keywords": [
+      "fixing Foilboard to concrete wall",
+      "installing\ninsulation to masonry basement",
+      "metal screws conducting cold through\ninsulation",
+      "insulation fasteners tearing foil",
+      "thermal bridging on masonry\nwalls"
+    ],
+    "placement": [
+      "wall",
+      "external wall",
+      "internal wall",
+      "ceiling",
+      "underfloor",
+      "subfloor"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "thermal"
+    ],
+    "use_cases": [
+      "Direct-fixing Foilboard panels to precast concrete basement\nwalls and car park soffits",
+      "Securing rigid insulation to masonry blockwork in\ncavity wall construction",
+      "Thermal break insulation installation over concrete\ntilt-up industrial panels"
+    ],
+    "not_for": [
+      "Structural exterior cladding\nbrackets",
+      "Suspended floor joist cradling (use Floor Saddles)",
+      "High-velocity\nexhaust flue attachments"
+    ],
+    "rag_summary": "Foilboard Flexifast Fasteners are\none-piece non-conductive nylon anchors engineered to secure Foilboard panels\ndirectly to masonry, concrete, and timber substrates. Featuring a 35-45mm wide\nflexible washer head and an 8mm barbed expanding anchor shank, they clamp panels\ntightly without puncturing the aluminum facing or creating thermal bridging.\nAvailable in 45mm, 70mm, and 95mm lengths to suit 10mm to 50mm boards, they\nprovide rapid, hammer-in fixing for basement walls, carpark soffits, and precast\nconcrete panels."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

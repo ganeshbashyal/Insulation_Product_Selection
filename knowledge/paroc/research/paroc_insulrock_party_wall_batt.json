@@ -1,0 +1,64 @@
+{
+  "family_id": "PAROC_INSULROCK_PARTY_WALL_BATT",
+  "family_name": "Paroc InsulRock Party Wall Batt",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "gemini_not_found",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "",
+    "features": "",
+    "applications": "",
+    "technical": "",
+    "range": "",
+    "fire": "",
+    "compliance": "",
+    "sustainability": "",
+    "install": "",
+    "selection_checklist": "",
+    "accessories": "",
+    "limitations": "",
+    "warranty": ""
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Paroc InsulRock Party Wall Batt",
+      "InsulRock Party Wall Batt",
+      "InsulRock stone\nwool batt",
+      "Paroc party wall batt",
+      "rockwool party wall insulation",
+      "fire\nparty wall batt",
+      "InsulRock acoustic batt"
+    ],
+    "problem_keywords": [
+      "fire\nspread through party wall",
+      "inter-tenancy wall noise transmission",
+      "townhouse\nseparating wall fire rating",
+      "meeting NCC party wall FRL",
+      "acoustic privacy\nbetween duplex units"
+    ],
+    "placement": [
+      "wall",
+      "internal wall",
+      "between\nfloors"
+    ],
+    "priority_fit": [
+      "fire",
+      "acoustic",
+      "thermal"
+    ],
+    "use_cases": [
+      "Passive fire protection in Class 1 inter-tenancy separating walls between\ntownhouses and duplexes",
+      "Acoustic and fire cavity infill in multi-residential\nparty wall systems",
+      "Acoustic decoupling and fire-stopping in internal\npartition walls"
+    ],
+    "not_for": [
+      "Exposed external cladding",
+      "Direct underfloor\nsoil contact",
+      "Direct roof weatherproofing"
+    ],
+    "rag_summary": "Paroc InsulRock\nParty Wall Batt represents high-density, non-combustible stone wool (rockwool)\ninsulation batts engineered for fire and acoustic separation in inter-tenancy\nparty walls. InsulRock (manufactured using Paroc volcanic rockwool technology\nand distributed in Australasia by Fletcher Insulation and regional partners)\nprovides extreme resistance to shrinkage at temperatures over 1000°C. Meeting\nAS 1530.1 non-combustibility and tested for multi-residential FRL compliance, it\ncontrols airborne sound transmission and stops fire spread between adjoining\ndwellings."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

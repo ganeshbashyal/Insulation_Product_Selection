@@ -1,0 +1,136 @@
+{
+  "family_id": "KINGSPAN_UNIVERSAL_INSULATION_RETAINING_CLIPS",
+  "family_name": "Kingspan Universal Insulation Retaining Clips",
+  "datasheet_pdf_url": "https://www.insulation.kingspan.com/",
+  "sds_url": "https://www.insulation.kingspan.com/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Kingspan Universal\nInsulation Retaining Clips (Insu-loc discs) are 80mm diameter polypropylene\nretaining discs engineered to hold rigid insulation boards (such as Kooltherm K8\nCavity Board) firmly against the inner leaf of masonry cavity walls. Designed\nwith a universal grip center, they fit securely over standard wall ties\nincluding butterfly, double triangle, and vertical twist profiles without\nslipping. By clamping the insulation board flush against the inner wall, they\nprevent board dislodgement, eliminate cavity bridging, and maintain the required\nclear drainage airspace.",
+    "features": [
+      "80mm diameter circular disc provides\nbroad clamping area across insulation boards",
+      "Universal central gripping teeth\nfit butterfly, double triangle, and vertical twist wall ties",
+      "Engineered from\nhigh-durability, impact-resistant polypropylene",
+      "Firm grip design prevents\nclips from moving, vibrating, or sliding along the wall tie",
+      "Ensures rigid\nboards remain flush against the inner masonry leaf without slumping",
+      "Maintains\na clear, unobstructed residual drainage cavity in masonry walls",
+      "Prevents\nmortar droppings from pushing boards into the cavity",
+      "Supplied in trade packs\nof 250 pieces for convenient jobsite handling"
+    ],
+    "applications": [
+      "wall",
+      "external wall"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "High-grade\nimpact-resistant polypropylene",
+        "standard": ""
+      },
+      {
+        "property": "Diameter",
+        "value": "80 mm",
+        "standard": ""
+      },
+      {
+        "property": "Tie Compatibility",
+        "value": "Butterfly, double triangle, vertical twist, and wire wall ties",
+        "standard": "AS/NZS 2699.1"
+      },
+      {
+        "property": "Insulation Compatibility",
+        "value": "Rigid\nboards (Kooltherm K8, PIR, XPS) and semi-rigid mineral wool slabs",
+        "standard": ""
+      },
+      {
+        "property": "Pack Quantity",
+        "value": "250 pieces per pack / bag",
+        "standard": ""
+      },
+      {
+        "property": "Corrosion Resistance",
+        "value": "Non-corrosive,\nchemically inert polymer",
+        "standard": ""
+      },
+      {
+        "property": "Product Code",
+        "value": "100000065056 / KSINSULRETAINCLIPPK250",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Kingspan Universal Insulation Retaining Clips 80mm",
+        "size_or_rating": "80 mm diameter",
+        "pack": "Pack of 250 pieces"
+      }
+    ],
+    "fire": "Non-contributing polymer accessory; compliant for use within masonry cavity\nfire walls",
+    "compliance": "AS/NZS 2699.1 (Wall ties for masonry construction),\nBS EN ISO 9001, NCC Volume One and Two",
+    "sustainability": "100% recyclable\npolypropylene; zero ODP; non-toxic",
+    "install": [
+      "Bed wall ties into inner\nmasonry leaf mortar joints at specified vertical and horizontal intervals",
+      "Push Kooltherm K8 Cavity Board over the wall ties and position flat against the\ninner leaf",
+      "Slide Universal Insulation Retaining Clip over the protruding end\nof each wall tie",
+      "Push clip firmly along the tie until it presses tightly\nagainst the outer face of the insulation board",
+      "Ensure clip locks onto tie\nnotches, holding the board flat and immovable",
+      "Maintain a minimum of 2 to 3\nretaining clips per 1200x450mm board (at least one clip per tie)",
+      "Verify the\nresidual drainage cavity between the board and outer brick leaf remains\ncompletely clear"
+    ],
+    "selection_checklist": [
+      "Confirm wall tie type and\ndiameter are compatible with universal clip teeth",
+      "Calculate required quantity\nbased on number of wall ties (minimum 250 per pack)",
+      "Verify insulation is\nrigid board (e.g. Kooltherm K8) or semi-rigid slab in a cavity wall",
+      "Check\nrequirement for 80mm broad load-distribution disc"
+    ],
+    "accessories": [
+      "Kingspan\nKooltherm K8 Cavity Board",
+      "Masonry cavity wall ties"
+    ],
+    "limitations": [
+      "Designed for cavity wall ties; not suitable for direct masonry screw or nail\nfixing",
+      "Must not be forced onto oversized ties exceeding clip aperture to\nprevent cracking",
+      "Non-structural accessory; does not carry structural wall\nloads"
+    ],
+    "warranty": "Covered under Kingspan wall system warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Kingspan retaining clips",
+      "Universal Insulation\nRetaining Clips",
+      "insulation retaining discs",
+      "cavity wall tie clips",
+      "80mm\ninsulation clips",
+      "K8 retaining clips",
+      "brick tie insulation clips"
+    ],
+    "problem_keywords": [
+      "cavity insulation slumping against outer brick",
+      "insulation boards vibrating loose on wall ties",
+      "mortar bridges pushing\ninsulation across cavity",
+      "maintaining clear cavity air space",
+      "loose\ninsulation boards in cavity wall"
+    ],
+    "placement": [
+      "wall",
+      "external wall"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "thermal"
+    ],
+    "use_cases": [
+      "Holding Kingspan\nKooltherm K8 Cavity Boards firmly against the inner leaf of double brick cavity\nwalls",
+      "Securing rigid PIR, XPS, or semi-rigid mineral wool slabs over\nbutterfly and vertical-twist wall ties",
+      "Maintaining a permanent 40-50mm\nresidual drainage cavity in masonry wall construction"
+    ],
+    "not_for": [
+      "Direct\nscrew or nail fixing without wall ties",
+      "Overhead soffit insulation fixing",
+      "Structural load bearing"
+    ],
+    "rag_summary": "Kingspan Universal Insulation\nRetaining Clips are 80mm diameter polypropylene retaining discs engineered to\nhold rigid insulation boards (such as Kooltherm K8) firmly against the inner\nleaf of masonry cavity walls. Featuring universal gripping teeth that lock onto\nbutterfly, double triangle, and vertical-twist wall ties, they prevent boards\nfrom shifting, slumping, or bridging the cavity. By ensuring boards stay flat\nagainst the inner wall, they maintain the critical clear drainage space required\nto stop moisture penetration across external brickwork."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

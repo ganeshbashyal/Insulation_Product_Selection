@@ -1,0 +1,132 @@
+{
+  "family_id": "PROCTOR_Q_SILENCE_P",
+  "family_name": "Proctor Q-Silence P",
+  "datasheet_pdf_url": "https://proctorgroup.com.au/",
+  "sds_url": "",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Proctor Q-Silence P is an acoustic underlay and isolation\nmembrane engineered for impact noise reduction beneath screeds, floating timber,\nand tile flooring systems. Fabricated from high-density elastomeric and\nresilient acoustic polymer compounds, it decouples the finished floor from the\nstructural subfloor to limit footstep and structural vibration transmission. It\nassists multi-residential apartments and commercial developments in meeting\nNational Construction Code (NCC) acoustic impact sound performance standards.",
+    "features": [
+      "High-performance acoustic isolation reducing footstep impact\nnoise",
+      "Decouples floor finishes from concrete and timber structural\nsubfloors",
+      "Engineered for installation under screeds, engineered timber, and\ntiles",
+      "Resilient elastomeric polymer structure maintains cushioning under\nheavy loads",
+      "Resists compression creep over the building life cycle",
+      "Water\nand rot resistant; will not degrade in damp construction conditions",
+      "Fast,\nroll-out installation with minimal floor buildup height",
+      "Assists in complying\nwith NCC Part F5 impact sound ratings"
+    ],
+    "applications": [
+      "floor",
+      "underfloor",
+      "between floors",
+      "subfloor"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "Resilient elastomeric acoustic polymer composite",
+        "standard": ""
+      },
+      {
+        "property": "Application",
+        "value": "Impact sound isolation\nunderlay",
+        "standard": ""
+      },
+      {
+        "property": "Acoustic Impact Performance",
+        "value": "Reduces impact sound transmission (L'nT,w compliant)",
+        "standard": "ISO 717-2 / ISO 10140"
+      },
+      {
+        "property": "Thickness",
+        "value": "Resilient\nslimline profile",
+        "standard": ""
+      },
+      {
+        "property": "Roll Dimensions",
+        "value": "Roll format for rapid coverage",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Proctor Q-Silence P Acoustic Underlay",
+        "size_or_rating": "Acoustic roll\nunderlay",
+        "pack": "Roll"
+      }
+    ],
+    "fire": "Tested for low early fire hazard\nproperties in flooring assemblies",
+    "compliance": "NCC Volume One (Part F5 /\nSpecification 28) impact sound ratings, ISO 717-2",
+    "sustainability": "Recyclable synthetic polymer, zero ODP, non-hazardous",
+    "install": [
+      "Ensure\nstructural concrete slab or timber subfloor is level, clean, and dry",
+      "Repair\nsubfloor cracks and remove protrusions before laying underlay",
+      "Roll out\nQ-Silence P membrane across the floor area, butting edges tightly",
+      "Run\nacoustic isolation strips up the perimeter walls to isolate the floor finish\nfrom skirting",
+      "Tape all adjoining underlay seams with waterproof tape to\nprevent screed slurry bridging",
+      "Pour screed or install floor overlay directly\nover the membrane according to flooring specification",
+      "Trim excess perimeter\nisolation strips flush after flooring is completed"
+    ],
+    "selection_checklist": [
+      "Confirm floor finish type (sand-cement screed, engineered timber, laminate, or\ntiles)",
+      "Verify target acoustic impact rating (L'nT,w target from acoustic\nconsultant)",
+      "Ensure perimeter isolation strips are included to eliminate\nacoustic flanking",
+      "Calculate total floor area including waste allowance"
+    ],
+    "accessories": [
+      "Perimeter acoustic flanking strips",
+      "Waterproof joining\ntape",
+      "Subfloor levelling compound"
+    ],
+    "limitations": [
+      "Subfloor must be\nwithin allowable flatness tolerances prior to installation",
+      "Do not\nmechanically fix through the membrane as screws create acoustic bridges",
+      "Must\nbe isolated from perimeter walls and skirtings"
+    ],
+    "warranty": "Backed by\nProctor Group Australia product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Proctor Q-Silence P",
+      "Q-Silence acoustic underlay",
+      "Proctor acoustic\nmembrane",
+      "impact noise underlay",
+      "screed acoustic underlay",
+      "apartment floor\nsoundproofing",
+      "concrete slab acoustic underlay",
+      "flooring isolation membrane"
+    ],
+    "problem_keywords": [
+      "footstep noise through ceiling downstairs",
+      "inter-tenancy floor noise complaints",
+      "hard flooring failing strata acoustic\nrules",
+      "impact sound transmission through concrete",
+      "acoustic flanking at\nfloor perimeter"
+    ],
+    "placement": [
+      "floor",
+      "underfloor",
+      "between floors",
+      "subfloor"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Acoustic impact sound isolation under sand-cement screeds in multi-residential\napartments",
+      "Decoupling engineered timber and laminate flooring over concrete\nslabs to satisfy strata by-laws",
+      "Vibration and impact damping in commercial\nand institutional floor-ceiling assemblies"
+    ],
+    "not_for": [
+      "External wall\ncladding wraps",
+      "Roof sarking underlays",
+      "Direct exposure to heavy wheeled\ntraffic without floor finish"
+    ],
+    "rag_summary": "Proctor Q-Silence P is an\nacoustic underlay and isolation membrane designed to reduce impact sound\ntransmission (L'nT,w) beneath screeds, floating timber, and tile flooring\nsystems. Constructed from resilient elastomeric polymer composites, it decouples\nfloor finishes from concrete slabs and timber subfloors, preventing footstep\nthuds and structural vibrations from traveling between building levels.\nFormulated for multi-residential apartments, it assists projects in satisfying\nNCC Part F5 acoustic impact standards."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

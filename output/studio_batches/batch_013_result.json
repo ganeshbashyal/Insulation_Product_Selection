@@ -1,0 +1,923 @@
+
+[ { "family_id": "FLETCHER_FI32_SEMI_RIGID", "tds_url":
+"https://insulation.com.au/product/fi32-semi-rigid-insulation/", "sds_url":
+"https://insulation.com.au/wp-content/uploads/2023/12/SUIS-FBS-1-Glasswool-Bio-soluble-Insulation.pdf",
+"description": "FI32 Semi-Rigid Insulation is a versatile glasswool board and
+roll insulation engineered for thermal and acoustic performance in HVAC and
+industrial systems. Designed for internal lining of sheet metal air conditioning
+ductwork, it is also widely used on storage tanks, process vessels, plant rooms,
+and acoustic baffles. Manufactured from up to 80% recycled glass with an FBS-1
+bio-soluble formulation, it is available unfaced or factory-laminated with
+Sisalation Heavy Duty Perforated foil, Black Matt Facing, or Vapastop 883.",
+"features": [ "Nominal density of 32 kg/m³ providing superior structural
+rigidity and acoustic absorption", "Excellent sound absorption with NRC values
+up to 1.00 in ductwork and plant rooms", "Thermal conductivity of 0.032 W/m·K
+at 23°C", "Available unfaced or with Vapastop 883, Sisalation HDP foil, or Black
+Matt Facing", "Non-combustible glasswool substrate compliant with AS 1530.1",
+"Manufactured in Australia from up to 80% recycled glass", "Accommodates flat
+and curved surfaces on tanks and vessels", "Certified under CodeMark Certificate
+of Conformity CM 30006", "Biosoluble safe-to-use FBS-1 formulation with low VOC
+emissions" ], "applications": [ "duct", "pipe", "wall", "internal wall",
+"ceiling" ], "technical": [ { "property": "Density", "value": "32 kg/m³",
+"standard": "" }, { "property": "Thermal Conductivity", "value": "0.032 W/m·K
+at 23°C", "standard": "ASTM C518" }, { "property": "Material R-values", "value":
+"R0.71 (25mm), R1.2 (38mm), R1.5 (50mm), R2.0 (66mm), R2.2 (75mm), R3.0
+(100mm)", "standard": "AS/NZS 4859.1" }, { "property": "Thicknesses", "value":
+"25 mm, 38 mm, 50 mm, 66 mm, 75 mm, 100 mm", "standard": "" }, { "property":
+"Sheet Dimensions", "value": "2400 mm x 1200 mm, 2400 mm x 1500 mm, 3000 mm
+x 1410/1500 mm", "standard": "" }, { "property": "Roll Dimensions", "value":
+"15000 mm x 1200/1500 mm (25mm), 10000 mm x 1500 mm (38mm), 8000 mm x 1500 mm
+(50mm), 6500 mm x 1500 mm (75mm)", "standard": "" }, { "property":
+"Combustibility", "value": "Non-combustible (base board)", "standard":
+"AS 1530.1" }, { "property": "Early Fire Hazard Indices", "value":
+"Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+"standard": "AS/NZS 1530.3" }, { "property": "Operating Temperature", "value":
+"Up to 340°C (unfaced), up to 120°C (faced)", "standard": "" }, { "property":
+"Acoustic Performance", "value": "NRC up to 1.00 (50mm/75mm)", "standard":
+"ISO 354" } ], "range": [ { "variant": "FI32 Unfaced Sheet 25mm",
+"size_or_rating": "25 mm x 1200/1500 mm x 2400 mm (R0.71)", "pack": "Pack of 10
+sheets" }, { "variant": "FI32 Unfaced Sheet 38mm", "size_or_rating": "38 mm
+x 1500 mm x 2400 mm (R1.2)", "pack": "Pack of 6 sheets" }, { "variant": "FI32
+Unfaced Sheet 50mm", "size_or_rating": "50 mm x 1200/1500 mm x 2400 mm (R1.5)",
+"pack": "Pack of 5 sheets" }, { "variant": "FI32 Unfaced Sheet 75mm",
+"size_or_rating": "75 mm x 1200/1500 mm x 2400 mm (R2.2)", "pack": "Pack of 3
+sheets" }, { "variant": "FI32 Unfaced Sheet 100mm", "size_or_rating": "100 mm
+x 1200/1500 mm x 2400 mm (R3.0)", "pack": "Pack of 2 sheets" }, { "variant":
+"FI32 Sisalation HDP Perforated Foil 25mm", "size_or_rating": "25 mm x 1200/1500
+mm x 2400 mm (R0.71)", "pack": "Pack of 10 sheets" }, { "variant": "FI32
+Sisalation HDP Perforated Foil 50mm", "size_or_rating": "50 mm x 1200 mm x 2400
+mm (R1.5)", "pack": "Pack of 5 sheets" }, { "variant": "FI32 Black Matt Facing
+(BMF) 50mm", "size_or_rating": "50 mm x 1200 mm x 2400 mm (R1.5)", "pack": "Pack
+of 5 sheets" } ], "fire": "Non-combustible base to AS 1530.1; AS/NZS 1530.3
+indices: Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke
+Developed: 0-1; Meets AS 4254 ductwork fire requirements", "compliance":
+"AS/NZS 4859.1, AS 4254 (Ductwork for air-handling systems), CodeMark CM 30006,
+NCC 2022 Volume 1 & 2", "sustainability": "Manufactured from up to 80% recycled
+glass; FBS-1 bio-soluble formulation; zero ODP; low VOC", "install": [ "Clean
+internal sheet metal duct or vessel surface ensuring it is free of oil and
+dust", "Cut FI32 sheets or rolls accurately to fit internal duct dimensions
+using a sharp insulation knife", "Apply approved water-based or solvent-based
+duct liner adhesive covering 100% of the metal surface", "Press FI32 firmly into
+the wet adhesive with facing material exposed to the air stream", "Fasten with
+mechanical weld pins or grip nails at recommended spacings per AS 4254", "Seal
+all leading edges, transverse joints, and longitudinal seams with Vapastop 883
+tape or edge-seal mastic", "For curved vessels or tanks, wrap sheets or rolls
+tightly and secure with metal banding straps" ], "selection_checklist": [
+"Confirm application (internal duct lining vs tank/vessel lagging vs plant room
+acoustic wall)", "Select facing material (unfaced, Sisalation HDP perforated
+foil, Black Matt Facing, or Vapastop 883)", "Determine required R-value and
+thickness (25mm R0.71 up to 100mm R3.0) per AS 4254 / NCC energy tables",
+"Choose sheet or roll format based on duct dimensions and fabrication machinery"
+], "accessories": [ "Vapastop 883 Foil Tape", "Duct liner adhesive", "Mechanical
+weld pins and speed clips", "Edge-coating mastic" ], "limitations": [ "Maximum
+continuous operating temperature for facing materials is 120°C (unfaced
+glasswool operates up to 340°C)", "Black Matt Facing (BMF) is unsuitable for
+mechanical brush cleaning inside ducts", "Not designed for external weather
+exposure without protective sheet metal cladding" ], "warranty": "Backed by
+Fletcher Insulation commercial product warranty", "found": true,
+"search_keywords": [ "Fletcher FI32", "FI32 Semi-Rigid Insulation", "32kg duct
+insulation", "internal duct liner", "semi rigid glasswool board", "FI32 sheet
+insulation", "Fletcher HVAC board", "HDP perforated ductliner", "Black Matt
+Facing ductliner" ], "problem_keywords": [ "fan noise in air ducts", "heat gain
+in sheet metal ductwork", "rumbling plant room noise", "sweating air
+conditioning ducts", "air turbulence noise in HVAC", "thermal loss on storage
+vessels" ], "placement": [ "duct", "pipe", "wall", "internal wall", "ceiling" ],
+"priority_fit": [ "thermal", "acoustic", "fire" ], "use_cases": [ "Internal
+acoustic and thermal lining of sheet metal supply and return air conditioning
+ducts", "Sound absorption lining inside plant rooms, generator enclosures, and
+data centers", "Insulating industrial process tanks, storage vessels, and
+electrostatic precipitators" ], "not_for": [ "External weather-exposed surfaces
+without metal cladding", "Underfloor suspended timber floors", "High-velocity
+airstreams without edge sealing" ], "rag_summary": "Fletcher FI32 Semi-Rigid
+Insulation is a 32 kg/m³ high-density glasswool board and roll insulation
+engineered for internal HVAC duct lining and industrial vessel lagging.
+Delivering superior sound absorption (NRC up to 1.00) and thermal conductivity
+of 0.032 W/m·K, it is available unfaced or with Sisalation HDP perforated foil,
+Black Matt Facing, or Vapastop 883 vapour barrier. CodeMark certified (CM 30006)
+and non-combustible to AS 1530.1, it dampens air turbulence, fan noise, and heat
+transfer in commercial ductwork and plant rooms." }, { "family_id":
+"FLETCHER_FI24_FLEX_DUCTLINER", "tds_url":
+"https://insulation.com.au/product/fi24-flexible-ductliner/", "sds_url":
+"https://insulation.com.au/wp-content/uploads/2023/12/SUIS-FBS-1-Glasswool-Bio-soluble-Insulation.pdf",
+"description": "FI24 Flexible Ductliner is a lightweight, flexible glasswool
+internal liner specifically developed for air conditioning ductwork and
+mechanical equipment. Possessing the high resiliency of a semi-rigid board while
+retaining sufficient flexibility for roll form handling, it is designed for use
+with automated sheet metal cutting and coil line duct-making machinery. It
+provides thermal performance and acoustic attenuation to reduce fan roar and air
+turbulence within HVAC systems.", "features": [ "Nominal density of 24 kg/m³
+offering optimal balance of flexibility and acoustic absorption", "Suitable for
+use with automated sheet metal cutting and coil-line duct-making machinery",
+"Possesses high resiliency of a board while retaining flexibility in roll form",
+"Provides thermal and acoustic dampening to control airflow noise and energy
+loss", "Available unfaced or faced with Sisalation Heavy Duty Perforated foil,
+Vapastop 883, or Black Matt Facing", "Non-combustible glasswool core complying
+with AS 1530.1", "Manufactured in Australia from up to 80% recycled glass", "Low
+VOC emissions and safe bio-soluble FBS-1 formulation", "Complies with Australian
+Standard AS 4254 for HVAC ductwork" ], "applications": [ "duct", "internal
+wall", "wall" ], "technical": [ { "property": "Density", "value": "24 kg/m³",
+"standard": "" }, { "property": "Thermal Conductivity", "value": "0.034 W/m·K
+at 23°C", "standard": "ASTM C518" }, { "property": "Material R-values", "value":
+"R0.7 (25mm), R1.1 (38mm), R1.5 (50mm), R2.0 (70mm)", "standard":
+"AS/NZS 4859.1" }, { "property": "Thicknesses", "value": "25 mm, 38 mm, 50
+mm, 70 mm, 108 mm", "standard": "" }, { "property": "Roll Dimensions", "value":
+"1500 mm width x 12 m, 15 m, or 20 m length", "standard": "" }, { "property":
+"Combustibility", "value": "Non-combustible (base glasswool)", "standard":
+"AS 1530.1" }, { "property": "Early Fire Hazard Indices", "value":
+"Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+"standard": "AS/NZS 1530.3" }, { "property": "Maximum Air Velocity", "value":
+"Up to 20 m/s (when faced with approved facing and pinned per AS 4254)",
+"standard": "AS 4254" }, { "property": "Operating Temperature", "value": "Up
+to 120°C (faced)", "standard": "" } ], "range": [ { "variant": "FI24 Flexible
+Ductliner Unfaced 25mm", "size_or_rating": "25 mm x 1500 mm x 20 m (R0.7)",
+"pack": "Roll (Code: 4005657)" }, { "variant": "FI24 Flexible Ductliner
+Unfaced 50mm", "size_or_rating": "50 mm x 1500 mm x 12 m (R1.5)", "pack": "Roll
+(Code: 4005658)" }, { "variant": "FI24 Flexible Ductliner HDP Faced 25mm",
+"size_or_rating": "25 mm x 1500 mm x 20 m (R0.7)", "pack": "Roll" }, {
+"variant": "FI24 Flexible Ductliner HDP Faced 50mm", "size_or_rating": "50 mm
+x 1500 mm x 12 m (R1.5)", "pack": "Roll" } ], "fire": "Non-combustible core to
+AS 1530.1; AS/NZS 1530.3: Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0,
+Smoke Developed: 0-1; Compliant with AS 4254 fire requirements", "compliance":
+"AS/NZS 4859.1, AS 4254.1 & AS 4254.2, NCC Volume One and Two",
+"sustainability": "Contains up to 80% recycled glass content; bio-soluble FBS-1;
+zero ODP; low VOC", "install": [ "Feed FI24 Flexible Ductliner roll into
+automatic duct-forming machinery or cut manually to duct dimensions",
+"Apply 100% coverage of approved duct adhesive to interior sheet metal
+surfaces", "Press FI24 roll liner into place with facing oriented towards the
+interior airstream", "Secure liner with mechanical impact or resistance-welded
+fasteners at centers specified by AS 4254", "Coat exposed leading edges,
+transverse cut joints, and perimeter seams with protective mastic sealant",
+"Ensure all corners and turns are firmly seated to prevent airstream
+delamination" ], "selection_checklist": [ "Confirm ductwork sizing and automated
+or manual lining method", "Choose facing option (HDP perforated foil for general
+HVAC; BMF for aesthetic return grilles; Vapastop 883 for sealed air hygiene)",
+"Verify required R-value (e.g. R0.7 for 25mm, R1.5 for 50mm) to satisfy NCC
+Section J energy efficiency", "Confirm maximum air velocity within the duct
+system (up to 20 m/s)" ], "accessories": [ "Duct liner adhesive", "Mechanical
+weld pins and retainers", "Edge-sealing mastic", "Vapastop 883 Foil Tape" ],
+"limitations": [ "Must not be installed in outdoor ductwork without external
+weatherproofing", "Maximum continuous operating temperature of facing is 120°C",
+"Ensure air stream velocities do not exceed manufacturer tested maximums without
+additional mechanical fastening" ], "warranty": "Backed by Fletcher Insulation
+commercial product warranty", "found": true, "search_keywords": [ "Fletcher
+FI24", "FI24 Flexible Ductliner", "24kg ductliner", "flexible glasswool
+ductliner", "coil line duct insulation", "automated duct liner", "internal duct
+insulation roll", "Fletcher HVAC ductliner", "perforated foil ductliner" ],
+"problem_keywords": [ "HVAC airflow noise", "fan rumble in supply ducts",
+"ductwork condensation", "thermal loss in sheet metal ducts", "ductliner
+delamination in air stream" ], "placement": [ "duct", "internal wall", "wall" ],
+"priority_fit": [ "acoustic", "thermal", "easy_install" ], "use_cases": [
+"Internal thermal and acoustic lining of sheet metal ductwork fabricated using
+automated coil lines", "Lining HVAC plenum chambers and mixing boxes to suppress
+fan turbulence noise", "Acoustic dampening in low-to-medium velocity air
+handling duct runs" ], "not_for": [ "External duct wrap lagging (use FI22
+Ductwrap or General Purpose Blanket)", "Unsheltered outdoor HVAC ductwork",
+"High-temperature boiler exhausts" ], "rag_summary": "Fletcher FI24 Flexible
+Ductliner is a 24 kg/m³ flexible glasswool internal duct lining roll
+specifically engineered for automated coil-line and sheet metal duct
+manufacturing. Combining the compressive recovery of a board with the
+flexibility of a blanket, it dampens airflow turbulence and equipment noise
+while delivering thermal ratings from R0.7 to R2.0. Non-combustible (AS 1530.1)
+and compliant with AS 4254, it is available unfaced or laminated with HDP
+perforated foil, Black Matt Facing, or Vapastop 883." }, { "family_id":
+"FLETCHER_PINK_THERMAL_SLAB", "tds_url":
+"https://insulation.com.au/product/pink-thermal-slab/", "sds_url":
+"https://insulation.com.au/wp-content/uploads/2023/12/SUIS-FBS-1-Glasswool-Bio-soluble-Insulation.pdf",
+"description": "Pink Thermal Slab is a high-performance commercial insulation
+board consisting of a semi-rigid glasswool slab factory-laminated with a
+Sisalation reflective foil laminate on one side. Engineered for commercial
+concrete under-slab soffits, concrete roofs, floors, and plant room walls, it
+controls temperature fluctuations and dampens structural and airborne noise.
+Achieving an AS 5637.1 Group 1 NCC fire classification for ceiling linings and
+CodeMark certification, it satisfies thermal performance, acoustic absorption,
+and strict non-combustibility requirements.", "features": [ "High-density
+semi-rigid glasswool board combined with Sisalation reflective foil facing",
+"Group 1 fire classification compliant with AS 5637.1 and AS ISO 9705 for wall
+and ceiling linings", "CodeMark certified (Certificate of Conformity CM 30006)
+for NCC compliance", "Delivers superior thermal performance to stabilize
+concrete roof, floor, and wall temperatures", "Exceptional acoustic sound
+absorption reducing reverberation under concrete slabs", "Non-combustible
+glasswool core complying with AS 1530.1", "Manufactured in Australia using up
+to 80% recycled glass with bio-soluble FBS-1 formulation", "Lightweight and easy
+to cut and install using insulation anchors or pins", "Low-VOC emissions
+supporting Green Star indoor air quality requirements" ], "applications": [
+"ceiling", "floor", "underfloor", "between floors", "roof", "wall", "external
+wall" ], "technical": [ { "property": "Material", "value": "Semi-rigid glasswool
+board with Sisalation reflective foil laminate facing", "standard": "" }, {
+"property": "Thermal Conductivity", "value": "0.032 W/m·K at 23°C", "standard":
+"ASTM C518" }, { "property": "Material R-values", "value": "R1.5 (50mm), R2.0
+(65mm), R2.5 (80mm), R3.0 (95mm), R3.5 (110mm)", "standard": "AS/NZS 4859.1" },
+{ "property": "Thicknesses", "value": "50 mm, 65 mm, 80 mm, 95 mm, 110 mm",
+"standard": "" }, { "property": "Board Dimensions", "value": "1200 mm width
+x 2400 mm length", "standard": "" }, { "property": "Combustibility (Core)",
+"value": "Non-combustible", "standard": "AS 1530.1" }, { "property": "Fire
+Hazard Classification", "value": "Group 1", "standard": "AS 5637.1 / AS
+ISO 9705" }, { "property": "Early Fire Hazard Indices", "value":
+"Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+"standard": "AS/NZS 1530.3" }, { "property": "Acoustic Performance", "value":
+"High sound absorption under concrete slabs (NRC up to 1.00)", "standard":
+"ISO 354" } ], "range": [ { "variant": "Pink Thermal Slab R1.5 (50mm)",
+"size_or_rating": "50 mm x 1200 mm x 2400 mm", "pack": "Pack of 5 boards" }, {
+"variant": "Pink Thermal Slab R2.0 (65mm)", "size_or_rating": "65 mm x 1200 mm
+x 2400 mm", "pack": "Pack of 4 boards" }, { "variant": "Pink Thermal Slab R2.5
+(80mm)", "size_or_rating": "80 mm x 1200 mm x 2400 mm", "pack": "Pack of 3
+boards" }, { "variant": "Pink Thermal Slab R3.0 (95mm)", "size_or_rating": "95
+mm x 1200 mm x 2400 mm", "pack": "Pack of 2 boards" }, { "variant": "Pink
+Thermal Slab R3.5 (110mm)", "size_or_rating": "110 mm x 1200 mm x 2400 mm",
+"pack": "Pack of 2 boards" } ], "fire": "Group 1 to AS 5637.1 / AS ISO 9705;
+Non-combustible core to AS 1530.1; AS/NZS 1530.3 indices: Ignitability: 0,
+Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1", "compliance":
+"AS/NZS 4859.1, AS 5637.1, CodeMark CM 30006, NCC 2022 Section J energy
+efficiency compliance", "sustainability": "Contains up to 80% recycled glass;
+bio-soluble FBS-1 formulation; zero ODP; low VOC", "install": [ "Clean and
+inspect underside of cured concrete slab, ensuring surface is dry and free of
+release oils", "Mark grid lines on soffit to align board joints neatly across
+the ceiling", "Position Pink Thermal Slab with foil facing downward (exposed)
+against the concrete soffit", "Fasten mechanically using approved insulation
+anchors with large retaining washers (minimum 5 to 6 fixings per board)",
+"Locate fixings approximately 100mm from edges and evenly distributed across the
+board center", "Butt boards tightly together to eliminate thermal bridging",
+"Tape all exposed foil butt joints with 72mm reinforced aluminium foil tape to
+form a continuous vapour barrier", "Neatly cut boards around service pipes,
+sprinklers, and penetrations using a sharp serrated knife" ],
+"selection_checklist": [ "Confirm NCC Section J target Total R-value for the
+carpark, basement, or suspended slab", "Verify Group 1 fire rating requirement
+for exposed ceiling/soffit linings", "Measure slab area to calculate board
+quantities (each 1200x2400mm board covers 2.88 m²)", "Select correct thickness
+based on required thermal R-value (50mm R1.5 to 110mm R3.5)", "Order compatible
+insulation anchors and 72mm reinforced foil tape" ], "accessories": [ "Concrete
+insulation anchors / pins with 50-75mm washers", "Sisalation 72mm Reinforced
+Aluminium Foil Tape", "Serrated insulation knife" ], "limitations": [ "Not
+designed for external weather exposure without protective cladding", "Must be
+mechanically fixed; adhesive alone is not recommended for overhead soffit
+installations", "Avoid puncturing the foil facing during maintenance to preserve
+the vapour barrier" ], "warranty": "Backed by Fletcher Insulation commercial
+product warranty", "found": true, "search_keywords": [ "Pink Thermal Slab",
+"Fletcher Thermal Slab", "soffit insulation board", "concrete slab insulation",
+"carpark soffit insulation", "foil faced glasswool slab", "Group 1 soffit
+board", "Pink soffit slab", "R2.0 thermal slab", "R2.5 thermal slab" ],
+"problem_keywords": [ "cold floors above uninsulated basement carpark",
+"concrete slab heat loss", "carpark noise reverberation", "meeting NCC Section J
+carpark ceiling code", "Group 1 fire rating on exposed concrete ceiling",
+"condensation under concrete roof" ], "placement": [ "ceiling", "floor",
+"underfloor", "between floors", "roof", "wall", "external wall" ],
+"priority_fit": [ "thermal", "fire", "acoustic" ], "use_cases": [ "Exposed
+thermal and acoustic lining to concrete soffits in commercial underground
+carparks", "Thermal insulation beneath suspended concrete floor slabs separating
+unconditioned basements and apartments", "Lining concrete plant rooms and
+transport terminal ceilings requiring Group 1 fire compliance" ], "not_for": [
+"Direct ground contact under footings", "External facades without protective
+cladding", "Timber floor joists (use Pink Batts Floor or Optimo)" ],
+"rag_summary": "Fletcher Pink Thermal Slab is a semi-rigid, foil-faced glasswool
+insulation board engineered for direct fixing to commercial concrete soffits,
+roofs, and walls. Available in thicknesses from 50mm to 110mm (R1.5 to R3.5)
+with a 1200mm x 2400mm format, it delivers excellent thermal control for NCC
+Section J compliance while dampening carpark reverberation. Backed by CodeMark
+certification (CM 30006) and an AS 5637.1 Group 1 fire rating, it provides an
+aesthetic, non-combustible thermal barrier beneath commercial concrete slabs."
+}, { "family_id": "FLETCHER_PARTY_WALL_STONEWOOL", "tds_url":
+"https://insulation.com.au/product/fletcher-protect-party-wall-stonewool-batts/",
+"sds_url":
+"https://insulation.com.au/wp-content/uploads/2023/12/SUIS-Stonewool-Australia-and-New-Zealand.pdf",
+"description": "Fletcher Protect Party Wall Stonewool Batts and Blankets are
+non-combustible mineral wool insulation products engineered to provide passive
+fire protection in party and separating wall systems between adjacent tenancies
+in NCC Class 1 and Class 10 buildings. Manufactured from molten volcanic rock
+(basalt) and recycled blast furnace slag, they provide exceptional resistance to
+shrinkage under extreme fire temperatures up to 1000°C. They are designed to
+compress-fill vertical joints, service penetrations, and top-of-wall junctions
+beneath roof membranes to prevent flame and hot gas bypass.", "features": [
+"Non-combustible stonewool material compliant with AS 1530.1", "Engineered
+specifically for NCC Class 1 inter-tenancy separating party walls", "High
+resistance to shrinkage at temperatures exceeding 1000°C", "Provides fire
+protection, acoustic noise dampening, and thermal insulation", "Available as
+uncompressed batts (100mm x 168mm x 1200mm) or foil-faced blankets",
+"Compress-fits into joints with minimum 20% compression to ensure tight
+void-free seal", "Non-hygroscopic, water repellent, and will not promote rot or
+fungal growth", "Bio-soluble mineral wool fibres safe to handle and install",
+"Made from abundant basalt rock and recycled blast-furnace slag" ],
+"applications": [ "wall", "internal wall", "roof", "roofline" ], "technical": [
+{ "property": "Material", "value": "Bio-soluble stonewool (rock mineral wool)
+fibres", "standard": "" }, { "property": "Batt Dimensions", "value": "1200 mm
+length x 168 mm width x 100 mm thickness", "standard": "" }, { "property":
+"Blanket Dimensions", "value": "300 mm or 360 mm width x 50 mm / 75 mm thickness
+x 4000 mm length", "standard": "" }, { "property": "Combustibility", "value":
+"Non-combustible", "standard": "AS 1530.1" }, { "property": "Early Fire Hazard
+Indices", "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke
+Developed: 0-1", "standard": "AS/NZS 1530.3" }, { "property": "Maximum Service
+Temperature", "value": "Exceeds 1000°C", "standard": "" }, { "property":
+"Required Installation Compression", "value": "Minimum 20% compression (leaving
+zero voids)", "standard": "NCC Part 9.3" }, { "property": "Product Codes",
+"value": "FLE000062-3 (Batts), FLE000064 (Blanket)", "standard": "" } ],
+"range": [ { "variant": "Fletcher Protect Party Wall Stonewool Batts 100mm",
+"size_or_rating": "100 mm x 168 mm x 1200 mm", "pack": "Pack of 10 batts (12
+lineal metres)" }, { "variant": "Fletcher Protect Party Wall Foil Faced
+Blanket 50mm", "size_or_rating": "50 mm x 300/360 mm x 4000 mm", "pack": "Pack
+of 2 rolls (8 lineal metres)" }, { "variant": "Fletcher Protect Party Wall Foil
+Faced Blanket 75mm", "size_or_rating": "75 mm x 300/360 mm x 4000 mm", "pack":
+"Pack of 2 rolls (8 lineal metres)" } ], "fire": "Non-combustible to AS 1530.1;
+AS/NZS 1530.3: Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke
+Developed: 0-1; Meets NCC Class 1 separating wall fire resistance requirements",
+"compliance": "AS 1530.1, AS/NZS 1530.3, NCC 2022 Volume Two / ABCB Housing
+Provisions Standard Part 9.3", "sustainability": "Manufactured from natural
+basalt rock and recycled blast furnace slag; bio-soluble; zero ODP", "install":
+[ "Measure the vertical cavity width or top-of-wall gap between the separating
+wall and roof cladding", "Select batts or blanket ensuring thickness allows a
+minimum of 20% compression when installed", "For vertical party wall cavities,
+friction-fit 100mm x 168mm batts tightly between wall leaves", "Butt consecutive
+batts tightly with Vee cuts at joining ends to form continuous fire seal without
+voids", "For top-of-wall junctions, lay blanket along the top of party wall
+framing beneath roof battens and cladding", "Fasten roof sheeting down over
+blanket ensuring minimum 20% compression beneath corrugations", "Pack stonewool
+firmly around all pipe penetrations and services crossing the party wall line"
+], "selection_checklist": [ "Confirm application is Class 1 separating wall
+(townhouse/duplex party wall)", "Verify gap width to calculate required
+thickness allowing 20% compression", "Choose batts for vertical joint cavities
+or foil-faced blanket for top-of-wall roof junctions", "Determine linear
+meterage needed along party wall lines" ], "accessories": [ "Sisalation
+reinforced foil tape", "Utility knife", "Galvanised retaining straps" ],
+"limitations": [ "Must be installed with at least 20% compression to ensure fire
+seal integrity", "Not designed as primary weatherproofing; must be sheltered by
+roof cladding or wall linings", "Protect from continuous pooling water during
+construction" ], "warranty": "Backed by Fletcher Insulation product warranty",
+"found": true, "search_keywords": [ "Fletcher Protect Party Wall", "Party Wall
+Stonewool Batts", "Fire Stop Party Wall", "stonewool party wall insulation",
+"rockwool party wall batts", "100x168 party wall batts", "townhouse fire barrier
+batts", "Fletcher mineral wool batts", "separating wall firestop" ],
+"problem_keywords": [ "fire spread through townhouse party wall", "separating
+wall gap fire risk", "NCC Class 1 party wall compliance", "vertical joint fire
+containment", "flame bypass between roof and party wall", "inter-tenancy noise
+transmission" ], "placement": [ "wall", "internal wall", "roof", "roofline" ],
+"priority_fit": [ "fire", "acoustic" ], "use_cases": [ "Compress-filling
+vertical joints between separating party walls in Class 1 townhouses and
+duplexes", "Fire-stopping gaps between the top of a fire-rated separating wall
+and the underside of metal or tile roofs", "Packing service penetrations
+crossing inter-tenancy boundaries to maintain fire separation" ], "not_for": [
+"General cavity thermal wall batts", "Exposed internal decorative wall lining",
+"Underfloor crawl space insulation" ], "rag_summary": "Fletcher Protect Party
+Wall Stonewool Batts and Blankets are non-combustible rock mineral wool
+insulation products engineered specifically for passive fire protection in
+Class 1 multi-residential separating walls. Sized in 100mm x 168mm x 1200mm
+batts and foil-faced rolls, they resist shrinkage at temperatures
+exceeding 1000°C to halt fire, smoke, and hot gases from bypassing inter-tenancy
+barriers. Installed under a mandatory minimum 20% compression to ensure a
+void-free seal, they satisfy NCC Part 9.3 Deemed-to-Satisfy provisions for
+townhouse and duplex party walls." }, { "family_id": "FLETCHER_PERMASTOP",
+"tds_url": "https://insulation.com.au/product/permastop-building-blanket/",
+"sds_url":
+"https://insulation.com.au/wp-content/uploads/2023/12/SUIS-FBS-1-Glasswool-Bio-soluble-Insulation.pdf",
+"description": "Permastop Building Blanket is a reflective glasswool insulation
+blanket factory-laminated with Sisalation reflective foil facing, designed for
+thermal performance, condensation control, and acoustic absorption under
+residential and commercial metal roofs and in external walls. Composed of
+bio-soluble glasswool bonded to light, medium, or heavy-duty aluminium foil with
+an anti-glare finish, it reflects radiant heat while dramatically reducing rain
+impact drumming noise. Available in R-values from R1.3 to R3.6 (including an
+industry-leading R3.6 in 130mm), it satisfies NCC requirements and bushfire
+ratings up to BAL-40.", "features": [ "Factory-laminated with Sisalation
+reflective foil facing with 150mm overlap flap", "High thermal performance with
+R-values from R1.3 up to R3.6 (130mm)", "Outstanding acoustic absorption
+significantly reducing rain noise drumming on metal roofs", "Controls
+condensation formation on the underside of metal roof sheeting",
+"Non-combustible glasswool core complying with AS 1530.1", "Suitable for
+bushfire-prone areas with BAL Low-40 ratings in roof systems per AS 3959",
+"Manufactured in Australia from up to 80% recycled glass", "Features an
+anti-glare coating on one side for installer safety", "Bio-soluble safe-to-use
+FBS-1 formulation with low VOC emissions", "Compatible with Fletcher Roof Razor
+system to minimize thermal bridging" ], "applications": [ "roof", "roofline",
+"ceiling", "wall", "external wall", "shed" ], "technical": [ { "property":
+"Material", "value": "Bio-soluble glasswool blanket laminated with Sisalation
+reflective foil facing", "standard": "" }, { "property": "Material R-values",
+"value": "R1.3 (55mm), R1.4 (60mm), R1.8 (75mm), R2.5 (100mm), R3.0 (130mm),
+R3.2 (130mm), R3.6 (130mm)", "standard": "AS/NZS 4859.1" }, { "property":
+"Thicknesses", "value": "55 mm, 60 mm, 75 mm, 100 mm, 130 mm", "standard": "" },
+{ "property": "Roll Dimensions", "value": "1200 mm width x 6.5 m, 10 m, 15 m, 20
+m, 30 m length", "standard": "" }, { "property": "Foil Overlap Flap", "value":
+"150 mm edge overlap flap", "standard": "" }, { "property": "Facing Options",
+"value": "Light Duty (LD), Medium Duty (MD), Heavy Duty (HD), Extra Heavy Duty
+(EHD)", "standard": "AS/NZS 4200.1" }, { "property": "Combustibility (Core)",
+"value": "Non-combustible", "standard": "AS 1530.1" }, { "property": "Early Fire
+Hazard Indices", "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0,
+Smoke Developed: 0-1", "standard": "AS/NZS 1530.3" }, { "property": "Facing
+Flammability Index", "value": "≤ 5", "standard": "AS 1530.2" }, { "property":
+"Thermal Conductivity", "value": "Tested at 23°C mean temperature", "standard":
+"ASTM C518" } ], "range": [ { "variant": "Permastop Building Blanket R1.3
+(55mm)", "size_or_rating": "55 mm x 1200 mm x 15 m / 20 m", "pack": "Roll (18 m²
+/ 24 m²)" }, { "variant": "Permastop Building Blanket R1.8 (75mm)",
+"size_or_rating": "75 mm x 1200 mm x 15 m", "pack": "Roll (18 m²)" }, {
+"variant": "Permastop Building Blanket R2.5 (100mm)", "size_or_rating": "100 mm
+x 1200 mm x 10 m", "pack": "Roll (12 m²)" }, { "variant": "Permastop Building
+Blanket R3.0 (130mm)", "size_or_rating": "130 mm x 1200 mm x 10 m", "pack":
+"Roll (12 m²)" }, { "variant": "Permastop Building Blanket R3.2 (130mm)",
+"size_or_rating": "130 mm x 1200 mm x 10 m", "pack": "Roll (12 m²)" }, {
+"variant": "Permastop Building Blanket R3.6 (130mm)", "size_or_rating": "130 mm
+x 1200 mm x 6.5 m", "pack": "Roll (7.8 m²)" } ], "fire": "Core non-combustible
+to AS 1530.1; AS/NZS 1530.3 indices: Ignitability: 0, Spread of Flame: 0, Heat
+Evolved: 0, Smoke Developed: 0-1; Facing Flammability Index ≤ 5 (AS 1530.2);
+Suitable for BAL Low-40 in roof applications to AS 3959", "compliance":
+"AS/NZS 4859.1, AS/NZS 4200.1, AS 3959, NCC 2022 Volume 1 and Volume 2",
+"sustainability": "Manufactured from up to 80% recycled glass; FBS-1
+bio-soluble; zero ODP; low VOC", "install": [ "Roll out Permastop over roof
+framing purlins or safety wire mesh with reflective foil facing downward towards
+building interior", "Ensure 150mm factory overlap flap extends over the adjacent
+roll", "Tape all foil lap joints securely with 72mm reinforced aluminium foil
+tape to form a continuous vapour barrier", "Allow a nominal 40mm sag between
+purlins to promote condensation drainage towards the eaves if unmeshed", "Fasten
+metal roof sheeting directly over the glasswool blanket through to purlins",
+"Ensure blanket terminates neatly at the gutter line without obstructing
+stormwater flow", "Use Roof Razor spacers in commercial roofs to avoid blanket
+compression over purlins" ], "selection_checklist": [ "Confirm roof type
+(pitched or curved metal deck roof, shed, or commercial warehouse)", "Select
+required R-value (R1.3 to R3.6) to meet NCC roof energy compliance", "Choose
+foil duty rating (Light, Medium, or Heavy Duty) based on span and traffic",
+"Calculate total roof area including 150mm overlap allowance", "Order
+matching 72mm reinforced foil tape and safety wire mesh" ], "accessories": [
+"Roof Razor thermal spacer system", "Sisalation 72mm Reinforced Aluminium Foil
+Tape", "Roof safety wire mesh" ], "limitations": [ "Must not be left exposed to
+rain or weather prior to roof sheet installation", "Foil lap joints must be
+taped continuously to maintain vapour barrier performance", "For tropical
+high-humidity climates, specify Permastop Tropic with outward-facing foil" ],
+"warranty": "Backed by Fletcher Insulation product warranty", "found": true,
+"search_keywords": [ "Permastop Building Blanket", "Fletcher Permastop", "metal
+roof insulation blanket", "foil faced glasswool blanket", "R1.8 Permastop",
+"R2.5 Permastop", "R3.6 Permastop", "commercial roof blanket", "condensation
+roof blanket", "anti-glare roof blanket" ], "problem_keywords": [ "dripping
+metal roof condensation", "rain drumming noise on tin roof", "sweltering metal
+roof heat", "energy loss through metal roof", "meeting NCC roof thermal
+standards", "roof cavity sweating" ], "placement": [ "roof", "roofline",
+"ceiling", "wall", "external wall", "shed" ], "priority_fit": [ "thermal",
+"condensation", "acoustic", "fire" ], "use_cases": [ "Insulation blanket beneath
+corrugated and standing seam metal roofs in residential homes to prevent
+condensation and dampen rain noise", "Thermal and acoustic roof blanket in
+commercial warehouses, sports halls, and shopping centres", "External wall
+cladding insulation blanket in prefabricated and industrial steel sheds" ],
+"not_for": [ "Internal drywall partition cavity batts", "Underfloor suspended
+timber floors", "Direct exposure without outer roof sheeting" ], "rag_summary":
+"Fletcher Permastop Building Blanket is a reflective glasswool insulation
+blanket factory-bonded to a Sisalation foil facing with a 150mm overlap flap.
+Available in ratings from R1.3 to R3.6 (55mm to 130mm thick) in 1200mm wide
+rolls, it is installed under residential and commercial metal roofs to prevent
+condensation dripping, reflect radiant heat, and dampen rain drumming noise.
+Built with non-combustible glasswool (AS 1530.1) and low-flammability foil
+(Index ≤ 5, BAL-40 compliant), it provides a complete thermal, acoustic, and
+vapour barrier for metal-clad structures." }, { "family_id":
+"FLETCHER_VAPAWRAP_WALL", "tds_url":
+"https://insulation.com.au/product/sisalation-vapawrap-residential-wall-wrap/",
+"sds_url":
+"https://insulation.com.au/wp-content/uploads/2023/12/SUIS-Sisalation-Vapawrap-Residential-Wall-Wrap.pdf",
+"description": "Sisalation Vapawrap Residential Wall Wrap is a lightweight,
+flexible Class 4 vapour-permeable wall wrap engineered for residential timber
+and steel-framed homes, particularly in temperate and colder climate zones
+(Zones 2 to 8). Constructed from a micro-porous breathable film laminated
+between two layers of mould- and shrink-resistant spun-bonded polyolefin, it
+allows internal moisture vapour to escape while acting as a barrier to liquid
+water, wind, and dust. Available with up to 30 days (VP4-30) or 90 days (VP4-90)
+UV resistance, it protects the structural frame and maximizes bulk insulation
+efficiency.", "features": [ "Class 4 Vapour Permeable membrane allowing internal
+moisture vapour to escape", "Acts as a secondary water barrier protecting frame
+and insulation from driving rain", "Effective air barrier minimising draughts
+and improving thermal efficiency", "Available with up to 30 days (VP4-30) or up
+to 90 days (VP4-90) UV weather resistance", "Engineered from resilient non-woven
+polyolefin with high tear resistance", "Suitable for use behind brick veneer,
+fibre cement, weatherboard, and timber claddings", "Micro-porous film resists
+mould growth and moisture accumulation", "Complies with AS/NZS 4200.1 as a water
+barrier and vapour-permeable membrane", "Suitable for bushfire-prone areas with
+BAL ratings from 0 to FZ in accordance with AS 3959", "Low flammability index
+compliant with AS 1530.2" ], "applications": [ "wall", "external wall" ],
+"technical": [ { "property": "Material", "value": "Spunbond polyolefin non-woven
+fabric with breathable microporous film core", "standard": "" }, { "property":
+"Duty Classification", "value": "Light Duty", "standard": "AS/NZS 4200.1" }, {
+"property": "Vapour Permeance", "value": "Class 4 Vapour Permeable (> 1.14
+µg/N·s)", "standard": "AS/NZS 4200.1" }, { "property": "Water Control
+Classification", "value": "Water Barrier", "standard": "AS/NZS 4201.4" }, {
+"property": "Air Control Classification", "value": "Air Barrier", "standard":
+"AS/NZS 4200.1" }, { "property": "Roll Dimensions", "value": "1350 mm or 1500 mm
+width x 30 m length (40.5 m² / 45 m² per roll)", "standard": "" }, { "property":
+"Weight per Roll", "value": "4.7 kg (1350mm) / 5.2 kg (1500mm)", "standard": ""
+}, { "property": "UV Resistance Limit", "value": "Up to 30 days (VP4-30) or up
+to 90 days (VP4-90)", "standard": "" }, { "property": "Flammability Index",
+"value": "≤ 5 (Low Flammability)", "standard": "AS 1530.2" }, { "property":
+"Product Codes", "value": "4021556 (VP4-30 1350), 4021557 (VP4-30 1500), 4021549
+(VP4-90 1350), 4021550 (VP4-90 1500)", "standard": "" } ], "range": [ {
+"variant": "Sisalation Vapawrap VP4-30 (1350mm)", "size_or_rating": "1350 mm
+x 30 m (40.5 m²)", "pack": "Roll (Code: 4021556)" }, { "variant": "Sisalation
+Vapawrap VP4-30 (1500mm)", "size_or_rating": "1500 mm x 30 m (45.0 m²)", "pack":
+"Roll (Code: 4021557)" }, { "variant": "Sisalation Vapawrap VP4-90 (1350mm)",
+"size_or_rating": "1350 mm x 30 m (40.5 m²)", "pack": "Roll (Code: 4021549)" },
+{ "variant": "Sisalation Vapawrap VP4-90 (1500mm)", "size_or_rating": "1500 mm
+x 30 m (45.0 m²)", "pack": "Roll (Code: 4021550)" } ], "fire": "Flammability
+Index ≤ 5 to AS 1530.2; Suitable for external walls with a BAL of 0-FZ in
+accordance with AS 3959", "compliance": "AS/NZS 4200.1:2017, AS/NZS 4200.2,
+AS 1530.2, AS 3959, NCC 2022 Volume One & Two condensation management",
+"sustainability": "100% recyclable polyolefin polymer; zero ODP; non-toxic; low
+VOC", "install": [ "Fix Vapawrap horizontally to exterior timber or steel studs
+starting from the bottom plate", "Fasten with broad-headed galvanized clouts or
+staples at maximum 300mm centres", "Overlap consecutive upper sheets over lower
+sheets by minimum 150mm to shed water", "Stagger vertical joints and ensure they
+occur over studs with a minimum 150mm overlap", "Tape all horizontal and
+vertical seams with Sisalation VapaSeam Tape to form a continuous air barrier",
+"Seal around window and door frames, sill flashings, and plumbing penetrations",
+"Ensure a drained, ventilated cavity is maintained between the wrap and exterior
+cladding" ], "selection_checklist": [ "Confirm wall assembly requires a Class 4
+breathable vapour-permeable membrane", "Choose UV exposure rating (VP4-30 for 30
+days or VP4-90 for 90 days construction exposure)", "Select width (1350mm
+or 1500mm) to suit framing height", "Calculate roll count based on total wall
+area allowing 150mm overlaps", "Order matching Sisalation VapaSeam Tape (48mm
+x 50m)" ], "accessories": [ "Sisalation VapaSeam Tape (48mm x 50m)", "Galvanised
+staples / broad-head clouts" ], "limitations": [ "Not suitable for roofing
+applications (use Vapawrap Metal Roof)", "Must not be left exposed to direct UV
+sunlight beyond 30 days (VP4-30) or 90 days (VP4-90)", "Ensure cladding
+manufacturer requirements for cavity drainage are followed" ], "warranty":
+"Backed by Fletcher Insulation consumer warranty", "found": true,
+"search_keywords": [ "Sisalation Vapawrap", "Vapawrap Wall Wrap", "VP4-30 wall
+wrap", "VP4-90 wall wrap", "Class 4 breathable wrap", "vapour permeable wall
+wrap", "Fletcher breathable wrap", "residential house wrap", "Sisalation
+breathable foil" ], "problem_keywords": [ "mould inside external walls",
+"condensation in timber wall frame", "drafty brick veneer walls", "weatherboard
+moisture rot", "meeting NCC condensation management in cooler climates", "air
+leakage through wall cladding" ], "placement": [ "wall", "external wall" ],
+"priority_fit": [ "condensation", "fire", "easy_install" ], "use_cases": [
+"Vapour-permeable weather barrier behind residential brick veneer, timber
+weatherboard, and fibre-cement claddings in climate zones 2 to 8", "Airtight
+house wrap to assist in passing residential blower-door air leakage testing",
+"Preventing interstitial condensation and timber rot in cooler Australian
+climate zones" ], "not_for": [ "Roof sarking applications", "Direct continuous
+UV exposure without outer cladding", "Under-slab damp proofing" ],
+"rag_summary": "Sisalation Vapawrap Residential Wall Wrap is a Class 4
+vapour-permeable, Light Duty pliable building membrane designed for residential
+timber and steel-framed walls. Manufactured from non-woven spunbond polyolefin
+with a microporous breathable film, it prevents liquid water, drafts, and dust
+penetration while permitting internal water vapour to escape. Available
+in 1350mm and 1500mm widths with up to 30-day (VP4-30) or 90-day (VP4-90) UV
+resistance and a Flammability Index ≤ 5 (BAL 0-FZ compliant), it prevents mould
+and rot behind lightweight claddings and brick veneer." }, { "family_id":
+"FLETCHER_VAPAWRAP_METAL_ROOF", "tds_url":
+"https://insulation.com.au/product/sisalation-vapawrap-vapour-permeable-metal-roof/",
+"sds_url":
+"https://insulation.com.au/wp-content/uploads/2023/12/SUIS-Sisalation-Vapawrap-Metal-Roof.pdf",
+"description": "Sisalation Vapawrap Vapour Permeable Metal Roof is a synthetic,
+Class 4 vapour-permeable roof sarking membrane specifically engineered for use
+under residential and commercial metal roof claddings. Formulated with a
+microporous water-resistant film sandwiched between two layers of mould- and
+shrink-resistant spun-bonded polyolefin, it provides superior heat shrink
+resistance compared to traditional polymer-weave membranes under hot metal
+decks. It allows water vapour to escape from roof cavities while functioning as
+an air and liquid water barrier that safely drains condensation into gutters.",
+"features": [ "Specifically designed for use under metal roof claddings in
+residential and commercial buildings", "High heat shrink resistance, preventing
+thermal degradation and stretching under hot metal roofs", "Class 4 Vapour
+Permeable membrane preventing interstitial condensation accumulation", "Acts as
+a continuous water barrier directing leaks and condensation into the gutter",
+"Triple-layer construction: microporous core between spun-bonded polyolefin
+layers", "High tensile strength reduces tearing and scuffing during metal
+roofing installation", "Resists mould, mildew, and biological attack", "Low
+flammability index compliant with AS 1530.2", "Suitable for bushfire-prone areas
+up to BAL-40 under AS 3959" ], "applications": [ "roof", "roofline" ],
+"technical": [ { "property": "Material", "value": "Spun-bonded polyolefin
+non-woven layers with microporous film core", "standard": "" }, { "property":
+"Duty Classification", "value": "Medium Duty", "standard": "AS/NZS 4200.1" }, {
+"property": "Vapour Permeance", "value": "Class 4 Vapour Permeable (> 1.14
+µg/N·s)", "standard": "AS/NZS 4200.1" }, { "property": "Water Control
+Classification", "value": "Water Barrier", "standard": "AS/NZS 4201.4" }, {
+"property": "Air Control Classification", "value": "Air Barrier", "standard":
+"AS/NZS 4200.1" }, { "property": "Roll Dimensions", "value": "1350 mm width x 30
+m length (40.5 m² per roll)", "standard": "" }, { "property": "Weight per Roll",
+"value": "4.8 kg", "standard": "" }, { "property": "Flammability Index",
+"value": "≤ 5 (Low Flammability)", "standard": "AS 1530.2" }, { "property":
+"Product Code", "value": "4006885", "standard": "" } ], "range": [ { "variant":
+"Sisalation Vapawrap Metal Roof 1350mm", "size_or_rating": "1350 mm x 30 m (40.5
+m²)", "pack": "Roll (Code: 4006885)" } ], "fire": "Flammability Index ≤ 5 to
+AS 1530.2; Suitable for roofs in bushfire BAL 12.5 to BAL-40 in accordance with
+AS 3959", "compliance": "AS/NZS 4200.1:2017, AS/NZS 4200.2, AS 1530.2, AS 3959,
+NCC 2022 Volume One & Two condensation management", "sustainability":
+"Recyclable polyolefin composition; zero ODP; non-toxic; low VOC" ,"install": [
+"Install as a continuous membrane over rafters/trusses beneath metal roof
+battens, or draped between battens", "Roll out horizontally starting from the
+eaves, ensuring lower edge drains directly into the gutter", "Allow a
+minimum 150mm overlap for horizontal laps (or 50mm if fully taped with VapaSeam
+tape)", "Allow a nominal 40mm drape between framing members to create a drainage
+channel for condensation", "Fix temporarily with staples or clouts to rafters,
+then secure permanently with roof battens", "Tape all laps, penetrations, and
+ridgelines with Sisalation VapaSeam Tape for complete airtightness", "Fix metal
+roof cladding directly to battens above the membrane" ], "selection_checklist":
+[ "Confirm roof cladding is profiled metal deck or corrugated steel", "Verify
+requirement for Class 4 vapour-permeable roof sarking to satisfy NCC
+condensation management", "Measure total roof area including 150mm overlaps",
+"Confirm compatibility with batten spacing and rafter spans", "Order matching
+Sisalation VapaSeam Tape" ], "accessories": [ "Sisalation VapaSeam Tape (48mm
+x 50m)", "Safety wire mesh (where required for commercial spans)" ],
+"limitations": [ "Designed specifically for metal roof applications; do not use
+as a primary roof cladding", "Must not be left exposed to direct UV sunlight
+beyond manufacturer recommended exposure time", "Ensure membrane has continuous
+fall to gutters without reverse laps or ponding" ], "warranty": "Backed by
+Fletcher Insulation product warranty", "found": true, "search_keywords": [
+"Vapawrap Metal Roof", "Sisalation Vapawrap Metal Roof", "vapour permeable roof
+sarking", "Class 4 roof sarking", "breathable metal roof underlay", "tin roof
+breathable sarking", "Fletcher roof underlay", "Sisalation 4006885",
+"anti-shrink roof membrane" ], "problem_keywords": [ "condensation dripping in
+metal roof cavity", "plastic sarking shrinking under hot tin roof", "moisture
+buildup under metal deck roof", "mould in cathedral ceiling roof cavity",
+"meeting NCC Tasmanian Designer Guide roof condensation", "storm rain ingress
+through roof laps" ], "placement": [ "roof", "roofline" ], "priority_fit": [
+"condensation", "fire", "easy_install" ], "use_cases": [ "Pitched residential
+metal roofs in temperate and cold climate zones requiring Class 4 vapour
+permeability to discharge ceiling moisture", "Commercial metal deck roofs
+installed over rafters or purlins as an airtight weather-draining underlay",
+"Managing condensation under profiled steel roofs in accordance with the
+Tasmanian Designers Guide and NCC 2022" ], "not_for": [ "External wall cladding
+wrap", "Direct unbattened tile roofs without support", "Direct foot traffic
+without safety mesh" ], "rag_summary": "Sisalation Vapawrap Vapour Permeable
+Metal Roof is a Medium Duty, Class 4 vapour-permeable synthetic roof sarking
+membrane developed specifically for profiled metal roofs. Fabricated from
+spun-bonded polyolefin non-woven layers sandwiching a microporous core, it
+delivers outstanding heat-shrink resistance to remain taut beneath hot metal
+decks. Allowing moisture vapour to vent freely while preventing water leaks and
+drafts, it complies with AS/NZS 4200.1, AS 1530.2 (Flammability Index ≤ 5), and
+AS 3959 (up to BAL-40) to mitigate roof condensation." }, { "family_id":
+"FLETCHER_SISALATION_WRAP", "tds_url":
+"https://insulation.com.au/product/sisalation-tuff-wrap/", "sds_url":
+"https://insulation.com.au/wp-content/uploads/2023/12/SUIS-Sisalation-Reflective-Foil-Insulation.pdf",
+"description": "Sisalation Tuff Wrap and Multipurpose Sarking (Sisalation 497
+Tuff Wrap Standard / Breather and Multipurpose EHD 456) is a renowned range of
+heavy-duty reflective foil building membranes designed to protect homes and
+buildings against radiant heat, drafts, dust, and moisture. Manufactured with
+woven polymer (polyweave) fabric laminated to highly reflective pure aluminium
+foil with flame-retardant adhesives, it delivers exceptional tear and puncture
+resistance during installation on exposed jobsites. When installed adjacent to
+an air cavity, it blocks up to 95% of radiant heat, contributing to total
+building R-values.", "features": [ "High-strength woven polyweave reinforcement
+delivering exceptional puncture and tear resistance", "Reflects up to 95% of
+radiant heat when installed facing a minimum 20mm air space", "Available in
+Standard (Class 1/2 Vapour Barrier) and Breather (pin-perforated) options",
+"Extra Heavy Duty (EHD 456) and Medium Duty (497) classifications to
+AS/NZS 4200.1", "Water barrier protection shielding timber and steel frames from
+weather penetration", "Effectively seals building envelopes against drafts and
+dust ingress", "Low flammability index compliant with AS 1530.2", "Suitable for
+bushfire-prone zones up to BAL-40 in roof applications and BAL-FZ in walls",
+"Durable foil laminate that will not shrink, delaminate, or crack over time" ],
+"applications": [ "wall", "external wall", "roof", "roofline", "shed" ],
+"technical": [ { "property": "Material", "value": "Woven polymer fabric
+(polyweave) laminated to pure aluminium foil", "standard": "" }, { "property":
+"Duty Classifications", "value": "Medium Duty (497 Tuff Wrap), Extra Heavy Duty
+(456 Multipurpose)", "standard": "AS/NZS 4200.1" }, { "property": "Emittance
+(Reflective Face)", "value": "0.03 - 0.05 (up to 95% radiant heat reflection)",
+"standard": "AS/NZS 4201.5" }, { "property": "Emittance (Anti-Glare Face)",
+"value": "0.05 - 0.10", "standard": "AS/NZS 4201.5" }, { "property": "Water
+Control Classification", "value": "Water Barrier", "standard": "AS/NZS 4201.4"
+}, { "property": "Vapour Control (Standard 497 / 456)", "value": "Class 1 or 2
+Vapour Barrier", "standard": "AS/NZS 4200.1" }, { "property": "Vapour Control
+(Breather 497)", "value": "Perforated Breather", "standard": "AS/NZS 4200.1" },
+{ "property": "Roll Dimensions", "value": "1350 mm width x 30 m or 60 m length
+(40.5 m² / 81 m²)", "standard": "" }, { "property": "Flammability Index",
+"value": "≤ 5 (Low Flammability)", "standard": "AS 1530.2" }, { "property":
+"Product Codes", "value": "4006880 (497 Standard 30m), 4006881 (497
+Standard 60m), 4006882 (497 Breather 30m), 4006884 (456 EHD 30m)", "standard":
+"" } ], "range": [ { "variant": "Sisalation Tuff Wrap Standard (497) 30m",
+"size_or_rating": "1350 mm x 30 m (40.5 m²)", "pack": "Roll (Code: 4006880)" },
+{ "variant": "Sisalation Tuff Wrap Standard (497) 60m", "size_or_rating": "1350
+mm x 60 m (81.0 m²)", "pack": "Roll (Code: 4006881)" }, { "variant": "Sisalation
+Tuff Wrap Breather (497) 30m", "size_or_rating": "1350 mm x 30 m (40.5 m²)",
+"pack": "Roll (Code: 4006882)" }, { "variant": "Sisalation Multipurpose EHD
+(456) 30m", "size_or_rating": "1350 mm x 30 m (40.5 m²)", "pack": "Roll
+(Code: 4006884)" }, { "variant": "Sisalation Multipurpose EHD (456) 60m",
+"size_or_rating": "1350 mm x 60 m (81.0 m²)", "pack": "Roll (Code: 4006883)" }
+], "fire": "Flammability Index ≤ 5 to AS 1530.2; Suitable for roofs with
+BAL 0-40 and walls with BAL 0-FZ in accordance with AS 3959", "compliance":
+"AS/NZS 4200.1:2017, AS/NZS 4200.2, AS 1530.2, AS 3959, NCC Volume One and Two",
+"sustainability": "Zero ODP, non-hazardous, manufactured with recyclable polymer
+and aluminium components", "install": [ "Install horizontally on exterior wall
+studs or over roof rafters with anti-glare face facing outward", "Overlap upper
+layers over lower layers by minimum 150mm to ensure water shedding", "Secure to
+timber frame using broad-headed galvanized clouts or staples; use self-drilling
+screws for steel", "Fix at maximum 300mm centres to studs and plates to
+withstand wind pressure", "Ensure a minimum 20mm air cavity is maintained
+adjacent to the reflective face to achieve rated thermal R-values", "Seal all
+overlaps, edges, and penetrations with Vapastop 883 aluminium foil tape",
+"Ensure wrap is protected by external cladding within manufacturer UV exposure
+limits" ], "selection_checklist": [ "Confirm application (wall wrap vs roof
+sarking vs shed lining)", "Choose between Standard (vapour barrier for climate
+zones 1-3) and Breather (perforated)", "Select duty rating (Medium Duty 497 vs
+Extra Heavy Duty 456 for high wind/roof traffic)", "Measure total area
+allowing 150mm overlaps (40.5m² or 81m² rolls)", "Order matching Vapastop 883
+foil tape" ], "accessories": [ "Vapastop 883 Foil Tape", "Galvanised clouts /
+staples", "Sisalation Seaming Tape" ], "limitations": [ "Standard 497 is not
+suitable in cold climate zones where vapour-permeable Class 4 wraps are
+required", "Breather 497 is not suitable where a strict water barrier is
+required under lightweight cladding in high rainfall", "Must not be left exposed
+to direct sunlight beyond recommended exposure window" ], "warranty": "Backed by
+Fletcher Insulation product warranty", "found": true, "search_keywords": [
+"Sisalation Tuff Wrap", "Sisalation 497", "Sisalation Multipurpose 456",
+"polyweave wall wrap", "reflective foil sarking", "Sisalation foil wrap", "heavy
+duty wall wrap", "extra heavy duty sarking", "Tuff Wrap Standard", "Tuff Wrap
+Breather" ], "problem_keywords": [ "tearing wall wrap on windy job sites",
+"radiant heat entering home through brick walls", "drafty exterior wall frames",
+"puncture damage to building wrap from brick ties", "solar heat radiation
+through roof and walls" ], "placement": [ "wall", "external wall", "roof",
+"roofline", "shed" ], "priority_fit": [ "thermal", "condensation", "fire",
+"budget" ], "use_cases": [ "Tear-resistant reflective wall wrap on residential
+brick veneer homes in climate zones 1 to 3", "Extra heavy-duty roof sarking
+under tiled or metal roofs in high-wind commercial and residential
+construction", "Radiant heat barrier and draught proofing wrap in domestic sheds
+and garages" ], "not_for": [ "Cold climate zones 6, 7, and 8 requiring Class 4
+vapour-permeable wraps", "Exposed internal walls or ceiling linings without
+plasterboard", "Underground retaining wall damp-proofing" ], "rag_summary":
+"Sisalation Tuff Wrap and Multipurpose Sarking (Sisalation 497 / 456 EHD) is an
+extra-tough reflective foil building membrane manufactured by Fletcher
+Insulation. Built with woven polymer (polyweave) reinforcement laminated to pure
+aluminium foil, it provides superior resistance to tears and punctures on windy
+jobsites while reflecting up to 95% of radiant heat across adjacent air
+cavities. Available in Standard vapour-barrier and pin-perforated Breather
+formats with a Flammability Index ≤ 5 (BAL 0-40 roof / BAL 0-FZ wall), it
+delivers robust weather and radiant heat protection." }, { "family_id":
+"FLETCHER_FOAM_BUBBLE_CELL", "tds_url":
+"https://insulation.com.au/product/sisalation-foam-cell-multipurpose/",
+"sds_url":
+"https://insulation.com.au/wp-content/uploads/2023/12/SUIS-Sisalation-Foam-Cell.pdf",
+"description": "Sisalation Foam Cell and Bubble Cell is an advanced 3-in-1
+reflective composite insulation range providing thermal insulation, a thermal
+break, and a vapour barrier. Available as Foam Cell Multipurpose (8.4mm
+cross-linked closed-cell foam core) or Bubble Cell (4.0mm polyethylene bubble
+core) laminated between reflective aluminium foil layers with an anti-glare
+coating, it reflects up to 95% of radiant heat. Engineered for steel and
+timber-framed roofs and walls in residential, commercial, shed, and double-brick
+applications, it features a 150mm foil overlap flap for seamless jointing and
+complies with NCC thermal break requirements.", "features": [ "3-in-1
+multipurpose solution: thermal insulation, thermal break, and vapour barrier",
+"Cross-linked closed-cell foam core (Foam Cell 8.4mm) or sealed polyethylene
+bubble core (Bubble Cell 4mm)", "Reflects up to 95% of radiant heat, providing
+cooler interior conditions in hot climates", "Delivers in-situ material thermal
+break (R0.20 to R0.25) to satisfy NCC steel framing requirements",
+"Integrated 150mm foil flap on one edge to maximize coverage and minimize
+taping", "Group 2 fire hazard property rating (Foam Cell Multipurpose) for
+commercial wall/ceiling linings", "Low Flammability Index compliant with
+AS 1530.2; suitable for BAL 0-40 in roofs and BAL 0-FZ in walls per AS 3959",
+"Anti-glare coating on outward-facing surface for safe installation in direct
+sunlight", "High moisture and condensation resistance with Class 2 vapour
+barrier rating", "Extra Heavy Duty rating providing superior strength and tear
+resistance" ], "applications": [ "roof", "roofline", "wall", "external wall",
+"shed" ], "technical": [ { "property": "Material", "value": "Cross-linked closed
+cell foam (Foam Cell) or polyethylene bubble core (Bubble Cell) laminated with
+reflective foil", "standard": "" }, { "property": "Nominal Thickness", "value":
+"8.4 mm (Foam Cell Multipurpose / LT), 5.0 mm (Resi Liner), 4.0 mm (Shed Liner &
+Bubble Cell)", "standard": "" }, { "property": "Material R-values", "value":
+"R0.25 (Foam Cell Multipurpose 8.4mm), R0.20 (Foam Cell LT 8.4mm), R0.14 (Bubble
+Cell 4mm)", "standard": "ASTM C518" }, { "property": "Roll Dimensions", "value":
+"1350 mm width x 22.25 m length (30 m² per roll)", "standard": "" }, {
+"property": "Integrated Flap Width", "value": "150 mm foil overlap flap (Foam
+Cell range)", "standard": "" }, { "property": "Weight per Roll", "value": "14.0
+kg (Multipurpose 8.4mm), 11.5 kg (Resi/Shed Liner 4-5mm), 14.0 kg (Bubble
+Cell)", "standard": "" }, { "property": "Duty Classification", "value": "Extra
+Heavy Duty", "standard": "AS/NZS 4200.1" }, { "property": "Water Control
+Classification", "value": "Water Barrier", "standard": "AS/NZS 4201.4" }, {
+"property": "Vapour Control Classification", "value": "Class 2 Vapour Barrier
+(< 0.1429 µg/N·s)", "standard": "ASTM E96 / AS/NZS 4200.1" }, { "property":
+"Emittance (Reflective Face)", "value": "0.03 (97% heat reflection)",
+"standard": "AS/NZS 4201.5" }, { "property": "Emittance (Anti-Glare Face)",
+"value": "0.05 - 0.06", "standard": "AS/NZS 4201.5" }, { "property": "Fire
+Hazard Classification", "value": "Group 2 (Foam Cell Multipurpose)", "standard":
+"AS 5637.1 / AS ISO 9705" } ], "range": [ { "variant": "Sisalation Foam Cell
+Multipurpose (8.4mm)", "size_or_rating": "8.4 mm x 1350 mm x 22.25 m (30 m²,
+R0.25)", "pack": "Roll (Code: 4006742)" }, { "variant": "Sisalation Foam Cell
+Multipurpose LT (8.4mm)", "size_or_rating": "8.4 mm x 1350 mm x 22.25 m (30 m²,
+R0.20)", "pack": "Roll (Code: 4006747)" }, { "variant": "Sisalation Foam Cell
+Resi Liner (5.0mm)", "size_or_rating": "5.0 mm x 1350 mm x 22.25 m (30 m²)",
+"pack": "Roll (Code: 4006743)" }, { "variant": "Sisalation Foam Cell Shed Liner
+(4.0mm)", "size_or_rating": "4.0 mm x 1350 mm x 22.25 m (30 m²)", "pack": "Roll
+(Code: 4006741)" }, { "variant": "Sisalation Bubble Cell (4.0mm)",
+"size_or_rating": "4.0 mm x 1350 mm x 22.25 m (30 m²)", "pack": "Roll
+(Code: 4006740)" } ], "fire": "Group 2 to AS 5637.1 / AS ISO 9705 (Foam Cell
+Multipurpose); Flammability Index ≤ 5 to AS 1530.2; Suitable for BAL 0-40 in
+roofs and BAL 0-FZ in walls to AS 3959", "compliance": "AS/NZS 4859.1,
+AS/NZS 4200.1:2017, AS/NZS 4200.2, AS 5637.1, AS 3959, NCC 2022 thermal break
+provisions", "sustainability": "CFC and HCFC free; non-hazardous; low VOC
+emissions; zero ODP", "install": [ "Roll out over roof purlins or wall framing
+with anti-glare face oriented towards the installer/outward", "Align roll edges
+so the 150mm factory foil flap overlaps the adjoining foam roll", "Secure to
+framing using mechanical fasteners or wafer-head screws with washers", "Ensure a
+minimum 20mm air cavity exists adjacent to the reflective face to maximize
+system R-values", "Tape all overlapping seams and penetrations with Vapastop 883
+aluminium foil tape for continuous air/vapour seal", "For steel-framed walls,
+fix cladding directly through the foam cell to create a compliant R0.20+ thermal
+break", "At roof eaves, ensure membrane drains freely into the gutter without
+pooling" ], "selection_checklist": [ "Confirm requirement for thermal break
+(Foam Cell 8.4mm delivers R0.20 to R0.25 on steel studs)", "Verify if building
+class 2-9 requires a Group 2 fire hazard rating (select Foam Cell
+Multipurpose)", "Choose between foam core (Foam Cell) and bubble core (Bubble
+Cell) based on specification", "Calculate roll quantities (each roll covers 30m²
+inclusive of the 150mm overlap)", "Order matching Vapastop 883 foil tape" ],
+"accessories": [ "Vapastop 883 Foil Tape (48mm / 72mm)", "Wafer-head
+self-drilling screws", "Fastener washers" ], "limitations": [ "Must be kept dry
+prior to and during installation", "Do not use in direct contact with wet
+concrete or alkaline mortar to prevent foil corrosion", "Not suitable for
+applications subject to continuous water immersion" ], "warranty": "Backed by
+Fletcher Insulation product warranty", "found": true, "search_keywords": [
+"Sisalation Foam Cell", "Sisalation Bubble Cell", "Foam Cell Multipurpose",
+"thermal break insulation foil", "foil bubble insulation", "cross linked foam
+foil", "Shed Liner insulation", "Resi Liner foil", "R0.20 thermal break", "R0.25
+thermal break" ], "problem_keywords": [ "thermal bridging across steel framing
+studs", "hot metal shed condensation", "sweating shed roof in winter", "meeting
+NCC steel frame thermal break requirement", "radiant heat in corrugated roof",
+"drafts in steel portal sheds" ], "placement": [ "roof", "roofline", "wall",
+"external wall", "shed" ], "priority_fit": [ "thermal", "condensation", "fire",
+"easy_install" ], "use_cases": [ "Installing over steel wall framing and roof
+purlins to provide a compliant R0.20 / R0.25 thermal break", "Insulating metal
+garages, residential workshops, and agricultural sheds against heat and
+condensation", "Thermal break and vapour barrier in residential cavity brick and
+commercial metal clad walls" ], "not_for": [ "Cold climate zones requiring
+breathable Class 4 wall wraps", "Direct underfloor applications exposed to
+subfloor soil contact", "Direct contact with wet cement or mortar" ],
+"rag_summary": "Sisalation Foam Cell and Bubble Cell is an Extra Heavy
+Duty 3-in-1 reflective insulation, thermal break, and Class 2 vapour barrier
+composite manufactured by Fletcher Insulation. Built with an 8.4mm closed-cell
+cross-linked foam core (R0.20 to R0.25) or 4.0mm bubble core laminated between
+aluminium foil faces with an anti-glare finish and a 150mm overlap flap, it
+reflects up to 95% of radiant heat while preventing thermal bridging on steel
+studs. Tested to AS 5637.1 (Group 2 rating for Multipurpose) and compliant with
+AS 3959 up to BAL-40, it is ideal for steel-framed roofs, walls, and sheds." },
+{ "family_id": "FLETCHER_SUPABATT", "tds_url":
+"https://insulation.com.au/product/supabatt/", "sds_url":
+"https://insulation.com.au/wp-content/uploads/2023/12/SUIS-FBS-1-Glasswool-Bio-soluble-Insulation.pdf",
+"description": "supaBATT is a high-density, rigid glasswool external wall
+insulation board engineered specifically to enhance the thermal performance of
+brick veneer walls in response to NCC 2022 7-star energy efficiency standards.
+Available unfaced or pre-faced with a Class 4 vapour-permeable membrane
+(supaBATT VP4), it is installed externally onto timber or steel studs before
+brickwork is laid. By insulating over the exterior face of framing, it
+eliminates thermal bridging, controls moisture vapour transfer, and boosts total
+wall system R-values.", "features": [ "Rigid, high-density glasswool board
+designed for external face-of-stud wall insulation", "Developed specifically to
+achieve 7-star energy ratings in residential brick veneer construction",
+"Available unfaced or pre-faced with a Class 4 vapour-permeable membrane (VP4)",
+"Pre-faced VP4 version combines bulk insulation and weather wrap in a single
+installation step", "Eliminates thermal bridging across timber and light-gauge
+steel framing studs", "Non-combustible glasswool substrate complying with
+AS 1530.1", "Manufactured in Australia using up to 80% recycled glass with
+bio-soluble FBS-1 formulation", "Low-itch, safe to handle, and will not slump or
+sag over time", "Backed by Fletcher Insulation Consumer Lifetime Warranty" ],
+"applications": [ "wall", "external wall" ], "technical": [ { "property":
+"Material", "value": "High-density rigid bio-soluble glasswool board (available
+plain or VP4 faced)", "standard": "" }, { "property": "Thermal Performance",
+"value": "Contributes up to R1.3+ to wall system total R-value", "standard":
+"AS/NZS 4859.1" }, { "property": "Thickness Options", "value": "30 mm, 40 mm, 50
+mm", "standard": "" }, { "property": "Board Dimensions", "value": "1160 mm
+/ 1200 mm length x 430 mm / 580 mm width (or 1200 x 2400 mm sheets)",
+"standard": "" }, { "property": "Vapour Permeance (VP4 version)", "value":
+"Class 4 Vapour Permeable", "standard": "AS/NZS 4200.1" }, { "property":
+"Combustibility (Core)", "value": "Non-combustible", "standard": "AS 1530.1" },
+{ "property": "Early Fire Hazard Indices", "value": "Ignitability: 0, Spread of
+Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1", "standard": "AS/NZS 1530.3" },
+{ "property": "Compressive Resistance", "value": "Rigid board formulation
+resisting deformation under brick tie fixing", "standard": "" } ], "range": [ {
+"variant": "supaBATT Unfaced Rigid Board", "size_or_rating": "30-50 mm thickness
+x standard framing widths", "pack": "Pack of boards" }, { "variant": "supaBATT
+VP4 Faced (Class 4 Membrane)", "size_or_rating": "30-50 mm thickness x standard
+framing widths", "pack": "Pack of boards" } ], "fire": "Non-combustible core to
+AS 1530.1; AS/NZS 1530.3: Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0,
+Smoke Developed: 0-1; Suitable for bushfire construction up to BAL-40 to
+AS 3959", "compliance": "AS/NZS 4859.1, AS/NZS 4200.1 (VP4 membrane), NCC 2022 /
+NCC 2025 7-star energy efficiency", "sustainability": "Manufactured from up
+to 80% recycled glass; bio-soluble FBS-1; zero ODP; low VOC", "install": [ "Fix
+supaBATT boards horizontally or vertically to the outside face of timber or
+steel stud framing", "Secure boards mechanically with approved insulation
+fixings or brick tie brackets into framing", "For supaBATT VP4, ensure the
+vapour-permeable membrane faces outward towards the brick cavity", "Overlap the
+integrated membrane flap of upper rows over lower rows and tape with 3M Seaming
+Tape / VapaSeam Tape", "Where unfaced supaBATT is used, butt boards tightly
+together and install an approved external wall wrap over the face", "Tape and
+seal all cuts, penetrations, and corners to maintain air and water barrier
+integrity", "Fasten brick ties through supaBATT into structural studs,
+maintaining required cavity clearance to brickwork" ], "selection_checklist": [
+"Confirm brick veneer cavity width accommodates supaBATT thickness while
+maintaining 40-50mm masonry air cavity", "Choose between supaBATT plain
+(requires separate wrap) or supaBATT VP4 (integrated Class 4 wrap)", "Verify
+required R-value to achieve 7-star NatHERS rating in conjunction with internal
+wall batts", "Order compatible face-mount brick ties and seaming tape" ],
+"accessories": [ "3M Seaming Tape / Sisalation VapaSeam Tape", "Face-fixed brick
+ties", "Fasteners with washer heads" ], "limitations": [ "Must be installed on
+external face of stud framing behind masonry or cladding with a drained cavity",
+"Cladding/brickwork should be installed without prolonged delay to prevent
+weather damage", "Must not be compressed into internal stud bays designed for
+soft batts" ], "warranty": "Consumer Lifetime Warranty", "found": true,
+"search_keywords": [ "supaBATT", "Fletcher supaBATT", "external wall board
+insulation", "brick veneer continuous insulation", "supaBATT VP4", "rigid
+glasswool wall board", "7 star wall insulation", "face of stud insulation",
+"continuous wall insulation batts" ], "problem_keywords": [ "thermal bridging
+through timber and steel studs", "achieving 7 star NatHERS energy rating in
+brick veneer", "wall cavity space limitations for thick batts", "interstitial
+moisture condensation in brick veneer", "cold framing studs conducting heat" ],
+"placement": [ "wall", "external wall" ], "priority_fit": [ "thermal",
+"condensation", "fire", "sustainability" ], "use_cases": [ "External
+face-of-stud continuous insulation on residential brick veneer homes to
+meet 7-star NatHERS requirements", "Continuous thermal barrier over light-gauge
+steel frame walls to eliminate thermal bridging", "Combined weatherproofing wrap
+and continuous bulk insulation using supaBATT VP4 behind masonry" ], "not_for":
+[ "Ceiling space insulation", "Internal stud bays between plasterboard and
+frame", "Direct underfloor exposed to damp crawlspace ground" ], "rag_summary":
+"Fletcher supaBATT is a rigid, high-density glasswool board designed for
+installation onto the exterior face of timber or steel studs in brick veneer
+construction. Engineered to help builders achieve 7-star NatHERS energy
+compliance under NCC 2022, it provides continuous external insulation that
+eliminates stud thermal bridging. Available plain or factory-laminated with a
+Class 4 vapour-permeable membrane (supaBATT VP4), it combines non-combustible
+bulk thermal resistance (AS 1530.1) with condensation management, backed by a
+Consumer Lifetime Warranty." } ]

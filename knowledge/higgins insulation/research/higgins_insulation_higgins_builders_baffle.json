@@ -1,0 +1,148 @@
+{
+  "family_id": "HIGGINS_INSULATION_HIGGINS_BUILDERS_BAFFLE",
+  "family_name": "Higgins Insulation Higgins Builders Baffle",
+  "datasheet_pdf_url": "https://higginsinsulation.com.au/product/builders-acoustic-baffle-for-party-walls/",
+  "sds_url": "https://higginsinsulation.com.au/wp-content/uploads/2021/04/Higgins-Polyester-Insulation-SDS.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Higgins Builders Acoustic Baffle for Party Walls is a\nhigh-density, custom-manufactured polyester sound absorber engineered to stop\nsound transfer through ceiling voids above party walls. Manufactured in\nQueensland, Australia from 100% thermally bonded polyester fibers containing up\nto 85% recycled PET, it acts as a resilient acoustic barrier in\nmulti-residential inter-tenancy wall-to-roof junctions. Safe and itch-free to\ninstall without protective clothing, it provides high sound transmission loss\nand will not slump or deteriorate over time.",
+    "features": [
+      "Custom\nhigh-density polyester sound absorber engineered for party walls",
+      "Controls\nflanking noise traveling through ceiling cavities over inter-tenancy walls",
+      "Made from 100% polyester fiber with up to 85% recycled PET content",
+      "Non-allergenic, non-toxic, and itch-free with no glass fibers or chemical\ndust",
+      "Free from formaldehyde, phenol, and ammonia binders",
+      "Zero Ozone\nDepleting Potential (ODP) and negligible VOCs",
+      "Naturally moisture resistant\nand hydrophobic; will not rot or grow mold",
+      "Tested for fire safety in\naccordance with AS/NZS 1530.3",
+      "Approved by Asthma Foundations Australia for\nlow-allergen buildings"
+    ],
+    "applications": [
+      "ceiling",
+      "wall",
+      "internal wall",
+      "between floors"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "100%\nthermally bonded polyester fiber (up to 85% recycled PET)",
+        "standard": ""
+      },
+      {
+        "property": "Nominal Density",
+        "value": "High-density acoustic polyester\nformulation",
+        "standard": ""
+      },
+      {
+        "property": "Dimensions",
+        "value": "Pre-cut\nbaffle blocks or continuous rolls to suit cavity widths",
+        "standard": ""
+      },
+      {
+        "property": "Fire Hazard Indices",
+        "value": "Ignitability: 0, Spread of\nFlame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Moisture Absorption",
+        "value": "< 0.2% by volume",
+        "standard": ""
+      },
+      {
+        "property": "Corrosion Resistance",
+        "value": "Zero chlorides,\nnon-corrosive",
+        "standard": ""
+      },
+      {
+        "property": "Ozone Depletion Potential",
+        "value": "Zero ODP",
+        "standard": ""
+      },
+      {
+        "property": "Volatile Organic\nCompounds",
+        "value": "Low / negligible VOCs",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Builders Acoustic Baffle for Party Walls",
+        "size_or_rating": "High-density acoustic baffle block / roll",
+        "pack": "Pack"
+      }
+    ],
+    "fire": "Tested\nin accordance with AS/NZS 1530.3: Ignitability: 0, Spread of Flame: 0, Heat\nEvolved: 0, Smoke Developed: 0-1",
+    "compliance": "AS/NZS 1530.3, AS/NZS 4859.1,\nNCC Volume One and Two acoustic privacy requirements",
+    "sustainability": "Contains up to 85% recycled polyester fiber from post-consumer PET bottles;\nZero ODP; Zero formaldehyde; 100% recyclable",
+    "install": [
+      "Measure the ceiling\ncavity void above the fire-rated party wall or inter-tenancy partition",
+      "Position Builders Acoustic Baffle directly above the wall line spanning from\nthe top plate to the underside of roof cladding",
+      "Ensure the baffle compresses\nsnugly against rafters, purlins, and ceiling linings without gaps",
+      "Overlap or\nbutt adjoining baffle blocks tightly together to eliminate acoustic flanking\npaths",
+      "Secure in place using friction-fit pressure or mechanical\nfasteners/strapping where required",
+      "Ensure baffle does not obstruct mandatory\nroof space ventilation pathways"
+    ],
+    "selection_checklist": [
+      "Confirm cavity\nheight between top of party wall and underside of roof",
+      "Verify inter-tenancy\nacoustic rating (Rw + Ctr) requirement under the NCC",
+      "Measure linear meterage\nof party walls requiring ceiling void acoustic baffling",
+      "Check non-allergenic\npolyester specification preference"
+    ],
+    "accessories": [
+      "Foil tape",
+      "Insulation\nstrapping",
+      "Utility knife"
+    ],
+    "limitations": [
+      "Indoor ceiling space use only;\nnot for direct external weather exposure",
+      "Does not substitute for fire-rated\nstonewool where a specific FRL is required by structural engineers",
+      "Ensure\nproper clearances around non-IC rated light fittings and hot flues"
+    ],
+    "warranty": "Lifetime performance guarantee backed by Higgins Insulation"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Higgins Builders Baffle",
+      "Builders\nAcoustic Baffle",
+      "Higgins party wall baffle",
+      "polyester acoustic baffle\nblock",
+      "ceiling void sound barrier",
+      "party wall acoustic baffle",
+      "Higgins\ninsulation baffle",
+      "acoustic baffle block"
+    ],
+    "problem_keywords": [
+      "sound\ntraveling through ceiling space over party wall",
+      "flanking noise between\ntownhouses",
+      "party wall acoustic compliance failure",
+      "noise leakage through\nceiling void",
+      "acoustic privacy between duplex units"
+    ],
+    "placement": [
+      "ceiling",
+      "wall",
+      "internal wall",
+      "between floors"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "sustainability",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Blocking\nflanking noise transmission through the ceiling cavity above party walls in\nmulti-residential townhouses",
+      "Acoustic void barrier above commercial office\npartitions terminating at suspended ceiling height",
+      "Sound baffle installation\nbetween attached duplex dwellings to satisfy NCC acoustic privacy regulations"
+    ],
+    "not_for": [
+      "Direct external cladding",
+      "High-temperature fire stop where\nnon-combustible stonewool FRL is mandated",
+      "Underfloor soil direct contact"
+    ],
+    "rag_summary": "Higgins Insulation Higgins Builders Baffle is a high-density\npolyester acoustic sound absorber engineered specifically to stop sound transfer\nthrough ceiling voids above party walls in Class 1 and Class 2 multi-residential\nbuildings. Manufactured in Queensland from 100% thermally bonded polyester\ncontaining up to 85% recycled PET, it friction-fits between the top of the wall\nand the roofline to block acoustic flanking paths. Completely itch-free,\nnon-toxic, hydrophobic, and fire-tested to AS/NZS 1530.3, it provides a safe,\npermanent acoustic barrier between adjoining tenancies."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

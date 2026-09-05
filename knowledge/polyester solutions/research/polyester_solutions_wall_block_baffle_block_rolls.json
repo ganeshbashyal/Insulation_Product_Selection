@@ -1,0 +1,164 @@
+{
+  "family_id": "POLYESTER_SOLUTIONS_WALL_BLOCK_BAFFLE_BLOCK_ROLLS",
+  "family_name": "Polyester Solutions Wall Block - Baffle block rolls",
+  "datasheet_pdf_url": "https://www.polyestersolutions.com.au/acoustic-insulation",
+  "sds_url": "https://www.polyestersolutions.com.au/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Polyester Solutions\nCeiling Baffle Block Rolls (Wall Block Baffle Rolls) are lightweight,\nnon-irritant acoustic insulation rolls designed to be layer-stacked above\npartition walls to significantly reduce sound transmission through the ceiling\nplenum space. Manufactured from thermally bonded polyester fiber containing a\nhigh percentage of recycled PET, the flexible roll format unrolls easily and\nmoulds itself around overhead ducting, cable trays, and services, eliminating\ngaps and acoustic flanking paths. Safe and itch-free to install, they provide\ndurable room-to-room acoustic privacy across commercial offices, schools, and\nhealthcare facilities.",
+    "features": [
+      "Designed for continuous layer-stacking\nin ceiling plenum spaces above partition walls",
+      "Flexible roll format moulds\neffortlessly around pipes, ducts, and overhead services",
+      "Eliminates gaps,\npenetrations, and acoustic flanking sound leakage",
+      "High acoustic sound\nabsorption dampening speech transmission between adjoining rooms",
+      "Manufactured\nfrom 100% thermally bonded polyester containing high recycled PET content",
+      "Completely non-irritant, non-toxic, and non-allergenic; safe to install without\ngloves or masks",
+      "Hydrophobic fibers resist moisture, mold, rot, and vermin",
+      "Tested to AS 1530.3 fire standards with zero spread of flame",
+      "Complies with\nAustralian Standard AS/NZS 4859.1",
+      "100% recyclable with zero chemical binders\nor added formaldehyde"
+    ],
+    "applications": [
+      "ceiling",
+      "wall",
+      "internal wall",
+      "between floors"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "100%\nthermally bonded polyester fiber (high recycled PET content)",
+        "standard": ""
+      },
+      {
+        "property": "Application Format",
+        "value": "Continuous acoustic baffle roll /\nblanket",
+        "standard": ""
+      },
+      {
+        "property": "Thickness Options",
+        "value": "50\nmm, 75 mm, 100 mm",
+        "standard": ""
+      },
+      {
+        "property": "Width Options",
+        "value": "450 mm, 600 mm, 1200 mm",
+        "standard": ""
+      },
+      {
+        "property": "Acoustic\nPerformance",
+        "value": "High sound absorption reducing ceiling plenum flanking\n(NRC 0.70 - 0.90+)",
+        "standard": "ISO 354"
+      },
+      {
+        "property": "Early Fire Hazard\nIndices",
+        "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke\nDeveloped: 0-1",
+        "standard": "AS 1530.3"
+      },
+      {
+        "property": "Moisture Absorption",
+        "value": "< 0.2% by volume after 4 days at 50°C, 95% RH",
+        "standard": ""
+      },
+      {
+        "property": "Maximum Service Temperature",
+        "value": "150°C",
+        "standard": ""
+      },
+      {
+        "property": "Chemical Content",
+        "value": "Zero added formaldehyde, zero chemical\nbinders, zero ODP",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Baffle Block\nRoll 50mm",
+        "size_or_rating": "50 mm x 600/1200 mm x continuous roll length",
+        "pack": "Roll"
+      },
+      {
+        "variant": "Baffle Block Roll 75mm",
+        "size_or_rating": "75\nmm x 600/1200 mm x continuous roll length",
+        "pack": "Roll"
+      },
+      {
+        "variant": "Baffle Block Roll 100mm",
+        "size_or_rating": "100 mm x 600/1200 mm x continuous\nroll length",
+        "pack": "Roll"
+      }
+    ],
+    "fire": "AS 1530.3 Early Fire Hazard\nProperties: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke\nDeveloped 0-1",
+    "compliance": "AS/NZS 4859.1, AS 3999, NCC Volume One and Two\nacoustic privacy provisions",
+    "sustainability": "High recycled PET content; zero\nformaldehyde; zero chemical binders; zero ODP; 100% recyclable",
+    "install": [
+      "Measure the plenum void height between top of partition wall and underside of\nroof or concrete slab",
+      "Cut continuous baffle rolls to length to run above the\npartition wall line",
+      "Layer-stack baffle rolls vertically directly over the\npartition wall to fill the entire plenum height",
+      "Compress rolls around air\nconditioning ductwork, electrical cable trays, and plumbing pipes",
+      "Ensure zero\nvoids, holes, or gaps remain for sound to flank through the ceiling space",
+      "Butt roll ends tightly together along the length of the partition wall",
+      "Secure rolls with light strapping or wire if required in tall plenum voids"
+    ],
+    "selection_checklist": [
+      "Measure ceiling plenum height (distance from suspended\nceiling tile grid to slab/roof)",
+      "Determine number of layers needed to\ncompletely fill plenum void",
+      "Measure total linear meterage of partition walls\nrequiring acoustic baffling",
+      "Confirm roll width (600mm or 1200mm) suitable for\nceiling space access"
+    ],
+    "accessories": [
+      "Utility knife / heavy shears",
+      "Tie\nwire / strapping (for high plenums)"
+    ],
+    "limitations": [
+      "Designed for ceiling\nplenum voids and cavities; not for direct external weather exposure",
+      "Must not\nbe compressed against non-IC rated light fittings or hot flue exhausts",
+      "Does\nnot replace structural fire barriers where specific FRLs are mandated"
+    ],
+    "warranty": "Backed by Polyester Solutions manufacturer product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Polyester Solutions Baffle Block Rolls",
+      "WallBlock baffle rolls",
+      "ceiling baffle rolls",
+      "polyester acoustic plenum\nroll",
+      "sound blanket roll",
+      "plenum baffle blanket",
+      "continuous acoustic\nbaffle roll",
+      "polyester sound roll"
+    ],
+    "problem_keywords": [
+      "sound leaking\nthrough ceiling plenum",
+      "voice transfer over office partition walls",
+      "pipes\nand ducts causing acoustic flanking",
+      "gaps in ceiling acoustic barriers",
+      "office cross-talk through suspended ceiling"
+    ],
+    "placement": [
+      "ceiling",
+      "wall",
+      "internal wall",
+      "between floors"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "easy_install",
+      "sustainability"
+    ],
+    "use_cases": [
+      "Continuous layer-stacking in\nceiling plenum spaces above office partition walls to block sound transmission",
+      "Moulding around complex overhead ductwork, cable trays, and pipes to seal\nacoustic flanking voids",
+      "Acoustic blanket infill in commercial and educational\nwall cavities"
+    ],
+    "not_for": [
+      "Exterior weatherboard wrap",
+      "Direct roof\nweatherproofing",
+      "High-temperature flue exhaust wrapping"
+    ],
+    "rag_summary": "Polyester Solutions Wall Block - Baffle Block Rolls (Ceiling Baffle Rolls) are\ncontinuous polyester acoustic insulation blankets designed for layer-stacking\nabove partition walls in ceiling plenum voids. Formed from 100% thermally bonded\npolyester with high recycled PET content, the flexible roll format unrolls\nsmoothly and moulds tightly around HVAC ducting, electrical conduits, and\nservice pipes to seal acoustic flanking paths. Hydrophobic, itch-free, and\ntested to AS 1530.3 fire standards, it provides an economical, joint-free\nacoustic barrier for commercial and institutional interiors."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

@@ -1,6 +1,6 @@
 ---
 title: "Ecowool Residential Batt - Batt Insulation | Ecowool"
-description: "Quality insulation engineered for Australian conditions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability"
+description: "Ecowool Residential Batts (Ceiling Batts and Wall Batts) are new-generation glass mineral wool thermal and acoustic insulation batts engineered for Au"
 keywords: "Ecowool Residential Batt, Ecowool batt, wall insulation, ceiling insulation, insulation Australia, Ecowool Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: ECOWOOL_RESIDENTIAL_BATT
@@ -10,28 +10,35 @@ family_id: ECOWOOL_RESIDENTIAL_BATT
 
 **Ecowool Batt** — bulk insulation batts for thermal and acoustic performance.
 
-Quality insulation engineered for Australian conditions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability.
+Ecowool Residential Batts (Ceiling Batts and Wall Batts) are new-generation glass mineral wool thermal and acoustic insulation batts engineered for Australian residential homes. Manufactured with SensiTouch technology using a natural anti-formaldehyde binder and nearly 80% recycled glass, they form an effective barrier to heat flow while remaining soft to touch and low in dust. Available in thermal ratings from R2.0 up to R7.0 for ceilings and R2.0 to R2.5 for walls, they are non-combustible, bio-soluble, and certified to AS/NZS 4859.1:2018.
 
 ## Key features
 
-- 100% polyester - safe to handle without protective equipment.
-- contains minimum 80% recycled PET plastic bottles.
-- non-allergenic, non-irritant formulation.
-- will not support mould or mildew growth.
-- maintains performance when wet.
-- excellent thermal performance for roof/ceiling applications.
+- Premium thermal and acoustic insulation for residential walls and ceilings.
+- SensiTouch Technology with natural anti-formaldehyde binder.
+- Soft to touch, less itchy, and low dust formulation.
+- Made from nearly 80% recycled glass content.
+- Non-combustible when tested to AS 1530.1:1994.
+- Third-party certified compliant with AS/NZS 4859.1:2018.
+- Free from CFCs, HCFCs, and ozone-depleting substances.
+- Excellent fibre resiliency ensures batts recover nominal thickness upon unrolling.
+- Safe to handle with bio-soluble FBS-1 formulation.
+- Reduces household heating and cooling energy consumption.
 
 ## Applications and selection
 
-- Ceiling | Wall
+- ceiling
+- wall
+- external wall
+- internal wall
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Determine whether ceiling or external wall application.
+2. Select required R-value to achieve 7-star NatHERS compliance for climate zone.
+3. Measure framing spacing (430mm width for 450mm centres; 580mm width for 600mm centres).
+4. Check wall stud depth (90mm standard).
+5. Check downlight ratings (IC / IC-F rated vs non-IC).
 
 
 ## Current catalogue range
@@ -61,36 +68,52 @@ Quality insulation engineered for Australian conditions. Safe to handle without 
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Batt | Manufacturer catalogue |
-| Material | Polyester | Manufacturer catalogue |
-| Applications | Ceiling | Wall | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Ceiling R-Values | R2.5, R3.0, R3.5, R4.0, R5.0, R6.0, R7.0 | AS/NZS 4859.1:2018 |
+| Wall R-Values | R2.0, R2.5 | AS/NZS 4859.1:2018 |
+| Thicknesses (Ceiling) | R2.5 (125mm), R3.0 (145mm), R3.5 (175mm), R4.0 (195mm), R5.0 (215mm), R6.0 (250mm), R7.0 (285mm) | - |
+| Thicknesses (Wall) | R2.0 (90mm), R2.5 (90mm) | - |
+| Dimensions | 1160 mm length x 430 mm or 580 mm width | - |
+| Combustibility | Non-combustible | AS 1530.1:1994 |
+| Early Fire Hazard Indices | Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1 | AS 1530.3:1999 |
+| Thermal Conductivity | Tested at 23°C mean temperature | ASTM C518 |
+| Maximum Service Temperature | 350°C | - |
 
-
+Extracted from manufacturer datasheet: https://pgfinsulation.com.au/products/ceiling-batts/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Non-combustible to AS 1530.1:1994; AS 1530.3:1999 indices: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-1; ASTM E84 compliant
+
+AS/NZS 4859.1:2018, Building Code of Australia (BCA) / NCC compliant
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://chadgroup.com.au/wp-content/uploads/2022/09/eco-wool-datasheet.pdf (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://chadgroup.com.au/wp-content/uploads/2022/09/eco-wool-datasheet.pdf.
 
+## Recommended accessories
+
+- Perimeter eave baffles.
+- Bradfix strapping.
+- Utility knife.
+
 
 ## Limitations and warnings
 
-- Not suitable for fire rating without additional protection..
-- not to be exposed to weather or sustained moisture..
-- do not compress beyond manufacturer recommendations..
-- check fire-rated system requirements..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Do not compress batts into cavities narrower than nominal thickness.
+- Keep dry during transport, storage, and installation.
+- Must not be left exposed to continuous outdoor weather.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for fire rating without additional protection.
+1. Isolate electrical power at main switchboard before commencing installation.
+2. In ceilings, lay batts flat between ceiling joists ensuring complete coverage over plasterboard.
+3. In walls, friction-fit batts between timber or steel studs snugly without gaps or folds.
+4. Maintain minimum 200mm clearance around non-IC rated recessed downlights and heat sources.
+5. IC or IC-F rated downlights may be insulated over provided service temperature does not exceed 350°C.
+6. At roof eaves, maintain minimum 20mm clearance between insulation and roof cladding/sarking.
 
 ## Safety and handling
 
@@ -98,11 +121,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Manufactured from nearly 80% recycled glass; SensiTouch anti-formaldehyde binder; Low VOC; Zero ODP; Bio-soluble FBS-1
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+PGF Australia product warranty
 
 ## Specification starting point
 

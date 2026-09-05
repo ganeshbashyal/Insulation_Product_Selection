@@ -1,6 +1,6 @@
 ---
 title: "Bradford Wall Wraps - Light Duty Residential - Reflective Insulation | Bradford"
-description: "Part of the CSR family with 100+ years of Australian building solutions. Reflects up to 97% of radiant heat, reducing summer cooling costs."
+description: "Bradford Enviroseal ProctorWrap Residential Wall (RW) is a Light Duty, Class 4 vapour-permeable wall wrap designed for residential timber and steel fr"
 keywords: "Bradford Wall Wraps - Light Duty Residential, Bradford reflective, wall insulation, insulation Australia, Bradford Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: BRADFORD_WALL_WRAPS_LIGHT_DUTY_RESIDENTIAL
@@ -10,28 +10,32 @@ family_id: BRADFORD_WALL_WRAPS_LIGHT_DUTY_RESIDENTIAL
 
 **Bradford Reflective** — reflective foil insulation for radiant heat control.
 
-Part of the CSR family with 100+ years of Australian building solutions. Reflects up to 97% of radiant heat, reducing summer cooling costs.
+Bradford Enviroseal ProctorWrap Residential Wall (RW) is a Light Duty, Class 4 vapour-permeable wall wrap designed for residential timber and steel frame wall construction. Engineered with a triple-layer polyolefin spunbond textile, it allows interior moisture vapour to breathe outward, mitigating condensation, timber rot, and mould growth behind external claddings. Acting as a water barrier against wind-driven rain and an effective air barrier against drafts, it delivers high energy efficiency and weather tightness for homes built with brick veneer, timber weatherboards, fibre cement, or composite cladding.
 
 ## Key features
 
-- High-purity aluminium reflective facing.
-- reflects up to 97% of radiant heat.
-- lightweight and easy to install.
-- provides vapour barrier when properly sealed.
-- 50 Year Warranty backed by CSR.
-- ACCC certified.
+- Highly vapour permeable (Class 4) allowing moisture to escape the building envelope.
+- Water barrier performance protects frame and wall insulation from wind-driven rain.
+- Air barrier functionality seals external walls against conditioned air leakage and drafts.
+- Triple-layer spunbond polyolefin construction provides excellent tear resistance.
+- Printed with a 150mm lap line for accurate on-site installation and alignment.
+- Soft, non-woven facing prevents noisy flapping in windy conditions.
+- Lightweight and easy to cut and fix around window and door frames.
+- Suitable for brick, timber, steel, fibre-cement, and Hebel residential constructions.
+- Flammability index compliant with AS 1530.2.
 
 ## Applications and selection
 
-- Wall Wrap / Sarking
+- wall
+- external wall
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm residential wall construction requires a Class 4 vapour-permeable membrane.
+2. Choose roll width (1.5m standard vs 2.75m wide roll to wrap single-storey walls in one drop).
+3. Calculate roll quantity based on total wall area allowing 150mm overlaps.
+4. Select standard RW or RW-IT with integrated adhesive tape.
+5. Order complementary HighTack Tape for window and door flashings.
 
 
 ## Current catalogue range
@@ -43,35 +47,56 @@ Part of the CSR family with 100+ years of Australian building solutions. Reflect
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Reflective | Manufacturer catalogue |
-| Material | Reflective Membrane | Manufacturer catalogue |
-| Applications | Wall Wrap / Sarking | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material | Triple-layer polyolefin spunbond non-woven textile | - |
+| Duty Classification | Light Duty | AS/NZS 4200.1 |
+| Vapour Permeability | Class 4 Vapour Permeable | AS/NZS 4200.1 |
+| Water Control Classification | Water Barrier | AS/NZS 4201.4 |
+| Air Control Classification | Air Barrier | AS/NZS 4200.1 |
+| Roll Dimensions (1.5m) | 1500 mm width x 50 m length (75 m² per roll) | - |
+| Roll Dimensions (2.75m) | 2750 mm width x 25 m length (68.75 m² per roll) | - |
+| Tensile Strength | Machine Direction > 140 N, Lateral Direction > 120 N | AS/NZS 4200.1 |
+| Maximum UV Exposure | Up to 4 weeks (30 days) unclad | - |
+| Flammability Index | ≤ 5 (Low Flammability) | AS 1530.2 |
+| Product Codes | 118153 (1.5m x 50m), 138628 (2.75m x 25m) | - |
 
-
+Extracted from manufacturer datasheet: https://www.bradfordinsulation.com.au/home-insulation/walls/enviroseal-wall-wrap
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Flammability Index ≤ 5 to AS 1530.2; Suitable for use in external walls in BAL 12.5 to BAL-40 bushfire zones under AS 3959
+
+AS/NZS 4200.1:2017, AS/NZS 4200.2, AS 1530.2, NCC 2022 / NCC 2025 Volume Two condensation management
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.csrbradford.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://www.firecrunch.com.au/wp-content/uploads/2016/02/BRADFORD-MSDS-e3a0-435b-b6ef-6f1027726ce6.pdf.
 
+## Recommended accessories
+
+- Bradford Enviroseal HighTack Tape.
+- Bradford ULTRAtape.
+- Bradfix fasteners.
+- Enviroseal Flexi Tape.
+
 
 ## Limitations and warnings
 
-- Reflective performance requires maintained airspace..
-- conductive material - keep away from electrical services..
-- not suitable as sole insulation in cold climates..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Not suitable for roofing applications (Light Duty rating does not meet DtS roof requirements).
+- Must not be left exposed to direct UV sunlight for more than 30 days.
+- Not designed for open-joint rainscreens (use Black Label).
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Reflective performance requires maintained airspace.
+1. Fix Enviroseal RW to the outside of timber or steel studs with printed side facing outward.
+2. Fasten with broad-headed nails or staples at maximum 300mm centres to studs and plates.
+3. Run sheets horizontally starting from the bottom plate, ensuring overlaps shed water downward.
+4. Overlap consecutive horizontal sheets by at least 150mm along the printed lap guide.
+5. Vertical joints must overlap by at least 150mm and be made over a structural stud.
+6. Tape all joins and penetrations with Bradford Enviroseal HighTack Tape or specify RW-IT.
+7. Ensure membrane is separated from cladding by a ventilated/drained cavity.
 
 ## Safety and handling
 
@@ -79,11 +104,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Zero ODP, non-hazardous, 100% recyclable polyolefin materials, low VOC
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Backed by CSR Bradford product warranty
 
 ## Specification starting point
 

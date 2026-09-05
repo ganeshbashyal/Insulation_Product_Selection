@@ -1,0 +1,168 @@
+{
+  "family_id": "BRADFORD_WALL_WRAPS_LIGHT_DUTY_METAL_ROOF",
+  "family_name": "Bradford Wall Wraps - Light Duty Metal Roof",
+  "datasheet_pdf_url": "https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/roofing/thermoseal-roof-metal-wall",
+  "sds_url": "https://www.bradfordinsulation.com.au/-/media/bradford/files/safety-data-sheet---glasswool.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Bradford Thermoseal Light Duty Metal Roof / Wall is a\nmulti-layer reflective foil laminate sarking designed specifically for use under\nmetal roof claddings and in exterior walls. Manufactured from kraft paper\nlaminates bonded to aluminium foil with flame-retardant adhesives and reinforced\nwith continuous fibreglass yarn, it features a green anti-glare coating on one\nface to reduce installation glare. Installed adjacent to an air cavity, it\nprovides dual reflective thermal R-values while acting as a water barrier,\nvapour barrier, and draft-reducing membrane in metal residential and light\ncommercial buildings.",
+    "features": [
+      "Specifically formulated for metal roof\nand external brick veneer wall applications",
+      "Green anti-glare finish on\noutward-facing surface minimizes glare during daytime installation",
+      "Provides\nan effective vapour barrier (Class 1 / 2) to control condensation",
+      "Functions\nas a water barrier to direct moisture and wind-driven rain away from the roof\nspace",
+      "Reflective aluminium foil facing contributes thermal air-gap R-values\nin summer and winter",
+      "Reinforced with fibreglass yarn for enhanced tear\nresistance during fixing",
+      "Non-combustible aluminium facings with low\nFlammability Index (≤ 5)",
+      "Suitable for use in bushfire BAL-12.5 to BAL-40 roof\nsystems"
+    ],
+    "applications": [
+      "roof",
+      "roofline",
+      "wall",
+      "external wall",
+      "shed"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "Kraft paper,\nfibreglass reinforcement, aluminium foil with green anti-glare coating",
+        "standard": ""
+      },
+      {
+        "property": "Duty Classification",
+        "value": "Light Duty",
+        "standard": "AS/NZS 4200.1"
+      },
+      {
+        "property": "Vapour Barrier Classification",
+        "value": "Class 1 or 2 Vapour Barrier (Low Vapour Permeance)",
+        "standard": "AS/NZS 4200.1"
+      },
+      {
+        "property": "Water Control Classification",
+        "value": "Water\nBarrier",
+        "standard": "AS/NZS 4201.4"
+      },
+      {
+        "property": "Emittance (Reflective\nFoil Face)",
+        "value": "0.05 (95% heat reflection)",
+        "standard": "AS/NZS 4201.5"
+      },
+      {
+        "property": "Emittance (Anti-Glare Face)",
+        "value": "0.05 - 0.10",
+        "standard": "AS/NZS 4201.5"
+      },
+      {
+        "property": "Roll Dimensions (30m)",
+        "value": "1350 mm width x 30 m length (40.5 m² per roll)",
+        "standard": ""
+      },
+      {
+        "property": "Roll Dimensions (60m)",
+        "value": "1350 mm width x 60 m length (81\nm² per roll)",
+        "standard": ""
+      },
+      {
+        "property": "Flammability Index",
+        "value": "≤ 5 (Low Flammability)",
+        "standard": "AS 1530.2"
+      },
+      {
+        "property": "Product\nCodes",
+        "value": "105871 (30m), 15056 (60m)",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Thermoseal Light Duty Metal Roof/Wall 30m",
+        "size_or_rating": "1350\nmm x 30 m (40.5 m²)",
+        "pack": "Roll (Code: 105871)"
+      },
+      {
+        "variant": "Thermoseal\nLight Duty Metal Roof/Wall 60m",
+        "size_or_rating": "1350 mm x 60 m (81 m²)",
+        "pack": "Roll (Code: 15056)"
+      }
+    ],
+    "fire": "Flammability Index ≤ 5 to AS 1530.2;\nSuitable for BAL-12.5 to BAL-40 roof applications under AS 3959",
+    "compliance": "AS/NZS 4200.1:2017, AS/NZS 4200.2, AS 1530.2, NCC Volume One and Two",
+    "sustainability": "Zero ODP, non-hazardous, manufactured with recyclable kraft\nand aluminium components",
+    "install": [
+      "Roll out perpendicular or parallel to\npurlins/rafters with green anti-glare facing outward/upward",
+      "Allow a\nnominal 40mm drape between roof battens to maintain reflective airspace and\nwater drainage",
+      "Overlap adjoining sheets by minimum 150mm in roofs (or 50mm if\ntaped)",
+      "Fasten securely to battens, purlins, or studs using approved\ngalvanized staples or fasteners",
+      "Seal overlaps with 48mm or 72mm Bradford\nreinforced aluminium foil tape for maximum vapour performance",
+      "Ensure foil\ndrains freely into gutters without ponding or reverse laps"
+    ],
+    "selection_checklist": [
+      "Confirm roof type is metal deck or corrugated sheeting\n(not recommended under concrete tiles without safety mesh)",
+      "Calculate roll\nrequirement based on 1350mm width (40.5m² or 81m² rolls) allowing 150mm\noverlaps",
+      "Confirm need for anti-glare coating to comply with safety on site",
+      "Check requirement for BAL rating up to BAL-40",
+      "Order matching Bradford 493\nreinforced foil tape for sealing"
+    ],
+    "accessories": [
+      "Bradford 493 Reinforced\nAluminium Foil Tape",
+      "Roof safety mesh (for commercial spans)",
+      "Foil\nfasteners"
+    ],
+    "limitations": [
+      "Light Duty rating: when used on roofs,\nunsupported span must not exceed manufacturer limits without safety mesh",
+      "Not\na substitute for primary roof cladding; must be covered promptly",
+      "Ensure an\nair space exists adjacent to reflective foil to generate rated thermal R-value"
+    ],
+    "warranty": "Backed by CSR Bradford product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Bradford Light Duty Metal Roof",
+      "Thermoseal Roof Metal\nWall",
+      "Thermoseal Light Duty",
+      "metal roof sarking foil",
+      "anti-glare roof\nfoil",
+      "Bradford 15056",
+      "Bradford 105871",
+      "reflective roof sarking metal",
+      "tin roof sarking foil"
+    ],
+    "problem_keywords": [
+      "summer heat radiating through\ntin roof",
+      "condensation dripping under metal roof",
+      "glare blinding installers\non metal roof",
+      "uninsulated metal shed heat",
+      "wind driven rain in roof space",
+      "drafts in metal clad walls"
+    ],
+    "placement": [
+      "roof",
+      "roofline",
+      "wall",
+      "external wall",
+      "shed"
+    ],
+    "priority_fit": [
+      "thermal",
+      "condensation",
+      "fire",
+      "budget"
+    ],
+    "use_cases": [
+      "Sarking beneath residential corrugated metal roofing\nto reflect radiant heat and direct roof leaks to gutters",
+      "Wrapping external\nwalls behind metal cladding or brick veneer in warmer climate zones",
+      "Insulation sarking in domestic garages, steel sheds, and workshops"
+    ],
+    "not_for": [
+      "Concrete tile roofs without mesh",
+      "Cold climate external walls\nrequiring high vapour permeability (Class 4)",
+      "Exposed decorative interior\nlining"
+    ],
+    "rag_summary": "Bradford Wall Wraps - Light Duty Metal Roof (Bradford\nThermoseal Roof Metal Wall, product codes 105871 / 15056) is a reinforced\nreflective foil laminate sarking engineered for metal-clad roofs and external\nwalls. Combining kraft paper, reinforcing fibreglass scrim, and pure aluminium\nfoil with a green anti-glare finish on the outer face, it reflects up to 95% of\nradiant heat when installed adjacent to an air cavity. Functioning as a\nClass 1/2 vapour barrier and water barrier with a Flammability Index ≤ 5\n(suitable up to BAL-40 under AS 3959), it protects buildings from storm rain,\ndust, and summer solar gain."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

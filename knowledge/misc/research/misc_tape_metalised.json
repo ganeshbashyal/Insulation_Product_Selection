@@ -1,0 +1,69 @@
+{
+  "family_id": "MISC_TAPE_METALISED",
+  "family_name": "Misc Tape Metalised",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "gemini_not_found",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "",
+    "features": "",
+    "applications": "",
+    "technical": "",
+    "range": "",
+    "fire": "",
+    "compliance": "",
+    "sustainability": "",
+    "install": "",
+    "selection_checklist": "",
+    "accessories": "",
+    "limitations": "",
+    "warranty": ""
+  },
+  "retrieval": {
+    "search_keywords": [
+      "metalised tape",
+      "metalised foil tape",
+      "foil tape",
+      "duct tape metalised",
+      "sarking tape",
+      "reflective insulation tape",
+      "polypropylene metalised tape",
+      "insulation joining tape"
+    ],
+    "problem_keywords": [
+      "unsealed insulation foil\njoins",
+      "air leakage through sarking seams",
+      "moisture ingress at membrane\noverlaps",
+      "loose foil insulation joins",
+      "drafts through roof sarking"
+    ],
+    "placement": [
+      "roof",
+      "roofline",
+      "wall",
+      "external wall",
+      "internal wall",
+      "duct",
+      "shed"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "condensation",
+      "thermal"
+    ],
+    "use_cases": [
+      "Sealing overlapping laps of reflective foil building wraps and\nroof sarking",
+      "Taping seams and joints on foil-faced glasswool blankets and\nHVAC duct wraps",
+      "Repairing tears and punctures in aluminium foil building\nmembranes"
+    ],
+    "not_for": [
+      "Structural mechanical load bearing",
+      "High-temperature flue pipes exceeding 120°C",
+      "Direct permanent water\nimmersion"
+    ],
+    "rag_summary": "Misc Tape Metalised represents metalised\npolypropylene or aluminium foil pressure-sensitive tapes widely used in\nAustralian construction for joining and sealing reflective insulation, roof\nsarking, and ductwork. Coated with aggressive acrylic or synthetic rubber\nadhesives, these tapes create continuous moisture-tight and airtight seals\nacross membrane laps and penetrations. By preventing convective thermal bypass\nand moisture ingress, they maintain system R-values and vapour barrier integrity\nacross roofs, walls, and HVAC systems."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

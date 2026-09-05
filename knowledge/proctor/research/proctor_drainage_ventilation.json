@@ -1,0 +1,184 @@
+{
+  "family_id": "PROCTOR_DRAINAGE_VENTILATION",
+  "family_name": "Proctor Drainage / Ventilation",
+  "datasheet_pdf_url": "https://proctorgroup.com.au/roof-ventilation/",
+  "sds_url": "",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Proctor Drainage / Ventilation represents an engineered suite of passive roof\nand wall cavity ventilation and drainage components, including ProctorPassive\nDrainage Battens (DB-FR), ProctorVent Vented Battens (VB10 & VB20), Over-Fascia\nVents (FV10 & FV25), and Ridge Vents (RV10). Manufactured from\nhigh-compressive-strength, flame-retardant polyolefin and polypropylene\nextrusions with a Spread of Flame index of 0, these components create\ncontinuous 10mm to 20mm drained cavities behind claddings and beneath metal\nroofing. They discharge trapped moisture and condensation while promoting\nnatural buoyancy airflow to prevent timber rot, corrosion, and mould.",
+    "features": [
+      "High-compressive-strength polyolefin drainage battens (>500 kPa\nto ASTM D695)",
+      "Flame retardant formulation with Spread of Flame index of 0 to\nAS 1530.3",
+      "Creates continuous, calculated 10mm or 20mm ventilation and\ndrainage pathways",
+      "Specifically designed to prevent ponding on sarking behind\nroof battens and at eaves",
+      "Reduces conductive heat transfer between metal\ncladding and building frames",
+      "4mm evenly spaced apertures prohibit large\ninsects while preventing capillary water draw",
+      "Self-adhesive backing on vented\nbattens allows fast, temporary hold prior to mechanical fixing",
+      "Fully\ncompliant with NCC 2022 condensation management provisions (F8D5 & 10.8.3)",
+      "Intumescent option (DB-FR-INT) swells upon fire exposure to slow flame spread",
+      "Comprehensive range includes fascia vents, ridge vents, vented battens, and\neaves baffles"
+    ],
+    "applications": [
+      "roof",
+      "roofline",
+      "wall",
+      "external wall"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "Flame retardant polyolefin\nextrusion / polypropylene",
+        "standard": ""
+      },
+      {
+        "property": "Batten Dimensions\n(DB-FR)",
+        "value": "10.5 mm thickness x 40 mm width x 2500 mm length (folds\nto 21mm)",
+        "standard": ""
+      },
+      {
+        "property": "Vented Batten Thicknesses (VB10 /\nVB20)",
+        "value": "VB10: 10 mm; VB20: 20 mm",
+        "standard": ""
+      },
+      {
+        "property": "Compressive Strength",
+        "value": "> 500 kPa",
+        "standard": "ASTM D695"
+      },
+      {
+        "property": "Airflow Capacity (VB20)",
+        "value": "16,000 mm² per linear metre",
+        "standard": ""
+      },
+      {
+        "property": "Airflow Capacity (FV10 / FV25)",
+        "value": "FV10: 10,000 mm²/m; FV25: 25,000 mm²/m",
+        "standard": ""
+      },
+      {
+        "property": "Spread of Flame Index",
+        "value": "0 (Range 0-10)",
+        "standard": "AS 1530.3"
+      },
+      {
+        "property": "Maximum Service Temperature",
+        "value": "90°C (melting\npoint 160°C)",
+        "standard": "ASTM D3418"
+      },
+      {
+        "property": "Aperture Size",
+        "value": "4 mm openings (prevents capillary action and insect entry)",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "ProctorPassive Drainage Batten\nDB-FR",
+        "size_or_rating": "10.5 mm x 40 mm x 2500 mm (folded to 1.25m, 40 per\npack, 100lm)",
+        "pack": "Pack of 40 (100 lm)"
+      },
+      {
+        "variant": "ProctorVent Vented\nBatten VB10",
+        "size_or_rating": "10 mm thickness x 1000 mm length",
+        "pack": "Pack"
+      },
+      {
+        "variant": "ProctorVent Vented Batten VB20",
+        "size_or_rating": "20\nmm thickness x 1000 mm length (16,000 mm²/m airflow)",
+        "pack": "Pack"
+      },
+      {
+        "variant": "ProctorVent Over Fascia Vent FV10",
+        "size_or_rating": "10,000 mm²/m\nairflow capacity",
+        "pack": "Unit"
+      },
+      {
+        "variant": "ProctorVent Over Fascia Vent\nFV25",
+        "size_or_rating": "25,000 mm²/m airflow capacity",
+        "pack": "Unit"
+      },
+      {
+        "variant": "ProctorVent Ridge Vent RV10",
+        "size_or_rating": "10,000 mm²/m\nairflow capacity",
+        "pack": "Unit"
+      }
+    ],
+    "fire": "Spread of Flame Index: 0 to\nAS 1530.3; Tested as per Specification C1.10 (7) of the NCC; Intumescent option\navailable",
+    "compliance": "NCC 2022 Volume 1 (F8D5) and Volume 2 (10.8.3)\ncondensation management requirements for ventilated roof spaces and drained wall\ncavities; AS 1530.3",
+    "sustainability": "100% recyclable polyolefin /\npolypropylene; zero ODP; non-toxic",
+    "install": [
+      "For roofs, install sarking\nover purlins with minimum drape to prevent ponding",
+      "Lay ProctorPassive DB-FR\nrunning the full length of each roof batten or beneath concealed-fix clips",
+      "Fix roof sheeting through battens into structural framing, ensuring torque does\nnot crush the batten profile",
+      "For walls, fix DB-FR or VB10/VB20 vertically or\nhorizontally aligned with studs, noggings, and window perimeters",
+      "Use the\nintegrated adhesive backing on vented battens to hold them in place prior to\nmechanical fastening",
+      "Fix external wall cladding through the drainage battens\ndirectly into framing studs as normal",
+      "Combine with Over-Fascia Vents\n(FV10/FV25) and Ridge Vents (RV10) to complete the continuous passive airflow\nloop"
+    ],
+    "selection_checklist": [
+      "Confirm application (metal roof drainage vs\ndrained cavity wall behind cladding)",
+      "Select cavity depth (10mm for VB10/DB-FR\nor 20mm for VB20 to meet NCC 2022 deemed-to-satisfy requirements)",
+      "Choose roof\nfascia vent model based on roof pitch (FV10 for pitch >22°; FV25 for pitch <22°\nand cathedral roofs)",
+      "Calculate total linear meterage of battens and vents\nrequired"
+    ],
+    "accessories": [
+      "ProctorWrap vapour permeable membranes",
+      "ProctorWrap HighTack PLUS Tape",
+      "Extended length cladding fasteners"
+    ],
+    "limitations": [
+      "Non-structural cavity spacer; claddings and roof sheets must\nfix through the batten into structural framing",
+      "Do not over-torque fasteners\nto avoid crushing the ventilation openings",
+      "Maximum service temperature\nis 90°C"
+    ],
+    "warranty": "Backed by Proctor Group Australia product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Proctor Drainage Ventilation",
+      "ProctorPassive DB-FR",
+      "ProctorVent VB10",
+      "ProctorVent VB20",
+      "vented batten\nVB20",
+      "over fascia vent FV25",
+      "ridge vent RV10",
+      "cladding drainage batten",
+      "roof ventilation batten",
+      "NCC 2022 cavity drainage"
+    ],
+    "problem_keywords": [
+      "trapped condensation behind wall cladding",
+      "moisture buildup under metal roof\nsheets",
+      "ponding on roof sarking behind battens",
+      "thermal bridging across\ncladding battens",
+      "meeting NCC 2022 20mm roof space rule",
+      "mold and rot in\ncathedral roof cavity"
+    ],
+    "placement": [
+      "roof",
+      "roofline",
+      "wall",
+      "external\nwall"
+    ],
+    "priority_fit": [
+      "condensation",
+      "easy_install",
+      "thermal",
+      "fire"
+    ],
+    "use_cases": [
+      "Creating compliant 10mm or 20mm drained and vented cavities\nbehind external wall claddings per NCC 2022 F8D5 and 10.8.3",
+      "Ventilating the\nspace between roof sarking and metal roof cladding using DB-FR or VB20 battens\nto stop condensation",
+      "Passive eaves-to-ridge natural convection roof\nventilation systems in low-pitch and cathedral roofs"
+    ],
+    "not_for": [
+      "Primary\nstructural framing battens without fixing through to framing",
+      "Underfloor\ncrawlspace ground cover",
+      "Subterranean wet tanking"
+    ],
+    "rag_summary": "Proctor\nDrainage / Ventilation represents an engineered system of passive roof and wall\ncavity ventilation and drainage components, including ProctorPassive Drainage\nBattens (DB-FR), Vented Battens (VB10 & VB20), Over-Fascia Vents, and Ridge\nVents. Manufactured from flame-retardant polyolefin extrusions with a Spread of\nFlame index of 0 (AS 1530.3) and high compressive strength (>500 kPa), they\nestablish continuous 10mm to 20mm drained pathways that satisfy NCC 2022\ncondensation management mandates. They prevent ponding on sarking and promote\nnatural convective airflow to protect roof and wall envelopes from moisture,\nrot, and corrosion."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

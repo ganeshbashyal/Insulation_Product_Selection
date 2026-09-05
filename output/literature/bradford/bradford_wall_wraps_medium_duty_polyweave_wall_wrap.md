@@ -1,7 +1,7 @@
 ---
 title: "Bradford Wall Wraps - Medium Duty Polyweave Wall Wrap - Reflective Insulation | Bradford"
-description: "Part of the CSR family with 100+ years of Australian building solutions. Reflects up to 97% of radiant heat, reducing summer cooling costs."
-keywords: "Bradford Wall Wraps - Medium Duty Polyweave Wall Wrap, Bradford reflective, wall insulation, insulation Australia, Bradford Australia"
+description: "Bradford Thermoseal Medium Duty Polyweave Wall Wrap is a heavy-duty, tear-resistant reflective foil laminate designed for use in exterior walls with f"
+keywords: "Bradford Wall Wraps - Medium Duty Polyweave Wall Wrap, Bradford reflective, wall insulation, shed insulation, insulation Australia, Bradford Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: BRADFORD_WALL_WRAPS_MEDIUM_DUTY_POLYWEAVE_WALL_WR
 ---
@@ -10,28 +10,32 @@ family_id: BRADFORD_WALL_WRAPS_MEDIUM_DUTY_POLYWEAVE_WALL_WR
 
 **Bradford Reflective** — reflective foil insulation for radiant heat control.
 
-Part of the CSR family with 100+ years of Australian building solutions. Reflects up to 97% of radiant heat, reducing summer cooling costs.
+Bradford Thermoseal Medium Duty Polyweave Wall Wrap is a heavy-duty, tear-resistant reflective foil laminate designed for use in exterior walls with framing cavities. Built with high-strength woven polymer (polyweave) fabric bonded to pure aluminium foil with flame-retardant adhesive, it provides high puncture resistance against construction traffic and high winds. When installed adjacent to an internal or external air cavity, its reflective aluminium facing generates thermal air-gap R-values while forming a Class 1/2 vapour barrier and liquid water barrier.
 
 ## Key features
 
-- High-purity aluminium reflective facing.
-- reflects up to 97% of radiant heat.
-- lightweight and easy to install.
-- provides vapour barrier when properly sealed.
-- 50 Year Warranty backed by CSR.
-- ACCC certified.
+- High-strength woven polyweave core delivers exceptional tear and puncture resistance.
+- Tough Medium Duty rating withstands windy construction conditions on site.
+- Reflective aluminium foil face provides radiant heat reflection and air-gap R-values.
+- Available in inward-facing reflective (for unfilled frame cavities) and outward XP (for facade cavities).
+- Effective vapour barrier (Class 1 / 2) to control air and water vapour transmission.
+- Water barrier protects timber and steel frames from wind-driven rain.
+- Blocks drafts to enhance bulk wall batt insulation performance.
+- Low flammability index compliant with AS 1530.2.
 
 ## Applications and selection
 
-- Wall Wrap / Sarking
+- wall
+- external wall
+- shed
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm wall type is brick veneer or cavity construction where air space exists.
+2. Choose between Inward Reflective (when stud cavity is empty) or Outward XP (when stud is filled with batts).
+3. Select roll length (30m for 40.5m² or 60m for 81m²).
+4. Verify Medium Duty rating is specified for high wind or exposed sites.
+5. Order matching Bradford 493 foil tape.
 
 
 ## Current catalogue range
@@ -43,35 +47,52 @@ Part of the CSR family with 100+ years of Australian building solutions. Reflect
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Reflective | Manufacturer catalogue |
-| Material | Reflective Membrane | Manufacturer catalogue |
-| Applications | Wall Wrap / Sarking | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material | High-density woven polymer fabric (polyweave) laminated to aluminium foil | - |
+| Duty Classification | Medium Duty | AS/NZS 4200.1 |
+| Vapour Barrier Classification | Class 1 or 2 Vapour Barrier (Low Vapour Permeance) | AS/NZS 4200.1 |
+| Water Control Classification | Water Barrier | AS/NZS 4201.4 |
+| Emittance (Reflective Face) | 0.05 (95% heat reflection) | AS/NZS 4201.5 |
+| Roll Dimensions (30m) | 1350 mm width x 30 m length (40.5 m² per roll) | - |
+| Roll Dimensions (60m) | 1350 mm width x 60 m length (81 m² per roll) | - |
+| Flammability Index | ≤ 5 (Low Flammability) | AS 1530.2 |
+| Product Codes | 40483 (30m Inward), 15128 (60m Inward), 125825 (30m XP), 124652 (60m XP) | - |
 
-
+Extracted from manufacturer datasheet: https://www.bradfordinsulation.com.au/home-insulation/walls/thermoseal-wall-wrap
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Flammability Index ≤ 5 to AS 1530.2; Suitable for BAL-12.5 to BAL-40 wall systems under AS 3959
+
+AS/NZS 4200.1:2017, AS/NZS 4200.2, AS 1530.2, NCC Volume One and Volume Two
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.csrbradford.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://www.firecrunch.com.au/wp-content/uploads/2016/02/BRADFORD-MSDS-e3a0-435b-b6ef-6f1027726ce6.pdf.
 
+## Recommended accessories
+
+- Bradford 493 Reinforced Aluminium Foil Tape.
+- Bradfix fasteners.
+- Foil staples.
+
 
 ## Limitations and warnings
 
-- Reflective performance requires maintained airspace..
-- conductive material - keep away from electrical services..
-- not suitable as sole insulation in cold climates..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Requires an air gap (void) adjacent to the reflective face to deliver thermal R-value.
+- Non-breathable vapour barrier; not recommended in cold climate zones (zones 6, 7, 8) where Class 4 breathable wraps are mandated.
+- Must be covered by external cladding within manufacturer UV exposure limits.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Reflective performance requires maintained airspace.
+1. Fix Thermoseal Polyweave Wall Wrap to exterior of studs starting from bottom plate.
+2. Run sheets horizontally with upper sheets overlapping lower sheets by minimum 150mm.
+3. Ensure orientation matches product design (foil facing cavity where reflective R-value is desired).
+4. Secure to timber framing using galvanized staples or clouts; use self-drilling screws with washers for steel.
+5. Fix at maximum 300mm centres to studs and plates to prevent wind flap.
+6. Seal joints with Bradford 493 reinforced aluminium foil tape for maximum vapour and air tightness.
 
 ## Safety and handling
 
@@ -79,11 +100,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Zero ODP, non-hazardous, manufactured with recyclable polymer and aluminium materials
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Backed by CSR Bradford product warranty
 
 ## Specification starting point
 

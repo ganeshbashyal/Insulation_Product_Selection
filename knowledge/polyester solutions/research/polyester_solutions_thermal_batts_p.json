@@ -1,0 +1,181 @@
+{
+  "family_id": "POLYESTER_SOLUTIONS_THERMAL_BATTS_P",
+  "family_name": "Polyester Solutions Thermal batts - P",
+  "datasheet_pdf_url": "https://www.polyestersolutions.com.au/thermal-insulation",
+  "sds_url": "https://www.polyestersolutions.com.au/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Polyester Solutions\nThermal Batts - P (PolyBatts Premium) are Australian-made thermal insulation\nbatts manufactured from 100% polyester fibers containing over 80% recycled PET\nplastic bottles. Specifically formulated for domestic and commercial ceilings,\nexternal walls, and mid-floors, they provide thermal resistance while acting as\nan effective acoustic barrier to reduce airborne noise transfer. Engineered\nwithout chemical binders or formaldehyde, they are non-toxic, non-irritant, and\ncompletely safe to handle without protective equipment.",
+    "features": [
+      "Thermally bonded 100% polyester insulation containing min. 80% recycled PET",
+      "Non-irritant and user-friendly; requires no gloves, dust masks, or specialized\ngear",
+      "Odorless, non-toxic, and non-allergenic, ideal for asthma and allergy\nsufferers",
+      "Outstanding thermal insulation reducing heating and cooling energy\nuse",
+      "Added acoustic benefits dampening room-to-room and external noise",
+      "Will\nnot absorb moisture, rot, or deteriorate over the building life cycle",
+      "Insect\nand vermin resistant",
+      "Manufactured to comply with Australian Standard\nAS/NZS 4859.1",
+      "Tested to AS 1530.3 with zero spread of flame and zero heat\nevolved",
+      "100% recyclable at end of life"
+    ],
+    "applications": [
+      "ceiling",
+      "wall",
+      "external wall",
+      "internal wall",
+      "between floors"
+    ],
+    "technical": [
+      {
+        "property": "Material Composition",
+        "value": "100% polyester fibers thermally\nbonded (min. 80% recycled content)",
+        "standard": ""
+      },
+      {
+        "property": "Thermal\nR-Values",
+        "value": "R1.5, R2.0, R2.5, R3.0, R3.5, R4.0",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Thicknesses",
+        "value": "90 mm (R1.5/R2.0/R2.5\nWall), 140-165 mm (R2.5 Ceiling), 180 mm (R3.0), 200 mm (R3.5), 220 mm (R4.0)",
+        "standard": ""
+      },
+      {
+        "property": "Standard Dimensions",
+        "value": "1170 mm length\nx 430 mm or 580 mm width",
+        "standard": ""
+      },
+      {
+        "property": "Early Fire Hazard\nIndices",
+        "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke\nDeveloped: 0-1",
+        "standard": "AS 1530.3"
+      },
+      {
+        "property": "Moisture Absorption",
+        "value": "< 0.2% by volume after 4 days at 50°C, 95% RH",
+        "standard": ""
+      },
+      {
+        "property": "Maximum Service Temperature",
+        "value": "150°C",
+        "standard": ""
+      },
+      {
+        "property": "Chemical Content",
+        "value": "Zero added formaldehyde, zero chemical\nbinders",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Thermal Batts P Wall\nR1.5",
+        "size_or_rating": "90 mm x 1170 mm x 430/580 mm",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "Thermal Batts P Wall R2.0",
+        "size_or_rating": "90 mm x 1170 mm\nx 430/580 mm",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "Thermal Batts P Wall\nR2.5",
+        "size_or_rating": "90 mm x 1170 mm x 430/580 mm",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "Thermal Batts P Ceiling R2.5",
+        "size_or_rating": "165 mm x 1170\nmm x 430/580 mm",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "Thermal Batts P\nCeiling R3.5",
+        "size_or_rating": "200 mm x 1170 mm x 430/580 mm",
+        "pack": "Pack\nof batts"
+      },
+      {
+        "variant": "Thermal Batts P Ceiling R4.0",
+        "size_or_rating": "220\nmm x 1170 mm x 430/580 mm",
+        "pack": "Pack of batts"
+      }
+    ],
+    "fire": "AS 1530.3\nEarly Fire Hazard Properties: Ignitability 0, Spread of Flame 0, Heat Evolved 0,\nSmoke Developed 0-1; Fire safe polyester",
+    "compliance": "AS/NZS 4859.1,\nAS 3999, NCC Volume One and Two",
+    "sustainability": "Minimum 80% recycled PET;\nzero formaldehyde; zero chemical binders; zero ODP; 100% recyclable",
+    "install": [
+      "Turn off electrical power at the main switchboard before entering ceiling or\nworking in wall cavities",
+      "Select batt width (430mm or 580mm) to match stud or\njoist spacing (450mm or 600mm)",
+      "In ceilings, lay batts flat between ceiling\njoists ensuring complete coverage over plasterboard without gaps",
+      "In walls,\nfriction-fit batts firmly between studs ensuring batts butt tightly against top\nand bottom plates",
+      "Maintain minimum 50mm clearance around non-IC rated\nrecessed downlights and heat sources per AS 3999",
+      "Maintain a 20mm clearance\nbetween roof sarking and ceiling batts at roof eaves",
+      "Tear batts across the\nwidth by hand or trim with heavy-duty shears if custom sizing is needed"
+    ],
+    "selection_checklist": [
+      "Confirm application (ceiling space vs external or\ninternal wall)",
+      "Select target R-value (R2.0/R2.5 in walls; R3.5 to R4.0 in\nceilings) to meet NCC climate zone requirements",
+      "Measure framing spacing\n(430mm for 450mm centers; 580mm for 600mm centers)",
+      "Check wall stud depth\n(75mm for 70mm studs; 90mm for 90mm studs)",
+      "Verify preference for itch-free,\nzero-formaldehyde polyester insulation"
+    ],
+    "accessories": [
+      "Insulation knife /\nshears",
+      "Insulation strapping",
+      "Perimeter eave baffles"
+    ],
+    "limitations": [
+      "Do not compress batts significantly into cavities narrower than nominal\nthickness",
+      "Not designed for exposed decorative finishes; must be enclosed\nbehind plasterboard or linings",
+      "Maintain mandatory clearances from non-IC\nrated electrical fixtures"
+    ],
+    "warranty": "Backed by Polyester Solutions\nmanufacturer warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Polyester Solutions\nThermal batts P",
+      "PolyBatts Premium",
+      "Polyester Solutions P batts",
+      "polyester\nthermal batts",
+      "R2.5 polyester wall batts",
+      "R3.5 polyester ceiling batts",
+      "R4.0 polyester batts",
+      "safe ceiling batts",
+      "non toxic home insulation"
+    ],
+    "problem_keywords": [
+      "fiberglass itch during installation",
+      "heat escaping\nthrough ceiling",
+      "hot rooms in summer",
+      "cold drafty walls in winter",
+      "chemical smell from new insulation",
+      "asthma flare-ups from insulation dust"
+    ],
+    "placement": [
+      "ceiling",
+      "wall",
+      "internal wall",
+      "external wall",
+      "between\nfloors"
+    ],
+    "priority_fit": [
+      "thermal",
+      "sustainability",
+      "easy_install",
+      "acoustic"
+    ],
+    "use_cases": [
+      "Pitched roof ceiling insulation to satisfy 7-star\nresidential energy standards with asthma-friendly materials",
+      "External cavity\nwall thermal barrier behind brick veneer or lightweight weatherboards",
+      "Acoustic and thermal mid-floor insulation between ground and upper levels in\nmulti-storey homes"
+    ],
+    "not_for": [
+      "Underfloor joist insulation exposed to high\nwind without strapping",
+      "Direct weather exposure without building wrap",
+      "Temperatures exceeding 150°C"
+    ],
+    "rag_summary": "Polyester Solutions Thermal\nBatts - P are premium Australian-made polyester insulation batts manufactured\nfrom 100% thermally bonded polyester fibers with at least 80% recycled PET\ncontent. Engineered without chemical binders, resins, or formaldehyde, they\nprovide a clean, non-toxic, and non-allergenic barrier to heat flow in ceilings\n(R2.5 to R4.0) and walls (R1.5 to R2.5). Compliant with AS/NZS 4859.1 and\npossessing zero spread of flame under AS 1530.3, they deliver lasting thermal\ncomfort and acoustic damping without slumping or degrading."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

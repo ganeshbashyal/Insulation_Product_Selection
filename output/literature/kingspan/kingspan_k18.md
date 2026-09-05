@@ -1,7 +1,7 @@
 ---
 title: "Kingspan K18 - Board Insulation | Kingspan"
-description: "Global leader in high-performance insulation solutions. Ultra-thin, ultra-efficient. Maximum thermal performance when space is at a premium."
-keywords: "Kingspan K18, Kingspan board, wall insulation, insulation Australia, Kingspan Australia"
+description: "Kingspan Kooltherm K18 Insulated Plasterboard is a premium performance insulated dry-lining board engineered for mechanically fixed internal wall insu"
+keywords: "Kingspan K18, Kingspan board, wall insulation, ceiling insulation, insulation Australia, Kingspan Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: KINGSPAN_K18
 ---
@@ -10,28 +10,32 @@ family_id: KINGSPAN_K18
 
 **Kingspan Board** — rigid insulation boards for continuous thermal performance.
 
-Global leader in high-performance insulation solutions. Ultra-thin, ultra-efficient. Maximum thermal performance when space is at a premium.
+Kingspan Kooltherm K18 Insulated Plasterboard is a premium performance insulated dry-lining board engineered for mechanically fixed internal wall insulation. Combining rigid thermoset phenolic insulation with a low-emissivity composite foil backing and a 12.5mm tapered-edge gypsum plasterboard face, it delivers thermal conductivities as low as 0.021 W/m·K. It is designed specifically for mechanically fixing to timber framing, metal furring channels, and timber battens over solid masonry, brickwork, or concrete walls.
 
 ## Key features
 
-- Ultra-low thermal conductivity phenolic foam.
-- highest thermal performance in thin profiles.
-- fire-resistant with low smoke emission.
-- dimensionally stable over wide temperature range.
-- Global leader in high-performance insulation.
-- zero ODP manufacturing.
+- Engineered specifically for mechanically fixed dry-lining systems.
+- 3-in-1 integrated board: thermal insulation, vapor control, and plasterboard lining.
+- Exceptional thermal conductivity of 0.021 W/m·K (core ≥ 45mm).
+- Ultra-thin profile retains maximum internal living space in refurbishment and new builds.
+- Low-emissivity foil backing enhances thermal resistance across framing cavities.
+- 12.5mm plasterboard facing provides a rigid, robust interior wall surface.
+- Fiber-free closed-cell phenolic core resistant to moisture passage.
+- Straightforward mechanical screw-fixing to timber battens, steel studs, or metal furring systems.
+- Manufactured with zero ODP and low GWP blowing agents.
 
 ## Applications and selection
 
-- Internal Wall
+- wall
+- internal wall
+- ceiling
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm mechanical batten or furring channel fixing method is preferred over adhesive dab bonding.
+2. Select overall thickness based on target thermal performance.
+3. Check batten/stud centers (400mm vs 600mm).
+4. Ensure drywall screw lengths accommodate board thickness plus required batten penetration.
 
 
 ## Current catalogue range
@@ -52,36 +56,52 @@ Global leader in high-performance insulation solutions. Ultra-thin, ultra-effici
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Board | Manufacturer catalogue |
-| Material | Phenolic | Manufacturer catalogue |
-| Applications | Internal Wall | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Thermal Conductivity (Insulant Core) | 0.021 W/m·K (thicknesses ≥ 45mm), 0.023 W/m·K (thicknesses 25-44mm) | EN 13166 |
+| Thermal Conductivity (Plasterboard) | 0.19 W/m·K | EN 520 |
+| Overall Product Thicknesses | 37.5 mm, 42.5 mm, 52.5 mm, 62.5 mm, 72.5 mm, 82.5 mm, 92.5 mm (includes 12.5mm plasterboard) | - |
+| Board Dimensions | 2400 mm x 1200 mm (2.88 m²) | - |
+| Plasterboard Facing | 12.5 mm tapered-edge gypsum plasterboard | EN 520 |
+| Compressive Strength (Core) | ≥ 100 kPa at 10% deformation | EN 826 |
+| Reaction to Fire | Euroclass B-s1, d0 | EN 13501-1 |
+| Water Vapor Resistance | > 100 MN·s/g | - |
 
-
+Extracted from manufacturer datasheet: https://www.insulation.kingspan.com/ie/en-ie/products/rigid-insulation/kooltherm/kooltherm-k18-insulated-plasterboard
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Reaction to Fire Euroclass B-s1, d0 to EN 13501-1; Low smoke generation
+
+EN 13166, EN 13950, BBA Certificate 14/5133
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.kingspan.com/au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://allcongroup.com.au/wp-content/uploads/2025/10/kingspan-greenguard-safety-data-sheet-en-au.pdf.
 
+## Recommended accessories
+
+- Treated timber battens or metal furring channels.
+- Drywall screws.
+- Plasterboard joint tape and compound.
+
 
 ## Limitations and warnings
 
-- Combustible material - do not expose to flame or high heat sources..
-- protect from UV exposure during installation..
-- check compatibility with solvents and chemicals before use..
-- not suitable for direct contact with bitumen without barrier..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Must be mechanically fixed; not designed for direct adhesive dot-and-dab fixing (use K17 for adhesive bonding).
+- Not suitable for damp or unventilated solid walls without moisture treatment.
+- Do not use directly adjacent to combustion flues or solid fuel stoves.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Combustible material - do not expose to flame or high heat sources.
+1. Install treated timber battens (minimum 25mm x 50mm) or metal furring channels vertically at 400mm or 600mm centers.
+2. Ensure background masonry is dry and treated with damp-proof measures where required.
+3. Cut Kooltherm K18 boards approximately 15mm short of floor-to-ceiling height.
+4. Fix boards mechanically using drywall screws driven through the plasterboard and insulation into battens/channels.
+5. Space drywall screws at maximum 300mm centers (200mm at corners), ensuring screw heads seat just below plaster surface.
+6. Ensure screws penetrate timber battens by at least 25mm or steel channels by at least 10mm.
+7. Tape and flush joints using standard jointing compound and paper tape.
 
 ## Safety and handling
 
@@ -89,11 +109,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Zero ODP and low GWP blowing agent; fiber-free core; low VOC emissions
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Standard Kingspan manufacturer product warranty
 
 ## Specification starting point
 

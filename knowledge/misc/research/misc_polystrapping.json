@@ -1,0 +1,65 @@
+{
+  "family_id": "MISC_POLYSTRAPPING",
+  "family_name": "Misc Polystrapping",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "gemini_not_found",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "",
+    "features": "",
+    "applications": "",
+    "technical": "",
+    "range": "",
+    "fire": "",
+    "compliance": "",
+    "sustainability": "",
+    "install": "",
+    "selection_checklist": "",
+    "accessories": "",
+    "limitations": "",
+    "warranty": ""
+  },
+  "retrieval": {
+    "search_keywords": [
+      "polystrapping\ninsulation",
+      "insulation strapping",
+      "underfloor strapping",
+      "poly strapping\nroll",
+      "plastic insulation strapping",
+      "polypropylene strapping 19mm",
+      "batt\nstrapping"
+    ],
+    "problem_keywords": [
+      "underfloor batts falling down",
+      "sagging\nceiling batts during construction",
+      "holding insulation in joists",
+      "insulation\nbatts dropping out of subfloor",
+      "supporting overhead batts"
+    ],
+    "placement": [
+      "underfloor",
+      "floor",
+      "subfloor",
+      "ceiling"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "budget",
+      "thermal"
+    ],
+    "use_cases": [
+      "Stapled across the\nunderside of floor joists to support underfloor insulation batts and prevent\ngravity sagging",
+      "Temporary support for ceiling batts prior to plasterboard\ninstallation in cathedral ceilings",
+      "Holding bulk insulation batts in place\nbetween vertical open stud framing"
+    ],
+    "not_for": [
+      "Structural pallet strapping\nor load restraint beyond rated tension",
+      "External weather-exposed UV\napplications exceeding 3 months",
+      "Thermal barrier substitute"
+    ],
+    "rag_summary": "Misc Polystrapping is high-tensile polypropylene strapping (commonly 15mm\nto 19mm wide in 500m to 1000m rolls) widely utilized in the Australian building\nindustry to support underfloor and ceiling insulation batts. Stapled across\ntimber joists or steel purlins at 300mm to 450mm intervals, it cradles\nglasswool, polyester, and rockwool batts permanently in position, preventing\ngravity sag, wind dislodgement, and loss of thermal contact with the floor."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

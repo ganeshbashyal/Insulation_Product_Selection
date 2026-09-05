@@ -1,0 +1,171 @@
+{
+  "family_id": "POLYESTER_SOLUTIONS_WALL_BLOCK_BAFFLE_BLOCK_BATTS",
+  "family_name": "Polyester Solutions Wall Block - Baffle block Batts",
+  "datasheet_pdf_url": "https://www.polyestersolutions.com.au/wallblock-batts",
+  "sds_url": "https://www.polyestersolutions.com.au/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Polyester Solutions\nWallBlock Batts (and Ceiling Baffle Block Batts) are high-density acoustic\ninsulation slabs manufactured from thermally bonded polyester fiber containing a\nhigh percentage of recycled PET. Specifically engineered to control noise and\nsound vibrations in timber and steel stud wall frames, multi-residential\ndevelopments, and ceiling plenum spaces, they provide acoustic absorption (NRC\nup to 1.00) and thermal protection. Sized to friction-fit into wall cavities and\nstack above partition walls, they eliminate sound flanking paths without sagging\nor settling.",
+    "features": [
+      "High-density acoustic batt engineered for walls\nand ceiling plenum baffle blocks",
+      "Delivers superior sound absorption (NRC 0.85\nat 75mm, NRC 0.95-1.00 at 90mm)",
+      "Thermally bonded polyester containing high\npercentage of recycled PET beverage containers",
+      "Non-irritant, non-toxic,\nodorless, and non-allergenic; safe to install without PPE",
+      "Pre-cut to fit\ncomfortably into wall stud frames and joists without staples",
+      "Sits firmly in\ncavity without sagging, settling, or becoming brittle over time",
+      "Resists\nmoisture, mold, rot, insects, and vermin",
+      "Zero formaldehyde, zero chemical\nbinders, zero ODP",
+      "Tested to AS 1530.3 fire standards with zero spread of\nflame",
+      "Complies with Australian Standard AS/NZS 4859.1"
+    ],
+    "applications": [
+      "wall",
+      "internal wall",
+      "external wall",
+      "ceiling",
+      "between floors"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "100% thermally bonded\npolyester fiber (recycled PET content)",
+        "standard": ""
+      },
+      {
+        "property": "Acoustic Performance",
+        "value": "NRC 0.85 (75mm), NRC 0.95 (90mm R2.0),\nNRC 1.00 (90mm R2.5)",
+        "standard": "ISO 354"
+      },
+      {
+        "property": "R-Values &\nThicknesses",
+        "value": "R1.5 HD (75mm), R2.0 HD (90mm), R2.5 HD (90mm)",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Density",
+        "value": "High-density\nformulation (approx. 20 - 32 kg/m³)",
+        "standard": ""
+      },
+      {
+        "property": "Dimensions",
+        "value": "1170 mm length x 430 mm or 580 mm width",
+        "standard": ""
+      },
+      {
+        "property": "Coverage per Pack",
+        "value": "430mm: 4.0 m² / pack; 580mm: 5.4\nm² / pack",
+        "standard": ""
+      },
+      {
+        "property": "Early Fire Hazard Indices",
+        "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke\nDeveloped: 0-1",
+        "standard": "AS 1530.3"
+      },
+      {
+        "property": "Moisture Absorption",
+        "value": "< 0.2% by volume after 4 days at 50°C, 95% RH",
+        "standard": ""
+      },
+      {
+        "property": "Maximum Service Temperature",
+        "value": "150°C",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "WallBlock Batts R1.5 HD (75mm)",
+        "size_or_rating": "75\nmm x 1170 mm x 430/580 mm (NRC 0.85)",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "WallBlock Batts R2.0 HD (90mm)",
+        "size_or_rating": "90 mm x 1170 mm x 430/580\nmm (NRC 0.95)",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "WallBlock Batts R2.5 HD\n(90mm)",
+        "size_or_rating": "90 mm x 1170 mm x 430/580 mm (NRC 1.00)",
+        "pack": "Pack of batts"
+      }
+    ],
+    "fire": "AS 1530.3 Early Fire Hazard Properties:\nIgnitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-1",
+    "compliance": "AS/NZS 4859.1, AS 3999, NCC Volume One and Two acoustic and\nthermal provisions",
+    "sustainability": "High recycled PET content; zero\nformaldehyde; zero chemical binders; 100% recyclable; low VOC",
+    "install": [
+      "Isolate power at main breaker before working in wall cavities or near\nelectrical wires",
+      "Select batt width (430mm or 580mm) matching stud spacing\n(450mm or 600mm)",
+      "Friction-fit WallBlock batts between timber or steel wall\nstuds without gaps or folds",
+      "For ceiling baffle blocks, stack batts above\npartition walls from top plate to underside of roof/slab",
+      "Compress batts\naround ducting, electrical conduits, and pipes to close acoustic flanking\nvoids",
+      "Cut neatly around junction boxes and plumbing with heavy-duty shears or\nserrated knife",
+      "Enclose behind acoustic plasterboard or wall linings promptly"
+    ],
+    "selection_checklist": [
+      "Confirm stud cavity depth (75mm for R1.5 HD; 90mm\nfor R2.0/R2.5 HD)",
+      "Confirm stud centers (430mm for 450mm centers; 580mm\nfor 600mm centers)",
+      "Select acoustic rating required (NRC 0.85 to 1.00)",
+      "Calculate required pack count based on square meterage"
+    ],
+    "accessories": [
+      "Acoustic plasterboard",
+      "Acoustic sealant",
+      "Heavy-duty shears"
+    ],
+    "limitations": [
+      "Internal wall and ceiling plenum use; not for direct external\nweather exposure",
+      "Do not compress 90mm batts into 70mm cavities",
+      "Maintain\nrequired clearances around non-IC rated light fittings"
+    ],
+    "warranty": "Backed\nby Polyester Solutions manufacturer product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Polyester Solutions WallBlock",
+      "WallBlock batts",
+      "Baffle\nblock batts",
+      "high density polyester acoustic batts",
+      "WallBlock R2.0",
+      "WallBlock R2.5",
+      "HD acoustic batts",
+      "polyester acoustic wall batts",
+      "ceiling\nbaffle batts",
+      "NRC 1.00 acoustic batts"
+    ],
+    "problem_keywords": [
+      "conversations\nheard through internal walls",
+      "TV noise bleeding between bedrooms",
+      "flanking\nsound through ceiling plenum",
+      "sound vibrations through wall frame",
+      "office\nprivacy acoustic failure",
+      "meeting NCC acoustic partition code"
+    ],
+    "placement": [
+      "wall",
+      "internal wall",
+      "external wall",
+      "ceiling",
+      "between floors"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "sustainability",
+      "thermal",
+      "easy_install"
+    ],
+    "use_cases": [
+      "High-density acoustic infill in internal timber or steel stud\nwalls separating bedrooms, home theatres, and bathrooms",
+      "Ceiling plenum baffle\nblocks stacked above partition walls to prevent room-to-room cross-talk",
+      "Acoustic and thermal insulation in multi-residential inter-tenancy walls and\nhotel partitions"
+    ],
+    "not_for": [
+      "Unclad external walls exposed to driving\nrain",
+      "Direct floor foot traffic",
+      "Operating temperatures exceeding 150°C"
+    ],
+    "rag_summary": "Polyester Solutions WallBlock Batts (and Baffle Block Batts) are\nhigh-density acoustic insulation slabs manufactured from 100% thermally bonded\npolyester fibers containing recycled PET plastic. Achieving superior sound\nabsorption ratings (NRC 0.85 at 75mm up to NRC 1.00 at 90mm R2.5), they\nfriction-fit into wall stud bays or stack in ceiling plenums to eliminate\nairborne noise transfer and acoustic flanking. Free from formaldehyde, chemical\nbinders, and glass fibers, they provide non-toxic, non-sagging acoustic control\ncompliant with AS/NZS 4859.1 and AS 1530.3."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

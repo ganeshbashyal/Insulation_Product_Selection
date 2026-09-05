@@ -1,7 +1,7 @@
 ---
 title: "Foilboard Spacer Blocks - Accessory Insulation | Foilboard"
-description: "Quality insulation engineered for Australian conditions."
-keywords: "Foilboard Spacer Blocks, Foilboard accessory, insulation Australia, Foilboard Australia"
+description: "Foilboard Spacer Blocks are pre-cut expanded polystyrene (EPS) blocks designed to maintain a consistent, non-collapsible reflective airspace between F"
+keywords: "Foilboard Spacer Blocks, Foilboard accessory, wall insulation, ceiling insulation, shed insulation, insulation Australia, Foilboard Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: FOILBOARD_SPACER_BLOCKS
 ---
@@ -10,26 +10,33 @@ family_id: FOILBOARD_SPACER_BLOCKS
 
 **Foilboard Accessory** — installation accessories and fixings.
 
-Quality insulation engineered for Australian conditions.
+Foilboard Spacer Blocks are pre-cut expanded polystyrene (EPS) blocks designed to maintain a consistent, non-collapsible reflective airspace between Foilboard insulation panels and external wall claddings or internal linings. By establishing a guaranteed 20mm or 25mm still air cavity adjacent to the reflective aluminum foil face, they ensure the assembly achieves its rated total thermal R-value. Adhered or mechanically fixed between framing members, they prevent panels from flexing, dislocating, or touching adjacent cladding under wind loads.
 
 ## Key features
 
-- Lightweight closed-cell expanded polystyrene foam.
-- excellent thermal performance with zero thermal drift.
-- moisture resistant closed-cell structure.
-- CFC/HCFC free manufacturing process.
+- Guarantees a permanent 20mm or 25mm reflective still air cavity.
+- Ensures Foilboard systems achieve rated total system R-values.
+- Constructed from lightweight, fire-retardant expanded polystyrene (EPS).
+- Prevents panel deflection and rattling against cladding under wind pressure.
+- Pre-cut blocks allow rapid, consistent on-site placement.
+- Compatible with all Foilboard panel thicknesses and framing systems.
+- Moisture-proof and rot-proof, will not degrade or sag over time.
+- Eliminates guesswork in establishing compliant airspace dimensions.
 
 ## Applications and selection
 
-- General Installation
+- wall
+- external wall
+- internal wall
+- ceiling
+- shed
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm required airspace depth (20mm or 25mm) from thermal R-value calculation.
+2. Calculate total quantity needed based on wall area (approx. 4-6 blocks per standard panel).
+3. Verify framing type (timber studs, steel girts, or masonry furring channels).
+4. Order compatible solvent-free adhesive or fasteners.
 
 
 ## Current catalogue range
@@ -40,36 +47,49 @@ Quality insulation engineered for Australian conditions.
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Accessory | Manufacturer catalogue |
-| Material | EPS | Manufacturer catalogue |
-| Applications | General Installation | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material | Fire-retardant expanded polystyrene (EPS) | - |
+| Block Thickness (Airspace Depth) | 20 mm, 25 mm | - |
+| Block Dimensions | Approx. 50 mm x 50 mm x 20/25 mm (or 100 mm x 50 mm) | - |
+| Density | Class SL / S EPS | AS 1366.3 |
+| Combustibility | Fire-retardant EPS formulation | AS 1530.3 |
 
-
+Extracted from manufacturer datasheet: https://www.foilboard.com.au/product-category/accessories/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Fire-retardant EPS; compliant as a system component with NCC fire hazard requirements
+
+AS/NZS 4859.1, AS 3999, NCC Volume One and Two
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.foilboard.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://insulationessentials.com.au/wp-content/uploads/2022/10/MSDS-Foilboard-Nov-2019.pdf.
 
+## Recommended accessories
+
+- Foilboard Green panels.
+- Foilboard 72mm reinforced foil tape.
+- Solvent-free construction adhesive.
+
 
 ## Limitations and warnings
 
-- Combustible material - do not expose to flame or high heat sources..
-- protect from UV exposure during installation..
-- check compatibility with solvents and chemicals before use..
-- not suitable for direct contact with bitumen without barrier..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Do not use solvent-based adhesives which dissolve expanded polystyrene.
+- Spacer blocks are non-structural and do not replace primary mechanical framing fasteners.
+- Do not expose to continuous service temperatures above 80°C.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Combustible material - do not expose to flame or high heat sources.
+1. Determine required airspace depth (20mm or 25mm) from system architectural specification.
+2. Position Foilboard Spacer Blocks onto wall studs, battens, or the back of Foilboard panels.
+3. Adhere blocks using approved construction adhesive or tack in place with fasteners.
+4. Place approximately one spacer block per square meter or at 600mm to 900mm intervals along framing.
+5. Install Foilboard panel firmly against spacer blocks.
+6. Fasten panel to structural framing ensuring spacer blocks maintain the designed airspace.
+7. Verify panels remain planar without bowing into the adjacent cladding cavity.
 
 ## Safety and handling
 
@@ -77,11 +97,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+100% recyclable EPS; zero CFC/HCFC; low VOC emissions
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Covered under Foilboard 25-year performance warranty system
 
 ## Specification starting point
 

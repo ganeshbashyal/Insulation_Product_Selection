@@ -1,0 +1,144 @@
+{
+  "family_id": "STINGER_CH",
+  "family_name": "Stinger Ch",
+  "datasheet_pdf_url": "https://www.stingerworld.com.au/product/stinger-ch38-2/",
+  "sds_url": "",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "The STINGER CH38-2 is an award-winning, non-pneumatic cap hammer\ntacker engineered to deliver the superior holding power of a plastic cap\ncombined with the speed and simplicity of a manual hammer tacker. Specifically\ndesigned for securing housewrap, synthetic roofing underlayment, and rolled\ninsulation, it automatically feeds and drives a full 25mm plastic cap with\na 10mm crown staple with every swing. By eliminating compressors and hoses, it\nprovides an economical, portable solution that seals fastener penetrations and\nprevents tearing in windy conditions.",
+    "features": [
+      "Non-pneumatic hammer\ntacker delivering both a plastic cap and staple in a single strike",
+      "High-capacity magazine holds 168 plastic collated caps and 168 staples",
+      "Drives full 25mm (1 inch) diameter plastic caps with 10mm (3/8 inch) crown\nstaples",
+      "Eliminates the cost, weight, and setup of air compressors, hoses, and\npower cords",
+      "Caps create a seal over staple penetrations to prevent water and\nmoisture ingress",
+      "Significantly reduces blow-offs, tearing, and lateral\nslippage of building wraps and felts",
+      "Lightweight 1.17 kg ergonomic design\nreduces arm fatigue during all-day use",
+      "Easy trigger-advance cap mechanism\nprepares each cap instantly for driving"
+    ],
+    "applications": [
+      "roof",
+      "roofline",
+      "wall",
+      "external wall"
+    ],
+    "technical": [
+      {
+        "property": "Tool\nWeight",
+        "value": "1.17 kg (2.6 lbs)",
+        "standard": ""
+      },
+      {
+        "property": "Fastener\nCapacity",
+        "value": "168 caps / 168 staples",
+        "standard": ""
+      },
+      {
+        "property": "Cap Specification",
+        "value": "25 mm (1 inch) full plastic collated caps",
+        "standard": ""
+      },
+      {
+        "property": "Staple Specification",
+        "value": "10 mm (3/8\ninch) crown staples / A-11 style",
+        "standard": ""
+      },
+      {
+        "property": "Compatible\nFasteners",
+        "value": "10 mm STINGER StaplePac only (Part # 136420)",
+        "standard": "ASTM F1667"
+      },
+      {
+        "property": "Operation Type",
+        "value": "Manual strike with\ntrigger cap feed (CH38-2) or automatic feed (CH38A)",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "STINGER CH38-2 Cap Hammer",
+        "size_or_rating": "Tool\nWeight 1.17 kg (SKU: 136400)",
+        "pack": "Tool"
+      },
+      {
+        "variant": "STINGER CH38A\nAutofeed Cap Hammer",
+        "size_or_rating": "Tool Weight 1.31 kg (SKU: 136401)",
+        "pack": "Tool"
+      }
+    ],
+    "fire": "",
+    "compliance": "Fasteners comply with ASTM F1667;\nrecommended best-practice installation by major wrap and underlayment\nmanufacturers",
+    "sustainability": "Eliminates fuel and electrical power\nconsumption of compressors; recyclable steel body and plastic caps",
+    "install": [
+      "Open the staple magazine at the base and insert a strip of STINGER 10mm\nstaples",
+      "Open the cap gate, place a reel of 168 collated plastic caps into the\nbasket, and feed the lead cap into the guide",
+      "Close and latch both magazines\nsecurely before operation",
+      "Hold the hammer handle firmly and pull the trigger\nto advance a cap into the strike zone",
+      "Strike the target building wrap or roof\nunderlayment firmly against the timber substrate with a standard hammer motion",
+      "Ensure the staple drives fully through the center of the plastic cap flush\nagainst the membrane",
+      "Repeat across the wall or roof at the spacing\nrecommended by the membrane manufacturer (typically 300mm to 600mm centers)"
+    ],
+    "selection_checklist": [
+      "Confirm application is fixing pliable building wrap or\nroof underlayment to timber framing or plywood decking",
+      "Verify need for\nairless manual installation without compressor hoses on roofs or scaffolding",
+      "Ensure genuine STINGER 10mm StaplePac refills (#136420) are ordered",
+      "Choose\nbetween CH38-2 (manual trigger advance) and CH38A (automatic swing advance)"
+    ],
+    "accessories": [
+      "STINGER StaplePac 10mm (SKU: 136420, 2016 count box covers\n~250 m²)",
+      "Replacement cap feeder assembly"
+    ],
+    "limitations": [
+      "Designed for\ntimber framing and wood substrates only; cannot penetrate steel framing or\nmasonry",
+      "Must be loaded exclusively with genuine STINGER 10mm StaplePac\nfasteners",
+      "Not recommended where local high-wind codes mandate ring-shank\nnails (use CN100B)"
+    ],
+    "warranty": "National Nail Repair Program warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Stinger CH",
+      "Stinger CH38",
+      "Stinger\nCH38-2",
+      "Stinger CH38A",
+      "Stinger Cap Hammer",
+      "cap hammer stapler",
+      "hammer\ntacker with caps",
+      "housewrap cap stapler",
+      "roof underlayment cap hammer",
+      "Stinger StaplePac 10mm"
+    ],
+    "problem_keywords": [
+      "staples pulling through\nbuilding wrap",
+      "wind tearing underlayment off roof",
+      "dragging air hoses across\npitched roof",
+      "water leaking through staple holes",
+      "slow hand nailing of cap\nfasteners",
+      "housewrap blow offs in wind"
+    ],
+    "placement": [
+      "roof",
+      "roofline",
+      "wall",
+      "external wall"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "condensation"
+    ],
+    "use_cases": [
+      "Fast manual installation of synthetic roof underlayment and\nroofing felt to timber roof trusses and plywood decking",
+      "Securing residential\nvapour-permeable wall wraps and reflective foil sarking to timber wall framing",
+      "Holding rolled blanket insulation in place before cladding without dragging air\nhoses on scaffolding"
+    ],
+    "not_for": [
+      "Steel-framed structures (cannot drive\nstaples into steel studs)",
+      "Concrete or masonry walls",
+      "Structural timber\njoints"
+    ],
+    "rag_summary": "The STINGER CH (CH38-2 / CH38A) is a manual,\nnon-pneumatic cap hammer tacker engineered by National Nail to install\nhousewrap, roofing underlayment, and rolled insulation. With every swing, it\nautomatically positions a 25mm (1 inch) plastic collated cap and drives a 10mm\n(3/8 inch) crown staple through its center into timber framing. Weighing 1.17 kg\nand holding 168 caps and staples (loaded with STINGER StaplePac), it eliminates\ncompressor hoses on roofs while sealing staple penetrations against water leaks\nand preventing high-wind blow-offs."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

@@ -1,0 +1,153 @@
+{
+  "family_id": "PROCTOR_GEO_IRMA",
+  "family_name": "ProctorGeo IRMA",
+  "datasheet_pdf_url": "https://proctorgroup.com.au/product/proctorgeo-irma-membrane-protection-water-vapour-permeable-geotextile/",
+  "sds_url": "",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "ProctorGeo IRMA is a heavy-duty, water-vapour\npermeable non-woven geotextile membrane specifically engineered as a protective\nand water-dispersing separation layer for Inverted Roof Membrane Assemblies\n(IRMA), green roofs, and protected membrane roofs. Manufactured from\nhigh-tenacity, UV-stabilised virgin polypropylene fibers, it is installed loose\nover extruded polystyrene (XPS) insulation boards beneath gravel ballast or\npavers. It prevents dirt, ballast fines, and silt from washing into insulation\njoints while allowing water vapour to vent freely, mitigating rain water cooling\nand maintaining roof thermal efficiency.",
+    "features": [
+      "Engineered\nspecifically for Inverted Roof Membrane Assemblies (IRMA) and ballast green\nroofs",
+      "High water-vapour permeability prevents moisture entrapment above\ninsulation boards",
+      "Functions as an effective filter layer preventing silt and\nballast fines from bridging joints",
+      "Reduces rain water cooling effect by\ndraining up to 98% of runoff above insulation",
+      "High tensile and CBR puncture\nresistance withstands rough gravel ballast and pavers",
+      "UV-stabilised virgin\npolypropylene construction resists rot, mildew, and soil chemicals",
+      "Dimensionally stable, lightweight, and easy to roll out over XPS insulation\nboards",
+      "Non-toxic, chemically inert, and safe for rainwater catchment systems"
+    ],
+    "applications": [
+      "roof",
+      "roofline",
+      "floor",
+      "subfloor"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "100% UV-stabilised virgin polypropylene\nnon-woven geotextile",
+        "standard": ""
+      },
+      {
+        "property": "Nominal Mass per Unit\nArea",
+        "value": "130 g/m² - 140 g/m²",
+        "standard": "EN ISO 9864 / AS 3706.1"
+      },
+      {
+        "property": "CBR Puncture Resistance",
+        "value": "> 1500 N - 1800 N",
+        "standard": "EN ISO 12236 / AS 3706.4"
+      },
+      {
+        "property": "Tensile Strength\n(MD/CD)",
+        "value": "> 8.0 kN/m / > 8.0 kN/m",
+        "standard": "EN ISO 10319 /\nAS 3706.2"
+      },
+      {
+        "property": "Water Vapour Permeability",
+        "value": "Class 4\nVapour Permeable (Sd < 0.05 m)",
+        "standard": "EN ISO 12572"
+      },
+      {
+        "property": "Water Flow Rate (normal to plane)",
+        "value": "> 90 - 110 l/m²·s",
+        "standard": "EN ISO 11058 / AS 3706.9"
+      },
+      {
+        "property": "Characteristic Opening Size (O90)",
+        "value": "Approx. 90 - 130 µm",
+        "standard": "EN ISO 12956 / AS 3706.7"
+      },
+      {
+        "property": "Roll Dimensions",
+        "value": "2.0 m or 3.0 m width x 50 m / 100 m\nlength",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "ProctorGeo IRMA\nGeotextile",
+        "size_or_rating": "3.0 m x 100 m (300 m²)",
+        "pack": "Roll"
+      },
+      {
+        "variant": "ProctorGeo IRMA Geotextile (Narrow)",
+        "size_or_rating": "2.0 m x 50\nm (100 m²)",
+        "pack": "Roll"
+      }
+    ],
+    "fire": "Tested for low flammability as an\nunexposed filtration layer under non-combustible ballast or pavers",
+    "compliance": "EN 13252, AS 3706 series, NCC 2022 Volume One Section J inverted\nroof provisions",
+    "sustainability": "100% recyclable virgin polypropylene; zero\nODP; chemically inert",
+    "install": [
+      "Complete primary roof waterproofing\nmembrane and ensure watertightness testing is verified",
+      "Lay extruded\npolystyrene (XPS) rigid insulation boards tightly butted over the\nwaterproofing",
+      "Roll out ProctorGeo IRMA geotextile loose directly over the top\nof the XPS insulation",
+      "Ensure all adjoining geotextile runs overlap by a\nminimum of 300mm",
+      "Turn geotextile up all parapets, upstands, and penetrations\nto the height of the ballast finish",
+      "Place rounded gravel ballast\n(minimum 50mm depth) or paving slabs on pedestals directly over the fabric",
+      "Ensure ballast is placed progressively to prevent wind uplift of the geotextile\nduring installation"
+    ],
+    "selection_checklist": [
+      "Confirm roof design is an\nInverted Roof Membrane Assembly (IRMA) with XPS insulation above waterproofing",
+      "Verify ballast type (washed round river gravel 16-32mm or pavers on\npedestals)",
+      "Calculate total roof area allowing for minimum 300mm overlaps and\nparapet upturns",
+      "Confirm drainage outlets have gravel guard cages installed"
+    ],
+    "accessories": [
+      "Extruded polystyrene (XPS) insulation boards (e.g. DCT XPS\n/ Kingspan GG300)",
+      "Parapet flashing and termination bars",
+      "Drainage gravel\nguards"
+    ],
+    "limitations": [
+      "Not a waterproofing membrane; designed strictly as\na filtration, water-deflecting, and separation geotextile",
+      "Must be weighed\ndown with ballast or pavers to prevent wind uplift",
+      "Do not use crushed, sharp\naggregate ballast that could pierce the fabric"
+    ],
+    "warranty": "Backed by\nProctor Group Australia manufacturer warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "ProctorGeo IRMA",
+      "IRMA geotextile",
+      "inverted roof\ngeotextile",
+      "water flow reducing layer",
+      "ballasted roof filter fabric",
+      "green\nroof filter geotextile",
+      "Proctor IRMA fabric",
+      "XPS protection fabric"
+    ],
+    "problem_keywords": [
+      "ballast gravel washing into insulation joints",
+      "rainwater cooling down inverted roof slab",
+      "dirt clogging under roof pavers",
+      "floating XPS insulation boards on flat roof",
+      "moisture trapped above flat roof\ninsulation"
+    ],
+    "placement": [
+      "roof",
+      "roofline",
+      "floor",
+      "subfloor"
+    ],
+    "priority_fit": [
+      "condensation",
+      "thermal",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Separation and filtration layer laid loose over XPS insulation boards on\ninverted (upside-down) flat roofs beneath gravel ballast",
+      "Water-deflecting and\nsilt-blocking geotextile under concrete pavers on pedestals over roof decks",
+      "Filtration layer in intensive and extensive rooftop green roof garden systems"
+    ],
+    "not_for": [
+      "Primary waterproofing layer directly on concrete deck",
+      "Pitched metal roof sarking",
+      "Internal wall drylining"
+    ],
+    "rag_summary": "ProctorGeo IRMA is a heavy-duty, water-vapour permeable non-woven geotextile\nengineered specifically as a filter, separation, and water-deflecting layer for\nInverted Roof Membrane Assemblies (IRMA). Laid loose directly over extruded\npolystyrene (XPS) insulation beneath gravel ballast or pavers, its virgin\npolypropylene fiber matrix filters out silt and prevents ballast fines from\njamming board joints while allowing vapor to vent freely. By shedding up to 98%\nof surface rainwater directly to outlets, it minimizes rainwater cooling to\npreserve the thermal performance of flat concrete roofs."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

@@ -1,0 +1,168 @@
+{
+  "family_id": "PROCTOR_PASSIVE_WRAPTITE_SA_TAPE",
+  "family_name": "Proctor Passive Wraptite SA Tape",
+  "datasheet_pdf_url": "https://proctorgroup.com.au/product/wraptite-sa-self-adhesive-air-barrier-membrane/",
+  "sds_url": "https://proctorgroup.com.au/product/wraptite-sa-self-adhesive-air-barrier-membrane/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "ProctorPassive Wraptite SA Tape is a self-adhering,\nvapour-permeable air barrier tape and transition strip. Constructed from a\ntriple-layer spunbonded polypropylene with a vapour-permeable microporous film\nand a fully coated pressure-sensitive adhesive backing, it combines continuous\nairtightness with vapour breathability. Designed for detailing window and door\nopenings, cross-laminated timber (CLT) joints, precast concrete seams, and\nmembrane transitions, it stops air leakage while allowing damp framing to dry\noutward.",
+    "features": [
+      "Fully self-adhesive backing adheres aggressively to\ntimber, steel, concrete, and masonry",
+      "Vapour permeable Class 4 rating allows\nstructures to breathe and dry out",
+      "Acts as a certified air barrier preventing\nair leakage and convective heat loss",
+      "Water barrier performance resists rain\npenetration during construction",
+      "Split release paper backing allows fast,\naccurate alignment into 90-degree corners",
+      "Replaces mechanical fasteners,\neliminating nail and staple penetrations",
+      "High tear strength and puncture\nresistance",
+      "Low VOC emissions compliant with Green Star and Passive House\nstandards"
+    ],
+    "applications": [
+      "wall",
+      "external wall",
+      "roof",
+      "roofline",
+      "internal wall",
+      "window",
+      "door"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "Triple-layer polypropylene with microporous film and full-surface PSA\nbacking",
+        "standard": ""
+      },
+      {
+        "property": "Duty Classification",
+        "value": "Light\nDuty",
+        "standard": "AS/NZS 4200.1:2017"
+      },
+      {
+        "property": "Vapour Permeability",
+        "value": "Class 4 Vapour Permeable",
+        "standard": "AS/NZS 4200.1:2017"
+      },
+      {
+        "property": "Water Control",
+        "value": "Water Barrier",
+        "standard": "AS/NZS 4201.4"
+      },
+      {
+        "property": "Air Control",
+        "value": "Air Barrier",
+        "standard": "AS/NZS 4200.1:2017"
+      },
+      {
+        "property": "Roll Dimensions",
+        "value": "75 mm, 100 mm, 150 mm, 200 mm, 300 mm width x 50 m length",
+        "standard": ""
+      },
+      {
+        "property": "Temperature Resistance",
+        "value": "-40°C to +100°C",
+        "standard": ""
+      },
+      {
+        "property": "Flammability Index",
+        "value": "≤ 5",
+        "standard": "AS 1530.2"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Wraptite SA Tape 75mm",
+        "size_or_rating": "75 mm\nx 50 m",
+        "pack": "Roll"
+      },
+      {
+        "variant": "Wraptite SA Tape 100mm",
+        "size_or_rating": "100 mm x 50 m",
+        "pack": "Roll"
+      },
+      {
+        "variant": "Wraptite SA\nTape 150mm",
+        "size_or_rating": "150 mm x 50 m",
+        "pack": "Roll"
+      },
+      {
+        "variant": "Wraptite SA Tape 300mm",
+        "size_or_rating": "300 mm x 50 m",
+        "pack": "Roll"
+      }
+    ],
+    "fire": "Flammability Index ≤ 5 to AS 1530.2; Group 1 fire performance in\ncompliant wall systems",
+    "compliance": "AS/NZS 4200.1:2017, AS/NZS 4200.2:2017,\nAS 1530.2, BBA certified, Passive House approved",
+    "sustainability": "Low VOC\nemissions; zero ODP; non-toxic",
+    "install": [
+      "Ensure substrate (timber,\nconcrete, steel, or sheathing) is clean, dry, and dust-free",
+      "Apply compatible\nprimer to porous concrete or masonry if required",
+      "Measure and cut Wraptite SA\ntape to length",
+      "Peel back the initial section of the split release liner",
+      "Position tape along the joint, corner, or window reveal",
+      "Gradually peel\nremaining liner while smoothing tape firmly onto the substrate",
+      "Consolidate\nbond across the entire tape surface with a firm hand roller or squeegee",
+      "Overlap adjoining tape pieces by minimum 50mm"
+    ],
+    "selection_checklist": [
+      "Select width based on detail (75/100mm for panel joints, 150/300mm for window\nreveals and slab edges)",
+      "Confirm requirement for vapour permeability to\nprevent moisture entrapment",
+      "Check substrate condition to determine if primer\nis needed",
+      "Ensure application temperature is within recommended range"
+    ],
+    "accessories": [
+      "ProctorPassive Primer (for porous masonry)",
+      "Pressure hand\nroller / squeegee",
+      "Utility knife"
+    ],
+    "limitations": [
+      "Do not apply to wet,\nfrosty, or contaminated surfaces",
+      "Requires firm rolling pressure to activate\nfull pressure-sensitive bond",
+      "Must not remain exposed to permanent UV beyond\nrated exposure window"
+    ],
+    "warranty": "Backed by Proctor Group Australia product\nwarranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Wraptite SA Tape",
+      "ProctorPassive Wraptite SA",
+      "self-adhesive breathable tape",
+      "vapour permeable\nair barrier tape",
+      "CLT joint tape",
+      "window reveal airtight tape",
+      "Wraptite 100mm",
+      "Wraptite 150mm"
+    ],
+    "problem_keywords": [
+      "air leakage through\nstructural panel joints",
+      "drafts around window and door frames",
+      "moisture\ntrapped behind non-breathable tape",
+      "water ingress through precast concrete\njoints",
+      "failing commercial air leakage testing"
+    ],
+    "placement": [
+      "wall",
+      "external wall",
+      "roof",
+      "roofline",
+      "internal wall"
+    ],
+    "priority_fit": [
+      "condensation",
+      "easy_install",
+      "thermal"
+    ],
+    "use_cases": [
+      "Airtight and\nweathertight sealing of panel joints in cross-laminated timber (CLT) and mass\ntimber buildings",
+      "Flashing and air sealing window and door openings to\nexterior building wraps",
+      "Sealing joints between precast concrete panels and\nfloor slab edges without trapping moisture"
+    ],
+    "not_for": [
+      "Continuous\nsubmersion in water",
+      "High-temperature flue exhaust pipes",
+      "Structural\nload-bearing connections"
+    ],
+    "rag_summary": "ProctorPassive Wraptite SA Tape is\na full-surface self-adhering, Class 4 vapour-permeable air and weather barrier\ntape. Manufactured from a triple-layer polypropylene laminate with an aggressive\npressure-sensitive adhesive backing, it seals joints in mass timber (CLT),\nprecast concrete, and window openings without trapping moisture in structural\nframing. Fully certified as an airtight barrier with a Flammability Index ≤ 5\n(AS 1530.2), it replaces mechanical fixings to deliver robust, airtight envelope\ncontinuity for Passive House and high-performance buildings."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

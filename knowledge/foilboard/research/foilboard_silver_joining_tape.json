@@ -1,0 +1,157 @@
+{
+  "family_id": "FOILBOARD_SILVER_JOINING_TAPE",
+  "family_name": "Foilboard Silver Joining Tape",
+  "datasheet_pdf_url": "https://www.foilboard.com.au/product-category/accessories/",
+  "sds_url": "https://www.foilboard.com.au/wp-content/uploads/2021/04/Foilboard-Green-Safety-Data-Sheet.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Foilboard Silver Joining Tape is a heavy-duty reinforced\naluminum foil tape engineered with a high-reflectance pure silver foil surface\nto match the silver reflective face of Foilboard insulation panels. Backed with\nan aggressive pressure-sensitive acrylic adhesive, it provides an airtight,\nvapor-impermeable seal across panel joins, underfloor seams, and perimeter\njunctions. It reflects radiant heat across the joint, preventing thermal bypass\nand moisture vapor migration in wall, ceiling, and underfloor assemblies.",
+    "features": [
+      "Pure silver reflective foil finish matches the reflective face of\nFoilboard panels",
+      "Reinforced fiberglass scrim provides high tensile strength\nand tear resistance",
+      "High-tack pressure-sensitive acrylic adhesive ensures\npermanent bonding",
+      "Class 1 vapor barrier rating prevents moisture transmission\nacross panel seams",
+      "Airtight seal eliminates drafts and convective heat loss",
+      "Operating temperature range from -20°C to +80°C",
+      "Low Flammability Index (≤ 5)\ncompliant with AS 1530.2",
+      "Available in 48mm and 72mm widths for versatile\non-site sealing"
+    ],
+    "applications": [
+      "underfloor",
+      "floor",
+      "subfloor",
+      "wall",
+      "external wall",
+      "internal wall",
+      "ceiling",
+      "roof",
+      "shed"
+    ],
+    "technical": [
+      {
+        "property": "Backing Material",
+        "value": "Reinforced aluminum foil with pure\nsilver reflective facing",
+        "standard": ""
+      },
+      {
+        "property": "Adhesive Type",
+        "value": "Pressure-sensitive solvent acrylic adhesive",
+        "standard": ""
+      },
+      {
+        "property": "Roll Width",
+        "value": "72 mm (also available in 48 mm)",
+        "standard": ""
+      },
+      {
+        "property": "Roll Length",
+        "value": "50 m",
+        "standard": ""
+      },
+      {
+        "property": "Operating Temperature Range",
+        "value": "-20°C to +80°C",
+        "standard": ""
+      },
+      {
+        "property": "Vapor Permeance",
+        "value": "Class 1 Vapor\nBarrier (< 0.002 µg/N·s)",
+        "standard": "ASTM E96"
+      },
+      {
+        "property": "Flammability\nIndex",
+        "value": "≤ 5 (Low Flammability)",
+        "standard": "AS 1530.2"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Foilboard Silver Joining Tape 72mm",
+        "size_or_rating": "72 mm\nx 50 m",
+        "pack": "Roll (Carton of 16)"
+      },
+      {
+        "variant": "Foilboard Silver Joining\nTape 48mm",
+        "size_or_rating": "48 mm x 50 m",
+        "pack": "Roll (Carton of 24)"
+      }
+    ],
+    "fire": "Flammability Index ≤ 5 to AS 1530.2; Suitable for bushfire construction\nup to BAL-40 to AS 3959 when used with Foilboard systems",
+    "compliance": "AS/NZS 4200.2:2017, AS 1530.2, AS 3959, NCC Volume One and Two",
+    "sustainability": "Low VOC emissions; zero ozone-depleting potential (ODP)",
+    "install": [
+      "Ensure panel surfaces are dry, clean, and free of dust, grease,\nand oil",
+      "Align Foilboard panels with edges tightly butted together",
+      "Center 72mm Silver Joining Tape over the joint on the silver reflective side of\nthe board",
+      "Peel paper release liner progressively while smoothing tape down\nalong the seam",
+      "Press down firmly along the entire tape length using a plastic\nsqueegee or roller to activate adhesive",
+      "Smooth out all wrinkles and air\npockets to achieve a permanent, airtight seal"
+    ],
+    "selection_checklist": [
+      "Confirm tape color matches the silver reflective face of Foilboard panels",
+      "Select width (72mm recommended for underfloor and wall seams; 48mm for narrow\ntrims)",
+      "Calculate total lineal meters of panel seams and perimeter\nconnections",
+      "Ensure application temperature is above +5°C"
+    ],
+    "accessories": [
+      "Foilboard Green panels",
+      "Plastic application squeegee"
+    ],
+    "limitations": [
+      "Substrates must be dry and free of sawdust or grease before application",
+      "Requires firm mechanical pressure with a squeegee to achieve complete adhesive\nactivation",
+      "Not designed for structural mechanical holding"
+    ],
+    "warranty": "Covered under Foilboard 25-year performance warranty system"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Foilboard Silver Joining Tape",
+      "Foilboard silver tape",
+      "reinforced aluminum foil tape",
+      "72mm silver foil tape",
+      "Foilboard underfloor\ntape",
+      "silver reflective joining tape",
+      "Foilboard tape 72mm silver",
+      "insulation foil tape"
+    ],
+    "problem_keywords": [
+      "drafts through underfloor board\njoints",
+      "unsealed silver foil insulation seams",
+      "vapor barrier leaks in\nsubfloor",
+      "air leakage through ceiling Foilboard",
+      "taping silver side of\nFoilboard"
+    ],
+    "placement": [
+      "underfloor",
+      "floor",
+      "subfloor",
+      "wall",
+      "external wall",
+      "internal wall",
+      "ceiling",
+      "roof",
+      "shed"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "thermal",
+      "condensation",
+      "fire"
+    ],
+    "use_cases": [
+      "Sealing\nbutt joints and seams on the silver face of Foilboard panels in suspended timber\nunderfloors",
+      "Taping seams on internal wall and ceiling Foilboard\ninstallations",
+      "Creating an impermeable vapor seal around pipe and cable\npenetrations through Foilboard panels"
+    ],
+    "not_for": [
+      "Direct structural\nmechanical fastening",
+      "High-temperature flue exhaust pipes above 80°C",
+      "Permanent immersion in water"
+    ],
+    "rag_summary": "Foilboard Silver Joining Tape\nis a 72mm reinforced pure aluminum foil tape coated with an aggressive\ncold-weather acrylic adhesive, designed to seal butt joints on the silver\nreflective side of Foilboard panels. It forms an impermeable Class 1 vapor\nbarrier and airtight seal that prevents thermal bypass, convective drafts, and\nmoisture intrusion across wall, ceiling, and underfloor assemblies. Low\nflammability rated (Index ≤ 5 to AS 1530.2), it ensures continuous radiant heat\nreflection and compliance with NCC air-sealing standards."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

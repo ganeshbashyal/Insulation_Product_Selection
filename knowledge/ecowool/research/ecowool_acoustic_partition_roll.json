@@ -1,0 +1,62 @@
+{
+  "family_id": "ECOWOOL_ACOUSTIC_PARTITION_ROLL",
+  "family_name": "Ecowool Acoustic Partition Roll",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "gemini_not_found",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "",
+    "features": "",
+    "applications": "",
+    "technical": "",
+    "range": "",
+    "fire": "",
+    "compliance": "",
+    "sustainability": "",
+    "install": "",
+    "selection_checklist": "",
+    "accessories": "",
+    "limitations": "",
+    "warranty": ""
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Ecowool Acoustic Partition Roll",
+      "Ecowool\npartition roll",
+      "glasswool acoustic partition roll",
+      "PGF acoustic roll",
+      "Ecowool acoustic roll",
+      "commercial partition roll"
+    ],
+    "problem_keywords": [
+      "sound transfer through partition walls",
+      "office privacy sound leakage",
+      "acoustic roll for metal stud wall",
+      "commercial wall noise reduction"
+    ],
+    "placement": [
+      "wall",
+      "internal wall",
+      "ceiling",
+      "between floors"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "thermal",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Continuous acoustic insulation unrolled in commercial steel stud partitions",
+      "Acoustic sound absorption in multi-residential drywall cavity walls"
+    ],
+    "not_for": [
+      "External exposed cladding",
+      "Subfloor soil contact",
+      "Direct\nhigh-temperature flue wrapping"
+    ],
+    "rag_summary": "Ecowool Acoustic Partition\nRoll represents glass mineral wool acoustic insulation supplied in roll format\nfor friction-fitting in steel and timber stud partition walls. In Australia, PGF\nInsulation / Ecowool supplies its acoustic partition range primarily in pre-cut\nbatts (Acoustic Partition Batts and NoiseBreak), with rolls primarily designated\nfor HVAC and reflective roof blankets. When specified, partition rolls provide\ncontinuous, joint-free acoustic and thermal insulation to control speech\ntransmission in commercial and residential walls."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

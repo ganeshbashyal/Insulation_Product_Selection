@@ -1,7 +1,7 @@
 ---
 title: "ProctorWrap High Tack Tape - Wrap Insulation | Proctor"
-description: "Quality insulation engineered for Australian conditions. Engineered to meet the demanding requirements of Australian building conditions."
-keywords: "ProctorWrap High Tack Tape, Proctor wrap, wall insulation, insulation Australia, Proctor Australia"
+description: "ProctorWrap HighTack Tape is a single-sided pressure-sensitive adhesive tape formulated with an aggressive, modified acrylate adhesive and a flexible "
+keywords: "ProctorWrap High Tack Tape, Proctor wrap, wall insulation, roof insulation, pipe insulation, duct insulation, insulation Australia, Proctor Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: PROCTOR_WRAP_HIGH_TACK_TAPE
 ---
@@ -10,25 +10,36 @@ family_id: PROCTOR_WRAP_HIGH_TACK_TAPE
 
 **Proctor Wrap** — reflective membrane for weather protection and condensation control.
 
-Quality insulation engineered for Australian conditions. Engineered to meet the demanding requirements of Australian building conditions.
+ProctorWrap HighTack Tape is a single-sided pressure-sensitive adhesive tape formulated with an aggressive, modified acrylate adhesive and a flexible synthetic carrier. Engineered to provide an airtight and watertight seal on vapour-permeable construction membranes, it is widely used to seal overlaps, window flashings, and pipe or service penetrations. It offers good ageing resistance, long-term elasticity, and resistance to plasticiser migration to maintain building envelope integrity.
 
 ## Key features
 
-- High-performance sealing and joining solution.
-- maintains air and vapour barrier continuity.
-- compatible with a range of insulation substrates.
+- Aggressive modified acrylate adhesive with high initial tack.
+- Flexible synthetic carrier accommodates building movement and thermal expansion.
+- Forms an airtight and watertight seal on vapour-permeable membranes.
+- Free of solvents, chlorine, and formaldehyde for low jobsite emissions.
+- High ageing resistance and resistance to plasticiser migration.
+- Bonds to PE, PP, aluminium foils, timber, plastics, and metal.
+- Hand-tearable or easily cut with a utility knife for fast installation.
+- Operating temperature performance suitable for demanding Australian climates.
 
 ## Applications and selection
 
-- Wall Wrap / Sarking
+- wall
+- external wall
+- roof
+- roofline
+- internal
+wall
+- pipe
+- duct
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm membrane type (compatible with PE, PP, and polyolefin non-woven wraps).
+2. Calculate total linear meters needed for seams, openings, and penetrations.
+3. Ensure installation temperature is above +5°C.
+4. Verify that mechanical fasteners carry structural membrane loads.
 
 
 ## Current catalogue range
@@ -39,33 +50,49 @@ Quality insulation engineered for Australian conditions. Engineered to meet the 
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Wrap | Manufacturer catalogue |
-| Material | Tape / Sealant | Manufacturer catalogue |
-| Applications | Wall Wrap / Sarking | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Carrier | Reinforced flexible polyolefin / PE carrier | - |
+| Adhesive Type | Solvent-free modified polyacrylic pressure-sensitive adhesive | - |
+| Roll Dimensions | 60 mm width x 25 m length | - |
+| Operating Temperature | -40°C to +80°C | - |
+| Application Temperature | +5°C to +40°C | - |
+| Water & Air Tightness | Forms waterproof and airtight barrier seal | AS/NZS 4200.2 |
 
-
+Extracted from manufacturer datasheet: https://proctorgroup.com.au/tape/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Complies with early fire hazard requirements to AS 1530.2 when used on compliant building membranes
+
+AS/NZS 4200.2:2017, Green Star compliant, Passive House compatible
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://proctorgroup.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://proctorgroup.com.au/wp-content/uploads/2021/02/DCT_PIR_Silver_White_Tissue_Ver_2_2020-2.pdf.
 
+## Recommended accessories
+
+- ProctorWrap building membranes.
+- Plastic application squeegee.
+
 
 ## Limitations and warnings
 
-- Install in accordance with manufacturer specifications..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Pressure-sensitive adhesive requires firm mechanical squeegee pressure to bond properly.
+- Must not be applied to wet, oily, or dusty surfaces.
+- Not designed for permanent outdoor UV exposure beyond membrane limits.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Install in accordance with manufacturer specifications.
+1. Ensure surfaces to be taped are clean, dry, and free of dust, grease, oil, and frost.
+2. Position membrane overlap with minimum recommended lap width.
+3. Centre the 60mm HighTack Tape squarely over the seam or penetration edge.
+4. Apply tape smoothly avoiding tension wrinkles and air pockets.
+5. Press down firmly along the entire tape length using a plastic squeegee to activate the adhesive.
+6. Ensure substrate is supported from behind while applying squeegee pressure.
+7. For pipes and ducts, cut overlapping collar strips to form a continuous watertight collar.
 
 ## Safety and handling
 
@@ -73,11 +100,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Solvent-free, zero chlorine, zero formaldehyde, low VOC emissions
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Backed by Proctor Group Australia product warranty
 
 ## Specification starting point
 

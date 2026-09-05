@@ -1,0 +1,148 @@
+{
+  "family_id": "BRADFORD_WALL_WRAPS_ENVIROSEAL_ULTRA_TAPE",
+  "family_name": "Bradford Wall Wraps - Enviroseal Ultra Tape",
+  "datasheet_pdf_url": "https://www.bradfordinsulation.com.au/accessories/ultratape",
+  "sds_url": "https://www.bradfordinsulation.com.au/-/media/bradford/files/safety-data-sheet---glasswool.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Bradford ULTRAtape (Enviroseal Ultra Tape) is a\nhigh-performance, linerless woven polymer fabric sealing tape designed for the\nfast, waste-free joining and sealing of vapour-permeable wall wraps and roof\nsarking. Engineered with a heavy-duty cold-weather adhesive and a robust woven\nbacking, it delivers exceptional initial grab and shear strength across\nAustralian climatic conditions. The linerless design eliminates release paper\nwaste on building sites, while the hand-tearable construction allows rapid,\nblade-free installation on scaffolding and ladders.",
+    "features": [
+      "Liner-free\ndesign eliminates release paper rubbish and waste on job sites",
+      "Hand-tearable\nfor fast, convenient installation without knives or scissors",
+      "Aggressive\npressure-sensitive adhesive performs across hot and cold weather",
+      "High tensile\nstrength woven polymer fabric backing resists scuffing and tears",
+      "Forms an\nairtight, water-resistant seal across membrane overlaps and penetrations",
+      "Specially formulated for use with Bradford Enviroseal and Thermoseal wraps",
+      "Dimensionally stable and will not stretch out of shape during application",
+      "Low-VOC formulation compliant with Green Star building standards"
+    ],
+    "applications": [
+      "wall",
+      "external wall",
+      "roof",
+      "roofline",
+      "duct"
+    ],
+    "technical": [
+      {
+        "property": "Backing Material",
+        "value": "Woven polymer\nfabric",
+        "standard": ""
+      },
+      {
+        "property": "Adhesive Type",
+        "value": "High-tack\nsynthetic adhesive",
+        "standard": ""
+      },
+      {
+        "property": "Roll Dimensions",
+        "value": "60 mm width x 25 m length",
+        "standard": ""
+      },
+      {
+        "property": "Release Liner",
+        "value": "Linerless (no backing paper)",
+        "standard": ""
+      },
+      {
+        "property": "Hand\nTearable",
+        "value": "Yes",
+        "standard": ""
+      },
+      {
+        "property": "Operating\nTemperature Range",
+        "value": "-20°C to +80°C",
+        "standard": ""
+      },
+      {
+        "property": "Air and Water Tightness",
+        "value": "Passes air barrier and water resistance\ncriteria",
+        "standard": "AS/NZS 4200.2"
+      },
+      {
+        "property": "Product Code",
+        "value": "471825",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Bradford ULTRAtape 60mm\nx 25m",
+        "size_or_rating": "60 mm x 25 m",
+        "pack": "Roll (Code: 471825)"
+      }
+    ],
+    "fire": "Complies with early fire hazard requirements to AS 1530.2 when applied\nto compliant building membranes",
+    "compliance": "AS/NZS 4200.2, AS 1530.2, Green\nStar compliant",
+    "sustainability": "Linerless roll eliminates site paper waste;\nlow VOC formulation",
+    "install": [
+      "Ensure membrane surfaces are clean, dry, and\ndust-free",
+      "Align membrane lap with minimum 150mm overlap (or 50mm if taped per\nAS 4200.2)",
+      "Tear ULTRAtape to length by hand directly from the roll without\nusing cutting tools",
+      "Apply tape centred evenly over the lap seam",
+      "Smooth\nfirmly along the tape with hand pressure or a squeegee to activate the adhesive\nbond",
+      "Ensure no fishmouths or air channels remain along the tape line"
+    ],
+    "selection_checklist": [
+      "Confirm requirement for fast, linerless site\napplication (especially on scaffolding)",
+      "Verify compatibility with Enviroseal\nor Thermoseal wall and roof wraps",
+      "Calculate total linear metres required for\nseams and openings",
+      "Ensure application temperature is within recommended\nrange"
+    ],
+    "accessories": [
+      "Bradford Enviroseal wall wraps",
+      "Bradford\nThermoseal wraps"
+    ],
+    "limitations": [
+      "Must be applied with firm pressure to\nactivate adhesive",
+      "Not designed for structural mechanical holding",
+      "Should\nnot be left exposed to UV beyond maximum membrane exposure limits"
+    ],
+    "warranty": "Backed by CSR Bradford product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Bradford ULTRAtape",
+      "Enviroseal Ultra Tape",
+      "Bradford\nUltra Tape 471825",
+      "linerless wall wrap tape",
+      "hand tearable sarking tape",
+      "60mm ULTRAtape",
+      "Bradford membrane tape",
+      "woven fabric building tape",
+      "fast\ntape for wall wrap"
+    ],
+    "problem_keywords": [
+      "tape backing paper blowing around\nbuilding site",
+      "fumbling with tape knives on scaffolding",
+      "air leaks at wall\nwrap joins",
+      "slow wall wrap taping",
+      "wall wrap seams lifting",
+      "tearing of\nwall wrap in wind"
+    ],
+    "placement": [
+      "wall",
+      "external wall",
+      "roof",
+      "roofline"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "sustainability"
+    ],
+    "use_cases": [
+      "Rapidly\nsealing wall wrap overlaps on multi-storey scaffolding without handling loose\nrelease liners",
+      "Taping horizontal laps and penetrations on residential and\ncommercial timber/steel frame wall wraps",
+      "Patching tears and cuts in pliable\nbuilding membranes during construction"
+    ],
+    "not_for": [
+      "High-stress mechanical\nstrapping",
+      "Submerged applications",
+      "High-temperature flue pipes"
+    ],
+    "rag_summary": "Bradford Wall Wraps - Enviroseal Ultra Tape (Bradford ULTRAtape,\nproduct code 471825) is an advanced 60mm x 25m linerless, hand-tearable woven\npolymer tape engineered for rapid, mess-free sealing of wall wraps and roof\nsarking. Formulated with an aggressive pressure-sensitive adhesive, it\neliminates the rubbish and frustration of backing paper on construction sites\nwhile creating tough, airtight, and weather-resistant lap seals. Operating\nreliably from -20°C to +80°C and fully compliant with AS/NZS 4200.2, it\naccelerates weatherproofing on residential and commercial frames."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

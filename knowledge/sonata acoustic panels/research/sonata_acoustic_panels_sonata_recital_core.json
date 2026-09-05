@@ -1,0 +1,165 @@
+{
+  "family_id": "SONATA_ACOUSTIC_PANELS_SONATA_RECITAL_CORE",
+  "family_name": "Sonata Acoustic Panels Sonata Recital Core",
+  "datasheet_pdf_url": "https://sonataacousticpanels.com.au/resources/",
+  "sds_url": "https://sonataacousticpanels.com.au/resources/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Sonata Recital\nCore acoustic panels are high-performance thermally bonded polyester fibre\npanels engineered specifically for semi-exposed acoustic applications. Designed\nto absorb sound across a broad range of frequencies, Recital Core reduces\nreverberation, controls echo, and improves speech clarity in internal commercial\nand industrial building environments. Featuring a firm surface finish with a\nsoft sound-absorbing core, the panels are lightweight, non-allergenic, and easy\nto handle behind perforated wall and ceiling linings.",
+    "features": [
+      "High\nacoustic sound absorption performance across broad frequency ranges",
+      "Manufactured from 100% thermally bonded polyester fibre with recycled content",
+      "Firm surface finish ensures easy handling and prevents sagging",
+      "Engineered\nspecifically for installation behind perforated wall and ceiling systems",
+      "Non-allergenic, low irritant, and safe to handle without protective clothing",
+      "Available in multiple density options from 20 kg/m³ to 60 kg/m³",
+      "Available in\nfour standard thicknesses: 25mm, 50mm, 75mm, and 100mm",
+      "Offered in three core\ncolours: Black, White, and Grey to conceal framing through perforations",
+      "Australian made in Dandenong South, Victoria by Fletcher Building",
+      "Backed by\na 15-year manufacturer product warranty"
+    ],
+    "applications": [
+      "wall",
+      "internal\nwall",
+      "ceiling",
+      "between floors"
+    ],
+    "technical": [
+      {
+        "property": "Material\nComposition",
+        "value": "Thermally bonded polyester fibre (recycled PET\ncontent)",
+        "standard": ""
+      },
+      {
+        "property": "Density Options",
+        "value": "20\nkg/m³, 32 kg/m³, 48 kg/m³, 60 kg/m³",
+        "standard": ""
+      },
+      {
+        "property": "Thickness Options",
+        "value": "25 mm, 50 mm, 75 mm, 100 mm",
+        "standard": ""
+      },
+      {
+        "property": "Panel Dimensions",
+        "value": "1200 mm x 2400 mm",
+        "standard": ""
+      },
+      {
+        "property": "Colours",
+        "value": "Black, White, Grey",
+        "standard": ""
+      },
+      {
+        "property": "Acoustic Performance",
+        "value": "High sound absorption across low,\nmid, and high frequencies (NRC up to 1.00+)",
+        "standard": "ISO 354 / AS ISO 354"
+      },
+      {
+        "property": "Fire Hazard Properties",
+        "value": "Compliant with\nAS/NZS 1530.3 fire indices",
+        "standard": "AS/NZS 1530.3"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Sonata Recital Core 20kg/m³",
+        "size_or_rating": "25mm, 50mm, 75mm, 100mm x 1200mm x 2400mm",
+        "pack": "Panel"
+      },
+      {
+        "variant": "Sonata Recital Core 32kg/m³",
+        "size_or_rating": "25mm, 50mm, 75mm, 100mm\nx 1200mm x 2400mm",
+        "pack": "Panel"
+      },
+      {
+        "variant": "Sonata Recital\nCore 48kg/m³",
+        "size_or_rating": "25mm, 50mm, 75mm x 1200mm x 2400mm",
+        "pack": "Panel"
+      },
+      {
+        "variant": "Sonata Recital Core 60kg/m³",
+        "size_or_rating": "25mm, 50mm x 1200mm x 2400mm",
+        "pack": "Panel"
+      }
+    ],
+    "fire": "NCC compliant fire\nperformance tested in accordance with AS/NZS 1530.3; Early Fire Hazard indices:\nIgnitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+    "compliance": "AS/NZS 1530.3, AS/NZS 4859.1, NCC Volume One and Two acoustic\nrequirements",
+    "sustainability": "Manufactured from recyclable polyester with\nhigh recycled PET content; zero chemical binders; zero formaldehyde; low VOC",
+    "install": [
+      "Ensure wall framing, ceiling grid, or structural substrate is\nclean, dry, and structurally sound",
+      "Select colour (black is standard behind\nperforated panels to conceal framing; white or grey for light-reflecting\ncavities)",
+      "Cut panels accurately to size using a sharp utility knife or\nheavy-duty insulation shears",
+      "Friction-fit panels into framing bays or\nmechanically fix behind perforated ceiling/wall panels using insulation pins or\nclips",
+      "Butt panel edges tightly together to eliminate acoustic flanking gaps",
+      "Install perforated timber slats, metal ceiling tiles, or acoustic panelling\ndirectly in front of the Recital Core panels",
+      "Ensure panels are not compressed\nbeyond specified cavity thickness"
+    ],
+    "selection_checklist": [
+      "Confirm density\n(20, 32, 48, or 60 kg/m³) based on acoustic consultant specification",
+      "Select\nthickness (25mm, 50mm, 75mm, or 100mm) matching framing cavity depth",
+      "Choose\ncolourway (Black, White, or Grey) to suit aesthetic appearance through\nperforations",
+      "Confirm panels are for semi-exposed application behind\nperforated or slotted linings",
+      "Calculate total square meterage based on 1200mm\nx 2400mm panels (2.88 m² per panel)"
+    ],
+    "accessories": [
+      "Mechanical insulation\npins and retaining washers",
+      "Heavy-duty insulation cutting shears",
+      "Acoustic\nsealant"
+    ],
+    "limitations": [
+      "Designed for semi-exposed applications only; not\nsuitable for decorative fully exposed wall finishes",
+      "Not suitable for external\napplications exposed to UV radiation, moisture, or wind pressure",
+      "Do not\ncompress panels excessively as this degrades low-frequency acoustic absorption"
+    ],
+    "warranty": "15-Year Product Warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Sonata Recital Core",
+      "Sonata Acoustic Panels",
+      "Recital Core polyester",
+      "polyester acoustic panel 32kg",
+      "black acoustic backing panel",
+      "perforated\npanel acoustic backing",
+      "Fletcher Sonata acoustic",
+      "high density polyester\nacoustic panel",
+      "cinema acoustic panel",
+      "sports hall acoustic backing"
+    ],
+    "problem_keywords": [
+      "echo in sports hall",
+      "speech clarity in school\nclassroom",
+      "reverberation behind slotted timber walls",
+      "noise in cinema and\ntheatre",
+      "sound reflection in conference rooms",
+      "ugly framing visible behind\nperforated panels"
+    ],
+    "placement": [
+      "wall",
+      "internal wall",
+      "ceiling",
+      "between floors"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "sustainability",
+      "easy_install",
+      "fire"
+    ],
+    "use_cases": [
+      "Acoustic sound absorption backing\ninstalled directly behind slotted timber and perforated metal wall panels in\nauditoriums and theatres",
+      "Ceiling cavity sound absorption behind perforated\nceiling systems in corporate boardrooms and open-plan offices",
+      "Reverberation\ncontrol in school gymnasiums, sports halls, music recording suites, and plant\nrooms"
+    ],
+    "not_for": [
+      "Decorative exposed wall finishes without face cladding\nor perforation",
+      "External weather-exposed walls",
+      "Flooring underlay subject to\ndirect foot traffic"
+    ],
+    "rag_summary": "Sonata Recital Core acoustic panels are\nhigh-performance thermally bonded polyester sound-absorbing boards manufactured\nin Victoria by Sonata Acoustic Panels (part of Fletcher Building). Engineered\nfor semi-exposed applications behind perforated timber, metal, or plasterboard\nwall and ceiling systems, they absorb reverberation across broad frequency bands\n(NRC up to 1.00+). Available in densities from 20 to 60 kg/m³, thicknesses\nfrom 25mm to 100mm (1200mm x 2400mm sheets), and colours in Black, White, and\nGrey, they are itch-free, non-allergenic, compliant with AS/NZS 1530.3, and\nbacked by a 15-year warranty."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

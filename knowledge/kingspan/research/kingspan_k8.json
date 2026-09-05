@@ -1,0 +1,166 @@
+{
+  "family_id": "KINGSPAN_K8",
+  "family_name": "Kingspan K8",
+  "datasheet_pdf_url": "https://www.insulation.kingspan.com/au/en/products/rigid-insulation/kooltherm/kooltherm-k8-cavity-board",
+  "sds_url": "https://www.insulation.kingspan.com/au/en/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Kingspan Kooltherm K8 Cavity Board is a premium performance, fiber-free rigid\nthermoset phenolic insulation board engineered specifically for partial fill\ncavity masonry walls. With an ultra-low thermal conductivity of 0.021 - 0.023\nW/m·K and low-emissivity composite foil facings on both sides, it delivers high\nthermal resistance while preserving a clear 40mm to 50mm air cavity to resist\nmoisture ingress. Held against the inner masonry leaf using wall ties and\nretaining clips, it is CodeMark certified and manufactured in Australia with\nzero ODP blowing agents.",
+    "features": [
+      "Designed specifically for partial-fill\ndouble brick and brick/block cavity walls",
+      "Thermal conductivity of 0.021\n- 0.023 W/m·K allows thinner cavities and smaller wall footprints",
+      "Clear\nresidual air space is maintained, resisting wind-driven rain penetration",
+      "Low-emissivity composite foil facings significantly increase thermal resistance\nof the cavity",
+      "Closed-cell phenolic core will not absorb water or slump within\nthe cavity",
+      "CodeMark certified for NCC compliance",
+      "Held securely against the\ninner masonry leaf using standard brick ties and retaining clips",
+      "Fiber-free,\nnon-deleterious core, safe and easy to handle on site",
+      "Manufactured in\nAustralia with zero ODP and low GWP blowing agents",
+      "EPD verified and certified\nunder GreenTag GreenRate"
+    ],
+    "applications": [
+      "wall",
+      "external wall"
+    ],
+    "technical": [
+      {
+        "property": "Thermal Conductivity (lambda)",
+        "value": "0.021\nW/m·K (thicknesses ≥ 45mm), 0.023 W/m·K (thicknesses 25-44mm)",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Material R-values",
+        "value": "R1.1 (25mm),\nR1.75 (40mm), R2.15 (50mm)",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Total\nSystem R-values",
+        "value": "RT2.2 - RT2.3 (25mm), RT2.9 (40mm) in double brick\ncavity walls",
+        "standard": "AS/NZS 4859.2"
+      },
+      {
+        "property": "Thickness Options",
+        "value": "25 mm, 40 mm, 50 mm",
+        "standard": ""
+      },
+      {
+        "property": "Board\nDimensions",
+        "value": "1200 mm x 450 mm (sized to suit brick tie spacings)",
+        "standard": ""
+      },
+      {
+        "property": "Core Density",
+        "value": "Nominal 35 kg/m³ rigid\nphenolic",
+        "standard": ""
+      },
+      {
+        "property": "Compressive Strength",
+        "value": "≥ 100 kPa at 10% deformation",
+        "standard": "AS 2498.3"
+      },
+      {
+        "property": "Emittance (Foil Facings)",
+        "value": "0.03 - 0.05",
+        "standard": "AS/NZS 4201.5"
+      },
+      {
+        "property": "Water Vapor Resistance",
+        "value": "> 100 MN·s/g",
+        "standard": ""
+      },
+      {
+        "property": "Fire Classification (Type C)",
+        "value": "Suitable for Type\nC construction in Class 2-9 and Class 1 & 10a housing",
+        "standard": "AS 1530.3"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Kooltherm K8 Cavity Board 25mm",
+        "size_or_rating": "25 mm x 450 mm x 1200 mm (R1.1)",
+        "pack": "Pack of boards"
+      },
+      {
+        "variant": "Kooltherm K8 Cavity Board 40mm",
+        "size_or_rating": "40 mm x 450 mm x 1200 mm\n(R1.75)",
+        "pack": "Pack of boards"
+      },
+      {
+        "variant": "Kooltherm K8 Cavity\nBoard 50mm",
+        "size_or_rating": "50 mm x 450 mm x 1200 mm (R2.15)",
+        "pack": "Pack\nof boards"
+      }
+    ],
+    "fire": "AS 1530.3: Ignitability 0, Spread of Flame 0, Heat\nEvolved 0, Smoke Developed 0-1; Suitable for NCC Class 1 & 10a housing and Type\nC construction in Class 2-9 buildings",
+    "compliance": "AS/NZS 4859.1:2018,\nCodeMark Certified, NCC 2022 Volume 1 and Volume 2",
+    "sustainability": "Manufactured with zero ODP and low GWP; GreenTag GreenRate Level A; EPD\nverified; low VOC",
+    "install": [
+      "Construct inner leaf of masonry with wall ties\nbedded in mortar joints at 450mm vertical and 600mm horizontal centers",
+      "Ensure\nmortar droppings are cleaned from ties and cavity face before installing\ninsulation",
+      "Place Kooltherm K8 Cavity Boards against the inner leaf over the\nprotruding wall ties",
+      "Secure each board firmly against the inner leaf by\npushing Universal Insulation Retaining Clips over the ties",
+      "Stagger board\njoints in a brick-bond pattern, butting joints tightly together",
+      "Ensure a\nminimum 40mm clear residual airspace is maintained between the outer foil face\nand outer brick leaf",
+      "Lay outer leaf of brickwork, keeping cavity clear of\nmortar bridges using a cavity batten"
+    ],
+    "selection_checklist": [
+      "Confirm wall\ndesign is partial-fill masonry cavity (double brick or brick/block)",
+      "Verify\noverall cavity width (e.g. 25mm board + 45mm residual air cavity in a 70mm\ncavity)",
+      "Select board thickness (25mm or 40mm) to meet required Total\nR-value",
+      "Order matching 80mm Universal Insulation Retaining Clips (approx. 3-4\nper board)"
+    ],
+    "accessories": [
+      "Universal Insulation Retaining Clips (80mm\ndiameter)",
+      "Stainless steel / galvanized wall ties",
+      "Mortar cavity batten"
+    ],
+    "limitations": [
+      "A minimum clear residual cavity (typically 40-50mm) must be\nmaintained to prevent moisture bridging",
+      "For Type A and B fire-resisting\nconstruction in Class 2-9 buildings, a Performance Solution is required",
+      "Protect boards from excessive mortar droppings during bricklaying"
+    ],
+    "warranty": "10-year manufacturing warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Kingspan K8",
+      "Kooltherm K8",
+      "K8 Cavity Board",
+      "double brick cavity\ninsulation",
+      "partial fill cavity board",
+      "phenolic cavity board",
+      "450x1200\ncavity insulation",
+      "brick tie cavity board"
+    ],
+    "problem_keywords": [
+      "heat loss\nthrough double brick walls",
+      "cavity moisture bridging brickwork",
+      "thick cavity\nwall insulation",
+      "thermal bridging across masonry wall ties",
+      "meeting NCC\nenergy ratings in double brick"
+    ],
+    "placement": [
+      "wall",
+      "external wall"
+    ],
+    "priority_fit": [
+      "thermal",
+      "condensation",
+      "fire"
+    ],
+    "use_cases": [
+      "Partial-fill cavity insulation in double brick residential construction\n(especially WA and NSW)",
+      "Thermal insulation in commercial brick-and-block\ncavity walls held with retaining clips",
+      "Slimline cavity insulation maintaining\na certified 40-50mm clear drainage cavity to prevent water ingress"
+    ],
+    "not_for": [
+      "Full-fill cavities without residual drainage gap",
+      "Type A or B\nconstruction without Performance Solution",
+      "Direct roof sarking"
+    ],
+    "rag_summary": "Kingspan Kooltherm K8 Cavity Board is a premium performance\nrigid thermoset phenolic insulation board purpose-designed for partial-fill\nmasonry cavity walls. Sized at 1200mm x 450mm to match brick tie vertical\nspacings, its thermal conductivity of 0.021 - 0.023 W/m·K and dual composite\nfoil facings deliver high Total R-values (RT2.2 to RT2.9) while preserving a\nclear 40-50mm drainage cavity against moisture penetration. CodeMark certified\nand non-slumping, it is secured against the inner leaf using standard wall ties\nand retaining clips."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

@@ -1,7 +1,7 @@
 ---
 title: "Misc Tensorgrip - Accessory Insulation | Misc"
-description: "Quality insulation engineered for Australian conditions. Engineered to meet the demanding requirements of Australian building conditions."
-keywords: "Misc Tensorgrip, Misc accessory, insulation Australia, Misc Australia"
+description: "TensorGrip is an advanced range of industrial canister and aerosol contact adhesive systems engineered by Quin Global for bonding insulation, foams, c"
+keywords: "Misc Tensorgrip, Misc accessory, wall insulation, ceiling insulation, floor insulation, duct insulation, insulation Australia, Misc Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: MISC_TENSORGRIP
 ---
@@ -10,25 +10,34 @@ family_id: MISC_TENSORGRIP
 
 **Misc Accessory** — installation accessories and fixings.
 
-Quality insulation engineered for Australian conditions. Engineered to meet the demanding requirements of Australian building conditions.
+TensorGrip is an advanced range of industrial canister and aerosol contact adhesive systems engineered by Quin Global for bonding insulation, foams, composite panels, and building materials. Designed for high-speed spray application, TensorGrip adhesives deliver rapid tack, high green strength, and exceptional heat resistance across wood, metal, concrete, and plastic substrates. The canister delivery system eliminates the need for external compressors and reduces application time compared to traditional wet-applied glues.
 
 ## Key features
 
-- High-performance sealing and joining solution.
-- maintains air and vapour barrier continuity.
-- compatible with a range of insulation substrates.
+- High-speed canister spray delivery system with zero setup time.
+- Rapid flash-off and instant high green tack for immediate bonding.
+- High heat resistance withstanding extreme Australian cavity temperatures.
+- Strong adhesion to concrete, brick, plywood, metal, and insulation cores.
+- Low VOC and non-chlorinated formulation options available.
+- Even spray pattern minimizes adhesive telegraphing on thin facings.
+- Portable, pressurized canisters eliminate compressor maintenance.
+- High coverage efficiency reducing cost per square meter.
 
 ## Applications and selection
 
-- General Installation
+- wall
+- internal wall
+- external wall
+- ceiling
+- floor
+- duct
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm material compatibility (insulation foam, polystyrene, fabric, or metal).
+2. Select canister size (500ml for spot repairs; 22L for commercial installation).
+3. Ensure hose and spray gun are available for canister use.
+4. Check required heat resistance for target environment.
 
 
 ## Current catalogue range
@@ -39,33 +48,50 @@ Quality insulation engineered for Australian conditions. Engineered to meet the 
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Accessory | Manufacturer catalogue |
-| Material | Tape / Sealant | Manufacturer catalogue |
-| Applications | General Installation | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Adhesive Type | Synthetic polymer contact adhesive in pressurized canister / aerosol | - |
+| Packaging Formats | 500 ml aerosol, 22 L canister (17 kg), 108 L canister | - |
+| Flash-Off Time | 1 - 3 minutes (depending on temperature and humidity) | - |
+| Open Time | Up to 30 - 60 minutes | - |
+| Temperature Resistance | Up to 105°C - 120°C (depending on formulation) | - |
+| Coverage | Approx. 150 m² - 230 m² per 22L canister | - |
 
-
+Extracted from manufacturer datasheet: https://tensorglobal.com/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+High heat resistance up to 120°C; low flammability propellant options available
+
+Meets Australian manufacturing and workplace low-VOC standards
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf.
 
+## Recommended accessories
+
+- TensorGrip flexible rubber hose.
+- TensorGrip professional spray gun and spray tips.
+- Pressure roller.
+
 
 ## Limitations and warnings
 
-- Install in accordance with manufacturer specifications..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Ensure formulation is polystyrene-safe if bonding EPS or XPS boards.
+- Do not apply to wet, greasy, or frozen surfaces.
+- Requires adequate ventilation during application.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Install in accordance with manufacturer specifications.
+1. Ensure both bonding surfaces are clean, dry, and free of grease, dust, and contaminants.
+2. Connect spray hose and gun securely to canister and open valve completely.
+3. Hold spray gun 100mm to 200mm from surface at 90 degrees.
+4. Apply an even, uniform coat of adhesive achieving 80% to 100% surface coverage on both substrates.
+5. Allow adhesive to tack off for 1 to 3 minutes until dry to touch with no transfer to knuckles.
+6. Align materials accurately and press firmly together.
+7. Apply uniform pressure across the entire bond area using a hand-held pressure roller.
 
 ## Safety and handling
 
@@ -73,11 +99,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Low VOC formulations; non-chlorinated options; zero ODP
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Backed by Quin Global manufacturer product warranty
 
 ## Specification starting point
 

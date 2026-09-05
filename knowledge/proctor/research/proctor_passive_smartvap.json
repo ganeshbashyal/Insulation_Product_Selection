@@ -1,0 +1,151 @@
+{
+  "family_id": "PROCTOR_PASSIVE_SMARTVAP",
+  "family_name": "Proctor Passive SmartVap",
+  "datasheet_pdf_url": "https://proctorgroup.com.au/product/proctorpassive-smartvap-air-barrier-variable-vapour-control-layer/",
+  "sds_url": "https://proctorgroup.com.au/product/proctorpassive-smartvap-air-barrier-variable-vapour-control-layer/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "ProctorPassive SmartVap 100 is an internal air barrier and\nvariable vapour control layer designed to control moisture movement and air\nleakage on the warm interior side of building envelopes. Manufactured from an\nair-tight, spunbonded polyolefin with a functional polymer layer, its\nmoisture-variable design adapts its vapour resistance according to ambient\nhumidity. In winter it limits vapour diffusion into cold wall cavities, while in\nsummer it opens up to permit inward drying, protecting timber framing from mould\nand rot.",
+    "features": [
+      "Variable vapour resistance: adapts permeability based\non relative humidity",
+      "Functions as an internal airtight barrier to satisfy\nblower door airtightness targets",
+      "Limits winter vapour diffusion into external\nwall and roof cavities",
+      "Allows inward drying in summer when interior humidity\nlevels reverse",
+      "High mechanical strength resistant to tearing and stretching\nduring installation",
+      "Translucent material allows timber stud and insulation\nplacement visibility",
+      "Ideal for Passive House, mass timber, and cold climate\nbuilding envelopes",
+      "Low Flammability Index compliant with AS 1530.2"
+    ],
+    "applications": [
+      "internal wall",
+      "wall",
+      "ceiling",
+      "roof",
+      "roofline"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "Spunbonded polyolefin with\nfunctional moisture-variable polymer coating",
+        "standard": ""
+      },
+      {
+        "property": "Duty Classification",
+        "value": "Medium Duty",
+        "standard": "AS/NZS 4200.1:2017"
+      },
+      {
+        "property": "Vapour Permeance (Smart Range)",
+        "value": "0.26 µg/N·s to 1.70\nµg/N·s (Variable Sd 0.2 m to 50 m+)",
+        "standard": "EN 12572 / ASTM E96"
+      },
+      {
+        "property": "Air Control",
+        "value": "Air Barrier",
+        "standard": "AS/NZS 4200.1:2017"
+      },
+      {
+        "property": "Water Control",
+        "value": "Non-Water\nBarrier (Internal use only)",
+        "standard": "AS/NZS 4201.4"
+      },
+      {
+        "property": "Flammability Index",
+        "value": "≤ 5",
+        "standard": "AS 1530.2"
+      },
+      {
+        "property": "Roll Dimensions",
+        "value": "1500 mm width x 50 m length (75 m²)",
+        "standard": ""
+      },
+      {
+        "property": "Nominal Mass",
+        "value": "110 g/m²",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "ProctorPassive SmartVap 100",
+        "size_or_rating": "1500\nmm x 50 m (75 m²)",
+        "pack": "Roll"
+      }
+    ],
+    "fire": "Flammability Index ≤ 5 to\nAS 1530.2",
+    "compliance": "AS/NZS 4200.1:2017 (Air Barrier), AS 1530.2, Passive\nHouse Institute certified component",
+    "sustainability": "100% recyclable\npolyolefin, low VOC emissions, halogen free",
+    "install": [
+      "Install on the warm\ninterior side of wall framing or ceiling joists over bulk insulation",
+      "Fix\ntautly across studs or rafters with staples or clouts at 150mm centres",
+      "Ensure\nprinted side faces inward toward the interior living space",
+      "Overlap\nconsecutive sheets by a minimum of 100mm",
+      "Tape all overlaps with an airtight\ntape such as Wraptite Tape or DriFlash Tape",
+      "Seal membrane securely to\nadjoining concrete floors, window frames, and ceilings with compatible\nadhesives",
+      "Seal all pipe, duct, and electrical cable penetrations with\nflexible airtight grommets or tape",
+      "Install interior plasterboard or timber\nlining over the membrane using battened service cavities"
+    ],
+    "selection_checklist": [
+      "Confirm hygrothermal design requires an internal smart\nvapour control layer (common in Climate Zones 6, 7, 8)",
+      "Verify membrane will\nbe installed on the interior warm side of bulk insulation",
+      "Calculate total\ninternal wall and ceiling area allowing 100mm overlaps",
+      "Ensure airtight\nseaming tapes and edge sealants are ordered"
+    ],
+    "accessories": [
+      "ProctorPassive\nWraptite Tape",
+      "ProctorPassive DriFlash Tape",
+      "Airtight grommets for\ncable/pipe penetrations"
+    ],
+    "limitations": [
+      "Internal application only; not for\nexternal weather-facing envelope installation",
+      "Do not leave exposed to\ninterior UV sunlight for longer than 60 days before lining",
+      "Must not be\npunctured without subsequent airtight taping"
+    ],
+    "warranty": "Backed by Proctor\nGroup Australia product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "ProctorPassive SmartVap",
+      "SmartVap 100",
+      "variable vapour control layer",
+      "smart vapour retarder",
+      "internal air barrier",
+      "intelligent vapour membrane",
+      "Proctor airtight membrane",
+      "Passive house vapour check"
+    ],
+    "problem_keywords": [
+      "winter condensation inside wall cavity",
+      "air leakage through internal\nplasterboard",
+      "timber framing rot from trapped moisture",
+      "inward vapour drive\nin summer",
+      "failing blower door test air leakage"
+    ],
+    "placement": [
+      "internal\nwall",
+      "wall",
+      "ceiling",
+      "roof",
+      "roofline"
+    ],
+    "priority_fit": [
+      "condensation",
+      "thermal",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Internal air\nbarrier and humidity-variable vapour control layer in cold-climate residential\nhomes",
+      "Continuous airtight envelope lining on the interior face of mass timber\nand cross-laminated timber (CLT) buildings",
+      "Internal moisture control in\nPassive House wall and roof assemblies to enable bidirectional seasonal drying"
+    ],
+    "not_for": [
+      "External weatherproofing outside the framing",
+      "Underfloor soil\ndirect contact",
+      "Roof sarking under exterior roof sheets"
+    ],
+    "rag_summary": "ProctorPassive SmartVap 100 is an internal air barrier and variable vapour\ncontrol layer (VCL) made from spunbonded polyolefin with a functional polymer\ncoating. It intelligently adapts its vapour permeability to ambient relative\nhumidity—acting as a vapour retarder in winter to prevent moisture entering\nframing, while opening up in summer to allow safe inward drying. Certified for\nPassive House airtightness with a Flammability Index ≤ 5 (AS 1530.2), it\nprevents interstitial condensation and mould behind internal linings."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

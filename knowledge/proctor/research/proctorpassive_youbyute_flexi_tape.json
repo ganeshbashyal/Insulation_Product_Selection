@@ -1,0 +1,168 @@
+{
+  "family_id": "PROCTOR_PASSIVE_YOUBYUTE_FLEXI_TAPE",
+  "family_name": "ProctorPassive YouByute Flexi Tape",
+  "datasheet_pdf_url": "https://proctorgroup.com.au/product/youbyute-flexi-tape-stretchable-butyl-corner-tape/",
+  "sds_url": "https://proctorgroup.com.au/product/youbyute-flexi-tape-stretchable-butyl-corner-tape/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "ProctorPassive YouByute Flexi Tape is a high performance, highly\nstretchable butyl flashing and sealing tape designed for complex\nthree-dimensional corners, penetrations, and structural junctions. Manufactured\nwith an exceptionally elastic creped polymer carrier coated with an aggressive,\npure butyl rubber adhesive, it stretches and conforms tightly around pipes,\nducts, window sills, and irregular apertures without tearing or pulling away.\nProtected by a split release paper, it provides a continuous, durable airtight\nand watertight seal in high-performance building envelopes.",
+    "features": [
+      "Highly stretchable creped carrier expands and contours around 3D corners and\ncurved pipes",
+      "Thick, high-tack pure butyl adhesive creates an instantaneous\nwaterproof bond",
+      "Conforms seamlessly to rough substrates, window sills,\npenetrations, and structural corners",
+      "Split release paper backing enables\nfast, precise placement without pre-stretching",
+      "Airtight and watertight\nbarrier compliant with Passive House envelope standards",
+      "Excellent adhesion to\ntimber, concrete, masonry, metal, PVC, and pliable membranes",
+      "Self-sealing\nformulation seals tightly around nail, screw, and fastener penetrations",
+      "Solvent-free formulation with low VOC emissions and zero chlorine"
+    ],
+    "applications": [
+      "wall",
+      "external wall",
+      "internal wall",
+      "roof",
+      "roofline",
+      "window",
+      "door",
+      "pipe",
+      "duct"
+    ],
+    "technical": [
+      {
+        "property": "Carrier",
+        "value": "Highly stretchable creped polyolefin / elastomer film",
+        "standard": ""
+      },
+      {
+        "property": "Adhesive Type",
+        "value": "Pure butyl rubber adhesive",
+        "standard": ""
+      },
+      {
+        "property": "Elongation / Stretch",
+        "value": "> 200% - 300%\nelasticity",
+        "standard": ""
+      },
+      {
+        "property": "Roll Dimensions",
+        "value": "60 mm\n/ 75 mm / 150 mm width x 25 m length",
+        "standard": ""
+      },
+      {
+        "property": "Thickness",
+        "value": "Approx. 1.2 mm - 1.5 mm",
+        "standard": ""
+      },
+      {
+        "property": "Temperature Resistance",
+        "value": "-40°C to +90°C",
+        "standard": ""
+      },
+      {
+        "property": "Application Temperature",
+        "value": "+5°C to +40°C",
+        "standard": ""
+      },
+      {
+        "property": "Waterproof / Airtight",
+        "value": "100% waterproof and airtight\nseal",
+        "standard": "EN 12114"
+      }
+    ],
+    "range": [
+      {
+        "variant": "YouByute Flexi\nTape 60mm",
+        "size_or_rating": "60 mm x 25 m",
+        "pack": "Roll"
+      },
+      {
+        "variant": "YouByute Flexi Tape 75mm",
+        "size_or_rating": "75 mm x 25 m",
+        "pack": "Roll"
+      },
+      {
+        "variant": "YouByute Flexi Tape 150mm",
+        "size_or_rating": "150 mm x 25 m",
+        "pack": "Roll"
+      }
+    ],
+    "fire": "Tested for low flammability; suitable for use with\nBAL-compliant wall and roof systems",
+    "compliance": "AS/NZS 4200.2:2017,\nNCC 2022 Volume One and Two, Passive House air barrier certified",
+    "sustainability": "Solvent-free, zero chlorine, low VOC emissions,\nnon-hazardous",
+    "install": [
+      "Ensure substrate (timber, steel, PVC, membrane, or\nconcrete) is clean, dry, and dust-free",
+      "Apply compatible primer to porous\nmasonry or fibrous concrete if required",
+      "Measure tape length allowing for\ncorner stretch and overlap",
+      "Peel back the first half of the split release\npaper backing",
+      "Position the tape over the corner, window sill, or pipe\ninterface without pre-stretching",
+      "Press into position, then stretch and mould\nthe flexible backing to hug the 3D contour or curve",
+      "Peel away remaining\nrelease liner and smooth tape firmly against the adjoining substrate",
+      "Consolidate bond across the entire tape surface using a hard roller to activate\nbutyl adhesion"
+    ],
+    "selection_checklist": [
+      "Confirm application involves 3D\ncorners, curved pipes, window sills, or irregular penetrations",
+      "Select width\n(60mm/75mm for pipes and corners; 150mm for full window sill flashing)",
+      "Check\nsubstrate condition to determine if primer is needed (recommended on porous\nmasonry)",
+      "Ensure ambient installation temperature is above +5°C"
+    ],
+    "accessories": [
+      "ProctorPassive Primer",
+      "Hard rubber pressure roller",
+      "ProctorWrap building membranes"
+    ],
+    "limitations": [
+      "Do not over-stretch\nbeyond 200% as excessive tension may reduce adhesive thickness",
+      "Porous,\nchalky, or damp masonry requires priming prior to application",
+      "Must not be\nleft exposed to permanent UV sunlight beyond rated exposure limits"
+    ],
+    "warranty": "Backed by Proctor Group Australia product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "YouByute Flexi Tape",
+      "Proctor YouByute Flexi",
+      "stretchable butyl tape",
+      "corner flashing tape",
+      "pipe penetration tape",
+      "butyl corner tape",
+      "airtight pipe tape",
+      "stretchable window sill tape",
+      "Proctor butyl tape"
+    ],
+    "problem_keywords": [
+      "water leaks around circular pipe\npenetrations",
+      "air leaks in 90 degree window sill corners",
+      "tape creasing\naround curved ducts",
+      "flashing irregular penetrations through wrap",
+      "failing\nblower door test around services"
+    ],
+    "placement": [
+      "wall",
+      "external wall",
+      "internal wall",
+      "roof",
+      "roofline",
+      "pipe",
+      "duct"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "condensation",
+      "thermal"
+    ],
+    "use_cases": [
+      "Moulding and\nsealing airtight, waterproof collars around circular plumbing pipes and\nelectrical conduits penetrating building wraps",
+      "Flashing complex 3D internal\nand external corners in window rough openings and recessed door thresholds",
+      "Airtight sealing of irregular structural junctions, beam penetrations, and\nmetal ductwork transitions"
+    ],
+    "not_for": [
+      "Permanent immersion in standing\nwater",
+      "High-temperature flue exhaust pipes above 90°C",
+      "Straight flat\nmembrane lap joins (use standard flat tape instead)"
+    ],
+    "rag_summary": "ProctorPassive YouByute Flexi Tape is an elastic, stretchable butyl rubber\nflashing and sealing tape designed for complex 3D corners, curved pipes, and\nirregular envelope penetrations. Featuring an ultra-pliant creped carrier that\nelongates up to 300% and a heavy coating of aggressive pure butyl adhesive, it\nmoulds tightly around difficult geometric junctions without tearing or\npuckering. Equipped with a split release liner for quick corner placement, it\nforms an instantaneous, airtight, and watertight seal essential for Passive\nHouse and high-performance weatherproofing."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

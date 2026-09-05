@@ -1,7 +1,7 @@
 ---
 title: "ProctorPassive YouByute Flexi Tape - Accessory Insulation | Proctor"
-description: "Quality insulation engineered for Australian conditions. Engineered to meet Australian building requirements."
-keywords: "ProctorPassive YouByute Flexi Tape, Proctor accessory, insulation Australia, Proctor Australia"
+description: "ProctorPassive YouByute Flexi Tape is a high performance, highly stretchable butyl flashing and sealing tape designed for complex three-dimensional co"
+keywords: "ProctorPassive YouByute Flexi Tape, Proctor accessory, wall insulation, roof insulation, pipe insulation, duct insulation, insulation Australia, Proctor Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: PROCTOR_PASSIVE_YOUBYUTE_FLEXI_TAPE
 ---
@@ -10,25 +10,37 @@ family_id: PROCTOR_PASSIVE_YOUBYUTE_FLEXI_TAPE
 
 **Proctor Accessory** — installation accessories and fixings.
 
-Quality insulation engineered for Australian conditions. Engineered to meet Australian building requirements.
+ProctorPassive YouByute Flexi Tape is a high performance, highly stretchable butyl flashing and sealing tape designed for complex three-dimensional corners, penetrations, and structural junctions. Manufactured with an exceptionally elastic creped polymer carrier coated with an aggressive, pure butyl rubber adhesive, it stretches and conforms tightly around pipes, ducts, window sills, and irregular apertures without tearing or pulling away. Protected by a split release paper, it provides a continuous, durable airtight and watertight seal in high-performance building envelopes.
 
 ## Key features
 
-- High-performance sealing and joining solution.
-- maintains air and vapour barrier continuity.
-- compatible with a range of insulation substrates.
+- Highly stretchable creped carrier expands and contours around 3D corners and curved pipes.
+- Thick, high-tack pure butyl adhesive creates an instantaneous waterproof bond.
+- Conforms seamlessly to rough substrates, window sills, penetrations, and structural corners.
+- Split release paper backing enables fast, precise placement without pre-stretching.
+- Airtight and watertight barrier compliant with Passive House envelope standards.
+- Excellent adhesion to timber, concrete, masonry, metal, PVC, and pliable membranes.
+- Self-sealing formulation seals tightly around nail, screw, and fastener penetrations.
+- Solvent-free formulation with low VOC emissions and zero chlorine.
 
 ## Applications and selection
 
-- Passive House Membrane
+- wall
+- external wall
+- internal wall
+- roof
+- roofline
+- window
+- door
+- pipe
+- duct
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm application involves 3D corners, curved pipes, window sills, or irregular penetrations.
+2. Select width (60mm/75mm for pipes and corners; 150mm for full window sill flashing).
+3. Check substrate condition to determine if primer is needed (recommended on porous masonry).
+4. Ensure ambient installation temperature is above +5°C.
 
 
 ## Current catalogue range
@@ -39,33 +51,53 @@ Quality insulation engineered for Australian conditions. Engineered to meet Aust
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Accessory | Manufacturer catalogue |
-| Material | Tape / Sealant | Manufacturer catalogue |
-| Applications | Passive House Membrane | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Carrier | Highly stretchable creped polyolefin / elastomer film | - |
+| Adhesive Type | Pure butyl rubber adhesive | - |
+| Elongation / Stretch | > 200% - 300% elasticity | - |
+| Roll Dimensions | 60 mm / 75 mm / 150 mm width x 25 m length | - |
+| Thickness | Approx. 1.2 mm - 1.5 mm | - |
+| Temperature Resistance | -40°C to +90°C | - |
+| Application Temperature | +5°C to +40°C | - |
+| Waterproof / Airtight | 100% waterproof and airtight seal | EN 12114 |
 
-
+Extracted from manufacturer datasheet: https://proctorgroup.com.au/product/youbyute-flexi-tape-stretchable-butyl-corner-tape/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Tested for low flammability; suitable for use with BAL-compliant wall and roof systems
+
+AS/NZS 4200.2:2017, NCC 2022 Volume One and Two, Passive House air barrier certified
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://proctorgroup.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://proctorgroup.com.au/wp-content/uploads/2021/02/DCT_PIR_Silver_White_Tissue_Ver_2_2020-2.pdf.
 
+## Recommended accessories
+
+- ProctorPassive Primer.
+- Hard rubber pressure roller.
+- ProctorWrap building membranes.
+
 
 ## Limitations and warnings
 
-- Install in accordance with manufacturer specifications..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Do not over-stretch beyond 200% as excessive tension may reduce adhesive thickness.
+- Porous, chalky, or damp masonry requires priming prior to application.
+- Must not be left exposed to permanent UV sunlight beyond rated exposure limits.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Install in accordance with manufacturer specifications.
+1. Ensure substrate (timber, steel, PVC, membrane, or concrete) is clean, dry, and dust-free.
+2. Apply compatible primer to porous masonry or fibrous concrete if required.
+3. Measure tape length allowing for corner stretch and overlap.
+4. Peel back the first half of the split release paper backing.
+5. Position the tape over the corner, window sill, or pipe interface without pre-stretching.
+6. Press into position, then stretch and mould the flexible backing to hug the 3D contour or curve.
+7. Peel away remaining release liner and smooth tape firmly against the adjoining substrate.
+8. Consolidate bond across the entire tape surface using a hard roller to activate butyl adhesion.
 
 ## Safety and handling
 
@@ -73,11 +105,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Solvent-free, zero chlorine, low VOC emissions, non-hazardous
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Backed by Proctor Group Australia product warranty
 
 ## Specification starting point
 

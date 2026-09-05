@@ -1,0 +1,65 @@
+{
+  "family_id": "PROCTOR_REFLECTIVE",
+  "family_name": "Proctor Reflective",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "gemini_not_found",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "",
+    "features": "",
+    "applications": "",
+    "technical": "",
+    "range": "",
+    "fire": "",
+    "compliance": "",
+    "sustainability": "",
+    "install": "",
+    "selection_checklist": "",
+    "accessories": "",
+    "limitations": "",
+    "warranty": ""
+  },
+  "retrieval": {
+    "search_keywords": [
+      "proctor reflective",
+      "proctor reflective foil",
+      "proctor reflective membrane",
+      "proctor sarking",
+      "proctor reflective underlay",
+      "reflective building wrap\nproctor"
+    ],
+    "problem_keywords": [
+      "radiant heat in roof space",
+      "summer heat\ngain through walls",
+      "condensation under roof sheets",
+      "high cooling energy\nbills",
+      "draughts in metal clad roof"
+    ],
+    "placement": [
+      "roof",
+      "roofline",
+      "wall",
+      "external wall",
+      "shed"
+    ],
+    "priority_fit": [
+      "thermal",
+      "condensation",
+      "budget"
+    ],
+    "use_cases": [
+      "Reflecting radiant heat under residential pitched\nmetal or tile roofs",
+      "Thermal barrier wrap on external timber or steel wall\nframing",
+      "Condensation and draught control in domestic steel sheds and garages"
+    ],
+    "not_for": [
+      "Cold-climate walls where non-reflective vapour-permeable wraps\nare mandated",
+      "Direct floor foot traffic surfaces",
+      "High-temperature exhaust\nflues"
+    ],
+    "rag_summary": "Proctor Reflective represents reflective foil\nmembranes or foil-laminated pliable building fabrics historically or generically\nreferenced within the Proctor product scope. While Proctor Group Australia\nprimarily specializes in high-performance non-reflective vapour-permeable\nmembranes (such as ProctorWrap and ProctorPassive), reflective foil laminates\nreflect up to 95-97% of radiant heat when installed adjacent to an enclosed\nairspace. They serve as radiant thermal barriers, weather barriers, and vapour\ncontrol layers in roofs, walls, and sheds."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

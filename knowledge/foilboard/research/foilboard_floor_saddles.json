@@ -1,0 +1,132 @@
+{
+  "family_id": "FOILBOARD_FLOOR_SADDLES",
+  "family_name": "Foilboard Floor Saddles",
+  "datasheet_pdf_url": "https://www.foilboard.com.au/product/floor-saddles/",
+  "sds_url": "https://www.foilboard.com.au/wp-content/uploads/2021/04/Foilboard-Green-Safety-Data-Sheet.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Foilboard Floor Saddles are specialized galvanized steel support\nbrackets engineered specifically for installing Foilboard rigid insulation\nboards between timber floor joists. Designed with pre-set drops, they\nautomatically create and maintain the required 20mm+ still reflective airspace\nbetween the insulation panel and the underside of floorboards. Suitable for new\nsuspended floor construction or retrofits from above, they hold Foilboard panels\nsecurely in place without compression, preventing sagging over the life of the\nbuilding.",
+    "features": [
+      "Engineered specifically for suspending Foilboard\npanels between timber floor joists",
+      "Pre-set drop automatically establishes the\ncritical 20mm reflective airspace",
+      "Constructed from durable galvanized spring\nsteel to resist corrosion",
+      "Simple hammer-on or press-fit installation onto\ntimber joists",
+      "Available in sizes to accommodate 10-25mm and 20-50mm board\nthicknesses",
+      "Maintains permanent panel position, preventing sagging or\ndislocation",
+      "Eliminates the need for adhesives or complicated underfloor\nstrapping",
+      "Accelerates installation from above before laying floorboards"
+    ],
+    "applications": [
+      "underfloor",
+      "floor",
+      "subfloor",
+      "between floors"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "Galvanized spring steel",
+        "standard": ""
+      },
+      {
+        "property": "Saddle Depths",
+        "value": "100 mm drop\n(for 10-25mm boards) / 130 mm drop (for 20-50mm boards)",
+        "standard": ""
+      },
+      {
+        "property": "Airspace Maintained",
+        "value": "Guaranteed minimum 20 mm reflective\nstill air gap beneath floorboards",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Corrosion Protection",
+        "value": "Galvanized coating",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Foilboard Floor Saddles 10-25mm",
+        "size_or_rating": "100 mm depth (suits 10mm to 25mm Foilboard)",
+        "pack": "Box of 100 / Box of 250"
+      },
+      {
+        "variant": "Foilboard Floor Saddles 20-50mm",
+        "size_or_rating": "130 mm\ndepth (suits 20mm to 50mm Foilboard)",
+        "pack": "Box of 100 / Box of 250"
+      }
+    ],
+    "fire": "Non-combustible galvanized steel; complies with AS 3959 underfloor\nbushfire requirements",
+    "compliance": "AS/NZS 4859.1, AS 3999, NCC Volume One\nand Two underfloor thermal provisions",
+    "sustainability": "100% recyclable\nsteel; zero ODP",
+    "install": [
+      "Measure timber floor joist spacing\n(typically 450mm or 600mm centers)",
+      "Fit Foilboard Floor Saddles over the top\nedge of floor joists spaced at approximately 600mm to 750mm centers",
+      "Tap\nsaddles flush onto the joists so the cradle hangs down between the joists",
+      "Cut\nFoilboard panels to width matching the internal spacing between joists",
+      "Lower\nFoilboard panel into the joist bay until it rests flat inside the saddle\ncradles",
+      "Verify the panel sits below the top of the joist, leaving the\nrequired 20mm+ air space",
+      "Tape butt joins between panel ends with\nFoilboard 72mm reinforced foil tape",
+      "Install tongue-and-groove flooring or\nfloorboards directly over the joists"
+    ],
+    "selection_checklist": [
+      "Confirm\nFoilboard panel thickness to select saddle depth (100mm for 10-25mm; 130mm\nfor 20-50mm)",
+      "Measure total floor joist length to determine saddle quantity\n(approx. 4-6 saddles per 2.4m bay)",
+      "Confirm installation is from above before\nsubfloor sheeting is installed",
+      "Order matching 72mm reinforced foil tape for\npanel end joins"
+    ],
+    "accessories": [
+      "Foilboard Green panels",
+      "Foilboard 72mm\nReinforced Aluminum Foil Tape"
+    ],
+    "limitations": [
+      "Designed for installation\nfrom above before floorboards are laid; for underfloor retrofits from below, use\nFoilboard Retrofit Clips",
+      "Must not be installed on wet or rotting timber\njoists",
+      "Non-structural bracket; do not walk on unsupported panels inside\nsaddles"
+    ],
+    "warranty": "Covered under Foilboard 25-year performance warranty\nsystem"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Foilboard Floor Saddles",
+      "Foilboard saddles",
+      "underfloor insulation brackets",
+      "Foilboard joist clips",
+      "floor joist insulation saddles",
+      "Foilboard underfloor hangers",
+      "Foilboard\nsaddle 100mm",
+      "Foilboard saddle 130mm"
+    ],
+    "problem_keywords": [
+      "underfloor\ninsulation sagging between joists",
+      "maintaining airspace under floorboards",
+      "installing Foilboard from above joists",
+      "cold drafts through floorboards",
+      "fitting rigid insulation between joists"
+    ],
+    "placement": [
+      "underfloor",
+      "floor",
+      "subfloor",
+      "between floors"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "thermal"
+    ],
+    "use_cases": [
+      "Cradling Foilboard panels between timber joists in\nnew suspended residential floor construction",
+      "Guaranteeing a 20mm reflective\nair gap beneath tongue-and-groove timber floorboards",
+      "Preventing underfloor\ninsulation panels from shifting, sagging, or vibrating over time"
+    ],
+    "not_for": [
+      "Wall installations (use Blank Plates or Flexifast)",
+      "Concrete raft slabs",
+      "Direct foot traffic support"
+    ],
+    "rag_summary": "Foilboard Floor Saddles are\ngalvanized spring-steel support brackets designed to cradle Foilboard panels\nbetween timber joists in new suspended floor construction. Engineered in 100mm\nand 130mm depths to accommodate panels from 10mm to 50mm, they automatically\nguarantee the critical 20mm reflective airspace required beneath floorboards to\nachieve rated underfloor R-values. Installed from above before flooring is laid,\nthey hold panels permanently in place without sagging, eliminating the need for\nstrapping or adhesives."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

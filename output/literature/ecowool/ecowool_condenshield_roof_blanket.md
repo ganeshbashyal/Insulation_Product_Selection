@@ -1,7 +1,7 @@
 ---
 title: "Ecowool Condenshield Roof Blanket - Batt Insulation | Ecowool"
-description: "Quality insulation engineered for Australian conditions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability"
-keywords: "Ecowool Condenshield Roof Blanket, Ecowool batt, roof insulation, insulation Australia, Ecowool Australia"
+description: "Ecowool CondenShield is a lightweight, reflective foil-faced glass mineral wool insulation blanket designed for fire safety, thermal performance, cond"
+keywords: "Ecowool Condenshield Roof Blanket, Ecowool batt, ceiling insulation, roof insulation, floor insulation, underfloor insulation, shed insulation, insulation Australia, Ecowool Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: ECOWOOL_CONDENSHIELD_ROOF_BLANKET
 ---
@@ -10,28 +10,36 @@ family_id: ECOWOOL_CONDENSHIELD_ROOF_BLANKET
 
 **Ecowool Batt** — bulk insulation batts for thermal and acoustic performance.
 
-Quality insulation engineered for Australian conditions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability.
+Ecowool CondenShield is a lightweight, reflective foil-faced glass mineral wool insulation blanket designed for fire safety, thermal performance, condensation control, and acoustic absorption in metal and tile roof systems. Manufactured with SensiTouch technology using nearly 80% recycled glass and a natural anti-formaldehyde binder, it significantly slows heat transfer into and out of the building while damping outside rain noise. The reflective foil facing acts as a barrier against radiant heat and prevents condensation accumulation beneath roof cladding.
 
 ## Key features
 
-- 100% polyester - safe to handle without protective equipment.
-- contains minimum 80% recycled PET plastic bottles.
-- non-allergenic, non-irritant formulation.
-- will not support mould or mildew growth.
-- maintains performance when wet.
-- excellent thermal performance for roof/ceiling applications.
+- Lightweight glass mineral wool blanket with laminated reflective aluminium foil facing.
+- Controls condensation beneath residential and commercial metal or tile roofs.
+- Significant acoustic damping against exterior rain impact noise.
+- SensiTouch Technology with natural anti-formaldehyde binder.
+- Non-combustible glass mineral wool core tested to AS 1530.1:1994.
+- Flammability index of foil facing ≤ 5 compliant with BCA/NCC.
+- Suitable for sealing ember entry points in bushfire zones up to BAL-40.
+- Manufactured from up to 80% recycled glass with bio-soluble fibres.
+- Chemically inert; non-corrosive to steel, copper, and aluminium.
+- Tested to AS/NZS 4859.1:2002 / 2018.
 
 ## Applications and selection
 
-- Roof Blanket
+- roof
+- roofline
+- ceiling
+- shed
+- underfloor
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm roof type (metal deck or tile roof).
+2. Determine target R-value (R1.3, R1.8, R2.5, or R3.7) to meet NCC roof energy requirements.
+3. Calculate total roof area including 50-100mm side overlaps.
+4. Verify foil facing specification (standard reflective foil facing with Flammability Index ≤ 5).
+5. Confirm supply of matching reinforced foil tape for lap sealing.
 
 
 ## Current catalogue range
@@ -42,36 +50,53 @@ Quality insulation engineered for Australian conditions. Safe to handle without 
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Batt | Manufacturer catalogue |
-| Material | Polyester | Manufacturer catalogue |
-| Applications | Roof Blanket | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material | Bio-soluble glass mineral wool bonded with SensiTouch binder, laminated with reflective foil | - |
+| R-Values & Thicknesses | R1.3 (60mm, 10kg/m³), R1.8 (80mm, 11kg/m³), R2.5 (100mm, 14kg/m³), R3.7 (150mm, 14.5kg/m³) | AS/NZS 4859.1 |
+| Width | 1200 mm | - |
+| Roll Lengths | 60mm: 15 m (18 m²); 80mm: 15 m (18 m²); 100mm: 10 m (12 m²); 150mm: 5 m (6 m²) | - |
+| Combustibility (Core) | Non-combustible | AS 1530.1:1994 |
+| Early Fire Hazard Indices | Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1 | AS 1530.3:1999 |
+| Surface Burning Characteristics | Passes limited combustibility | ASTM E84 |
+| Thermal Conductivity | Tested at 23°C mean temperature | ASTM C518 |
+| Facing Flammability Index | ≤ 5 | AS 1530.2 |
+| Maximum Service Temperature | 350°C (unfaced core) | - |
 
-
+Extracted from manufacturer datasheet: https://pgfinsulation.com.au/products/condenshield-blanket/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Core non-combustible to AS 1530.1:1994; AS 1530.3:1999 indices: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-1; Facing Flammability Index ≤ 5 (AS 1530.2); Suitable for sealing ember entry points up to BAL-40 under AS 3959
+
+AS/NZS 4859.1, Building Code of Australia (BCA) / NCC, AS 3959
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://chadgroup.com.au/wp-content/uploads/2022/09/eco-wool-datasheet.pdf (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://chadgroup.com.au/wp-content/uploads/2022/09/eco-wool-datasheet.pdf.
 
+## Recommended accessories
+
+- Reinforced aluminium foil tape.
+- Roofing safety wire mesh.
+- Fasteners / tek screws.
+
 
 ## Limitations and warnings
 
-- Not suitable for fire rating without additional protection..
-- not to be exposed to weather or sustained moisture..
-- do not compress beyond manufacturer recommendations..
-- check fire-rated system requirements..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Must not be left exposed to direct weathering prior to roof sheet installation.
+- Foil joints must be taped continuously to prevent condensation breaching the vapour barrier.
+- Do not install directly over non-IC rated recessed lighting without proper clearances.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for fire rating without additional protection.
+1. Roll out CondenShield blanket over roof purlins, rafters, or safety wire mesh with foil facing downward towards the ceiling space.
+2. Ensure adjacent blanket rolls are overlapped by minimum 50mm to 100mm.
+3. Tape all foil joints securely with reinforced aluminium foil tape to maintain a continuous vapour barrier.
+4. Allow nominal drape of approximately 40mm between purlins if required for condensation drainage.
+5. Install metal roofing sheets directly over the blanket, fixing through to purlins.
+6. Ensure blanket ends extend into the gutter line without blocking drainage channels.
 
 ## Safety and handling
 
@@ -79,11 +104,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Manufactured from nearly 80% recycled glass; SensiTouch formaldehyde-free binder; Low VOC; Zero ODP; Bio-soluble fibres
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+PGF Australia product warranty
 
 ## Specification starting point
 

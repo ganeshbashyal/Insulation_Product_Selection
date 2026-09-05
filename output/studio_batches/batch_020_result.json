@@ -1,0 +1,857 @@
+
+[ { "family_id": "POLYAIR_THERMO_REFLECTIVE_PRODUCTS_POLYAIR_UNICE", "tds_url":
+"https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/sheds/polyair-unicell",
+"sds_url": "", "description": "Bradford Polyair Unicell is an extra heavy duty,
+commercial-grade thermo-reflective insulation roll engineered for roofs and
+walls in residential, shed, and warehouse applications. Composed of an inner
+fire-retardant bubble cell core laminated between two external layers of extra
+heavy duty pure aluminum reflective foil, it reflects up to 95% of radiant heat
+in summer and helps retain warmth in winter. When taped and sealed, it forms a
+weather barrier that blocks draughts, dust, and moisture while reducing
+condensation on metal cladding surfaces.", "features": [ "Extra heavy duty
+commercial-grade reflective shed and residential insulation roll",
+"Fire-retardant polyethylene bubble cell core provides rigidity and
+handleability", "Reflects up to 95% of radiant heat, improving year-round
+thermal comfort", "Effective weather barrier: when taped, blocks rain, dust, and
+draughts", "Reduces condensation formation on interior metal cladding surfaces",
+"Extra heavy duty tear and puncture resistance withstands rough site handling",
+"Low Flammability Index compliant with AS 1530.2", "Lightweight and easy to roll
+out over purlins or studs" ], "applications": [ "roof", "roofline", "wall",
+"external wall", "shed" ], "technical": [ { "property": "Material", "value":
+"Fire-retardant bubble core laminated between dual extra heavy duty aluminum
+foil facings", "standard": "" }, { "property": "Total Thickness", "value": "4 mm
+(+/- 0.5 mm)", "standard": "" }, { "property": "Roll Dimensions", "value": "1350
+mm width x 40 m length (54 m²); 1500 mm width x 25 m length (37.5 m²)",
+"standard": "" }, { "property": "Duty Classification", "value": "Extra Heavy
+Duty", "standard": "AS/NZS 4200.1" }, { "property": "Emittance", "value": "0.03
+- 0.05 (reflects up to 95% radiant heat)", "standard": "AS/NZS 4201.5" }, {
+"property": "Water Control", "value": "Water Barrier", "standard":
+"AS/NZS 4201.4" }, { "property": "Vapor Barrier", "value": "Class 1 / Class 2
+Vapor Barrier", "standard": "ASTM E96" }, { "property": "Flammability Index",
+"value": "≤ 5 (Low Flammability)", "standard": "AS 1530.2" }, { "property":
+"Product Code", "value": "127418 (1350mm x 40m), 130301 (1500mm x 25m)",
+"standard": "" } ], "range": [ { "variant": "Polyair Unicell 4.0 (1350mm
+x 40m)", "size_or_rating": "4 mm x 1350 mm x 40 m (54 m²)", "pack": "Roll
+(Code: 127418)" }, { "variant": "Polyair Unicell 4.0 (1500mm x 25m)",
+"size_or_rating": "4 mm x 1500 mm x 25 m (37.5 m²)", "pack": "Roll
+(Code: 130301)" }, { "variant": "Polyair Unicell White", "size_or_rating": "4 mm
+x 1350 mm x 40 m (54 m²)", "pack": "Roll (Code: 130302)" } ], "fire":
+"Flammability Index ≤ 5 to AS 1530.2; Suitable for bushfire construction up to
+BAL-40 to AS 3959", "compliance": "AS/NZS 4200.1, AS/NZS 4200.2, AS 1530.2,
+AS 3959, NCC Volume One & Two", "sustainability": "Zero ODP; low VOC emissions;
+non-toxic fiber-free core", "install": [ "Roll out Polyair Unicell over roof
+purlins or wall girts perpendicular to framing", "Allow a nominal 40mm drape
+between purlins to create an airspace and manage condensation drainage",
+"Overlap adjoining runs by minimum 50mm to 100mm", "Tape all laps and perimeter
+joins with 72mm reinforced aluminum foil tape to form a continuous seal", "Fix
+metal roof or wall sheeting directly through the insulation to purlins", "Ensure
+insulation drains freely into gutters without ponding" ], "selection_checklist":
+[ "Confirm application is metal shed, warehouse, or residential roof/wall",
+"Choose roll width (1350mm standard or 1500mm wide)", "Verify requirement for
+reflective air space (minimum 20mm gap required to achieve thermal rating)",
+"Order matching 72mm reinforced foil tape" ], "accessories": [ "Bradford 72mm
+Reinforced Aluminum Foil Tape", "Wafer head screws and washers" ],
+"limitations": [ "Requires an adjacent air gap of at least 20mm to achieve rated
+thermal R-values", "Not designed as a primary roof cladding; must be protected
+by roof sheets", "Avoid contact with wet alkaline concrete or mortar" ],
+"warranty": "Backed by CSR Bradford product warranty", "found": true,
+"search_keywords": [ "Polyair Unicell", "Bradford Polyair Unicell", "Unicell
+shed insulation", "Unicell 4.0", "bubble core reflective insulation",
+"thermoreflective shed wrap", "reflective shed insulation roll", "Polyair bubble
+foil" ], "problem_keywords": [ "hot shed in summer", "condensation dripping in
+tin shed", "uninsulated metal shed walls", "radiant heat from metal roof", "shed
+insulation without internal lining", "dust and draughts in shed" ], "placement":
+[ "roof", "roofline", "wall", "external wall", "shed" ], "priority_fit": [
+"thermal", "condensation", "easy_install" ], "use_cases": [ "Insulating roofs
+and walls of residential and rural steel sheds to reflect radiant heat",
+"Condensation control under corrugated metal roofing in workshops and garages",
+"Thermal barrier wrap in commercial metal clad warehouses and outbuildings" ],
+"not_for": [ "Direct underfloor soil contact", "Internal drywall cavity batts
+without air space", "High-temperature flue exhaust wrapping" ], "rag_summary":
+"Bradford Polyair Unicell is an extra heavy duty, commercial-grade
+thermo-reflective insulation roll composed of a fire-retardant bubble cell core
+laminated between dual layers of pure aluminium foil. Designed for residential
+sheds, garages, and commercial warehouses, it reflects up to 95% of radiant heat
+in summer while reducing condensation on metal surfaces and blocking wind-driven
+draughts. With an Extra Heavy Duty rating to AS/NZS 4200.1 and a Flammability
+Index ≤ 5 (BAL-40 suitable), it provides durable, fibre-free thermal control for
+unlined metal buildings." }, { "family_id":
+"POLYAIR_THERMO_REFLECTIVE_PRODUCTS_POLYAIR_UNICE_2", "tds_url":
+"https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/sheds/polyair-unicell",
+"sds_url": "", "description": "Bradford Polyair Unicell Self Adhesive is an
+extra heavy duty, commercial-grade thermo-reflective insulation roll featuring
+an integrated self-adhesive lap tape system with a peel-off release liner.
+Engineered with an inner fire-retardant bubble core laminated between dual
+reflective aluminum foil layers, the self-adhesive edge streamlines on-site
+joining, eliminating the need for a second installer to hold tapes during lap
+sealing. It reflects up to 95% of radiant heat, controls condensation on metal
+surfaces, and forms an airtight weather barrier in shed and residential roofs
+and walls.", "features": [ "Integrated self-adhesive lap tape with release liner
+for streamlined, rapid installation", "Extra heavy duty commercial-grade
+reflective insulation roll", "Fire-retardant bubble cell core provides
+structural handling stability", "Reflects up to 95% of radiant heat in summer
+and retains warmth in winter", "Self-adhesive edge ensures tight, clean, and
+durable overlap seals without loose tape", "Forms a continuous weather, air, and
+moisture barrier when sealed", "Dramatically reduces condensation dripping from
+underside of metal roof sheeting", "Extra heavy duty puncture and tear
+resistance", "Flammability index compliant with AS 1530.2" ], "applications": [
+"roof", "roofline", "wall", "external wall", "shed" ], "technical": [ {
+"property": "Material", "value": "Fire-retardant bubble core with dual aluminum
+foil facings and integrated self-adhesive lap tape", "standard": "" }, {
+"property": "Thickness", "value": "4 mm (+/- 0.5 mm)", "standard": "" }, {
+"property": "Roll Dimensions", "value": "1350 mm width x 40 m length (54 m²)",
+"standard": "" }, { "property": "Duty Classification", "value": "Extra Heavy
+Duty", "standard": "AS/NZS 4200.1" }, { "property": "Emittance", "value": "0.03
+- 0.05", "standard": "AS/NZS 4201.5" }, { "property": "Water Control", "value":
+"Water Barrier", "standard": "AS/NZS 4201.4" }, { "property": "Vapor Control",
+"value": "Class 1 / Class 2 Vapor Barrier", "standard": "ASTM E96" }, {
+"property": "Flammability Index", "value": "≤ 5 (Low Flammability)", "standard":
+"AS 1530.2" }, { "property": "Product Code", "value": "130304", "standard": "" }
+], "range": [ { "variant": "Polyair Unicell Self Adhesive 4.0",
+"size_or_rating": "4 mm x 1350 mm x 40 m (54 m²)", "pack": "Roll (Code: 130304)"
+} ], "fire": "Flammability Index ≤ 5 to AS 1530.2; Suitable for BAL-12.5 to
+BAL-40 to AS 3959", "compliance": "AS/NZS 4200.1, AS/NZS 4200.2, AS 1530.2,
+AS 3959, NCC Volume One & Two", "sustainability": "Zero ODP; low VOC emissions;
+fiber-free non-toxic core", "install": [ "Roll out Polyair Unicell Self Adhesive
+across roof purlins or wall framing", "Position adjoining roll so its edge
+aligns over the self-adhesive lap margin", "Peel back the protective release
+liner along the self-adhesive strip progressively", "Press the overlapping sheet
+firmly down onto the exposed adhesive strip", "Smooth out using a squeegee or
+hand roller to ensure a complete, airtight seal", "Fasten metal sheeting over
+the insulation into purlins or studs" ], "selection_checklist": [ "Confirm
+requirement for self-adhesive lap feature to reduce labor and extra taping",
+"Measure total roof and wall area allowing for lap coverage (54m² per roll)",
+"Verify air gap requirement (minimum 20mm) to achieve thermal R-value", "Order
+end-lap sealing tape for transverse cut ends" ], "accessories": [ "Bradford 72mm
+Reinforced Aluminum Foil Tape", "Pressure squeegee", "Wafer head screws" ],
+"limitations": [ "Self-adhesive strip is on longitudinal edge; transverse end
+cuts still require separate foil tape", "Surfaces must be dry and free of dust
+for the self-adhesive lap to bond properly", "Requires minimum 20mm air space to
+deliver rated system R-values" ], "warranty": "Backed by CSR Bradford product
+warranty", "found": true, "search_keywords": [ "Polyair Unicell Self Adhesive",
+"Bradford Unicell Self Adhesive", "self adhesive shed insulation", "bubble foil
+with adhesive strip", "Polyair 130304", "peel and stick shed insulation", "self
+sealing reflective insulation", "Unicell self adhesive roll" ],
+"problem_keywords": [ "insulation tape peeling in shed", "difficult overhead lap
+taping on roof", "condensation dripping through foil joins", "slow shed
+insulation installation", "air and water leaks at insulation laps" ],
+"placement": [ "roof", "roofline", "wall", "external wall", "shed" ],
+"priority_fit": [ "easy_install", "thermal", "condensation" ], "use_cases": [
+"Fast single-person roof insulation installation in domestic metal sheds using
+integrated self-adhesive laps", "Reflective wall insulation in commercial steel
+portal-frame warehouses", "Condensation barrier under corrugated metal roofing
+with streamlined overlap sealing" ], "not_for": [ "Direct floor traffic
+surfaces", "Subterranean wet tanking", "Operating temperatures continuously
+exceeding 80°C" ], "rag_summary": "Bradford Polyair Unicell Self Adhesive is an
+extra heavy duty 4mm thermo-reflective shed insulation roll featuring an
+integrated self-adhesive lap tape with a peel-off release liner. Constructed
+with an inner fire-retardant bubble core and dual pure aluminium reflective foil
+facings, it eliminates the need for separate joint taping on longitudinal runs
+while reflecting up to 95% of radiant heat. Certified Extra Heavy Duty to
+AS/NZS 4200.1 with a low Flammability Index (≤ 5, BAL-40 compliant), it
+accelerates weatherproofing and condensation control in metal sheds and
+garages." }, { "family_id": "POLYESTER_SOLUTIONS_BATT", "tds_url":
+"https://www.polyestersolutions.com.au/thermal-insulation", "sds_url":
+"https://www.polyestersolutions.com.au/", "description": "Polyester Solutions
+PolyBatts are high-performance, non-irritant thermal and acoustic insulation
+batts manufactured in Melbourne, Australia from 100% thermally bonded polyester
+fibers containing a minimum of 80% recycled PET. Completely free from chemical
+binders, resins, and formaldehyde, they are non-toxic, odorless, non-allergenic,
+and safe to handle without protective clothing or dust masks. Engineered to fit
+snugly into wall and ceiling framing cavities, they will not sag, rot, or become
+brittle over their lifecycle, providing lasting thermal resistance from R1.5 to
+R4.0.", "features": [ "100% Australian made from thermally bonded polyester
+fibers", "Contains a minimum of 80% recycled post-consumer PET plastic bottles",
+"Completely non-irritant, non-toxic, odorless, and non-allergenic with zero
+itch", "Requires no gloves, masks, or protective clothing during handling and
+installation", "Does not absorb moisture; hydrophobic and quick-drying",
+"Resistant to insect, vermin, mold, and bacterial attack", "Will not sag,
+crumble, settle, or become brittle over time", "Meets Australian Standard
+AS/NZS 4859.1 and Building Code of Australia (BCA)", "Tested to AS 1530.3 with
+zero spread of flame and zero heat evolved", "100% recyclable with zero chemical
+binders or adhesives" ], "applications": [ "ceiling", "wall", "internal wall",
+"external wall", "between floors" ], "technical": [ { "property": "Material
+Composition", "value": "100% thermally bonded polyester fibers (min. 80%
+recycled PET)", "standard": "" }, { "property": "Thermal R-Values", "value":
+"R1.5, R2.0, R2.5, R3.0, R3.5, R4.0", "standard": "AS/NZS 4859.1" }, {
+"property": "Nominal Thicknesses", "value": "R1.5 (90mm), R2.0 (90mm), R2.5
+(90-165mm), R3.0 (180mm), R3.5 (200mm), R4.0 (220mm)", "standard": "" }, {
+"property": "Standard Dimensions", "value": "1170 mm length x 430 mm or 580 mm
+width", "standard": "" }, { "property": "Combustibility / Early Fire Hazard",
+"value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke
+Developed: 0-1", "standard": "AS 1530.3" }, { "property": "Moisture Absorption",
+"value": "< 0.2% by volume after 4 days at 50°C, 95% RH", "standard": "" }, {
+"property": "Maximum Service Temperature", "value": "150°C", "standard": "" }, {
+"property": "Chemical Content", "value": "Zero formaldehyde, zero added chemical
+binders, zero ODP", "standard": "" } ], "range": [ { "variant": "PolyBatts Wall
+R1.5", "size_or_rating": "90 mm x 1170 mm x 430/580 mm", "pack": "Pack of batts"
+}, { "variant": "PolyBatts Wall R2.0", "size_or_rating": "90 mm x 1170 mm
+x 430/580 mm", "pack": "Pack of batts" }, { "variant": "PolyBatts Wall R2.5",
+"size_or_rating": "90 mm x 1170 mm x 430/580 mm", "pack": "Pack of batts" }, {
+"variant": "PolyBatts Ceiling R2.5", "size_or_rating": "165 mm x 1170 mm
+x 430/580 mm", "pack": "Pack of batts" }, { "variant": "PolyBatts Ceiling R3.0",
+"size_or_rating": "180 mm x 1170 mm x 430/580 mm", "pack": "Pack of batts" }, {
+"variant": "PolyBatts Ceiling R3.5", "size_or_rating": "200 mm x 1170 mm
+x 430/580 mm", "pack": "Pack of batts" }, { "variant": "PolyBatts Ceiling R4.0",
+"size_or_rating": "220 mm x 1170 mm x 430/580 mm", "pack": "Pack of batts" } ],
+"fire": "Early Fire Hazard Properties to AS 1530.3: Ignitability 0, Spread of
+Flame 0, Heat Evolved 0, Smoke Developed 0-1; Non-flammable fibers",
+"compliance": "AS/NZS 4859.1, AS 3999, NCC Volume One and Two",
+"sustainability": "Minimum 80% recycled PET fiber; 100% recyclable; zero
+chemical binders; zero formaldehyde; zero ODP; non-toxic", "install": [ "Turn
+off power at the main switchboard before entering ceiling spaces or touching
+wall framing", "Select batt width (430mm or 580mm) matching stud or joist
+spacing (450mm or 600mm)", "In ceilings, lay batts flat between joists ensuring
+continuous coverage with no gaps or compression", "In walls, friction-fit batts
+firmly between studs ensuring batts butt tightly against top and bottom plates",
+"Maintain minimum 50mm clearance around non-IC rated recessed downlights and
+flues per AS 3999", "Maintain 20mm clearance between roof cladding/sarking and
+insulation at roof eaves", "Tear across width by hand or trim with heavy-duty
+shears if custom sizing is required" ], "selection_checklist": [ "Confirm
+application (ceiling vs external wall vs internal partition)", "Select required
+R-value to achieve target NatHERS energy rating for climate zone", "Measure
+framing centers (430mm for 450mm centers; 580mm for 600mm centers)", "Verify
+wall stud depth (75mm or 90mm)", "Confirm preference for non-itchy,
+non-allergenic polyester insulation" ], "accessories": [ "Heavy-duty shears /
+insulation knife", "Insulation strapping", "Perimeter eave baffles" ],
+"limitations": [ "Do not compress batts significantly as this reduces thermal
+R-value", "Must be enclosed behind plasterboard or building lining; not for
+exposed decorative finish", "Maximum continuous service temperature is 150°C" ],
+"warranty": "Backed by Polyester Solutions manufacturer product warranty",
+"found": true, "search_keywords": [ "Polyester Solutions Batt", "PolyBatts",
+"Polyester Solutions insulation", "polyester wall batts", "polyester ceiling
+batts", "non itchy insulation batts", "recycled PET batts", "PolyBatts R2.5",
+"PolyBatts R4.0", "Melbourne polyester insulation" ], "problem_keywords": [
+"itchy fiberglass batts", "hot rooms upstairs in summer", "high winter heating
+costs", "airborne fiberglass particles in house", "slumping wall insulation in
+timber studs", "allergy friendly home insulation" ], "placement": [ "ceiling",
+"wall", "internal wall", "external wall", "between floors" ], "priority_fit": [
+"thermal", "sustainability", "easy_install", "acoustic" ], "use_cases": [
+"Insulating residential ceilings to achieve 7-star NatHERS energy efficiency
+without itchy glass fibers", "Thermal and acoustic cavity insulation in external
+timber-stud and steel-stud walls", "Acoustic sound dampening in internal
+partition walls between bedrooms and bathrooms" ], "not_for": [ "Exposed
+decorative wall lining without plasterboard", "Direct ground contact under
+concrete slabs", "Flue pipes exceeding 150°C" ], "rag_summary": "Polyester
+Solutions PolyBatts are Australian-made thermal and acoustic insulation batts
+manufactured from 100% thermally bonded polyester fibers containing at least 80%
+recycled PET plastic bottles. Completely free of formaldehyde, chemical binders,
+and respirable glass fibers, they are non-toxic, non-allergenic, and safe to
+handle without protective gear. Available in wall ratings from R1.5 to R2.5 and
+ceiling ratings from R2.0 to R4.0, they maintain permanent thickness without
+sagging or slumping, backed by AS/NZS 4859.1 compliance and a lifetime product
+warranty." }, { "family_id": "POLYESTER_SOLUTIONS_THERMAL_BATTS_P", "tds_url":
+"https://www.polyestersolutions.com.au/thermal-insulation", "sds_url":
+"https://www.polyestersolutions.com.au/", "description": "Polyester Solutions
+Thermal Batts - P (PolyBatts Premium) are Australian-made thermal insulation
+batts manufactured from 100% polyester fibers containing over 80% recycled PET
+plastic bottles. Specifically formulated for domestic and commercial ceilings,
+external walls, and mid-floors, they provide thermal resistance while acting as
+an effective acoustic barrier to reduce airborne noise transfer. Engineered
+without chemical binders or formaldehyde, they are non-toxic, non-irritant, and
+completely safe to handle without protective equipment.", "features": [
+"Thermally bonded 100% polyester insulation containing min. 80% recycled PET",
+"Non-irritant and user-friendly; requires no gloves, dust masks, or specialized
+gear", "Odorless, non-toxic, and non-allergenic, ideal for asthma and allergy
+sufferers", "Outstanding thermal insulation reducing heating and cooling energy
+use", "Added acoustic benefits dampening room-to-room and external noise", "Will
+not absorb moisture, rot, or deteriorate over the building life cycle", "Insect
+and vermin resistant", "Manufactured to comply with Australian Standard
+AS/NZS 4859.1", "Tested to AS 1530.3 with zero spread of flame and zero heat
+evolved", "100% recyclable at end of life" ], "applications": [ "ceiling",
+"wall", "external wall", "internal wall", "between floors" ], "technical": [ {
+"property": "Material Composition", "value": "100% polyester fibers thermally
+bonded (min. 80% recycled content)", "standard": "" }, { "property": "Thermal
+R-Values", "value": "R1.5, R2.0, R2.5, R3.0, R3.5, R4.0", "standard":
+"AS/NZS 4859.1" }, { "property": "Thicknesses", "value": "90 mm (R1.5/R2.0/R2.5
+Wall), 140-165 mm (R2.5 Ceiling), 180 mm (R3.0), 200 mm (R3.5), 220 mm (R4.0)",
+"standard": "" }, { "property": "Standard Dimensions", "value": "1170 mm length
+x 430 mm or 580 mm width", "standard": "" }, { "property": "Early Fire Hazard
+Indices", "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke
+Developed: 0-1", "standard": "AS 1530.3" }, { "property": "Moisture Absorption",
+"value": "< 0.2% by volume after 4 days at 50°C, 95% RH", "standard": "" }, {
+"property": "Maximum Service Temperature", "value": "150°C", "standard": "" }, {
+"property": "Chemical Content", "value": "Zero added formaldehyde, zero chemical
+binders", "standard": "" } ], "range": [ { "variant": "Thermal Batts P Wall
+R1.5", "size_or_rating": "90 mm x 1170 mm x 430/580 mm", "pack": "Pack of batts"
+}, { "variant": "Thermal Batts P Wall R2.0", "size_or_rating": "90 mm x 1170 mm
+x 430/580 mm", "pack": "Pack of batts" }, { "variant": "Thermal Batts P Wall
+R2.5", "size_or_rating": "90 mm x 1170 mm x 430/580 mm", "pack": "Pack of batts"
+}, { "variant": "Thermal Batts P Ceiling R2.5", "size_or_rating": "165 mm x 1170
+mm x 430/580 mm", "pack": "Pack of batts" }, { "variant": "Thermal Batts P
+Ceiling R3.5", "size_or_rating": "200 mm x 1170 mm x 430/580 mm", "pack": "Pack
+of batts" }, { "variant": "Thermal Batts P Ceiling R4.0", "size_or_rating": "220
+mm x 1170 mm x 430/580 mm", "pack": "Pack of batts" } ], "fire": "AS 1530.3
+Early Fire Hazard Properties: Ignitability 0, Spread of Flame 0, Heat Evolved 0,
+Smoke Developed 0-1; Fire safe polyester", "compliance": "AS/NZS 4859.1,
+AS 3999, NCC Volume One and Two", "sustainability": "Minimum 80% recycled PET;
+zero formaldehyde; zero chemical binders; zero ODP; 100% recyclable", "install":
+[ "Turn off electrical power at the main switchboard before entering ceiling or
+working in wall cavities", "Select batt width (430mm or 580mm) to match stud or
+joist spacing (450mm or 600mm)", "In ceilings, lay batts flat between ceiling
+joists ensuring complete coverage over plasterboard without gaps", "In walls,
+friction-fit batts firmly between studs ensuring batts butt tightly against top
+and bottom plates", "Maintain minimum 50mm clearance around non-IC rated
+recessed downlights and heat sources per AS 3999", "Maintain a 20mm clearance
+between roof sarking and ceiling batts at roof eaves", "Tear batts across the
+width by hand or trim with heavy-duty shears if custom sizing is needed" ],
+"selection_checklist": [ "Confirm application (ceiling space vs external or
+internal wall)", "Select target R-value (R2.0/R2.5 in walls; R3.5 to R4.0 in
+ceilings) to meet NCC climate zone requirements", "Measure framing spacing
+(430mm for 450mm centers; 580mm for 600mm centers)", "Check wall stud depth
+(75mm for 70mm studs; 90mm for 90mm studs)", "Verify preference for itch-free,
+zero-formaldehyde polyester insulation" ], "accessories": [ "Insulation knife /
+shears", "Insulation strapping", "Perimeter eave baffles" ], "limitations": [
+"Do not compress batts significantly into cavities narrower than nominal
+thickness", "Not designed for exposed decorative finishes; must be enclosed
+behind plasterboard or linings", "Maintain mandatory clearances from non-IC
+rated electrical fixtures" ], "warranty": "Backed by Polyester Solutions
+manufacturer warranty", "found": true, "search_keywords": [ "Polyester Solutions
+Thermal batts P", "PolyBatts Premium", "Polyester Solutions P batts", "polyester
+thermal batts", "R2.5 polyester wall batts", "R3.5 polyester ceiling batts",
+"R4.0 polyester batts", "safe ceiling batts", "non toxic home insulation" ],
+"problem_keywords": [ "fiberglass itch during installation", "heat escaping
+through ceiling", "hot rooms in summer", "cold drafty walls in winter",
+"chemical smell from new insulation", "asthma flare-ups from insulation dust" ],
+"placement": [ "ceiling", "wall", "internal wall", "external wall", "between
+floors" ], "priority_fit": [ "thermal", "sustainability", "easy_install",
+"acoustic" ], "use_cases": [ "Pitched roof ceiling insulation to satisfy 7-star
+residential energy standards with asthma-friendly materials", "External cavity
+wall thermal barrier behind brick veneer or lightweight weatherboards",
+"Acoustic and thermal mid-floor insulation between ground and upper levels in
+multi-storey homes" ], "not_for": [ "Underfloor joist insulation exposed to high
+wind without strapping", "Direct weather exposure without building wrap",
+"Temperatures exceeding 150°C" ], "rag_summary": "Polyester Solutions Thermal
+Batts - P are premium Australian-made polyester insulation batts manufactured
+from 100% thermally bonded polyester fibers with at least 80% recycled PET
+content. Engineered without chemical binders, resins, or formaldehyde, they
+provide a clean, non-toxic, and non-allergenic barrier to heat flow in ceilings
+(R2.5 to R4.0) and walls (R1.5 to R2.5). Compliant with AS/NZS 4859.1 and
+possessing zero spread of flame under AS 1530.3, they deliver lasting thermal
+comfort and acoustic damping without slumping or degrading." }, { "family_id":
+"POLYESTER_SOLUTIONS_UNDER_FLOOR_ROLLS_POLYFB", "tds_url":
+"https://www.polyestersolutions.com.au/thermal-insulation", "sds_url":
+"https://www.polyestersolutions.com.au/", "description": "Polyester Solutions
+Underfloor Insulation (PolyFB / Poly-Floor) consists of 100% polyester thermal
+and acoustic insulation rolls, pre-cut to 450mm width to fit new and existing
+exposed timber joist floors. Sized slightly wider than standard 450mm joist
+spacing, it friction-fits securely between timber joists without staples or
+sagging, creating an airtight barrier against subfloor draughts and cold winter
+floors. Manufactured from thermally bonded polyester containing a minimum of 80%
+recycled PET fibers, it will not rot, absorb moisture, or harbor pests.",
+"features": [ "Purpose-designed for suspended timber ground floors in new builds
+and retrofits", "Pre-cut to 450mm width for a snug friction fit between timber
+floor joists", "Eliminates cold floors and blocks draughts blowing up through
+floorboards", "100% polyester fiber containing a minimum of 80% recycled PET
+content", "Completely itch-free, non-toxic, odorless, and non-allergenic; safe
+to install without PPE", "Hydrophobic fibers absorb less than 0.2% moisture by
+volume, resisting damp crawlspaces", "Will not sag, rot, or deteriorate over
+time; resistant to vermin and insects", "Tested to AS 1530.3 with zero
+ignitability and zero spread of flame", "Meets NCC energy efficiency
+requirements for suspended floors" ], "applications": [ "floor", "underfloor",
+"subfloor", "between floors" ], "technical": [ { "property": "Material",
+"value": "100% thermally bonded polyester fiber (min. 80% recycled PET)",
+"standard": "" }, { "property": "Thermal R-Values", "value": "R1.5, R2.0, R2.5,
+R3.0, R4.0", "standard": "AS/NZS 4859.1" }, { "property": "Thicknesses",
+"value": "R1.5 (70-90mm), R2.0 (90mm), R2.5 (120mm), R3.0 (140mm)", "standard":
+"" }, { "property": "Roll Dimensions", "value": "450 mm width x 8 m or 10 m
+length (2 rolls per pack)", "standard": "" }, { "property": "Pack Coverage",
+"value": "9.0 m² (450mm x 10m x 2 rolls) or 7.2 m² (450mm x 8m x 2 rolls)",
+"standard": "" }, { "property": "Early Fire Hazard Indices", "value":
+"Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-3",
+"standard": "AS 1530.3" }, { "property": "Moisture Absorption", "value": "< 0.2%
+by volume after 4 days at 50°C, 95% RH", "standard": "" }, { "property":
+"Maximum Service Temperature", "value": "150°C", "standard": "" }, { "property":
+"Chemical Composition", "value": "Zero added chemical binders, zero
+formaldehyde, zero ODP", "standard": "" } ], "range": [ { "variant": "PolyFB
+Underfloor Roll R1.5", "size_or_rating": "90 mm x 450 mm x 10 m (2 rolls, 9.0
+m²)", "pack": "Pack of 2 rolls" }, { "variant": "PolyFB Underfloor Roll R2.0",
+"size_or_rating": "90 mm x 450 mm x 10 m (2 rolls, 9.0 m²)", "pack": "Pack of 2
+rolls" }, { "variant": "PolyFB Underfloor Roll R2.5", "size_or_rating": "120 mm
+x 450 mm x 8 m (2 rolls, 7.2 m²)", "pack": "Pack of 2 rolls" }, { "variant":
+"PolyFB Underfloor Roll R3.0", "size_or_rating": "140 mm x 450 mm x 6 m (2
+rolls, 5.4 m²)", "pack": "Pack of 2 rolls" } ], "fire": "AS 1530.3 Early Fire
+Hazard Properties: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke
+Developed 0-3", "compliance": "AS/NZS 4859.1, AS 3999, NCC Volume One Section J
+(JP1) and Volume Two Part 2.6 (P2.6.1) / Part 3.8.6", "sustainability":
+"Minimum 80% recycled PET; zero formaldehyde; zero chemical binders; zero
+ODP; 100% recyclable", "install": [ "Isolate power at the main switchboard
+before entering the subfloor crawlspace", "Ensure joist bays are dry, sound, and
+free of protruding nails or debris", "Unroll PolyFB roll along the underside of
+floorboards between timber joists", "Push the insulation up tightly against the
+underside of floorboards ensuring no air gaps remain", "Allow the slightly
+oversized 450mm width to friction-fit snugly between 450mm-centered joists",
+"For long-term retention or wide joist spacings, secure with non-corrosive
+staples or polypropylene strapping stapled across joists at 500mm intervals",
+"Do not cover subfloor ventilation openings in external brickwork" ],
+"selection_checklist": [ "Measure joist spacing (standard 450mm centers
+suit 450mm pre-cut roll)", "Select target R-value (R1.5, R2.0, or R2.5) to
+achieve desired underfloor thermal barrier", "Calculate total underfloor square
+meterage to determine pack quantities", "Check crawlspace height clearance for
+safe installer access", "Order polypropylene strapping or staples if mechanical
+underfloor securing is specified" ], "accessories": [ "Polypropylene underfloor
+strapping", "Pneumatic/manual stapler and galvanised staples", "Utility knife"
+], "limitations": [ "Sized for 450mm joists; for wider joists, strapping support
+is mandatory", "Do not cover electrical cables that are prone to derating
+without checking AS/NZS 3000", "Do not block subfloor wall vents" ], "warranty":
+"Backed by Polyester Solutions manufacturer product warranty", "found": true,
+"search_keywords": [ "Polyester Solutions PolyFB", "PolyFB underfloor rolls",
+"Polyfloor underfloor insulation", "polyester underfloor rolls", "R2.0
+underfloor polyester", "450mm underfloor insulation", "subfloor polyester
+blanket", "Polyester Solutions underfloor", "timber floor insulation rolls" ],
+"problem_keywords": [ "cold timber floorboards in winter", "draughts blowing up
+through floor", "heat loss through suspended timber floor", "creaking
+floorboards resonance", "subfloor dampness rotting insulation", "insulation
+sagging between floor joists" ], "placement": [ "floor", "underfloor",
+"subfloor", "between floors" ], "priority_fit": [ "thermal", "easy_install",
+"sustainability" ], "use_cases": [ "Insulating beneath exposed timber
+floorboards in existing homes to eliminate winter draughts and cold floors",
+"Friction-fit underfloor insulation between 450mm timber joists in new
+residential construction", "Mid-floor sound and thermal barrier between storeys
+in multi-level timber-framed residences" ], "not_for": [ "Concrete
+slab-on-ground insulation", "Direct ground contact in damp crawlspaces",
+"Exposed wall cladding" ], "rag_summary": "Polyester Solutions Under Floor Rolls
+(PolyFB / Poly-Floor) are pre-cut 450mm wide polyester thermal insulation rolls
+designed specifically for suspended timber floors in new builds and retrofits.
+Manufactured from 100% thermally bonded polyester with over 80% recycled PET,
+they friction-fit securely between 450mm-spaced joists without requiring
+staples, creating a snug thermal barrier that cuts subfloor heat loss and blocks
+cold draughts. Hydrophobic (moisture absorption <0.2%), rot-proof, and tested to
+AS 1530.3 (flame spread 0), PolyFB provides durable, non-sagging underfloor
+comfort." }, { "family_id": "POLYESTER_SOLUTIONS_WALL_BLOCK_BAFFLE_BLOCK_BATTS",
+"tds_url": "https://www.polyestersolutions.com.au/wallblock-batts", "sds_url":
+"https://www.polyestersolutions.com.au/", "description": "Polyester Solutions
+WallBlock Batts (and Ceiling Baffle Block Batts) are high-density acoustic
+insulation slabs manufactured from thermally bonded polyester fiber containing a
+high percentage of recycled PET. Specifically engineered to control noise and
+sound vibrations in timber and steel stud wall frames, multi-residential
+developments, and ceiling plenum spaces, they provide acoustic absorption (NRC
+up to 1.00) and thermal protection. Sized to friction-fit into wall cavities and
+stack above partition walls, they eliminate sound flanking paths without sagging
+or settling.", "features": [ "High-density acoustic batt engineered for walls
+and ceiling plenum baffle blocks", "Delivers superior sound absorption (NRC 0.85
+at 75mm, NRC 0.95-1.00 at 90mm)", "Thermally bonded polyester containing high
+percentage of recycled PET beverage containers", "Non-irritant, non-toxic,
+odorless, and non-allergenic; safe to install without PPE", "Pre-cut to fit
+comfortably into wall stud frames and joists without staples", "Sits firmly in
+cavity without sagging, settling, or becoming brittle over time", "Resists
+moisture, mold, rot, insects, and vermin", "Zero formaldehyde, zero chemical
+binders, zero ODP", "Tested to AS 1530.3 fire standards with zero spread of
+flame", "Complies with Australian Standard AS/NZS 4859.1" ], "applications": [
+"wall", "internal wall", "external wall", "ceiling", "between floors" ],
+"technical": [ { "property": "Material", "value": "100% thermally bonded
+polyester fiber (recycled PET content)", "standard": "" }, { "property":
+"Acoustic Performance", "value": "NRC 0.85 (75mm), NRC 0.95 (90mm R2.0),
+NRC 1.00 (90mm R2.5)", "standard": "ISO 354" }, { "property": "R-Values &
+Thicknesses", "value": "R1.5 HD (75mm), R2.0 HD (90mm), R2.5 HD (90mm)",
+"standard": "AS/NZS 4859.1" }, { "property": "Density", "value": "High-density
+formulation (approx. 20 - 32 kg/m³)", "standard": "" }, { "property":
+"Dimensions", "value": "1170 mm length x 430 mm or 580 mm width", "standard": ""
+}, { "property": "Coverage per Pack", "value": "430mm: 4.0 m² / pack; 580mm: 5.4
+m² / pack", "standard": "" }, { "property": "Early Fire Hazard Indices",
+"value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke
+Developed: 0-1", "standard": "AS 1530.3" }, { "property": "Moisture Absorption",
+"value": "< 0.2% by volume after 4 days at 50°C, 95% RH", "standard": "" }, {
+"property": "Maximum Service Temperature", "value": "150°C", "standard": "" } ],
+"range": [ { "variant": "WallBlock Batts R1.5 HD (75mm)", "size_or_rating": "75
+mm x 1170 mm x 430/580 mm (NRC 0.85)", "pack": "Pack of batts" }, { "variant":
+"WallBlock Batts R2.0 HD (90mm)", "size_or_rating": "90 mm x 1170 mm x 430/580
+mm (NRC 0.95)", "pack": "Pack of batts" }, { "variant": "WallBlock Batts R2.5 HD
+(90mm)", "size_or_rating": "90 mm x 1170 mm x 430/580 mm (NRC 1.00)", "pack":
+"Pack of batts" } ], "fire": "AS 1530.3 Early Fire Hazard Properties:
+Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-1"
+,"compliance": "AS/NZS 4859.1, AS 3999, NCC Volume One and Two acoustic and
+thermal provisions", "sustainability": "High recycled PET content; zero
+formaldehyde; zero chemical binders; 100% recyclable; low VOC", "install": [
+"Isolate power at main breaker before working in wall cavities or near
+electrical wires", "Select batt width (430mm or 580mm) matching stud spacing
+(450mm or 600mm)", "Friction-fit WallBlock batts between timber or steel wall
+studs without gaps or folds", "For ceiling baffle blocks, stack batts above
+partition walls from top plate to underside of roof/slab", "Compress batts
+around ducting, electrical conduits, and pipes to close acoustic flanking
+voids", "Cut neatly around junction boxes and plumbing with heavy-duty shears or
+serrated knife", "Enclose behind acoustic plasterboard or wall linings promptly"
+], "selection_checklist": [ "Confirm stud cavity depth (75mm for R1.5 HD; 90mm
+for R2.0/R2.5 HD)", "Confirm stud centers (430mm for 450mm centers; 580mm
+for 600mm centers)", "Select acoustic rating required (NRC 0.85 to 1.00)",
+"Calculate required pack count based on square meterage" ], "accessories": [
+"Acoustic plasterboard", "Acoustic sealant", "Heavy-duty shears" ],
+"limitations": [ "Internal wall and ceiling plenum use; not for direct external
+weather exposure", "Do not compress 90mm batts into 70mm cavities", "Maintain
+required clearances around non-IC rated light fittings" ], "warranty": "Backed
+by Polyester Solutions manufacturer product warranty", "found": true,
+"search_keywords": [ "Polyester Solutions WallBlock", "WallBlock batts", "Baffle
+block batts", "high density polyester acoustic batts", "WallBlock R2.0",
+"WallBlock R2.5", "HD acoustic batts", "polyester acoustic wall batts", "ceiling
+baffle batts", "NRC 1.00 acoustic batts" ], "problem_keywords": [ "conversations
+heard through internal walls", "TV noise bleeding between bedrooms", "flanking
+sound through ceiling plenum", "sound vibrations through wall frame", "office
+privacy acoustic failure", "meeting NCC acoustic partition code" ], "placement":
+[ "wall", "internal wall", "external wall", "ceiling", "between floors" ],
+"priority_fit": [ "acoustic", "sustainability", "thermal", "easy_install" ],
+"use_cases": [ "High-density acoustic infill in internal timber or steel stud
+walls separating bedrooms, home theatres, and bathrooms", "Ceiling plenum baffle
+blocks stacked above partition walls to prevent room-to-room cross-talk",
+"Acoustic and thermal insulation in multi-residential inter-tenancy walls and
+hotel partitions" ], "not_for": [ "Unclad external walls exposed to driving
+rain", "Direct floor foot traffic", "Operating temperatures exceeding 150°C" ],
+"rag_summary": "Polyester Solutions WallBlock Batts (and Baffle Block Batts) are
+high-density acoustic insulation slabs manufactured from thermally bonded
+polyester fiber containing recycled PET plastic. Achieving superior sound
+absorption ratings (NRC 0.85 at 75mm up to NRC 1.00 at 90mm R2.5), they
+friction-fit into wall stud bays or stack in ceiling plenums to eliminate
+airborne noise transfer and acoustic flanking. Free from formaldehyde, chemical
+binders, and glass fibers, they provide non-toxic, non-sagging acoustic control
+compliant with AS/NZS 4859.1 and AS 1530.3." }, { "family_id":
+"POLYESTER_SOLUTIONS_WALL_BLOCK_BAFFLE_BLOCK_ROLLS", "tds_url":
+"https://www.polyestersolutions.com.au/acoustic-insulation", "sds_url":
+"https://www.polyestersolutions.com.au/", "description": "Polyester Solutions
+Ceiling Baffle Block Rolls (Wall Block Baffle Rolls) are lightweight,
+non-irritant acoustic insulation rolls designed to be layer-stacked above
+partition walls to significantly reduce sound transmission through the ceiling
+plenum space. Manufactured from thermally bonded polyester fiber containing a
+high percentage of recycled PET, the flexible roll format unrolls easily and
+moulds itself around overhead ducting, cable trays, and services, eliminating
+gaps and acoustic flanking paths. Safe and itch-free to install, they provide
+durable room-to-room acoustic privacy across commercial offices, schools, and
+healthcare facilities.", "features": [ "Designed for continuous layer-stacking
+in ceiling plenum spaces above partition walls", "Flexible roll format moulds
+effortlessly around pipes, ducts, and overhead services", "Eliminates gaps,
+penetrations, and acoustic flanking sound leakage", "High acoustic sound
+absorption dampening speech transmission between adjoining rooms", "Manufactured
+from 100% thermally bonded polyester containing high recycled PET content",
+"Completely non-irritant, non-toxic, and non-allergenic; safe to install without
+gloves or masks", "Hydrophobic fibers resist moisture, mold, rot, and vermin",
+"Tested to AS 1530.3 fire standards with zero spread of flame", "Complies with
+Australian Standard AS/NZS 4859.1", "100% recyclable with zero chemical binders
+or added formaldehyde" ], "applications": [ "ceiling", "wall", "internal wall",
+"between floors" ], "technical": [ { "property": "Material", "value": "100%
+thermally bonded polyester fiber (high recycled PET content)", "standard": "" },
+{ "property": "Application Format", "value": "Continuous acoustic baffle roll /
+blanket", "standard": "" }, { "property": "Thickness Options", "value": "50
+mm, 75 mm, 100 mm", "standard": "" }, { "property": "Width Options", "value":
+"450 mm, 600 mm, 1200 mm", "standard": "" }, { "property": "Acoustic
+Performance", "value": "High sound absorption reducing ceiling plenum flanking
+(NRC 0.70 - 0.90+)", "standard": "ISO 354" }, { "property": "Early Fire Hazard
+Indices", "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke
+Developed: 0-1", "standard": "AS 1530.3" }, { "property": "Moisture Absorption",
+"value": "< 0.2% by volume after 4 days at 50°C, 95% RH", "standard": "" }, {
+"property": "Maximum Service Temperature", "value": "150°C", "standard": "" }, {
+"property": "Chemical Content", "value": "Zero added formaldehyde, zero chemical
+binders, zero ODP", "standard": "" } ], "range": [ { "variant": "Baffle Block
+Roll 50mm", "size_or_rating": "50 mm x 600/1200 mm x continuous roll length",
+"pack": "Roll" }, { "variant": "Baffle Block Roll 75mm", "size_or_rating": "75
+mm x 600/1200 mm x continuous roll length", "pack": "Roll" }, { "variant":
+"Baffle Block Roll 100mm", "size_or_rating": "100 mm x 600/1200 mm x continuous
+roll length", "pack": "Roll" } ], "fire": "AS 1530.3 Early Fire Hazard
+Properties: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke
+Developed 0-1", "compliance": "AS/NZS 4859.1, AS 3999, NCC Volume One and Two
+acoustic privacy provisions", "sustainability": "High recycled PET content; zero
+formaldehyde; zero chemical binders; zero ODP; 100% recyclable", "install": [
+"Measure the plenum void height between top of partition wall and underside of
+roof or concrete slab", "Cut continuous baffle rolls to length to run above the
+partition wall line", "Layer-stack baffle rolls vertically directly over the
+partition wall to fill the entire plenum height", "Compress rolls around air
+conditioning ductwork, electrical cable trays, and plumbing pipes", "Ensure zero
+voids, holes, or gaps remain for sound to flank through the ceiling space",
+"Butt roll ends tightly together along the length of the partition wall",
+"Secure rolls with light strapping or wire if required in tall plenum voids" ],
+"selection_checklist": [ "Measure ceiling plenum height (distance from suspended
+ceiling tile grid to slab/roof)", "Determine number of layers needed to
+completely fill plenum void", "Measure total linear meterage of partition walls
+requiring acoustic baffling", "Confirm roll width (600mm or 1200mm) suitable for
+ceiling space access" ], "accessories": [ "Utility knife / heavy shears", "Tie
+wire / strapping (for high plenums)" ], "limitations": [ "Designed for ceiling
+plenum voids and cavities; not for direct external weather exposure", "Must not
+be compressed against non-IC rated light fittings or hot flue exhausts", "Does
+not replace structural fire barriers where specific FRLs are mandated" ],
+"warranty": "Backed by Polyester Solutions manufacturer product warranty",
+"found": true, "search_keywords": [ "Polyester Solutions Baffle Block Rolls",
+"WallBlock baffle rolls", "ceiling baffle rolls", "polyester acoustic plenum
+roll", "sound blanket roll", "plenum baffle blanket", "continuous acoustic
+baffle roll", "polyester sound roll" ], "problem_keywords": [ "sound leaking
+through ceiling plenum", "voice transfer over office partition walls", "pipes
+and ducts causing acoustic flanking", "gaps in ceiling acoustic barriers",
+"office cross-talk through suspended ceiling" ], "placement": [ "ceiling",
+"wall", "internal wall", "between floors" ], "priority_fit": [ "acoustic",
+"easy_install", "sustainability" ], "use_cases": [ "Continuous layer-stacking in
+ceiling plenum spaces above office partition walls to block sound transmission",
+"Moulding around complex overhead ductwork, cable trays, and pipes to seal
+acoustic flanking voids", "Acoustic blanket infill in commercial and educational
+wall cavities" ], "not_for": [ "Exterior weatherboard wrap", "Direct roof
+weatherproofing", "High-temperature flue exhaust wrapping" ], "rag_summary":
+"Polyester Solutions Wall Block - Baffle Block Rolls (Ceiling Baffle Rolls) are
+continuous polyester acoustic insulation blankets designed for layer-stacking
+above partition walls in ceiling plenum voids. Formed from 100% thermally bonded
+polyester with high recycled PET content, the flexible roll format unrolls
+smoothly and moulds tightly around HVAC ducting, electrical conduits, and
+service pipes to seal acoustic flanking paths. Hydrophobic, itch-free, and
+tested to AS 1530.3 fire standards, it provides an economical, joint-free
+acoustic barrier for commercial and institutional interiors." }, { "family_id":
+"PROCTOR_ACCESSORY", "tds_url": "https://proctorgroup.com.au/tapes/", "sds_url":
+"", "description": "Proctor Accessories comprise high-performance sealing tapes
+and flashing components engineered by Proctor Group Australia to ensure
+airtight, weathertight, and vapour-permeable continuity across ProctorWrap and
+ProctorPassive building envelopes. The range includes ProctorWrap HighTack PLUS
+Tape, ProctorPassive DriFlash Tape, Wraptite Tape, YouByute Flexi Tape, and Air
+Barrier Tape. Formulated with aggressive, ageing-resistant acrylic and butyl
+adhesives, they create durable weather-tight seals around membrane overlaps,
+window interfaces, corners, and pipe penetrations.", "features": [ "Engineered
+specifically for ProctorWrap and ProctorPassive vapour-permeable membranes",
+"High tested peel adhesion (≥ 45 N / 25mm for HighTack PLUS)", "Semi-transparent
+carrier options allow visibility of printed membrane alignment lines", "Flexible
+and stretchable formulations (YouByute Flexi Tape) for corner and pipe sealing",
+"Superior UV resistance and thermal stability resisting adhesive edge bleed",
+"Bonds securely to polyolefin membranes, timber, steel, concrete, and aluminium
+boards", "Vapour-open and airtight tape variants maintaining breathability",
+"Low VOC emissions supporting Green Star and Passive House standards" ],
+"applications": [ "wall", "external wall", "roof", "roofline", "internal wall",
+"pipe", "duct" ], "technical": [ { "property": "Adhesive Carrier", "value":
+"Spunbonded polyolefin, polyethylene film, or reinforced butyl", "standard": ""
+}, { "property": "Adhesive Type", "value": "Vapour-open acrylic or aggressive
+butyl pressure-sensitive adhesive", "standard": "" }, { "property": "Peel
+Adhesion", "value": "≥ 45 N / 25mm (HighTack PLUS), ≥ 25 N / 25mm (UV Tape)",
+"standard": "EN 1939" }, { "property": "Roll Widths", "value": "50 mm, 60 mm, 75
+mm, 100 mm, 150 mm", "standard": "" }, { "property": "Roll Lengths", "value":
+"25 m, 30 m, 50 m", "standard": "" }, { "property": "Application Temperature",
+"value": "+5°C to +40°C", "standard": "" }, { "property": "Operating
+Temperature", "value": "-40°C to +80°C (up to +100°C)", "standard": "" }, {
+"property": "Vapour Permeance", "value": "Available in Vapour Permeable
+(DriFlash/Wraptite) and Vapour Barrier (AB Tape)", "standard": "ASTM E96" } ],
+"range": [ { "variant": "ProctorWrap HighTack PLUS Tape", "size_or_rating": "60
+mm x 25 m", "pack": "Roll (Carton of 10)" }, { "variant": "ProctorPassive
+DriFlash Tape", "size_or_rating": "75 mm / 150 mm x 25 m", "pack": "Roll" }, {
+"variant": "ProctorPassive YouByute Flexi Tape", "size_or_rating": "60 mm x 25 m
+(Stretchable butyl)", "pack": "Roll" }, { "variant": "ProctorPassive UV Tape",
+"size_or_rating": "60 mm x 25 m", "pack": "Roll" }, { "variant": "ProctorPassive
+Wraptite Tape", "size_or_rating": "50 mm / 75 mm / 100 mm x 50 m", "pack":
+"Roll" } ], "fire": "Low flammability; compliant for use with BAL-rated building
+membranes in accordance with AS 3959", "compliance": "AS/NZS 4200.2:2017,
+Passive House airtightness standards, Green Star compliant", "sustainability":
+"Low VOC emissions; zero chlorine; zero formaldehyde; solvent-free acrylic
+adhesives", "install": [ "Ensure membrane and substrate surfaces are completely
+dry, clean, and free of oil, grease, and dust", "Centre tape squarely over the
+membrane overlap, corner seam, or penetration interface", "Apply tape without
+tension, ensuring no wrinkles or air bubbles remain", "Press firmly along the
+entire tape length using a hand-held squeegee or pressure roller to activate
+adhesive", "For pipe and duct penetrations, cut overlapping collar strips to
+form a continuous watertight seal", "Ensure materials are supported from behind
+when applying pressure" ], "selection_checklist": [ "Confirm membrane type
+(ProctorWrap RW, CW, HTR, or Rainscreen)", "Select tape function (HighTack PLUS
+for general laps; YouByute Flexi Tape for corners/pipes; UV Tape for open-joint
+facades)", "Calculate total linear meterage needed for seams, openings, and
+penetrations", "Verify application temperature is between +5°C and +40°C" ],
+"accessories": [ "ProctorWrap wall wraps and roof underlays", "Plastic
+application squeegee" ], "limitations": [ "Pressure-sensitive tape requires firm
+mechanical squeegee pressure for full adhesive bonding", "Not a substitute for
+mechanical fasteners; all structural loads must be carried by framing fixings",
+"Must not be applied to wet, oily, or frozen surfaces" ], "warranty": "Backed by
+Proctor Group Australia manufacturer warranty", "found": true,
+"search_keywords": [ "Proctor Accessory", "ProctorWrap HighTack PLUS Tape",
+"ProctorPassive DriFlash Tape", "YouByute Flexi Tape", "Proctor vapour permeable
+tape", "Proctor membrane tape", "Wraptite tape", "Proctor air barrier tape" ],
+"problem_keywords": [ "leaking wall wrap overlaps", "air leakage through
+building envelope", "moisture ingress at window flashings", "tape failing on
+vapour permeable wrap", "wrinkled tape skipping over membrane creases", "failing
+blower door airtightness test" ], "placement": [ "wall", "external wall",
+"roof", "roofline", "internal wall", "pipe", "duct" ], "priority_fit": [
+"condensation", "easy_install", "sustainability" ], "use_cases": [ "Sealing
+horizontal and vertical laps on ProctorWrap vapour-permeable membranes with high
+peel adhesion (≥45 N/25mm)", "Airtight and weathertight sealing around window
+frames, sill flashings, and pipe penetrations", "Vapour-permeable seam sealing
+on Passive House airtight building envelopes" ], "not_for": [ "Structural
+mechanical load-bearing fastening", "Permanent immersion in standing water",
+"High-temperature exhaust flues above 100°C" ], "rag_summary": "Proctor
+Accessories encompass high-performance pressure-sensitive sealing tapes and
+flashing components engineered by Proctor Group Australia, including ProctorWrap
+HighTack PLUS Tape, DriFlash Tape, and YouByute Flexi Tape. Coated with
+aggressive, aging-resistant acrylic and butyl adhesives, they create durable
+airtight and weathertight seals across polyolefin membranes, timber, steel, and
+concrete without impeding vapour permeability. Low-VOC and temperature-resistant
+from -40°C to +80°C, they are critical components for achieving Passive House
+airtightness and NCC-compliant weatherproofing." }, { "family_id":
+"PROCTOR_BAL", "tds_url": "https://proctorgroup.com.au/roof-ventilation/",
+"sds_url": "", "description": "Proctor BAL represents specialized bushfire ember
+protection mesh components and BAL-ready passive roof and wall ventilation
+products engineered by Proctor Group Australia. Comprising corrosion-resistant
+woven metal ember guard mesh with maximum aperture openings under 2mm, it
+integrates directly into ProctorVent over-fascia vents (FV10 BAL, FV25 BAL),
+ridge vents (RV10 BAL), and drainage battens (DB-FR BAL). Designed to meet
+Australian Standard AS 3959 for bushfire attack levels from BAL-12.5 up to
+BAL-40 and BAL-FZ, it prevents burning embers and debris from entering the roof
+space or wall cavity while maintaining continuous passive ventilation and
+condensation drainage.", "features": [ "Corrosion-resistant metal ember
+protection mesh with aperture size ≤ 2mm", "Complies with Australian Standard
+AS 3959 for bushfire-prone areas up to BAL-40 / BAL-FZ", "Pre-fitted as a
+BAL-ready option on ProctorVent Over-Fascia Vents (FV10 BAL, FV25 BAL)",
+"Integrated into ProctorVent Ridge Vents (RV10 BAL) for natural convection roof
+venting", "Available as integrated BAL ember protection in ProctorPassive DB-FR
+drainage battens", "Prevents wind-borne burning embers, leaves, and large
+insects from entering roof cavities", "Maintains calculated, unimpeded passive
+airflow to exhaust moisture and prevent condensation", "Non-combustible metal
+mesh construction resisting high ember attack temperatures", "Durable,
+rot-proof, and designed for the lifetime of the roofing structure" ],
+"applications": [ "roof", "roofline", "wall", "external wall" ], "technical": [
+{ "property": "Mesh Aperture Size", "value": "≤ 2.0 mm (complies with ember
+guard requirements)", "standard": "AS 3959" }, { "property": "Mesh Material",
+"value": "Corrosion-resistant stainless steel or bronze / aluminium wire mesh",
+"standard": "AS 3959" }, { "property": "Vent Airflow Capacity (FV10 BAL)",
+"value": "10,000 mm² per linear metre (1/300 ratio)", "standard": "" }, {
+"property": "Vent Airflow Capacity (FV25 BAL)", "value": "25,000 mm² per linear
+metre (1/150 ratio)", "standard": "" }, { "property": "Vent Airflow Capacity
+(RV10 BAL)", "value": "10,000 mm² per linear metre", "standard": "" }, {
+"property": "Bushfire Attack Level Suitability", "value": "BAL-12.5, BAL-19,
+BAL-29, BAL-40, and BAL-FZ (in compliant assemblies)", "standard": "AS 3959" },
+{ "property": "Combustibility", "value": "Non-combustible metal mesh",
+"standard": "AS 1530.1" }, { "property": "Service Temperature", "value": "-40°C
+to +90°C (vent body), mesh exceeds 500°C", "standard": "" } ], "range": [ {
+"variant": "ProctorVent Over Fascia Vent FV10 BAL", "size_or_rating": "10,000
+mm²/m airflow with pre-fitted BAL mesh", "pack": "Unit / Linear metre" }, {
+"variant": "ProctorVent Over Fascia Vent FV25 BAL", "size_or_rating": "25,000
+mm²/m airflow with pre-fitted BAL mesh", "pack": "Unit / Linear metre" }, {
+"variant": "ProctorVent Ridge Vent RV10 BAL", "size_or_rating": "10,000 mm²/m
+airflow with pre-fitted BAL mesh", "pack": "Unit / Linear metre" }, { "variant":
+"ProctorPassive DB-FR BAL Option", "size_or_rating": "10.5 mm x 40 mm with
+integrated BAL mesh (max 2mm)", "pack": "Pack" } ], "fire": "Mesh complies with
+AS 3959 ember protection clause (aperture ≤ 2mm, non-combustible material); Vent
+body tested to AS 1530.3 (Spread of Flame Index: 0)", "compliance":
+"AS 3959:2018 (Construction of buildings in bushfire-prone areas), NCC 2022
+Volume One and Two", "sustainability": "100% recyclable metal and polymer
+components; zero ODP; non-toxic", "install": [ "Select ProctorVent BAL-ready
+vents pre-fitted with ≤ 2mm metal mesh", "For eaves ventilation, fix FV10 BAL or
+FV25 BAL over the top edge of the fascia board prior to installing roof sheeting
+or gutters", "For ridge ventilation, install RV10 BAL continuously along the
+roof ridge over the cut roof underlay", "Ensure the BAL mesh completely covers
+all ventilation openings with zero gaps exceeding 2mm", "Secure vents
+mechanically into timber or metal fascia and rafters using non-corrosive
+fasteners", "Fix roof cladding over the assembly ensuring the ember-guarded
+ventilation pathway remains open and unobstructed" ], "selection_checklist": [
+"Confirm designated Bushfire Attack Level (BAL-12.5, BAL-19, BAL-29, or
+BAL-40)", "Select vent model (FV10 for roof pitch >22°; FV25 for pitch <22° and
+cathedral roofs)", "Ensure the order specifies the 'BAL Ready Option' with
+pre-fitted metal mesh", "Calculate total linear meterage of eaves and ridges
+requiring ventilation" ], "accessories": [ "ProctorWrap HTR / HTS roof
+underlays", "ProctorVent Eaves Baffle (EB)", "Corrosion-resistant fasteners" ],
+"limitations": [ "Mesh openings must be kept clear of paint, sealant, and
+construction dust during building works", "Do not install without roof underlay;
+designed as part of a complete roof envelope system", "Ensure all fascia and
+ridge junctions are tightly fitted with no bypass gaps greater than 2mm" ],
+"warranty": "Backed by Proctor Group Australia product warranty", "found": true,
+"search_keywords": [ "Proctor BAL", "ProctorVent BAL mesh", "bushfire ember
+vent", "BAL-40 roof vent", "FV10 BAL", "FV25 BAL", "RV10 BAL", "ember guard
+mesh 2mm", "bushfire roof ventilation", "Proctor BAL mesh" ],
+"problem_keywords": [ "ember attack through roof eaves", "bushfire compliance
+AS 3959", "condensation in bushfire zone roof", "eaves vent allowing ember
+entry", "ridge vent ember risk in BAL-40", "roof space moisture buildup in
+bushfire area" ], "placement": [ "roof", "roofline", "wall", "external wall" ],
+"priority_fit": [ "fire", "condensation", "easy_install" ], "use_cases": [
+"Passive roof eaves and fascia ventilation in bushfire-prone areas up to BAL-40
+using pre-fitted ≤2mm ember mesh", "Continuous ridge ventilation on metal roofs
+in BAL-12.5 to BAL-40 zones with RV10 BAL vents", "Ember-protected drainage
+cavity battens in external walls constructed to AS 3959 bushfire standards" ],
+"not_for": [ "Internal drywall cavity batts", "Underfloor soil contact", "Direct
+glazed window screens" ], "rag_summary": "Proctor BAL comprises specialized
+bushfire ember protection mesh components and BAL-ready passive ventilation
+products engineered by Proctor Group Australia. Featuring non-combustible
+corrosion-resistant metal mesh with apertures ≤ 2mm, it integrates directly into
+ProctorVent over-fascia vents (FV10 BAL, FV25 BAL), ridge vents (RV10 BAL), and
+drainage battens. Fully compliant with AS 3959 for bushfire attack levels from
+BAL-12.5 up to BAL-40 (and BAL-FZ in compliant assemblies), it blocks burning
+embers and debris while maintaining essential airflow to prevent roof cavity
+condensation." }, { "family_id": "PROCTOR_DRAINAGE_VENTILATION", "tds_url":
+"https://proctorgroup.com.au/roof-ventilation/", "sds_url": "", "description":
+"Proctor Drainage / Ventilation represents an engineered suite of passive roof
+and wall cavity ventilation and drainage components, including ProctorPassive
+Drainage Battens (DB-FR), ProctorVent Vented Battens (VB10 & VB20), Over-Fascia
+Vents (FV10 & FV25), and Ridge Vents (RV10). Manufactured from
+high-compressive-strength, flame-retardant polyolefin and polypropylene
+extrusions with a Spread of Flame index of 0, these components create
+continuous 10mm to 20mm drained cavities behind claddings and beneath metal
+roofing. They discharge trapped moisture and condensation while promoting
+natural buoyancy airflow to prevent timber rot, corrosion, and mould.",
+"features": [ "High-compressive-strength polyolefin drainage battens (>500 kPa
+to ASTM D695)", "Flame retardant formulation with Spread of Flame index of 0 to
+AS 1530.3", "Creates continuous, calculated 10mm or 20mm ventilation and
+drainage pathways", "Specifically designed to prevent ponding on sarking behind
+roof battens and at eaves", "Reduces conductive heat transfer between metal
+cladding and building frames", "4mm evenly spaced apertures prohibit large
+insects while preventing capillary water draw", "Self-adhesive backing on vented
+battens allows fast, temporary hold prior to mechanical fixing", "Fully
+compliant with NCC 2022 condensation management provisions (F8D5 & 10.8.3)",
+"Intumescent option (DB-FR-INT) swells upon fire exposure to slow flame spread",
+"Comprehensive range includes fascia vents, ridge vents, vented battens, and
+eaves baffles" ], "applications": [ "roof", "roofline", "wall", "external wall"
+], "technical": [ { "property": "Material", "value": "Flame retardant polyolefin
+extrusion / polypropylene", "standard": "" }, { "property": "Batten Dimensions
+(DB-FR)", "value": "10.5 mm thickness x 40 mm width x 2500 mm length (folds
+to 21mm)", "standard": "" }, { "property": "Vented Batten Thicknesses (VB10 /
+VB20)", "value": "VB10: 10 mm; VB20: 20 mm", "standard": "" }, { "property":
+"Compressive Strength", "value": "> 500 kPa", "standard": "ASTM D695" }, {
+"property": "Airflow Capacity (VB20)", "value": "16,000 mm² per linear metre",
+"standard": "" }, { "property": "Airflow Capacity (FV10 / FV25)", "value":
+"FV10: 10,000 mm²/m; FV25: 25,000 mm²/m", "standard": "" }, { "property":
+"Spread of Flame Index", "value": "0 (Range 0-10)", "standard": "AS 1530.3" }, {
+"property": "Maximum Service Temperature", "value": "90°C (melting
+point 160°C)", "standard": "ASTM D3418" }, { "property": "Aperture Size",
+"value": "4 mm openings (prevents capillary action and insect entry)",
+"standard": "" } ], "range": [ { "variant": "ProctorPassive Drainage Batten
+DB-FR", "size_or_rating": "10.5 mm x 40 mm x 2500 mm (folded to 1.25m, 40 per
+pack, 100lm)", "pack": "Pack of 40 (100 lm)" }, { "variant": "ProctorVent Vented
+Batten VB10", "size_or_rating": "10 mm thickness x 1000 mm length", "pack":
+"Pack" }, { "variant": "ProctorVent Vented Batten VB20", "size_or_rating": "20
+mm thickness x 1000 mm length (16,000 mm²/m airflow)", "pack": "Pack" }, {
+"variant": "ProctorVent Over Fascia Vent FV10", "size_or_rating": "10,000 mm²/m
+airflow capacity", "pack": "Unit" }, { "variant": "ProctorVent Over Fascia Vent
+FV25", "size_or_rating": "25,000 mm²/m airflow capacity", "pack": "Unit" }, {
+"variant": "ProctorVent Ridge Vent RV10", "size_or_rating": "10,000 mm²/m
+airflow capacity", "pack": "Unit" } ], "fire": "Spread of Flame Index: 0 to
+AS 1530.3; Tested as per Specification C1.10 (7) of the NCC; Intumescent option
+available", "compliance": "NCC 2022 Volume 1 (F8D5) and Volume 2 (10.8.3)
+condensation management requirements for ventilated roof spaces and drained wall
+cavities; AS 1530.3", "sustainability": "100% recyclable polyolefin /
+polypropylene; zero ODP; non-toxic", "install": [ "For roofs, install sarking
+over purlins with minimum drape to prevent ponding", "Lay ProctorPassive DB-FR
+running the full length of each roof batten or beneath concealed-fix clips",
+"Fix roof sheeting through battens into structural framing, ensuring torque does
+not crush the batten profile", "For walls, fix DB-FR or VB10/VB20 vertically or
+horizontally aligned with studs, noggings, and window perimeters", "Use the
+integrated adhesive backing on vented battens to hold them in place prior to
+mechanical fastening", "Fix external wall cladding through the drainage battens
+directly into framing studs as normal", "Combine with Over-Fascia Vents
+(FV10/FV25) and Ridge Vents (RV10) to complete the continuous passive airflow
+loop" ], "selection_checklist": [ "Confirm application (metal roof drainage vs
+drained cavity wall behind cladding)", "Select cavity depth (10mm for VB10/DB-FR
+or 20mm for VB20 to meet NCC 2022 deemed-to-satisfy requirements)", "Choose roof
+fascia vent model based on roof pitch (FV10 for pitch >22°; FV25 for pitch <22°
+and cathedral roofs)", "Calculate total linear meterage of battens and vents
+required" ], "accessories": [ "ProctorWrap vapour permeable membranes",
+"ProctorWrap HighTack PLUS Tape", "Extended length cladding fasteners" ],
+"limitations": [ "Non-structural cavity spacer; claddings and roof sheets must
+fix through the batten into structural framing", "Do not over-torque fasteners
+to avoid crushing the ventilation openings", "Maximum service temperature
+is 90°C" ], "warranty": "Backed by Proctor Group Australia product warranty",
+"found": true, "search_keywords": [ "Proctor Drainage Ventilation",
+"ProctorPassive DB-FR", "ProctorVent VB10", "ProctorVent VB20", "vented batten
+VB20", "over fascia vent FV25", "ridge vent RV10", "cladding drainage batten",
+"roof ventilation batten", "NCC 2022 cavity drainage" ], "problem_keywords": [
+"trapped condensation behind wall cladding", "moisture buildup under metal roof
+sheets", "ponding on roof sarking behind battens", "thermal bridging across
+cladding battens", "meeting NCC 2022 20mm roof space rule", "mold and rot in
+cathedral roof cavity" ], "placement": [ "roof", "roofline", "wall", "external
+wall" ], "priority_fit": [ "condensation", "easy_install", "thermal", "fire" ],
+"use_cases": [ "Creating compliant 10mm or 20mm drained and vented cavities
+behind external wall claddings per NCC 2022 F8D5 and 10.8.3", "Ventilating the
+space between roof sarking and metal roof cladding using DB-FR or VB20 battens
+to stop condensation", "Passive eaves-to-ridge natural convection roof
+ventilation systems in low-pitch and cathedral roofs" ], "not_for": [ "Primary
+structural framing battens without fixing through to framing", "Underfloor
+crawlspace ground cover", "Subterranean wet tanking" ], "rag_summary": "Proctor
+Drainage / Ventilation represents an engineered system of passive roof and wall
+cavity ventilation and drainage components, including ProctorPassive Drainage
+Battens (DB-FR), Vented Battens (VB10 & VB20), Over-Fascia Vents, and Ridge
+Vents. Manufactured from flame-retardant polyolefin extrusions with a Spread of
+Flame index of 0 (AS 1530.3) and high compressive strength (>500 kPa), they
+establish continuous 10mm to 20mm drained pathways that satisfy NCC 2022
+condensation management mandates. They prevent ponding on sarking and promote
+natural convective airflow to protect roof and wall envelopes from moisture,
+rot, and corrosion." } ]

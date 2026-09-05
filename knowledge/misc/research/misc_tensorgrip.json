@@ -1,0 +1,146 @@
+{
+  "family_id": "MISC_TENSORGRIP",
+  "family_name": "Misc Tensorgrip",
+  "datasheet_pdf_url": "https://tensorglobal.com/",
+  "sds_url": "",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "TensorGrip is an advanced range of industrial canister and aerosol contact\nadhesive systems engineered by Quin Global for bonding insulation, foams,\ncomposite panels, and building materials. Designed for high-speed spray\napplication, TensorGrip adhesives deliver rapid tack, high green strength, and\nexceptional heat resistance across wood, metal, concrete, and plastic\nsubstrates. The canister delivery system eliminates the need for external\ncompressors and reduces application time compared to traditional wet-applied\nglues.",
+    "features": [
+      "High-speed canister spray delivery system with zero\nsetup time",
+      "Rapid flash-off and instant high green tack for immediate\nbonding",
+      "High heat resistance withstanding extreme Australian cavity\ntemperatures",
+      "Strong adhesion to concrete, brick, plywood, metal, and\ninsulation cores",
+      "Low VOC and non-chlorinated formulation options available",
+      "Even spray pattern minimizes adhesive telegraphing on thin facings",
+      "Portable,\npressurized canisters eliminate compressor maintenance",
+      "High coverage\nefficiency reducing cost per square meter"
+    ],
+    "applications": [
+      "wall",
+      "internal wall",
+      "external wall",
+      "ceiling",
+      "floor",
+      "duct"
+    ],
+    "technical": [
+      {
+        "property": "Adhesive Type",
+        "value": "Synthetic polymer contact adhesive in\npressurized canister / aerosol",
+        "standard": ""
+      },
+      {
+        "property": "Packaging\nFormats",
+        "value": "500 ml aerosol, 22 L canister (17 kg), 108 L canister",
+        "standard": ""
+      },
+      {
+        "property": "Flash-Off Time",
+        "value": "1 - 3 minutes\n(depending on temperature and humidity)",
+        "standard": ""
+      },
+      {
+        "property": "Open\nTime",
+        "value": "Up to 30 - 60 minutes",
+        "standard": ""
+      },
+      {
+        "property": "Temperature Resistance",
+        "value": "Up to 105°C - 120°C (depending on\nformulation)",
+        "standard": ""
+      },
+      {
+        "property": "Coverage",
+        "value": "Approx. 150\nm² - 230 m² per 22L canister",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "TensorGrip 500ml Aerosol",
+        "size_or_rating": "500 ml can",
+        "pack": "Can"
+      },
+      {
+        "variant": "TensorGrip 22L Canister",
+        "size_or_rating": "22 Litre canister (17\nkg)",
+        "pack": "Canister"
+      }
+    ],
+    "fire": "High heat resistance up to 120°C; low\nflammability propellant options available",
+    "compliance": "Meets Australian\nmanufacturing and workplace low-VOC standards",
+    "sustainability": "Low VOC\nformulations; non-chlorinated options; zero ODP",
+    "install": [
+      "Ensure both\nbonding surfaces are clean, dry, and free of grease, dust, and contaminants",
+      "Connect spray hose and gun securely to canister and open valve completely",
+      "Hold spray gun 100mm to 200mm from surface at 90 degrees",
+      "Apply an even,\nuniform coat of adhesive achieving 80% to 100% surface coverage on both\nsubstrates",
+      "Allow adhesive to tack off for 1 to 3 minutes until dry to touch\nwith no transfer to knuckles",
+      "Align materials accurately and press firmly\ntogether",
+      "Apply uniform pressure across the entire bond area using a hand-held\npressure roller"
+    ],
+    "selection_checklist": [
+      "Confirm material compatibility\n(insulation foam, polystyrene, fabric, or metal)",
+      "Select canister size (500ml\nfor spot repairs; 22L for commercial installation)",
+      "Ensure hose and spray gun\nare available for canister use",
+      "Check required heat resistance for target\nenvironment"
+    ],
+    "accessories": [
+      "TensorGrip flexible rubber hose",
+      "TensorGrip\nprofessional spray gun and spray tips",
+      "Pressure roller"
+    ],
+    "limitations": [
+      "Ensure formulation is polystyrene-safe if bonding EPS or XPS boards",
+      "Do not\napply to wet, greasy, or frozen surfaces",
+      "Requires adequate ventilation during\napplication"
+    ],
+    "warranty": "Backed by Quin Global manufacturer product\nwarranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "TensorGrip",
+      "TensorGrip\nadhesive",
+      "canister contact adhesive",
+      "spray contact adhesive",
+      "insulation\nspray glue",
+      "Quin Global TensorGrip",
+      "TensorGrip 22L",
+      "fast tack insulation\nadhesive"
+    ],
+    "problem_keywords": [
+      "slow insulation gluing with rollers",
+      "adhesive delamination under heat",
+      "heavy compressor setup on site",
+      "bonding\ninsulation to concrete or steel",
+      "contact glue telegraphing through fabric"
+    ],
+    "placement": [
+      "wall",
+      "internal wall",
+      "external wall",
+      "ceiling",
+      "floor",
+      "duct"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "thermal"
+    ],
+    "use_cases": [
+      "Bonding\nacoustic insulation batts, acoustic fabrics, and foam panels to interior walls",
+      "Securing thermal insulation boards to concrete, timber, and metal substrates",
+      "Laminating composite panels and vapor barriers in offsite modular construction"
+    ],
+    "not_for": [
+      "Direct structural load-bearing timber joints",
+      "Applications\nexceeding 120°C",
+      "Submerged underwater bonding"
+    ],
+    "rag_summary": "Misc\nTensorGrip (manufactured by Quin Global) is a portable canister spray contact\nadhesive system designed for bonding insulation, acoustic foam, fabrics, and\ncomposite building panels. Offering fast flash-off times, immediate high green\nstrength, and heat resistance up to 120°C, it eliminates the need for mechanical\ncompressors and messy manual rolling on site. Available in 500ml aerosols\nand 22L canisters with low-VOC formulations, it delivers rapid, durable bonding\nacross concrete, metal, timber, and insulation substrates."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

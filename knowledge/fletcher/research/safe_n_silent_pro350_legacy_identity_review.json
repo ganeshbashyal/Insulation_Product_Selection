@@ -1,0 +1,65 @@
+{
+  "family_id": "FLETCHER_SAFE_N_SILENT_LEGACY",
+  "family_name": "Safe'n'Silent Pro350 (legacy identity review)",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "gemini_not_found",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "",
+    "features": "",
+    "applications": "",
+    "technical": "",
+    "range": "",
+    "fire": "",
+    "compliance": "",
+    "sustainability": "",
+    "install": "",
+    "selection_checklist": "",
+    "accessories": "",
+    "limitations": "",
+    "warranty": ""
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Safe'n'Silent Pro350",
+      "Fletcher Safe n Silent",
+      "rockwool partition batt",
+      "mineral wool sound insulation",
+      "stonewool acoustic batt",
+      "acoustic wall\nbatt 350",
+      "Fletcher rockwool legacy"
+    ],
+    "problem_keywords": [
+      "noise between\nparty walls",
+      "sound transfer through stud walls",
+      "acoustic privacy in\napartments",
+      "fire and acoustic cavity insulation",
+      "inter-tenancy wall noise"
+    ],
+    "placement": [
+      "wall",
+      "internal wall",
+      "ceiling",
+      "between floors"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "fire",
+      "thermal"
+    ],
+    "use_cases": [
+      "Legacy\nacoustic friction-fit infill in commercial metal stud walls",
+      "Sound\ntransmission dampening in multi-residential party wall cavities",
+      "Acoustic\nfloor-to-floor decoupling in timber and concrete intermediate floors"
+    ],
+    "not_for": [
+      "External weather-exposed facades",
+      "Underfloor crawl space ground\ncontact",
+      "Exposed decorative wall linings"
+    ],
+    "rag_summary": "Fletcher\nSafe'n'Silent Pro350 represents a legacy high-density stonewool/mineral wool\nacoustic batt line formerly distributed by Fletcher Insulation for commercial\ndrywall partitions and party walls. Engineered for high acoustic sound\ntransmission loss (Rw) and non-combustible fire protection, it has been\nsuperseded in Fletcher's contemporary Australian catalog by Soundbreak\nhigh-density glasswool and Fletcher Protect Stonewool products. It solved\nairborne sound transfer and inter-tenancy noise leakage in commercial and\nmulti-residential partition assemblies."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

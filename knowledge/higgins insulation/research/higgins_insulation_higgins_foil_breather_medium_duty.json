@@ -1,0 +1,140 @@
+{
+  "family_id": "HIGGINS_INSULATION_HIGGINS_FOIL_BREATHER_MEDIUM_DUTY",
+  "family_name": "Higgins Insulation Higgins Foil Breather Medium Duty",
+  "datasheet_pdf_url": "https://higginsinsulation.com.au/product/sarking-wall-insulation-breather-foil-medium-duty-81m2/",
+  "sds_url": "https://higginsinsulation.com.au/wp-content/uploads/2021/04/Higgins-Polyester-Insulation-SDS.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Foil Wall Wrap Breather is a medium-duty, five-layer reflective\nfoil wall insulation sarking with bright aluminum foil tested to 97%\nreflectivity adhered to one side. When installed with an adjacent still air gap\nof at least 20mm, it creates an effective radiant heat barrier while its\nmicro-perforations permit moisture vapor to breathe through, reducing\ncondensation risks in external wall cavities. The substrate is constructed from\nultra-violet stabilized woven polypropylene with anti-oxidants and corona\ntreatment, providing superior tear resistance on Australian building sites.",
+    "features": [
+      "Five-layer composite construction with UV-stabilized woven\npolypropylene substrate",
+      "Bright aluminum foil facing tested to 97%\nreflectivity",
+      "Micro-perforated breather design allows trapped water vapor to\nescape the wall cavity",
+      "Medium Duty classification providing superior puncture\nand tear resistance",
+      "Corona-treated substrate ensures superior adhesive\nlamination strength",
+      "Acts as a weather barrier protecting frames from\nwind-driven rain and dust",
+      "Manufactured in Australia to comply with Australian\nfire standard AS 1530",
+      "Large roll size (1350mm x 60m) covering 81 m² with\nminimal joins"
+    ],
+    "applications": [
+      "wall",
+      "external wall",
+      "shed"
+    ],
+    "technical": [
+      {
+        "property": "Material Structure",
+        "value": "Five-layer laminate\nof UV-stabilized woven polypropylene and pure aluminum foil",
+        "standard": ""
+      },
+      {
+        "property": "Duty Classification",
+        "value": "Medium Duty",
+        "standard": "AS/NZS 4200.1"
+      },
+      {
+        "property": "Vapor Permeance",
+        "value": "Perforated\nBreather (allows moisture vapor diffusion)",
+        "standard": "AS/NZS 4200.1"
+      },
+      {
+        "property": "Reflectivity",
+        "value": "97% radiant heat reflectivity\n(emittance 0.03)",
+        "standard": "AS/NZS 4201.5"
+      },
+      {
+        "property": "Roll\nDimensions",
+        "value": "1350 mm width x 60 m length (81 m² per roll)",
+        "standard": ""
+      },
+      {
+        "property": "Water Control",
+        "value": "Water Barrier (under\nstandard testing conditions)",
+        "standard": "AS/NZS 4201.4"
+      },
+      {
+        "property": "Flammability",
+        "value": "Complies with Australian Fire Standard AS 1530",
+        "standard": "AS 1530"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Sarking Wall Insulation\nBreather Foil Medium Duty 81m2",
+        "size_or_rating": "1350 mm x 60 m (81 m²)",
+        "pack": "Roll"
+      }
+    ],
+    "fire": "Manufactured to meet the Australian fire standard\nAS 1530; Flammability Index ≤ 5",
+    "compliance": "AS/NZS 4200.1, AS/NZS 4200.2,\nAS 1530, NCC Volume One and Two",
+    "sustainability": "Recyclable woven polymer\nand aluminum materials; zero ODP; non-toxic",
+    "install": [
+      "Roll out\nhorizontally on the exterior face of timber or steel wall framing studs starting\nfrom the bottom plate",
+      "Fasten with broad-headed galvanized clouts or staples\nat maximum 300mm centers to studs and plates",
+      "Overlap upper sheets over lower\nsheets by at least 150mm to ensure water shedding",
+      "Ensure a minimum 20mm still\nair space is maintained adjacent to the reflective foil face",
+      "Tape all\nhorizontal and vertical joins with reinforced foil tape to maximize air\nsealing",
+      "Fix neatly around window and door openings prior to installing\njoinery flashings",
+      "Ensure a drained and ventilated cavity exists between the\nwrap and exterior cladding"
+    ],
+    "selection_checklist": [
+      "Confirm wall\nconstruction is brick veneer or lightweight cladding in climate zones where\nbreather foil is recommended",
+      "Verify roll coverage (81m² per roll) allows\nfor 150mm overlaps",
+      "Confirm minimum 20mm air gap can be maintained in the wall\nassembly",
+      "Order matching reinforced aluminum joining tape"
+    ],
+    "accessories": [
+      "Reinforced aluminum foil tape",
+      "Galvanized clouts / staples"
+    ],
+    "limitations": [
+      "Not recommended for roof applications (designed specifically for walls)",
+      "Not suitable for cold climate zones where non-perforated Class 4 spunbond\nmembranes are required by the NCC",
+      "Protect from direct prolonged weather\nexposure prior to cladding installation"
+    ],
+    "warranty": "Backed by Higgins\nInsulation product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Higgins Foil\nBreather",
+      "Higgins Medium Duty Breather",
+      "perforated wall foil wrap",
+      "Higgins\nsarking breather 81m2",
+      "reflective breather foil",
+      "medium duty wall sarking",
+      "brick veneer breather wrap",
+      "1350mm foil breather"
+    ],
+    "problem_keywords": [
+      "trapped moisture inside wall frame",
+      "sweating brick veneer cavity",
+      "radiant\nheat transfer through walls",
+      "wall wrap tearing on windy building sites",
+      "drafts in exterior framed walls"
+    ],
+    "placement": [
+      "wall",
+      "external wall",
+      "shed"
+    ],
+    "priority_fit": [
+      "thermal",
+      "condensation",
+      "easy_install"
+    ],
+    "use_cases": [
+      "External wall wrap on residential brick veneer homes in\ntemperate and warm climate zones",
+      "Tear-resistant reflective sarking behind\nlightweight cladding on timber or steel frames",
+      "Reflective thermal barrier in\ndomestic steel shed wall construction"
+    ],
+    "not_for": [
+      "Cold climate zones\n(Zones 6-8) requiring Class 4 vapour-permeable membranes",
+      "Roof sarking under\nconcrete tiles or metal sheets",
+      "Continuous water immersion"
+    ],
+    "rag_summary": "Higgins Insulation Higgins Foil Breather Medium Duty is a five-layer reflective\nfoil wall sarking membrane measuring 1350mm x 60m (81 m² per roll). Combining a\nUV-stabilized woven polypropylene core with a 97% reflective aluminum face and\nmicroscopic breathability perforations, it blocks radiant heat while allowing\ncavity moisture vapor to escape. Tear-resistant and compliant with AS/NZS 4200.1\nand AS 1530, it delivers durable weather protection and thermal air-gap\nresistance across external residential and shed walls."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

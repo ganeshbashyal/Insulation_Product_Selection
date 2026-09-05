@@ -1,0 +1,167 @@
+{
+  "family_id": "BRADFORD_WALL_WRAPS_MEDIUM_DUTY_POLYWEAVE_WALL_WR",
+  "family_name": "Bradford Wall Wraps - Medium Duty Polyweave Wall Wrap",
+  "datasheet_pdf_url": "https://www.bradfordinsulation.com.au/home-insulation/walls/thermoseal-wall-wrap",
+  "sds_url": "https://www.bradfordinsulation.com.au/-/media/bradford/files/safety-data-sheet---glasswool.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Bradford Thermoseal Medium Duty Polyweave Wall Wrap is a\nheavy-duty, tear-resistant reflective foil laminate designed for use in exterior\nwalls with framing cavities. Built with high-strength woven polymer (polyweave)\nfabric bonded to pure aluminium foil with flame-retardant adhesive, it provides\nhigh puncture resistance against construction traffic and high winds. When\ninstalled adjacent to an internal or external air cavity, its reflective\naluminium facing generates thermal air-gap R-values while forming a Class 1/2\nvapour barrier and liquid water barrier.",
+    "features": [
+      "High-strength woven\npolyweave core delivers exceptional tear and puncture resistance",
+      "Tough Medium\nDuty rating withstands windy construction conditions on site",
+      "Reflective\naluminium foil face provides radiant heat reflection and air-gap R-values",
+      "Available in inward-facing reflective (for unfilled frame cavities) and outward\nXP (for facade cavities)",
+      "Effective vapour barrier (Class 1 / 2) to control\nair and water vapour transmission",
+      "Water barrier protects timber and steel\nframes from wind-driven rain",
+      "Blocks drafts to enhance bulk wall batt\ninsulation performance",
+      "Low flammability index compliant with AS 1530.2"
+    ],
+    "applications": [
+      "wall",
+      "external wall",
+      "shed"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "High-density woven polymer fabric (polyweave)\nlaminated to aluminium foil",
+        "standard": ""
+      },
+      {
+        "property": "Duty\nClassification",
+        "value": "Medium Duty",
+        "standard": "AS/NZS 4200.1"
+      },
+      {
+        "property": "Vapour Barrier Classification",
+        "value": "Class 1 or 2 Vapour\nBarrier (Low Vapour Permeance)",
+        "standard": "AS/NZS 4200.1"
+      },
+      {
+        "property": "Water Control Classification",
+        "value": "Water Barrier",
+        "standard": "AS/NZS 4201.4"
+      },
+      {
+        "property": "Emittance (Reflective Face)",
+        "value": "0.05\n(95% heat reflection)",
+        "standard": "AS/NZS 4201.5"
+      },
+      {
+        "property": "Roll\nDimensions (30m)",
+        "value": "1350 mm width x 30 m length (40.5 m² per roll)",
+        "standard": ""
+      },
+      {
+        "property": "Roll Dimensions (60m)",
+        "value": "1350 mm width\nx 60 m length (81 m² per roll)",
+        "standard": ""
+      },
+      {
+        "property": "Flammability\nIndex",
+        "value": "≤ 5 (Low Flammability)",
+        "standard": "AS 1530.2"
+      },
+      {
+        "property": "Product Codes",
+        "value": "40483 (30m Inward), 15128 (60m\nInward), 125825 (30m XP), 124652 (60m XP)",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Thermoseal Medium Duty Polyweave Wall Wrap 30m",
+        "size_or_rating": "1350 mm x 30 m (40.5 m²)",
+        "pack": "Roll (Code: 40483)"
+      },
+      {
+        "variant": "Thermoseal Medium Duty Polyweave Wall Wrap 60m",
+        "size_or_rating": "1350 mm\nx 60 m (81 m²)",
+        "pack": "Roll (Code: 15128)"
+      },
+      {
+        "variant": "Thermoseal Wall\nWrap XP (Outward Reflective) 30m",
+        "size_or_rating": "1350 mm x 30 m (40.5 m²)",
+        "pack": "Roll (Code: 125825)"
+      },
+      {
+        "variant": "Thermoseal Wall Wrap XP (Outward\nReflective) 60m",
+        "size_or_rating": "1350 mm x 60 m (81 m²)",
+        "pack": "Roll\n(Code: 124652)"
+      }
+    ],
+    "fire": "Flammability Index ≤ 5 to AS 1530.2; Suitable for\nBAL-12.5 to BAL-40 wall systems under AS 3959",
+    "compliance": "AS/NZS 4200.1:2017, AS/NZS 4200.2, AS 1530.2, NCC Volume One and Volume Two",
+    "sustainability": "Zero ODP, non-hazardous, manufactured with recyclable polymer\nand aluminium materials",
+    "install": [
+      "Fix Thermoseal Polyweave Wall Wrap to\nexterior of studs starting from bottom plate",
+      "Run sheets horizontally with\nupper sheets overlapping lower sheets by minimum 150mm",
+      "Ensure orientation\nmatches product design (foil facing cavity where reflective R-value is\ndesired)",
+      "Secure to timber framing using galvanized staples or clouts; use\nself-drilling screws with washers for steel",
+      "Fix at maximum 300mm centres to\nstuds and plates to prevent wind flap",
+      "Seal joints with Bradford 493\nreinforced aluminium foil tape for maximum vapour and air tightness"
+    ],
+    "selection_checklist": [
+      "Confirm wall type is brick veneer or cavity\nconstruction where air space exists",
+      "Choose between Inward Reflective (when\nstud cavity is empty) or Outward XP (when stud is filled with batts)",
+      "Select\nroll length (30m for 40.5m² or 60m for 81m²)",
+      "Verify Medium Duty rating is\nspecified for high wind or exposed sites",
+      "Order matching Bradford 493 foil\ntape"
+    ],
+    "accessories": [
+      "Bradford 493 Reinforced Aluminium Foil Tape",
+      "Bradfix fasteners",
+      "Foil staples"
+    ],
+    "limitations": [
+      "Requires an air gap\n(void) adjacent to the reflective face to deliver thermal R-value",
+      "Non-breathable vapour barrier; not recommended in cold climate zones\n(zones 6, 7, 8) where Class 4 breathable wraps are mandated",
+      "Must be covered\nby external cladding within manufacturer UV exposure limits"
+    ],
+    "warranty": "Backed by CSR Bradford product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Bradford Medium Duty Polyweave Wall Wrap",
+      "Thermoseal Polyweave Wall Wrap",
+      "Thermoseal Wall Wrap 15128",
+      "Medium Duty Wall Wrap",
+      "polyweave reflective\nfoil wrap",
+      "Thermoseal XP 124652",
+      "brick veneer wall wrap",
+      "Bradford 40483",
+      "tear resistant wall wrap"
+    ],
+    "problem_keywords": [
+      "wall wrap tearing in high\nwind on site",
+      "drafts penetrating brick veneer walls",
+      "radiant heat entering\nhome through brick veneer",
+      "wall wrap punctures from brick ties",
+      "uninsulated\nstud cavity heat loss"
+    ],
+    "placement": [
+      "wall",
+      "external wall",
+      "shed"
+    ],
+    "priority_fit": [
+      "thermal",
+      "fire",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Tear-resistant sarking wrap on timber-frame brick veneer walls in high-wind\nregions",
+      "Providing an inward-facing air-gap R-value in exterior walls where\ninternal cavity is unfilled",
+      "Heavy-duty protective wrap on residential and\nlight commercial building sites before cladding"
+    ],
+    "not_for": [
+      "Cold climate\nzones requiring breathable Class 4 wraps",
+      "Direct roof sarking under tiles (use\nRoof Tile sarking)",
+      "Continuous water immersion"
+    ],
+    "rag_summary": "Bradford\nWall Wraps - Medium Duty Polyweave Wall Wrap (Bradford Thermoseal Wall Wrap /\nWall Wrap XP, product codes 15128 / 40483 / 124652) is an ultra-tough,\ntear-resistant reflective foil laminate designed for exterior brick veneer and\ncavity wall construction. Constructed with a high-density woven polymer core and\npure aluminium foil, its Medium Duty rating resists wind flapping and tearing on\nexposed jobsites while acting as an effective water and vapour barrier. By\nreflecting radiant heat across adjacent air cavities, it boosts wall thermal\nperformance and complies with AS/NZS 4200.1 and AS 1530.2 (Flammability Index\n≤ 5, BAL 12.5-40)."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

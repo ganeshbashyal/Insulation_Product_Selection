@@ -1,0 +1,178 @@
+{
+  "family_id": "HIGGINS_INSULATION_HIGGINS_POLYESTER_SOUND_CONTROL_BATT",
+  "family_name": "Higgins Insulation Higgins Polyester Sound Control Batt",
+  "datasheet_pdf_url": "https://higginsinsulation.com.au/product/polyester-sound-control-batts/",
+  "sds_url": "https://higginsinsulation.com.au/wp-content/uploads/2021/04/Higgins-Polyester-Insulation-SDS.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Polyester Sound Control Batts are high-density acoustic\ninsulation slabs specifically engineered to reduce unwanted noise transfer\nthrough internal walls, mid-floors, and ceilings in residential homes. Acting\nlike an acoustic sponge, they absorb sound reflections and vibrations to prevent\nspeech, television, and bathroom plumbing noise from traveling between rooms.\nAvailable in 11 kg/m³ and 14 kg/m³ densities across 50mm and 75mm thicknesses,\nthey are 100% polyester, itch-free, non-toxic, and tested to AS/NZS 1530.3.",
+    "features": [
+      "Specifically engineered to stop sound moving between rooms\n(bedrooms, home offices, bathrooms)",
+      "Available in 11 kg/m³ and 14 kg/m³\nacoustic density options",
+      "High Noise Reduction Coefficient (NRC) absorbing\nroom-to-room echoes and vibrations",
+      "100% polyester fiber with no itchy glass\nfibers or toxic dust during installation",
+      "Friction-fit design squeezes firmly\nbetween studs and stays in place without sagging",
+      "Pre-cut to 450mm and 600mm\nwidths to fit standard residential stud spacings",
+      "Contains up to 85% recycled\npolyester fiber from post-consumer PET",
+      "Free from formaldehyde, phenol, and\nammonia binders",
+      "Unaffected by moisture and resistant to mold and vermin",
+      "Complies with Australian fire safety standard AS/NZS 1530.3"
+    ],
+    "applications": [
+      "wall",
+      "internal wall",
+      "ceiling",
+      "between floors"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "100% thermally bonded polyester fiber (up\nto 85% recycled PET)",
+        "standard": ""
+      },
+      {
+        "property": "Nominal Densities",
+        "value": "11 kg/m³, 14 kg/m³",
+        "standard": ""
+      },
+      {
+        "property": "Thicknesses",
+        "value": "50 mm, 75 mm",
+        "standard": ""
+      },
+      {
+        "property": "Standard Dimensions",
+        "value": "1200 mm length x 450 mm or 600 mm width",
+        "standard": ""
+      },
+      {
+        "property": "Pack Coverage (11kg 50mm)",
+        "value": "10.80 m² (450mm, 20 pcs)\n/ 11.52 m² (600mm, 16 pcs)",
+        "standard": ""
+      },
+      {
+        "property": "Pack Coverage\n(11kg 75mm)",
+        "value": "6.48 m² (450mm, 12 pcs) / 6.48 m² (600mm, 9 pcs)",
+        "standard": ""
+      },
+      {
+        "property": "Pack Coverage (14kg 50mm)",
+        "value": "8.10 m²\n(450mm, 15 pcs) / 8.64 m² (600mm, 12 pcs)",
+        "standard": ""
+      },
+      {
+        "property": "Pack Coverage (14kg 75mm)",
+        "value": "6.48 m² (450mm, 12 pcs) / 6.48 m²\n(600mm, 9 pcs)",
+        "standard": ""
+      },
+      {
+        "property": "Fire Hazard Indices",
+        "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Acoustic Performance",
+        "value": "High Noise Reduction Coefficient (NRC) across speech frequencies",
+        "standard": "ISO 354"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Polyester Sound Control Batts 11kg/m³\n(50mm)",
+        "size_or_rating": "50 mm x 1200 mm x 450/600 mm",
+        "pack": "Pack\nof 16-20 batts"
+      },
+      {
+        "variant": "Polyester Sound Control Batts 11kg/m³ (75mm)",
+        "size_or_rating": "75 mm x 1200 mm x 450/600 mm",
+        "pack": "Pack of 9-12 batts"
+      },
+      {
+        "variant": "Polyester Sound Control Batts 14kg/m³ (50mm)",
+        "size_or_rating": "50 mm x 1200 mm x 450/600 mm",
+        "pack": "Pack of 12-15 batts"
+      },
+      {
+        "variant": "Polyester Sound Control Batts 14kg/m³ (75mm)",
+        "size_or_rating": "75 mm x 1200 mm x 450/600 mm",
+        "pack": "Pack of 9-12 batts"
+      }
+    ],
+    "fire": "Tested in accordance with AS/NZS 1530.3: Ignitability 0, Spread of\nFlame 0, Heat Evolved 0, Smoke Developed 0-1",
+    "compliance": "AS/NZS 1530.3,\nAS/NZS 4859.1, NCC Volume One and Two acoustic requirements",
+    "sustainability": "Contains up to 85% recycled polyester fiber; Zero VOCs; Zero formaldehyde;\nAsthma friendly; 100% recyclable",
+    "install": [
+      "Turn off power at the main\nswitchboard before working near electrical cables",
+      "Select batt width (450mm\nor 600mm) matching wall stud centers",
+      "Squeeze and friction-fit batts between\ntimber or steel wall studs ensuring snug contact",
+      "Ensure batts butt tightly\nagainst top and bottom plates with no air gaps",
+      "Cut neatly around electrical\nboxes, plumbing, and cables using a sharp serrated knife",
+      "Do not compress\nbatts beyond cavity depth to maintain acoustic absorption",
+      "Fasten acoustic\nplasterboard directly over studs to complete acoustic wall system"
+    ],
+    "selection_checklist": [
+      "Confirm stud spacing (450mm vs 600mm centers)",
+      "Select cavity thickness (50mm for 70mm studs; 75mm for 90mm studs)",
+      "Choose\ndensity (11 kg/m³ for standard noise; 14 kg/m³ for higher acoustic\nattenuation)",
+      "Calculate required square meterage from wall dimensions"
+    ],
+    "accessories": [
+      "Acoustic plasterboard",
+      "Acoustic sealant",
+      "Insulation knife"
+    ],
+    "limitations": [
+      "Internal wall and ceiling cavity use only; not for direct\nweather exposure",
+      "Does not replace structural mass; combine with dense\nplasterboard for maximum acoustic Rw",
+      "Maintain required clearances around\nnon-IC rated light fittings"
+    ],
+    "warranty": "Backed by Higgins Insulation\nproduct warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Higgins Sound Control\nBatts",
+      "Polyester Sound Control Batts",
+      "Higgins acoustic batts",
+      "14kg\npolyester sound batts",
+      "11kg sound control batts",
+      "internal wall acoustic\nbatts",
+      "itch free sound batts",
+      "polyester wall soundproofing",
+      "bedroom\nacoustic insulation"
+    ],
+    "problem_keywords": [
+      "hearing TV through bedroom wall",
+      "noise between home office and living room",
+      "bathroom plumbing noise through\nwall",
+      "noisy internal walls in residential home",
+      "itchy soundproofing\ninsulation",
+      "flanking noise through partition walls"
+    ],
+    "placement": [
+      "wall",
+      "internal wall",
+      "ceiling",
+      "between floors"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "sustainability",
+      "easy_install",
+      "fire"
+    ],
+    "use_cases": [
+      "Acoustic insulation\nin internal partition walls between bedrooms, bathrooms, and home theatres",
+      "Sound dampening in home office walls to eliminate conversational distractions",
+      "Mid-floor acoustic insulation between ground and upper levels in two-storey\nhomes"
+    ],
+    "not_for": [
+      "Exposed external cladding",
+      "Underfloor crawl spaces\nexposed to wind",
+      "High-temperature exhaust flues"
+    ],
+    "rag_summary": "Higgins\nInsulation Higgins Polyester Sound Control Batts are high-density acoustic\ninsulation slabs engineered from 100% polyester fiber with up to 85% recycled\nPET content to reduce noise transfer between residential rooms. Available in 11\nkg/m³ and 14 kg/m³ densities across 50mm and 75mm thicknesses (450mm and 600mm\nwidths), they friction-fit into internal timber or steel stud walls to absorb\nspeech, TV, and plumbing noise. Non-toxic, itch-free, and tested to\nAS/NZS 1530.3 fire safety standards, they deliver safe, durable acoustic\ncontrol."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

@@ -1,0 +1,536 @@
+
+[ { "family_id": "PROCTOR_GABLE_VENT", "tds_url": "", "sds_url": "",
+"description": "", "features": [], "applications": [], "technical": [], "range":
+[], "fire": "", "compliance": "", "sustainability": "", "install": [],
+"selection_checklist": [], "accessories": [], "limitations": [], "warranty": "",
+"found": false, "search_keywords": [ "proctor gable vent", "gable vent", "roof
+gable vent", "attic ventilation louvre", "gable wall vent", "passive roof vent",
+"timber gable vent", "gable louvre", "roof space ventilator" ],
+"problem_keywords": [ "hot roof space", "condensation in roof space", "attic
+heat buildup", "poor roof ventilation", "roof space moisture", "mould in attic
+space" ], "placement": [ "roof", "roofline", "wall", "external wall" ],
+"priority_fit": [ "condensation", "thermal", "easy_install" ], "use_cases": [
+"Passive ventilation of residential roof spaces through external gable end
+walls", "Exhausting hot air from pitched roof spaces during summer", "Preventing
+moisture accumulation and condensation under pitched roof sheeting" ],
+"not_for": [ "Bushfire zones requiring non-compliant unmeshed apertures", "Below
+ground or subfloor perimeter ventilation", "Direct floor or ceiling internal
+room linings" ], "rag_summary": "Proctor Gable Vent represents passive external
+ventilation louvres installed on exterior gable end walls to cross-ventilate
+residential and commercial pitched roof spaces. By creating a natural convective
+airflow path across the attic void, it expels trapped heat in summer and vents
+moisture vapour in winter to mitigate condensation and mould growth. It
+functions as a non-mechanical roof space ventilation component complementary to
+eaves and ridge venting systems." }, { "family_id": "PROCTOR_MEMBRANE",
+"tds_url": "", "sds_url": "", "description": "", "features": [], "applications":
+[], "technical": [], "range": [], "fire": "", "compliance": "",
+"sustainability": "", "install": [], "selection_checklist": [], "accessories":
+[], "limitations": [], "warranty": "", "found": false, "search_keywords": [
+"proctor membrane", "proctorwrap", "proctor building wrap", "proctor vapour
+permeable membrane", "proctor roof underlay", "proctor wall wrap", "breathable
+membrane proctor", "proctor passive membrane" ], "problem_keywords": [
+"condensation in external walls", "water ingress behind cladding", "air leakage
+through wall frame", "mould in timber framing", "draughty external walls", "roof
+space condensation" ], "placement": [ "wall", "external wall", "roof",
+"roofline" ], "priority_fit": [ "condensation", "thermal", "fire" ],
+"use_cases": [ "Weather barrier and vapour-permeable membrane on external timber
+or steel framed walls", "Roof sarking underlay for pitched metal or tile roofs
+in residential construction", "Airtight building envelope wrap for
+high-performance and Passive House buildings" ], "not_for": [ "Direct exposure
+to weather without external cladding beyond rated UV limit", "Underfloor soil
+direct contact or damp-proofing", "Internal acoustic decorative finishes" ],
+"rag_summary": "Proctor Membrane encompasses the broader family of ProctorWrap
+and ProctorPassive technical building fabrics engineered for Australian climate
+zones. These spunbonded polyolefin and composite membranes serve as Class 3 or
+Class 4 vapour-permeable, airtight, and water-barrier layers across wall
+assemblies and pitched roofs. By allowing structural moisture to escape while
+blocking external liquid water and wind-driven draughts, they protect building
+durability and enhance thermal insulation efficiency." }, { "family_id":
+"PROCTOR_PASSIVE_DRIFLASH_TAPE", "tds_url":
+"https://proctorgroup.com.au/product/driflash-tape-ext-int-joint-tape/",
+"sds_url":
+"https://proctorgroup.com.au/product/driflash-tape-ext-int-joint-tape/",
+"description": "ProctorPassive DriFlash Tape is a high performance single-sided
+vapor-permeable fleece tape coated with a solvent-free acrylic adhesive,
+protected by a split release paper. It is designed to provide water, air, and
+weather-tight seals around wall and roof penetration interfaces, including
+window and door openings. Because it is vapor permeable, it allows moisture
+within wall framing junctions to dry out safely while blocking external wind and
+liquid water.", "features": [ "Vapour permeable fleece carrier allowing trapped
+moisture to dry outward", "Solvent-free polyacrylic pressure-sensitive adhesive
+with high initial tack", "Split release backing paper for fast and accurate
+corner application", "Creates an airtight and weathertight seal around
+penetrations and joints", "High UV resistance suitable for installation before
+cladding is completed", "Bonds aggressively to timber, metal, rigid insulation,
+and building wraps", "Flexible fleece backing accommodates building movement and
+thermal expansion", "Suitable for internal and external envelope air sealing" ],
+"applications": [ "wall", "external wall", "roof", "roofline", "internal wall",
+"window", "door" ], "technical": [ { "property": "Carrier", "value": "Vapour
+permeable polyolefin fleece", "standard": "" }, { "property": "Adhesive",
+"value": "Solvent-free polyacrylic", "standard": "" }, { "property": "Roll
+Dimensions", "value": "75 mm x 25 m, 100 mm x 25 m, 150 mm x 25 m", "standard":
+"" }, { "property": "Sd-value", "value": "0.03 m (Vapour permeable)",
+"standard": "EN 12572" }, { "property": "Temperature Resistance", "value":
+"-40°C to +100°C", "standard": "" }, { "property": "Installation Temperature",
+"value": "-10°C to +40°C", "standard": "" }, { "property": "Reaction to Fire",
+"value": "Class E", "standard": "EN 13501-1" } ], "range": [ { "variant":
+"DriFlash Tape 75mm", "size_or_rating": "75 mm x 25 m", "pack": "Roll" }, {
+"variant": "DriFlash Tape 100mm", "size_or_rating": "100 mm x 25 m", "pack":
+"Roll" }, { "variant": "DriFlash Tape 150mm", "size_or_rating": "150 mm x 25 m",
+"pack": "Roll" } ], "fire": "Reaction to fire Class E to EN 13501-1",
+"compliance": "AS/NZS 4200.2:2017, NCC 2022 Volume One & Two condensation
+management, Passive House air barrier requirements", "sustainability":
+"Solvent-free, zero chlorine, zero formaldehyde, low VOC emissions", "install":
+[ "Ensure substrate is dry, clean, dust-free, and free of oil, grease, or loose
+particles", "Measure and cut tape to required length allowing for overlaps at
+corners", "Peel back the first section of the split release liner paper",
+"Position tape evenly across the window jamb, sill, or penetration junction",
+"Remove the remaining split release liner while smoothing the tape onto the
+adjacent surface", "Press firmly along the entire tape length using a hand
+roller or squeegee to achieve 100% adhesion", "Ensure corner joins overlap by a
+minimum of 50mm", "Apply in dry weather within the temperature range of -10°C to
++40°C" ], "selection_checklist": [ "Confirm width needed (75mm for flat
+seams, 100mm/150mm for window sills and rough openings)", "Verify need for
+vapour-permeable flashing to avoid trapping moisture in structural framing",
+"Ensure substrate is compatible (timber, steel, concrete, OSB, or pliable
+membranes)", "Check compatibility with air-barrier and water-resistive barrier
+membranes" ], "accessories": [ "ProctorWrap building membranes", "Pressure
+squeegee / hand roller" ], "limitations": [ "Do not apply over wet, frozen, or
+heavily contaminated surfaces", "Pressure-sensitive adhesive requires firm
+rolling for complete mechanical bond", "Must not be permanently exposed to UV
+weather beyond manufacturer limits" ], "warranty": "Backed by Proctor Group
+Australia product warranty", "found": true, "search_keywords": [ "Proctor
+Passive DriFlash Tape", "DriFlash tape", "vapour permeable flashing tape",
+"breathable window tape", "Proctor flashing tape", "split liner flashing tape",
+"fleece airtight tape", "passive house window tape" ], "problem_keywords": [
+"water leakage around window openings", "air leaks at window frame junctions",
+"trapped moisture in window sills", "failing blower door test around doors",
+"sealing penetrations in building wrap" ], "placement": [ "wall", "external
+wall", "roof", "roofline", "internal wall" ], "priority_fit": [ "condensation",
+"easy_install", "thermal" ], "use_cases": [ "Sealing window and door framing
+junctions to external vapour-permeable wall wraps", "Air and weathertight
+sealing of pipe, duct, and cable penetrations through building envelopes",
+"Joining roof underlay sheets at hips, valleys, and ridge interfaces" ],
+"not_for": [ "Permanent immersion in standing water", "High-temperature flue
+exhaust pipes above 100°C", "Structural load-bearing anchoring" ],
+"rag_summary": "ProctorPassive DriFlash Tape is a high-performance, single-sided
+vapour-permeable fleece flashing tape coated with solvent-free polyacrylic
+adhesive. Designed with a split release liner, it seals window and door frames,
+penetrations, and wall-to-roof junctions to provide continuous airtight and
+weathertight protection. Its vapour-permeable fleece core (Sd 0.03m) allows
+trapped moisture inside framing to dry outward, mitigating rot and mould while
+supporting Passive House airtightness standards." }, { "family_id":
+"PROCTOR_PASSIVE_RAINSCREEN_WITH_INTEGRATED_TAPE", "tds_url":
+"https://proctorgroup.com.au/product/proctorpassive-rainscreen-fr-zero-black-vapour-permeable-membrane/",
+"sds_url":
+"https://proctorgroup.com.au/product/proctorpassive-rainscreen-fr-zero-black-vapour-permeable-membrane/",
+"description": "ProctorPassive Rainscreen (such as Rainscreen FR-Zero with
+Integrated Tape / IT) is an extra heavy-duty, vapour-permeable water and air
+barrier membrane engineered specifically for open-joint rainscreen facades.
+Formulated with zero halogen flame retardants, it achieves an AS 1530.1
+non-combustibility index or Group 1 fire rating and is UV-stabilised to
+withstand permanent solar exposure behind open joints up to 50mm wide. The
+integrated tape system provides dual adhesive-to-adhesive sealing along
+horizontal overlaps, accelerating installation and ensuring continuous airtight
+and weathertight integrity.", "features": [ "Engineered for open-joint cladding
+with up to 40% open area and 50mm gap widths", "Integrated tape (IT) provides
+adhesive-to-adhesive lap sealing along edges", "Vapour permeable Class 4 rating
+allows internal moisture vapour to breathe outward", "Water barrier and air
+barrier preventing rain and wind infiltration", "Halogen-free fire-retardant
+formulation compliant with AS 1530.2 and AS 1530.1 / AS 5637.1", "High tensile
+and tear strength classified as Extra Heavy Duty", "High UV resistance ensuring
+long-term stability behind open cladding slats", "Deep solid black finish
+creates a clean shadow line behind open facade joints", "Suitable for commercial
+and residential timber or steel frame constructions" ], "applications": [
+"wall", "external wall" ], "technical": [ { "property": "Duty Classification",
+"value": "Extra Heavy Duty", "standard": "AS/NZS 4200.1:2017" }, { "property":
+"Vapour Permeability", "value": "Class 4 Vapour Permeable", "standard":
+"AS/NZS 4200.1:2017" }, { "property": "Water Control", "value": "Water Barrier",
+"standard": "AS/NZS 4201.4" }, { "property": "Air Control", "value": "Air
+Barrier", "standard": "AS/NZS 4200.1:2017" }, { "property": "Flammability
+Index", "value": "≤ 5", "standard": "AS 1530.2" }, { "property": "UV
+Resistance", "value": "Permanent exposure behind open joints up to 50 mm wide
+/ 40% open area", "standard": "" }, { "property": "Roll Dimensions", "value":
+"1500 mm width x 50 m length (75 m²)", "standard": "" } ], "range": [ {
+"variant": "ProctorPassive Rainscreen IT", "size_or_rating": "1500 mm x 50 m (75
+m²)", "pack": "Roll" }, { "variant": "ProctorPassive Rainscreen FR-Zero IT",
+"size_or_rating": "1500 mm x 50 m (75 m²)", "pack": "Roll" } ], "fire":
+"Flammability Index ≤ 5 to AS 1530.2; Non-combustible / Group 1 fire compliance
+options for non-combustible external wall construction", "compliance":
+"AS/NZS 4200.1:2017, AS/NZS 4200.2:2017, AS 1530.2, NCC 2022 Volume One & Two",
+"sustainability": "Halogen-free flame retardants, recyclable polyolefin
+components, low VOC", "install": [ "Install horizontally over wall framing or
+external rigid sheathing with black face outward", "Fix mechanically using
+broad-head screws with washers or cap nails at maximum 300mm centres", "Ensure
+horizontal runs overlap by a minimum of 150mm", "Peel back release liner from
+the integrated adhesive tape on the overlapping edges", "Press the two
+integrated tape strips firmly together using a squeegee to form an airtight
+bond", "Stagger vertical joints by minimum 150mm over a stud and seal with
+compatible black rainscreen tape", "Seal all window, door, and service
+penetrations to complete the continuous weather envelope", "Ensure facade
+cladding open gaps do not exceed 50mm width or 40% open area" ],
+"selection_checklist": [ "Confirm cladding system is an open-joint rainscreen
+facade", "Verify maximum facade gap width does not exceed 50mm and 40% open
+area", "Confirm requirement for integrated tape (IT) for faster lap sealing",
+"Check fire compliance requirements for external wall (AS 1530.2 Flammability
+Index ≤ 5)", "Order matching black rainscreen patch tape for penetrations" ],
+"accessories": [ "ProctorPassive Black UV Tape", "Plastic application squeegee",
+"Mechanical cap fasteners" ], "limitations": [ "Do not exceed maximum 50mm gap
+width or 40% open area in facade cladding", "Must be separated from cladding by
+an unblocked drainage cavity", "Not designed for roof sarking or horizontal
+applications" ], "warranty": "Backed by Proctor Group Australia manufacturer
+warranty", "found": true, "search_keywords": [ "ProctorPassive Rainscreen IT",
+"Proctor rainscreen integrated tape", "open joint wall wrap", "UV stable black
+wall wrap", "black rainscreen membrane", "FR-Zero rainscreen", "open joint
+facade membrane", "Proctor rainscreen tape" ], "problem_keywords": [ "UV
+degrading wall wrap behind open cladding", "visible ugly white wrap through
+timber battens", "water ingress through open facade joints", "wind washing
+behind open rainscreen", "interstitial condensation behind cladding" ],
+"placement": [ "wall", "external wall" ], "priority_fit": [ "condensation",
+"fire", "easy_install" ], "use_cases": [ "Weatherproofing behind open-joint
+architectural timber batten facades", "Water and air barrier behind ventilated
+open-joint metal cassette rainscreens", "High-performance airtight wall envelope
+construction in multi-storey commercial facades" ], "not_for": [ "Pitched or
+flat roof sarking", "Facade systems where open joints exceed 50mm or 40% total
+area", "Subfloor damp-proofing" ], "rag_summary": "ProctorPassive Rainscreen
+with Integrated Tape is an Extra Heavy Duty, Class 4 vapour-permeable weather
+barrier engineered for open-joint rainscreen facades with up to 40% open area
+and 50mm gap widths. Formulated with high UV stabilisers and halogen-free fire
+retardants (Flammability Index ≤ 5 to AS 1530.2), it presents a deep black
+shadow finish behind open cladding. Equipped with factory-applied integrated
+adhesive tape along overlaps, it forms a durable airtight and watertight barrier
+while allowing moisture vapour to escape from wall cavities." }, { "family_id":
+"PROCTOR_PASSIVE_SMARTVAP", "tds_url":
+"https://proctorgroup.com.au/product/proctorpassive-smartvap-air-barrier-variable-vapour-control-layer/",
+"sds_url":
+"https://proctorgroup.com.au/product/proctorpassive-smartvap-air-barrier-variable-vapour-control-layer/",
+"description": "ProctorPassive SmartVap 100 is an internal air barrier and
+variable vapour control layer designed to control moisture movement and air
+leakage on the warm interior side of building envelopes. Manufactured from an
+air-tight, spunbonded polyolefin with a functional polymer layer, its
+moisture-variable design adapts its vapour resistance according to ambient
+humidity. In winter it limits vapour diffusion into cold wall cavities, while in
+summer it opens up to permit inward drying, protecting timber framing from mould
+and rot.", "features": [ "Variable vapour resistance: adapts permeability based
+on relative humidity", "Functions as an internal airtight barrier to satisfy
+blower door airtightness targets", "Limits winter vapour diffusion into external
+wall and roof cavities", "Allows inward drying in summer when interior humidity
+levels reverse", "High mechanical strength resistant to tearing and stretching
+during installation", "Translucent material allows timber stud and insulation
+placement visibility", "Ideal for Passive House, mass timber, and cold climate
+building envelopes", "Low Flammability Index compliant with AS 1530.2" ],
+"applications": [ "internal wall", "wall", "ceiling", "roof", "roofline" ],
+"technical": [ { "property": "Material", "value": "Spunbonded polyolefin with
+functional moisture-variable polymer coating", "standard": "" }, { "property":
+"Duty Classification", "value": "Medium Duty", "standard": "AS/NZS 4200.1:2017"
+}, { "property": "Vapour Permeance (Smart Range)", "value": "0.26 µg/N·s to 1.70
+µg/N·s (Variable Sd 0.2 m to 50 m+)", "standard": "EN 12572 / ASTM E96" }, {
+"property": "Air Control", "value": "Air Barrier", "standard":
+"AS/NZS 4200.1:2017" }, { "property": "Water Control", "value": "Non-Water
+Barrier (Internal use only)", "standard": "AS/NZS 4201.4" }, { "property":
+"Flammability Index", "value": "≤ 5", "standard": "AS 1530.2" }, { "property":
+"Roll Dimensions", "value": "1500 mm width x 50 m length (75 m²)", "standard":
+"" }, { "property": "Nominal Mass", "value": "110 g/m²", "standard": "" } ],
+"range": [ { "variant": "ProctorPassive SmartVap 100", "size_or_rating": "1500
+mm x 50 m (75 m²)", "pack": "Roll" } ], "fire": "Flammability Index ≤ 5 to
+AS 1530.2", "compliance": "AS/NZS 4200.1:2017 (Air Barrier), AS 1530.2, Passive
+House Institute certified component", "sustainability": "100% recyclable
+polyolefin, low VOC emissions, halogen free", "install": [ "Install on the warm
+interior side of wall framing or ceiling joists over bulk insulation", "Fix
+tautly across studs or rafters with staples or clouts at 150mm centres", "Ensure
+printed side faces inward toward the interior living space", "Overlap
+consecutive sheets by a minimum of 100mm", "Tape all overlaps with an airtight
+tape such as Wraptite Tape or DriFlash Tape", "Seal membrane securely to
+adjoining concrete floors, window frames, and ceilings with compatible
+adhesives", "Seal all pipe, duct, and electrical cable penetrations with
+flexible airtight grommets or tape", "Install interior plasterboard or timber
+lining over the membrane using battened service cavities" ],
+"selection_checklist": [ "Confirm hygrothermal design requires an internal smart
+vapour control layer (common in Climate Zones 6, 7, 8)", "Verify membrane will
+be installed on the interior warm side of bulk insulation", "Calculate total
+internal wall and ceiling area allowing 100mm overlaps", "Ensure airtight
+seaming tapes and edge sealants are ordered" ], "accessories": [ "ProctorPassive
+Wraptite Tape", "ProctorPassive DriFlash Tape", "Airtight grommets for
+cable/pipe penetrations" ], "limitations": [ "Internal application only; not for
+external weather-facing envelope installation", "Do not leave exposed to
+interior UV sunlight for longer than 60 days before lining", "Must not be
+punctured without subsequent airtight taping" ], "warranty": "Backed by Proctor
+Group Australia product warranty", "found": true, "search_keywords": [
+"ProctorPassive SmartVap", "SmartVap 100", "variable vapour control layer",
+"smart vapour retarder", "internal air barrier", "intelligent vapour membrane",
+"Proctor airtight membrane", "Passive house vapour check" ], "problem_keywords":
+[ "winter condensation inside wall cavity", "air leakage through internal
+plasterboard", "timber framing rot from trapped moisture", "inward vapour drive
+in summer", "failing blower door test air leakage" ], "placement": [ "internal
+wall", "wall", "ceiling", "roof", "roofline" ], "priority_fit": [
+"condensation", "thermal", "easy_install" ], "use_cases": [ "Internal air
+barrier and humidity-variable vapour control layer in cold-climate residential
+homes", "Continuous airtight envelope lining on the interior face of mass timber
+and cross-laminated timber (CLT) buildings", "Internal moisture control in
+Passive House wall and roof assemblies to enable bidirectional seasonal drying"
+], "not_for": [ "External weatherproofing outside the framing", "Underfloor soil
+direct contact", "Roof sarking under exterior roof sheets" ], "rag_summary":
+"ProctorPassive SmartVap 100 is an internal air barrier and variable vapour
+control layer (VCL) made from spunbonded polyolefin with a functional polymer
+coating. It intelligently adapts its vapour permeability to ambient relative
+humidity—acting as a vapour retarder in winter to prevent moisture entering
+framing, while opening up in summer to allow safe inward drying. Certified for
+Passive House airtightness with a Flammability Index ≤ 5 (AS 1530.2), it
+prevents interstitial condensation and mould behind internal linings." }, {
+"family_id": "PROCTOR_PASSIVE_WRAPTITE_SA_TAPE", "tds_url":
+"https://proctorgroup.com.au/product/wraptite-sa-self-adhesive-air-barrier-membrane/",
+"sds_url":
+"https://proctorgroup.com.au/product/wraptite-sa-self-adhesive-air-barrier-membrane/",
+"description": "ProctorPassive Wraptite SA Tape is a self-adhering,
+vapour-permeable air barrier tape and transition strip. Constructed from a
+triple-layer spunbonded polypropylene with a vapour-permeable microporous film
+and a fully coated pressure-sensitive adhesive backing, it combines continuous
+airtightness with vapour breathability. Designed for detailing window and door
+openings, cross-laminated timber (CLT) joints, precast concrete seams, and
+membrane transitions, it stops air leakage while allowing damp framing to dry
+outward.", "features": [ "Fully self-adhesive backing adheres aggressively to
+timber, steel, concrete, and masonry", "Vapour permeable Class 4 rating allows
+structures to breathe and dry out", "Acts as a certified air barrier preventing
+air leakage and convective heat loss", "Water barrier performance resists rain
+penetration during construction", "Split release paper backing allows fast,
+accurate alignment into 90-degree corners", "Replaces mechanical fasteners,
+eliminating nail and staple penetrations", "High tear strength and puncture
+resistance", "Low VOC emissions compliant with Green Star and Passive House
+standards" ], "applications": [ "wall", "external wall", "roof", "roofline",
+"internal wall", "window", "door" ], "technical": [ { "property": "Material",
+"value": "Triple-layer polypropylene with microporous film and full-surface PSA
+backing", "standard": "" }, { "property": "Duty Classification", "value": "Light
+Duty", "standard": "AS/NZS 4200.1:2017" }, { "property": "Vapour Permeability",
+"value": "Class 4 Vapour Permeable", "standard": "AS/NZS 4200.1:2017" }, {
+"property": "Water Control", "value": "Water Barrier", "standard":
+"AS/NZS 4201.4" }, { "property": "Air Control", "value": "Air Barrier",
+"standard": "AS/NZS 4200.1:2017" }, { "property": "Roll Dimensions", "value":
+"75 mm, 100 mm, 150 mm, 200 mm, 300 mm width x 50 m length", "standard": "" }, {
+"property": "Temperature Resistance", "value": "-40°C to +100°C", "standard": ""
+}, { "property": "Flammability Index", "value": "≤ 5", "standard": "AS 1530.2" }
+], "range": [ { "variant": "Wraptite SA Tape 75mm", "size_or_rating": "75 mm
+x 50 m", "pack": "Roll" }, { "variant": "Wraptite SA Tape 100mm",
+"size_or_rating": "100 mm x 50 m", "pack": "Roll" }, { "variant": "Wraptite SA
+Tape 150mm", "size_or_rating": "150 mm x 50 m", "pack": "Roll" }, { "variant":
+"Wraptite SA Tape 300mm", "size_or_rating": "300 mm x 50 m", "pack": "Roll" } ],
+"fire": "Flammability Index ≤ 5 to AS 1530.2; Group 1 fire performance in
+compliant wall systems", "compliance": "AS/NZS 4200.1:2017, AS/NZS 4200.2:2017,
+AS 1530.2, BBA certified, Passive House approved", "sustainability": "Low VOC
+emissions; zero ODP; non-toxic", "install": [ "Ensure substrate (timber,
+concrete, steel, or sheathing) is clean, dry, and dust-free", "Apply compatible
+primer to porous concrete or masonry if required", "Measure and cut Wraptite SA
+tape to length", "Peel back the initial section of the split release liner",
+"Position tape along the joint, corner, or window reveal", "Gradually peel
+remaining liner while smoothing tape firmly onto the substrate", "Consolidate
+bond across the entire tape surface with a firm hand roller or squeegee",
+"Overlap adjoining tape pieces by minimum 50mm" ], "selection_checklist": [
+"Select width based on detail (75/100mm for panel joints, 150/300mm for window
+reveals and slab edges)", "Confirm requirement for vapour permeability to
+prevent moisture entrapment", "Check substrate condition to determine if primer
+is needed", "Ensure application temperature is within recommended range" ],
+"accessories": [ "ProctorPassive Primer (for porous masonry)", "Pressure hand
+roller / squeegee", "Utility knife" ], "limitations": [ "Do not apply to wet,
+frosty, or contaminated surfaces", "Requires firm rolling pressure to activate
+full pressure-sensitive bond", "Must not remain exposed to permanent UV beyond
+rated exposure window" ], "warranty": "Backed by Proctor Group Australia product
+warranty", "found": true, "search_keywords": [ "Wraptite SA Tape",
+"ProctorPassive Wraptite SA", "self-adhesive breathable tape", "vapour permeable
+air barrier tape", "CLT joint tape", "window reveal airtight tape",
+"Wraptite 100mm", "Wraptite 150mm" ], "problem_keywords": [ "air leakage through
+structural panel joints", "drafts around window and door frames", "moisture
+trapped behind non-breathable tape", "water ingress through precast concrete
+joints", "failing commercial air leakage testing" ], "placement": [ "wall",
+"external wall", "roof", "roofline", "internal wall" ], "priority_fit": [
+"condensation", "easy_install", "thermal" ], "use_cases": [ "Airtight and
+weathertight sealing of panel joints in cross-laminated timber (CLT) and mass
+timber buildings", "Flashing and air sealing window and door openings to
+exterior building wraps", "Sealing joints between precast concrete panels and
+floor slab edges without trapping moisture" ], "not_for": [ "Continuous
+submersion in water", "High-temperature flue exhaust pipes", "Structural
+load-bearing connections" ], "rag_summary": "ProctorPassive Wraptite SA Tape is
+a full-surface self-adhering, Class 4 vapour-permeable air and weather barrier
+tape. Manufactured from a triple-layer polypropylene laminate with an aggressive
+pressure-sensitive adhesive backing, it seals joints in mass timber (CLT),
+precast concrete, and window openings without trapping moisture in structural
+framing. Fully certified as an airtight barrier with a Flammability Index ≤ 5
+(AS 1530.2), it replaces mechanical fixings to deliver robust, airtight envelope
+continuity for Passive House and high-performance buildings." }, { "family_id":
+"PROCTOR_Q_SILENCE_P", "tds_url": "https://proctorgroup.com.au/", "sds_url": "",
+"description": "Proctor Q-Silence P is an acoustic underlay and isolation
+membrane engineered for impact noise reduction beneath screeds, floating timber,
+and tile flooring systems. Fabricated from high-density elastomeric and
+resilient acoustic polymer compounds, it decouples the finished floor from the
+structural subfloor to limit footstep and structural vibration transmission. It
+assists multi-residential apartments and commercial developments in meeting
+National Construction Code (NCC) acoustic impact sound performance standards.",
+"features": [ "High-performance acoustic isolation reducing footstep impact
+noise", "Decouples floor finishes from concrete and timber structural
+subfloors", "Engineered for installation under screeds, engineered timber, and
+tiles", "Resilient elastomeric polymer structure maintains cushioning under
+heavy loads", "Resists compression creep over the building life cycle", "Water
+and rot resistant; will not degrade in damp construction conditions", "Fast,
+roll-out installation with minimal floor buildup height", "Assists in complying
+with NCC Part F5 impact sound ratings" ], "applications": [ "floor",
+"underfloor", "between floors", "subfloor" ], "technical": [ { "property":
+"Material", "value": "Resilient elastomeric acoustic polymer composite",
+"standard": "" }, { "property": "Application", "value": "Impact sound isolation
+underlay", "standard": "" }, { "property": "Acoustic Impact Performance",
+"value": "Reduces impact sound transmission (L'nT,w compliant)", "standard":
+"ISO 717-2 / ISO 10140" }, { "property": "Thickness", "value": "Resilient
+slimline profile", "standard": "" }, { "property": "Roll Dimensions", "value":
+"Roll format for rapid coverage", "standard": "" } ], "range": [ { "variant":
+"Proctor Q-Silence P Acoustic Underlay", "size_or_rating": "Acoustic roll
+underlay", "pack": "Roll" } ], "fire": "Tested for low early fire hazard
+properties in flooring assemblies", "compliance": "NCC Volume One (Part F5 /
+Specification 28) impact sound ratings, ISO 717-2", "sustainability":
+"Recyclable synthetic polymer, zero ODP, non-hazardous", "install": [ "Ensure
+structural concrete slab or timber subfloor is level, clean, and dry", "Repair
+subfloor cracks and remove protrusions before laying underlay", "Roll out
+Q-Silence P membrane across the floor area, butting edges tightly", "Run
+acoustic isolation strips up the perimeter walls to isolate the floor finish
+from skirting", "Tape all adjoining underlay seams with waterproof tape to
+prevent screed slurry bridging", "Pour screed or install floor overlay directly
+over the membrane according to flooring specification", "Trim excess perimeter
+isolation strips flush after flooring is completed" ], "selection_checklist": [
+"Confirm floor finish type (sand-cement screed, engineered timber, laminate, or
+tiles)", "Verify target acoustic impact rating (L'nT,w target from acoustic
+consultant)", "Ensure perimeter isolation strips are included to eliminate
+acoustic flanking", "Calculate total floor area including waste allowance" ],
+"accessories": [ "Perimeter acoustic flanking strips", "Waterproof joining
+tape", "Subfloor levelling compound" ], "limitations": [ "Subfloor must be
+within allowable flatness tolerances prior to installation", "Do not
+mechanically fix through the membrane as screws create acoustic bridges", "Must
+be isolated from perimeter walls and skirtings" ], "warranty": "Backed by
+Proctor Group Australia product warranty", "found": true, "search_keywords": [
+"Proctor Q-Silence P", "Q-Silence acoustic underlay", "Proctor acoustic
+membrane", "impact noise underlay", "screed acoustic underlay", "apartment floor
+soundproofing", "concrete slab acoustic underlay", "flooring isolation membrane"
+], "problem_keywords": [ "footstep noise through ceiling downstairs",
+"inter-tenancy floor noise complaints", "hard flooring failing strata acoustic
+rules", "impact sound transmission through concrete", "acoustic flanking at
+floor perimeter" ], "placement": [ "floor", "underfloor", "between floors",
+"subfloor" ], "priority_fit": [ "acoustic", "easy_install" ], "use_cases": [
+"Acoustic impact sound isolation under sand-cement screeds in multi-residential
+apartments", "Decoupling engineered timber and laminate flooring over concrete
+slabs to satisfy strata by-laws", "Vibration and impact damping in commercial
+and institutional floor-ceiling assemblies" ], "not_for": [ "External wall
+cladding wraps", "Roof sarking underlays", "Direct exposure to heavy wheeled
+traffic without floor finish" ], "rag_summary": "Proctor Q-Silence P is an
+acoustic underlay and isolation membrane designed to reduce impact sound
+transmission (L'nT,w) beneath screeds, floating timber, and tile flooring
+systems. Constructed from resilient elastomeric polymer composites, it decouples
+floor finishes from concrete slabs and timber subfloors, preventing footstep
+thuds and structural vibrations from traveling between building levels.
+Formulated for multi-residential apartments, it assists projects in satisfying
+NCC Part F5 acoustic impact standards." }, { "family_id": "PROCTOR_REFLECTIVE",
+"tds_url": "", "sds_url": "", "description": "", "features": [], "applications":
+[], "technical": [], "range": [], "fire": "", "compliance": "",
+"sustainability": "", "install": [], "selection_checklist": [], "accessories":
+[], "limitations": [], "warranty": "", "found": false, "search_keywords": [
+"proctor reflective", "proctor reflective foil", "proctor reflective membrane",
+"proctor sarking", "proctor reflective underlay", "reflective building wrap
+proctor" ], "problem_keywords": [ "radiant heat in roof space", "summer heat
+gain through walls", "condensation under roof sheets", "high cooling energy
+bills", "draughts in metal clad roof" ], "placement": [ "roof", "roofline",
+"wall", "external wall", "shed" ], "priority_fit": [ "thermal", "condensation",
+"budget" ], "use_cases": [ "Reflecting radiant heat under residential pitched
+metal or tile roofs", "Thermal barrier wrap on external timber or steel wall
+framing", "Condensation and draught control in domestic steel sheds and garages"
+], "not_for": [ "Cold-climate walls where non-reflective vapour-permeable wraps
+are mandated", "Direct floor foot traffic surfaces", "High-temperature exhaust
+flues" ], "rag_summary": "Proctor Reflective represents reflective foil
+membranes or foil-laminated pliable building fabrics historically or generically
+referenced within the Proctor product scope. While Proctor Group Australia
+primarily specializes in high-performance non-reflective vapour-permeable
+membranes (such as ProctorWrap and ProctorPassive), reflective foil laminates
+reflect up to 95-97% of radiant heat when installed adjacent to an enclosed
+airspace. They serve as radiant thermal barriers, weather barriers, and vapour
+control layers in roofs, walls, and sheds." }, { "family_id":
+"PROCTOR_TIGHTMATE", "tds_url": "", "sds_url": "", "description": "",
+"features": [], "applications": [], "technical": [], "range": [], "fire": "",
+"compliance": "", "sustainability": "", "install": [], "selection_checklist":
+[], "accessories": [], "limitations": [], "warranty": "", "found": false,
+"search_keywords": [ "Proctor TightMate", "TightMate tape", "TightMate airtight
+tape", "Proctor airtight connector", "airtight sealing tape proctor", "airtight
+grommet proctor" ], "problem_keywords": [ "air leakage through building
+envelope", "sealing membrane overlaps", "cable and pipe penetration draughts",
+"airtightness failure on blower door test", "unsealed vapor barrier seams" ],
+"placement": [ "wall", "internal wall", "ceiling", "roof", "external wall" ],
+"priority_fit": [ "easy_install", "thermal", "condensation" ], "use_cases": [
+"Sealing membrane joins and laps to establish an airtight building envelope",
+"Sealing penetrations through internal air barriers and smart vapour retarders",
+"Detailing wall and ceiling interfaces in Passive House construction" ],
+"not_for": [ "Structural mechanical load bearing", "High-temperature flue
+exhaust pipes", "Permanent immersion under water" ], "rag_summary": "Proctor
+TightMate represents an airtight sealing tape or grommet accessory catalogued
+for building envelope airtightness in Proctor Group systems. Engineered to seal
+membrane overlaps, service penetrations, and framing junctions, it prevents
+uncontrolled air leakage and convective heat transfer across walls, roofs, and
+ceilings. By maintaining airtight continuity, it protects building assemblies
+from convective moisture damage and supports stringent blower-door airtightness
+targets." }, { "family_id": "PROCTOR_YOURIPPA_CURING_TAPE", "tds_url":
+"https://proctorgroup.com.au/product/yourippa-rip-by-hand-heavy-duty-curing-protection-tape/",
+"sds_url":
+"https://proctorgroup.com.au/product/yourippa-rip-by-hand-heavy-duty-curing-protection-tape/",
+"description": "Proctor YouRippa Curing Tape is a heavy-duty, hand-tearable
+polyethylene cloth protection and curing tape engineered for demanding jobsite
+applications. Formulated with a natural rubber adhesive, it delivers strong,
+residue-free adhesion to concrete, timber, metal, and floor protection sheets
+during construction. Designed with an embossed backing for effortless straight
+hand-tearing, it secures floor protection boards and concrete curing covers
+without leaving sticky residue upon removal.", "features": [ "Hand tearable in
+both directions without cutting tools or scissors", "Clean, residue-free removal
+from sensitive finishes and cured concrete", "Aggressive natural rubber adhesive
+bonds firmly to multiple surfaces", "Heavy-duty embossed polyethylene cloth
+carrier resists tears and abrasion", "Waterproof backing protects joins from
+spills, foot traffic, and washdowns", "Ideal for holding floor protection
+boards, films, and concrete curing covers", "High conformability around corners,
+thresholds, and irregular profiles", "Suitable for indoor and temporary outdoor
+construction use" ], "applications": [ "floor", "underfloor", "wall", "internal
+wall" ], "technical": [ { "property": "Carrier", "value": "Embossed polyethylene
+cloth backing", "standard": "" }, { "property": "Adhesive Type", "value":
+"Natural rubber based adhesive", "standard": "" }, { "property": "Roll Width",
+"value": "48 mm / 50 mm", "standard": "" }, { "property": "Roll Length",
+"value": "25 m", "standard": "" }, { "property": "Hand Tearable", "value": "Yes
+(straight tear by hand)", "standard": "" }, { "property": "Residue Free
+Removal", "value": "Leaves no residue upon removal on approved substrates",
+"standard": "" } ], "range": [ { "variant": "YouRippa Curing Tape 48mm",
+"size_or_rating": "48 mm x 25 m", "pack": "Roll" } ], "fire": "Standard
+construction accessory rating; low hazard", "compliance": "Trade jobsite surface
+protection standard", "sustainability": "Solvent-free natural rubber adhesive
+formulation", "install": [ "Ensure floor protection sheets, concrete, or
+surfaces are clean, dry, and free of dust", "Lay out floor protection boards or
+curing covers with butted edges", "Tear YouRippa tape by hand across the roll to
+desired length", "Center tape over the seam between protection sheets", "Press
+down firmly along the tape line to activate adhesive", "Smooth down edges to
+prevent tripping hazards during foot traffic", "Peel tape cleanly away upon
+project handover without leaving adhesive residue" ], "selection_checklist": [
+"Confirm requirement is temporary surface protection or concrete curing sheet
+taping", "Verify need for clean, residue-free removal from finished flooring",
+"Calculate total lineal meters of floor protection seams", "Ensure surface is
+dry before application" ], "accessories": [ "Floor protection boards /
+corflute", "Concrete curing blankets" ], "limitations": [ "Temporary protection
+tape; not designed for permanent building envelope weather-sealing", "Do not
+leave on sensitive timber finishes beyond recommended removal period", "Not an
+air-barrier or vapour-permeable membrane joining tape" ], "warranty": "Backed by
+Proctor Group Australia product warranty", "found": true, "search_keywords": [
+"YouRippa tape", "Proctor YouRippa", "curing tape", "hand tearable cloth tape",
+"floor protection tape", "residue free cloth tape", "temporary protection tape",
+"concrete curing tape" ], "problem_keywords": [ "tape leaving sticky residue on
+finished floors", "slow taping needing scissors or knives", "protection sheets
+sliding on jobsite", "tape lifting under heavy foot traffic", "sealing floor
+protection board seams" ], "placement": [ "floor", "underfloor", "internal wall"
+], "priority_fit": [ "easy_install", "budget" ], "use_cases": [ "Joining and
+sealing temporary floor protection boards (corflute / hardboard) during building
+construction", "Securing concrete curing blankets and polyethylene sheets over
+freshly poured concrete slabs", "Temporary masking and edge protection of metal
+window frames and stone sills during trades work" ], "not_for": [ "Permanent
+vapour-permeable building wrap sealing (use HighTack PLUS or DriFlash)", "Roof
+underlay lap sealing", "High-temperature exhaust flues" ], "rag_summary":
+"Proctor YouRippa Curing Tape is a heavy-duty, hand-tearable polyethylene cloth
+tape designed for temporary surface protection and concrete curing applications
+on construction sites. Coated with a natural rubber adhesive, it delivers high
+grab to corflute, cardboard, timber, and cured concrete, yet removes cleanly
+without leaving sticky residue. Hand-tearable in both directions for rapid
+jobsite handling, it secures protective floor coverings against heavy trade
+traffic." } ]

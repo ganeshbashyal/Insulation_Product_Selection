@@ -1,0 +1,187 @@
+{
+  "family_id": "POLYESTER_SOLUTIONS_BATT",
+  "family_name": "Polyester Solutions Batt",
+  "datasheet_pdf_url": "https://www.polyestersolutions.com.au/thermal-insulation",
+  "sds_url": "https://www.polyestersolutions.com.au/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Polyester Solutions\nPolyBatts are high-performance, non-irritant thermal and acoustic insulation\nbatts manufactured in Melbourne, Australia from 100% thermally bonded polyester\nfibers containing a minimum of 80% recycled PET. Completely free from chemical\nbinders, resins, and formaldehyde, they are non-toxic, odorless, non-allergenic,\nand safe to handle without protective clothing or dust masks. Engineered to fit\nsnugly into wall and ceiling framing cavities, they will not sag, rot, or become\nbrittle over their lifecycle, providing lasting thermal resistance from R1.5 to\nR4.0.",
+    "features": [
+      "100% Australian made from thermally bonded polyester\nfibers",
+      "Contains a minimum of 80% recycled post-consumer PET plastic bottles",
+      "Completely non-irritant, non-toxic, odorless, and non-allergenic with zero\nitch",
+      "Requires no gloves, masks, or protective clothing during handling and\ninstallation",
+      "Does not absorb moisture; hydrophobic and quick-drying",
+      "Resistant to insect, vermin, mold, and bacterial attack",
+      "Will not sag,\ncrumble, settle, or become brittle over time",
+      "Meets Australian Standard\nAS/NZS 4859.1 and Building Code of Australia (BCA)",
+      "Tested to AS 1530.3 with\nzero spread of flame and zero heat evolved",
+      "100% recyclable with zero chemical\nbinders or adhesives"
+    ],
+    "applications": [
+      "ceiling",
+      "wall",
+      "internal wall",
+      "external wall",
+      "between floors"
+    ],
+    "technical": [
+      {
+        "property": "Material\nComposition",
+        "value": "100% thermally bonded polyester fibers (min. 80%\nrecycled PET)",
+        "standard": ""
+      },
+      {
+        "property": "Thermal R-Values",
+        "value": "R1.5, R2.0, R2.5, R3.0, R3.5, R4.0",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Nominal Thicknesses",
+        "value": "R1.5 (90mm), R2.0 (90mm), R2.5\n(90-165mm), R3.0 (180mm), R3.5 (200mm), R4.0 (220mm)",
+        "standard": ""
+      },
+      {
+        "property": "Standard Dimensions",
+        "value": "1170 mm length x 430 mm or 580 mm\nwidth",
+        "standard": ""
+      },
+      {
+        "property": "Combustibility / Early Fire Hazard",
+        "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke\nDeveloped: 0-1",
+        "standard": "AS 1530.3"
+      },
+      {
+        "property": "Moisture Absorption",
+        "value": "< 0.2% by volume after 4 days at 50°C, 95% RH",
+        "standard": ""
+      },
+      {
+        "property": "Maximum Service Temperature",
+        "value": "150°C",
+        "standard": ""
+      },
+      {
+        "property": "Chemical Content",
+        "value": "Zero formaldehyde, zero added chemical\nbinders, zero ODP",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "PolyBatts Wall\nR1.5",
+        "size_or_rating": "90 mm x 1170 mm x 430/580 mm",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "PolyBatts Wall R2.0",
+        "size_or_rating": "90 mm x 1170 mm\nx 430/580 mm",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "PolyBatts Wall R2.5",
+        "size_or_rating": "90 mm x 1170 mm x 430/580 mm",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "PolyBatts Ceiling R2.5",
+        "size_or_rating": "165 mm x 1170 mm\nx 430/580 mm",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "PolyBatts Ceiling R3.0",
+        "size_or_rating": "180 mm x 1170 mm x 430/580 mm",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "PolyBatts Ceiling R3.5",
+        "size_or_rating": "200 mm x 1170 mm\nx 430/580 mm",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "PolyBatts Ceiling R4.0",
+        "size_or_rating": "220 mm x 1170 mm x 430/580 mm",
+        "pack": "Pack of batts"
+      }
+    ],
+    "fire": "Early Fire Hazard Properties to AS 1530.3: Ignitability 0, Spread of\nFlame 0, Heat Evolved 0, Smoke Developed 0-1; Non-flammable fibers",
+    "compliance": "AS/NZS 4859.1, AS 3999, NCC Volume One and Two",
+    "sustainability": "Minimum 80% recycled PET fiber; 100% recyclable; zero\nchemical binders; zero formaldehyde; zero ODP; non-toxic",
+    "install": [
+      "Turn\noff power at the main switchboard before entering ceiling spaces or touching\nwall framing",
+      "Select batt width (430mm or 580mm) matching stud or joist\nspacing (450mm or 600mm)",
+      "In ceilings, lay batts flat between joists ensuring\ncontinuous coverage with no gaps or compression",
+      "In walls, friction-fit batts\nfirmly between studs ensuring batts butt tightly against top and bottom plates",
+      "Maintain minimum 50mm clearance around non-IC rated recessed downlights and\nflues per AS 3999",
+      "Maintain 20mm clearance between roof cladding/sarking and\ninsulation at roof eaves",
+      "Tear across width by hand or trim with heavy-duty\nshears if custom sizing is required"
+    ],
+    "selection_checklist": [
+      "Confirm\napplication (ceiling vs external wall vs internal partition)",
+      "Select required\nR-value to achieve target NatHERS energy rating for climate zone",
+      "Measure\nframing centers (430mm for 450mm centers; 580mm for 600mm centers)",
+      "Verify\nwall stud depth (75mm or 90mm)",
+      "Confirm preference for non-itchy,\nnon-allergenic polyester insulation"
+    ],
+    "accessories": [
+      "Heavy-duty shears /\ninsulation knife",
+      "Insulation strapping",
+      "Perimeter eave baffles"
+    ],
+    "limitations": [
+      "Do not compress batts significantly as this reduces thermal\nR-value",
+      "Must be enclosed behind plasterboard or building lining; not for\nexposed decorative finish",
+      "Maximum continuous service temperature is 150°C"
+    ],
+    "warranty": "Backed by Polyester Solutions manufacturer product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Polyester Solutions Batt",
+      "PolyBatts",
+      "Polyester Solutions insulation",
+      "polyester wall batts",
+      "polyester ceiling\nbatts",
+      "non itchy insulation batts",
+      "recycled PET batts",
+      "PolyBatts R2.5",
+      "PolyBatts R4.0",
+      "Melbourne polyester insulation"
+    ],
+    "problem_keywords": [
+      "itchy fiberglass batts",
+      "hot rooms upstairs in summer",
+      "high winter heating\ncosts",
+      "airborne fiberglass particles in house",
+      "slumping wall insulation in\ntimber studs",
+      "allergy friendly home insulation"
+    ],
+    "placement": [
+      "ceiling",
+      "wall",
+      "internal wall",
+      "external wall",
+      "between floors"
+    ],
+    "priority_fit": [
+      "thermal",
+      "sustainability",
+      "easy_install",
+      "acoustic"
+    ],
+    "use_cases": [
+      "Insulating residential ceilings to achieve 7-star NatHERS energy efficiency\nwithout itchy glass fibers",
+      "Thermal and acoustic cavity insulation in external\ntimber-stud and steel-stud walls",
+      "Acoustic sound dampening in internal\npartition walls between bedrooms and bathrooms"
+    ],
+    "not_for": [
+      "Exposed\ndecorative wall lining without plasterboard",
+      "Direct ground contact under\nconcrete slabs",
+      "Flue pipes exceeding 150°C"
+    ],
+    "rag_summary": "Polyester\nSolutions PolyBatts are Australian-made thermal and acoustic insulation batts\nmanufactured from 100% thermally bonded polyester fibers containing at least 80%\nrecycled PET plastic bottles. Completely free of formaldehyde, chemical binders,\nand respirable glass fibers, they are non-toxic, non-allergenic, and safe to\nhandle without protective gear. Available in wall ratings from R1.5 to R2.5 and\nceiling ratings from R2.0 to R4.0, they maintain permanent thickness without\nsagging or slumping, backed by AS/NZS 4859.1 compliance and a lifetime product\nwarranty."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

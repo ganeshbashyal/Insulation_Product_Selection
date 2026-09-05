@@ -1,0 +1,144 @@
+{
+  "family_id": "FOILBOARD_GARAGE_DOOR_KIT",
+  "family_name": "Foilboard Garage Door Kit",
+  "datasheet_pdf_url": "https://www.foilboard.com.au/product/garage-door-kit/",
+  "sds_url": "https://www.foilboard.com.au/wp-content/uploads/2021/04/Foilboard-Green-Safety-Data-Sheet.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "The Foilboard Garage Door Kit is an all-in-one DIY thermal\ninsulation system engineered specifically for residential sectional and\npanel-lift metal garage doors. Containing pre-cut lightweight Foilboard panels,\nspecialized mounting hardware, and aluminum foil tape, the kit reflects radiant\nheat and stops thermal transfer into the garage. By insulating uninsulated metal\ngarage doors, it lowers garage temperatures by up to 10°C in summer, reduces\nwinter chill, and operates quietly without adding significant weight to door\nspring mechanisms.",
+    "features": [
+      "Complete all-in-one DIY kit to insulate a\nstandard sectional garage door",
+      "Can reduce garage ambient temperature by up\nto 10°C in summer",
+      "Ultra-lightweight design does not strain automatic garage\ndoor opening mechanisms",
+      "Pre-cut panels sized to fit standard panel-lift\ngarage door sections",
+      "Reflects up to 97% of radiant solar heat beating on\nmetal door faces",
+      "Includes specialized heat-resistant adhesive pads, brackets,\nand aluminum tape",
+      "Non-allergenic, non-itchy, and completely safe to handle\nwithout PPE",
+      "Acts as an acoustic buffer, reducing external street noise and\ndoor operating vibration",
+      "Backed by Foilboard's 25-year performance warranty"
+    ],
+    "applications": [
+      "shed",
+      "door",
+      "garage",
+      "wall"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "Fire-retardant EPS core with pure aluminum\nreflective foil facings",
+        "standard": ""
+      },
+      {
+        "property": "Panel Thickness",
+        "value": "10 mm / 15 mm slimline panels",
+        "standard": ""
+      },
+      {
+        "property": "Panel\nDimensions",
+        "value": "Pre-cut panels sized to suit standard sectional door\nprofiles (e.g. 1350 mm x 600 mm)",
+        "standard": ""
+      },
+      {
+        "property": "Reflectance",
+        "value": "Reflects up to 97% radiant heat",
+        "standard": "AS/NZS 4201.5"
+      },
+      {
+        "property": "Weight Addition",
+        "value": "Approx. 4-6 kg\ntotal weight added to entire door",
+        "standard": ""
+      },
+      {
+        "property": "Door\nCompatibility",
+        "value": "Standard single and double panel-lift / sectional\nmetal doors",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Foilboard Garage Door\nKit - Single Door",
+        "size_or_rating": "Suits standard single sectional garage\ndoor (up to 4-5 panels)",
+        "pack": "Kit (Panels, tape, adhesive fasteners)"
+      },
+      {
+        "variant": "Foilboard Garage Door Kit - Double Door",
+        "size_or_rating": "Suits\nstandard double sectional garage door (up to 4-5 panels wide)",
+        "pack": "Kit\n(Panels, tape, adhesive fasteners)"
+      }
+    ],
+    "fire": "Fire retardant EPS core; Low\nFlammability Index (≤ 5) to AS 1530.2; Group 1/2 to AS 5637.1",
+    "compliance": "AS/NZS 4859.1, AS 1530.2, NCC compliant residential retrofitting",
+    "sustainability": "100% recyclable EPS and aluminum; zero ODP; fiber-free",
+    "install": [
+      "Clean interior metal surfaces of garage door panels thoroughly\nwith isopropyl alcohol or detergent and allow to dry",
+      "Measure the width and\nheight of each recessed panel on the inside of the garage door",
+      "Trim Foilboard\npanels to size using a utility knife and straight edge",
+      "Peel adhesive backing\nand apply specialized mounting brackets to the clean metal door panels",
+      "Insert\nand secure cut Foilboard panels into the mounting brackets across each door\nsection",
+      "Ensure panels fit neatly within door ribs without impeding hinge\nknuckles or roller tracks",
+      "Tape perimeter edges with supplied reinforced\naluminum foil tape for a neat, durable finish",
+      "Test garage door operation\nthrough full open and close cycles to ensure smooth clearance"
+    ],
+    "selection_checklist": [
+      "Confirm door type is a sectional panel-lift door (not\nsuitable for continuous roll-up doors)",
+      "Select Single Door Kit (up to 2.4m\nwide) or Double Door Kit (up to 5.5m wide)",
+      "Check door recess depth\n(minimum 10-15mm recess required)",
+      "Inspect automatic opener springs (weight\naddition is minimal, but check spring balance)",
+      "Ensure door panels are clean\nand free of grease"
+    ],
+    "accessories": [
+      "Foilboard reinforced aluminum foil\ntape",
+      "Specialized mounting brackets / adhesive pads",
+      "Utility knife"
+    ],
+    "limitations": [
+      "Not suitable for continuous corrugated roller doors (curtain\ndoors that roll into a drum)",
+      "Metal door surface must be thoroughly cleaned of\ngrease and dust for adhesive to bond",
+      "Ensure panels do not bind against door\ntracks, cables, or side hinges during movement"
+    ],
+    "warranty": "25 Year\nPerformance Warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Foilboard garage\ndoor kit",
+      "garage door insulation kit",
+      "insulated garage door DIY",
+      "sectional\ngarage door insulation",
+      "panel lift door insulation",
+      "Foilboard garage kit\ndouble",
+      "Foilboard garage kit single",
+      "metal garage door heat insulation"
+    ],
+    "problem_keywords": [
+      "hot garage like an oven in summer",
+      "heat radiating from\nmetal garage door",
+      "cold drafty garage workshop",
+      "bedroom above hot garage",
+      "garage door vibration noise"
+    ],
+    "placement": [
+      "shed",
+      "wall"
+    ],
+    "priority_fit": [
+      "thermal",
+      "easy_install",
+      "acoustic"
+    ],
+    "use_cases": [
+      "Insulating metal sectional garage doors to keep attached garages up to 10°C\ncooler in summer",
+      "Reducing heat transfer into living rooms or bedrooms\nsituated directly above or adjacent to garages",
+      "Dampening street noise and\nrattle on metal panel-lift garage doors"
+    ],
+    "not_for": [
+      "Continuous steel\ncurtain roller doors that wrap around a central drum",
+      "Direct exposure to open\nflame",
+      "External weather-exposed sides of the door"
+    ],
+    "rag_summary": "The\nFoilboard Garage Door Kit is an all-in-one DIY insulation system designed to\ninsulate residential sectional panel-lift metal garage doors. Comprising\nlightweight, pre-cut Foilboard Green panels (10mm or 15mm), heavy-duty mounting\nfasteners, and reinforced aluminum tape, it reflects up to 97% of radiant heat\nto lower garage temperatures by up to 10°C in summer. Adding only 4-6 kg to the\nentire door, it preserves automatic door opener balance while providing thermal,\nacoustic, and anti-vibration benefits backed by a 25-year warranty."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

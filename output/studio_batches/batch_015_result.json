@@ -1,0 +1,739 @@
+
+[ { "family_id": "FOILBOARD_GREEN", "tds_url":
+"https://www.foilboard.com.au/product/foilboard-green/", "sds_url":
+"https://www.foilboard.com.au/wp-content/uploads/2021/04/Foilboard-Green-Safety-Data-Sheet.pdf",
+"description": "Foilboard Green is an Australian-manufactured rigid insulation
+panel engineered from a fire-retardant expanded polystyrene (EPS) core laminated
+on both sides with pure aluminum foil facings. Designed for roofs, external and
+internal walls, retrofits, and suspended timber underfloors, it provides
+a 3-in-1 thermal insulation, thermal break, and moisture vapor barrier. When
+paired with adjacent reflective airspaces, it achieves total system R-values
+from R1.6 to R4.0+ across 10mm to 50mm board thicknesses.", "features": [
+"3-in-1 insulation, thermal break, and moisture barrier in a single rigid
+panel", "Pure aluminum reflective facings reflect up to 97% of radiant heat",
+"Fire-retardant expanded polystyrene (EPS) core", "Achieves total system
+R-values up to R4.0+ when paired with sealed airspaces", "Fiber-free,
+non-allergenic, non-carcinogenic, and non-itchy formulation", "Impermeable to
+water and will not sag, rot, or deteriorate over time", "Anti-glare green
+coating on one face for safe installation in bright sunlight", "Extremely
+lightweight, rigid, and fast to cut and fix on site", "Group 1 fire hazard
+classification compliant with AS 5637.1 / AS ISO 9705", "Backed by a 25-year
+manufacturer performance warranty" ], "applications": [ "wall", "external wall",
+"internal wall", "ceiling", "roof", "roofline", "underfloor", "floor",
+"subfloor", "shed" ], "technical": [ { "property": "Material Composition",
+"value": "Fire-retardant expanded polystyrene (EPS) core laminated with pure
+aluminum foil facings", "standard": "" }, { "property": "Material R-values",
+"value": "10mm (R0.3), 15mm (R0.4), 20mm (R0.5), 25mm (R0.7), 40mm (R1.1), 50mm
+(R1.3)", "standard": "ASTM C518" }, { "property": "Total System R-values",
+"value": "R1.6 to R4.0+ (depending on installation application and airspace
+width)", "standard": "AS/NZS 4859.1" }, { "property": "Thickness Options",
+"value": "10 mm, 15 mm, 20 mm, 25 mm, 40 mm, 50 mm", "standard": "" }, {
+"property": "Sheet Dimensions", "value": "2440 mm x 1200 mm; 2700 mm x 1200
+mm; 3000 mm x 1200 mm", "standard": "" }, { "property": "Emittance (Reflective
+Silver Face)", "value": "0.03 (reflects up to 97% of radiant heat)", "standard":
+"AS/NZS 4201.5" }, { "property": "Emittance (Anti-Glare Green Face)", "value":
+"0.05", "standard": "AS/NZS 4201.5" }, { "property": "Water Vapor Permeance",
+"value": "< 0.002 µg/N·s (impermeable vapor barrier)", "standard": "ASTM E96" },
+{ "property": "Compressive Strength", "value": "Class SL / S EPS core",
+"standard": "AS 1366.3" }, { "property": "Fire Hazard Classification", "value":
+"Group 1 / Group 2", "standard": "AS 5637.1 / AS ISO 9705" } ], "range": [ {
+"variant": "Foilboard Green 10mm (Standard 15)", "size_or_rating": "10 mm x 1200
+mm x 2440 mm (Material R0.3 / Total R1.6)", "pack": "Sheet" }, { "variant":
+"Foilboard Green 15mm (Standard 20)", "size_or_rating": "15 mm x 1200 mm x 2440
+mm (Material R0.4 / Total R2.1)", "pack": "Sheet" }, { "variant": "Foilboard
+Green 20mm (Standard 25)", "size_or_rating": "20 mm x 1200 mm x 2440 mm
+(Material R0.5 / Total R2.6)", "pack": "Sheet" }, { "variant": "Foilboard
+Green 25mm (Plus 30)", "size_or_rating": "25 mm x 1200 mm x 2440 mm (Material
+R0.7 / Total R3.0)", "pack": "Sheet" }, { "variant": "Foilboard Green 40mm
+(Super 40)", "size_or_rating": "40 mm x 1200 mm x 2440 mm (Material R1.1 / Total
+R3.4)", "pack": "Sheet" }, { "variant": "Foilboard Green 50mm (Max 50)",
+"size_or_rating": "50 mm x 1200 mm x 2440 mm (Material R1.3 / Total R4.0)",
+"pack": "Sheet" } ], "fire": "Group 1 / Group 2 to AS 5637.1 / AS ISO 9705;
+Early fire hazard indices to AS 1530.3: Ignitability 0, Spread of Flame 0, Heat
+Evolved 0, Smoke Developed 0-1; Suitable up to BAL-40 to AS 3959", "compliance":
+"AS/NZS 4859.1, AS 5637.1, AS 3959, CodeMark certified, NCC 2022 Volume 1 and
+Volume 2 compliant", "sustainability": "100% ozone-safe EPS core; zero CFC/HCFC;
+low VOC emissions; fully recyclable; fiber-free", "install": [ "Ensure
+structural framing or substrate is level, clean, and dry", "Measure and cut
+panels using a sharp utility knife or hand saw", "Maintain a minimum 20mm sealed
+airspace adjacent to reflective foil faces to generate full thermal R-value",
+"For walls, fix horizontally or vertically across framing with mechanical
+fasteners and blank plates", "For underfloors, install between joists supported
+on Foilboard Floor Saddles or Retrofit Clips", "Butt sheet joints tightly and
+tape with Foilboard 72mm reinforced aluminum tape", "Seal all edges around
+windows, doors, and service penetrations to maintain airtightness", "Ensure
+anti-glare green face faces the installer during roof and sunny external
+installations" ], "selection_checklist": [ "Determine required Total R-value
+(R1.6 to R4.0) to meet NCC or NatHERS targets", "Select board thickness (10mm
+to 50mm) based on available cavity depth", "Choose sheet dimensions
+(2440x1200mm, 2700x1200mm, or 3000x1200mm)", "Verify minimum 20mm reflective
+airspace can be maintained in the assembly", "Order matching installation
+accessories (Floor Saddles, Flexifast, 72mm tape)" ], "accessories": [
+"Foilboard 72mm Reinforced Aluminum Foil Tape", "Foilboard Floor Saddles",
+"Foilboard Flexifast Fasteners", "Foilboard Blank Plates", "Foilboard Spacer
+Blocks" ], "limitations": [ "Requires an adjacent sealed airspace of at
+least 20mm to deliver rated Total R-value", "Avoid contact with organic
+solvents, petroleum fuels, and solvent-based adhesives which dissolve EPS", "Do
+not leave permanently exposed to direct outdoor UV weather without cladding",
+"Maximum continuous service temperature is 80°C" ], "warranty": "25 Year
+Performance Warranty", "found": true, "search_keywords": [ "Foilboard",
+"Foilboard Green", "Foilboard insulation", "rigid foil board", "Foilboard 25mm",
+"Foilboard 15mm", "Foilboard 20mm", "EPS foil board", "underfloor rigid
+insulation", "Foilboard R2.6", "Foilboard R3.0", "rigid foam insulation" ],
+"problem_keywords": [ "cold drafty floorboards", "winter heat loss through
+timber floors", "thermal bridging on steel studs", "sweating shed walls and
+roof", "hot garage ceiling in summer", "uninsulated brick veneer walls" ],
+"placement": [ "wall", "external wall", "internal wall", "ceiling", "roof",
+"roofline", "underfloor", "floor", "subfloor", "shed" ], "priority_fit": [
+"thermal", "condensation", "easy_install", "fire" ], "use_cases": [ "Underfloor
+insulation between joists in suspended timber floor homes to eliminate draughts
+and cold floors", "Continuous external wall thermal break and insulation behind
+brick veneer or lightweight cladding", "Lining internal walls and ceilings of
+domestic garages, workshops, and metal sheds", "Insulating cathedral and raked
+ceilings where cavity depth is restricted" ], "not_for": [ "Continuous water
+immersion or subterranean hydrostatic tanking", "Direct foot traffic without
+floorboards or overlay", "Exhaust flue wrapping above 80°C" ], "rag_summary":
+"Foilboard Green is a rigid Australian-made insulation board composed of a
+fire-retardant EPS core laminated with pure aluminum foil facings on both sides.
+Available in thicknesses from 10mm to 50mm (Total R-values from R1.6 to R4.0+
+when paired with airspaces), it acts as a combined thermal insulator, thermal
+break, and vapor barrier across walls, roofs, sheds, and suspended timber
+floors. Fiber-free, moisture-impermeable, non-allergenic, and tested to Group 1
+fire standards, it delivers lifetime thermal efficiency backed by a 25-year
+performance warranty." }, { "family_id": "FOILBOARD_GREEN_JOINING_TAPE",
+"tds_url": "https://www.foilboard.com.au/product-category/accessories/",
+"sds_url":
+"https://www.foilboard.com.au/wp-content/uploads/2021/04/Foilboard-Green-Safety-Data-Sheet.pdf",
+"description": "Foilboard Green Joining Tape is a heavy-duty reinforced aluminum
+foil tape engineered with an anti-glare green coating on its outer face to match
+the green side of Foilboard Green panels. Coated with an aggressive,
+cold-weather acrylic pressure-sensitive adhesive, it creates a continuous
+airtight and vapor-tight seal along panel butt joints and penetrations. Designed
+specifically for outdoor, roof, and exposed wall applications, it prevents glare
+blinding installers while maintaining thermal envelope continuity.", "features":
+[ "Anti-glare green coating matches the green face of Foilboard Green panels",
+"Reinforced aluminum foil backing provides high tensile and tear strength",
+"High-tack pressure-sensitive acrylic adhesive bonds aggressively to foil
+facings", "Creates an impermeable Class 1 vapor barrier seal across panel
+joints", "Airtight jointing prevents convective heat loss and air infiltration",
+"Operating temperature resistance from -20°C to +80°C", "Low Flammability Index
+(≤ 5) compliant with AS 1530.2", "Easy-release paper backing liner for fast
+on-site peeling and installation" ], "applications": [ "roof", "roofline",
+"wall", "external wall", "internal wall", "ceiling", "shed", "underfloor" ],
+"technical": [ { "property": "Backing Material", "value": "Reinforced aluminum
+foil with anti-glare green lacquer coating", "standard": "" }, { "property":
+"Adhesive Type", "value": "Pressure-sensitive solvent acrylic adhesive",
+"standard": "" }, { "property": "Roll Width", "value": "72 mm (also available
+in 48 mm)", "standard": "" }, { "property": "Roll Length", "value": "50 m",
+"standard": "" }, { "property": "Operating Temperature Range", "value": "-20°C
+to +80°C", "standard": "" }, { "property": "Vapor Permeance", "value": "Class 1
+Vapor Barrier (< 0.002 µg/N·s)", "standard": "ASTM E96" }, { "property":
+"Flammability Index", "value": "≤ 5 (Low Flammability)", "standard": "AS 1530.2"
+} ], "range": [ { "variant": "Foilboard Green Joining Tape 72mm",
+"size_or_rating": "72 mm x 50 m", "pack": "Roll (Carton of 16)" }, { "variant":
+"Foilboard Green Joining Tape 48mm", "size_or_rating": "48 mm x 50 m", "pack":
+"Roll (Carton of 24)" } ], "fire": "Flammability Index ≤ 5 to AS 1530.2;
+Suitable for bushfire construction up to BAL-40 to AS 3959 when used with
+Foilboard Green systems", "compliance": "AS/NZS 4200.2:2017, AS 1530.2, AS 3959,
+NCC Volume One and Two", "sustainability": "Low VOC emissions; zero
+ozone-depleting potential (ODP)", "install": [ "Ensure Foilboard panel faces are
+completely dry, clean, and free of dust, grease, and moisture", "Align Foilboard
+panels with tightly butted joints", "Center the 72mm Green Joining Tape squarely
+over the seam with green face outward", "Peel back release liner gradually while
+applying tape along the joint", "Press down firmly along the entire tape length
+using a plastic squeegee or roller to activate pressure-sensitive adhesive",
+"Smooth out all wrinkles and air bubbles to guarantee an airtight, vapor-proof
+seal" ], "selection_checklist": [ "Confirm tape color matches the outward-facing
+green side of Foilboard Green panels", "Select roll width (72mm recommended for
+butt joints; 48mm for narrow interfaces)", "Calculate total linear meters of
+panel seams, corners, and penetrations", "Verify ambient application temperature
+is above +5°C" ], "accessories": [ "Foilboard Green panels", "Plastic
+application squeegee" ], "limitations": [ "Surfaces must be completely clean and
+dry before taping", "Requires firm squeegee pressure to activate permanent
+adhesive bond", "Not designed for structural load-bearing mechanical fastening"
+], "warranty": "Covered under Foilboard 25-year performance warranty system",
+"found": true, "search_keywords": [ "Foilboard Green Joining Tape", "Foilboard
+green tape", "anti-glare foil tape", "green reinforced foil tape", "72mm green
+foil tape", "Foilboard seam tape", "green aluminum tape", "Foilboard tape 72mm"
+], "problem_keywords": [ "glare blinding installers on sunny roofs", "air
+leakage through Foilboard seams", "unsealed insulation panel joins", "moisture
+passing through insulation gaps", "taping green face of Foilboard" ],
+"placement": [ "roof", "roofline", "wall", "external wall", "internal wall",
+"ceiling", "shed", "underfloor" ], "priority_fit": [ "easy_install",
+"condensation", "thermal", "fire" ], "use_cases": [ "Sealing butt joints on the
+green anti-glare face of Foilboard Green panels in roof installations", "Joining
+external wall Foilboard panels on exposed, sunny scaffolding where glare
+reduction is critical", "Sealing panel penetrations and window flashing
+interfaces on green-faced Foilboard" ], "not_for": [ "Direct structural
+mechanical fastening", "High-temperature exhaust flue pipes above 80°C",
+"Subterranean wet tanking seams" ], "rag_summary": "Foilboard Green Joining Tape
+is a 72mm reinforced aluminum foil tape featuring an anti-glare green coating
+and an aggressive acrylic pressure-sensitive adhesive. Designed specifically to
+seal butt joints and penetrations on the green face of Foilboard Green panels,
+it prevents installer glare in sunny roof and wall installations while
+maintaining airtight and vapor-tight integrity. Tested to AS 1530.2 with a low
+Flammability Index (≤ 5), it ensures continuous thermal envelope performance
+across residential and commercial buildings." }, { "family_id":
+"FOILBOARD_SILVER_JOINING_TAPE", "tds_url":
+"https://www.foilboard.com.au/product-category/accessories/", "sds_url":
+"https://www.foilboard.com.au/wp-content/uploads/2021/04/Foilboard-Green-Safety-Data-Sheet.pdf",
+"description": "Foilboard Silver Joining Tape is a heavy-duty reinforced
+aluminum foil tape engineered with a high-reflectance pure silver foil surface
+to match the silver reflective face of Foilboard insulation panels. Backed with
+an aggressive pressure-sensitive acrylic adhesive, it provides an airtight,
+vapor-impermeable seal across panel joins, underfloor seams, and perimeter
+junctions. It reflects radiant heat across the joint, preventing thermal bypass
+and moisture vapor migration in wall, ceiling, and underfloor assemblies.",
+"features": [ "Pure silver reflective foil finish matches the reflective face of
+Foilboard panels", "Reinforced fiberglass scrim provides high tensile strength
+and tear resistance", "High-tack pressure-sensitive acrylic adhesive ensures
+permanent bonding", "Class 1 vapor barrier rating prevents moisture transmission
+across panel seams", "Airtight seal eliminates drafts and convective heat loss",
+"Operating temperature range from -20°C to +80°C", "Low Flammability Index (≤ 5)
+compliant with AS 1530.2", "Available in 48mm and 72mm widths for versatile
+on-site sealing" ], "applications": [ "underfloor", "floor", "subfloor", "wall",
+"external wall", "internal wall", "ceiling", "roof", "shed" ], "technical": [ {
+"property": "Backing Material", "value": "Reinforced aluminum foil with pure
+silver reflective facing", "standard": "" }, { "property": "Adhesive Type",
+"value": "Pressure-sensitive solvent acrylic adhesive", "standard": "" }, {
+"property": "Roll Width", "value": "72 mm (also available in 48 mm)",
+"standard": "" }, { "property": "Roll Length", "value": "50 m", "standard": ""
+}, { "property": "Operating Temperature Range", "value": "-20°C to +80°C",
+"standard": "" }, { "property": "Vapor Permeance", "value": "Class 1 Vapor
+Barrier (< 0.002 µg/N·s)", "standard": "ASTM E96" }, { "property": "Flammability
+Index", "value": "≤ 5 (Low Flammability)", "standard": "AS 1530.2" } ], "range":
+[ { "variant": "Foilboard Silver Joining Tape 72mm", "size_or_rating": "72 mm
+x 50 m", "pack": "Roll (Carton of 16)" }, { "variant": "Foilboard Silver Joining
+Tape 48mm", "size_or_rating": "48 mm x 50 m", "pack": "Roll (Carton of 24)" } ],
+"fire": "Flammability Index ≤ 5 to AS 1530.2; Suitable for bushfire construction
+up to BAL-40 to AS 3959 when used with Foilboard systems", "compliance":
+"AS/NZS 4200.2:2017, AS 1530.2, AS 3959, NCC Volume One and Two",
+"sustainability": "Low VOC emissions; zero ozone-depleting potential (ODP)",
+"install": [ "Ensure panel surfaces are dry, clean, and free of dust, grease,
+and oil", "Align Foilboard panels with edges tightly butted together",
+"Center 72mm Silver Joining Tape over the joint on the silver reflective side of
+the board", "Peel paper release liner progressively while smoothing tape down
+along the seam", "Press down firmly along the entire tape length using a plastic
+squeegee or roller to activate adhesive", "Smooth out all wrinkles and air
+pockets to achieve a permanent, airtight seal" ], "selection_checklist": [
+"Confirm tape color matches the silver reflective face of Foilboard panels",
+"Select width (72mm recommended for underfloor and wall seams; 48mm for narrow
+trims)", "Calculate total lineal meters of panel seams and perimeter
+connections", "Ensure application temperature is above +5°C" ], "accessories": [
+"Foilboard Green panels", "Plastic application squeegee" ], "limitations": [
+"Substrates must be dry and free of sawdust or grease before application",
+"Requires firm mechanical pressure with a squeegee to achieve complete adhesive
+activation", "Not designed for structural mechanical holding" ], "warranty":
+"Covered under Foilboard 25-year performance warranty system", "found": true,
+"search_keywords": [ "Foilboard Silver Joining Tape", "Foilboard silver tape",
+"reinforced aluminum foil tape", "72mm silver foil tape", "Foilboard underfloor
+tape", "silver reflective joining tape", "Foilboard tape 72mm silver",
+"insulation foil tape" ], "problem_keywords": [ "drafts through underfloor board
+joints", "unsealed silver foil insulation seams", "vapor barrier leaks in
+subfloor", "air leakage through ceiling Foilboard", "taping silver side of
+Foilboard" ], "placement": [ "underfloor", "floor", "subfloor", "wall",
+"external wall", "internal wall", "ceiling", "roof", "shed" ], "priority_fit": [
+"easy_install", "thermal", "condensation", "fire" ], "use_cases": [ "Sealing
+butt joints and seams on the silver face of Foilboard panels in suspended timber
+underfloors", "Taping seams on internal wall and ceiling Foilboard
+installations", "Creating an impermeable vapor seal around pipe and cable
+penetrations through Foilboard panels" ], "not_for": [ "Direct structural
+mechanical fastening", "High-temperature flue exhaust pipes above 80°C",
+"Permanent immersion in water" ], "rag_summary": "Foilboard Silver Joining Tape
+is a 72mm reinforced pure aluminum foil tape coated with an aggressive
+cold-weather acrylic adhesive, designed to seal butt joints on the silver
+reflective side of Foilboard panels. It forms an impermeable Class 1 vapor
+barrier and airtight seal that prevents thermal bypass, convective drafts, and
+moisture intrusion across wall, ceiling, and underfloor assemblies. Low
+flammability rated (Index ≤ 5 to AS 1530.2), it ensures continuous radiant heat
+reflection and compliance with NCC air-sealing standards." }, { "family_id":
+"FOILBOARD_SPACER_BLOCKS", "tds_url":
+"https://www.foilboard.com.au/product-category/accessories/", "sds_url":
+"https://www.foilboard.com.au/wp-content/uploads/2021/04/Foilboard-Green-Safety-Data-Sheet.pdf",
+"description": "Foilboard Spacer Blocks are pre-cut expanded polystyrene (EPS)
+blocks designed to maintain a consistent, non-collapsible reflective airspace
+between Foilboard insulation panels and external wall claddings or internal
+linings. By establishing a guaranteed 20mm or 25mm still air cavity adjacent to
+the reflective aluminum foil face, they ensure the assembly achieves its rated
+total thermal R-value. Adhered or mechanically fixed between framing members,
+they prevent panels from flexing, dislocating, or touching adjacent cladding
+under wind loads.", "features": [ "Guarantees a permanent 20mm or 25mm
+reflective still air cavity", "Ensures Foilboard systems achieve rated total
+system R-values", "Constructed from lightweight, fire-retardant expanded
+polystyrene (EPS)", "Prevents panel deflection and rattling against cladding
+under wind pressure", "Pre-cut blocks allow rapid, consistent on-site
+placement", "Compatible with all Foilboard panel thicknesses and framing
+systems", "Moisture-proof and rot-proof, will not degrade or sag over time",
+"Eliminates guesswork in establishing compliant airspace dimensions" ],
+"applications": [ "wall", "external wall", "internal wall", "ceiling", "shed" ],
+"technical": [ { "property": "Material", "value": "Fire-retardant expanded
+polystyrene (EPS)", "standard": "" }, { "property": "Block Thickness (Airspace
+Depth)", "value": "20 mm, 25 mm", "standard": "" }, { "property": "Block
+Dimensions", "value": "Approx. 50 mm x 50 mm x 20/25 mm (or 100 mm x 50 mm)",
+"standard": "" }, { "property": "Density", "value": "Class SL / S EPS",
+"standard": "AS 1366.3" }, { "property": "Combustibility", "value":
+"Fire-retardant EPS formulation", "standard": "AS 1530.3" } ], "range": [ {
+"variant": "Foilboard Spacer Blocks 20mm", "size_or_rating": "20 mm thickness
+(creates 20mm airspace)", "pack": "Bag / Box" }, { "variant": "Foilboard Spacer
+Blocks 25mm", "size_or_rating": "25 mm thickness (creates 25mm airspace)",
+"pack": "Bag / Box" } ], "fire": "Fire-retardant EPS; compliant as a system
+component with NCC fire hazard requirements", "compliance": "AS/NZS 4859.1,
+AS 3999, NCC Volume One and Two", "sustainability": "100% recyclable EPS; zero
+CFC/HCFC; low VOC emissions", "install": [ "Determine required airspace depth
+(20mm or 25mm) from system architectural specification", "Position Foilboard
+Spacer Blocks onto wall studs, battens, or the back of Foilboard panels",
+"Adhere blocks using approved construction adhesive or tack in place with
+fasteners", "Place approximately one spacer block per square meter or at 600mm
+to 900mm intervals along framing", "Install Foilboard panel firmly against
+spacer blocks", "Fasten panel to structural framing ensuring spacer blocks
+maintain the designed airspace", "Verify panels remain planar without bowing
+into the adjacent cladding cavity" ], "selection_checklist": [ "Confirm required
+airspace depth (20mm or 25mm) from thermal R-value calculation", "Calculate
+total quantity needed based on wall area (approx. 4-6 blocks per standard
+panel)", "Verify framing type (timber studs, steel girts, or masonry furring
+channels)", "Order compatible solvent-free adhesive or fasteners" ],
+"accessories": [ "Foilboard Green panels", "Foilboard 72mm reinforced foil
+tape", "Solvent-free construction adhesive" ], "limitations": [ "Do not use
+solvent-based adhesives which dissolve expanded polystyrene", "Spacer blocks are
+non-structural and do not replace primary mechanical framing fasteners", "Do not
+expose to continuous service temperatures above 80°C" ], "warranty": "Covered
+under Foilboard 25-year performance warranty system", "found": true,
+"search_keywords": [ "Foilboard Spacer Blocks", "Foilboard spacers", "insulation
+spacer blocks", "EPS spacer blocks", "20mm airspace spacers", "25mm insulation
+spacers", "Foilboard cavity spacers", "reflective airspace blocks" ],
+"problem_keywords": [ "insulation touching cladding losing R-value",
+"maintaining 20mm air gap for foil insulation", "Foilboard bowing into wall
+cavity", "loss of reflective insulation performance", "cladding pushing against
+insulation board" ], "placement": [ "wall", "external wall", "internal wall",
+"ceiling", "shed" ], "priority_fit": [ "thermal", "easy_install" ], "use_cases":
+[ "Maintaining a guaranteed 20mm or 25mm reflective airspace behind external
+wall claddings", "Preventing Foilboard panels from flexing into cavity brickwork
+or lightweight cladding", "Spacing panels off masonry walls to create a still
+reflective thermal cavity" ], "not_for": [ "Structural cladding support",
+"Underfloor joist cradle suspension (use Floor Saddles)", "Direct exposure to
+petroleum-based solvents" ], "rag_summary": "Foilboard Spacer Blocks are
+pre-cut 20mm and 25mm fire-retardant EPS blocks designed to maintain a
+consistent, uncompressed reflective airspace between Foilboard panels and
+adjacent building claddings. By establishing the required still air cavity, they
+ensure Foilboard systems achieve their certified total thermal R-values while
+preventing panels from flexing under wind loads. Moisture-proof and rot-proof,
+they provide a reliable, low-cost solution for cavity depth management across
+framed walls and ceilings." }, { "family_id": "FOILBOARD_STANDARD_FASTENERS",
+"tds_url": "https://www.foilboard.com.au/product-category/accessories/",
+"sds_url":
+"https://www.foilboard.com.au/wp-content/uploads/2021/04/Foilboard-Green-Safety-Data-Sheet.pdf",
+"description": "Foilboard Standard Fasteners are purpose-designed mechanical
+fixings consisting of galvanized timber nails or screws paired with broad
+plastic washer plates, engineered to secure Foilboard panels to timber framing
+without puncturing or compressing the core. By spreading the fastening load
+across a wide surface area, they prevent fastener pull-through under wind
+suction and vibration. They provide a fast, secure fixing method for residential
+timber-stud walls, raked ceilings, and shed framing.", "features": [ "Engineered
+specifically for securing Foilboard rigid panels to timber framing", "Broad
+integrated washer head distributes load to prevent panel crushing", "Stops nail
+or screw heads from pulling through the aluminum foil facing", "Galvanized steel
+shank provides excellent corrosion resistance", "Available in lengths tailored
+for 10mm to 25mm Foilboard panels", "Fast hammer-in or drive-in installation
+directly into timber studs and joists", "Maintains panel rigidity and alignment
+during wall cladding construction" ], "applications": [ "wall", "external wall",
+"internal wall", "ceiling", "shed", "underfloor" ], "technical": [ { "property":
+"Fastener Type", "value": "Galvanized clout nail or screw with pre-fitted broad
+plastic/metal washer", "standard": "" }, { "property": "Head / Washer Diameter",
+"value": "Approx. 35 mm - 40 mm", "standard": "" }, { "property": "Lengths",
+"value": "30 mm, 40 mm, 50 mm (to suit 10mm, 15mm, 20mm, 25mm boards)",
+"standard": "" }, { "property": "Substrate Compatibility", "value": "Softwood
+and hardwood timber framing", "standard": "" }, { "property": "Corrosion
+Protection", "value": "Hot-dip galvanized / zinc plated", "standard": "AS 2331"
+} ], "range": [ { "variant": "Foilboard Standard Fasteners 30mm",
+"size_or_rating": "30 mm length (suits 10-15mm boards)", "pack": "Box of 250
+/ 500" }, { "variant": "Foilboard Standard Fasteners 40mm", "size_or_rating":
+"40 mm length (suits 15-20mm boards)", "pack": "Box of 250 / 500" }, {
+"variant": "Foilboard Standard Fasteners 50mm", "size_or_rating": "50 mm length
+(suits 20-25mm boards)", "pack": "Box of 250 / 500" } ], "fire":
+"Non-combustible metal fastener with low-hazard washer; compliant with NCC fire
+requirements", "compliance": "AS/NZS 4859.1, AS 3999, NCC Volume One and Two",
+"sustainability": "Recyclable steel and polymer components; zero ODP",
+"install": [ "Hold Foilboard panel firmly in position against timber wall studs
+or ceiling framing", "Place Standard Fastener against the panel surface at
+recommended fixing locations", "Drive fastener straight into the timber stud
+until the broad washer head rests flush against the foil", "Do not overdrive to
+avoid crushing the underlying EPS core", "Install fasteners at maximum 600mm
+centers around the panel perimeter and down central studs", "Cover fastener
+heads with Foilboard 72mm reinforced foil tape if an airtight vapor seal is
+required" ], "selection_checklist": [ "Confirm framing substrate is timber
+(softwood or hardwood)", "Select fastener length based on board thickness
+(fastener length must equal board thickness plus minimum 20-25mm timber
+embedment)", "Calculate quantity needed based on approx. 6-8 fasteners
+per 2440x1200mm sheet", "Order matching 72mm foil tape for air sealing" ],
+"accessories": [ "Foilboard Green panels", "Foilboard 72mm reinforced foil
+tape", "Claw hammer or drill driver" ], "limitations": [ "Designed for timber
+framing only; for steel framing use Foilboard Tek Screws", "Do not overdrive
+fastener to prevent deforming the board core", "Non-structural; does not replace
+structural wall bracing or cladding fixings" ], "warranty": "Backed by Foilboard
+product warranty", "found": true, "search_keywords": [ "Foilboard Standard
+Fasteners", "Foilboard timber fasteners", "Foilboard clouts", "insulation fixing
+nails", "Foilboard nails with washers", "timber stud insulation fasteners",
+"Foilboard fixings", "Foilboard fasteners box" ], "problem_keywords": [ "nails
+pulling through insulation board", "fastening Foilboard to timber studs",
+"Foilboard vibrating loose on wall frame", "crushing EPS core with hammer",
+"fixing foil board without damage" ], "placement": [ "wall", "external wall",
+"internal wall", "ceiling", "shed", "underfloor" ], "priority_fit": [
+"easy_install", "thermal" ], "use_cases": [ "Fixing Foilboard Green panels
+directly to residential timber wall studs before cladding", "Securing Foilboard
+sheets to timber ceiling rafters in domestic sheds and garages", "Attaching thin
+Foilboard panels to internal timber partitions" ], "not_for": [ "Steel framing
+(use Tek Screws)", "Concrete or masonry substrates (use Flexifast)", "Structural
+exterior cladding support" ], "rag_summary": "Foilboard Standard Fasteners are
+galvanized timber-fixing fasteners equipped with wide washer heads designed to
+secure 10mm to 25mm Foilboard panels to timber framing. By spreading mechanical
+holding loads over an enlarged surface area, they prevent nail heads from
+tearing through the aluminum facing or crushing the EPS core. Engineered for
+rapid hammer-in fixing on residential timber-stud walls and ceilings, they
+provide durable mechanical retention without compromising panel performance." },
+{ "family_id": "FOILBOARD_STANDARD_TEK_SCREWS", "tds_url":
+"https://www.foilboard.com.au/product-category/accessories/", "sds_url":
+"https://www.foilboard.com.au/wp-content/uploads/2021/04/Foilboard-Green-Safety-Data-Sheet.pdf",
+"description": "Foilboard Standard Tek Screws are self-drilling, zinc-plated
+steel screws pre-fitted with broad spreader washers, designed to secure
+Foilboard panels to light-gauge steel framing (up to 2.5mm steel thickness). The
+self-drilling drill-point tip pierces steel girts and studs without
+pre-drilling, while the broad washer head distributes clamping force across the
+panel face. Sized for 10mm to 25mm Foilboard sheets, they ensure rigid panel
+fixing in steel-framed sheds, commercial drywall, and residential steel homes.",
+"features": [ "Self-drilling hardened drill-point tip for fast fixing into
+light-gauge steel framing", "Pre-fitted with broad spreader washer to distribute
+load and prevent foil tear-through", "Corrosion-resistant zinc-plated coating
+compliant with Australian building standards", "Designed specifically for 10mm
+to 25mm Foilboard panels on steel framing up to 2.5mm thick", "Hex-head or
+wafer-head drive prevents cam-out and speeds installation", "Eliminates the need
+for pre-drilling holes through steel studs or girts", "Provides tight mechanical
+clamping without crushing the expanded polystyrene core" ], "applications": [
+"wall", "external wall", "internal wall", "ceiling", "shed", "roof" ],
+"technical": [ { "property": "Fastener Type", "value": "Self-drilling steel tek
+screw with integrated broad washer plate", "standard": "" }, { "property":
+"Steel Gauge Capacity", "value": "0.75 mm to 2.5 mm steel stud / girt
+thickness", "standard": "" }, { "property": "Washer Diameter", "value":
+"Approx. 35 mm - 40 mm", "standard": "" }, { "property": "Lengths", "value": "35
+mm, 45 mm, 55 mm (to suit 10mm, 15mm, 20mm, 25mm boards)", "standard": "" }, {
+"property": "Drive Type", "value": "Hex-head / Phillips wafer head", "standard":
+"" }, { "property": "Corrosion Coating", "value": "Class 3 / Zinc plated",
+"standard": "AS 3566" } ], "range": [ { "variant": "Foilboard Standard Tek
+Screws 35mm", "size_or_rating": "35 mm length (suits 10-15mm boards on steel)",
+"pack": "Box of 250" }, { "variant": "Foilboard Standard Tek Screws 45mm",
+"size_or_rating": "45 mm length (suits 15-20mm boards on steel)", "pack": "Box
+of 250" }, { "variant": "Foilboard Standard Tek Screws 55mm", "size_or_rating":
+"55 mm length (suits 20-25mm boards on steel)", "pack": "Box of 250" } ],
+"fire": "Non-combustible steel fastener; compliant with NCC fire hazard
+requirements", "compliance": "AS 3566, AS/NZS 4859.1, NCC Volume One and Two",
+"sustainability": "100% recyclable steel; zero ODP", "install": [ "Hold
+Foilboard panel firmly against steel studs or purlins", "Fit Foilboard Standard
+Tek Screw into screw gun or drill driver with matching bit", "Drive screw
+perpendicular through the panel and into the steel framing member", "Allow drill
+tip to penetrate steel stud before applying driving torque", "Stop driving when
+the broad washer head seats flush and firm against the aluminum foil facing",
+"Do not overtighten to avoid dishing the washer into the EPS core", "Space
+screws at maximum 600mm centers along perimeter and internal framing members",
+"Seal over screw heads with Foilboard 72mm reinforced foil tape if an airtight
+vapor seal is required" ], "selection_checklist": [ "Confirm framing is steel
+(0.75mm to 2.5mm thickness)", "Select screw length matching board thickness
+(board thickness + minimum 15-20mm steel penetration)", "Calculate total screw
+count based on approx. 6-8 screws per standard sheet", "Order matching 72mm
+reinforced foil tape to seal over fastener heads" ], "accessories": [ "Foilboard
+Green panels", "Foilboard 72mm reinforced foil tape", "Hex / Phillips drill
+driver bit" ], "limitations": [ "Not suitable for heavy structural steel thicker
+than 2.5mm without pre-drilling", "Do not overtighten; excessive torque will
+strip light-gauge steel or crush board", "For thick boards (40mm to 50mm), use
+Foilboard Ultra Tek Screws" ], "warranty": "Backed by Foilboard product
+warranty", "found": true, "search_keywords": [ "Foilboard Standard Tek Screws",
+"Foilboard steel screws", "Foilboard tek screws", "self drilling insulation
+screws", "steel stud insulation screws", "Foilboard screws with washers", "tek
+screws for Foilboard", "Foilboard 45mm tek screws" ], "problem_keywords": [
+"attaching Foilboard to steel studs", "fixing insulation to metal shed girts",
+"screws stripping in light gauge steel", "insulation screws tearing foil
+facing", "pre-drilling steel studs for insulation" ], "placement": [ "wall",
+"external wall", "internal wall", "ceiling", "shed", "roof" ], "priority_fit": [
+"easy_install", "thermal" ], "use_cases": [ "Securing 10mm to 25mm Foilboard
+panels to light-gauge steel wall framing in residential homes", "Fastening
+Foilboard insulation to steel wall girts and roof purlins in domestic metal
+sheds", "Installing rigid foil boards on commercial steel drywall partitions" ],
+"not_for": [ "Timber framing (use Standard Fasteners)", "Concrete or brickwork
+(use Flexifast)", "Heavy structural steel exceeding 2.5mm thickness" ],
+"rag_summary": "Foilboard Standard Tek Screws are self-drilling steel fasteners
+fitted with broad load-spreading washers, designed for fixing 10mm to 25mm
+Foilboard panels to light-gauge steel framing (up to 2.5mm). Their hardened
+drill-point tip penetrates steel studs and girts without pre-drilling, while the
+broad washer head prevents the screw from pulling through the aluminum facing or
+crushing the EPS core. Coated for corrosion resistance to AS 3566, they provide
+fast, reliable mechanical fixing for steel-framed homes, sheds, and commercial
+partitions." }, { "family_id": "FOILBOARD_ULTRA_FASTENERS", "tds_url":
+"https://www.foilboard.com.au/product-category/accessories/", "sds_url":
+"https://www.foilboard.com.au/wp-content/uploads/2021/04/Foilboard-Green-Safety-Data-Sheet.pdf",
+"description": "Foilboard Ultra Fasteners are extra-long, heavy-duty mechanical
+fixings equipped with oversized load-spreading washer plates, engineered
+specifically for installing thick Foilboard panels (40mm and 50mm) to timber
+framing. The extended shank ensures sufficient timber embedment depth through
+thick expanded polystyrene boards, while the enlarged washer prevents fastener
+pull-through under high wind loads or ceiling gravity sag. They provide secure,
+non-compressing mechanical attachment for high-R-value residential walls, raked
+ceilings, and underfloor applications.", "features": [ "Engineered specifically
+for thick 40mm and 50mm Foilboard panels", "Extended shank lengths (70mm
+to 100mm) ensure deep structural embedment in timber", "Extra-wide spreader
+plate head eliminates foil tear-through and panel deformation", "Heavy-duty
+galvanized or coated steel construction provides long-term corrosion
+resistance", "Prevents heavy high-R-value boards from sagging in overhead
+ceiling applications", "Simple hammer-in or drive-in installation into timber
+framing studs and joists", "Maintains planar panel alignment across deep wall
+framing and underfloors" ], "applications": [ "wall", "external wall", "internal
+wall", "ceiling", "underfloor", "subfloor", "shed" ], "technical": [ {
+"property": "Fastener Type", "value": "Extended galvanized nail or screw with
+oversized load-spreading washer plate", "standard": "" }, { "property":
+"Lengths", "value": "70 mm, 80 mm, 90 mm, 100 mm (tailored for 40mm and 50mm
+boards)", "standard": "" }, { "property": "Washer Plate Diameter", "value": "40
+mm - 50 mm", "standard": "" }, { "property": "Substrate Compatibility", "value":
+"Timber framing (softwood and hardwood)", "standard": "" }, { "property":
+"Corrosion Protection", "value": "Hot-dip galvanized / zinc coated", "standard":
+"AS 2331" } ], "range": [ { "variant": "Foilboard Ultra Fasteners 75mm",
+"size_or_rating": "75 mm length (suits 40mm boards)", "pack": "Box of 250" }, {
+"variant": "Foilboard Ultra Fasteners 90mm", "size_or_rating": "90 mm length
+(suits 50mm boards)", "pack": "Box of 250" }, { "variant": "Foilboard Ultra
+Fasteners 100mm", "size_or_rating": "100 mm length (suits 50mm+ boards)",
+"pack": "Box of 250" } ], "fire": "Non-combustible steel fastener with
+low-hazard washer; compliant with NCC fire requirements", "compliance":
+"AS/NZS 4859.1, AS 3999, NCC Volume One and Two", "sustainability": "100%
+recyclable steel and polymer components; zero ODP", "install": [ "Position 40mm
+or 50mm Foilboard panel firmly against timber framing studs or ceiling joists",
+"Place Ultra Fastener against the panel surface at specified fixing points",
+"Drive fastener through the thick board into the timber until the broad washer
+rests flat against the foil", "Do not overdrive to avoid crushing the thick EPS
+core", "Fix at maximum 600mm centers along perimeter edges and down central
+studs", "In ceiling applications, support panels while driving fasteners to
+ensure tight structural contact", "Tape over all fastener heads with
+Foilboard 72mm reinforced foil tape for airtightness" ], "selection_checklist":
+[ "Confirm board thickness is 40mm or 50mm (for thinner boards use Standard
+Fasteners)", "Verify timber embedment depth is at least 25mm into framing",
+"Calculate fastener quantity (approx. 6-8 fasteners per 2440x1200mm sheet)",
+"Order matching 72mm reinforced foil tape" ], "accessories": [ "Foilboard
+Green 40mm / 50mm panels", "Foilboard 72mm reinforced foil tape", "Hammer or
+drill driver" ], "limitations": [ "Designed for timber framing; for steel
+framing use Ultra Tek Screws", "Ensure fastener length is sufficient to
+penetrate solid timber behind 50mm boards", "Non-structural; does not replace
+primary cladding fixings" ], "warranty": "Backed by Foilboard product warranty",
+"found": true, "search_keywords": [ "Foilboard Ultra Fasteners", "Foilboard 50mm
+fasteners", "Foilboard 40mm fasteners", "long insulation fasteners", "thick
+insulation board fixings", "Foilboard timber fixings 90mm", "heavy duty
+Foilboard fasteners", "Foilboard Ultra" ], "problem_keywords": [ "standard
+fasteners too short for 50mm board", "thick Foilboard falling off ceiling",
+"50mm insulation sagging between studs", "fastener pull-through on heavy
+boards", "securing thick EPS boards to timber" ], "placement": [ "wall",
+"external wall", "internal wall", "ceiling", "underfloor", "subfloor", "shed" ],
+"priority_fit": [ "easy_install", "thermal" ], "use_cases": [ "Securing
+thick 40mm and 50mm Foilboard Green panels to residential timber wall studs",
+"Fastening high-R-value 50mm panels to raked timber cathedral ceilings",
+"Installing thick rigid panels in high-performance subfloor timber joist bays"
+], "not_for": [ "Steel framing (use Ultra Tek Screws)", "Masonry walls (use
+Flexifast)", "Thin 10mm to 15mm boards (use Standard Fasteners)" ],
+"rag_summary": "Foilboard Ultra Fasteners are extra-long mechanical fixings
+fitted with oversized spreader washers, purpose-designed for securing thick 40mm
+and 50mm Foilboard panels to timber framing. With extended shank lengths
+from 75mm to 100mm, they guarantee deep structural embedment in timber studs and
+joists while preventing heavy panels from pulling through or sagging under
+gravity. Engineered for high-R-value wall, ceiling, and underfloor assemblies,
+they deliver robust, non-deforming mechanical attachment." }, { "family_id":
+"FOILBOARD_ULTRA_TEK_SCREWS", "tds_url":
+"https://www.foilboard.com.au/product-category/accessories/", "sds_url":
+"https://www.foilboard.com.au/wp-content/uploads/2021/04/Foilboard-Green-Safety-Data-Sheet.pdf",
+"description": "Foilboard Ultra Tek Screws are long, self-drilling steel
+fasteners fitted with oversized load-spreading washers, engineered to secure
+thick Foilboard panels (40mm and 50mm) to steel framing up to 2.5mm thick.
+Featuring a hardened drill-point tip that penetrates steel girts and studs
+without pre-drilling, the extended thread length accommodates thick expanded
+polystyrene boards while clamping firmly against the outer aluminum foil facing.
+They provide rigid, wind-resistant mechanical fixing for commercial steel sheds,
+industrial warehouses, and high-performance steel-framed walls.", "features": [
+"Self-drilling drill-point tip penetrates steel framing up to 2.5mm without
+pre-drilling", "Extended shank lengths (65mm to 95mm) tailored for 40mm and 50mm
+Foilboard panels", "Oversized spreader washer prevents head pull-through and
+foil face tearing", "Corrosion-resistant zinc plating compliant with AS 3566
+Class 3 standards", "Hex-drive head provides positive drive engagement without
+cam-out", "Prevents thick panels from dislodging or vibrating in high-wind steel
+buildings", "Clamps firmly without crushing the expanded polystyrene core" ],
+"applications": [ "wall", "external wall", "internal wall", "ceiling", "shed",
+"roof" ], "technical": [ { "property": "Fastener Type", "value": "Extended
+self-drilling tek screw with oversized spreader washer", "standard": "" }, {
+"property": "Steel Gauge Capacity", "value": "0.75 mm to 2.5 mm steel stud /
+girt thickness", "standard": "" }, { "property": "Lengths", "value": "65 mm, 75
+mm, 85 mm, 95 mm (tailored for 40mm and 50mm boards)", "standard": "" }, {
+"property": "Washer Diameter", "value": "Approx. 40 mm - 50 mm", "standard": ""
+}, { "property": "Drive Type", "value": "Hex-head drive", "standard": "" }, {
+"property": "Corrosion Coating", "value": "Class 3 / Zinc plated", "standard":
+"AS 3566" } ], "range": [ { "variant": "Foilboard Ultra Tek Screws 75mm",
+"size_or_rating": "75 mm length (suits 40mm boards on steel)", "pack": "Box
+of 250" }, { "variant": "Foilboard Ultra Tek Screws 85mm", "size_or_rating": "85
+mm length (suits 50mm boards on steel)", "pack": "Box of 250" }, { "variant":
+"Foilboard Ultra Tek Screws 95mm", "size_or_rating": "95 mm length (suits 50mm+
+boards on steel)", "pack": "Box of 250" } ], "fire": "Non-combustible steel
+fastener; compliant with NCC fire hazard requirements", "compliance": "AS 3566,
+AS/NZS 4859.1, NCC Volume One and Two", "sustainability": "100% recyclable
+steel; zero ODP", "install": [ "Hold 40mm or 50mm Foilboard panel firmly against
+steel studs or roof purlins", "Insert Foilboard Ultra Tek Screw into drill
+driver fitted with a hex-head driver bit", "Position screw perpendicular to the
+panel face at specified fixing locations", "Drive screw at moderate speed,
+allowing drill tip to cut through the steel girt or stud", "Continue driving
+until the wide washer head seats firmly and flush against the foil", "Do not
+overdrive to avoid dishing the washer into the EPS core", "Space screws at
+maximum 600mm centers along all edges and internal steel members", "Seal over
+all screw heads with Foilboard 72mm reinforced foil tape for vapor sealing" ],
+"selection_checklist": [ "Confirm framing substrate is steel (0.75mm to 2.5mm
+thickness)", "Verify board thickness is 40mm or 50mm (for thinner boards use
+Standard Tek Screws)", "Select screw length (board thickness + minimum 15-20mm
+steel penetration)", "Order matching 72mm reinforced foil tape to cover fastener
+heads" ], "accessories": [ "Foilboard Green 40mm / 50mm panels", "Foilboard 72mm
+reinforced foil tape", "Hex drill driver bit" ], "limitations": [ "Not designed
+for timber framing (use Ultra Fasteners)", "Heavy structural steel
+exceeding 2.5mm requires pre-drilling", "Do not overdrive to prevent stripping
+screw threads in light-gauge steel" ], "warranty": "Backed by Foilboard product
+warranty", "found": true, "search_keywords": [ "Foilboard Ultra Tek Screws",
+"Foilboard 50mm tek screws", "Foilboard 40mm tek screws", "long tek screws
+insulation", "self drilling screws for 50mm Foilboard", "Foilboard steel
+screws 85mm", "heavy duty tek screws Foilboard", "hex head insulation tek
+screws" ], "problem_keywords": [ "tek screws too short for 50mm insulation",
+"securing 50mm Foilboard to steel girts", "screws pulling through thick foam
+board", "attaching thick insulation to metal shed", "insulation sagging on steel
+frame" ], "placement": [ "wall", "external wall", "internal wall", "ceiling",
+"shed", "roof" ], "priority_fit": [ "easy_install", "thermal" ], "use_cases": [
+"Securing thick 40mm and 50mm Foilboard Green panels to commercial steel wall
+studs", "Fastening heavy high-R-value panels to steel purlins and girts in
+industrial sheds and warehouses", "Installing thick rigid thermal break boards
+on light-gauge steel residential framing" ], "not_for": [ "Timber framing (use
+Ultra Fasteners)", "Masonry substrates (use Flexifast)", "Thin 10mm to 15mm
+boards (use Standard Tek Screws)" ], "rag_summary": "Foilboard Ultra Tek Screws
+are long, self-drilling steel fasteners equipped with oversized spreader
+washers, engineered to secure thick 40mm and 50mm Foilboard panels to steel
+framing up to 2.5mm thick. With lengths from 75mm to 95mm, they penetrate steel
+studs and purlins without pre-drilling while the broad washer head prevents
+fastener pull-through or foil tearing. Zinc-coated for corrosion resistance to
+AS 3566, they provide dependable mechanical fixing for commercial sheds,
+industrial walls, and steel-framed buildings." }, { "family_id":
+"HIGGINS_INSULATION_ACOUSTIC_SHEET", "tds_url": "", "sds_url": "",
+"description": "", "features": [], "applications": [], "technical": [], "range":
+[], "fire": "", "compliance": "", "sustainability": "", "install": [],
+"selection_checklist": [], "accessories": [], "limitations": [], "warranty": "",
+"found": false, "search_keywords": [ "Higgins Insulation Acoustic Sheet",
+"Higgins acoustic sheet", "Higgins polyester acoustic sheet", "Higgins sound
+insulation sheet", "Higgins polyester board", "Higgins acoustic panel" ],
+"problem_keywords": [ "sound transfer through partition walls", "echo in
+commercial spaces", "plant room noise breakout", "acoustic sheet insulation",
+"soundproofing partition sheets" ], "placement": [ "wall", "internal wall",
+"ceiling", "between floors" ], "priority_fit": [ "acoustic", "thermal",
+"sustainability" ], "use_cases": [ "Acoustic lining in commercial and
+residential partition walls to dampen airborne sound transfer", "Sound
+absorption behind perforated wall and ceiling panels", "Acoustic damping in
+mechanical plant rooms and equipment enclosures" ], "not_for": [ "External
+weather-exposed cladding", "Direct foot traffic flooring without underlay",
+"High-temperature flue exhaust wrapping" ], "rag_summary": "Higgins Insulation
+Acoustic Sheet represents polyester or glass mineral wool acoustic sheet
+insulation distributed for sound attenuation across commercial and residential
+partition walls and ceilings. Higgins Insulation (operating out of Queensland,
+Australia) manufactures and supplies thermal and acoustic batts and blankets for
+building applications. When supplied in rigid or semi-rigid sheet form, these
+products absorb airborne noise, reduce room reverberation, and provide
+non-irritant, fiber-safe soundproofing for partition cavities and acoustic
+linings." }, { "family_id": "HIGGINS_INSULATION_BATT", "tds_url":
+"https://higginsinsulation.com.au/wp-content/uploads/2021/04/Higgins-Polyester-Thermal-Acoustic-Batts-TDS.pdf",
+"sds_url":
+"https://higginsinsulation.com.au/wp-content/uploads/2021/04/Higgins-Polyester-Insulation-SDS.pdf",
+"description": "Higgins Polyester Thermal & Acoustic Batts are premium 100%
+polyester insulation batts manufactured in Queensland, Australia, for
+residential and commercial ceilings, walls, and mid-floors. Formed from
+thermally bonded polyester fibers containing up to 85% recycled PET bottles,
+they are completely free of chemical binders, resins, and formaldehyde. Safe and
+non-irritant to handle without protective gear, they provide permanent thermal
+resistance and acoustic sound dampening that will not slump, pack down, or
+deteriorate over time.", "features": [ "Manufactured from 100% polyester fiber
+containing up to 85% recycled PET", "Completely itch-free, non-toxic,
+non-allergenic, and safe to touch without PPE", "Zero chemical binders, resins,
+formaldehyde, or volatile organic compounds (VOCs)", "Non-combustible fire
+performance with zero ODP and zero ozone emissions", "Outstanding acoustic
+absorption reducing airborne sound transfer between rooms", "Fibers will not
+slump, break down, or crumble over the lifetime of the building", "Naturally
+resistant to moisture, vermin, insects, and mold growth", "Pre-cut to
+standard 430mm and 580mm widths to suit Australian timber and steel framing",
+"Tested and certified to Australian Standard AS/NZS 4859.1", "Proudly Australian
+made and 100% recyclable" ], "applications": [ "ceiling", "wall", "external
+wall", "internal wall", "between floors" ], "technical": [ { "property":
+"Material Composition", "value": "100% thermally bonded polyester fiber (up
+to 85% recycled PET)", "standard": "" }, { "property": "Ceiling R-Values",
+"value": "R2.5, R3.0, R3.5, R4.0, R4.5, R5.0", "standard": "AS/NZS 4859.1" }, {
+"property": "Wall R-Values", "value": "R1.5, R2.0, R2.5", "standard":
+"AS/NZS 4859.1" }, { "property": "Ceiling Thicknesses", "value": "R2.5 (140mm),
+R3.0 (165mm), R3.5 (185mm), R4.0 (200mm), R5.0 (230mm)", "standard": "" }, {
+"property": "Wall Thicknesses", "value": "R1.5 (75mm), R2.0 (90mm), R2.5
+(90mm)", "standard": "" }, { "property": "Standard Dimensions", "value": "1160
+mm length x 430 mm or 580 mm width", "standard": "" }, { "property":
+"Combustibility", "value": "Complies with AS 1530.3 fire indices
+(0, 0, 0, 0-1)", "standard": "AS 1530.3" }, { "property": "Moisture Absorption",
+"value": "< 0.2% by volume", "standard": "" }, { "property": "Corrosion
+Resistance", "value": "Non-corrosive, chemically inert", "standard":
+"AS/NZS 4859.1" } ], "range": [ { "variant": "Higgins Polyester Wall Batts
+R1.5", "size_or_rating": "75 mm x 1160 mm x 430/580 mm", "pack": "Pack of batts"
+}, { "variant": "Higgins Polyester Wall Batts R2.0", "size_or_rating": "90 mm
+x 1160 mm x 430/580 mm", "pack": "Pack of batts" }, { "variant": "Higgins
+Polyester Wall Batts R2.5", "size_or_rating": "90 mm x 1160 mm x 430/580 mm",
+"pack": "Pack of batts" }, { "variant": "Higgins Polyester Ceiling Batts R2.5",
+"size_or_rating": "140 mm x 1160 mm x 430/580 mm", "pack": "Pack of batts" }, {
+"variant": "Higgins Polyester Ceiling Batts R3.0", "size_or_rating": "165 mm
+x 1160 mm x 430/580 mm", "pack": "Pack of batts" }, { "variant": "Higgins
+Polyester Ceiling Batts R3.5", "size_or_rating": "185 mm x 1160 mm x 430/580
+mm", "pack": "Pack of batts" }, { "variant": "Higgins Polyester Ceiling Batts
+R4.0", "size_or_rating": "200 mm x 1160 mm x 430/580 mm", "pack": "Pack of
+batts" }, { "variant": "Higgins Polyester Ceiling Batts R5.0", "size_or_rating":
+"230 mm x 1160 mm x 430/580 mm", "pack": "Pack of batts" } ], "fire": "AS 1530.3
+Early Fire Hazard Indices: Ignitability 0, Spread of Flame 0, Heat Evolved 0,
+Smoke Developed 0-1; Meets NCC residential fire safety provisions",
+"compliance": "AS/NZS 4859.1, AS 3999, NCC Volume One and Two / ABCB Housing
+Provisions Standard Part 13.2", "sustainability": "Manufactured from up to 85%
+recycled PET bottles; 100% recyclable; zero VOC; zero formaldehyde; asthma
+friendly", "install": [ "Isolate electrical power at the main switchboard before
+entering ceiling or working in wall cavities", "Select batt width (430mm
+or 580mm) to suit timber or steel framing spacing (450mm or 600mm)", "In
+ceilings, lay batts flat between ceiling joists ensuring complete coverage over
+plasterboard without gaps", "In walls, friction-fit batts firmly between studs
+ensuring batts butt tightly against top and bottom plates", "Do not compress
+batts into cavities narrower than nominal thickness", "Maintain minimum 50mm
+clearance around non-IC rated recessed downlights and heat sources as per
+AS 3999", "At roof eaves, ensure insulation does not block natural roof
+ventilation pathways", "Tear batts across the width by hand or cut with a sharp
+serrated knife if custom sizing is needed" ], "selection_checklist": [ "Confirm
+application (ceiling space vs external or internal wall)", "Select target
+R-value (e.g. R2.0/R2.5 in walls, R3.5 to R5.0 in ceilings) for NCC climate zone
+compliance", "Measure framing spacing (450mm centers require 430mm batts; 600mm
+centers require 580mm batts)", "Check cavity depth (75mm for 70mm studs; 90mm
+for 90mm studs)", "Verify preference for itch-free, zero-formaldehyde polyester
+insulation" ], "accessories": [ "Serrated insulation knife", "Perimeter eave
+baffles", "Insulation strapping" ], "limitations": [ "Do not compress batts
+significantly as this degrades thermal R-value", "Not designed for exposed
+decorative finishes; must be enclosed behind plasterboard or internal linings",
+"Maintain required clearances around non-IC rated electrical downlights" ],
+"warranty": "50 Year Product Warranty", "found": true, "search_keywords": [
+"Higgins Insulation Batt", "Higgins polyester batts", "Higgins ceiling batts",
+"Higgins wall batts", "polyester insulation batts", "non-itchy ceiling
+insulation", "Higgins R3.5", "Higgins R4.0", "Higgins R2.5 wall", "Queensland
+polyester insulation" ], "problem_keywords": [ "itchy fiberglass insulation in
+ceiling", "hot rooms in summer heat", "high winter heating bills", "noise
+between bedrooms", "slumping wall insulation", "asthma safe home insulation" ],
+"placement": [ "ceiling", "wall", "external wall", "internal wall", "between
+floors" ], "priority_fit": [ "thermal", "sustainability", "easy_install",
+"acoustic" ], "use_cases": [ "Insulating residential ceiling spaces with
+itch-free, asthma-safe polyester batts to lower energy bills", "Thermal and
+acoustic insulation in external timber-stud and steel-stud walls behind
+plasterboard", "Internal wall sound dampening between bedrooms, bathrooms, and
+home theater rooms" ], "not_for": [ "Underfloor crawl spaces with wind exposure
+without support", "Direct external cladding exposure without building wrap",
+"Exhaust flues exceeding 150°C" ], "rag_summary": "Higgins Polyester Thermal &
+Acoustic Batts are non-itchy, Australian-made insulation batts manufactured
+from 100% polyester fiber containing up to 85% recycled PET plastic bottles.
+Available in ceiling ratings from R2.5 to R5.0 and wall ratings from R1.5 to
+R2.5 (widths 430mm and 580mm), they deliver durable thermal resistance and sound
+absorption without slumping or degrading over time. Completely free of chemical
+binders, resins, and formaldehyde, they are non-allergenic, Sensitive Choice
+friendly, and backed by a 50-year manufacturer warranty." } ]

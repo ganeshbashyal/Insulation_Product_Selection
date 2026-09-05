@@ -1,7 +1,7 @@
 ---
 title: "Higgins Insulation Higgins Polyester Batt - Batt Insulation | Higgins Insulation"
-description: "Quality insulation engineered for Australian conditions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability"
-keywords: "Higgins Insulation Higgins Polyester Batt, Higgins Insulation batt, wall insulation, ceiling insulation, insulation Australia, Higgins Insulation Australia"
+description: "Higgins Polyester Batts (Ceiling and Wall Batts) are Australian-made thermal and acoustic insulation batts manufactured in Queensland from 100% therma"
+keywords: "Higgins Insulation Higgins Polyester Batt, Higgins Insulation batt, wall insulation, ceiling insulation, floor insulation, insulation Australia, Higgins Insulation Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: HIGGINS_INSULATION_HIGGINS_POLYESTER_BATT
 ---
@@ -10,29 +10,37 @@ family_id: HIGGINS_INSULATION_HIGGINS_POLYESTER_BATT
 
 **Higgins Insulation Batt** — bulk insulation batts for thermal and acoustic performance.
 
-Quality insulation engineered for Australian conditions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability.
+Higgins Polyester Batts (Ceiling and Wall Batts) are Australian-made thermal and acoustic insulation batts manufactured in Queensland from 100% thermally bonded polyester fiber with up to 85% recycled PET. Completely free from formaldehyde, chemical binders, and resins, they are soft to touch, non-toxic, and non-allergenic, making them safe for asthma sufferers and comfortable to install without protective clothing. Engineered with high tensile resiliency, they will not sag, slump, or break down over the life of the building, providing long-term thermal resistance from R1.5 to R5.0.
 
 ## Key features
 
-- 100% polyester - safe to handle without protective equipment.
-- contains minimum 80% recycled PET plastic bottles.
-- non-allergenic, non-irritant formulation.
-- will not support mould or mildew growth.
-- maintains performance when wet.
-- excellent thermal performance for roof/ceiling applications.
+- 100% thermally bonded polyester fiber containing up to 85% recycled PET.
+- Completely itch-free, non-toxic, non-allergenic, and safe to handle without PPE.
+- Free from formaldehyde, chemical binders, phenol, and ammonia.
+- Zero Ozone Depleting Potential (ODP) and low VOC emissions.
+- High tensile strength and fiber resiliency prevents slumping or sagging over time.
+- Naturally hydrophobic and quick drying; largely unaffected by moisture.
+- Tested to AS/NZS 1530.3 for fire safety.
+- Approved by Asthma Foundations Australia for low-allergen buildings.
+- Thermal ratings from R1.5 to R2.5 for walls and R2.0 to R5.0 for ceilings.
+- Backed by a lifetime product performance guarantee.
 
 ## Applications and selection
 
-- Ceiling
-- Internal Wall | External Wall
+- ceiling
+- wall
+- external wall
+- internal
+wall
+- between floors
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm application (ceiling space vs external or internal wall).
+2. Select target R-value (R2.0/R2.5 in walls; R3.5 to R5.0 in ceilings) to meet NCC climate zone requirements.
+3. Measure framing spacing (430mm for 450mm centers; 580mm for 600mm centers).
+4. Check wall stud depth (75mm for 70mm studs; 90mm for 90mm studs).
+5. Verify preference for itch-free, zero-formaldehyde polyester insulation.
 
 
 ## Current catalogue range
@@ -56,36 +64,52 @@ Quality insulation engineered for Australian conditions. Safe to handle without 
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Batt | Manufacturer catalogue |
-| Material | Polyester | Manufacturer catalogue |
-| Applications | Ceiling; Internal Wall | External Wall | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material Composition | 100% thermally bonded polyester fiber (up to 85% recycled PET) | - |
+| Ceiling R-Values | R2.0, R2.5, R3.0, R3.5, R4.0, R5.0 | AS/NZS 4859.1 |
+| Wall R-Values | R1.5, R2.0, R2.5 | AS/NZS 4859.1 |
+| Standard Dimensions | 1160 mm length x 430 mm or 580 mm width | - |
+| Thicknesses | R1.5 (75mm), R2.0 (90mm), R2.5 (90-140mm), R3.0 (165mm), R3.5 (185mm), R4.0 (200mm), R5.0 (230mm) | - |
+| Fire Hazard Indices | Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1 | AS/NZS 1530.3 |
+| Moisture Absorption | < 0.2% by volume | - |
+| Corrosion Resistance | Non-corrosive, chemically inert | AS/NZS 4859.1 |
 
-
+Extracted from manufacturer datasheet: https://higginsinsulation.com.au/product/polyester-insulation-ceiling-batts/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+AS/NZS 1530.3 Early Fire Hazard Indices: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-1; Complies with NCC fire hazard properties
+
+AS/NZS 4859.1, AS 3999, NCC Volume One and Two / ABCB Housing Provisions Standard Part 13.2
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://higginsinsulation.com.au/wp-content/uploads/2019/10/FI96-HDEI-Insulation-Technical-Data-Sheet.pdf (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://db4dv8bb88ruo.cloudfront.net/media/ListingAdditions/Document/5/0/2/0/7/5/aexx9wdzrze9.pdf.
 
+## Recommended accessories
+
+- Serrated insulation knife.
+- Insulation strapping.
+- Perimeter eave baffles.
+
 
 ## Limitations and warnings
 
-- Not suitable for fire rating without additional protection..
-- not to be exposed to weather or sustained moisture..
-- do not compress beyond manufacturer recommendations..
-- check fire-rated system requirements..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Do not compress batts significantly into cavities narrower than nominal thickness.
+- Not designed for exposed decorative finishes; must be enclosed behind plasterboard or linings.
+- Maintain mandatory clearances from non-IC rated electrical fixtures.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for fire rating without additional protection.
+1. Turn off electrical power at the main switchboard before entering ceilings or touching wall cavities.
+2. Select batt width (430mm or 580mm) to match stud or joist centers (450mm or 600mm).
+3. In ceilings, lay batts flat between ceiling joists ensuring complete coverage over plasterboard with zero gaps.
+4. In walls, friction-fit batts firmly between studs ensuring batts butt tightly against top and bottom plates.
+5. Maintain minimum 50mm clearance around non-IC rated recessed downlights and heat sources per AS 3999.
+6. Maintain a 20mm clearance between roof sarking and ceiling batts at roof eaves.
+7. Tear batts across the width by hand or trim with a sharp serrated knife if custom sizing is needed.
 
 ## Safety and handling
 
@@ -93,11 +117,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Manufactured from up to 85% recycled PET plastic bottles; 100% recyclable; zero formaldehyde; asthma friendly; zero ODP
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Lifetime performance guarantee backed by Higgins Insulation
 
 ## Specification starting point
 

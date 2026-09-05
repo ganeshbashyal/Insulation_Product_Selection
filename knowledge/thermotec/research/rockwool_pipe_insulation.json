@@ -1,0 +1,170 @@
+{
+  "family_id": "THERMOTEC_ROCKWOOL_PIPE",
+  "family_name": "Rockwool Pipe Insulation",
+  "datasheet_pdf_url": "https://thermotec.com.au/product/thermotec-rockwool-pipe-insulation/",
+  "sds_url": "https://thermotec.com.au/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Thermotec Rockwool Pipe\nInsulation is a heavy-duty, pre-formed mineral wool pipe lagging engineered for\nindustrial and commercial pipework carrying high-temperature fluids and steam at\ncontinuous temperatures up to 650°C. Manufactured from non-combustible volcanic\nrock fibres with a nominal density of 115 to 140 kg/m³, it is factory-laminated\nwith a reinforced aluminium foil facing to act as a vapour barrier and protect\nagainst moisture ingress. It delivers exceptional thermal insulation and\nacoustic noise attenuation on steam lines, boilers, high-pressure hot water, and\nexhaust systems.",
+    "features": [
+      "High-density pre-formed stone wool pipe\nsections (nominal 115 to 140 kg/m³)",
+      "Extreme continuous service temperature up\nto 650°C (outer foil limit 80°C - 100°C)",
+      "Non-combustible stone wool substrate\ncomplying with AS 1530.1 and BS 476 Part 4",
+      "Factory-applied reinforced\naluminium foil facing provides a tough vapour barrier",
+      "Specifically engineered\nfor high-pressure steam pipes, boilers, and industrial processes",
+      "Provides\nsubstantial acoustic noise dampening of fluid rush and turbulent knocking",
+      "Water-repellent, rot-proof, and resistant to fungal and bacterial growth",
+      "Chemically inert and will not promote stress corrosion cracking on copper or\nstainless steel",
+      "Pre-slit one-meter hinged sections allow rapid snap-on\ninstallation",
+      "Complies with Australian commercial and industrial insulation\nspecifications"
+    ],
+    "applications": [
+      "pipe",
+      "duct",
+      "wall"
+    ],
+    "technical": [
+      {
+        "property": "Core Material",
+        "value": "Bio-soluble volcanic rock wool mineral\nfibers",
+        "standard": ""
+      },
+      {
+        "property": "Nominal Density",
+        "value": "115 kg/m³\nto 140 kg/m³",
+        "standard": ""
+      },
+      {
+        "property": "Maximum Continuous Service\nTemperature",
+        "value": "Up to 650°C (core)",
+        "standard": ""
+      },
+      {
+        "property": "Facing Material",
+        "value": "Reinforced fire-resistant aluminium foil laminate",
+        "standard": ""
+      },
+      {
+        "property": "Facing Temperature Limit",
+        "value": "80°C\nto 100°C (outer surface)",
+        "standard": ""
+      },
+      {
+        "property": "Combustibility\n(Core)",
+        "value": "Non-combustible",
+        "standard": "AS 1530.1 / BS 476.4"
+      },
+      {
+        "property": "Early Fire Hazard Indices",
+        "value": "Ignitability: 0, Spread of\nFlame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Section Length",
+        "value": "1000 mm (1 metre) pre-split hinged\nsections",
+        "standard": ""
+      },
+      {
+        "property": "Thermal Conductivity",
+        "value": "Low\nthermal conductivity across operating temperatures up to 650°C",
+        "standard": "ASTM C518 / EN 12667"
+      },
+      {
+        "property": "Water Repellency",
+        "value": "Hydrophobic non-hygroscopic stone wool",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Rockwool Pipe Section 25mm Wall",
+        "size_or_rating": "25 mm WT x 1000\nmm (pipe IDs from 15mm to 200mm+)",
+        "pack": "Length"
+      },
+      {
+        "variant": "Rockwool\nPipe Section 38mm Wall",
+        "size_or_rating": "38 mm WT x 1000 mm (pipe IDs\nfrom 15mm to 200mm+)",
+        "pack": "Length"
+      },
+      {
+        "variant": "Rockwool Pipe\nSection 50mm Wall",
+        "size_or_rating": "50 mm WT x 1000 mm (pipe IDs from 15mm\nto 200mm+)",
+        "pack": "Length"
+      }
+    ],
+    "fire": "Core non-combustible to AS 1530.1\nand BS 476 Part 4; AS/NZS 1530.3 indices: Ignitability 0, Spread of Flame 0,\nHeat Evolved 0, Smoke Developed 0-1; Suitable for strict commercial fire\nratings",
+    "compliance": "AS 1530.1, AS/NZS 1530.3, AS/NZS 4859.1, BS 5422, NCC\nVolume One and Two",
+    "sustainability": "Natural volcanic rock; recyclable; zero\nODP; non-toxic",
+    "install": [
+      "Ensure pipe surface is cool, dry, clean, and\nrust-treated before lagging",
+      "Open the pre-slit hinged 1m Rockwool section and\nsnap over the pipe",
+      "Align longitudinal seams along the least visible side\n(typically top or back)",
+      "Peel release paper from the factory self-adhesive\nfoil overlap (or tape with reinforced foil tape)",
+      "Smooth down the foil lap\nfirmly with a squeegee to establish an airtight vapour seal",
+      "Butt\nconsecutive 1m sections tightly together and seal circumferential joints\nwith 72mm reinforced foil tape",
+      "Secure lagging with stainless steel or\naluminium bands or tie wire at 300mm to 400mm centres for high-temperature\npipework",
+      "Mitre cut sections neatly around elbows, valves, and tees, sealing\nall cut edges with foil tape"
+    ],
+    "selection_checklist": [
+      "Confirm pipe\noperating temperature exceeds 100°C (up to 650°C continuous)",
+      "Measure outside\ndiameter of pipe to match internal diameter of Rockwool section",
+      "Select wall\nthickness (25mm, 38mm, or 50mm) based on required surface touch temperature and\nenergy limits",
+      "Order matching 72mm reinforced aluminium foil tape and metal\nbanding straps"
+    ],
+    "accessories": [
+      "Thermotec Reinforced Aluminium Foil Tape\n(72mm)",
+      "Stainless steel or aluminium pipe banding straps",
+      "VentureClad\nheavy-duty outdoor weather jacketing"
+    ],
+    "limitations": [
+      "Outer aluminium foil\nfacing must not exceed 80°C - 100°C (insulation wall thickness must be\ncalculated to keep surface temperature within limits)",
+      "Outdoor installations\nexposed to weather require metal cladding or UV-resistant VentureClad\njacketing",
+      "Handle with gloves and dust mask during cutting to avoid mechanical\nfiber irritation"
+    ],
+    "warranty": "Backed by Thermotec Australia product\nwarranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Thermotec Rockwool Pipe",
+      "rockwool pipe insulation",
+      "steam pipe lagging",
+      "high temperature pipe\nlagging",
+      "foil faced rockwool pipe",
+      "650 degree pipe insulation",
+      "stone wool\npipe sections",
+      "boiler pipe insulation",
+      "industrial pipe lagging"
+    ],
+    "problem_keywords": [
+      "pipe insulation burning on steam lines",
+      "heat loss from\nhigh temperature boiler pipes",
+      "hot pipes causing burn hazards to workers",
+      "noisy fluid turbulence in high pressure pipes",
+      "insulation melting above 150\ndegrees"
+    ],
+    "placement": [
+      "pipe",
+      "duct",
+      "wall"
+    ],
+    "priority_fit": [
+      "fire",
+      "thermal",
+      "acoustic"
+    ],
+    "use_cases": [
+      "Thermal insulation on commercial and\nindustrial high-pressure steam pipes operating up to 650°C",
+      "Lagging boiler\nfeed lines, turbines, and hot water manifold pipework to prevent worker burn\ninjuries",
+      "Acoustic and thermal insulation on high-temperature generator and\nindustrial exhaust lines"
+    ],
+    "not_for": [
+      "Chilled water pipes without secondary\nvapor barriers where condensation could saturate open joints",
+      "Direct burial in\nsoil without protective culvert casing",
+      "Standard residential domestic hot\nwater lines where flexible foam is more cost effective"
+    ],
+    "rag_summary": "Thermotec Rockwool Pipe Insulation is a heavy-duty, foil-faced pre-formed stone\nwool pipe lagging designed for high-temperature commercial and industrial\npipework operating continuously up to 650°C. Engineered from dense volcanic rock\nfibers (115 to 140 kg/m³) and pre-split into 1-meter hinged sections, it\nprovides exceptional heat conservation and acoustic sound attenuation on steam\nlines, boilers, and industrial exhaust manifolds. Certified non-combustible to\nAS 1530.1 with early fire hazard indices of 0,0,0,0-1 to AS 1530.3, it delivers\nreliable passive fire protection and thermal containment."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

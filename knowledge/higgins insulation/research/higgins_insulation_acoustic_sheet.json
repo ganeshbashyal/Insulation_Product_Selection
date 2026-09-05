@@ -1,0 +1,64 @@
+{
+  "family_id": "HIGGINS_INSULATION_ACOUSTIC_SHEET",
+  "family_name": "Higgins Insulation Acoustic Sheet",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "gemini_not_found",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "",
+    "features": "",
+    "applications": "",
+    "technical": "",
+    "range": "",
+    "fire": "",
+    "compliance": "",
+    "sustainability": "",
+    "install": "",
+    "selection_checklist": "",
+    "accessories": "",
+    "limitations": "",
+    "warranty": ""
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Higgins Insulation Acoustic Sheet",
+      "Higgins acoustic sheet",
+      "Higgins polyester acoustic sheet",
+      "Higgins sound\ninsulation sheet",
+      "Higgins polyester board",
+      "Higgins acoustic panel"
+    ],
+    "problem_keywords": [
+      "sound transfer through partition walls",
+      "echo in\ncommercial spaces",
+      "plant room noise breakout",
+      "acoustic sheet insulation",
+      "soundproofing partition sheets"
+    ],
+    "placement": [
+      "wall",
+      "internal wall",
+      "ceiling",
+      "between floors"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "thermal",
+      "sustainability"
+    ],
+    "use_cases": [
+      "Acoustic lining in commercial and\nresidential partition walls to dampen airborne sound transfer",
+      "Sound\nabsorption behind perforated wall and ceiling panels",
+      "Acoustic damping in\nmechanical plant rooms and equipment enclosures"
+    ],
+    "not_for": [
+      "External\nweather-exposed cladding",
+      "Direct foot traffic flooring without underlay",
+      "High-temperature flue exhaust wrapping"
+    ],
+    "rag_summary": "Higgins Insulation\nAcoustic Sheet represents polyester or glass mineral wool acoustic sheet\ninsulation distributed for sound attenuation across commercial and residential\npartition walls and ceilings. Higgins Insulation (operating out of Queensland,\nAustralia) manufactures and supplies thermal and acoustic batts and blankets for\nbuilding applications. When supplied in rigid or semi-rigid sheet form, these\nproducts absorb airborne noise, reduce room reverberation, and provide\nnon-irritant, fiber-safe soundproofing for partition cavities and acoustic\nlinings."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

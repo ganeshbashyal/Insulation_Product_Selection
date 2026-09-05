@@ -1,0 +1,189 @@
+{
+  "family_id": "ECOWOOL_RESIDENTIAL_BATT",
+  "family_name": "Ecowool Residential Batt",
+  "datasheet_pdf_url": "https://pgfinsulation.com.au/products/ceiling-batts/",
+  "sds_url": "https://pgfinsulation.com.au/resource-centre/technical-documentation/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Ecowool Residential Batts (Ceiling Batts and Wall Batts) are\nnew-generation glass mineral wool thermal and acoustic insulation batts\nengineered for Australian residential homes. Manufactured with SensiTouch\ntechnology using a natural anti-formaldehyde binder and nearly 80% recycled\nglass, they form an effective barrier to heat flow while remaining soft to touch\nand low in dust. Available in thermal ratings from R2.0 up to R7.0 for ceilings\nand R2.0 to R2.5 for walls, they are non-combustible, bio-soluble, and certified\nto AS/NZS 4859.1:2018.",
+    "features": [
+      "Premium thermal and acoustic insulation\nfor residential walls and ceilings",
+      "SensiTouch Technology with natural\nanti-formaldehyde binder",
+      "Soft to touch, less itchy, and low dust\nformulation",
+      "Made from nearly 80% recycled glass content",
+      "Non-combustible\nwhen tested to AS 1530.1:1994",
+      "Third-party certified compliant with\nAS/NZS 4859.1:2018",
+      "Free from CFCs, HCFCs, and ozone-depleting substances",
+      "Excellent fibre resiliency ensures batts recover nominal thickness upon\nunrolling",
+      "Safe to handle with bio-soluble FBS-1 formulation",
+      "Reduces\nhousehold heating and cooling energy consumption"
+    ],
+    "applications": [
+      "ceiling",
+      "wall",
+      "external wall",
+      "internal wall"
+    ],
+    "technical": [
+      {
+        "property": "Ceiling R-Values",
+        "value": "R2.5, R3.0, R3.5, R4.0, R5.0, R6.0,\nR7.0",
+        "standard": "AS/NZS 4859.1:2018"
+      },
+      {
+        "property": "Wall R-Values",
+        "value": "R2.0, R2.5",
+        "standard": "AS/NZS 4859.1:2018"
+      },
+      {
+        "property": "Thicknesses (Ceiling)",
+        "value": "R2.5 (125mm), R3.0 (145mm), R3.5 (175mm),\nR4.0 (195mm), R5.0 (215mm), R6.0 (250mm), R7.0 (285mm)",
+        "standard": ""
+      },
+      {
+        "property": "Thicknesses (Wall)",
+        "value": "R2.0 (90mm), R2.5 (90mm)",
+        "standard": ""
+      },
+      {
+        "property": "Dimensions",
+        "value": "1160 mm length x 430 mm\nor 580 mm width",
+        "standard": ""
+      },
+      {
+        "property": "Combustibility",
+        "value": "Non-combustible",
+        "standard": "AS 1530.1:1994"
+      },
+      {
+        "property": "Early Fire\nHazard Indices",
+        "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0,\nSmoke Developed: 0-1",
+        "standard": "AS 1530.3:1999"
+      },
+      {
+        "property": "Thermal\nConductivity",
+        "value": "Tested at 23°C mean temperature",
+        "standard": "ASTM\nC518"
+      },
+      {
+        "property": "Maximum Service Temperature",
+        "value": "350°C",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Ecowool Wall Batts R2.0",
+        "size_or_rating": "90 mm x 1160 mm x 430/580 mm",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "Ecowool Wall Batts R2.5",
+        "size_or_rating": "90 mm x 1160 mm\nx 430/580 mm",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "Ecowool Ceiling Batts\nR3.0",
+        "size_or_rating": "145 mm x 1160 mm x 430/580 mm",
+        "pack": "Pack of\nbatts"
+      },
+      {
+        "variant": "Ecowool Ceiling Batts R3.5",
+        "size_or_rating": "175 mm\nx 1160 mm x 430/580 mm",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "Ecowool\nCeiling Batts R4.0",
+        "size_or_rating": "195 mm x 1160 mm x 430/580 mm",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "Ecowool Ceiling Batts R5.0",
+        "size_or_rating": "215 mm x 1160 mm x 430/580 mm",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "Ecowool Ceiling Batts R7.0",
+        "size_or_rating": "285 mm x 1160 mm x 430/580 mm",
+        "pack": "Pack of batts"
+      }
+    ],
+    "fire": "Non-combustible to AS 1530.1:1994;\nAS 1530.3:1999 indices: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke\nDeveloped 0-1; ASTM E84 compliant",
+    "compliance": "AS/NZS 4859.1:2018, Building\nCode of Australia (BCA) / NCC compliant",
+    "sustainability": "Manufactured from\nnearly 80% recycled glass; SensiTouch anti-formaldehyde binder; Low VOC; Zero\nODP; Bio-soluble FBS-1",
+    "install": [
+      "Isolate electrical power at main\nswitchboard before commencing installation",
+      "In ceilings, lay batts flat\nbetween ceiling joists ensuring complete coverage over plasterboard",
+      "In walls,\nfriction-fit batts between timber or steel studs snugly without gaps or folds",
+      "Maintain minimum 200mm clearance around non-IC rated recessed downlights and\nheat sources",
+      "IC or IC-F rated downlights may be insulated over provided\nservice temperature does not exceed 350°C",
+      "At roof eaves, maintain\nminimum 20mm clearance between insulation and roof cladding/sarking"
+    ],
+    "selection_checklist": [
+      "Determine whether ceiling or external wall\napplication",
+      "Select required R-value to achieve 7-star NatHERS compliance for\nclimate zone",
+      "Measure framing spacing (430mm width for 450mm centres; 580mm\nwidth for 600mm centres)",
+      "Check wall stud depth (90mm standard)",
+      "Check\ndownlight ratings (IC / IC-F rated vs non-IC)"
+    ],
+    "accessories": [
+      "Perimeter\neave baffles",
+      "Bradfix strapping",
+      "Utility knife"
+    ],
+    "limitations": [
+      "Do not\ncompress batts into cavities narrower than nominal thickness",
+      "Keep dry during\ntransport, storage, and installation",
+      "Must not be left exposed to continuous\noutdoor weather"
+    ],
+    "warranty": "PGF Australia product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Ecowool Residential Batt",
+      "Ecowool ceiling batts",
+      "Ecowool wall batts",
+      "PGF ceiling batts",
+      "Ecowool R4.0",
+      "Ecowool R5.0",
+      "Ecowool R2.5 wall",
+      "SensiTouch ceiling batts",
+      "non-itchy ceiling insulation",
+      "Ecowool R7.0"
+    ],
+    "problem_keywords": [
+      "hot rooms upstairs in summer",
+      "high\nwinter heating costs",
+      "uninsulated ceiling heat escape",
+      "itchy fiberglass\nbatts replacement",
+      "meeting 7-star NatHERS energy compliance",
+      "cold drafts\nthrough external walls"
+    ],
+    "placement": [
+      "ceiling",
+      "wall",
+      "external wall",
+      "internal wall"
+    ],
+    "priority_fit": [
+      "thermal",
+      "sustainability",
+      "fire",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Insulating pitched roof ceiling spaces in\nresidential homes to achieve 7-star NatHERS energy ratings",
+      "Thermal insulation\nin external timber and steel framed walls behind brick veneer or lightweight\ncladding",
+      "Retrofitting existing uninsulated residential attic spaces to reduce\nenergy bills"
+    ],
+    "not_for": [
+      "Underfloor suspended timber floors exposed to\ndrafts",
+      "Commercial HVAC duct lining",
+      "Exposed wall surfaces without\nplasterboard"
+    ],
+    "rag_summary": "Ecowool Residential Batts (Ceiling Batts and\nWall Batts) are non-combustible glass mineral wool thermal insulation batts\nmanufactured by PGF Insulation. Engineered with SensiTouch low-dust,\nanti-formaldehyde binder technology from nearly 80% recycled glass, they provide\nceiling ratings from R2.5 to R7.0 (up to 285mm thick) and wall ratings of R2.0\nand R2.5. Tested non-combustible to AS 1530.1 and certified to\nAS/NZS 4859.1:2018, they form a soft-to-touch, durable thermal barrier that\nkeeps homes comfortable year-round."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

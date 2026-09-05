@@ -1,0 +1,137 @@
+{
+  "family_id": "PROCTOR_YOURIPPA_PROTECT_TAPE",
+  "family_name": "Proctor YouRippa Protect Tape",
+  "datasheet_pdf_url": "https://proctorgroup.com.au/product/yourippa-rip-by-hand-heavy-duty-curing-protection-tape/",
+  "sds_url": "https://proctorgroup.com.au/product/yourippa-rip-by-hand-heavy-duty-curing-protection-tape/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Proctor YouRippa Heavy Duty Curing & Protection Tape is an\nembossed polyethylene cloth-backed protection tape coated with a natural\nrubber-based adhesive, engineered specifically for temporary jobsite surface\nprotection. Designed with an advanced carrier that tears straight and cleanly by\nhand in both directions without cutting tools, it secures floor protection\nboards and concrete curing covers against heavy foot traffic. Formulated for\nclean, residue-free removal, it protects delicate finished timber, stone, metal,\nand cured concrete surfaces during active building works.",
+    "features": [
+      "Tears\nstraight and cleanly by hand in both directions without knives or scissors",
+      "Clean, residue-free removal from sensitive finishes and cured concrete",
+      "Aggressive natural rubber adhesive bonds firmly to multiple substrates",
+      "Heavy-duty embossed polyethylene cloth carrier resists tears and puncture",
+      "Waterproof backing protects seams from construction spills and wet washdowns",
+      "Secures floor protection boards, films, and concrete curing blankets",
+      "Conforms readily to corners, thresholds, and irregular profiles",
+      "Suitable for\nindoor fitouts and short-term outdoor construction protection"
+    ],
+    "applications": [
+      "floor",
+      "underfloor",
+      "wall",
+      "internal wall"
+    ],
+    "technical": [
+      {
+        "property": "Carrier",
+        "value": "Embossed polyethylene cloth backing",
+        "standard": ""
+      },
+      {
+        "property": "Adhesive Type",
+        "value": "Natural rubber based\nadhesive",
+        "standard": ""
+      },
+      {
+        "property": "Roll Width",
+        "value": "48 mm / 50\nmm",
+        "standard": ""
+      },
+      {
+        "property": "Roll Length",
+        "value": "25 m",
+        "standard": ""
+      },
+      {
+        "property": "Hand Tearable",
+        "value": "Yes (bi-directional straight hand\ntear)",
+        "standard": ""
+      },
+      {
+        "property": "Residue Removal",
+        "value": "Clean\nresidue-free removal on recommended surfaces",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "YouRippa Protection Tape 48mm",
+        "size_or_rating": "48 mm x 25 m",
+        "pack": "Roll"
+      }
+    ],
+    "fire": "Standard construction trade accessory rating; low\nhazard",
+    "compliance": "Trade jobsite surface protection standard",
+    "sustainability": "Solvent-free natural rubber adhesive formulation",
+    "install": [
+      "Ensure floor protection sheets, concrete, or finishes are dry and free of\nloose grit and dust",
+      "Lay out floor protection boards, hardboard, or concrete\ncuring blankets with tightly butted edges",
+      "Tear YouRippa tape cleanly by hand\nacross the roll to the required length",
+      "Centre the tape directly over the seam\nbetween adjacent protection sheets",
+      "Press down firmly along the tape line\nusing hand pressure or a squeegee",
+      "Ensure all edges are flat to eliminate\ntripping hazards from foot traffic",
+      "Peel tape cleanly away upon project\nhandover without leaving sticky residue"
+    ],
+    "selection_checklist": [
+      "Confirm\napplication is temporary floor surface protection or concrete curing blanket\nsealing",
+      "Verify substrate requires clean, residue-free peel-off upon project\ncompletion",
+      "Calculate total linear metres of board joints and perimeter\nperimeter masking",
+      "Ensure surfaces are dry and dust-free before tape\napplication"
+    ],
+    "accessories": [
+      "Floor protection boards (corflute /\nhardboard)",
+      "Concrete curing blankets",
+      "Plastic application squeegee"
+    ],
+    "limitations": [
+      "Temporary protection tape; not designed for permanent building\nenvelope weather-sealing",
+      "Do not leave on sensitive porous timber finishes\nbeyond recommended removal period",
+      "Not a vapour-permeable building wrap\njoining tape"
+    ],
+    "warranty": "Backed by Proctor Group Australia product\nwarranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "YouRippa Protect Tape",
+      "YouRippa Curing Tape",
+      "proctor protection tape",
+      "floor protection tape",
+      "clean removal cloth tape",
+      "residue free curing tape",
+      "hand tearable floor\ntape",
+      "corflute joining tape",
+      "concrete protection tape"
+    ],
+    "problem_keywords": [
+      "sticky residue left on finished timber floors",
+      "tape\nlifting under trade foot traffic",
+      "slow floor protection board joining",
+      "scuffing on tiles during construction",
+      "sealing concrete curing blankets"
+    ],
+    "placement": [
+      "floor",
+      "underfloor",
+      "internal wall"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "budget"
+    ],
+    "use_cases": [
+      "Joining and sealing temporary floor\nprotection boards (corflute or hardboard) over finished tiles, timber, and\npolished concrete",
+      "Securing polyethylene curing blankets and protective films\nover newly poured concrete slabs",
+      "Temporary surface masking and protection of\naluminium door thresholds and window sills during trade works"
+    ],
+    "not_for": [
+      "Permanent external wall wrap or roof underlay lap sealing",
+      "Structural\nmechanical load bearing",
+      "Exhaust flues or high-temperature pipes"
+    ],
+    "rag_summary": "Proctor YouRippa Protect Tape (Heavy Duty Curing & Protection\nTape) is an embossed polyethylene cloth tape coated with a natural rubber-based\nadhesive, engineered specifically for temporary jobsite surface protection.\nHand-tearable in both directions without cutting tools, it securely joins\ncorflute, cardboard, hardboard, and concrete curing blankets under heavy trade\nfoot traffic. It removes cleanly without leaving adhesive residue or damaging\nsensitive finished surfaces such as timber, tiles, polished stone, and cured\nconcrete."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

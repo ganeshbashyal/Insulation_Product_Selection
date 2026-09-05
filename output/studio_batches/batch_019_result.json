@@ -1,0 +1,561 @@
+
+[ { "family_id": "MISC_RHINO_BREATHABLE_MEMBRANE", "tds_url":
+"https://rhinofoil.com.au/products/rhino-wrap-breather/", "sds_url": "",
+"description": "Rhino Wrap Breather is a Class 4 vapour permeable, Light Duty
+flexible building membrane engineered for external walls. Manufactured by
+laminating a microporous film between two layers of spunbonded non-woven
+polyolefin, it allows internal water vapour to escape while acting as an
+effective barrier to liquid water, draughts, and dust. It is designed to reduce
+the risk of interstitial condensation in residential and commercial timber and
+steel-framed wall assemblies.", "features": [ "Class 4 vapour permeable allowing
+water vapour to diffuse outward", "Triple-layer spunbonded polyolefin and
+microporous film laminate", "Effective water barrier resisting liquid water
+penetration", "Air barrier reduces draughts and convective heat loss", "Light
+Duty mechanical classification to AS/NZS 4200.1", "Resistant to mould and
+bacterial degradation", "Suitable for timber and steel framed wall
+construction", "Non-reflective surface eliminates installer glare on site", "Low
+Flammability Index compliant with AS 1530.2" ], "applications": [ "wall",
+"external wall" ], "technical": [ { "property": "Duty Classification", "value":
+"Light Duty", "standard": "AS/NZS 4200.1:2017" }, { "property": "Vapour
+Control", "value": "Class 4 Vapour Permeable", "standard": "AS/NZS 4200.1:2017"
+}, { "property": "Water Control", "value": "Water Barrier", "standard":
+"AS/NZS 4201.4" }, { "property": "Air Control", "value": "Air Barrier",
+"standard": "AS/NZS 4200.1:2017" }, { "property": "Flammability Index", "value":
+"≤ 5 (Low)", "standard": "AS 1530.2" }, { "property": "Roll Dimensions",
+"value": "1500 mm x 30 m (45 m²) / 1500 mm x 50 m (75 m²)", "standard": "" }, {
+"property": "Nominal Thickness", "value": "0.5 mm", "standard": "" } ], "range":
+[ { "variant": "Rhino Wrap Breather 30m", "size_or_rating": "1500 mm x 30 m (45
+m²)", "pack": "Roll" }, { "variant": "Rhino Wrap Breather 50m",
+"size_or_rating": "1500 mm x 50 m (75 m²)", "pack": "Roll" } ], "fire":
+"Flammability Index ≤ 5 to AS 1530.2; Suitable for external walls in
+bushfire-prone areas up to BAL-40 to AS 3959", "compliance":
+"AS/NZS 4200.1:2017, AS/NZS 4200.2:2017, AS 1530.2, AS 3959, NCC 2022 Volume One
+and Two", "sustainability": "100% recyclable polyolefin materials; zero ODP;
+non-toxic", "install": [ "Install horizontally on the outer face of timber or
+steel wall studs starting from the bottom plate", "Fasten with broad-headed
+galvanised clouts or staples at maximum 300mm centres", "Ensure upper runs
+overlap lower runs by at least 150mm to shed water downward", "Overlap vertical
+joins by minimum 150mm over a stud line", "Tape all horizontal and vertical
+joins using approved vapour-permeable acrylic cloth tape", "Seal around window
+and door openings and all service penetrations", "Provide a ventilated drainage
+cavity between the membrane and exterior cladding" ], "selection_checklist": [
+"Verify climate zone requires a Class 4 vapour-permeable wall wrap", "Confirm
+external cladding type requires a drained cavity", "Calculate total wall area
+allowing minimum 150mm overlaps", "Ensure compatible cloth or acrylic joining
+tape is specified", "Check installation exposure window prior to cladding" ],
+"accessories": [ "Vapour-permeable cloth tape", "Galvanised clouts / staples",
+"Sill and window flashing tape" ], "limitations": [ "Not designed for roof
+sarking applications", "Must not be left exposed to direct sunlight beyond
+manufacturer UV limits", "Ensure cladding provides an unobstructed drainage
+cavity" ], "warranty": "Backed by manufacturer product warranty", "found": true,
+"search_keywords": [ "Rhino Breathable Membrane", "Rhino Wrap Breather",
+"Class 4 breathable wrap", "vapour permeable wall wrap", "Rhino wall wrap",
+"breathable building paper", "Rhino wrap 1500mm", "timber frame breathable
+wrap", "house wrap breathable" ], "problem_keywords": [ "interstitial
+condensation in wall frame", "mould in wall cavity", "draughts through brick
+veneer", "moisture trapped behind cladding", "weatherproofing timber studs" ],
+"placement": [ "wall", "external wall" ], "priority_fit": [ "condensation",
+"easy_install", "fire" ], "use_cases": [ "Vapour-permeable wall wrap behind
+residential brick veneer, timber weatherboards, and fibre cement in climate
+zones 4 to 8", "Air and moisture barrier over timber and steel wall framing to
+assist with blower-door airtightness compliance", "Weather barrier wrap behind
+lightweight composite external cladding" ], "not_for": [ "Roof sarking
+applications", "Direct exposure without outer cladding", "Subfloor soil damp
+proofing" ], "rag_summary": "Rhino Breathable Membrane (Rhino Wrap Breather) is
+a Class 4 vapour-permeable, Light Duty pliable building membrane manufactured
+from non-woven spunbonded polyolefin with a microporous core. Designed for
+timber and steel-framed external walls, it allows interior moisture vapour to
+diffuse freely while acting as a barrier against wind-driven rain, dust, and
+draughts. Compliant with AS/NZS 4200.1:2017 and possessing a Flammability Index
+≤ 5 (BAL-40 suitable), it mitigates condensation and mould in residential and
+commercial wall assemblies." }, { "family_id": "MISC_RHINO_WRAP_BREATHER",
+"tds_url": "https://rhinofoil.com.au/products/rhino-wrap-breather/", "sds_url":
+"", "description": "Rhino Wrap Breather is a micro-perforated or permeable
+reflective foil laminate engineered for external wall and building applications.
+Combining high-tensile polypropylene woven scrim with a pure aluminium
+reflective surface, it reflects radiant heat while micro-perforations permit
+moisture vapour diffusion. It serves as a weather barrier and radiant heat
+reflector across framed external walls in warm and temperate Australian climate
+zones.", "features": [ "Reflective aluminium foil surface reflecting up to 95%
+of radiant heat", "Woven polypropylene scrim delivers high tear and puncture
+resistance", "Breather perforations allow controlled moisture vapour diffusion",
+"Functions as a weather barrier against wind-driven rain and dust", "Tough
+Medium Duty classification withstands wind loads on site", "Resistant to
+delamination, shrinkage, and moisture degradation", "Low Flammability Index
+compliant with AS 1530.2", "Suitable for bushfire-prone areas up to BAL-40 to
+AS 3959" ], "applications": [ "wall", "external wall", "shed" ], "technical": [
+{ "property": "Duty Classification", "value": "Medium Duty", "standard":
+"AS/NZS 4200.1:2017" }, { "property": "Vapour Permeance", "value": "Perforated
+Breather (vapour permeable classification)", "standard": "AS/NZS 4200.1:2017" },
+{ "property": "Water Control", "value": "Water Barrier", "standard":
+"AS/NZS 4201.4" }, { "property": "Emittance", "value": "0.03 - 0.05 (reflective
+face)", "standard": "AS/NZS 4201.5" }, { "property": "Flammability Index",
+"value": "≤ 5 (Low)", "standard": "AS 1530.2" }, { "property": "Roll
+Dimensions", "value": "1350 mm / 1500 mm x 30 m / 60 m", "standard": "" } ],
+"range": [ { "variant": "Rhino Wrap Breather Foil 30m", "size_or_rating": "1350
+mm x 30 m (40.5 m²)", "pack": "Roll" }, { "variant": "Rhino Wrap Breather
+Foil 60m", "size_or_rating": "1350 mm x 60 m (81 m²)", "pack": "Roll" } ],
+"fire": "Flammability Index ≤ 5 to AS 1530.2; Suitable for external walls in
+bushfire-prone areas up to BAL-40 under AS 3959", "compliance":
+"AS/NZS 4200.1:2017, AS/NZS 4200.2:2017, AS 1530.2, AS 3959, NCC Volume One and
+Two", "sustainability": "Recyclable polymer and aluminium materials; zero ODP;
+non-toxic", "install": [ "Install horizontally on external wall studs starting
+from the bottom plate", "Fasten with broad-headed galvanised clouts or staples
+at maximum 300mm centres", "Ensure upper sheets overlap lower sheets by at
+least 150mm to shed water", "Maintain a minimum 20mm still air cavity adjacent
+to the reflective face to achieve thermal R-values", "Tape all laps and
+penetrations with reinforced aluminium foil tape", "Seal neatly around window
+frames, door openings, and service penetrations", "Install external cladding
+over a drained cavity" ], "selection_checklist": [ "Confirm wall assembly allows
+for a minimum 20mm reflective airspace", "Verify climate zone permits
+micro-perforated breather foil (warm to temperate zones)", "Calculate roll
+requirements based on wall area allowing 150mm overlaps", "Order matching
+reinforced aluminium foil joining tape" ], "accessories": [ "Reinforced
+aluminium foil tape", "Galvanised clouts / staples", "Wall battens / cavity
+spacers" ], "limitations": [ "Requires an adjacent sealed air space of at
+least 20mm to deliver thermal R-value", "Not recommended for cold climate zones
+requiring non-perforated Class 4 spunbond wraps", "Do not use as direct roof
+sarking without appropriate fall and drainage" ], "warranty": "Backed by
+manufacturer product warranty", "found": true, "search_keywords": [ "Rhino Wrap
+Breather", "Rhino foil breather", "perforated reflective foil", "Rhino wall wrap
+breather", "woven foil breather", "reflective wall wrap", "medium duty breather
+foil", "Rhino building foil" ], "problem_keywords": [ "radiant heat in external
+walls", "wall wrap tearing in wind", "moisture build-up behind foil wrap",
+"drafty brick veneer walls", "hot cavity walls in summer" ], "placement": [
+"wall", "external wall", "shed" ], "priority_fit": [ "thermal", "condensation",
+"easy_install" ], "use_cases": [ "Reflective thermal wall wrap on residential
+brick veneer in warm and temperate Australian climate zones", "Tear-resistant
+reflective wrap on timber and steel framed sheds and domestic garages", "Radiant
+barrier behind lightweight external cladding with a ventilated airspace" ],
+"not_for": [ "Cold climate zones (Zones 6 to 8) requiring Class 4 non-woven
+permeable membranes", "Direct floor traffic surfaces", "Subterranean
+waterproofing" ], "rag_summary": "Misc Rhino Wrap Breather is a Medium Duty
+reflective foil wall sarking manufactured from high-tensile woven polypropylene
+laminated to pure aluminium foil with micro-perforations. Designed for external
+framed walls, it reflects up to 95% of radiant heat across an adjacent air
+cavity while allowing moisture vapour to breathe outward. Complying with
+AS/NZS 4200.1:2017 and possessing a Flammability Index ≤ 5 (BAL-40 suitable), it
+delivers tear-resistant weather protection and thermal reflectance for
+residential and shed construction." }, { "family_id": "MISC_TAPE_METALISED",
+"tds_url": "", "sds_url": "", "description": "", "features": [], "applications":
+[], "technical": [], "range": [], "fire": "", "compliance": "",
+"sustainability": "", "install": [], "selection_checklist": [], "accessories":
+[], "limitations": [], "warranty": "", "found": false, "search_keywords": [
+"metalised tape", "metalised foil tape", "foil tape", "duct tape metalised",
+"sarking tape", "reflective insulation tape", "polypropylene metalised tape",
+"insulation joining tape" ], "problem_keywords": [ "unsealed insulation foil
+joins", "air leakage through sarking seams", "moisture ingress at membrane
+overlaps", "loose foil insulation joins", "drafts through roof sarking" ],
+"placement": [ "roof", "roofline", "wall", "external wall", "internal wall",
+"duct", "shed" ], "priority_fit": [ "easy_install", "condensation", "thermal" ],
+"use_cases": [ "Sealing overlapping laps of reflective foil building wraps and
+roof sarking", "Taping seams and joints on foil-faced glasswool blankets and
+HVAC duct wraps", "Repairing tears and punctures in aluminium foil building
+membranes" ], "not_for": [ "Structural mechanical load bearing",
+"High-temperature flue pipes exceeding 120°C", "Direct permanent water
+immersion" ], "rag_summary": "Misc Tape Metalised represents metalised
+polypropylene or aluminium foil pressure-sensitive tapes widely used in
+Australian construction for joining and sealing reflective insulation, roof
+sarking, and ductwork. Coated with aggressive acrylic or synthetic rubber
+adhesives, these tapes create continuous moisture-tight and airtight seals
+across membrane laps and penetrations. By preventing convective thermal bypass
+and moisture ingress, they maintain system R-values and vapour barrier integrity
+across roofs, walls, and HVAC systems." }, { "family_id": "MISC_TENSORGRIP",
+"tds_url": "https://tensorglobal.com/", "sds_url": "", "description":
+"TensorGrip is an advanced range of industrial canister and aerosol contact
+adhesive systems engineered by Quin Global for bonding insulation, foams,
+composite panels, and building materials. Designed for high-speed spray
+application, TensorGrip adhesives deliver rapid tack, high green strength, and
+exceptional heat resistance across wood, metal, concrete, and plastic
+substrates. The canister delivery system eliminates the need for external
+compressors and reduces application time compared to traditional wet-applied
+glues.", "features": [ "High-speed canister spray delivery system with zero
+setup time", "Rapid flash-off and instant high green tack for immediate
+bonding", "High heat resistance withstanding extreme Australian cavity
+temperatures", "Strong adhesion to concrete, brick, plywood, metal, and
+insulation cores", "Low VOC and non-chlorinated formulation options available",
+"Even spray pattern minimizes adhesive telegraphing on thin facings", "Portable,
+pressurized canisters eliminate compressor maintenance", "High coverage
+efficiency reducing cost per square meter" ], "applications": [ "wall",
+"internal wall", "external wall", "ceiling", "floor", "duct" ], "technical": [ {
+"property": "Adhesive Type", "value": "Synthetic polymer contact adhesive in
+pressurized canister / aerosol", "standard": "" }, { "property": "Packaging
+Formats", "value": "500 ml aerosol, 22 L canister (17 kg), 108 L canister",
+"standard": "" }, { "property": "Flash-Off Time", "value": "1 - 3 minutes
+(depending on temperature and humidity)", "standard": "" }, { "property": "Open
+Time", "value": "Up to 30 - 60 minutes", "standard": "" }, { "property":
+"Temperature Resistance", "value": "Up to 105°C - 120°C (depending on
+formulation)", "standard": "" }, { "property": "Coverage", "value": "Approx. 150
+m² - 230 m² per 22L canister", "standard": "" } ], "range": [ { "variant":
+"TensorGrip 500ml Aerosol", "size_or_rating": "500 ml can", "pack": "Can" }, {
+"variant": "TensorGrip 22L Canister", "size_or_rating": "22 Litre canister (17
+kg)", "pack": "Canister" } ], "fire": "High heat resistance up to 120°C; low
+flammability propellant options available", "compliance": "Meets Australian
+manufacturing and workplace low-VOC standards", "sustainability": "Low VOC
+formulations; non-chlorinated options; zero ODP", "install": [ "Ensure both
+bonding surfaces are clean, dry, and free of grease, dust, and contaminants",
+"Connect spray hose and gun securely to canister and open valve completely",
+"Hold spray gun 100mm to 200mm from surface at 90 degrees", "Apply an even,
+uniform coat of adhesive achieving 80% to 100% surface coverage on both
+substrates", "Allow adhesive to tack off for 1 to 3 minutes until dry to touch
+with no transfer to knuckles", "Align materials accurately and press firmly
+together", "Apply uniform pressure across the entire bond area using a hand-held
+pressure roller" ], "selection_checklist": [ "Confirm material compatibility
+(insulation foam, polystyrene, fabric, or metal)", "Select canister size (500ml
+for spot repairs; 22L for commercial installation)", "Ensure hose and spray gun
+are available for canister use", "Check required heat resistance for target
+environment" ], "accessories": [ "TensorGrip flexible rubber hose", "TensorGrip
+professional spray gun and spray tips", "Pressure roller" ], "limitations": [
+"Ensure formulation is polystyrene-safe if bonding EPS or XPS boards", "Do not
+apply to wet, greasy, or frozen surfaces", "Requires adequate ventilation during
+application" ], "warranty": "Backed by Quin Global manufacturer product
+warranty", "found": true, "search_keywords": [ "TensorGrip", "TensorGrip
+adhesive", "canister contact adhesive", "spray contact adhesive", "insulation
+spray glue", "Quin Global TensorGrip", "TensorGrip 22L", "fast tack insulation
+adhesive" ], "problem_keywords": [ "slow insulation gluing with rollers",
+"adhesive delamination under heat", "heavy compressor setup on site", "bonding
+insulation to concrete or steel", "contact glue telegraphing through fabric" ],
+"placement": [ "wall", "internal wall", "external wall", "ceiling", "floor",
+"duct" ], "priority_fit": [ "easy_install", "thermal" ], "use_cases": [ "Bonding
+acoustic insulation batts, acoustic fabrics, and foam panels to interior walls",
+"Securing thermal insulation boards to concrete, timber, and metal substrates",
+"Laminating composite panels and vapor barriers in offsite modular construction"
+], "not_for": [ "Direct structural load-bearing timber joints", "Applications
+exceeding 120°C", "Submerged underwater bonding" ], "rag_summary": "Misc
+TensorGrip (manufactured by Quin Global) is a portable canister spray contact
+adhesive system designed for bonding insulation, acoustic foam, fabrics, and
+composite building panels. Offering fast flash-off times, immediate high green
+strength, and heat resistance up to 120°C, it eliminates the need for mechanical
+compressors and messy manual rolling on site. Available in 500ml aerosols
+and 22L canisters with low-VOC formulations, it delivers rapid, durable bonding
+across concrete, metal, timber, and insulation substrates." }, { "family_id":
+"MISC_TENSORGRIP_H", "tds_url": "https://tensorglobal.com/", "sds_url": "",
+"description": "TensorGrip H-Series comprises high-performance industrial spray
+adhesives engineered specifically for building envelope, acoustic, and HVAC
+insulation bonding. Designed with high heat resistance and rapid tack
+properties, H-Series adhesives provide permanent, high-strength bonds between
+insulation batts, rigid boards, foil facings, and metal ductwork or concrete
+walls. Available in portable pressurized canisters, they deliver clean, uniform
+spray application that accelerates jobsite productivity.", "features": [
+"Engineered specifically for HVAC, construction, and insulation installation",
+"High heat resistance withstanding extreme commercial plenum temperatures",
+"Fast drying with aggressive immediate tack and high bond strength", "Excellent
+adhesion to sheet metal, concrete, timber, and fiberglass", "Portable canister
+system eliminates heavy compressors and power leads", "Controlled spray pattern
+prevents overspray and messy dripping", "Formulated for high coverage and low
+soaking into porous insulation cores", "Low VOC and non-chlorinated options
+available" ], "applications": [ "duct", "wall", "internal wall", "ceiling",
+"pipe" ], "technical": [ { "property": "Adhesive Type", "value": "Synthetic
+rubber / polymer contact adhesive (canister spray)", "standard": "" }, {
+"property": "Packaging Formats", "value": "500 ml aerosol, 22 L canister (17
+kg), 108 L canister", "standard": "" }, { "property": "Drying Time", "value": "1
+- 3 minutes", "standard": "" }, { "property": "Temperature Resistance", "value":
+"Up to 105°C - 115°C", "standard": "" }, { "property": "Coverage", "value":
+"Approx. 150 m² - 200 m² per 22L canister", "standard": "" } ], "range": [ {
+"variant": "TensorGrip H-Series 500ml Aerosol", "size_or_rating": "500 ml
+aerosol can", "pack": "Can" }, { "variant": "TensorGrip H-Series 22L Canister",
+"size_or_rating": "22 Litre canister (17 kg)", "pack": "Canister" } ], "fire":
+"High temperature resistant up to 115°C; complies with standard HVAC duct lining
+fire requirements", "compliance": "AS 4254 ductwork installation compliance when
+paired with approved liners", "sustainability": "Low VOC emissions; zero ODP;
+non-chlorinated options", "install": [ "Clean sheet metal or substrate ensuring
+it is free of oils, dust, and moisture", "Attach hose and spray gun to the
+H-Series canister and open valve fully", "Hold spray gun 150mm to 200mm from the
+surface", "Apply an even coat of adhesive to both the metal duct and insulation
+backing", "Wait 1 to 3 minutes for adhesive to tack off until touch-dry", "Press
+insulation firmly onto the metal duct surface within open time", "Apply pressure
+across the entire surface using a hand roller to ensure complete bonding" ],
+"selection_checklist": [ "Verify substrate is sheet metal, masonry, or framing",
+"Check temperature resistance requirement of the mechanical duct or cavity",
+"Ensure application equipment (hose and gun) is on hand", "Confirm compliance
+with HVAC fire safety specifications" ], "accessories": [ "TensorGrip spray
+hose", "TensorGrip spray gun and nozzle", "Hand pressure roller" ],
+"limitations": [ "Not suitable for polystyrene foams unless specifically
+formulated for EPS", "Must be applied in well-ventilated areas", "Do not store
+or use below 10°C without warming canister" ], "warranty": "Backed by Quin
+Global manufacturer warranty", "found": true, "search_keywords": [ "TensorGrip
+H", "TensorGrip H series", "HVAC spray adhesive", "duct liner spray adhesive",
+"TensorGrip H10", "canister adhesive HVAC", "high heat spray glue", "insulation
+canister adhesive" ], "problem_keywords": [ "insulation falling off ductwork",
+"adhesive failure at high temperatures", "slow brush application of duct glue",
+"ductliner adhesive overspray", "securing fiberglass liner to metal duct" ],
+"placement": [ "duct", "wall", "internal wall", "ceiling", "pipe" ],
+"priority_fit": [ "easy_install", "thermal" ], "use_cases": [ "Securing internal
+glasswool or acoustic liners inside sheet metal HVAC ductwork", "Bonding
+insulation blankets and thermal wraps around commercial mechanical equipment",
+"Fastening acoustic panels and insulation to concrete and metal wall framing" ],
+"not_for": [ "Direct structural load bearing", "Unexpanded polystyrene unless
+verified solvent-safe", "Exhaust flue pipes above 115°C" ], "rag_summary": "Misc
+TensorGrip H (TensorGrip H-Series by Quin Global) is a specialized canister
+spray contact adhesive formulated for HVAC duct lining, acoustic insulation, and
+mechanical plant room installations. Designed to bond glasswool, rockwool, and
+acoustic foams to sheet metal, concrete, and timber, it offers fast tack, high
+heat resistance up to 115°C, and excellent bond strength. The self-contained
+pressurized canister eliminates manual brushing and compressed air lines,
+providing clean, rapid installation compliant with HVAC ductwork standards." },
+{ "family_id": "MISC_TENSORGRIPH", "tds_url": "https://tensorglobal.com/",
+"sds_url": "", "description": "TensorGrip H represents the HVAC and
+insulation-grade spray contact adhesive line manufactured by Quin Global under
+the TensorGrip brand. Engineered to provide fast, permanent bonding of acoustic
+duct liners, fiberglass insulation, and building materials to sheet metal and
+structural substrates, it features a self-contained portable canister system. It
+withstands continuous high service temperatures in commercial ventilation
+systems while significantly reducing labor time compared to traditional wet
+adhesives.", "features": [ "High-speed spray application from portable
+canisters", "High heat resistance suitable for commercial HVAC duct
+environments", "Immediate green strength and fast drying within 1 to 3 minutes",
+"Formulated for superior adhesion to sheet metal, steel, and concrete", "Clean,
+uniform web spray pattern minimizes overspray and wastage", "Zero compressor
+setup required on job sites", "Low VOC and non-chlorinated formulation options",
+"High square-meter coverage per canister" ], "applications": [ "duct", "wall",
+"internal wall", "ceiling", "pipe" ], "technical": [ { "property": "Adhesive
+System", "value": "Pressurized canister contact spray adhesive", "standard": ""
+}, { "property": "Packaging Formats", "value": "500 ml aerosol, 22 L canister
+(17 kg), 108 L canister", "standard": "" }, { "property": "Drying Time",
+"value": "1 - 3 minutes", "standard": "" }, { "property": "Temperature
+Resistance", "value": "Up to 105°C - 115°C", "standard": "" }, { "property":
+"Coverage", "value": "Approx. 150 m² - 200 m² per 22L canister", "standard": ""
+} ], "range": [ { "variant": "TensorGrip H 500ml Aerosol", "size_or_rating":
+"500 ml aerosol can", "pack": "Can" }, { "variant": "TensorGrip H 22L Canister",
+"size_or_rating": "22 Litre canister (17 kg)", "pack": "Canister" } ], "fire":
+"Heat resistant up to 115°C; complies with standard commercial HVAC duct fire
+requirements", "compliance": "Complies with AS 4254 for ductwork installation
+when used with approved liners", "sustainability": "Low VOC formulations; zero
+ODP; non-chlorinated options", "install": [ "Ensure sheet metal duct surface is
+thoroughly clean, dry, and free of oil or grease", "Connect hose and spray gun
+to the canister and fully open the valve", "Spray adhesive evenly over both the
+sheet metal and the insulation backing", "Allow 1 to 3 minutes for adhesive to
+become touch-dry with no transfer", "Position insulation carefully and press
+into place on the duct surface", "Consolidate bond by rolling firmly with a hand
+pressure roller across the entire surface" ], "selection_checklist": [ "Confirm
+substrate is sheet metal, steel, or concrete", "Check operating temperature of
+duct or plant room", "Verify hose and spray gun accessories are on site",
+"Ensure adequate ventilation during spray application" ], "accessories": [
+"TensorGrip spray hose", "TensorGrip spray gun and nozzle", "Pressure roller" ],
+"limitations": [ "Not recommended for standard EPS foam without verifying
+compatibility", "Ensure working area is well ventilated", "Canisters must not be
+stored below 10°C" ], "warranty": "Backed by Quin Global manufacturer warranty",
+"found": true, "search_keywords": [ "TensorGripH", "TensorGrip H", "HVAC spray
+glue", "canister adhesive", "duct liner adhesive", "spray glue for insulation",
+"sheet metal insulation adhesive" ], "problem_keywords": [ "duct insulation
+peeling off", "slow installation of duct liner", "messy brush on duct
+adhesives", "securing acoustic liner in AC ducts" ], "placement": [ "duct",
+"wall", "internal wall", "ceiling", "pipe" ], "priority_fit": [ "easy_install",
+"thermal" ], "use_cases": [ "Fast bonding of acoustic ductliner to internal
+sheet metal air conditioning ducts", "Adhering thermal glasswool blankets around
+mechanical equipment and pipe risers", "Securing acoustic insulation inside air
+handling units and plenums" ], "not_for": [ "Structural timber joint bonding",
+"Standard EPS foam boards without testing", "Flue exhaust pipes exceeding 115°C"
+], "rag_summary": "Misc TensorgripH (TensorGrip H-Series by Quin Global) is a
+portable canister spray contact adhesive formulated for HVAC duct lining,
+acoustic insulation, and mechanical plant room installations. Designed to bond
+glasswool, rockwool, and acoustic foams to sheet metal, concrete, and timber, it
+offers fast tack, high heat resistance up to 115°C, and excellent bond strength.
+The self-contained pressurized canister eliminates manual brushing and
+compressed air lines, providing clean, rapid installation compliant with HVAC
+ductwork standards." }, { "family_id": "MISC_WRAP", "tds_url": "", "sds_url":
+"", "description": "", "features": [], "applications": [], "technical": [],
+"range": [], "fire": "", "compliance": "", "sustainability": "", "install": [],
+"selection_checklist": [], "accessories": [], "limitations": [], "warranty": "",
+"found": false, "search_keywords": [ "building wrap", "house wrap", "wall wrap",
+"breathable wall wrap", "vapour permeable wrap", "sarking wrap", "weather
+barrier wrap", "pliable building membrane" ], "problem_keywords": [ "water leaks
+through brick veneer", "draughts in timber frame wall", "moisture build-up
+inside walls", "dust ingress into wall cavity", "protecting frame during
+construction" ], "placement": [ "wall", "external wall", "shed" ],
+"priority_fit": [ "condensation", "easy_install", "thermal" ], "use_cases": [
+"Weather barrier wrap over timber and steel wall framing prior to installing
+brick veneer or lightweight cladding", "Air and moisture barrier in residential
+home construction to reduce draughts and protect insulation", "Draught-proofing
+and secondary weather protection on shed and garage walls" ], "not_for": [ "Roof
+sarking without verification of roof duty rating", "Direct floor traffic
+surfaces", "Permanent exposure without cladding" ], "rag_summary": "Misc Wrap
+represents pliable building membranes and wall wraps utilized across Australian
+residential and commercial wall construction. Available as vapour-permeable
+(breathable) spunbonded membranes or reflective foil laminates, these products
+protect structural frames from wind-driven rain, dust, and draughts during and
+after construction. Compliant with AS/NZS 4200.1 and AS/NZS 4200.2 standards,
+they form a secondary weather barrier while managing condensation risk behind
+external claddings." }, { "family_id": "PAROC_INSULROCK_PARTY_WALL_BATT",
+"tds_url": "", "sds_url": "", "description": "", "features": [], "applications":
+[], "technical": [], "range": [], "fire": "", "compliance": "",
+"sustainability": "", "install": [], "selection_checklist": [], "accessories":
+[], "limitations": [], "warranty": "", "found": false, "search_keywords": [
+"Paroc InsulRock Party Wall Batt", "InsulRock Party Wall Batt", "InsulRock stone
+wool batt", "Paroc party wall batt", "rockwool party wall insulation", "fire
+party wall batt", "InsulRock acoustic batt" ], "problem_keywords": [ "fire
+spread through party wall", "inter-tenancy wall noise transmission", "townhouse
+separating wall fire rating", "meeting NCC party wall FRL", "acoustic privacy
+between duplex units" ], "placement": [ "wall", "internal wall", "between
+floors" ], "priority_fit": [ "fire", "acoustic", "thermal" ], "use_cases": [
+"Passive fire protection in Class 1 inter-tenancy separating walls between
+townhouses and duplexes", "Acoustic and fire cavity infill in multi-residential
+party wall systems", "Acoustic decoupling and fire-stopping in internal
+partition walls" ], "not_for": [ "Exposed external cladding", "Direct underfloor
+soil contact", "Direct roof weatherproofing" ], "rag_summary": "Paroc InsulRock
+Party Wall Batt represents high-density, non-combustible stone wool (rockwool)
+insulation batts engineered for fire and acoustic separation in inter-tenancy
+party walls. InsulRock (manufactured using Paroc volcanic rockwool technology
+and distributed in Australasia by Fletcher Insulation and regional partners)
+provides extreme resistance to shrinkage at temperatures over 1000°C. Meeting
+AS 1530.1 non-combustibility and tested for multi-residential FRL compliance, it
+controls airborne sound transmission and stops fire spread between adjoining
+dwellings." }, { "family_id": "PAROC_ROCKWOOL", "tds_url":
+"https://www.paroc.com/", "sds_url": "", "description": "Paroc Rockwool is a
+premium European-engineered stone wool insulation made from volcanic basalt
+rock, designed for superior thermal, acoustic, and passive fire protection
+across building and industrial applications. Non-combustible with an
+exceptionally high melting point exceeding 1000°C, Paroc stone wool does not
+shrink, melt, or produce toxic smoke during a fire, maintaining fire
+compartmentation. Distributed internationally and used across Australia in
+high-performance facades, roofs, and acoustic partitions, it is water repellent,
+vapour permeable, and dimensionally stable.", "features": [ "Manufactured from
+natural volcanic basalt stone", "Non-combustible with a melting point
+exceeding 1000°C", "Exceptional passive fire resistance preventing fire spread",
+"Outstanding acoustic sound absorption and vibration damping", "High thermal
+insulation performance with low thermal conductivity", "Dimensionally stable,
+will not sag, slump, or shrink over time", "Water-repellent and non-hygroscopic;
+resists moisture absorption", "Highly vapour permeable, allowing building
+structures to dry out", "Chemically inert and does not promote corrosion of
+metal framing", "Biosoluble fibers meeting international health and safety
+standards" ], "applications": [ "wall", "external wall", "internal wall",
+"ceiling", "roof", "floor", "pipe", "duct" ], "technical": [ { "property":
+"Material", "value": "Stone wool (rock mineral wool made from volcanic basalt)",
+"standard": "" }, { "property": "Thermal Conductivity", "value": "0.033 - 0.037
+W/m·K", "standard": "EN 12667 / ASTM C518" }, { "property": "Melting Point",
+"value": "> 1000°C", "standard": "DIN 4102-17" }, { "property":
+"Combustibility", "value": "Non-combustible (Euroclass A1 / AS 1530.1
+compliant)", "standard": "EN 13501-1 / AS 1530.1" }, { "property": "Density
+Range", "value": "30 kg/m³ to 150 kg/m³ (depending on product grade)",
+"standard": "" }, { "property": "Water Absorption", "value": "Short term: ≤ 1
+kg/m²; Long term: ≤ 3 kg/m²", "standard": "EN 1609 / EN 12087" }, { "property":
+"Water Vapour Resistance", "value": "µ = 1 (vapour permeable)", "standard":
+"EN 12086" } ], "range": [ { "variant": "Paroc General Building Slabs",
+"size_or_rating": "50mm - 100mm thickness x 600mm x 1200mm", "pack": "Pack /
+Pallet" }, { "variant": "Paroc Acoustic & Fire Batts", "size_or_rating": "High
+density fire batts", "pack": "Pack" } ], "fire": "Euroclass A1 non-combustible
+to EN 13501-1; Non-combustible to AS 1530.1; Melting point > 1000°C; FRLs up
+to 240 minutes in tested assemblies", "compliance": "EN 13162, AS 1530.1,
+AS 1530.4, CE marked, NCC compliant non-combustible material", "sustainability":
+"Natural volcanic rock; 100% recyclable; low embodied emissions; zero ODP;
+biosoluble fibers", "install": [ "Cut stone wool slabs or batts cleanly using a
+dedicated serrated insulation knife", "Friction-fit batts snugly into timber or
+steel stud bays, ensuring no voids along framing edges", "For external facades
+and rainscreens, mechanically secure slabs using approved insulation anchors
+with large washer heads", "Ensure adjacent slabs are tightly butted in a
+staggered brick-bond pattern to eliminate thermal bridging", "Maintain
+ventilation gaps where specified behind rainscreen cladding systems", "Wear
+gloves, goggles, and a dust mask during cutting and handling" ],
+"selection_checklist": [ "Confirm target application (fire-rated wall,
+rainscreen facade, acoustic partition, or industrial pipe)", "Verify density and
+thickness required to satisfy fire FRL and thermal R-value specifications",
+"Ensure non-combustible AS 1530.1 compliance is required by project engineer",
+"Order appropriate mechanical fasteners and washers" ], "accessories": [
+"Insulation serrated knife", "Mechanical insulation anchors and washers",
+"Fire-rated silicone/mastic sealant" ], "limitations": [ "Heavier than glasswool
+or polyester batts; ensure framing accounts for dead load", "Protect from
+continuous rain exposure during construction prior to building envelope
+sealing", "Wear appropriate personal protective equipment during handling" ],
+"warranty": "Backed by Paroc manufacturer product warranty", "found": true,
+"search_keywords": [ "Paroc Rockwool", "Paroc stone wool", "Paroc insulation",
+"volcanic rockwool", "Paroc fire slab", "non-combustible stone wool", "Paroc
+acoustic batts", "Paroc facade insulation", "1000 degree rockwool" ],
+"problem_keywords": [ "flammable insulation risks in high-rise buildings", "high
+temperature melting of insulation in fire", "acoustic noise transfer through
+commercial walls", "meeting non-combustible building code AS 1530.1", "thermal
+loss through commercial facade" ], "placement": [ "wall", "external wall",
+"internal wall", "ceiling", "roof", "floor", "pipe", "duct" ], "priority_fit": [
+"fire", "acoustic", "thermal", "sustainability" ], "use_cases": [
+"Non-combustible external wall and rainscreen facade insulation on multi-storey
+commercial towers", "Passive fire containment and sound insulation in party
+walls, drywall partitions, and service shafts", "High-temperature thermal and
+acoustic insulation on industrial pipework, boilers, and plant rooms" ],
+"not_for": [ "Direct unshielded exposure to permanent outdoor weather",
+"Underground soil contact without waterproofing", "Applications requiring
+lightweight compressible rolls" ], "rag_summary": "Paroc Rockwool is a premium
+non-combustible stone wool insulation manufactured from volcanic basalt rock,
+engineered for fire containment, acoustic damping, and thermal performance.
+Featuring a melting point exceeding 1000°C and Euroclass A1 / AS 1530.1
+non-combustibility, it maintains structural integrity under fire conditions
+without shrinking or emitting toxic smoke. Water-repellent, vapour-permeable,
+and dimensionally stable, it delivers high-performance acoustic and thermal
+protection across commercial facades, partition walls, roofs, and industrial
+applications." }, { "family_id": "POLYAIR_REFLECTIVE", "tds_url":
+"https://polyair.com.au/", "sds_url": "", "description": "Polyair Reflective is
+an Australian-manufactured thermo-reflective insulation range engineered with an
+advanced closed-cell polyethylene foam core laminated between pure aluminium
+foil facings. Designed for roofs, walls, and sheds in residential and commercial
+buildings, it provides a 3-in-1 thermal insulation, thermal break, and vapour
+barrier. By reflecting up to 97% of radiant heat and delivering an in-situ
+thermal break, it significantly reduces summer heat gain and prevents winter
+heat loss.", "features": [ "3-in-1 performance: thermal insulation, thermal
+break, and vapour barrier", "Pure aluminium reflective foil facings reflect up
+to 97% of radiant heat", "Cross-linked closed-cell polyethylene foam core
+prevents moisture absorption", "Provides compliant thermal break on steel-framed
+roofs and walls", "Anti-glare coating on one face for installer safety in bright
+sunlight", "Non-toxic, non-allergenic, and fiber-free with zero itch during
+handling", "Advanced foam cell structure resists delamination and moisture
+degradation", "Low Flammability Index compliant with AS 1530.2", "Suitable for
+bushfire-prone areas up to BAL-40 under AS 3959", "Proudly Australian made for
+local climate conditions" ], "applications": [ "roof", "roofline", "wall",
+"external wall", "shed", "ceiling" ], "technical": [ { "property": "Material",
+"value": "Cross-linked closed-cell polyethylene foam core laminated with pure
+aluminium foil", "standard": "" }, { "property": "Thickness Options", "value":
+"4 mm, 7 mm, 8 mm", "standard": "" }, { "property": "Reflectance", "value": "97%
+radiant heat reflection (emittance 0.03)", "standard": "AS/NZS 4201.5" }, {
+"property": "Vapour Barrier Classification", "value": "Class 1 / Class 2 Vapour
+Barrier (< 0.02 µg/N·s)", "standard": "ASTM E96" }, { "property": "Water
+Control", "value": "Water Barrier", "standard": "AS/NZS 4201.4" }, { "property":
+"Thermal Break Performance", "value": "Achieves R0.20+ thermal break on steel
+framing", "standard": "NCC 2022" }, { "property": "Roll Dimensions", "value":
+"1350 mm width x 22.25 m length (30 m² per roll)", "standard": "" }, {
+"property": "Flammability Index", "value": "≤ 5 (Low)", "standard": "AS 1530.2"
+} ], "range": [ { "variant": "Polyair Performa 4.0", "size_or_rating": "4.0 mm
+x 1350 mm x 22.25 m (30 m²)", "pack": "Roll" }, { "variant": "Polyair
+Performa 7.0 / 8.0", "size_or_rating": "7.0-8.0 mm x 1350 mm x 22.25 m (30 m²)",
+"pack": "Roll" }, { "variant": "Polyair Shed", "size_or_rating": "1350 mm
+x 22.25 m (30 m²)", "pack": "Roll" } ], "fire": "Flammability Index ≤ 5 to
+AS 1530.2; Suitable for roofs in bushfire BAL-12.5 to BAL-40 to AS 3959",
+"compliance": "AS/NZS 4859.1, AS/NZS 4200.1, AS 1530.2, AS 3959, NCC 2022 Volume
+One and Two", "sustainability": "Fiber-free; non-allergenic; zero ODP; low VOC
+emissions; 100% recyclable polymers", "install": [ "Roll out Polyair over roof
+purlins or wall framing with anti-glare face oriented outward toward the
+installer", "Ensure roll edges overlap by a minimum of 50mm (or butt join if
+fully taped with 72mm foil tape)", "Secure mechanically to steel or timber
+framing using wafer-head self-drilling screws with washers", "Maintain a
+minimum 20mm still air cavity adjacent to the reflective face to achieve rated
+Total R-values", "Tape all seams, joins, and penetrations with 72mm reinforced
+aluminium foil tape to form a continuous vapour barrier", "At roof eaves, allow
+membrane to drain freely into gutters without ponding" ], "selection_checklist":
+[ "Confirm required thermal break value (7-8mm thickness provides R0.20+ on
+steel framing)", "Verify minimum 20mm air space can be maintained in roof or
+wall cavity", "Calculate roll quantities (each roll covers 30m² allowing for
+overlaps)", "Order matching 72mm reinforced aluminium joining tape" ],
+"accessories": [ "Reinforced aluminium foil tape 72mm", "Wafer-head
+self-drilling screws", "Fixing washers" ], "limitations": [ "Requires a
+minimum 20mm sealed airspace adjacent to foil face to achieve rated Total
+R-value", "Do not allow direct contact with wet concrete or alkaline mortar to
+prevent foil corrosion", "Not designed as a permanent foot-traffic surface or
+exposed outdoor weather membrane" ], "warranty": "Backed by Polyair manufacturer
+warranty", "found": true, "search_keywords": [ "Polyair Reflective", "Polyair
+insulation", "Polyair Performa", "Polyair 7.0", "Polyair 8.0", "foam cell
+reflective insulation", "thermal break foam foil", "Polyair shed insulation",
+"reflective foam insulation" ], "problem_keywords": [ "radiant heat in tin
+shed", "thermal bridging on steel framing studs", "condensation dripping from
+metal roof", "hot metal roof space in summer", "sweating steel portal frames" ],
+"placement": [ "roof", "roofline", "wall", "external wall", "shed", "ceiling" ],
+"priority_fit": [ "thermal", "condensation", "easy_install", "fire" ],
+"use_cases": [ "Installing over steel roof purlins and wall girts to provide a
+compliant R0.20 thermal break in metal buildings", "Radiant heat reflection and
+condensation control in domestic garages, workshops, and rural steel sheds",
+"Thermal barrier insulation under corrugated metal roofs in residential homes"
+], "not_for": [ "Cold climate wall cavities requiring Class 4 vapour-permeable
+wraps", "Underfloor crawl space ground contact", "Continuous water immersion" ],
+"rag_summary": "Polyair Reflective (Polyair Performa) is an
+Australian-made 3-in-1 reflective insulation, thermal break, and Class 2 vapour
+barrier manufactured from closed-cell polyethylene foam laminated between pure
+aluminium foil facings. Reflecting up to 97% of radiant heat and providing a
+certified R0.20+ thermal break on steel framing, it stops condensation and
+reduces solar heat gain across roofs, walls, and sheds. Tested to AS 1530.2 with
+a low Flammability Index (≤ 5, BAL-40 compliant), it provides a durable,
+fiber-free thermal solution." } ]

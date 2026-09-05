@@ -1,0 +1,64 @@
+{
+  "family_id": "HIGGINS_INSULATION_HIGGINS_HBL",
+  "family_name": "Higgins Insulation Higgins HBL",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "gemini_not_found",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "",
+    "features": "",
+    "applications": "",
+    "technical": "",
+    "range": "",
+    "fire": "",
+    "compliance": "",
+    "sustainability": "",
+    "install": "",
+    "selection_checklist": "",
+    "accessories": "",
+    "limitations": "",
+    "warranty": ""
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Higgins HBL",
+      "Higgins Insulation HBL",
+      "Higgins block blanket",
+      "Higgins building blanket",
+      "Higgins polyester roll",
+      "Higgins insulation roll HBL"
+    ],
+    "problem_keywords": [
+      "thermal loss through\nwalls and ceilings",
+      "acoustic noise transfer in buildings",
+      "uninsulated wall\ncavity",
+      "thermal blanket roll for building"
+    ],
+    "placement": [
+      "ceiling",
+      "wall",
+      "internal wall",
+      "external wall",
+      "roof",
+      "floor"
+    ],
+    "priority_fit": [
+      "thermal",
+      "acoustic",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Bulk thermal and\nacoustic insulation roll installed in commercial or residential cavities",
+      "Blanket insulation over ceiling joists or behind wall framing"
+    ],
+    "not_for": [
+      "Exposed external cladding",
+      "Underfloor soil direct contact",
+      "High temperature\nboiler applications"
+    ],
+    "rag_summary": "Higgins Insulation Higgins HBL\nrepresents a bulk insulation blanket or roll product formerly identified in\ndistributor listings for Higgins Insulation. As no manufacturer technical data\nsheet is currently published by Higgins Insulation under the standalone HBL\nacronym, it corresponds to their commercial and residential polyester sound\nblankets and building blankets. When specified, these rolls provide thermal\nresistance and sound attenuation across cavity walls, roofs, and ceiling\nassemblies."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

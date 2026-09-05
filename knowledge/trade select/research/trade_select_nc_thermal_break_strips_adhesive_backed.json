@@ -1,0 +1,146 @@
+{
+  "family_id": "TRADE_SELECT_NC_THERMAL_BREAK_STRIPS_ADHESIVE_BACKED",
+  "family_name": "Trade Select NC Thermal Break Strips Adhesive backed",
+  "datasheet_pdf_url": "https://tradeselect.co/wp-content/uploads/",
+  "sds_url": "https://tradeselect.co/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Trade Select Non-combustible\nThermalBreak Strip Adhesive Backed is a high-performance thermal break strip\nequipped with an aggressive high-tack pressure-sensitive adhesive backing for\nrapid installation onto steel framing. Tested to AS 1530.1 and classified as Not\nDeemed Combustible, it delivers an in-situ R0.24 thermal break that exceeds NCC\nVolume One and Two requirements for commercial and residential steel-framed\nconstructions. Its peel-and-stick adhesive holds the strip firmly to steel studs\nor roof purlins in windy site conditions prior to cladding installation.",
+    "features": [
+      "High-tack self-adhesive backing with peel-off release liner for\nfast, one-person installation",
+      "Classified as Not Deemed Combustible when\ntested in accordance with AS 1530.1",
+      "Delivers in-situ R0.24 thermal break,\nexceeding the NCC R0.20 requirement",
+      "Designed for commercial and\nmulti-residential non-combustible steel frame construction",
+      "High compression\nresistance provides a firm, stable base for cladding screws",
+      "Adheres firmly to\nsteel studs, purlins, and building membranes on site",
+      "Termite, mould, and\nmildew resistant",
+      "Suitable for all Bushfire Attack Levels (BAL Low to BAL-FZ)\nunder AS 3959",
+      "Sized in convenient 1200mm lengths for easy handling"
+    ],
+    "applications": [
+      "wall",
+      "external wall",
+      "roof",
+      "roofline"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "Non-combustible, chemically stable\ncompression-resistant core with high-tack pressure-sensitive adhesive",
+        "standard": ""
+      },
+      {
+        "property": "Thermal Break (In-Situ)",
+        "value": "R0.24\n(exceeds NCC R0.20 mandate)",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Thickness",
+        "value": "10 mm",
+        "standard": ""
+      },
+      {
+        "property": "Width",
+        "value": "45 mm",
+        "standard": ""
+      },
+      {
+        "property": "Length",
+        "value": "1200 mm",
+        "standard": ""
+      },
+      {
+        "property": "Combustibility",
+        "value": "Not Deemed\nCombustible",
+        "standard": "AS 1530.1"
+      },
+      {
+        "property": "Adhesive Backing",
+        "value": "High-tack pressure-sensitive adhesive with release liner",
+        "standard": ""
+      },
+      {
+        "property": "Pack Coverage",
+        "value": "Pack of 50 strips (60 lineal\nmetres)",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Trade Select NC\nThermalBreak Strip Adhesive Backed 45mm x 1200mm",
+        "size_or_rating": "10 mm x 45\nmm x 1200 mm (RT 0.24)",
+        "pack": "Pack of 50 strips (60 lm)"
+      }
+    ],
+    "fire": "Tested to AS 1530.1 and classified as Not Deemed Combustible; Suitable for\nBAL-12.5 to BAL-FZ to AS 3959",
+    "compliance": "NCC 2019 / NCC 2022 Volume One\n(C1.9, C2D10, J4D3) and Volume Two (Part 3.7.1, H3D2, 13.2.2); AS 1530.1;\nAS/NZS 4859.1",
+    "sustainability": "Zero ODP; low VOC emissions; solvent-free\nadhesive; non-toxic",
+    "install": [
+      "Ensure steel stud flange or purlin surface\nis clean, dry, and free from oil, grease, or dust",
+      "Install pliable wall wrap\nor roof sarking over the steel framing in accordance with AS/NZS 4200.2",
+      "Peel\nback the protective release liner from the self-adhesive backing of the thermal\nbreak strip",
+      "Press the strip firmly along the steel stud or purlin face,\nensuring continuous adhesive contact",
+      "Butt consecutive 1200mm strips tightly\nend-to-end along the entire length of the framing member",
+      "Fasten exterior\ncladding, battens, or roofing directly through the strip into the steel frame"
+    ],
+    "selection_checklist": [
+      "Confirm requirement for self-adhesive\npeel-and-stick backing for faster installation",
+      "Verify project requires\nAS 1530.1 non-combustible compliance for steel frames",
+      "Measure total linear\nmeterage of framing to calculate pack requirement (60 lineal metres per pack)",
+      "Ensure cladding screws have sufficient length to account for the 10mm strip\nthickness"
+    ],
+    "accessories": [
+      "Trade Select VapourTech wall wraps",
+      "Extended-length self-drilling cladding screws"
+    ],
+    "limitations": [
+      "Non-structural spacer; cladding fasteners must penetrate through strip into\nsteel frame",
+      "Steel substrate must be clean and dry to ensure proper adhesive\ngrab",
+      "Cladding should be installed without prolonged delay to protect the\nassembly"
+    ],
+    "warranty": "15 Year Product Warranty backed by Ametalin"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Trade Select NC Thermal Break Adhesive Backed",
+      "self adhesive non-combustible thermal break",
+      "peel and stick thermal break\nstrip",
+      "Ametalin NC Thermal Break adhesive",
+      "AS 1530.1 adhesive thermal\nbreak",
+      "R0.2 adhesive thermal break strip",
+      "steel frame adhesive thermal\nstrip"
+    ],
+    "problem_keywords": [
+      "thermal break strips falling off steel studs in\nwind",
+      "thermal bridging on high rise steel facades",
+      "two-man installation\nneeded to hold thermal break",
+      "meeting NCC non-combustible thermal break\nrequirement",
+      "slow mechanical fixing of thermal break strips"
+    ],
+    "placement": [
+      "wall",
+      "external wall",
+      "roof",
+      "roofline"
+    ],
+    "priority_fit": [
+      "fire",
+      "thermal",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Fast peel-and-stick application of\nan AS 1530.1 non-combustible R0.24 thermal break to steel framing in high-rise\ncommercial facades",
+      "One-person installation of non-combustible thermal breaks\non steel roof purlins in windy site conditions",
+      "Thermal break isolation on\nBAL-FZ bushfire construction walls"
+    ],
+    "not_for": [
+      "Timber framing where\nstandard foam thermal breaks are sufficient",
+      "Direct floor traffic surfaces",
+      "Wet or oily steel surfaces without cleaning"
+    ],
+    "rag_summary": "Trade Select NC\nThermal Break Strips Adhesive Backed (by Ametalin) are 10mm x 45mm x 1200mm\nnon-combustible thermal break strips equipped with a peel-and-stick high-tack\nadhesive backing. Classified as Not Deemed Combustible under AS 1530.1 and\ndelivering an in-situ R0.24 thermal break, they allow fast, one-person\ninstallation onto steel studs and roof purlins without slipping or blowing away\nin wind. Fully compliant with NCC Volume One and Two requirements for\nnon-combustible construction and BAL-FZ bushfire zones, they provide an\nefficient, code-compliant thermal break."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

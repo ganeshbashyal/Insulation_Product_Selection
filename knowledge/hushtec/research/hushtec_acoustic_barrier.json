@@ -1,0 +1,149 @@
+{
+  "family_id": "HUSHTEC_ACOUSTIC_BARRIER",
+  "family_name": "Hushtec Acoustic Barrier",
+  "datasheet_pdf_url": "https://www.hushtecsolutions.com/product/performance-series/",
+  "sds_url": "",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Hushtec Acoustic Barriers (Performance Series & Premium Series)\nare high-performance modular outdoor and indoor noise control panels engineered\nto mitigate noise pollution on construction, demolition, civil infrastructure,\nand industrial worksites. Built with an advanced multi-layered acoustic\ncomposite core combining dense sound-blocking mass with sound-absorbing porous\nmedia, they achieve noise reductions of up to 43 dB. Equipped with heavy-duty\ntensioned brass eyelets and hook-and-loop Velcro joins, they attach rapidly to\ntemporary fencing, scaffolding, and hoarding structures.",
+    "features": [
+      "Multi-layered acoustic composite engineered for up to 43 dB sound reduction",
+      "Heavy-duty hook-and-loop Velcro overlap connections eliminate acoustic flanking\nleakage",
+      "Reinforced perimeter eyelets for fast attachment to temporary fencing\nand scaffolding",
+      "All-weather UV-resistant and waterproof exterior PVC/polymer\nouter facing",
+      "Dual-function noise attenuation: sound-blocking mass layer\ncombined with acoustic absorption",
+      "Contains dust, debris, and airborne\nparticulate spread on construction sites",
+      "Fully portable, reusable, and\ntransferable across multiple project sites",
+      "Self-extinguishing fire-rated\nconstruction compliant with worksite safety standards",
+      "Tested in accordance\nwith international acoustic transmission loss standards (ASTM / ISO)"
+    ],
+    "applications": [
+      "wall",
+      "external wall",
+      "shed"
+    ],
+    "technical": [
+      {
+        "property": "Acoustic Attenuation",
+        "value": "Up to 43 dB sound reduction\n(Performance: up to 34 dB; Premium: up to 43 dB)",
+        "standard": "ISO 10140 / ASTM\nE90"
+      },
+      {
+        "property": "Panel Dimensions (Standard)",
+        "value": "1300 mm width\nx 2000 mm height (or 2050 mm height)",
+        "standard": ""
+      },
+      {
+        "property": "Surface\nMass",
+        "value": "Approx. 2.5 kg/m² (Performance) to 7.0 kg/m² (Premium)",
+        "standard": ""
+      },
+      {
+        "property": "Connection System",
+        "value": "Heavy-duty\nperimeter Velcro overlap flaps and reinforced brass eyelets",
+        "standard": ""
+      },
+      {
+        "property": "Weather Resistance",
+        "value": "UV resistant, water resistant,\nrot-proof, operates from -40°C to +70°C",
+        "standard": ""
+      },
+      {
+        "property": "Fire\nPerformance",
+        "value": "Self-extinguishing fire-rated construction",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Hushtec Performance Series Panel",
+        "size_or_rating": "1300 mm x 2000 mm (up to 34 dB reduction)",
+        "pack": "Panel\n(Min. order 5)"
+      },
+      {
+        "variant": "Hushtec Premium Series Panel",
+        "size_or_rating": "1300 mm x 2000 mm (up to 43 dB reduction)",
+        "pack": "Panel"
+      },
+      {
+        "variant": "Hushtec Transparent Noise Barrier",
+        "size_or_rating": "Clear\nPVC mass-loaded barrier sheet",
+        "pack": "Roll / Panel"
+      }
+    ],
+    "fire": "Fire-retardant, self-extinguishing construction compliant with commercial\nconstruction site safety standards",
+    "compliance": "Tested to ISO 10140 / ASTM\nE90 acoustic transmission loss standards, AS/NZS worksite standards",
+    "sustainability": "Reusable multi-project lifespan; recyclable synthetic\npolymers; non-toxic",
+    "install": [
+      "Erect stable temporary fencing, scaffolding,\nor structural site hoarding",
+      "Position Hushtec panels vertically against the\nfence with acoustic absorbing side facing the noise source",
+      "Secure panels\nthrough reinforced perimeter eyelets using heavy-duty elastic bungees or zip\nties",
+      "Overlap adjacent panel edges and press the integrated Velcro sealing\nflaps firmly together",
+      "Ensure zero gaps exist at panel joins, corners, or\nground level to prevent acoustic flanking",
+      "Secure bottom eyelets close to the\nground to block sound escaping underneath"
+    ],
+    "selection_checklist": [
+      "Confirm\nnoise source decibel level and required reduction (Performance up to 34 dB vs\nPremium up to 43 dB)",
+      "Measure linear meterage and height of perimeter fencing\nor scaffolding",
+      "Verify fence structural capacity to support panel wind load\nand dead weight",
+      "Confirm connection accessories (elastic bungees, cable ties,\nor scaffold clamps)"
+    ],
+    "accessories": [
+      "Heavy-duty elastic bungee ties",
+      "UV-stabilized cable ties",
+      "Scaffold mounting hooks"
+    ],
+    "limitations": [
+      "Designed for temporary site fencing, scaffolding, and equipment enclosures; not\na permanent building wall batt",
+      "Temporary fencing must be adequately weighted\nwith counterweights to withstand wind loads",
+      "Avoid puncturing the acoustic\ncomposite skin during handling"
+    ],
+    "warranty": "Standard manufacturer warranty\nbacked by Hushtec"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Hushtec Acoustic\nBarrier",
+      "Hushtec noise barrier",
+      "Hushtec Performance Series",
+      "Hushtec\nPremium Series",
+      "temporary fence noise barrier",
+      "construction noise barrier\ncurtain",
+      "acoustic fence panels",
+      "scaffolding acoustic curtain",
+      "noise\ncontrol barrier",
+      "site soundproofing blanket"
+    ],
+    "problem_keywords": [
+      "construction noise complaints from neighbours",
+      "exceeding site decibel\nlimits",
+      "loud generator noise on site",
+      "demolition noise and dust pollution",
+      "jackhammer noise mitigation",
+      "night works noise compliance"
+    ],
+    "placement": [
+      "wall",
+      "external wall",
+      "shed"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "easy_install",
+      "fire"
+    ],
+    "use_cases": [
+      "Hanging on temporary fencing around civil construction\nand demolition sites to protect nearby residents",
+      "Wrapping scaffolding to\ncontain noisy power tools and dust during facade refurbishments",
+      "Creating\nmobile acoustic enclosures around noisy diesel generators, concrete saws, and\ncompressors"
+    ],
+    "not_for": [
+      "Internal building cavity wall insulation (use bulk\nbatts)",
+      "Underfloor timber floor insulation",
+      "Roof space thermal ceiling\ninsulation"
+    ],
+    "rag_summary": "Hushtec Acoustic Barrier (Performance Series and\nPremium Series) is a heavy-duty, modular portable noise barrier panel engineered\nfor construction, demolition, and industrial noise containment. Featuring a\nmulti-layered acoustic composite core with waterproof, UV-resistant outer\nfacings, it achieves laboratory-tested sound reductions of up to 43 dB.\nMeasuring 1300mm x 2000mm with reinforced eyelets and airtight Velcro overlap\njoins, it mounts rapidly to temporary fencing and scaffolding to shield\nsurrounding communities from site noise and dust."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

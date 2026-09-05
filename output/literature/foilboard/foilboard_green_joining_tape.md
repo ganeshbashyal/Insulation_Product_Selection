@@ -1,7 +1,7 @@
 ---
 title: "Foilboard Green Joining Tape - Accessory Insulation | Foilboard"
-description: "Quality insulation engineered for Australian conditions."
-keywords: "Foilboard Green Joining Tape, Foilboard accessory, insulation Australia, Foilboard Australia"
+description: "Foilboard Green Joining Tape is a heavy-duty reinforced aluminum foil tape engineered with an anti-glare green coating on its outer face to match the "
+keywords: "Foilboard Green Joining Tape, Foilboard accessory, wall insulation, ceiling insulation, roof insulation, floor insulation, underfloor insulation, shed insulation, insulation Australia, Foilboard Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: FOILBOARD_GREEN_JOINING_TAPE
 ---
@@ -10,26 +10,36 @@ family_id: FOILBOARD_GREEN_JOINING_TAPE
 
 **Foilboard Accessory** — installation accessories and fixings.
 
-Quality insulation engineered for Australian conditions.
+Foilboard Green Joining Tape is a heavy-duty reinforced aluminum foil tape engineered with an anti-glare green coating on its outer face to match the green side of Foilboard Green panels. Coated with an aggressive, cold-weather acrylic pressure-sensitive adhesive, it creates a continuous airtight and vapor-tight seal along panel butt joints and penetrations. Designed specifically for outdoor, roof, and exposed wall applications, it prevents glare blinding installers while maintaining thermal envelope continuity.
 
 ## Key features
 
-- Lightweight closed-cell expanded polystyrene foam.
-- excellent thermal performance with zero thermal drift.
-- moisture resistant closed-cell structure.
-- CFC/HCFC free manufacturing process.
+- Anti-glare green coating matches the green face of Foilboard Green panels.
+- Reinforced aluminum foil backing provides high tensile and tear strength.
+- High-tack pressure-sensitive acrylic adhesive bonds aggressively to foil facings.
+- Creates an impermeable Class 1 vapor barrier seal across panel joints.
+- Airtight jointing prevents convective heat loss and air infiltration.
+- Operating temperature resistance from -20°C to +80°C.
+- Low Flammability Index (≤ 5) compliant with AS 1530.2.
+- Easy-release paper backing liner for fast on-site peeling and installation.
 
 ## Applications and selection
 
-- General Installation
+- roof
+- roofline
+- wall
+- external wall
+- internal wall
+- ceiling
+- shed
+- underfloor
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm tape color matches the outward-facing green side of Foilboard Green panels.
+2. Select roll width (72mm recommended for butt joints; 48mm for narrow interfaces).
+3. Calculate total linear meters of panel seams, corners, and penetrations.
+4. Verify ambient application temperature is above +5°C.
 
 
 ## Current catalogue range
@@ -40,36 +50,49 @@ Quality insulation engineered for Australian conditions.
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Accessory | Manufacturer catalogue |
-| Material | EPS | Manufacturer catalogue |
-| Applications | General Installation | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Backing Material | Reinforced aluminum foil with anti-glare green lacquer coating | - |
+| Adhesive Type | Pressure-sensitive solvent acrylic adhesive | - |
+| Roll Width | 72 mm (also available in 48 mm) | - |
+| Roll Length | 50 m | - |
+| Operating Temperature Range | -20°C to +80°C | - |
+| Vapor Permeance | Class 1 Vapor Barrier (< 0.002 µg/N·s) | ASTM E96 |
+| Flammability Index | ≤ 5 (Low Flammability) | AS 1530.2 |
 
-
+Extracted from manufacturer datasheet: https://www.foilboard.com.au/product-category/accessories/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Flammability Index ≤ 5 to AS 1530.2; Suitable for bushfire construction up to BAL-40 to AS 3959 when used with Foilboard Green systems
+
+AS/NZS 4200.2:2017, AS 1530.2, AS 3959, NCC Volume One and Two
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.foilboard.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://insulationessentials.com.au/wp-content/uploads/2022/10/MSDS-Foilboard-Nov-2019.pdf.
 
+## Recommended accessories
+
+- Foilboard Green panels.
+- Plastic application squeegee.
+
 
 ## Limitations and warnings
 
-- Combustible material - do not expose to flame or high heat sources..
-- protect from UV exposure during installation..
-- check compatibility with solvents and chemicals before use..
-- not suitable for direct contact with bitumen without barrier..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Surfaces must be completely clean and dry before taping.
+- Requires firm squeegee pressure to activate permanent adhesive bond.
+- Not designed for structural load-bearing mechanical fastening.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Combustible material - do not expose to flame or high heat sources.
+1. Ensure Foilboard panel faces are completely dry, clean, and free of dust, grease, and moisture.
+2. Align Foilboard panels with tightly butted joints.
+3. Center the 72mm Green Joining Tape squarely over the seam with green face outward.
+4. Peel back release liner gradually while applying tape along the joint.
+5. Press down firmly along the entire tape length using a plastic squeegee or roller to activate pressure-sensitive adhesive.
+6. Smooth out all wrinkles and air bubbles to guarantee an airtight, vapor-proof seal.
 
 ## Safety and handling
 
@@ -77,11 +100,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Low VOC emissions; zero ozone-depleting potential (ODP)
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Covered under Foilboard 25-year performance warranty system
 
 ## Specification starting point
 

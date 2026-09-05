@@ -1,0 +1,209 @@
+{
+  "family_id": "FOILBOARD_GREEN",
+  "family_name": "Foilboard Green",
+  "datasheet_pdf_url": "https://www.foilboard.com.au/product/foilboard-green/",
+  "sds_url": "https://www.foilboard.com.au/wp-content/uploads/2021/04/Foilboard-Green-Safety-Data-Sheet.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Foilboard Green is an Australian-manufactured rigid insulation\npanel engineered from a fire-retardant expanded polystyrene (EPS) core laminated\non both sides with pure aluminum foil facings. Designed for roofs, external and\ninternal walls, retrofits, and suspended timber underfloors, it provides\na 3-in-1 thermal insulation, thermal break, and moisture vapor barrier. When\npaired with adjacent reflective airspaces, it achieves total system R-values\nfrom R1.6 to R4.0+ across 10mm to 50mm board thicknesses.",
+    "features": [
+      "3-in-1 insulation, thermal break, and moisture barrier in a single rigid\npanel",
+      "Pure aluminum reflective facings reflect up to 97% of radiant heat",
+      "Fire-retardant expanded polystyrene (EPS) core",
+      "Achieves total system\nR-values up to R4.0+ when paired with sealed airspaces",
+      "Fiber-free,\nnon-allergenic, non-carcinogenic, and non-itchy formulation",
+      "Impermeable to\nwater and will not sag, rot, or deteriorate over time",
+      "Anti-glare green\ncoating on one face for safe installation in bright sunlight",
+      "Extremely\nlightweight, rigid, and fast to cut and fix on site",
+      "Group 1 fire hazard\nclassification compliant with AS 5637.1 / AS ISO 9705",
+      "Backed by a 25-year\nmanufacturer performance warranty"
+    ],
+    "applications": [
+      "wall",
+      "external wall",
+      "internal wall",
+      "ceiling",
+      "roof",
+      "roofline",
+      "underfloor",
+      "floor",
+      "subfloor",
+      "shed"
+    ],
+    "technical": [
+      {
+        "property": "Material Composition",
+        "value": "Fire-retardant expanded polystyrene (EPS) core laminated with pure\naluminum foil facings",
+        "standard": ""
+      },
+      {
+        "property": "Material R-values",
+        "value": "10mm (R0.3), 15mm (R0.4), 20mm (R0.5), 25mm (R0.7), 40mm (R1.1), 50mm\n(R1.3)",
+        "standard": "ASTM C518"
+      },
+      {
+        "property": "Total System R-values",
+        "value": "R1.6 to R4.0+ (depending on installation application and airspace\nwidth)",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Thickness Options",
+        "value": "10 mm, 15 mm, 20 mm, 25 mm, 40 mm, 50 mm",
+        "standard": ""
+      },
+      {
+        "property": "Sheet Dimensions",
+        "value": "2440 mm x 1200 mm; 2700 mm x 1200\nmm; 3000 mm x 1200 mm",
+        "standard": ""
+      },
+      {
+        "property": "Emittance (Reflective\nSilver Face)",
+        "value": "0.03 (reflects up to 97% of radiant heat)",
+        "standard": "AS/NZS 4201.5"
+      },
+      {
+        "property": "Emittance (Anti-Glare Green Face)",
+        "value": "0.05",
+        "standard": "AS/NZS 4201.5"
+      },
+      {
+        "property": "Water Vapor Permeance",
+        "value": "< 0.002 µg/N·s (impermeable vapor barrier)",
+        "standard": "ASTM E96"
+      },
+      {
+        "property": "Compressive Strength",
+        "value": "Class SL / S EPS core",
+        "standard": "AS 1366.3"
+      },
+      {
+        "property": "Fire Hazard Classification",
+        "value": "Group 1 / Group 2",
+        "standard": "AS 5637.1 / AS ISO 9705"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Foilboard Green 10mm (Standard 15)",
+        "size_or_rating": "10 mm x 1200\nmm x 2440 mm (Material R0.3 / Total R1.6)",
+        "pack": "Sheet"
+      },
+      {
+        "variant": "Foilboard Green 15mm (Standard 20)",
+        "size_or_rating": "15 mm x 1200 mm x 2440\nmm (Material R0.4 / Total R2.1)",
+        "pack": "Sheet"
+      },
+      {
+        "variant": "Foilboard\nGreen 20mm (Standard 25)",
+        "size_or_rating": "20 mm x 1200 mm x 2440 mm\n(Material R0.5 / Total R2.6)",
+        "pack": "Sheet"
+      },
+      {
+        "variant": "Foilboard\nGreen 25mm (Plus 30)",
+        "size_or_rating": "25 mm x 1200 mm x 2440 mm (Material\nR0.7 / Total R3.0)",
+        "pack": "Sheet"
+      },
+      {
+        "variant": "Foilboard Green 40mm\n(Super 40)",
+        "size_or_rating": "40 mm x 1200 mm x 2440 mm (Material R1.1 / Total\nR3.4)",
+        "pack": "Sheet"
+      },
+      {
+        "variant": "Foilboard Green 50mm (Max 50)",
+        "size_or_rating": "50 mm x 1200 mm x 2440 mm (Material R1.3 / Total R4.0)",
+        "pack": "Sheet"
+      }
+    ],
+    "fire": "Group 1 / Group 2 to AS 5637.1 / AS ISO 9705;\nEarly fire hazard indices to AS 1530.3: Ignitability 0, Spread of Flame 0, Heat\nEvolved 0, Smoke Developed 0-1; Suitable up to BAL-40 to AS 3959",
+    "compliance": "AS/NZS 4859.1, AS 5637.1, AS 3959, CodeMark certified, NCC 2022 Volume 1 and\nVolume 2 compliant",
+    "sustainability": "100% ozone-safe EPS core; zero CFC/HCFC;\nlow VOC emissions; fully recyclable; fiber-free",
+    "install": [
+      "Ensure\nstructural framing or substrate is level, clean, and dry",
+      "Measure and cut\npanels using a sharp utility knife or hand saw",
+      "Maintain a minimum 20mm sealed\nairspace adjacent to reflective foil faces to generate full thermal R-value",
+      "For walls, fix horizontally or vertically across framing with mechanical\nfasteners and blank plates",
+      "For underfloors, install between joists supported\non Foilboard Floor Saddles or Retrofit Clips",
+      "Butt sheet joints tightly and\ntape with Foilboard 72mm reinforced aluminum tape",
+      "Seal all edges around\nwindows, doors, and service penetrations to maintain airtightness",
+      "Ensure\nanti-glare green face faces the installer during roof and sunny external\ninstallations"
+    ],
+    "selection_checklist": [
+      "Determine required Total R-value\n(R1.6 to R4.0) to meet NCC or NatHERS targets",
+      "Select board thickness (10mm\nto 50mm) based on available cavity depth",
+      "Choose sheet dimensions\n(2440x1200mm, 2700x1200mm, or 3000x1200mm)",
+      "Verify minimum 20mm reflective\nairspace can be maintained in the assembly",
+      "Order matching installation\naccessories (Floor Saddles, Flexifast, 72mm tape)"
+    ],
+    "accessories": [
+      "Foilboard 72mm Reinforced Aluminum Foil Tape",
+      "Foilboard Floor Saddles",
+      "Foilboard Flexifast Fasteners",
+      "Foilboard Blank Plates",
+      "Foilboard Spacer\nBlocks"
+    ],
+    "limitations": [
+      "Requires an adjacent sealed airspace of at\nleast 20mm to deliver rated Total R-value",
+      "Avoid contact with organic\nsolvents, petroleum fuels, and solvent-based adhesives which dissolve EPS",
+      "Do\nnot leave permanently exposed to direct outdoor UV weather without cladding",
+      "Maximum continuous service temperature is 80°C"
+    ],
+    "warranty": "25 Year\nPerformance Warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Foilboard",
+      "Foilboard Green",
+      "Foilboard insulation",
+      "rigid foil board",
+      "Foilboard 25mm",
+      "Foilboard 15mm",
+      "Foilboard 20mm",
+      "EPS foil board",
+      "underfloor rigid\ninsulation",
+      "Foilboard R2.6",
+      "Foilboard R3.0",
+      "rigid foam insulation"
+    ],
+    "problem_keywords": [
+      "cold drafty floorboards",
+      "winter heat loss through\ntimber floors",
+      "thermal bridging on steel studs",
+      "sweating shed walls and\nroof",
+      "hot garage ceiling in summer",
+      "uninsulated brick veneer walls"
+    ],
+    "placement": [
+      "wall",
+      "external wall",
+      "internal wall",
+      "ceiling",
+      "roof",
+      "roofline",
+      "underfloor",
+      "floor",
+      "subfloor",
+      "shed"
+    ],
+    "priority_fit": [
+      "thermal",
+      "condensation",
+      "easy_install",
+      "fire"
+    ],
+    "use_cases": [
+      "Underfloor\ninsulation between joists in suspended timber floor homes to eliminate draughts\nand cold floors",
+      "Continuous external wall thermal break and insulation behind\nbrick veneer or lightweight cladding",
+      "Lining internal walls and ceilings of\ndomestic garages, workshops, and metal sheds",
+      "Insulating cathedral and raked\nceilings where cavity depth is restricted"
+    ],
+    "not_for": [
+      "Continuous water\nimmersion or subterranean hydrostatic tanking",
+      "Direct foot traffic without\nfloorboards or overlay",
+      "Exhaust flue wrapping above 80°C"
+    ],
+    "rag_summary": "Foilboard Green is a rigid Australian-made insulation board composed of a\nfire-retardant EPS core laminated with pure aluminum foil facings on both sides.\nAvailable in thicknesses from 10mm to 50mm (Total R-values from R1.6 to R4.0+\nwhen paired with airspaces), it acts as a combined thermal insulator, thermal\nbreak, and vapor barrier across walls, roofs, sheds, and suspended timber\nfloors. Fiber-free, moisture-impermeable, non-allergenic, and tested to Group 1\nfire standards, it delivers lifetime thermal efficiency backed by a 25-year\nperformance warranty."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

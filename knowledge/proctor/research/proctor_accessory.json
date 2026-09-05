@@ -1,0 +1,173 @@
+{
+  "family_id": "PROCTOR_ACCESSORY",
+  "family_name": "Proctor Accessory",
+  "datasheet_pdf_url": "https://proctorgroup.com.au/tapes/",
+  "sds_url": "",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Proctor Accessories comprise high-performance sealing tapes\nand flashing components engineered by Proctor Group Australia to ensure\nairtight, weathertight, and vapour-permeable continuity across ProctorWrap and\nProctorPassive building envelopes. The range includes ProctorWrap HighTack PLUS\nTape, ProctorPassive DriFlash Tape, Wraptite Tape, YouByute Flexi Tape, and Air\nBarrier Tape. Formulated with aggressive, ageing-resistant acrylic and butyl\nadhesives, they create durable weather-tight seals around membrane overlaps,\nwindow interfaces, corners, and pipe penetrations.",
+    "features": [
+      "Engineered\nspecifically for ProctorWrap and ProctorPassive vapour-permeable membranes",
+      "High tested peel adhesion (≥ 45 N / 25mm for HighTack PLUS)",
+      "Semi-transparent\ncarrier options allow visibility of printed membrane alignment lines",
+      "Flexible\nand stretchable formulations (YouByute Flexi Tape) for corner and pipe sealing",
+      "Superior UV resistance and thermal stability resisting adhesive edge bleed",
+      "Bonds securely to polyolefin membranes, timber, steel, concrete, and aluminium\nboards",
+      "Vapour-open and airtight tape variants maintaining breathability",
+      "Low VOC emissions supporting Green Star and Passive House standards"
+    ],
+    "applications": [
+      "wall",
+      "external wall",
+      "roof",
+      "roofline",
+      "internal wall",
+      "pipe",
+      "duct"
+    ],
+    "technical": [
+      {
+        "property": "Adhesive Carrier",
+        "value": "Spunbonded polyolefin, polyethylene film, or reinforced butyl",
+        "standard": ""
+      },
+      {
+        "property": "Adhesive Type",
+        "value": "Vapour-open acrylic or aggressive\nbutyl pressure-sensitive adhesive",
+        "standard": ""
+      },
+      {
+        "property": "Peel\nAdhesion",
+        "value": "≥ 45 N / 25mm (HighTack PLUS), ≥ 25 N / 25mm (UV Tape)",
+        "standard": "EN 1939"
+      },
+      {
+        "property": "Roll Widths",
+        "value": "50 mm, 60 mm, 75\nmm, 100 mm, 150 mm",
+        "standard": ""
+      },
+      {
+        "property": "Roll Lengths",
+        "value": "25 m, 30 m, 50 m",
+        "standard": ""
+      },
+      {
+        "property": "Application Temperature",
+        "value": "+5°C to +40°C",
+        "standard": ""
+      },
+      {
+        "property": "Operating\nTemperature",
+        "value": "-40°C to +80°C (up to +100°C)",
+        "standard": ""
+      },
+      {
+        "property": "Vapour Permeance",
+        "value": "Available in Vapour Permeable\n(DriFlash/Wraptite) and Vapour Barrier (AB Tape)",
+        "standard": "ASTM E96"
+      }
+    ],
+    "range": [
+      {
+        "variant": "ProctorWrap HighTack PLUS Tape",
+        "size_or_rating": "60\nmm x 25 m",
+        "pack": "Roll (Carton of 10)"
+      },
+      {
+        "variant": "ProctorPassive\nDriFlash Tape",
+        "size_or_rating": "75 mm / 150 mm x 25 m",
+        "pack": "Roll"
+      },
+      {
+        "variant": "ProctorPassive YouByute Flexi Tape",
+        "size_or_rating": "60 mm x 25 m\n(Stretchable butyl)",
+        "pack": "Roll"
+      },
+      {
+        "variant": "ProctorPassive UV Tape",
+        "size_or_rating": "60 mm x 25 m",
+        "pack": "Roll"
+      },
+      {
+        "variant": "ProctorPassive\nWraptite Tape",
+        "size_or_rating": "50 mm / 75 mm / 100 mm x 50 m",
+        "pack": "Roll"
+      }
+    ],
+    "fire": "Low flammability; compliant for use with BAL-rated building\nmembranes in accordance with AS 3959",
+    "compliance": "AS/NZS 4200.2:2017,\nPassive House airtightness standards, Green Star compliant",
+    "sustainability": "Low VOC emissions; zero chlorine; zero formaldehyde; solvent-free acrylic\nadhesives",
+    "install": [
+      "Ensure membrane and substrate surfaces are completely\ndry, clean, and free of oil, grease, and dust",
+      "Centre tape squarely over the\nmembrane overlap, corner seam, or penetration interface",
+      "Apply tape without\ntension, ensuring no wrinkles or air bubbles remain",
+      "Press firmly along the\nentire tape length using a hand-held squeegee or pressure roller to activate\nadhesive",
+      "For pipe and duct penetrations, cut overlapping collar strips to\nform a continuous watertight seal",
+      "Ensure materials are supported from behind\nwhen applying pressure"
+    ],
+    "selection_checklist": [
+      "Confirm membrane type\n(ProctorWrap RW, CW, HTR, or Rainscreen)",
+      "Select tape function (HighTack PLUS\nfor general laps; YouByute Flexi Tape for corners/pipes; UV Tape for open-joint\nfacades)",
+      "Calculate total linear meterage needed for seams, openings, and\npenetrations",
+      "Verify application temperature is between +5°C and +40°C"
+    ],
+    "accessories": [
+      "ProctorWrap wall wraps and roof underlays",
+      "Plastic\napplication squeegee"
+    ],
+    "limitations": [
+      "Pressure-sensitive tape requires firm\nmechanical squeegee pressure for full adhesive bonding",
+      "Not a substitute for\nmechanical fasteners; all structural loads must be carried by framing fixings",
+      "Must not be applied to wet, oily, or frozen surfaces"
+    ],
+    "warranty": "Backed by\nProctor Group Australia manufacturer warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Proctor Accessory",
+      "ProctorWrap HighTack PLUS Tape",
+      "ProctorPassive DriFlash Tape",
+      "YouByute Flexi Tape",
+      "Proctor vapour permeable\ntape",
+      "Proctor membrane tape",
+      "Wraptite tape",
+      "Proctor air barrier tape"
+    ],
+    "problem_keywords": [
+      "leaking wall wrap overlaps",
+      "air leakage through\nbuilding envelope",
+      "moisture ingress at window flashings",
+      "tape failing on\nvapour permeable wrap",
+      "wrinkled tape skipping over membrane creases",
+      "failing\nblower door airtightness test"
+    ],
+    "placement": [
+      "wall",
+      "external wall",
+      "roof",
+      "roofline",
+      "internal wall",
+      "pipe",
+      "duct"
+    ],
+    "priority_fit": [
+      "condensation",
+      "easy_install",
+      "sustainability"
+    ],
+    "use_cases": [
+      "Sealing\nhorizontal and vertical laps on ProctorWrap vapour-permeable membranes with high\npeel adhesion (≥45 N/25mm)",
+      "Airtight and weathertight sealing around window\nframes, sill flashings, and pipe penetrations",
+      "Vapour-permeable seam sealing\non Passive House airtight building envelopes"
+    ],
+    "not_for": [
+      "Structural\nmechanical load-bearing fastening",
+      "Permanent immersion in standing water",
+      "High-temperature exhaust flues above 100°C"
+    ],
+    "rag_summary": "Proctor\nAccessories encompass high-performance pressure-sensitive sealing tapes and\nflashing components engineered by Proctor Group Australia, including ProctorWrap\nHighTack PLUS Tape, DriFlash Tape, and YouByute Flexi Tape. Coated with\naggressive, aging-resistant acrylic and butyl adhesives, they create durable\nairtight and weathertight seals across polyolefin membranes, timber, steel, and\nconcrete without impeding vapour permeability. Low-VOC and temperature-resistant\nfrom -40°C to +80°C, they are critical components for achieving Passive House\nairtightness and NCC-compliant weatherproofing."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

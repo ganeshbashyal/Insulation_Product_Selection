@@ -1,0 +1,174 @@
+{
+  "family_id": "BRADFORD_WALL_WRAPS_LIGHT_DUTY_RESIDENTIAL",
+  "family_name": "Bradford Wall Wraps - Light Duty Residential",
+  "datasheet_pdf_url": "https://www.bradfordinsulation.com.au/home-insulation/walls/enviroseal-wall-wrap",
+  "sds_url": "https://www.bradfordinsulation.com.au/-/media/bradford/files/safety-data-sheet---glasswool.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Bradford Enviroseal ProctorWrap Residential Wall (RW) is a Light\nDuty, Class 4 vapour-permeable wall wrap designed for residential timber and\nsteel frame wall construction. Engineered with a triple-layer polyolefin\nspunbond textile, it allows interior moisture vapour to breathe outward,\nmitigating condensation, timber rot, and mould growth behind external claddings.\nActing as a water barrier against wind-driven rain and an effective air barrier\nagainst drafts, it delivers high energy efficiency and weather tightness for\nhomes built with brick veneer, timber weatherboards, fibre cement, or composite\ncladding.",
+    "features": [
+      "Highly vapour permeable (Class 4) allowing moisture\nto escape the building envelope",
+      "Water barrier performance protects frame and\nwall insulation from wind-driven rain",
+      "Air barrier functionality seals\nexternal walls against conditioned air leakage and drafts",
+      "Triple-layer\nspunbond polyolefin construction provides excellent tear resistance",
+      "Printed\nwith a 150mm lap line for accurate on-site installation and alignment",
+      "Soft,\nnon-woven facing prevents noisy flapping in windy conditions",
+      "Lightweight and\neasy to cut and fix around window and door frames",
+      "Suitable for brick, timber,\nsteel, fibre-cement, and Hebel residential constructions",
+      "Flammability index\ncompliant with AS 1530.2"
+    ],
+    "applications": [
+      "wall",
+      "external wall"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "Triple-layer polyolefin\nspunbond non-woven textile",
+        "standard": ""
+      },
+      {
+        "property": "Duty\nClassification",
+        "value": "Light Duty",
+        "standard": "AS/NZS 4200.1"
+      },
+      {
+        "property": "Vapour Permeability",
+        "value": "Class 4 Vapour Permeable",
+        "standard": "AS/NZS 4200.1"
+      },
+      {
+        "property": "Water Control Classification",
+        "value": "Water Barrier",
+        "standard": "AS/NZS 4201.4"
+      },
+      {
+        "property": "Air\nControl Classification",
+        "value": "Air Barrier",
+        "standard": "AS/NZS 4200.1"
+      },
+      {
+        "property": "Roll Dimensions (1.5m)",
+        "value": "1500 mm width x 50 m length\n(75 m² per roll)",
+        "standard": ""
+      },
+      {
+        "property": "Roll Dimensions (2.75m)",
+        "value": "2750 mm width x 25 m length (68.75 m² per roll)",
+        "standard": ""
+      },
+      {
+        "property": "Tensile Strength",
+        "value": "Machine Direction > 140 N, Lateral\nDirection > 120 N",
+        "standard": "AS/NZS 4200.1"
+      },
+      {
+        "property": "Maximum UV\nExposure",
+        "value": "Up to 4 weeks (30 days) unclad",
+        "standard": ""
+      },
+      {
+        "property": "Flammability Index",
+        "value": "≤ 5 (Low Flammability)",
+        "standard": "AS 1530.2"
+      },
+      {
+        "property": "Product Codes",
+        "value": "118153 (1.5m\nx 50m), 138628 (2.75m x 25m)",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Enviroseal ProctorWrap RW (1.5m)",
+        "size_or_rating": "1500 mm x 50 m (75 m²)",
+        "pack": "Roll (Code: 118153)"
+      },
+      {
+        "variant": "Enviroseal ProctorWrap RW\n(2.75m)",
+        "size_or_rating": "2750 mm x 25 m (68.75 m²)",
+        "pack": "Roll\n(Code: 138628)"
+      },
+      {
+        "variant": "Enviroseal ProctorWrap RW-IT (Integrated\nTape)",
+        "size_or_rating": "1500 mm x 50 m (75 m²)",
+        "pack": "Roll\n(Code: 118154)"
+      }
+    ],
+    "fire": "Flammability Index ≤ 5 to AS 1530.2; Suitable for\nuse in external walls in BAL 12.5 to BAL-40 bushfire zones under AS 3959",
+    "compliance": "AS/NZS 4200.1:2017, AS/NZS 4200.2, AS 1530.2, NCC 2022 / NCC 2025\nVolume Two condensation management",
+    "sustainability": "Zero ODP,\nnon-hazardous, 100% recyclable polyolefin materials, low VOC",
+    "install": [
+      "Fix\nEnviroseal RW to the outside of timber or steel studs with printed side facing\noutward",
+      "Fasten with broad-headed nails or staples at maximum 300mm centres to\nstuds and plates",
+      "Run sheets horizontally starting from the bottom plate,\nensuring overlaps shed water downward",
+      "Overlap consecutive horizontal sheets\nby at least 150mm along the printed lap guide",
+      "Vertical joints must overlap by\nat least 150mm and be made over a structural stud",
+      "Tape all joins and\npenetrations with Bradford Enviroseal HighTack Tape or specify RW-IT",
+      "Ensure\nmembrane is separated from cladding by a ventilated/drained cavity"
+    ],
+    "selection_checklist": [
+      "Confirm residential wall construction requires a\nClass 4 vapour-permeable membrane",
+      "Choose roll width (1.5m standard vs 2.75m\nwide roll to wrap single-storey walls in one drop)",
+      "Calculate roll quantity\nbased on total wall area allowing 150mm overlaps",
+      "Select standard RW or RW-IT\nwith integrated adhesive tape",
+      "Order complementary HighTack Tape for window\nand door flashings"
+    ],
+    "accessories": [
+      "Bradford Enviroseal HighTack Tape",
+      "Bradford ULTRAtape",
+      "Bradfix fasteners",
+      "Enviroseal Flexi Tape"
+    ],
+    "limitations": [
+      "Not suitable for roofing applications (Light Duty rating does\nnot meet DtS roof requirements)",
+      "Must not be left exposed to direct UV\nsunlight for more than 30 days",
+      "Not designed for open-joint rainscreens (use\nBlack Label)"
+    ],
+    "warranty": "Backed by CSR Bradford product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Bradford Light Duty Residential Wall Wrap",
+      "Enviroseal ProctorWrap RW",
+      "Residential Wall Wrap RW",
+      "Enviroseal RW 118153",
+      "Bradford breathable wall wrap",
+      "vapour permeable house wrap",
+      "Class 4\nresidential wrap",
+      "Enviroseal RW 2750mm",
+      "house wrap 1500mm"
+    ],
+    "problem_keywords": [
+      "mould in residential wall cavity",
+      "interstitial\ncondensation in timber frame",
+      "drafts blowing through brick veneer",
+      "wet\ninsulation in external walls",
+      "weatherboard wall moisture damage",
+      "meeting 7-star NatHERS wall sealing"
+    ],
+    "placement": [
+      "wall",
+      "external wall"
+    ],
+    "priority_fit": [
+      "condensation",
+      "fire",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Vapour-permeable weather barrier behind residential brick veneer, timber\nweatherboards, and fibre-cement cladding",
+      "Air-barrier house wrap to pass\nresidential blower door airtightness testing",
+      "Condensation mitigation in\nclimate zones 6, 7, and 8 where internal moisture must escape"
+    ],
+    "not_for": [
+      "Roof sarking applications",
+      "Open-joint cladding with permanent UV exposure",
+      "Underfloor moisture barrier"
+    ],
+    "rag_summary": "Bradford Wall Wraps - Light\nDuty Residential (Enviroseal ProctorWrap Residential Wall / RW, product\ncodes 118153 / 138628) is a premium Light Duty, Class 4 vapour-permeable wall\nwrap designed for residential timber and steel stud construction. Featuring a\ntriple-layer non-woven polyolefin textile, it lets interior moisture vapour\nescape to prevent condensation, rot, and mould while acting as a barrier against\nwind-driven rain and drafts. Available in 1500mm and 2750mm roll widths with a\nFlammability Index ≤ 5 (BAL 12.5-40 compliant), it provides a durable, quiet\nweatherproofing layer behind residential brick veneer, weatherboards, and\nlightweight claddings."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

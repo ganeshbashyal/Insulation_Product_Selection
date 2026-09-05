@@ -1,7 +1,7 @@
 ---
 title: "Bradford Wall Wraps - Light Duty Metal Roof - Reflective Insulation | Bradford"
-description: "Part of the CSR family with 100+ years of Australian building solutions. Reflects up to 97% of radiant heat, reducing summer cooling costs."
-keywords: "Bradford Wall Wraps - Light Duty Metal Roof, Bradford reflective, wall insulation, roof insulation, insulation Australia, Bradford Australia"
+description: "Bradford Thermoseal Light Duty Metal Roof / Wall is a multi-layer reflective foil laminate sarking designed specifically for use under metal roof clad"
+keywords: "Bradford Wall Wraps - Light Duty Metal Roof, Bradford reflective, wall insulation, roof insulation, shed insulation, insulation Australia, Bradford Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: BRADFORD_WALL_WRAPS_LIGHT_DUTY_METAL_ROOF
 ---
@@ -10,28 +10,34 @@ family_id: BRADFORD_WALL_WRAPS_LIGHT_DUTY_METAL_ROOF
 
 **Bradford Reflective** — reflective foil insulation for radiant heat control.
 
-Part of the CSR family with 100+ years of Australian building solutions. Reflects up to 97% of radiant heat, reducing summer cooling costs.
+Bradford Thermoseal Light Duty Metal Roof / Wall is a multi-layer reflective foil laminate sarking designed specifically for use under metal roof claddings and in exterior walls. Manufactured from kraft paper laminates bonded to aluminium foil with flame-retardant adhesives and reinforced with continuous fibreglass yarn, it features a green anti-glare coating on one face to reduce installation glare. Installed adjacent to an air cavity, it provides dual reflective thermal R-values while acting as a water barrier, vapour barrier, and draft-reducing membrane in metal residential and light commercial buildings.
 
 ## Key features
 
-- High-purity aluminium reflective facing.
-- reflects up to 97% of radiant heat.
-- lightweight and easy to install.
-- provides vapour barrier when properly sealed.
-- 50 Year Warranty backed by CSR.
-- ACCC certified.
+- Specifically formulated for metal roof and external brick veneer wall applications.
+- Green anti-glare finish on outward-facing surface minimizes glare during daytime installation.
+- Provides an effective vapour barrier (Class 1 / 2) to control condensation.
+- Functions as a water barrier to direct moisture and wind-driven rain away from the roof space.
+- Reflective aluminium foil facing contributes thermal air-gap R-values in summer and winter.
+- Reinforced with fibreglass yarn for enhanced tear resistance during fixing.
+- Non-combustible aluminium facings with low Flammability Index (≤ 5).
+- Suitable for use in bushfire BAL-12.5 to BAL-40 roof systems.
 
 ## Applications and selection
 
-- Wall Wrap / Sarking
+- roof
+- roofline
+- wall
+- external wall
+- shed
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm roof type is metal deck or corrugated sheeting (not recommended under concrete tiles without safety mesh).
+2. Calculate roll requirement based on 1350mm width (40.5m² or 81m² rolls) allowing 150mm overlaps.
+3. Confirm need for anti-glare coating to comply with safety on site.
+4. Check requirement for BAL rating up to BAL-40.
+5. Order matching Bradford 493 reinforced foil tape for sealing.
 
 
 ## Current catalogue range
@@ -42,35 +48,53 @@ Part of the CSR family with 100+ years of Australian building solutions. Reflect
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Reflective | Manufacturer catalogue |
-| Material | Reflective Membrane | Manufacturer catalogue |
-| Applications | Wall Wrap / Sarking | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material | Kraft paper, fibreglass reinforcement, aluminium foil with green anti-glare coating | - |
+| Duty Classification | Light Duty | AS/NZS 4200.1 |
+| Vapour Barrier Classification | Class 1 or 2 Vapour Barrier (Low Vapour Permeance) | AS/NZS 4200.1 |
+| Water Control Classification | Water Barrier | AS/NZS 4201.4 |
+| Emittance (Reflective Foil Face) | 0.05 (95% heat reflection) | AS/NZS 4201.5 |
+| Emittance (Anti-Glare Face) | 0.05 - 0.10 | AS/NZS 4201.5 |
+| Roll Dimensions (30m) | 1350 mm width x 30 m length (40.5 m² per roll) | - |
+| Roll Dimensions (60m) | 1350 mm width x 60 m length (81 m² per roll) | - |
+| Flammability Index | ≤ 5 (Low Flammability) | AS 1530.2 |
+| Product Codes | 105871 (30m), 15056 (60m) | - |
 
-
+Extracted from manufacturer datasheet: https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/roofing/thermoseal-roof-metal-wall
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Flammability Index ≤ 5 to AS 1530.2; Suitable for BAL-12.5 to BAL-40 roof applications under AS 3959
+
+AS/NZS 4200.1:2017, AS/NZS 4200.2, AS 1530.2, NCC Volume One and Two
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.csrbradford.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://www.firecrunch.com.au/wp-content/uploads/2016/02/BRADFORD-MSDS-e3a0-435b-b6ef-6f1027726ce6.pdf.
 
+## Recommended accessories
+
+- Bradford 493 Reinforced Aluminium Foil Tape.
+- Roof safety mesh (for commercial spans).
+- Foil fasteners.
+
 
 ## Limitations and warnings
 
-- Reflective performance requires maintained airspace..
-- conductive material - keep away from electrical services..
-- not suitable as sole insulation in cold climates..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Light Duty rating: when used on roofs, unsupported span must not exceed manufacturer limits without safety mesh.
+- Not a substitute for primary roof cladding; must be covered promptly.
+- Ensure an air space exists adjacent to reflective foil to generate rated thermal R-value.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Reflective performance requires maintained airspace.
+1. Roll out perpendicular or parallel to purlins/rafters with green anti-glare facing outward/upward.
+2. Allow a nominal 40mm drape between roof battens to maintain reflective airspace and water drainage.
+3. Overlap adjoining sheets by minimum 150mm in roofs (or 50mm if taped).
+4. Fasten securely to battens, purlins, or studs using approved galvanized staples or fasteners.
+5. Seal overlaps with 48mm or 72mm Bradford reinforced aluminium foil tape for maximum vapour performance.
+6. Ensure foil drains freely into gutters without ponding or reverse laps.
 
 ## Safety and handling
 
@@ -78,11 +102,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Zero ODP, non-hazardous, manufactured with recyclable kraft and aluminium components
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Backed by CSR Bradford product warranty
 
 ## Specification starting point
 

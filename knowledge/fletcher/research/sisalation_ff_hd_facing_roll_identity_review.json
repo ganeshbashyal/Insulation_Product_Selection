@@ -1,0 +1,65 @@
+{
+  "family_id": "FLETCHER_FF_HD_LEGACY",
+  "family_name": "Sisalation FF HD facing roll (identity review)",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "gemini_not_found",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "",
+    "features": "",
+    "applications": "",
+    "technical": "",
+    "range": "",
+    "fire": "",
+    "compliance": "",
+    "sustainability": "",
+    "install": "",
+    "selection_checklist": "",
+    "accessories": "",
+    "limitations": "",
+    "warranty": ""
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Sisalation FF HD",
+      "Sisalation Heavy Duty facing",
+      "Fletcher FF HD facing roll",
+      "reflective foil facing roll",
+      "heavy duty foil\nfacing",
+      "Sisalation foil laminate",
+      "glasswool foil facing"
+    ],
+    "problem_keywords": [
+      "unfaced glasswool radiant heat loss",
+      "vapor barrier\nfacing failure",
+      "condensation under roof insulation",
+      "tearing foil facing on\ninsulation batts"
+    ],
+    "placement": [
+      "roof",
+      "roofline",
+      "wall",
+      "external wall",
+      "shed"
+    ],
+    "priority_fit": [
+      "thermal",
+      "condensation",
+      "fire"
+    ],
+    "use_cases": [
+      "Factory or site lamination to glasswool blankets for roof and wall insulation",
+      "Heavy-duty vapor barrier facing in industrial metal building applications",
+      "Radiant heat reflection over metal purlins and wall framing"
+    ],
+    "not_for": [
+      "Standalone bulk thermal insulation",
+      "Direct floor traffic surfaces",
+      "Cold\nclimate non-drained cavity walls requiring Class 4 breathable wraps"
+    ],
+    "rag_summary": "Fletcher Sisalation FF HD (Foil Facing Heavy Duty) represents a\nlegacy industrial reinforced aluminum foil facing laminate formerly manufactured\nby Fletcher Insulation for laminating to bulk glasswool blankets. Featuring high\ntensile fiberglass scrim and kraft reinforcement, it provided heavy-duty tear\nresistance and an impermeable Class 1 vapor barrier reflecting up to 95% of\nradiant heat. Today, this specification is integrated into pre-laminated product\nlines like Permastop Building Blanket Heavy Duty and Sisalation Multipurpose\nEHD."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

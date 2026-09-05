@@ -1,7 +1,7 @@
 ---
 title: "Hushtec Acoustic Barrier - Acoustic Barrier Insulation | Hushtec"
-description: "Quality insulation engineered for Australian conditions. Engineered specifically for noise control, delivering the acoustic separation required for NC"
-keywords: "Hushtec Acoustic Barrier, acoustic insulation, wall insulation, ceiling insulation, floor insulation, insulation Australia, Hushtec Australia"
+description: "Hushtec Acoustic Barriers (Performance Series & Premium Series) are high-performance modular outdoor and indoor noise control panels engineered to mit"
+keywords: "Hushtec Acoustic Barrier, acoustic insulation, wall insulation, shed insulation, insulation Australia, Hushtec Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: HUSHTEC_ACOUSTIC_BARRIER
 ---
@@ -10,28 +10,32 @@ family_id: HUSHTEC_ACOUSTIC_BARRIER
 
 **Hushtec Acoustic Barrier** — acoustic barrier insulation product.
 
-Quality insulation engineered for Australian conditions. Engineered specifically for noise control, delivering the acoustic separation required for NCC compliance. Rigid design makes installation fast and efficient - no sagging or falling out.
+Hushtec Acoustic Barriers (Performance Series & Premium Series) are high-performance modular outdoor and indoor noise control panels engineered to mitigate noise pollution on construction, demolition, civil infrastructure, and industrial worksites. Built with an advanced multi-layered acoustic composite core combining dense sound-blocking mass with sound-absorbing porous media, they achieve noise reductions of up to 43 dB. Equipped with heavy-duty tensioned brass eyelets and hook-and-loop Velcro joins, they attach rapidly to temporary fencing, scaffolding, and hoarding structures.
 
 ## Key features
 
-- Quality insulation product for Australian building conditions.
-- designed to meet NCC energy efficiency requirements.
-- rigid design prevents sagging between joists.
-- reduces drafts and cold floors.
-- excellent thermal performance for roof/ceiling applications.
-- helps meet NCC energy efficiency requirements.
+- Multi-layered acoustic composite engineered for up to 43 dB sound reduction.
+- Heavy-duty hook-and-loop Velcro overlap connections eliminate acoustic flanking leakage.
+- Reinforced perimeter eyelets for fast attachment to temporary fencing and scaffolding.
+- All-weather UV-resistant and waterproof exterior PVC/polymer outer facing.
+- Dual-function noise attenuation: sound-blocking mass layer combined with acoustic absorption.
+- Contains dust, debris, and airborne particulate spread on construction sites.
+- Fully portable, reusable, and transferable across multiple project sites.
+- Self-extinguishing fire-rated construction compliant with worksite safety standards.
+- Tested in accordance with international acoustic transmission loss standards (ASTM / ISO).
 
 ## Applications and selection
 
-- Internal Wall | Ceiling | Floor | General Acoustic
+- wall
+- external wall
+- shed
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm noise source decibel level and required reduction (Performance up to 34 dB vs Premium up to 43 dB).
+2. Measure linear meterage and height of perimeter fencing or scaffolding.
+3. Verify fence structural capacity to support panel wind load and dead weight.
+4. Confirm connection accessories (elastic bungees, cable ties, or scaffold clamps).
 
 
 ## Current catalogue range
@@ -43,35 +47,49 @@ Quality insulation engineered for Australian conditions. Engineered specifically
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Acoustic Barrier | Manufacturer catalogue |
-| Material | Mass Loaded Vinyl | Manufacturer catalogue |
-| Applications | Internal Wall | Ceiling | Floor | General Acoustic | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Acoustic Attenuation | Up to 43 dB sound reduction (Performance: up to 34 dB; Premium: up to 43 dB) | ISO 10140 / ASTM E90 |
+| Panel Dimensions (Standard) | 1300 mm width x 2000 mm height (or 2050 mm height) | - |
+| Surface Mass | Approx. 2.5 kg/m² (Performance) to 7.0 kg/m² (Premium) | - |
+| Connection System | Heavy-duty perimeter Velcro overlap flaps and reinforced brass eyelets | - |
+| Weather Resistance | UV resistant, water resistant, rot-proof, operates from -40°C to +70°C | - |
+| Fire Performance | Self-extinguishing fire-rated construction | - |
 
-
+Extracted from manufacturer datasheet: https://www.hushtecsolutions.com/product/performance-series/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Fire-retardant, self-extinguishing construction compliant with commercial construction site safety standards
+
+Tested to ISO 10140 / ASTM E90 acoustic transmission loss standards, AS/NZS worksite standards
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://masonmercer.com.au/wp-content/uploads/2024/06/Hushtec-Premium-Noise-Control-Brochure-Data-Sheet.pdf (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://masonmercer.com.au/wp-content/uploads/2024/06/Hushtec-Premium-Noise-Control-Brochure-Data-Sheet.pdf.
 
+## Recommended accessories
+
+- Heavy-duty elastic bungee ties.
+- UV-stabilized cable ties.
+- Scaffold mounting hooks.
+
 
 ## Limitations and warnings
 
-- Install in accordance with manufacturer specifications..
-- Ensure adequate subfloor ventilation is maintained..
-- do not leave exposed to ground moisture or subfloor dampness..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Designed for temporary site fencing, scaffolding, and equipment enclosures; not a permanent building wall batt.
+- Temporary fencing must be adequately weighted with counterweights to withstand wind loads.
+- Avoid puncturing the acoustic composite skin during handling.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Install in accordance with manufacturer specifications.
+1. Erect stable temporary fencing, scaffolding, or structural site hoarding.
+2. Position Hushtec panels vertically against the fence with acoustic absorbing side facing the noise source.
+3. Secure panels through reinforced perimeter eyelets using heavy-duty elastic bungees or zip ties.
+4. Overlap adjacent panel edges and press the integrated Velcro sealing flaps firmly together.
+5. Ensure zero gaps exist at panel joins, corners, or ground level to prevent acoustic flanking.
+6. Secure bottom eyelets close to the ground to block sound escaping underneath.
 
 ## Safety and handling
 
@@ -79,11 +97,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Reusable multi-project lifespan; recyclable synthetic polymers; non-toxic
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Standard manufacturer warranty backed by Hushtec
 
 ## Specification starting point
 

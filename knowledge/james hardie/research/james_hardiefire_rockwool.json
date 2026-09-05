@@ -1,0 +1,171 @@
+{
+  "family_id": "JAMES_HARDIE_FIRE_ROCKWOOL",
+  "family_name": "JAMES HARDIEFIRE ROCKWOOl",
+  "datasheet_pdf_url": "https://accel.com.au/products/hardiefire-insulation/",
+  "sds_url": "https://accel.com.au/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "HardieFire Insulation is a specialized\nhigh-density mineral wool insulation batt designed specifically for fire\nprotection in James Hardie HardieSmart wall systems, including Boundary Wall,\nZeroLot, Blade, and Aged Care systems. Composed of over 95% rock wool fibers\nwith cured binder, it delivers non-combustible fire performance, exceptional\nacoustic separation, and thermal resistance within stud framing cavities. Tested\nto AS 1530.4 as part of complete systems, it achieves fire resistance levels up\nto 60/60/60 or 90/90/90 while maintaining a slim wall profile.",
+    "features": [
+      "Specifically designed for use in HardieSmart fire-rated wall systems",
+      "High-density mineral wool composition (nominal 80 kg/m³)",
+      "Non-combustible\nfire protection complying with AS 1530.4",
+      "Delivers thermal performance: R1.7\n(60mm) and R2.5 (85mm)",
+      "Improves wall acoustic isolation and reduces airborne\nsound transfer (Rw 47 to 50+)",
+      "Installed with a required 5mm compression in\nstud bays to eliminate gaps",
+      "Suitable for bushfire construction up to BAL-FZ\n(Flame Zone)",
+      "Lightweight and easy to cut with a mechanical hand saw or\nreciprocating saw",
+      "Resistant to high temperatures, shrinking, and melting\nunder fire exposure",
+      "Backed by a 10-year manufacturing warranty when used with\nHardieSmart systems"
+    ],
+    "applications": [
+      "wall",
+      "external wall",
+      "internal\nwall"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "Mineral wool (rock\nwool >95%, cured binder 1-5%)",
+        "standard": ""
+      },
+      {
+        "property": "Nominal\nDensity",
+        "value": "80 kg/m³",
+        "standard": ""
+      },
+      {
+        "property": "Thicknesses",
+        "value": "60 mm, 85 mm",
+        "standard": ""
+      },
+      {
+        "property": "Dimensions",
+        "value": "420 mm x 1160 mm (for 450mm stud centres), 560 mm x 1160 mm (for 600mm stud\ncentres)",
+        "standard": ""
+      },
+      {
+        "property": "Thermal Resistance (R-value)",
+        "value": "R1.7 (60mm), R2.5 (85mm)",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Fire Resistance Level (FRL)",
+        "value": "Up to 60/60/60 (Boundary\nWall / ZeroLot) and -/60/60",
+        "standard": "AS 1530.4"
+      },
+      {
+        "property": "Acoustic\nPerformance",
+        "value": "Rw 47 to 50+ (system rating)",
+        "standard": "AS/NZS\nISO 717.1"
+      },
+      {
+        "property": "Bushfire Rating",
+        "value": "Suitable up to BAL-FZ\n(Flame Zone)",
+        "standard": "AS 3959"
+      },
+      {
+        "property": "Installation\nCompression",
+        "value": "Minimum 5 mm compression along all sides (5mm wider and\nlonger than stud bay)",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "HardieFire\nInsulation 60mm (420mm)",
+        "size_or_rating": "60 mm x 420 mm x 1160 mm (R1.7, 7\nbatts, 3.4 m²)",
+        "pack": "Pack of 7 batts"
+      },
+      {
+        "variant": "HardieFire\nInsulation 60mm (560mm)",
+        "size_or_rating": "60 mm x 560 mm x 1160 mm (R1.7, 7\nbatts, 4.5 m²)",
+        "pack": "Pack of 7 batts"
+      },
+      {
+        "variant": "HardieFire\nInsulation 85mm (420mm)",
+        "size_or_rating": "85 mm x 420 mm x 1160 mm (R2.5, 5\nbatts, 2.4 m²)",
+        "pack": "Pack of 5 batts"
+      },
+      {
+        "variant": "HardieFire\nInsulation 85mm (560mm)",
+        "size_or_rating": "85 mm x 560 mm x 1160 mm (R2.5, 5\nbatts, 3.2 m²)",
+        "pack": "Pack of 5 batts"
+      }
+    ],
+    "fire": "Non-combustible mineral\nwool; AS 1530.4 tested wall assemblies achieving FRL 60/60/60 and -/60/60;\nSuitable for BAL-FZ in accordance with AS 3959",
+    "compliance": "AS 1530.4,\nAS/NZS 4859.1, AS 3959 (BAL-FZ), CodeMark Certificate CM20135, NCC Volume One\nand Two",
+    "sustainability": "Manufactured using natural rock; biosoluble fibers;\nlow VOC emissions; non-hazardous chemical classification",
+    "install": [
+      "Store\nHardieFire insulation in an internal dry area protected from weather and\nmoisture prior to installation",
+      "Frame wall with timber or steel studs at 450mm\nor 600mm centers",
+      "Cut batts outdoors or in ventilated areas using a mechanical\nhand saw or reciprocating saw",
+      "Add 5mm to measured dimensions when cutting to\nmaintain the mandatory 5mm compression",
+      "Friction-fit batts firmly into stud\nbays ensuring minimum 5mm compression vertically and horizontally",
+      "Ensure\nthere are no gaps, folds, or voids at junctions, corners, or behind noggings",
+      "Wear protective glasses, gloves, and P1/P2 dust mask during handling"
+    ],
+    "selection_checklist": [
+      "Confirm HardieSmart wall system specification\n(Boundary Wall, ZeroLot, Blade, or Aged Care system)",
+      "Verify framing depth\n(minimum 90mm stud cavity)",
+      "Select batt thickness (60mm for R1.7 /\nFRL 60/60/60; 85mm for R2.5)",
+      "Select width (420mm for 450mm stud\ncenters; 560mm for 600mm stud centers)",
+      "Calculate pack quantities allowing\nfor 5mm compression"
+    ],
+    "accessories": [
+      "HardieWrap weather barrier",
+      "James\nHardie external cladding (minimum 6mm)",
+      "Villaboard lining",
+      "Mechanical\ncutting saw"
+    ],
+    "limitations": [
+      "Must not be exposed to weather or installed\nwhile wet; not designed for prolonged exterior exposure",
+      "Must be installed\nwith 5mm compression in both directions to maintain certified FRL",
+      "Must be\nused as part of complete HardieSmart tested systems to achieve warranty and\ncertified fire ratings"
+    ],
+    "warranty": "10-year manufacturing warranty when used\nwith HardieSmart systems"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "HardieFire\nInsulation",
+      "James Hardie Fire Rockwool",
+      "HardieFire batts",
+      "HardieSmart\ninsulation",
+      "mineral wool fire batts",
+      "rockwool wall batts",
+      "FRL 60/60/60\ninsulation",
+      "80kg mineral wool",
+      "James Hardie insulation"
+    ],
+    "problem_keywords": [
+      "fire rating boundary wall",
+      "meeting FRL 60/60/60",
+      "flame spread between zero lot walls",
+      "aged care wall acoustic and fire\nrating",
+      "BAL FZ boundary wall insulation"
+    ],
+    "placement": [
+      "wall",
+      "external\nwall",
+      "internal wall"
+    ],
+    "priority_fit": [
+      "fire",
+      "acoustic",
+      "thermal"
+    ],
+    "use_cases": [
+      "Cavity infill in HardieSmart Boundary Wall Systems to achieve\ncertified FRL 60/60/60 fire resistance",
+      "Sound and fire insulation in\nHardieSmart ZeroLot wall assemblies between detached zero-boundary homes",
+      "Acoustic and fire isolation in HardieSmart Aged Care and Blade wall systems"
+    ],
+    "not_for": [
+      "Unprotected exterior exposure without cladding",
+      "Ceiling\nloose-fill insulation",
+      "Underfloor soil direct contact"
+    ],
+    "rag_summary": "HardieFire Insulation is an 80 kg/m³ high-density mineral wool (rockwool) batt\nmanufactured by James Hardie for HardieSmart fire-rated boundary, zero-lot, and\ninter-tenancy wall systems. Formed from over 95% molten rock wool with cured\nbinders, it is non-combustible to AS 1530.4 and achieves certified FRLs up\nto 60/60/60 and BAL-FZ bushfire resistance when installed with a mandatory 5mm\ncompression. Available in 60mm (R1.7) and 85mm (R2.5) thicknesses to fit 450mm\nand 600mm stud centers, it provides combined passive fire containment, thermal\ncontrol, and acoustic isolation."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

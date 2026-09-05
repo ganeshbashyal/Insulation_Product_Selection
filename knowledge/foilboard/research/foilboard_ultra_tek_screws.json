@@ -1,0 +1,151 @@
+{
+  "family_id": "FOILBOARD_ULTRA_TEK_SCREWS",
+  "family_name": "Foilboard Ultra Tek Screws",
+  "datasheet_pdf_url": "https://www.foilboard.com.au/product-category/accessories/",
+  "sds_url": "https://www.foilboard.com.au/wp-content/uploads/2021/04/Foilboard-Green-Safety-Data-Sheet.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Foilboard Ultra Tek Screws are long, self-drilling steel\nfasteners fitted with oversized load-spreading washers, engineered to secure\nthick Foilboard panels (40mm and 50mm) to steel framing up to 2.5mm thick.\nFeaturing a hardened drill-point tip that penetrates steel girts and studs\nwithout pre-drilling, the extended thread length accommodates thick expanded\npolystyrene boards while clamping firmly against the outer aluminum foil facing.\nThey provide rigid, wind-resistant mechanical fixing for commercial steel sheds,\nindustrial warehouses, and high-performance steel-framed walls.",
+    "features": [
+      "Self-drilling drill-point tip penetrates steel framing up to 2.5mm without\npre-drilling",
+      "Extended shank lengths (65mm to 95mm) tailored for 40mm and 50mm\nFoilboard panels",
+      "Oversized spreader washer prevents head pull-through and\nfoil face tearing",
+      "Corrosion-resistant zinc plating compliant with AS 3566\nClass 3 standards",
+      "Hex-drive head provides positive drive engagement without\ncam-out",
+      "Prevents thick panels from dislodging or vibrating in high-wind steel\nbuildings",
+      "Clamps firmly without crushing the expanded polystyrene core"
+    ],
+    "applications": [
+      "wall",
+      "external wall",
+      "internal wall",
+      "ceiling",
+      "shed",
+      "roof"
+    ],
+    "technical": [
+      {
+        "property": "Fastener Type",
+        "value": "Extended\nself-drilling tek screw with oversized spreader washer",
+        "standard": ""
+      },
+      {
+        "property": "Steel Gauge Capacity",
+        "value": "0.75 mm to 2.5 mm steel stud /\ngirt thickness",
+        "standard": ""
+      },
+      {
+        "property": "Lengths",
+        "value": "65 mm, 75\nmm, 85 mm, 95 mm (tailored for 40mm and 50mm boards)",
+        "standard": ""
+      },
+      {
+        "property": "Washer Diameter",
+        "value": "Approx. 40 mm - 50 mm",
+        "standard": ""
+      },
+      {
+        "property": "Drive Type",
+        "value": "Hex-head drive",
+        "standard": ""
+      },
+      {
+        "property": "Corrosion Coating",
+        "value": "Class 3 / Zinc plated",
+        "standard": "AS 3566"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Foilboard Ultra Tek Screws 75mm",
+        "size_or_rating": "75 mm length (suits 40mm boards on steel)",
+        "pack": "Box\nof 250"
+      },
+      {
+        "variant": "Foilboard Ultra Tek Screws 85mm",
+        "size_or_rating": "85\nmm length (suits 50mm boards on steel)",
+        "pack": "Box of 250"
+      },
+      {
+        "variant": "Foilboard Ultra Tek Screws 95mm",
+        "size_or_rating": "95 mm length (suits 50mm+\nboards on steel)",
+        "pack": "Box of 250"
+      }
+    ],
+    "fire": "Non-combustible steel\nfastener; compliant with NCC fire hazard requirements",
+    "compliance": "AS 3566,\nAS/NZS 4859.1, NCC Volume One and Two",
+    "sustainability": "100% recyclable\nsteel; zero ODP",
+    "install": [
+      "Hold 40mm or 50mm Foilboard panel firmly against\nsteel studs or roof purlins",
+      "Insert Foilboard Ultra Tek Screw into drill\ndriver fitted with a hex-head driver bit",
+      "Position screw perpendicular to the\npanel face at specified fixing locations",
+      "Drive screw at moderate speed,\nallowing drill tip to cut through the steel girt or stud",
+      "Continue driving\nuntil the wide washer head seats firmly and flush against the foil",
+      "Do not\noverdrive to avoid dishing the washer into the EPS core",
+      "Space screws at\nmaximum 600mm centers along all edges and internal steel members",
+      "Seal over\nall screw heads with Foilboard 72mm reinforced foil tape for vapor sealing"
+    ],
+    "selection_checklist": [
+      "Confirm framing substrate is steel (0.75mm to 2.5mm\nthickness)",
+      "Verify board thickness is 40mm or 50mm (for thinner boards use\nStandard Tek Screws)",
+      "Select screw length (board thickness + minimum 15-20mm\nsteel penetration)",
+      "Order matching 72mm reinforced foil tape to cover fastener\nheads"
+    ],
+    "accessories": [
+      "Foilboard Green 40mm / 50mm panels",
+      "Foilboard 72mm\nreinforced foil tape",
+      "Hex drill driver bit"
+    ],
+    "limitations": [
+      "Not designed\nfor timber framing (use Ultra Fasteners)",
+      "Heavy structural steel\nexceeding 2.5mm requires pre-drilling",
+      "Do not overdrive to prevent stripping\nscrew threads in light-gauge steel"
+    ],
+    "warranty": "Backed by Foilboard product\nwarranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Foilboard Ultra Tek Screws",
+      "Foilboard 50mm tek screws",
+      "Foilboard 40mm tek screws",
+      "long tek screws\ninsulation",
+      "self drilling screws for 50mm Foilboard",
+      "Foilboard steel\nscrews 85mm",
+      "heavy duty tek screws Foilboard",
+      "hex head insulation tek\nscrews"
+    ],
+    "problem_keywords": [
+      "tek screws too short for 50mm insulation",
+      "securing 50mm Foilboard to steel girts",
+      "screws pulling through thick foam\nboard",
+      "attaching thick insulation to metal shed",
+      "insulation sagging on steel\nframe"
+    ],
+    "placement": [
+      "wall",
+      "external wall",
+      "internal wall",
+      "ceiling",
+      "shed",
+      "roof"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "thermal"
+    ],
+    "use_cases": [
+      "Securing thick 40mm and 50mm Foilboard Green panels to commercial steel wall\nstuds",
+      "Fastening heavy high-R-value panels to steel purlins and girts in\nindustrial sheds and warehouses",
+      "Installing thick rigid thermal break boards\non light-gauge steel residential framing"
+    ],
+    "not_for": [
+      "Timber framing (use\nUltra Fasteners)",
+      "Masonry substrates (use Flexifast)",
+      "Thin 10mm to 15mm\nboards (use Standard Tek Screws)"
+    ],
+    "rag_summary": "Foilboard Ultra Tek Screws\nare long, self-drilling steel fasteners equipped with oversized spreader\nwashers, engineered to secure thick 40mm and 50mm Foilboard panels to steel\nframing up to 2.5mm thick. With lengths from 75mm to 95mm, they penetrate steel\nstuds and purlins without pre-drilling while the broad washer head prevents\nfastener pull-through or foil tearing. Zinc-coated for corrosion resistance to\nAS 3566, they provide dependable mechanical fixing for commercial sheds,\nindustrial walls, and steel-framed buildings."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

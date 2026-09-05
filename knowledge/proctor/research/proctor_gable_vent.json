@@ -1,0 +1,68 @@
+{
+  "family_id": "PROCTOR_GABLE_VENT",
+  "family_name": "Proctor Gable Vent",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "gemini_not_found",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "",
+    "features": "",
+    "applications": "",
+    "technical": "",
+    "range": "",
+    "fire": "",
+    "compliance": "",
+    "sustainability": "",
+    "install": "",
+    "selection_checklist": "",
+    "accessories": "",
+    "limitations": "",
+    "warranty": ""
+  },
+  "retrieval": {
+    "search_keywords": [
+      "proctor gable vent",
+      "gable vent",
+      "roof\ngable vent",
+      "attic ventilation louvre",
+      "gable wall vent",
+      "passive roof vent",
+      "timber gable vent",
+      "gable louvre",
+      "roof space ventilator"
+    ],
+    "problem_keywords": [
+      "hot roof space",
+      "condensation in roof space",
+      "attic\nheat buildup",
+      "poor roof ventilation",
+      "roof space moisture",
+      "mould in attic\nspace"
+    ],
+    "placement": [
+      "roof",
+      "roofline",
+      "wall",
+      "external wall"
+    ],
+    "priority_fit": [
+      "condensation",
+      "thermal",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Passive ventilation of residential roof spaces through external gable end\nwalls",
+      "Exhausting hot air from pitched roof spaces during summer",
+      "Preventing\nmoisture accumulation and condensation under pitched roof sheeting"
+    ],
+    "not_for": [
+      "Bushfire zones requiring non-compliant unmeshed apertures",
+      "Below\nground or subfloor perimeter ventilation",
+      "Direct floor or ceiling internal\nroom linings"
+    ],
+    "rag_summary": "Proctor Gable Vent represents passive external\nventilation louvres installed on exterior gable end walls to cross-ventilate\nresidential and commercial pitched roof spaces. By creating a natural convective\nairflow path across the attic void, it expels trapped heat in summer and vents\nmoisture vapour in winter to mitigate condensation and mould growth. It\nfunctions as a non-mechanical roof space ventilation component complementary to\neaves and ridge venting systems."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

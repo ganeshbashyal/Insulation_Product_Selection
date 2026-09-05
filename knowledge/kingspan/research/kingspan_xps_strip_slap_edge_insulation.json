@@ -1,0 +1,158 @@
+{
+  "family_id": "KINGSPAN_XPS_STRIP_SLAP_EDGE_INSULATION",
+  "family_name": "Kingspan XPS Strip Slap Edge Insulation",
+  "datasheet_pdf_url": "https://www.insulation.kingspan.com/au/en/products/extruded-polystyrene-xps/kingspan-greenguard-gg350",
+  "sds_url": "https://www.insulation.kingspan.com/au/en/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Kingspan GreenGuard GG350 (XPS Strip Slab Edge Insulation) is a\nhigh-performance rigid extruded polystyrene (XPS) insulation strip\npurpose-engineered to insulate exposed concrete slab edges in residential and\ncommercial buildings. With a high compressive strength of 350 kPa and near-zero\nwater absorption, it stops thermal bridging at the perimeter of concrete\nfoundation slabs where up to 49% of ground heat loss occurs. Sized in\nconvenient 2400mm x 300mm x 40mm strips (R1.0), it delivers durable thermal\nresistance to achieve 7-star NatHERS ratings without deteriorating from soil\ncontact or moisture.",
+    "features": [
+      "Purpose-designed XPS strip for insulating\nconcrete slab edges and foundation perimeters",
+      "High compressive strength\nof 350 kPa (tested to AS 2498.3) resists heavy soil and backfill pressure",
+      "Fiber-free rigid extruded polystyrene core; non-deleterious and safe to\nhandle",
+      "Exceptional moisture resistance with water absorption less than 1% by\nvolume",
+      "Thermal conductivity of 0.028 W/m·K delivering R1.0 in a slim 40mm\nprofile",
+      "Eliminates thermal bridging at concrete slab edges to meet 7-star\nNatHERS requirements",
+      "Pre-cut strip dimensions (2400mm x 300mm x 40mm) match\nstandard footing and slab depths",
+      "Unaffected by ground moisture, freeze-thaw\ncycles, and soil microorganisms",
+      "Lightweight and easy to cut, shape, and\nsecure inside slab formwork before pouring",
+      "Zero ODP and low GWP manufacturing\nprocess"
+    ],
+    "applications": [
+      "floor",
+      "underfloor",
+      "subfloor"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "Rigid extruded polystyrene (XPS)\nclosed-cell foam",
+        "standard": ""
+      },
+      {
+        "property": "Compressive Strength (at 10%\ndeflection)",
+        "value": "350 kPa",
+        "standard": "AS 2498.3"
+      },
+      {
+        "property": "Thermal Conductivity (lambda)",
+        "value": "0.028 W/m·K at 10°C, 0.030 W/m·K\nat 23°C",
+        "standard": "ASTM C518"
+      },
+      {
+        "property": "Thermal Resistance\n(R-value)",
+        "value": "R1.0 (40mm)",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Strip Dimensions",
+        "value": "2400 mm length x 300 mm width x 40 mm thickness",
+        "standard": ""
+      },
+      {
+        "property": "Density",
+        "value": "Nominal 38 kg/m³",
+        "standard": ""
+      },
+      {
+        "property": "Water Absorption (by immersion)",
+        "value": "< 1.0% by volume",
+        "standard": "AS 2498.5"
+      },
+      {
+        "property": "Water Vapor\nPermeance",
+        "value": "Resistant to the passage of water vapor (< 0.05 µg/N·s)",
+        "standard": "ASTM E96"
+      },
+      {
+        "property": "Fire Hazard Indices",
+        "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Product SKU",
+        "value": "100000078606",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "GreenGuard GG350\nXPS Slab Edge Strip 40mm",
+        "size_or_rating": "40 mm x 300 mm x 2400 mm (R1.0, 5\nsheets, 12 lineal metres)",
+        "pack": "Pack of 5 strips"
+      }
+    ],
+    "fire": "Early fire\nhazard indices to AS/NZS 1530.3: Ignitability 0, Spread of Flame 0, Heat\nEvolved 0, Smoke Developed 0-1; Suitable for perimeter slab edge installations",
+    "compliance": "AS/NZS 4859.1:2018, AS 2498.3, NCC 2022 Housing Provisions\nStandard Part 13.2 (Slab Edge Insulation)",
+    "sustainability": "Zero ODP blowing\nagent; 100% recyclable XPS; non-toxic; low VOC emissions",
+    "install": [
+      "Position GreenGuard XPS strips vertically against the inside face of perimeter\nslab formwork prior to pouring concrete",
+      "Ensure strips span the full depth of\nthe slab edge (typically 300mm height)",
+      "Butt strip ends tightly together and\nseal joins with heavy-duty waterproof tape",
+      "Secure strips to formwork with\ntemporary double-sided tape or mechanical pins",
+      "Place damp-proof membrane\n(DPM) under slab, turning it up behind the XPS strip",
+      "Pour concrete slab\ndirectly against the XPS strip, ensuring full consolidation without dislodging\npanels",
+      "Strip formwork after concrete curing; ensure exposed outer face of XPS\nis protected by parging or flashing"
+    ],
+    "selection_checklist": [
+      "Confirm\nNCC 2022 slab-on-ground edge insulation mandate applies to climate zone\n(mandatory in Climate Zones 7 & 8)",
+      "Measure total slab perimeter in lineal\nmeters to calculate pack requirement (12 lineal meters per pack)",
+      "Verify slab\ndepth (300mm standard strip width matches standard residential slab edge)",
+      "Ensure compatible render, parging coat, or flashing is specified to protect\nabove-ground XPS from UV"
+    ],
+    "accessories": [
+      "Waterproof seaming tape",
+      "Damp-proof membrane (0.2mm polyethylene)",
+      "Perimeter flashing or parge render"
+    ],
+    "limitations": [
+      "Exposed above-ground XPS must be protected from UV sunlight\nusing a parge coat, render, or metal flashing",
+      "Must not come into direct\ncontact with solvent-based waterproofing, coal tar, or petrol",
+      "Maximum service\ntemperature is 75°C"
+    ],
+    "warranty": "10-year manufacturing warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Kingspan XPS Strip Slab Edge",
+      "GreenGuard GG350\nslab edge",
+      "slab edge insulation strip",
+      "Kingspan slab edge",
+      "XPS slab edge\nstrip",
+      "2400x300x40 slab edge",
+      "concrete edge insulation",
+      "7 star slab edge\ninsulation"
+    ],
+    "problem_keywords": [
+      "heat escaping through concrete slab edge",
+      "cold perimeter floor slab in winter",
+      "failing 7 star NatHERS energy rating",
+      "thermal bridging at concrete foundation edge",
+      "cracking of slab edge\ninsulation from backfill"
+    ],
+    "placement": [
+      "floor",
+      "underfloor",
+      "subfloor"
+    ],
+    "priority_fit": [
+      "thermal",
+      "easy_install",
+      "sustainability"
+    ],
+    "use_cases": [
+      "Insulating the vertical perimeter edge of concrete ground-bearing slabs in\nClimate Zones 7 and 8 to satisfy mandatory NCC slab edge provisions",
+      "Stopping\nperimeter thermal bridging in high-performance residential homes\ntargeting 7-star and 8-star NatHERS ratings",
+      "Insulating slab edges of\nresidential raft slabs and pod slab systems before concrete pour"
+    ],
+    "not_for": [
+      "Exposed exterior facades without UV protective coating or parging",
+      "Roof\nceiling cavities",
+      "Direct contact with coal-tar or petroleum solvents"
+    ],
+    "rag_summary": "Kingspan XPS Strip Slab Edge Insulation (GreenGuard GG350) is\na 2400mm x 300mm x 40mm (R1.0) rigid extruded polystyrene strip purpose-designed\nto insulate exposed concrete slab perimeters. With a high compressive strength\nof 350 kPa (AS 2498.3) and near-zero water absorption (<1%), it halts thermal\nbridging where up to 49% of ground heat loss occurs, satisfying mandatory NCC\nslab edge insulation requirements in cooler climate zones. Durable against\nbackfill pressure and soil moisture, it installs easily inside perimeter\nformwork prior to concrete pouring."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

@@ -1,0 +1,152 @@
+{
+  "family_id": "FLETCHER_TAPES_ACCESSORIES",
+  "family_name": "Fletcher Membrane Tapes and Thermal Break Accessories",
+  "datasheet_pdf_url": "https://insulation.com.au/product/vapastop-883-reinforced-foil-tape/",
+  "sds_url": "https://insulation.com.au/wp-content/uploads/2023/12/SUIS-Sisalation-Reflective-Foil-Insulation.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Fletcher Membrane Tapes and Thermal Break Accessories comprise\nhigh-performance sealing tapes and thermal break materials designed to\ncomplement Fletcher's Sisalation, Vapawrap, and glasswool insulation systems.\nTapes like Vapastop 883 and VapaSeam are engineered from reinforced aluminum\nfoil or technical acrylic polymers to provide durable vapor-tight and air-tight\nseams. Thermal break accessories ensure continuous thermal isolation over steel\nand timber framing members in compliance with NCC energy efficiency\nprovisions.",
+    "features": [
+      "Reinforced aluminum foil backing for high tensile\nstrength",
+      "Aggressive cold-weather acrylic and synthetic rubber adhesives",
+      "Vapor-tight seal preventing moisture migration across membrane laps",
+      "Airtight\nbarrier improving blower-door building tightness",
+      "Tested for low flammability\nto AS 1530.2",
+      "Hand-tearable and easy-release liners for fast jobsite\ninstallation",
+      "Compatible with Sisalation reflective foils, Vapawrap, and HVAC\nduct wrap",
+      "Resistant to UV degradation and temperature extremes"
+    ],
+    "applications": [
+      "roof",
+      "roofline",
+      "wall",
+      "external wall",
+      "internal wall",
+      "duct",
+      "shed"
+    ],
+    "technical": [
+      {
+        "property": "Tape Widths",
+        "value": "48\nmm, 72 mm, 96 mm",
+        "standard": ""
+      },
+      {
+        "property": "Roll Lengths",
+        "value": "50\nm",
+        "standard": ""
+      },
+      {
+        "property": "Flammability Index",
+        "value": "≤ 5 (Low\nFlammability)",
+        "standard": "AS 1530.2"
+      },
+      {
+        "property": "Adhesive Type",
+        "value": "Pressure-sensitive acrylic / synthetic adhesive",
+        "standard": ""
+      },
+      {
+        "property": "Operating Temperature",
+        "value": "-20°C to +80°C",
+        "standard": ""
+      },
+      {
+        "property": "Vapor Transmission",
+        "value": "Vapor Barrier Class 1 / Class 2\nseal",
+        "standard": "ASTM E96"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Vapastop 883\nReinforced Foil Tape 48mm",
+        "size_or_rating": "48 mm x 50 m",
+        "pack": "Roll\n(Carton of 24)"
+      },
+      {
+        "variant": "Vapastop 883 Reinforced Foil Tape 72mm",
+        "size_or_rating": "72 mm x 50 m",
+        "pack": "Roll (Carton of 16)"
+      },
+      {
+        "variant": "Sisalation VapaSeam Acrylic Tape 48mm",
+        "size_or_rating": "48 mm x 50 m",
+        "pack": "Roll (Carton of 24)"
+      }
+    ],
+    "fire": "Flammability Index ≤ 5 to AS 1530.2;\nSuitable for bushfire construction up to BAL-40 to AS 3959 when used with\ncompliant membranes",
+    "compliance": "AS/NZS 4200.2:2017, AS 1530.2, AS 3959, NCC\nVolume One and Two",
+    "sustainability": "Low VOC emissions; zero ozone-depleting\npotential (ODP)",
+    "install": [
+      "Ensure substrate and membrane surfaces are dry,\nclean, and free from dust, oil, and frost",
+      "Overlap building membrane sheets by\na minimum of 150mm (or 50mm if fully taped)",
+      "Center tape squarely over the\noverlapping seam or penetration interface",
+      "Press tape firmly down along the\nentire length using a plastic squeegee or roller",
+      "Ensure all air bubbles and\nwrinkles are completely smoothed out",
+      "Do not overstretch tape during\napplication to avoid tension wrinkles"
+    ],
+    "selection_checklist": [
+      "Confirm\nmembrane type (use Vapastop 883 for reflective foils; VapaSeam for breathable\nwraps)",
+      "Select width (48mm standard, 72mm for roofs and wide gaps)",
+      "Calculate total lineal meters required for laps and penetrations",
+      "Verify\napplication temperature exceeds +5°C"
+    ],
+    "accessories": [
+      "Plastic application\nsqueegee",
+      "Utility knife"
+    ],
+    "limitations": [
+      "Pressure-sensitive adhesive\nrequires firm squeegee pressure for permanent bond",
+      "Must not be applied to\nwet, oily, or frozen surfaces",
+      "Not intended for structural load-bearing\napplications"
+    ],
+    "warranty": "Backed by Fletcher Insulation product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Vapastop 883",
+      "Fletcher foil tape",
+      "Sisalation tape",
+      "VapaSeam tape",
+      "reinforced aluminum foil tape",
+      "membrane\nsealing tape",
+      "sarking tape",
+      "72mm foil tape"
+    ],
+    "problem_keywords": [
+      "leaking membrane laps",
+      "air leakage through sarking seams",
+      "vapor barrier\nseal failure",
+      "drafts in roof cavity",
+      "unsealed wall wrap joints"
+    ],
+    "placement": [
+      "roof",
+      "roofline",
+      "wall",
+      "external wall",
+      "internal wall",
+      "duct",
+      "shed"
+    ],
+    "priority_fit": [
+      "condensation",
+      "easy_install",
+      "fire"
+    ],
+    "use_cases": [
+      "Sealing overlaps on Sisalation reflective foil sarking in roof\nand wall cavities",
+      "Joining Permastop building blanket foil laps for\ncondensation control",
+      "Sealing HVAC sheet metal duct wrap seams and\npenetrations"
+    ],
+    "not_for": [
+      "Direct structural mechanical fastening",
+      "High-temperature flue exhaust pipes above 120°C",
+      "Subterranean wet tanking\nmembranes"
+    ],
+    "rag_summary": "Fletcher Membrane Tapes and Thermal Break\nAccessories provide engineered sealing solutions including Vapastop 883\nreinforced aluminum foil tape and Sisalation VapaSeam tape. Built with high-grab\npressure-sensitive adhesives and tear-resistant backings, they form airtight and\nvapor-tight seals across building membranes, reflective foils, and duct wrap.\nRated with a low Flammability Index (≤ 5 to AS 1530.2), they are essential\ncomponents for achieving NCC-compliant energy efficiency, condensation control,\nand air barrier integrity."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

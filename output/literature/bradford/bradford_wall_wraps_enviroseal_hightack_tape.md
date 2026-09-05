@@ -1,7 +1,7 @@
 ---
 title: "Bradford Wall Wraps - Enviroseal Hightack Tape - Wrap Insulation | Bradford"
-description: "Part of the CSR family with 100+ years of Australian building solutions. Engineered to meet Australian building requirements."
-keywords: "Bradford Wall Wraps - Enviroseal Hightack Tape, Bradford wrap, wall insulation, insulation Australia, Bradford Australia"
+description: "Bradford Enviroseal HighTack Tape is a single-sided, aggressive adhesive sealing tape featuring a flexible synthetic carrier designed to create durabl"
+keywords: "Bradford Wall Wraps - Enviroseal Hightack Tape, Bradford wrap, wall insulation, roof insulation, pipe insulation, duct insulation, insulation Australia, Bradford Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: BRADFORD_WALL_WRAPS_ENVIROSEAL_HIGHTACK_TAPE
 ---
@@ -10,27 +10,35 @@ family_id: BRADFORD_WALL_WRAPS_ENVIROSEAL_HIGHTACK_TAPE
 
 **Bradford Wrap** — reflective membrane for weather protection and condensation control.
 
-Part of the CSR family with 100+ years of Australian building solutions. Engineered to meet Australian building requirements.
+Bradford Enviroseal HighTack Tape is a single-sided, aggressive adhesive sealing tape featuring a flexible synthetic carrier designed to create durable air and watertight seals on construction membranes. Formulated with a solvent-free, high-grab adhesive, it adheres aggressively to vapour-permeable wall wraps, aluminium foil sarking, timber, steel, plastics, and masonry. It is specifically engineered to seal overlaps, penetrations, window flashings, and pipe junctions to ensure the integrity of the building envelope.
 
 ## Key features
 
-- High-performance sealing and joining solution.
-- maintains air and vapour barrier continuity.
-- compatible with a range of insulation substrates.
-- 50 Year Warranty backed by CSR.
-- ACCC certified.
+- Aggressive high initial tack and long-term permanent adhesion.
+- Flexible carrier accommodates building movement and thermal expansion.
+- Forms an airtight and watertight seal around membrane overlaps and penetrations.
+- Safe formulation: free of solvents, chlorine, and formaldehyde for low emissions.
+- Multisubstrate adhesion: bonds to PE, PP, aluminium foil, timber, plastics, and metal.
+- Hand tearable or easily cut with a utility blade for quick site installation.
+- Operating temperature range from -40°C to +80°C.
+- Compatible with all Bradford Enviroseal and Thermoseal wraps.
 
 ## Applications and selection
 
-- Wall Wrap / Sarking
+- wall
+- external wall
+- roof
+- roofline
+- internal wall
+- pipe
+- duct
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Verify compatibility with chosen membrane (ideal for Enviroseal RW, CW, and Tuff).
+2. Calculate total linear metres needed for all horizontal/vertical laps and penetrations.
+3. Ensure surface temperature at time of installation is above +5°C (or pre-warmed if cold).
+4. Confirm 60mm width is sufficient for joint width.
 
 
 ## Current catalogue range
@@ -41,33 +49,52 @@ Part of the CSR family with 100+ years of Australian building solutions. Enginee
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Wrap | Manufacturer catalogue |
-| Material | Tape / Sealant | Manufacturer catalogue |
-| Applications | Wall Wrap / Sarking | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Carrier Material | Reinforced polyethylene / polyolefin film | - |
+| Adhesive Type | Solvent-free polyacrylic pressure-sensitive adhesive | - |
+| Roll Dimensions | 60 mm width x 25 m length | - |
+| Thickness | Approx. 0.3 mm | - |
+| Operating Temperature Range | -40°C to +80°C | - |
+| Application Temperature | +5°C to +40°C (effective down to -10°C on clean dry surfaces) | - |
+| Water Resistance | Waterproof airtight seal | - |
+| Packaging | 10 rolls per carton | - |
+| Product Code | 155170 | - |
 
-
+Extracted from manufacturer datasheet: https://www.bradfordinsulation.com.au/products/hightack-tape
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Complies with AS 1530.2 early fire hazard properties when applied to compliant building membranes
+
+AS/NZS 4200.2, AS 1530.2, Passive House airtight envelope compatible
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.csrbradford.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://www.firecrunch.com.au/wp-content/uploads/2016/02/BRADFORD-MSDS-e3a0-435b-b6ef-6f1027726ce6.pdf.
 
+## Recommended accessories
+
+- Bradford Enviroseal wall wraps.
+- Application squeegee.
+
 
 ## Limitations and warnings
 
-- Install in accordance with manufacturer specifications..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Pressure-sensitive adhesive requires firm squeegee pressure to activate bond.
+- Must not be applied to wet, greasy, or dusty substrates.
+- Not intended for permanent outdoor UV exposure exceeding membrane exposure limits.
+- Non-structural; cannot support mechanical loads.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Install in accordance with manufacturer specifications.
+1. Ensure surfaces to be taped are clean, dry, and free of dust, grease, oil, and frost.
+2. Position membrane overlap with a minimum 150mm lap (or 50mm if taped per AS 4200.2).
+3. Centre the 60mm HighTack Tape squarely over the seam or penetration edge.
+4. Apply tape smoothly avoiding tension wrinkles and air bubbles.
+5. Press down firmly along the entire tape length using a plastic squeegee or pressure roller.
+6. Seal around pipe and duct penetrations by cutting overlapping collar strips.
 
 ## Safety and handling
 
@@ -75,11 +102,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Solvent-free, zero chlorine, zero formaldehyde, low VOC emissions
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Backed by CSR Bradford product warranty
 
 ## Specification starting point
 

@@ -1,0 +1,168 @@
+{
+  "family_id": "FLETCHER_FI24_FLEX_DUCTLINER",
+  "family_name": "FI24 Flexible Ductliner",
+  "datasheet_pdf_url": "https://insulation.com.au/product/fi24-flexible-ductliner/",
+  "sds_url": "https://insulation.com.au/wp-content/uploads/2023/12/SUIS-FBS-1-Glasswool-Bio-soluble-Insulation.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "FI24 Flexible Ductliner is a lightweight, flexible glasswool\ninternal liner specifically developed for air conditioning ductwork and\nmechanical equipment. Possessing the high resiliency of a semi-rigid board while\nretaining sufficient flexibility for roll form handling, it is designed for use\nwith automated sheet metal cutting and coil line duct-making machinery. It\nprovides thermal performance and acoustic attenuation to reduce fan roar and air\nturbulence within HVAC systems.",
+    "features": [
+      "Nominal density of 24 kg/m³\noffering optimal balance of flexibility and acoustic absorption",
+      "Suitable for\nuse with automated sheet metal cutting and coil-line duct-making machinery",
+      "Possesses high resiliency of a board while retaining flexibility in roll form",
+      "Provides thermal and acoustic dampening to control airflow noise and energy\nloss",
+      "Available unfaced or faced with Sisalation Heavy Duty Perforated foil,\nVapastop 883, or Black Matt Facing",
+      "Non-combustible glasswool core complying\nwith AS 1530.1",
+      "Manufactured in Australia from up to 80% recycled glass",
+      "Low\nVOC emissions and safe bio-soluble FBS-1 formulation",
+      "Complies with Australian\nStandard AS 4254 for HVAC ductwork"
+    ],
+    "applications": [
+      "duct",
+      "internal\nwall",
+      "wall"
+    ],
+    "technical": [
+      {
+        "property": "Density",
+        "value": "24 kg/m³",
+        "standard": ""
+      },
+      {
+        "property": "Thermal Conductivity",
+        "value": "0.034 W/m·K\nat 23°C",
+        "standard": "ASTM C518"
+      },
+      {
+        "property": "Material R-values",
+        "value": "R0.7 (25mm), R1.1 (38mm), R1.5 (50mm), R2.0 (70mm)",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Thicknesses",
+        "value": "25 mm, 38 mm, 50\nmm, 70 mm, 108 mm",
+        "standard": ""
+      },
+      {
+        "property": "Roll Dimensions",
+        "value": "1500 mm width x 12 m, 15 m, or 20 m length",
+        "standard": ""
+      },
+      {
+        "property": "Combustibility",
+        "value": "Non-combustible (base glasswool)",
+        "standard": "AS 1530.1"
+      },
+      {
+        "property": "Early Fire Hazard Indices",
+        "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Maximum Air Velocity",
+        "value": "Up to 20 m/s (when faced with approved facing and pinned per AS 4254)",
+        "standard": "AS 4254"
+      },
+      {
+        "property": "Operating Temperature",
+        "value": "Up\nto 120°C (faced)",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "FI24 Flexible\nDuctliner Unfaced 25mm",
+        "size_or_rating": "25 mm x 1500 mm x 20 m (R0.7)",
+        "pack": "Roll (Code: 4005657)"
+      },
+      {
+        "variant": "FI24 Flexible Ductliner\nUnfaced 50mm",
+        "size_or_rating": "50 mm x 1500 mm x 12 m (R1.5)",
+        "pack": "Roll\n(Code: 4005658)"
+      },
+      {
+        "variant": "FI24 Flexible Ductliner HDP Faced 25mm",
+        "size_or_rating": "25 mm x 1500 mm x 20 m (R0.7)",
+        "pack": "Roll"
+      },
+      {
+        "variant": "FI24 Flexible Ductliner HDP Faced 50mm",
+        "size_or_rating": "50 mm\nx 1500 mm x 12 m (R1.5)",
+        "pack": "Roll"
+      }
+    ],
+    "fire": "Non-combustible core to\nAS 1530.1; AS/NZS 1530.3: Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0,\nSmoke Developed: 0-1; Compliant with AS 4254 fire requirements",
+    "compliance": "AS/NZS 4859.1, AS 4254.1 & AS 4254.2, NCC Volume One and Two",
+    "sustainability": "Contains up to 80% recycled glass content; bio-soluble FBS-1;\nzero ODP; low VOC",
+    "install": [
+      "Feed FI24 Flexible Ductliner roll into\nautomatic duct-forming machinery or cut manually to duct dimensions",
+      "Apply 100% coverage of approved duct adhesive to interior sheet metal\nsurfaces",
+      "Press FI24 roll liner into place with facing oriented towards the\ninterior airstream",
+      "Secure liner with mechanical impact or resistance-welded\nfasteners at centers specified by AS 4254",
+      "Coat exposed leading edges,\ntransverse cut joints, and perimeter seams with protective mastic sealant",
+      "Ensure all corners and turns are firmly seated to prevent airstream\ndelamination"
+    ],
+    "selection_checklist": [
+      "Confirm ductwork sizing and automated\nor manual lining method",
+      "Choose facing option (HDP perforated foil for general\nHVAC; BMF for aesthetic return grilles; Vapastop 883 for sealed air hygiene)",
+      "Verify required R-value (e.g. R0.7 for 25mm, R1.5 for 50mm) to satisfy NCC\nSection J energy efficiency",
+      "Confirm maximum air velocity within the duct\nsystem (up to 20 m/s)"
+    ],
+    "accessories": [
+      "Duct liner adhesive",
+      "Mechanical\nweld pins and retainers",
+      "Edge-sealing mastic",
+      "Vapastop 883 Foil Tape"
+    ],
+    "limitations": [
+      "Must not be installed in outdoor ductwork without external\nweatherproofing",
+      "Maximum continuous operating temperature of facing is 120°C",
+      "Ensure air stream velocities do not exceed manufacturer tested maximums without\nadditional mechanical fastening"
+    ],
+    "warranty": "Backed by Fletcher Insulation\ncommercial product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Fletcher\nFI24",
+      "FI24 Flexible Ductliner",
+      "24kg ductliner",
+      "flexible glasswool\nductliner",
+      "coil line duct insulation",
+      "automated duct liner",
+      "internal duct\ninsulation roll",
+      "Fletcher HVAC ductliner",
+      "perforated foil ductliner"
+    ],
+    "problem_keywords": [
+      "HVAC airflow noise",
+      "fan rumble in supply ducts",
+      "ductwork condensation",
+      "thermal loss in sheet metal ducts",
+      "ductliner\ndelamination in air stream"
+    ],
+    "placement": [
+      "duct",
+      "internal wall",
+      "wall"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "thermal",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Internal thermal and acoustic lining of sheet metal ductwork fabricated using\nautomated coil lines",
+      "Lining HVAC plenum chambers and mixing boxes to suppress\nfan turbulence noise",
+      "Acoustic dampening in low-to-medium velocity air\nhandling duct runs"
+    ],
+    "not_for": [
+      "External duct wrap lagging (use FI22\nDuctwrap or General Purpose Blanket)",
+      "Unsheltered outdoor HVAC ductwork",
+      "High-temperature boiler exhausts"
+    ],
+    "rag_summary": "Fletcher FI24 Flexible\nDuctliner is a 24 kg/m³ flexible glasswool internal duct lining roll\nspecifically engineered for automated coil-line and sheet metal duct\nmanufacturing. Combining the compressive recovery of a board with the\nflexibility of a blanket, it dampens airflow turbulence and equipment noise\nwhile delivering thermal ratings from R0.7 to R2.0. Non-combustible (AS 1530.1)\nand compliant with AS 4254, it is available unfaced or laminated with HDP\nperforated foil, Black Matt Facing, or Vapastop 883."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

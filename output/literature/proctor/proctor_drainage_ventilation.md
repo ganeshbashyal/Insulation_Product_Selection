@@ -1,7 +1,7 @@
 ---
 title: "Proctor Drainage / Ventilation - Drainage / Ventilation Insulation | Proctor"
-description: "Quality insulation engineered for Australian conditions. Engineered to meet Australian building requirements."
-keywords: "Proctor Drainage / Ventilation, insulation Australia, Proctor Australia"
+description: "Proctor Drainage / Ventilation represents an engineered suite of passive roof and wall cavity ventilation and drainage components, including ProctorPa"
+keywords: "Proctor Drainage / Ventilation, wall insulation, roof insulation, insulation Australia, Proctor Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: PROCTOR_DRAINAGE_VENTILATION
 ---
@@ -10,25 +10,34 @@ family_id: PROCTOR_DRAINAGE_VENTILATION
 
 **Proctor Drainage / Ventilation** — drainage / ventilation insulation product.
 
-Quality insulation engineered for Australian conditions. Engineered to meet Australian building requirements.
+Proctor Drainage / Ventilation represents an engineered suite of passive roof and wall cavity ventilation and drainage components, including ProctorPassive Drainage Battens (DB-FR), ProctorVent Vented Battens (VB10 & VB20), Over-Fascia Vents (FV10 & FV25), and Ridge Vents (RV10). Manufactured from high-compressive-strength, flame-retardant polyolefin and polypropylene extrusions with a Spread of Flame index of 0, these components create continuous 10mm to 20mm drained cavities behind claddings and beneath metal roofing. They discharge trapped moisture and condensation while promoting natural buoyancy airflow to prevent timber rot, corrosion, and mould.
 
 ## Key features
 
-- High-performance membrane technology.
-- provides effective vapour and moisture management.
-- compatible with a wide range of substrates.
+- High-compressive-strength polyolefin drainage battens (>500 kPa to ASTM D695).
+- Flame retardant formulation with Spread of Flame index of 0 to AS 1530.3.
+- Creates continuous, calculated 10mm or 20mm ventilation and drainage pathways.
+- Specifically designed to prevent ponding on sarking behind roof battens and at eaves.
+- Reduces conductive heat transfer between metal cladding and building frames.
+- 4mm evenly spaced apertures prohibit large insects while preventing capillary water draw.
+- Self-adhesive backing on vented battens allows fast, temporary hold prior to mechanical fixing.
+- Fully compliant with NCC 2022 condensation management provisions (F8D5 & 10.8.3).
+- Intumescent option (DB-FR-INT) swells upon fire exposure to slow flame spread.
+- Comprehensive range includes fascia vents, ridge vents, vented battens, and eaves baffles.
 
 ## Applications and selection
 
-- Drainage / Ventilation
+- roof
+- roofline
+- wall
+- external wall
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm application (metal roof drainage vs drained cavity wall behind cladding).
+2. Select cavity depth (10mm for VB10/DB-FR or 20mm for VB20 to meet NCC 2022 deemed-to-satisfy requirements).
+3. Choose roof fascia vent model based on roof pitch (FV10 for pitch >22°; FV25 for pitch <22° and cathedral roofs).
+4. Calculate total linear meterage of battens and vents required.
 
 
 ## Current catalogue range
@@ -40,34 +49,53 @@ Quality insulation engineered for Australian conditions. Engineered to meet Aust
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Drainage / Ventilation | Manufacturer catalogue |
-| Material | Geocomposite / Membrane | Manufacturer catalogue |
-| Applications | Drainage / Ventilation | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material | Flame retardant polyolefin extrusion / polypropylene | - |
+| Batten Dimensions (DB-FR) | 10.5 mm thickness x 40 mm width x 2500 mm length (folds to 21mm) | - |
+| Vented Batten Thicknesses (VB10 / VB20) | VB10: 10 mm; VB20: 20 mm | - |
+| Compressive Strength | > 500 kPa | ASTM D695 |
+| Airflow Capacity (VB20) | 16,000 mm² per linear metre | - |
+| Airflow Capacity (FV10 / FV25) | FV10: 10,000 mm²/m; FV25: 25,000 mm²/m | - |
+| Spread of Flame Index | 0 (Range 0-10) | AS 1530.3 |
+| Maximum Service Temperature | 90°C (melting point 160°C) | ASTM D3418 |
+| Aperture Size | 4 mm openings (prevents capillary action and insect entry) | - |
 
-
+Extracted from manufacturer datasheet: https://proctorgroup.com.au/roof-ventilation/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Spread of Flame Index: 0 to AS 1530.3; Tested as per Specification C1.10 (7) of the NCC; Intumescent option available
+
+NCC 2022 Volume 1 (F8D5) and Volume 2 (10.8.3) condensation management requirements for ventilated roof spaces and drained wall cavities; AS 1530.3
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://proctorgroup.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://proctorgroup.com.au/wp-content/uploads/2021/02/DCT_PIR_Silver_White_Tissue_Ver_2_2020-2.pdf.
 
+## Recommended accessories
+
+- ProctorWrap vapour permeable membranes.
+- ProctorWrap HighTack PLUS Tape.
+- Extended length cladding fasteners.
+
 
 ## Limitations and warnings
 
-- Ensure compatibility with substrate and adjacent materials..
-- follow manufacturer overlap requirements..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Non-structural cavity spacer; claddings and roof sheets must fix through the batten into structural framing.
+- Do not over-torque fasteners to avoid crushing the ventilation openings.
+- Maximum service temperature is 90°C.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Ensure compatibility with substrate and adjacent materials.
+1. For roofs, install sarking over purlins with minimum drape to prevent ponding.
+2. Lay ProctorPassive DB-FR running the full length of each roof batten or beneath concealed-fix clips.
+3. Fix roof sheeting through battens into structural framing, ensuring torque does not crush the batten profile.
+4. For walls, fix DB-FR or VB10/VB20 vertically or horizontally aligned with studs, noggings, and window perimeters.
+5. Use the integrated adhesive backing on vented battens to hold them in place prior to mechanical fastening.
+6. Fix external wall cladding through the drainage battens directly into framing studs as normal.
+7. Combine with Over-Fascia Vents (FV10/FV25) and Ridge Vents (RV10) to complete the continuous passive airflow loop.
 
 ## Safety and handling
 
@@ -75,11 +103,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+100% recyclable polyolefin / polypropylene; zero ODP; non-toxic
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Backed by Proctor Group Australia product warranty
 
 ## Specification starting point
 

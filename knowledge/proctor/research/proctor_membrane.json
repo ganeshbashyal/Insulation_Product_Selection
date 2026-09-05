@@ -1,0 +1,67 @@
+{
+  "family_id": "PROCTOR_MEMBRANE",
+  "family_name": "Proctor Membrane",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "gemini_not_found",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "",
+    "features": "",
+    "applications": "",
+    "technical": "",
+    "range": "",
+    "fire": "",
+    "compliance": "",
+    "sustainability": "",
+    "install": "",
+    "selection_checklist": "",
+    "accessories": "",
+    "limitations": "",
+    "warranty": ""
+  },
+  "retrieval": {
+    "search_keywords": [
+      "proctor membrane",
+      "proctorwrap",
+      "proctor building wrap",
+      "proctor vapour\npermeable membrane",
+      "proctor roof underlay",
+      "proctor wall wrap",
+      "breathable\nmembrane proctor",
+      "proctor passive membrane"
+    ],
+    "problem_keywords": [
+      "condensation in external walls",
+      "water ingress behind cladding",
+      "air leakage\nthrough wall frame",
+      "mould in timber framing",
+      "draughty external walls",
+      "roof\nspace condensation"
+    ],
+    "placement": [
+      "wall",
+      "external wall",
+      "roof",
+      "roofline"
+    ],
+    "priority_fit": [
+      "condensation",
+      "thermal",
+      "fire"
+    ],
+    "use_cases": [
+      "Weather barrier and vapour-permeable membrane on external timber\nor steel framed walls",
+      "Roof sarking underlay for pitched metal or tile roofs\nin residential construction",
+      "Airtight building envelope wrap for\nhigh-performance and Passive House buildings"
+    ],
+    "not_for": [
+      "Direct exposure\nto weather without external cladding beyond rated UV limit",
+      "Underfloor soil\ndirect contact or damp-proofing",
+      "Internal acoustic decorative finishes"
+    ],
+    "rag_summary": "Proctor Membrane encompasses the broader family of ProctorWrap\nand ProctorPassive technical building fabrics engineered for Australian climate\nzones. These spunbonded polyolefin and composite membranes serve as Class 3 or\nClass 4 vapour-permeable, airtight, and water-barrier layers across wall\nassemblies and pitched roofs. By allowing structural moisture to escape while\nblocking external liquid water and wind-driven draughts, they protect building\ndurability and enhance thermal insulation efficiency."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

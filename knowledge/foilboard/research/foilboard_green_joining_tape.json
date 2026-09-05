@@ -1,0 +1,155 @@
+{
+  "family_id": "FOILBOARD_GREEN_JOINING_TAPE",
+  "family_name": "Foilboard Green Joining Tape",
+  "datasheet_pdf_url": "https://www.foilboard.com.au/product-category/accessories/",
+  "sds_url": "https://www.foilboard.com.au/wp-content/uploads/2021/04/Foilboard-Green-Safety-Data-Sheet.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Foilboard Green Joining Tape is a heavy-duty reinforced aluminum\nfoil tape engineered with an anti-glare green coating on its outer face to match\nthe green side of Foilboard Green panels. Coated with an aggressive,\ncold-weather acrylic pressure-sensitive adhesive, it creates a continuous\nairtight and vapor-tight seal along panel butt joints and penetrations. Designed\nspecifically for outdoor, roof, and exposed wall applications, it prevents glare\nblinding installers while maintaining thermal envelope continuity.",
+    "features": [
+      "Anti-glare green coating matches the green face of Foilboard Green panels",
+      "Reinforced aluminum foil backing provides high tensile and tear strength",
+      "High-tack pressure-sensitive acrylic adhesive bonds aggressively to foil\nfacings",
+      "Creates an impermeable Class 1 vapor barrier seal across panel\njoints",
+      "Airtight jointing prevents convective heat loss and air infiltration",
+      "Operating temperature resistance from -20°C to +80°C",
+      "Low Flammability Index\n(≤ 5) compliant with AS 1530.2",
+      "Easy-release paper backing liner for fast\non-site peeling and installation"
+    ],
+    "applications": [
+      "roof",
+      "roofline",
+      "wall",
+      "external wall",
+      "internal wall",
+      "ceiling",
+      "shed",
+      "underfloor"
+    ],
+    "technical": [
+      {
+        "property": "Backing Material",
+        "value": "Reinforced aluminum\nfoil with anti-glare green lacquer coating",
+        "standard": ""
+      },
+      {
+        "property": "Adhesive Type",
+        "value": "Pressure-sensitive solvent acrylic adhesive",
+        "standard": ""
+      },
+      {
+        "property": "Roll Width",
+        "value": "72 mm (also available\nin 48 mm)",
+        "standard": ""
+      },
+      {
+        "property": "Roll Length",
+        "value": "50 m",
+        "standard": ""
+      },
+      {
+        "property": "Operating Temperature Range",
+        "value": "-20°C\nto +80°C",
+        "standard": ""
+      },
+      {
+        "property": "Vapor Permeance",
+        "value": "Class 1\nVapor Barrier (< 0.002 µg/N·s)",
+        "standard": "ASTM E96"
+      },
+      {
+        "property": "Flammability Index",
+        "value": "≤ 5 (Low Flammability)",
+        "standard": "AS 1530.2"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Foilboard Green Joining Tape 72mm",
+        "size_or_rating": "72 mm x 50 m",
+        "pack": "Roll (Carton of 16)"
+      },
+      {
+        "variant": "Foilboard Green Joining Tape 48mm",
+        "size_or_rating": "48 mm x 50 m",
+        "pack": "Roll (Carton of 24)"
+      }
+    ],
+    "fire": "Flammability Index ≤ 5 to AS 1530.2;\nSuitable for bushfire construction up to BAL-40 to AS 3959 when used with\nFoilboard Green systems",
+    "compliance": "AS/NZS 4200.2:2017, AS 1530.2, AS 3959,\nNCC Volume One and Two",
+    "sustainability": "Low VOC emissions; zero\nozone-depleting potential (ODP)",
+    "install": [
+      "Ensure Foilboard panel faces are\ncompletely dry, clean, and free of dust, grease, and moisture",
+      "Align Foilboard\npanels with tightly butted joints",
+      "Center the 72mm Green Joining Tape squarely\nover the seam with green face outward",
+      "Peel back release liner gradually while\napplying tape along the joint",
+      "Press down firmly along the entire tape length\nusing a plastic squeegee or roller to activate pressure-sensitive adhesive",
+      "Smooth out all wrinkles and air bubbles to guarantee an airtight, vapor-proof\nseal"
+    ],
+    "selection_checklist": [
+      "Confirm tape color matches the outward-facing\ngreen side of Foilboard Green panels",
+      "Select roll width (72mm recommended for\nbutt joints; 48mm for narrow interfaces)",
+      "Calculate total linear meters of\npanel seams, corners, and penetrations",
+      "Verify ambient application temperature\nis above +5°C"
+    ],
+    "accessories": [
+      "Foilboard Green panels",
+      "Plastic\napplication squeegee"
+    ],
+    "limitations": [
+      "Surfaces must be completely clean and\ndry before taping",
+      "Requires firm squeegee pressure to activate permanent\nadhesive bond",
+      "Not designed for structural load-bearing mechanical fastening"
+    ],
+    "warranty": "Covered under Foilboard 25-year performance warranty system"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Foilboard Green Joining Tape",
+      "Foilboard\ngreen tape",
+      "anti-glare foil tape",
+      "green reinforced foil tape",
+      "72mm green\nfoil tape",
+      "Foilboard seam tape",
+      "green aluminum tape",
+      "Foilboard tape 72mm"
+    ],
+    "problem_keywords": [
+      "glare blinding installers on sunny roofs",
+      "air\nleakage through Foilboard seams",
+      "unsealed insulation panel joins",
+      "moisture\npassing through insulation gaps",
+      "taping green face of Foilboard"
+    ],
+    "placement": [
+      "roof",
+      "roofline",
+      "wall",
+      "external wall",
+      "internal wall",
+      "ceiling",
+      "shed",
+      "underfloor"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "condensation",
+      "thermal",
+      "fire"
+    ],
+    "use_cases": [
+      "Sealing butt joints on the\ngreen anti-glare face of Foilboard Green panels in roof installations",
+      "Joining\nexternal wall Foilboard panels on exposed, sunny scaffolding where glare\nreduction is critical",
+      "Sealing panel penetrations and window flashing\ninterfaces on green-faced Foilboard"
+    ],
+    "not_for": [
+      "Direct structural\nmechanical fastening",
+      "High-temperature exhaust flue pipes above 80°C",
+      "Subterranean wet tanking seams"
+    ],
+    "rag_summary": "Foilboard Green Joining Tape\nis a 72mm reinforced aluminum foil tape featuring an anti-glare green coating\nand an aggressive acrylic pressure-sensitive adhesive. Designed specifically to\nseal butt joints and penetrations on the green face of Foilboard Green panels,\nit prevents installer glare in sunny roof and wall installations while\nmaintaining airtight and vapor-tight integrity. Tested to AS 1530.2 with a low\nFlammability Index (≤ 5), it ensures continuous thermal envelope performance\nacross residential and commercial buildings."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

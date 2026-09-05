@@ -1,0 +1,164 @@
+{
+  "family_id": "ECOWOOL_WRAP",
+  "family_name": "Ecowool Wrap",
+  "datasheet_pdf_url": "https://pgfinsulation.com.au/products/climawrap-cw/",
+  "sds_url": "https://pgfinsulation.com.au/resource-centre/technical-documentation/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Ecowool ClimaWrap (ClimaWrap CW / ClimaWrap BMX800) is a\ndurable, triple-layer Class 4 vapour-permeable building wrap engineered to\nprovide weather defense and moisture control in external walls. Constructed with\ntwo spunbonded non-woven outer layers protecting a microporous vapour-permeable\ninner membrane core, it acts as a water and air barrier while allowing internal\nwater vapour to escape. Compliant with AS/NZS 4200.1:2017 and the National\nConstruction Code across climate zones 2 to 8, it reduces condensation risks\nbehind brick veneer, fibre cement, timber, and metal claddings.",
+    "features": [
+      "Triple-layer spunbond non-woven construction for high tensile and tear\nstrength",
+      "Class 4 Vapour Permeable membrane specially designed to minimise\ncondensation risk",
+      "Functions as a water barrier protecting the building frame\nfrom external weather penetration",
+      "Effective air barrier reducing air leakage\nand enhancing thermal efficiency",
+      "Flammability Index Low (<5) tested to\nAS 1530.2-1993",
+      "Suitable for a wide range of climatic conditions across\nAustralia (Zones 2 to 8)",
+      "Puncture and tear resistant during construction on\nsite",
+      "Protects on both faces by non-woven structures against corrosive\nenvironments",
+      "Available in convenient 1350mm and 1500mm widths"
+    ],
+    "applications": [
+      "wall",
+      "external wall"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "Triple-layer spunbond non-woven polymer fabric with\nvapour-permeable membrane core",
+        "standard": ""
+      },
+      {
+        "property": "Duty\nClassification",
+        "value": "Light Duty",
+        "standard": "AS/NZS 4200.1:2017"
+      },
+      {
+        "property": "Vapour Permeability",
+        "value": "Class 4 Vapour Permeable (Vapour\nPermeance: 3.967 µg/N·s",
+        "Resistance": 0.3,
+        "MN·s/g)": "standard\": \"ASTM E96-2016 /\nAS/NZS 4200.1"
+      },
+      {
+        "property": "Water Control Classification",
+        "value": "Water\nBarrier",
+        "standard": "AS/NZS 4201.4"
+      },
+      {
+        "property": "Air Control\nClassification",
+        "value": "Air Barrier",
+        "standard": "AS/NZS 4200.1"
+      },
+      {
+        "property": "Nominal Mass per Unit Area",
+        "value": "145 g/m²",
+        "standard": ""
+      },
+      {
+        "property": "Nominal Thickness",
+        "value": "0.42 mm",
+        "standard": ""
+      },
+      {
+        "property": "Roll Dimensions (1500mm)",
+        "value": "1500 mm width x 30 m length\n(45 m² per roll)",
+        "standard": ""
+      },
+      {
+        "property": "Roll Dimensions\n(1370mm/1350mm)",
+        "value": "1370 mm / 1350 mm width x 30 m length (41.1 m² per\nroll)",
+        "standard": ""
+      },
+      {
+        "property": "Flammability Index",
+        "value": "Low\n(< 5)",
+        "standard": "AS 1530.2-1993"
+      }
+    ],
+    "range": [
+      {
+        "variant": "ClimaWrap\nBMX800 / CW (1500mm)",
+        "size_or_rating": "1500 mm x 30 m (45 m²)",
+        "pack": "Roll"
+      },
+      {
+        "variant": "ClimaWrap BMX800 / CW (1370mm)",
+        "size_or_rating": "1370\nmm x 30 m (41.1 m²)",
+        "pack": "Roll"
+      }
+    ],
+    "fire": "Flammability Index Low (< 5)\ntested in accordance with AS 1530.2-1993; Suitable for external walls in\nbushfire-prone areas up to BAL-40 under AS 3959",
+    "compliance": "AS/NZS 4200.1:2017, AS/NZS 4200.2, AS 1530.2-1993, NCC 2019 / NCC 2022 Volume 1\nand 2 condensation management",
+    "sustainability": "Zero ODP, non-hazardous, 100%\nrecyclable polyolefin polymer fabrics, low VOC",
+    "install": [
+      "Install\nhorizontally on external timber or steel studs starting from the bottom plate",
+      "Fasten mechanically to framing members at maximum 300mm centres using\nbroad-head nails or staples",
+      "Ensure upper layers overlap lower layers by at\nleast 150mm to shed water outward",
+      "Vertical joints must overlap by at\nleast 150mm over a stud",
+      "Seal all overlaps and penetrations with EcoSeal 201\nCloth Tape for airtight weather resistance",
+      "Provide adequate drainage cavity\nbetween ClimaWrap and exterior cladding (especially non-absorbent claddings like\nsteel)",
+      "Seal neatly around window and door openings prior to installing\njoinery"
+    ],
+    "selection_checklist": [
+      "Confirm wall construction requires a\nClass 4 breathable vapour-permeable membrane",
+      "Select roll width (1350mm/1370mm\nor 1500mm)",
+      "Calculate roll quantities based on wall area allowing 150mm\noverlaps",
+      "Check climate zone suitability (certified for climate zones 2\nto 8)",
+      "Order complementary EcoSeal 201 Cloth Tape for joint sealing"
+    ],
+    "accessories": [
+      "EcoSeal 201 Cloth Tape",
+      "Fasteners / staples",
+      "Squeegee"
+    ],
+    "limitations": [
+      "Not suitable for roofing applications",
+      "Claddings must\nprovide a drained cavity; provision must be given for drainage of trapped\nmoisture behind steel cladding",
+      "Must not be left exposed to direct sunlight\nbeyond recommended UV exposure limits"
+    ],
+    "warranty": "PGF Australia product\nwarranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Ecowool Wrap",
+      "ClimaWrap CW",
+      "ClimaWrap BMX800",
+      "Ecowool breathable wrap",
+      "Class 4 vapour permeable wrap",
+      "triple layer wall wrap",
+      "PGF ClimaWrap",
+      "Ecowool wall wrap",
+      "weather barrier\nwrap"
+    ],
+    "problem_keywords": [
+      "mould in exterior wall cavity",
+      "trapped\ncondensation behind cladding",
+      "water leaks through brick veneer",
+      "drafty\nframed external walls",
+      "meeting NCC 2022 condensation management code",
+      "rot in\ntimber wall studs"
+    ],
+    "placement": [
+      "wall",
+      "external wall"
+    ],
+    "priority_fit": [
+      "condensation",
+      "fire",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Vapour-permeable\nweather barrier behind residential and commercial brick veneer walls",
+      "Moisture\nprotection behind fibre-cement and timber cladding in climate zones 2 to 8",
+      "Air and water barrier house wrap on timber and light-gauge steel framing"
+    ],
+    "not_for": [
+      "Roof sarking applications",
+      "Underfloor moisture barrier",
+      "Direct\nexposure without outer cladding"
+    ],
+    "rag_summary": "Ecowool Wrap (ClimaWrap CW /\nBMX800) is a triple-layer, Class 4 vapour-permeable building wrap manufactured\nby PGF Insulation. Engineered with two non-woven spunbond outer layers\nprotecting an inner microporous breathable membrane, it stops liquid water and\ndraft infiltration while allowing water vapour to diffuse outward (3.967 µg/N·s\npermeance). Tested to AS/NZS 4200.1:2017 with a low Flammability Index (<5,\nBAL-40 compliant), it prevents condensation and timber rot behind residential\nand commercial wall claddings across climate zones 2 through 8."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

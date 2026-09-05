@@ -1,7 +1,7 @@
 ---
 title: "Foilboard Ultra Tek Screws - Accessory Insulation | Foilboard"
-description: "Quality insulation engineered for Australian conditions."
-keywords: "Foilboard Ultra Tek Screws, Foilboard accessory, insulation Australia, Foilboard Australia"
+description: "Foilboard Ultra Tek Screws are long, self-drilling steel fasteners fitted with oversized load-spreading washers, engineered to secure thick Foilboard "
+keywords: "Foilboard Ultra Tek Screws, Foilboard accessory, wall insulation, ceiling insulation, roof insulation, shed insulation, insulation Australia, Foilboard Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: FOILBOARD_ULTRA_TEK_SCREWS
 ---
@@ -10,23 +10,33 @@ family_id: FOILBOARD_ULTRA_TEK_SCREWS
 
 **Foilboard Accessory** — installation accessories and fixings.
 
-Quality insulation engineered for Australian conditions.
+Foilboard Ultra Tek Screws are long, self-drilling steel fasteners fitted with oversized load-spreading washers, engineered to secure thick Foilboard panels (40mm and 50mm) to steel framing up to 2.5mm thick. Featuring a hardened drill-point tip that penetrates steel girts and studs without pre-drilling, the extended thread length accommodates thick expanded polystyrene boards while clamping firmly against the outer aluminum foil facing. They provide rigid, wind-resistant mechanical fixing for commercial steel sheds, industrial warehouses, and high-performance steel-framed walls.
 
 ## Key features
 
-- Premium insulation product designed for Australian building conditions.
+- Self-drilling drill-point tip penetrates steel framing up to 2.5mm without pre-drilling.
+- Extended shank lengths (65mm to 95mm) tailored for 40mm and 50mm Foilboard panels.
+- Oversized spreader washer prevents head pull-through and foil face tearing.
+- Corrosion-resistant zinc plating compliant with AS 3566 Class 3 standards.
+- Hex-drive head provides positive drive engagement without cam-out.
+- Prevents thick panels from dislodging or vibrating in high-wind steel buildings.
+- Clamps firmly without crushing the expanded polystyrene core.
 
 ## Applications and selection
 
-- General Installation
+- wall
+- external wall
+- internal wall
+- ceiling
+- shed
+- roof
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm framing substrate is steel (0.75mm to 2.5mm thickness).
+2. Verify board thickness is 40mm or 50mm (for thinner boards use Standard Tek Screws).
+3. Select screw length (board thickness + minimum 15-20mm steel penetration).
+4. Order matching 72mm reinforced foil tape to cover fastener heads.
 
 
 ## Current catalogue range
@@ -37,32 +47,51 @@ Quality insulation engineered for Australian conditions.
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Accessory | Manufacturer catalogue |
-| Material | Accessory | Manufacturer catalogue |
-| Applications | General Installation | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Fastener Type | Extended self-drilling tek screw with oversized spreader washer | - |
+| Steel Gauge Capacity | 0.75 mm to 2.5 mm steel stud / girt thickness | - |
+| Lengths | 65 mm, 75 mm, 85 mm, 95 mm (tailored for 40mm and 50mm boards) | - |
+| Washer Diameter | Approx. 40 mm - 50 mm | - |
+| Drive Type | Hex-head drive | - |
+| Corrosion Coating | Class 3 / Zinc plated | AS 3566 |
 
-
+Extracted from manufacturer datasheet: https://www.foilboard.com.au/product-category/accessories/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Non-combustible steel fastener; compliant with NCC fire hazard requirements
+
+AS 3566, AS/NZS 4859.1, NCC Volume One and Two
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.foilboard.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://insulationessentials.com.au/wp-content/uploads/2022/10/MSDS-Foilboard-Nov-2019.pdf.
 
+## Recommended accessories
+
+- Foilboard Green 40mm / 50mm panels.
+- Foilboard 72mm reinforced foil tape.
+- Hex drill driver bit.
+
 
 ## Limitations and warnings
 
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Not designed for timber framing (use Ultra Fasteners).
+- Heavy structural steel exceeding 2.5mm requires pre-drilling.
+- Do not overdrive to prevent stripping screw threads in light-gauge steel.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: confirm product selection matches specified thermal/acoustic/fire rating.
+1. Hold 40mm or 50mm Foilboard panel firmly against steel studs or roof purlins.
+2. Insert Foilboard Ultra Tek Screw into drill driver fitted with a hex-head driver bit.
+3. Position screw perpendicular to the panel face at specified fixing locations.
+4. Drive screw at moderate speed, allowing drill tip to cut through the steel girt or stud.
+5. Continue driving until the wide washer head seats firmly and flush against the foil.
+6. Do not overdrive to avoid dishing the washer into the EPS core.
+7. Space screws at maximum 600mm centers along all edges and internal steel members.
+8. Seal over all screw heads with Foilboard 72mm reinforced foil tape for vapor sealing.
 
 ## Safety and handling
 
@@ -70,11 +99,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+100% recyclable steel; zero ODP
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Backed by Foilboard product warranty
 
 ## Specification starting point
 

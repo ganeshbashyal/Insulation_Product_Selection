@@ -1,0 +1,65 @@
+{
+  "family_id": "METECNO_BOARD",
+  "family_name": "Metecno Board",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "gemini_not_found",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "",
+    "features": "",
+    "applications": "",
+    "technical": "",
+    "range": "",
+    "fire": "",
+    "compliance": "",
+    "sustainability": "",
+    "install": "",
+    "selection_checklist": "",
+    "accessories": "",
+    "limitations": "",
+    "warranty": ""
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Metecno Board",
+      "MetecnoPanel",
+      "Metecno\nPIR board",
+      "Metecno EPS board",
+      "Bondor Metecno panel",
+      "insulated sandwich\npanel board",
+      "coolroom board Metecno"
+    ],
+    "problem_keywords": [
+      "thermal loss in\ncold storage walls",
+      "slow wall construction with multi-layer systems",
+      "condensation in food processing rooms",
+      "structural insulated panel\nrequirements"
+    ],
+    "placement": [
+      "wall",
+      "external wall",
+      "ceiling",
+      "roof",
+      "shed"
+    ],
+    "priority_fit": [
+      "thermal",
+      "fire",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Insulated structural walls and ceilings for cold storage, coolrooms, and food\nprocessing facilities",
+      "Commercial industrial building envelope wall panels\nwith pre-finished steel facings",
+      "Cleanroom and pharmaceutical wall enclosures"
+    ],
+    "not_for": [
+      "Cavity infill behind standard plasterboard studs",
+      "Underfloor\nresidential joists",
+      "Flexible duct lining"
+    ],
+    "rag_summary": "Metecno Board\nrepresents insulated composite sandwich panels manufactured and supplied by\nMetecno / Bondor Australia (such as MetecnoPanel and MetecnoSpan). Formed with\nhigh-performance PIR, EPS-FR, or mineral wool cores bonded between Colorbond\nsteel skins, these structural panels provide integrated exterior cladding, vapor\nbarrier, and thermal insulation in a single element for commercial coolrooms,\ndistribution centers, and industrial facilities."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

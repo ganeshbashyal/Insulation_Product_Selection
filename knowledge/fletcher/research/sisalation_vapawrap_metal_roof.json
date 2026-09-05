@@ -1,0 +1,152 @@
+{
+  "family_id": "FLETCHER_VAPAWRAP_METAL_ROOF",
+  "family_name": "Sisalation Vapawrap Metal Roof",
+  "datasheet_pdf_url": "https://insulation.com.au/product/sisalation-vapawrap-vapour-permeable-metal-roof/",
+  "sds_url": "https://insulation.com.au/wp-content/uploads/2023/12/SUIS-Sisalation-Vapawrap-Metal-Roof.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Sisalation Vapawrap Vapour Permeable Metal Roof is a synthetic,\nClass 4 vapour-permeable roof sarking membrane specifically engineered for use\nunder residential and commercial metal roof claddings. Formulated with a\nmicroporous water-resistant film sandwiched between two layers of mould- and\nshrink-resistant spun-bonded polyolefin, it provides superior heat shrink\nresistance compared to traditional polymer-weave membranes under hot metal\ndecks. It allows water vapour to escape from roof cavities while functioning as\nan air and liquid water barrier that safely drains condensation into gutters.",
+    "features": [
+      "Specifically designed for use under metal roof claddings in\nresidential and commercial buildings",
+      "High heat shrink resistance, preventing\nthermal degradation and stretching under hot metal roofs",
+      "Class 4 Vapour\nPermeable membrane preventing interstitial condensation accumulation",
+      "Acts as\na continuous water barrier directing leaks and condensation into the gutter",
+      "Triple-layer construction: microporous core between spun-bonded polyolefin\nlayers",
+      "High tensile strength reduces tearing and scuffing during metal\nroofing installation",
+      "Resists mould, mildew, and biological attack",
+      "Low\nflammability index compliant with AS 1530.2",
+      "Suitable for bushfire-prone areas\nup to BAL-40 under AS 3959"
+    ],
+    "applications": [
+      "roof",
+      "roofline"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "Spun-bonded polyolefin\nnon-woven layers with microporous film core",
+        "standard": ""
+      },
+      {
+        "property": "Duty Classification",
+        "value": "Medium Duty",
+        "standard": "AS/NZS 4200.1"
+      },
+      {
+        "property": "Vapour Permeance",
+        "value": "Class 4 Vapour Permeable (> 1.14\nµg/N·s)",
+        "standard": "AS/NZS 4200.1"
+      },
+      {
+        "property": "Water Control\nClassification",
+        "value": "Water Barrier",
+        "standard": "AS/NZS 4201.4"
+      },
+      {
+        "property": "Air Control Classification",
+        "value": "Air Barrier",
+        "standard": "AS/NZS 4200.1"
+      },
+      {
+        "property": "Roll Dimensions",
+        "value": "1350 mm width x 30\nm length (40.5 m² per roll)",
+        "standard": ""
+      },
+      {
+        "property": "Weight per Roll",
+        "value": "4.8 kg",
+        "standard": ""
+      },
+      {
+        "property": "Flammability Index",
+        "value": "≤ 5 (Low Flammability)",
+        "standard": "AS 1530.2"
+      },
+      {
+        "property": "Product Code",
+        "value": "4006885",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Sisalation Vapawrap Metal Roof 1350mm",
+        "size_or_rating": "1350 mm x 30 m (40.5\nm²)",
+        "pack": "Roll (Code: 4006885)"
+      }
+    ],
+    "fire": "Flammability Index ≤ 5 to\nAS 1530.2; Suitable for roofs in bushfire BAL 12.5 to BAL-40 in accordance with\nAS 3959",
+    "compliance": "AS/NZS 4200.1:2017, AS/NZS 4200.2, AS 1530.2, AS 3959,\nNCC 2022 Volume One & Two condensation management",
+    "sustainability": "Recyclable polyolefin composition; zero ODP; non-toxic; low VOC",
+    "install": [
+      "Install as a continuous membrane over rafters/trusses beneath metal roof\nbattens, or draped between battens",
+      "Roll out horizontally starting from the\neaves, ensuring lower edge drains directly into the gutter",
+      "Allow a\nminimum 150mm overlap for horizontal laps (or 50mm if fully taped with VapaSeam\ntape)",
+      "Allow a nominal 40mm drape between framing members to create a drainage\nchannel for condensation",
+      "Fix temporarily with staples or clouts to rafters,\nthen secure permanently with roof battens",
+      "Tape all laps, penetrations, and\nridgelines with Sisalation VapaSeam Tape for complete airtightness",
+      "Fix metal\nroof cladding directly to battens above the membrane"
+    ],
+    "selection_checklist": [
+      "Confirm roof cladding is profiled metal deck or corrugated steel",
+      "Verify\nrequirement for Class 4 vapour-permeable roof sarking to satisfy NCC\ncondensation management",
+      "Measure total roof area including 150mm overlaps",
+      "Confirm compatibility with batten spacing and rafter spans",
+      "Order matching\nSisalation VapaSeam Tape"
+    ],
+    "accessories": [
+      "Sisalation VapaSeam Tape (48mm\nx 50m)",
+      "Safety wire mesh (where required for commercial spans)"
+    ],
+    "limitations": [
+      "Designed specifically for metal roof applications; do not use\nas a primary roof cladding",
+      "Must not be left exposed to direct UV sunlight\nbeyond manufacturer recommended exposure time",
+      "Ensure membrane has continuous\nfall to gutters without reverse laps or ponding"
+    ],
+    "warranty": "Backed by\nFletcher Insulation product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Vapawrap Metal Roof",
+      "Sisalation Vapawrap Metal Roof",
+      "vapour permeable roof\nsarking",
+      "Class 4 roof sarking",
+      "breathable metal roof underlay",
+      "tin roof\nbreathable sarking",
+      "Fletcher roof underlay",
+      "Sisalation 4006885",
+      "anti-shrink roof membrane"
+    ],
+    "problem_keywords": [
+      "condensation dripping in\nmetal roof cavity",
+      "plastic sarking shrinking under hot tin roof",
+      "moisture\nbuildup under metal deck roof",
+      "mould in cathedral ceiling roof cavity",
+      "meeting NCC Tasmanian Designer Guide roof condensation",
+      "storm rain ingress\nthrough roof laps"
+    ],
+    "placement": [
+      "roof",
+      "roofline"
+    ],
+    "priority_fit": [
+      "condensation",
+      "fire",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Pitched residential\nmetal roofs in temperate and cold climate zones requiring Class 4 vapour\npermeability to discharge ceiling moisture",
+      "Commercial metal deck roofs\ninstalled over rafters or purlins as an airtight weather-draining underlay",
+      "Managing condensation under profiled steel roofs in accordance with the\nTasmanian Designers Guide and NCC 2022"
+    ],
+    "not_for": [
+      "External wall cladding\nwrap",
+      "Direct unbattened tile roofs without support",
+      "Direct foot traffic\nwithout safety mesh"
+    ],
+    "rag_summary": "Sisalation Vapawrap Vapour Permeable\nMetal Roof is a Medium Duty, Class 4 vapour-permeable synthetic roof sarking\nmembrane developed specifically for profiled metal roofs. Fabricated from\nspun-bonded polyolefin non-woven layers sandwiching a microporous core, it\ndelivers outstanding heat-shrink resistance to remain taut beneath hot metal\ndecks. Allowing moisture vapour to vent freely while preventing water leaks and\ndrafts, it complies with AS/NZS 4200.1, AS 1530.2 (Flammability Index ≤ 5), and\nAS 3959 (up to BAL-40) to mitigate roof condensation."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

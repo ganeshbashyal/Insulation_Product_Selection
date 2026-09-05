@@ -1,0 +1,171 @@
+{
+  "family_id": "KINGSPAN_K3",
+  "family_name": "Kingspan K3",
+  "datasheet_pdf_url": "https://www.insulation.kingspan.com/au/en/products/rigid-insulation/kooltherm/kooltherm-k3-floorboard",
+  "sds_url": "https://www.insulation.kingspan.com/au/en/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Kingspan Kooltherm K3 Floorboard is a premium performance, fiber-free rigid\nthermoset phenolic insulation board engineered specifically for concrete\nground-bearing and suspended floors. Featuring an ultra-low thermal conductivity\nof 0.021 - 0.023 W/m·K, it provides maximum thermal efficiency with minimal\nthickness, making it ideal for new build concrete slabs and retrofit floor\nsystems. With a closed-cell structure and glass tissue facings autohesively\nbonded to the core, it resists ground moisture and helps achieve 7-star NatHERS\nratings.",
+    "features": [
+      "Thermal conductivity of 0.021 - 0.023 W/m·K, the\nthinnest commonly used underfloor board",
+      "Purpose-designed for installation\nbeneath concrete slab-on-ground or above suspended concrete floors",
+      "Simplifies\nthe path to 7-star NatHERS residential energy efficiency compliance",
+      "High\ncompressive strength (≥ 150 kPa) supports residential and light commercial slab\nloads",
+      "Fiber-free closed-cell phenolic core; resistant to ground moisture and\nmold growth",
+      "Autohesively bonded glass tissue facings on both sides",
+      "CodeMark certified for NCC compliance",
+      "Reduces ground heat loss (which\naccounts for up to 49% of heat loss in cold climate zones)",
+      "Locally\nmanufactured in Australia with zero ODP blowing agents",
+      "Global GreenTag\nGreenRate Level A certified with verified EPD"
+    ],
+    "applications": [
+      "floor",
+      "underfloor",
+      "subfloor",
+      "between floors"
+    ],
+    "technical": [
+      {
+        "property": "Thermal Conductivity (lambda)",
+        "value": "0.021 W/m·K (thicknesses\n≥ 45mm), 0.023 W/m·K (thicknesses 25-44mm)",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Material R-values",
+        "value": "R1.1 (25mm), R1.3 (30mm), R1.75\n(40mm), R2.15 (50mm), R2.6 (60mm), R3.0 (70mm), R3.45 (80mm), R3.9 (90mm)",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Thickness Options",
+        "value": "25\nmm, 30 mm, 40 mm, 50 mm, 60 mm, 70 mm, 80 mm, 90 mm",
+        "standard": ""
+      },
+      {
+        "property": "Board Dimensions",
+        "value": "2400 mm x 1200 mm (2.88 m²)",
+        "standard": ""
+      },
+      {
+        "property": "Compressive Strength",
+        "value": "≥ 150 kPa\nat 10% deformation",
+        "standard": "AS 2498.3"
+      },
+      {
+        "property": "Core Density",
+        "value": "Nominal 35 kg/m³ rigid phenolic",
+        "standard": ""
+      },
+      {
+        "property": "Water Absorption",
+        "value": "< 2% by volume",
+        "standard": ""
+      },
+      {
+        "property": "Fire Hazard Indices",
+        "value": "Ignitability: 0, Spread of Flame: 0, Heat\nEvolved: 0, Smoke Developed: 0-1",
+        "standard": "AS/NZS 1530.3"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Kooltherm K3 Floorboard 25mm",
+        "size_or_rating": "25 mm x 1200 mm\nx 2400 mm (R1.1)",
+        "pack": "Board"
+      },
+      {
+        "variant": "Kooltherm K3\nFloorboard 30mm",
+        "size_or_rating": "30 mm x 1200 mm x 2400 mm (R1.3)",
+        "pack": "Board"
+      },
+      {
+        "variant": "Kooltherm K3 Floorboard 40mm",
+        "size_or_rating": "40 mm\nx 1200 mm x 2400 mm (R1.75)",
+        "pack": "Board"
+      },
+      {
+        "variant": "Kooltherm K3\nFloorboard 50mm",
+        "size_or_rating": "50 mm x 1200 mm x 2400 mm (R2.15)",
+        "pack": "Board"
+      },
+      {
+        "variant": "Kooltherm K3 Floorboard 80mm",
+        "size_or_rating": "80 mm\nx 1200 mm x 2400 mm (R3.45)",
+        "pack": "Board"
+      }
+    ],
+    "fire": "AS/NZS 1530.3:\nIgnitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-1; Suitable\nfor concrete ground floor systems",
+    "compliance": "AS/NZS 4859.1:2018, CodeMark\nCertified, NCC 2022 Volume 1 and Volume 2 (7-star NatHERS standard)",
+    "sustainability": "Manufactured with zero ODP and low GWP; GreenTag GreenRate\nLevel A; EPD verified; low VOC",
+    "install": [
+      "Prepare level, well-compacted\nsub-base blinding layer (sand or lean-mix concrete)",
+      "Lay damp-proof membrane\n(DPM / 0.2mm polyethylene vapor barrier) over the blinding layer with 150mm\ntaped overlaps",
+      "Lay Kooltherm K3 Floorboards tightly butted in a staggered\nbrick-bond pattern over the DPM",
+      "For suspended floors, lay boards over flat\nconcrete slab surface",
+      "Cut boards neatly around internal plumbing and service\npenetrations with a fine-toothed hand saw",
+      "Place a separating slip-sheet\n(0.2mm polythene) over the boards with taped 150mm overlaps to prevent concrete\nslurry ingress",
+      "Place bar chairs and reinforcement mesh over the separating\nlayer, taking care not to puncture the insulation",
+      "Pour concrete slab directly\nover the assembly"
+    ],
+    "selection_checklist": [
+      "Confirm application is\nslab-on-ground or suspended concrete floor",
+      "Verify required R-value (e.g. 25mm\nR1.1, 50mm R2.15) from 7-star NatHERS assessment",
+      "Check compressive load\nrequirements (K3 provides ≥ 150 kPa for residential/light commercial loads)",
+      "Order matching damp-proof membrane and Kingspan GreenGuard GG350 slab edge\ninsulation"
+    ],
+    "accessories": [
+      "0.2mm Polyethylene damp-proof membrane /\nslip-sheet",
+      "Kingspan GreenGuard GG350 (slab edge)",
+      "Reinforced joining tape"
+    ],
+    "limitations": [
+      "For concentrated industrial heavy forklift loads, specify\nhigh-compressive XPS (e.g. GreenGuard GG500)",
+      "Must be installed with a\ncontinuous damp-proof membrane beneath",
+      "Protect boards from site traffic prior\nto concrete pouring"
+    ],
+    "warranty": "10-year manufacturing warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Kingspan K3",
+      "Kooltherm K3",
+      "K3 Floorboard",
+      "under slab insulation",
+      "concrete slab insulation board",
+      "phenolic floor\ninsulation",
+      "7 star under slab board",
+      "underfloor insulation K3"
+    ],
+    "problem_keywords": [
+      "cold concrete floor slab",
+      "heat loss through ground\nfloor",
+      "failing 7 star NatHERS without slab insulation",
+      "thick floor\ninsulation reducing ceiling height",
+      "underfloor heating downward heat loss"
+    ],
+    "placement": [
+      "floor",
+      "underfloor",
+      "subfloor",
+      "between floors"
+    ],
+    "priority_fit": [
+      "thermal",
+      "easy_install",
+      "sustainability"
+    ],
+    "use_cases": [
+      "Continuous under-slab thermal insulation beneath residential concrete\nground-bearing slabs to meet 7-star NatHERS standards",
+      "Insulating beneath\nhydronic heated screeds to prevent downward thermal loss into concrete\nsubfloors",
+      "Thermal barrier installed over suspended concrete intermediate\nfloors separating commercial carparks and apartments"
+    ],
+    "not_for": [
+      "Heavy\nindustrial forklift floors (use GreenGuard GG500)",
+      "Direct exposure to pooling\nwater without damp-proof membrane",
+      "Direct foot traffic during construction"
+    ],
+    "rag_summary": "Kingspan Kooltherm K3 Floorboard is an ultra-thin, fiber-free\nrigid thermoset phenolic insulation board engineered specifically for concrete\nground-bearing and suspended floors. With a thermal conductivity of 0.021\n- 0.023 W/m·K and thicknesses from 25mm to 90mm (R1.1 to R3.9), it provides\nsuperior thermal resistance at minimal thickness to prevent ground heat loss and\nachieve 7-star NatHERS compliance. Built with high compressive strength (≥ 150\nkPa) and autohesively bonded glass tissue facings, it is CodeMark certified and\nmoisture-resistant."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

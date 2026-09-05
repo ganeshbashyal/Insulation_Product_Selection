@@ -1,0 +1,147 @@
+{
+  "family_id": "STINGER_CN",
+  "family_name": "Stinger Cn",
+  "datasheet_pdf_url": "https://www.stingerworld.com.au/product/stinger-cn100b/",
+  "sds_url": "",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "The STINGER CN100B is a high-production pneumatic cap nailer\nengineered for rapid, code-compliant installation of roofing underlayments,\nroofing felt, and housewrap. Firing up to 5 cap nails per second, it\nautomatically feeds and drives full 25mm plastic collated caps with 25mm\nring-shank nails. Tested and approved for wind speeds up to 180 mph and\ncertified for IBHS FORTIFIED Roof standards, it provides maximum holding power\nand seals fastener penetrations against water intrusion.",
+    "features": [
+      "Pneumatic cap nailer firing up to 5 cap nails per second for maximum jobsite\nspeed",
+      "High-capacity magazine holds 200 collated plastic caps and 200 coil\nring-shank nails",
+      "Drives full 25mm (1 inch) plastic caps with 25mm x 2.1mm\nelectro-galvanized or stainless nails",
+      "Tested and approved for severe winds up\nto 180 mph and IBHS FORTIFIED Home standards",
+      "Selectable bumpfire and\nsequential firing modes to suit operator workflow",
+      "Tool-free depth-of-drive\nadjustment ensures caps seat perfectly flush",
+      "360-degree tool-free adjustable\nair exhaust",
+      "Lightweight 2.3 kg (4.9 lbs) ergonomic design minimizes arm\nfatigue",
+      "Plastic caps seal out moisture and eliminate material pull-through or\nlateral slippage"
+    ],
+    "applications": [
+      "roof",
+      "roofline",
+      "wall",
+      "external\nwall"
+    ],
+    "technical": [
+      {
+        "property": "Tool Weight",
+        "value": "2.3 kg (4.9\nlbs)",
+        "standard": ""
+      },
+      {
+        "property": "Speed",
+        "value": "Up to 5 cap nails per\nsecond",
+        "standard": ""
+      },
+      {
+        "property": "Fastener Capacity",
+        "value": "200 caps\n/ 200 nails",
+        "standard": ""
+      },
+      {
+        "property": "Cap Specification",
+        "value": "25\nmm (1 in) full round plastic collated caps",
+        "standard": ""
+      },
+      {
+        "property": "Nail Specification",
+        "value": "25 mm (1 in) length x 2.1 mm (0.083 in) shank,\nfull round head, ring-shank",
+        "standard": "ASTM F1667"
+      },
+      {
+        "property": "Operating Air Pressure",
+        "value": "70 - 100 psi (4.8 - 6.9 bar)",
+        "standard": ""
+      },
+      {
+        "property": "Compatible Fasteners",
+        "value": "STINGER 25mm NailPac\n(#0136260 / #136262)",
+        "standard": "ASTM F1667"
+      }
+    ],
+    "range": [
+      {
+        "variant": "STINGER CN100B Cap Nailer",
+        "size_or_rating": "Tool Weight 2.3 kg\n(SKU: 136252)",
+        "pack": "Tool (Includes case and fittings)"
+      }
+    ],
+    "fire": "",
+    "compliance": "Complies with ASTM F1667, Florida Building Code 1507.1.1.1 and\nR905.1.1.1, IBHS FORTIFIED Home standards",
+    "sustainability": "Durable metal\nbody with long service life; 100% recyclable HDPE caps and steel nails",
+    "install": [
+      "Connect CN100B tool to a clean, dry, regulated compressed air\nsupply set between 70 and 100 psi",
+      "Open the nail canister and load a 200-nail\ncoil of STINGER 25mm ring-shank nails",
+      "Open the cap basket, load a 200-cap\nreel of 25mm collated plastic caps, and feed into the guide track",
+      "Close and\nlatch both magazines securely",
+      "Select desired firing mode: bumpfire for high\nproduction speed or sequential for single-shot precision",
+      "Position the\nnosepiece perpendicular against the roof underlayment or housewrap over timber\nsubstrate",
+      "Depress safety contact and actuate trigger to drive the cap nail\nflush against the membrane",
+      "Adjust the tool-free depth-of-drive wheel so caps\nseat firmly without overdriving or crushing"
+    ],
+    "selection_checklist": [
+      "Confirm project requires ring-shank nail holding power (mandatory in high-wind\nand coastal zones)",
+      "Ensure regulated jobsite compressed air supply (70-100\npsi) is available",
+      "Choose nail coating: electro-galvanized or 304 stainless\nsteel NailPac based on corrosion environment",
+      "Order matching STINGER 25mm\nNailPac fastener coils (#136260 or #136262)"
+    ],
+    "accessories": [
+      "STINGER\nNailPac 25mm Electro-Galvanized (Code: 136260)",
+      "STINGER NailPac 25mm 304\nStainless Steel (Code: 136262)",
+      "Carrying case and air fittings"
+    ],
+    "limitations": [
+      "Requires an air compressor and pneumatic hose on site",
+      "Must\nonly be operated with genuine STINGER 25mm NailPac fasteners",
+      "For timber\nsubstrates only; not designed for steel framing or solid concrete"
+    ],
+    "warranty": "1-year limited warranty backed by National Nail Corp"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Stinger CN",
+      "Stinger CN100",
+      "Stinger CN100B",
+      "pneumatic cap nailer",
+      "roofing cap nailer",
+      "Stinger NailPac",
+      "cap\nnailer 25mm",
+      "underlayment nailer",
+      "high wind cap nailer",
+      "Stinger 136252"
+    ],
+    "problem_keywords": [
+      "roof underlayment tearing off in high wind",
+      "staples\nblowing out during storms",
+      "meeting 180 mph wind roofing codes",
+      "water leakage\naround roofing nails",
+      "slow underlayment installation",
+      "hand nailing caps on\nsteep roofs"
+    ],
+    "placement": [
+      "roof",
+      "roofline",
+      "wall",
+      "external wall"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "condensation"
+    ],
+    "use_cases": [
+      "Rapid\npneumatic fastening of synthetic underlayment, roofing felt, and ice barriers to\ntimber roof decks in high-wind and coastal regions",
+      "Securing commercial and\nresidential weather-resistive barriers (housewrap) against strong winds before\ncladding",
+      "Installing roof underlayment to meet IBHS FORTIFIED Roof and Florida\nBuilding Code high-wind standards"
+    ],
+    "not_for": [
+      "Steel framing (cannot\npenetrate steel studs)",
+      "Structural timber framing nails (framing lumber)",
+      "Concrete or masonry substrates"
+    ],
+    "rag_summary": "The STINGER CN (CN100B) is a\nhigh-speed pneumatic cap nailer manufactured by National Nail for securing\nsynthetic underlayment, roofing felt, and housewrap to timber substrates. Firing\nup to 5 cap nails per second with a 200-count magazine capacity, it drives 25mm\n(1 inch) plastic collated caps with 25mm ring-shank nails (loaded via STINGER\nNailPac). Tested to withstand winds up to 180 mph and certified under IBHS\nFORTIFIED Home standards, it prevents underlayment blow-offs and seals fastener\npenetrations against water ingress."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

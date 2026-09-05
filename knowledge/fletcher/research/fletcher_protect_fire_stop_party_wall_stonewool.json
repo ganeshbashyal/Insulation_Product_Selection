@@ -1,0 +1,160 @@
+{
+  "family_id": "FLETCHER_PARTY_WALL_STONEWOOL",
+  "family_name": "Fletcher Protect / Fire Stop Party Wall Stonewool",
+  "datasheet_pdf_url": "https://insulation.com.au/product/fletcher-protect-party-wall-stonewool-batts/",
+  "sds_url": "https://insulation.com.au/wp-content/uploads/2023/12/SUIS-Stonewool-Australia-and-New-Zealand.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Fletcher Protect Party Wall Stonewool Batts and Blankets are\nnon-combustible mineral wool insulation products engineered to provide passive\nfire protection in party and separating wall systems between adjacent tenancies\nin NCC Class 1 and Class 10 buildings. Manufactured from molten volcanic rock\n(basalt) and recycled blast furnace slag, they provide exceptional resistance to\nshrinkage under extreme fire temperatures up to 1000°C. They are designed to\ncompress-fill vertical joints, service penetrations, and top-of-wall junctions\nbeneath roof membranes to prevent flame and hot gas bypass.",
+    "features": [
+      "Non-combustible stonewool material compliant with AS 1530.1",
+      "Engineered\nspecifically for NCC Class 1 inter-tenancy separating party walls",
+      "High\nresistance to shrinkage at temperatures exceeding 1000°C",
+      "Provides fire\nprotection, acoustic noise dampening, and thermal insulation",
+      "Available as\nuncompressed batts (100mm x 168mm x 1200mm) or foil-faced blankets",
+      "Compress-fits into joints with minimum 20% compression to ensure tight\nvoid-free seal",
+      "Non-hygroscopic, water repellent, and will not promote rot or\nfungal growth",
+      "Bio-soluble mineral wool fibres safe to handle and install",
+      "Made from abundant basalt rock and recycled blast-furnace slag"
+    ],
+    "applications": [
+      "wall",
+      "internal wall",
+      "roof",
+      "roofline"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "Bio-soluble stonewool (rock mineral wool)\nfibres",
+        "standard": ""
+      },
+      {
+        "property": "Batt Dimensions",
+        "value": "1200 mm\nlength x 168 mm width x 100 mm thickness",
+        "standard": ""
+      },
+      {
+        "property": "Blanket Dimensions",
+        "value": "300 mm or 360 mm width x 50 mm / 75 mm thickness\nx 4000 mm length",
+        "standard": ""
+      },
+      {
+        "property": "Combustibility",
+        "value": "Non-combustible",
+        "standard": "AS 1530.1"
+      },
+      {
+        "property": "Early Fire Hazard\nIndices",
+        "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke\nDeveloped: 0-1",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Maximum Service\nTemperature",
+        "value": "Exceeds 1000°C",
+        "standard": ""
+      },
+      {
+        "property": "Required Installation Compression",
+        "value": "Minimum 20% compression (leaving\nzero voids)",
+        "standard": "NCC Part 9.3"
+      },
+      {
+        "property": "Product Codes",
+        "value": "FLE000062-3 (Batts), FLE000064 (Blanket)",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Fletcher Protect Party Wall Stonewool Batts 100mm",
+        "size_or_rating": "100 mm x 168 mm x 1200 mm",
+        "pack": "Pack of 10 batts (12\nlineal metres)"
+      },
+      {
+        "variant": "Fletcher Protect Party Wall Foil Faced\nBlanket 50mm",
+        "size_or_rating": "50 mm x 300/360 mm x 4000 mm",
+        "pack": "Pack\nof 2 rolls (8 lineal metres)"
+      },
+      {
+        "variant": "Fletcher Protect Party Wall Foil\nFaced Blanket 75mm",
+        "size_or_rating": "75 mm x 300/360 mm x 4000 mm",
+        "pack": "Pack of 2 rolls (8 lineal metres)"
+      }
+    ],
+    "fire": "Non-combustible to AS 1530.1;\nAS/NZS 1530.3: Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke\nDeveloped: 0-1; Meets NCC Class 1 separating wall fire resistance requirements",
+    "compliance": "AS 1530.1, AS/NZS 1530.3, NCC 2022 Volume Two / ABCB Housing\nProvisions Standard Part 9.3",
+    "sustainability": "Manufactured from natural\nbasalt rock and recycled blast furnace slag; bio-soluble; zero ODP",
+    "install": [
+      "Measure the vertical cavity width or top-of-wall gap between the separating\nwall and roof cladding",
+      "Select batts or blanket ensuring thickness allows a\nminimum of 20% compression when installed",
+      "For vertical party wall cavities,\nfriction-fit 100mm x 168mm batts tightly between wall leaves",
+      "Butt consecutive\nbatts tightly with Vee cuts at joining ends to form continuous fire seal without\nvoids",
+      "For top-of-wall junctions, lay blanket along the top of party wall\nframing beneath roof battens and cladding",
+      "Fasten roof sheeting down over\nblanket ensuring minimum 20% compression beneath corrugations",
+      "Pack stonewool\nfirmly around all pipe penetrations and services crossing the party wall line"
+    ],
+    "selection_checklist": [
+      "Confirm application is Class 1 separating wall\n(townhouse/duplex party wall)",
+      "Verify gap width to calculate required\nthickness allowing 20% compression",
+      "Choose batts for vertical joint cavities\nor foil-faced blanket for top-of-wall roof junctions",
+      "Determine linear\nmeterage needed along party wall lines"
+    ],
+    "accessories": [
+      "Sisalation\nreinforced foil tape",
+      "Utility knife",
+      "Galvanised retaining straps"
+    ],
+    "limitations": [
+      "Must be installed with at least 20% compression to ensure fire\nseal integrity",
+      "Not designed as primary weatherproofing; must be sheltered by\nroof cladding or wall linings",
+      "Protect from continuous pooling water during\nconstruction"
+    ],
+    "warranty": "Backed by Fletcher Insulation product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Fletcher Protect Party Wall",
+      "Party Wall\nStonewool Batts",
+      "Fire Stop Party Wall",
+      "stonewool party wall insulation",
+      "rockwool party wall batts",
+      "100x168 party wall batts",
+      "townhouse fire barrier\nbatts",
+      "Fletcher mineral wool batts",
+      "separating wall firestop"
+    ],
+    "problem_keywords": [
+      "fire spread through townhouse party wall",
+      "separating\nwall gap fire risk",
+      "NCC Class 1 party wall compliance",
+      "vertical joint fire\ncontainment",
+      "flame bypass between roof and party wall",
+      "inter-tenancy noise\ntransmission"
+    ],
+    "placement": [
+      "wall",
+      "internal wall",
+      "roof",
+      "roofline"
+    ],
+    "priority_fit": [
+      "fire",
+      "acoustic"
+    ],
+    "use_cases": [
+      "Compress-filling\nvertical joints between separating party walls in Class 1 townhouses and\nduplexes",
+      "Fire-stopping gaps between the top of a fire-rated separating wall\nand the underside of metal or tile roofs",
+      "Packing service penetrations\ncrossing inter-tenancy boundaries to maintain fire separation"
+    ],
+    "not_for": [
+      "General cavity thermal wall batts",
+      "Exposed internal decorative wall lining",
+      "Underfloor crawl space insulation"
+    ],
+    "rag_summary": "Fletcher Protect Party\nWall Stonewool Batts and Blankets are non-combustible rock mineral wool\ninsulation products engineered specifically for passive fire protection in\nClass 1 multi-residential separating walls. Sized in 100mm x 168mm x 1200mm\nbatts and foil-faced rolls, they resist shrinkage at temperatures\nexceeding 1000°C to halt fire, smoke, and hot gases from bypassing inter-tenancy\nbarriers. Installed under a mandatory minimum 20% compression to ensure a\nvoid-free seal, they satisfy NCC Part 9.3 Deemed-to-Satisfy provisions for\ntownhouse and duplex party walls."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

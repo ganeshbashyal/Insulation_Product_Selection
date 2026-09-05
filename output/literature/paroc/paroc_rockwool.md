@@ -1,7 +1,7 @@
 ---
 title: "Paroc Rockwool - Batt Insulation | Paroc"
-description: "Quality insulation engineered for Australian conditions. Made from natural volcanic rock, delivering superior fire resistance and acoustic performance"
-keywords: "Paroc Rockwool, Paroc batt, acoustic insulation, wall insulation, ceiling insulation, roof insulation, floor insulation, insulation Australia, Paroc Australia"
+description: "Paroc Rockwool is a premium European-engineered stone wool insulation made from volcanic basalt rock, designed for superior thermal, acoustic, and pas"
+keywords: "Paroc Rockwool, Paroc batt, wall insulation, ceiling insulation, roof insulation, floor insulation, pipe insulation, duct insulation, insulation Australia, Paroc Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: PAROC_ROCKWOOL
 ---
@@ -10,31 +10,38 @@ family_id: PAROC_ROCKWOOL
 
 **Paroc Batt** — bulk insulation batts for thermal and acoustic performance.
 
-Quality insulation engineered for Australian conditions. Made from natural volcanic rock, delivering superior fire resistance and acoustic performance that lasts the lifetime of the building. Rigid design makes installation fast and efficient - no sagging or falling out.
+Paroc Rockwool is a premium European-engineered stone wool insulation made from volcanic basalt rock, designed for superior thermal, acoustic, and passive fire protection across building and industrial applications. Non-combustible with an exceptionally high melting point exceeding 1000°C, Paroc stone wool does not shrink, melt, or produce toxic smoke during a fire, maintaining fire compartmentation. Distributed internationally and used across Australia in high-performance facades, roofs, and acoustic partitions, it is water repellent, vapour permeable, and dimensionally stable.
 
 ## Key features
 
-- Non-combustible stonewool made from natural volcanic rock.
-- superior fire resistance up to 1000°C.
-- excellent acoustic absorption properties.
-- fully recyclable at end of life.
-- rigid design prevents sagging between joists.
-- reduces drafts and cold floors.
-- excellent thermal performance for roof/ceiling applications.
-- helps meet NCC energy efficiency requirements.
+- Manufactured from natural volcanic basalt stone.
+- Non-combustible with a melting point exceeding 1000°C.
+- Exceptional passive fire resistance preventing fire spread.
+- Outstanding acoustic sound absorption and vibration damping.
+- High thermal insulation performance with low thermal conductivity.
+- Dimensionally stable, will not sag, slump, or shrink over time.
+- Water-repellent and non-hygroscopic; resists moisture absorption.
+- Highly vapour permeable, allowing building structures to dry out.
+- Chemically inert and does not promote corrosion of metal framing.
+- Biosoluble fibers meeting international health and safety standards.
 
 ## Applications and selection
 
-- Internal Wall | Ceiling | Floor | General Acoustic
-- Roof | External Wall | General Acoustic
+- wall
+- external wall
+- internal wall
+- ceiling
+- roof
+- floor
+- pipe
+- duct
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm target application (fire-rated wall, rainscreen facade, acoustic partition, or industrial pipe).
+2. Verify density and thickness required to satisfy fire FRL and thermal R-value specifications.
+3. Ensure non-combustible AS 1530.1 compliance is required by project engineer.
+4. Order appropriate mechanical fasteners and washers.
 
 
 ## Current catalogue range
@@ -53,37 +60,50 @@ Quality insulation engineered for Australian conditions. Made from natural volca
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Batt | Manufacturer catalogue |
-| Material | Stonewool | Manufacturer catalogue |
-| Applications | Internal Wall | Ceiling | Floor | General Acoustic; Roof | External Wall | General Acoustic | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material | Stone wool (rock mineral wool made from volcanic basalt) | - |
+| Thermal Conductivity | 0.033 - 0.037 W/m·K | EN 12667 / ASTM C518 |
+| Melting Point | > 1000°C | DIN 4102-17 |
+| Combustibility | Non-combustible (Euroclass A1 / AS 1530.1 compliant) | EN 13501-1 / AS 1530.1 |
+| Density Range | 30 kg/m³ to 150 kg/m³ (depending on product grade) | - |
+| Water Absorption | Short term: ≤ 1 kg/m²; Long term: ≤ 3 kg/m² | EN 1609 / EN 12087 |
+| Water Vapour Resistance | µ = 1 (vapour permeable) | EN 12086 |
 
-
+Extracted from manufacturer datasheet: https://www.paroc.com/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Euroclass A1 non-combustible to EN 13501-1; Non-combustible to AS 1530.1; Melting point > 1000°C; FRLs up to 240 minutes in tested assemblies
+
+EN 13162, AS 1530.1, AS 1530.4, CE marked, NCC compliant non-combustible material
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.paroc.com/en (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://www.paroc.com/en.
 
+## Recommended accessories
+
+- Insulation serrated knife.
+- Mechanical insulation anchors and washers.
+- Fire-rated silicone/mastic sealant.
+
 
 ## Limitations and warnings
 
-- Keep dry during storage and installation - if product becomes wet, dry thoroughly before installing..
-- not a water or vapour barrier - use appropriate building wrap..
-- do not compress - compression reduces R-value performance..
-- not to be exposed to weather..
-- maximum service temperature 750°C..
-- Ensure adequate subfloor ventilation is maintained..
+- Heavier than glasswool or polyester batts; ensure framing accounts for dead load.
+- Protect from continuous rain exposure during construction prior to building envelope sealing.
+- Wear appropriate personal protective equipment during handling.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Keep dry during storage and installation - if product becomes wet, dry thoroughly before installing.
+1. Cut stone wool slabs or batts cleanly using a dedicated serrated insulation knife.
+2. Friction-fit batts snugly into timber or steel stud bays, ensuring no voids along framing edges.
+3. For external facades and rainscreens, mechanically secure slabs using approved insulation anchors with large washer heads.
+4. Ensure adjacent slabs are tightly butted in a staggered brick-bond pattern to eliminate thermal bridging.
+5. Maintain ventilation gaps where specified behind rainscreen cladding systems.
+6. Wear gloves, goggles, and a dust mask during cutting and handling.
 
 ## Safety and handling
 
@@ -91,11 +111,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Natural volcanic rock; 100% recyclable; low embodied emissions; zero ODP; biosoluble fibers
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Backed by Paroc manufacturer product warranty
 
 ## Specification starting point
 

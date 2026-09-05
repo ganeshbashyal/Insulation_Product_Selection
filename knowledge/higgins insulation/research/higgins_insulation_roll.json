@@ -1,0 +1,175 @@
+{
+  "family_id": "HIGGINS_INSULATION_ROLL",
+  "family_name": "Higgins Insulation Roll",
+  "datasheet_pdf_url": "https://higginsinsulation.com.au/product/polyester-sound-blankets/",
+  "sds_url": "https://higginsinsulation.com.au/wp-content/uploads/2021/04/Higgins-Polyester-Insulation-SDS.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Higgins Polyester Sound Blankets (Polyester Acoustic Partition\nRolls) are lightweight, continuous acoustic insulation rolls designed as an\neconomical solution to reduce unwanted noise transfer through walls, floors, and\nceilings. Manufactured in Queensland from 100% thermally bonded polyester fiber\ncontaining 80% recycled PET packaging materials, they provide high tensile\nstrength, robustness, and resistance to moisture. Itch-free and requiring no\nprotective clothing, they deliver safe acoustic sound absorption and thermal\nresistance across residential and commercial buildings.",
+    "features": [
+      "Continuous roll format for fast, joint-free installation in walls, ceilings,\nand underfloors",
+      "Made from 100% polyester fiber with 80% recycled material\nfrom plastic packaging",
+      "Completely itch-free with no formaldehyde binders or\ntoxic dust",
+      "Unaffected by moisture, hydrophobic, and naturally quick-drying",
+      "High tensile strength and robustness prevents tearing and sagging",
+      "Zero Ozone\nDepleting Potential (ODP) and negligible VOC emissions",
+      "Meets Australian\nStandard AS/NZS 1530.3 for fire safety",
+      "Available in widths of 450mm and 610mm\nacross thicknesses from 50mm to 100mm",
+      "Excellent sound absorption for\nlight-to-medium noise reduction"
+    ],
+    "applications": [
+      "wall",
+      "internal wall",
+      "ceiling",
+      "underfloor",
+      "floor",
+      "between floors"
+    ],
+    "technical": [
+      {
+        "property": "Material Composition",
+        "value": "100% thermally bonded polyester\nfiber (80% recycled PET)",
+        "standard": ""
+      },
+      {
+        "property": "Thickness Options",
+        "value": "50 mm, 65 mm, 75 mm, 85 mm, 100 mm",
+        "standard": ""
+      },
+      {
+        "property": "Width Options",
+        "value": "450 mm, 610 mm",
+        "standard": ""
+      },
+      {
+        "property": "Roll Coverage (50mm)",
+        "value": "20.25 m² (450mm width) / 18.30 m² (610mm\nwidth)",
+        "standard": ""
+      },
+      {
+        "property": "Roll Length (50mm)",
+        "value": "15 m\n(15000 mm)",
+        "standard": ""
+      },
+      {
+        "property": "Fire Hazard Indices",
+        "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Moisture Resistance",
+        "value": "Hydrophobic, water-repellent fibers",
+        "standard": ""
+      },
+      {
+        "property": "Ozone\nDepletion Potential",
+        "value": "Zero ODP",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Polyester Sound Blanket 50mm",
+        "size_or_rating": "50 mm x 450/610 mm\nx 15000 mm",
+        "pack": "Roll (20.25 m² / 18.3 m²)"
+      },
+      {
+        "variant": "Polyester\nSound Blanket 65mm",
+        "size_or_rating": "65 mm x 450/610 mm x roll length",
+        "pack": "Roll"
+      },
+      {
+        "variant": "Polyester Sound Blanket 75mm",
+        "size_or_rating": "75 mm x 450/610 mm x roll length",
+        "pack": "Roll"
+      },
+      {
+        "variant": "Polyester\nSound Blanket 85mm",
+        "size_or_rating": "85 mm x 450/610 mm x roll length",
+        "pack": "Roll"
+      },
+      {
+        "variant": "Polyester Sound Blanket 100mm",
+        "size_or_rating": "100 mm x 450/610 mm x roll length",
+        "pack": "Roll"
+      }
+    ],
+    "fire": "Meets Australian Standard AS/NZS 1530.3 for fire safety:\nIgnitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-1",
+    "compliance": "AS/NZS 1530.3, AS/NZS 4859.1, NCC Volume One and Two",
+    "sustainability": "Manufactured from 80% recycled PET packaging materials; Zero\nODP; Negligible VOCs; 100% recyclable",
+    "install": [
+      "Measure stud or joist bay\nwidth (450mm or 610mm)",
+      "Unroll the polyester sound blanket vertically or\nhorizontally along framing bays",
+      "Friction-fit between timber or steel studs,\nor secure to floor joists from below",
+      "Cut roll to length using a sharp utility\nknife or heavy-duty scissors",
+      "Ensure continuous coverage with tightly butted\nends and no gaps",
+      "Enclose behind wall, ceiling, or floor linings promptly\nafter installation"
+    ],
+    "selection_checklist": [
+      "Select roll width (450mm\nor 610mm) to match framing spacing",
+      "Choose thickness (50mm to 100mm) based on\nacoustic and cavity depth requirements",
+      "Calculate required square meterage to\norder roll quantities",
+      "Confirm preference for continuous roll installation\nover individual batts"
+    ],
+    "accessories": [
+      "Utility knife",
+      "Insulation\nstrapping",
+      "Fasteners / staples"
+    ],
+    "limitations": [
+      "Indoor use only; not for\ndirect external weather exposure",
+      "Avoid excessive compression beyond cavity\ndepth",
+      "Do not install directly over non-IC rated light fittings"
+    ],
+    "warranty": "Backed by Higgins Insulation product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Higgins Insulation Roll",
+      "Polyester Sound Blankets",
+      "Higgins polyester roll",
+      "acoustic partition roll",
+      "Higgins underfloor roll",
+      "polyester blanket roll",
+      "itch free insulation roll",
+      "450mm polyester roll",
+      "610mm polyester roll"
+    ],
+    "problem_keywords": [
+      "sound transfer through stud\nwalls",
+      "cold subfloor drafts",
+      "gaps between small batt pieces",
+      "itchy\ninsulation rolls",
+      "uninsulated wall cavity noise",
+      "quick installation of\nacoustic blanket"
+    ],
+    "placement": [
+      "wall",
+      "internal wall",
+      "ceiling",
+      "underfloor",
+      "floor",
+      "between floors"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "thermal",
+      "easy_install",
+      "sustainability"
+    ],
+    "use_cases": [
+      "Continuous\nacoustic insulation unrolled in internal stud walls for sound attenuation",
+      "Underfloor thermal and draft insulation unrolled between floor joists",
+      "Acoustic blanket overlay in suspended ceiling spaces above office partitions"
+    ],
+    "not_for": [
+      "Exterior exposed cladding",
+      "High-temperature flue pipes",
+      "Direct foot traffic without floorboards"
+    ],
+    "rag_summary": "Higgins Insulation\nRoll (Polyester Sound Blankets / Partition Rolls) is a continuous bulk acoustic\nand thermal insulation roll manufactured from 100% polyester fiber with 80%\nrecycled PET content. Available in widths of 450mm and 610mm and thicknesses\nfrom 50mm to 100mm, it unrolls smoothly into wall cavities, ceilings, and\nunderfloor joists to dampen sound transmission and block thermal loss.\nHydrophobic, itch-free, zero-ODP, and compliant with AS/NZS 1530.3 fire safety,\nit provides an economical, rapid-install acoustic solution."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

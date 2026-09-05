@@ -1,0 +1,156 @@
+{
+  "family_id": "PROCTOR_WRAP_HT",
+  "family_name": "ProctorWrap HT",
+  "datasheet_pdf_url": "https://proctorgroup.com.au/products/proctorwrap-htr/",
+  "sds_url": "",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "ProctorWrap HTR (High Tensile Roof / High Temperature Roof) is a\nheavy-weight, UV-stabilised 3-ply spunbonded polyolefin vapour-permeable roof\nunderlay reinforced with an internal grid scrim. Specifically engineered for\ncommercial and residential pitched roofs under metal sheeting, slate, and tiles,\nit provides high water holdout and tear resistance without compromising\nbreathability. By allowing moisture vapour to escape the roof cavity into a\ndrained and vented space, it protects structural timbers and insulation from\ncondensation damage.",
+    "features": [
+      "Heavy-weight 3-ply spunbonded polyolefin\nconstruction with internal reinforcement scrim",
+      "Class 4 vapour-permeable\nmembrane allowing moisture vapour to escape roof spaces",
+      "Medium Duty\nclassification with exceptional tear and puncture resistance",
+      "High water\nholdout protecting framing and insulation from roof leaks and rain ingress",
+      "Suitable underneath metal sheet, cement, terracotta, and natural slate tiled\nroofs",
+      "Withstands high foot traffic and wind loads during construction",
+      "Non-reflective surface eliminates glare on site during daytime installation",
+      "Suitable for use in bushfire BAL regions 12.5 to 40 in accordance with\nAS 3959",
+      "UV-stabilised formulation offering extended durability during roof\ninstallation"
+    ],
+    "applications": [
+      "roof",
+      "roofline"
+    ],
+    "technical": [
+      {
+        "property": "Material Structure",
+        "value": "3-ply spunbonded polyolefin membrane\nwith reinforcement scrim",
+        "standard": ""
+      },
+      {
+        "property": "Duty\nClassification",
+        "value": "Medium Duty",
+        "standard": "AS/NZS 4200.1:2017"
+      },
+      {
+        "property": "Vapour Permeability",
+        "value": "Class 4 Vapour Permeable",
+        "standard": "AS/NZS 4200.1:2017"
+      },
+      {
+        "property": "Water Control",
+        "value": "Water Barrier",
+        "standard": "AS/NZS 4201.4"
+      },
+      {
+        "property": "Air Control",
+        "value": "Air Barrier",
+        "standard": "AS/NZS 4200.1:2017"
+      },
+      {
+        "property": "Emittance",
+        "value": "Non-reflective (does not provide reflective R-value)",
+        "standard": "AS/NZS 4201.5"
+      },
+      {
+        "property": "Roll Dimensions",
+        "value": "1500\nmm width x 50 m length (75 m²)",
+        "standard": ""
+      },
+      {
+        "property": "Weight per\nRoll",
+        "value": "18.5 kg",
+        "standard": ""
+      },
+      {
+        "property": "Flammability Index",
+        "value": "≤ 5 (Low Flammability)",
+        "standard": "AS 1530.2"
+      }
+    ],
+    "range": [
+      {
+        "variant": "ProctorWrap HTR (1.5m x 50m)",
+        "size_or_rating": "1500 mm x 50 m (75\nm²)",
+        "pack": "Roll"
+      }
+    ],
+    "fire": "Flammability Index ≤ 5 to AS 1530.2; Suitable\nfor BAL-12.5 to BAL-40 in accordance with AS 3959 when combined with compliant\nmetal ember guard mesh",
+    "compliance": "AS/NZS 4200.1:2017, AS/NZS 4200.2:2017,\nAS 1530.2, AS 3959, NCC 2022 Volume One & Two condensation management",
+    "sustainability": "100% recyclable polyolefin materials; zero ODP; non-toxic",
+    "install": [
+      "Roll out ProctorWrap HTR horizontally across rafters or trusses\nstarting from the eaves with printed face upward",
+      "Ensure lower edge drains\nfreely into the roof gutter without creating a reverse lap or water trap",
+      "Allow a nominal 40mm drape between framing members to facilitate drainage and\nventilation beneath battens",
+      "Overlap consecutive upper sheets over lower\nsheets by at least 150mm",
+      "Secure temporarily with broad-headed galvanised\nclouts, staples, or PlastiGrip washers before fixing battens",
+      "Tape all laps\nand penetrations with ProctorWrap HighTack PLUS Tape for enhanced airtightness\nand weather sealing",
+      "Provide a ventilated and drained cavity between the outer\nmembrane face and the underside of roof cladding",
+      "Ensure compliant metal ember\nguard mesh is installed at ridges, valleys, and eaves in BAL zones"
+    ],
+    "selection_checklist": [
+      "Confirm roof cladding is metal deck, concrete tile,\nterracotta tile, or slate",
+      "Verify need for Class 4 vapour-permeable roof\nunderlay to manage condensation risk",
+      "Check that roof design incorporates a\ndrained, ventilated cavity above the membrane",
+      "Calculate total roof area\nincluding 150mm overlaps",
+      "Order matching ProctorWrap HighTack PLUS Tape for\nlap and penetration sealing"
+    ],
+    "accessories": [
+      "ProctorWrap HighTack PLUS\nTape",
+      "ProctorWrap PlastiGrip Washers",
+      "ProctorVent Over Fascia Vents and\nRidge Vents",
+      "Galvanised clouts / staples"
+    ],
+    "limitations": [
+      "Does not\nprovide a reflective air-space R-value (non-reflective membrane)",
+      "Must not be\nlaid in direct continuous contact with the underside of unvented metal roof\nsheeting",
+      "Must not be left exposed to direct sunlight beyond manufacturer UV\nlimits prior to roof covering"
+    ],
+    "warranty": "Backed by Proctor Group Australia\nmanufacturer warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "ProctorWrap HT",
+      "ProctorWrap HTR",
+      "HTR roof underlay",
+      "breathable roof sarking",
+      "Class 4 roof\nunderlay",
+      "heavy duty roof membrane",
+      "Proctor roof wrap",
+      "vapour permeable\nroof underlay",
+      "metal roof breathable sarking",
+      "slate tile underlay"
+    ],
+    "problem_keywords": [
+      "condensation dripping under metal roof",
+      "sweating roof\ncavity in winter",
+      "rain leaks damaging roof framing",
+      "mould in cathedral\nceiling roof space",
+      "sarking tearing under high wind loads",
+      "foot traffic\ntearing roof underlay"
+    ],
+    "placement": [
+      "roof",
+      "roofline"
+    ],
+    "priority_fit": [
+      "condensation",
+      "easy_install",
+      "fire"
+    ],
+    "use_cases": [
+      "Vapour-permeable roof\nunderlay beneath residential and commercial metal deck roofs over a drained\ncavity",
+      "Heavy-duty roof sarking under concrete, terracotta, and slate roof\ntiles subjected to construction foot traffic",
+      "Condensation management underlay\nin cathedral and pitched roof designs across Australian climate zones 4 to 8"
+    ],
+    "not_for": [
+      "Direct external wall wrap without checking duty classification",
+      "Unvented sandwich roofs with direct metal contact",
+      "Underfloor soil\ndamp-proofing"
+    ],
+    "rag_summary": "ProctorWrap HT (ProctorWrap HTR) is a\nheavy-duty, reinforced 3-ply spunbonded polyolefin vapour-permeable roof\nunderlay manufactured for commercial and residential pitched roofs. Sized\nat 1500mm x 50m (75 m² per roll) with a Medium Duty classification, it\nwithstands high construction foot traffic and wind loads under metal deck, tile,\nand slate roofs. Class 4 vapour-permeable, highly water-resistant, and\nfire-tested to AS 1530.2 (BAL 12.5-40 compliant), it exhausts roof cavity\nmoisture into a ventilated airspace to prevent condensation and structural\ntimber rot."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

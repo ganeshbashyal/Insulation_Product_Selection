@@ -1,7 +1,7 @@
 ---
 title: "Ecowool Acoustic Partition Batt - Batt Insulation | Ecowool"
-description: "Quality insulation engineered for Australian conditions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability"
-keywords: "Ecowool Acoustic Partition Batt, Ecowool batt, acoustic insulation, wall insulation, insulation Australia, Ecowool Australia"
+description: "Ecowool Acoustic Partition Batts are high-performance glass mineral wool insulation batts manufactured by PGF Insulation using SensiTouch technology. "
+keywords: "Ecowool Acoustic Partition Batt, Ecowool batt, acoustic insulation, wall insulation, ceiling insulation, floor insulation, insulation Australia, Ecowool Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: ECOWOOL_ACOUSTIC_PARTITION_BATT
 ---
@@ -10,27 +10,34 @@ family_id: ECOWOOL_ACOUSTIC_PARTITION_BATT
 
 **Ecowool Batt** — bulk insulation batts for thermal and acoustic performance.
 
-Quality insulation engineered for Australian conditions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability.
+Ecowool Acoustic Partition Batts are high-performance glass mineral wool insulation batts manufactured by PGF Insulation using SensiTouch technology. Employing an innovative binder incorporating a natural anti-formaldehyde ingredient, they are low in VOCs, soft to handle, and non-combustible. Designed for friction-fit installation in timber or steel stud partition walls and ceiling systems in residential and commercial buildings, they significantly reduce airborne sound transmission while providing thermal resistance.
 
 ## Key features
 
-- 100% polyester - safe to handle without protective equipment.
-- contains minimum 80% recycled PET plastic bottles.
-- non-allergenic, non-irritant formulation.
-- will not support mould or mildew growth.
-- maintains performance when wet.
+- SensiTouch Technology with natural anti-formaldehyde binder.
+- High acoustic performance tested to ASTM C423.
+- Non-combustible when tested to AS 1530.1:1994.
+- Low VOC emissions tested in accordance with ASTM D 5116-06.
+- Manufactured from nearly 80% recycled glass.
+- Soft to touch and less itchy compared to conventional glass wool.
+- Firm friction fit between studs prevents sagging in cavity.
+- Free from CFCs, HCFCs, and ozone-depleting substances.
+- Bio-soluble fibres posing no long-term health risk.
+- Compliant with AS/NZS 4859.1:2018 and the Building Code of Australia (BCA).
 
 ## Applications and selection
 
-- Internal Wall | Acoustic
+- wall
+- internal wall
+- ceiling
+- between floors
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm stud depth (e.g. 75mm, 90mm, or 110mm).
+2. Confirm stud spacing (450mm or 600mm centres).
+3. Check acoustic acoustic Rw/STC specification to select appropriate density (11kg, 14kg, 24kg, or 32kg/m³).
+4. Verify fire compliance requirements (AS 1530.1 non-combustible).
 
 
 ## Current catalogue range
@@ -50,36 +57,54 @@ Quality insulation engineered for Australian conditions. Safe to handle without 
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Batt | Manufacturer catalogue |
-| Material | Polyester | Manufacturer catalogue |
-| Applications | Internal Wall | Acoustic | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Densities | 11 kg/m³, 14 kg/m³, 24 kg/m³, 32 kg/m³ | - |
+| Thermal R-values | R1.8 (75mm, 11kg/m³), R1.9 (75mm, 14kg/m³), R2.0 (75mm, 17kg/m³), R2.2 (75mm, 32kg/m³), R2.5 (110mm, 11kg/m³) | AS/NZS 4859.1:2018 |
+| Thicknesses | 75 mm, 90 mm, 110 mm | - |
+| Dimensions | 1200 mm x 450 mm, 1200 mm x 600 mm | - |
+| Combustibility | Non-combustible | AS 1530.1:1994 |
+| Early Fire Hazard Indices | Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1 | AS 1530.3:1999 |
+| Surface Burning Characteristics | Pass / Limited Combustibility | ASTM E84 |
+| Thermal Conductivity | Tested at 23°C mean temperature | ASTM C518 |
+| Acoustic Performance | Tested Type A mounting | ASTM C423 |
+| VOC Emission | Low VOC content | ASTM D 5116-06 |
 
-
+Extracted from manufacturer datasheet: https://pgfinsulation.com.au/products/acoustic-partition-batts/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Non-combustible to AS 1530.1:1994; AS 1530.3:1999 indices: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-1; ASTM E84 compliant
+
+AS/NZS 4859.1:2018, Building Code of Australia (BCA) / NCC compliant
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://chadgroup.com.au/wp-content/uploads/2022/09/eco-wool-datasheet.pdf (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://chadgroup.com.au/wp-content/uploads/2022/09/eco-wool-datasheet.pdf.
 
+## Recommended accessories
+
+- Acoustic sealant.
+- Resilient isolation clips.
+- Utility knife.
+
 
 ## Limitations and warnings
 
-- Not suitable for fire rating without additional protection..
-- not to be exposed to weather or sustained moisture..
-- do not compress beyond manufacturer recommendations..
-- check fire-rated system requirements..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Indoor use only; not for direct external weather exposure.
+- Avoid excessive compression which reduces acoustic absorption performance.
+- Do not install over unsealed damp or leaking surfaces.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for fire rating without additional protection.
+1. Ensure framing studs and cavity spaces are clean, dry, and ready for insulation.
+2. Select batt width matching stud spacing (450mm or 600mm).
+3. Friction fit batts snugly between timber or steel studs without gaps or excessive compression.
+4. Ensure batts butt tightly against top and bottom plates and adjacent batts.
+5. Cut batts neatly around electrical boxes, plumbing, and structural penetrations using a utility knife.
+6. Do not compress batts beyond cavity depth to maintain acoustic and thermal ratings.
+7. Complete lining with acoustic plasterboard or specified wall linings as per project design.
 
 ## Safety and handling
 
@@ -87,11 +112,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Manufactured from up to 80% recycled glass; SensiTouch anti-formaldehyde binder; Low VOC (ASTM D 5116); Free from CFCs and HCFCs; Zero ODP; Bio-soluble FBS-1
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+PGF Australia product warranty
 
 ## Specification starting point
 

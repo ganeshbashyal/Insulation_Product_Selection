@@ -1,0 +1,130 @@
+{
+  "family_id": "ECOWOOL_ECOSEAL_TAPE",
+  "family_name": "Ecowool Ecoseal Tape",
+  "datasheet_pdf_url": "https://pgfinsulation.com.au/accessories/",
+  "sds_url": "https://pgfinsulation.com.au/resource-centre/technical-documentation/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "EcoSeal 201 Cloth Tape is a heavy-duty, high-tack\npolyethylene-coated cloth tape specially designed for bonding, sealing, and\nmending overlapped edges of ClimaWrap, vapour barriers, and building membranes.\nFormulated with a high-tack pressure-sensitive acrylic/synthetic adhesive, it\nprovides outstanding adhesion, shear strength, and weather resistance across\nAustralian climatic conditions. It seals overlaps, joins, and penetrations to\nmaintain airtight and watertight building envelope integrity.",
+    "features": [
+      "Specially designed for bonding, sealing, and mending building membranes and\nClimaWrap",
+      "High-tack adhesive provides outstanding adhesion and cohesion",
+      "Polyethylene-coated cloth backing resists tears, punctures, and abrasion",
+      "Forms a durable, moisture-resistant and airtight seal",
+      "Conforms easily to\nirregular surfaces, corners, and penetrations",
+      "Hand tearable for fast,\nconvenient installation on site",
+      "Reliable bonding across wide temperature\nvariations in Australia",
+      "48mm width provides ample lap coverage"
+    ],
+    "applications": [
+      "wall",
+      "external wall",
+      "roof",
+      "roofline"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "Polyethylene-coated cloth backing with\nhigh-tack adhesive",
+        "standard": ""
+      },
+      {
+        "property": "Roll Dimensions",
+        "value": "48 mm width x 50 m length (2.4 m²)",
+        "standard": ""
+      },
+      {
+        "property": "Adhesive\nType",
+        "value": "High-tack pressure-sensitive adhesive",
+        "standard": ""
+      },
+      {
+        "property": "Hand Tearable",
+        "value": "Yes",
+        "standard": ""
+      },
+      {
+        "property": "Application",
+        "value": "Bonding, sealing, and mending overlapped edges of\nbuilding wraps",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "EcoSeal 201 Cloth\nTape 48mm x 50m",
+        "size_or_rating": "48 mm x 50 m",
+        "pack": "Roll"
+      }
+    ],
+    "fire": "Complies with early fire hazard requirements when used in conjunction with\ncompliant building membranes",
+    "compliance": "AS/NZS 4200.2 compliant membrane\nsealing tape",
+    "sustainability": "Low VOC, durable long-life adhesive system",
+    "install": [
+      "Ensure building wrap surfaces are clean, dry, and free of dust,\ngrease, and moisture",
+      "Align membrane lap with recommended overlap\n(minimum 150mm or 50mm if taped per AS 4200.2)",
+      "Centre EcoSeal 201 Cloth Tape\nevenly over the joint seam",
+      "Press tape firmly along the entire length using\nhand pressure or a squeegee to ensure 100% surface contact",
+      "Smooth out any air\nbubbles or wrinkles",
+      "Tape around window flashings, penetrations, and frame\njunctions to ensure airtightness"
+    ],
+    "selection_checklist": [
+      "Confirm tape is\nbeing paired with ClimaWrap, vapour barriers, or building membranes",
+      "Measure\ntotal linear metres of horizontal and vertical membrane overlaps and\npenetrations",
+      "Ensure surface temperature during installation allows proper\nadhesive bonding"
+    ],
+    "accessories": [
+      "Ecowool ClimaWrap CW / BMX800",
+      "Application squeegee"
+    ],
+    "limitations": [
+      "Surfaces must be dry and clean\nbefore application",
+      "Pressure-sensitive adhesive requires firm pressure to\nachieve full bonding",
+      "Not designed for structural mechanical fastening"
+    ],
+    "warranty": "PGF Australia product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Ecowool EcoSeal Tape",
+      "EcoSeal 201 Cloth Tape",
+      "EcoSeal tape",
+      "ClimaWrap\ntape",
+      "building membrane cloth tape",
+      "48mm cloth tape insulation",
+      "PGF\nEcoSeal tape",
+      "wall wrap sealing tape",
+      "vapour barrier tape"
+    ],
+    "problem_keywords": [
+      "air leakage through wall wrap laps",
+      "tears in building\nwrap on site",
+      "water leaks around wall wrap penetrations",
+      "sealing breathable\nmembrane joins",
+      "loose building wrap edges in wind"
+    ],
+    "placement": [
+      "wall",
+      "external wall",
+      "roof",
+      "roofline"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "condensation"
+    ],
+    "use_cases": [
+      "Sealing horizontal and vertical laps on\nEcowool ClimaWrap building membranes",
+      "Mending accidental tears and punctures\nin wall wraps during construction",
+      "Sealing membrane interfaces around window\nand door frames"
+    ],
+    "not_for": [
+      "High-temperature flue pipes exceeding 80°C",
+      "Direct structural mechanical load holding",
+      "Subterranean wet tanking seams"
+    ],
+    "rag_summary": "Ecowool EcoSeal Tape (EcoSeal 201 Cloth Tape) is a\nheavy-duty 48mm x 50m polyethylene-coated cloth tape distributed by PGF\nInsulation. Engineered with an aggressive, high-tack pressure-sensitive\nadhesive, it bonds, seals, and mends overlapped edges of ClimaWrap wall wraps,\nvapour barriers, and pliable building membranes. Hand-tearable for fast on-site\napplication, it provides a weather-tight, moisture-resistant barrier that\nprevents air leakage and wind-driven rain penetration across the building\nenvelope."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

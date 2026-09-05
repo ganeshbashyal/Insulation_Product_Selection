@@ -1,0 +1,156 @@
+{
+  "family_id": "FOILBOARD_ACCESSORY",
+  "family_name": "Foilboard Accessory",
+  "datasheet_pdf_url": "https://www.foilboard.com.au/product-category/accessories/",
+  "sds_url": "https://www.foilboard.com.au/wp-content/uploads/2021/04/Foilboard-Green-Safety-Data-Sheet.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Foilboard Accessories comprise specialized installation hardware\nand sealing components engineered to ensure complete thermal envelope continuity\nand mechanical stability for Foilboard insulation panels. The range includes\naluminum foil joiner tapes, blanking plates, Floor Saddles, and Flexifast nylon\nfasteners designed specifically to eliminate thermal bridging and maintain\nnon-destructive airspaces. These accessories ensure wall, ceiling, and\nunderfloor installations achieve rated system R-values and meet Australian\nbuilding compliance.",
+    "features": [
+      "Engineered specifically for Foilboard\nrigid insulation panel systems",
+      "Eliminates thermal bridging at panel junctions\nand framing fasteners",
+      "Reinforced aluminum foil tape creates continuous vapor\nand air barrier",
+      "Durable, corrosion-resistant polymer and galvanized steel\ncomponents",
+      "Designed for fast installation in residential, commercial, and\nunderfloor applications",
+      "Prevents panel sagging and dislocation over the life\nof the building",
+      "Tested for compatibility with EPS core and pure aluminum\nfacings"
+    ],
+    "applications": [
+      "underfloor",
+      "floor",
+      "subfloor",
+      "wall",
+      "external wall",
+      "internal wall",
+      "ceiling",
+      "shed"
+    ],
+    "technical": [
+      {
+        "property": "Foil Tape Width",
+        "value": "48 mm / 72 mm",
+        "standard": ""
+      },
+      {
+        "property": "Foil Tape Roll Length",
+        "value": "50 m",
+        "standard": ""
+      },
+      {
+        "property": "Floor Saddle Depths",
+        "value": "100 mm, 130 mm (for 10-25mm\nand 20-50mm boards)",
+        "standard": ""
+      },
+      {
+        "property": "Flexifast Pin Lengths",
+        "value": "45 mm, 70 mm, 95 mm",
+        "standard": ""
+      },
+      {
+        "property": "Tape\nFlammability",
+        "value": "Low Flammability Index (≤ 5)",
+        "standard": "AS 1530.2"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Foilboard Reinforced Foil Tape 72mm",
+        "size_or_rating": "72 mm x 50 m",
+        "pack": "Roll"
+      },
+      {
+        "variant": "Foilboard\nReinforced Foil Tape 48mm",
+        "size_or_rating": "48 mm x 50 m",
+        "pack": "Roll"
+      },
+      {
+        "variant": "Foilboard Flexifast Fasteners",
+        "size_or_rating": "45mm, 70mm, 95mm",
+        "pack": "Box of 250"
+      },
+      {
+        "variant": "Foilboard Floor\nSaddles",
+        "size_or_rating": "100mm / 130mm drop",
+        "pack": "Box of 100 / 250"
+      },
+      {
+        "variant": "Foilboard Blank Plates",
+        "size_or_rating": "40 mm x 40 mm",
+        "pack": "Box of 250"
+      }
+    ],
+    "fire": "Foil tape tested to AS 1530.2 Flammability\nIndex ≤ 5; Components compliant with NCC fire hazard requirements",
+    "compliance": "AS/NZS 4859.1, AS 3999, NCC 2022 Volume 1 & 2",
+    "sustainability": "100% recyclable components; low VOC; zero ODP",
+    "install": [
+      "Select\nappropriate accessory based on application (Floor Saddles for subfloor;\nFlexifast for concrete/timber; Tape for joins)",
+      "Position panels with\nrequired 20mm+ air space to substrate",
+      "Fix panels mechanically using Flexifast\npins or Floor Saddles at maximum 600mm centers",
+      "Tape all panel butt joins,\ncorners, and penetrations with Foilboard 72mm reinforced foil tape",
+      "Firmly\nsqueegee tape to ensure permanent pressure-sensitive adhesion and airtight seal"
+    ],
+    "selection_checklist": [
+      "Confirm Foilboard panel thickness to match\nfastener/saddle length",
+      "Determine joist spacing (450mm vs 600mm) for saddle\nquantities",
+      "Calculate total linear meters of panel joints for tape\nrequirements",
+      "Ensure substrate allows mechanical fixing of Flexifast pins or\nscrews"
+    ],
+    "accessories": [
+      "Foilboard Green insulation panels",
+      "Plastic\napplication squeegee"
+    ],
+    "limitations": [
+      "Tape must be applied to clean, dry,\nand dust-free surfaces",
+      "Do not substitute non-approved duct tapes that degrade\nunder heat",
+      "Saddles and fasteners are non-structural; do not support\nmechanical equipment"
+    ],
+    "warranty": "Covered under Foilboard 25-year\nperformance warranty system"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Foilboard\naccessories",
+      "Foilboard tape",
+      "Foilboard fasteners",
+      "Foilboard clips",
+      "Foilboard saddles",
+      "Foilboard Flexifast",
+      "Foilboard joiner tape",
+      "Foilboard\ninstallation kit"
+    ],
+    "problem_keywords": [
+      "Foilboard falling down between\njoists",
+      "air leaks at Foilboard seams",
+      "loose insulation panels under floor",
+      "thermal bridging through fasteners",
+      "taping Foilboard seams"
+    ],
+    "placement": [
+      "underfloor",
+      "floor",
+      "subfloor",
+      "wall",
+      "external wall",
+      "ceiling",
+      "shed"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "thermal",
+      "condensation"
+    ],
+    "use_cases": [
+      "Securing Foilboard panels between timber floor joists using Floor Saddles",
+      "Sealing panel joins with 72mm reinforced aluminum tape to form a continuous\nvapor barrier",
+      "Direct-pinning Foilboard to masonry or concrete basement walls\nwith Flexifast anchors"
+    ],
+    "not_for": [
+      "Direct structural load bearing",
+      "Permanent immersion in water",
+      "High-temperature exhaust flue sealing"
+    ],
+    "rag_summary": "Foilboard Accessories include 72mm reinforced aluminum foil\nsealing tape, galvanized Floor Saddles, Flexifast polymer fasteners, and blank\nplates purpose-designed for Foilboard insulation panels. They eliminate thermal\nbridging, maintain designed reflective airspaces, and mechanically anchor panels\nacross underfloor joists, concrete slabs, and framed walls. Tested for thermal\nand fire compliance, they ensure Foilboard installations achieve their rated\nTotal R-value and maintain long-term structural resilience."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

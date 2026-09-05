@@ -1,0 +1,65 @@
+{
+  "family_id": "PROCTOR_YOURIPPA_EASY",
+  "family_name": "Proctor YouRippa Easy",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "gemini_not_found",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "",
+    "features": "",
+    "applications": "",
+    "technical": "",
+    "range": "",
+    "fire": "",
+    "compliance": "",
+    "sustainability": "",
+    "install": "",
+    "selection_checklist": "",
+    "accessories": "",
+    "limitations": "",
+    "warranty": ""
+  },
+  "retrieval": {
+    "search_keywords": [
+      "proctor yourippa easy",
+      "yourippa easy\ntape",
+      "easy tear construction tape",
+      "hand tearable cloth tape",
+      "yourippa tape\nproctor",
+      "trade joining tape",
+      "proctor easy tape"
+    ],
+    "problem_keywords": [
+      "slow taping on ladders and scaffolding",
+      "needing knife to cut tape",
+      "fumbling\nwith scissors on site",
+      "rough tears on joining tape",
+      "temporary protective\ntape removal"
+    ],
+    "placement": [
+      "wall",
+      "external wall",
+      "roof",
+      "internal\nwall",
+      "floor"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "budget"
+    ],
+    "use_cases": [
+      "Fast, blade-free hand-tear taping of floor protection boards and corflute\nsheets on jobsites",
+      "Quick general-purpose sealing of overlap laps on\nnon-breathable films and site sheeting",
+      "Temporary bundling, masking, and\ncontainment sealing during construction fitouts"
+    ],
+    "not_for": [
+      "Permanent\nvapour-permeable membrane seam sealing",
+      "High-temperature exhaust ducting",
+      "Underwater hydrostatic applications"
+    ],
+    "rag_summary": "Proctor YouRippa Easy\nis a convenient, hand-tearable trade tape engineered for effortless\ncross-directional tearing without the need for knives or scissors. Formulated\nwith a balanced pressure-sensitive adhesive on a flexible embossed carrier, it\ndelivers quick tack and conformability across jobsite surfaces. It provides an\nefficient solution for attaching protective films, joining temporary covers, and\ngeneral light-to-medium utility sealing."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

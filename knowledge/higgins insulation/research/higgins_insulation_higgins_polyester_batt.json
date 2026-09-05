@@ -1,0 +1,197 @@
+{
+  "family_id": "HIGGINS_INSULATION_HIGGINS_POLYESTER_BATT",
+  "family_name": "Higgins Insulation Higgins Polyester Batt",
+  "datasheet_pdf_url": "https://higginsinsulation.com.au/product/polyester-insulation-ceiling-batts/",
+  "sds_url": "https://higginsinsulation.com.au/wp-content/uploads/2021/04/Higgins-Polyester-Insulation-SDS.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Higgins Polyester Batts (Ceiling and Wall Batts) are\nAustralian-made thermal and acoustic insulation batts manufactured in Queensland\nfrom 100% thermally bonded polyester fiber with up to 85% recycled PET.\nCompletely free from formaldehyde, chemical binders, and resins, they are soft\nto touch, non-toxic, and non-allergenic, making them safe for asthma sufferers\nand comfortable to install without protective clothing. Engineered with high\ntensile resiliency, they will not sag, slump, or break down over the life of the\nbuilding, providing long-term thermal resistance from R1.5 to R5.0.",
+    "features": [
+      "100% thermally bonded polyester fiber containing up to 85%\nrecycled PET",
+      "Completely itch-free, non-toxic, non-allergenic, and safe to\nhandle without PPE",
+      "Free from formaldehyde, chemical binders, phenol, and\nammonia",
+      "Zero Ozone Depleting Potential (ODP) and low VOC emissions",
+      "High\ntensile strength and fiber resiliency prevents slumping or sagging over time",
+      "Naturally hydrophobic and quick drying; largely unaffected by moisture",
+      "Tested to AS/NZS 1530.3 for fire safety",
+      "Approved by Asthma Foundations\nAustralia for low-allergen buildings",
+      "Thermal ratings from R1.5 to R2.5 for\nwalls and R2.0 to R5.0 for ceilings",
+      "Backed by a lifetime product performance\nguarantee"
+    ],
+    "applications": [
+      "ceiling",
+      "wall",
+      "external wall",
+      "internal\nwall",
+      "between floors"
+    ],
+    "technical": [
+      {
+        "property": "Material Composition",
+        "value": "100% thermally bonded polyester fiber (up to 85% recycled PET)",
+        "standard": ""
+      },
+      {
+        "property": "Ceiling R-Values",
+        "value": "R2.0, R2.5, R3.0,\nR3.5, R4.0, R5.0",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Wall R-Values",
+        "value": "R1.5, R2.0, R2.5",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Standard Dimensions",
+        "value": "1160 mm length x 430 mm or 580 mm width",
+        "standard": ""
+      },
+      {
+        "property": "Thicknesses",
+        "value": "R1.5 (75mm), R2.0\n(90mm), R2.5 (90-140mm), R3.0 (165mm), R3.5 (185mm), R4.0 (200mm), R5.0\n(230mm)",
+        "standard": ""
+      },
+      {
+        "property": "Fire Hazard Indices",
+        "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Moisture Absorption",
+        "value": "< 0.2% by volume",
+        "standard": ""
+      },
+      {
+        "property": "Corrosion Resistance",
+        "value": "Non-corrosive, chemically inert",
+        "standard": "AS/NZS 4859.1"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Higgins Polyester Wall Batts R1.5",
+        "size_or_rating": "75 mm x 1160 mm x 430/580 mm",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "Higgins\nPolyester Wall Batts R2.0",
+        "size_or_rating": "90 mm x 1160 mm x 430/580 mm",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "Higgins Polyester Wall Batts R2.5",
+        "size_or_rating": "90 mm x 1160 mm x 430/580 mm",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "Higgins Polyester Ceiling Batts R2.0",
+        "size_or_rating": "120 mm\nx 1160 mm x 430/580 mm",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "Higgins\nPolyester Ceiling Batts R2.5",
+        "size_or_rating": "140 mm x 1160 mm x 430/580\nmm",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "Higgins Polyester Ceiling Batts\nR3.0",
+        "size_or_rating": "165 mm x 1160 mm x 430/580 mm",
+        "pack": "Pack of\nbatts"
+      },
+      {
+        "variant": "Higgins Polyester Ceiling Batts R3.5",
+        "size_or_rating": "185 mm x 1160 mm x 430/580 mm",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "Higgins Polyester Ceiling Batts R4.0",
+        "size_or_rating": "200 mm x 1160 mm\nx 430/580 mm",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "Higgins Polyester\nCeiling Batts R5.0",
+        "size_or_rating": "230 mm x 1160 mm x 430/580 mm",
+        "pack": "Pack of batts"
+      }
+    ],
+    "fire": "AS/NZS 1530.3 Early Fire Hazard Indices:\nIgnitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-1; Complies\nwith NCC fire hazard properties",
+    "compliance": "AS/NZS 4859.1, AS 3999, NCC\nVolume One and Two / ABCB Housing Provisions Standard Part 13.2",
+    "sustainability": "Manufactured from up to 85% recycled PET plastic\nbottles; 100% recyclable; zero formaldehyde; asthma friendly; zero ODP",
+    "install": [
+      "Turn off electrical power at the main switchboard before entering\nceilings or touching wall cavities",
+      "Select batt width (430mm or 580mm) to\nmatch stud or joist centers (450mm or 600mm)",
+      "In ceilings, lay batts flat\nbetween ceiling joists ensuring complete coverage over plasterboard with zero\ngaps",
+      "In walls, friction-fit batts firmly between studs ensuring batts butt\ntightly against top and bottom plates",
+      "Maintain minimum 50mm clearance around\nnon-IC rated recessed downlights and heat sources per AS 3999",
+      "Maintain a 20mm\nclearance between roof sarking and ceiling batts at roof eaves",
+      "Tear batts\nacross the width by hand or trim with a sharp serrated knife if custom sizing is\nneeded"
+    ],
+    "selection_checklist": [
+      "Confirm application (ceiling space vs\nexternal or internal wall)",
+      "Select target R-value (R2.0/R2.5 in walls; R3.5 to\nR5.0 in ceilings) to meet NCC climate zone requirements",
+      "Measure framing\nspacing (430mm for 450mm centers; 580mm for 600mm centers)",
+      "Check wall stud\ndepth (75mm for 70mm studs; 90mm for 90mm studs)",
+      "Verify preference for\nitch-free, zero-formaldehyde polyester insulation"
+    ],
+    "accessories": [
+      "Serrated\ninsulation knife",
+      "Insulation strapping",
+      "Perimeter eave baffles"
+    ],
+    "limitations": [
+      "Do not compress batts significantly into cavities narrower\nthan nominal thickness",
+      "Not designed for exposed decorative finishes; must be\nenclosed behind plasterboard or linings",
+      "Maintain mandatory clearances from\nnon-IC rated electrical fixtures"
+    ],
+    "warranty": "Lifetime performance guarantee\nbacked by Higgins Insulation"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Higgins\nPolyester Batt",
+      "Higgins polyester insulation",
+      "Higgins ceiling batts",
+      "Higgins wall batts",
+      "itch free polyester batts",
+      "Higgins R3.5",
+      "Higgins\nR4.0",
+      "Higgins R2.5 wall",
+      "asthma friendly insulation",
+      "Queensland polyester\ninsulation"
+    ],
+    "problem_keywords": [
+      "itchy glasswool insulation in attic",
+      "hot\nceiling in summer",
+      "high heating and cooling bills",
+      "drafty timber stud\nwalls",
+      "slumping wall batts in cavity",
+      "asthma and allergy safe insulation"
+    ],
+    "placement": [
+      "ceiling",
+      "wall",
+      "external wall",
+      "internal wall",
+      "between\nfloors"
+    ],
+    "priority_fit": [
+      "thermal",
+      "sustainability",
+      "easy_install",
+      "acoustic"
+    ],
+    "use_cases": [
+      "Insulating residential ceilings with itch-free,\nasthma-safe polyester batts to achieve 7-star NatHERS compliance",
+      "Thermal and\nacoustic insulation in external timber and steel stud walls behind\nplasterboard",
+      "Retrofitting uninsulated older home ceiling spaces with soft,\nnon-toxic insulation"
+    ],
+    "not_for": [
+      "Exposed decorative wall lining without\nplasterboard",
+      "Underfloor soil direct contact",
+      "Flue pipes exceeding 150°C"
+    ],
+    "rag_summary": "Higgins Insulation Higgins Polyester Batts are Australian-made,\nitch-free thermal and acoustic insulation batts manufactured from 100% polyester\nfiber containing up to 85% recycled PET bottles. Available in ceiling ratings\nfrom R2.0 to R5.0 and wall ratings from R1.5 to R2.5 (widths 430mm and 580mm),\nthey fit standard framing without slumping, packing down, or deteriorating over\ntime. Completely free of chemical binders, resins, and formaldehyde, they are\nnon-allergenic, Sensitive Choice friendly, and tested to AS/NZS 1530.3 fire\nsafety standards."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

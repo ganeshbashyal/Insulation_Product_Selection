@@ -1,7 +1,7 @@
 ---
 title: "Proctor Passive Rainscreen with Integrated Tape - Accessory Insulation | Proctor"
-description: "Quality insulation engineered for Australian conditions. Engineered to meet Australian building requirements."
-keywords: "Proctor Passive Rainscreen with Integrated Tape, Proctor accessory, insulation Australia, Proctor Australia"
+description: "ProctorPassive Rainscreen (such as Rainscreen FR-Zero with Integrated Tape / IT) is an extra heavy-duty, vapour-permeable water and air barrier membra"
+keywords: "Proctor Passive Rainscreen with Integrated Tape, Proctor accessory, wall insulation, insulation Australia, Proctor Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: PROCTOR_PASSIVE_RAINSCREEN_WITH_INTEGRATED_TAPE
 ---
@@ -10,25 +10,32 @@ family_id: PROCTOR_PASSIVE_RAINSCREEN_WITH_INTEGRATED_TAPE
 
 **Proctor Accessory** — installation accessories and fixings.
 
-Quality insulation engineered for Australian conditions. Engineered to meet Australian building requirements.
+ProctorPassive Rainscreen (such as Rainscreen FR-Zero with Integrated Tape / IT) is an extra heavy-duty, vapour-permeable water and air barrier membrane engineered specifically for open-joint rainscreen facades. Formulated with zero halogen flame retardants, it achieves an AS 1530.1 non-combustibility index or Group 1 fire rating and is UV-stabilised to withstand permanent solar exposure behind open joints up to 50mm wide. The integrated tape system provides dual adhesive-to-adhesive sealing along horizontal overlaps, accelerating installation and ensuring continuous airtight and weathertight integrity.
 
 ## Key features
 
-- High-performance sealing and joining solution.
-- maintains air and vapour barrier continuity.
-- compatible with a range of insulation substrates.
+- Engineered for open-joint cladding with up to 40% open area and 50mm gap widths.
+- Integrated tape (IT) provides adhesive-to-adhesive lap sealing along edges.
+- Vapour permeable Class 4 rating allows internal moisture vapour to breathe outward.
+- Water barrier and air barrier preventing rain and wind infiltration.
+- Halogen-free fire-retardant formulation compliant with AS 1530.2 and AS 1530.1 / AS 5637.1.
+- High tensile and tear strength classified as Extra Heavy Duty.
+- High UV resistance ensuring long-term stability behind open cladding slats.
+- Deep solid black finish creates a clean shadow line behind open facade joints.
+- Suitable for commercial and residential timber or steel frame constructions.
 
 ## Applications and selection
 
-- Passive House Membrane
+- wall
+- external wall
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm cladding system is an open-joint rainscreen facade.
+2. Verify maximum facade gap width does not exceed 50mm and 40% open area.
+3. Confirm requirement for integrated tape (IT) for faster lap sealing.
+4. Check fire compliance requirements for external wall (AS 1530.2 Flammability Index ≤ 5).
+5. Order matching black rainscreen patch tape for penetrations.
 
 
 ## Current catalogue range
@@ -39,33 +46,52 @@ Quality insulation engineered for Australian conditions. Engineered to meet Aust
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Accessory | Manufacturer catalogue |
-| Material | Tape / Sealant | Manufacturer catalogue |
-| Applications | Passive House Membrane | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Duty Classification | Extra Heavy Duty | AS/NZS 4200.1:2017 |
+| Vapour Permeability | Class 4 Vapour Permeable | AS/NZS 4200.1:2017 |
+| Water Control | Water Barrier | AS/NZS 4201.4 |
+| Air Control | Air Barrier | AS/NZS 4200.1:2017 |
+| Flammability Index | ≤ 5 | AS 1530.2 |
+| UV Resistance | Permanent exposure behind open joints up to 50 mm wide / 40% open area | - |
+| Roll Dimensions | 1500 mm width x 50 m length (75 m²) | - |
 
-
+Extracted from manufacturer datasheet: https://proctorgroup.com.au/product/proctorpassive-rainscreen-fr-zero-black-vapour-permeable-membrane/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Flammability Index ≤ 5 to AS 1530.2; Non-combustible / Group 1 fire compliance options for non-combustible external wall construction
+
+AS/NZS 4200.1:2017, AS/NZS 4200.2:2017, AS 1530.2, NCC 2022 Volume One & Two
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://proctorgroup.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://proctorgroup.com.au/wp-content/uploads/2021/02/DCT_PIR_Silver_White_Tissue_Ver_2_2020-2.pdf.
 
+## Recommended accessories
+
+- ProctorPassive Black UV Tape.
+- Plastic application squeegee.
+- Mechanical cap fasteners.
+
 
 ## Limitations and warnings
 
-- Install in accordance with manufacturer specifications..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Do not exceed maximum 50mm gap width or 40% open area in facade cladding.
+- Must be separated from cladding by an unblocked drainage cavity.
+- Not designed for roof sarking or horizontal applications.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Install in accordance with manufacturer specifications.
+1. Install horizontally over wall framing or external rigid sheathing with black face outward.
+2. Fix mechanically using broad-head screws with washers or cap nails at maximum 300mm centres.
+3. Ensure horizontal runs overlap by a minimum of 150mm.
+4. Peel back release liner from the integrated adhesive tape on the overlapping edges.
+5. Press the two integrated tape strips firmly together using a squeegee to form an airtight bond.
+6. Stagger vertical joints by minimum 150mm over a stud and seal with compatible black rainscreen tape.
+7. Seal all window, door, and service penetrations to complete the continuous weather envelope.
+8. Ensure facade cladding open gaps do not exceed 50mm width or 40% open area.
 
 ## Safety and handling
 
@@ -73,11 +99,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Halogen-free flame retardants, recyclable polyolefin components, low VOC
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Backed by Proctor Group Australia manufacturer warranty
 
 ## Specification starting point
 

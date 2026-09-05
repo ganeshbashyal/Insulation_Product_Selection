@@ -1,0 +1,131 @@
+{
+  "family_id": "FOILBOARD_BLANK_PLATES",
+  "family_name": "Foilboard Blank Plates",
+  "datasheet_pdf_url": "https://www.foilboard.com.au/product-category/accessories/",
+  "sds_url": "https://www.foilboard.com.au/wp-content/uploads/2021/04/Foilboard-Green-Safety-Data-Sheet.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Foilboard Blank Plates are lightweight, rigid spreading washers\ndesigned to distribute screw and fastener loads over Foilboard rigid insulation\nboards without crushing the expanded polystyrene (EPS) core. Manufactured from\nhigh-impact polymer or sheet metal, they feature pre-punched center holes that\naccommodate standard wood screws, self-drilling metal tek screws, or masonry\nanchors. By creating a broad clamping surface, they prevent fastener heads from\npulling through the aluminum foil facing during wind load or structural\nvibration.",
+    "features": [
+      "Distributes fastening pressure over a broad surface\narea to prevent panel crushing",
+      "Stops screw heads from tearing through the\nouter aluminum foil laminate",
+      "Pre-punched center hole to fit standard screws,\nnails, and anchors",
+      "Constructed from durable, corrosion-resistant, high-impact\npolymer or metal",
+      "Lightweight, rigid, and fast to position during\ninstallation",
+      "Compatible with all Foilboard panel thicknesses from 10mm\nto 50mm",
+      "Ideal for walls, ceilings, and underfloor applications"
+    ],
+    "applications": [
+      "wall",
+      "external wall",
+      "internal wall",
+      "ceiling",
+      "underfloor",
+      "subfloor",
+      "shed"
+    ],
+    "technical": [
+      {
+        "property": "Plate\nDimensions",
+        "value": "40 mm x 40 mm (or 50 mm diameter)",
+        "standard": ""
+      },
+      {
+        "property": "Center Hole Diameter",
+        "value": "5 mm (suits 8G-10G screws)",
+        "standard": ""
+      },
+      {
+        "property": "Material",
+        "value": "High-impact rigid polymer\n/ galvanized steel",
+        "standard": ""
+      },
+      {
+        "property": "Corrosion Resistance",
+        "value": "Corrosion resistant",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Foilboard Blank Plates",
+        "size_or_rating": "40 mm x 40 mm / 50 mm",
+        "pack": "Box of 250 pieces"
+      }
+    ],
+    "fire": "Non-combustible metal or low-hazard polymer;\ncompatible with NCC fire compliance systems",
+    "compliance": "AS/NZS 4859.1,\nAS 3999, NCC Volume One and Two",
+    "sustainability": "100% recyclable; inert;\nzero ODP",
+    "install": [
+      "Position Foilboard panel in place against framing or\nmasonry substrate",
+      "Insert screw, nail, or anchor through the center hole of\nthe Foilboard Blank Plate",
+      "Drive fastener through the Foilboard panel into\ntimber, steel, or masonry framing",
+      "Tighten until the Blank Plate rests snug\nand flat against the aluminum foil facing",
+      "Do not over-torque to avoid\ncompressing the underlying EPS core",
+      "Place Blank Plates at recommended spacing\n(typically 600mm centers along edges and center)",
+      "Cover plate and fastener\nhead with Foilboard 72mm reinforced foil tape if an airtight vapor seal is\nrequired"
+    ],
+    "selection_checklist": [
+      "Confirm fastener screw length\naccommodates panel thickness plus substrate embedment",
+      "Calculate quantity\nneeded based on approx. 6-8 plates per 2440x1200mm board",
+      "Choose polymer or\ngalvanized plate based on substrate and environmental exposure",
+      "Order\nmatching 72mm foil tape to seal over screw heads"
+    ],
+    "accessories": [
+      "Foilboard\nGreen panels",
+      "Foilboard 72mm reinforced foil tape",
+      "Tek screws / timber\nscrews"
+    ],
+    "limitations": [
+      "Do not over-tighten fasteners as excessive torque\nwill deform the panel core",
+      "Blank Plates do not provide thermal break values\non their own",
+      "Not designed to support heavy structural cladding loads\nindependently"
+    ],
+    "warranty": "Backed by Foilboard product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Foilboard Blank Plates",
+      "Foilboard washers",
+      "insulation fixing plates",
+      "Foilboard spreader plates",
+      "insulation screw\nwashers",
+      "Foilboard fixing washers",
+      "Foilboard plates 250"
+    ],
+    "problem_keywords": [
+      "screws pulling through Foilboard",
+      "crushing Foilboard\npanels with screws",
+      "loose Foilboard on wall studs",
+      "fastener tear-through on\ninsulation boards",
+      "fixing Foilboard to steel studs"
+    ],
+    "placement": [
+      "wall",
+      "external wall",
+      "internal wall",
+      "ceiling",
+      "underfloor",
+      "subfloor",
+      "shed"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "thermal"
+    ],
+    "use_cases": [
+      "Securing\nFoilboard panels to timber or steel wall studs without crushing the EPS core",
+      "Fixing Foilboard sheets to garage ceilings or shed framing using tek screws",
+      "Spreading mechanical clamping force when fastening Foilboard to masonry walls"
+    ],
+    "not_for": [
+      "Structural cladding anchoring",
+      "Direct floor foot traffic\nsurfaces",
+      "High-temperature exhaust applications"
+    ],
+    "rag_summary": "Foilboard\nBlank Plates are rigid 40mm x 40mm spreader plates engineered to distribute\nfastening loads when securing Foilboard insulation boards to timber, steel, or\nmasonry framing. Pre-punched to accept standard construction screws and nails,\nthey prevent fasteners from crushing the EPS core or tearing through the\nreflective aluminum facing. They ensure solid mechanical fixing across wall,\nceiling, and underfloor applications without compromising panel integrity."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

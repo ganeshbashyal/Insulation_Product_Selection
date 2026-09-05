@@ -1,0 +1,170 @@
+{
+  "family_id": "KINGSPAN_K12",
+  "family_name": "Kingspan K12",
+  "datasheet_pdf_url": "https://www.insulation.kingspan.com/au/en/products/rigid-insulation/kooltherm/kooltherm-k12-framing-board",
+  "sds_url": "https://www.insulation.kingspan.com/au/en/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Kingspan Kooltherm K12 Framing Board is an ultra-thin, fiber-free rigid\nthermoset phenolic insulation board engineered for timber and steel frame walls,\nmasonry cavity walls, and concrete wall lining. With a super-low thermal\nconductivity of 0.021 - 0.023 W/m·K, it delivers high thermal performance at\nhalf the thickness of traditional bulk insulation batts, allowing homes to\nreach 7-star NatHERS ratings within standard framing depths. Laminated with\ncomposite foil facings on both sides, it minimizes thermal bridging and is fully\nCodeMark certified.",
+    "features": [
+      "Super high thermal performance with thermal\nconductivity of 0.021 - 0.023 W/m·K",
+      "Ultra-thin profile enables slimmer walls\nand maximizes internal usable floor space",
+      "Solves 7-star NatHERS energy\ncompliance within standard 90mm timber and steel wall studs",
+      "Low-Rise\nInsulated Wall Solution (Type C construction) replaces timber framing with\nadhesive mounting",
+      "Composite foil facings on both sides increase thermal\nresistance of unventilated cavities",
+      "Non-respirable, fiber-free closed-cell\nphenolic core; resistant to moisture and sagging",
+      "CodeMark certified for NCC\ncompliance",
+      "Unaffected by air infiltration and resistant to water vapor",
+      "Locally manufactured in Victoria, Australia with zero ODP blowing agents",
+      "Global GreenTag GreenRate Level A certified with third-party verified EPD"
+    ],
+    "applications": [
+      "wall",
+      "internal wall",
+      "external wall",
+      "between floors"
+    ],
+    "technical": [
+      {
+        "property": "Thermal Conductivity (lambda)",
+        "value": "0.021\nW/m·K (thicknesses ≥ 45mm), 0.023 W/m·K (thicknesses 25-44mm)",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Material R-values",
+        "value": "R1.1 (25mm),\nR1.3 (30mm), R1.75 (40mm), R2.15 (50mm), R2.6 (60mm), R3.0 (70mm), R3.45 (80mm),\nR3.9 (90mm), R4.35 (100mm)",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Thickness Options",
+        "value": "25 mm, 30 mm, 40 mm, 50 mm, 60 mm, 70 mm, 80\nmm, 90 mm, 100 mm",
+        "standard": ""
+      },
+      {
+        "property": "Board Dimensions",
+        "value": "2400 mm x 1200 mm (2.88 m²)",
+        "standard": ""
+      },
+      {
+        "property": "Compressive\nStrength",
+        "value": "≥ 100 kPa at 10% deformation",
+        "standard": "AS 2498.3"
+      },
+      {
+        "property": "Facing Emittance",
+        "value": "0.03 - 0.05",
+        "standard": "AS/NZS 4201.5"
+      },
+      {
+        "property": "Water Vapor Resistance",
+        "value": "> 100\nMN·s/g",
+        "standard": ""
+      },
+      {
+        "property": "Fire Classification (Type C)",
+        "value": "Suitable for Type C construction walls; AS 1530.3 tested",
+        "standard": "AS 1530.3"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Kooltherm K12 Framing Board 25mm",
+        "size_or_rating": "25 mm x 1200 mm x 2400 mm (R1.1)",
+        "pack": "Board"
+      },
+      {
+        "variant": "Kooltherm K12 Framing Board 40mm",
+        "size_or_rating": "40 mm x 1200\nmm x 2400 mm (R1.75)",
+        "pack": "Board"
+      },
+      {
+        "variant": "Kooltherm K12 Framing\nBoard 50mm",
+        "size_or_rating": "50 mm x 1200 mm x 2400 mm (R2.15)",
+        "pack": "Board"
+      },
+      {
+        "variant": "Kooltherm K12 Framing Board 70mm",
+        "size_or_rating": "70 mm x 1200 mm x 2400 mm (R3.0)",
+        "pack": "Board"
+      },
+      {
+        "variant": "Kooltherm\nK12 Framing Board 80mm",
+        "size_or_rating": "80 mm x 1200 mm x 2400 mm (R3.45)",
+        "pack": "Board"
+      }
+    ],
+    "fire": "AS 1530.3: Ignitability 0, Spread of Flame 0, Heat\nEvolved 0, Smoke Developed 0-1; Suitable for NCC Class 1 & 10a housing and Type\nC construction in Class 2-9 buildings",
+    "compliance": "AS/NZS 4859.1:2018,\nCodeMark Certified, NCC 2022 Volume 1 and Volume 2 (7-star NatHERS compliant)",
+    "sustainability": "Manufactured with zero ODP and low GWP; GreenTag GreenRate\nLevel A; EPD verified; low VOC",
+    "install": [
+      "Cut boards to width to fit\ntightly between framing studs or install continuously across framing face",
+      "For\nfriction-fit between studs, cut boards 5mm wider than opening and push firmly\ninto cavity",
+      "For continuous installation over framing, fasten with screws and\nbroad washers at 300mm perimeter centers",
+      "For Low-Rise Wall Solution on\nconcrete/masonry, apply Kooltherm K12 Adhesive in vertical beads and press board\nto wall",
+      "Tape all board joints with 72mm reinforced aluminum foil tape to\nmaintain continuous vapor and thermal barrier",
+      "Maintain minimum 20mm still air\ncavity where reflective air-space R-value is calculated"
+    ],
+    "selection_checklist": [
+      "Confirm wall framing depth and target R-value\n(e.g. 50mm R2.15, 80mm R3.45)",
+      "Verify building fire resistance construction\ntype (Class 1 housing or Type C construction in Class 2-9)",
+      "Determine fixing\nmethod (between studs vs continuous over framing vs adhesive direct-fix)",
+      "Order matching 72mm reinforced foil tape and Kooltherm K12 Adhesive"
+    ],
+    "accessories": [
+      "Kooltherm K12 Adhesive",
+      "Kingspan 72mm reinforced foil tape",
+      "Mechanical insulation fasteners with washer plates"
+    ],
+    "limitations": [
+      "For\nClass 2-9 buildings of Type A or B fire-resisting construction, a Performance\nSolution is required",
+      "Must not be left exposed to direct weather without\nprotective wall wrap and cladding",
+      "Must not bridge damp-proof courses"
+    ],
+    "warranty": "10-year manufacturing warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Kingspan K12",
+      "Kooltherm K12",
+      "K12 Framing Board",
+      "phenolic framing\nboard",
+      "rigid wall insulation",
+      "7 star wall insulation",
+      "slim wall\ninsulation",
+      "Kingspan wall board",
+      "continuous wall insulation"
+    ],
+    "problem_keywords": [
+      "achieving 7 star NatHERS in 90mm studs",
+      "thermal\nbridging across steel wall studs",
+      "narrow wall cavity space limits",
+      "slumping\nwall batts in cavity",
+      "meeting Type C wall fire compliance"
+    ],
+    "placement": [
+      "wall",
+      "internal wall",
+      "external wall",
+      "between floors"
+    ],
+    "priority_fit": [
+      "thermal",
+      "easy_install",
+      "sustainability"
+    ],
+    "use_cases": [
+      "Continuous or\nbetween-stud wall insulation in residential homes to achieve 7-star NatHERS\ncompliance within standard 90mm frames",
+      "Direct-adhesive internal wall\ninsulation on concrete or masonry using the Kingspan Low-Rise Wall Solution",
+      "Continuous thermal break layer over timber or steel stud framing to eliminate\nthermal bridging"
+    ],
+    "not_for": [
+      "Type A or B fire-resisting construction\nwithout a Performance Solution",
+      "Exposed external cladding without weather\nwrap",
+      "Direct floor foot traffic"
+    ],
+    "rag_summary": "Kingspan Kooltherm K12\nFraming Board is an ultra-thin, fiber-free rigid thermoset phenolic insulation\nboard with dual composite foil facings, designed for timber, steel, and masonry\nwall assemblies. Delivering a thermal conductivity of 0.021 - 0.023 W/m·K and\nmaterial ratings up to R4.35 (100mm), it allows builders to achieve 7-star\nNatHERS energy efficiency within standard 90mm stud cavities without widening\nfootprints. CodeMark certified and manufactured in Australia with zero ODP\nblowing agents, it provides continuous, non-slumping thermal efficiency for\nmodern building envelopes."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

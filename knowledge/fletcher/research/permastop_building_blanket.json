@@ -1,0 +1,194 @@
+{
+  "family_id": "FLETCHER_PERMASTOP",
+  "family_name": "Permastop Building Blanket",
+  "datasheet_pdf_url": "https://insulation.com.au/product/permastop-building-blanket/",
+  "sds_url": "https://insulation.com.au/wp-content/uploads/2023/12/SUIS-FBS-1-Glasswool-Bio-soluble-Insulation.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Permastop Building Blanket is a reflective glasswool insulation\nblanket factory-laminated with Sisalation reflective foil facing, designed for\nthermal performance, condensation control, and acoustic absorption under\nresidential and commercial metal roofs and in external walls. Composed of\nbio-soluble glasswool bonded to light, medium, or heavy-duty aluminium foil with\nan anti-glare finish, it reflects radiant heat while dramatically reducing rain\nimpact drumming noise. Available in R-values from R1.3 to R3.6 (including an\nindustry-leading R3.6 in 130mm), it satisfies NCC requirements and bushfire\nratings up to BAL-40.",
+    "features": [
+      "Factory-laminated with Sisalation\nreflective foil facing with 150mm overlap flap",
+      "High thermal performance with\nR-values from R1.3 up to R3.6 (130mm)",
+      "Outstanding acoustic absorption\nsignificantly reducing rain noise drumming on metal roofs",
+      "Controls\ncondensation formation on the underside of metal roof sheeting",
+      "Non-combustible glasswool core complying with AS 1530.1",
+      "Suitable for\nbushfire-prone areas with BAL Low-40 ratings in roof systems per AS 3959",
+      "Manufactured in Australia from up to 80% recycled glass",
+      "Features an\nanti-glare coating on one side for installer safety",
+      "Bio-soluble safe-to-use\nFBS-1 formulation with low VOC emissions",
+      "Compatible with Fletcher Roof Razor\nsystem to minimize thermal bridging"
+    ],
+    "applications": [
+      "roof",
+      "roofline",
+      "ceiling",
+      "wall",
+      "external wall",
+      "shed"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "Bio-soluble glasswool blanket laminated with Sisalation\nreflective foil facing",
+        "standard": ""
+      },
+      {
+        "property": "Material R-values",
+        "value": "R1.3 (55mm), R1.4 (60mm), R1.8 (75mm), R2.5 (100mm), R3.0 (130mm),\nR3.2 (130mm), R3.6 (130mm)",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Thicknesses",
+        "value": "55 mm, 60 mm, 75 mm, 100 mm, 130 mm",
+        "standard": ""
+      },
+      {
+        "property": "Roll Dimensions",
+        "value": "1200 mm width x 6.5 m, 10 m, 15 m, 20\nm, 30 m length",
+        "standard": ""
+      },
+      {
+        "property": "Foil Overlap Flap",
+        "value": "150 mm edge overlap flap",
+        "standard": ""
+      },
+      {
+        "property": "Facing Options",
+        "value": "Light Duty (LD), Medium Duty (MD), Heavy Duty (HD), Extra Heavy Duty\n(EHD)",
+        "standard": "AS/NZS 4200.1"
+      },
+      {
+        "property": "Combustibility (Core)",
+        "value": "Non-combustible",
+        "standard": "AS 1530.1"
+      },
+      {
+        "property": "Early Fire\nHazard Indices",
+        "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0,\nSmoke Developed: 0-1",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Facing\nFlammability Index",
+        "value": "≤ 5",
+        "standard": "AS 1530.2"
+      },
+      {
+        "property": "Thermal Conductivity",
+        "value": "Tested at 23°C mean temperature",
+        "standard": "ASTM C518"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Permastop Building Blanket R1.3\n(55mm)",
+        "size_or_rating": "55 mm x 1200 mm x 15 m / 20 m",
+        "pack": "Roll (18 m²\n/ 24 m²)"
+      },
+      {
+        "variant": "Permastop Building Blanket R1.8 (75mm)",
+        "size_or_rating": "75 mm x 1200 mm x 15 m",
+        "pack": "Roll (18 m²)"
+      },
+      {
+        "variant": "Permastop Building Blanket R2.5 (100mm)",
+        "size_or_rating": "100 mm\nx 1200 mm x 10 m",
+        "pack": "Roll (12 m²)"
+      },
+      {
+        "variant": "Permastop Building\nBlanket R3.0 (130mm)",
+        "size_or_rating": "130 mm x 1200 mm x 10 m",
+        "pack": "Roll (12 m²)"
+      },
+      {
+        "variant": "Permastop Building Blanket R3.2 (130mm)",
+        "size_or_rating": "130 mm x 1200 mm x 10 m",
+        "pack": "Roll (12 m²)"
+      },
+      {
+        "variant": "Permastop Building Blanket R3.6 (130mm)",
+        "size_or_rating": "130 mm\nx 1200 mm x 6.5 m",
+        "pack": "Roll (7.8 m²)"
+      }
+    ],
+    "fire": "Core non-combustible\nto AS 1530.1; AS/NZS 1530.3 indices: Ignitability: 0, Spread of Flame: 0, Heat\nEvolved: 0, Smoke Developed: 0-1; Facing Flammability Index ≤ 5 (AS 1530.2);\nSuitable for BAL Low-40 in roof applications to AS 3959",
+    "compliance": "AS/NZS 4859.1, AS/NZS 4200.1, AS 3959, NCC 2022 Volume 1 and Volume 2",
+    "sustainability": "Manufactured from up to 80% recycled glass; FBS-1\nbio-soluble; zero ODP; low VOC",
+    "install": [
+      "Roll out Permastop over roof\nframing purlins or safety wire mesh with reflective foil facing downward towards\nbuilding interior",
+      "Ensure 150mm factory overlap flap extends over the adjacent\nroll",
+      "Tape all foil lap joints securely with 72mm reinforced aluminium foil\ntape to form a continuous vapour barrier",
+      "Allow a nominal 40mm sag between\npurlins to promote condensation drainage towards the eaves if unmeshed",
+      "Fasten\nmetal roof sheeting directly over the glasswool blanket through to purlins",
+      "Ensure blanket terminates neatly at the gutter line without obstructing\nstormwater flow",
+      "Use Roof Razor spacers in commercial roofs to avoid blanket\ncompression over purlins"
+    ],
+    "selection_checklist": [
+      "Confirm roof type\n(pitched or curved metal deck roof, shed, or commercial warehouse)",
+      "Select\nrequired R-value (R1.3 to R3.6) to meet NCC roof energy compliance",
+      "Choose\nfoil duty rating (Light, Medium, or Heavy Duty) based on span and traffic",
+      "Calculate total roof area including 150mm overlap allowance",
+      "Order\nmatching 72mm reinforced foil tape and safety wire mesh"
+    ],
+    "accessories": [
+      "Roof Razor thermal spacer system",
+      "Sisalation 72mm Reinforced Aluminium Foil\nTape",
+      "Roof safety wire mesh"
+    ],
+    "limitations": [
+      "Must not be left exposed to\nrain or weather prior to roof sheet installation",
+      "Foil lap joints must be\ntaped continuously to maintain vapour barrier performance",
+      "For tropical\nhigh-humidity climates, specify Permastop Tropic with outward-facing foil"
+    ],
+    "warranty": "Backed by Fletcher Insulation product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Permastop Building Blanket",
+      "Fletcher Permastop",
+      "metal\nroof insulation blanket",
+      "foil faced glasswool blanket",
+      "R1.8 Permastop",
+      "R2.5 Permastop",
+      "R3.6 Permastop",
+      "commercial roof blanket",
+      "condensation\nroof blanket",
+      "anti-glare roof blanket"
+    ],
+    "problem_keywords": [
+      "dripping\nmetal roof condensation",
+      "rain drumming noise on tin roof",
+      "sweltering metal\nroof heat",
+      "energy loss through metal roof",
+      "meeting NCC roof thermal\nstandards",
+      "roof cavity sweating"
+    ],
+    "placement": [
+      "roof",
+      "roofline",
+      "ceiling",
+      "wall",
+      "external wall",
+      "shed"
+    ],
+    "priority_fit": [
+      "thermal",
+      "condensation",
+      "acoustic",
+      "fire"
+    ],
+    "use_cases": [
+      "Insulation blanket beneath\ncorrugated and standing seam metal roofs in residential homes to prevent\ncondensation and dampen rain noise",
+      "Thermal and acoustic roof blanket in\ncommercial warehouses, sports halls, and shopping centres",
+      "External wall\ncladding insulation blanket in prefabricated and industrial steel sheds"
+    ],
+    "not_for": [
+      "Internal drywall partition cavity batts",
+      "Underfloor suspended\ntimber floors",
+      "Direct exposure without outer roof sheeting"
+    ],
+    "rag_summary": "Fletcher Permastop Building Blanket is a reflective glasswool insulation\nblanket factory-bonded to a Sisalation foil facing with a 150mm overlap flap.\nAvailable in ratings from R1.3 to R3.6 (55mm to 130mm thick) in 1200mm wide\nrolls, it is installed under residential and commercial metal roofs to prevent\ncondensation dripping, reflect radiant heat, and dampen rain drumming noise.\nBuilt with non-combustible glasswool (AS 1530.1) and low-flammability foil\n(Index ≤ 5, BAL-40 compliant), it provides a complete thermal, acoustic, and\nvapour barrier for metal-clad structures."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

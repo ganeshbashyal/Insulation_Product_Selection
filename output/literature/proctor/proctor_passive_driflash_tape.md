@@ -1,7 +1,7 @@
 ---
 title: "Proctor Passive DriFlash Tape - Accessory Insulation | Proctor"
-description: "Quality insulation engineered for Australian conditions. Engineered to meet Australian building requirements."
-keywords: "Proctor Passive DriFlash Tape, Proctor accessory, insulation Australia, Proctor Australia"
+description: "ProctorPassive DriFlash Tape is a high performance single-sided vapor-permeable fleece tape coated with a solvent-free acrylic adhesive, protected by "
+keywords: "Proctor Passive DriFlash Tape, Proctor accessory, wall insulation, roof insulation, insulation Australia, Proctor Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: PROCTOR_PASSIVE_DRIFLASH_TAPE
 ---
@@ -10,25 +10,35 @@ family_id: PROCTOR_PASSIVE_DRIFLASH_TAPE
 
 **Proctor Accessory** — installation accessories and fixings.
 
-Quality insulation engineered for Australian conditions. Engineered to meet Australian building requirements.
+ProctorPassive DriFlash Tape is a high performance single-sided vapor-permeable fleece tape coated with a solvent-free acrylic adhesive, protected by a split release paper. It is designed to provide water, air, and weather-tight seals around wall and roof penetration interfaces, including window and door openings. Because it is vapor permeable, it allows moisture within wall framing junctions to dry out safely while blocking external wind and liquid water.
 
 ## Key features
 
-- High-performance sealing and joining solution.
-- maintains air and vapour barrier continuity.
-- compatible with a range of insulation substrates.
+- Vapour permeable fleece carrier allowing trapped moisture to dry outward.
+- Solvent-free polyacrylic pressure-sensitive adhesive with high initial tack.
+- Split release backing paper for fast and accurate corner application.
+- Creates an airtight and weathertight seal around penetrations and joints.
+- High UV resistance suitable for installation before cladding is completed.
+- Bonds aggressively to timber, metal, rigid insulation, and building wraps.
+- Flexible fleece backing accommodates building movement and thermal expansion.
+- Suitable for internal and external envelope air sealing.
 
 ## Applications and selection
 
-- Passive House Membrane
+- wall
+- external wall
+- roof
+- roofline
+- internal wall
+- window
+- door
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm width needed (75mm for flat seams, 100mm/150mm for window sills and rough openings).
+2. Verify need for vapour-permeable flashing to avoid trapping moisture in structural framing.
+3. Ensure substrate is compatible (timber, steel, concrete, OSB, or pliable membranes).
+4. Check compatibility with air-barrier and water-resistive barrier membranes.
 
 
 ## Current catalogue range
@@ -40,33 +50,51 @@ Quality insulation engineered for Australian conditions. Engineered to meet Aust
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Accessory | Manufacturer catalogue |
-| Material | Tape / Sealant | Manufacturer catalogue |
-| Applications | Passive House Membrane | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Carrier | Vapour permeable polyolefin fleece | - |
+| Adhesive | Solvent-free polyacrylic | - |
+| Roll Dimensions | 75 mm x 25 m, 100 mm x 25 m, 150 mm x 25 m | - |
+| Sd-value | 0.03 m (Vapour permeable) | EN 12572 |
+| Temperature Resistance | -40°C to +100°C | - |
+| Installation Temperature | -10°C to +40°C | - |
+| Reaction to Fire | Class E | EN 13501-1 |
 
-
+Extracted from manufacturer datasheet: https://proctorgroup.com.au/product/driflash-tape-ext-int-joint-tape/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Reaction to fire Class E to EN 13501-1
+
+AS/NZS 4200.2:2017, NCC 2022 Volume One & Two condensation management, Passive House air barrier requirements
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://proctorgroup.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://proctorgroup.com.au/wp-content/uploads/2021/02/DCT_PIR_Silver_White_Tissue_Ver_2_2020-2.pdf.
 
+## Recommended accessories
+
+- ProctorWrap building membranes.
+- Pressure squeegee / hand roller.
+
 
 ## Limitations and warnings
 
-- Install in accordance with manufacturer specifications..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Do not apply over wet, frozen, or heavily contaminated surfaces.
+- Pressure-sensitive adhesive requires firm rolling for complete mechanical bond.
+- Must not be permanently exposed to UV weather beyond manufacturer limits.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Install in accordance with manufacturer specifications.
+1. Ensure substrate is dry, clean, dust-free, and free of oil, grease, or loose particles.
+2. Measure and cut tape to required length allowing for overlaps at corners.
+3. Peel back the first section of the split release liner paper.
+4. Position tape evenly across the window jamb, sill, or penetration junction.
+5. Remove the remaining split release liner while smoothing the tape onto the adjacent surface.
+6. Press firmly along the entire tape length using a hand roller or squeegee to achieve 100% adhesion.
+7. Ensure corner joins overlap by a minimum of 50mm.
+8. Apply in dry weather within the temperature range of -10°C to +40°C.
 
 ## Safety and handling
 
@@ -74,11 +102,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Solvent-free, zero chlorine, zero formaldehyde, low VOC emissions
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Backed by Proctor Group Australia product warranty
 
 ## Specification starting point
 

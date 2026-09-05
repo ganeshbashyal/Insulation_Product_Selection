@@ -1,7 +1,7 @@
 ---
 title: "ProctorWrap HT - Reflective Insulation | Proctor"
-description: "Quality insulation engineered for Australian conditions. Reflects up to 97% of radiant heat, dramatically reducing summer cooling costs while providin"
-keywords: "ProctorWrap HT, Proctor reflective, wall insulation, insulation Australia, Proctor Australia"
+description: "ProctorWrap HTR (High Tensile Roof / High Temperature Roof) is a heavy-weight, UV-stabilised 3-ply spunbonded polyolefin vapour-permeable roof underla"
+keywords: "ProctorWrap HT, Proctor reflective, roof insulation, insulation Australia, Proctor Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: PROCTOR_WRAP_HT
 ---
@@ -10,26 +10,32 @@ family_id: PROCTOR_WRAP_HT
 
 **Proctor Reflective** — reflective foil insulation for radiant heat control.
 
-Quality insulation engineered for Australian conditions. Reflects up to 97% of radiant heat, dramatically reducing summer cooling costs while providing an effective vapour barrier.
+ProctorWrap HTR (High Tensile Roof / High Temperature Roof) is a heavy-weight, UV-stabilised 3-ply spunbonded polyolefin vapour-permeable roof underlay reinforced with an internal grid scrim. Specifically engineered for commercial and residential pitched roofs under metal sheeting, slate, and tiles, it provides high water holdout and tear resistance without compromising breathability. By allowing moisture vapour to escape the roof cavity into a drained and vented space, it protects structural timbers and insulation from condensation damage.
 
 ## Key features
 
-- High-purity aluminium reflective facing.
-- reflects up to 97% of radiant heat.
-- lightweight and easy to install.
-- provides vapour barrier when properly sealed.
+- Heavy-weight 3-ply spunbonded polyolefin construction with internal reinforcement scrim.
+- Class 4 vapour-permeable membrane allowing moisture vapour to escape roof spaces.
+- Medium Duty classification with exceptional tear and puncture resistance.
+- High water holdout protecting framing and insulation from roof leaks and rain ingress.
+- Suitable underneath metal sheet, cement, terracotta, and natural slate tiled roofs.
+- Withstands high foot traffic and wind loads during construction.
+- Non-reflective surface eliminates glare on site during daytime installation.
+- Suitable for use in bushfire BAL regions 12.5 to 40 in accordance with AS 3959.
+- UV-stabilised formulation offering extended durability during roof installation.
 
 ## Applications and selection
 
-- Wall Wrap / Sarking
+- roof
+- roofline
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm roof cladding is metal deck, concrete tile, terracotta tile, or slate.
+2. Verify need for Class 4 vapour-permeable roof underlay to manage condensation risk.
+3. Check that roof design incorporates a drained, ventilated cavity above the membrane.
+4. Calculate total roof area including 150mm overlaps.
+5. Order matching ProctorWrap HighTack PLUS Tape for lap and penetration sealing.
 
 
 ## Current catalogue range
@@ -40,35 +46,55 @@ Quality insulation engineered for Australian conditions. Reflects up to 97% of r
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Reflective | Manufacturer catalogue |
-| Material | Reflective Composite | Manufacturer catalogue |
-| Applications | Wall Wrap / Sarking | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material Structure | 3-ply spunbonded polyolefin membrane with reinforcement scrim | - |
+| Duty Classification | Medium Duty | AS/NZS 4200.1:2017 |
+| Vapour Permeability | Class 4 Vapour Permeable | AS/NZS 4200.1:2017 |
+| Water Control | Water Barrier | AS/NZS 4201.4 |
+| Air Control | Air Barrier | AS/NZS 4200.1:2017 |
+| Emittance | Non-reflective (does not provide reflective R-value) | AS/NZS 4201.5 |
+| Roll Dimensions | 1500 mm width x 50 m length (75 m²) | - |
+| Weight per Roll | 18.5 kg | - |
+| Flammability Index | ≤ 5 (Low Flammability) | AS 1530.2 |
 
-
+Extracted from manufacturer datasheet: https://proctorgroup.com.au/products/proctorwrap-htr/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Flammability Index ≤ 5 to AS 1530.2; Suitable for BAL-12.5 to BAL-40 in accordance with AS 3959 when combined with compliant metal ember guard mesh
+
+AS/NZS 4200.1:2017, AS/NZS 4200.2:2017, AS 1530.2, AS 3959, NCC 2022 Volume One & Two condensation management
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://proctorgroup.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://proctorgroup.com.au/wp-content/uploads/2021/02/DCT_PIR_Silver_White_Tissue_Ver_2_2020-2.pdf.
 
+## Recommended accessories
+
+- ProctorWrap HighTack PLUS Tape.
+- ProctorWrap PlastiGrip Washers.
+- ProctorVent Over Fascia Vents and Ridge Vents.
+- Galvanised clouts / staples.
+
 
 ## Limitations and warnings
 
-- Reflective performance requires maintained airspace..
-- conductive material - keep away from electrical services..
-- not suitable as sole insulation in cold climates..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Does not provide a reflective air-space R-value (non-reflective membrane).
+- Must not be laid in direct continuous contact with the underside of unvented metal roof sheeting.
+- Must not be left exposed to direct sunlight beyond manufacturer UV limits prior to roof covering.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Reflective performance requires maintained airspace.
+1. Roll out ProctorWrap HTR horizontally across rafters or trusses starting from the eaves with printed face upward.
+2. Ensure lower edge drains freely into the roof gutter without creating a reverse lap or water trap.
+3. Allow a nominal 40mm drape between framing members to facilitate drainage and ventilation beneath battens.
+4. Overlap consecutive upper sheets over lower sheets by at least 150mm.
+5. Secure temporarily with broad-headed galvanised clouts, staples, or PlastiGrip washers before fixing battens.
+6. Tape all laps and penetrations with ProctorWrap HighTack PLUS Tape for enhanced airtightness and weather sealing.
+7. Provide a ventilated and drained cavity between the outer membrane face and the underside of roof cladding.
+8. Ensure compliant metal ember guard mesh is installed at ridges, valleys, and eaves in BAL zones.
 
 ## Safety and handling
 
@@ -76,11 +102,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+100% recyclable polyolefin materials; zero ODP; non-toxic
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Backed by Proctor Group Australia manufacturer warranty
 
 ## Specification starting point
 

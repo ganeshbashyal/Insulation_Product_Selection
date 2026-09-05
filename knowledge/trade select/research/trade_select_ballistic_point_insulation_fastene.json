@@ -1,0 +1,64 @@
+{
+  "family_id": "TRADE_SELECT_BALLISTIC_POINT_INSULATION_FASTENE",
+  "family_name": "Trade Select Ballistic Point Insulation Fastene",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "gemini_not_found",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "",
+    "features": "",
+    "applications": "",
+    "technical": "",
+    "range": "",
+    "fire": "",
+    "compliance": "",
+    "sustainability": "",
+    "install": "",
+    "selection_checklist": "",
+    "accessories": "",
+    "limitations": "",
+    "warranty": ""
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Ballistic Point Insulation Fasteners",
+      "ICCONS ballistic point fasteners",
+      "insulation concrete drive pins",
+      "gas nail\ninsulation fasteners",
+      "Trade Select ballistic fasteners",
+      "soffit insulation\npins"
+    ],
+    "problem_keywords": [
+      "slow drilling and fixing insulation to\nconcrete",
+      "insulation anchors pulling out of concrete",
+      "fastening rigid boards\nto carpark ceiling",
+      "fixing facade insulation to precast concrete",
+      "thermal\nbridging through metal fasteners"
+    ],
+    "placement": [
+      "ceiling",
+      "wall",
+      "external\nwall",
+      "floor",
+      "underfloor"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "thermal"
+    ],
+    "use_cases": [
+      "High-speed drill-free mechanical fixing of rigid insulation\nboards (PIR, phenolic, EPS) to concrete soffits using gas tools",
+      "Fastening\ncommercial wall insulation panels to precast concrete and masonry substrates",
+      "Securing carpark ceiling insulation boards directly to concrete slabs"
+    ],
+    "not_for": [
+      "Timber framing without concrete backing",
+      "Hollow drywall steel\nstuds",
+      "Soft unsupported insulation without washer heads"
+    ],
+    "rag_summary": "Trade Select Ballistic Point Insulation Fasteners (manufactured by ICCONS under\nthe GTIF series and distributed alongside Trade Select insulation) are\npre-assembled ballistic drive pins with integrated plastic washer heads designed\nfor gas-actuated concrete nailers. Engineered to secure rigid insulation boards\n(25mm to 100mm) directly to hard concrete, masonry, and steel substrates without\npre-drilling, they accelerate installation on commercial carpark soffits,\nbasement ceilings, and precast facade walls."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

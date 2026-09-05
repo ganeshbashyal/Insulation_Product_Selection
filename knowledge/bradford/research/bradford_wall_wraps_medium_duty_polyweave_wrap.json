@@ -1,0 +1,157 @@
+{
+  "family_id": "BRADFORD_WALL_WRAPS_MEDIUM_DUTY_POLYWEAVE_WRAP",
+  "family_name": "Bradford Wall Wraps - Medium Duty Polyweave Wrap",
+  "datasheet_pdf_url": "https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/walls/thermoseal-wall-breather",
+  "sds_url": "https://www.bradfordinsulation.com.au/-/media/bradford/files/safety-data-sheet---glasswool.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Bradford Thermoseal Wall Breather Medium Duty Polyweave Wrap is\na high-strength micro-perforated reflective foil wall wrap designed to provide\nradiant thermal insulation while allowing water vapour to breathe through\nmechanical perforations. Constructed from heavy-duty woven polyweave fabric\nlaminated to aluminium foil, it provides superior resistance to tears and rips\nduring construction in windy environments. Engineered for brick veneer and\nlightweight clad walls where a durable reflective membrane with vapour-release\ncharacteristics is specified, it offers dual weather protection and air-gap\nthermal R-values.",
+    "features": [
+      "Micro-perforated breathable reflective foil\nallows moisture vapour diffusion",
+      "Heavy-duty woven polyweave core provides\noutstanding tear and puncture resistance",
+      "Medium Duty strength classification\nwithstands high wind loads on open sites",
+      "Reflective aluminium foil facing\ndelivers radiant thermal resistance across air gaps",
+      "Micro-perforations\nprevent liquid water tracking while releasing trapped cavity vapour",
+      "Non-combustible aluminium facings with low Flammability Index (≤ 5)",
+      "Suitable\nfor bushfire-prone areas up to BAL-40 under AS 3959",
+      "Ideal for brick veneer\nand external framed walls in warmer climate zones"
+    ],
+    "applications": [
+      "wall",
+      "external wall",
+      "shed"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "Micro-perforated woven polymer fabric (polyweave) laminated to aluminium foil",
+        "standard": ""
+      },
+      {
+        "property": "Duty Classification",
+        "value": "Medium Duty",
+        "standard": "AS/NZS 4200.1"
+      },
+      {
+        "property": "Vapour Permeability",
+        "value": "Perforated Vapour Permeable / Breather classification",
+        "standard": "AS/NZS 4200.1"
+      },
+      {
+        "property": "Water Control Classification",
+        "value": "Water\nBarrier (under standard test conditions)",
+        "standard": "AS/NZS 4201.4"
+      },
+      {
+        "property": "Emittance (Reflective Face)",
+        "value": "0.05 (95% heat\nreflection)",
+        "standard": "AS/NZS 4201.5"
+      },
+      {
+        "property": "Roll Dimensions\n(30m)",
+        "value": "1350 mm width x 30 m length (40.5 m² per roll)",
+        "standard": ""
+      },
+      {
+        "property": "Roll Dimensions (60m)",
+        "value": "1350 mm width x 60 m\nlength (81 m² per roll)",
+        "standard": ""
+      },
+      {
+        "property": "Flammability Index",
+        "value": "≤ 5 (Low Flammability)",
+        "standard": "AS 1530.2"
+      },
+      {
+        "property": "Product Codes",
+        "value": "101254 (30m), 15123 (60m)",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Thermoseal Wall Breather Medium Duty Polyweave 30m",
+        "size_or_rating": "1350 mm x 30 m (40.5 m²)",
+        "pack": "Roll (Code: 101254)"
+      },
+      {
+        "variant": "Thermoseal Wall Breather Medium Duty Polyweave 60m",
+        "size_or_rating": "1350 mm x 60 m (81 m²)",
+        "pack": "Roll (Code: 15123)"
+      }
+    ],
+    "fire": "Flammability Index ≤ 5 to AS 1530.2; Suitable for BAL-12.5 to BAL-40\nwall construction under AS 3959",
+    "compliance": "AS/NZS 4200.1:2017,\nAS/NZS 4200.2, AS 1530.2, NCC Volume One and Two",
+    "sustainability": "Zero ODP,\nnon-hazardous, manufactured with recyclable polymer and aluminium components",
+    "install": [
+      "Install horizontally on exterior wall studs starting from the\nbottom sill plate",
+      "Overlap upper layers over lower layers by at least 150mm to\nensure water shedding",
+      "Fasten with broad-head galvanized nails or staples\nat 300mm centres to studs and plates",
+      "Ensure reflective surface faces the\ndesigned air gap to achieve thermal rating",
+      "Fix securely around window and\ndoor openings before installing joinery",
+      "Ensure a ventilated cavity exists\nbetween the wrap and the external brick veneer or cladding"
+    ],
+    "selection_checklist": [
+      "Confirm application is external framed wall where\nmicro-perforated breather foil is specified",
+      "Select roll length (30m\nfor 40.5m² or 60m for 81m²)",
+      "Verify Medium Duty rating meets site wind\nexposure requirements",
+      "Check climate zone (perforated foils are suited to\nwarmer climate zones; use spunbond Class 4 for cold zones)",
+      "Order matching\nBradford 493 foil tape"
+    ],
+    "accessories": [
+      "Bradford 493 Reinforced Foil Tape",
+      "Bradfix fasteners",
+      "Foil staples"
+    ],
+    "limitations": [
+      "Not suitable for cold\nclimate zones (zones 6, 7, 8) where non-perforated Class 4 spunbond membranes\nare required by NCC 2022",
+      "Must not be used in roofs as sarking",
+      "Must be\ncovered within manufacturer UV exposure limits"
+    ],
+    "warranty": "Backed by CSR\nBradford product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Bradford Medium\nDuty Polyweave Wrap",
+      "Thermoseal Wall Breather",
+      "Medium Duty Polyweave\nBreather",
+      "perforated foil wall wrap",
+      "Thermoseal 15123",
+      "Thermoseal 101254",
+      "breathable polyweave wrap",
+      "brick veneer breather foil",
+      "Bradford wall\nbreather"
+    ],
+    "problem_keywords": [
+      "moisture trapped behind foil wrap",
+      "wall\nwrap tearing on windy building site",
+      "brick tie punctures through wall foil",
+      "heat radiating through brick veneer",
+      "sweating wall cavities in humid climate"
+    ],
+    "placement": [
+      "wall",
+      "external wall",
+      "shed"
+    ],
+    "priority_fit": [
+      "thermal",
+      "fire",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Micro-perforated reflective\nwall wrap on residential brick veneer homes in temperate and warm climate\nzones",
+      "Tear-resistant external wall wrap on windy coastal residential\nconstruction sites",
+      "Reflective breather wrap in domestic shed and garage\nframed walls"
+    ],
+    "not_for": [
+      "Cool or alpine climate zones requiring\nnon-perforated Class 4 vapour membranes",
+      "Roof applications",
+      "Exposed external\ncladding"
+    ],
+    "rag_summary": "Bradford Wall Wraps - Medium Duty Polyweave Wrap\n(Bradford Thermoseal Wall Breather, product codes 15123 / 101254) is a\nmicro-perforated, high-strength woven polyweave reflective wall wrap designed\nfor brick veneer and lightweight framed walls. Engineered with a tough woven\npolymer core and reflective aluminium foil, it provides exceptional tear\nresistance against high site winds while its micro-perforations permit water\nvapour transmission to prevent trapped cavity moisture. Providing radiant\nthermal insulation across wall airspaces and achieving a Flammability Index ≤ 5\n(BAL 12.5-40 compliant), it offers robust weather and thermal protection for\nresidential envelopes."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

@@ -1,0 +1,143 @@
+{
+  "family_id": "PROCTOR_WRAP_HIGH_TACK_PLUS_TAPE_2",
+  "family_name": "ProctorWrap High Tack Plus Tape",
+  "datasheet_pdf_url": "https://proctorgroup.com.au/product/high-tack-plus-tape/",
+  "sds_url": "",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "ProctorWrap High Tack Plus Tape is a professional single-sided\nacrylic adhesive sealing tape designed for sealing overlaps, joins, and\npenetrations in external vapour-permeable and internal air-retarder membranes.\nFormulated with an aggressive acrylic adhesive delivering minimum peel adhesion\nof ≥ 45 N / 25 mm on a semi-transparent pliable carrier, it prevents air leakage\nand weather penetration. It provides high durability against heat and UV\nexposure with minimal edge bleed across Australian building sites.",
+    "features": [
+      "High peel adhesion strength tested to ≥ 45 N / 25 mm",
+      "Semi-transparent\ncarrier allows visible alignment over membrane lap markings",
+      "Pliable film\ncarrier conforms tightly without bridging or skipping over creases",
+      "Forms an\nairtight and weathertight barrier across membrane overlaps",
+      "Excellent\nresistance to heat degradation and UV exposure",
+      "Minimal adhesive edge bleed\nunder warm Australian cavity temperatures",
+      "Aggressive bonding to polyolefin\nwraps, aluminium boards, timber, and steel",
+      "Solvent-free, low-emission\nformulation supporting Green Star projects"
+    ],
+    "applications": [
+      "wall",
+      "external wall",
+      "roof",
+      "roofline",
+      "internal wall"
+    ],
+    "technical": [
+      {
+        "property": "Adhesive",
+        "value": "Aggressive solvent-free acrylic adhesive",
+        "standard": ""
+      },
+      {
+        "property": "Carrier Material",
+        "value": "Semi-transparent\npliable polyolefin film",
+        "standard": ""
+      },
+      {
+        "property": "Peel Adhesion",
+        "value": "≥ 45 N / 25 mm",
+        "standard": "EN 1939"
+      },
+      {
+        "property": "Dimensions",
+        "value": "60 mm width x 25 m length",
+        "standard": ""
+      },
+      {
+        "property": "Temperature Resistance",
+        "value": "-40°C to +80°C",
+        "standard": ""
+      },
+      {
+        "property": "Installation Temperature Range",
+        "value": "+5°C to +40°C",
+        "standard": ""
+      },
+      {
+        "property": "Weather & Air Tightness",
+        "value": "Water-tight\nand air-tight seal",
+        "standard": "AS/NZS 4200.2"
+      }
+    ],
+    "range": [
+      {
+        "variant": "ProctorWrap HighTack PLUS Tape 60mm",
+        "size_or_rating": "60 mm x 25 m",
+        "pack": "Roll (Carton of 10)"
+      }
+    ],
+    "fire": "Compliant with early fire hazard\nrequirements to AS 1530.2 when applied to compliant building membranes",
+    "compliance": "AS/NZS 4200.2:2017, Passive House airtightness criteria, Green\nStar compliant",
+    "sustainability": "Solvent-free acrylic adhesive; zero\nchlorine; zero formaldehyde; low VOC emissions",
+    "install": [
+      "Ensure membrane\nsurfaces to be joined are clean, dry, and free of dust, grease, and oil",
+      "Ensure ambient application temperature is within +5°C to +40°C",
+      "Align\nmembrane overlap with minimum 150mm overlap (or 50mm if taped per AS 4200.2)",
+      "Position the 60mm tape centered evenly along the lap seam",
+      "Press down firmly\nalong the entire tape length using a plastic squeegee",
+      "Ensure the substrate is\nsupported from behind while applying pressure to activate the adhesive",
+      "Ensure\ntape is applied without tension wrinkles or air pockets"
+    ],
+    "selection_checklist": [
+      "Confirm membrane compatibility (ideal for ProctorWrap\nand ProctorPassive membranes)",
+      "Calculate total linear meters required for all\nhorizontal and vertical seams",
+      "Ensure surface temperature at installation is\nabove +5°C",
+      "Verify squeegee tool is on hand for firm pressure application"
+    ],
+    "accessories": [
+      "ProctorWrap building membranes",
+      "Plastic application\nsqueegee"
+    ],
+    "limitations": [
+      "Pressure-sensitive adhesive requires firm\nsqueegee pressure to achieve full bonding",
+      "Must not be applied to wet, oily,\nor dusty surfaces",
+      "All mechanical loads must be carried by mechanical\nfasteners, not the tape"
+    ],
+    "warranty": "Backed by Proctor Group Australia\nproduct warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "ProctorWrap High Tack\nPlus Tape",
+      "High Tack Plus Tape",
+      "ProctorWrap tape",
+      "breathable wrap tape",
+      "60mm HighTack tape",
+      "semi-transparent joining tape",
+      "air barrier tape",
+      "wall\nwrap sealing tape"
+    ],
+    "problem_keywords": [
+      "tape coming loose on building\nwrap",
+      "air infiltration through wall seams",
+      "water tracking through membrane\noverlaps",
+      "creased membrane causing tape bubbles",
+      "failing building air\ntightness testing"
+    ],
+    "placement": [
+      "wall",
+      "external wall",
+      "roof",
+      "roofline",
+      "internal wall"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "condensation"
+    ],
+    "use_cases": [
+      "Sealing lap joins on external vapour-permeable wall wraps in\nresidential and commercial builds",
+      "Airtight sealing of roof underlay laps\nunder metal and tile roofs",
+      "Sealing penetrations and interface connections to\nwindow and door flashings"
+    ],
+    "not_for": [
+      "Structural load-bearing strapping",
+      "Flue exhaust pipes exceeding 100°C",
+      "Submerged applications"
+    ],
+    "rag_summary": "ProctorWrap High Tack Plus Tape is an aggressive, single-sided acrylic adhesive\nsealing tape designed for sealing overlaps, joins, and penetrations on\nvapour-permeable wall wraps and roof underlays. Offering high tested peel\nadhesion of ≥ 45 N / 25 mm on a semi-transparent, pliable polyolefin carrier, it\nconforms neatly over creases without skipping or lifting. Operating reliably\nfrom -40°C to +80°C with high resistance to heat and UV edge bleed, it delivers\nan airtight and weathertight seal compliant with AS/NZS 4200.2:2017."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

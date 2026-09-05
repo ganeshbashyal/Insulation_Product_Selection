@@ -37,7 +37,7 @@ sys.path.insert(0, str(ROOT))
 OUT_DIR = ROOT / "output" / "literature"
 SKU_CSV = ROOT / "data" / "processed" / "product_catalogue_skus.csv"
 STATE_FILE = OUT_DIR / ".literature_state.json"
-GENERATOR_VERSION = "4"  # bump when the template changes so all outputs regenerate
+GENERATOR_VERSION = "5"  # bump when the template changes so all outputs regenerate
 
 CATEGORY_TAGLINES = {
     "Batt": "bulk insulation batts for thermal and acoustic performance",
@@ -171,18 +171,27 @@ def build_markdown(family: dict, fm: dict, text: str, skus: pd.DataFrame, resear
     spec = (research or {}).get("spec") or {}
     applications = spec.get("applications") or family.get("applications", [])
     description = clean(spec.get("description", "")) or extract_description(text)
-    features = [clean(f) for f in spec.get("features", []) if clean(f)] or extract_features(text)
-    technical = [t for t in spec.get("technical", []) if isinstance(t, dict) and t.get("property")]
-    fire_text = clean(spec.get("fire", ""))
-    sustainability_text = clean(spec.get("sustainability", ""))
-    install_steps = [clean(s) for s in spec.get("install", []) if clean(s)]
+    # helper: tolerate a spec field being None instead of a list/string
+    def _list(key):
+        value = spec.get(key)
+        return value if isinstance(value, list) else []
+
+    def _str(key):
+        value = spec.get(key)
+        return value if isinstance(value, str) else ""
+
+    features = [clean(f) for f in _list("features") if clean(f)] or extract_features(text)
+    technical = [t for t in _list("technical") if isinstance(t, dict) and t.get("property")]
+    fire_text = clean(_str("fire"))
+    sustainability_text = clean(_str("sustainability"))
+    install_steps = [clean(s) for s in _list("install") if clean(s)]
     # richer deep-dive fields (Gemini agent)
-    range_rows_data = [r for r in spec.get("range", []) if isinstance(r, dict)]
-    selection_checklist = [clean(s) for s in spec.get("selection_checklist", []) if clean(s)]
-    compliance_text = clean(spec.get("compliance", ""))
-    accessories = [clean(a) for a in spec.get("accessories", []) if clean(a)]
-    limitations = [clean(l) for l in spec.get("limitations", []) if clean(l)] or extract_limitations(text)
-    warranty_text = clean(spec.get("warranty", ""))
+    range_rows_data = [r for r in _list("range") if isinstance(r, dict)]
+    selection_checklist = [clean(s) for s in _list("selection_checklist") if clean(s)]
+    compliance_text = clean(_str("compliance"))
+    accessories = [clean(a) for a in _list("accessories") if clean(a)]
+    limitations = [clean(l) for l in _list("limitations") if clean(l)] or extract_limitations(text)
+    warranty_text = clean(_str("warranty"))
     grade_rows = extract_grade_rows(text)
     material = fm.get("material") or (clean(skus["material_type"].iloc[0]) if not skus.empty else "")
     tds_url = family.get("source_url") or fm.get("official_datasheet_url", "")

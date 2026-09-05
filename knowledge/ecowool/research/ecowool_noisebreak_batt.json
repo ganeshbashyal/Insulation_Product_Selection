@@ -1,0 +1,177 @@
+{
+  "family_id": "ECOWOOL_NOISEBREAK_BATT",
+  "family_name": "Ecowool NoiseBREAK Batt",
+  "datasheet_pdf_url": "https://pgfinsulation.com.au/products/noisebreak/",
+  "sds_url": "https://pgfinsulation.com.au/resource-centre/technical-documentation/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Ecowool NoiseBreak is a high-density glass mineral wool acoustic\ninsulation batt specially engineered to reduce sound transfer in walls and\nceilings for residential and commercial buildings. Manufactured with SensiTouch\ntechnology utilizing an innovative binder with natural anti-formaldehyde\ningredients, it provides a softer feel and lower dust during installation.\nDelivering superior acoustic absorption (Rw/STC performance) and thermal\nresistance (R1.7 to R3.1), NoiseBreak is non-combustible, bio-soluble, and\ncertified to AS/NZS 4859.1:2018.",
+    "features": [
+      "High-density acoustic glass\nmineral wool batt",
+      "Engineered specifically for internal walls, external walls,\nand mid-floor ceilings",
+      "SensiTouch Technology with natural anti-formaldehyde\nbinder",
+      "Soft to touch and significantly less itchy than conventional glass\nwool",
+      "Firm friction-fit rigidity ensures batts will not sag or slump in the\ncavity",
+      "Non-combustible fire performance tested to AS 1530.1:1994",
+      "Manufactured using bio-soluble fibres posing no long-term health risks",
+      "High\nsound absorption improving room-to-room Rw / STC acoustic ratings",
+      "Made from\nup to 80% recycled glass content",
+      "Certified compliant with AS/NZS 4859.1:2018"
+    ],
+    "applications": [
+      "wall",
+      "internal wall",
+      "external wall",
+      "ceiling",
+      "between floors"
+    ],
+    "technical": [
+      {
+        "property": "Densities",
+        "value": "24 kg/m³\n(R1.7, R2.0, R2.5, R3.1), 32 kg/m³ (R2.7)",
+        "standard": ""
+      },
+      {
+        "property": "R-Values & Thicknesses",
+        "value": "R1.7 (60mm, 24kg), R2.0 (70mm, 24kg), R2.5\n(90mm, 24kg), R2.7 (90mm, 32kg), R3.1 (110mm, 24kg)",
+        "standard": "AS/NZS 4859.1:2018"
+      },
+      {
+        "property": "Dimensions",
+        "value": "1160 mm length\nx 430 mm or 580 mm width",
+        "standard": ""
+      },
+      {
+        "property": "Combustibility",
+        "value": "Non-combustible",
+        "standard": "AS 1530.1:1994"
+      },
+      {
+        "property": "Early\nFire Hazard Indices",
+        "value": "Ignitability: 0, Spread of Flame: 0, Heat\nEvolved: 0, Smoke Developed: 0-1",
+        "standard": "AS 1530.3:1999"
+      },
+      {
+        "property": "Thermal Conductivity",
+        "value": "Tested at 23°C mean temperature",
+        "standard": "ASTM C518"
+      },
+      {
+        "property": "Acoustic Performance",
+        "value": "High sound\nabsorption across human speech frequencies (Rw/STC system ratings)",
+        "standard": "AS/NZS ISO 717.1"
+      },
+      {
+        "property": "VOC Emissions",
+        "value": "Low VOC\nemissions",
+        "standard": "ASTM D 5116-06"
+      }
+    ],
+    "range": [
+      {
+        "variant": "NoiseBreak R1.7 (60mm)",
+        "size_or_rating": "60 mm x 1160 mm x 430/580 mm (24\nkg/m³)",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "NoiseBreak R2.0 (70mm)",
+        "size_or_rating": "70 mm x 1160 mm x 430/580 mm (24 kg/m³)",
+        "pack": "Pack of\nbatts"
+      },
+      {
+        "variant": "NoiseBreak R2.5 (90mm)",
+        "size_or_rating": "90 mm x 1160\nmm x 430/580 mm (24 kg/m³)",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "NoiseBreak\nR2.7 (90mm)",
+        "size_or_rating": "90 mm x 1160 mm x 430/580 mm (32 kg/m³)",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "NoiseBreak R3.1 (110mm)",
+        "size_or_rating": "110 mm x 1160 mm x 430/580 mm (24 kg/m³)",
+        "pack": "Pack of\nbatts"
+      }
+    ],
+    "fire": "Non-combustible to AS 1530.1:1994; AS 1530.3:1999 indices:\nIgnitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-1",
+    "compliance": "AS/NZS 4859.1:2018, Building Code of Australia (BCA) / NCC\ncompliant",
+    "sustainability": "Contains up to 80% recycled glass; SensiTouch\nbinder incorporating natural anti-formaldehyde ingredient; Low VOC; Bio-soluble\nFBS-1 formulation; Zero ODP",
+    "install": [
+      "Turn off electrical power at the\nmain switchboard before working near electrical cables",
+      "Select batt width\n(430mm or 580mm) to match framing centres (450mm or 600mm)",
+      "Friction-fit batts\nfirmly between wall studs or ceiling joists without gaps",
+      "Ensure batts fill\nthe cavity depth without being compressed or bulging plasterboard",
+      "Cut batts\nneatly around power outlets, pipes, and wiring using a sharp knife",
+      "Pair with\nacoustic plasterboard and resilient isolation clips for maximum acoustic Rw\nrating",
+      "Enclose behind wall or ceiling linings promptly after installation"
+    ],
+    "selection_checklist": [
+      "Confirm stud cavity depth (e.g. 70mm for R2.0, 90mm\nfor R2.5/R2.7, 110mm for R3.1)",
+      "Confirm framing spacing (450mm centres\nrequire 430mm batts; 600mm centres require 580mm batts)",
+      "Select density /\nrating based on acoustic specification (R2.7 at 32kg/m³ for high-spec media\nrooms/bedrooms)",
+      "Verify AS 1530.1 non-combustibility requirement for\nmulti-residential walls"
+    ],
+    "accessories": [
+      "Acoustic plasterboard",
+      "Resilient\nisolation clips",
+      "Acoustic sealant",
+      "Insulation knife"
+    ],
+    "limitations": [
+      "Indoor cavity use only; do not expose to direct outdoor weather",
+      "Do not\ncompress into cavities shallower than nominal thickness",
+      "Maintain required\nclearances around non-IC rated light fittings and flues"
+    ],
+    "warranty": "PGF\nAustralia product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Ecowool\nNoiseBreak",
+      "NoiseBreak batts",
+      "NoiseBreak acoustic insulation",
+      "high density\nacoustic batts",
+      "PGF NoiseBreak",
+      "R2.5 NoiseBreak",
+      "R2.7 NoiseBreak",
+      "R2.0\nNoiseBreak",
+      "32kg acoustic batts",
+      "internal wall sound batts"
+    ],
+    "problem_keywords": [
+      "noise between bedrooms",
+      "home theatre sound\ntransmission",
+      "toilet flushing noise through internal wall",
+      "hearing music\nbetween rooms",
+      "footstep noise between floors",
+      "inter-tenancy noise in duplex"
+    ],
+    "placement": [
+      "wall",
+      "internal wall",
+      "external wall",
+      "ceiling",
+      "between\nfloors"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "thermal",
+      "fire",
+      "sustainability"
+    ],
+    "use_cases": [
+      "Internal wall acoustic insulation between bedrooms, bathrooms,\nand home theatre rooms",
+      "Acoustic cavity infill between storeys in multi-level\nhomes to reduce floor-to-floor noise",
+      "Acoustic and thermal dampening in\nexternal walls facing busy street traffic"
+    ],
+    "not_for": [
+      "Direct underfloor\napplications exposed to wind",
+      "Unshielded exterior cladding",
+      "Exposed\ndecorative acoustic ceiling panels"
+    ],
+    "rag_summary": "Ecowool NoiseBreak is a\nhigh-density glass mineral wool acoustic batt manufactured by PGF Insulation for\nresidential and commercial walls and ceilings. Available in densities of 24\nkg/m³ and 32 kg/m³ across ratings from R1.7 to R3.1 (60mm to 110mm thick), it\ndampens airborne speech, television, and plumbing noise between rooms. Built\nwith SensiTouch low-VOC, anti-formaldehyde technology from nearly 80% recycled\nglass, it is non-combustible to AS 1530.1 and provides rigid friction-fit\ninstallation without slumping."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

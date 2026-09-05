@@ -1,7 +1,7 @@
 ---
 title: "Proctor Passive Wraptite SA Tape - Accessory Insulation | Proctor"
-description: "Quality insulation engineered for Australian conditions. Engineered to meet Australian building requirements."
-keywords: "Proctor Passive Wraptite SA Tape, Proctor accessory, insulation Australia, Proctor Australia"
+description: "ProctorPassive Wraptite SA Tape is a self-adhering, vapour-permeable air barrier tape and transition strip. Constructed from a triple-layer spunbonded"
+keywords: "Proctor Passive Wraptite SA Tape, Proctor accessory, wall insulation, roof insulation, insulation Australia, Proctor Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: PROCTOR_PASSIVE_WRAPTITE_SA_TAPE
 ---
@@ -10,25 +10,35 @@ family_id: PROCTOR_PASSIVE_WRAPTITE_SA_TAPE
 
 **Proctor Accessory** — installation accessories and fixings.
 
-Quality insulation engineered for Australian conditions. Engineered to meet Australian building requirements.
+ProctorPassive Wraptite SA Tape is a self-adhering, vapour-permeable air barrier tape and transition strip. Constructed from a triple-layer spunbonded polypropylene with a vapour-permeable microporous film and a fully coated pressure-sensitive adhesive backing, it combines continuous airtightness with vapour breathability. Designed for detailing window and door openings, cross-laminated timber (CLT) joints, precast concrete seams, and membrane transitions, it stops air leakage while allowing damp framing to dry outward.
 
 ## Key features
 
-- High-performance sealing and joining solution.
-- maintains air and vapour barrier continuity.
-- compatible with a range of insulation substrates.
+- Fully self-adhesive backing adheres aggressively to timber, steel, concrete, and masonry.
+- Vapour permeable Class 4 rating allows structures to breathe and dry out.
+- Acts as a certified air barrier preventing air leakage and convective heat loss.
+- Water barrier performance resists rain penetration during construction.
+- Split release paper backing allows fast, accurate alignment into 90-degree corners.
+- Replaces mechanical fasteners, eliminating nail and staple penetrations.
+- High tear strength and puncture resistance.
+- Low VOC emissions compliant with Green Star and Passive House standards.
 
 ## Applications and selection
 
-- Passive House Membrane
+- wall
+- external wall
+- roof
+- roofline
+- internal wall
+- window
+- door
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Select width based on detail (75/100mm for panel joints, 150/300mm for window reveals and slab edges).
+2. Confirm requirement for vapour permeability to prevent moisture entrapment.
+3. Check substrate condition to determine if primer is needed.
+4. Ensure application temperature is within recommended range.
 
 
 ## Current catalogue range
@@ -42,33 +52,53 @@ Quality insulation engineered for Australian conditions. Engineered to meet Aust
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Accessory | Manufacturer catalogue |
-| Material | Tape / Sealant | Manufacturer catalogue |
-| Applications | Passive House Membrane | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material | Triple-layer polypropylene with microporous film and full-surface PSA backing | - |
+| Duty Classification | Light Duty | AS/NZS 4200.1:2017 |
+| Vapour Permeability | Class 4 Vapour Permeable | AS/NZS 4200.1:2017 |
+| Water Control | Water Barrier | AS/NZS 4201.4 |
+| Air Control | Air Barrier | AS/NZS 4200.1:2017 |
+| Roll Dimensions | 75 mm, 100 mm, 150 mm, 200 mm, 300 mm width x 50 m length | - |
+| Temperature Resistance | -40°C to +100°C | - |
+| Flammability Index | ≤ 5 | AS 1530.2 |
 
-
+Extracted from manufacturer datasheet: https://proctorgroup.com.au/product/wraptite-sa-self-adhesive-air-barrier-membrane/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Flammability Index ≤ 5 to AS 1530.2; Group 1 fire performance in compliant wall systems
+
+AS/NZS 4200.1:2017, AS/NZS 4200.2:2017, AS 1530.2, BBA certified, Passive House approved
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://proctorgroup.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://proctorgroup.com.au/wp-content/uploads/2021/02/DCT_PIR_Silver_White_Tissue_Ver_2_2020-2.pdf.
 
+## Recommended accessories
+
+- ProctorPassive Primer (for porous masonry).
+- Pressure hand roller / squeegee.
+- Utility knife.
+
 
 ## Limitations and warnings
 
-- Install in accordance with manufacturer specifications..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Do not apply to wet, frosty, or contaminated surfaces.
+- Requires firm rolling pressure to activate full pressure-sensitive bond.
+- Must not remain exposed to permanent UV beyond rated exposure window.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Install in accordance with manufacturer specifications.
+1. Ensure substrate (timber, concrete, steel, or sheathing) is clean, dry, and dust-free.
+2. Apply compatible primer to porous concrete or masonry if required.
+3. Measure and cut Wraptite SA tape to length.
+4. Peel back the initial section of the split release liner.
+5. Position tape along the joint, corner, or window reveal.
+6. Gradually peel remaining liner while smoothing tape firmly onto the substrate.
+7. Consolidate bond across the entire tape surface with a firm hand roller or squeegee.
+8. Overlap adjoining tape pieces by minimum 50mm.
 
 ## Safety and handling
 
@@ -76,11 +106,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Low VOC emissions; zero ODP; non-toxic
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Backed by Proctor Group Australia product warranty
 
 ## Specification starting point
 

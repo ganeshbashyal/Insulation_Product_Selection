@@ -1,0 +1,139 @@
+{
+  "family_id": "FOILBOARD_SPACER_BLOCKS",
+  "family_name": "Foilboard Spacer Blocks",
+  "datasheet_pdf_url": "https://www.foilboard.com.au/product-category/accessories/",
+  "sds_url": "https://www.foilboard.com.au/wp-content/uploads/2021/04/Foilboard-Green-Safety-Data-Sheet.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Foilboard Spacer Blocks are pre-cut expanded polystyrene (EPS)\nblocks designed to maintain a consistent, non-collapsible reflective airspace\nbetween Foilboard insulation panels and external wall claddings or internal\nlinings. By establishing a guaranteed 20mm or 25mm still air cavity adjacent to\nthe reflective aluminum foil face, they ensure the assembly achieves its rated\ntotal thermal R-value. Adhered or mechanically fixed between framing members,\nthey prevent panels from flexing, dislocating, or touching adjacent cladding\nunder wind loads.",
+    "features": [
+      "Guarantees a permanent 20mm or 25mm\nreflective still air cavity",
+      "Ensures Foilboard systems achieve rated total\nsystem R-values",
+      "Constructed from lightweight, fire-retardant expanded\npolystyrene (EPS)",
+      "Prevents panel deflection and rattling against cladding\nunder wind pressure",
+      "Pre-cut blocks allow rapid, consistent on-site\nplacement",
+      "Compatible with all Foilboard panel thicknesses and framing\nsystems",
+      "Moisture-proof and rot-proof, will not degrade or sag over time",
+      "Eliminates guesswork in establishing compliant airspace dimensions"
+    ],
+    "applications": [
+      "wall",
+      "external wall",
+      "internal wall",
+      "ceiling",
+      "shed"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "Fire-retardant expanded\npolystyrene (EPS)",
+        "standard": ""
+      },
+      {
+        "property": "Block Thickness (Airspace\nDepth)",
+        "value": "20 mm, 25 mm",
+        "standard": ""
+      },
+      {
+        "property": "Block\nDimensions",
+        "value": "Approx. 50 mm x 50 mm x 20/25 mm (or 100 mm x 50 mm)",
+        "standard": ""
+      },
+      {
+        "property": "Density",
+        "value": "Class SL / S EPS",
+        "standard": "AS 1366.3"
+      },
+      {
+        "property": "Combustibility",
+        "value": "Fire-retardant EPS formulation",
+        "standard": "AS 1530.3"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Foilboard Spacer Blocks 20mm",
+        "size_or_rating": "20 mm thickness\n(creates 20mm airspace)",
+        "pack": "Bag / Box"
+      },
+      {
+        "variant": "Foilboard Spacer\nBlocks 25mm",
+        "size_or_rating": "25 mm thickness (creates 25mm airspace)",
+        "pack": "Bag / Box"
+      }
+    ],
+    "fire": "Fire-retardant EPS; compliant as a system\ncomponent with NCC fire hazard requirements",
+    "compliance": "AS/NZS 4859.1,\nAS 3999, NCC Volume One and Two",
+    "sustainability": "100% recyclable EPS; zero\nCFC/HCFC; low VOC emissions",
+    "install": [
+      "Determine required airspace depth\n(20mm or 25mm) from system architectural specification",
+      "Position Foilboard\nSpacer Blocks onto wall studs, battens, or the back of Foilboard panels",
+      "Adhere blocks using approved construction adhesive or tack in place with\nfasteners",
+      "Place approximately one spacer block per square meter or at 600mm\nto 900mm intervals along framing",
+      "Install Foilboard panel firmly against\nspacer blocks",
+      "Fasten panel to structural framing ensuring spacer blocks\nmaintain the designed airspace",
+      "Verify panels remain planar without bowing\ninto the adjacent cladding cavity"
+    ],
+    "selection_checklist": [
+      "Confirm required\nairspace depth (20mm or 25mm) from thermal R-value calculation",
+      "Calculate\ntotal quantity needed based on wall area (approx. 4-6 blocks per standard\npanel)",
+      "Verify framing type (timber studs, steel girts, or masonry furring\nchannels)",
+      "Order compatible solvent-free adhesive or fasteners"
+    ],
+    "accessories": [
+      "Foilboard Green panels",
+      "Foilboard 72mm reinforced foil\ntape",
+      "Solvent-free construction adhesive"
+    ],
+    "limitations": [
+      "Do not use\nsolvent-based adhesives which dissolve expanded polystyrene",
+      "Spacer blocks are\nnon-structural and do not replace primary mechanical framing fasteners",
+      "Do not\nexpose to continuous service temperatures above 80°C"
+    ],
+    "warranty": "Covered\nunder Foilboard 25-year performance warranty system"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Foilboard Spacer Blocks",
+      "Foilboard spacers",
+      "insulation\nspacer blocks",
+      "EPS spacer blocks",
+      "20mm airspace spacers",
+      "25mm insulation\nspacers",
+      "Foilboard cavity spacers",
+      "reflective airspace blocks"
+    ],
+    "problem_keywords": [
+      "insulation touching cladding losing R-value",
+      "maintaining 20mm air gap for foil insulation",
+      "Foilboard bowing into wall\ncavity",
+      "loss of reflective insulation performance",
+      "cladding pushing against\ninsulation board"
+    ],
+    "placement": [
+      "wall",
+      "external wall",
+      "internal wall",
+      "ceiling",
+      "shed"
+    ],
+    "priority_fit": [
+      "thermal",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Maintaining a guaranteed 20mm or 25mm reflective airspace behind external\nwall claddings",
+      "Preventing Foilboard panels from flexing into cavity brickwork\nor lightweight cladding",
+      "Spacing panels off masonry walls to create a still\nreflective thermal cavity"
+    ],
+    "not_for": [
+      "Structural cladding support",
+      "Underfloor joist cradle suspension (use Floor Saddles)",
+      "Direct exposure to\npetroleum-based solvents"
+    ],
+    "rag_summary": "Foilboard Spacer Blocks are\npre-cut 20mm and 25mm fire-retardant EPS blocks designed to maintain a\nconsistent, uncompressed reflective airspace between Foilboard panels and\nadjacent building claddings. By establishing the required still air cavity, they\nensure Foilboard systems achieve their certified total thermal R-values while\npreventing panels from flexing under wind loads. Moisture-proof and rot-proof,\nthey provide a reliable, low-cost solution for cavity depth management across\nframed walls and ceilings."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

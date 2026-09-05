@@ -1,0 +1,63 @@
+{
+  "family_id": "THERMOTEC_MAXFLEX_PIPE",
+  "family_name": "Maxflex Coil Pipe Insulation (identity unverified)",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "gemini_not_found",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "",
+    "features": "",
+    "applications": "",
+    "technical": "",
+    "range": "",
+    "fire": "",
+    "compliance": "",
+    "sustainability": "",
+    "install": "",
+    "selection_checklist": "",
+    "accessories": "",
+    "limitations": "",
+    "warranty": ""
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Maxflex pipe\ninsulation",
+      "Maxflex coil pipe",
+      "Thermotec Maxflex pipe",
+      "elastomeric pipe\ncoil",
+      "Maxflex FR pipe",
+      "refrigeration pipe coil",
+      "nitrile foam pipe coil"
+    ],
+    "problem_keywords": [
+      "condensation on refrigeration lines",
+      "heat loss from\ndomestic hot water pipes",
+      "sweating copper pipes in ceiling",
+      "long continuous\npipe runs needing insulation",
+      "frozen pipes in winter"
+    ],
+    "placement": [
+      "pipe",
+      "duct"
+    ],
+    "priority_fit": [
+      "thermal",
+      "condensation",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Insulating continuous copper refrigerant piping in split-system\nair conditioning installations",
+      "Thermal insulation on domestic and commercial\nhot water plumbing lines",
+      "Condensation control on chilled water lines and\nchilled air ducts"
+    ],
+    "not_for": [
+      "Continuous service temperatures\nexceeding 110°C (use E-Flex HT for solar)",
+      "Unprotected outdoor applications\nexposed to intense UV without coating",
+      "Direct burial in soil without conduit"
+    ],
+    "rag_summary": "Thermotec Maxflex Pipe Insulation represents continuous-coil\nelastomeric nitrile foam pipe insulation distributed for HVAC, air conditioning,\nand domestic plumbing lines. Engineered from flexible closed-cell synthetic\nrubber with built-in vapor barrier resistance, it prevents condensation and\nthermal energy loss on refrigeration and hot water pipes. Pre-formed in long\ncontinuous coils or 2m tubes, it slips easily over copper and plastic pipework\nduring installation."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

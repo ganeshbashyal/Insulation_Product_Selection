@@ -1,0 +1,65 @@
+{
+  "family_id": "MISC_REFLECTIVE",
+  "family_name": "Misc Reflective",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "gemini_not_found",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "",
+    "features": "",
+    "applications": "",
+    "technical": "",
+    "range": "",
+    "fire": "",
+    "compliance": "",
+    "sustainability": "",
+    "install": "",
+    "selection_checklist": "",
+    "accessories": "",
+    "limitations": "",
+    "warranty": ""
+  },
+  "retrieval": {
+    "search_keywords": [
+      "reflective foil insulation",
+      "reflective\nbuilding wrap",
+      "foil sarking",
+      "thermal radiant barrier",
+      "reflective bubble\nfoil",
+      "double sided reflective foil"
+    ],
+    "problem_keywords": [
+      "radiant heat\npenetrating roof",
+      "hot roof space in summer",
+      "drafts in framed walls",
+      "condensation on metal roof underside",
+      "uninsulated shed walls"
+    ],
+    "placement": [
+      "roof",
+      "roofline",
+      "wall",
+      "external wall",
+      "shed"
+    ],
+    "priority_fit": [
+      "thermal",
+      "condensation",
+      "budget"
+    ],
+    "use_cases": [
+      "Radiant heat reflection\nunder residential pitched metal or tile roofs",
+      "Thermal barrier wrapping on\nexternal timber and steel wall framing",
+      "Condensation control and draught\nproofing in domestic metal sheds and garages"
+    ],
+    "not_for": [
+      "Cold climate wall\nassemblies without vapour-permeable design",
+      "Direct floor foot traffic\nsurfaces",
+      "High-temperature exhaust flues"
+    ],
+    "rag_summary": "Misc Reflective\nrepresents generic reflective foil laminates, bubble foil, and building sarking\nmembranes used across Australian residential and commercial construction.\nEngineered with high-purity aluminum foil facings that reflect up to 97% of\nradiant heat when installed facing an enclosed air cavity, these products reduce\nsolar heat gain and assist in condensation management when installed in roofs,\nwalls, and sheds."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

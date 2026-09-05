@@ -1,0 +1,65 @@
+{
+  "family_id": "MISC_WRAP",
+  "family_name": "Misc Wrap",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "gemini_not_found",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "",
+    "features": "",
+    "applications": "",
+    "technical": "",
+    "range": "",
+    "fire": "",
+    "compliance": "",
+    "sustainability": "",
+    "install": "",
+    "selection_checklist": "",
+    "accessories": "",
+    "limitations": "",
+    "warranty": ""
+  },
+  "retrieval": {
+    "search_keywords": [
+      "building wrap",
+      "house wrap",
+      "wall wrap",
+      "breathable wall wrap",
+      "vapour permeable wrap",
+      "sarking wrap",
+      "weather\nbarrier wrap",
+      "pliable building membrane"
+    ],
+    "problem_keywords": [
+      "water leaks\nthrough brick veneer",
+      "draughts in timber frame wall",
+      "moisture build-up\ninside walls",
+      "dust ingress into wall cavity",
+      "protecting frame during\nconstruction"
+    ],
+    "placement": [
+      "wall",
+      "external wall",
+      "shed"
+    ],
+    "priority_fit": [
+      "condensation",
+      "easy_install",
+      "thermal"
+    ],
+    "use_cases": [
+      "Weather barrier wrap over timber and steel wall framing prior to installing\nbrick veneer or lightweight cladding",
+      "Air and moisture barrier in residential\nhome construction to reduce draughts and protect insulation",
+      "Draught-proofing\nand secondary weather protection on shed and garage walls"
+    ],
+    "not_for": [
+      "Roof\nsarking without verification of roof duty rating",
+      "Direct floor traffic\nsurfaces",
+      "Permanent exposure without cladding"
+    ],
+    "rag_summary": "Misc Wrap\nrepresents pliable building membranes and wall wraps utilized across Australian\nresidential and commercial wall construction. Available as vapour-permeable\n(breathable) spunbonded membranes or reflective foil laminates, these products\nprotect structural frames from wind-driven rain, dust, and draughts during and\nafter construction. Compliant with AS/NZS 4200.1 and AS/NZS 4200.2 standards,\nthey form a secondary weather barrier while managing condensation risk behind\nexternal claddings."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

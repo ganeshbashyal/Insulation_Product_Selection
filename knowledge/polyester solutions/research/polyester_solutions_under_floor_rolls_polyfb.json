@@ -1,0 +1,172 @@
+{
+  "family_id": "POLYESTER_SOLUTIONS_UNDER_FLOOR_ROLLS_POLYFB",
+  "family_name": "Polyester Solutions Under Floor Rolls - PolyFB",
+  "datasheet_pdf_url": "https://www.polyestersolutions.com.au/thermal-insulation",
+  "sds_url": "https://www.polyestersolutions.com.au/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Polyester Solutions\nUnderfloor Insulation (PolyFB / Poly-Floor) consists of 100% polyester thermal\nand acoustic insulation rolls, pre-cut to 450mm width to fit new and existing\nexposed timber joist floors. Sized slightly wider than standard 450mm joist\nspacing, it friction-fits securely between timber joists without staples or\nsagging, creating an airtight barrier against subfloor draughts and cold winter\nfloors. Manufactured from thermally bonded polyester containing a minimum of 80%\nrecycled PET fibers, it will not rot, absorb moisture, or harbor pests.",
+    "features": [
+      "Purpose-designed for suspended timber ground floors in new builds\nand retrofits",
+      "Pre-cut to 450mm width for a snug friction fit between timber\nfloor joists",
+      "Eliminates cold floors and blocks draughts blowing up through\nfloorboards",
+      "100% polyester fiber containing a minimum of 80% recycled PET\ncontent",
+      "Completely itch-free, non-toxic, odorless, and non-allergenic; safe\nto install without PPE",
+      "Hydrophobic fibers absorb less than 0.2% moisture by\nvolume, resisting damp crawlspaces",
+      "Will not sag, rot, or deteriorate over\ntime; resistant to vermin and insects",
+      "Tested to AS 1530.3 with zero\nignitability and zero spread of flame",
+      "Meets NCC energy efficiency\nrequirements for suspended floors"
+    ],
+    "applications": [
+      "floor",
+      "underfloor",
+      "subfloor",
+      "between floors"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "100% thermally bonded polyester fiber (min. 80% recycled PET)",
+        "standard": ""
+      },
+      {
+        "property": "Thermal R-Values",
+        "value": "R1.5, R2.0, R2.5,\nR3.0, R4.0",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Thicknesses",
+        "value": "R1.5 (70-90mm), R2.0 (90mm), R2.5 (120mm), R3.0 (140mm)",
+        "standard": ""
+      },
+      {
+        "property": "Roll Dimensions",
+        "value": "450 mm width x 8 m or 10 m\nlength (2 rolls per pack)",
+        "standard": ""
+      },
+      {
+        "property": "Pack Coverage",
+        "value": "9.0 m² (450mm x 10m x 2 rolls) or 7.2 m² (450mm x 8m x 2 rolls)",
+        "standard": ""
+      },
+      {
+        "property": "Early Fire Hazard Indices",
+        "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-3",
+        "standard": "AS 1530.3"
+      },
+      {
+        "property": "Moisture Absorption",
+        "value": "< 0.2%\nby volume after 4 days at 50°C, 95% RH",
+        "standard": ""
+      },
+      {
+        "property": "Maximum Service Temperature",
+        "value": "150°C",
+        "standard": ""
+      },
+      {
+        "property": "Chemical Composition",
+        "value": "Zero added chemical binders, zero\nformaldehyde, zero ODP",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "PolyFB\nUnderfloor Roll R1.5",
+        "size_or_rating": "90 mm x 450 mm x 10 m (2 rolls, 9.0\nm²)",
+        "pack": "Pack of 2 rolls"
+      },
+      {
+        "variant": "PolyFB Underfloor Roll R2.0",
+        "size_or_rating": "90 mm x 450 mm x 10 m (2 rolls, 9.0 m²)",
+        "pack": "Pack of 2\nrolls"
+      },
+      {
+        "variant": "PolyFB Underfloor Roll R2.5",
+        "size_or_rating": "120 mm\nx 450 mm x 8 m (2 rolls, 7.2 m²)",
+        "pack": "Pack of 2 rolls"
+      },
+      {
+        "variant": "PolyFB Underfloor Roll R3.0",
+        "size_or_rating": "140 mm x 450 mm x 6 m (2\nrolls, 5.4 m²)",
+        "pack": "Pack of 2 rolls"
+      }
+    ],
+    "fire": "AS 1530.3 Early Fire\nHazard Properties: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke\nDeveloped 0-3",
+    "compliance": "AS/NZS 4859.1, AS 3999, NCC Volume One Section J\n(JP1) and Volume Two Part 2.6 (P2.6.1) / Part 3.8.6",
+    "sustainability": "Minimum 80% recycled PET; zero formaldehyde; zero chemical binders; zero\nODP; 100% recyclable",
+    "install": [
+      "Isolate power at the main switchboard\nbefore entering the subfloor crawlspace",
+      "Ensure joist bays are dry, sound, and\nfree of protruding nails or debris",
+      "Unroll PolyFB roll along the underside of\nfloorboards between timber joists",
+      "Push the insulation up tightly against the\nunderside of floorboards ensuring no air gaps remain",
+      "Allow the slightly\noversized 450mm width to friction-fit snugly between 450mm-centered joists",
+      "For long-term retention or wide joist spacings, secure with non-corrosive\nstaples or polypropylene strapping stapled across joists at 500mm intervals",
+      "Do not cover subfloor ventilation openings in external brickwork"
+    ],
+    "selection_checklist": [
+      "Measure joist spacing (standard 450mm centers\nsuit 450mm pre-cut roll)",
+      "Select target R-value (R1.5, R2.0, or R2.5) to\nachieve desired underfloor thermal barrier",
+      "Calculate total underfloor square\nmeterage to determine pack quantities",
+      "Check crawlspace height clearance for\nsafe installer access",
+      "Order polypropylene strapping or staples if mechanical\nunderfloor securing is specified"
+    ],
+    "accessories": [
+      "Polypropylene underfloor\nstrapping",
+      "Pneumatic/manual stapler and galvanised staples",
+      "Utility knife"
+    ],
+    "limitations": [
+      "Sized for 450mm joists; for wider joists, strapping support\nis mandatory",
+      "Do not cover electrical cables that are prone to derating\nwithout checking AS/NZS 3000",
+      "Do not block subfloor wall vents"
+    ],
+    "warranty": "Backed by Polyester Solutions manufacturer product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Polyester Solutions PolyFB",
+      "PolyFB underfloor rolls",
+      "Polyfloor underfloor insulation",
+      "polyester underfloor rolls",
+      "R2.0\nunderfloor polyester",
+      "450mm underfloor insulation",
+      "subfloor polyester\nblanket",
+      "Polyester Solutions underfloor",
+      "timber floor insulation rolls"
+    ],
+    "problem_keywords": [
+      "cold timber floorboards in winter",
+      "draughts blowing up\nthrough floor",
+      "heat loss through suspended timber floor",
+      "creaking\nfloorboards resonance",
+      "subfloor dampness rotting insulation",
+      "insulation\nsagging between floor joists"
+    ],
+    "placement": [
+      "floor",
+      "underfloor",
+      "subfloor",
+      "between floors"
+    ],
+    "priority_fit": [
+      "thermal",
+      "easy_install",
+      "sustainability"
+    ],
+    "use_cases": [
+      "Insulating beneath exposed timber\nfloorboards in existing homes to eliminate winter draughts and cold floors",
+      "Friction-fit underfloor insulation between 450mm timber joists in new\nresidential construction",
+      "Mid-floor sound and thermal barrier between storeys\nin multi-level timber-framed residences"
+    ],
+    "not_for": [
+      "Concrete\nslab-on-ground insulation",
+      "Direct ground contact in damp crawlspaces",
+      "Exposed wall cladding"
+    ],
+    "rag_summary": "Polyester Solutions Under Floor Rolls\n(PolyFB / Poly-Floor) are pre-cut 450mm wide polyester thermal insulation rolls\ndesigned specifically for suspended timber floors in new builds and retrofits.\nManufactured from 100% thermally bonded polyester with over 80% recycled PET,\nthey friction-fit securely between 450mm-spaced joists without requiring\nstaples, creating a snug thermal barrier that cuts subfloor heat loss and blocks\ncold draughts. Hydrophobic (moisture absorption <0.2%), rot-proof, and tested to\nAS 1530.3 (flame spread 0), PolyFB provides durable, non-sagging underfloor\ncomfort."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

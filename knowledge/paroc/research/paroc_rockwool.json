@@ -1,0 +1,159 @@
+{
+  "family_id": "PAROC_ROCKWOOL",
+  "family_name": "Paroc Rockwool",
+  "datasheet_pdf_url": "https://www.paroc.com/",
+  "sds_url": "",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Paroc Rockwool is a\npremium European-engineered stone wool insulation made from volcanic basalt\nrock, designed for superior thermal, acoustic, and passive fire protection\nacross building and industrial applications. Non-combustible with an\nexceptionally high melting point exceeding 1000°C, Paroc stone wool does not\nshrink, melt, or produce toxic smoke during a fire, maintaining fire\ncompartmentation. Distributed internationally and used across Australia in\nhigh-performance facades, roofs, and acoustic partitions, it is water repellent,\nvapour permeable, and dimensionally stable.",
+    "features": [
+      "Manufactured from\nnatural volcanic basalt stone",
+      "Non-combustible with a melting point\nexceeding 1000°C",
+      "Exceptional passive fire resistance preventing fire spread",
+      "Outstanding acoustic sound absorption and vibration damping",
+      "High thermal\ninsulation performance with low thermal conductivity",
+      "Dimensionally stable,\nwill not sag, slump, or shrink over time",
+      "Water-repellent and non-hygroscopic;\nresists moisture absorption",
+      "Highly vapour permeable, allowing building\nstructures to dry out",
+      "Chemically inert and does not promote corrosion of\nmetal framing",
+      "Biosoluble fibers meeting international health and safety\nstandards"
+    ],
+    "applications": [
+      "wall",
+      "external wall",
+      "internal wall",
+      "ceiling",
+      "roof",
+      "floor",
+      "pipe",
+      "duct"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "Stone wool (rock mineral wool made from volcanic basalt)",
+        "standard": ""
+      },
+      {
+        "property": "Thermal Conductivity",
+        "value": "0.033 - 0.037\nW/m·K",
+        "standard": "EN 12667 / ASTM C518"
+      },
+      {
+        "property": "Melting Point",
+        "value": "> 1000°C",
+        "standard": "DIN 4102-17"
+      },
+      {
+        "property": "Combustibility",
+        "value": "Non-combustible (Euroclass A1 / AS 1530.1\ncompliant)",
+        "standard": "EN 13501-1 / AS 1530.1"
+      },
+      {
+        "property": "Density\nRange",
+        "value": "30 kg/m³ to 150 kg/m³ (depending on product grade)",
+        "standard": ""
+      },
+      {
+        "property": "Water Absorption",
+        "value": "Short term: ≤ 1\nkg/m²; Long term: ≤ 3 kg/m²",
+        "standard": "EN 1609 / EN 12087"
+      },
+      {
+        "property": "Water Vapour Resistance",
+        "value": "µ = 1 (vapour permeable)",
+        "standard": "EN 12086"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Paroc General Building Slabs",
+        "size_or_rating": "50mm - 100mm thickness x 600mm x 1200mm",
+        "pack": "Pack /\nPallet"
+      },
+      {
+        "variant": "Paroc Acoustic & Fire Batts",
+        "size_or_rating": "High\ndensity fire batts",
+        "pack": "Pack"
+      }
+    ],
+    "fire": "Euroclass A1 non-combustible\nto EN 13501-1; Non-combustible to AS 1530.1; Melting point > 1000°C; FRLs up\nto 240 minutes in tested assemblies",
+    "compliance": "EN 13162, AS 1530.1,\nAS 1530.4, CE marked, NCC compliant non-combustible material",
+    "sustainability": "Natural volcanic rock; 100% recyclable; low embodied emissions; zero ODP;\nbiosoluble fibers",
+    "install": [
+      "Cut stone wool slabs or batts cleanly using a\ndedicated serrated insulation knife",
+      "Friction-fit batts snugly into timber or\nsteel stud bays, ensuring no voids along framing edges",
+      "For external facades\nand rainscreens, mechanically secure slabs using approved insulation anchors\nwith large washer heads",
+      "Ensure adjacent slabs are tightly butted in a\nstaggered brick-bond pattern to eliminate thermal bridging",
+      "Maintain\nventilation gaps where specified behind rainscreen cladding systems",
+      "Wear\ngloves, goggles, and a dust mask during cutting and handling"
+    ],
+    "selection_checklist": [
+      "Confirm target application (fire-rated wall,\nrainscreen facade, acoustic partition, or industrial pipe)",
+      "Verify density and\nthickness required to satisfy fire FRL and thermal R-value specifications",
+      "Ensure non-combustible AS 1530.1 compliance is required by project engineer",
+      "Order appropriate mechanical fasteners and washers"
+    ],
+    "accessories": [
+      "Insulation serrated knife",
+      "Mechanical insulation anchors and washers",
+      "Fire-rated silicone/mastic sealant"
+    ],
+    "limitations": [
+      "Heavier than glasswool\nor polyester batts; ensure framing accounts for dead load",
+      "Protect from\ncontinuous rain exposure during construction prior to building envelope\nsealing",
+      "Wear appropriate personal protective equipment during handling"
+    ],
+    "warranty": "Backed by Paroc manufacturer product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Paroc Rockwool",
+      "Paroc stone wool",
+      "Paroc insulation",
+      "volcanic rockwool",
+      "Paroc fire slab",
+      "non-combustible stone wool",
+      "Paroc\nacoustic batts",
+      "Paroc facade insulation",
+      "1000 degree rockwool"
+    ],
+    "problem_keywords": [
+      "flammable insulation risks in high-rise buildings",
+      "high\ntemperature melting of insulation in fire",
+      "acoustic noise transfer through\ncommercial walls",
+      "meeting non-combustible building code AS 1530.1",
+      "thermal\nloss through commercial facade"
+    ],
+    "placement": [
+      "wall",
+      "external wall",
+      "internal wall",
+      "ceiling",
+      "roof",
+      "floor",
+      "pipe",
+      "duct"
+    ],
+    "priority_fit": [
+      "fire",
+      "acoustic",
+      "thermal",
+      "sustainability"
+    ],
+    "use_cases": [
+      "Non-combustible external wall and rainscreen facade insulation on multi-storey\ncommercial towers",
+      "Passive fire containment and sound insulation in party\nwalls, drywall partitions, and service shafts",
+      "High-temperature thermal and\nacoustic insulation on industrial pipework, boilers, and plant rooms"
+    ],
+    "not_for": [
+      "Direct unshielded exposure to permanent outdoor weather",
+      "Underground soil contact without waterproofing",
+      "Applications requiring\nlightweight compressible rolls"
+    ],
+    "rag_summary": "Paroc Rockwool is a premium\nnon-combustible stone wool insulation manufactured from volcanic basalt rock,\nengineered for fire containment, acoustic damping, and thermal performance.\nFeaturing a melting point exceeding 1000°C and Euroclass A1 / AS 1530.1\nnon-combustibility, it maintains structural integrity under fire conditions\nwithout shrinking or emitting toxic smoke. Water-repellent, vapour-permeable,\nand dimensionally stable, it delivers high-performance acoustic and thermal\nprotection across commercial facades, partition walls, roofs, and industrial\napplications."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

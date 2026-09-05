@@ -1,0 +1,209 @@
+{
+  "family_id": "DCTECH_TECSOUND",
+  "family_name": "DCTech Tecsound",
+  "datasheet_pdf_url": "https://dctech.com.au/product/tecsound/",
+  "sds_url": "",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Tecsound is a high-density, polymer-based asphalt-free synthetic soundproofing\nmembrane, which is visco-elastic and highly adaptable, providing good acoustic\ninsulation across different construction elements without increasing thickness.\nEngineered for airborne noise insulation in vertical partitions, ceilings,\nroofs, and machinery enclosures, it also dampens rain impact noise on metal\nroofs and impact sound in floating floors. Distributed in Australia by DCTech,\nit is available in standard, self-adhesive (SY), and composite felt (2FT)\nconfigurations.",
+    "features": [
+      "High acoustic insulation without adding\nsignificant thickness",
+      "Visco-elastic damping material reducing structural\nresonance and vibration",
+      "Asphalt-free, non-toxic, and bitumen-free polymer\nformulation",
+      "Self-adhesive backing option (Tecsound SY) for direct application\nto plasterboard and metal",
+      "Rot-proof and high ageing resistance",
+      "Hot and\ncold temperature resistant; flexible down to -20°C",
+      "Self-extinguishing fire\nbehaviour compliant with Euroclass B, s2, d0",
+      "High elongation capacity and\nadaptable to uneven surfaces",
+      "Damping of impact noise produced by atmospheric\nagents on metal roofs",
+      "Ideal for airborne noise reduction in lightweight\npartitions and ceilings"
+    ],
+    "applications": [
+      "wall",
+      "internal wall",
+      "ceiling",
+      "roof",
+      "floor",
+      "pipe",
+      "duct"
+    ],
+    "technical": [
+      {
+        "property": "Surface Mass (Tecsound 50)",
+        "value": "5.0 kg/m²",
+        "standard": ""
+      },
+      {
+        "property": "Surface Mass (Tecsound 70 / SY 70)",
+        "value": "7.0 kg/m²",
+        "standard": ""
+      },
+      {
+        "property": "Surface Mass (Tecsound 100)",
+        "value": "10.0\nkg/m²",
+        "standard": ""
+      },
+      {
+        "property": "Thickness (Tecsound 50)",
+        "value": "2.5\nmm",
+        "standard": ""
+      },
+      {
+        "property": "Thickness (Tecsound 70 / SY 70)",
+        "value": "3.5 mm",
+        "standard": ""
+      },
+      {
+        "property": "Thickness (Tecsound 100)",
+        "value": "5.0 mm",
+        "standard": ""
+      },
+      {
+        "property": "Airborne Sound Insulation (Rw single\nmembrane)",
+        "value": "Tecsound 50: Rw 28 dB; Tecsound 70: Rw 30 dB",
+        "standard": "EN ISO 140-3 / EN ISO 717-1"
+      },
+      {
+        "property": "Tensile Strength",
+        "value": "> 1.5 MPa",
+        "standard": "EN ISO 527-3"
+      },
+      {
+        "property": "Elongation at Break",
+        "value": "> 100%",
+        "standard": "EN ISO 527-3"
+      },
+      {
+        "property": "Cold\nFlexibility",
+        "value": "Does not crack at -20°C",
+        "standard": "EN 1109"
+      },
+      {
+        "property": "Reaction to Fire",
+        "value": "Euroclass B, s2, d0",
+        "standard": "EN 13501-1"
+      },
+      {
+        "property": "Roll Dimensions (Tecsound 50)",
+        "value": "1.22 m\nx 6 m (7.32 m²)",
+        "standard": ""
+      },
+      {
+        "property": "Roll Dimensions (Tecsound 70\n/ SY 70)",
+        "value": "1.22 m x 5 m (6.10 m²)",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Tecsound 50",
+        "size_or_rating": "1.22 m x 6 m x 2.5 mm (5 kg/m²)",
+        "pack": "Roll (7.32 m²)"
+      },
+      {
+        "variant": "Tecsound 70",
+        "size_or_rating": "1.22\nm x 5 m x 3.5 mm (7 kg/m²)",
+        "pack": "Roll (6.10 m²)"
+      },
+      {
+        "variant": "Tecsound\nSY 70 (Self Adhesive)",
+        "size_or_rating": "1.22 m x 5 m x 3.5 mm (7 kg/m²)",
+        "pack": "Roll (6.10 m²)"
+      },
+      {
+        "variant": "Tecsound 2FT",
+        "size_or_rating": "1.20\nm x 5.5 m x 12 mm",
+        "pack": "Roll (6.60 m²)"
+      },
+      {
+        "variant": "Tecsound S Band",
+        "size_or_rating": "50 mm / 70 mm x 20 m",
+        "pack": "Roll"
+      }
+    ],
+    "fire": "Euroclass\nB, s2, d0 to EN 13501-1; Self-extinguishing",
+    "compliance": "ISO 9001,\nISO 14001, EN 140-3, EN ISO 717-1, NCC compliant acoustic barrier component",
+    "sustainability": "Asphalt-free, bitumen-free, non-toxic, recyclable synthetic\npolymers, low VOC",
+    "install": [
+      "Ensure substrate (plasterboard, metal,\nconcrete, or timber) is clean, dry, and dust-free",
+      "For self-adhesive Tecsound\nSY, peel back release liner gradually while pressing membrane onto substrate",
+      "For non-adhesive Tecsound, apply contact adhesive evenly to substrate and\nmembrane",
+      "Apply firm pressure using a roller across the entire membrane to\neliminate trapped air",
+      "Overlap adjacent membrane sheets by 50mm or butt join\nand seal joints with Tecsound S Band tape",
+      "Fasten mechanically with washers or\nstaples where installed overhead on ceilings",
+      "Cover with subsequent layer of\nplasterboard or ceiling lining within manufacturer guidelines"
+    ],
+    "selection_checklist": [
+      "Confirm whether airborne sound (walls/ceilings) or\nimpact/rain noise (floors/roofs) is being addressed",
+      "Select mass requirement\n(Tecsound 50 at 5kg/m² vs Tecsound 70 at 7kg/m²)",
+      "Choose self-adhesive (SY)\nfor fast plasterboard/metal application or standard for adhesive bonding",
+      "Calculate total square metres including 50mm overlaps",
+      "Ensure ceiling or wall\nframing can bear the 5kg/m² to 7kg/m² added dead load"
+    ],
+    "accessories": [
+      "Tecsound S Band (self-adhesive acoustic joint tape)",
+      "Spray/roller contact\nadhesive",
+      "Pressure roller"
+    ],
+    "limitations": [
+      "Must not be left permanently\nexposed to UV sunlight or weather",
+      "Not suitable as a foot traffic wearing\nsurface",
+      "Ceiling applications require mechanical fastening in addition to\nadhesive bonding",
+      "Heavy weight requires adequate structural support and\nmulti-person handling during overhead installation"
+    ],
+    "warranty": "Backed by\nDCTech product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "DCTech Tecsound",
+      "Tecsound SY 70",
+      "Tecsound 50",
+      "Tecsound 70",
+      "visco-elastic acoustic\nmembrane",
+      "mass loaded vinyl alternative",
+      "soundproofing membrane",
+      "aircraft\nnoise barrier",
+      "DCTech soundproofing",
+      "acoustic damping sheet",
+      "Tecsound 2FT",
+      "plasterboard soundproofing membrane"
+    ],
+    "problem_keywords": [
+      "aircraft noise through roof",
+      "noisy party wall",
+      "traffic noise through\nbedroom wall",
+      "rain noise drumming on metal roof",
+      "inter-tenancy noise\ntransfer",
+      "mechanical plant room noise breakout",
+      "home theatre sound leakage"
+    ],
+    "placement": [
+      "wall",
+      "internal wall",
+      "ceiling",
+      "roof",
+      "floor",
+      "duct",
+      "pipe"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Bonding to plasterboard in ceiling assemblies under flight paths to block\naircraft noise",
+      "Laminating between plasterboard sheets on stud partition walls\nto boost speech privacy",
+      "Damping rain noise impact on residential and\ncommercial standing seam metal roofs",
+      "Wrapping noisy waste pipes and\nventilation ducts to eliminate fluid flow noise"
+    ],
+    "not_for": [
+      "Direct exposed\nexternal roof or wall cladding",
+      "Walkable floor surface without subfloor or\noverlay",
+      "High-temperature flue insulation exceeding 70°C"
+    ],
+    "rag_summary": "DCTech Tecsound (Tecsound / Tecsound SY) is a high-density, visco-elastic\nsynthetic soundproofing membrane distributed in Australia by DCTech. Formulated\nfrom asphalt-free polymers at 5.0 kg/m² (Tecsound 50, 2.5mm) and 7.0 kg/m²\n(Tecsound 70 / SY 70, 3.5mm), it provides an Rw of up to 30 dB as a single layer\nwithout adding significant wall or ceiling thickness. Available with a\nself-adhesive backing (SY) or composite felt (2FT), it dampens airborne noise,\naircraft flyover rumble, and metal roof rain drumming across walls, ceilings,\nfloors, and building services. Rated Euroclass B, s2, d0, non-toxic, and\nflexible down to -20°C, it is an advanced acoustic damping membrane for\nhigh-performance building envelopes."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

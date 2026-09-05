@@ -1,11 +1,176 @@
 {
   "family_id": "FLETCHER_SOUNDBREAK",
   "family_name": "Soundbreak Acoustic Insulation",
-  "datasheet_pdf_url": "",
-  "sds_url": "",
-  "status": "gemini_error",
-  "researched_at": "2026-09-05",
-  "spec": null,
+  "datasheet_pdf_url": "https://insulation.com.au/product/soundbreak/",
+  "sds_url": "https://insulation.com.au/wp-content/uploads/2023/12/SUIS-FBS-1-Glasswool-Bio-soluble-Insulation.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Fletcher Soundbreak is a high-density, non-combustible glasswool\nacoustic insulation batt specifically engineered to provide exceptional acoustic\nperformance in residential wall, ceiling, and mid-floor applications. Produced\nin a distinctive green colour for easy site identification as a high-density\nacoustic batt, it effectively reduces external environmental noise and absorbs\nairborne sound transfer between rooms. Manufactured in Australia using FBS-1\nbio-soluble glasswool with up to 80% recycled content, it provides combined\nacoustic dampening and thermal insulation backed by a Consumer Lifetime\nWarranty.",
+    "features": [
+      "High-density acoustic glasswool batt delivering\nexceptional sound dampening",
+      "Distinctive green colour for easy on-site\nidentification",
+      "Non-combustible when tested in accordance with AS 1530.1",
+      "FBS-1 Glasswool Bio-Soluble Insulation: safe to handle and use",
+      "Manufactured\nfrom up to 80% recycled glass content",
+      "Provides excellent thermal insulation\nproperties keeping homes cooler in summer and warmer in winter",
+      "Easy to handle\nand firm to fit ensuring batts remain securely in place without slumping",
+      "CodeMark certified (Certificate of Conformity CM 30006) for NCC compliance",
+      "Meets Australian Standard AS/NZS 4859.1:2018",
+      "Backed by Fletcher Insulation\nConsumer Lifetime Warranty"
+    ],
+    "applications": [
+      "wall",
+      "internal wall",
+      "external wall",
+      "ceiling",
+      "between floors"
+    ],
+    "technical": [
+      {
+        "property": "R-Values & Thicknesses",
+        "value": "R1.7 (60mm), R2.0 (70mm), R2.5 (90mm), R2.7\n(90mm), R3.1 (110mm)",
+        "standard": "AS/NZS 4859.1:2018"
+      },
+      {
+        "property": "Standard Dimensions",
+        "value": "1160 mm length x 430 mm or 580 mm width\n(also 1200 x 600 mm for R2.7)",
+        "standard": ""
+      },
+      {
+        "property": "Coverage per\nPack",
+        "value": "R1.7: 6.9 m² (430mm) / 9.1 m² (580mm); R2.0: 5.6 m² / 7.6 m²;\nR2.5: 4.5 m² / 6.1 m²; R2.7: 4.5 m² / 6.1 m²; R3.1: 3.4 m² / 4.5 m²",
+        "standard": ""
+      },
+      {
+        "property": "Combustibility",
+        "value": "Non-combustible",
+        "standard": "AS 1530.1"
+      },
+      {
+        "property": "Early Fire Hazard Indices",
+        "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Maximum Service Temperature",
+        "value": "340°C",
+        "standard": ""
+      },
+      {
+        "property": "Corrosion Resistance",
+        "value": "Non-corrosive",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Acoustic\nPerformance",
+        "value": "Tested acoustic absorption coefficients across standard\noctave bands (NRC tested)",
+        "standard": "AS ISO 354"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Soundbreak R1.7 (60mm)",
+        "size_or_rating": "60 mm x 1160 mm\nx 430/580 mm",
+        "pack": "Pack of 12 batts (Code: 4010564 / 4010565)"
+      },
+      {
+        "variant": "Soundbreak R2.0 (70mm)",
+        "size_or_rating": "70 mm x 1160 mm\nx 430/580 mm",
+        "pack": "Pack of 10 batts (Code: 4010566 / 4010567)"
+      },
+      {
+        "variant": "Soundbreak R2.5 (90mm)",
+        "size_or_rating": "90 mm x 1160 mm\nx 430/580 mm",
+        "pack": "Pack of 8 batts (Code: 4010568 / 4010569)"
+      },
+      {
+        "variant": "Soundbreak R2.7 (90mm)",
+        "size_or_rating": "90 mm x 1160 mm\nx 430/580 mm",
+        "pack": "Pack of 8 batts (Code: 4010570 / 4010571 / 4010572)"
+      },
+      {
+        "variant": "Soundbreak R3.1 (110mm)",
+        "size_or_rating": "110 mm x 1160 mm\nx 430/580 mm",
+        "pack": "Pack of 6 batts (Code: 4010573 / 4010574)"
+      }
+    ],
+    "fire": "Non-combustible to AS 1530.1; AS/NZS 1530.3 indices: Ignitability 0, Spread of\nFlame 0, Heat Evolved 0, Smoke Developed 0-1; Meets NCC fire hazard\nrequirements",
+    "compliance": "AS/NZS 4859.1:2018, AS 3999, CodeMark Certificate\nCM 30006, NCC 2022 Volume 1 and Volume 2",
+    "sustainability": "Manufactured from\nup to 80% recycled glass; bio-soluble FBS-1 formulation; zero ODP; low VOC",
+    "install": [
+      "Switch off electrical power at the main breaker before working in\nwall or ceiling cavities",
+      "Choose batt width (430mm or 580mm) to match\nstud/joist centres (450mm or 600mm)",
+      "Friction fit batts snugly between timber\nor steel framing members ensuring no gaps or folds",
+      "Do not compress batts into\ncavities narrower than nominal thickness",
+      "Cut batts neatly around electrical\nboxes, wiring, and plumbing using a sharp insulation knife",
+      "For internal walls\nbetween bedrooms, bathrooms, and media rooms, combine with acoustic plasterboard\nfor best results",
+      "Complete lining over insulation promptly after installation"
+    ],
+    "selection_checklist": [
+      "Measure wall stud depth (70mm, 90mm, or 110mm) to\nselect appropriate thickness",
+      "Confirm stud spacing (430mm for 450mm\ncentres; 580mm for 600mm centres)",
+      "Select required R-value / acoustic rating\n(R2.0 for 70mm, R2.5/R2.7 for 90mm, R3.1 for 110mm)",
+      "Check CodeMark\ncertification compliance requirements"
+    ],
+    "accessories": [
+      "Acoustic\nplasterboard",
+      "Resilient mounts",
+      "Insulation knife"
+    ],
+    "limitations": [
+      "Not\nfor unshielded external exposure",
+      "Avoid excessive compression that reduces\nacoustic and thermal ratings",
+      "Maintain required electrical clearances around\nnon-IC rated fixtures"
+    ],
+    "warranty": "Consumer Lifetime Warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Fletcher Soundbreak",
+      "Soundbreak acoustic\ninsulation",
+      "Fletcher green batts",
+      "high density sound batts",
+      "Soundbreak\nR2.0",
+      "Soundbreak R2.5",
+      "Soundbreak R2.7",
+      "Soundbreak R3.1",
+      "pink batts\nsoundbreak",
+      "acoustic wall batts Fletcher"
+    ],
+    "problem_keywords": [
+      "noisy home\ntheatre room",
+      "hearing conversations between bedrooms",
+      "bathroom plumbing\nnoise through walls",
+      "traffic noise through external walls",
+      "footstep noise\nbetween two storey floors",
+      "internal wall noise dampening"
+    ],
+    "placement": [
+      "wall",
+      "internal wall",
+      "external wall",
+      "ceiling",
+      "between floors"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "thermal",
+      "fire",
+      "sustainability"
+    ],
+    "use_cases": [
+      "Internal wall acoustic insulation between bedrooms, home\noffices, and living rooms",
+      "Acoustic isolation around media rooms, home\ntheatres, and laundry areas",
+      "Mid-floor acoustic insulation between ground and\nupper levels in multi-storey residences"
+    ],
+    "not_for": [
+      "Direct underfloor\nexposed to outdoor wind",
+      "Unclad exterior facades",
+      "Commercial HVAC interior\nduct lining"
+    ],
+    "rag_summary": "Fletcher Soundbreak is a high-density,\nnon-combustible glasswool acoustic insulation batt manufactured in Australia by\nFletcher Insulation. Coloured green for rapid on-site identification, it offers\nratings from R1.7 to R3.1 across 60mm to 110mm thicknesses to attenuate airborne\nspeech, entertainment, and street noise. Formulated from FBS-1 bio-soluble\nglasswool with up to 80% recycled content, non-combustible to AS 1530.1, and\nCodeMark certified (CM 30006), Soundbreak delivers lifetime acoustic and thermal\ncomfort in residential walls, ceilings, and mid-floors."
+  },
   "source_excerpt": null,
-  "engine": "gemini"
+  "engine": "ai_studio_batch"
 }

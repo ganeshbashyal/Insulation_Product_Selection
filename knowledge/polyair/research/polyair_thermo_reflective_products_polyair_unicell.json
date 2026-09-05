@@ -1,0 +1,164 @@
+{
+  "family_id": "POLYAIR_THERMO_REFLECTIVE_PRODUCTS_POLYAIR_UNICE",
+  "family_name": "Polyair Thermo Reflective Products - Polyair Unicell",
+  "datasheet_pdf_url": "https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/sheds/polyair-unicell",
+  "sds_url": "",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Bradford Polyair Unicell is an extra heavy duty,\ncommercial-grade thermo-reflective insulation roll engineered for roofs and\nwalls in residential, shed, and warehouse applications. Composed of an inner\nfire-retardant bubble cell core laminated between two external layers of extra\nheavy duty pure aluminum reflective foil, it reflects up to 95% of radiant heat\nin summer and retains warmth in winter. When taped and sealed, it functions as a\nweather barrier that blocks draughts, dust, and moisture while reducing\ncondensation on metal cladding.",
+    "features": [
+      "Extra heavy duty\ncommercial-grade reflective shed and residential insulation roll",
+      "Fire-retardant polyethylene bubble cell core provides rigidity and\nhandleability",
+      "Reflects up to 95% of radiant heat, improving year-round\nthermal comfort",
+      "Effective weather barrier: when taped, blocks rain, dust, and\ndraughts",
+      "Reduces condensation formation on interior metal cladding surfaces",
+      "Extra heavy duty tear and puncture resistance withstands rough site handling",
+      "Low Flammability Index compliant with AS 1530.2",
+      "Lightweight and easy to roll\nout over purlins or studs"
+    ],
+    "applications": [
+      "roof",
+      "roofline",
+      "wall",
+      "external wall",
+      "shed"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "Fire-retardant bubble core laminated between dual extra heavy duty aluminum\nfoil facings",
+        "standard": ""
+      },
+      {
+        "property": "Total Thickness",
+        "value": "4 mm\n(+/- 0.5 mm)",
+        "standard": ""
+      },
+      {
+        "property": "Roll Dimensions",
+        "value": "1350\nmm width x 40 m length (54 m²); 1500 mm width x 25 m length (37.5 m²)",
+        "standard": ""
+      },
+      {
+        "property": "Duty Classification",
+        "value": "Extra Heavy\nDuty",
+        "standard": "AS/NZS 4200.1"
+      },
+      {
+        "property": "Emittance",
+        "value": "0.03\n- 0.05 (reflects up to 95% radiant heat)",
+        "standard": "AS/NZS 4201.5"
+      },
+      {
+        "property": "Water Control",
+        "value": "Water Barrier",
+        "standard": "AS/NZS 4201.4"
+      },
+      {
+        "property": "Vapor Barrier",
+        "value": "Class 1 / Class 2\nVapor Barrier",
+        "standard": "ASTM E96"
+      },
+      {
+        "property": "Flammability Index",
+        "value": "≤ 5 (Low Flammability)",
+        "standard": "AS 1530.2"
+      },
+      {
+        "property": "Product Code",
+        "value": "127418 (1350mm x 40m), 130301 (1500mm x 25m)",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Polyair Unicell 4.0 (1350mm\nx 40m)",
+        "size_or_rating": "4 mm x 1350 mm x 40 m (54 m²)",
+        "pack": "Roll\n(Code: 127418)"
+      },
+      {
+        "variant": "Polyair Unicell 4.0 (1500mm x 25m)",
+        "size_or_rating": "4 mm x 1500 mm x 25 m (37.5 m²)",
+        "pack": "Roll\n(Code: 130301)"
+      },
+      {
+        "variant": "Polyair Unicell White",
+        "size_or_rating": "4 mm\nx 1350 mm x 40 m (54 m²)",
+        "pack": "Roll (Code: 130302)"
+      }
+    ],
+    "fire": "Flammability Index ≤ 5 to AS 1530.2; Suitable for bushfire construction up to\nBAL-40 to AS 3959",
+    "compliance": "AS/NZS 4200.1, AS/NZS 4200.2, AS 1530.2,\nAS 3959, NCC Volume One & Two",
+    "sustainability": "Zero ODP; low VOC emissions;\nnon-toxic fiber-free core",
+    "install": [
+      "Roll out Polyair Unicell over roof\npurlins or wall girts perpendicular to framing",
+      "Allow a nominal 40mm drape\nbetween purlins to create an airspace and manage condensation drainage",
+      "Overlap adjoining runs by minimum 50mm to 100mm",
+      "Tape all laps and perimeter\njoins with 72mm reinforced aluminum foil tape to form a continuous seal",
+      "Fix\nmetal roof or wall sheeting directly through the insulation to purlins",
+      "Ensure\ninsulation drains freely into gutters without ponding"
+    ],
+    "selection_checklist": [
+      "Confirm application is metal shed, warehouse, or residential roof/wall",
+      "Choose roll width (1350mm standard or 1500mm wide)",
+      "Verify requirement for\nreflective air space (minimum 20mm gap required to achieve thermal rating)",
+      "Order matching 72mm reinforced foil tape"
+    ],
+    "accessories": [
+      "Bradford 72mm\nReinforced Aluminum Foil Tape",
+      "Wafer head screws and washers"
+    ],
+    "limitations": [
+      "Requires an adjacent air gap of at least 20mm to achieve rated\nthermal R-values",
+      "Not designed as a primary roof cladding; must be protected\nby roof sheets",
+      "Avoid contact with wet alkaline concrete or mortar"
+    ],
+    "warranty": "Backed by CSR Bradford product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Polyair Unicell",
+      "Bradford Polyair Unicell",
+      "Unicell\nshed insulation",
+      "Unicell 4.0",
+      "bubble core reflective insulation",
+      "thermoreflective shed wrap",
+      "reflective shed insulation roll",
+      "Polyair bubble\nfoil"
+    ],
+    "problem_keywords": [
+      "hot shed in summer",
+      "condensation dripping in\ntin shed",
+      "uninsulated metal shed walls",
+      "radiant heat from metal roof",
+      "shed\ninsulation without internal lining",
+      "dust and draughts in shed"
+    ],
+    "placement": [
+      "roof",
+      "roofline",
+      "wall",
+      "external wall",
+      "shed"
+    ],
+    "priority_fit": [
+      "thermal",
+      "condensation",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Insulating roofs\nand walls of residential and rural steel sheds to reflect radiant heat",
+      "Condensation control under corrugated metal roofing in workshops and garages",
+      "Thermal barrier wrap in commercial metal clad warehouses and outbuildings"
+    ],
+    "not_for": [
+      "Direct underfloor soil contact",
+      "Internal drywall cavity batts\nwithout air space",
+      "High-temperature flue exhaust wrapping"
+    ],
+    "rag_summary": "Bradford Polyair Unicell is an extra heavy duty, commercial-grade\nthermo-reflective insulation roll composed of a fire-retardant bubble cell core\nlaminated between dual layers of pure aluminium foil. Designed for residential\nsheds, garages, and commercial warehouses, it reflects up to 95% of radiant heat\nin summer while reducing condensation on metal surfaces and blocking wind-driven\ndraughts. With an Extra Heavy Duty rating to AS/NZS 4200.1 and a Flammability\nIndex ≤ 5 (BAL-40 suitable), it provides durable, fibre-free thermal control for\nunlined metal buildings."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

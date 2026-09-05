@@ -1,0 +1,178 @@
+{
+  "family_id": "KINGSPAN_K17",
+  "family_name": "Kingspan K17",
+  "datasheet_pdf_url": "https://www.insulation.kingspan.com/au/en/products/rigid-insulation/kooltherm/kooltherm-k17-insulated-plasterboard",
+  "sds_url": "https://www.insulation.kingspan.com/au/en/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Kingspan Kooltherm K17 Insulated Plasterboard is a 3-in-1 internal wall\ndry-lining system combining high-performance rigid thermoset phenolic\ninsulation, a moisture vapor control layer, and a 10mm tapered-edge gypsum\nplasterboard face. Specifically engineered for adhesive dot-and-dab bonding or\nmechanical fixing to concrete walls, masonry blockwork, and existing\nplasterboard partitions, it delivers thermal conductivities as low as 0.021\nW/m·K. It achieves 7-star energy ratings while reducing wall thickness by up\nto 60% compared to traditional bulk insulation and stud assemblies.",
+    "features": [
+      "3-in-1 solution: thermal insulation, vapor control layer, and\ninterior plasterboard lining in one board",
+      "Ultra-thin wall profile increases\nusable interior floor area by up to 60% compared to framed bulk batts",
+      "Exceptional thermal conductivity of 0.021 - 0.023 W/m·K (insulant core)",
+      "CodeMark certified for NCC compliance",
+      "Suitable for direct adhesive bonding\n(dot-and-dab) or mechanical fixing to masonry and concrete",
+      "10mm tapered edge\nplasterboard face allows standard flush jointing and painting",
+      "Group 1-S /\nGroup 1 interior lining fire classification",
+      "Fiber-free closed-cell phenolic\ncore; resistant to moisture and water vapor",
+      "Manufactured in Australia with\nzero ODP blowing agents",
+      "Global GreenTag GreenRate Level A certified with\nverified EPD"
+    ],
+    "applications": [
+      "wall",
+      "internal wall"
+    ],
+    "technical": [
+      {
+        "property": "Thermal Conductivity (Insulant Core)",
+        "value": "0.021 W/m·K\n(thicknesses ≥ 45mm), 0.023 W/m·K (thicknesses 25-44mm)",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Thermal Conductivity (Plasterboard)",
+        "value": "0.17 W/m·K",
+        "standard": ""
+      },
+      {
+        "property": "Overall Product Thicknesses",
+        "value": "35 mm, 40 mm, 50 mm, 60 mm, 70 mm, 80 mm, 90 mm (includes 10mm\nplasterboard)",
+        "standard": ""
+      },
+      {
+        "property": "Declared R-values (Material)",
+        "value": "R1.15 (35mm), R1.35 (40mm), R1.80 (50mm), R2.25 (60mm), R2.70 (70mm),\nR3.15 (80mm), R3.65 (90mm)",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Board\nDimensions",
+        "value": "2400 mm x 1200 mm (2.88 m²)",
+        "standard": ""
+      },
+      {
+        "property": "Plasterboard Specification",
+        "value": "10 mm tapered-edge gypsum\nplasterboard",
+        "standard": "AS/NZS 2588"
+      },
+      {
+        "property": "Compressive Strength\n(Core)",
+        "value": "≥ 100 kPa at 10% deformation",
+        "standard": "AS 2498.3"
+      },
+      {
+        "property": "Fire Hazard Classification",
+        "value": "Group 1-S / Group 1\n(SMOGRArc < 100 m2/s2)",
+        "standard": "AS 5637.1 / AS ISO 9705"
+      },
+      {
+        "property": "Water Vapor Permeance",
+        "value": "Vapor control layer incorporated between\ninsulant and plasterboard",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Kooltherm K17 Insulated Plasterboard 35mm",
+        "size_or_rating": "35 mm x 1200 mm\nx 2400 mm (R1.15)",
+        "pack": "Board"
+      },
+      {
+        "variant": "Kooltherm K17 Insulated\nPlasterboard 50mm",
+        "size_or_rating": "50 mm x 1200 mm x 2400 mm (R1.80)",
+        "pack": "Board"
+      },
+      {
+        "variant": "Kooltherm K17 Insulated Plasterboard 60mm",
+        "size_or_rating": "60 mm x 1200 mm x 2400 mm (R2.25)",
+        "pack": "Board"
+      },
+      {
+        "variant": "Kooltherm K17 Insulated Plasterboard 70mm",
+        "size_or_rating": "70 mm\nx 1200 mm x 2400 mm (R2.70)",
+        "pack": "Board"
+      },
+      {
+        "variant": "Kooltherm K17\nInsulated Plasterboard 80mm",
+        "size_or_rating": "80 mm x 1200 mm x 2400 mm\n(R3.15)",
+        "pack": "Board"
+      },
+      {
+        "variant": "Kooltherm K17 Insulated\nPlasterboard 90mm",
+        "size_or_rating": "90 mm x 1200 mm x 2400 mm (R3.65)",
+        "pack": "Board"
+      }
+    ],
+    "fire": "Group 1-S / Group 1 to AS 5637.1 / AS ISO 9705;\nLow smoke generation (SMOGRArc < 100 m2/s2)",
+    "compliance": "AS/NZS 4859.1:2018,\nAS 5637.1, CodeMark Certified, NCC 2022 Volume 1 and Volume 2",
+    "sustainability": "Manufactured with zero ODP and low GWP; GreenTag GreenRate\nLevel A; EPD verified; low VOC",
+    "install": [
+      "Inspect existing substrate\n(concrete wall, brick, blockwork) ensuring it is dry, clean, sound, and free of\nefflorescence",
+      "Cut boards approximately 15mm short of floor-to-ceiling height\nusing a plasterboard saw",
+      "For adhesive bonding, apply daubs (blobs) of\nplasterboard masonry adhesive (25mm dia) at 300mm centers vertically and\nhorizontally",
+      "Alternatively apply continuous ribbon of adhesive around board\nperimeter and service openings",
+      "Lift board into position using a foot-operated\nboard lifter resting on temporary wedges at floor level",
+      "Press board firmly\nagainst the wall and tap flat with a long straight edge to align true and\nplumb",
+      "Install a minimum of 2 mechanical safety anchors per board into\nsubstrate once adhesive has set",
+      "Tape and finish tapered-edge joints using\nstandard plasterboard jointing compound and paper tape"
+    ],
+    "selection_checklist": [
+      "Confirm wall substrate is masonry, concrete, or\ninternal framing suitable for drylining",
+      "Select required overall thickness\n(e.g. 50mm for R1.80, 70mm for R2.70) to meet target energy rating",
+      "Verify\nwall plumbness and tolerance for adhesive dab thickness (approx. 10-15mm)",
+      "Ensure mechanical safety fixings and plasterboard jointing accessories are\nordered"
+    ],
+    "accessories": [
+      "Plasterboard masonry adhesive",
+      "Mechanical\nexpansion anchors",
+      "Paper joint tape",
+      "Jointing compound"
+    ],
+    "limitations": [
+      "Do not rely on adhesive bonding alone in overhead or ceiling applications\n(mechanical fixing mandatory)",
+      "Do not use directly adjacent to combustion\nsources or uninsulated fireplace flues",
+      "Substrate must be protected from\nexternal water penetration before drylining"
+    ],
+    "warranty": "10-year\nmanufacturing warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Kingspan K17",
+      "Kooltherm K17",
+      "K17 Insulated Plasterboard",
+      "phenolic insulated\nplasterboard",
+      "drylining insulation",
+      "dot and dab insulated plasterboard",
+      "slimline plasterboard insulation",
+      "internal wall insulation K17"
+    ],
+    "problem_keywords": [
+      "cold solid masonry walls",
+      "losing floor space to thick\nwall framing",
+      "condensation on concrete basement walls",
+      "retrofitting\ninsulation without framing",
+      "meeting 7 star rating in apartments"
+    ],
+    "placement": [
+      "wall",
+      "internal wall"
+    ],
+    "priority_fit": [
+      "thermal",
+      "easy_install",
+      "condensation"
+    ],
+    "use_cases": [
+      "Direct adhesive dot-and-dab\ndrylining on concrete walls and masonry blockwork to eliminate timber stud\nframing",
+      "Internal wall thermal retrofits in existing apartments and historic\nsolid-brick buildings where exterior alterations are prohibited",
+      "Slimline\ninternal wall lining to achieve 7-star NatHERS ratings while maximizing usable\nfloor space"
+    ],
+    "not_for": [
+      "Overhead ceiling applications with adhesive only\n(mechanical fixing required)",
+      "Wet areas without waterproofing membrane",
+      "Direct contact with combustion sources or fireplace flues"
+    ],
+    "rag_summary": "Kingspan Kooltherm K17 Insulated Plasterboard is a 3-in-1 internal drylining\nboard combining rigid thermoset phenolic insulation (conductivity 0.021 W/m·K),\nan integrated vapor barrier, and a 10mm tapered-edge plasterboard face. Sized\nat 2400mm x 1200mm in overall thicknesses from 35mm to 90mm (R1.15 to R3.65), it\nbonds directly to masonry, concrete, or framing via adhesive daubs to reduce\nwall depth by up to 60% compared to stud systems. CodeMark certified and Group 1\nfire classified under AS 5637.1, it delivers space-saving thermal comfort and\ncondensation control."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

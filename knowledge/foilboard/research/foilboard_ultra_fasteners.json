@@ -1,0 +1,147 @@
+{
+  "family_id": "FOILBOARD_ULTRA_FASTENERS",
+  "family_name": "Foilboard Ultra Fasteners",
+  "datasheet_pdf_url": "https://www.foilboard.com.au/product-category/accessories/",
+  "sds_url": "https://www.foilboard.com.au/wp-content/uploads/2021/04/Foilboard-Green-Safety-Data-Sheet.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Foilboard Ultra Fasteners are extra-long, heavy-duty mechanical\nfixings equipped with oversized load-spreading washer plates, engineered\nspecifically for installing thick Foilboard panels (40mm and 50mm) to timber\nframing. The extended shank ensures sufficient timber embedment depth through\nthick expanded polystyrene boards, while the enlarged washer prevents fastener\npull-through under high wind loads or ceiling gravity sag. They provide secure,\nnon-compressing mechanical attachment for high-R-value residential walls, raked\nceilings, and underfloor applications.",
+    "features": [
+      "Engineered specifically\nfor thick 40mm and 50mm Foilboard panels",
+      "Extended shank lengths (70mm\nto 100mm) ensure deep structural embedment in timber",
+      "Extra-wide spreader\nplate head eliminates foil tear-through and panel deformation",
+      "Heavy-duty\ngalvanized or coated steel construction provides long-term corrosion\nresistance",
+      "Prevents heavy high-R-value boards from sagging in overhead\nceiling applications",
+      "Simple hammer-in or drive-in installation into timber\nframing studs and joists",
+      "Maintains planar panel alignment across deep wall\nframing and underfloors"
+    ],
+    "applications": [
+      "wall",
+      "external wall",
+      "internal\nwall",
+      "ceiling",
+      "underfloor",
+      "subfloor",
+      "shed"
+    ],
+    "technical": [
+      {
+        "property": "Fastener Type",
+        "value": "Extended galvanized nail or screw with\noversized load-spreading washer plate",
+        "standard": ""
+      },
+      {
+        "property": "Lengths",
+        "value": "70 mm, 80 mm, 90 mm, 100 mm (tailored for 40mm and 50mm\nboards)",
+        "standard": ""
+      },
+      {
+        "property": "Washer Plate Diameter",
+        "value": "40\nmm - 50 mm",
+        "standard": ""
+      },
+      {
+        "property": "Substrate Compatibility",
+        "value": "Timber framing (softwood and hardwood)",
+        "standard": ""
+      },
+      {
+        "property": "Corrosion Protection",
+        "value": "Hot-dip galvanized / zinc coated",
+        "standard": "AS 2331"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Foilboard Ultra Fasteners 75mm",
+        "size_or_rating": "75 mm length (suits 40mm boards)",
+        "pack": "Box of 250"
+      },
+      {
+        "variant": "Foilboard Ultra Fasteners 90mm",
+        "size_or_rating": "90 mm length\n(suits 50mm boards)",
+        "pack": "Box of 250"
+      },
+      {
+        "variant": "Foilboard Ultra\nFasteners 100mm",
+        "size_or_rating": "100 mm length (suits 50mm+ boards)",
+        "pack": "Box of 250"
+      }
+    ],
+    "fire": "Non-combustible steel fastener with\nlow-hazard washer; compliant with NCC fire requirements",
+    "compliance": "AS/NZS 4859.1, AS 3999, NCC Volume One and Two",
+    "sustainability": "100%\nrecyclable steel and polymer components; zero ODP",
+    "install": [
+      "Position 40mm\nor 50mm Foilboard panel firmly against timber framing studs or ceiling joists",
+      "Place Ultra Fastener against the panel surface at specified fixing points",
+      "Drive fastener through the thick board into the timber until the broad washer\nrests flat against the foil",
+      "Do not overdrive to avoid crushing the thick EPS\ncore",
+      "Fix at maximum 600mm centers along perimeter edges and down central\nstuds",
+      "In ceiling applications, support panels while driving fasteners to\nensure tight structural contact",
+      "Tape over all fastener heads with\nFoilboard 72mm reinforced foil tape for airtightness"
+    ],
+    "selection_checklist": [
+      "Confirm board thickness is 40mm or 50mm (for thinner boards use Standard\nFasteners)",
+      "Verify timber embedment depth is at least 25mm into framing",
+      "Calculate fastener quantity (approx. 6-8 fasteners per 2440x1200mm sheet)",
+      "Order matching 72mm reinforced foil tape"
+    ],
+    "accessories": [
+      "Foilboard\nGreen 40mm / 50mm panels",
+      "Foilboard 72mm reinforced foil tape",
+      "Hammer or\ndrill driver"
+    ],
+    "limitations": [
+      "Designed for timber framing; for steel\nframing use Ultra Tek Screws",
+      "Ensure fastener length is sufficient to\npenetrate solid timber behind 50mm boards",
+      "Non-structural; does not replace\nprimary cladding fixings"
+    ],
+    "warranty": "Backed by Foilboard product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Foilboard Ultra Fasteners",
+      "Foilboard 50mm\nfasteners",
+      "Foilboard 40mm fasteners",
+      "long insulation fasteners",
+      "thick\ninsulation board fixings",
+      "Foilboard timber fixings 90mm",
+      "heavy duty\nFoilboard fasteners",
+      "Foilboard Ultra"
+    ],
+    "problem_keywords": [
+      "standard\nfasteners too short for 50mm board",
+      "thick Foilboard falling off ceiling",
+      "50mm insulation sagging between studs",
+      "fastener pull-through on heavy\nboards",
+      "securing thick EPS boards to timber"
+    ],
+    "placement": [
+      "wall",
+      "external wall",
+      "internal wall",
+      "ceiling",
+      "underfloor",
+      "subfloor",
+      "shed"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "thermal"
+    ],
+    "use_cases": [
+      "Securing\nthick 40mm and 50mm Foilboard Green panels to residential timber wall studs",
+      "Fastening high-R-value 50mm panels to raked timber cathedral ceilings",
+      "Installing thick rigid panels in high-performance subfloor timber joist bays"
+    ],
+    "not_for": [
+      "Steel framing (use Ultra Tek Screws)",
+      "Masonry walls (use\nFlexifast)",
+      "Thin 10mm to 15mm boards (use Standard Fasteners)"
+    ],
+    "rag_summary": "Foilboard Ultra Fasteners are extra-long mechanical fixings\nfitted with oversized spreader washers, purpose-designed for securing thick 40mm\nand 50mm Foilboard panels to timber framing. With extended shank lengths\nfrom 75mm to 100mm, they guarantee deep structural embedment in timber studs and\njoists while preventing heavy panels from pulling through or sagging under\ngravity. Engineered for high-R-value wall, ceiling, and underfloor assemblies,\nthey deliver robust, non-deforming mechanical attachment."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

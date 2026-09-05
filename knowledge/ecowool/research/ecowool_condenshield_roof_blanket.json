@@ -1,0 +1,180 @@
+{
+  "family_id": "ECOWOOL_CONDENSHIELD_ROOF_BLANKET",
+  "family_name": "Ecowool Condenshield Roof Blanket",
+  "datasheet_pdf_url": "https://pgfinsulation.com.au/products/condenshield-blanket/",
+  "sds_url": "https://pgfinsulation.com.au/resource-centre/technical-documentation/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Ecowool CondenShield is a lightweight, reflective foil-faced\nglass mineral wool insulation blanket designed for fire safety, thermal\nperformance, condensation control, and acoustic absorption in metal and tile\nroof systems. Manufactured with SensiTouch technology using nearly 80% recycled\nglass and a natural anti-formaldehyde binder, it significantly slows heat\ntransfer into and out of the building while damping outside rain noise. The\nreflective foil facing acts as a barrier against radiant heat and prevents\ncondensation accumulation beneath roof cladding.",
+    "features": [
+      "Lightweight\nglass mineral wool blanket with laminated reflective aluminium foil facing",
+      "Controls condensation beneath residential and commercial metal or tile roofs",
+      "Significant acoustic damping against exterior rain impact noise",
+      "SensiTouch\nTechnology with natural anti-formaldehyde binder",
+      "Non-combustible glass\nmineral wool core tested to AS 1530.1:1994",
+      "Flammability index of foil facing\n≤ 5 compliant with BCA/NCC",
+      "Suitable for sealing ember entry points in\nbushfire zones up to BAL-40",
+      "Manufactured from up to 80% recycled glass with\nbio-soluble fibres",
+      "Chemically inert; non-corrosive to steel, copper, and\naluminium",
+      "Tested to AS/NZS 4859.1:2002 / 2018"
+    ],
+    "applications": [
+      "roof",
+      "roofline",
+      "ceiling",
+      "shed",
+      "underfloor"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "Bio-soluble glass mineral wool bonded with SensiTouch\nbinder, laminated with reflective foil",
+        "standard": ""
+      },
+      {
+        "property": "R-Values & Thicknesses",
+        "value": "R1.3 (60mm, 10kg/m³), R1.8 (80mm, 11kg/m³),\nR2.5 (100mm, 14kg/m³), R3.7 (150mm, 14.5kg/m³)",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Width",
+        "value": "1200 mm",
+        "standard": ""
+      },
+      {
+        "property": "Roll\nLengths",
+        "value": "60mm: 15 m (18 m²); 80mm: 15 m (18 m²); 100mm: 10 m (12\nm²); 150mm: 5 m (6 m²)",
+        "standard": ""
+      },
+      {
+        "property": "Combustibility\n(Core)",
+        "value": "Non-combustible",
+        "standard": "AS 1530.1:1994"
+      },
+      {
+        "property": "Early Fire Hazard Indices",
+        "value": "Ignitability: 0, Spread of\nFlame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+        "standard": "AS 1530.3:1999"
+      },
+      {
+        "property": "Surface Burning Characteristics",
+        "value": "Passes limited\ncombustibility",
+        "standard": "ASTM E84"
+      },
+      {
+        "property": "Thermal Conductivity",
+        "value": "Tested at 23°C mean temperature",
+        "standard": "ASTM C518"
+      },
+      {
+        "property": "Facing Flammability Index",
+        "value": "≤ 5",
+        "standard": "AS 1530.2"
+      },
+      {
+        "property": "Maximum Service Temperature",
+        "value": "350°C (unfaced core)",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "CondenShield Blanket R1.3",
+        "size_or_rating": "60 mm x 1200 mm x 15000 mm (18 m²)",
+        "pack": "Roll"
+      },
+      {
+        "variant": "CondenShield Blanket R1.8",
+        "size_or_rating": "80 mm x 1200 mm\nx 15000 mm (18 m²)",
+        "pack": "Roll"
+      },
+      {
+        "variant": "CondenShield Blanket R2.5",
+        "size_or_rating": "100 mm x 1200 mm x 10000 mm (12 m²)",
+        "pack": "Roll"
+      },
+      {
+        "variant": "CondenShield Blanket R3.7",
+        "size_or_rating": "150 mm x 1200 mm\nx 5000 mm (6 m²)",
+        "pack": "Roll"
+      }
+    ],
+    "fire": "Core non-combustible to\nAS 1530.1:1994; AS 1530.3:1999 indices: Ignitability 0, Spread of Flame 0, Heat\nEvolved 0, Smoke Developed 0-1; Facing Flammability Index ≤ 5 (AS 1530.2);\nSuitable for sealing ember entry points up to BAL-40 under AS 3959",
+    "compliance": "AS/NZS 4859.1, Building Code of Australia (BCA) / NCC, AS 3959",
+    "sustainability": "Manufactured from nearly 80% recycled glass; SensiTouch\nformaldehyde-free binder; Low VOC; Zero ODP; Bio-soluble fibres",
+    "install": [
+      "Roll out CondenShield blanket over roof purlins, rafters, or safety wire mesh\nwith foil facing downward towards the ceiling space",
+      "Ensure adjacent blanket\nrolls are overlapped by minimum 50mm to 100mm",
+      "Tape all foil joints securely\nwith reinforced aluminium foil tape to maintain a continuous vapour barrier",
+      "Allow nominal drape of approximately 40mm between purlins if required for\ncondensation drainage",
+      "Install metal roofing sheets directly over the blanket,\nfixing through to purlins",
+      "Ensure blanket ends extend into the gutter line\nwithout blocking drainage channels"
+    ],
+    "selection_checklist": [
+      "Confirm roof\ntype (metal deck or tile roof)",
+      "Determine target R-value (R1.3, R1.8, R2.5, or\nR3.7) to meet NCC roof energy requirements",
+      "Calculate total roof area\nincluding 50-100mm side overlaps",
+      "Verify foil facing specification (standard\nreflective foil facing with Flammability Index ≤ 5)",
+      "Confirm supply of\nmatching reinforced foil tape for lap sealing"
+    ],
+    "accessories": [
+      "Reinforced\naluminium foil tape",
+      "Roofing safety wire mesh",
+      "Fasteners / tek screws"
+    ],
+    "limitations": [
+      "Must not be left exposed to direct weathering prior to roof\nsheet installation",
+      "Foil joints must be taped continuously to prevent\ncondensation breaching the vapour barrier",
+      "Do not install directly over non-IC\nrated recessed lighting without proper clearances"
+    ],
+    "warranty": "PGF Australia\nproduct warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Ecowool CondenShield",
+      "CondenShield roof blanket",
+      "PGF roof blanket",
+      "foil faced roof blanket",
+      "metal roof insulation blanket",
+      "R1.3 roof blanket",
+      "R1.8 roof blanket",
+      "R2.5\nroof blanket",
+      "condensation blanket metal roof",
+      "tin roof insulation blanket"
+    ],
+    "problem_keywords": [
+      "condensation under metal roof",
+      "dripping tin roof in\nwinter",
+      "rain noise on corrugated iron roof",
+      "hot roof space in summer",
+      "radiant heat radiating down from roof",
+      "meeting NCC roof thermal insulation\nrequirements"
+    ],
+    "placement": [
+      "roof",
+      "roofline",
+      "ceiling",
+      "shed"
+    ],
+    "priority_fit": [
+      "condensation",
+      "thermal",
+      "acoustic",
+      "fire"
+    ],
+    "use_cases": [
+      "Under-metal-deck roof insulation in residential homes to prevent condensation\ndripping and attenuate rain drumming",
+      "Commercial warehouse and industrial shed\nroof thermal and condensation insulation",
+      "Under concrete slab and soffit\nthermal barrier applications"
+    ],
+    "not_for": [
+      "Drywall cavity wall batts",
+      "Exposed wall lining without cladding",
+      "Flooring underlay subject to foot\ntraffic"
+    ],
+    "rag_summary": "Ecowool CondenShield is a lightweight, reflective\nfoil-faced glass mineral wool roofing blanket manufactured by PGF Insulation.\nAvailable in thermal ratings from R1.3 to R3.7 (60mm to 150mm thick) in 1200mm\nwide rolls, it is installed under residential and commercial metal or tile roofs\nto manage condensation, block radiant heat, and dampen rain impact drumming\nnoise. Built with SensiTouch low-VOC bio-soluble glasswool and nearly 80%\nrecycled glass, its non-combustible core (AS 1530.1) and low-flammability foil\nfacing (Index ≤ 5) make it suitable for bushfire zones up to BAL-40."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

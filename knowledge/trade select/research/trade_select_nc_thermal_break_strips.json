@@ -1,0 +1,146 @@
+{
+  "family_id": "TRADE_SELECT_NC_THERMAL_BREAK_STRIPS",
+  "family_name": "Trade Select NC Thermal Break Strips",
+  "datasheet_pdf_url": "https://tradeselect.co/wp-content/uploads/",
+  "sds_url": "https://tradeselect.co/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Trade Select Non-combustible\nThermalBreak Strip (by Ametalin) is a high-performance thermal break solution\nengineered for commercial and residential steel-framed wall and roof\nconstructions. Tested to AS 1530.1 and classified as Not Deemed Combustible, it\ncomplies with NCC Volume One C1.9 / C2D10 and Volume Two Part 3.7.1 / H3D2 for\nall non-combustible building constructions. Built with a dense, chemically\nstable, compression-resistant core, it isolates steel framing from exterior\ncladdings and roofing to eliminate thermal bridging without compromising fire\ncompliance.",
+    "features": [
+      "Classified as Not Deemed Combustible when tested in\naccordance with AS 1530.1",
+      "Delivers in-situ R0.24 thermal break, exceeding the\nNCC R0.20 requirement for steel framing",
+      "Engineered for commercial and\nmulti-residential Type A, B, and C non-combustible steel-frame buildings",
+      "Highly compression-resistant, providing a solid, stable base for cladding\nscrews",
+      "Easily cuts to length on site using a utility knife or shears",
+      "Termite, mould, and mildew resistant",
+      "Non-irritant and odorless with low VOC\nemissions",
+      "Suitable for all Bushfire Attack Levels (BAL Low to BAL-FZ) under\nAS 3959"
+    ],
+    "applications": [
+      "wall",
+      "external wall",
+      "roof",
+      "roofline"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "Non-combustible, chemically\nstable compression-resistant core",
+        "standard": ""
+      },
+      {
+        "property": "Thermal\nBreak (In-Situ)",
+        "value": "R0.24 (exceeds NCC R0.20 mandate)",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Thickness",
+        "value": "10 mm",
+        "standard": ""
+      },
+      {
+        "property": "Width",
+        "value": "45 mm",
+        "standard": ""
+      },
+      {
+        "property": "Length",
+        "value": "1200 mm",
+        "standard": ""
+      },
+      {
+        "property": "Combustibility",
+        "value": "Not Deemed Combustible",
+        "standard": "AS 1530.1"
+      },
+      {
+        "property": "Pack Coverage",
+        "value": "Pack of 50 strips (60 lineal metres)",
+        "standard": ""
+      },
+      {
+        "property": "Compressive Resistance",
+        "value": "High compressive strength\nunder cladding fastener loads",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Trade Select NC ThermalBreak Strip 45mm x 1200mm",
+        "size_or_rating": "10 mm\nx 45 mm x 1200 mm (RT 0.24)",
+        "pack": "Pack of 50 strips (60 lm)"
+      }
+    ],
+    "fire": "Tested to AS 1530.1 and classified as Not Deemed Combustible; Suitable for\nBAL-12.5 to BAL-FZ in accordance with AS 3959",
+    "compliance": "NCC 2019 /\nNCC 2022 Volume One (C1.9, C2D10, J4D3) and Volume Two (Part 3.7.1,\nH3D2, 13.2.2); AS 1530.1; AS/NZS 4859.1",
+    "sustainability": "Zero ODP; low VOC\nemissions; non-hazardous; fiber-free",
+    "install": [
+      "Ensure steel frame studs,\nnoggings, or roof purlins are clean, dry, and free of oil",
+      "Apply wall wrap or\nroof sarking over the steel framing in accordance with AS/NZS 4200.2",
+      "Position\nNon-combustible ThermalBreak Strip continuously along the steel stud or purlin\nface over the wrap",
+      "Fasten cladding or battens directly through the thermal\nbreak strip into the steel framing",
+      "Ensure cladding screws compress the strip\nfirmly without over-tightening to crush the core",
+      "Butt strip ends tightly\ntogether along the length of the steel member"
+    ],
+    "selection_checklist": [
+      "Confirm project requires AS 1530.1 non-combustible thermal break for commercial\nor multi-residential steel framing",
+      "Measure total linear meterage of steel\nframing faces needing thermal break",
+      "Confirm width (45mm) matches stud flange\nwidth",
+      "Select plain version (without adhesive backing) for clamp/friction\napplications"
+    ],
+    "accessories": [
+      "Trade Select VapourTech wall wraps",
+      "Cladding fasteners with extended length"
+    ],
+    "limitations": [
+      "Non-structural\nspacer; cladding fasteners must penetrate into steel frame members",
+      "Must be\ninstalled on the exterior face of steel framing before cladding",
+      "Must not be\nleft exposed to permanent UV weather without cladding"
+    ],
+    "warranty": "15 Year\nProduct Warranty backed by Ametalin"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Trade\nSelect NC Thermal Break Strips",
+      "Non-combustible ThermalBreak Strip",
+      "Ametalin\nNC Thermal Break",
+      "R0.2 non-combustible thermal break",
+      "AS 1530.1 thermal\nbreak",
+      "steel frame thermal break strip",
+      "NCC non-combustible thermal break",
+      "NCTBSTRIP"
+    ],
+    "problem_keywords": [
+      "thermal bridging across commercial steel\nstuds",
+      "failing NCC non-combustible cladding requirements",
+      "flammable foam\nthermal breaks banned on high-rise",
+      "heat loss through steel framing",
+      "meeting\nNCC R0.2 thermal break mandate"
+    ],
+    "placement": [
+      "wall",
+      "external wall",
+      "roof",
+      "roofline"
+    ],
+    "priority_fit": [
+      "fire",
+      "thermal",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Providing an AS 1530.1 non-combustible R0.24 thermal break\nbetween steel wall studs and external cladding in multi-storey Type A and B\ncommercial buildings",
+      "Thermal break isolation on commercial steel roof purlins\nbeneath metal sheeting",
+      "Eliminating thermal bridging on bushfire BAL-FZ\nexternal steel-framed walls"
+    ],
+    "not_for": [
+      "Timber-framed buildings where\nstandard foam thermal break is acceptable",
+      "Direct floor foot traffic\nsurfaces",
+      "Internal drywall acoustic batts"
+    ],
+    "rag_summary": "Trade Select NC\nThermal Break Strips (by Ametalin) are 10mm x 45mm x 1200mm rigid strips\nengineered to provide a certified non-combustible thermal break on steel-framed\nwalls and roofs. Tested to AS 1530.1 and classified as Not Deemed Combustible,\nthey deliver an in-situ rating of R0.24 to comfortably exceed the NCC R0.20\nthermal break mandate without introducing combustible foams into commercial\nfacades. Termite-proof, compression-resistant, and suitable for all bushfire\nlevels up to BAL-FZ, they eliminate steel frame thermal bridging."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

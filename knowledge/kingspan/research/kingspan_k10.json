@@ -1,0 +1,179 @@
+{
+  "family_id": "KINGSPAN_K10",
+  "family_name": "Kingspan K10",
+  "datasheet_pdf_url": "https://www.insulation.kingspan.com/au/en/products/rigid-insulation/kooltherm/kooltherm-k10-g2-soffit-board",
+  "sds_url": "https://www.insulation.kingspan.com/au/en/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Kingspan Kooltherm K10 G2 Soffit Board is a premium performance, fiber-free\nrigid thermoset closed-cell phenolic insulation board designed for concrete\nsoffit ceilings and exposed beam applications. Featuring an innovative composite\nfoil facing that achieves an NCC Group 2 fire classification without requiring\nthermal barriers, it provides high thermal performance with a thermal\nconductivity of as low as 0.021 W/m·K. Manufactured in Australia with zero ODP\nblowing agents, it provides maximum thermal efficiency with minimal ceiling\nthickness in commercial, residential, and institutional carparks and soffits.",
+    "features": [
+      "Rigid thermoset phenolic insulation with thermal conductivity as\nlow as 0.021 W/m·K",
+      "Ultra-thin profile maximizes ceiling height and carpark\nclearance",
+      "Fiber-free closed-cell insulation core; non-deleterious and safe to\nhandle",
+      "Group 2 fire rating compliant with AS 5637.1 / AS ISO 9705 (Group 1\navailable with K10 Plus)",
+      "Certified by CodeMark (Certificate of Conformity)\nfor NCC compliance",
+      "FM Global approval (Class 4880 Class 1) for ceiling and\nsoffit applications",
+      "Available in silver reflective finish (K10 G2) or clean\nwhite aesthetic finish (K10 G2W)",
+      "Unaffected by air movement and resistant to\nthe passage of water vapor",
+      "Manufactured in Australia with zero ODP and low\nGWP blowing agents",
+      "Backed by Kingspan's 10-year project-specific warranty"
+    ],
+    "applications": [
+      "ceiling",
+      "underfloor",
+      "floor",
+      "between floors"
+    ],
+    "technical": [
+      {
+        "property": "Thermal Conductivity (lambda)",
+        "value": "0.021\nW/m·K (thicknesses ≥ 45mm), 0.023 W/m·K (thicknesses 25-44mm)",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Material R-values",
+        "value": "R1.2 (25mm),\nR1.4 (30mm), R1.9 (40mm), R2.4 (50mm), R2.85 (60mm), R3.3 (70mm), R3.8 (80mm),\nR4.3 (90mm), R4.75 (100mm)",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Thickness Options",
+        "value": "25 mm, 30 mm, 40 mm, 50 mm, 60 mm, 70 mm, 80\nmm, 90 mm, 100 mm",
+        "standard": ""
+      },
+      {
+        "property": "Board Dimensions",
+        "value": "2400 mm x 1200 mm (2.88 m²)",
+        "standard": ""
+      },
+      {
+        "property": "Core Density",
+        "value": "Nominal 35 kg/m³ rigid phenolic",
+        "standard": ""
+      },
+      {
+        "property": "Compressive Strength",
+        "value": "≥ 100 kPa at 10% deformation",
+        "standard": "AS 2498.3"
+      },
+      {
+        "property": "Fire Classification (NCC)",
+        "value": "Group 2 (K10\nG2 / K10 G2W), Group 1 (K10 Plus)",
+        "standard": "AS 5637.1 / AS ISO 9705"
+      },
+      {
+        "property": "FM Approval",
+        "value": "Class 4880 Class 1",
+        "standard": "FM\nGlobal"
+      },
+      {
+        "property": "Water Vapor Resistance",
+        "value": "> 100 MN·s/g",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Kooltherm K10 G2 (Silver) 25mm",
+        "size_or_rating": "25 mm x 1200 mm x 2440 mm (R1.2)",
+        "pack": "Board"
+      },
+      {
+        "variant": "Kooltherm K10 G2 (Silver) 50mm",
+        "size_or_rating": "50 mm x 1200 mm\nx 2400 mm (R2.4)",
+        "pack": "Board"
+      },
+      {
+        "variant": "Kooltherm K10 G2\n(Silver) 80mm",
+        "size_or_rating": "80 mm x 1200 mm x 2400 mm (R3.8)",
+        "pack": "Board"
+      },
+      {
+        "variant": "Kooltherm K10 G2W (White) 50mm",
+        "size_or_rating": "50\nmm x 1200 mm x 2400 mm (R2.4)",
+        "pack": "Board"
+      },
+      {
+        "variant": "Kooltherm K10\nPlus (Fibre Cement) 50mm",
+        "size_or_rating": "50 mm x 1200 mm x 2400 mm\n(Group 1)",
+        "pack": "Board"
+      }
+    ],
+    "fire": "Group 2 to AS 5637.1 / AS ISO 9705\n(K10 G2 & K10 G2W); Group 1 to AS 5637.1 (K10 Plus); FM Global Class 4880\nClass 1 approved",
+    "compliance": "AS/NZS 4859.1:2018, AS 5637.1, CodeMark\ncertified, NCC 2022 Section J Volume 1 & Volume 2",
+    "sustainability": "Manufactured with zero ODP and low GWP; GreenTag GreenRate Level A certified;\nEPD verified; low VOC",
+    "install": [
+      "Inspect concrete soffit ensuring surface\nis clean, dry, sound, and free of oil or contaminants",
+      "Mark grid pattern on\nconcrete soffit to ensure aligned joints",
+      "Fix boards with foil facing exposed\nusing proprietary insulation anchors with minimum 35mm diameter washers",
+      "Install a minimum of 5 to 6 mechanical fixings per board (located 100mm from\nedges and across the center)",
+      "Butt board edges tightly together in a staggered\nbrick-bond pattern",
+      "Seal all board joints with Kingspan 48mm or 72mm\nreinforced foil tape to maintain vapor and aesthetic continuity",
+      "Cut boards\nneatly around service penetrations, conduits, and light fittings with a\nfine-toothed saw or knife"
+    ],
+    "selection_checklist": [
+      "Confirm NCC Section J\nTotal R-value requirement for the slab or roof",
+      "Verify fire group rating\nrequirement for the space (Group 2 for K10 G2; Group 1 for K10 Plus)",
+      "Select\nfinish (Silver K10 G2 for standard carparks; White K10 G2W for enhanced light\nreflectance)",
+      "Calculate board count (each 2400x1200mm sheet covers 2.88 m²)",
+      "Specify matching mechanical anchors and 72mm foil tape"
+    ],
+    "accessories": [
+      "Concrete insulation anchors / pins with washer heads",
+      "Kingspan 72mm\nreinforced aluminum tape",
+      "Fine-tooth saw"
+    ],
+    "limitations": [
+      "Must be\nmechanically fixed; adhesive fixing alone is not permitted overhead on concrete\nsoffits",
+      "Not designed for external weather exposure without protective\ncladding",
+      "Operating temperature must not exceed 100°C continuous exposure"
+    ],
+    "warranty": "10-year project-specific warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Kingspan K10",
+      "Kooltherm K10 G2",
+      "K10 Soffit Board",
+      "K10 G2W White",
+      "K10 Plus",
+      "phenolic soffit board",
+      "concrete carpark\ninsulation",
+      "rigid soffit board",
+      "Group 2 soffit board",
+      "Kingspan soffit\ninsulation"
+    ],
+    "problem_keywords": [
+      "cold floors above concrete carpark",
+      "low\nceiling clearance in basement",
+      "carpark soffit heat loss",
+      "meeting NCC Section\nJ soffit requirements",
+      "Group 2 fire compliant ceiling insulation",
+      "flammable\npolystyrene melting on soffits"
+    ],
+    "placement": [
+      "ceiling",
+      "underfloor",
+      "floor",
+      "between floors"
+    ],
+    "priority_fit": [
+      "thermal",
+      "fire",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Exposed thermal insulation beneath concrete carpark soffits\nin commercial and multi-residential buildings",
+      "Thermal lining to suspended\nconcrete floor slabs separating unconditioned basements and apartments",
+      "Direct\nceiling insulation in institutional and health facilities requiring clean white\naesthetics (K10 G2W)"
+    ],
+    "not_for": [
+      "Direct ground contact under footings",
+      "External facades without cladding",
+      "Direct foot traffic flooring"
+    ],
+    "rag_summary": "Kingspan Kooltherm K10 (K10 G2 / K10 G2W / K10 Plus) is an\nAustralian-manufactured rigid thermoset phenolic insulation board engineered for\nconcrete soffits, ceilings, and exposed beams. Featuring an ultra-low thermal\nconductivity of 0.021 W/m·K and thicknesses from 25mm to 100mm (R1.2 to R4.75),\nits slim profile maximizes ceiling clearance while satisfying NCC Section J\nenergy standards. Achieving an NCC Group 2 fire classification (Group 1 with K10\nPlus) and FM Global approval, it delivers non-melting, fiber-free thermal\nperformance backed by a 10-year warranty."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

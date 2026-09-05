@@ -1,0 +1,649 @@
+
+[ { "family_id": "FLETCHER_TAPES_ACCESSORIES", "tds_url":
+"https://insulation.com.au/product/vapastop-883-reinforced-foil-tape/",
+"sds_url":
+"https://insulation.com.au/wp-content/uploads/2023/12/SUIS-Sisalation-Reflective-Foil-Insulation.pdf",
+"description": "Fletcher Membrane Tapes and Thermal Break Accessories comprise
+high-performance sealing tapes and thermal break materials designed to
+complement Fletcher's Sisalation, Vapawrap, and glasswool insulation systems.
+Tapes like Vapastop 883 and VapaSeam are engineered from reinforced aluminum
+foil or technical acrylic polymers to provide durable vapor-tight and air-tight
+seams. Thermal break accessories ensure continuous thermal isolation over steel
+and timber framing members in compliance with NCC energy efficiency
+provisions.", "features": [ "Reinforced aluminum foil backing for high tensile
+strength", "Aggressive cold-weather acrylic and synthetic rubber adhesives",
+"Vapor-tight seal preventing moisture migration across membrane laps", "Airtight
+barrier improving blower-door building tightness", "Tested for low flammability
+to AS 1530.2", "Hand-tearable and easy-release liners for fast jobsite
+installation", "Compatible with Sisalation reflective foils, Vapawrap, and HVAC
+duct wrap", "Resistant to UV degradation and temperature extremes" ],
+"applications": [ "roof", "roofline", "wall", "external wall", "internal wall",
+"duct", "shed" ], "technical": [ { "property": "Tape Widths", "value": "48
+mm, 72 mm, 96 mm", "standard": "" }, { "property": "Roll Lengths", "value": "50
+m", "standard": "" }, { "property": "Flammability Index", "value": "≤ 5 (Low
+Flammability)", "standard": "AS 1530.2" }, { "property": "Adhesive Type",
+"value": "Pressure-sensitive acrylic / synthetic adhesive", "standard": "" }, {
+"property": "Operating Temperature", "value": "-20°C to +80°C", "standard": ""
+}, { "property": "Vapor Transmission", "value": "Vapor Barrier Class 1 / Class 2
+seal", "standard": "ASTM E96" } ], "range": [ { "variant": "Vapastop 883
+Reinforced Foil Tape 48mm", "size_or_rating": "48 mm x 50 m", "pack": "Roll
+(Carton of 24)" }, { "variant": "Vapastop 883 Reinforced Foil Tape 72mm",
+"size_or_rating": "72 mm x 50 m", "pack": "Roll (Carton of 16)" }, { "variant":
+"Sisalation VapaSeam Acrylic Tape 48mm", "size_or_rating": "48 mm x 50 m",
+"pack": "Roll (Carton of 24)" } ], "fire": "Flammability Index ≤ 5 to AS 1530.2;
+Suitable for bushfire construction up to BAL-40 to AS 3959 when used with
+compliant membranes", "compliance": "AS/NZS 4200.2:2017, AS 1530.2, AS 3959, NCC
+Volume One and Two", "sustainability": "Low VOC emissions; zero ozone-depleting
+potential (ODP)", "install": [ "Ensure substrate and membrane surfaces are dry,
+clean, and free from dust, oil, and frost", "Overlap building membrane sheets by
+a minimum of 150mm (or 50mm if fully taped)", "Center tape squarely over the
+overlapping seam or penetration interface", "Press tape firmly down along the
+entire length using a plastic squeegee or roller", "Ensure all air bubbles and
+wrinkles are completely smoothed out", "Do not overstretch tape during
+application to avoid tension wrinkles" ], "selection_checklist": [ "Confirm
+membrane type (use Vapastop 883 for reflective foils; VapaSeam for breathable
+wraps)", "Select width (48mm standard, 72mm for roofs and wide gaps)",
+"Calculate total lineal meters required for laps and penetrations", "Verify
+application temperature exceeds +5°C" ], "accessories": [ "Plastic application
+squeegee", "Utility knife" ], "limitations": [ "Pressure-sensitive adhesive
+requires firm squeegee pressure for permanent bond", "Must not be applied to
+wet, oily, or frozen surfaces", "Not intended for structural load-bearing
+applications" ], "warranty": "Backed by Fletcher Insulation product warranty",
+"found": true, "search_keywords": [ "Vapastop 883", "Fletcher foil tape",
+"Sisalation tape", "VapaSeam tape", "reinforced aluminum foil tape", "membrane
+sealing tape", "sarking tape", "72mm foil tape" ], "problem_keywords": [
+"leaking membrane laps", "air leakage through sarking seams", "vapor barrier
+seal failure", "drafts in roof cavity", "unsealed wall wrap joints" ],
+"placement": [ "roof", "roofline", "wall", "external wall", "internal wall",
+"duct", "shed" ], "priority_fit": [ "condensation", "easy_install", "fire" ],
+"use_cases": [ "Sealing overlaps on Sisalation reflective foil sarking in roof
+and wall cavities", "Joining Permastop building blanket foil laps for
+condensation control", "Sealing HVAC sheet metal duct wrap seams and
+penetrations" ], "not_for": [ "Direct structural mechanical fastening",
+"High-temperature flue exhaust pipes above 120°C", "Subterranean wet tanking
+membranes" ], "rag_summary": "Fletcher Membrane Tapes and Thermal Break
+Accessories provide engineered sealing solutions including Vapastop 883
+reinforced aluminum foil tape and Sisalation VapaSeam tape. Built with high-grab
+pressure-sensitive adhesives and tear-resistant backings, they form airtight and
+vapor-tight seals across building membranes, reflective foils, and duct wrap.
+Rated with a low Flammability Index (≤ 5 to AS 1530.2), they are essential
+components for achieving NCC-compliant energy efficiency, condensation control,
+and air barrier integrity." }, { "family_id": "FLETCHER_SAFE_N_SILENT_LEGACY",
+"tds_url": "", "sds_url": "", "description": "", "features": [], "applications":
+[], "technical": [], "range": [], "fire": "", "compliance": "",
+"sustainability": "", "install": [], "selection_checklist": [], "accessories":
+[], "limitations": [], "warranty": "", "found": false, "search_keywords": [
+"Safe'n'Silent Pro350", "Fletcher Safe n Silent", "rockwool partition batt",
+"mineral wool sound insulation", "stonewool acoustic batt", "acoustic wall
+batt 350", "Fletcher rockwool legacy" ], "problem_keywords": [ "noise between
+party walls", "sound transfer through stud walls", "acoustic privacy in
+apartments", "fire and acoustic cavity insulation", "inter-tenancy wall noise"
+], "placement": [ "wall", "internal wall", "ceiling", "between floors" ],
+"priority_fit": [ "acoustic", "fire", "thermal" ], "use_cases": [ "Legacy
+acoustic friction-fit infill in commercial metal stud walls", "Sound
+transmission dampening in multi-residential party wall cavities", "Acoustic
+floor-to-floor decoupling in timber and concrete intermediate floors" ],
+"not_for": [ "External weather-exposed facades", "Underfloor crawl space ground
+contact", "Exposed decorative wall linings" ], "rag_summary": "Fletcher
+Safe'n'Silent Pro350 represents a legacy high-density stonewool/mineral wool
+acoustic batt line formerly distributed by Fletcher Insulation for commercial
+drywall partitions and party walls. Engineered for high acoustic sound
+transmission loss (Rw) and non-combustible fire protection, it has been
+superseded in Fletcher's contemporary Australian catalog by Soundbreak
+high-density glasswool and Fletcher Protect Stonewool products. It solved
+airborne sound transfer and inter-tenancy noise leakage in commercial and
+multi-residential partition assemblies." }, { "family_id":
+"FLETCHER_FF_HD_LEGACY", "tds_url": "", "sds_url": "", "description": "",
+"features": [], "applications": [], "technical": [], "range": [], "fire": "",
+"compliance": "", "sustainability": "", "install": [], "selection_checklist":
+[], "accessories": [], "limitations": [], "warranty": "", "found": false,
+"search_keywords": [ "Sisalation FF HD", "Sisalation Heavy Duty facing",
+"Fletcher FF HD facing roll", "reflective foil facing roll", "heavy duty foil
+facing", "Sisalation foil laminate", "glasswool foil facing" ],
+"problem_keywords": [ "unfaced glasswool radiant heat loss", "vapor barrier
+facing failure", "condensation under roof insulation", "tearing foil facing on
+insulation batts" ], "placement": [ "roof", "roofline", "wall", "external wall",
+"shed" ], "priority_fit": [ "thermal", "condensation", "fire" ], "use_cases": [
+"Factory or site lamination to glasswool blankets for roof and wall insulation",
+"Heavy-duty vapor barrier facing in industrial metal building applications",
+"Radiant heat reflection over metal purlins and wall framing" ], "not_for": [
+"Standalone bulk thermal insulation", "Direct floor traffic surfaces", "Cold
+climate non-drained cavity walls requiring Class 4 breathable wraps" ],
+"rag_summary": "Fletcher Sisalation FF HD (Foil Facing Heavy Duty) represents a
+legacy industrial reinforced aluminum foil facing laminate formerly manufactured
+by Fletcher Insulation for laminating to bulk glasswool blankets. Featuring high
+tensile fiberglass scrim and kraft reinforcement, it provided heavy-duty tear
+resistance and an impermeable Class 1 vapor barrier reflecting up to 95% of
+radiant heat. Today, this specification is integrated into pre-laminated product
+lines like Permastop Building Blanket Heavy Duty and Sisalation Multipurpose
+EHD." }, { "family_id": "FOILBOARD_ACCESSORY", "tds_url":
+"https://www.foilboard.com.au/product-category/accessories/", "sds_url":
+"https://www.foilboard.com.au/wp-content/uploads/2021/04/Foilboard-Green-Safety-Data-Sheet.pdf",
+"description": "Foilboard Accessories comprise specialized installation hardware
+and sealing components engineered to ensure complete thermal envelope continuity
+and mechanical stability for Foilboard insulation panels. The range includes
+aluminum foil joiner tapes, blanking plates, Floor Saddles, and Flexifast nylon
+fasteners designed specifically to eliminate thermal bridging and maintain
+non-destructive airspaces. These accessories ensure wall, ceiling, and
+underfloor installations achieve rated system R-values and meet Australian
+building compliance.", "features": [ "Engineered specifically for Foilboard
+rigid insulation panel systems", "Eliminates thermal bridging at panel junctions
+and framing fasteners", "Reinforced aluminum foil tape creates continuous vapor
+and air barrier", "Durable, corrosion-resistant polymer and galvanized steel
+components", "Designed for fast installation in residential, commercial, and
+underfloor applications", "Prevents panel sagging and dislocation over the life
+of the building", "Tested for compatibility with EPS core and pure aluminum
+facings" ], "applications": [ "underfloor", "floor", "subfloor", "wall",
+"external wall", "internal wall", "ceiling", "shed" ], "technical": [ {
+"property": "Foil Tape Width", "value": "48 mm / 72 mm", "standard": "" }, {
+"property": "Foil Tape Roll Length", "value": "50 m", "standard": "" }, {
+"property": "Floor Saddle Depths", "value": "100 mm, 130 mm (for 10-25mm
+and 20-50mm boards)", "standard": "" }, { "property": "Flexifast Pin Lengths",
+"value": "45 mm, 70 mm, 95 mm", "standard": "" }, { "property": "Tape
+Flammability", "value": "Low Flammability Index (≤ 5)", "standard": "AS 1530.2"
+} ], "range": [ { "variant": "Foilboard Reinforced Foil Tape 72mm",
+"size_or_rating": "72 mm x 50 m", "pack": "Roll" }, { "variant": "Foilboard
+Reinforced Foil Tape 48mm", "size_or_rating": "48 mm x 50 m", "pack": "Roll" },
+{ "variant": "Foilboard Flexifast Fasteners", "size_or_rating":
+"45mm, 70mm, 95mm", "pack": "Box of 250" }, { "variant": "Foilboard Floor
+Saddles", "size_or_rating": "100mm / 130mm drop", "pack": "Box of 100 / 250" },
+{ "variant": "Foilboard Blank Plates", "size_or_rating": "40 mm x 40 mm",
+"pack": "Box of 250" } ], "fire": "Foil tape tested to AS 1530.2 Flammability
+Index ≤ 5; Components compliant with NCC fire hazard requirements",
+"compliance": "AS/NZS 4859.1, AS 3999, NCC 2022 Volume 1 & 2", "sustainability":
+"100% recyclable components; low VOC; zero ODP", "install": [ "Select
+appropriate accessory based on application (Floor Saddles for subfloor;
+Flexifast for concrete/timber; Tape for joins)", "Position panels with
+required 20mm+ air space to substrate", "Fix panels mechanically using Flexifast
+pins or Floor Saddles at maximum 600mm centers", "Tape all panel butt joins,
+corners, and penetrations with Foilboard 72mm reinforced foil tape", "Firmly
+squeegee tape to ensure permanent pressure-sensitive adhesion and airtight seal"
+], "selection_checklist": [ "Confirm Foilboard panel thickness to match
+fastener/saddle length", "Determine joist spacing (450mm vs 600mm) for saddle
+quantities", "Calculate total linear meters of panel joints for tape
+requirements", "Ensure substrate allows mechanical fixing of Flexifast pins or
+screws" ], "accessories": [ "Foilboard Green insulation panels", "Plastic
+application squeegee" ], "limitations": [ "Tape must be applied to clean, dry,
+and dust-free surfaces", "Do not substitute non-approved duct tapes that degrade
+under heat", "Saddles and fasteners are non-structural; do not support
+mechanical equipment" ], "warranty": "Covered under Foilboard 25-year
+performance warranty system", "found": true, "search_keywords": [ "Foilboard
+accessories", "Foilboard tape", "Foilboard fasteners", "Foilboard clips",
+"Foilboard saddles", "Foilboard Flexifast", "Foilboard joiner tape", "Foilboard
+installation kit" ], "problem_keywords": [ "Foilboard falling down between
+joists", "air leaks at Foilboard seams", "loose insulation panels under floor",
+"thermal bridging through fasteners", "taping Foilboard seams" ], "placement": [
+"underfloor", "floor", "subfloor", "wall", "external wall", "ceiling", "shed" ],
+"priority_fit": [ "easy_install", "thermal", "condensation" ], "use_cases": [
+"Securing Foilboard panels between timber floor joists using Floor Saddles",
+"Sealing panel joins with 72mm reinforced aluminum tape to form a continuous
+vapor barrier", "Direct-pinning Foilboard to masonry or concrete basement walls
+with Flexifast anchors" ], "not_for": [ "Direct structural load bearing",
+"Permanent immersion in water", "High-temperature exhaust flue sealing" ],
+"rag_summary": "Foilboard Accessories include 72mm reinforced aluminum foil
+sealing tape, galvanized Floor Saddles, Flexifast polymer fasteners, and blank
+plates purpose-designed for Foilboard insulation panels. They eliminate thermal
+bridging, maintain designed reflective airspaces, and mechanically anchor panels
+across underfloor joists, concrete slabs, and framed walls. Tested for thermal
+and fire compliance, they ensure Foilboard installations achieve their rated
+Total R-value and maintain long-term structural resilience." }, { "family_id":
+"FOILBOARD_BLANK_PLATES", "tds_url":
+"https://www.foilboard.com.au/product-category/accessories/", "sds_url":
+"https://www.foilboard.com.au/wp-content/uploads/2021/04/Foilboard-Green-Safety-Data-Sheet.pdf",
+"description": "Foilboard Blank Plates are lightweight, rigid spreading washers
+designed to distribute screw and fastener loads over Foilboard rigid insulation
+boards without crushing the expanded polystyrene (EPS) core. Manufactured from
+high-impact polymer or sheet metal, they feature pre-punched center holes that
+accommodate standard wood screws, self-drilling metal tek screws, or masonry
+anchors. By creating a broad clamping surface, they prevent fastener heads from
+pulling through the aluminum foil facing during wind load or structural
+vibration.", "features": [ "Distributes fastening pressure over a broad surface
+area to prevent panel crushing", "Stops screw heads from tearing through the
+outer aluminum foil laminate", "Pre-punched center hole to fit standard screws,
+nails, and anchors", "Constructed from durable, corrosion-resistant, high-impact
+polymer or metal", "Lightweight, rigid, and fast to position during
+installation", "Compatible with all Foilboard panel thicknesses from 10mm
+to 50mm", "Ideal for walls, ceilings, and underfloor applications" ],
+"applications": [ "wall", "external wall", "internal wall", "ceiling",
+"underfloor", "subfloor", "shed" ], "technical": [ { "property": "Plate
+Dimensions", "value": "40 mm x 40 mm (or 50 mm diameter)", "standard": "" }, {
+"property": "Center Hole Diameter", "value": "5 mm (suits 8G-10G screws)",
+"standard": "" }, { "property": "Material", "value": "High-impact rigid polymer
+/ galvanized steel", "standard": "" }, { "property": "Corrosion Resistance",
+"value": "Corrosion resistant", "standard": "" } ], "range": [ { "variant":
+"Foilboard Blank Plates", "size_or_rating": "40 mm x 40 mm / 50 mm", "pack":
+"Box of 250 pieces" } ], "fire": "Non-combustible metal or low-hazard polymer;
+compatible with NCC fire compliance systems", "compliance": "AS/NZS 4859.1,
+AS 3999, NCC Volume One and Two", "sustainability": "100% recyclable; inert;
+zero ODP", "install": [ "Position Foilboard panel in place against framing or
+masonry substrate", "Insert screw, nail, or anchor through the center hole of
+the Foilboard Blank Plate", "Drive fastener through the Foilboard panel into
+timber, steel, or masonry framing", "Tighten until the Blank Plate rests snug
+and flat against the aluminum foil facing", "Do not over-torque to avoid
+compressing the underlying EPS core", "Place Blank Plates at recommended spacing
+(typically 600mm centers along edges and center)", "Cover plate and fastener
+head with Foilboard 72mm reinforced foil tape if an airtight vapor seal is
+required" ], "selection_checklist": [ "Confirm fastener screw length
+accommodates panel thickness plus substrate embedment", "Calculate quantity
+needed based on approx. 6-8 plates per 2440x1200mm board", "Choose polymer or
+galvanized plate based on substrate and environmental exposure", "Order
+matching 72mm foil tape to seal over screw heads" ], "accessories": [ "Foilboard
+Green panels", "Foilboard 72mm reinforced foil tape", "Tek screws / timber
+screws" ], "limitations": [ "Do not over-tighten fasteners as excessive torque
+will deform the panel core", "Blank Plates do not provide thermal break values
+on their own", "Not designed to support heavy structural cladding loads
+independently" ], "warranty": "Backed by Foilboard product warranty", "found":
+true, "search_keywords": [ "Foilboard Blank Plates", "Foilboard washers",
+"insulation fixing plates", "Foilboard spreader plates", "insulation screw
+washers", "Foilboard fixing washers", "Foilboard plates 250" ],
+"problem_keywords": [ "screws pulling through Foilboard", "crushing Foilboard
+panels with screws", "loose Foilboard on wall studs", "fastener tear-through on
+insulation boards", "fixing Foilboard to steel studs" ], "placement": [ "wall",
+"external wall", "internal wall", "ceiling", "underfloor", "subfloor", "shed" ],
+"priority_fit": [ "easy_install", "thermal" ], "use_cases": [ "Securing
+Foilboard panels to timber or steel wall studs without crushing the EPS core",
+"Fixing Foilboard sheets to garage ceilings or shed framing using tek screws",
+"Spreading mechanical clamping force when fastening Foilboard to masonry walls"
+], "not_for": [ "Structural cladding anchoring", "Direct floor foot traffic
+surfaces", "High-temperature exhaust applications" ], "rag_summary": "Foilboard
+Blank Plates are rigid 40mm x 40mm spreader plates engineered to distribute
+fastening loads when securing Foilboard insulation boards to timber, steel, or
+masonry framing. Pre-punched to accept standard construction screws and nails,
+they prevent fasteners from crushing the EPS core or tearing through the
+reflective aluminum facing. They ensure solid mechanical fixing across wall,
+ceiling, and underfloor applications without compromising panel integrity." }, {
+"family_id": "FOILBOARD_BOARD", "tds_url":
+"https://www.foilboard.com.au/product/foilboard-green/", "sds_url":
+"https://www.foilboard.com.au/wp-content/uploads/2021/04/Foilboard-Green-Safety-Data-Sheet.pdf",
+"description": "Foilboard Green is a rigid, Australian-manufactured insulation
+panel constructed from a fire-retardant expanded polystyrene (EPS) core
+laminated on both sides with pure aluminum foil facings. Engineered for use in
+roofs, external and internal walls, retrofits, and suspended underfloor
+applications, it provides a 3-in-1 thermal insulation, thermal break, and
+moisture barrier. Available in ratings from R1.6 to R4.0 across 10mm to 50mm
+thicknesses, it achieves high Total R-values when paired with adjacent
+reflective airspaces.", "features": [ "3-in-1 insulation, thermal break, and
+moisture barrier in a single rigid panel", "Fire-retardant expanded polystyrene
+(EPS) core with pure aluminum foil facings", "Pure aluminum reflective facings
+reflect up to 97% of radiant heat", "Achieves system Total R-values up to R4.0+
+in conjunction with adjacent airspaces", "Zero harmful fibers; non-allergenic
+and non-carcinogenic with no itch", "Extremely lightweight, rigid, and fast to
+cut and install on site", "Impermeable to moisture and will not sag, rot, or
+deteriorate over time", "Anti-glare coating on one face for safe installation in
+bright sunlight", "Group 1 fire hazard rating compliant with AS 5637.1 / AS
+ISO 9705 for ceilings/walls", "Backed by an Australian 25-year performance
+warranty" ], "applications": [ "wall", "external wall", "internal wall",
+"ceiling", "roof", "roofline", "underfloor", "floor", "subfloor", "shed" ],
+"technical": [ { "property": "Material", "value": "Fire-retardant expanded
+polystyrene (EPS) core laminated with pure aluminum foil facings", "standard":
+"" }, { "property": "Material R-values", "value": "10mm (R0.3), 15mm
+(R0.4), 20mm (R0.5), 25mm (R0.7), 40mm (R1.1), 50mm (R1.3)", "standard": "ASTM
+C518" }, { "property": "Typical Total System R-values", "value": "R1.6 to R4.0+
+(depending on airspace and installation application)", "standard":
+"AS/NZS 4859.1" }, { "property": "Thickness Options", "value": "10 mm, 15 mm, 20
+mm, 25 mm, 40 mm, 50 mm", "standard": "" }, { "property": "Sheet Dimensions",
+"value": "2440 mm x 1200 mm (standard); 2700 mm x 1200 mm; 3000 mm x 1200 mm",
+"standard": "" }, { "property": "Emittance (Reflective Face)", "value": "0.03
+(97% heat reflection)", "standard": "AS/NZS 4201.5" }, { "property": "Emittance
+(Anti-Glare Face)", "value": "0.05", "standard": "AS/NZS 4201.5" }, {
+"property": "Water Vapor Permeance", "value": "< 0.002 µg/N·s (impermeable vapor
+barrier)", "standard": "ASTM E96" }, { "property": "Compressive Strength",
+"value": "Class SL / S EPS core", "standard": "AS 1366.3" }, { "property": "Fire
+Hazard Classification", "value": "Group 1 / Group 2", "standard": "AS 5637.1 /
+AS ISO 9705" } ], "range": [ { "variant": "Foilboard Green 10mm (Standard 15)",
+"size_or_rating": "10 mm x 1200 mm x 2440 mm (Material R0.3 / Total R1.6)",
+"pack": "Sheet" }, { "variant": "Foilboard Green 15mm (Standard 20)",
+"size_or_rating": "15 mm x 1200 mm x 2440 mm (Material R0.4 / Total R2.1)",
+"pack": "Sheet" }, { "variant": "Foilboard Green 20mm (Standard 25)",
+"size_or_rating": "20 mm x 1200 mm x 2440 mm (Material R0.5 / Total R2.6)",
+"pack": "Sheet" }, { "variant": "Foilboard Green 25mm (Plus 30)",
+"size_or_rating": "25 mm x 1200 mm x 2440 mm (Material R0.7 / Total R3.0)",
+"pack": "Sheet" }, { "variant": "Foilboard Green 40mm (Super 40)",
+"size_or_rating": "40 mm x 1200 mm x 2440 mm (Material R1.1 / Total R3.4)",
+"pack": "Sheet" }, { "variant": "Foilboard Green 50mm (Max 50)",
+"size_or_rating": "50 mm x 1200 mm x 2440 mm (Material R1.3 / Total R4.0)",
+"pack": "Sheet" } ], "fire": "Group 1 / Group 2 to AS 5637.1 / AS ISO 9705;
+AS 1530.3: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke
+Developed 0-1; Suitable up to BAL-40 to AS 3959", "compliance": "AS/NZS 4859.1,
+AS 5637.1, AS 3959, CodeMark certified, NCC 2022 Volume 1 & 2 compliant",
+"sustainability": "100% ozone-safe EPS core; zero CFC/HCFC; low VOC; recyclable;
+fiber-free", "install": [ "Ensure structural framing or substrate is level,
+clean, and dry", "Measure and cut panels using a sharp utility knife or hand
+saw", "Install panels with a minimum 20mm air space adjacent to reflective foil
+faces to generate full thermal R-value", "For walls, fix horizontally or
+vertically across timber/steel framing with mechanical fasteners and blank
+plates", "For underfloor, install between joists supported on Foilboard Floor
+Saddles", "Butt sheet joints tightly and tape with Foilboard 72mm reinforced
+aluminum tape", "Seal all edges around windows, doors, and service penetrations
+to maintain airtightness", "Ensure anti-glare green face faces the installer
+during roof and sunny external installations" ], "selection_checklist": [
+"Determine required Total R-value (R1.6 to R4.0) to meet NCC or NatHERS
+targets", "Select board thickness (10mm to 50mm) based on available cavity
+depth", "Choose sheet dimensions (2440x1200mm, 2700x1200mm, or 3000x1200mm)",
+"Verify minimum 20mm reflective air space can be maintained in the assembly",
+"Order matching installation accessories (Floor Saddles, Flexifast, 72mm tape)"
+], "accessories": [ "Foilboard 72mm Reinforced Aluminum Foil Tape", "Foilboard
+Floor Saddles", "Foilboard Flexifast Fasteners", "Foilboard Blank Plates" ],
+"limitations": [ "Requires a sealed air space of at least 20mm adjacent to foil
+face to deliver rated Total R-value", "Avoid contact with organic solvents,
+petroleum fuels, and solvent-based adhesives which dissolve EPS", "Do not leave
+permanently exposed to direct outdoor UV weather without cladding", "Maximum
+continuous service temperature is 80°C" ], "warranty": "25 Year Performance
+Warranty", "found": true, "search_keywords": [ "Foilboard", "Foilboard Green",
+"Foilboard insulation", "rigid foil board", "Foilboard 25mm", "Foilboard 15mm",
+"Foilboard 20mm", "EPS foil board", "underfloor rigid insulation", "Foilboard
+R2.6", "Foilboard R3.0" ], "problem_keywords": [ "cold drafty floorboards",
+"winter heat loss through timber floors", "thermal bridging on steel studs",
+"sweating shed walls and roof", "hot garage ceiling in summer", "uninsulated
+brick veneer walls" ], "placement": [ "wall", "external wall", "internal wall",
+"ceiling", "roof", "roofline", "underfloor", "floor", "subfloor", "shed" ],
+"priority_fit": [ "thermal", "condensation", "easy_install", "fire" ],
+"use_cases": [ "Underfloor insulation between joists in suspended timber floor
+homes to eliminate draughts and cold floors", "Continuous external wall thermal
+break and insulation behind brick veneer or lightweight cladding", "Lining
+internal walls and ceilings of domestic garages, workshops, and metal sheds",
+"Insulating cathedral and raked ceilings where cavity depth is restricted" ],
+"not_for": [ "Continuous water immersion or subterranean hydrostatic tanking",
+"Direct foot traffic without floorboards or overlay", "Exhaust flue wrapping
+above 80°C" ], "rag_summary": "Foilboard Green is a rigid Australian-made
+insulation board composed of a fire-retardant EPS core laminated with pure
+aluminum foil facings on both sides. Available in thicknesses from 10mm to 50mm
+(Total R-values from R1.6 to R4.0+ when paired with airspaces), it acts as a
+combined thermal insulator, thermal break, and vapor barrier across walls,
+roofs, sheds, and suspended timber floors. Fiber-free, moisture-impermeable,
+non-allergenic, and tested to Group 1 fire standards, it delivers lifetime
+thermal efficiency backed by a 25-year performance warranty." }, { "family_id":
+"FOILBOARD_DIY_FAST_TRADE_PACK", "tds_url":
+"https://www.foilboard.com.au/product/foilboard-handypack/", "sds_url":
+"https://www.foilboard.com.au/wp-content/uploads/2021/04/Foilboard-Green-Safety-Data-Sheet.pdf",
+"description": "Foilboard DIY / Fast Trade Pack (Foilboard Handypack) is a
+convenient, compact-format pack of rigid Foilboard Green insulation sheets
+designed for smaller residential projects, shed retrofits, and tight-access
+installations. Each pack contains pre-cut sheets that fit easily inside standard
+vehicles, allowing DIYers and trades to transport and handle panels without a
+commercial truck. Fabricated from the same fire-retardant EPS core with pure
+aluminum foil facings, it delivers superior radiant heat reflection and thermal
+barrier performance.", "features": [ "Compact pack format designed to fit easily
+into passenger vehicles, vans, and utes", "Pre-cut sheet sizes for effortless
+handling through tight doorways and crawl spaces", "Manufactured with
+fire-retardant EPS core and pure aluminum reflective facings", "Delivers
+true 3-in-1 thermal insulation, thermal break, and vapor barrier", "Zero itchy
+fibers; completely safe to handle without protective clothing", "Waterproof and
+moisture resistant, will not rot or grow mold", "Cuts cleanly with a utility
+knife with zero toxic dust", "Backed by Foilboard's 25-year performance
+warranty" ], "applications": [ "underfloor", "floor", "subfloor", "wall",
+"external wall", "shed", "ceiling" ], "technical": [ { "property": "Material",
+"value": "Fire-retardant EPS core with dual pure aluminum reflective facings",
+"standard": "" }, { "property": "Thickness Options", "value": "15 mm, 20 mm, 25
+mm", "standard": "" }, { "property": "Sheet Dimensions", "value": "1200 mm x 600
+mm or 1200 mm x 800 mm", "standard": "" }, { "property": "Emittance (Reflective
+Face)", "value": "0.03 (97% heat reflection)", "standard": "AS/NZS 4201.5" }, {
+"property": "Combustibility", "value": "Fire-retardant EPS core; Group 1 /
+Group 2", "standard": "AS 5637.1" } ], "range": [ { "variant": "Foilboard
+Handypack 15mm", "size_or_rating": "15 mm x 600 mm x 1200 mm", "pack": "Pack
+of 10 sheets (7.2 m²)" }, { "variant": "Foilboard Handypack 20mm",
+"size_or_rating": "20 mm x 600 mm x 1200 mm", "pack": "Pack of 8 sheets (5.76
+m²)" }, { "variant": "Foilboard Handypack 25mm", "size_or_rating": "25 mm x 600
+mm x 1200 mm", "pack": "Pack of 6 sheets (4.32 m²)" } ], "fire": "Fire retardant
+EPS core; Flammability Index ≤ 5 to AS 1530.2; Group 1/2 to AS 5637.1",
+"compliance": "AS/NZS 4859.1, AS 3999, NCC Volume One and Two",
+"sustainability": "100% recyclable; low VOC; zero ODP; fiber-free", "install": [
+"Unpack pre-cut sheets and transport to work area", "Measure gap between floor
+joists, wall studs, or shed framing", "Trim panels to width allowing for a snug
+friction-fit or saddle support", "Fit into cavity maintaining a minimum 20mm air
+space adjacent to reflective foil", "Secure with Foilboard Floor Saddles
+(underfloor) or screws with Blank Plates (walls)", "Tape all adjoining sheet
+seams with Foilboard 72mm reinforced foil tape" ], "selection_checklist": [
+"Measure total project square meterage to determine number of packs", "Confirm
+panel thickness (15mm, 20mm, or 25mm) for required thermal rating", "Verify
+pre-cut dimensions (600x1200mm) suit vehicle transport and project layout",
+"Order sufficient 72mm foil tape and fasteners" ], "accessories": [
+"Foilboard 72mm Reinforced Aluminum Foil Tape", "Foilboard Floor Saddles",
+"Foilboard Blank Plates" ], "limitations": [ "Requires an adjacent sealed air
+space of at least 20mm to achieve rated Total R-value", "Do not use in direct
+contact with organic solvents or petroleum products", "Keep away from continuous
+heat sources above 80°C" ], "warranty": "25 Year Performance Warranty", "found":
+true, "search_keywords": [ "Foilboard Handypack", "Foilboard DIY pack",
+"Foilboard trade pack", "Foilboard small pack", "car boot insulation pack",
+"Foilboard 1200x600", "small job underfloor insulation", "shed insulation
+handypack" ], "problem_keywords": [ "cannot transport 2.4m sheets in car",
+"small shed DIY insulation", "tight subfloor crawlspace access", "insulating
+small bedroom floor", "garage workbench insulation project" ], "placement": [
+"underfloor", "floor", "subfloor", "wall", "external wall", "shed", "ceiling" ],
+"priority_fit": [ "easy_install", "thermal", "budget" ], "use_cases": [
+"Insulating small subfloor areas and extensions with tight crawlspace access",
+"Lining hobby sheds and workshop walls without hiring commercial transport",
+"Quick DIY thermal upgrades behind washing machines and kitchen joinery" ],
+"not_for": [ "Commercial large-scale high-rise cladding", "Permanent direct
+weather exposure", "Direct foot traffic without subfloor" ], "rag_summary":
+"Foilboard DIY / Fast Trade Pack (Foilboard Handypack) is a modular, pre-cut
+pack of Foilboard Green rigid insulation sheets (1200mm x 600mm) sized
+specifically for car boot transport and tight jobsite access. Featuring the same
+fire-retardant EPS core with dual pure aluminum reflective facings as full-sized
+boards, it provides an itch-free, moisture-proof thermal and vapor barrier for
+smaller renovations, subfloors, and sheds. Available in 15mm, 20mm, and 25mm
+thicknesses, it delivers premium thermal performance backed by a 25-year
+warranty." }, { "family_id": "FOILBOARD_FLEXIFAST_FASTENERS", "tds_url":
+"https://www.foilboard.com.au/product-category/accessories/", "sds_url":
+"https://www.foilboard.com.au/wp-content/uploads/2021/04/Foilboard-Green-Safety-Data-Sheet.pdf",
+"description": "Foilboard Flexifast Fasteners are specialized one-piece nylon
+anchor fasteners engineered to secure Foilboard rigid insulation panels directly
+to masonry, brickwork, concrete tilt-up slabs, and timber substrates. Featuring
+a large, flexible clamping head integrated with an expanding ribbed shank,
+Flexifast anchors eliminate thermal bridging while firmly holding panels without
+tearing through the aluminum foil facing. They provide an efficient, hammer-in
+or push-in fixing solution for residential basement walls, commercial carpark
+soffits, and precast facades.", "features": [ "One-piece non-conductive nylon
+construction eliminates thermal bridging", "Broad flexible head clamps panels
+firmly without puncturing the aluminum facing", "Expanding barbed anchor shank
+locks tightly into pre-drilled masonry or concrete", "Durable, UV-stabilized,
+and non-corrosive in damp environments", "Fast push-in or hammer-in installation
+into 8mm pre-drilled holes", "Available in multiple lengths (45mm, 70mm, 95mm)
+to suit 10mm to 50mm panels", "High pull-out resistance to withstand wind
+suction and panel weight", "Ideal for precast concrete, brick, blockwork, and
+timber" ], "applications": [ "wall", "external wall", "internal wall",
+"ceiling", "underfloor", "subfloor" ], "technical": [ { "property": "Material",
+"value": "High-grade UV-stabilized engineered nylon / polypropylene",
+"standard": "" }, { "property": "Head Diameter", "value": "35 mm - 45 mm wide
+clamping washer head", "standard": "" }, { "property": "Anchor Lengths",
+"value": "45 mm (for 10-15mm board), 70 mm (for 20-25mm board), 95 mm
+(for 40-50mm board)", "standard": "" }, { "property": "Drill Hole Diameter",
+"value": "8 mm masonry drill bit", "standard": "" }, { "property": "Thermal
+Bridging", "value": "Zero thermal bridging (non-metallic)", "standard": "" } ],
+"range": [ { "variant": "Flexifast 45mm", "size_or_rating": "45 mm length
+(suits 10-15mm boards)", "pack": "Box of 250" }, { "variant": "Flexifast 70mm",
+"size_or_rating": "70 mm length (suits 20-25mm boards)", "pack": "Box of 250" },
+{ "variant": "Flexifast 95mm", "size_or_rating": "95 mm length (suits 40-50mm
+boards)", "pack": "Box of 250" } ], "fire": "Non-contributing polymer anchor;
+compatible with NCC fire compliance systems", "compliance": "AS/NZS 4859.1,
+AS 3999, NCC Volume One and Two", "sustainability": "100% recyclable nylon; zero
+ODP; non-toxic", "install": [ "Position Foilboard panel flat against masonry,
+concrete, or timber substrate", "Drill an 8mm hole through the Foilboard panel
+into the masonry substrate to minimum 35mm depth", "Insert the Flexifast
+fastener through the panel into the drilled hole", "Tap gently with a hammer or
+press firmly until the broad head seats flush against the foil", "Ensure anchor
+head clamps the panel firmly without over-driving into the EPS core", "Space
+fasteners at 600mm centers around the perimeter and across the board face",
+"Tape over fastener heads with Foilboard 72mm reinforced foil tape if an
+airtight vapor seal is required" ], "selection_checklist": [ "Measure Foilboard
+board thickness to select correct anchor length (45mm, 70mm, or 95mm)", "Confirm
+masonry drill bit size is 8mm", "Calculate quantity needed based on approx. 6-8
+fasteners per 2440x1200mm board", "Verify substrate is concrete, brick,
+blockwork, or dense timber" ], "accessories": [ "8mm masonry drill bit",
+"Foilboard Green panels", "Foilboard 72mm reinforced foil tape" ],
+"limitations": [ "Requires pre-drilling into concrete and masonry", "Not
+designed for hollow plasterboard or soft substrates without structural backing",
+"Non-structural; cannot support secondary heavy cladding hung from the fastener"
+], "warranty": "Backed by Foilboard product warranty", "found": true,
+"search_keywords": [ "Foilboard Flexifast", "Flexifast fasteners", "Foilboard
+concrete anchors", "nylon insulation anchors", "masonry insulation fixings",
+"Foilboard masonry pins", "8mm insulation anchors", "Flexifast 70mm" ],
+"problem_keywords": [ "fixing Foilboard to concrete wall", "installing
+insulation to masonry basement", "metal screws conducting cold through
+insulation", "insulation fasteners tearing foil", "thermal bridging on masonry
+walls" ], "placement": [ "wall", "external wall", "internal wall", "ceiling",
+"underfloor", "subfloor" ], "priority_fit": [ "easy_install", "thermal" ],
+"use_cases": [ "Direct-fixing Foilboard panels to precast concrete basement
+walls and car park soffits", "Securing rigid insulation to masonry blockwork in
+cavity wall construction", "Thermal break insulation installation over concrete
+tilt-up industrial panels" ], "not_for": [ "Structural exterior cladding
+brackets", "Suspended floor joist cradling (use Floor Saddles)", "High-velocity
+exhaust flue attachments" ], "rag_summary": "Foilboard Flexifast Fasteners are
+one-piece non-conductive nylon anchors engineered to secure Foilboard panels
+directly to masonry, concrete, and timber substrates. Featuring a 35-45mm wide
+flexible washer head and an 8mm barbed expanding anchor shank, they clamp panels
+tightly without puncturing the aluminum facing or creating thermal bridging.
+Available in 45mm, 70mm, and 95mm lengths to suit 10mm to 50mm boards, they
+provide rapid, hammer-in fixing for basement walls, carpark soffits, and precast
+concrete panels." }, { "family_id": "FOILBOARD_FLOOR_SADDLES", "tds_url":
+"https://www.foilboard.com.au/product/floor-saddles/", "sds_url":
+"https://www.foilboard.com.au/wp-content/uploads/2021/04/Foilboard-Green-Safety-Data-Sheet.pdf",
+"description": "Foilboard Floor Saddles are specialized galvanized steel support
+brackets engineered specifically for installing Foilboard rigid insulation
+boards between timber floor joists. Designed with pre-set drops, they
+automatically create and maintain the required 20mm+ still reflective airspace
+between the insulation panel and the underside of floorboards. Suitable for new
+suspended floor construction or retrofits from above, they hold Foilboard panels
+securely in place without compression, preventing sagging over the life of the
+building.", "features": [ "Engineered specifically for suspending Foilboard
+panels between timber floor joists", "Pre-set drop automatically establishes the
+critical 20mm reflective airspace", "Constructed from durable galvanized spring
+steel to resist corrosion", "Simple hammer-on or press-fit installation onto
+timber joists", "Available in sizes to accommodate 10-25mm and 20-50mm board
+thicknesses", "Maintains permanent panel position, preventing sagging or
+dislocation", "Eliminates the need for adhesives or complicated underfloor
+strapping", "Accelerates installation from above before laying floorboards" ],
+"applications": [ "underfloor", "floor", "subfloor", "between floors" ],
+"technical": [ { "property": "Material", "value": "Galvanized spring steel",
+"standard": "" }, { "property": "Saddle Depths", "value": "100 mm drop
+(for 10-25mm boards) / 130 mm drop (for 20-50mm boards)", "standard": "" }, {
+"property": "Airspace Maintained", "value": "Guaranteed minimum 20 mm reflective
+still air gap beneath floorboards", "standard": "AS/NZS 4859.1" }, { "property":
+"Corrosion Protection", "value": "Galvanized coating", "standard": "" } ],
+"range": [ { "variant": "Foilboard Floor Saddles 10-25mm", "size_or_rating":
+"100 mm depth (suits 10mm to 25mm Foilboard)", "pack": "Box of 100 / Box of 250"
+}, { "variant": "Foilboard Floor Saddles 20-50mm", "size_or_rating": "130 mm
+depth (suits 20mm to 50mm Foilboard)", "pack": "Box of 100 / Box of 250" } ],
+"fire": "Non-combustible galvanized steel; complies with AS 3959 underfloor
+bushfire requirements", "compliance": "AS/NZS 4859.1, AS 3999, NCC Volume One
+and Two underfloor thermal provisions", "sustainability": "100% recyclable
+steel; zero ODP", "install": [ "Measure timber floor joist spacing
+(typically 450mm or 600mm centers)", "Fit Foilboard Floor Saddles over the top
+edge of floor joists spaced at approximately 600mm to 750mm centers", "Tap
+saddles flush onto the joists so the cradle hangs down between the joists", "Cut
+Foilboard panels to width matching the internal spacing between joists", "Lower
+Foilboard panel into the joist bay until it rests flat inside the saddle
+cradles", "Verify the panel sits below the top of the joist, leaving the
+required 20mm+ air space", "Tape butt joins between panel ends with
+Foilboard 72mm reinforced foil tape", "Install tongue-and-groove flooring or
+floorboards directly over the joists" ], "selection_checklist": [ "Confirm
+Foilboard panel thickness to select saddle depth (100mm for 10-25mm; 130mm
+for 20-50mm)", "Measure total floor joist length to determine saddle quantity
+(approx. 4-6 saddles per 2.4m bay)", "Confirm installation is from above before
+subfloor sheeting is installed", "Order matching 72mm reinforced foil tape for
+panel end joins" ], "accessories": [ "Foilboard Green panels", "Foilboard 72mm
+Reinforced Aluminum Foil Tape" ], "limitations": [ "Designed for installation
+from above before floorboards are laid; for underfloor retrofits from below, use
+Foilboard Retrofit Clips", "Must not be installed on wet or rotting timber
+joists", "Non-structural bracket; do not walk on unsupported panels inside
+saddles" ], "warranty": "Covered under Foilboard 25-year performance warranty
+system", "found": true, "search_keywords": [ "Foilboard Floor Saddles",
+"Foilboard saddles", "underfloor insulation brackets", "Foilboard joist clips",
+"floor joist insulation saddles", "Foilboard underfloor hangers", "Foilboard
+saddle 100mm", "Foilboard saddle 130mm" ], "problem_keywords": [ "underfloor
+insulation sagging between joists", "maintaining airspace under floorboards",
+"installing Foilboard from above joists", "cold drafts through floorboards",
+"fitting rigid insulation between joists" ], "placement": [ "underfloor",
+"floor", "subfloor", "between floors" ], "priority_fit": [ "easy_install",
+"thermal" ], "use_cases": [ "Cradling Foilboard panels between timber joists in
+new suspended residential floor construction", "Guaranteeing a 20mm reflective
+air gap beneath tongue-and-groove timber floorboards", "Preventing underfloor
+insulation panels from shifting, sagging, or vibrating over time" ], "not_for":
+[ "Wall installations (use Blank Plates or Flexifast)", "Concrete raft slabs",
+"Direct foot traffic support" ], "rag_summary": "Foilboard Floor Saddles are
+galvanized spring-steel support brackets designed to cradle Foilboard panels
+between timber joists in new suspended floor construction. Engineered in 100mm
+and 130mm depths to accommodate panels from 10mm to 50mm, they automatically
+guarantee the critical 20mm reflective airspace required beneath floorboards to
+achieve rated underfloor R-values. Installed from above before flooring is laid,
+they hold panels permanently in place without sagging, eliminating the need for
+strapping or adhesives." }, { "family_id": "FOILBOARD_GARAGE_DOOR_KIT",
+"tds_url": "https://www.foilboard.com.au/product/garage-door-kit/", "sds_url":
+"https://www.foilboard.com.au/wp-content/uploads/2021/04/Foilboard-Green-Safety-Data-Sheet.pdf",
+"description": "The Foilboard Garage Door Kit is an all-in-one DIY thermal
+insulation system engineered specifically for residential sectional and
+panel-lift metal garage doors. Containing pre-cut lightweight Foilboard panels,
+specialized mounting hardware, and aluminum foil tape, the kit reflects radiant
+heat and stops thermal transfer into the garage. By insulating uninsulated metal
+garage doors, it lowers garage temperatures by up to 10°C in summer, reduces
+winter chill, and operates quietly without adding significant weight to door
+spring mechanisms.", "features": [ "Complete all-in-one DIY kit to insulate a
+standard sectional garage door", "Can reduce garage ambient temperature by up
+to 10°C in summer", "Ultra-lightweight design does not strain automatic garage
+door opening mechanisms", "Pre-cut panels sized to fit standard panel-lift
+garage door sections", "Reflects up to 97% of radiant solar heat beating on
+metal door faces", "Includes specialized heat-resistant adhesive pads, brackets,
+and aluminum tape", "Non-allergenic, non-itchy, and completely safe to handle
+without PPE", "Acts as an acoustic buffer, reducing external street noise and
+door operating vibration", "Backed by Foilboard's 25-year performance warranty"
+], "applications": [ "shed", "door", "garage", "wall" ], "technical": [ {
+"property": "Material", "value": "Fire-retardant EPS core with pure aluminum
+reflective foil facings", "standard": "" }, { "property": "Panel Thickness",
+"value": "10 mm / 15 mm slimline panels", "standard": "" }, { "property": "Panel
+Dimensions", "value": "Pre-cut panels sized to suit standard sectional door
+profiles (e.g. 1350 mm x 600 mm)", "standard": "" }, { "property":
+"Reflectance", "value": "Reflects up to 97% radiant heat", "standard":
+"AS/NZS 4201.5" }, { "property": "Weight Addition", "value": "Approx. 4-6 kg
+total weight added to entire door", "standard": "" }, { "property": "Door
+Compatibility", "value": "Standard single and double panel-lift / sectional
+metal doors", "standard": "" } ], "range": [ { "variant": "Foilboard Garage Door
+Kit - Single Door", "size_or_rating": "Suits standard single sectional garage
+door (up to 4-5 panels)", "pack": "Kit (Panels, tape, adhesive fasteners)" }, {
+"variant": "Foilboard Garage Door Kit - Double Door", "size_or_rating": "Suits
+standard double sectional garage door (up to 4-5 panels wide)", "pack": "Kit
+(Panels, tape, adhesive fasteners)" } ], "fire": "Fire retardant EPS core; Low
+Flammability Index (≤ 5) to AS 1530.2; Group 1/2 to AS 5637.1", "compliance":
+"AS/NZS 4859.1, AS 1530.2, NCC compliant residential retrofitting",
+"sustainability": "100% recyclable EPS and aluminum; zero ODP; fiber-free",
+"install": [ "Clean interior metal surfaces of garage door panels thoroughly
+with isopropyl alcohol or detergent and allow to dry", "Measure the width and
+height of each recessed panel on the inside of the garage door", "Trim Foilboard
+panels to size using a utility knife and straight edge", "Peel adhesive backing
+and apply specialized mounting brackets to the clean metal door panels", "Insert
+and secure cut Foilboard panels into the mounting brackets across each door
+section", "Ensure panels fit neatly within door ribs without impeding hinge
+knuckles or roller tracks", "Tape perimeter edges with supplied reinforced
+aluminum foil tape for a neat, durable finish", "Test garage door operation
+through full open and close cycles to ensure smooth clearance" ],
+"selection_checklist": [ "Confirm door type is a sectional panel-lift door (not
+suitable for continuous roll-up doors)", "Select Single Door Kit (up to 2.4m
+wide) or Double Door Kit (up to 5.5m wide)", "Check door recess depth
+(minimum 10-15mm recess required)", "Inspect automatic opener springs (weight
+addition is minimal, but check spring balance)", "Ensure door panels are clean
+and free of grease" ], "accessories": [ "Foilboard reinforced aluminum foil
+tape", "Specialized mounting brackets / adhesive pads", "Utility knife" ],
+"limitations": [ "Not suitable for continuous corrugated roller doors (curtain
+doors that roll into a drum)", "Metal door surface must be thoroughly cleaned of
+grease and dust for adhesive to bond", "Ensure panels do not bind against door
+tracks, cables, or side hinges during movement" ], "warranty": "25 Year
+Performance Warranty", "found": true, "search_keywords": [ "Foilboard garage
+door kit", "garage door insulation kit", "insulated garage door DIY", "sectional
+garage door insulation", "panel lift door insulation", "Foilboard garage kit
+double", "Foilboard garage kit single", "metal garage door heat insulation" ],
+"problem_keywords": [ "hot garage like an oven in summer", "heat radiating from
+metal garage door", "cold drafty garage workshop", "bedroom above hot garage",
+"garage door vibration noise" ], "placement": [ "shed", "wall" ],
+"priority_fit": [ "thermal", "easy_install", "acoustic" ], "use_cases": [
+"Insulating metal sectional garage doors to keep attached garages up to 10°C
+cooler in summer", "Reducing heat transfer into living rooms or bedrooms
+situated directly above or adjacent to garages", "Dampening street noise and
+rattle on metal panel-lift garage doors" ], "not_for": [ "Continuous steel
+curtain roller doors that wrap around a central drum", "Direct exposure to open
+flame", "External weather-exposed sides of the door" ], "rag_summary": "The
+Foilboard Garage Door Kit is an all-in-one DIY insulation system designed to
+insulate residential sectional panel-lift metal garage doors. Comprising
+lightweight, pre-cut Foilboard Green panels (10mm or 15mm), heavy-duty mounting
+fasteners, and reinforced aluminum tape, it reflects up to 97% of radiant heat
+to lower garage temperatures by up to 10°C in summer. Adding only 4-6 kg to the
+entire door, it preserves automatic door opener balance while providing thermal,
+acoustic, and anti-vibration benefits backed by a 25-year warranty." } ]

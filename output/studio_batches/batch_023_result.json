@@ -1,0 +1,665 @@
+
+[ { "family_id": "PROCTOR_WRAP_HT", "tds_url":
+"https://proctorgroup.com.au/products/proctorwrap-htr/", "sds_url": "",
+"description": "ProctorWrap HTR (High Tensile Roof / High Temperature Roof) is a
+heavy-weight, UV-stabilised 3-ply spunbonded polyolefin vapour-permeable roof
+underlay reinforced with an internal grid scrim. Specifically engineered for
+commercial and residential pitched roofs under metal sheeting, slate, and tiles,
+it provides high water holdout and tear resistance without compromising
+breathability. By allowing moisture vapour to escape the roof cavity into a
+drained and vented space, it protects structural timbers and insulation from
+condensation damage.", "features": [ "Heavy-weight 3-ply spunbonded polyolefin
+construction with internal reinforcement scrim", "Class 4 vapour-permeable
+membrane allowing moisture vapour to escape roof spaces", "Medium Duty
+classification with exceptional tear and puncture resistance", "High water
+holdout protecting framing and insulation from roof leaks and rain ingress",
+"Suitable underneath metal sheet, cement, terracotta, and natural slate tiled
+roofs", "Withstands high foot traffic and wind loads during construction",
+"Non-reflective surface eliminates glare on site during daytime installation",
+"Suitable for use in bushfire BAL regions 12.5 to 40 in accordance with
+AS 3959", "UV-stabilised formulation offering extended durability during roof
+installation" ], "applications": [ "roof", "roofline" ], "technical": [ {
+"property": "Material Structure", "value": "3-ply spunbonded polyolefin membrane
+with reinforcement scrim", "standard": "" }, { "property": "Duty
+Classification", "value": "Medium Duty", "standard": "AS/NZS 4200.1:2017" }, {
+"property": "Vapour Permeability", "value": "Class 4 Vapour Permeable",
+"standard": "AS/NZS 4200.1:2017" }, { "property": "Water Control", "value":
+"Water Barrier", "standard": "AS/NZS 4201.4" }, { "property": "Air Control",
+"value": "Air Barrier", "standard": "AS/NZS 4200.1:2017" }, { "property":
+"Emittance", "value": "Non-reflective (does not provide reflective R-value)",
+"standard": "AS/NZS 4201.5" }, { "property": "Roll Dimensions", "value": "1500
+mm width x 50 m length (75 m²)", "standard": "" }, { "property": "Weight per
+Roll", "value": "18.5 kg", "standard": "" }, { "property": "Flammability Index",
+"value": "≤ 5 (Low Flammability)", "standard": "AS 1530.2" } ], "range": [ {
+"variant": "ProctorWrap HTR (1.5m x 50m)", "size_or_rating": "1500 mm x 50 m (75
+m²)", "pack": "Roll" } ], "fire": "Flammability Index ≤ 5 to AS 1530.2; Suitable
+for BAL-12.5 to BAL-40 in accordance with AS 3959 when combined with compliant
+metal ember guard mesh", "compliance": "AS/NZS 4200.1:2017, AS/NZS 4200.2:2017,
+AS 1530.2, AS 3959, NCC 2022 Volume One & Two condensation management",
+"sustainability": "100% recyclable polyolefin materials; zero ODP; non-toxic",
+"install": [ "Roll out ProctorWrap HTR horizontally across rafters or trusses
+starting from the eaves with printed face upward", "Ensure lower edge drains
+freely into the roof gutter without creating a reverse lap or water trap",
+"Allow a nominal 40mm drape between framing members to facilitate drainage and
+ventilation beneath battens", "Overlap consecutive upper sheets over lower
+sheets by at least 150mm", "Secure temporarily with broad-headed galvanised
+clouts, staples, or PlastiGrip washers before fixing battens", "Tape all laps
+and penetrations with ProctorWrap HighTack PLUS Tape for enhanced airtightness
+and weather sealing", "Provide a ventilated and drained cavity between the outer
+membrane face and the underside of roof cladding", "Ensure compliant metal ember
+guard mesh is installed at ridges, valleys, and eaves in BAL zones" ],
+"selection_checklist": [ "Confirm roof cladding is metal deck, concrete tile,
+terracotta tile, or slate", "Verify need for Class 4 vapour-permeable roof
+underlay to manage condensation risk", "Check that roof design incorporates a
+drained, ventilated cavity above the membrane", "Calculate total roof area
+including 150mm overlaps", "Order matching ProctorWrap HighTack PLUS Tape for
+lap and penetration sealing" ], "accessories": [ "ProctorWrap HighTack PLUS
+Tape", "ProctorWrap PlastiGrip Washers", "ProctorVent Over Fascia Vents and
+Ridge Vents", "Galvanised clouts / staples" ], "limitations": [ "Does not
+provide a reflective air-space R-value (non-reflective membrane)", "Must not be
+laid in direct continuous contact with the underside of unvented metal roof
+sheeting", "Must not be left exposed to direct sunlight beyond manufacturer UV
+limits prior to roof covering" ], "warranty": "Backed by Proctor Group Australia
+manufacturer warranty", "found": true, "search_keywords": [ "ProctorWrap HT",
+"ProctorWrap HTR", "HTR roof underlay", "breathable roof sarking", "Class 4 roof
+underlay", "heavy duty roof membrane", "Proctor roof wrap", "vapour permeable
+roof underlay", "metal roof breathable sarking", "slate tile underlay" ],
+"problem_keywords": [ "condensation dripping under metal roof", "sweating roof
+cavity in winter", "rain leaks damaging roof framing", "mould in cathedral
+ceiling roof space", "sarking tearing under high wind loads", "foot traffic
+tearing roof underlay" ], "placement": [ "roof", "roofline" ], "priority_fit": [
+"condensation", "easy_install", "fire" ], "use_cases": [ "Vapour-permeable roof
+underlay beneath residential and commercial metal deck roofs over a drained
+cavity", "Heavy-duty roof sarking under concrete, terracotta, and slate roof
+tiles subjected to construction foot traffic", "Condensation management underlay
+in cathedral and pitched roof designs across Australian climate zones 4 to 8" ],
+"not_for": [ "Direct external wall wrap without checking duty classification",
+"Unvented sandwich roofs with direct metal contact", "Underfloor soil
+damp-proofing" ], "rag_summary": "ProctorWrap HT (ProctorWrap HTR) is a
+heavy-duty, reinforced 3-ply spunbonded polyolefin vapour-permeable roof
+underlay manufactured for commercial and residential pitched roofs. Sized
+at 1500mm x 50m (75 m² per roll) with a Medium Duty classification, it
+withstands high construction foot traffic and wind loads under metal deck, tile,
+and slate roofs. Class 4 vapour-permeable, highly water-resistant, and
+fire-tested to AS 1530.2 (BAL 12.5-40 compliant), it exhausts roof cavity
+moisture into a ventilated airspace to prevent condensation and structural
+timber rot." }, { "family_id": "PROCTOR_WRAP_HIGH_TACK_PLUS_TAPE", "tds_url":
+"https://proctorgroup.com.au/product/high-tack-plus-tape/", "sds_url": "",
+"description": "ProctorWrap HighTack PLUS Tape is a premium single-sided
+pressure-sensitive adhesive tape engineered with an aggressive acrylic adhesive
+on a durable, semi-transparent carrier. Designed primarily to repair, bond, and
+seal overlaps and joins of external vapour-permeable and internal vapour/air
+retarder construction membranes, it delivers a minimum tested peel adhesion of
+at least 45 N / 25 mm. Its enhanced pliability and thin carrier prevent the tape
+from skipping over creases in membranes while providing superior resistance to
+heat, UV exposure, and adhesive edge bleed.", "features": [ "High peel adhesion
+with tested minimum bond strength of ≥ 45 N / 25 mm", "Semi-transparent carrier
+allows clear visibility of printed membrane alignment lines", "Pliable, thin
+carrier prevents skipping over creases and folds in building wraps", "Aggressive
+acrylic adhesive delivers immediate, permanent grab to multiple substrates",
+"Enhanced resistance to heat and UV radiation with minimal adhesive edge bleed",
+"Provides an airtight and weathertight seal across membrane overlaps and
+penetrations", "Bonds to polyolefin membranes, foil facings, timber, steel, and
+clean concrete", "Aids in achieving continuous building envelope airtightness
+for energy efficiency" ], "applications": [ "wall", "external wall", "roof",
+"roofline", "internal wall" ], "technical": [ { "property": "Adhesive Type",
+"value": "Aggressive acrylic pressure-sensitive adhesive", "standard": "" }, {
+"property": "Carrier", "value": "Pliable semi-transparent polyolefin film",
+"standard": "" }, { "property": "Peel Adhesion", "value": "≥ 45 N / 25 mm",
+"standard": "EN 1939" }, { "property": "Roll Dimensions", "value": "60 mm width
+x 25 m length", "standard": "" }, { "property": "Application Temperature",
+"value": "+5°C to +40°C", "standard": "" }, { "property": "Operating
+Temperature", "value": "-40°C to +80°C (resists short-term spikes up to
++100°C)", "standard": "" }, { "property": "Airtightness & Weather Resistance",
+"value": "Forms permanent airtight and weathertight seal", "standard":
+"AS/NZS 4200.2:2017" } ], "range": [ { "variant": "ProctorWrap HighTack PLUS
+Tape 60mm", "size_or_rating": "60 mm x 25 m", "pack": "Roll (Carton of 10)" } ],
+"fire": "Low early fire hazard properties compliant with AS 1530.2 when used as
+part of approved membrane assemblies", "compliance": "AS/NZS 4200.2:2017,
+Passive House airtightness standards, Green Star compliant", "sustainability":
+"Solvent-free acrylic adhesive; zero chlorine; zero formaldehyde; low VOC
+emissions", "install": [ "Ensure membrane surfaces and substrates are clean,
+dry, and free of grease, dust, and release agents", "Allow damp or cold
+substrates to dry and reach application temperatures between +5°C and +40°C",
+"Centre the 60mm tape squarely over the membrane overlap, seam, or penetration
+interface", "Ensure the membrane is supported from behind when applying the
+tape", "Apply firm pressure along the entire tape length using a plastic
+squeegee or pressure roller", "Smooth down edges firmly to activate the
+pressure-sensitive adhesive bond and eliminate air bubbles", "Ensure all
+mechanical loads on membranes are carried by mechanical fixings, not the tape"
+], "selection_checklist": [ "Confirm membrane is vapour permeable or an air
+barrier requiring high-adhesion sealing", "Calculate total linear meterage
+needed for all horizontal/vertical laps and penetrations", "Ensure ambient
+installation temperature is above +5°C during application", "Verify substrate is
+supported from behind to allow firm squeegee pressure" ], "accessories": [
+"ProctorWrap and ProctorPassive building membranes", "Plastic application
+squeegee", "Hand pressure roller" ], "limitations": [ "Not a substitute for
+mechanical fasteners; all mechanical loads must be carried by framing fixings",
+"Must not be applied to wet, oily, or dusty surfaces", "Do not apply under
+excessive mechanical tension" ], "warranty": "Backed by Proctor Group Australia
+manufacturer warranty", "found": true, "search_keywords": [ "ProctorWrap High
+Tack PLUS Tape", "HighTack PLUS Tape", "Proctor High Tack Plus", "semi
+transparent membrane tape", "60mm high tack tape", "acrylic wall wrap tape",
+"vapour permeable join tape", "Proctor airtight tape", "building wrap repair
+tape" ], "problem_keywords": [ "wall wrap tape peeling in heat", "tape skipping
+over membrane creases", "air leakage through building wrap joins", "water
+entering membrane overlaps", "adhesive bleed under high temperatures", "failing
+blower door airtightness test" ], "placement": [ "wall", "external wall",
+"roof", "roofline", "internal wall" ], "priority_fit": [ "easy_install",
+"condensation" ], "use_cases": [ "Sealing horizontal and vertical laps on
+ProctorWrap RW, CW, and HTR vapour-permeable membranes", "Airtight sealing of
+membrane interfaces to clean steel framing, timber studs, and concrete",
+"Repairing cuts, tears, and accidental punctures in building wraps prior to
+cladding" ], "not_for": [ "Structural mechanical load bearing",
+"High-temperature exhaust flues exceeding 100°C", "Permanent underwater
+immersion" ], "rag_summary": "ProctorWrap High Tack PLUS Tape is a 60mm x 25m
+single-sided pressure-sensitive acrylic tape engineered for joining, sealing,
+and repairing vapour-permeable and air-barrier building membranes. Featuring an
+aggressive acrylic adhesive that delivers high peel adhesion (≥ 45 N / 25 mm),
+its pliable semi-transparent carrier conforms across folds and creases without
+skipping while allowing alignment markings to show through. Operating from -40°C
+to +80°C with high resistance to UV and adhesive edge bleed, it forms durable
+airtight and weathertight envelope seals." }, { "family_id":
+"PROCTOR_WRAP_HIGH_TACK_PLUS_TAPE_2", "tds_url":
+"https://proctorgroup.com.au/product/high-tack-plus-tape/", "sds_url": "",
+"description": "ProctorWrap High Tack Plus Tape is a professional single-sided
+acrylic adhesive sealing tape designed for sealing overlaps, joins, and
+penetrations in external vapour-permeable and internal air-retarder membranes.
+Formulated with an aggressive acrylic adhesive delivering minimum peel adhesion
+of ≥ 45 N / 25 mm on a semi-transparent pliable carrier, it prevents air leakage
+and weather penetration. It provides high durability against heat and UV
+exposure with minimal edge bleed across Australian building sites.", "features":
+[ "High peel adhesion strength tested to ≥ 45 N / 25 mm", "Semi-transparent
+carrier allows visible alignment over membrane lap markings", "Pliable film
+carrier conforms tightly without bridging or skipping over creases", "Forms an
+airtight and weathertight barrier across membrane overlaps", "Excellent
+resistance to heat degradation and UV exposure", "Minimal adhesive edge bleed
+under warm Australian cavity temperatures", "Aggressive bonding to polyolefin
+wraps, aluminium boards, timber, and steel", "Solvent-free, low-emission
+formulation supporting Green Star projects" ], "applications": [ "wall",
+"external wall", "roof", "roofline", "internal wall" ], "technical": [ {
+"property": "Adhesive", "value": "Aggressive solvent-free acrylic adhesive",
+"standard": "" }, { "property": "Carrier Material", "value": "Semi-transparent
+pliable polyolefin film", "standard": "" }, { "property": "Peel Adhesion",
+"value": "≥ 45 N / 25 mm", "standard": "EN 1939" }, { "property": "Dimensions",
+"value": "60 mm width x 25 m length", "standard": "" }, { "property":
+"Temperature Resistance", "value": "-40°C to +80°C", "standard": "" }, {
+"property": "Installation Temperature Range", "value": "+5°C to +40°C",
+"standard": "" }, { "property": "Weather & Air Tightness", "value": "Water-tight
+and air-tight seal", "standard": "AS/NZS 4200.2" } ], "range": [ { "variant":
+"ProctorWrap HighTack PLUS Tape 60mm", "size_or_rating": "60 mm x 25 m", "pack":
+"Roll (Carton of 10)" } ], "fire": "Compliant with early fire hazard
+requirements to AS 1530.2 when applied to compliant building membranes",
+"compliance": "AS/NZS 4200.2:2017, Passive House airtightness criteria, Green
+Star compliant", "sustainability": "Solvent-free acrylic adhesive; zero
+chlorine; zero formaldehyde; low VOC emissions", "install": [ "Ensure membrane
+surfaces to be joined are clean, dry, and free of dust, grease, and oil",
+"Ensure ambient application temperature is within +5°C to +40°C", "Align
+membrane overlap with minimum 150mm overlap (or 50mm if taped per AS 4200.2)",
+"Position the 60mm tape centered evenly along the lap seam", "Press down firmly
+along the entire tape length using a plastic squeegee", "Ensure the substrate is
+supported from behind while applying pressure to activate the adhesive", "Ensure
+tape is applied without tension wrinkles or air pockets" ],
+"selection_checklist": [ "Confirm membrane compatibility (ideal for ProctorWrap
+and ProctorPassive membranes)", "Calculate total linear meters required for all
+horizontal and vertical seams", "Ensure surface temperature at installation is
+above +5°C", "Verify squeegee tool is on hand for firm pressure application" ],
+"accessories": [ "ProctorWrap building membranes", "Plastic application
+squeegee" ], "limitations": [ "Pressure-sensitive adhesive requires firm
+squeegee pressure to achieve full bonding", "Must not be applied to wet, oily,
+or dusty surfaces", "All mechanical loads must be carried by mechanical
+fasteners, not the tape" ], "warranty": "Backed by Proctor Group Australia
+product warranty", "found": true, "search_keywords": [ "ProctorWrap High Tack
+Plus Tape", "High Tack Plus Tape", "ProctorWrap tape", "breathable wrap tape",
+"60mm HighTack tape", "semi-transparent joining tape", "air barrier tape", "wall
+wrap sealing tape" ], "problem_keywords": [ "tape coming loose on building
+wrap", "air infiltration through wall seams", "water tracking through membrane
+overlaps", "creased membrane causing tape bubbles", "failing building air
+tightness testing" ], "placement": [ "wall", "external wall", "roof",
+"roofline", "internal wall" ], "priority_fit": [ "easy_install", "condensation"
+], "use_cases": [ "Sealing lap joins on external vapour-permeable wall wraps in
+residential and commercial builds", "Airtight sealing of roof underlay laps
+under metal and tile roofs", "Sealing penetrations and interface connections to
+window and door flashings" ], "not_for": [ "Structural load-bearing strapping",
+"Flue exhaust pipes exceeding 100°C", "Submerged applications" ], "rag_summary":
+"ProctorWrap High Tack Plus Tape is an aggressive, single-sided acrylic adhesive
+sealing tape designed for sealing overlaps, joins, and penetrations on
+vapour-permeable wall wraps and roof underlays. Offering high tested peel
+adhesion of ≥ 45 N / 25 mm on a semi-transparent, pliable polyolefin carrier, it
+conforms neatly over creases without skipping or lifting. Operating reliably
+from -40°C to +80°C with high resistance to heat and UV edge bleed, it delivers
+an airtight and weathertight seal compliant with AS/NZS 4200.2:2017." }, {
+"family_id": "PROCTOR_WRAP_HIGH_TACK_TAPE", "tds_url":
+"https://proctorgroup.com.au/tape/", "sds_url": "", "description": "ProctorWrap
+HighTack Tape is a single-sided pressure-sensitive adhesive tape formulated with
+an aggressive, modified acrylate adhesive and a flexible synthetic carrier.
+Engineered to provide an airtight and watertight seal on vapour-permeable
+construction membranes, it is widely used to seal overlaps, window flashings,
+and pipe or service penetrations. It offers good ageing resistance, long-term
+elasticity, and resistance to plasticiser migration to maintain building
+envelope integrity.", "features": [ "Aggressive modified acrylate adhesive with
+high initial tack", "Flexible synthetic carrier accommodates building movement
+and thermal expansion", "Forms an airtight and watertight seal on
+vapour-permeable membranes", "Free of solvents, chlorine, and formaldehyde for
+low jobsite emissions", "High ageing resistance and resistance to plasticiser
+migration", "Bonds to PE, PP, aluminium foils, timber, plastics, and metal",
+"Hand-tearable or easily cut with a utility knife for fast installation",
+"Operating temperature performance suitable for demanding Australian climates"
+], "applications": [ "wall", "external wall", "roof", "roofline", "internal
+wall", "pipe", "duct" ], "technical": [ { "property": "Carrier", "value":
+"Reinforced flexible polyolefin / PE carrier", "standard": "" }, { "property":
+"Adhesive Type", "value": "Solvent-free modified polyacrylic pressure-sensitive
+adhesive", "standard": "" }, { "property": "Roll Dimensions", "value": "60 mm
+width x 25 m length", "standard": "" }, { "property": "Operating Temperature",
+"value": "-40°C to +80°C", "standard": "" }, { "property": "Application
+Temperature", "value": "+5°C to +40°C", "standard": "" }, { "property": "Water &
+Air Tightness", "value": "Forms waterproof and airtight barrier seal",
+"standard": "AS/NZS 4200.2" } ], "range": [ { "variant": "ProctorWrap HighTack
+Tape 60mm", "size_or_rating": "60 mm x 25 m", "pack": "Roll (Carton of 10)" } ],
+"fire": "Complies with early fire hazard requirements to AS 1530.2 when used on
+compliant building membranes", "compliance": "AS/NZS 4200.2:2017, Green Star
+compliant, Passive House compatible", "sustainability": "Solvent-free, zero
+chlorine, zero formaldehyde, low VOC emissions", "install": [ "Ensure surfaces
+to be taped are clean, dry, and free of dust, grease, oil, and frost", "Position
+membrane overlap with minimum recommended lap width", "Centre the 60mm HighTack
+Tape squarely over the seam or penetration edge", "Apply tape smoothly avoiding
+tension wrinkles and air pockets", "Press down firmly along the entire tape
+length using a plastic squeegee to activate the adhesive", "Ensure substrate is
+supported from behind while applying squeegee pressure", "For pipes and ducts,
+cut overlapping collar strips to form a continuous watertight collar" ],
+"selection_checklist": [ "Confirm membrane type (compatible with PE, PP, and
+polyolefin non-woven wraps)", "Calculate total linear meters needed for seams,
+openings, and penetrations", "Ensure installation temperature is above +5°C",
+"Verify that mechanical fasteners carry structural membrane loads" ],
+"accessories": [ "ProctorWrap building membranes", "Plastic application
+squeegee" ], "limitations": [ "Pressure-sensitive adhesive requires firm
+mechanical squeegee pressure to bond properly", "Must not be applied to wet,
+oily, or dusty surfaces", "Not designed for permanent outdoor UV exposure beyond
+membrane limits" ], "warranty": "Backed by Proctor Group Australia product
+warranty", "found": true, "search_keywords": [ "ProctorWrap HighTack Tape",
+"High Tack Tape", "Proctor HighTack", "membrane joining tape", "60mm HighTack",
+"acrylic wrap tape", "building paper tape", "Proctor sealing tape" ],
+"problem_keywords": [ "air leaks in wall wrap", "water ingress through membrane
+seams", "draughts around pipe penetrations", "tape unsticking from building
+wrap", "sealing window reveals" ], "placement": [ "wall", "external wall",
+"roof", "roofline", "internal wall", "pipe", "duct" ], "priority_fit": [
+"easy_install", "condensation" ], "use_cases": [ "Sealing horizontal and
+vertical laps on vapour-permeable wall wraps", "Creating airtight and watertight
+seals around plumbing pipes and electrical penetrations", "Taping window and
+door flashing interfaces to building membranes" ], "not_for": [
+"High-temperature flue exhaust pipes above 80°C", "Direct structural mechanical
+load holding", "Permanent underwater immersion" ], "rag_summary": "ProctorWrap
+High Tack Tape is a flexible, single-sided pressure-sensitive adhesive tape
+featuring an aggressive modified acrylate adhesive on a reinforced polyolefin
+carrier. Sized at 60mm x 25m, it is engineered to form an airtight and
+watertight seal across vapour-permeable wall wraps, roof underlays, window
+interfaces, and pipe penetrations. Resistant to plasticiser migration,
+temperature extremes from -40°C to +80°C, and building movement, it provides
+durable weather protection and air-sealing compliance with AS/NZS 4200.2:2017."
+}, { "family_id": "PROCTOR_WRAP_PLASTI_GRIP_WASHERS", "tds_url":
+"https://proctorgroup.com.au/product/proctorwrap-plastigrip-washer/", "sds_url":
+"", "description": "The ProctorWrap PlastiGrip is a 45mm diameter polypropylene
+washer designed for the mechanical attachment of building wraps and rigid
+insulation boards to timber and steel framing. Engineered with a flat base,
+flexible perimeter, and a 5mm deep cupped head, it distributes clamping force
+over a wide area to eliminate tear-out and wind blow-offs compared to
+traditional staples. Tested in conjunction with ProctorWrap and ProctorPassive
+membranes for calculating fixing span tables, it provides a weather-tight,
+airtight mechanical anchor for high-wind building envelopes.", "features": [
+"45mm wide diameter distributes clamping force to prevent membrane tearing",
+"5mm deep cupped head seals the washer to the substrate and protects fastener
+heads", "Flexible outer perimeter reduces risk of abrasion damage to building
+wraps", "Flat base design ensures flush mounting under claddings and battens",
+"Superior alternative to staples, greatly reducing wind blow-off and pull-out
+risk", "Compatible with countersunk screws (8g-10g) for steel frames and
+flat-head clouts for timber", "Tested with ProctorWrap CW, HTS, and
+ProctorPassive RS-IT for fixing span tables", "Allows fastener spacing to be
+increased to 600mm horizontal by 750mm vertical (4 per m²)", "Manufactured from
+durable, non-corrosive polypropylene material" ], "applications": [ "wall",
+"external wall", "roof", "roofline", "internal wall" ], "technical": [ {
+"property": "Washer Diameter", "value": "45 mm", "standard": "" }, { "property":
+"Cupped Head Depth", "value": "5 mm", "standard": "" }, { "property":
+"Material", "value": "Durable UV-stabilised polypropylene", "standard": "" }, {
+"property": "Fastener Compatibility", "value": "8g - 10g countersunk screws
+(steel) or flat head galvanised clouts (timber)", "standard": "" }, {
+"property": "Recommended Spacing", "value": "600 mm horizontal x 750 mm vertical
+(approx. 4 washers per m²)", "standard": "" }, { "property": "Insulation
+Compatibility", "value": "Rigid foam boards, semi-rigid insulation, pliable
+building wraps", "standard": "" } ], "range": [ { "variant": "ProctorWrap
+PlastiGrip Washers", "size_or_rating": "45 mm diameter x 5 mm depth", "pack":
+"Box / Pack" } ], "fire": "Non-contributing polymer washer; suitable for use
+with BAL-compliant building membranes", "compliance": "AS/NZS 4200.2:2017
+mechanical fixing requirements, NCC 2022 Volume One and Two", "sustainability":
+"100% recyclable polypropylene; zero ODP; non-toxic", "install": [ "Position
+building wrap or rigid insulation board flat against timber or steel wall
+framing", "Insert 8g-10g countersunk screw (for steel) or flat-head clout nail
+(for timber) through the PlastiGrip washer center", "Fasten through the membrane
+into the structural stud at recommended 600mm horizontal by 750mm vertical
+spacing", "Tighten screws only sufficiently to apply clamping force around the
+perimeter of the washer", "Do not over-tighten to avoid distorting the washer,
+membrane, or substrate", "If a washer is damaged or cracked as a result of
+over-tightening, replace it prior to project completion", "Use
+corrosion-resistant screws or galvanised nails" ], "selection_checklist": [
+"Confirm framing substrate (timber studs require flat-head clouts; steel studs
+require 8g-10g screws)", "Calculate quantity needed based on approx. 4 washers
+per square meter of wall wrap", "Verify need for tear-resistant fixing in
+high-wind regions or exposed sites", "Ensure suitable corrosion-resistant screws
+or nails are supplied by the builder" ], "accessories": [ "ProctorWrap and
+ProctorPassive building wraps", "Corrosion-resistant countersunk screws
+(8g-10g)", "Galvanised flat-head clout nails" ], "limitations": [ "Do not
+over-tighten fasteners; excessive torque can crack the washer or distort the
+substrate", "Not recommended for permanent exposure to direct sunlight after
+installation", "Cladding must be installed within the UV exposure window of the
+underlying membrane" ], "warranty": "Backed by Proctor Group Australia product
+warranty", "found": true, "search_keywords": [ "ProctorWrap PlastiGrip Washers",
+"PlastiGrip Washers", "Proctor PlastiGrip", "wall wrap washers", "45mm
+insulation washers", "membrane fixing buttons", "sarking fixing washers",
+"plastic cap washers", "Proctor buttons" ], "problem_keywords": [ "staples
+tearing through wall wrap", "wind blowing building wrap off frame", "insulation
+boards pulling over screw heads", "tears at fastener points in high winds",
+"water leaks around staple penetrations" ], "placement": [ "wall", "external
+wall", "roof", "roofline", "internal wall" ], "priority_fit": [ "easy_install",
+"thermal" ], "use_cases": [ "Fixing vapour-permeable wall wraps to steel framing
+studs with screws in high-wind environments", "Securing building wraps to timber
+frames as a tear-resistant alternative to staples", "Mechanically fastening
+rigid foam and insulation boards to exterior walls before cladding" ],
+"not_for": [ "Permanent exposure to direct sunlight without cladding", "Direct
+structural load-bearing cladding attachment", "Underwater hydrostatic
+applications" ], "rag_summary": "ProctorWrap Plasti-Grip Washers are 45mm
+diameter polypropylene fixing discs engineered to secure building wraps and
+rigid insulation boards to timber and steel framing. Designed with a flat base,
+flexible perimeter, and 5mm deep cupped head, they distribute clamping loads
+over an enlarged area to eliminate wind tear-out and water leakage associated
+with staples. Compatible with 8g-10g screws and galvanised clouts at 4 per
+square metre, they ensure secure, tear-free mechanical fixing compliant with
+AS/NZS 4200.2:2017." }, { "family_id": "ROCKWOOL_REFLECTIVE", "tds_url": "",
+"sds_url": "", "description": "", "features": [], "applications": [],
+"technical": [], "range": [], "fire": "", "compliance": "", "sustainability":
+"", "install": [], "selection_checklist": [], "accessories": [], "limitations":
+[], "warranty": "", "found": false, "search_keywords": [ "Rockwool Reflective",
+"foil faced rockwool", "foil faced stone wool", "Rockwool foil blanket",
+"reflective stone wool", "rockwool reflective insulation", "foil faced mineral
+wool" ], "problem_keywords": [ "high temperature radiant heat loss",
+"condensation on industrial pipes", "fire protection with radiant barrier",
+"thermal loss through metal roof", "non combustible foil insulation" ],
+"placement": [ "roof", "roofline", "wall", "external wall", "pipe", "duct" ],
+"priority_fit": [ "fire", "thermal", "condensation" ], "use_cases": [
+"Industrial thermal and acoustic lagging on high-temperature pipework and
+vessels", "Foil-faced stone wool insulation in commercial HVAC ductwork for
+condensation control", "Non-combustible radiant heat and fire containment
+barriers in commercial roofing and facades" ], "not_for": [ "Unfaced internal
+residential acoustic partition batts", "Subfloor soil damp-proofing", "Exposed
+decorative wall finishes" ], "rag_summary": "Rockwool Reflective represents
+stone wool (mineral wool) insulation blankets or slabs laminated with reflective
+aluminium foil facings for thermal, acoustic, and passive fire control.
+Manufactured from volcanic basalt rock, the non-combustible stone wool substrate
+withstands temperatures exceeding 1000°C, while the reinforced foil facing acts
+as a vapour barrier and reflects radiant heat. It is used in industrial pipe
+lagging, HVAC duct wrap, and commercial building envelopes requiring combined
+fire resistance and condensation control." }, { "family_id":
+"SONATA_ACOUSTIC_PANELS_SONATA_RECITAL_CORE", "tds_url":
+"https://sonataacousticpanels.com.au/resources/", "sds_url":
+"https://sonataacousticpanels.com.au/resources/", "description": "Sonata Recital
+Core acoustic panels are high-performance thermally bonded polyester fibre
+panels engineered specifically for semi-exposed acoustic applications. Designed
+to absorb sound across a broad range of frequencies, Recital Core reduces
+reverberation, controls echo, and improves speech clarity in internal commercial
+and industrial building environments. Featuring a firm surface finish with a
+soft sound-absorbing core, the panels are lightweight, non-allergenic, and easy
+to handle behind perforated wall and ceiling linings.", "features": [ "High
+acoustic sound absorption performance across broad frequency ranges",
+"Manufactured from 100% thermally bonded polyester fibre with recycled content",
+"Firm surface finish ensures easy handling and prevents sagging", "Engineered
+specifically for installation behind perforated wall and ceiling systems",
+"Non-allergenic, low irritant, and safe to handle without protective clothing",
+"Available in multiple density options from 20 kg/m³ to 60 kg/m³", "Available in
+four standard thicknesses: 25mm, 50mm, 75mm, and 100mm", "Offered in three core
+colours: Black, White, and Grey to conceal framing through perforations",
+"Australian made in Dandenong South, Victoria by Fletcher Building", "Backed by
+a 15-year manufacturer product warranty" ], "applications": [ "wall", "internal
+wall", "ceiling", "between floors" ], "technical": [ { "property": "Material
+Composition", "value": "Thermally bonded polyester fibre (recycled PET
+content)", "standard": "" }, { "property": "Density Options", "value": "20
+kg/m³, 32 kg/m³, 48 kg/m³, 60 kg/m³", "standard": "" }, { "property":
+"Thickness Options", "value": "25 mm, 50 mm, 75 mm, 100 mm", "standard": "" }, {
+"property": "Panel Dimensions", "value": "1200 mm x 2400 mm", "standard": "" },
+{ "property": "Colours", "value": "Black, White, Grey", "standard": "" }, {
+"property": "Acoustic Performance", "value": "High sound absorption across low,
+mid, and high frequencies (NRC up to 1.00+)", "standard": "ISO 354 / AS ISO 354"
+}, { "property": "Fire Hazard Properties", "value": "Compliant with
+AS/NZS 1530.3 fire indices", "standard": "AS/NZS 1530.3" } ], "range": [ {
+"variant": "Sonata Recital Core 20kg/m³", "size_or_rating":
+"25mm, 50mm, 75mm, 100mm x 1200mm x 2400mm", "pack": "Panel" }, { "variant":
+"Sonata Recital Core 32kg/m³", "size_or_rating": "25mm, 50mm, 75mm, 100mm
+x 1200mm x 2400mm", "pack": "Panel" }, { "variant": "Sonata Recital
+Core 48kg/m³", "size_or_rating": "25mm, 50mm, 75mm x 1200mm x 2400mm", "pack":
+"Panel" }, { "variant": "Sonata Recital Core 60kg/m³", "size_or_rating":
+"25mm, 50mm x 1200mm x 2400mm", "pack": "Panel" } ], "fire": "NCC compliant fire
+performance tested in accordance with AS/NZS 1530.3; Early Fire Hazard indices:
+Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+"compliance": "AS/NZS 1530.3, AS/NZS 4859.1, NCC Volume One and Two acoustic
+requirements", "sustainability": "Manufactured from recyclable polyester with
+high recycled PET content; zero chemical binders; zero formaldehyde; low VOC",
+"install": [ "Ensure wall framing, ceiling grid, or structural substrate is
+clean, dry, and structurally sound", "Select colour (black is standard behind
+perforated panels to conceal framing; white or grey for light-reflecting
+cavities)", "Cut panels accurately to size using a sharp utility knife or
+heavy-duty insulation shears", "Friction-fit panels into framing bays or
+mechanically fix behind perforated ceiling/wall panels using insulation pins or
+clips", "Butt panel edges tightly together to eliminate acoustic flanking gaps",
+"Install perforated timber slats, metal ceiling tiles, or acoustic panelling
+directly in front of the Recital Core panels", "Ensure panels are not compressed
+beyond specified cavity thickness" ], "selection_checklist": [ "Confirm density
+(20, 32, 48, or 60 kg/m³) based on acoustic consultant specification", "Select
+thickness (25mm, 50mm, 75mm, or 100mm) matching framing cavity depth", "Choose
+colourway (Black, White, or Grey) to suit aesthetic appearance through
+perforations", "Confirm panels are for semi-exposed application behind
+perforated or slotted linings", "Calculate total square meterage based on 1200mm
+x 2400mm panels (2.88 m² per panel)" ], "accessories": [ "Mechanical insulation
+pins and retaining washers", "Heavy-duty insulation cutting shears", "Acoustic
+sealant" ], "limitations": [ "Designed for semi-exposed applications only; not
+suitable for decorative fully exposed wall finishes", "Not suitable for external
+applications exposed to UV radiation, moisture, or wind pressure", "Do not
+compress panels excessively as this degrades low-frequency acoustic absorption"
+], "warranty": "15-Year Product Warranty", "found": true, "search_keywords": [
+"Sonata Recital Core", "Sonata Acoustic Panels", "Recital Core polyester",
+"polyester acoustic panel 32kg", "black acoustic backing panel", "perforated
+panel acoustic backing", "Fletcher Sonata acoustic", "high density polyester
+acoustic panel", "cinema acoustic panel", "sports hall acoustic backing" ],
+"problem_keywords": [ "echo in sports hall", "speech clarity in school
+classroom", "reverberation behind slotted timber walls", "noise in cinema and
+theatre", "sound reflection in conference rooms", "ugly framing visible behind
+perforated panels" ], "placement": [ "wall", "internal wall", "ceiling",
+"between floors" ], "priority_fit": [ "acoustic", "sustainability",
+"easy_install", "fire" ], "use_cases": [ "Acoustic sound absorption backing
+installed directly behind slotted timber and perforated metal wall panels in
+auditoriums and theatres", "Ceiling cavity sound absorption behind perforated
+ceiling systems in corporate boardrooms and open-plan offices", "Reverberation
+control in school gymnasiums, sports halls, music recording suites, and plant
+rooms" ], "not_for": [ "Decorative exposed wall finishes without face cladding
+or perforation", "External weather-exposed walls", "Flooring underlay subject to
+direct foot traffic" ], "rag_summary": "Sonata Recital Core acoustic panels are
+high-performance thermally bonded polyester sound-absorbing boards manufactured
+in Victoria by Sonata Acoustic Panels (part of Fletcher Building). Engineered
+for semi-exposed applications behind perforated timber, metal, or plasterboard
+wall and ceiling systems, they absorb reverberation across broad frequency bands
+(NRC up to 1.00+). Available in densities from 20 to 60 kg/m³, thicknesses
+from 25mm to 100mm (1200mm x 2400mm sheets), and colours in Black, White, and
+Grey, they are itch-free, non-allergenic, compliant with AS/NZS 1530.3, and
+backed by a 15-year warranty." }, { "family_id": "STINGER_ACCESSORY", "tds_url":
+"", "sds_url": "", "description": "", "features": [], "applications": [],
+"technical": [], "range": [], "fire": "", "compliance": "", "sustainability":
+"", "install": [], "selection_checklist": [], "accessories": [], "limitations":
+[], "warranty": "", "found": false, "search_keywords": [ "Stinger accessory",
+"Stinger StaplePac", "Stinger NailPac", "Stinger plastic caps", "cap fasteners",
+"Stinger cap refills", "Stinger replacement parts", "Stinger tool accessories"
+], "problem_keywords": [ "housewrap tearing off staples", "air and water leaks
+around staple holes", "wind blowing underlayment off roof", "running out of cap
+fasteners on site", "staples pulling through building wrap" ], "placement": [
+"roof", "roofline", "wall", "external wall" ], "priority_fit": [ "easy_install",
+"condensation" ], "use_cases": [ "Collated plastic cap and fastener packs
+(StaplePac and NailPac) used with STINGER cap hammers and nailers", "Fastening
+roofing felt, synthetic underlayments, and housewrap without material
+tear-through", "Providing water-sealing caps over fastener penetrations in
+external walls and roofs" ], "not_for": [ "Internal drywall plasterboard
+fixing", "Heavy structural timber framing", "Direct concrete anchoring" ],
+"rag_summary": "Stinger Accessory encompasses the proprietary collated
+fasteners, plastic caps, and maintenance components manufactured for STINGER cap
+systems by National Nail Corp. Centered on the StaplePac and NailPac product
+lines, these accessories deliver full 25mm (1 inch) diameter plastic caps
+alongside staples or ring-shank nails. By spreading the fastening load and
+sealing out moisture, they prevent wind blow-offs, tearing, and lateral slippage
+of housewrap and roofing underlayments across residential jobsites." }, {
+"family_id": "STINGER_CH", "tds_url":
+"https://www.stingerworld.com.au/product/stinger-ch38-2/", "sds_url": "",
+"description": "The STINGER CH38-2 is an award-winning, non-pneumatic cap hammer
+tacker engineered to deliver the superior holding power of a plastic cap
+combined with the speed and simplicity of a manual hammer tacker. Specifically
+designed for securing housewrap, synthetic roofing underlayment, and rolled
+insulation, it automatically feeds and drives a full 25mm plastic cap with
+a 10mm crown staple with every swing. By eliminating compressors and hoses, it
+provides an economical, portable solution that seals fastener penetrations and
+prevents tearing in windy conditions.", "features": [ "Non-pneumatic hammer
+tacker delivering both a plastic cap and staple in a single strike",
+"High-capacity magazine holds 168 plastic collated caps and 168 staples",
+"Drives full 25mm (1 inch) diameter plastic caps with 10mm (3/8 inch) crown
+staples", "Eliminates the cost, weight, and setup of air compressors, hoses, and
+power cords", "Caps create a seal over staple penetrations to prevent water and
+moisture ingress", "Significantly reduces blow-offs, tearing, and lateral
+slippage of building wraps and felts", "Lightweight 1.17 kg ergonomic design
+reduces arm fatigue during all-day use", "Easy trigger-advance cap mechanism
+prepares each cap instantly for driving" ], "applications": [ "roof",
+"roofline", "wall", "external wall" ], "technical": [ { "property": "Tool
+Weight", "value": "1.17 kg (2.6 lbs)", "standard": "" }, { "property": "Fastener
+Capacity", "value": "168 caps / 168 staples", "standard": "" }, { "property":
+"Cap Specification", "value": "25 mm (1 inch) full plastic collated caps",
+"standard": "" }, { "property": "Staple Specification", "value": "10 mm (3/8
+inch) crown staples / A-11 style", "standard": "" }, { "property": "Compatible
+Fasteners", "value": "10 mm STINGER StaplePac only (Part # 136420)", "standard":
+"ASTM F1667" }, { "property": "Operation Type", "value": "Manual strike with
+trigger cap feed (CH38-2) or automatic feed (CH38A)", "standard": "" } ],
+"range": [ { "variant": "STINGER CH38-2 Cap Hammer", "size_or_rating": "Tool
+Weight 1.17 kg (SKU: 136400)", "pack": "Tool" }, { "variant": "STINGER CH38A
+Autofeed Cap Hammer", "size_or_rating": "Tool Weight 1.31 kg (SKU: 136401)",
+"pack": "Tool" } ], "fire": "", "compliance": "Fasteners comply with ASTM F1667;
+recommended best-practice installation by major wrap and underlayment
+manufacturers", "sustainability": "Eliminates fuel and electrical power
+consumption of compressors; recyclable steel body and plastic caps", "install":
+[ "Open the staple magazine at the base and insert a strip of STINGER 10mm
+staples", "Open the cap gate, place a reel of 168 collated plastic caps into the
+basket, and feed the lead cap into the guide", "Close and latch both magazines
+securely before operation", "Hold the hammer handle firmly and pull the trigger
+to advance a cap into the strike zone", "Strike the target building wrap or roof
+underlayment firmly against the timber substrate with a standard hammer motion",
+"Ensure the staple drives fully through the center of the plastic cap flush
+against the membrane", "Repeat across the wall or roof at the spacing
+recommended by the membrane manufacturer (typically 300mm to 600mm centers)" ],
+"selection_checklist": [ "Confirm application is fixing pliable building wrap or
+roof underlayment to timber framing or plywood decking", "Verify need for
+airless manual installation without compressor hoses on roofs or scaffolding",
+"Ensure genuine STINGER 10mm StaplePac refills (#136420) are ordered", "Choose
+between CH38-2 (manual trigger advance) and CH38A (automatic swing advance)" ],
+"accessories": [ "STINGER StaplePac 10mm (SKU: 136420, 2016 count box covers
+~250 m²)", "Replacement cap feeder assembly" ], "limitations": [ "Designed for
+timber framing and wood substrates only; cannot penetrate steel framing or
+masonry", "Must be loaded exclusively with genuine STINGER 10mm StaplePac
+fasteners", "Not recommended where local high-wind codes mandate ring-shank
+nails (use CN100B)" ], "warranty": "National Nail Repair Program warranty",
+"found": true, "search_keywords": [ "Stinger CH", "Stinger CH38", "Stinger
+CH38-2", "Stinger CH38A", "Stinger Cap Hammer", "cap hammer stapler", "hammer
+tacker with caps", "housewrap cap stapler", "roof underlayment cap hammer",
+"Stinger StaplePac 10mm" ], "problem_keywords": [ "staples pulling through
+building wrap", "wind tearing underlayment off roof", "dragging air hoses across
+pitched roof", "water leaking through staple holes", "slow hand nailing of cap
+fasteners", "housewrap blow offs in wind" ], "placement": [ "roof", "roofline",
+"wall", "external wall" ], "priority_fit": [ "easy_install", "condensation" ],
+"use_cases": [ "Fast manual installation of synthetic roof underlayment and
+roofing felt to timber roof trusses and plywood decking", "Securing residential
+vapour-permeable wall wraps and reflective foil sarking to timber wall framing",
+"Holding rolled blanket insulation in place before cladding without dragging air
+hoses on scaffolding" ], "not_for": [ "Steel-framed structures (cannot drive
+staples into steel studs)", "Concrete or masonry walls", "Structural timber
+joints" ], "rag_summary": "The STINGER CH (CH38-2 / CH38A) is a manual,
+non-pneumatic cap hammer tacker engineered by National Nail to install
+housewrap, roofing underlayment, and rolled insulation. With every swing, it
+automatically positions a 25mm (1 inch) plastic collated cap and drives a 10mm
+(3/8 inch) crown staple through its center into timber framing. Weighing 1.17 kg
+and holding 168 caps and staples (loaded with STINGER StaplePac), it eliminates
+compressor hoses on roofs while sealing staple penetrations against water leaks
+and preventing high-wind blow-offs." }, { "family_id": "STINGER_CN", "tds_url":
+"https://www.stingerworld.com.au/product/stinger-cn100b/", "sds_url": "",
+"description": "The STINGER CN100B is a high-production pneumatic cap nailer
+engineered for rapid, code-compliant installation of roofing underlayments,
+roofing felt, and housewrap. Firing up to 5 cap nails per second, it
+automatically feeds and drives full 25mm plastic collated caps with 25mm
+ring-shank nails. Tested and approved for wind speeds up to 180 mph and
+certified for IBHS FORTIFIED Roof standards, it provides maximum holding power
+and seals fastener penetrations against water intrusion.", "features": [
+"Pneumatic cap nailer firing up to 5 cap nails per second for maximum jobsite
+speed", "High-capacity magazine holds 200 collated plastic caps and 200 coil
+ring-shank nails", "Drives full 25mm (1 inch) plastic caps with 25mm x 2.1mm
+electro-galvanized or stainless nails", "Tested and approved for severe winds up
+to 180 mph and IBHS FORTIFIED Home standards", "Selectable bumpfire and
+sequential firing modes to suit operator workflow", "Tool-free depth-of-drive
+adjustment ensures caps seat perfectly flush", "360-degree tool-free adjustable
+air exhaust", "Lightweight 2.3 kg (4.9 lbs) ergonomic design minimizes arm
+fatigue", "Plastic caps seal out moisture and eliminate material pull-through or
+lateral slippage" ], "applications": [ "roof", "roofline", "wall", "external
+wall" ], "technical": [ { "property": "Tool Weight", "value": "2.3 kg (4.9
+lbs)", "standard": "" }, { "property": "Speed", "value": "Up to 5 cap nails per
+second", "standard": "" }, { "property": "Fastener Capacity", "value": "200 caps
+/ 200 nails", "standard": "" }, { "property": "Cap Specification", "value": "25
+mm (1 in) full round plastic collated caps", "standard": "" }, { "property":
+"Nail Specification", "value": "25 mm (1 in) length x 2.1 mm (0.083 in) shank,
+full round head, ring-shank", "standard": "ASTM F1667" }, { "property":
+"Operating Air Pressure", "value": "70 - 100 psi (4.8 - 6.9 bar)", "standard":
+"" }, { "property": "Compatible Fasteners", "value": "STINGER 25mm NailPac
+(#0136260 / #136262)", "standard": "ASTM F1667" } ], "range": [ { "variant":
+"STINGER CN100B Cap Nailer", "size_or_rating": "Tool Weight 2.3 kg
+(SKU: 136252)", "pack": "Tool (Includes case and fittings)" } ], "fire": "",
+"compliance": "Complies with ASTM F1667, Florida Building Code 1507.1.1.1 and
+R905.1.1.1, IBHS FORTIFIED Home standards", "sustainability": "Durable metal
+body with long service life; 100% recyclable HDPE caps and steel nails",
+"install": [ "Connect CN100B tool to a clean, dry, regulated compressed air
+supply set between 70 and 100 psi", "Open the nail canister and load a 200-nail
+coil of STINGER 25mm ring-shank nails", "Open the cap basket, load a 200-cap
+reel of 25mm collated plastic caps, and feed into the guide track", "Close and
+latch both magazines securely", "Select desired firing mode: bumpfire for high
+production speed or sequential for single-shot precision", "Position the
+nosepiece perpendicular against the roof underlayment or housewrap over timber
+substrate", "Depress safety contact and actuate trigger to drive the cap nail
+flush against the membrane", "Adjust the tool-free depth-of-drive wheel so caps
+seat firmly without overdriving or crushing" ], "selection_checklist": [
+"Confirm project requires ring-shank nail holding power (mandatory in high-wind
+and coastal zones)", "Ensure regulated jobsite compressed air supply (70-100
+psi) is available", "Choose nail coating: electro-galvanized or 304 stainless
+steel NailPac based on corrosion environment", "Order matching STINGER 25mm
+NailPac fastener coils (#136260 or #136262)" ], "accessories": [ "STINGER
+NailPac 25mm Electro-Galvanized (Code: 136260)", "STINGER NailPac 25mm 304
+Stainless Steel (Code: 136262)", "Carrying case and air fittings" ],
+"limitations": [ "Requires an air compressor and pneumatic hose on site", "Must
+only be operated with genuine STINGER 25mm NailPac fasteners", "For timber
+substrates only; not designed for steel framing or solid concrete" ],
+"warranty": "1-year limited warranty backed by National Nail Corp", "found":
+true, "search_keywords": [ "Stinger CN", "Stinger CN100", "Stinger CN100B",
+"pneumatic cap nailer", "roofing cap nailer", "Stinger NailPac", "cap
+nailer 25mm", "underlayment nailer", "high wind cap nailer", "Stinger 136252" ],
+"problem_keywords": [ "roof underlayment tearing off in high wind", "staples
+blowing out during storms", "meeting 180 mph wind roofing codes", "water leakage
+around roofing nails", "slow underlayment installation", "hand nailing caps on
+steep roofs" ], "placement": [ "roof", "roofline", "wall", "external wall" ],
+"priority_fit": [ "easy_install", "condensation" ], "use_cases": [ "Rapid
+pneumatic fastening of synthetic underlayment, roofing felt, and ice barriers to
+timber roof decks in high-wind and coastal regions", "Securing commercial and
+residential weather-resistive barriers (housewrap) against strong winds before
+cladding", "Installing roof underlayment to meet IBHS FORTIFIED Roof and Florida
+Building Code high-wind standards" ], "not_for": [ "Steel framing (cannot
+penetrate steel studs)", "Structural timber framing nails (framing lumber)",
+"Concrete or masonry substrates" ], "rag_summary": "The STINGER CN (CN100B) is a
+high-speed pneumatic cap nailer manufactured by National Nail for securing
+synthetic underlayment, roofing felt, and housewrap to timber substrates. Firing
+up to 5 cap nails per second with a 200-count magazine capacity, it drives 25mm
+(1 inch) plastic collated caps with 25mm ring-shank nails (loaded via STINGER
+NailPac). Tested to withstand winds up to 180 mph and certified under IBHS
+FORTIFIED Home standards, it prevents underlayment blow-offs and seals fastener
+penetrations against water ingress." } ]

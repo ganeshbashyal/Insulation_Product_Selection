@@ -1,7 +1,7 @@
 ---
 title: "Sonata Acoustic Panels Sonata Recital Core - Panel Insulation | Sonata Acoustic Panels"
-description: "Quality insulation engineered for Australian conditions. Engineered for noise control, delivering acoustic separation for NCC compliance."
-keywords: "Sonata Acoustic Panels Sonata Recital Core, Sonata Acoustic Panels panel, acoustic insulation, insulation Australia, Sonata Acoustic Panels Australia"
+description: "Sonata Recital Core acoustic panels are high-performance thermally bonded polyester fibre panels engineered specifically for semi-exposed acoustic app"
+keywords: "Sonata Acoustic Panels Sonata Recital Core, Sonata Acoustic Panels panel, acoustic insulation, wall insulation, ceiling insulation, floor insulation, insulation Australia, Sonata Acoustic Panels Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: SONATA_ACOUSTIC_PANELS_SONATA_RECITAL_CORE
 ---
@@ -10,25 +10,36 @@ family_id: SONATA_ACOUSTIC_PANELS_SONATA_RECITAL_CORE
 
 **Sonata Acoustic Panels Panel** — acoustic panels for sound absorption and interior finish.
 
-Quality insulation engineered for Australian conditions. Engineered for noise control, delivering acoustic separation for NCC compliance.
+Sonata Recital Core acoustic panels are high-performance thermally bonded polyester fibre panels engineered specifically for semi-exposed acoustic applications. Designed to absorb sound across a broad range of frequencies, Recital Core reduces reverberation, controls echo, and improves speech clarity in internal commercial and industrial building environments. Featuring a firm surface finish with a soft sound-absorbing core, the panels are lightweight, non-allergenic, and easy to handle behind perforated wall and ceiling linings.
 
 ## Key features
 
-- Engineered specifically for acoustic performance.
-- high NRC/Rw ratings for effective sound control.
-- suitable for commercial and residential applications.
+- High acoustic sound absorption performance across broad frequency ranges.
+- Manufactured from 100% thermally bonded polyester fibre with recycled content.
+- Firm surface finish ensures easy handling and prevents sagging.
+- Engineered specifically for installation behind perforated wall and ceiling systems.
+- Non-allergenic, low irritant, and safe to handle without protective clothing.
+- Available in multiple density options from 20 kg/m³ to 60 kg/m³.
+- Available in four standard thicknesses: 25mm, 50mm, 75mm, and 100mm.
+- Offered in three core colours: Black, White, and Grey to conceal framing through perforations.
+- Australian made in Dandenong South, Victoria by Fletcher Building.
+- Backed by a 15-year manufacturer product warranty.
 
 ## Applications and selection
 
-- Acoustic Treatment
+- wall
+- internal
+wall
+- ceiling
+- between floors
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm density (20, 32, 48, or 60 kg/m³) based on acoustic consultant specification.
+2. Select thickness (25mm, 50mm, 75mm, or 100mm) matching framing cavity depth.
+3. Choose colourway (Black, White, or Grey) to suit aesthetic appearance through perforations.
+4. Confirm panels are for semi-exposed application behind perforated or slotted linings.
+5. Calculate total square meterage based on 1200mm x 2400mm panels (2.88 m² per panel).
 
 
 ## Current catalogue range
@@ -43,34 +54,51 @@ Quality insulation engineered for Australian conditions. Engineered for noise co
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Panel | Manufacturer catalogue |
-| Material | Acoustic Panel | Manufacturer catalogue |
-| Applications | Acoustic Treatment | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material Composition | Thermally bonded polyester fibre (recycled PET content) | - |
+| Density Options | 20 kg/m³, 32 kg/m³, 48 kg/m³, 60 kg/m³ | - |
+| Thickness Options | 25 mm, 50 mm, 75 mm, 100 mm | - |
+| Panel Dimensions | 1200 mm x 2400 mm | - |
+| Colours | Black, White, Grey | - |
+| Acoustic Performance | High sound absorption across low, mid, and high frequencies (NRC up to 1.00+) | ISO 354 / AS ISO 354 |
+| Fire Hazard Properties | Compliant with AS/NZS 1530.3 fire indices | AS/NZS 1530.3 |
 
-
+Extracted from manufacturer datasheet: https://sonataacousticpanels.com.au/resources/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+NCC compliant fire performance tested in accordance with AS/NZS 1530.3; Early Fire Hazard indices: Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1
+
+AS/NZS 1530.3, AS/NZS 4859.1, NCC Volume One and Two acoustic requirements
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://sonataacousticpanels.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://sonataacousticpanels.com.au/.
 
+## Recommended accessories
+
+- Mechanical insulation pins and retaining washers.
+- Heavy-duty insulation cutting shears.
+- Acoustic sealant.
+
 
 ## Limitations and warnings
 
-- Acoustic ratings are system-based - verify complete assembly matches tested configuration..
-- joints and penetrations must be properly sealed..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Designed for semi-exposed applications only; not suitable for decorative fully exposed wall finishes.
+- Not suitable for external applications exposed to UV radiation, moisture, or wind pressure.
+- Do not compress panels excessively as this degrades low-frequency acoustic absorption.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Acoustic ratings are system-based - verify complete assembly matches tested configuration.
+1. Ensure wall framing, ceiling grid, or structural substrate is clean, dry, and structurally sound.
+2. Select colour (black is standard behind perforated panels to conceal framing; white or grey for light-reflecting cavities).
+3. Cut panels accurately to size using a sharp utility knife or heavy-duty insulation shears.
+4. Friction-fit panels into framing bays or mechanically fix behind perforated ceiling/wall panels using insulation pins or clips.
+5. Butt panel edges tightly together to eliminate acoustic flanking gaps.
+6. Install perforated timber slats, metal ceiling tiles, or acoustic panelling directly in front of the Recital Core panels.
+7. Ensure panels are not compressed beyond specified cavity thickness.
 
 ## Safety and handling
 
@@ -78,11 +106,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Manufactured from recyclable polyester with high recycled PET content; zero chemical binders; zero formaldehyde; low VOC
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+15-Year Product Warranty
 
 ## Specification starting point
 

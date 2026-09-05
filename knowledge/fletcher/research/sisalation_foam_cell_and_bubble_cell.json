@@ -1,0 +1,197 @@
+{
+  "family_id": "FLETCHER_FOAM_BUBBLE_CELL",
+  "family_name": "Sisalation Foam Cell and Bubble Cell",
+  "datasheet_pdf_url": "https://insulation.com.au/product/sisalation-foam-cell-multipurpose/",
+  "sds_url": "https://insulation.com.au/wp-content/uploads/2023/12/SUIS-Sisalation-Foam-Cell.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Sisalation Foam Cell and Bubble Cell is an advanced 3-in-1\nreflective composite insulation range providing thermal insulation, a thermal\nbreak, and a vapour barrier. Available as Foam Cell Multipurpose (8.4mm\ncross-linked closed-cell foam core) or Bubble Cell (4.0mm polyethylene bubble\ncore) laminated between reflective aluminium foil layers with an anti-glare\ncoating, it reflects up to 95% of radiant heat. Engineered for steel and\ntimber-framed roofs and walls in residential, commercial, shed, and double-brick\napplications, it features a 150mm foil overlap flap for seamless jointing and\ncomplies with NCC thermal break requirements.",
+    "features": [
+      "3-in-1\nmultipurpose solution: thermal insulation, thermal break, and vapour barrier",
+      "Cross-linked closed-cell foam core (Foam Cell 8.4mm) or sealed polyethylene\nbubble core (Bubble Cell 4mm)",
+      "Reflects up to 95% of radiant heat, providing\ncooler interior conditions in hot climates",
+      "Delivers in-situ material thermal\nbreak (R0.20 to R0.25) to satisfy NCC steel framing requirements",
+      "Integrated 150mm foil flap on one edge to maximize coverage and minimize\ntaping",
+      "Group 2 fire hazard property rating (Foam Cell Multipurpose) for\ncommercial wall/ceiling linings",
+      "Low Flammability Index compliant with\nAS 1530.2; suitable for BAL 0-40 in roofs and BAL 0-FZ in walls per AS 3959",
+      "Anti-glare coating on outward-facing surface for safe installation in direct\nsunlight",
+      "High moisture and condensation resistance with Class 2 vapour\nbarrier rating",
+      "Extra Heavy Duty rating providing superior strength and tear\nresistance"
+    ],
+    "applications": [
+      "roof",
+      "roofline",
+      "wall",
+      "external wall",
+      "shed"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "Cross-linked closed\ncell foam (Foam Cell) or polyethylene bubble core (Bubble Cell) laminated with\nreflective foil",
+        "standard": ""
+      },
+      {
+        "property": "Nominal Thickness",
+        "value": "8.4 mm (Foam Cell Multipurpose / LT), 5.0 mm (Resi Liner), 4.0 mm (Shed Liner &\nBubble Cell)",
+        "standard": ""
+      },
+      {
+        "property": "Material R-values",
+        "value": "R0.25 (Foam Cell Multipurpose 8.4mm), R0.20 (Foam Cell LT 8.4mm), R0.14 (Bubble\nCell 4mm)",
+        "standard": "ASTM C518"
+      },
+      {
+        "property": "Roll Dimensions",
+        "value": "1350 mm width x 22.25 m length (30 m² per roll)",
+        "standard": ""
+      },
+      {
+        "property": "Integrated Flap Width",
+        "value": "150 mm foil overlap flap (Foam\nCell range)",
+        "standard": ""
+      },
+      {
+        "property": "Weight per Roll",
+        "value": "14.0\nkg (Multipurpose 8.4mm), 11.5 kg (Resi/Shed Liner 4-5mm), 14.0 kg (Bubble\nCell)",
+        "standard": ""
+      },
+      {
+        "property": "Duty Classification",
+        "value": "Extra\nHeavy Duty",
+        "standard": "AS/NZS 4200.1"
+      },
+      {
+        "property": "Water Control\nClassification",
+        "value": "Water Barrier",
+        "standard": "AS/NZS 4201.4"
+      },
+      {
+        "property": "Vapour Control Classification",
+        "value": "Class 2 Vapour Barrier\n(< 0.1429 µg/N·s)",
+        "standard": "ASTM E96 / AS/NZS 4200.1"
+      },
+      {
+        "property": "Emittance (Reflective Face)",
+        "value": "0.03 (97% heat reflection)",
+        "standard": "AS/NZS 4201.5"
+      },
+      {
+        "property": "Emittance (Anti-Glare Face)",
+        "value": "0.05 - 0.06",
+        "standard": "AS/NZS 4201.5"
+      },
+      {
+        "property": "Fire\nHazard Classification",
+        "value": "Group 2 (Foam Cell Multipurpose)",
+        "standard": "AS 5637.1 / AS ISO 9705"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Sisalation Foam Cell\nMultipurpose (8.4mm)",
+        "size_or_rating": "8.4 mm x 1350 mm x 22.25 m (30 m²,\nR0.25)",
+        "pack": "Roll (Code: 4006742)"
+      },
+      {
+        "variant": "Sisalation Foam Cell\nMultipurpose LT (8.4mm)",
+        "size_or_rating": "8.4 mm x 1350 mm x 22.25 m (30 m²,\nR0.20)",
+        "pack": "Roll (Code: 4006747)"
+      },
+      {
+        "variant": "Sisalation Foam Cell\nResi Liner (5.0mm)",
+        "size_or_rating": "5.0 mm x 1350 mm x 22.25 m (30 m²)",
+        "pack": "Roll (Code: 4006743)"
+      },
+      {
+        "variant": "Sisalation Foam Cell Shed Liner\n(4.0mm)",
+        "size_or_rating": "4.0 mm x 1350 mm x 22.25 m (30 m²)",
+        "pack": "Roll\n(Code: 4006741)"
+      },
+      {
+        "variant": "Sisalation Bubble Cell (4.0mm)",
+        "size_or_rating": "4.0 mm x 1350 mm x 22.25 m (30 m²)",
+        "pack": "Roll\n(Code: 4006740)"
+      }
+    ],
+    "fire": "Group 2 to AS 5637.1 / AS ISO 9705 (Foam Cell\nMultipurpose); Flammability Index ≤ 5 to AS 1530.2; Suitable for BAL 0-40 in\nroofs and BAL 0-FZ in walls to AS 3959",
+    "compliance": "AS/NZS 4859.1,\nAS/NZS 4200.1:2017, AS/NZS 4200.2, AS 5637.1, AS 3959, NCC 2022 thermal break\nprovisions",
+    "sustainability": "CFC and HCFC free; non-hazardous; low VOC\nemissions; zero ODP",
+    "install": [
+      "Roll out over roof purlins or wall framing\nwith anti-glare face oriented towards the installer/outward",
+      "Align roll edges\nso the 150mm factory foil flap overlaps the adjoining foam roll",
+      "Secure to\nframing using mechanical fasteners or wafer-head screws with washers",
+      "Ensure a\nminimum 20mm air cavity exists adjacent to the reflective face to maximize\nsystem R-values",
+      "Tape all overlapping seams and penetrations with Vapastop 883\naluminium foil tape for continuous air/vapour seal",
+      "For steel-framed walls,\nfix cladding directly through the foam cell to create a compliant R0.20+ thermal\nbreak",
+      "At roof eaves, ensure membrane drains freely into the gutter without\npooling"
+    ],
+    "selection_checklist": [
+      "Confirm requirement for thermal break\n(Foam Cell 8.4mm delivers R0.20 to R0.25 on steel studs)",
+      "Verify if building\nclass 2-9 requires a Group 2 fire hazard rating (select Foam Cell\nMultipurpose)",
+      "Choose between foam core (Foam Cell) and bubble core (Bubble\nCell) based on specification",
+      "Calculate roll quantities (each roll covers 30m²\ninclusive of the 150mm overlap)",
+      "Order matching Vapastop 883 foil tape"
+    ],
+    "accessories": [
+      "Vapastop 883 Foil Tape (48mm / 72mm)",
+      "Wafer-head\nself-drilling screws",
+      "Fastener washers"
+    ],
+    "limitations": [
+      "Must be kept dry\nprior to and during installation",
+      "Do not use in direct contact with wet\nconcrete or alkaline mortar to prevent foil corrosion",
+      "Not suitable for\napplications subject to continuous water immersion"
+    ],
+    "warranty": "Backed by\nFletcher Insulation product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Sisalation Foam Cell",
+      "Sisalation Bubble Cell",
+      "Foam Cell Multipurpose",
+      "thermal break insulation foil",
+      "foil bubble insulation",
+      "cross linked foam\nfoil",
+      "Shed Liner insulation",
+      "Resi Liner foil",
+      "R0.20 thermal break",
+      "R0.25\nthermal break"
+    ],
+    "problem_keywords": [
+      "thermal bridging across steel framing\nstuds",
+      "hot metal shed condensation",
+      "sweating shed roof in winter",
+      "meeting\nNCC steel frame thermal break requirement",
+      "radiant heat in corrugated roof",
+      "drafts in steel portal sheds"
+    ],
+    "placement": [
+      "roof",
+      "roofline",
+      "wall",
+      "external wall",
+      "shed"
+    ],
+    "priority_fit": [
+      "thermal",
+      "condensation",
+      "fire",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Installing over steel wall framing and roof\npurlins to provide a compliant R0.20 / R0.25 thermal break",
+      "Insulating metal\ngarages, residential workshops, and agricultural sheds against heat and\ncondensation",
+      "Thermal break and vapour barrier in residential cavity brick and\ncommercial metal clad walls"
+    ],
+    "not_for": [
+      "Cold climate zones requiring\nbreathable Class 4 wall wraps",
+      "Direct underfloor applications exposed to\nsubfloor soil contact",
+      "Direct contact with wet cement or mortar"
+    ],
+    "rag_summary": "Sisalation Foam Cell and Bubble Cell is an Extra Heavy\nDuty 3-in-1 reflective insulation, thermal break, and Class 2 vapour barrier\ncomposite manufactured by Fletcher Insulation. Built with an 8.4mm closed-cell\ncross-linked foam core (R0.20 to R0.25) or 4.0mm bubble core laminated between\naluminium foil faces with an anti-glare finish and a 150mm overlap flap, it\nreflects up to 95% of radiant heat while preventing thermal bridging on steel\nstuds. Tested to AS 5637.1 (Group 2 rating for Multipurpose) and compliant with\nAS 3959 up to BAL-40, it is ideal for steel-framed roofs, walls, and sheds."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

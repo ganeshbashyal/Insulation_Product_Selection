@@ -1,0 +1,184 @@
+{
+  "family_id": "ECOWOOL_ACOUSTIC_PARTITION_BATT",
+  "family_name": "Ecowool Acoustic Partition Batt",
+  "datasheet_pdf_url": "https://pgfinsulation.com.au/products/acoustic-partition-batts/",
+  "sds_url": "https://pgfinsulation.com.au/resource-centre/technical-documentation/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Ecowool Acoustic Partition Batts are high-performance glass\nmineral wool insulation batts manufactured by PGF Insulation using SensiTouch\ntechnology. Employing an innovative binder incorporating a natural\nanti-formaldehyde ingredient, they are low in VOCs, soft to handle, and\nnon-combustible. Designed for friction-fit installation in timber or steel stud\npartition walls and ceiling systems in residential and commercial buildings,\nthey significantly reduce airborne sound transmission while providing thermal\nresistance.",
+    "features": [
+      "SensiTouch Technology with natural\nanti-formaldehyde binder",
+      "High acoustic performance tested to ASTM C423",
+      "Non-combustible when tested to AS 1530.1:1994",
+      "Low VOC emissions tested in\naccordance with ASTM D 5116-06",
+      "Manufactured from nearly 80% recycled glass",
+      "Soft to touch and less itchy compared to conventional glass wool",
+      "Firm\nfriction fit between studs prevents sagging in cavity",
+      "Free from CFCs, HCFCs,\nand ozone-depleting substances",
+      "Bio-soluble fibres posing no long-term health\nrisk",
+      "Compliant with AS/NZS 4859.1:2018 and the Building Code of Australia\n(BCA)"
+    ],
+    "applications": [
+      "wall",
+      "internal wall",
+      "ceiling",
+      "between floors"
+    ],
+    "technical": [
+      {
+        "property": "Densities",
+        "value": "11 kg/m³, 14 kg/m³, 24\nkg/m³, 32 kg/m³",
+        "standard": ""
+      },
+      {
+        "property": "Thermal R-values",
+        "value": "R1.8 (75mm, 11kg/m³), R1.9 (75mm, 14kg/m³), R2.0 (75mm, 17kg/m³), R2.2\n(75mm, 32kg/m³), R2.5 (110mm, 11kg/m³)",
+        "standard": "AS/NZS 4859.1:2018"
+      },
+      {
+        "property": "Thicknesses",
+        "value": "75 mm, 90 mm, 110 mm",
+        "standard": ""
+      },
+      {
+        "property": "Dimensions",
+        "value": "1200 mm x 450 mm, 1200 mm x 600 mm",
+        "standard": ""
+      },
+      {
+        "property": "Combustibility",
+        "value": "Non-combustible",
+        "standard": "AS 1530.1:1994"
+      },
+      {
+        "property": "Early Fire Hazard Indices",
+        "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke\nDeveloped: 0-1",
+        "standard": "AS 1530.3:1999"
+      },
+      {
+        "property": "Surface Burning\nCharacteristics",
+        "value": "Pass / Limited Combustibility",
+        "standard": "ASTM\nE84"
+      },
+      {
+        "property": "Thermal Conductivity",
+        "value": "Tested at 23°C mean\ntemperature",
+        "standard": "ASTM C518"
+      },
+      {
+        "property": "Acoustic Performance",
+        "value": "Tested Type A mounting",
+        "standard": "ASTM C423"
+      },
+      {
+        "property": "VOC\nEmission",
+        "value": "Low VOC content",
+        "standard": "ASTM D 5116-06"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Acoustic Partition Batt 11kg/m³ R1.8",
+        "size_or_rating": "75 mm x 1200 mm x 450/600 mm",
+        "pack": "Pack of 20 batts\n(14.4 m² / 10.8 m²)"
+      },
+      {
+        "variant": "Acoustic Partition Batt 14kg/m³ R1.9",
+        "size_or_rating": "75 mm x 1200 mm x 450/600 mm",
+        "pack": "Pack of 15 batts\n(10.8 m²)"
+      },
+      {
+        "variant": "Acoustic Partition Batt 24kg/m³ R2.0",
+        "size_or_rating": "75 mm x 1200 mm x 450/600 mm",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "Acoustic Partition Batt 32kg/m³ R2.2",
+        "size_or_rating": "75 mm\nx 1200 mm x 450/600 mm",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "Acoustic\nPartition Batt 11kg/m³ R2.5",
+        "size_or_rating": "110 mm x 1200 mm x 450/600 mm",
+        "pack": "Pack of batts"
+      }
+    ],
+    "fire": "Non-combustible to AS 1530.1:1994;\nAS 1530.3:1999 indices: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke\nDeveloped 0-1; ASTM E84 compliant",
+    "compliance": "AS/NZS 4859.1:2018, Building\nCode of Australia (BCA) / NCC compliant",
+    "sustainability": "Manufactured from\nup to 80% recycled glass; SensiTouch anti-formaldehyde binder; Low VOC (ASTM\nD 5116); Free from CFCs and HCFCs; Zero ODP; Bio-soluble FBS-1",
+    "install": [
+      "Ensure framing studs and cavity spaces are clean, dry, and ready for\ninsulation",
+      "Select batt width matching stud spacing (450mm or 600mm)",
+      "Friction fit batts snugly between timber or steel studs without gaps or\nexcessive compression",
+      "Ensure batts butt tightly against top and bottom plates\nand adjacent batts",
+      "Cut batts neatly around electrical boxes, plumbing, and\nstructural penetrations using a utility knife",
+      "Do not compress batts beyond\ncavity depth to maintain acoustic and thermal ratings",
+      "Complete lining with\nacoustic plasterboard or specified wall linings as per project design"
+    ],
+    "selection_checklist": [
+      "Confirm stud depth (e.g. 75mm, 90mm, or 110mm)",
+      "Confirm stud spacing (450mm or 600mm centres)",
+      "Check acoustic acoustic Rw/STC\nspecification to select appropriate density (11kg, 14kg, 24kg, or 32kg/m³)",
+      "Verify fire compliance requirements (AS 1530.1 non-combustible)"
+    ],
+    "accessories": [
+      "Acoustic sealant",
+      "Resilient isolation clips",
+      "Utility\nknife"
+    ],
+    "limitations": [
+      "Indoor use only; not for direct external weather\nexposure",
+      "Avoid excessive compression which reduces acoustic absorption\nperformance",
+      "Do not install over unsealed damp or leaking surfaces"
+    ],
+    "warranty": "PGF Australia product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Ecowool Acoustic Partition Batt",
+      "Ecowool partition batts",
+      "PGF acoustic\nbatts",
+      "Ecowool acoustic insulation",
+      "75mm acoustic batts",
+      "14kg partition\nbatts",
+      "32kg partition batts",
+      "SensiTouch acoustic batts",
+      "Ecowool R1.8\nacoustic",
+      "Ecowool R2.5 partition"
+    ],
+    "problem_keywords": [
+      "noise between\noffice partitions",
+      "hearing conversations through bedroom wall",
+      "television\nnoise between rooms",
+      "meeting commercial acoustic partition code",
+      "itchy\nfiberglass partition insulation",
+      "commercial wall acoustic compliance"
+    ],
+    "placement": [
+      "wall",
+      "internal wall",
+      "ceiling",
+      "between floors"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "thermal",
+      "fire",
+      "sustainability"
+    ],
+    "use_cases": [
+      "Acoustic and thermal dampening in commercial steel-stud office\npartitions",
+      "Sound absorption in internal drywall partitions separating\nbedrooms and living areas",
+      "Inter-tenancy acoustic infill in multi-residential\napartment walls"
+    ],
+    "not_for": [
+      "External weatherboard wrap",
+      "Direct floor\ntraffic surfaces",
+      "Underfloor joist insulation without support"
+    ],
+    "rag_summary": "Ecowool Acoustic Partition Batts are non-combustible glass\nmineral wool batts manufactured by PGF Insulation using SensiTouch low-VOC,\nanti-formaldehyde technology. Available in densities of 11, 14, 24, and 32 kg/m³\nand thicknesses from 75mm to 110mm (R1.8 to R2.5), they fit 450mm and 600mm stud\nspacings to dampen room-to-room airborne noise transfer. Engineered from up\nto 80% recycled glass, they are non-combustible to AS 1530.1 and provide a soft,\nlow-itch installation for residential and commercial drywall partitions."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

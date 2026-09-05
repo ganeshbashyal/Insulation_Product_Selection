@@ -1,0 +1,60 @@
+{
+  "family_id": "HUSHTEC_BATT",
+  "family_name": "Hushtec Batt",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "gemini_not_found",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "",
+    "features": "",
+    "applications": "",
+    "technical": "",
+    "range": "",
+    "fire": "",
+    "compliance": "",
+    "sustainability": "",
+    "install": "",
+    "selection_checklist": "",
+    "accessories": "",
+    "limitations": "",
+    "warranty": ""
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Hushtec Batt",
+      "Hushtec acoustic batt",
+      "Hushtec insulation batt",
+      "Hushtec\nwall batt",
+      "Hushtec sound batt"
+    ],
+    "problem_keywords": [
+      "wall cavity noise\ntransmission",
+      "sound transfer through stud walls",
+      "acoustic cavity\ninsulation",
+      "thermal and acoustic batts"
+    ],
+    "placement": [
+      "wall",
+      "internal\nwall",
+      "ceiling",
+      "between floors"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "thermal"
+    ],
+    "use_cases": [
+      "Acoustic infill batts in wall stud cavities",
+      "Ceiling cavity\nsound absorption"
+    ],
+    "not_for": [
+      "External weather-exposed temporary fencing",
+      "Underground water contact",
+      "High temperature pipe lagging"
+    ],
+    "rag_summary": "Hushtec Batt is an unverified catalog placeholder within the Hushtec brand\nfamily. Hushtec specializes strictly in exterior and industrial noise control\nsystems—including portable acoustic curtains, temporary fence barriers, and\nacoustic enclosures—and does not manufacture residential or commercial internal\ncavity insulation batts. For cavity acoustic batts in Australian construction,\nproducts such as Bradford Soundscreen, Fletcher Soundbreak, or Ecowool\nNoiseBreak are specified."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

@@ -1,0 +1,165 @@
+{
+  "family_id": "KINGSPAN_K18",
+  "family_name": "Kingspan K18",
+  "datasheet_pdf_url": "https://www.insulation.kingspan.com/ie/en-ie/products/rigid-insulation/kooltherm/kooltherm-k18-insulated-plasterboard",
+  "sds_url": "https://www.insulation.kingspan.com/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Kingspan\nKooltherm K18 Insulated Plasterboard is a premium performance insulated\ndry-lining board engineered for mechanically fixed internal wall insulation.\nCombining rigid thermoset phenolic insulation with a low-emissivity composite\nfoil backing and a 12.5mm tapered-edge gypsum plasterboard face, it delivers\nthermal conductivities as low as 0.021 W/m·K. It is designed specifically for\nmechanically fixing to timber framing, metal furring channels, and timber\nbattens over solid masonry, brickwork, or concrete walls.",
+    "features": [
+      "Engineered specifically for mechanically fixed dry-lining systems",
+      "3-in-1\nintegrated board: thermal insulation, vapor control, and plasterboard lining",
+      "Exceptional thermal conductivity of 0.021 W/m·K (core ≥ 45mm)",
+      "Ultra-thin\nprofile retains maximum internal living space in refurbishment and new builds",
+      "Low-emissivity foil backing enhances thermal resistance across framing\ncavities",
+      "12.5mm plasterboard facing provides a rigid, robust interior wall\nsurface",
+      "Fiber-free closed-cell phenolic core resistant to moisture passage",
+      "Straightforward mechanical screw-fixing to timber battens, steel studs, or\nmetal furring systems",
+      "Manufactured with zero ODP and low GWP blowing agents"
+    ],
+    "applications": [
+      "wall",
+      "internal wall",
+      "ceiling"
+    ],
+    "technical": [
+      {
+        "property": "Thermal Conductivity (Insulant Core)",
+        "value": "0.021 W/m·K\n(thicknesses ≥ 45mm), 0.023 W/m·K (thicknesses 25-44mm)",
+        "standard": "EN 13166"
+      },
+      {
+        "property": "Thermal Conductivity (Plasterboard)",
+        "value": "0.19 W/m·K",
+        "standard": "EN 520"
+      },
+      {
+        "property": "Overall Product Thicknesses",
+        "value": "37.5 mm, 42.5 mm, 52.5 mm, 62.5 mm, 72.5 mm, 82.5 mm, 92.5 mm (includes 12.5mm\nplasterboard)",
+        "standard": ""
+      },
+      {
+        "property": "Board Dimensions",
+        "value": "2400 mm x 1200 mm (2.88 m²)",
+        "standard": ""
+      },
+      {
+        "property": "Plasterboard\nFacing",
+        "value": "12.5 mm tapered-edge gypsum plasterboard",
+        "standard": "EN 520"
+      },
+      {
+        "property": "Compressive Strength (Core)",
+        "value": "≥ 100 kPa\nat 10% deformation",
+        "standard": "EN 826"
+      },
+      {
+        "property": "Reaction to Fire",
+        "value": "Euroclass B-s1, d0",
+        "standard": "EN 13501-1"
+      },
+      {
+        "property": "Water\nVapor Resistance",
+        "value": "> 100 MN·s/g",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Kooltherm K18 Insulated Plasterboard 37.5mm",
+        "size_or_rating": "37.5 mm x 1200 mm x 2400 mm",
+        "pack": "Board"
+      },
+      {
+        "variant": "Kooltherm K18\nInsulated Plasterboard 52.5mm",
+        "size_or_rating": "52.5 mm x 1200 mm x 2400 mm",
+        "pack": "Board"
+      },
+      {
+        "variant": "Kooltherm K18 Insulated Plasterboard 62.5mm",
+        "size_or_rating": "62.5 mm x 1200 mm x 2400 mm",
+        "pack": "Board"
+      },
+      {
+        "variant": "Kooltherm K18 Insulated Plasterboard 72.5mm",
+        "size_or_rating": "72.5 mm x 1200\nmm x 2400 mm",
+        "pack": "Board"
+      },
+      {
+        "variant": "Kooltherm K18 Insulated\nPlasterboard 82.5mm",
+        "size_or_rating": "82.5 mm x 1200 mm x 2400 mm",
+        "pack": "Board"
+      }
+    ],
+    "fire": "Reaction to Fire Euroclass B-s1, d0 to EN 13501-1; Low\nsmoke generation",
+    "compliance": "EN 13166, EN 13950, BBA Certificate 14/5133",
+    "sustainability": "Zero ODP and low GWP blowing agent; fiber-free core; low VOC\nemissions",
+    "install": [
+      "Install treated timber battens (minimum 25mm x 50mm)\nor metal furring channels vertically at 400mm or 600mm centers",
+      "Ensure\nbackground masonry is dry and treated with damp-proof measures where required",
+      "Cut Kooltherm K18 boards approximately 15mm short of floor-to-ceiling height",
+      "Fix boards mechanically using drywall screws driven through the plasterboard\nand insulation into battens/channels",
+      "Space drywall screws at maximum 300mm\ncenters (200mm at corners), ensuring screw heads seat just below plaster\nsurface",
+      "Ensure screws penetrate timber battens by at least 25mm or steel\nchannels by at least 10mm",
+      "Tape and flush joints using standard jointing\ncompound and paper tape"
+    ],
+    "selection_checklist": [
+      "Confirm mechanical batten\nor furring channel fixing method is preferred over adhesive dab bonding",
+      "Select overall thickness based on target thermal performance",
+      "Check\nbatten/stud centers (400mm vs 600mm)",
+      "Ensure drywall screw lengths accommodate\nboard thickness plus required batten penetration"
+    ],
+    "accessories": [
+      "Treated\ntimber battens or metal furring channels",
+      "Drywall screws",
+      "Plasterboard joint\ntape and compound"
+    ],
+    "limitations": [
+      "Must be mechanically fixed; not designed\nfor direct adhesive dot-and-dab fixing (use K17 for adhesive bonding)",
+      "Not\nsuitable for damp or unventilated solid walls without moisture treatment",
+      "Do\nnot use directly adjacent to combustion flues or solid fuel stoves"
+    ],
+    "warranty": "Standard Kingspan manufacturer product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Kingspan K18",
+      "Kooltherm K18",
+      "K18 Insulated\nPlasterboard",
+      "mechanically fixed insulated plasterboard",
+      "phenolic drylining\nboard",
+      "K18 battened plasterboard",
+      "internal wall insulation K18"
+    ],
+    "problem_keywords": [
+      "insulating uneven solid brick walls",
+      "mechanically\nfixing insulated plasterboard",
+      "cold interior walls in older buildings",
+      "thermal bridging across framing battens",
+      "space loss from internal wall\ninsulation"
+    ],
+    "placement": [
+      "wall",
+      "internal wall",
+      "ceiling"
+    ],
+    "priority_fit": [
+      "thermal",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Mechanically\nscrew-fixing to treated timber battens or metal furring channels over uneven\nsolid masonry walls",
+      "Internal wall thermal upgrades in historic solid-brick or\nstone buildings",
+      "Drylining ceiling slopes and partition walls requiring\nmechanical attachment"
+    ],
+    "not_for": [
+      "Direct adhesive dot-and-dab fixing\nwithout battens (use K17)",
+      "High-moisture shower recesses without\nwaterproofing",
+      "Exterior facades"
+    ],
+    "rag_summary": "Kingspan Kooltherm K18\nInsulated Plasterboard is a 3-in-1 insulated dry-lining board combining rigid\nthermoset phenolic foam (conductivity 0.021 W/m·K), a low-emissivity composite\nfoil backing, and a 12.5mm tapered-edge gypsum plasterboard face.\nPurpose-designed for mechanical screw-fixing to timber battens, metal furring\nchannels, or studs over solid masonry and concrete walls, it provides thermal\nratings up to R3.8 while preserving interior room dimensions. Euroclass B-s1, d0\nfire rated and fiber-free, it delivers robust, moisture-resistant internal wall\ninsulation."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

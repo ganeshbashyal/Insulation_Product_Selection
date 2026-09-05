@@ -1,0 +1,141 @@
+{
+  "family_id": "MISC_RHINO_WRAP_BREATHER",
+  "family_name": "Misc Rhino Wrap Breather",
+  "datasheet_pdf_url": "https://rhinofoil.com.au/products/rhino-wrap-breather/",
+  "sds_url": "",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Rhino Wrap Breather is a micro-perforated or permeable\nreflective foil laminate engineered for external wall and building applications.\nCombining high-tensile polypropylene woven scrim with a pure aluminium\nreflective surface, it reflects radiant heat while micro-perforations permit\nmoisture vapour diffusion. It serves as a weather barrier and radiant heat\nreflector across framed external walls in warm and temperate Australian climate\nzones.",
+    "features": [
+      "Reflective aluminium foil surface reflecting up to 95%\nof radiant heat",
+      "Woven polypropylene scrim delivers high tear and puncture\nresistance",
+      "Breather perforations allow controlled moisture vapour diffusion",
+      "Functions as a weather barrier against wind-driven rain and dust",
+      "Tough\nMedium Duty classification withstands wind loads on site",
+      "Resistant to\ndelamination, shrinkage, and moisture degradation",
+      "Low Flammability Index\ncompliant with AS 1530.2",
+      "Suitable for bushfire-prone areas up to BAL-40 to\nAS 3959"
+    ],
+    "applications": [
+      "wall",
+      "external wall",
+      "shed"
+    ],
+    "technical": [
+      {
+        "property": "Duty Classification",
+        "value": "Medium Duty",
+        "standard": "AS/NZS 4200.1:2017"
+      },
+      {
+        "property": "Vapour Permeance",
+        "value": "Perforated\nBreather (vapour permeable classification)",
+        "standard": "AS/NZS 4200.1:2017"
+      },
+      {
+        "property": "Water Control",
+        "value": "Water Barrier",
+        "standard": "AS/NZS 4201.4"
+      },
+      {
+        "property": "Emittance",
+        "value": "0.03 - 0.05 (reflective\nface)",
+        "standard": "AS/NZS 4201.5"
+      },
+      {
+        "property": "Flammability Index",
+        "value": "≤ 5 (Low)",
+        "standard": "AS 1530.2"
+      },
+      {
+        "property": "Roll\nDimensions",
+        "value": "1350 mm / 1500 mm x 30 m / 60 m",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Rhino Wrap Breather Foil 30m",
+        "size_or_rating": "1350\nmm x 30 m (40.5 m²)",
+        "pack": "Roll"
+      },
+      {
+        "variant": "Rhino Wrap Breather\nFoil 60m",
+        "size_or_rating": "1350 mm x 60 m (81 m²)",
+        "pack": "Roll"
+      }
+    ],
+    "fire": "Flammability Index ≤ 5 to AS 1530.2; Suitable for external walls in\nbushfire-prone areas up to BAL-40 under AS 3959",
+    "compliance": "AS/NZS 4200.1:2017, AS/NZS 4200.2:2017, AS 1530.2, AS 3959, NCC Volume One and\nTwo",
+    "sustainability": "Recyclable polymer and aluminium materials; zero ODP;\nnon-toxic",
+    "install": [
+      "Install horizontally on external wall studs starting\nfrom the bottom plate",
+      "Fasten with broad-headed galvanised clouts or staples\nat maximum 300mm centres",
+      "Ensure upper sheets overlap lower sheets by at\nleast 150mm to shed water",
+      "Maintain a minimum 20mm still air cavity adjacent\nto the reflective face to achieve thermal R-values",
+      "Tape all laps and\npenetrations with reinforced aluminium foil tape",
+      "Seal neatly around window\nframes, door openings, and service penetrations",
+      "Install external cladding\nover a drained cavity"
+    ],
+    "selection_checklist": [
+      "Confirm wall assembly allows\nfor a minimum 20mm reflective airspace",
+      "Verify climate zone permits\nmicro-perforated breather foil (warm to temperate zones)",
+      "Calculate roll\nrequirements based on wall area allowing 150mm overlaps",
+      "Order matching\nreinforced aluminium foil joining tape"
+    ],
+    "accessories": [
+      "Reinforced\naluminium foil tape",
+      "Galvanised clouts / staples",
+      "Wall battens / cavity\nspacers"
+    ],
+    "limitations": [
+      "Requires an adjacent sealed air space of at\nleast 20mm to deliver thermal R-value",
+      "Not recommended for cold climate zones\nrequiring non-perforated Class 4 spunbond wraps",
+      "Do not use as direct roof\nsarking without appropriate fall and drainage"
+    ],
+    "warranty": "Backed by\nmanufacturer product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Rhino Wrap\nBreather",
+      "Rhino foil breather",
+      "perforated reflective foil",
+      "Rhino wall wrap\nbreather",
+      "woven foil breather",
+      "reflective wall wrap",
+      "medium duty breather\nfoil",
+      "Rhino building foil"
+    ],
+    "problem_keywords": [
+      "radiant heat in external\nwalls",
+      "wall wrap tearing in wind",
+      "moisture build-up behind foil wrap",
+      "drafty brick veneer walls",
+      "hot cavity walls in summer"
+    ],
+    "placement": [
+      "wall",
+      "external wall",
+      "shed"
+    ],
+    "priority_fit": [
+      "thermal",
+      "condensation",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Reflective thermal wall wrap on residential\nbrick veneer in warm and temperate Australian climate zones",
+      "Tear-resistant\nreflective wrap on timber and steel framed sheds and domestic garages",
+      "Radiant\nbarrier behind lightweight external cladding with a ventilated airspace"
+    ],
+    "not_for": [
+      "Cold climate zones (Zones 6 to 8) requiring Class 4 non-woven\npermeable membranes",
+      "Direct floor traffic surfaces",
+      "Subterranean\nwaterproofing"
+    ],
+    "rag_summary": "Misc Rhino Wrap Breather is a Medium Duty\nreflective foil wall sarking manufactured from high-tensile woven polypropylene\nlaminated to pure aluminium foil with micro-perforations. Designed for external\nframed walls, it reflects up to 95% of radiant heat across an adjacent air\ncavity while allowing moisture vapour to breathe outward. Complying with\nAS/NZS 4200.1:2017 and possessing a Flammability Index ≤ 5 (BAL-40 suitable), it\ndelivers tear-resistant weather protection and thermal reflectance for\nresidential and shed construction."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

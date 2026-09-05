@@ -1,0 +1,166 @@
+{
+  "family_id": "PROCTOR_BAL",
+  "family_name": "Proctor BAL",
+  "datasheet_pdf_url": "https://proctorgroup.com.au/roof-ventilation/",
+  "sds_url": "",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Proctor BAL represents specialized bushfire ember\nprotection mesh components and BAL-ready passive roof and wall ventilation\nproducts engineered by Proctor Group Australia. Comprising corrosion-resistant\nwoven metal ember guard mesh with maximum aperture openings under 2mm, it\nintegrates directly into ProctorVent over-fascia vents (FV10 BAL, FV25 BAL),\nridge vents (RV10 BAL), and drainage battens (DB-FR BAL). Designed to meet\nAustralian Standard AS 3959 for bushfire attack levels from BAL-12.5 up to\nBAL-40 and BAL-FZ, it prevents burning embers and debris from entering the roof\nspace or wall cavity while maintaining continuous passive ventilation and\ncondensation drainage.",
+    "features": [
+      "Corrosion-resistant metal ember\nprotection mesh with aperture size ≤ 2mm",
+      "Complies with Australian Standard\nAS 3959 for bushfire-prone areas up to BAL-40 / BAL-FZ",
+      "Pre-fitted as a\nBAL-ready option on ProctorVent Over-Fascia Vents (FV10 BAL, FV25 BAL)",
+      "Integrated into ProctorVent Ridge Vents (RV10 BAL) for natural convection roof\nventing",
+      "Available as integrated BAL ember protection in ProctorPassive DB-FR\ndrainage battens",
+      "Prevents wind-borne burning embers, leaves, and large\ninsects from entering roof cavities",
+      "Maintains calculated, unimpeded passive\nairflow to exhaust moisture and prevent condensation",
+      "Non-combustible metal\nmesh construction resisting high ember attack temperatures",
+      "Durable,\nrot-proof, and designed for the lifetime of the roofing structure"
+    ],
+    "applications": [
+      "roof",
+      "roofline",
+      "wall",
+      "external wall"
+    ],
+    "technical": [
+      {
+        "property": "Mesh Aperture Size",
+        "value": "≤ 2.0 mm (complies with ember\nguard requirements)",
+        "standard": "AS 3959"
+      },
+      {
+        "property": "Mesh Material",
+        "value": "Corrosion-resistant stainless steel or bronze / aluminium wire mesh",
+        "standard": "AS 3959"
+      },
+      {
+        "property": "Vent Airflow Capacity (FV10 BAL)",
+        "value": "10,000 mm² per linear metre (1/300 ratio)",
+        "standard": ""
+      },
+      {
+        "property": "Vent Airflow Capacity (FV25 BAL)",
+        "value": "25,000 mm² per linear\nmetre (1/150 ratio)",
+        "standard": ""
+      },
+      {
+        "property": "Vent Airflow Capacity\n(RV10 BAL)",
+        "value": "10,000 mm² per linear metre",
+        "standard": ""
+      },
+      {
+        "property": "Bushfire Attack Level Suitability",
+        "value": "BAL-12.5, BAL-19,\nBAL-29, BAL-40, and BAL-FZ (in compliant assemblies)",
+        "standard": "AS 3959"
+      },
+      {
+        "property": "Combustibility",
+        "value": "Non-combustible metal mesh",
+        "standard": "AS 1530.1"
+      },
+      {
+        "property": "Service Temperature",
+        "value": "-40°C\nto +90°C (vent body), mesh exceeds 500°C",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "ProctorVent Over Fascia Vent FV10 BAL",
+        "size_or_rating": "10,000\nmm²/m airflow with pre-fitted BAL mesh",
+        "pack": "Unit / Linear metre"
+      },
+      {
+        "variant": "ProctorVent Over Fascia Vent FV25 BAL",
+        "size_or_rating": "25,000\nmm²/m airflow with pre-fitted BAL mesh",
+        "pack": "Unit / Linear metre"
+      },
+      {
+        "variant": "ProctorVent Ridge Vent RV10 BAL",
+        "size_or_rating": "10,000 mm²/m\nairflow with pre-fitted BAL mesh",
+        "pack": "Unit / Linear metre"
+      },
+      {
+        "variant": "ProctorPassive DB-FR BAL Option",
+        "size_or_rating": "10.5 mm x 40 mm with\nintegrated BAL mesh (max 2mm)",
+        "pack": "Pack"
+      }
+    ],
+    "fire": "Mesh complies with\nAS 3959 ember protection clause (aperture ≤ 2mm, non-combustible material); Vent\nbody tested to AS 1530.3 (Spread of Flame Index: 0)",
+    "compliance": "AS 3959:2018 (Construction of buildings in bushfire-prone areas), NCC 2022\nVolume One and Two",
+    "sustainability": "100% recyclable metal and polymer\ncomponents; zero ODP; non-toxic",
+    "install": [
+      "Select ProctorVent BAL-ready\nvents pre-fitted with ≤ 2mm metal mesh",
+      "For eaves ventilation, fix FV10 BAL or\nFV25 BAL over the top edge of the fascia board prior to installing roof sheeting\nor gutters",
+      "For ridge ventilation, install RV10 BAL continuously along the\nroof ridge over the cut roof underlay",
+      "Ensure the BAL mesh completely covers\nall ventilation openings with zero gaps exceeding 2mm",
+      "Secure vents\nmechanically into timber or metal fascia and rafters using non-corrosive\nfasteners",
+      "Fix roof cladding over the assembly ensuring the ember-guarded\nventilation pathway remains open and unobstructed"
+    ],
+    "selection_checklist": [
+      "Confirm designated Bushfire Attack Level (BAL-12.5, BAL-19, BAL-29, or\nBAL-40)",
+      "Select vent model (FV10 for roof pitch >22°; FV25 for pitch <22° and\ncathedral roofs)",
+      "Ensure the order specifies the 'BAL Ready Option' with\npre-fitted metal mesh",
+      "Calculate total linear meterage of eaves and ridges\nrequiring ventilation"
+    ],
+    "accessories": [
+      "ProctorWrap HTR / HTS roof\nunderlays",
+      "ProctorVent Eaves Baffle (EB)",
+      "Corrosion-resistant fasteners"
+    ],
+    "limitations": [
+      "Mesh openings must be kept clear of paint, sealant, and\nconstruction dust during building works",
+      "Do not install without roof underlay;\ndesigned as part of a complete roof envelope system",
+      "Ensure all fascia and\nridge junctions are tightly fitted with no bypass gaps greater than 2mm"
+    ],
+    "warranty": "Backed by Proctor Group Australia product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Proctor BAL",
+      "ProctorVent BAL mesh",
+      "bushfire ember\nvent",
+      "BAL-40 roof vent",
+      "FV10 BAL",
+      "FV25 BAL",
+      "RV10 BAL",
+      "ember guard\nmesh 2mm",
+      "bushfire roof ventilation",
+      "Proctor BAL mesh"
+    ],
+    "problem_keywords": [
+      "ember attack through roof eaves",
+      "bushfire compliance\nAS 3959",
+      "condensation in bushfire zone roof",
+      "eaves vent allowing ember\nentry",
+      "ridge vent ember risk in BAL-40",
+      "roof space moisture buildup in\nbushfire area"
+    ],
+    "placement": [
+      "roof",
+      "roofline",
+      "wall",
+      "external wall"
+    ],
+    "priority_fit": [
+      "fire",
+      "condensation",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Passive roof eaves and fascia ventilation in bushfire-prone areas up to BAL-40\nusing pre-fitted ≤2mm ember mesh",
+      "Continuous ridge ventilation on metal roofs\nin BAL-12.5 to BAL-40 zones with RV10 BAL vents",
+      "Ember-protected drainage\ncavity battens in external walls constructed to AS 3959 bushfire standards"
+    ],
+    "not_for": [
+      "Internal drywall cavity batts",
+      "Underfloor soil contact",
+      "Direct\nglazed window screens"
+    ],
+    "rag_summary": "Proctor BAL comprises specialized\nbushfire ember protection mesh components and BAL-ready passive ventilation\nproducts engineered by Proctor Group Australia. Featuring non-combustible\ncorrosion-resistant metal mesh with apertures ≤ 2mm, it integrates directly into\nProctorVent over-fascia vents (FV10 BAL, FV25 BAL), ridge vents (RV10 BAL), and\ndrainage battens. Fully compliant with AS 3959 for bushfire attack levels from\nBAL-12.5 up to BAL-40 (and BAL-FZ in compliant assemblies), it blocks burning\nembers and debris while maintaining essential airflow to prevent roof cavity\ncondensation."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

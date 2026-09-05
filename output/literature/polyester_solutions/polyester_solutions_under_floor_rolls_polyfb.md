@@ -1,7 +1,7 @@
 ---
 title: "Polyester Solutions Under Floor Rolls - PolyFB - Batt Insulation | Polyester Solutions"
-description: "Quality insulation engineered for Australian conditions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled pla"
-keywords: "Polyester Solutions Under Floor Rolls - PolyFB, Polyester Solutions batt, floor insulation, insulation Australia, Polyester Solutions Australia"
+description: "Polyester Solutions Underfloor Insulation (PolyFB / Poly-Floor) consists of 100% polyester thermal and acoustic insulation rolls, pre-cut to 450mm wid"
+keywords: "Polyester Solutions Under Floor Rolls - PolyFB, Polyester Solutions batt, floor insulation, underfloor insulation, insulation Australia, Polyester Solutions Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: POLYESTER_SOLUTIONS_UNDER_FLOOR_ROLLS_POLYFB
 ---
@@ -10,29 +10,34 @@ family_id: POLYESTER_SOLUTIONS_UNDER_FLOOR_ROLLS_POLYFB
 
 **Polyester Solutions Batt** — bulk insulation batts for thermal and acoustic performance.
 
-Quality insulation engineered for Australian conditions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled plastic bottles, it's the sustainable choice for modern buildings.
+Polyester Solutions Underfloor Insulation (PolyFB / Poly-Floor) consists of 100% polyester thermal and acoustic insulation rolls, pre-cut to 450mm width to fit new and existing exposed timber joist floors. Sized slightly wider than standard 450mm joist spacing, it friction-fits securely between timber joists without staples or sagging, creating an airtight barrier against subfloor draughts and cold winter floors. Manufactured from thermally bonded polyester containing a minimum of 80% recycled PET fibers, it will not rot, absorb moisture, or harbor pests.
 
 ## Key features
 
-- 100% polyester - safe to handle without protective equipment.
-- contains minimum 80% recycled PET plastic bottles.
-- non-allergenic, non-irritant formulation.
-- will not support mould or mildew growth.
-- maintains performance when wet - dries out naturally.
-- rigid design prevents sagging between joists.
-- reduces drafts and cold floors.
+- Purpose-designed for suspended timber ground floors in new builds and retrofits.
+- Pre-cut to 450mm width for a snug friction fit between timber floor joists.
+- Eliminates cold floors and blocks draughts blowing up through floorboards.
+- 100% polyester fiber containing a minimum of 80% recycled PET content.
+- Completely itch-free, non-toxic, odorless, and non-allergenic; safe to install without PPE.
+- Hydrophobic fibers absorb less than 0.2% moisture by volume, resisting damp crawlspaces.
+- Will not sag, rot, or deteriorate over time; resistant to vermin and insects.
+- Tested to AS 1530.3 with zero ignitability and zero spread of flame.
+- Meets NCC energy efficiency requirements for suspended floors.
 
 ## Applications and selection
 
-- Floor
+- floor
+- underfloor
+- subfloor
+- between floors
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Measure joist spacing (standard 450mm centers suit 450mm pre-cut roll).
+2. Select target R-value (R1.5, R2.0, or R2.5) to achieve desired underfloor thermal barrier.
+3. Calculate total underfloor square meterage to determine pack quantities.
+4. Check crawlspace height clearance for safe installer access.
+5. Order polypropylene strapping or staples if mechanical underfloor securing is specified.
 
 
 ## Current catalogue range
@@ -47,37 +52,53 @@ Quality insulation engineered for Australian conditions. Safe to handle without 
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Batt | Manufacturer catalogue |
-| Material | Polyester | Manufacturer catalogue |
-| Applications | Floor | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material | 100% thermally bonded polyester fiber (min. 80% recycled PET) | - |
+| Thermal R-Values | R1.5, R2.0, R2.5, R3.0, R4.0 | AS/NZS 4859.1 |
+| Thicknesses | R1.5 (70-90mm), R2.0 (90mm), R2.5 (120mm), R3.0 (140mm) | - |
+| Roll Dimensions | 450 mm width x 8 m or 10 m length (2 rolls per pack) | - |
+| Pack Coverage | 9.0 m² (450mm x 10m x 2 rolls) or 7.2 m² (450mm x 8m x 2 rolls) | - |
+| Early Fire Hazard Indices | Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-3 | AS 1530.3 |
+| Moisture Absorption | < 0.2% by volume after 4 days at 50°C, 95% RH | - |
+| Maximum Service Temperature | 150°C | - |
+| Chemical Composition | Zero added chemical binders, zero formaldehyde, zero ODP | - |
 
-
+Extracted from manufacturer datasheet: https://www.polyestersolutions.com.au/thermal-insulation
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+AS 1530.3 Early Fire Hazard Properties: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-3
+
+AS/NZS 4859.1, AS 3999, NCC Volume One Section J (JP1) and Volume Two Part 2.6 (P2.6.1) / Part 3.8.6
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.polyestersolutions.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://eurekainsulation.com.au/wp-content/uploads/2025/06/PS-Sound-Batt.pdf.
 
+## Recommended accessories
+
+- Polypropylene underfloor strapping.
+- Pneumatic/manual stapler and galvanised staples.
+- Utility knife.
+
 
 ## Limitations and warnings
 
-- Not suitable for applications requiring fire rating without additional protection..
-- not to be exposed to weather or sustained moisture..
-- do not compress beyond manufacturer recommendations..
-- check fire-rated system requirements if fire rating is required..
-- Ensure adequate subfloor ventilation is maintained..
-- do not leave exposed to ground moisture or subfloor dampness..
+- Sized for 450mm joists; for wider joists, strapping support is mandatory.
+- Do not cover electrical cables that are prone to derating without checking AS/NZS 3000.
+- Do not block subfloor wall vents.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for applications requiring fire rating without additional protection.
+1. Isolate power at the main switchboard before entering the subfloor crawlspace.
+2. Ensure joist bays are dry, sound, and free of protruding nails or debris.
+3. Unroll PolyFB roll along the underside of floorboards between timber joists.
+4. Push the insulation up tightly against the underside of floorboards ensuring no air gaps remain.
+5. Allow the slightly oversized 450mm width to friction-fit snugly between 450mm-centered joists.
+6. For long-term retention or wide joist spacings, secure with non-corrosive staples or polypropylene strapping stapled across joists at 500mm intervals.
+7. Do not cover subfloor ventilation openings in external brickwork.
 
 ## Safety and handling
 
@@ -85,11 +106,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Minimum 80% recycled PET; zero formaldehyde; zero chemical binders; zero ODP; 100% recyclable
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Backed by Polyester Solutions manufacturer product warranty
 
 ## Specification starting point
 

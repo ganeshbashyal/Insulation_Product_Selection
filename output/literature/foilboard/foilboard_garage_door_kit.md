@@ -1,7 +1,7 @@
 ---
 title: "Foilboard Garage Door Kit - Board Insulation | Foilboard"
-description: "Quality insulation engineered for Australian conditions."
-keywords: "Foilboard Garage Door Kit, Foilboard board, insulation Australia, Foilboard Australia"
+description: "The Foilboard Garage Door Kit is an all-in-one DIY thermal insulation system engineered specifically for residential sectional and panel-lift metal ga"
+keywords: "Foilboard Garage Door Kit, Foilboard board, wall insulation, shed insulation, insulation Australia, Foilboard Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: FOILBOARD_GARAGE_DOOR_KIT
 ---
@@ -10,26 +10,34 @@ family_id: FOILBOARD_GARAGE_DOOR_KIT
 
 **Foilboard Board** — rigid insulation boards for continuous thermal performance.
 
-Quality insulation engineered for Australian conditions.
+The Foilboard Garage Door Kit is an all-in-one DIY thermal insulation system engineered specifically for residential sectional and panel-lift metal garage doors. Containing pre-cut lightweight Foilboard panels, specialized mounting hardware, and aluminum foil tape, the kit reflects radiant heat and stops thermal transfer into the garage. By insulating uninsulated metal garage doors, it lowers garage temperatures by up to 10°C in summer, reduces winter chill, and operates quietly without adding significant weight to door spring mechanisms.
 
 ## Key features
 
-- Lightweight closed-cell expanded polystyrene foam.
-- excellent thermal performance with zero thermal drift.
-- moisture resistant closed-cell structure.
-- CFC/HCFC free manufacturing process.
+- Complete all-in-one DIY kit to insulate a standard sectional garage door.
+- Can reduce garage ambient temperature by up to 10°C in summer.
+- Ultra-lightweight design does not strain automatic garage door opening mechanisms.
+- Pre-cut panels sized to fit standard panel-lift garage door sections.
+- Reflects up to 97% of radiant solar heat beating on metal door faces.
+- Includes specialized heat-resistant adhesive pads, brackets, and aluminum tape.
+- Non-allergenic, non-itchy, and completely safe to handle without PPE.
+- Acts as an acoustic buffer, reducing external street noise and door operating vibration.
+- Backed by Foilboard's 25-year performance warranty.
 
 ## Applications and selection
 
-- Garage Door
+- shed
+- door
+- garage
+- wall
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm door type is a sectional panel-lift door (not suitable for continuous roll-up doors).
+2. Select Single Door Kit (up to 2.4m wide) or Double Door Kit (up to 5.5m wide).
+3. Check door recess depth (minimum 10-15mm recess required).
+4. Inspect automatic opener springs (weight addition is minimal, but check spring balance).
+5. Ensure door panels are clean and free of grease.
 
 
 ## Current catalogue range
@@ -41,36 +49,51 @@ Quality insulation engineered for Australian conditions.
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Board | Manufacturer catalogue |
-| Material | EPS | Manufacturer catalogue |
-| Applications | Garage Door | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material | Fire-retardant EPS core with pure aluminum reflective foil facings | - |
+| Panel Thickness | 10 mm / 15 mm slimline panels | - |
+| Panel Dimensions | Pre-cut panels sized to suit standard sectional door profiles (e.g. 1350 mm x 600 mm) | - |
+| Reflectance | Reflects up to 97% radiant heat | AS/NZS 4201.5 |
+| Weight Addition | Approx. 4-6 kg total weight added to entire door | - |
+| Door Compatibility | Standard single and double panel-lift / sectional metal doors | - |
 
-
+Extracted from manufacturer datasheet: https://www.foilboard.com.au/product/garage-door-kit/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Fire retardant EPS core; Low Flammability Index (≤ 5) to AS 1530.2; Group 1/2 to AS 5637.1
+
+AS/NZS 4859.1, AS 1530.2, NCC compliant residential retrofitting
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.foilboard.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://insulationessentials.com.au/wp-content/uploads/2022/10/MSDS-Foilboard-Nov-2019.pdf.
 
+## Recommended accessories
+
+- Foilboard reinforced aluminum foil tape.
+- Specialized mounting brackets / adhesive pads.
+- Utility knife.
+
 
 ## Limitations and warnings
 
-- Combustible material - do not expose to flame or high heat sources..
-- protect from UV exposure during installation..
-- check compatibility with solvents and chemicals before use..
-- not suitable for direct contact with bitumen without barrier..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Not suitable for continuous corrugated roller doors (curtain doors that roll into a drum).
+- Metal door surface must be thoroughly cleaned of grease and dust for adhesive to bond.
+- Ensure panels do not bind against door tracks, cables, or side hinges during movement.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Combustible material - do not expose to flame or high heat sources.
+1. Clean interior metal surfaces of garage door panels thoroughly with isopropyl alcohol or detergent and allow to dry.
+2. Measure the width and height of each recessed panel on the inside of the garage door.
+3. Trim Foilboard panels to size using a utility knife and straight edge.
+4. Peel adhesive backing and apply specialized mounting brackets to the clean metal door panels.
+5. Insert and secure cut Foilboard panels into the mounting brackets across each door section.
+6. Ensure panels fit neatly within door ribs without impeding hinge knuckles or roller tracks.
+7. Tape perimeter edges with supplied reinforced aluminum foil tape for a neat, durable finish.
+8. Test garage door operation through full open and close cycles to ensure smooth clearance.
 
 ## Safety and handling
 
@@ -78,11 +101,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+100% recyclable EPS and aluminum; zero ODP; fiber-free
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+25 Year Performance Warranty
 
 ## Specification starting point
 

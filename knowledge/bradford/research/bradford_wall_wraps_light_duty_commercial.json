@@ -1,0 +1,170 @@
+{
+  "family_id": "BRADFORD_WALL_WRAPS_LIGHT_DUTY_COMMERCIAL",
+  "family_name": "Bradford Wall Wraps - Light Duty Commercial",
+  "datasheet_pdf_url": "https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/walls/enviroseal-commercial-wall",
+  "sds_url": "https://www.bradfordinsulation.com.au/-/media/bradford/files/safety-data-sheet---glasswool.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Bradford Enviroseal ProctorWrap Commercial Wall (CW) is a\npremium, Light Duty vapour-permeable wall wrap engineered specifically for\ncommercial timber and steel-framed wall construction. Composed of a spunbond\npolyolefin non-woven textile, it provides a high water-vapour transmission rate\nthat allows moisture vapour from inside the building to escape, while preventing\nwind-driven rain and air infiltration from penetrating into the wall cavity.\nWith higher material weight and tensile strength than standard residential\nwraps, it is certified for use with commercial claddings, brick, steel,\nfibre-cement, and Hebel systems.",
+    "features": [
+      "Engineered specifically for\nmulti-storey commercial and residential projects",
+      "Highly vapour permeable\n(Class 4) allowing internal moisture to escape and preventing mould",
+      "Functions\nas a water barrier, shielding insulation and structural framing from driving\nrain",
+      "Effective air barrier reducing convective air leakage and improving HVAC\nenergy efficiency",
+      "Robust non-woven spunbond polyolefin construction resists\ntearing during installation",
+      "Printed with a 150mm lap line for simple,\ncompliant overlap alignment",
+      "Suitable for timber and steel frame constructions\nincluding Hebel facade systems",
+      "Rated for wind regions A and B for high-rise\ncommercial wall applications",
+      "Non-reflective face reduces glare on site during\ninstallation",
+      "Flammability index compliant with AS 1530.2"
+    ],
+    "applications": [
+      "wall",
+      "external wall"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "Spunbond polyolefin non-woven composite textile",
+        "standard": ""
+      },
+      {
+        "property": "Duty Classification",
+        "value": "Light Duty",
+        "standard": "AS/NZS 4200.1"
+      },
+      {
+        "property": "Vapour Permeance",
+        "value": "Class 4 Vapour\nPermeable (high breathability)",
+        "standard": "AS/NZS 4200.1"
+      },
+      {
+        "property": "Water Control Classification",
+        "value": "Water Barrier",
+        "standard": "AS/NZS 4201.4"
+      },
+      {
+        "property": "Air Control Classification",
+        "value": "Air\nBarrier",
+        "standard": "AS/NZS 4200.1"
+      },
+      {
+        "property": "Roll Dimensions",
+        "value": "1500 mm width x 50 m length (75 m² per roll)",
+        "standard": ""
+      },
+      {
+        "property": "Weight per Roll",
+        "value": "10.7 kg",
+        "standard": ""
+      },
+      {
+        "property": "Maximum UV Exposure",
+        "value": "Up to 2 months (60 days) unclad",
+        "standard": ""
+      },
+      {
+        "property": "Tensile Strength",
+        "value": "Machine Direction\n> 160 N, Lateral Direction > 140 N",
+        "standard": "AS/NZS 4200.1"
+      },
+      {
+        "property": "Flammability Index",
+        "value": "≤ 5 (Low Flammability)",
+        "standard": "AS 1530.2"
+      },
+      {
+        "property": "Product Code",
+        "value": "114175",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Enviroseal ProctorWrap CW (Commercial Wall)",
+        "size_or_rating": "1500 mm x 50 m (75 m²)",
+        "pack": "Roll (35 rolls per pallet,\nCode: 114175)"
+      },
+      {
+        "variant": "Enviroseal ProctorWrap CW-IT (Integrated Tape)",
+        "size_or_rating": "1500 mm x 50 m (75 m²)",
+        "pack": "Roll (35 rolls per pallet,\nCode: 114176)"
+      }
+    ],
+    "fire": "Flammability Index ≤ 5 to AS 1530.2; Suitable for\nexternal walls in BAL 12.5 to BAL-40 bushfire zones under AS 3959",
+    "compliance": "AS/NZS 4200.1:2017, AS/NZS 4200.2, AS 1530.2, NCC 2022 Volume 1\n& 2 condensation management provisions",
+    "sustainability": "Zero ODP,\nnon-hazardous, 100% recyclable polyolefin materials, low VOC",
+    "install": [
+      "Fix\nEnviroseal CW to the outside of the commercial timber or steel wall frame with\nprinted face outward",
+      "Fasten with broad-headed fasteners at maximum 300mm\ncentres to studs and plates",
+      "Run sheets horizontally, starting from bottom\nplate and working upward",
+      "Ensure upper sheets overlap lower sheets by at\nleast 150mm along the printed lap guide",
+      "Tape all horizontal and vertical\noverlaps with Enviroseal HighTack Tape or specify CW-IT",
+      "Ensure membrane is\nseparated from exterior cladding by a drained cavity",
+      "Seal around windows,\ndoor frames, and penetrations to complete the continuous weather barrier"
+    ],
+    "selection_checklist": [
+      "Confirm wall construction is steel or timber frame\ncommercial/residential building",
+      "Verify requirement for Class 4\nvapour-permeable membrane to mitigate condensation",
+      "Calculate roll count based\non 75m² per roll allowing 150mm overlaps",
+      "Select standard CW or CW-IT (with\nintegrated tape) for faster installation",
+      "Ensure cladding will be installed\nwithin 60 days of wrap exposure"
+    ],
+    "accessories": [
+      "Bradford Enviroseal\nHighTack Tape",
+      "Bradford ULTRAtape",
+      "Bradfix fasteners",
+      "Enviroseal Flexi\nTape"
+    ],
+    "limitations": [
+      "Not suitable for roofing applications (Light Duty\nrating does not meet DtS roof traffic requirements)",
+      "Do not leave exposed to\ndirect UV sunlight for longer than 60 days",
+      "Not for open-joint rainscreens\nwhere >30% is exposed (use Black Label)"
+    ],
+    "warranty": "Backed by CSR Bradford\nproduct warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Bradford Light Duty\nCommercial Wall Wrap",
+      "Enviroseal ProctorWrap CW",
+      "Commercial Wall Wrap CW",
+      "Enviroseal CW 114175",
+      "Bradford commercial wall wrap",
+      "vapour permeable\ncommercial wrap",
+      "Class 4 wall wrap",
+      "steel frame wall wrap",
+      "Hebel wall wrap\ncommercial"
+    ],
+    "problem_keywords": [
+      "interstitial condensation in commercial\nwalls",
+      "mould in commercial wall cavity",
+      "water leakage through commercial\nfacade",
+      "drafty steel stud walls",
+      "meeting NCC condensation code in\napartments",
+      "weatherproofing multi storey walls"
+    ],
+    "placement": [
+      "wall",
+      "external wall"
+    ],
+    "priority_fit": [
+      "condensation",
+      "fire",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Vapour-permeable weather barrier behind commercial lightweight\ncladding, fibre-cement, and masonry veneer",
+      "Air and moisture barrier behind\nCSR Hebel high-rise facade panels in wind regions A and B",
+      "Multi-residential\ntimber and light-gauge steel frame external wall wraps"
+    ],
+    "not_for": [
+      "Roof\nsarking applications",
+      "Open-joint cladding with permanent UV exposure",
+      "Primary waterproofing without outer cladding"
+    ],
+    "rag_summary": "Bradford Wall\nWraps - Light Duty Commercial (Enviroseal ProctorWrap Commercial Wall / CW,\nproduct code 114175) is a high-strength, Light Duty Class 4 vapour-permeable\nwall wrap engineered for commercial and multi-residential timber and steel stud\nconstruction. Fabricated from a spunbond polyolefin non-woven composite, it\nprovides superior water hold-out and airtightness while allowing internal water\nvapour to escape, preventing rot and mould in building assemblies. Suitable for\nwind regions A and B and compliant with AS/NZS 4200.1 and AS 1530.2\n(Flammability Index ≤ 5), it delivers heavy-duty tear resistance for commercial\njobsites."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

@@ -1,0 +1,155 @@
+{
+  "family_id": "POLYAIR_THERMO_REFLECTIVE_PRODUCTS_POLYAIR_UNICE_2",
+  "family_name": "Polyair Thermo Reflective Products - Polyair Unicell Self Adhesive",
+  "datasheet_pdf_url": "https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/sheds/polyair-unicell",
+  "sds_url": "",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Bradford Polyair Unicell Self Adhesive is an\nextra heavy duty, commercial-grade thermo-reflective insulation roll featuring\nan integrated self-adhesive lap tape system with a peel-off release liner.\nEngineered with an inner fire-retardant bubble core laminated between dual\nreflective aluminum foil layers, the self-adhesive edge streamlines on-site\njoining, eliminating the need for a second installer to hold tapes during lap\nsealing. It reflects up to 95% of radiant heat, controls condensation on metal\nsurfaces, and forms an airtight weather barrier in shed and residential roofs\nand walls.",
+    "features": [
+      "Integrated self-adhesive lap tape with release liner\nfor streamlined, rapid installation",
+      "Extra heavy duty commercial-grade\nreflective insulation roll",
+      "Fire-retardant bubble cell core provides\nstructural handling stability",
+      "Reflects up to 95% of radiant heat in summer\nand retains warmth in winter",
+      "Self-adhesive edge ensures tight, clean, and\ndurable overlap seals without loose tape",
+      "Forms a continuous weather, air, and\nmoisture barrier when sealed",
+      "Dramatically reduces condensation dripping from\nunderside of metal roof sheeting",
+      "Extra heavy duty puncture and tear\nresistance",
+      "Flammability index compliant with AS 1530.2"
+    ],
+    "applications": [
+      "roof",
+      "roofline",
+      "wall",
+      "external wall",
+      "shed"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "Fire-retardant bubble core with dual aluminum\nfoil facings and integrated self-adhesive lap tape",
+        "standard": ""
+      },
+      {
+        "property": "Thickness",
+        "value": "4 mm (+/- 0.5 mm)",
+        "standard": ""
+      },
+      {
+        "property": "Roll Dimensions",
+        "value": "1350 mm width x 40 m length (54 m²)",
+        "standard": ""
+      },
+      {
+        "property": "Duty Classification",
+        "value": "Extra Heavy\nDuty",
+        "standard": "AS/NZS 4200.1"
+      },
+      {
+        "property": "Emittance",
+        "value": "0.03\n- 0.05",
+        "standard": "AS/NZS 4201.5"
+      },
+      {
+        "property": "Water Control",
+        "value": "Water Barrier",
+        "standard": "AS/NZS 4201.4"
+      },
+      {
+        "property": "Vapor Control",
+        "value": "Class 1 / Class 2 Vapor Barrier",
+        "standard": "ASTM E96"
+      },
+      {
+        "property": "Flammability Index",
+        "value": "≤ 5 (Low Flammability)",
+        "standard": "AS 1530.2"
+      },
+      {
+        "property": "Product Code",
+        "value": "130304",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Polyair Unicell Self Adhesive 4.0",
+        "size_or_rating": "4 mm x 1350 mm x 40 m (54 m²)",
+        "pack": "Roll (Code: 130304)"
+      }
+    ],
+    "fire": "Flammability Index ≤ 5 to AS 1530.2; Suitable for BAL-12.5 to\nBAL-40 to AS 3959",
+    "compliance": "AS/NZS 4200.1, AS/NZS 4200.2, AS 1530.2,\nAS 3959, NCC Volume One & Two",
+    "sustainability": "Zero ODP; low VOC emissions;\nfiber-free non-toxic core",
+    "install": [
+      "Roll out Polyair Unicell Self Adhesive\nacross roof purlins or wall framing",
+      "Position adjoining roll so its edge\naligns over the self-adhesive lap margin",
+      "Peel back the protective release\nliner along the self-adhesive strip progressively",
+      "Press the overlapping sheet\nfirmly down onto the exposed adhesive strip",
+      "Smooth out using a squeegee or\nhand roller to ensure a complete, airtight seal",
+      "Fasten metal sheeting over\nthe insulation into purlins or studs"
+    ],
+    "selection_checklist": [
+      "Confirm\nrequirement for self-adhesive lap feature to reduce labor and extra taping",
+      "Measure total roof and wall area allowing for lap coverage (54m² per roll)",
+      "Verify air gap requirement (minimum 20mm) to achieve thermal R-value",
+      "Order\nend-lap sealing tape for transverse cut ends"
+    ],
+    "accessories": [
+      "Bradford 72mm\nReinforced Aluminum Foil Tape",
+      "Pressure squeegee",
+      "Wafer head screws"
+    ],
+    "limitations": [
+      "Self-adhesive strip is on longitudinal edge; transverse end\ncuts still require separate foil tape",
+      "Surfaces must be dry and free of dust\nfor the self-adhesive lap to bond properly",
+      "Requires minimum 20mm air space to\ndeliver rated system R-values"
+    ],
+    "warranty": "Backed by CSR Bradford product\nwarranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Polyair Unicell Self Adhesive",
+      "Bradford Unicell Self Adhesive",
+      "self adhesive shed insulation",
+      "bubble foil\nwith adhesive strip",
+      "Polyair 130304",
+      "peel and stick shed insulation",
+      "self\nsealing reflective insulation",
+      "Unicell self adhesive roll"
+    ],
+    "problem_keywords": [
+      "insulation tape peeling in shed",
+      "difficult overhead lap\ntaping on roof",
+      "condensation dripping through foil joins",
+      "slow shed\ninsulation installation",
+      "air and water leaks at insulation laps"
+    ],
+    "placement": [
+      "roof",
+      "roofline",
+      "wall",
+      "external wall",
+      "shed"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "thermal",
+      "condensation"
+    ],
+    "use_cases": [
+      "Fast single-person roof insulation installation in domestic metal sheds using\nintegrated self-adhesive laps",
+      "Reflective wall insulation in commercial steel\nportal-frame warehouses",
+      "Condensation barrier under corrugated metal roofing\nwith streamlined overlap sealing"
+    ],
+    "not_for": [
+      "Direct floor traffic\nsurfaces",
+      "Subterranean wet tanking",
+      "Operating temperatures continuously\nexceeding 80°C"
+    ],
+    "rag_summary": "Bradford Polyair Unicell Self Adhesive is an\nextra heavy duty 4mm thermo-reflective shed insulation roll featuring an\nintegrated self-adhesive lap tape with a peel-off release liner. Constructed\nwith an inner fire-retardant bubble core and dual pure aluminium reflective foil\nfacings, it eliminates the need for separate joint taping on longitudinal runs\nwhile reflecting up to 95% of radiant heat. Certified Extra Heavy Duty to\nAS/NZS 4200.1 with a low Flammability Index (≤ 5, BAL-40 compliant), it\naccelerates weatherproofing and condensation control in metal sheds and\ngarages."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

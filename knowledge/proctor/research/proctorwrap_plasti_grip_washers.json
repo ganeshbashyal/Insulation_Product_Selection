@@ -1,0 +1,141 @@
+{
+  "family_id": "PROCTOR_WRAP_PLASTI_GRIP_WASHERS",
+  "family_name": "ProctorWrap Plasti-Grip Washers",
+  "datasheet_pdf_url": "https://proctorgroup.com.au/product/proctorwrap-plastigrip-washer/",
+  "sds_url": "",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "The ProctorWrap PlastiGrip is a 45mm diameter polypropylene\nwasher designed for the mechanical attachment of building wraps and rigid\ninsulation boards to timber and steel framing. Engineered with a flat base,\nflexible perimeter, and a 5mm deep cupped head, it distributes clamping force\nover a wide area to eliminate tear-out and wind blow-offs compared to\ntraditional staples. Tested in conjunction with ProctorWrap and ProctorPassive\nmembranes for calculating fixing span tables, it provides a weather-tight,\nairtight mechanical anchor for high-wind building envelopes.",
+    "features": [
+      "45mm wide diameter distributes clamping force to prevent membrane tearing",
+      "5mm deep cupped head seals the washer to the substrate and protects fastener\nheads",
+      "Flexible outer perimeter reduces risk of abrasion damage to building\nwraps",
+      "Flat base design ensures flush mounting under claddings and battens",
+      "Superior alternative to staples, greatly reducing wind blow-off and pull-out\nrisk",
+      "Compatible with countersunk screws (8g-10g) for steel frames and\nflat-head clouts for timber",
+      "Tested with ProctorWrap CW, HTS, and\nProctorPassive RS-IT for fixing span tables",
+      "Allows fastener spacing to be\nincreased to 600mm horizontal by 750mm vertical (4 per m²)",
+      "Manufactured from\ndurable, non-corrosive polypropylene material"
+    ],
+    "applications": [
+      "wall",
+      "external wall",
+      "roof",
+      "roofline",
+      "internal wall"
+    ],
+    "technical": [
+      {
+        "property": "Washer Diameter",
+        "value": "45 mm",
+        "standard": ""
+      },
+      {
+        "property": "Cupped Head Depth",
+        "value": "5 mm",
+        "standard": ""
+      },
+      {
+        "property": "Material",
+        "value": "Durable UV-stabilised polypropylene",
+        "standard": ""
+      },
+      {
+        "property": "Fastener Compatibility",
+        "value": "8g - 10g countersunk screws\n(steel) or flat head galvanised clouts (timber)",
+        "standard": ""
+      },
+      {
+        "property": "Recommended Spacing",
+        "value": "600 mm horizontal x 750 mm vertical\n(approx. 4 washers per m²)",
+        "standard": ""
+      },
+      {
+        "property": "Insulation\nCompatibility",
+        "value": "Rigid foam boards, semi-rigid insulation, pliable\nbuilding wraps",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "ProctorWrap\nPlastiGrip Washers",
+        "size_or_rating": "45 mm diameter x 5 mm depth",
+        "pack": "Box / Pack"
+      }
+    ],
+    "fire": "Non-contributing polymer washer; suitable for use\nwith BAL-compliant building membranes",
+    "compliance": "AS/NZS 4200.2:2017\nmechanical fixing requirements, NCC 2022 Volume One and Two",
+    "sustainability": "100% recyclable polypropylene; zero ODP; non-toxic",
+    "install": [
+      "Position\nbuilding wrap or rigid insulation board flat against timber or steel wall\nframing",
+      "Insert 8g-10g countersunk screw (for steel) or flat-head clout nail\n(for timber) through the PlastiGrip washer center",
+      "Fasten through the membrane\ninto the structural stud at recommended 600mm horizontal by 750mm vertical\nspacing",
+      "Tighten screws only sufficiently to apply clamping force around the\nperimeter of the washer",
+      "Do not over-tighten to avoid distorting the washer,\nmembrane, or substrate",
+      "If a washer is damaged or cracked as a result of\nover-tightening, replace it prior to project completion",
+      "Use\ncorrosion-resistant screws or galvanised nails"
+    ],
+    "selection_checklist": [
+      "Confirm framing substrate (timber studs require flat-head clouts; steel studs\nrequire 8g-10g screws)",
+      "Calculate quantity needed based on approx. 4 washers\nper square meter of wall wrap",
+      "Verify need for tear-resistant fixing in\nhigh-wind regions or exposed sites",
+      "Ensure suitable corrosion-resistant screws\nor nails are supplied by the builder"
+    ],
+    "accessories": [
+      "ProctorWrap and\nProctorPassive building wraps",
+      "Corrosion-resistant countersunk screws\n(8g-10g)",
+      "Galvanised flat-head clout nails"
+    ],
+    "limitations": [
+      "Do not\nover-tighten fasteners; excessive torque can crack the washer or distort the\nsubstrate",
+      "Not recommended for permanent exposure to direct sunlight after\ninstallation",
+      "Cladding must be installed within the UV exposure window of the\nunderlying membrane"
+    ],
+    "warranty": "Backed by Proctor Group Australia product\nwarranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "ProctorWrap PlastiGrip Washers",
+      "PlastiGrip Washers",
+      "Proctor PlastiGrip",
+      "wall wrap washers",
+      "45mm\ninsulation washers",
+      "membrane fixing buttons",
+      "sarking fixing washers",
+      "plastic cap washers",
+      "Proctor buttons"
+    ],
+    "problem_keywords": [
+      "staples\ntearing through wall wrap",
+      "wind blowing building wrap off frame",
+      "insulation\nboards pulling over screw heads",
+      "tears at fastener points in high winds",
+      "water leaks around staple penetrations"
+    ],
+    "placement": [
+      "wall",
+      "external\nwall",
+      "roof",
+      "roofline",
+      "internal wall"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "thermal"
+    ],
+    "use_cases": [
+      "Fixing vapour-permeable wall wraps to steel framing\nstuds with screws in high-wind environments",
+      "Securing building wraps to timber\nframes as a tear-resistant alternative to staples",
+      "Mechanically fastening\nrigid foam and insulation boards to exterior walls before cladding"
+    ],
+    "not_for": [
+      "Permanent exposure to direct sunlight without cladding",
+      "Direct\nstructural load-bearing cladding attachment",
+      "Underwater hydrostatic\napplications"
+    ],
+    "rag_summary": "ProctorWrap Plasti-Grip Washers are 45mm\ndiameter polypropylene fixing discs engineered to secure building wraps and\nrigid insulation boards to timber and steel framing. Designed with a flat base,\nflexible perimeter, and 5mm deep cupped head, they distribute clamping loads\nover an enlarged area to eliminate wind tear-out and water leakage associated\nwith staples. Compatible with 8g-10g screws and galvanised clouts at 4 per\nsquare metre, they ensure secure, tear-free mechanical fixing compliant with\nAS/NZS 4200.2:2017."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

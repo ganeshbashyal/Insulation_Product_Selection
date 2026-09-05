@@ -1,7 +1,7 @@
 ---
 title: "Foilboard DIY/Fast Trade Pack - Board Insulation | Foilboard"
-description: "Quality insulation engineered for Australian conditions. Rigid design makes installation fast and efficient - no sagging or falling out. Essential for"
-keywords: "Foilboard DIY/Fast Trade Pack, Foilboard board, wall insulation, ceiling insulation, floor insulation, underfloor insulation, insulation Australia, Foilboard Australia"
+description: "Foilboard DIY / Fast Trade Pack (Foilboard Handypack) is a convenient, compact-format pack of rigid Foilboard Green insulation sheets designed for sma"
+keywords: "Foilboard DIY/Fast Trade Pack, Foilboard board, wall insulation, ceiling insulation, floor insulation, underfloor insulation, shed insulation, insulation Australia, Foilboard Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: FOILBOARD_DIY_FAST_TRADE_PACK
 ---
@@ -10,30 +10,35 @@ family_id: FOILBOARD_DIY_FAST_TRADE_PACK
 
 **Foilboard Board** — rigid insulation boards for continuous thermal performance.
 
-Quality insulation engineered for Australian conditions. Rigid design makes installation fast and efficient - no sagging or falling out. Essential for achieving NCC compliance in floor applications.
+Foilboard DIY / Fast Trade Pack (Foilboard Handypack) is a convenient, compact-format pack of rigid Foilboard Green insulation sheets designed for smaller residential projects, shed retrofits, and tight-access installations. Each pack contains pre-cut sheets that fit easily inside standard vehicles, allowing DIYers and trades to transport and handle panels without a commercial truck. Fabricated from the same fire-retardant EPS core with pure aluminum foil facings, it delivers superior radiant heat reflection and thermal barrier performance.
 
 ## Key features
 
-- Lightweight closed-cell expanded polystyrene foam.
-- excellent thermal performance with zero thermal drift.
-- moisture resistant closed-cell structure.
-- CFC/HCFC free manufacturing process.
-- rigid design prevents sagging between joists.
-- reduces drafts and cold floors.
-- excellent thermal performance for roof/ceiling applications.
-- helps meet NCC energy efficiency requirements.
+- Compact pack format designed to fit easily into passenger vehicles, vans, and utes.
+- Pre-cut sheet sizes for effortless handling through tight doorways and crawl spaces.
+- Manufactured with fire-retardant EPS core and pure aluminum reflective facings.
+- Delivers true 3-in-1 thermal insulation, thermal break, and vapor barrier.
+- Zero itchy fibers; completely safe to handle without protective clothing.
+- Waterproof and moisture resistant, will not rot or grow mold.
+- Cuts cleanly with a utility knife with zero toxic dust.
+- Backed by Foilboard's 25-year performance warranty.
 
 ## Applications and selection
 
-- External Wall | Ceiling | Underfloor
+- underfloor
+- floor
+- subfloor
+- wall
+- external wall
+- shed
+- ceiling
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Measure total project square meterage to determine number of packs.
+2. Confirm panel thickness (15mm, 20mm, or 25mm) for required thermal rating.
+3. Verify pre-cut dimensions (600x1200mm) suit vehicle transport and project layout.
+4. Order sufficient 72mm foil tape and fasteners.
 
 
 ## Current catalogue range
@@ -44,37 +49,48 @@ Quality insulation engineered for Australian conditions. Rigid design makes inst
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Board | Manufacturer catalogue |
-| Material | EPS | Manufacturer catalogue |
-| Applications | External Wall | Ceiling | Underfloor | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material | Fire-retardant EPS core with dual pure aluminum reflective facings | - |
+| Thickness Options | 15 mm, 20 mm, 25 mm | - |
+| Sheet Dimensions | 1200 mm x 600 mm or 1200 mm x 800 mm | - |
+| Emittance (Reflective Face) | 0.03 (97% heat reflection) | AS/NZS 4201.5 |
+| Combustibility | Fire-retardant EPS core; Group 1 / Group 2 | AS 5637.1 |
 
-
+Extracted from manufacturer datasheet: https://www.foilboard.com.au/product/foilboard-handypack/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Fire retardant EPS core; Flammability Index ≤ 5 to AS 1530.2; Group 1/2 to AS 5637.1
+
+AS/NZS 4859.1, AS 3999, NCC Volume One and Two
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.foilboard.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://insulationessentials.com.au/wp-content/uploads/2022/10/MSDS-Foilboard-Nov-2019.pdf.
 
+## Recommended accessories
+
+- Foilboard 72mm Reinforced Aluminum Foil Tape.
+- Foilboard Floor Saddles.
+- Foilboard Blank Plates.
+
 
 ## Limitations and warnings
 
-- Combustible material - do not expose to flame or high heat sources..
-- protect from UV exposure during installation..
-- check compatibility with solvents and chemicals before use..
-- not suitable for direct contact with bitumen without barrier..
-- Ensure adequate subfloor ventilation is maintained..
-- do not leave exposed to ground moisture or subfloor dampness..
+- Requires an adjacent sealed air space of at least 20mm to achieve rated Total R-value.
+- Do not use in direct contact with organic solvents or petroleum products.
+- Keep away from continuous heat sources above 80°C.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Combustible material - do not expose to flame or high heat sources.
+1. Unpack pre-cut sheets and transport to work area.
+2. Measure gap between floor joists, wall studs, or shed framing.
+3. Trim panels to width allowing for a snug friction-fit or saddle support.
+4. Fit into cavity maintaining a minimum 20mm air space adjacent to reflective foil.
+5. Secure with Foilboard Floor Saddles (underfloor) or screws with Blank Plates (walls).
+6. Tape all adjoining sheet seams with Foilboard 72mm reinforced foil tape.
 
 ## Safety and handling
 
@@ -82,11 +98,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+100% recyclable; low VOC; zero ODP; fiber-free
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+25 Year Performance Warranty
 
 ## Specification starting point
 

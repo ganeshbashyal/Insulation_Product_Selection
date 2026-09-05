@@ -1,0 +1,165 @@
+{
+  "family_id": "POLYAIR_REFLECTIVE",
+  "family_name": "Polyair Reflective",
+  "datasheet_pdf_url": "https://polyair.com.au/",
+  "sds_url": "",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Polyair Reflective is\nan Australian-manufactured thermo-reflective insulation range engineered with an\nadvanced closed-cell polyethylene foam core laminated between pure aluminium\nfoil facings. Designed for roofs, walls, and sheds in residential and commercial\nbuildings, it provides a 3-in-1 thermal insulation, thermal break, and vapour\nbarrier. By reflecting up to 97% of radiant heat and delivering an in-situ\nthermal break, it significantly reduces summer heat gain and prevents winter\nheat loss.",
+    "features": [
+      "3-in-1 performance: thermal insulation, thermal\nbreak, and vapour barrier",
+      "Pure aluminium reflective foil facings reflect up\nto 97% of radiant heat",
+      "Cross-linked closed-cell polyethylene foam core\nprevents moisture absorption",
+      "Provides compliant thermal break on steel-framed\nroofs and walls",
+      "Anti-glare coating on one face for installer safety in bright\nsunlight",
+      "Non-toxic, non-allergenic, and fiber-free with zero itch during\nhandling",
+      "Advanced foam cell structure resists delamination and moisture\ndegradation",
+      "Low Flammability Index compliant with AS 1530.2",
+      "Suitable for\nbushfire-prone areas up to BAL-40 under AS 3959",
+      "Proudly Australian made for\nlocal climate conditions"
+    ],
+    "applications": [
+      "roof",
+      "roofline",
+      "wall",
+      "external wall",
+      "shed",
+      "ceiling"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "Cross-linked closed-cell polyethylene foam core laminated with pure\naluminium foil",
+        "standard": ""
+      },
+      {
+        "property": "Thickness Options",
+        "value": "4 mm, 7 mm, 8 mm",
+        "standard": ""
+      },
+      {
+        "property": "Reflectance",
+        "value": "97%\nradiant heat reflection (emittance 0.03)",
+        "standard": "AS/NZS 4201.5"
+      },
+      {
+        "property": "Vapour Barrier Classification",
+        "value": "Class 1 / Class 2 Vapour\nBarrier (< 0.02 µg/N·s)",
+        "standard": "ASTM E96"
+      },
+      {
+        "property": "Water\nControl",
+        "value": "Water Barrier",
+        "standard": "AS/NZS 4201.4"
+      },
+      {
+        "property": "Thermal Break Performance",
+        "value": "Achieves R0.20+ thermal break on steel\nframing",
+        "standard": "NCC 2022"
+      },
+      {
+        "property": "Roll Dimensions",
+        "value": "1350 mm width x 22.25 m length (30 m² per roll)",
+        "standard": ""
+      },
+      {
+        "property": "Flammability Index",
+        "value": "≤ 5 (Low)",
+        "standard": "AS 1530.2"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Polyair Performa 4.0",
+        "size_or_rating": "4.0 mm\nx 1350 mm x 22.25 m (30 m²)",
+        "pack": "Roll"
+      },
+      {
+        "variant": "Polyair\nPerforma 7.0 / 8.0",
+        "size_or_rating": "7.0-8.0 mm x 1350 mm x 22.25 m (30 m²)",
+        "pack": "Roll"
+      },
+      {
+        "variant": "Polyair Shed",
+        "size_or_rating": "1350 mm\nx 22.25 m (30 m²)",
+        "pack": "Roll"
+      }
+    ],
+    "fire": "Flammability Index ≤ 5 to\nAS 1530.2; Suitable for roofs in bushfire BAL-12.5 to BAL-40 to AS 3959",
+    "compliance": "AS/NZS 4859.1, AS/NZS 4200.1, AS 1530.2, AS 3959, NCC 2022 Volume\nOne and Two",
+    "sustainability": "Fiber-free; non-allergenic; zero ODP; low VOC\nemissions; 100% recyclable polymers",
+    "install": [
+      "Roll out Polyair over roof\npurlins or wall framing with anti-glare face oriented outward toward the\ninstaller",
+      "Ensure roll edges overlap by a minimum of 50mm (or butt join if\nfully taped with 72mm foil tape)",
+      "Secure mechanically to steel or timber\nframing using wafer-head self-drilling screws with washers",
+      "Maintain a\nminimum 20mm still air cavity adjacent to the reflective face to achieve rated\nTotal R-values",
+      "Tape all seams, joins, and penetrations with 72mm reinforced\naluminium foil tape to form a continuous vapour barrier",
+      "At roof eaves, allow\nmembrane to drain freely into gutters without ponding"
+    ],
+    "selection_checklist": [
+      "Confirm required thermal break value (7-8mm thickness provides R0.20+ on\nsteel framing)",
+      "Verify minimum 20mm air space can be maintained in roof or\nwall cavity",
+      "Calculate roll quantities (each roll covers 30m² allowing for\noverlaps)",
+      "Order matching 72mm reinforced aluminium joining tape"
+    ],
+    "accessories": [
+      "Reinforced aluminium foil tape 72mm",
+      "Wafer-head\nself-drilling screws",
+      "Fixing washers"
+    ],
+    "limitations": [
+      "Requires a\nminimum 20mm sealed airspace adjacent to foil face to achieve rated Total\nR-value",
+      "Do not allow direct contact with wet concrete or alkaline mortar to\nprevent foil corrosion",
+      "Not designed as a permanent foot-traffic surface or\nexposed outdoor weather membrane"
+    ],
+    "warranty": "Backed by Polyair manufacturer\nwarranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Polyair Reflective",
+      "Polyair\ninsulation",
+      "Polyair Performa",
+      "Polyair 7.0",
+      "Polyair 8.0",
+      "foam cell\nreflective insulation",
+      "thermal break foam foil",
+      "Polyair shed insulation",
+      "reflective foam insulation"
+    ],
+    "problem_keywords": [
+      "radiant heat in tin\nshed",
+      "thermal bridging on steel framing studs",
+      "condensation dripping from\nmetal roof",
+      "hot metal roof space in summer",
+      "sweating steel portal frames"
+    ],
+    "placement": [
+      "roof",
+      "roofline",
+      "wall",
+      "external wall",
+      "shed",
+      "ceiling"
+    ],
+    "priority_fit": [
+      "thermal",
+      "condensation",
+      "easy_install",
+      "fire"
+    ],
+    "use_cases": [
+      "Installing over steel roof purlins and wall girts to provide a\ncompliant R0.20 thermal break in metal buildings",
+      "Radiant heat reflection and\ncondensation control in domestic garages, workshops, and rural steel sheds",
+      "Thermal barrier insulation under corrugated metal roofs in residential homes"
+    ],
+    "not_for": [
+      "Cold climate wall cavities requiring Class 4 vapour-permeable\nwraps",
+      "Underfloor crawl space ground contact",
+      "Continuous water immersion"
+    ],
+    "rag_summary": "Polyair Reflective (Polyair Performa) is an\nAustralian-made 3-in-1 reflective insulation, thermal break, and Class 2 vapour\nbarrier manufactured from closed-cell polyethylene foam laminated between pure\naluminium foil facings. Reflecting up to 97% of radiant heat and providing a\ncertified R0.20+ thermal break on steel framing, it stops condensation and\nreduces solar heat gain across roofs, walls, and sheds. Tested to AS 1530.2 with\na low Flammability Index (≤ 5, BAL-40 compliant), it provides a durable,\nfiber-free thermal solution."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

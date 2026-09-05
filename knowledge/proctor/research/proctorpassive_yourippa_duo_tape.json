@@ -1,0 +1,65 @@
+{
+  "family_id": "PROCTOR_PASSIVE_YOURIPPA_DUO_TAPE",
+  "family_name": "ProctorPassive YouRippa Duo Tape",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "gemini_not_found",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "",
+    "features": "",
+    "applications": "",
+    "technical": "",
+    "range": "",
+    "fire": "",
+    "compliance": "",
+    "sustainability": "",
+    "install": "",
+    "selection_checklist": "",
+    "accessories": "",
+    "limitations": "",
+    "warranty": ""
+  },
+  "retrieval": {
+    "search_keywords": [
+      "YouRippa Duo Tape",
+      "Proctor YouRippa\nDuo",
+      "double sided yourippa tape",
+      "yourippa duo adhesive",
+      "double sided\nmembrane tape",
+      "proctor double sided tape",
+      "duo tape proctor"
+    ],
+    "problem_keywords": [
+      "membranes blowing off studs during installation",
+      "holding wrap to steel framing",
+      "concealed membrane lap sealing",
+      "temporary\nfixing of wall wrap",
+      "air leaks between overlapping membranes"
+    ],
+    "placement": [
+      "wall",
+      "external wall",
+      "roof",
+      "roofline",
+      "internal wall"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "condensation"
+    ],
+    "use_cases": [
+      "Concealed\ndouble-sided adhesive lap bonding between overlapping building wrap sheets",
+      "Temporarily adhering pliable building membranes to timber or steel wall studs\nbefore mechanical fixing",
+      "Attaching vapor control layers to ceiling battens\nand steel furring channels"
+    ],
+    "not_for": [
+      "Single-sided exposed face taping\n(use single-sided YouRippa or HighTack)",
+      "Structural cladding retention",
+      "Submerged applications"
+    ],
+    "rag_summary": "ProctorPassive YouRippa Duo Tape is\na heavy-duty, double-sided adhesive tape designed for concealed lap sealing and\ntemporary positioning of building membranes on structural framing. Featuring\nhigh-tack adhesive on both faces of a carrier with a silicone-coated release\nliner, it bonds membranes securely to timber studs, steel girts, and overlapping\nsheet runs. It creates a concealed airtight weather seal between membrane layers\nwhile preventing wind flap during frame construction."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

@@ -1,0 +1,67 @@
+{
+  "family_id": "TRADE_SELECT_ALUMINIUM_GLASS_FOIL_TAPE",
+  "family_name": "Trade Select Aluminium Glass Foil Tape",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "gemini_not_found",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "",
+    "features": "",
+    "applications": "",
+    "technical": "",
+    "range": "",
+    "fire": "",
+    "compliance": "",
+    "sustainability": "",
+    "install": "",
+    "selection_checklist": "",
+    "accessories": "",
+    "limitations": "",
+    "warranty": ""
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Trade Select Aluminium Glass Foil Tape",
+      "Aluminium Glass Foil Tape 100",
+      "AGFT100",
+      "Trade Select glass cloth tape",
+      "reinforced foil tape 100mm",
+      "Ametalin glass foil tape",
+      "aluminium glass cloth\ntape"
+    ],
+    "problem_keywords": [
+      "tearing foil tape on high wind sites",
+      "unsealed\nsarking laps",
+      "air leakage through membrane joints",
+      "high temperature foil\ntape failure",
+      "sealing high-stress duct joints"
+    ],
+    "placement": [
+      "roof",
+      "roofline",
+      "wall",
+      "external wall",
+      "duct",
+      "pipe"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "condensation",
+      "thermal"
+    ],
+    "use_cases": [
+      "Heavy-duty sealing\nof overlaps on reflective roof sarking and wall wraps",
+      "Sealing vapor-tight\njoints on sheet metal HVAC ductwork and insulated pipes",
+      "High-strength\npatching and repairing of tears in pliable building membranes"
+    ],
+    "not_for": [
+      "Structural mechanical load bearing",
+      "Permanent underwater immersion",
+      "Temperatures exceeding 120°C"
+    ],
+    "rag_summary": "Trade Select Aluminium Glass\nFoil Tape (AGFT100) is a 100mm wide heavy-duty reinforced sealing tape featuring\nan aluminum foil facing reinforced with glass fiber cloth and coated with an\naggressive pressure-sensitive adhesive. Distributed under the Trade Select\numbrella for building and HVAC applications, it provides high tensile strength,\npuncture resistance, and an airtight, vapor-tight seal across reflective\nsarking, wall wraps, and ductwork."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

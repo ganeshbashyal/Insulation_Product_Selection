@@ -1,0 +1,186 @@
+{
+  "family_id": "DCTECH_DCT_XPS_GA",
+  "family_name": "DCTech Dct Xps Ga",
+  "datasheet_pdf_url": "https://dctech.com.au/product/dct-xps-ga-300/",
+  "sds_url": "https://dctech.com.au/wp-content/uploads/2021/04/DCT-GA-300-TDS.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "DCT XPS GA 300 is a closed-cell, high-compressive-strength,\nlow-moisture-absorption extruded polystyrene (XPS) general application rigid\ninsulation board for roofs, walls, and floors in commercial and residential\nbuildings. Manufactured in accordance with EN 13164 with zero Ozone Depletion\nPotential (ODP) and CFC/HCFC-free blowing agents, it offers exceptional\ncompressive strength of 300 kPa and long-term dimensional stability. It\nmaintains superior thermal performance even under extreme conditions of\ncompressive loading, ground moisture, and freeze-thaw cycles.",
+    "features": [
+      "High compressive strength minimum 300 kPa (average 350 kPa to AS 2498.3)",
+      "Closed cell structure provides near-zero water absorption (< 0.3% by volume)",
+      "Long-term thermal performance with low thermal conductivity (0.028 - 0.034\nW/m·K)",
+      "Specially designed tongue and groove edge profile for airtight,\ncontinuous thermal layering",
+      "High resistance to freeze-thaw cycles and ground\nmoisture",
+      "Rot-proof, dimensionally stable, and resistant to compression creep\nup to 50 years",
+      "Lightweight, rigid, and clean to handle and cut with a knife\nor saw",
+      "Zero ODP, CFC and HCFC free formulation compliant with Green Star",
+      "Suitable for inverted roofs (IRMA), green roofs, under-slab, cavity walls, and\ncold stores"
+    ],
+    "applications": [
+      "floor",
+      "underfloor",
+      "subfloor",
+      "roof",
+      "wall",
+      "external wall"
+    ],
+    "technical": [
+      {
+        "property": "Compressive Strength\n(at 10% deflection)",
+        "value": "≥ 300 kPa (average 350 kPa)",
+        "standard": "AS 2498.3 / EN 826"
+      },
+      {
+        "property": "Thermal Conductivity",
+        "value": "0.028\n- 0.034 W/m·K (typical 0.029 W/m·K)",
+        "standard": "EN 12667 / ASTM C518"
+      },
+      {
+        "property": "Water Absorption (by total immersion)",
+        "value": "< 0.3% by\nvolume",
+        "standard": "EN 12087 / AS 2498.5"
+      },
+      {
+        "property": "Water Vapour\nPermeability",
+        "value": "Very low vapour permeability (diffusion resistance\nfactor µ 150-200)",
+        "standard": "EN 12086"
+      },
+      {
+        "property": "Standard Board\nDimensions",
+        "value": "600 mm width x 2400 mm length (or 1200 x 2400 mm)",
+        "standard": ""
+      },
+      {
+        "property": "Thickness Options",
+        "value": "25 mm, 30 mm, 40\nmm, 50 mm, 75 mm, 80 mm, 100 mm",
+        "standard": ""
+      },
+      {
+        "property": "Edge\nProfile",
+        "value": "Tongue and groove (T&G) or shiplap edge profile",
+        "standard": ""
+      },
+      {
+        "property": "Density",
+        "value": "Nominal 32-35 kg/m³",
+        "standard": ""
+      },
+      {
+        "property": "Compressive Creep (50 years, <2% deformation)",
+        "value": "100 kPa",
+        "standard": "EN 1606"
+      },
+      {
+        "property": "Service Temperature\nRange",
+        "value": "-50°C to +75°C",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "DCT XPS GA 300 (30mm)",
+        "size_or_rating": "600 mm x 2400 mm x 30 mm (R1.00)",
+        "pack": "Pack / Pallet"
+      },
+      {
+        "variant": "DCT XPS GA 300 (50mm)",
+        "size_or_rating": "600 mm x 2400 mm x 50 mm (R1.70)",
+        "pack": "Pack / Pallet"
+      },
+      {
+        "variant": "DCT XPS GA 300 (75mm)",
+        "size_or_rating": "600 mm x 2400 mm x 75\nmm (R2.55)",
+        "pack": "Pack / Pallet"
+      },
+      {
+        "variant": "DCT XPS GA 300 (100mm)",
+        "size_or_rating": "600 mm x 2400 mm x 100 mm (R3.40)",
+        "pack": "Pack / Pallet"
+      }
+    ],
+    "fire": "Euroclass E to EN 13501-1; Contains flame retardant additives; Must\nbe protected by thermal barrier in accordance with NCC",
+    "compliance": "AS 2498.3, EN 13164, EN 1606, Green Star compliant, NCC Volume One and Two",
+    "sustainability": "CFC and HCFC free, zero Ozone Depletion Potential (ODP), 100%\nrecyclable polystyrene",
+    "install": [
+      "Ensure subgrade, slab, or roof\nwaterproofing membrane is clean, smooth, and free of debris",
+      "For under-slab\napplications, lay boards directly over prepared blinding layer or damp-proof\nmembrane",
+      "Interlock tongue and groove edges tightly to eliminate thermal\nbridging and gap formation",
+      "Stagger end joints in a brick-bond pattern for\nstructural stability",
+      "For inverted roofs (IRMA), lay boards loosely over\nwaterproofing membrane followed by ProctorGeo IRMA geotextile and ballast",
+      "For\ncavity walls, secure boards against inner masonry leaf using mechanical\nretaining clips on wall ties",
+      "Cut easily with a fine-toothed saw or hot wire\ncutter around penetrations and footings"
+    ],
+    "selection_checklist": [
+      "Confirm\ncompressive load requirements (GA 300 provides 300 kPa for standard\ncommercial/residential floors and roofs)",
+      "Select required board thickness\n(e.g. 50mm R1.70, 75mm R2.55, 100mm R3.40) to meet target R-value",
+      "Verify edge\nprofile requirements (tongue and groove standard for continuous thermal layer)",
+      "Confirm ballast requirement for inverted roof assemblies (gravel, pavers, or\ngreen roof soil)",
+      "Ensure compatibility with adjacent waterproofing membranes\nand solvent-free adhesives"
+    ],
+    "accessories": [
+      "ProctorGeo IRMA (filter fabric\nfor inverted roofs)",
+      "ProctorGeo D-Rain DC8 / DC20",
+      "Polyurethane foam\nadhesive",
+      "Mechanical insulation fasteners"
+    ],
+    "limitations": [
+      "Must not come\ninto direct contact with solvent-based waterproofing, petroleum fuels, or coal\ntar",
+      "Maximum continuous service temperature is 75°C",
+      "Must be protected from\nextended outdoor UV exposure prior to covering",
+      "Requires concrete ballast or\npavers on inverted flat roofs to prevent wind uplift and flotation"
+    ],
+    "warranty": "Backed by DCTech product warranty (life equivalent to the\nstructure)"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "DCTech DCT XPS GA",
+      "DCT XPS\nGA 300",
+      "DCT GA 300",
+      "XPS GA 300",
+      "extruded polystyrene board",
+      "under slab\nXPS insulation",
+      "inverted roof insulation XPS",
+      "IRMA roof insulation",
+      "300\nkPa XPS board",
+      "DCTech XPS",
+      "tongue and groove XPS board"
+    ],
+    "problem_keywords": [
+      "cold concrete floor slab",
+      "heat loss through concrete\nfoundation",
+      "waterproofing membrane exposed to UV on flat roof",
+      "condensation\non concrete roof",
+      "high load floor insulation failure",
+      "meeting 7-star NatHERS\nunder-slab insulation"
+    ],
+    "placement": [
+      "floor",
+      "underfloor",
+      "subfloor",
+      "roof",
+      "wall",
+      "external wall"
+    ],
+    "priority_fit": [
+      "thermal",
+      "easy_install",
+      "sustainability"
+    ],
+    "use_cases": [
+      "Under-slab thermal insulation beneath\nconcrete raft slabs to meet 7-star NatHERS energy ratings",
+      "Inverted roof\nmembrane assemblies (IRMA) protecting flat roof waterproofing under ballast or\npavers",
+      "Heavy-load commercial cool room floors requiring high compressive\nstrength (300 kPa)",
+      "Cavity wall continuous thermal insulation in double-brick\nor precast concrete construction"
+    ],
+    "not_for": [
+      "Acoustic airborne sound\nabsorption inside open cavities (use fibrous batts)",
+      "Operating temperatures\nexceeding 75°C",
+      "Contact with solvent-based adhesives or coal-tar membranes"
+    ],
+    "rag_summary": "DCTech DCT XPS GA (DCT XPS GA 300) is a rigid,\nhigh-compressive-strength (300 kPa) extruded polystyrene insulation board\nengineered for under-slab, inverted flat roof (IRMA), green roof, and cavity\nwall applications. Featuring a 100% closed-cell structure with near-zero water\nabsorption (<0.3%) and tongue-and-groove edges, it delivers durable thermal\nperformance (conductivity 0.028-0.034 W/m·K) that resists compression creep,\nground moisture, and freeze-thaw degradation over a 50-year design life.\nManufactured with zero ODP and CFC/HCFC-free blowing agents, it provides\nhigh-load thermal buffering beneath concrete slabs and protected membrane\nroofs."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

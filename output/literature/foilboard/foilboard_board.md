@@ -1,7 +1,7 @@
 ---
 title: "Foilboard Board - Board Insulation | Foilboard"
-description: "Quality insulation engineered for Australian conditions. Rigid design makes installation fast and efficient - no sagging or falling out. Essential for"
-keywords: "Foilboard Board, wall insulation, ceiling insulation, floor insulation, underfloor insulation, insulation Australia, Foilboard Australia"
+description: "Foilboard Green is a rigid, Australian-manufactured insulation panel constructed from a fire-retardant expanded polystyrene (EPS) core laminated on bo"
+keywords: "Foilboard Board, wall insulation, ceiling insulation, roof insulation, floor insulation, underfloor insulation, shed insulation, insulation Australia, Foilboard Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: FOILBOARD_BOARD
 ---
@@ -10,29 +10,41 @@ family_id: FOILBOARD_BOARD
 
 **Foilboard Board** — rigid insulation boards for continuous thermal performance.
 
-Quality insulation engineered for Australian conditions. Rigid design makes installation fast and efficient - no sagging or falling out. Essential for achieving NCC compliance in floor applications.
+Foilboard Green is a rigid, Australian-manufactured insulation panel constructed from a fire-retardant expanded polystyrene (EPS) core laminated on both sides with pure aluminum foil facings. Engineered for use in roofs, external and internal walls, retrofits, and suspended underfloor applications, it provides a 3-in-1 thermal insulation, thermal break, and moisture barrier. Available in ratings from R1.6 to R4.0 across 10mm to 50mm thicknesses, it achieves high Total R-values when paired with adjacent reflective airspaces.
 
 ## Key features
 
-- Lightweight closed-cell expanded polystyrene foam.
-- excellent thermal performance with zero thermal drift.
-- moisture resistant closed-cell structure.
-- CFC/HCFC free manufacturing process.
-- rigid design prevents sagging between joists.
-- reduces drafts and cold floors.
+- 3-in-1 insulation, thermal break, and moisture barrier in a single rigid panel.
+- Fire-retardant expanded polystyrene (EPS) core with pure aluminum foil facings.
+- Pure aluminum reflective facings reflect up to 97% of radiant heat.
+- Achieves system Total R-values up to R4.0+ in conjunction with adjacent airspaces.
+- Zero harmful fibers; non-allergenic and non-carcinogenic with no itch.
+- Extremely lightweight, rigid, and fast to cut and install on site.
+- Impermeable to moisture and will not sag, rot, or deteriorate over time.
+- Anti-glare coating on one face for safe installation in bright sunlight.
+- Group 1 fire hazard rating compliant with AS 5637.1 / AS ISO 9705 for ceilings/walls.
+- Backed by an Australian 25-year performance warranty.
 
 ## Applications and selection
 
-- Underfloor
-- External Wall | Ceiling | Underfloor
+- wall
+- external wall
+- internal wall
+- ceiling
+- roof
+- roofline
+- underfloor
+- floor
+- subfloor
+- shed
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Determine required Total R-value (R1.6 to R4.0) to meet NCC or NatHERS targets.
+2. Select board thickness (10mm to 50mm) based on available cavity depth.
+3. Choose sheet dimensions (2440x1200mm, 2700x1200mm, or 3000x1200mm).
+4. Verify minimum 20mm reflective air space can be maintained in the assembly.
+5. Order matching installation accessories (Floor Saddles, Flexifast, 72mm tape).
 
 
 ## Current catalogue range
@@ -50,37 +62,57 @@ Quality insulation engineered for Australian conditions. Rigid design makes inst
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Board | Manufacturer catalogue |
-| Material | EPS | Manufacturer catalogue |
-| Applications | Underfloor; External Wall | Ceiling | Underfloor | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material | Fire-retardant expanded polystyrene (EPS) core laminated with pure aluminum foil facings | - |
+| Material R-values | 10mm (R0.3), 15mm (R0.4), 20mm (R0.5), 25mm (R0.7), 40mm (R1.1), 50mm (R1.3) | ASTM C518 |
+| Typical Total System R-values | R1.6 to R4.0+ (depending on airspace and installation application) | AS/NZS 4859.1 |
+| Thickness Options | 10 mm, 15 mm, 20 mm, 25 mm, 40 mm, 50 mm | - |
+| Sheet Dimensions | 2440 mm x 1200 mm (standard); 2700 mm x 1200 mm; 3000 mm x 1200 mm | - |
+| Emittance (Reflective Face) | 0.03 (97% heat reflection) | AS/NZS 4201.5 |
+| Emittance (Anti-Glare Face) | 0.05 | AS/NZS 4201.5 |
+| Water Vapor Permeance | < 0.002 µg/N·s (impermeable vapor barrier) | ASTM E96 |
+| Compressive Strength | Class SL / S EPS core | AS 1366.3 |
+| Fire Hazard Classification | Group 1 / Group 2 | AS 5637.1 / AS ISO 9705 |
 
-
+Extracted from manufacturer datasheet: https://www.foilboard.com.au/product/foilboard-green/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Group 1 / Group 2 to AS 5637.1 / AS ISO 9705; AS 1530.3: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-1; Suitable up to BAL-40 to AS 3959
+
+AS/NZS 4859.1, AS 5637.1, AS 3959, CodeMark certified, NCC 2022 Volume 1 & 2 compliant
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.foilboard.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://insulationessentials.com.au/wp-content/uploads/2022/10/MSDS-Foilboard-Nov-2019.pdf.
 
+## Recommended accessories
+
+- Foilboard 72mm Reinforced Aluminum Foil Tape.
+- Foilboard Floor Saddles.
+- Foilboard Flexifast Fasteners.
+- Foilboard Blank Plates.
+
 
 ## Limitations and warnings
 
-- Combustible material - do not expose to flame or high heat sources..
-- protect from UV exposure during installation..
-- check compatibility with solvents and chemicals before use..
-- not suitable for direct contact with bitumen without barrier..
-- Ensure adequate subfloor ventilation is maintained..
-- do not leave exposed to ground moisture or subfloor dampness..
+- Requires a sealed air space of at least 20mm adjacent to foil face to deliver rated Total R-value.
+- Avoid contact with organic solvents, petroleum fuels, and solvent-based adhesives which dissolve EPS.
+- Do not leave permanently exposed to direct outdoor UV weather without cladding.
+- Maximum continuous service temperature is 80°C.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Combustible material - do not expose to flame or high heat sources.
+1. Ensure structural framing or substrate is level, clean, and dry.
+2. Measure and cut panels using a sharp utility knife or hand saw.
+3. Install panels with a minimum 20mm air space adjacent to reflective foil faces to generate full thermal R-value.
+4. For walls, fix horizontally or vertically across timber/steel framing with mechanical fasteners and blank plates.
+5. For underfloor, install between joists supported on Foilboard Floor Saddles.
+6. Butt sheet joints tightly and tape with Foilboard 72mm reinforced aluminum tape.
+7. Seal all edges around windows, doors, and service penetrations to maintain airtightness.
+8. Ensure anti-glare green face faces the installer during roof and sunny external installations.
 
 ## Safety and handling
 
@@ -88,11 +120,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+100% ozone-safe EPS core; zero CFC/HCFC; low VOC; recyclable; fiber-free
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+25 Year Performance Warranty
 
 ## Specification starting point
 

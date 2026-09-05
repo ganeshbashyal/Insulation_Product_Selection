@@ -1,7 +1,7 @@
 ---
 title: "Bradford Wall Wraps - Enviroseal Ultra Tape - Wrap Insulation | Bradford"
-description: "Part of the CSR family with 100+ years of Australian building solutions. Engineered to meet Australian building requirements."
-keywords: "Bradford Wall Wraps - Enviroseal Ultra Tape, Bradford wrap, wall insulation, insulation Australia, Bradford Australia"
+description: "Bradford ULTRAtape (Enviroseal Ultra Tape) is a high-performance, linerless woven polymer fabric sealing tape designed for the fast, waste-free joinin"
+keywords: "Bradford Wall Wraps - Enviroseal Ultra Tape, Bradford wrap, wall insulation, roof insulation, duct insulation, insulation Australia, Bradford Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: BRADFORD_WALL_WRAPS_ENVIROSEAL_ULTRA_TAPE
 ---
@@ -10,27 +10,33 @@ family_id: BRADFORD_WALL_WRAPS_ENVIROSEAL_ULTRA_TAPE
 
 **Bradford Wrap** — reflective membrane for weather protection and condensation control.
 
-Part of the CSR family with 100+ years of Australian building solutions. Engineered to meet Australian building requirements.
+Bradford ULTRAtape (Enviroseal Ultra Tape) is a high-performance, linerless woven polymer fabric sealing tape designed for the fast, waste-free joining and sealing of vapour-permeable wall wraps and roof sarking. Engineered with a heavy-duty cold-weather adhesive and a robust woven backing, it delivers exceptional initial grab and shear strength across Australian climatic conditions. The linerless design eliminates release paper waste on building sites, while the hand-tearable construction allows rapid, blade-free installation on scaffolding and ladders.
 
 ## Key features
 
-- High-performance sealing and joining solution.
-- maintains air and vapour barrier continuity.
-- compatible with a range of insulation substrates.
-- 50 Year Warranty backed by CSR.
-- ACCC certified.
+- Liner-free design eliminates release paper rubbish and waste on job sites.
+- Hand-tearable for fast, convenient installation without knives or scissors.
+- Aggressive pressure-sensitive adhesive performs across hot and cold weather.
+- High tensile strength woven polymer fabric backing resists scuffing and tears.
+- Forms an airtight, water-resistant seal across membrane overlaps and penetrations.
+- Specially formulated for use with Bradford Enviroseal and Thermoseal wraps.
+- Dimensionally stable and will not stretch out of shape during application.
+- Low-VOC formulation compliant with Green Star building standards.
 
 ## Applications and selection
 
-- Wall Wrap / Sarking
+- wall
+- external wall
+- roof
+- roofline
+- duct
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm requirement for fast, linerless site application (especially on scaffolding).
+2. Verify compatibility with Enviroseal or Thermoseal wall and roof wraps.
+3. Calculate total linear metres required for seams and openings.
+4. Ensure application temperature is within recommended range.
 
 
 ## Current catalogue range
@@ -41,33 +47,50 @@ Part of the CSR family with 100+ years of Australian building solutions. Enginee
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Wrap | Manufacturer catalogue |
-| Material | Tape / Sealant | Manufacturer catalogue |
-| Applications | Wall Wrap / Sarking | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Backing Material | Woven polymer fabric | - |
+| Adhesive Type | High-tack synthetic adhesive | - |
+| Roll Dimensions | 60 mm width x 25 m length | - |
+| Release Liner | Linerless (no backing paper) | - |
+| Hand Tearable | Yes | - |
+| Operating Temperature Range | -20°C to +80°C | - |
+| Air and Water Tightness | Passes air barrier and water resistance criteria | AS/NZS 4200.2 |
+| Product Code | 471825 | - |
 
-
+Extracted from manufacturer datasheet: https://www.bradfordinsulation.com.au/accessories/ultratape
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Complies with early fire hazard requirements to AS 1530.2 when applied to compliant building membranes
+
+AS/NZS 4200.2, AS 1530.2, Green Star compliant
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.csrbradford.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://www.firecrunch.com.au/wp-content/uploads/2016/02/BRADFORD-MSDS-e3a0-435b-b6ef-6f1027726ce6.pdf.
 
+## Recommended accessories
+
+- Bradford Enviroseal wall wraps.
+- Bradford Thermoseal wraps.
+
 
 ## Limitations and warnings
 
-- Install in accordance with manufacturer specifications..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Must be applied with firm pressure to activate adhesive.
+- Not designed for structural mechanical holding.
+- Should not be left exposed to UV beyond maximum membrane exposure limits.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Install in accordance with manufacturer specifications.
+1. Ensure membrane surfaces are clean, dry, and dust-free.
+2. Align membrane lap with minimum 150mm overlap (or 50mm if taped per AS 4200.2).
+3. Tear ULTRAtape to length by hand directly from the roll without using cutting tools.
+4. Apply tape centred evenly over the lap seam.
+5. Smooth firmly along the tape with hand pressure or a squeegee to activate the adhesive bond.
+6. Ensure no fishmouths or air channels remain along the tape line.
 
 ## Safety and handling
 
@@ -75,11 +98,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Linerless roll eliminates site paper waste; low VOC formulation
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Backed by CSR Bradford product warranty
 
 ## Specification starting point
 

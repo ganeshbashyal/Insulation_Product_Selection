@@ -1,0 +1,199 @@
+{
+  "family_id": "FLETCHER_FI32_SEMI_RIGID",
+  "family_name": "FI32 Semi-Rigid Insulation",
+  "datasheet_pdf_url": "https://insulation.com.au/product/fi32-semi-rigid-insulation/",
+  "sds_url": "https://insulation.com.au/wp-content/uploads/2023/12/SUIS-FBS-1-Glasswool-Bio-soluble-Insulation.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "FI32 Semi-Rigid Insulation is a versatile glasswool board and\nroll insulation engineered for thermal and acoustic performance in HVAC and\nindustrial systems. Designed for internal lining of sheet metal air conditioning\nductwork, it is also widely used on storage tanks, process vessels, plant rooms,\nand acoustic baffles. Manufactured from up to 80% recycled glass with an FBS-1\nbio-soluble formulation, it is available unfaced or factory-laminated with\nSisalation Heavy Duty Perforated foil, Black Matt Facing, or Vapastop 883.",
+    "features": [
+      "Nominal density of 32 kg/m³ providing superior structural\nrigidity and acoustic absorption",
+      "Excellent sound absorption with NRC values\nup to 1.00 in ductwork and plant rooms",
+      "Thermal conductivity of 0.032 W/m·K\nat 23°C",
+      "Available unfaced or with Vapastop 883, Sisalation HDP foil, or Black\nMatt Facing",
+      "Non-combustible glasswool substrate compliant with AS 1530.1",
+      "Manufactured in Australia from up to 80% recycled glass",
+      "Accommodates flat\nand curved surfaces on tanks and vessels",
+      "Certified under CodeMark Certificate\nof Conformity CM 30006",
+      "Biosoluble safe-to-use FBS-1 formulation with low VOC\nemissions"
+    ],
+    "applications": [
+      "duct",
+      "pipe",
+      "wall",
+      "internal wall",
+      "ceiling"
+    ],
+    "technical": [
+      {
+        "property": "Density",
+        "value": "32 kg/m³",
+        "standard": ""
+      },
+      {
+        "property": "Thermal Conductivity",
+        "value": "0.032 W/m·K\nat 23°C",
+        "standard": "ASTM C518"
+      },
+      {
+        "property": "Material R-values",
+        "value": "R0.71 (25mm), R1.2 (38mm), R1.5 (50mm), R2.0 (66mm), R2.2 (75mm), R3.0\n(100mm)",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Thicknesses",
+        "value": "25 mm, 38 mm, 50 mm, 66 mm, 75 mm, 100 mm",
+        "standard": ""
+      },
+      {
+        "property": "Sheet Dimensions",
+        "value": "2400 mm x 1200 mm, 2400 mm x 1500 mm, 3000 mm\nx 1410/1500 mm",
+        "standard": ""
+      },
+      {
+        "property": "Roll Dimensions",
+        "value": "15000 mm x 1200/1500 mm (25mm), 10000 mm x 1500 mm (38mm), 8000 mm x 1500 mm\n(50mm), 6500 mm x 1500 mm (75mm)",
+        "standard": ""
+      },
+      {
+        "property": "Combustibility",
+        "value": "Non-combustible (base board)",
+        "standard": "AS 1530.1"
+      },
+      {
+        "property": "Early Fire Hazard Indices",
+        "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Operating Temperature",
+        "value": "Up to 340°C (unfaced), up to 120°C (faced)",
+        "standard": ""
+      },
+      {
+        "property": "Acoustic Performance",
+        "value": "NRC up to 1.00 (50mm/75mm)",
+        "standard": "ISO 354"
+      }
+    ],
+    "range": [
+      {
+        "variant": "FI32 Unfaced Sheet 25mm",
+        "size_or_rating": "25 mm x 1200/1500 mm x 2400 mm (R0.71)",
+        "pack": "Pack of 10\nsheets"
+      },
+      {
+        "variant": "FI32 Unfaced Sheet 38mm",
+        "size_or_rating": "38 mm\nx 1500 mm x 2400 mm (R1.2)",
+        "pack": "Pack of 6 sheets"
+      },
+      {
+        "variant": "FI32\nUnfaced Sheet 50mm",
+        "size_or_rating": "50 mm x 1200/1500 mm x 2400 mm (R1.5)",
+        "pack": "Pack of 5 sheets"
+      },
+      {
+        "variant": "FI32 Unfaced Sheet 75mm",
+        "size_or_rating": "75 mm x 1200/1500 mm x 2400 mm (R2.2)",
+        "pack": "Pack of 3\nsheets"
+      },
+      {
+        "variant": "FI32 Unfaced Sheet 100mm",
+        "size_or_rating": "100 mm\nx 1200/1500 mm x 2400 mm (R3.0)",
+        "pack": "Pack of 2 sheets"
+      },
+      {
+        "variant": "FI32 Sisalation HDP Perforated Foil 25mm",
+        "size_or_rating": "25 mm x 1200/1500\nmm x 2400 mm (R0.71)",
+        "pack": "Pack of 10 sheets"
+      },
+      {
+        "variant": "FI32\nSisalation HDP Perforated Foil 50mm",
+        "size_or_rating": "50 mm x 1200 mm x 2400\nmm (R1.5)",
+        "pack": "Pack of 5 sheets"
+      },
+      {
+        "variant": "FI32 Black Matt Facing\n(BMF) 50mm",
+        "size_or_rating": "50 mm x 1200 mm x 2400 mm (R1.5)",
+        "pack": "Pack\nof 5 sheets"
+      }
+    ],
+    "fire": "Non-combustible base to AS 1530.1; AS/NZS 1530.3\nindices: Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke\nDeveloped: 0-1; Meets AS 4254 ductwork fire requirements",
+    "compliance": "AS/NZS 4859.1, AS 4254 (Ductwork for air-handling systems), CodeMark CM 30006,\nNCC 2022 Volume 1 & 2",
+    "sustainability": "Manufactured from up to 80% recycled\nglass; FBS-1 bio-soluble formulation; zero ODP; low VOC",
+    "install": [
+      "Clean\ninternal sheet metal duct or vessel surface ensuring it is free of oil and\ndust",
+      "Cut FI32 sheets or rolls accurately to fit internal duct dimensions\nusing a sharp insulation knife",
+      "Apply approved water-based or solvent-based\nduct liner adhesive covering 100% of the metal surface",
+      "Press FI32 firmly into\nthe wet adhesive with facing material exposed to the air stream",
+      "Fasten with\nmechanical weld pins or grip nails at recommended spacings per AS 4254",
+      "Seal\nall leading edges, transverse joints, and longitudinal seams with Vapastop 883\ntape or edge-seal mastic",
+      "For curved vessels or tanks, wrap sheets or rolls\ntightly and secure with metal banding straps"
+    ],
+    "selection_checklist": [
+      "Confirm application (internal duct lining vs tank/vessel lagging vs plant room\nacoustic wall)",
+      "Select facing material (unfaced, Sisalation HDP perforated\nfoil, Black Matt Facing, or Vapastop 883)",
+      "Determine required R-value and\nthickness (25mm R0.71 up to 100mm R3.0) per AS 4254 / NCC energy tables",
+      "Choose sheet or roll format based on duct dimensions and fabrication machinery"
+    ],
+    "accessories": [
+      "Vapastop 883 Foil Tape",
+      "Duct liner adhesive",
+      "Mechanical\nweld pins and speed clips",
+      "Edge-coating mastic"
+    ],
+    "limitations": [
+      "Maximum\ncontinuous operating temperature for facing materials is 120°C (unfaced\nglasswool operates up to 340°C)",
+      "Black Matt Facing (BMF) is unsuitable for\nmechanical brush cleaning inside ducts",
+      "Not designed for external weather\nexposure without protective sheet metal cladding"
+    ],
+    "warranty": "Backed by\nFletcher Insulation commercial product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Fletcher FI32",
+      "FI32 Semi-Rigid Insulation",
+      "32kg duct\ninsulation",
+      "internal duct liner",
+      "semi rigid glasswool board",
+      "FI32 sheet\ninsulation",
+      "Fletcher HVAC board",
+      "HDP perforated ductliner",
+      "Black Matt\nFacing ductliner"
+    ],
+    "problem_keywords": [
+      "fan noise in air ducts",
+      "heat gain\nin sheet metal ductwork",
+      "rumbling plant room noise",
+      "sweating air\nconditioning ducts",
+      "air turbulence noise in HVAC",
+      "thermal loss on storage\nvessels"
+    ],
+    "placement": [
+      "duct",
+      "pipe",
+      "wall",
+      "internal wall",
+      "ceiling"
+    ],
+    "priority_fit": [
+      "thermal",
+      "acoustic",
+      "fire"
+    ],
+    "use_cases": [
+      "Internal\nacoustic and thermal lining of sheet metal supply and return air conditioning\nducts",
+      "Sound absorption lining inside plant rooms, generator enclosures, and\ndata centers",
+      "Insulating industrial process tanks, storage vessels, and\nelectrostatic precipitators"
+    ],
+    "not_for": [
+      "External weather-exposed surfaces\nwithout metal cladding",
+      "Underfloor suspended timber floors",
+      "High-velocity\nairstreams without edge sealing"
+    ],
+    "rag_summary": "Fletcher FI32 Semi-Rigid\nInsulation is a 32 kg/m³ high-density glasswool board and roll insulation\nengineered for internal HVAC duct lining and industrial vessel lagging.\nDelivering superior sound absorption (NRC up to 1.00) and thermal conductivity\nof 0.032 W/m·K, it is available unfaced or with Sisalation HDP perforated foil,\nBlack Matt Facing, or Vapastop 883 vapour barrier. CodeMark certified (CM 30006)\nand non-combustible to AS 1530.1, it dampens air turbulence, fan noise, and heat\ntransfer in commercial ductwork and plant rooms."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

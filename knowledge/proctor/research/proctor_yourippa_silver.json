@@ -1,0 +1,68 @@
+{
+  "family_id": "PROCTOR_YOURIPPA_SILVER",
+  "family_name": "Proctor YouRippa Silver",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "gemini_not_found",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "",
+    "features": "",
+    "applications": "",
+    "technical": "",
+    "range": "",
+    "fire": "",
+    "compliance": "",
+    "sustainability": "",
+    "install": "",
+    "selection_checklist": "",
+    "accessories": "",
+    "limitations": "",
+    "warranty": ""
+  },
+  "retrieval": {
+    "search_keywords": [
+      "yourippa silver",
+      "proctor yourippa silver",
+      "silver cloth tape",
+      "silver duct tape proctor",
+      "metalised yourippa tape",
+      "silver joining tape",
+      "yourippa tape silver",
+      "heavy\nduty silver tape"
+    ],
+    "problem_keywords": [
+      "unsealed reflective insulation\njoins",
+      "air leakage through foil seams",
+      "moisture passing through sarking\njoins",
+      "tearing foil insulation seams",
+      "silver tape peeling in cold weather"
+    ],
+    "placement": [
+      "roof",
+      "roofline",
+      "wall",
+      "external wall",
+      "duct",
+      "shed"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "thermal",
+      "condensation"
+    ],
+    "use_cases": [
+      "Sealing overlapping joins on reflective foil sarking, wall wraps, and duct\nwraps",
+      "Taping joints on reflective bubble foil and foil-faced foam insulation\nin steel sheds",
+      "General on-site repairs, patching, and temporary holding of\nmetalised membranes"
+    ],
+    "not_for": [
+      "Vapour-permeable membranes requiring\nbreathable unsealed moisture paths",
+      "Flue exhaust pipes exceeding 100C",
+      "Submerged underwater joints"
+    ],
+    "rag_summary": "Proctor YouRippa Silver\nrepresents a heavy-duty, silver-faced construction and duct tape within the\nYouRippa range. Featuring an embossed, high-tensile waterproof backing coated\nwith an aggressive pressure-sensitive adhesive, it matches silver foil membranes\nand ducting. It delivers an airtight, moisture-resistant seal for joining\nreflective insulation, sealing foil laps, and performing durable jobsite repairs\nwithout requiring scissors or knives."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

@@ -1,7 +1,7 @@
 ---
 title: "Kingspan K10 - Board Insulation | Kingspan"
-description: "Global leader in high-performance insulation solutions. Ultra-thin, ultra-efficient. Maximum thermal performance when space is at a premium."
-keywords: "Kingspan K10, Kingspan board, wall insulation, ceiling insulation, floor insulation, underfloor insulation, insulation Australia, Kingspan Australia"
+description: "Kingspan Kooltherm K10 G2 Soffit Board is a premium performance, fiber-free rigid thermoset closed-cell phenolic insulation board designed for concret"
+keywords: "Kingspan K10, Kingspan board, ceiling insulation, floor insulation, underfloor insulation, insulation Australia, Kingspan Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: KINGSPAN_K10
 ---
@@ -10,32 +10,35 @@ family_id: KINGSPAN_K10
 
 **Kingspan Board** — rigid insulation boards for continuous thermal performance.
 
-Global leader in high-performance insulation solutions. Ultra-thin, ultra-efficient. Maximum thermal performance when space is at a premium.
+Kingspan Kooltherm K10 G2 Soffit Board is a premium performance, fiber-free rigid thermoset closed-cell phenolic insulation board designed for concrete soffit ceilings and exposed beam applications. Featuring an innovative composite foil facing that achieves an NCC Group 2 fire classification without requiring thermal barriers, it provides high thermal performance with a thermal conductivity of as low as 0.021 W/m·K. Manufactured in Australia with zero ODP blowing agents, it provides maximum thermal efficiency with minimal ceiling thickness in commercial, residential, and institutional carparks and soffits.
 
 ## Key features
 
-- Ultra-low thermal conductivity phenolic foam.
-- highest thermal performance in thin profiles.
-- fire-resistant with low smoke emission.
-- dimensionally stable over wide temperature range.
-- rigid design prevents sagging between joists.
-- reduces drafts and cold floors.
-- excellent thermal performance for roof/ceiling applications.
-- helps meet NCC energy efficiency requirements.
+- Rigid thermoset phenolic insulation with thermal conductivity as low as 0.021 W/m·K.
+- Ultra-thin profile maximizes ceiling height and carpark clearance.
+- Fiber-free closed-cell insulation core; non-deleterious and safe to handle.
+- Group 2 fire rating compliant with AS 5637.1 / AS ISO 9705 (Group 1 available with K10 Plus).
+- Certified by CodeMark (Certificate of Conformity) for NCC compliance.
+- FM Global approval (Class 4880 Class 1) for ceiling and soffit applications.
+- Available in silver reflective finish (K10 G2) or clean white aesthetic finish (K10 G2W).
+- Unaffected by air movement and resistant to the passage of water vapor.
+- Manufactured in Australia with zero ODP and low GWP blowing agents.
+- Backed by Kingspan's 10-year project-specific warranty.
 
 ## Applications and selection
 
-- Ceiling | Underfloor
-- External Wall
-- Internal Wall
+- ceiling
+- underfloor
+- floor
+- between floors
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm NCC Section J Total R-value requirement for the slab or roof.
+2. Verify fire group rating requirement for the space (Group 2 for K10 G2; Group 1 for K10 Plus).
+3. Select finish (Silver K10 G2 for standard carparks; White K10 G2W for enhanced light reflectance).
+4. Calculate board count (each 2400x1200mm sheet covers 2.88 m²).
+5. Specify matching mechanical anchors and 72mm foil tape.
 
 
 ## Current catalogue range
@@ -87,37 +90,53 @@ Global leader in high-performance insulation solutions. Ultra-thin, ultra-effici
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Board | Manufacturer catalogue |
-| Material | Phenolic | Manufacturer catalogue |
-| Applications | Ceiling | Underfloor; External Wall; Internal Wall | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Thermal Conductivity (lambda) | 0.021 W/m·K (thicknesses ≥ 45mm), 0.023 W/m·K (thicknesses 25-44mm) | AS/NZS 4859.1 |
+| Material R-values | R1.2 (25mm), R1.4 (30mm), R1.9 (40mm), R2.4 (50mm), R2.85 (60mm), R3.3 (70mm), R3.8 (80mm), R4.3 (90mm), R4.75 (100mm) | AS/NZS 4859.1 |
+| Thickness Options | 25 mm, 30 mm, 40 mm, 50 mm, 60 mm, 70 mm, 80 mm, 90 mm, 100 mm | - |
+| Board Dimensions | 2400 mm x 1200 mm (2.88 m²) | - |
+| Core Density | Nominal 35 kg/m³ rigid phenolic | - |
+| Compressive Strength | ≥ 100 kPa at 10% deformation | AS 2498.3 |
+| Fire Classification (NCC) | Group 2 (K10 G2 / K10 G2W), Group 1 (K10 Plus) | AS 5637.1 / AS ISO 9705 |
+| FM Approval | Class 4880 Class 1 | FM Global |
+| Water Vapor Resistance | > 100 MN·s/g | - |
 
-
+Extracted from manufacturer datasheet: https://www.insulation.kingspan.com/au/en/products/rigid-insulation/kooltherm/kooltherm-k10-g2-soffit-board
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Group 2 to AS 5637.1 / AS ISO 9705 (K10 G2 & K10 G2W); Group 1 to AS 5637.1 (K10 Plus); FM Global Class 4880 Class 1 approved
+
+AS/NZS 4859.1:2018, AS 5637.1, CodeMark certified, NCC 2022 Section J Volume 1 & Volume 2
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.kingspan.com/au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://allcongroup.com.au/wp-content/uploads/2025/10/kingspan-greenguard-safety-data-sheet-en-au.pdf.
 
+## Recommended accessories
+
+- Concrete insulation anchors / pins with washer heads.
+- Kingspan 72mm reinforced aluminum tape.
+- Fine-tooth saw.
+
 
 ## Limitations and warnings
 
-- Combustible material - do not expose to flame or high heat sources..
-- protect from UV exposure during installation..
-- check compatibility with solvents and chemicals before use..
-- not suitable for direct contact with bitumen without barrier..
-- Ensure adequate subfloor ventilation is maintained..
-- do not leave exposed to ground moisture or subfloor dampness..
+- Must be mechanically fixed; adhesive fixing alone is not permitted overhead on concrete soffits.
+- Not designed for external weather exposure without protective cladding.
+- Operating temperature must not exceed 100°C continuous exposure.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Combustible material - do not expose to flame or high heat sources.
+1. Inspect concrete soffit ensuring surface is clean, dry, sound, and free of oil or contaminants.
+2. Mark grid pattern on concrete soffit to ensure aligned joints.
+3. Fix boards with foil facing exposed using proprietary insulation anchors with minimum 35mm diameter washers.
+4. Install a minimum of 5 to 6 mechanical fixings per board (located 100mm from edges and across the center).
+5. Butt board edges tightly together in a staggered brick-bond pattern.
+6. Seal all board joints with Kingspan 48mm or 72mm reinforced foil tape to maintain vapor and aesthetic continuity.
+7. Cut boards neatly around service penetrations, conduits, and light fittings with a fine-toothed saw or knife.
 
 ## Safety and handling
 
@@ -125,11 +144,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Manufactured with zero ODP and low GWP; GreenTag GreenRate Level A certified; EPD verified; low VOC
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+10-year project-specific warranty
 
 ## Specification starting point
 

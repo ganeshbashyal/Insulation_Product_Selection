@@ -1,0 +1,64 @@
+{
+  "family_id": "METECNO_ALUMINIUM_GLASS_FOIL_TAPE",
+  "family_name": "Metecno Aluminium Glass Foil Tape",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "gemini_not_found",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "",
+    "features": "",
+    "applications": "",
+    "technical": "",
+    "range": "",
+    "fire": "",
+    "compliance": "",
+    "sustainability": "",
+    "install": "",
+    "selection_checklist": "",
+    "accessories": "",
+    "limitations": "",
+    "warranty": ""
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Metecno Aluminium Glass Foil Tape",
+      "aluminum glass cloth tape",
+      "reinforced foil tape Metecno",
+      "glass cloth foil\ntape",
+      "insulated panel foil tape",
+      "vapor seal foil tape"
+    ],
+    "problem_keywords": [
+      "vapor leakage at panel joints",
+      "air leaks in coolroom\npanels",
+      "joining foil faced insulation",
+      "tearing foil tape on insulated\npanels"
+    ],
+    "placement": [
+      "roof",
+      "roofline",
+      "wall",
+      "duct",
+      "pipe"
+    ],
+    "priority_fit": [
+      "condensation",
+      "easy_install",
+      "thermal"
+    ],
+    "use_cases": [
+      "Sealing joints and seams on aluminum-faced and foil-faced insulated panels",
+      "Vapor-tight sealing across coolroom and cold storage panel joints",
+      "Sealing\nHVAC ductwork and high-temperature pipe lagging seams"
+    ],
+    "not_for": [
+      "Structural mechanical load fastening",
+      "Subterranean wet tanking",
+      "Exhaust\nflues exceeding 150°C"
+    ],
+    "rag_summary": "Metecno Aluminium Glass Foil Tape\nrepresents heavy-duty reinforced aluminum glass-cloth tape distributed for vapor\nsealing and air-tight jointing on insulated panels and HVAC duct systems.\nFeaturing high tensile strength fiberglass scrim reinforcement and an aggressive\npressure-sensitive adhesive, it creates impermeable vapor barriers across panel\nseams in coolrooms, food processing facilities, and commercial buildings."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

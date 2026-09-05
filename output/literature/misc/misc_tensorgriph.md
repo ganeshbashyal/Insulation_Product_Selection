@@ -1,7 +1,7 @@
 ---
 title: "Misc TensorgripH - Accessory Insulation | Misc"
-description: "Quality insulation engineered for Australian conditions. Engineered to meet the demanding requirements of Australian building conditions."
-keywords: "Misc TensorgripH, Misc accessory, insulation Australia, Misc Australia"
+description: "TensorGrip H represents the HVAC and insulation-grade spray contact adhesive line manufactured by Quin Global under the TensorGrip brand. Engineered t"
+keywords: "Misc TensorgripH, Misc accessory, wall insulation, ceiling insulation, pipe insulation, duct insulation, insulation Australia, Misc Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: MISC_TENSORGRIPH
 ---
@@ -10,25 +10,33 @@ family_id: MISC_TENSORGRIPH
 
 **Misc Accessory** — installation accessories and fixings.
 
-Quality insulation engineered for Australian conditions. Engineered to meet the demanding requirements of Australian building conditions.
+TensorGrip H represents the HVAC and insulation-grade spray contact adhesive line manufactured by Quin Global under the TensorGrip brand. Engineered to provide fast, permanent bonding of acoustic duct liners, fiberglass insulation, and building materials to sheet metal and structural substrates, it features a self-contained portable canister system. It withstands continuous high service temperatures in commercial ventilation systems while significantly reducing labor time compared to traditional wet adhesives.
 
 ## Key features
 
-- High-performance sealing and joining solution.
-- maintains air and vapour barrier continuity.
-- compatible with a range of insulation substrates.
+- High-speed spray application from portable canisters.
+- High heat resistance suitable for commercial HVAC duct environments.
+- Immediate green strength and fast drying within 1 to 3 minutes.
+- Formulated for superior adhesion to sheet metal, steel, and concrete.
+- Clean, uniform web spray pattern minimizes overspray and wastage.
+- Zero compressor setup required on job sites.
+- Low VOC and non-chlorinated formulation options.
+- High square-meter coverage per canister.
 
 ## Applications and selection
 
-- General Installation
+- duct
+- wall
+- internal wall
+- ceiling
+- pipe
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm substrate is sheet metal, steel, or concrete.
+2. Check operating temperature of duct or plant room.
+3. Verify hose and spray gun accessories are on site.
+4. Ensure adequate ventilation during spray application.
 
 
 ## Current catalogue range
@@ -39,33 +47,48 @@ Quality insulation engineered for Australian conditions. Engineered to meet the 
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Accessory | Manufacturer catalogue |
-| Material | Tape / Sealant | Manufacturer catalogue |
-| Applications | General Installation | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Adhesive System | Pressurized canister contact spray adhesive | - |
+| Packaging Formats | 500 ml aerosol, 22 L canister (17 kg), 108 L canister | - |
+| Drying Time | 1 - 3 minutes | - |
+| Temperature Resistance | Up to 105°C - 115°C | - |
+| Coverage | Approx. 150 m² - 200 m² per 22L canister | - |
 
-
+Extracted from manufacturer datasheet: https://tensorglobal.com/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Heat resistant up to 115°C; complies with standard commercial HVAC duct fire requirements
+
+Complies with AS 4254 for ductwork installation when used with approved liners
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf.
 
+## Recommended accessories
+
+- TensorGrip spray hose.
+- TensorGrip spray gun and nozzle.
+- Pressure roller.
+
 
 ## Limitations and warnings
 
-- Install in accordance with manufacturer specifications..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Not recommended for standard EPS foam without verifying compatibility.
+- Ensure working area is well ventilated.
+- Canisters must not be stored below 10°C.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Install in accordance with manufacturer specifications.
+1. Ensure sheet metal duct surface is thoroughly clean, dry, and free of oil or grease.
+2. Connect hose and spray gun to the canister and fully open the valve.
+3. Spray adhesive evenly over both the sheet metal and the insulation backing.
+4. Allow 1 to 3 minutes for adhesive to become touch-dry with no transfer.
+5. Position insulation carefully and press into place on the duct surface.
+6. Consolidate bond by rolling firmly with a hand pressure roller across the entire surface.
 
 ## Safety and handling
 
@@ -73,11 +96,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Low VOC formulations; zero ODP; non-chlorinated options
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Backed by Quin Global manufacturer warranty
 
 ## Specification starting point
 

@@ -1,7 +1,7 @@
 ---
 title: "Martini Commercial Polyester / Martini MAB - Batt Insulation | Martini"
-description: "Quality insulation engineered for Australian conditions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability"
-keywords: "Martini Commercial Polyester / Martini MAB, Martini batt, acoustic insulation, wall insulation, ceiling insulation, insulation Australia, Martini Australia"
+description: "Martini MAB (Multi-Application Blanket & Batts) is a premium commercial and industrial polyester acoustic and thermal insulation manufactured by CSR M"
+keywords: "Martini Commercial Polyester / Martini MAB, Martini batt, wall insulation, ceiling insulation, floor insulation, pipe insulation, duct insulation, shed insulation, insulation Australia, Martini Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: MARTINI_COMMERCIAL_POLYESTER_MARTINI_MAB
 ---
@@ -10,28 +10,37 @@ family_id: MARTINI_COMMERCIAL_POLYESTER_MARTINI_MAB
 
 **Martini Batt** — bulk insulation batts for thermal and acoustic performance.
 
-Quality insulation engineered for Australian conditions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability.
+Martini MAB (Multi-Application Blanket & Batts) is a premium commercial and industrial polyester acoustic and thermal insulation manufactured by CSR Martini. Produced in densities from 11 kg/m³ to 60 kg/m³ and thicknesses from 25mm to 100mm, it is engineered to reduce echo and absorb reverberant sound in sports halls, cinemas, studios, industrial enclosures, HVAC ducts, silencers, and plant rooms. Formed from 100% thermally bonded polyester fibers containing up to 80% recycled PET without chemical binders, it is completely non-toxic, non-irritant, and non-allergenic.
 
 ## Key features
 
-- 100% polyester - safe to handle without protective equipment.
-- contains minimum 80% recycled PET plastic bottles.
-- non-allergenic, non-irritant formulation.
-- will not support mould or mildew growth.
-- maintains performance when wet.
-- excellent thermal performance for roof/ceiling applications.
+- Multi-purpose acoustic and thermal insulation manufactured to specific densities (11 to 60 kg/m³).
+- Engineered for commercial, institutional, and industrial noise reduction.
+- Completely non-irritant, non-toxic, and non-allergenic; safe to install without PPE.
+- Available in standard white, with black or grey available upon request.
+- Exceptional sound absorption across speech and mechanical equipment frequencies (NRC up to 1.00+).
+- 100% thermally bonded polyester with zero chemical binders, formaldehyde, or respirable fibers.
+- Certified Global GreenTag GreenRate Level A and Declare Red List Free.
+- Bio-stable and hydrophobic; will not rot, degrade, or harbor mold or vermin.
+- 100% recyclable with high reuse potential.
+- Environmental Product Declaration (EPD) certified in accordance with ISO 14025.
 
 ## Applications and selection
 
-- Internal Wall | Ceiling | General Acoustic
+- wall
+- internal wall
+- ceiling
+- between floors
+- duct
+- pipe
+- shed
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm density (14kg, 20kg, 32kg, 48kg, or 60kg/m³) specified for acoustic absorption requirements.
+2. Select thickness (25mm to 100mm) based on target NRC and available cavity depth.
+3. Choose colorway (standard white for concealed cavities; black for behind slotted timber or perforated panels).
+4. Verify if required in sheets (1200x2400mm) or continuous rolls.
 
 
 ## Current catalogue range
@@ -45,36 +54,52 @@ Quality insulation engineered for Australian conditions. Safe to handle without 
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Batt | Manufacturer catalogue |
-| Material | Polyester | Manufacturer catalogue |
-| Applications | Internal Wall | Ceiling | General Acoustic | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Density Options | 11 kg/m³, 14 kg/m³, 20 kg/m³, 24 kg/m³, 30 kg/m³, 32 kg/m³, 48 kg/m³, 60 kg/m³ | - |
+| Thickness Options | 25 mm, 30 mm, 50 mm, 75 mm, 100 mm | - |
+| Standard Sheet Dimensions | 1200 mm x 2400 mm (custom sizes and rolls available) | - |
+| Acoustic Performance | NRC 0.65 to 1.10 depending on density and thickness (e.g. 50mm 32kg/m³: NRC 0.85-0.90; 75mm 32kg/m³: NRC 1.00; 100mm: NRC 1.05+) | ISO 354 / AS 1045 |
+| Fire Hazard Indices | Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1 | AS/NZS 1530.3 |
+| Thermal Conductivity | 0.032 - 0.040 W/m·K (depending on density) | ASTM C518 |
+| Maximum Service Temperature | 150°C | - |
+| Volatile Organic Compounds (VOC) | Classified as low (0.01 mg/m³) | - |
 
-
+Extracted from manufacturer datasheet: https://www.csrmartini.com.au/product/martini-mab/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+AS/NZS 1530.3 indices: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-1; Suitable for commercial wall and ceiling cavities
+
+AS/NZS 4859.1, ISO 354 / AS 1045, NCC Volume One and Two
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://martini.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://martini.com.au/.
 
+## Recommended accessories
+
+- Utility knife.
+- Mechanical impaling pins.
+- Acoustic sealant.
+
 
 ## Limitations and warnings
 
-- Not suitable for fire rating without additional protection..
-- not to be exposed to weather or sustained moisture..
-- do not compress beyond manufacturer recommendations..
-- check fire-rated system requirements..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Internal use only; not suitable for direct exterior weather exposure.
+- Maximum continuous service temperature is 150°C.
+- In high-velocity HVAC ducts, requires perforated metal or scrim facing to prevent fiber displacement.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for fire rating without additional protection.
+1. Ensure cavity framing, ceiling space, or duct substrate is clean, dry, and free of debris.
+2. Select density and thickness specified by the acoustic consultant (e.g. MAB 32 for sound absorption).
+3. Friction-fit sheets into wall framing bays or lay flat above suspended ceiling tiles.
+4. For perforated paneling or slotted timber, install black MAB directly against the rear of panels to conceal framing.
+5. Cut neatly around mechanical services and electrical boxes using a utility knife or electric cutter.
+6. Overlap or butt adjoining batts tightly together to eliminate acoustic flanking gaps.
+7. In HVAC acoustic silencers or attenuators, install with protective perforated facing to prevent airstream erosion.
 
 ## Safety and handling
 
@@ -82,11 +107,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Manufactured using up to 80% recycled post-consumer PET; Global GreenTag GreenRate Level A; Declare Red List Free; EPD certified (ISO 14025); Low VOC (0.01 mg/m³); Zero ODP
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Backed by CSR Martini commercial product warranty
 
 ## Specification starting point
 

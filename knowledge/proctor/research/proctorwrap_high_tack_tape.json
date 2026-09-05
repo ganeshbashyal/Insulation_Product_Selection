@@ -1,0 +1,142 @@
+{
+  "family_id": "PROCTOR_WRAP_HIGH_TACK_TAPE",
+  "family_name": "ProctorWrap High Tack Tape",
+  "datasheet_pdf_url": "https://proctorgroup.com.au/tape/",
+  "sds_url": "",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "ProctorWrap\nHighTack Tape is a single-sided pressure-sensitive adhesive tape formulated with\nan aggressive, modified acrylate adhesive and a flexible synthetic carrier.\nEngineered to provide an airtight and watertight seal on vapour-permeable\nconstruction membranes, it is widely used to seal overlaps, window flashings,\nand pipe or service penetrations. It offers good ageing resistance, long-term\nelasticity, and resistance to plasticiser migration to maintain building\nenvelope integrity.",
+    "features": [
+      "Aggressive modified acrylate adhesive with\nhigh initial tack",
+      "Flexible synthetic carrier accommodates building movement\nand thermal expansion",
+      "Forms an airtight and watertight seal on\nvapour-permeable membranes",
+      "Free of solvents, chlorine, and formaldehyde for\nlow jobsite emissions",
+      "High ageing resistance and resistance to plasticiser\nmigration",
+      "Bonds to PE, PP, aluminium foils, timber, plastics, and metal",
+      "Hand-tearable or easily cut with a utility knife for fast installation",
+      "Operating temperature performance suitable for demanding Australian climates"
+    ],
+    "applications": [
+      "wall",
+      "external wall",
+      "roof",
+      "roofline",
+      "internal\nwall",
+      "pipe",
+      "duct"
+    ],
+    "technical": [
+      {
+        "property": "Carrier",
+        "value": "Reinforced flexible polyolefin / PE carrier",
+        "standard": ""
+      },
+      {
+        "property": "Adhesive Type",
+        "value": "Solvent-free modified polyacrylic pressure-sensitive\nadhesive",
+        "standard": ""
+      },
+      {
+        "property": "Roll Dimensions",
+        "value": "60 mm\nwidth x 25 m length",
+        "standard": ""
+      },
+      {
+        "property": "Operating Temperature",
+        "value": "-40°C to +80°C",
+        "standard": ""
+      },
+      {
+        "property": "Application\nTemperature",
+        "value": "+5°C to +40°C",
+        "standard": ""
+      },
+      {
+        "property": "Water &\nAir Tightness",
+        "value": "Forms waterproof and airtight barrier seal",
+        "standard": "AS/NZS 4200.2"
+      }
+    ],
+    "range": [
+      {
+        "variant": "ProctorWrap HighTack\nTape 60mm",
+        "size_or_rating": "60 mm x 25 m",
+        "pack": "Roll (Carton of 10)"
+      }
+    ],
+    "fire": "Complies with early fire hazard requirements to AS 1530.2 when used on\ncompliant building membranes",
+    "compliance": "AS/NZS 4200.2:2017, Green Star\ncompliant, Passive House compatible",
+    "sustainability": "Solvent-free, zero\nchlorine, zero formaldehyde, low VOC emissions",
+    "install": [
+      "Ensure surfaces\nto be taped are clean, dry, and free of dust, grease, oil, and frost",
+      "Position\nmembrane overlap with minimum recommended lap width",
+      "Centre the 60mm HighTack\nTape squarely over the seam or penetration edge",
+      "Apply tape smoothly avoiding\ntension wrinkles and air pockets",
+      "Press down firmly along the entire tape\nlength using a plastic squeegee to activate the adhesive",
+      "Ensure substrate is\nsupported from behind while applying squeegee pressure",
+      "For pipes and ducts,\ncut overlapping collar strips to form a continuous watertight collar"
+    ],
+    "selection_checklist": [
+      "Confirm membrane type (compatible with PE, PP, and\npolyolefin non-woven wraps)",
+      "Calculate total linear meters needed for seams,\nopenings, and penetrations",
+      "Ensure installation temperature is above +5°C",
+      "Verify that mechanical fasteners carry structural membrane loads"
+    ],
+    "accessories": [
+      "ProctorWrap building membranes",
+      "Plastic application\nsqueegee"
+    ],
+    "limitations": [
+      "Pressure-sensitive adhesive requires firm\nmechanical squeegee pressure to bond properly",
+      "Must not be applied to wet,\noily, or dusty surfaces",
+      "Not designed for permanent outdoor UV exposure beyond\nmembrane limits"
+    ],
+    "warranty": "Backed by Proctor Group Australia product\nwarranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "ProctorWrap HighTack Tape",
+      "High Tack Tape",
+      "Proctor HighTack",
+      "membrane joining tape",
+      "60mm HighTack",
+      "acrylic wrap tape",
+      "building paper tape",
+      "Proctor sealing tape"
+    ],
+    "problem_keywords": [
+      "air leaks in wall wrap",
+      "water ingress through membrane\nseams",
+      "draughts around pipe penetrations",
+      "tape unsticking from building\nwrap",
+      "sealing window reveals"
+    ],
+    "placement": [
+      "wall",
+      "external wall",
+      "roof",
+      "roofline",
+      "internal wall",
+      "pipe",
+      "duct"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "condensation"
+    ],
+    "use_cases": [
+      "Sealing horizontal and\nvertical laps on vapour-permeable wall wraps",
+      "Creating airtight and watertight\nseals around plumbing pipes and electrical penetrations",
+      "Taping window and\ndoor flashing interfaces to building membranes"
+    ],
+    "not_for": [
+      "High-temperature flue exhaust pipes above 80°C",
+      "Direct structural mechanical\nload holding",
+      "Permanent underwater immersion"
+    ],
+    "rag_summary": "ProctorWrap\nHigh Tack Tape is a flexible, single-sided pressure-sensitive adhesive tape\nfeaturing an aggressive modified acrylate adhesive on a reinforced polyolefin\ncarrier. Sized at 60mm x 25m, it is engineered to form an airtight and\nwatertight seal across vapour-permeable wall wraps, roof underlays, window\ninterfaces, and pipe penetrations. Resistant to plasticiser migration,\ntemperature extremes from -40°C to +80°C, and building movement, it provides\ndurable weather protection and air-sealing compliance with AS/NZS 4200.2:2017."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

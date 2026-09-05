@@ -1,7 +1,7 @@
 ---
 title: "Foilboard Accessory - Accessory Insulation | Foilboard"
-description: "Quality insulation engineered for Australian conditions. Rigid design makes installation fast and efficient - no sagging or falling out. Essential for"
-keywords: "Foilboard Accessory, floor insulation, insulation Australia, Foilboard Australia"
+description: "Foilboard Accessories comprise specialized installation hardware and sealing components engineered to ensure complete thermal envelope continuity and "
+keywords: "Foilboard Accessory, wall insulation, ceiling insulation, floor insulation, underfloor insulation, shed insulation, insulation Australia, Foilboard Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: FOILBOARD_ACCESSORY
 ---
@@ -10,28 +10,35 @@ family_id: FOILBOARD_ACCESSORY
 
 **Foilboard Accessory** — installation accessories and fixings.
 
-Quality insulation engineered for Australian conditions. Rigid design makes installation fast and efficient - no sagging or falling out. Essential for achieving NCC compliance in floor applications.
+Foilboard Accessories comprise specialized installation hardware and sealing components engineered to ensure complete thermal envelope continuity and mechanical stability for Foilboard insulation panels. The range includes aluminum foil joiner tapes, blanking plates, Floor Saddles, and Flexifast nylon fasteners designed specifically to eliminate thermal bridging and maintain non-destructive airspaces. These accessories ensure wall, ceiling, and underfloor installations achieve rated system R-values and meet Australian building compliance.
 
 ## Key features
 
-- Lightweight closed-cell expanded polystyrene foam.
-- excellent thermal performance with zero thermal drift.
-- moisture resistant closed-cell structure.
-- CFC/HCFC free manufacturing process.
-- rigid design prevents sagging between joists.
-- reduces drafts and cold floors.
+- Engineered specifically for Foilboard rigid insulation panel systems.
+- Eliminates thermal bridging at panel junctions and framing fasteners.
+- Reinforced aluminum foil tape creates continuous vapor and air barrier.
+- Durable, corrosion-resistant polymer and galvanized steel components.
+- Designed for fast installation in residential, commercial, and underfloor applications.
+- Prevents panel sagging and dislocation over the life of the building.
+- Tested for compatibility with EPS core and pure aluminum facings.
 
 ## Applications and selection
 
-- Floor
+- underfloor
+- floor
+- subfloor
+- wall
+- external wall
+- internal wall
+- ceiling
+- shed
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm Foilboard panel thickness to match fastener/saddle length.
+2. Determine joist spacing (450mm vs 600mm) for saddle quantities.
+3. Calculate total linear meters of panel joints for tape requirements.
+4. Ensure substrate allows mechanical fixing of Flexifast pins or screws.
 
 
 ## Current catalogue range
@@ -42,37 +49,46 @@ Quality insulation engineered for Australian conditions. Rigid design makes inst
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Accessory | Manufacturer catalogue |
-| Material | Accessory | Manufacturer catalogue |
-| Applications | Floor | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Foil Tape Width | 48 mm / 72 mm | - |
+| Foil Tape Roll Length | 50 m | - |
+| Floor Saddle Depths | 100 mm, 130 mm (for 10-25mm and 20-50mm boards) | - |
+| Flexifast Pin Lengths | 45 mm, 70 mm, 95 mm | - |
+| Tape Flammability | Low Flammability Index (≤ 5) | AS 1530.2 |
 
-
+Extracted from manufacturer datasheet: https://www.foilboard.com.au/product-category/accessories/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Foil tape tested to AS 1530.2 Flammability Index ≤ 5; Components compliant with NCC fire hazard requirements
+
+AS/NZS 4859.1, AS 3999, NCC 2022 Volume 1 & 2
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.foilboard.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://insulationessentials.com.au/wp-content/uploads/2022/10/MSDS-Foilboard-Nov-2019.pdf.
 
+## Recommended accessories
+
+- Foilboard Green insulation panels.
+- Plastic application squeegee.
+
 
 ## Limitations and warnings
 
-- Combustible material - do not expose to flame or high heat sources..
-- protect from UV exposure during installation..
-- check compatibility with solvents and chemicals before use..
-- not suitable for direct contact with bitumen without barrier..
-- Ensure adequate subfloor ventilation is maintained..
-- do not leave exposed to ground moisture or subfloor dampness..
+- Tape must be applied to clean, dry, and dust-free surfaces.
+- Do not substitute non-approved duct tapes that degrade under heat.
+- Saddles and fasteners are non-structural; do not support mechanical equipment.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Combustible material - do not expose to flame or high heat sources.
+1. Select appropriate accessory based on application (Floor Saddles for subfloor; Flexifast for concrete/timber; Tape for joins).
+2. Position panels with required 20mm+ air space to substrate.
+3. Fix panels mechanically using Flexifast pins or Floor Saddles at maximum 600mm centers.
+4. Tape all panel butt joins, corners, and penetrations with Foilboard 72mm reinforced foil tape.
+5. Firmly squeegee tape to ensure permanent pressure-sensitive adhesion and airtight seal.
 
 ## Safety and handling
 
@@ -80,11 +96,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+100% recyclable components; low VOC; zero ODP
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Covered under Foilboard 25-year performance warranty system
 
 ## Specification starting point
 

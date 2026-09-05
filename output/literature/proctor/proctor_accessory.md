@@ -1,7 +1,7 @@
 ---
 title: "Proctor Accessory - Accessory Insulation | Proctor"
-description: "Quality insulation engineered for Australian conditions. Engineered to meet Australian building requirements."
-keywords: "Proctor Accessory, insulation Australia, Proctor Australia"
+description: "Proctor Accessories comprise high-performance sealing tapes and flashing components engineered by Proctor Group Australia to ensure airtight, weathert"
+keywords: "Proctor Accessory, wall insulation, roof insulation, pipe insulation, duct insulation, insulation Australia, Proctor Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: PROCTOR_ACCESSORY
 ---
@@ -10,26 +10,35 @@ family_id: PROCTOR_ACCESSORY
 
 **Proctor Accessory** — installation accessories and fixings.
 
-Quality insulation engineered for Australian conditions. Engineered to meet Australian building requirements.
+Proctor Accessories comprise high-performance sealing tapes and flashing components engineered by Proctor Group Australia to ensure airtight, weathertight, and vapour-permeable continuity across ProctorWrap and ProctorPassive building envelopes. The range includes ProctorWrap HighTack PLUS Tape, ProctorPassive DriFlash Tape, Wraptite Tape, YouByute Flexi Tape, and Air Barrier Tape. Formulated with aggressive, ageing-resistant acrylic and butyl adhesives, they create durable weather-tight seals around membrane overlaps, window interfaces, corners, and pipe penetrations.
 
 ## Key features
 
-- High-performance sealing and joining solution.
-- maintains air and vapour barrier continuity.
-- compatible with a range of insulation substrates.
+- Engineered specifically for ProctorWrap and ProctorPassive vapour-permeable membranes.
+- High tested peel adhesion (≥ 45 N / 25mm for HighTack PLUS).
+- Semi-transparent carrier options allow visibility of printed membrane alignment lines.
+- Flexible and stretchable formulations (YouByute Flexi Tape) for corner and pipe sealing.
+- Superior UV resistance and thermal stability resisting adhesive edge bleed.
+- Bonds securely to polyolefin membranes, timber, steel, concrete, and aluminium boards.
+- Vapour-open and airtight tape variants maintaining breathability.
+- Low VOC emissions supporting Green Star and Passive House standards.
 
 ## Applications and selection
 
-- Passive House Membrane
-- Ventilation
+- wall
+- external wall
+- roof
+- roofline
+- internal wall
+- pipe
+- duct
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm membrane type (ProctorWrap RW, CW, HTR, or Rainscreen).
+2. Select tape function (HighTack PLUS for general laps; YouByute Flexi Tape for corners/pipes; UV Tape for open-joint facades).
+3. Calculate total linear meterage needed for seams, openings, and penetrations.
+4. Verify application temperature is between +5°C and +40°C.
 
 
 ## Current catalogue range
@@ -42,33 +51,50 @@ Quality insulation engineered for Australian conditions. Engineered to meet Aust
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Accessory | Manufacturer catalogue |
-| Material | Tape / Sealant | Manufacturer catalogue |
-| Applications | Passive House Membrane; Ventilation | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Adhesive Carrier | Spunbonded polyolefin, polyethylene film, or reinforced butyl | - |
+| Adhesive Type | Vapour-open acrylic or aggressive butyl pressure-sensitive adhesive | - |
+| Peel Adhesion | ≥ 45 N / 25mm (HighTack PLUS), ≥ 25 N / 25mm (UV Tape) | EN 1939 |
+| Roll Widths | 50 mm, 60 mm, 75 mm, 100 mm, 150 mm | - |
+| Roll Lengths | 25 m, 30 m, 50 m | - |
+| Application Temperature | +5°C to +40°C | - |
+| Operating Temperature | -40°C to +80°C (up to +100°C) | - |
+| Vapour Permeance | Available in Vapour Permeable (DriFlash/Wraptite) and Vapour Barrier (AB Tape) | ASTM E96 |
 
-
+Extracted from manufacturer datasheet: https://proctorgroup.com.au/tapes/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Low flammability; compliant for use with BAL-rated building membranes in accordance with AS 3959
+
+AS/NZS 4200.2:2017, Passive House airtightness standards, Green Star compliant
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://proctorgroup.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://proctorgroup.com.au/wp-content/uploads/2021/02/DCT_PIR_Silver_White_Tissue_Ver_2_2020-2.pdf.
 
+## Recommended accessories
+
+- ProctorWrap wall wraps and roof underlays.
+- Plastic application squeegee.
+
 
 ## Limitations and warnings
 
-- Install in accordance with manufacturer specifications..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Pressure-sensitive tape requires firm mechanical squeegee pressure for full adhesive bonding.
+- Not a substitute for mechanical fasteners; all structural loads must be carried by framing fixings.
+- Must not be applied to wet, oily, or frozen surfaces.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Install in accordance with manufacturer specifications.
+1. Ensure membrane and substrate surfaces are completely dry, clean, and free of oil, grease, and dust.
+2. Centre tape squarely over the membrane overlap, corner seam, or penetration interface.
+3. Apply tape without tension, ensuring no wrinkles or air bubbles remain.
+4. Press firmly along the entire tape length using a hand-held squeegee or pressure roller to activate adhesive.
+5. For pipe and duct penetrations, cut overlapping collar strips to form a continuous watertight seal.
+6. Ensure materials are supported from behind when applying pressure.
 
 ## Safety and handling
 
@@ -76,11 +102,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Low VOC emissions; zero chlorine; zero formaldehyde; solvent-free acrylic adhesives
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Backed by Proctor Group Australia manufacturer warranty
 
 ## Specification starting point
 

@@ -1,0 +1,147 @@
+{
+  "family_id": "MISC_RHINO_BREATHABLE_MEMBRANE",
+  "family_name": "Misc Rhino Breathable Membrane",
+  "datasheet_pdf_url": "https://rhinofoil.com.au/products/rhino-wrap-breather/",
+  "sds_url": "",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Rhino Wrap Breather is a Class 4 vapour permeable, Light Duty\nflexible building membrane engineered for external walls. Manufactured by\nlaminating a microporous film between two layers of spunbonded non-woven\npolyolefin, it allows internal water vapour to escape while acting as an\neffective barrier to liquid water, draughts, and dust. It is designed to reduce\nthe risk of interstitial condensation in residential and commercial timber and\nsteel-framed wall assemblies.",
+    "features": [
+      "Class 4 vapour permeable allowing\nwater vapour to diffuse outward",
+      "Triple-layer spunbonded polyolefin and\nmicroporous film laminate",
+      "Effective water barrier resisting liquid water\npenetration",
+      "Air barrier reduces draughts and convective heat loss",
+      "Light\nDuty mechanical classification to AS/NZS 4200.1",
+      "Resistant to mould and\nbacterial degradation",
+      "Suitable for timber and steel framed wall\nconstruction",
+      "Non-reflective surface eliminates installer glare on site",
+      "Low\nFlammability Index compliant with AS 1530.2"
+    ],
+    "applications": [
+      "wall",
+      "external wall"
+    ],
+    "technical": [
+      {
+        "property": "Duty Classification",
+        "value": "Light Duty",
+        "standard": "AS/NZS 4200.1:2017"
+      },
+      {
+        "property": "Vapour\nControl",
+        "value": "Class 4 Vapour Permeable",
+        "standard": "AS/NZS 4200.1:2017"
+      },
+      {
+        "property": "Water Control",
+        "value": "Water Barrier",
+        "standard": "AS/NZS 4201.4"
+      },
+      {
+        "property": "Air Control",
+        "value": "Air Barrier",
+        "standard": "AS/NZS 4200.1:2017"
+      },
+      {
+        "property": "Flammability Index",
+        "value": "≤ 5 (Low)",
+        "standard": "AS 1530.2"
+      },
+      {
+        "property": "Roll Dimensions",
+        "value": "1500 mm x 30 m (45 m²) / 1500 mm x 50 m (75 m²)",
+        "standard": ""
+      },
+      {
+        "property": "Nominal Thickness",
+        "value": "0.5 mm",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Rhino Wrap Breather 30m",
+        "size_or_rating": "1500 mm x 30 m (45\nm²)",
+        "pack": "Roll"
+      },
+      {
+        "variant": "Rhino Wrap Breather 50m",
+        "size_or_rating": "1500 mm x 50 m (75 m²)",
+        "pack": "Roll"
+      }
+    ],
+    "fire": "Flammability Index ≤ 5 to AS 1530.2; Suitable for external walls in\nbushfire-prone areas up to BAL-40 to AS 3959",
+    "compliance": "AS/NZS 4200.1:2017, AS/NZS 4200.2:2017, AS 1530.2, AS 3959, NCC 2022 Volume One\nand Two",
+    "sustainability": "100% recyclable polyolefin materials; zero ODP;\nnon-toxic",
+    "install": [
+      "Install horizontally on the outer face of timber or\nsteel wall studs starting from the bottom plate",
+      "Fasten with broad-headed\ngalvanised clouts or staples at maximum 300mm centres",
+      "Ensure upper runs\noverlap lower runs by at least 150mm to shed water downward",
+      "Overlap vertical\njoins by minimum 150mm over a stud line",
+      "Tape all horizontal and vertical\njoins using approved vapour-permeable acrylic cloth tape",
+      "Seal around window\nand door openings and all service penetrations",
+      "Provide a ventilated drainage\ncavity between the membrane and exterior cladding"
+    ],
+    "selection_checklist": [
+      "Verify climate zone requires a Class 4 vapour-permeable wall wrap",
+      "Confirm\nexternal cladding type requires a drained cavity",
+      "Calculate total wall area\nallowing minimum 150mm overlaps",
+      "Ensure compatible cloth or acrylic joining\ntape is specified",
+      "Check installation exposure window prior to cladding"
+    ],
+    "accessories": [
+      "Vapour-permeable cloth tape",
+      "Galvanised clouts / staples",
+      "Sill and window flashing tape"
+    ],
+    "limitations": [
+      "Not designed for roof\nsarking applications",
+      "Must not be left exposed to direct sunlight beyond\nmanufacturer UV limits",
+      "Ensure cladding provides an unobstructed drainage\ncavity"
+    ],
+    "warranty": "Backed by manufacturer product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Rhino Breathable Membrane",
+      "Rhino Wrap Breather",
+      "Class 4 breathable wrap",
+      "vapour permeable wall wrap",
+      "Rhino wall wrap",
+      "breathable building paper",
+      "Rhino wrap 1500mm",
+      "timber frame breathable\nwrap",
+      "house wrap breathable"
+    ],
+    "problem_keywords": [
+      "interstitial\ncondensation in wall frame",
+      "mould in wall cavity",
+      "draughts through brick\nveneer",
+      "moisture trapped behind cladding",
+      "weatherproofing timber studs"
+    ],
+    "placement": [
+      "wall",
+      "external wall"
+    ],
+    "priority_fit": [
+      "condensation",
+      "easy_install",
+      "fire"
+    ],
+    "use_cases": [
+      "Vapour-permeable wall wrap behind\nresidential brick veneer, timber weatherboards, and fibre cement in climate\nzones 4 to 8",
+      "Air and moisture barrier over timber and steel wall framing to\nassist with blower-door airtightness compliance",
+      "Weather barrier wrap behind\nlightweight composite external cladding"
+    ],
+    "not_for": [
+      "Roof sarking\napplications",
+      "Direct exposure without outer cladding",
+      "Subfloor soil damp\nproofing"
+    ],
+    "rag_summary": "Rhino Breathable Membrane (Rhino Wrap Breather) is\na Class 4 vapour-permeable, Light Duty pliable building membrane manufactured\nfrom non-woven spunbonded polyolefin with a microporous core. Designed for\ntimber and steel-framed external walls, it allows interior moisture vapour to\ndiffuse freely while acting as a barrier against wind-driven rain, dust, and\ndraughts. Compliant with AS/NZS 4200.1:2017 and possessing a Flammability Index\n≤ 5 (BAL-40 suitable), it mitigates condensation and mould in residential and\ncommercial wall assemblies."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

@@ -1,6 +1,6 @@
 ---
 title: "Kingspan K17 - Board Insulation | Kingspan"
-description: "Global leader in high-performance insulation solutions. Ultra-thin, ultra-efficient. Maximum thermal performance when space is at a premium."
+description: "Kingspan Kooltherm K17 Insulated Plasterboard is a 3-in-1 internal wall dry-lining system combining high-performance rigid thermoset phenolic insulati"
 keywords: "Kingspan K17, Kingspan board, wall insulation, insulation Australia, Kingspan Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: KINGSPAN_K17
@@ -10,28 +10,32 @@ family_id: KINGSPAN_K17
 
 **Kingspan Board** — rigid insulation boards for continuous thermal performance.
 
-Global leader in high-performance insulation solutions. Ultra-thin, ultra-efficient. Maximum thermal performance when space is at a premium.
+Kingspan Kooltherm K17 Insulated Plasterboard is a 3-in-1 internal wall dry-lining system combining high-performance rigid thermoset phenolic insulation, a moisture vapor control layer, and a 10mm tapered-edge gypsum plasterboard face. Specifically engineered for adhesive dot-and-dab bonding or mechanical fixing to concrete walls, masonry blockwork, and existing plasterboard partitions, it delivers thermal conductivities as low as 0.021 W/m·K. It achieves 7-star energy ratings while reducing wall thickness by up to 60% compared to traditional bulk insulation and stud assemblies.
 
 ## Key features
 
-- Ultra-low thermal conductivity phenolic foam.
-- highest thermal performance in thin profiles.
-- fire-resistant with low smoke emission.
-- dimensionally stable over wide temperature range.
-- Global leader in high-performance insulation.
-- zero ODP manufacturing.
+- 3-in-1 solution: thermal insulation, vapor control layer, and interior plasterboard lining in one board.
+- Ultra-thin wall profile increases usable interior floor area by up to 60% compared to framed bulk batts.
+- Exceptional thermal conductivity of 0.021 - 0.023 W/m·K (insulant core).
+- CodeMark certified for NCC compliance.
+- Suitable for direct adhesive bonding (dot-and-dab) or mechanical fixing to masonry and concrete.
+- 10mm tapered edge plasterboard face allows standard flush jointing and painting.
+- Group 1-S / Group 1 interior lining fire classification.
+- Fiber-free closed-cell phenolic core; resistant to moisture and water vapor.
+- Manufactured in Australia with zero ODP blowing agents.
+- Global GreenTag GreenRate Level A certified with verified EPD.
 
 ## Applications and selection
 
-- Internal Wall
+- wall
+- internal wall
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm wall substrate is masonry, concrete, or internal framing suitable for drylining.
+2. Select required overall thickness (e.g. 50mm for R1.80, 70mm for R2.70) to meet target energy rating.
+3. Verify wall plumbness and tolerance for adhesive dab thickness (approx. 10-15mm).
+4. Ensure mechanical safety fixings and plasterboard jointing accessories are ordered.
 
 
 ## Current catalogue range
@@ -58,36 +62,55 @@ Global leader in high-performance insulation solutions. Ultra-thin, ultra-effici
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Board | Manufacturer catalogue |
-| Material | Phenolic | Manufacturer catalogue |
-| Applications | Internal Wall | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Thermal Conductivity (Insulant Core) | 0.021 W/m·K (thicknesses ≥ 45mm), 0.023 W/m·K (thicknesses 25-44mm) | AS/NZS 4859.1 |
+| Thermal Conductivity (Plasterboard) | 0.17 W/m·K | - |
+| Overall Product Thicknesses | 35 mm, 40 mm, 50 mm, 60 mm, 70 mm, 80 mm, 90 mm (includes 10mm plasterboard) | - |
+| Declared R-values (Material) | R1.15 (35mm), R1.35 (40mm), R1.80 (50mm), R2.25 (60mm), R2.70 (70mm), R3.15 (80mm), R3.65 (90mm) | AS/NZS 4859.1 |
+| Board Dimensions | 2400 mm x 1200 mm (2.88 m²) | - |
+| Plasterboard Specification | 10 mm tapered-edge gypsum plasterboard | AS/NZS 2588 |
+| Compressive Strength (Core) | ≥ 100 kPa at 10% deformation | AS 2498.3 |
+| Fire Hazard Classification | Group 1-S / Group 1 (SMOGRArc < 100 m2/s2) | AS 5637.1 / AS ISO 9705 |
+| Water Vapor Permeance | Vapor control layer incorporated between insulant and plasterboard | - |
 
-
+Extracted from manufacturer datasheet: https://www.insulation.kingspan.com/au/en/products/rigid-insulation/kooltherm/kooltherm-k17-insulated-plasterboard
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Group 1-S / Group 1 to AS 5637.1 / AS ISO 9705; Low smoke generation (SMOGRArc < 100 m2/s2)
+
+AS/NZS 4859.1:2018, AS 5637.1, CodeMark Certified, NCC 2022 Volume 1 and Volume 2
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.kingspan.com/au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://allcongroup.com.au/wp-content/uploads/2025/10/kingspan-greenguard-safety-data-sheet-en-au.pdf.
 
+## Recommended accessories
+
+- Plasterboard masonry adhesive.
+- Mechanical expansion anchors.
+- Paper joint tape.
+- Jointing compound.
+
 
 ## Limitations and warnings
 
-- Combustible material - do not expose to flame or high heat sources..
-- protect from UV exposure during installation..
-- check compatibility with solvents and chemicals before use..
-- not suitable for direct contact with bitumen without barrier..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Do not rely on adhesive bonding alone in overhead or ceiling applications (mechanical fixing mandatory).
+- Do not use directly adjacent to combustion sources or uninsulated fireplace flues.
+- Substrate must be protected from external water penetration before drylining.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Combustible material - do not expose to flame or high heat sources.
+1. Inspect existing substrate (concrete wall, brick, blockwork) ensuring it is dry, clean, sound, and free of efflorescence.
+2. Cut boards approximately 15mm short of floor-to-ceiling height using a plasterboard saw.
+3. For adhesive bonding, apply daubs (blobs) of plasterboard masonry adhesive (25mm dia) at 300mm centers vertically and horizontally.
+4. Alternatively apply continuous ribbon of adhesive around board perimeter and service openings.
+5. Lift board into position using a foot-operated board lifter resting on temporary wedges at floor level.
+6. Press board firmly against the wall and tap flat with a long straight edge to align true and plumb.
+7. Install a minimum of 2 mechanical safety anchors per board into substrate once adhesive has set.
+8. Tape and finish tapered-edge joints using standard plasterboard jointing compound and paper tape.
 
 ## Safety and handling
 
@@ -95,11 +118,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Manufactured with zero ODP and low GWP; GreenTag GreenRate Level A; EPD verified; low VOC
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+10-year manufacturing warranty
 
 ## Specification starting point
 

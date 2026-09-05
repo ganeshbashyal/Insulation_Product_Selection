@@ -1,0 +1,876 @@
+[ { "family_id": "BRADFORD_POLYESTER_POLYMAX", "tds_url":
+"https://www.bradfordinsulation.com.au/home-insulation/walls/polymax-wall-batts",
+"sds_url": "https://www.bradfordinsulation.com.au/resources/safety-data-sheets",
+"description": "Bradford Polymax thermal and acoustic polyester insulation is
+manufactured from 100% thermally bonded polyester fibres containing up to 80%
+recycled content. Specifically engineered for walls and partitions in
+residential and commercial buildings, it provides non-irritant, easy-to-install
+thermal and acoustic performance. It contains no chemical binders or added flame
+retardants, will not pack down or deteriorate, and is approved by the National
+Asthma Council's Sensitive Choice program.", "features": [ "100% thermally
+bonded polyester fibre with no chemical binders", "Made from up to 80% recycled
+PET fibres", "Non-irritant and completely safe to touch without protective
+gear", "Acoustic and thermal dual-performance for walls and partitions", "Tested
+to AS/NZS 4859.1 for thermal resistance", "Early Fire Hazard properties
+complying with AS 1530.3 (Ignitability 0, Spread of Flame 0, Smoke
+Developed 0-2)", "Approved by National Asthma Council Australia's Sensitive
+Choice program", "Resistant to moisture, mould, rot, and vermin", "Zero Ozone
+Depleting Potential (ODP) and low VOC emissions", "Backed by a 70-year
+performance warranty" ], "applications": [ "wall", "internal wall", "external
+wall", "between floors" ], "technical": [ { "property": "Material R-values",
+"value": "R1.5, R2.0, R2.5", "standard": "AS/NZS 4859.1" }, { "property":
+"Nominal Thickness", "value": "90 mm", "standard": "" }, { "property": "Batt
+Dimensions", "value": "1160 mm x 430 mm (450 mm stud centres); 1160 mm x 580 mm
+(600 mm stud centres)", "standard": "" }, { "property": "Material Composition",
+"value": "100% thermally bonded polyester fibres (polyethylene terephthalate)",
+"standard": "" }, { "property": "Recycled Content", "value": "Up to 80% recycled
+PET fibre", "standard": "" }, { "property": "Fire Hazard Properties", "value":
+"Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-2",
+"standard": "AS 1530.3" }, { "property": "Maximum Service Temperature", "value":
+"150°C", "standard": "" }, { "property": "Moisture Absorption", "value": "< 0.2%
+by volume", "standard": "" }, { "property": "VOC Emissions", "value": "Low VOC
+emitting, non-toxic", "standard": "" } ], "range": [ { "variant": "Polymax
+Thermal Wall Batts R1.5", "size_or_rating": "90 mm x 430/580 mm x 1160 mm",
+"pack": "Pack of 16 (8.0 m2 / 10.8 m2)" }, { "variant": "Polymax Thermal Wall
+Batts R2.0", "size_or_rating": "90 mm x 430/580 mm x 1160 mm", "pack": "Pack
+of 12 (6.0 m2 / 8.1 m2)" }, { "variant": "Polymax Thermal Wall Batts R2.5",
+"size_or_rating": "90 mm x 430/580 mm x 1160 mm", "pack": "Pack of 8 (4.0 m2
+/ 5.4 m2)" } ], "fire": "AS 1530.3: Ignitability 0, Spread of Flame 0, Heat
+Evolved 0, Smoke Developed 0-2", "compliance": "AS/NZS 4859.1; AS 1530.3;
+NCC 2022 Volume 1 & Volume 2 thermal and acoustic requirements",
+"sustainability": "Contains up to 80% recycled PET fibre; zero chemical binders;
+zero ODP; low VOC; Sensitive Choice approved; 100% recyclable", "install": [
+"Ensure stud cavity is clean and electrical services are roughed in prior to
+installing insulation", "Friction-fit Polymax batts snugly between timber or
+steel wall framing studs", "Ensure batts fit tightly against studs, top plates,
+and bottom plates without gaps or sagging", "Avoid excessive compression of
+batts to preserve rated thermal thickness", "Cut or slit neatly around
+electrical wiring, nogging, and plumbing using a sharp utility knife or shears",
+"Install external wall wraps or internal plasterboard linings over framed batts"
+], "selection_checklist": [ "Confirm framing stud spacing (430mm for 450mm
+centres, 580mm for 600mm centres)", "Confirm stud depth (nominal 90mm)", "Select
+required thermal R-value (R1.5, R2.0, or R2.5) to comply with NCC / NatHERS
+energy rating", "Confirm non-combustibility requirements (polyester is
+combustible; if AS 1530.1 non-combustible is mandated, specify glasswool)",
+"Check allergy and sensitive household requirements" ], "accessories": [
+"Bradford Thermoseal or Enviroseal wall wrap", "Serrated insulation knife or
+heavy-duty shears" ], "limitations": [ "Not non-combustible under AS 1530.1; do
+not use where non-combustible insulation is required by NCC", "Do not compress
+into stud cavities shallower than the nominal thickness", "Indoor/enclosed wall
+application only; protect from weather and wet conditions" ], "warranty": "70
+Year Performance Warranty", "found": true, "search_keywords": [ "Bradford
+Polymax", "Polymax insulation", "Polymax wall batts", "polyester wall
+insulation", "Bradford polyester batts", "non itchy wall batts", "itch free
+insulation", "Polymax R2.0", "Polymax R2.5", "polyester thermal batts" ],
+"problem_keywords": [ "itchy fiberglass insulation", "cold rooms in winter",
+"hot walls in summer", "sound transfer through internal walls", "asthma safe
+wall insulation", "slumping wall batts" ], "placement": [ "wall", "internal
+wall", "external wall", "between floors" ], "priority_fit": [ "sustainability",
+"easy_install", "thermal", "acoustic" ], "use_cases": [ "Insulating external
+timber-frame walls in new residential builds for thermal control without itchy
+glasswool fibres", "Acoustic and thermal partition insulation in internal walls
+of asthma and allergy-sensitive homes", "Mid-floor acoustic and thermal infill
+between ground and first-floor living spaces" ], "not_for": [ "Commercial
+fire-rated wall assemblies requiring AS 1530.1 non-combustibility", "Exposed
+outdoor cladding without external lining", "Flooring underlay subject to direct
+mechanical foot traffic" ], "rag_summary": "Bradford Polyester - Polymax is a
+premium, itch-free thermal and acoustic insulation batt manufactured from 100%
+thermally bonded polyester fibres with up to 80% recycled content. Engineered
+for 90mm timber and steel stud wall cavities, it delivers thermal ratings from
+R1.5 to R2.5 and sound dampening without chemical binders or added flame
+retardants. Recognized by Sensitive Choice as asthma- and allergy-friendly and
+backed by a 70-year performance warranty, it provides a safe, non-irritant
+alternative to glasswool for residential walls and mid-floors." }, {
+"family_id": "BRADFORD_POLYMAX_CEILING_INSULATION", "tds_url":
+"https://www.bradfordinsulation.com.au/home-insulation/ceilings/polymax-ceiling-batts",
+"sds_url": "https://www.bradfordinsulation.com.au/resources/safety-data-sheets",
+"description": "Bradford Polymax Ceiling Insulation is a premium thermal and
+acoustic polyester batt designed specifically for residential roof spaces and
+ceilings. Made from 100% thermally bonded polyester fibres containing up to 80%
+recycled content, it provides soft, itch-free handling without chemical binders
+or added formaldehyde. It keeps homes cooler in summer and warmer in winter,
+will not pack down or deteriorate, and is approved by the National Asthma
+Council's Sensitive Choice program.", "features": [ "100% thermally bonded
+polyester ceiling batts with zero chemical binders", "High thermal ratings from
+R2.5 up to R4.0 to meet stringent energy codes", "Made from up to 80% recycled
+post-consumer PET fibres", "Completely itch-free and safe to handle without
+gloves or protective clothing", "Will not pack down, shrink, mould, or rot over
+time", "Early Fire Hazard properties compliant with AS/NZS 1530.3", "Approved by
+National Asthma Council Australia's Sensitive Choice program", "Absorbs airborne
+sound to reduce outside noise transmission through ceilings", "Zero Ozone
+Depleting Potential (ODP) and low VOC emissions", "Backed by a 70-year
+performance warranty" ], "applications": [ "ceiling" ], "technical": [ {
+"property": "Material R-values", "value": "R2.5, R3.0, R3.5, R4.0", "standard":
+"AS/NZS 4859.1" }, { "property": "Nominal Thickness", "value": "R2.5: 140 mm;
+R3.0: 180 mm; R3.5: 200 mm; R4.0: 220 mm", "standard": "" }, { "property": "Batt
+Dimensions", "value": "1160 mm x 430 mm (450 mm joist centres); 1160 mm x 580 mm
+(600 mm joist centres)", "standard": "" }, { "property": "Material Composition",
+"value": "100% thermally bonded polyester fibres (polyethylene terephthalate)",
+"standard": "" }, { "property": "Recycled Content", "value": "Up to 80% recycled
+PET fibre", "standard": "" }, { "property": "Fire Hazard Properties", "value":
+"Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-2",
+"standard": "AS 1530.3" }, { "property": "Maximum Service Temperature", "value":
+"150°C", "standard": "" }, { "property": "Moisture Absorption", "value": "< 0.2%
+by volume", "standard": "" }, { "property": "VOC Emissions", "value": "Low VOC
+emitting, non-toxic", "standard": "" } ], "range": [ { "variant": "Polymax
+Ceiling Batts R2.5", "size_or_rating": "140 mm x 430/580 mm x 1160 mm", "pack":
+"Pack of 8 (4.0 m2 / 5.4 m2)" }, { "variant": "Polymax Ceiling Batts R3.0",
+"size_or_rating": "180 mm x 430/580 mm x 1160 mm", "pack": "Pack of 8 (4.0 m2
+/ 5.4 m2)" }, { "variant": "Polymax Ceiling Batts R3.5", "size_or_rating": "200
+mm x 430/580 mm x 1160 mm", "pack": "Pack of 8 (4.0 m2 / 5.4 m2)" }, {
+"variant": "Polymax Ceiling Batts R4.0", "size_or_rating": "220 mm x 430/580 mm
+x 1160 mm", "pack": "Pack of 6 (3.0 m2 / 4.0 m2)" } ], "fire": "AS 1530.3:
+Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-2",
+"compliance": "AS/NZS 4859.1; AS 3999; AS 1530.3; NCC 2022 Volume 1 & Volume 2",
+"sustainability": "Contains up to 80% recycled PET; zero formaldehyde or
+chemical binders; low VOC; Sensitive Choice approved; 100% recyclable",
+"install": [ "Ensure roof space is safe, de-energise electrical circuits before
+entering ceiling if required by state regulations", "Friction-fit batts between
+ceiling joists without gaps", "Butt edges firmly together to create a continuous
+thermal barrier", "Maintain required safety clearances around non-IC rated
+recessed downlights, exhaust fans, and flue pipes per AS 3999", "Start from the
+perimeter plates working inward toward the ceiling manhole", "Do not compress
+batts or cover electrical equipment not rated for insulation contact" ],
+"selection_checklist": [ "Confirm ceiling joist spacing (430mm width for 450mm
+centres, 580mm width for 600mm centres)", "Confirm target R-value required by
+NCC climate zone or 7-star NatHERS energy rating (e.g. R3.5, R4.0)", "Check
+ceiling cavity clearance and truss heel height", "Verify non-combustible
+requirement (polyester does not meet AS 1530.1)", "Confirm downlight IC ratings
+to determine clearance requirements" ], "accessories": [ "Downlight covers (if
+non-IC rated)", "Serrated insulation cutter / heavy shears", "Ceiling access
+boards" ], "limitations": [ "Not non-combustible under AS 1530.1", "Must not
+cover non-IC rated downlights or high-heat appliances without proper
+clearances", "Avoid compressing batts which reduces thermal performance" ],
+"warranty": "70 Year Performance Warranty", "found": true, "search_keywords": [
+"Polymax ceiling batts", "Bradford Polymax ceiling", "polyester ceiling
+insulation", "itch free ceiling batts", "Polymax R3.5", "Polymax R4.0", "non
+glasswool ceiling batts", "recycled polyester roof batts", "ceiling batts
+Sensitive Choice", "polyester attic insulation" ], "problem_keywords": [ "hot
+ceiling radiating heat into bedrooms", "winter heat loss through ceiling",
+"itchy skin from ceiling insulation", "allergy flareups from attic dust",
+"slumped or dusty ceiling batts", "high energy bills in summer" ], "placement":
+[ "ceiling" ], "priority_fit": [ "sustainability", "easy_install", "thermal",
+"acoustic" ], "use_cases": [ "Upgrading attic ceiling insulation in existing
+homes to R3.5 or R4.0 without fiberglass dust or skin irritation", "Installing
+ceiling insulation in homes with asthma or allergy sufferers where Sensitive
+Choice approval is required", "New residential home roof space insulation to
+achieve 7-star energy compliance" ], "not_for": [ "Applications requiring
+AS 1530.1 non-combustible insulation", "Direct contact with hot flues or non-IC
+downlights without clearance", "Underfloor or exposed wall cavity applications"
+], "rag_summary": "Bradford Polymax Ceiling Insulation is a soft, non-irritant
+ceiling batt manufactured from 100% thermally bonded polyester fibres with up
+to 80% recycled PET. Offered in thermal ratings from R2.5 to R4.0 (140mm
+to 220mm thickness), it friction-fits between standard ceiling joists to prevent
+roof-space heat transfer and reduce outdoor noise intrusion. Free from
+formaldehyde, chemical binders, and loose respirable fibres, it carries National
+Asthma Council Sensitive Choice accreditation and is backed by
+Bradford's 70-year performance warranty." }, { "family_id":
+"BRADFORD_SOUNDCSREEN_ACOUSTIC_BATTS", "tds_url":
+"https://www.bradfordinsulation.com.au/home-insulation/walls/soundscreen",
+"sds_url": "https://www.bradfordinsulation.com.au/resources/safety-data-sheets",
+"description": "Bradford SoundScreen is Australia's most popular high-density
+acoustic insulation batt, specially engineered to reduce sound transfer through
+internal walls, external walls, and mid-floors. Manufactured from high-density
+FBS-1 bio-soluble glasswool containing up to 65% recycled glass, SoundScreen
+absorbs airborne sound and acoustic vibrations to reduce loud noises to a
+whisper. It is non-combustible, provides thermal resistance up to R3.1, and is
+approved by the National Asthma Council's Sensitive Choice program.",
+"features": [ "Reduces sound power transfer by up to 75% in interior walls and
+mid-floors", "High-density glasswool formulation designed specifically for
+acoustic absorption", "Non-combustible in accordance with AS 1530.1", "Early
+Fire Hazard indices of 0/0/0/0-1 to AS/NZS 1530.3", "Thermal ratings from R1.7
+to R3.1 to provide dual thermal-acoustic benefits", "Approved by National Asthma
+Council Australia's Sensitive Choice program", "FBS-1 bio-soluble glasswool
+formulation, non-hazardous and safe to handle", "Will not pack down, shrink,
+mould, rot, or deteriorate", "Manufactured in Australia from up to 65% recycled
+glass", "Backed by a 70-year performance warranty" ], "applications": [
+"internal wall", "wall", "external wall", "between floors", "ceiling" ],
+"technical": [ { "property": "Material R-values", "value": "R1.7 (60mm), R2.0
+(70mm), R2.5 (88mm), R3.1 (110mm)", "standard": "AS/NZS 4859.1" }, { "property":
+"Nominal Thickness", "value": "60 mm, 70 mm, 88 mm, 110 mm", "standard": "" }, {
+"property": "Batt Dimensions", "value": "1160 mm x 430 mm; 1160 mm x 580
+mm; 1200 mm x 600 mm", "standard": "" }, { "property": "Acoustic Absorption
+(NRC)", "value": "R1.7: 1.00; R2.0: 1.00; R2.5: 1.10; R3.1: 1.15", "standard":
+"ISO 354" }, { "property": "Combustibility", "value": "Non-Combustible",
+"standard": "AS 1530.1" }, { "property": "Fire Hazard Properties", "value":
+"Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+"standard": "AS/NZS 1530.3" }, { "property": "Maximum Service Temperature",
+"value": "350°C", "standard": "" }, { "property": "Moisture Absorption",
+"value": "< 0.2% by volume (96 hours at 50°C, 95% RH)", "standard": "" }, {
+"property": "Corrosion Resistance", "value": "pH 7.5 - 8.0, non-corrosive",
+"standard": "BS 3958 Part 5" }, { "property": "Recycled Content", "value": "Up
+to 65% recycled glass", "standard": "" } ], "range": [ { "variant": "SoundScreen
+R1.7", "size_or_rating": "60 mm x 430/580 mm x 1160 mm", "pack": "Pack of 10
+(4.99 m2 / 6.73 m2)" }, { "variant": "SoundScreen R2.0", "size_or_rating": "70
+mm x 430/580 mm x 1160 mm; 70 mm x 600 mm x 1200 mm", "pack": "Pack of 8 (3.99
+m2 / 5.38 m2 / 5.76 m2)" }, { "variant": "SoundScreen R2.5", "size_or_rating":
+"88 mm x 430/580 mm x 1160 mm", "pack": "Pack of 6 (3.0 m2 / 4.0 m2)" }, {
+"variant": "SoundScreen R3.1", "size_or_rating": "110 mm x 430/580 mm x 1160
+mm", "pack": "Pack of 5 (2.5 m2 / 3.4 m2)" } ], "fire": "Non-Combustible to
+AS 1530.1; AS/NZS 1530.3: Ignitability 0, Spread of Flame 0, Heat Evolved 0,
+Smoke Developed 0-1", "compliance": "AS/NZS 4859.1:2018; AS 1530.1;
+AS/NZS 1530.3; NCC 2022 Volume 1 & Volume 2 acoustic and fire standards",
+"sustainability": "Contains up to 65% recycled glass; FBS-1 bio-soluble
+formulation; low VOC; Sensitive Choice approved; zero ODP", "install": [
+"Friction-fit SoundScreen batts tightly between timber or steel wall framing
+studs", "Ensure batts completely fill the stud or joist cavity without gaps or
+voids around edges", "Cut batts neatly around electrical conduits, plumbing
+pipes, and junction boxes using an insulation knife", "For between-floor
+applications, lay batts between mid-floor joists or hold in place before ceiling
+lining installation", "In party walls or home theatres, pair with acoustic
+plasterboard (e.g. Gyprock Soundchek) and resilient mounts for maximum Rw
+performance", "Fasten internal wall linings directly over the insulated
+framework" ], "selection_checklist": [ "Confirm stud or joist cavity width
+(430mm for 450mm centres, 580mm for 600mm centres)", "Confirm stud cavity depth
+(e.g. 70mm, 75mm, or 90mm stud cavity determines R1.7, R2.0, or R2.5)", "Check
+required acoustic sound transmission rating (Rw 40 to Rw 55+)", "Confirm
+non-combustibility requirement (SoundScreen passes AS 1530.1)", "Determine if
+thermal R-value is required for external walls or mid-floors" ], "accessories":
+[ "Gyprock Soundchek acoustic plasterboard", "Acoustic perimeter sealant",
+"Resilient isolation clips", "Serrated insulation knife" ], "limitations": [ "Do
+not compress batts into cavities narrower than the nominal batt thickness",
+"Acoustic performance depends on airtight wall construction; seal all perimeter
+gaps and penetrations", "Indoor/enclosed cavity application only; protect from
+weather" ], "warranty": "70 Year Performance Warranty", "found": true,
+"search_keywords": [ "Bradford SoundScreen", "SoundScreen acoustic batts",
+"SoundScreen R2.0", "SoundScreen R2.5", "acoustic wall batts", "soundproofing
+batts", "high density acoustic insulation", "internal wall sound batts", "home
+theatre insulation batts", "SoundScreen Comfort Touch" ], "problem_keywords": [
+"noisy bathroom pipes through bedroom wall", "television noise between rooms",
+"kids playing noise between floors", "loud traffic noise through external
+walls", "home theatre sound leakage", "meeting room speech privacy" ],
+"placement": [ "internal wall", "wall", "external wall", "between floors",
+"ceiling" ], "priority_fit": [ "acoustic", "fire", "thermal", "easy_install" ],
+"use_cases": [ "Friction-fitting into 70mm and 90mm internal stud walls around
+bedrooms, bathrooms, and laundries to minimize noise transfer", "Mid-floor
+acoustic cavity treatment between ground-floor living areas and upstairs
+bedrooms to deaden impact and airborne sound", "Lining home theatre walls and
+media rooms paired with acoustic plasterboard for high sound isolation" ],
+"not_for": [ "Direct floor traffic surfaces or under-tile subfloor underlays",
+"Unlined exposed walls without plasterboard covering", "External roofing
+applications without waterproof sarking" ], "rag_summary": "Bradford SoundScreen
+Acoustic Batts are high-density, non-combustible glasswool insulation segments
+engineered to reduce sound power transfer by up to 75% through internal walls
+and mid-floors. Available in thicknesses from 60mm to 110mm (R1.7 to R3.1) with
+an acoustic NRC up to 1.15, they absorb conversational noise, television sound,
+and plumbing rumble. Certified non-combustible under AS 1530.1 and endorsed by
+Sensitive Choice for asthma and allergy sufferers, SoundScreen delivers proven
+acoustic privacy and thermal comfort backed by a 70-year warranty." }, {
+"family_id": "BRADFORD_SOUNDSCREEN_ACOUSTIC_BRADFORD", "tds_url":
+"https://www.bradfordinsulation.com.au/home-insulation/walls/soundscreen",
+"sds_url": "https://www.bradfordinsulation.com.au/resources/safety-data-sheets",
+"description": "Bradford SoundScreen Acoustic is a high-density, non-combustible
+glasswool acoustic and thermal insulation batt developed by CSR Bradford.
+Engineered for internal walls, home theatres, master bedroom ensuites,
+laundries, and mid-floors, it dramatically reduces sound transmission between
+rooms by absorbing airborne acoustic energy. Made with FBS-1 bio-soluble
+glasswool, it achieves an NRC rating up to 1.15, AS 1530.1 non-combustibility,
+and provides dual acoustic-thermal benefits backed by a 70-year warranty.",
+"features": [ "High-density glasswool delivers superior acoustic dampening
+across speech frequencies", "Cuts sound transmission through internal walls and
+mid-floors by up to 75%", "Non-combustible complying with AS 1530.1", "Early
+Fire Hazard properties (0/0/0/0-1) to AS/NZS 1530.3", "Dual acoustic and thermal
+performance (R1.7 to R3.1)", "Approved by National Asthma Council Australia's
+Sensitive Choice program", "FBS-1 bio-soluble glasswool formulation assessed as
+non-hazardous", "Will not pack down, shrink, rot, or deteriorate over time",
+"Manufactured in Australia from up to 65% recycled glass", "Guaranteed 70-year
+product performance warranty" ], "applications": [ "internal wall", "wall",
+"between floors", "ceiling", "external wall" ], "technical": [ { "property":
+"Material R-values", "value": "R1.7 (60mm), R2.0 (70mm), R2.5 (88mm), R3.1
+(110mm)", "standard": "AS/NZS 4859.1" }, { "property": "Nominal Thickness",
+"value": "60 mm, 70 mm, 88 mm, 110 mm", "standard": "" }, { "property": "Batt
+Dimensions", "value": "1160 mm x 430 mm, 1160 mm x 580 mm, 1200 mm x 600 mm",
+"standard": "" }, { "property": "Acoustic Absorption (NRC)", "value": "1.00
+(60mm & 70mm), 1.10 (88mm), 1.15 (110mm)", "standard": "ISO 354" }, {
+"property": "Combustibility", "value": "Non-Combustible", "standard":
+"AS 1530.1" }, { "property": "Fire Hazard Properties", "value":
+"Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+"standard": "AS/NZS 1530.3" }, { "property": "Maximum Service Temperature",
+"value": "350°C", "standard": "" }, { "property": "Moisture Absorption",
+"value": "< 0.2% by volume (96 hours at 50°C, 95% RH)", "standard": "" }, {
+"property": "Corrosion Resistance", "value": "pH 7.5 - 8.0, non-corrosive",
+"standard": "BS 3958 Part 5" }, { "property": "Recycled Content", "value": "Up
+to 65% recycled glass", "standard": "" } ], "range": [ { "variant": "SoundScreen
+R1.7", "size_or_rating": "60 mm x 430/580 mm x 1160 mm", "pack": "Pack of 10
+(4.99 m2 / 6.73 m2)" }, { "variant": "SoundScreen R2.0", "size_or_rating": "70
+mm x 430/580 mm x 1160 mm; 70 mm x 600 mm x 1200 mm", "pack": "Pack of 8 (3.99
+m2 / 5.38 m2 / 5.76 m2)" }, { "variant": "SoundScreen R2.5", "size_or_rating":
+"88 mm x 430/580 mm x 1160 mm", "pack": "Pack of 6 (3.0 m2 / 4.0 m2)" }, {
+"variant": "SoundScreen R3.1", "size_or_rating": "110 mm x 430/580 mm x 1160
+mm", "pack": "Pack of 5 (2.5 m2 / 3.4 m2)" } ], "fire": "Non-Combustible to
+AS 1530.1; AS/NZS 1530.3: Ignitability 0, Spread of Flame 0, Heat Evolved 0,
+Smoke Developed 0-1", "compliance": "AS/NZS 4859.1:2018; AS 1530.1;
+AS/NZS 1530.3; NCC 2022 Volume 1 & Volume 2", "sustainability": "Up to 65%
+recycled glass; FBS-1 bio-soluble glasswool; low VOC; Sensitive Choice approved;
+zero ODP", "install": [ "Verify framing cavity depth and stud spacing",
+"Friction-fit SoundScreen batts into stud cavities or between mid-floor joists",
+"Ensure full contact with framing on all sides without gaps, gaps cause sound
+leakage", "Trim neatly around electrical boxes, wiring, and pipes using an
+insulation knife", "Ensure wall and ceiling joints are completely sealed with
+acoustic sealant", "Hang internal wall plasterboard (or acoustic plasterboard)
+and fasten per manufacturer instructions" ], "selection_checklist": [ "Confirm
+stud spacing (430mm for 450mm centres, 580mm for 600mm centres)", "Confirm stud
+depth (70mm for R2.0, 90mm for R2.5)", "Determine acoustic isolation requirement
+(e.g. bathroom, bedroom, media room)", "Confirm non-combustibility requirement
+under NCC", "Specify acoustic sealant and tape for all flanking gaps" ],
+"accessories": [ "Gyprock Soundchek acoustic plasterboard", "Acoustic perimeter
+sealant", "Resilient isolation clips", "Serrated knife" ], "limitations": [ "Do
+not compress into stud cavities smaller than batt thickness", "Acoustic
+performance is significantly degraded if flanking paths and gaps are left
+unsealed", "Not for use in exposed exterior or wet environments without
+protective lining" ], "warranty": "70 Year Performance Warranty", "found": true,
+"search_keywords": [ "Bradford SoundScreen", "SoundScreen acoustic batts",
+"acoustic wall batts", "sound reduction insulation", "high density sound
+insulation", "SoundScreen R2.0", "SoundScreen R2.5", "non combustible acoustic
+batts", "mid floor sound batts", "SoundScreen Bradford" ], "problem_keywords": [
+"loud voices through bedroom wall", "noisy laundry vibration through walls",
+"toilet flushing noise in adjoining rooms", "flanking noise across internal
+drywall", "echoey two storey house floors", "home office confidentiality" ],
+"placement": [ "internal wall", "wall", "between floors", "ceiling", "external
+wall" ], "priority_fit": [ "acoustic", "fire", "thermal", "easy_install" ],
+"use_cases": [ "Acoustic lining in timber and steel stud walls dividing
+bedrooms, bathrooms, and living areas", "Between-floor cavity acoustic
+soundproofing in double-storey homes", "External wall acoustic upgrade to
+insulate against noisy street traffic and barking dogs" ], "not_for": [
+"Underfloor insulation directly exposed to weather or ground soil", "Flooring
+underlay under tiles or floorboards", "Exposed wall lining without protective
+drywall" ], "rag_summary": "Bradford SoundScreen Acoustic - Bradford is an
+Australian-made, high-density glasswool batt engineered to reduce airborne and
+impact noise transmission across internal walls, mid-floors, and external walls.
+Providing sound reduction of up to 75% and acoustic absorption with an NRC up
+to 1.15, it doubles as an effective thermal insulator with ratings from R1.7 to
+R3.1. Certified non-combustible to AS 1530.1 and approved by Sensitive Choice,
+it offers peace, quiet, and fire safety backed by a 70-year warranty." }, {
+"family_id": "BRADFORD_SUPERTEL_FACED_HEAVY_DUTY_FOIL", "tds_url":
+"https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/hvac/supertel",
+"sds_url": "https://www.bradfordinsulation.com.au/resources/safety-data-sheets",
+"description": "Bradford Supertel Faced - Heavy Duty Foil is a high-density
+(32kg/m3) glasswool insulation blanket and board factory-laminated with a Heavy
+Duty Thermofoil reflective aluminium foil facing. Engineered for commercial and
+industrial applications where superior thermal and acoustic performance is
+required at minimal thickness, it is widely utilized for internal and external
+HVAC duct lining, acoustic enclosures, and concrete under-soffit insulation. Its
+non-combustible glasswool core and puncture-resistant Heavy Duty foil provide a
+clean, reflective, and airtight vapor barrier.", "features": [
+"High-density 32kg/m3 glasswool core provides exceptional thermal and acoustic
+properties at minimal thickness", "Factory-laminated with Heavy Duty Thermofoil
+puncture-resistant reflective aluminium foil facing", "Forms an effective vapour
+barrier and clean, light-reflective surface finish", "Non-combustible glasswool
+core complying with AS 1530.1", "Early Fire Hazard properties complying with
+AS/NZS 1530.3 (0/0/0/0-1)", "Maximum operating service temperature up to 150°C
+(faced)", "Manufactured from bio-soluble FBS-1 glasswool containing up to 65%
+recycled glass", "Resistant to moisture penetration and fungal growth", "Zero
+Ozone Depleting Potential (ODP) and low VOC emissions", "Available in
+thicknesses from 25mm to 100mm (R0.8 to R3.0)" ], "applications": [ "duct",
+"pipe", "ceiling", "wall" ], "technical": [ { "property": "Material R-values",
+"value": "25mm: R0.8; 40mm: R1.2; 50mm: R1.5; 75mm: R2.2; 100mm: R3.0",
+"standard": "AS/NZS 4859.1" }, { "property": "Density", "value": "32 kg/m3",
+"standard": "" }, { "property": "Thickness", "value": "25 mm, 40 mm, 50 mm, 75
+mm, 100 mm", "standard": "" }, { "property": "Dimensions (Rolls)", "value": "15
+m x 1200/1500 mm (25mm); 10 m x 1200/1500 mm (40/50mm); 5 m x 1380/1500 mm
+(100mm)", "standard": "" }, { "property": "Dimensions (Boards)", "value": "2400
+mm x 1200 mm", "standard": "" }, { "property": "Facing", "value": "Thermofoil
+Heavy Duty (HD) reinforced reflective aluminium foil", "standard":
+"AS/NZS 4200.1" }, { "property": "Combustibility (Core)", "value":
+"Non-Combustible", "standard": "AS 1530.1" }, { "property": "Fire Hazard
+Properties", "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0,
+Smoke Developed: 0-1", "standard": "AS/NZS 1530.3" }, { "property": "Maximum
+Service Temperature", "value": "150°C (faced)", "standard": "" }, { "property":
+"Thermal Conductivity", "value": "0.032 W/m·K at 20°C", "standard": "ASTM C518"
+}, { "property": "Moisture Absorption", "value": "< 0.2% by volume", "standard":
+"" } ], "range": [ { "variant": "Supertel Faced HD Foil 25mm", "size_or_rating":
+"25 mm x 1200/1500 mm x 15 m (R0.8) or 2400x1200 mm board", "pack": "Roll /
+Pack" }, { "variant": "Supertel Faced HD Foil 40mm", "size_or_rating": "40 mm
+x 1500 mm x 10 m (R1.2) or 2400x1200 mm board", "pack": "Roll / Pack" }, {
+"variant": "Supertel Faced HD Foil 50mm", "size_or_rating": "50 mm x 1200/1500
+mm x 10 m (R1.5) or 2400x1200 mm board", "pack": "Roll / Pack" }, { "variant":
+"Supertel Faced HD Foil 75mm", "size_or_rating": "75 mm x 1200/1500 mm x 5 m
+(R2.2) or 2400x1200 mm board", "pack": "Roll / Pack" }, { "variant": "Supertel
+Faced HD Foil 100mm", "size_or_rating": "100 mm x 1380/1500 mm x 5 m (R3.0)
+or 2400x1200 mm board", "pack": "Roll / Pack" } ], "fire": "Core non-combustible
+to AS 1530.1; AS/NZS 1530.3: Ignitability 0, Spread of Flame 0, Heat Evolved 0,
+Smoke Developed 0-1", "compliance": "AS/NZS 4859.1:2018; AS 1530.1;
+AS/NZS 1530.3; AS 4254 (Ductwork for air-handling systems); NCC 2022 Section J",
+"sustainability": "Manufactured from up to 65% recycled glass; FBS-1 bio-soluble
+formulation; zero ODP; low VOC", "install": [ "Clean sheet metal duct or
+concrete slab surface to ensure it is free from dust, oil, and moisture", "Weld
+or adhere insulation stick pins to duct or substrate at 300mm to 400mm centres",
+"Impale Supertel Heavy Duty Foil blanket or board over the pins with the foil
+facing outward", "Secure in place with speed clips / retaining washers pushed
+firmly over pins", "Butt all insulation seams tightly together", "Seal all
+joints, seams, and pin penetrations using matching Bradford 493 Reinforced
+Aluminium Foil Tape", "Use a plastic squeegee to firmly press tape down,
+ensuring an airtight, continuous vapour seal" ], "selection_checklist": [
+"Confirm application (HVAC duct wrap, acoustic enclosure, or concrete soffit
+lining)", "Confirm required thermal R-value under NCC Section J (e.g. R1.2 for
+internal ducts, R1.5/R2.0 for external ducts)", "Verify 32kg/m3 density
+requirement for acoustic damping and structural integrity", "Select thickness
+(25mm to 100mm)", "Ensure matching reinforced aluminium foil tape (Bradford 493)
+is ordered" ], "accessories": [ "Bradford 493 Reinforced Aluminium Foil Tape",
+"Insulation stick pins and speed clips", "Plastic squeegee" ], "limitations": [
+"Maximum continuous service temperature of facing is 150°C", "Protect from
+exterior weather and rain until metal cladding or outer jacketing is installed",
+"Tape all penetrations to prevent vapor ingress and condensation formation
+behind the foil" ], "warranty": "CSR Bradford Standard Product Warranty",
+"found": true, "search_keywords": [ "Bradford Supertel", "Supertel Heavy Duty
+Foil", "Supertel HD Foil", "32kg duct insulation", "HVAC duct wrap foil faced",
+"Supertel 50mm foil", "foil faced glasswool board", "commercial HVAC
+insulation", "Bradford ductliner foil", "soffit insulation board foil" ],
+"problem_keywords": [ "ductwork thermal heat loss", "sweating air conditioning
+ducts", "condensation on metal ducts", "noisy HVAC duct vibration", "meeting NCC
+Section J duct R-values", "punctured foil on commercial ductwork" ],
+"placement": [ "duct", "pipe", "ceiling", "wall" ], "priority_fit": [ "thermal",
+"condensation", "fire", "acoustic" ], "use_cases": [ "External thermal wrap on
+rectangular and spiral sheet metal HVAC ductwork in commercial plant rooms",
+"Under-soffit thermal and acoustic insulation lining on exposed concrete slabs",
+"Acoustic enclosure lagging around noisy air-handling units and industrial fans"
+], "not_for": [ "Internal air-stream duct lining without mechanical protection
+where air velocities exceed limits", "Operating temperatures continuously
+exceeding 150°C", "Uncovered outdoor rooftop ductwork without protective metal
+cladding" ], "rag_summary": "Bradford Supertel Faced - Heavy Duty Foil is a 32
+kg/m3 high-density glasswool insulation blanket and board factory-bonded with a
+puncture-resistant Heavy Duty Thermofoil aluminium facing. Engineered for
+commercial HVAC duct wrapping, equipment enclosures, and under-soffit linings,
+it delivers thermal ratings from R0.8 to R3.0 (25mm to 100mm) while forming a
+robust vapour barrier that stops condensation. Featuring a non-combustible
+glasswool core under AS 1530.1 and early fire hazard ratings of 0/0/0/0-1, it
+provides fire-safe, durable thermal and acoustic protection for commercial
+services." }, { "family_id": "BRADFORD_SUPERTEL_FACED_HEAVY_DUTY_PERFORATED",
+"tds_url":
+"https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/hvac/supertel",
+"sds_url": "https://www.bradfordinsulation.com.au/resources/safety-data-sheets",
+"description": "Bradford Supertel Faced - Heavy Duty Perforated is a
+high-density (32kg/m3) glasswool insulation blanket and board faced with a
+factory-applied Heavy Duty Perforated aluminium foil (Thermofoil HD Perf).
+Specifically developed for internal HVAC duct lining, acoustic attenuators, and
+visible concrete under-soffit linings, the perforated foil face allows sound
+waves to enter the glasswool core for maximum acoustic absorption while
+retaining fibres and providing a durable, wipeable, and reflective finish. It
+delivers superior acoustic NRC ratings while meeting strict fire requirements.",
+"features": [ "32kg/m3 high-density glasswool core delivers exceptional acoustic
+sound absorption", "Heavy Duty Perforated foil facing allows sound entry while
+preventing air-stream fibre erosion", "High acoustic performance with sound
+absorption NRC up to 0.90 - 1.05", "Ideal for internal HVAC duct lining,
+silencers, plant rooms, and carpark soffits", "Non-combustible glasswool core
+complying with AS 1530.1", "Early Fire Hazard properties complying with
+AS/NZS 1530.3 (0/0/0/0-1)", "Thermal performance ratings from R0.7 to R3.0 in
+accordance with AS/NZS 4859.1", "Manufactured from up to 65% recycled glass
+using bio-soluble FBS-1 formulation", "Durable, semi-rigid construction easy to
+cut and impale over insulation pins", "Maximum service operating temperature up
+to 150°C (faced)" ], "applications": [ "duct", "ceiling", "wall" ], "technical":
+[ { "property": "Material R-values", "value": "25mm: R0.7; 40mm: R1.2; 50mm:
+R1.5; 75mm: R2.2; 100mm: R3.0", "standard": "AS/NZS 4859.1" }, { "property":
+"Density", "value": "32 kg/m3", "standard": "" }, { "property": "Thickness",
+"value": "25 mm, 40 mm, 50 mm, 75 mm, 100 mm", "standard": "" }, { "property":
+"Dimensions (Rolls)", "value": "15 m x 1200/1500 mm (25mm); 10 m x 1200/1500 mm
+(40/50mm); 5 m x 1380/1500 mm (100mm)", "standard": "" }, { "property":
+"Dimensions (Boards)", "value": "2400 mm x 1200 mm", "standard": "" }, {
+"property": "Facing", "value": "Thermofoil Heavy Duty Perforated (HD Perf)
+reflective aluminium foil", "standard": "" }, { "property": "Acoustic Absorption
+(NRC)", "value": "25mm: NRC 0.70; 50mm: NRC 0.90; 75mm: NRC 1.00; 100mm:
+NRC 1.05", "standard": "AS ISO 354" }, { "property": "Combustibility (Core)",
+"value": "Non-Combustible", "standard": "AS 1530.1" }, { "property": "Fire
+Hazard Properties", "value": "Ignitability: 0, Spread of Flame: 0, Heat
+Evolved: 0, Smoke Developed: 0-1", "standard": "AS/NZS 1530.3" }, { "property":
+"Maximum Service Temperature", "value": "150°C (faced)", "standard": "" }, {
+"property": "Thermal Conductivity", "value": "0.032 W/m·K at 20°C", "standard":
+"ASTM C518" } ], "range": [ { "variant": "Supertel Faced HD Perf 25mm",
+"size_or_rating": "25 mm x 1200/1500 mm x 15 m (R0.7) or 2400x1200 mm board",
+"pack": "Roll / Pack" }, { "variant": "Supertel Faced HD Perf 40mm",
+"size_or_rating": "40 mm x 1500 mm x 10 m (R1.2) or 2400x1200 mm board", "pack":
+"Roll / Pack" }, { "variant": "Supertel Faced HD Perf 50mm", "size_or_rating":
+"50 mm x 1200/1500 mm x 10 m (R1.5) or 2400x1200 mm board", "pack": "Roll /
+Pack" }, { "variant": "Supertel Faced HD Perf 75mm", "size_or_rating": "75 mm
+x 1200/1500 mm x 5 m (R2.2) or 2400x1200 mm board", "pack": "Roll / Pack" }, {
+"variant": "Supertel Faced HD Perf 100mm", "size_or_rating": "100 mm x 1380/1500
+mm x 5 m (R3.0) or 2400x1200 mm board", "pack": "Roll / Pack" } ], "fire": "Core
+non-combustible to AS 1530.1; AS/NZS 1530.3: Ignitability 0, Spread of Flame 0,
+Heat Evolved 0, Smoke Developed 0-1", "compliance": "AS/NZS 4859.1:2018;
+AS 1530.1; AS/NZS 1530.3; AS 4254; NCC 2022 Volume 1 & Volume 2",
+"sustainability": "Manufactured from up to 65% recycled glass; FBS-1 bio-soluble
+formulation; low VOC; zero ODP", "install": [ "Clean internal metal duct or
+concrete ceiling substrate", "Weld or glue insulation pins at 300mm to 400mm
+centres", "Impale the Supertel Perforated board or blanket over pins with the
+perforated foil face facing into the air stream or room", "Secure firmly with
+metal retaining clips / speed washers", "Butt all edges tightly together to
+eliminate acoustic flanking", "Secure edges with metal channel, angle trims, or
+perforated foil tape", "For internal HVAC ducting, ensure air velocities do not
+exceed manufacturer rating" ], "selection_checklist": [ "Confirm acoustic
+absorption is required (perforated foil allows sound absorption into core)",
+"Note: Not suitable as a condensation vapour barrier (perforations allow
+moisture passage)", "Confirm density (32kg/m3) and thickness (25mm to 100mm)",
+"Verify air velocity in ductwork is within allowable limits", "Specify
+insulation pins, speed clips, and edge angles" ], "accessories": [ "Insulation
+weld pins and speed clips", "Metal edge angles", "Perforated foil tape" ],
+"limitations": [ "Not suitable as a vapour barrier or in moist/wet environments
+due to perforations", "Maximum continuous service temperature is 150°C", "Not
+designed for direct exposure to driving rain or outdoor weathering" ],
+"warranty": "CSR Bradford Standard Product Warranty", "found": true,
+"search_keywords": [ "Supertel Perforated Foil", "Supertel HD Perf", "perforated
+foil ductliner", "internal duct acoustic insulation", "Supertel 32kg
+perforated", "Bradford perforated ductliner", "acoustic duct lining perforated
+foil", "acoustic soffit board perforated", "Supertel 50mm HDP", "perforated HVAC
+insulation" ], "problem_keywords": [ "air conditioning fan noise breakout",
+"ductwork rumble travelling to rooms", "reverberation in underground carpark",
+"fibre erosion in air handling ducts", "plant room noise echo", "need sound
+absorption with wipeable foil face" ], "placement": [ "duct", "ceiling", "wall"
+], "priority_fit": [ "acoustic", "fire", "thermal" ], "use_cases": [ "Internal
+acoustic and thermal lining of sheet metal HVAC ductwork and silencers to
+attenuate motor rumble", "Fastened to the underside of concrete carpark soffits
+to control vehicle engine noise and reverberation", "Acoustic wall and ceiling
+absorption in commercial mechanical plant rooms and generator enclosures" ],
+"not_for": [ "Condensation control vapour barrier applications (perforations
+allow moisture vapor to pass)", "External roof sarking", "Direct outdoor
+weather-exposed facades" ], "rag_summary": "Bradford Supertel Faced - Heavy Duty
+Perforated is a 32 kg/m3 density glasswool blanket and board faced with
+Thermofoil Heavy Duty Perforated aluminium foil. Engineered for internal HVAC
+duct lining, acoustic silencers, and exposed carpark soffits, the
+micro-perforated foil allows sound waves to enter the high-density glasswool
+core (NRC up to 1.05) while shielding the fibres from air erosion.
+Non-combustible to AS 1530.1 and thermal rated from R0.7 to R3.0, it provides a
+wipeable, light-reflective, and fire-safe acoustic liner for commercial air
+handling and plant spaces." }, { "family_id": "BRADFORD_SUPERTEL_PLAIN",
+"tds_url":
+"https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/hvac/supertel",
+"sds_url": "https://www.bradfordinsulation.com.au/resources/safety-data-sheets",
+"description": "Bradford Supertel Plain is a high-density (32kg/m3) unfaced
+glasswool insulation blanket and board engineered for high-performance thermal
+and acoustic applications. Manufactured by spinning molten glass containing up
+to 65% recycled content into fine bio-soluble fibres bonded with a thermosetting
+resin, Supertel Plain delivers high thermal resistance and acoustic absorption
+at minimal thickness. It is widely used in commercial HVAC ductwork, acoustic
+attenuators, plant room enclosures, and behind perforated architectural wall or
+ceiling linings.", "features": [ "High-density 32kg/m3 glasswool provides
+exceptional acoustic absorption and thermal control", "Unfaced (plain) format
+allows custom facings, fabric linings, or concealed cavity installation",
+"Non-combustible bulk insulation complying with AS 1530.1", "Early Fire Hazard
+properties (0/0/0/0-1) to AS/NZS 1530.3", "Continuous maximum service
+temperature up to 350°C (unfaced)", "Acoustic absorption rating (NRC) up to 0.85
+- 1.10 depending on thickness", "Manufactured using safe FBS-1 bio-soluble
+glasswool formulation", "Hydrophobic formulation repels liquid water", "Zero
+Ozone Depleting Potential (ODP) and low VOC emissions", "Available in
+thicknesses from 13mm to 100mm in both blanket rolls and semi-rigid boards" ],
+"applications": [ "duct", "pipe", "ceiling", "wall" ], "technical": [ {
+"property": "Material R-values", "value": "13mm: R0.4; 25mm: R0.8; 40mm:
+R1.2; 50mm: R1.5; 75mm: R2.2; 100mm: R3.0", "standard": "AS/NZS 4859.1" }, {
+"property": "Density", "value": "32 kg/m3", "standard": "" }, { "property":
+"Thickness", "value": "13 mm, 25 mm, 40 mm, 50 mm, 75 mm, 100 mm", "standard":
+"" }, { "property": "Dimensions (Rolls)", "value": "15 m x 1200/1500 mm
+(25mm); 10 m x 1200/1500 mm (50mm)", "standard": "" }, { "property": "Dimensions
+(Boards)", "value": "2400 mm x 1200 mm", "standard": "" }, { "property": "Sound
+Absorption (NRC)", "value": "25mm: NRC 0.75 - 0.85; 50mm: NRC 0.95 - 1.05; 75mm:
+NRC 1.05 - 1.10", "standard": "AS ISO 354" }, { "property": "Combustibility",
+"value": "Non-Combustible", "standard": "AS 1530.1" }, { "property": "Fire
+Hazard Properties", "value": "Ignitability: 0, Spread of Flame: 0, Heat
+Evolved: 0, Smoke Developed: 0-1", "standard": "AS/NZS 1530.3" }, { "property":
+"Maximum Service Temperature", "value": "350°C (unfaced)", "standard": "" }, {
+"property": "Thermal Conductivity", "value": "0.032 W/m·K at 20°C", "standard":
+"ASTM C518" }, { "property": "Moisture Absorption", "value": "< 0.2% by volume",
+"standard": "" } ], "range": [ { "variant": "Supertel Plain 25mm",
+"size_or_rating": "25 mm x 1200/1500 mm x 15 m (R0.8) or 2400x1200 mm board",
+"pack": "Roll / Pack" }, { "variant": "Supertel Plain 40mm", "size_or_rating":
+"40 mm x 1500 mm x 10 m (R1.2) or 2400x1200 mm board", "pack": "Roll / Pack" },
+{ "variant": "Supertel Plain 50mm", "size_or_rating": "50 mm x 1200/1500 mm x 10
+m (R1.5) or 2400x1200 mm board", "pack": "Roll / Pack" }, { "variant": "Supertel
+Plain 75mm", "size_or_rating": "75 mm x 1200/1500 mm x 5 m (R2.2) or 2400x1200
+mm board", "pack": "Roll / Pack" }, { "variant": "Supertel Plain 100mm",
+"size_or_rating": "100 mm x 1380/1500 mm x 5 m (R3.0) or 2400x1200 mm board",
+"pack": "Roll / Pack" } ], "fire": "Non-Combustible to AS 1530.1; AS/NZS 1530.3:
+Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-1; Max
+temp 350°C", "compliance": "AS/NZS 4859.1:2018; AS 1530.1; AS/NZS 1530.3;
+AS 4254; NCC 2022 Volume 1 & Volume 2", "sustainability": "Manufactured from up
+to 65% recycled glass; FBS-1 bio-soluble formulation; zero ODP; low VOC",
+"install": [ "Ensure installation substrate (duct, framing cavity, or enclosure)
+is clean and dry", "Cut Supertel Plain blanket or board to required size using a
+sharp insulation knife", "Impale over welded insulation pins on sheet metal, or
+friction-fit into framed cavities", "Secure with speed clips or retaining
+washers", "Butt edges tightly to eliminate acoustic and thermal leaks", "If
+installed behind perforated panels, ensure face is covered or contained to
+prevent air-stream fibre loss" ], "selection_checklist": [ "Confirm 32kg/m3
+density meets acoustic specification", "Select thickness (13mm to 100mm) based
+on thermal R-value or NRC target", "Confirm unfaced format is appropriate (e.g.
+for concealed cavities or custom lamination)", "Verify operating temperature is
+≤ 350°C", "Specify insulation stick pins, speed clips, and fasteners" ],
+"accessories": [ "Insulation stick pins and speed clips", "Serrated insulation
+knife" ], "limitations": [ "Unfaced format does not provide vapour barrier
+protection against condensation", "Not for direct exposure to high-velocity air
+streams without facing or scrim", "Keep dry during storage and installation" ],
+"warranty": "CSR Bradford Standard Product Warranty", "found": true,
+"search_keywords": [ "Bradford Supertel Plain", "Supertel unfaced", "32kg
+glasswool board", "plain glasswool blanket", "Supertel 32kg plain", "acoustic
+glasswool board", "high density glasswool 32kg", "Supertel 50mm plain",
+"Bradford HVAC board plain" ], "problem_keywords": [ "equipment noise breakout",
+"reverberation behind perforated timber walls", "acoustic enclosure
+reverberation", "high temperature duct heat loss", "attenuator acoustic infill
+need", "need non-combustible dense glasswool" ], "placement": [ "duct", "pipe",
+"ceiling", "wall" ], "priority_fit": [ "acoustic", "fire", "thermal" ],
+"use_cases": [ "Acoustic infill behind slotted timber or perforated metal
+ceiling and wall panels in commercial spaces", "Bespoke HVAC sound silencer
+splitter and attenuator fabrication", "Thermal and acoustic insulation in
+commercial industrial equipment enclosures operating up to 350°C" ], "not_for":
+[ "Exposed residential ceiling attic batts without covering", "Moisture-prone
+applications requiring a vapour barrier", "High-velocity open air streams
+without protective scrim or facing" ], "rag_summary": "Bradford Supertel Plain
+is an unfaced, 32 kg/m3 high-density bio-soluble glasswool blanket and board
+engineered for superior thermal and acoustic performance. With a continuous
+service temperature limit of 350°C and AS 1530.1 non-combustibility, it achieves
+exceptional sound absorption (NRC 0.85 to 1.10) and thermal resistance from R0.4
+to R3.0 (13mm to 100mm). Widely specified as acoustic infill behind perforated
+architectural panelling, in HVAC attenuators, and for industrial enclosures, it
+offers versatile, non-combustible sound and heat dampening." }, { "family_id":
+"BRADFORD_SUPERTEL_PLAIN_PLAIN_UNFACED", "tds_url":
+"https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/hvac/supertel",
+"sds_url": "https://www.bradfordinsulation.com.au/resources/safety-data-sheets",
+"description": "Bradford Supertel Plain - Plain - Unfaced is a high-density
+(32kg/m3) plain glasswool insulation board and blanket that provides exceptional
+thermal resistance and broadband acoustic sound absorption. Free from laminated
+foil or fabric facings, it operates at continuous service temperatures up
+to 350°C and is non-combustible under AS 1530.1. It is the premier choice for
+internal acoustic cavities, mechanical sound attenuators, industrial machinery
+enclosures, and bespoke fabrication.", "features": [ "32kg/m3 high-density
+bio-soluble glasswool insulation with zero facing materials", "Continuous
+maximum operating temperature capability up to 350°C", "Non-combustible bulk
+insulation complying with AS 1530.1", "Class-leading acoustic absorption rating
+with NRC up to 0.85 - 1.10", "Early Fire Hazard properties (0/0/0/0-1) to
+AS/NZS 1530.3", "Thermal performance ratings from R0.4 (13mm) to R3.0 (100mm)",
+"Made in Australia from up to 65% recycled glass", "FBS-1 bio-soluble
+formulation certified non-hazardous by Safe Work Australia", "Hydrophobic resin
+bonding repels moisture absorption", "Available in semi-rigid boards and
+flexible blanket rolls" ], "applications": [ "duct", "pipe", "ceiling", "wall"
+], "technical": [ { "property": "Material R-values", "value": "13mm: R0.4; 25mm:
+R0.8; 40mm: R1.2; 50mm: R1.5; 75mm: R2.2; 100mm: R3.0", "standard":
+"AS/NZS 4859.1" }, { "property": "Density", "value": "32 kg/m3", "standard": ""
+}, { "property": "Thickness", "value": "13 mm, 25 mm, 40 mm, 50 mm, 75 mm, 100
+mm", "standard": "" }, { "property": "Dimensions (Rolls)", "value": "15 m
+x 1200/1500 mm (25mm); 10 m x 1200/1500 mm (50mm)", "standard": "" }, {
+"property": "Dimensions (Boards)", "value": "2400 mm x 1200 mm", "standard": ""
+}, { "property": "Sound Absorption (NRC)", "value": "25mm: NRC 0.80; 50mm:
+NRC 1.00; 75mm: NRC 1.05; 100mm: NRC 1.10", "standard": "AS ISO 354" }, {
+"property": "Combustibility", "value": "Non-Combustible", "standard":
+"AS 1530.1" }, { "property": "Fire Hazard Properties", "value":
+"Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+"standard": "AS/NZS 1530.3" }, { "property": "Maximum Service Temperature",
+"value": "350°C", "standard": "" }, { "property": "Thermal Conductivity",
+"value": "0.032 W/m·K at 20°C", "standard": "ASTM C518" }, { "property":
+"Moisture Absorption", "value": "< 0.2% by volume", "standard": "" } ], "range":
+[ { "variant": "Supertel Plain Unfaced 25mm", "size_or_rating": "25 mm
+x 1200/1500 mm x 15 m (R0.8) or 2400x1200 mm board", "pack": "Roll / Pack" }, {
+"variant": "Supertel Plain Unfaced 40mm", "size_or_rating": "40 mm x 1500 mm
+x 10 m (R1.2) or 2400x1200 mm board", "pack": "Roll / Pack" }, { "variant":
+"Supertel Plain Unfaced 50mm", "size_or_rating": "50 mm x 1200/1500 mm x 10 m
+(R1.5) or 2400x1200 mm board", "pack": "Roll / Pack" }, { "variant": "Supertel
+Plain Unfaced 75mm", "size_or_rating": "75 mm x 1200/1500 mm x 5 m (R2.2)
+or 2400x1200 mm board", "pack": "Roll / Pack" }, { "variant": "Supertel Plain
+Unfaced 100mm", "size_or_rating": "100 mm x 1380/1500 mm x 5 m (R3.0)
+or 2400x1200 mm board", "pack": "Roll / Pack" } ], "fire": "Non-Combustible to
+AS 1530.1; AS/NZS 1530.3: Ignitability 0, Spread of Flame 0, Heat Evolved 0,
+Smoke Developed 0-1; Max service temp 350°C", "compliance": "AS/NZS 4859.1:2018;
+AS 1530.1; AS/NZS 1530.3; AS 4254; NCC 2022 Volume 1 & Volume 2",
+"sustainability": "Contains up to 65% recycled glass; FBS-1 bio-soluble
+glasswool; zero ODP; low VOC", "install": [ "Measure cavity, duct, or enclosure
+interior and cut unfaced Supertel using a sharp insulation knife", "Impale onto
+welded metal pins or friction fit into framing channels", "Secure using speed
+washers over pins", "Ensure tight butt joins on all edges to eliminate sound or
+heat leaks", "Enclose behind linings, cladding, or perforated sheets as
+designed" ], "selection_checklist": [ "Confirm 32kg/m3 high density is
+required", "Confirm plain unfaced specification (no foil or fabric facing
+attached)", "Select thickness (13mm to 100mm)", "Confirm operating temperature
+is within 350°C limit", "Ensure mechanical fasteners (pins and speed clips) are
+specified" ], "accessories": [ "Insulation stick pins and speed clips",
+"Insulation knife" ], "limitations": [ "No vapour barrier; do not use as a
+condensation control barrier", "Not for direct exposure to liquid water or
+outdoor weather", "Must be covered or contained in high-velocity air streams" ],
+"warranty": "CSR Bradford Standard Product Warranty", "found": true,
+"search_keywords": [ "Bradford Supertel Plain Unfaced", "Supertel unfaced
+board", "32kg unfaced glasswool", "unfaced acoustic glasswool", "Supertel 32kg
+plain board", "plain ductliner insulation", "high density unfaced glasswool",
+"Supertel 50mm unfaced" ], "problem_keywords": [ "industrial fan noise",
+"compressor enclosure reverberation", "uninsulated silencer body", "high heat
+vessel insulation", "acoustic cavity absorption", "need 32kg non-combustible
+glasswool" ], "placement": [ "duct", "pipe", "ceiling", "wall" ],
+"priority_fit": [ "acoustic", "fire", "thermal" ], "use_cases": [ "Fabrication
+of acoustic baffles and silencers in commercial ventilation systems", "Cavity
+sound absorption behind timber acoustic wall panelling in auditoriums and
+recording studios", "Thermal lagging and sound isolation on hot industrial
+equipment up to 350°C" ], "not_for": [ "Unfaced external duct wrapping exposed
+to rain", "Vapour barrier condensation control applications", "Direct floor
+traffic surfaces" ], "rag_summary": "Bradford Supertel Plain - Plain - Unfaced
+is a 32 kg/m3 density, unlaminated bio-soluble glasswool insulation board and
+blanket manufactured in Australia with up to 65% recycled glass. Delivering an
+NRC of up to 1.10 and continuous temperature resistance to 350°C, it is
+certified non-combustible under AS 1530.1. Sized in 13mm to 100mm thicknesses
+(R0.4 to R3.0), it serves as the industry standard acoustic and thermal core for
+mechanical attenuators, commercial duct linings, and architectural acoustic
+cavities." }, { "family_id": "BRADFORD_THERMAL_BRADFORD", "tds_url":
+"https://www.bradfordinsulation.com.au/home-insulation/ceilings/gold-ceiling-batts",
+"sds_url": "https://www.bradfordinsulation.com.au/resources/safety-data-sheets",
+"description": "Bradford Gold (Bradford Thermal) is Australia's most widely
+specified glasswool thermal insulation batt for residential and commercial
+ceilings and walls. Engineered using next-generation FBS-1 bio-soluble glasswool
+containing up to 80% recycled glass, Bradford Gold batts provide superior
+resistance to heat transfer, keeping homes warmer in winter and cooler in
+summer. The batts are non-combustible to AS 1530.1, approved by Sensitive Choice
+for asthma and allergy sufferers, and guaranteed to maintain performance for 70
+years.", "features": [ "Australia's most trusted residential thermal insulation
+batt for ceilings and walls", "Thermal ratings from R2.0 up to R7.0 for optimal
+energy efficiency and 7-star NatHERS compliance", "Non-combustible in accordance
+with AS 1530.1", "Early Fire Hazard properties (0/0/0/0-1) compliant with
+AS/NZS 1530.3", "Manufactured from up to 80% recycled glass", "Approved by
+National Asthma Council Australia's Sensitive Choice program", "FBS-1
+bio-soluble glasswool formulation, soft to touch and low-itch", "Will not pack
+down, shrink, mould, rot, or deteriorate", "Reduces home heating and cooling
+energy use by up to 45%", "Backed by a 70-year performance warranty" ],
+"applications": [ "ceiling", "wall", "external wall", "internal wall" ],
+"technical": [ { "property": "Ceiling Material R-values", "value": "R2.5
+(130mm), R3.0 (155mm), R3.5 (175mm), R4.1 (205mm), R5.0 (235mm), R6.0 (260mm),
+R7.0 (290mm)", "standard": "AS/NZS 4859.1" }, { "property": "Wall Material
+R-values", "value": "R1.5 (75mm), R2.0 (90mm), R2.5 (90mm), R2.7 (90mm)",
+"standard": "AS/NZS 4859.1" }, { "property": "Thickness Options", "value": "75
+mm to 290 mm depending on application and R-value", "standard": "" }, {
+"property": "Batt Dimensions", "value": "1160 mm x 430 mm; 1160 mm x 580 mm",
+"standard": "" }, { "property": "Combustibility", "value": "Non-Combustible",
+"standard": "AS 1530.1" }, { "property": "Fire Hazard Properties", "value":
+"Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+"standard": "AS/NZS 1530.3" }, { "property": "Maximum Service Temperature",
+"value": "350°C", "standard": "" }, { "property": "Moisture Absorption",
+"value": "< 0.2% by volume", "standard": "" }, { "property": "Corrosion
+Resistance", "value": "pH 7.5 - 8.0, non-corrosive", "standard": "" }, {
+"property": "Recycled Content", "value": "Up to 80% recycled glass", "standard":
+"" } ], "range": [ { "variant": "Bradford Gold Ceiling Batts R2.5 - R4.1",
+"size_or_rating": "130-205 mm x 430/580 mm x 1160 mm", "pack": "Pack of batts"
+}, { "variant": "Bradford Gold Hi-Performance Ceiling Batts R5.0 - R7.0",
+"size_or_rating": "235-290 mm x 430/580 mm x 1160 mm", "pack": "Pack of batts"
+}, { "variant": "Bradford Gold Wall Batts R1.5 - R2.7", "size_or_rating": "75-90
+mm x 430/580 mm x 1160 mm", "pack": "Pack of batts" } ], "fire":
+"Non-Combustible to AS 1530.1; AS/NZS 1530.3: Ignitability 0, Spread of Flame 0,
+Heat Evolved 0, Smoke Developed 0-1", "compliance": "AS/NZS 4859.1:2018;
+AS 1530.1; AS/NZS 1530.3; AS 3999; NCC 2022 Volume 1 & Volume 2",
+"sustainability": "Contains up to 80% recycled glass; FBS-1 bio-soluble
+glasswool; low VOC; Sensitive Choice approved; zero ODP", "install": [
+"De-energise electrical circuits in roof space prior to installation where
+required by state regulation", "Friction-fit batts between ceiling joists or
+wall studs without gaps or folds", "Lay batts flat and butt joins tightly
+together to form a continuous thermal envelope", "Maintain required safety
+clearances around non-IC rated recessed downlights, exhaust fans, and chimneys
+per AS 3999", "Ensure roof ventilation pathways and eave perimeter gaps
+(minimum 20mm) remain unobstructed", "In walls, ensure batts fill the depth of
+the stud cavity without bulging linings" ], "selection_checklist": [ "Confirm
+framing spacing (430mm width for 450mm centres, 580mm width for 600mm centres)",
+"Confirm target R-value based on NCC 2022 climate zone and NatHERS energy rating
+(R4.1 to R6.0 typical for ceilings, R2.0 to R2.7 for walls)", "Confirm stud or
+joist depth to avoid over-compression", "Check downlight ratings (IC-4 rated
+allows continuous coverage; non-IC requires clearance)", "Verify non-combustible
+compliance (AS 1530.1)" ], "accessories": [ "Bradford Thermoseal / Enviroseal
+wall wraps", "Insulation multi-tool / knife", "Safety kneeling boards for roof
+crawl" ], "limitations": [ "Do not compress batts into spaces smaller than
+nominal thickness as this reduces R-value", "Must be kept dry during storage and
+installation", "Do not cover unrated heat-generating appliances or non-IC
+downlights" ], "warranty": "70 Year Performance Warranty", "found": true,
+"search_keywords": [ "Bradford Gold", "Bradford Gold batts", "Bradford ceiling
+batts", "Bradford wall batts", "Bradford Gold R4.0", "Bradford Gold R5.0",
+"Bradford Gold R2.5", "Bradford thermal batts", "glasswool ceiling batts", "gold
+batts insulation" ], "problem_keywords": [ "sweltering rooms in summer heat",
+"freezing cold house in winter", "high air conditioning electricity bills",
+"heat escaping through roof ceiling", "uninsulated timber stud walls",
+"meeting 7 star NatHERS energy rating" ], "placement": [ "ceiling", "wall",
+"external wall", "internal wall" ], "priority_fit": [ "thermal", "fire",
+"sustainability", "budget" ], "use_cases": [ "Ceiling insulation in new home
+builds and major renovations to meet NCC 2022 7-star NatHERS requirements (R4.1
+- R6.0)", "Thermal infill in external timber and steel stud walls (R2.0 - R2.7)
+to restrict summer heat gain", "Retrofit top-up insulation over existing
+compressed ceiling batts to restore home thermal performance" ], "not_for": [
+"Underfloor insulation directly exposed to weather", "Internal air-handling duct
+lining without facing", "High-temperature applications exceeding 350°C" ],
+"rag_summary": "Bradford Gold (Bradford Thermal - Bradford) is Australia's
+benchmark residential and commercial glasswool insulation batt for ceilings and
+walls, manufactured with up to 80% recycled glass using bio-soluble FBS-1
+formulation. Sized for 450mm and 600mm framing centres, it spans R-values from
+R1.5 to R2.7 in walls and R2.5 to R7.0 in ceilings, cutting household energy
+consumption by up to 45%. Non-combustible to AS 1530.1 and certified Sensitive
+Choice asthma-friendly, it provides permanent, fire-safe thermal comfort backed
+by a 70-year warranty." }, { "family_id": "BRADFORD_THERMAL_UNDERFLOOR_OPTIMO",
+"tds_url":
+"https://www.bradfordinsulation.com.au/home-insulation/floor/optimo-underfloor-insulation",
+"sds_url": "https://www.bradfordinsulation.com.au/resources/safety-data-sheets",
+"description": "Bradford Optimo (Bradford Thermal Underfloor) is a premium,
+rigid high-density glasswool insulation batt specifically engineered for
+suspended timber and steel subfloors in new and existing homes. Designed to fit
+snugly between floor joists, Optimo prevents up to 20% of domestic winter heat
+loss, stops cold draughts entering through timber floorboards, and dampens
+footfall impact noise. Secured with patented Optimo saddle clips or strap
+systems, it is non-combustible (AS 1530.1), bio-soluble, and approved by
+Sensitive Choice.", "features": [ "Rigid high-density glasswool construction
+specifically engineered for underfloor friction fit", "Prevents up to 20% of
+winter heat loss through suspended timber floors", "Eliminates cold floor
+draughts through timber floorboards and improves foot comfort", "Acoustic
+damping reduces footstep impact noise and room drumming", "Non-combustible bulk
+insulation complying with AS 1530.1", "Early Fire Hazard properties complying
+with AS/NZS 1530.3 (0/0/0/1)", "Secured with easy-to-install patented Optimo
+saddle clips or underfloor strapping", "Approved by National Asthma Council
+Australia's Sensitive Choice program", "FBS-1 bio-soluble glasswool formulation,
+safe and non-hazardous", "Backed by a 70-year performance warranty" ],
+"applications": [ "underfloor", "floor", "subfloor", "between floors" ],
+"technical": [ { "property": "Material R-values", "value": "R2.1 (75mm), R2.5
+(90mm)", "standard": "AS/NZS 4859.1" }, { "property": "Thickness", "value": "75
+mm (R2.1), 90 mm (R2.5)", "standard": "" }, { "property": "Batt Dimensions",
+"value": "1160 mm x 415 mm (for 450 mm joist centres); 1160 mm x 565 mm (for 600
+mm joist centres)", "standard": "" }, { "property": "Density", "value":
+"High-density rigid glasswool (approx. 28 - 32 kg/m3)", "standard": "" }, {
+"property": "Combustibility", "value": "Non-Combustible", "standard":
+"AS 1530.1" }, { "property": "Fire Hazard Properties", "value":
+"Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 1",
+"standard": "AS/NZS 1530.3" }, { "property": "Maximum Service Temperature",
+"value": "300°C", "standard": "" }, { "property": "Moisture Absorption",
+"value": "< 0.2% by volume", "standard": "" }, { "property": "Recycled Content",
+"value": "Up to 65% recycled glass", "standard": "" } ], "range": [ { "variant":
+"Optimo R2.1", "size_or_rating": "75 mm x 415/565 mm x 1160 mm", "pack": "Pack
+of 8 (3.9 m2 / 5.2 m2)" }, { "variant": "Optimo R2.5", "size_or_rating": "90 mm
+x 415/565 mm x 1160 mm", "pack": "Pack of 8 (3.9 m2 / 5.2 m2)" } ], "fire":
+"Non-Combustible to AS 1530.1; AS/NZS 1530.3: Ignitability 0, Spread of Flame 0,
+Heat Evolved 0, Smoke Developed: 1", "compliance": "AS/NZS 4859.1:2018;
+AS 1530.1; AS/NZS 1530.3; AS 3999; NCC 2022 Volume 1 & Volume 2 underfloor
+energy efficiency standards", "sustainability": "Manufactured from up to 65%
+recycled glass; FBS-1 bio-soluble glasswool; zero ODP; low VOC; Sensitive Choice
+approved", "install": [ "In existing homes from beneath, push Optimo batts
+firmly up between floor joists until hard against floorboards", "For 450mm joist
+centres use 415mm wide batts; for 600mm centres use 565mm wide batts", "Fix
+Optimo saddle clips to the side of timber joists (2 per batt side) to support
+batts permanently", "Alternatively, in new builds prior to flooring
+installation, fit Optimo saddle clips over top of joists and drop batts in from
+above", "Butt ends tightly together to eliminate draught paths", "Cut neatly
+around plumbing pipes and floor vents using an insulation knife" ],
+"selection_checklist": [ "Confirm joist spacing (415mm batts for 450mm
+centres, 565mm batts for 600mm centres)", "Confirm joist depth (minimum 75mm for
+R2.1, 90mm for R2.5)", "Select installation method: from above (new build) or
+from underneath (retrofit)", "Ensure Optimo saddle clips or strapping are
+ordered with batts", "Verify underfloor access clearance (minimum 400mm
+clearance recommended for retrofit)" ], "accessories": [ "Optimo Saddle Clips
+(timber and steel joist versions)", "Optimo Strapping", "Insulation trimming
+knife" ], "limitations": [ "Requires adequate crawl space clearance
+(minimum 400mm) for retrofit underfloor installation", "Must not be placed in
+direct contact with wet soil or standing water", "Protect from rodents or
+continuous high dampness with proper subfloor ventilation" ], "warranty": "70
+Year Performance Warranty", "found": true, "search_keywords": [ "Bradford
+Optimo", "Optimo underfloor insulation", "underfloor insulation batts",
+"subfloor insulation", "Optimo R2.1", "Optimo R2.5", "timber floor insulation",
+"suspended floor insulation", "Bradford floor batts", "Optimo saddle clips" ],
+"problem_keywords": [ "freezing cold timber floorboards", "draughts coming
+through floorboards", "winter heat loss through suspended floor", "noisy hollow
+sound when walking on floorboards", "cold rooms above open subfloor", "footstep
+noise on timber floors" ], "placement": [ "underfloor", "floor", "subfloor",
+"between floors" ], "priority_fit": [ "thermal", "acoustic", "fire",
+"easy_install" ], "use_cases": [ "Retrofitting underfloor insulation between
+joists of older raised timber homes to block winter draughts and heat loss",
+"Installing from above over floor joists during new home builds before subfloor
+particleboard is laid", "Deadening footfall resonance and impact noise under
+polished timber floorboards" ], "not_for": [ "Concrete slab on ground without
+subfloor framing", "Direct contact with wet soil or unventilated damp
+crawlspaces", "Ceiling attic spaces where lower density batts are suitable" ],
+"rag_summary": "Bradford Thermal Underfloor / Optimo is a rigid, high-density
+glasswool batt designed specifically to fit between joists in suspended timber
+and steel subfloors. Sized in 415mm and 565mm widths (R2.1 and R2.5), it
+friction-fits securely against floorboards with patented Optimo saddle clips,
+stopping up to 20% of domestic winter heat loss and eliminating floor draughts.
+Non-combustible to AS 1530.1 and endorsed by Sensitive Choice, it softens
+footstep impact sound while delivering permanent underfoot thermal comfort
+backed by a 70-year warranty." } ]

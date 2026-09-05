@@ -1,7 +1,7 @@
 ---
 title: "DCTech Acoustic Barrier - Acoustic Barrier Insulation | DCTech"
-description: "Quality insulation engineered for Australian conditions. Engineered specifically for noise control, delivering the acoustic separation required for NC"
-keywords: "DCTech Acoustic Barrier, acoustic insulation, wall insulation, ceiling insulation, floor insulation, insulation Australia, DCTech Australia"
+description: "DCTech Acoustic Barrier (Tecsound / Tecsound SY) is a high-density, polymer-based asphalt-free synthetic soundproofing membrane engineered to deliver "
+keywords: "DCTech Acoustic Barrier, acoustic insulation, wall insulation, ceiling insulation, roof insulation, floor insulation, pipe insulation, duct insulation, insulation Australia, DCTech Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: DCTECH_ACOUSTIC_BARRIER
 ---
@@ -10,28 +10,38 @@ family_id: DCTECH_ACOUSTIC_BARRIER
 
 **DCTech Acoustic Barrier** — acoustic barrier insulation product.
 
-Quality insulation engineered for Australian conditions. Engineered specifically for noise control, delivering the acoustic separation required for NCC compliance. Rigid design makes installation fast and efficient - no sagging or falling out.
+DCTech Acoustic Barrier (Tecsound / Tecsound SY) is a high-density, polymer-based asphalt-free synthetic soundproofing membrane engineered to deliver exceptional airborne and impact noise reduction without increasing structural thickness. Highly visco-elastic and adaptable, it acts as an acoustic damping mass that breaks up structural resonance in drywall partitions, ceilings, timber floors, metal roofs, and building service enclosures. Distributed in Australia by DCTech, it is available in standard, self-adhesive (SY), and composite felt (2FT) configurations.
 
 ## Key features
 
-- Quality insulation product for Australian building conditions.
-- designed to meet NCC energy efficiency requirements.
-- rigid design prevents sagging between joists.
-- reduces drafts and cold floors.
-- excellent thermal performance for roof/ceiling applications.
-- helps meet NCC energy efficiency requirements.
+- High acoustic soundproofing performance without adding significant thickness.
+- Visco-elastic damping material that reduces resonance and vibration.
+- Asphalt-free, non-toxic, and bitumen-free polymer formulation.
+- Self-adhesive backing option (Tecsound SY) for direct application to plasterboard and metal.
+- Rot-proof and high ageing resistance.
+- Hot and cold temperature resistant; flexible down to -20°C.
+- Self-extinguishing fire behaviour compliant with Euroclass B, s2, d0.
+- Effective airborne noise reduction (Rw up to 30 dB as single sheet).
+- Substantial impact and rain noise damping on metal deck roofs.
+- Suitable for horizontal, vertical, and curved building surfaces.
 
 ## Applications and selection
 
-- Internal Wall | Ceiling | Floor | General Acoustic
+- wall
+- internal wall
+- ceiling
+- roof
+- floor
+- pipe
+- duct
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm whether airborne sound (walls/ceilings) or impact/rain noise (floors/roofs) is being addressed.
+2. Select mass requirement (Tecsound 50 at 5kg/m² vs Tecsound 70 at 7kg/m²).
+3. Choose self-adhesive (SY) for fast plasterboard/metal application or standard for adhesive bonding.
+4. Calculate total square metres including 50mm overlaps.
+5. Ensure ceiling or wall framing can bear the 5kg/m² to 7kg/m² added dead load.
 
 
 ## Current catalogue range
@@ -45,35 +55,58 @@ Quality insulation engineered for Australian conditions. Engineered specifically
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Acoustic Barrier | Manufacturer catalogue |
-| Material | Mass Loaded Vinyl | Manufacturer catalogue |
-| Applications | Internal Wall | Ceiling | Floor | General Acoustic | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Surface Mass (Tecsound 50) | 5.0 kg/m² | - |
+| Surface Mass (Tecsound 70 / SY 70) | 7.0 kg/m² | - |
+| Surface Mass (Tecsound 100) | 10.0 kg/m² | - |
+| Thickness (Tecsound 50) | 2.5 mm | - |
+| Thickness (Tecsound 70 / SY 70) | 3.5 mm | - |
+| Thickness (Tecsound 100) | 5.0 mm | - |
+| Airborne Sound Insulation (Rw single membrane) | Tecsound 50: Rw 28 dB; Tecsound 70: Rw 30 dB | EN ISO 140-3 / EN ISO 717-1 |
+| Tensile Strength | > 1.5 MPa | EN ISO 527-3 |
+| Elongation at Break | > 100% | EN ISO 527-3 |
+| Cold Flexibility | Does not crack at -20°C | EN 1109 |
+| Reaction to Fire | Euroclass B, s2, d0 | EN 13501-1 |
+| Roll Dimensions (Tecsound 50) | 1.22 m x 6 m (7.32 m²) | - |
+| Roll Dimensions (Tecsound 70 / SY 70) | 1.22 m x 5 m (6.10 m²) | - |
 
-
+Extracted from manufacturer datasheet: https://dctech.com.au/product/tecsound/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Euroclass B, s2, d0 to EN 13501-1; Self-extinguishing
+
+ISO 9001 / ISO 14001, EN 140-3, EN ISO 717-1, NCC compliant acoustic barrier component
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://dctech.com.au/wp-content/uploads/2018/09/DCT_Industrial_Insulation_Brochure.pdf (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://proctorgroup.com.au/wp-content/uploads/2021/02/DCT_PIR_Silver_White_Tissue_Ver_2_2020-2.pdf.
 
+## Recommended accessories
+
+- Tecsound S Band (self-adhesive acoustic joint tape).
+- Spray/roller contact adhesive.
+- Pressure roller.
+
 
 ## Limitations and warnings
 
-- Install in accordance with manufacturer specifications..
-- Ensure adequate subfloor ventilation is maintained..
-- do not leave exposed to ground moisture or subfloor dampness..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Must not be left permanently exposed to UV sunlight or weather.
+- Not suitable as a foot traffic wearing surface.
+- Ceiling applications require mechanical fastening in addition to adhesive bonding.
+- Heavy weight requires adequate structural support and multi-person handling during overhead installation.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Install in accordance with manufacturer specifications.
+1. Ensure substrate (plasterboard, metal, concrete, or timber) is clean, dry, and dust-free.
+2. For self-adhesive Tecsound SY, peel back release liner gradually while pressing membrane onto substrate.
+3. For non-adhesive Tecsound, apply contact adhesive evenly to substrate and membrane.
+4. Apply firm pressure using a roller across the entire membrane to eliminate trapped air.
+5. Overlap adjacent membrane sheets by 50mm or butt join and seal joints with Tecsound S Band tape.
+6. Fasten mechanically with washers or staples where installed overhead on ceilings.
+7. Cover with subsequent layer of plasterboard or ceiling lining within manufacturer guidelines.
 
 ## Safety and handling
 
@@ -81,11 +114,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Asphalt-free, bitumen-free, non-toxic, recyclable synthetic polymers, low VOC
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Backed by DCTech product warranty
 
 ## Specification starting point
 

@@ -1,0 +1,65 @@
+{
+  "family_id": "PROCTOR_TIGHTMATE",
+  "family_name": "Proctor TightMate",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "gemini_not_found",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "",
+    "features": "",
+    "applications": "",
+    "technical": "",
+    "range": "",
+    "fire": "",
+    "compliance": "",
+    "sustainability": "",
+    "install": "",
+    "selection_checklist": "",
+    "accessories": "",
+    "limitations": "",
+    "warranty": ""
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Proctor TightMate",
+      "TightMate tape",
+      "TightMate airtight\ntape",
+      "Proctor airtight connector",
+      "airtight sealing tape proctor",
+      "airtight\ngrommet proctor"
+    ],
+    "problem_keywords": [
+      "air leakage through building\nenvelope",
+      "sealing membrane overlaps",
+      "cable and pipe penetration draughts",
+      "airtightness failure on blower door test",
+      "unsealed vapor barrier seams"
+    ],
+    "placement": [
+      "wall",
+      "internal wall",
+      "ceiling",
+      "roof",
+      "external wall"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "thermal",
+      "condensation"
+    ],
+    "use_cases": [
+      "Sealing membrane joins and laps to establish an airtight building envelope",
+      "Sealing penetrations through internal air barriers and smart vapour retarders",
+      "Detailing wall and ceiling interfaces in Passive House construction"
+    ],
+    "not_for": [
+      "Structural mechanical load bearing",
+      "High-temperature flue\nexhaust pipes",
+      "Permanent immersion under water"
+    ],
+    "rag_summary": "Proctor\nTightMate represents an airtight sealing tape or grommet accessory catalogued\nfor building envelope airtightness in Proctor Group systems. Engineered to seal\nmembrane overlaps, service penetrations, and framing junctions, it prevents\nuncontrolled air leakage and convective heat transfer across walls, roofs, and\nceilings. By maintaining airtight continuity, it protects building assemblies\nfrom convective moisture damage and supports stringent blower-door airtightness\ntargets."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

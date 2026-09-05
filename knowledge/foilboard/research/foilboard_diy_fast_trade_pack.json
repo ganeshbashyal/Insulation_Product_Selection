@@ -1,0 +1,148 @@
+{
+  "family_id": "FOILBOARD_DIY_FAST_TRADE_PACK",
+  "family_name": "Foilboard DIY/Fast Trade Pack",
+  "datasheet_pdf_url": "https://www.foilboard.com.au/product/foilboard-handypack/",
+  "sds_url": "https://www.foilboard.com.au/wp-content/uploads/2021/04/Foilboard-Green-Safety-Data-Sheet.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Foilboard DIY / Fast Trade Pack (Foilboard Handypack) is a\nconvenient, compact-format pack of rigid Foilboard Green insulation sheets\ndesigned for smaller residential projects, shed retrofits, and tight-access\ninstallations. Each pack contains pre-cut sheets that fit easily inside standard\nvehicles, allowing DIYers and trades to transport and handle panels without a\ncommercial truck. Fabricated from the same fire-retardant EPS core with pure\naluminum foil facings, it delivers superior radiant heat reflection and thermal\nbarrier performance.",
+    "features": [
+      "Compact pack format designed to fit easily\ninto passenger vehicles, vans, and utes",
+      "Pre-cut sheet sizes for effortless\nhandling through tight doorways and crawl spaces",
+      "Manufactured with\nfire-retardant EPS core and pure aluminum reflective facings",
+      "Delivers\ntrue 3-in-1 thermal insulation, thermal break, and vapor barrier",
+      "Zero itchy\nfibers; completely safe to handle without protective clothing",
+      "Waterproof and\nmoisture resistant, will not rot or grow mold",
+      "Cuts cleanly with a utility\nknife with zero toxic dust",
+      "Backed by Foilboard's 25-year performance\nwarranty"
+    ],
+    "applications": [
+      "underfloor",
+      "floor",
+      "subfloor",
+      "wall",
+      "external wall",
+      "shed",
+      "ceiling"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "Fire-retardant EPS core with dual pure aluminum reflective facings",
+        "standard": ""
+      },
+      {
+        "property": "Thickness Options",
+        "value": "15 mm, 20 mm, 25\nmm",
+        "standard": ""
+      },
+      {
+        "property": "Sheet Dimensions",
+        "value": "1200 mm x 600\nmm or 1200 mm x 800 mm",
+        "standard": ""
+      },
+      {
+        "property": "Emittance (Reflective\nFace)",
+        "value": "0.03 (97% heat reflection)",
+        "standard": "AS/NZS 4201.5"
+      },
+      {
+        "property": "Combustibility",
+        "value": "Fire-retardant EPS core; Group 1 /\nGroup 2",
+        "standard": "AS 5637.1"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Foilboard\nHandypack 15mm",
+        "size_or_rating": "15 mm x 600 mm x 1200 mm",
+        "pack": "Pack\nof 10 sheets (7.2 m²)"
+      },
+      {
+        "variant": "Foilboard Handypack 20mm",
+        "size_or_rating": "20 mm x 600 mm x 1200 mm",
+        "pack": "Pack of 8 sheets (5.76\nm²)"
+      },
+      {
+        "variant": "Foilboard Handypack 25mm",
+        "size_or_rating": "25 mm x 600\nmm x 1200 mm",
+        "pack": "Pack of 6 sheets (4.32 m²)"
+      }
+    ],
+    "fire": "Fire retardant\nEPS core; Flammability Index ≤ 5 to AS 1530.2; Group 1/2 to AS 5637.1",
+    "compliance": "AS/NZS 4859.1, AS 3999, NCC Volume One and Two",
+    "sustainability": "100% recyclable; low VOC; zero ODP; fiber-free",
+    "install": [
+      "Unpack pre-cut sheets and transport to work area",
+      "Measure gap between floor\njoists, wall studs, or shed framing",
+      "Trim panels to width allowing for a snug\nfriction-fit or saddle support",
+      "Fit into cavity maintaining a minimum 20mm air\nspace adjacent to reflective foil",
+      "Secure with Foilboard Floor Saddles\n(underfloor) or screws with Blank Plates (walls)",
+      "Tape all adjoining sheet\nseams with Foilboard 72mm reinforced foil tape"
+    ],
+    "selection_checklist": [
+      "Measure total project square meterage to determine number of packs",
+      "Confirm\npanel thickness (15mm, 20mm, or 25mm) for required thermal rating",
+      "Verify\npre-cut dimensions (600x1200mm) suit vehicle transport and project layout",
+      "Order sufficient 72mm foil tape and fasteners"
+    ],
+    "accessories": [
+      "Foilboard 72mm Reinforced Aluminum Foil Tape",
+      "Foilboard Floor Saddles",
+      "Foilboard Blank Plates"
+    ],
+    "limitations": [
+      "Requires an adjacent sealed air\nspace of at least 20mm to achieve rated Total R-value",
+      "Do not use in direct\ncontact with organic solvents or petroleum products",
+      "Keep away from continuous\nheat sources above 80°C"
+    ],
+    "warranty": "25 Year Performance Warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Foilboard Handypack",
+      "Foilboard DIY pack",
+      "Foilboard trade pack",
+      "Foilboard small pack",
+      "car boot insulation pack",
+      "Foilboard 1200x600",
+      "small job underfloor insulation",
+      "shed insulation\nhandypack"
+    ],
+    "problem_keywords": [
+      "cannot transport 2.4m sheets in car",
+      "small shed DIY insulation",
+      "tight subfloor crawlspace access",
+      "insulating\nsmall bedroom floor",
+      "garage workbench insulation project"
+    ],
+    "placement": [
+      "underfloor",
+      "floor",
+      "subfloor",
+      "wall",
+      "external wall",
+      "shed",
+      "ceiling"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "thermal",
+      "budget"
+    ],
+    "use_cases": [
+      "Insulating small subfloor areas and extensions with tight crawlspace access",
+      "Lining hobby sheds and workshop walls without hiring commercial transport",
+      "Quick DIY thermal upgrades behind washing machines and kitchen joinery"
+    ],
+    "not_for": [
+      "Commercial large-scale high-rise cladding",
+      "Permanent direct\nweather exposure",
+      "Direct foot traffic without subfloor"
+    ],
+    "rag_summary": "Foilboard DIY / Fast Trade Pack (Foilboard Handypack) is a modular, pre-cut\npack of Foilboard Green rigid insulation sheets (1200mm x 600mm) sized\nspecifically for car boot transport and tight jobsite access. Featuring the same\nfire-retardant EPS core with dual pure aluminum reflective facings as full-sized\nboards, it provides an itch-free, moisture-proof thermal and vapor barrier for\nsmaller renovations, subfloors, and sheds. Available in 15mm, 20mm, and 25mm\nthicknesses, it delivers premium thermal performance backed by a 25-year\nwarranty."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

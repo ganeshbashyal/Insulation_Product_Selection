@@ -1,0 +1,158 @@
+{
+  "family_id": "THERMOTEC_MAXTAPE_FR",
+  "family_name": "MaxTape FR Insulating Foam Tape",
+  "datasheet_pdf_url": "https://thermotec.com.au/product/thermotec-maxflex-insulating-foam-tape/",
+  "sds_url": "https://thermotec.com.au/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Thermotec MaxTape FR\n(Maxflex Insulating Foam Tape) is a high-performance, fire-rated EPDM\nclosed-cell elastomeric insulating foam tape coated on one side with an\naggressive acrylic pressure-sensitive adhesive. Engineered for thermal\ninsulation, vibration dampening, and condensation control, it is widely used as\na purlin tape on steel-framed buildings to reduce thermal movement creaks, and\nas an insulation wrap for pipe fittings, valves, and HVAC components. Flexible\nand lightweight, it retards heat gain and loss while providing long service life\nwithout deterioration.",
+    "features": [
+      "Made from closed-cell fire-rated EPDM\nelastomeric insulating foam sheet",
+      "Coated with high-tack acrylic\npressure-sensitive adhesive protected by release liner",
+      "Serves as an effective\npurlin tape to eliminate thermal movement noise in steel buildings",
+      "Low,\nstable thermal conductivity retards heat loss, heat gain, and prevents\ncondensation",
+      "Fire-rated formulation compliant with building safety\nstandards",
+      "Highly flexible and conforms easily to irregular pipe fittings,\nvalves, and bends",
+      "Resistant to moisture absorption, weathering, and UV\ndegradation",
+      "Will not dry out, shrink, or deteriorate over time",
+      "Available\nin 50mm and 98mm widths in 3mm thickness"
+    ],
+    "applications": [
+      "pipe",
+      "duct",
+      "roof",
+      "roofline",
+      "wall",
+      "shed"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "Closed-cell EPDM elastomeric insulating foam with acrylic adhesive",
+        "standard": ""
+      },
+      {
+        "property": "Thickness",
+        "value": "3 mm",
+        "standard": ""
+      },
+      {
+        "property": "Width Options",
+        "value": "50 mm, 98 mm",
+        "standard": ""
+      },
+      {
+        "property": "Roll Length",
+        "value": "9.1 m",
+        "standard": ""
+      },
+      {
+        "property": "Adhesive Type",
+        "value": "Pressure-sensitive acrylic adhesive",
+        "standard": ""
+      },
+      {
+        "property": "Thermal Conductivity",
+        "value": "Stable low thermal\nconductivity for thermal insulation and anti-condensation",
+        "standard": ""
+      },
+      {
+        "property": "Fire Performance",
+        "value": "Fire Rated (FR formulation)",
+        "standard": ""
+      },
+      {
+        "property": "Moisture Resistance",
+        "value": "Closed-cell\nstructure resists moisture and condensation",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "MaxTape FR 50mm",
+        "size_or_rating": "3 mm x 50 mm x 9.1 m",
+        "pack": "Box of 10 rolls"
+      },
+      {
+        "variant": "MaxTape FR 98mm",
+        "size_or_rating": "3 mm\nx 98 mm x 9.1 m",
+        "pack": "Box of 5 rolls"
+      }
+    ],
+    "fire": "Fire-rated formulation;\nlow flammability EPDM rubber",
+    "compliance": "Meets Australian building and HVAC\ninsulation performance standards",
+    "sustainability": "Zero ODP; low VOC\nemissions; fiber-free",
+    "install": [
+      "Ensure target pipe, fitting, or purlin\nsurface is clean, dry, and free of grease and dust",
+      "For purlin installation,\nunroll MaxTape FR along the top flange of steel roof purlins or wall girts",
+      "Peel back release liner and press tape firmly onto the steel surface",
+      "Ensure\ntape runs continuously beneath roof or wall sheets to eliminate thermal\nexpansion noise",
+      "For pipe fittings and valves, wrap MaxTape FR tightly with\na 50% overlap to achieve required insulation thickness",
+      "Press firmly along all\nedges to ensure complete, gap-free adhesion and prevent air ingress"
+    ],
+    "selection_checklist": [
+      "Confirm application (purlin thermal cushion tape vs\npipe fitting lagging)",
+      "Select width (50mm standard for pipe fittings and\nnarrow purlins; 98mm for wide structural purlins)",
+      "Calculate total lineal\nmeters needed along steel framing or pipe runs",
+      "Ensure substrate is clean and\ngrease-free"
+    ],
+    "accessories": [
+      "Thermotec E-Flex pipe insulation",
+      "Thermotec 4-Zero pipe lagging"
+    ],
+    "limitations": [
+      "Surfaces must be dry and\nfree of oil or rust before applying",
+      "Not designed as a structural load-bearing\ntape",
+      "Ensure 50% overlap when wrapping pipes to prevent condensation tracking"
+    ],
+    "warranty": "Backed by Thermotec Australia product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Thermotec MaxTape FR",
+      "MaxTape FR",
+      "Maxflex insulating\nfoam tape",
+      "EPDM foam tape",
+      "purlin tape",
+      "thermal break foam tape",
+      "pipe\nlagging tape",
+      "fire rated foam tape",
+      "anti-creak purlin tape"
+    ],
+    "problem_keywords": [
+      "metal roof creaking and popping from heat expansion",
+      "condensation on copper pipe fittings and valves",
+      "hard-to-insulate pipe elbows\nand T-junctions",
+      "thermal bridging on steel purlins",
+      "sweating refrigeration\npipes"
+    ],
+    "placement": [
+      "pipe",
+      "duct",
+      "roof",
+      "roofline",
+      "wall",
+      "shed"
+    ],
+    "priority_fit": [
+      "thermal",
+      "condensation",
+      "fire",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Applied along the top of steel purlins in sheds and metal-roof\nbuildings to eliminate thermal expansion creaks and groans",
+      "Insulating\nirregular pipe valves, tees, elbows, and short pipe runs where pre-formed\ntubular lagging cannot fit",
+      "Anti-sweat and condensation protection wrapping on\nrefrigeration and chilled water pipe fittings"
+    ],
+    "not_for": [
+      "Flue exhaust\npipes exceeding 100°C",
+      "Direct structural mechanical load holding",
+      "Submerged\nunderwater applications"
+    ],
+    "rag_summary": "Thermotec MaxTape FR (Maxflex\nInsulating Foam Tape) is a fire-rated EPDM closed-cell elastomeric foam tape\n(3mm thick in 50mm and 98mm widths) backed with high-tack acrylic\npressure-sensitive adhesive. Serving a dual purpose, it insulates irregular pipe\nfittings, valves, and HVAC components against condensation and heat loss while\nfunctioning as a high-performance purlin tape on steel-framed buildings to\neliminate thermal expansion creaking. Closed-cell, moisture-impermeable, and\nUV-resistant, it provides long-term thermal and acoustic cushioning without\ndeteriorating."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

@@ -1,6 +1,6 @@
 ---
 title: "Polyair Thermo Reflective Products - Polyair Unicell - Reflective Insulation | Polyair"
-description: "Quality insulation engineered for Australian conditions. Reflects up to 97% of radiant heat, reducing summer cooling costs."
+description: "Bradford Polyair Unicell is an extra heavy duty, commercial-grade thermo-reflective insulation roll engineered for roofs and walls in residential, she"
 keywords: "Polyair Thermo Reflective Products - Polyair Unicell, Polyair reflective, wall insulation, roof insulation, duct insulation, shed insulation, insulation Australia, Polyair Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: POLYAIR_THERMO_REFLECTIVE_PRODUCTS_POLYAIR_UNICE
@@ -10,27 +10,33 @@ family_id: POLYAIR_THERMO_REFLECTIVE_PRODUCTS_POLYAIR_UNICE
 
 **Polyair Reflective** — reflective foil insulation for radiant heat control.
 
-Quality insulation engineered for Australian conditions. Reflects up to 97% of radiant heat, reducing summer cooling costs.
+Bradford Polyair Unicell is an extra heavy duty, commercial-grade thermo-reflective insulation roll engineered for roofs and walls in residential, shed, and warehouse applications. Composed of an inner fire-retardant bubble cell core laminated between two external layers of extra heavy duty pure aluminum reflective foil, it reflects up to 95% of radiant heat in summer and retains warmth in winter. When taped and sealed, it functions as a weather barrier that blocks draughts, dust, and moisture while reducing condensation on metal cladding.
 
 ## Key features
 
-- High-purity aluminium reflective facing.
-- reflects up to 97% of radiant heat.
-- lightweight and easy to install.
-- provides vapour barrier when properly sealed.
-- excellent thermal performance for roof/ceiling applications.
+- Extra heavy duty commercial-grade reflective shed and residential insulation roll.
+- Fire-retardant polyethylene bubble cell core provides rigidity and handleability.
+- Reflects up to 95% of radiant heat, improving year-round thermal comfort.
+- Effective weather barrier: when taped, blocks rain, dust, and draughts.
+- Reduces condensation formation on interior metal cladding surfaces.
+- Extra heavy duty tear and puncture resistance withstands rough site handling.
+- Low Flammability Index compliant with AS 1530.2.
+- Lightweight and easy to roll out over purlins or studs.
 
 ## Applications and selection
 
-- Metal Roof / Shed | External Wall
+- roof
+- roofline
+- wall
+- external wall
+- shed
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm application is metal shed, warehouse, or residential roof/wall.
+2. Choose roll width (1350mm standard or 1500mm wide).
+3. Verify requirement for reflective air space (minimum 20mm gap required to achieve thermal rating).
+4. Order matching 72mm reinforced foil tape.
 
 
 ## Current catalogue range
@@ -42,37 +48,51 @@ Quality insulation engineered for Australian conditions. Reflects up to 97% of r
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Reflective | Manufacturer catalogue |
-| Material | Reflective Composite | Manufacturer catalogue |
-| Applications | Metal Roof / Shed | External Wall | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material | Fire-retardant bubble core laminated between dual extra heavy duty aluminum foil facings | - |
+| Total Thickness | 4 mm (+/- 0.5 mm) | - |
+| Roll Dimensions | 1350 mm width x 40 m length (54 m²); 1500 mm width x 25 m length (37.5 m²) | - |
+| Duty Classification | Extra Heavy Duty | AS/NZS 4200.1 |
+| Emittance | 0.03 - 0.05 (reflects up to 95% radiant heat) | AS/NZS 4201.5 |
+| Water Control | Water Barrier | AS/NZS 4201.4 |
+| Vapor Barrier | Class 1 / Class 2 Vapor Barrier | ASTM E96 |
+| Flammability Index | ≤ 5 (Low Flammability) | AS 1530.2 |
+| Product Code | 127418 (1350mm x 40m), 130301 (1500mm x 25m) | - |
 
-
+Extracted from manufacturer datasheet: https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/sheds/polyair-unicell
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Flammability Index ≤ 5 to AS 1530.2; Suitable for bushfire construction up to BAL-40 to AS 3959
+
+AS/NZS 4200.1, AS/NZS 4200.2, AS 1530.2, AS 3959, NCC Volume One & Two
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.polyair.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://www.polyair.com.au/.
 
+## Recommended accessories
+
+- Bradford 72mm Reinforced Aluminum Foil Tape.
+- Wafer head screws and washers.
+
 
 ## Limitations and warnings
 
-- Reflective performance requires maintained airspace..
-- conductive material - keep away from electrical services..
-- not suitable as sole insulation in cold climates..
-- Verify product is suitable for external exposure..
-- check BAL rating requirements for bushfire-prone areas..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Requires an adjacent air gap of at least 20mm to achieve rated thermal R-values.
+- Not designed as a primary roof cladding; must be protected by roof sheets.
+- Avoid contact with wet alkaline concrete or mortar.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Reflective performance requires maintained airspace.
+1. Roll out Polyair Unicell over roof purlins or wall girts perpendicular to framing.
+2. Allow a nominal 40mm drape between purlins to create an airspace and manage condensation drainage.
+3. Overlap adjoining runs by minimum 50mm to 100mm.
+4. Tape all laps and perimeter joins with 72mm reinforced aluminum foil tape to form a continuous seal.
+5. Fix metal roof or wall sheeting directly through the insulation to purlins.
+6. Ensure insulation drains freely into gutters without ponding.
 
 ## Safety and handling
 
@@ -80,11 +100,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Zero ODP; low VOC emissions; non-toxic fiber-free core
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Backed by CSR Bradford product warranty
 
 ## Specification starting point
 

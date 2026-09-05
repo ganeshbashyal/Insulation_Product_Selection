@@ -1,0 +1,157 @@
+{
+  "family_id": "PROCTOR_PASSIVE_DRIFLASH_TAPE",
+  "family_name": "Proctor Passive DriFlash Tape",
+  "datasheet_pdf_url": "https://proctorgroup.com.au/product/driflash-tape-ext-int-joint-tape/",
+  "sds_url": "https://proctorgroup.com.au/product/driflash-tape-ext-int-joint-tape/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "ProctorPassive DriFlash Tape is a high performance single-sided\nvapor-permeable fleece tape coated with a solvent-free acrylic adhesive,\nprotected by a split release paper. It is designed to provide water, air, and\nweather-tight seals around wall and roof penetration interfaces, including\nwindow and door openings. Because it is vapor permeable, it allows moisture\nwithin wall framing junctions to dry out safely while blocking external wind and\nliquid water.",
+    "features": [
+      "Vapour permeable fleece carrier allowing trapped\nmoisture to dry outward",
+      "Solvent-free polyacrylic pressure-sensitive adhesive\nwith high initial tack",
+      "Split release backing paper for fast and accurate\ncorner application",
+      "Creates an airtight and weathertight seal around\npenetrations and joints",
+      "High UV resistance suitable for installation before\ncladding is completed",
+      "Bonds aggressively to timber, metal, rigid insulation,\nand building wraps",
+      "Flexible fleece backing accommodates building movement and\nthermal expansion",
+      "Suitable for internal and external envelope air sealing"
+    ],
+    "applications": [
+      "wall",
+      "external wall",
+      "roof",
+      "roofline",
+      "internal wall",
+      "window",
+      "door"
+    ],
+    "technical": [
+      {
+        "property": "Carrier",
+        "value": "Vapour\npermeable polyolefin fleece",
+        "standard": ""
+      },
+      {
+        "property": "Adhesive",
+        "value": "Solvent-free polyacrylic",
+        "standard": ""
+      },
+      {
+        "property": "Roll\nDimensions",
+        "value": "75 mm x 25 m, 100 mm x 25 m, 150 mm x 25 m",
+        "standard": ""
+      },
+      {
+        "property": "Sd-value",
+        "value": "0.03 m (Vapour permeable)",
+        "standard": "EN 12572"
+      },
+      {
+        "property": "Temperature Resistance",
+        "value": "-40°C to +100°C",
+        "standard": ""
+      },
+      {
+        "property": "Installation Temperature",
+        "value": "-10°C to +40°C",
+        "standard": ""
+      },
+      {
+        "property": "Reaction to Fire",
+        "value": "Class E",
+        "standard": "EN 13501-1"
+      }
+    ],
+    "range": [
+      {
+        "variant": "DriFlash Tape 75mm",
+        "size_or_rating": "75 mm x 25 m",
+        "pack": "Roll"
+      },
+      {
+        "variant": "DriFlash Tape 100mm",
+        "size_or_rating": "100 mm x 25 m",
+        "pack": "Roll"
+      },
+      {
+        "variant": "DriFlash Tape 150mm",
+        "size_or_rating": "150 mm x 25 m",
+        "pack": "Roll"
+      }
+    ],
+    "fire": "Reaction to fire Class E to EN 13501-1",
+    "compliance": "AS/NZS 4200.2:2017, NCC 2022 Volume One & Two condensation\nmanagement, Passive House air barrier requirements",
+    "sustainability": "Solvent-free, zero chlorine, zero formaldehyde, low VOC emissions",
+    "install": [
+      "Ensure substrate is dry, clean, dust-free, and free of oil, grease, or loose\nparticles",
+      "Measure and cut tape to required length allowing for overlaps at\ncorners",
+      "Peel back the first section of the split release liner paper",
+      "Position tape evenly across the window jamb, sill, or penetration junction",
+      "Remove the remaining split release liner while smoothing the tape onto the\nadjacent surface",
+      "Press firmly along the entire tape length using a hand\nroller or squeegee to achieve 100% adhesion",
+      "Ensure corner joins overlap by a\nminimum of 50mm",
+      "Apply in dry weather within the temperature range of -10°C to\n+40°C"
+    ],
+    "selection_checklist": [
+      "Confirm width needed (75mm for flat\nseams, 100mm/150mm for window sills and rough openings)",
+      "Verify need for\nvapour-permeable flashing to avoid trapping moisture in structural framing",
+      "Ensure substrate is compatible (timber, steel, concrete, OSB, or pliable\nmembranes)",
+      "Check compatibility with air-barrier and water-resistive barrier\nmembranes"
+    ],
+    "accessories": [
+      "ProctorWrap building membranes",
+      "Pressure\nsqueegee / hand roller"
+    ],
+    "limitations": [
+      "Do not apply over wet, frozen, or\nheavily contaminated surfaces",
+      "Pressure-sensitive adhesive requires firm\nrolling for complete mechanical bond",
+      "Must not be permanently exposed to UV\nweather beyond manufacturer limits"
+    ],
+    "warranty": "Backed by Proctor Group\nAustralia product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Proctor\nPassive DriFlash Tape",
+      "DriFlash tape",
+      "vapour permeable flashing tape",
+      "breathable window tape",
+      "Proctor flashing tape",
+      "split liner flashing tape",
+      "fleece airtight tape",
+      "passive house window tape"
+    ],
+    "problem_keywords": [
+      "water leakage around window openings",
+      "air leaks at window frame junctions",
+      "trapped moisture in window sills",
+      "failing blower door test around doors",
+      "sealing penetrations in building wrap"
+    ],
+    "placement": [
+      "wall",
+      "external\nwall",
+      "roof",
+      "roofline",
+      "internal wall"
+    ],
+    "priority_fit": [
+      "condensation",
+      "easy_install",
+      "thermal"
+    ],
+    "use_cases": [
+      "Sealing window and door framing\njunctions to external vapour-permeable wall wraps",
+      "Air and weathertight\nsealing of pipe, duct, and cable penetrations through building envelopes",
+      "Joining roof underlay sheets at hips, valleys, and ridge interfaces"
+    ],
+    "not_for": [
+      "Permanent immersion in standing water",
+      "High-temperature flue\nexhaust pipes above 100°C",
+      "Structural load-bearing anchoring"
+    ],
+    "rag_summary": "ProctorPassive DriFlash Tape is a high-performance, single-sided\nvapour-permeable fleece flashing tape coated with solvent-free polyacrylic\nadhesive. Designed with a split release liner, it seals window and door frames,\npenetrations, and wall-to-roof junctions to provide continuous airtight and\nweathertight protection. Its vapour-permeable fleece core (Sd 0.03m) allows\ntrapped moisture inside framing to dry outward, mitigating rot and mould while\nsupporting Passive House airtightness standards."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

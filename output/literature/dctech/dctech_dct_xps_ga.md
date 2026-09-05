@@ -1,7 +1,7 @@
 ---
 title: "DCTech Dct Xps Ga - Board Insulation | DCTech"
-description: "Quality insulation engineered for Australian conditions. Rigid foam insulation that maintains its thermal performance over the lifetime of the buildin"
-keywords: "DCTech Dct Xps Ga, DCTech board, floor insulation, underfloor insulation, insulation Australia, DCTech Australia"
+description: "DCT XPS GA 300 is a closed-cell, high-compressive-strength, low-moisture-absorption extruded polystyrene (XPS) general application rigid insulation bo"
+keywords: "DCTech Dct Xps Ga, DCTech board, wall insulation, roof insulation, floor insulation, underfloor insulation, insulation Australia, DCTech Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: DCTECH_DCT_XPS_GA
 ---
@@ -10,28 +10,36 @@ family_id: DCTECH_DCT_XPS_GA
 
 **DCTech Board** — rigid insulation boards for continuous thermal performance.
 
-Quality insulation engineered for Australian conditions. Rigid foam insulation that maintains its thermal performance over the lifetime of the building. Ideal for external applications.
+DCT XPS GA 300 is a closed-cell, high-compressive-strength, low-moisture-absorption extruded polystyrene (XPS) general application rigid insulation board for roofs, walls, and floors in commercial and residential buildings. Manufactured in accordance with EN 13164 with zero Ozone Depletion Potential (ODP) and CFC/HCFC-free blowing agents, it offers exceptional compressive strength of 300 kPa and long-term dimensional stability. It maintains superior thermal performance even under extreme conditions of compressive loading, ground moisture, and freeze-thaw cycles.
 
 ## Key features
 
-- High-strength extruded polystyrene with fine closed-cell structure.
-- exceptional moisture resistance for below-grade applications.
-- maintains R-value in high humidity environments.
-- high compressive strength for load-bearing applications.
-- rigid design prevents sagging between joists.
-- reduces drafts and cold floors.
+- High compressive strength minimum 300 kPa (average 350 kPa to AS 2498.3).
+- Closed cell structure provides near-zero water absorption (< 0.3% by volume).
+- Long-term thermal performance with low thermal conductivity (0.028 - 0.034 W/m·K).
+- Specially designed tongue and groove edge profile for airtight, continuous thermal layering.
+- High resistance to freeze-thaw cycles and ground moisture.
+- Rot-proof, dimensionally stable, and resistant to compression creep up to 50 years.
+- Lightweight, rigid, and clean to handle and cut with a knife or saw.
+- Zero ODP, CFC and HCFC free formulation compliant with Green Star.
+- Suitable for inverted roofs (IRMA), green roofs, under-slab, cavity walls, and cold stores.
 
 ## Applications and selection
 
-- Underfloor
+- floor
+- underfloor
+- subfloor
+- roof
+- wall
+- external wall
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm compressive load requirements (GA 300 provides 300 kPa for standard commercial/residential floors and roofs).
+2. Select required board thickness (e.g. 50mm R1.70, 75mm R2.55, 100mm R3.40) to meet target R-value.
+3. Verify edge profile requirements (tongue and groove standard for continuous thermal layer).
+4. Confirm ballast requirement for inverted roof assemblies (gravel, pavers, or green roof soil).
+5. Ensure compatibility with adjacent waterproofing membranes and solvent-free adhesives.
 
 
 ## Current catalogue range
@@ -47,37 +55,56 @@ Quality insulation engineered for Australian conditions. Rigid foam insulation t
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Board | Manufacturer catalogue |
-| Material | XPS | Manufacturer catalogue |
-| Applications | Underfloor | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Compressive Strength (at 10% deflection) | ≥ 300 kPa (average 350 kPa) | AS 2498.3 / EN 826 |
+| Thermal Conductivity | 0.028 - 0.034 W/m·K (typical 0.029 W/m·K) | EN 12667 / ASTM C518 |
+| Water Absorption (by total immersion) | < 0.3% by volume | EN 12087 / AS 2498.5 |
+| Water Vapour Permeability | Very low vapour permeability (diffusion resistance factor µ 150-200) | EN 12086 |
+| Standard Board Dimensions | 600 mm width x 2400 mm length (or 1200 x 2400 mm) | - |
+| Thickness Options | 25 mm, 30 mm, 40 mm, 50 mm, 75 mm, 80 mm, 100 mm | - |
+| Edge Profile | Tongue and groove (T&G) or shiplap edge profile | - |
+| Density | Nominal 32-35 kg/m³ | - |
+| Compressive Creep (50 years, <2% deformation) | 100 kPa | EN 1606 |
+| Service Temperature Range | -50°C to +75°C | - |
 
-
+Extracted from manufacturer datasheet: https://dctech.com.au/product/dct-xps-ga-300/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Euroclass E to EN 13501-1; Contains flame retardant additives; Must be protected by thermal barrier in accordance with NCC
+
+AS 2498.3, EN 13164, EN 1606, Green Star compliant, NCC Volume One and Two
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://dctech.com.au/wp-content/uploads/2018/09/DCT_Industrial_Insulation_Brochure.pdf (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://proctorgroup.com.au/wp-content/uploads/2021/02/DCT_PIR_Silver_White_Tissue_Ver_2_2020-2.pdf.
 
+## Recommended accessories
+
+- ProctorGeo IRMA (filter fabric for inverted roofs).
+- ProctorGeo D-Rain DC8 / DC20.
+- Polyurethane foam adhesive.
+- Mechanical insulation fasteners.
+
 
 ## Limitations and warnings
 
-- Combustible material - do not expose to flame or high heat sources..
-- protect from UV exposure during installation..
-- check compatibility with solvents and chemicals before use..
-- not suitable for direct contact with bitumen without barrier..
-- Ensure adequate subfloor ventilation is maintained..
-- do not leave exposed to ground moisture or subfloor dampness..
+- Must not come into direct contact with solvent-based waterproofing, petroleum fuels, or coal tar.
+- Maximum continuous service temperature is 75°C.
+- Must be protected from extended outdoor UV exposure prior to covering.
+- Requires concrete ballast or pavers on inverted flat roofs to prevent wind uplift and flotation.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Combustible material - do not expose to flame or high heat sources.
+1. Ensure subgrade, slab, or roof waterproofing membrane is clean, smooth, and free of debris.
+2. For under-slab applications, lay boards directly over prepared blinding layer or damp-proof membrane.
+3. Interlock tongue and groove edges tightly to eliminate thermal bridging and gap formation.
+4. Stagger end joints in a brick-bond pattern for structural stability.
+5. For inverted roofs (IRMA), lay boards loosely over waterproofing membrane followed by ProctorGeo IRMA geotextile and ballast.
+6. For cavity walls, secure boards against inner masonry leaf using mechanical retaining clips on wall ties.
+7. Cut easily with a fine-toothed saw or hot wire cutter around penetrations and footings.
 
 ## Safety and handling
 
@@ -85,11 +112,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+CFC and HCFC free, zero Ozone Depletion Potential (ODP), 100% recyclable polystyrene
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Backed by DCTech product warranty (life equivalent to the structure)
 
 ## Specification starting point
 

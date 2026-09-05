@@ -1,0 +1,65 @@
+{
+  "family_id": "STINGER_ACCESSORY",
+  "family_name": "Stinger Accessory",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "gemini_not_found",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "",
+    "features": "",
+    "applications": "",
+    "technical": "",
+    "range": "",
+    "fire": "",
+    "compliance": "",
+    "sustainability": "",
+    "install": "",
+    "selection_checklist": "",
+    "accessories": "",
+    "limitations": "",
+    "warranty": ""
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Stinger accessory",
+      "Stinger StaplePac",
+      "Stinger NailPac",
+      "Stinger plastic caps",
+      "cap fasteners",
+      "Stinger cap refills",
+      "Stinger replacement parts",
+      "Stinger tool accessories"
+    ],
+    "problem_keywords": [
+      "housewrap tearing off staples",
+      "air and water leaks\naround staple holes",
+      "wind blowing underlayment off roof",
+      "running out of cap\nfasteners on site",
+      "staples pulling through building wrap"
+    ],
+    "placement": [
+      "roof",
+      "roofline",
+      "wall",
+      "external wall"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "condensation"
+    ],
+    "use_cases": [
+      "Collated plastic cap and fastener packs\n(StaplePac and NailPac) used with STINGER cap hammers and nailers",
+      "Fastening\nroofing felt, synthetic underlayments, and housewrap without material\ntear-through",
+      "Providing water-sealing caps over fastener penetrations in\nexternal walls and roofs"
+    ],
+    "not_for": [
+      "Internal drywall plasterboard\nfixing",
+      "Heavy structural timber framing",
+      "Direct concrete anchoring"
+    ],
+    "rag_summary": "Stinger Accessory encompasses the proprietary collated\nfasteners, plastic caps, and maintenance components manufactured for STINGER cap\nsystems by National Nail Corp. Centered on the StaplePac and NailPac product\nlines, these accessories deliver full 25mm (1 inch) diameter plastic caps\nalongside staples or ring-shank nails. By spreading the fastening load and\nsealing out moisture, they prevent wind blow-offs, tearing, and lateral slippage\nof housewrap and roofing underlayments across residential jobsites."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

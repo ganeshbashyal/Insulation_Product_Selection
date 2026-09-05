@@ -1,7 +1,7 @@
 ---
 title: "Polyester Solutions Batt - Batt Insulation | Polyester Solutions"
-description: "Quality insulation engineered for Australian conditions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled pla"
-keywords: "Polyester Solutions Batt, acoustic insulation, wall insulation, insulation Australia, Polyester Solutions Australia"
+description: "Polyester Solutions PolyBatts are high-performance, non-irritant thermal and acoustic insulation batts manufactured in Melbourne, Australia from 100% "
+keywords: "Polyester Solutions Batt, wall insulation, ceiling insulation, floor insulation, insulation Australia, Polyester Solutions Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: POLYESTER_SOLUTIONS_BATT
 ---
@@ -10,28 +10,36 @@ family_id: POLYESTER_SOLUTIONS_BATT
 
 **Polyester Solutions Batt** — bulk insulation batts for thermal and acoustic performance.
 
-Quality insulation engineered for Australian conditions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled plastic bottles, it's the sustainable choice for modern buildings.
+Polyester Solutions PolyBatts are high-performance, non-irritant thermal and acoustic insulation batts manufactured in Melbourne, Australia from 100% thermally bonded polyester fibers containing a minimum of 80% recycled PET. Completely free from chemical binders, resins, and formaldehyde, they are non-toxic, odorless, non-allergenic, and safe to handle without protective clothing or dust masks. Engineered to fit snugly into wall and ceiling framing cavities, they will not sag, rot, or become brittle over their lifecycle, providing lasting thermal resistance from R1.5 to R4.0.
 
 ## Key features
 
-- 100% polyester - safe to handle without protective equipment.
-- contains minimum 80% recycled PET plastic bottles.
-- non-allergenic, non-irritant formulation.
-- will not support mould or mildew growth.
-- maintains performance when wet - dries out naturally.
+- 100% Australian made from thermally bonded polyester fibers.
+- Contains a minimum of 80% recycled post-consumer PET plastic bottles.
+- Completely non-irritant, non-toxic, odorless, and non-allergenic with zero itch.
+- Requires no gloves, masks, or protective clothing during handling and installation.
+- Does not absorb moisture; hydrophobic and quick-drying.
+- Resistant to insect, vermin, mold, and bacterial attack.
+- Will not sag, crumble, settle, or become brittle over time.
+- Meets Australian Standard AS/NZS 4859.1 and Building Code of Australia (BCA).
+- Tested to AS 1530.3 with zero spread of flame and zero heat evolved.
+- 100% recyclable with zero chemical binders or adhesives.
 
 ## Applications and selection
 
-- Internal Wall | General Acoustic
-- Internal Wall
+- ceiling
+- wall
+- internal wall
+- external wall
+- between floors
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm application (ceiling vs external wall vs internal partition).
+2. Select required R-value to achieve target NatHERS energy rating for climate zone.
+3. Measure framing centers (430mm for 450mm centers; 580mm for 600mm centers).
+4. Verify wall stud depth (75mm or 90mm).
+5. Confirm preference for non-itchy, non-allergenic polyester insulation.
 
 
 ## Current catalogue range
@@ -47,36 +55,52 @@ Quality insulation engineered for Australian conditions. Safe to handle without 
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Batt | Manufacturer catalogue |
-| Material | Polyester | Manufacturer catalogue |
-| Applications | Internal Wall | General Acoustic; Internal Wall | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material Composition | 100% thermally bonded polyester fibers (min. 80% recycled PET) | - |
+| Thermal R-Values | R1.5, R2.0, R2.5, R3.0, R3.5, R4.0 | AS/NZS 4859.1 |
+| Nominal Thicknesses | R1.5 (90mm), R2.0 (90mm), R2.5 (90-165mm), R3.0 (180mm), R3.5 (200mm), R4.0 (220mm) | - |
+| Standard Dimensions | 1170 mm length x 430 mm or 580 mm width | - |
+| Combustibility / Early Fire Hazard | Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1 | AS 1530.3 |
+| Moisture Absorption | < 0.2% by volume after 4 days at 50°C, 95% RH | - |
+| Maximum Service Temperature | 150°C | - |
+| Chemical Content | Zero formaldehyde, zero added chemical binders, zero ODP | - |
 
-
+Extracted from manufacturer datasheet: https://www.polyestersolutions.com.au/thermal-insulation
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Early Fire Hazard Properties to AS 1530.3: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-1; Non-flammable fibers
+
+AS/NZS 4859.1, AS 3999, NCC Volume One and Two
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.polyestersolutions.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://eurekainsulation.com.au/wp-content/uploads/2025/06/PS-Sound-Batt.pdf.
 
+## Recommended accessories
+
+- Heavy-duty shears / insulation knife.
+- Insulation strapping.
+- Perimeter eave baffles.
+
 
 ## Limitations and warnings
 
-- Not suitable for applications requiring fire rating without additional protection..
-- not to be exposed to weather or sustained moisture..
-- do not compress beyond manufacturer recommendations..
-- check fire-rated system requirements if fire rating is required..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Do not compress batts significantly as this reduces thermal R-value.
+- Must be enclosed behind plasterboard or building lining; not for exposed decorative finish.
+- Maximum continuous service temperature is 150°C.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for applications requiring fire rating without additional protection.
+1. Turn off power at the main switchboard before entering ceiling spaces or touching wall framing.
+2. Select batt width (430mm or 580mm) matching stud or joist spacing (450mm or 600mm).
+3. In ceilings, lay batts flat between joists ensuring continuous coverage with no gaps or compression.
+4. In walls, friction-fit batts firmly between studs ensuring batts butt tightly against top and bottom plates.
+5. Maintain minimum 50mm clearance around non-IC rated recessed downlights and flues per AS 3999.
+6. Maintain 20mm clearance between roof cladding/sarking and insulation at roof eaves.
+7. Tear across width by hand or trim with heavy-duty shears if custom sizing is required.
 
 ## Safety and handling
 
@@ -84,11 +108,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Minimum 80% recycled PET fiber; 100% recyclable; zero chemical binders; zero formaldehyde; zero ODP; non-toxic
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Backed by Polyester Solutions manufacturer product warranty
 
 ## Specification starting point
 

@@ -1,0 +1,63 @@
+{
+  "family_id": "TRADE_SELECT_EASYSEAL_INSULATION_FLASHING_TAPE",
+  "family_name": "Trade Select EasySeal Insulation Flashing Tape",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "gemini_not_found",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "",
+    "features": "",
+    "applications": "",
+    "technical": "",
+    "range": "",
+    "fire": "",
+    "compliance": "",
+    "sustainability": "",
+    "install": "",
+    "selection_checklist": "",
+    "accessories": "",
+    "limitations": "",
+    "warranty": ""
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Trade Select EasySeal",
+      "EasySeal flashing\ntape",
+      "insulation flashing tape",
+      "Ametalin EasySeal",
+      "window flashing tape\nTrade Select",
+      "weatherproof flashing tape"
+    ],
+    "problem_keywords": [
+      "water\nleaks around window and door frames",
+      "air leakage through rough openings",
+      "tape failing on building wrap",
+      "flashing penetrations in external walls",
+      "interstitial water ingress at corners"
+    ],
+    "placement": [
+      "wall",
+      "external\nwall",
+      "roof",
+      "roofline"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "condensation"
+    ],
+    "use_cases": [
+      "Flashing and sealing window and door openings to exterior\npliable wall wraps",
+      "Creating watertight and airtight seals around pipe and\nservice penetrations",
+      "Sealing critical corner junctions and lap joints on\nbuilding envelopes"
+    ],
+    "not_for": [
+      "Permanent immersion in standing water",
+      "High-temperature flue exhaust pipes",
+      "Structural load-bearing connections"
+    ],
+    "rag_summary": "Trade Select EasySeal Insulation Flashing Tape represents a\nheavy-duty, weather-resistant flashing tape designed to provide watertight and\nairtight seals around window openings, door frames, and building envelope\npenetrations. Coated with an aggressive pressure-sensitive adhesive on a\nflexible carrier, it bonds tightly to building wraps, timber, steel, and masonry\nto prevent water ingress and draughts in accordance with AS/NZS 4200.2\nweatherproofing guidelines."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

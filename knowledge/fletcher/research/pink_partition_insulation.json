@@ -1,0 +1,175 @@
+{
+  "family_id": "FLETCHER_PINK_PARTITION",
+  "family_name": "Pink Partition Insulation",
+  "datasheet_pdf_url": "https://insulation.com.au/product/pink-partition-insulation/",
+  "sds_url": "https://insulation.com.au/wp-content/uploads/2023/12/SUIS-FBS-1-Glasswool-Bio-soluble-Insulation.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Fletcher Pink Partition insulation is a lightweight to\nmedium-density glasswool insulation batt specifically designed for commercial\nsteel and timber framed partition walls and ceilings. Manufactured from FBS-1\nbio-soluble glasswool with up to 80% recycled glass content, it delivers\ntailored acoustic attenuation and thermal comfort across low- and high-rise\ncommercial fitouts, offices, healthcare, aged care, and multi-residential\nprojects. With densities ranging from 11 kg/m³ to 32 kg/m³ and thicknesses up\nto 165mm (R1.2 to R3.5), it is non-combustible and maintains cavity firmness to\nprevent slumping.",
+    "features": [
+      "Engineered specifically for commercial steel\nand timber stud partition walls and ceilings",
+      "Wide range of densities\navailable: 11 kg/m³, 14 kg/m³, 24 kg/m³, and 32 kg/m³",
+      "Non-combustible\nmaterial when tested in accordance with AS 1530.1",
+      "Reduces background noise\nand airborne sound transmission between offices and tenancies",
+      "Thermal\ninsulation performance with R-values ranging from R1.2 up to R3.5",
+      "Firm\nfriction fit ensures insulation remains in position without slumping over time",
+      "Manufactured from up to 80% recycled glass with bio-soluble FBS-1 formulation",
+      "CodeMark certified (Certificate of Conformity CM 30006) for NCC compliance",
+      "Suitable for healthcare, aged care, education, office, and transport hub\nfitouts",
+      "Backed by Fletcher Insulation 50-year commercial warranty"
+    ],
+    "applications": [
+      "wall",
+      "internal wall",
+      "ceiling",
+      "between floors"
+    ],
+    "technical": [
+      {
+        "property": "Densities",
+        "value": "11 kg/m³ (Pink\nPartition 11), 14 kg/m³ (Pink Partition 14), 24 kg/m³ (Pink Partition 24), 32\nkg/m³ (Pink Partition 32)",
+        "standard": ""
+      },
+      {
+        "property": "R-Values",
+        "value": "R1.2 (50mm), R1.8 (75mm), R2.0 (75mm), R2.5 (90mm), R3.0 (90mm), R3.5 (165mm)",
+        "standard": "AS/NZS 4859.1:2018"
+      },
+      {
+        "property": "Thicknesses",
+        "value": "50\nmm, 65 mm, 75 mm, 90 mm, 100 mm, 110 mm, 165 mm",
+        "standard": ""
+      },
+      {
+        "property": "Standard Dimensions",
+        "value": "1200 mm length x 450 mm or 600 mm\nwidth (also continuous roll options)",
+        "standard": ""
+      },
+      {
+        "property": "Combustibility",
+        "value": "Non-combustible",
+        "standard": "AS 1530.1"
+      },
+      {
+        "property": "Early Fire Hazard Indices",
+        "value": "Ignitability: 0, Spread of\nFlame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Maximum Service Temperature",
+        "value": "340°C",
+        "standard": ""
+      },
+      {
+        "property": "Corrosion Resistance",
+        "value": "Non-corrosive",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Acoustic Performance",
+        "value": "Acoustic\nabsorption coefficients tested across octave bands for each density",
+        "standard": "AS ISO 354"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Pink Partition 11 (11\nkg/m³)",
+        "size_or_rating": "50mm, 75mm, 90mm, 110mm x 1200mm x 450/600mm",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "Pink Partition 14 (14 kg/m³)",
+        "size_or_rating": "50mm, 75mm, 90mm, 100mm x 1200mm x 450/600mm",
+        "pack": "Pack\nof batts"
+      },
+      {
+        "variant": "Pink Partition 24 (24 kg/m³)",
+        "size_or_rating": "50mm, 75mm, 90mm x 1200mm x 450/600mm",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "Pink Partition 32 (32 kg/m³)",
+        "size_or_rating": "50mm, 75mm x 1200mm\nx 450/600mm",
+        "pack": "Pack of batts"
+      }
+    ],
+    "fire": "Non-combustible to\nAS 1530.1; AS/NZS 1530.3 indices: Ignitability 0, Spread of Flame 0, Heat\nEvolved 0, Smoke Developed 0-1; NCC Section C fire resistance compliance",
+    "compliance": "AS/NZS 4859.1:2018, AS 3999, CodeMark CM 30006, NCC 2022 Volume 1\nand Volume 2",
+    "sustainability": "Contains up to 80% recycled glass; bio-soluble\nFBS-1 formulation; zero ODP; low VOC",
+    "install": [
+      "Ensure framing studs are\nerected and cavity spaces are dry and clear of debris",
+      "Select batt dimensions\nmatching stud width (450mm or 600mm)",
+      "Friction-fit Pink Partition batts snugly\nbetween steel or timber studs",
+      "Ensure batts butt tightly against top and\nbottom tracks and adjacent batts with zero gaps",
+      "Cut neatly around electrical\nconduits, plumbing, and wall penetrations using a serrated knife",
+      "Maintain\nbatt thickness to match cavity depth without crushing or over-compressing",
+      "Fasten plasterboard or wall lining according to fire and acoustic system\nspecifications"
+    ],
+    "selection_checklist": [
+      "Identify target acoustic\nspecification (Rw / STC) and select density (11, 14, 24, or 32 kg/m³)",
+      "Confirm\nsteel stud depth (50mm, 64mm, 75mm, 92mm, 150mm)",
+      "Confirm stud centres (450mm\nor 600mm)",
+      "Check fire rating requirements (AS 1530.1 non-combustible\ncompliance)",
+      "Order matching pack quantities based on area calculations"
+    ],
+    "accessories": [
+      "Acoustic sealant",
+      "Resilient tracks",
+      "Insulation knife"
+    ],
+    "limitations": [
+      "For internal wall cavities and commercial partitions; not for\ndirect external weather exposure",
+      "Avoid severe compression beyond cavity\nthickness",
+      "Must not be installed over unsealed damp surfaces"
+    ],
+    "warranty": "50 Year Commercial Warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Fletcher\nPink Partition",
+      "Pink Partition insulation",
+      "commercial acoustic batts",
+      "Pink\nPartition 11",
+      "Pink Partition 14",
+      "Pink Partition 24",
+      "Pink Partition 32",
+      "steel stud acoustic insulation",
+      "commercial wall batts",
+      "Fletcher commercial\npartition"
+    ],
+    "problem_keywords": [
+      "noise between commercial offices",
+      "confidential conversation privacy in clinics",
+      "meeting NCC commercial acoustic\nspecifications",
+      "commercial partition wall slumping",
+      "classroom noise spill",
+      "hospital patient room noise transfer"
+    ],
+    "placement": [
+      "wall",
+      "internal\nwall",
+      "ceiling",
+      "between floors"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "fire",
+      "thermal",
+      "sustainability"
+    ],
+    "use_cases": [
+      "Acoustic and thermal dampening in\ncommercial steel-stud office partition walls",
+      "Sound containment in healthcare,\nhospital consulting rooms, and aged care facilities",
+      "Acoustic partition infill\nin schools, university lecture halls, and transport terminal facilities"
+    ],
+    "not_for": [
+      "Exposed external facade cladding",
+      "Subfloor soil contact",
+      "Direct HVAC duct interior acoustic lining"
+    ],
+    "rag_summary": "Fletcher Pink\nPartition is a commercial glasswool acoustic and thermal insulation range\nmanufactured in Australia by Fletcher Insulation for steel and timber stud\npartitions and ceilings. Available in densities of 11, 14, 24, and 32 kg/m³ and\nthicknesses from 50mm to 165mm (R1.2 to R3.5), it delivers customizable sound\ntransmission control (Rw / STC) across commercial offices, healthcare, aged\ncare, and educational institutions. Non-combustible to AS 1530.1, CodeMark\ncertified (CM 30006), and containing up to 80% recycled glass, Pink Partition\nmaintains rigid friction-fit cavity stability backed by a 50-year commercial\nwarranty."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

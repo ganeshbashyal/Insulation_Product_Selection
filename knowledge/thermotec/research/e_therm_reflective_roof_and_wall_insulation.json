@@ -1,0 +1,182 @@
+{
+  "family_id": "THERMOTEC_E_THERM",
+  "family_name": "E-Therm Reflective Roof and Wall Insulation",
+  "datasheet_pdf_url": "https://thermotec.com.au/product/e-therm-reflective-roof-and-wall-insulation/",
+  "sds_url": "https://thermotec.com.au/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Thermotec E-Therm is a\nhigh-performance, Australian-made double-sided reflective foam roof, wall, and\nunderfloor insulation engineered to replace traditional bulk insulation and\nsarking. Formulated with a closed-cell low-density polyethylene (LDPE) foam core\nlaminated on both sides with pure aluminum foil facings (one side featuring a\ngreen anti-glare coating), it delivers an in-situ thermal break of up to R0.25\nto prevent thermal bridging on steel-framed buildings. It incorporates a\npatented 150mm foil overlap flap, effectively manages condensation, and reduces\nacoustic rain and airborne noise by up to 12 dB.",
+    "features": [
+      "3-in-1\nsolution: thermal insulation, R0.20+ thermal break, and vapor barrier in one\nproduct",
+      "Pure aluminum reflective foil facings reflect up to 97% of radiant\nheat (emittance 0.03)",
+      "Available in 5mm (R0.16), 6.5mm (R0.20), and 8mm\n(R0.25) closed-cell foam core thicknesses",
+      "Patented 150mm foil overlap flap\neliminates the cost of purchasing extra product for laps",
+      "Reduces radiated\nrain, aircraft, and traffic noise by up to 12 dB",
+      "Completely waterproof\nclosed-cell polyethylene foam will not rot, shrink, or sag over time",
+      "Anti-glare green coating on one face ensures safe daytime installation on\nroofs",
+      "Zero fibers, non-allergenic, non-toxic, and itch-free handling without\nPPE",
+      "Manufactured in Australia incorporating up to 80% recycled foam content",
+      "GreenStar and BASIX compliant meeting international ODP-EMI9 requirements"
+    ],
+    "applications": [
+      "roof",
+      "roofline",
+      "wall",
+      "external wall",
+      "underfloor",
+      "floor",
+      "shed"
+    ],
+    "technical": [
+      {
+        "property": "Material Structure",
+        "value": "Closed-cell low-density polyethylene (LDPE) foam core with dual pure aluminum\nfoil facings",
+        "standard": ""
+      },
+      {
+        "property": "Thickness Options",
+        "value": "5.0 mm (E-Therm 50), 6.5 mm (E-Therm 65), 8.0 mm (E-Therm 80)",
+        "standard": ""
+      },
+      {
+        "property": "Roll Dimensions",
+        "value": "1350 mm width (plus 150 mm foil\noverlap flap) x 22.25 m length (30 m² per roll)",
+        "standard": ""
+      },
+      {
+        "property": "Emittance (Silver Face)",
+        "value": "0.03 (reflects 97% radiant\nheat)",
+        "standard": "ASTM E 408-71"
+      },
+      {
+        "property": "Emittance (Anti-Glare\nFace)",
+        "value": "0.06",
+        "standard": "ASTM E 408-71"
+      },
+      {
+        "property": "Thermal\nBreak (Material R-value)",
+        "value": "5mm: R0.16; 6.5mm: R0.20; 8mm: R0.25",
+        "standard": "ASTM C518"
+      },
+      {
+        "property": "Typical Total System R-values",
+        "value": "Up to R4.00 in commercial roof systems; R2.0 to R3.3 across walls and\nceilings",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Flammability Index",
+        "value": "≤ 5 (Low Flammability)",
+        "standard": "AS/NZS 1530.2"
+      },
+      {
+        "property": "Acoustic Noise Reduction",
+        "value": "Reduces radiated noise by up to 12 dB",
+        "standard": ""
+      },
+      {
+        "property": "Vapor Barrier",
+        "value": "Medium / Class 2\nVapor Barrier",
+        "standard": "ASTM E96"
+      }
+    ],
+    "range": [
+      {
+        "variant": "E-Therm 50\n(5mm)",
+        "size_or_rating": "5.0 mm x 1350 mm x 22.25 m (30 m², Material R0.16)",
+        "pack": "Roll"
+      },
+      {
+        "variant": "E-Therm 65 (6.5mm)",
+        "size_or_rating": "6.5 mm\nx 1350 mm x 22.25 m (30 m², Material R0.20)",
+        "pack": "Roll"
+      },
+      {
+        "variant": "E-Therm 80 (8mm)",
+        "size_or_rating": "8.0 mm x 1350 mm x 22.25 m (30 m²,\nMaterial R0.25)",
+        "pack": "Roll"
+      }
+    ],
+    "fire": "AS/NZS 1530.2 Flammability Index\n≤ 5; AS 1530.3 indices: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke\nDeveloped 0-1; Suitable for bushfire construction up to BAL-40 under AS 3959",
+    "compliance": "AS/NZS 4859.1:2002/Amdt 1, AS 1530.2, AS 3959, NCC BCA Volume One\nand Two (R0.20 thermal break compliant)",
+    "sustainability": "Australian made;\nincorporates up to 80% recycled foam content; zero ODP (ODP-EMI9); low VOC;\nGreen Star and BASIX compliant",
+    "install": [
+      "Roll out E-Therm over roof\npurlins, rafters, or wall framing with anti-glare green face facing outward\ntoward the installer",
+      "Allow a nominal 40mm drape between purlins on roofs to\ncreate an airspace and facilitate condensation drainage",
+      "Align adjacent rolls\nusing the patented 150mm factory foil overlap flap",
+      "Tape all longitudinal and\ntransverse seams using 48mm or 72mm reinforced aluminium foil tape to form a\ncontinuous seal",
+      "Fasten metal roof sheets or wall cladding directly through\nthe E-Therm into steel or timber framing",
+      "Ensure E-Therm terminates cleanly at\nthe gutter line to drain condensation into gutters",
+      "For steel framed walls,\nuse E-Therm 65 or 80 to satisfy the mandatory R0.20 in-situ thermal break\nrequirement",
+      "For suspended timber floors, fix beneath floor joists maintaining\na 20mm still air cavity"
+    ],
+    "selection_checklist": [
+      "Confirm building type\n(residential home, steel shed, commercial warehouse, or underfloor)",
+      "Select\nthickness (6.5mm E-Therm 65 for R0.20 thermal break on steel framing; 8mm for\nhigher R0.25 rating)",
+      "Calculate roll quantities based on 30 m² net coverage\nper roll (patented 150mm flap eliminates overlap wastage)",
+      "Order matching 72mm\nreinforced aluminium foil sealing tape",
+      "Verify minimum 20mm airspace is\nmaintained in roof and wall cavities to achieve rated system R-values"
+    ],
+    "accessories": [
+      "Thermotec Ezy Tear Reinforced Aluminium Foil Tape (72mm)",
+      "Thermotec MaxTape FR / Insulating Foam Tape",
+      "Fastener screws and washers"
+    ],
+    "limitations": [
+      "Requires an adjacent sealed airspace of at least 20mm to\ngenerate rated total system R-values",
+      "Avoid direct contact with wet alkaline\nconcrete or mortar to prevent aluminum foil etching",
+      "Not designed as a\ntrafficable roof membrane; do not walk directly on unsupported insulation"
+    ],
+    "warranty": "Backed by Thermotec Australia product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Thermotec E-Therm",
+      "E-Therm insulation",
+      "E-Therm 65",
+      "E-Therm 80",
+      "foam cell reflective insulation",
+      "R0.2 thermal break foam",
+      "E-Therm shed insulation",
+      "reflective roof insulation",
+      "thermal break foil\ninsulation"
+    ],
+    "problem_keywords": [
+      "thermal bridging across steel framing",
+      "dripping condensation under metal roof",
+      "hot shed in summer",
+      "rain noise on\ncorrugated iron",
+      "meeting NCC R0.2 thermal break code",
+      "fiberglass itch in\nroof space"
+    ],
+    "placement": [
+      "roof",
+      "roofline",
+      "wall",
+      "external wall",
+      "underfloor",
+      "floor",
+      "shed"
+    ],
+    "priority_fit": [
+      "thermal",
+      "condensation",
+      "fire",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Installing over steel roof purlins and\nwall girts in residential homes and sheds to provide an NCC-compliant R0.20\nthermal break",
+      "Condensation control and radiant heat reflection under\nresidential and commercial corrugated metal roofs",
+      "Underfloor thermal barrier\ninstalled beneath suspended timber floor joists to block cold winter draughts",
+      "Acoustic rain noise reduction in metal-clad industrial buildings and garages"
+    ],
+    "not_for": [
+      "Cold climate wall assemblies requiring Class 4 vapour-permeable\nbreathable wraps",
+      "Direct floor traffic surfaces without subflooring",
+      "High-temperature flue pipes exceeding 80°C"
+    ],
+    "rag_summary": "Thermotec\nE-Therm is an Australian-made 3-in-1 reflective insulation, thermal break, and\nvapor barrier manufactured from closed-cell low-density polyethylene foam faced\nwith pure aluminum foil on both sides (with an anti-glare green coating on one\nface). Available in 5mm (R0.16), 6.5mm (R0.20), and 8mm (R0.25) thicknesses\nin 1350mm x 22.25m rolls (30 m²) with a patented 150mm overlap flap, it provides\nthe mandatory R0.20 in-situ thermal break on steel frames while reflecting up\nto 97% of radiant heat and dampening rain noise by up to 12 dB. Tested to\nAS 1530.2 (Flammability Index ≤ 5, BAL-40 compliant) and containing up to 80%\nrecycled foam content, it delivers complete thermal and condensation control."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

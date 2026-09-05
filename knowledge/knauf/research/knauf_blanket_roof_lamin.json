@@ -1,0 +1,185 @@
+{
+  "family_id": "KNAUF_BLANKET_ROOF_LAMIN",
+  "family_name": "Knauf Blanket Roof Lamin",
+  "datasheet_pdf_url": "https://www.knaufinsulation.com.au/products/earthwool-roof-blanket",
+  "sds_url": "https://www.knaufinsulation.com.au/products/earthwool-roof-blanket",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Earthwool Roof Blanket (with reflective foil laminate / Space\nBlanket) is a glass mineral wool roll insulation factory-bonded to a reflective\nfoil facing, designed for thermal performance, condensation control, and\nacoustic absorption under metal roofs. Manufactured with ECOSE Technology using\nbio-based binders and up to 80% recycled glass, it significantly reduces radiant\nheat gain and exterior rain drumming noise. The reflective foil facing acts as a\nvapor barrier and radiant barrier, protecting metal roof assemblies from\ncondensation damage while complying with NCC fire and bushfire standards up to\nBAL-40.",
+    "features": [
+      "Factory-laminated with reflective foil facing including\na 150mm overlap flap",
+      "Dual thermal and acoustic performance: slows heat flow\nand dampens rain impact drumming",
+      "Controls condensation formation on the\nunderside of metal roof sheeting",
+      "Non-combustible glass mineral wool core\ncomplying with AS 1530.1",
+      "ECOSE Technology bio-based binder with no added\nformaldehyde or harsh chemicals",
+      "Tested to AS 1530.2 with a low Flammability\nIndex (≤ 5)",
+      "Suitable for sealing ember entry points in bushfire zones up to\nBAL-40 under AS 3959",
+      "Made using up to 80% recycled glass",
+      "Soft to handle,\nlow dust, and odorless",
+      "Group 1 fire classification compliant with AS 5637.1 /\nAS ISO 9705"
+    ],
+    "applications": [
+      "roof",
+      "roofline",
+      "ceiling",
+      "shed",
+      "underfloor"
+    ],
+    "technical": [
+      {
+        "property": "Material Composition",
+        "value": "Bio-soluble glass mineral wool blanket bonded with ECOSE binder, laminated with\nreflective foil facing",
+        "standard": ""
+      },
+      {
+        "property": "Material R-values",
+        "value": "R1.3 (55mm), R1.8 (75mm), R2.5 (100mm), R3.0 (125mm), R3.2 (130mm),\nR3.6 (140mm)",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Thicknesses",
+        "value": "55 mm, 75 mm, 100 mm, 125 mm, 130 mm, 140 mm",
+        "standard": ""
+      },
+      {
+        "property": "Width",
+        "value": "1200 mm",
+        "standard": ""
+      },
+      {
+        "property": "Roll\nLengths",
+        "value": "10 m, 15 m, 20 m (depending on thickness)",
+        "standard": ""
+      },
+      {
+        "property": "Foil Flap Width",
+        "value": "150 mm edge overlap flap",
+        "standard": ""
+      },
+      {
+        "property": "Combustibility (Core)",
+        "value": "Non-combustible",
+        "standard": "AS 1530.1"
+      },
+      {
+        "property": "Early Fire Hazard\nIndices",
+        "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke\nDeveloped: 0-1",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Facing\nFlammability Index",
+        "value": "≤ 5",
+        "standard": "AS 1530.2"
+      },
+      {
+        "property": "Group Fire Rating",
+        "value": "Group 1",
+        "standard": "AS 5637.1 / AS ISO 9705"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Earthwool Roof Blanket R1.3 (55mm)",
+        "size_or_rating": "55 mm x 1200 mm x 20 m (24 m²)",
+        "pack": "Roll"
+      },
+      {
+        "variant": "Earthwool Roof Blanket R1.8 (75mm)",
+        "size_or_rating": "75 mm x 1200\nmm x 15 m (18 m²)",
+        "pack": "Roll"
+      },
+      {
+        "variant": "Earthwool Roof Blanket R2.5\n(100mm)",
+        "size_or_rating": "100 mm x 1200 mm x 10 m (12 m²)",
+        "pack": "Roll"
+      },
+      {
+        "variant": "Earthwool Roof Blanket R3.0 (125mm)",
+        "size_or_rating": "125 mm\nx 1200 mm x 10 m (12 m²)",
+        "pack": "Roll"
+      },
+      {
+        "variant": "Earthwool Roof\nBlanket R3.6 (140mm)",
+        "size_or_rating": "140 mm x 1200 mm x 6.5 m (7.8 m²)",
+        "pack": "Roll"
+      }
+    ],
+    "fire": "Core non-combustible to AS 1530.1; Group 1 to\nAS 5637.1 / AS ISO 9705; Facing Flammability Index ≤ 5 (AS 1530.2); Suitable for\nBAL-12.5 to BAL-40 under AS 3959",
+    "compliance": "AS/NZS 4859.1, AS/NZS 4200.1,\nAS 3959, NCC 2022 Volume One and Volume Two",
+    "sustainability": "Manufactured\nwith up to 80% recycled glass; ECOSE Technology bio-based binder; zero added\nformaldehyde; low VOC emissions",
+    "install": [
+      "Roll out blanket over roof\npurlins, rafters, or safety wire mesh with reflective foil facing downward\ntowards building interior",
+      "Overlap adjacent rolls using the factory 150mm foil\nflap",
+      "Tape all foil lap joints continuously with 72mm reinforced aluminum foil\ntape to maintain vapor barrier integrity",
+      "Allow a nominal 40mm drape between\npurlins to promote condensation drainage towards eaves if unmeshed",
+      "Fasten\nmetal roofing sheets directly over the blanket through to purlins",
+      "Ensure\nblanket terminates neatly at gutter line without obstructing stormwater flow"
+    ],
+    "selection_checklist": [
+      "Confirm roof type (pitched or curved metal deck roof,\nshed, or commercial warehouse)",
+      "Select required R-value (R1.3 to R3.6) to meet\nNCC roof energy compliance",
+      "Choose foil duty rating (Light, Medium, or Heavy\nDuty) based on span and roof traffic",
+      "Calculate total roof area\nincluding 150mm overlap allowance",
+      "Order matching 72mm reinforced foil tape\nand safety wire mesh"
+    ],
+    "accessories": [
+      "72mm Reinforced Aluminum Foil Tape",
+      "Roof safety wire mesh",
+      "Thermal roof spacers / Roof Razor"
+    ],
+    "limitations": [
+      "Must not be left exposed to rain or weather prior to roof sheet installation",
+      "Foil lap joints must be taped continuously to maintain vapor barrier\nperformance",
+      "For tropical high-humidity climates, verify condensation design\nbefore installing foil facing inward"
+    ],
+    "warranty": "50 Year Product Warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Knauf Blanket Roof Lamin",
+      "Earthwool Roof\nBlanket",
+      "Knauf roof blanket",
+      "foil faced roof blanket",
+      "Space Blanket\nKnauf",
+      "R1.3 roof blanket",
+      "R1.8 roof blanket",
+      "R2.5 roof blanket",
+      "R3.6\nroof blanket",
+      "metal roof insulation blanket"
+    ],
+    "problem_keywords": [
+      "dripping condensation under metal roof",
+      "rain drumming noise on tin roof",
+      "sweltering heat under metal deck roof",
+      "condensation buildup in commercial\nroof",
+      "uninsulated shed roof heat"
+    ],
+    "placement": [
+      "roof",
+      "roofline",
+      "ceiling",
+      "shed",
+      "underfloor"
+    ],
+    "priority_fit": [
+      "thermal",
+      "condensation",
+      "acoustic",
+      "fire"
+    ],
+    "use_cases": [
+      "Insulation blanket beneath corrugated or\nstanding-seam metal roofs in residential homes to prevent condensation and\ndampen rain noise",
+      "Thermal and acoustic roof blanket in commercial warehouses,\nsports halls, and shopping centres",
+      "Under-roof insulation in domestic garages\nand rural steel sheds"
+    ],
+    "not_for": [
+      "Internal drywall partition cavity\nbatts",
+      "Underfloor suspended timber floors without support mesh",
+      "Direct\nexposure without outer roof sheeting"
+    ],
+    "rag_summary": "Knauf Blanket Roof\nLamin (Earthwool Roof Blanket / Space Blanket) is a glass mineral wool\ninsulation blanket factory-laminated to a reflective foil facing with a 150mm\noverlap flap. Engineered for installation under residential and commercial metal\nroofs, it prevents condensation, reflects radiant heat, and dampens rain impact\ndrumming noise. Manufactured with bio-based ECOSE Technology, non-combustible\ncore (AS 1530.1), and low-flammability foil (Index ≤ 5, BAL-40 compliant), it\ndelivers ratings from R1.3 to R3.6 backed by a 50-year warranty."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

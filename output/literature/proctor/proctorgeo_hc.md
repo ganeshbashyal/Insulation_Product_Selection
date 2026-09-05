@@ -1,7 +1,7 @@
 ---
 title: "ProctorGeo HC - Drainage / Ventilation Insulation | Proctor"
-description: "Quality insulation engineered for Australian conditions. Engineered to meet Australian building requirements."
-keywords: "ProctorGeo HC, Proctor drainage / ventilation, insulation Australia, Proctor Australia"
+description: "ProctorGeo D-Rain HC (HC9 / HC10) is a flexible, lightweight horizontal and vertical cavity drainage and acoustic separation mat. Manufactured with a "
+keywords: "ProctorGeo HC, Proctor drainage / ventilation, wall insulation, roof insulation, floor insulation, insulation Australia, Proctor Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: PROCTOR_GEO_HC
 ---
@@ -10,25 +10,35 @@ family_id: PROCTOR_GEO_HC
 
 **Proctor Drainage / Ventilation** — drainage / ventilation insulation product.
 
-Quality insulation engineered for Australian conditions. Engineered to meet Australian building requirements.
+ProctorGeo D-Rain HC (HC9 / HC10) is a flexible, lightweight horizontal and vertical cavity drainage and acoustic separation mat. Manufactured with a three-dimensional, high-void entangled monofilament polypropylene core thermally bonded to a permeable non-woven geotextile filter fabric on one or both sides, it creates a permanent drainage and ventilation plane under standing seam metal roofs, zinc claddings, and below-ground structures. It relieves hydrostatic pressure, rapidly channels away incidental moisture, and provides significant acoustic damping against rain noise drumming.
 
 ## Key features
 
-- High-performance membrane technology.
-- provides effective vapour and moisture management.
-- compatible with a wide range of substrates.
+- Three-dimensional entangled polypropylene monofilament core with high void ratio.
+- Thermally bonded non-woven geotextile filter fabric prevents fines and dirt clogging.
+- Dampens rain impact noise on zinc, copper, and standing seam metal roofs by up to 21 dB.
+- Maintains an uninterrupted drainage and ventilation cavity behind claddings and beneath roofs.
+- High compressive strength resisting construction traffic and cladding fastener loads.
+- Resistant to chemical attack, rot, mildew, and soil microorganisms.
+- Flexible and lightweight for fast unrolling over plywood substrates and membranes.
+- Relieves hydrostatic pressure in horizontal plaza decks and vertical retaining walls.
 
 ## Applications and selection
 
-- Drainage / Ventilation
+- roof
+- roofline
+- wall
+- external wall
+- floor
+- subfloor
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm roof or facade cladding requires an entangled monofilament drainage and acoustic mat (standing seam metal, zinc, copper).
+2. Verify compatibility with primary water-resistive barrier or roof underlay.
+3. Check required acoustic rain noise damping (up to 21 dB reduction).
+4. Calculate total square meterage including 100mm filter fabric overlap allowance.
+5. Ensure free drainage discharge pathway at eaves and footings.
 
 
 ## Current catalogue range
@@ -39,34 +49,52 @@ Quality insulation engineered for Australian conditions. Engineered to meet Aust
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Drainage / Ventilation | Manufacturer catalogue |
-| Material | Geocomposite / Membrane | Manufacturer catalogue |
-| Applications | Drainage / Ventilation | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Core Material | Extruded entangled monofilament polypropylene (PP) | - |
+| Filter Fabric | Non-woven polypropylene geotextile filter fabric | - |
+| Nominal Thickness | 8.5 mm - 10 mm (nominal 9 mm) | - |
+| Compressive Strength | Approx. 250 kPa - 400 kPa at 20% deformation | EN ISO 25619-2 |
+| In-Plane Water Flow Capacity | High hydraulic transmissivity (approx. 1.2 - 2.5 l/m·s at hydraulic gradient 1.0) | EN ISO 12958 |
+| Acoustic Rain Noise Reduction | Up to 21 dB sound reduction under metal roof sheet | ISO 140-18 / EN ISO 717-1 |
+| Roll Dimensions | 1.0 m / 1.4 m / 2.0 m width x 20 m / 30 m length | - |
+| Service Temperature | -30°C to +80°C (melting point > 160°C) | - |
 
-
+Extracted from manufacturer datasheet: https://proctorgroup.com.au/product/proctorgeo-d-rain-hc9-horizontal-cavity-drainage-mat/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Tested for low early fire hazard properties; polymer core does not contribute significantly to fire load beneath metal roofs
+
+EN ISO 12958, EN ISO 25619-2, AS/NZS 4200.2 drainage cavity compliance, NCC 2022 condensation management
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://proctorgroup.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://proctorgroup.com.au/wp-content/uploads/2021/02/DCT_PIR_Silver_White_Tissue_Ver_2_2020-2.pdf.
 
+## Recommended accessories
+
+- ProctorWrap HTR breathable roof underlay.
+- Waterproof seaming tape.
+- Galvanised fixing clouts.
+
 
 ## Limitations and warnings
 
-- Ensure compatibility with substrate and adjacent materials..
-- follow manufacturer overlap requirements..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Not a primary waterproofing membrane; must be used in conjunction with a compliant underlay or waterproofing layer.
+- Do not leave exposed to direct outdoor UV weather for longer than 30 days prior to cladding.
+- Fasteners must not pinch or compress the drainage pathway excessively.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Ensure compatibility with substrate and adjacent materials.
+1. Install primary roof underlay or waterproofing membrane over plywood substrate or structural deck.
+2. Unroll ProctorGeo HC horizontally or vertically with geotextile filter fabric facing upward/outward.
+3. Overlap the integrated geotextile filter flap by a minimum of 100mm over adjacent runs to prevent fines entering the core.
+4. Fix temporarily in place with staples or clout nails along top edges or outside the active drainage zone.
+5. Install standing seam metal roof pans, zinc cladding, or pavers directly over the drainage mat.
+6. Fasten metal cladding clips directly through the mat into the timber substrate as specified by cladding manufacturer.
+7. Ensure the lower edge discharges freely into roof gutters, drainage sumps, or perimeter weep holes.
 
 ## Safety and handling
 
@@ -74,11 +102,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+100% recyclable polypropylene; chemically inert; non-toxic; zero ODP
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Backed by Proctor Group Australia manufacturer warranty
 
 ## Specification starting point
 

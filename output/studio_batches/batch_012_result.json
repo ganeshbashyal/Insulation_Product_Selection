@@ -1,0 +1,791 @@
+[ { "family_id": "DCTECH_TECSOUND", "tds_url":
+"https://dctech.com.au/product/tecsound/", "sds_url": "", "description":
+"Tecsound is a high-density, polymer-based asphalt-free synthetic soundproofing
+membrane, which is visco-elastic and highly adaptable, providing good acoustic
+insulation across different construction elements without increasing thickness.
+Engineered for airborne noise insulation in vertical partitions, ceilings,
+roofs, and machinery enclosures, it also dampens rain impact noise on metal
+roofs and impact sound in floating floors. Distributed in Australia by DCTech,
+it is available in standard, self-adhesive (SY), and composite felt (2FT)
+configurations.", "features": [ "High acoustic insulation without adding
+significant thickness", "Visco-elastic damping material reducing structural
+resonance and vibration", "Asphalt-free, non-toxic, and bitumen-free polymer
+formulation", "Self-adhesive backing option (Tecsound SY) for direct application
+to plasterboard and metal", "Rot-proof and high ageing resistance", "Hot and
+cold temperature resistant; flexible down to -20°C", "Self-extinguishing fire
+behaviour compliant with Euroclass B, s2, d0", "High elongation capacity and
+adaptable to uneven surfaces", "Damping of impact noise produced by atmospheric
+agents on metal roofs", "Ideal for airborne noise reduction in lightweight
+partitions and ceilings" ], "applications": [ "wall", "internal wall",
+"ceiling", "roof", "floor", "pipe", "duct" ], "technical": [ { "property":
+"Surface Mass (Tecsound 50)", "value": "5.0 kg/m²", "standard": "" }, {
+"property": "Surface Mass (Tecsound 70 / SY 70)", "value": "7.0 kg/m²",
+"standard": "" }, { "property": "Surface Mass (Tecsound 100)", "value": "10.0
+kg/m²", "standard": "" }, { "property": "Thickness (Tecsound 50)", "value": "2.5
+mm", "standard": "" }, { "property": "Thickness (Tecsound 70 / SY 70)", "value":
+"3.5 mm", "standard": "" }, { "property": "Thickness (Tecsound 100)", "value":
+"5.0 mm", "standard": "" }, { "property": "Airborne Sound Insulation (Rw single
+membrane)", "value": "Tecsound 50: Rw 28 dB; Tecsound 70: Rw 30 dB", "standard":
+"EN ISO 140-3 / EN ISO 717-1" }, { "property": "Tensile Strength", "value":
+"> 1.5 MPa", "standard": "EN ISO 527-3" }, { "property": "Elongation at Break",
+"value": "> 100%", "standard": "EN ISO 527-3" }, { "property": "Cold
+Flexibility", "value": "Does not crack at -20°C", "standard": "EN 1109" }, {
+"property": "Reaction to Fire", "value": "Euroclass B, s2, d0", "standard":
+"EN 13501-1" }, { "property": "Roll Dimensions (Tecsound 50)", "value": "1.22 m
+x 6 m (7.32 m²)", "standard": "" }, { "property": "Roll Dimensions (Tecsound 70
+/ SY 70)", "value": "1.22 m x 5 m (6.10 m²)", "standard": "" } ], "range": [ {
+"variant": "Tecsound 50", "size_or_rating": "1.22 m x 6 m x 2.5 mm (5 kg/m²)",
+"pack": "Roll (7.32 m²)" }, { "variant": "Tecsound 70", "size_or_rating": "1.22
+m x 5 m x 3.5 mm (7 kg/m²)", "pack": "Roll (6.10 m²)" }, { "variant": "Tecsound
+SY 70 (Self Adhesive)", "size_or_rating": "1.22 m x 5 m x 3.5 mm (7 kg/m²)",
+"pack": "Roll (6.10 m²)" }, { "variant": "Tecsound 2FT", "size_or_rating": "1.20
+m x 5.5 m x 12 mm", "pack": "Roll (6.60 m²)" }, { "variant": "Tecsound S Band",
+"size_or_rating": "50 mm / 70 mm x 20 m", "pack": "Roll" } ], "fire": "Euroclass
+B, s2, d0 to EN 13501-1; Self-extinguishing", "compliance": "ISO 9001,
+ISO 14001, EN 140-3, EN ISO 717-1, NCC compliant acoustic barrier component",
+"sustainability": "Asphalt-free, bitumen-free, non-toxic, recyclable synthetic
+polymers, low VOC", "install": [ "Ensure substrate (plasterboard, metal,
+concrete, or timber) is clean, dry, and dust-free", "For self-adhesive Tecsound
+SY, peel back release liner gradually while pressing membrane onto substrate",
+"For non-adhesive Tecsound, apply contact adhesive evenly to substrate and
+membrane", "Apply firm pressure using a roller across the entire membrane to
+eliminate trapped air", "Overlap adjacent membrane sheets by 50mm or butt join
+and seal joints with Tecsound S Band tape", "Fasten mechanically with washers or
+staples where installed overhead on ceilings", "Cover with subsequent layer of
+plasterboard or ceiling lining within manufacturer guidelines" ],
+"selection_checklist": [ "Confirm whether airborne sound (walls/ceilings) or
+impact/rain noise (floors/roofs) is being addressed", "Select mass requirement
+(Tecsound 50 at 5kg/m² vs Tecsound 70 at 7kg/m²)", "Choose self-adhesive (SY)
+for fast plasterboard/metal application or standard for adhesive bonding",
+"Calculate total square metres including 50mm overlaps", "Ensure ceiling or wall
+framing can bear the 5kg/m² to 7kg/m² added dead load" ], "accessories": [
+"Tecsound S Band (self-adhesive acoustic joint tape)", "Spray/roller contact
+adhesive", "Pressure roller" ], "limitations": [ "Must not be left permanently
+exposed to UV sunlight or weather", "Not suitable as a foot traffic wearing
+surface", "Ceiling applications require mechanical fastening in addition to
+adhesive bonding", "Heavy weight requires adequate structural support and
+multi-person handling during overhead installation" ], "warranty": "Backed by
+DCTech product warranty", "found": true, "search_keywords": [ "DCTech Tecsound",
+"Tecsound SY 70", "Tecsound 50", "Tecsound 70", "visco-elastic acoustic
+membrane", "mass loaded vinyl alternative", "soundproofing membrane", "aircraft
+noise barrier", "DCTech soundproofing", "acoustic damping sheet",
+"Tecsound 2FT", "plasterboard soundproofing membrane" ], "problem_keywords": [
+"aircraft noise through roof", "noisy party wall", "traffic noise through
+bedroom wall", "rain noise drumming on metal roof", "inter-tenancy noise
+transfer", "mechanical plant room noise breakout", "home theatre sound leakage"
+], "placement": [ "wall", "internal wall", "ceiling", "roof", "floor", "duct",
+"pipe" ], "priority_fit": [ "acoustic", "easy_install" ], "use_cases": [
+"Bonding to plasterboard in ceiling assemblies under flight paths to block
+aircraft noise", "Laminating between plasterboard sheets on stud partition walls
+to boost speech privacy", "Damping rain noise impact on residential and
+commercial standing seam metal roofs", "Wrapping noisy waste pipes and
+ventilation ducts to eliminate fluid flow noise" ], "not_for": [ "Direct exposed
+external roof or wall cladding", "Walkable floor surface without subfloor or
+overlay", "High-temperature flue insulation exceeding 70°C" ], "rag_summary":
+"DCTech Tecsound (Tecsound / Tecsound SY) is a high-density, visco-elastic
+synthetic soundproofing membrane distributed in Australia by DCTech. Formulated
+from asphalt-free polymers at 5.0 kg/m² (Tecsound 50, 2.5mm) and 7.0 kg/m²
+(Tecsound 70 / SY 70, 3.5mm), it provides an Rw of up to 30 dB as a single layer
+without adding significant wall or ceiling thickness. Available with a
+self-adhesive backing (SY) or composite felt (2FT), it dampens airborne noise,
+aircraft flyover rumble, and metal roof rain drumming across walls, ceilings,
+floors, and building services. Rated Euroclass B, s2, d0, non-toxic, and
+flexible down to -20°C, it is an advanced acoustic damping membrane for
+high-performance building envelopes." }, { "family_id":
+"ECOWOOL_ACOUSTIC_PARTITION_BATT", "tds_url":
+"https://pgfinsulation.com.au/products/acoustic-partition-batts/", "sds_url":
+"https://pgfinsulation.com.au/resource-centre/technical-documentation/",
+"description": "Ecowool Acoustic Partition Batts are high-performance glass
+mineral wool insulation batts manufactured by PGF Insulation using SensiTouch
+technology. Employing an innovative binder incorporating a natural
+anti-formaldehyde ingredient, they are low in VOCs, soft to handle, and
+non-combustible. Designed for friction-fit installation in timber or steel stud
+partition walls and ceiling systems in residential and commercial buildings,
+they significantly reduce airborne sound transmission while providing thermal
+resistance.", "features": [ "SensiTouch Technology with natural
+anti-formaldehyde binder", "High acoustic performance tested to ASTM C423",
+"Non-combustible when tested to AS 1530.1:1994", "Low VOC emissions tested in
+accordance with ASTM D 5116-06", "Manufactured from nearly 80% recycled glass",
+"Soft to touch and less itchy compared to conventional glass wool", "Firm
+friction fit between studs prevents sagging in cavity", "Free from CFCs, HCFCs,
+and ozone-depleting substances", "Bio-soluble fibres posing no long-term health
+risk", "Compliant with AS/NZS 4859.1:2018 and the Building Code of Australia
+(BCA)" ], "applications": [ "wall", "internal wall", "ceiling", "between floors"
+], "technical": [ { "property": "Densities", "value": "11 kg/m³, 14 kg/m³, 24
+kg/m³, 32 kg/m³", "standard": "" }, { "property": "Thermal R-values", "value":
+"R1.8 (75mm, 11kg/m³), R1.9 (75mm, 14kg/m³), R2.0 (75mm, 17kg/m³), R2.2
+(75mm, 32kg/m³), R2.5 (110mm, 11kg/m³)", "standard": "AS/NZS 4859.1:2018" }, {
+"property": "Thicknesses", "value": "75 mm, 90 mm, 110 mm", "standard": "" }, {
+"property": "Dimensions", "value": "1200 mm x 450 mm, 1200 mm x 600 mm",
+"standard": "" }, { "property": "Combustibility", "value": "Non-combustible",
+"standard": "AS 1530.1:1994" }, { "property": "Early Fire Hazard Indices",
+"value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke
+Developed: 0-1", "standard": "AS 1530.3:1999" }, { "property": "Surface Burning
+Characteristics", "value": "Pass / Limited Combustibility", "standard": "ASTM
+E84" }, { "property": "Thermal Conductivity", "value": "Tested at 23°C mean
+temperature", "standard": "ASTM C518" }, { "property": "Acoustic Performance",
+"value": "Tested Type A mounting", "standard": "ASTM C423" }, { "property": "VOC
+Emission", "value": "Low VOC content", "standard": "ASTM D 5116-06" } ],
+"range": [ { "variant": "Acoustic Partition Batt 11kg/m³ R1.8",
+"size_or_rating": "75 mm x 1200 mm x 450/600 mm", "pack": "Pack of 20 batts
+(14.4 m² / 10.8 m²)" }, { "variant": "Acoustic Partition Batt 14kg/m³ R1.9",
+"size_or_rating": "75 mm x 1200 mm x 450/600 mm", "pack": "Pack of 15 batts
+(10.8 m²)" }, { "variant": "Acoustic Partition Batt 24kg/m³ R2.0",
+"size_or_rating": "75 mm x 1200 mm x 450/600 mm", "pack": "Pack of batts" }, {
+"variant": "Acoustic Partition Batt 32kg/m³ R2.2", "size_or_rating": "75 mm
+x 1200 mm x 450/600 mm", "pack": "Pack of batts" }, { "variant": "Acoustic
+Partition Batt 11kg/m³ R2.5", "size_or_rating": "110 mm x 1200 mm x 450/600 mm",
+"pack": "Pack of batts" } ], "fire": "Non-combustible to AS 1530.1:1994;
+AS 1530.3:1999 indices: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke
+Developed 0-1; ASTM E84 compliant", "compliance": "AS/NZS 4859.1:2018, Building
+Code of Australia (BCA) / NCC compliant", "sustainability": "Manufactured from
+up to 80% recycled glass; SensiTouch anti-formaldehyde binder; Low VOC (ASTM
+D 5116); Free from CFCs and HCFCs; Zero ODP; Bio-soluble FBS-1", "install": [
+"Ensure framing studs and cavity spaces are clean, dry, and ready for
+insulation", "Select batt width matching stud spacing (450mm or 600mm)",
+"Friction fit batts snugly between timber or steel studs without gaps or
+excessive compression", "Ensure batts butt tightly against top and bottom plates
+and adjacent batts", "Cut batts neatly around electrical boxes, plumbing, and
+structural penetrations using a utility knife", "Do not compress batts beyond
+cavity depth to maintain acoustic and thermal ratings", "Complete lining with
+acoustic plasterboard or specified wall linings as per project design" ],
+"selection_checklist": [ "Confirm stud depth (e.g. 75mm, 90mm, or 110mm)",
+"Confirm stud spacing (450mm or 600mm centres)", "Check acoustic acoustic Rw/STC
+specification to select appropriate density (11kg, 14kg, 24kg, or 32kg/m³)",
+"Verify fire compliance requirements (AS 1530.1 non-combustible)" ],
+"accessories": [ "Acoustic sealant", "Resilient isolation clips", "Utility
+knife" ], "limitations": [ "Indoor use only; not for direct external weather
+exposure", "Avoid excessive compression which reduces acoustic absorption
+performance", "Do not install over unsealed damp or leaking surfaces" ],
+"warranty": "PGF Australia product warranty", "found": true, "search_keywords":
+[ "Ecowool Acoustic Partition Batt", "Ecowool partition batts", "PGF acoustic
+batts", "Ecowool acoustic insulation", "75mm acoustic batts", "14kg partition
+batts", "32kg partition batts", "SensiTouch acoustic batts", "Ecowool R1.8
+acoustic", "Ecowool R2.5 partition" ], "problem_keywords": [ "noise between
+office partitions", "hearing conversations through bedroom wall", "television
+noise between rooms", "meeting commercial acoustic partition code", "itchy
+fiberglass partition insulation", "commercial wall acoustic compliance" ],
+"placement": [ "wall", "internal wall", "ceiling", "between floors" ],
+"priority_fit": [ "acoustic", "thermal", "fire", "sustainability" ],
+"use_cases": [ "Acoustic and thermal dampening in commercial steel-stud office
+partitions", "Sound absorption in internal drywall partitions separating
+bedrooms and living areas", "Inter-tenancy acoustic infill in multi-residential
+apartment walls" ], "not_for": [ "External weatherboard wrap", "Direct floor
+traffic surfaces", "Underfloor joist insulation without support" ],
+"rag_summary": "Ecowool Acoustic Partition Batts are non-combustible glass
+mineral wool batts manufactured by PGF Insulation using SensiTouch low-VOC,
+anti-formaldehyde technology. Available in densities of 11, 14, 24, and 32 kg/m³
+and thicknesses from 75mm to 110mm (R1.8 to R2.5), they fit 450mm and 600mm stud
+spacings to dampen room-to-room airborne noise transfer. Engineered from up
+to 80% recycled glass, they are non-combustible to AS 1530.1 and provide a soft,
+low-itch installation for residential and commercial drywall partitions." }, {
+"family_id": "ECOWOOL_ACOUSTIC_PARTITION_ROLL", "tds_url": "", "sds_url": "",
+"description": "", "features": [], "applications": [], "technical": [], "range":
+[], "fire": "", "compliance": "", "sustainability": "", "install": [],
+"selection_checklist": [], "accessories": [], "limitations": [], "warranty": "",
+"found": false, "search_keywords": [ "Ecowool Acoustic Partition Roll", "Ecowool
+partition roll", "glasswool acoustic partition roll", "PGF acoustic roll",
+"Ecowool acoustic roll", "commercial partition roll" ], "problem_keywords": [
+"sound transfer through partition walls", "office privacy sound leakage",
+"acoustic roll for metal stud wall", "commercial wall noise reduction" ],
+"placement": [ "wall", "internal wall", "ceiling", "between floors" ],
+"priority_fit": [ "acoustic", "thermal", "easy_install" ], "use_cases": [
+"Continuous acoustic insulation unrolled in commercial steel stud partitions",
+"Acoustic sound absorption in multi-residential drywall cavity walls" ],
+"not_for": [ "External exposed cladding", "Subfloor soil contact", "Direct
+high-temperature flue wrapping" ], "rag_summary": "Ecowool Acoustic Partition
+Roll represents glass mineral wool acoustic insulation supplied in roll format
+for friction-fitting in steel and timber stud partition walls. In Australia, PGF
+Insulation / Ecowool supplies its acoustic partition range primarily in pre-cut
+batts (Acoustic Partition Batts and NoiseBreak), with rolls primarily designated
+for HVAC and reflective roof blankets. When specified, partition rolls provide
+continuous, joint-free acoustic and thermal insulation to control speech
+transmission in commercial and residential walls." }, { "family_id":
+"ECOWOOL_CONDENSHIELD_ROOF_BLANKET", "tds_url":
+"https://pgfinsulation.com.au/products/condenshield-blanket/", "sds_url":
+"https://pgfinsulation.com.au/resource-centre/technical-documentation/",
+"description": "Ecowool CondenShield is a lightweight, reflective foil-faced
+glass mineral wool insulation blanket designed for fire safety, thermal
+performance, condensation control, and acoustic absorption in metal and tile
+roof systems. Manufactured with SensiTouch technology using nearly 80% recycled
+glass and a natural anti-formaldehyde binder, it significantly slows heat
+transfer into and out of the building while damping outside rain noise. The
+reflective foil facing acts as a barrier against radiant heat and prevents
+condensation accumulation beneath roof cladding.", "features": [ "Lightweight
+glass mineral wool blanket with laminated reflective aluminium foil facing",
+"Controls condensation beneath residential and commercial metal or tile roofs",
+"Significant acoustic damping against exterior rain impact noise", "SensiTouch
+Technology with natural anti-formaldehyde binder", "Non-combustible glass
+mineral wool core tested to AS 1530.1:1994", "Flammability index of foil facing
+≤ 5 compliant with BCA/NCC", "Suitable for sealing ember entry points in
+bushfire zones up to BAL-40", "Manufactured from up to 80% recycled glass with
+bio-soluble fibres", "Chemically inert; non-corrosive to steel, copper, and
+aluminium", "Tested to AS/NZS 4859.1:2002 / 2018" ], "applications": [ "roof",
+"roofline", "ceiling", "shed", "underfloor" ], "technical": [ { "property":
+"Material", "value": "Bio-soluble glass mineral wool bonded with SensiTouch
+binder, laminated with reflective foil", "standard": "" }, { "property":
+"R-Values & Thicknesses", "value": "R1.3 (60mm, 10kg/m³), R1.8 (80mm, 11kg/m³),
+R2.5 (100mm, 14kg/m³), R3.7 (150mm, 14.5kg/m³)", "standard": "AS/NZS 4859.1" },
+{ "property": "Width", "value": "1200 mm", "standard": "" }, { "property": "Roll
+Lengths", "value": "60mm: 15 m (18 m²); 80mm: 15 m (18 m²); 100mm: 10 m (12
+m²); 150mm: 5 m (6 m²)", "standard": "" }, { "property": "Combustibility
+(Core)", "value": "Non-combustible", "standard": "AS 1530.1:1994" }, {
+"property": "Early Fire Hazard Indices", "value": "Ignitability: 0, Spread of
+Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1", "standard": "AS 1530.3:1999"
+}, { "property": "Surface Burning Characteristics", "value": "Passes limited
+combustibility", "standard": "ASTM E84" }, { "property": "Thermal Conductivity",
+"value": "Tested at 23°C mean temperature", "standard": "ASTM C518" }, {
+"property": "Facing Flammability Index", "value": "≤ 5", "standard": "AS 1530.2"
+}, { "property": "Maximum Service Temperature", "value": "350°C (unfaced core)",
+"standard": "" } ], "range": [ { "variant": "CondenShield Blanket R1.3",
+"size_or_rating": "60 mm x 1200 mm x 15000 mm (18 m²)", "pack": "Roll" }, {
+"variant": "CondenShield Blanket R1.8", "size_or_rating": "80 mm x 1200 mm
+x 15000 mm (18 m²)", "pack": "Roll" }, { "variant": "CondenShield Blanket R2.5",
+"size_or_rating": "100 mm x 1200 mm x 10000 mm (12 m²)", "pack": "Roll" }, {
+"variant": "CondenShield Blanket R3.7", "size_or_rating": "150 mm x 1200 mm
+x 5000 mm (6 m²)", "pack": "Roll" } ], "fire": "Core non-combustible to
+AS 1530.1:1994; AS 1530.3:1999 indices: Ignitability 0, Spread of Flame 0, Heat
+Evolved 0, Smoke Developed 0-1; Facing Flammability Index ≤ 5 (AS 1530.2);
+Suitable for sealing ember entry points up to BAL-40 under AS 3959",
+"compliance": "AS/NZS 4859.1, Building Code of Australia (BCA) / NCC, AS 3959",
+"sustainability": "Manufactured from nearly 80% recycled glass; SensiTouch
+formaldehyde-free binder; Low VOC; Zero ODP; Bio-soluble fibres", "install": [
+"Roll out CondenShield blanket over roof purlins, rafters, or safety wire mesh
+with foil facing downward towards the ceiling space", "Ensure adjacent blanket
+rolls are overlapped by minimum 50mm to 100mm", "Tape all foil joints securely
+with reinforced aluminium foil tape to maintain a continuous vapour barrier",
+"Allow nominal drape of approximately 40mm between purlins if required for
+condensation drainage", "Install metal roofing sheets directly over the blanket,
+fixing through to purlins", "Ensure blanket ends extend into the gutter line
+without blocking drainage channels" ], "selection_checklist": [ "Confirm roof
+type (metal deck or tile roof)", "Determine target R-value (R1.3, R1.8, R2.5, or
+R3.7) to meet NCC roof energy requirements", "Calculate total roof area
+including 50-100mm side overlaps", "Verify foil facing specification (standard
+reflective foil facing with Flammability Index ≤ 5)", "Confirm supply of
+matching reinforced foil tape for lap sealing" ], "accessories": [ "Reinforced
+aluminium foil tape", "Roofing safety wire mesh", "Fasteners / tek screws" ],
+"limitations": [ "Must not be left exposed to direct weathering prior to roof
+sheet installation", "Foil joints must be taped continuously to prevent
+condensation breaching the vapour barrier", "Do not install directly over non-IC
+rated recessed lighting without proper clearances" ], "warranty": "PGF Australia
+product warranty", "found": true, "search_keywords": [ "Ecowool CondenShield",
+"CondenShield roof blanket", "PGF roof blanket", "foil faced roof blanket",
+"metal roof insulation blanket", "R1.3 roof blanket", "R1.8 roof blanket", "R2.5
+roof blanket", "condensation blanket metal roof", "tin roof insulation blanket"
+], "problem_keywords": [ "condensation under metal roof", "dripping tin roof in
+winter", "rain noise on corrugated iron roof", "hot roof space in summer",
+"radiant heat radiating down from roof", "meeting NCC roof thermal insulation
+requirements" ], "placement": [ "roof", "roofline", "ceiling", "shed" ],
+"priority_fit": [ "condensation", "thermal", "acoustic", "fire" ], "use_cases":
+[ "Under-metal-deck roof insulation in residential homes to prevent condensation
+dripping and attenuate rain drumming", "Commercial warehouse and industrial shed
+roof thermal and condensation insulation", "Under concrete slab and soffit
+thermal barrier applications" ], "not_for": [ "Drywall cavity wall batts",
+"Exposed wall lining without cladding", "Flooring underlay subject to foot
+traffic" ], "rag_summary": "Ecowool CondenShield is a lightweight, reflective
+foil-faced glass mineral wool roofing blanket manufactured by PGF Insulation.
+Available in thermal ratings from R1.3 to R3.7 (60mm to 150mm thick) in 1200mm
+wide rolls, it is installed under residential and commercial metal or tile roofs
+to manage condensation, block radiant heat, and dampen rain impact drumming
+noise. Built with SensiTouch low-VOC bio-soluble glasswool and nearly 80%
+recycled glass, its non-combustible core (AS 1530.1) and low-flammability foil
+facing (Index ≤ 5) make it suitable for bushfire zones up to BAL-40." }, {
+"family_id": "ECOWOOL_ECOSEAL_TAPE", "tds_url":
+"https://pgfinsulation.com.au/accessories/", "sds_url":
+"https://pgfinsulation.com.au/resource-centre/technical-documentation/",
+"description": "EcoSeal 201 Cloth Tape is a heavy-duty, high-tack
+polyethylene-coated cloth tape specially designed for bonding, sealing, and
+mending overlapped edges of ClimaWrap, vapour barriers, and building membranes.
+Formulated with a high-tack pressure-sensitive acrylic/synthetic adhesive, it
+provides outstanding adhesion, shear strength, and weather resistance across
+Australian climatic conditions. It seals overlaps, joins, and penetrations to
+maintain airtight and watertight building envelope integrity.", "features": [
+"Specially designed for bonding, sealing, and mending building membranes and
+ClimaWrap", "High-tack adhesive provides outstanding adhesion and cohesion",
+"Polyethylene-coated cloth backing resists tears, punctures, and abrasion",
+"Forms a durable, moisture-resistant and airtight seal", "Conforms easily to
+irregular surfaces, corners, and penetrations", "Hand tearable for fast,
+convenient installation on site", "Reliable bonding across wide temperature
+variations in Australia", "48mm width provides ample lap coverage" ],
+"applications": [ "wall", "external wall", "roof", "roofline" ], "technical": [
+{ "property": "Material", "value": "Polyethylene-coated cloth backing with
+high-tack adhesive", "standard": "" }, { "property": "Roll Dimensions", "value":
+"48 mm width x 50 m length (2.4 m²)", "standard": "" }, { "property": "Adhesive
+Type", "value": "High-tack pressure-sensitive adhesive", "standard": "" }, {
+"property": "Hand Tearable", "value": "Yes", "standard": "" }, { "property":
+"Application", "value": "Bonding, sealing, and mending overlapped edges of
+building wraps", "standard": "" } ], "range": [ { "variant": "EcoSeal 201 Cloth
+Tape 48mm x 50m", "size_or_rating": "48 mm x 50 m", "pack": "Roll" } ], "fire":
+"Complies with early fire hazard requirements when used in conjunction with
+compliant building membranes", "compliance": "AS/NZS 4200.2 compliant membrane
+sealing tape", "sustainability": "Low VOC, durable long-life adhesive system",
+"install": [ "Ensure building wrap surfaces are clean, dry, and free of dust,
+grease, and moisture", "Align membrane lap with recommended overlap
+(minimum 150mm or 50mm if taped per AS 4200.2)", "Centre EcoSeal 201 Cloth Tape
+evenly over the joint seam", "Press tape firmly along the entire length using
+hand pressure or a squeegee to ensure 100% surface contact", "Smooth out any air
+bubbles or wrinkles", "Tape around window flashings, penetrations, and frame
+junctions to ensure airtightness" ], "selection_checklist": [ "Confirm tape is
+being paired with ClimaWrap, vapour barriers, or building membranes", "Measure
+total linear metres of horizontal and vertical membrane overlaps and
+penetrations", "Ensure surface temperature during installation allows proper
+adhesive bonding" ], "accessories": [ "Ecowool ClimaWrap CW / BMX800",
+"Application squeegee" ], "limitations": [ "Surfaces must be dry and clean
+before application", "Pressure-sensitive adhesive requires firm pressure to
+achieve full bonding", "Not designed for structural mechanical fastening" ],
+"warranty": "PGF Australia product warranty", "found": true, "search_keywords":
+[ "Ecowool EcoSeal Tape", "EcoSeal 201 Cloth Tape", "EcoSeal tape", "ClimaWrap
+tape", "building membrane cloth tape", "48mm cloth tape insulation", "PGF
+EcoSeal tape", "wall wrap sealing tape", "vapour barrier tape" ],
+"problem_keywords": [ "air leakage through wall wrap laps", "tears in building
+wrap on site", "water leaks around wall wrap penetrations", "sealing breathable
+membrane joins", "loose building wrap edges in wind" ], "placement": [ "wall",
+"external wall", "roof", "roofline" ], "priority_fit": [ "easy_install",
+"condensation" ], "use_cases": [ "Sealing horizontal and vertical laps on
+Ecowool ClimaWrap building membranes", "Mending accidental tears and punctures
+in wall wraps during construction", "Sealing membrane interfaces around window
+and door frames" ], "not_for": [ "High-temperature flue pipes exceeding 80°C",
+"Direct structural mechanical load holding", "Subterranean wet tanking seams" ],
+"rag_summary": "Ecowool EcoSeal Tape (EcoSeal 201 Cloth Tape) is a
+heavy-duty 48mm x 50m polyethylene-coated cloth tape distributed by PGF
+Insulation. Engineered with an aggressive, high-tack pressure-sensitive
+adhesive, it bonds, seals, and mends overlapped edges of ClimaWrap wall wraps,
+vapour barriers, and pliable building membranes. Hand-tearable for fast on-site
+application, it provides a weather-tight, moisture-resistant barrier that
+prevents air leakage and wind-driven rain penetration across the building
+envelope." }, { "family_id": "ECOWOOL_NOISEBREAK_BATT", "tds_url":
+"https://pgfinsulation.com.au/products/noisebreak/", "sds_url":
+"https://pgfinsulation.com.au/resource-centre/technical-documentation/",
+"description": "Ecowool NoiseBreak is a high-density glass mineral wool acoustic
+insulation batt specially engineered to reduce sound transfer in walls and
+ceilings for residential and commercial buildings. Manufactured with SensiTouch
+technology utilizing an innovative binder with natural anti-formaldehyde
+ingredients, it provides a softer feel and lower dust during installation.
+Delivering superior acoustic absorption (Rw/STC performance) and thermal
+resistance (R1.7 to R3.1), NoiseBreak is non-combustible, bio-soluble, and
+certified to AS/NZS 4859.1:2018.", "features": [ "High-density acoustic glass
+mineral wool batt", "Engineered specifically for internal walls, external walls,
+and mid-floor ceilings", "SensiTouch Technology with natural anti-formaldehyde
+binder", "Soft to touch and significantly less itchy than conventional glass
+wool", "Firm friction-fit rigidity ensures batts will not sag or slump in the
+cavity", "Non-combustible fire performance tested to AS 1530.1:1994",
+"Manufactured using bio-soluble fibres posing no long-term health risks", "High
+sound absorption improving room-to-room Rw / STC acoustic ratings", "Made from
+up to 80% recycled glass content", "Certified compliant with AS/NZS 4859.1:2018"
+], "applications": [ "wall", "internal wall", "external wall", "ceiling",
+"between floors" ], "technical": [ { "property": "Densities", "value": "24 kg/m³
+(R1.7, R2.0, R2.5, R3.1), 32 kg/m³ (R2.7)", "standard": "" }, { "property":
+"R-Values & Thicknesses", "value": "R1.7 (60mm, 24kg), R2.0 (70mm, 24kg), R2.5
+(90mm, 24kg), R2.7 (90mm, 32kg), R3.1 (110mm, 24kg)", "standard":
+"AS/NZS 4859.1:2018" }, { "property": "Dimensions", "value": "1160 mm length
+x 430 mm or 580 mm width", "standard": "" }, { "property": "Combustibility",
+"value": "Non-combustible", "standard": "AS 1530.1:1994" }, { "property": "Early
+Fire Hazard Indices", "value": "Ignitability: 0, Spread of Flame: 0, Heat
+Evolved: 0, Smoke Developed: 0-1", "standard": "AS 1530.3:1999" }, { "property":
+"Thermal Conductivity", "value": "Tested at 23°C mean temperature", "standard":
+"ASTM C518" }, { "property": "Acoustic Performance", "value": "High sound
+absorption across human speech frequencies (Rw/STC system ratings)", "standard":
+"AS/NZS ISO 717.1" }, { "property": "VOC Emissions", "value": "Low VOC
+emissions", "standard": "ASTM D 5116-06" } ], "range": [ { "variant":
+"NoiseBreak R1.7 (60mm)", "size_or_rating": "60 mm x 1160 mm x 430/580 mm (24
+kg/m³)", "pack": "Pack of batts" }, { "variant": "NoiseBreak R2.0 (70mm)",
+"size_or_rating": "70 mm x 1160 mm x 430/580 mm (24 kg/m³)", "pack": "Pack of
+batts" }, { "variant": "NoiseBreak R2.5 (90mm)", "size_or_rating": "90 mm x 1160
+mm x 430/580 mm (24 kg/m³)", "pack": "Pack of batts" }, { "variant": "NoiseBreak
+R2.7 (90mm)", "size_or_rating": "90 mm x 1160 mm x 430/580 mm (32 kg/m³)",
+"pack": "Pack of batts" }, { "variant": "NoiseBreak R3.1 (110mm)",
+"size_or_rating": "110 mm x 1160 mm x 430/580 mm (24 kg/m³)", "pack": "Pack of
+batts" } ], "fire": "Non-combustible to AS 1530.1:1994; AS 1530.3:1999 indices:
+Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-1",
+"compliance": "AS/NZS 4859.1:2018, Building Code of Australia (BCA) / NCC
+compliant", "sustainability": "Contains up to 80% recycled glass; SensiTouch
+binder incorporating natural anti-formaldehyde ingredient; Low VOC; Bio-soluble
+FBS-1 formulation; Zero ODP" ,"install": [ "Turn off electrical power at the
+main switchboard before working near electrical cables", "Select batt width
+(430mm or 580mm) to match framing centres (450mm or 600mm)", "Friction-fit batts
+firmly between wall studs or ceiling joists without gaps", "Ensure batts fill
+the cavity depth without being compressed or bulging plasterboard", "Cut batts
+neatly around power outlets, pipes, and wiring using a sharp knife", "Pair with
+acoustic plasterboard and resilient isolation clips for maximum acoustic Rw
+rating", "Enclose behind wall or ceiling linings promptly after installation" ],
+"selection_checklist": [ "Confirm stud cavity depth (e.g. 70mm for R2.0, 90mm
+for R2.5/R2.7, 110mm for R3.1)", "Confirm framing spacing (450mm centres
+require 430mm batts; 600mm centres require 580mm batts)", "Select density /
+rating based on acoustic specification (R2.7 at 32kg/m³ for high-spec media
+rooms/bedrooms)", "Verify AS 1530.1 non-combustibility requirement for
+multi-residential walls" ], "accessories": [ "Acoustic plasterboard", "Resilient
+isolation clips", "Acoustic sealant", "Insulation knife" ], "limitations": [
+"Indoor cavity use only; do not expose to direct outdoor weather", "Do not
+compress into cavities shallower than nominal thickness", "Maintain required
+clearances around non-IC rated light fittings and flues" ], "warranty": "PGF
+Australia product warranty", "found": true, "search_keywords": [ "Ecowool
+NoiseBreak", "NoiseBreak batts", "NoiseBreak acoustic insulation", "high density
+acoustic batts", "PGF NoiseBreak", "R2.5 NoiseBreak", "R2.7 NoiseBreak", "R2.0
+NoiseBreak", "32kg acoustic batts", "internal wall sound batts" ],
+"problem_keywords": [ "noise between bedrooms", "home theatre sound
+transmission", "toilet flushing noise through internal wall", "hearing music
+between rooms", "footstep noise between floors", "inter-tenancy noise in duplex"
+], "placement": [ "wall", "internal wall", "external wall", "ceiling", "between
+floors" ], "priority_fit": [ "acoustic", "thermal", "fire", "sustainability" ],
+"use_cases": [ "Internal wall acoustic insulation between bedrooms, bathrooms,
+and home theatre rooms", "Acoustic cavity infill between storeys in multi-level
+homes to reduce floor-to-floor noise", "Acoustic and thermal dampening in
+external walls facing busy street traffic" ], "not_for": [ "Direct underfloor
+applications exposed to wind", "Unshielded exterior cladding", "Exposed
+decorative acoustic ceiling panels" ], "rag_summary": "Ecowool NoiseBreak is a
+high-density glass mineral wool acoustic batt manufactured by PGF Insulation for
+residential and commercial walls and ceilings. Available in densities of 24
+kg/m³ and 32 kg/m³ across ratings from R1.7 to R3.1 (60mm to 110mm thick), it
+dampens airborne speech, television, and plumbing noise between rooms. Built
+with SensiTouch low-VOC, anti-formaldehyde technology from nearly 80% recycled
+glass, it is non-combustible to AS 1530.1 and provides rigid friction-fit
+installation without slumping." }, { "family_id": "ECOWOOL_RESIDENTIAL_BATT",
+"tds_url": "https://pgfinsulation.com.au/products/ceiling-batts/", "sds_url":
+"https://pgfinsulation.com.au/resource-centre/technical-documentation/",
+"description": "Ecowool Residential Batts (Ceiling Batts and Wall Batts) are
+new-generation glass mineral wool thermal and acoustic insulation batts
+engineered for Australian residential homes. Manufactured with SensiTouch
+technology using a natural anti-formaldehyde binder and nearly 80% recycled
+glass, they form an effective barrier to heat flow while remaining soft to touch
+and low in dust. Available in thermal ratings from R2.0 up to R7.0 for ceilings
+and R2.0 to R2.5 for walls, they are non-combustible, bio-soluble, and certified
+to AS/NZS 4859.1:2018.", "features": [ "Premium thermal and acoustic insulation
+for residential walls and ceilings", "SensiTouch Technology with natural
+anti-formaldehyde binder", "Soft to touch, less itchy, and low dust
+formulation", "Made from nearly 80% recycled glass content", "Non-combustible
+when tested to AS 1530.1:1994", "Third-party certified compliant with
+AS/NZS 4859.1:2018", "Free from CFCs, HCFCs, and ozone-depleting substances",
+"Excellent fibre resiliency ensures batts recover nominal thickness upon
+unrolling", "Safe to handle with bio-soluble FBS-1 formulation", "Reduces
+household heating and cooling energy consumption" ], "applications": [
+"ceiling", "wall", "external wall", "internal wall" ], "technical": [ {
+"property": "Ceiling R-Values", "value": "R2.5, R3.0, R3.5, R4.0, R5.0, R6.0,
+R7.0", "standard": "AS/NZS 4859.1:2018" }, { "property": "Wall R-Values",
+"value": "R2.0, R2.5", "standard": "AS/NZS 4859.1:2018" }, { "property":
+"Thicknesses (Ceiling)", "value": "R2.5 (125mm), R3.0 (145mm), R3.5 (175mm),
+R4.0 (195mm), R5.0 (215mm), R6.0 (250mm), R7.0 (285mm)", "standard": "" }, {
+"property": "Thicknesses (Wall)", "value": "R2.0 (90mm), R2.5 (90mm)",
+"standard": "" }, { "property": "Dimensions", "value": "1160 mm length x 430 mm
+or 580 mm width", "standard": "" }, { "property": "Combustibility", "value":
+"Non-combustible", "standard": "AS 1530.1:1994" }, { "property": "Early Fire
+Hazard Indices", "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0,
+Smoke Developed: 0-1", "standard": "AS 1530.3:1999" }, { "property": "Thermal
+Conductivity", "value": "Tested at 23°C mean temperature", "standard": "ASTM
+C518" }, { "property": "Maximum Service Temperature", "value": "350°C",
+"standard": "" } ], "range": [ { "variant": "Ecowool Wall Batts R2.0",
+"size_or_rating": "90 mm x 1160 mm x 430/580 mm", "pack": "Pack of batts" }, {
+"variant": "Ecowool Wall Batts R2.5", "size_or_rating": "90 mm x 1160 mm
+x 430/580 mm", "pack": "Pack of batts" }, { "variant": "Ecowool Ceiling Batts
+R3.0", "size_or_rating": "145 mm x 1160 mm x 430/580 mm", "pack": "Pack of
+batts" }, { "variant": "Ecowool Ceiling Batts R3.5", "size_or_rating": "175 mm
+x 1160 mm x 430/580 mm", "pack": "Pack of batts" }, { "variant": "Ecowool
+Ceiling Batts R4.0", "size_or_rating": "195 mm x 1160 mm x 430/580 mm", "pack":
+"Pack of batts" }, { "variant": "Ecowool Ceiling Batts R5.0", "size_or_rating":
+"215 mm x 1160 mm x 430/580 mm", "pack": "Pack of batts" }, { "variant":
+"Ecowool Ceiling Batts R7.0", "size_or_rating": "285 mm x 1160 mm x 430/580 mm",
+"pack": "Pack of batts" } ], "fire": "Non-combustible to AS 1530.1:1994;
+AS 1530.3:1999 indices: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke
+Developed 0-1; ASTM E84 compliant", "compliance": "AS/NZS 4859.1:2018, Building
+Code of Australia (BCA) / NCC compliant", "sustainability": "Manufactured from
+nearly 80% recycled glass; SensiTouch anti-formaldehyde binder; Low VOC; Zero
+ODP; Bio-soluble FBS-1", "install": [ "Isolate electrical power at main
+switchboard before commencing installation", "In ceilings, lay batts flat
+between ceiling joists ensuring complete coverage over plasterboard", "In walls,
+friction-fit batts between timber or steel studs snugly without gaps or folds",
+"Maintain minimum 200mm clearance around non-IC rated recessed downlights and
+heat sources", "IC or IC-F rated downlights may be insulated over provided
+service temperature does not exceed 350°C", "At roof eaves, maintain
+minimum 20mm clearance between insulation and roof cladding/sarking" ],
+"selection_checklist": [ "Determine whether ceiling or external wall
+application", "Select required R-value to achieve 7-star NatHERS compliance for
+climate zone", "Measure framing spacing (430mm width for 450mm centres; 580mm
+width for 600mm centres)", "Check wall stud depth (90mm standard)", "Check
+downlight ratings (IC / IC-F rated vs non-IC)" ], "accessories": [ "Perimeter
+eave baffles", "Bradfix strapping", "Utility knife" ], "limitations": [ "Do not
+compress batts into cavities narrower than nominal thickness", "Keep dry during
+transport, storage, and installation", "Must not be left exposed to continuous
+outdoor weather" ], "warranty": "PGF Australia product warranty", "found": true,
+"search_keywords": [ "Ecowool Residential Batt", "Ecowool ceiling batts",
+"Ecowool wall batts", "PGF ceiling batts", "Ecowool R4.0", "Ecowool R5.0",
+"Ecowool R2.5 wall", "SensiTouch ceiling batts", "non-itchy ceiling insulation",
+"Ecowool R7.0" ], "problem_keywords": [ "hot rooms upstairs in summer", "high
+winter heating costs", "uninsulated ceiling heat escape", "itchy fiberglass
+batts replacement", "meeting 7-star NatHERS energy compliance", "cold drafts
+through external walls" ], "placement": [ "ceiling", "wall", "external wall",
+"internal wall" ], "priority_fit": [ "thermal", "sustainability", "fire",
+"easy_install" ], "use_cases": [ "Insulating pitched roof ceiling spaces in
+residential homes to achieve 7-star NatHERS energy ratings", "Thermal insulation
+in external timber and steel framed walls behind brick veneer or lightweight
+cladding", "Retrofitting existing uninsulated residential attic spaces to reduce
+energy bills" ], "not_for": [ "Underfloor suspended timber floors exposed to
+drafts", "Commercial HVAC duct lining", "Exposed wall surfaces without
+plasterboard" ], "rag_summary": "Ecowool Residential Batts (Ceiling Batts and
+Wall Batts) are non-combustible glass mineral wool thermal insulation batts
+manufactured by PGF Insulation. Engineered with SensiTouch low-dust,
+anti-formaldehyde binder technology from nearly 80% recycled glass, they provide
+ceiling ratings from R2.5 to R7.0 (up to 285mm thick) and wall ratings of R2.0
+and R2.5. Tested non-combustible to AS 1530.1 and certified to
+AS/NZS 4859.1:2018, they form a soft-to-touch, durable thermal barrier that
+keeps homes comfortable year-round." }, { "family_id": "ECOWOOL_WRAP",
+"tds_url": "https://pgfinsulation.com.au/products/climawrap-cw/", "sds_url":
+"https://pgfinsulation.com.au/resource-centre/technical-documentation/",
+"description": "Ecowool ClimaWrap (ClimaWrap CW / ClimaWrap BMX800) is a
+durable, triple-layer Class 4 vapour-permeable building wrap engineered to
+provide weather defense and moisture control in external walls. Constructed with
+two spunbonded non-woven outer layers protecting a microporous vapour-permeable
+inner membrane core, it acts as a water and air barrier while allowing internal
+water vapour to escape. Compliant with AS/NZS 4200.1:2017 and the National
+Construction Code across climate zones 2 to 8, it reduces condensation risks
+behind brick veneer, fibre cement, timber, and metal claddings.", "features": [
+"Triple-layer spunbond non-woven construction for high tensile and tear
+strength", "Class 4 Vapour Permeable membrane specially designed to minimise
+condensation risk", "Functions as a water barrier protecting the building frame
+from external weather penetration", "Effective air barrier reducing air leakage
+and enhancing thermal efficiency", "Flammability Index Low (<5) tested to
+AS 1530.2-1993", "Suitable for a wide range of climatic conditions across
+Australia (Zones 2 to 8)", "Puncture and tear resistant during construction on
+site", "Protects on both faces by non-woven structures against corrosive
+environments", "Available in convenient 1350mm and 1500mm widths" ],
+"applications": [ "wall", "external wall" ], "technical": [ { "property":
+"Material", "value": "Triple-layer spunbond non-woven polymer fabric with
+vapour-permeable membrane core", "standard": "" }, { "property": "Duty
+Classification", "value": "Light Duty", "standard": "AS/NZS 4200.1:2017" }, {
+"property": "Vapour Permeability", "value": "Class 4 Vapour Permeable (Vapour
+Permeance: 3.967 µg/N·s, Resistance: 0.3 MN·s/g)", "standard": "ASTM E96-2016 /
+AS/NZS 4200.1" }, { "property": "Water Control Classification", "value": "Water
+Barrier", "standard": "AS/NZS 4201.4" }, { "property": "Air Control
+Classification", "value": "Air Barrier", "standard": "AS/NZS 4200.1" }, {
+"property": "Nominal Mass per Unit Area", "value": "145 g/m²", "standard": "" },
+{ "property": "Nominal Thickness", "value": "0.42 mm", "standard": "" }, {
+"property": "Roll Dimensions (1500mm)", "value": "1500 mm width x 30 m length
+(45 m² per roll)", "standard": "" }, { "property": "Roll Dimensions
+(1370mm/1350mm)", "value": "1370 mm / 1350 mm width x 30 m length (41.1 m² per
+roll)", "standard": "" }, { "property": "Flammability Index", "value": "Low
+(< 5)", "standard": "AS 1530.2-1993" } ], "range": [ { "variant": "ClimaWrap
+BMX800 / CW (1500mm)", "size_or_rating": "1500 mm x 30 m (45 m²)", "pack":
+"Roll" }, { "variant": "ClimaWrap BMX800 / CW (1370mm)", "size_or_rating": "1370
+mm x 30 m (41.1 m²)", "pack": "Roll" } ], "fire": "Flammability Index Low (< 5)
+tested in accordance with AS 1530.2-1993; Suitable for external walls in
+bushfire-prone areas up to BAL-40 under AS 3959", "compliance":
+"AS/NZS 4200.1:2017, AS/NZS 4200.2, AS 1530.2-1993, NCC 2019 / NCC 2022 Volume 1
+and 2 condensation management", "sustainability": "Zero ODP, non-hazardous, 100%
+recyclable polyolefin polymer fabrics, low VOC", "install": [ "Install
+horizontally on external timber or steel studs starting from the bottom plate",
+"Fasten mechanically to framing members at maximum 300mm centres using
+broad-head nails or staples", "Ensure upper layers overlap lower layers by at
+least 150mm to shed water outward", "Vertical joints must overlap by at
+least 150mm over a stud", "Seal all overlaps and penetrations with EcoSeal 201
+Cloth Tape for airtight weather resistance", "Provide adequate drainage cavity
+between ClimaWrap and exterior cladding (especially non-absorbent claddings like
+steel)", "Seal neatly around window and door openings prior to installing
+joinery" ], "selection_checklist": [ "Confirm wall construction requires a
+Class 4 breathable vapour-permeable membrane", "Select roll width (1350mm/1370mm
+or 1500mm)", "Calculate roll quantities based on wall area allowing 150mm
+overlaps", "Check climate zone suitability (certified for climate zones 2
+to 8)", "Order complementary EcoSeal 201 Cloth Tape for joint sealing" ],
+"accessories": [ "EcoSeal 201 Cloth Tape", "Fasteners / staples", "Squeegee" ],
+"limitations": [ "Not suitable for roofing applications", "Claddings must
+provide a drained cavity; provision must be given for drainage of trapped
+moisture behind steel cladding", "Must not be left exposed to direct sunlight
+beyond recommended UV exposure limits" ], "warranty": "PGF Australia product
+warranty", "found": true, "search_keywords": [ "Ecowool Wrap", "ClimaWrap CW",
+"ClimaWrap BMX800", "Ecowool breathable wrap", "Class 4 vapour permeable wrap",
+"triple layer wall wrap", "PGF ClimaWrap", "Ecowool wall wrap", "weather barrier
+wrap" ], "problem_keywords": [ "mould in exterior wall cavity", "trapped
+condensation behind cladding", "water leaks through brick veneer", "drafty
+framed external walls", "meeting NCC 2022 condensation management code", "rot in
+timber wall studs" ], "placement": [ "wall", "external wall" ], "priority_fit":
+[ "condensation", "fire", "easy_install" ], "use_cases": [ "Vapour-permeable
+weather barrier behind residential and commercial brick veneer walls", "Moisture
+protection behind fibre-cement and timber cladding in climate zones 2 to 8",
+"Air and water barrier house wrap on timber and light-gauge steel framing" ],
+"not_for": [ "Roof sarking applications", "Underfloor moisture barrier", "Direct
+exposure without outer cladding" ], "rag_summary": "Ecowool Wrap (ClimaWrap CW /
+BMX800) is a triple-layer, Class 4 vapour-permeable building wrap manufactured
+by PGF Insulation. Engineered with two non-woven spunbond outer layers
+protecting an inner microporous breathable membrane, it stops liquid water and
+draft infiltration while allowing water vapour to diffuse outward (3.967 µg/N·s
+permeance). Tested to AS/NZS 4200.1:2017 with a low Flammability Index (<5,
+BAL-40 compliant), it prevents condensation and timber rot behind residential
+and commercial wall claddings across climate zones 2 through 8." }, {
+"family_id": "FLETCHER_SOUNDBREAK", "tds_url":
+"https://insulation.com.au/product/soundbreak/", "sds_url":
+"https://insulation.com.au/wp-content/uploads/2023/12/SUIS-FBS-1-Glasswool-Bio-soluble-Insulation.pdf",
+"description": "Fletcher Soundbreak is a high-density, non-combustible glasswool
+acoustic insulation batt specifically engineered to provide exceptional acoustic
+performance in residential wall, ceiling, and mid-floor applications. Produced
+in a distinctive green colour for easy site identification as a high-density
+acoustic batt, it effectively reduces external environmental noise and absorbs
+airborne sound transfer between rooms. Manufactured in Australia using FBS-1
+bio-soluble glasswool with up to 80% recycled content, it provides combined
+acoustic dampening and thermal insulation backed by a Consumer Lifetime
+Warranty.", "features": [ "High-density acoustic glasswool batt delivering
+exceptional sound dampening", "Distinctive green colour for easy on-site
+identification", "Non-combustible when tested in accordance with AS 1530.1",
+"FBS-1 Glasswool Bio-Soluble Insulation: safe to handle and use", "Manufactured
+from up to 80% recycled glass content", "Provides excellent thermal insulation
+properties keeping homes cooler in summer and warmer in winter", "Easy to handle
+and firm to fit ensuring batts remain securely in place without slumping",
+"CodeMark certified (Certificate of Conformity CM 30006) for NCC compliance",
+"Meets Australian Standard AS/NZS 4859.1:2018", "Backed by Fletcher Insulation
+Consumer Lifetime Warranty" ], "applications": [ "wall", "internal wall",
+"external wall", "ceiling", "between floors" ], "technical": [ { "property":
+"R-Values & Thicknesses", "value": "R1.7 (60mm), R2.0 (70mm), R2.5 (90mm), R2.7
+(90mm), R3.1 (110mm)", "standard": "AS/NZS 4859.1:2018" }, { "property":
+"Standard Dimensions", "value": "1160 mm length x 430 mm or 580 mm width
+(also 1200 x 600 mm for R2.7)", "standard": "" }, { "property": "Coverage per
+Pack", "value": "R1.7: 6.9 m² (430mm) / 9.1 m² (580mm); R2.0: 5.6 m² / 7.6 m²;
+R2.5: 4.5 m² / 6.1 m²; R2.7: 4.5 m² / 6.1 m²; R3.1: 3.4 m² / 4.5 m²",
+"standard": "" }, { "property": "Combustibility", "value": "Non-combustible",
+"standard": "AS 1530.1" }, { "property": "Early Fire Hazard Indices", "value":
+"Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+"standard": "AS/NZS 1530.3" }, { "property": "Maximum Service Temperature",
+"value": "340°C", "standard": "" }, { "property": "Corrosion Resistance",
+"value": "Non-corrosive", "standard": "AS/NZS 4859.1" }, { "property": "Acoustic
+Performance", "value": "Tested acoustic absorption coefficients across standard
+octave bands (NRC tested)", "standard": "AS ISO 354" } ], "range": [ {
+"variant": "Soundbreak R1.7 (60mm)", "size_or_rating": "60 mm x 1160 mm
+x 430/580 mm", "pack": "Pack of 12 batts (Code: 4010564 / 4010565)" }, {
+"variant": "Soundbreak R2.0 (70mm)", "size_or_rating": "70 mm x 1160 mm
+x 430/580 mm", "pack": "Pack of 10 batts (Code: 4010566 / 4010567)" }, {
+"variant": "Soundbreak R2.5 (90mm)", "size_or_rating": "90 mm x 1160 mm
+x 430/580 mm", "pack": "Pack of 8 batts (Code: 4010568 / 4010569)" }, {
+"variant": "Soundbreak R2.7 (90mm)", "size_or_rating": "90 mm x 1160 mm
+x 430/580 mm", "pack": "Pack of 8 batts (Code: 4010570 / 4010571 / 4010572)" },
+{ "variant": "Soundbreak R3.1 (110mm)", "size_or_rating": "110 mm x 1160 mm
+x 430/580 mm", "pack": "Pack of 6 batts (Code: 4010573 / 4010574)" } ], "fire":
+"Non-combustible to AS 1530.1; AS/NZS 1530.3 indices: Ignitability 0, Spread of
+Flame 0, Heat Evolved 0, Smoke Developed 0-1; Meets NCC fire hazard
+requirements", "compliance": "AS/NZS 4859.1:2018, AS 3999, CodeMark Certificate
+CM 30006, NCC 2022 Volume 1 and Volume 2", "sustainability": "Manufactured from
+up to 80% recycled glass; bio-soluble FBS-1 formulation; zero ODP; low VOC",
+"install": [ "Switch off electrical power at the main breaker before working in
+wall or ceiling cavities", "Choose batt width (430mm or 580mm) to match
+stud/joist centres (450mm or 600mm)", "Friction fit batts snugly between timber
+or steel framing members ensuring no gaps or folds", "Do not compress batts into
+cavities narrower than nominal thickness", "Cut batts neatly around electrical
+boxes, wiring, and plumbing using a sharp insulation knife", "For internal walls
+between bedrooms, bathrooms, and media rooms, combine with acoustic plasterboard
+for best results", "Complete lining over insulation promptly after installation"
+], "selection_checklist": [ "Measure wall stud depth (70mm, 90mm, or 110mm) to
+select appropriate thickness", "Confirm stud spacing (430mm for 450mm
+centres; 580mm for 600mm centres)", "Select required R-value / acoustic rating
+(R2.0 for 70mm, R2.5/R2.7 for 90mm, R3.1 for 110mm)", "Check CodeMark
+certification compliance requirements" ], "accessories": [ "Acoustic
+plasterboard", "Resilient mounts", "Insulation knife" ], "limitations": [ "Not
+for unshielded external exposure", "Avoid excessive compression that reduces
+acoustic and thermal ratings", "Maintain required electrical clearances around
+non-IC rated fixtures" ], "warranty": "Consumer Lifetime Warranty", "found":
+true, "search_keywords": [ "Fletcher Soundbreak", "Soundbreak acoustic
+insulation", "Fletcher green batts", "high density sound batts", "Soundbreak
+R2.0", "Soundbreak R2.5", "Soundbreak R2.7", "Soundbreak R3.1", "pink batts
+soundbreak", "acoustic wall batts Fletcher" ], "problem_keywords": [ "noisy home
+theatre room", "hearing conversations between bedrooms", "bathroom plumbing
+noise through walls", "traffic noise through external walls", "footstep noise
+between two storey floors", "internal wall noise dampening" ], "placement": [
+"wall", "internal wall", "external wall", "ceiling", "between floors" ],
+"priority_fit": [ "acoustic", "thermal", "fire", "sustainability" ],
+"use_cases": [ "Internal wall acoustic insulation between bedrooms, home
+offices, and living rooms", "Acoustic isolation around media rooms, home
+theatres, and laundry areas", "Mid-floor acoustic insulation between ground and
+upper levels in multi-storey residences" ], "not_for": [ "Direct underfloor
+exposed to outdoor wind", "Unclad exterior facades", "Commercial HVAC interior
+duct lining" ], "rag_summary": "Fletcher Soundbreak is a high-density,
+non-combustible glasswool acoustic insulation batt manufactured in Australia by
+Fletcher Insulation. Coloured green for rapid on-site identification, it offers
+ratings from R1.7 to R3.1 across 60mm to 110mm thicknesses to attenuate airborne
+speech, entertainment, and street noise. Formulated from FBS-1 bio-soluble
+glasswool with up to 80% recycled content, non-combustible to AS 1530.1, and
+CodeMark certified (CM 30006), Soundbreak delivers lifetime acoustic and thermal
+comfort in residential walls, ceilings, and mid-floors." }, { "family_id":
+"FLETCHER_PINK_PARTITION", "tds_url":
+"https://insulation.com.au/product/pink-partition-insulation/", "sds_url":
+"https://insulation.com.au/wp-content/uploads/2023/12/SUIS-FBS-1-Glasswool-Bio-soluble-Insulation.pdf",
+"description": "Fletcher Pink Partition insulation is a lightweight to
+medium-density glasswool insulation batt specifically designed for commercial
+steel and timber framed partition walls and ceilings. Manufactured from FBS-1
+bio-soluble glasswool with up to 80% recycled glass content, it delivers
+tailored acoustic attenuation and thermal comfort across low- and high-rise
+commercial fitouts, offices, healthcare, aged care, and multi-residential
+projects. With densities ranging from 11 kg/m³ to 32 kg/m³ and thicknesses up
+to 165mm (R1.2 to R3.5), it is non-combustible and maintains cavity firmness to
+prevent slumping.", "features": [ "Engineered specifically for commercial steel
+and timber stud partition walls and ceilings", "Wide range of densities
+available: 11 kg/m³, 14 kg/m³, 24 kg/m³, and 32 kg/m³", "Non-combustible
+material when tested in accordance with AS 1530.1", "Reduces background noise
+and airborne sound transmission between offices and tenancies", "Thermal
+insulation performance with R-values ranging from R1.2 up to R3.5", "Firm
+friction fit ensures insulation remains in position without slumping over time",
+"Manufactured from up to 80% recycled glass with bio-soluble FBS-1 formulation",
+"CodeMark certified (Certificate of Conformity CM 30006) for NCC compliance",
+"Suitable for healthcare, aged care, education, office, and transport hub
+fitouts", "Backed by Fletcher Insulation 50-year commercial warranty" ],
+"applications": [ "wall", "internal wall", "ceiling", "between floors" ],
+"technical": [ { "property": "Densities", "value": "11 kg/m³ (Pink
+Partition 11), 14 kg/m³ (Pink Partition 14), 24 kg/m³ (Pink Partition 24), 32
+kg/m³ (Pink Partition 32)", "standard": "" }, { "property": "R-Values", "value":
+"R1.2 (50mm), R1.8 (75mm), R2.0 (75mm), R2.5 (90mm), R3.0 (90mm), R3.5 (165mm)",
+"standard": "AS/NZS 4859.1:2018" }, { "property": "Thicknesses", "value": "50
+mm, 65 mm, 75 mm, 90 mm, 100 mm, 110 mm, 165 mm", "standard": "" }, {
+"property": "Standard Dimensions", "value": "1200 mm length x 450 mm or 600 mm
+width (also continuous roll options)", "standard": "" }, { "property":
+"Combustibility", "value": "Non-combustible", "standard": "AS 1530.1" }, {
+"property": "Early Fire Hazard Indices", "value": "Ignitability: 0, Spread of
+Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1", "standard": "AS/NZS 1530.3" },
+{ "property": "Maximum Service Temperature", "value": "340°C", "standard": "" },
+{ "property": "Corrosion Resistance", "value": "Non-corrosive", "standard":
+"AS/NZS 4859.1" }, { "property": "Acoustic Performance", "value": "Acoustic
+absorption coefficients tested across octave bands for each density",
+"standard": "AS ISO 354" } ], "range": [ { "variant": "Pink Partition 11 (11
+kg/m³)", "size_or_rating": "50mm, 75mm, 90mm, 110mm x 1200mm x 450/600mm",
+"pack": "Pack of batts" }, { "variant": "Pink Partition 14 (14 kg/m³)",
+"size_or_rating": "50mm, 75mm, 90mm, 100mm x 1200mm x 450/600mm", "pack": "Pack
+of batts" }, { "variant": "Pink Partition 24 (24 kg/m³)", "size_or_rating":
+"50mm, 75mm, 90mm x 1200mm x 450/600mm", "pack": "Pack of batts" }, { "variant":
+"Pink Partition 32 (32 kg/m³)", "size_or_rating": "50mm, 75mm x 1200mm
+x 450/600mm", "pack": "Pack of batts" } ], "fire": "Non-combustible to
+AS 1530.1; AS/NZS 1530.3 indices: Ignitability 0, Spread of Flame 0, Heat
+Evolved 0, Smoke Developed 0-1; NCC Section C fire resistance compliance",
+"compliance": "AS/NZS 4859.1:2018, AS 3999, CodeMark CM 30006, NCC 2022 Volume 1
+and Volume 2", "sustainability": "Contains up to 80% recycled glass; bio-soluble
+FBS-1 formulation; zero ODP; low VOC", "install": [ "Ensure framing studs are
+erected and cavity spaces are dry and clear of debris", "Select batt dimensions
+matching stud width (450mm or 600mm)", "Friction-fit Pink Partition batts snugly
+between steel or timber studs", "Ensure batts butt tightly against top and
+bottom tracks and adjacent batts with zero gaps", "Cut neatly around electrical
+conduits, plumbing, and wall penetrations using a serrated knife", "Maintain
+batt thickness to match cavity depth without crushing or over-compressing",
+"Fasten plasterboard or wall lining according to fire and acoustic system
+specifications" ], "selection_checklist": [ "Identify target acoustic
+specification (Rw / STC) and select density (11, 14, 24, or 32 kg/m³)", "Confirm
+steel stud depth (50mm, 64mm, 75mm, 92mm, 150mm)", "Confirm stud centres (450mm
+or 600mm)", "Check fire rating requirements (AS 1530.1 non-combustible
+compliance)", "Order matching pack quantities based on area calculations" ],
+"accessories": [ "Acoustic sealant", "Resilient tracks", "Insulation knife" ],
+"limitations": [ "For internal wall cavities and commercial partitions; not for
+direct external weather exposure", "Avoid severe compression beyond cavity
+thickness", "Must not be installed over unsealed damp surfaces" ], "warranty":
+"50 Year Commercial Warranty", "found": true, "search_keywords": [ "Fletcher
+Pink Partition", "Pink Partition insulation", "commercial acoustic batts", "Pink
+Partition 11", "Pink Partition 14", "Pink Partition 24", "Pink Partition 32",
+"steel stud acoustic insulation", "commercial wall batts", "Fletcher commercial
+partition" ], "problem_keywords": [ "noise between commercial offices",
+"confidential conversation privacy in clinics", "meeting NCC commercial acoustic
+specifications", "commercial partition wall slumping", "classroom noise spill",
+"hospital patient room noise transfer" ], "placement": [ "wall", "internal
+wall", "ceiling", "between floors" ], "priority_fit": [ "acoustic", "fire",
+"thermal", "sustainability" ], "use_cases": [ "Acoustic and thermal dampening in
+commercial steel-stud office partition walls", "Sound containment in healthcare,
+hospital consulting rooms, and aged care facilities", "Acoustic partition infill
+in schools, university lecture halls, and transport terminal facilities" ],
+"not_for": [ "Exposed external facade cladding", "Subfloor soil contact",
+"Direct HVAC duct interior acoustic lining" ], "rag_summary": "Fletcher Pink
+Partition is a commercial glasswool acoustic and thermal insulation range
+manufactured in Australia by Fletcher Insulation for steel and timber stud
+partitions and ceilings. Available in densities of 11, 14, 24, and 32 kg/m³ and
+thicknesses from 50mm to 165mm (R1.2 to R3.5), it delivers customizable sound
+transmission control (Rw / STC) across commercial offices, healthcare, aged
+care, and educational institutions. Non-combustible to AS 1530.1, CodeMark
+certified (CM 30006), and containing up to 80% recycled glass, Pink Partition
+maintains rigid friction-fit cavity stability backed by a 50-year commercial
+warranty." } ]

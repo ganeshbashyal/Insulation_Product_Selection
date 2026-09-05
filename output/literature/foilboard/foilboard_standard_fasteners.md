@@ -1,7 +1,7 @@
 ---
 title: "Foilboard Standard Fasteners - Accessory Insulation | Foilboard"
-description: "Quality insulation engineered for Australian conditions."
-keywords: "Foilboard Standard Fasteners, Foilboard accessory, insulation Australia, Foilboard Australia"
+description: "Foilboard Standard Fasteners are purpose-designed mechanical fixings consisting of galvanized timber nails or screws paired with broad plastic washer "
+keywords: "Foilboard Standard Fasteners, Foilboard accessory, wall insulation, ceiling insulation, floor insulation, underfloor insulation, shed insulation, insulation Australia, Foilboard Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: FOILBOARD_STANDARD_FASTENERS
 ---
@@ -10,23 +10,33 @@ family_id: FOILBOARD_STANDARD_FASTENERS
 
 **Foilboard Accessory** — installation accessories and fixings.
 
-Quality insulation engineered for Australian conditions.
+Foilboard Standard Fasteners are purpose-designed mechanical fixings consisting of galvanized timber nails or screws paired with broad plastic washer plates, engineered to secure Foilboard panels to timber framing without puncturing or compressing the core. By spreading the fastening load across a wide surface area, they prevent fastener pull-through under wind suction and vibration. They provide a fast, secure fixing method for residential timber-stud walls, raked ceilings, and shed framing.
 
 ## Key features
 
-- Premium insulation product designed for Australian building conditions.
+- Engineered specifically for securing Foilboard rigid panels to timber framing.
+- Broad integrated washer head distributes load to prevent panel crushing.
+- Stops nail or screw heads from pulling through the aluminum foil facing.
+- Galvanized steel shank provides excellent corrosion resistance.
+- Available in lengths tailored for 10mm to 25mm Foilboard panels.
+- Fast hammer-in or drive-in installation directly into timber studs and joists.
+- Maintains panel rigidity and alignment during wall cladding construction.
 
 ## Applications and selection
 
-- General Installation
+- wall
+- external wall
+- internal wall
+- ceiling
+- shed
+- underfloor
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm framing substrate is timber (softwood or hardwood).
+2. Select fastener length based on board thickness (fastener length must equal board thickness plus minimum 20-25mm timber embedment).
+3. Calculate quantity needed based on approx. 6-8 fasteners per 2440x1200mm sheet.
+4. Order matching 72mm foil tape for air sealing.
 
 
 ## Current catalogue range
@@ -37,32 +47,48 @@ Quality insulation engineered for Australian conditions.
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Accessory | Manufacturer catalogue |
-| Material | Accessory | Manufacturer catalogue |
-| Applications | General Installation | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Fastener Type | Galvanized clout nail or screw with pre-fitted broad plastic/metal washer | - |
+| Head / Washer Diameter | Approx. 35 mm - 40 mm | - |
+| Lengths | 30 mm, 40 mm, 50 mm (to suit 10mm, 15mm, 20mm, 25mm boards) | - |
+| Substrate Compatibility | Softwood and hardwood timber framing | - |
+| Corrosion Protection | Hot-dip galvanized / zinc plated | AS 2331 |
 
-
+Extracted from manufacturer datasheet: https://www.foilboard.com.au/product-category/accessories/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Non-combustible metal fastener with low-hazard washer; compliant with NCC fire requirements
+
+AS/NZS 4859.1, AS 3999, NCC Volume One and Two
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.foilboard.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://insulationessentials.com.au/wp-content/uploads/2022/10/MSDS-Foilboard-Nov-2019.pdf.
 
+## Recommended accessories
+
+- Foilboard Green panels.
+- Foilboard 72mm reinforced foil tape.
+- Claw hammer or drill driver.
+
 
 ## Limitations and warnings
 
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Designed for timber framing only; for steel framing use Foilboard Tek Screws.
+- Do not overdrive fastener to prevent deforming the board core.
+- Non-structural; does not replace structural wall bracing or cladding fixings.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: confirm product selection matches specified thermal/acoustic/fire rating.
+1. Hold Foilboard panel firmly in position against timber wall studs or ceiling framing.
+2. Place Standard Fastener against the panel surface at recommended fixing locations.
+3. Drive fastener straight into the timber stud until the broad washer head rests flush against the foil.
+4. Do not overdrive to avoid crushing the underlying EPS core.
+5. Install fasteners at maximum 600mm centers around the panel perimeter and down central studs.
+6. Cover fastener heads with Foilboard 72mm reinforced foil tape if an airtight vapor seal is required.
 
 ## Safety and handling
 
@@ -70,11 +96,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Recyclable steel and polymer components; zero ODP
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Backed by Foilboard product warranty
 
 ## Specification starting point
 

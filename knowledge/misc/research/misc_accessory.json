@@ -1,0 +1,62 @@
+{
+  "family_id": "MISC_ACCESSORY",
+  "family_name": "Misc Accessory",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "gemini_not_found",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "",
+    "features": "",
+    "applications": "",
+    "technical": "",
+    "range": "",
+    "fire": "",
+    "compliance": "",
+    "sustainability": "",
+    "install": "",
+    "selection_checklist": "",
+    "accessories": "",
+    "limitations": "",
+    "warranty": ""
+  },
+  "retrieval": {
+    "search_keywords": [
+      "insulation accessories",
+      "insulation clips",
+      "insulation\npins",
+      "insulation tape",
+      "baffle clips",
+      "fixing washers"
+    ],
+    "problem_keywords": [
+      "loose insulation batts",
+      "unsupported underfloor\ninsulation",
+      "unsealed vapor barrier joins",
+      "thermal bridging around fasteners"
+    ],
+    "placement": [
+      "wall",
+      "ceiling",
+      "floor",
+      "roof"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "thermal"
+    ],
+    "use_cases": [
+      "Securing and retaining bulk\ninsulation batts in wall, ceiling, and floor cavities",
+      "Sealing vapor barrier\nmembranes and foil laps",
+      "Spacing insulation to maintain compliant ventilation\nair gaps"
+    ],
+    "not_for": [
+      "Primary structural building support",
+      "Direct\nexternal cladding",
+      "Waterproofing below water table"
+    ],
+    "rag_summary": "Misc\nAccessory refers to general-purpose insulation installation accessories\nincluding mechanical impaling pins, retaining washers, foil joining tapes, and\ninsulation knives used across Australian building projects. These components\nensure insulation panels, batts, and membranes are correctly secured, sealed,\nand aligned to maintain designed thermal and acoustic performance without\nsagging or air leakage."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

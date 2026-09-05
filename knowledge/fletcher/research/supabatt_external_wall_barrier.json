@@ -1,0 +1,152 @@
+{
+  "family_id": "FLETCHER_SUPABATT",
+  "family_name": "supaBATT External Wall Barrier",
+  "datasheet_pdf_url": "https://insulation.com.au/product/supabatt/",
+  "sds_url": "https://insulation.com.au/wp-content/uploads/2023/12/SUIS-FBS-1-Glasswool-Bio-soluble-Insulation.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "supaBATT is a high-density, rigid glasswool external wall\ninsulation board engineered specifically to enhance the thermal performance of\nbrick veneer walls in response to NCC 2022 7-star energy efficiency standards.\nAvailable unfaced or pre-faced with a Class 4 vapour-permeable membrane\n(supaBATT VP4), it is installed externally onto timber or steel studs before\nbrickwork is laid. By insulating over the exterior face of framing, it\neliminates thermal bridging, controls moisture vapour transfer, and boosts total\nwall system R-values.",
+    "features": [
+      "Rigid, high-density glasswool board\ndesigned for external face-of-stud wall insulation",
+      "Developed specifically to\nachieve 7-star energy ratings in residential brick veneer construction",
+      "Available unfaced or pre-faced with a Class 4 vapour-permeable membrane (VP4)",
+      "Pre-faced VP4 version combines bulk insulation and weather wrap in a single\ninstallation step",
+      "Eliminates thermal bridging across timber and light-gauge\nsteel framing studs",
+      "Non-combustible glasswool substrate complying with\nAS 1530.1",
+      "Manufactured in Australia using up to 80% recycled glass with\nbio-soluble FBS-1 formulation",
+      "Low-itch, safe to handle, and will not slump or\nsag over time",
+      "Backed by Fletcher Insulation Consumer Lifetime Warranty"
+    ],
+    "applications": [
+      "wall",
+      "external wall"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "High-density rigid bio-soluble glasswool board (available\nplain or VP4 faced)",
+        "standard": ""
+      },
+      {
+        "property": "Thermal Performance",
+        "value": "Contributes up to R1.3+ to wall system total R-value",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Thickness Options",
+        "value": "30 mm, 40 mm, 50\nmm",
+        "standard": ""
+      },
+      {
+        "property": "Board Dimensions",
+        "value": "1160 mm\n/ 1200 mm length x 430 mm / 580 mm width (or 1200 x 2400 mm sheets)",
+        "standard": ""
+      },
+      {
+        "property": "Vapour Permeance (VP4 version)",
+        "value": "Class 4 Vapour Permeable",
+        "standard": "AS/NZS 4200.1"
+      },
+      {
+        "property": "Combustibility (Core)",
+        "value": "Non-combustible",
+        "standard": "AS 1530.1"
+      },
+      {
+        "property": "Early Fire Hazard Indices",
+        "value": "Ignitability: 0, Spread of\nFlame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Compressive Resistance",
+        "value": "Rigid board formulation\nresisting deformation under brick tie fixing",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "supaBATT Unfaced Rigid Board",
+        "size_or_rating": "30-50 mm thickness\nx standard framing widths",
+        "pack": "Pack of boards"
+      },
+      {
+        "variant": "supaBATT\nVP4 Faced (Class 4 Membrane)",
+        "size_or_rating": "30-50 mm thickness x standard\nframing widths",
+        "pack": "Pack of boards"
+      }
+    ],
+    "fire": "Non-combustible core to\nAS 1530.1; AS/NZS 1530.3: Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0,\nSmoke Developed: 0-1; Suitable for bushfire construction up to BAL-40 to\nAS 3959",
+    "compliance": "AS/NZS 4859.1, AS/NZS 4200.1 (VP4 membrane), NCC 2022 /\nNCC 2025 7-star energy efficiency",
+    "sustainability": "Manufactured from up\nto 80% recycled glass; bio-soluble FBS-1; zero ODP; low VOC",
+    "install": [
+      "Fix\nsupaBATT boards horizontally or vertically to the outside face of timber or\nsteel stud framing",
+      "Secure boards mechanically with approved insulation\nfixings or brick tie brackets into framing",
+      "For supaBATT VP4, ensure the\nvapour-permeable membrane faces outward towards the brick cavity",
+      "Overlap the\nintegrated membrane flap of upper rows over lower rows and tape with 3M Seaming\nTape / VapaSeam Tape",
+      "Where unfaced supaBATT is used, butt boards tightly\ntogether and install an approved external wall wrap over the face",
+      "Tape and\nseal all cuts, penetrations, and corners to maintain air and water barrier\nintegrity",
+      "Fasten brick ties through supaBATT into structural studs,\nmaintaining required cavity clearance to brickwork"
+    ],
+    "selection_checklist": [
+      "Confirm brick veneer cavity width accommodates supaBATT thickness while\nmaintaining 40-50mm masonry air cavity",
+      "Choose between supaBATT plain\n(requires separate wrap) or supaBATT VP4 (integrated Class 4 wrap)",
+      "Verify\nrequired R-value to achieve 7-star NatHERS rating in conjunction with internal\nwall batts",
+      "Order compatible face-mount brick ties and seaming tape"
+    ],
+    "accessories": [
+      "3M Seaming Tape / Sisalation VapaSeam Tape",
+      "Face-fixed brick\nties",
+      "Fasteners with washer heads"
+    ],
+    "limitations": [
+      "Must be installed on\nexternal face of stud framing behind masonry or cladding with a drained cavity",
+      "Cladding/brickwork should be installed without prolonged delay to prevent\nweather damage",
+      "Must not be compressed into internal stud bays designed for\nsoft batts"
+    ],
+    "warranty": "Consumer Lifetime Warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "supaBATT",
+      "Fletcher supaBATT",
+      "external wall board\ninsulation",
+      "brick veneer continuous insulation",
+      "supaBATT VP4",
+      "rigid\nglasswool wall board",
+      "7 star wall insulation",
+      "face of stud insulation",
+      "continuous wall insulation batts"
+    ],
+    "problem_keywords": [
+      "thermal bridging\nthrough timber and steel studs",
+      "achieving 7 star NatHERS energy rating in\nbrick veneer",
+      "wall cavity space limitations for thick batts",
+      "interstitial\nmoisture condensation in brick veneer",
+      "cold framing studs conducting heat"
+    ],
+    "placement": [
+      "wall",
+      "external wall"
+    ],
+    "priority_fit": [
+      "thermal",
+      "condensation",
+      "fire",
+      "sustainability"
+    ],
+    "use_cases": [
+      "External\nface-of-stud continuous insulation on residential brick veneer homes to\nmeet 7-star NatHERS requirements",
+      "Continuous thermal barrier over light-gauge\nsteel frame walls to eliminate thermal bridging",
+      "Combined weatherproofing wrap\nand continuous bulk insulation using supaBATT VP4 behind masonry"
+    ],
+    "not_for": [
+      "Ceiling space insulation",
+      "Internal stud bays between plasterboard and\nframe",
+      "Direct underfloor exposed to damp crawlspace ground"
+    ],
+    "rag_summary": "Fletcher supaBATT is a rigid, high-density glasswool board designed for\ninstallation onto the exterior face of timber or steel studs in brick veneer\nconstruction. Engineered to help builders achieve 7-star NatHERS energy\ncompliance under NCC 2022, it provides continuous external insulation that\neliminates stud thermal bridging. Available plain or factory-laminated with a\nClass 4 vapour-permeable membrane (supaBATT VP4), it combines non-combustible\nbulk thermal resistance (AS 1530.1) with condensation management, backed by a\nConsumer Lifetime Warranty."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

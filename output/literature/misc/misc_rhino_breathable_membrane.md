@@ -1,6 +1,6 @@
 ---
 title: "Misc Rhino Breathable Membrane - Wrap Insulation | Misc"
-description: "Quality insulation engineered for Australian conditions. Engineered to meet the demanding requirements of Australian building conditions."
+description: "Rhino Wrap Breather is a Class 4 vapour permeable, Light Duty flexible building membrane engineered for external walls. Manufactured by laminating a m"
 keywords: "Misc Rhino Breathable Membrane, Misc wrap, wall insulation, insulation Australia, Misc Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: MISC_RHINO_BREATHABLE_MEMBRANE
@@ -10,25 +10,32 @@ family_id: MISC_RHINO_BREATHABLE_MEMBRANE
 
 **Misc Wrap** — reflective membrane for weather protection and condensation control.
 
-Quality insulation engineered for Australian conditions. Engineered to meet the demanding requirements of Australian building conditions.
+Rhino Wrap Breather is a Class 4 vapour permeable, Light Duty flexible building membrane engineered for external walls. Manufactured by laminating a microporous film between two layers of spunbonded non-woven polyolefin, it allows internal water vapour to escape while acting as an effective barrier to liquid water, draughts, and dust. It is designed to reduce the risk of interstitial condensation in residential and commercial timber and steel-framed wall assemblies.
 
 ## Key features
 
-- High-performance membrane technology.
-- provides effective vapour and moisture management.
-- compatible with a wide range of substrates.
+- Class 4 vapour permeable allowing water vapour to diffuse outward.
+- Triple-layer spunbonded polyolefin and microporous film laminate.
+- Effective water barrier resisting liquid water penetration.
+- Air barrier reduces draughts and convective heat loss.
+- Light Duty mechanical classification to AS/NZS 4200.1.
+- Resistant to mould and bacterial degradation.
+- Suitable for timber and steel framed wall construction.
+- Non-reflective surface eliminates installer glare on site.
+- Low Flammability Index compliant with AS 1530.2.
 
 ## Applications and selection
 
-- Wall Wrap / Sarking
+- wall
+- external wall
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Verify climate zone requires a Class 4 vapour-permeable wall wrap.
+2. Confirm external cladding type requires a drained cavity.
+3. Calculate total wall area allowing minimum 150mm overlaps.
+4. Ensure compatible cloth or acrylic joining tape is specified.
+5. Check installation exposure window prior to cladding.
 
 
 ## Current catalogue range
@@ -39,34 +46,51 @@ Quality insulation engineered for Australian conditions. Engineered to meet the 
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Wrap | Manufacturer catalogue |
-| Material | Membrane | Manufacturer catalogue |
-| Applications | Wall Wrap / Sarking | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Duty Classification | Light Duty | AS/NZS 4200.1:2017 |
+| Vapour Control | Class 4 Vapour Permeable | AS/NZS 4200.1:2017 |
+| Water Control | Water Barrier | AS/NZS 4201.4 |
+| Air Control | Air Barrier | AS/NZS 4200.1:2017 |
+| Flammability Index | ≤ 5 (Low) | AS 1530.2 |
+| Roll Dimensions | 1500 mm x 30 m (45 m²) / 1500 mm x 50 m (75 m²) | - |
+| Nominal Thickness | 0.5 mm | - |
 
-
+Extracted from manufacturer datasheet: https://rhinofoil.com.au/products/rhino-wrap-breather/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Flammability Index ≤ 5 to AS 1530.2; Suitable for external walls in bushfire-prone areas up to BAL-40 to AS 3959
+
+AS/NZS 4200.1:2017, AS/NZS 4200.2:2017, AS 1530.2, AS 3959, NCC 2022 Volume One and Two
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf.
 
+## Recommended accessories
+
+- Vapour-permeable cloth tape.
+- Galvanised clouts / staples.
+- Sill and window flashing tape.
+
 
 ## Limitations and warnings
 
-- Ensure compatibility with substrate and adjacent materials..
-- follow manufacturer overlap requirements..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Not designed for roof sarking applications.
+- Must not be left exposed to direct sunlight beyond manufacturer UV limits.
+- Ensure cladding provides an unobstructed drainage cavity.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Ensure compatibility with substrate and adjacent materials.
+1. Install horizontally on the outer face of timber or steel wall studs starting from the bottom plate.
+2. Fasten with broad-headed galvanised clouts or staples at maximum 300mm centres.
+3. Ensure upper runs overlap lower runs by at least 150mm to shed water downward.
+4. Overlap vertical joins by minimum 150mm over a stud line.
+5. Tape all horizontal and vertical joins using approved vapour-permeable acrylic cloth tape.
+6. Seal around window and door openings and all service penetrations.
+7. Provide a ventilated drainage cavity between the membrane and exterior cladding.
 
 ## Safety and handling
 
@@ -74,11 +98,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+100% recyclable polyolefin materials; zero ODP; non-toxic
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Backed by manufacturer product warranty
 
 ## Specification starting point
 

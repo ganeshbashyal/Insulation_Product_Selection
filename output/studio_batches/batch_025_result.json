@@ -1,0 +1,617 @@
+
+[ { "family_id": "THERMOTEC_E_FLEX_HT", "tds_url":
+"https://thermotec.com.au/product/thermotec-e-flex-ht-solar-pipe-insulation/",
+"sds_url": "https://thermotec.com.au/", "description": "Thermotec E-Flex HT is a
+high-performance, flexible closed-cell EPDM rubber foam pipe insulation
+specifically engineered for solar hot water, HVAC, and high-temperature plumbing
+systems. Designed with outstanding UV resistance, it withstands outdoor
+weathering and sun exposure for many years without cracking, embrittlement, or
+deterioration. It operates at continuous temperatures from -57°C up to +150°C
+(with intermittent peak exposure up to 175°C - 180°C), preventing thermal energy
+loss and solar line overheating.", "features": [ "Manufactured from flexible
+closed-cell EPDM rubber foam", "Outstanding UV and weather resistance requiring
+no additional protective painting or jacketing", "Continuous operating
+temperature from -57°C up to +150°C (intermittent to 180°C)", "Engineered
+specifically for solar hot water lines, HVAC, and refrigeration", "Exceeds
+BCA/NCC energy efficiency requirements for solar pipework (13mm wall achieves
+R0.38 vs R0.30 mandate)", "Thermal conductivity of 0.036 W/m·K at 24°C", "Low
+flammability tested to AS/NZS 1530.3 with zero spread of flame",
+"Self-extinguishing to ASTM D 635 and non-flammable to JIS K 6911", "Green Star
+and ODP-EMI4 compliant with zero ozone-depleting substances", "Available in
+standard 2m lengths, continuous coils, and multiple wall thicknesses" ],
+"applications": [ "pipe", "roof", "roofline", "wall" ], "technical": [ {
+"property": "Material", "value": "Closed-cell ethylene propylene diene monomer
+(EPDM) synthetic rubber foam", "standard": "" }, { "property": "Nominal
+Density", "value": "60 kg/m³ nominal", "standard": "" }, { "property":
+"Continuous Service Temperature", "value": "-57°C to +150°C", "standard": "" },
+{ "property": "Maximum Intermittent Temperature", "value": "+175°C to +180°C",
+"standard": "" }, { "property": "Thermal Conductivity", "value": "0.036 W/m·K
+at 24°C", "standard": "ASTM C518" }, { "property": "Thermal Resistance (13mm
+wall)", "value": "R0.38 (exceeds NCC R0.30 solar requirement)", "standard":
+"AS/NZS 4859.1" }, { "property": "Early Fire Hazard Indices (AS 1530.3)",
+"value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke
+Developed: 5", "standard": "AS 1530.3" }, { "property": "Flammability
+Classifications", "value": "Self-extinguishing (ASTM D 635), Non-flammable (JIS
+K 6911)", "standard": "ASTM D 635 / JIS K 6911" }, { "property": "UV & Ozone
+Resistance", "value": "Excellent (suitable for direct outdoor sun exposure)",
+"standard": "" }, { "property": "Dimensions", "value": "2000 mm lengths
+(available in 13 mm, 19 mm, 25 mm wall thicknesses to suit 9 mm to 54 mm pipe
+ID)", "standard": "" } ], "range": [ { "variant": "E-Flex HT 13mm Wall x 13mm
+ID", "size_or_rating": "13 mm WT x 13 mm ID x 2000 mm (R0.38)", "pack": "Length"
+}, { "variant": "E-Flex HT 13mm Wall x 19mm ID", "size_or_rating": "13 mm WT
+x 19 mm ID x 2000 mm (R0.38)", "pack": "Length" }, { "variant": "E-Flex HT 13mm
+Wall x 25mm ID", "size_or_rating": "13 mm WT x 25 mm ID x 2000 mm (R0.38)",
+"pack": "Length" }, { "variant": "E-Flex HT 19mm Wall x 19mm ID",
+"size_or_rating": "19 mm WT x 19 mm ID x 2000 mm", "pack": "Length" }, {
+"variant": "E-Flex HT 25mm Wall x 25mm ID", "size_or_rating": "25 mm WT x 25 mm
+ID x 2000 mm", "pack": "Length" } ], "fire": "AS 1530.3 Early Fire Hazard
+Indices: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 5;
+ASTM D 635 self-extinguishing; JIS K 6911 non-flammable", "compliance":
+"AS/NZS 4859.1, AS 1530.3, AS/NZS 3500.4 (Plumbing and drainage - Heated water
+services), NCC Volume One and Two", "sustainability": "Zero ODP; Green Star
+compliant low VOC; free from CFCs and HCFCs", "install": [ "Ensure copper or
+stainless steel solar pipes are clean, dry, and leak-tested", "For new pipework,
+slide unslit E-Flex HT tubes directly over pipes prior to joint brazing or
+connecting", "For existing lines, slit E-Flex HT longitudinally using a sharp
+insulation knife and snap over pipe", "Apply Thermotec E-Flex Bond adhesive
+evenly to both slit edges and allow to become touch-dry", "Press slit edges
+firmly together to create a continuous, permanent vapor seal", "Butt
+consecutive 2m lengths tightly and join with E-Flex Bond adhesive", "Mitre cut
+and glue sections around 90-degree elbows, tees, and solar collector
+connections", "Ensure complete coverage up to solar roof panel collectors
+without leaving exposed copper" ], "selection_checklist": [ "Confirm pipe is
+solar hot water, heat pump, or high-temperature line exceeding 100°C", "Measure
+outside diameter of pipe to match internal diameter (ID) of E-Flex HT", "Select
+wall thickness (13mm WT standard to achieve compliant R0.38; 19mm or 25mm for
+higher efficiency)", "Order matching E-Flex Bond adhesive for joint and seam
+sealing", "Confirm external roof run requires UV-resistant EPDM material" ],
+"accessories": [ "Thermotec E-Flex Bond Adhesive (500ml tin with applicator)",
+"Thermotec MaxTape FR / Insulating Foam Tape", "Utility knife" ], "limitations":
+[ "Not suitable for continuous operating temperatures exceeding 150°C (steam
+lines over 150°C require Rockwool pipe insulation)", "Slit seams must be sealed
+with E-Flex Bond adhesive to maintain water tightness", "Do not stretch
+insulation lengthwise during installation as it will pull apart at butt joints"
+], "warranty": "Backed by Thermotec Australia product warranty", "found": true,
+"search_keywords": [ "Thermotec E-Flex HT", "E-Flex HT", "solar pipe
+insulation", "EPDM pipe insulation", "high temperature pipe lagging", "UV
+resistant pipe insulation", "solar hot water lagging", "E-Flex solar", "150
+degree pipe insulation" ], "problem_keywords": [ "pipe insulation melting on
+solar hot water line", "UV sun damage cracking foam pipe lagging", "heat loss
+from roof solar hot water pipes", "frozen solar water pipes in winter",
+"standard nitrile lagging perishing on roof" ], "placement": [ "pipe", "roof",
+"roofline", "wall" ], "priority_fit": [ "thermal", "fire", "easy_install" ],
+"use_cases": [ "Insulating external copper flow and return pipes on rooftop
+solar hot water systems exposed to direct sunlight", "Thermal lagging on
+high-temperature heat pump water heater external connections", "Insulating
+commercial HVAC dual-temperature and hot water distribution pipework up
+to 150°C" ], "not_for": [ "High-pressure steam pipes operating continuously
+above 150°C (use Rockwool Pipe)", "Direct underground burial without protective
+conduit", "Internal drywall acoustic wall cavities" ], "rag_summary": "Thermotec
+E-Flex HT is an Australian-supplied, high-temperature EPDM closed-cell rubber
+foam pipe insulation specifically engineered for solar hot water and HVAC
+systems. Built with outstanding UV and weather resistance, it withstands outdoor
+rooftop exposure without cracking or degrading, operating continuously from
+-57°C to +150°C (with intermittent peaks to 180°C). Delivering an in-situ
+R-value of R0.38 in 13mm wall thickness (exceeding NCC/AS 3500.4 mandates) and
+fire-tested to AS 1530.3 (flame spread 0), it protects solar lines against
+extreme thermal loss, freezing, and sun degradation." }, { "family_id":
+"THERMOTEC_ROCKWOOL_PIPE", "tds_url":
+"https://thermotec.com.au/product/thermotec-rockwool-pipe-insulation/",
+"sds_url": "https://thermotec.com.au/", "description": "Thermotec Rockwool Pipe
+Insulation is a heavy-duty, pre-formed mineral wool pipe lagging engineered for
+industrial and commercial pipework carrying high-temperature fluids and steam at
+continuous temperatures up to 650°C. Manufactured from non-combustible volcanic
+rock fibres with a nominal density of 115 to 140 kg/m³, it is factory-laminated
+with a reinforced aluminium foil facing to act as a vapour barrier and protect
+against moisture ingress. It delivers exceptional thermal insulation and
+acoustic noise attenuation on steam lines, boilers, high-pressure hot water, and
+exhaust systems.", "features": [ "High-density pre-formed stone wool pipe
+sections (nominal 115 to 140 kg/m³)", "Extreme continuous service temperature up
+to 650°C (outer foil limit 80°C - 100°C)", "Non-combustible stone wool substrate
+complying with AS 1530.1 and BS 476 Part 4", "Factory-applied reinforced
+aluminium foil facing provides a tough vapour barrier", "Specifically engineered
+for high-pressure steam pipes, boilers, and industrial processes", "Provides
+substantial acoustic noise dampening of fluid rush and turbulent knocking",
+"Water-repellent, rot-proof, and resistant to fungal and bacterial growth",
+"Chemically inert and will not promote stress corrosion cracking on copper or
+stainless steel", "Pre-slit one-meter hinged sections allow rapid snap-on
+installation", "Complies with Australian commercial and industrial insulation
+specifications" ], "applications": [ "pipe", "duct", "wall" ], "technical": [ {
+"property": "Core Material", "value": "Bio-soluble volcanic rock wool mineral
+fibers", "standard": "" }, { "property": "Nominal Density", "value": "115 kg/m³
+to 140 kg/m³", "standard": "" }, { "property": "Maximum Continuous Service
+Temperature", "value": "Up to 650°C (core)", "standard": "" }, { "property":
+"Facing Material", "value": "Reinforced fire-resistant aluminium foil laminate",
+"standard": "" }, { "property": "Facing Temperature Limit", "value": "80°C
+to 100°C (outer surface)", "standard": "" }, { "property": "Combustibility
+(Core)", "value": "Non-combustible", "standard": "AS 1530.1 / BS 476.4" }, {
+"property": "Early Fire Hazard Indices", "value": "Ignitability: 0, Spread of
+Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1", "standard": "AS/NZS 1530.3" },
+{ "property": "Section Length", "value": "1000 mm (1 metre) pre-split hinged
+sections", "standard": "" }, { "property": "Thermal Conductivity", "value": "Low
+thermal conductivity across operating temperatures up to 650°C", "standard":
+"ASTM C518 / EN 12667" }, { "property": "Water Repellency", "value":
+"Hydrophobic non-hygroscopic stone wool", "standard": "" } ], "range": [ {
+"variant": "Rockwool Pipe Section 25mm Wall", "size_or_rating": "25 mm WT x 1000
+mm (pipe IDs from 15mm to 200mm+)", "pack": "Length" }, { "variant": "Rockwool
+Pipe Section 38mm Wall", "size_or_rating": "38 mm WT x 1000 mm (pipe IDs
+from 15mm to 200mm+)", "pack": "Length" }, { "variant": "Rockwool Pipe
+Section 50mm Wall", "size_or_rating": "50 mm WT x 1000 mm (pipe IDs from 15mm
+to 200mm+)", "pack": "Length" } ], "fire": "Core non-combustible to AS 1530.1
+and BS 476 Part 4; AS/NZS 1530.3 indices: Ignitability 0, Spread of Flame 0,
+Heat Evolved 0, Smoke Developed 0-1; Suitable for strict commercial fire
+ratings", "compliance": "AS 1530.1, AS/NZS 1530.3, AS/NZS 4859.1, BS 5422, NCC
+Volume One and Two", "sustainability": "Natural volcanic rock; recyclable; zero
+ODP; non-toxic", "install": [ "Ensure pipe surface is cool, dry, clean, and
+rust-treated before lagging", "Open the pre-slit hinged 1m Rockwool section and
+snap over the pipe", "Align longitudinal seams along the least visible side
+(typically top or back)", "Peel release paper from the factory self-adhesive
+foil overlap (or tape with reinforced foil tape)", "Smooth down the foil lap
+firmly with a squeegee to establish an airtight vapour seal", "Butt
+consecutive 1m sections tightly together and seal circumferential joints
+with 72mm reinforced foil tape", "Secure lagging with stainless steel or
+aluminium bands or tie wire at 300mm to 400mm centres for high-temperature
+pipework", "Mitre cut sections neatly around elbows, valves, and tees, sealing
+all cut edges with foil tape" ], "selection_checklist": [ "Confirm pipe
+operating temperature exceeds 100°C (up to 650°C continuous)", "Measure outside
+diameter of pipe to match internal diameter of Rockwool section", "Select wall
+thickness (25mm, 38mm, or 50mm) based on required surface touch temperature and
+energy limits", "Order matching 72mm reinforced aluminium foil tape and metal
+banding straps" ], "accessories": [ "Thermotec Reinforced Aluminium Foil Tape
+(72mm)", "Stainless steel or aluminium pipe banding straps", "VentureClad
+heavy-duty outdoor weather jacketing" ], "limitations": [ "Outer aluminium foil
+facing must not exceed 80°C - 100°C (insulation wall thickness must be
+calculated to keep surface temperature within limits)", "Outdoor installations
+exposed to weather require metal cladding or UV-resistant VentureClad
+jacketing", "Handle with gloves and dust mask during cutting to avoid mechanical
+fiber irritation" ], "warranty": "Backed by Thermotec Australia product
+warranty", "found": true, "search_keywords": [ "Thermotec Rockwool Pipe",
+"rockwool pipe insulation", "steam pipe lagging", "high temperature pipe
+lagging", "foil faced rockwool pipe", "650 degree pipe insulation", "stone wool
+pipe sections", "boiler pipe insulation", "industrial pipe lagging" ],
+"problem_keywords": [ "pipe insulation burning on steam lines", "heat loss from
+high temperature boiler pipes", "hot pipes causing burn hazards to workers",
+"noisy fluid turbulence in high pressure pipes", "insulation melting above 150
+degrees" ], "placement": [ "pipe", "duct", "wall" ], "priority_fit": [ "fire",
+"thermal", "acoustic" ], "use_cases": [ "Thermal insulation on commercial and
+industrial high-pressure steam pipes operating up to 650°C", "Lagging boiler
+feed lines, turbines, and hot water manifold pipework to prevent worker burn
+injuries", "Acoustic and thermal insulation on high-temperature generator and
+industrial exhaust lines" ], "not_for": [ "Chilled water pipes without secondary
+vapor barriers where condensation could saturate open joints", "Direct burial in
+soil without protective culvert casing", "Standard residential domestic hot
+water lines where flexible foam is more cost effective" ], "rag_summary":
+"Thermotec Rockwool Pipe Insulation is a heavy-duty, foil-faced pre-formed stone
+wool pipe lagging designed for high-temperature commercial and industrial
+pipework operating continuously up to 650°C. Engineered from dense volcanic rock
+fibers (115 to 140 kg/m³) and pre-split into 1-meter hinged sections, it
+provides exceptional heat conservation and acoustic sound attenuation on steam
+lines, boilers, and industrial exhaust manifolds. Certified non-combustible to
+AS 1530.1 with early fire hazard indices of 0,0,0,0-1 to AS 1530.3, it delivers
+reliable passive fire protection and thermal containment." }, { "family_id":
+"THERMOTEC_E_THERM", "tds_url":
+"https://thermotec.com.au/product/e-therm-reflective-roof-and-wall-insulation/",
+"sds_url": "https://thermotec.com.au/", "description": "Thermotec E-Therm is a
+high-performance, Australian-made double-sided reflective foam roof, wall, and
+underfloor insulation engineered to replace traditional bulk insulation and
+sarking. Formulated with a closed-cell low-density polyethylene (LDPE) foam core
+laminated on both sides with pure aluminum foil facings (one side featuring a
+green anti-glare coating), it delivers an in-situ thermal break of up to R0.25
+to prevent thermal bridging on steel-framed buildings. It incorporates a
+patented 150mm foil overlap flap, effectively manages condensation, and reduces
+acoustic rain and airborne noise by up to 12 dB.", "features": [ "3-in-1
+solution: thermal insulation, R0.20+ thermal break, and vapor barrier in one
+product", "Pure aluminum reflective foil facings reflect up to 97% of radiant
+heat (emittance 0.03)", "Available in 5mm (R0.16), 6.5mm (R0.20), and 8mm
+(R0.25) closed-cell foam core thicknesses", "Patented 150mm foil overlap flap
+eliminates the cost of purchasing extra product for laps", "Reduces radiated
+rain, aircraft, and traffic noise by up to 12 dB", "Completely waterproof
+closed-cell polyethylene foam will not rot, shrink, or sag over time",
+"Anti-glare green coating on one face ensures safe daytime installation on
+roofs", "Zero fibers, non-allergenic, non-toxic, and itch-free handling without
+PPE", "Manufactured in Australia incorporating up to 80% recycled foam content",
+"GreenStar and BASIX compliant meeting international ODP-EMI9 requirements" ],
+"applications": [ "roof", "roofline", "wall", "external wall", "underfloor",
+"floor", "shed" ], "technical": [ { "property": "Material Structure", "value":
+"Closed-cell low-density polyethylene (LDPE) foam core with dual pure aluminum
+foil facings", "standard": "" }, { "property": "Thickness Options", "value":
+"5.0 mm (E-Therm 50), 6.5 mm (E-Therm 65), 8.0 mm (E-Therm 80)", "standard": ""
+}, { "property": "Roll Dimensions", "value": "1350 mm width (plus 150 mm foil
+overlap flap) x 22.25 m length (30 m² per roll)", "standard": "" }, {
+"property": "Emittance (Silver Face)", "value": "0.03 (reflects 97% radiant
+heat)", "standard": "ASTM E 408-71" }, { "property": "Emittance (Anti-Glare
+Face)", "value": "0.06", "standard": "ASTM E 408-71" }, { "property": "Thermal
+Break (Material R-value)", "value": "5mm: R0.16; 6.5mm: R0.20; 8mm: R0.25",
+"standard": "ASTM C518" }, { "property": "Typical Total System R-values",
+"value": "Up to R4.00 in commercial roof systems; R2.0 to R3.3 across walls and
+ceilings", "standard": "AS/NZS 4859.1" }, { "property": "Flammability Index",
+"value": "≤ 5 (Low Flammability)", "standard": "AS/NZS 1530.2" }, { "property":
+"Acoustic Noise Reduction", "value": "Reduces radiated noise by up to 12 dB",
+"standard": "" }, { "property": "Vapor Barrier", "value": "Medium / Class 2
+Vapor Barrier", "standard": "ASTM E96" } ], "range": [ { "variant": "E-Therm 50
+(5mm)", "size_or_rating": "5.0 mm x 1350 mm x 22.25 m (30 m², Material R0.16)",
+"pack": "Roll" }, { "variant": "E-Therm 65 (6.5mm)", "size_or_rating": "6.5 mm
+x 1350 mm x 22.25 m (30 m², Material R0.20)", "pack": "Roll" }, { "variant":
+"E-Therm 80 (8mm)", "size_or_rating": "8.0 mm x 1350 mm x 22.25 m (30 m²,
+Material R0.25)", "pack": "Roll" } ], "fire": "AS/NZS 1530.2 Flammability Index
+≤ 5; AS 1530.3 indices: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke
+Developed 0-1; Suitable for bushfire construction up to BAL-40 under AS 3959",
+"compliance": "AS/NZS 4859.1:2002/Amdt 1, AS 1530.2, AS 3959, NCC BCA Volume One
+and Two (R0.20 thermal break compliant)", "sustainability": "Australian made;
+incorporates up to 80% recycled foam content; zero ODP (ODP-EMI9); low VOC;
+Green Star and BASIX compliant", "install": [ "Roll out E-Therm over roof
+purlins, rafters, or wall framing with anti-glare green face facing outward
+toward the installer", "Allow a nominal 40mm drape between purlins on roofs to
+create an airspace and facilitate condensation drainage", "Align adjacent rolls
+using the patented 150mm factory foil overlap flap", "Tape all longitudinal and
+transverse seams using 48mm or 72mm reinforced aluminium foil tape to form a
+continuous seal", "Fasten metal roof sheets or wall cladding directly through
+the E-Therm into steel or timber framing", "Ensure E-Therm terminates cleanly at
+the gutter line to drain condensation into gutters", "For steel framed walls,
+use E-Therm 65 or 80 to satisfy the mandatory R0.20 in-situ thermal break
+requirement", "For suspended timber floors, fix beneath floor joists maintaining
+a 20mm still air cavity" ], "selection_checklist": [ "Confirm building type
+(residential home, steel shed, commercial warehouse, or underfloor)", "Select
+thickness (6.5mm E-Therm 65 for R0.20 thermal break on steel framing; 8mm for
+higher R0.25 rating)", "Calculate roll quantities based on 30 m² net coverage
+per roll (patented 150mm flap eliminates overlap wastage)", "Order matching 72mm
+reinforced aluminium foil sealing tape", "Verify minimum 20mm airspace is
+maintained in roof and wall cavities to achieve rated system R-values" ],
+"accessories": [ "Thermotec Ezy Tear Reinforced Aluminium Foil Tape (72mm)",
+"Thermotec MaxTape FR / Insulating Foam Tape", "Fastener screws and washers" ],
+"limitations": [ "Requires an adjacent sealed airspace of at least 20mm to
+generate rated total system R-values", "Avoid direct contact with wet alkaline
+concrete or mortar to prevent aluminum foil etching", "Not designed as a
+trafficable roof membrane; do not walk directly on unsupported insulation" ],
+"warranty": "Backed by Thermotec Australia product warranty", "found": true,
+"search_keywords": [ "Thermotec E-Therm", "E-Therm insulation", "E-Therm 65",
+"E-Therm 80", "foam cell reflective insulation", "R0.2 thermal break foam",
+"E-Therm shed insulation", "reflective roof insulation", "thermal break foil
+insulation" ], "problem_keywords": [ "thermal bridging across steel framing",
+"dripping condensation under metal roof", "hot shed in summer", "rain noise on
+corrugated iron", "meeting NCC R0.2 thermal break code", "fiberglass itch in
+roof space" ], "placement": [ "roof", "roofline", "wall", "external wall",
+"underfloor", "floor", "shed" ], "priority_fit": [ "thermal", "condensation",
+"fire", "easy_install" ], "use_cases": [ "Installing over steel roof purlins and
+wall girts in residential homes and sheds to provide an NCC-compliant R0.20
+thermal break", "Condensation control and radiant heat reflection under
+residential and commercial corrugated metal roofs", "Underfloor thermal barrier
+installed beneath suspended timber floor joists to block cold winter draughts",
+"Acoustic rain noise reduction in metal-clad industrial buildings and garages"
+], "not_for": [ "Cold climate wall assemblies requiring Class 4 vapour-permeable
+breathable wraps", "Direct floor traffic surfaces without subflooring",
+"High-temperature flue pipes exceeding 80°C" ], "rag_summary": "Thermotec
+E-Therm is an Australian-made 3-in-1 reflective insulation, thermal break, and
+vapor barrier manufactured from closed-cell low-density polyethylene foam faced
+with pure aluminum foil on both sides (with an anti-glare green coating on one
+face). Available in 5mm (R0.16), 6.5mm (R0.20), and 8mm (R0.25) thicknesses
+in 1350mm x 22.25m rolls (30 m²) with a patented 150mm overlap flap, it provides
+the mandatory R0.20 in-situ thermal break on steel frames while reflecting up
+to 97% of radiant heat and dampening rain noise by up to 12 dB. Tested to
+AS 1530.2 (Flammability Index ≤ 5, BAL-40 compliant) and containing up to 80%
+recycled foam content, it delivers complete thermal and condensation control."
+}, { "family_id": "THERMOTEC_MAXTAPE_FR", "tds_url":
+"https://thermotec.com.au/product/thermotec-maxflex-insulating-foam-tape/",
+"sds_url": "https://thermotec.com.au/", "description": "Thermotec MaxTape FR
+(Maxflex Insulating Foam Tape) is a high-performance, fire-rated EPDM
+closed-cell elastomeric insulating foam tape coated on one side with an
+aggressive acrylic pressure-sensitive adhesive. Engineered for thermal
+insulation, vibration dampening, and condensation control, it is widely used as
+a purlin tape on steel-framed buildings to reduce thermal movement creaks, and
+as an insulation wrap for pipe fittings, valves, and HVAC components. Flexible
+and lightweight, it retards heat gain and loss while providing long service life
+without deterioration.", "features": [ "Made from closed-cell fire-rated EPDM
+elastomeric insulating foam sheet", "Coated with high-tack acrylic
+pressure-sensitive adhesive protected by release liner", "Serves as an effective
+purlin tape to eliminate thermal movement noise in steel buildings", "Low,
+stable thermal conductivity retards heat loss, heat gain, and prevents
+condensation", "Fire-rated formulation compliant with building safety
+standards", "Highly flexible and conforms easily to irregular pipe fittings,
+valves, and bends", "Resistant to moisture absorption, weathering, and UV
+degradation", "Will not dry out, shrink, or deteriorate over time", "Available
+in 50mm and 98mm widths in 3mm thickness" ], "applications": [ "pipe", "duct",
+"roof", "roofline", "wall", "shed" ], "technical": [ { "property": "Material",
+"value": "Closed-cell EPDM elastomeric insulating foam with acrylic adhesive",
+"standard": "" }, { "property": "Thickness", "value": "3 mm", "standard": "" },
+{ "property": "Width Options", "value": "50 mm, 98 mm", "standard": "" }, {
+"property": "Roll Length", "value": "9.1 m", "standard": "" }, { "property":
+"Adhesive Type", "value": "Pressure-sensitive acrylic adhesive", "standard": ""
+}, { "property": "Thermal Conductivity", "value": "Stable low thermal
+conductivity for thermal insulation and anti-condensation", "standard": "" }, {
+"property": "Fire Performance", "value": "Fire Rated (FR formulation)",
+"standard": "" }, { "property": "Moisture Resistance", "value": "Closed-cell
+structure resists moisture and condensation", "standard": "" } ], "range": [ {
+"variant": "MaxTape FR 50mm", "size_or_rating": "3 mm x 50 mm x 9.1 m", "pack":
+"Box of 10 rolls" }, { "variant": "MaxTape FR 98mm", "size_or_rating": "3 mm
+x 98 mm x 9.1 m", "pack": "Box of 5 rolls" } ], "fire": "Fire-rated formulation;
+low flammability EPDM rubber", "compliance": "Meets Australian building and HVAC
+insulation performance standards", "sustainability": "Zero ODP; low VOC
+emissions; fiber-free", "install": [ "Ensure target pipe, fitting, or purlin
+surface is clean, dry, and free of grease and dust", "For purlin installation,
+unroll MaxTape FR along the top flange of steel roof purlins or wall girts",
+"Peel back release liner and press tape firmly onto the steel surface", "Ensure
+tape runs continuously beneath roof or wall sheets to eliminate thermal
+expansion noise", "For pipe fittings and valves, wrap MaxTape FR tightly with
+a 50% overlap to achieve required insulation thickness", "Press firmly along all
+edges to ensure complete, gap-free adhesion and prevent air ingress" ],
+"selection_checklist": [ "Confirm application (purlin thermal cushion tape vs
+pipe fitting lagging)", "Select width (50mm standard for pipe fittings and
+narrow purlins; 98mm for wide structural purlins)", "Calculate total lineal
+meters needed along steel framing or pipe runs", "Ensure substrate is clean and
+grease-free" ], "accessories": [ "Thermotec E-Flex pipe insulation",
+"Thermotec 4-Zero pipe lagging" ], "limitations": [ "Surfaces must be dry and
+free of oil or rust before applying", "Not designed as a structural load-bearing
+tape", "Ensure 50% overlap when wrapping pipes to prevent condensation tracking"
+], "warranty": "Backed by Thermotec Australia product warranty", "found": true,
+"search_keywords": [ "Thermotec MaxTape FR", "MaxTape FR", "Maxflex insulating
+foam tape", "EPDM foam tape", "purlin tape", "thermal break foam tape", "pipe
+lagging tape", "fire rated foam tape", "anti-creak purlin tape" ],
+"problem_keywords": [ "metal roof creaking and popping from heat expansion",
+"condensation on copper pipe fittings and valves", "hard-to-insulate pipe elbows
+and T-junctions", "thermal bridging on steel purlins", "sweating refrigeration
+pipes" ], "placement": [ "pipe", "duct", "roof", "roofline", "wall", "shed" ],
+"priority_fit": [ "thermal", "condensation", "fire", "easy_install" ],
+"use_cases": [ "Applied along the top of steel purlins in sheds and metal-roof
+buildings to eliminate thermal expansion creaks and groans", "Insulating
+irregular pipe valves, tees, elbows, and short pipe runs where pre-formed
+tubular lagging cannot fit", "Anti-sweat and condensation protection wrapping on
+refrigeration and chilled water pipe fittings" ], "not_for": [ "Flue exhaust
+pipes exceeding 100°C", "Direct structural mechanical load holding", "Submerged
+underwater applications" ], "rag_summary": "Thermotec MaxTape FR (Maxflex
+Insulating Foam Tape) is a fire-rated EPDM closed-cell elastomeric foam tape
+(3mm thick in 50mm and 98mm widths) backed with high-tack acrylic
+pressure-sensitive adhesive. Serving a dual purpose, it insulates irregular pipe
+fittings, valves, and HVAC components against condensation and heat loss while
+functioning as a high-performance purlin tape on steel-framed buildings to
+eliminate thermal expansion creaking. Closed-cell, moisture-impermeable, and
+UV-resistant, it provides long-term thermal and acoustic cushioning without
+deteriorating." }, { "family_id": "THERMOTEC_MAXFLEX_PIPE", "tds_url": "",
+"sds_url": "", "description": "", "features": [], "applications": [],
+"technical": [], "range": [], "fire": "", "compliance": "", "sustainability":
+"", "install": [], "selection_checklist": [], "accessories": [], "limitations":
+[], "warranty": "", "found": false, "search_keywords": [ "Maxflex pipe
+insulation", "Maxflex coil pipe", "Thermotec Maxflex pipe", "elastomeric pipe
+coil", "Maxflex FR pipe", "refrigeration pipe coil", "nitrile foam pipe coil" ],
+"problem_keywords": [ "condensation on refrigeration lines", "heat loss from
+domestic hot water pipes", "sweating copper pipes in ceiling", "long continuous
+pipe runs needing insulation", "frozen pipes in winter" ], "placement": [
+"pipe", "duct" ], "priority_fit": [ "thermal", "condensation", "easy_install" ],
+"use_cases": [ "Insulating continuous copper refrigerant piping in split-system
+air conditioning installations", "Thermal insulation on domestic and commercial
+hot water plumbing lines", "Condensation control on chilled water lines and
+chilled air ducts" ], "not_for": [ "Continuous service temperatures
+exceeding 110°C (use E-Flex HT for solar)", "Unprotected outdoor applications
+exposed to intense UV without coating", "Direct burial in soil without conduit"
+], "rag_summary": "Thermotec Maxflex Pipe Insulation represents continuous-coil
+elastomeric nitrile foam pipe insulation distributed for HVAC, air conditioning,
+and domestic plumbing lines. Engineered from flexible closed-cell synthetic
+rubber with built-in vapor barrier resistance, it prevents condensation and
+thermal energy loss on refrigeration and hot water pipes. Pre-formed in long
+continuous coils or 2m tubes, it slips easily over copper and plastic pipework
+during installation." }, { "family_id":
+"TRADE_SELECT_ALUMINIUM_GLASS_FOIL_TAPE", "tds_url": "", "sds_url": "",
+"description": "", "features": [], "applications": [], "technical": [], "range":
+[], "fire": "", "compliance": "", "sustainability": "", "install": [],
+"selection_checklist": [], "accessories": [], "limitations": [], "warranty": "",
+"found": false, "search_keywords": [ "Trade Select Aluminium Glass Foil Tape",
+"Aluminium Glass Foil Tape 100", "AGFT100", "Trade Select glass cloth tape",
+"reinforced foil tape 100mm", "Ametalin glass foil tape", "aluminium glass cloth
+tape" ], "problem_keywords": [ "tearing foil tape on high wind sites", "unsealed
+sarking laps", "air leakage through membrane joints", "high temperature foil
+tape failure", "sealing high-stress duct joints" ], "placement": [ "roof",
+"roofline", "wall", "external wall", "duct", "pipe" ], "priority_fit": [
+"easy_install", "condensation", "thermal" ], "use_cases": [ "Heavy-duty sealing
+of overlaps on reflective roof sarking and wall wraps", "Sealing vapor-tight
+joints on sheet metal HVAC ductwork and insulated pipes", "High-strength
+patching and repairing of tears in pliable building membranes" ], "not_for": [
+"Structural mechanical load bearing", "Permanent underwater immersion",
+"Temperatures exceeding 120°C" ], "rag_summary": "Trade Select Aluminium Glass
+Foil Tape (AGFT100) is a 100mm wide heavy-duty reinforced sealing tape featuring
+an aluminum foil facing reinforced with glass fiber cloth and coated with an
+aggressive pressure-sensitive adhesive. Distributed under the Trade Select
+umbrella for building and HVAC applications, it provides high tensile strength,
+puncture resistance, and an airtight, vapor-tight seal across reflective
+sarking, wall wraps, and ductwork." }, { "family_id":
+"TRADE_SELECT_BALLISTIC_POINT_INSULATION_FASTENE", "tds_url": "", "sds_url": "",
+"description": "", "features": [], "applications": [], "technical": [], "range":
+[], "fire": "", "compliance": "", "sustainability": "", "install": [],
+"selection_checklist": [], "accessories": [], "limitations": [], "warranty": "",
+"found": false, "search_keywords": [ "Ballistic Point Insulation Fasteners",
+"ICCONS ballistic point fasteners", "insulation concrete drive pins", "gas nail
+insulation fasteners", "Trade Select ballistic fasteners", "soffit insulation
+pins" ], "problem_keywords": [ "slow drilling and fixing insulation to
+concrete", "insulation anchors pulling out of concrete", "fastening rigid boards
+to carpark ceiling", "fixing facade insulation to precast concrete", "thermal
+bridging through metal fasteners" ], "placement": [ "ceiling", "wall", "external
+wall", "floor", "underfloor" ], "priority_fit": [ "easy_install", "thermal" ],
+"use_cases": [ "High-speed drill-free mechanical fixing of rigid insulation
+boards (PIR, phenolic, EPS) to concrete soffits using gas tools", "Fastening
+commercial wall insulation panels to precast concrete and masonry substrates",
+"Securing carpark ceiling insulation boards directly to concrete slabs" ],
+"not_for": [ "Timber framing without concrete backing", "Hollow drywall steel
+studs", "Soft unsupported insulation without washer heads" ], "rag_summary":
+"Trade Select Ballistic Point Insulation Fasteners (manufactured by ICCONS under
+the GTIF series and distributed alongside Trade Select insulation) are
+pre-assembled ballistic drive pins with integrated plastic washer heads designed
+for gas-actuated concrete nailers. Engineered to secure rigid insulation boards
+(25mm to 100mm) directly to hard concrete, masonry, and steel substrates without
+pre-drilling, they accelerate installation on commercial carpark soffits,
+basement ceilings, and precast facade walls." }, { "family_id":
+"TRADE_SELECT_EASYSEAL_INSULATION_FLASHING_TAPE", "tds_url": "", "sds_url": "",
+"description": "", "features": [], "applications": [], "technical": [], "range":
+[], "fire": "", "compliance": "", "sustainability": "", "install": [],
+"selection_checklist": [], "accessories": [], "limitations": [], "warranty": "",
+"found": false, "search_keywords": [ "Trade Select EasySeal", "EasySeal flashing
+tape", "insulation flashing tape", "Ametalin EasySeal", "window flashing tape
+Trade Select", "weatherproof flashing tape" ], "problem_keywords": [ "water
+leaks around window and door frames", "air leakage through rough openings",
+"tape failing on building wrap", "flashing penetrations in external walls",
+"interstitial water ingress at corners" ], "placement": [ "wall", "external
+wall", "roof", "roofline" ], "priority_fit": [ "easy_install", "condensation" ],
+"use_cases": [ "Flashing and sealing window and door openings to exterior
+pliable wall wraps", "Creating watertight and airtight seals around pipe and
+service penetrations", "Sealing critical corner junctions and lap joints on
+building envelopes" ], "not_for": [ "Permanent immersion in standing water",
+"High-temperature flue exhaust pipes", "Structural load-bearing connections" ],
+"rag_summary": "Trade Select EasySeal Insulation Flashing Tape represents a
+heavy-duty, weather-resistant flashing tape designed to provide watertight and
+airtight seals around window openings, door frames, and building envelope
+penetrations. Coated with an aggressive pressure-sensitive adhesive on a
+flexible carrier, it bonds tightly to building wraps, timber, steel, and masonry
+to prevent water ingress and draughts in accordance with AS/NZS 4200.2
+weatherproofing guidelines." }, { "family_id":
+"TRADE_SELECT_NC_THERMAL_BREAK_STRIPS", "tds_url":
+"https://tradeselect.co/wp-content/uploads/", "sds_url":
+"https://tradeselect.co/", "description": "Trade Select Non-combustible
+ThermalBreak Strip (by Ametalin) is a high-performance thermal break solution
+engineered for commercial and residential steel-framed wall and roof
+constructions. Tested to AS 1530.1 and classified as Not Deemed Combustible, it
+complies with NCC Volume One C1.9 / C2D10 and Volume Two Part 3.7.1 / H3D2 for
+all non-combustible building constructions. Built with a dense, chemically
+stable, compression-resistant core, it isolates steel framing from exterior
+claddings and roofing to eliminate thermal bridging without compromising fire
+compliance.", "features": [ "Classified as Not Deemed Combustible when tested in
+accordance with AS 1530.1", "Delivers in-situ R0.24 thermal break, exceeding the
+NCC R0.20 requirement for steel framing", "Engineered for commercial and
+multi-residential Type A, B, and C non-combustible steel-frame buildings",
+"Highly compression-resistant, providing a solid, stable base for cladding
+screws", "Easily cuts to length on site using a utility knife or shears",
+"Termite, mould, and mildew resistant", "Non-irritant and odorless with low VOC
+emissions", "Suitable for all Bushfire Attack Levels (BAL Low to BAL-FZ) under
+AS 3959" ], "applications": [ "wall", "external wall", "roof", "roofline" ],
+"technical": [ { "property": "Material", "value": "Non-combustible, chemically
+stable compression-resistant core", "standard": "" }, { "property": "Thermal
+Break (In-Situ)", "value": "R0.24 (exceeds NCC R0.20 mandate)", "standard":
+"AS/NZS 4859.1" }, { "property": "Thickness", "value": "10 mm", "standard": ""
+}, { "property": "Width", "value": "45 mm", "standard": "" }, { "property":
+"Length", "value": "1200 mm", "standard": "" }, { "property": "Combustibility",
+"value": "Not Deemed Combustible", "standard": "AS 1530.1" }, { "property":
+"Pack Coverage", "value": "Pack of 50 strips (60 lineal metres)", "standard": ""
+}, { "property": "Compressive Resistance", "value": "High compressive strength
+under cladding fastener loads", "standard": "" } ], "range": [ { "variant":
+"Trade Select NC ThermalBreak Strip 45mm x 1200mm", "size_or_rating": "10 mm
+x 45 mm x 1200 mm (RT 0.24)", "pack": "Pack of 50 strips (60 lm)" } ], "fire":
+"Tested to AS 1530.1 and classified as Not Deemed Combustible; Suitable for
+BAL-12.5 to BAL-FZ in accordance with AS 3959", "compliance": "NCC 2019 /
+NCC 2022 Volume One (C1.9, C2D10, J4D3) and Volume Two (Part 3.7.1,
+H3D2, 13.2.2); AS 1530.1; AS/NZS 4859.1", "sustainability": "Zero ODP; low VOC
+emissions; non-hazardous; fiber-free", "install": [ "Ensure steel frame studs,
+noggings, or roof purlins are clean, dry, and free of oil", "Apply wall wrap or
+roof sarking over the steel framing in accordance with AS/NZS 4200.2", "Position
+Non-combustible ThermalBreak Strip continuously along the steel stud or purlin
+face over the wrap", "Fasten cladding or battens directly through the thermal
+break strip into the steel framing", "Ensure cladding screws compress the strip
+firmly without over-tightening to crush the core", "Butt strip ends tightly
+together along the length of the steel member" ], "selection_checklist": [
+"Confirm project requires AS 1530.1 non-combustible thermal break for commercial
+or multi-residential steel framing", "Measure total linear meterage of steel
+framing faces needing thermal break", "Confirm width (45mm) matches stud flange
+width", "Select plain version (without adhesive backing) for clamp/friction
+applications" ], "accessories": [ "Trade Select VapourTech wall wraps",
+"Cladding fasteners with extended length" ], "limitations": [ "Non-structural
+spacer; cladding fasteners must penetrate into steel frame members", "Must be
+installed on the exterior face of steel framing before cladding", "Must not be
+left exposed to permanent UV weather without cladding" ], "warranty": "15 Year
+Product Warranty backed by Ametalin", "found": true, "search_keywords": [ "Trade
+Select NC Thermal Break Strips", "Non-combustible ThermalBreak Strip", "Ametalin
+NC Thermal Break", "R0.2 non-combustible thermal break", "AS 1530.1 thermal
+break", "steel frame thermal break strip", "NCC non-combustible thermal break",
+"NCTBSTRIP" ], "problem_keywords": [ "thermal bridging across commercial steel
+studs", "failing NCC non-combustible cladding requirements", "flammable foam
+thermal breaks banned on high-rise", "heat loss through steel framing", "meeting
+NCC R0.2 thermal break mandate" ], "placement": [ "wall", "external wall",
+"roof", "roofline" ], "priority_fit": [ "fire", "thermal", "easy_install" ],
+"use_cases": [ "Providing an AS 1530.1 non-combustible R0.24 thermal break
+between steel wall studs and external cladding in multi-storey Type A and B
+commercial buildings", "Thermal break isolation on commercial steel roof purlins
+beneath metal sheeting", "Eliminating thermal bridging on bushfire BAL-FZ
+external steel-framed walls" ], "not_for": [ "Timber-framed buildings where
+standard foam thermal break is acceptable", "Direct floor foot traffic
+surfaces", "Internal drywall acoustic batts" ], "rag_summary": "Trade Select NC
+Thermal Break Strips (by Ametalin) are 10mm x 45mm x 1200mm rigid strips
+engineered to provide a certified non-combustible thermal break on steel-framed
+walls and roofs. Tested to AS 1530.1 and classified as Not Deemed Combustible,
+they deliver an in-situ rating of R0.24 to comfortably exceed the NCC R0.20
+thermal break mandate without introducing combustible foams into commercial
+facades. Termite-proof, compression-resistant, and suitable for all bushfire
+levels up to BAL-FZ, they eliminate steel frame thermal bridging." }, {
+"family_id": "TRADE_SELECT_NC_THERMAL_BREAK_STRIPS_ADHESIVE_BACKED", "tds_url":
+"https://tradeselect.co/wp-content/uploads/", "sds_url":
+"https://tradeselect.co/", "description": "Trade Select Non-combustible
+ThermalBreak Strip Adhesive Backed is a high-performance thermal break strip
+equipped with an aggressive high-tack pressure-sensitive adhesive backing for
+rapid installation onto steel framing. Tested to AS 1530.1 and classified as Not
+Deemed Combustible, it delivers an in-situ R0.24 thermal break that exceeds NCC
+Volume One and Two requirements for commercial and residential steel-framed
+constructions. Its peel-and-stick adhesive holds the strip firmly to steel studs
+or roof purlins in windy site conditions prior to cladding installation.",
+"features": [ "High-tack self-adhesive backing with peel-off release liner for
+fast, one-person installation", "Classified as Not Deemed Combustible when
+tested in accordance with AS 1530.1", "Delivers in-situ R0.24 thermal break,
+exceeding the NCC R0.20 requirement", "Designed for commercial and
+multi-residential non-combustible steel frame construction", "High compression
+resistance provides a firm, stable base for cladding screws", "Adheres firmly to
+steel studs, purlins, and building membranes on site", "Termite, mould, and
+mildew resistant", "Suitable for all Bushfire Attack Levels (BAL Low to BAL-FZ)
+under AS 3959", "Sized in convenient 1200mm lengths for easy handling" ],
+"applications": [ "wall", "external wall", "roof", "roofline" ], "technical": [
+{ "property": "Material", "value": "Non-combustible, chemically stable
+compression-resistant core with high-tack pressure-sensitive adhesive",
+"standard": "" }, { "property": "Thermal Break (In-Situ)", "value": "R0.24
+(exceeds NCC R0.20 mandate)", "standard": "AS/NZS 4859.1" }, { "property":
+"Thickness", "value": "10 mm", "standard": "" }, { "property": "Width", "value":
+"45 mm", "standard": "" }, { "property": "Length", "value": "1200 mm",
+"standard": "" }, { "property": "Combustibility", "value": "Not Deemed
+Combustible", "standard": "AS 1530.1" }, { "property": "Adhesive Backing",
+"value": "High-tack pressure-sensitive adhesive with release liner", "standard":
+"" }, { "property": "Pack Coverage", "value": "Pack of 50 strips (60 lineal
+metres)", "standard": "" } ], "range": [ { "variant": "Trade Select NC
+ThermalBreak Strip Adhesive Backed 45mm x 1200mm", "size_or_rating": "10 mm x 45
+mm x 1200 mm (RT 0.24)", "pack": "Pack of 50 strips (60 lm)" } ], "fire":
+"Tested to AS 1530.1 and classified as Not Deemed Combustible; Suitable for
+BAL-12.5 to BAL-FZ to AS 3959", "compliance": "NCC 2019 / NCC 2022 Volume One
+(C1.9, C2D10, J4D3) and Volume Two (Part 3.7.1, H3D2, 13.2.2); AS 1530.1;
+AS/NZS 4859.1", "sustainability": "Zero ODP; low VOC emissions; solvent-free
+adhesive; non-toxic", "install": [ "Ensure steel stud flange or purlin surface
+is clean, dry, and free from oil, grease, or dust", "Install pliable wall wrap
+or roof sarking over the steel framing in accordance with AS/NZS 4200.2", "Peel
+back the protective release liner from the self-adhesive backing of the thermal
+break strip", "Press the strip firmly along the steel stud or purlin face,
+ensuring continuous adhesive contact", "Butt consecutive 1200mm strips tightly
+end-to-end along the entire length of the framing member", "Fasten exterior
+cladding, battens, or roofing directly through the strip into the steel frame"
+], "selection_checklist": [ "Confirm requirement for self-adhesive
+peel-and-stick backing for faster installation", "Verify project requires
+AS 1530.1 non-combustible compliance for steel frames", "Measure total linear
+meterage of framing to calculate pack requirement (60 lineal metres per pack)",
+"Ensure cladding screws have sufficient length to account for the 10mm strip
+thickness" ], "accessories": [ "Trade Select VapourTech wall wraps",
+"Extended-length self-drilling cladding screws" ], "limitations": [
+"Non-structural spacer; cladding fasteners must penetrate through strip into
+steel frame", "Steel substrate must be clean and dry to ensure proper adhesive
+grab", "Cladding should be installed without prolonged delay to protect the
+assembly" ], "warranty": "15 Year Product Warranty backed by Ametalin", "found":
+true, "search_keywords": [ "Trade Select NC Thermal Break Adhesive Backed",
+"self adhesive non-combustible thermal break", "peel and stick thermal break
+strip", "Ametalin NC Thermal Break adhesive", "AS 1530.1 adhesive thermal
+break", "R0.2 adhesive thermal break strip", "steel frame adhesive thermal
+strip" ], "problem_keywords": [ "thermal break strips falling off steel studs in
+wind", "thermal bridging on high rise steel facades", "two-man installation
+needed to hold thermal break", "meeting NCC non-combustible thermal break
+requirement", "slow mechanical fixing of thermal break strips" ], "placement": [
+"wall", "external wall", "roof", "roofline" ], "priority_fit": [ "fire",
+"thermal", "easy_install" ], "use_cases": [ "Fast peel-and-stick application of
+an AS 1530.1 non-combustible R0.24 thermal break to steel framing in high-rise
+commercial facades", "One-person installation of non-combustible thermal breaks
+on steel roof purlins in windy site conditions", "Thermal break isolation on
+BAL-FZ bushfire construction walls" ], "not_for": [ "Timber framing where
+standard foam thermal breaks are sufficient", "Direct floor traffic surfaces",
+"Wet or oily steel surfaces without cleaning" ], "rag_summary": "Trade Select NC
+Thermal Break Strips Adhesive Backed (by Ametalin) are 10mm x 45mm x 1200mm
+non-combustible thermal break strips equipped with a peel-and-stick high-tack
+adhesive backing. Classified as Not Deemed Combustible under AS 1530.1 and
+delivering an in-situ R0.24 thermal break, they allow fast, one-person
+installation onto steel studs and roof purlins without slipping or blowing away
+in wind. Fully compliant with NCC Volume One and Two requirements for
+non-combustible construction and BAL-FZ bushfire zones, they provide an
+efficient, code-compliant thermal break." } ]

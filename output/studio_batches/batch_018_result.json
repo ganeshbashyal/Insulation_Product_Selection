@@ -1,0 +1,431 @@
+
+[ { "family_id": "KNAUF_BATT", "tds_url":
+"https://www.knaufinsulation.com.au/products/earthwool-wall-batts", "sds_url":
+"https://www.knaufinsulation.com.au/products/earthwool-wall-batts",
+"description": "Earthwool Wall and Ceiling Batts are high-performance glass
+mineral wool insulation batts manufactured by Knauf Insulation using ECOSE
+Technology. Engineered with a bio-based binder containing no added formaldehyde,
+phenol, or acrylics, Earthwool batts are soft to handle, low-dust, and
+non-combustible. Featuring TwinTech dual-forming manufacturing for a smooth
+finish on both sides, they improve the thermal comfort and energy efficiency of
+residential and commercial buildings while absorbing airborne acoustic sound.",
+"features": [ "ECOSE Technology bio-based binder with no added formaldehyde",
+"TwinTech dual-forming technique ensures a smooth finish on both sides",
+"Non-combustible when tested in accordance with AS 1530.1", "Sound absorbing,
+reducing external traffic and internal room-to-room noise", "Soft to handle,
+easy to install, and significantly less itchy than traditional glasswool",
+"Manufactured using up to 80% recycled glass", "Compression packed into robust
+poly packs for easier transport and handling", "Low VOC emissions and Eurofins
+Indoor Air Comfort Gold certified", "Certified under BRANZ Appraisal No. 873",
+"Backed by a 50-year product warranty" ], "applications": [ "ceiling", "wall",
+"external wall", "internal wall", "between floors" ], "technical": [ {
+"property": "Thermal Conductivity (lambda)", "value": "0.032 - 0.045 W/m·K
+(depending on R-value)", "standard": "ASTM C518" }, { "property": "Ceiling
+R-values", "value": "R2.5, R3.0, R3.5, R4.0, R5.0, R6.0, R7.0", "standard":
+"AS/NZS 4859.1" }, { "property": "Wall R-values", "value": "R1.5, R2.0, R2.5,
+R2.7, R4.0", "standard": "AS/NZS 4859.1" }, { "property": "Standard Dimensions",
+"value": "1160 mm length x 430 mm or 580 mm width", "standard": "" }, {
+"property": "Combustibility", "value": "Non-combustible", "standard":
+"AS 1530.1" }, { "property": "Early Fire Hazard Indices", "value":
+"Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+"standard": "AS/NZS 1530.3" }, { "property": "Water Vapor Absorption", "value":
+"< 1% by volume", "standard": "" }, { "property": "Microbial Resistance",
+"value": "Does not support microbial growth", "standard": "" } ], "range": [ {
+"variant": "Earthwool Wall Batts R2.0 (90mm)", "size_or_rating": "90 mm x 1160
+mm x 430/580 mm", "pack": "Pack of batts" }, { "variant": "Earthwool Wall Batts
+R2.5 (90mm)", "size_or_rating": "90 mm x 1160 mm x 430/580 mm", "pack": "Pack of
+batts" }, { "variant": "Earthwool Wall Batts R2.7 (90mm)", "size_or_rating": "90
+mm x 1160 mm x 430/580 mm", "pack": "Pack of batts" }, { "variant": "Earthwool
+Ceiling Batts R3.5", "size_or_rating": "175 mm x 1160 mm x 430/580 mm", "pack":
+"Pack of batts" }, { "variant": "Earthwool Ceiling Batts R4.0",
+"size_or_rating": "195 mm x 1160 mm x 430/580 mm", "pack": "Pack of batts" }, {
+"variant": "Earthwool Ceiling Batts R5.0", "size_or_rating": "210 mm x 1160 mm
+x 430/580 mm", "pack": "Pack of batts" }, { "variant": "Earthwool Ceiling Batts
+R6.0", "size_or_rating": "250 mm x 1160 mm x 430/580 mm", "pack": "Pack of
+batts" }, { "variant": "Earthwool Ceiling Batts R7.0", "size_or_rating": "290 mm
+x 1160 mm x 430/580 mm", "pack": "Pack of batts" } ], "fire": "Non-combustible
+to AS 1530.1; AS/NZS 1530.3 indices: Ignitability 0, Spread of Flame 0, Heat
+Evolved 0, Smoke Developed 0-1; Suitable for bushfire construction to AS 3959",
+"compliance": "AS/NZS 4859.1:2018, AS 3999, BRANZ Appraisal 873, NCC 2022 Volume
+One and Two (7-star NatHERS compliant)", "sustainability": "Manufactured from up
+to 80% recycled glass; ECOSE Technology bio-based binder; zero added
+formaldehyde; Global GreenTag GreenRate Level A; Eurofins Gold indoor air
+comfort", "install": [ "Isolate electrical power at the main switchboard before
+entering ceiling spaces or touching wall cavities", "Friction fit batts snugly
+between timber or steel framing members without gaps or folds", "In ceilings,
+lay batts flat between ceiling joists ensuring complete, continuous coverage
+over plasterboard", "At roof eaves, maintain minimum 20mm clearance between
+insulation and roof cladding/sarking", "Maintain minimum 50mm clearance around
+non-IC rated recessed downlights and heat flues as per AS 3999", "In walls,
+ensure batts butt tightly against top and bottom plates and fill the cavity
+without bulging plasterboard", "Cut neatly around electrical boxes, plumbing,
+and wiring using a sharp utility knife" ], "selection_checklist": [ "Determine
+application (ceiling vs external walls vs internal acoustic walls)", "Select
+required R-value to achieve 7-star NatHERS energy compliance for climate zone",
+"Measure framing centers (430mm for 450mm centers; 580mm for 600mm centers)",
+"Check wall cavity depth (75mm for 70mm studs; 90mm for 90mm studs)", "Verify
+downlight ratings (IC/IC-4 rated allows continuous insulation coverage per
+AS 3999)" ], "accessories": [ "Perimeter eave baffles", "Insulation strapping",
+"Utility knife" ], "limitations": [ "Do not compress batts into cavities
+narrower than nominal thickness as this reduces thermal R-value", "Must be
+protected from continuous water exposure and outdoor weather", "Not designed as
+an exposed decorative lining; must be enclosed behind plasterboard or internal
+linings" ], "warranty": "50 Year Product Warranty", "found": true,
+"search_keywords": [ "Knauf Batt", "Earthwool batts", "Earthwool ceiling batts",
+"Earthwool wall batts", "Knauf insulation batts", "R2.5 Earthwool", "R4.0
+Earthwool", "R6.0 Earthwool", "non-itchy glasswool batts", "ECOSE batts", "7
+star insulation batts" ], "problem_keywords": [ "itchy fiberglass batts", "hot
+rooms upstairs in summer", "high winter heating costs", "uninsulated ceiling
+heat escape", "drafts through external walls", "meeting 7-star NatHERS energy
+compliance" ], "placement": [ "ceiling", "wall", "internal wall", "external
+wall", "between floors" ], "priority_fit": [ "thermal", "acoustic",
+"sustainability", "easy_install", "fire" ], "use_cases": [ "Insulating
+residential pitched roof ceiling spaces to meet 7-star NatHERS energy
+requirements", "Thermal insulation in external timber-stud and steel-stud walls
+behind brick veneer or lightweight cladding", "Acoustic noise reduction in
+internal partition walls between bedrooms and bathrooms" ], "not_for": [
+"Exposed decorative wall lining without plasterboard", "Underfloor crawl spaces
+directly exposed to wet soil", "Operating temperatures continuously
+exceeding 350°C" ], "rag_summary": "Knauf Earthwool Batts (Knauf Batt) are
+non-combustible glass mineral wool thermal and acoustic insulation batts
+manufactured using bio-based ECOSE Technology with zero added formaldehyde.
+Available in wall ratings from R1.5 to R4.0 and ceiling ratings from R2.5 up to
+Australia's thickest R7.0, they fit standard 430mm and 580mm framing without
+slumping. Tested non-combustible to AS 1530.1 and certified under BRANZ
+Appraisal 873 and GreenTag Level A, they provide an itch-free, low-dust
+installation backed by a 50-year warranty." }, { "family_id":
+"KNAUF_BLANKET_ROOF_LAMIN", "tds_url":
+"https://www.knaufinsulation.com.au/products/earthwool-roof-blanket", "sds_url":
+"https://www.knaufinsulation.com.au/products/earthwool-roof-blanket",
+"description": "Earthwool Roof Blanket (with reflective foil laminate / Space
+Blanket) is a glass mineral wool roll insulation factory-bonded to a reflective
+foil facing, designed for thermal performance, condensation control, and
+acoustic absorption under metal roofs. Manufactured with ECOSE Technology using
+bio-based binders and up to 80% recycled glass, it significantly reduces radiant
+heat gain and exterior rain drumming noise. The reflective foil facing acts as a
+vapor barrier and radiant barrier, protecting metal roof assemblies from
+condensation damage while complying with NCC fire and bushfire standards up to
+BAL-40.", "features": [ "Factory-laminated with reflective foil facing including
+a 150mm overlap flap", "Dual thermal and acoustic performance: slows heat flow
+and dampens rain impact drumming", "Controls condensation formation on the
+underside of metal roof sheeting", "Non-combustible glass mineral wool core
+complying with AS 1530.1", "ECOSE Technology bio-based binder with no added
+formaldehyde or harsh chemicals", "Tested to AS 1530.2 with a low Flammability
+Index (≤ 5)", "Suitable for sealing ember entry points in bushfire zones up to
+BAL-40 under AS 3959", "Made using up to 80% recycled glass", "Soft to handle,
+low dust, and odorless", "Group 1 fire classification compliant with AS 5637.1 /
+AS ISO 9705" ], "applications": [ "roof", "roofline", "ceiling", "shed",
+"underfloor" ], "technical": [ { "property": "Material Composition", "value":
+"Bio-soluble glass mineral wool blanket bonded with ECOSE binder, laminated with
+reflective foil facing", "standard": "" }, { "property": "Material R-values",
+"value": "R1.3 (55mm), R1.8 (75mm), R2.5 (100mm), R3.0 (125mm), R3.2 (130mm),
+R3.6 (140mm)", "standard": "AS/NZS 4859.1" }, { "property": "Thicknesses",
+"value": "55 mm, 75 mm, 100 mm, 125 mm, 130 mm, 140 mm", "standard": "" }, {
+"property": "Width", "value": "1200 mm", "standard": "" }, { "property": "Roll
+Lengths", "value": "10 m, 15 m, 20 m (depending on thickness)", "standard": ""
+}, { "property": "Foil Flap Width", "value": "150 mm edge overlap flap",
+"standard": "" }, { "property": "Combustibility (Core)", "value":
+"Non-combustible", "standard": "AS 1530.1" }, { "property": "Early Fire Hazard
+Indices", "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke
+Developed: 0-1", "standard": "AS/NZS 1530.3" }, { "property": "Facing
+Flammability Index", "value": "≤ 5", "standard": "AS 1530.2" }, { "property":
+"Group Fire Rating", "value": "Group 1", "standard": "AS 5637.1 / AS ISO 9705" }
+], "range": [ { "variant": "Earthwool Roof Blanket R1.3 (55mm)",
+"size_or_rating": "55 mm x 1200 mm x 20 m (24 m²)", "pack": "Roll" }, {
+"variant": "Earthwool Roof Blanket R1.8 (75mm)", "size_or_rating": "75 mm x 1200
+mm x 15 m (18 m²)", "pack": "Roll" }, { "variant": "Earthwool Roof Blanket R2.5
+(100mm)", "size_or_rating": "100 mm x 1200 mm x 10 m (12 m²)", "pack": "Roll" },
+{ "variant": "Earthwool Roof Blanket R3.0 (125mm)", "size_or_rating": "125 mm
+x 1200 mm x 10 m (12 m²)", "pack": "Roll" }, { "variant": "Earthwool Roof
+Blanket R3.6 (140mm)", "size_or_rating": "140 mm x 1200 mm x 6.5 m (7.8 m²)",
+"pack": "Roll" } ], "fire": "Core non-combustible to AS 1530.1; Group 1 to
+AS 5637.1 / AS ISO 9705; Facing Flammability Index ≤ 5 (AS 1530.2); Suitable for
+BAL-12.5 to BAL-40 under AS 3959", "compliance": "AS/NZS 4859.1, AS/NZS 4200.1,
+AS 3959, NCC 2022 Volume One and Volume Two", "sustainability": "Manufactured
+with up to 80% recycled glass; ECOSE Technology bio-based binder; zero added
+formaldehyde; low VOC emissions", "install": [ "Roll out blanket over roof
+purlins, rafters, or safety wire mesh with reflective foil facing downward
+towards building interior", "Overlap adjacent rolls using the factory 150mm foil
+flap", "Tape all foil lap joints continuously with 72mm reinforced aluminum foil
+tape to maintain vapor barrier integrity", "Allow a nominal 40mm drape between
+purlins to promote condensation drainage towards eaves if unmeshed", "Fasten
+metal roofing sheets directly over the blanket through to purlins", "Ensure
+blanket terminates neatly at gutter line without obstructing stormwater flow" ],
+"selection_checklist": [ "Confirm roof type (pitched or curved metal deck roof,
+shed, or commercial warehouse)", "Select required R-value (R1.3 to R3.6) to meet
+NCC roof energy compliance", "Choose foil duty rating (Light, Medium, or Heavy
+Duty) based on span and roof traffic", "Calculate total roof area
+including 150mm overlap allowance", "Order matching 72mm reinforced foil tape
+and safety wire mesh" ], "accessories": [ "72mm Reinforced Aluminum Foil Tape",
+"Roof safety wire mesh", "Thermal roof spacers / Roof Razor" ], "limitations": [
+"Must not be left exposed to rain or weather prior to roof sheet installation",
+"Foil lap joints must be taped continuously to maintain vapor barrier
+performance", "For tropical high-humidity climates, verify condensation design
+before installing foil facing inward" ], "warranty": "50 Year Product Warranty",
+"found": true, "search_keywords": [ "Knauf Blanket Roof Lamin", "Earthwool Roof
+Blanket", "Knauf roof blanket", "foil faced roof blanket", "Space Blanket
+Knauf", "R1.3 roof blanket", "R1.8 roof blanket", "R2.5 roof blanket", "R3.6
+roof blanket", "metal roof insulation blanket" ], "problem_keywords": [
+"dripping condensation under metal roof", "rain drumming noise on tin roof",
+"sweltering heat under metal deck roof", "condensation buildup in commercial
+roof", "uninsulated shed roof heat" ], "placement": [ "roof", "roofline",
+"ceiling", "shed", "underfloor" ], "priority_fit": [ "thermal", "condensation",
+"acoustic", "fire" ], "use_cases": [ "Insulation blanket beneath corrugated or
+standing-seam metal roofs in residential homes to prevent condensation and
+dampen rain noise", "Thermal and acoustic roof blanket in commercial warehouses,
+sports halls, and shopping centres", "Under-roof insulation in domestic garages
+and rural steel sheds" ], "not_for": [ "Internal drywall partition cavity
+batts", "Underfloor suspended timber floors without support mesh", "Direct
+exposure without outer roof sheeting" ], "rag_summary": "Knauf Blanket Roof
+Lamin (Earthwool Roof Blanket / Space Blanket) is a glass mineral wool
+insulation blanket factory-laminated to a reflective foil facing with a 150mm
+overlap flap. Engineered for installation under residential and commercial metal
+roofs, it prevents condensation, reflects radiant heat, and dampens rain impact
+drumming noise. Manufactured with bio-based ECOSE Technology, non-combustible
+core (AS 1530.1), and low-flammability foil (Index ≤ 5, BAL-40 compliant), it
+delivers ratings from R1.3 to R3.6 backed by a 50-year warranty." }, {
+"family_id": "MARTINI_COMMERCIAL_POLYESTER_MARTINI_MAB", "tds_url":
+"https://www.csrmartini.com.au/product/martini-mab/", "sds_url":
+"https://www.csrmartini.com.au/wp-content/uploads/", "description": "Martini MAB
+(Multi-Application Blanket & Batts) is a premium commercial and industrial
+polyester acoustic and thermal insulation manufactured by CSR Martini. Produced
+in densities from 11 kg/m³ to 60 kg/m³ and thicknesses from 25mm to 100mm, it is
+engineered to reduce echo and absorb reverberant sound in sports halls, cinemas,
+studios, industrial enclosures, HVAC ducts, silencers, and plant rooms. Formed
+from 100% thermally bonded polyester fibers containing up to 80% recycled PET
+without chemical binders, it is completely non-toxic, non-irritant, and
+non-allergenic.", "features": [ "Multi-purpose acoustic and thermal insulation
+manufactured to specific densities (11 to 60 kg/m³)", "Engineered for
+commercial, institutional, and industrial noise reduction", "Completely
+non-irritant, non-toxic, and non-allergenic; safe to install without PPE",
+"Available in standard white, with black or grey available upon request",
+"Exceptional sound absorption across speech and mechanical equipment frequencies
+(NRC up to 1.00+)", "100% thermally bonded polyester with zero chemical binders,
+formaldehyde, or respirable fibers", "Certified Global GreenTag GreenRate Level
+A and Declare Red List Free", "Bio-stable and hydrophobic; will not rot,
+degrade, or harbor mold or vermin", "100% recyclable with high reuse potential",
+"Environmental Product Declaration (EPD) certified in accordance with ISO 14025"
+], "applications": [ "wall", "internal wall", "ceiling", "between floors",
+"duct", "pipe", "shed" ], "technical": [ { "property": "Density Options",
+"value": "11 kg/m³, 14 kg/m³, 20 kg/m³, 24 kg/m³, 30 kg/m³, 32 kg/m³, 48
+kg/m³, 60 kg/m³", "standard": "" }, { "property": "Thickness Options", "value":
+"25 mm, 30 mm, 50 mm, 75 mm, 100 mm", "standard": "" }, { "property": "Standard
+Sheet Dimensions", "value": "1200 mm x 2400 mm (custom sizes and rolls
+available)", "standard": "" }, { "property": "Acoustic Performance", "value":
+"NRC 0.65 to 1.10 depending on density and thickness (e.g. 50mm 32kg/m³:
+NRC 0.85-0.90; 75mm 32kg/m³: NRC 1.00; 100mm: NRC 1.05+)", "standard": "ISO 354
+/ AS 1045" }, { "property": "Fire Hazard Indices", "value": "Ignitability: 0,
+Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1", "standard":
+"AS/NZS 1530.3" }, { "property": "Thermal Conductivity", "value": "0.032 - 0.040
+W/m·K (depending on density)", "standard": "ASTM C518" }, { "property": "Maximum
+Service Temperature", "value": "150°C", "standard": "" }, { "property":
+"Volatile Organic Compounds (VOC)", "value": "Classified as low (0.01 mg/m³)",
+"standard": "" } ], "range": [ { "variant": "Martini MAB 14 (14 kg/m³)",
+"size_or_rating": "50mm / 75mm / 100mm x 1200mm x 2400mm", "pack": "Pack of
+batts" }, { "variant": "Martini MAB 20 (20 kg/m³)", "size_or_rating": "25mm
+/ 50mm / 75mm / 100mm x 1200mm x 2400mm", "pack": "Pack of batts" }, {
+"variant": "Martini MAB 32 (32 kg/m³)", "size_or_rating": "25mm / 50mm / 75mm
+/ 100mm x 1200mm x 2400mm", "pack": "Pack of batts" }, { "variant": "Martini
+MAB 48 (48 kg/m³)", "size_or_rating": "25mm / 50mm / 75mm x 1200mm x 2400mm",
+"pack": "Pack of batts" }, { "variant": "Martini MAB 60 (60 kg/m³)",
+"size_or_rating": "25mm / 50mm x 1200mm x 2400mm", "pack": "Pack of batts" } ],
+"fire": "AS/NZS 1530.3 indices: Ignitability 0, Spread of Flame 0, Heat
+Evolved 0, Smoke Developed 0-1; Suitable for commercial wall and ceiling
+cavities", "compliance": "AS/NZS 4859.1, ISO 354 / AS 1045, NCC Volume One and
+Two", "sustainability": "Manufactured using up to 80% recycled post-consumer
+PET; Global GreenTag GreenRate Level A; Declare Red List Free; EPD certified
+(ISO 14025); Low VOC (0.01 mg/m³); Zero ODP", "install": [ "Ensure cavity
+framing, ceiling space, or duct substrate is clean, dry, and free of debris",
+"Select density and thickness specified by the acoustic consultant (e.g. MAB 32
+for sound absorption)", "Friction-fit sheets into wall framing bays or lay flat
+above suspended ceiling tiles", "For perforated paneling or slotted timber,
+install black MAB directly against the rear of panels to conceal framing", "Cut
+neatly around mechanical services and electrical boxes using a utility knife or
+electric cutter", "Overlap or butt adjoining batts tightly together to eliminate
+acoustic flanking gaps", "In HVAC acoustic silencers or attenuators, install
+with protective perforated facing to prevent airstream erosion" ],
+"selection_checklist": [ "Confirm density (14kg, 20kg, 32kg, 48kg, or 60kg/m³)
+specified for acoustic absorption requirements", "Select thickness (25mm
+to 100mm) based on target NRC and available cavity depth", "Choose colorway
+(standard white for concealed cavities; black for behind slotted timber or
+perforated panels)", "Verify if required in sheets (1200x2400mm) or continuous
+rolls" ], "accessories": [ "Utility knife", "Mechanical impaling pins",
+"Acoustic sealant" ], "limitations": [ "Internal use only; not suitable for
+direct exterior weather exposure", "Maximum continuous service temperature
+is 150°C", "In high-velocity HVAC ducts, requires perforated metal or scrim
+facing to prevent fiber displacement" ], "warranty": "Backed by CSR Martini
+commercial product warranty", "found": true, "search_keywords": [ "Martini MAB",
+"CSR Martini MAB", "Martini commercial polyester", "MAB acoustic insulation",
+"Martini MAB 32", "Martini MAB 48", "polyester acoustic batts", "black acoustic
+backing polyester", "perforated panel acoustic backing", "industrial acoustic
+polyester" ], "problem_keywords": [ "reverberation behind slotted timber walls",
+"sound reflection in sports hall", "HVAC silencer airflow noise", "cinema and
+studio echo", "flanking noise above suspended ceiling tiles", "itchy acoustic
+insulation replacement" ], "placement": [ "wall", "internal wall", "ceiling",
+"between floors", "duct", "pipe", "shed" ], "priority_fit": [ "acoustic",
+"thermal", "sustainability", "fire" ], "use_cases": [ "Acoustic backing absorber
+installed behind perforated metal or slotted timber panels in auditoriums and
+sports halls", "Ceiling overlay above suspended grid tiles to control cross-talk
+and room-to-room flanking noise", "Acoustic sound absorption infill in HVAC
+acoustic attenuators, duct silencers, and plant room enclosures" ], "not_for": [
+"Direct outdoor weather-exposed facades", "Continuous service temperatures
+exceeding 150°C", "Underfloor soil direct contact" ], "rag_summary": "CSR
+Martini MAB (Commercial Polyester / Martini MAB) is a premium acoustic and
+thermal insulation manufactured from 100% thermally bonded polyester with up
+to 80% recycled PET. Available in densities from 11 kg/m³ to 60 kg/m³ and
+thicknesses from 25mm to 100mm (in white, grey, or acoustic black), it achieves
+Class A acoustic sound absorption (NRC up to 1.10) in studios, cinemas, sports
+halls, and HVAC silencers. Non-toxic, non-irritant, GreenTag Level A certified,
+and fire-tested to AS/NZS 1530.3, it delivers fiber-safe commercial acoustic
+performance." }, { "family_id": "METECNO_ACCESSORY", "tds_url": "", "sds_url":
+"", "description": "", "features": [], "applications": [], "technical": [],
+"range": [], "fire": "", "compliance": "", "sustainability": "", "install": [],
+"selection_checklist": [], "accessories": [], "limitations": [], "warranty": "",
+"found": false, "search_keywords": [ "Metecno accessory", "Metecno flashings",
+"Bondor Metecno accessories", "insulated panel accessories", "coolroom panel
+accessories", "Metecno fixings" ], "problem_keywords": [ "thermal leaks at panel
+joints", "fixing insulated sandwich panels", "airtight sealing of coolroom
+panels", "flashing insulated roof panels" ], "placement": [ "wall", "external
+wall", "roof", "ceiling" ], "priority_fit": [ "easy_install", "thermal" ],
+"use_cases": [ "Flashing and sealing joints in Metecno insulated sandwich panel
+systems", "Fixing components for coolrooms and commercial insulated wall
+envelopes" ], "not_for": [ "Internal drywall cavity batts", "Underfloor crawl
+space batts", "Pipe lagging" ], "rag_summary": "Metecno Accessory encompasses
+specialized installation hardware, perimeter flashings, fasteners, and sealants
+used in conjunction with Metecno / Bondor insulated composite sandwich panels
+(such as MetecnoPanel, MetecnoSpan, and MetecnoCoffer). These accessories
+maintain airtight, weather-tight, and thermally isolated connections across
+commercial coolrooms, architectural facades, and industrial roof envelopes." },
+{ "family_id": "METECNO_ALUMINIUM_GLASS_FOIL_TAPE", "tds_url": "", "sds_url":
+"", "description": "", "features": [], "applications": [], "technical": [],
+"range": [], "fire": "", "compliance": "", "sustainability": "", "install": [],
+"selection_checklist": [], "accessories": [], "limitations": [], "warranty": "",
+"found": false, "search_keywords": [ "Metecno Aluminium Glass Foil Tape",
+"aluminum glass cloth tape", "reinforced foil tape Metecno", "glass cloth foil
+tape", "insulated panel foil tape", "vapor seal foil tape" ],
+"problem_keywords": [ "vapor leakage at panel joints", "air leaks in coolroom
+panels", "joining foil faced insulation", "tearing foil tape on insulated
+panels" ], "placement": [ "roof", "roofline", "wall", "duct", "pipe" ],
+"priority_fit": [ "condensation", "easy_install", "thermal" ], "use_cases": [
+"Sealing joints and seams on aluminum-faced and foil-faced insulated panels",
+"Vapor-tight sealing across coolroom and cold storage panel joints", "Sealing
+HVAC ductwork and high-temperature pipe lagging seams" ], "not_for": [
+"Structural mechanical load fastening", "Subterranean wet tanking", "Exhaust
+flues exceeding 150°C" ], "rag_summary": "Metecno Aluminium Glass Foil Tape
+represents heavy-duty reinforced aluminum glass-cloth tape distributed for vapor
+sealing and air-tight jointing on insulated panels and HVAC duct systems.
+Featuring high tensile strength fiberglass scrim reinforcement and an aggressive
+pressure-sensitive adhesive, it creates impermeable vapor barriers across panel
+seams in coolrooms, food processing facilities, and commercial buildings." }, {
+"family_id": "METECNO_BALLISTIC_POINT_INSULATION_FASTENE", "tds_url": "",
+"sds_url": "", "description": "", "features": [], "applications": [],
+"technical": [], "range": [], "fire": "", "compliance": "", "sustainability":
+"", "install": [], "selection_checklist": [], "accessories": [], "limitations":
+[], "warranty": "", "found": false, "search_keywords": [ "Ballistic Point
+Insulation Fastener", "ICCONS ballistic point fastener", "drive pin insulation
+fastener", "concrete insulation fastener", "gas nail insulation fastener",
+"Metecno ballistic fastener", "soffit insulation pin" ], "problem_keywords": [
+"slow drilling and fixing soffit insulation", "insulation fasteners pulling out
+of concrete", "thermal bridging through metal fasteners", "fastening rigid
+insulation to concrete ceiling", "fixing facade insulation to masonry" ],
+"placement": [ "ceiling", "wall", "external wall", "floor", "underfloor" ],
+"priority_fit": [ "easy_install", "thermal" ], "use_cases": [ "High-speed
+fastening of rigid insulation boards (EPS, PIR, phenolic) to concrete soffits
+using gas or powder-actuated tools", "Securing commercial facade insulation
+panels to structural concrete columns and masonry walls", "Direct-fixing carpark
+ceiling insulation boards without pre-drilling" ], "not_for": [ "Timber framing
+without concrete backing", "Lightweight plasterboard internal stud partitions",
+"Hollow steel framing" ], "rag_summary": "Metecno Ballistic Point Insulation
+Fastener (manufactured by ICCONS under the GTIF series and distributed across
+the Australian commercial construction market) is a pre-assembled ballistic
+drive pin with an integrated 60mm plastic washer head. Engineered for gas or
+powder-actuated tools (such as the GTIXF-160C), it enables rapid, drill-free
+fastening of 25mm to 100mm rigid insulation panels directly to hard concrete,
+masonry, and structural steel substrates in carparks, soffits, and facade
+walls." }, { "family_id": "METECNO_BOARD", "tds_url": "", "sds_url": "",
+"description": "", "features": [], "applications": [], "technical": [], "range":
+[], "fire": "", "compliance": "", "sustainability": "", "install": [],
+"selection_checklist": [], "accessories": [], "limitations": [], "warranty": "",
+"found": false, "search_keywords": [ "Metecno Board", "MetecnoPanel", "Metecno
+PIR board", "Metecno EPS board", "Bondor Metecno panel", "insulated sandwich
+panel board", "coolroom board Metecno" ], "problem_keywords": [ "thermal loss in
+cold storage walls", "slow wall construction with multi-layer systems",
+"condensation in food processing rooms", "structural insulated panel
+requirements" ], "placement": [ "wall", "external wall", "ceiling", "roof",
+"shed" ], "priority_fit": [ "thermal", "fire", "easy_install" ], "use_cases": [
+"Insulated structural walls and ceilings for cold storage, coolrooms, and food
+processing facilities", "Commercial industrial building envelope wall panels
+with pre-finished steel facings", "Cleanroom and pharmaceutical wall enclosures"
+], "not_for": [ "Cavity infill behind standard plasterboard studs", "Underfloor
+residential joists", "Flexible duct lining" ], "rag_summary": "Metecno Board
+represents insulated composite sandwich panels manufactured and supplied by
+Metecno / Bondor Australia (such as MetecnoPanel and MetecnoSpan). Formed with
+high-performance PIR, EPS-FR, or mineral wool cores bonded between Colorbond
+steel skins, these structural panels provide integrated exterior cladding, vapor
+barrier, and thermal insulation in a single element for commercial coolrooms,
+distribution centers, and industrial facilities." }, { "family_id":
+"MISC_ACCESSORY", "tds_url": "", "sds_url": "", "description": "", "features":
+[], "applications": [], "technical": [], "range": [], "fire": "", "compliance":
+"", "sustainability": "", "install": [], "selection_checklist": [],
+"accessories": [], "limitations": [], "warranty": "", "found": false,
+"search_keywords": [ "insulation accessories", "insulation clips", "insulation
+pins", "insulation tape", "baffle clips", "fixing washers" ],
+"problem_keywords": [ "loose insulation batts", "unsupported underfloor
+insulation", "unsealed vapor barrier joins", "thermal bridging around fasteners"
+], "placement": [ "wall", "ceiling", "floor", "roof" ], "priority_fit": [
+"easy_install", "thermal" ], "use_cases": [ "Securing and retaining bulk
+insulation batts in wall, ceiling, and floor cavities", "Sealing vapor barrier
+membranes and foil laps", "Spacing insulation to maintain compliant ventilation
+air gaps" ], "not_for": [ "Primary structural building support", "Direct
+external cladding", "Waterproofing below water table" ], "rag_summary": "Misc
+Accessory refers to general-purpose insulation installation accessories
+including mechanical impaling pins, retaining washers, foil joining tapes, and
+insulation knives used across Australian building projects. These components
+ensure insulation panels, batts, and membranes are correctly secured, sealed,
+and aligned to maintain designed thermal and acoustic performance without
+sagging or air leakage." }, { "family_id": "MISC_POLYSTRAPPING", "tds_url": "",
+"sds_url": "", "description": "", "features": [], "applications": [],
+"technical": [], "range": [], "fire": "", "compliance": "", "sustainability":
+"", "install": [], "selection_checklist": [], "accessories": [], "limitations":
+[], "warranty": "", "found": false, "search_keywords": [ "polystrapping
+insulation", "insulation strapping", "underfloor strapping", "poly strapping
+roll", "plastic insulation strapping", "polypropylene strapping 19mm", "batt
+strapping" ], "problem_keywords": [ "underfloor batts falling down", "sagging
+ceiling batts during construction", "holding insulation in joists", "insulation
+batts dropping out of subfloor", "supporting overhead batts" ], "placement": [
+"underfloor", "floor", "subfloor", "ceiling" ], "priority_fit": [
+"easy_install", "budget", "thermal" ], "use_cases": [ "Stapled across the
+underside of floor joists to support underfloor insulation batts and prevent
+gravity sagging", "Temporary support for ceiling batts prior to plasterboard
+installation in cathedral ceilings", "Holding bulk insulation batts in place
+between vertical open stud framing" ], "not_for": [ "Structural pallet strapping
+or load restraint beyond rated tension", "External weather-exposed UV
+applications exceeding 3 months", "Thermal barrier substitute" ], "rag_summary":
+"Misc Polystrapping is high-tensile polypropylene strapping (commonly 15mm
+to 19mm wide in 500m to 1000m rolls) widely utilized in the Australian building
+industry to support underfloor and ceiling insulation batts. Stapled across
+timber joists or steel purlins at 300mm to 450mm intervals, it cradles
+glasswool, polyester, and rockwool batts permanently in position, preventing
+gravity sag, wind dislodgement, and loss of thermal contact with the floor." },
+{ "family_id": "MISC_REFLECTIVE", "tds_url": "", "sds_url": "", "description":
+"", "features": [], "applications": [], "technical": [], "range": [], "fire":
+"", "compliance": "", "sustainability": "", "install": [],
+"selection_checklist": [], "accessories": [], "limitations": [], "warranty": "",
+"found": false, "search_keywords": [ "reflective foil insulation", "reflective
+building wrap", "foil sarking", "thermal radiant barrier", "reflective bubble
+foil", "double sided reflective foil" ], "problem_keywords": [ "radiant heat
+penetrating roof", "hot roof space in summer", "drafts in framed walls",
+"condensation on metal roof underside", "uninsulated shed walls" ], "placement":
+[ "roof", "roofline", "wall", "external wall", "shed" ], "priority_fit": [
+"thermal", "condensation", "budget" ], "use_cases": [ "Radiant heat reflection
+under residential pitched metal or tile roofs", "Thermal barrier wrapping on
+external timber and steel wall framing", "Condensation control and draught
+proofing in domestic metal sheds and garages" ], "not_for": [ "Cold climate wall
+assemblies without vapour-permeable design", "Direct floor foot traffic
+surfaces", "High-temperature exhaust flues" ], "rag_summary": "Misc Reflective
+represents generic reflective foil laminates, bubble foil, and building sarking
+membranes used across Australian residential and commercial construction.
+Engineered with high-purity aluminum foil facings that reflect up to 97% of
+radiant heat when installed facing an enclosed air cavity, these products reduce
+solar heat gain and assist in condensation management when installed in roofs,
+walls, and sheds." } ]

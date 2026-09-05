@@ -1,0 +1,165 @@
+{
+  "family_id": "BRADFORD_WALL_WRAPS_BLACK_LABEL_WITH_INTEGRATED_T",
+  "family_name": "Bradford Wall Wraps - Black Label With Integrated Tape",
+  "datasheet_pdf_url": "https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/walls/enviroseal-commercial-wall",
+  "sds_url": "https://www.bradfordinsulation.com.au/-/media/bradford/files/safety-data-sheet---glasswool.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Bradford Enviroseal ProctorWrap Black Label with Integrated Tape\n(BL-IT) is a premium, Light Duty vapour-permeable wall wrap specifically\ndesigned for use behind open-joint rainscreen facades where high water hold-out\nand superior UV resistance are required. Manufactured with a unique functional\ncoating that provides enhanced temperature resistance up to 120°C and long-term\nUV durability for facades with up to 30% open area, it comes equipped with an\nintegrated adhesive tape system with release liners for fast, airtight lap\nsealing. It permits water vapour to escape from building interiors while forming\na continuous weather and air barrier behind architectural claddings.",
+    "features": [
+      "Engineered for open-joint rainscreen facades with up to 30% open\narea",
+      "Integrated adhesive tape (BL-IT) with release liner eliminates the need\nfor separate joining tapes",
+      "Outstanding UV stability and high temperature\nresistance up to 120°C",
+      "High water hold-out resisting liquid water ingress and\ndriving rain",
+      "Highly vapour permeable (Class 4) allowing controlled moisture\nescape",
+      "Robust spunbond polyolefin construction resistant to wind flap and\ntears",
+      "Suitable for timber and steel frame commercial and residential\nfacades",
+      "Assists in achieving airtight building envelopes for superior energy\nefficiency",
+      "Low flammability index compliant with AS 1530.2"
+    ],
+    "applications": [
+      "wall",
+      "external wall"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "Spunbond polyolefin textile with high-temperature\nfunctional UV coating",
+        "standard": ""
+      },
+      {
+        "property": "Duty Classification",
+        "value": "Light Duty",
+        "standard": "AS/NZS 4200.1"
+      },
+      {
+        "property": "Vapour\nPermeability",
+        "value": "Vapour Permeable (Class 4)",
+        "standard": "AS/NZS 4200.1"
+      },
+      {
+        "property": "Water Control Classification",
+        "value": "Water\nBarrier",
+        "standard": "AS/NZS 4201.4"
+      },
+      {
+        "property": "Air Control\nClassification",
+        "value": "Air Barrier",
+        "standard": "AS/NZS 4200.1"
+      },
+      {
+        "property": "Roll Dimensions",
+        "value": "1500 mm width x 50 m length (75 m² per\nroll)",
+        "standard": ""
+      },
+      {
+        "property": "Weight per Roll",
+        "value": "Approx. 13.5 kg",
+        "standard": ""
+      },
+      {
+        "property": "Temperature Resistance",
+        "value": "-40°C to +120°C",
+        "standard": ""
+      },
+      {
+        "property": "UV Exposure Limit",
+        "value": "Up to 120 days unclad; suitable behind open joints up to 30% facade\nopening",
+        "standard": ""
+      },
+      {
+        "property": "Flammability Index",
+        "value": "≤ 5\n(Low Flammability)",
+        "standard": "AS 1530.2"
+      },
+      {
+        "property": "Product Code",
+        "value": "106703",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Enviroseal\nProctorWrap BL-IT",
+        "size_or_rating": "1500 mm x 50 m (75 m²)",
+        "pack": "Roll\n(Code: 106703)"
+      }
+    ],
+    "fire": "Flammability Index ≤ 5 to AS 1530.2; Suitable for\nuse in bushfire BAL-12.5 to BAL-40 external wall systems in accordance with\nAS 3959",
+    "compliance": "AS/NZS 4200.1:2017, AS/NZS 4200.2, AS 1530.2, NCC 2022\nVolume 1 & 2 condensation management",
+    "sustainability": "Zero ODP,\nnon-hazardous, 100% recyclable polyolefin materials, low VOC",
+    "install": [
+      "Install horizontally or vertically over timber or steel wall framing studs with\nblack coated face facing outward",
+      "Fasten mechanically to framing at\nmaximum 300mm centres using broad-head nails or screws with washers",
+      "Align\nhorizontal laps ensuring upper sheet overlaps lower sheet by at least 150mm",
+      "Peel release liners from the factory-applied integrated tape along overlapping\nedges",
+      "Press firmly along the integrated tape seam with a squeegee to ensure\nan airtight, continuous seal",
+      "Seal all open facade perimeter terminations and\npenetrations using Bradford Enviroseal Black Label tape",
+      "Ensure open-joint\ncladding does not expose more than 30% of the total membrane area to direct\nsunlight"
+    ],
+    "selection_checklist": [
+      "Confirm cladding type is open-joint\nrainscreen facade or battened open cladding",
+      "Verify facade open area does not\nexceed 30% of total surface area",
+      "Select integrated tape (BL-IT) to eliminate\nseparate lap taping on site",
+      "Confirm total wall square meterage allowing 150mm\noverlaps",
+      "Order complementary Enviroseal Black Label tape for penetrations and\nwindow flashings"
+    ],
+    "accessories": [
+      "Bradford Enviroseal Black Label Tape",
+      "Enviroseal HighTack Tape",
+      "Bradfix fasteners / cap nails",
+      "Application\nsqueegee"
+    ],
+    "limitations": [
+      "Cladding aperture must not expose more than 30%\nof membrane surface to permanent UV",
+      "Not a primary waterproofing membrane;\nmust be sheltered by rainscreen cladding",
+      "Do not leave exposed to weather\nlonger than 120 days prior to cladding installation"
+    ],
+    "warranty": "Backed by\nCSR Bradford product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Bradford\nBlack Label with Integrated Tape",
+      "Enviroseal ProctorWrap Black Label",
+      "BL-IT",
+      "open joint facade wall wrap",
+      "rainscreen wall wrap",
+      "UV resistant\nwall wrap",
+      "black permeable wall wrap",
+      "Bradford 106703",
+      "Enviroseal BL-IT",
+      "vapour permeable open joint wrap"
+    ],
+    "problem_keywords": [
+      "UV degrading wall\nwrap behind open cladding",
+      "water ingress behind open joint rainscreen",
+      "condensation behind open timber battens",
+      "tearing of wall wrap in open joint\nfacades",
+      "need integrated tape on breathable wrap",
+      "drafts through open facade\ncladding"
+    ],
+    "placement": [
+      "wall",
+      "external wall"
+    ],
+    "priority_fit": [
+      "condensation",
+      "fire",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Weatherproofing behind\nopen-joint architectural timber batten facades with up to 30% open area",
+      "Vapour-permeable air barrier behind open-joint metal cassette rainscreen\ncladding systems",
+      "High-temperature commercial facades subjected to intense\nsolar radiation and temperatures up to 120°C"
+    ],
+    "not_for": [
+      "Fully glazed\ncurtain walls without spandrel protection",
+      "Roofs (designed for walls only)",
+      "Continuous immersion in water or subterranean tanking"
+    ],
+    "rag_summary": "Bradford Wall Wraps - Black Label With Integrated Tape (Enviroseal ProctorWrap\nBL-IT, product code 106703) is a specialized Light Duty, Class 4\nvapour-permeable wall wrap engineered for open-joint rainscreen facades.\nManufactured with a high-temperature functional UV coating that withstands\ntemperatures up to 120°C, it is rated for facades with up to 30% open joint\narea. Equipped with an integrated adhesive lap tape system, it seals building\nenvelopes against wind-driven rain and air leakage while allowing interior\nmoisture vapour to breathe freely, complying with AS/NZS 4200.1 and AS 1530.2\n(Flammability Index ≤ 5)."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

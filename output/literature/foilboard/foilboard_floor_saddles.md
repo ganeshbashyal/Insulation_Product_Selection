@@ -1,7 +1,7 @@
 ---
 title: "Foilboard Floor Saddles - Accessory Insulation | Foilboard"
-description: "Quality insulation engineered for Australian conditions. Rigid design makes installation fast and efficient - no sagging or falling out. Essential for"
-keywords: "Foilboard Floor Saddles, Foilboard accessory, floor insulation, insulation Australia, Foilboard Australia"
+description: "Foilboard Floor Saddles are specialized galvanized steel support brackets engineered specifically for installing Foilboard rigid insulation boards bet"
+keywords: "Foilboard Floor Saddles, Foilboard accessory, floor insulation, underfloor insulation, insulation Australia, Foilboard Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: FOILBOARD_FLOOR_SADDLES
 ---
@@ -10,28 +10,32 @@ family_id: FOILBOARD_FLOOR_SADDLES
 
 **Foilboard Accessory** — installation accessories and fixings.
 
-Quality insulation engineered for Australian conditions. Rigid design makes installation fast and efficient - no sagging or falling out. Essential for achieving NCC compliance in floor applications.
+Foilboard Floor Saddles are specialized galvanized steel support brackets engineered specifically for installing Foilboard rigid insulation boards between timber floor joists. Designed with pre-set drops, they automatically create and maintain the required 20mm+ still reflective airspace between the insulation panel and the underside of floorboards. Suitable for new suspended floor construction or retrofits from above, they hold Foilboard panels securely in place without compression, preventing sagging over the life of the building.
 
 ## Key features
 
-- Lightweight closed-cell expanded polystyrene foam.
-- excellent thermal performance with zero thermal drift.
-- moisture resistant closed-cell structure.
-- CFC/HCFC free manufacturing process.
-- rigid design prevents sagging between joists.
-- reduces drafts and cold floors.
+- Engineered specifically for suspending Foilboard panels between timber floor joists.
+- Pre-set drop automatically establishes the critical 20mm reflective airspace.
+- Constructed from durable galvanized spring steel to resist corrosion.
+- Simple hammer-on or press-fit installation onto timber joists.
+- Available in sizes to accommodate 10-25mm and 20-50mm board thicknesses.
+- Maintains permanent panel position, preventing sagging or dislocation.
+- Eliminates the need for adhesives or complicated underfloor strapping.
+- Accelerates installation from above before laying floorboards.
 
 ## Applications and selection
 
-- Floor
+- underfloor
+- floor
+- subfloor
+- between floors
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm Foilboard panel thickness to select saddle depth (100mm for 10-25mm; 130mm for 20-50mm).
+2. Measure total floor joist length to determine saddle quantity (approx. 4-6 saddles per 2.4m bay).
+3. Confirm installation is from above before subfloor sheeting is installed.
+4. Order matching 72mm reinforced foil tape for panel end joins.
 
 
 ## Current catalogue range
@@ -42,37 +46,48 @@ Quality insulation engineered for Australian conditions. Rigid design makes inst
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Accessory | Manufacturer catalogue |
-| Material | Accessory | Manufacturer catalogue |
-| Applications | Floor | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material | Galvanized spring steel | - |
+| Saddle Depths | 100 mm drop (for 10-25mm boards) / 130 mm drop (for 20-50mm boards) | - |
+| Airspace Maintained | Guaranteed minimum 20 mm reflective still air gap beneath floorboards | AS/NZS 4859.1 |
+| Corrosion Protection | Galvanized coating | - |
 
-
+Extracted from manufacturer datasheet: https://www.foilboard.com.au/product/floor-saddles/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Non-combustible galvanized steel; complies with AS 3959 underfloor bushfire requirements
+
+AS/NZS 4859.1, AS 3999, NCC Volume One and Two underfloor thermal provisions
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.foilboard.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://insulationessentials.com.au/wp-content/uploads/2022/10/MSDS-Foilboard-Nov-2019.pdf.
 
+## Recommended accessories
+
+- Foilboard Green panels.
+- Foilboard 72mm Reinforced Aluminum Foil Tape.
+
 
 ## Limitations and warnings
 
-- Combustible material - do not expose to flame or high heat sources..
-- protect from UV exposure during installation..
-- check compatibility with solvents and chemicals before use..
-- not suitable for direct contact with bitumen without barrier..
-- Ensure adequate subfloor ventilation is maintained..
-- do not leave exposed to ground moisture or subfloor dampness..
+- Designed for installation from above before floorboards are laid; for underfloor retrofits from below, use Foilboard Retrofit Clips.
+- Must not be installed on wet or rotting timber joists.
+- Non-structural bracket; do not walk on unsupported panels inside saddles.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Combustible material - do not expose to flame or high heat sources.
+1. Measure timber floor joist spacing (typically 450mm or 600mm centers).
+2. Fit Foilboard Floor Saddles over the top edge of floor joists spaced at approximately 600mm to 750mm centers.
+3. Tap saddles flush onto the joists so the cradle hangs down between the joists.
+4. Cut Foilboard panels to width matching the internal spacing between joists.
+5. Lower Foilboard panel into the joist bay until it rests flat inside the saddle cradles.
+6. Verify the panel sits below the top of the joist, leaving the required 20mm+ air space.
+7. Tape butt joins between panel ends with Foilboard 72mm reinforced foil tape.
+8. Install tongue-and-groove flooring or floorboards directly over the joists.
 
 ## Safety and handling
 
@@ -80,11 +95,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+100% recyclable steel; zero ODP
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Covered under Foilboard 25-year performance warranty system
 
 ## Specification starting point
 

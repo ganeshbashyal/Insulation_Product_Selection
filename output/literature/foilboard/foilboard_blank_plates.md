@@ -1,7 +1,7 @@
 ---
 title: "Foilboard Blank Plates - Accessory Insulation | Foilboard"
-description: "Quality insulation engineered for Australian conditions."
-keywords: "Foilboard Blank Plates, Foilboard accessory, insulation Australia, Foilboard Australia"
+description: "Foilboard Blank Plates are lightweight, rigid spreading washers designed to distribute screw and fastener loads over Foilboard rigid insulation boards"
+keywords: "Foilboard Blank Plates, Foilboard accessory, wall insulation, ceiling insulation, floor insulation, underfloor insulation, shed insulation, insulation Australia, Foilboard Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: FOILBOARD_BLANK_PLATES
 ---
@@ -10,23 +10,34 @@ family_id: FOILBOARD_BLANK_PLATES
 
 **Foilboard Accessory** — installation accessories and fixings.
 
-Quality insulation engineered for Australian conditions.
+Foilboard Blank Plates are lightweight, rigid spreading washers designed to distribute screw and fastener loads over Foilboard rigid insulation boards without crushing the expanded polystyrene (EPS) core. Manufactured from high-impact polymer or sheet metal, they feature pre-punched center holes that accommodate standard wood screws, self-drilling metal tek screws, or masonry anchors. By creating a broad clamping surface, they prevent fastener heads from pulling through the aluminum foil facing during wind load or structural vibration.
 
 ## Key features
 
-- Premium insulation product designed for Australian building conditions.
+- Distributes fastening pressure over a broad surface area to prevent panel crushing.
+- Stops screw heads from tearing through the outer aluminum foil laminate.
+- Pre-punched center hole to fit standard screws, nails, and anchors.
+- Constructed from durable, corrosion-resistant, high-impact polymer or metal.
+- Lightweight, rigid, and fast to position during installation.
+- Compatible with all Foilboard panel thicknesses from 10mm to 50mm.
+- Ideal for walls, ceilings, and underfloor applications.
 
 ## Applications and selection
 
-- General Installation
+- wall
+- external wall
+- internal wall
+- ceiling
+- underfloor
+- subfloor
+- shed
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm fastener screw length accommodates panel thickness plus substrate embedment.
+2. Calculate quantity needed based on approx. 6-8 plates per 2440x1200mm board.
+3. Choose polymer or galvanized plate based on substrate and environmental exposure.
+4. Order matching 72mm foil tape to seal over screw heads.
 
 
 ## Current catalogue range
@@ -37,32 +48,48 @@ Quality insulation engineered for Australian conditions.
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Accessory | Manufacturer catalogue |
-| Material | Accessory | Manufacturer catalogue |
-| Applications | General Installation | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Plate Dimensions | 40 mm x 40 mm (or 50 mm diameter) | - |
+| Center Hole Diameter | 5 mm (suits 8G-10G screws) | - |
+| Material | High-impact rigid polymer / galvanized steel | - |
+| Corrosion Resistance | Corrosion resistant | - |
 
-
+Extracted from manufacturer datasheet: https://www.foilboard.com.au/product-category/accessories/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Non-combustible metal or low-hazard polymer; compatible with NCC fire compliance systems
+
+AS/NZS 4859.1, AS 3999, NCC Volume One and Two
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.foilboard.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://insulationessentials.com.au/wp-content/uploads/2022/10/MSDS-Foilboard-Nov-2019.pdf.
 
+## Recommended accessories
+
+- Foilboard Green panels.
+- Foilboard 72mm reinforced foil tape.
+- Tek screws / timber screws.
+
 
 ## Limitations and warnings
 
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Do not over-tighten fasteners as excessive torque will deform the panel core.
+- Blank Plates do not provide thermal break values on their own.
+- Not designed to support heavy structural cladding loads independently.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: confirm product selection matches specified thermal/acoustic/fire rating.
+1. Position Foilboard panel in place against framing or masonry substrate.
+2. Insert screw, nail, or anchor through the center hole of the Foilboard Blank Plate.
+3. Drive fastener through the Foilboard panel into timber, steel, or masonry framing.
+4. Tighten until the Blank Plate rests snug and flat against the aluminum foil facing.
+5. Do not over-torque to avoid compressing the underlying EPS core.
+6. Place Blank Plates at recommended spacing (typically 600mm centers along edges and center).
+7. Cover plate and fastener head with Foilboard 72mm reinforced foil tape if an airtight vapor seal is required.
 
 ## Safety and handling
 
@@ -70,11 +97,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+100% recyclable; inert; zero ODP
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Backed by Foilboard product warranty
 
 ## Specification starting point
 

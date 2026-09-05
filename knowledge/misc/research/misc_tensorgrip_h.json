@@ -1,0 +1,139 @@
+{
+  "family_id": "MISC_TENSORGRIP_H",
+  "family_name": "Misc Tensorgrip H",
+  "datasheet_pdf_url": "https://tensorglobal.com/",
+  "sds_url": "",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "TensorGrip H-Series comprises high-performance industrial spray\nadhesives engineered specifically for building envelope, acoustic, and HVAC\ninsulation bonding. Designed with high heat resistance and rapid tack\nproperties, H-Series adhesives provide permanent, high-strength bonds between\ninsulation batts, rigid boards, foil facings, and metal ductwork or concrete\nwalls. Available in portable pressurized canisters, they deliver clean, uniform\nspray application that accelerates jobsite productivity.",
+    "features": [
+      "Engineered specifically for HVAC, construction, and insulation installation",
+      "High heat resistance withstanding extreme commercial plenum temperatures",
+      "Fast drying with aggressive immediate tack and high bond strength",
+      "Excellent\nadhesion to sheet metal, concrete, timber, and fiberglass",
+      "Portable canister\nsystem eliminates heavy compressors and power leads",
+      "Controlled spray pattern\nprevents overspray and messy dripping",
+      "Formulated for high coverage and low\nsoaking into porous insulation cores",
+      "Low VOC and non-chlorinated options\navailable"
+    ],
+    "applications": [
+      "duct",
+      "wall",
+      "internal wall",
+      "ceiling",
+      "pipe"
+    ],
+    "technical": [
+      {
+        "property": "Adhesive Type",
+        "value": "Synthetic\nrubber / polymer contact adhesive (canister spray)",
+        "standard": ""
+      },
+      {
+        "property": "Packaging Formats",
+        "value": "500 ml aerosol, 22 L canister (17\nkg), 108 L canister",
+        "standard": ""
+      },
+      {
+        "property": "Drying Time",
+        "value": "1\n- 3 minutes",
+        "standard": ""
+      },
+      {
+        "property": "Temperature Resistance",
+        "value": "Up to 105°C - 115°C",
+        "standard": ""
+      },
+      {
+        "property": "Coverage",
+        "value": "Approx. 150 m² - 200 m² per 22L canister",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "TensorGrip H-Series 500ml Aerosol",
+        "size_or_rating": "500 ml\naerosol can",
+        "pack": "Can"
+      },
+      {
+        "variant": "TensorGrip H-Series 22L Canister",
+        "size_or_rating": "22 Litre canister (17 kg)",
+        "pack": "Canister"
+      }
+    ],
+    "fire": "High temperature resistant up to 115°C; complies with standard HVAC duct lining\nfire requirements",
+    "compliance": "AS 4254 ductwork installation compliance when\npaired with approved liners",
+    "sustainability": "Low VOC emissions; zero ODP;\nnon-chlorinated options",
+    "install": [
+      "Clean sheet metal or substrate ensuring\nit is free of oils, dust, and moisture",
+      "Attach hose and spray gun to the\nH-Series canister and open valve fully",
+      "Hold spray gun 150mm to 200mm from the\nsurface",
+      "Apply an even coat of adhesive to both the metal duct and insulation\nbacking",
+      "Wait 1 to 3 minutes for adhesive to tack off until touch-dry",
+      "Press\ninsulation firmly onto the metal duct surface within open time",
+      "Apply pressure\nacross the entire surface using a hand roller to ensure complete bonding"
+    ],
+    "selection_checklist": [
+      "Verify substrate is sheet metal, masonry, or framing",
+      "Check temperature resistance requirement of the mechanical duct or cavity",
+      "Ensure application equipment (hose and gun) is on hand",
+      "Confirm compliance\nwith HVAC fire safety specifications"
+    ],
+    "accessories": [
+      "TensorGrip spray\nhose",
+      "TensorGrip spray gun and nozzle",
+      "Hand pressure roller"
+    ],
+    "limitations": [
+      "Not suitable for polystyrene foams unless specifically\nformulated for EPS",
+      "Must be applied in well-ventilated areas",
+      "Do not store\nor use below 10°C without warming canister"
+    ],
+    "warranty": "Backed by Quin\nGlobal manufacturer warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "TensorGrip\nH",
+      "TensorGrip H series",
+      "HVAC spray adhesive",
+      "duct liner spray adhesive",
+      "TensorGrip H10",
+      "canister adhesive HVAC",
+      "high heat spray glue",
+      "insulation\ncanister adhesive"
+    ],
+    "problem_keywords": [
+      "insulation falling off ductwork",
+      "adhesive failure at high temperatures",
+      "slow brush application of duct glue",
+      "ductliner adhesive overspray",
+      "securing fiberglass liner to metal duct"
+    ],
+    "placement": [
+      "duct",
+      "wall",
+      "internal wall",
+      "ceiling",
+      "pipe"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "thermal"
+    ],
+    "use_cases": [
+      "Securing internal\nglasswool or acoustic liners inside sheet metal HVAC ductwork",
+      "Bonding\ninsulation blankets and thermal wraps around commercial mechanical equipment",
+      "Fastening acoustic panels and insulation to concrete and metal wall framing"
+    ],
+    "not_for": [
+      "Direct structural load bearing",
+      "Unexpanded polystyrene unless\nverified solvent-safe",
+      "Exhaust flue pipes above 115°C"
+    ],
+    "rag_summary": "Misc\nTensorGrip H (TensorGrip H-Series by Quin Global) is a specialized canister\nspray contact adhesive formulated for HVAC duct lining, acoustic insulation, and\nmechanical plant room installations. Designed to bond glasswool, rockwool, and\nacoustic foams to sheet metal, concrete, and timber, it offers fast tack, high\nheat resistance up to 115°C, and excellent bond strength. The self-contained\npressurized canister eliminates manual brushing and compressed air lines,\nproviding clean, rapid installation compliant with HVAC ductwork standards."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

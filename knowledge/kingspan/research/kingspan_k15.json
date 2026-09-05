@@ -1,0 +1,159 @@
+{
+  "family_id": "KINGSPAN_K15",
+  "family_name": "Kingspan K15",
+  "datasheet_pdf_url": "https://www.insulation.kingspan.com/ie/en-ie/products/rigid-insulation/kooltherm/kooltherm-k15-rainscreen-board",
+  "sds_url": "https://www.insulation.kingspan.com/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Kingspan\nKooltherm K15 Rainscreen Board is a premium performance, fiber-free rigid\nthermoset phenolic insulation board engineered specifically for ventilated\nrainscreen facade systems. Manufactured with a low-emissivity composite foil\nfacing, it achieves an ultra-low thermal conductivity of 0.021 W/m·K, allowing\nmodern building envelopes to meet ambitious thermal U-values with the thinnest\npossible wall profile. Widely tested in large-scale facade fire tests (such as\nBS 8414 / BR 135), it resists moisture penetration and provides structural\nstability behind terracotta, metal cassette, and stone rainscreens.",
+    "features": [
+      "Ultra-thin rigid insulation engineered specifically for\nventilated rainscreen facade systems",
+      "Thermal conductivity as low as 0.021\nW/m·K across all thicknesses ≥ 45mm",
+      "Low-emissivity composite foil facing\nreflects radiant heat across the ventilated cavity",
+      "Extensive full-scale\nfacade fire testing to BS 8414-1 and BS 8414-2 classified to BR 135",
+      "Maximizes\ninternal floor space by significantly reducing external wall thickness",
+      "Closed-cell phenolic core resists moisture absorption and water ingress behind\ncladdings",
+      "Fiber-free, non-deleterious core, safe to handle on jobsites",
+      "Lightweight boards easy to transport, cut, and mechanically fix to backing\nwalls",
+      "Manufactured with zero ODP and low GWP blowing agents"
+    ],
+    "applications": [
+      "wall",
+      "external wall"
+    ],
+    "technical": [
+      {
+        "property": "Thermal Conductivity (lambda)",
+        "value": "0.021 W/m·K (thicknesses\n≥ 45mm), 0.023 W/m·K (thicknesses 25-44mm)",
+        "standard": "EN 13166"
+      },
+      {
+        "property": "Material R-values",
+        "value": "R1.15 (25mm), R1.85 (40mm), R2.35\n(50mm), R2.85 (60mm), R3.55 (75mm), R4.25 (90mm), R4.75 (100mm), R5.70 (120mm)",
+        "standard": "EN 13166"
+      },
+      {
+        "property": "Thickness Options",
+        "value": "25 mm, 40\nmm, 50 mm, 60 mm, 75 mm, 80 mm, 90 mm, 100 mm, 120 mm, 140 mm",
+        "standard": ""
+      },
+      {
+        "property": "Board Dimensions",
+        "value": "2400 mm x 1200 mm (2.88 m²)",
+        "standard": ""
+      },
+      {
+        "property": "Core Density",
+        "value": "Nominal 35 kg/m³ rigid\nphenolic",
+        "standard": ""
+      },
+      {
+        "property": "Compressive Strength",
+        "value": "≥ 100 kPa at 10% deformation",
+        "standard": "EN 826"
+      },
+      {
+        "property": "Fire\nPerformance (Reaction to Fire)",
+        "value": "Euroclass C-s1, d0 / Euroclass B-s1,\nd0 (system dependent)",
+        "standard": "EN 13501-1"
+      },
+      {
+        "property": "Large Scale\nFire Testing",
+        "value": "Successfully tested to BS 8414-1 and BS 8414-2; BR 135\ncompliant",
+        "standard": "BS 8414 / BR 135"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Kooltherm K15 Rainscreen Board 50mm",
+        "size_or_rating": "50 mm x 1200 mm x 2400\nmm (R2.35)",
+        "pack": "Pack of 5 boards"
+      },
+      {
+        "variant": "Kooltherm K15\nRainscreen Board 75mm",
+        "size_or_rating": "75 mm x 1200 mm x 2400 mm (R3.55)",
+        "pack": "Pack of 3 boards"
+      },
+      {
+        "variant": "Kooltherm K15 Rainscreen\nBoard 100mm",
+        "size_or_rating": "100 mm x 1200 mm x 2400 mm (R4.75)",
+        "pack": "Pack of 2 boards"
+      },
+      {
+        "variant": "Kooltherm K15 Rainscreen Board 120mm",
+        "size_or_rating": "1200 mm x 2400 mm x 120 mm (R5.70)",
+        "pack": "Pack of 2\nboards"
+      }
+    ],
+    "fire": "Reaction to fire Euroclass C-s1, d0 to EN 13501-1; System\nperformance evaluated in BS 8414-1 & BS 8414-2 tests achieving BR 135\nclassification",
+    "compliance": "EN 13166, BS 8414 / BR 135, BBA\nCertificate 14/5134",
+    "sustainability": "Manufactured with a blowing agent that\nhas zero ODP and low GWP; fiber-free; low VOC",
+    "install": [
+      "Ensure structural\nsubstrate (masonry, concrete, or steel framing with sheathing board) is plumb,\nclean, and dry",
+      "Fasten boards mechanically to substrate with proprietary\ninsulation fasteners with minimum 70mm diameter heads",
+      "Install fasteners at a\nminimum rate of 6 per board (1200x2400mm), located 50-100mm from corners and\nedges",
+      "Stagger board joints in a brick-bond pattern, butting joints tightly",
+      "Fit cavity fire barriers horizontally and vertically as required by building\ncodes",
+      "Maintain the minimum specified ventilated cavity depth\n(typically 38-50mm) between insulation foil face and outer cladding",
+      "Tape\njoints with approved foil tape where enhanced weather protection is specified"
+    ],
+    "selection_checklist": [
+      "Verify rainscreen cladding type (terracotta tile,\ncomposite metal, high-pressure laminate, or stone)",
+      "Confirm target wall\nU-value / R-value to determine required board thickness",
+      "Confirm local\nbuilding code fire compliance pathways for facade insulation",
+      "Select approved\nmechanical fasteners suitable for substrate (concrete, steel stud, or cement\nparticle board)"
+    ],
+    "accessories": [
+      "Mechanical rainscreen insulation fasteners\nwith 70mm heads",
+      "Siderise cavity fire barriers",
+      "Reinforced foil tape"
+    ],
+    "limitations": [
+      "Must not be left permanently exposed to external weathering;\nouter rainscreen cladding must be installed",
+      "Ensure ventilated cavity between\nboard face and cladding remains unobstructed",
+      "Cavity barriers must be\ninstalled at floor slab levels and compartment lines"
+    ],
+    "warranty": "Standard\nKingspan manufacturer product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Kingspan K15",
+      "Kooltherm K15",
+      "K15 Rainscreen Board",
+      "rainscreen insulation\nboard",
+      "phenolic rainscreen board",
+      "ventilated facade insulation",
+      "thin\nrainscreen insulation",
+      "BS 8414 rainscreen insulation"
+    ],
+    "problem_keywords": [
+      "thick facade wall reducing floor area",
+      "heat loss through rainscreen\ncladding",
+      "moisture behind ventilated facade",
+      "meeting low U-values in slim\nfacade",
+      "rainscreen cavity space constraints"
+    ],
+    "placement": [
+      "wall",
+      "external wall"
+    ],
+    "priority_fit": [
+      "thermal",
+      "fire"
+    ],
+    "use_cases": [
+      "Continuous exterior insulation behind ventilated rainscreen facades\n(terracotta, stone, and composite metal panels)",
+      "High-performance thermal\nbarrier on commercial multi-storey building envelopes",
+      "Slim-profile external\nwall insulation to maximize interior floor area in high-density urban\ndevelopments"
+    ],
+    "not_for": [
+      "Direct interior wall lining without\nplasterboard",
+      "Roof underlayment without drainage",
+      "Underground subterranean\ntanking"
+    ],
+    "rag_summary": "Kingspan Kooltherm K15 Rainscreen Board is a premium\nperformance, fiber-free rigid thermoset phenolic insulation board engineered\nspecifically for ventilated rainscreen facade systems. Offering an ultra-low\nthermal conductivity of 0.021 W/m·K and low-emissivity composite foil facings,\nit achieves stringent thermal U-values with the thinnest possible wall profile.\nExtensively tested in large-scale facade fire tests (BS 8414 / BR 135) with a\nclosed-cell water-resistant core, it provides durable thermal protection behind\nmodern architectural claddings."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

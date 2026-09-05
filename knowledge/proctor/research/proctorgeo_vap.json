@@ -1,0 +1,62 @@
+{
+  "family_id": "PROCTOR_GEO_VAP",
+  "family_name": "ProctorGeo Vap",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "gemini_not_found",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "",
+    "features": "",
+    "applications": "",
+    "technical": "",
+    "range": "",
+    "fire": "",
+    "compliance": "",
+    "sustainability": "",
+    "install": "",
+    "selection_checklist": "",
+    "accessories": "",
+    "limitations": "",
+    "warranty": ""
+  },
+  "retrieval": {
+    "search_keywords": [
+      "ProctorGeo Vap",
+      "ProctorGeo vapour barrier",
+      "ProctorGeo\nVap geotextile",
+      "drainage vapour barrier",
+      "proctor geotextile vapour",
+      "proctor vapour membrane"
+    ],
+    "problem_keywords": [
+      "water vapour migration\nthrough ground slab",
+      "subfloor moisture rising into building",
+      "ground moisture\nentering basement",
+      "hydrostatic vapour pressure on slab"
+    ],
+    "placement": [
+      "floor",
+      "subfloor",
+      "underfloor",
+      "wall"
+    ],
+    "priority_fit": [
+      "condensation",
+      "thermal"
+    ],
+    "use_cases": [
+      "Vapour barrier and drainage layer beneath concrete\nslab-on-ground foundations",
+      "Moisture and damp management in basement retaining\nwalls and subfloor soil beds",
+      "Separation and vapour mitigation beneath\ncommercial floor screeds"
+    ],
+    "not_for": [
+      "Pitched roof breathable sarking",
+      "Exposed wall cladding",
+      "Direct foot traffic without protective screed or slab"
+    ],
+    "rag_summary": "ProctorGeo Vap represents a specialized vapour-retardant\ngeotextile or composite drainage membrane within the Proctor civil and building\nenvelope line. Engineered for subterranean, under-slab, and basement foundation\napplications, it combines drainage filtration with moisture vapour control to\nblock ground dampness from migrating into structural building elements. It\nprevents damp concrete slabs, efflorescence, and moisture-induced flooring\nfailures."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

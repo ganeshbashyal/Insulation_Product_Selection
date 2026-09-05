@@ -1,0 +1,61 @@
+{
+  "family_id": "HUSHTEC_REFLECTIVE",
+  "family_name": "Hushtec Reflective",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "gemini_not_found",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "",
+    "features": "",
+    "applications": "",
+    "technical": "",
+    "range": "",
+    "fire": "",
+    "compliance": "",
+    "sustainability": "",
+    "install": "",
+    "selection_checklist": "",
+    "accessories": "",
+    "limitations": "",
+    "warranty": ""
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Hushtec Reflective",
+      "Hushtec foil",
+      "Hushtec reflective barrier",
+      "Hushtec reflective insulation",
+      "Hushtec foil insulation"
+    ],
+    "problem_keywords": [
+      "radiant heat transfer",
+      "roof space heat gain",
+      "reflective thermal insulation",
+      "condensation under\nroof"
+    ],
+    "placement": [
+      "roof",
+      "roofline",
+      "wall",
+      "external wall",
+      "shed"
+    ],
+    "priority_fit": [
+      "thermal",
+      "condensation"
+    ],
+    "use_cases": [
+      "Reflective\nradiant barrier under metal roofs",
+      "Reflective insulation in external walls"
+    ],
+    "not_for": [
+      "Temporary outdoor construction noise barriers",
+      "Direct underfloor\ntraffic surfaces",
+      "Open joint facades without cladding"
+    ],
+    "rag_summary": "Hushtec Reflective is an unverified catalog placeholder within the Hushtec\nproduct listing. Hushtec exclusively manufactures modular industrial acoustic\nbarrier curtains, transparent noise barriers, and marine/film acoustic\nenclosures, and does not produce reflective foil laminates, bubble foil, or\nthermal roof sarking. For reflective insulation in Australian building\nassemblies, compliant products such as Fletcher Sisalation, Kingspan AIR-CELL,\nor Foilboard Green are standard."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

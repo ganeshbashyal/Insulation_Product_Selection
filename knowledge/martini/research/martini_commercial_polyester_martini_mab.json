@@ -1,0 +1,180 @@
+{
+  "family_id": "MARTINI_COMMERCIAL_POLYESTER_MARTINI_MAB",
+  "family_name": "Martini Commercial Polyester / Martini MAB",
+  "datasheet_pdf_url": "https://www.csrmartini.com.au/product/martini-mab/",
+  "sds_url": "https://www.csrmartini.com.au/wp-content/uploads/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Martini MAB\n(Multi-Application Blanket & Batts) is a premium commercial and industrial\npolyester acoustic and thermal insulation manufactured by CSR Martini. Produced\nin densities from 11 kg/m³ to 60 kg/m³ and thicknesses from 25mm to 100mm, it is\nengineered to reduce echo and absorb reverberant sound in sports halls, cinemas,\nstudios, industrial enclosures, HVAC ducts, silencers, and plant rooms. Formed\nfrom 100% thermally bonded polyester fibers containing up to 80% recycled PET\nwithout chemical binders, it is completely non-toxic, non-irritant, and\nnon-allergenic.",
+    "features": [
+      "Multi-purpose acoustic and thermal insulation\nmanufactured to specific densities (11 to 60 kg/m³)",
+      "Engineered for\ncommercial, institutional, and industrial noise reduction",
+      "Completely\nnon-irritant, non-toxic, and non-allergenic; safe to install without PPE",
+      "Available in standard white, with black or grey available upon request",
+      "Exceptional sound absorption across speech and mechanical equipment frequencies\n(NRC up to 1.00+)",
+      "100% thermally bonded polyester with zero chemical binders,\nformaldehyde, or respirable fibers",
+      "Certified Global GreenTag GreenRate Level\nA and Declare Red List Free",
+      "Bio-stable and hydrophobic; will not rot,\ndegrade, or harbor mold or vermin",
+      "100% recyclable with high reuse potential",
+      "Environmental Product Declaration (EPD) certified in accordance with ISO 14025"
+    ],
+    "applications": [
+      "wall",
+      "internal wall",
+      "ceiling",
+      "between floors",
+      "duct",
+      "pipe",
+      "shed"
+    ],
+    "technical": [
+      {
+        "property": "Density Options",
+        "value": "11 kg/m³, 14 kg/m³, 20 kg/m³, 24 kg/m³, 30 kg/m³, 32 kg/m³, 48\nkg/m³, 60 kg/m³",
+        "standard": ""
+      },
+      {
+        "property": "Thickness Options",
+        "value": "25 mm, 30 mm, 50 mm, 75 mm, 100 mm",
+        "standard": ""
+      },
+      {
+        "property": "Standard\nSheet Dimensions",
+        "value": "1200 mm x 2400 mm (custom sizes and rolls\navailable)",
+        "standard": ""
+      },
+      {
+        "property": "Acoustic Performance",
+        "value": "NRC 0.65 to 1.10 depending on density and thickness (e.g. 50mm 32kg/m³:\nNRC 0.85-0.90; 75mm 32kg/m³: NRC 1.00; 100mm: NRC 1.05+)",
+        "standard": "ISO 354\n/ AS 1045"
+      },
+      {
+        "property": "Fire Hazard Indices",
+        "value": "Ignitability: 0,\nSpread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Thermal Conductivity",
+        "value": "0.032 - 0.040\nW/m·K (depending on density)",
+        "standard": "ASTM C518"
+      },
+      {
+        "property": "Maximum\nService Temperature",
+        "value": "150°C",
+        "standard": ""
+      },
+      {
+        "property": "Volatile Organic Compounds (VOC)",
+        "value": "Classified as low (0.01 mg/m³)",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Martini MAB 14 (14 kg/m³)",
+        "size_or_rating": "50mm / 75mm / 100mm x 1200mm x 2400mm",
+        "pack": "Pack of\nbatts"
+      },
+      {
+        "variant": "Martini MAB 20 (20 kg/m³)",
+        "size_or_rating": "25mm\n/ 50mm / 75mm / 100mm x 1200mm x 2400mm",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "Martini MAB 32 (32 kg/m³)",
+        "size_or_rating": "25mm / 50mm / 75mm\n/ 100mm x 1200mm x 2400mm",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "Martini\nMAB 48 (48 kg/m³)",
+        "size_or_rating": "25mm / 50mm / 75mm x 1200mm x 2400mm",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "Martini MAB 60 (60 kg/m³)",
+        "size_or_rating": "25mm / 50mm x 1200mm x 2400mm",
+        "pack": "Pack of batts"
+      }
+    ],
+    "fire": "AS/NZS 1530.3 indices: Ignitability 0, Spread of Flame 0, Heat\nEvolved 0, Smoke Developed 0-1; Suitable for commercial wall and ceiling\ncavities",
+    "compliance": "AS/NZS 4859.1, ISO 354 / AS 1045, NCC Volume One and\nTwo",
+    "sustainability": "Manufactured using up to 80% recycled post-consumer\nPET; Global GreenTag GreenRate Level A; Declare Red List Free; EPD certified\n(ISO 14025); Low VOC (0.01 mg/m³); Zero ODP",
+    "install": [
+      "Ensure cavity\nframing, ceiling space, or duct substrate is clean, dry, and free of debris",
+      "Select density and thickness specified by the acoustic consultant (e.g. MAB 32\nfor sound absorption)",
+      "Friction-fit sheets into wall framing bays or lay flat\nabove suspended ceiling tiles",
+      "For perforated paneling or slotted timber,\ninstall black MAB directly against the rear of panels to conceal framing",
+      "Cut\nneatly around mechanical services and electrical boxes using a utility knife or\nelectric cutter",
+      "Overlap or butt adjoining batts tightly together to eliminate\nacoustic flanking gaps",
+      "In HVAC acoustic silencers or attenuators, install\nwith protective perforated facing to prevent airstream erosion"
+    ],
+    "selection_checklist": [
+      "Confirm density (14kg, 20kg, 32kg, 48kg, or 60kg/m³)\nspecified for acoustic absorption requirements",
+      "Select thickness (25mm\nto 100mm) based on target NRC and available cavity depth",
+      "Choose colorway\n(standard white for concealed cavities; black for behind slotted timber or\nperforated panels)",
+      "Verify if required in sheets (1200x2400mm) or continuous\nrolls"
+    ],
+    "accessories": [
+      "Utility knife",
+      "Mechanical impaling pins",
+      "Acoustic sealant"
+    ],
+    "limitations": [
+      "Internal use only; not suitable for\ndirect exterior weather exposure",
+      "Maximum continuous service temperature\nis 150°C",
+      "In high-velocity HVAC ducts, requires perforated metal or scrim\nfacing to prevent fiber displacement"
+    ],
+    "warranty": "Backed by CSR Martini\ncommercial product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Martini MAB",
+      "CSR Martini MAB",
+      "Martini commercial polyester",
+      "MAB acoustic insulation",
+      "Martini MAB 32",
+      "Martini MAB 48",
+      "polyester acoustic batts",
+      "black acoustic\nbacking polyester",
+      "perforated panel acoustic backing",
+      "industrial acoustic\npolyester"
+    ],
+    "problem_keywords": [
+      "reverberation behind slotted timber walls",
+      "sound reflection in sports hall",
+      "HVAC silencer airflow noise",
+      "cinema and\nstudio echo",
+      "flanking noise above suspended ceiling tiles",
+      "itchy acoustic\ninsulation replacement"
+    ],
+    "placement": [
+      "wall",
+      "internal wall",
+      "ceiling",
+      "between floors",
+      "duct",
+      "pipe",
+      "shed"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "thermal",
+      "sustainability",
+      "fire"
+    ],
+    "use_cases": [
+      "Acoustic backing absorber\ninstalled behind perforated metal or slotted timber panels in auditoriums and\nsports halls",
+      "Ceiling overlay above suspended grid tiles to control cross-talk\nand room-to-room flanking noise",
+      "Acoustic sound absorption infill in HVAC\nacoustic attenuators, duct silencers, and plant room enclosures"
+    ],
+    "not_for": [
+      "Direct outdoor weather-exposed facades",
+      "Continuous service temperatures\nexceeding 150°C",
+      "Underfloor soil direct contact"
+    ],
+    "rag_summary": "CSR\nMartini MAB (Commercial Polyester / Martini MAB) is a premium acoustic and\nthermal insulation manufactured from 100% thermally bonded polyester with up\nto 80% recycled PET. Available in densities from 11 kg/m³ to 60 kg/m³ and\nthicknesses from 25mm to 100mm (in white, grey, or acoustic black), it achieves\nClass A acoustic sound absorption (NRC up to 1.10) in studios, cinemas, sports\nhalls, and HVAC silencers. Non-toxic, non-irritant, GreenTag Level A certified,\nand fire-tested to AS/NZS 1530.3, it delivers fiber-safe commercial acoustic\nperformance."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

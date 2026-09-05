@@ -1,0 +1,194 @@
+{
+  "family_id": "KNAUF_BATT",
+  "family_name": "Knauf Batt",
+  "datasheet_pdf_url": "https://www.knaufinsulation.com.au/products/earthwool-wall-batts",
+  "sds_url": "https://www.knaufinsulation.com.au/products/earthwool-wall-batts",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Earthwool Wall and Ceiling Batts are high-performance glass\nmineral wool insulation batts manufactured by Knauf Insulation using ECOSE\nTechnology. Engineered with a bio-based binder containing no added formaldehyde,\nphenol, or acrylics, Earthwool batts are soft to handle, low-dust, and\nnon-combustible. Featuring TwinTech dual-forming manufacturing for a smooth\nfinish on both sides, they improve the thermal comfort and energy efficiency of\nresidential and commercial buildings while absorbing airborne acoustic sound.",
+    "features": [
+      "ECOSE Technology bio-based binder with no added formaldehyde",
+      "TwinTech dual-forming technique ensures a smooth finish on both sides",
+      "Non-combustible when tested in accordance with AS 1530.1",
+      "Sound absorbing,\nreducing external traffic and internal room-to-room noise",
+      "Soft to handle,\neasy to install, and significantly less itchy than traditional glasswool",
+      "Manufactured using up to 80% recycled glass",
+      "Compression packed into robust\npoly packs for easier transport and handling",
+      "Low VOC emissions and Eurofins\nIndoor Air Comfort Gold certified",
+      "Certified under BRANZ Appraisal No. 873",
+      "Backed by a 50-year product warranty"
+    ],
+    "applications": [
+      "ceiling",
+      "wall",
+      "external wall",
+      "internal wall",
+      "between floors"
+    ],
+    "technical": [
+      {
+        "property": "Thermal Conductivity (lambda)",
+        "value": "0.032 - 0.045 W/m·K\n(depending on R-value)",
+        "standard": "ASTM C518"
+      },
+      {
+        "property": "Ceiling\nR-values",
+        "value": "R2.5, R3.0, R3.5, R4.0, R5.0, R6.0, R7.0",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Wall R-values",
+        "value": "R1.5, R2.0, R2.5,\nR2.7, R4.0",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Standard Dimensions",
+        "value": "1160 mm length x 430 mm or 580 mm width",
+        "standard": ""
+      },
+      {
+        "property": "Combustibility",
+        "value": "Non-combustible",
+        "standard": "AS 1530.1"
+      },
+      {
+        "property": "Early Fire Hazard Indices",
+        "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Water Vapor Absorption",
+        "value": "< 1% by volume",
+        "standard": ""
+      },
+      {
+        "property": "Microbial Resistance",
+        "value": "Does not support microbial growth",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Earthwool Wall Batts R2.0 (90mm)",
+        "size_or_rating": "90 mm x 1160\nmm x 430/580 mm",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "Earthwool Wall Batts\nR2.5 (90mm)",
+        "size_or_rating": "90 mm x 1160 mm x 430/580 mm",
+        "pack": "Pack of\nbatts"
+      },
+      {
+        "variant": "Earthwool Wall Batts R2.7 (90mm)",
+        "size_or_rating": "90\nmm x 1160 mm x 430/580 mm",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "Earthwool\nCeiling Batts R3.5",
+        "size_or_rating": "175 mm x 1160 mm x 430/580 mm",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "Earthwool Ceiling Batts R4.0",
+        "size_or_rating": "195 mm x 1160 mm x 430/580 mm",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "Earthwool Ceiling Batts R5.0",
+        "size_or_rating": "210 mm x 1160 mm\nx 430/580 mm",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "Earthwool Ceiling Batts\nR6.0",
+        "size_or_rating": "250 mm x 1160 mm x 430/580 mm",
+        "pack": "Pack of\nbatts"
+      },
+      {
+        "variant": "Earthwool Ceiling Batts R7.0",
+        "size_or_rating": "290 mm\nx 1160 mm x 430/580 mm",
+        "pack": "Pack of batts"
+      }
+    ],
+    "fire": "Non-combustible\nto AS 1530.1; AS/NZS 1530.3 indices: Ignitability 0, Spread of Flame 0, Heat\nEvolved 0, Smoke Developed 0-1; Suitable for bushfire construction to AS 3959",
+    "compliance": "AS/NZS 4859.1:2018, AS 3999, BRANZ Appraisal 873, NCC 2022 Volume\nOne and Two (7-star NatHERS compliant)",
+    "sustainability": "Manufactured from up\nto 80% recycled glass; ECOSE Technology bio-based binder; zero added\nformaldehyde; Global GreenTag GreenRate Level A; Eurofins Gold indoor air\ncomfort",
+    "install": [
+      "Isolate electrical power at the main switchboard before\nentering ceiling spaces or touching wall cavities",
+      "Friction fit batts snugly\nbetween timber or steel framing members without gaps or folds",
+      "In ceilings,\nlay batts flat between ceiling joists ensuring complete, continuous coverage\nover plasterboard",
+      "At roof eaves, maintain minimum 20mm clearance between\ninsulation and roof cladding/sarking",
+      "Maintain minimum 50mm clearance around\nnon-IC rated recessed downlights and heat flues as per AS 3999",
+      "In walls,\nensure batts butt tightly against top and bottom plates and fill the cavity\nwithout bulging plasterboard",
+      "Cut neatly around electrical boxes, plumbing,\nand wiring using a sharp utility knife"
+    ],
+    "selection_checklist": [
+      "Determine\napplication (ceiling vs external walls vs internal acoustic walls)",
+      "Select\nrequired R-value to achieve 7-star NatHERS energy compliance for climate zone",
+      "Measure framing centers (430mm for 450mm centers; 580mm for 600mm centers)",
+      "Check wall cavity depth (75mm for 70mm studs; 90mm for 90mm studs)",
+      "Verify\ndownlight ratings (IC/IC-4 rated allows continuous insulation coverage per\nAS 3999)"
+    ],
+    "accessories": [
+      "Perimeter eave baffles",
+      "Insulation strapping",
+      "Utility knife"
+    ],
+    "limitations": [
+      "Do not compress batts into cavities\nnarrower than nominal thickness as this reduces thermal R-value",
+      "Must be\nprotected from continuous water exposure and outdoor weather",
+      "Not designed as\nan exposed decorative lining; must be enclosed behind plasterboard or internal\nlinings"
+    ],
+    "warranty": "50 Year Product Warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Knauf Batt",
+      "Earthwool batts",
+      "Earthwool ceiling batts",
+      "Earthwool wall batts",
+      "Knauf insulation batts",
+      "R2.5 Earthwool",
+      "R4.0\nEarthwool",
+      "R6.0 Earthwool",
+      "non-itchy glasswool batts",
+      "ECOSE batts",
+      "7\nstar insulation batts"
+    ],
+    "problem_keywords": [
+      "itchy fiberglass batts",
+      "hot\nrooms upstairs in summer",
+      "high winter heating costs",
+      "uninsulated ceiling\nheat escape",
+      "drafts through external walls",
+      "meeting 7-star NatHERS energy\ncompliance"
+    ],
+    "placement": [
+      "ceiling",
+      "wall",
+      "internal wall",
+      "external\nwall",
+      "between floors"
+    ],
+    "priority_fit": [
+      "thermal",
+      "acoustic",
+      "sustainability",
+      "easy_install",
+      "fire"
+    ],
+    "use_cases": [
+      "Insulating\nresidential pitched roof ceiling spaces to meet 7-star NatHERS energy\nrequirements",
+      "Thermal insulation in external timber-stud and steel-stud walls\nbehind brick veneer or lightweight cladding",
+      "Acoustic noise reduction in\ninternal partition walls between bedrooms and bathrooms"
+    ],
+    "not_for": [
+      "Exposed decorative wall lining without plasterboard",
+      "Underfloor crawl spaces\ndirectly exposed to wet soil",
+      "Operating temperatures continuously\nexceeding 350°C"
+    ],
+    "rag_summary": "Knauf Earthwool Batts (Knauf Batt) are\nnon-combustible glass mineral wool thermal and acoustic insulation batts\nmanufactured using bio-based ECOSE Technology with zero added formaldehyde.\nAvailable in wall ratings from R1.5 to R4.0 and ceiling ratings from R2.5 up to\nAustralia's thickest R7.0, they fit standard 430mm and 580mm framing without\nslumping. Tested non-combustible to AS 1530.1 and certified under BRANZ\nAppraisal 873 and GreenTag Level A, they provide an itch-free, low-dust\ninstallation backed by a 50-year warranty."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

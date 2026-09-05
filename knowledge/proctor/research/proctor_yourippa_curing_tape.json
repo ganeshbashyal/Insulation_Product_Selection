@@ -1,0 +1,135 @@
+{
+  "family_id": "PROCTOR_YOURIPPA_CURING_TAPE",
+  "family_name": "Proctor YouRippa Curing Tape",
+  "datasheet_pdf_url": "https://proctorgroup.com.au/product/yourippa-rip-by-hand-heavy-duty-curing-protection-tape/",
+  "sds_url": "https://proctorgroup.com.au/product/yourippa-rip-by-hand-heavy-duty-curing-protection-tape/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Proctor YouRippa Curing Tape is a heavy-duty, hand-tearable\npolyethylene cloth protection and curing tape engineered for demanding jobsite\napplications. Formulated with a natural rubber adhesive, it delivers strong,\nresidue-free adhesion to concrete, timber, metal, and floor protection sheets\nduring construction. Designed with an embossed backing for effortless straight\nhand-tearing, it secures floor protection boards and concrete curing covers\nwithout leaving sticky residue upon removal.",
+    "features": [
+      "Hand tearable in\nboth directions without cutting tools or scissors",
+      "Clean, residue-free removal\nfrom sensitive finishes and cured concrete",
+      "Aggressive natural rubber adhesive\nbonds firmly to multiple surfaces",
+      "Heavy-duty embossed polyethylene cloth\ncarrier resists tears and abrasion",
+      "Waterproof backing protects joins from\nspills, foot traffic, and washdowns",
+      "Ideal for holding floor protection\nboards, films, and concrete curing covers",
+      "High conformability around corners,\nthresholds, and irregular profiles",
+      "Suitable for indoor and temporary outdoor\nconstruction use"
+    ],
+    "applications": [
+      "floor",
+      "underfloor",
+      "wall",
+      "internal\nwall"
+    ],
+    "technical": [
+      {
+        "property": "Carrier",
+        "value": "Embossed polyethylene\ncloth backing",
+        "standard": ""
+      },
+      {
+        "property": "Adhesive Type",
+        "value": "Natural rubber based adhesive",
+        "standard": ""
+      },
+      {
+        "property": "Roll Width",
+        "value": "48 mm / 50 mm",
+        "standard": ""
+      },
+      {
+        "property": "Roll Length",
+        "value": "25 m",
+        "standard": ""
+      },
+      {
+        "property": "Hand Tearable",
+        "value": "Yes\n(straight tear by hand)",
+        "standard": ""
+      },
+      {
+        "property": "Residue Free\nRemoval",
+        "value": "Leaves no residue upon removal on approved substrates",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "YouRippa Curing Tape 48mm",
+        "size_or_rating": "48 mm x 25 m",
+        "pack": "Roll"
+      }
+    ],
+    "fire": "Standard\nconstruction accessory rating; low hazard",
+    "compliance": "Trade jobsite surface\nprotection standard",
+    "sustainability": "Solvent-free natural rubber adhesive\nformulation",
+    "install": [
+      "Ensure floor protection sheets, concrete, or\nsurfaces are clean, dry, and free of dust",
+      "Lay out floor protection boards or\ncuring covers with butted edges",
+      "Tear YouRippa tape by hand across the roll to\ndesired length",
+      "Center tape over the seam between protection sheets",
+      "Press\ndown firmly along the tape line to activate adhesive",
+      "Smooth down edges to\nprevent tripping hazards during foot traffic",
+      "Peel tape cleanly away upon\nproject handover without leaving adhesive residue"
+    ],
+    "selection_checklist": [
+      "Confirm requirement is temporary surface protection or concrete curing sheet\ntaping",
+      "Verify need for clean, residue-free removal from finished flooring",
+      "Calculate total lineal meters of floor protection seams",
+      "Ensure surface is\ndry before application"
+    ],
+    "accessories": [
+      "Floor protection boards /\ncorflute",
+      "Concrete curing blankets"
+    ],
+    "limitations": [
+      "Temporary protection\ntape; not designed for permanent building envelope weather-sealing",
+      "Do not\nleave on sensitive timber finishes beyond recommended removal period",
+      "Not an\nair-barrier or vapour-permeable membrane joining tape"
+    ],
+    "warranty": "Backed by\nProctor Group Australia product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "YouRippa tape",
+      "Proctor YouRippa",
+      "curing tape",
+      "hand tearable cloth tape",
+      "floor protection tape",
+      "residue free cloth tape",
+      "temporary protection tape",
+      "concrete curing tape"
+    ],
+    "problem_keywords": [
+      "tape leaving sticky residue on\nfinished floors",
+      "slow taping needing scissors or knives",
+      "protection sheets\nsliding on jobsite",
+      "tape lifting under heavy foot traffic",
+      "sealing floor\nprotection board seams"
+    ],
+    "placement": [
+      "floor",
+      "underfloor",
+      "internal wall"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "budget"
+    ],
+    "use_cases": [
+      "Joining and\nsealing temporary floor protection boards (corflute / hardboard) during building\nconstruction",
+      "Securing concrete curing blankets and polyethylene sheets over\nfreshly poured concrete slabs",
+      "Temporary masking and edge protection of metal\nwindow frames and stone sills during trades work"
+    ],
+    "not_for": [
+      "Permanent\nvapour-permeable building wrap sealing (use HighTack PLUS or DriFlash)",
+      "Roof\nunderlay lap sealing",
+      "High-temperature exhaust flues"
+    ],
+    "rag_summary": "Proctor YouRippa Curing Tape is a heavy-duty, hand-tearable polyethylene cloth\ntape designed for temporary surface protection and concrete curing applications\non construction sites. Coated with a natural rubber adhesive, it delivers high\ngrab to corflute, cardboard, timber, and cured concrete, yet removes cleanly\nwithout leaving sticky residue. Hand-tearable in both directions for rapid\njobsite handling, it secures protective floor coverings against heavy trade\ntraffic."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

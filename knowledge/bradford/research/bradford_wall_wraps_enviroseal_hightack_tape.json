@@ -1,0 +1,158 @@
+{
+  "family_id": "BRADFORD_WALL_WRAPS_ENVIROSEAL_HIGHTACK_TAPE",
+  "family_name": "Bradford Wall Wraps - Enviroseal Hightack Tape",
+  "datasheet_pdf_url": "https://www.bradfordinsulation.com.au/products/hightack-tape",
+  "sds_url": "https://www.bradfordinsulation.com.au/-/media/bradford/files/safety-data-sheet---glasswool.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Bradford Enviroseal HighTack Tape is a single-sided, aggressive\nadhesive sealing tape featuring a flexible synthetic carrier designed to create\ndurable air and watertight seals on construction membranes. Formulated with a\nsolvent-free, high-grab adhesive, it adheres aggressively to vapour-permeable\nwall wraps, aluminium foil sarking, timber, steel, plastics, and masonry. It is\nspecifically engineered to seal overlaps, penetrations, window flashings, and\npipe junctions to ensure the integrity of the building envelope.",
+    "features": [
+      "Aggressive high initial tack and long-term permanent adhesion",
+      "Flexible\ncarrier accommodates building movement and thermal expansion",
+      "Forms an\nairtight and watertight seal around membrane overlaps and penetrations",
+      "Safe\nformulation: free of solvents, chlorine, and formaldehyde for low emissions",
+      "Multisubstrate adhesion: bonds to PE, PP, aluminium foil, timber, plastics, and\nmetal",
+      "Hand tearable or easily cut with a utility blade for quick site\ninstallation",
+      "Operating temperature range from -40°C to +80°C",
+      "Compatible\nwith all Bradford Enviroseal and Thermoseal wraps"
+    ],
+    "applications": [
+      "wall",
+      "external wall",
+      "roof",
+      "roofline",
+      "internal wall",
+      "pipe",
+      "duct"
+    ],
+    "technical": [
+      {
+        "property": "Carrier Material",
+        "value": "Reinforced\npolyethylene / polyolefin film",
+        "standard": ""
+      },
+      {
+        "property": "Adhesive\nType",
+        "value": "Solvent-free polyacrylic pressure-sensitive adhesive",
+        "standard": ""
+      },
+      {
+        "property": "Roll Dimensions",
+        "value": "60 mm width x 25 m\nlength",
+        "standard": ""
+      },
+      {
+        "property": "Thickness",
+        "value": "Approx. 0.3 mm",
+        "standard": ""
+      },
+      {
+        "property": "Operating Temperature Range",
+        "value": "-40°C\nto +80°C",
+        "standard": ""
+      },
+      {
+        "property": "Application Temperature",
+        "value": "+5°C to +40°C (effective down to -10°C on clean dry surfaces)",
+        "standard": ""
+      },
+      {
+        "property": "Water Resistance",
+        "value": "Waterproof airtight seal",
+        "standard": ""
+      },
+      {
+        "property": "Packaging",
+        "value": "10 rolls per carton",
+        "standard": ""
+      },
+      {
+        "property": "Product Code",
+        "value": "155170",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Enviroseal HighTack Tape 60mm x 25m",
+        "size_or_rating": "60 mm x 25 m",
+        "pack": "Roll (10 rolls per carton,\nCode: 155170)"
+      }
+    ],
+    "fire": "Complies with AS 1530.2 early fire hazard\nproperties when applied to compliant building membranes",
+    "compliance": "AS/NZS 4200.2, AS 1530.2, Passive House airtight envelope compatible",
+    "sustainability": "Solvent-free, zero chlorine, zero formaldehyde, low VOC\nemissions",
+    "install": [
+      "Ensure surfaces to be taped are clean, dry, and free\nof dust, grease, oil, and frost",
+      "Position membrane overlap with a\nminimum 150mm lap (or 50mm if taped per AS 4200.2)",
+      "Centre the 60mm HighTack\nTape squarely over the seam or penetration edge",
+      "Apply tape smoothly avoiding\ntension wrinkles and air bubbles",
+      "Press down firmly along the entire tape\nlength using a plastic squeegee or pressure roller",
+      "Seal around pipe and duct\npenetrations by cutting overlapping collar strips"
+    ],
+    "selection_checklist": [
+      "Verify compatibility with chosen membrane (ideal for Enviroseal RW, CW, and\nTuff)",
+      "Calculate total linear metres needed for all horizontal/vertical laps\nand penetrations",
+      "Ensure surface temperature at time of installation is above\n+5°C (or pre-warmed if cold)",
+      "Confirm 60mm width is sufficient for joint\nwidth"
+    ],
+    "accessories": [
+      "Bradford Enviroseal wall wraps",
+      "Application\nsqueegee"
+    ],
+    "limitations": [
+      "Pressure-sensitive adhesive requires firm\nsqueegee pressure to activate bond",
+      "Must not be applied to wet, greasy, or\ndusty substrates",
+      "Not intended for permanent outdoor UV exposure exceeding\nmembrane exposure limits",
+      "Non-structural; cannot support mechanical loads"
+    ],
+    "warranty": "Backed by CSR Bradford product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Bradford HighTack Tape",
+      "Enviroseal HighTack Tape",
+      "Bradford membrane tape",
+      "wall wrap joining tape",
+      "60mm HighTack tape",
+      "airtight membrane tape",
+      "Enviroseal tape 155170",
+      "ProctorWrap HighTack tape",
+      "vapour permeable tape"
+    ],
+    "problem_keywords": [
+      "wall wrap blowing loose at\nseams",
+      "air leakage through membrane joints",
+      "water leaks around pipe\npenetrations",
+      "tape peeling off wall wrap in cold weather",
+      "failing blower\ndoor test air leaks",
+      "sealing around window flashings"
+    ],
+    "placement": [
+      "wall",
+      "external wall",
+      "roof",
+      "roofline",
+      "pipe",
+      "duct"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "condensation"
+    ],
+    "use_cases": [
+      "Sealing horizontal and\nvertical laps on Bradford Enviroseal RW, CW, and Tuff wall wraps",
+      "Creating\nairtight, waterproof seals around pipe and duct penetrations through building\nwraps",
+      "Taping window and door flashing interfaces to prevent moisture ingress"
+    ],
+    "not_for": [
+      "High-temperature flue pipes exceeding 80°C",
+      "Subterranean wet\ntanking seams",
+      "Structural load-bearing strapping"
+    ],
+    "rag_summary": "Bradford\nWall Wraps - Enviroseal Hightack Tape (product code 155170) is a premium 60mm\nx 25m single-sided adhesive tape featuring an aggressive, solvent-free acrylic\nadhesive on a flexible polyolefin carrier. Engineered specifically for sealing\nlaps and penetrations on Enviroseal vapour-permeable membranes and Thermoseal\nsarking, it creates airtight and watertight barriers across diverse construction\nsubstrates including timber, steel, PVC, and foil. Operating reliably from -40°C\nto +80°C with zero chlorine or formaldehyde, it is essential for achieving\nblower-door airtightness and weather protection in modern energy-efficient\nenvelopes."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

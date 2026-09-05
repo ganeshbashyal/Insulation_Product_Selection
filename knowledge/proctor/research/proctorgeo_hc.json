@@ -1,0 +1,159 @@
+{
+  "family_id": "PROCTOR_GEO_HC",
+  "family_name": "ProctorGeo HC",
+  "datasheet_pdf_url": "https://proctorgroup.com.au/product/proctorgeo-d-rain-hc9-horizontal-cavity-drainage-mat/",
+  "sds_url": "",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "ProctorGeo D-Rain HC (HC9 / HC10) is a flexible,\nlightweight horizontal and vertical cavity drainage and acoustic separation mat.\nManufactured with a three-dimensional, high-void entangled monofilament\npolypropylene core thermally bonded to a permeable non-woven geotextile filter\nfabric on one or both sides, it creates a permanent drainage and ventilation\nplane under standing seam metal roofs, zinc claddings, and below-ground\nstructures. It relieves hydrostatic pressure, rapidly channels away incidental\nmoisture, and provides significant acoustic damping against rain noise\ndrumming.",
+    "features": [
+      "Three-dimensional entangled polypropylene\nmonofilament core with high void ratio",
+      "Thermally bonded non-woven geotextile\nfilter fabric prevents fines and dirt clogging",
+      "Dampens rain impact noise on\nzinc, copper, and standing seam metal roofs by up to 21 dB",
+      "Maintains an\nuninterrupted drainage and ventilation cavity behind claddings and beneath\nroofs",
+      "High compressive strength resisting construction traffic and cladding\nfastener loads",
+      "Resistant to chemical attack, rot, mildew, and soil\nmicroorganisms",
+      "Flexible and lightweight for fast unrolling over plywood\nsubstrates and membranes",
+      "Relieves hydrostatic pressure in horizontal plaza\ndecks and vertical retaining walls"
+    ],
+    "applications": [
+      "roof",
+      "roofline",
+      "wall",
+      "external wall",
+      "floor",
+      "subfloor"
+    ],
+    "technical": [
+      {
+        "property": "Core Material",
+        "value": "Extruded entangled monofilament polypropylene (PP)",
+        "standard": ""
+      },
+      {
+        "property": "Filter Fabric",
+        "value": "Non-woven\npolypropylene geotextile filter fabric",
+        "standard": ""
+      },
+      {
+        "property": "Nominal Thickness",
+        "value": "8.5 mm - 10 mm (nominal 9 mm)",
+        "standard": ""
+      },
+      {
+        "property": "Compressive Strength",
+        "value": "Approx. 250 kPa - 400 kPa at 20%\ndeformation",
+        "standard": "EN ISO 25619-2"
+      },
+      {
+        "property": "In-Plane Water Flow\nCapacity",
+        "value": "High hydraulic transmissivity (approx. 1.2 - 2.5 l/m·s at\nhydraulic gradient 1.0)",
+        "standard": "EN ISO 12958"
+      },
+      {
+        "property": "Acoustic\nRain Noise Reduction",
+        "value": "Up to 21 dB sound reduction under metal roof\nsheet",
+        "standard": "ISO 140-18 / EN ISO 717-1"
+      },
+      {
+        "property": "Roll\nDimensions",
+        "value": "1.0 m / 1.4 m / 2.0 m width x 20 m / 30 m length",
+        "standard": ""
+      },
+      {
+        "property": "Service Temperature",
+        "value": "-30°C to +80°C\n(melting point > 160°C)",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "ProctorGeo D-Rain HC9",
+        "size_or_rating": "9 mm thickness x 1.4 m x 30 m",
+        "pack": "Roll"
+      },
+      {
+        "variant": "ProctorGeo D-Rain HC10",
+        "size_or_rating": "10\nmm thickness x 2.0 m x 20 m",
+        "pack": "Roll"
+      }
+    ],
+    "fire": "Tested for low early\nfire hazard properties; polymer core does not contribute significantly to fire\nload beneath metal roofs",
+    "compliance": "EN ISO 12958, EN ISO 25619-2,\nAS/NZS 4200.2 drainage cavity compliance, NCC 2022 condensation management",
+    "sustainability": "100% recyclable polypropylene; chemically inert; non-toxic;\nzero ODP",
+    "install": [
+      "Install primary roof underlay or waterproofing membrane\nover plywood substrate or structural deck",
+      "Unroll ProctorGeo HC horizontally\nor vertically with geotextile filter fabric facing upward/outward",
+      "Overlap the\nintegrated geotextile filter flap by a minimum of 100mm over adjacent runs to\nprevent fines entering the core",
+      "Fix temporarily in place with staples or\nclout nails along top edges or outside the active drainage zone",
+      "Install\nstanding seam metal roof pans, zinc cladding, or pavers directly over the\ndrainage mat",
+      "Fasten metal cladding clips directly through the mat into the\ntimber substrate as specified by cladding manufacturer",
+      "Ensure the lower edge\ndischarges freely into roof gutters, drainage sumps, or perimeter weep holes"
+    ],
+    "selection_checklist": [
+      "Confirm roof or facade cladding requires an entangled\nmonofilament drainage and acoustic mat (standing seam metal, zinc, copper)",
+      "Verify compatibility with primary water-resistive barrier or roof underlay",
+      "Check required acoustic rain noise damping (up to 21 dB reduction)",
+      "Calculate\ntotal square meterage including 100mm filter fabric overlap allowance",
+      "Ensure\nfree drainage discharge pathway at eaves and footings"
+    ],
+    "accessories": [
+      "ProctorWrap HTR breathable roof underlay",
+      "Waterproof seaming tape",
+      "Galvanised fixing clouts"
+    ],
+    "limitations": [
+      "Not a primary waterproofing\nmembrane; must be used in conjunction with a compliant underlay or waterproofing\nlayer",
+      "Do not leave exposed to direct outdoor UV weather for longer than 30\ndays prior to cladding",
+      "Fasteners must not pinch or compress the drainage\npathway excessively"
+    ],
+    "warranty": "Backed by Proctor Group Australia\nmanufacturer warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "ProctorGeo HC",
+      "ProctorGeo D-Rain HC9",
+      "cavity drainage mat",
+      "standing seam drainage mat",
+      "zinc roof acoustic mat",
+      "entangled filament drainage mat",
+      "rain noise\nreduction mat",
+      "metal roof drainage mat",
+      "Proctor drainage mat"
+    ],
+    "problem_keywords": [
+      "condensation under standing seam metal roof",
+      "rain noise\ndrumming on zinc roof",
+      "corrosion on underside of metal roof",
+      "water pooling\nunder zinc cladding",
+      "hydrostatic pressure on horizontal deck"
+    ],
+    "placement": [
+      "roof",
+      "roofline",
+      "wall",
+      "external wall",
+      "floor",
+      "subfloor"
+    ],
+    "priority_fit": [
+      "condensation",
+      "acoustic",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Drainage and acoustic separation layer directly beneath zinc, copper, and\nstanding seam metal roofs on plywood substrates",
+      "Rain drumming acoustic\ndamping under lightweight metal architectural roof claddings",
+      "Horizontal\ncavity drainage layer beneath pavers, ballast, or green roofs on concrete podium\ndecks"
+    ],
+    "not_for": [
+      "Standalone waterproofing without underlying membrane",
+      "Unvented roof cavities without gutter drainage points",
+      "High-load heavy\nvehicular traffic without engineered concrete slab distribution"
+    ],
+    "rag_summary": "ProctorGeo HC (D-Rain HC9 / HC10) is an entangled monofilament\npolypropylene drainage and acoustic separation mat laminated with a non-woven\ngeotextile filter fabric. Sized at 9mm to 10mm thickness in roll format, it\ncreates a permanent drainage and ventilation plane under standing seam metal,\nzinc, and copper roofs, as well as behind wall claddings and beneath plaza\npavers. Delivering up to 21 dB in rain noise damping while rapidly draining\ncondensation, it protects metal claddings from underside corrosion and water\nponding."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

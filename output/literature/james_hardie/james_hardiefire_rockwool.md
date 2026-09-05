@@ -1,6 +1,6 @@
 ---
 title: "JAMES HARDIEFIRE ROCKWOOl - Batt Insulation | James Hardie"
-description: "Quality insulation engineered for Australian conditions. Made from natural volcanic rock, delivering superior fire resistance and acoustic performance"
+description: "HardieFire Insulation is a specialized high-density mineral wool insulation batt designed specifically for fire protection in James Hardie HardieSmart"
 keywords: "JAMES HARDIEFIRE ROCKWOOl, James Hardie batt, wall insulation, insulation Australia, James Hardie Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: JAMES_HARDIE_FIRE_ROCKWOOL
@@ -10,30 +10,35 @@ family_id: JAMES_HARDIE_FIRE_ROCKWOOL
 
 **James Hardie Batt** — bulk insulation batts for thermal and acoustic performance.
 
-Quality insulation engineered for Australian conditions. Made from natural volcanic rock, delivering superior fire resistance and acoustic performance that lasts the lifetime of the building. Specialised widths suit narrow party wall cavities in modular construction.
+HardieFire Insulation is a specialized high-density mineral wool insulation batt designed specifically for fire protection in James Hardie HardieSmart wall systems, including Boundary Wall, ZeroLot, Blade, and Aged Care systems. Composed of over 95% rock wool fibers with cured binder, it delivers non-combustible fire performance, exceptional acoustic separation, and thermal resistance within stud framing cavities. Tested to AS 1530.4 as part of complete systems, it achieves fire resistance levels up to 60/60/60 or 90/90/90 while maintaining a slim wall profile.
 
 ## Key features
 
-- Non-combustible stonewool made from natural volcanic rock.
-- superior fire resistance up to 1000°C.
-- excellent acoustic absorption properties.
-- fully recyclable at end of life.
-- helps achieve NCC acoustic separation requirements.
-- available in specialised widths for modular construction.
-- fire-rated construction for FRL requirements.
-- BCA compliant fire ratings.
+- Specifically designed for use in HardieSmart fire-rated wall systems.
+- High-density mineral wool composition (nominal 80 kg/m³).
+- Non-combustible fire protection complying with AS 1530.4.
+- Delivers thermal performance: R1.7 (60mm) and R2.5 (85mm).
+- Improves wall acoustic isolation and reduces airborne sound transfer (Rw 47 to 50+).
+- Installed with a required 5mm compression in stud bays to eliminate gaps.
+- Suitable for bushfire construction up to BAL-FZ (Flame Zone).
+- Lightweight and easy to cut with a mechanical hand saw or reciprocating saw.
+- Resistant to high temperatures, shrinking, and melting under fire exposure.
+- Backed by a 10-year manufacturing warranty when used with HardieSmart systems.
 
 ## Applications and selection
 
-- Party Wall Fire
+- wall
+- external wall
+- internal
+wall
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm HardieSmart wall system specification (Boundary Wall, ZeroLot, Blade, or Aged Care system).
+2. Verify framing depth (minimum 90mm stud cavity).
+3. Select batt thickness (60mm for R1.7 / FRL 60/60/60; 85mm for R2.5).
+4. Select width (420mm for 450mm stud centers; 560mm for 600mm stud centers).
+5. Calculate pack quantities allowing for 5mm compression.
 
 
 ## Current catalogue range
@@ -48,37 +53,54 @@ Quality insulation engineered for Australian conditions. Made from natural volca
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Batt | Manufacturer catalogue |
-| Material | Stonewool | Manufacturer catalogue |
-| Applications | Party Wall Fire | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material | Mineral wool (rock wool >95%, cured binder 1-5%) | - |
+| Nominal Density | 80 kg/m³ | - |
+| Thicknesses | 60 mm, 85 mm | - |
+| Dimensions | 420 mm x 1160 mm (for 450mm stud centres), 560 mm x 1160 mm (for 600mm stud centres) | - |
+| Thermal Resistance (R-value) | R1.7 (60mm), R2.5 (85mm) | AS/NZS 4859.1 |
+| Fire Resistance Level (FRL) | Up to 60/60/60 (Boundary Wall / ZeroLot) and -/60/60 | AS 1530.4 |
+| Acoustic Performance | Rw 47 to 50+ (system rating) | AS/NZS ISO 717.1 |
+| Bushfire Rating | Suitable up to BAL-FZ (Flame Zone) | AS 3959 |
+| Installation Compression | Minimum 5 mm compression along all sides (5mm wider and longer than stud bay) | - |
 
-
+Extracted from manufacturer datasheet: https://accel.com.au/products/hardiefire-insulation/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Non-combustible mineral wool; AS 1530.4 tested wall assemblies achieving FRL 60/60/60 and -/60/60; Suitable for BAL-FZ in accordance with AS 3959
+
+AS 1530.4, AS/NZS 4859.1, AS 3959 (BAL-FZ), CodeMark Certificate CM20135, NCC Volume One and Two
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.jameshardie.com.au/ContentfulCMS/Installation-Guide/Hardie_Wrap_Weather_Barrier_Installation_Guide.pdf (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://www.jameshardie.com.au/ContentfulCMS/Installation-Guide/Hardie_Wrap_Weather_Barrier_Installation_Guide.pdf.
 
+## Recommended accessories
+
+- HardieWrap weather barrier.
+- James Hardie external cladding (minimum 6mm).
+- Villaboard lining.
+- Mechanical cutting saw.
+
 
 ## Limitations and warnings
 
-- Keep dry during storage and installation - if product becomes wet, dry thoroughly before installing..
-- not a water or vapour barrier - use appropriate building wrap..
-- do not compress - compression reduces R-value performance..
-- not to be exposed to weather..
-- maximum service temperature 750°C..
-- Acoustic and fire ratings are system-based - verify complete wall assembly matches tested configuration..
+- Must not be exposed to weather or installed while wet; not designed for prolonged exterior exposure.
+- Must be installed with 5mm compression in both directions to maintain certified FRL.
+- Must be used as part of complete HardieSmart tested systems to achieve warranty and certified fire ratings.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Keep dry during storage and installation - if product becomes wet, dry thoroughly before installing.
+1. Store HardieFire insulation in an internal dry area protected from weather and moisture prior to installation.
+2. Frame wall with timber or steel studs at 450mm or 600mm centers.
+3. Cut batts outdoors or in ventilated areas using a mechanical hand saw or reciprocating saw.
+4. Add 5mm to measured dimensions when cutting to maintain the mandatory 5mm compression.
+5. Friction-fit batts firmly into stud bays ensuring minimum 5mm compression vertically and horizontally.
+6. Ensure there are no gaps, folds, or voids at junctions, corners, or behind noggings.
+7. Wear protective glasses, gloves, and P1/P2 dust mask during handling.
 
 ## Safety and handling
 
@@ -86,11 +108,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Manufactured using natural rock; biosoluble fibers; low VOC emissions; non-hazardous chemical classification
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+10-year manufacturing warranty when used with HardieSmart systems
 
 ## Specification starting point
 
