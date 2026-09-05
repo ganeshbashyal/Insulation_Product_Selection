@@ -1,0 +1,288 @@
+manufacturer,family_id,family_name,source_url,domain,domain_status,http_status
+acoustica,ACOUSTICA_ACCESSORY,Acoustica Accessory,https://acoustica.com.au/,acoustica.com.au,OK_OFFICIAL,200
+acoustica,ACOUSTICA_ACOUSTIC_BARRIER,Acoustica Acoustic Barrier,https://acoustica.com.au/,acoustica.com.au,OK_OFFICIAL,200
+acoustica,ACOUSTICA_ACOUSTIFLEX_SQ,Acoustica Acoustiflex SQ,https://acoustica.com.au/,acoustica.com.au,OK_OFFICIAL,200
+acoustica,ACOUSTICA_ANGELSTEP,Acoustica AngelStep,https://acoustica.com.au/,acoustica.com.au,OK_OFFICIAL,200
+acoustica,ACOUSTICA_DUST_FOAM_FILTER,Acoustica Dust foam filter,https://acoustica.com.au/,acoustica.com.au,OK_OFFICIAL,200
+acoustica,ACOUSTICA_GL,Acoustica Gl,https://acoustica.com.au/,acoustica.com.au,OK_OFFICIAL,200
+acoustica,ACOUSTICA_UNDERLAY,Acoustica Underlay,https://acoustica.com.au/,acoustica.com.au,OK_OFFICIAL,200
+aircell,AIRCELL_BISCUITS,Aircell Biscuits,https://www.kingspan.com/au/,kingspan.com,OK_OFFICIAL,200
+aircell,AIRCELL_FOIL_TAPE,Aircell Foil Tape,https://www.kingspan.com/au/,kingspan.com,OK_OFFICIAL,200
+aircell,AIRCELL_GLARESHIELD,Aircell Glareshield,https://www.kingspan.com/au/,kingspan.com,OK_OFFICIAL,200
+aircell,AIRCELL_INSULBREAK,Aircell Insulbreak,https://www.kingspan.com/au/,kingspan.com,OK_OFFICIAL,200
+aircell,AIRCELL_INSULINER,Aircell Insuliner,https://www.kingspan.com/au/,kingspan.com,OK_OFFICIAL,200
+aircell,AIRCELL_INSULSHED,Aircell Insulshed,https://www.kingspan.com/au/,kingspan.com,OK_OFFICIAL,200
+aircell,AIRCELL_INSULWHITE,Aircell Insulwhite,https://www.kingspan.com/au/,kingspan.com,OK_OFFICIAL,200
+aircell,AIRCELL_PERMICAV,Aircell Permicav,https://www.kingspan.com/au/,kingspan.com,OK_OFFICIAL,200
+aircell,AIRCELL_PERMIFLOOR,Aircell Permifloor,https://www.kingspan.com/au/,kingspan.com,OK_OFFICIAL,200
+aircell,AIRCELL_PERMISHIELD,Aircell Permishield,https://www.kingspan.com/au/,kingspan.com,OK_OFFICIAL,200
+aircell,AIRCELL_PERMIWALL,Aircell Permiwall,https://www.kingspan.com/au/,kingspan.com,OK_OFFICIAL,200
+aircell,AIRCELL_RETROSHIELD,Aircell Retroshield,https://www.kingspan.com/au/,kingspan.com,OK_OFFICIAL,200
+aircell,AIRCELL_RETROSHIELD_HANDYPACK,Aircell Retroshield Handypack,https://www.kingspan.com/au/,kingspan.com,OK_OFFICIAL,200
+aircell,AIRCELL_RETROSHIELD_XL,Aircell Retroshield XL,https://www.kingspan.com/au/,kingspan.com,OK_OFFICIAL,200
+aircell,AIRCELL_SPACER_BISCUITS,Aircell Spacer Biscuits,https://www.kingspan.com/au/,kingspan.com,OK_OFFICIAL,200
+ametalin,AMETALIN_ACCESSORY,Ametalin Accessory,https://www.ametalin.com/wp-content/uploads/PDFs/TDS/ThermalBreak-Technical-Data-Sheet_APM-45758-2.pdf,ametalin.com,OK_OFFICIAL,200
+ametalin,AMETALIN_CAVITY_DRAINAGE_BATTENS,Ametalin Cavity Drainage Battens,https://www.ametalin.com/wp-content/uploads/PDFs/TDS/ThermalBreak-Technical-Data-Sheet_APM-45758-2.pdf,ametalin.com,OK_OFFICIAL,200
+ametalin,AMETALIN_QUICK_TAPE_BLUE,Ametalin Quick Tape Blue,https://www.ametalin.com/wp-content/uploads/PDFs/TDS/ThermalBreak-Technical-Data-Sheet_APM-45758-2.pdf,ametalin.com,OK_OFFICIAL,200
+autex,AUTEX_ACCENT_CEILING_TILES,Autex Accent Ceiling Tiles,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_ACCESSORY,Autex Accessory,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_ACOUSTIC_TIMBER_ACOUSTIC_TIMBER_PANEL,Autex Acoustic Timber - Acoustic Timber Panel,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_ACOUSTIC_TIMBER_ACOUSTIC_TIMBER_RAFT,Autex Acoustic Timber - Acoustic Timber Raft,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_ACOUSTIC_TIMBER_CEILING_TILES,Autex Acoustic Timber - Ceiling Tiles,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_ACOUSTIC_TIMBER_QUIETSPACE,Autex Acoustic Timber - Quietspace,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_BATT,Autex Batt,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_BESPOKE_PRINT_CUBE,Autex Bespoke Print Cube,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_BESPOKE_PRINT_QUIETSPACE,Autex Bespoke Print Quietspace,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_CASCADE_ACOUSTIC_HANGING_SCREENS_EXPANDI,Autex Cascade Acoustic Hanging Screens - Expanding,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_CASCADE_ACOUSTIC_HANGING_SCREENS_FOLDING,Autex Cascade Acoustic Hanging Screens - Folding,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_CASCADE_ACOUSTIC_HANGING_SCREENS_STATIC,Autex Cascade Acoustic Hanging Screens - Static,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_COMPOSITION_SMOOTH_PANEL,Autex Composition - Smooth Panel,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_COMPOSITION_SMOOTH_ROLL,Autex Composition - Smooth Roll,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_COMPOSITION_VELOUR_PANEL,Autex Composition - Velour Panel,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_COMPOSITION_VELOUR_ROLL,Autex Composition - Velour Roll,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_COVE_ACOUSTIC_DESK_DIVIDER_ARC,Autex Cove Acoustic Desk Divider - Arc,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_COVE_ACOUSTIC_DESK_DIVIDER_BEVEL,Autex Cove Acoustic Desk Divider - Bevel,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_COVE_ACOUSTIC_DESK_DIVIDER_CLASSIC,Autex Cove Acoustic Desk Divider - Classic,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_CUBE,Autex Cube,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_FRONTIER_FINS_AXIS,Autex Frontier Fins - Axis,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_FRONTIER_FINS_NON_STANDARD_POWDER_COATED,Autex Frontier Fins - Non-Standard Powder Coated Extrusions,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_FRONTIER_FINS_STANDARD_KIT,Autex Frontier Fins - Standard Kit,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_FRONTIER_RAFT_BEAM,Autex Frontier Raft - Beam,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_FRONTIER_RAFT_BLADE,Autex Frontier Raft - Blade,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_FRONTIER_RAFT_TRAPEZOID,Autex Frontier Raft - Trapezoid,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_GREENSTUF_AUTEX_SOFFIT_SLAB_LINER,Autex Greenstuf Autex Soffit & Slab Liner,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_GREENSTUF_POLYESTER_ACOUSTIC_BLANKET,Autex Greenstuf Polyester Acoustic Blanket,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_GRID_CEILING_TILES_FRAME_RECTANGLE_UNCAP,Autex Grid Ceiling Tiles - Frame - Rectangle - Uncapped,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_GRID_CEILING_TILES_FRAME_VERTEX_RECTANGL,Autex Grid Ceiling Tiles - Frame/Vertex - Rectangle - Capped,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_GRID_CEILING_TILES_FRAME_VERTEX_SQUARE_C,Autex Grid Ceiling Tiles - Frame/Vertex - Square - Capped,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_GRID_CEILING_TILES_FRAME_VERTEX_SQUARE_U,Autex Grid Ceiling Tiles - Frame/Vertex - Square - Uncapped,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_GRID_CEILING_TILES_LINEAR_HATCH_ANGLE_LO,Autex Grid Ceiling Tiles - Linear/Hatch/Angle/Louvre - Rectangle - Capped,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_GRID_CEILING_TILES_LINEAR_HATCH_ANGLE_LO_2,Autex Grid Ceiling Tiles - Linear/Hatch/Angle/Louvre - Rectangle - Uncapped,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_GRID_CEILING_TILES_LINEAR_HATCH_ANGLE_LO_3,Autex Grid Ceiling Tiles - Linear/Hatch/Angle/Louvre - Square - Capped,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_GRID_CEILING_TILES_LINEAR_HATCH_ANGLE_LO_4,Autex Grid Ceiling Tiles - Linear/Hatch/Angle/Louvre - Square - Uncapped,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_GRID_CEILING_TILES_VAULT_RECTANGLE_UNCAP,Autex Grid Ceiling Tiles - Vault - Rectangle - Uncapped,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_GRID_CEILING_TILES_VAULT_SQUARE_UNCAPPED,Autex Grid Ceiling Tiles - Vault - Square - Uncapped,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_GROOVE,Autex Groove,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_HORIZON_CIRCLE,Autex Horizon - Circle,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_HORIZON_HEXAGON,Autex Horizon - Hexagon,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_HORIZON_OVAL,Autex Horizon - Oval,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_HORIZON_RECTANGLE,Autex Horizon - Rectangle,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_HORIZON_SQUARE,Autex Horizon - Square,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_HORIZON_STEEL_CABLE,Autex Horizon - Steel Cable,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_HORIZON_TRIANGLE,Autex Horizon - Triangle,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_LANES_BAFFLE_PEAK,Autex Lanes Baffle Peak,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_LANES_BAFFLE_PLANE,Autex Lanes Baffle Plane,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_LANES_BAFFLE_SAWTOOTH,Autex Lanes Baffle Sawtooth,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_MIRAGE_CUBE,Autex Mirage Cube,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_PANEL,Autex Panel,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_PRINTED_LANES_BAFFLE_PEAK,Autex Printed Lanes Baffle Peak,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_PRINTED_LANES_BAFFLE_PLANE,Autex Printed Lanes Baffle Plane,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_PRINTED_LANES_BAFFLE_SAWTOOTH,Autex Printed Lanes Baffle Sawtooth,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_QUIETSPACE_LATTICE_ECLIPSE,Autex Quietspace Lattice - Eclipse,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_QUIETSPACE_LATTICE_TORUS,Autex Quietspace Lattice - Torus,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_QUIETSPACE_LATTICE_TRAPEZIUM,Autex Quietspace Lattice - Trapezium,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_QUIETSPACE_PANEL,Autex Quietspace Panel,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_SOLID_COLOUR_CEILING_TILES,Autex Solid Colour Ceiling Tiles,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_SOLID_COLOUR_CUBE,Autex Solid Colour Cube,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_SOLID_COLOUR_FRONTIER_RAFT_BEAM,Autex Solid Colour Frontier Raft beam,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_SOLID_COLOUR_QUIETSPACE,Autex Solid Colour Quietspace,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_SURFACE_FINISHES_CEILING_TILES,Autex Surface Finishes Ceiling Tiles,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_SURFACE_FINISHES_CUBE,Autex Surface Finishes Cube,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_SURFACE_FINISHES_FRONTIER_RAFT_BEAM,Autex Surface Finishes Frontier Raft beam,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_SURFACE_FINISHES_QUIETSPACE,Autex Surface Finishes Quietspace,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_VERVE_ACOUSTIC_TIMBER,Autex Verve - Acoustic Timber,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_VERVE_SURFACE_FINISHES,Autex Verve - Surface Finishes,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_VERVE_CUBE,Autex Verve Cube,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_VICINITY_DESK_SCREEN_CREST,Autex Vicinity - Desk Screen - Crest,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_VICINITY_DESK_SCREEN_DEN,Autex Vicinity - Desk Screen - Den,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_VICINITY_DESK_SCREEN_HAVEN,Autex Vicinity - Desk Screen - Haven,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_VICINITY_DESK_SCREEN_HEDGE,Autex Vicinity - Desk Screen - Hedge,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_VICINITY_DESK_SCREEN_NOOK,Autex Vicinity - Desk Screen - Nook,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_VICINITY_DESK_SCREEN_POLKA,Autex Vicinity - Desk Screen - Polka,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_VICINITY_DESK_SCREEN_SLATE,Autex Vicinity - Desk Screen - Slate,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_VICINITY_DESK_SCREEN_SOL,Autex Vicinity - Desk Screen - Sol,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_WILLIE_WESTON_EMMA_HAYES_CUBE,Autex Willie Weston / Emma Hayes Cube,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+autex,AUTEX_WILLIE_WESTON_EMMA_HAYES_QUIETSPACE,Autex Willie Weston / Emma Hayes Quietspace,https://www.autexacoustics.com.au/,autexacoustics.com.au,OK_OFFICIAL,200
+bradford,BRADFORD_ACOUSTIGARD,Bradford Acoustigard,https://www.csrbradford.com.au/,csrbradford.com.au,OK_OFFICIAL,200
+bradford,BRADFORD_ANTICON_BLANKET,Bradford Anticon Blanket,https://www.csrbradford.com.au/,csrbradford.com.au,OK_OFFICIAL,200
+bradford,BRADFORD_ANTICON_ROOFING_BLANKET_HEAVY_DUTY_FOIL,Bradford Anticon Roofing Blanket - Heavy Duty Foil,https://www.csrbradford.com.au/,csrbradford.com.au,OK_OFFICIAL,200
+bradford,BRADFORD_ANTICON_ROOFING_BLANKET_LIGHT_DUTY_FOIL,Bradford Anticon Roofing Blanket - Light Duty Foil,https://www.csrbradford.com.au/,csrbradford.com.au,OK_OFFICIAL,200
+bradford,BRADFORD_ANTICON_ROOFING_BLANKET_MEDIUM_DUTY_FOIL,Bradford Anticon Roofing Blanket - Medium Duty Foil,https://www.csrbradford.com.au/,csrbradford.com.au,OK_OFFICIAL,200
+bradford,BRADFORD_FIBERTEX,Bradford Fibertex,https://www.csrbradford.com.au/,csrbradford.com.au,OK_OFFICIAL,200
+bradford,BRADFORD_FIRE_PROTECTION_DAMPER_STRIP,Bradford Fire Protection - Damper Strip,https://www.csrbradford.com.au/,csrbradford.com.au,OK_OFFICIAL,200
+bradford,BRADFORD_FIRE_PROTECTION_FILLER,Bradford Fire Protection - Filler,https://www.csrbradford.com.au/,csrbradford.com.au,OK_OFFICIAL,200
+bradford,BRADFORD_FIRE_PROTECTION_METAL_ROOF,Bradford Fire Protection - Metal Roof,https://www.csrbradford.com.au/,csrbradford.com.au,OK_OFFICIAL,200
+bradford,BRADFORD_FIRE_PROTECTION_TILE_ROOF,Bradford Fire Protection - Tile Roof,https://www.csrbradford.com.au/,csrbradford.com.au,OK_OFFICIAL,200
+bradford,BRADFORD_FIRE_PROTECTION_WALL_BATT,Bradford Fire Protection - Wall Batt,https://www.csrbradford.com.au/,csrbradford.com.au,OK_OFFICIAL,200
+bradford,BRADFORD_FIRESEAL_PARTY_WALL_BATTS,Bradford Fireseal Party Wall Batts,https://www.csrbradford.com.au/,csrbradford.com.au,OK_OFFICIAL,200
+bradford,BRADFORD_GOLD_BATTS,Bradford Gold Batts,https://www.csrbradford.com.au/,csrbradford.com.au,OK_OFFICIAL,200
+bradford,BRADFORD_GOLD_HI_PERFORMANCE_BATTS,Bradford Gold Hi-Performance Batts,https://www.csrbradford.com.au/,csrbradford.com.au,OK_OFFICIAL,200
+bradford,BRADFORD_MULTITEL_FOIL_FACED,Bradford Multitel - Foil - Faced,https://www.csrbradford.com.au/,csrbradford.com.au,OK_OFFICIAL,200
+bradford,BRADFORD_OPTIMO,Bradford Optimo,https://www.csrbradford.com.au/,csrbradford.com.au,OK_OFFICIAL,200
+bradford,BRADFORD_POLYESTER_POLYMAX,Bradford Polyester - Polymax,https://www.csrbradford.com.au/,csrbradford.com.au,OK_OFFICIAL,200
+bradford,BRADFORD_POLYMAX_CEILING_INSULATION,Bradford Polymax Ceiling Insulation,https://www.csrbradford.com.au/,csrbradford.com.au,OK_OFFICIAL,200
+bradford,BRADFORD_SOUNDCSREEN_ACOUSTIC_BATTS,Bradford Soundcsreen Acoustic Batts,https://www.csrbradford.com.au/,csrbradford.com.au,OK_OFFICIAL,200
+bradford,BRADFORD_SOUNDSCREEN_ACOUSTIC_BRADFORD,Bradford Soundscreen Acoustic - Bradford,https://www.csrbradford.com.au/,csrbradford.com.au,OK_OFFICIAL,200
+bradford,BRADFORD_SUPERTEL_FACED_HEAVY_DUTY_FOIL,Bradford Supertel Faced - Heavy Duty Foil,https://www.csrbradford.com.au/,csrbradford.com.au,OK_OFFICIAL,200
+bradford,BRADFORD_SUPERTEL_FACED_HEAVY_DUTY_PERFORATED,Bradford Supertel Faced - Heavy Duty Perforated,https://www.csrbradford.com.au/,csrbradford.com.au,OK_OFFICIAL,200
+bradford,BRADFORD_SUPERTEL_PLAIN,Bradford Supertel Plain,https://www.csrbradford.com.au/,csrbradford.com.au,OK_OFFICIAL,200
+bradford,BRADFORD_SUPERTEL_PLAIN_PLAIN_UNFACED,Bradford Supertel Plain - Plain - Unfaced,https://www.csrbradford.com.au/,csrbradford.com.au,OK_OFFICIAL,200
+bradford,BRADFORD_THERMAL_BRADFORD,Bradford Thermal - Bradford,https://www.csrbradford.com.au/,csrbradford.com.au,OK_OFFICIAL,200
+bradford,BRADFORD_THERMAL_UNDERFLOOR_OPTIMO,Bradford Thermal Underfloor / Optimo,https://www.csrbradford.com.au/,csrbradford.com.au,OK_OFFICIAL,200
+bradford,BRADFORD_WALL_WRAPS_BLACK_LABEL_WITH_INTEGRATED_T,Bradford Wall Wraps - Black Label With Integrated Tape,https://www.csrbradford.com.au/,csrbradford.com.au,OK_OFFICIAL,200
+bradford,BRADFORD_WALL_WRAPS_ENVIROSEAL_HIGHTACK_TAPE,Bradford Wall Wraps - Enviroseal Hightack Tape,https://www.csrbradford.com.au/,csrbradford.com.au,OK_OFFICIAL,200
+bradford,BRADFORD_WALL_WRAPS_ENVIROSEAL_ULTRA_TAPE,Bradford Wall Wraps - Enviroseal Ultra Tape,https://www.csrbradford.com.au/,csrbradford.com.au,OK_OFFICIAL,200
+bradford,BRADFORD_WALL_WRAPS_LIGHT_DUTY_COMMERCIAL,Bradford Wall Wraps - Light Duty Commercial,https://www.csrbradford.com.au/,csrbradford.com.au,OK_OFFICIAL,200
+bradford,BRADFORD_WALL_WRAPS_LIGHT_DUTY_METAL_ROOF,Bradford Wall Wraps - Light Duty Metal Roof,https://www.csrbradford.com.au/,csrbradford.com.au,OK_OFFICIAL,200
+bradford,BRADFORD_WALL_WRAPS_LIGHT_DUTY_RESIDENTIAL,Bradford Wall Wraps - Light Duty Residential,https://www.csrbradford.com.au/,csrbradford.com.au,OK_OFFICIAL,200
+bradford,BRADFORD_WALL_WRAPS_MEDIUM_DUTY_POLYWEAVE_WALL_WR,Bradford Wall Wraps - Medium Duty Polyweave Wall Wrap,https://www.csrbradford.com.au/,csrbradford.com.au,OK_OFFICIAL,200
+bradford,BRADFORD_WALL_WRAPS_MEDIUM_DUTY_POLYWEAVE_WRAP,Bradford Wall Wraps - Medium Duty Polyweave Wrap,https://www.csrbradford.com.au/,csrbradford.com.au,OK_OFFICIAL,200
+dctech,DCTECH_ACOUSTIC_BARRIER,DCTech Acoustic Barrier,https://dctech.com.au/wp-content/uploads/2018/09/DCT_Industrial_Insulation_Brochure.pdf,dctech.com.au,OK_OFFICIAL,200
+dctech,DCTECH_DCT_XPS_GA,DCTech Dct Xps Ga,https://dctech.com.au/wp-content/uploads/2018/09/DCT_Industrial_Insulation_Brochure.pdf,dctech.com.au,OK_OFFICIAL,200
+dctech,DCTECH_TECSOUND,DCTech Tecsound,https://dctech.com.au/wp-content/uploads/2018/09/DCT_Industrial_Insulation_Brochure.pdf,dctech.com.au,OK_OFFICIAL,200
+ecowool,ECOWOOL_ACOUSTIC_PARTITION_BATT,Ecowool Acoustic Partition Batt,https://chadgroup.com.au/wp-content/uploads/2022/09/eco-wool-datasheet.pdf,chadgroup.com.au,UNVERIFIED_MFR,200
+ecowool,ECOWOOL_ACOUSTIC_PARTITION_ROLL,Ecowool Acoustic Partition Roll,https://chadgroup.com.au/wp-content/uploads/2022/09/eco-wool-datasheet.pdf,chadgroup.com.au,UNVERIFIED_MFR,200
+ecowool,ECOWOOL_CONDENSHIELD_ROOF_BLANKET,Ecowool Condenshield Roof Blanket,https://chadgroup.com.au/wp-content/uploads/2022/09/eco-wool-datasheet.pdf,chadgroup.com.au,UNVERIFIED_MFR,200
+ecowool,ECOWOOL_ECOSEAL_TAPE,Ecowool Ecoseal Tape,https://chadgroup.com.au/wp-content/uploads/2022/09/eco-wool-datasheet.pdf,chadgroup.com.au,UNVERIFIED_MFR,200
+ecowool,ECOWOOL_NOISEBREAK_BATT,Ecowool NoiseBREAK Batt,https://chadgroup.com.au/wp-content/uploads/2022/09/eco-wool-datasheet.pdf,chadgroup.com.au,UNVERIFIED_MFR,200
+ecowool,ECOWOOL_RESIDENTIAL_BATT,Ecowool Residential Batt,https://chadgroup.com.au/wp-content/uploads/2022/09/eco-wool-datasheet.pdf,chadgroup.com.au,UNVERIFIED_MFR,200
+ecowool,ECOWOOL_WRAP,Ecowool Wrap,https://chadgroup.com.au/wp-content/uploads/2022/09/eco-wool-datasheet.pdf,chadgroup.com.au,UNVERIFIED_MFR,200
+fletcher,FLETCHER_PINK_BATTS_WALL,Pink Batts Wall Insulation,https://insulation.com.au/product/pink-batts-insulation/,insulation.com.au,OK_OFFICIAL,200
+fletcher,FLETCHER_PINK_BATTS_CEILING,Pink Batts Ceiling Insulation,https://insulation.com.au/product/pink-batts-ceiling-insulation/,insulation.com.au,OK_OFFICIAL,200
+fletcher,FLETCHER_PINK_BATTS_FLOOR,Pink Batts Floor Insulation,https://insulation.com.au/products/,insulation.com.au,OK_OFFICIAL,200
+fletcher,FLETCHER_SOUNDBREAK,Soundbreak Acoustic Insulation,https://insulation.com.au/product/soundbreak/,insulation.com.au,OK_OFFICIAL,200
+fletcher,FLETCHER_PINK_PARTITION,Pink Partition Insulation,https://insulation.com.au/product/pink-partition-insulation/,insulation.com.au,OK_OFFICIAL,200
+fletcher,FLETCHER_FI32_SEMI_RIGID,FI32 Semi-Rigid Insulation,https://insulation.com.au/product/fi32-semi-rigid-insulation/,insulation.com.au,OK_OFFICIAL,200
+fletcher,FLETCHER_FI24_FLEX_DUCTLINER,FI24 Flexible Ductliner,https://insulation.com.au/product/fi24-flexible-ductliner/,insulation.com.au,OK_OFFICIAL,200
+fletcher,FLETCHER_PINK_THERMAL_SLAB,Pink Thermal Slab,https://insulation.com.au/product/pink-thermal-slab/,insulation.com.au,OK_OFFICIAL,200
+fletcher,FLETCHER_PARTY_WALL_STONEWOOL,Fletcher Protect / Fire Stop Party Wall Stonewool,https://insulation.com.au/product/fletcher-protect-party-wall-stonewool-batts/,insulation.com.au,OK_OFFICIAL,200
+fletcher,FLETCHER_PERMASTOP,Permastop Building Blanket,https://insulation.com.au/product/permastop-building-blanket/,insulation.com.au,OK_OFFICIAL,200
+fletcher,FLETCHER_VAPAWRAP_WALL,Sisalation Vapawrap Residential Wall Wrap,https://insulation.com.au/product/sisalation-vapawrap-residential-wall-wrap/,insulation.com.au,OK_OFFICIAL,200
+fletcher,FLETCHER_VAPAWRAP_METAL_ROOF,Sisalation Vapawrap Metal Roof,https://insulation.com.au/product/sisalation-vapawrap-metal-roof/,insulation.com.au,OK_OFFICIAL,200
+fletcher,FLETCHER_SISALATION_WRAP,Sisalation Tuff Wrap and Multipurpose Sarking,https://insulation.com.au/product/sisalation-tuff-wrap/,insulation.com.au,OK_OFFICIAL,200
+fletcher,FLETCHER_FOAM_BUBBLE_CELL,Sisalation Foam Cell and Bubble Cell,https://insulation.com.au/product/foam-cell-mutlipurpose/,insulation.com.au,OK_OFFICIAL,200
+fletcher,FLETCHER_SUPABATT,supaBATT External Wall Barrier,https://insulation.com.au/product/supabatt/,insulation.com.au,OK_OFFICIAL,200
+fletcher,FLETCHER_TAPES_ACCESSORIES,Fletcher Membrane Tapes and Thermal Break Accessories,https://insulation.com.au/product/vapastop-883-tape/,insulation.com.au,OK_OFFICIAL,200
+fletcher,FLETCHER_SAFE_N_SILENT_LEGACY,Safe'n'Silent Pro350 (legacy identity review),https://insulation.com.au/,insulation.com.au,OK_OFFICIAL,200
+fletcher,FLETCHER_FF_HD_LEGACY,Sisalation FF HD facing roll (identity review),https://insulation.com.au/,insulation.com.au,OK_OFFICIAL,200
+foilboard,FOILBOARD_ACCESSORY,Foilboard Accessory,https://www.foilboard.com.au/,foilboard.com.au,OK_OFFICIAL,200
+foilboard,FOILBOARD_BLANK_PLATES,Foilboard Blank Plates,https://www.foilboard.com.au/,foilboard.com.au,OK_OFFICIAL,200
+foilboard,FOILBOARD_BOARD,Foilboard Board,https://www.foilboard.com.au/,foilboard.com.au,OK_OFFICIAL,200
+foilboard,FOILBOARD_DIY_FAST_TRADE_PACK,Foilboard DIY/Fast Trade Pack,https://www.foilboard.com.au/,foilboard.com.au,OK_OFFICIAL,200
+foilboard,FOILBOARD_FLEXIFAST_FASTENERS,Foilboard Flexifast Fasteners,https://www.foilboard.com.au/,foilboard.com.au,OK_OFFICIAL,200
+foilboard,FOILBOARD_FLOOR_SADDLES,Foilboard Floor Saddles,https://www.foilboard.com.au/,foilboard.com.au,OK_OFFICIAL,200
+foilboard,FOILBOARD_GARAGE_DOOR_KIT,Foilboard Garage Door Kit,https://www.foilboard.com.au/,foilboard.com.au,OK_OFFICIAL,200
+foilboard,FOILBOARD_GREEN,Foilboard Green,https://www.foilboard.com.au/,foilboard.com.au,OK_OFFICIAL,200
+foilboard,FOILBOARD_GREEN_JOINING_TAPE,Foilboard Green Joining Tape,https://www.foilboard.com.au/,foilboard.com.au,OK_OFFICIAL,200
+foilboard,FOILBOARD_SILVER_JOINING_TAPE,Foilboard Silver Joining Tape,https://www.foilboard.com.au/,foilboard.com.au,OK_OFFICIAL,200
+foilboard,FOILBOARD_SPACER_BLOCKS,Foilboard Spacer Blocks,https://www.foilboard.com.au/,foilboard.com.au,OK_OFFICIAL,200
+foilboard,FOILBOARD_STANDARD_FASTENERS,Foilboard Standard Fasteners,https://www.foilboard.com.au/,foilboard.com.au,OK_OFFICIAL,200
+foilboard,FOILBOARD_STANDARD_TEK_SCREWS,Foilboard Standard Tek Screws,https://www.foilboard.com.au/,foilboard.com.au,OK_OFFICIAL,200
+foilboard,FOILBOARD_ULTRA_FASTENERS,Foilboard Ultra Fasteners,https://www.foilboard.com.au/,foilboard.com.au,OK_OFFICIAL,200
+foilboard,FOILBOARD_ULTRA_TEK_SCREWS,Foilboard Ultra Tek Screws,https://www.foilboard.com.au/,foilboard.com.au,OK_OFFICIAL,200
+higgins insulation,HIGGINS_INSULATION_ACOUSTIC_SHEET,Higgins Insulation Acoustic Sheet,https://higginsinsulation.com.au/wp-content/uploads/2019/10/FI96-HDEI-Insulation-Technical-Data-Sheet.pdf,higginsinsulation.com.au,OK_OFFICIAL,200
+higgins insulation,HIGGINS_INSULATION_BATT,Higgins Insulation Batt,https://higginsinsulation.com.au/wp-content/uploads/2019/10/FI96-HDEI-Insulation-Technical-Data-Sheet.pdf,higginsinsulation.com.au,OK_OFFICIAL,200
+higgins insulation,HIGGINS_INSULATION_HIGGINS_BUILDERS_BAFFLE,Higgins Insulation Higgins Builders Baffle,https://higginsinsulation.com.au/wp-content/uploads/2019/10/FI96-HDEI-Insulation-Technical-Data-Sheet.pdf,higginsinsulation.com.au,OK_OFFICIAL,200
+higgins insulation,HIGGINS_INSULATION_HIGGINS_FOIL_BREATHER_MEDIUM_DUTY,Higgins Insulation Higgins Foil Breather Medium Duty,https://higginsinsulation.com.au/wp-content/uploads/2019/10/FI96-HDEI-Insulation-Technical-Data-Sheet.pdf,higginsinsulation.com.au,OK_OFFICIAL,200
+higgins insulation,HIGGINS_INSULATION_HIGGINS_FOIL_NON_BREATHER_MEDIUM_DUTY,Higgins Insulation Higgins Foil Non Breather Medium Duty,https://higginsinsulation.com.au/wp-content/uploads/2019/10/FI96-HDEI-Insulation-Technical-Data-Sheet.pdf,higginsinsulation.com.au,OK_OFFICIAL,200
+higgins insulation,HIGGINS_INSULATION_HIGGINS_HBL,Higgins Insulation Higgins HBL,https://higginsinsulation.com.au/wp-content/uploads/2019/10/FI96-HDEI-Insulation-Technical-Data-Sheet.pdf,higginsinsulation.com.au,OK_OFFICIAL,200
+higgins insulation,HIGGINS_INSULATION_HIGGINS_POLYESTER_BATT,Higgins Insulation Higgins Polyester Batt,https://higginsinsulation.com.au/wp-content/uploads/2019/10/FI96-HDEI-Insulation-Technical-Data-Sheet.pdf,higginsinsulation.com.au,OK_OFFICIAL,200
+higgins insulation,HIGGINS_INSULATION_HIGGINS_POLYESTER_SOUND_CONTROL_BATT,Higgins Insulation Higgins Polyester Sound Control Batt,https://higginsinsulation.com.au/wp-content/uploads/2019/10/FI96-HDEI-Insulation-Technical-Data-Sheet.pdf,higginsinsulation.com.au,OK_OFFICIAL,200
+higgins insulation,HIGGINS_INSULATION_ROLL,Higgins Insulation Roll,https://higginsinsulation.com.au/wp-content/uploads/2019/10/FI96-HDEI-Insulation-Technical-Data-Sheet.pdf,higginsinsulation.com.au,OK_OFFICIAL,200
+hushtec,HUSHTEC_ACOUSTIC_BARRIER,Hushtec Acoustic Barrier,https://masonmercer.com.au/wp-content/uploads/2024/06/Hushtec-Premium-Noise-Control-Brochure-Data-Sheet.pdf,masonmercer.com.au,UNVERIFIED_MFR,200
+hushtec,HUSHTEC_BATT,Hushtec Batt,https://masonmercer.com.au/wp-content/uploads/2024/06/Hushtec-Premium-Noise-Control-Brochure-Data-Sheet.pdf,masonmercer.com.au,UNVERIFIED_MFR,200
+hushtec,HUSHTEC_REFLECTIVE,Hushtec Reflective,https://masonmercer.com.au/wp-content/uploads/2024/06/Hushtec-Premium-Noise-Control-Brochure-Data-Sheet.pdf,masonmercer.com.au,UNVERIFIED_MFR,200
+james hardie,JAMES_HARDIE_FIRE_ROCKWOOL,JAMES HARDIEFIRE ROCKWOOl,https://www.jameshardie.com.au/ContentfulCMS/Installation-Guide/Hardie_Wrap_Weather_Barrier_Installation_Guide.pdf,jameshardie.com.au,OK_OFFICIAL,200
+kingspan,KINGSPAN_K10,Kingspan K10,https://www.kingspan.com/au/,kingspan.com,OK_OFFICIAL,200
+kingspan,KINGSPAN_K12,Kingspan K12,https://www.kingspan.com/au/,kingspan.com,OK_OFFICIAL,200
+kingspan,KINGSPAN_K15,Kingspan K15,https://www.kingspan.com/au/,kingspan.com,OK_OFFICIAL,200
+kingspan,KINGSPAN_K17,Kingspan K17,https://www.kingspan.com/au/,kingspan.com,OK_OFFICIAL,200
+kingspan,KINGSPAN_K18,Kingspan K18,https://www.kingspan.com/au/,kingspan.com,OK_OFFICIAL,200
+kingspan,KINGSPAN_K3,Kingspan K3,https://www.kingspan.com/au/,kingspan.com,OK_OFFICIAL,200
+kingspan,KINGSPAN_K8,Kingspan K8,https://www.kingspan.com/au/,kingspan.com,OK_OFFICIAL,200
+kingspan,KINGSPAN_UNIVERSAL_INSULATION_RETAINING_CLIPS,Kingspan Universal Insulation Retaining Clips,https://www.kingspan.com/au/,kingspan.com,OK_OFFICIAL,200
+kingspan,KINGSPAN_XPS_STRIP_SLAP_EDGE_INSULATION,Kingspan XPS Strip Slap Edge Insulation,https://www.kingspan.com/au/,kingspan.com,OK_OFFICIAL,200
+knauf,KNAUF_BATT,Knauf Batt,https://www.earthwool.com.au/wp-content/uploads/2024/11/datasheet_earthwool_wall_batt.pdf,earthwool.com.au,OK_OFFICIAL,200
+knauf,KNAUF_BLANKET_ROOF_LAMIN,Knauf Blanket Roof Lamin,https://www.earthwool.com.au/wp-content/uploads/2024/11/datasheet_earthwool_wall_batt.pdf,earthwool.com.au,OK_OFFICIAL,200
+martini,MARTINI_COMMERCIAL_POLYESTER_MARTINI_MAB,Martini Commercial Polyester / Martini MAB,https://martini.com.au/,martini.com.au,OK_OFFICIAL,200
+metecno,METECNO_ACCESSORY,Metecno Accessory,https://metecno.com/,metecno.com,OK_OFFICIAL,200
+metecno,METECNO_ALUMINIUM_GLASS_FOIL_TAPE,Metecno Aluminium Glass Foil Tape,https://metecno.com/,metecno.com,OK_OFFICIAL,200
+metecno,METECNO_BALLISTIC_POINT_INSULATION_FASTENE,Metecno Ballistic Point Insulation Fastene,https://metecno.com/,metecno.com,OK_OFFICIAL,200
+metecno,METECNO_BOARD,Metecno Board,https://metecno.com/,metecno.com,OK_OFFICIAL,200
+misc,MISC_ACCESSORY,Misc Accessory,https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf,pricewiseinsulation.com.au,UNVERIFIED_MFR,200
+misc,MISC_POLYSTRAPPING,Misc Polystrapping,https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf,pricewiseinsulation.com.au,UNVERIFIED_MFR,200
+misc,MISC_REFLECTIVE,Misc Reflective,https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf,pricewiseinsulation.com.au,UNVERIFIED_MFR,200
+misc,MISC_RHINO_BREATHABLE_MEMBRANE,Misc Rhino Breathable Membrane,https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf,pricewiseinsulation.com.au,UNVERIFIED_MFR,200
+misc,MISC_RHINO_WRAP_BREATHER,Misc Rhino Wrap Breather,https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf,pricewiseinsulation.com.au,UNVERIFIED_MFR,200
+misc,MISC_TAPE_METALISED,Misc Tape Metalised,https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf,pricewiseinsulation.com.au,UNVERIFIED_MFR,200
+misc,MISC_TENSORGRIP,Misc Tensorgrip,https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf,pricewiseinsulation.com.au,UNVERIFIED_MFR,200
+misc,MISC_TENSORGRIP_H,Misc Tensorgrip H,https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf,pricewiseinsulation.com.au,UNVERIFIED_MFR,200
+misc,MISC_TENSORGRIPH,Misc TensorgripH,https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf,pricewiseinsulation.com.au,UNVERIFIED_MFR,200
+misc,MISC_WRAP,Misc Wrap,https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf,pricewiseinsulation.com.au,UNVERIFIED_MFR,200
+paroc,PAROC_INSULROCK_PARTY_WALL_BATT,Paroc InsulRock Party Wall Batt,https://www.paroc.com/en,paroc.com,OK_OFFICIAL,200
+paroc,PAROC_ROCKWOOL,Paroc Rockwool,https://www.paroc.com/en,paroc.com,OK_OFFICIAL,200
+polyair,POLYAIR_REFLECTIVE,Polyair Reflective,https://www.polyair.com.au/,polyair.com.au,OK_OFFICIAL,200
+polyair,POLYAIR_THERMO_REFLECTIVE_PRODUCTS_POLYAIR_UNICE,Polyair Thermo Reflective Products - Polyair Unicell,https://www.polyair.com.au/,polyair.com.au,OK_OFFICIAL,200
+polyair,POLYAIR_THERMO_REFLECTIVE_PRODUCTS_POLYAIR_UNICE_2,Polyair Thermo Reflective Products - Polyair Unicell Self Adhesive,https://www.polyair.com.au/,polyair.com.au,OK_OFFICIAL,200
+polyester solutions,POLYESTER_SOLUTIONS_BATT,Polyester Solutions Batt,https://www.polyestersolutions.com.au/,polyestersolutions.com.au,OK_OFFICIAL,200
+polyester solutions,POLYESTER_SOLUTIONS_THERMAL_BATTS_P,Polyester Solutions Thermal batts - P,https://www.polyestersolutions.com.au/,polyestersolutions.com.au,OK_OFFICIAL,200
+polyester solutions,POLYESTER_SOLUTIONS_UNDER_FLOOR_ROLLS_POLYFB,Polyester Solutions Under Floor Rolls - PolyFB,https://www.polyestersolutions.com.au/,polyestersolutions.com.au,OK_OFFICIAL,200
+polyester solutions,POLYESTER_SOLUTIONS_WALL_BLOCK_BAFFLE_BLOCK_BATTS,Polyester Solutions Wall Block - Baffle block Batts,https://www.polyestersolutions.com.au/,polyestersolutions.com.au,OK_OFFICIAL,200
+polyester solutions,POLYESTER_SOLUTIONS_WALL_BLOCK_BAFFLE_BLOCK_ROLLS,Polyester Solutions Wall Block - Baffle block rolls,https://www.polyestersolutions.com.au/,polyestersolutions.com.au,OK_OFFICIAL,200
+proctor,PROCTOR_ACCESSORY,Proctor Accessory,https://proctorgroup.com.au/,proctorgroup.com.au,OK_OFFICIAL,200
+proctor,PROCTOR_BAL,Proctor BAL,https://proctorgroup.com.au/,proctorgroup.com.au,OK_OFFICIAL,200
+proctor,PROCTOR_DRAINAGE_VENTILATION,Proctor Drainage / Ventilation,https://proctorgroup.com.au/,proctorgroup.com.au,OK_OFFICIAL,200
+proctor,PROCTOR_GABLE_VENT,Proctor Gable Vent,https://proctorgroup.com.au/,proctorgroup.com.au,OK_OFFICIAL,200
+proctor,PROCTOR_MEMBRANE,Proctor Membrane,https://proctorgroup.com.au/,proctorgroup.com.au,OK_OFFICIAL,200
+proctor,PROCTOR_PASSIVE_DRIFLASH_TAPE,Proctor Passive DriFlash Tape,https://proctorgroup.com.au/,proctorgroup.com.au,OK_OFFICIAL,200
+proctor,PROCTOR_PASSIVE_RAINSCREEN_WITH_INTEGRATED_TAPE,Proctor Passive Rainscreen with Integrated Tape,https://proctorgroup.com.au/,proctorgroup.com.au,OK_OFFICIAL,200
+proctor,PROCTOR_PASSIVE_SMARTVAP,Proctor Passive SmartVap,https://proctorgroup.com.au/,proctorgroup.com.au,OK_OFFICIAL,200
+proctor,PROCTOR_PASSIVE_WRAPTITE_SA_TAPE,Proctor Passive Wraptite SA Tape,https://proctorgroup.com.au/,proctorgroup.com.au,OK_OFFICIAL,200
+proctor,PROCTOR_Q_SILENCE_P,Proctor Q-Silence P,https://proctorgroup.com.au/,proctorgroup.com.au,OK_OFFICIAL,200
+proctor,PROCTOR_REFLECTIVE,Proctor Reflective,https://proctorgroup.com.au/,proctorgroup.com.au,OK_OFFICIAL,200
+proctor,PROCTOR_TIGHTMATE,Proctor TightMate,https://proctorgroup.com.au/,proctorgroup.com.au,OK_OFFICIAL,200
+proctor,PROCTOR_YOURIPPA_CURING_TAPE,Proctor YouRippa Curing Tape,https://proctorgroup.com.au/,proctorgroup.com.au,OK_OFFICIAL,200
+proctor,PROCTOR_YOURIPPA_CYCLONE,Proctor YouRippa Cyclone,https://proctorgroup.com.au/,proctorgroup.com.au,OK_OFFICIAL,200
+proctor,PROCTOR_YOURIPPA_EASY,Proctor YouRippa Easy,https://proctorgroup.com.au/,proctorgroup.com.au,OK_OFFICIAL,200
+proctor,PROCTOR_YOURIPPA_PROTECT_TAPE,Proctor YouRippa Protect Tape,https://proctorgroup.com.au/,proctorgroup.com.au,OK_OFFICIAL,200
+proctor,PROCTOR_YOURIPPA_SILVER,Proctor YouRippa Silver,https://proctorgroup.com.au/,proctorgroup.com.au,OK_OFFICIAL,200
+proctor,PROCTOR_GEO_HC,ProctorGeo HC,https://proctorgroup.com.au/,proctorgroup.com.au,OK_OFFICIAL,200
+proctor,PROCTOR_GEO_IRMA,ProctorGeo IRMA,https://proctorgroup.com.au/,proctorgroup.com.au,OK_OFFICIAL,200
+proctor,PROCTOR_GEO_VAP,ProctorGeo Vap,https://proctorgroup.com.au/,proctorgroup.com.au,OK_OFFICIAL,200
+proctor,PROCTOR_PASSIVE_YOUBYUTE_FLEXI_TAPE,ProctorPassive YouByute Flexi Tape,https://proctorgroup.com.au/,proctorgroup.com.au,OK_OFFICIAL,200
+proctor,PROCTOR_PASSIVE_YOUBYUTE_SEALING_TAPE,ProctorPassive YouByute Sealing Tape,https://proctorgroup.com.au/,proctorgroup.com.au,OK_OFFICIAL,200
+proctor,PROCTOR_PASSIVE_YOURIPPA_DUO_TAPE,ProctorPassive YouRippa Duo Tape,https://proctorgroup.com.au/,proctorgroup.com.au,OK_OFFICIAL,200
+proctor,PROCTOR_WRAP_HT,ProctorWrap HT,https://proctorgroup.com.au/,proctorgroup.com.au,OK_OFFICIAL,200
+proctor,PROCTOR_WRAP_HIGH_TACK_PLUS_TAPE,ProctorWrap High Tack PLUS Tape,https://proctorgroup.com.au/,proctorgroup.com.au,OK_OFFICIAL,200
+proctor,PROCTOR_WRAP_HIGH_TACK_PLUS_TAPE_2,ProctorWrap High Tack Plus Tape,https://proctorgroup.com.au/,proctorgroup.com.au,OK_OFFICIAL,200
+proctor,PROCTOR_WRAP_HIGH_TACK_TAPE,ProctorWrap High Tack Tape,https://proctorgroup.com.au/,proctorgroup.com.au,OK_OFFICIAL,200
+proctor,PROCTOR_WRAP_PLASTI_GRIP_WASHERS,ProctorWrap Plasti-Grip Washers,https://proctorgroup.com.au/,proctorgroup.com.au,OK_OFFICIAL,200
+rockwool,ROCKWOOL_REFLECTIVE,Rockwool Reflective,https://www.rockwool.com/syssiteassets/rw-sa/technical-resources/thermalrock-s---technical-datasheet-au---2023.pdf,rockwool.com,OK_OFFICIAL,200
+sonata acoustic panels,SONATA_ACOUSTIC_PANELS_SONATA_RECITAL_CORE,Sonata Acoustic Panels Sonata Recital Core,https://sonataacousticpanels.com.au/,sonataacousticpanels.com.au,OK_OFFICIAL,200
+stinger,STINGER_ACCESSORY,Stinger Accessory,https://insulation.com.au/wp-content/uploads/2024/Brochure-Sisalation-Wrap-Selection-Guide-Consumer-Rev6-120825-web-1.pdf,insulation.com.au,OK_OFFICIAL,200
+stinger,STINGER_CH,Stinger Ch,https://insulation.com.au/wp-content/uploads/2024/Brochure-Sisalation-Wrap-Selection-Guide-Consumer-Rev6-120825-web-1.pdf,insulation.com.au,OK_OFFICIAL,200
+stinger,STINGER_CN,Stinger Cn,https://insulation.com.au/wp-content/uploads/2024/Brochure-Sisalation-Wrap-Selection-Guide-Consumer-Rev6-120825-web-1.pdf,insulation.com.au,OK_OFFICIAL,200
+stinger,STINGER_CS,Stinger Cs,https://insulation.com.au/wp-content/uploads/2024/Brochure-Sisalation-Wrap-Selection-Guide-Consumer-Rev6-120825-web-1.pdf,insulation.com.au,OK_OFFICIAL,200
+stinger,STINGER_HT,Stinger Ht,https://insulation.com.au/wp-content/uploads/2024/Brochure-Sisalation-Wrap-Selection-Guide-Consumer-Rev6-120825-web-1.pdf,insulation.com.au,OK_OFFICIAL,200
+thermotec,THERMOTEC_NUWAVE_BASE_MLV,NuWave Mass Loaded Vinyl Acoustic Barrier,https://thermotec.com.au/products/nuwave_mlv_acoustic_barriers_2,thermotec.com.au,OK_OFFICIAL,200
+thermotec,THERMOTEC_NUWAVE_UNDERLAY,NuWave Acoustic Floor Underlay,https://thermotec.com.au/products/carpet-underlay,thermotec.com.au,OK_OFFICIAL,200
+thermotec,THERMOTEC_NUWAVE_FENCE_MLV,NuWave UV-treated Fence MLV,https://thermotec.com.au/,thermotec.com.au,OK_OFFICIAL,200
+thermotec,THERMOTEC_NUWAVE_FOIL_FACED_MLV,NuWave 4-Zero Foil-faced MLV,https://thermotec.com.au/,thermotec.com.au,OK_OFFICIAL,200
+thermotec,THERMOTEC_NUWRAP_5,NuWrap 5 Acoustic Pipe Lagging,https://thermotec.com.au/products/nuwrap-acoustic-lagging,thermotec.com.au,OK_OFFICIAL,200
+thermotec,THERMOTEC_NUWRAP_XTRAFLEX,NuWrap XtraFlex Acoustic Lagging,https://thermotec.com.au/products/thermotec_acoustic_nuwrap_xtraflex_2,thermotec.com.au,OK_OFFICIAL,200
+thermotec,THERMOTEC_4_ZERO,4-Zero Fire Retardant Pipe Insulation,https://thermotec.com.au/products/thermotec-4-zero,thermotec.com.au,OK_OFFICIAL,200
+thermotec,THERMOTEC_E_FLEX_ST,E-Flex ST Pipe Insulation,https://thermotec.com.au/products/thermotec-e-flex-st-hot-water-hvac-refrigeration-pipe-insulation,thermotec.com.au,OK_OFFICIAL,200
+thermotec,THERMOTEC_E_FLEX_HT,E-Flex HT Solar Pipe Insulation,https://thermotec.com.au/products/thermotec-e-flex-ht-solar-pipe-insulation,thermotec.com.au,OK_OFFICIAL,200
+thermotec,THERMOTEC_ROCKWOOL_PIPE,Rockwool Pipe Insulation,https://thermotec.com.au/products/thermotec-rockwool-pipe-insulation,thermotec.com.au,OK_OFFICIAL,200
+thermotec,THERMOTEC_E_THERM,E-Therm Reflective Roof and Wall Insulation,https://thermotec.com.au/products/thermotec-e-therm-roof-wall-insulation,thermotec.com.au,OK_OFFICIAL,200
+thermotec,THERMOTEC_MAXTAPE_FR,MaxTape FR Insulating Foam Tape,https://thermotec.com.au/products/thermotec-maxflex-insulating-foam-tape,thermotec.com.au,OK_OFFICIAL,200
+thermotec,THERMOTEC_MAXFLEX_PIPE,Maxflex Coil Pipe Insulation (identity unverified),https://thermotec.com.au/,thermotec.com.au,OK_OFFICIAL,200
+trade select,TRADE_SELECT_ALUMINIUM_GLASS_FOIL_TAPE,Trade Select Aluminium Glass Foil Tape,https://tradeselect.com.au/,tradeselect.com.au,OK_OFFICIAL,200
+trade select,TRADE_SELECT_BALLISTIC_POINT_INSULATION_FASTENE,Trade Select Ballistic Point Insulation Fastene,https://tradeselect.com.au/,tradeselect.com.au,OK_OFFICIAL,200
+trade select,TRADE_SELECT_EASYSEAL_INSULATION_FLASHING_TAPE,Trade Select EasySeal Insulation Flashing Tape,https://tradeselect.com.au/,tradeselect.com.au,OK_OFFICIAL,200
+trade select,TRADE_SELECT_NC_THERMAL_BREAK_STRIPS,Trade Select NC Thermal Break Strips,https://tradeselect.com.au/,tradeselect.com.au,OK_OFFICIAL,200
+trade select,TRADE_SELECT_NC_THERMAL_BREAK_STRIPS_ADHESIVE_BACKED,Trade Select NC Thermal Break Strips Adhesive backed,https://tradeselect.com.au/,tradeselect.com.au,OK_OFFICIAL,200
+trade select,TRADE_SELECT_NON_COMBUSTIBLE_INSULATION_FLASHING_TAPE,Trade Select Non-combustible Insulation Flashing Tape,https://tradeselect.com.au/,tradeselect.com.au,OK_OFFICIAL,200
+trade select,TRADE_SELECT_REFLECTIVE,Trade Select Reflective,https://tradeselect.com.au/,tradeselect.com.au,OK_OFFICIAL,200
+trade select,TRADE_SELECT_THERMAL_BREAK_STRIPS,Trade Select Thermal Break Strips,https://tradeselect.com.au/,tradeselect.com.au,OK_OFFICIAL,200
+trade select,TRADE_SELECT_WRAP,Trade Select Wrap,https://tradeselect.com.au/,tradeselect.com.au,OK_OFFICIAL,200
