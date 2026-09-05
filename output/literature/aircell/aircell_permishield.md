@@ -1,7 +1,7 @@
 ---
 title: "Aircell Permishield - Reflective Insulation | Aircell"
-description: "Kingspan AIR-CELL Permishield XV 70 is an Australian-made, fibre-free, closed-cell thermo-reflective insulation and sarking engineered specifically fo"
-keywords: "Aircell Permishield, Aircell reflective, wall insulation, shed insulation, insulation Australia, Aircell Australia"
+description: "Quality insulation engineered for Australian conditions. Reflects up to 97% of radiant heat, dramatically reducing summer cooling costs while providin"
+keywords: "Aircell Permishield, Aircell reflective, roof insulation, shed insulation, insulation Australia, Aircell Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AIRCELL_PERMISHIELD
 ---
@@ -10,109 +10,70 @@ family_id: AIRCELL_PERMISHIELD
 
 **Aircell Reflective** — reflective foil insulation for radiant heat control.
 
-Kingspan AIR-CELL Permishield XV 70 is an Australian-made, fibre-free, closed-cell thermo-reflective insulation and sarking engineered specifically for framed and reverse brick veneer walls behind lightweight claddings[][][]. It combines thermal insulation, a thermal break, and a vapour-permeable sarking pierced with evenly spaced breather holes into a single 3-in-1 product[][]. It protects the wall structure from external water penetration while allowing internal moisture vapour to escape, significantly reducing interstitial condensation risk[][].
+Quality insulation engineered for Australian conditions. Reflects up to 97% of radiant heat, dramatically reducing summer cooling costs while providing an effective vapour barrier.
 
 ## Key features
 
-- ,.
-- 3-in-1 insulation.
-- thermal break.
-- and vapour-permeable sarking[.
-- CodeMark-certified for NCC compliance[][.
-- AS/NZS 4859.1:2018 compliant[.
-- Class 3 vapour permeable (0.300 µg/N·s)[][.
-- Water-resistant and unaffected by moisture (passes water barrier test)[][][.
-- Fibre-free, non-allergenic, non-irritant[][.
-- Anti-bacterial and anti-fungal[.
-- Rodent and insect resistant[.
-- Extra Heavy Duty rating (AS/NZS 4200.1)[.
+- High-purity aluminium reflective facing.
+- reflects up to 97% of radiant heat.
+- lightweight and easy to install.
+- provides vapour barrier when properly sealed.
+- excellent thermal performance for roof/ceiling applications.
+- helps meet NCC energy efficiency requirements.
 
 ## Applications and selection
 
-- external wall
-- wall
-- shed
+- Metal Roof / Shed
 
 **Selection checklist**
 
-1. ,.
-2. Verify lightweight cladding manufacturer requires a Class 3 vapour-permeable membrane[.
-3. ,.
-4. Confirm need for R0.20 thermal break on steel studs to satisfy NCC energy provisions[.
-5. ,.
-6. Ensure 48mm reinforced foil tape and spacer biscuits are included in quantity calculations[.
-7. ,.
-8. Check clearances around penetrations.
-9. window frames.
-10. and structural corners[.
+1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
+2. Confirm the target rating and construction build-up with the project team.
+3. Confirm available cavity or fixing depth against the product dimensions.
+4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
+5. Record the suburb/postcode so climate-zone requirements can be checked.
 
 
 ## Current catalogue range
 
 | Variant | Size / rating | Pack |
 | --- | --- | --- |
-| AIR-CELL Permishield XV 70 | 1350 mm x 22.25 m x 7.2 mm (30 m²) | Roll |
+|  |  |  |
+|  |  |  |
 
 _Variants from the manufacturer datasheet._
 
 ## Technical data
 
-| Property | Value | Standard |
+| Property | Value | Source |
 | --- | --- | --- |
-| Material R-value | R0.20 m²·K/W at 23°C | ASTM C518-2017 |
-| Product Thickness | 7.2 mm | - |
-| Roll Dimensions | 1350 mm x 22.25 m (30 m²) | - |
-| Roll Weight | 9.15 kg | - |
-| Roll Diameter | 450 mm | - |
-| Reflectance (Reflective Face) | 97% | - |
-| Reflectance (Anti-Glare Face) | 88% | - |
-| Emittance (Reflective Face) | E0.03 | - |
-| Emittance (Anti-Glare Face) | E0.12 (Category RS) | - |
-| Vapour Permeability | 0.300 µg/N·s (Class 3 Vapour Permeable) | ASTM E96 / AS/NZS 4200.1 |
-| Water Control | Pass (Water Barrier) | AS/NZS 4201.4 |
-| Duty Rating | Extra Heavy | AS/NZS 4200.1 |
-| Burst Strength | 0.9 kN | AS 3706.4 |
-| Flammability Index | ≤ 5 (Low) | AS 1530.2 |
-| Cone Calorimeter Classification | Group 1 | AS/NZS 3837 |
-| Maximum Unsupported Span | 2.4 m | - |
+| Product type | Reflective | Manufacturer catalogue |
+| Material | Reflective Composite | Manufacturer catalogue |
+| Applications | Metal Roof / Shed | Manufacturer catalogue |
+| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
 
-Extracted from manufacturer datasheet: https://www.insulation.kingspan.com/au/en/products/reflective-insulation/air-cell-permishield-xv-70
+
 
 ## Fire, testing and compliance context
 
-Flammability Index ≤ 5 (Low) to AS 1530.2; Group 1 to AS/NZS 3837; early fire hazard 0/0/0/0-1 to AS 1530.3[][
-
-AS/NZS 4859.1:2018, AS/NZS 4200.1, CodeMark Certified for NCC compliance, NCC 2019/2022 thermal break R0.20 compliant[][][][
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.kingspan.com/au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://www.allcongroup.com.au/wp-content/uploads/2025/10/kingspan-greenguard-safety-data-sheet-en-au.pdf.
 
-## Recommended accessories
-
-- ,.
-- Kingspan AIR-CELL Spacer Biscuits[.
-- Application squeegee[.
-
 
 ## Limitations and warnings
 
-- Can be damaged by intense heat above 105°C; keep away from sparks and naked flames [1.2.9].
-- Aluminium facings are electrically conductive; avoid contact with live electrical wiring[.
-- Not suitable for roofing applications requiring sarking with zero vapour permeance[][.
-- Surfaces must be clean, dry, and free of dust or grease prior to taping[.
+- Reflective performance requires maintained airspace..
+- conductive material - keep away from electrical services..
+- not suitable as sole insulation in cold climates..
+- confirm product selection matches specified thermal/acoustic/fire rating..
 
 ## Installation overview
 
-1. Fix Kingspan AIR-CELL Permishield XV 70 loosely to outside of frame, leaving flexibility to dish into cavity if required [1.1.9].
-2. Install with anti-glare face facing outward towards the installer[][.
-3. Cut carefully around doors, windows, and openings so that it neatly abuts frames[][.
-4. Butt join sheets and tape all joins with 48mm wide Kingspan reinforced foil tape[][.
-5. When taping, use a plastic squeegee or blade to apply firm, even pressure[.
-6. Provide outer air space by adhering Kingspan AIR-CELL Spacer Biscuits to outer face (approx. 3 per square metre)[.
-7. Maintain minimum 50mm clearance around heat-producing flues and recessed light fittings[.
-8. Fix counter-battens and exterior cladding in accordance with cladding manufacturer instructions[.
+Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Reflective performance requires maintained airspace.
 
 ## Safety and handling
 
@@ -120,11 +81,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Fibre-free core; non-allergenic; non-irritant; low VOC; zero ODP; Australian made[][][
+Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
 
 ## Warranty, returns and support
 
-15 years[
+No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
 
 ## Specification starting point
 

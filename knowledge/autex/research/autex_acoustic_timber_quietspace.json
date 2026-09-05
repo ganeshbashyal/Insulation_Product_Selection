@@ -1,169 +1,87 @@
 {
   "family_id": "AUTEX_ACOUSTIC_TIMBER_QUIETSPACE",
   "family_name": "Autex Acoustic Timber - Quietspace",
-  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/acoustic-timber/",
-  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
   "status": "ok",
   "researched_at": "2026-09-06",
   "spec": {
-    "description": "Autex Acoustic Timber Panel is a high-performance acoustic treatment designed\nto realistically imitate timber. Formed from thermally bonded high-density\npolyester using a 25mm Quietspace Panel base, it features woodgrain textures\ntaken from real timber veneers digitally printed onto the panel surface with\nsafe, water-based UV-cured ink. It delivers an authentic timber aesthetic while\nmeeting strict seismic requirements and Group 1 fire compliance across wall and\nceiling applications.",
-    "features": [
-      "Authentic timber look digitally printed\nfrom real timber veneers",
-      "Engineered on a 25mm dual-density Quietspace Panel\nbase",
-      "High acoustic performance achieving NRC 0.85",
-      "Group 1 fire rating to\nAS ISO 9705 - 2003",
-      "Printed using safe, water-based, UV-cured ink",
-      "Contains\nminimum 58% post-consumer recycled PET",
-      "Certified Carbon Neutral product with\nthird-party verified EPD",
-      "Non-toxic, non-allergenic, and non-irritant",
-      "Naturally resistant to mould and mildew (ASTM G21-15 Growth Rating: 0)",
-      "Lightweight and seismic compliant alternative to solid timber panelling"
-    ],
-    "applications": [
-      "wall",
-      "internal wall",
-      "ceiling"
-    ],
-    "technical": [
-      {
-        "property": "Noise Reduction Coefficient (NRC)",
-        "value": "0.85 (25mm Quietspace\nbase)",
-        "standard": "ISO 354"
-      },
-      {
-        "property": "Sound Absorption Class",
-        "value": "Class C",
-        "standard": "ISO 11654"
-      },
-      {
-        "property": "Thickness",
-        "value": "25 mm (+/- 6%)",
-        "standard": ""
-      },
-      {
-        "property": "Panel Dimensions",
-        "value": "1200 mm x 2400 mm; 1200 mm x 2700 mm",
-        "standard": ""
-      },
-      {
-        "property": "Material Composition",
-        "value": "100% polyester fibre (PET) printed with\nUV-curable ink",
-        "standard": ""
-      },
-      {
-        "property": "Recycled Content",
-        "value": "Minimum 58% post-consumer recycled PET",
-        "standard": ""
-      },
-      {
-        "property": "Fire\nHazard Classification",
-        "value": "Group 1 (AS ISO 9705 - 2003 / AS 5637.1);\nGroup 1-S (ISO 9705:1993)",
-        "standard": "AS ISO 9705 / AS 5637.1 / ISO 9705"
-      },
-      {
-        "property": "Water Vapour Sorption",
-        "value": "0.4% by weight after 4 days\nat 49°C, 95% RH",
-        "standard": "ASTM C1104 / C1104M-13a"
-      },
-      {
-        "property": "Microbial Resistance",
-        "value": "Growth Rating: 0 (No growth)",
-        "standard": "ASTM G21-15"
-      },
-      {
-        "property": "Volatile Organic Compounds (VOC)",
-        "value": "< 0.019 mg/m³ (24 hours)",
-        "standard": "CDPH Standard Method v1.2"
-      }
-    ],
     "range": [
       {
-        "variant": "Acoustic Timber Panel 25mm Quietspace",
-        "size_or_rating": "1200 mm x 2400 mm x 25 mm, NRC 0.85",
-        "pack": "Panel"
+        "c0": "Core Base Variant",
+        "c1": "Nominal Thickness",
+        "c2": "Panel Dimensions",
+        "c3": "Area per Panel",
+        "c4": "Nominal Panel Weight",
+        "c5": "Edge Detail",
+        "c6": "Tested Absorption"
       },
       {
-        "variant": "Acoustic Timber Panel 25mm Quietspace (Custom Length)",
-        "size_or_rating": "1200 mm x 2700 mm x 25 mm, NRC 0.85",
-        "pack": "Panel"
+        "c0": "Quietspace 25mm Base (Standard)",
+        "c1": "25 mm (±6%)",
+        "c2": "1200 mm × 2400 mm",
+        "c3": "2.88 m²",
+        "c4": "~6.6 kg (~2300 gsm)",
+        "c5": "Square or Type C aluminium trim",
+        "c6": "NRC 0.85"
+      },
+      {
+        "c0": "Quietspace 25mm Base (Long)",
+        "c1": "25 mm (±6%)",
+        "c2": "1200 mm × 2700 mm",
+        "c3": "3.24 m²",
+        "c4": "~7.5 kg (~2300 gsm)",
+        "c5": "Square or Type C aluminium trim",
+        "c6": "NRC 0.85"
+      },
+      {
+        "c0": "Quietspace 25mm Base (Custom)",
+        "c1": "25 mm (±6%)",
+        "c2": "1200 mm × up to 3600 mm",
+        "c3": "Up to 4.32 m²",
+        "c4": "~2300 gsm",
+        "c5": "Square or Type C aluminium trim",
+        "c6": "NRC 0.85"
+      },
+      {
+        "c0": "Quietspace 50mm Base (High Spec)",
+        "c1": "50 mm (±6%)",
+        "c2": "1200 mm × 2400 mm",
+        "c3": "2.88 m²",
+        "c4": "~11.0 kg (~3800 gsm)",
+        "c5": "Square or custom profile",
+        "c6": "NRC 1.00"
       }
     ],
-    "fire": "AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1;\nISO 9705: 1993 Classification: Group 1-S; BS EN 13501-1:2018: B - s2, d2",
-    "compliance": "NCC Specification 7 (BCA C1.10) Group 1 fire compliance; AS\nISO 9705:2003; ISO 354; ISO 9001, ISO 14001, and ISO 45001 accredited\nmanufacturing",
-    "sustainability": "Certified Carbon Neutral; minimum 58%\nrecycled PET; Declare Red List Free; low VOC (<0.019 mg/m³); 100% recyclable",
-    "install": [
-      "Inspect panels prior to install and verify grain orientation and\nlot consistency",
-      "Ensure the wall or ceiling substrate is flat, clean, dry, and\ndust-free",
-      "Acclimatise panels in the installation environment for at least 24\nhours",
-      "Cut through the face of the panel using a straight edge and sharp\nutility knife",
-      "Place straight edge on excess section to avoid rubbing or\nfriction on the decorative face",
-      "Apply recommended contact or construction\nadhesive evenly across the panel backing",
-      "Position panel onto the substrate\nand butt-join sheets tightly along vertical joins",
-      "Apply firm, uniform\npressure with a roller across the panel to ensure full bond contact"
-    ],
-    "selection_checklist": [
-      "Confirm woodgrain finish from available timber grains\n(e.g. Birch, Oak, Hoop Pine, Ash, Eucalyptus)",
-      "Verify substrate flatness and\nsuitability for direct-fix adhesive mounting",
-      "Confirm thickness and acoustic\nperformance target (25mm Quietspace base delivers NRC 0.85)",
-      "Check that panel\nwill be located in non-contact areas to prevent surface scuffing",
-      "Confirm\nceiling and wall dimensions to determine standard 2400mm vs 2700mm lengths"
-    ],
-    "accessories": [
-      "Autex Edging Solutions (Type C profile for 25mm panels)",
-      "Construction adhesive / contact adhesive",
-      "Straight edge and utility knife"
-    ],
-    "limitations": [
-      "Recommended for non-contact areas as printed surface may show\nscuff marks under impact",
-      "Do not use in high-impact sports halls without\nprotective screening",
-      "Variations in grain pattern are intentional to replicate\nnatural timber veneer",
-      "Indoor use only; avoid direct prolonged water exposure"
-    ],
-    "warranty": "Manufacturer's guarantee by Autex Acoustics"
+    "accessories_upsell": "Autex Edging Solutions Type C (25mm anodised aluminium perimeter channel) and high-grab MS polymer adhesive."
   },
   "retrieval": {
     "search_keywords": [
-      "Autex Acoustic Timber",
       "Acoustic Timber Quietspace",
+      "Autex timber panel",
+      "printed timber panel 25mm",
       "timber look acoustic panel",
-      "printed woodgrain acoustic panel",
-      "Quietspace\ntimber panel",
-      "polyester timber acoustic panel",
-      "wood look acoustic wall",
-      "NRC 0.85 timber panel",
-      "Group 1 timber acoustic panel"
+      "woodgrain acoustic board"
     ],
     "problem_keywords": [
-      "echo in commercial lobby",
-      "heavy solid timber acoustic limits",
-      "timber wall\nreverberation",
-      "meeting Group 1 fire rating with wood look",
-      "seismic weight\nlimits for timber panels",
-      "office boardroom speech privacy"
+      "High reverberation in corporate boardrooms where solid timber panelling is specified but creates an echo chamber",
+      "meeting Group 1 fire codes where natural timber fails."
     ],
     "placement": [
-      "wall",
-      "internal wall",
-      "ceiling"
-    ],
-    "priority_fit": [
-      "acoustic",
-      "fire",
-      "sustainability"
-    ],
-    "use_cases": [
-      "lining commercial reception and boardroom\nwalls with an authentic timber finish while controlling echo",
-      "installing on\nauditorium and lecture theatre walls where timber aesthetics must comply with\nGroup 1 fire codes",
-      "providing lightweight woodgrain ceiling panels in spaces\nwith strict seismic loading limits",
-      "treating restaurant and hospitality dining\nrooms to soften acoustics with warm timber textures"
+      "Wall",
+      "ceiling",
+      "internal wall"
     ],
     "not_for": [
-      "high-impact sports hall walls without protective screening",
-      "outdoor cladding\nor external weather exposure",
-      "wet areas with direct running water"
+      "direct contact wet areas.",
+      "exterior facades",
+      "not_for): High-impact sports halls without protective barrier rails"
     ],
-    "rag_summary": "Autex Acoustic Timber - Quietspace is a 25mm thick,\nhigh-performance acoustic wall and ceiling panel that realistically replicates\nnatural timber grain. Constructed from thermally bonded 100% polyester fibres on\na dual-density Quietspace Panel base, high-resolution woodgrains are digitally\nprinted using safe, water-based UV-cured ink without reducing acoustic\nabsorption. Delivering an outstanding NRC of 0.85, Group 1 fire classification,\nand carbon-neutral certification, it replaces heavy, resonant timber panelling\nwith a lightweight, seismic-compliant solution that eliminates interior\nreverberation."
+    "use_cases": [
+      "Recommend when an architect or client wants the warm visual of natural timber slats/veneer combined with Class C/A sound absorption (NRC 0.85–1.00) and a Group 1 fire rating (AS ISO 9705)."
+    ]
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "knowledge_base_txt",
+  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
 }

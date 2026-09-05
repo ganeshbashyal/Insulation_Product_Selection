@@ -1,172 +1,83 @@
 {
   "family_id": "AUTEX_BESPOKE_PRINT_QUIETSPACE",
   "family_name": "Autex Bespoke Print Quietspace",
-  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/quietspace-panel/",
-  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
   "status": "ok",
   "researched_at": "2026-09-06",
   "spec": {
-    "description": "Autex Bespoke Print Quietspace is a premium, high-absorption acoustic panel\nengineered to deliver maximum acoustic performance alongside completely bespoke\nvisual graphics. Built on a 25mm thick, dual-density Quietspace Panel base with\na high-density compressed face and cushioned absorber backing, custom designs\nand murals are digitally UV printed directly onto the surface without\ncompromising sound absorption. Achieving an exceptional NRC of 0.85 and Group 1\nfire classification, it is the ultimate acoustic art solution for reverberant\ninterior spaces.",
-    "features": [
-      "Bespoke digital UV printing on\nhigh-performance acoustic substrate",
-      "25mm dual-density 100% polyester\nQuietspace Panel core",
-      "Absorbs a minimum of 85% of sound energy (NRC 0.85)",
-      "Printed surface has zero adverse effect on acoustic absorption",
-      "Group 1 fire\nrating to AS ISO 9705 - 2003",
-      "Engineered for broadband sound absorption across\nhigh and low frequencies",
-      "Certified Carbon Neutral product with third-party\nverified EPD",
-      "Contains minimum 58% post-consumer recycled PET",
-      "Non-toxic,\nnon-allergenic, and low VOC",
-      "Lightweight, easy to handle and precision trim on\nsite"
-    ],
-    "applications": [
-      "wall",
-      "internal wall",
-      "ceiling"
-    ],
-    "technical": [
-      {
-        "property": "Noise Reduction Coefficient (NRC)",
-        "value": "0.85 (25mm direct\nfix)",
-        "standard": "ISO 354"
-      },
-      {
-        "property": "Sound Absorption Class",
-        "value": "Class C (25mm)",
-        "standard": "ISO 11654"
-      },
-      {
-        "property": "Thickness",
-        "value": "25 mm (+/- 6%)",
-        "standard": ""
-      },
-      {
-        "property": "Panel Dimensions",
-        "value": "1200 mm x 2400 mm; 1200 mm x 2700 mm; custom lengths up to 3600 mm",
-        "standard": ""
-      },
-      {
-        "property": "Weight",
-        "value": "2300 gsm",
-        "standard": ""
-      },
-      {
-        "property": "Material Composition",
-        "value": "100% polyester fibre (PET)",
-        "standard": ""
-      },
-      {
-        "property": "Recycled Content",
-        "value": "Minimum 58%\npost-consumer recycled PET",
-        "standard": ""
-      },
-      {
-        "property": "Fire Hazard\nClassification",
-        "value": "Group 1 (AS ISO 9705 - 2003 / AS 5637.1); Group 1-S\n(ISO 9705:1993)",
-        "standard": "AS ISO 9705 / AS 5637.1"
-      },
-      {
-        "property": "Soft\nBody Impact Resistance",
-        "value": "Resists 120-joule impact when adhered to 10mm\nplasterboard",
-        "standard": ""
-      },
-      {
-        "property": "Microbial Resistance",
-        "value": "Growth Rating: 0 (No growth)",
-        "standard": "ASTM G21-15"
-      },
-      {
-        "property": "Volatile Organic Compounds (VOC)",
-        "value": "< 0.019 mg/m³ (24 hours)",
-        "standard": ""
-      }
-    ],
     "range": [
       {
-        "variant": "Bespoke Print Quietspace 25mm",
-        "size_or_rating": "1200 mm x 2400 mm x 25 mm, NRC 0.85",
-        "pack": "Panel"
+        "c0": "Core Thickness",
+        "c1": "Panel Dimensions",
+        "c2": "Total Area",
+        "c3": "Surface Weight",
+        "c4": "Panel Weight",
+        "c5": "Core Density Design",
+        "c6": "Sound Absorption"
       },
       {
-        "variant": "Bespoke Print Quietspace 25mm Custom Length",
-        "size_or_rating": "1200 mm x up to 3600 mm x 25 mm, NRC 0.85",
-        "pack": "Panel"
+        "c0": "25 mm (±6%)",
+        "c1": "1200 mm × 2400 mm",
+        "c2": "2.88 m²",
+        "c3": "2300 gsm",
+        "c4": "~6.62 kg",
+        "c5": "Dual-density (compressed face + soft back)",
+        "c6": "NRC 0.85"
+      },
+      {
+        "c0": "25 mm (±6%)",
+        "c1": "1200 mm × 2700 mm",
+        "c2": "3.24 m²",
+        "c3": "2300 gsm",
+        "c4": "~7.45 kg",
+        "c5": "Dual-density (compressed face + soft back)",
+        "c6": "NRC 0.85"
+      },
+      {
+        "c0": "50 mm (±6%)",
+        "c1": "1200 mm × 2400 mm",
+        "c2": "2.88 m²",
+        "c3": "3800 gsm",
+        "c4": "~10.94 kg",
+        "c5": "Dual-density (compressed face + soft back)",
+        "c6": "NRC 1.00"
+      },
+      {
+        "c0": "Custom Length",
+        "c1": "1200 mm × up to 3600 mm",
+        "c2": "Up to 4.32 m²",
+        "c3": "2300 / 3800 gsm",
+        "c4": "Pro-rata",
+        "c5": "Dual-density",
+        "c6": "NRC 0.85 – 1.00"
       }
-    ],
-    "fire": "AS\nISO 9705 - 2003 and AS 5637.1: Group 1; ISO 9705: Group 1-S; BS EN 13501-1:2018:\nB - s2, d2",
-    "compliance": "NCC BCA Specification 7 (C1.10) Group 1 fire\ncompliance; AS ISO 9705:2003; ISO 354; ISO 9001 and ISO 14001",
-    "sustainability": "Certified Carbon Neutral; contains minimum 58% recycled PET;\nRed List Free (Declare); low VOC; 100% recyclable",
-    "install": [
-      "Carry panels\nvertically upright with two people wearing clean gloves to prevent marks",
-      "Ensure substrate is clean, dust-free, and sealed if porous",
-      "Verify image\nlayout and numbering across panel sequence prior to application",
-      "Acclimatise\npanels in the installation space for at least 24 hours",
-      "Trim edges squarely\nfrom the face using a sharp knife and metal straight edge on the offcut",
-      "Apply\nrecommended construction adhesive or contact adhesive evenly to the panel back",
-      "Mount panel with high-density printed face outward and softer backing against\nsubstrate",
-      "Apply uniform pressure with a clean roller across the face to\nactivate adhesive bond"
-    ],
-    "selection_checklist": [
-      "Verify artwork resolution\nmeets Autex minimum print specifications (300 DPI vector/raster)",
-      "Confirm\ntotal wall/ceiling area and number of sequential panel drops",
-      "Confirm acoustic\ntarget requires premium broadband absorption (NRC 0.85)",
-      "Check clearances\naround light switches, GPOs, and service penetrations",
-      "Determine edge\ntreatment (butt-joined or Autex Type C aluminium profile trims)"
-    ],
-    "accessories": [
-      "Autex Edging Solutions Type C (24/25mm anodised aluminium\ntrim)",
-      "Contact or construction adhesive",
-      "Clean installation gloves and\npressure roller"
-    ],
-    "limitations": [
-      "Printed face can show scuffing if\nsubjected to repetitive heavy friction",
-      "Do not bend or crease panels as this\ncauses permanent fracturing of the high-density face",
-      "Indoor use only; avoid\ndirect water saturation"
-    ],
-    "warranty": "Manufacturer's guarantee by Autex\nAcoustics"
+    ]
   },
   "retrieval": {
     "search_keywords": [
-      "Autex Bespoke Print\nQuietspace",
-      "printed Quietspace panel",
-      "Quietspace custom print",
-      "25mm\nprinted acoustic panel",
-      "broadband acoustic art panel",
-      "custom graphic\nacoustic absorber",
-      "NRC 0.85 printed acoustic panel",
-      "Quietspace mural panel"
+      "25mm printed acoustic panel",
+      "Bespoke Print Quietspace",
+      "NRC 0.85 printed panel",
+      "acoustic mural board",
+      "printed Quietspace"
     ],
     "problem_keywords": [
-      "severe room echo needing decorative fix",
-      "high\nreverberation in commercial boardroom",
-      "auditorium speech clarity issues",
-      "loud open plan office with plain walls",
-      "recording studio acoustic\nreflection",
-      "corporate video conferencing audio echo"
+      "Severe acoustic reverberation in large video conference rooms or public spaces where 12mm panels (NRC 0.45) are acoustically insufficient."
     ],
     "placement": [
-      "wall",
-      "internal wall",
-      "ceiling"
-    ],
-    "priority_fit": [
-      "acoustic",
-      "fire",
-      "sustainability"
-    ],
-    "use_cases": [
-      "controlling reverberation in video\nconferencing rooms and presentation suites with custom branded murals",
-      "installing custom photographic art panels in recording studios and home cinemas\nfor broadband absorption",
-      "treating large open-plan dining rooms with\nhigh-absorption art panels to reduce diner chatter",
-      "reducing harsh flutter\nechoes in school music rooms and auditoriums"
+      "Wall",
+      "ceiling",
+      "internal wall"
     ],
     "not_for": [
-      "heavy physical\ncontact areas without barrier rails",
-      "outdoor weather-exposed surfaces",
-      "high\nhumidity pool enclosures with direct splash exposure"
+      "not_for): Cannot be bent or curved around radiuses (dual-density compressed face will crack/crease)."
     ],
-    "rag_summary": "Autex\nBespoke Print Quietspace merges the class-leading sound absorption of 25mm\ndual-density Quietspace Panel with custom digital UV printing. With an\nengineered core that absorbs at least 85% of sound energy (NRC 0.85),\nhigh-resolution images, corporate logos, and vibrant graphics are printed\ndirectly onto the compressed face without impeding acoustic performance.\nOffering Group 1 fire safety, low VOC emissions, and carbon-neutral credentials,\nit serves as a high-performance acoustic broadband absorber masquerading as\nbespoke interior art."
+    "use_cases": [
+      "When customer wants custom graphics or photography and the acoustic specification requires broadband sound absorption of NRC 0.85 or higher (Class C/A)."
+    ]
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "knowledge_base_txt",
+  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
 }

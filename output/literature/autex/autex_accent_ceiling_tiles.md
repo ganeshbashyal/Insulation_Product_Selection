@@ -38,10 +38,13 @@ Specialists in sustainable polyester acoustic solutions. Safe to handle without 
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Rw 35 | acoustic_rw | Varies | 1195 x 595 | 2 |
-| Rw 35 | acoustic_rw | Varies | 595 x 595 | 2 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

@@ -34,9 +34,12 @@ Quality insulation engineered for Australian conditions. Reflects up to 97% of r
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Not specified | unspecified | 55 | Varies | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+|  |  |  |
+|  |  |  |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

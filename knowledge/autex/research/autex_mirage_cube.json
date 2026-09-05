@@ -1,188 +1,85 @@
 {
   "family_id": "AUTEX_MIRAGE_CUBE",
   "family_name": "Autex Mirage Cube",
-  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/cube/",
-  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
   "status": "ok",
   "researched_at": "2026-09-06",
   "spec": {
-    "description": "Autex Mirage Cube is an intricately textured acoustic panel range designed to\nadd tactile depth and acoustic comfort to interior walls and ceilings. Etched\ndirectly into semi-rigid Cube polyester felt using a precision manufacturing\nprocess, Mirage features six refined micro-pattern designs—Bouclé, Brutalist,\nOffset, Rammed Earth, Lapis, and Mortar. Available in 12mm and 24mm thicknesses\nacross standard 2400mm x 1200mm and 2700mm x 1200mm panels, it provides sound\nabsorption ratings from NRC 0.45 to 0.80 and Group 1 fire compliance.",
-    "features": [
-      "Intricately etched tactile textures: Bouclé, Brutalist, Offset,\nRammed Earth, Lapis, Mortar",
-      "Engineered on semi-rigid 100% polyester Cube\nacoustic panels",
-      "Available in 12mm and 24mm thicknesses",
-      "Acoustic absorption\nfrom NRC 0.45 (12mm) to 0.70 (24mm), and up to 0.80 with an air gap",
-      "Supplied\nstandard with 4mm 45-degree bevelled edges for a seamless joint finish",
-      "Group 1 fire rating compliant with AS ISO 9705 - 2003 and AS 5637.1",
-      "Constructed with a minimum of 80% post-consumer recycled PET",
-      "Certified\nCarbon Neutral product with third-party verified EPD",
-      "Safe, non-toxic,\nnon-allergenic, non-irritant, and low-VOC",
-      "Compatible with Direct-fix,\nSpinFix, and Peel and Stick installation methods"
-    ],
-    "applications": [
-      "wall",
-      "internal wall",
-      "ceiling"
-    ],
-    "technical": [
-      {
-        "property": "Noise Reduction\nCoefficient (NRC)",
-        "value": "12mm: 0.45 (direct fix), 0.70 (with 24mm air\ngap); 24mm: 0.70 (direct fix), 0.80 (with 24mm air gap)",
-        "standard": "ISO 354"
-      },
-      {
-        "property": "Sound Absorption Class",
-        "value": "12mm: Class D (direct fix),\nClass C (with air gap); 24mm: Class D (direct fix), Class C (with air gap)",
-        "standard": "ISO 11654"
-      },
-      {
-        "property": "Panel Dimensions",
-        "value": "1200 mm\nx 2400 mm; 1200 mm x 2700 mm (tolerance +/- 1 mm)",
-        "standard": ""
-      },
-      {
-        "property": "Thickness",
-        "value": "12 mm (+/- 6%); 24 mm (+/- 6%)",
-        "standard": ""
-      },
-      {
-        "property": "Material Composition",
-        "value": "100% polyester fibre\n(PET)",
-        "standard": ""
-      },
-      {
-        "property": "Recycled Content",
-        "value": "Minimum 80% post-consumer recycled PET",
-        "standard": ""
-      },
-      {
-        "property": "Thermal Performance",
-        "value": "12mm: R0.30 (@ 23°C); 24mm: R0.60 (@ 23°C)",
-        "standard": ""
-      },
-      {
-        "property": "Fire Rating (Australia)",
-        "value": "Group 1\n(SMOGRArc < 100 m2/s2)",
-        "standard": "AS ISO 9705 - 2003 / AS 5637.1:2015"
-      },
-      {
-        "property": "Fire Rating (International)",
-        "value": "Group 1-S (ISO 9705:1993);\nClass A (ASTM E-84-15a: FS:0 - SD:45); 12mm BS EN 13501-1:2018 B-s2, d0; 24mm BS\nEN 13501-1:2018 B-s2, d2",
-        "standard": "ISO 9705 / ASTM E-84 / BS EN 13501-1"
-      },
-      {
-        "property": "Water Vapour Sorption",
-        "value": "0.4% by weight after 4 days\nat 49°C, 95% RH",
-        "standard": "ASTM C1104 / C1104M-13a"
-      },
-      {
-        "property": "Microbial Resistance",
-        "value": "Growth rating: 0 (No growth)",
-        "standard": "ASTM G21-15"
-      },
-      {
-        "property": "VOC Emissions",
-        "value": "< 0.092 mg/m3 (7\ndays)",
-        "standard": "CDPH Standard Method v1.2"
-      }
-    ],
     "range": [
       {
-        "variant": "Mirage Cube 12mm (2400x1200)",
-        "size_or_rating": "1200 mm x 2400 mm x 12 mm,\nNRC 0.45",
-        "pack": "Panel"
+        "c0": "Thickness",
+        "c1": "Sheet Dimensions",
+        "c2": "Area per Panel",
+        "c3": "Nominal Weight",
+        "c4": "Edge Treatment",
+        "c5": "Acoustic NRC (Direct Fix)",
+        "c6": "Acoustic NRC (24mm Air Gap)"
       },
       {
-        "variant": "Mirage Cube 12mm (2700x1200)",
-        "size_or_rating": "1200 mm x 2700 mm x 12 mm, NRC 0.45",
-        "pack": "Panel"
+        "c0": "12 mm (±6%)",
+        "c1": "1200 mm × 2400 mm",
+        "c2": "2.88 m²",
+        "c3": "~2400 gsm (~6.9 kg)",
+        "c4": "4 mm 45° bevel",
+        "c5": "NRC 0.45",
+        "c6": "NRC 0.70"
       },
       {
-        "variant": "Mirage Cube 24mm (2400x1200)",
-        "size_or_rating": "1200 mm x 2400 mm\nx 24 mm, NRC 0.70",
-        "pack": "Panel"
+        "c0": "12 mm (±6%)",
+        "c1": "1200 mm × 2700 mm",
+        "c2": "3.24 m²",
+        "c3": "~2400 gsm (~7.8 kg)",
+        "c4": "4 mm 45° bevel",
+        "c5": "NRC 0.45",
+        "c6": "NRC 0.70"
       },
       {
-        "variant": "Mirage Cube 24mm\n(2700x1200)",
-        "size_or_rating": "1200 mm x 2700 mm x 24 mm, NRC 0.70",
-        "pack": "Panel"
+        "c0": "24 mm (±6%)",
+        "c1": "1200 mm × 2400 mm",
+        "c2": "2.88 m²",
+        "c3": "~4800 gsm (~13.8 kg)",
+        "c4": "4 mm 45° bevel",
+        "c5": "NRC 0.70",
+        "c6": "NRC 0.80"
+      },
+      {
+        "c0": "24 mm (±6%)",
+        "c1": "1200 mm × 2700 mm",
+        "c2": "3.24 m²",
+        "c3": "~4800 gsm (~15.6 kg)",
+        "c4": "4 mm 45° bevel",
+        "c5": "NRC 0.70",
+        "c6": "NRC 0.80"
       }
-    ],
-    "fire": "AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1;\nISO 9705:1993 Group 1-S; ASTM E-84-15a Class A (FS:0, SD:45); BS EN 13501-1:2018\nB-s2, d0 (12mm) / B-s2, d2 (24mm)",
-    "compliance": "NCC Specification 7 (BCA\nC1.10) Group 1 fire compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354;\nISO 14001",
-    "sustainability": "Carbon neutral product and manufacturing;\nminimum 80% recycled PET; Declare Red List Free; EPD compliant; low VOC",
-    "install": [
-      "Ensure wall or ceiling substrate is flat, clean, dry, and\ndust-free",
-      "Acclimatise panels in the installation environment for at least 24\nhours prior to fitting",
-      "Inspect panel pattern direction and ensure consistent\ngrain alignment across walls",
-      "For adhesive fix, apply recommended high-grab MS\npolymer or contact adhesive evenly to the panel back",
-      "Alternatively, mount\nusing SpinFix clips or Peel and Stick backing where specified",
-      "Butt bevelled\nedges neatly together and apply firm, even pressure with a roller across the\nentire face",
-      "Trim perimeter panels carefully from the face using a straight\nedge and sharp utility knife"
-    ],
-    "selection_checklist": [
-      "Choose texture\npattern from the 6 Mirage designs (Bouclé, Brutalist, Offset, Rammed Earth,\nLapis, Mortar)",
-      "Select thickness (12mm for NRC 0.45-0.70 or 24mm for\nNRC 0.70-0.80)",
-      "Select panel length (2400mm or 2700mm) x 1200mm width",
-      "Select base colour from Autex Cube palette (over 20 colours)",
-      "Specify\nmounting system (adhesive direct-fix, SpinFix, or Peel and Stick)"
-    ],
-    "accessories": [
-      "Autex SpinFix mounting clips",
-      "Peel and Stick adhesive\nbacking",
-      "High-grab MS polymer adhesive",
-      "Autex Edging Solutions"
-    ],
-    "limitations": [
-      "Indoor use only; avoid direct water exposure or extreme\nhumidity",
-      "Pattern has a directional grain; panels must be installed in uniform\norientation",
-      "Batch-to-batch variations may occur due to fibre blending"
-    ],
-    "warranty": "Manufacturer's Guarantee (10 years)"
+    ]
   },
   "retrieval": {
     "search_keywords": [
-      "Autex Mirage Cube",
-      "Mirage textured acoustic panels",
-      "etched acoustic panel",
-      "Cube Mirage",
-      "tactile acoustic wall panels",
-      "Autex\ntextured Cube",
-      "Mirage 12mm",
+      "Autex Mirage",
       "Mirage 24mm",
-      "decorative felt acoustic panel"
+      "Mirage Cube",
+      "etched acoustic panel",
+      "tactile acoustic board",
+      "textured Cube 12mm"
     ],
     "problem_keywords": [
-      "plain boring acoustic panels",
-      "echo in executive\nboardroom",
-      "distracting noise in commercial lobby",
-      "need textured wall\nacoustic treatment",
-      "harsh flutter echo",
-      "reverberation in luxury hotel"
+      "Standard flat acoustic felt looks too plain",
+      "space requires high-end architectural depth and tactile fabric/stone textures without adding heavy masonry or raw plaster."
     ],
     "placement": [
-      "wall",
-      "internal wall",
-      "ceiling"
-    ],
-    "priority_fit": [
-      "acoustic",
-      "fire",
-      "sustainability",
-      "easy_install"
-    ],
-    "use_cases": [
-      "Creating\ntactile, luxury acoustic feature walls in executive boardrooms and corporate\nlobbies",
-      "Controlling noise in high-end hospitality venues, fine-dining\nrestaurants, and wine lounges",
-      "Wall and ceiling acoustic panelling in\nresidential media rooms and commercial offices"
+      "Wall",
+      "ceiling",
+      "internal wall"
     ],
     "not_for": [
-      "Flooring\napplications",
-      "Unprotected external facades",
-      "High-moisture shower rooms"
+      "not_for): High-traffic kickboards subjected to aggressive mechanical scuffing."
     ],
-    "rag_summary": "Autex Mirage Cube is an intricately textured acoustic panel\nrange featuring micro-patterned textures—Bouclé, Brutalist, Offset, Rammed\nEarth, Lapis, and Mortar—etched into 12mm or 24mm semi-rigid Cube polyester\nfelt. Sized in 2400mm x 1200mm and 2700mm x 1200mm sheets with standard 4mm\nbevelled edges, it delivers sound absorption ratings from NRC 0.45 to 0.80.\nRated Group 1 fire compliant under AS ISO 9705 and containing at least 80%\nrecycled PET, it provides a tactile, carbon-neutral alternative to plain\nacoustic felt for walls and ceilings."
+    "use_cases": [
+      "Recommend for luxury executive suites, high-end hospitality dining, and hotel lobbies where a tactile, woven, or rammed-earth aesthetic is desired with certified Group 1 fire safety."
+    ]
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "knowledge_base_txt",
+  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
 }

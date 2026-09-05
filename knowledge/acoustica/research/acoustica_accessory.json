@@ -1,68 +1,74 @@
 {
   "family_id": "ACOUSTICA_ACCESSORY",
   "family_name": "Acoustica Accessory",
-  "datasheet_pdf_url": "",
-  "sds_url": "",
-  "status": "gemini_not_found",
-  "researched_at": "2026-09-06",
+  "datasheet_pdf_url": null,
+  "status": "no_pdf_found",
+  "researched_at": "2026-09-05",
   "spec": {
-    "description": "",
-    "features": [],
-    "applications": [],
-    "technical": [],
-    "range": [],
-    "fire": "",
-    "compliance": "",
-    "sustainability": "",
-    "install": [],
-    "selection_checklist": [],
-    "accessories": [],
-    "limitations": [],
-    "warranty": ""
-  },
-  "retrieval": {
-    "search_keywords": [
-      "Acoustica accessory",
-      "acoustic tape",
-      "aluminium foil tape",
-      "lagging tape",
-      "acoustic adhesive",
-      "isolation tape",
-      "insulation accessory",
-      "perimeter sealing tape",
-      "acoustic joining tape"
+    "range": [
+      {
+        "c0": "Product Item",
+        "c1": "Dimensions / Spec",
+        "c2": "Material Type",
+        "c3": "Packaging Unit",
+        "c4": "Primary Function"
+      },
+      {
+        "c0": "Acoustica Reinforced Foil Tape",
+        "c1": "72 mm × 50 m (roll)",
+        "c2": "Reinforced Al foil + acrylic adhesive",
+        "c3": "16 rolls / carton",
+        "c4": "Sealing overlaps of AcoustiFlex SQ & GreenLAG"
+      },
+      {
+        "c0": "Acoustica Acoustic Sealant",
+        "c1": "600 ml sausage / 310 ml cartridge",
+        "c2": "Non-hardening acrylic acoustic mastic",
+        "c3": "12 or 20 / box",
+        "c4": "Perimeter perimeter acoustic sealing"
+      },
+      {
+        "c0": "Isolation Hanger Clips",
+        "c1": "Suits standard 16mm/28mm furring",
+        "c2": "Steel bracket + neoprene/elastomer",
+        "c3": "100 pcs / box",
+        "c4": "Decoupling ceiling/wall battens"
+      },
+      {
+        "c0": "Resilient Perimeter Strip",
+        "c1": "5 mm thick × 50 mm/100 mm × 20 m",
+        "c2": "Cross-linked closed-cell PE foam",
+        "c3": "Roll",
+        "c4": "Decoupling floor underlays at perimeter walls"
+      }
     ],
-    "problem_keywords": [
-      "sealing acoustic barriers",
-      "sound flanking at joins",
-      "acoustic tape for lagging",
-      "flanking noise through joints",
-      "fixing acoustic barrier",
-      "airtight acoustic seal"
-    ],
-    "placement": [
-      "wall",
-      "ceiling",
-      "floor",
-      "pipe",
-      "duct"
-    ],
-    "priority_fit": [
-      "acoustic",
-      "easy_install"
-    ],
-    "use_cases": [
-      "sealing joints and seams in mass loaded vinyl and flexible acoustic barriers",
-      "taping overlaps on GreenLAG acoustic pipe lagging",
-      "adhering acoustic underlays to concrete slabs with approved adhesives"
-    ],
-    "not_for": [
-      "structural load bearing fastening",
-      "external weatherproofing without cladding",
-      "bulk thermal insulation batt replacement"
-    ],
-    "rag_summary": "Acoustica accessories comprise specialised companion components such as reinforced aluminium foil sealing tapes and acoustic adhesives engineered to seal joints in acoustic barriers, underlays, and pipe lagging systems. These accessories ensure airtight, gap-free perimeter and seam closures, eliminating acoustic flanking paths that would otherwise degrade sound transmission loss. Typically used across ceilings, walls, subfloors, and services piping, they are essential for achieving rated acoustic performance in residential and commercial soundproofing systems."
+    "substitutes": "If Acoustica-branded tape is out of stock, route directly to AIRCELL_FOIL_TAPE (72mm) or FLETCHER_TAPES_ACCESSORIES (Vapastop 883 72mm)."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "retrieval": {
+    "search_keywords": [
+      "AcoustiFlex joiner",
+      "Acoustica tape",
+      "GreenLAG tape",
+      "acoustic foil tape 72mm",
+      "lagging tape"
+    ],
+    "problem_keywords": [
+      "Acoustic flanking paths at sheet joins, unsealed perimeter gaps degrading wall Rw, vibration transmission through rigid drywall fasteners."
+    ],
+    "placement": [
+      "Wall",
+      "ceiling",
+      "duct",
+      "floor perimeter",
+      "pipe"
+    ],
+    "not_for": [
+      "not_for): Do not recommend as structural fasteners or load-bearing drywall clips."
+    ],
+    "use_cases": [
+      "Whenever ACOUSTICA_ACOUSTIFLEX_SQ or ACOUSTICA_GL is quoted, automatically prompt for 72mm reinforced foil tape (1 roll per ~30 m² of barrier or ~15 lineal metres of pipe lagging)."
+    ]
+  },
+  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
 }

@@ -1,176 +1,67 @@
 {
   "family_id": "AUTEX_COMPOSITION_VELOUR_PANEL",
   "family_name": "Autex Composition - Velour Panel",
-  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/composition/",
-  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
   "status": "ok",
   "researched_at": "2026-09-06",
   "spec": {
-    "description": "Autex Composition Velour Panel is an acoustic wall panel featuring a plush\nfine-velour Vertiface finish that provides superior acoustic absorption and a\nsoft tactile surface. Available as pre-cut panels and Peel 'n' Stick acoustic\ntiles (600mm x 600mm), it transforms blank walls into decorative, pinnable, and\nhook-and-loop receptive acoustic features. Made from 100% polyester fibre with\nrecycled content, it achieves an NRC of 0.40 and Group 1 fire rating, delivering\nnoise control and functionality for educational and commercial interiors.",
-    "features": [
-      "Plush fine-velour Vertiface surface finish",
-      "High acoustic\nperformance with NRC 0.40",
-      "Pinnable and hook-and-loop receptive self-healing\nsurface",
-      "Available in Peel 'n' Stick 600x600mm tiles and pre-cut panel\nformats",
-      "Made from 100% polyester fibre containing recycled PET",
-      "Group 1\nfire rating to AS ISO 9705 - 2003",
-      "Non-toxic, non-irritant, non-allergenic,\nand low VOC",
-      "Certified Carbon Neutral product with third-party verified EPD",
-      "Easy DIY installation with Peel 'n' Stick adhesive backing",
-      "Mould, mildew,\nand moisture resistant (ASTM G21-15 Growth Rating: 0)"
-    ],
-    "applications": [
-      "wall",
-      "internal wall"
-    ],
-    "technical": [
-      {
-        "property": "Noise Reduction\nCoefficient (NRC)",
-        "value": "0.40",
-        "standard": "ISO 354"
-      },
-      {
-        "property": "Tile / Panel Dimensions",
-        "value": "600 mm x 600 mm (Peel 'n' Stick); custom\npanel sizes",
-        "standard": ""
-      },
-      {
-        "property": "Thickness",
-        "value": "10 - 12\nmm",
-        "standard": ""
-      },
-      {
-        "property": "Weight",
-        "value": "Typically 1680 - 1780\ngsm",
-        "standard": ""
-      },
-      {
-        "property": "Finish",
-        "value": "Fine velour finish",
-        "standard": ""
-      },
-      {
-        "property": "Material Composition",
-        "value": "100% polyester\nfibre (PET)",
-        "standard": ""
-      },
-      {
-        "property": "Recycled Content",
-        "value": "Minimum 49% post-consumer recycled PET",
-        "standard": ""
-      },
-      {
-        "property": "Fire\nHazard Classification",
-        "value": "Group 1 (AS ISO 9705 - 2003 / AS 5637.1);\nGroup 1-S (ISO 9705:1993)",
-        "standard": "AS ISO 9705 / AS 5637.1"
-      },
-      {
-        "property": "Thermal Resistance",
-        "value": "R0.22 (@ 15°C)",
-        "standard": ""
-      },
-      {
-        "property": "Hook-and-Loop Receptivity",
-        "value": "Compatible with hook\nsize 1.5mm or less; staple size 10mm",
-        "standard": ""
-      },
-      {
-        "property": "Microbial Resistance",
-        "value": "Growth Rating: 0 (No growth)",
-        "standard": "ASTM G21-15"
-      },
-      {
-        "property": "Volatile Organic Compounds (VOC)",
-        "value": "< 0.0035 mg/m³ (7 days)",
-        "standard": "CDPH Standard"
-      }
-    ],
     "range": [
       {
-        "variant": "Composition Peel 'n' Stick Tile (Velour)",
-        "size_or_rating": "600 mm\nx 600 mm x 10-12 mm (Pack of 6, 2.16 m²)",
-        "pack": "Box of 6"
+        "c0": "Format Variant",
+        "c1": "Dimensions",
+        "c2": "Thickness",
+        "c3": "Surface Finish",
+        "c4": "Weight (GSM)",
+        "c5": "Box / Unit Quantity",
+        "c6": "Pack Coverage"
       },
       {
-        "variant": "Composition Velour Panel",
-        "size_or_rating": "1200 mm x 2400 mm x 10-12 mm,\nNRC 0.40",
-        "pack": "Panel"
+        "c0": "Peel 'n' Stick Velour Tiles",
+        "c1": "600 mm × 600 mm",
+        "c2": "10 mm – 12 mm",
+        "c3": "Plush fine velour",
+        "c4": "~1680–1780 gsm",
+        "c5": "Box of 6 tiles",
+        "c6": "2.16 m²"
+      },
+      {
+        "c0": "Pre-Cut Velour Panels",
+        "c1": "1200 mm × 2400 mm",
+        "c2": "10 mm – 12 mm",
+        "c3": "Plush fine velour",
+        "c4": "~1680–1780 gsm",
+        "c5": "Single panel",
+        "c6": "2.88 m²"
       }
-    ],
-    "fire": "AS ISO 9705 - 2003: Group 1; ISO 9705:\nGroup 1-S; BS EN 13501-1:2018: B - s1, d0",
-    "compliance": "NCC BCA Group 1 fire\ncompliance; AS ISO 9705:2003; ISO 354; ISO 9001 and ISO 14001",
-    "sustainability": "Carbon neutral product; contains min 49% recycled PET;\nDeclare Red List Free; Low VOC; 100% recyclable",
-    "install": [
-      "Ensure substrate\nis clean, dust-free, dry, and sealed if bare plasterboard",
-      "Acclimatise tiles\nor panels in the room for at least 24 hours",
-      "Mark a level baseline and\nvertical plumb line on the wall",
-      "Check arrow on backing release paper to\nmaintain uniform pile direction or alternate for quarter-turn pattern",
-      "Peel\nback release film from self-adhesive backing",
-      "Position tile firmly against\nguideline and press into place",
-      "Roll firmly across the entire tile surface\nwith a pressure roller to activate pressure-sensitive adhesive",
-      "Trim perimeter\ntiles using a straight edge and sharp utility knife"
-    ],
-    "selection_checklist": [
-      "Confirm fine velour finish texture preference",
-      "Select colour from Autex\nVertiface palette",
-      "Choose laying pattern (all arrows pointing in same\ndirection vs alternating quarter-turn check)",
-      "Calculate required square\nmeterage (each 6-pack covers 2.16 m²)",
-      "Confirm substrate is primed and free of\npeeling paint or grease"
-    ],
-    "accessories": [
-      "Autex pressure roller",
-      "Autex\nEdging Solutions Type A aluminium trims",
-      "Utility knife and metal straight\nedge"
-    ],
-    "limitations": [
-      "Pressure-sensitive adhesive requires firm rolling for\npermanent adhesion",
-      "Indoor use only; not suitable for high-humidity or wet\nareas",
-      "Do not apply over unprimed, powdery, or flaking surfaces"
-    ],
-    "warranty": "Manufacturer's guarantee by Autex Acoustics"
+    ]
   },
   "retrieval": {
     "search_keywords": [
-      "Autex Composition Velour",
       "Composition Peel n Stick",
-      "velour acoustic tiles",
-      "pinnable acoustic wall tiles",
-      "Composition velour\npanel",
-      "velcro receptive acoustic tile",
-      "600x600 acoustic tiles",
-      "DIY peel\nand stick acoustic tiles",
-      "Autex pinboard tiles"
+      "Composition velour",
+      "Velcro receptive velour tiles",
+      "plush acoustic pinboard",
+      "velour acoustic tiles"
     ],
     "problem_keywords": [
-      "noisy home office echo",
-      "need DIY sound absorbing pinboard",
-      "reverberation in\nsmall meeting room",
-      "classroom pinboard without heavy framing",
-      "scratched\ndrywall needing soft cover",
-      "quick modular acoustic installation"
+      "Echo in home offices, bedrooms, and commercial phone booths",
+      "desire for a soft, plush tactile finish on walls rather than a flat pile."
     ],
     "placement": [
-      "wall",
+      "Wall",
       "internal wall"
     ],
-    "priority_fit": [
-      "acoustic",
-      "easy_install",
-      "sustainability"
+    "not_for": [
+      "BATCH 004",
+      "exterior walls.",
+      "not_for): High moisture zones (bathrooms/commercial kitchens)"
     ],
     "use_cases": [
-      "installing Peel 'n' Stick\nvelour tiles in home offices to create decorative, sound-absorbing pinboard\nwalls",
-      "creating modular acoustic feature walls in school classrooms with\nvibrant colours",
-      "reducing echo in commercial phone booths and meeting pods",
-      "adding soft, hook-and-loop receptive noticeboards in staff breakout rooms and\nstudent accommodation"
-    ],
-    "not_for": [
-      "high-moisture shower rooms or wet\nareas",
-      "unprimed concrete or crumbling brick substrates",
-      "exterior\nweatherboard or brickwork"
-    ],
-    "rag_summary": "Autex Composition Velour Panel is\na 10-12mm thick acoustic wall panel featuring a plush fine-velour Vertiface\nfinish, available in modular 600mm x 600mm Peel 'n' Stick tiles and large\npanels. Engineered from 100% polyester fibre with recycled content, it provides\nan NRC of 0.40, excellent thermal resistance (R0.22), and an exceptionally\ndurable hook-and-loop and pin-receptive surface. Group 1 fire-rated and\ncarbon-neutral certified, it offers an easy, mess-free peel-and-stick\ninstallation that reduces chatter and creates functional pinboard surfaces in\noffices, schools, and homes."
+      "Recommend Peel 'n' Stick velour tiles for fast home office and meeting pod upgrades. Lay in a quarter-turn checkerboard pattern to create an intentional architectural texture and hide pile directionality."
+    ]
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "knowledge_base_txt",
+  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
 }

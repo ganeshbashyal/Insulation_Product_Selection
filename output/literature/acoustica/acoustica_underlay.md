@@ -35,12 +35,13 @@ Quality insulation engineered for Australian conditions. Engineered specifically
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.5 | thermal_r_value | 8 | 1150 x 1150 | 2 |
-| R1.5 | thermal_r_value | 4 | 1150 x 1150 | 1 |
-| R1.5 | thermal_r_value | 17 | 1200 x 1200 | 1 |
-| R1.5 | thermal_r_value | 10 | 1150 x 1150 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

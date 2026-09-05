@@ -1,7 +1,7 @@
 ---
 title: "Autex Greenstuf Autex Soffit & Slab Liner - Batt Insulation | Autex"
-description: "GreenStuf Autex Soffit and Slab Liner (ASL) is a high-density, Group 1 fire-rated 100% polyester insulation panel engineered for thermal and acoustic "
-keywords: "Autex Greenstuf Autex Soffit & Slab Liner, Autex batt, ceiling insulation, floor insulation, insulation Australia, Autex Australia"
+description: "Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled pla"
+keywords: "Autex Greenstuf Autex Soffit & Slab Liner, Autex batt, acoustic insulation, wall insulation, ceiling insulation, insulation Australia, Autex Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AUTEX_GREENSTUF_AUTEX_SOFFIT_SLAB_LINER
 ---
@@ -10,97 +10,76 @@ family_id: AUTEX_GREENSTUF_AUTEX_SOFFIT_SLAB_LINER
 
 **Autex Batt** — bulk insulation batts for thermal and acoustic performance.
 
-GreenStuf Autex Soffit and Slab Liner (ASL) is a high-density, Group 1 fire-rated 100% polyester insulation panel engineered for thermal and acoustic lining of masonry, concrete slab, and metal pan soffits. Designed for exposed and semi-exposed applications in commercial carparks, basements, and open-plenum interiors, it enhances thermal resistance of the building envelope while absorbing reverberant noise. Manufactured without chemical binders or formaldehyde, ASL is non-toxic, moisture-resistant, and 100% recyclable with circular takeback options.
+Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled plastic bottles, it's the sustainable choice for modern buildings.
 
 ## Key features
 
-- Group 1 fire rating compliant with AS ISO 9705:2003 and AS 5637.1.
-- Dual thermal and acoustic performance for exposed concrete soffits.
-- Made from 100% polyester fibre with high recycled PET content.
-- Completely non-toxic, non-allergenic, and non-irritant with zero itch.
-- Thermal ratings from R1.0 to R2.5 (thicknesses 50mm to 100mm).
-- High acoustic absorption controlling reverberation under hard slabs.
-- Durable and moisture resistant; absorption < 0.03% by weight.
-- Naturally resistant to vermin, insects, mould, and mildew.
-- Available in Flint (light grey) and Charcoal (dark grey) finishes.
-- 10-year product warranty and 50-year durability design life.
+- 100% polyester - safe to handle without protective equipment.
+- contains minimum 80% recycled PET plastic bottles.
+- non-allergenic, non-irritant formulation.
+- will not support mould or mildew growth.
+- maintains performance when wet - dries out naturally.
+- excellent thermal performance for roof/ceiling applications.
+- helps meet NCC energy efficiency requirements.
+- Made from recycled PET bottles.
 
 ## Applications and selection
 
-- underside of masonry floors
-- concrete
-soffit
-- car park ceiling
-- basement slab
-- metal pan floor/ceiling
+- Internal Wall | Ceiling | General Acoustic
 
 **Selection checklist**
 
-1. Confirm NCC Section J required R-value for the carpark or suspended slab.
-2. Verify Group 1 fire rating requirement for exposed ceiling/soffit linings.
-3. Select colourway (Flint light grey or Charcoal dark grey).
-4. Confirm slab fixing type (masonry drive anchors / insulation pins with retaining washers).
-5. Verify clearance requirements around mechanical and electrical services.
+1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
+2. Confirm the target rating and construction build-up with the project team.
+3. Confirm available cavity or fixing depth against the product dimensions.
+4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
+5. Record the suburb/postcode so climate-zone requirements can be checked.
 
 
 ## Current catalogue range
 
 | Variant | Size / rating | Pack |
 | --- | --- | --- |
-| GreenStuf ASL R1.0 | 50mm x 1200mm x 2400mm | Panel |
-| GreenStuf ASL R1.5 | 65mm x 1200mm x 2400mm | Panel |
-| GreenStuf ASL R2.0 | 75mm/80mm x 1200mm x 2400mm | Panel |
-| GreenStuf ASL R2.5 | 100mm x 1200mm x 2400mm | Panel |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
 
 _Variants from the manufacturer datasheet._
 
 ## Technical data
 
-| Property | Value | Standard |
+| Property | Value | Source |
 | --- | --- | --- |
-| Material Composition | 100% polyester fibre (thermally bonded) | - |
-| Thermal Resistance (R-value) | R1.0 (50mm), R1.5 (65mm), R2.0 (75-80mm), R2.5 (100mm) | ASTM C518 / AS/NZS 4859.1 |
-| Sheet Dimensions | 1200 mm x 2400 mm | - |
-| Thickness Options | 50 mm, 65 mm, 75 mm, 100 mm | - |
-| Fire Hazard Classification | Group 1, SMOGRArc < 100 m2/s2 | AS ISO 9705:2003 / AS 5637.1:2015 |
-| International Fire Rating | Group 1-S | ISO 9705:1993 |
-| Moisture Absorption | < 0.03% by weight after 4 days at 50°C, 90% RH | - |
-| VOC Emissions | 0.01 mg/m3 (7 days) | Cetec |
-| Corrosion Resistance | Non-corrosive, pH 7.8 | AS/NZS 4859.1 |
+| Product type | Batt | Manufacturer catalogue |
+| Material | Polyester | Manufacturer catalogue |
+| Applications | Internal Wall | Ceiling | General Acoustic | Manufacturer catalogue |
+| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
 
-Extracted from manufacturer datasheet: https://www.greenstuf.com.au/products/
+
 
 ## Fire, testing and compliance context
 
-Group 1 (AS ISO 9705:2003 / AS 5637.1:2015, SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S
-
-NCC BCA Section J energy efficiency compliance; AS/NZS 4859.1; AS ISO 9705:2003; AS 5637.1:2015; ABCB Durability in Buildings 50-year design life
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.autexacoustics.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://insulvac.com.au/wp-content/uploads/2020/04/autex-material-safety-data-sheet-msds.pdf.
 
-## Recommended accessories
-
-- Concrete/masonry insulation fasteners with 50-75mm diameter retention washers.
-- Serrated insulation trimming knife.
-
 
 ## Limitations and warnings
 
-- Not intended for direct exterior weather exposure without protection.
-- Some minor colour variation across non-woven polyester batches is natural.
-- Panels compressed during freight require up to 72 hours to recover full nominal thickness.
+- Not suitable for applications requiring fire rating without additional protection..
+- not to be exposed to weather or sustained moisture..
+- do not compress beyond manufacturer recommendations..
+- check fire-rated system requirements if fire rating is required..
+- confirm product selection matches specified thermal/acoustic/fire rating..
 
 ## Installation overview
 
-1. Check concrete slab is fully cured, clean, dry, and free of oil, grease, or contaminants.
-2. Set out grid lines on the slab to align panel joints neatly.
-3. Direct-fix using approved insulation masonry fasteners and large washer heads (min 5-6 fixings per sheet).
-4. Fasten fasteners at 100mm from sheet edges and distributed evenly across panel centre.
-5. Butt-join panels tightly to maintain thermal envelope continuity.
-6. Trim neatly around service penetrations, pipes, and electrical conduits with a serrated knife.
+Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for applications requiring fire rating without additional protection.
 
 ## Safety and handling
 
@@ -108,11 +87,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Global GreenTag GreenRate Level A; 100% recyclable; high recycled PET content; zero formaldehyde or chemical binders; Declare Red List Free
+Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
 
 ## Warranty, returns and support
 
-10 Year Manufacturer's Guarantee (50-year durability design life)
+No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
 
 ## Specification starting point
 

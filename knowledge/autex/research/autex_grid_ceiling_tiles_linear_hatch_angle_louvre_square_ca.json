@@ -1,155 +1,86 @@
 {
   "family_id": "AUTEX_GRID_CEILING_TILES_LINEAR_HATCH_ANGLE_LO_3",
   "family_name": "Autex Grid Ceiling Tiles - Linear/Hatch/Angle/Louvre - Square - Capped",
-  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/grid-ceiling-tiles/",
-  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
   "status": "ok",
   "researched_at": "2026-09-06",
   "spec": {
-    "description": "Autex Grid Ceiling Tiles - Linear/Hatch/Angle/Louvre - Square - Capped is a\nmodular 595mm x 595mm 3D acoustic ceiling tile designed for standard 600mm\nx 600mm suspended grid systems. Available in directional Linear, cross-hatch\nHatch, slanted Angle, or Louvre designs, this capped variant incorporates an\nintegrated acoustic backing cap that conceals overhead plenum services. Crafted\nfrom 100% polyester fibre with a minimum of 60% recycled PET, it provides\nexceptional acoustic absorption (NRC 0.60 - 0.75+) and Group 1 fire safety.",
-    "features": [
-      "Modular 3D square acoustic tile for standard 600mm x 600mm\nceiling grids",
-      "Four distinct architectural slatted styles: Linear, Hatch,\nAngle, and Louvre",
-      "Capped design incorporates a solid acoustic backing cap to\nconceal the plenum",
-      "Delivers high acoustic absorption with NRC up to 0.60\n- 0.75+",
-      "Manufactured from 100% polyester fibre with a minimum of 60% recycled\nPET",
-      "Group 1 fire rating compliant with AS ISO 9705 - 2003 and AS 5637.1",
-      "Non-toxic, non-allergenic, non-irritant, and free of chemical binders",
-      "Certified Carbon Neutral product with third-party verified EPD",
-      "Lightweight,\ndurable polyester that will not warp, chip, or crack over time",
-      "Extensive\nselection of solid colourways from the Autex Cube collection"
-    ],
-    "applications": [
-      "ceiling",
-      "commercial office",
-      "meeting room",
-      "education",
-      "retail",
-      "hospitality"
-    ],
-    "technical": [
-      {
-        "property": "Tile Dimensions",
-        "value": "595\nmm x 595 mm (depth varies, typically 80 mm - 103 mm)",
-        "standard": ""
-      },
-      {
-        "property": "Ceiling Grid Compatibility",
-        "value": "Standard 600 mm x 600 mm\nmetric grid (15mm / 24mm T-bar)",
-        "standard": ""
-      },
-      {
-        "property": "Material\nComposition",
-        "value": "100% polyester fibre (PET) Cube panel",
-        "standard": ""
-      },
-      {
-        "property": "Recycled Content",
-        "value": "Minimum 60% post-consumer\nrecycled PET",
-        "standard": ""
-      },
-      {
-        "property": "Sound Absorption (NRC)",
-        "value": "0.60 - 0.75+ (capped configuration)",
-        "standard": "ISO 354"
-      },
-      {
-        "property": "Fire Hazard Classification",
-        "value": "Group 1, SMOGRArc < 100\nm2/s2",
-        "standard": "AS ISO 9705 - 2003 / AS 5637.1:2015"
-      },
-      {
-        "property": "International Fire Rating",
-        "value": "Group 1-S (ISO 9705:1993) / B-s2, d0 (BS\nEN 13501-1:2018)",
-        "standard": "ISO 9705 / BS EN 13501-1"
-      },
-      {
-        "property": "VOC\nEmissions",
-        "value": "< 0.092 mg/m3 (7 days)",
-        "standard": "CDPH Standard Method\nv1.2"
-      },
-      {
-        "property": "Microbial Resistance",
-        "value": "Growth rating: 0 (No\ngrowth)",
-        "standard": "ASTM G21-15"
-      }
-    ],
     "range": [
       {
-        "variant": "Grid Ceiling\nTiles - Linear/Hatch/Angle/Louvre Square Capped",
-        "size_or_rating": "595mm\nx 595mm (Square 600x600 grid)",
-        "pack": "Pack of tiles (typically 8 tiles per\npack)"
+        "c0": "Pattern Style",
+        "c1": "Module Size",
+        "c2": "Dimensions",
+        "c3": "3D Relief Depth",
+        "c4": "Top Capping",
+        "c5": "Carton Packaging",
+        "c6": "Acoustic Rating"
+      },
+      {
+        "c0": "Linear (Square Slats)",
+        "c1": "600 mm × 600 mm",
+        "c2": "595 mm × 595 mm",
+        "c3": "~80 mm – 103 mm",
+        "c4": "Capped (Solid back)",
+        "c5": "8 tiles / carton (2.88 m²)",
+        "c6": "NRC 0.60 – 0.75+"
+      },
+      {
+        "c0": "Hatch (Square Lattice)",
+        "c1": "600 mm × 600 mm",
+        "c2": "595 mm × 595 mm",
+        "c3": "~80 mm – 103 mm",
+        "c4": "Capped (Solid back)",
+        "c5": "8 tiles / carton (2.88 m²)",
+        "c6": "NRC 0.65 – 0.80"
+      },
+      {
+        "c0": "Angle (Square Slanted)",
+        "c1": "600 mm × 600 mm",
+        "c2": "595 mm × 595 mm",
+        "c3": "~80 mm – 103 mm",
+        "c4": "Capped (Solid back)",
+        "c5": "8 tiles / carton (2.88 m²)",
+        "c6": "NRC 0.60 – 0.75+"
+      },
+      {
+        "c0": "Louvre (Square Louvre)",
+        "c1": "600 mm × 600 mm",
+        "c2": "595 mm × 595 mm",
+        "c3": "~80 mm – 103 mm",
+        "c4": "Capped (Solid back)",
+        "c5": "8 tiles / carton (2.88 m²)",
+        "c6": "NRC 0.60 – 0.75+"
       }
-    ],
-    "fire": "Group 1 (AS ISO 9705 - 2003 / AS 5637.1:2015); Group 1-S\n(ISO 9705:1993); Class A (ASTM E-84-15a); B-s2, d0 (BS EN 13501-1:2018)",
-    "compliance": "NCC BCA Specification C1.10 Group 1 fire compliance; AS\nISO 9705:2003; AS 5637.1:2015; ISO 354",
-    "sustainability": "Certified Carbon\nNeutral; minimum 60% recycled PET; Declare Red List Free; EPD compliant with\nISO 14025 and EN 15804",
-    "install": [
-      "Confirm 600mm x 600mm suspended grid is\nlevel and square",
-      "Ensure all tiles for the space are from the same production\nbatch",
-      "Assemble slatted square tile with its backing cap securely fastened to\nthe top",
-      "Tilt the assembled capped tile and pass it upward through the grid\nopening",
-      "Lower onto the grid tees, ensuring edges seat evenly on all sides",
-      "Align directional slats consistently or create alternating quarter-turn\ncheckerboard patterns"
-    ],
-    "selection_checklist": [
-      "Select desired style: Linear\n(parallel slats), Hatch (cross-hatch), Angle (slanted), or Louvre (louvred)",
-      "Confirm grid size is square metric 600mm x 600mm",
-      "Confirm capped version is\nselected for maximum sound absorption and complete plenum concealment",
-      "Choose\ncolour from Autex Cube palette",
-      "Check available ceiling plenum depth"
-    ],
-    "accessories": [
-      "Standard two-way exposed ceiling grid (15mm or 24mm tee)",
-      "Utility knife for perimeter cuts"
-    ],
-    "limitations": [
-      "Tile depth\n(approx 80-103mm) requires adequate clearance beneath overhead services",
-      "Not\ndesigned for direct exposure to water leaks, steam, or outdoor weather",
-      "Do not\nmix batches in the same contiguous ceiling area"
-    ],
-    "warranty": "Manufacturer's\nGuarantee (minimum 10 years)"
+    ]
   },
   "retrieval": {
     "search_keywords": [
-      "Autex Square\nCapped Grid Tile",
-      "Linear Square Capped tile",
-      "Hatch Square Capped tile",
-      "Angle Square Capped tile",
-      "Louvre Square Capped tile",
-      "600x600 slatted\nacoustic tile",
-      "Autex 600x600 capped tile",
-      "3D square acoustic drop in tile"
+      "3D square slatted ceiling tile",
+      "600x600 slatted acoustic tile",
+      "Cube slatted tile 600x600",
+      "Hatch square capped 600x600",
+      "Linear square capped tile"
     ],
     "problem_keywords": [
-      "reverberant meeting room with 600x600 grid",
-      "cluttered open ceiling plenum",
-      "harsh acoustic reflection in office",
-      "boring\nwhite drop ceiling tiles",
-      "need modern slatted ceiling design",
-      "controlling\nspeech privacy in offices"
+      "Monotonous flat 600x600 drop ceilings",
+      "customer wants a high-end modular slatted look with high sound absorption that conceals overhead wiring and ductwork."
     ],
     "placement": [
-      "ceiling"
-    ],
-    "priority_fit": [
-      "acoustic",
-      "fire",
-      "sustainability",
-      "easy_install"
-    ],
-    "use_cases": [
-      "Upgrading standard 600x600 square drop ceilings in meeting rooms and\ncollaborative zones with slatted 3D textures that conceal overhead services",
-      "School classrooms and library quiet zones requiring high acoustic absorption\n(NRC up to 0.75+) and Group 1 fire safety",
-      "Boutique hospitality and retail\nfitouts seeking a warm slatted ceiling appearance with drop-in simplicity"
+      "Ceiling (600x600 suspended grid)"
     ],
     "not_for": [
-      "Direct floor traffic or wall impact surfaces",
-      "Unframed ceilings\nwithout a supporting T-bar grid",
-      "Outdoor unconditioned soffits or external\ncanopies"
+      "ART 3: Batches 005 & 006 (Families 41–60)",
+      "BATCH 005",
+      "Manufacturer: Autex Acoustics",
+      "not_for): Exterior soffits",
+      "wet areas with direct water contact."
     ],
-    "rag_summary": "Autex Grid Ceiling Tiles -\nLinear/Hatch/Angle/Louvre - Square - Capped is a modular 595mm x 595mm 3D\nacoustic ceiling tile designed for standard 600mm x 600mm grid systems.\nAvailable in Linear, Hatch, Angle, or Louvre profiles, this capped variant\nincludes a solid acoustic backing cap that completely encloses the ceiling\nplenum while enhancing acoustic absorption to NRC 0.60 - 0.75+. Crafted\nfrom 100% polyester fibre with over 60% recycled PET and achieving Group 1 fire\ncompliance, it converts standard square grid ceilings into dynamic, acoustically\ntuned commercial features."
+    "use_cases": [
+      "Ideal for corporate reception zones, cafes, and executive suites with 600x600 grids. Can be laid in parallel rows or rotated 90 degrees alternately for a textured woven parquet pattern."
+    ]
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "knowledge_base_txt",
+  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
 }

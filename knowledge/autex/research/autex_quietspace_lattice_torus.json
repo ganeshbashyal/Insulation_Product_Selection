@@ -1,163 +1,54 @@
 {
   "family_id": "AUTEX_QUIETSPACE_LATTICE_TORUS",
   "family_name": "Autex Quietspace Lattice - Torus",
-  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/lattice/",
-  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
   "status": "ok",
   "researched_at": "2026-09-06",
   "spec": {
-    "description": "Autex Quietspace Lattice - Torus is an architectural suspended acoustic baffle\nsculpture featuring an abstract, circular woven form. Built from a grid of\nintersecting 12mm semi-rigid Cube acoustic fins, its open geometry covers a\ngreater surface area than traditional parallel baffle systems to effectively\nabsorb echo and reverberation. Supplied flat-packed with a dedicated suspension\nkit, Torus provides Class A acoustic performance (NRC 1.00 / up to 3.90 Sabins\nper unit) and Group 1 fire safety for commercial, educational, and hospitality\ninteriors.",
-    "features": [
-      "Circular abstract woven form (Torus) creating a\nfocal ceiling feature",
-      "Intersecting grid structure provides high surface area\nfor optimum sound absorption",
-      "Class A acoustic absorption rating (NRC 1.00\n/ 1.60 - 3.90 Sabins per unit)",
-      "Made from 100% polyester fibre containing a\nminimum of 80% recycled PET",
-      "Group 1 fire rating compliant with AS ISO 9705\n- 2003 and AS 5637.1",
-      "Assembled dimensions: 1450 mm x 1450 mm x 293 mm depth",
-      "Supplied flat-packed with suspension kit (8 x 1m galvanised cables, ceiling\nmounts, clips)",
-      "Lightweight and structurally stable; will not sag, warp, or\ncrumble",
-      "Resistant to moisture, mould, and mildew (ASTM G21-15 Growth\nRating: 0)",
-      "Certified Carbon Neutral product with third-party verified EPD"
-    ],
-    "applications": [
-      "ceiling",
-      "open-plan office",
-      "meeting room",
-      "education",
-      "hospitality",
-      "auditorium"
-    ],
-    "technical": [
-      {
-        "property": "Acoustic\nAbsorption",
-        "value": "1.60 - 3.90 Sabins per unit (NRC 1.00, Class A)",
-        "standard": "ISO 354"
-      },
-      {
-        "property": "Assembled Dimensions",
-        "value": "1450 mm\nx 1450 mm x 293 mm depth (tolerance +/- 0.5 mm)",
-        "standard": ""
-      },
-      {
-        "property": "Material Thickness",
-        "value": "12 mm Cube fins",
-        "standard": ""
-      },
-      {
-        "property": "Material Composition",
-        "value": "100% polyester fibre (PET)",
-        "standard": ""
-      },
-      {
-        "property": "Recycled Content",
-        "value": "Minimum 80%\npost-consumer recycled PET",
-        "standard": ""
-      },
-      {
-        "property": "Fire Rating\n(Australia)",
-        "value": "Group 1, SMOGRArc < 100 m2/s2",
-        "standard": "AS ISO 9705\n- 2003 / AS 5637.1"
-      },
-      {
-        "property": "International Fire Rating",
-        "value": "Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a: FS:0 - SD:45); B - s2, d0\n(BS EN 13501-1:2018)",
-        "standard": "ISO 9705 / ASTM E-84 / BS EN 13501-1"
-      },
-      {
-        "property": "Water Vapour Sorption",
-        "value": "0.4% by weight after 4 days\nat 49°C, 95% RH",
-        "standard": "ASTM C1104 / C1104M-13a"
-      },
-      {
-        "property": "Microbial Resistance",
-        "value": "Growth rating: 0 (No growth)",
-        "standard": "ASTM G21-15"
-      },
-      {
-        "property": "VOC Emissions",
-        "value": "< 0.092 mg/m3 (7\ndays)",
-        "standard": "CDPH Standard Method v1.2"
-      }
-    ],
     "range": [
       {
-        "variant": "Quietspace Lattice Torus",
-        "size_or_rating": "1450 mm x 1450 mm x 293 mm",
-        "pack": "Pack of 2 units"
+        "c0": "Sculptural Form",
+        "c1": "Assembled Length",
+        "c2": "Assembled Width",
+        "c3": "Overall Depth",
+        "c4": "Fin Thickness",
+        "c5": "Packaging Unit",
+        "c6": "Metric Sabins per Unit"
+      },
+      {
+        "c0": "Torus",
+        "c1": "1450 mm",
+        "c2": "1450 mm",
+        "c3": "293 mm",
+        "c4": "12 mm Cube (PET)",
+        "c5": "Pack of 2 units",
+        "c6": "1.60 – 3.90 Sabins (Class A / NRC 1.00)"
       }
-    ],
-    "fire": "AS ISO 9705 - 2003 and AS 5637.1\nClassification: Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM\nE-84-15a Class A; BS EN 13501-1:2018 B - s2, d0",
-    "compliance": "NCC\nSpecification 7 (BCA C1.10) Group 1 fire compliance; AS ISO 9705:2003;\nAS 5637.1:2015; ISO 354",
-    "sustainability": "Carbon neutral product; minimum 80%\nrecycled PET; Declare Red List Free; EPD compliant with ISO 14025 and EN 15804;\nlow VOC",
-    "install": [
-      "Unpack Lattice Torus components and lay out fins on a\nclean, protected surface",
-      "Slot intersecting 12mm Cube fins together according\nto the assembly diagram",
-      "Insert alloy tube inserts and Velda cable clips into\ndesignated locking fin slots",
-      "Measure and mark suspension anchor points on\nceiling substrate matching cable positions",
-      "Fasten ceiling mounts securely to\nthe structural ceiling or soffit using suitable anchors",
-      "Thread 1m galvanised\nsuspension cables into ceiling mounts and adjust to desired height",
-      "Hook\ncables into Lattice clips and level the assembled circular Torus sculpture using\na spirit level"
-    ],
-    "selection_checklist": [
-      "Confirm ceiling height and\navailable overhead clearance for 293mm deep profile",
-      "Verify ceiling structure\ncan support 8-point suspension cable attachment",
-      "Select colour from the Autex\nCube colour palette (20+ colours)",
-      "Confirm Torus style (circular 1450x1450mm)\nis chosen",
-      "Check pack quantity requirement (supplied in packs of 2 units)"
-    ],
-    "accessories": [
-      "Lattice suspension kit (8 x 1m galvanised cables, 8 x ceiling\nmounts, 8 x Velda clips, alloy tube inserts)",
-      "Spirit level"
-    ],
-    "limitations": [
-      "Indoor ceiling installation only; not suitable for exterior use or wet\nenvironments",
-      "Non-load bearing decorative baffle; do not suspend luminaires or\nmechanical services from fins",
-      "Must be assembled on a clean, soft surface to\navoid scuffing the polyester felt"
-    ],
-    "warranty": "Manufacturer's Guarantee (10\nyears)"
+    ]
   },
   "retrieval": {
     "search_keywords": [
-      "Autex Lattice Torus",
-      "Quietspace\nLattice Torus",
-      "circular acoustic ceiling baffle",
-      "hanging acoustic\nsculpture",
-      "Autex ceiling clouds",
-      "round acoustic baffle",
-      "Lattice Torus",
-      "suspended acoustic sculpture",
       "Autex Torus",
-      "Cube ceiling baffle"
+      "Lattice Torus",
+      "Quietspace Lattice Torus",
+      "circular acoustic ceiling baffle",
+      "round acoustic ceiling sculpture"
     ],
     "problem_keywords": [
-      "echo in small meeting room",
-      "reverberation over\nboardroom table",
-      "noisy open plan office",
-      "high concrete ceiling echo",
-      "need\nstatement acoustic lighting feature",
-      "distracting conversational noise"
+      "Echo directly above round meeting tables, collaborative circular pods, or central reception desks in open-ceiling fitouts."
     ],
     "placement": [
-      "ceiling"
-    ],
-    "priority_fit": [
-      "acoustic",
-      "fire",
-      "sustainability",
-      "easy_install"
-    ],
-    "use_cases": [
-      "Suspending directly above\nround meeting tables in executive rooms to absorb speech reverberation",
-      "Targeted sound control in commercial breakout areas with exposed concrete\nsoffits",
-      "Acoustic and aesthetic ceiling focal point in restaurant dining rooms\nand reception lobbies"
+      "Ceiling (suspended 8-point cable mount)"
     ],
     "not_for": [
-      "Wall or floor installations",
-      "Outdoor\nbalconies or exposed walkways",
-      "Wet rooms with direct water splashing"
+      "not_for): Spaces with overhead ceiling obstructions preventing an 8-cable balanced suspension."
     ],
-    "rag_summary": "Autex Quietspace Lattice - Torus is a suspended circular 3D\nacoustic baffle sculpture measuring 1450mm x 1450mm x 293mm, constructed from\nintersecting 12mm Cube polyester felt fins. By maximizing surface area exposure\nto incident sound, it delivers Class A absorption (NRC 1.00 / 1.60 - 3.90 Sabins\nper unit) to control echo and speech noise in open-ceiling spaces. Formed\nfrom 100% polyester with at least 80% recycled PET and achieving Group 1 fire\ncompliance, it provides an expressive, carbon-neutral acoustic ceiling feature\nfor commercial, civic, and hospitality interiors."
+    "use_cases": [
+      "Ideal for positioning over circular collaborative zones and round boardroom tables. Supplied in pairs (2 units per box)."
+    ]
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "knowledge_base_txt",
+  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
 }

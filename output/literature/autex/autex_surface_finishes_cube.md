@@ -1,7 +1,7 @@
 ---
 title: "Autex Surface Finishes Cube - Panel Insulation | Autex"
-description: "Autex Surface Finishes Cube is a lightweight, semi-rigid acoustic panel featuring high-definition digital UV printing of natural timber, stone, concre"
-keywords: "Autex Surface Finishes Cube, Autex panel, wall insulation, ceiling insulation, insulation Australia, Autex Australia"
+description: "Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability"
+keywords: "Autex Surface Finishes Cube, Autex panel, acoustic insulation, wall insulation, ceiling insulation, insulation Australia, Autex Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AUTEX_SURFACE_FINISHES_CUBE
 ---
@@ -10,100 +10,77 @@ family_id: AUTEX_SURFACE_FINISHES_CUBE
 
 **Autex Panel** — acoustic panels for sound absorption and interior finish.
 
-Autex Surface Finishes Cube is a lightweight, semi-rigid acoustic panel featuring high-definition digital UV printing of natural timber, stone, concrete, and textile textures onto Cube polyester felt. Engineered without the cost, weight, or fire hazards of real timber or masonry, Surface Finishes Cube delivers an authentic architectural look while absorbing unwanted sound (NRC 0.45 - 0.80). Available in 12mm and 24mm thicknesses, it achieves NCC Group 1 fire compliance and carbon-neutral certification.
+Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability.
 
 ## Key features
 
-- High-definition digital printing of premium timber grains, stone, and architectural textures.
-- Printed with safe, water-based, UV-cured ink with zero negative impact on acoustic absorption.
-- Available in 12mm (NRC 0.45 - 0.70) and 24mm (NRC 0.70 - 0.80) thicknesses.
-- Semi-rigid 100% polyester Cube base with solid colour core.
-- Constructed from 100% polyester fibre containing a minimum of 80% recycled PET.
-- Group 1 fire rating compliant with AS ISO 9705 - 2003 and AS 5637.1.
-- Lightweight and seismic-safe alternative to solid wood, stone, or precast panels.
-- Certified Carbon Neutral product with third-party verified EPD.
-- Moisture and mould resistant with an ASTM G21-15 Growth Rating of 0.
-- Compatible with Direct-fix, SpinFix, and Peel and Stick installation methods.
+- 100% polyester - safe to handle without protective equipment.
+- contains minimum 80% recycled PET plastic bottles.
+- non-allergenic, non-irritant formulation.
+- will not support mould or mildew growth.
+- maintains performance when wet.
+- excellent thermal performance for roof/ceiling applications.
+- Made from recycled PET bottles.
+- Safe to handle without PPE.
 
 ## Applications and selection
 
-- wall
-- internal wall
-- ceiling
+- Internal Wall | Ceiling | General Acoustic
 
 **Selection checklist**
 
-1. Select finish from Acoustic Timber woodgrains (Oak, Birch, Walnut, etc.) or Surface Finishes stone/concrete collections.
-2. Select panel thickness (12mm for standard wall panelling or 24mm for higher acoustic absorption).
-3. Confirm panel dimensions (1220x2440mm, 1220x2740mm, or custom up to 3000mm).
-4. Specify installation method (adhesive direct-fix, SpinFix, or Peel and Stick).
-5. Verify substrate framing supports chosen fixing system.
+1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
+2. Confirm the target rating and construction build-up with the project team.
+3. Confirm available cavity or fixing depth against the product dimensions.
+4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
+5. Record the suburb/postcode so climate-zone requirements can be checked.
 
 
 ## Current catalogue range
 
 | Variant | Size / rating | Pack |
 | --- | --- | --- |
-| Surface Finishes Cube 12mm (2440x1220) | 1220 mm x 2440 mm x 12 mm, NRC 0.45 | Panel |
-| Surface Finishes Cube 12mm (2740x1220) | 1220 mm x 2740 mm x 12 mm, NRC 0.45 | Panel |
-| Surface Finishes Cube 24mm (2440x1220) | 1220 mm x 2440 mm x 24 mm, NRC 0.70 | Panel |
-| Surface Finishes Cube 24mm (2740x1220) | 1220 mm x 2740 mm x 24 mm, NRC 0.70 | Panel |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
 
 _Variants from the manufacturer datasheet._
 
 ## Technical data
 
-| Property | Value | Standard |
+| Property | Value | Source |
 | --- | --- | --- |
-| Noise Reduction Coefficient (NRC) | 12mm: 0.45 (direct fix), 0.70 (with 24mm air gap); 24mm: 0.70 (direct fix), 0.80 (with 24mm air gap) | ISO 354 |
-| Sound Absorption Class | 12mm: Class D (direct fix), Class C (with air gap); 24mm: Class D (direct fix), Class C (with air gap) | ISO 11654 |
-| Panel Dimensions | 1220 mm x 2440 mm; 1220 mm x 2740 mm; custom lengths up to 3000 mm | - |
-| Thickness | 12 mm (+/- 6%); 24 mm (+/- 6%) | - |
-| Material Composition | 100% polyester fibre (PET) printed with UV-curable ink | - |
-| Recycled Content | Minimum 80% post-consumer recycled PET | - |
-| Thermal Performance | 12mm: R0.30 (@ 23°C); 24mm: R0.60 (@ 23°C) | - |
-| Fire Rating (Australia) | Group 1, SMOGRArc < 100 m2/s2 | AS ISO 9705 - 2003 / AS 5637.1:2015 |
-| International Fire Rating | Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a: FS:0 - SD:45); 12mm BS EN 13501-1:2018 B - s1, d0; 24mm B - s2, d0 | ISO 9705 / ASTM E-84 / BS EN 13501-1 |
-| Water Vapour Sorption | 0.4% by weight after 4 days at 49°C, 95% RH | ASTM C1104 / C1104M-13a |
-| Microbial Resistance | Growth rating: 0 (No growth) | ASTM G21-15 |
-| VOC Emissions | < 0.092 mg/m3 (7 days) | CDPH Standard Method v1.2 |
+| Product type | Panel | Manufacturer catalogue |
+| Material | Polyester | Manufacturer catalogue |
+| Applications | Internal Wall | Ceiling | General Acoustic | Manufacturer catalogue |
+| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
 
-Extracted from manufacturer datasheet: https://www.autexglobal.com/au/products/cube/
+
 
 ## Fire, testing and compliance context
 
-AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM E-84-15a Class A; BS EN 13501-1:2018 B - s1, d0 (12mm) / B - s2, d0 (24mm)
-
-NCC Specification 7 (BCA C1.10) Group 1 fire compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.autexacoustics.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://insulvac.com.au/wp-content/uploads/2020/04/autex-material-safety-data-sheet-msds.pdf.
 
-## Recommended accessories
-
-- Autex SpinFix mounting clips.
-- Autex Edging Solutions (Type B for 12mm, Type C for 24mm).
-- High-grab MS polymer or contact adhesive.
-- Peel and Stick adhesive backing.
-
 
 ## Limitations and warnings
 
-- Recommended for non-contact areas as printed surface may show scuff marks under heavy impact.
-- Indoor use only; avoid wet areas or direct water exposure.
-- Do not use in high-impact sports halls without protective screening.
+- Not suitable for fire rating without additional protection..
+- not to be exposed to weather or sustained moisture..
+- do not compress beyond manufacturer recommendations..
+- check fire-rated system requirements..
+- confirm product selection matches specified thermal/acoustic/fire rating..
 
 ## Installation overview
 
-1. Ensure substrate is plumb, flat, clean, and dry.
-2. Acclimatise panels in the space for at least 24 hours prior to installation.
-3. Inspect woodgrain or stone pattern direction and plan panel alignment across the wall.
-4. Apply recommended high-grab MS polymer or contact adhesive evenly to the panel back.
-5. Alternatively, install using Autex SpinFix mounting clips or Peel and Stick backing.
-6. Position panel onto substrate, butt joins neatly together, and roll firmly with a pressure roller.
-7. Trim perimeter edges carefully from the face using a straight edge and sharp utility knife on the offcut side.
+Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for fire rating without additional protection.
 
 ## Safety and handling
 
@@ -111,11 +88,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Carbon neutral product; water-based UV-cured ink; minimum 80% recycled PET; Declare Red List Free; EPD verified; low VOC
+Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
 
 ## Warranty, returns and support
 
-Manufacturer's Guarantee (10 years)
+No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
 
 ## Specification starting point
 

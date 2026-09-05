@@ -1,173 +1,62 @@
 {
   "family_id": "AUTEX_SOLID_COLOUR_CEILING_TILES",
   "family_name": "Autex Solid Colour Ceiling Tiles",
-  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/accent-ceiling-tiles/",
-  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
   "status": "ok",
   "researched_at": "2026-09-06",
   "spec": {
-    "description": "Autex Accent Ceiling Tiles (Solid Colour Ceiling Tiles) are a simple,\nhigh-performance acoustic tile designed to drop directly into standard suspended\nmetric ceiling grids. Developed with two functional sides for design\nflexibility, they feature a smooth classic white face and a vibrant solid colour\nface selected from the Autex Cube palette. Made from 100% non-woven polyester\nfibre containing a minimum of 80% recycled PET, they deliver an NRC of 0.85 and\nGroup 1 fire compliance without chipping, cracking, or breaking.",
-    "features": [
-      "Dual-sided functionality: solid colour face on one side and classic white on\nthe other",
-      "Engineered to drop directly into standard metric 600mm x 600mm\nor 1200mm x 600mm ceiling grids",
-      "Delivers high acoustic sound absorption with\nNRC 0.85 (Class A)",
-      "Lightweight, durable polyester that will not chip, crack,\nor shed fibres",
-      "Supplied with a protective spun-bond cover to prevent soiling\nduring installation",
-      "Constructed from 100% polyester fibre containing a\nminimum of 80% recycled PET",
-      "Group 1 fire rating compliant with AS ISO 9705\n- 2003 and AS 5637.1",
-      "Resistant to moisture, mould, and mildew (ASTM G21-15\nGrowth Rating: 0)",
-      "Certified Carbon Neutral product with third-party verified\nEPD",
-      "Available in over 20 contemporary solid Cube colours"
-    ],
-    "applications": [
-      "ceiling",
-      "commercial office",
-      "education",
-      "hospitality",
-      "retail",
-      "theatre"
-    ],
-    "technical": [
-      {
-        "property": "Noise Reduction Coefficient (NRC)",
-        "value": "0.85",
-        "standard": "ASTM C423 / ISO 354"
-      },
-      {
-        "property": "Sound\nAbsorption Class",
-        "value": "Class A (alpha-w 0.85)",
-        "standard": "ISO 11654"
-      },
-      {
-        "property": "Tile Dimensions",
-        "value": "595 mm x 595 mm (for 600x600\ngrid); 595 mm x 1195 mm (for 1200x600 grid)",
-        "standard": ""
-      },
-      {
-        "property": "Thickness",
-        "value": "12 mm - 13 mm (tolerance +/- 6%)",
-        "standard": ""
-      },
-      {
-        "property": "Weight",
-        "value": "2400 gsm",
-        "standard": ""
-      },
-      {
-        "property": "Material Composition",
-        "value": "100% polyester fibre (PET)",
-        "standard": ""
-      },
-      {
-        "property": "Recycled Content",
-        "value": "Minimum 80% post-consumer recycled\nPET",
-        "standard": ""
-      },
-      {
-        "property": "Fire Rating (Australia)",
-        "value": "Group 1, SMOGRArc < 100 m2/s2",
-        "standard": "AS ISO 9705 - 2003 / AS 5637.1"
-      },
-      {
-        "property": "International Fire Rating",
-        "value": "Group 1-S (ISO 9705:1993);\nClass B - s1, d0 (BS EN 13501-1:2018)",
-        "standard": "ISO 9705 / BS EN 13501-1"
-      },
-      {
-        "property": "Microbial Resistance",
-        "value": "Growth rating: 0 (No\ngrowth)",
-        "standard": "ASTM G21-15"
-      },
-      {
-        "property": "VOC Emissions",
-        "value": "Low VOC, CDPH compliant (<0.092 mg/m3)",
-        "standard": "CDPH v1.2"
-      }
-    ],
     "range": [
       {
-        "variant": "Solid Colour Accent Tile 600x600",
-        "size_or_rating": "595 mm\nx 595 mm x 12 mm, NRC 0.85",
-        "pack": "Pack of 16 tiles"
+        "c0": "Nominal Grid Size",
+        "c1": "Actual Tile Dimensions",
+        "c2": "Thickness",
+        "c3": "Weight",
+        "c4": "Grid Compatibility",
+        "c5": "Packaging Quantity",
+        "c6": "Pack Coverage"
       },
       {
-        "variant": "Solid\nColour Accent Tile 1200x600",
-        "size_or_rating": "595 mm x 1195 mm x 12 mm,\nNRC 0.85",
-        "pack": "Pack of 8 tiles"
+        "c0": "600 mm × 600 mm",
+        "c1": "595 mm × 595 mm",
+        "c2": "12 mm – 13 mm",
+        "c3": "2400 gsm",
+        "c4": "15mm / 24mm T-bar grid",
+        "c5": "16 tiles / box",
+        "c6": "5.76 m²"
+      },
+      {
+        "c0": "1200 mm × 600 mm",
+        "c1": "595 mm × 1195 mm",
+        "c2": "12 mm – 13 mm",
+        "c3": "2400 gsm",
+        "c4": "15mm / 24mm T-bar grid",
+        "c5": "8 tiles / box",
+        "c6": "5.76 m²"
       }
-    ],
-    "fire": "AS ISO 9705 - 2003 and\nAS 5637.1 Classification: Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993\nGroup 1-S; BS EN 13501-1:2018 Class B - s1, d0",
-    "compliance": "NCC\nSpecification 7 (BCA C1.10) Group 1 fire compliance; AS ISO 9705:2003;\nAS 5637.1:2015; ISO 354",
-    "sustainability": "Certified Carbon Neutral;\nminimum 80% recycled PET; Declare Red List Free; EPD verified; low VOC",
-    "install": [
-      "Ensure suspended ceiling grid is square, level, and properly\nsupported",
-      "Check that all tiles are supplied from a single production batch to\navoid colour variation",
-      "Tilt tile and gently lift upward through standard\nmetric 600x600 or 1200x600 ceiling grid opening",
-      "Select desired face\norientation (solid colour facing downward or classic white facing downward)",
-      "Lower tile squarely onto exposed grid tees without crushing edges",
-      "Remove the\nprotective spun-bond cover once the tile is safely seated in the grid",
-      "Where\nperimeter cutting is required, cut neatly using a sharp utility knife and\nstraight edge"
-    ],
-    "selection_checklist": [
-      "Confirm ceiling grid dimensions\n(standard metric 600x600mm or 1200x600mm)",
-      "Choose face colour from Autex Cube\nsolid colour palette (20+ colours)",
-      "Verify batch numbers match across all\nboxes to prevent dye-lot variation",
-      "Confirm target acoustic rating requires\nClass A absorption (NRC 0.85)",
-      "Ensure compliance with NCC Group 1 fire rating\nfor commercial ceilings"
-    ],
-    "accessories": [
-      "Standard two-way exposed ceiling\ngrid (15mm or 24mm tee)",
-      "Utility knife for perimeter trimming"
-    ],
-    "limitations": [
-      "Designed specifically for standard metric suspended ceiling\ngrids",
-      "Indoor use only; avoid direct water exposure from overhead pipe leaks",
-      "Batch-to-batch colour variation can occur; do not mix batches in the same\nspace"
-    ],
-    "warranty": "Manufacturer's Guarantee (10 years)"
+    ]
   },
   "retrieval": {
     "search_keywords": [
-      "Autex Accent Ceiling Tiles",
-      "Solid Colour Ceiling Tiles",
-      "Autex coloured ceiling tiles",
-      "drop in acoustic ceiling tiles",
-      "600x600\nacoustic ceiling tile",
-      "1200x600 acoustic ceiling tile",
-      "Cube ceiling tiles",
-      "polyester acoustic drop in tile",
-      "reversible ceiling tiles",
-      "NRC 0.85 ceiling\ntile"
+      "1200x600 acoustic tiles",
+      "600x600 polyester ceiling tiles",
+      "Accent ceiling tiles",
+      "Solid colour ceiling tiles",
+      "coloured drop-in tiles"
     ],
     "problem_keywords": [
-      "broken mineral fibre ceiling tiles",
-      "drab plain\nwhite drop ceiling",
-      "reverberation in classroom",
-      "noisy open plan office",
-      "dusty fibrous ceiling tiles",
-      "need coloured acoustic ceiling"
+      "Broken, water-damaged, or dusty mineral-fibre tiles",
+      "desire to introduce corporate branding colors into the ceiling plane.",
+      "noisy commercial workspaces with drop ceilings"
     ],
     "placement": [
-      "ceiling"
-    ],
-    "priority_fit": [
-      "acoustic",
-      "fire",
-      "sustainability",
-      "easy_install"
+      "Ceiling (T-bar suspended grid)"
     ],
     "use_cases": [
-      "Replacing fragile mineral fibre tiles in\nschool classrooms to improve speech clarity with durable, non-chipping tiles",
-      "Introducing corporate brand colours into commercial office suspended ceilings\nwhile achieving Class A sound absorption",
-      "Acoustic ceiling upgrades in retail\nenvironments and medical consulting rooms"
-    ],
-    "not_for": [
-      "Wall direct fixing\nwithout grid",
-      "High-humidity swimming pool enclosures with direct water\nsplashing",
-      "Underfloor insulation"
-    ],
-    "rag_summary": "Autex Solid Colour\nCeiling Tiles (Accent Ceiling Tiles) are durable 12mm drop-in acoustic tiles\ndesigned for standard metric 600mm x 600mm and 1200mm x 600mm suspended ceiling\ngrids. Manufactured from 100% polyester fibre with over 80% recycled PET, they\nfeature a reversible design with a classic white face on one side and a choice\nof 20+ solid colours on the other. Delivering Class A sound absorption\n(NRC 0.85) and Group 1 fire compliance, they will not chip, crack, or release\nrespirable dust, making them an ideal acoustic and aesthetic upgrade for office,\neducation, and healthcare ceilings."
+      "Direct replacement for standard 600x600 or 1200x600 mineral fibre tiles. Reversible design allows creative checkerboard patterns (alternating white and colored faces)."
+    ]
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "knowledge_base_txt",
+  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
 }

@@ -1,197 +1,62 @@
 {
   "family_id": "AIRCELL_RETROSHIELD",
   "family_name": "Aircell Retroshield",
-  "datasheet_pdf_url": "https://www.insulation.kingspan.com/au/en/products/reflective-insulation/air-cell-retroshield",
-  "sds_url": "https://www.insulation.kingspan.com/au/en/products/reflective-insulation/",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
   "status": "ok",
   "researched_at": "2026-09-06",
   "spec": {
-    "description": "Kingspan AIR-CELL Retroshield is a fibre-free, high-performance thermo-reflective insulation and vapour barrier comprising an encapsulated 7mm air cell core faced on both sides with reflective aluminium foil[][][]. Engineered to combat heat gain and loss via radiation, convection, and conduction, it features an anti-tear surface that provides superior strength during retrofit and new build applications[][]. It is non-allergenic, non-irritant, and CodeMark certified for NCC compliance across residential and commercial buildings[][][].",
-    "features": [
-      ",\n      \"Unique reflective anti-tear surface[\",\n      ",
-      "7mm air bubble / thermo-cellular core[",
-      ",\n      ",
-      "Combats radiation",
-      "convection",
-      "and conduction heat transfer[",
-      ",\n      ",
-      "Fibre-free",
-      "non-allergenic",
-      "non-irritant[",
-      ",\n      ",
-      "Extra Heavy Duty rating (AS/NZS 4200.1)[",
-      ",\n      ",
-      "CodeMark-certified for NCC compliance[",
-      ",\n      ",
-      "Flammability Index ≤ 5 (Low) to AS 1530.2[",
-      ",\n      ",
-      "Group 1 fire classification to AS/NZS 3837[",
-      "Suitable for new build and refurbishment projects["
-    ],
-    "applications": [
-      "roof",
-      "roofline",
-      "ceiling",
-      "wall",
-      "external wall",
-      "shed"
-    ],
-    "technical": [
-      {
-        "property": "Material R-value",
-        "value": "R0.14 m²·K/W",
-        "standard": "ASTM C518"
-      },
-      {
-        "property": "Product Thickness",
-        "value": "7 mm",
-        "standard": ""
-      },
-      {
-        "property": "Roll Dimensions",
-        "value": "1350 mm x 22.25 m (30 m²)",
-        "standard": ""
-      },
-      {
-        "property": "Roll Weight",
-        "value": "11 kg",
-        "standard": ""
-      },
-      {
-        "property": "Roll Diameter",
-        "value": "440 mm",
-        "standard": ""
-      },
-      {
-        "property": "Reflectance",
-        "value": "97%",
-        "standard": ""
-      },
-      {
-        "property": "Emittance",
-        "value": "E0.03",
-        "standard": "ASTM E408"
-      },
-      {
-        "property": "Duty Rating",
-        "value": "Extra Heavy",
-        "standard": "AS/NZS 4200.1"
-      },
-      {
-        "property": "Flammability Index",
-        "value": "3 (Low, Index ≤ 5)",
-        "standard": "AS 1530.2"
-      },
-      {
-        "property": "Cone Calorimeter Classification",
-        "value": "Group 1",
-        "standard": "AS/NZS 3837"
-      },
-      {
-        "property": "Vapour Transmission",
-        "value": "Medium (Vapour Barrier)",
-        "standard": "ASTM E96"
-      },
-      {
-        "property": "Water Penetration",
-        "value": "High Resistance",
-        "standard": "AS/NZS 4201.4"
-      },
-      {
-        "property": "Maximum Span",
-        "value": "2.4 m without support mesh",
-        "standard": ""
-      }
-    ],
     "range": [
       {
-        "variant": "AIR-CELL Retroshield",
-        "size_or_rating": "1350 mm x 22.25 m x 7 mm (30 m²)",
-        "pack": "Roll (11 kg)"
+        "c0": "Variant",
+        "c1": "Thickness",
+        "c2": "Roll Width",
+        "c3": "Roll Length",
+        "c4": "Roll Area",
+        "c5": "Roll Weight",
+        "c6": "Roll Diameter",
+        "c7": "Material R-value"
+      },
+      {
+        "c0": "Standard Roll",
+        "c1": "7.0 mm",
+        "c2": "1350 mm",
+        "c3": "22.25 m",
+        "c4": "30.0 m²",
+        "c5": "11.0 kg",
+        "c6": "~440 mm",
+        "c7": "R0.14"
       }
     ],
-    "fire": "Flammability Index 3 (Low) to AS 1530.2; Group 1 to AS/NZS 3837; early fire hazard indices 0/0/0/0-1 to AS 1530.3[][",
-    "compliance": "AS/NZS 4859.1:2002 Amdt 1, AS/NZS 4200.1, CodeMark Certified CM20001 for BCA/NCC compliance[][][][",
-    "sustainability": "Fibre-free, zero ODP, non-allergenic, clean to install without itchy fibres[][",
-    "install": [
-      ",\n      ",
-      "Allow recommended sag between framing members (approx. 40mm) to create reflective air spaces[",
-      ",\n      ",
-      "Overlap joins by 150mm if untaped",
-      "or 50mm if taped",
-      "Tape all longitudinal and end joins with 72mm wide Kingspan reinforced aluminium foil tape[",
-      "Firmly squeegee or roll tape to ensure permanent pressure-sensitive adhesion[",
-      "Maintain minimum 50mm clearance around heat-producing flues and recessed light fittings[",
-      "If span between framing exceeds 2.4m, install safety mesh support prior to laying insulation[]["
-    ],
-    "selection_checklist": [
-      ",\n      \"Check framing span (ensure ≤ 2.4m or install safety mesh support)[\",\n      ",
-      "Verify total system R-value calculation includes proper reflective air spaces[",
-      ",\n      ",
-      "Ensure adequate rolls of 72mm reinforced foil tape are ordered for sealing[",
-      "Verify non-conductive safety practices around electrical services["
-    ],
-    "accessories": [
-      "Kingspan AIR-CELL reinforced foil tape (72mm) [1.2.1]",
-      "Application squeegee / roller[",
-      "Roof safety mesh (for spans > 2.4m)["
-    ],
-    "limitations": [
-      "Can be damaged by heat exceeding 105°C; avoid direct exposure to sparks, torches, or open flames [1.2.9]",
-      "Aluminium foil facings are electrically conductive; avoid contact with uninsulated electrical cables[",
-      "Not a walking surface; do not step directly on unsupported insulation[",
-      "Accumulation of dust on upward-facing reflective surfaces reduces thermal performance[]["
-    ],
-    "warranty": "15 years["
+    "accessories_upsell": "72mm silver reinforced foil tape."
   },
   "retrieval": {
     "search_keywords": [
-      "AIR-CELL Retroshield",
-      "Kingspan Retroshield",
-      "Retroshield insulation",
-      "bubble foil insulation",
-      "reflective roof insulation",
-      "warehouse roof insulation",
-      "shed foil insulation",
-      "thermo cellular insulation",
-      "air cell foil wrap",
-      "commercial roof retrofit foil"
+      "Aircell Retroshield",
+      "double sided foil bubble",
+      "retroshield insulation",
+      "shed retrofit foil",
+      "warehouse roof bubble foil"
     ],
     "problem_keywords": [
-      "hot warehouse roof in summer",
-      "shed heat radiating down",
-      "condensation dripping from metal roof",
-      "expensive cooling bills in metal buildings",
-      "drafty industrial roof",
-      "retrofitting uninsulated metal roof"
+      "Uninsulated steel sheds radiating summer heat, condensation dripping onto machinery or stored goods, unlined warehouse thermal loss."
     ],
     "placement": [
-      "roof",
-      "roofline",
+      "Roof",
       "ceiling",
-      "wall",
-      "external wall",
-      "shed"
-    ],
-    "priority_fit": [
-      "thermal",
-      "condensation",
-      "fire",
-      "easy_install"
-    ],
-    "use_cases": [
-      "retrofitting under commercial warehouse metal roofs to reflect summer radiant heat",
-      "insulating domestic garages and steel sheds against temperature extremes and dripping condensation",
-      "lining precast tilt-up concrete walls to enhance thermal comfort in commercial tenancies",
-      "installing above ceiling joists in residential homes as an effective radiant barrier"
+      "roofline",
+      "shed",
+      "wall"
     ],
     "not_for": [
-      "direct floor impact sound underlay",
-      "cavity wall installations requiring high vapour permeance (Class 3 or 4)",
-      "high-temperature flue or boiler wraps exceeding 105°C"
+      "causes severe eye glare on roofs during sunny days).",
+      "not_for): Not for outdoor installation without sun protection during installation (no anti-glare coating"
     ],
-    "rag_summary": "Kingspan AIR-CELL Retroshield is a 7mm thick, fibre-free thermo-reflective insulation blanket comprising an encapsulated air cell core sandwiched between two highly reflective aluminium foil facings. Designed for roofs, ceilings, walls, and sheds in both new build and retrofit scenarios, it delivers an R0.14 material R-value, an Extra Heavy Duty rating, and a Flammability Index of 3 to AS 1530.2. By blocking radiant heat, convective currents, and air leakage, it dramatically moderates internal temperatures and controls roof condensation in metal-clad and industrial buildings."
+    "use_cases": [
+      "Ideal for domestic garages, workshops, commercial sheds, and warehouse roofs where both faces can be exposed to air spaces (both sides have plain reflective foil without anti-glare)."
+    ]
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "knowledge_base_txt",
+  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
 }

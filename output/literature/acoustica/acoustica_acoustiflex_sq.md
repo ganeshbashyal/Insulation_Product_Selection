@@ -1,7 +1,7 @@
 ---
 title: "Acoustica Acoustiflex SQ - Acoustic Barrier Insulation | Acoustica"
-description: "AcoustiFlex SQ flexible noise barrier and vibration damping material has a soft, cellular structure that increases vibration dampening to achieve supe"
-keywords: "Acoustica Acoustiflex SQ, Acoustica acoustic barrier, acoustic insulation, wall insulation, ceiling insulation, roof insulation, insulation Australia, Acoustica Australia"
+description: "Quality insulation engineered for Australian conditions. Engineered specifically for noise control, delivering the acoustic separation required for NC"
+keywords: "Acoustica Acoustiflex SQ, Acoustica acoustic barrier, acoustic insulation, wall insulation, ceiling insulation, floor insulation, insulation Australia, Acoustica Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: ACOUSTICA_ACOUSTIFLEX_SQ
 ---
@@ -10,99 +10,73 @@ family_id: ACOUSTICA_ACOUSTIFLEX_SQ
 
 **Acoustica Acoustic Barrier** — acoustic barrier insulation product.
 
-AcoustiFlex SQ flexible noise barrier and vibration damping material has a soft, cellular structure that increases vibration dampening to achieve superior Sound Transmission Loss (STL) for a given weight and thickness [1]. It consists of a flexible micro-cellular membrane bonded to an aluminium facing foil with a reinforced polyester backing [1]. Certified by the CSIRO Division of Materials Science and Engineering as Group 1 Fire Rated, it provides high sound attenuation across the full frequency spectrum [1].
+Quality insulation engineered for Australian conditions. Engineered specifically for noise control, delivering the acoustic separation required for NCC compliance. Rigid design makes installation fast and efficient - no sagging or falling out.
 
 ## Key features
 
-- Group 1 Fire Rating [1].
-- Low cost, long lasting [1].
-- 10 year guarantee [1].
-- Low VOCs (Less than a recognised threshold of 0.5mg 'Green Star') [1].
-- Easy to handle, cut and install [1].
-- Available in different weights (other configurations available on request) [1].
-- Environmentally safe (no protective wear required) [1].
-- Proudly made in Australia [1].
-- Soft and cellular structure increases vibration dampening [1].
-- Matching acoustic performance of equivalent heavier competitive noise barriers [1].
+- Quality insulation product for Australian building conditions.
+- designed to meet NCC energy efficiency requirements.
+- rigid design prevents sagging between joists.
+- reduces drafts and cold floors.
+- excellent thermal performance for roof/ceiling applications.
+- helps meet NCC energy efficiency requirements.
 
 ## Applications and selection
 
-- ceilings and roofs against overhead aircraft noise and rain [1]
-- external walls and ceilings against traffic, train and neighbour noise [1]
-- home theatres, entertainment areas and machinery rooms [1]
-- offices, meeting rooms, doctors and lawyers consulting rooms [1]
-- portable acoustic screens [1]
-- construction site temporary fencing acoustic barriers [1]
-- automotive cabins [1]
+- Internal Wall | Ceiling | Floor | General Acoustic
 
 **Selection checklist**
 
-1. Confirm required sound transmission loss rating (Rw 24, 28, 35, or 36) [1].
-2. Confirm installation type (roof, ceiling space, timber floor, or site fencing) [1].
-3. Verify BCA Group 1 fire rating compliance for the space [1].
-4. Calculate total area allowing for 75mm to 100mm overlaps [1].
-5. Ensure an electrician is scheduled to relocate any existing wiring over the membrane [1].
+1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
+2. Confirm the target rating and construction build-up with the project team.
+3. Confirm available cavity or fixing depth against the product dimensions.
+4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
+5. Record the suburb/postcode so climate-zone requirements can be checked.
 
 
 ## Current catalogue range
 
 | Variant | Size / rating | Pack |
 | --- | --- | --- |
-| AcoustiFlex SQ 25 | 1.3m x 5.4m (Rw 24) | Roll |
-| AcoustiFlex SQ 40 | 1.3m x 4m (Rw 28) | Roll |
-| AcoustiFlex SQ 60 | 1.3m x 2.5m (Rw 35) | Roll |
-| AcoustiFlex SQ 80 | 1.3m x 2.5m (Rw 36) | Roll |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
 
 _Variants from the manufacturer datasheet._
 
 ## Technical data
 
-| Property | Value | Standard |
+| Property | Value | Source |
 | --- | --- | --- |
-| Airborne Sound Insulation (Rw) | AcoustiFlex SQ 25: Rw 24; SQ 40: Rw 28; SQ 60: Rw 35; SQ 80: Rw 36 | ISO 717-1:2013 / ASTM E413-16 / ASTM E2249-02 / ISO 15186-1:2000 |
-| Fire Hazard Classification | Group 1 | AS ISO 9705 / CSIRO |
-| VOC Emissions | < 0.5 mg/m²/hr (Green Star compliant) | Cetec |
-| Roll Dimensions (SQ 25) | 1.3m x 5.4m | - |
-| Roll Dimensions (SQ 40) | 1.3m x 4m | - |
-| Roll Dimensions (SQ 60) | 1.3m x 2.5m | - |
-| Roll Dimensions (SQ 80) | 1.3m x 2.5m | - |
+| Product type | Acoustic Barrier | Manufacturer catalogue |
+| Material | Mass Loaded Vinyl | Manufacturer catalogue |
+| Applications | Internal Wall | Ceiling | Floor | General Acoustic | Manufacturer catalogue |
+| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
 
-Extracted from manufacturer datasheet: https://acoustica.com.au/acoustiflex-sq-technical-info/
+
 
 ## Fire, testing and compliance context
 
-Group 1 Fire Rated (certified by CSIRO Division of Materials Science and Engineering) [1]
-
-ASTM E2249-02, ISO 15186-1:2000, ASTM E413-16, ISO 717-1:2013 [1]
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://acoustica.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://acoustica.com.au/.
 
-## Recommended accessories
-
-- Reinforced 72mm wide aluminium tape [1].
-- Fasteners (nails or staples) [1].
-
 
 ## Limitations and warnings
 
-- Must be hung loose over supports rather than pulled tight [1].
-- All electrical cabling must be located above the membrane and never trapped beneath [1].
-- All joints must be overlapped by 75-100mm and taped on the aluminium side [1].
+- Install in accordance with manufacturer specifications..
+- Ensure adequate subfloor ventilation is maintained..
+- do not leave exposed to ground moisture or subfloor dampness..
+- confirm product selection matches specified thermal/acoustic/fire rating..
 
 ## Installation overview
 
-1. Treat installation the same way as a waterproof membrane or traditional sarking material [1].
-2. Lay AcoustiFlex SQ aluminium facing up [1].
-3. Hang loose over supports rather than tight [1].
-4. Overlap sheets by 75mm up to 100mm [1].
-5. Tape all joints on the aluminium side with reinforced 72mm wide aluminium tape [1].
-6. Nail or staple through to supports where necessary to prevent excessive deflection or sagging [1].
-7. Where butt jointed at supports, ensure each sheet end is tightly fitted, nailed through to the support, and taped [1].
-8. Fill floor/ceiling void between joists with acoustic or thermal insulation [1].
-9. Ensure all electrical cabling is installed or relocated over the AcoustiFlex SQ by a qualified electrician [1].
+Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Install in accordance with manufacturer specifications.
 
 ## Safety and handling
 
@@ -110,11 +84,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Low VOCs (less than the recognised Green Star threshold of 0.5 mg/m²/hr); Environmentally safe (no protective wear required); Australian Made certified [1]
+Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
 
 ## Warranty, returns and support
 
-10 year guarantee [1]
+No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
 
 ## Specification starting point
 

@@ -1,189 +1,41 @@
 {
   "family_id": "AUTEX_BATT",
   "family_name": "Autex Batt",
-  "datasheet_pdf_url": "https://www.greenstuf.com.au/products/thermal-batts/",
-  "sds_url": "https://www.greenstuf.com.au/resources/technical-documents/",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
   "status": "ok",
   "researched_at": "2026-09-06",
-  "spec": {
-    "description": "Autex GreenStuf Thermal Batts are 100% polyester insulation segments engineered\nto provide thermal and acoustic performance in residential and commercial\nbuildings. Manufactured from thermally bonded polyester fibre without chemical\nbinders or added flame retardants, they are completely safe to touch and install\nwithout protective gear. Pre-cut to fit common timber and steel framed walls,\nceilings, and mid-floor cavities, they will not settle, crumble, or slump over\ntheir 50-year durability life.",
-    "features": [
-      "User-friendly with no protective\nclothing required",
-      "100% polyester fibre with zero chemical binders or resins",
-      "Non-toxic, non-irritant, and non-allergenic",
-      "50-year durability warranty",
-      "Fire safe, achieving Group 1 fire classification to AS ISO 9705",
-      "Improves\nwall sound transmission loss by 5-6 Rw points",
-      "Moisture resistant with less\nthan 0.03% absorption by weight",
-      "Naturally resistant to insect and vermin\nattack",
-      "Manufactured with recycled PET bottles and 100% recyclable",
-      "Tested\nto AS/NZS 4859.1 for thermal performance"
-    ],
-    "applications": [
-      "ceiling",
-      "wall",
-      "external wall",
-      "internal wall",
-      "between floors",
-      "underfloor"
-    ],
-    "technical": [
-      {
-        "property": "Thermal Resistance (R-value)",
-        "value": "R1.5,\nR2.0, R2.5, R2.7, R3.0, R3.5, R4.0",
-        "standard": "AS/NZS 4859.1"
-      },
-      {
-        "property": "Material Composition",
-        "value": "100% polyester fibre (thermally\nbonded)",
-        "standard": ""
-      },
-      {
-        "property": "Batt Widths",
-        "value": "430 mm (450\nmm framing centres) and 580 mm (600 mm framing centres)",
-        "standard": ""
-      },
-      {
-        "property": "Acoustic Improvement",
-        "value": "5 - 6 Rw points increase in\ntypical cavity wall",
-        "standard": ""
-      },
-      {
-        "property": "Fire Hazard Properties\n(AS 1530.3)",
-        "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0,\nSmoke Developed: 0-3",
-        "standard": "AS 1530.3"
-      },
-      {
-        "property": "Group Fire\nRating",
-        "value": "Group 1; SMOGRArc < 100 m²/s²",
-        "standard": "AS ISO 9705:2003\n/ AS 5637.1"
-      },
-      {
-        "property": "Moisture Absorption",
-        "value": "< 0.03% by weight\nafter 4 days at 50°C and 90% RH",
-        "standard": ""
-      },
-      {
-        "property": "Corrosion\nResistance",
-        "value": "Non-corrosive, pH 7.8",
-        "standard": "AS/NZS 4859.1"
-      },
-      {
-        "property": "Volatile Organic Compounds (VOC)",
-        "value": "0.01 mg/m³ (7 days)",
-        "standard": "Cetec"
-      }
-    ],
-    "range": [
-      {
-        "variant": "GreenStuf Thermal Batts R1.5",
-        "size_or_rating": "75mm thickness, 430mm / 580mm width",
-        "pack": "Pack of batts"
-      },
-      {
-        "variant": "GreenStuf Thermal Batts R2.0",
-        "size_or_rating": "90mm\nthickness, 430mm / 580mm width",
-        "pack": "Pack of batts"
-      },
-      {
-        "variant": "GreenStuf Thermal Batts R2.5",
-        "size_or_rating": "90-100mm thickness, 430mm\n/ 580mm width",
-        "pack": "Pack of batts"
-      },
-      {
-        "variant": "GreenStuf Thermal Batts\nR3.0",
-        "size_or_rating": "140mm thickness, 430mm / 580mm width",
-        "pack": "Pack\nof batts"
-      },
-      {
-        "variant": "GreenStuf Thermal Batts R3.5",
-        "size_or_rating": "175-185mm thickness, 430mm / 580mm width",
-        "pack": "Pack of batts"
-      },
-      {
-        "variant": "GreenStuf Thermal Batts R4.0",
-        "size_or_rating": "200mm\nthickness, 430mm / 580mm width",
-        "pack": "Pack of batts"
-      }
-    ],
-    "fire": "AS 1530.3: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke\nDeveloped 0-3; AS ISO 9705 Group 1 (SMOGRArc < 100 m²/s²)",
-    "compliance": "AS/NZS 4859.1, AS 3999; NCC Volume One (Section J JP1, Section F FP5.1) and\nVolume Two (Part 2.6 P2.6.1, Part 3.8.6 P2.4.6)",
-    "sustainability": "100%\nrecyclable; contains recycled PET; zero ODP; non-toxic; low VOC (0.01 mg/m³);\nGECA / Declare Red List Free compliant",
-    "install": [
-      "Install in accordance\nwith AS 3999 and manufacturer instructions",
-      "Friction-fit batts between timber\nor steel framing members without gaps",
-      "Ensure batts are not compressed against\nlinings to maintain full rated thickness",
-      "Tear batts across width by hand or\ncut with a sharp serrated knife if trimming is needed",
-      "Maintain minimum 50mm\nclearance around non-IC rated recessed downlights and flues",
-      "In external\nwalls, ensure batts do not protrude past the frame into cavity drainage space",
-      "In ceilings, lay batts flat between ceiling joists and cover top plates at\nperimeters"
-    ],
-    "selection_checklist": [
-      "Confirm framing centres (450mm centres\nrequire 430mm batts; 600mm centres require 580mm batts)",
-      "Confirm stud depth\nand cavity thickness (e.g. 70mm, 90mm, or 140mm)",
-      "Verify target R-value\nrequired by NCC climate zone or NatHERS energy report",
-      "Confirm acoustic\nrequirements between rooms or floors",
-      "Ensure downlight ratings (IC-4 / IC-F)\nallow continuous insulation coverage"
-    ],
-    "accessories": [
-      "Insulation strap /\nwire for overhead or underfloor batts",
-      "Serrated insulation knife"
-    ],
-    "limitations": [
-      "Do not compress batts significantly as this degrades thermal\nR-value",
-      "Do not cover non-IC rated light fittings or hot flues without proper\nclearances",
-      "Not designed as an exposed decorative lining; must be enclosed\nbehind internal wall/ceiling linings"
-    ],
-    "warranty": "50 Year Durability\nWarranty"
-  },
+  "spec": {},
   "retrieval": {
     "search_keywords": [
       "Autex batts",
-      "Autex GreenStuf",
       "GreenStuf batts",
-      "polyester wall batts",
-      "polyester ceiling batts",
-      "Autex\nthermal batts",
-      "non itchy batts",
-      "itch free insulation",
-      "polyester acoustic\nbatts",
-      "R2.5 GreenStuf"
+      "R2.5 GreenStuf",
+      "itch-free insulation",
+      "non-toxic ceiling batts",
+      "polyester batts"
     ],
     "problem_keywords": [
-      "itchy fiberglass insulation",
-      "cold rooms in winter",
-      "hot ceiling heat transfer",
-      "noise through interior\nwalls",
-      "asthma safe insulation",
-      "slumping wall batts"
+      "Customer or installer refuses to handle glasswool due to itching/skin irritation",
+      "asthma and severe allergy concerns",
+      "slumping insulation in walls."
     ],
     "placement": [
-      "ceiling",
-      "wall",
-      "internal wall",
-      "external wall",
+      "Ceiling",
       "between floors",
-      "underfloor"
-    ],
-    "priority_fit": [
-      "thermal",
-      "sustainability",
-      "easy_install",
-      "acoustic"
-    ],
-    "use_cases": [
-      "insulating timber-stud external walls during new\nhome builds for thermal efficiency without itch",
-      "acoustic infill in internal\npartition walls to eliminate airborne noise between bedrooms and living areas",
-      "retrofitting ceiling insulation in residential roof spaces to stop winter heat\nloss",
-      "mid-floor cavity insulation between storeys to reduce footfall resonance\nand temperature loss"
+      "external wall",
+      "internal wall",
+      "wall"
     ],
     "not_for": [
-      "exposed decorative wall or ceiling lining\nwithout plasterboard covering",
-      "direct masonry contact without moisture\nbarrier",
-      "operating temperatures continuously exceeding 120°C"
+      "not for high-temperature flue pipes (>120°C).",
+      "not_for): Not an exposed decorative finish (must be covered by plasterboard)"
     ],
-    "rag_summary": "Autex GreenStuf Batts (Autex Batt) are non-toxic, itch-free\nthermal and acoustic insulation segments manufactured in Australia and New\nZealand from 100% thermally bonded polyester fibre with recycled PET content.\nPre-cut to 430mm and 580mm widths for standard stud and joist spacings, they\ndeliver thermal ratings from R1.5 to R4.0 and boost wall acoustic isolation by 5\nto 6 Rw points. Free from chemical binders, asbestos, and respirable fibres,\nthey are safe to handle without protective gear, resistant to moisture and\nvermin, and backed by an industry-leading 50-year durability warranty."
+    "use_cases": [
+      "580mm width for 600mm stud centres.",
+      "When customer asks for \"asthma friendly\", \"zero VOC\", or \"no-itch\" bulk insulation, default directly to GreenStuf Thermal Batts. 430mm width for 450mm stud centres"
+    ]
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "knowledge_base_txt"
 }

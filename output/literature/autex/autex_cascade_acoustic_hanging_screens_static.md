@@ -1,7 +1,7 @@
 ---
 title: "Autex Cascade Acoustic Hanging Screens - Static - Panel Insulation | Autex"
-description: "Autex Cascade Acoustic Hanging Screens - Static are elegant suspended acoustic screens crafted from 12mm Cube panels with precision water-cut geometri"
-keywords: "Autex Cascade Acoustic Hanging Screens - Static, Autex panel, acoustic insulation, wall insulation, ceiling insulation, insulation Australia, Autex Australia"
+description: "Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled pla"
+keywords: "Autex Cascade Acoustic Hanging Screens - Static, Autex panel, acoustic insulation, wall insulation, insulation Australia, Autex Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AUTEX_CASCADE_ACOUSTIC_HANGING_SCREENS_STATIC
 ---
@@ -10,92 +10,73 @@ family_id: AUTEX_CASCADE_ACOUSTIC_HANGING_SCREENS_STATIC
 
 **Autex Panel** — acoustic panels for sound absorption and interior finish.
 
-Autex Cascade Acoustic Hanging Screens - Static are elegant suspended acoustic screens crafted from 12mm Cube panels with precision water-cut geometric patterns. Designed to hang effortlessly from the ceiling to the floor, they establish visual privacy and spatial zones without blocking sightlines or light. Engineered to absorb reverberated sound and reduce ambient chatter, they provide an acoustic and aesthetic feature for open-plan commercial and educational interiors.
+Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled plastic bottles, it's the sustainable choice for modern buildings.
 
 ## Key features
 
-- Precision water-cut open pattern designs for line-of-sight and light flow.
-- Crafted from 12mm solid colour Cube polyester panel.
-- Suspended from ceilings via Frontier aluminium channel and adjustable cables.
-- Reduces reverberation and background chatter in open spaces.
-- Available in standard 1200mm x 2400mm screen size.
-- Choice of more than 20 solid colours and custom water-cut patterns.
-- Group 1 fire rating to AS ISO 9705 - 2003.
-- Manufactured with minimum 80% recycled post-consumer PET fibre.
-- Carbon neutral certified product with third-party verified EPD.
-- Pre-packaged with complete suspension hardware.
+- 100% polyester - safe to handle without protective equipment.
+- contains minimum 80% recycled PET plastic bottles.
+- non-allergenic, non-irritant formulation.
+- will not support mould or mildew growth.
+- maintains performance when wet - dries out naturally.
+- Made from recycled PET bottles.
+- Safe to handle without protective equipment.
 
 ## Applications and selection
 
-- internal
-wall
-- ceiling
+- Internal Wall | General Acoustic
 
 **Selection checklist**
 
-1. Select static pattern design from lookbook or request custom water-cut profile.
-2. Choose screen colour from Autex Cube palette.
-3. Confirm ceiling height and check if 1m suspension wires are sufficient.
-4. Decide between free-hanging (top only) or floor-anchored (top & bottom) installation.
-5. Verify ceiling anchor substrate suitability.
+1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
+2. Confirm the target rating and construction build-up with the project team.
+3. Confirm available cavity or fixing depth against the product dimensions.
+4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
+5. Record the suburb/postcode so climate-zone requirements can be checked.
 
 
 ## Current catalogue range
 
 | Variant | Size / rating | Pack |
 | --- | --- | --- |
-| Cascade Static Screen (Pattern S1-S14 or Custom) | 1200 mm x 2400 mm x 12 mm | Kit (Screen + Suspension hardware) |
+|  |  |  |
+|  |  |  |
+|  |  |  |
 
 _Variants from the manufacturer datasheet._
 
 ## Technical data
 
-| Property | Value | Standard |
+| Property | Value | Source |
 | --- | --- | --- |
-| Acoustic Performance (NRC of base panel) | 0.45 - 0.80 (Cube 12mm base material) | ISO 354 |
-| Screen Dimensions | 1200 mm x 2400 mm | - |
-| Thickness | 12 mm | - |
-| Material Composition | 100% polyester fibre (PET) with aluminium channel | - |
-| Recycled Content | Minimum 80% post-consumer recycled PET | - |
-| Fire Hazard Classification | Group 1 (AS ISO 9705 - 2003 / AS 5637.1); Group 1-S (ISO 9705:1993) | AS ISO 9705 / AS 5637.1 |
-| Suspension System | Frontier extruded aluminium channel with 1m suspension cables | - |
-| Microbial Resistance | Growth Rating: 0 (No growth) | ASTM G21-15 |
+| Product type | Panel | Manufacturer catalogue |
+| Material | Polyester | Manufacturer catalogue |
+| Applications | Internal Wall | General Acoustic | Manufacturer catalogue |
+| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
 
-Extracted from manufacturer datasheet: https://www.autexglobal.com/au/products/cascade/
+
 
 ## Fire, testing and compliance context
 
-AS ISO 9705 - 2003: Group 1; ISO 9705: Group 1-S; BS EN 13501-1:2018: B - s2, d0
-
-NCC BCA Group 1 fire compliance; AS ISO 9705:2003; ISO 9001 and ISO 14001 accredited manufacturing
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.autexacoustics.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://insulvac.com.au/wp-content/uploads/2020/04/autex-material-safety-data-sheet-msds.pdf.
 
-## Recommended accessories
-
-- Cascade suspension kit (Frontier channel, ceiling connectors, 1m wires, sliders).
-- Channel end caps.
-- Base suspension kit (for floor anchoring).
-
 
 ## Limitations and warnings
 
-- Not a physical impact barrier or security partition.
-- Free-hanging screens may sway if placed in strong air currents or doorway drafts.
-- Avoid sharp bending of panel during installation.
+- Not suitable for applications requiring fire rating without additional protection..
+- not to be exposed to weather or sustained moisture..
+- do not compress beyond manufacturer recommendations..
+- check fire-rated system requirements if fire rating is required..
+- confirm product selection matches specified thermal/acoustic/fire rating..
 
 ## Installation overview
 
-1. Establish ceiling suspension points aligned with channel attachment sliders.
-2. Fasten ceiling connectors securely to structural ceiling or soffit.
-3. Attach Frontier channel along the top edge of the 12mm static screen.
-4. Connect suspension wires to ceiling connectors and adjust screen height.
-5. Ensure screen hangs plumb and level.
-6. If installing base channel, anchor base cable connectors to floor and attach to lower channel.
-7. Push black end caps into channel ends for a clean finished look.
+Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for applications requiring fire rating without additional protection.
 
 ## Safety and handling
 
@@ -103,11 +84,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Minimum 80% recycled PET; certified Carbon Neutral; Declare Red List Free; 100% recyclable
+Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
 
 ## Warranty, returns and support
 
-Manufacturer's guarantee by Autex Acoustics
+No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
 
 ## Specification starting point
 

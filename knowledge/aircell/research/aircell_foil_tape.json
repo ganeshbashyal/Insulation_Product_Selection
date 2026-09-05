@@ -1,164 +1,84 @@
 {
   "family_id": "AIRCELL_FOIL_TAPE",
   "family_name": "Aircell Foil Tape",
-  "datasheet_pdf_url": "https://www.insulation.kingspan.com/au/en/products/reflective-insulation/air-cell-insulation-tape",
-  "sds_url": "https://www.insulation.kingspan.com/au/en/products/reflective-insulation/",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
   "status": "ok",
   "researched_at": "2026-09-06",
   "spec": {
-    "description": "Kingspan AIR-CELL Insulation Tape is a reinforced aluminium foil tape engineered to provide a durable vapour seal join in aluminium-faced insulation products. Designed for use across the insulation and air conditioning industries, it features high-grab pressure-sensitive adhesion. The reinforced backing delivers an exceptional combination of tensile strength, flexibility and conformability.",
-    "features": [
-      "Reinforced for high tensile strength",
-      "Strong pressure-sensitive adhesion",
-      "Effective vapour sealing of aluminium foil faced insulations",
-      "Available in silver and white finish",
-      "Fire retardant with early fire hazard properties",
-      "Flexible and conformable to corners and irregular surfaces",
-      "Low VOC emitting (Green Star compliant)",
-      "Hand tearable for ease of application"
-    ],
-    "applications": [
-      "vapour seal joins for AIR-CELL reflective insulation in roofs, walls and floors",
-      "HVAC ductwork sealing",
-      "aluminium faced pliable building membrane joints"
-    ],
-    "technical": [
-      {
-        "property": "Roll Width",
-        "value": "48 mm / 72 mm / 96 mm",
-        "standard": ""
-      },
-      {
-        "property": "Roll Length",
-        "value": "50 m",
-        "standard": ""
-      },
-      {
-        "property": "Backing Material",
-        "value": "Reinforced aluminium foil",
-        "standard": ""
-      },
-      {
-        "property": "Adhesive Type",
-        "value": "Pressure-sensitive synthetic adhesive",
-        "standard": ""
-      },
-      {
-        "property": "VOC Emission",
-        "value": "< 0.5 mg/m²/hr (Green Star compliant)",
-        "standard": "Cetec Certified"
-      },
-      {
-        "property": "Flammability",
-        "value": "Fire retardant",
-        "standard": "AS 1530.2"
-      },
-      {
-        "property": "Vapour Barrier Performance",
-        "value": "Vapour seal join",
-        "standard": "ASTM E96 / AS/NZS 4200.1"
-      }
-    ],
     "range": [
       {
-        "variant": "AIR-CELL Insulation Tape (Silver) 48mm",
-        "size_or_rating": "48mm x 50m",
-        "pack": "Roll (Carton of 24)"
+        "c0": "Product Code",
+        "c1": "Roll Width",
+        "c2": "Roll Length",
+        "c3": "Finish / Colour",
+        "c4": "Backing Material",
+        "c5": "Rolls per Carton",
+        "c6": "Total Carton Coverage"
       },
       {
-        "variant": "AIR-CELL Insulation Tape (Silver) 72mm",
-        "size_or_rating": "72mm x 50m",
-        "pack": "Roll (Carton of 16)"
+        "c0": "AIR-CELL Tape 48mm",
+        "c1": "48 mm",
+        "c2": "50 m",
+        "c3": "Silver Foil",
+        "c4": "Reinforced Al scrim",
+        "c5": "24 rolls",
+        "c6": "1,200 lineal metres"
       },
       {
-        "variant": "AIR-CELL Insulation Tape (Silver) 96mm",
-        "size_or_rating": "96mm x 50m",
-        "pack": "Roll (Carton of 12)"
+        "c0": "AIR-CELL Tape 72mm",
+        "c1": "72 mm",
+        "c2": "50 m",
+        "c3": "Silver Foil",
+        "c4": "Reinforced Al scrim",
+        "c5": "16 rolls",
+        "c6": "800 lineal metres"
       },
       {
-        "variant": "AIR-CELL Insulation Tape (White) 72mm",
-        "size_or_rating": "72mm x 50m",
-        "pack": "Roll (Carton of 16)"
+        "c0": "AIR-CELL Tape 96mm",
+        "c1": "96 mm",
+        "c2": "50 m",
+        "c3": "Silver Foil",
+        "c4": "Reinforced Al scrim",
+        "c5": "12 rolls",
+        "c6": "600 lineal metres"
+      },
+      {
+        "c0": "AIR-CELL White Tape",
+        "c1": "72 mm",
+        "c2": "50 m",
+        "c3": "White",
+        "c4": "Reinforced white facing",
+        "c5": "16 rolls",
+        "c6": "800 lineal metres"
       }
-    ],
-    "fire": "Fire retardant; early fire hazard properties compliant with AS 1530.2",
-    "compliance": "AS/NZS 4200.1, AS/NZS 4859.1:2018; Cetec Green Star compliant",
-    "sustainability": "Low VOC emitting (< 0.5 mg/m²/hr); Cetec Certified Green Star compliant",
-    "install": [
-      "Ensure surfaces to be taped are clean, dry and completely free of dust, oil and contaminants",
-      "Align sheets with minimum 50mm overlap or tightly butted as specified for the application",
-      "Centre the tape squarely over the joint",
-      "Press down firmly along the entire length of the tape",
-      "Wipe down with a plastic squeegee or roller to activate pressure-sensitive adhesive and remove air pockets",
-      "Do not stretch tape during application to avoid tension wrinkles"
-    ],
-    "selection_checklist": [
-      "Confirm width needed (48mm for wall cavity joins, 72mm for roof/general applications, 96mm for heavy commercial)",
-      "Select color finish (silver for standard foil, white for AIR-CELL Insulwhite)",
-      "Calculate total lineal meters required including overlaps and penetrations",
-      "Verify application surface is completely clean and dry"
-    ],
-    "accessories": [
-      "Application squeegee / roller",
-      "Kingspan AIR-CELL insulation rolls"
-    ],
-    "limitations": [
-      "Pressure-sensitive adhesive requires firm rubbing / rolling down for complete bonding",
-      "Substrate must be completely dry and clean prior to application",
-      "Non-structural; not suitable for carrying tensile loads",
-      "Avoid contact with wet cement, lime or strong alkaline materials"
-    ],
-    "warranty": "Covered under Kingspan AIR-CELL product warranty system"
+    ]
   },
   "retrieval": {
     "search_keywords": [
-      "Aircell Foil Tape",
-      "Kingspan AIR-CELL insulation tape",
+      "Aircell joining tape",
+      "Aircell tape",
+      "Kingspan 72mm tape",
       "reinforced foil tape",
-      "Aircell tape 72mm",
-      "Aircell tape 48mm",
-      "vapour seal tape",
-      "reflective insulation joining tape",
-      "aluminium foil tape",
-      "duct tape foil"
+      "white insulation tape"
     ],
     "problem_keywords": [
-      "gaps between foil insulation sheets",
-      "air leakage at insulation joins",
-      "vapour barrier seal failure",
-      "drafts through wall insulation",
-      "taping reflective sarking",
-      "ductwork air leakage"
+      "Vapour barrier failure at sheet laps, unsealed reflective foil joins, draft leaks through insulation seams."
     ],
     "placement": [
-      "roof",
-      "roofline",
-      "wall",
-      "external wall",
-      "internal wall",
+      "Roof",
       "ceiling",
+      "ductwork",
       "floor",
-      "duct",
-      "shed"
-    ],
-    "priority_fit": [
-      "easy_install",
-      "condensation",
-      "fire"
+      "wall"
     ],
     "use_cases": [
-      "sealing overlaps and butt joins of Kingspan AIR-CELL insulation in metal and tiled roof systems",
-      "creating continuous vapour barrier seals across wall insulation joints in brick veneer and framed walls",
-      "sealing joints on HVAC duct wrap to prevent thermal leakage and condensation",
-      "patching accidental tears or penetrations in foil building membranes"
-    ],
-    "not_for": [
-      "structural heavy load holding",
-      "direct immersion in water or subterranean waterproofing",
-      "unsupported expansion joints with high thermal movement"
-    ],
-    "rag_summary": "Kingspan AIR-CELL Foil Tape (Insulation Tape) is a high-tensile, reinforced aluminium foil tape coated with an aggressive pressure-sensitive synthetic adhesive designed to create continuous vapour-tight seals along insulation joints. Available in 48mm, 72mm, and 96mm widths in silver or white, it conforms securely to overlaps and irregular edges on AIR-CELL reflective insulation, HVAC ductwork, and pliable building membranes. Fire-retardant and Green Star compliant with low VOC emissions, it prevents air and moisture leakage to ensure maximum installed thermal efficiency and condensation management."
+      "48mm width for wall cavity frames",
+      "72mm width for all roof sarking laps and general ductwork",
+      "White 72mm tape exclusively when joining AIR-CELL Insulwhite."
+    ]
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "knowledge_base_txt",
+  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
 }

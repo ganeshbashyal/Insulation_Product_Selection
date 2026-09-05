@@ -1,167 +1,53 @@
 {
   "family_id": "AUTEX_COMPOSITION_SMOOTH_ROLL",
   "family_name": "Autex Composition - Smooth Roll",
-  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/composition/",
-  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
   "status": "ok",
   "researched_at": "2026-09-06",
   "spec": {
-    "description": "Autex Composition Smooth Roll is a high-performance acoustic wallcovering\nsupplied in continuous 1.22m x 25m rolls with a sleek, flat-pile smooth finish.\nEngineered to replace paint and wallpaper while dramatically reducing\nreverberation and chatter, it provides floor-to-ceiling seamless wall coverage\nwithout horizontal joins. Combining an acoustic polyester backing with a smooth\nVertiface surface, it is pinnable, hook-and-loop receptive, and Group 1 fire\nrated for classrooms, offices, and commercial interiors.",
-    "features": [
-      "Continuous roll form (1.22m x 25m) for seamless floor-to-ceiling application",
-      "Sleek, smooth flat-pile Vertiface finish",
-      "Eliminates horizontal seams on\nstandard height walls",
-      "Acoustic absorption reducing reverberation (NRC 0.40)",
-      "Pinnable, self-healing, and hook-and-loop receptive surface",
-      "Made from 100%\npolyester fibre containing min 49% recycled PET",
-      "Group 1 fire rating to AS\nISO 9705 - 2003",
-      "Certified Carbon Neutral product with third-party verified\nEPD",
-      "Durable and low-maintenance alternative to painting",
-      "Non-toxic,\nnon-allergenic, and low VOC"
-    ],
-    "applications": [
-      "wall",
-      "internal wall"
-    ],
-    "technical": [
-      {
-        "property": "Noise Reduction Coefficient (NRC)",
-        "value": "0.40",
-        "standard": "ISO 354"
-      },
-      {
-        "property": "Roll Dimensions",
-        "value": "1.22\nm x 25 m (+5mm x +10mm)",
-        "standard": ""
-      },
-      {
-        "property": "Thickness",
-        "value": "10 - 12 mm (nominal)",
-        "standard": ""
-      },
-      {
-        "property": "Weight",
-        "value": "Typically 1600 - 1680 gsm",
-        "standard": ""
-      },
-      {
-        "property": "Finish",
-        "value": "Smooth flat-pile finish",
-        "standard": ""
-      },
-      {
-        "property": "Material\nComposition",
-        "value": "100% polyester fibre (PET)",
-        "standard": ""
-      },
-      {
-        "property": "Recycled Content",
-        "value": "Minimum 49% post-consumer recycled\nPET",
-        "standard": ""
-      },
-      {
-        "property": "Fire Hazard Classification",
-        "value": "Group 1 (AS ISO 9705 - 2003 / AS 5637.1); Group 1-S (ISO 9705:1993)",
-        "standard": "AS ISO 9705 / AS 5637.1"
-      },
-      {
-        "property": "Thermal Resistance",
-        "value": "R0.22 (@ 15°C)",
-        "standard": ""
-      },
-      {
-        "property": "Microbial\nResistance",
-        "value": "Growth Rating: 0 (No growth)",
-        "standard": "ASTM G21-15"
-      },
-      {
-        "property": "Volatile Organic Compounds (VOC)",
-        "value": "< 0.0035 mg/m³ (7\ndays)",
-        "standard": "CDPH Standard"
-      }
-    ],
     "range": [
       {
-        "variant": "Composition\nSmooth Roll (1.22m x 25m)",
-        "size_or_rating": "1.22 m x 25 m x 10-12 mm (30.5\nm²)",
-        "pack": "Roll"
+        "c0": "Roll Width",
+        "c1": "Roll Length",
+        "c2": "Total Coverage",
+        "c3": "Nominal Thickness",
+        "c4": "Total Roll Weight",
+        "c5": "Roll Diameter",
+        "c6": "Acoustic NRC"
+      },
+      {
+        "c0": "1.22 m (+5mm)",
+        "c1": "25.0 m (+10mm)",
+        "c2": "30.5 m²",
+        "c3": "10 mm – 12 mm",
+        "c4": "~51.0 kg (~1680 gsm)",
+        "c5": "~650 mm",
+        "c6": "NRC 0.40"
       }
     ],
-    "fire": "AS ISO 9705 - 2003: Group 1; ISO 9705:\nGroup 1-S; BS EN 13501-1:2018: B - s1, d0",
-    "compliance": "NCC BCA Group 1 fire\ncompliance; AS ISO 9705:2003; ISO 354; ISO 9001 and ISO 14001 accredited",
-    "sustainability": "Carbon neutral product; contains minimum 49% recycled PET;\nDeclare Red List Free; Low VOC; 100% recyclable",
-    "install": [
-      "Inspect roll\nmaterial before cutting and ensure all rolls are from the same batch",
-      "Substrate must be flat, smooth, clean, dry, and sealed with wallboard sealer",
-      "Cut vertical drops slightly oversized to allow trimming at ceiling and\nskirting",
-      "Hang in sequential order from the roll and maintain consistent\npile/grain direction",
-      "Apply recommended water-based acoustic wallcovering\nadhesive using a notched trowel",
-      "Hang vertical drop onto wet adhesive and\nsmooth down from center outward",
-      "Butt join adjacent drops tightly without\noverlapping",
-      "Roll thoroughly with a heavy smoothing roller to eliminate air\nbubbles and ensure 100% bond",
-      "Trim top and bottom edges neatly using a\nstraight edge and fresh blade"
-    ],
-    "selection_checklist": [
-      "Confirm total wall\nlength and height to calculate required roll meterage (each roll\ncovers 30.5m²)",
-      "Verify smooth flat-pile finish specification",
-      "Choose colour\nfrom Autex Vertiface palette",
-      "Ensure batch numbers match across all ordered\nrolls",
-      "Verify substrate is sealed to prevent excessive adhesive suction"
-    ],
-    "accessories": [
-      "Autex recommended water-based wallcovering adhesive",
-      "Autex\nEdging Solutions Type A aluminium capping and joiner profiles",
-      "Heavy\nwallcovering roller and trimming knives"
-    ],
-    "limitations": [
-      "Must be installed\nin vertical drops with pile running in the same direction",
-      "Substrate\nimperfections can telegraph through; substrate must be smooth",
-      "Indoor use\nonly; avoid high moisture or exterior environments"
-    ],
-    "warranty": "Manufacturer's guarantee by Autex Acoustics"
+    "accessories_upsell": "Autex recommended water-based wallcovering adhesive and Autex Type A aluminium capping and joiner profiles."
   },
   "retrieval": {
     "search_keywords": [
-      "Autex Composition roll",
+      "Composition roll",
       "Composition smooth roll",
-      "acoustic wall fabric\nroll",
-      "Symphony wallcovering roll",
-      "polyester acoustic wall roll",
-      "pinnable\nwallcovering roll",
-      "classroom wall carpet",
-      "seamless acoustic wall roll",
-      "1.22m acoustic roll"
+      "Symphony roll 25m",
+      "acoustic wall carpet roll",
+      "classroom wallcovering roll"
     ],
     "problem_keywords": [
-      "horizontal joins in acoustic\nwall linings",
-      "echo in primary school classrooms",
-      "walls damaged by drawing\npins and tape",
-      "repetitive wall repainting in schools",
-      "harsh acoustic flutter\necho",
-      "need floor to ceiling acoustic fabric"
+      "Need seamless floor-to-ceiling acoustic wallcovering over large wall runs in schools without horizontal joins."
     ],
     "placement": [
-      "wall",
+      "Wall",
       "internal wall"
     ],
-    "priority_fit": [
-      "acoustic",
-      "easy_install",
-      "sustainability"
-    ],
     "use_cases": [
-      "hanging continuous vertical drops\nfloor-to-ceiling across primary school classrooms for full acoustic wall\ncoverage",
-      "lining commercial corridors and open-plan training rooms to\neliminate slap echo and provide noticeboards",
-      "retrofitting community halls and\ndaycare centres to control high noise levels",
-      "seamless acoustic wallcovering\nin corporate training rooms and lecture theatres"
-    ],
-    "not_for": [
-      "outdoor\nweatherproofing",
-      "underfloor installation",
-      "direct exposure to persistent\ndampness or mould"
-    ],
-    "rag_summary": "Autex Composition Smooth Roll is a\ncontinuous 1.22m x 25m roll of 10-12mm acoustic wallcovering engineered for\nseamless floor-to-ceiling application. Composed of needle-punched thermally\nbonded polyester with a smooth flat-pile Vertiface finish, it achieves an NRC\nof 0.40 while creating a fully pinnable and hook-and-loop receptive wall\nsurface. Group 1 fire-rated and carbon-neutral certified, it replaces paint and\nwallpaper in education and commercial spaces, absorbing distracting chatter and\necho across large wall expanses."
+      "Default choice for primary schools, high schools, and university tutorial rooms. One 25m roll provides ~8 to 9 full vertical drops for standard 2.7m ceiling heights."
+    ]
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "knowledge_base_txt",
+  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
 }

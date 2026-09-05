@@ -3,59 +3,61 @@
   "family_name": "Acoustica Dust foam filter",
   "datasheet_pdf_url": "",
   "sds_url": "",
-  "status": "gemini_not_found",
+  "status": "ok",
   "researched_at": "2026-09-06",
   "spec": {
-    "description": "",
-    "features": [],
-    "applications": [],
-    "technical": [],
-    "range": [],
-    "fire": "",
-    "compliance": "",
-    "sustainability": "",
-    "install": [],
-    "selection_checklist": [],
-    "accessories": [],
-    "limitations": [],
-    "warranty": ""
+    "range": [
+      {
+        "c0": "Pore Size / PPI",
+        "c1": "Sheet Dimensions",
+        "c2": "Nominal Thicknesses",
+        "c3": "Core Polymer",
+        "c4": "Typical Application"
+      },
+      {
+        "c0": "10 – 20 PPI (Coarse)",
+        "c1": "1000 mm × 2000 mm",
+        "c2": "10 mm, 15 mm, 25 mm, 50 mm",
+        "c3": "Reticulated polyurethane",
+        "c4": "HVAC intake, equipment louvres"
+      },
+      {
+        "c0": "30 – 45 PPI (Medium)",
+        "c1": "1000 mm × 2000 mm",
+        "c2": "10 mm, 15 mm, 25 mm",
+        "c3": "Reticulated polyurethane",
+        "c4": "Server cabinets, acoustic baffles"
+      },
+      {
+        "c0": "60 PPI (Fine)",
+        "c1": "1000 mm × 2000 mm",
+        "c2": "6 mm, 10 mm, 12 mm",
+        "c3": "Reticulated polyurethane",
+        "c4": "Fine dust capture, speaker grilles"
+      }
+    ]
   },
   "retrieval": {
     "search_keywords": [
-      "Acoustica dust foam filter",
-      "reticulated foam filter",
-      "acoustic filter foam",
-      "dust filter foam",
-      "air intake foam filter",
-      "Acoustica foam",
-      "ventilation filter foam"
+      "Acoustica foam filter",
+      "fan intake dust foam",
+      "open-cell acoustic filter",
+      "reticulated filter foam"
     ],
     "problem_keywords": [
-      "dust ingress in ventilation",
-      "acoustic duct dust filter",
-      "fan noise and dust",
-      "equipment cabinet air filtration",
-      "air vent dust infiltration"
+      "Dust ingress into acoustic transfer ducts, fan noise paired with particulate intake, equipment enclosure overheating from clogged felt."
     ],
     "placement": [
-      "duct",
-      "wall"
-    ],
-    "priority_fit": [
-      "easy_install",
-      "acoustic"
-    ],
-    "use_cases": [
-      "filtering dust while maintaining acoustic attenuation in HVAC transfer ducts",
-      "inserting into electronic equipment enclosures and speaker grilles for dust and noise management"
+      "Duct",
+      "electronic racks",
+      "wall air transfer grilles"
     ],
     "not_for": [
-      "thermal wall insulation",
-      "impact floor underlay",
-      "high temperature flue insulation"
-    ],
-    "rag_summary": "Acoustica Dust Foam Filter is an open-cell reticulated polyurethane foam designed to capture airborne particulates and dust while permitting controlled airflow in acoustic and ventilation systems. Commonly fitted within acoustic transfer ducts, ventilation grilles, and electronic equipment housings, it provides mild sound damping alongside particulate filtration. It is lightweight, easily cut to fit irregular apertures, and washable or replaceable for ongoing maintenance."
+      "not a high-temperature flue filter (max continuous temp 80°C).",
+      "not_for): Not a building thermal insulation product"
+    ]
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "knowledge_base_txt",
+  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
 }

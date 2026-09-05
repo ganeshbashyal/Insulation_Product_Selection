@@ -1,189 +1,87 @@
 {
   "family_id": "AUTEX_SOLID_COLOUR_CUBE",
   "family_name": "Autex Solid Colour Cube",
-  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/cube/",
-  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
   "status": "ok",
   "researched_at": "2026-09-06",
   "spec": {
-    "description": "Autex Solid Colour Cube is a lightweight, semi-rigid acoustic panel made\nfrom 100% compressed polyester felt with solid colour throughout. Designed\nwithout the need for edge banding or capping, Cube delivers exceptional design\nflexibility and can be cut, bevelled, grooved, or pressed into high-performance\nacoustic features. Available in 12mm and 24mm thicknesses, it achieves sound\nabsorption ratings from NRC 0.45 to 0.80 and complies with NCC Group 1 fire\nregulations.",
-    "features": [
-      "Solid colour throughout the core with no edging or\ncapping required",
-      "Lightweight, semi-rigid compressed polyester felt\nconstruction",
-      "Available in 12mm (NRC 0.45 - 0.70) and 24mm (NRC 0.70 - 0.80)\nthicknesses",
-      "Manufactured from 100% polyester fibre containing a minimum\nof 80% recycled PET",
-      "Group 1 fire rating compliant with AS ISO 9705 - 2003 and\nAS 5637.1",
-      "Easily cut, grooved, bevelled, and customised for bespoke wall and\nceiling patterns",
-      "Moisture and mould resistant with an ASTM G21-15 Growth\nRating of 0",
-      "Non-toxic, non-allergenic, non-irritant, with zero chemical\nbinders or formaldehyde",
-      "Certified Carbon Neutral product with third-party\nverified EPD",
-      "Extensive colour palette of 23+ contemporary solid colours"
-    ],
-    "applications": [
-      "wall",
-      "internal wall",
-      "ceiling"
-    ],
-    "technical": [
-      {
-        "property": "Noise Reduction Coefficient (NRC)",
-        "value": "12mm: 0.45 (direct\nfix), 0.70 (with 24mm air gap); 24mm: 0.70 (direct fix), 0.80 (with 24mm air\ngap)",
-        "standard": "ISO 354"
-      },
-      {
-        "property": "Sound Absorption Class",
-        "value": "12mm: Class D (direct fix), Class C (with air gap); 24mm: Class D (direct fix),\nClass C (with air gap)",
-        "standard": "ISO 11654"
-      },
-      {
-        "property": "Panel\nDimensions",
-        "value": "1220 mm x 2440 mm; 1220 mm x 2740 mm; custom lengths up\nto 3600 mm",
-        "standard": ""
-      },
-      {
-        "property": "Thickness",
-        "value": "12 mm\n(+/- 6%); 24 mm (+/- 6%)",
-        "standard": ""
-      },
-      {
-        "property": "Material\nComposition",
-        "value": "100% polyester fibre (PET)",
-        "standard": ""
-      },
-      {
-        "property": "Recycled Content",
-        "value": "Minimum 80% post-consumer recycled\nPET",
-        "standard": ""
-      },
-      {
-        "property": "Thermal Performance",
-        "value": "12mm:\nR0.30 (@ 23°C); 24mm: R0.60 (@ 23°C)",
-        "standard": ""
-      },
-      {
-        "property": "Fire\nRating (Australia)",
-        "value": "Group 1, SMOGRArc < 100 m2/s2",
-        "standard": "AS\nISO 9705 - 2003 / AS 5637.1:2015"
-      },
-      {
-        "property": "International Fire Rating",
-        "value": "Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a: FS:0 - SD:45); 12mm\nBS EN 13501-1:2018 B - s1, d0; 24mm B - s2, d0",
-        "standard": "ISO 9705 / ASTM\nE-84 / BS EN 13501-1"
-      },
-      {
-        "property": "Water Vapour Sorption",
-        "value": "0.4%\nby weight after 4 days at 49°C, 95% RH",
-        "standard": "ASTM C1104 / C1104M-13a"
-      },
-      {
-        "property": "Microbial Resistance",
-        "value": "Growth rating: 0 (No\ngrowth)",
-        "standard": "ASTM G21-15"
-      },
-      {
-        "property": "VOC Emissions",
-        "value": "< 0.092 mg/m3 (7 days)",
-        "standard": "CDPH Standard Method v1.2"
-      }
-    ],
     "range": [
       {
-        "variant": "Solid Colour Cube 12mm (2440x1220)",
-        "size_or_rating": "1220 mm\nx 2440 mm x 12 mm, NRC 0.45",
-        "pack": "Panel"
+        "c0": "Core Thickness",
+        "c1": "Sheet Dimensions",
+        "c2": "Area per Sheet",
+        "c3": "Nominal Weight",
+        "c4": "Edge Treatment",
+        "c5": "Sound Absorption Rating"
       },
       {
-        "variant": "Solid Colour\nCube 12mm (2740x1220)",
-        "size_or_rating": "1220 mm x 2740 mm x 12 mm, NRC 0.45",
-        "pack": "Panel"
+        "c0": "12 mm (±6%)",
+        "c1": "1220 mm × 2440 mm",
+        "c2": "2.98 m²",
+        "c3": "2400 gsm (~7.15 kg)",
+        "c4": "Clean square edge",
+        "c5": "NRC 0.45 (direct) / 0.70 (air gap)"
       },
       {
-        "variant": "Solid Colour Cube 24mm (2440x1220)",
-        "size_or_rating": "1220 mm x 2440 mm x 24 mm, NRC 0.70",
-        "pack": "Panel"
+        "c0": "12 mm (±6%)",
+        "c1": "1220 mm × 2740 mm",
+        "c2": "3.34 m²",
+        "c3": "2400 gsm (~8.02 kg)",
+        "c4": "Clean square edge",
+        "c5": "NRC 0.45 (direct) / 0.70 (air gap)"
       },
       {
-        "variant": "Solid Colour Cube 24mm (2740x1220)",
-        "size_or_rating": "1220 mm\nx 2740 mm x 24 mm, NRC 0.70",
-        "pack": "Panel"
+        "c0": "24 mm (±6%)",
+        "c1": "1220 mm × 2440 mm",
+        "c2": "2.98 m²",
+        "c3": "4800 gsm (~14.3 kg)",
+        "c4": "Clean square edge",
+        "c5": "NRC 0.70 (direct) / 0.80 (air gap)"
+      },
+      {
+        "c0": "24 mm (±6%)",
+        "c1": "1220 mm × 2740 mm",
+        "c2": "3.34 m²",
+        "c3": "4800 gsm (~16.0 kg)",
+        "c4": "Clean square edge",
+        "c5": "NRC 0.70 (direct) / 0.80 (air gap)"
+      },
+      {
+        "c0": "Custom Length",
+        "c1": "Up to 3600 mm × 1220 mm",
+        "c2": "Up to 4.39 m²",
+        "c3": "2400 / 4800 gsm",
+        "c4": "Square or bevelled",
+        "c5": "NRC 0.45 – 0.80"
       }
     ],
-    "fire": "AS ISO 9705 - 2003\nand AS 5637.1 Classification: Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993\nGroup 1-S; ASTM E-84-15a Class A (FS:0, SD:45); BS EN 13501-1:2018 B - s1, d0\n(12mm) / B - s2, d0 (24mm)",
-    "compliance": "NCC Specification 7 (BCA C1.10)\nGroup 1 fire compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354; ISO 14001",
-    "sustainability": "Carbon neutral product; minimum 80% recycled PET; Declare Red\nList Free; EPD compliant with ISO 14025 and EN 15804; low VOC",
-    "install": [
-      "Ensure wall or ceiling substrate is flat, clean, dry, and dust-free",
-      "Acclimatise panels in the installation environment for at least 24 hours prior\nto install",
-      "Inspect panels and ensure all sheets in a continuous area are from\nthe same batch",
-      "For adhesive direct-fixing, apply recommended high-grab MS\npolymer or contact adhesive evenly across the panel back",
-      "Alternatively, use\nAutex SpinFix mechanical fixings or Peel and Stick backing where specified",
-      "Position panel onto substrate, butt joins tightly together, and apply uniform\npressure across the surface with a roller",
-      "Trim edges neatly from the face\nusing a straight edge and sharp utility knife"
-    ],
-    "selection_checklist": [
-      "Select panel thickness (12mm for standard wall panelling or 24mm for higher\nacoustic absorption)",
-      "Select colour from the Autex Cube 23+ solid colour\npalette",
-      "Confirm panel dimensions (1220x2440mm, 1220x2740mm, or custom up\nto 3600mm)",
-      "Choose installation method (direct adhesive, SpinFix mechanical\nclips, or Peel and Stick)",
-      "Verify substrate flatness and suitability for\nadhesive or clip fixing"
-    ],
-    "accessories": [
-      "Autex SpinFix mounting brackets",
-      "Autex Edging Solutions (Type B for 12mm, Type C for 24mm)",
-      "High-grab MS\npolymer or contact adhesive",
-      "Peel and Stick adhesive backing"
-    ],
-    "limitations": [
-      "Indoor use only; avoid direct exposure to water or high\nhumidity environments",
-      "Not recommended for areas subject to heavy mechanical\nabrasion or impacts",
-      "Batch-to-batch colour variation may occur due to fibre\nblending"
-    ],
-    "warranty": "Manufacturer's Guarantee (10 years)"
+    "accessories_upsell": "Autex SpinFix mounting hardware, Peel 'n' Stick backing, or contact adhesive."
   },
   "retrieval": {
     "search_keywords": [
       "Autex Cube",
+      "Cube 12mm",
+      "Cube 24mm",
       "Solid Colour Cube",
-      "Autex Cube panel",
-      "12mm Cube acoustic panel",
-      "24mm Cube acoustic panel",
-      "polyester acoustic wall\npanel",
-      "pinnable acoustic panel",
-      "Cube acoustic felt",
-      "Autex acoustic sheet",
-      "solid colour acoustic panel"
+      "pinnable acoustic felt board",
+      "polyester acoustic sheet"
     ],
     "problem_keywords": [
-      "echo in open plan\noffice",
-      "harsh wall reverberation",
-      "noisy conference room",
-      "need pinboard\nwith acoustic properties",
-      "speech privacy between workstations",
-      "decorative\nacoustic wall covering"
+      "Echo in commercial offices, meeting rooms, and schools",
+      "need for frameless, pinnable acoustic wall linings that can be custom cut, CNC engraved, or grooved."
     ],
     "placement": [
-      "wall",
-      "internal wall",
-      "ceiling"
-    ],
-    "priority_fit": [
-      "acoustic",
-      "fire",
-      "sustainability",
-      "easy_install"
+      "Wall",
+      "ceiling",
+      "internal wall"
     ],
     "use_cases": [
-      "Full-height acoustic wall lining in corporate meeting rooms and\nvideo-conferencing suites",
-      "Fabricating custom-cut pinnable wall dividers,\nacoustic baffles, and geometric wall features",
-      "Direct-fixed acoustic wall\ntreatment in school classrooms, libraries, and university study hubs"
-    ],
-    "not_for": [
-      "Underfloor impact insulation",
-      "External weatherboard or\ncladding",
-      "Commercial kitchens with open flame proximity"
-    ],
-    "rag_summary": "Autex Solid Colour Cube is a lightweight, semi-rigid acoustic panel made\nfrom 100% compressed polyester felt with solid color throughout its core.\nAvailable in 12mm and 24mm thicknesses in 1220mm x 2440mm and 1220mm x 2740mm\nsizes, it requires no edge capping and delivers sound absorption ratings from\nNRC 0.45 to 0.80. Group 1 fire-rated under AS ISO 9705 and containing at\nleast 80% recycled PET, Cube offers endless design flexibility for walls,\nceilings, pinboards, and bespoke architectural features across commercial and\neducational facilities."
+      "Default choice for modern frameless acoustic wall panelling. Specify 12mm for standard wall linings and CNC joinery",
+      "specify 24mm for higher acoustic absorption (NRC 0.70) without requiring an air cavity."
+    ]
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "knowledge_base_txt",
+  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
 }

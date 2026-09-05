@@ -1,163 +1,52 @@
 {
   "family_id": "AUTEX_QUIETSPACE_LATTICE_TRAPEZIUM",
   "family_name": "Autex Quietspace Lattice - Trapezium",
-  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/lattice/",
-  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
   "status": "ok",
   "researched_at": "2026-09-06",
   "spec": {
-    "description": "Autex Quietspace Lattice - Trapezium is a geometric suspended acoustic baffle\nsystem featuring clean angular lines that form an elongated diamond-like\ntrapezium lattice. Constructed from 100% polyester fibre using 12mm semi-rigid\nCube acoustic fins, it provides an expansive sound-absorbing surface area to\ncontrol ambient speech and reverberation. Supplied flat-packed with a\ndedicated 4-point suspension kit, Trapezium delivers Class A acoustic\nperformance (NRC 1.00 / 1.60 - 3.90 Sabins per unit) and Group 1 fire safety for\nopen ceilings.",
-    "features": [
-      "Angular geometric trapezium form creating an\nelongated architectural ceiling feature",
-      "Intersecting lattice fin design\nprovides maximum surface area for sound absorption",
-      "Class A acoustic\nperformance with NRC 1.00 (1.60 - 3.90 Sabins per unit)",
-      "Constructed from 100%\npolyester fibre containing a minimum of 80% recycled PET",
-      "Group 1 fire rating\ncompliant with AS ISO 9705 - 2003 and AS 5637.1",
-      "Assembled dimensions: 1180 mm\nx 2380 mm x 290 mm depth",
-      "Supplied flat-packed with complete suspension kit (4\nx 1m cables, ceiling mounts, clips)",
-      "Lightweight, structurally stable, and\nwill not warp, sag, or crumble over time",
-      "Resistant to moisture, mould, and\nmildew (ASTM G21-15 Growth Rating: 0)",
-      "Certified Carbon Neutral product with\nthird-party verified EPD"
-    ],
-    "applications": [
-      "ceiling",
-      "open-plan office",
-      "boardroom",
-      "education",
-      "hospitality",
-      "theatre"
-    ],
-    "technical": [
-      {
-        "property": "Acoustic Absorption",
-        "value": "1.60 - 3.90 Sabins per unit\n(NRC 1.00, Class A)",
-        "standard": "ISO 354"
-      },
-      {
-        "property": "Assembled\nDimensions",
-        "value": "1180 mm width x 2380 mm length x 290 mm depth (tolerance\n+/- 0.5 mm)",
-        "standard": ""
-      },
-      {
-        "property": "Material Thickness",
-        "value": "12\nmm Cube fins",
-        "standard": ""
-      },
-      {
-        "property": "Material Composition",
-        "value": "100% polyester fibre (PET)",
-        "standard": ""
-      },
-      {
-        "property": "Recycled\nContent",
-        "value": "Minimum 80% post-consumer recycled PET",
-        "standard": ""
-      },
-      {
-        "property": "Fire Rating (Australia)",
-        "value": "Group 1, SMOGRArc < 100 m2/s2",
-        "standard": "AS ISO 9705 - 2003 / AS 5637.1"
-      },
-      {
-        "property": "International\nFire Rating",
-        "value": "Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a: FS:0\n- SD:45); B - s2, d0 (BS EN 13501-1:2018)",
-        "standard": "ISO 9705 / ASTM E-84 /\nBS EN 13501-1"
-      },
-      {
-        "property": "Water Vapour Sorption",
-        "value": "0.4% by\nweight after 4 days at 49°C, 95% RH",
-        "standard": "ASTM C1104 / C1104M-13a"
-      },
-      {
-        "property": "Microbial Resistance",
-        "value": "Growth rating: 0 (No growth)",
-        "standard": "ASTM G21-15"
-      },
-      {
-        "property": "VOC Emissions",
-        "value": "< 0.092\nmg/m3 (7 days)",
-        "standard": "CDPH Standard Method v1.2"
-      }
-    ],
     "range": [
       {
-        "variant": "Quietspace Lattice Trapezium",
-        "size_or_rating": "1180 mm x 2380 mm\nx 290 mm",
-        "pack": "Pack of 1 unit"
+        "c0": "Sculptural Form",
+        "c1": "Assembled Length",
+        "c2": "Assembled Width",
+        "c3": "Overall Depth",
+        "c4": "Fin Thickness",
+        "c5": "Packaging Unit",
+        "c6": "Metric Sabins per Unit"
+      },
+      {
+        "c0": "Trapezium",
+        "c1": "2380 mm",
+        "c2": "1180 mm",
+        "c3": "290 mm",
+        "c4": "12 mm Cube (PET)",
+        "c5": "Pack of 1 unit",
+        "c6": "1.60 – 3.90 Sabins (Class A / NRC 1.00)"
       }
-    ],
-    "fire": "AS ISO 9705 - 2003 and\nAS 5637.1 Classification: Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993\nGroup 1-S; ASTM E-84-15a Class A; BS EN 13501-1:2018 B - s2, d0",
-    "compliance": "NCC Specification 7 (BCA C1.10) Group 1 fire compliance; AS ISO 9705:2003;\nAS 5637.1:2015; ISO 354",
-    "sustainability": "Carbon neutral product; minimum 80%\nrecycled PET; Declare Red List Free; EPD compliant with ISO 14025 and EN 15804;\nlow VOC",
-    "install": [
-      "Unpack Lattice Trapezium components and lay out fins on\na clean, soft work surface",
-      "Slot intersecting 12mm Cube fins together\naccording to the Trapezium assembly diagram",
-      "Insert alloy tube inserts and\nVelda cable clips into designated locking fin slots",
-      "Measure and mark 4\nsuspension anchor points on the ceiling substrate matching cable positions",
-      "Fasten ceiling mounts securely to the structural ceiling or soffit using\nsuitable anchors",
-      "Thread 1m galvanised suspension cables into ceiling mounts\nand adjust to desired hanging height",
-      "Hook cables into the Lattice clips and\nlevel the assembled Trapezium sculpture using a spirit level"
-    ],
-    "selection_checklist": [
-      "Confirm ceiling height and available overhead\nclearance for 290mm deep profile",
-      "Verify ceiling structure can support 4-point\ncable suspension",
-      "Select colour from the Autex Cube colour palette (20+\ncolours)",
-      "Confirm Trapezium style (1180mm x 2380mm rectangular angular form)\nfits spatial layout",
-      "Check clearances around HVAC ducts, lighting, and fire\nsprinklers"
-    ],
-    "accessories": [
-      "Lattice suspension kit (4 x 1m galvanised\ncables, 4 x ceiling mounts, 4 x Velda clips, alloy tube inserts)",
-      "Spirit\nlevel"
-    ],
-    "limitations": [
-      "Indoor ceiling installation only; not suitable for\nexterior use or wet environments",
-      "Non-load bearing decorative baffle; do not\nsuspend luminaires or mechanical services from fins",
-      "Must be assembled on a\nclean, protected floor surface to avoid marking the felt"
-    ],
-    "warranty": "Manufacturer's Guarantee (10 years)"
+    ]
   },
   "retrieval": {
     "search_keywords": [
-      "Autex Lattice Trapezium",
+      "Lattice Trapezium",
       "Quietspace Lattice Trapezium",
-      "geometric acoustic\nceiling baffle",
-      "trapezium acoustic sculpture",
-      "suspended acoustic lattice",
-      "Autex Trapezium",
-      "Cube ceiling baffle",
-      "acoustic ceiling sculpture",
-      "Lattice\nTrapezium baffle",
-      "sound absorbing ceiling cloud"
+      "angular acoustic sculpture",
+      "diamond acoustic ceiling baffle",
+      "geometric acoustic baffle"
     ],
     "problem_keywords": [
-      "echo in large conference room",
-      "reverberation over long boardroom table",
-      "noisy open plan office space",
-      "high concrete ceiling sound reflection",
-      "distracting office chatter",
-      "need modern angular acoustic ceiling design"
+      "Booming reverberation over long rectangular conference tables or linear work banks",
+      "desire for sharp geometric lines rather than curved organic shapes."
     ],
     "placement": [
-      "ceiling"
-    ],
-    "priority_fit": [
-      "acoustic",
-      "fire",
-      "sustainability",
-      "easy_install"
+      "Ceiling (suspended 4-point cable mount)"
     ],
     "use_cases": [
-      "Suspending over rectangular\nconference and boardroom tables to enhance speech intelligibility",
-      "Taming\nreverberation in open-plan corporate workstations and collaborative team pods",
-      "Architectural sound absorption in university seminar rooms and hospitality\ndining areas"
-    ],
-    "not_for": [
-      "Wall or flooring installations",
-      "External\nopen-air canopies",
-      "Wet rooms with direct water splashing"
-    ],
-    "rag_summary": "Autex Quietspace Lattice - Trapezium is a geometric suspended acoustic ceiling\nsculpture measuring 1180mm x 2380mm x 290mm, constructed from intersecting 12mm\nCube polyester felt fins. Engineered to cover a large acoustic surface area, it\nachieves Class A sound absorption (NRC 1.00 / 1.60 - 3.90 Sabins per unit) to\ncapture ambient chatter and eliminate flutter echoes in open-ceiling\narchitecture. Rated Group 1 fire compliant under AS ISO 9705 and containing at\nleast 80% recycled PET, it offers an eye-catching, carbon-neutral ceiling\nstatement for commercial and educational spaces."
+      "Matches rectangular conference room layouts, linear executive tables, and geometric architectural fitouts. Provides Class A acoustic absorption."
+    ]
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "knowledge_base_txt",
+  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
 }

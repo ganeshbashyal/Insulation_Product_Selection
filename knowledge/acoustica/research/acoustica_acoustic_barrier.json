@@ -1,71 +1,72 @@
 {
   "family_id": "ACOUSTICA_ACOUSTIC_BARRIER",
   "family_name": "Acoustica Acoustic Barrier",
-  "datasheet_pdf_url": "",
-  "sds_url": "",
-  "status": "gemini_not_found",
-  "researched_at": "2026-09-06",
+  "datasheet_pdf_url": null,
+  "status": "no_pdf_found",
+  "researched_at": "2026-09-05",
   "spec": {
-    "description": "",
-    "features": [],
-    "applications": [],
-    "technical": [],
-    "range": [],
-    "fire": "",
-    "compliance": "",
-    "sustainability": "",
-    "install": [],
-    "selection_checklist": [],
-    "accessories": [],
-    "limitations": [],
-    "warranty": ""
-  },
-  "retrieval": {
-    "search_keywords": [
-      "Acoustica acoustic barrier",
-      "mass loaded vinyl",
-      "flexible noise barrier",
-      "sound barrier sheet",
-      "soundproofing membrane",
-      "Acoustica barrier",
-      "acoustic vinyl",
-      "wall soundproofing sheet",
-      "ceiling sound barrier"
+    "range": [
+      {
+        "c0": "Variant / Grade",
+        "c1": "Surface Density",
+        "c2": "Thickness",
+        "c3": "Roll / Sheet Size",
+        "c4": "Area per Unit",
+        "c5": "Unit Weight"
+      },
+      {
+        "c0": "Heavy-Mass Vinyl Barrier 4kg",
+        "c1": "4.0 kg/m ²",
+        "c2": "2.0 mm",
+        "c3": "1300 mm × 5.0 m",
+        "c4": "6.5 m²",
+        "c5": "26.0 kg"
+      },
+      {
+        "c0": "Heavy-Mass Vinyl Barrier 6kg",
+        "c1": "6.0 kg/m ²",
+        "c2": "3.0 mm",
+        "c3": "1300 mm × 4.0 m",
+        "c4": "5.2 m²",
+        "c5": "31.2 kg"
+      },
+      {
+        "c0": "Heavy-Mass Vinyl Barrier 8kg",
+        "c1": "8.0 kg/m ²",
+        "c2": "4.0 mm",
+        "c3": "1300 mm × 3.0 m",
+        "c4": "3.9 m²",
+        "c5": "31.2 kg"
+      }
     ],
-    "problem_keywords": [
-      "noisy neighbours",
-      "sound transmission through wall",
-      "traffic noise in bedroom",
-      "aircraft noise in roof",
-      "home theatre soundproofing",
-      "office privacy sound transfer",
-      "party wall noise"
-    ],
-    "placement": [
-      "wall",
-      "internal wall",
-      "external wall",
-      "ceiling",
-      "roof",
-      "between floors"
-    ],
-    "priority_fit": [
-      "acoustic",
-      "fire"
-    ],
-    "use_cases": [
-      "upgrading airborne sound transmission loss in party walls and stud partitions",
-      "adding acoustic mass between ceiling joists to block aircraft and traffic noise",
-      "damping airborne sound transmission in home theatres and recording studios",
-      "isolating noisy mechanical plant rooms from adjoining tenancies"
-    ],
-    "not_for": [
-      "thermal insulation replacement without bulk insulation batts",
-      "direct floor wearing surface without underlay and flooring finish",
-      "outdoor exposed weather-facing cladding without protection"
-    ],
-    "rag_summary": "Acoustica Acoustic Barrier represents flexible, high-density mass-loaded acoustic barrier membranes engineered to dramatically reduce airborne sound transmission across walls, ceilings, and roofs. Formulated to provide high acoustic transmission loss (Rw) and vibration damping without adding substantial wall thickness, these membranes stop speech, entertainment, traffic, and aircraft noise. They are commonly incorporated into drywall partitions, ceiling cavities, and timber floor-ceiling assemblies in residential, commercial, and studio environments."
+    "substitutes": "THERMOTEC_NUWAVE_BASE_MLV (4kg/6kg/8kg) or DCTECH_TECSOUND (50/70)."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "retrieval": {
+    "search_keywords": [
+      "Acoustica MLV",
+      "limp mass barrier",
+      "mass loaded vinyl",
+      "noise deadening sheet",
+      "soundproofing membrane"
+    ],
+    "problem_keywords": [
+      "Voices/TV noise carrying through party walls, machinery hum through stud cavities, lightweight ceiling bleed."
+    ],
+    "placement": [
+      "Internal wall",
+      "between floors",
+      "ceiling",
+      "external wall"
+    ],
+    "not_for": [
+      "not a floor impact underlay (use AngelStep)",
+      "not an exposed wall finish.",
+      "not_for): Not a thermal insulation batt replacement"
+    ],
+    "use_cases": [
+      "Recommend when an installer requires airborne sound reduction (Rw improvement +4 to +8) inside a narrow wall cavity without adding thick masonry or double-stud walls."
+    ]
+  },
+  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
 }

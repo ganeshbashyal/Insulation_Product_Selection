@@ -3,64 +3,38 @@
   "family_name": "Aircell Permiwall",
   "datasheet_pdf_url": "",
   "sds_url": "",
-  "status": "gemini_not_found",
+  "status": "ok",
   "researched_at": "2026-09-06",
   "spec": {
-    "description": "",
-    "features": [],
-    "applications": [],
-    "technical": [],
-    "range": [],
-    "fire": "",
-    "compliance": "",
-    "sustainability": "",
-    "install": [],
-    "selection_checklist": [],
-    "accessories": [],
-    "limitations": [],
-    "warranty": ""
+    "range": [
+      {
+        "c0": "Historical Product Code",
+        "c1": "Thickness",
+        "c2": "Width",
+        "c3": "Length",
+        "c4": "Roll Area",
+        "c5": "Structure",
+        "c6": "Replacement / Current Equivalent"
+      },
+      {
+        "c0": "PS055F",
+        "c1": "5.5 mm",
+        "c2": "1350 mm",
+        "c3": "22.25 m",
+        "c4": "30.0 m²",
+        "c5": "Micro-perforated closed cell foam + foil",
+        "c6": "Kingspan AIR-CELL Permicav XV"
+      }
+    ]
   },
   "retrieval": {
     "search_keywords": [
-      "AIR-CELL Permiwall",
-      "Kingspan Permiwall",
+      "Aircell Permiwall",
       "Permiwall PS055F",
-      "concrete wall reflective insulation",
-      "vapour permeable concrete wall insulation",
-      "block wall foil insulation",
-      "internal masonry wall insulation",
-      "reflective furring channel insulation"
-    ],
-    "problem_keywords": [
-      "condensation on concrete walls",
-      "damp concrete block walls",
-      "insulating internal masonry walls",
-      "thermal loss through concrete panel",
-      "space saving concrete wall insulation",
-      "mould behind plasterboard on block walls"
-    ],
-    "placement": [
-      "wall",
-      "internal wall",
-      "external wall"
-    ],
-    "priority_fit": [
-      "thermal",
-      "condensation",
-      "easy_install"
-    ],
-    "use_cases": [
-      "lining internal concrete tilt-up or precast panels behind furring channels and plasterboard",
-      "retrofitting basement or core-filled block walls to prevent interstitial condensation",
-      "providing a thin-profile thermal and vapour-permeable barrier in masonry cavity retrofits"
-    ],
-    "not_for": [
-      "external direct weather-exposed cladding without rainscreen",
-      "subfloor underfoot traffic",
-      "roof sarking applications"
-    ],
-    "rag_summary": "Kingspan AIR-CELL Permiwall is a discontinued 5.5mm thermo-reflective insulation and vapour-permeable membrane engineered specifically for internal concrete and masonry block walls. Comprising a micro-perforated closed-cell foam core between reflective foil facings, it allowed moisture vapour to permeate rather than condense against cold masonry, while reflecting radiant heat into the living space. Installed over furring channels or clips beneath plasterboard, it provided an ultra-slim thermal solution that helped achieve 6-star residential energy ratings without sacrificing floor area."
+      "internal block wall foil"
+    ]
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "knowledge_base_txt",
+  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
 }

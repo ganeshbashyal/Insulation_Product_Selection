@@ -1,168 +1,71 @@
 {
   "family_id": "AUTEX_PRINTED_LANES_BAFFLE_PEAK",
   "family_name": "Autex Printed Lanes Baffle Peak",
-  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/lanes/",
-  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
   "status": "ok",
   "researched_at": "2026-09-06",
   "spec": {
-    "description": "Autex Printed Lanes Baffle Peak combines the sculptural 3D angled peak profile\nof Lanes with high-definition digital UV printing. Available in realistic timber\ngrains (Acoustic Timber) and textured stone finishes, it replicates heavy\narchitectural materials without the weight, cost, or fire hazards. Its\nintegrated rear air gap delivers enhanced low-frequency sound absorption\n(NRC 0.80), while its glue-free clipping system ensures clean, straightforward\nwall installation.",
-    "features": [
-      "Sculptural 3D peak profile with realistic\ndigitally printed woodgrain or stone finishes",
-      "Digitally printed with safe,\nwater-based UV-cured ink without reducing acoustic absorption",
-      "Rear air gap\ncavity enhances low and mid frequency sound absorption (NRC 0.80)",
-      "Glue-free\nmechanical clipping system allows fast, clean, and mess-free installation",
-      "Lightweight alternative to real timber battens or heavy stone fluting",
-      "Constructed from 100% polyester fibre with a minimum of 60% to 80% recycled\nPET",
-      "Group 1 fire rating to AS ISO 9705 - 2003 and AS 5637.1",
-      "Modular 300mm\nwidth sections available in 2400mm and 2700mm lengths",
-      "Certified Carbon\nNeutral product with third-party verified EPD",
-      "Moisture and mould resistant\n(ASTM G21-15 Growth Rating: 0)"
-    ],
-    "applications": [
-      "wall",
-      "internal wall"
-    ],
-    "technical": [
-      {
-        "property": "Noise Reduction Coefficient (NRC)",
-        "value": "0.80",
-        "standard": "ISO 354"
-      },
-      {
-        "property": "Dimensions (Per Lane)",
-        "value": "300 mm width x 2400 mm or 2700 mm length (custom up to 3600 mm)",
-        "standard": ""
-      },
-      {
-        "property": "Material Thickness",
-        "value": "12 mm Cube base (depth\nvaries by Peak profile)",
-        "standard": ""
-      },
-      {
-        "property": "Composition",
-        "value": "100% polyester fibre (PET) printed with UV-curable ink",
-        "standard": ""
-      },
-      {
-        "property": "Recycled Content",
-        "value": "Minimum 60% to 80%\npost-consumer recycled PET",
-        "standard": ""
-      },
-      {
-        "property": "Thermal\nPerformance",
-        "value": "R0.41 (@ 15°C)",
-        "standard": ""
-      },
-      {
-        "property": "Fire\nRating (Australia)",
-        "value": "Group 1, SMOGRArc < 100 m2/s2",
-        "standard": "AS\nISO 9705 - 2003 / AS 5637.1"
-      },
-      {
-        "property": "International Fire Rating",
-        "value": "Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a: FS:0 - SD:45); BS\nEN 13501-1:2018",
-        "standard": "ISO 9705 / ASTM E-84 / BS EN 13501-1"
-      },
-      {
-        "property": "Water Vapour Sorption",
-        "value": "0.4% by weight after 4 days\nat 49°C, 95% RH",
-        "standard": "ASTM C1104 / C1104M-13a"
-      },
-      {
-        "property": "Microbial Resistance",
-        "value": "Growth rating: 0 (No growth)",
-        "standard": "ASTM G21-15"
-      },
-      {
-        "property": "Print Type",
-        "value": "Safe, water-based,\nUV-cured ink",
-        "standard": ""
-      }
-    ],
     "range": [
       {
-        "variant": "Printed Lanes\nPeak 2400mm",
-        "size_or_rating": "300 mm x 2400 mm (Pack covers 2.16 m2)",
-        "pack": "Pack of 3 lanes"
+        "c0": "Profile Design",
+        "c1": "Module Width",
+        "c2": "Standard Lengths",
+        "c3": "3D Relief Depth",
+        "c4": "Print Finish Collections",
+        "c5": "Pack Coverage",
+        "c6": "Acoustic Rating"
       },
       {
-        "variant": "Printed Lanes Peak 2700mm",
-        "size_or_rating": "300 mm x 2700 mm (Pack covers 2.43 m2)",
-        "pack": "Pack of 3\nlanes"
+        "c0": "Printed Peak 2400",
+        "c1": "300 mm",
+        "c2": "2400 mm",
+        "c3": "~45 mm – 50 mm",
+        "c4": "Acoustic Timber / Surface Finishes",
+        "c5": "2.16 m² (3 lanes)",
+        "c6": "NRC 0.80"
+      },
+      {
+        "c0": "Printed Peak 2700",
+        "c1": "300 mm",
+        "c2": "2700 mm",
+        "c3": "~45 mm – 50 mm",
+        "c4": "Acoustic Timber / Surface Finishes",
+        "c5": "2.43 m² (3 lanes)",
+        "c6": "NRC 0.80"
+      },
+      {
+        "c0": "Printed Peak Custom",
+        "c1": "300 mm",
+        "c2": "Up to 3600 mm",
+        "c3": "~45 mm – 50 mm",
+        "c4": "Acoustic Timber / Surface Finishes",
+        "c5": "Custom boxed",
+        "c6": "NRC 0.80"
       }
-    ],
-    "fire": "AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1\n(SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM E-84-15a Class A (FS:0,\nSD:45); BS EN 13501-1:2018",
-    "compliance": "NCC Specification 7 (BCA C1.10)\nGroup 1 fire compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354",
-    "sustainability": "Carbon neutral product; water-based UV-cured ink; min 60%\nto 80% recycled PET; Declare Red List Free; EPD verified; low VOC",
-    "install": [
-      "Check wall substrate is plumb, flat, and dry",
-      "Inspect printed grain or\npattern orientation across all lanes prior to mounting",
-      "Fix horizontal\nmounting clips or channel track to framing studs at 300mm vertical centres",
-      "Snap the printed folded Peak lanes onto mounting clips firmly without\nadhesive",
-      "Align adjacent panels to ensure unbroken woodgrain or stone\ncontinuity along joints",
-      "Trim bottom or top ends carefully using a\nfine-toothed saw on the offcut side"
-    ],
-    "selection_checklist": [
-      "Select print\nfinish from Acoustic Timber woodgrains or Surface Finishes stone palettes",
-      "Confirm wall height to choose 2400mm or 2700mm lengths",
-      "Calculate wall width\nin 300mm increments (3 lanes per pack)",
-      "Confirm Peak ridge profile suitability\nfor design aesthetic",
-      "Verify substrate framing supports mechanical clip\nmounting"
-    ],
-    "accessories": [
-      "Lanes mounting clip system",
-      "Fasteners suitable\nfor substrate",
-      "Fine-tooth track saw"
-    ],
-    "limitations": [
-      "Indoor use only;\navoid wet areas or direct water exposure",
-      "Requires mechanical clip\ninstallation; do not glue directly flat to wall",
-      "Handle carefully with clean\ngloves to prevent scuffing the printed surface during install"
-    ],
-    "warranty": "Manufacturer's Guarantee (10 years)"
+    ]
   },
   "retrieval": {
     "search_keywords": [
-      "Autex Printed Lanes Peak",
       "Acoustic Timber Lanes Peak",
-      "timber look acoustic\nbattens",
-      "printed acoustic battens",
-      "woodgrain acoustic wall battens",
-      "Lanes\nPeak timber",
-      "stone finish acoustic battens",
-      "3D printed acoustic wall"
+      "Printed Lanes Peak",
+      "printed Peak batten",
+      "timber batten acoustic wall",
+      "wood look acoustic battens"
     ],
     "problem_keywords": [
-      "heavy solid timber batten weight",
-      "timber wall\nreverberation",
-      "flammability of real timber battens",
-      "echo in commercial\nlobby",
-      "boardroom sound reflection",
-      "need timber batten look with Group 1 fire\nrating"
+      "Heavy timber battens exceed seismic weight budgets or fail Group 1 fire codes",
+      "solid timber walls cause acoustic reverberation."
     ],
     "placement": [
-      "wall",
+      "Wall",
       "internal wall"
     ],
-    "priority_fit": [
-      "acoustic",
-      "fire",
-      "sustainability",
-      "easy_install"
-    ],
     "use_cases": [
-      "Creating\ntimber-look acoustic batten feature walls in commercial lobbies needing Group 1\nfire rating",
-      "Taming echo in luxury executive boardrooms with warm woodgrain\ntextures",
-      "Acoustic feature walls in hotel receptions and fine-dining\nrestaurants"
-    ],
-    "not_for": [
-      "Flooring or underfoot applications",
-      "Exterior\nbuilding facades",
-      "Wet rooms with direct running water"
-    ],
-    "rag_summary": "Autex Printed Lanes Baffle Peak combines a 3D folded peak batten profile with\nhigh-definition digital UV printing of premium timber grains and stone textures\non 12mm Cube polyester felt. Installed via a mechanical clipping system that\npreserves an acoustic rear air gap, it delivers high sound absorption (NRC 0.80)\nwhile replicating heavy timber or stone without the weight or fire risks.\nCertified Group 1 fire compliant and carbon neutral with over 60% recycled PET,\nit provides a warm architectural wall finish for commercial, education, and\nhospitality interiors."
+      "Replaces real timber battens with a lightweight, non-combustible, Group 1 fire-rated polyester alternative that provides NRC 0.80 sound absorption."
+    ]
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "knowledge_base_txt",
+  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
 }

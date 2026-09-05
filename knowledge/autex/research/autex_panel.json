@@ -1,195 +1,79 @@
 {
   "family_id": "AUTEX_PANEL",
   "family_name": "Autex Panel",
-  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/quietspace-panel/",
-  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
   "status": "ok",
   "researched_at": "2026-09-06",
   "spec": {
-    "description": "Autex Quietspace Panel (Autex Panel) is a discrete,\nhigh-performance acoustic treatment engineered to absorb a minimum of 85%\nto 100% of sound energy. Made from 100% thermally bonded polyester fibre, it\nfeatures a compressed, impact-resistant face and a cushioned backing designed to\noptimise broadband frequency absorption. Available in thicknesses from 25mm\nto 100mm, it can be installed nude or overlaid with decorative fabric to resolve\nsevere reverberation across walls and ceilings.",
-    "features": [
-      "Premium\nbroadband acoustic absorption absorbing 85% to 100% of sound energy (NRC 0.85\n- 1.00)",
-      "Dual-density construction with compressed face and cushioned absorber\nbacking",
-      "Available in 25mm, 50mm, 75mm, and 100mm thicknesses",
-      "Constructed\nfrom 100% polyester fibre containing minimum 45% to 58% recycled PET",
-      "Group 1\nfire rating compliant with AS ISO 9705 - 2003 and AS 5637.1",
-      "Supplied with a\nfactory-applied protective spun-bond cover to keep panels clean during\ninstallation",
-      "Safe, non-toxic, non-allergenic, and free from chemical binders\nor formaldehyde",
-      "Can be faced with Autex Vertiface fabric overlay or custom\ndigital prints",
-      "Thermal insulation performance up to R1.4 (50mm)",
-      "Certified\nCarbon Neutral product with third-party verified EPD and Declare Red List Free"
-    ],
-    "applications": [
-      "wall",
-      "internal wall",
-      "ceiling"
-    ],
-    "technical": [
-      {
-        "property": "Noise Reduction Coefficient (NRC)",
-        "value": "25mm: 0.85 (Class\nC); 50mm: 1.00 (Class A); 75mm: 1.00 (Class A); 100mm: 1.00 (Class A)",
-        "standard": "ISO 354"
-      },
-      {
-        "property": "Sound Absorption Coefficients (25mm)",
-        "value": "125Hz: 0.15, 250Hz: 0.45, 500Hz: 0.85, 1000Hz: 1.00, 2000Hz: 1.00, 4000Hz: 0.95",
-        "standard": "ISO 354"
-      },
-      {
-        "property": "Sound Absorption Coefficients (50mm)",
-        "value": "125Hz: 0.30, 250Hz: 0.75, 500Hz: 1.10, 1000Hz: 1.10, 2000Hz: 1.05, 4000Hz: 1.00",
-        "standard": "ISO 354"
-      },
-      {
-        "property": "Panel Dimensions",
-        "value": "1200 mm\nx 2400 mm (nude: 1220 mm x 2440 mm)",
-        "standard": ""
-      },
-      {
-        "property": "Thickness\nOptions",
-        "value": "25 mm, 50 mm, 75 mm, 100 mm (tolerance +/- 6%)",
-        "standard": ""
-      },
-      {
-        "property": "Weight",
-        "value": "25mm: 2300 gsm; 50mm: 3800\ngsm; 75mm: 4050 gsm; 100mm: 4300 gsm",
-        "standard": ""
-      },
-      {
-        "property": "Material\nComposition",
-        "value": "100% polyester fibre (PET)",
-        "standard": ""
-      },
-      {
-        "property": "Recycled Content",
-        "value": "Minimum 45% to 58% post-consumer\nrecycled PET",
-        "standard": ""
-      },
-      {
-        "property": "Thermal Resistance",
-        "value": "25mm: R0.6 (@ 15°C); 50mm: R1.4 (@ 15°C)",
-        "standard": ""
-      },
-      {
-        "property": "Fire Rating (Australia)",
-        "value": "Group 1, SMOGRArc < 100 m2/s2",
-        "standard": "AS ISO 9705 - 2003 / AS 5637.1"
-      },
-      {
-        "property": "Fire Rating (International)",
-        "value": "Group 1-S (ISO 9705:1993); Class A (ASTM E-84); 25mm BS\nEN 13501-1:2018 B - s2, d0; 50mm B - s2, d2",
-        "standard": "ISO 9705 / ASTM E-84\n/ BS EN 13501-1"
-      },
-      {
-        "property": "Light Reflectance (White)",
-        "value": "LRV 83",
-        "standard": "BS 8493:2008+A1:2010"
-      },
-      {
-        "property": "VOC Emissions",
-        "value": "0.009 mg/m3 (7 days)",
-        "standard": "Cetec"
-      }
-    ],
     "range": [
       {
-        "variant": "Quietspace Panel 25mm",
-        "size_or_rating": "1200 mm x 2400 mm x 25\nmm, NRC 0.85",
-        "pack": "Panel"
+        "c0": "Thickness",
+        "c1": "Sheet Dimensions (Nude / Untrimmed)",
+        "c2": "Finished Trimmed Size",
+        "c3": "Weight (GSM)",
+        "c4": "Total Sheet Weight",
+        "c5": "Sound Absorption"
       },
       {
-        "variant": "Quietspace Panel 50mm",
-        "size_or_rating": "1200 mm x 2400 mm x 50 mm, NRC 1.00",
-        "pack": "Panel"
+        "c0": "25 mm (±6%)",
+        "c1": "1220 mm × 2440 mm",
+        "c2": "1200 mm × 2400 mm (2.88 m²)",
+        "c3": "2300 gsm",
+        "c4": "~6.6 kg",
+        "c5": "NRC 0.85 (Class C)"
       },
       {
-        "variant": "Quietspace Panel 75mm",
-        "size_or_rating": "1200 mm x 2400 mm x 75\nmm, NRC 1.00",
-        "pack": "Panel"
+        "c0": "50 mm (±6%)",
+        "c1": "1220 mm × 2440 mm",
+        "c2": "1200 mm × 2400 mm (2.88 m²)",
+        "c3": "3800 gsm",
+        "c4": "~10.9 kg",
+        "c5": "NRC 1.00 (Class A)"
       },
       {
-        "variant": "Quietspace Panel 100mm",
-        "size_or_rating": "1200 mm x 2400 mm x 100 mm, NRC 1.00",
-        "pack": "Panel"
+        "c0": "75 mm (±6%)",
+        "c1": "1220 mm × 2440 mm",
+        "c2": "1200 mm × 2400 mm (2.88 m²)",
+        "c3": "4050 gsm",
+        "c4": "~11.7 kg",
+        "c5": "NRC 1.00 (Class A)"
+      },
+      {
+        "c0": "100 mm (±6%)",
+        "c1": "1220 mm × 2440 mm",
+        "c2": "1200 mm × 2400 mm (2.88 m²)",
+        "c3": "4300 gsm",
+        "c4": "~12.4 kg",
+        "c5": "NRC 1.00 (Class A)"
       }
-    ],
-    "fire": "AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1 (SMOGRArc\n< 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM E-84 Class A; BS EN 13501-1:2018 B -\ns2, d0 (25mm) / B - s2, d2 (50mm)",
-    "compliance": "NCC Specification 7 (BCA\nC1.10) Group 1 fire compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354",
-    "sustainability": "Carbon neutral product; minimum 45% to 58% recycled PET;\nDeclare Red List Free; EPD compliant; low VOC (0.009 mg/m3)",
-    "install": [
-      "Inspect substrate ensuring it is flat, clean, dry, and free of dust, grease, or\ncontaminants",
-      "Acclimatise panels in the installation space for at least 24\nhours prior to fitting",
-      "Maintain factory-applied spun-bond protective sheet on\npanel face throughout installation",
-      "Apply recommended contact-type or\nhigh-grab MS polymer adhesive evenly across the panel backing",
-      "Position panel\nonto the wall or ceiling substrate and press firmly across the surface",
-      "Use a\nroller to ensure full adhesive contact and eliminate air pockets",
-      "Peel a\ncorner of the protective spun-bond film and leave hanging until painting and\nmessy trades finish",
-      "Remove protective film completely upon project handover"
-    ],
-    "selection_checklist": [
-      "Confirm required thickness based on acoustic target\n(25mm for NRC 0.85; 50mm+ for NRC 1.00)",
-      "Select finish option (Nude White,\nNude Black, Nude Grey, or Vertiface fabric overlay)",
-      "Verify total wall or\nceiling dimensions to calculate panel count (1200x2400mm sheets)",
-      "Specify\nsuitable adhesive (contact adhesive or high-grab MS polymer)",
-      "Confirm need for\naluminium edge trims or framing profiles"
-    ],
-    "accessories": [
-      "Autex Edging\nSolutions (Type C profiles for 25mm panels)",
-      "Contact adhesive / MS polymer\nadhesive",
-      "Vertiface fabric overlay",
-      "Pressure roller"
-    ],
-    "limitations": [
-      "Indoor use only; avoid direct water exposure or extreme humidity",
-      "Nude panels\nare utilitarian; specify Vertiface fabric overlay for decorative high-traffic\nareas",
-      "Do not expose to naked flames or concentrated heat sources above 80°C"
-    ],
-    "warranty": "Manufacturer's Guarantee (10 years)"
+    ]
   },
   "retrieval": {
     "search_keywords": [
-      "Autex Panel",
-      "Quietspace Panel",
-      "Autex Quietspace",
-      "25mm acoustic panel",
+      "25mm acoustic board",
       "50mm acoustic panel",
-      "NRC 0.85 acoustic panel",
-      "NRC 1.00 acoustic panel",
-      "broadband acoustic absorber",
-      "polyester acoustic\npanel",
-      "high absorption wall panel"
+      "Autex Panel",
+      "NRC 1.00 sound absorber",
+      "Quietspace Panel",
+      "broadband acoustic panel"
     ],
     "problem_keywords": [
-      "severe room\nreverberation",
-      "echo in recording studio",
-      "loud gymnasium noise",
-      "auditorium\nsound reflection",
-      "commercial theatre echo",
-      "noise spill in school hall"
+      "Severe reverberation in recording studios, radio broadcast booths, school gymnasiums, and multipurpose halls."
     ],
     "placement": [
-      "wall",
-      "internal wall",
-      "ceiling"
-    ],
-    "priority_fit": [
-      "acoustic",
-      "thermal",
-      "fire",
-      "sustainability"
-    ],
-    "use_cases": [
-      "Controlling\nbroadband reverberation in school gymnasiums, multipurpose halls, and\nauditoriums",
-      "Wall and ceiling acoustic treatment in recording studios, radio\nbroadcast booths, and cinemas",
-      "Taming extreme echo in open-plan corporate\noffices, call centres, and conference rooms"
+      "Wall",
+      "ceiling",
+      "internal wall"
     ],
     "not_for": [
-      "Floors or subfloor\nimpact noise isolation",
-      "Exterior building facades",
-      "Direct unshielded\nexposure to intense mechanical abrasion"
+      "not_for): Nude panels are utilitarian white, grey, or black. For decorative front-of-house finishes, upsell with Vertiface fabric wrapping or Bespoke Print."
     ],
-    "rag_summary": "Autex Panel\n(Quietspace Panel) is a high-performance acoustic wall and ceiling panel\nengineered with a dual-density polyester construction comprising an\nimpact-resistant compressed face and a cushioned backing. Available in\nthicknesses from 25mm to 100mm in 1200mm x 2400mm sheets, it absorbs between 85%\nand 100% of sound energy (NRC 0.85 to 1.00). Compliant with NCC Group 1 fire\nrequirements under AS ISO 9705 and containing over 45% recycled PET, it provides\ndiscrete broadband noise control in studios, auditoriums, gyms, and commercial\nspaces."
+    "use_cases": [
+      "When customer requires Class A broadband absorption (NRC 1.00), specify 50mm Quietspace Panel. Use 25mm (NRC 0.85) when wall cavity space is restricted."
+    ]
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "knowledge_base_txt",
+  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
 }

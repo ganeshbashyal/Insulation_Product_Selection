@@ -1,399 +1,86 @@
 {
   "family_id": "AMETALIN_QUICK_TAPE_BLUE",
   "family_name": "Ametalin Quick Tape Blue",
-  "datasheet_pdf_url": "https://www.ametalin.com/product/ametalin-quicktape/",
+  "datasheet_pdf_url": "",
   "sds_url": "",
-  "status": "gemini_not_found",
+  "status": "ok",
   "researched_at": "2026-09-06",
   "spec": {
-    "description": "Ametalin QuickTape is a reliable, high-performance woven polymer fabric tape coated with a cold-weather acrylic adhesive specifically developed for demanding building envelope applications[][][]. It is engineered for the fast and easy joining, sealing, and repair of overlapped edges and penetrations in building membranes such as vapour-permeable wall wraps[][][]. Release liner-free and hand-tearable, it features the thickest premium-grade adhesive in the Ametalin range to provide instant high tack and airtight integrity[][][].",
-    "features": [
-      ",\n      ",
-      "Fast",
-      "easy and reliable fixing[",
-      ",\n      ",
-      "Release liner-free design eliminates backing paper waste on site[",
-      ",\n      ",
-      "Premium adhesion with superior initial tack[",
-      ",\n      ",
-      "Cold-weather acrylic adhesive performs down to -30°C[",
-      ",\n      ",
-      "Durable across service temperatures from -30°C to over 80°C[",
-      ",\n      ",
-      "Ideal for use with VapourTech® vapour permeable wall wraps[",
-      ",\n      ",
-      "Ideal for airtight sealing in Passive House and high-performance envelopes[",
-      ",\n      ",
-      "Robust woven polymer fabric backing resists scuffing and tears[",
-      ",\n      ",
-      "Manufactured by an ISO 9001 certified company[",
-      "\n    ],\n    ",
-      "applications",
-      [
-        "external wall",
-        "wall",
-        "roof",
-        "roofline",
-        "duct"
-      ],
+    "range": [
       {
-        "technical": [
-          {
-            "property": "Roll Width",
-            "value": "48 mm / 72 mm",
-            "standard": ""
-          },
-          {
-            "property": "Roll Length",
-            "value": "50 m",
-            "standard": ""
-          },
-          {
-            "property": "Backing Material",
-            "value": "Woven polymer fabric (blue trade / commercial)",
-            "standard": ""
-          },
-          {
-            "property": "Adhesive Type",
-            "value": "Cold-weather acrylic adhesive",
-            "standard": ""
-          },
-          {
-            "property": "Operating Temperature Range",
-            "value": "-30°C to >80°C",
-            "standard": ""
-          },
-          {
-            "property": "Release Liner",
-            "value": "None (Liner-free)",
-            "standard": ""
-          },
-          {
-            "property": "Hand Tearability",
-            "value": "Yes",
-            "standard": ""
-          },
-          {
-            "property": "Application",
-            "value": "Airtight and vapour barrier sealing",
-            "standard": ""
-          }
-        ],
-        "range": [
-          {
-            "variant": "Ametalin QuickTape 48mm",
-            "size_or_rating": "48 mm x 50 m (QT-4850)",
-            "pack": "Roll"
-          },
-          {
-            "variant": "Ametalin QuickTape 72mm",
-            "size_or_rating": "72 mm x 50 m (QT-7250)",
-            "pack": "Roll"
-          },
-          {
-            "variant": "Ametalin QuickTape Blue (No Label Commercial) 48mm",
-            "size_or_rating": "48 mm x 50 m (QT-4850-NL)",
-            "pack": "Roll"
-          },
-          {
-            "variant": "Ametalin QuickTape Blue (No Label Commercial) 72mm",
-            "size_or_rating": "72 mm x 50 m (QT-7250-NL)",
-            "pack": "Roll"
-          }
-        ],
-        "fire": "Durable across service temperatures -30°C to over 80°C; suitable for use with BAL-rated building membranes[][][",
-        "compliance": "AS 4200.2:2017 compliant joining tape; Passive House airtightness envelope compatible; ISO 9001[][][][",
-        "sustainability": "Linerless roll eliminates paper release backing waste on building sites; low VOC acrylic adhesive[][][",
-        "install": [
-          ",\n      \"Align overlapped membrane sheets with minimum 150mm lap (or 50mm if taped in accordance with AS 4200.2)[\",\n      ",
-          "Tear Ametalin QuickTape by hand to required length without need for knives or scissors[",
-          ",\n      ",
-          "Centre the tape over the seam or penetration[",
-          ",\n      ",
-          "Apply firm",
-          "continuous pressure along the tape using a plastic squeegee or roller to activate adhesive[",
-          ",\n      ",
-          "Ensure no wrinkles",
-          "fishmouths",
-          "or air channels are left in the tape seal",
-          "Seal around all window flashings, pipe penetrations, and corners to maintain airtight envelope[][]["
-        ],
-        "selection_checklist": [
-          ",\n      ",
-          "Verify substrate compatibility (specifically engineered for non-woven vapour-permeable wraps like VapourTech)[",
-          ",\n      ",
-          "Calculate total lineal metres needed for seams",
-          "openings",
-          "and penetrations",
-          "Check application temperature conditions (effective even in cold weather down to sub-zero temperatures)[][]["
-        ],
-        "accessories": [
-          ",\n      ",
-          "Ametalin CeaseFire[",
-          ",\n      ",
-          "Application squeegee[",
-          "\n    ],\n    \"limitations\": [\n      ",
-          "Pressure must be applied firmly to ensure 100% bond contact [3.4.2"
-        ],
-        ",\n      ": "ubstrates contaminated with heavy water, mud, or grease will compromise bond strength[\",",
-        "limits[": "Non-structural; not intended to support structural loads",
-        "warranty": "Covered by Ametalin manufacturer warranty[",
-        "found": true,
-        "search_keywords": [
-          "Ametalin Quick Tape Blue",
-          "Ametalin QuickTape",
-          "Ametalin blue tape",
-          "vapour permeable membrane tape",
-          "hand tearable sarking tape",
-          "linerless insulation tape",
-          "VapourTech joining tape",
-          "cold weather acrylic tape",
-          "Passive House airtight tape",
-          "woven fabric building tape"
-        ],
-        "problem_keywords": [
-          "peeling tape on wall wrap",
-          "tape backing paper blowing around building site",
-          "air leaks in building envelope",
-          "tape not sticking in cold weather",
-          "ripped vapour-permeable wrap",
-          "failing blower door test"
-        ],
-        "placement": [
-          "wall",
-          "external wall",
-          "roof",
-          "roofline",
-          "duct"
-        ],
-        "priority_fit": [
-          "easy_install",
-          "condensation",
-          "sustainability"
-        ],
-        "use_cases": [
-          "sealing horizontal and vertical laps of Ametalin VapourTech wall wraps on timber or steel frames",
-          "taping around window flanges and door openings to create an airtight weather barrier",
-          "patching cuts, punctures, or tears in pliable building membranes during construction",
-          "sealing penetrations for electrical conduits, plumbing pipes, and HVAC ducting in Passive House builds"
-        ],
-        "not_for": [
-          "high-stress mechanical strapping",
-          "submerged waterproofing joints",
-          "hot flue sealing above 80°C"
-        ],
-        "rag_summary": "Ametalin QuickTape (QuickTape Blue) is a high-performance woven polymer fabric tape coated with an aggressive cold-weather acrylic adhesive, designed specifically for joining and sealing pliable building membranes. Featuring a release-liner-free design and hand-tearable construction, it accelerates installation while eliminating jobsite rubbish. Operating reliably from -30°C to over 80°C, it provides airtight and vapour-tight seams across Ametalin VapourTech wall wraps, roof sarkings, and duct penetrations to ensure high-performance envelope integrity and Passive House compliance."
+        "c0": "Product Code",
+        "c1": "Roll Width",
+        "c2": "Roll Length",
+        "c3": "Carrier Type",
+        "c4": "Adhesive Technology",
+        "c5": "Release Liner",
+        "c6": "Rolls per Carton"
       },
       {
-        "family_id": "AUTEX_ACCENT_CEILING_TILES",
-        "tds_url": "https://www.autexglobal.com/au/products/accent-ceiling-tiles/",
-        "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
-        "description": "Autex Accent Ceiling Tiles are a simple, modest, high-performance acoustic tile designed to fit within standard suspended grid systems and comply with typical loading standards[][][]. Made from non-woven, needle-punched 100% polyester fibre containing a minimum of 60% post-consumer recycled content, the tiles are lightweight yet sturdy, ensuring they will not chip, crack, or break during or after installation[][][]. Developed with two functional sides for creative flexibility, they feature one smooth classic white face and one vibrant coloured face to deliver an NRC rating of 0.85 (Class A sound absorption)[][][].",
-        "features": [
-          ",\n      ",
-          "Two functional sides: solid colour and classic white for design versatility[",
-          ",\n      ",
-          "Made from 100% polyester fibre with a minimum of 60% post-consumer recycled material[",
-          ",\n      ",
-          "Will not chip",
-          "crack",
-          "or break",
-          "eliminating site wastage[",
-          ",\n      ",
-          "High acoustic performance with NRC 0.85 (Class A absorption)[",
-          ",\n      ",
-          "Spun-bond cover protects tiles during installation[",
-          ",\n      ",
-          "Naturally resistant to moisture",
-          "mould",
-          "and mildew (ASTM G21-15 Growth Rating: 0)[",
-          ",\n      ",
-          "Safe",
-          "non-toxic",
-          "non-irritant",
-          "and non-allergenic[",
-          "Group 1 fire rating to AS ISO 9705 - 2003 and Group 1-S to ISO 9705[][",
-          "Certified Carbon Neutral product with third-party verified EPD[]["
-        ],
-        "applications": [
-          "ceiling"
-        ],
-        "technical": [
-          {
-            "property": "Noise Reduction Coefficient (NRC)",
-            "value": "0.85",
-            "standard": "ASTM C423 / ISO 354"
-          },
-          {
-            "property": "Sound Absorption Class",
-            "value": "Class A (αw 0.85)",
-            "standard": "ISO 11654"
-          },
-          {
-            "property": "Tile Dimensions",
-            "value": "595 mm x 1195 mm (fits 600 x 1200 mm grid)",
-            "standard": ""
-          },
-          {
-            "property": "Thickness",
-            "value": "12 mm (tolerance +/- 6%)",
-            "standard": ""
-          },
-          {
-            "property": "Weight",
-            "value": "2400 gsm",
-            "standard": ""
-          },
-          {
-            "property": "Material Composition",
-            "value": "100% polyester fibre (PET)",
-            "standard": ""
-          },
-          {
-            "property": "Recycled Content",
-            "value": "Minimum 60% post-consumer recycled PET (from bottle flakes)",
-            "standard": ""
-          },
-          {
-            "property": "Fire Hazard Classification",
-            "value": "Group 1 (AS ISO 9705 - 2003); Group 1-S (ISO 9705:1993); Class B-s1, d0 (BS EN 13501-1:2018)",
-            "standard": "AS ISO 9705 / ISO 9705 / BS EN 13501-1"
-          },
-          {
-            "property": "Microbial Resistance",
-            "value": "Growth Rating: 0 (No Growth)",
-            "standard": "ASTM G21-15"
-          },
-          {
-            "property": "Impact Resistance",
-            "value": "Resists 70 Joule impact adhered to 10mm plasterboard",
-            "standard": ""
-          },
-          {
-            "property": "Volatile Organic Compounds (VOC)",
-            "value": "Low VOC, certified indoor air quality",
-            "standard": ""
-          }
-        ],
-        "range": [
-          {
-            "variant": "Accent Ceiling Tile (595 x 1195 mm)",
-            "size_or_rating": "595 mm x 1195 mm x 12 mm, NRC 0.85",
-            "pack": "Box of tiles"
-          }
-        ],
-        "fire": "AS ISO 9705 - 2003: Group 1; ISO 9705: Group 1-S; BS EN 13501-1:2018: Class B-s1, d0[][",
-        "compliance": "Complies with NCC BCA Group 1 fire regulations for interior ceiling finishes; ISO 9001 and ISO 14001 accredited manufacturing; EPD compliant with ISO 14025 and EN 15804[][][][",
-        "sustainability": "Made from 100% polyester fibre containing minimum 60% post-consumer recycled PET; 100% recyclable; certified Carbon Neutral; zero VOCs and no chemical binders[][][",
-        "install": [
-          ",\n      ",
-          "Ensure the suspended metric ceiling grid system (600 x 1200 mm) is installed square and true[",
-          ",\n      ",
-          "Take care when working around electrical wiring and services; treat all wires as live[",
-          ",\n      \"Gently tilt tile and lift up through standard 600 x 1200 mm ceiling grid opening[\",\n      ",
-          "Select desired face orientation (vibrant colour facing downward or classic white facing downward)[",
-          ",\n      ",
-          "Carefully lower tile squarely into grid flanges",
-          "avoiding edge crushing[",
-          ",\n      ",
-          "Remove the protective spun-bond cover once the tile is safely seated in the grid[",
-          ",\n      ",
-          "Where perimeter cutting is required",
-          "cut neatly using a sharp utility knife and straight edge[",
-          "Can be paired with acoustic insulation overlay batts if higher transmission loss is required["
-        ],
-        "selection_checklist": [
-          ",\n      ",
-          "Choose face colour from Autex Cube palette (over 20 colours available)[",
-          ",\n      ",
-          "Verify batch numbers match across all boxes to eliminate potential dye-lot variation[",
-          ",\n      ",
-          "Confirm acoustic target requires high reverberation control (NRC 0.85)[",
-          ",\n      ",
-          "Ensure compliance with NCC Group 1 fire hazard rating for commercial ceilings["
-        ],
-        "accessories": [
-          "Standard two-way exposed ceiling grid (15mm or 24mm tee)",
-          "Utility knife for perimeter trimming",
-          "Acoustic backing insulation batts (optional) [3.3.8]"
-        ],
-        "limitations": [
-          ",\n      ",
-          "Batch-to-batch variations can occur; do not mix different batch lots in the same space[",
-          ",\n      ",
-          "Protect edges from crushing during transport",
-          "handling",
-          "and storage[",
-          ",\n      ",
-          "Avoid direct water leaks from overhead plumbing or roof penetration["
-        ],
-        "warranty": "Manufacturer's guarantee by Autex Acoustics[][",
-        "found": true,
-        "search_keywords": [
-          "Autex Accent Ceiling Tiles",
-          "Accent Ceiling Tiles",
-          "Autex ceiling tiles",
-          "polyester acoustic ceiling tiles",
-          "coloured ceiling tiles",
-          "600x1200 acoustic ceiling tiles",
-          "drop in acoustic ceiling tiles",
-          "suspended ceiling acoustic tiles",
-          "Autex Quietspace Accent",
-          "NRC 0.85 ceiling tile"
-        ],
-        "problem_keywords": [
-          "echo in commercial office",
-          "reverberation in classroom",
-          "broken mineral fibre ceiling tiles",
-          "dusty ceiling tiles",
-          "noisy open plan workspace",
-          "drab white drop ceiling upgrade",
-          "reverberation in meeting room"
-        ],
-        "placement": [
-          "ceiling"
-        ],
-        "priority_fit": [
-          "acoustic",
-          "sustainability",
-          "easy_install",
-          "fire"
-        ],
-        "use_cases": [
-          "replacing damaged mineral fibre tiles in corporate offices to brighten aesthetics and eliminate speech echo",
-          "installing in school classrooms and lecture theatres to improve speech intelligibility and acoustic comfort",
-          "enhancing reverberation control in retail stores, restaurants, and hospitality venues using coloured tiles",
-          "retrofitting suspended ceilings in healthcare and public facilities where non-shedding, mould-resistant tiles are essential"
-        ],
-        "not_for": [
-          "high-humidity swimming pool enclosures with direct water splashing",
-          "underfloor acoustic decoupling",
-          "external roof or wall weatherproofing"
-        ],
-        "rag_summary": "Autex Accent Ceiling Tiles are lightweight, high-performance acoustic tiles measuring 595 x 1195 x 12 mm, engineered to drop directly into standard 600 x 1200 mm suspended ceiling grids. Manufactured in New Zealand and Australia from 100% polyester fibre with a minimum of 60% recycled PET, they feature a reversible dual-sided design (smooth classic white on one side and a choice of over 20 vibrant colours on the other). With an outstanding NRC of 0.85 (Class A sound absorption), Group 1 fire classification, and certified carbon-neutral credentials, they solve commercial noise reverberation without chipping, cracking, or releasing airborne fibres."
+        "c0": "QT-4850",
+        "c1": "48 mm",
+        "c2": "50 m",
+        "c3": "Blue woven polymer fabric",
+        "c4": "Cold-weather acrylic (-30°C to +80°C)",
+        "c5": "Linerless (None)",
+        "c6": "24 rolls"
+      },
+      {
+        "c0": "QT-7250",
+        "c1": "72 mm",
+        "c2": "50 m",
+        "c3": "Blue woven polymer fabric",
+        "c4": "Cold-weather acrylic (-30°C to +80°C)",
+        "c5": "Linerless (None)",
+        "c6": "16 rolls"
+      },
+      {
+        "c0": "QT-4850-NL",
+        "c1": "48 mm",
+        "c2": "50 m",
+        "c3": "Trade Blue (Unlabelled commercial)",
+        "c4": "Cold-weather acrylic",
+        "c5": "Linerless (None)",
+        "c6": "24 rolls"
+      },
+      {
+        "c0": "QT-7250-NL",
+        "c1": "72 mm",
+        "c2": "50 m",
+        "c3": "Trade Blue (Unlabelled commercial)",
+        "c4": "Cold-weather acrylic",
+        "c5": "Linerless (None)",
+        "c6": "16 rolls"
       }
-    ],
-    "applications": null,
-    "technical": null,
-    "range": null,
-    "fire": null,
-    "compliance": null,
-    "sustainability": null,
-    "install": null,
-    "selection_checklist": null,
-    "accessories": null,
-    "limitations": null,
-    "warranty": null
+    ]
   },
   "retrieval": {
-    "search_keywords": null,
-    "problem_keywords": null,
-    "placement": null,
-    "priority_fit": null,
-    "use_cases": null,
-    "not_for": null,
-    "rag_summary": null
+    "search_keywords": [
+      "Ametalin blue tape",
+      "QuickTape",
+      "VapourTech tape",
+      "hand tearable sarking tape",
+      "linerless building tape"
+    ],
+    "problem_keywords": [
+      "Installer annoyed by release paper blowing all over site on windy days, tape not sticking in sub-zero winter mornings, slow knife-cutting on scaffolding."
+    ],
+    "placement": [
+      "External wall",
+      "duct penetrations",
+      "roof",
+      "roofline",
+      "wall"
+    ],
+    "not_for": [
+      "not_for): Not designed for permanent direct UV sunlight exceeding 60 days (cladding must enclose it)."
+    ],
+    "use_cases": [
+      "72mm for roof sarking and pipe penetrations.",
+      "Recommend for sealing non-woven vapour-permeable wraps (like Ametalin VapourTech). 48mm for wall laps"
+    ]
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "knowledge_base_txt",
+  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
 }

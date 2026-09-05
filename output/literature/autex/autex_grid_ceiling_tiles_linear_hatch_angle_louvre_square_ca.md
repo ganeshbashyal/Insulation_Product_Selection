@@ -1,6 +1,6 @@
 ---
 title: "Autex Grid Ceiling Tiles - Linear/Hatch/Angle/Louvre - Square - Capped - Panel Insulation | Autex"
-description: "Autex Grid Ceiling Tiles - Linear/Hatch/Angle/Louvre - Square - Capped is a modular 595mm x 595mm 3D acoustic ceiling tile designed for standard 600mm"
+description: "Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability"
 keywords: "Autex Grid Ceiling Tiles - Linear/Hatch/Angle/Louvre - Square - Capped, Autex panel, ceiling insulation, insulation Australia, Autex Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AUTEX_GRID_CEILING_TILES_LINEAR_HATCH_ANGLE_LO_3
@@ -10,94 +10,76 @@ family_id: AUTEX_GRID_CEILING_TILES_LINEAR_HATCH_ANGLE_LO_3
 
 **Autex Panel** — acoustic panels for sound absorption and interior finish.
 
-Autex Grid Ceiling Tiles - Linear/Hatch/Angle/Louvre - Square - Capped is a modular 595mm x 595mm 3D acoustic ceiling tile designed for standard 600mm x 600mm suspended grid systems. Available in directional Linear, cross-hatch Hatch, slanted Angle, or Louvre designs, this capped variant incorporates an integrated acoustic backing cap that conceals overhead plenum services. Crafted from 100% polyester fibre with a minimum of 60% recycled PET, it provides exceptional acoustic absorption (NRC 0.60 - 0.75+) and Group 1 fire safety.
+Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability.
 
 ## Key features
 
-- Modular 3D square acoustic tile for standard 600mm x 600mm ceiling grids.
-- Four distinct architectural slatted styles: Linear, Hatch, Angle, and Louvre.
-- Capped design incorporates a solid acoustic backing cap to conceal the plenum.
-- Delivers high acoustic absorption with NRC up to 0.60 - 0.75+.
-- Manufactured from 100% polyester fibre with a minimum of 60% recycled PET.
-- Group 1 fire rating compliant with AS ISO 9705 - 2003 and AS 5637.1.
-- Non-toxic, non-allergenic, non-irritant, and free of chemical binders.
-- Certified Carbon Neutral product with third-party verified EPD.
-- Lightweight, durable polyester that will not warp, chip, or crack over time.
-- Extensive selection of solid colourways from the Autex Cube collection.
+- 100% polyester - safe to handle without protective equipment.
+- contains minimum 80% recycled PET plastic bottles.
+- non-allergenic, non-irritant formulation.
+- will not support mould or mildew growth.
+- maintains performance when wet.
+- excellent thermal performance for roof/ceiling applications.
+- Made from recycled PET bottles.
+- Safe to handle without PPE.
 
 ## Applications and selection
 
-- ceiling
-- commercial office
-- meeting room
-- education
-- retail
-- hospitality
+- Ceiling
 
 **Selection checklist**
 
-1. Select desired style: Linear (parallel slats), Hatch (cross-hatch), Angle (slanted), or Louvre (louvred).
-2. Confirm grid size is square metric 600mm x 600mm.
-3. Confirm capped version is selected for maximum sound absorption and complete plenum concealment.
-4. Choose colour from Autex Cube palette.
-5. Check available ceiling plenum depth.
+1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
+2. Confirm the target rating and construction build-up with the project team.
+3. Confirm available cavity or fixing depth against the product dimensions.
+4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
+5. Record the suburb/postcode so climate-zone requirements can be checked.
 
 
 ## Current catalogue range
 
 | Variant | Size / rating | Pack |
 | --- | --- | --- |
-| Grid Ceiling Tiles - Linear/Hatch/Angle/Louvre Square Capped | 595mm x 595mm (Square 600x600 grid) | Pack of tiles (typically 8 tiles per pack) |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
 
 _Variants from the manufacturer datasheet._
 
 ## Technical data
 
-| Property | Value | Standard |
+| Property | Value | Source |
 | --- | --- | --- |
-| Tile Dimensions | 595 mm x 595 mm (depth varies, typically 80 mm - 103 mm) | - |
-| Ceiling Grid Compatibility | Standard 600 mm x 600 mm metric grid (15mm / 24mm T-bar) | - |
-| Material Composition | 100% polyester fibre (PET) Cube panel | - |
-| Recycled Content | Minimum 60% post-consumer recycled PET | - |
-| Sound Absorption (NRC) | 0.60 - 0.75+ (capped configuration) | ISO 354 |
-| Fire Hazard Classification | Group 1, SMOGRArc < 100 m2/s2 | AS ISO 9705 - 2003 / AS 5637.1:2015 |
-| International Fire Rating | Group 1-S (ISO 9705:1993) / B-s2, d0 (BS EN 13501-1:2018) | ISO 9705 / BS EN 13501-1 |
-| VOC Emissions | < 0.092 mg/m3 (7 days) | CDPH Standard Method v1.2 |
-| Microbial Resistance | Growth rating: 0 (No growth) | ASTM G21-15 |
+| Product type | Panel | Manufacturer catalogue |
+| Material | Polyester | Manufacturer catalogue |
+| Applications | Ceiling | Manufacturer catalogue |
+| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
 
-Extracted from manufacturer datasheet: https://www.autexglobal.com/au/products/grid-ceiling-tiles/
+
 
 ## Fire, testing and compliance context
 
-Group 1 (AS ISO 9705 - 2003 / AS 5637.1:2015); Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a); B-s2, d0 (BS EN 13501-1:2018)
-
-NCC BCA Specification C1.10 Group 1 fire compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.autexacoustics.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://insulvac.com.au/wp-content/uploads/2020/04/autex-material-safety-data-sheet-msds.pdf.
 
-## Recommended accessories
-
-- Standard two-way exposed ceiling grid (15mm or 24mm tee).
-- Utility knife for perimeter cuts.
-
 
 ## Limitations and warnings
 
-- Tile depth (approx 80-103mm) requires adequate clearance beneath overhead services.
-- Not designed for direct exposure to water leaks, steam, or outdoor weather.
-- Do not mix batches in the same contiguous ceiling area.
+- Not suitable for fire rating without additional protection..
+- not to be exposed to weather or sustained moisture..
+- do not compress beyond manufacturer recommendations..
+- check fire-rated system requirements..
+- confirm product selection matches specified thermal/acoustic/fire rating..
 
 ## Installation overview
 
-1. Confirm 600mm x 600mm suspended grid is level and square.
-2. Ensure all tiles for the space are from the same production batch.
-3. Assemble slatted square tile with its backing cap securely fastened to the top.
-4. Tilt the assembled capped tile and pass it upward through the grid opening.
-5. Lower onto the grid tees, ensuring edges seat evenly on all sides.
-6. Align directional slats consistently or create alternating quarter-turn checkerboard patterns.
+Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for fire rating without additional protection.
 
 ## Safety and handling
 
@@ -105,11 +87,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Certified Carbon Neutral; minimum 60% recycled PET; Declare Red List Free; EPD compliant with ISO 14025 and EN 15804
+Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
 
 ## Warranty, returns and support
 
-Manufacturer's Guarantee (minimum 10 years)
+No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
 
 ## Specification starting point
 

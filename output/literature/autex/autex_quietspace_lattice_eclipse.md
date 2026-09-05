@@ -1,7 +1,7 @@
 ---
 title: "Autex Quietspace Lattice - Eclipse - Panel Insulation | Autex"
-description: "Autex Quietspace Lattice - Eclipse is an architectural suspended acoustic ceiling baffle system featuring an organic, cloud-like seedpod form. Constru"
-keywords: "Autex Quietspace Lattice - Eclipse, Autex panel, ceiling insulation, insulation Australia, Autex Australia"
+description: "Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled pla"
+keywords: "Autex Quietspace Lattice - Eclipse, Autex panel, acoustic insulation, wall insulation, ceiling insulation, insulation Australia, Autex Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AUTEX_QUIETSPACE_LATTICE_ECLIPSE
 ---
@@ -10,98 +10,73 @@ family_id: AUTEX_QUIETSPACE_LATTICE_ECLIPSE
 
 **Autex Panel** — acoustic panels for sound absorption and interior finish.
 
-Autex Quietspace Lattice - Eclipse is an architectural suspended acoustic ceiling baffle system featuring an organic, cloud-like seedpod form. Constructed from 100% polyester fibre using 12mm semi-rigid Cube acoustic fins, its intersecting lattice grid covers a greater surface area than traditional parallel baffles to capture ambient speech and reverberation. Supplied flat-packed with dedicated suspension hardware, it provides Class A sound absorption (NRC 1.00) and Group 1 fire safety for open-plan commercial, educational, and hospitality interiors.
+Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled plastic bottles, it's the sustainable choice for modern buildings.
 
 ## Key features
 
-- Sculpted organic cloud/seedpod form (Eclipse) creating a statement ceiling sculpture.
-- Intersecting lattice grid fin design covers greater surface area than parallel baffle systems.
-- Constructed from 100% polyester fibre containing minimum 65% to 80% recycled PET.
-- Premium Class A sound absorption achieving an NRC of 1.00 (2.05 - 2.10 metric Sabins per unit).
-- Group 1 fire rating compliant with AS ISO 9705 - 2003 and AS 5637.1.
-- Assembled dimensions: 1197 mm x 2346 mm x 337 mm depth.
-- Supplied flat-packed with complete suspension kit including 4 x 1m cables and ceiling mounts.
-- Lightweight, structurally stable, and will not warp, sag, or crumble over time.
-- Resistant to moisture, mould, and mildew (ASTM G21-15 Growth Rating: 0).
-- Certified Carbon Neutral product with third-party verified EPD.
+- 100% polyester - safe to handle without protective equipment.
+- contains minimum 80% recycled PET plastic bottles.
+- non-allergenic, non-irritant formulation.
+- will not support mould or mildew growth.
+- maintains performance when wet - dries out naturally.
+- excellent thermal performance for roof/ceiling applications.
+- helps meet NCC energy efficiency requirements.
+- Made from recycled PET bottles.
 
 ## Applications and selection
 
-- ceiling
-- open-plan office
-- commercial interior
-- education
-- hospitality
+- Internal Wall | Ceiling | General Acoustic
 
 **Selection checklist**
 
-1. Confirm ceiling height and available overhead clearance for 337mm deep structure.
-2. Verify ceiling structure capacity for 4-point cable suspension.
-3. Select colour from the Autex Cube palette.
-4. Confirm Eclipse form is chosen (undulating organic seedpod profile).
-5. Verify space clearances around mechanical ducts, lights, and fire sprinklers.
+1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
+2. Confirm the target rating and construction build-up with the project team.
+3. Confirm available cavity or fixing depth against the product dimensions.
+4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
+5. Record the suburb/postcode so climate-zone requirements can be checked.
 
 
 ## Current catalogue range
 
 | Variant | Size / rating | Pack |
 | --- | --- | --- |
-| Lattice Eclipse | 1197 mm x 2346 mm x 337 mm | Kit (unassembled fins + 4 x 1m cables + mounts) |
+|  |  |  |
+|  |  |  |
 
 _Variants from the manufacturer datasheet._
 
 ## Technical data
 
-| Property | Value | Standard |
+| Property | Value | Source |
 | --- | --- | --- |
-| Acoustic Performance (Sabins per unit) | 2.10 Sabins (direct fixed); 2.05 Sabins (suspended 200 mm) | ISO 354 |
-| Equivalent NRC | 1.00 (Class A sound absorption) | ISO 354 / ISO 11654 |
-| Assembled Dimensions | 1197 mm width x 2346 mm length x 337 mm depth (tolerance +/- 0.5 mm) | - |
-| Fin Material Thickness | 12 mm Cube | - |
-| Density | 192 kg/m3 (Cube base material) | - |
-| Composition | 100% polyester fibre (PET) | - |
-| Recycled Content | Minimum 65% to 80% post-consumer recycled PET | - |
-| Fire Rating (Australia) | Group 1, SMOGRArc < 100 m2/s2 | AS ISO 9705 - 2003 / AS 5637.1 |
-| International Fire Rating | Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a: FS:0 - SD:45); B - s1, d0 (BS EN 13501-1:2018) | ISO 9705 / ASTM E-84 / BS EN 13501-1 |
-| Water Vapour Sorption | < 0.03% by weight after 4 days at 50°C, 90% RH | - |
-| Microbial Resistance | Growth rating: 0 (No growth) | ASTM G21-15 |
-| VOC Emissions | < 0.092 mg/m3 (7 days) | CDPH Standard Method v1.2 |
+| Product type | Panel | Manufacturer catalogue |
+| Material | Polyester | Manufacturer catalogue |
+| Applications | Internal Wall | Ceiling | General Acoustic | Manufacturer catalogue |
+| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
 
-Extracted from manufacturer datasheet: https://www.autexglobal.com/au/products/lattice/
+
 
 ## Fire, testing and compliance context
 
-AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1; ISO 9705:1993 Group 1-S; ASTM E-84-15a Class A; BS EN 13501-1:2018 B - s1, d0
-
-NCC Specification 7 (BCA C1.10) Group 1 fire compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.autexacoustics.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://insulvac.com.au/wp-content/uploads/2020/04/autex-material-safety-data-sheet-msds.pdf.
 
-## Recommended accessories
-
-- Suspension kit (4 x 1m galvanised cables, 4 x ceiling mounts, 4 x Velda clips, 4 x alloy tube inserts).
-- Spirit level.
-- Tape measure.
-
 
 ## Limitations and warnings
 
-- Indoor ceiling installation only; not suitable for exterior use or wet environments.
-- Non-load bearing decorative baffle; do not suspend luminaires or services from fins.
-- Must be assembled on a clean, protected floor surface to prevent marking the felt.
+- Not suitable for applications requiring fire rating without additional protection..
+- not to be exposed to weather or sustained moisture..
+- do not compress beyond manufacturer recommendations..
+- check fire-rated system requirements if fire rating is required..
+- confirm product selection matches specified thermal/acoustic/fire rating..
 
 ## Installation overview
 
-1. Unpack Lattice components and inspect all fins and suspension hardware.
-2. Slot intersecting 12mm Cube fins together on a clean, soft work surface according to the assembly diagram.
-3. Insert alloy tube inserts and secure Velda cable clips into designated locking fin slots.
-4. Measure and mark 4 suspension anchor points on the ceiling substrate to match cable spacing.
-5. Fasten ceiling mounts securely to the ceiling structure using appropriate anchors.
-6. Thread 1m galvanised suspension cables into ceiling mounts and adjust to desired hanging height.
-7. Hook cables into the Lattice clips and level the assembled sculpture using a spirit level.
+Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for applications requiring fire rating without additional protection.
 
 ## Safety and handling
 
@@ -109,11 +84,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Carbon neutral product; minimum 65% to 80% recycled PET; Declare Red List Free; EPD compliant with ISO 14025 and EN 15804; low VOC
+Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
 
 ## Warranty, returns and support
 
-Manufacturer's Guarantee (10 years)
+No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
 
 ## Specification starting point
 

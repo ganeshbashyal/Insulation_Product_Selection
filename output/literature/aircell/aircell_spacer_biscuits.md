@@ -1,7 +1,7 @@
 ---
 title: "Aircell Spacer Biscuits - Reflective Insulation | Aircell"
-description: "Kingspan AIR-CELL Spacer Biscuits are made of expanded black polyethylene material and are used to achieve and maintain adequate reflective air spaces"
-keywords: "Aircell Spacer Biscuits, Aircell reflective, wall insulation, insulation Australia, Aircell Australia"
+description: "Quality insulation engineered for Australian conditions. Reflects up to 97% of radiant heat, dramatically reducing summer cooling costs while providin"
+keywords: "Aircell Spacer Biscuits, Aircell reflective, insulation Australia, Aircell Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AIRCELL_SPACER_BISCUITS
 ---
@@ -10,80 +10,53 @@ family_id: AIRCELL_SPACER_BISCUITS
 
 **Aircell Reflective** — reflective foil insulation for radiant heat control.
 
-Kingspan AIR-CELL Spacer Biscuits are made of expanded black polyethylene material and are used to achieve and maintain adequate reflective air spaces between reflective insulation and the adjacent material[]. The biscuits are slit to allow easy placement over wall ties and provide strong holding power with no long-term deterioration[]. Adhesive backed for ease of use on foil faces, they can be re-positioned to allow alignment with the substrate[].
+Quality insulation engineered for Australian conditions. Reflects up to 97% of radiant heat, dramatically reducing summer cooling costs while providing an effective vapour barrier.
 
 ## Key features
 
-- Adhesive backed for ease of use on foil face [2.3.1].
-- Can be re-positioned allowing alignment with substrate[.
-- Assists in maintaining adequate reflective air spaces in wall applications.
-- Made of expanded black polyethylene material[.
-- Slit to allow easy placement over wall ties[.
-- Provides strong holding power with no long-term deterioration[.
-- Fibre-free, non-allergenic and non-irritant.
-- Manufactured under ISO 9001:2008 Quality Management system[][.
+- High-purity aluminium reflective facing.
+- reflects up to 97% of radiant heat.
+- lightweight and easy to install.
+- provides vapour barrier when properly sealed.
 
 ## Applications and selection
 
-- double brick cavity walls
-- brick veneer cavity walls
-- metal and timber framed walls
+- General Installation
 
 **Selection checklist**
 
-1. Confirm wall system type (masonry cavity vs framed cladding) [1.1.9].
-2. Confirm wire wall tie compatibility and thickness allowance (20mm)[][.
-3. Calculate quantity required based on approx. 1 biscuit per square metre[][.
-4. Choose pack size (bag of 50 or box of 400).
+1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
+2. Confirm the target rating and construction build-up with the project team.
+3. Confirm available cavity or fixing depth against the product dimensions.
+4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
+5. Record the suburb/postcode so climate-zone requirements can be checked.
 
 
 ## Current catalogue range
 
-| Variant | Size / rating | Pack |
-| --- | --- | --- |
-| AIR-CELL Spacer Biscuits 50 pc | 60 x 60 x 20 mm | Bag of 50 pcs |
-| AIR-CELL Spacer Biscuits 400 pc | 60 x 60 x 20 mm | Box of 400 pcs |
-
-_Variants from the manufacturer datasheet._
+| Rating | Type | Thickness | Dimensions | SKUs |
+| --- | --- | --- | --- | --- |
+| Not specified | unspecified | Varies | Varies | 1 |
 
 ## Technical data
 
-| Property | Value | Standard |
+| Property | Value | Source |
 | --- | --- | --- |
-| Dimensions | 60 x 60 mm | - |
-| Thickness | 20 mm | - |
-| Material | Expanded black polyethylene | - |
-| Service Temperature Range | -20°C to +85°C | - |
-| Intermittent Temperature | 105°C | - |
-| Unit Weight (Bag of 50 pc) | 200 g | - |
-| Unit Weight (Box of 400 pc) | 1.8 kg | - |
-| Unit Size (Bag of 50 pc) | 320 x 120 x 520 mm | - |
-| Unit Size (Box of 400 pc) | 390 x 385 x 460 mm | - |
+| Product type | Reflective | Manufacturer catalogue |
+| Material | Reflective Composite | Manufacturer catalogue |
+| Applications | General Installation | Manufacturer catalogue |
+| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
 
-Extracted from manufacturer datasheet: https://www.insulation.kingspan.com/au/en/products/reflective-insulation/air-cell-spacer-biscuits
+
 
 ## Fire, testing and compliance context
 
-Service temperature -20°C to +85°C; intermittent up to 105°C
-
-ISO 9001:2008 Quality Management; NCC compliant system component when used with Kingspan AIR-CELL insulation[][][
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.kingspan.com/au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://www.allcongroup.com.au/wp-content/uploads/2025/10/kingspan-greenguard-safety-data-sheet-en-au.pdf.
-
-## Recommended accessories
-
-- ,.
-- Kingspan AIR-CELL Permishield XV 70[.
-- ,.
-- Kingspan AIR-CELL reinforced foil tape (48mm)[.
-- ], "limitations": [.
-- Maximum continuous service temperature 85°C.
-- intermittent 105°C.
-- Avoid contact with sparks, open flame and hot tools [1.2.9].
-- Non-load bearing accessory.
 
 
 ## Limitations and warnings
@@ -95,14 +68,7 @@ ISO 9001:2008 Quality Management; NCC compliant system component when used with 
 
 ## Installation overview
 
-1. In cavity brick walls, lay outer leaf of brickwork with wire wall ties in place [1.1.9].
-2. Clip Spacer Biscuit onto wire tie and push firmly against the brickwork[.
-3. Install approximately one biscuit per square metre or onto every second tie to maintain a nominal 20mm air space[][.
-4. Roll out AIR-CELL horizontally with anti-glare facing the installer and offer up to wall[][.
-5. Cut a slit in the AIR-CELL for each wire tie to protrude through using a sharp knife[.
-6. Push AIR-CELL over ties until firmly against the Spacer Biscuit[.
-7. In framed walls, peel adhesive backing and stick Spacer Biscuits to outside of AIR-CELL between framework[.
-8. Fix external cladding through the AIR-CELL to the frame ensuring maintained airspace[.
+Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Reflective performance requires maintained airspace.
 
 ## Safety and handling
 
@@ -110,11 +76,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Fibre-free core, non-hazardous, chemically inert polyethylene
+Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
 
 ## Warranty, returns and support
 
-Covered under Kingspan AIR-CELL warranty system[
+No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
 
 ## Specification starting point
 

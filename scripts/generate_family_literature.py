@@ -37,7 +37,7 @@ sys.path.insert(0, str(ROOT))
 OUT_DIR = ROOT / "output" / "literature"
 SKU_CSV = ROOT / "data" / "processed" / "product_catalogue_skus.csv"
 STATE_FILE = OUT_DIR / ".literature_state.json"
-GENERATOR_VERSION = "8"  # bump when the template changes so all outputs regenerate
+GENERATOR_VERSION = "4"  # bump when the template changes so all outputs regenerate
 
 CATEGORY_TAGLINES = {
     "Batt": "bulk insulation batts for thermal and acoustic performance",

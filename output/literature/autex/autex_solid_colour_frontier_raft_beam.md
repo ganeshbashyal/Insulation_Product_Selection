@@ -1,7 +1,7 @@
 ---
 title: "Autex Solid Colour Frontier Raft beam - Batt Insulation | Autex"
-description: "Autex Frontier Raft - Beam (Solid Colour) is a modular acoustic ceiling beam system designed for targeted sound absorption in open-plan spaces. Constr"
-keywords: "Autex Solid Colour Frontier Raft beam, Autex batt, ceiling insulation, insulation Australia, Autex Australia"
+description: "Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability"
+keywords: "Autex Solid Colour Frontier Raft beam, Autex batt, acoustic insulation, ceiling insulation, insulation Australia, Autex Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AUTEX_SOLID_COLOUR_FRONTIER_RAFT_BEAM
 ---
@@ -10,102 +10,74 @@ family_id: AUTEX_SOLID_COLOUR_FRONTIER_RAFT_BEAM
 
 **Autex Batt** — bulk insulation batts for thermal and acoustic performance.
 
-Autex Frontier Raft - Beam (Solid Colour) is a modular acoustic ceiling beam system designed for targeted sound absorption in open-plan spaces. Constructed from scored and folded 12mm Cube polyester felt locked with an extruded aluminium channel, the Beam style is available in Beam 100 (87mm high x 70mm wide) and Beam 250 (227mm high x 70mm wide). With an internal sound-dampening air gap, it delivers high acoustic performance (NRC 0.75 - 0.95) in solid through-core Cube colours while remaining lightweight and Group 1 fire compliant.
+Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability.
 
 ## Key features
 
-- Sleek rectangular beam profile with internal air gap for enhanced acoustic absorption.
-- Available in Beam 100 (87mm depth) and Beam 250 (227mm depth).
-- Constructed from 12mm Cube polyester felt in solid colour throughout.
-- Achieves sound absorption ratings of NRC 0.75 to 0.95 depending on spacing.
-- Lightweight alternative to solid timber or metal ceiling beams.
-- Made from 100% polyester fibre containing a minimum of 60% to 80% recycled PET.
-- Group 1 fire rating compliant with AS ISO 9705 - 2003 and AS 5637.1.
-- Compatible with Frontier mounting clips and adjustable suspension systems.
-- Durable material that will not bend, warp, or slump over time.
-- Certified Carbon Neutral product with third-party verified EPD.
+- 100% polyester - safe to handle without protective equipment.
+- contains minimum 80% recycled PET plastic bottles.
+- non-allergenic, non-irritant formulation.
+- will not support mould or mildew growth.
+- maintains performance when wet.
+- excellent thermal performance for roof/ceiling applications.
+- Made from recycled PET bottles.
+- Safe to handle without PPE.
 
 ## Applications and selection
 
-- ceiling
-- open-plan office
-- commercial interior
-- education
-- hospitality
-- retail
+- Ceiling | General Acoustic
 
 **Selection checklist**
 
-1. Select Beam depth (Beam 100 at 87mm or Beam 250 at 227mm).
-2. Confirm beam length (1200mm or 2400mm; custom lengths available).
-3. Choose colour from the solid Cube colour palette (23+ colours).
-4. Verify spacing (150mm for Beam 100; 300mm for Beam 250) to calculate pack requirements.
-5. Determine direct-fix or suspended installation hardware requirement.
+1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
+2. Confirm the target rating and construction build-up with the project team.
+3. Confirm available cavity or fixing depth against the product dimensions.
+4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
+5. Record the suburb/postcode so climate-zone requirements can be checked.
 
 
 ## Current catalogue range
 
 | Variant | Size / rating | Pack |
 | --- | --- | --- |
-| Frontier Raft Beam 100 (2400mm) | 2400mm L x 70mm W x 87mm H | Pack of 8 beams (covers 2.88 m2 at 150mm centres) |
-| Frontier Raft Beam 100 (1200mm) | 1200mm L x 70mm W x 87mm H | Pack of 16 beams (covers 2.88 m2 at 150mm centres) |
-| Frontier Raft Beam 250 (2400mm) | 2400mm L x 70mm W x 227mm H | Pack of 4 beams (covers 2.88 m2 at 300mm centres) |
-| Frontier Raft Beam 250 (1200mm) | 1200mm L x 70mm W x 227mm H | Pack of 8 beams (covers 2.88 m2 at 300mm centres) |
+|  |  |  |
+|  |  |  |
+|  |  |  |
 
 _Variants from the manufacturer datasheet._
 
 ## Technical data
 
-| Property | Value | Standard |
+| Property | Value | Source |
 | --- | --- | --- |
-| Acoustic Performance | NRC 0.75 - 0.95 (Beam 100: NRC 0.80 at 150mm centres, 200mm off ceiling; Beam 250: NRC 0.90 at 300mm centres) | ISO 354 |
-| Profile Dimensions (Beam 100) | 70 mm width x 87 mm height (2400 mm or 1200 mm length) | - |
-| Profile Dimensions (Beam 250) | 70 mm width x 227 mm height (2400 mm or 1200 mm length) | - |
-| Base Material Thickness | 12 mm Cube panel | - |
-| Material Composition | 100% polyester fibre (PET) with aluminium extrusion channel | - |
-| Recycled Content | Minimum 60% to 80% post-consumer recycled PET | - |
-| Fire Hazard Classification | Group 1, SMOGRArc < 100 m2/s2 | AS ISO 9705 - 2003 / AS 5637.1:2015 |
-| International Fire Rating | Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a: FS:0 - SD:45); B - s2, d0 (BS EN 13501-1:2018) | ISO 9705 / ASTM E-84 / BS EN 13501-1 |
-| Water Vapour Sorption | 0.4% by weight after 4 days at 49°C, 95% RH | ASTM C1104 / C1104M-13a |
-| Microbial Resistance | Growth rating: 0 (No growth) | ASTM G21-15 |
-| VOC Emissions | < 0.092 mg/m3 (7 days) | CDPH Standard Method v1.2 |
+| Product type | Batt | Manufacturer catalogue |
+| Material | Polyester | Manufacturer catalogue |
+| Applications | Ceiling | General Acoustic | Manufacturer catalogue |
+| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
 
-Extracted from manufacturer datasheet: https://www.autexglobal.com/au/products/frontier/
+
 
 ## Fire, testing and compliance context
 
-AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM E-84-15a Class A; BS EN 13501-1:2018 B - s2, d0
-
-NCC Specification 7 (BCA C1.10) Group 1 fire compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.autexacoustics.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://insulvac.com.au/wp-content/uploads/2020/04/autex-material-safety-data-sheet-msds.pdf.
 
-## Recommended accessories
-
-- Frontier Raft Extrusions (RAFNEXRT).
-- Autex Mounting Clips (RAFTCC).
-- Frontier Channel Connectors (RAFCCT).
-- Adjustable suspension cable sets / rod hangers.
-- Frontier Beam end caps.
-
 
 ## Limitations and warnings
 
-- Indoor ceiling application only; not for external use or wet environments.
-- Non-load-bearing beam; cannot support luminaires or heavy ceiling services directly.
-- Wider spacing will reduce overall acoustic absorption in the room.
+- Not suitable for fire rating without additional protection..
+- not to be exposed to weather or sustained moisture..
+- do not compress beyond manufacturer recommendations..
+- check fire-rated system requirements..
+- confirm product selection matches specified thermal/acoustic/fire rating..
 
 ## Installation overview
 
-1. Plan ceiling layout allowing recommended spacing (150mm centres for Beam 100; 300mm centres for Beam 250).
-2. Install Frontier mounting clips or suspension track securely to structural ceiling.
-3. Slide RAFNEXRT aluminium extrusion into the folded Beam raft top channel.
-4. Align Autex mounting clips with channel and turn 45 degrees to temporarily position.
-5. Adjust along length and twist clips 90 degrees to lock firmly into place.
-6. Fit black extrusion end caps to beam ends for a clean aesthetic finish.
+Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for fire rating without additional protection.
 
 ## Safety and handling
 
@@ -113,11 +85,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Contains minimum 60% to 80% recycled PET; zero carbon manufacturing; Declare Red List Free; EPD verified; low VOC
+Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
 
 ## Warranty, returns and support
 
-10 Year Manufacturer's Guarantee
+No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
 
 ## Specification starting point
 

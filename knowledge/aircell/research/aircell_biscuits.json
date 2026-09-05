@@ -1,157 +1,67 @@
 {
   "family_id": "AIRCELL_BISCUITS",
   "family_name": "Aircell Biscuits",
-  "datasheet_pdf_url": "https://www.insulation.kingspan.com/au/en/products/reflective-insulation/air-cell-spacer-biscuits",
-  "sds_url": "https://www.insulation.kingspan.com/au/en/products/reflective-insulation/",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
   "status": "ok",
   "researched_at": "2026-09-06",
   "spec": {
-    "description": "Kingspan AIR-CELL Spacer Biscuits are manufactured from expanded black polyethylene material and are engineered to achieve and maintain adequate reflective air spaces between reflective insulation and adjacent materials. They are slit to allow effortless placement over wall ties, providing strong holding power with no long-term deterioration. Adhesive backed for ease of installation onto foil facings, they can be re-positioned to ensure proper alignment with the wall substrate.",
-    "features": [
-      "Adhesive backed for ease of use on foil face",
-      "Can be re-positioned to allow alignment with substrate",
-      "Assists in maintaining adequate reflective air spaces in wall applications",
-      "Made of expanded black polyethylene material",
-      "Slit to allow easy placement over wall ties",
-      "Provides strong holding power with no long-term deterioration",
-      "Fibre-free, non-allergenic and non-irritant",
-      "Manufactured under ISO 9001:2008 Quality Management system"
-    ],
-    "applications": [
-      "double brick cavity walls",
-      "brick veneer cavity walls",
-      "metal and timber framed walls"
-    ],
-    "technical": [
-      {
-        "property": "Dimensions",
-        "value": "60 x 60 mm",
-        "standard": ""
-      },
-      {
-        "property": "Thickness",
-        "value": "20 mm",
-        "standard": ""
-      },
-      {
-        "property": "Material",
-        "value": "Expanded black polyethylene",
-        "standard": ""
-      },
-      {
-        "property": "Service Temperature Range",
-        "value": "-20°C to +85°C",
-        "standard": ""
-      },
-      {
-        "property": "Intermittent Temperature",
-        "value": "105°C",
-        "standard": ""
-      },
-      {
-        "property": "Unit Weight (Bag of 50 pc)",
-        "value": "200 g",
-        "standard": ""
-      },
-      {
-        "property": "Unit Weight (Box of 400 pc)",
-        "value": "1.8 kg",
-        "standard": ""
-      },
-      {
-        "property": "Unit Size (Bag of 50 pc)",
-        "value": "320 x 120 x 520 mm",
-        "standard": ""
-      },
-      {
-        "property": "Unit Size (Box of 400 pc)",
-        "value": "390 x 385 x 460 mm",
-        "standard": ""
-      }
-    ],
     "range": [
       {
-        "variant": "AIR-CELL Spacer Biscuits 50 pc",
-        "size_or_rating": "60 x 60 x 20 mm",
-        "pack": "Bag of 50 pcs"
+        "c0": "Product Item",
+        "c1": "Thickness / Airspace Created",
+        "c2": "Dimensions",
+        "c3": "Pack Form",
+        "c4": "Quantity per Pack",
+        "c5": "Pack Weight",
+        "c6": "Nominal Coverage"
       },
       {
-        "variant": "AIR-CELL Spacer Biscuits 400 pc",
-        "size_or_rating": "60 x 60 x 20 mm",
-        "pack": "Box of 400 pcs"
+        "c0": "Spacer Biscuits (Small Bag)",
+        "c1": "20 mm",
+        "c2": "60 mm × 60 mm",
+        "c3": "Bag",
+        "c4": "50 pcs",
+        "c5": "0.20 kg",
+        "c6": "~50 m² of wall"
+      },
+      {
+        "c0": "Spacer Biscuits (Trade Carton)",
+        "c1": "20 mm",
+        "c2": "60 mm × 60 mm",
+        "c3": "Box",
+        "c4": "400 pcs",
+        "c5": "1.80 kg",
+        "c6": "~400 m² of wall"
       }
-    ],
-    "fire": "Service temperature -20°C to +85°C; intermittent up to 105°C",
-    "compliance": "ISO 9001:2008 Quality Management; NCC compliant system component when used with Kingspan AIR-CELL insulation",
-    "sustainability": "Fibre-free core, non-hazardous, chemically inert polyethylene",
-    "install": [
-      "In cavity brick walls, lay outer leaf of brickwork with wire wall ties in place",
-      "Clip Spacer Biscuit onto wire tie and push firmly against the brickwork",
-      "Install approximately one biscuit per square metre or onto every second tie to maintain a nominal 20mm air space",
-      "Roll out AIR-CELL horizontally with anti-glare facing the installer and offer up to wall",
-      "Cut a slit in the AIR-CELL for each wire tie to protrude through using a sharp knife",
-      "Push AIR-CELL over ties until firmly against the Spacer Biscuit",
-      "In framed walls, peel adhesive backing and stick Spacer Biscuits to outside of AIR-CELL between framework",
-      "Fix external cladding through the AIR-CELL to the frame ensuring maintained airspace"
-    ],
-    "selection_checklist": [
-      "Confirm wall system type (masonry cavity vs framed cladding)",
-      "Confirm wire wall tie compatibility and thickness allowance (20mm)",
-      "Calculate quantity required based on approx. 1 biscuit per square metre",
-      "Choose pack size (bag of 50 or box of 400)"
-    ],
-    "accessories": [
-      "Kingspan AIR-CELL Permicav XV",
-      "Kingspan AIR-CELL Permishield XV 70",
-      "Kingspan AIR-CELL reinforced foil tape (48mm)"
-    ],
-    "limitations": [
-      "Maximum continuous service temperature 85°C, intermittent 105°C",
-      "Avoid contact with sparks, open flame and hot tools",
-      "Non-load bearing accessory"
-    ],
-    "warranty": "Covered under Kingspan AIR-CELL warranty system"
+    ]
   },
   "retrieval": {
     "search_keywords": [
-      "Aircell Biscuits",
-      "Kingspan spacer biscuits",
-      "AIR-CELL Spacer Biscuits",
-      "insulation spacer biscuits",
-      "reflective air space biscuits",
-      "cavity wall spacers",
-      "foil insulation spacers",
-      "brick tie spacers"
+      "Aircell biscuits",
+      "brick tie clips",
+      "cavity wall biscuits",
+      "reflective airspace spacers",
+      "spacer biscuits"
     ],
     "problem_keywords": [
-      "foil touching brickwork",
-      "losing reflective R-value in cavity",
-      "maintaining 20mm air space",
-      "wall ties compressing foil",
-      "reflective foil gap maintenance",
-      "air cavity collapsing"
+      "Reflective foil touching outer brickwork (eliminating air space and destroying thermal R-value), insulation sagging against wet brick."
     ],
     "placement": [
-      "wall",
-      "external wall",
-      "shed"
-    ],
-    "priority_fit": [
-      "thermal",
-      "easy_install"
-    ],
-    "use_cases": [
-      "spacing Kingspan AIR-CELL reflective insulation over wire wall ties in double brick cavity walls",
-      "maintaining a 20mm reflective airspace behind external cladding in brick veneer construction",
-      "positioning on timber or metal stud frames to ensure foil insulation maintains designed thermal performance"
+      "Wall",
+      "brick veneer",
+      "double brick cavity",
+      "external wall"
     ],
     "not_for": [
-      "acoustic impact noise dampening under floors",
-      "pipe lagging",
-      "use as standalone thermal insulation batts"
+      "continuous operating temperature limit is 85°C (intermittent 105°C).",
+      "not_for): Not load-bearing"
     ],
-    "rag_summary": "Kingspan AIR-CELL Spacer Biscuits are 60 x 60 x 20 mm expanded black polyethylene spacers designed to create and preserve a nominal 20mm reflective airspace between Kingspan AIR-CELL reflective insulation and adjacent wall substrates. Slit for rapid placement over standard wire wall ties and featuring an adhesive backing for repositionable installation against foil facings, they guarantee the reflective air cavity necessary to achieve rated system R-values. They are fibre-free, inert, and non-deteriorating, making them essential for cavity brick, brick veneer, and framed wall installations."
+    "use_cases": [
+      "Whenever AIRCELL_PERMISHIELD or AIRCELL_RETROSHIELD is quoted for cavity brick or framed wall systems, calculate 1 biscuit per m² (or 1 per second wall tie) to maintain the required 20mm airspace."
+    ]
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "knowledge_base_txt",
+  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
 }

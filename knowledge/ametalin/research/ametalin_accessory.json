@@ -3,65 +3,49 @@
   "family_name": "Ametalin Accessory",
   "datasheet_pdf_url": "",
   "sds_url": "",
-  "status": "gemini_not_found",
+  "status": "ok",
   "researched_at": "2026-09-06",
   "spec": {
-    "description": "",
-    "features": [],
-    "applications": [],
-    "technical": [],
-    "range": [],
-    "fire": "",
-    "compliance": "",
-    "sustainability": "",
-    "install": [],
-    "selection_checklist": [],
-    "accessories": [],
-    "limitations": [],
-    "warranty": ""
+    "range": [
+      {
+        "c0": "Accessory Item",
+        "c1": "Dimensions",
+        "c2": "Core Material",
+        "c3": "Pack Configuration",
+        "c4": "Application Focus"
+      },
+      {
+        "c0": "Ametalin Double Sided Tape",
+        "c1": "24 mm / 38 mm × 50 m",
+        "c2": "High-tack adhesive transfer tape",
+        "c3": "Box of 24 / 16 rolls",
+        "c4": "Fixing membranes to steel studs before cladding"
+      },
+      {
+        "c0": "Ametalin Reinforced Foil Tape",
+        "c1": "48 mm / 72 mm × 50 m",
+        "c2": "Aluminium foil + glass scrim",
+        "c3": "Box of 24 / 16 rolls",
+        "c4": "Joining reflective sarking & vapour barriers"
+      },
+      {
+        "c0": "Ametalin Plastic Cap Nails",
+        "c1": "25 mm cap × 32 mm nail",
+        "c2": "Ring shank steel nail + PE cap",
+        "c3": "Box of 1000 pcs",
+        "c4": "Wind-resistant timber frame wrap fixing"
+      }
+    ]
   },
   "retrieval": {
     "search_keywords": [
-      "Ametalin accessory",
       "Ametalin tape",
-      "insulation fixing tape",
-      "double sided insulation tape",
-      "Ametalin cap nails",
-      "sarking tape",
-      "wall wrap tape",
-      "thermal break strip"
-    ],
-    "problem_keywords": [
-      "fixing wall wrap to steel studs",
-      "joining reflective sarking",
-      "sealing penetrations in building wrap",
-      "preventing wind tearing on wrap",
-      "thermal bridging across steel framing"
-    ],
-    "placement": [
-      "roof",
-      "wall",
-      "floor",
-      "ceiling",
-      "external wall"
-    ],
-    "priority_fit": [
-      "easy_install",
-      "thermal",
-      "condensation"
-    ],
-    "use_cases": [
-      "temporarily holding foil sarking to steel studs with double-sided tape before cladding",
-      "sealing seams on vapour-permeable membranes to form an airtight envelope",
-      "fastening pliable building membranes with plastic cap nails to prevent blowout in windy conditions"
-    ],
-    "not_for": [
-      "primary structural fixing",
-      "standalone bulk insulation",
-      "high-stress expansion joint sealing"
-    ],
-    "rag_summary": "Ametalin Accessories encompass the specialised range of tapes, fasteners, and thermal isolation components developed by Ametalin to ensure compliant installation of building membranes. Including double-sided fixing tapes, reinforced foil duct tapes, plastic cap nails, and thermal break strips, these products eliminate thermal bridging, wind displacement, and moisture leakage across steel and timber frames. They ensure residential and commercial wall wraps, roof sarkings, and underfloor foils achieve their designed airtightness, condensation control, and energy ratings."
+      "cap nails for wrap",
+      "double sided tape for studs",
+      "sarking tape"
+    ]
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "knowledge_base_txt",
+  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
 }

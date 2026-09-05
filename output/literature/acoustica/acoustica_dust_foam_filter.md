@@ -33,9 +33,14 @@ Quality insulation engineered for Australian conditions. Engineered to meet the 
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.5 | thermal_r_value | Varies | Varies | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

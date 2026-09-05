@@ -1,6 +1,6 @@
 ---
 title: "Autex Acoustic Timber - Quietspace - Panel Insulation | Autex"
-description: "Autex Acoustic Timber Panel is a high-performance acoustic treatment designed to realistically imitate timber. Formed from thermally bonded high-densi"
+description: "Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled pla"
 keywords: "Autex Acoustic Timber - Quietspace, Autex panel, acoustic insulation, wall insulation, ceiling insulation, insulation Australia, Autex Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AUTEX_ACOUSTIC_TIMBER_QUIETSPACE
@@ -10,97 +10,76 @@ family_id: AUTEX_ACOUSTIC_TIMBER_QUIETSPACE
 
 **Autex Panel** — acoustic panels for sound absorption and interior finish.
 
-Autex Acoustic Timber Panel is a high-performance acoustic treatment designed to realistically imitate timber. Formed from thermally bonded high-density polyester using a 25mm Quietspace Panel base, it features woodgrain textures taken from real timber veneers digitally printed onto the panel surface with safe, water-based UV-cured ink. It delivers an authentic timber aesthetic while meeting strict seismic requirements and Group 1 fire compliance across wall and ceiling applications.
+Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled plastic bottles, it's the sustainable choice for modern buildings.
 
 ## Key features
 
-- Authentic timber look digitally printed from real timber veneers.
-- Engineered on a 25mm dual-density Quietspace Panel base.
-- High acoustic performance achieving NRC 0.85.
-- Group 1 fire rating to AS ISO 9705 - 2003.
-- Printed using safe, water-based, UV-cured ink.
-- Contains minimum 58% post-consumer recycled PET.
-- Certified Carbon Neutral product with third-party verified EPD.
-- Non-toxic, non-allergenic, and non-irritant.
-- Naturally resistant to mould and mildew (ASTM G21-15 Growth Rating: 0).
-- Lightweight and seismic compliant alternative to solid timber panelling.
+- 100% polyester - safe to handle without protective equipment.
+- contains minimum 80% recycled PET plastic bottles.
+- non-allergenic, non-irritant formulation.
+- will not support mould or mildew growth.
+- maintains performance when wet - dries out naturally.
+- excellent thermal performance for roof/ceiling applications.
+- helps meet NCC energy efficiency requirements.
+- Made from recycled PET bottles.
 
 ## Applications and selection
 
-- wall
-- internal wall
-- ceiling
+- Internal Wall | Ceiling | General Acoustic
 
 **Selection checklist**
 
-1. Confirm woodgrain finish from available timber grains (e.g. Birch, Oak, Hoop Pine, Ash, Eucalyptus).
-2. Verify substrate flatness and suitability for direct-fix adhesive mounting.
-3. Confirm thickness and acoustic performance target (25mm Quietspace base delivers NRC 0.85).
-4. Check that panel will be located in non-contact areas to prevent surface scuffing.
-5. Confirm ceiling and wall dimensions to determine standard 2400mm vs 2700mm lengths.
+1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
+2. Confirm the target rating and construction build-up with the project team.
+3. Confirm available cavity or fixing depth against the product dimensions.
+4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
+5. Record the suburb/postcode so climate-zone requirements can be checked.
 
 
 ## Current catalogue range
 
 | Variant | Size / rating | Pack |
 | --- | --- | --- |
-| Acoustic Timber Panel 25mm Quietspace | 1200 mm x 2400 mm x 25 mm, NRC 0.85 | Panel |
-| Acoustic Timber Panel 25mm Quietspace (Custom Length) | 1200 mm x 2700 mm x 25 mm, NRC 0.85 | Panel |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
 
 _Variants from the manufacturer datasheet._
 
 ## Technical data
 
-| Property | Value | Standard |
+| Property | Value | Source |
 | --- | --- | --- |
-| Noise Reduction Coefficient (NRC) | 0.85 (25mm Quietspace base) | ISO 354 |
-| Sound Absorption Class | Class C | ISO 11654 |
-| Thickness | 25 mm (+/- 6%) | - |
-| Panel Dimensions | 1200 mm x 2400 mm; 1200 mm x 2700 mm | - |
-| Material Composition | 100% polyester fibre (PET) printed with UV-curable ink | - |
-| Recycled Content | Minimum 58% post-consumer recycled PET | - |
-| Fire Hazard Classification | Group 1 (AS ISO 9705 - 2003 / AS 5637.1); Group 1-S (ISO 9705:1993) | AS ISO 9705 / AS 5637.1 / ISO 9705 |
-| Water Vapour Sorption | 0.4% by weight after 4 days at 49°C, 95% RH | ASTM C1104 / C1104M-13a |
-| Microbial Resistance | Growth Rating: 0 (No growth) | ASTM G21-15 |
-| Volatile Organic Compounds (VOC) | < 0.019 mg/m³ (24 hours) | CDPH Standard Method v1.2 |
+| Product type | Panel | Manufacturer catalogue |
+| Material | Polyester | Manufacturer catalogue |
+| Applications | Internal Wall | Ceiling | General Acoustic | Manufacturer catalogue |
+| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
 
-Extracted from manufacturer datasheet: https://www.autexglobal.com/au/products/acoustic-timber/
+
 
 ## Fire, testing and compliance context
 
-AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1; ISO 9705: 1993 Classification: Group 1-S; BS EN 13501-1:2018: B - s2, d2
-
-NCC Specification 7 (BCA C1.10) Group 1 fire compliance; AS ISO 9705:2003; ISO 354; ISO 9001, ISO 14001, and ISO 45001 accredited manufacturing
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.autexacoustics.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://insulvac.com.au/wp-content/uploads/2020/04/autex-material-safety-data-sheet-msds.pdf.
 
-## Recommended accessories
-
-- Autex Edging Solutions (Type C profile for 25mm panels).
-- Construction adhesive / contact adhesive.
-- Straight edge and utility knife.
-
 
 ## Limitations and warnings
 
-- Recommended for non-contact areas as printed surface may show scuff marks under impact.
-- Do not use in high-impact sports halls without protective screening.
-- Variations in grain pattern are intentional to replicate natural timber veneer.
-- Indoor use only; avoid direct prolonged water exposure.
+- Not suitable for applications requiring fire rating without additional protection..
+- not to be exposed to weather or sustained moisture..
+- do not compress beyond manufacturer recommendations..
+- check fire-rated system requirements if fire rating is required..
+- confirm product selection matches specified thermal/acoustic/fire rating..
 
 ## Installation overview
 
-1. Inspect panels prior to install and verify grain orientation and lot consistency.
-2. Ensure the wall or ceiling substrate is flat, clean, dry, and dust-free.
-3. Acclimatise panels in the installation environment for at least 24 hours.
-4. Cut through the face of the panel using a straight edge and sharp utility knife.
-5. Place straight edge on excess section to avoid rubbing or friction on the decorative face.
-6. Apply recommended contact or construction adhesive evenly across the panel backing.
-7. Position panel onto the substrate and butt-join sheets tightly along vertical joins.
-8. Apply firm, uniform pressure with a roller across the panel to ensure full bond contact.
+Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for applications requiring fire rating without additional protection.
 
 ## Safety and handling
 
@@ -108,11 +87,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Certified Carbon Neutral; minimum 58% recycled PET; Declare Red List Free; low VOC (<0.019 mg/m³); 100% recyclable
+Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
 
 ## Warranty, returns and support
 
-Manufacturer's guarantee by Autex Acoustics
+No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
 
 ## Specification starting point
 

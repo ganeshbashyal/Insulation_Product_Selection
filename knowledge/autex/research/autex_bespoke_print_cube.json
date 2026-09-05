@@ -1,169 +1,95 @@
 {
   "family_id": "AUTEX_BESPOKE_PRINT_CUBE",
   "family_name": "Autex Bespoke Print Cube",
-  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/cube/",
-  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
   "status": "ok",
   "researched_at": "2026-09-06",
   "spec": {
-    "description": "Autex Bespoke Print Cube is a fully customisable acoustic wall and ceiling\npanel that combines the acoustic performance of Cube solid polyester felt with\nbespoke digital printing. High-resolution imagery, brand graphics, patterns, or\ncustom artwork are printed directly onto 12mm or 24mm Cube panels using safe,\nwater-based, UV-cured inks. It delivers an authentic, high-definition visual\nfinish with an NRC of 0.45 to 0.70 while maintaining Group 1 fire compliance and\ncarbon-neutral credentials.",
-    "features": [
-      "Full customisation with\nhigh-resolution digital UV printing",
-      "Substrate is semi-rigid 100% polyester\nCube panel",
-      "Available in 12mm and 24mm thicknesses",
-      "Printed surface has zero\nnegative impact on acoustic sound absorption",
-      "Group 1 fire rating to AS\nISO 9705 - 2003",
-      "Printed using safe, water-based, UV-cured inks",
-      "Minimum 80%\nrecycled post-consumer PET fibre content",
-      "Zero chemical binders and low VOC\nemissions",
-      "Certified Carbon Neutral product with third-party verified EPD",
-      "Direct-fix, SpinFix, or Peel 'n' Stick installation options"
-    ],
-    "applications": [
-      "wall",
-      "internal wall",
-      "ceiling"
-    ],
-    "technical": [
-      {
-        "property": "Noise\nReduction Coefficient (NRC)",
-        "value": "0.45 (12mm direct fix); 0.70 (24mm\ndirect fix); up to 0.80 (with air gap)",
-        "standard": "ISO 354"
-      },
-      {
-        "property": "Thickness",
-        "value": "12 mm | 24 mm",
-        "standard": ""
-      },
-      {
-        "property": "Panel\nDimensions",
-        "value": "1220 mm x 2440 mm; custom lengths up to 3600 mm",
-        "standard": ""
-      },
-      {
-        "property": "Material Composition",
-        "value": "100% polyester\nfibre (PET) printed with UV-curable ink",
-        "standard": ""
-      },
-      {
-        "property": "Recycled Content",
-        "value": "Minimum 80% recycled PET",
-        "standard": ""
-      },
-      {
-        "property": "Fire Hazard Classification",
-        "value": "Group 1 (AS ISO 9705 - 2003\n/ AS 5637.1); Group 1-S (ISO 9705:1993)",
-        "standard": "AS ISO 9705 / AS 5637.1"
-      },
-      {
-        "property": "Water Vapour Sorption",
-        "value": "< 0.4% by weight after 4\ndays at 49°C, 95% RH",
-        "standard": "ASTM C1104"
-      },
-      {
-        "property": "Microbial\nResistance",
-        "value": "Growth Rating: 0 (No growth)",
-        "standard": "ASTM G21-15"
-      },
-      {
-        "property": "Volatile Organic Compounds (VOC)",
-        "value": "< 0.019 mg/m³ (24\nhours)",
-        "standard": "CDPH Standard Method v1.2"
-      }
-    ],
     "range": [
       {
-        "variant": "Bespoke Print Cube 12mm",
-        "size_or_rating": "1220 mm x 2440 mm x 12 mm,\nNRC 0.45",
-        "pack": "Panel"
+        "c0": "Core Thickness",
+        "c1": "Panel Dimensions",
+        "c2": "Area per Panel",
+        "c3": "Nominal Weight (GSM)",
+        "c4": "Total Panel Weight",
+        "c5": "Edge Finish Options",
+        "c6": "Absorption Rating"
       },
       {
-        "variant": "Bespoke Print Cube 24mm",
-        "size_or_rating": "1220 mm x 2440 mm x 24 mm, NRC 0.70",
-        "pack": "Panel"
+        "c0": "12 mm (±6%)",
+        "c1": "1220 mm × 2440 mm",
+        "c2": "2.98 m²",
+        "c3": "2400 gsm",
+        "c4": "~7.15 kg",
+        "c5": "Square cut / 4mm 45° bevel",
+        "c6": "NRC 0.45 (direct) / 0.70 (air gap)"
       },
       {
-        "variant": "Bespoke Print Cube Custom Length",
-        "size_or_rating": "1220 mm x up\nto 3600 mm",
-        "pack": "Panel"
+        "c0": "12 mm (±6%)",
+        "c1": "1220 mm × 2740 mm",
+        "c2": "3.34 m²",
+        "c3": "2400 gsm",
+        "c4": "~8.02 kg",
+        "c5": "Square cut / 4mm 45° bevel",
+        "c6": "NRC 0.45 (direct) / 0.70 (air gap)"
+      },
+      {
+        "c0": "24 mm (±6%)",
+        "c1": "1220 mm × 2440 mm",
+        "c2": "2.98 m²",
+        "c3": "4800 gsm",
+        "c4": "~14.30 kg",
+        "c5": "Square cut / 4mm 45° bevel",
+        "c6": "NRC 0.70 (direct) / 0.80 (air gap)"
+      },
+      {
+        "c0": "24 mm (±6%)",
+        "c1": "1220 mm × 2740 mm",
+        "c2": "3.34 m²",
+        "c3": "4800 gsm",
+        "c4": "~16.03 kg",
+        "c5": "Square cut / 4mm 45° bevel",
+        "c6": "NRC 0.70 (direct) / 0.80 (air gap)"
+      },
+      {
+        "c0": "Custom Length",
+        "c1": "Up to 3600 mm L × 1220 mm",
+        "c2": "Up to 4.39 m²",
+        "c3": "2400 or 4800 gsm",
+        "c4": "Pro-rata",
+        "c5": "Square cut / bevelled",
+        "c6": "NRC 0.45 – 0.80"
       }
     ],
-    "fire": "AS ISO 9705 - 2003 and AS 5637.1\nClassification: Group 1; ISO 9705: Group 1-S; BS EN 13501-1:2018: B - s2, d0",
-    "compliance": "NCC Specification 7 (BCA C1.10) Group 1 fire compliance; AS\nISO 9705:2003; ISO 354; ISO 9001 and ISO 14001 accredited",
-    "sustainability": "Certified Carbon Neutral; contains min 80% recycled PET; Declare Red List Free;\nLow VOC; 100% recyclable",
-    "install": [
-      "Review the Bespoke Print layout diagram\nbefore handling or cutting panels",
-      "Clean and prepare the substrate ensuring it\nis flat, dry, and dust-free",
-      "Acclimatise panels in the installation\nenvironment for at least 24 hours prior to install",
-      "Handle with clean cloth\ngloves to prevent soiling the printed decorative surface",
-      "Use a sharp utility\nknife and straight edge on the offcut side when trimming",
-      "Apply construction\nadhesive evenly across the panel back or use SpinFix mounting hardware",
-      "Align\nprinted pattern or imagery seams carefully across adjacent panels",
-      "Press\nfirmly with a clean roller across the surface to secure adhesive contact"
-    ],
-    "selection_checklist": [
-      "Provide high-resolution artwork (minimum 300 DPI\nat 1:1 scale or vector format)",
-      "Confirm panel thickness (12mm for standard\nwall art vs 24mm for higher NRC 0.70 absorption)",
-      "Confirm total wall\ndimensions and required panel seam alignments",
-      "Choose mounting system (direct\nadhesive fix vs SpinFix demountable fixings)",
-      "Ensure area is non-contact or\nlow-impact to protect print quality"
-    ],
-    "accessories": [
-      "SpinFix mounting\nbrackets",
-      "Autex Edging Solutions (Type B for 12mm, Type C for 24mm)",
-      "Contact\nor construction adhesive"
-    ],
-    "limitations": [
-      "Printed face can show scuffing or\nsurface damage if subjected to hard mechanical contact",
-      "Not recommended for\nhigh-impact sports zones or heavy corridor traffic without protection",
-      "Ensure\nhigh-resolution artwork meets Autex print guidelines to prevent pixelation",
-      "For interior applications only"
-    ],
-    "warranty": "Manufacturer's guarantee by\nAutex Acoustics"
+    "accessories_upsell": "Autex SpinFix mounting hardware or contact adhesive; Type B aluminium joiner profiles."
   },
   "retrieval": {
     "search_keywords": [
-      "Autex Bespoke Print",
-      "printed acoustic panels",
       "Bespoke Print Cube",
-      "custom printed acoustic\npanel",
-      "acoustic artwork panel",
-      "Cube 12mm printed",
-      "Cube 24mm printed",
-      "custom graphic sound panel",
-      "Autex printed panel"
+      "acoustic photo panels",
+      "custom art acoustic board",
+      "printed Cube 12mm",
+      "printed acoustic panels"
     ],
     "problem_keywords": [
-      "reverberant conference room with plain walls",
-      "ugly acoustic foam panels",
-      "custom branding acoustic wall",
-      "echo in corporate boardroom",
-      "distracting\noffice noise with decorative art",
-      "meeting Group 1 fire code with custom\nartwork"
+      "Echo in commercial meeting rooms where blank walls require branding, corporate logos, murals, or custom artwork without sacrificing acoustics."
     ],
     "placement": [
-      "wall",
-      "internal wall",
-      "ceiling"
-    ],
-    "priority_fit": [
-      "acoustic",
-      "fire",
-      "sustainability"
-    ],
-    "use_cases": [
-      "printing corporate\nbranding, murals, or logos on acoustic walls in office receptions",
-      "acoustic\nfeature walls displaying custom photography or artwork in hotel lobbies and\nrestaurants",
-      "creating educational graphics or school mottos on acoustic panels\nin classrooms and libraries",
-      "decorative sound absorption in healthcare\ncorridors requiring non-shedding, hygienic panels"
+      "Wall",
+      "ceiling",
+      "internal wall"
     ],
     "not_for": [
-      "high-impact\ngymnasiums without protective barrier netting",
-      "outdoor weather-exposed walls",
-      "areas with constant mechanical abrasion"
+      "not_for): High-wear kick zones",
+      "outdoor installations."
     ],
-    "rag_summary": "Autex Bespoke Print\nCube transforms Autex's flagship 12mm and 24mm solid polyester Cube panels into\ncustom printed acoustic artwork. Using safe, water-based UV-cured inks, custom\nphotography, murals, and corporate branding are printed directly onto the\ncompressed PET felt without hindering its sound absorption capabilities\n(NRC 0.45 to 0.70). Featuring a Group 1 fire classification, carbon-neutral\nmanufacturing, and minimum 80% recycled content, it provides an architecturally\nstriking solution to unwanted reverberation in commercial and institutional\ninteriors."
+    "use_cases": [
+      "Recommend 12mm for standard wall feature prints",
+      "recommend 24mm where superior mid-to-low frequency speech absorption (NRC 0.70+) is required."
+    ]
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "knowledge_base_txt",
+  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
 }

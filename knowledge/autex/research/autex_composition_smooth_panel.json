@@ -1,171 +1,67 @@
 {
   "family_id": "AUTEX_COMPOSITION_SMOOTH_PANEL",
   "family_name": "Autex Composition - Smooth Panel",
-  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/composition/",
-  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
   "status": "ok",
   "researched_at": "2026-09-06",
   "spec": {
-    "description": "Autex Composition Smooth Panel is a durable, high-performance acoustic wall\npanel featuring a sleek, flat-pile smooth finish. Engineered as a superior,\nsound-absorbing alternative to paint and wallpaper, it combines an acoustic\nnon-woven polyester backing with a smooth Vertiface surface. Pinnable,\nself-healing, and hook-and-loop receptive, it delivers an NRC of 0.30 to 0.40\nand Group 1 fire rating, making it ideal for educational, commercial, and\ncollaborative environments.",
-    "features": [
-      "Sleek, flat-pile smooth felt\nsurface finish",
-      "10-12mm thickness with high acoustic performance (NRC 0.30\n- 0.40)",
-      "Pinnable and hook-and-loop receptive self-healing surface",
-      "Made\nfrom 100% polyester fibre with min. 49% recycled content",
-      "Group 1 fire rating\nto AS ISO 9705 - 2003",
-      "Certified Carbon Neutral product with third-party\nverified EPD",
-      "Durable and flexible, replacing the need to paint or wallpaper",
-      "Low VOC and CDPH compliant with zero chemical binders",
-      "Does not rot, break\ndown, or support mould and mildew",
-      "Available in a wide palette of contemporary\ncolours"
-    ],
-    "applications": [
-      "wall",
-      "internal wall"
-    ],
-    "technical": [
-      {
-        "property": "Noise Reduction Coefficient (NRC)",
-        "value": "0.30 - 0.40",
-        "standard": "ISO 354"
-      },
-      {
-        "property": "Thickness",
-        "value": "10 - 12 mm\n(nominal)",
-        "standard": ""
-      },
-      {
-        "property": "Dimensions",
-        "value": "Panel sizes\n(e.g. 1200 x 2400 mm; 600 x 600 mm tiles)",
-        "standard": ""
-      },
-      {
-        "property": "Weight",
-        "value": "Typically 1600 - 1780 gsm",
-        "standard": ""
-      },
-      {
-        "property": "Finish",
-        "value": "Smooth flat-pile finish",
-        "standard": ""
-      },
-      {
-        "property": "Material Composition",
-        "value": "100% polyester fibre (PET)",
-        "standard": ""
-      },
-      {
-        "property": "Recycled Content",
-        "value": "Minimum 49% post-consumer recycled\nPET",
-        "standard": ""
-      },
-      {
-        "property": "Fire Hazard Classification",
-        "value": "Group 1 (AS ISO 9705 - 2003 / AS 5637.1); Group 1-S (ISO 9705:1993)",
-        "standard": "AS ISO 9705 / AS 5637.1"
-      },
-      {
-        "property": "Thermal Performance",
-        "value": "R0.22 (@ 15°C)",
-        "standard": ""
-      },
-      {
-        "property": "Microbial\nResistance",
-        "value": "Growth Rating: 0 (No growth)",
-        "standard": "ASTM G21-15"
-      },
-      {
-        "property": "Volatile Organic Compounds (VOC)",
-        "value": "< 0.0035 mg/m³ (7\ndays)",
-        "standard": "CDPH Standard"
-      }
-    ],
     "range": [
       {
-        "variant": "Composition\nSmooth Panel",
-        "size_or_rating": "1200 mm x 2400 mm x 10-12 mm, NRC 0.40",
-        "pack": "Panel"
+        "c0": "Product Format",
+        "c1": "Dimensions",
+        "c2": "Nominal Thickness",
+        "c3": "Weight (GSM)",
+        "c4": "Edge Detail",
+        "c5": "Acoustic NRC",
+        "c6": "Packaging Unit"
       },
       {
-        "variant": "Composition Smooth Tile (Peel 'n' Stick)",
-        "size_or_rating": "600 mm x 600 mm x 10-12 mm, NRC 0.40",
-        "pack": "Box of 6\n(2.16 m²)"
+        "c0": "Peel 'n' Stick Tiles",
+        "c1": "600 mm × 600 mm",
+        "c2": "10 mm – 12 mm",
+        "c3": "1600–1780 gsm",
+        "c4": "Square edge",
+        "c5": "NRC 0.40",
+        "c6": "Box of 6 tiles (2.16 m²)"
+      },
+      {
+        "c0": "Pre-Cut Wall Panels",
+        "c1": "1200 mm × 2400 mm",
+        "c2": "10 mm – 12 mm",
+        "c3": "1600–1780 gsm",
+        "c4": "Square edge",
+        "c5": "NRC 0.40",
+        "c6": "Single panel (2.88 m²)"
       }
-    ],
-    "fire": "AS ISO 9705 - 2003: Group 1; ISO 9705: Group 1-S; BS\nEN 13501-1:2018: B - s1, d0",
-    "compliance": "NCC BCA Group 1 fire rating; AS\nISO 9705:2003; ISO 354; ISO 9001 and ISO 14001",
-    "sustainability": "Carbon\nneutral product; contains min 49% recycled PET; Declare Red List Free; Low\nVOC; 100% recyclable",
-    "install": [
-      "Ensure substrate is clean, flat, dry,\nsealed, and free of dust, grease, and loose paint",
-      "Stop plasterboard to\nminimum Level 3 and apply wallboard sealer prior to gluing",
-      "Acclimatise panels\nin the space for at least 24 hours",
-      "Check pile and grain direction; install\nall panels in uniform orientation",
-      "Apply recommended contact or water-based\nwall adhesive evenly to substrate",
-      "Position panel onto adhesive and butt joins\ntightly without overlapping",
-      "Roll entire surface firmly using a pressure\nroller to ensure 100% adhesive bond",
-      "Trim perimeters neatly using a sharp\nutility knife and metal straight edge"
-    ],
-    "selection_checklist": [
-      "Confirm\nsmooth flat-pile finish (as distinct from velour finish)",
-      "Select colour from\nAutex Vertiface colour palette",
-      "Confirm panel format (pre-cut panel vs 600x600\npeel 'n' stick tile)",
-      "Check substrate compatibility and requirement for\nwallboard sealer",
-      "Ensure hook-and-loop / pinboard functionality is required"
-    ],
-    "accessories": [
-      "Water-based wallcovering adhesive or contact adhesive",
-      "Autex Edging Solutions Type A aluminium joiners/trims",
-      "Application pressure\nroller and utility knife"
-    ],
-    "limitations": [
-      "Indoor use only; avoid direct\nwater exposure or excessive moisture",
-      "Do not mix different batch lots on the\nsame wall to avoid shade variations",
-      "All panels must be installed with the\npile running in the same direction"
-    ],
-    "warranty": "Manufacturer's guarantee by\nAutex Acoustics"
+    ]
   },
   "retrieval": {
     "search_keywords": [
-      "Autex Composition\nSmooth",
-      "Composition smooth panel",
-      "acoustic pinboard panel",
-      "flat pile\nacoustic wall panel",
-      "Symphony panel Autex",
-      "hook and loop acoustic wall",
-      "pinnable acoustic panel",
-      "classroom acoustic pinboard",
-      "Composition acoustic\ntiles"
+      "Composition smooth",
+      "Symphony panel",
+      "acoustic pinboard tiles 600x600",
+      "peel and stick pinboard",
+      "smooth acoustic wall panel"
     ],
     "problem_keywords": [
-      "noisy classroom echo",
-      "damaged walls from\npinboard tacks",
-      "chalkboard and whiteboard sound reflection",
-      "office meeting\nroom chatter",
-      "scuffed painted walls in schools",
-      "need functional pinnable\nwall with sound absorption"
+      "Echo in classrooms and offices",
+      "damaged drywall from pinboard pins",
+      "need for a sleek, non-fluffy pinboard surface that holds notices and dampens speech."
     ],
     "placement": [
-      "wall",
+      "Wall",
       "internal wall"
     ],
-    "priority_fit": [
-      "acoustic",
-      "easy_install",
-      "sustainability"
+    "not_for": [
+      "not_for): Do not apply over powdery, unprimed plasterboard or unsealed concrete (must be sealed with a wallboard primer)."
     ],
     "use_cases": [
-      "installing pinnable acoustic pinboard panels across school classrooms and\nuniversity study nooks",
-      "lining commercial boardrooms and meeting spaces to\ncreate sleek, sound-damped noticeboards",
-      "replacing high-maintenance painted\ndrywall in creative agency design studios",
-      "providing resilient, self-healing\nwall finishes in children's daycares and healthcare consult rooms"
-    ],
-    "not_for": [
-      "external weather-exposed walls",
-      "floors or heavy foot traffic underfoot",
-      "wet rooms with running water or high continuous steam"
-    ],
-    "rag_summary": "Autex\nComposition Smooth Panel is a 10-12mm thick acoustic wall panel featuring a\nsleek, flat-pile needle-punched finish that serves as a durable, sound-absorbing\nalternative to traditional paint or pinboards. Engineered from 100% polyester\nfibres with at least 49% recycled content, it provides an NRC of 0.30 to 0.40\nwhile functioning as a self-healing, hook-and-loop receptive pinboard. Rated\nGroup 1 under AS ISO 9705 with carbon-neutral certification, it softens\nclassroom and office chatter while offering a resilient, non-toxic\nwallcovering."
+      "Recommend Peel 'n' Stick tiles for DIY/modular installations",
+      "recommend 1200x2400mm panels for continuous commercial noticeboards."
+    ]
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "knowledge_base_txt",
+  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
 }

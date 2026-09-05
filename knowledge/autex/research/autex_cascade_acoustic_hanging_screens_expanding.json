@@ -1,155 +1,55 @@
 {
   "family_id": "AUTEX_CASCADE_ACOUSTIC_HANGING_SCREENS_EXPANDI",
   "family_name": "Autex Cascade Acoustic Hanging Screens - Expanding",
-  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/cascade/",
-  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
   "status": "ok",
   "researched_at": "2026-09-06",
   "spec": {
-    "description": "Autex Cascade Acoustic Hanging Screens - Expanding are innovative suspended\nacoustic partitions that concertina open to define zones and control sound in\nopen-plan spaces. Manufactured from 12mm Cube polyester panel with precision\nlaser-cut geometry, the patented expanding design pulls open to grow by 100% in\nsize without generating any cut-out material waste. Suspended from the ceiling\nvia an aluminium channel and cable system, it introduces spatial separation and\nacoustic absorption while maintaining openness and natural light.",
-    "features": [
-      "Patented expanding design that grows 100% in size without off-cut waste",
-      "Constructed from 12mm semi-rigid Cube acoustic panel",
-      "Suspended from ceiling\nvia Frontier aluminium channel and wire kit",
-      "Water-cut geometric patterns\nallow sight and light to filter through",
-      "Controls reverberation and reduces\nbackground chatter in open areas",
-      "Available in a wide range of solid\ncolourways",
-      "Group 1 fire rating to AS ISO 9705 - 2003",
-      "Contains minimum 80%\npost-consumer recycled PET fibre",
-      "Certified Carbon Neutral and Red List Free",
-      "Complete kit including screen, channel, ceiling connectors, and suspension\nwires"
-    ],
-    "applications": [
-      "internal wall",
-      "ceiling"
-    ],
-    "technical": [
-      {
-        "property": "Acoustic Performance (NRC of base panel)",
-        "value": "0.45 - 0.80\n(Cube 12mm base material)",
-        "standard": "ISO 354"
-      },
-      {
-        "property": "Base Screen\nDimensions (Unexpanded)",
-        "value": "1200 mm x 1200 mm (nominal)",
-        "standard": ""
-      },
-      {
-        "property": "Expanded Dimensions",
-        "value": "1200 mm x 2400 mm (expands up\nto 100% in length)",
-        "standard": ""
-      },
-      {
-        "property": "Thickness",
-        "value": "12\nmm",
-        "standard": ""
-      },
-      {
-        "property": "Material Composition",
-        "value": "100%\npolyester fibre (PET) with aluminium channel",
-        "standard": ""
-      },
-      {
-        "property": "Recycled Content",
-        "value": "Minimum 80% post-consumer recycled PET",
-        "standard": ""
-      },
-      {
-        "property": "Fire Hazard Classification",
-        "value": "Group 1\n(AS ISO 9705 - 2003 / AS 5637.1); Group 1-S (ISO 9705:1993)",
-        "standard": "AS\nISO 9705 / AS 5637.1"
-      },
-      {
-        "property": "Suspension System",
-        "value": "Frontier\nextruded aluminium channel with 1m suspension cables",
-        "standard": ""
-      },
-      {
-        "property": "Microbial Resistance",
-        "value": "Growth Rating: 0 (No growth)",
-        "standard": "ASTM G21-15"
-      }
-    ],
     "range": [
       {
-        "variant": "Cascade Expanding Screen\n(Pattern E1-E6)",
-        "size_or_rating": "1200 mm x 2400 mm expanded, 12mm\nthickness",
-        "pack": "Kit (Screen + Suspension hardware)"
+        "c0": "Product Style",
+        "c1": "Unexpanded Packed Size",
+        "c2": "Fully Expanded Installed Size",
+        "c3": "Core Base Thickness",
+        "c4": "Screen Weight",
+        "c5": "Hanging Hardware Included"
+      },
+      {
+        "c0": "Expanding Screen (E01–E06)",
+        "c1": "~1200 mm W × 1200 mm H",
+        "c2": "1200 mm W × 2400 mm H",
+        "c3": "12 mm Cube (PET)",
+        "c4": "~6.0 kg / kit",
+        "c5": "Frontier channel (top), 2× 1m cables, connectors, end caps"
       }
-    ],
-    "fire": "AS\nISO 9705 - 2003: Group 1; ISO 9705: Group 1-S; BS EN 13501-1:2018: B - s2, d0",
-    "compliance": "NCC BCA Group 1 fire compliance; AS ISO 9705:2003; ISO 9001 and\nISO 14001 accredited manufacturing",
-    "sustainability": "Zero waste cutting\nprocess; min 80% recycled PET; certified Carbon Neutral; Declare Red List\nFree; 100% recyclable",
-    "install": [
-      "Determine suspension anchor points on the\nceiling at required spacing",
-      "Fix ceiling connectors securely to structural\nceiling or soffit",
-      "Thread suspension wires into ceiling connectors and adjust\nto desired height",
-      "Attach Frontier channel to top of the Cascade screen using\nsliders",
-      "Carefully pull and concertina the expanding screen downward to reveal\nthe pattern",
-      "Lock the bottom in place using optional floor-fixing kit or allow\nto hang freely",
-      "Fit black extrusion end caps to the channel ends for a clean\nfinish"
-    ],
-    "selection_checklist": [
-      "Select expanding pattern design (E1, E2,\nE3, E4, E5, or E6)",
-      "Select colour from Autex Cube palette (over 20 colours\navailable)",
-      "Confirm ceiling height and check if standard 1m suspension cable\nis sufficient",
-      "Choose top-only suspension or top-and-base fixed\nconfiguration",
-      "Verify structural ceiling anchor suitability"
-    ],
-    "accessories": [
-      "Cascade suspension kit (Frontier channel, ceiling connectors, 1m wires,\nsliders)",
-      "Cascade channel end caps",
-      "Extended suspension cables (if ceiling\nheight exceeds 3.5m)"
-    ],
-    "limitations": [
-      "Designed as a spatial divider and\nacoustic baffle, not a physical security barrier",
-      "Suspension anchors must be\nfixed to structurally sound ceiling elements",
-      "Do not apply excessive tensile\ndownward force on expanded pattern web"
-    ],
-    "warranty": "Manufacturer's guarantee\nby Autex Acoustics"
+    ]
   },
   "retrieval": {
     "search_keywords": [
-      "Autex Cascade",
-      "Cascade Expanding screen",
-      "acoustic hanging screen",
-      "suspended acoustic\ndivider",
-      "hanging acoustic partition",
-      "open plan office screen",
-      "concertina\nacoustic screen",
+      "Autex Cascade screen",
+      "Cascade Expanding",
+      "concertina acoustic screen",
       "expanding hanging screen",
-      "Autex hanging panels"
+      "suspended acoustic divider"
     ],
     "problem_keywords": [
-      "open plan office noise distractions",
-      "lack of privacy\nbetween workstations",
-      "echo in large open space",
-      "blocking sound without\nbuilding solid walls",
-      "need flexible room divider",
-      "office zoning without\nblocking light"
+      "Visual and acoustic distractions in open-plan offices",
+      "desire for zero material waste.",
+      "need for spatial zoning without constructing permanent drywall partitions"
     ],
     "placement": [
-      "ceiling",
-      "internal wall"
-    ],
-    "priority_fit": [
-      "acoustic",
-      "easy_install",
-      "sustainability"
-    ],
-    "use_cases": [
-      "delineating\nbreakout zones from desk banks in open-plan corporate headquarters",
-      "creating\nsemi-private quiet study alcoves in university libraries without wall\nconstruction",
-      "providing acoustic absorption and visual screening between\ndining tables in restaurants",
-      "retrofitting zoning screens in agile workspaces\nwith demountable ceiling fixings"
+      "Ceiling suspended",
+      "internal room divider"
     ],
     "not_for": [
-      "full acoustic isolation\nrequiring high Rw sound transmission loss",
-      "outdoor applications",
-      "high-traffic corridors where people could pull on expanding mesh"
+      "not_for): Does not provide high Rw acoustic separation (it is an open-grid screen, not a solid soundproof wall)."
     ],
-    "rag_summary": "Autex Cascade Acoustic Hanging Screens - Expanding are\nceiling-suspended acoustic space dividers made from 12mm Cube polyester panels\nthat concertina open to double their size without material waste. By expanding\nfrom 1200mm to 2400mm, these screens introduce visual semi-privacy and diffuse\nsound reflections in noisy open-plan layouts. Supported by an aluminium Frontier\nchannel suspension kit, with Group 1 fire resistance and minimum 80% recycled\ncontent, they zone spaces without impeding light or air circulation."
+    "use_cases": [
+      "Recommend when an open-plan office requires semi-private visual screening and echo reduction while maintaining light penetration and HVAC airflow."
+    ]
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "knowledge_base_txt",
+  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
 }

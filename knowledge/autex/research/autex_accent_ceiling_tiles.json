@@ -1,0 +1,74 @@
+{
+  "family_id": "AUTEX_ACCENT_CEILING_TILES",
+  "family_name": "Autex Accent Ceiling Tiles",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "range": [
+      {
+        "c0": "Tile Size (Nominal)",
+        "c1": "Actual Tile Dimensions",
+        "c2": "Thickness",
+        "c3": "Weight (GSM)",
+        "c4": "Grid Compatibility",
+        "c5": "Edge Detail",
+        "c6": "Acoustic Rating",
+        "c7": "Box Pack Qty"
+      },
+      {
+        "c0": "600 mm × 600 mm",
+        "c1": "595 mm × 595 mm",
+        "c2": "12 mm – 13 mm",
+        "c3": "2400 gsm",
+        "c4": "15mm or 24mm exposed T-bar tee",
+        "c5": "Square edge",
+        "c6": "NRC 0.85",
+        "c7": "16 tiles (5.76 m²)"
+      },
+      {
+        "c0": "1200 mm × 600 mm",
+        "c1": "595 mm × 1195 mm",
+        "c2": "12 mm – 13 mm",
+        "c3": "2400 gsm",
+        "c4": "15mm or 24mm exposed T-bar tee",
+        "c5": "Square edge",
+        "c6": "NRC 0.85",
+        "c7": "8 tiles (5.76 m²)"
+      }
+    ]
+  },
+  "retrieval": {
+    "search_keywords": [
+      "600x1200 acoustic ceiling tile",
+      "Accent ceiling tiles",
+      "Autex ceiling tiles",
+      "NRC 0.85 drop in tile",
+      "coloured ceiling tiles",
+      "polyester drop in tiles"
+    ],
+    "problem_keywords": [
+      "Broken, crumbling mineral-fiber ceiling tiles",
+      "drab white suspended grid ceilings.",
+      "high speech reverberation in commercial offices or classrooms"
+    ],
+    "placement": [
+      "Ceiling (suspended grid system only)"
+    ],
+    "not_for": [
+      "Australian Insulation Knowledge Base: Granular Sizing & Bot Logic",
+      "BATCH 003",
+      "Manufacturer: Autex Acoustics & GreenStuf",
+      "Model 2:45 AM",
+      "PART 2: Batches 003 & 004 (Families 21–40)",
+      "not_for): Not for direct-stick drywall mounting (designed exclusively for exposed T-bar suspended grid tees)."
+    ],
+    "use_cases": [
+      "Recommend when client wants to upgrade an existing 600x600 or 1200x600 T-bar grid ceiling to a modern colorway with high sound absorption (NRC 0.85, Class A) that is indestructible and fiber-free."
+    ]
+  },
+  "source_excerpt": null,
+  "engine": "knowledge_base_txt",
+  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
+}

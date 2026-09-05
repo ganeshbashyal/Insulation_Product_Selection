@@ -1,7 +1,7 @@
 ---
 title: "Autex Quietspace Panel - Panel Insulation | Autex"
-description: "Autex Quietspace Panel is a discrete, high-performance acoustic treatment engineered to absorb a minimum of 85% to 100% of sound energy. Made from 100"
-keywords: "Autex Quietspace Panel, Autex panel, wall insulation, ceiling insulation, insulation Australia, Autex Australia"
+description: "Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled pla"
+keywords: "Autex Quietspace Panel, Autex panel, acoustic insulation, wall insulation, ceiling insulation, insulation Australia, Autex Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AUTEX_QUIETSPACE_PANEL
 ---
@@ -10,102 +10,77 @@ family_id: AUTEX_QUIETSPACE_PANEL
 
 **Autex Panel** — acoustic panels for sound absorption and interior finish.
 
-Autex Quietspace Panel is a discrete, high-performance acoustic treatment engineered to absorb a minimum of 85% to 100% of sound energy. Made from 100% thermally bonded polyester fibre, it features a compressed, impact-resistant face and a cushioned backing designed to optimise broadband frequency absorption. Available in thicknesses from 25mm to 100mm, it can be installed nude or overlaid with decorative fabric to resolve severe reverberation across walls and ceilings.
+Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled plastic bottles, it's the sustainable choice for modern buildings.
 
 ## Key features
 
-- Premium broadband acoustic absorption absorbing 85% to 100% of sound energy (NRC 0.85 - 1.00).
-- Dual-density construction with compressed face and cushioned absorber backing.
-- Available in 25mm, 50mm, 75mm, and 100mm thicknesses.
-- Constructed from 100% polyester fibre containing minimum 45% to 58% recycled PET.
-- Group 1 fire rating compliant with AS ISO 9705 - 2003 and AS 5637.1.
-- Supplied with a factory-applied protective spun-bond cover to keep panels clean during installation.
-- Safe, non-toxic, non-allergenic, and free from chemical binders or formaldehyde.
-- Can be faced with Autex Vertiface fabric overlay or custom digital prints.
-- Thermal insulation performance up to R1.4 (50mm).
-- Certified Carbon Neutral product with third-party verified EPD and Declare Red List Free.
+- 100% polyester - safe to handle without protective equipment.
+- contains minimum 80% recycled PET plastic bottles.
+- non-allergenic, non-irritant formulation.
+- will not support mould or mildew growth.
+- maintains performance when wet - dries out naturally.
+- excellent thermal performance for roof/ceiling applications.
+- helps meet NCC energy efficiency requirements.
+- Made from recycled PET bottles.
 
 ## Applications and selection
 
-- wall
-- internal wall
-- ceiling
+- Internal Wall | Ceiling | General Acoustic
 
 **Selection checklist**
 
-1. Confirm required thickness based on acoustic target (25mm for NRC 0.85; 50mm+ for NRC 1.00).
-2. Select finish option (Nude White, Nude Black, Nude Grey, or Vertiface fabric overlay).
-3. Verify total wall or ceiling dimensions to calculate panel count (1200x2400mm sheets).
-4. Specify suitable adhesive (contact adhesive or high-grab MS polymer).
-5. Confirm need for aluminium edge trims or framing profiles.
+1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
+2. Confirm the target rating and construction build-up with the project team.
+3. Confirm available cavity or fixing depth against the product dimensions.
+4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
+5. Record the suburb/postcode so climate-zone requirements can be checked.
 
 
 ## Current catalogue range
 
-| Variant | Size / rating | Pack |
-| --- | --- | --- |
-| Quietspace Panel 25mm | 1200 mm x 2400 mm x 25 mm, NRC 0.85 | Panel |
-| Quietspace Panel 50mm | 1200 mm x 2400 mm x 50 mm, NRC 1.00 | Panel |
-| Quietspace Panel 75mm | 1200 mm x 2400 mm x 75 mm, NRC 1.00 | Panel |
-| Quietspace Panel 100mm | 1200 mm x 2400 mm x 100 mm, NRC 1.00 | Panel |
-
-_Variants from the manufacturer datasheet._
+| Rating | Type | Thickness | Dimensions | SKUs |
+| --- | --- | --- | --- | --- |
+| NRC 0.60 | acoustic_nrc | 25 | 2400 x 1200 | 4 |
+| Rw 40 | acoustic_rw | 50 | 2400 x 1200 | 4 |
+| Rw 45 | acoustic_rw | 75 | 2400 x 1200 | 4 |
+| Rw 50 | acoustic_rw | 100 | 2400 x 1200 | 4 |
+| NRC 0.60 | acoustic_nrc | 25 | 2700 x 1200 | 4 |
+| Rw 40 | acoustic_rw | 50 | 2700 x 1200 | 4 |
+| Rw 45 | acoustic_rw | 75 | 2700 x 1200 | 4 |
+| Rw 50 | acoustic_rw | 100 | 2700 x 1200 | 4 |
 
 ## Technical data
 
-| Property | Value | Standard |
+| Property | Value | Source |
 | --- | --- | --- |
-| Noise Reduction Coefficient (NRC) | 25mm: 0.85 (Class C); 50mm: 1.00 (Class A); 75mm: 1.00 (Class A); 100mm: 1.00 (Class A) | ISO 354 |
-| Sound Absorption Coefficients (25mm) | 125Hz: 0.15, 250Hz: 0.45, 500Hz: 0.85, 1000Hz: 1.00, 2000Hz: 1.00, 4000Hz: 0.95 | ISO 354 |
-| Sound Absorption Coefficients (50mm) | 125Hz: 0.30, 250Hz: 0.75, 500Hz: 1.10, 1000Hz: 1.10, 2000Hz: 1.05, 4000Hz: 1.00 | ISO 354 |
-| Panel Dimensions | 1200 mm x 2400 mm (nude: 1220 mm x 2440 mm) | - |
-| Thickness Options | 25 mm, 50 mm, 75 mm, 100 mm (tolerance +/- 6%) | - |
-| Weight | 25mm: 2300 gsm; 50mm: 3800 gsm; 75mm: 4050 gsm; 100mm: 4300 gsm | - |
-| Material Composition | 100% polyester fibre (PET) | - |
-| Recycled Content | Minimum 45% to 58% post-consumer recycled PET | - |
-| Thermal Resistance | 25mm: R0.6 (@ 15°C); 50mm: R1.4 (@ 15°C) | - |
-| Fire Rating (Australia) | Group 1, SMOGRArc < 100 m2/s2 | AS ISO 9705 - 2003 / AS 5637.1 |
-| International Fire Rating | Group 1-S (ISO 9705:1993); Class A (ASTM E-84); 25mm BS EN 13501-1:2018 B - s2, d0; 50mm B - s2, d2 | ISO 9705 / ASTM E-84 / BS EN 13501-1 |
-| Light Reflectance (White) | LRV 83 | BS 8493:2008+A1:2010 |
-| VOC Emissions | 0.009 mg/m3 (7 days) | Cetec |
+| Product type | Panel | Manufacturer catalogue |
+| Material | Polyester | Manufacturer catalogue |
+| Applications | Internal Wall | Ceiling | General Acoustic | Manufacturer catalogue |
+| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
 
-Extracted from manufacturer datasheet: https://www.autexglobal.com/au/products/quietspace-panel/
+
 
 ## Fire, testing and compliance context
 
-AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM E-84 Class A; BS EN 13501-1:2018 B - s2, d0 (25mm) / B - s2, d2 (50mm)
-
-NCC Specification 7 (BCA C1.10) Group 1 fire compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.autexacoustics.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://insulvac.com.au/wp-content/uploads/2020/04/autex-material-safety-data-sheet-msds.pdf.
 
-## Recommended accessories
-
-- Autex Edging Solutions (Type C profiles for 25mm panels).
-- Contact adhesive / MS polymer adhesive.
-- Vertiface fabric overlay.
-- Pressure roller.
-
 
 ## Limitations and warnings
 
-- Indoor use only; avoid direct water exposure or extreme humidity.
-- Nude panels are utilitarian; specify Vertiface fabric overlay for decorative high-traffic areas.
-- Do not expose to naked flames or concentrated heat sources above 80°C.
+- Not suitable for applications requiring fire rating without additional protection..
+- not to be exposed to weather or sustained moisture..
+- do not compress beyond manufacturer recommendations..
+- check fire-rated system requirements if fire rating is required..
+- confirm product selection matches specified thermal/acoustic/fire rating..
 
 ## Installation overview
 
-1. Inspect substrate ensuring it is flat, clean, dry, and free of dust, grease, or contaminants.
-2. Acclimatise panels in the installation space for at least 24 hours prior to fitting.
-3. Maintain factory-applied spun-bond protective sheet on panel face throughout installation.
-4. Apply recommended contact-type or high-grab MS polymer adhesive evenly across the panel backing.
-5. Position panel onto the wall or ceiling substrate and press firmly across the surface.
-6. Use a roller to ensure full adhesive contact and eliminate air pockets.
-7. Peel a corner of the protective spun-bond film and leave hanging until painting and messy trades finish.
-8. Remove protective film completely upon project handover.
+Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for applications requiring fire rating without additional protection.
 
 ## Safety and handling
 
@@ -113,11 +88,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Carbon neutral product; minimum 45% to 58% recycled PET; Declare Red List Free; EPD compliant; low VOC (0.009 mg/m3)
+Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
 
 ## Warranty, returns and support
 
-Manufacturer's Guarantee (10 years)
+No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
 
 ## Specification starting point
 

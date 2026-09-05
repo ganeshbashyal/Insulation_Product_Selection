@@ -1,6 +1,6 @@
 ---
 title: "Autex Surface Finishes Ceiling Tiles - Panel Insulation | Autex"
-description: "Autex Surface Finishes Ceiling Tiles (including Acoustic Timber Ceiling Tiles) are high-performance acoustic ceiling tiles designed to drop into stand"
+description: "Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability"
 keywords: "Autex Surface Finishes Ceiling Tiles, Autex panel, ceiling insulation, insulation Australia, Autex Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AUTEX_SURFACE_FINISHES_CEILING_TILES
@@ -10,96 +10,74 @@ family_id: AUTEX_SURFACE_FINISHES_CEILING_TILES
 
 **Autex Panel** — acoustic panels for sound absorption and interior finish.
 
-Autex Surface Finishes Ceiling Tiles (including Acoustic Timber Ceiling Tiles) are high-performance acoustic ceiling tiles designed to drop into standard suspended ceiling grids with authentic natural material finishes. Utilizing high-definition digital UV printing with safe water-based inks, realistic timber grains and stone textures are applied directly to 12mm non-woven polyester acoustic tiles. Delivering an NRC of 0.85 without the weight, rigidity, or cost of real wood or stone, they provide Class A acoustic absorption and Group 1 fire compliance.
+Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability.
 
 ## Key features
 
-- Digitally printed natural material finishes including 24 timber grains and stone textures.
-- Engineered to fit standard metric 600mm x 600mm and 1200mm x 600mm suspended ceiling grids.
-- High acoustic performance achieving NRC 0.85 (Class A sound absorption).
-- Lightweight, semi-rigid polyester construction that will not chip, crack, or break.
-- Printed with safe, water-based, UV-cured ink that does not compromise acoustics.
-- Constructed from 100% polyester fibre containing a minimum of 78% to 80% recycled PET.
-- Group 1 fire rating compliant with AS ISO 9705 - 2003 and AS 5637.1.
-- Resistant to moisture, mould, and mildew (ASTM G21-15 Growth Rating: 0).
-- Certified Carbon Neutral product with third-party verified EPD.
-- Backed by a 10-year manufacturer's guarantee.
+- 100% polyester - safe to handle without protective equipment.
+- contains minimum 80% recycled PET plastic bottles.
+- non-allergenic, non-irritant formulation.
+- will not support mould or mildew growth.
+- maintains performance when wet.
+- excellent thermal performance for roof/ceiling applications.
+- Made from recycled PET bottles.
+- Safe to handle without PPE.
 
 ## Applications and selection
 
-- ceiling
-- commercial office
-- boardroom
-- education
-- hospitality
-- retail
+- Ceiling
 
 **Selection checklist**
 
-1. Select finish from Acoustic Timber woodgrains (24 options) or Surface Finishes stone collection.
-2. Confirm ceiling grid size (595x595mm or 595x1195mm).
-3. Verify consistent grain alignment across ceiling layout.
-4. Check that all boxes match batch numbers to prevent variation.
-5. Ensure compliance with NCC Group 1 fire rating for ceilings.
+1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
+2. Confirm the target rating and construction build-up with the project team.
+3. Confirm available cavity or fixing depth against the product dimensions.
+4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
+5. Record the suburb/postcode so climate-zone requirements can be checked.
 
 
 ## Current catalogue range
 
 | Variant | Size / rating | Pack |
 | --- | --- | --- |
-| Surface Finishes Ceiling Tile 600x600 | 595 mm x 595 mm x 12 mm, NRC 0.85 | Pack of 16 tiles |
-| Surface Finishes Ceiling Tile 1200x600 | 595 mm x 1195 mm x 12 mm, NRC 0.85 | Pack of 8 tiles |
+|  |  |  |
+|  |  |  |
+|  |  |  |
 
 _Variants from the manufacturer datasheet._
 
 ## Technical data
 
-| Property | Value | Standard |
+| Property | Value | Source |
 | --- | --- | --- |
-| Noise Reduction Coefficient (NRC) | 0.85 | ASTM C423 / ISO 354 |
-| Sound Absorption Class | Class A | ISO 11654 |
-| Tile Dimensions | 595 mm x 595 mm (for 600x600 grid); 595 mm x 1195 mm (for 1200x600 grid) | - |
-| Thickness | 12 mm (tolerance +/- 6%) | - |
-| Material Composition | 100% polyester fibre (PET) printed with UV-curable ink | - |
-| Recycled Content | Minimum 78% to 80% post-consumer recycled PET | - |
-| Fire Rating (Australia) | Group 1, SMOGRArc < 100 m2/s2 | AS ISO 9705 - 2003 / AS 5637.1 |
-| International Fire Rating | Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a); Class B - s1, d0 (BS EN 13501-1:2018) | ISO 9705 / ASTM E-84 / BS EN 13501-1 |
-| Microbial Resistance | Growth rating: 0 (No growth) | ASTM G21-15 |
-| VOC Emissions | < 0.092 mg/m3 (7 days) | CDPH Standard Method v1.2 |
+| Product type | Panel | Manufacturer catalogue |
+| Material | Polyester | Manufacturer catalogue |
+| Applications | Ceiling | Manufacturer catalogue |
+| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
 
-Extracted from manufacturer datasheet: https://www.autexglobal.com/au/products/accent-ceiling-tiles/
+
 
 ## Fire, testing and compliance context
 
-AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM E-84-15a Class A; BS EN 13501-1:2018 Class B - s1, d0
-
-NCC Specification 7 (BCA C1.10) Group 1 fire compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.autexacoustics.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://insulvac.com.au/wp-content/uploads/2020/04/autex-material-safety-data-sheet-msds.pdf.
 
-## Recommended accessories
-
-- Standard two-way exposed ceiling grid (15mm or 24mm tee).
-- Utility knife and straight edge.
-
 
 ## Limitations and warnings
 
-- Indoor use only; avoid wet areas or direct water leaks.
-- Designed for non-contact ceiling grid installation; avoid repeated surface abrasion.
-- Do not mix batches in the same contiguous ceiling area.
+- Not suitable for fire rating without additional protection..
+- not to be exposed to weather or sustained moisture..
+- do not compress beyond manufacturer recommendations..
+- check fire-rated system requirements..
+- confirm product selection matches specified thermal/acoustic/fire rating..
 
 ## Installation overview
 
-1. Inspect suspended ceiling grid ensuring it is level, square, and structurally sound.
-2. Verify all boxes are from the same production batch to maintain print texture and grain consistency.
-3. Angle tile upward through the metric ceiling grid opening (600x600 or 1200x600).
-4. Align timber grain or stone pattern direction consistently across adjacent modules.
-5. Lower tile into position squarely so edges rest evenly on T-bar grid flanges.
-6. Trim perimeter tiles carefully from the face using a straight edge and sharp utility knife.
+Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for fire rating without additional protection.
 
 ## Safety and handling
 
@@ -107,11 +85,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Certified Carbon Neutral; minimum 78% to 80% recycled PET; Declare Red List Free; EPD verified; low VOC
+Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
 
 ## Warranty, returns and support
 
-Manufacturer's Guarantee (10 years)
+No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
 
 ## Specification starting point
 

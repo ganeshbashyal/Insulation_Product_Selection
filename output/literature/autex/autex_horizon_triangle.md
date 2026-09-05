@@ -1,7 +1,7 @@
 ---
 title: "Autex Horizon - Triangle - Panel Insulation | Autex"
-description: "Autex Horizon is a range of floating acoustic panels that create a cloud-like illusion when suspended. Available in clean two-dimensional geometric fo"
-keywords: "Autex Horizon - Triangle, Autex panel, wall insulation, ceiling insulation, insulation Australia, Autex Australia"
+description: "Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled pla"
+keywords: "Autex Horizon - Triangle, Autex panel, acoustic insulation, wall insulation, ceiling insulation, insulation Australia, Autex Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AUTEX_HORIZON_TRIANGLE
 ---
@@ -10,93 +10,73 @@ family_id: AUTEX_HORIZON_TRIANGLE
 
 **Autex Panel** — acoustic panels for sound absorption and interior finish.
 
-Autex Horizon is a range of floating acoustic panels that create a cloud-like illusion when suspended. Available in clean two-dimensional geometric forms including Right Angle Triangle, Horizon panels absorb sound across multiple frequency bands while serving as an architectural feature. With an adjustable suspension system for flexible hanging heights, Horizon can also be direct-fixed to walls without adhesives using dedicated mounting clips.
+Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled plastic bottles, it's the sustainable choice for modern buildings.
 
 ## Key features
 
-- Floating acoustic ceiling cloud creating an illusion of space.
-- Adjustable suspension system allows targeted frequency control.
-- Direct-fix wall option without adhesives using mounting clips.
-- Constructed from 100% polyester fibre with minimum 80% recycled content.
-- Group 1 fire rating to AS ISO 9705 - 2003 and AS 5637.1.
-- Acoustic rating of 0.7 - 3.4 Sabins per unit depending on configuration.
-- Lightweight yet strong 24mm semi-rigid Cube panel construction.
-- Moisture and mould resistant (ASTM G21-15 Growth Rating: 0).
-- Safe, non-toxic, non-allergenic, with no formaldehyde or crystalline silica.
-- Certified Carbon Neutral product with third-party verified EPD.
+- 100% polyester - safe to handle without protective equipment.
+- contains minimum 80% recycled PET plastic bottles.
+- non-allergenic, non-irritant formulation.
+- will not support mould or mildew growth.
+- maintains performance when wet - dries out naturally.
+- excellent thermal performance for roof/ceiling applications.
+- helps meet NCC energy efficiency requirements.
+- Made from recycled PET bottles.
 
 ## Applications and selection
 
-- ceiling
-- wall
-- internal wall
+- Internal Wall | Ceiling | General Acoustic
 
 **Selection checklist**
 
-1. Confirm ceiling height and available plenum space for suspended clouds.
-2. Select Triangle shape and calculate pack quantities (4 units per pack).
-3. Choose colour from the Autex Cube colour range (20+ colours).
-4. Specify mounting type (suspension kit or direct-fix wall clips).
-5. Verify compliance with seismic bracing requirements where applicable.
+1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
+2. Confirm the target rating and construction build-up with the project team.
+3. Confirm available cavity or fixing depth against the product dimensions.
+4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
+5. Record the suburb/postcode so climate-zone requirements can be checked.
 
 
 ## Current catalogue range
 
 | Variant | Size / rating | Pack |
 | --- | --- | --- |
-| Horizon Right Angle Triangle | 1159 mm x 1159 mm x 24 mm | Pack of 4 (covers 2.88 m2) |
+|  |  |  |
+|  |  |  |
 
 _Variants from the manufacturer datasheet._
 
 ## Technical data
 
-| Property | Value | Standard |
+| Property | Value | Source |
 | --- | --- | --- |
-| Acoustic Absorption (Right Angle Triangle) | 0.8 Sabins (direct fixed); 1.15 Sabins (suspended 200 mm); 1.25 Sabins (suspended 400 mm); 1.40 Sabins (suspended 800 mm) | ISO 354 |
-| Thickness | 24 mm (+/- 6%) | - |
-| Dimensions (Right Angle Triangle) | 1159 mm x 1159 mm | - |
-| Material Composition | 100% polyester fibre (PET) | - |
-| Recycled Content | Minimum 80% post-consumer recycled PET | - |
-| Fire Rating (Australia) | Group 1 (SMOGRArc < 100 m2/s2) | AS ISO 9705 - 2003 / AS 5637.1 |
-| Fire Rating (International) | Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a); B - s2, d0 (BS EN 13501-1:2018) | ISO 9705 / ASTM E-84 / BS EN 13501-1 |
-| Water Vapour Sorption | 0.4% by weight after 4 days at 49°C, 95% RH | ASTM C1104 / C1104M-13a |
-| Microbial Resistance | Growth rating: 0 (No growth) | ASTM G21-15 |
-| VOC Emissions | < 0.092 mg/m3 (7 days) | CDPH Standard Method v1.2 |
+| Product type | Panel | Manufacturer catalogue |
+| Material | Polyester | Manufacturer catalogue |
+| Applications | Internal Wall | Ceiling | General Acoustic | Manufacturer catalogue |
+| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
 
-Extracted from manufacturer datasheet: https://www.autexglobal.com/au/products/horizon/
+
 
 ## Fire, testing and compliance context
 
-AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM E-84-15a Class A (FS:0, SD:45); BS EN 13501-1:2018 B - s2, d0
-
-NCC Specification 7 (BCA C1.10) Group 1 fire compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.autexacoustics.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://insulvac.com.au/wp-content/uploads/2020/04/autex-material-safety-data-sheet-msds.pdf.
 
-## Recommended accessories
-
-- Horizon suspension kit (ceiling mounts, 1m cables, panel clips).
-- Direct fix wall clips.
-- Spirit level.
-
 
 ## Limitations and warnings
 
-- Indoor use only; not suitable for exterior environments or areas exposed to liquid water.
-- Non-structural panel; cannot support light fittings or overhead building services.
-- Handle with clean hands or white gloves to avoid soiling felt surface during installation.
+- Not suitable for applications requiring fire rating without additional protection..
+- not to be exposed to weather or sustained moisture..
+- do not compress beyond manufacturer recommendations..
+- check fire-rated system requirements if fire rating is required..
+- confirm product selection matches specified thermal/acoustic/fire rating..
 
 ## Installation overview
 
-1. Mark fixing locations on ceiling or wall substrate corresponding to panel clip positions.
-2. Secure ceiling connectors or wall mount brackets using appropriate countersunk fasteners.
-3. Attach suspension wire assemblies to ceiling mounts and adjust to desired hanging height.
-4. Attach Horizon mounting clips to the back of the 24mm triangle panel.
-5. Connect suspension cables to panel clips and level the panel with a spirit level.
-6. For wall direct fixing, push panel firmly onto wall mount clips until locked securely in place.
+Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for applications requiring fire rating without additional protection.
 
 ## Safety and handling
 
@@ -104,11 +84,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Carbon neutral product; minimum 80% recycled PET; Declare Red List Free; EPD compliant with ISO 14025 and EN 15804; low VOC (<0.092 mg/m3)
+Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
 
 ## Warranty, returns and support
 
-Manufacturer's Guarantee (10 years)
+No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
 
 ## Specification starting point
 

@@ -1,184 +1,61 @@
 {
   "family_id": "AUTEX_SURFACE_FINISHES_FRONTIER_RAFT_BEAM",
   "family_name": "Autex Surface Finishes Frontier Raft beam",
-  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/frontier/",
-  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
   "status": "ok",
   "researched_at": "2026-09-06",
   "spec": {
-    "description": "Autex Surface Finishes Frontier Raft - Beam (including Acoustic Timber Raft\nBeam) is an innovative acoustic ceiling beam system that combines the warmth and\nappearance of real timber or architectural stone with high-performance sound\nabsorption. Built from scored and folded 12mm Cube polyester felt digitally\nprinted with high-resolution woodgrains or stone textures using water-based\nUV-cured ink, it is available in Beam 100 (87mm high) and Beam 250 (227mm high)\nprofiles. It delivers an NRC of 0.75 to 0.95 and Group 1 fire safety without the\nweight, cost, or warping of solid timber beams.",
-    "features": [
-      "Realistic\ndigitally printed timber woodgrains (Acoustic Timber) and stone textures",
-      "Available in Beam 100 (87mm depth) and Beam 250 (227mm depth) profiles",
-      "Internal sound-dampening air gap enhances acoustic performance (NRC 0.75\n- 0.95)",
-      "Printed with safe, water-based, UV-cured ink that does not compromise\nacoustics",
-      "Lightweight, seismic-safe alternative to solid wood or steel\nceiling beams",
-      "Made from 100% polyester fibre containing a minimum of 60%\nto 80% recycled PET",
-      "Group 1 fire rating compliant with AS ISO 9705 - 2003 and\nAS 5637.1",
-      "Compatible with Frontier mounting clips and adjustable suspension\nsystems",
-      "Will not warp, crack, splinter, or slump over time",
-      "Certified\nCarbon Neutral product with third-party verified EPD"
-    ],
-    "applications": [
-      "ceiling",
-      "open-plan office",
-      "boardroom",
-      "commercial interior",
-      "education",
-      "hospitality"
-    ],
-    "technical": [
-      {
-        "property": "Acoustic Performance",
-        "value": "NRC 0.75 - 0.95 (Beam 100: NRC 0.80 at 150mm centres, 200mm off ceiling;\nBeam 250: NRC 0.90 at 300mm centres)",
-        "standard": "ISO 354"
-      },
-      {
-        "property": "Profile Dimensions (Beam 100)",
-        "value": "70 mm width x 87 mm height (2400 mm\nor 1200 mm length)",
-        "standard": ""
-      },
-      {
-        "property": "Profile Dimensions\n(Beam 250)",
-        "value": "70 mm width x 227 mm height (2400 mm or 1200 mm length)",
-        "standard": ""
-      },
-      {
-        "property": "Base Material Thickness",
-        "value": "12 mm Cube\npanel",
-        "standard": ""
-      },
-      {
-        "property": "Material Composition",
-        "value": "100%\npolyester fibre (PET) printed with UV-curable ink, aluminium extrusion",
-        "standard": ""
-      },
-      {
-        "property": "Recycled Content",
-        "value": "Minimum 60% to 80%\npost-consumer recycled PET",
-        "standard": ""
-      },
-      {
-        "property": "Fire Hazard\nClassification",
-        "value": "Group 1, SMOGRArc < 100 m2/s2",
-        "standard": "AS\nISO 9705 - 2003 / AS 5637.1:2015"
-      },
-      {
-        "property": "International Fire Rating",
-        "value": "Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a: FS:0 - SD:45); B -\ns2, d0 (BS EN 13501-1:2018)",
-        "standard": "ISO 9705 / ASTM E-84 / BS EN 13501-1"
-      },
-      {
-        "property": "Water Vapour Sorption",
-        "value": "0.4% by weight after 4 days\nat 49°C, 95% RH",
-        "standard": "ASTM C1104 / C1104M-13a"
-      },
-      {
-        "property": "Microbial Resistance",
-        "value": "Growth rating: 0 (No growth)",
-        "standard": "ASTM G21-15"
-      },
-      {
-        "property": "VOC Emissions",
-        "value": "< 0.092 mg/m3 (7\ndays)",
-        "standard": "CDPH Standard Method v1.2"
-      }
-    ],
     "range": [
       {
-        "variant": "Surface Finishes Frontier Raft Beam 100 (2400mm)",
-        "size_or_rating": "2400mm L\nx 70mm W x 87mm H",
-        "pack": "Pack of 8 beams (covers 2.88 m2 at 150mm centres)"
+        "c0": "Profile Model",
+        "c1": "Beam Depth (H)",
+        "c2": "Beam Width (W)",
+        "c3": "Length Options",
+        "c4": "Finish Options",
+        "c5": "Pack Quantity",
+        "c6": "Pack Coverage (@ Spacing)"
       },
       {
-        "variant": "Surface Finishes Frontier Raft Beam 100 (1200mm)",
-        "size_or_rating": "1200mm L x 70mm W x 87mm H",
-        "pack": "Pack of 16 beams\n(covers 2.88 m2 at 150mm centres)"
+        "c0": "Printed Beam 100",
+        "c1": "87 mm",
+        "c2": "70 mm",
+        "c3": "1200 mm & 2400 mm",
+        "c4": "Acoustic Timber / Stone",
+        "c5": "8 beams (2.4m) / 16 (1.2m)",
+        "c6": "2.88 m² (@ 150 mm centres)"
       },
       {
-        "variant": "Surface Finishes Frontier\nRaft Beam 250 (2400mm)",
-        "size_or_rating": "2400mm L x 70mm W x 227mm H",
-        "pack": "Pack of 4 beams (covers 2.88 m2 at 300mm centres)"
-      },
-      {
-        "variant": "Surface Finishes Frontier Raft Beam 250 (1200mm)",
-        "size_or_rating": "1200mm L\nx 70mm W x 227mm H",
-        "pack": "Pack of 8 beams (covers 2.88 m2 at 300mm centres)"
+        "c0": "Printed Beam 250",
+        "c1": "227 mm",
+        "c2": "70 mm",
+        "c3": "1200 mm & 2400 mm",
+        "c4": "Acoustic Timber / Stone",
+        "c5": "4 beams (2.4m) / 8 (1.2m)",
+        "c6": "2.88 m² (@ 300 mm centres)"
       }
-    ],
-    "fire": "AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1 (SMOGRArc\n< 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM E-84-15a Class A; BS EN 13501-1:2018\nB - s2, d0",
-    "compliance": "NCC Specification 7 (BCA C1.10) Group 1 fire\ncompliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354",
-    "sustainability": "Contains minimum 60% to 80% recycled PET; water-based UV-cured ink; zero carbon\nmanufacturing; Declare Red List Free; EPD verified; low VOC",
-    "install": [
-      "Plan\nceiling layout allowing recommended spacing (150mm centres for Beam 100; 300mm\ncentres for Beam 250)",
-      "Install Frontier mounting clips or suspension track\nsecurely to structural ceiling",
-      "Slide RAFNEXRT aluminium extrusion into the\nfolded Beam raft top channel",
-      "Align Autex mounting clips with channel and\nturn 45 degrees to temporarily position",
-      "Adjust along length, check grain\nalignment, and twist clips 90 degrees to lock firmly in place",
-      "Fit black\nextrusion end caps to beam ends for a clean architectural finish"
-    ],
-    "selection_checklist": [
-      "Select woodgrain (Acoustic Timber) or stone finish\nfrom Surface Finishes palette",
-      "Select Beam depth (Beam 100 at 87mm or Beam 250\nat 227mm)",
-      "Confirm beam length (1200mm or 2400mm; custom lengths available)",
-      "Verify beam spacing (150mm for Beam 100; 300mm for Beam 250) to calculate pack\nrequirements",
-      "Determine direct-fix or suspended installation hardware\nrequirement"
-    ],
-    "accessories": [
-      "Frontier Raft Extrusions (RAFNEXRT)",
-      "Autex\nMounting Clips (RAFTCC)",
-      "Frontier Channel Connectors (RAFCCT)",
-      "Adjustable\nsuspension cable sets / rod hangers",
-      "Frontier Beam end caps"
-    ],
-    "limitations": [
-      "Indoor ceiling application only; not for external use or wet environments",
-      "Non-load-bearing beam; cannot support luminaires or heavy ceiling services\ndirectly",
-      "Handle with clean hands or white gloves during installation to\nprevent marking the printed surface"
-    ],
-    "warranty": "10 Year Manufacturer's\nGuarantee"
+    ]
   },
   "retrieval": {
     "search_keywords": [
-      "Autex Surface Finishes Frontier\nRaft",
+      "Acoustic Timber Beam 250",
       "Acoustic Timber Frontier Raft",
-      "timber look ceiling beams",
-      "printed\nacoustic beams",
-      "Frontier Beam timber",
-      "woodgrain acoustic rafters",
-      "suspended timber acoustic beam",
-      "Acoustic Timber Beam 100",
-      "Acoustic Timber\nBeam 250"
+      "Surface Finishes Beam 100",
+      "printed acoustic beams",
+      "timber look ceiling beams"
     ],
     "problem_keywords": [
-      "solid timber ceiling beam weight",
-      "timber\nceiling fire hazards",
-      "hard reflective timber acoustics",
-      "echo in open office\nceiling",
-      "need timber ceiling look with soundproofing",
-      "warping and\nsplintering of timber rafters"
+      "Solid timber ceiling beams are too heavy, warp over time, pose fire risks, and bounce sound",
+      "client demands an authentic woodgrain ceiling baffle feature."
     ],
     "placement": [
-      "ceiling"
-    ],
-    "priority_fit": [
-      "acoustic",
-      "fire",
-      "sustainability",
-      "easy_install"
+      "Ceiling"
     ],
     "use_cases": [
-      "Installing realistic timber-look acoustic ceiling beams over open-plan\ncorporate workstations",
-      "High-end acoustic ceiling treatment in hospitality\ndining rooms and hotel receptions needing wood aesthetics",
-      "Acoustic beam\nfeatures in educational lecture halls and libraries requiring Group 1 fire\ncompliance"
-    ],
-    "not_for": [
-      "Direct floor traffic surfaces",
-      "Exterior exposed\nsoffits or open-air pergolas",
-      "Direct structural load-bearing applications"
-    ],
-    "rag_summary": "Autex Surface Finishes Frontier Raft - Beam (including Acoustic\nTimber Raft Beam) is an acoustic ceiling beam system that combines\nhigh-definition digitally printed timber grains and stone textures with hollow\nsound-absorbing profiles (Beam 100 at 87mm and Beam 250 at 227mm depth).\nConstructed from 12mm Cube polyester felt with an internal air gap and aluminium\nsuspension track, it delivers superior sound absorption (NRC 0.75 to 0.95) while\neliminating the weight, warping, and fire hazards of real wood beams. Rated\nGroup 1 fire compliant under AS ISO 9705 and certified carbon neutral with\nover 60% recycled PET, it provides a warm, lifelike timber ceiling feature for\ncommercial and educational spaces."
+      "Replaces solid timber rafters with lightweight, non-warping polyester beams (70mm wide x 87mm or 227mm deep) that achieve up to NRC 0.90 sound absorption and Group 1 fire compliance."
+    ]
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "knowledge_base_txt",
+  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
 }

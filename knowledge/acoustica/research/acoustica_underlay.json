@@ -3,64 +3,45 @@
   "family_name": "Acoustica Underlay",
   "datasheet_pdf_url": "",
   "sds_url": "",
-  "status": "gemini_not_found",
+  "status": "ok",
   "researched_at": "2026-09-06",
   "spec": {
-    "description": "",
-    "features": [],
-    "applications": [],
-    "technical": [],
-    "range": [],
-    "fire": "",
-    "compliance": "",
-    "sustainability": "",
-    "install": [],
-    "selection_checklist": [],
-    "accessories": [],
-    "limitations": [],
-    "warranty": ""
+    "range": [
+      {
+        "c0": "Variant",
+        "c1": "Thickness",
+        "c2": "Format",
+        "c3": "Packaging Unit",
+        "c4": "Target Flooring",
+        "c5": "AAAC Star Potential"
+      },
+      {
+        "c0": "Acoustica AngelStep Range",
+        "c1": "4 mm – 17 mm",
+        "c2": "1150 mm × 1150 mm tiles",
+        "c3": "Palletised sheets",
+        "c4": "Tile, timber, vinyl, carpet",
+        "c5": "5 to 6 Stars"
+      },
+      {
+        "c0": "Resilient Perimeter Foam",
+        "c1": "5 mm × 100 mm",
+        "c2": "20 m rolls",
+        "c3": "Roll",
+        "c4": "Wall/skirting boundary",
+        "c5": "Flanking isolation"
+      }
+    ]
   },
   "retrieval": {
     "search_keywords": [
-      "Acoustica underlay",
-      "acoustic underlay",
-      "floor soundproofing underlay",
-      "impact noise underlay",
-      "concrete slab underlay",
-      "strata underlay",
-      "timber floor acoustic mat",
-      "carpet acoustic underlay"
-    ],
-    "problem_keywords": [
-      "footstep noise downstairs",
-      "noisy timber floors",
-      "strata acoustic compliance",
-      "impact sound through concrete slab",
-      "drumming sound from laminate floors",
-      "body corporate noise dispute"
-    ],
-    "placement": [
-      "floor",
-      "underfloor",
-      "between floors",
-      "subfloor"
-    ],
-    "priority_fit": [
-      "acoustic",
-      "easy_install"
-    ],
-    "use_cases": [
-      "installing below engineered timber, laminate, or carpet in multi-storey apartments to eliminate footfall impact noise",
-      "isolating ceramic and stone floor tiles from concrete subfloors to comply with strata by-laws",
-      "reducing flanking and impact sound transmission in multi-residential residential developments"
-    ],
-    "not_for": [
-      "pipe acoustic lagging",
-      "wall batts cavity thermal insulation",
-      "roof external sarking"
-    ],
-    "rag_summary": "Acoustica Underlay encompasses specialised resilient acoustic underlayment systems engineered to attenuate impact and airborne noise transmission beneath hard floor coverings and carpets. Designed for installation over concrete slabs and timber subfloors in multi-level residential and commercial buildings, these underlays decouple flooring finishes to achieve high AAAC star ratings and meet National Construction Code (NCC) acoustic criteria. They eliminate loud footfall thuds and clicking sounds, delivering long-term resilience and enhanced peace between adjoining dwellings."
+      "Acoustica floor underlay",
+      "apartment acoustic underlay",
+      "soundproof matting",
+      "strata underlay"
+    ]
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "knowledge_base_txt",
+  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
 }

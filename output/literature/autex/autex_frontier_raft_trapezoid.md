@@ -1,7 +1,7 @@
 ---
 title: "Autex Frontier Raft - Trapezoid - Batt Insulation | Autex"
-description: "Autex Frontier Raft - Trapezoid is an innovative acoustic ceiling beam system designed for targeted sound absorption in open-plan spaces. Constructed "
-keywords: "Autex Frontier Raft - Trapezoid, Autex batt, ceiling insulation, insulation Australia, Autex Australia"
+description: "Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled pla"
+keywords: "Autex Frontier Raft - Trapezoid, Autex batt, acoustic insulation, ceiling insulation, insulation Australia, Autex Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AUTEX_FRONTIER_RAFT_TRAPEZOID
 ---
@@ -10,100 +10,74 @@ family_id: AUTEX_FRONTIER_RAFT_TRAPEZOID
 
 **Autex Batt** — bulk insulation batts for thermal and acoustic performance.
 
-Autex Frontier Raft - Trapezoid is an innovative acoustic ceiling beam system designed for targeted sound absorption in open-plan spaces. Constructed from 100% polyester fibre using scored and folded 12mm Cube material locked with an extruded aluminium channel, Trapezoid creates a lightweight 3D acoustic feature with an internal sound-dampening air gap. It easily fixes directly or suspends from ceilings, delivering high acoustic performance across a wide frequency range without the weight of solid timber or metal beams.
+Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled plastic bottles, it's the sustainable choice for modern buildings.
 
 ## Key features
 
-- Innovative scored and folded hollow 3D trapezoid profile (200mm wide x 137mm deep).
-- Made from 100% polyester fibre containing a minimum of 60% recycled PET.
-- Group 1 fire rating compliant with AS ISO 9705 - 2003 and AS 5637.1.
-- Sound absorption with internal air cavity achieving high NRC (0.75 - 0.95).
-- Lightweight alternative to solid wood or steel ceiling beams.
-- Compatible with Frontier channel and mounting clip suspension systems.
-- Highly durable material that will not bend, slump, or warp over time.
-- Resistant to moisture, mould, and mildew (ASTM G21-15 Growth Rating: 0).
-- Safe, non-toxic, non-allergenic, and low-VOC emissions.
-- Backed by a 10-year manufacturer's guarantee.
+- 100% polyester - safe to handle without protective equipment.
+- contains minimum 80% recycled PET plastic bottles.
+- non-allergenic, non-irritant formulation.
+- will not support mould or mildew growth.
+- maintains performance when wet - dries out naturally.
+- excellent thermal performance for roof/ceiling applications.
+- helps meet NCC energy efficiency requirements.
+- Made from recycled PET bottles.
 
 ## Applications and selection
 
-- ceiling
-- open-plan office
-- commercial interior
-- education
-- retail
-- hospitality
+- Ceiling | General Acoustic
 
 **Selection checklist**
 
-1. Confirm ceiling height and available plenum space for 137mm deep profile.
-2. Select raft length (1200mm or 2400mm) and calculate pack quantities based on 300mm spacing.
-3. Choose colourway from Autex Cube solid colour or Acoustic Timber printed finish range.
-4. Verify direct-fix or suspended installation hardware requirement.
-5. Confirm local seismic bracing requirements if applicable.
+1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
+2. Confirm the target rating and construction build-up with the project team.
+3. Confirm available cavity or fixing depth against the product dimensions.
+4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
+5. Record the suburb/postcode so climate-zone requirements can be checked.
 
 
 ## Current catalogue range
 
 | Variant | Size / rating | Pack |
 | --- | --- | --- |
-| Frontier Raft Trapezoid 2400mm | 2400mm L x 200mm W x 137mm H (Pack covers 2.88 m2 at 300mm centres) | 4 rafts per pack |
-| Frontier Raft Trapezoid 1200mm | 1200mm L x 200mm W x 137mm H (Pack covers 2.88 m2 at 300mm centres) | 8 rafts per pack |
+|  |  |  |
+|  |  |  |
+|  |  |  |
 
 _Variants from the manufacturer datasheet._
 
 ## Technical data
 
-| Property | Value | Standard |
+| Property | Value | Source |
 | --- | --- | --- |
-| Material Composition | 100% polyester fibre (PET) with aluminium extrusion channel | - |
-| Profile Dimensions | 200 mm width x 137 mm height (inclusive of extrusion) | - |
-| Length | 1200 mm or 2400 mm | - |
-| Base Material Thickness | 12 mm Cube panel | - |
-| Acoustic Performance | NRC 0.75 - 0.95 (at 300 mm centres, 200 mm off ceiling) | ISO 354 |
-| Fire Hazard Classification | Group 1, SMOGRArc < 100 m2/s2 | AS ISO 9705 - 2003 / AS 5637.1:2015 |
-| Fire Hazard Properties | Class A, FS:0 - SD:45 | ASTM E-84-15a |
-| International Fire Classification | Group 1-S (ISO 9705:1993) / B-s2, d0 (BS EN 13501-1:2018) | ISO 9705 / BS EN 13501-1 |
-| Water Vapour Sorption | 0.4% by weight after 4 days at 49°C, 95% RH | ASTM C1104 / C1104M-13a |
-| Microbial Resistance | Growth rating: 0 (No growth) | ASTM G21-15 |
-| VOC Emissions | Low VOC, CDPH compliant (<0.092 mg/m3) | CDPH v1.2 |
+| Product type | Batt | Manufacturer catalogue |
+| Material | Polyester | Manufacturer catalogue |
+| Applications | Ceiling | General Acoustic | Manufacturer catalogue |
+| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
 
-Extracted from manufacturer datasheet: https://www.autexglobal.com/au/products/frontier/
+
 
 ## Fire, testing and compliance context
 
-Group 1 (AS ISO 9705 - 2003 / AS 5637.1:2015, SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM E-84-15a Class A (FS:0, SD:45); BS EN 13501-1:2018 B-s2, d0
-
-NCC BCA Specification C1.10 Group 1 fire compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.autexacoustics.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://insulvac.com.au/wp-content/uploads/2020/04/autex-material-safety-data-sheet-msds.pdf.
 
-## Recommended accessories
-
-- Frontier Raft Extrusions (RAFNEXRT).
-- Autex Mounting Clips (RAFTCC).
-- Frontier Channel Connectors (RAFCCT).
-- Adjustable suspension cable sets / rod hangers.
-- Frontier Trapezoid end caps.
-
 
 ## Limitations and warnings
 
-- Indoor ceiling application only; not for external use or wet environments.
-- Not load-bearing; cannot support fixtures, lighting, or services.
-- Spacing wider than recommended will decrease overall room acoustic absorption.
+- Not suitable for applications requiring fire rating without additional protection..
+- not to be exposed to weather or sustained moisture..
+- do not compress beyond manufacturer recommendations..
+- check fire-rated system requirements if fire rating is required..
+- confirm product selection matches specified thermal/acoustic/fire rating..
 
 ## Installation overview
 
-1. Plan ceiling layout allowing recommended 300mm spacing between raft centres.
-2. Securely install Frontier mounting clips or suspension track to structural ceiling.
-3. Slide RAFNEXRT aluminium extrusion into the folded Trapezoid raft top channel.
-4. Align Autex mounting clips with channel and turn 45 degrees to temporarily position.
-5. Adjust along length and twist clips 90 degrees to lock firmly in place.
-6. Fit black extrusion end caps to ends for a neat aesthetic finish.
+Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for applications requiring fire rating without additional protection.
 
 ## Safety and handling
 
@@ -111,11 +85,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Contains minimum 60% post-consumer recycled PET; zero carbon manufacturing; Declare Red List Free; EPD verified; low VOC
+Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
 
 ## Warranty, returns and support
 
-10 Year Manufacturer's Guarantee
+No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
 
 ## Specification starting point
 
