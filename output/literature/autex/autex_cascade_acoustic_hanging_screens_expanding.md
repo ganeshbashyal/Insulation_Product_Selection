@@ -1,7 +1,7 @@
 ---
 title: "Autex Cascade Acoustic Hanging Screens - Expanding - Panel Insulation | Autex"
-description: "Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled pla"
-keywords: "Autex Cascade Acoustic Hanging Screens - Expanding, Autex panel, acoustic insulation, wall insulation, insulation Australia, Autex Australia"
+description: "Autex Cascade Acoustic Hanging Screens - Expanding are innovative suspended acoustic partitions that concertina open to define zones and control sound"
+keywords: "Autex Cascade Acoustic Hanging Screens - Expanding, Autex panel, acoustic insulation, wall insulation, ceiling insulation, insulation Australia, Autex Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AUTEX_CASCADE_ACOUSTIC_HANGING_SCREENS_EXPANDI
 ---
@@ -10,29 +10,33 @@ family_id: AUTEX_CASCADE_ACOUSTIC_HANGING_SCREENS_EXPANDI
 
 **Autex Panel** — acoustic panels for sound absorption and interior finish.
 
-Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled plastic bottles, it's the sustainable choice for modern buildings.
+Autex Cascade Acoustic Hanging Screens - Expanding are innovative suspended acoustic partitions that concertina open to define zones and control sound in open-plan spaces. Manufactured from 12mm Cube polyester panel with precision laser-cut geometry, the patented expanding design pulls open to grow by 100% in size without generating any cut-out material waste. Suspended from the ceiling via an aluminium channel and cable system, it introduces spatial separation and acoustic absorption while maintaining openness and natural light.
 
 ## Key features
 
-- 100% polyester - safe to handle without protective equipment.
-- contains minimum 80% recycled PET plastic bottles.
-- non-allergenic, non-irritant formulation.
-- will not support mould or mildew growth.
-- maintains performance when wet - dries out naturally.
-- Made from recycled PET bottles.
-- Safe to handle without protective equipment.
+- Patented expanding design that grows 100% in size without off-cut waste.
+- Constructed from 12mm semi-rigid Cube acoustic panel.
+- Suspended from ceiling via Frontier aluminium channel and wire kit.
+- Water-cut geometric patterns allow sight and light to filter through.
+- Controls reverberation and reduces background chatter in open areas.
+- Available in a wide range of solid colourways.
+- Group 1 fire rating to AS ISO 9705 - 2003.
+- Contains minimum 80% post-consumer recycled PET fibre.
+- Certified Carbon Neutral and Red List Free.
+- Complete kit including screen, channel, ceiling connectors, and suspension wires.
 
 ## Applications and selection
 
-- Internal Wall | General Acoustic
+- internal wall
+- ceiling
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Select expanding pattern design (E1, E2, E3, E4, E5, or E6).
+2. Select colour from Autex Cube palette (over 20 colours available).
+3. Confirm ceiling height and check if standard 1m suspension cable is sufficient.
+4. Choose top-only suspension or top-and-base fixed configuration.
+5. Verify structural ceiling anchor suitability.
 
 
 ## Current catalogue range
@@ -43,36 +47,53 @@ Specialists in sustainable polyester acoustic solutions. Safe to handle without 
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Panel | Manufacturer catalogue |
-| Material | Polyester | Manufacturer catalogue |
-| Applications | Internal Wall | General Acoustic | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Acoustic Performance (NRC of base panel) | 0.45 - 0.80 (Cube 12mm base material) | ISO 354 |
+| Base Screen Dimensions (Unexpanded) | 1200 mm x 1200 mm (nominal) | - |
+| Expanded Dimensions | 1200 mm x 2400 mm (expands up to 100% in length) | - |
+| Thickness | 12 mm | - |
+| Material Composition | 100% polyester fibre (PET) with aluminium channel | - |
+| Recycled Content | Minimum 80% post-consumer recycled PET | - |
+| Fire Hazard Classification | Group 1 (AS ISO 9705 - 2003 / AS 5637.1); Group 1-S (ISO 9705:1993) | AS ISO 9705 / AS 5637.1 |
+| Suspension System | Frontier extruded aluminium channel with 1m suspension cables | - |
+| Microbial Resistance | Growth Rating: 0 (No growth) | ASTM G21-15 |
 
-
+Extracted from manufacturer datasheet: https://www.autexglobal.com/au/products/cascade/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+AS ISO 9705 - 2003: Group 1; ISO 9705: Group 1-S; BS EN 13501-1:2018: B - s2, d0
+
+NCC BCA Group 1 fire compliance; AS ISO 9705:2003; ISO 9001 and ISO 14001 accredited manufacturing
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.autexacoustics.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://insulvac.com.au/wp-content/uploads/2020/04/autex-material-safety-data-sheet-msds.pdf.
 
+## Recommended accessories
+
+- Cascade suspension kit (Frontier channel, ceiling connectors, 1m wires, sliders).
+- Cascade channel end caps.
+- Extended suspension cables (if ceiling height exceeds 3.5m).
+
 
 ## Limitations and warnings
 
-- Not suitable for applications requiring fire rating without additional protection..
-- not to be exposed to weather or sustained moisture..
-- do not compress beyond manufacturer recommendations..
-- check fire-rated system requirements if fire rating is required..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Designed as a spatial divider and acoustic baffle, not a physical security barrier.
+- Suspension anchors must be fixed to structurally sound ceiling elements.
+- Do not apply excessive tensile downward force on expanded pattern web.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for applications requiring fire rating without additional protection.
+1. Determine suspension anchor points on the ceiling at required spacing.
+2. Fix ceiling connectors securely to structural ceiling or soffit.
+3. Thread suspension wires into ceiling connectors and adjust to desired height.
+4. Attach Frontier channel to top of the Cascade screen using sliders.
+5. Carefully pull and concertina the expanding screen downward to reveal the pattern.
+6. Lock the bottom in place using optional floor-fixing kit or allow to hang freely.
+7. Fit black extrusion end caps to the channel ends for a clean finish.
 
 ## Safety and handling
 
@@ -80,11 +101,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Zero waste cutting process; min 80% recycled PET; certified Carbon Neutral; Declare Red List Free; 100% recyclable
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Manufacturer's guarantee by Autex Acoustics
 
 ## Specification starting point
 

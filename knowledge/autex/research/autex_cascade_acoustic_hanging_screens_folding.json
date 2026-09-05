@@ -1,0 +1,149 @@
+{
+  "family_id": "AUTEX_CASCADE_ACOUSTIC_HANGING_SCREENS_FOLDING",
+  "family_name": "Autex Cascade Acoustic Hanging Screens - Folding",
+  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/cascade/",
+  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Autex Cascade Acoustic Hanging Screens - Folding are suspended acoustic space\ndividers that feature a patented 3D folding pattern cut into 12mm Cube panels.\nBy pushing and pulling open cut geometric folds, the screen creates\narchitectural depth, texture, and visual privacy without discarding any\noff-cuts. Suspended from the ceiling, it absorbs ambient noise reflections and\nreduces background chatter in commercial offices, educational facilities, and\nhospitality venues.",
+    "features": [
+      "Patented 3D folding geometric design\ncreates texture and shadow",
+      "Manufactured with zero cut-out waste for maximum\nsustainability",
+      "Constructed from 12mm semi-rigid Cube polyester felt",
+      "Suspended via Frontier aluminium channel and adjustable wire kit",
+      "Provides\nacoustic absorption while preserving line-of-sight and airflow",
+      "Available in\nover 20 contemporary Cube colourways",
+      "Group 1 fire rating to AS ISO 9705\n- 2003",
+      "Minimum 80% recycled post-consumer PET fibre content",
+      "Carbon neutral\ncertified product with third-party verified EPD",
+      "Supplied as a complete\ninstall-ready kit"
+    ],
+    "applications": [
+      "internal wall",
+      "ceiling"
+    ],
+    "technical": [
+      {
+        "property": "Acoustic Performance (NRC of base panel)",
+        "value": "0.45 - 0.80 (Cube 12mm base material)",
+        "standard": "ISO 354"
+      },
+      {
+        "property": "Screen Dimensions",
+        "value": "1200 mm x 2400 mm",
+        "standard": ""
+      },
+      {
+        "property": "Thickness",
+        "value": "12 mm",
+        "standard": ""
+      },
+      {
+        "property": "Material Composition",
+        "value": "100% polyester fibre (PET) with aluminium\nchannel",
+        "standard": ""
+      },
+      {
+        "property": "Recycled Content",
+        "value": "Minimum 80% post-consumer recycled PET",
+        "standard": ""
+      },
+      {
+        "property": "Fire\nHazard Classification",
+        "value": "Group 1 (AS ISO 9705 - 2003 / AS 5637.1);\nGroup 1-S (ISO 9705:1993)",
+        "standard": "AS ISO 9705 / AS 5637.1"
+      },
+      {
+        "property": "Suspension System",
+        "value": "Frontier extruded aluminium channel\nwith 1m suspension cables",
+        "standard": ""
+      },
+      {
+        "property": "Microbial\nResistance",
+        "value": "Growth Rating: 0 (No growth)",
+        "standard": "ASTM G21-15"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Cascade Folding Screen (Pattern F1-F7)",
+        "size_or_rating": "1200 mm x 2400 mm x 12 mm",
+        "pack": "Kit (Screen + Suspension\nhardware)"
+      }
+    ],
+    "fire": "AS ISO 9705 - 2003: Group 1; ISO 9705: Group 1-S; BS\nEN 13501-1:2018: B - s2, d0",
+    "compliance": "NCC BCA Group 1 fire compliance; AS\nISO 9705:2003; ISO 9001 and ISO 14001 accredited manufacturing",
+    "sustainability": "Zero cut-out waste; min 80% recycled PET; certified Carbon\nNeutral; Declare Red List Free; 100% recyclable",
+    "install": [
+      "Mark ceiling\nfixing points to match Frontier channel suspension slider positions",
+      "Fasten\nceiling connectors securely to structural ceiling or track",
+      "Attach Frontier\nchannel to the top edge of the 12mm folding screen",
+      "Push and pull individual\ngeometric tabs to create the 3D folding pattern",
+      "Connect suspension wires to\nceiling connectors and level the screen",
+      "Attach bottom channel if installing\nin top-and-base fixed configuration",
+      "Fit end caps to channel ends for a clean\narchitectural finish"
+    ],
+    "selection_checklist": [
+      "Choose folding pattern design\n(e.g. F1, F2, F3, F7)",
+      "Select colour from Autex Cube palette",
+      "Verify ceiling\nheight and check if extended suspension wire is needed",
+      "Determine whether\nfree-hanging or base-anchored configuration is preferred",
+      "Check clearance from\nhigh-velocity air conditioning diffusers"
+    ],
+    "accessories": [
+      "Cascade\nsuspension kit (Frontier channel, ceiling connectors, 1m cables, sliders)",
+      "Frontier channel end caps",
+      "Base channel kit (for floor anchoring)"
+    ],
+    "limitations": [
+      "Not a structural partition or barrier",
+      "Avoid placement in\ndirect path of strong drafts or high air conditioning flow that could cause\nswaying",
+      "Tabs should be folded carefully along pre-cut hinge lines to avoid\ntearing"
+    ],
+    "warranty": "Manufacturer's guarantee by Autex Acoustics"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Cascade Folding screen",
+      "Autex Cascade folding",
+      "3D acoustic hanging screen",
+      "textured hanging screen",
+      "folding acoustic\npartition",
+      "suspended 3D divider",
+      "office hanging screen",
+      "Autex folding\nscreen"
+    ],
+    "problem_keywords": [
+      "background noise in open office",
+      "flat boring\npartitions",
+      "lack of visual separation",
+      "cluttered open plan spaces",
+      "reverberation across desks",
+      "echoey collaborative areas"
+    ],
+    "placement": [
+      "ceiling",
+      "internal wall"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "easy_install",
+      "sustainability"
+    ],
+    "use_cases": [
+      "adding acoustic texture and visual screening\nbetween project teams in agile corporate offices",
+      "separating collaborative\ncafé zones from quiet desks in modern co-working hubs",
+      "creating an\neye-catching suspended backdrop behind reception desks to absorb foyer echo",
+      "dividing open spaces in galleries, showrooms, and retail stores"
+    ],
+    "not_for": [
+      "airborne sound containment requiring solid soundproof walls",
+      "outdoor\nweather-exposed installations",
+      "wet rooms or high-humidity shower spaces"
+    ],
+    "rag_summary": "Autex Cascade Acoustic Hanging Screens - Folding are 12mm thick\nsuspended acoustic screens that feature push-and-pull three-dimensional\ngeometric folding patterns. Made from semi-rigid Cube polyester felt without\ngenerating off-cut waste, the folded tabs create dynamic light and shadow\neffects while capturing sound reflections in open interiors. Supported by an\naluminium Frontier channel kit, with Group 1 fire performance and 80% recycled\ncontent, they deliver acoustic diffusion and visual separation for open-plan\nworkspaces."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

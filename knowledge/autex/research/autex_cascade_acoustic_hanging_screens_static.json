@@ -3,7 +3,7 @@
   "family_name": "Autex Cascade Acoustic Hanging Screens - Static",
   "datasheet_pdf_url": "https://www.autexglobal.com/au/products/cascade/",
   "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
-  "status": "gemini_not_found",
+  "status": "ok",
   "researched_at": "2026-09-06",
   "spec": {
     "description": "Autex Cascade Acoustic Hanging Screens - Static are elegant suspended acoustic\nscreens crafted from 12mm Cube panels with precision water-cut geometric\npatterns. Designed to hang effortlessly from the ceiling to the floor, they\nestablish visual privacy and spatial zones without blocking sightlines or light.\nEngineered to absorb reverberated sound and reduce ambient chatter, they provide\nan acoustic and aesthetic feature for open-plan commercial and educational\ninteriors.",
@@ -53,26 +53,96 @@
         "property": "Fire\nHazard Classification",
         "value": "Group 1 (AS ISO 9705 - 2003 / AS 5637.1);\nGroup 1-S (ISO 9705:1993)",
         "standard": "AS ISO 9705 / AS 5637.1"
+      },
+      {
+        "property": "Suspension System",
+        "value": "Frontier extruded aluminium channel\nwith 1m suspension cables",
+        "standard": ""
+      },
+      {
+        "property": "Microbial\nResistance",
+        "value": "Growth Rating: 0 (No growth)",
+        "standard": "ASTM G21-15"
       }
     ],
-    "range": null,
-    "fire": null,
-    "compliance": null,
-    "sustainability": null,
-    "install": null,
-    "selection_checklist": null,
-    "accessories": null,
-    "limitations": null,
-    "warranty": null
+    "range": [
+      {
+        "variant": "Cascade Static Screen (Pattern S1-S14 or Custom)",
+        "size_or_rating": "1200 mm x 2400 mm x 12 mm",
+        "pack": "Kit (Screen + Suspension\nhardware)"
+      }
+    ],
+    "fire": "AS ISO 9705 - 2003: Group 1; ISO 9705: Group 1-S; BS\nEN 13501-1:2018: B - s2, d0",
+    "compliance": "NCC BCA Group 1 fire compliance; AS\nISO 9705:2003; ISO 9001 and ISO 14001 accredited manufacturing",
+    "sustainability": "Minimum 80% recycled PET; certified Carbon Neutral; Declare\nRed List Free; 100% recyclable",
+    "install": [
+      "Establish ceiling suspension\npoints aligned with channel attachment sliders",
+      "Fasten ceiling connectors\nsecurely to structural ceiling or soffit",
+      "Attach Frontier channel along the\ntop edge of the 12mm static screen",
+      "Connect suspension wires to ceiling\nconnectors and adjust screen height",
+      "Ensure screen hangs plumb and level",
+      "If\ninstalling base channel, anchor base cable connectors to floor and attach to\nlower channel",
+      "Push black end caps into channel ends for a clean finished\nlook"
+    ],
+    "selection_checklist": [
+      "Select static pattern design from lookbook or\nrequest custom water-cut profile",
+      "Choose screen colour from Autex Cube\npalette",
+      "Confirm ceiling height and check if 1m suspension wires are\nsufficient",
+      "Decide between free-hanging (top only) or floor-anchored (top &\nbottom) installation",
+      "Verify ceiling anchor substrate suitability"
+    ],
+    "accessories": [
+      "Cascade suspension kit (Frontier channel, ceiling\nconnectors, 1m wires, sliders)",
+      "Channel end caps",
+      "Base suspension kit (for\nfloor anchoring)"
+    ],
+    "limitations": [
+      "Not a physical impact barrier or security\npartition",
+      "Free-hanging screens may sway if placed in strong air currents or\ndoorway drafts",
+      "Avoid sharp bending of panel during installation"
+    ],
+    "warranty": "Manufacturer's guarantee by Autex Acoustics"
   },
   "retrieval": {
-    "search_keywords": null,
-    "problem_keywords": null,
-    "placement": null,
-    "priority_fit": null,
-    "use_cases": null,
-    "not_for": null,
-    "rag_summary": null
+    "search_keywords": [
+      "Autex Cascade Static",
+      "Cascade Static screen",
+      "cut out\nacoustic screen",
+      "patterned hanging screen",
+      "suspended acoustic divider",
+      "water cut acoustic panel",
+      "decorative acoustic partition",
+      "hanging sound\nscreen"
+    ],
+    "problem_keywords": [
+      "noisy open plan office",
+      "distracting visual\nmovements across room",
+      "echo in large open space",
+      "zoning office without solid\nwalls",
+      "lack of semi-private work zones",
+      "glare and chatter in commercial\nspaces"
+    ],
+    "placement": [
+      "ceiling",
+      "internal wall"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "easy_install",
+      "sustainability"
+    ],
+    "use_cases": [
+      "suspending\nbetween workstation clusters in tech offices to dampen speech chatter",
+      "creating semi-private consultation zones in bank branches and customer service\ncentres",
+      "defining circulation paths in open-plan corporate and educational\nfacilities",
+      "introducing decorative suspended acoustic art into high-ceilinged\nhospitality venues"
+    ],
+    "not_for": [
+      "complete acoustic isolation requiring\nairtight partitions",
+      "external wind-exposed areas",
+      "heavy load-bearing or\nbarrier requirements"
+    ],
+    "rag_summary": "Autex Cascade Acoustic Hanging Screens\n- Static are ceiling-suspended 12mm acoustic panels precision water-cut with\nintricate geometric patterns. Formed from solid-colour Cube polyester felt,\nthese static screens soften sound reverberation and background speech while\nmaintaining sightlines and open airflow across commercial interiors. Supplied\nwith Frontier aluminium channels and height-adjustable suspension cables, they\nprovide a Group 1 fire-rated, carbon-neutral solution for zoning open spaces."
   },
   "source_excerpt": null,
   "engine": "ai_studio_batch"
