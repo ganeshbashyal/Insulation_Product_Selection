@@ -1,0 +1,47 @@
+You are researching 10 insulation product families for an Australian supplier's knowledge base. For EACH family, use Google Search to find the OFFICIAL manufacturer Technical Data Sheet (TDS) and Safety Data Sheet (SDS) on the manufacturer's own website, read them, and extract the data.
+
+Return ONLY a single JSON array (no markdown fences, no commentary, and NO inline citation markers like [1] or (https://...) inside the values — put source links only in the tds_url/sds_url fields). The array must have exactly 10 objects, one per family IN THE SAME ORDER AS LISTED BELOW. Each object must have:
+
+  "family_id": the exact family_id string from the list below (copy it verbatim),
+  "tds_url": absolute URL of the official TDS (PDF or product page), or "" if not found,
+  "sds_url": absolute URL of the official SDS, or "" if not found,
+  "description": 2-4 sentence factual description from the TDS,
+  "features": up to 10 short feature strings the manufacturer actually states,
+  "applications": list of applications (e.g. "ceiling", "external wall", "pipe"),
+  "technical": list of {"property","value","standard"} objects for every spec found (R-values per thickness, density, thickness, dimensions, thermal conductivity, temperature range, vapour, acoustic Rw/NRC, fire indices). Use "" for standard if none stated,
+  "range": list of {"variant","size_or_rating","pack"} objects for available variants/sizes/grades,
+  "fire": string of fire test results (AS/NZS 1530.3 indices, AS 1530.1, BAL), or "",
+  "compliance": string of NCC/standard compliance claims exactly as stated, or "",
+  "sustainability": string of recycled-content / VOC / environmental claims, or "",
+  "install": up to 10 short installation steps from the TDS,
+  "selection_checklist": up to 8 short things a buyer must confirm before selecting,
+  "accessories": list of companion products/tapes/adhesives specified, or [],
+  "limitations": up to 8 manufacturer-stated limitations or warnings, or [],
+  "warranty": short string of the stated warranty term, or "",
+  "found": true if you located a real manufacturer TDS, false otherwise,
+
+  -- the next fields are for search/retrieval and bot decision-making. Derive them from the manufacturer documents AND from how Australian customers/tradies actually describe the problem. These guide the bot's matching; they are not compliance claims --
+
+  "search_keywords": up to 15 terms/phrases customers would type or say to find this product (include the product name, common synonyms, trade slang, and generic category terms, e.g. "pink batts", "glasswool wall insulation", "wall batts R2.5"),
+  "problem_keywords": up to 12 short phrases describing the problems this product solves (e.g. "cold bedroom in winter", "noise between floors", "hot roof space", "condensation on pipes"),
+  "placement": list of building elements it is installed in/on, from: ["ceiling", "wall", "internal wall", "external wall", "floor", "underfloor", "between floors", "roof", "roofline", "pipe", "duct", "shed", "subfloor"],
+  "priority_fit": list of priorities this family is genuinely strong on, from: ["thermal", "acoustic", "condensation", "fire", "sustainability", "easy_install", "budget"],
+  "use_cases": up to 6 concrete application scenarios (e.g. "insulating existing timber-stud external walls during renovation", "acoustic lagging for PVC waste pipes in apartments"),
+  "not_for": up to 6 applications or situations this product should NOT be recommended for (negative matching to stop wrong recommendations),
+  "rag_summary": one dense paragraph (3-5 sentences) combining what it is, what it is made of, where it goes, what problems it solves, and its key ratings - written for semantic search/embedding retrieval.
+
+Rules: report ONLY what manufacturer documents actually state for the spec fields; the retrieval/decision fields (search_keywords, problem_keywords, placement, priority_fit, use_cases, not_for, rag_summary) may be inferred from the documents and typical usage. Keep numbers and units exactly as written. Prefer the manufacturer's own site over resellers. If you cannot find a TDS for a family, still include its object with "found": false and empty spec fields, but DO still fill the retrieval/decision fields from your knowledge of the product type.
+
+FAMILIES (in order):
+1. family_id=STINGER_CS | manufacturer=stinger | family=Stinger Cs | category=Accessory
+2. family_id=STINGER_HT | manufacturer=stinger | family=Stinger Ht | category=Accessory
+3. family_id=THERMOTEC_NUWAVE_BASE_MLV | manufacturer=thermotec | family=NuWave Mass Loaded Vinyl Acoustic Barrier | category=Acoustic barrier
+4. family_id=THERMOTEC_NUWAVE_UNDERLAY | manufacturer=thermotec | family=NuWave Acoustic Floor Underlay | category=Acoustic underlay
+5. family_id=THERMOTEC_NUWAVE_FENCE_MLV | manufacturer=thermotec | family=NuWave UV-treated Fence MLV | category=Outdoor acoustic barrier
+6. family_id=THERMOTEC_NUWAVE_FOIL_FACED_MLV | manufacturer=thermotec | family=NuWave 4-Zero Foil-faced MLV | category=Foil-faced acoustic barrier
+7. family_id=THERMOTEC_NUWRAP_5 | manufacturer=thermotec | family=NuWrap 5 Acoustic Pipe Lagging | category=Acoustic lagging
+8. family_id=THERMOTEC_NUWRAP_XTRAFLEX | manufacturer=thermotec | family=NuWrap XtraFlex Acoustic Lagging | category=Acoustic lagging
+9. family_id=THERMOTEC_4_ZERO | manufacturer=thermotec | family=4-Zero Fire Retardant Pipe Insulation | category=Pipe insulation
+10. family_id=THERMOTEC_E_FLEX_ST | manufacturer=thermotec | family=E-Flex ST Pipe Insulation | category=Pipe insulation
+
+Return the JSON array now.

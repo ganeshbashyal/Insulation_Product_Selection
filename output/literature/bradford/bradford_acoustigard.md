@@ -1,7 +1,7 @@
 ---
 title: "Bradford Acoustigard - Batt Insulation | Bradford"
-description: "Part of the CSR family with 100+ years of Australian building solutions. Firm friction fit design means batts stay in place permanently. Low itch form"
-keywords: "Bradford Acoustigard, Bradford batt, acoustic insulation, wall insulation, ceiling insulation, insulation Australia, Bradford Australia"
+description: "Bradford Acoustigard is a premium, Australian-made non-combustible glasswool insulation available in partition batts and rolls, specifically engineere"
+keywords: "Bradford Acoustigard, Bradford batt, wall insulation, floor insulation, insulation Australia, Bradford Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: BRADFORD_ACOUSTIGARD
 ---
@@ -10,30 +10,36 @@ family_id: BRADFORD_ACOUSTIGARD
 
 **Bradford Batt** — bulk insulation batts for thermal and acoustic performance.
 
-Part of the CSR family with 100+ years of Australian building solutions. Firm friction fit design means batts stay in place permanently. Low itch formula for comfortable installation.
+Bradford Acoustigard is a premium, Australian-made non-combustible glasswool insulation available in partition batts and rolls, specifically engineered to deliver high-performance acoustic control in internal partition walls. Manufactured from molten glass containing up to 65% recycled content using biosoluble FBS-1 formulation, it provides sound transmission loss and cavity absorption in commercial steel stud and timber wall assemblies. It is non-combustible, low-allergen, and sized to fit standard 64mm and 92mm steel stud walls without causing plasterboard bulge.
 
 ## Key features
 
-- FBS-1 Glasswool Bio-Soluble Insulation - safe to use and non-hazardous.
-- manufactured from up to 80% recycled glass content.
-- CodeMark Certificate of Conformity CM 30006.
-- non-combustible to AS 1530.1.
-- low itch soft next-gen formula for comfortable handling.
-- excellent thermal performance for roof/ceiling applications.
-- 50 Year Warranty backed by CSR.
-- ACCC certified.
+- Non-combustible bulk insulation complying with AS 1530.1.
+- High acoustic performance helping achieve Rw/STC ratings of 42 to 60+ in partition walls.
+- Available in partition rolls and pre-cut batts sized for 450mm and 600mm commercial stud centres.
+- Manufactured from up to 65% recycled glass content.
+- Friction-fit dimensions designed to fit 64mm and 92mm steel studs without bulging wall linings.
+- FBS-1 bio-soluble glasswool formulation assessed as non-hazardous.
+- Zero Ozone Depleting Potential (ODP) and non-toxic with low VOC emissions.
+- Early Fire Hazard indices of 0/0/0/1 to AS/NZS 1530.3.
+- Maximum service temperature up to 150°C (batts) and 300°C (rolls).
+- Thermal performance ratings from R1.3 to R2.7 in accordance with AS/NZS 4859.1.
 
 ## Applications and selection
 
-- Internal Wall | Ceiling | General Acoustic
+- wall
+- internal
+wall
+- external wall
+- between floors
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm stud depth (64mm, 75mm, 92mm) and spacing (450mm or 600mm centres).
+2. Confirm acoustic engineer specification (density 11kg, 14kg, 24kg, or 32kg/m3 and required Rw rating).
+3. Choose between pre-cut batts (faster handling) or continuous rolls (longer continuous drops).
+4. Verify non-combustibility requirement under NCC for commercial wall assemblies.
+5. Check thermal R-value requirement if wall separates conditioned and unconditioned spaces.
 
 
 ## Current catalogue range
@@ -61,37 +67,53 @@ Part of the CSR family with 100+ years of Australian building solutions. Firm fr
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Batt | Manufacturer catalogue |
-| Material | Glasswool | Manufacturer catalogue |
-| Applications | Internal Wall | Ceiling | General Acoustic | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material R-values | R1.3 (50mm), R1.5 (50mm), R1.7 (75mm), R1.8 (75mm), R2.0 (90mm), R2.5 (90mm), R2.7 (90mm) | AS/NZS 4859.1 |
+| Nominal Densities | 11 kg/m3, 14 kg/m3, 24 kg/m3, 32 kg/m3 | - |
+| Thicknesses | 50 mm, 75 mm, 90 mm | - |
+| Dimensions (Batts) | 1200 mm x 450 mm; 1200 mm x 600 mm | - |
+| Dimensions (Rolls) | 13.5 m x 450 mm; 13.5 m x 600 mm; 5.4 m x 450 mm; 5.4 m x 600 mm | - |
+| Combustibility | Non-Combustible | AS 1530.1 |
+| Fire Hazard Properties (AS/NZS 1530.3) | Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 1 | AS/NZS 1530.3 |
+| Maximum Service Temperature | 150°C (Batts); 300°C (Rolls) | - |
+| Acoustic Performance (NRC) | 0.80 - 1.05 depending on thickness and density | AS ISO 354 |
+| Corrosion Resistance | Non-corrosive, pH neutral | AS/NZS 4859.1 |
+| Biosolubility | FBS-1 bio-soluble formulation (Note Q compliant) | Safe Work Australia |
 
-
+Extracted from manufacturer datasheet: https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/walls/acoustigard
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Non-Combustible to AS 1530.1; AS/NZS 1530.3: Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 1
+
+AS/NZS 4859.1:2018; AS 1530.1; AS/NZS 1530.3; NCC 2022 Volume 1 J4D3 and Specification 7 (Fire); Deemed non-combustible
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.csrbradford.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://www.firecrunch.com.au/wp-content/uploads/2016/02/BRADFORD-MSDS-e3a0-435b-b6ef-6f1027726ce6.pdf.
 
+## Recommended accessories
+
+- Serrated insulation knife.
+- Personal protective equipment (gloves, dust mask, safety glasses).
+
 
 ## Limitations and warnings
 
-- Keep dry during storage and installation..
-- not a water or vapour barrier - use appropriate building wrap..
-- do not compress - compression reduces R-value performance..
-- not to be exposed to weather..
-- maximum service temperature 340°C..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Not designed for direct weather-exposed external applications without waterproof building wrap.
+- Do not over-compress into studs narrower than the nominal insulation thickness.
+- Not suitable for continuous operating temperatures exceeding 150°C (batts) or 300°C (rolls).
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Keep dry during storage and installation.
+1. Confirm framing stud spacing (450mm or 600mm centres) and cavity depth.
+2. Ensure electrical wiring and plumbing penetrations are roughed in prior to insulation.
+3. Friction-fit Acoustigard batts or unroll partition rolls vertically between studs.
+4. Ensure the insulation fills the stud cavity snugly without gaps, voids, or excessive compression.
+5. Cut neatly around electrical junction boxes, nogging, and service penetrations using an insulation knife.
+6. Fix plasterboard linings directly over studs, ensuring insulation remains in place without bulging linings.
 
 ## Safety and handling
 
@@ -99,11 +121,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Contains up to 65% recycled glass; FBS-1 bio-soluble formulation; low VOC; zero ODP; non-hazardous
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+CSR Bradford Standard Product Warranty
 
 ## Specification starting point
 

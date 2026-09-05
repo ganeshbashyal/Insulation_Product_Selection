@@ -1,6 +1,6 @@
 ---
 title: "Autex Grid Ceiling Tiles - Frame/Vertex - Square - Capped - Panel Insulation | Autex"
-description: "Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability"
+description: "Autex Grid Ceiling Tiles - Frame/Vertex - Square - Capped is a modular 595mm x 595mm 3D acoustic ceiling tile designed for standard 600mm x 600mm susp"
 keywords: "Autex Grid Ceiling Tiles - Frame/Vertex - Square - Capped, Autex panel, ceiling insulation, insulation Australia, Autex Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AUTEX_GRID_CEILING_TILES_FRAME_VERTEX_SQUARE_C
@@ -10,30 +10,36 @@ family_id: AUTEX_GRID_CEILING_TILES_FRAME_VERTEX_SQUARE_C
 
 **Autex Panel** — acoustic panels for sound absorption and interior finish.
 
-Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability.
+Autex Grid Ceiling Tiles - Frame/Vertex - Square - Capped is a modular 595mm x 595mm 3D acoustic ceiling tile designed for standard 600mm x 600mm suspended grid systems. Available in perimeter Frame (coffer) or faceted Vertex profiles, this capped variant includes a solid acoustic backing cap that conceals plenum clutter. Formed from 100% polyester fibre with a minimum of 60% recycled PET, it provides exceptional sound absorption (NRC 0.60 - 0.80) and Group 1 fire compliance.
 
 ## Key features
 
-- 100% polyester - safe to handle without protective equipment.
-- contains minimum 80% recycled PET plastic bottles.
-- non-allergenic, non-irritant formulation.
-- will not support mould or mildew growth.
-- maintains performance when wet.
-- excellent thermal performance for roof/ceiling applications.
-- Made from recycled PET bottles.
-- Safe to handle without PPE.
+- Modular 3D square acoustic tile for standard 600mm x 600mm suspended ceiling grids.
+- Frame (coffer) or Vertex (faceted prism) geometric design options.
+- Capped design incorporates a solid acoustic backing layer to conceal the plenum.
+- High sound absorption achieving NRC 0.60 - 0.80.
+- Manufactured from 100% polyester fibre with a minimum of 60% recycled PET.
+- Group 1 fire rating to AS ISO 9705 - 2003 and AS 5637.1.
+- Non-toxic, non-allergenic, non-irritant, and free of chemical binders.
+- Certified Carbon Neutral product with third-party verified EPD.
+- Lightweight, durable polyester that will not chip, crack, or break.
+- Available in 20+ contemporary Cube colours.
 
 ## Applications and selection
 
-- Ceiling
+- ceiling
+- commercial office
+- meeting room
+- school classroom
+- hospitality
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Verify existing or new ceiling grid is metric 600mm x 600mm.
+2. Choose preferred design style (Frame coffer or Vertex prism).
+3. Confirm capped configuration for closed plenum and maximum acoustic absorption.
+4. Select colourway from Autex Cube palette.
+5. Check ceiling plenum height clearance.
 
 
 ## Current catalogue range
@@ -44,36 +50,51 @@ Specialists in sustainable polyester acoustic solutions. Safe to handle without 
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Panel | Manufacturer catalogue |
-| Material | Polyester | Manufacturer catalogue |
-| Applications | Ceiling | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Tile Dimensions | 595 mm x 595 mm (depth varies, typically 50 mm - 100 mm) | - |
+| Ceiling Grid Compatibility | Standard 600 mm x 600 mm metric grid (15mm / 24mm T-bar) | - |
+| Material Composition | 100% polyester fibre (PET) Cube panel | - |
+| Recycled Content | Minimum 60% post-consumer recycled PET | - |
+| Sound Absorption (NRC) | 0.60 - 0.80 (capped configuration) | ISO 354 |
+| Fire Hazard Classification | Group 1, SMOGRArc < 100 m2/s2 | AS ISO 9705 - 2003 / AS 5637.1:2015 |
+| International Fire Rating | Group 1-S (ISO 9705:1993) / B-s2, d0 (BS EN 13501-1:2018) | ISO 9705 / BS EN 13501-1 |
+| VOC Emissions | < 0.092 mg/m3 (7 days) | CDPH Standard Method v1.2 |
+| Microbial Resistance | Growth rating: 0 (No growth) | ASTM G21-15 |
 
-
+Extracted from manufacturer datasheet: https://www.autexglobal.com/au/products/grid-ceiling-tiles/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Group 1 (AS ISO 9705 - 2003 / AS 5637.1:2015); Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a); B-s2, d0 (BS EN 13501-1:2018)
+
+NCC BCA Specification C1.10 Group 1 fire compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.autexacoustics.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://insulvac.com.au/wp-content/uploads/2020/04/autex-material-safety-data-sheet-msds.pdf.
 
+## Recommended accessories
+
+- Standard two-way exposed ceiling grid (15mm or 24mm tee).
+- Utility knife for perimeter cuts.
+
 
 ## Limitations and warnings
 
-- Not suitable for fire rating without additional protection..
-- not to be exposed to weather or sustained moisture..
-- do not compress beyond manufacturer recommendations..
-- check fire-rated system requirements..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Not designed for direct exposure to water leaks or extreme humidity.
+- Ensure light fittings or fire sprinkler heads maintain compliant clearances.
+- Do not mix batch numbers in the same visual area.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for fire rating without additional protection.
+1. Ensure the 600mm x 600mm ceiling grid system is square and level.
+2. Verify all tiles in the space belong to the same manufacturing batch.
+3. Assemble the square Frame or Vertex tile with its acoustic backing cap securely in place.
+4. Gently push the capped tile up through the grid aperture at a slight angle.
+5. Lower into place squarely so the tile flanges rest securely on the grid runners.
+6. Align directional or faceted patterns across rows to achieve the desired ceiling design.
 
 ## Safety and handling
 
@@ -81,11 +102,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Certified Carbon Neutral; minimum 60% recycled PET; Declare Red List Free; EPD verified
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Manufacturer's Guarantee (minimum 10 years)
 
 ## Specification starting point
 

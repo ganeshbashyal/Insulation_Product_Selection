@@ -1,0 +1,195 @@
+{
+  "family_id": "BRADFORD_GOLD_BATTS",
+  "family_name": "Bradford Gold Batts",
+  "datasheet_pdf_url": "https://www.bradfordinsulation.com.au/home-insulation/ceilings/gold-ceiling-batts",
+  "sds_url": "https://www.bradfordinsulation.com.au/-/media/bradford/files/safety-data-sheet---glasswool.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Bradford Gold Batts are Australia's leading glasswool thermal\nand acoustic insulation batts for residential ceilings and walls. Manufactured\nfrom up to 80% recycled glass with FBS-1 bio-soluble formulation and low-itch\nComfort Touch technology, they form a continuous, resilient thermal barrier that\nreduces winter heat loss and summer heat gain by up to 45%. Available in\nR-values from R1.5 to R2.0 for walls and R2.5 to R4.1 for standard ceilings,\nthey are non-combustible, low allergen, Sensitive Choice approved, and backed by\na 70-year warranty.",
+    "features": [
+      "Reduces home heating and cooling energy use\nby up to 45%",
+      "Manufactured from up to 80% recycled glass",
+      "Low-itch Comfort\nTouch technology for softer handling and reduced airborne dust",
+      "Non-combustible when tested in accordance with AS 1530.1",
+      "Approved partner of\nNational Asthma Council Sensitive Choice program",
+      "Will not slump, shrink, pack\ndown, or deteriorate over the building lifetime",
+      "Wall batts treated with water\nrepellent to resist moisture wicking",
+      "Available in standard 430mm and 580mm\nwidths to suit 450mm and 600mm framing centres",
+      "Sized to fit standard\nAustralian timber and steel stud framing",
+      "Backed by CSR Bradford's 70-year\nproduct performance warranty"
+    ],
+    "applications": [
+      "ceiling",
+      "wall",
+      "external\nwall",
+      "internal wall"
+    ],
+    "technical": [
+      {
+        "property": "Ceiling R-Values",
+        "value": "R2.5, R3.0, R3.5, R4.1",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Wall R-Values",
+        "value": "R1.5, R2.0",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Ceiling Thicknesses",
+        "value": "R2.5: 140 mm; R3.0: 165 mm;\nR3.5: 185 mm; R4.1: 205 mm",
+        "standard": ""
+      },
+      {
+        "property": "Wall Thicknesses",
+        "value": "R1.5: 75 mm; R2.0: 90 mm",
+        "standard": ""
+      },
+      {
+        "property": "Standard\nDimensions",
+        "value": "1160 mm length x 430 mm or 580 mm width",
+        "standard": ""
+      },
+      {
+        "property": "Combustibility",
+        "value": "Non-combustible",
+        "standard": "AS 1530.1"
+      },
+      {
+        "property": "Fire Hazard Indices",
+        "value": "Ignitability: 0,\nSpread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Maximum Service Temperature",
+        "value": "350°C",
+        "standard": ""
+      },
+      {
+        "property": "Corrosion Resistance",
+        "value": "pH 7.5 - 8.0 (non-corrosive)",
+        "standard": "BS 3958 Part 5"
+      },
+      {
+        "property": "Moisture Resistance",
+        "value": "Less than 0.2% by volume after 4 days\nat 50°C, 95% RH",
+        "standard": ""
+      },
+      {
+        "property": "Acoustic Flow Resistivity",
+        "value": "0.5 x 10^4 mks Rayls/m",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Gold Ceiling Batts R2.5",
+        "size_or_rating": "140 mm x 1160 mm x 430/580 mm",
+        "pack": "Pack of 16 batts"
+      },
+      {
+        "variant": "Gold Ceiling Batts R3.0",
+        "size_or_rating": "165 mm x 1160 mm x 430/580 mm",
+        "pack": "Pack of 16 batts"
+      },
+      {
+        "variant": "Gold Ceiling Batts R3.5",
+        "size_or_rating": "185 mm x 1160 mm\nx 430/580 mm",
+        "pack": "Pack of 16/10 batts"
+      },
+      {
+        "variant": "Gold Ceiling Batts\nR4.1",
+        "size_or_rating": "205 mm x 1160 mm x 430/580 mm",
+        "pack": "Pack of 10\nbatts"
+      },
+      {
+        "variant": "Gold Wall Batts R1.5",
+        "size_or_rating": "75 mm x 1160\nmm x 430/580 mm",
+        "pack": "Pack of 22/33 batts"
+      },
+      {
+        "variant": "Gold Wall Batts\nR2.0",
+        "size_or_rating": "90 mm x 1160 mm x 430/580 mm",
+        "pack": "Pack of 16/24\nbatts"
+      }
+    ],
+    "fire": "Non-combustible to AS 1530.1; AS/NZS 1530.3:\nIgnitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-1; Meets\nNCC fire hazard property requirements",
+    "compliance": "AS/NZS 4859.1, AS 3999,\nNCC Volume 1 and Volume 2 / ABCB Housing Provisions Part 13.2",
+    "sustainability": "Contains up to 80% recycled glass content; bio-soluble FBS-1\nformulation; zero ODP; Sensitive Choice certified",
+    "install": [
+      "Turn off power\nat the main switchboard before entering ceiling space or touching wall\ncavities",
+      "Fit batts snugly between timber or steel framing members without\ngaps or compression",
+      "For ceilings, lay batts flat between ceiling joists\ncovering the plasterboard completely",
+      "At ceiling eaves, maintain a 20mm gap\nbetween insulation and roof cladding/sarking",
+      "Maintain minimum 50mm clearance\naround non-IC rated downlights, exhaust fans, and flues as per AS 3999",
+      "For\nexternal walls, install water-repellent batts between studs and secure with wall\nwrap before brickwork or cladding"
+    ],
+    "selection_checklist": [
+      "Confirm\napplication area (ceiling vs external walls)",
+      "Determine required R-value to\ncomply with 7-star NatHERS / NCC climate zone targets",
+      "Measure joist or stud\nspacing (450mm centres require 430mm batts; 600mm centres require 580mm batts)",
+      "Check wall cavity depth (75mm for 70mm studs, 90mm for 90mm studs)",
+      "Verify\ndownlight IC ratings to establish required clearances"
+    ],
+    "accessories": [
+      "Bradford Perimeter Spacer",
+      "Bradfix strapping",
+      "Enviroseal wall wraps"
+    ],
+    "limitations": [
+      "Do not compress batts into cavities narrower than nominal\nthickness as this reduces thermal R-value",
+      "Must be protected from continuous\nwater exposure and prolonged outdoor weather",
+      "Maintain electrical safety\nclearances around recessed electrical equipment"
+    ],
+    "warranty": "70 Year Product\nPerformance Warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Bradford Gold\nBatts",
+      "Gold Ceiling Batts",
+      "Gold Wall Batts",
+      "Bradford insulation batts",
+      "yellow batts",
+      "glasswool ceiling batts",
+      "glasswool wall batts",
+      "R2.5 gold\nbatts",
+      "R3.5 gold batts",
+      "R4.1 gold batts",
+      "R2.0 gold wall batts"
+    ],
+    "problem_keywords": [
+      "hot ceiling in summer",
+      "cold house in winter",
+      "high\nheating and cooling bills",
+      "uninsulated ceiling heat loss",
+      "drafty cavity\nwalls",
+      "uninsulated home renovation"
+    ],
+    "placement": [
+      "ceiling",
+      "wall",
+      "external wall",
+      "internal wall"
+    ],
+    "priority_fit": [
+      "thermal",
+      "easy_install",
+      "sustainability",
+      "budget"
+    ],
+    "use_cases": [
+      "Insulating roof spaces in new\nresidential builds and renovations to achieve 7-star NatHERS energy ratings",
+      "Retrofitting existing ceiling cavities to lower heating and cooling bills",
+      "Installing in external timber or steel stud walls behind brick veneer or\nlightweight cladding"
+    ],
+    "not_for": [
+      "Underfloor installations (use Bradford\nOptimo)",
+      "Bushfire BAL-FZ roof zones (use Fireseal FZ)",
+      "Exposed acoustic\ndecorative wall panels"
+    ],
+    "rag_summary": "Bradford Gold Batts are Australia's\nflagship glasswool thermal and acoustic insulation batts for residential\nceilings (R2.5 to R4.1) and walls (R1.5 to R2.0). Manufactured from up to 80%\nrecycled glass with low-itch Comfort Touch technology and water-repellent\nbinders, they reduce home heating and cooling energy use by up to 45%. Deemed\nnon-combustible to AS 1530.1 and certified by the National Asthma Council's\nSensitive Choice program, they deliver dependable, lifetime thermal performance\nbacked by CSR Bradford's 70-year warranty."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

@@ -1,0 +1,159 @@
+{
+  "family_id": "AUTEX_VICINITY_DESK_SCREEN_POLKA",
+  "family_name": "Autex Vicinity - Desk Screen - Polka",
+  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/vicinity/",
+  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Autex Vicinity Desk Screen - Polka is a two-piece modular acoustic desk divider\nfeaturing a playful, stepped dual-panel profile. Designed to provide targeted\nacoustic dampening (0.70 Sabins per unit) while creating an open, dynamic desk\nboundary, Polka attaches non-destructively to desks via Vicinity Desk Clamps.\nMade from 100% polyester fibre with an 80% recycled PET core, it provides\nGroup 1 fire compliance and certified carbon neutrality.",
+    "features": [
+      "Playful stepped two-piece profile (772mm and 380mm wide panels)",
+      "Non-destructive desk mounting using Vicinity Workstation Clamps",
+      "Delivers\nacoustic absorption of 0.70 Sabins per unit",
+      "Constructed from 100% polyester\nfibre containing a minimum of 80% recycled PET",
+      "Group 1 fire rating compliant\nwith AS ISO 9705 - 2003 and AS 5637.1",
+      "Solid colour throughout with clean\nfinished edges; no capping required",
+      "Pinnable self-healing surface for notes\nand desk accessories",
+      "Clamps made from 100% recycled PET (RePET) or\npowdercoated zinc",
+      "Moisture and mould resistant with an ASTM G21-15 Growth\nRating of 0",
+      "Certified Carbon Neutral product with third-party verified EPD"
+    ],
+    "applications": [
+      "internal wall"
+    ],
+    "technical": [
+      {
+        "property": "Acoustic\nPerformance",
+        "value": "0.70 Sabins per unit\n(125Hz: 0.20, 250Hz: 0.45, 500Hz: 0.65, 1000Hz: 0.75, 2000Hz: 1.00, 4000Hz: 1.10)",
+        "standard": "ISO 354"
+      },
+      {
+        "property": "Dimensions (Panel 1)",
+        "value": "772 mm\nwidth x 576 mm height",
+        "standard": ""
+      },
+      {
+        "property": "Dimensions (Panel 2)",
+        "value": "380 mm width x 576 mm height",
+        "standard": ""
+      },
+      {
+        "property": "Thickness",
+        "value": "12 mm (+/- 6%)",
+        "standard": ""
+      },
+      {
+        "property": "Material Composition",
+        "value": "100% polyester fibre (PET) Cube panel;\nclamp: 100% recycled PET / zinc",
+        "standard": ""
+      },
+      {
+        "property": "Recycled\nContent",
+        "value": "Minimum 80% post-consumer recycled PET",
+        "standard": ""
+      },
+      {
+        "property": "Fire Rating (Australia)",
+        "value": "Group 1, SMOGRArc < 100 m2/s2",
+        "standard": "AS ISO 9705 - 2003 / AS 5637.1:2015"
+      },
+      {
+        "property": "International Fire Classification",
+        "value": "Group 1-S (ISO 9705:1993); Class\nA (ASTM E-84-15a: FS:0 - SD:45); BS EN 13501-1:2018",
+        "standard": "ISO 9705 /\nASTM E-84 / BS EN 13501-1"
+      },
+      {
+        "property": "Water Vapour Sorption",
+        "value": "0.4% by weight after 4 days at 49°C, 95% RH",
+        "standard": "ASTM C1104 /\nC1104M-13a"
+      },
+      {
+        "property": "Microbial Resistance",
+        "value": "Growth rating: 0\n(No growth)",
+        "standard": "ASTM G21-15"
+      },
+      {
+        "property": "VOC Emissions",
+        "value": "< 0.092 mg/m3 (7 days)",
+        "standard": "CDPH Standard Method v1.2"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Vicinity Polka",
+        "size_or_rating": "772 mm W x 576 mm H\n& 380 mm W x 576 mm H x 12 mm",
+        "pack": "Pack of 4 screens (2 pieces per\nscreen)"
+      }
+    ],
+    "fire": "AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1\n(SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM E-84-15a Class A; BS\nEN 13501-1:2018",
+    "compliance": "NCC Specification 7 (BCA C1.10) Group 1 fire\ncompliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354",
+    "sustainability": "Carbon neutral product; minimum 80% recycled PET; clamps made from 100%\nrecycled PET; Declare Red List Free; EPD verified; low VOC",
+    "install": [
+      "Unpack Polka panel components (772mm and 380mm panels)",
+      "Slide Vicinity Clamps\ninto the routed slots on both screen sections",
+      "Position the stepped panels\nalong the desk perimeter to achieve desired layout",
+      "Tighten the clamp screws\nfrom underneath the desk using an Allen key",
+      "Ensure both stepped panels are\nsecurely clamped and upright"
+    ],
+    "selection_checklist": [
+      "Verify desk\ndimensions and edge overhang for dual-panel clamp positions",
+      "Confirm stepped\nconfiguration (772mm and 380mm widths) suits workstation layout",
+      "Select colour\nfrom the Autex Cube palette",
+      "Confirm pack quantity requirement (supplied in\npacks of 4 screens, 2 pieces per screen)",
+      "Check lead time for custom\nconfigurations"
+    ],
+    "accessories": [
+      "Vicinity Workstation Clamps",
+      "Allen key"
+    ],
+    "limitations": [
+      "Indoor use only; avoid wet areas or direct liquid contact",
+      "Clamps require adequate desk edge lip for attachment",
+      "Two-piece stepped\nconfiguration requires arrangement planning"
+    ],
+    "warranty": "Manufacturer's\nGuarantee (10 years)"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Autex Vicinity\nPolka",
+      "Vicinity Desk Screen Polka",
+      "stepped acoustic desk screen",
+      "two piece\ndesk divider",
+      "modular desk screen Polka",
+      "Cube Polka screen",
+      "decorative\ndesk divider",
+      "pinnable stepped desk screen"
+    ],
+    "problem_keywords": [
+      "monotonous flat desk screens",
+      "distracting speech noise in creative studio",
+      "need partial desk boundary",
+      "lack of workstation personality",
+      "chatter across\nagile desks",
+      "desk partition without drilling"
+    ],
+    "placement": [
+      "internal\nwall"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "sustainability",
+      "easy_install",
+      "fire"
+    ],
+    "use_cases": [
+      "Adding playful stepped acoustic boundaries to agile desks in\ncreative agencies and tech hubs",
+      "Partial desk privacy in collaborative\nopen-plan spaces without blocking sightlines",
+      "Pinnable, sound-absorbing desk\npartitions in design studios and university workbenches"
+    ],
+    "not_for": [
+      "Complete acoustic room isolation",
+      "Outdoor unconditioned environments",
+      "Floor\nstanding divider screens"
+    ],
+    "rag_summary": "Autex Vicinity Desk Screen - Polka\nis a playful two-piece stepped acoustic desk divider comprising 772mm and 380mm\nwide panels formed from 12mm Cube polyester felt. Absorbing 0.70 Sabins per\nunit, its asymmetrical stepped geometry introduces visual rhythm while\nmitigating speech distractions across agile workstations. Fixed\nnon-destructively using 100% recycled PET Vicinity Clamps and achieving Group 1\nfire compliance, Polka provides a flexible, carbon-neutral privacy barrier for\ncollaborative and creative workspaces."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

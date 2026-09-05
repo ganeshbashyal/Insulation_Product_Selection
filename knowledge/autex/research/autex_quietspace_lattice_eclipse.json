@@ -1,0 +1,173 @@
+{
+  "family_id": "AUTEX_QUIETSPACE_LATTICE_ECLIPSE",
+  "family_name": "Autex Quietspace Lattice - Eclipse",
+  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/lattice/",
+  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Autex Quietspace Lattice - Eclipse is an architectural suspended acoustic\nceiling baffle system featuring an organic, cloud-like seedpod form. Constructed\nfrom 100% polyester fibre using 12mm semi-rigid Cube acoustic fins, its\nintersecting lattice grid covers a greater surface area than traditional\nparallel baffles to capture ambient speech and reverberation. Supplied\nflat-packed with dedicated suspension hardware, it provides Class A sound\nabsorption (NRC 1.00) and Group 1 fire safety for open-plan commercial,\neducational, and hospitality interiors.",
+    "features": [
+      "Sculpted organic\ncloud/seedpod form (Eclipse) creating a statement ceiling sculpture",
+      "Intersecting lattice grid fin design covers greater surface area than parallel\nbaffle systems",
+      "Constructed from 100% polyester fibre containing minimum 65%\nto 80% recycled PET",
+      "Premium Class A sound absorption achieving an NRC of 1.00\n(2.05 - 2.10 metric Sabins per unit)",
+      "Group 1 fire rating compliant with AS\nISO 9705 - 2003 and AS 5637.1",
+      "Assembled dimensions: 1197 mm x 2346 mm x 337\nmm depth",
+      "Supplied flat-packed with complete suspension kit including 4 x 1m\ncables and ceiling mounts",
+      "Lightweight, structurally stable, and will not\nwarp, sag, or crumble over time",
+      "Resistant to moisture, mould, and mildew\n(ASTM G21-15 Growth Rating: 0)",
+      "Certified Carbon Neutral product with\nthird-party verified EPD"
+    ],
+    "applications": [
+      "ceiling",
+      "open-plan office",
+      "commercial interior",
+      "education",
+      "hospitality"
+    ],
+    "technical": [
+      {
+        "property": "Acoustic Performance (Sabins per unit)",
+        "value": "2.10 Sabins\n(direct fixed); 2.05 Sabins (suspended 200 mm)",
+        "standard": "ISO 354"
+      },
+      {
+        "property": "Equivalent NRC",
+        "value": "1.00 (Class A sound absorption)",
+        "standard": "ISO 354 / ISO 11654"
+      },
+      {
+        "property": "Assembled Dimensions",
+        "value": "1197 mm width x 2346 mm length x 337 mm depth (tolerance +/- 0.5 mm)",
+        "standard": ""
+      },
+      {
+        "property": "Fin Material Thickness",
+        "value": "12 mm Cube",
+        "standard": ""
+      },
+      {
+        "property": "Density",
+        "value": "192 kg/m3 (Cube base\nmaterial)",
+        "standard": ""
+      },
+      {
+        "property": "Composition",
+        "value": "100%\npolyester fibre (PET)",
+        "standard": ""
+      },
+      {
+        "property": "Recycled Content",
+        "value": "Minimum 65% to 80% post-consumer recycled PET",
+        "standard": ""
+      },
+      {
+        "property": "Fire Rating (Australia)",
+        "value": "Group 1, SMOGRArc < 100 m2/s2",
+        "standard": "AS ISO 9705 - 2003 / AS 5637.1"
+      },
+      {
+        "property": "International\nFire Rating",
+        "value": "Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a: FS:0\n- SD:45); B - s1, d0 (BS EN 13501-1:2018)",
+        "standard": "ISO 9705 / ASTM E-84 /\nBS EN 13501-1"
+      },
+      {
+        "property": "Water Vapour Sorption",
+        "value": "< 0.03% by\nweight after 4 days at 50°C, 90% RH",
+        "standard": ""
+      },
+      {
+        "property": "Microbial\nResistance",
+        "value": "Growth rating: 0 (No growth)",
+        "standard": "ASTM G21-15"
+      },
+      {
+        "property": "VOC Emissions",
+        "value": "< 0.092 mg/m3 (7 days)",
+        "standard": "CDPH Standard Method v1.2"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Lattice Eclipse",
+        "size_or_rating": "1197 mm x 2346 mm x 337 mm",
+        "pack": "Kit (unassembled fins\n+ 4 x 1m cables + mounts)"
+      }
+    ],
+    "fire": "AS ISO 9705 - 2003 and AS 5637.1\nClassification: Group 1; ISO 9705:1993 Group 1-S; ASTM E-84-15a Class A; BS\nEN 13501-1:2018 B - s1, d0",
+    "compliance": "NCC Specification 7 (BCA C1.10)\nGroup 1 fire compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354",
+    "sustainability": "Carbon neutral product; minimum 65% to 80% recycled PET;\nDeclare Red List Free; EPD compliant with ISO 14025 and EN 15804; low VOC",
+    "install": [
+      "Unpack Lattice components and inspect all fins and suspension\nhardware",
+      "Slot intersecting 12mm Cube fins together on a clean, soft work\nsurface according to the assembly diagram",
+      "Insert alloy tube inserts and\nsecure Velda cable clips into designated locking fin slots",
+      "Measure and mark 4\nsuspension anchor points on the ceiling substrate to match cable spacing",
+      "Fasten ceiling mounts securely to the ceiling structure using appropriate\nanchors",
+      "Thread 1m galvanised suspension cables into ceiling mounts and adjust\nto desired hanging height",
+      "Hook cables into the Lattice clips and level the\nassembled sculpture using a spirit level"
+    ],
+    "selection_checklist": [
+      "Confirm\nceiling height and available overhead clearance for 337mm deep structure",
+      "Verify ceiling structure capacity for 4-point cable suspension",
+      "Select colour\nfrom the Autex Cube palette",
+      "Confirm Eclipse form is chosen (undulating\norganic seedpod profile)",
+      "Verify space clearances around mechanical ducts,\nlights, and fire sprinklers"
+    ],
+    "accessories": [
+      "Suspension kit (4 x 1m\ngalvanised cables, 4 x ceiling mounts, 4 x Velda clips, 4 x alloy tube\ninserts)",
+      "Spirit level",
+      "Tape measure"
+    ],
+    "limitations": [
+      "Indoor ceiling\ninstallation only; not suitable for exterior use or wet environments",
+      "Non-load\nbearing decorative baffle; do not suspend luminaires or services from fins",
+      "Must be assembled on a clean, protected floor surface to prevent marking the\nfelt"
+    ],
+    "warranty": "Manufacturer's Guarantee (10 years)"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Autex Lattice Eclipse",
+      "Quietspace Lattice Eclipse",
+      "suspended acoustic lattice",
+      "ceiling baffle sculpture",
+      "organic acoustic\nceiling baffle",
+      "cloud acoustic baffle",
+      "Cube acoustic lattice",
+      "decorative\nacoustic ceiling feature",
+      "Lattice Eclipse",
+      "acoustic ceiling sculpture"
+    ],
+    "problem_keywords": [
+      "severe ceiling echo in open office",
+      "reverberant\nhigh-ceiling dining space",
+      "noisy reception atrium",
+      "distracting\nconversational echo",
+      "need statement ceiling sculpture with acoustics",
+      "sound\nreflection off concrete soffits"
+    ],
+    "placement": [
+      "ceiling"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "fire",
+      "sustainability",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Suspending sculpted acoustic feature clouds over collaborative zones in\nhigh-ceiling corporate offices",
+      "Taming echo in hotel reception atriums and\npublic building foyers",
+      "Controlling reverberation in modern hospitality dining\nrooms and university study commons"
+    ],
+    "not_for": [
+      "Wall or floor\ninstallations",
+      "Outdoor canopies or open-air walkways",
+      "Wet areas with direct\nwater splashing"
+    ],
+    "rag_summary": "Autex Quietspace Lattice - Eclipse is a 3D\nsuspended acoustic ceiling baffle sculpture assembled from intersecting 12mm\nCube polyester fins into an organic 1197mm x 2346mm x 337mm seedpod form. By\nmaximizing sound-absorbing surface area, it achieves Class A acoustic absorption\n(NRC 1.00 / 2.05-2.10 Sabins per unit) to capture background chatter and\nreverberation in open-plan spaces. Rated Group 1 fire compliant under AS\nISO 9705 and containing at least 65% recycled PET, it provides a lightweight,\ncarbon-neutral ceiling statement for corporate, educational, and hospitality\ninteriors."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

@@ -1,6 +1,6 @@
 ---
 title: "Bradford Polymax Ceiling Insulation - Batt Insulation | Bradford"
-description: "Part of the CSR family with 100+ years of Australian building solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made f"
+description: "Bradford Polymax Ceiling Insulation is a premium thermal and acoustic polyester batt designed specifically for residential roof spaces and ceilings. M"
 keywords: "Bradford Polymax Ceiling Insulation, Bradford batt, ceiling insulation, insulation Australia, Bradford Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: BRADFORD_POLYMAX_CEILING_INSULATION
@@ -10,30 +10,32 @@ family_id: BRADFORD_POLYMAX_CEILING_INSULATION
 
 **Bradford Batt** — bulk insulation batts for thermal and acoustic performance.
 
-Part of the CSR family with 100+ years of Australian building solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled plastic bottles, it's the sustainable choice for modern buildings.
+Bradford Polymax Ceiling Insulation is a premium thermal and acoustic polyester batt designed specifically for residential roof spaces and ceilings. Made from 100% thermally bonded polyester fibres containing up to 80% recycled content, it provides soft, itch-free handling without chemical binders or added formaldehyde. It keeps homes cooler in summer and warmer in winter, will not pack down or deteriorate, and is approved by the National Asthma Council's Sensitive Choice program.
 
 ## Key features
 
-- 100% polyester - safe to handle without protective equipment.
-- contains minimum 80% recycled PET plastic bottles.
-- non-allergenic, non-irritant formulation.
-- will not support mould or mildew growth.
-- maintains performance when wet - dries out naturally.
-- excellent thermal performance for roof/ceiling applications.
-- helps meet NCC energy efficiency requirements.
-- 50 Year Warranty backed by CSR.
+- 100% thermally bonded polyester ceiling batts with zero chemical binders.
+- High thermal ratings from R2.5 up to R4.0 to meet stringent energy codes.
+- Made from up to 80% recycled post-consumer PET fibres.
+- Completely itch-free and safe to handle without gloves or protective clothing.
+- Will not pack down, shrink, mould, or rot over time.
+- Early Fire Hazard properties compliant with AS/NZS 1530.3.
+- Approved by National Asthma Council Australia's Sensitive Choice program.
+- Absorbs airborne sound to reduce outside noise transmission through ceilings.
+- Zero Ozone Depleting Potential (ODP) and low VOC emissions.
+- Backed by a 70-year performance warranty.
 
 ## Applications and selection
 
-- Ceiling
+- ceiling
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm ceiling joist spacing (430mm width for 450mm centres, 580mm width for 600mm centres).
+2. Confirm target R-value required by NCC climate zone or 7-star NatHERS energy rating (e.g. R3.5, R4.0).
+3. Check ceiling cavity clearance and truss heel height.
+4. Verify non-combustible requirement (polyester does not meet AS 1530.1).
+5. Confirm downlight IC ratings to determine clearance requirements.
 
 
 ## Current catalogue range
@@ -51,36 +53,52 @@ Part of the CSR family with 100+ years of Australian building solutions. Safe to
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Batt | Manufacturer catalogue |
-| Material | Polyester | Manufacturer catalogue |
-| Applications | Ceiling | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material R-values | R2.5, R3.0, R3.5, R4.0 | AS/NZS 4859.1 |
+| Nominal Thickness | R2.5: 140 mm; R3.0: 180 mm; R3.5: 200 mm; R4.0: 220 mm | - |
+| Batt Dimensions | 1160 mm x 430 mm (450 mm joist centres); 1160 mm x 580 mm (600 mm joist centres) | - |
+| Material Composition | 100% thermally bonded polyester fibres (polyethylene terephthalate) | - |
+| Recycled Content | Up to 80% recycled PET fibre | - |
+| Fire Hazard Properties | Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-2 | AS 1530.3 |
+| Maximum Service Temperature | 150°C | - |
+| Moisture Absorption | < 0.2% by volume | - |
+| VOC Emissions | Low VOC emitting, non-toxic | - |
 
-
+Extracted from manufacturer datasheet: https://www.bradfordinsulation.com.au/home-insulation/ceilings/polymax-ceiling-batts
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+AS 1530.3: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-2
+
+AS/NZS 4859.1; AS 3999; AS 1530.3; NCC 2022 Volume 1 & Volume 2
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.csrbradford.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://www.firecrunch.com.au/wp-content/uploads/2016/02/BRADFORD-MSDS-e3a0-435b-b6ef-6f1027726ce6.pdf.
 
+## Recommended accessories
+
+- Downlight covers (if non-IC rated).
+- Serrated insulation cutter / heavy shears.
+- Ceiling access boards.
+
 
 ## Limitations and warnings
 
-- Not suitable for applications requiring fire rating without additional protection..
-- not to be exposed to weather or sustained moisture..
-- do not compress beyond manufacturer recommendations..
-- check fire-rated system requirements if fire rating is required..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Not non-combustible under AS 1530.1.
+- Must not cover non-IC rated downlights or high-heat appliances without proper clearances.
+- Avoid compressing batts which reduces thermal performance.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for applications requiring fire rating without additional protection.
+1. Ensure roof space is safe, de-energise electrical circuits before entering ceiling if required by state regulations.
+2. Friction-fit batts between ceiling joists without gaps.
+3. Butt edges firmly together to create a continuous thermal barrier.
+4. Maintain required safety clearances around non-IC rated recessed downlights, exhaust fans, and flue pipes per AS 3999.
+5. Start from the perimeter plates working inward toward the ceiling manhole.
+6. Do not compress batts or cover electrical equipment not rated for insulation contact.
 
 ## Safety and handling
 
@@ -88,11 +106,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Contains up to 80% recycled PET; zero formaldehyde or chemical binders; low VOC; Sensitive Choice approved; 100% recyclable
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+70 Year Performance Warranty
 
 ## Specification starting point
 

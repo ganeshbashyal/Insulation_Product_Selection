@@ -1,7 +1,7 @@
 ---
 title: "Autex Vicinity - Desk Screen - Slate - Batt Insulation | Autex"
-description: "Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled pla"
-keywords: "Autex Vicinity - Desk Screen - Slate, Autex batt, acoustic insulation, wall insulation, ceiling insulation, insulation Australia, Autex Australia"
+description: "Autex Vicinity Desk Screen - Slate is a lightweight, semi-rigid acoustic workstation screen crafted from 100% polyester fibre. Designed to be fixed no"
+keywords: "Autex Vicinity - Desk Screen - Slate, Autex batt, wall insulation, insulation Australia, Autex Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AUTEX_VICINITY_DESK_SCREEN_SLATE
 ---
@@ -10,30 +10,32 @@ family_id: AUTEX_VICINITY_DESK_SCREEN_SLATE
 
 **Autex Batt** — bulk insulation batts for thermal and acoustic performance.
 
-Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled plastic bottles, it's the sustainable choice for modern buildings.
+Autex Vicinity Desk Screen - Slate is a lightweight, semi-rigid acoustic workstation screen crafted from 100% polyester fibre. Designed to be fixed non-destructively to desks using Vicinity Workstation Clamps, the Slate design features a clean rectangular shape with chamfered or rounded corner details that enhance both visual and acoustic privacy. It absorbs speech-range frequencies right where open-plan chatter starts, delivering acoustic sanctuary for focused, independent work.
 
 ## Key features
 
-- 100% polyester - safe to handle without protective equipment.
-- contains minimum 80% recycled PET plastic bottles.
-- non-allergenic, non-irritant formulation.
-- will not support mould or mildew growth.
-- maintains performance when wet - dries out naturally.
-- excellent thermal performance for roof/ceiling applications.
-- helps meet NCC energy efficiency requirements.
-- Made from recycled PET bottles.
+- Lightweight, semi-rigid 12mm or 24mm 100% polyester acoustic screen.
+- Slate design provides focused desk-level privacy with clean, tailored lines.
+- Constructed with a minimum of 80% post-consumer recycled PET.
+- Acoustic rating of 0.5 metric Sabins per unit (800mm Slate screen).
+- Non-destructive fixing via Vicinity Workstation Clamps made from 100% recycled PET.
+- Group 1 fire rating compliant with AS ISO 9705 - 2003 and AS 5637.1.
+- Durable, pin-receptive, moisture-resistant, and will not slump or fray over time.
+- Safe, non-toxic, non-allergenic, and free of chemical binders or formaldehyde.
+- Certified Carbon Neutral product with third-party verified EPD and Declare Red List Free.
+- Available in over 20 solid Cube colours and printed finishes.
 
 ## Applications and selection
 
-- Internal Wall | Ceiling | General Acoustic
+- internal wall
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm desk top thickness and edge profile for clamp compatibility.
+2. Select screen thickness (12mm or 24mm).
+3. Choose Slate width and height for desired level of visual and acoustic separation.
+4. Select colourway from Autex Cube palette.
+5. Confirm clamp quantity and finish (black or white 100% recycled PET clamps).
 
 
 ## Current catalogue range
@@ -44,36 +46,52 @@ Specialists in sustainable polyester acoustic solutions. Safe to handle without 
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Batt | Manufacturer catalogue |
-| Material | Polyester | Manufacturer catalogue |
-| Applications | Internal Wall | Ceiling | General Acoustic | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Acoustic Absorption (Slate 800mm) | 0.50 Sabins per unit (125Hz: 0.15, 250Hz: 0.30, 500Hz: 0.40, 1000Hz: 0.50, 2000Hz: 0.65, 4000Hz: 0.75) | ISO 354 |
+| Thickness | 12 mm (+/- 6%) | 24 mm (+/- 6%) | - |
+| Dimensions (Slate) | 800 mm width (standard) or custom widths from 600 mm to 2400 mm; height typically 400 mm to 600 mm above desk | - |
+| Material Composition | 100% polyester fibre (PET) | - |
+| Recycled Content | Minimum 80% post-consumer recycled PET | - |
+| Fire Rating (Australia) | Group 1, SMOGRArc < 100 m2/s2 | AS ISO 9705 - 2003 / AS 5637.1:2015 |
+| International Fire Rating | Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a: FS:0 - SD:45); B - s2, d0 (BS EN 13501-1:2018) | ISO 9705 / ASTM E-84 / BS EN 13501-1 |
+| Water Vapour Sorption | 0.4% by weight after 4 days at 49°C, 95% RH | ASTM C1104 / C1104M-13a |
+| Microbial Resistance | Growth rating: 0 (No growth) | ASTM G21-15 |
+| VOC Emissions | < 0.092 mg/m3 (7 days) | CDPH Standard Method v1.2 |
 
-
+Extracted from manufacturer datasheet: https://www.autexglobal.com/au/products/vicinity/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM E-84-15a Class A (FS:0, SD:45); BS EN 13501-1:2018 B - s2, d0
+
+NCC Specification 7 (BCA C1.10) Group 1 fire compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.autexacoustics.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://insulvac.com.au/wp-content/uploads/2020/04/autex-material-safety-data-sheet-msds.pdf.
 
+## Recommended accessories
+
+- Vicinity Workstation Clamps (Desk Mount, Top Mount, or Beam Mount).
+- Hex key / installation hardware.
+
 
 ## Limitations and warnings
 
-- Not suitable for applications requiring fire rating without additional protection..
-- not to be exposed to weather or sustained moisture..
-- do not compress beyond manufacturer recommendations..
-- check fire-rated system requirements if fire rating is required..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Designed for interior desk-mounting only; not for floor-standing or outdoor use.
+- Non-structural screen; cannot support heavy monitor arms or mounted shelving.
+- Avoid direct exposure to liquids or high-humidity environments.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for applications requiring fire rating without additional protection.
+1. Inspect the desk edge to confirm thickness is compatible with Vicinity Workstation Clamps.
+2. Position the clamps along the desk edge at recommended spacing (typically 150-200mm in from outer edges).
+3. Tighten the clamp thumb-screws or hex bolts securely to the desk underside without overtightening.
+4. Insert the 12mm or 24mm Vicinity Slate screen into the clamp jaws.
+5. Ensure the screen sits level and is properly seated down into the bottom of each clamp channel.
+6. Tighten the screen retaining screws on the clamp to firmly secure the acoustic screen in place.
 
 ## Safety and handling
 
@@ -81,11 +99,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Minimum 80% recycled post-consumer PET; clamps made from 100% recycled PET; certified Carbon Neutral; Declare Red List Free; EPD compliant
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+10 Year Manufacturer's Guarantee
 
 ## Specification starting point
 

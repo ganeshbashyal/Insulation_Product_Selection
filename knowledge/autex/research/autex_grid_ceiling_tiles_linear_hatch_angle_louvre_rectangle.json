@@ -1,0 +1,154 @@
+{
+  "family_id": "AUTEX_GRID_CEILING_TILES_LINEAR_HATCH_ANGLE_LO_2",
+  "family_name": "Autex Grid Ceiling Tiles - Linear/Hatch/Angle/Louvre - Rectangle - Uncapped",
+  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/grid-ceiling-tiles/",
+  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Autex Grid Ceiling Tiles - Linear/Hatch/Angle/Louvre - Rectangle - Uncapped is\na versatile 3D acoustic ceiling tile designed to fit standard 1200mm x 600mm\nsuspended grid systems. Available in Linear, Hatch, Angle, and Louvre slatted\ndesigns, this uncapped model features open slats that allow sightlines, airflow,\nand light penetration into the ceiling plenum above. Manufactured from 100%\npolyester fibre with at least 60% recycled PET, it provides acoustic diffusion\nand sound absorption (NRC 0.35 - 0.60) alongside Group 1 fire compliance.",
+    "features": [
+      "Drop-in 3D rectangular acoustic tile for standard 1200mm x 600mm\nsuspended grids",
+      "Available in Linear, Hatch, Angle, and Louvre open slatted\nstyles",
+      "Uncapped design maintains ceiling plenum ventilation, lighting, and\nservice integration",
+      "Acoustic absorption and diffusion reducing room\nreverberation (NRC 0.35 - 0.60)",
+      "Made from 100% polyester fibre containing a\nminimum of 60% recycled PET",
+      "Group 1 fire rating compliant with AS ISO 9705\n- 2003 and AS 5637.1",
+      "Non-toxic, non-allergenic, non-irritant, and free of\nchemical binders",
+      "Certified Carbon Neutral product with third-party verified\nEPD",
+      "Lightweight and durable polyester that will not warp, chip, or crack",
+      "Available in 20+ contemporary solid Cube colours"
+    ],
+    "applications": [
+      "ceiling",
+      "commercial office",
+      "education",
+      "retail",
+      "hospitality"
+    ],
+    "technical": [
+      {
+        "property": "Tile Dimensions",
+        "value": "1195 mm x 595 mm\n(depth varies, typically 80 mm - 103 mm)",
+        "standard": ""
+      },
+      {
+        "property": "Ceiling Grid Compatibility",
+        "value": "Standard 1200 mm x 600 mm metric grid\n(15mm / 24mm T-bar)",
+        "standard": ""
+      },
+      {
+        "property": "Material Composition",
+        "value": "100% polyester fibre (PET) Cube panel",
+        "standard": ""
+      },
+      {
+        "property": "Recycled Content",
+        "value": "Minimum 60% post-consumer recycled\nPET",
+        "standard": ""
+      },
+      {
+        "property": "Sound Absorption (NRC)",
+        "value": "0.35\n- 0.60 (uncapped configuration)",
+        "standard": "ISO 354"
+      },
+      {
+        "property": "Fire\nHazard Classification",
+        "value": "Group 1, SMOGRArc < 100 m2/s2",
+        "standard": "AS ISO 9705 - 2003 / AS 5637.1:2015"
+      },
+      {
+        "property": "International Fire\nRating",
+        "value": "Group 1-S (ISO 9705:1993) / B-s2, d0 (BS EN 13501-1:2018)",
+        "standard": "ISO 9705 / BS EN 13501-1"
+      },
+      {
+        "property": "VOC Emissions",
+        "value": "< 0.092 mg/m3 (7 days)",
+        "standard": "CDPH Standard Method v1.2"
+      },
+      {
+        "property": "Microbial Resistance",
+        "value": "Growth rating: 0 (No growth)",
+        "standard": "ASTM G21-15"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Grid Ceiling Tiles -\nLinear/Hatch/Angle/Louvre Rectangle Uncapped",
+        "size_or_rating": "1195mm x 595mm\n(Rectangle 1200x600 grid)",
+        "pack": "Pack of tiles (typically 4-8 tiles\ndepending on style)"
+      }
+    ],
+    "fire": "Group 1 (AS ISO 9705 - 2003 /\nAS 5637.1:2015); Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a); B-s2, d0\n(BS EN 13501-1:2018)",
+    "compliance": "NCC BCA Specification C1.10 Group 1 fire\ncompliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354",
+    "sustainability": "Certified Carbon Neutral; minimum 60% recycled PET; Declare Red List Free; EPD\nverified",
+    "install": [
+      "Confirm 1200mm x 600mm suspended grid is level and\nsquare",
+      "Check all tiles are from the same production batch",
+      "Assemble slatted\ntile elements following manufacturer instructions if flat-packed",
+      "Tilt the\nuncapped tile and pass it upward through the grid opening",
+      "Lower the tile so\nits notches rest squarely onto the grid runners",
+      "Align directional slats\nconsistently or alternate orientation for a parquet effect"
+    ],
+    "selection_checklist": [
+      "Select specific design: Linear, Hatch, Angle, or\nLouvre",
+      "Confirm grid size is rectangular metric 1200mm x 600mm",
+      "Verify\nuncapped open-slat design is desired to maintain plenum airflow and light",
+      "Choose colour from Autex Cube collection",
+      "Ensure ceiling grid has adequate\nload rating"
+    ],
+    "accessories": [
+      "Standard two-way exposed ceiling grid (15mm\nor 24mm tee)",
+      "Utility knife for perimeter trimming"
+    ],
+    "limitations": [
+      "Open\nslatted uncapped design does not hide plenum services or wiring from below",
+      "Lower acoustic absorption than the capped version; specify capped if higher NRC\nis required",
+      "Indoor use only; avoid wet areas"
+    ],
+    "warranty": "Manufacturer's\nGuarantee (minimum 10 years)"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Autex\nRectangle Uncapped Tile",
+      "Linear Rectangle Uncapped",
+      "Hatch Rectangle\nUncapped",
+      "Angle Rectangle Uncapped",
+      "Louvre Rectangle Uncapped",
+      "open\nslatted ceiling tile 1200x600",
+      "Autex uncapped grid tile",
+      "3D slatted drop in\ntile"
+    ],
+    "problem_keywords": [
+      "stuffy room needing ceiling ventilation",
+      "reverberation in open ceiling plenum",
+      "unattractive flat drop ceiling",
+      "need\nslatted ceiling look on standard grid",
+      "diffusing light through ceiling grid",
+      "open plan office noise build up"
+    ],
+    "placement": [
+      "ceiling"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "fire",
+      "sustainability",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Creating open slatted ceiling features in corporate workspaces that allow HVAC\nairflow and smoke clearance to reach the plenum",
+      "Architectural slatted light\ndiffusion in retail environments and hotel reception zones",
+      "Acoustic softening\nand visual zoning in creative studios and university campus hubs"
+    ],
+    "not_for": [
+      "Ceilings requiring complete visual shielding of ceiling plenum services",
+      "Direct floor traffic or wall impact surfaces",
+      "Exterior unconditioned or wet\nareas"
+    ],
+    "rag_summary": "Autex Grid Ceiling Tiles - Linear/Hatch/Angle/Louvre -\nRectangle - Uncapped is an open-slatted 1195mm x 595mm 3D acoustic tile for\nstandard 1200mm x 600mm ceiling grids. Offered in Linear, Hatch, Angle, or\nLouvre directional profiles, its uncapped construction preserves airflow, light\npenetration, and open-plenum sightlines while breaking up sound flutter and\nreducing reverberation (NRC 0.35 - 0.60). Made from 100% polyester with at\nleast 60% recycled PET and achieving Group 1 fire compliance, it delivers a\nmodern architectural slatted aesthetic without replacing standard drop-ceiling\ninfrastructure."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

@@ -1,7 +1,7 @@
 ---
 title: "Autex Printed Lanes Baffle Sawtooth - Batt Insulation | Autex"
-description: "Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability"
-keywords: "Autex Printed Lanes Baffle Sawtooth, Autex batt, acoustic insulation, ceiling insulation, insulation Australia, Autex Australia"
+description: "Autex Printed Lanes Baffle Sawtooth combines an asymmetrical directional sawtooth profile with high-definition digital UV printing of natural timber a"
+keywords: "Autex Printed Lanes Baffle Sawtooth, Autex batt, wall insulation, insulation Australia, Autex Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AUTEX_PRINTED_LANES_BAFFLE_SAWTOOTH
 ---
@@ -10,30 +10,33 @@ family_id: AUTEX_PRINTED_LANES_BAFFLE_SAWTOOTH
 
 **Autex Batt** — bulk insulation batts for thermal and acoustic performance.
 
-Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability.
+Autex Printed Lanes Baffle Sawtooth combines an asymmetrical directional sawtooth profile with high-definition digital UV printing of natural timber and stone textures. Engineered with an acoustic air cavity behind each 300mm wide batten, it delivers class-leading acoustic absorption (NRC 0.85) alongside striking shadow play and lifelike material aesthetics. It installs without glue via a concealed clipping system, achieving Group 1 fire compliance and carbon-neutral certification.
 
 ## Key features
 
-- 100% polyester - safe to handle without protective equipment.
-- contains minimum 80% recycled PET plastic bottles.
-- non-allergenic, non-irritant formulation.
-- will not support mould or mildew growth.
-- maintains performance when wet.
-- excellent thermal performance for roof/ceiling applications.
-- Made from recycled PET bottles.
-- Safe to handle without PPE.
+- Dynamic asymmetrical sawtooth profile combined with digital timber or stone print finishes.
+- Highest acoustic performance in the Lanes collection achieving NRC 0.85.
+- High-resolution digital printing with safe, water-based UV-cured ink.
+- Rear air gap cavity enhances low and mid frequency sound absorption.
+- Glue-free mechanical clipping system ensures fast, clean, and mess-free installation.
+- Lightweight, seismic-safe alternative to solid timber or fluted stone battens.
+- Constructed from 100% polyester fibre with a minimum of 60% to 80% recycled PET.
+- Group 1 fire rating compliant with AS ISO 9705 - 2003 and AS 5637.1.
+- Modular 300mm width sections available in 2400mm and 2700mm lengths.
+- Certified Carbon Neutral product with third-party verified EPD.
 
 ## Applications and selection
 
-- Ceiling | General Acoustic
+- wall
+- internal wall
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Select print finish from Acoustic Timber woodgrains or Surface Finishes palettes.
+2. Confirm wall height to choose 2400mm or 2700mm lengths.
+3. Calculate wall width in 300mm increments (3 lanes per pack).
+4. Verify direction of light source to accentuate Sawtooth 3D printed effect.
+5. Verify substrate framing supports mechanical clip mounting.
 
 
 ## Current catalogue range
@@ -45,36 +48,54 @@ Specialists in sustainable polyester acoustic solutions. Safe to handle without 
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Batt | Manufacturer catalogue |
-| Material | Polyester | Manufacturer catalogue |
-| Applications | Ceiling | General Acoustic | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Noise Reduction Coefficient (NRC) | 0.85 | ISO 354 |
+| Dimensions (Per Lane) | 300 mm width x 2400 mm or 2700 mm length (custom up to 3600 mm) | - |
+| Material Thickness | 12 mm Cube base (depth varies by Sawtooth profile) | - |
+| Composition | 100% polyester fibre (PET) printed with UV-curable ink | - |
+| Recycled Content | Minimum 60% to 80% post-consumer recycled PET | - |
+| Thermal Performance | R0.41 (@ 15°C) | - |
+| Fire Rating (Australia) | Group 1, SMOGRArc < 100 m2/s2 | AS ISO 9705 - 2003 / AS 5637.1 |
+| International Fire Rating | Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a: FS:0 - SD:45); BS EN 13501-1:2018 | ISO 9705 / ASTM E-84 / BS EN 13501-1 |
+| Water Vapour Sorption | 0.4% by weight after 4 days at 49°C, 95% RH | ASTM C1104 / C1104M-13a |
+| Microbial Resistance | Growth rating: 0 (No growth) | ASTM G21-15 |
+| Print Type | Safe, water-based, UV-cured ink | - |
 
-
+Extracted from manufacturer datasheet: https://www.autexglobal.com/au/products/lanes/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM E-84-15a Class A (FS:0, SD:45); BS EN 13501-1:2018
+
+NCC Specification 7 (BCA C1.10) Group 1 fire compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.autexacoustics.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://insulvac.com.au/wp-content/uploads/2020/04/autex-material-safety-data-sheet-msds.pdf.
 
+## Recommended accessories
+
+- Lanes mounting clip system.
+- Fasteners suitable for substrate.
+- Fine-tooth track saw.
+
 
 ## Limitations and warnings
 
-- Not suitable for fire rating without additional protection..
-- not to be exposed to weather or sustained moisture..
-- do not compress beyond manufacturer recommendations..
-- check fire-rated system requirements..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Indoor use only; avoid wet areas or direct water exposure.
+- Requires mechanical clip installation; do not glue directly flat to wall.
+- Directional profile must be installed in a consistent orientation across the wall.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for fire rating without additional protection.
+1. Check wall substrate is plumb, flat, and dry.
+2. Inspect directional sawtooth pattern and grain orientation prior to installation.
+3. Fix horizontal mounting clips or channel track to framing studs at 300mm vertical centres.
+4. Snap the printed folded Sawtooth lanes onto mounting clips firmly without adhesive.
+5. Ensure all panels are installed in a uniform directional orientation across the wall.
+6. Trim bottom or top ends carefully using a fine-toothed saw on the offcut side.
 
 ## Safety and handling
 
@@ -82,11 +103,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Carbon neutral product; water-based UV-cured ink; min 60% to 80% recycled PET; Declare Red List Free; EPD verified; low VOC
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Manufacturer's Guarantee (10 years)
 
 ## Specification starting point
 

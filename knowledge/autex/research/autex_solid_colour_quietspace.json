@@ -1,0 +1,180 @@
+{
+  "family_id": "AUTEX_SOLID_COLOUR_QUIETSPACE",
+  "family_name": "Autex Solid Colour Quietspace",
+  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/quietspace-panel/",
+  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Autex Solid Colour Quietspace is a high-performance broadband acoustic panel\nengineered to deliver maximum acoustic absorption finished in custom solid\ncolours. Built on a dual-density 100% polyester Quietspace Panel core, solid\ncolour finishes—including custom paint matching, CMYK, and Pantone\nspecifications—are digitally applied with safe, water-based UV-cured ink or\nlaminated with solid-colour Vertiface fabric. It absorbs between 85% and 100% of\nsound energy (NRC 0.85 - 1.00) while seamlessly harmonising with any interior\ncolour scheme.",
+    "features": [
+      "Limitless solid colour finishes with custom\npaint, CMYK, and Pantone matching",
+      "Available across 25mm (NRC 0.85), 50mm\n(NRC 1.00), 75mm, and 100mm thicknesses",
+      "High-performance broadband sound\nabsorption with dual-density polyester core",
+      "Printed surface or fabric overlay\nhas zero negative impact on acoustic performance",
+      "Group 1 fire rating\ncompliant with AS ISO 9705 - 2003 and AS 5637.1",
+      "Constructed from 100%\npolyester fibre containing minimum 45% to 58% recycled PET",
+      "Non-toxic,\nnon-allergenic, non-irritant, with low-VOC emissions",
+      "Certified Carbon Neutral\nproduct with third-party verified EPD",
+      "Supplied with factory-applied\nprotective spun-bond film to protect face during install",
+      "Backed by a 10-year\nmanufacturer's guarantee"
+    ],
+    "applications": [
+      "wall",
+      "internal wall",
+      "ceiling"
+    ],
+    "technical": [
+      {
+        "property": "Noise Reduction Coefficient (NRC)",
+        "value": "25mm: 0.85 (Class C); 50mm: 1.00 (Class A); 75mm: 1.00 (Class\nA); 100mm: 1.00 (Class A)",
+        "standard": "ISO 354"
+      },
+      {
+        "property": "Panel\nDimensions",
+        "value": "1200 mm x 2400 mm",
+        "standard": ""
+      },
+      {
+        "property": "Thickness Options",
+        "value": "25 mm, 50 mm, 75 mm, 100 mm (tolerance +/- 6%)",
+        "standard": ""
+      },
+      {
+        "property": "Weight",
+        "value": "25mm: 2300 gsm; 50mm: 3800\ngsm; 75mm: 4050 gsm; 100mm: 4300 gsm",
+        "standard": ""
+      },
+      {
+        "property": "Material\nComposition",
+        "value": "100% polyester fibre (PET)",
+        "standard": ""
+      },
+      {
+        "property": "Recycled Content",
+        "value": "Minimum 45% to 58% post-consumer\nrecycled PET",
+        "standard": ""
+      },
+      {
+        "property": "Thermal Resistance",
+        "value": "25mm: R0.6 (@ 15°C); 50mm: R1.4 (@ 15°C)",
+        "standard": ""
+      },
+      {
+        "property": "Fire Rating (Australia)",
+        "value": "Group 1, SMOGRArc < 100 m2/s2",
+        "standard": "AS ISO 9705 - 2003 / AS 5637.1"
+      },
+      {
+        "property": "International Fire Rating",
+        "value": "Group 1-S (ISO 9705:1993); Class A (ASTM E-84); 25mm BS\nEN 13501-1:2018 B - s2, d0; 50mm B - s2, d2",
+        "standard": "ISO 9705 / ASTM E-84\n/ BS EN 13501-1"
+      },
+      {
+        "property": "Microbial Resistance",
+        "value": "Growth\nrating: 0 (No growth)",
+        "standard": "ASTM G21-15"
+      },
+      {
+        "property": "VOC\nEmissions",
+        "value": "< 0.092 mg/m3 (7 days)",
+        "standard": "CDPH Standard Method\nv1.2"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Solid Colour Quietspace Panel 25mm",
+        "size_or_rating": "1200 mm x 2400 mm x 25 mm, NRC 0.85",
+        "pack": "Panel"
+      },
+      {
+        "variant": "Solid Colour Quietspace Panel 50mm",
+        "size_or_rating": "1200 mm\nx 2400 mm x 50 mm, NRC 1.00",
+        "pack": "Panel"
+      },
+      {
+        "variant": "Solid Colour\nQuietspace Panel 75mm",
+        "size_or_rating": "1200 mm x 2400 mm x 75 mm, NRC 1.00",
+        "pack": "Panel"
+      },
+      {
+        "variant": "Solid Colour Quietspace Panel 100mm",
+        "size_or_rating": "1200 mm x 2400 mm x 100 mm, NRC 1.00",
+        "pack": "Panel"
+      }
+    ],
+    "fire": "AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1 (SMOGRArc\n< 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM E-84 Class A; BS EN 13501-1:2018 B -\ns2, d0 (25mm) / B - s2, d2 (50mm)",
+    "compliance": "NCC Specification 7 (BCA\nC1.10) Group 1 fire compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354",
+    "sustainability": "Carbon neutral product; minimum 45% to 58% recycled PET;\nDeclare Red List Free; EPD compliant; low VOC",
+    "install": [
+      "Inspect wall or\nceiling substrate to ensure it is flat, clean, dry, and dust-free",
+      "Acclimatise\npanels in the installation environment for at least 24 hours prior to fitting",
+      "Keep protective spun-bond cover on panel face during handling and\ninstallation",
+      "Apply recommended contact or high-grab MS polymer adhesive\nevenly across the panel back",
+      "Position panel onto substrate, butt joins\ntightly, and roll firmly with a pressure roller",
+      "Peel back protective film\ncorners during painting and remove fully upon completion"
+    ],
+    "selection_checklist": [
+      "Specify solid colour specification (Pantone, CMYK,\npaint code, or Vertiface colour)",
+      "Select thickness (25mm for NRC 0.85 or 50mm+\nfor NRC 1.00)",
+      "Confirm substrate compatibility for adhesive direct-fix\nmounting",
+      "Calculate total panel count based on 1200mm x 2400mm dimensions",
+      "Determine need for aluminium edge trims (Autex Type C profile for 25mm)"
+    ],
+    "accessories": [
+      "Autex Edging Solutions (Type C profile for 25mm panels)",
+      "Contact or MS polymer adhesive",
+      "Pressure roller"
+    ],
+    "limitations": [
+      "Indoor\nuse only; avoid direct water exposure or extreme humidity",
+      "Do not expose to\nnaked flames or concentrated heat sources above 80°C",
+      "Printed solid colours\nmay show slight surface marking if subjected to heavy impact"
+    ],
+    "warranty": "Manufacturer's Guarantee (10 years)"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Autex Solid Colour Quietspace",
+      "Quietspace coloured panel",
+      "coloured acoustic\npanel 25mm",
+      "coloured acoustic panel 50mm",
+      "Pantone matched acoustic panel",
+      "CMYK acoustic wall panel",
+      "broadband coloured acoustic panel",
+      "Autex\nQuietspace solid colour"
+    ],
+    "problem_keywords": [
+      "reverberation in branded\ncommercial space",
+      "need custom colour acoustic panels",
+      "loud auditorium with\nspecific colour scheme",
+      "echo in corporate boardroom",
+      "matching acoustic\npanels to wall paint",
+      "harsh sound reflection in studio"
+    ],
+    "placement": [
+      "wall",
+      "internal wall",
+      "ceiling"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "thermal",
+      "fire",
+      "sustainability"
+    ],
+    "use_cases": [
+      "Applying brand-matched solid colour\nacoustic panels in corporate lobbies and boardrooms",
+      "Controlling echo in\nauditoriums, radio stations, and sound recording studios needing specific colour\naesthetics",
+      "Full wall acoustic treatment in university lecture theatres and\nschool halls"
+    ],
+    "not_for": [
+      "Floor or underfloor impact sound isolation",
+      "Exterior exposed walls",
+      "Areas subject to direct liquid water"
+    ],
+    "rag_summary": "Autex Solid Colour Quietspace pairs the premium broadband sound\nabsorption of dual-density Quietspace Panel (NRC 0.85 to 1.00) with custom solid\ncolour finishes across the entire spectrum. Available in thicknesses from 25mm\nto 100mm in 1200mm x 2400mm sheets, it offers custom paint, CMYK, and Pantone\nmatching printed with safe water-based inks or fabric-laminated faces. Achieving\nGroup 1 fire compliance under AS ISO 9705 and containing over 45% recycled PET,\nit provides architecturally seamless, colour-coordinated noise control for\ncorporate, education, and entertainment venues."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

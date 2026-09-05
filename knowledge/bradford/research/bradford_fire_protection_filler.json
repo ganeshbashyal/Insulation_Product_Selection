@@ -1,0 +1,138 @@
+{
+  "family_id": "BRADFORD_FIRE_PROTECTION_FILLER",
+  "family_name": "Bradford Fire Protection - Filler",
+  "datasheet_pdf_url": "https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/walls/fireseal",
+  "sds_url": "https://www.bradfordinsulation.com.au/-/media/bradford/files/safety-data-sheet---rockwool.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Bradford Fire Protection - Filler (Fireseal Party Wall Batten\nFillers) are pre-cut, non-combustible rockwool insulation inserts designed to\nseal hollow metal roof and ceiling battens crossing fire-rated separating walls\nin Class 1 residential buildings. Manufactured from high-temperature rockwool,\nthese inserts fill the 40mm metal batten profile to prevent flame, hot gases,\nand embers from bypassing the fire compartment boundary. They are purpose-shaped\nto compress snugly inside steel batten profiles to meet NCC and BCA\nDeemed-to-Satisfy requirements.",
+    "features": [
+      "Non-combustible stone wool\nconstruction complying with AS 1530.1",
+      "Pre-cut to fit standard 40mm\nresidential metal roof and ceiling battens",
+      "Prevents fire spreading through\nhollow steel batten cavities over party walls",
+      "High resistance to shrinkage\nunder extreme fire temperatures up to 1000°C",
+      "Biosoluble FBS-1 rockwool\nformulation",
+      "Quick and easy push-fit installation during roofing or ceiling\nconstruction",
+      "Performance unaffected by contact with moisture or water",
+      "Purpose-designed for Class 1 multi-residential party wall junctions"
+    ],
+    "applications": [
+      "roof",
+      "roofline",
+      "ceiling",
+      "wall",
+      "internal wall"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "Bio-soluble rockwool\n(FBS-1)",
+        "standard": ""
+      },
+      {
+        "property": "Dimensions",
+        "value": "100 mm length\nx 40 mm height",
+        "standard": ""
+      },
+      {
+        "property": "Profile Compatibility",
+        "value": "Standard 40 mm metal roof and ceiling battens",
+        "standard": ""
+      },
+      {
+        "property": "Combustibility",
+        "value": "Non-combustible",
+        "standard": "AS 1530.1"
+      },
+      {
+        "property": "Fire Hazard Indices",
+        "value": "Ignitability: 0,\nSpread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Pack Quantity",
+        "value": "35 pieces per box\n(3.5 lineal metres)",
+        "standard": ""
+      },
+      {
+        "property": "Product Code",
+        "value": "125418",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Fireseal Party Wall\nBatten Fillers 40x100mm",
+        "size_or_rating": "40 mm x 100 mm",
+        "pack": "Box of 35\npieces (Code: 125418)"
+      }
+    ],
+    "fire": "Non-combustible to AS 1530.1; Early Fire\nHazard indices to AS/NZS 1530.3: Ignitability 0, Spread of Flame 0, Heat\nEvolved 0, Smoke Developed 0-1; Meets NCC Class 1 separating wall\nDeemed-to-Satisfy fire provisions",
+    "compliance": "NCC Volume Two / ABCB Housing\nProvisions Part 9.3 (Separating walls fire protection), AS 1530.1",
+    "sustainability": "Manufactured using natural rock and recycled slag;\nbio-soluble FBS-1; zero ODP",
+    "install": [
+      "Locate metal roof or ceiling battens\ncrossing directly over the fire-rated party wall",
+      "Insert a Fireseal Batten\nFiller into the open cavity of each continuous steel batten",
+      "Centre the filler\ndirectly over the party wall line",
+      "Ensure the filler compresses firmly against\nthe inner faces of the steel batten profile",
+      "Check that no air gap or void\nremains through the batten cross-section"
+    ],
+    "selection_checklist": [
+      "Confirm\nmetal batten size (standard 40mm profile)",
+      "Count total number of continuous\nsteel battens crossing the party wall line",
+      "Ensure sufficient boxes are\nordered (35 fillers per box)",
+      "Verify party wall system design and FRL\nspecifications"
+    ],
+    "accessories": [
+      "Bradford Fireseal Party Wall Sealer",
+      "Bradford Fireseal Party Wall Batts"
+    ],
+    "limitations": [
+      "Designed specifically\nfor hollow metal batten cavities; not for wide masonry gaps",
+      "Must be protected\nfrom direct weather exposure prior to roof cladding installation",
+      "Cannot\nsubstitute for party wall blanket or vertical joint batts"
+    ],
+    "warranty": "Backed by CSR Bradford product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Bradford Fireseal Batten Fillers",
+      "Fire Protection Filler",
+      "party wall batten\nfiller",
+      "metal batten fire stop",
+      "40mm batten filler",
+      "rockwool batten\ninsert",
+      "roof batten firestop",
+      "CSR batten filler 125418"
+    ],
+    "problem_keywords": [
+      "fire spread through roof battens",
+      "hollow metal batten\nfire bypass",
+      "party wall roof junction fire rating",
+      "sealing steel battens\nover party wall",
+      "NCC separating wall batten compliance"
+    ],
+    "placement": [
+      "roof",
+      "roofline",
+      "ceiling",
+      "internal wall"
+    ],
+    "priority_fit": [
+      "fire"
+    ],
+    "use_cases": [
+      "Filling continuous 40mm steel roof battens crossing fire-rated\ninter-tenancy walls in townhouses",
+      "Sealing ceiling battens at party wall\njunctions in Class 1 multi-residential duplexes"
+    ],
+    "not_for": [
+      "Full-width\nwall cavity filling",
+      "Acoustic room partition batts",
+      "Underfloor timber floor\ninsulation"
+    ],
+    "rag_summary": "Bradford Fire Protection - Filler (Fireseal Party\nWall Batten Fillers) are pre-formed non-combustible rockwool inserts\nmeasuring 100mm x 40mm, designed specifically to plug continuous metal roof and\nceiling battens passing over party walls in Class 1 buildings. They prevent\nfire, embers, and hot gases from channeling through hollow metal batten cavities\nacross inter-tenancy boundaries. Certified non-combustible to AS 1530.1 and\ntested to AS/NZS 1530.3, they are a critical Deemed-to-Satisfy component of\ncompliant multi-residential passive fire containment systems."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

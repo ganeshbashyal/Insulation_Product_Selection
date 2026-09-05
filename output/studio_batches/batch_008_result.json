@@ -1,0 +1,931 @@
+[ { "family_id": "AUTEX_VICINITY_DESK_SCREEN_SLATE", "tds_url":
+"https://www.autexglobal.com/au/products/vicinity/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Vicinity Desk Screen - Slate is a lightweight, semi-rigid acoustic
+workstation screen crafted from 100% polyester fibre. Designed to be fixed
+non-destructively to desks using Vicinity Workstation Clamps, the Slate design
+features a clean rectangular shape with chamfered or rounded corner details that
+enhance both visual and acoustic privacy. It absorbs speech-range frequencies
+right where open-plan chatter starts, delivering acoustic sanctuary for focused,
+independent work.", "features": [ "Lightweight, semi-rigid 12mm or 24mm 100%
+polyester acoustic screen", "Slate design provides focused desk-level privacy
+with clean, tailored lines", "Constructed with a minimum of 80% post-consumer
+recycled PET", "Acoustic rating of 0.5 metric Sabins per unit (800mm Slate
+screen)", "Non-destructive fixing via Vicinity Workstation Clamps made from 100%
+recycled PET", "Group 1 fire rating compliant with AS ISO 9705 - 2003 and
+AS 5637.1", "Durable, pin-receptive, moisture-resistant, and will not slump or
+fray over time", "Safe, non-toxic, non-allergenic, and free of chemical binders
+or formaldehyde", "Certified Carbon Neutral product with third-party verified
+EPD and Declare Red List Free", "Available in over 20 solid Cube colours and
+printed finishes" ], "applications": [ "internal wall" ], "technical": [ {
+"property": "Acoustic Absorption (Slate 800mm)", "value": "0.50 Sabins per unit
+(125Hz: 0.15, 250Hz: 0.30, 500Hz: 0.40, 1000Hz: 0.50, 2000Hz: 0.65, 4000Hz: 0.75)",
+"standard": "ISO 354" }, { "property": "Thickness", "value": "12 mm (+/- 6%)
+| 24 mm (+/- 6%)", "standard": "" }, { "property": "Dimensions (Slate)",
+"value": "800 mm width (standard) or custom widths from 600 mm to 2400 mm;
+height typically 400 mm to 600 mm above desk", "standard": "" }, { "property":
+"Material Composition", "value": "100% polyester fibre (PET)", "standard": "" },
+{ "property": "Recycled Content", "value": "Minimum 80% post-consumer recycled
+PET", "standard": "" }, { "property": "Fire Rating (Australia)", "value":
+"Group 1, SMOGRArc < 100 m2/s2", "standard": "AS ISO 9705 - 2003 /
+AS 5637.1:2015" }, { "property": "International Fire Rating", "value":
+"Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a: FS:0 - SD:45); B - s2, d0
+(BS EN 13501-1:2018)", "standard": "ISO 9705 / ASTM E-84 / BS EN 13501-1" }, {
+"property": "Water Vapour Sorption", "value": "0.4% by weight after 4 days
+at 49°C, 95% RH", "standard": "ASTM C1104 / C1104M-13a" }, { "property":
+"Microbial Resistance", "value": "Growth rating: 0 (No growth)", "standard":
+"ASTM G21-15" }, { "property": "VOC Emissions", "value": "< 0.092 mg/m3 (7
+days)", "standard": "CDPH Standard Method v1.2" } ], "range": [ { "variant":
+"Vicinity Desk Screen Slate 12mm", "size_or_rating": "800 mm x 450-600 mm x 12
+mm", "pack": "Screen (single or boxed set)" }, { "variant": "Vicinity Desk
+Screen Slate 24mm", "size_or_rating": "800 mm x 450-600 mm x 24 mm", "pack":
+"Screen (single or boxed set)" } ], "fire": "AS ISO 9705 - 2003 and AS 5637.1
+Classification: Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM
+E-84-15a Class A (FS:0, SD:45); BS EN 13501-1:2018 B - s2, d0", "compliance":
+"NCC Specification 7 (BCA C1.10) Group 1 fire compliance; AS ISO 9705:2003;
+AS 5637.1:2015; ISO 354", "sustainability": "Minimum 80% recycled post-consumer
+PET; clamps made from 100% recycled PET; certified Carbon Neutral; Declare Red
+List Free; EPD compliant", "install": [ "Inspect the desk edge to confirm
+thickness is compatible with Vicinity Workstation Clamps", "Position the clamps
+along the desk edge at recommended spacing (typically 150-200mm in from outer
+edges)", "Tighten the clamp thumb-screws or hex bolts securely to the desk
+underside without overtightening", "Insert the 12mm or 24mm Vicinity Slate
+screen into the clamp jaws", "Ensure the screen sits level and is properly
+seated down into the bottom of each clamp channel", "Tighten the screen
+retaining screws on the clamp to firmly secure the acoustic screen in place" ],
+"selection_checklist": [ "Confirm desk top thickness and edge profile for clamp
+compatibility", "Select screen thickness (12mm or 24mm)", "Choose Slate width
+and height for desired level of visual and acoustic separation", "Select
+colourway from Autex Cube palette", "Confirm clamp quantity and finish (black or
+white 100% recycled PET clamps)" ], "accessories": [ "Vicinity Workstation
+Clamps (Desk Mount, Top Mount, or Beam Mount)", "Hex key / installation
+hardware" ], "limitations": [ "Designed for interior desk-mounting only; not for
+floor-standing or outdoor use", "Non-structural screen; cannot support heavy
+monitor arms or mounted shelving", "Avoid direct exposure to liquids or
+high-humidity environments" ], "warranty": "10 Year Manufacturer's Guarantee",
+"found": true, "search_keywords": [ "Autex Vicinity Slate", "Vicinity desk
+screen Slate", "acoustic desk screen", "Autex workstation screen", "pinnable
+desk divider", "polyester acoustic screen", "desk privacy divider", "Cube desk
+screen", "Vicinity acoustic divider", "desk clamp acoustic screen" ],
+"problem_keywords": [ "noisy open plan office", "distracting desk-to-desk
+chatter", "lack of desk privacy", "reverberation at workstation level", "phone
+noise in open office", "unattractive desk partitions" ], "placement": [
+"internal wall" ], "priority_fit": [ "acoustic", "fire", "sustainability",
+"easy_install" ], "use_cases": [ "Mounting to commercial workstations in
+open-plan offices to mitigate voice transfer between desks", "Creating focused
+acoustic study carrels in university libraries and schools", "Providing visual
+and sound separation on sit-to-stand desks without drilling into desktops" ],
+"not_for": [ "Wall cavity thermal insulation batts", "Flooring or underfoot
+applications", "External building cladding" ], "rag_summary": "Autex Vicinity -
+Desk Screen - Slate is a lightweight acoustic workstation partition made
+from 12mm or 24mm Cube semi-rigid polyester felt containing at least 80%
+recycled PET. Specifically shaped in the tailored Slate profile, it fixes
+non-destructively to desktops via 100% recycled PET Vicinity clamps to absorb
+voice frequencies (0.50 Sabins per 800mm unit) right where open-plan chatter
+starts. Rated Group 1 fire compliant under AS ISO 9705 and certified carbon
+neutral, it provides durable, pinnable acoustic and visual shelter for modern
+agile offices." }, { "family_id": "AUTEX_VICINITY_DESK_SCREEN_SOL", "tds_url":
+"https://www.autexglobal.com/au/products/vicinity/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Vicinity Desk Screen - Sol is an acoustic workstation divider
+characterized by an organic curved semi-circular profile. Manufactured from 100%
+polyester fibre with a minimum of 80% post-consumer recycled PET, Sol attaches
+non-destructively to workstations using circular-economy Vicinity Workstation
+Clamps. It provides desk-level speech absorption (0.30 Sabins per 600mm unit)
+and visual privacy while introducing soft, arched silhouettes into modern office
+environments.", "features": [ "Distinctive arched curved Sol profile adds soft
+architectural geometry to desks", "Lightweight, semi-rigid 12mm or 24mm 100%
+polyester acoustic screen", "Constructed with a minimum of 80% post-consumer
+recycled PET", "Acoustic rating of 0.30 metric Sabins per unit (600mm Sol
+screen)", "Fixed non-destructively to desks with Vicinity Workstation Clamps
+made from 100% recycled PET", "Group 1 fire rating compliant with AS ISO 9705
+- 2003 and AS 5637.1", "Pinnable, durable, moisture-resistant, and will not
+warp, slump, or fray", "Safe, non-toxic, non-allergenic, and free of chemical
+binders or formaldehyde", "Certified Carbon Neutral product with third-party
+verified EPD and Declare Red List Free", "Available across the full Autex Cube
+colour palette and custom printed finishes" ], "applications": [ "internal wall"
+], "technical": [ { "property": "Acoustic Absorption (Sol 600mm)", "value":
+"0.30 Sabins per unit
+(125Hz: 0.10, 250Hz: 0.20, 500Hz: 0.25, 1000Hz: 0.35, 2000Hz: 0.40, 4000Hz: 0.45)",
+"standard": "ISO 354" }, { "property": "Thickness", "value": "12 mm (+/- 6%)
+| 24 mm (+/- 6%)", "standard": "" }, { "property": "Dimensions (Sol)", "value":
+"600 mm width (standard) or custom widths from 600 mm to 1800 mm; height
+typically 400 mm to 600 mm above desk", "standard": "" }, { "property":
+"Material Composition", "value": "100% polyester fibre (PET)", "standard": "" },
+{ "property": "Recycled Content", "value": "Minimum 80% post-consumer recycled
+PET", "standard": "" }, { "property": "Fire Rating (Australia)", "value":
+"Group 1, SMOGRArc < 100 m2/s2", "standard": "AS ISO 9705 - 2003 /
+AS 5637.1:2015" }, { "property": "International Fire Rating", "value":
+"Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a: FS:0 - SD:45); B - s2, d0
+(BS EN 13501-1:2018)", "standard": "ISO 9705 / ASTM E-84 / BS EN 13501-1" }, {
+"property": "Water Vapour Sorption", "value": "0.4% by weight after 4 days
+at 49°C, 95% RH", "standard": "ASTM C1104 / C1104M-13a" }, { "property":
+"Microbial Resistance", "value": "Growth rating: 0 (No growth)", "standard":
+"ASTM G21-15" }, { "property": "VOC Emissions", "value": "< 0.092 mg/m3 (7
+days)", "standard": "CDPH Standard Method v1.2" } ], "range": [ { "variant":
+"Vicinity Desk Screen Sol 12mm", "size_or_rating": "600 mm x 450-600 mm x 12
+mm", "pack": "Screen (single or boxed set)" }, { "variant": "Vicinity Desk
+Screen Sol 24mm", "size_or_rating": "600 mm x 450-600 mm x 24 mm", "pack":
+"Screen (single or boxed set)" } ], "fire": "AS ISO 9705 - 2003 and AS 5637.1
+Classification: Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM
+E-84-15a Class A (FS:0, SD:45); BS EN 13501-1:2018 B - s2, d0", "compliance":
+"NCC Specification 7 (BCA C1.10) Group 1 fire compliance; AS ISO 9705:2003;
+AS 5637.1:2015; ISO 354", "sustainability": "Minimum 80% recycled post-consumer
+PET; clamps made from 100% recycled PET; certified Carbon Neutral; Declare Red
+List Free; EPD compliant", "install": [ "Verify desktop thickness is compatible
+with the clamp jaws", "Position Vicinity Workstation Clamps along the desk edge
+at designated centres", "Tighten clamp screws beneath the desk to anchor clamps
+firmly in position", "Slide the curved Sol acoustic panel into the clamp
+receiver slots", "Check that the screen is seated fully down and sits plumb",
+"Tighten the screen retaining screws to lock the Sol screen firmly in place" ],
+"selection_checklist": [ "Confirm desk top thickness and edge chamfer for clamp
+fitment", "Select screen thickness (12mm or 24mm)", "Confirm curved Sol profile
+meets interior design aesthetic", "Choose colourway from Autex Cube palette",
+"Specify clamp mounting style (Desk Mount, Front Mount, or Top Mount)" ],
+"accessories": [ "Vicinity Workstation Clamps", "Hex key / installation
+hardware" ], "limitations": [ "Designed for interior desk mounting only; not
+suitable for exterior use", "Curved profile has lower total surface area
+compared to full rectangular screens", "Cannot support mounted accessories or
+heavy equipment" ], "warranty": "10 Year Manufacturer's Guarantee", "found":
+true, "search_keywords": [ "Autex Vicinity Sol", "Vicinity desk screen Sol",
+"curved acoustic desk screen", "arched desk divider", "Autex curved workstation
+screen", "pinnable acoustic divider", "Vicinity Sol screen", "Cube curved desk
+screen", "acoustic desk baffle Sol" ], "problem_keywords": [ "open plan office
+conversational distraction", "stark angular office furniture", "lack of acoustic
+separation between desks", "office telephone noise", "need curved acoustic
+screen for desk", "reverberation at workstation" ], "placement": [ "internal
+wall" ], "priority_fit": [ "acoustic", "fire", "sustainability", "easy_install"
+], "use_cases": [ "Providing acoustic speech absorption and curved design
+accents between hot desks in co-working spaces", "Desk-mounted privacy dividers
+in corporate call centres and collaborative office pods", "Visual and acoustic
+partitioning on agile sit-to-stand workstations" ], "not_for": [ "Building
+envelope ceiling or wall insulation batts", "Floor impact noise isolation",
+"Outdoor weather-exposed areas" ], "rag_summary": "Autex Vicinity - Desk Screen
+- Sol is an organic curved acoustic desk partition crafted from 12mm or 24mm
+Cube semi-rigid polyester felt containing at least 80% recycled PET.
+Characterized by its arched Sol silhouette, it mounts non-destructively to desks
+using 100% recycled PET Vicinity clamps to absorb voice frequencies (0.30 Sabins
+per 600mm unit) and provide visual privacy. Certified Group 1 fire rated under
+AS ISO 9705 and carbon neutral, it softens open-plan office acoustics while
+introducing fluid, contemporary geometry to workstations." }, { "family_id":
+"AUTEX_WILLIE_WESTON_EMMA_HAYES_CUBE", "tds_url":
+"https://www.autexglobal.com/au/products/cube/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Willie Weston / Emma Hayes Cube combines high-performance Cube acoustic
+panels with curated digital artwork from Australian First Nations artists
+(Willie Weston) and New Zealand landscape designs (Emma Hayes). Manufactured
+from 100% polyester fibre, the semi-rigid 12mm or 24mm Cube panels are digitally
+printed using safe, water-based, UV-cured ink that does not compromise sound
+absorption. Delivering an NRC of 0.45 to 0.70 (and up to 0.80 with an air gap),
+this collection unites cultural storytelling and tranquil natural motifs with
+certified Group 1 fire safety.", "features": [ "Features curated First Nations
+artwork (Willie Weston) and tranquil landscape patterns (Emma Hayes)",
+"High-definition digital printing using safe, water-based UV-cured ink",
+"Engineered on semi-rigid 100% polyester Cube acoustic panels", "Acoustic
+performance rating of NRC 0.45 (12mm) to 0.70 (24mm), and up to 0.80 with an air
+gap", "Constructed with a minimum of 80% post-consumer recycled PET", "Group 1
+fire rating compliant with AS ISO 9705 - 2003 and AS 5637.1", "Provides ongoing
+royalty income to First Nations artists and art centres for every panel sold",
+"Certified Carbon Neutral product with third-party verified EPD and Declare Red
+List Free", "Safe, non-toxic, non-allergenic, non-irritant, and low-VOC",
+"Compatible with Direct-fix, SpinFix, and Peel and Stick installation methods"
+], "applications": [ "wall", "internal wall", "ceiling" ], "technical": [ {
+"property": "Noise Reduction Coefficient (NRC)", "value": "12mm: 0.45 (direct
+fix), 0.70 (with 24mm air gap); 24mm: 0.70 (direct fix), 0.80 (with 24mm air
+gap)", "standard": "ISO 354" }, { "property": "Sound Absorption Class", "value":
+"Class D (direct fix); Class C (with 24mm air gap)", "standard": "ISO 11654" },
+{ "property": "Panel Dimensions", "value": "1220 mm x 2440 mm; 1220 mm x 2740
+mm; custom lengths up to 3000 mm / 3600 mm", "standard": "" }, { "property":
+"Thickness", "value": "12 mm (+/- 6%); 24 mm (+/- 6%)", "standard": "" }, {
+"property": "Material Composition", "value": "100% polyester fibre (PET) printed
+with UV-curable ink", "standard": "" }, { "property": "Recycled Content",
+"value": "Minimum 80% post-consumer recycled PET", "standard": "" }, {
+"property": "Fire Rating (Australia)", "value": "Group 1, SMOGRArc < 100 m2/s2",
+"standard": "AS ISO 9705 - 2003 / AS 5637.1:2015" }, { "property":
+"International Fire Rating", "value": "Group 1-S (ISO 9705:1993); Class A (ASTM
+E-84-15a: FS:0 - SD:45); 12mm B - s2, d0; 24mm B - s2, d2 (BS EN 13501-1:2018)",
+"standard": "ISO 9705 / ASTM E-84 / BS EN 13501-1" }, { "property": "Water
+Vapour Sorption", "value": "0.4% by weight after 4 days at 49°C, 95% RH",
+"standard": "ASTM C1104 / C1104M-13a" }, { "property": "Microbial Resistance",
+"value": "Growth rating: 0 (No growth)", "standard": "ASTM G21-15" }, {
+"property": "VOC Emissions", "value": "< 0.092 mg/m3 (7 days)", "standard":
+"CDPH Standard Method v1.2" } ], "range": [ { "variant": "Willie Weston / Emma
+Hayes Cube 12mm", "size_or_rating": "1220 mm x 2440 mm x 12 mm, NRC 0.45",
+"pack": "Panel" }, { "variant": "Willie Weston / Emma Hayes Cube 24mm",
+"size_or_rating": "1220 mm x 2440 mm x 24 mm, NRC 0.70", "pack": "Panel" }, {
+"variant": "Willie Weston / Emma Hayes Cube 2740mm", "size_or_rating": "1220 mm
+x 2740 mm x 12mm / 24mm", "pack": "Panel" } ], "fire": "AS ISO 9705 - 2003 and
+AS 5637.1 Classification: Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993
+Group 1-S; ASTM E-84-15a Class A; BS EN 13501-1:2018 B - s2, d0 (12mm) / B - s2,
+d2 (24mm)", "compliance": "NCC Specification 7 (BCA C1.10) Group 1 fire
+compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354; Indigenous Art Code
+partner", "sustainability": "Provides fair ongoing income to First Nations
+artists; carbon neutral product; min 80% recycled PET; Declare Red List Free;
+EPD verified; low VOC", "install": [ "Confirm substrate is plumb, flat, clean,
+dry, and dust-free", "Acclimatise printed panels in the installation environment
+for at least 24 hours", "Inspect panel pattern repeat and ensure sequence
+alignment across adjacent panels", "Handle panels with clean hands or white
+gloves to prevent marks on the printed artwork", "For adhesive direct fix, apply
+recommended high-grab MS polymer adhesive evenly across panel backing",
+"Alternatively, mount using Autex SpinFix clips or Peel and Stick backing",
+"Butt panel edges tightly together and apply firm, uniform roller pressure
+across the entire face", "Trim perimeter panels carefully from the face using a
+straight edge and sharp utility knife on the offcut side" ],
+"selection_checklist": [ "Select curated design from Willie Weston (First
+Nations art) or Emma Hayes (NZ landscapes)", "Select thickness (12mm for
+NRC 0.45-0.70 or 24mm for NRC 0.70-0.80)", "Confirm panel dimensions
+(1220x2440mm or 1220x2740mm)", "Verify pattern repeat and sequential numbering
+for multi-panel wall murals", "Specify mounting system (adhesive direct-fix,
+SpinFix, or Peel and Stick)" ], "accessories": [ "Autex SpinFix mounting clips",
+"Peel and Stick backing", "High-grab MS polymer adhesive", "Straight edge and
+utility knife" ], "limitations": [ "Indoor use only; avoid wet areas or direct
+exposure to running water", "Printed decorative surface can be scuffed by heavy
+mechanical abrasion; install in low-to-medium contact zones", "Panel layout must
+follow manufacturer pattern guide to maintain artwork alignment" ], "warranty":
+"10 Year Manufacturer's Guarantee", "found": true, "search_keywords": [ "Autex
+Willie Weston Cube", "Autex Emma Hayes Cube", "Willie Weston acoustic panels",
+"Emma Hayes acoustic panels", "First Nations acoustic panel", "printed Cube
+acoustic panel", "Indigenous art acoustic panel", "decorative acoustic felt
+panel", "Cube printed wall panel" ], "problem_keywords": [ "plain commercial
+acoustic walls", "cultural representation in government buildings", "echo in
+corporate boardroom", "distracting office noise with decorative art",
+"reverberant school library", "need Group 1 fire rated artwork" ], "placement":
+[ "wall", "internal wall", "ceiling" ], "priority_fit": [ "acoustic", "fire",
+"sustainability", "easy_install" ], "use_cases": [ "Installing First Nations
+acoustic wall art in corporate reception foyers and public government
+buildings", "Creating serene, tranquil acoustic feature walls in healthcare
+consult rooms and wellness clinics", "High-performance acoustic art panels in
+educational libraries and university meeting spaces" ], "not_for": [ "Flooring
+or subfloor traffic surfaces", "Exterior facade cladding", "Wet areas with
+direct water splashing" ], "rag_summary": "Autex Willie Weston / Emma Hayes Cube
+combines 12mm or 24mm semi-rigid Cube polyester acoustic panels with
+high-resolution digital UV prints of Australian First Nations art (Willie
+Weston) and New Zealand landscape designs (Emma Hayes). Delivering sound
+absorption from NRC 0.45 to 0.70 (and up to 0.80 with an air gap), the panels
+use safe water-based inks that do not reduce acoustic efficiency. Certified
+Group 1 fire rated under AS ISO 9705, carbon neutral, and containing over 80%
+recycled PET, this collection brings cultural storytelling and sound control to
+commercial, educational, and civic interiors." }, { "family_id":
+"AUTEX_WILLIE_WESTON_EMMA_HAYES_QUIETSPACE", "tds_url":
+"https://www.autexglobal.com/au/products/quietspace-panel/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Willie Weston / Emma Hayes Quietspace is a premium broadband acoustic
+wall panel engineered with dual-density polyester construction and overlaid with
+high-definition digital artwork from First Nations artists (Willie Weston) or
+serene landscape designs (Emma Hayes). Built on a 25mm thick Quietspace Panel
+base with an impact-resistant face and cushioned backing, it absorbs 85% of
+sound energy (NRC 0.85). Digitally printed with water-based UV-cured ink, it
+provides museum-grade cultural aesthetics with class-leading acoustic absorption
+and Group 1 fire safety.", "features": [ "Class-leading sound absorption
+absorbing 85% of incident sound energy (NRC 0.85)", "Overlaid with curated First
+Nations art (Willie Weston) or organic landscape designs (Emma Hayes)",
+"Engineered on a 25mm dual-density 100% polyester Quietspace Panel core",
+"High-resolution digital printing with safe, water-based UV-cured ink", "Group 1
+fire rating compliant with AS ISO 9705 - 2003 and AS 5637.1", "Provides fair,
+ongoing royalty returns to First Nations artists and communities", "Constructed
+with a minimum of 58% post-consumer recycled PET", "Non-toxic, non-allergenic,
+non-irritant, and free from formaldehyde or chemical binders", "Certified Carbon
+Neutral product with third-party verified EPD and Declare Red List Free",
+"Lightweight and easy to install directly to walls or ceilings" ],
+"applications": [ "wall", "internal wall", "ceiling" ], "technical": [ {
+"property": "Noise Reduction Coefficient (NRC)", "value": "0.85 (25mm direct
+fix)", "standard": "ISO 354" }, { "property": "Sound Absorption Class", "value":
+"Class C (25mm)", "standard": "ISO 11654" }, { "property": "Sound Absorption
+Coefficients (Octave Bands)", "value":
+"125Hz: 0.15, 250Hz: 0.45, 500Hz: 0.85, 1000Hz: 1.00, 2000Hz: 1.00, 4000Hz: 0.95",
+"standard": "ISO 354" }, { "property": "Panel Dimensions", "value": "1200 mm
+x 2400 mm; 1200 mm x 2700 mm; 1200 mm x 3000 mm (tolerance +/- 1 mm)",
+"standard": "" }, { "property": "Thickness", "value": "25 mm (+/- 6%)",
+"standard": "" }, { "property": "Weight", "value": "2300 gsm", "standard": "" },
+{ "property": "Material Composition", "value": "100% polyester fibre (PET)
+printed with UV-curable ink", "standard": "" }, { "property": "Recycled
+Content", "value": "Minimum 58% post-consumer recycled PET", "standard": "" }, {
+"property": "Thermal Resistance", "value": "R0.6 (@ 15°C)", "standard": "" }, {
+"property": "Fire Rating (Australia)", "value": "Group 1, SMOGRArc < 100 m2/s2",
+"standard": "AS ISO 9705 - 2003 / AS 5637.1" }, { "property": "International
+Fire Rating", "value": "Group 1-S (ISO 9705:1993); Class A (ASTM E-84); B - s2,
+d0 (BS EN 13501-1:2018)", "standard": "ISO 9705 / ASTM E-84 / BS EN 13501-1" },
+{ "property": "Microbial Resistance", "value": "Growth rating: 0 (No growth)",
+"standard": "ASTM G21-15" }, { "property": "VOC Emissions", "value": "< 0.019
+mg/m3 (24 hours)", "standard": "CDPH Standard Method v1.2" } ], "range": [ {
+"variant": "Willie Weston / Emma Hayes Quietspace 25mm (2400x1200)",
+"size_or_rating": "1200 mm x 2400 mm x 25 mm, NRC 0.85", "pack": "Panel" }, {
+"variant": "Willie Weston / Emma Hayes Quietspace 25mm (2700x1200)",
+"size_or_rating": "1200 mm x 2700 mm x 25 mm, NRC 0.85", "pack": "Panel" }, {
+"variant": "Willie Weston / Emma Hayes Quietspace 25mm (3000x1200)",
+"size_or_rating": "1200 mm x 3000 mm x 25 mm, NRC 0.85", "pack": "Panel" } ],
+"fire": "AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1 (SMOGRArc
+< 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM E-84 Class A; BS EN 13501-1:2018 B -
+s2, d0", "compliance": "NCC Specification 7 (BCA C1.10) Group 1 fire compliance;
+AS ISO 9705:2003; AS 5637.1:2015; ISO 354", "sustainability": "Royalty-sharing
+model supporting First Nations artists; carbon neutral product; min 58% recycled
+PET; Declare Red List Free; EPD verified; low VOC", "install": [ "Inspect wall
+or ceiling substrate ensuring it is flat, clean, dry, and dust-free",
+"Acclimatise panels in the installation environment for at least 24 hours prior
+to fitting", "Confirm image numbering and pattern alignment across the
+multi-panel layout diagram", "Handle panels with clean hands or white gloves to
+protect the printed artwork surface", "Apply recommended contact adhesive or
+high-grab MS polymer adhesive evenly across the panel backing", "Mount panel
+squarely to the substrate and apply firm, even roller pressure across the face",
+"Ensure adjacent panels are tightly butted to maintain continuous artistic
+visuals", "Trim edges squarely from the face using a sharp knife on the offcut
+side where required" ], "selection_checklist": [ "Select artwork design from
+Willie Weston (First Nations) or Emma Hayes (NZ landscapes)", "Confirm 25mm
+Quietspace core for maximum sound absorption (NRC 0.85)", "Confirm panel height
+(2400mm, 2700mm, or 3000mm) x 1200mm width", "Verify multi-panel mural sequence
+and wall dimensions", "Specify suitable adhesive and edge profile trims (Type C
+profiles) if desired" ], "accessories": [ "Autex Edging Solutions (Type C
+aluminium profiles for 25mm)", "High-grab MS polymer or contact adhesive",
+"Pressure roller" ], "limitations": [ "Indoor use only; avoid wet areas or
+direct water exposure", "Printed decorative face can show marks under heavy
+friction; avoid high-impact sporting zones", "Do not bend or fold panels as this
+will crack the high-density compressed face" ], "warranty": "10 Year
+Manufacturer's Guarantee", "found": true, "search_keywords": [ "Autex Willie
+Weston Quietspace", "Autex Emma Hayes Quietspace", "Willie Weston acoustic
+panel 25mm", "First Nations Quietspace panel", "Emma Hayes Quietspace",
+"NRC 0.85 printed acoustic panel", "Indigenous art sound absorbing panel",
+"decorative Quietspace panel" ], "problem_keywords": [ "severe echo in boardroom
+needing art", "reverberation in government atrium", "noisy conference room",
+"need cultural First Nations artwork with acoustics", "sound reflection in
+high-end reception", "meeting Group 1 fire rating with wall murals" ],
+"placement": [ "wall", "internal wall", "ceiling" ], "priority_fit": [
+"acoustic", "fire", "sustainability", "easy_install" ], "use_cases": [
+"High-performance acoustic murals in corporate boardrooms and executive suites
+displaying First Nations art", "Taming reverberation in university lecture
+halls, cultural centres, and civic buildings", "Acoustic feature art walls in
+healthcare lobbies, wellness suites, and airport lounges" ], "not_for": [
+"Floors or underfloor acoustic decoupling", "Exterior building facades", "Direct
+unshielded exposure to sports ball impacts" ], "rag_summary": "Autex Willie
+Weston / Emma Hayes Quietspace merges the class-leading sound absorption of 25mm
+dual-density Quietspace Panel (NRC 0.85) with curated digital UV printing of
+Australian First Nations art (Willie Weston) and New Zealand landscapes (Emma
+Hayes). Using safe water-based inks directly on the compressed polyester face,
+it eliminates room reverberation while functioning as a large-format cultural
+art piece. Certified Group 1 fire rated under AS ISO 9705, carbon neutral, and
+made with over 58% recycled PET, it offers an architecturally stunning,
+high-performance acoustic wall finish." }, { "family_id":
+"BRADFORD_ACOUSTIGARD", "tds_url":
+"https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/walls/acoustigard",
+"sds_url": "https://www.bradfordinsulation.com.au/resources/safety-data-sheets",
+"description": "Bradford Acoustigard is a premium, Australian-made
+non-combustible glasswool insulation available in partition batts and rolls,
+specifically engineered to deliver high-performance acoustic control in internal
+partition walls. Manufactured from molten glass containing up to 65% recycled
+content using biosoluble FBS-1 formulation, it provides sound transmission loss
+and cavity absorption in commercial steel stud and timber wall assemblies. It is
+non-combustible, low-allergen, and sized to fit standard 64mm and 92mm steel
+stud walls without causing plasterboard bulge.", "features": [ "Non-combustible
+bulk insulation complying with AS 1530.1", "High acoustic performance helping
+achieve Rw/STC ratings of 42 to 60+ in partition walls", "Available in partition
+rolls and pre-cut batts sized for 450mm and 600mm commercial stud centres",
+"Manufactured from up to 65% recycled glass content", "Friction-fit dimensions
+designed to fit 64mm and 92mm steel studs without bulging wall linings", "FBS-1
+bio-soluble glasswool formulation assessed as non-hazardous", "Zero Ozone
+Depleting Potential (ODP) and non-toxic with low VOC emissions", "Early Fire
+Hazard indices of 0/0/0/1 to AS/NZS 1530.3", "Maximum service temperature up
+to 150°C (batts) and 300°C (rolls)", "Thermal performance ratings from R1.3 to
+R2.7 in accordance with AS/NZS 4859.1" ], "applications": [ "wall", "internal
+wall", "external wall", "between floors" ], "technical": [ { "property":
+"Material R-values", "value": "R1.3 (50mm), R1.5 (50mm), R1.7 (75mm), R1.8
+(75mm), R2.0 (90mm), R2.5 (90mm), R2.7 (90mm)", "standard": "AS/NZS 4859.1" }, {
+"property": "Nominal Densities", "value": "11 kg/m3, 14 kg/m3, 24 kg/m3, 32
+kg/m3", "standard": "" }, { "property": "Thicknesses", "value": "50 mm, 75
+mm, 90 mm", "standard": "" }, { "property": "Dimensions (Batts)", "value": "1200
+mm x 450 mm; 1200 mm x 600 mm", "standard": "" }, { "property": "Dimensions
+(Rolls)", "value": "13.5 m x 450 mm; 13.5 m x 600 mm; 5.4 m x 450 mm; 5.4 m
+x 600 mm", "standard": "" }, { "property": "Combustibility", "value":
+"Non-Combustible", "standard": "AS 1530.1" }, { "property": "Fire Hazard
+Properties (AS/NZS 1530.3)", "value": "Ignitability: 0, Spread of Flame: 0, Heat
+Evolved: 0, Smoke Developed: 1", "standard": "AS/NZS 1530.3" }, { "property":
+"Maximum Service Temperature", "value": "150°C (Batts); 300°C (Rolls)",
+"standard": "" }, { "property": "Acoustic Performance (NRC)", "value": "0.80
+- 1.05 depending on thickness and density", "standard": "AS ISO 354" }, {
+"property": "Corrosion Resistance", "value": "Non-corrosive, pH neutral",
+"standard": "AS/NZS 4859.1" }, { "property": "Biosolubility", "value": "FBS-1
+bio-soluble formulation (Note Q compliant)", "standard": "Safe Work Australia" }
+], "range": [ { "variant": "Acoustigard 11kg/m3 (75mm R1.7)", "size_or_rating":
+"75mm x 450/600mm x 1200mm (Batts) or 13.5m (Rolls)", "pack": "Pack" }, {
+"variant": "Acoustigard 14kg/m3 (75mm R1.8)", "size_or_rating": "75mm
+x 450/600mm x 1200mm (Batts) or 13.5m (Rolls)", "pack": "Pack" }, { "variant":
+"Acoustigard 24kg/m3 (50mm R1.5)", "size_or_rating": "50mm x 450/600mm x 1200mm
+(Batts) or 10.0m (Rolls)", "pack": "Pack" }, { "variant": "Acoustigard 32kg/m3
+(90mm R2.7)", "size_or_rating": "90mm x 450/600mm x 1200mm (Batts) or 5.4m
+(Rolls)", "pack": "Pack" } ], "fire": "Non-Combustible to AS 1530.1;
+AS/NZS 1530.3: Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke
+Developed: 1", "compliance": "AS/NZS 4859.1:2018; AS 1530.1; AS/NZS 1530.3;
+NCC 2022 Volume 1 J4D3 and Specification 7 (Fire); Deemed non-combustible",
+"sustainability": "Contains up to 65% recycled glass; FBS-1 bio-soluble
+formulation; low VOC; zero ODP; non-hazardous", "install": [ "Confirm framing
+stud spacing (450mm or 600mm centres) and cavity depth", "Ensure electrical
+wiring and plumbing penetrations are roughed in prior to insulation",
+"Friction-fit Acoustigard batts or unroll partition rolls vertically between
+studs", "Ensure the insulation fills the stud cavity snugly without gaps, voids,
+or excessive compression", "Cut neatly around electrical junction boxes,
+nogging, and service penetrations using an insulation knife", "Fix plasterboard
+linings directly over studs, ensuring insulation remains in place without
+bulging linings" ], "selection_checklist": [ "Confirm stud depth
+(64mm, 75mm, 92mm) and spacing (450mm or 600mm centres)", "Confirm acoustic
+engineer specification (density 11kg, 14kg, 24kg, or 32kg/m3 and required Rw
+rating)", "Choose between pre-cut batts (faster handling) or continuous rolls
+(longer continuous drops)", "Verify non-combustibility requirement under NCC for
+commercial wall assemblies", "Check thermal R-value requirement if wall
+separates conditioned and unconditioned spaces" ], "accessories": [ "Serrated
+insulation knife", "Personal protective equipment (gloves, dust mask, safety
+glasses)" ], "limitations": [ "Not designed for direct weather-exposed external
+applications without waterproof building wrap", "Do not over-compress into studs
+narrower than the nominal insulation thickness", "Not suitable for continuous
+operating temperatures exceeding 150°C (batts) or 300°C (rolls)" ], "warranty":
+"CSR Bradford Standard Product Warranty", "found": true, "search_keywords": [
+"Bradford Acoustigard", "Acoustigard partition batts", "Acoustigard partition
+rolls", "commercial wall insulation", "steel stud acoustic insulation", "non
+combustible partition insulation", "glasswool partition batts", "Bradford
+acoustic batts", "Acoustigard 14kg", "Acoustigard 32kg" ], "problem_keywords": [
+"sound transmission through office walls", "noisy commercial partition",
+"inter-tenancy noise transfer", "meeting room privacy", "non-combustible wall
+insulation requirement", "meeting BCA acoustic wall codes" ], "placement": [
+"wall", "internal wall", "external wall", "between floors" ], "priority_fit": [
+"acoustic", "fire", "thermal", "easy_install" ], "use_cases": [
+"Friction-fitting into 64mm and 92mm steel stud drywall partitions in commercial
+office fitouts to achieve Rw 45 to Rw 55+", "Acoustic and thermal infill in
+multi-residential intertenancy party walls", "Sound-dampening insulation inside
+healthcare consulting rooms, hotel guestroom partitions, and cinema acoustic
+walls" ], "not_for": [ "Flooring underlay under tiles or timber", "Exposed
+decorative wall linings", "External roofing without waterproof membrane" ],
+"rag_summary": "Bradford Acoustigard is a non-combustible bio-soluble glasswool
+insulation supplied in pre-cut batts and rolls, specifically formulated for
+acoustic control in commercial steel stud and timber drywall partitions.
+Available in densities from 11 kg/m3 to 32 kg/m3 and thicknesses of 50mm, 75mm,
+and 90mm (R1.3 to R2.7), it provides high sound transmission loss (Rw 42 to 60+)
+and cavity absorption. Manufactured in Australia with up to 65% recycled glass
+and certified non-combustible to AS 1530.1, it fits standard 64mm and 92mm studs
+snugly without bulging plasterboard linings." }, { "family_id":
+"BRADFORD_ANTICON_BLANKET", "tds_url":
+"https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/roofing/anticon",
+"sds_url": "https://www.bradfordinsulation.com.au/resources/safety-data-sheets",
+"description": "Bradford Anticon Roofing Blanket is a premium Australian-made
+glasswool insulation blanket factory-bonded to a reflective foil laminate
+facing. Engineered specifically for residential and commercial metal roofs, it
+combines thermal insulation, acoustic damping of heavy rain noise, and effective
+condensation control in a single under-roof layer. It incorporates a 150mm foil
+overlap edge to ensure a continuous vapour barrier, mitigating condensation
+damage while offering bushfire ember protection up to BAL-FZ.", "features": [
+"3-in-1 solution: thermal insulation, acoustic rain noise damping, and
+condensation control", "Factory-bonded reflective foil laminate with a 150mm
+overlap to seal vapor joints", "Reduces heavy rain impact noise by up to 7 dB
+(over 75% sound power reduction)", "Non-combustible glasswool core compliant
+with AS 1530.1", "Suitable for bushfire attack levels from BAL 12.5 to BAL FZ
+under AS 3959", "Reduces radiant heat transfer into the roof space by up
+to 97%", "FBS-1 bio-soluble glasswool formulation approved by National Asthma
+Council's Sensitive Choice", "Available in thicknesses from 60mm to 145mm (R1.3
+to R3.6)", "Offered in Light Duty (LD), Medium Duty (MD), and Heavy Duty (HD)
+foil grades", "Australian made from up to 65% recycled glass" ], "applications":
+[ "roof", "roofline", "ceiling", "shed" ], "technical": [ { "property":
+"Material R-values", "value": "Anticon 60: R1.3 (60mm); Anticon 80: R1.8 (80mm);
+Anticon 100: R2.3 (100mm); Anticon 110: R2.5 (110mm); Anticon 125: R2.8 (125mm);
+Anticon 130: R3.0 (130mm); Anticon 145: R3.6 (145mm)", "standard":
+"AS/NZS 4859.1:2018" }, { "property": "Blanket Width", "value": "1200 mm
+(plus 150 mm foil overlap extension)", "standard": "" }, { "property": "Roll
+Lengths", "value": "10 m, 12 m, 15 m, 20 m (custom lengths available for
+commercial projects)", "standard": "" }, { "property": "Foil Facings Available",
+"value": "Light Duty (LD), Medium Duty (MD), Heavy Duty (HD), Antiglare",
+"standard": "AS/NZS 4200.1" }, { "property": "Combustibility (Glasswool core)",
+"value": "Non-Combustible", "standard": "AS 1530.1" }, { "property": "Fire
+Hazard Properties", "value": "Ignitability: 0, Spread of Flame: 0, Heat
+Evolved: 0, Smoke Developed: 0-1", "standard": "AS/NZS 1530.3" }, { "property":
+"Bushfire Rating", "value": "BAL 12.5 - BAL FZ compliant", "standard": "AS 3959"
+}, { "property": "Rain Noise Reduction", "value": "Damps rain sound power level
+by over 7% (up to 7 dB reduction)", "standard": "" }, { "property": "Reflective
+Emittance (Foil)", "value": "0.05 (reflective face); 0.90 (antiglare face)",
+"standard": "AS/NZS 4201.5" }, { "property": "Vapour Control Classification",
+"value": "Class 2 Vapour Barrier", "standard": "AS/NZS 4200.1" } ], "range": [ {
+"variant": "Anticon 60 (R1.3)", "size_or_rating": "60 mm x 1200 mm x 15-20 m
+(LD, MD, HD)", "pack": "Roll" }, { "variant": "Anticon 80 (R1.8)",
+"size_or_rating": "80 mm x 1200 mm x 15 m (LD, MD, HD)", "pack": "Roll" }, {
+"variant": "Anticon 100 (R2.3)", "size_or_rating": "100 mm x 1200 mm x 10 m (MD,
+HD)", "pack": "Roll" }, { "variant": "Anticon 130 (R3.0)", "size_or_rating":
+"130 mm x 1200 mm x 10 m (HD)", "pack": "Roll" }, { "variant": "Anticon 145
+(R3.6)", "size_or_rating": "145 mm x 1200 mm x 10 m (HD)", "pack": "Roll" } ],
+"fire": "Glasswool base non-combustible to AS 1530.1; AS/NZS 1530.3:
+Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1;
+BAL 12.5 to BAL FZ to AS 3959", "compliance": "AS/NZS 4859.1:2018;
+AS/NZS 4200.1; AS 3959; NCC 2022 Volume 1 & 2 Energy Efficiency, Condensation,
+and Fire Provisions", "sustainability": "Manufactured from up to 65% recycled
+glass; FBS-1 bio-soluble formulation; zero ODP; Sensitive Choice approved",
+"install": [ "Install roof safety wire mesh over purlins if required for
+commercial spans or fall safety", "Roll out Bradford Anticon blanket across or
+down rafters/purlins with the foil facing down into the building and the
+glasswool facing up", "Allow a slight sag (approx 25-40mm) between supports to
+avoid crushing the blanket against roof sheeting", "Overlap consecutive runs of
+Anticon by 150mm using the factory-provided foil overlap edge", "Seal all
+longitudinal and end overlaps thoroughly with matching reinforced aluminium foil
+tape to maintain vapor barrier integrity", "For roofs requiring roof spacers
+(such as Ashgrid or SpacerX), install brackets and spacer bars over the
+blanket", "Fix metal roofing sheets directly over the blanket or spacer bars
+without over-compressing the blanket over purlins" ], "selection_checklist": [
+"Confirm roof type (residential custom orb, trimdeck, or standing seam metal
+roof)", "Determine required total system R-value under NCC climate zone
+requirements", "Select foil duty (Light Duty for residential mesh/close battens,
+Medium Duty for residential, Heavy Duty for commercial)", "Confirm bushfire BAL
+rating requirements (BAL 12.5 to BAL FZ)", "Ensure matching 493 reinforced foil
+tape is ordered for sealing overlaps" ], "accessories": [ "Bradford 493
+Reinforced Aluminium Foil Tape", "Roof safety mesh", "Ashgrid / SpacerX roof
+spacer system" ], "limitations": [ "Must be installed dry; do not install during
+rain or leave exposed to weather before cladding", "Foil must face downward
+toward the ceiling/attic cavity to function as a vapor barrier and control
+condensation", "Avoid over-compressing blanket directly under roof sheets unless
+using roof spacer systems" ], "warranty": "CSR Bradford Standard Product
+Warranty", "found": true, "search_keywords": [ "Bradford Anticon", "Anticon
+roofing blanket", "Anticon 60", "Anticon 80", "Anticon 100", "metal roof
+blanket", "foil backed roofing blanket", "rain noise insulation", "under tin
+roof insulation", "Anticon foil blanket", "roof condensation blanket" ],
+"problem_keywords": [ "condensation dripping from metal roof", "drumming rain
+noise on corrugated iron", "hot attic under metal deck", "cold metal roof
+condensation", "bushfire ember entry under metal ridge", "sweating tin roof in
+winter" ], "placement": [ "roof", "roofline", "ceiling", "shed" ],
+"priority_fit": [ "thermal", "condensation", "acoustic", "fire" ], "use_cases":
+[ "Installing directly beneath residential corrugated metal roofing to prevent
+winter condensation and silence rain noise", "Under-roof insulation in
+commercial warehouses, school gyms, and industrial metal buildings", "Bushfire
+zone metal roof installations requiring BAL-12.5 to BAL-FZ compliant ember
+sealing" ], "not_for": [ "Tiled roofs without metal sheeting", "Internal wall
+partitions without bulk batts", "Flooring or underfoot applications" ],
+"rag_summary": "Bradford Anticon Blanket is an Australian-made glasswool roofing
+blanket factory-laminated to a reflective foil vapour-barrier backing with
+a 150mm overlap edge. Designed for residential and commercial metal roofs, it
+provides an all-in-one solution for thermal control (R1.3 to R3.6), rain impact
+sound damping (reducing rain noise by up to 7 dB), and condensation management.
+Featuring a non-combustible glasswool core (AS 1530.1) and suitability for
+bushfire zones up to BAL-FZ, it protects roof timbers and ceilings from
+moisture, heat, and flame." }, { "family_id":
+"BRADFORD_ANTICON_ROOFING_BLANKET_HEAVY_DUTY_FOIL", "tds_url":
+"https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/roofing/anticon",
+"sds_url": "https://www.bradfordinsulation.com.au/resources/safety-data-sheets",
+"description": "Bradford Anticon Roofing Blanket - Heavy Duty Foil is a premium
+glasswool roofing blanket factory-bonded to an Extra Heavy Duty reflective foil
+laminate facing. Specifically engineered for commercial metal roofs and
+residential projects with wider purlin or batten spacings (up to 1200mm centres
+without mesh), the Heavy Duty foil provides superior tensile strength, tear
+resistance, and puncture durability. It prevents underside condensation,
+significantly reduces rain drumming noise, and complies with bushfire attack
+levels up to BAL-FZ.", "features": [ "Faced with Extra Heavy Duty reflective
+foil laminate for maximum tensile and tear strength", "Engineered for wider
+purlin spacings up to 1200mm without sagging or tearing", "Factory-bonded with
+a 150mm foil overlap edge for sealed, continuous vapour barriers",
+"Non-combustible glasswool core conforming to AS 1530.1", "Bushfire ember
+protection certified from BAL 12.5 to BAL FZ under AS 3959", "Damps heavy rain
+noise by up to 7 dB to deliver quieter building interiors", "Reflects up to 97%
+of radiant heat entering through metal roofing", "Manufactured from up to 65%
+recycled glass with FBS-1 bio-soluble formulation", "Available in thicknesses
+from 60mm to 145mm (R1.3 to R3.6)", "Resistant to moisture penetration and
+condensation formation" ], "applications": [ "roof", "roofline", "shed",
+"ceiling" ], "technical": [ { "property": "Foil Duty Classification", "value":
+"Heavy Duty / Extra Heavy Duty", "standard": "AS/NZS 4200.1" }, { "property":
+"Material R-values", "value": "Anticon 60 HD: R1.3 (60mm); Anticon 80 HD: R1.8
+(80mm); Anticon 100 HD: R2.3 (100mm); Anticon 130 HD: R3.0 (130mm); Anticon 145
+HD: R3.6 (145mm)", "standard": "AS/NZS 4859.1:2018"} , { "property": "Blanket
+Width", "value": "1200 mm (plus 150 mm foil overlap extension)", "standard": ""
+}, { "property": "Roll Lengths", "value": "10 m, 12 m, 15 m, 20 m (custom
+lengths available)", "standard": "" }, { "property": "Combustibility (Core)",
+"value": "Non-Combustible", "standard": "AS 1530.1" }, { "property": "Early Fire
+Hazard Indices", "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0,
+Smoke Developed: 0-1", "standard": "AS/NZS 1530.3" }, { "property": "Bushfire
+Rating", "value": "BAL 12.5 - BAL FZ", "standard": "AS 3959" }, { "property":
+"Foil Emittance", "value": "0.05 (reflective face); 0.90 (antiglare face)",
+"standard": "AS/NZS 4201.5" }, { "property": "Vapour Barrier Classification",
+"value": "Class 2 Vapour Barrier (< 0.020 µg/N.s)", "standard": "AS/NZS 4200.1"
+}, { "property": "Maximum Span Between Supports", "value": "Up to 1200 mm
+centres without safety mesh support", "standard": "" } ], "range": [ {
+"variant": "Anticon 60 Heavy Duty (HD)", "size_or_rating": "60 mm x 1200 mm
+x 15-20 m, R1.3", "pack": "Roll" }, { "variant": "Anticon 80 Heavy Duty (HD)",
+"size_or_rating": "80 mm x 1200 mm x 15 m, R1.8", "pack": "Roll" }, { "variant":
+"Anticon 100 Heavy Duty (HD)", "size_or_rating": "100 mm x 1200 mm x 10 m,
+R2.3", "pack": "Roll" }, { "variant": "Anticon 130 Heavy Duty (HD)",
+"size_or_rating": "130 mm x 1200 mm x 10 m, R3.0", "pack": "Roll" }, {
+"variant": "Anticon 145 Heavy Duty (HD)", "size_or_rating": "145 mm x 1200 mm
+x 10 m, R3.6", "pack": "Roll" } ], "fire": "Core non-combustible to AS 1530.1;
+AS/NZS 1530.3: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke
+Developed 0-1; BAL 12.5 to BAL FZ to AS 3959", "compliance":
+"AS/NZS 4859.1:2018; AS/NZS 4200.1 Heavy Duty rating; AS 3959; NCC 2022 Volume 1
+& 2", "sustainability": "Manufactured from up to 65% recycled glass; FBS-1
+bio-soluble; zero ODP; Sensitive Choice approved", "install": [ "Ensure purlins
+or rafters are clean and dry prior to blanket rollout", "Roll out Anticon Heavy
+Duty over framing with the heavy-duty foil facing down toward the building
+interior", "Allow a uniform sag of 25-40mm between purlins (up to 1200mm
+centres) to ensure thermal recovery", "Lap adjacent blanket rolls by 150mm using
+the pre-extended foil flap", "Tape all foil seams with Bradford 493 Reinforced
+Aluminium Foil Tape using a plastic squeegee for an airtight seal", "Install
+roof spacer systems (e.g. Ashgrid or SpacerX) over purlins if required to
+prevent insulation pinch", "Fasten metal roof cladding immediately over the
+blanket or spacer bars" ], "selection_checklist": [ "Confirm purlin or batten
+spacing exceeds 900mm (up to 1200mm centres requires Heavy Duty foil)", "Verify
+commercial or residential metal roof profile and pitch", "Confirm required
+thermal R-value under NCC Section J or residential energy requirements", "Ensure
+heavy-duty foil tape (Bradford 493) is specified for all joint sealing", "Check
+BAL rating compliance (BAL 12.5 to BAL FZ)" ], "accessories": [ "Bradford 493
+Reinforced Foil Tape", "Roof spacer system (Ashgrid / SpacerX)", "Plastic
+squeegee" ], "limitations": [ "Do not install in wet weather; glasswool must
+remain completely dry", "Must be installed with foil facing downwards into the
+roof space", "Spans exceeding 1200mm require safety mesh support underneath" ],
+"warranty": "CSR Bradford Standard Product Warranty", "found": true,
+"search_keywords": [ "Anticon Heavy Duty", "Anticon HD", "Bradford Anticon HD",
+"heavy duty foil blanket", "commercial Anticon blanket", "Anticon 60 HD",
+"Anticon 80 HD", "Anticon 100 HD", "heavy duty roofing blanket", "wide span roof
+blanket" ], "problem_keywords": [ "foil tearing on wide purlins", "condensation
+in commercial metal building", "rain drumming in warehouse", "heat transfer
+through commercial roof", "sagging roof insulation foil", "high wind roof foil
+blowout" ], "placement": [ "roof", "roofline", "shed", "ceiling" ],
+"priority_fit": [ "thermal", "condensation", "fire", "acoustic" ], "use_cases":
+[ "Commercial metal roof construction with wide purlin spacings up to 1200mm
+without safety mesh", "Industrial warehouses, distribution centres, and
+factories requiring high tear-resistant roof sarking", "Bushfire-prone
+residential homes requiring BAL-FZ compliant under-roof insulation" ],
+"not_for": [ "Tiled roofing without metal sheeting", "Vertical wall insulation
+without outer cladding", "Flooring underlay" ], "rag_summary": "Bradford Anticon
+Roofing Blanket - Heavy Duty Foil is an Australian-made glasswool insulation
+blanket laminated to an Extra Heavy Duty reflective foil facing with a 150mm
+overlap edge. Designed specifically for commercial and wide-span residential
+metal roofs with purlin centres up to 1200mm, its robust foil backing resists
+tearing and sagging while forming a Class 2 vapour barrier to prevent
+condensation. Offering R-values from R1.3 to R3.6, rain sound attenuation up
+to 7 dB, and BAL-FZ bushfire resistance, it delivers heavy-duty thermal and
+moisture protection for metal roofs." }, { "family_id":
+"BRADFORD_ANTICON_ROOFING_BLANKET_LIGHT_DUTY_FOIL", "tds_url":
+"https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/roofing/anticon",
+"sds_url": "https://www.bradfordinsulation.com.au/resources/safety-data-sheets",
+"description": "Bradford Anticon Roofing Blanket - Light Duty Foil is an
+economical glasswool insulation blanket laminated with a Light Duty reflective
+foil backing. Engineered for domestic metal roofs with closely spaced timber
+battens or steel rafters (up to 600mm centres) or roofs fully supported by
+safety wire mesh, it provides thermal insulation, dampens rain noise, and
+controls condensation. It features a 150mm foil overlap edge to maintain vapour
+seal continuity across domestic roofs and sheds.", "features": [ "Faced with
+Light Duty reflective foil laminate for cost-effective domestic applications",
+"Designed for closely spaced framing supports (up to 600mm centres) or
+mesh-supported roofs", "Factory-bonded with a 150mm foil overlap edge to
+facilitate vapour-tight sealing", "Non-combustible glasswool insulation core
+meeting AS 1530.1", "Bushfire ember protection compliant from BAL 12.5 to BAL FZ
+under AS 3959", "Damps heavy rain noise by up to 7 dB to improve acoustic
+comfort inside", "Reflects radiant heat away from the roof space to enhance
+energy efficiency", "Bio-soluble FBS-1 glasswool approved by Sensitive Choice
+for allergy sufferers", "Available in 60mm, 80mm, and 100mm thicknesses (R1.3 to
+R2.3)", "Cost-effective solution to stop roof condensation in residential metal
+roofs" ], "applications": [ "roof", "roofline", "shed", "ceiling" ],
+"technical": [ { "property": "Foil Duty Classification", "value": "Light Duty",
+"standard": "AS/NZS 4200.1" }, { "property": "Material R-values", "value":
+"Anticon 60 LD: R1.3 (60mm); Anticon 80 LD: R1.8 (80mm); Anticon 100 LD: R2.3
+(100mm)", "standard": "AS/NZS 4859.1:2018"} , { "property": "Blanket Width",
+"value": "1200 mm (plus 150 mm foil overlap extension)", "standard": "" }, {
+"property": "Roll Lengths", "value": "15 m, 20 m", "standard": "" }, {
+"property": "Combustibility (Core)", "value": "Non-Combustible", "standard":
+"AS 1530.1" }, { "property": "Early Fire Hazard Indices", "value":
+"Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+"standard": "AS/NZS 1530.3" }, { "property": "Bushfire Rating", "value":
+"BAL 12.5 - BAL FZ", "standard": "AS 3959" }, { "property": "Foil Emittance",
+"value": "0.05 (reflective face); 0.90 (antiglare face)", "standard":
+"AS/NZS 4201.5" }, { "property": "Vapour Barrier Classification", "value":
+"Class 2 Vapour Barrier", "standard": "AS/NZS 4200.1" }, { "property": "Maximum
+Span Between Supports", "value": "Up to 600 mm centres without mesh (or
+continuous mesh supported)", "standard": "" } ], "range": [ { "variant":
+"Anticon 60 Light Duty (LD)", "size_or_rating": "60 mm x 1200 mm x 15-20 m,
+R1.3", "pack": "Roll" }, { "variant": "Anticon 80 Light Duty (LD)",
+"size_or_rating": "80 mm x 1200 mm x 15 m, R1.8", "pack": "Roll" }, { "variant":
+"Anticon 100 Light Duty (LD)", "size_or_rating": "100 mm x 1200 mm x 10 m,
+R2.3", "pack": "Roll" } ], "fire": "Core non-combustible to AS 1530.1;
+AS/NZS 1530.3: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke
+Developed 0-1; BAL 12.5 to BAL FZ to AS 3959", "compliance":
+"AS/NZS 4859.1:2018; AS/NZS 4200.1 Light Duty rating; AS 3959; NCC 2022 Volume 2
+Housing Provisions", "sustainability": "Manufactured from up to 65% recycled
+glass; FBS-1 bio-soluble; zero ODP; Sensitive Choice approved", "install": [
+"Confirm roof batten spacing does not exceed 600mm centres (or that safety wire
+mesh is installed)", "Roll out Anticon Light Duty over framing with the foil
+facing down into the attic or room", "Ensure a gentle sag of 25mm to 40mm
+between battens to prevent compression against sheeting", "Overlap adjoining
+blanket runs by 150mm using the pre-extended foil edge", "Seal all overlaps and
+edges with Bradford 493 Reinforced Foil Tape to create a continuous vapor seal",
+"Fix metal roof sheets over battens, taking care not to puncture or excessively
+stretch the light-duty foil", "Complete installation prior to rainfall to keep
+the glasswool dry" ], "selection_checklist": [ "Verify framing spacing is
+≤ 600mm centres (if spacing is 600-900mm use MD; if > 900mm use HD)", "Check
+that safety mesh is installed if used over wider industrial spans", "Confirm
+thermal R-value requirement (R1.3, R1.8, or R2.3)", "Ensure reinforced foil tape
+is included for sealing the 150mm overlap", "Confirm application is under metal
+roof cladding" ], "accessories": [ "Bradford 493 Reinforced Aluminium Foil
+Tape", "Roof safety wire mesh (if span > 600mm)" ], "limitations": [ "Do not use
+on framing spans exceeding 600mm without wire mesh support (foil may tear or
+sag)", "Glasswool must be kept completely dry during storage and installation",
+"Foil must face downward into the building space to prevent condensation" ],
+"warranty": "CSR Bradford Standard Product Warranty", "found": true,
+"search_keywords": [ "Anticon Light Duty", "Anticon LD", "Bradford Anticon LD",
+"light duty roofing blanket", "budget Anticon blanket", "residential Anticon
+blanket", "Anticon 60 LD", "Anticon 80 LD", "metal roof insulation blanket LD"
+], "problem_keywords": [ "condensation under tin shed roof", "noisy rain on
+house roof", "budget metal roof insulation", "sweating corrugated iron", "heat
+entering ceiling through metal roof", "preventing roof rust from condensation"
+], "placement": [ "roof", "roofline", "shed", "ceiling" ], "priority_fit": [
+"budget", "thermal", "condensation", "acoustic" ], "use_cases": [ "Residential
+metal roof installations with timber trusses or steel battens spaced at 450mm
+or 600mm centres", "Domestic garage, shed, and workshop roofs with wire mesh
+support to stop condensation dripping", "Cost-effective thermal and acoustic
+rain damping in residential home additions" ], "not_for": [ "Unmeshed commercial
+purlin spans over 600mm", "Tiled roof applications without metal deck",
+"Flooring or wall cavity batts" ], "rag_summary": "Bradford Anticon Roofing
+Blanket - Light Duty Foil is a cost-effective glasswool insulation blanket faced
+with a Light Duty reflective foil backing and a 150mm overlap edge. Designed for
+residential metal roofs with batten centres up to 600mm or roofs supported by
+continuous safety mesh, it stops condensation pooling, dampens rain noise by up
+to 7 dB, and delivers thermal resistance from R1.3 to R2.3. With a
+non-combustible glasswool core and BAL-FZ bushfire suitability, it provides
+dependable under-roof protection for budget-conscious home and shed builds." },
+{ "family_id": "BRADFORD_ANTICON_ROOFING_BLANKET_MEDIUM_DUTY_FOIL", "tds_url":
+"https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/roofing/anticon",
+"sds_url": "https://www.bradfordinsulation.com.au/resources/safety-data-sheets",
+"description": "Bradford Anticon Roofing Blanket - Medium Duty Foil is the
+benchmark residential and light-commercial metal roof insulation blanket,
+factory-laminated with a Medium Duty reflective foil facing. Engineered for
+support spacings up to 900mm centres without safety mesh, it combines a
+bio-soluble glasswool blanket with a robust vapour-barrier foil to minimise
+condensation risk, attenuate rain drumming noise, and reflect radiant summer
+heat. With a 150mm foil overlap edge, it delivers reliable thermal efficiency
+and bushfire protection up to BAL-FZ.", "features": [ "Faced with Medium Duty
+reflective foil laminate for standard residential and light commercial builds",
+"Engineered for batten and purlin spans up to 900mm centres without requiring
+wire mesh", "Factory-bonded 150mm foil overlap edge ensures a continuous,
+airtight vapour barrier", "Non-combustible glasswool core compliant with
+AS 1530.1", "Bushfire ember attack protection certified from BAL 12.5 to BAL FZ
+under AS 3959", "Damps heavy rain noise by up to 7 dB for a significantly
+quieter living environment", "Reflects up to 97% of radiant heat to lower
+household heating and cooling loads", "Made with up to 65% recycled glass using
+FBS-1 bio-soluble formulation", "Sensitive Choice approved for allergy and
+asthma sufferers", "Available in thicknesses from 60mm to 130mm (R1.3 to R3.0)"
+], "applications": [ "roof", "roofline", "shed", "ceiling" ], "technical": [ {
+"property": "Foil Duty Classification", "value": "Medium Duty", "standard":
+"AS/NZS 4200.1"} , { "property": "Material R-values", "value": "Anticon 60 MD:
+R1.3 (60mm); Anticon 80 MD: R1.8 (80mm); Anticon 100 MD: R2.3 (100mm);
+Anticon 110 MD: R2.5 (110mm); Anticon 130 MD: R3.0 (130mm)", "standard":
+"AS/NZS 4859.1:2018"} , { "property": "Blanket Width", "value": "1200 mm
+(plus 150 mm foil overlap extension)", "standard": "" }, { "property": "Roll
+Lengths", "value": "10 m, 15 m, 20 m", "standard": "" }, { "property":
+"Combustibility (Core)", "value": "Non-Combustible", "standard": "AS 1530.1" },
+{ "property": "Early Fire Hazard Indices", "value": "Ignitability: 0, Spread of
+Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1", "standard": "AS/NZS 1530.3" },
+{ "property": "Bushfire Rating", "value": "BAL 12.5 - BAL FZ", "standard":
+"AS 3959" }, { "property": "Foil Emittance", "value": "0.05 (reflective
+face); 0.90 (antiglare face)", "standard": "AS/NZS 4201.5" }, { "property":
+"Vapour Barrier Classification", "value": "Class 2 Vapour Barrier (< 0.020
+µg/N.s)", "standard": "AS/NZS 4200.1" }, { "property": "Maximum Span Between
+Supports", "value": "Up to 900 mm centres without wire mesh", "standard": "" }
+], "range": [ { "variant": "Anticon 60 Medium Duty (MD)", "size_or_rating": "60
+mm x 1200 mm x 15-20 m, R1.3", "pack": "Roll" }, { "variant": "Anticon 80 Medium
+Duty (MD)", "size_or_rating": "80 mm x 1200 mm x 15 m, R1.8", "pack": "Roll" },
+{ "variant": "Anticon 100 Medium Duty (MD)", "size_or_rating": "100 mm x 1200 mm
+x 10 m, R2.3", "pack": "Roll" }, { "variant": "Anticon 110 Medium Duty (MD)",
+"size_or_rating": "110 mm x 1200 mm x 10 m, R2.5", "pack": "Roll" }, {
+"variant": "Anticon 130 Medium Duty (MD)", "size_or_rating": "130 mm x 1200 mm
+x 10 m, R3.0", "pack": "Roll" } ], "fire": "Core non-combustible to AS 1530.1;
+AS/NZS 1530.3: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke
+Developed 0-1; BAL 12.5 to BAL FZ to AS 3959", "compliance":
+"AS/NZS 4859.1:2018; AS/NZS 4200.1 Medium Duty rating; AS 3959; NCC 2022
+Volume 1 & 2", "sustainability": "Manufactured from up to 65% recycled glass;
+FBS-1 bio-soluble; zero ODP; Sensitive Choice approved", "install": [ "Confirm
+roof batten spacing is 900mm centres or less", "Roll out Anticon Medium Duty
+over rafters or battens with the foil facing downwards into the roof space",
+"Allow a nominal 25-40mm sag between battens to prevent compression against the
+roof sheet", "Overlap adjacent rolls by 150mm using the pre-extended foil edge",
+"Tape all foil joins with Bradford 493 Reinforced Aluminium Foil Tape using a
+squeegee to achieve an airtight vapour barrier", "Fasten metal roofing sheets
+directly over the blanket using recommended screws with neoprene washers",
+"Ensure installation is covered before rain occurs" ], "selection_checklist": [
+"Confirm framing spacing is ≤ 900mm centres (standard for most domestic metal
+roofs)", "Verify total system R-value calculation meets NCC energy compliance",
+"Select thickness (60mm R1.3, 80mm R1.8, 100mm R2.3, 110mm R2.5, or 130mm
+R3.0)", "Ensure Bradford 493 tape is ordered for sealing the 150mm overlap",
+"Confirm bushfire BAL requirements (BAL 12.5 to BAL FZ)" ], "accessories": [
+"Bradford 493 Reinforced Aluminium Foil Tape", "Plastic squeegee" ],
+"limitations": [ "Do not span greater than 900mm centres without wire mesh
+(specify Heavy Duty for spans up to 1200mm)", "Must be kept dry prior to and
+during installation", "Foil must always face down toward the building interior"
+], "warranty": "CSR Bradford Standard Product Warranty", "found": true,
+"search_keywords": [ "Anticon Medium Duty", "Anticon MD", "Bradford Anticon MD",
+"medium duty roofing blanket", "standard Anticon blanket", "Anticon 60 MD",
+"Anticon 80 MD", "Anticon 100 MD", "metal roof blanket MD", "Colorbond Anticon
+blanket" ], "problem_keywords": [ "condensation under Colorbond roof", "noisy
+rain on tin roof", "heat radiating through metal roof", "preventing roof space
+dampness", "meeting 7 star energy rating roof R-value", "roof space moisture in
+winter" ], "placement": [ "roof", "roofline", "shed", "ceiling" ],
+"priority_fit": [ "thermal", "condensation", "acoustic", "fire" ], "use_cases":
+[ "Standard residential pitched and skillion metal roofs with battens spaced up
+to 900mm centres", "Light commercial offices, school classrooms, and childcare
+centres under metal deck roofing", "Regional and bushfire-prone domestic builds
+requiring BAL-FZ compliant roof sarking and insulation" ], "not_for": [ "Spans
+exceeding 900mm without safety mesh", "Under-slab or ground-contact
+applications", "Tile roofs without metal sheeting" ], "rag_summary": "Bradford
+Anticon Roofing Blanket - Medium Duty Foil is the standard residential and
+light-commercial metal roof insulation blanket, laminated with a Medium Duty
+reflective foil facing and a 150mm overlap flap. Engineered for batten spacings
+up to 900mm centres without wire mesh, it forms a Class 2 vapour barrier that
+prevents underside condensation, cuts heavy rain noise by up to 7 dB, and
+delivers thermal ratings from R1.3 to R3.0. Made in Australia with a
+non-combustible glasswool core (AS 1530.1) and BAL-FZ suitability, it ensures
+long-term moisture and thermal protection for Colorbond and metal roofs." }, {
+"family_id": "BRADFORD_FIBERTEX", "tds_url":
+"https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/industrial-and-hvac/fibertex-rockwool",
+"sds_url": "https://www.bradfordinsulation.com.au/resources/safety-data-sheets",
+"description": "Bradford Fibertex is a range of robust, non-combustible rockwool
+(stone wool) industrial insulation boards and blankets engineered for
+high-temperature and fire-critical applications. Manufactured by spinning molten
+natural basalt rock and recycled slag into fine inorganic fibres bonded with a
+thermosetting resin, Fibertex operates continuously at service temperatures
+from 350°C up to 820°C with minimal shrinkage. It provides thermal conservation,
+fire protection, condensation prevention, and acoustic absorption for industrial
+process vessels, tanks, furnaces, fire-rated curtain walls, and building
+envelopes.", "features": [ "Non-combustible stone wool complying with
+AS 1530.1", "Continuous maximum service temperatures from 350°C up to 820°C with
+minimal thermal shrinkage", "Available in multiple density grades: Fibertex 350
+(60kg/m3), 450 (80kg/m3), 650 (100kg/m3), and 820 (120-130kg/m3)", "Excellent
+acoustic absorption properties across low, mid, and high frequencies",
+"Performance is not adversely affected by contact with water", "Low
+water-soluble chloride content to prevent stress-corrosion cracking of
+austenitic stainless steel", "Bio-soluble FBS-1 formulation certified
+non-hazardous under Safe Work Australia criteria", "Supplied as semi-rigid
+boards, flexible blankets, and specialty pre-cut strips", "Zero Ozone Depleting
+Potential (ODP) and non-toxic", "Ideal for industrial process vessels, boilers,
+autoclaves, and building fire stops" ], "applications": [ "pipe", "duct",
+"wall", "external wall", "ceiling" ], "technical": [ { "property": "Maximum
+Service Temperatures", "value": "Fibertex 350: 350°C; Fibertex 450: 450°C;
+Fibertex 650: 650°C; Fibertex 820: 820°C", "standard": "ASTM C411 / ASTM C447"
+}, { "property": "Nominal Densities", "value": "Fibertex 350: 60 kg/m3;
+Fibertex 450: 80 kg/m3; Fibertex 650: 100 kg/m3; Fibertex 820: 120-130 kg/m3",
+"standard": "" }, { "property": "Combustibility", "value": "Non-Combustible",
+"standard": "AS 1530.1" }, { "property": "Fire Hazard Properties", "value":
+"Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+"standard": "AS/NZS 1530.3" }, { "property": "Board Dimensions", "value": "1200
+mm x 600 mm (standard); custom lengths and strips available", "standard": "" },
+{ "property": "Thickness Options", "value": "25 mm, 38 mm, 50 mm, 75 mm, 100
+mm", "standard": "" }, { "property": "Thermal Conductivity", "value": "0.034
+- 0.038 W/m·K at 20°C (varies with temperature and grade)", "standard": "ASTM
+C177 / AS/NZS 4859.1" }, { "property": "Corrosion Tendency", "value": "Low
+water-soluble chloride content (< 10 ppm), non-corrosive to stainless steel",
+"standard": "ASTM C795" }, { "property": "Moisture Sorption", "value": "< 1% by
+volume", "standard": "ASTM C1104" }, { "property": "Acoustic Sound Absorption",
+"value": "NRC 0.80 - 1.10 (tested across 50mm and 75mm thicknesses)",
+"standard": "AS ISO 354 / ASTM C423" } ], "range": [ { "variant": "Fibertex 350
+(60 kg/m3)", "size_or_rating": "1200 mm x 600 mm x 25-100 mm (up to 350°C)",
+"pack": "Pack of boards" }, { "variant": "Fibertex 450 (80 kg/m3)",
+"size_or_rating": "1200 mm x 600 mm x 25-100 mm (up to 450°C)", "pack": "Pack of
+boards" }, { "variant": "Fibertex 650 (100 kg/m3)", "size_or_rating": "1200 mm
+x 600 mm x 25-100 mm (up to 650°C)", "pack": "Pack of boards" }, { "variant":
+"Fibertex 820 (120-130 kg/m3)", "size_or_rating": "1200 mm x 600 mm x 25-100 mm
+(up to 820°C)", "pack": "Pack of boards" } ], "fire": "Non-combustible to
+AS 1530.1; AS/NZS 1530.3: Ignitability 0, Spread of Flame 0, Heat Evolved 0,
+Smoke Developed 0-1; Continuous service temp up to 820°C", "compliance":
+"AS 1530.1; AS/NZS 1530.3; ASTM C612 Type IA, IB, II, III, IVA, IVB; ASTM C795;
+NCC 2022 Volume 1 Non-combustible building element provisions",
+"sustainability": "Spun from natural volcanic rock and recycled slag; FBS-1
+bio-soluble formulation; low chloride; zero ODP; non-hazardous", "install": [
+"Clean and inspect the hot vessel, duct, or framing surface to ensure it is free
+from grease, loose scale, and water", "Weld insulation pins or studs to the
+substrate surface at recommended centres (typically 300mm to 450mm)", "Impale
+the Fibertex boards or blankets firmly over the pins with the unfaced side
+against the hot surface", "Secure boards in place using non-corrosive metal
+speed clips / washers pushed over the pins", "Butt all board edges tightly
+together to eliminate thermal bridging and acoustic leaks", "For piping or
+curved vessels, secure using wire mesh, steel banding, or metal sheet cladding",
+"Trim neatly around flanges, nozzles, and structural penetrations using an
+insulation saw or knife" ], "selection_checklist": [ "Determine maximum
+continuous operating temperature (≤350°C select 350; ≤450°C select 450; ≤650°C
+select 650; ≤820°C select 820)", "Confirm required density and mechanical
+load-bearing capacity", "Check required thickness for personnel protection
+(touch temperature < 60°C) or process thermal control", "Verify compatibility
+with stainless steel surfaces (confirm ASTM C795 low chloride compliance)",
+"Select facing if needed (plain unfaced, foil faced, or wire mesh faced)" ],
+"accessories": [ "Weld pins and speed clips", "Stainless steel banding wire",
+"Serrated insulation saw" ], "limitations": [ "Do not exceed maximum continuous
+service temperature rating for the selected grade (350°C, 450°C, 650°C,
+or 820°C)", "Dense grades (Fibertex 820) are semi-rigid and do not conform
+easily to tight curved surfaces without pre-cutting", "Outdoor installations
+must be clad with metal jacketing or weatherproofing cladding to prevent water
+pooling" ], "warranty": "CSR Bradford Standard Product Warranty", "found": true,
+"search_keywords": [ "Bradford Fibertex", "Fibertex rockwool", "Fibertex 350",
+"Fibertex 450", "Fibertex 650", "Fibertex 820", "stone wool board", "high
+temperature industrial insulation", "non combustible rockwool", "furnace
+insulation board" ], "problem_keywords": [ "extreme heat pipe insulation",
+"furnace heat loss", "high temperature vessel insulation", "personnel protection
+hot pipe touch hazard", "fire rated wall cavity stone wool", "corrosion under
+insulation on stainless steel" ], "placement": [ "pipe", "duct", "wall",
+"external wall", "ceiling" ], "priority_fit": [ "fire", "thermal", "acoustic" ],
+"use_cases": [ "Thermal conservation and personnel protection on industrial
+boilers, steam pipes, and process tanks operating up to 820°C", "Fire-stopping
+and spandrel curtain wall insulation in commercial high-rise buildings requiring
+AS 1530.1 non-combustibility", "Acoustic enclosure linings for industrial power
+generators, compressors, and high-temperature exhaust silencers" ], "not_for": [
+"Domestic timber frame wall batts replacement where low density is needed",
+"Under-tile roof sarking", "Subfloor ground contact" ], "rag_summary": "Bradford
+Fibertex is a heavy-duty, non-combustible rockwool (stone wool) board and
+blanket range engineered for high-temperature industrial equipment, fire-rated
+curtain walls, and acoustic enclosures. Spun from natural volcanic rock and
+recycled slag in densities from 60 kg/m3 (Fibertex 350) up to 130 kg/m3
+(Fibertex 820), it withstands continuous service temperatures up to 820°C with
+minimal thermal shrinkage. Certified non-combustible to AS 1530.1 and complying
+with ASTM C795 low-chloride standards for stainless steel, it delivers
+industrial thermal conservation, personnel protection, and acoustic absorption."
+} ]

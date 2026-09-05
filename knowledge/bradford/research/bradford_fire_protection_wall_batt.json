@@ -1,0 +1,152 @@
+{
+  "family_id": "BRADFORD_FIRE_PROTECTION_WALL_BATT",
+  "family_name": "Bradford Fire Protection - Wall Batt",
+  "datasheet_pdf_url": "https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/walls/fireseal",
+  "sds_url": "https://www.bradfordinsulation.com.au/-/media/bradford/files/safety-data-sheet---rockwool.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Bradford Fire Protection - Wall Batt (Bradford Rockwool Fireseal\nCurtain Wall Batts) is a semi-rigid, non-combustible stone wool insulation batt\nformulated for fire-safing, spandrel insulation, and perimeter fire containment\nin external wall and curtain wall systems. Manufactured from bio-soluble\nrockwool fibres, it provides remarkable resistance to shrinkage at extreme\ntemperatures up to 1000°C, maintaining compartmentation between floor slabs and\nexternal facade panels. Available in 50mm and 100mm thicknesses, it achieves\nhigh thermal and acoustic performance while satisfying NCC fire resistance\nrequirements.",
+    "features": [
+      "Non-combustible stone wool material complying\nwith AS 1530.1",
+      "High resistance to shrinkage at temperatures\nexceeding 1000°C",
+      "Formulated specifically for curtain wall spandrel and\nperimeter fire safing",
+      "Provides thermal insulation and acoustic sound\ndampening in commercial walls",
+      "Bio-soluble FBS-1 rockwool formulation",
+      "Performance unaffected by contact with water",
+      "Easy to cut and friction-fit\ninto tight structural frames or pin behind spandrel panels",
+      "Meets stringent\nNCC fire barrier and fire stopping requirements"
+    ],
+    "applications": [
+      "wall",
+      "external wall",
+      "internal wall",
+      "between floors"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "Bio-soluble rockwool (FBS-1)",
+        "standard": ""
+      },
+      {
+        "property": "Nominal Density",
+        "value": "Approx. 80-100 kg/m³",
+        "standard": ""
+      },
+      {
+        "property": "Thickness Options",
+        "value": "50 mm, 100 mm",
+        "standard": ""
+      },
+      {
+        "property": "Dimensions",
+        "value": "1200 mm length x 120 mm, 150 mm,\nor 168 mm width (or 1200 x 600 mm slab)",
+        "standard": ""
+      },
+      {
+        "property": "Combustibility",
+        "value": "Non-combustible",
+        "standard": "AS 1530.1"
+      },
+      {
+        "property": "Fire Hazard Indices",
+        "value": "Ignitability: 0, Spread of\nFlame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Maximum Service Temperature",
+        "value": "820°C (continuous)",
+        "standard": ""
+      },
+      {
+        "property": "Thermal Conductivity",
+        "value": "0.035 W/m·K",
+        "standard": "ASTM C518"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Fireseal Curtain Wall\nBatts 50mm",
+        "size_or_rating": "50 mm x 1200 mm x 120 mm / 150 mm",
+        "pack": "Pack of 18 pieces"
+      },
+      {
+        "variant": "Fireseal Curtain Wall Batts 100mm",
+        "size_or_rating": "100 mm x 1200 mm x 150 mm / 168 mm",
+        "pack": "Pack of 10\npieces"
+      }
+    ],
+    "fire": "Non-combustible to AS 1530.1; AS/NZS 1530.3:\nIgnitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-1; Achieves\nfire resistance levels (FRL) up to -/120/120 or -/240/240 in tested\nwall/edge-of-slab assemblies to AS 1530.4",
+    "compliance": "AS 1530.1, AS 1530.4,\nNCC Volume One fire-rated facade and non-combustible external wall provisions",
+    "sustainability": "Manufactured from up to 40% recycled materials; FBS-1\nbio-soluble formulation; zero ODP",
+    "install": [
+      "Cut Fireseal Curtain Wall\nBatts to required spandrel cavity or slab edge width",
+      "Install with mechanical\nimpaling pins and speed clips, or support brackets at recommended centres",
+      "Ensure batts are fitted under 10-15% compression between floor slab edge and\nfacade transom/spandrel",
+      "Butt adjacent batts tightly together ensuring\ncontinuous fire-stopping with no gaps",
+      "Cover with galvanized steel smoke\nbarrier backing sheet or approved fire-rated sealant as per system\nspecification"
+    ],
+    "selection_checklist": [
+      "Verify required FRL\n(e.g. 60, 90, 120, or 240 minutes) for facade perimeter fire stop",
+      "Measure\nslab-to-transom void width to determine correct batt thickness and width",
+      "Confirm fixing method (impaling pins, friction fit, or steel brackets)",
+      "Verify non-combustible compliance under NCC Section C for commercial facades"
+    ],
+    "accessories": [
+      "Impaling pins and speed clips",
+      "Fire-rated silicone/mastic\nsealant",
+      "Galvanized steel smoke barrier"
+    ],
+    "limitations": [
+      "Must be\nmechanically secured to prevent dislodgement during thermal movement",
+      "Not an\nexternal weather-facing finish; must be enclosed within facade cladding",
+      "Must\nbe protected from continuous water soaking during construction"
+    ],
+    "warranty": "Backed by CSR Bradford product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Bradford Fire Protection Wall Batt",
+      "Fireseal Curtain Wall Batts",
+      "fire\nsafing batts",
+      "spandrel insulation batts",
+      "rockwool wall batts fire",
+      "commercial facade fire batts",
+      "perimeter fire barrier batts",
+      "Bradford\nrockwool wall batts"
+    ],
+    "problem_keywords": [
+      "fire spread between floors via\nfacade",
+      "curtain wall slab edge firestop",
+      "spandrel panel fire insulation",
+      "non-combustible wall insulation commercial",
+      "facade perimeter fire safing\nFRL",
+      "smoke spread at slab edge"
+    ],
+    "placement": [
+      "wall",
+      "external wall",
+      "internal wall",
+      "between floors"
+    ],
+    "priority_fit": [
+      "fire",
+      "acoustic",
+      "thermal"
+    ],
+    "use_cases": [
+      "Perimeter fire safing between concrete floor slabs\nand external curtain wall facades in multi-storey commercial towers",
+      "Spandrel\npanel fire insulation behind glass or aluminum facade panels",
+      "Fire containment\nin commercial external cavity walls"
+    ],
+    "not_for": [
+      "Residential timber-stud\nthermal wall insulation (use Bradford Gold)",
+      "Direct underfloor insulation",
+      "Exposed internal acoustic decorative lining"
+    ],
+    "rag_summary": "Bradford Fire\nProtection - Wall Batt (Rockwool Fireseal Curtain Wall Batts) is a high-density,\nnon-combustible stone wool batt engineered for perimeter fire containment and\nspandrel insulation in commercial curtain walls and external wall assemblies. It\nmaintains structural integrity and resists shrinkage at temperatures up\nto 1000°C, stopping vertical fire spread between building storeys at the slab\nedge. Certified non-combustible to AS 1530.1 and tested to AS 1530.4 for FRLs up\nto -/240/240, it satisfies NCC non-combustibility mandates for commercial\nhigh-rise envelopes."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

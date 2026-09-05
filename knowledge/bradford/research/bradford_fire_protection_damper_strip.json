@@ -1,0 +1,151 @@
+{
+  "family_id": "BRADFORD_FIRE_PROTECTION_DAMPER_STRIP",
+  "family_name": "Bradford Fire Protection - Damper Strip",
+  "datasheet_pdf_url": "https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/walls/fireseal",
+  "sds_url": "https://www.bradfordinsulation.com.au/-/media/bradford/files/safety-data-sheet---rockwool.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Bradford Fireseal Fire Damper Strip is a high-density,\nnon-combustible rockwool insulation material specifically formulated to provide\npassive fire protection around fire dampers, service penetrations, and control\njoints. Manufactured by spinning molten natural rock and recycled blast furnace\nslag into bio-soluble fibres bonded with a thermosetting resin, it offers\nremarkable resistance to shrinkage at extreme fire temperatures up to 820°C. It\nis installed compressed in the gap between a fire damper sleeve and the\nfire-rated wall or floor structure.",
+    "features": [
+      "Non-combustible stone wool\nmaterial complying with AS 1530.1",
+      "Exceptional resistance to shrinkage under\nhigh fire temperatures",
+      "Specifically engineered for fire damper gaps and\npenetration sealing",
+      "High nominal density of 110 kg/m³ (Fibertex 820 base)",
+      "Biosoluble safe-to-use FBS-1 rockwool formulation",
+      "Performance not adversely\naffected by contact with water",
+      "Easy to cut and friction-fit into tight\nstructural joints",
+      "Made from natural rock and up to 40% recycled blast furnace\nslag",
+      "Suitable for Fire Resistance Levels (FRL) up to -/240/240 in tested\nsystems"
+    ],
+    "applications": [
+      "duct",
+      "pipe",
+      "wall",
+      "internal wall",
+      "floor"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "Bio-soluble rockwool\n(FBS-1)",
+        "standard": ""
+      },
+      {
+        "property": "Nominal Density",
+        "value": "110\nkg/m³",
+        "standard": ""
+      },
+      {
+        "property": "Thickness",
+        "value": "13 mm",
+        "standard": ""
+      },
+      {
+        "property": "Dimensions",
+        "value": "750 mm x 225 mm (or 750\nmm x 75 mm)",
+        "standard": ""
+      },
+      {
+        "property": "Combustibility",
+        "value": "Non-combustible",
+        "standard": "AS 1530.1"
+      },
+      {
+        "property": "Fire Hazard\nIndices",
+        "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke\nDeveloped: 0-1",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Maximum Service\nTemperature",
+        "value": "820°C (continuous)",
+        "standard": ""
+      },
+      {
+        "property": "Required Installation Compression",
+        "value": "Minimum 15% compression\n(compressed to 85% of original thickness)",
+        "standard": "AS 1668.1 / AS 4072.1"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Fireseal Fire Damper Strip 13mm",
+        "size_or_rating": "13 mm x 750 mm x 225 mm",
+        "pack": "Pack of 15 or 60 pieces\n(45 lineal metres)"
+      }
+    ],
+    "fire": "Non-combustible to AS 1530.1; AS/NZS 1530.3\nindices: Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke\nDeveloped: 0-1; Suitable for FRLs up to -/240/240 when installed as part of\ntested systems (AS 1530.4, AS 4072.1, AS 1668.1)",
+    "compliance": "AS 1530.1,\nAS 1530.4, AS 1668.1, AS 4072.1, NCC Deemed-to-Satisfy non-combustible\nmaterial",
+    "sustainability": "Manufactured from up to 40% recycled blast furnace\nslag; FBS-1 bio-soluble formulation; zero ODP",
+    "install": [
+      "Clean opening\naround fire damper sleeve, pipe penetration, or control joint",
+      "Cut Fireseal\nDamper Strip to length allowing for continuous perimeter wrapping",
+      "Pack strips\ntightly into the gap between damper sleeve and fire-rated substrate",
+      "Ensure\nthe 13mm strip is compressed by at least 15% (to 11mm or less) to form a tight\nseal",
+      "Seal all butt joints neatly with approved fire-rated sealant or tape if\nrequired by system specification",
+      "Fix damper retaining angles over the joint\nas per manufacturer fire test requirements"
+    ],
+    "selection_checklist": [
+      "Verify\nrequired Fire Resistance Level (FRL) and damper certification details",
+      "Confirm\ngap dimensions between damper sleeve and structural wall/floor\n(typically 10-25mm)",
+      "Determine number of layers needed based on annular gap\nwidth",
+      "Calculate total linear metres required around damper perimeters",
+      "Confirm substrate compatibility (Speedpanel, Hebel, masonry, or drywall)"
+    ],
+    "accessories": [
+      "Fire-rated polyurethane or acrylic sealant",
+      "Galvanised steel\nretaining angles",
+      "Foil sealing tape"
+    ],
+    "limitations": [
+      "Must be compressed\nby at least 15% to maintain rated fire integrity",
+      "Not designed as external\nexposed weatherproofing without protective flashing",
+      "Must not be loaded\nstructurally; damper body must be independently supported"
+    ],
+    "warranty": "Backed by CSR Bradford product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Bradford Fireseal Damper Strip",
+      "Fire Damper Strip",
+      "Fibertex 820 Damper\nStrip",
+      "fire damper rockwool strip",
+      "damper sleeve seal",
+      "13mm damper strip",
+      "Hebel damper strip",
+      "firestop damper packing",
+      "rockwool fire damper seal"
+    ],
+    "problem_keywords": [
+      "fire damper penetration gap",
+      "sealing around fire\ndamper",
+      "fire damper FRL compliance",
+      "fire damper clearance seal",
+      "fire smoke\nspread through duct penetration",
+      "Hebel horizontal control joint fire seal"
+    ],
+    "placement": [
+      "duct",
+      "pipe",
+      "wall",
+      "internal wall",
+      "floor"
+    ],
+    "priority_fit": [
+      "fire"
+    ],
+    "use_cases": [
+      "Sealing the annular gap between\nmechanical fire damper sleeves and fire-rated wall penetrations",
+      "Packing\nhorizontal control joints in Hebel PowerPanel inter-tenancy wall assemblies",
+      "Fire stopping metal pipe penetrations through concrete floor slabs"
+    ],
+    "not_for": [
+      "General cavity thermal insulation batts",
+      "Acoustic ceiling\noverlays",
+      "Direct exposed external roofing"
+    ],
+    "rag_summary": "Bradford Fire\nProtection - Damper Strip (Fireseal Fire Damper Strip / Fibertex 820 Damper\nStrip) is a specialized 13mm thick, high-density (110 kg/m³) rockwool insulation\nstrip engineered for passive fire stopping. Specifically designed to seal the\nperimeter clearance between fire dampers and fire-rated walls or floor slabs, it\nalso provides horizontal joint fire protection in Hebel and Speedpanel systems.\nIt resists shrinkage at temperatures up to 820°C, complies with AS 1530.1 as\nnon-combustible, and must be installed under a minimum 15% compression to\nachieve rated fire resistance levels (up to -/240/240)."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

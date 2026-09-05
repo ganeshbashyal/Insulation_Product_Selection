@@ -1,7 +1,7 @@
 ---
 title: "Bradford Supertel Plain - Plain - Unfaced - Batt Insulation | Bradford"
-description: "Part of the CSR family with 100+ years of Australian building solutions. Firm friction fit design means batts stay in place permanently. Low itch form"
-keywords: "Bradford Supertel Plain - Plain - Unfaced, Bradford batt, duct insulation, insulation Australia, Bradford Australia"
+description: "Bradford Supertel Plain - Plain - Unfaced is a high-density (32kg/m3) plain glasswool insulation board and blanket that provides exceptional thermal r"
+keywords: "Bradford Supertel Plain - Plain - Unfaced, Bradford batt, wall insulation, ceiling insulation, pipe insulation, duct insulation, insulation Australia, Bradford Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: BRADFORD_SUPERTEL_PLAIN_PLAIN_UNFACED
 ---
@@ -10,30 +10,35 @@ family_id: BRADFORD_SUPERTEL_PLAIN_PLAIN_UNFACED
 
 **Bradford Batt** — bulk insulation batts for thermal and acoustic performance.
 
-Part of the CSR family with 100+ years of Australian building solutions. Firm friction fit design means batts stay in place permanently. Low itch formula for comfortable installation.
+Bradford Supertel Plain - Plain - Unfaced is a high-density (32kg/m3) plain glasswool insulation board and blanket that provides exceptional thermal resistance and broadband acoustic sound absorption. Free from laminated foil or fabric facings, it operates at continuous service temperatures up to 350°C and is non-combustible under AS 1530.1. It is the premier choice for internal acoustic cavities, mechanical sound attenuators, industrial machinery enclosures, and bespoke fabrication.
 
 ## Key features
 
-- FBS-1 Glasswool Bio-Soluble Insulation - safe to use and non-hazardous.
-- manufactured from up to 80% recycled glass content.
-- CodeMark Certificate of Conformity CM 30006.
-- non-combustible to AS 1530.1.
-- low itch soft next-gen formula for comfortable handling.
-- prevents condensation on cold services.
-- maintains system efficiency.
-- 50 Year Warranty backed by CSR.
+- 32kg/m3 high-density bio-soluble glasswool insulation with zero facing materials.
+- Continuous maximum operating temperature capability up to 350°C.
+- Non-combustible bulk insulation complying with AS 1530.1.
+- Class-leading acoustic absorption rating with NRC up to 0.85 - 1.10.
+- Early Fire Hazard properties (0/0/0/0-1) to AS/NZS 1530.3.
+- Thermal performance ratings from R0.4 (13mm) to R3.0 (100mm).
+- Made in Australia from up to 65% recycled glass.
+- FBS-1 bio-soluble formulation certified non-hazardous by Safe Work Australia.
+- Hydrophobic resin bonding repels moisture absorption.
+- Available in semi-rigid boards and flexible blanket rolls.
 
 ## Applications and selection
 
-- Duct
+- duct
+- pipe
+- ceiling
+- wall
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm 32kg/m3 high density is required.
+2. Confirm plain unfaced specification (no foil or fabric facing attached).
+3. Select thickness (13mm to 100mm).
+4. Confirm operating temperature is within 350°C limit.
+5. Ensure mechanical fasteners (pins and speed clips) are specified.
 
 
 ## Current catalogue range
@@ -55,37 +60,52 @@ Part of the CSR family with 100+ years of Australian building solutions. Firm fr
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Batt | Manufacturer catalogue |
-| Material | Glasswool | Manufacturer catalogue |
-| Applications | Duct | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material R-values | 13mm: R0.4; 25mm: R0.8; 40mm: R1.2; 50mm: R1.5; 75mm: R2.2; 100mm: R3.0 | AS/NZS 4859.1 |
+| Density | 32 kg/m3 | - |
+| Thickness | 13 mm, 25 mm, 40 mm, 50 mm, 75 mm, 100 mm | - |
+| Dimensions (Rolls) | 15 m x 1200/1500 mm (25mm); 10 m x 1200/1500 mm (50mm) | - |
+| Dimensions (Boards) | 2400 mm x 1200 mm | - |
+| Sound Absorption (NRC) | 25mm: NRC 0.80; 50mm: NRC 1.00; 75mm: NRC 1.05; 100mm: NRC 1.10 | AS ISO 354 |
+| Combustibility | Non-Combustible | AS 1530.1 |
+| Fire Hazard Properties | Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1 | AS/NZS 1530.3 |
+| Maximum Service Temperature | 350°C | - |
+| Thermal Conductivity | 0.032 W/m·K at 20°C | ASTM C518 |
+| Moisture Absorption | < 0.2% by volume | - |
 
-
+Extracted from manufacturer datasheet: https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/hvac/supertel
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Non-Combustible to AS 1530.1; AS/NZS 1530.3: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-1; Max service temp 350°C
+
+AS/NZS 4859.1:2018; AS 1530.1; AS/NZS 1530.3; AS 4254; NCC 2022 Volume 1 & Volume 2
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.csrbradford.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://www.firecrunch.com.au/wp-content/uploads/2016/02/BRADFORD-MSDS-e3a0-435b-b6ef-6f1027726ce6.pdf.
 
+## Recommended accessories
+
+- Insulation stick pins and speed clips.
+- Insulation knife.
+
 
 ## Limitations and warnings
 
-- Keep dry during storage and installation..
-- not a water or vapour barrier - use appropriate building wrap..
-- do not compress - compression reduces R-value performance..
-- not to be exposed to weather..
-- maximum service temperature 340°C..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- No vapour barrier; do not use as a condensation control barrier.
+- Not for direct exposure to liquid water or outdoor weather.
+- Must be covered or contained in high-velocity air streams.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Keep dry during storage and installation.
+1. Measure cavity, duct, or enclosure interior and cut unfaced Supertel using a sharp insulation knife.
+2. Impale onto welded metal pins or friction fit into framing channels.
+3. Secure using speed washers over pins.
+4. Ensure tight butt joins on all edges to eliminate sound or heat leaks.
+5. Enclose behind linings, cladding, or perforated sheets as designed.
 
 ## Safety and handling
 
@@ -93,11 +113,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Contains up to 65% recycled glass; FBS-1 bio-soluble glasswool; zero ODP; low VOC
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+CSR Bradford Standard Product Warranty
 
 ## Specification starting point
 

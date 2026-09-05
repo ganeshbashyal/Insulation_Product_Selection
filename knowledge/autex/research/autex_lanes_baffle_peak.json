@@ -1,0 +1,175 @@
+{
+  "family_id": "AUTEX_LANES_BAFFLE_PEAK",
+  "family_name": "Autex Lanes Baffle Peak",
+  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/lanes/",
+  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Autex Lanes Baffle Peak is a battened-style acoustic wall system featuring a\ndistinctive 3D angled peak profile folded from 12mm Cube polyester felt.\nEngineered with an integrated air gap behind each batten, Lanes Peak enhances\nlow-frequency sound absorption while transforming flat walls into sculptural\narchitectural features. It installs quickly using a dedicated mechanical\nclipping system that eliminates the need for adhesives and ensures clean,\nprecise joins.",
+    "features": [
+      "Sculptural 3D angled peak profile folded\nfrom 12mm Cube polyester felt",
+      "Integrated air gap behind each lane delivers\nenhanced low-frequency sound absorption",
+      "Glue-free installation using a\nmechanical clipping system for fast, clean setup",
+      "Achieves high acoustic\nperformance with NRC 0.80",
+      "Constructed from 100% polyester fibre with a\nminimum of 60% to 80% recycled PET",
+      "Group 1 fire rating compliant with AS\nISO 9705 - 2003 and AS 5637.1",
+      "Modular scalable design suitable for full walls\nor accent nibs",
+      "Resistant to moisture, mould, and mildew (ASTM G21-15 Growth\nRating: 0)",
+      "Low-VOC emissions and certified Carbon Neutral with verified EPD",
+      "Available in standard 2400mm and 2700mm lengths in solid Cube colours"
+    ],
+    "applications": [
+      "wall",
+      "internal wall"
+    ],
+    "technical": [
+      {
+        "property": "Noise\nReduction Coefficient (NRC)",
+        "value": "0.80",
+        "standard": "ISO 354"
+      },
+      {
+        "property": "Sound Absorption Coefficients (Octave Bands)",
+        "value": "125Hz: 0.15, 250Hz: 0.45, 500Hz: 0.85, 1000Hz: 0.95, 2000Hz: 0.90, 4000Hz: 0.95",
+        "standard": "ISO 354"
+      },
+      {
+        "property": "Dimensions (Per Lane)",
+        "value": "300 mm\nwidth x 2400 mm or 2700 mm length (custom lengths up to 3600 mm)",
+        "standard": ""
+      },
+      {
+        "property": "Material Thickness",
+        "value": "12 mm Cube (overall depth\nvaries by Peak profile)",
+        "standard": ""
+      },
+      {
+        "property": "Composition",
+        "value": "100% polyester fibre (PET)",
+        "standard": ""
+      },
+      {
+        "property": "Recycled\nContent",
+        "value": "Minimum 60% to 80% post-consumer recycled PET",
+        "standard": ""
+      },
+      {
+        "property": "Thermal Performance",
+        "value": "R0.41 (@ 15°C)",
+        "standard": ""
+      },
+      {
+        "property": "Fire Rating",
+        "value": "Group 1, SMOGRArc < 100\nm2/s2",
+        "standard": "AS ISO 9705 - 2003 / AS 5637.1:2015"
+      },
+      {
+        "property": "International Fire Classification",
+        "value": "Group 1-S (ISO 9705:1993); Class\nA (ASTM E-84-15a: FS:0 - SD:45); BS EN 13501-1:2018",
+        "standard": "ISO 9705 /\nASTM E-84 / BS EN 13501-1"
+      },
+      {
+        "property": "Water Vapour Sorption",
+        "value": "0.4% by weight after 4 days at 49°C, 95% RH",
+        "standard": "ASTM C1104 /\nC1104M-13a"
+      },
+      {
+        "property": "Microbial Resistance",
+        "value": "Growth rating: 0\n(No growth)",
+        "standard": "ASTM G21-15"
+      },
+      {
+        "property": "Lightfastness",
+        "value": "Rating 6 (ISO 105-B02:2014)",
+        "standard": "ISO 105-B02:2014"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Lanes Peak 2400mm",
+        "size_or_rating": "300 mm x 2400 mm\n(Pack covers 2.16 m2)",
+        "pack": "Pack of 3 lanes"
+      },
+      {
+        "variant": "Lanes\nPeak 2700mm",
+        "size_or_rating": "300 mm x 2700 mm (Pack covers 2.43 m2)",
+        "pack": "Pack of 3 lanes"
+      }
+    ],
+    "fire": "AS ISO 9705 - 2003 and AS 5637.1\nClassification: Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM\nE-84-15a Class A (FS:0, SD:45); BS EN 13501-1:2018",
+    "compliance": "NCC\nSpecification 7 (BCA C1.10) Group 1 fire compliance; AS ISO 9705:2003;\nAS 5637.1:2015; ISO 354",
+    "sustainability": "Carbon neutral product and\nmanufacturing; minimum 60% to 80% recycled PET; Declare Red List Free; EPD\ncompliant; low VOC",
+    "install": [
+      "Confirm wall substrate is plumb, flat, dry,\nand structurally sound",
+      "Establish layout and set out vertical mounting lines\nat 300mm centres",
+      "Fasten mounting channels or clips horizontally across studs\nat recommended intervals using suitable screws",
+      "Snap folded Peak lane sections\nsecurely onto the mounting clips from bottom to top without glue",
+      "Align\nadjacent Peak panels to ensure clean, continuous ridge lines along joins",
+      "Trim\nbottom or top perimeter edges with a track saw or sharp utility knife where\nrequired"
+    ],
+    "selection_checklist": [
+      "Confirm wall height to choose 2400mm\nor 2700mm length (or custom up to 3600mm)",
+      "Calculate total width needed (each\nlane is 300mm wide; 3 lanes per pack)",
+      "Confirm Peak profile is selected for\na 3D angled ridge design",
+      "Select colour from the Autex Cube palette",
+      "Verify\nsubstrate framing centres for mounting clip attachment"
+    ],
+    "accessories": [
+      "Lanes mounting clip / channel system",
+      "Fasteners suitable for substrate",
+      "Track saw or utility knife"
+    ],
+    "limitations": [
+      "Indoor wall application only;\nnot for exterior cladding or wet areas",
+      "Do not use adhesives directly unless\nadvised by manufacturer, as clipping system provides the acoustic air gap",
+      "Batch-to-batch colour variation may occur due to fibre blending"
+    ],
+    "warranty": "Manufacturer's Guarantee (10 years)"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Autex Lanes Peak",
+      "Lanes Baffle Peak",
+      "Autex acoustic battens",
+      "3D acoustic\nwall battens",
+      "polyester acoustic battens",
+      "Lanes Peak profile",
+      "Cube wall\nbattens",
+      "acoustic wall feature",
+      "Autex wall baffles",
+      "glue-free acoustic\nwall"
+    ],
+    "problem_keywords": [
+      "hard wall echo in boardroom",
+      "reverberation in\nopen office",
+      "noisy restaurant chatter",
+      "flat boring drywall walls",
+      "low\nfrequency boom in conference room",
+      "need batten wall look with soundproofing"
+    ],
+    "placement": [
+      "wall",
+      "internal wall"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "fire",
+      "sustainability",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Creating 3D acoustic\nbatten feature walls in commercial office boardrooms and receptions",
+      "Absorbing\nspeech and low-frequency rumble in media suites and video conference rooms",
+      "Adding architectural acoustic texture in hospitality dining areas and hotel\nlobbies"
+    ],
+    "not_for": [
+      "Floors or underfoot traffic",
+      "Exterior walls exposed\nto weather",
+      "Suspended horizontal ceiling rafts without appropriate framing"
+    ],
+    "rag_summary": "Autex Lanes Baffle Peak is a 300mm wide, folded 3D acoustic wall\nbatten system crafted from 12mm Cube polyester felt into an angled peak ridge\nprofile. Installed with a glue-free mechanical clipping system that maintains an\ninternal acoustic air gap, it delivers superior low-frequency and speech noise\ncontrol (NRC 0.80). Certified Group 1 fire rated and carbon neutral with\nover 60% recycled PET, it provides a sculptural, easy-to-install wall feature\nfor commercial, education, and hospitality interiors."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

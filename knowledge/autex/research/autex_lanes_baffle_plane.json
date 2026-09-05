@@ -1,0 +1,174 @@
+{
+  "family_id": "AUTEX_LANES_BAFFLE_PLANE",
+  "family_name": "Autex Lanes Baffle Plane",
+  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/lanes/",
+  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Autex Lanes Baffle Plane is a modular acoustic wall batten system that features\na flattened, stepped plateau profile folded from 12mm Cube polyester felt.\nDesigned with an acoustic air gap behind each 300mm wide lane, Lanes Plane\nboosts mid-to-low frequency sound absorption while presenting an understated,\nmodern linear appearance. It installs quickly using an adhesive-free clipping\nsystem, creating seamless folded joins for contemporary commercial and\neducational spaces.",
+    "features": [
+      "Understated flattened plateau profile\nfolded from 12mm Cube polyester felt",
+      "Rear air gap cavity enhances low and mid\nfrequency sound absorption",
+      "No-glue mechanical clipping system ensures fast,\nclean, and reversible installation",
+      "High acoustic performance with an NRC\nrating of 0.80",
+      "Manufactured from 100% polyester fibre with a minimum of 60%\nto 80% recycled PET",
+      "Group 1 fire rating compliant with AS ISO 9705 - 2003 and\nAS 5637.1",
+      "Modular 300mm width sections easily scale from feature panels to\nfull atriums",
+      "Moisture and mould resistant (ASTM G21-15 Growth Rating: 0)",
+      "Low-VOC, non-toxic, non-allergenic, and certified Carbon Neutral",
+      "Supplied\nin 2400mm and 2700mm lengths across solid Cube colourways"
+    ],
+    "applications": [
+      "wall",
+      "internal wall"
+    ],
+    "technical": [
+      {
+        "property": "Noise Reduction\nCoefficient (NRC)",
+        "value": "0.80",
+        "standard": "ISO 354"
+      },
+      {
+        "property": "Sound Absorption Coefficients (Octave Bands)",
+        "value": "125Hz: 0.10, 250Hz: 0.40, 500Hz: 0.85, 1000Hz: 1.00, 2000Hz: 0.95, 4000Hz: 0.95",
+        "standard": "ISO 354"
+      },
+      {
+        "property": "Dimensions (Per Lane)",
+        "value": "300 mm\nwidth x 2400 mm or 2700 mm length (custom lengths up to 3600 mm)",
+        "standard": ""
+      },
+      {
+        "property": "Material Thickness",
+        "value": "12 mm Cube (overall depth\nvaries by Plane profile)",
+        "standard": ""
+      },
+      {
+        "property": "Composition",
+        "value": "100% polyester fibre (PET)",
+        "standard": ""
+      },
+      {
+        "property": "Recycled\nContent",
+        "value": "Minimum 60% to 80% post-consumer recycled PET",
+        "standard": ""
+      },
+      {
+        "property": "Thermal Performance",
+        "value": "R0.41 (@ 15°C)",
+        "standard": ""
+      },
+      {
+        "property": "Fire Rating",
+        "value": "Group 1, SMOGRArc < 100\nm2/s2",
+        "standard": "AS ISO 9705 - 2003 / AS 5637.1:2015"
+      },
+      {
+        "property": "International Fire Classification",
+        "value": "Group 1-S (ISO 9705:1993); Class\nA (ASTM E-84-15a: FS:0 - SD:45); BS EN 13501-1:2018",
+        "standard": "ISO 9705 /\nASTM E-84 / BS EN 13501-1"
+      },
+      {
+        "property": "Water Vapour Sorption",
+        "value": "0.4% by weight after 4 days at 49°C, 95% RH",
+        "standard": "ASTM C1104 /\nC1104M-13a"
+      },
+      {
+        "property": "Microbial Resistance",
+        "value": "Growth rating: 0\n(No growth)",
+        "standard": "ASTM G21-15"
+      },
+      {
+        "property": "Lightfastness",
+        "value": "Rating 6 (ISO 105-B02:2014)",
+        "standard": "ISO 105-B02:2014"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Lanes Plane 2400mm",
+        "size_or_rating": "300 mm x 2400\nmm (Pack covers 2.16 m2)",
+        "pack": "Pack of 3 lanes"
+      },
+      {
+        "variant": "Lanes\nPlane 2700mm",
+        "size_or_rating": "300 mm x 2700 mm (Pack covers 2.43 m2)",
+        "pack": "Pack of 3 lanes"
+      }
+    ],
+    "fire": "AS ISO 9705 - 2003 and AS 5637.1\nClassification: Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM\nE-84-15a Class A (FS:0, SD:45); BS EN 13501-1:2018",
+    "compliance": "NCC\nSpecification 7 (BCA C1.10) Group 1 fire compliance; AS ISO 9705:2003;\nAS 5637.1:2015; ISO 354",
+    "sustainability": "Carbon neutral product and\nmanufacturing; minimum 60% to 80% recycled PET; Declare Red List Free; EPD\nverified; low VOC",
+    "install": [
+      "Verify wall surface is flat, clean, dry, and\nclear of obstructions",
+      "Set out vertical chalk lines at 300mm intervals to\nalign lane joints",
+      "Screw-fix horizontal mounting clips or channels to studs at\nspecified heights",
+      "Click the folded Plane batten sections onto the clips\nstarting from one side",
+      "Engage consecutive panels tightly to ensure straight,\nuniform reveals",
+      "Cut top or bottom ends cleanly with a fine-toothed saw or\nutility knife where required"
+    ],
+    "selection_checklist": [
+      "Confirm wall height\nto choose 2400mm or 2700mm length (custom up to 3600mm)",
+      "Calculate wall width\nin 300mm increments (packs contain 3 lanes)",
+      "Select Plane style for a\nflattened, subtle architectural relief",
+      "Choose colourway from Autex Cube solid\ncolour palette",
+      "Verify substrate framing supports mechanical clip fixings"
+    ],
+    "accessories": [
+      "Lanes mounting clip system",
+      "Fasteners appropriate for\nsubstrate",
+      "Fine-tooth track saw or straight-edge knife"
+    ],
+    "limitations": [
+      "Interior wall applications only; not for external facades or wet spaces",
+      "Do\nnot glue directly to the wall; mechanical clip system is required for the air\ngap",
+      "Subtle batch-to-batch colour variation is inherent to non-woven\npolyester"
+    ],
+    "warranty": "Manufacturer's Guarantee (10 years)"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Autex Lanes Plane",
+      "Lanes Baffle Plane",
+      "Lanes Plane\nacoustic batten",
+      "flat profile acoustic battens",
+      "linear acoustic wall\nsystem",
+      "Cube batten wall",
+      "Autex wall panels",
+      "modular acoustic wall\nbattens",
+      "Plane profile acoustic panel"
+    ],
+    "problem_keywords": [
+      "flutter echo\nbetween parallel walls",
+      "noisy commercial office",
+      "reverberant school\nclassroom",
+      "speech privacy in meeting rooms",
+      "plain painted drywall needs\nacoustic upgrade",
+      "harsh office acoustics"
+    ],
+    "placement": [
+      "wall",
+      "internal\nwall"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "fire",
+      "sustainability",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Lining corporate meeting rooms and quiet booths with an\nunderstated linear batten look",
+      "Controlling reverberation in educational\nlecture rooms and corridors",
+      "Acoustic wall panelling behind reception desks\nand in commercial workspaces"
+    ],
+    "not_for": [
+      "Flooring applications",
+      "External\nbuilding envelopes",
+      "Wet rooms with direct running water"
+    ],
+    "rag_summary": "Autex Lanes Baffle Plane is a modular acoustic batten wall system featuring a\nclean, flattened linear profile folded from 12mm Cube polyester felt into 300mm\nwide sections. Its adhesive-free mechanical clipping system establishes an\nintegrated air cavity behind each lane, achieving an acoustic rating of NRC 0.80\nwith enhanced low-to-mid frequency absorption. With Group 1 fire compliance,\nlow-VOC emissions, and over 60% recycled PET content, Lanes Plane delivers\nsubtle architectural texture and superior sound control for commercial\ninteriors."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

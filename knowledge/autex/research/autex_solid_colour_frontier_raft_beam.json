@@ -1,0 +1,184 @@
+{
+  "family_id": "AUTEX_SOLID_COLOUR_FRONTIER_RAFT_BEAM",
+  "family_name": "Autex Solid Colour Frontier Raft beam",
+  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/frontier/",
+  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Autex Frontier Raft - Beam (Solid Colour) is a modular acoustic ceiling beam\nsystem designed for targeted sound absorption in open-plan spaces. Constructed\nfrom scored and folded 12mm Cube polyester felt locked with an extruded\naluminium channel, the Beam style is available in Beam 100 (87mm high x 70mm\nwide) and Beam 250 (227mm high x 70mm wide). With an internal sound-dampening\nair gap, it delivers high acoustic performance (NRC 0.75 - 0.95) in solid\nthrough-core Cube colours while remaining lightweight and Group 1 fire\ncompliant.",
+    "features": [
+      "Sleek rectangular beam profile with internal air gap\nfor enhanced acoustic absorption",
+      "Available in Beam 100 (87mm depth) and\nBeam 250 (227mm depth)",
+      "Constructed from 12mm Cube polyester felt in solid\ncolour throughout",
+      "Achieves sound absorption ratings of NRC 0.75 to 0.95\ndepending on spacing",
+      "Lightweight alternative to solid timber or metal ceiling\nbeams",
+      "Made from 100% polyester fibre containing a minimum of 60% to 80%\nrecycled PET",
+      "Group 1 fire rating compliant with AS ISO 9705 - 2003 and\nAS 5637.1",
+      "Compatible with Frontier mounting clips and adjustable suspension\nsystems",
+      "Durable material that will not bend, warp, or slump over time",
+      "Certified Carbon Neutral product with third-party verified EPD"
+    ],
+    "applications": [
+      "ceiling",
+      "open-plan office",
+      "commercial interior",
+      "education",
+      "hospitality",
+      "retail"
+    ],
+    "technical": [
+      {
+        "property": "Acoustic\nPerformance",
+        "value": "NRC 0.75 - 0.95 (Beam 100: NRC 0.80 at 150mm\ncentres, 200mm off ceiling; Beam 250: NRC 0.90 at 300mm centres)",
+        "standard": "ISO 354"
+      },
+      {
+        "property": "Profile Dimensions (Beam 100)",
+        "value": "70 mm\nwidth x 87 mm height (2400 mm or 1200 mm length)",
+        "standard": ""
+      },
+      {
+        "property": "Profile Dimensions (Beam 250)",
+        "value": "70 mm width x 227 mm\nheight (2400 mm or 1200 mm length)",
+        "standard": ""
+      },
+      {
+        "property": "Base\nMaterial Thickness",
+        "value": "12 mm Cube panel",
+        "standard": ""
+      },
+      {
+        "property": "Material Composition",
+        "value": "100% polyester fibre (PET) with\naluminium extrusion channel",
+        "standard": ""
+      },
+      {
+        "property": "Recycled\nContent",
+        "value": "Minimum 60% to 80% post-consumer recycled PET",
+        "standard": ""
+      },
+      {
+        "property": "Fire Hazard Classification",
+        "value": "Group 1, SMOGRArc\n< 100 m2/s2",
+        "standard": "AS ISO 9705 - 2003 / AS 5637.1:2015"
+      },
+      {
+        "property": "International Fire Rating",
+        "value": "Group 1-S (ISO 9705:1993); Class A (ASTM\nE-84-15a: FS:0 - SD:45); B - s2, d0 (BS EN 13501-1:2018)",
+        "standard": "ISO 9705\n/ ASTM E-84 / BS EN 13501-1"
+      },
+      {
+        "property": "Water Vapour Sorption",
+        "value": "0.4% by weight after 4 days at 49°C, 95% RH",
+        "standard": "ASTM C1104 /\nC1104M-13a"
+      },
+      {
+        "property": "Microbial Resistance",
+        "value": "Growth rating: 0\n(No growth)",
+        "standard": "ASTM G21-15"
+      },
+      {
+        "property": "VOC Emissions",
+        "value": "< 0.092 mg/m3 (7 days)",
+        "standard": "CDPH Standard Method v1.2"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Frontier Raft Beam 100 (2400mm)",
+        "size_or_rating": "2400mm L x 70mm W x 87mm H",
+        "pack": "Pack of 8 beams (covers 2.88 m2 at 150mm\ncentres)"
+      },
+      {
+        "variant": "Frontier Raft Beam 100 (1200mm)",
+        "size_or_rating": "1200mm L x 70mm W x 87mm H",
+        "pack": "Pack of 16 beams (covers 2.88 m2 at 150mm\ncentres)"
+      },
+      {
+        "variant": "Frontier Raft Beam 250 (2400mm)",
+        "size_or_rating": "2400mm L x 70mm W x 227mm H",
+        "pack": "Pack of 4 beams (covers 2.88 m2 at 300mm\ncentres)"
+      },
+      {
+        "variant": "Frontier Raft Beam 250 (1200mm)",
+        "size_or_rating": "1200mm L x 70mm W x 227mm H",
+        "pack": "Pack of 8 beams (covers 2.88 m2 at 300mm\ncentres)"
+      }
+    ],
+    "fire": "AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1\n(SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM E-84-15a Class A; BS\nEN 13501-1:2018 B - s2, d0",
+    "compliance": "NCC Specification 7 (BCA C1.10)\nGroup 1 fire compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354",
+    "sustainability": "Contains minimum 60% to 80% recycled PET; zero carbon\nmanufacturing; Declare Red List Free; EPD verified; low VOC",
+    "install": [
+      "Plan\nceiling layout allowing recommended spacing (150mm centres for Beam 100; 300mm\ncentres for Beam 250)",
+      "Install Frontier mounting clips or suspension track\nsecurely to structural ceiling",
+      "Slide RAFNEXRT aluminium extrusion into the\nfolded Beam raft top channel",
+      "Align Autex mounting clips with channel and\nturn 45 degrees to temporarily position",
+      "Adjust along length and twist\nclips 90 degrees to lock firmly into place",
+      "Fit black extrusion end caps to\nbeam ends for a clean aesthetic finish"
+    ],
+    "selection_checklist": [
+      "Select Beam\ndepth (Beam 100 at 87mm or Beam 250 at 227mm)",
+      "Confirm beam length (1200mm\nor 2400mm; custom lengths available)",
+      "Choose colour from the solid Cube colour\npalette (23+ colours)",
+      "Verify spacing (150mm for Beam 100; 300mm for Beam 250)\nto calculate pack requirements",
+      "Determine direct-fix or suspended installation\nhardware requirement"
+    ],
+    "accessories": [
+      "Frontier Raft Extrusions (RAFNEXRT)",
+      "Autex Mounting Clips (RAFTCC)",
+      "Frontier Channel Connectors (RAFCCT)",
+      "Adjustable suspension cable sets / rod hangers",
+      "Frontier Beam end caps"
+    ],
+    "limitations": [
+      "Indoor ceiling application only; not for external use or wet\nenvironments",
+      "Non-load-bearing beam; cannot support luminaires or heavy\nceiling services directly",
+      "Wider spacing will reduce overall acoustic\nabsorption in the room"
+    ],
+    "warranty": "10 Year Manufacturer's Guarantee"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Autex Frontier Raft Beam",
+      "Frontier\nBeam 100",
+      "Frontier Beam 250",
+      "acoustic ceiling beams",
+      "polyester acoustic\nrafters",
+      "solid colour acoustic beams",
+      "suspended ceiling beams",
+      "Autex\nacoustic raft",
+      "Cube ceiling beam"
+    ],
+    "problem_keywords": [
+      "echo in open plan\nceiling",
+      "reverberant exposed ductwork and soffit",
+      "office noise distraction",
+      "heavy ceiling beam weight limits",
+      "need linear ceiling feature with\nacoustics",
+      "sound reflection off commercial ceilings"
+    ],
+    "placement": [
+      "ceiling"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "fire",
+      "sustainability",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Suspended linear acoustic beams over open-plan\noffice desk rows to control speech flutter",
+      "Architectural ceiling baffle\nfeatures in university libraries and educational study halls",
+      "Acoustic\ntreatment in high-ceiling retail stores and restaurant dining spaces"
+    ],
+    "not_for": [
+      "Direct floor traffic surfaces",
+      "Outdoor canopies or external\nsoffits",
+      "Supporting electrical wiring conduits or heavy pendant fixtures"
+    ],
+    "rag_summary": "Autex Solid Colour Frontier Raft - Beam is a lightweight modular\nacoustic ceiling beam system crafted from 12mm Cube polyester felt into\nrectangular profiles (Beam 100 at 87mm high and Beam 250 at 227mm high). Built\nwith an internal sound-absorbing air gap and anchored with an extruded aluminium\nchannel, it delivers high acoustic ratings (NRC 0.75 to 0.95) in 23+ solid\nthrough-core colours. Achieving Group 1 fire compliance under AS ISO 9705 and\ncontaining over 60% recycled PET, it provides an architecturally sleek,\nlightweight alternative to solid timber or metal beams for commercial\ninteriors."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

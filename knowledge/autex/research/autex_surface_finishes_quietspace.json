@@ -1,0 +1,187 @@
+{
+  "family_id": "AUTEX_SURFACE_FINISHES_QUIETSPACE",
+  "family_name": "Autex Surface Finishes Quietspace",
+  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/quietspace-panel/",
+  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Autex Surface Finishes Quietspace combines the broadband acoustic performance\nof dual-density Quietspace Panel with high-definition digital UV printing.\nAvailable in realistic stone, concrete, and textural finishes from the Autex\nSurface Finishes collection, it replicates heavy, reverberant architectural\nsurfaces without their cost, weight, or rigidity. Printed with safe, water-based\ninks directly onto 100% polyester fibre, it delivers an NRC of 0.85 to 1.00 and\nGroup 1 fire compliance across walls and ceilings.",
+    "features": [
+      "Broadband\nsound absorption achieving NRC 0.85 (25mm) to 1.00 (50mm, 75mm, 100mm)",
+      "Digitally printed with realistic stone, marble, concrete, and textural\nfinishes",
+      "Dual-density polyester construction with compressed face and\ncushioned backing",
+      "Printed with safe, water-based, UV-cured ink without\nreducing acoustic absorption",
+      "Group 1 fire rating compliant with AS ISO 9705\n- 2003 and AS 5637.1",
+      "Constructed from 100% polyester fibre containing a\nminimum of 45% to 58% recycled PET",
+      "Lightweight, impact-resistant, and\nseismic-safe alternative to solid stone or precast slabs",
+      "Non-toxic,\nnon-allergenic, non-irritant, with low-VOC emissions",
+      "Certified Carbon Neutral\nproduct with third-party verified EPD and Declare Red List Free",
+      "Backed by\na 10-year manufacturer's guarantee"
+    ],
+    "applications": [
+      "wall",
+      "internal\nwall",
+      "ceiling"
+    ],
+    "technical": [
+      {
+        "property": "Noise Reduction Coefficient\n(NRC)",
+        "value": "25mm: 0.85 (Class C); 50mm: 1.00 (Class A); 75mm: 1.00 (Class\nA); 100mm: 1.00 (Class A)",
+        "standard": "ISO 354"
+      },
+      {
+        "property": "Panel\nDimensions",
+        "value": "1220 mm x 2440 mm (custom lengths up to 3600 mm)",
+        "standard": ""
+      },
+      {
+        "property": "Thickness Options",
+        "value": "25 mm, 50 mm, 75\nmm, 100 mm (tolerance +/- 6%)",
+        "standard": ""
+      },
+      {
+        "property": "Weight",
+        "value": "25mm: 2300 gsm; 50mm: 3800 gsm; 75mm: 4050 gsm; 100mm: 4300 gsm",
+        "standard": ""
+      },
+      {
+        "property": "Material Composition",
+        "value": "100% polyester\nfibre (PET) printed with UV-curable ink",
+        "standard": ""
+      },
+      {
+        "property": "Recycled Content",
+        "value": "Minimum 45% to 58% post-consumer recycled PET",
+        "standard": ""
+      },
+      {
+        "property": "Thermal Performance",
+        "value": "25mm: R0.6\n(@ 15°C); 50mm: R1.4 (@ 15°C)",
+        "standard": ""
+      },
+      {
+        "property": "Fire Rating\n(Australia)",
+        "value": "Group 1, SMOGRArc < 100 m2/s2",
+        "standard": "AS ISO 9705\n- 2003 / AS 5637.1"
+      },
+      {
+        "property": "International Fire Rating",
+        "value": "Group 1-S (ISO 9705:1993); Class A (ASTM E-84); 25mm BS EN 13501-1:2018 B - s2,\nd0; 50mm B - s2, d2",
+        "standard": "ISO 9705 / ASTM E-84 / BS EN 13501-1"
+      },
+      {
+        "property": "Water Vapour Sorption",
+        "value": "0.4% by weight after 4 days\nat 49°C, 95% RH",
+        "standard": "ASTM C1104 / C1104M-13a"
+      },
+      {
+        "property": "Microbial Resistance",
+        "value": "Growth rating: 0 (No growth)",
+        "standard": "ASTM G21-15"
+      },
+      {
+        "property": "VOC Emissions",
+        "value": "< 0.092 mg/m3 (7\ndays)",
+        "standard": "CDPH Standard Method v1.2"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Surface Finishes Quietspace Panel 25mm",
+        "size_or_rating": "1220 mm x 2440 mm\nx 25 mm, NRC 0.85",
+        "pack": "Panel"
+      },
+      {
+        "variant": "Surface Finishes Quietspace\nPanel 50mm",
+        "size_or_rating": "1220 mm x 2440 mm x 50 mm, NRC 1.00",
+        "pack": "Panel"
+      },
+      {
+        "variant": "Surface Finishes Quietspace Panel 75mm",
+        "size_or_rating": "1220 mm x 2440 mm x 75 mm, NRC 1.00",
+        "pack": "Panel"
+      },
+      {
+        "variant": "Surface Finishes Quietspace Panel 100mm",
+        "size_or_rating": "1220 mm\nx 2440 mm x 100 mm, NRC 1.00",
+        "pack": "Panel"
+      }
+    ],
+    "fire": "AS ISO 9705 - 2003\nand AS 5637.1 Classification: Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993\nGroup 1-S; ASTM E-84 Class A; BS EN 13501-1:2018 B - s2, d0 (25mm) / B - s2, d2\n(50mm)",
+    "compliance": "NCC Specification 7 (BCA C1.10) Group 1 fire compliance;\nAS ISO 9705:2003; AS 5637.1:2015; ISO 354",
+    "sustainability": "Carbon neutral\nproduct; water-based UV-cured ink; minimum 45% to 58% recycled PET; Declare Red\nList Free; EPD compliant; low VOC",
+    "install": [
+      "Ensure wall or ceiling\nsubstrate is flat, clean, dry, and dust-free",
+      "Acclimatise panels in the\ninstallation environment for at least 24 hours prior to fitting",
+      "Plan stone or\ntexture pattern alignment across panels before applying adhesive",
+      "Apply\nrecommended contact or high-grab MS polymer adhesive evenly across the panel\nback",
+      "Position panel onto substrate, butt joins tightly together, and roll\nfirmly with a pressure roller",
+      "Maintain the protective spun-bond film over\npanel face until all messy construction trades finish",
+      "Trim perimeter panels\ncarefully from the face using a straight edge and sharp utility knife on the\noffcut side"
+    ],
+    "selection_checklist": [
+      "Select finish design from Surface\nFinishes Stone (Carrara, Travertine, Statuario, etc.) or Texture (Concrete,\nCanvas, etc.) palettes",
+      "Confirm panel thickness (25mm for NRC 0.85 or 50mm+\nfor NRC 1.00)",
+      "Confirm total wall or ceiling dimensions (1220mm x 2440mm\nsheets)",
+      "Specify suitable mounting adhesive (contact adhesive or MS polymer)",
+      "Confirm need for aluminium edge trims (Autex Type C profile for 25mm)"
+    ],
+    "accessories": [
+      "Autex Edging Solutions (Type C profiles for 25mm panels)",
+      "Contact adhesive / MS polymer adhesive",
+      "Pressure roller"
+    ],
+    "limitations": [
+      "Indoor use only; avoid wet areas or direct water exposure",
+      "Do not expose to\nconcentrated heat sources exceeding 80°C",
+      "Recommended for non-contact areas as\nprinted surface may mark under heavy impact"
+    ],
+    "warranty": "Manufacturer's\nGuarantee (10 years)"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Autex Surface\nFinishes Quietspace",
+      "printed Quietspace panel",
+      "stone finish acoustic panel",
+      "marble look acoustic panel",
+      "concrete look acoustic panel",
+      "broadband stone\nacoustic panel",
+      "25mm printed acoustic panel",
+      "50mm printed acoustic panel",
+      "Autex Quietspace stone"
+    ],
+    "problem_keywords": [
+      "heavy solid stone weight\nlimits",
+      "reverberant polished concrete walls",
+      "marble wall acoustic\nreflection",
+      "harsh echo in luxury boardroom",
+      "commercial reception noise",
+      "need stone aesthetic with high acoustic absorption"
+    ],
+    "placement": [
+      "wall",
+      "internal wall",
+      "ceiling"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "thermal",
+      "fire",
+      "sustainability"
+    ],
+    "use_cases": [
+      "Creating luxurious marble- or\ntravertine-look acoustic walls in corporate boardrooms and hotel lobbies",
+      "Treating reverberation in high-end restaurants with industrial concrete-look\nacoustic panels",
+      "Broadband sound absorption in commercial meeting suites and\npresentation rooms"
+    ],
+    "not_for": [
+      "Floors or subfloor impact insulation",
+      "Exterior exposed facades",
+      "High-impact sports facilities without protective\nshielding"
+    ],
+    "rag_summary": "Autex Surface Finishes Quietspace pairs the\nbroadband sound absorption of dual-density Quietspace Panel (NRC 0.85 to 1.00)\nwith high-definition digital UV printing of natural stone, marble, concrete, and\ntextural finishes. Available in thicknesses from 25mm to 100mm in 1220mm\nx 2440mm sheets, it replicates heavy, reverberant architectural masonry without\nstructural weight, installation complexity, or acoustic compromise. Achieving\nGroup 1 fire compliance under AS ISO 9705 and containing up to 58% recycled PET,\nit delivers premium, carbon-neutral acoustic control for luxury corporate and\nhospitality interiors."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

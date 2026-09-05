@@ -1,0 +1,183 @@
+{
+  "family_id": "BRADFORD_ACOUSTIGARD",
+  "family_name": "Bradford Acoustigard",
+  "datasheet_pdf_url": "https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/walls/acoustigard",
+  "sds_url": "https://www.bradfordinsulation.com.au/resources/safety-data-sheets",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Bradford Acoustigard is a premium, Australian-made\nnon-combustible glasswool insulation available in partition batts and rolls,\nspecifically engineered to deliver high-performance acoustic control in internal\npartition walls. Manufactured from molten glass containing up to 65% recycled\ncontent using biosoluble FBS-1 formulation, it provides sound transmission loss\nand cavity absorption in commercial steel stud and timber wall assemblies. It is\nnon-combustible, low-allergen, and sized to fit standard 64mm and 92mm steel\nstud walls without causing plasterboard bulge.",
+    "features": [
+      "Non-combustible\nbulk insulation complying with AS 1530.1",
+      "High acoustic performance helping\nachieve Rw/STC ratings of 42 to 60+ in partition walls",
+      "Available in partition\nrolls and pre-cut batts sized for 450mm and 600mm commercial stud centres",
+      "Manufactured from up to 65% recycled glass content",
+      "Friction-fit dimensions\ndesigned to fit 64mm and 92mm steel studs without bulging wall linings",
+      "FBS-1\nbio-soluble glasswool formulation assessed as non-hazardous",
+      "Zero Ozone\nDepleting Potential (ODP) and non-toxic with low VOC emissions",
+      "Early Fire\nHazard indices of 0/0/0/1 to AS/NZS 1530.3",
+      "Maximum service temperature up\nto 150°C (batts) and 300°C (rolls)",
+      "Thermal performance ratings from R1.3 to\nR2.7 in accordance with AS/NZS 4859.1"
+    ],
+    "applications": [
+      "wall",
+      "internal\nwall",
+      "external wall",
+      "between floors"
+    ],
+    "technical": [
+      {
+        "property": "Material R-values",
+        "value": "R1.3 (50mm), R1.5 (50mm), R1.7 (75mm), R1.8\n(75mm), R2.0 (90mm), R2.5 (90mm), R2.7 (90mm)",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Nominal Densities",
+        "value": "11 kg/m3, 14 kg/m3, 24 kg/m3, 32\nkg/m3",
+        "standard": ""
+      },
+      {
+        "property": "Thicknesses",
+        "value": "50 mm, 75\nmm, 90 mm",
+        "standard": ""
+      },
+      {
+        "property": "Dimensions (Batts)",
+        "value": "1200\nmm x 450 mm; 1200 mm x 600 mm",
+        "standard": ""
+      },
+      {
+        "property": "Dimensions\n(Rolls)",
+        "value": "13.5 m x 450 mm; 13.5 m x 600 mm; 5.4 m x 450 mm; 5.4 m\nx 600 mm",
+        "standard": ""
+      },
+      {
+        "property": "Combustibility",
+        "value": "Non-Combustible",
+        "standard": "AS 1530.1"
+      },
+      {
+        "property": "Fire Hazard\nProperties (AS/NZS 1530.3)",
+        "value": "Ignitability: 0, Spread of Flame: 0, Heat\nEvolved: 0, Smoke Developed: 1",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Maximum Service Temperature",
+        "value": "150°C (Batts); 300°C (Rolls)",
+        "standard": ""
+      },
+      {
+        "property": "Acoustic Performance (NRC)",
+        "value": "0.80\n- 1.05 depending on thickness and density",
+        "standard": "AS ISO 354"
+      },
+      {
+        "property": "Corrosion Resistance",
+        "value": "Non-corrosive, pH neutral",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Biosolubility",
+        "value": "FBS-1\nbio-soluble formulation (Note Q compliant)",
+        "standard": "Safe Work Australia"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Acoustigard 11kg/m3 (75mm R1.7)",
+        "size_or_rating": "75mm x 450/600mm x 1200mm (Batts) or 13.5m (Rolls)",
+        "pack": "Pack"
+      },
+      {
+        "variant": "Acoustigard 14kg/m3 (75mm R1.8)",
+        "size_or_rating": "75mm\nx 450/600mm x 1200mm (Batts) or 13.5m (Rolls)",
+        "pack": "Pack"
+      },
+      {
+        "variant": "Acoustigard 24kg/m3 (50mm R1.5)",
+        "size_or_rating": "50mm x 450/600mm x 1200mm\n(Batts) or 10.0m (Rolls)",
+        "pack": "Pack"
+      },
+      {
+        "variant": "Acoustigard 32kg/m3\n(90mm R2.7)",
+        "size_or_rating": "90mm x 450/600mm x 1200mm (Batts) or 5.4m\n(Rolls)",
+        "pack": "Pack"
+      }
+    ],
+    "fire": "Non-Combustible to AS 1530.1;\nAS/NZS 1530.3: Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke\nDeveloped: 1",
+    "compliance": "AS/NZS 4859.1:2018; AS 1530.1; AS/NZS 1530.3;\nNCC 2022 Volume 1 J4D3 and Specification 7 (Fire); Deemed non-combustible",
+    "sustainability": "Contains up to 65% recycled glass; FBS-1 bio-soluble\nformulation; low VOC; zero ODP; non-hazardous",
+    "install": [
+      "Confirm framing\nstud spacing (450mm or 600mm centres) and cavity depth",
+      "Ensure electrical\nwiring and plumbing penetrations are roughed in prior to insulation",
+      "Friction-fit Acoustigard batts or unroll partition rolls vertically between\nstuds",
+      "Ensure the insulation fills the stud cavity snugly without gaps, voids,\nor excessive compression",
+      "Cut neatly around electrical junction boxes,\nnogging, and service penetrations using an insulation knife",
+      "Fix plasterboard\nlinings directly over studs, ensuring insulation remains in place without\nbulging linings"
+    ],
+    "selection_checklist": [
+      "Confirm stud depth\n(64mm, 75mm, 92mm) and spacing (450mm or 600mm centres)",
+      "Confirm acoustic\nengineer specification (density 11kg, 14kg, 24kg, or 32kg/m3 and required Rw\nrating)",
+      "Choose between pre-cut batts (faster handling) or continuous rolls\n(longer continuous drops)",
+      "Verify non-combustibility requirement under NCC for\ncommercial wall assemblies",
+      "Check thermal R-value requirement if wall\nseparates conditioned and unconditioned spaces"
+    ],
+    "accessories": [
+      "Serrated\ninsulation knife",
+      "Personal protective equipment (gloves, dust mask, safety\nglasses)"
+    ],
+    "limitations": [
+      "Not designed for direct weather-exposed external\napplications without waterproof building wrap",
+      "Do not over-compress into studs\nnarrower than the nominal insulation thickness",
+      "Not suitable for continuous\noperating temperatures exceeding 150°C (batts) or 300°C (rolls)"
+    ],
+    "warranty": "CSR Bradford Standard Product Warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Bradford Acoustigard",
+      "Acoustigard partition batts",
+      "Acoustigard partition\nrolls",
+      "commercial wall insulation",
+      "steel stud acoustic insulation",
+      "non\ncombustible partition insulation",
+      "glasswool partition batts",
+      "Bradford\nacoustic batts",
+      "Acoustigard 14kg",
+      "Acoustigard 32kg"
+    ],
+    "problem_keywords": [
+      "sound transmission through office walls",
+      "noisy commercial partition",
+      "inter-tenancy noise transfer",
+      "meeting room privacy",
+      "non-combustible wall\ninsulation requirement",
+      "meeting BCA acoustic wall codes"
+    ],
+    "placement": [
+      "wall",
+      "internal wall",
+      "external wall",
+      "between floors"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "fire",
+      "thermal",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Friction-fitting into 64mm and 92mm steel stud drywall partitions in commercial\noffice fitouts to achieve Rw 45 to Rw 55+",
+      "Acoustic and thermal infill in\nmulti-residential intertenancy party walls",
+      "Sound-dampening insulation inside\nhealthcare consulting rooms, hotel guestroom partitions, and cinema acoustic\nwalls"
+    ],
+    "not_for": [
+      "Flooring underlay under tiles or timber",
+      "Exposed\ndecorative wall linings",
+      "External roofing without waterproof membrane"
+    ],
+    "rag_summary": "Bradford Acoustigard is a non-combustible bio-soluble glasswool\ninsulation supplied in pre-cut batts and rolls, specifically formulated for\nacoustic control in commercial steel stud and timber drywall partitions.\nAvailable in densities from 11 kg/m3 to 32 kg/m3 and thicknesses of 50mm, 75mm,\nand 90mm (R1.3 to R2.7), it provides high sound transmission loss (Rw 42 to 60+)\nand cavity absorption. Manufactured in Australia with up to 65% recycled glass\nand certified non-combustible to AS 1530.1, it fits standard 64mm and 92mm studs\nsnugly without bulging plasterboard linings."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

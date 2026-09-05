@@ -1,0 +1,184 @@
+{
+  "family_id": "BRADFORD_SUPERTEL_PLAIN_PLAIN_UNFACED",
+  "family_name": "Bradford Supertel Plain - Plain - Unfaced",
+  "datasheet_pdf_url": "https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/hvac/supertel",
+  "sds_url": "https://www.bradfordinsulation.com.au/resources/safety-data-sheets",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Bradford Supertel Plain - Plain - Unfaced is a high-density\n(32kg/m3) plain glasswool insulation board and blanket that provides exceptional\nthermal resistance and broadband acoustic sound absorption. Free from laminated\nfoil or fabric facings, it operates at continuous service temperatures up\nto 350°C and is non-combustible under AS 1530.1. It is the premier choice for\ninternal acoustic cavities, mechanical sound attenuators, industrial machinery\nenclosures, and bespoke fabrication.",
+    "features": [
+      "32kg/m3 high-density\nbio-soluble glasswool insulation with zero facing materials",
+      "Continuous\nmaximum operating temperature capability up to 350°C",
+      "Non-combustible bulk\ninsulation complying with AS 1530.1",
+      "Class-leading acoustic absorption rating\nwith NRC up to 0.85 - 1.10",
+      "Early Fire Hazard properties (0/0/0/0-1) to\nAS/NZS 1530.3",
+      "Thermal performance ratings from R0.4 (13mm) to R3.0 (100mm)",
+      "Made in Australia from up to 65% recycled glass",
+      "FBS-1 bio-soluble\nformulation certified non-hazardous by Safe Work Australia",
+      "Hydrophobic resin\nbonding repels moisture absorption",
+      "Available in semi-rigid boards and\nflexible blanket rolls"
+    ],
+    "applications": [
+      "duct",
+      "pipe",
+      "ceiling",
+      "wall"
+    ],
+    "technical": [
+      {
+        "property": "Material R-values",
+        "value": "13mm: R0.4; 25mm:\nR0.8; 40mm: R1.2; 50mm: R1.5; 75mm: R2.2; 100mm: R3.0",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Density",
+        "value": "32 kg/m3",
+        "standard": ""
+      },
+      {
+        "property": "Thickness",
+        "value": "13 mm, 25 mm, 40 mm, 50 mm, 75 mm, 100\nmm",
+        "standard": ""
+      },
+      {
+        "property": "Dimensions (Rolls)",
+        "value": "15 m\nx 1200/1500 mm (25mm); 10 m x 1200/1500 mm (50mm)",
+        "standard": ""
+      },
+      {
+        "property": "Dimensions (Boards)",
+        "value": "2400 mm x 1200 mm",
+        "standard": ""
+      },
+      {
+        "property": "Sound Absorption (NRC)",
+        "value": "25mm: NRC 0.80; 50mm:\nNRC 1.00; 75mm: NRC 1.05; 100mm: NRC 1.10",
+        "standard": "AS ISO 354"
+      },
+      {
+        "property": "Combustibility",
+        "value": "Non-Combustible",
+        "standard": "AS 1530.1"
+      },
+      {
+        "property": "Fire Hazard Properties",
+        "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Maximum Service Temperature",
+        "value": "350°C",
+        "standard": ""
+      },
+      {
+        "property": "Thermal Conductivity",
+        "value": "0.032 W/m·K at 20°C",
+        "standard": "ASTM C518"
+      },
+      {
+        "property": "Moisture Absorption",
+        "value": "< 0.2% by volume",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Supertel Plain Unfaced 25mm",
+        "size_or_rating": "25 mm\nx 1200/1500 mm x 15 m (R0.8) or 2400x1200 mm board",
+        "pack": "Roll / Pack"
+      },
+      {
+        "variant": "Supertel Plain Unfaced 40mm",
+        "size_or_rating": "40 mm x 1500 mm\nx 10 m (R1.2) or 2400x1200 mm board",
+        "pack": "Roll / Pack"
+      },
+      {
+        "variant": "Supertel Plain Unfaced 50mm",
+        "size_or_rating": "50 mm x 1200/1500 mm x 10 m\n(R1.5) or 2400x1200 mm board",
+        "pack": "Roll / Pack"
+      },
+      {
+        "variant": "Supertel\nPlain Unfaced 75mm",
+        "size_or_rating": "75 mm x 1200/1500 mm x 5 m (R2.2)\nor 2400x1200 mm board",
+        "pack": "Roll / Pack"
+      },
+      {
+        "variant": "Supertel Plain\nUnfaced 100mm",
+        "size_or_rating": "100 mm x 1380/1500 mm x 5 m (R3.0)\nor 2400x1200 mm board",
+        "pack": "Roll / Pack"
+      }
+    ],
+    "fire": "Non-Combustible to\nAS 1530.1; AS/NZS 1530.3: Ignitability 0, Spread of Flame 0, Heat Evolved 0,\nSmoke Developed 0-1; Max service temp 350°C",
+    "compliance": "AS/NZS 4859.1:2018;\nAS 1530.1; AS/NZS 1530.3; AS 4254; NCC 2022 Volume 1 & Volume 2",
+    "sustainability": "Contains up to 65% recycled glass; FBS-1 bio-soluble\nglasswool; zero ODP; low VOC",
+    "install": [
+      "Measure cavity, duct, or enclosure\ninterior and cut unfaced Supertel using a sharp insulation knife",
+      "Impale onto\nwelded metal pins or friction fit into framing channels",
+      "Secure using speed\nwashers over pins",
+      "Ensure tight butt joins on all edges to eliminate sound or\nheat leaks",
+      "Enclose behind linings, cladding, or perforated sheets as\ndesigned"
+    ],
+    "selection_checklist": [
+      "Confirm 32kg/m3 high density is\nrequired",
+      "Confirm plain unfaced specification (no foil or fabric facing\nattached)",
+      "Select thickness (13mm to 100mm)",
+      "Confirm operating temperature\nis within 350°C limit",
+      "Ensure mechanical fasteners (pins and speed clips) are\nspecified"
+    ],
+    "accessories": [
+      "Insulation stick pins and speed clips",
+      "Insulation knife"
+    ],
+    "limitations": [
+      "No vapour barrier; do not use as a\ncondensation control barrier",
+      "Not for direct exposure to liquid water or\noutdoor weather",
+      "Must be covered or contained in high-velocity air streams"
+    ],
+    "warranty": "CSR Bradford Standard Product Warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Bradford Supertel Plain Unfaced",
+      "Supertel unfaced\nboard",
+      "32kg unfaced glasswool",
+      "unfaced acoustic glasswool",
+      "Supertel 32kg\nplain board",
+      "plain ductliner insulation",
+      "high density unfaced glasswool",
+      "Supertel 50mm unfaced"
+    ],
+    "problem_keywords": [
+      "industrial fan noise",
+      "compressor enclosure reverberation",
+      "uninsulated silencer body",
+      "high heat\nvessel insulation",
+      "acoustic cavity absorption",
+      "need 32kg non-combustible\nglasswool"
+    ],
+    "placement": [
+      "duct",
+      "pipe",
+      "ceiling",
+      "wall"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "fire",
+      "thermal"
+    ],
+    "use_cases": [
+      "Fabrication\nof acoustic baffles and silencers in commercial ventilation systems",
+      "Cavity\nsound absorption behind timber acoustic wall panelling in auditoriums and\nrecording studios",
+      "Thermal lagging and sound isolation on hot industrial\nequipment up to 350°C"
+    ],
+    "not_for": [
+      "Unfaced external duct wrapping exposed\nto rain",
+      "Vapour barrier condensation control applications",
+      "Direct floor\ntraffic surfaces"
+    ],
+    "rag_summary": "Bradford Supertel Plain - Plain - Unfaced\nis a 32 kg/m3 density, unlaminated bio-soluble glasswool insulation board and\nblanket manufactured in Australia with up to 65% recycled glass. Delivering an\nNRC of up to 1.10 and continuous temperature resistance to 350°C, it is\ncertified non-combustible under AS 1530.1. Sized in 13mm to 100mm thicknesses\n(R0.4 to R3.0), it serves as the industry standard acoustic and thermal core for\nmechanical attenuators, commercial duct linings, and architectural acoustic\ncavities."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

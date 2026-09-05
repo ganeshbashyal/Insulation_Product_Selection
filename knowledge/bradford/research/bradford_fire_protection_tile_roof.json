@@ -1,0 +1,153 @@
+{
+  "family_id": "BRADFORD_FIRE_PROTECTION_TILE_ROOF",
+  "family_name": "Bradford Fire Protection - Tile Roof",
+  "datasheet_pdf_url": "https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/walls/fireseal",
+  "sds_url": "https://www.bradfordinsulation.com.au/-/media/bradford/files/safety-data-sheet---rockwool.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Bradford Fire Protection - Tile Roof (Bradford Fireseal Party\nWall Sealer for Tiled Roofs / Fireseal FZ Tile Roof Batts) is a non-combustible\nstone wool insulation product designed to seal the junction between the top of a\nfire-rated party wall and concrete or terracotta roof tiles. Available as a 50mm\nthick roll (4000mm x 300mm or 360mm) or 100mm x 115mm x 1200mm batts, it\ncompresses under the tiled roof build-up to prevent fire, sparks, and embers\nfrom traveling between adjoining occupancies in Class 1 buildings. It delivers\nhigh thermal stability, resisting shrinkage under extreme fire exposure, and\nmeets BAL-FZ bushfire standards.",
+    "features": [
+      "Non-combustible stone wool\nconstruction complying with AS 1530.1",
+      "50mm thickness optimised for profile\ndepths of concrete and terracotta roof tiles",
+      "Seals top-of-wall junctions to\nprevent flame and spark spread between tenancies",
+      "Outstanding resistance to\nshrinkage under extreme fire conditions up to 1000°C",
+      "Certified for Bushfire\nAttack Level BAL-FZ construction under tiled roofs",
+      "Bio-soluble FBS-1 rockwool\nformulation",
+      "Water-resistant fibres that do not degrade upon contact with\nmoisture",
+      "Satisfies NCC / BCA Deemed-to-Satisfy provisions for Class 1\nseparating walls"
+    ],
+    "applications": [
+      "roof",
+      "roofline",
+      "wall",
+      "internal\nwall"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "Bio-soluble rockwool\n(FBS-1)",
+        "standard": ""
+      },
+      {
+        "property": "Nominal Thickness",
+        "value": "50 mm\n(blanket) or 100 mm (FZ tile batt)",
+        "standard": ""
+      },
+      {
+        "property": "Dimensions\n(Blanket)",
+        "value": "4000 mm length x 300 mm or 360 mm width",
+        "standard": ""
+      },
+      {
+        "property": "Dimensions (FZ Tile Batt)",
+        "value": "1200 mm length x 115 mm\nwidth x 100 mm thickness",
+        "standard": ""
+      },
+      {
+        "property": "Combustibility",
+        "value": "Non-combustible",
+        "standard": "AS 1530.1"
+      },
+      {
+        "property": "Fire\nHazard Indices",
+        "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0,\nSmoke Developed: 0-1",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Installation Compression",
+        "value": "Minimum 10% to 15% compression beneath\nroof tiles",
+        "standard": ""
+      },
+      {
+        "property": "Thermal Performance",
+        "value": "R1.2 (uncompressed 50mm)",
+        "standard": "AS/NZS 4859.1"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Fireseal Party Wall Sealer for Tiled Roofs 50x300mm",
+        "size_or_rating": "50 mm x 4000 mm x 300 mm (2 pieces, 8 lineal metres)",
+        "pack": "Pack of 2 rolls (Code: 123443)"
+      },
+      {
+        "variant": "Fireseal Party Wall\nSealer for Tiled Roofs 50x360mm",
+        "size_or_rating": "50 mm x 4000 mm x 360 mm (2\npieces, 8 lineal metres)",
+        "pack": "Pack of 2 rolls (Code: 123445)"
+      },
+      {
+        "variant": "Fireseal FZ Tile Roof Batts",
+        "size_or_rating": "100 mm x 115 mm\nx 1200 mm",
+        "pack": "Pack of 8 pieces (9.6 lineal metres, Code: 125083)"
+      }
+    ],
+    "fire": "Non-combustible to AS 1530.1; AS/NZS 1530.3: Ignitability 0, Spread of\nFlame 0, Heat Evolved 0, Smoke Developed 0-1; Suitable for BAL-FZ bushfire zones\nunder AS 3959; NCC separating wall compliance",
+    "compliance": "NCC Volume Two /\nABCB Housing Provisions Standard Part 9.3; AS 1530.1; AS/NZS 4859.1; AS 3959",
+    "sustainability": "Manufactured from natural rock and recycled blast furnace\nslag; bio-soluble FBS-1; zero ODP",
+    "install": [
+      "Roll Fireseal 50mm Party Wall\nSealer along the top of the fire-rated party wall prior to roof tile\ninstallation",
+      "Ensure the blanket spans the full width of the wall and\ntimber/steel framing",
+      "Lay roof tile battens and tiles over the sealer,\nensuring continuous 10-15% compression beneath tile profiles",
+      "Butt joints in\nblanket tightly together with no gaps",
+      "Verify no void exists where tile\nprofiles create contours above the party wall line"
+    ],
+    "selection_checklist": [
+      "Confirm roof covering is concrete or terracotta tiles (requiring 50mm\nthickness)",
+      "Select width based on party wall structure (300mm standard, 360mm\nfor wider cavity party walls)",
+      "Measure total linear metres needed along the\ntop of party walls",
+      "Check if property is in a BAL-FZ bushfire attack zone"
+    ],
+    "accessories": [
+      "Bradford Fireseal Party Wall Batten Fillers",
+      "Bradford\nFireseal Party Wall Batts"
+    ],
+    "limitations": [
+      "Must be compressed\nminimum 10-15% by roof tiles to ensure fire and smoke seal",
+      "Not suitable for\ndeep-rib metal roofing where 75mm is required",
+      "Must not be left exposed to\npooling water or continuous outdoor weathering"
+    ],
+    "warranty": "Backed by CSR\nBradford product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Bradford\nFireseal Tile Roof",
+      "Fire Protection Tile Roof",
+      "party wall sealer tile roof",
+      "50mm fireseal party wall",
+      "tiled roof fire seal",
+      "Fireseal FZ tile roof\nbatts",
+      "concrete tile party wall seal",
+      "CSR Bradford 123443"
+    ],
+    "problem_keywords": [
+      "fire spread under roof tiles",
+      "tile roof party wall\ngap",
+      "ember ingress under roof tiles",
+      "party wall tile roof fire rating",
+      "BAL\nFZ tile roof sealing",
+      "inter-tenancy fire spread tile roof"
+    ],
+    "placement": [
+      "roof",
+      "roofline",
+      "internal wall",
+      "wall"
+    ],
+    "priority_fit": [
+      "fire"
+    ],
+    "use_cases": [
+      "Sealing the junction between the top of an inter-tenancy masonry\nor Hebel party wall and concrete/terracotta roof tiles in townhouses and\nduplexes",
+      "Providing BAL-FZ ember and flame protection under roof tiles in\nbushfire-prone areas"
+    ],
+    "not_for": [
+      "Profiled metal deck roofs\n(requiring 75mm)",
+      "Underfloor timber floor insulation",
+      "Cavity acoustic\npartition batts"
+    ],
+    "rag_summary": "Bradford Fire Protection - Tile Roof\n(Fireseal Party Wall Sealer for Tiled Roofs) is a 50mm thick, non-combustible\nstone wool blanket designed to seal the gap between the top of fire-rated party\nwalls and concrete or terracotta roof tiles in Class 1 buildings. It compresses\nby 10-15% under tile battens and contours, creating an impenetrable barrier\nagainst flame, hot gases, and embers. Certified non-combustible to AS 1530.1 and\nrated for BAL-FZ bushfire conditions, it ensures multi-residential party wall\nassemblies comply with NCC Deemed-to-Satisfy fire separation standards."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

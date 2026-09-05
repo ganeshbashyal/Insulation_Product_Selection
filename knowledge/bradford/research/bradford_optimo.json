@@ -1,0 +1,176 @@
+{
+  "family_id": "BRADFORD_OPTIMO",
+  "family_name": "Bradford Optimo",
+  "datasheet_pdf_url": "https://www.bradfordinsulation.com.au/home-insulation/floor/optimo-underfloor-insulation",
+  "sds_url": "https://www.bradfordinsulation.com.au/-/media/bradford/files/safety-data-sheet---glasswool.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Bradford Optimo is a rigid, high-density glasswool insulation\nbatt specifically engineered for suspended timber floors in new builds and\nretrofits. Sized deliberately narrower than wall batts (415mm and 565mm) to fit\nsnugly between floor joists, Optimo reduces subfloor heat loss by up to 20%,\nblocks draughts, and dampens footstep resonance and external noise transmission\nby up to 6dB. Non-combustible, low-allergen, and Sensitive Choice certified, it\nis secured from below or above using proprietary Optimo Saddles, Straps, or\nStayFast brackets and backed by a 70-year warranty.",
+    "features": [
+      "Specifically designed for suspended timber floors to eliminate cold floors and\nsubfloor draughts",
+      "Sized narrower (415mm and 565mm) for a tight, friction-fit\ngrip between timber joists",
+      "Rigid, high-density glasswool construction\nprevents sagging and holds thickness",
+      "Cuts heat loss through suspended timber\nfloors by up to 20%",
+      "Reduces acoustic reverberation and foot traffic noise\nthrough floorboards by up to 6dB",
+      "Non-combustible when tested in accordance\nwith AS 1530.1",
+      "National Asthma Council Sensitive Choice approved for\nlow-allergen indoor air quality",
+      "Simple installation using proprietary Optimo\nSaddles (new builds), Straps, or StayFast brackets (retrofits)",
+      "Manufactured\nfrom up to 80% recycled glass with bio-soluble FBS-1 formulation",
+      "Backed by\nCSR Bradford's 70-year product performance warranty"
+    ],
+    "applications": [
+      "floor",
+      "underfloor",
+      "subfloor",
+      "between floors"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "High-density bio-soluble glasswool (FBS-1)",
+        "standard": ""
+      },
+      {
+        "property": "Thermal Resistance (R-Value)",
+        "value": "R2.1,\nR2.5",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Thickness",
+        "value": "R2.1: 75 mm; R2.5: 90 mm",
+        "standard": ""
+      },
+      {
+        "property": "Standard\nDimensions",
+        "value": "1160 mm length x 415 mm width (for 450mm joists) or 565\nmm width (for 600mm joists)",
+        "standard": ""
+      },
+      {
+        "property": "Coverage Per\nPack",
+        "value": "415 mm: 3.85 m² (8 batts); 565 mm: 5.24 m² (8 batts)",
+        "standard": ""
+      },
+      {
+        "property": "Combustibility",
+        "value": "Non-combustible",
+        "standard": "AS 1530.1"
+      },
+      {
+        "property": "Fire Hazard Indices",
+        "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 1",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Maximum Service Temperature",
+        "value": "300°C",
+        "standard": ""
+      },
+      {
+        "property": "Acoustic Attenuation",
+        "value": "Reduces sound transmission through timber floors by up to 6 dB",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Optimo Underfloor Batts R2.1\n(415mm)",
+        "size_or_rating": "75 mm x 1160 mm x 415 mm",
+        "pack": "Pack of 8 batts\n(3.85 m², Code: 122432)"
+      },
+      {
+        "variant": "Optimo Underfloor Batts R2.1 (565mm)",
+        "size_or_rating": "75 mm x 1160 mm x 565 mm",
+        "pack": "Pack of 8 batts (5.24 m²,\nCode: 122433)"
+      },
+      {
+        "variant": "Optimo Underfloor Batts R2.5 (415mm)",
+        "size_or_rating": "90 mm x 1160 mm x 415 mm",
+        "pack": "Pack of 8 batts (3.85 m²,\nCode: 114650)"
+      },
+      {
+        "variant": "Optimo Underfloor Batts R2.5 (565mm)",
+        "size_or_rating": "90 mm x 1160 mm x 565 mm",
+        "pack": "Pack of 8 batts (5.24 m²,\nCode: 114692)"
+      }
+    ],
+    "fire": "Non-combustible to AS 1530.1; AS/NZS 1530.3\nindices: Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke\nDeveloped: 1; Suitable for bushfire-prone areas",
+    "compliance": "AS/NZS 4859.1,\nAS 3999, NCC Volume One and Volume Two / ABCB Housing Provisions Standard\nPart 13.2",
+    "sustainability": "Contains up to 80% recycled glass; bio-soluble\nFBS-1 formulation; zero ODP; Sensitive Choice certified",
+    "install": [
+      "Turn off\npower at main switchboard before entering subfloor space",
+      "Measure joist\nspacings (use 415mm batts for 450mm centres; 565mm batts for 600mm centres)",
+      "In new builds, fit Optimo Saddles across joists at max 500mm spacing before\nlaying flooring, then place batts on saddle feet from above",
+      "For retrofit\nbeneath existing floors, push batts up tightly against underside of floorboards\nensuring no air gaps",
+      "Secure retrofitted batts using Optimo Straps fixed to\njoists at max 500mm intervals and swivelled 90 degrees to support batts",
+      "Alternatively, use self-adhesive Optimo StayFast brackets (2 per side per batt)\nfixed 300mm in from batt ends",
+      "Trim batts 5mm wider than opening if joist\nspacing is irregular to maintain a snug friction fit",
+      "Take care not to block\nsubfloor ventilation openings"
+    ],
+    "selection_checklist": [
+      "Measure joist\ncentres (450mm vs 600mm) to select 415mm or 565mm batt width",
+      "Confirm required\nR-value (R2.1 or R2.5) based on climate zone and energy rating targets",
+      "Check\ninstallation method (new build from above vs retrofit from subfloor\ncrawlspace)",
+      "Order corresponding fixing accessories (Optimo Saddles, Optimo\nStraps, or Optimo StayFast brackets)",
+      "Ensure minimum crawl space clearance\nexists for safe access in retrofit jobs"
+    ],
+    "accessories": [
+      "Bradford Optimo\nSaddles",
+      "Bradford Optimo Straps",
+      "Bradford Optimo StayFast Brackets"
+    ],
+    "limitations": [
+      "Must be mechanically supported with Saddles, Straps, or\nStayFast brackets to prevent gravity sagging over time",
+      "Do not cover\nelectrical subfloor wiring that may be susceptible to derating without checking\nAS/NZS 3000",
+      "Do not block subfloor wall vents which are critical for moisture\ndissipation"
+    ],
+    "warranty": "70 Year Product Performance Warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Bradford Optimo",
+      "Optimo underfloor batts",
+      "underfloor insulation",
+      "R2.5 underfloor batts",
+      "suspended timber floor\ninsulation",
+      "Optimo 415mm",
+      "Optimo 565mm",
+      "Optimo StayFast",
+      "Optimo\nsaddles",
+      "cold timber floor insulation"
+    ],
+    "problem_keywords": [
+      "cold timber\nfloorboards in winter",
+      "draughts blowing up through floorboards",
+      "heat loss\nthrough suspended floor",
+      "creaking noisy timber floor",
+      "subfloor drafts",
+      "uninsulated timber floor"
+    ],
+    "placement": [
+      "floor",
+      "underfloor",
+      "subfloor",
+      "between floors"
+    ],
+    "priority_fit": [
+      "thermal",
+      "easy_install",
+      "acoustic",
+      "sustainability"
+    ],
+    "use_cases": [
+      "Retrofitting underfloor insulation beneath\nexisting polished timber floorboards in older homes to eliminate winter chills\nand draughts",
+      "Installing between joists from above in new suspended timber\nfloor construction using Optimo Saddles",
+      "Dampening footstep noise and floor\nhollow resonance in double-storey homes"
+    ],
+    "not_for": [
+      "Concrete slab\ninsulation",
+      "Wall cavity framing batts (use Bradford Gold Wall)",
+      "Ceiling\ninsulation"
+    ],
+    "rag_summary": "Bradford Optimo is a high-density, rigid\nglasswool insulation batt specifically designed to insulate suspended timber\nfloors. Available in R2.1 and R2.5 ratings and custom-sized to 415mm and 565mm\nwidths to friction-fit snugly between joists, it prevents cold subfloor\ndraughts, cuts floor heat loss by up to 20%, and dampens floorboard footstep\nnoise by up to 6dB. Deemed non-combustible to AS 1530.1, Sensitive Choice\ncertified, and secured using Optimo Saddles, Straps, or StayFast brackets, it is\nbacked by a 70-year performance warranty."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

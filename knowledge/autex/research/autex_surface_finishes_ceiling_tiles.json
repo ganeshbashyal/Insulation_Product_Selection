@@ -1,0 +1,166 @@
+{
+  "family_id": "AUTEX_SURFACE_FINISHES_CEILING_TILES",
+  "family_name": "Autex Surface Finishes Ceiling Tiles",
+  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/accent-ceiling-tiles/",
+  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Autex Surface Finishes Ceiling Tiles (including Acoustic Timber Ceiling Tiles)\nare high-performance acoustic ceiling tiles designed to drop into standard\nsuspended ceiling grids with authentic natural material finishes. Utilizing\nhigh-definition digital UV printing with safe water-based inks, realistic timber\ngrains and stone textures are applied directly to 12mm non-woven polyester\nacoustic tiles. Delivering an NRC of 0.85 without the weight, rigidity, or cost\nof real wood or stone, they provide Class A acoustic absorption and Group 1 fire\ncompliance.",
+    "features": [
+      "Digitally printed natural material finishes\nincluding 24 timber grains and stone textures",
+      "Engineered to fit standard\nmetric 600mm x 600mm and 1200mm x 600mm suspended ceiling grids",
+      "High acoustic\nperformance achieving NRC 0.85 (Class A sound absorption)",
+      "Lightweight,\nsemi-rigid polyester construction that will not chip, crack, or break",
+      "Printed\nwith safe, water-based, UV-cured ink that does not compromise acoustics",
+      "Constructed from 100% polyester fibre containing a minimum of 78% to 80%\nrecycled PET",
+      "Group 1 fire rating compliant with AS ISO 9705 - 2003 and\nAS 5637.1",
+      "Resistant to moisture, mould, and mildew (ASTM G21-15 Growth\nRating: 0)",
+      "Certified Carbon Neutral product with third-party verified EPD",
+      "Backed by a 10-year manufacturer's guarantee"
+    ],
+    "applications": [
+      "ceiling",
+      "commercial office",
+      "boardroom",
+      "education",
+      "hospitality",
+      "retail"
+    ],
+    "technical": [
+      {
+        "property": "Noise Reduction Coefficient (NRC)",
+        "value": "0.85",
+        "standard": "ASTM C423 / ISO 354"
+      },
+      {
+        "property": "Sound Absorption\nClass",
+        "value": "Class A",
+        "standard": "ISO 11654"
+      },
+      {
+        "property": "Tile\nDimensions",
+        "value": "595 mm x 595 mm (for 600x600 grid); 595 mm x 1195 mm\n(for 1200x600 grid)",
+        "standard": ""
+      },
+      {
+        "property": "Thickness",
+        "value": "12\nmm (tolerance +/- 6%)",
+        "standard": ""
+      },
+      {
+        "property": "Material Composition",
+        "value": "100% polyester fibre (PET) printed with UV-curable ink",
+        "standard": ""
+      },
+      {
+        "property": "Recycled Content",
+        "value": "Minimum 78% to 80%\npost-consumer recycled PET",
+        "standard": ""
+      },
+      {
+        "property": "Fire Rating\n(Australia)",
+        "value": "Group 1, SMOGRArc < 100 m2/s2",
+        "standard": "AS ISO 9705\n- 2003 / AS 5637.1"
+      },
+      {
+        "property": "International Fire Rating",
+        "value": "Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a); Class B - s1, d0 (BS\nEN 13501-1:2018)",
+        "standard": "ISO 9705 / ASTM E-84 / BS EN 13501-1"
+      },
+      {
+        "property": "Microbial Resistance",
+        "value": "Growth rating: 0 (No growth)",
+        "standard": "ASTM G21-15"
+      },
+      {
+        "property": "VOC Emissions",
+        "value": "< 0.092\nmg/m3 (7 days)",
+        "standard": "CDPH Standard Method v1.2"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Surface Finishes Ceiling Tile 600x600",
+        "size_or_rating": "595 mm\nx 595 mm x 12 mm, NRC 0.85",
+        "pack": "Pack of 16 tiles"
+      },
+      {
+        "variant": "Surface\nFinishes Ceiling Tile 1200x600",
+        "size_or_rating": "595 mm x 1195 mm x 12 mm,\nNRC 0.85",
+        "pack": "Pack of 8 tiles"
+      }
+    ],
+    "fire": "AS ISO 9705 - 2003 and\nAS 5637.1 Classification: Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993\nGroup 1-S; ASTM E-84-15a Class A; BS EN 13501-1:2018 Class B - s1, d0",
+    "compliance": "NCC Specification 7 (BCA C1.10) Group 1 fire compliance; AS\nISO 9705:2003; AS 5637.1:2015; ISO 354",
+    "sustainability": "Certified Carbon\nNeutral; minimum 78% to 80% recycled PET; Declare Red List Free; EPD verified;\nlow VOC",
+    "install": [
+      "Inspect suspended ceiling grid ensuring it is level,\nsquare, and structurally sound",
+      "Verify all boxes are from the same production\nbatch to maintain print texture and grain consistency",
+      "Angle tile upward\nthrough the metric ceiling grid opening (600x600 or 1200x600)",
+      "Align timber\ngrain or stone pattern direction consistently across adjacent modules",
+      "Lower\ntile into position squarely so edges rest evenly on T-bar grid flanges",
+      "Trim\nperimeter tiles carefully from the face using a straight edge and sharp utility\nknife"
+    ],
+    "selection_checklist": [
+      "Select finish from Acoustic Timber\nwoodgrains (24 options) or Surface Finishes stone collection",
+      "Confirm ceiling\ngrid size (595x595mm or 595x1195mm)",
+      "Verify consistent grain alignment across\nceiling layout",
+      "Check that all boxes match batch numbers to prevent\nvariation",
+      "Ensure compliance with NCC Group 1 fire rating for ceilings"
+    ],
+    "accessories": [
+      "Standard two-way exposed ceiling grid (15mm or 24mm tee)",
+      "Utility knife and straight edge"
+    ],
+    "limitations": [
+      "Indoor use only; avoid\nwet areas or direct water leaks",
+      "Designed for non-contact ceiling grid\ninstallation; avoid repeated surface abrasion",
+      "Do not mix batches in the same\ncontiguous ceiling area"
+    ],
+    "warranty": "Manufacturer's Guarantee (10 years)"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Autex Surface Finishes Ceiling Tiles",
+      "Acoustic Timber Ceiling Tiles",
+      "timber look ceiling tiles",
+      "woodgrain drop in\nceiling tiles",
+      "stone finish ceiling tiles",
+      "Autex printed ceiling tiles",
+      "NRC 0.85 timber ceiling tile",
+      "drop in timber acoustic tiles",
+      "1200x600\ntimber ceiling tiles"
+    ],
+    "problem_keywords": [
+      "heavy solid timber ceiling\ntiles",
+      "hard reflective timber ceilings",
+      "drab drop ceiling grid",
+      "need\ntimber ceiling look with high acoustics",
+      "reverberation in commercial\nboardroom",
+      "timber ceiling fire compliance issues"
+    ],
+    "placement": [
+      "ceiling"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "fire",
+      "sustainability",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Replacing mineral fibre tiles in executive boardrooms with\nhigh-end timber grain acoustic tiles",
+      "Introducing warm wood aesthetics into\ncommercial reception ceilings while controlling echo",
+      "Hospitality dining room\nceiling fitouts requiring natural textures with Class A sound absorption"
+    ],
+    "not_for": [
+      "Wall direct-fixing without perimeter framing",
+      "External\nweather-exposed ceilings",
+      "Wet rooms with direct running water"
+    ],
+    "rag_summary": "Autex Surface Finishes Ceiling Tiles (including Acoustic Timber\nCeiling Tiles) are 12mm thick acoustic drop-in tiles for standard 600mm x 600mm\nand 1200mm x 600mm suspended ceiling grids. Printed with high-resolution natural\ntimber grains or stone textures using water-based UV-cured ink on 100% polyester\nfelt, they replicate real wood panelling without the weight or fire hazards.\nDelivering Class A sound absorption (NRC 0.85) and Group 1 fire compliance under\nAS ISO 9705, they provide a lightweight, carbon-neutral ceiling transformation\nfor high-end corporate and hospitality interiors."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

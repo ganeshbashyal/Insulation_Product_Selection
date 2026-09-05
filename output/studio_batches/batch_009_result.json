@@ -1,0 +1,855 @@
+[ { "family_id": "BRADFORD_FIRE_PROTECTION_DAMPER_STRIP", "tds_url":
+"https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/walls/fireseal",
+"sds_url":
+"https://www.bradfordinsulation.com.au/-/media/bradford/files/safety-data-sheet---rockwool.pdf",
+"description": "Bradford Fireseal Fire Damper Strip is a high-density,
+non-combustible rockwool insulation material specifically formulated to provide
+passive fire protection around fire dampers, service penetrations, and control
+joints. Manufactured by spinning molten natural rock and recycled blast furnace
+slag into bio-soluble fibres bonded with a thermosetting resin, it offers
+remarkable resistance to shrinkage at extreme fire temperatures up to 820°C. It
+is installed compressed in the gap between a fire damper sleeve and the
+fire-rated wall or floor structure.", "features": [ "Non-combustible stone wool
+material complying with AS 1530.1", "Exceptional resistance to shrinkage under
+high fire temperatures", "Specifically engineered for fire damper gaps and
+penetration sealing", "High nominal density of 110 kg/m³ (Fibertex 820 base)",
+"Biosoluble safe-to-use FBS-1 rockwool formulation", "Performance not adversely
+affected by contact with water", "Easy to cut and friction-fit into tight
+structural joints", "Made from natural rock and up to 40% recycled blast furnace
+slag", "Suitable for Fire Resistance Levels (FRL) up to -/240/240 in tested
+systems" ], "applications": [ "duct", "pipe", "wall", "internal wall", "floor"
+], "technical": [ { "property": "Material", "value": "Bio-soluble rockwool
+(FBS-1)", "standard": "" }, { "property": "Nominal Density", "value": "110
+kg/m³", "standard": "" }, { "property": "Thickness", "value": "13 mm",
+"standard": "" }, { "property": "Dimensions", "value": "750 mm x 225 mm (or 750
+mm x 75 mm)", "standard": "" }, { "property": "Combustibility", "value":
+"Non-combustible", "standard": "AS 1530.1" }, { "property": "Fire Hazard
+Indices", "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke
+Developed: 0-1", "standard": "AS/NZS 1530.3" }, { "property": "Maximum Service
+Temperature", "value": "820°C (continuous)", "standard": "" }, { "property":
+"Required Installation Compression", "value": "Minimum 15% compression
+(compressed to 85% of original thickness)", "standard": "AS 1668.1 / AS 4072.1"
+} ], "range": [ { "variant": "Fireseal Fire Damper Strip 13mm",
+"size_or_rating": "13 mm x 750 mm x 225 mm", "pack": "Pack of 15 or 60 pieces
+(45 lineal metres)" } ], "fire": "Non-combustible to AS 1530.1; AS/NZS 1530.3
+indices: Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke
+Developed: 0-1; Suitable for FRLs up to -/240/240 when installed as part of
+tested systems (AS 1530.4, AS 4072.1, AS 1668.1)", "compliance": "AS 1530.1,
+AS 1530.4, AS 1668.1, AS 4072.1, NCC Deemed-to-Satisfy non-combustible
+material", "sustainability": "Manufactured from up to 40% recycled blast furnace
+slag; FBS-1 bio-soluble formulation; zero ODP", "install": [ "Clean opening
+around fire damper sleeve, pipe penetration, or control joint", "Cut Fireseal
+Damper Strip to length allowing for continuous perimeter wrapping", "Pack strips
+tightly into the gap between damper sleeve and fire-rated substrate", "Ensure
+the 13mm strip is compressed by at least 15% (to 11mm or less) to form a tight
+seal", "Seal all butt joints neatly with approved fire-rated sealant or tape if
+required by system specification", "Fix damper retaining angles over the joint
+as per manufacturer fire test requirements" ], "selection_checklist": [ "Verify
+required Fire Resistance Level (FRL) and damper certification details", "Confirm
+gap dimensions between damper sleeve and structural wall/floor
+(typically 10-25mm)", "Determine number of layers needed based on annular gap
+width", "Calculate total linear metres required around damper perimeters",
+"Confirm substrate compatibility (Speedpanel, Hebel, masonry, or drywall)" ],
+"accessories": [ "Fire-rated polyurethane or acrylic sealant", "Galvanised steel
+retaining angles", "Foil sealing tape" ], "limitations": [ "Must be compressed
+by at least 15% to maintain rated fire integrity", "Not designed as external
+exposed weatherproofing without protective flashing", "Must not be loaded
+structurally; damper body must be independently supported" ], "warranty":
+"Backed by CSR Bradford product warranty", "found": true, "search_keywords": [
+"Bradford Fireseal Damper Strip", "Fire Damper Strip", "Fibertex 820 Damper
+Strip", "fire damper rockwool strip", "damper sleeve seal", "13mm damper strip",
+"Hebel damper strip", "firestop damper packing", "rockwool fire damper seal" ],
+"problem_keywords": [ "fire damper penetration gap", "sealing around fire
+damper", "fire damper FRL compliance", "fire damper clearance seal", "fire smoke
+spread through duct penetration", "Hebel horizontal control joint fire seal" ],
+"placement": [ "duct", "pipe", "wall", "internal wall", "floor" ],
+"priority_fit": [ "fire" ], "use_cases": [ "Sealing the annular gap between
+mechanical fire damper sleeves and fire-rated wall penetrations", "Packing
+horizontal control joints in Hebel PowerPanel inter-tenancy wall assemblies",
+"Fire stopping metal pipe penetrations through concrete floor slabs" ],
+"not_for": [ "General cavity thermal insulation batts", "Acoustic ceiling
+overlays", "Direct exposed external roofing" ], "rag_summary": "Bradford Fire
+Protection - Damper Strip (Fireseal Fire Damper Strip / Fibertex 820 Damper
+Strip) is a specialized 13mm thick, high-density (110 kg/m³) rockwool insulation
+strip engineered for passive fire stopping. Specifically designed to seal the
+perimeter clearance between fire dampers and fire-rated walls or floor slabs, it
+also provides horizontal joint fire protection in Hebel and Speedpanel systems.
+It resists shrinkage at temperatures up to 820°C, complies with AS 1530.1 as
+non-combustible, and must be installed under a minimum 15% compression to
+achieve rated fire resistance levels (up to -/240/240)." }, { "family_id":
+"BRADFORD_FIRE_PROTECTION_FILLER", "tds_url":
+"https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/walls/fireseal",
+"sds_url":
+"https://www.bradfordinsulation.com.au/-/media/bradford/files/safety-data-sheet---rockwool.pdf",
+"description": "Bradford Fire Protection - Filler (Fireseal Party Wall Batten
+Fillers) are pre-cut, non-combustible rockwool insulation inserts designed to
+seal hollow metal roof and ceiling battens crossing fire-rated separating walls
+in Class 1 residential buildings. Manufactured from high-temperature rockwool,
+these inserts fill the 40mm metal batten profile to prevent flame, hot gases,
+and embers from bypassing the fire compartment boundary. They are purpose-shaped
+to compress snugly inside steel batten profiles to meet NCC and BCA
+Deemed-to-Satisfy requirements.", "features": [ "Non-combustible stone wool
+construction complying with AS 1530.1", "Pre-cut to fit standard 40mm
+residential metal roof and ceiling battens", "Prevents fire spreading through
+hollow steel batten cavities over party walls", "High resistance to shrinkage
+under extreme fire temperatures up to 1000°C", "Biosoluble FBS-1 rockwool
+formulation", "Quick and easy push-fit installation during roofing or ceiling
+construction", "Performance unaffected by contact with moisture or water",
+"Purpose-designed for Class 1 multi-residential party wall junctions" ],
+"applications": [ "roof", "roofline", "ceiling", "wall", "internal wall" ],
+"technical": [ { "property": "Material", "value": "Bio-soluble rockwool
+(FBS-1)", "standard": "" }, { "property": "Dimensions", "value": "100 mm length
+x 40 mm height", "standard": "" }, { "property": "Profile Compatibility",
+"value": "Standard 40 mm metal roof and ceiling battens", "standard": "" }, {
+"property": "Combustibility", "value": "Non-combustible", "standard":
+"AS 1530.1" }, { "property": "Fire Hazard Indices", "value": "Ignitability: 0,
+Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1", "standard":
+"AS/NZS 1530.3" }, { "property": "Pack Quantity", "value": "35 pieces per box
+(3.5 lineal metres)", "standard": "" }, { "property": "Product Code", "value":
+"125418", "standard": "" } ], "range": [ { "variant": "Fireseal Party Wall
+Batten Fillers 40x100mm", "size_or_rating": "40 mm x 100 mm", "pack": "Box of 35
+pieces (Code: 125418)" } ], "fire": "Non-combustible to AS 1530.1; Early Fire
+Hazard indices to AS/NZS 1530.3: Ignitability 0, Spread of Flame 0, Heat
+Evolved 0, Smoke Developed 0-1; Meets NCC Class 1 separating wall
+Deemed-to-Satisfy fire provisions", "compliance": "NCC Volume Two / ABCB Housing
+Provisions Part 9.3 (Separating walls fire protection), AS 1530.1",
+"sustainability": "Manufactured using natural rock and recycled slag;
+bio-soluble FBS-1; zero ODP", "install": [ "Locate metal roof or ceiling battens
+crossing directly over the fire-rated party wall", "Insert a Fireseal Batten
+Filler into the open cavity of each continuous steel batten", "Centre the filler
+directly over the party wall line", "Ensure the filler compresses firmly against
+the inner faces of the steel batten profile", "Check that no air gap or void
+remains through the batten cross-section" ], "selection_checklist": [ "Confirm
+metal batten size (standard 40mm profile)", "Count total number of continuous
+steel battens crossing the party wall line", "Ensure sufficient boxes are
+ordered (35 fillers per box)", "Verify party wall system design and FRL
+specifications" ], "accessories": [ "Bradford Fireseal Party Wall Sealer",
+"Bradford Fireseal Party Wall Batts" ], "limitations": [ "Designed specifically
+for hollow metal batten cavities; not for wide masonry gaps", "Must be protected
+from direct weather exposure prior to roof cladding installation", "Cannot
+substitute for party wall blanket or vertical joint batts" ], "warranty":
+"Backed by CSR Bradford product warranty", "found": true, "search_keywords": [
+"Bradford Fireseal Batten Fillers", "Fire Protection Filler", "party wall batten
+filler", "metal batten fire stop", "40mm batten filler", "rockwool batten
+insert", "roof batten firestop", "CSR batten filler 125418" ],
+"problem_keywords": [ "fire spread through roof battens", "hollow metal batten
+fire bypass", "party wall roof junction fire rating", "sealing steel battens
+over party wall", "NCC separating wall batten compliance" ], "placement": [
+"roof", "roofline", "ceiling", "internal wall" ], "priority_fit": [ "fire" ],
+"use_cases": [ "Filling continuous 40mm steel roof battens crossing fire-rated
+inter-tenancy walls in townhouses", "Sealing ceiling battens at party wall
+junctions in Class 1 multi-residential duplexes" ], "not_for": [ "Full-width
+wall cavity filling", "Acoustic room partition batts", "Underfloor timber floor
+insulation" ], "rag_summary": "Bradford Fire Protection - Filler (Fireseal Party
+Wall Batten Fillers) are pre-formed non-combustible rockwool inserts
+measuring 100mm x 40mm, designed specifically to plug continuous metal roof and
+ceiling battens passing over party walls in Class 1 buildings. They prevent
+fire, embers, and hot gases from channeling through hollow metal batten cavities
+across inter-tenancy boundaries. Certified non-combustible to AS 1530.1 and
+tested to AS/NZS 1530.3, they are a critical Deemed-to-Satisfy component of
+compliant multi-residential passive fire containment systems." }, { "family_id":
+"BRADFORD_FIRE_PROTECTION_METAL_ROOF", "tds_url":
+"https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/walls/fireseal",
+"sds_url":
+"https://www.bradfordinsulation.com.au/-/media/bradford/files/safety-data-sheet---rockwool.pdf",
+"description": "Bradford Fire Protection - Metal Roof (Bradford Fireseal Party
+Wall Sealer for Metal Roofs / Fireseal FZ Metal Roof Batts) is a
+high-temperature, non-combustible rockwool insulation product designed to seal
+the junction between the top of a fire-rated party wall and metal roof sheeting.
+Manufactured from molten rock and blast furnace slag bonded with thermosetting
+resin, the 75mm thick blanket or batts are installed under 10-15% compression
+beneath corrugated or trapezoidal metal roof profiles. It blocks the passage of
+fire, smoke, and burning embers between adjoining tenancies in Class 1 buildings
+and meets BAL-FZ bushfire conditions.", "features": [ "Non-combustible stone
+wool construction tested to AS 1530.1", "75mm thickness tailored specifically
+for deeper corrugations of metal roofing profiles", "Seals top-of-wall gaps to
+prevent flame, spark, and ember spread between tenancies", "Highly resistant to
+shrinkage and degradation under extreme fire temperatures up to 1000°C",
+"Suitable for Bushfire Attack Level BAL-FZ applications under metal roofs",
+"Bio-soluble FBS-1 formulation safe to handle and install", "Performance
+unaffected by contact with water", "Complies with NCC Volume Two
+Deemed-to-Satisfy party wall requirements" ], "applications": [ "roof",
+"roofline", "wall", "internal wall" ], "technical": [ { "property": "Material",
+"value": "Bio-soluble rockwool (FBS-1)", "standard": "" }, { "property":
+"Nominal Thickness", "value": "75 mm", "standard": "" }, { "property":
+"Dimensions (Roll/Blanket)", "value": "4000 mm length x 300 mm or 360 mm width",
+"standard": "" }, { "property": "Dimensions (FZ Batt option)", "value": "1200 mm
+length x 90 mm width x 75 mm thickness", "standard": "" }, { "property":
+"Combustibility", "value": "Non-combustible", "standard": "AS 1530.1" }, {
+"property": "Fire Hazard Indices", "value": "Ignitability: 0, Spread of
+Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1", "standard": "AS/NZS 1530.3" },
+{ "property": "Installation Compression", "value": "Minimum 10% to 15%
+compression under metal roof profile", "standard": "" }, { "property": "Thermal
+Performance", "value": "R1.8 (uncompressed 75mm)", "standard": "AS/NZS 4859.1" }
+], "range": [ { "variant": "Fireseal Party Wall Sealer for Metal
+Roofs 75x300mm", "size_or_rating": "75 mm x 4000 mm x 300 mm (2 pieces, 8 lineal
+metres)", "pack": "Pack of 2 rolls (Code: 123444)" }, { "variant": "Fireseal
+Party Wall Sealer for Metal Roofs 75x360mm", "size_or_rating": "75 mm x 4000 mm
+x 360 mm (2 pieces, 8 lineal metres)", "pack": "Pack of 2 rolls (Code: 123446)"
+}, { "variant": "Fireseal FZ Metal Roof Batts", "size_or_rating": "75 mm x 90 mm
+x 1200 mm", "pack": "Pack of 15 pieces (18 lineal metres, Code: 125084)" } ],
+"fire": "Non-combustible to AS 1530.1; AS/NZS 1530.3: Ignitability 0, Spread of
+Flame 0, Heat Evolved 0, Smoke Developed 0-1; Suitable for BAL-FZ bushfire
+conditions to AS 3959; Meets NCC separating wall fire requirements",
+"compliance": "NCC Volume Two / ABCB Housing Provisions Standard Part 9.3;
+AS 1530.1; AS/NZS 4859.1; AS 3959 (BAL-FZ)", "sustainability": "Manufactured
+from up to 40% recycled blast furnace slag; bio-soluble FBS-1; zero ODP",
+"install": [ "Lay Fireseal 75mm Party Wall Sealer along the full length of the
+top of the fire-rated wall", "Ensure blanket overhangs the wall thickness
+symmetrically (300mm or 360mm width)", "Fix metal roofing sheets down over the
+blanket ensuring at least 10-15% compression across all roof ribs and pans",
+"Where joints in blanket occur, butt tightly together with a minimum 50mm
+overlap or Vee cut", "Inspect from ceiling space to confirm all corrugations and
+crests are fully packed and sealed" ], "selection_checklist": [ "Confirm roof
+cladding type is metal deck / corrugated sheeting (requiring 75mm thickness)",
+"Select width based on wall thickness (300mm for single/standard walls, 360mm
+for wider cavity party walls)", "Calculate total linear metres needed along the
+top of the party wall", "Check if project is in a BAL-FZ bushfire attack zone"
+], "accessories": [ "Bradford Fireseal Party Wall Batten Fillers", "Bradford
+Fireseal Party Wall Batts" ], "limitations": [ "Must be compressed
+minimum 10-15% by roof sheets to ensure smoke/flame barrier", "Not suitable as
+exposed roof sarking membrane", "Must be protected from pooling water or
+continuous weathering" ], "warranty": "Backed by CSR Bradford product warranty",
+"found": true, "search_keywords": [ "Bradford Fireseal Metal Roof", "Fire
+Protection Metal Roof", "party wall sealer metal roof", "75mm fireseal party
+wall", "metal roof fire seal", "Fireseal FZ metal roof batts", "corrugated roof
+party wall seal", "CSR Bradford 123444" ], "problem_keywords": [ "fire spread
+under tin roof", "metal roof party wall gap", "corrugated roof flutes fire
+bypass", "party wall metal deck fire rating", "BAL FZ metal roof sealing",
+"inter-tenancy fire spread metal roof" ], "placement": [ "roof", "roofline",
+"internal wall", "wall" ], "priority_fit": [ "fire" ], "use_cases": [ "Sealing
+the junction between the top of an inter-tenancy masonry or Hebel party wall and
+corrugated metal roof sheeting in townhouses", "Providing BAL-FZ ember and flame
+protection at metal roof perimeters in bushfire zones" ], "not_for": [ "Tiled
+roof party wall junctions (which use 50mm)", "Underfloor timber floor
+insulation", "HVAC internal duct lining" ], "rag_summary": "Bradford Fire
+Protection - Metal Roof (Fireseal Party Wall Sealer for Metal Roofs) is a 75mm
+thick, non-combustible rockwool blanket engineered to seal the void between the
+head of fire-rated party walls and profiled metal roof sheeting in Class 1
+dwellings. Its 75mm thickness compresses by 10-15% under corrugations and
+trapezoidal profiles to block flames, sparks, and hot gases from bypassing
+separating walls. Certified non-combustible to AS 1530.1 and compliant for
+BAL-FZ bushfire construction, it satisfies NCC Deemed-to-Satisfy requirements
+for inter-tenancy fire containment." }, { "family_id":
+"BRADFORD_FIRE_PROTECTION_TILE_ROOF", "tds_url":
+"https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/walls/fireseal",
+"sds_url":
+"https://www.bradfordinsulation.com.au/-/media/bradford/files/safety-data-sheet---rockwool.pdf",
+"description": "Bradford Fire Protection - Tile Roof (Bradford Fireseal Party
+Wall Sealer for Tiled Roofs / Fireseal FZ Tile Roof Batts) is a non-combustible
+stone wool insulation product designed to seal the junction between the top of a
+fire-rated party wall and concrete or terracotta roof tiles. Available as a 50mm
+thick roll (4000mm x 300mm or 360mm) or 100mm x 115mm x 1200mm batts, it
+compresses under the tiled roof build-up to prevent fire, sparks, and embers
+from traveling between adjoining occupancies in Class 1 buildings. It delivers
+high thermal stability, resisting shrinkage under extreme fire exposure, and
+meets BAL-FZ bushfire standards.", "features": [ "Non-combustible stone wool
+construction complying with AS 1530.1", "50mm thickness optimised for profile
+depths of concrete and terracotta roof tiles", "Seals top-of-wall junctions to
+prevent flame and spark spread between tenancies", "Outstanding resistance to
+shrinkage under extreme fire conditions up to 1000°C", "Certified for Bushfire
+Attack Level BAL-FZ construction under tiled roofs", "Bio-soluble FBS-1 rockwool
+formulation", "Water-resistant fibres that do not degrade upon contact with
+moisture", "Satisfies NCC / BCA Deemed-to-Satisfy provisions for Class 1
+separating walls" ], "applications": [ "roof", "roofline", "wall", "internal
+wall" ], "technical": [ { "property": "Material", "value": "Bio-soluble rockwool
+(FBS-1)", "standard": "" }, { "property": "Nominal Thickness", "value": "50 mm
+(blanket) or 100 mm (FZ tile batt)", "standard": "" }, { "property": "Dimensions
+(Blanket)", "value": "4000 mm length x 300 mm or 360 mm width", "standard": ""
+}, { "property": "Dimensions (FZ Tile Batt)", "value": "1200 mm length x 115 mm
+width x 100 mm thickness", "standard": "" }, { "property": "Combustibility",
+"value": "Non-combustible", "standard": "AS 1530.1" }, { "property": "Fire
+Hazard Indices", "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0,
+Smoke Developed: 0-1", "standard": "AS/NZS 1530.3" }, { "property":
+"Installation Compression", "value": "Minimum 10% to 15% compression beneath
+roof tiles", "standard": "" }, { "property": "Thermal Performance", "value":
+"R1.2 (uncompressed 50mm)", "standard": "AS/NZS 4859.1" } ], "range": [ {
+"variant": "Fireseal Party Wall Sealer for Tiled Roofs 50x300mm",
+"size_or_rating": "50 mm x 4000 mm x 300 mm (2 pieces, 8 lineal metres)",
+"pack": "Pack of 2 rolls (Code: 123443)" }, { "variant": "Fireseal Party Wall
+Sealer for Tiled Roofs 50x360mm", "size_or_rating": "50 mm x 4000 mm x 360 mm (2
+pieces, 8 lineal metres)", "pack": "Pack of 2 rolls (Code: 123445)" }, {
+"variant": "Fireseal FZ Tile Roof Batts", "size_or_rating": "100 mm x 115 mm
+x 1200 mm", "pack": "Pack of 8 pieces (9.6 lineal metres, Code: 125083)" } ],
+"fire": "Non-combustible to AS 1530.1; AS/NZS 1530.3: Ignitability 0, Spread of
+Flame 0, Heat Evolved 0, Smoke Developed 0-1; Suitable for BAL-FZ bushfire zones
+under AS 3959; NCC separating wall compliance", "compliance": "NCC Volume Two /
+ABCB Housing Provisions Standard Part 9.3; AS 1530.1; AS/NZS 4859.1; AS 3959",
+"sustainability": "Manufactured from natural rock and recycled blast furnace
+slag; bio-soluble FBS-1; zero ODP", "install": [ "Roll Fireseal 50mm Party Wall
+Sealer along the top of the fire-rated party wall prior to roof tile
+installation", "Ensure the blanket spans the full width of the wall and
+timber/steel framing", "Lay roof tile battens and tiles over the sealer,
+ensuring continuous 10-15% compression beneath tile profiles", "Butt joints in
+blanket tightly together with no gaps", "Verify no void exists where tile
+profiles create contours above the party wall line" ], "selection_checklist": [
+"Confirm roof covering is concrete or terracotta tiles (requiring 50mm
+thickness)", "Select width based on party wall structure (300mm standard, 360mm
+for wider cavity party walls)", "Measure total linear metres needed along the
+top of party walls", "Check if property is in a BAL-FZ bushfire attack zone" ],
+"accessories": [ "Bradford Fireseal Party Wall Batten Fillers", "Bradford
+Fireseal Party Wall Batts" ], "limitations": [ "Must be compressed
+minimum 10-15% by roof tiles to ensure fire and smoke seal", "Not suitable for
+deep-rib metal roofing where 75mm is required", "Must not be left exposed to
+pooling water or continuous outdoor weathering" ], "warranty": "Backed by CSR
+Bradford product warranty", "found": true, "search_keywords": [ "Bradford
+Fireseal Tile Roof", "Fire Protection Tile Roof", "party wall sealer tile roof",
+"50mm fireseal party wall", "tiled roof fire seal", "Fireseal FZ tile roof
+batts", "concrete tile party wall seal", "CSR Bradford 123443" ],
+"problem_keywords": [ "fire spread under roof tiles", "tile roof party wall
+gap", "ember ingress under roof tiles", "party wall tile roof fire rating", "BAL
+FZ tile roof sealing", "inter-tenancy fire spread tile roof" ], "placement": [
+"roof", "roofline", "internal wall", "wall" ], "priority_fit": [ "fire" ],
+"use_cases": [ "Sealing the junction between the top of an inter-tenancy masonry
+or Hebel party wall and concrete/terracotta roof tiles in townhouses and
+duplexes", "Providing BAL-FZ ember and flame protection under roof tiles in
+bushfire-prone areas" ], "not_for": [ "Profiled metal deck roofs
+(requiring 75mm)", "Underfloor timber floor insulation", "Cavity acoustic
+partition batts" ], "rag_summary": "Bradford Fire Protection - Tile Roof
+(Fireseal Party Wall Sealer for Tiled Roofs) is a 50mm thick, non-combustible
+stone wool blanket designed to seal the gap between the top of fire-rated party
+walls and concrete or terracotta roof tiles in Class 1 buildings. It compresses
+by 10-15% under tile battens and contours, creating an impenetrable barrier
+against flame, hot gases, and embers. Certified non-combustible to AS 1530.1 and
+rated for BAL-FZ bushfire conditions, it ensures multi-residential party wall
+assemblies comply with NCC Deemed-to-Satisfy fire separation standards." }, {
+"family_id": "BRADFORD_FIRE_PROTECTION_WALL_BATT", "tds_url":
+"https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/walls/fireseal",
+"sds_url":
+"https://www.bradfordinsulation.com.au/-/media/bradford/files/safety-data-sheet---rockwool.pdf",
+"description": "Bradford Fire Protection - Wall Batt (Bradford Rockwool Fireseal
+Curtain Wall Batts) is a semi-rigid, non-combustible stone wool insulation batt
+formulated for fire-safing, spandrel insulation, and perimeter fire containment
+in external wall and curtain wall systems. Manufactured from bio-soluble
+rockwool fibres, it provides remarkable resistance to shrinkage at extreme
+temperatures up to 1000°C, maintaining compartmentation between floor slabs and
+external facade panels. Available in 50mm and 100mm thicknesses, it achieves
+high thermal and acoustic performance while satisfying NCC fire resistance
+requirements.", "features": [ "Non-combustible stone wool material complying
+with AS 1530.1", "High resistance to shrinkage at temperatures
+exceeding 1000°C", "Formulated specifically for curtain wall spandrel and
+perimeter fire safing", "Provides thermal insulation and acoustic sound
+dampening in commercial walls", "Bio-soluble FBS-1 rockwool formulation",
+"Performance unaffected by contact with water", "Easy to cut and friction-fit
+into tight structural frames or pin behind spandrel panels", "Meets stringent
+NCC fire barrier and fire stopping requirements" ], "applications": [ "wall",
+"external wall", "internal wall", "between floors" ], "technical": [ {
+"property": "Material", "value": "Bio-soluble rockwool (FBS-1)", "standard": ""
+}, { "property": "Nominal Density", "value": "Approx. 80-100 kg/m³", "standard":
+"" }, { "property": "Thickness Options", "value": "50 mm, 100 mm", "standard":
+"" }, { "property": "Dimensions", "value": "1200 mm length x 120 mm, 150 mm,
+or 168 mm width (or 1200 x 600 mm slab)", "standard": "" }, { "property":
+"Combustibility", "value": "Non-combustible", "standard": "AS 1530.1" }, {
+"property": "Fire Hazard Indices", "value": "Ignitability: 0, Spread of
+Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1", "standard": "AS/NZS 1530.3" },
+{ "property": "Maximum Service Temperature", "value": "820°C (continuous)",
+"standard": "" }, { "property": "Thermal Conductivity", "value": "0.035 W/m·K",
+"standard": "ASTM C518" } ], "range": [ { "variant": "Fireseal Curtain Wall
+Batts 50mm", "size_or_rating": "50 mm x 1200 mm x 120 mm / 150 mm", "pack":
+"Pack of 18 pieces" }, { "variant": "Fireseal Curtain Wall Batts 100mm",
+"size_or_rating": "100 mm x 1200 mm x 150 mm / 168 mm", "pack": "Pack of 10
+pieces" } ], "fire": "Non-combustible to AS 1530.1; AS/NZS 1530.3:
+Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-1; Achieves
+fire resistance levels (FRL) up to -/120/120 or -/240/240 in tested
+wall/edge-of-slab assemblies to AS 1530.4", "compliance": "AS 1530.1, AS 1530.4,
+NCC Volume One fire-rated facade and non-combustible external wall provisions",
+"sustainability": "Manufactured from up to 40% recycled materials; FBS-1
+bio-soluble formulation; zero ODP", "install": [ "Cut Fireseal Curtain Wall
+Batts to required spandrel cavity or slab edge width", "Install with mechanical
+impaling pins and speed clips, or support brackets at recommended centres",
+"Ensure batts are fitted under 10-15% compression between floor slab edge and
+facade transom/spandrel", "Butt adjacent batts tightly together ensuring
+continuous fire-stopping with no gaps", "Cover with galvanized steel smoke
+barrier backing sheet or approved fire-rated sealant as per system
+specification" ], "selection_checklist": [ "Verify required FRL
+(e.g. 60, 90, 120, or 240 minutes) for facade perimeter fire stop", "Measure
+slab-to-transom void width to determine correct batt thickness and width",
+"Confirm fixing method (impaling pins, friction fit, or steel brackets)",
+"Verify non-combustible compliance under NCC Section C for commercial facades"
+], "accessories": [ "Impaling pins and speed clips", "Fire-rated silicone/mastic
+sealant", "Galvanized steel smoke barrier" ], "limitations": [ "Must be
+mechanically secured to prevent dislodgement during thermal movement", "Not an
+external weather-facing finish; must be enclosed within facade cladding", "Must
+be protected from continuous water soaking during construction" ], "warranty":
+"Backed by CSR Bradford product warranty", "found": true, "search_keywords": [
+"Bradford Fire Protection Wall Batt", "Fireseal Curtain Wall Batts", "fire
+safing batts", "spandrel insulation batts", "rockwool wall batts fire",
+"commercial facade fire batts", "perimeter fire barrier batts", "Bradford
+rockwool wall batts" ], "problem_keywords": [ "fire spread between floors via
+facade", "curtain wall slab edge firestop", "spandrel panel fire insulation",
+"non-combustible wall insulation commercial", "facade perimeter fire safing
+FRL", "smoke spread at slab edge" ], "placement": [ "wall", "external wall",
+"internal wall", "between floors" ], "priority_fit": [ "fire", "acoustic",
+"thermal" ], "use_cases": [ "Perimeter fire safing between concrete floor slabs
+and external curtain wall facades in multi-storey commercial towers", "Spandrel
+panel fire insulation behind glass or aluminum facade panels", "Fire containment
+in commercial external cavity walls" ], "not_for": [ "Residential timber-stud
+thermal wall insulation (use Bradford Gold)", "Direct underfloor insulation",
+"Exposed internal acoustic decorative lining" ], "rag_summary": "Bradford Fire
+Protection - Wall Batt (Rockwool Fireseal Curtain Wall Batts) is a high-density,
+non-combustible stone wool batt engineered for perimeter fire containment and
+spandrel insulation in commercial curtain walls and external wall assemblies. It
+maintains structural integrity and resists shrinkage at temperatures up
+to 1000°C, stopping vertical fire spread between building storeys at the slab
+edge. Certified non-combustible to AS 1530.1 and tested to AS 1530.4 for FRLs up
+to -/240/240, it satisfies NCC non-combustibility mandates for commercial
+high-rise envelopes." }, { "family_id": "BRADFORD_FIRESEAL_PARTY_WALL_BATTS",
+"tds_url":
+"https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/walls/fireseal",
+"sds_url":
+"https://www.bradfordinsulation.com.au/-/media/bradford/files/safety-data-sheet---rockwool.pdf",
+"description": "Bradford Fireseal Party Wall Batts are non-combustible stone
+wool insulation batts specifically designed for Class 1 inter-tenancy wall
+systems to fill and seal vertical joints, supporting fire protection
+requirements in multi-residential applications. Manufactured from molten natural
+rock and blast furnace slag bonded with thermosetting resin, these 100mm thick
+batts have remarkable resistance to shrinkage under fire conditions. Pre-cut
+to 1200mm x 168mm, they are installed under 10% compression in vertical wall
+cavities to prevent fire spread between adjoining dwellings.", "features": [
+"Non-combustible stone wool construction complying with AS 1530.1",
+"Purpose-designed for vertical joint sealing in Class 1 inter-tenancy walls",
+"Pre-cut to 1200mm x 168mm x 100mm for fast and consistent on-site
+installation", "Exceptional resistance to shrinkage under extreme fire
+temperatures up to 1000°C", "Stacks neatly to fill wall cavities up to 255mm in
+height per unit", "Bio-soluble FBS-1 rockwool formulation", "Performance
+unaffected by contact with water", "Provides thermal and acoustic benefits while
+fulfilling NCC passive fire requirements" ], "applications": [ "wall", "internal
+wall" ], "technical": [ { "property": "Material", "value": "Bio-soluble rockwool
+(FBS-1)", "standard": "" }, { "property": "Nominal Thickness", "value": "100
+mm", "standard": "" }, { "property": "Dimensions", "value": "1200 mm length
+x 168 mm width", "standard": "" }, { "property": "Pieces Per Pack", "value": "5
+pieces (6 lineal metres per pack, 1.01 m²)", "standard": "" }, { "property":
+"Combustibility", "value": "Non-combustible", "standard": "AS 1530.1" }, {
+"property": "Fire Hazard Indices", "value": "Ignitability: 0, Spread of
+Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1", "standard": "AS/NZS 1530.3" },
+{ "property": "Required Installation Compression", "value": "10% to 15%
+compression in vertical joints", "standard": "" }, { "property": "Maximum Stack
+Height", "value": "Cavities up to 255 mm (max 3 stacked layers)", "standard": ""
+}, { "property": "Product Code", "value": "119161", "standard": "" } ], "range":
+[ { "variant": "Fireseal Party Wall Batts 100x1200x168mm", "size_or_rating":
+"100 mm x 1200 mm x 168 mm", "pack": "Pack of 5 batts (6 lineal metres,
+Code: 119161)" } ], "fire": "Non-combustible to AS 1530.1; AS/NZS 1530.3
+indices: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-1;
+Satisfies NCC Volume Two / ABCB Housing Provisions Part 9.3 for Class 1
+separating walls", "compliance": "NCC 2022 / NCC 2025 Volume 1 and Volume 2
+Deemed-to-Satisfy Separating Walls; ABCB Housing Provisions Standard Part 9.3;
+AS 1530.1; AS/NZS 4859.1", "sustainability": "Manufactured from up to 40%
+recycled slag and natural rock; FBS-1 bio-soluble; zero ODP", "install": [ "For
+vertical joint applications only in Class 1 inter-tenancy wall systems",
+"Friction-fit batts into the vertical joint maintaining a minimum of 10%
+compression", "Ensure batts are seated tightly against both wall leaves", "When
+extending length, make a Vee profile cut to both ends of each batt to create a
+tight interlocking butt joint", "When stacking layers to fill cavities up
+to 255mm, stagger vertical joints and install as one consolidated unit", "Do not
+use to seal areas at the top of wall systems (use Party Wall Sealer for wall
+heads)" ], "selection_checklist": [ "Verify application is for vertical joints
+in Class 1 inter-tenancy/party walls", "Measure cavity width to ensure 100mm
+batt achieves 10-15% compression", "Calculate total vertical lineal metres
+needed (each pack provides 6 linear metres)", "Confirm wall system is approved
+for Fireseal Party Wall Batts (timber frame, steel stud, or masonry)" ],
+"accessories": [ "Bradford Fireseal Party Wall Sealer", "Bradford Fireseal
+Batten Fillers" ], "limitations": [ "For vertical joints only; not appropriate
+to seal areas at the top of a masonry or lightweight wall system", "Maximum 3
+layers should be stacked without adequate intermediate mechanical support",
+"Must be protected from continuous water pooling and direct UV exposure" ],
+"warranty": "Backed by CSR Bradford product warranty", "found": true,
+"search_keywords": [ "Bradford Fireseal Party Wall Batts", "Fireseal Party Wall
+Batts", "party wall insulation batts", "intertenancy wall fire batts",
+"100x1200x168 fireseal", "rockwool party wall batts", "vertical joint fire
+batts", "Bradford 119161" ], "problem_keywords": [ "fire spread through party
+wall vertical gap", "inter-tenancy wall fire compliance", "separating wall
+vertical joint seal", "NCC Class 1 party wall FRL", "townhouse separating wall
+fire containment" ], "placement": [ "wall", "internal wall" ], "priority_fit": [
+"fire", "acoustic" ], "use_cases": [ "Sealing vertical joints in Class 1
+inter-tenancy walls between adjoining townhouses and duplexes", "Filling
+vertical expansion and construction gaps in party wall systems to maintain fire
+separation", "Passive fire protection between attached residential dwellings" ],
+"not_for": [ "Top of wall / roof-to-wall junctions (use Party Wall Sealer)",
+"Underfloor insulation", "Standard external cavity thermal insulation" ],
+"rag_summary": "Bradford Fireseal Party Wall Batts are purpose-made,
+non-combustible stone wool insulation batts measuring 100mm x 1200mm x 168mm
+(product code 119161) designed exclusively to seal vertical joints in Class 1
+inter-tenancy party walls. Engineered from high-temperature bio-soluble
+rockwool, they resist shrinkage at temperatures up to 1000°C and maintain fire
+integrity between adjoining townhouses and duplexes. Installed under 10%
+compression and compliant with AS 1530.1, they satisfy NCC Deemed-to-Satisfy
+provisions for separating wall fire containment." }, { "family_id":
+"BRADFORD_GOLD_BATTS", "tds_url":
+"https://www.bradfordinsulation.com.au/home-insulation/ceilings/gold-ceiling-batts",
+"sds_url":
+"https://www.bradfordinsulation.com.au/-/media/bradford/files/safety-data-sheet---glasswool.pdf",
+"description": "Bradford Gold Batts are Australia's leading glasswool thermal
+and acoustic insulation batts for residential ceilings and walls. Manufactured
+from up to 80% recycled glass with FBS-1 bio-soluble formulation and low-itch
+Comfort Touch technology, they form a continuous, resilient thermal barrier that
+reduces winter heat loss and summer heat gain by up to 45%. Available in
+R-values from R1.5 to R2.0 for walls and R2.5 to R4.1 for standard ceilings,
+they are non-combustible, low allergen, Sensitive Choice approved, and backed by
+a 70-year warranty.", "features": [ "Reduces home heating and cooling energy use
+by up to 45%", "Manufactured from up to 80% recycled glass", "Low-itch Comfort
+Touch technology for softer handling and reduced airborne dust",
+"Non-combustible when tested in accordance with AS 1530.1", "Approved partner of
+National Asthma Council Sensitive Choice program", "Will not slump, shrink, pack
+down, or deteriorate over the building lifetime", "Wall batts treated with water
+repellent to resist moisture wicking", "Available in standard 430mm and 580mm
+widths to suit 450mm and 600mm framing centres", "Sized to fit standard
+Australian timber and steel stud framing", "Backed by CSR Bradford's 70-year
+product performance warranty" ], "applications": [ "ceiling", "wall", "external
+wall", "internal wall" ], "technical": [ { "property": "Ceiling R-Values",
+"value": "R2.5, R3.0, R3.5, R4.1", "standard": "AS/NZS 4859.1" }, { "property":
+"Wall R-Values", "value": "R1.5, R2.0", "standard": "AS/NZS 4859.1" }, {
+"property": "Ceiling Thicknesses", "value": "R2.5: 140 mm; R3.0: 165 mm;
+R3.5: 185 mm; R4.1: 205 mm", "standard": "" }, { "property": "Wall Thicknesses",
+"value": "R1.5: 75 mm; R2.0: 90 mm", "standard": "" }, { "property": "Standard
+Dimensions", "value": "1160 mm length x 430 mm or 580 mm width", "standard": ""
+}, { "property": "Combustibility", "value": "Non-combustible", "standard":
+"AS 1530.1" }, { "property": "Fire Hazard Indices", "value": "Ignitability: 0,
+Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1", "standard":
+"AS/NZS 1530.3" }, { "property": "Maximum Service Temperature", "value":
+"350°C", "standard": "" }, { "property": "Corrosion Resistance", "value":
+"pH 7.5 - 8.0 (non-corrosive)", "standard": "BS 3958 Part 5" }, { "property":
+"Moisture Resistance", "value": "Less than 0.2% by volume after 4 days
+at 50°C, 95% RH", "standard": "" }, { "property": "Acoustic Flow Resistivity",
+"value": "0.5 x 10^4 mks Rayls/m", "standard": "" } ], "range": [ { "variant":
+"Gold Ceiling Batts R2.5", "size_or_rating": "140 mm x 1160 mm x 430/580 mm",
+"pack": "Pack of 16 batts" }, { "variant": "Gold Ceiling Batts R3.0",
+"size_or_rating": "165 mm x 1160 mm x 430/580 mm", "pack": "Pack of 16 batts" },
+{ "variant": "Gold Ceiling Batts R3.5", "size_or_rating": "185 mm x 1160 mm
+x 430/580 mm", "pack": "Pack of 16/10 batts" }, { "variant": "Gold Ceiling Batts
+R4.1", "size_or_rating": "205 mm x 1160 mm x 430/580 mm", "pack": "Pack of 10
+batts" }, { "variant": "Gold Wall Batts R1.5", "size_or_rating": "75 mm x 1160
+mm x 430/580 mm", "pack": "Pack of 22/33 batts" }, { "variant": "Gold Wall Batts
+R2.0", "size_or_rating": "90 mm x 1160 mm x 430/580 mm", "pack": "Pack of 16/24
+batts" } ], "fire": "Non-combustible to AS 1530.1; AS/NZS 1530.3:
+Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-1; Meets
+NCC fire hazard property requirements", "compliance": "AS/NZS 4859.1, AS 3999,
+NCC Volume 1 and Volume 2 / ABCB Housing Provisions Part 13.2",
+"sustainability": "Contains up to 80% recycled glass content; bio-soluble FBS-1
+formulation; zero ODP; Sensitive Choice certified", "install": [ "Turn off power
+at the main switchboard before entering ceiling space or touching wall
+cavities", "Fit batts snugly between timber or steel framing members without
+gaps or compression", "For ceilings, lay batts flat between ceiling joists
+covering the plasterboard completely", "At ceiling eaves, maintain a 20mm gap
+between insulation and roof cladding/sarking", "Maintain minimum 50mm clearance
+around non-IC rated downlights, exhaust fans, and flues as per AS 3999", "For
+external walls, install water-repellent batts between studs and secure with wall
+wrap before brickwork or cladding" ], "selection_checklist": [ "Confirm
+application area (ceiling vs external walls)", "Determine required R-value to
+comply with 7-star NatHERS / NCC climate zone targets", "Measure joist or stud
+spacing (450mm centres require 430mm batts; 600mm centres require 580mm batts)",
+"Check wall cavity depth (75mm for 70mm studs, 90mm for 90mm studs)", "Verify
+downlight IC ratings to establish required clearances" ], "accessories": [
+"Bradford Perimeter Spacer", "Bradfix strapping", "Enviroseal wall wraps" ],
+"limitations": [ "Do not compress batts into cavities narrower than nominal
+thickness as this reduces thermal R-value", "Must be protected from continuous
+water exposure and prolonged outdoor weather", "Maintain electrical safety
+clearances around recessed electrical equipment" ], "warranty": "70 Year Product
+Performance Warranty", "found": true, "search_keywords": [ "Bradford Gold
+Batts", "Gold Ceiling Batts", "Gold Wall Batts", "Bradford insulation batts",
+"yellow batts", "glasswool ceiling batts", "glasswool wall batts", "R2.5 gold
+batts", "R3.5 gold batts", "R4.1 gold batts", "R2.0 gold wall batts" ],
+"problem_keywords": [ "hot ceiling in summer", "cold house in winter", "high
+heating and cooling bills", "uninsulated ceiling heat loss", "drafty cavity
+walls", "uninsulated home renovation" ], "placement": [ "ceiling", "wall",
+"external wall", "internal wall" ], "priority_fit": [ "thermal", "easy_install",
+"sustainability", "budget" ], "use_cases": [ "Insulating roof spaces in new
+residential builds and renovations to achieve 7-star NatHERS energy ratings",
+"Retrofitting existing ceiling cavities to lower heating and cooling bills",
+"Installing in external timber or steel stud walls behind brick veneer or
+lightweight cladding" ], "not_for": [ "Underfloor installations (use Bradford
+Optimo)", "Bushfire BAL-FZ roof zones (use Fireseal FZ)", "Exposed acoustic
+decorative wall panels" ], "rag_summary": "Bradford Gold Batts are Australia's
+flagship glasswool thermal and acoustic insulation batts for residential
+ceilings (R2.5 to R4.1) and walls (R1.5 to R2.0). Manufactured from up to 80%
+recycled glass with low-itch Comfort Touch technology and water-repellent
+binders, they reduce home heating and cooling energy use by up to 45%. Deemed
+non-combustible to AS 1530.1 and certified by the National Asthma Council's
+Sensitive Choice program, they deliver dependable, lifetime thermal performance
+backed by CSR Bradford's 70-year warranty." }, { "family_id":
+"BRADFORD_GOLD_HI_PERFORMANCE_BATTS", "tds_url":
+"https://www.bradfordinsulation.com.au/home-insulation/ceilings/gold-ceiling-batts",
+"sds_url":
+"https://www.bradfordinsulation.com.au/-/media/bradford/files/safety-data-sheet---glasswool.pdf",
+"description": "Bradford Gold Hi-Performance Batts (Gold HP) are high-density,
+top-tier glasswool insulation batts engineered to deliver maximum thermal
+resistance within standard residential and commercial cavities. Available in
+industry-leading ratings up to R7.0 for ceilings and R2.7 HP for 90mm walls,
+they allow builders and homeowners in extreme Australian climate zones to meet
+stringent 7-star and 8-star energy efficiency standards without increasing
+framing depths. Featuring Comfort Touch technology, they are non-combustible,
+low-allergen, Sensitive Choice certified, and backed by a 70-year performance
+warranty.", "features": [ "Maximum thermal R-value per millimetre of cavity
+thickness", "Industry-leading ceiling ratings: R4.1 HP, R5.0 HP, R6.0 HP, and
+R7.0 HP", "High-density wall batts: R2.0 HP (75mm), R2.2 HP (75mm), R2.5 HP
+(90mm), and R2.7 HP (90mm)", "Gold Perimeter Batts available in R3.0 (100mm
+low-profile) for tight eave zones", "Manufactured with up to 80% recycled glass
+content", "Enhanced acoustic density dampens environmental noise and rain
+noise", "Low-itch Comfort Touch technology for cleaner handling and reduced
+dust", "Water-repellent treatment on wall batts prevents moisture absorption",
+"Non-combustible when tested in accordance with AS 1530.1", "Backed by CSR
+Bradford's 70-year product performance warranty" ], "applications": [ "ceiling",
+"wall", "external wall", "internal wall" ], "technical": [ { "property":
+"Ceiling HP R-Values", "value": "R4.1 HP, R5.0 HP, R6.0 HP, R7.0 HP",
+"standard": "AS/NZS 4859.1" }, { "property": "Wall HP R-Values", "value": "R2.0
+HP (75mm), R2.2 HP (75mm), R2.5 HP (90mm), R2.7 HP (90mm)", "standard":
+"AS/NZS 4859.1" }, { "property": "Perimeter HP R-Value", "value": "R3.0 (100mm
+thickness, 400mm length)", "standard": "AS/NZS 4859.1" }, { "property": "Ceiling
+HP Thicknesses", "value": "R4.1 HP: 195 mm; R5.0 HP: 215 mm; R6.0 HP: 250 mm;
+R7.0 HP: 290 mm", "standard": "" }, { "property": "Wall HP Thicknesses",
+"value": "R2.0 HP: 75 mm; R2.2 HP: 75 mm; R2.5 HP: 90 mm; R2.7 HP: 90 mm",
+"standard": "" }, { "property": "Standard Dimensions", "value": "1160 mm length
+x 430 mm or 580 mm width (perimeter: 400 x 430/580 mm)", "standard": "" }, {
+"property": "Combustibility", "value": "Non-combustible", "standard":
+"AS 1530.1" }, { "property": "Fire Hazard Indices", "value": "Ignitability: 0,
+Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1", "standard":
+"AS/NZS 1530.3" }, { "property": "Maximum Service Temperature", "value":
+"350°C", "standard": "" } ], "range": [ { "variant": "Gold HP Ceiling Batts
+R5.0", "size_or_rating": "215 mm x 1160 mm x 430/580 mm", "pack": "Pack of 8
+batts" }, { "variant": "Gold HP Ceiling Batts R6.0", "size_or_rating": "250 mm
+x 1160 mm x 430/580 mm", "pack": "Pack of 6 batts" }, { "variant": "Gold HP
+Ceiling Batts R7.0", "size_or_rating": "290 mm x 1160 mm x 430/580 mm", "pack":
+"Pack of 4 batts" }, { "variant": "Gold HP Wall Batts R2.0 (75mm)",
+"size_or_rating": "75 mm x 1160 mm x 430/580 mm", "pack": "Pack of 16/24 batts"
+}, { "variant": "Gold HP Wall Batts R2.2 (75mm)", "size_or_rating": "75 mm
+x 1160 mm x 430/580 mm", "pack": "Pack of 12/18 batts" }, { "variant": "Gold HP
+Wall Batts R2.5 (90mm)", "size_or_rating": "90 mm x 1160 mm x 430/580 mm",
+"pack": "Pack of 12/18 batts" }, { "variant": "Gold HP Wall Batts R2.7 (90mm)",
+"size_or_rating": "90 mm x 1160 mm x 430/580 mm", "pack": "Pack of 8/12 batts"
+}, { "variant": "Gold Perimeter Batts R3.0", "size_or_rating": "100 mm x 400 mm
+x 430/580 mm", "pack": "Pack of 5 batts" } ], "fire": "Non-combustible to
+AS 1530.1; AS/NZS 1530.3: Ignitability 0, Spread of Flame 0, Heat Evolved 0,
+Smoke Developed 0-1; Deemed non-combustible under NCC", "compliance":
+"AS/NZS 4859.1, AS 3999, NCC 2022 / NCC 2025 7-star NatHERS compliance",
+"sustainability": "Contains up to 80% recycled glass; bio-soluble FBS-1; zero
+ODP; Sensitive Choice certified", "install": [ "Isolate power at the main
+switchboard before entering ceiling or working in wall cavities", "Fit HP batts
+friction-tight between studs or ceiling joists with zero gaps", "Ensure
+high-density wall batts remain flat without bulging plasterboard or breaching
+outer cavity space", "Use R3.0 low-profile Gold Perimeter Batts around roof
+eaves to avoid compression within 450mm of external walls", "Maintain required
+clearances from non-IC downlights and flues per AS 3999" ],
+"selection_checklist": [ "Check NatHERS energy rating report for exact required
+R-values (e.g. R2.7 in walls, R5.0 or R6.0 in ceiling)", "Confirm wall stud
+depth (75mm for 70mm studs; 90mm for 90mm studs)", "Verify stud and joist
+spacing (430mm for 450mm centres, 580mm for 600mm centres)", "Check eave height
+clearance to determine if Gold Perimeter Batts are needed" ], "accessories": [
+"Bradford Perimeter Spacer", "Bradford Gold Perimeter Batts", "Enviroseal wall
+wraps" ], "limitations": [ "Do not force thicker batts into shallower stud
+cavities as plasterboard will bulge", "Must be kept dry during transport,
+storage, and installation", "Must not cover non-IC rated electrical fixtures" ],
+"warranty": "70 Year Product Performance Warranty", "found": true,
+"search_keywords": [ "Bradford Gold Hi-Performance", "Gold HP batts", "Bradford
+HP ceiling batts", "R2.7 wall batts", "R5.0 ceiling batts", "R6.0 ceiling
+batts", "R7.0 ceiling batts", "high density wall batts", "7 star insulation
+batts", "Bradford Gold HP" ], "problem_keywords": [ "meeting 7 star energy
+rating", "high R-value in 90mm wall stud", "extreme roof heat in alpine or
+desert climate", "maximum thermal efficiency for new build", "tight eave
+insulation compression" ], "placement": [ "ceiling", "wall", "external wall",
+"internal wall" ], "priority_fit": [ "thermal", "acoustic", "sustainability",
+"easy_install" ], "use_cases": [ "Insulating external 90mm stud walls with R2.7
+HP batts to achieve 7-star energy compliance without changing frame thickness",
+"Installing R5.0 to R7.0 HP batts in ceilings of alpine, cold climate, or hot
+tropical homes", "Using low-profile R3.0 Perimeter Batts to maintain compliant
+ceiling insulation depth at roof eaves" ], "not_for": [ "Underfloor joists (use
+Bradford Optimo)", "Bushfire BAL-FZ exposed roofs", "Direct masonry contact
+without cavity wrap" ], "rag_summary": "Bradford Gold Hi-Performance Batts (Gold
+HP) represent CSR Bradford's highest-density glasswool insulation range,
+engineered to provide maximum thermal resistance in space-constrained building
+cavities. Offering ceiling ratings from R4.1 HP up to R7.0 HP and wall ratings
+up to R2.7 HP in standard 90mm studs, it is the premier solution for
+achieving 7-star and 8-star NatHERS energy compliance across Australia.
+Non-combustible to AS 1530.1, Sensitive Choice certified, and formulated with
+low-itch Comfort Touch technology, it provides lifetime thermal and acoustic
+performance backed by a 70-year warranty." }, { "family_id":
+"BRADFORD_MULTITEL_FOIL_FACED", "tds_url":
+"https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/hvac/multitel",
+"sds_url":
+"https://www.bradfordinsulation.com.au/-/media/bradford/files/safety-data-sheet---glasswool.pdf",
+"description": "Bradford Multitel Foil-Faced is a lightweight, flexible
+glasswool insulation blanket factory-laminated with a reinforced aluminium foil
+facing, specifically engineered for the external thermal and acoustic wrapping
+of commercial and residential air conditioning ductwork. Manufactured by
+spinning molten glass containing up to 65% recycled content into fine
+bio-soluble fibres, it limits energy losses, controls condensation, and dampens
+fan noise traveling through duct systems. Also utilised as a bushfire ember
+protection blanket (Multitel BAL 12.5-40), it achieves non-combustibility and
+complies with Australian Standard AS 4254 for HVAC ductwork.", "features": [
+"Factory-laminated with reinforced aluminium foil facing to provide an effective
+vapour barrier", "Designed for the external wrapping of heating, ventilation,
+and air conditioning (HVAC) ducts", "Substantially reduces duct heat gain/loss
+and dampens airborne fan noise", "Non-combustible glasswool core complying with
+AS 1530.1", "Multitel BAL version certified to seal gaps against ember ingress
+up to BAL-40 under AS 3959", "Lightweight and highly flexible for easy wrapping
+around circular and rectangular ductwork", "Made from bio-soluble FBS-1
+glasswool containing up to 65% recycled glass", "Low VOC emissions and zero
+Ozone Depleting Potential (ODP)", "Meets AS 4254 requirements for ductwork
+insulation" ], "applications": [ "duct", "pipe", "roof", "roofline" ],
+"technical": [ { "property": "Material", "value": "Bio-soluble glasswool (FBS-1)
+with reinforced aluminium foil facing", "standard": "" }, { "property": "Blanket
+R-Values", "value": "R0.7 (25mm), R1.0 (38mm), R1.3 (50mm), R2.0 (75mm)",
+"standard": "AS/NZS 4859.1" }, { "property": "Thickness Options", "value": "25
+mm, 38 mm, 50 mm, 75 mm", "standard": "" }, { "property": "Roll Dimensions
+(HVAC)", "value": "1200 mm width x 7.5 m, 10 m, or 15 m length", "standard": ""
+}, { "property": "Roll Dimensions (BAL 12.5-40)", "value": "300 mm width x 20 m
+length x 25 mm thickness", "standard": "" }, { "property": "Nominal Density",
+"value": "Approx. 12-18 kg/m³", "standard": "" }, { "property": "Combustibility
+(Core)", "value": "Non-combustible", "standard": "AS 1530.1" }, { "property":
+"Early Fire Hazard Indices", "value": "Ignitability: 0, Spread of Flame: 0, Heat
+Evolved: 0, Smoke Developed: 0-1", "standard": "AS/NZS 1530.3" }, { "property":
+"Facing Vapour Permeance", "value": "Low (Vapour Barrier Class 1/2)",
+"standard": "ASTM E96" }, { "property": "Operating Temperature", "value": "Up
+to 120°C (facing limit)", "standard": "" } ], "range": [ { "variant": "Multitel
+HVAC Foil Faced 25mm", "size_or_rating": "25 mm x 1200 mm x 15 m (R0.7, 18 m²)",
+"pack": "Roll (Code: 16074)" }, { "variant": "Multitel HVAC Foil Faced 38mm",
+"size_or_rating": "38 mm x 1200 mm x 15 m (R1.0, 18 m²)", "pack": "Roll
+(Code: 77363)" }, { "variant": "Multitel HVAC Foil Faced 50mm",
+"size_or_rating": "50 mm x 1200 mm x 10 m (R1.3, 12 m²)", "pack": "Roll
+(Code: 16068)" }, { "variant": "Multitel HVAC Foil Faced 75mm",
+"size_or_rating": "75 mm x 1200 mm x 7.5 m (R2.0, 9 m²)", "pack": "Roll
+(Code: 77399)" }, { "variant": "Multitel BAL 12.5-40 Blanket", "size_or_rating":
+"25 mm x 300 mm x 20 m (4 pieces, 80 lineal metres)", "pack": "Pack of 4 rolls
+(Code: 100061)" } ], "fire": "Non-combustible glasswool core to AS 1530.1;
+AS/NZS 1530.3 indices: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke
+Developed 0-1; Complies with AS 3959 up to BAL-40 for roof ember protection",
+"compliance": "AS/NZS 4859.1, AS 4254 (Ductwork for air-handling systems),
+AS 3959, NCC Volume One and Volume Two", "sustainability": "Manufactured from up
+to 65% recycled glass; bio-soluble FBS-1; zero ODP; low VOC", "install": [
+"Ensure external duct surface is clean, dry, and free of grease or debris", "Cut
+Multitel blanket allowing sufficient length to wrap around duct perimeter
+plus 50mm foil overlap", "Wrap blanket snugly around the duct with the foil
+facing outward", "Seal all longitudinal and transverse foil seams with 75mm
+Bradford reinforced aluminium foil tape", "Squeegee tape down firmly to ensure a
+complete, airtight vapour seal", "Secure blanket with outward-clench staples,
+tape, or plastic/metal strapping at 300-400mm centres", "Avoid compressing the
+blanket significantly across corners to maintain rated thermal resistance" ],
+"selection_checklist": [ "Confirm ductwork insulation requirement (external
+thermal/condensation wrapping)", "Determine required R-value (R0.7, R1.0, R1.3,
+or R2.0) per NCC / AS 4254 energy efficiency tables", "Calculate total surface
+area of rectangular and circular ducting", "Ensure matching 75mm reinforced
+aluminium foil tape is included for joint sealing", "For bushfire roof
+applications, specify Multitel BAL 12.5-40 (300mm width rolls)" ],
+"accessories": [ "Bradford 493 Reinforced Aluminium Foil Tape", "Duct strapping
+/ banding", "Outward-clench staples" ], "limitations": [ "For external duct wrap
+only; not suitable as internal duct acoustic liner exposed to high-velocity
+airflow (use Supertel/Flexitel)", "Operating temperature of foil facing must not
+exceed 120°C", "Must not be left exposed to direct sunlight (UV) or outdoor
+weather without protective cladding" ], "warranty": "Backed by CSR Bradford
+product warranty", "found": true, "search_keywords": [ "Bradford Multitel",
+"Multitel Foil Faced", "Multitel HVAC Blanket", "foil faced duct wrap", "air
+conditioning duct insulation", "glasswool duct wrap", "Multitel BAL 12.5-40",
+"Bradford duct blanket", "CSR Multitel 16068" ], "problem_keywords": [
+"condensation on AC ductwork", "heat loss through air conditioning ducts",
+"noisy ductwork fan noise", "sweating metal air ducts", "sealing ember ingress
+in roof", "meeting AS 4254 duct insulation code" ], "placement": [ "duct",
+"pipe", "roof", "roofline" ], "priority_fit": [ "condensation", "thermal",
+"acoustic", "fire" ], "use_cases": [ "Externally wrapping rectangular and spiral
+sheet-metal air conditioning ducts in commercial and residential ceiling
+spaces", "Preventing condensation and heat gain on supply air ductwork in
+unconditioned roof cavities", "Sealing roof valleys, gutters, and ridge joints
+against ember attack in BAL 12.5 to BAL-40 bushfire zones" ], "not_for": [
+"Internal duct acoustic lining with moving airflow (use Bradford Supertel or
+Ultratel)", "Direct floor/ceiling building envelope batts", "Exposed external
+cladding" ], "rag_summary": "Bradford Multitel Foil-Faced is a flexible,
+lightweight glasswool HVAC blanket factory-laminated with a reinforced aluminium
+foil vapour barrier, designed for the external thermal and acoustic wrapping of
+air conditioning ductwork. Available in thicknesses from 25mm to 75mm (R0.7 to
+R2.0) in 1200mm wide rolls, it prevents duct sweat/condensation, reduces energy
+losses, and dampens airflow noise. Also produced in a 300mm width as Multitel
+BAL 12.5-40 for sealing roof ember entry points, it features a non-combustible
+core to AS 1530.1 and complies with AS 4254 ductwork standards." }, {
+"family_id": "BRADFORD_OPTIMO", "tds_url":
+"https://www.bradfordinsulation.com.au/home-insulation/floor/optimo-underfloor-insulation",
+"sds_url":
+"https://www.bradfordinsulation.com.au/-/media/bradford/files/safety-data-sheet---glasswool.pdf",
+"description": "Bradford Optimo is a rigid, high-density glasswool insulation
+batt specifically engineered for suspended timber floors in new builds and
+retrofits. Sized deliberately narrower than wall batts (415mm and 565mm) to fit
+snugly between floor joists, Optimo reduces subfloor heat loss by up to 20%,
+blocks draughts, and dampens footstep resonance and external noise transmission
+by up to 6dB. Non-combustible, low-allergen, and Sensitive Choice certified, it
+is secured from below or above using proprietary Optimo Saddles, Straps, or
+StayFast brackets and backed by a 70-year warranty.", "features": [
+"Specifically designed for suspended timber floors to eliminate cold floors and
+subfloor draughts", "Sized narrower (415mm and 565mm) for a tight, friction-fit
+grip between timber joists", "Rigid, high-density glasswool construction
+prevents sagging and holds thickness", "Cuts heat loss through suspended timber
+floors by up to 20%", "Reduces acoustic reverberation and foot traffic noise
+through floorboards by up to 6dB", "Non-combustible when tested in accordance
+with AS 1530.1", "National Asthma Council Sensitive Choice approved for
+low-allergen indoor air quality", "Simple installation using proprietary Optimo
+Saddles (new builds), Straps, or StayFast brackets (retrofits)", "Manufactured
+from up to 80% recycled glass with bio-soluble FBS-1 formulation", "Backed by
+CSR Bradford's 70-year product performance warranty" ], "applications": [
+"floor", "underfloor", "subfloor", "between floors" ], "technical": [ {
+"property": "Material", "value": "High-density bio-soluble glasswool (FBS-1)",
+"standard": "" }, { "property": "Thermal Resistance (R-Value)", "value": "R2.1,
+R2.5", "standard": "AS/NZS 4859.1" }, { "property": "Thickness", "value":
+"R2.1: 75 mm; R2.5: 90 mm", "standard": "" }, { "property": "Standard
+Dimensions", "value": "1160 mm length x 415 mm width (for 450mm joists) or 565
+mm width (for 600mm joists)", "standard": "" }, { "property": "Coverage Per
+Pack", "value": "415 mm: 3.85 m² (8 batts); 565 mm: 5.24 m² (8 batts)",
+"standard": "" }, { "property": "Combustibility", "value": "Non-combustible",
+"standard": "AS 1530.1" }, { "property": "Fire Hazard Indices", "value":
+"Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 1",
+"standard": "AS/NZS 1530.3" }, { "property": "Maximum Service Temperature",
+"value": "300°C", "standard": "" }, { "property": "Acoustic Attenuation",
+"value": "Reduces sound transmission through timber floors by up to 6 dB",
+"standard": "" } ], "range": [ { "variant": "Optimo Underfloor Batts R2.1
+(415mm)", "size_or_rating": "75 mm x 1160 mm x 415 mm", "pack": "Pack of 8 batts
+(3.85 m², Code: 122432)" }, { "variant": "Optimo Underfloor Batts R2.1 (565mm)",
+"size_or_rating": "75 mm x 1160 mm x 565 mm", "pack": "Pack of 8 batts (5.24 m²,
+Code: 122433)" }, { "variant": "Optimo Underfloor Batts R2.5 (415mm)",
+"size_or_rating": "90 mm x 1160 mm x 415 mm", "pack": "Pack of 8 batts (3.85 m²,
+Code: 114650)" }, { "variant": "Optimo Underfloor Batts R2.5 (565mm)",
+"size_or_rating": "90 mm x 1160 mm x 565 mm", "pack": "Pack of 8 batts (5.24 m²,
+Code: 114692)" } ], "fire": "Non-combustible to AS 1530.1; AS/NZS 1530.3
+indices: Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke
+Developed: 1; Suitable for bushfire-prone areas", "compliance": "AS/NZS 4859.1,
+AS 3999, NCC Volume One and Volume Two / ABCB Housing Provisions Standard
+Part 13.2", "sustainability": "Contains up to 80% recycled glass; bio-soluble
+FBS-1 formulation; zero ODP; Sensitive Choice certified", "install": [ "Turn off
+power at main switchboard before entering subfloor space", "Measure joist
+spacings (use 415mm batts for 450mm centres; 565mm batts for 600mm centres)",
+"In new builds, fit Optimo Saddles across joists at max 500mm spacing before
+laying flooring, then place batts on saddle feet from above", "For retrofit
+beneath existing floors, push batts up tightly against underside of floorboards
+ensuring no air gaps", "Secure retrofitted batts using Optimo Straps fixed to
+joists at max 500mm intervals and swivelled 90 degrees to support batts",
+"Alternatively, use self-adhesive Optimo StayFast brackets (2 per side per batt)
+fixed 300mm in from batt ends", "Trim batts 5mm wider than opening if joist
+spacing is irregular to maintain a snug friction fit", "Take care not to block
+subfloor ventilation openings" ], "selection_checklist": [ "Measure joist
+centres (450mm vs 600mm) to select 415mm or 565mm batt width", "Confirm required
+R-value (R2.1 or R2.5) based on climate zone and energy rating targets", "Check
+installation method (new build from above vs retrofit from subfloor
+crawlspace)", "Order corresponding fixing accessories (Optimo Saddles, Optimo
+Straps, or Optimo StayFast brackets)", "Ensure minimum crawl space clearance
+exists for safe access in retrofit jobs" ], "accessories": [ "Bradford Optimo
+Saddles", "Bradford Optimo Straps", "Bradford Optimo StayFast Brackets" ],
+"limitations": [ "Must be mechanically supported with Saddles, Straps, or
+StayFast brackets to prevent gravity sagging over time", "Do not cover
+electrical subfloor wiring that may be susceptible to derating without checking
+AS/NZS 3000", "Do not block subfloor wall vents which are critical for moisture
+dissipation" ], "warranty": "70 Year Product Performance Warranty", "found":
+true, "search_keywords": [ "Bradford Optimo", "Optimo underfloor batts",
+"underfloor insulation", "R2.5 underfloor batts", "suspended timber floor
+insulation", "Optimo 415mm", "Optimo 565mm", "Optimo StayFast", "Optimo
+saddles", "cold timber floor insulation" ], "problem_keywords": [ "cold timber
+floorboards in winter", "draughts blowing up through floorboards", "heat loss
+through suspended floor", "creaking noisy timber floor", "subfloor drafts",
+"uninsulated timber floor" ], "placement": [ "floor", "underfloor", "subfloor",
+"between floors" ], "priority_fit": [ "thermal", "easy_install", "acoustic",
+"sustainability" ], "use_cases": [ "Retrofitting underfloor insulation beneath
+existing polished timber floorboards in older homes to eliminate winter chills
+and draughts", "Installing between joists from above in new suspended timber
+floor construction using Optimo Saddles", "Dampening footstep noise and floor
+hollow resonance in double-storey homes" ], "not_for": [ "Concrete slab
+insulation", "Wall cavity framing batts (use Bradford Gold Wall)", "Ceiling
+insulation" ], "rag_summary": "Bradford Optimo is a high-density, rigid
+glasswool insulation batt specifically designed to insulate suspended timber
+floors. Available in R2.1 and R2.5 ratings and custom-sized to 415mm and 565mm
+widths to friction-fit snugly between joists, it prevents cold subfloor
+draughts, cuts floor heat loss by up to 20%, and dampens floorboard footstep
+noise by up to 6dB. Deemed non-combustible to AS 1530.1, Sensitive Choice
+certified, and secured using Optimo Saddles, Straps, or StayFast brackets, it is
+backed by a 70-year performance warranty." } ]

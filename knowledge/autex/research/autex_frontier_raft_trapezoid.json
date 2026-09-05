@@ -1,0 +1,174 @@
+{
+  "family_id": "AUTEX_FRONTIER_RAFT_TRAPEZOID",
+  "family_name": "Autex Frontier Raft - Trapezoid",
+  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/frontier/",
+  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Autex Frontier Raft - Trapezoid is an innovative acoustic ceiling beam system\ndesigned for targeted sound absorption in open-plan spaces. Constructed\nfrom 100% polyester fibre using scored and folded 12mm Cube material locked with\nan extruded aluminium channel, Trapezoid creates a lightweight 3D acoustic\nfeature with an internal sound-dampening air gap. It easily fixes directly or\nsuspends from ceilings, delivering high acoustic performance across a wide\nfrequency range without the weight of solid timber or metal beams.",
+    "features": [
+      "Innovative scored and folded hollow 3D trapezoid profile (200mm wide x 137mm\ndeep)",
+      "Made from 100% polyester fibre containing a minimum of 60% recycled\nPET",
+      "Group 1 fire rating compliant with AS ISO 9705 - 2003 and AS 5637.1",
+      "Sound absorption with internal air cavity achieving high NRC (0.75 - 0.95)",
+      "Lightweight alternative to solid wood or steel ceiling beams",
+      "Compatible with\nFrontier channel and mounting clip suspension systems",
+      "Highly durable material\nthat will not bend, slump, or warp over time",
+      "Resistant to moisture, mould,\nand mildew (ASTM G21-15 Growth Rating: 0)",
+      "Safe, non-toxic, non-allergenic,\nand low-VOC emissions",
+      "Backed by a 10-year manufacturer's guarantee"
+    ],
+    "applications": [
+      "ceiling",
+      "open-plan office",
+      "commercial interior",
+      "education",
+      "retail",
+      "hospitality"
+    ],
+    "technical": [
+      {
+        "property": "Material\nComposition",
+        "value": "100% polyester fibre (PET) with aluminium extrusion\nchannel",
+        "standard": ""
+      },
+      {
+        "property": "Profile Dimensions",
+        "value": "200 mm\nwidth x 137 mm height (inclusive of extrusion)",
+        "standard": ""
+      },
+      {
+        "property": "Length",
+        "value": "1200 mm or 2400 mm",
+        "standard": ""
+      },
+      {
+        "property": "Base\nMaterial Thickness",
+        "value": "12 mm Cube panel",
+        "standard": ""
+      },
+      {
+        "property": "Acoustic Performance",
+        "value": "NRC 0.75 - 0.95 (at 300 mm\ncentres, 200 mm off ceiling)",
+        "standard": "ISO 354"
+      },
+      {
+        "property": "Fire\nHazard Classification",
+        "value": "Group 1, SMOGRArc < 100 m2/s2",
+        "standard": "AS ISO 9705 - 2003 / AS 5637.1:2015"
+      },
+      {
+        "property": "Fire Hazard Properties",
+        "value": "Class A, FS:0 - SD:45",
+        "standard": "ASTM E-84-15a"
+      },
+      {
+        "property": "International Fire Classification",
+        "value": "Group 1-S (ISO 9705:1993) / B-s2,\nd0 (BS EN 13501-1:2018)",
+        "standard": "ISO 9705 / BS EN 13501-1"
+      },
+      {
+        "property": "Water Vapour Sorption",
+        "value": "0.4% by weight after 4 days\nat 49°C, 95% RH",
+        "standard": "ASTM C1104 / C1104M-13a"
+      },
+      {
+        "property": "Microbial Resistance",
+        "value": "Growth rating: 0 (No growth)",
+        "standard": "ASTM G21-15"
+      },
+      {
+        "property": "VOC Emissions",
+        "value": "Low VOC, CDPH\ncompliant (<0.092 mg/m3)",
+        "standard": "CDPH v1.2"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Frontier Raft Trapezoid 2400mm",
+        "size_or_rating": "2400mm L x 200mm W x 137mm\nH (Pack covers 2.88 m2 at 300mm centres)",
+        "pack": "4 rafts per pack"
+      },
+      {
+        "variant": "Frontier Raft Trapezoid 1200mm",
+        "size_or_rating": "1200mm L x 200mm\nW x 137mm H (Pack covers 2.88 m2 at 300mm centres)",
+        "pack": "8 rafts per pack"
+      }
+    ],
+    "fire": "Group 1 (AS ISO 9705 - 2003 / AS 5637.1:2015, SMOGRArc < 100\nm2/s2); ISO 9705:1993 Group 1-S; ASTM E-84-15a Class A (FS:0, SD:45); BS\nEN 13501-1:2018 B-s2, d0",
+    "compliance": "NCC BCA Specification C1.10 Group 1\nfire compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354",
+    "sustainability": "Contains minimum 60% post-consumer recycled PET; zero carbon manufacturing;\nDeclare Red List Free; EPD verified; low VOC",
+    "install": [
+      "Plan ceiling layout\nallowing recommended 300mm spacing between raft centres",
+      "Securely install\nFrontier mounting clips or suspension track to structural ceiling",
+      "Slide\nRAFNEXRT aluminium extrusion into the folded Trapezoid raft top channel",
+      "Align\nAutex mounting clips with channel and turn 45 degrees to temporarily position",
+      "Adjust along length and twist clips 90 degrees to lock firmly in place",
+      "Fit\nblack extrusion end caps to ends for a neat aesthetic finish"
+    ],
+    "selection_checklist": [
+      "Confirm ceiling height and available plenum space\nfor 137mm deep profile",
+      "Select raft length (1200mm or 2400mm) and calculate\npack quantities based on 300mm spacing",
+      "Choose colourway from Autex Cube solid\ncolour or Acoustic Timber printed finish range",
+      "Verify direct-fix or suspended\ninstallation hardware requirement",
+      "Confirm local seismic bracing requirements\nif applicable"
+    ],
+    "accessories": [
+      "Frontier Raft Extrusions (RAFNEXRT)",
+      "Autex\nMounting Clips (RAFTCC)",
+      "Frontier Channel Connectors (RAFCCT)",
+      "Adjustable\nsuspension cable sets / rod hangers",
+      "Frontier Trapezoid end caps"
+    ],
+    "limitations": [
+      "Indoor ceiling application only; not for external use or wet\nenvironments",
+      "Not load-bearing; cannot support fixtures, lighting, or\nservices",
+      "Spacing wider than recommended will decrease overall room acoustic\nabsorption"
+    ],
+    "warranty": "10 Year Manufacturer's Guarantee"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Autex Frontier Raft",
+      "Frontier Raft Trapezoid",
+      "Autex\nacoustic baffles",
+      "polyester ceiling beams",
+      "trapezoid acoustic raft",
+      "acoustic ceiling baffles",
+      "Autex raft trapezoid",
+      "Cube ceiling baffle",
+      "suspended acoustic beams"
+    ],
+    "problem_keywords": [
+      "echo in open plan office",
+      "reverberant exposed concrete ceiling",
+      "noisy commercial fitout",
+      "high ceiling\necho",
+      "speech clarity in meeting spaces",
+      "decorative acoustic treatment"
+    ],
+    "placement": [
+      "ceiling"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "fire",
+      "sustainability",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Suspended linear acoustic\nfeatures over open-plan office desk clusters to cut speech distractions",
+      "Direct-fixed acoustic ceiling beams in educational lecture halls and school\nlibraries",
+      "Architectural sound absorption in hospitality dining rooms and\ncommercial reception foyers"
+    ],
+    "not_for": [
+      "Underfloor insulation\napplications",
+      "External weather-exposed roofing or cladding",
+      "Direct foot\ntraffic or heavy impact floor zones"
+    ],
+    "rag_summary": "Autex Frontier Raft -\nTrapezoid is a 3D acoustic ceiling beam system formed from scored and\nfolded 12mm Cube polyester panels locking into an aluminium suspension channel.\nSized at 200mm wide by 137mm high in 1200mm or 2400mm lengths, its hollow\nprofile and internal air gap deliver high sound absorption (NRC 0.75 - 0.95)\nacross speech frequencies. Achieving NCC Group 1 fire compliance and\ncarbon-neutral certification with over 60% recycled PET content, it offers an\narchitecturally striking, lightweight alternative to solid timber baffles for\nopen-plan commercial, educational, and hospitality interiors."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

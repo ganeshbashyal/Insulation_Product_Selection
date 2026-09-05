@@ -1,0 +1,164 @@
+{
+  "family_id": "AUTEX_VERVE_SURFACE_FINISHES",
+  "family_name": "Autex Verve - Surface Finishes",
+  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/verve/",
+  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Autex Verve - Surface Finishes is a three-dimensional contoured acoustic wall\npanel combining expressive architectural forms with digitally printed stone and\ntextural finishes. Made from 100% polyester fibre with an 80% recycled PET core,\nit turns static walls into sculptural features that interact with light and\nshadow. Available in six distinctive contoured profiles and a curated selection\nof marble, travertine, and concrete prints, it delivers acoustic comfort\n(NRC 0.30+) and Group 1 fire compliance without the structural weight of real\nmasonry.",
+    "features": [
+      "Sculptural contoured profiles: Pillar, Flute, Ovolo,\nPinstripe, Ridge, Windswept",
+      "High-definition digital printing of realistic\nstone, marble, and concrete textures",
+      "Printed with safe, water-based, UV-cured\nink without degrading acoustic performance",
+      "Constructed from 100% polyester\nfibre with minimum 80% recycled PET",
+      "Available in 12mm (6mm edge) and 21mm\n(15mm edge) thicknesses",
+      "Standard full-height panel dimensions of 2680mm\nor 2700mm height by 1170mm width",
+      "Acoustic rating of NRC 0.30 and higher",
+      "Group 1 fire rating compliant with AS ISO 9705 - 2003 and AS 5637.1",
+      "Compatible with SpinFix mechanical mounting or direct adhesive fixing",
+      "Certified Carbon Neutral product with third-party verified EPD"
+    ],
+    "applications": [
+      "wall",
+      "internal wall"
+    ],
+    "technical": [
+      {
+        "property": "Acoustic Rating (NRC)",
+        "value": "NRC 0.30 and higher (typically 0.30 - 0.70+\ndepending on air gap)",
+        "standard": "ISO 354"
+      },
+      {
+        "property": "Panel\nDimensions",
+        "value": "1170 mm width x 2680 mm length (or 2700 mm length)",
+        "standard": ""
+      },
+      {
+        "property": "Thickness Options",
+        "value": "12 mm (6 mm edge)\n| 21 mm (15 mm edge)",
+        "standard": ""
+      },
+      {
+        "property": "Base Material",
+        "value": "100% polyester fibre (PET) Cube panel",
+        "standard": ""
+      },
+      {
+        "property": "Recycled Content",
+        "value": "Minimum 80% post-consumer recycled PET",
+        "standard": ""
+      },
+      {
+        "property": "Fire Rating (Australia)",
+        "value": "Group 1,\nSMOGRArc < 100 m2/s2",
+        "standard": "AS ISO 9705 - 2003 / AS 5637.1:2015"
+      },
+      {
+        "property": "International Fire Classification",
+        "value": "Group 1-S\n(ISO 9705:1993); BS EN 13501-1:2018 B - s1, d0",
+        "standard": "ISO 9705 / BS\nEN 13501-1"
+      },
+      {
+        "property": "Water Vapour Sorption",
+        "value": "0.4% by weight\nafter 4 days at 49°C, 95% RH",
+        "standard": "ASTM C1104 / C1104M-13a"
+      },
+      {
+        "property": "Microbial Resistance",
+        "value": "Growth rating: 0 (No growth)",
+        "standard": "ASTM G21-15"
+      },
+      {
+        "property": "VOC Emissions",
+        "value": "< 0.092\nmg/m3 (7 days)",
+        "standard": "CDPH Standard Method v1.2"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Verve Surface Finishes 12mm",
+        "size_or_rating": "1170 mm x 2680 mm\nx 12 mm (6 mm edge)",
+        "pack": "Panel"
+      },
+      {
+        "variant": "Verve Surface\nFinishes 21mm",
+        "size_or_rating": "1170 mm x 2680 mm x 21 mm (15 mm edge)",
+        "pack": "Panel"
+      }
+    ],
+    "fire": "AS ISO 9705 - 2003 and AS 5637.1 Classification:\nGroup 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; BS EN 13501-1:2018 B -\ns1, d0",
+    "compliance": "NCC Specification 7 (BCA C1.10) Group 1 fire compliance;\nAS ISO 9705:2003; AS 5637.1:2015; ISO 354",
+    "sustainability": "Carbon neutral\nproduct; water-based UV ink; minimum 80% recycled PET; Declare Red List Free;\nEPD compliant; low VOC",
+    "install": [
+      "Confirm substrate is plumb, flat, and\ndry",
+      "Inspect stone or texture pattern alignment across all panels before\nfitting",
+      "Apply high-grab MS polymer adhesive evenly across panel back or use\nSpinFix clips",
+      "Position panel, butt edges tightly at pattern low points, and\npress firmly across face",
+      "Ensure seamless continuity of contoured profile\nacross adjacent panels",
+      "Trim top and bottom edges carefully with a track saw\nor fine-toothed blade"
+    ],
+    "selection_checklist": [
+      "Select contoured profile\n(Pillar, Flute, Ovolo, Pinstripe, Ridge, Windswept)",
+      "Select stone or texture\nprint from the Surface Finishes collection (Carrara, Travertine, Concrete,\netc.)",
+      "Select thickness (12mm with 6mm edge or 21mm with 15mm edge)",
+      "Confirm\nwall height (2680mm or 2700mm)",
+      "Choose fixing method (adhesive direct-fix or\nSpinFix clips)"
+    ],
+    "accessories": [
+      "Autex SpinFix mounting brackets",
+      "High-grab MS polymer adhesive",
+      "Fine-tooth saw"
+    ],
+    "limitations": [
+      "Indoor\nuse only; avoid wet areas or direct water exposure",
+      "Pinstripe design is\navailable in 12mm only",
+      "Panels must be installed in uniform vertical\norientation"
+    ],
+    "warranty": "Manufacturer's Guarantee (10 years)"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Autex Verve Surface Finishes",
+      "Verve Contoured\nPanel stone",
+      "fluted stone acoustic panel",
+      "fluted concrete acoustic wall",
+      "3D stone acoustic panel",
+      "sculptural concrete acoustic panel",
+      "Verve\nTravertine",
+      "Verve Carrara",
+      "Autex Verve stone"
+    ],
+    "problem_keywords": [
+      "heavy fluted stone weight limits",
+      "reverberant fluted concrete walls",
+      "hard\ncold stone acoustics",
+      "echo in commercial lobby",
+      "need fluted marble feature\nwall with acoustic properties",
+      "office reception sound reflection"
+    ],
+    "placement": [
+      "wall",
+      "internal wall"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "fire",
+      "sustainability",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Creating fluted stone or\ntravertine feature walls in commercial lobbies and executive boardrooms",
+      "Acoustic feature wall panelling in high-end hospitality venues and\nrestaurants",
+      "Transforming flat walls into tactile concrete-look sculptural\nsurfaces in retail flagships"
+    ],
+    "not_for": [
+      "Flooring or foot traffic\nsurfaces",
+      "Exterior building facades",
+      "Wet rooms with direct running water"
+    ],
+    "rag_summary": "Autex Verve - Surface Finishes combines 3D contoured acoustic\nwall geometry with high-definition digital UV printing of natural stone, marble,\nand concrete textures. Constructed from 100% polyester fibre with an 80%\nrecycled PET core, it is available in six sculptural profiles and two\nthicknesses (12mm and 21mm) in 2680mm x 1170mm sheets. Delivering an acoustic\nabsorption rating of NRC 0.30+ and Group 1 fire compliance under AS ISO 9705, it\nreplicates the high-end aesthetic of fluted masonry without structural weight,\ninstallation complexity, or acoustic harshness."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

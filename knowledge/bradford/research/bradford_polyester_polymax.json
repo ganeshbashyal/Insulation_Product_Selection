@@ -1,0 +1,168 @@
+{
+  "family_id": "BRADFORD_POLYESTER_POLYMAX",
+  "family_name": "Bradford Polyester - Polymax",
+  "datasheet_pdf_url": "https://www.bradfordinsulation.com.au/home-insulation/walls/polymax-wall-batts",
+  "sds_url": "https://www.bradfordinsulation.com.au/resources/safety-data-sheets",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Bradford Polymax thermal and acoustic polyester insulation is\nmanufactured from 100% thermally bonded polyester fibres containing up to 80%\nrecycled content. Specifically engineered for walls and partitions in\nresidential and commercial buildings, it provides non-irritant, easy-to-install\nthermal and acoustic performance. It contains no chemical binders or added flame\nretardants, will not pack down or deteriorate, and is approved by the National\nAsthma Council's Sensitive Choice program.",
+    "features": [
+      "100% thermally\nbonded polyester fibre with no chemical binders",
+      "Made from up to 80% recycled\nPET fibres",
+      "Non-irritant and completely safe to touch without protective\ngear",
+      "Acoustic and thermal dual-performance for walls and partitions",
+      "Tested\nto AS/NZS 4859.1 for thermal resistance",
+      "Early Fire Hazard properties\ncomplying with AS 1530.3 (Ignitability 0, Spread of Flame 0, Smoke\nDeveloped 0-2)",
+      "Approved by National Asthma Council Australia's Sensitive\nChoice program",
+      "Resistant to moisture, mould, rot, and vermin",
+      "Zero Ozone\nDepleting Potential (ODP) and low VOC emissions",
+      "Backed by a 70-year\nperformance warranty"
+    ],
+    "applications": [
+      "wall",
+      "internal wall",
+      "external\nwall",
+      "between floors"
+    ],
+    "technical": [
+      {
+        "property": "Material R-values",
+        "value": "R1.5, R2.0, R2.5",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Nominal Thickness",
+        "value": "90 mm",
+        "standard": ""
+      },
+      {
+        "property": "Batt\nDimensions",
+        "value": "1160 mm x 430 mm (450 mm stud centres); 1160 mm x 580 mm\n(600 mm stud centres)",
+        "standard": ""
+      },
+      {
+        "property": "Material Composition",
+        "value": "100% thermally bonded polyester fibres (polyethylene terephthalate)",
+        "standard": ""
+      },
+      {
+        "property": "Recycled Content",
+        "value": "Up to 80% recycled\nPET fibre",
+        "standard": ""
+      },
+      {
+        "property": "Fire Hazard Properties",
+        "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-2",
+        "standard": "AS 1530.3"
+      },
+      {
+        "property": "Maximum Service Temperature",
+        "value": "150°C",
+        "standard": ""
+      },
+      {
+        "property": "Moisture Absorption",
+        "value": "< 0.2%\nby volume",
+        "standard": ""
+      },
+      {
+        "property": "VOC Emissions",
+        "value": "Low VOC\nemitting, non-toxic",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Polymax\nThermal Wall Batts R1.5",
+        "size_or_rating": "90 mm x 430/580 mm x 1160 mm",
+        "pack": "Pack of 16 (8.0 m2 / 10.8 m2)"
+      },
+      {
+        "variant": "Polymax Thermal Wall\nBatts R2.0",
+        "size_or_rating": "90 mm x 430/580 mm x 1160 mm",
+        "pack": "Pack\nof 12 (6.0 m2 / 8.1 m2)"
+      },
+      {
+        "variant": "Polymax Thermal Wall Batts R2.5",
+        "size_or_rating": "90 mm x 430/580 mm x 1160 mm",
+        "pack": "Pack of 8 (4.0 m2\n/ 5.4 m2)"
+      }
+    ],
+    "fire": "AS 1530.3: Ignitability 0, Spread of Flame 0, Heat\nEvolved 0, Smoke Developed 0-2",
+    "compliance": "AS/NZS 4859.1; AS 1530.3;\nNCC 2022 Volume 1 & Volume 2 thermal and acoustic requirements",
+    "sustainability": "Contains up to 80% recycled PET fibre; zero chemical binders;\nzero ODP; low VOC; Sensitive Choice approved; 100% recyclable",
+    "install": [
+      "Ensure stud cavity is clean and electrical services are roughed in prior to\ninstalling insulation",
+      "Friction-fit Polymax batts snugly between timber or\nsteel wall framing studs",
+      "Ensure batts fit tightly against studs, top plates,\nand bottom plates without gaps or sagging",
+      "Avoid excessive compression of\nbatts to preserve rated thermal thickness",
+      "Cut or slit neatly around\nelectrical wiring, nogging, and plumbing using a sharp utility knife or shears",
+      "Install external wall wraps or internal plasterboard linings over framed batts"
+    ],
+    "selection_checklist": [
+      "Confirm framing stud spacing (430mm for 450mm\ncentres, 580mm for 600mm centres)",
+      "Confirm stud depth (nominal 90mm)",
+      "Select\nrequired thermal R-value (R1.5, R2.0, or R2.5) to comply with NCC / NatHERS\nenergy rating",
+      "Confirm non-combustibility requirements (polyester is\ncombustible; if AS 1530.1 non-combustible is mandated, specify glasswool)",
+      "Check allergy and sensitive household requirements"
+    ],
+    "accessories": [
+      "Bradford Thermoseal or Enviroseal wall wrap",
+      "Serrated insulation knife or\nheavy-duty shears"
+    ],
+    "limitations": [
+      "Not non-combustible under AS 1530.1; do\nnot use where non-combustible insulation is required by NCC",
+      "Do not compress\ninto stud cavities shallower than the nominal thickness",
+      "Indoor/enclosed wall\napplication only; protect from weather and wet conditions"
+    ],
+    "warranty": "70\nYear Performance Warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Bradford\nPolymax",
+      "Polymax insulation",
+      "Polymax wall batts",
+      "polyester wall\ninsulation",
+      "Bradford polyester batts",
+      "non itchy wall batts",
+      "itch free\ninsulation",
+      "Polymax R2.0",
+      "Polymax R2.5",
+      "polyester thermal batts"
+    ],
+    "problem_keywords": [
+      "itchy fiberglass insulation",
+      "cold rooms in winter",
+      "hot walls in summer",
+      "sound transfer through internal walls",
+      "asthma safe\nwall insulation",
+      "slumping wall batts"
+    ],
+    "placement": [
+      "wall",
+      "internal\nwall",
+      "external wall",
+      "between floors"
+    ],
+    "priority_fit": [
+      "sustainability",
+      "easy_install",
+      "thermal",
+      "acoustic"
+    ],
+    "use_cases": [
+      "Insulating external\ntimber-frame walls in new residential builds for thermal control without itchy\nglasswool fibres",
+      "Acoustic and thermal partition insulation in internal walls\nof asthma and allergy-sensitive homes",
+      "Mid-floor acoustic and thermal infill\nbetween ground and first-floor living spaces"
+    ],
+    "not_for": [
+      "Commercial\nfire-rated wall assemblies requiring AS 1530.1 non-combustibility",
+      "Exposed\noutdoor cladding without external lining",
+      "Flooring underlay subject to direct\nmechanical foot traffic"
+    ],
+    "rag_summary": "Bradford Polyester - Polymax is a\npremium, itch-free thermal and acoustic insulation batt manufactured from 100%\nthermally bonded polyester fibres with up to 80% recycled content. Engineered\nfor 90mm timber and steel stud wall cavities, it delivers thermal ratings from\nR1.5 to R2.5 and sound dampening without chemical binders or added flame\nretardants. Recognized by Sensitive Choice as asthma- and allergy-friendly and\nbacked by a 70-year performance warranty, it provides a safe, non-irritant\nalternative to glasswool for residential walls and mid-floors."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

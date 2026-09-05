@@ -1,0 +1,185 @@
+{
+  "family_id": "BRADFORD_ANTICON_ROOFING_BLANKET_HEAVY_DUTY_FOIL",
+  "family_name": "Bradford Anticon Roofing Blanket - Heavy Duty Foil",
+  "datasheet_pdf_url": "https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/roofing/anticon",
+  "sds_url": "https://www.bradfordinsulation.com.au/resources/safety-data-sheets",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Bradford Anticon Roofing Blanket - Heavy Duty Foil is a premium\nglasswool roofing blanket factory-bonded to an Extra Heavy Duty reflective foil\nlaminate facing. Specifically engineered for commercial metal roofs and\nresidential projects with wider purlin or batten spacings (up to 1200mm centres\nwithout mesh), the Heavy Duty foil provides superior tensile strength, tear\nresistance, and puncture durability. It prevents underside condensation,\nsignificantly reduces rain drumming noise, and complies with bushfire attack\nlevels up to BAL-FZ.",
+    "features": [
+      "Faced with Extra Heavy Duty reflective\nfoil laminate for maximum tensile and tear strength",
+      "Engineered for wider\npurlin spacings up to 1200mm without sagging or tearing",
+      "Factory-bonded with\na 150mm foil overlap edge for sealed, continuous vapour barriers",
+      "Non-combustible glasswool core conforming to AS 1530.1",
+      "Bushfire ember\nprotection certified from BAL 12.5 to BAL FZ under AS 3959",
+      "Damps heavy rain\nnoise by up to 7 dB to deliver quieter building interiors",
+      "Reflects up to 97%\nof radiant heat entering through metal roofing",
+      "Manufactured from up to 65%\nrecycled glass with FBS-1 bio-soluble formulation",
+      "Available in thicknesses\nfrom 60mm to 145mm (R1.3 to R3.6)",
+      "Resistant to moisture penetration and\ncondensation formation"
+    ],
+    "applications": [
+      "roof",
+      "roofline",
+      "shed",
+      "ceiling"
+    ],
+    "technical": [
+      {
+        "property": "Foil Duty Classification",
+        "value": "Heavy Duty / Extra Heavy Duty",
+        "standard": "AS/NZS 4200.1"
+      },
+      {
+        "property": "Material R-values",
+        "value": "Anticon 60 HD: R1.3 (60mm); Anticon 80 HD: R1.8\n(80mm); Anticon 100 HD: R2.3 (100mm); Anticon 130 HD: R3.0 (130mm); Anticon 145\nHD: R3.6 (145mm)",
+        "standard": "AS/NZS 4859.1:2018"
+      },
+      {
+        "property": "Blanket\nWidth",
+        "value": "1200 mm (plus 150 mm foil overlap extension)",
+        "standard": ""
+      },
+      {
+        "property": "Roll Lengths",
+        "value": "10 m, 12 m, 15 m, 20 m (custom\nlengths available)",
+        "standard": ""
+      },
+      {
+        "property": "Combustibility (Core)",
+        "value": "Non-Combustible",
+        "standard": "AS 1530.1"
+      },
+      {
+        "property": "Early Fire\nHazard Indices",
+        "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0,\nSmoke Developed: 0-1",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Bushfire\nRating",
+        "value": "BAL 12.5 - BAL FZ",
+        "standard": "AS 3959"
+      },
+      {
+        "property": "Foil Emittance",
+        "value": "0.05 (reflective face); 0.90 (antiglare face)",
+        "standard": "AS/NZS 4201.5"
+      },
+      {
+        "property": "Vapour Barrier Classification",
+        "value": "Class 2 Vapour Barrier (< 0.020 µg/N.s)",
+        "standard": "AS/NZS 4200.1"
+      },
+      {
+        "property": "Maximum Span Between Supports",
+        "value": "Up to 1200 mm\ncentres without safety mesh support",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Anticon 60 Heavy Duty (HD)",
+        "size_or_rating": "60 mm x 1200 mm\nx 15-20 m, R1.3",
+        "pack": "Roll"
+      },
+      {
+        "variant": "Anticon 80 Heavy Duty (HD)",
+        "size_or_rating": "80 mm x 1200 mm x 15 m, R1.8",
+        "pack": "Roll"
+      },
+      {
+        "variant": "Anticon 100 Heavy Duty (HD)",
+        "size_or_rating": "100 mm x 1200 mm x 10 m,\nR2.3",
+        "pack": "Roll"
+      },
+      {
+        "variant": "Anticon 130 Heavy Duty (HD)",
+        "size_or_rating": "130 mm x 1200 mm x 10 m, R3.0",
+        "pack": "Roll"
+      },
+      {
+        "variant": "Anticon 145 Heavy Duty (HD)",
+        "size_or_rating": "145 mm x 1200 mm\nx 10 m, R3.6",
+        "pack": "Roll"
+      }
+    ],
+    "fire": "Core non-combustible to AS 1530.1;\nAS/NZS 1530.3: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke\nDeveloped 0-1; BAL 12.5 to BAL FZ to AS 3959",
+    "compliance": "AS/NZS 4859.1:2018; AS/NZS 4200.1 Heavy Duty rating; AS 3959; NCC 2022 Volume 1\n& 2",
+    "sustainability": "Manufactured from up to 65% recycled glass; FBS-1\nbio-soluble; zero ODP; Sensitive Choice approved",
+    "install": [
+      "Ensure purlins\nor rafters are clean and dry prior to blanket rollout",
+      "Roll out Anticon Heavy\nDuty over framing with the heavy-duty foil facing down toward the building\ninterior",
+      "Allow a uniform sag of 25-40mm between purlins (up to 1200mm\ncentres) to ensure thermal recovery",
+      "Lap adjacent blanket rolls by 150mm using\nthe pre-extended foil flap",
+      "Tape all foil seams with Bradford 493 Reinforced\nAluminium Foil Tape using a plastic squeegee for an airtight seal",
+      "Install\nroof spacer systems (e.g. Ashgrid or SpacerX) over purlins if required to\nprevent insulation pinch",
+      "Fasten metal roof cladding immediately over the\nblanket or spacer bars"
+    ],
+    "selection_checklist": [
+      "Confirm purlin or batten\nspacing exceeds 900mm (up to 1200mm centres requires Heavy Duty foil)",
+      "Verify\ncommercial or residential metal roof profile and pitch",
+      "Confirm required\nthermal R-value under NCC Section J or residential energy requirements",
+      "Ensure\nheavy-duty foil tape (Bradford 493) is specified for all joint sealing",
+      "Check\nBAL rating compliance (BAL 12.5 to BAL FZ)"
+    ],
+    "accessories": [
+      "Bradford 493\nReinforced Foil Tape",
+      "Roof spacer system (Ashgrid / SpacerX)",
+      "Plastic\nsqueegee"
+    ],
+    "limitations": [
+      "Do not install in wet weather; glasswool must\nremain completely dry",
+      "Must be installed with foil facing downwards into the\nroof space",
+      "Spans exceeding 1200mm require safety mesh support underneath"
+    ],
+    "warranty": "CSR Bradford Standard Product Warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Anticon Heavy Duty",
+      "Anticon HD",
+      "Bradford Anticon HD",
+      "heavy duty foil blanket",
+      "commercial Anticon blanket",
+      "Anticon 60 HD",
+      "Anticon 80 HD",
+      "Anticon 100 HD",
+      "heavy duty roofing blanket",
+      "wide span roof\nblanket"
+    ],
+    "problem_keywords": [
+      "foil tearing on wide purlins",
+      "condensation\nin commercial metal building",
+      "rain drumming in warehouse",
+      "heat transfer\nthrough commercial roof",
+      "sagging roof insulation foil",
+      "high wind roof foil\nblowout"
+    ],
+    "placement": [
+      "roof",
+      "roofline",
+      "shed",
+      "ceiling"
+    ],
+    "priority_fit": [
+      "thermal",
+      "condensation",
+      "fire",
+      "acoustic"
+    ],
+    "use_cases": [
+      "Commercial metal roof construction with wide purlin spacings up to 1200mm\nwithout safety mesh",
+      "Industrial warehouses, distribution centres, and\nfactories requiring high tear-resistant roof sarking",
+      "Bushfire-prone\nresidential homes requiring BAL-FZ compliant under-roof insulation"
+    ],
+    "not_for": [
+      "Tiled roofing without metal sheeting",
+      "Vertical wall insulation\nwithout outer cladding",
+      "Flooring underlay"
+    ],
+    "rag_summary": "Bradford Anticon\nRoofing Blanket - Heavy Duty Foil is an Australian-made glasswool insulation\nblanket laminated to an Extra Heavy Duty reflective foil facing with a 150mm\noverlap edge. Designed specifically for commercial and wide-span residential\nmetal roofs with purlin centres up to 1200mm, its robust foil backing resists\ntearing and sagging while forming a Class 2 vapour barrier to prevent\ncondensation. Offering R-values from R1.3 to R3.6, rain sound attenuation up\nto 7 dB, and BAL-FZ bushfire resistance, it delivers heavy-duty thermal and\nmoisture protection for metal roofs."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

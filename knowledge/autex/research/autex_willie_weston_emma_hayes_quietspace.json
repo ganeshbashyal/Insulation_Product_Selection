@@ -1,0 +1,187 @@
+{
+  "family_id": "AUTEX_WILLIE_WESTON_EMMA_HAYES_QUIETSPACE",
+  "family_name": "Autex Willie Weston / Emma Hayes Quietspace",
+  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/quietspace-panel/",
+  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Autex Willie Weston / Emma Hayes Quietspace is a premium broadband acoustic\nwall panel engineered with dual-density polyester construction and overlaid with\nhigh-definition digital artwork from First Nations artists (Willie Weston) or\nserene landscape designs (Emma Hayes). Built on a 25mm thick Quietspace Panel\nbase with an impact-resistant face and cushioned backing, it absorbs 85% of\nsound energy (NRC 0.85). Digitally printed with water-based UV-cured ink, it\nprovides museum-grade cultural aesthetics with class-leading acoustic absorption\nand Group 1 fire safety.",
+    "features": [
+      "Class-leading sound absorption\nabsorbing 85% of incident sound energy (NRC 0.85)",
+      "Overlaid with curated First\nNations art (Willie Weston) or organic landscape designs (Emma Hayes)",
+      "Engineered on a 25mm dual-density 100% polyester Quietspace Panel core",
+      "High-resolution digital printing with safe, water-based UV-cured ink",
+      "Group 1\nfire rating compliant with AS ISO 9705 - 2003 and AS 5637.1",
+      "Provides fair,\nongoing royalty returns to First Nations artists and communities",
+      "Constructed\nwith a minimum of 58% post-consumer recycled PET",
+      "Non-toxic, non-allergenic,\nnon-irritant, and free from formaldehyde or chemical binders",
+      "Certified Carbon\nNeutral product with third-party verified EPD and Declare Red List Free",
+      "Lightweight and easy to install directly to walls or ceilings"
+    ],
+    "applications": [
+      "wall",
+      "internal wall",
+      "ceiling"
+    ],
+    "technical": [
+      {
+        "property": "Noise Reduction Coefficient (NRC)",
+        "value": "0.85 (25mm direct\nfix)",
+        "standard": "ISO 354"
+      },
+      {
+        "property": "Sound Absorption Class",
+        "value": "Class C (25mm)",
+        "standard": "ISO 11654"
+      },
+      {
+        "property": "Sound Absorption\nCoefficients (Octave Bands)",
+        "value": "125Hz: 0.15, 250Hz: 0.45, 500Hz: 0.85, 1000Hz: 1.00, 2000Hz: 1.00, 4000Hz: 0.95",
+        "standard": "ISO 354"
+      },
+      {
+        "property": "Panel Dimensions",
+        "value": "1200 mm\nx 2400 mm; 1200 mm x 2700 mm; 1200 mm x 3000 mm (tolerance +/- 1 mm)",
+        "standard": ""
+      },
+      {
+        "property": "Thickness",
+        "value": "25 mm (+/- 6%)",
+        "standard": ""
+      },
+      {
+        "property": "Weight",
+        "value": "2300 gsm",
+        "standard": ""
+      },
+      {
+        "property": "Material Composition",
+        "value": "100% polyester fibre (PET)\nprinted with UV-curable ink",
+        "standard": ""
+      },
+      {
+        "property": "Recycled\nContent",
+        "value": "Minimum 58% post-consumer recycled PET",
+        "standard": ""
+      },
+      {
+        "property": "Thermal Resistance",
+        "value": "R0.6 (@ 15°C)",
+        "standard": ""
+      },
+      {
+        "property": "Fire Rating (Australia)",
+        "value": "Group 1, SMOGRArc < 100 m2/s2",
+        "standard": "AS ISO 9705 - 2003 / AS 5637.1"
+      },
+      {
+        "property": "International\nFire Rating",
+        "value": "Group 1-S (ISO 9705:1993); Class A (ASTM E-84); B - s2,\nd0 (BS EN 13501-1:2018)",
+        "standard": "ISO 9705 / ASTM E-84 / BS EN 13501-1"
+      },
+      {
+        "property": "Microbial Resistance",
+        "value": "Growth rating: 0 (No growth)",
+        "standard": "ASTM G21-15"
+      },
+      {
+        "property": "VOC Emissions",
+        "value": "< 0.019\nmg/m3 (24 hours)",
+        "standard": "CDPH Standard Method v1.2"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Willie Weston / Emma Hayes Quietspace 25mm (2400x1200)",
+        "size_or_rating": "1200 mm x 2400 mm x 25 mm, NRC 0.85",
+        "pack": "Panel"
+      },
+      {
+        "variant": "Willie Weston / Emma Hayes Quietspace 25mm (2700x1200)",
+        "size_or_rating": "1200 mm x 2700 mm x 25 mm, NRC 0.85",
+        "pack": "Panel"
+      },
+      {
+        "variant": "Willie Weston / Emma Hayes Quietspace 25mm (3000x1200)",
+        "size_or_rating": "1200 mm x 3000 mm x 25 mm, NRC 0.85",
+        "pack": "Panel"
+      }
+    ],
+    "fire": "AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1 (SMOGRArc\n< 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM E-84 Class A; BS EN 13501-1:2018 B -\ns2, d0",
+    "compliance": "NCC Specification 7 (BCA C1.10) Group 1 fire compliance;\nAS ISO 9705:2003; AS 5637.1:2015; ISO 354",
+    "sustainability": "Royalty-sharing\nmodel supporting First Nations artists; carbon neutral product; min 58% recycled\nPET; Declare Red List Free; EPD verified; low VOC",
+    "install": [
+      "Inspect wall\nor ceiling substrate ensuring it is flat, clean, dry, and dust-free",
+      "Acclimatise panels in the installation environment for at least 24 hours prior\nto fitting",
+      "Confirm image numbering and pattern alignment across the\nmulti-panel layout diagram",
+      "Handle panels with clean hands or white gloves to\nprotect the printed artwork surface",
+      "Apply recommended contact adhesive or\nhigh-grab MS polymer adhesive evenly across the panel backing",
+      "Mount panel\nsquarely to the substrate and apply firm, even roller pressure across the face",
+      "Ensure adjacent panels are tightly butted to maintain continuous artistic\nvisuals",
+      "Trim edges squarely from the face using a sharp knife on the offcut\nside where required"
+    ],
+    "selection_checklist": [
+      "Select artwork design from\nWillie Weston (First Nations) or Emma Hayes (NZ landscapes)",
+      "Confirm 25mm\nQuietspace core for maximum sound absorption (NRC 0.85)",
+      "Confirm panel height\n(2400mm, 2700mm, or 3000mm) x 1200mm width",
+      "Verify multi-panel mural sequence\nand wall dimensions",
+      "Specify suitable adhesive and edge profile trims (Type C\nprofiles) if desired"
+    ],
+    "accessories": [
+      "Autex Edging Solutions (Type C\naluminium profiles for 25mm)",
+      "High-grab MS polymer or contact adhesive",
+      "Pressure roller"
+    ],
+    "limitations": [
+      "Indoor use only; avoid wet areas or\ndirect water exposure",
+      "Printed decorative face can show marks under heavy\nfriction; avoid high-impact sporting zones",
+      "Do not bend or fold panels as this\nwill crack the high-density compressed face"
+    ],
+    "warranty": "10 Year\nManufacturer's Guarantee"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Autex Willie\nWeston Quietspace",
+      "Autex Emma Hayes Quietspace",
+      "Willie Weston acoustic\npanel 25mm",
+      "First Nations Quietspace panel",
+      "Emma Hayes Quietspace",
+      "NRC 0.85 printed acoustic panel",
+      "Indigenous art sound absorbing panel",
+      "decorative Quietspace panel"
+    ],
+    "problem_keywords": [
+      "severe echo in boardroom\nneeding art",
+      "reverberation in government atrium",
+      "noisy conference room",
+      "need cultural First Nations artwork with acoustics",
+      "sound reflection in\nhigh-end reception",
+      "meeting Group 1 fire rating with wall murals"
+    ],
+    "placement": [
+      "wall",
+      "internal wall",
+      "ceiling"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "fire",
+      "sustainability",
+      "easy_install"
+    ],
+    "use_cases": [
+      "High-performance acoustic murals in corporate boardrooms and executive suites\ndisplaying First Nations art",
+      "Taming reverberation in university lecture\nhalls, cultural centres, and civic buildings",
+      "Acoustic feature art walls in\nhealthcare lobbies, wellness suites, and airport lounges"
+    ],
+    "not_for": [
+      "Floors or underfloor acoustic decoupling",
+      "Exterior building facades",
+      "Direct\nunshielded exposure to sports ball impacts"
+    ],
+    "rag_summary": "Autex Willie\nWeston / Emma Hayes Quietspace merges the class-leading sound absorption of 25mm\ndual-density Quietspace Panel (NRC 0.85) with curated digital UV printing of\nAustralian First Nations art (Willie Weston) and New Zealand landscapes (Emma\nHayes). Using safe water-based inks directly on the compressed polyester face,\nit eliminates room reverberation while functioning as a large-format cultural\nart piece. Certified Group 1 fire rated under AS ISO 9705, carbon neutral, and\nmade with over 58% recycled PET, it offers an architecturally stunning,\nhigh-performance acoustic wall finish."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

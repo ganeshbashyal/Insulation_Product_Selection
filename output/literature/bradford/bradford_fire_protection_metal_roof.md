@@ -1,7 +1,7 @@
 ---
 title: "Bradford Fire Protection - Metal Roof - Batt Insulation | Bradford"
-description: "Part of the CSR family with 100+ years of Australian building solutions. Made from natural volcanic rock with superior fire resistance and acoustic pe"
-keywords: "Bradford Fire Protection - Metal Roof, Bradford batt, roof insulation, shed insulation, insulation Australia, Bradford Australia"
+description: "Bradford Fire Protection - Metal Roof (Bradford Fireseal Party Wall Sealer for Metal Roofs / Fireseal FZ Metal Roof Batts) is a high-temperature, non-"
+keywords: "Bradford Fire Protection - Metal Roof, Bradford batt, wall insulation, roof insulation, insulation Australia, Bradford Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: BRADFORD_FIRE_PROTECTION_METAL_ROOF
 ---
@@ -10,29 +10,32 @@ family_id: BRADFORD_FIRE_PROTECTION_METAL_ROOF
 
 **Bradford Batt** — bulk insulation batts for thermal and acoustic performance.
 
-Part of the CSR family with 100+ years of Australian building solutions. Made from natural volcanic rock with superior fire resistance and acoustic performance.
+Bradford Fire Protection - Metal Roof (Bradford Fireseal Party Wall Sealer for Metal Roofs / Fireseal FZ Metal Roof Batts) is a high-temperature, non-combustible rockwool insulation product designed to seal the junction between the top of a fire-rated party wall and metal roof sheeting. Manufactured from molten rock and blast furnace slag bonded with thermosetting resin, the 75mm thick blanket or batts are installed under 10-15% compression beneath corrugated or trapezoidal metal roof profiles. It blocks the passage of fire, smoke, and burning embers between adjoining tenancies in Class 1 buildings and meets BAL-FZ bushfire conditions.
 
 ## Key features
 
-- Non-combustible stonewool made from natural volcanic rock.
-- superior fire resistance up to 1000°C.
-- excellent acoustic absorption properties.
-- fully recyclable at end of life.
-- excellent thermal performance for roof/ceiling applications.
-- 50 Year Warranty backed by CSR.
-- ACCC certified.
+- Non-combustible stone wool construction tested to AS 1530.1.
+- 75mm thickness tailored specifically for deeper corrugations of metal roofing profiles.
+- Seals top-of-wall gaps to prevent flame, spark, and ember spread between tenancies.
+- Highly resistant to shrinkage and degradation under extreme fire temperatures up to 1000°C.
+- Suitable for Bushfire Attack Level BAL-FZ applications under metal roofs.
+- Bio-soluble FBS-1 formulation safe to handle and install.
+- Performance unaffected by contact with water.
+- Complies with NCC Volume Two Deemed-to-Satisfy party wall requirements.
 
 ## Applications and selection
 
-- Metal Roof / Shed
+- roof
+- roofline
+- wall
+- internal wall
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm roof cladding type is metal deck / corrugated sheeting (requiring 75mm thickness).
+2. Select width based on wall thickness (300mm for single/standard walls, 360mm for wider cavity party walls).
+3. Calculate total linear metres needed along the top of the party wall.
+4. Check if project is in a BAL-FZ bushfire attack zone.
 
 
 ## Current catalogue range
@@ -43,37 +46,49 @@ Part of the CSR family with 100+ years of Australian building solutions. Made fr
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Batt | Manufacturer catalogue |
-| Material | Stonewool | Manufacturer catalogue |
-| Applications | Metal Roof / Shed | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material | Bio-soluble rockwool (FBS-1) | - |
+| Nominal Thickness | 75 mm | - |
+| Dimensions (Roll/Blanket) | 4000 mm length x 300 mm or 360 mm width | - |
+| Dimensions (FZ Batt option) | 1200 mm length x 90 mm width x 75 mm thickness | - |
+| Combustibility | Non-combustible | AS 1530.1 |
+| Fire Hazard Indices | Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1 | AS/NZS 1530.3 |
+| Installation Compression | Minimum 10% to 15% compression under metal roof profile | - |
+| Thermal Performance | R1.8 (uncompressed 75mm) | AS/NZS 4859.1 |
 
-
+Extracted from manufacturer datasheet: https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/walls/fireseal
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Non-combustible to AS 1530.1; AS/NZS 1530.3: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-1; Suitable for BAL-FZ bushfire conditions to AS 3959; Meets NCC separating wall fire requirements
+
+NCC Volume Two / ABCB Housing Provisions Standard Part 9.3; AS 1530.1; AS/NZS 4859.1; AS 3959 (BAL-FZ)
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.csrbradford.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://www.firecrunch.com.au/wp-content/uploads/2016/02/BRADFORD-MSDS-e3a0-435b-b6ef-6f1027726ce6.pdf.
 
+## Recommended accessories
+
+- Bradford Fireseal Party Wall Batten Fillers.
+- Bradford Fireseal Party Wall Batts.
+
 
 ## Limitations and warnings
 
-- Keep dry during storage and installation..
-- not a water or vapour barrier..
-- do not compress - compression reduces R-value performance..
-- not to be exposed to weather..
-- maximum service temperature 750°C..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Must be compressed minimum 10-15% by roof sheets to ensure smoke/flame barrier.
+- Not suitable as exposed roof sarking membrane.
+- Must be protected from pooling water or continuous weathering.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Keep dry during storage and installation.
+1. Lay Fireseal 75mm Party Wall Sealer along the full length of the top of the fire-rated wall.
+2. Ensure blanket overhangs the wall thickness symmetrically (300mm or 360mm width).
+3. Fix metal roofing sheets down over the blanket ensuring at least 10-15% compression across all roof ribs and pans.
+4. Where joints in blanket occur, butt tightly together with a minimum 50mm overlap or Vee cut.
+5. Inspect from ceiling space to confirm all corrugations and crests are fully packed and sealed.
 
 ## Safety and handling
 
@@ -81,11 +96,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Manufactured from up to 40% recycled blast furnace slag; bio-soluble FBS-1; zero ODP
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Backed by CSR Bradford product warranty
 
 ## Specification starting point
 

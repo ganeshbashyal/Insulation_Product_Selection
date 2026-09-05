@@ -1,0 +1,146 @@
+{
+  "family_id": "BRADFORD_FIRESEAL_PARTY_WALL_BATTS",
+  "family_name": "Bradford Fireseal Party Wall Batts",
+  "datasheet_pdf_url": "https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/walls/fireseal",
+  "sds_url": "https://www.bradfordinsulation.com.au/-/media/bradford/files/safety-data-sheet---rockwool.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Bradford Fireseal Party Wall Batts are non-combustible stone\nwool insulation batts specifically designed for Class 1 inter-tenancy wall\nsystems to fill and seal vertical joints, supporting fire protection\nrequirements in multi-residential applications. Manufactured from molten natural\nrock and blast furnace slag bonded with thermosetting resin, these 100mm thick\nbatts have remarkable resistance to shrinkage under fire conditions. Pre-cut\nto 1200mm x 168mm, they are installed under 10% compression in vertical wall\ncavities to prevent fire spread between adjoining dwellings.",
+    "features": [
+      "Non-combustible stone wool construction complying with AS 1530.1",
+      "Purpose-designed for vertical joint sealing in Class 1 inter-tenancy walls",
+      "Pre-cut to 1200mm x 168mm x 100mm for fast and consistent on-site\ninstallation",
+      "Exceptional resistance to shrinkage under extreme fire\ntemperatures up to 1000°C",
+      "Stacks neatly to fill wall cavities up to 255mm in\nheight per unit",
+      "Bio-soluble FBS-1 rockwool formulation",
+      "Performance\nunaffected by contact with water",
+      "Provides thermal and acoustic benefits while\nfulfilling NCC passive fire requirements"
+    ],
+    "applications": [
+      "wall",
+      "internal\nwall"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "Bio-soluble rockwool\n(FBS-1)",
+        "standard": ""
+      },
+      {
+        "property": "Nominal Thickness",
+        "value": "100\nmm",
+        "standard": ""
+      },
+      {
+        "property": "Dimensions",
+        "value": "1200 mm length\nx 168 mm width",
+        "standard": ""
+      },
+      {
+        "property": "Pieces Per Pack",
+        "value": "5\npieces (6 lineal metres per pack, 1.01 m²)",
+        "standard": ""
+      },
+      {
+        "property": "Combustibility",
+        "value": "Non-combustible",
+        "standard": "AS 1530.1"
+      },
+      {
+        "property": "Fire Hazard Indices",
+        "value": "Ignitability: 0, Spread of\nFlame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Required Installation Compression",
+        "value": "10% to 15%\ncompression in vertical joints",
+        "standard": ""
+      },
+      {
+        "property": "Maximum Stack\nHeight",
+        "value": "Cavities up to 255 mm (max 3 stacked layers)",
+        "standard": ""
+      },
+      {
+        "property": "Product Code",
+        "value": "119161",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Fireseal Party Wall Batts 100x1200x168mm",
+        "size_or_rating": "100 mm x 1200 mm x 168 mm",
+        "pack": "Pack of 5 batts (6 lineal metres,\nCode: 119161)"
+      }
+    ],
+    "fire": "Non-combustible to AS 1530.1; AS/NZS 1530.3\nindices: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-1;\nSatisfies NCC Volume Two / ABCB Housing Provisions Part 9.3 for Class 1\nseparating walls",
+    "compliance": "NCC 2022 / NCC 2025 Volume 1 and Volume 2\nDeemed-to-Satisfy Separating Walls; ABCB Housing Provisions Standard Part 9.3;\nAS 1530.1; AS/NZS 4859.1",
+    "sustainability": "Manufactured from up to 40%\nrecycled slag and natural rock; FBS-1 bio-soluble; zero ODP",
+    "install": [
+      "For\nvertical joint applications only in Class 1 inter-tenancy wall systems",
+      "Friction-fit batts into the vertical joint maintaining a minimum of 10%\ncompression",
+      "Ensure batts are seated tightly against both wall leaves",
+      "When\nextending length, make a Vee profile cut to both ends of each batt to create a\ntight interlocking butt joint",
+      "When stacking layers to fill cavities up\nto 255mm, stagger vertical joints and install as one consolidated unit",
+      "Do not\nuse to seal areas at the top of wall systems (use Party Wall Sealer for wall\nheads)"
+    ],
+    "selection_checklist": [
+      "Verify application is for vertical joints\nin Class 1 inter-tenancy/party walls",
+      "Measure cavity width to ensure 100mm\nbatt achieves 10-15% compression",
+      "Calculate total vertical lineal metres\nneeded (each pack provides 6 linear metres)",
+      "Confirm wall system is approved\nfor Fireseal Party Wall Batts (timber frame, steel stud, or masonry)"
+    ],
+    "accessories": [
+      "Bradford Fireseal Party Wall Sealer",
+      "Bradford Fireseal\nBatten Fillers"
+    ],
+    "limitations": [
+      "For vertical joints only; not appropriate\nto seal areas at the top of a masonry or lightweight wall system",
+      "Maximum 3\nlayers should be stacked without adequate intermediate mechanical support",
+      "Must be protected from continuous water pooling and direct UV exposure"
+    ],
+    "warranty": "Backed by CSR Bradford product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Bradford Fireseal Party Wall Batts",
+      "Fireseal Party Wall\nBatts",
+      "party wall insulation batts",
+      "intertenancy wall fire batts",
+      "100x1200x168 fireseal",
+      "rockwool party wall batts",
+      "vertical joint fire\nbatts",
+      "Bradford 119161"
+    ],
+    "problem_keywords": [
+      "fire spread through party\nwall vertical gap",
+      "inter-tenancy wall fire compliance",
+      "separating wall\nvertical joint seal",
+      "NCC Class 1 party wall FRL",
+      "townhouse separating wall\nfire containment"
+    ],
+    "placement": [
+      "wall",
+      "internal wall"
+    ],
+    "priority_fit": [
+      "fire",
+      "acoustic"
+    ],
+    "use_cases": [
+      "Sealing vertical joints in Class 1\ninter-tenancy walls between adjoining townhouses and duplexes",
+      "Filling\nvertical expansion and construction gaps in party wall systems to maintain fire\nseparation",
+      "Passive fire protection between attached residential dwellings"
+    ],
+    "not_for": [
+      "Top of wall / roof-to-wall junctions (use Party Wall Sealer)",
+      "Underfloor insulation",
+      "Standard external cavity thermal insulation"
+    ],
+    "rag_summary": "Bradford Fireseal Party Wall Batts are purpose-made,\nnon-combustible stone wool insulation batts measuring 100mm x 1200mm x 168mm\n(product code 119161) designed exclusively to seal vertical joints in Class 1\ninter-tenancy party walls. Engineered from high-temperature bio-soluble\nrockwool, they resist shrinkage at temperatures up to 1000°C and maintain fire\nintegrity between adjoining townhouses and duplexes. Installed under 10%\ncompression and compliant with AS 1530.1, they satisfy NCC Deemed-to-Satisfy\nprovisions for separating wall fire containment."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

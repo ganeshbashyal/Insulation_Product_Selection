@@ -1,0 +1,181 @@
+{
+  "family_id": "BRADFORD_FIBERTEX",
+  "family_name": "Bradford Fibertex",
+  "datasheet_pdf_url": "https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/industrial-and-hvac/fibertex-rockwool",
+  "sds_url": "https://www.bradfordinsulation.com.au/resources/safety-data-sheets",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Bradford Fibertex is a range of robust, non-combustible rockwool\n(stone wool) industrial insulation boards and blankets engineered for\nhigh-temperature and fire-critical applications. Manufactured by spinning molten\nnatural basalt rock and recycled slag into fine inorganic fibres bonded with a\nthermosetting resin, Fibertex operates continuously at service temperatures\nfrom 350°C up to 820°C with minimal shrinkage. It provides thermal conservation,\nfire protection, condensation prevention, and acoustic absorption for industrial\nprocess vessels, tanks, furnaces, fire-rated curtain walls, and building\nenvelopes.",
+    "features": [
+      "Non-combustible stone wool complying with\nAS 1530.1",
+      "Continuous maximum service temperatures from 350°C up to 820°C with\nminimal thermal shrinkage",
+      "Available in multiple density grades: Fibertex 350\n(60kg/m3), 450 (80kg/m3), 650 (100kg/m3), and 820 (120-130kg/m3)",
+      "Excellent\nacoustic absorption properties across low, mid, and high frequencies",
+      "Performance is not adversely affected by contact with water",
+      "Low\nwater-soluble chloride content to prevent stress-corrosion cracking of\naustenitic stainless steel",
+      "Bio-soluble FBS-1 formulation certified\nnon-hazardous under Safe Work Australia criteria",
+      "Supplied as semi-rigid\nboards, flexible blankets, and specialty pre-cut strips",
+      "Zero Ozone Depleting\nPotential (ODP) and non-toxic",
+      "Ideal for industrial process vessels, boilers,\nautoclaves, and building fire stops"
+    ],
+    "applications": [
+      "pipe",
+      "duct",
+      "wall",
+      "external wall",
+      "ceiling"
+    ],
+    "technical": [
+      {
+        "property": "Maximum\nService Temperatures",
+        "value": "Fibertex 350: 350°C; Fibertex 450: 450°C;\nFibertex 650: 650°C; Fibertex 820: 820°C",
+        "standard": "ASTM C411 / ASTM C447"
+      },
+      {
+        "property": "Nominal Densities",
+        "value": "Fibertex 350: 60 kg/m3;\nFibertex 450: 80 kg/m3; Fibertex 650: 100 kg/m3; Fibertex 820: 120-130 kg/m3",
+        "standard": ""
+      },
+      {
+        "property": "Combustibility",
+        "value": "Non-Combustible",
+        "standard": "AS 1530.1"
+      },
+      {
+        "property": "Fire Hazard Properties",
+        "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Board Dimensions",
+        "value": "1200\nmm x 600 mm (standard); custom lengths and strips available",
+        "standard": ""
+      },
+      {
+        "property": "Thickness Options",
+        "value": "25 mm, 38 mm, 50 mm, 75 mm, 100\nmm",
+        "standard": ""
+      },
+      {
+        "property": "Thermal Conductivity",
+        "value": "0.034\n- 0.038 W/m·K at 20°C (varies with temperature and grade)",
+        "standard": "ASTM\nC177 / AS/NZS 4859.1"
+      },
+      {
+        "property": "Corrosion Tendency",
+        "value": "Low\nwater-soluble chloride content (< 10 ppm), non-corrosive to stainless steel",
+        "standard": "ASTM C795"
+      },
+      {
+        "property": "Moisture Sorption",
+        "value": "< 1% by\nvolume",
+        "standard": "ASTM C1104"
+      },
+      {
+        "property": "Acoustic Sound Absorption",
+        "value": "NRC 0.80 - 1.10 (tested across 50mm and 75mm thicknesses)",
+        "standard": "AS ISO 354 / ASTM C423"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Fibertex 350\n(60 kg/m3)",
+        "size_or_rating": "1200 mm x 600 mm x 25-100 mm (up to 350°C)",
+        "pack": "Pack of boards"
+      },
+      {
+        "variant": "Fibertex 450 (80 kg/m3)",
+        "size_or_rating": "1200 mm x 600 mm x 25-100 mm (up to 450°C)",
+        "pack": "Pack of\nboards"
+      },
+      {
+        "variant": "Fibertex 650 (100 kg/m3)",
+        "size_or_rating": "1200 mm\nx 600 mm x 25-100 mm (up to 650°C)",
+        "pack": "Pack of boards"
+      },
+      {
+        "variant": "Fibertex 820 (120-130 kg/m3)",
+        "size_or_rating": "1200 mm x 600 mm x 25-100 mm\n(up to 820°C)",
+        "pack": "Pack of boards"
+      }
+    ],
+    "fire": "Non-combustible to\nAS 1530.1; AS/NZS 1530.3: Ignitability 0, Spread of Flame 0, Heat Evolved 0,\nSmoke Developed 0-1; Continuous service temp up to 820°C",
+    "compliance": "AS 1530.1; AS/NZS 1530.3; ASTM C612 Type IA, IB, II, III, IVA, IVB; ASTM C795;\nNCC 2022 Volume 1 Non-combustible building element provisions",
+    "sustainability": "Spun from natural volcanic rock and recycled slag; FBS-1\nbio-soluble formulation; low chloride; zero ODP; non-hazardous",
+    "install": [
+      "Clean and inspect the hot vessel, duct, or framing surface to ensure it is free\nfrom grease, loose scale, and water",
+      "Weld insulation pins or studs to the\nsubstrate surface at recommended centres (typically 300mm to 450mm)",
+      "Impale\nthe Fibertex boards or blankets firmly over the pins with the unfaced side\nagainst the hot surface",
+      "Secure boards in place using non-corrosive metal\nspeed clips / washers pushed over the pins",
+      "Butt all board edges tightly\ntogether to eliminate thermal bridging and acoustic leaks",
+      "For piping or\ncurved vessels, secure using wire mesh, steel banding, or metal sheet cladding",
+      "Trim neatly around flanges, nozzles, and structural penetrations using an\ninsulation saw or knife"
+    ],
+    "selection_checklist": [
+      "Determine maximum\ncontinuous operating temperature (≤350°C select 350; ≤450°C select 450; ≤650°C\nselect 650; ≤820°C select 820)",
+      "Confirm required density and mechanical\nload-bearing capacity",
+      "Check required thickness for personnel protection\n(touch temperature < 60°C) or process thermal control",
+      "Verify compatibility\nwith stainless steel surfaces (confirm ASTM C795 low chloride compliance)",
+      "Select facing if needed (plain unfaced, foil faced, or wire mesh faced)"
+    ],
+    "accessories": [
+      "Weld pins and speed clips",
+      "Stainless steel banding wire",
+      "Serrated insulation saw"
+    ],
+    "limitations": [
+      "Do not exceed maximum continuous\nservice temperature rating for the selected grade (350°C, 450°C, 650°C,\nor 820°C)",
+      "Dense grades (Fibertex 820) are semi-rigid and do not conform\neasily to tight curved surfaces without pre-cutting",
+      "Outdoor installations\nmust be clad with metal jacketing or weatherproofing cladding to prevent water\npooling"
+    ],
+    "warranty": "CSR Bradford Standard Product Warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Bradford Fibertex",
+      "Fibertex rockwool",
+      "Fibertex 350",
+      "Fibertex 450",
+      "Fibertex 650",
+      "Fibertex 820",
+      "stone wool board",
+      "high\ntemperature industrial insulation",
+      "non combustible rockwool",
+      "furnace\ninsulation board"
+    ],
+    "problem_keywords": [
+      "extreme heat pipe insulation",
+      "furnace heat loss",
+      "high temperature vessel insulation",
+      "personnel protection\nhot pipe touch hazard",
+      "fire rated wall cavity stone wool",
+      "corrosion under\ninsulation on stainless steel"
+    ],
+    "placement": [
+      "pipe",
+      "duct",
+      "wall",
+      "external wall",
+      "ceiling"
+    ],
+    "priority_fit": [
+      "fire",
+      "thermal",
+      "acoustic"
+    ],
+    "use_cases": [
+      "Thermal conservation and personnel protection on industrial\nboilers, steam pipes, and process tanks operating up to 820°C",
+      "Fire-stopping\nand spandrel curtain wall insulation in commercial high-rise buildings requiring\nAS 1530.1 non-combustibility",
+      "Acoustic enclosure linings for industrial power\ngenerators, compressors, and high-temperature exhaust silencers"
+    ],
+    "not_for": [
+      "Domestic timber frame wall batts replacement where low density is needed",
+      "Under-tile roof sarking",
+      "Subfloor ground contact"
+    ],
+    "rag_summary": "Bradford\nFibertex is a heavy-duty, non-combustible rockwool (stone wool) board and\nblanket range engineered for high-temperature industrial equipment, fire-rated\ncurtain walls, and acoustic enclosures. Spun from natural volcanic rock and\nrecycled slag in densities from 60 kg/m3 (Fibertex 350) up to 130 kg/m3\n(Fibertex 820), it withstands continuous service temperatures up to 820°C with\nminimal thermal shrinkage. Certified non-combustible to AS 1530.1 and complying\nwith ASTM C795 low-chloride standards for stainless steel, it delivers\nindustrial thermal conservation, personnel protection, and acoustic absorption."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

@@ -1,0 +1,186 @@
+{
+  "family_id": "BRADFORD_SUPERTEL_PLAIN",
+  "family_name": "Bradford Supertel Plain",
+  "datasheet_pdf_url": "https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/hvac/supertel",
+  "sds_url": "https://www.bradfordinsulation.com.au/resources/safety-data-sheets",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Bradford Supertel Plain is a high-density (32kg/m3) unfaced\nglasswool insulation blanket and board engineered for high-performance thermal\nand acoustic applications. Manufactured by spinning molten glass containing up\nto 65% recycled content into fine bio-soluble fibres bonded with a thermosetting\nresin, Supertel Plain delivers high thermal resistance and acoustic absorption\nat minimal thickness. It is widely used in commercial HVAC ductwork, acoustic\nattenuators, plant room enclosures, and behind perforated architectural wall or\nceiling linings.",
+    "features": [
+      "High-density 32kg/m3 glasswool provides\nexceptional acoustic absorption and thermal control",
+      "Unfaced (plain) format\nallows custom facings, fabric linings, or concealed cavity installation",
+      "Non-combustible bulk insulation complying with AS 1530.1",
+      "Early Fire Hazard\nproperties (0/0/0/0-1) to AS/NZS 1530.3",
+      "Continuous maximum service\ntemperature up to 350°C (unfaced)",
+      "Acoustic absorption rating (NRC) up to 0.85\n- 1.10 depending on thickness",
+      "Manufactured using safe FBS-1 bio-soluble\nglasswool formulation",
+      "Hydrophobic formulation repels liquid water",
+      "Zero\nOzone Depleting Potential (ODP) and low VOC emissions",
+      "Available in\nthicknesses from 13mm to 100mm in both blanket rolls and semi-rigid boards"
+    ],
+    "applications": [
+      "duct",
+      "pipe",
+      "ceiling",
+      "wall"
+    ],
+    "technical": [
+      {
+        "property": "Material R-values",
+        "value": "13mm: R0.4; 25mm: R0.8; 40mm:\nR1.2; 50mm: R1.5; 75mm: R2.2; 100mm: R3.0",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Density",
+        "value": "32 kg/m3",
+        "standard": ""
+      },
+      {
+        "property": "Thickness",
+        "value": "13 mm, 25 mm, 40 mm, 50 mm, 75 mm, 100 mm",
+        "standard": ""
+      },
+      {
+        "property": "Dimensions (Rolls)",
+        "value": "15 m x 1200/1500 mm\n(25mm); 10 m x 1200/1500 mm (50mm)",
+        "standard": ""
+      },
+      {
+        "property": "Dimensions\n(Boards)",
+        "value": "2400 mm x 1200 mm",
+        "standard": ""
+      },
+      {
+        "property": "Sound\nAbsorption (NRC)",
+        "value": "25mm: NRC 0.75 - 0.85; 50mm: NRC 0.95 - 1.05; 75mm:\nNRC 1.05 - 1.10",
+        "standard": "AS ISO 354"
+      },
+      {
+        "property": "Combustibility",
+        "value": "Non-Combustible",
+        "standard": "AS 1530.1"
+      },
+      {
+        "property": "Fire\nHazard Properties",
+        "value": "Ignitability: 0, Spread of Flame: 0, Heat\nEvolved: 0, Smoke Developed: 0-1",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Maximum Service Temperature",
+        "value": "350°C (unfaced)",
+        "standard": ""
+      },
+      {
+        "property": "Thermal Conductivity",
+        "value": "0.032 W/m·K at 20°C",
+        "standard": "ASTM C518"
+      },
+      {
+        "property": "Moisture Absorption",
+        "value": "< 0.2% by volume",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Supertel Plain 25mm",
+        "size_or_rating": "25 mm x 1200/1500 mm x 15 m (R0.8) or 2400x1200 mm board",
+        "pack": "Roll / Pack"
+      },
+      {
+        "variant": "Supertel Plain 40mm",
+        "size_or_rating": "40 mm x 1500 mm x 10 m (R1.2) or 2400x1200 mm board",
+        "pack": "Roll / Pack"
+      },
+      {
+        "variant": "Supertel Plain 50mm",
+        "size_or_rating": "50 mm x 1200/1500 mm x 10\nm (R1.5) or 2400x1200 mm board",
+        "pack": "Roll / Pack"
+      },
+      {
+        "variant": "Supertel\nPlain 75mm",
+        "size_or_rating": "75 mm x 1200/1500 mm x 5 m (R2.2) or 2400x1200\nmm board",
+        "pack": "Roll / Pack"
+      },
+      {
+        "variant": "Supertel Plain 100mm",
+        "size_or_rating": "100 mm x 1380/1500 mm x 5 m (R3.0) or 2400x1200 mm board",
+        "pack": "Roll / Pack"
+      }
+    ],
+    "fire": "Non-Combustible to AS 1530.1; AS/NZS 1530.3:\nIgnitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-1; Max\ntemp 350°C",
+    "compliance": "AS/NZS 4859.1:2018; AS 1530.1; AS/NZS 1530.3;\nAS 4254; NCC 2022 Volume 1 & Volume 2",
+    "sustainability": "Manufactured from up\nto 65% recycled glass; FBS-1 bio-soluble formulation; zero ODP; low VOC",
+    "install": [
+      "Ensure installation substrate (duct, framing cavity, or enclosure)\nis clean and dry",
+      "Cut Supertel Plain blanket or board to required size using a\nsharp insulation knife",
+      "Impale over welded insulation pins on sheet metal, or\nfriction-fit into framed cavities",
+      "Secure with speed clips or retaining\nwashers",
+      "Butt edges tightly to eliminate acoustic and thermal leaks",
+      "If\ninstalled behind perforated panels, ensure face is covered or contained to\nprevent air-stream fibre loss"
+    ],
+    "selection_checklist": [
+      "Confirm 32kg/m3\ndensity meets acoustic specification",
+      "Select thickness (13mm to 100mm) based\non thermal R-value or NRC target",
+      "Confirm unfaced format is appropriate (e.g.\nfor concealed cavities or custom lamination)",
+      "Verify operating temperature is\n≤ 350°C",
+      "Specify insulation stick pins, speed clips, and fasteners"
+    ],
+    "accessories": [
+      "Insulation stick pins and speed clips",
+      "Serrated insulation\nknife"
+    ],
+    "limitations": [
+      "Unfaced format does not provide vapour barrier\nprotection against condensation",
+      "Not for direct exposure to high-velocity air\nstreams without facing or scrim",
+      "Keep dry during storage and installation"
+    ],
+    "warranty": "CSR Bradford Standard Product Warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Bradford Supertel Plain",
+      "Supertel unfaced",
+      "32kg\nglasswool board",
+      "plain glasswool blanket",
+      "Supertel 32kg plain",
+      "acoustic\nglasswool board",
+      "high density glasswool 32kg",
+      "Supertel 50mm plain",
+      "Bradford HVAC board plain"
+    ],
+    "problem_keywords": [
+      "equipment noise breakout",
+      "reverberation behind perforated timber walls",
+      "acoustic enclosure\nreverberation",
+      "high temperature duct heat loss",
+      "attenuator acoustic infill\nneed",
+      "need non-combustible dense glasswool"
+    ],
+    "placement": [
+      "duct",
+      "pipe",
+      "ceiling",
+      "wall"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "fire",
+      "thermal"
+    ],
+    "use_cases": [
+      "Acoustic infill behind slotted timber or perforated metal\nceiling and wall panels in commercial spaces",
+      "Bespoke HVAC sound silencer\nsplitter and attenuator fabrication",
+      "Thermal and acoustic insulation in\ncommercial industrial equipment enclosures operating up to 350°C"
+    ],
+    "not_for": [
+      "Exposed residential ceiling attic batts without covering",
+      "Moisture-prone\napplications requiring a vapour barrier",
+      "High-velocity open air streams\nwithout protective scrim or facing"
+    ],
+    "rag_summary": "Bradford Supertel Plain\nis an unfaced, 32 kg/m3 high-density bio-soluble glasswool blanket and board\nengineered for superior thermal and acoustic performance. With a continuous\nservice temperature limit of 350°C and AS 1530.1 non-combustibility, it achieves\nexceptional sound absorption (NRC 0.85 to 1.10) and thermal resistance from R0.4\nto R3.0 (13mm to 100mm). Widely specified as acoustic infill behind perforated\narchitectural panelling, in HVAC attenuators, and for industrial enclosures, it\noffers versatile, non-combustible sound and heat dampening."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

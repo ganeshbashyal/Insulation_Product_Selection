@@ -1,7 +1,7 @@
 ---
 title: "Autex Vicinity - Desk Screen - Haven - Batt Insulation | Autex"
-description: "Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled pla"
-keywords: "Autex Vicinity - Desk Screen - Haven, Autex batt, acoustic insulation, wall insulation, ceiling insulation, insulation Australia, Autex Australia"
+description: "Autex Vicinity Desk Screen - Haven is an expansive acoustic workstation screen system designed to provide comprehensive visual and sound shielding in "
+keywords: "Autex Vicinity - Desk Screen - Haven, Autex batt, wall insulation, insulation Australia, Autex Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AUTEX_VICINITY_DESK_SCREEN_HAVEN
 ---
@@ -10,30 +10,32 @@ family_id: AUTEX_VICINITY_DESK_SCREEN_HAVEN
 
 **Autex Batt** — bulk insulation batts for thermal and acoustic performance.
 
-Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled plastic bottles, it's the sustainable choice for modern buildings.
+Autex Vicinity Desk Screen - Haven is an expansive acoustic workstation screen system designed to provide comprehensive visual and sound shielding in open-plan offices. Featuring an extended wrapped boundary format that encloses the back and side of a desk, Haven achieves an impressive acoustic rating of 1.55 Sabins per unit. Attached using non-destructive Vicinity Desk Clamps, it is formed from 100% polyester fibre with an 80% recycled PET core and meets Group 1 fire safety requirements.
 
 ## Key features
 
-- 100% polyester - safe to handle without protective equipment.
-- contains minimum 80% recycled PET plastic bottles.
-- non-allergenic, non-irritant formulation.
-- will not support mould or mildew growth.
-- maintains performance when wet - dries out naturally.
-- excellent thermal performance for roof/ceiling applications.
-- helps meet NCC energy efficiency requirements.
-- Made from recycled PET bottles.
+- Wrap-around boundary screen providing dual-sided acoustic and visual sanctuary.
+- High acoustic absorption rating of 1.55 Sabins per unit.
+- Non-destructive desk mounting using Vicinity Workstation Clamps.
+- Constructed from 100% polyester fibre containing a minimum of 80% recycled PET.
+- Group 1 fire rating compliant with AS ISO 9705 - 2003 and AS 5637.1.
+- Solid colour throughout with clean finished edges; no capping required.
+- Pinnable self-healing surface for personal workflow notes.
+- Clamps made from 100% recycled PET (RePET) or powdercoated zinc.
+- Moisture and mould resistant with an ASTM G21-15 Growth Rating: 0).
+- Certified Carbon Neutral product with third-party verified EPD.
 
 ## Applications and selection
 
-- Internal Wall | Ceiling | General Acoustic
+- internal wall
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm desk size (Haven 1600 for 1600mm desks or Haven 1800 for 1800mm desks).
+2. Verify desk edge clearance around monitor arms and cable trays.
+3. Select colour from the Autex Cube palette.
+4. Confirm required pack quantity (packs of 4 screens, 2 pieces per screen).
+5. Check that user egress is unobstructed by the wrap-around screen.
 
 
 ## Current catalogue range
@@ -44,36 +46,51 @@ Specialists in sustainable polyester acoustic solutions. Safe to handle without 
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Batt | Manufacturer catalogue |
-| Material | Polyester | Manufacturer catalogue |
-| Applications | Internal Wall | Ceiling | General Acoustic | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Acoustic Performance | 1.55 Sabins per unit (125Hz: 0.50, 250Hz: 1.00, 500Hz: 1.40, 1000Hz: 1.65, 2000Hz: 2.10, 4000Hz: 2.35) | ISO 354 |
+| Dimensions | 2400 mm W x 600 mm H flat (wrapped to suit 1600 mm or 1800 mm desks, ~400 mm above desk) | - |
+| Thickness | 12 mm (+/- 6%) | - |
+| Material Composition | 100% polyester fibre (PET) Cube panel; clamp: 100% recycled PET / zinc | - |
+| Recycled Content | Minimum 80% post-consumer recycled PET | - |
+| Fire Rating (Australia) | Group 1, SMOGRArc < 100 m2/s2 | AS ISO 9705 - 2003 / AS 5637.1:2015 |
+| International Fire Classification | Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a: FS:0 - SD:45); BS EN 13501-1:2018 | ISO 9705 / ASTM E-84 / BS EN 13501-1 |
+| Water Vapour Sorption | 0.4% by weight after 4 days at 49°C, 95% RH | ASTM C1104 / C1104M-13a |
+| Microbial Resistance | Growth rating: 0 (No growth) | ASTM G21-15 |
+| VOC Emissions | < 0.092 mg/m3 (7 days) | CDPH Standard Method v1.2 |
 
-
+Extracted from manufacturer datasheet: https://www.autexglobal.com/au/products/vicinity/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM E-84-15a Class A; BS EN 13501-1:2018
+
+NCC Specification 7 (BCA C1.10) Group 1 fire compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.autexacoustics.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://insulvac.com.au/wp-content/uploads/2020/04/autex-material-safety-data-sheet-msds.pdf.
 
+## Recommended accessories
+
+- Vicinity Workstation Clamps.
+- Allen key.
+
 
 ## Limitations and warnings
 
-- Not suitable for applications requiring fire rating without additional protection..
-- not to be exposed to weather or sustained moisture..
-- do not compress beyond manufacturer recommendations..
-- check fire-rated system requirements if fire rating is required..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Indoor use only; avoid wet areas or direct liquid contact.
+- Requires compatible desk edge overhang for clamp engagement.
+- Ensure wrap-around screen width matches exact workstation desk size.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for applications requiring fire rating without additional protection.
+1. Unpack Vicinity Haven screen pieces and layout around workstation perimeter.
+2. Slide Vicinity Workstation Clamps into pre-routed slots in the screen.
+3. Align the wrapped corner treatment to wrap neatly around the desk edges.
+4. Tighten clamp screws from the underside of desktop using an Allen key.
+5. Ensure screen sits firmly upright, enclosing rear and side boundaries securely.
 
 ## Safety and handling
 
@@ -81,11 +98,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Carbon neutral product; minimum 80% recycled PET; clamps made from 100% recycled PET; Declare Red List Free; EPD verified; low VOC
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Manufacturer's Guarantee (10 years)
 
 ## Specification starting point
 

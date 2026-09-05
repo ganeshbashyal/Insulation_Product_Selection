@@ -1,0 +1,183 @@
+{
+  "family_id": "BRADFORD_MULTITEL_FOIL_FACED",
+  "family_name": "Bradford Multitel - Foil - Faced",
+  "datasheet_pdf_url": "https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/hvac/multitel",
+  "sds_url": "https://www.bradfordinsulation.com.au/-/media/bradford/files/safety-data-sheet---glasswool.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Bradford Multitel Foil-Faced is a lightweight, flexible\nglasswool insulation blanket factory-laminated with a reinforced aluminium foil\nfacing, specifically engineered for the external thermal and acoustic wrapping\nof commercial and residential air conditioning ductwork. Manufactured by\nspinning molten glass containing up to 65% recycled content into fine\nbio-soluble fibres, it limits energy losses, controls condensation, and dampens\nfan noise traveling through duct systems. Also utilised as a bushfire ember\nprotection blanket (Multitel BAL 12.5-40), it achieves non-combustibility and\ncomplies with Australian Standard AS 4254 for HVAC ductwork.",
+    "features": [
+      "Factory-laminated with reinforced aluminium foil facing to provide an effective\nvapour barrier",
+      "Designed for the external wrapping of heating, ventilation,\nand air conditioning (HVAC) ducts",
+      "Substantially reduces duct heat gain/loss\nand dampens airborne fan noise",
+      "Non-combustible glasswool core complying with\nAS 1530.1",
+      "Multitel BAL version certified to seal gaps against ember ingress\nup to BAL-40 under AS 3959",
+      "Lightweight and highly flexible for easy wrapping\naround circular and rectangular ductwork",
+      "Made from bio-soluble FBS-1\nglasswool containing up to 65% recycled glass",
+      "Low VOC emissions and zero\nOzone Depleting Potential (ODP)",
+      "Meets AS 4254 requirements for ductwork\ninsulation"
+    ],
+    "applications": [
+      "duct",
+      "pipe",
+      "roof",
+      "roofline"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "Bio-soluble glasswool (FBS-1)\nwith reinforced aluminium foil facing",
+        "standard": ""
+      },
+      {
+        "property": "Blanket\nR-Values",
+        "value": "R0.7 (25mm), R1.0 (38mm), R1.3 (50mm), R2.0 (75mm)",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Thickness Options",
+        "value": "25\nmm, 38 mm, 50 mm, 75 mm",
+        "standard": ""
+      },
+      {
+        "property": "Roll Dimensions\n(HVAC)",
+        "value": "1200 mm width x 7.5 m, 10 m, or 15 m length",
+        "standard": ""
+      },
+      {
+        "property": "Roll Dimensions (BAL 12.5-40)",
+        "value": "300 mm width x 20 m\nlength x 25 mm thickness",
+        "standard": ""
+      },
+      {
+        "property": "Nominal Density",
+        "value": "Approx. 12-18 kg/m³",
+        "standard": ""
+      },
+      {
+        "property": "Combustibility\n(Core)",
+        "value": "Non-combustible",
+        "standard": "AS 1530.1"
+      },
+      {
+        "property": "Early Fire Hazard Indices",
+        "value": "Ignitability: 0, Spread of Flame: 0, Heat\nEvolved: 0, Smoke Developed: 0-1",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Facing Vapour Permeance",
+        "value": "Low (Vapour Barrier Class 1/2)",
+        "standard": "ASTM E96"
+      },
+      {
+        "property": "Operating Temperature",
+        "value": "Up\nto 120°C (facing limit)",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Multitel\nHVAC Foil Faced 25mm",
+        "size_or_rating": "25 mm x 1200 mm x 15 m (R0.7, 18 m²)",
+        "pack": "Roll (Code: 16074)"
+      },
+      {
+        "variant": "Multitel HVAC Foil Faced 38mm",
+        "size_or_rating": "38 mm x 1200 mm x 15 m (R1.0, 18 m²)",
+        "pack": "Roll\n(Code: 77363)"
+      },
+      {
+        "variant": "Multitel HVAC Foil Faced 50mm",
+        "size_or_rating": "50 mm x 1200 mm x 10 m (R1.3, 12 m²)",
+        "pack": "Roll\n(Code: 16068)"
+      },
+      {
+        "variant": "Multitel HVAC Foil Faced 75mm",
+        "size_or_rating": "75 mm x 1200 mm x 7.5 m (R2.0, 9 m²)",
+        "pack": "Roll\n(Code: 77399)"
+      },
+      {
+        "variant": "Multitel BAL 12.5-40 Blanket",
+        "size_or_rating": "25 mm x 300 mm x 20 m (4 pieces, 80 lineal metres)",
+        "pack": "Pack of 4 rolls\n(Code: 100061)"
+      }
+    ],
+    "fire": "Non-combustible glasswool core to AS 1530.1;\nAS/NZS 1530.3 indices: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke\nDeveloped 0-1; Complies with AS 3959 up to BAL-40 for roof ember protection",
+    "compliance": "AS/NZS 4859.1, AS 4254 (Ductwork for air-handling systems),\nAS 3959, NCC Volume One and Volume Two",
+    "sustainability": "Manufactured from up\nto 65% recycled glass; bio-soluble FBS-1; zero ODP; low VOC",
+    "install": [
+      "Ensure external duct surface is clean, dry, and free of grease or debris",
+      "Cut\nMultitel blanket allowing sufficient length to wrap around duct perimeter\nplus 50mm foil overlap",
+      "Wrap blanket snugly around the duct with the foil\nfacing outward",
+      "Seal all longitudinal and transverse foil seams with 75mm\nBradford reinforced aluminium foil tape",
+      "Squeegee tape down firmly to ensure a\ncomplete, airtight vapour seal",
+      "Secure blanket with outward-clench staples,\ntape, or plastic/metal strapping at 300-400mm centres",
+      "Avoid compressing the\nblanket significantly across corners to maintain rated thermal resistance"
+    ],
+    "selection_checklist": [
+      "Confirm ductwork insulation requirement (external\nthermal/condensation wrapping)",
+      "Determine required R-value (R0.7, R1.0, R1.3,\nor R2.0) per NCC / AS 4254 energy efficiency tables",
+      "Calculate total surface\narea of rectangular and circular ducting",
+      "Ensure matching 75mm reinforced\naluminium foil tape is included for joint sealing",
+      "For bushfire roof\napplications, specify Multitel BAL 12.5-40 (300mm width rolls)"
+    ],
+    "accessories": [
+      "Bradford 493 Reinforced Aluminium Foil Tape",
+      "Duct strapping\n/ banding",
+      "Outward-clench staples"
+    ],
+    "limitations": [
+      "For external duct wrap\nonly; not suitable as internal duct acoustic liner exposed to high-velocity\nairflow (use Supertel/Flexitel)",
+      "Operating temperature of foil facing must not\nexceed 120°C",
+      "Must not be left exposed to direct sunlight (UV) or outdoor\nweather without protective cladding"
+    ],
+    "warranty": "Backed by CSR Bradford\nproduct warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Bradford Multitel",
+      "Multitel Foil Faced",
+      "Multitel HVAC Blanket",
+      "foil faced duct wrap",
+      "air\nconditioning duct insulation",
+      "glasswool duct wrap",
+      "Multitel BAL 12.5-40",
+      "Bradford duct blanket",
+      "CSR Multitel 16068"
+    ],
+    "problem_keywords": [
+      "condensation on AC ductwork",
+      "heat loss through air conditioning ducts",
+      "noisy ductwork fan noise",
+      "sweating metal air ducts",
+      "sealing ember ingress\nin roof",
+      "meeting AS 4254 duct insulation code"
+    ],
+    "placement": [
+      "duct",
+      "pipe",
+      "roof",
+      "roofline"
+    ],
+    "priority_fit": [
+      "condensation",
+      "thermal",
+      "acoustic",
+      "fire"
+    ],
+    "use_cases": [
+      "Externally wrapping rectangular and spiral\nsheet-metal air conditioning ducts in commercial and residential ceiling\nspaces",
+      "Preventing condensation and heat gain on supply air ductwork in\nunconditioned roof cavities",
+      "Sealing roof valleys, gutters, and ridge joints\nagainst ember attack in BAL 12.5 to BAL-40 bushfire zones"
+    ],
+    "not_for": [
+      "Internal duct acoustic lining with moving airflow (use Bradford Supertel or\nUltratel)",
+      "Direct floor/ceiling building envelope batts",
+      "Exposed external\ncladding"
+    ],
+    "rag_summary": "Bradford Multitel Foil-Faced is a flexible,\nlightweight glasswool HVAC blanket factory-laminated with a reinforced aluminium\nfoil vapour barrier, designed for the external thermal and acoustic wrapping of\nair conditioning ductwork. Available in thicknesses from 25mm to 75mm (R0.7 to\nR2.0) in 1200mm wide rolls, it prevents duct sweat/condensation, reduces energy\nlosses, and dampens airflow noise. Also produced in a 300mm width as Multitel\nBAL 12.5-40 for sealing roof ember entry points, it features a non-combustible\ncore to AS 1530.1 and complies with AS 4254 ductwork standards."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

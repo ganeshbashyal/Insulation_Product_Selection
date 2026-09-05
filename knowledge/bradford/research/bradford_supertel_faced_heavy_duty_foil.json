@@ -1,0 +1,190 @@
+{
+  "family_id": "BRADFORD_SUPERTEL_FACED_HEAVY_DUTY_FOIL",
+  "family_name": "Bradford Supertel Faced - Heavy Duty Foil",
+  "datasheet_pdf_url": "https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/hvac/supertel",
+  "sds_url": "https://www.bradfordinsulation.com.au/resources/safety-data-sheets",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Bradford Supertel Faced - Heavy Duty Foil is a high-density\n(32kg/m3) glasswool insulation blanket and board factory-laminated with a Heavy\nDuty Thermofoil reflective aluminium foil facing. Engineered for commercial and\nindustrial applications where superior thermal and acoustic performance is\nrequired at minimal thickness, it is widely utilized for internal and external\nHVAC duct lining, acoustic enclosures, and concrete under-soffit insulation. Its\nnon-combustible glasswool core and puncture-resistant Heavy Duty foil provide a\nclean, reflective, and airtight vapor barrier.",
+    "features": [
+      "High-density 32kg/m3 glasswool core provides exceptional thermal and acoustic\nproperties at minimal thickness",
+      "Factory-laminated with Heavy Duty Thermofoil\npuncture-resistant reflective aluminium foil facing",
+      "Forms an effective vapour\nbarrier and clean, light-reflective surface finish",
+      "Non-combustible glasswool\ncore complying with AS 1530.1",
+      "Early Fire Hazard properties complying with\nAS/NZS 1530.3 (0/0/0/0-1)",
+      "Maximum operating service temperature up to 150°C\n(faced)",
+      "Manufactured from bio-soluble FBS-1 glasswool containing up to 65%\nrecycled glass",
+      "Resistant to moisture penetration and fungal growth",
+      "Zero\nOzone Depleting Potential (ODP) and low VOC emissions",
+      "Available in\nthicknesses from 25mm to 100mm (R0.8 to R3.0)"
+    ],
+    "applications": [
+      "duct",
+      "pipe",
+      "ceiling",
+      "wall"
+    ],
+    "technical": [
+      {
+        "property": "Material R-values",
+        "value": "25mm: R0.8; 40mm: R1.2; 50mm: R1.5; 75mm: R2.2; 100mm: R3.0",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Density",
+        "value": "32 kg/m3",
+        "standard": ""
+      },
+      {
+        "property": "Thickness",
+        "value": "25 mm, 40 mm, 50 mm, 75\nmm, 100 mm",
+        "standard": ""
+      },
+      {
+        "property": "Dimensions (Rolls)",
+        "value": "15\nm x 1200/1500 mm (25mm); 10 m x 1200/1500 mm (40/50mm); 5 m x 1380/1500 mm\n(100mm)",
+        "standard": ""
+      },
+      {
+        "property": "Dimensions (Boards)",
+        "value": "2400\nmm x 1200 mm",
+        "standard": ""
+      },
+      {
+        "property": "Facing",
+        "value": "Thermofoil\nHeavy Duty (HD) reinforced reflective aluminium foil",
+        "standard": "AS/NZS 4200.1"
+      },
+      {
+        "property": "Combustibility (Core)",
+        "value": "Non-Combustible",
+        "standard": "AS 1530.1"
+      },
+      {
+        "property": "Fire Hazard\nProperties",
+        "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0,\nSmoke Developed: 0-1",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Maximum\nService Temperature",
+        "value": "150°C (faced)",
+        "standard": ""
+      },
+      {
+        "property": "Thermal Conductivity",
+        "value": "0.032 W/m·K at 20°C",
+        "standard": "ASTM C518"
+      },
+      {
+        "property": "Moisture Absorption",
+        "value": "< 0.2% by volume",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Supertel Faced HD Foil 25mm",
+        "size_or_rating": "25 mm x 1200/1500 mm x 15 m (R0.8) or 2400x1200 mm board",
+        "pack": "Roll /\nPack"
+      },
+      {
+        "variant": "Supertel Faced HD Foil 40mm",
+        "size_or_rating": "40 mm\nx 1500 mm x 10 m (R1.2) or 2400x1200 mm board",
+        "pack": "Roll / Pack"
+      },
+      {
+        "variant": "Supertel Faced HD Foil 50mm",
+        "size_or_rating": "50 mm x 1200/1500\nmm x 10 m (R1.5) or 2400x1200 mm board",
+        "pack": "Roll / Pack"
+      },
+      {
+        "variant": "Supertel Faced HD Foil 75mm",
+        "size_or_rating": "75 mm x 1200/1500 mm x 5 m\n(R2.2) or 2400x1200 mm board",
+        "pack": "Roll / Pack"
+      },
+      {
+        "variant": "Supertel\nFaced HD Foil 100mm",
+        "size_or_rating": "100 mm x 1380/1500 mm x 5 m (R3.0)\nor 2400x1200 mm board",
+        "pack": "Roll / Pack"
+      }
+    ],
+    "fire": "Core non-combustible\nto AS 1530.1; AS/NZS 1530.3: Ignitability 0, Spread of Flame 0, Heat Evolved 0,\nSmoke Developed 0-1",
+    "compliance": "AS/NZS 4859.1:2018; AS 1530.1;\nAS/NZS 1530.3; AS 4254 (Ductwork for air-handling systems); NCC 2022 Section J",
+    "sustainability": "Manufactured from up to 65% recycled glass; FBS-1 bio-soluble\nformulation; zero ODP; low VOC",
+    "install": [
+      "Clean sheet metal duct or\nconcrete slab surface to ensure it is free from dust, oil, and moisture",
+      "Weld\nor adhere insulation stick pins to duct or substrate at 300mm to 400mm centres",
+      "Impale Supertel Heavy Duty Foil blanket or board over the pins with the foil\nfacing outward",
+      "Secure in place with speed clips / retaining washers pushed\nfirmly over pins",
+      "Butt all insulation seams tightly together",
+      "Seal all\njoints, seams, and pin penetrations using matching Bradford 493 Reinforced\nAluminium Foil Tape",
+      "Use a plastic squeegee to firmly press tape down,\nensuring an airtight, continuous vapour seal"
+    ],
+    "selection_checklist": [
+      "Confirm application (HVAC duct wrap, acoustic enclosure, or concrete soffit\nlining)",
+      "Confirm required thermal R-value under NCC Section J (e.g. R1.2 for\ninternal ducts, R1.5/R2.0 for external ducts)",
+      "Verify 32kg/m3 density\nrequirement for acoustic damping and structural integrity",
+      "Select thickness\n(25mm to 100mm)",
+      "Ensure matching reinforced aluminium foil tape (Bradford 493)\nis ordered"
+    ],
+    "accessories": [
+      "Bradford 493 Reinforced Aluminium Foil Tape",
+      "Insulation stick pins and speed clips",
+      "Plastic squeegee"
+    ],
+    "limitations": [
+      "Maximum continuous service temperature of facing is 150°C",
+      "Protect from\nexterior weather and rain until metal cladding or outer jacketing is installed",
+      "Tape all penetrations to prevent vapor ingress and condensation formation\nbehind the foil"
+    ],
+    "warranty": "CSR Bradford Standard Product Warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Bradford Supertel",
+      "Supertel Heavy Duty\nFoil",
+      "Supertel HD Foil",
+      "32kg duct insulation",
+      "HVAC duct wrap foil faced",
+      "Supertel 50mm foil",
+      "foil faced glasswool board",
+      "commercial HVAC\ninsulation",
+      "Bradford ductliner foil",
+      "soffit insulation board foil"
+    ],
+    "problem_keywords": [
+      "ductwork thermal heat loss",
+      "sweating air conditioning\nducts",
+      "condensation on metal ducts",
+      "noisy HVAC duct vibration",
+      "meeting NCC\nSection J duct R-values",
+      "punctured foil on commercial ductwork"
+    ],
+    "placement": [
+      "duct",
+      "pipe",
+      "ceiling",
+      "wall"
+    ],
+    "priority_fit": [
+      "thermal",
+      "condensation",
+      "fire",
+      "acoustic"
+    ],
+    "use_cases": [
+      "External thermal wrap on\nrectangular and spiral sheet metal HVAC ductwork in commercial plant rooms",
+      "Under-soffit thermal and acoustic insulation lining on exposed concrete slabs",
+      "Acoustic enclosure lagging around noisy air-handling units and industrial fans"
+    ],
+    "not_for": [
+      "Internal air-stream duct lining without mechanical protection\nwhere air velocities exceed limits",
+      "Operating temperatures continuously\nexceeding 150°C",
+      "Uncovered outdoor rooftop ductwork without protective metal\ncladding"
+    ],
+    "rag_summary": "Bradford Supertel Faced - Heavy Duty Foil is a 32\nkg/m3 high-density glasswool insulation blanket and board factory-bonded with a\npuncture-resistant Heavy Duty Thermofoil aluminium facing. Engineered for\ncommercial HVAC duct wrapping, equipment enclosures, and under-soffit linings,\nit delivers thermal ratings from R0.8 to R3.0 (25mm to 100mm) while forming a\nrobust vapour barrier that stops condensation. Featuring a non-combustible\nglasswool core under AS 1530.1 and early fire hazard ratings of 0/0/0/0-1, it\nprovides fire-safe, durable thermal and acoustic protection for commercial\nservices."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

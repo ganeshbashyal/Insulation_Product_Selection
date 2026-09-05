@@ -1,0 +1,162 @@
+{
+  "family_id": "AUTEX_HORIZON_TRIANGLE",
+  "family_name": "Autex Horizon - Triangle",
+  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/horizon/",
+  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Autex Horizon is a range of floating acoustic panels that create a cloud-like\nillusion when suspended. Available in clean two-dimensional geometric forms\nincluding Right Angle Triangle, Horizon panels absorb sound across multiple\nfrequency bands while serving as an architectural feature. With an adjustable\nsuspension system for flexible hanging heights, Horizon can also be direct-fixed\nto walls without adhesives using dedicated mounting clips.",
+    "features": [
+      "Floating acoustic ceiling cloud creating an illusion of space",
+      "Adjustable\nsuspension system allows targeted frequency control",
+      "Direct-fix wall option\nwithout adhesives using mounting clips",
+      "Constructed from 100% polyester fibre\nwith minimum 80% recycled content",
+      "Group 1 fire rating to AS ISO 9705 - 2003\nand AS 5637.1",
+      "Acoustic rating of 0.7 - 3.4 Sabins per unit depending on\nconfiguration",
+      "Lightweight yet strong 24mm semi-rigid Cube panel\nconstruction",
+      "Moisture and mould resistant (ASTM G21-15 Growth Rating: 0)",
+      "Safe, non-toxic, non-allergenic, with no formaldehyde or crystalline silica",
+      "Certified Carbon Neutral product with third-party verified EPD"
+    ],
+    "applications": [
+      "ceiling",
+      "wall",
+      "internal wall"
+    ],
+    "technical": [
+      {
+        "property": "Acoustic Absorption (Right Angle Triangle)",
+        "value": "0.8 Sabins\n(direct fixed); 1.15 Sabins (suspended 200 mm); 1.25 Sabins (suspended 400\nmm); 1.40 Sabins (suspended 800 mm)",
+        "standard": "ISO 354"
+      },
+      {
+        "property": "Thickness",
+        "value": "24 mm (+/- 6%)",
+        "standard": ""
+      },
+      {
+        "property": "Dimensions (Right Angle Triangle)",
+        "value": "1159 mm x 1159 mm",
+        "standard": ""
+      },
+      {
+        "property": "Material Composition",
+        "value": "100% polyester fibre\n(PET)",
+        "standard": ""
+      },
+      {
+        "property": "Recycled Content",
+        "value": "Minimum 80% post-consumer recycled PET",
+        "standard": ""
+      },
+      {
+        "property": "Fire\nRating (Australia)",
+        "value": "Group 1 (SMOGRArc < 100 m2/s2)",
+        "standard": "AS\nISO 9705 - 2003 / AS 5637.1"
+      },
+      {
+        "property": "Fire Rating (International)",
+        "value": "Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a); B - s2, d0 (BS\nEN 13501-1:2018)",
+        "standard": "ISO 9705 / ASTM E-84 / BS EN 13501-1"
+      },
+      {
+        "property": "Water Vapour Sorption",
+        "value": "0.4% by weight after 4 days\nat 49°C, 95% RH",
+        "standard": "ASTM C1104 / C1104M-13a"
+      },
+      {
+        "property": "Microbial Resistance",
+        "value": "Growth rating: 0 (No growth)",
+        "standard": "ASTM G21-15"
+      },
+      {
+        "property": "VOC Emissions",
+        "value": "< 0.092 mg/m3 (7\ndays)",
+        "standard": "CDPH Standard Method v1.2"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Horizon Right Angle Triangle",
+        "size_or_rating": "1159 mm x 1159 mm x 24 mm",
+        "pack": "Pack of 4 (covers 2.88 m2)"
+      }
+    ],
+    "fire": "AS ISO 9705 - 2003 and\nAS 5637.1 Classification: Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993\nGroup 1-S; ASTM E-84-15a Class A (FS:0, SD:45); BS EN 13501-1:2018 B - s2, d0",
+    "compliance": "NCC Specification 7 (BCA C1.10) Group 1 fire compliance; AS\nISO 9705:2003; AS 5637.1:2015; ISO 354",
+    "sustainability": "Carbon neutral\nproduct; minimum 80% recycled PET; Declare Red List Free; EPD compliant with\nISO 14025 and EN 15804; low VOC (<0.092 mg/m3)",
+    "install": [
+      "Mark fixing\nlocations on ceiling or wall substrate corresponding to panel clip positions",
+      "Secure ceiling connectors or wall mount brackets using appropriate countersunk\nfasteners",
+      "Attach suspension wire assemblies to ceiling mounts and adjust to\ndesired hanging height",
+      "Attach Horizon mounting clips to the back of the 24mm\ntriangle panel",
+      "Connect suspension cables to panel clips and level the panel\nwith a spirit level",
+      "For wall direct fixing, push panel firmly onto wall mount\nclips until locked securely in place"
+    ],
+    "selection_checklist": [
+      "Confirm\nceiling height and available plenum space for suspended clouds",
+      "Select\nTriangle shape and calculate pack quantities (4 units per pack)",
+      "Choose colour\nfrom the Autex Cube colour range (20+ colours)",
+      "Specify mounting type\n(suspension kit or direct-fix wall clips)",
+      "Verify compliance with seismic\nbracing requirements where applicable"
+    ],
+    "accessories": [
+      "Horizon suspension\nkit (ceiling mounts, 1m cables, panel clips)",
+      "Direct fix wall clips",
+      "Spirit\nlevel"
+    ],
+    "limitations": [
+      "Indoor use only; not suitable for exterior\nenvironments or areas exposed to liquid water",
+      "Non-structural panel; cannot\nsupport light fittings or overhead building services",
+      "Handle with clean hands\nor white gloves to avoid soiling felt surface during installation"
+    ],
+    "warranty": "Manufacturer's Guarantee (10 years)"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Autex Horizon Triangle",
+      "Horizon acoustic panel",
+      "floating ceiling cloud",
+      "triangle acoustic panel",
+      "Autex ceiling raft",
+      "suspended acoustic triangle",
+      "24mm Cube triangle",
+      "acoustic cloud panel",
+      "Autex ceiling baffles",
+      "sound absorbing clouds"
+    ],
+    "problem_keywords": [
+      "echo\nin open plan office",
+      "reverberant high ceilings",
+      "distracting office chatter",
+      "noisy meeting room",
+      "harsh flutter echo",
+      "modern acoustic ceiling feature"
+    ],
+    "placement": [
+      "ceiling",
+      "wall",
+      "internal wall"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "fire",
+      "sustainability",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Suspending geometric acoustic cloud clusters over office breakout zones to\nreduce reverberation",
+      "Creating acoustic wall art in commercial boardrooms\nusing direct-fix clips",
+      "Targeted sound absorption over collaborative tables in\neducational and library spaces"
+    ],
+    "not_for": [
+      "Floors or underfloor acoustic\ndecoupling",
+      "Exterior roof or wall cladding",
+      "High-temperature flue\ninsulation"
+    ],
+    "rag_summary": "Autex Horizon - Triangle is a 24mm thick floating\nacoustic ceiling panel crafted in a 1159mm x 1159mm right-angle triangle\nfrom 100% polyester fibre. Designed to be suspended as a cloud-like feature or\ndirect-fixed to walls without glue, it absorbs 0.8 to 1.4 Sabins per unit to\ncontrol echo and reverberation in open-plan spaces. Featuring a Group 1 fire\nrating under AS ISO 9705 and containing at least 80% recycled PET, it provides a\nlightweight, carbon-neutral acoustic solution for commercial, educational, and\nhospitality interiors."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

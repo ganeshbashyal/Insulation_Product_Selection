@@ -1,0 +1,173 @@
+{
+  "family_id": "AUTEX_GREENSTUF_AUTEX_SOFFIT_SLAB_LINER",
+  "family_name": "Autex Greenstuf Autex Soffit & Slab Liner",
+  "datasheet_pdf_url": "https://www.greenstuf.com.au/products/",
+  "sds_url": "https://www.greenstuf.com.au/resources/technical-documents/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "GreenStuf Autex Soffit and Slab Liner (ASL) is a high-density, Group 1\nfire-rated 100% polyester insulation panel engineered for thermal and acoustic\nlining of masonry, concrete slab, and metal pan soffits. Designed for exposed\nand semi-exposed applications in commercial carparks, basements, and open-plenum\ninteriors, it enhances thermal resistance of the building envelope while\nabsorbing reverberant noise. Manufactured without chemical binders or\nformaldehyde, ASL is non-toxic, moisture-resistant, and 100% recyclable with\ncircular takeback options.",
+    "features": [
+      "Group 1 fire rating compliant with\nAS ISO 9705:2003 and AS 5637.1",
+      "Dual thermal and acoustic performance for\nexposed concrete soffits",
+      "Made from 100% polyester fibre with high recycled\nPET content",
+      "Completely non-toxic, non-allergenic, and non-irritant with zero\nitch",
+      "Thermal ratings from R1.0 to R2.5 (thicknesses 50mm to 100mm)",
+      "High\nacoustic absorption controlling reverberation under hard slabs",
+      "Durable and\nmoisture resistant; absorption < 0.03% by weight",
+      "Naturally resistant to\nvermin, insects, mould, and mildew",
+      "Available in Flint (light grey) and\nCharcoal (dark grey) finishes",
+      "10-year product warranty and 50-year durability\ndesign life"
+    ],
+    "applications": [
+      "underside of masonry floors",
+      "concrete\nsoffit",
+      "car park ceiling",
+      "basement slab",
+      "metal pan floor/ceiling"
+    ],
+    "technical": [
+      {
+        "property": "Material Composition",
+        "value": "100% polyester\nfibre (thermally bonded)",
+        "standard": ""
+      },
+      {
+        "property": "Thermal Resistance\n(R-value)",
+        "value": "R1.0 (50mm), R1.5 (65mm), R2.0 (75-80mm), R2.5 (100mm)",
+        "standard": "ASTM C518 / AS/NZS 4859.1"
+      },
+      {
+        "property": "Sheet Dimensions",
+        "value": "1200 mm x 2400 mm",
+        "standard": ""
+      },
+      {
+        "property": "Thickness\nOptions",
+        "value": "50 mm, 65 mm, 75 mm, 100 mm",
+        "standard": ""
+      },
+      {
+        "property": "Fire Hazard Classification",
+        "value": "Group 1, SMOGRArc < 100\nm2/s2",
+        "standard": "AS ISO 9705:2003 / AS 5637.1:2015"
+      },
+      {
+        "property": "International Fire Rating",
+        "value": "Group 1-S",
+        "standard": "ISO 9705:1993"
+      },
+      {
+        "property": "Moisture Absorption",
+        "value": "< 0.03% by weight after 4 days\nat 50°C, 90% RH",
+        "standard": ""
+      },
+      {
+        "property": "VOC Emissions",
+        "value": "0.01 mg/m3 (7 days)",
+        "standard": "Cetec"
+      },
+      {
+        "property": "Corrosion\nResistance",
+        "value": "Non-corrosive, pH 7.8",
+        "standard": "AS/NZS 4859.1"
+      }
+    ],
+    "range": [
+      {
+        "variant": "GreenStuf ASL R1.0",
+        "size_or_rating": "50mm x 1200mm\nx 2400mm",
+        "pack": "Panel"
+      },
+      {
+        "variant": "GreenStuf ASL R1.5",
+        "size_or_rating": "65mm x 1200mm x 2400mm",
+        "pack": "Panel"
+      },
+      {
+        "variant": "GreenStuf ASL R2.0",
+        "size_or_rating": "75mm/80mm x 1200mm x 2400mm",
+        "pack": "Panel"
+      },
+      {
+        "variant": "GreenStuf ASL R2.5",
+        "size_or_rating": "100mm x 1200mm\nx 2400mm",
+        "pack": "Panel"
+      }
+    ],
+    "fire": "Group 1 (AS ISO 9705:2003 /\nAS 5637.1:2015, SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S",
+    "compliance": "NCC BCA Section J energy efficiency compliance; AS/NZS 4859.1; AS\nISO 9705:2003; AS 5637.1:2015; ABCB Durability in Buildings 50-year design\nlife",
+    "sustainability": "Global GreenTag GreenRate Level A; 100% recyclable;\nhigh recycled PET content; zero formaldehyde or chemical binders; Declare Red\nList Free",
+    "install": [
+      "Check concrete slab is fully cured, clean, dry, and\nfree of oil, grease, or contaminants",
+      "Set out grid lines on the slab to align\npanel joints neatly",
+      "Direct-fix using approved insulation masonry fasteners\nand large washer heads (min 5-6 fixings per sheet)",
+      "Fasten fasteners at 100mm\nfrom sheet edges and distributed evenly across panel centre",
+      "Butt-join panels\ntightly to maintain thermal envelope continuity",
+      "Trim neatly around service\npenetrations, pipes, and electrical conduits with a serrated knife"
+    ],
+    "selection_checklist": [
+      "Confirm NCC Section J required R-value for the carpark\nor suspended slab",
+      "Verify Group 1 fire rating requirement for exposed\nceiling/soffit linings",
+      "Select colourway (Flint light grey or Charcoal dark\ngrey)",
+      "Confirm slab fixing type (masonry drive anchors / insulation pins with\nretaining washers)",
+      "Verify clearance requirements around mechanical and\nelectrical services"
+    ],
+    "accessories": [
+      "Concrete/masonry insulation fasteners\nwith 50-75mm diameter retention washers",
+      "Serrated insulation trimming knife"
+    ],
+    "limitations": [
+      "Not intended for direct exterior weather exposure without\nprotection",
+      "Some minor colour variation across non-woven polyester batches is\nnatural",
+      "Panels compressed during freight require up to 72 hours to recover\nfull nominal thickness"
+    ],
+    "warranty": "10 Year Manufacturer's Guarantee\n(50-year durability design life)"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Autex\nASL",
+      "GreenStuf Soffit Liner",
+      "Slab Liner insulation",
+      "Group 1 soffit\ninsulation",
+      "polyester soffit insulation",
+      "carpark slab insulation",
+      "Autex\nSoffit and Slab Liner",
+      "GreenStuf ASL",
+      "underslab acoustic insulation"
+    ],
+    "problem_keywords": [
+      "cold floor above uninsulated carpark",
+      "concrete slab\nthermal loss",
+      "noisy underground carpark reverberation",
+      "meeting NCC Section J\nsoffit requirements",
+      "Group 1 fire compliance for exposed slab",
+      "damp concrete\nbasement insulation"
+    ],
+    "placement": [
+      "ceiling",
+      "floor",
+      "between floors",
+      "underfloor"
+    ],
+    "priority_fit": [
+      "thermal",
+      "acoustic",
+      "fire",
+      "sustainability"
+    ],
+    "use_cases": [
+      "Direct-fixed to concrete soffits in\nmulti-residential basement car parks to meet Section J thermal efficiency",
+      "Exposed thermal and acoustic lining under suspended concrete slabs in\ncommercial podium levels",
+      "Sound and thermal control lining to metal pan\nceilings and plant room slabs"
+    ],
+    "not_for": [
+      "Direct ground contact under\nconcrete footings",
+      "Unprotected external exterior walls exposed to driving\nrain",
+      "Direct roof sarking membrane substitution"
+    ],
+    "rag_summary": "Autex\nGreenStuf Soffit & Slab Liner (ASL) is a high-density, Group 1 fire-rated\npolyester insulation board designed for direct fixing to concrete slabs, masonry\nceilings, and metal pans. Available in thicknesses from 50mm to 100mm (R1.0 to\nR2.5) in 1200mm x 2400mm panels, ASL delivers thermal performance for NCC\nSection J compliance while simultaneously controlling sound reverberation in\ncommercial carparks and open basements. Non-toxic, moisture-resistant, and free\nfrom chemical binders, it is available in light grey Flint or dark grey Charcoal\nand backed by a 50-year durability design life."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

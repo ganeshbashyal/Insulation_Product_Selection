@@ -1,0 +1,168 @@
+{
+  "family_id": "AUTEX_PRINTED_LANES_BAFFLE_SAWTOOTH",
+  "family_name": "Autex Printed Lanes Baffle Sawtooth",
+  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/lanes/",
+  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Autex Printed Lanes Baffle Sawtooth combines an asymmetrical directional\nsawtooth profile with high-definition digital UV printing of natural timber and\nstone textures. Engineered with an acoustic air cavity behind each 300mm wide\nbatten, it delivers class-leading acoustic absorption (NRC 0.85) alongside\nstriking shadow play and lifelike material aesthetics. It installs without glue\nvia a concealed clipping system, achieving Group 1 fire compliance and\ncarbon-neutral certification.",
+    "features": [
+      "Dynamic asymmetrical sawtooth\nprofile combined with digital timber or stone print finishes",
+      "Highest acoustic\nperformance in the Lanes collection achieving NRC 0.85",
+      "High-resolution\ndigital printing with safe, water-based UV-cured ink",
+      "Rear air gap cavity\nenhances low and mid frequency sound absorption",
+      "Glue-free mechanical clipping\nsystem ensures fast, clean, and mess-free installation",
+      "Lightweight,\nseismic-safe alternative to solid timber or fluted stone battens",
+      "Constructed\nfrom 100% polyester fibre with a minimum of 60% to 80% recycled PET",
+      "Group 1\nfire rating compliant with AS ISO 9705 - 2003 and AS 5637.1",
+      "Modular 300mm\nwidth sections available in 2400mm and 2700mm lengths",
+      "Certified Carbon\nNeutral product with third-party verified EPD"
+    ],
+    "applications": [
+      "wall",
+      "internal wall"
+    ],
+    "technical": [
+      {
+        "property": "Noise Reduction Coefficient\n(NRC)",
+        "value": "0.85",
+        "standard": "ISO 354"
+      },
+      {
+        "property": "Dimensions (Per\nLane)",
+        "value": "300 mm width x 2400 mm or 2700 mm length (custom up to 3600\nmm)",
+        "standard": ""
+      },
+      {
+        "property": "Material Thickness",
+        "value": "12 mm Cube\nbase (depth varies by Sawtooth profile)",
+        "standard": ""
+      },
+      {
+        "property": "Composition",
+        "value": "100% polyester fibre (PET) printed with UV-curable\nink",
+        "standard": ""
+      },
+      {
+        "property": "Recycled Content",
+        "value": "Minimum 60%\nto 80% post-consumer recycled PET",
+        "standard": ""
+      },
+      {
+        "property": "Thermal\nPerformance",
+        "value": "R0.41 (@ 15°C)",
+        "standard": ""
+      },
+      {
+        "property": "Fire\nRating (Australia)",
+        "value": "Group 1, SMOGRArc < 100 m2/s2",
+        "standard": "AS\nISO 9705 - 2003 / AS 5637.1"
+      },
+      {
+        "property": "International Fire Rating",
+        "value": "Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a: FS:0 - SD:45); BS\nEN 13501-1:2018",
+        "standard": "ISO 9705 / ASTM E-84 / BS EN 13501-1"
+      },
+      {
+        "property": "Water Vapour Sorption",
+        "value": "0.4% by weight after 4 days\nat 49°C, 95% RH",
+        "standard": "ASTM C1104 / C1104M-13a"
+      },
+      {
+        "property": "Microbial Resistance",
+        "value": "Growth rating: 0 (No growth)",
+        "standard": "ASTM G21-15"
+      },
+      {
+        "property": "Print Type",
+        "value": "Safe, water-based,\nUV-cured ink",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Printed Lanes\nSawtooth 2400mm",
+        "size_or_rating": "300 mm x 2400 mm (Pack covers 2.16 m2)",
+        "pack": "Pack of 3 lanes"
+      },
+      {
+        "variant": "Printed Lanes Sawtooth 2700mm",
+        "size_or_rating": "300 mm x 2700 mm (Pack covers 2.43 m2)",
+        "pack": "Pack of 3\nlanes"
+      }
+    ],
+    "fire": "AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1\n(SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM E-84-15a Class A (FS:0,\nSD:45); BS EN 13501-1:2018",
+    "compliance": "NCC Specification 7 (BCA C1.10)\nGroup 1 fire compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354",
+    "sustainability": "Carbon neutral product; water-based UV-cured ink; min 60%\nto 80% recycled PET; Declare Red List Free; EPD verified; low VOC",
+    "install": [
+      "Check wall substrate is plumb, flat, and dry",
+      "Inspect directional sawtooth\npattern and grain orientation prior to installation",
+      "Fix horizontal mounting\nclips or channel track to framing studs at 300mm vertical centres",
+      "Snap the\nprinted folded Sawtooth lanes onto mounting clips firmly without adhesive",
+      "Ensure all panels are installed in a uniform directional orientation across the\nwall",
+      "Trim bottom or top ends carefully using a fine-toothed saw on the offcut\nside"
+    ],
+    "selection_checklist": [
+      "Select print finish from Acoustic Timber\nwoodgrains or Surface Finishes palettes",
+      "Confirm wall height to choose 2400mm\nor 2700mm lengths",
+      "Calculate wall width in 300mm increments (3 lanes per\npack)",
+      "Verify direction of light source to accentuate Sawtooth 3D printed\neffect",
+      "Verify substrate framing supports mechanical clip mounting"
+    ],
+    "accessories": [
+      "Lanes mounting clip system",
+      "Fasteners suitable for\nsubstrate",
+      "Fine-tooth track saw"
+    ],
+    "limitations": [
+      "Indoor use only; avoid\nwet areas or direct water exposure",
+      "Requires mechanical clip installation; do\nnot glue directly flat to wall",
+      "Directional profile must be installed in a\nconsistent orientation across the wall"
+    ],
+    "warranty": "Manufacturer's Guarantee\n(10 years)"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Autex Printed Lanes Sawtooth",
+      "Acoustic Timber Lanes Sawtooth",
+      "woodgrain acoustic battens Sawtooth",
+      "printed acoustic battens Sawtooth",
+      "zigzag timber acoustic battens",
+      "stone\nfinish acoustic battens",
+      "Lanes Sawtooth printed",
+      "high NRC printed acoustic\nbatten"
+    ],
+    "problem_keywords": [
+      "excessive echo in commercial boardroom",
+      "heavy fluted timber weight limits",
+      "hard reflective timber acoustics",
+      "timber\nflammability in public buildings",
+      "distracting chatter in open spaces",
+      "need\nstatement 3D timber acoustic wall"
+    ],
+    "placement": [
+      "wall",
+      "internal wall"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "fire",
+      "sustainability",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Designing dramatic woodgrain acoustic feature walls with\ndirectional lighting in corporate lobbies",
+      "Taming severe reverberation in\nhigh-end conference suites with timber aesthetics",
+      "Acoustic feature walls in\nluxury hospitality dining rooms, cocktail bars, and hotels"
+    ],
+    "not_for": [
+      "Flooring or underfoot applications",
+      "Exterior building facades",
+      "Wet rooms\nwith direct running water"
+    ],
+    "rag_summary": "Autex Printed Lanes Baffle\nSawtooth combines an asymmetrical directional sawtooth profile with\nhigh-definition digital UV printing of natural timber and stone textures on 12mm\nCube polyester felt. Engineered with an acoustic air cavity behind each 300mm\nwide batten, it achieves class-leading sound absorption (NRC 0.85) while\nreplicating architectural wood or fluted stone. Rated Group 1 fire compliant\nunder AS ISO 9705 and certified carbon neutral with over 60% recycled PET, it\nprovides dynamic architectural shadow play and superior acoustics for commercial\nand institutional interiors."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

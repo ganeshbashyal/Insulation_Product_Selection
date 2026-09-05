@@ -1,0 +1,168 @@
+{
+  "family_id": "AUTEX_PRINTED_LANES_BAFFLE_PLANE",
+  "family_name": "Autex Printed Lanes Baffle Plane",
+  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/lanes/",
+  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Autex Printed Lanes Baffle Plane combines an understated flattened plateau\nprofile with high-definition digital UV printing from the Acoustic Timber and\nSurface Finishes collections. Hand-picked woodgrains and stone textures are\ndigitally applied using safe, water-based inks directly onto 12mm Cube polyester\nfelt. Featuring a rear air gap that boosts acoustic performance to NRC 0.80, it\ninstalls quickly using an adhesive-free mechanical clipping system.",
+    "features": [
+      "Understated flattened plateau profile with realistic digitally\nprinted timber or stone finishes",
+      "High-definition print using safe,\nwater-based UV-cured ink without degrading acoustic performance",
+      "Rear air gap\ncavity enhances low and mid frequency sound absorption (NRC 0.80)",
+      "Glue-free\nmechanical clipping system ensures fast, clean, and mess-free installation",
+      "Lightweight and seismic-safe alternative to solid wood panelling or marble\nfluting",
+      "Constructed from 100% polyester fibre with a minimum of 60% to 80%\nrecycled PET",
+      "Group 1 fire rating compliant with AS ISO 9705 - 2003 and\nAS 5637.1",
+      "Modular 300mm width sections available in 2400mm and 2700mm\nlengths",
+      "Certified Carbon Neutral product with third-party verified EPD",
+      "Moisture and mould resistant (ASTM G21-15 Growth Rating: 0)"
+    ],
+    "applications": [
+      "wall",
+      "internal wall"
+    ],
+    "technical": [
+      {
+        "property": "Noise Reduction\nCoefficient (NRC)",
+        "value": "0.80",
+        "standard": "ISO 354"
+      },
+      {
+        "property": "Dimensions (Per Lane)",
+        "value": "300 mm width x 2400 mm or 2700 mm length\n(custom up to 3600 mm)",
+        "standard": ""
+      },
+      {
+        "property": "Material Thickness",
+        "value": "12 mm Cube base (depth varies by Plane profile)",
+        "standard": ""
+      },
+      {
+        "property": "Composition",
+        "value": "100% polyester fibre (PET) printed with\nUV-curable ink",
+        "standard": ""
+      },
+      {
+        "property": "Recycled Content",
+        "value": "Minimum 60% to 80% post-consumer recycled PET",
+        "standard": ""
+      },
+      {
+        "property": "Thermal Performance",
+        "value": "R0.41 (@ 15°C)",
+        "standard": ""
+      },
+      {
+        "property": "Fire Rating (Australia)",
+        "value": "Group 1, SMOGRArc < 100 m2/s2",
+        "standard": "AS ISO 9705 - 2003 / AS 5637.1"
+      },
+      {
+        "property": "International\nFire Rating",
+        "value": "Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a: FS:0\n- SD:45); BS EN 13501-1:2018",
+        "standard": "ISO 9705 / ASTM E-84 / BS\nEN 13501-1"
+      },
+      {
+        "property": "Water Vapour Sorption",
+        "value": "0.4% by weight\nafter 4 days at 49°C, 95% RH",
+        "standard": "ASTM C1104 / C1104M-13a"
+      },
+      {
+        "property": "Microbial Resistance",
+        "value": "Growth rating: 0 (No growth)",
+        "standard": "ASTM G21-15"
+      },
+      {
+        "property": "Print Type",
+        "value": "Safe,\nwater-based, UV-cured ink",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Printed\nLanes Plane 2400mm",
+        "size_or_rating": "300 mm x 2400 mm (Pack covers 2.16 m2)",
+        "pack": "Pack of 3 lanes"
+      },
+      {
+        "variant": "Printed Lanes Plane 2700mm",
+        "size_or_rating": "300 mm x 2700 mm (Pack covers 2.43 m2)",
+        "pack": "Pack of 3\nlanes"
+      }
+    ],
+    "fire": "AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1\n(SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM E-84-15a Class A (FS:0,\nSD:45); BS EN 13501-1:2018",
+    "compliance": "NCC Specification 7 (BCA C1.10)\nGroup 1 fire compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354",
+    "sustainability": "Carbon neutral product; water-based UV-cured ink; min 60%\nto 80% recycled PET; Declare Red List Free; EPD verified; low VOC",
+    "install": [
+      "Check wall substrate is plumb, flat, and dry",
+      "Inspect printed grain or\npattern orientation across all lanes prior to mounting",
+      "Fix horizontal\nmounting clips or channel track to framing studs at 300mm vertical centres",
+      "Snap the printed folded Plane lanes onto mounting clips firmly without\nadhesive",
+      "Align adjacent panels to ensure continuous woodgrain or stone\nappearance",
+      "Trim bottom or top ends carefully using a fine-toothed saw on the\noffcut side"
+    ],
+    "selection_checklist": [
+      "Select print finish from Acoustic\nTimber woodgrains or Surface Finishes palettes",
+      "Confirm wall height to\nchoose 2400mm or 2700mm lengths",
+      "Calculate wall width in 300mm increments (3\nlanes per pack)",
+      "Confirm Plane flattened plateau profile suitability for\ndesign aesthetic",
+      "Verify substrate framing supports mechanical clip mounting"
+    ],
+    "accessories": [
+      "Lanes mounting clip system",
+      "Fasteners suitable for\nsubstrate",
+      "Fine-tooth track saw"
+    ],
+    "limitations": [
+      "Indoor use only; avoid\nwet areas or direct water exposure",
+      "Requires mechanical clip installation; do\nnot glue directly flat to wall",
+      "Handle carefully with clean gloves to prevent\nscuffing the printed surface during install"
+    ],
+    "warranty": "Manufacturer's\nGuarantee (10 years)"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Autex Printed Lanes\nPlane",
+      "Acoustic Timber Lanes Plane",
+      "woodgrain acoustic battens Plane",
+      "printed acoustic battens Plane",
+      "timber look wall battens",
+      "stone finish\nacoustic battens",
+      "Lanes Plane printed",
+      "decorative acoustic batten system"
+    ],
+    "problem_keywords": [
+      "heavy solid timber panelling weight",
+      "hard reflective\ntimber walls",
+      "timber flammability in commercial fitout",
+      "harsh room\nreverberation",
+      "office video conferencing echo",
+      "need subtle wood batten look\nwith soundproofing"
+    ],
+    "placement": [
+      "wall",
+      "internal wall"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "fire",
+      "sustainability",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Adding\nsubtle woodgrain acoustic battens to corporate boardrooms and executive suites",
+      "Controlling echo in university lecture rooms and high-end educational spaces\nwith timber textures",
+      "Upgrading hospitality dining walls with lifelike stone\nor timber finishes that absorb noise"
+    ],
+    "not_for": [
+      "Flooring or underfoot\napplications",
+      "Exterior building facades",
+      "Wet rooms with direct running\nwater"
+    ],
+    "rag_summary": "Autex Printed Lanes Baffle Plane pairs an understated,\nflattened linear plateau profile with high-definition digital UV printing of\nnatural timber grains and stone textures on 12mm Cube polyester felt. Sized\nin 300mm wide modular sections with a glue-free clipping system that maintains\nan acoustic air gap, it delivers high sound absorption (NRC 0.80) while\nreplicating architectural wood panelling. Rated Group 1 fire compliant and\ncertified carbon neutral with over 60% recycled PET, it provides a quiet,\nsophisticated acoustic wall finish for commercial and educational spaces."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

@@ -1,0 +1,162 @@
+{
+  "family_id": "AUTEX_VICINITY_DESK_SCREEN_SLATE",
+  "family_name": "Autex Vicinity - Desk Screen - Slate",
+  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/vicinity/",
+  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Autex Vicinity Desk Screen - Slate is a lightweight, semi-rigid acoustic\nworkstation screen crafted from 100% polyester fibre. Designed to be fixed\nnon-destructively to desks using Vicinity Workstation Clamps, the Slate design\nfeatures a clean rectangular shape with chamfered or rounded corner details that\nenhance both visual and acoustic privacy. It absorbs speech-range frequencies\nright where open-plan chatter starts, delivering acoustic sanctuary for focused,\nindependent work.",
+    "features": [
+      "Lightweight, semi-rigid 12mm or 24mm 100%\npolyester acoustic screen",
+      "Slate design provides focused desk-level privacy\nwith clean, tailored lines",
+      "Constructed with a minimum of 80% post-consumer\nrecycled PET",
+      "Acoustic rating of 0.5 metric Sabins per unit (800mm Slate\nscreen)",
+      "Non-destructive fixing via Vicinity Workstation Clamps made from 100%\nrecycled PET",
+      "Group 1 fire rating compliant with AS ISO 9705 - 2003 and\nAS 5637.1",
+      "Durable, pin-receptive, moisture-resistant, and will not slump or\nfray over time",
+      "Safe, non-toxic, non-allergenic, and free of chemical binders\nor formaldehyde",
+      "Certified Carbon Neutral product with third-party verified\nEPD and Declare Red List Free",
+      "Available in over 20 solid Cube colours and\nprinted finishes"
+    ],
+    "applications": [
+      "internal wall"
+    ],
+    "technical": [
+      {
+        "property": "Acoustic Absorption (Slate 800mm)",
+        "value": "0.50 Sabins per unit\n(125Hz: 0.15, 250Hz: 0.30, 500Hz: 0.40, 1000Hz: 0.50, 2000Hz: 0.65, 4000Hz: 0.75)",
+        "standard": "ISO 354"
+      },
+      {
+        "property": "Thickness",
+        "value": "12 mm (+/- 6%)\n| 24 mm (+/- 6%)",
+        "standard": ""
+      },
+      {
+        "property": "Dimensions (Slate)",
+        "value": "800 mm width (standard) or custom widths from 600 mm to 2400 mm;\nheight typically 400 mm to 600 mm above desk",
+        "standard": ""
+      },
+      {
+        "property": "Material Composition",
+        "value": "100% polyester fibre (PET)",
+        "standard": ""
+      },
+      {
+        "property": "Recycled Content",
+        "value": "Minimum 80% post-consumer recycled\nPET",
+        "standard": ""
+      },
+      {
+        "property": "Fire Rating (Australia)",
+        "value": "Group 1, SMOGRArc < 100 m2/s2",
+        "standard": "AS ISO 9705 - 2003 /\nAS 5637.1:2015"
+      },
+      {
+        "property": "International Fire Rating",
+        "value": "Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a: FS:0 - SD:45); B - s2, d0\n(BS EN 13501-1:2018)",
+        "standard": "ISO 9705 / ASTM E-84 / BS EN 13501-1"
+      },
+      {
+        "property": "Water Vapour Sorption",
+        "value": "0.4% by weight after 4 days\nat 49°C, 95% RH",
+        "standard": "ASTM C1104 / C1104M-13a"
+      },
+      {
+        "property": "Microbial Resistance",
+        "value": "Growth rating: 0 (No growth)",
+        "standard": "ASTM G21-15"
+      },
+      {
+        "property": "VOC Emissions",
+        "value": "< 0.092 mg/m3 (7\ndays)",
+        "standard": "CDPH Standard Method v1.2"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Vicinity Desk Screen Slate 12mm",
+        "size_or_rating": "800 mm x 450-600 mm x 12\nmm",
+        "pack": "Screen (single or boxed set)"
+      },
+      {
+        "variant": "Vicinity Desk\nScreen Slate 24mm",
+        "size_or_rating": "800 mm x 450-600 mm x 24 mm",
+        "pack": "Screen (single or boxed set)"
+      }
+    ],
+    "fire": "AS ISO 9705 - 2003 and AS 5637.1\nClassification: Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM\nE-84-15a Class A (FS:0, SD:45); BS EN 13501-1:2018 B - s2, d0",
+    "compliance": "NCC Specification 7 (BCA C1.10) Group 1 fire compliance; AS ISO 9705:2003;\nAS 5637.1:2015; ISO 354",
+    "sustainability": "Minimum 80% recycled post-consumer\nPET; clamps made from 100% recycled PET; certified Carbon Neutral; Declare Red\nList Free; EPD compliant",
+    "install": [
+      "Inspect the desk edge to confirm\nthickness is compatible with Vicinity Workstation Clamps",
+      "Position the clamps\nalong the desk edge at recommended spacing (typically 150-200mm in from outer\nedges)",
+      "Tighten the clamp thumb-screws or hex bolts securely to the desk\nunderside without overtightening",
+      "Insert the 12mm or 24mm Vicinity Slate\nscreen into the clamp jaws",
+      "Ensure the screen sits level and is properly\nseated down into the bottom of each clamp channel",
+      "Tighten the screen\nretaining screws on the clamp to firmly secure the acoustic screen in place"
+    ],
+    "selection_checklist": [
+      "Confirm desk top thickness and edge profile for clamp\ncompatibility",
+      "Select screen thickness (12mm or 24mm)",
+      "Choose Slate width\nand height for desired level of visual and acoustic separation",
+      "Select\ncolourway from Autex Cube palette",
+      "Confirm clamp quantity and finish (black or\nwhite 100% recycled PET clamps)"
+    ],
+    "accessories": [
+      "Vicinity Workstation\nClamps (Desk Mount, Top Mount, or Beam Mount)",
+      "Hex key / installation\nhardware"
+    ],
+    "limitations": [
+      "Designed for interior desk-mounting only; not for\nfloor-standing or outdoor use",
+      "Non-structural screen; cannot support heavy\nmonitor arms or mounted shelving",
+      "Avoid direct exposure to liquids or\nhigh-humidity environments"
+    ],
+    "warranty": "10 Year Manufacturer's Guarantee"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Autex Vicinity Slate",
+      "Vicinity desk\nscreen Slate",
+      "acoustic desk screen",
+      "Autex workstation screen",
+      "pinnable\ndesk divider",
+      "polyester acoustic screen",
+      "desk privacy divider",
+      "Cube desk\nscreen",
+      "Vicinity acoustic divider",
+      "desk clamp acoustic screen"
+    ],
+    "problem_keywords": [
+      "noisy open plan office",
+      "distracting desk-to-desk\nchatter",
+      "lack of desk privacy",
+      "reverberation at workstation level",
+      "phone\nnoise in open office",
+      "unattractive desk partitions"
+    ],
+    "placement": [
+      "internal wall"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "fire",
+      "sustainability",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Mounting to commercial workstations in\nopen-plan offices to mitigate voice transfer between desks",
+      "Creating focused\nacoustic study carrels in university libraries and schools",
+      "Providing visual\nand sound separation on sit-to-stand desks without drilling into desktops"
+    ],
+    "not_for": [
+      "Wall cavity thermal insulation batts",
+      "Flooring or underfoot\napplications",
+      "External building cladding"
+    ],
+    "rag_summary": "Autex Vicinity -\nDesk Screen - Slate is a lightweight acoustic workstation partition made\nfrom 12mm or 24mm Cube semi-rigid polyester felt containing at least 80%\nrecycled PET. Specifically shaped in the tailored Slate profile, it fixes\nnon-destructively to desktops via 100% recycled PET Vicinity clamps to absorb\nvoice frequencies (0.50 Sabins per 800mm unit) right where open-plan chatter\nstarts. Rated Group 1 fire compliant under AS ISO 9705 and certified carbon\nneutral, it provides durable, pinnable acoustic and visual shelter for modern\nagile offices."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

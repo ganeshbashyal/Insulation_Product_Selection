@@ -1,0 +1,188 @@
+{
+  "family_id": "AUTEX_SURFACE_FINISHES_CUBE",
+  "family_name": "Autex Surface Finishes Cube",
+  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/cube/",
+  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Autex Surface Finishes Cube is a lightweight, semi-rigid acoustic panel\nfeaturing high-definition digital UV printing of natural timber, stone,\nconcrete, and textile textures onto Cube polyester felt. Engineered without the\ncost, weight, or fire hazards of real timber or masonry, Surface Finishes Cube\ndelivers an authentic architectural look while absorbing unwanted sound\n(NRC 0.45 - 0.80). Available in 12mm and 24mm thicknesses, it achieves NCC\nGroup 1 fire compliance and carbon-neutral certification.",
+    "features": [
+      "High-definition digital printing of premium timber grains, stone, and\narchitectural textures",
+      "Printed with safe, water-based, UV-cured ink with zero\nnegative impact on acoustic absorption",
+      "Available in 12mm (NRC 0.45 - 0.70)\nand 24mm (NRC 0.70 - 0.80) thicknesses",
+      "Semi-rigid 100% polyester Cube base\nwith solid colour core",
+      "Constructed from 100% polyester fibre containing a\nminimum of 80% recycled PET",
+      "Group 1 fire rating compliant with AS ISO 9705\n- 2003 and AS 5637.1",
+      "Lightweight and seismic-safe alternative to solid wood,\nstone, or precast panels",
+      "Certified Carbon Neutral product with third-party\nverified EPD",
+      "Moisture and mould resistant with an ASTM G21-15 Growth Rating\nof 0",
+      "Compatible with Direct-fix, SpinFix, and Peel and Stick installation\nmethods"
+    ],
+    "applications": [
+      "wall",
+      "internal wall",
+      "ceiling"
+    ],
+    "technical": [
+      {
+        "property": "Noise Reduction Coefficient (NRC)",
+        "value": "12mm: 0.45\n(direct fix), 0.70 (with 24mm air gap); 24mm: 0.70 (direct fix), 0.80 (with 24mm\nair gap)",
+        "standard": "ISO 354"
+      },
+      {
+        "property": "Sound Absorption Class",
+        "value": "12mm: Class D (direct fix), Class C (with air gap); 24mm: Class D\n(direct fix), Class C (with air gap)",
+        "standard": "ISO 11654"
+      },
+      {
+        "property": "Panel Dimensions",
+        "value": "1220 mm x 2440 mm; 1220 mm x 2740 mm; custom\nlengths up to 3000 mm",
+        "standard": ""
+      },
+      {
+        "property": "Thickness",
+        "value": "12 mm (+/- 6%); 24 mm (+/- 6%)",
+        "standard": ""
+      },
+      {
+        "property": "Material\nComposition",
+        "value": "100% polyester fibre (PET) printed with UV-curable ink",
+        "standard": ""
+      },
+      {
+        "property": "Recycled Content",
+        "value": "Minimum 80%\npost-consumer recycled PET",
+        "standard": ""
+      },
+      {
+        "property": "Thermal\nPerformance",
+        "value": "12mm: R0.30 (@ 23°C); 24mm: R0.60 (@ 23°C)",
+        "standard": ""
+      },
+      {
+        "property": "Fire Rating (Australia)",
+        "value": "Group 1, SMOGRArc < 100\nm2/s2",
+        "standard": "AS ISO 9705 - 2003 / AS 5637.1:2015"
+      },
+      {
+        "property": "International Fire Rating",
+        "value": "Group 1-S (ISO 9705:1993); Class A (ASTM\nE-84-15a: FS:0 - SD:45); 12mm BS EN 13501-1:2018 B - s1, d0; 24mm B - s2, d0",
+        "standard": "ISO 9705 / ASTM E-84 / BS EN 13501-1"
+      },
+      {
+        "property": "Water\nVapour Sorption",
+        "value": "0.4% by weight after 4 days at 49°C, 95% RH",
+        "standard": "ASTM C1104 / C1104M-13a"
+      },
+      {
+        "property": "Microbial Resistance",
+        "value": "Growth rating: 0 (No growth)",
+        "standard": "ASTM G21-15"
+      },
+      {
+        "property": "VOC Emissions",
+        "value": "< 0.092 mg/m3 (7 days)",
+        "standard": "CDPH Standard Method v1.2"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Surface Finishes\nCube 12mm (2440x1220)",
+        "size_or_rating": "1220 mm x 2440 mm x 12 mm, NRC 0.45",
+        "pack": "Panel"
+      },
+      {
+        "variant": "Surface Finishes Cube 12mm (2740x1220)",
+        "size_or_rating": "1220 mm x 2740 mm x 12 mm, NRC 0.45",
+        "pack": "Panel"
+      },
+      {
+        "variant": "Surface Finishes Cube 24mm (2440x1220)",
+        "size_or_rating": "1220 mm\nx 2440 mm x 24 mm, NRC 0.70",
+        "pack": "Panel"
+      },
+      {
+        "variant": "Surface Finishes\nCube 24mm (2740x1220)",
+        "size_or_rating": "1220 mm x 2740 mm x 24 mm, NRC 0.70",
+        "pack": "Panel"
+      }
+    ],
+    "fire": "AS ISO 9705 - 2003 and AS 5637.1 Classification:\nGroup 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM E-84-15a Class A;\nBS EN 13501-1:2018 B - s1, d0 (12mm) / B - s2, d0 (24mm)",
+    "compliance": "NCC\nSpecification 7 (BCA C1.10) Group 1 fire compliance; AS ISO 9705:2003;\nAS 5637.1:2015; ISO 354",
+    "sustainability": "Carbon neutral product; water-based\nUV-cured ink; minimum 80% recycled PET; Declare Red List Free; EPD verified; low\nVOC",
+    "install": [
+      "Ensure substrate is plumb, flat, clean, and dry",
+      "Acclimatise panels in the space for at least 24 hours prior to installation",
+      "Inspect woodgrain or stone pattern direction and plan panel alignment across\nthe wall",
+      "Apply recommended high-grab MS polymer or contact adhesive evenly to\nthe panel back",
+      "Alternatively, install using Autex SpinFix mounting clips or\nPeel and Stick backing",
+      "Position panel onto substrate, butt joins neatly\ntogether, and roll firmly with a pressure roller",
+      "Trim perimeter edges\ncarefully from the face using a straight edge and sharp utility knife on the\noffcut side"
+    ],
+    "selection_checklist": [
+      "Select finish from Acoustic Timber\nwoodgrains (Oak, Birch, Walnut, etc.) or Surface Finishes stone/concrete\ncollections",
+      "Select panel thickness (12mm for standard wall panelling or 24mm\nfor higher acoustic absorption)",
+      "Confirm panel dimensions\n(1220x2440mm, 1220x2740mm, or custom up to 3000mm)",
+      "Specify installation\nmethod (adhesive direct-fix, SpinFix, or Peel and Stick)",
+      "Verify substrate\nframing supports chosen fixing system"
+    ],
+    "accessories": [
+      "Autex SpinFix\nmounting clips",
+      "Autex Edging Solutions (Type B for 12mm, Type C for 24mm)",
+      "High-grab MS polymer or contact adhesive",
+      "Peel and Stick adhesive backing"
+    ],
+    "limitations": [
+      "Recommended for non-contact areas as printed surface may show\nscuff marks under heavy impact",
+      "Indoor use only; avoid wet areas or direct\nwater exposure",
+      "Do not use in high-impact sports halls without protective\nscreening"
+    ],
+    "warranty": "Manufacturer's Guarantee (10 years)"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Autex Surface Finishes Cube",
+      "Acoustic Timber Cube",
+      "timber look Cube panel",
+      "woodgrain acoustic panel",
+      "stone finish Cube panel",
+      "printed acoustic felt",
+      "Cube printed panel",
+      "Autex timber wall panel",
+      "printed sound absorbing panel"
+    ],
+    "problem_keywords": [
+      "hard timber wall\nreverberation",
+      "heavy wood panelling seismic weight",
+      "timber fire compliance\nin corridors",
+      "echo in commercial lobby",
+      "plain acoustic felt looks\nindustrial",
+      "need natural wood look with soundproofing"
+    ],
+    "placement": [
+      "wall",
+      "internal wall",
+      "ceiling"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "fire",
+      "sustainability",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Designing full-height\nwoodgrain acoustic feature walls in commercial boardrooms and lobbies",
+      "Lining\nretail and hospitality dining spaces with realistic stone or concrete texture\npanels that absorb chatter",
+      "Ceiling and wall acoustic panelling in corporate\noffice suites requiring Group 1 fire safety"
+    ],
+    "not_for": [
+      "Floor underlay or\nunderfoot traffic",
+      "Direct exterior weather exposure",
+      "High-impact gymnasiums\nwithout protective barrier netting"
+    ],
+    "rag_summary": "Autex Surface Finishes\nCube combines semi-rigid 12mm or 24mm Cube polyester felt with high-definition\ndigital UV printing of premium timber grains, stone, and concrete textures.\nAchieving sound absorption ratings from NRC 0.45 to 0.80, it replicates heavy,\nreverberant building materials without structural weight, timber flammability,\nor warping risks. Group 1 fire compliant under AS ISO 9705 and containing at\nleast 80% recycled PET, it provides a lightweight, carbon-neutral architectural\nwall and ceiling finish for commercial, civic, and hospitality spaces."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

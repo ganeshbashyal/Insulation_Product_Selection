@@ -1,0 +1,164 @@
+{
+  "family_id": "AUTEX_VERVE_CUBE",
+  "family_name": "Autex Verve Cube",
+  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/verve/",
+  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Autex Verve Cube is a sculpted 3D acoustic wall panel that\nanimates spaces through the interplay of light, shadow, and architectural form.\nFormed from 100% polyester fibre with an 80% recycled PET core, Verve Cube\nfeatures solid colour throughout without requiring edge capping. Available in\nsix distinctive profiles—Pillar, Flute, Ovolo, Pinstripe, Ridge, and\nWindswept—across the full Autex Cube colour palette, it delivers sound\nabsorption (NRC 0.30+) and Group 1 fire compliance.",
+    "features": [
+      "Six\nsculptural contoured profiles: Pillar, Flute, Ovolo, Pinstripe, Ridge,\nWindswept",
+      "Solid through-core colour across the entire Autex Cube 23+ colour\npalette",
+      "Constructed from 100% polyester fibre containing a minimum of 80%\nrecycled PET",
+      "Available in two thicknesses: 12mm (6mm edge) and 21mm (15mm\nedge)",
+      "Full-height wall panel format measuring 2680mm or 2700mm height\nby 1170mm width",
+      "Acoustic rating of NRC 0.30 and higher",
+      "Group 1 fire rating\ncompliant with AS ISO 9705 - 2003 and AS 5637.1",
+      "Seamless joint design where\npanels join at pattern low points",
+      "Glue-free SpinFix mechanical mounting or\ndirect adhesive fixing options",
+      "Certified Carbon Neutral product with\nthird-party verified EPD"
+    ],
+    "applications": [
+      "wall",
+      "internal wall"
+    ],
+    "technical": [
+      {
+        "property": "Acoustic Rating (NRC)",
+        "value": "NRC 0.30 and\nhigher (typically 0.30 - 0.70+ depending on air gap)",
+        "standard": "ISO 354"
+      },
+      {
+        "property": "Panel Dimensions",
+        "value": "1170 mm width x 2680 mm length\n(or 2700 mm length; custom up to 2680 mm)",
+        "standard": ""
+      },
+      {
+        "property": "Thickness Options",
+        "value": "12 mm (6 mm edge) | 21 mm (15 mm edge)",
+        "standard": ""
+      },
+      {
+        "property": "Base Material",
+        "value": "100% polyester fibre\n(PET) Cube panel",
+        "standard": ""
+      },
+      {
+        "property": "Recycled Content",
+        "value": "Minimum 80% post-consumer recycled PET",
+        "standard": ""
+      },
+      {
+        "property": "Fire\nRating (Australia)",
+        "value": "Group 1, SMOGRArc < 100 m2/s2",
+        "standard": "AS\nISO 9705 - 2003 / AS 5637.1:2015"
+      },
+      {
+        "property": "International Fire\nClassification",
+        "value": "Group 1-S (ISO 9705:1993); BS EN 13501-1:2018 B - s1,\nd0",
+        "standard": "ISO 9705 / BS EN 13501-1"
+      },
+      {
+        "property": "Water Vapour\nSorption",
+        "value": "0.4% by weight after 4 days at 49°C, 95% RH",
+        "standard": "ASTM C1104 / C1104M-13a"
+      },
+      {
+        "property": "Microbial Resistance",
+        "value": "Growth rating: 0 (No growth)",
+        "standard": "ASTM G21-15"
+      },
+      {
+        "property": "VOC\nEmissions",
+        "value": "< 0.092 mg/m3 (7 days)",
+        "standard": "CDPH Standard Method\nv1.2"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Verve Cube 12mm",
+        "size_or_rating": "1170 mm\nx 2680 mm x 12 mm (6 mm edge)",
+        "pack": "Panel"
+      },
+      {
+        "variant": "Verve\nCube 21mm",
+        "size_or_rating": "1170 mm x 2680 mm x 21 mm (15 mm edge)",
+        "pack": "Panel"
+      }
+    ],
+    "fire": "AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1\n(SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; BS EN 13501-1:2018 B - s1, d0",
+    "compliance": "NCC Specification 7 (BCA C1.10) Group 1 fire compliance; AS\nISO 9705:2003; AS 5637.1:2015; ISO 354",
+    "sustainability": "Carbon neutral\nproduct; minimum 80% recycled PET; Declare Red List Free; EPD compliant; low\nVOC",
+    "install": [
+      "Ensure wall substrate is smooth, flat, clean, and dry",
+      "Acclimatise panels in the space for at least 24 hours prior to installation",
+      "Inspect profile repeat and plan alignment across the wall area",
+      "Apply\nhigh-grab MS polymer adhesive evenly across panel backing or attach SpinFix\nclips",
+      "Position panel on wall, engage seams tightly at pattern low points, and\npress firmly across face",
+      "Trim perimeter cuts cleanly using a track saw with a\nfine-toothed blade"
+    ],
+    "selection_checklist": [
+      "Select contoured style (Pillar,\nFlute, Ovolo, Pinstripe, Ridge, Windswept)",
+      "Select colour from the Autex\nCube 23+ solid colour palette",
+      "Select thickness (12mm with 6mm edge or 21mm\nwith 15mm edge)",
+      "Confirm wall height to choose 2680mm or 2700mm lengths",
+      "Choose mounting method (adhesive direct-fix or SpinFix mechanical clips)"
+    ],
+    "accessories": [
+      "Autex SpinFix mounting brackets",
+      "High-grab MS polymer\nadhesive",
+      "Fine-tooth saw"
+    ],
+    "limitations": [
+      "Indoor use only; avoid wet\nareas or direct water exposure",
+      "Pinstripe profile is available in 12mm\nthickness only",
+      "Panels must be installed in uniform vertical orientation"
+    ],
+    "warranty": "Manufacturer's Guarantee (10 years)"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Autex Verve Cube",
+      "Verve Contoured Panel",
+      "fluted\nacoustic wall panel",
+      "sculpted acoustic panels",
+      "3D contoured wall panel",
+      "Cube contoured panel",
+      "Verve Flute Cube",
+      "Verve Ovolo Cube",
+      "Verve Pillar\nCube"
+    ],
+    "problem_keywords": [
+      "flat boring drywall walls",
+      "echo in commercial\nboardroom",
+      "reverberation in open plan office",
+      "need sculptural acoustic\nfeature wall",
+      "distracting office chatter",
+      "meeting room speech privacy"
+    ],
+    "placement": [
+      "wall",
+      "internal wall"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "fire",
+      "sustainability",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Creating sculpted 3D\nacoustic feature walls in commercial office boardrooms and receptions",
+      "Acoustic treatment in creative workspaces, university lecture spaces, and\nlibraries",
+      "Adding architectural depth and noise dampening to modern retail\nstores and dining venues"
+    ],
+    "not_for": [
+      "Flooring or subfloor applications",
+      "Exterior weather-exposed cladding",
+      "Wet rooms with direct running water"
+    ],
+    "rag_summary": "Autex Verve Cube is a full-height 3D contoured acoustic wall\npanel crafted from 100% polyester Cube felt with an 80% recycled PET core and\nsolid through-colour. Available in six distinctive profiles (such as Flute,\nOvolo, and Pillar) and two thicknesses (12mm and 21mm) in 2680mm x 1170mm\nsheets, it moulds flat walls into light-responsive architectural features.\nAchieving sound absorption from NRC 0.30+ and Group 1 fire compliance under AS\nISO 9705, it provides a sculptural, carbon-neutral acoustic solution across\ncommercial, civic, and hospitality spaces."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

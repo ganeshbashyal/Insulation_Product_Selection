@@ -1,0 +1,164 @@
+{
+  "family_id": "BRADFORD_THERMAL_UNDERFLOOR_OPTIMO",
+  "family_name": "Bradford Thermal Underfloor / Optimo",
+  "datasheet_pdf_url": "https://www.bradfordinsulation.com.au/home-insulation/floor/optimo-underfloor-insulation",
+  "sds_url": "https://www.bradfordinsulation.com.au/resources/safety-data-sheets",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Bradford Optimo (Bradford Thermal Underfloor) is a premium,\nrigid high-density glasswool insulation batt specifically engineered for\nsuspended timber and steel subfloors in new and existing homes. Designed to fit\nsnugly between floor joists, Optimo prevents up to 20% of domestic winter heat\nloss, stops cold draughts entering through timber floorboards, and dampens\nfootfall impact noise. Secured with patented Optimo saddle clips or strap\nsystems, it is non-combustible (AS 1530.1), bio-soluble, and approved by\nSensitive Choice.",
+    "features": [
+      "Rigid high-density glasswool construction\nspecifically engineered for underfloor friction fit",
+      "Prevents up to 20% of\nwinter heat loss through suspended timber floors",
+      "Eliminates cold floor\ndraughts through timber floorboards and improves foot comfort",
+      "Acoustic\ndamping reduces footstep impact noise and room drumming",
+      "Non-combustible bulk\ninsulation complying with AS 1530.1",
+      "Early Fire Hazard properties complying\nwith AS/NZS 1530.3 (0/0/0/1)",
+      "Secured with easy-to-install patented Optimo\nsaddle clips or underfloor strapping",
+      "Approved by National Asthma Council\nAustralia's Sensitive Choice program",
+      "FBS-1 bio-soluble glasswool formulation,\nsafe and non-hazardous",
+      "Backed by a 70-year performance warranty"
+    ],
+    "applications": [
+      "underfloor",
+      "floor",
+      "subfloor",
+      "between floors"
+    ],
+    "technical": [
+      {
+        "property": "Material R-values",
+        "value": "R2.1 (75mm), R2.5\n(90mm)",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Thickness",
+        "value": "75\nmm (R2.1), 90 mm (R2.5)",
+        "standard": ""
+      },
+      {
+        "property": "Batt Dimensions",
+        "value": "1160 mm x 415 mm (for 450 mm joist centres); 1160 mm x 565 mm (for 600\nmm joist centres)",
+        "standard": ""
+      },
+      {
+        "property": "Density",
+        "value": "High-density rigid glasswool (approx. 28 - 32 kg/m3)",
+        "standard": ""
+      },
+      {
+        "property": "Combustibility",
+        "value": "Non-Combustible",
+        "standard": "AS 1530.1"
+      },
+      {
+        "property": "Fire Hazard Properties",
+        "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 1",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Maximum Service Temperature",
+        "value": "300°C",
+        "standard": ""
+      },
+      {
+        "property": "Moisture Absorption",
+        "value": "< 0.2% by volume",
+        "standard": ""
+      },
+      {
+        "property": "Recycled Content",
+        "value": "Up to 65% recycled glass",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Optimo R2.1",
+        "size_or_rating": "75 mm x 415/565 mm x 1160 mm",
+        "pack": "Pack\nof 8 (3.9 m2 / 5.2 m2)"
+      },
+      {
+        "variant": "Optimo R2.5",
+        "size_or_rating": "90 mm\nx 415/565 mm x 1160 mm",
+        "pack": "Pack of 8 (3.9 m2 / 5.2 m2)"
+      }
+    ],
+    "fire": "Non-Combustible to AS 1530.1; AS/NZS 1530.3: Ignitability 0, Spread of Flame 0,\nHeat Evolved 0, Smoke Developed: 1",
+    "compliance": "AS/NZS 4859.1:2018;\nAS 1530.1; AS/NZS 1530.3; AS 3999; NCC 2022 Volume 1 & Volume 2 underfloor\nenergy efficiency standards",
+    "sustainability": "Manufactured from up to 65%\nrecycled glass; FBS-1 bio-soluble glasswool; zero ODP; low VOC; Sensitive Choice\napproved",
+    "install": [
+      "In existing homes from beneath, push Optimo batts\nfirmly up between floor joists until hard against floorboards",
+      "For 450mm joist\ncentres use 415mm wide batts; for 600mm centres use 565mm wide batts",
+      "Fix\nOptimo saddle clips to the side of timber joists (2 per batt side) to support\nbatts permanently",
+      "Alternatively, in new builds prior to flooring\ninstallation, fit Optimo saddle clips over top of joists and drop batts in from\nabove",
+      "Butt ends tightly together to eliminate draught paths",
+      "Cut neatly\naround plumbing pipes and floor vents using an insulation knife"
+    ],
+    "selection_checklist": [
+      "Confirm joist spacing (415mm batts for 450mm\ncentres, 565mm batts for 600mm centres)",
+      "Confirm joist depth (minimum 75mm for\nR2.1, 90mm for R2.5)",
+      "Select installation method: from above (new build) or\nfrom underneath (retrofit)",
+      "Ensure Optimo saddle clips or strapping are\nordered with batts",
+      "Verify underfloor access clearance (minimum 400mm\nclearance recommended for retrofit)"
+    ],
+    "accessories": [
+      "Optimo Saddle Clips\n(timber and steel joist versions)",
+      "Optimo Strapping",
+      "Insulation trimming\nknife"
+    ],
+    "limitations": [
+      "Requires adequate crawl space clearance\n(minimum 400mm) for retrofit underfloor installation",
+      "Must not be placed in\ndirect contact with wet soil or standing water",
+      "Protect from rodents or\ncontinuous high dampness with proper subfloor ventilation"
+    ],
+    "warranty": "70\nYear Performance Warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Bradford\nOptimo",
+      "Optimo underfloor insulation",
+      "underfloor insulation batts",
+      "subfloor insulation",
+      "Optimo R2.1",
+      "Optimo R2.5",
+      "timber floor insulation",
+      "suspended floor insulation",
+      "Bradford floor batts",
+      "Optimo saddle clips"
+    ],
+    "problem_keywords": [
+      "freezing cold timber floorboards",
+      "draughts coming\nthrough floorboards",
+      "winter heat loss through suspended floor",
+      "noisy hollow\nsound when walking on floorboards",
+      "cold rooms above open subfloor",
+      "footstep\nnoise on timber floors"
+    ],
+    "placement": [
+      "underfloor",
+      "floor",
+      "subfloor",
+      "between floors"
+    ],
+    "priority_fit": [
+      "thermal",
+      "acoustic",
+      "fire",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Retrofitting underfloor insulation between\njoists of older raised timber homes to block winter draughts and heat loss",
+      "Installing from above over floor joists during new home builds before subfloor\nparticleboard is laid",
+      "Deadening footfall resonance and impact noise under\npolished timber floorboards"
+    ],
+    "not_for": [
+      "Concrete slab on ground without\nsubfloor framing",
+      "Direct contact with wet soil or unventilated damp\ncrawlspaces",
+      "Ceiling attic spaces where lower density batts are suitable"
+    ],
+    "rag_summary": "Bradford Thermal Underfloor / Optimo is a rigid, high-density\nglasswool batt designed specifically to fit between joists in suspended timber\nand steel subfloors. Sized in 415mm and 565mm widths (R2.1 and R2.5), it\nfriction-fits securely against floorboards with patented Optimo saddle clips,\nstopping up to 20% of domestic winter heat loss and eliminating floor draughts.\nNon-combustible to AS 1530.1 and endorsed by Sensitive Choice, it softens\nfootstep impact sound while delivering permanent underfoot thermal comfort\nbacked by a 70-year warranty."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

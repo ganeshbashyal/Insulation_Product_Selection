@@ -1,6 +1,6 @@
 ---
 title: "Autex Greenstuf Polyester Acoustic Blanket - Batt Insulation | Autex"
-description: "Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability"
+description: "GreenStuf Autex Acoustic Blanket (AAB) is a high-performance 100% polyester sound-absorbing insulation blanket engineered to control reverberation and"
 keywords: "Autex Greenstuf Polyester Acoustic Blanket, Autex batt, acoustic insulation, wall insulation, ceiling insulation, insulation Australia, Autex Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AUTEX_GREENSTUF_POLYESTER_ACOUSTIC_BLANKET
@@ -10,30 +10,39 @@ family_id: AUTEX_GREENSTUF_POLYESTER_ACOUSTIC_BLANKET
 
 **Autex Batt** — bulk insulation batts for thermal and acoustic performance.
 
-Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability.
+GreenStuf Autex Acoustic Blanket (AAB) is a high-performance 100% polyester sound-absorbing insulation blanket engineered to control reverberation and transmission in commercial and institutional interiors. Supplied as lofted sheets in white or black, it is ideally suited for installation behind slotted timber, perforated metal panels, acoustic ceilings, and in wall cavities. Free from chemical binders and irritant fibres, AAB is non-toxic, moisture-resistant, and delivers superior sound absorption (NRC up to 0.95+).
 
 ## Key features
 
-- 100% polyester - safe to handle without protective equipment.
-- contains minimum 80% recycled PET plastic bottles.
-- non-allergenic, non-irritant formulation.
-- will not support mould or mildew growth.
-- maintains performance when wet.
-- excellent thermal performance for roof/ceiling applications.
-- Made from recycled PET bottles.
-- Safe to handle without PPE.
+- Engineered specifically for sound absorption and reverberation control.
+- Thermally bonded 100% polyester fibre without chemical binders or formaldehyde.
+- Available in black and white to suit open joints and perforated architectural linings.
+- Available in densities of 20kg/m3, 32kg/m3, and 48kg/m3.
+- High acoustic performance with NRC ratings from 0.70 to 1.00+.
+- Safe, non-allergenic, non-toxic, and itch-free handling without PPE.
+- Moisture resistant with water absorption < 0.03% by weight.
+- Resistant to vermin, insects, and fungal growth.
+- 50-year durability warranty satisfying ABCB durability criteria.
+- 100% recyclable with high recycled PET bottle content.
 
 ## Applications and selection
 
-- Internal Wall | Ceiling | General Acoustic
+- behind perforated ceiling panels
+- slotted timber wall
+linings
+- internal wall stud cavity
+- acoustic baffle infill
+- HVAC silencer
+infill
+- cinema/auditorium acoustic treatment
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm density (20kg, 32kg, or 48kg/m3) specified by acoustic engineer.
+2. Confirm thickness (25mm, 50mm, 75mm, 100mm) and required NRC.
+3. Select colour (Black is standard behind perforated/slotted panels to hide background framing; White for ceiling plenums).
+4. Calculate required area based on 1200mm x 2400mm sheet coverage (2.88 m2 per sheet).
+5. Verify fixing method (friction fit, adhesive, or pin fix).
 
 
 ## Current catalogue range
@@ -50,36 +59,52 @@ Specialists in sustainable polyester acoustic solutions. Safe to handle without 
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Batt | Manufacturer catalogue |
-| Material | Polyester | Manufacturer catalogue |
-| Applications | Internal Wall | Ceiling | General Acoustic | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material Composition | 100% polyester fibre (thermally bonded) | - |
+| Density Options | 20 kg/m3, 32 kg/m3, 48 kg/m3 | - |
+| Thickness Options | 25 mm, 50 mm, 75 mm, 100 mm | - |
+| Sheet Dimensions | 1200 mm x 2400 mm | - |
+| Acoustic Performance (NRC) | 0.70 to 1.00+ depending on thickness and density | ISO 354 / AS 1045 |
+| Fire Rating (New Zealand) | Group 1-S | ISO 9705:1993 |
+| Early Fire Hazard Properties | Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-3 | AS 1530.3 |
+| Moisture Absorption | < 0.03% by weight after 4 days at 50°C, 90% RH | - |
+| VOC Emissions | 0.01 mg/m3 (7 days) | Cetec |
+| Corrosion Resistance | Non-corrosive, pH 7.8 | AS/NZS 4859.1 |
 
-
+Extracted from manufacturer datasheet: https://greenstuf.co.nz/products/acoustic-absorption-blanket-aab/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Group 1-S (ISO 9705:1993); AS 1530.3: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-3
+
+AS/NZS 4859.1; ISO 354 / AS 1045 acoustic testing; ABCB Durability in Buildings 50-year criteria; IEC 60695-11-5 non-flammable
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.autexacoustics.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://insulvac.com.au/wp-content/uploads/2020/04/autex-material-safety-data-sheet-msds.pdf.
 
+## Recommended accessories
+
+- Serrated insulation knife.
+- Insulation stick pins / washered fasteners.
+- Water-based contact adhesive.
+
 
 ## Limitations and warnings
 
-- Not suitable for fire rating without additional protection..
-- not to be exposed to weather or sustained moisture..
-- do not compress beyond manufacturer recommendations..
-- check fire-rated system requirements..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Not intended as an exposed decorative finish in high-traffic touch zones (use Quietspace Panel for exposed decorative use).
+- Avoid direct exposure to liquid water or outdoor weathering.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for fire rating without additional protection.
+1. Ensure wall or ceiling framing/substrate is clean and dry.
+2. Cut sheets to required dimensions using a sharp insulation knife or electric cutter.
+3. For perforated panel backing, lay black AAB directly against the rear of perforated panels.
+4. Friction-fit into wall studs or ceiling framing, or secure using mechanical fasteners or contact adhesive.
+5. Butt edges tightly to eliminate acoustic flanking paths.
+6. Maintain required clearances from recessed non-IC rated light fittings and high-heat flues.
 
 ## Safety and handling
 
@@ -87,11 +112,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+100% recyclable PET; contains high recycled content; zero chemical binders, formaldehyde, or respirable fibres; low VOC
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+50 Year Durability Warranty
 
 ## Specification starting point
 

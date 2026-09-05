@@ -1,0 +1,880 @@
+[ { "family_id": "AUTEX_HORIZON_TRIANGLE", "tds_url":
+"https://www.autexglobal.com/au/products/horizon/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Horizon is a range of floating acoustic panels that create a cloud-like
+illusion when suspended. Available in clean two-dimensional geometric forms
+including Right Angle Triangle, Horizon panels absorb sound across multiple
+frequency bands while serving as an architectural feature. With an adjustable
+suspension system for flexible hanging heights, Horizon can also be direct-fixed
+to walls without adhesives using dedicated mounting clips.", "features": [
+"Floating acoustic ceiling cloud creating an illusion of space", "Adjustable
+suspension system allows targeted frequency control", "Direct-fix wall option
+without adhesives using mounting clips", "Constructed from 100% polyester fibre
+with minimum 80% recycled content", "Group 1 fire rating to AS ISO 9705 - 2003
+and AS 5637.1", "Acoustic rating of 0.7 - 3.4 Sabins per unit depending on
+configuration", "Lightweight yet strong 24mm semi-rigid Cube panel
+construction", "Moisture and mould resistant (ASTM G21-15 Growth Rating: 0)",
+"Safe, non-toxic, non-allergenic, with no formaldehyde or crystalline silica",
+"Certified Carbon Neutral product with third-party verified EPD" ],
+"applications": [ "ceiling", "wall", "internal wall" ], "technical": [ {
+"property": "Acoustic Absorption (Right Angle Triangle)", "value": "0.8 Sabins
+(direct fixed); 1.15 Sabins (suspended 200 mm); 1.25 Sabins (suspended 400
+mm); 1.40 Sabins (suspended 800 mm)", "standard": "ISO 354" }, { "property":
+"Thickness", "value": "24 mm (+/- 6%)", "standard": "" }, { "property":
+"Dimensions (Right Angle Triangle)", "value": "1159 mm x 1159 mm", "standard":
+"" }, { "property": "Material Composition", "value": "100% polyester fibre
+(PET)", "standard": "" }, { "property": "Recycled Content", "value":
+"Minimum 80% post-consumer recycled PET", "standard": "" }, { "property": "Fire
+Rating (Australia)", "value": "Group 1 (SMOGRArc < 100 m2/s2)", "standard": "AS
+ISO 9705 - 2003 / AS 5637.1" }, { "property": "Fire Rating (International)",
+"value": "Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a); B - s2, d0 (BS
+EN 13501-1:2018)", "standard": "ISO 9705 / ASTM E-84 / BS EN 13501-1" }, {
+"property": "Water Vapour Sorption", "value": "0.4% by weight after 4 days
+at 49°C, 95% RH", "standard": "ASTM C1104 / C1104M-13a" }, { "property":
+"Microbial Resistance", "value": "Growth rating: 0 (No growth)", "standard":
+"ASTM G21-15" }, { "property": "VOC Emissions", "value": "< 0.092 mg/m3 (7
+days)", "standard": "CDPH Standard Method v1.2" } ], "range": [ { "variant":
+"Horizon Right Angle Triangle", "size_or_rating": "1159 mm x 1159 mm x 24 mm",
+"pack": "Pack of 4 (covers 2.88 m2)" } ], "fire": "AS ISO 9705 - 2003 and
+AS 5637.1 Classification: Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993
+Group 1-S; ASTM E-84-15a Class A (FS:0, SD:45); BS EN 13501-1:2018 B - s2, d0",
+"compliance": "NCC Specification 7 (BCA C1.10) Group 1 fire compliance; AS
+ISO 9705:2003; AS 5637.1:2015; ISO 354", "sustainability": "Carbon neutral
+product; minimum 80% recycled PET; Declare Red List Free; EPD compliant with
+ISO 14025 and EN 15804; low VOC (<0.092 mg/m3)", "install": [ "Mark fixing
+locations on ceiling or wall substrate corresponding to panel clip positions",
+"Secure ceiling connectors or wall mount brackets using appropriate countersunk
+fasteners", "Attach suspension wire assemblies to ceiling mounts and adjust to
+desired hanging height", "Attach Horizon mounting clips to the back of the 24mm
+triangle panel", "Connect suspension cables to panel clips and level the panel
+with a spirit level", "For wall direct fixing, push panel firmly onto wall mount
+clips until locked securely in place" ], "selection_checklist": [ "Confirm
+ceiling height and available plenum space for suspended clouds", "Select
+Triangle shape and calculate pack quantities (4 units per pack)", "Choose colour
+from the Autex Cube colour range (20+ colours)", "Specify mounting type
+(suspension kit or direct-fix wall clips)", "Verify compliance with seismic
+bracing requirements where applicable" ], "accessories": [ "Horizon suspension
+kit (ceiling mounts, 1m cables, panel clips)", "Direct fix wall clips", "Spirit
+level" ], "limitations": [ "Indoor use only; not suitable for exterior
+environments or areas exposed to liquid water", "Non-structural panel; cannot
+support light fittings or overhead building services", "Handle with clean hands
+or white gloves to avoid soiling felt surface during installation" ],
+"warranty": "Manufacturer's Guarantee (10 years)", "found": true,
+"search_keywords": [ "Autex Horizon Triangle", "Horizon acoustic panel",
+"floating ceiling cloud", "triangle acoustic panel", "Autex ceiling raft",
+"suspended acoustic triangle", "24mm Cube triangle", "acoustic cloud panel",
+"Autex ceiling baffles", "sound absorbing clouds" ], "problem_keywords": [ "echo
+in open plan office", "reverberant high ceilings", "distracting office chatter",
+"noisy meeting room", "harsh flutter echo", "modern acoustic ceiling feature" ],
+"placement": [ "ceiling", "wall", "internal wall" ], "priority_fit": [
+"acoustic", "fire", "sustainability", "easy_install" ], "use_cases": [
+"Suspending geometric acoustic cloud clusters over office breakout zones to
+reduce reverberation", "Creating acoustic wall art in commercial boardrooms
+using direct-fix clips", "Targeted sound absorption over collaborative tables in
+educational and library spaces" ], "not_for": [ "Floors or underfloor acoustic
+decoupling", "Exterior roof or wall cladding", "High-temperature flue
+insulation" ], "rag_summary": "Autex Horizon - Triangle is a 24mm thick floating
+acoustic ceiling panel crafted in a 1159mm x 1159mm right-angle triangle
+from 100% polyester fibre. Designed to be suspended as a cloud-like feature or
+direct-fixed to walls without glue, it absorbs 0.8 to 1.4 Sabins per unit to
+control echo and reverberation in open-plan spaces. Featuring a Group 1 fire
+rating under AS ISO 9705 and containing at least 80% recycled PET, it provides a
+lightweight, carbon-neutral acoustic solution for commercial, educational, and
+hospitality interiors." }, { "family_id": "AUTEX_LANES_BAFFLE_PEAK", "tds_url":
+"https://www.autexglobal.com/au/products/lanes/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Lanes Baffle Peak is a battened-style acoustic wall system featuring a
+distinctive 3D angled peak profile folded from 12mm Cube polyester felt.
+Engineered with an integrated air gap behind each batten, Lanes Peak enhances
+low-frequency sound absorption while transforming flat walls into sculptural
+architectural features. It installs quickly using a dedicated mechanical
+clipping system that eliminates the need for adhesives and ensures clean,
+precise joins.", "features": [ "Sculptural 3D angled peak profile folded
+from 12mm Cube polyester felt", "Integrated air gap behind each lane delivers
+enhanced low-frequency sound absorption", "Glue-free installation using a
+mechanical clipping system for fast, clean setup", "Achieves high acoustic
+performance with NRC 0.80", "Constructed from 100% polyester fibre with a
+minimum of 60% to 80% recycled PET", "Group 1 fire rating compliant with AS
+ISO 9705 - 2003 and AS 5637.1", "Modular scalable design suitable for full walls
+or accent nibs", "Resistant to moisture, mould, and mildew (ASTM G21-15 Growth
+Rating: 0)", "Low-VOC emissions and certified Carbon Neutral with verified EPD",
+"Available in standard 2400mm and 2700mm lengths in solid Cube colours" ],
+"applications": [ "wall", "internal wall" ], "technical": [ { "property": "Noise
+Reduction Coefficient (NRC)", "value": "0.80", "standard": "ISO 354" }, {
+"property": "Sound Absorption Coefficients (Octave Bands)", "value":
+"125Hz: 0.15, 250Hz: 0.45, 500Hz: 0.85, 1000Hz: 0.95, 2000Hz: 0.90, 4000Hz: 0.95",
+"standard": "ISO 354" }, { "property": "Dimensions (Per Lane)", "value": "300 mm
+width x 2400 mm or 2700 mm length (custom lengths up to 3600 mm)", "standard":
+"" }, { "property": "Material Thickness", "value": "12 mm Cube (overall depth
+varies by Peak profile)", "standard": "" }, { "property": "Composition",
+"value": "100% polyester fibre (PET)", "standard": "" }, { "property": "Recycled
+Content", "value": "Minimum 60% to 80% post-consumer recycled PET", "standard":
+"" }, { "property": "Thermal Performance", "value": "R0.41 (@ 15°C)",
+"standard": "" }, { "property": "Fire Rating", "value": "Group 1, SMOGRArc < 100
+m2/s2", "standard": "AS ISO 9705 - 2003 / AS 5637.1:2015" }, { "property":
+"International Fire Classification", "value": "Group 1-S (ISO 9705:1993); Class
+A (ASTM E-84-15a: FS:0 - SD:45); BS EN 13501-1:2018", "standard": "ISO 9705 /
+ASTM E-84 / BS EN 13501-1" }, { "property": "Water Vapour Sorption", "value":
+"0.4% by weight after 4 days at 49°C, 95% RH", "standard": "ASTM C1104 /
+C1104M-13a" }, { "property": "Microbial Resistance", "value": "Growth rating: 0
+(No growth)", "standard": "ASTM G21-15" }, { "property": "Lightfastness",
+"value": "Rating 6 (ISO 105-B02:2014)", "standard": "ISO 105-B02:2014" } ],
+"range": [ { "variant": "Lanes Peak 2400mm", "size_or_rating": "300 mm x 2400 mm
+(Pack covers 2.16 m2)", "pack": "Pack of 3 lanes" }, { "variant": "Lanes
+Peak 2700mm", "size_or_rating": "300 mm x 2700 mm (Pack covers 2.43 m2)",
+"pack": "Pack of 3 lanes" } ], "fire": "AS ISO 9705 - 2003 and AS 5637.1
+Classification: Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM
+E-84-15a Class A (FS:0, SD:45); BS EN 13501-1:2018", "compliance": "NCC
+Specification 7 (BCA C1.10) Group 1 fire compliance; AS ISO 9705:2003;
+AS 5637.1:2015; ISO 354" ,"sustainability": "Carbon neutral product and
+manufacturing; minimum 60% to 80% recycled PET; Declare Red List Free; EPD
+compliant; low VOC", "install": [ "Confirm wall substrate is plumb, flat, dry,
+and structurally sound", "Establish layout and set out vertical mounting lines
+at 300mm centres", "Fasten mounting channels or clips horizontally across studs
+at recommended intervals using suitable screws", "Snap folded Peak lane sections
+securely onto the mounting clips from bottom to top without glue", "Align
+adjacent Peak panels to ensure clean, continuous ridge lines along joins", "Trim
+bottom or top perimeter edges with a track saw or sharp utility knife where
+required" ], "selection_checklist": [ "Confirm wall height to choose 2400mm
+or 2700mm length (or custom up to 3600mm)", "Calculate total width needed (each
+lane is 300mm wide; 3 lanes per pack)", "Confirm Peak profile is selected for
+a 3D angled ridge design", "Select colour from the Autex Cube palette", "Verify
+substrate framing centres for mounting clip attachment" ], "accessories": [
+"Lanes mounting clip / channel system", "Fasteners suitable for substrate",
+"Track saw or utility knife" ], "limitations": [ "Indoor wall application only;
+not for exterior cladding or wet areas", "Do not use adhesives directly unless
+advised by manufacturer, as clipping system provides the acoustic air gap",
+"Batch-to-batch colour variation may occur due to fibre blending" ], "warranty":
+"Manufacturer's Guarantee (10 years)", "found": true, "search_keywords": [
+"Autex Lanes Peak", "Lanes Baffle Peak", "Autex acoustic battens", "3D acoustic
+wall battens", "polyester acoustic battens", "Lanes Peak profile", "Cube wall
+battens", "acoustic wall feature", "Autex wall baffles", "glue-free acoustic
+wall" ], "problem_keywords": [ "hard wall echo in boardroom", "reverberation in
+open office", "noisy restaurant chatter", "flat boring drywall walls", "low
+frequency boom in conference room", "need batten wall look with soundproofing"
+], "placement": [ "wall", "internal wall" ], "priority_fit": [ "acoustic",
+"fire", "sustainability", "easy_install" ], "use_cases": [ "Creating 3D acoustic
+batten feature walls in commercial office boardrooms and receptions", "Absorbing
+speech and low-frequency rumble in media suites and video conference rooms",
+"Adding architectural acoustic texture in hospitality dining areas and hotel
+lobbies" ], "not_for": [ "Floors or underfoot traffic", "Exterior walls exposed
+to weather", "Suspended horizontal ceiling rafts without appropriate framing" ],
+"rag_summary": "Autex Lanes Baffle Peak is a 300mm wide, folded 3D acoustic wall
+batten system crafted from 12mm Cube polyester felt into an angled peak ridge
+profile. Installed with a glue-free mechanical clipping system that maintains an
+internal acoustic air gap, it delivers superior low-frequency and speech noise
+control (NRC 0.80). Certified Group 1 fire rated and carbon neutral with
+over 60% recycled PET, it provides a sculptural, easy-to-install wall feature
+for commercial, education, and hospitality interiors." }, { "family_id":
+"AUTEX_LANES_BAFFLE_PLANE", "tds_url":
+"https://www.autexglobal.com/au/products/lanes/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Lanes Baffle Plane is a modular acoustic wall batten system that features
+a flattened, stepped plateau profile folded from 12mm Cube polyester felt.
+Designed with an acoustic air gap behind each 300mm wide lane, Lanes Plane
+boosts mid-to-low frequency sound absorption while presenting an understated,
+modern linear appearance. It installs quickly using an adhesive-free clipping
+system, creating seamless folded joins for contemporary commercial and
+educational spaces.", "features": [ "Understated flattened plateau profile
+folded from 12mm Cube polyester felt", "Rear air gap cavity enhances low and mid
+frequency sound absorption", "No-glue mechanical clipping system ensures fast,
+clean, and reversible installation", "High acoustic performance with an NRC
+rating of 0.80", "Manufactured from 100% polyester fibre with a minimum of 60%
+to 80% recycled PET", "Group 1 fire rating compliant with AS ISO 9705 - 2003 and
+AS 5637.1", "Modular 300mm width sections easily scale from feature panels to
+full atriums", "Moisture and mould resistant (ASTM G21-15 Growth Rating: 0)",
+"Low-VOC, non-toxic, non-allergenic, and certified Carbon Neutral", "Supplied
+in 2400mm and 2700mm lengths across solid Cube colourways" ], "applications": [
+"wall", "internal wall" ], "technical": [ { "property": "Noise Reduction
+Coefficient (NRC)", "value": "0.80", "standard": "ISO 354" }, { "property":
+"Sound Absorption Coefficients (Octave Bands)", "value":
+"125Hz: 0.10, 250Hz: 0.40, 500Hz: 0.85, 1000Hz: 1.00, 2000Hz: 0.95, 4000Hz: 0.95",
+"standard": "ISO 354" }, { "property": "Dimensions (Per Lane)", "value": "300 mm
+width x 2400 mm or 2700 mm length (custom lengths up to 3600 mm)", "standard":
+"" }, { "property": "Material Thickness", "value": "12 mm Cube (overall depth
+varies by Plane profile)", "standard": "" }, { "property": "Composition",
+"value": "100% polyester fibre (PET)", "standard": "" }, { "property": "Recycled
+Content", "value": "Minimum 60% to 80% post-consumer recycled PET", "standard":
+"" }, { "property": "Thermal Performance", "value": "R0.41 (@ 15°C)",
+"standard": "" }, { "property": "Fire Rating", "value": "Group 1, SMOGRArc < 100
+m2/s2", "standard": "AS ISO 9705 - 2003 / AS 5637.1:2015" }, { "property":
+"International Fire Classification", "value": "Group 1-S (ISO 9705:1993); Class
+A (ASTM E-84-15a: FS:0 - SD:45); BS EN 13501-1:2018", "standard": "ISO 9705 /
+ASTM E-84 / BS EN 13501-1" }, { "property": "Water Vapour Sorption", "value":
+"0.4% by weight after 4 days at 49°C, 95% RH", "standard": "ASTM C1104 /
+C1104M-13a" }, { "property": "Microbial Resistance", "value": "Growth rating: 0
+(No growth)", "standard": "ASTM G21-15" }, { "property": "Lightfastness",
+"value": "Rating 6 (ISO 105-B02:2014)", "standard": "ISO 105-B02:2014" } ],
+"range": [ { "variant": "Lanes Plane 2400mm", "size_or_rating": "300 mm x 2400
+mm (Pack covers 2.16 m2)", "pack": "Pack of 3 lanes" }, { "variant": "Lanes
+Plane 2700mm", "size_or_rating": "300 mm x 2700 mm (Pack covers 2.43 m2)",
+"pack": "Pack of 3 lanes" } ], "fire": "AS ISO 9705 - 2003 and AS 5637.1
+Classification: Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM
+E-84-15a Class A (FS:0, SD:45); BS EN 13501-1:2018", "compliance": "NCC
+Specification 7 (BCA C1.10) Group 1 fire compliance; AS ISO 9705:2003;
+AS 5637.1:2015; ISO 354", "sustainability": "Carbon neutral product and
+manufacturing; minimum 60% to 80% recycled PET; Declare Red List Free; EPD
+verified; low VOC", "install": [ "Verify wall surface is flat, clean, dry, and
+clear of obstructions", "Set out vertical chalk lines at 300mm intervals to
+align lane joints", "Screw-fix horizontal mounting clips or channels to studs at
+specified heights", "Click the folded Plane batten sections onto the clips
+starting from one side", "Engage consecutive panels tightly to ensure straight,
+uniform reveals", "Cut top or bottom ends cleanly with a fine-toothed saw or
+utility knife where required" ], "selection_checklist": [ "Confirm wall height
+to choose 2400mm or 2700mm length (custom up to 3600mm)", "Calculate wall width
+in 300mm increments (packs contain 3 lanes)", "Select Plane style for a
+flattened, subtle architectural relief", "Choose colourway from Autex Cube solid
+colour palette", "Verify substrate framing supports mechanical clip fixings" ],
+"accessories": [ "Lanes mounting clip system", "Fasteners appropriate for
+substrate", "Fine-tooth track saw or straight-edge knife" ], "limitations": [
+"Interior wall applications only; not for external facades or wet spaces", "Do
+not glue directly to the wall; mechanical clip system is required for the air
+gap", "Subtle batch-to-batch colour variation is inherent to non-woven
+polyester" ], "warranty": "Manufacturer's Guarantee (10 years)", "found": true,
+"search_keywords": [ "Autex Lanes Plane", "Lanes Baffle Plane", "Lanes Plane
+acoustic batten", "flat profile acoustic battens", "linear acoustic wall
+system", "Cube batten wall", "Autex wall panels", "modular acoustic wall
+battens", "Plane profile acoustic panel" ], "problem_keywords": [ "flutter echo
+between parallel walls", "noisy commercial office", "reverberant school
+classroom", "speech privacy in meeting rooms", "plain painted drywall needs
+acoustic upgrade", "harsh office acoustics" ], "placement": [ "wall", "internal
+wall" ], "priority_fit": [ "acoustic", "fire", "sustainability", "easy_install"
+], "use_cases": [ "Lining corporate meeting rooms and quiet booths with an
+understated linear batten look", "Controlling reverberation in educational
+lecture rooms and corridors", "Acoustic wall panelling behind reception desks
+and in commercial workspaces" ], "not_for": [ "Flooring applications", "External
+building envelopes", "Wet rooms with direct running water" ], "rag_summary":
+"Autex Lanes Baffle Plane is a modular acoustic batten wall system featuring a
+clean, flattened linear profile folded from 12mm Cube polyester felt into 300mm
+wide sections. Its adhesive-free mechanical clipping system establishes an
+integrated air cavity behind each lane, achieving an acoustic rating of NRC 0.80
+with enhanced low-to-mid frequency absorption. With Group 1 fire compliance,
+low-VOC emissions, and over 60% recycled PET content, Lanes Plane delivers
+subtle architectural texture and superior sound control for commercial
+interiors." }, { "family_id": "AUTEX_LANES_BAFFLE_SAWTOOTH", "tds_url":
+"https://www.autexglobal.com/au/products/lanes/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Lanes Baffle Sawtooth is a dynamic acoustic wall batten system that
+features an asymmetrical, directional sawtooth profile folded from 12mm Cube
+polyester felt. Engineered with an acoustic air cavity behind each 300mm wide
+lane, Sawtooth achieves the highest acoustic performance in the Lanes collection
+with an NRC of 0.85. Its glue-free clipping system creates striking directional
+light-and-shadow lines across interior walls while effectively taming
+reverberation.", "features": [ "Asymmetrical angled sawtooth profile creating
+directional rhythm and shadow", "Delivers the highest acoustic performance in
+the Lanes range at NRC 0.85", "Integrated rear air gap boosts low and mid
+frequency sound absorption", "Glue-free mechanical clipping system ensures fast,
+clean, and precise installation", "Constructed from 100% polyester fibre
+containing minimum 60% to 80% recycled PET", "Group 1 fire rating compliant with
+AS ISO 9705 - 2003 and AS 5637.1", "Modular 300mm wide sections for flexible,
+scalable wall design", "Moisture and mould resistant with an ASTM G21-15 Growth
+Rating of 0", "Non-toxic, non-allergenic, non-irritant, and low-VOC", "Available
+in 2400mm and 2700mm lengths across the full Autex Cube colour palette" ],
+"applications": [ "wall", "internal wall" ], "technical": [ { "property": "Noise
+Reduction Coefficient (NRC)", "value": "0.85", "standard": "ISO 354" }, {
+"property": "Sound Absorption Coefficients (Octave Bands)", "value":
+"125Hz: 0.15, 250Hz: 0.45, 500Hz: 0.90, 1000Hz: 1.00, 2000Hz: 0.95, 4000Hz: 0.95",
+"standard": "ISO 354" }, { "property": "Dimensions (Per Lane)", "value": "300 mm
+width x 2400 mm or 2700 mm length (custom lengths up to 3600 mm)", "standard":
+"" }, { "property": "Material Thickness", "value": "12 mm Cube (overall depth
+varies by Sawtooth profile)", "standard": "" }, { "property": "Composition",
+"value": "100% polyester fibre (PET)", "standard": "" }, { "property": "Recycled
+Content", "value": "Minimum 60% to 80% post-consumer recycled PET", "standard":
+"" }, { "property": "Thermal Performance", "value": "R0.41 (@ 15°C)",
+"standard": "" }, { "property": "Fire Rating", "value": "Group 1, SMOGRArc < 100
+m2/s2", "standard": "AS ISO 9705 - 2003 / AS 5637.1:2015" }, { "property":
+"International Fire Classification", "value": "Group 1-S (ISO 9705:1993); Class
+A (ASTM E-84-15a: FS:0 - SD:45); BS EN 13501-1:2018", "standard": "ISO 9705 /
+ASTM E-84 / BS EN 13501-1" }, { "property": "Water Vapour Sorption", "value":
+"0.4% by weight after 4 days at 49°C, 95% RH", "standard": "ASTM C1104 /
+C1104M-13a" }, { "property": "Microbial Resistance", "value": "Growth rating: 0
+(No growth)", "standard": "ASTM G21-15" }, { "property": "Lightfastness",
+"value": "Rating 6 (ISO 105-B02:2014)", "standard": "ISO 105-B02:2014" } ],
+"range": [ { "variant": "Lanes Sawtooth 2400mm", "size_or_rating": "300 mm
+x 2400 mm (Pack covers 2.16 m2)", "pack": "Pack of 3 lanes" }, { "variant":
+"Lanes Sawtooth 2700mm", "size_or_rating": "300 mm x 2700 mm (Pack covers 2.43
+m2)", "pack": "Pack of 3 lanes" } ], "fire": "AS ISO 9705 - 2003 and AS 5637.1
+Classification: Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM
+E-84-15a Class A (FS:0, SD:45); BS EN 13501-1:2018", "compliance": "NCC
+Specification 7 (BCA C1.10) Group 1 fire compliance; AS ISO 9705:2003;
+AS 5637.1:2015; ISO 354", "sustainability": "Carbon neutral product and
+manufacturing; minimum 60% to 80% recycled PET; Declare Red List Free; EPD
+compliant; low VOC", "install": [ "Confirm wall surface is plumb, smooth, and
+structurally sound", "Mark vertical layout lines at 300mm intervals to align
+sawtooth panels", "Fasten horizontal mounting clips or channel system to wall
+framing studs", "Clip the folded Sawtooth sections onto mounting clips in
+sequence", "Check that the directional sawtooth angles are consistently oriented
+across the entire wall", "Trim height neatly with a track saw or sharp knife at
+baseboard or ceiling junction" ], "selection_checklist": [ "Determine wall
+height to select 2400mm or 2700mm length (or custom up to 3600mm)", "Calculate
+required wall width in 300mm multiples (3 lanes per pack)", "Verify Sawtooth
+orientation and direction of incoming light to maximise 3D shadow effect",
+"Choose colourway from Autex Cube palette", "Confirm framing structure
+accommodates clip fasteners" ], "accessories": [ "Lanes mounting clip system",
+"Fasteners suitable for substrate", "Track saw or trimming knife" ],
+"limitations": [ "Indoor wall installation only; not suitable for exterior
+cladding or wet areas", "Directional profile must be installed in a consistent
+orientation across the wall", "Mechanical clip installation is required; do not
+glue directly flat to substrate" ], "warranty": "Manufacturer's Guarantee (10
+years)", "found": true, "search_keywords": [ "Autex Lanes Sawtooth", "Lanes
+Baffle Sawtooth", "Sawtooth acoustic battens", "zigzag acoustic wall", "NRC 0.85
+acoustic wall", "directional acoustic battens", "Cube Sawtooth", "Autex wall
+battens", "3D acoustic wall panel" ], "problem_keywords": [ "high echo in open
+spaces", "harsh acoustics in boardrooms", "distracting office noise", "flat
+lifeless interior walls", "need maximum sound absorption with 3D design",
+"reverberation in auditoriums" ], "placement": [ "wall", "internal wall" ],
+"priority_fit": [ "acoustic", "fire", "sustainability", "easy_install" ],
+"use_cases": [ "Creating acoustic statement walls with dramatic light-and-shadow
+effects in corporate boardrooms", "Taming echo and background chatter in modern
+hospitality, bars, and restaurants", "High-performance acoustic absorption in
+lecture halls, libraries, and open-plan offices" ], "not_for": [ "Floors or
+subfloor insulation", "External exterior cladding", "Wet rooms with direct
+running water" ], "rag_summary": "Autex Lanes Baffle Sawtooth is an
+asymmetrical, angled 3D acoustic batten wall system folded from 12mm Cube
+polyester felt into 300mm wide modular sections. It delivers the highest sound
+absorption in the Lanes collection (NRC 0.85) thanks to an integrated rear air
+cavity created by its glue-free clipping system. Rated Group 1 fire compliant
+under AS ISO 9705 and certified carbon neutral with over 60% recycled PET, it
+provides dynamic architectural shadow play and class-leading acoustics for
+commercial and institutional interiors." }, { "family_id": "AUTEX_MIRAGE_CUBE",
+"tds_url": "https://www.autexglobal.com/au/products/cube/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Mirage Cube is an intricately textured acoustic panel range designed to
+add tactile depth and acoustic comfort to interior walls and ceilings. Etched
+directly into semi-rigid Cube polyester felt using a precision manufacturing
+process, Mirage features six refined micro-pattern designs—Bouclé, Brutalist,
+Offset, Rammed Earth, Lapis, and Mortar. Available in 12mm and 24mm thicknesses
+across standard 2400mm x 1200mm and 2700mm x 1200mm panels, it provides sound
+absorption ratings from NRC 0.45 to 0.80 and Group 1 fire compliance.",
+"features": [ "Intricately etched tactile textures: Bouclé, Brutalist, Offset,
+Rammed Earth, Lapis, Mortar", "Engineered on semi-rigid 100% polyester Cube
+acoustic panels", "Available in 12mm and 24mm thicknesses", "Acoustic absorption
+from NRC 0.45 (12mm) to 0.70 (24mm), and up to 0.80 with an air gap", "Supplied
+standard with 4mm 45-degree bevelled edges for a seamless joint finish",
+"Group 1 fire rating compliant with AS ISO 9705 - 2003 and AS 5637.1",
+"Constructed with a minimum of 80% post-consumer recycled PET", "Certified
+Carbon Neutral product with third-party verified EPD", "Safe, non-toxic,
+non-allergenic, non-irritant, and low-VOC", "Compatible with Direct-fix,
+SpinFix, and Peel and Stick installation methods" ], "applications": [ "wall",
+"internal wall", "ceiling" ], "technical": [ { "property": "Noise Reduction
+Coefficient (NRC)", "value": "12mm: 0.45 (direct fix), 0.70 (with 24mm air
+gap); 24mm: 0.70 (direct fix), 0.80 (with 24mm air gap)", "standard": "ISO 354"
+}, { "property": "Sound Absorption Class", "value": "12mm: Class D (direct fix),
+Class C (with air gap); 24mm: Class D (direct fix), Class C (with air gap)",
+"standard": "ISO 11654" }, { "property": "Panel Dimensions", "value": "1200 mm
+x 2400 mm; 1200 mm x 2700 mm (tolerance +/- 1 mm)", "standard": "" }, {
+"property": "Thickness", "value": "12 mm (+/- 6%); 24 mm (+/- 6%)", "standard":
+"" }, { "property": "Material Composition", "value": "100% polyester fibre
+(PET)", "standard": "" }, { "property": "Recycled Content", "value":
+"Minimum 80% post-consumer recycled PET", "standard": "" }, { "property":
+"Thermal Performance", "value": "12mm: R0.30 (@ 23°C); 24mm: R0.60 (@ 23°C)",
+"standard": "" }, { "property": "Fire Rating (Australia)", "value": "Group 1
+(SMOGRArc < 100 m2/s2)", "standard": "AS ISO 9705 - 2003 / AS 5637.1:2015" }, {
+"property": "Fire Rating (International)", "value": "Group 1-S (ISO 9705:1993);
+Class A (ASTM E-84-15a: FS:0 - SD:45); 12mm BS EN 13501-1:2018 B-s2, d0; 24mm BS
+EN 13501-1:2018 B-s2, d2", "standard": "ISO 9705 / ASTM E-84 / BS EN 13501-1" },
+{ "property": "Water Vapour Sorption", "value": "0.4% by weight after 4 days
+at 49°C, 95% RH", "standard": "ASTM C1104 / C1104M-13a" }, { "property":
+"Microbial Resistance", "value": "Growth rating: 0 (No growth)", "standard":
+"ASTM G21-15" }, { "property": "VOC Emissions", "value": "< 0.092 mg/m3 (7
+days)", "standard": "CDPH Standard Method v1.2" } ], "range": [ { "variant":
+"Mirage Cube 12mm (2400x1200)", "size_or_rating": "1200 mm x 2400 mm x 12 mm,
+NRC 0.45", "pack": "Panel" }, { "variant": "Mirage Cube 12mm (2700x1200)",
+"size_or_rating": "1200 mm x 2700 mm x 12 mm, NRC 0.45", "pack": "Panel" }, {
+"variant": "Mirage Cube 24mm (2400x1200)", "size_or_rating": "1200 mm x 2400 mm
+x 24 mm, NRC 0.70", "pack": "Panel" }, { "variant": "Mirage Cube 24mm
+(2700x1200)", "size_or_rating": "1200 mm x 2700 mm x 24 mm, NRC 0.70", "pack":
+"Panel" } ], "fire": "AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1;
+ISO 9705:1993 Group 1-S; ASTM E-84-15a Class A (FS:0, SD:45); BS EN 13501-1:2018
+B-s2, d0 (12mm) / B-s2, d2 (24mm)", "compliance": "NCC Specification 7 (BCA
+C1.10) Group 1 fire compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354;
+ISO 14001", "sustainability": "Carbon neutral product and manufacturing;
+minimum 80% recycled PET; Declare Red List Free; EPD compliant; low VOC",
+"install": [ "Ensure wall or ceiling substrate is flat, clean, dry, and
+dust-free", "Acclimatise panels in the installation environment for at least 24
+hours prior to fitting", "Inspect panel pattern direction and ensure consistent
+grain alignment across walls", "For adhesive fix, apply recommended high-grab MS
+polymer or contact adhesive evenly to the panel back", "Alternatively, mount
+using SpinFix clips or Peel and Stick backing where specified", "Butt bevelled
+edges neatly together and apply firm, even pressure with a roller across the
+entire face", "Trim perimeter panels carefully from the face using a straight
+edge and sharp utility knife" ], "selection_checklist": [ "Choose texture
+pattern from the 6 Mirage designs (Bouclé, Brutalist, Offset, Rammed Earth,
+Lapis, Mortar)", "Select thickness (12mm for NRC 0.45-0.70 or 24mm for
+NRC 0.70-0.80)", "Select panel length (2400mm or 2700mm) x 1200mm width",
+"Select base colour from Autex Cube palette (over 20 colours)", "Specify
+mounting system (adhesive direct-fix, SpinFix, or Peel and Stick)" ],
+"accessories": [ "Autex SpinFix mounting clips", "Peel and Stick adhesive
+backing", "High-grab MS polymer adhesive", "Autex Edging Solutions" ],
+"limitations": [ "Indoor use only; avoid direct water exposure or extreme
+humidity", "Pattern has a directional grain; panels must be installed in uniform
+orientation", "Batch-to-batch variations may occur due to fibre blending" ],
+"warranty": "Manufacturer's Guarantee (10 years)", "found": true,
+"search_keywords": [ "Autex Mirage Cube", "Mirage textured acoustic panels",
+"etched acoustic panel", "Cube Mirage", "tactile acoustic wall panels", "Autex
+textured Cube", "Mirage 12mm", "Mirage 24mm", "decorative felt acoustic panel"
+], "problem_keywords": [ "plain boring acoustic panels", "echo in executive
+boardroom", "distracting noise in commercial lobby", "need textured wall
+acoustic treatment", "harsh flutter echo", "reverberation in luxury hotel" ],
+"placement": [ "wall", "internal wall", "ceiling" ], "priority_fit": [
+"acoustic", "fire", "sustainability", "easy_install" ], "use_cases": [ "Creating
+tactile, luxury acoustic feature walls in executive boardrooms and corporate
+lobbies", "Controlling noise in high-end hospitality venues, fine-dining
+restaurants, and wine lounges", "Wall and ceiling acoustic panelling in
+residential media rooms and commercial offices" ], "not_for": [ "Flooring
+applications", "Unprotected external facades", "High-moisture shower rooms" ],
+"rag_summary": "Autex Mirage Cube is an intricately textured acoustic panel
+range featuring micro-patterned textures—Bouclé, Brutalist, Offset, Rammed
+Earth, Lapis, and Mortar—etched into 12mm or 24mm semi-rigid Cube polyester
+felt. Sized in 2400mm x 1200mm and 2700mm x 1200mm sheets with standard 4mm
+bevelled edges, it delivers sound absorption ratings from NRC 0.45 to 0.80.
+Rated Group 1 fire compliant under AS ISO 9705 and containing at least 80%
+recycled PET, it provides a tactile, carbon-neutral alternative to plain
+acoustic felt for walls and ceilings." }, { "family_id": "AUTEX_PANEL",
+"tds_url": "https://www.autexglobal.com/au/products/quietspace-panel/",
+"sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+"description": "Autex Quietspace Panel (Autex Panel) is a discrete,
+high-performance acoustic treatment engineered to absorb a minimum of 85%
+to 100% of sound energy. Made from 100% thermally bonded polyester fibre, it
+features a compressed, impact-resistant face and a cushioned backing designed to
+optimise broadband frequency absorption. Available in thicknesses from 25mm
+to 100mm, it can be installed nude or overlaid with decorative fabric to resolve
+severe reverberation across walls and ceilings.", "features": [ "Premium
+broadband acoustic absorption absorbing 85% to 100% of sound energy (NRC 0.85
+- 1.00)", "Dual-density construction with compressed face and cushioned absorber
+backing", "Available in 25mm, 50mm, 75mm, and 100mm thicknesses", "Constructed
+from 100% polyester fibre containing minimum 45% to 58% recycled PET", "Group 1
+fire rating compliant with AS ISO 9705 - 2003 and AS 5637.1", "Supplied with a
+factory-applied protective spun-bond cover to keep panels clean during
+installation", "Safe, non-toxic, non-allergenic, and free from chemical binders
+or formaldehyde", "Can be faced with Autex Vertiface fabric overlay or custom
+digital prints", "Thermal insulation performance up to R1.4 (50mm)", "Certified
+Carbon Neutral product with third-party verified EPD and Declare Red List Free"
+], "applications": [ "wall", "internal wall", "ceiling" ], "technical": [ {
+"property": "Noise Reduction Coefficient (NRC)", "value": "25mm: 0.85 (Class
+C); 50mm: 1.00 (Class A); 75mm: 1.00 (Class A); 100mm: 1.00 (Class A)",
+"standard": "ISO 354" }, { "property": "Sound Absorption Coefficients (25mm)",
+"value":
+"125Hz: 0.15, 250Hz: 0.45, 500Hz: 0.85, 1000Hz: 1.00, 2000Hz: 1.00, 4000Hz: 0.95",
+"standard": "ISO 354" }, { "property": "Sound Absorption Coefficients (50mm)",
+"value":
+"125Hz: 0.30, 250Hz: 0.75, 500Hz: 1.10, 1000Hz: 1.10, 2000Hz: 1.05, 4000Hz: 1.00",
+"standard": "ISO 354" }, { "property": "Panel Dimensions", "value": "1200 mm
+x 2400 mm (nude: 1220 mm x 2440 mm)", "standard": "" }, { "property": "Thickness
+Options", "value": "25 mm, 50 mm, 75 mm, 100 mm (tolerance +/- 6%)", "standard":
+"" }, { "property": "Weight", "value": "25mm: 2300 gsm; 50mm: 3800
+gsm; 75mm: 4050 gsm; 100mm: 4300 gsm", "standard": "" }, { "property": "Material
+Composition", "value": "100% polyester fibre (PET)", "standard": "" }, {
+"property": "Recycled Content", "value": "Minimum 45% to 58% post-consumer
+recycled PET", "standard": "" }, { "property": "Thermal Resistance", "value":
+"25mm: R0.6 (@ 15°C); 50mm: R1.4 (@ 15°C)", "standard": "" }, { "property":
+"Fire Rating (Australia)", "value": "Group 1, SMOGRArc < 100 m2/s2", "standard":
+"AS ISO 9705 - 2003 / AS 5637.1" }, { "property": "Fire Rating (International)",
+"value": "Group 1-S (ISO 9705:1993); Class A (ASTM E-84); 25mm BS
+EN 13501-1:2018 B - s2, d0; 50mm B - s2, d2", "standard": "ISO 9705 / ASTM E-84
+/ BS EN 13501-1" }, { "property": "Light Reflectance (White)", "value":
+"LRV 83", "standard": "BS 8493:2008+A1:2010" }, { "property": "VOC Emissions",
+"value": "0.009 mg/m3 (7 days)", "standard": "Cetec" } ], "range": [ {
+"variant": "Quietspace Panel 25mm", "size_or_rating": "1200 mm x 2400 mm x 25
+mm, NRC 0.85", "pack": "Panel" }, { "variant": "Quietspace Panel 50mm",
+"size_or_rating": "1200 mm x 2400 mm x 50 mm, NRC 1.00", "pack": "Panel" }, {
+"variant": "Quietspace Panel 75mm", "size_or_rating": "1200 mm x 2400 mm x 75
+mm, NRC 1.00", "pack": "Panel" }, { "variant": "Quietspace Panel 100mm",
+"size_or_rating": "1200 mm x 2400 mm x 100 mm, NRC 1.00", "pack": "Panel" } ],
+"fire": "AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1 (SMOGRArc
+< 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM E-84 Class A; BS EN 13501-1:2018 B -
+s2, d0 (25mm) / B - s2, d2 (50mm)", "compliance": "NCC Specification 7 (BCA
+C1.10) Group 1 fire compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354",
+"sustainability": "Carbon neutral product; minimum 45% to 58% recycled PET;
+Declare Red List Free; EPD compliant; low VOC (0.009 mg/m3)", "install": [
+"Inspect substrate ensuring it is flat, clean, dry, and free of dust, grease, or
+contaminants", "Acclimatise panels in the installation space for at least 24
+hours prior to fitting", "Maintain factory-applied spun-bond protective sheet on
+panel face throughout installation", "Apply recommended contact-type or
+high-grab MS polymer adhesive evenly across the panel backing", "Position panel
+onto the wall or ceiling substrate and press firmly across the surface", "Use a
+roller to ensure full adhesive contact and eliminate air pockets", "Peel a
+corner of the protective spun-bond film and leave hanging until painting and
+messy trades finish", "Remove protective film completely upon project handover"
+], "selection_checklist": [ "Confirm required thickness based on acoustic target
+(25mm for NRC 0.85; 50mm+ for NRC 1.00)", "Select finish option (Nude White,
+Nude Black, Nude Grey, or Vertiface fabric overlay)", "Verify total wall or
+ceiling dimensions to calculate panel count (1200x2400mm sheets)", "Specify
+suitable adhesive (contact adhesive or high-grab MS polymer)", "Confirm need for
+aluminium edge trims or framing profiles" ], "accessories": [ "Autex Edging
+Solutions (Type C profiles for 25mm panels)", "Contact adhesive / MS polymer
+adhesive", "Vertiface fabric overlay", "Pressure roller" ], "limitations": [
+"Indoor use only; avoid direct water exposure or extreme humidity", "Nude panels
+are utilitarian; specify Vertiface fabric overlay for decorative high-traffic
+areas", "Do not expose to naked flames or concentrated heat sources above 80°C"
+], "warranty": "Manufacturer's Guarantee (10 years)", "found": true,
+"search_keywords": [ "Autex Panel", "Quietspace Panel", "Autex Quietspace",
+"25mm acoustic panel", "50mm acoustic panel", "NRC 0.85 acoustic panel",
+"NRC 1.00 acoustic panel", "broadband acoustic absorber", "polyester acoustic
+panel", "high absorption wall panel" ], "problem_keywords": [ "severe room
+reverberation", "echo in recording studio", "loud gymnasium noise", "auditorium
+sound reflection", "commercial theatre echo", "noise spill in school hall" ],
+"placement": [ "wall", "internal wall", "ceiling" ], "priority_fit": [
+"acoustic", "thermal", "fire", "sustainability" ], "use_cases": [ "Controlling
+broadband reverberation in school gymnasiums, multipurpose halls, and
+auditoriums", "Wall and ceiling acoustic treatment in recording studios, radio
+broadcast booths, and cinemas", "Taming extreme echo in open-plan corporate
+offices, call centres, and conference rooms" ], "not_for": [ "Floors or subfloor
+impact noise isolation", "Exterior building facades", "Direct unshielded
+exposure to intense mechanical abrasion" ], "rag_summary": "Autex Panel
+(Quietspace Panel) is a high-performance acoustic wall and ceiling panel
+engineered with a dual-density polyester construction comprising an
+impact-resistant compressed face and a cushioned backing. Available in
+thicknesses from 25mm to 100mm in 1200mm x 2400mm sheets, it absorbs between 85%
+and 100% of sound energy (NRC 0.85 to 1.00). Compliant with NCC Group 1 fire
+requirements under AS ISO 9705 and containing over 45% recycled PET, it provides
+discrete broadband noise control in studios, auditoriums, gyms, and commercial
+spaces." }, { "family_id": "AUTEX_PRINTED_LANES_BAFFLE_PEAK", "tds_url":
+"https://www.autexglobal.com/au/products/lanes/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Printed Lanes Baffle Peak combines the sculptural 3D angled peak profile
+of Lanes with high-definition digital UV printing. Available in realistic timber
+grains (Acoustic Timber) and textured stone finishes, it replicates heavy
+architectural materials without the weight, cost, or fire hazards. Its
+integrated rear air gap delivers enhanced low-frequency sound absorption
+(NRC 0.80), while its glue-free clipping system ensures clean, straightforward
+wall installation.", "features": [ "Sculptural 3D peak profile with realistic
+digitally printed woodgrain or stone finishes", "Digitally printed with safe,
+water-based UV-cured ink without reducing acoustic absorption", "Rear air gap
+cavity enhances low and mid frequency sound absorption (NRC 0.80)", "Glue-free
+mechanical clipping system allows fast, clean, and mess-free installation",
+"Lightweight alternative to real timber battens or heavy stone fluting",
+"Constructed from 100% polyester fibre with a minimum of 60% to 80% recycled
+PET", "Group 1 fire rating to AS ISO 9705 - 2003 and AS 5637.1", "Modular 300mm
+width sections available in 2400mm and 2700mm lengths", "Certified Carbon
+Neutral product with third-party verified EPD", "Moisture and mould resistant
+(ASTM G21-15 Growth Rating: 0)" ], "applications": [ "wall", "internal wall" ],
+"technical": [ { "property": "Noise Reduction Coefficient (NRC)", "value":
+"0.80", "standard": "ISO 354" }, { "property": "Dimensions (Per Lane)", "value":
+"300 mm width x 2400 mm or 2700 mm length (custom up to 3600 mm)", "standard":
+"" }, { "property": "Material Thickness", "value": "12 mm Cube base (depth
+varies by Peak profile)", "standard": "" }, { "property": "Composition",
+"value": "100% polyester fibre (PET) printed with UV-curable ink", "standard":
+"" }, { "property": "Recycled Content", "value": "Minimum 60% to 80%
+post-consumer recycled PET", "standard": "" }, { "property": "Thermal
+Performance", "value": "R0.41 (@ 15°C)", "standard": "" }, { "property": "Fire
+Rating (Australia)", "value": "Group 1, SMOGRArc < 100 m2/s2", "standard": "AS
+ISO 9705 - 2003 / AS 5637.1" }, { "property": "International Fire Rating",
+"value": "Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a: FS:0 - SD:45); BS
+EN 13501-1:2018", "standard": "ISO 9705 / ASTM E-84 / BS EN 13501-1" }, {
+"property": "Water Vapour Sorption", "value": "0.4% by weight after 4 days
+at 49°C, 95% RH", "standard": "ASTM C1104 / C1104M-13a" }, { "property":
+"Microbial Resistance", "value": "Growth rating: 0 (No growth)", "standard":
+"ASTM G21-15" }, { "property": "Print Type", "value": "Safe, water-based,
+UV-cured ink", "standard": "" } ], "range": [ { "variant": "Printed Lanes
+Peak 2400mm", "size_or_rating": "300 mm x 2400 mm (Pack covers 2.16 m2)",
+"pack": "Pack of 3 lanes" }, { "variant": "Printed Lanes Peak 2700mm",
+"size_or_rating": "300 mm x 2700 mm (Pack covers 2.43 m2)", "pack": "Pack of 3
+lanes" } ], "fire": "AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1
+(SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM E-84-15a Class A (FS:0,
+SD:45); BS EN 13501-1:2018", "compliance": "NCC Specification 7 (BCA C1.10)
+Group 1 fire compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354",
+"sustainability": "Carbon neutral product; water-based UV-cured ink; min 60%
+to 80% recycled PET; Declare Red List Free; EPD verified; low VOC", "install": [
+"Check wall substrate is plumb, flat, and dry", "Inspect printed grain or
+pattern orientation across all lanes prior to mounting", "Fix horizontal
+mounting clips or channel track to framing studs at 300mm vertical centres",
+"Snap the printed folded Peak lanes onto mounting clips firmly without
+adhesive", "Align adjacent panels to ensure unbroken woodgrain or stone
+continuity along joints", "Trim bottom or top ends carefully using a
+fine-toothed saw on the offcut side" ], "selection_checklist": [ "Select print
+finish from Acoustic Timber woodgrains or Surface Finishes stone palettes",
+"Confirm wall height to choose 2400mm or 2700mm lengths", "Calculate wall width
+in 300mm increments (3 lanes per pack)", "Confirm Peak ridge profile suitability
+for design aesthetic", "Verify substrate framing supports mechanical clip
+mounting" ], "accessories": [ "Lanes mounting clip system", "Fasteners suitable
+for substrate", "Fine-tooth track saw" ], "limitations": [ "Indoor use only;
+avoid wet areas or direct water exposure", "Requires mechanical clip
+installation; do not glue directly flat to wall", "Handle carefully with clean
+gloves to prevent scuffing the printed surface during install" ], "warranty":
+"Manufacturer's Guarantee (10 years)", "found": true, "search_keywords": [
+"Autex Printed Lanes Peak", "Acoustic Timber Lanes Peak", "timber look acoustic
+battens", "printed acoustic battens", "woodgrain acoustic wall battens", "Lanes
+Peak timber", "stone finish acoustic battens", "3D printed acoustic wall" ],
+"problem_keywords": [ "heavy solid timber batten weight", "timber wall
+reverberation", "flammability of real timber battens", "echo in commercial
+lobby", "boardroom sound reflection", "need timber batten look with Group 1 fire
+rating" ], "placement": [ "wall", "internal wall" ], "priority_fit": [
+"acoustic", "fire", "sustainability", "easy_install" ], "use_cases": [ "Creating
+timber-look acoustic batten feature walls in commercial lobbies needing Group 1
+fire rating", "Taming echo in luxury executive boardrooms with warm woodgrain
+textures", "Acoustic feature walls in hotel receptions and fine-dining
+restaurants" ], "not_for": [ "Flooring or underfoot applications", "Exterior
+building facades", "Wet rooms with direct running water" ], "rag_summary":
+"Autex Printed Lanes Baffle Peak combines a 3D folded peak batten profile with
+high-definition digital UV printing of premium timber grains and stone textures
+on 12mm Cube polyester felt. Installed via a mechanical clipping system that
+preserves an acoustic rear air gap, it delivers high sound absorption (NRC 0.80)
+while replicating heavy timber or stone without the weight or fire risks.
+Certified Group 1 fire compliant and carbon neutral with over 60% recycled PET,
+it provides a warm architectural wall finish for commercial, education, and
+hospitality interiors."
+
+}, { "family_id": "AUTEX_PRINTED_LANES_BAFFLE_PLANE", "tds_url":
+"https://www.autexglobal.com/au/products/lanes/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Printed Lanes Baffle Plane combines an understated flattened plateau
+profile with high-definition digital UV printing from the Acoustic Timber and
+Surface Finishes collections. Hand-picked woodgrains and stone textures are
+digitally applied using safe, water-based inks directly onto 12mm Cube polyester
+felt. Featuring a rear air gap that boosts acoustic performance to NRC 0.80, it
+installs quickly using an adhesive-free mechanical clipping system.",
+"features": [ "Understated flattened plateau profile with realistic digitally
+printed timber or stone finishes", "High-definition print using safe,
+water-based UV-cured ink without degrading acoustic performance", "Rear air gap
+cavity enhances low and mid frequency sound absorption (NRC 0.80)", "Glue-free
+mechanical clipping system ensures fast, clean, and mess-free installation",
+"Lightweight and seismic-safe alternative to solid wood panelling or marble
+fluting", "Constructed from 100% polyester fibre with a minimum of 60% to 80%
+recycled PET", "Group 1 fire rating compliant with AS ISO 9705 - 2003 and
+AS 5637.1", "Modular 300mm width sections available in 2400mm and 2700mm
+lengths", "Certified Carbon Neutral product with third-party verified EPD",
+"Moisture and mould resistant (ASTM G21-15 Growth Rating: 0)" ], "applications":
+[ "wall", "internal wall" ], "technical": [ { "property": "Noise Reduction
+Coefficient (NRC)", "value": "0.80", "standard": "ISO 354" }, { "property":
+"Dimensions (Per Lane)", "value": "300 mm width x 2400 mm or 2700 mm length
+(custom up to 3600 mm)", "standard": "" }, { "property": "Material Thickness",
+"value": "12 mm Cube base (depth varies by Plane profile)", "standard": "" }, {
+"property": "Composition", "value": "100% polyester fibre (PET) printed with
+UV-curable ink", "standard": "" }, { "property": "Recycled Content", "value":
+"Minimum 60% to 80% post-consumer recycled PET", "standard": "" }, { "property":
+"Thermal Performance", "value": "R0.41 (@ 15°C)", "standard": "" }, {
+"property": "Fire Rating (Australia)", "value": "Group 1, SMOGRArc < 100 m2/s2",
+"standard": "AS ISO 9705 - 2003 / AS 5637.1" }, { "property": "International
+Fire Rating", "value": "Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a: FS:0
+- SD:45); BS EN 13501-1:2018", "standard": "ISO 9705 / ASTM E-84 / BS
+EN 13501-1" }, { "property": "Water Vapour Sorption", "value": "0.4% by weight
+after 4 days at 49°C, 95% RH", "standard": "ASTM C1104 / C1104M-13a" }, {
+"property": "Microbial Resistance", "value": "Growth rating: 0 (No growth)",
+"standard": "ASTM G21-15" }, { "property": "Print Type", "value": "Safe,
+water-based, UV-cured ink", "standard": "" } ], "range": [ { "variant": "Printed
+Lanes Plane 2400mm", "size_or_rating": "300 mm x 2400 mm (Pack covers 2.16 m2)",
+"pack": "Pack of 3 lanes" }, { "variant": "Printed Lanes Plane 2700mm",
+"size_or_rating": "300 mm x 2700 mm (Pack covers 2.43 m2)", "pack": "Pack of 3
+lanes" } ], "fire": "AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1
+(SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM E-84-15a Class A (FS:0,
+SD:45); BS EN 13501-1:2018", "compliance": "NCC Specification 7 (BCA C1.10)
+Group 1 fire compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354",
+"sustainability": "Carbon neutral product; water-based UV-cured ink; min 60%
+to 80% recycled PET; Declare Red List Free; EPD verified; low VOC", "install": [
+"Check wall substrate is plumb, flat, and dry", "Inspect printed grain or
+pattern orientation across all lanes prior to mounting", "Fix horizontal
+mounting clips or channel track to framing studs at 300mm vertical centres",
+"Snap the printed folded Plane lanes onto mounting clips firmly without
+adhesive", "Align adjacent panels to ensure continuous woodgrain or stone
+appearance", "Trim bottom or top ends carefully using a fine-toothed saw on the
+offcut side" ], "selection_checklist": [ "Select print finish from Acoustic
+Timber woodgrains or Surface Finishes palettes", "Confirm wall height to
+choose 2400mm or 2700mm lengths", "Calculate wall width in 300mm increments (3
+lanes per pack)", "Confirm Plane flattened plateau profile suitability for
+design aesthetic", "Verify substrate framing supports mechanical clip mounting"
+], "accessories": [ "Lanes mounting clip system", "Fasteners suitable for
+substrate", "Fine-tooth track saw" ], "limitations": [ "Indoor use only; avoid
+wet areas or direct water exposure", "Requires mechanical clip installation; do
+not glue directly flat to wall", "Handle carefully with clean gloves to prevent
+scuffing the printed surface during install" ], "warranty": "Manufacturer's
+Guarantee (10 years)", "found": true, "search_keywords": [ "Autex Printed Lanes
+Plane", "Acoustic Timber Lanes Plane", "woodgrain acoustic battens Plane",
+"printed acoustic battens Plane", "timber look wall battens", "stone finish
+acoustic battens", "Lanes Plane printed", "decorative acoustic batten system" ],
+"problem_keywords": [ "heavy solid timber panelling weight", "hard reflective
+timber walls", "timber flammability in commercial fitout", "harsh room
+reverberation", "office video conferencing echo", "need subtle wood batten look
+with soundproofing" ], "placement": [ "wall", "internal wall" ], "priority_fit":
+[ "acoustic", "fire", "sustainability", "easy_install" ], "use_cases": [ "Adding
+subtle woodgrain acoustic battens to corporate boardrooms and executive suites",
+"Controlling echo in university lecture rooms and high-end educational spaces
+with timber textures", "Upgrading hospitality dining walls with lifelike stone
+or timber finishes that absorb noise" ], "not_for": [ "Flooring or underfoot
+applications", "Exterior building facades", "Wet rooms with direct running
+water" ], "rag_summary": "Autex Printed Lanes Baffle Plane pairs an understated,
+flattened linear plateau profile with high-definition digital UV printing of
+natural timber grains and stone textures on 12mm Cube polyester felt. Sized
+in 300mm wide modular sections with a glue-free clipping system that maintains
+an acoustic air gap, it delivers high sound absorption (NRC 0.80) while
+replicating architectural wood panelling. Rated Group 1 fire compliant and
+certified carbon neutral with over 60% recycled PET, it provides a quiet,
+sophisticated acoustic wall finish for commercial and educational spaces." }, {
+"family_id": "AUTEX_PRINTED_LANES_BAFFLE_SAWTOOTH", "tds_url":
+"https://www.autexglobal.com/au/products/lanes/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Printed Lanes Baffle Sawtooth combines an asymmetrical directional
+sawtooth profile with high-definition digital UV printing of natural timber and
+stone textures. Engineered with an acoustic air cavity behind each 300mm wide
+batten, it delivers class-leading acoustic absorption (NRC 0.85) alongside
+striking shadow play and lifelike material aesthetics. It installs without glue
+via a concealed clipping system, achieving Group 1 fire compliance and
+carbon-neutral certification.", "features": [ "Dynamic asymmetrical sawtooth
+profile combined with digital timber or stone print finishes", "Highest acoustic
+performance in the Lanes collection achieving NRC 0.85", "High-resolution
+digital printing with safe, water-based UV-cured ink", "Rear air gap cavity
+enhances low and mid frequency sound absorption", "Glue-free mechanical clipping
+system ensures fast, clean, and mess-free installation", "Lightweight,
+seismic-safe alternative to solid timber or fluted stone battens", "Constructed
+from 100% polyester fibre with a minimum of 60% to 80% recycled PET", "Group 1
+fire rating compliant with AS ISO 9705 - 2003 and AS 5637.1", "Modular 300mm
+width sections available in 2400mm and 2700mm lengths", "Certified Carbon
+Neutral product with third-party verified EPD" ], "applications": [ "wall",
+"internal wall" ], "technical": [ { "property": "Noise Reduction Coefficient
+(NRC)", "value": "0.85", "standard": "ISO 354" }, { "property": "Dimensions (Per
+Lane)", "value": "300 mm width x 2400 mm or 2700 mm length (custom up to 3600
+mm)", "standard": "" }, { "property": "Material Thickness", "value": "12 mm Cube
+base (depth varies by Sawtooth profile)", "standard": "" }, { "property":
+"Composition", "value": "100% polyester fibre (PET) printed with UV-curable
+ink", "standard": "" }, { "property": "Recycled Content", "value": "Minimum 60%
+to 80% post-consumer recycled PET", "standard": "" }, { "property": "Thermal
+Performance", "value": "R0.41 (@ 15°C)", "standard": "" }, { "property": "Fire
+Rating (Australia)", "value": "Group 1, SMOGRArc < 100 m2/s2", "standard": "AS
+ISO 9705 - 2003 / AS 5637.1" }, { "property": "International Fire Rating",
+"value": "Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a: FS:0 - SD:45); BS
+EN 13501-1:2018", "standard": "ISO 9705 / ASTM E-84 / BS EN 13501-1" }, {
+"property": "Water Vapour Sorption", "value": "0.4% by weight after 4 days
+at 49°C, 95% RH", "standard": "ASTM C1104 / C1104M-13a" }, { "property":
+"Microbial Resistance", "value": "Growth rating: 0 (No growth)", "standard":
+"ASTM G21-15" }, { "property": "Print Type", "value": "Safe, water-based,
+UV-cured ink", "standard": "" } ], "range": [ { "variant": "Printed Lanes
+Sawtooth 2400mm", "size_or_rating": "300 mm x 2400 mm (Pack covers 2.16 m2)",
+"pack": "Pack of 3 lanes" }, { "variant": "Printed Lanes Sawtooth 2700mm",
+"size_or_rating": "300 mm x 2700 mm (Pack covers 2.43 m2)", "pack": "Pack of 3
+lanes" } ], "fire": "AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1
+(SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM E-84-15a Class A (FS:0,
+SD:45); BS EN 13501-1:2018", "compliance": "NCC Specification 7 (BCA C1.10)
+Group 1 fire compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354",
+"sustainability": "Carbon neutral product; water-based UV-cured ink; min 60%
+to 80% recycled PET; Declare Red List Free; EPD verified; low VOC", "install": [
+"Check wall substrate is plumb, flat, and dry", "Inspect directional sawtooth
+pattern and grain orientation prior to installation", "Fix horizontal mounting
+clips or channel track to framing studs at 300mm vertical centres", "Snap the
+printed folded Sawtooth lanes onto mounting clips firmly without adhesive",
+"Ensure all panels are installed in a uniform directional orientation across the
+wall", "Trim bottom or top ends carefully using a fine-toothed saw on the offcut
+side" ], "selection_checklist": [ "Select print finish from Acoustic Timber
+woodgrains or Surface Finishes palettes", "Confirm wall height to choose 2400mm
+or 2700mm lengths", "Calculate wall width in 300mm increments (3 lanes per
+pack)", "Verify direction of light source to accentuate Sawtooth 3D printed
+effect", "Verify substrate framing supports mechanical clip mounting" ],
+"accessories": [ "Lanes mounting clip system", "Fasteners suitable for
+substrate", "Fine-tooth track saw" ], "limitations": [ "Indoor use only; avoid
+wet areas or direct water exposure", "Requires mechanical clip installation; do
+not glue directly flat to wall", "Directional profile must be installed in a
+consistent orientation across the wall" ], "warranty": "Manufacturer's Guarantee
+(10 years)", "found": true, "search_keywords": [ "Autex Printed Lanes Sawtooth",
+"Acoustic Timber Lanes Sawtooth", "woodgrain acoustic battens Sawtooth",
+"printed acoustic battens Sawtooth", "zigzag timber acoustic battens", "stone
+finish acoustic battens", "Lanes Sawtooth printed", "high NRC printed acoustic
+batten" ], "problem_keywords": [ "excessive echo in commercial boardroom",
+"heavy fluted timber weight limits", "hard reflective timber acoustics", "timber
+flammability in public buildings", "distracting chatter in open spaces", "need
+statement 3D timber acoustic wall" ], "placement": [ "wall", "internal wall" ],
+"priority_fit": [ "acoustic", "fire", "sustainability", "easy_install" ],
+"use_cases": [ "Designing dramatic woodgrain acoustic feature walls with
+directional lighting in corporate lobbies", "Taming severe reverberation in
+high-end conference suites with timber aesthetics", "Acoustic feature walls in
+luxury hospitality dining rooms, cocktail bars, and hotels" ], "not_for": [
+"Flooring or underfoot applications", "Exterior building facades", "Wet rooms
+with direct running water" ], "rag_summary": "Autex Printed Lanes Baffle
+Sawtooth combines an asymmetrical directional sawtooth profile with
+high-definition digital UV printing of natural timber and stone textures on 12mm
+Cube polyester felt. Engineered with an acoustic air cavity behind each 300mm
+wide batten, it achieves class-leading sound absorption (NRC 0.85) while
+replicating architectural wood or fluted stone. Rated Group 1 fire compliant
+under AS ISO 9705 and certified carbon neutral with over 60% recycled PET, it
+provides dynamic architectural shadow play and superior acoustics for commercial
+and institutional interiors." }, { "family_id":
+"AUTEX_QUIETSPACE_LATTICE_ECLIPSE", "tds_url":
+"https://www.autexglobal.com/au/products/lattice/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Quietspace Lattice - Eclipse is an architectural suspended acoustic
+ceiling baffle system featuring an organic, cloud-like seedpod form. Constructed
+from 100% polyester fibre using 12mm semi-rigid Cube acoustic fins, its
+intersecting lattice grid covers a greater surface area than traditional
+parallel baffles to capture ambient speech and reverberation. Supplied
+flat-packed with dedicated suspension hardware, it provides Class A sound
+absorption (NRC 1.00) and Group 1 fire safety for open-plan commercial,
+educational, and hospitality interiors.", "features": [ "Sculpted organic
+cloud/seedpod form (Eclipse) creating a statement ceiling sculpture",
+"Intersecting lattice grid fin design covers greater surface area than parallel
+baffle systems", "Constructed from 100% polyester fibre containing minimum 65%
+to 80% recycled PET", "Premium Class A sound absorption achieving an NRC of 1.00
+(2.05 - 2.10 metric Sabins per unit)", "Group 1 fire rating compliant with AS
+ISO 9705 - 2003 and AS 5637.1", "Assembled dimensions: 1197 mm x 2346 mm x 337
+mm depth", "Supplied flat-packed with complete suspension kit including 4 x 1m
+cables and ceiling mounts", "Lightweight, structurally stable, and will not
+warp, sag, or crumble over time", "Resistant to moisture, mould, and mildew
+(ASTM G21-15 Growth Rating: 0)", "Certified Carbon Neutral product with
+third-party verified EPD" ], "applications": [ "ceiling", "open-plan office",
+"commercial interior", "education", "hospitality" ], "technical": [ {
+"property": "Acoustic Performance (Sabins per unit)", "value": "2.10 Sabins
+(direct fixed); 2.05 Sabins (suspended 200 mm)", "standard": "ISO 354" }, {
+"property": "Equivalent NRC", "value": "1.00 (Class A sound absorption)",
+"standard": "ISO 354 / ISO 11654" }, { "property": "Assembled Dimensions",
+"value": "1197 mm width x 2346 mm length x 337 mm depth (tolerance +/- 0.5 mm)",
+"standard": "" }, { "property": "Fin Material Thickness", "value": "12 mm Cube",
+"standard": "" }, { "property": "Density", "value": "192 kg/m3 (Cube base
+material)", "standard": "" }, { "property": "Composition", "value": "100%
+polyester fibre (PET)", "standard": "" }, { "property": "Recycled Content",
+"value": "Minimum 65% to 80% post-consumer recycled PET", "standard": "" }, {
+"property": "Fire Rating (Australia)", "value": "Group 1, SMOGRArc < 100 m2/s2",
+"standard": "AS ISO 9705 - 2003 / AS 5637.1" }, { "property": "International
+Fire Rating", "value": "Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a: FS:0
+- SD:45); B - s1, d0 (BS EN 13501-1:2018)", "standard": "ISO 9705 / ASTM E-84 /
+BS EN 13501-1" }, { "property": "Water Vapour Sorption", "value": "< 0.03% by
+weight after 4 days at 50°C, 90% RH", "standard": "" }, { "property": "Microbial
+Resistance", "value": "Growth rating: 0 (No growth)", "standard": "ASTM G21-15"
+}, { "property": "VOC Emissions", "value": "< 0.092 mg/m3 (7 days)", "standard":
+"CDPH Standard Method v1.2" } ], "range": [ { "variant": "Lattice Eclipse",
+"size_or_rating": "1197 mm x 2346 mm x 337 mm", "pack": "Kit (unassembled fins
++ 4 x 1m cables + mounts)" } ], "fire": "AS ISO 9705 - 2003 and AS 5637.1
+Classification: Group 1; ISO 9705:1993 Group 1-S; ASTM E-84-15a Class A; BS
+EN 13501-1:2018 B - s1, d0", "compliance": "NCC Specification 7 (BCA C1.10)
+Group 1 fire compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354",
+"sustainability": "Carbon neutral product; minimum 65% to 80% recycled PET;
+Declare Red List Free; EPD compliant with ISO 14025 and EN 15804; low VOC",
+"install": [ "Unpack Lattice components and inspect all fins and suspension
+hardware", "Slot intersecting 12mm Cube fins together on a clean, soft work
+surface according to the assembly diagram", "Insert alloy tube inserts and
+secure Velda cable clips into designated locking fin slots", "Measure and mark 4
+suspension anchor points on the ceiling substrate to match cable spacing",
+"Fasten ceiling mounts securely to the ceiling structure using appropriate
+anchors", "Thread 1m galvanised suspension cables into ceiling mounts and adjust
+to desired hanging height", "Hook cables into the Lattice clips and level the
+assembled sculpture using a spirit level" ], "selection_checklist": [ "Confirm
+ceiling height and available overhead clearance for 337mm deep structure",
+"Verify ceiling structure capacity for 4-point cable suspension", "Select colour
+from the Autex Cube palette", "Confirm Eclipse form is chosen (undulating
+organic seedpod profile)", "Verify space clearances around mechanical ducts,
+lights, and fire sprinklers" ], "accessories": [ "Suspension kit (4 x 1m
+galvanised cables, 4 x ceiling mounts, 4 x Velda clips, 4 x alloy tube
+inserts)", "Spirit level", "Tape measure" ], "limitations": [ "Indoor ceiling
+installation only; not suitable for exterior use or wet environments", "Non-load
+bearing decorative baffle; do not suspend luminaires or services from fins",
+"Must be assembled on a clean, protected floor surface to prevent marking the
+felt" ], "warranty": "Manufacturer's Guarantee (10 years)", "found": true,
+"search_keywords": [ "Autex Lattice Eclipse", "Quietspace Lattice Eclipse",
+"suspended acoustic lattice", "ceiling baffle sculpture", "organic acoustic
+ceiling baffle", "cloud acoustic baffle", "Cube acoustic lattice", "decorative
+acoustic ceiling feature", "Lattice Eclipse", "acoustic ceiling sculpture" ],
+"problem_keywords": [ "severe ceiling echo in open office", "reverberant
+high-ceiling dining space", "noisy reception atrium", "distracting
+conversational echo", "need statement ceiling sculpture with acoustics", "sound
+reflection off concrete soffits" ], "placement": [ "ceiling" ], "priority_fit":
+[ "acoustic", "fire", "sustainability", "easy_install" ], "use_cases": [
+"Suspending sculpted acoustic feature clouds over collaborative zones in
+high-ceiling corporate offices", "Taming echo in hotel reception atriums and
+public building foyers", "Controlling reverberation in modern hospitality dining
+rooms and university study commons" ], "not_for": [ "Wall or floor
+installations", "Outdoor canopies or open-air walkways", "Wet areas with direct
+water splashing" ], "rag_summary": "Autex Quietspace Lattice - Eclipse is a 3D
+suspended acoustic ceiling baffle sculpture assembled from intersecting 12mm
+Cube polyester fins into an organic 1197mm x 2346mm x 337mm seedpod form. By
+maximizing sound-absorbing surface area, it achieves Class A acoustic absorption
+(NRC 1.00 / 2.05-2.10 Sabins per unit) to capture background chatter and
+reverberation in open-plan spaces. Rated Group 1 fire compliant under AS
+ISO 9705 and containing at least 65% recycled PET, it provides a lightweight,
+carbon-neutral ceiling statement for corporate, educational, and hospitality
+interiors." } ]

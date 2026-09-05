@@ -1,0 +1,191 @@
+{
+  "family_id": "BRADFORD_GOLD_HI_PERFORMANCE_BATTS",
+  "family_name": "Bradford Gold Hi-Performance Batts",
+  "datasheet_pdf_url": "https://www.bradfordinsulation.com.au/home-insulation/ceilings/gold-ceiling-batts",
+  "sds_url": "https://www.bradfordinsulation.com.au/-/media/bradford/files/safety-data-sheet---glasswool.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Bradford Gold Hi-Performance Batts (Gold HP) are high-density,\ntop-tier glasswool insulation batts engineered to deliver maximum thermal\nresistance within standard residential and commercial cavities. Available in\nindustry-leading ratings up to R7.0 for ceilings and R2.7 HP for 90mm walls,\nthey allow builders and homeowners in extreme Australian climate zones to meet\nstringent 7-star and 8-star energy efficiency standards without increasing\nframing depths. Featuring Comfort Touch technology, they are non-combustible,\nlow-allergen, Sensitive Choice certified, and backed by a 70-year performance\nwarranty.",
+    "features": [
+      "Maximum thermal R-value per millimetre of cavity\nthickness",
+      "Industry-leading ceiling ratings: R4.1 HP, R5.0 HP, R6.0 HP, and\nR7.0 HP",
+      "High-density wall batts: R2.0 HP (75mm), R2.2 HP (75mm), R2.5 HP\n(90mm), and R2.7 HP (90mm)",
+      "Gold Perimeter Batts available in R3.0 (100mm\nlow-profile) for tight eave zones",
+      "Manufactured with up to 80% recycled glass\ncontent",
+      "Enhanced acoustic density dampens environmental noise and rain\nnoise",
+      "Low-itch Comfort Touch technology for cleaner handling and reduced\ndust",
+      "Water-repellent treatment on wall batts prevents moisture absorption",
+      "Non-combustible when tested in accordance with AS 1530.1",
+      "Backed by CSR\nBradford's 70-year product performance warranty"
+    ],
+    "applications": [
+      "ceiling",
+      "wall",
+      "external wall",
+      "internal wall"
+    ],
+    "technical": [
+      {
+        "property": "Ceiling HP R-Values",
+        "value": "R4.1 HP, R5.0 HP, R6.0 HP, R7.0 HP",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Wall HP R-Values",
+        "value": "R2.0\nHP (75mm), R2.2 HP (75mm), R2.5 HP (90mm), R2.7 HP (90mm)",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Perimeter HP R-Value",
+        "value": "R3.0 (100mm\nthickness, 400mm length)",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Ceiling\nHP Thicknesses",
+        "value": "R4.1 HP: 195 mm; R5.0 HP: 215 mm; R6.0 HP: 250 mm;\nR7.0 HP: 290 mm",
+        "standard": ""
+      },
+      {
+        "property": "Wall HP Thicknesses",
+        "value": "R2.0 HP: 75 mm; R2.2 HP: 75 mm; R2.5 HP: 90 mm; R2.7 HP: 90 mm",
+        "standard": ""
+      },
+      {
+        "property": "Standard Dimensions",
+        "value": "1160 mm length\nx 430 mm or 580 mm width (perimeter: 400 x 430/580 mm)",
+        "standard": ""
+      },
+      {
+        "property": "Combustibility",
+        "value": "Non-combustible",
+        "standard": "AS 1530.1"
+      },
+      {
+        "property": "Fire Hazard Indices",
+        "value": "Ignitability: 0,\nSpread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Maximum Service Temperature",
+        "value": "350°C",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Gold HP Ceiling Batts\nR5.0",
+        "size_or_rating": "215 mm x 1160 mm x 430/580 mm",
+        "pack": "Pack of 8\nbatts"
+      },
+      {
+        "variant": "Gold HP Ceiling Batts R6.0",
+        "size_or_rating": "250 mm\nx 1160 mm x 430/580 mm",
+        "pack": "Pack of 6 batts"
+      },
+      {
+        "variant": "Gold HP\nCeiling Batts R7.0",
+        "size_or_rating": "290 mm x 1160 mm x 430/580 mm",
+        "pack": "Pack of 4 batts"
+      },
+      {
+        "variant": "Gold HP Wall Batts R2.0 (75mm)",
+        "size_or_rating": "75 mm x 1160 mm x 430/580 mm",
+        "pack": "Pack of 16/24 batts"
+      },
+      {
+        "variant": "Gold HP Wall Batts R2.2 (75mm)",
+        "size_or_rating": "75 mm\nx 1160 mm x 430/580 mm",
+        "pack": "Pack of 12/18 batts"
+      },
+      {
+        "variant": "Gold HP\nWall Batts R2.5 (90mm)",
+        "size_or_rating": "90 mm x 1160 mm x 430/580 mm",
+        "pack": "Pack of 12/18 batts"
+      },
+      {
+        "variant": "Gold HP Wall Batts R2.7 (90mm)",
+        "size_or_rating": "90 mm x 1160 mm x 430/580 mm",
+        "pack": "Pack of 8/12 batts"
+      },
+      {
+        "variant": "Gold Perimeter Batts R3.0",
+        "size_or_rating": "100 mm x 400 mm\nx 430/580 mm",
+        "pack": "Pack of 5 batts"
+      }
+    ],
+    "fire": "Non-combustible to\nAS 1530.1; AS/NZS 1530.3: Ignitability 0, Spread of Flame 0, Heat Evolved 0,\nSmoke Developed 0-1; Deemed non-combustible under NCC",
+    "compliance": "AS/NZS 4859.1, AS 3999, NCC 2022 / NCC 2025 7-star NatHERS compliance",
+    "sustainability": "Contains up to 80% recycled glass; bio-soluble FBS-1; zero\nODP; Sensitive Choice certified",
+    "install": [
+      "Isolate power at the main\nswitchboard before entering ceiling or working in wall cavities",
+      "Fit HP batts\nfriction-tight between studs or ceiling joists with zero gaps",
+      "Ensure\nhigh-density wall batts remain flat without bulging plasterboard or breaching\nouter cavity space",
+      "Use R3.0 low-profile Gold Perimeter Batts around roof\neaves to avoid compression within 450mm of external walls",
+      "Maintain required\nclearances from non-IC downlights and flues per AS 3999"
+    ],
+    "selection_checklist": [
+      "Check NatHERS energy rating report for exact required\nR-values (e.g. R2.7 in walls, R5.0 or R6.0 in ceiling)",
+      "Confirm wall stud\ndepth (75mm for 70mm studs; 90mm for 90mm studs)",
+      "Verify stud and joist\nspacing (430mm for 450mm centres, 580mm for 600mm centres)",
+      "Check eave height\nclearance to determine if Gold Perimeter Batts are needed"
+    ],
+    "accessories": [
+      "Bradford Perimeter Spacer",
+      "Bradford Gold Perimeter Batts",
+      "Enviroseal wall\nwraps"
+    ],
+    "limitations": [
+      "Do not force thicker batts into shallower stud\ncavities as plasterboard will bulge",
+      "Must be kept dry during transport,\nstorage, and installation",
+      "Must not cover non-IC rated electrical fixtures"
+    ],
+    "warranty": "70 Year Product Performance Warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Bradford Gold Hi-Performance",
+      "Gold HP batts",
+      "Bradford\nHP ceiling batts",
+      "R2.7 wall batts",
+      "R5.0 ceiling batts",
+      "R6.0 ceiling\nbatts",
+      "R7.0 ceiling batts",
+      "high density wall batts",
+      "7 star insulation\nbatts",
+      "Bradford Gold HP"
+    ],
+    "problem_keywords": [
+      "meeting 7 star energy\nrating",
+      "high R-value in 90mm wall stud",
+      "extreme roof heat in alpine or\ndesert climate",
+      "maximum thermal efficiency for new build",
+      "tight eave\ninsulation compression"
+    ],
+    "placement": [
+      "ceiling",
+      "wall",
+      "external wall",
+      "internal wall"
+    ],
+    "priority_fit": [
+      "thermal",
+      "acoustic",
+      "sustainability",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Insulating external 90mm stud walls with R2.7\nHP batts to achieve 7-star energy compliance without changing frame thickness",
+      "Installing R5.0 to R7.0 HP batts in ceilings of alpine, cold climate, or hot\ntropical homes",
+      "Using low-profile R3.0 Perimeter Batts to maintain compliant\nceiling insulation depth at roof eaves"
+    ],
+    "not_for": [
+      "Underfloor joists (use\nBradford Optimo)",
+      "Bushfire BAL-FZ exposed roofs",
+      "Direct masonry contact\nwithout cavity wrap"
+    ],
+    "rag_summary": "Bradford Gold Hi-Performance Batts (Gold\nHP) represent CSR Bradford's highest-density glasswool insulation range,\nengineered to provide maximum thermal resistance in space-constrained building\ncavities. Offering ceiling ratings from R4.1 HP up to R7.0 HP and wall ratings\nup to R2.7 HP in standard 90mm studs, it is the premier solution for\nachieving 7-star and 8-star NatHERS energy compliance across Australia.\nNon-combustible to AS 1530.1, Sensitive Choice certified, and formulated with\nlow-itch Comfort Touch technology, it provides lifetime thermal and acoustic\nperformance backed by a 70-year warranty."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

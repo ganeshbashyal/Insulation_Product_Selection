@@ -1,7 +1,7 @@
 ---
 title: "Autex Lanes Baffle Sawtooth - Batt Insulation | Autex"
-description: "Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability"
-keywords: "Autex Lanes Baffle Sawtooth, Autex batt, acoustic insulation, ceiling insulation, insulation Australia, Autex Australia"
+description: "Autex Lanes Baffle Sawtooth is a dynamic acoustic wall batten system that features an asymmetrical, directional sawtooth profile folded from 12mm Cube"
+keywords: "Autex Lanes Baffle Sawtooth, Autex batt, wall insulation, insulation Australia, Autex Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AUTEX_LANES_BAFFLE_SAWTOOTH
 ---
@@ -10,30 +10,33 @@ family_id: AUTEX_LANES_BAFFLE_SAWTOOTH
 
 **Autex Batt** — bulk insulation batts for thermal and acoustic performance.
 
-Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability.
+Autex Lanes Baffle Sawtooth is a dynamic acoustic wall batten system that features an asymmetrical, directional sawtooth profile folded from 12mm Cube polyester felt. Engineered with an acoustic air cavity behind each 300mm wide lane, Sawtooth achieves the highest acoustic performance in the Lanes collection with an NRC of 0.85. Its glue-free clipping system creates striking directional light-and-shadow lines across interior walls while effectively taming reverberation.
 
 ## Key features
 
-- 100% polyester - safe to handle without protective equipment.
-- contains minimum 80% recycled PET plastic bottles.
-- non-allergenic, non-irritant formulation.
-- will not support mould or mildew growth.
-- maintains performance when wet.
-- excellent thermal performance for roof/ceiling applications.
-- Made from recycled PET bottles.
-- Safe to handle without PPE.
+- Asymmetrical angled sawtooth profile creating directional rhythm and shadow.
+- Delivers the highest acoustic performance in the Lanes range at NRC 0.85.
+- Integrated rear air gap boosts low and mid frequency sound absorption.
+- Glue-free mechanical clipping system ensures fast, clean, and precise installation.
+- Constructed from 100% polyester fibre containing minimum 60% to 80% recycled PET.
+- Group 1 fire rating compliant with AS ISO 9705 - 2003 and AS 5637.1.
+- Modular 300mm wide sections for flexible, scalable wall design.
+- Moisture and mould resistant with an ASTM G21-15 Growth Rating of 0.
+- Non-toxic, non-allergenic, non-irritant, and low-VOC.
+- Available in 2400mm and 2700mm lengths across the full Autex Cube colour palette.
 
 ## Applications and selection
 
-- Ceiling | General Acoustic
+- wall
+- internal wall
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Determine wall height to select 2400mm or 2700mm length (or custom up to 3600mm).
+2. Calculate required wall width in 300mm multiples (3 lanes per pack).
+3. Verify Sawtooth orientation and direction of incoming light to maximise 3D shadow effect.
+4. Choose colourway from Autex Cube palette.
+5. Confirm framing structure accommodates clip fasteners.
 
 
 ## Current catalogue range
@@ -45,36 +48,55 @@ Specialists in sustainable polyester acoustic solutions. Safe to handle without 
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Batt | Manufacturer catalogue |
-| Material | Polyester | Manufacturer catalogue |
-| Applications | Ceiling | General Acoustic | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Noise Reduction Coefficient (NRC) | 0.85 | ISO 354 |
+| Sound Absorption Coefficients (Octave Bands) | 125Hz: 0.15, 250Hz: 0.45, 500Hz: 0.90, 1000Hz: 1.00, 2000Hz: 0.95, 4000Hz: 0.95 | ISO 354 |
+| Dimensions (Per Lane) | 300 mm width x 2400 mm or 2700 mm length (custom lengths up to 3600 mm) | - |
+| Material Thickness | 12 mm Cube (overall depth varies by Sawtooth profile) | - |
+| Composition | 100% polyester fibre (PET) | - |
+| Recycled Content | Minimum 60% to 80% post-consumer recycled PET | - |
+| Thermal Performance | R0.41 (@ 15°C) | - |
+| Fire Rating | Group 1, SMOGRArc < 100 m2/s2 | AS ISO 9705 - 2003 / AS 5637.1:2015 |
+| International Fire Classification | Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a: FS:0 - SD:45); BS EN 13501-1:2018 | ISO 9705 / ASTM E-84 / BS EN 13501-1 |
+| Water Vapour Sorption | 0.4% by weight after 4 days at 49°C, 95% RH | ASTM C1104 / C1104M-13a |
+| Microbial Resistance | Growth rating: 0 (No growth) | ASTM G21-15 |
+| Lightfastness | Rating 6 (ISO 105-B02:2014) | ISO 105-B02:2014 |
 
-
+Extracted from manufacturer datasheet: https://www.autexglobal.com/au/products/lanes/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM E-84-15a Class A (FS:0, SD:45); BS EN 13501-1:2018
+
+NCC Specification 7 (BCA C1.10) Group 1 fire compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.autexacoustics.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://insulvac.com.au/wp-content/uploads/2020/04/autex-material-safety-data-sheet-msds.pdf.
 
+## Recommended accessories
+
+- Lanes mounting clip system.
+- Fasteners suitable for substrate.
+- Track saw or trimming knife.
+
 
 ## Limitations and warnings
 
-- Not suitable for fire rating without additional protection..
-- not to be exposed to weather or sustained moisture..
-- do not compress beyond manufacturer recommendations..
-- check fire-rated system requirements..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Indoor wall installation only; not suitable for exterior cladding or wet areas.
+- Directional profile must be installed in a consistent orientation across the wall.
+- Mechanical clip installation is required; do not glue directly flat to substrate.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for fire rating without additional protection.
+1. Confirm wall surface is plumb, smooth, and structurally sound.
+2. Mark vertical layout lines at 300mm intervals to align sawtooth panels.
+3. Fasten horizontal mounting clips or channel system to wall framing studs.
+4. Clip the folded Sawtooth sections onto mounting clips in sequence.
+5. Check that the directional sawtooth angles are consistently oriented across the entire wall.
+6. Trim height neatly with a track saw or sharp knife at baseboard or ceiling junction.
 
 ## Safety and handling
 
@@ -82,11 +104,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Carbon neutral product and manufacturing; minimum 60% to 80% recycled PET; Declare Red List Free; EPD compliant; low VOC
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Manufacturer's Guarantee (10 years)
 
 ## Specification starting point
 

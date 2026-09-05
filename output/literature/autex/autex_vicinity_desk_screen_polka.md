@@ -1,7 +1,7 @@
 ---
 title: "Autex Vicinity - Desk Screen - Polka - Batt Insulation | Autex"
-description: "Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled pla"
-keywords: "Autex Vicinity - Desk Screen - Polka, Autex batt, acoustic insulation, wall insulation, ceiling insulation, insulation Australia, Autex Australia"
+description: "Autex Vicinity Desk Screen - Polka is a two-piece modular acoustic desk divider featuring a playful, stepped dual-panel profile. Designed to provide t"
+keywords: "Autex Vicinity - Desk Screen - Polka, Autex batt, wall insulation, insulation Australia, Autex Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AUTEX_VICINITY_DESK_SCREEN_POLKA
 ---
@@ -10,30 +10,32 @@ family_id: AUTEX_VICINITY_DESK_SCREEN_POLKA
 
 **Autex Batt** — bulk insulation batts for thermal and acoustic performance.
 
-Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled plastic bottles, it's the sustainable choice for modern buildings.
+Autex Vicinity Desk Screen - Polka is a two-piece modular acoustic desk divider featuring a playful, stepped dual-panel profile. Designed to provide targeted acoustic dampening (0.70 Sabins per unit) while creating an open, dynamic desk boundary, Polka attaches non-destructively to desks via Vicinity Desk Clamps. Made from 100% polyester fibre with an 80% recycled PET core, it provides Group 1 fire compliance and certified carbon neutrality.
 
 ## Key features
 
-- 100% polyester - safe to handle without protective equipment.
-- contains minimum 80% recycled PET plastic bottles.
-- non-allergenic, non-irritant formulation.
-- will not support mould or mildew growth.
-- maintains performance when wet - dries out naturally.
-- excellent thermal performance for roof/ceiling applications.
-- helps meet NCC energy efficiency requirements.
-- Made from recycled PET bottles.
+- Playful stepped two-piece profile (772mm and 380mm wide panels).
+- Non-destructive desk mounting using Vicinity Workstation Clamps.
+- Delivers acoustic absorption of 0.70 Sabins per unit.
+- Constructed from 100% polyester fibre containing a minimum of 80% recycled PET.
+- Group 1 fire rating compliant with AS ISO 9705 - 2003 and AS 5637.1.
+- Solid colour throughout with clean finished edges; no capping required.
+- Pinnable self-healing surface for notes and desk accessories.
+- Clamps made from 100% recycled PET (RePET) or powdercoated zinc.
+- Moisture and mould resistant with an ASTM G21-15 Growth Rating of 0.
+- Certified Carbon Neutral product with third-party verified EPD.
 
 ## Applications and selection
 
-- Internal Wall | Ceiling | General Acoustic
+- internal wall
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Verify desk dimensions and edge overhang for dual-panel clamp positions.
+2. Confirm stepped configuration (772mm and 380mm widths) suits workstation layout.
+3. Select colour from the Autex Cube palette.
+4. Confirm pack quantity requirement (supplied in packs of 4 screens, 2 pieces per screen).
+5. Check lead time for custom configurations.
 
 
 ## Current catalogue range
@@ -44,36 +46,52 @@ Specialists in sustainable polyester acoustic solutions. Safe to handle without 
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Batt | Manufacturer catalogue |
-| Material | Polyester | Manufacturer catalogue |
-| Applications | Internal Wall | Ceiling | General Acoustic | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Acoustic Performance | 0.70 Sabins per unit (125Hz: 0.20, 250Hz: 0.45, 500Hz: 0.65, 1000Hz: 0.75, 2000Hz: 1.00, 4000Hz: 1.10) | ISO 354 |
+| Dimensions (Panel 1) | 772 mm width x 576 mm height | - |
+| Dimensions (Panel 2) | 380 mm width x 576 mm height | - |
+| Thickness | 12 mm (+/- 6%) | - |
+| Material Composition | 100% polyester fibre (PET) Cube panel; clamp: 100% recycled PET / zinc | - |
+| Recycled Content | Minimum 80% post-consumer recycled PET | - |
+| Fire Rating (Australia) | Group 1, SMOGRArc < 100 m2/s2 | AS ISO 9705 - 2003 / AS 5637.1:2015 |
+| International Fire Classification | Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a: FS:0 - SD:45); BS EN 13501-1:2018 | ISO 9705 / ASTM E-84 / BS EN 13501-1 |
+| Water Vapour Sorption | 0.4% by weight after 4 days at 49°C, 95% RH | ASTM C1104 / C1104M-13a |
+| Microbial Resistance | Growth rating: 0 (No growth) | ASTM G21-15 |
+| VOC Emissions | < 0.092 mg/m3 (7 days) | CDPH Standard Method v1.2 |
 
-
+Extracted from manufacturer datasheet: https://www.autexglobal.com/au/products/vicinity/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM E-84-15a Class A; BS EN 13501-1:2018
+
+NCC Specification 7 (BCA C1.10) Group 1 fire compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.autexacoustics.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://insulvac.com.au/wp-content/uploads/2020/04/autex-material-safety-data-sheet-msds.pdf.
 
+## Recommended accessories
+
+- Vicinity Workstation Clamps.
+- Allen key.
+
 
 ## Limitations and warnings
 
-- Not suitable for applications requiring fire rating without additional protection..
-- not to be exposed to weather or sustained moisture..
-- do not compress beyond manufacturer recommendations..
-- check fire-rated system requirements if fire rating is required..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Indoor use only; avoid wet areas or direct liquid contact.
+- Clamps require adequate desk edge lip for attachment.
+- Two-piece stepped configuration requires arrangement planning.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for applications requiring fire rating without additional protection.
+1. Unpack Polka panel components (772mm and 380mm panels).
+2. Slide Vicinity Clamps into the routed slots on both screen sections.
+3. Position the stepped panels along the desk perimeter to achieve desired layout.
+4. Tighten the clamp screws from underneath the desk using an Allen key.
+5. Ensure both stepped panels are securely clamped and upright.
 
 ## Safety and handling
 
@@ -81,11 +99,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Carbon neutral product; minimum 80% recycled PET; clamps made from 100% recycled PET; Declare Red List Free; EPD verified; low VOC
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Manufacturer's Guarantee (10 years)
 
 ## Specification starting point
 

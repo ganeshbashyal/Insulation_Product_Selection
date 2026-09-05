@@ -1,7 +1,7 @@
 ---
 title: "Bradford Soundscreen Acoustic - Bradford - Batt Insulation | Bradford"
-description: "Part of the CSR family with 100+ years of Australian building solutions. Firm friction fit design means batts stay in place permanently. Low itch form"
-keywords: "Bradford Soundscreen Acoustic - Bradford, Bradford batt, acoustic insulation, wall insulation, ceiling insulation, insulation Australia, Bradford Australia"
+description: "Bradford SoundScreen Acoustic is a high-density, non-combustible glasswool acoustic and thermal insulation batt developed by CSR Bradford. Engineered "
+keywords: "Bradford Soundscreen Acoustic - Bradford, Bradford batt, acoustic insulation, wall insulation, ceiling insulation, floor insulation, insulation Australia, Bradford Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: BRADFORD_SOUNDSCREEN_ACOUSTIC_BRADFORD
 ---
@@ -10,30 +10,36 @@ family_id: BRADFORD_SOUNDSCREEN_ACOUSTIC_BRADFORD
 
 **Bradford Batt** — bulk insulation batts for thermal and acoustic performance.
 
-Part of the CSR family with 100+ years of Australian building solutions. Firm friction fit design means batts stay in place permanently. Low itch formula for comfortable installation.
+Bradford SoundScreen Acoustic is a high-density, non-combustible glasswool acoustic and thermal insulation batt developed by CSR Bradford. Engineered for internal walls, home theatres, master bedroom ensuites, laundries, and mid-floors, it dramatically reduces sound transmission between rooms by absorbing airborne acoustic energy. Made with FBS-1 bio-soluble glasswool, it achieves an NRC rating up to 1.15, AS 1530.1 non-combustibility, and provides dual acoustic-thermal benefits backed by a 70-year warranty.
 
 ## Key features
 
-- FBS-1 Glasswool Bio-Soluble Insulation - safe to use and non-hazardous.
-- manufactured from up to 80% recycled glass content.
-- CodeMark Certificate of Conformity CM 30006.
-- non-combustible to AS 1530.1.
-- low itch soft next-gen formula for comfortable handling.
-- excellent thermal performance for roof/ceiling applications.
-- 50 Year Warranty backed by CSR.
-- ACCC certified.
+- High-density glasswool delivers superior acoustic dampening across speech frequencies.
+- Cuts sound transmission through internal walls and mid-floors by up to 75%.
+- Non-combustible complying with AS 1530.1.
+- Early Fire Hazard properties (0/0/0/0-1) to AS/NZS 1530.3.
+- Dual acoustic and thermal performance (R1.7 to R3.1).
+- Approved by National Asthma Council Australia's Sensitive Choice program.
+- FBS-1 bio-soluble glasswool formulation assessed as non-hazardous.
+- Will not pack down, shrink, rot, or deteriorate over time.
+- Manufactured in Australia from up to 65% recycled glass.
+- Guaranteed 70-year product performance warranty.
 
 ## Applications and selection
 
-- Internal Wall | Ceiling | General Acoustic
+- internal wall
+- wall
+- between floors
+- ceiling
+- external wall
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm stud spacing (430mm for 450mm centres, 580mm for 600mm centres).
+2. Confirm stud depth (70mm for R2.0, 90mm for R2.5).
+3. Determine acoustic isolation requirement (e.g. bathroom, bedroom, media room).
+4. Confirm non-combustibility requirement under NCC.
+5. Specify acoustic sealant and tape for all flanking gaps.
 
 
 ## Current catalogue range
@@ -46,37 +52,54 @@ Part of the CSR family with 100+ years of Australian building solutions. Firm fr
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Batt | Manufacturer catalogue |
-| Material | Glasswool | Manufacturer catalogue |
-| Applications | Internal Wall | Ceiling | General Acoustic | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material R-values | R1.7 (60mm), R2.0 (70mm), R2.5 (88mm), R3.1 (110mm) | AS/NZS 4859.1 |
+| Nominal Thickness | 60 mm, 70 mm, 88 mm, 110 mm | - |
+| Batt Dimensions | 1160 mm x 430 mm, 1160 mm x 580 mm, 1200 mm x 600 mm | - |
+| Acoustic Absorption (NRC) | 1.00 (60mm & 70mm), 1.10 (88mm), 1.15 (110mm) | ISO 354 |
+| Combustibility | Non-Combustible | AS 1530.1 |
+| Fire Hazard Properties | Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1 | AS/NZS 1530.3 |
+| Maximum Service Temperature | 350°C | - |
+| Moisture Absorption | < 0.2% by volume (96 hours at 50°C, 95% RH) | - |
+| Corrosion Resistance | pH 7.5 - 8.0, non-corrosive | BS 3958 Part 5 |
+| Recycled Content | Up to 65% recycled glass | - |
 
-
+Extracted from manufacturer datasheet: https://www.bradfordinsulation.com.au/home-insulation/walls/soundscreen
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Non-Combustible to AS 1530.1; AS/NZS 1530.3: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-1
+
+AS/NZS 4859.1:2018; AS 1530.1; AS/NZS 1530.3; NCC 2022 Volume 1 & Volume 2
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.csrbradford.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://www.firecrunch.com.au/wp-content/uploads/2016/02/BRADFORD-MSDS-e3a0-435b-b6ef-6f1027726ce6.pdf.
 
+## Recommended accessories
+
+- Gyprock Soundchek acoustic plasterboard.
+- Acoustic perimeter sealant.
+- Resilient isolation clips.
+- Serrated knife.
+
 
 ## Limitations and warnings
 
-- Keep dry during storage and installation..
-- not a water or vapour barrier - use appropriate building wrap..
-- do not compress - compression reduces R-value performance..
-- not to be exposed to weather..
-- maximum service temperature 340°C..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Do not compress into stud cavities smaller than batt thickness.
+- Acoustic performance is significantly degraded if flanking paths and gaps are left unsealed.
+- Not for use in exposed exterior or wet environments without protective lining.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Keep dry during storage and installation.
+1. Verify framing cavity depth and stud spacing.
+2. Friction-fit SoundScreen batts into stud cavities or between mid-floor joists.
+3. Ensure full contact with framing on all sides without gaps, gaps cause sound leakage.
+4. Trim neatly around electrical boxes, wiring, and pipes using an insulation knife.
+5. Ensure wall and ceiling joints are completely sealed with acoustic sealant.
+6. Hang internal wall plasterboard (or acoustic plasterboard) and fasten per manufacturer instructions.
 
 ## Safety and handling
 
@@ -84,11 +107,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Up to 65% recycled glass; FBS-1 bio-soluble glasswool; low VOC; Sensitive Choice approved; zero ODP
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+70 Year Performance Warranty
 
 ## Specification starting point
 

@@ -1,0 +1,160 @@
+{
+  "family_id": "AUTEX_VICINITY_DESK_SCREEN_HAVEN",
+  "family_name": "Autex Vicinity - Desk Screen - Haven",
+  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/vicinity/",
+  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Autex Vicinity Desk Screen - Haven is an expansive acoustic workstation screen\nsystem designed to provide comprehensive visual and sound shielding in open-plan\noffices. Featuring an extended wrapped boundary format that encloses the back\nand side of a desk, Haven achieves an impressive acoustic rating of 1.55 Sabins\nper unit. Attached using non-destructive Vicinity Desk Clamps, it is formed\nfrom 100% polyester fibre with an 80% recycled PET core and meets Group 1 fire\nsafety requirements.",
+    "features": [
+      "Wrap-around boundary screen providing\ndual-sided acoustic and visual sanctuary",
+      "High acoustic absorption rating\nof 1.55 Sabins per unit",
+      "Non-destructive desk mounting using Vicinity\nWorkstation Clamps",
+      "Constructed from 100% polyester fibre containing a minimum\nof 80% recycled PET",
+      "Group 1 fire rating compliant with AS ISO 9705 - 2003 and\nAS 5637.1",
+      "Solid colour throughout with clean finished edges; no capping\nrequired",
+      "Pinnable self-healing surface for personal workflow notes",
+      "Clamps\nmade from 100% recycled PET (RePET) or powdercoated zinc",
+      "Moisture and mould\nresistant with an ASTM G21-15 Growth Rating: 0)",
+      "Certified Carbon Neutral\nproduct with third-party verified EPD"
+    ],
+    "applications": [
+      "internal wall"
+    ],
+    "technical": [
+      {
+        "property": "Acoustic Performance",
+        "value": "1.55 Sabins per\nunit\n(125Hz: 0.50, 250Hz: 1.00, 500Hz: 1.40, 1000Hz: 1.65, 2000Hz: 2.10, 4000Hz: 2.35)",
+        "standard": "ISO 354"
+      },
+      {
+        "property": "Dimensions",
+        "value": "2400 mm W x 600\nmm H flat (wrapped to suit 1600 mm or 1800 mm desks, ~400 mm above desk)",
+        "standard": ""
+      },
+      {
+        "property": "Thickness",
+        "value": "12 mm (+/- 6%)",
+        "standard": ""
+      },
+      {
+        "property": "Material Composition",
+        "value": "100% polyester\nfibre (PET) Cube panel; clamp: 100% recycled PET / zinc",
+        "standard": ""
+      },
+      {
+        "property": "Recycled Content",
+        "value": "Minimum 80% post-consumer recycled\nPET",
+        "standard": ""
+      },
+      {
+        "property": "Fire Rating (Australia)",
+        "value": "Group 1, SMOGRArc < 100 m2/s2",
+        "standard": "AS ISO 9705 - 2003 /\nAS 5637.1:2015"
+      },
+      {
+        "property": "International Fire Classification",
+        "value": "Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a: FS:0 - SD:45); BS\nEN 13501-1:2018",
+        "standard": "ISO 9705 / ASTM E-84 / BS EN 13501-1"
+      },
+      {
+        "property": "Water Vapour Sorption",
+        "value": "0.4% by weight after 4 days\nat 49°C, 95% RH",
+        "standard": "ASTM C1104 / C1104M-13a"
+      },
+      {
+        "property": "Microbial Resistance",
+        "value": "Growth rating: 0 (No growth)",
+        "standard": "ASTM G21-15"
+      },
+      {
+        "property": "VOC Emissions",
+        "value": "< 0.092 mg/m3 (7\ndays)",
+        "standard": "CDPH Standard Method v1.2"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Vicinity Haven 1600",
+        "size_or_rating": "2400 mm W x 600 mm H x 12 mm\n(suits 1600mm desk)",
+        "pack": "Pack of 4 screens (2 pieces per screen)"
+      },
+      {
+        "variant": "Vicinity Haven 1800",
+        "size_or_rating": "2400 mm W x 600 mm H x 12\nmm (suits 1800mm desk)",
+        "pack": "Pack of 4 screens (2 pieces per screen)"
+      }
+    ],
+    "fire": "AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1 (SMOGRArc\n< 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM E-84-15a Class A; BS\nEN 13501-1:2018",
+    "compliance": "NCC Specification 7 (BCA C1.10) Group 1 fire\ncompliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354",
+    "sustainability": "Carbon neutral product; minimum 80% recycled PET; clamps made from 100%\nrecycled PET; Declare Red List Free; EPD verified; low VOC",
+    "install": [
+      "Unpack Vicinity Haven screen pieces and layout around workstation perimeter",
+      "Slide Vicinity Workstation Clamps into pre-routed slots in the screen",
+      "Align\nthe wrapped corner treatment to wrap neatly around the desk edges",
+      "Tighten\nclamp screws from the underside of desktop using an Allen key",
+      "Ensure screen\nsits firmly upright, enclosing rear and side boundaries securely"
+    ],
+    "selection_checklist": [
+      "Confirm desk size (Haven 1600 for 1600mm desks or\nHaven 1800 for 1800mm desks)",
+      "Verify desk edge clearance around monitor arms\nand cable trays",
+      "Select colour from the Autex Cube palette",
+      "Confirm required\npack quantity (packs of 4 screens, 2 pieces per screen)",
+      "Check that user\negress is unobstructed by the wrap-around screen"
+    ],
+    "accessories": [
+      "Vicinity\nWorkstation Clamps",
+      "Allen key"
+    ],
+    "limitations": [
+      "Indoor use only; avoid wet\nareas or direct liquid contact",
+      "Requires compatible desk edge overhang for\nclamp engagement",
+      "Ensure wrap-around screen width matches exact workstation\ndesk size"
+    ],
+    "warranty": "Manufacturer's Guarantee (10 years)"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Autex Vicinity Haven",
+      "Vicinity Desk Screen Haven",
+      "wrap\naround desk screen",
+      "Haven 1600 desk screen",
+      "Haven 1800 desk screen",
+      "acoustic workstation enclosure",
+      "acoustic privacy screen Haven",
+      "Cube wrap\naround screen",
+      "clamp desk screen Haven"
+    ],
+    "problem_keywords": [
+      "distracting\nnoise in open plan office",
+      "lack of privacy on corner desks",
+      "phone\nconversation privacy in open office",
+      "noisy workstation cluster",
+      "need wrap\naround desk partition",
+      "reverberation around workstations"
+    ],
+    "placement": [
+      "internal wall"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "sustainability",
+      "easy_install",
+      "fire"
+    ],
+    "use_cases": [
+      "Wrapping corner and linear\nworkstations to create high-privacy acoustic pods in corporate offices",
+      "Isolating noise between adjacent telephone-intensive customer service desks",
+      "Providing personal focus alcoves in university study hubs and co-working\nspaces"
+    ],
+    "not_for": [
+      "Free-standing floor screens",
+      "External weather-exposed\ninstallations",
+      "Direct ceiling fixing"
+    ],
+    "rag_summary": "Autex Vicinity Desk\nScreen - Haven is an extended wrap-around acoustic desk screen system engineered\nfrom 12mm Cube polyester felt to enclose the rear and side of 1600mm or 1800mm\ndesks. Delivering an outstanding sound absorption rating of 1.55 Sabins per\nunit, it forms an acoustic and visual sanctuary that shields workers from\nopen-office chatter. Secured non-destructively via 100% recycled PET Vicinity\nClamps and achieving Group 1 fire compliance, Haven offers a circular,\nhigh-performance workstation partition solution."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

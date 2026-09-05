@@ -1,0 +1,155 @@
+{
+  "family_id": "AUTEX_VICINITY_DESK_SCREEN_CREST",
+  "family_name": "Autex Vicinity - Desk Screen - Crest",
+  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/vicinity/",
+  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Autex Vicinity Desk Screen - Crest is an elegant, lightweight acoustic desk\ndivider designed to provide acoustic and visual privacy in open-plan workspaces.\nFeaturing a curved, crest-like wave profile, Crest fixes non-destructively to\ndesks using dedicated Vicinity Desk Clamps. Made from 100% polyester fibre with\nan 80% recycled PET core, it absorbs sound at the source (0.70 Sabins per unit)\nand complies with Group 1 fire safety standards.",
+    "features": [
+      "Curved crest\nwave-like top profile providing visual and acoustic shelter",
+      "Fixes\nnon-destructively to standard desks using Vicinity Workstation Clamps",
+      "Delivers acoustic sound absorption of 0.70 Sabins per unit",
+      "Constructed\nfrom 100% polyester fibre containing a minimum of 80% recycled PET",
+      "Group 1\nfire rating compliant with AS ISO 9705 - 2003 and AS 5637.1",
+      "Solid colour\nthroughout with neat clean edges; no capping or framing required",
+      "Pinnable\nself-healing surface for notes and personal organisation",
+      "Clamps manufactured\nfrom 100% recycled PET (RePET) or powdercoated zinc",
+      "Moisture and mould\nresistant (ASTM G21-15 Growth Rating: 0)",
+      "Certified Carbon Neutral product\nwith third-party verified EPD"
+    ],
+    "applications": [
+      "internal wall"
+    ],
+    "technical": [
+      {
+        "property": "Acoustic Performance",
+        "value": "0.70 Sabins per\nunit\n(125Hz: 0.20, 250Hz: 0.45, 500Hz: 0.60, 1000Hz: 0.75, 2000Hz: 0.95, 4000Hz: 1.05)",
+        "standard": "ISO 354"
+      },
+      {
+        "property": "Dimensions",
+        "value": "1190 mm width\nx 600 mm height (to suit 1600 mm desks, sits ~400 mm above desk)",
+        "standard": ""
+      },
+      {
+        "property": "Thickness",
+        "value": "12 mm (+/- 6%)",
+        "standard": ""
+      },
+      {
+        "property": "Material Composition",
+        "value": "100% polyester fibre (PET) Cube\npanel; clamp: 100% recycled PET / zinc",
+        "standard": ""
+      },
+      {
+        "property": "Recycled Content",
+        "value": "Minimum 80% post-consumer recycled PET",
+        "standard": ""
+      },
+      {
+        "property": "Fire Rating (Australia)",
+        "value": "Group 1,\nSMOGRArc < 100 m2/s2",
+        "standard": "AS ISO 9705 - 2003 / AS 5637.1:2015"
+      },
+      {
+        "property": "International Fire Classification",
+        "value": "Group 1-S\n(ISO 9705:1993); Class A (ASTM E-84-15a: FS:0 - SD:45); BS EN 13501-1:2018",
+        "standard": "ISO 9705 / ASTM E-84 / BS EN 13501-1"
+      },
+      {
+        "property": "Water\nVapour Sorption",
+        "value": "0.4% by weight after 4 days at 49°C, 95% RH",
+        "standard": "ASTM C1104 / C1104M-13a"
+      },
+      {
+        "property": "Microbial Resistance",
+        "value": "Growth rating: 0 (No growth)",
+        "standard": "ASTM G21-15"
+      },
+      {
+        "property": "VOC Emissions",
+        "value": "< 0.092 mg/m3 (7 days)",
+        "standard": "CDPH Standard Method v1.2"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Vicinity Crest 1600",
+        "size_or_rating": "1190 mm W x 600 mm H x 12 mm (suits 1600mm desk)",
+        "pack": "Pack of 4 screens (2 pieces per screen)"
+      }
+    ],
+    "fire": "AS ISO 9705 - 2003 and\nAS 5637.1 Classification: Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993\nGroup 1-S; ASTM E-84-15a Class A; BS EN 13501-1:2018",
+    "compliance": "NCC\nSpecification 7 (BCA C1.10) Group 1 fire compliance; AS ISO 9705:2003;\nAS 5637.1:2015; ISO 354",
+    "sustainability": "Carbon neutral product; minimum 80%\nrecycled PET; clamps made from 100% recycled PET; Declare Red List Free; EPD\nverified; low VOC",
+    "install": [
+      "Unpack Vicinity Crest panels and inspect\ncomponents",
+      "Slide Vicinity Workstation Clamps into pre-cut sockets along the\nbottom edge of the screen",
+      "Position the screen assembly along the edge of the\ndesk at desired location",
+      "Tighten the clamp mounting bolts from the underside\nusing an Allen key until firmly clamped to desktop",
+      "Check screen is upright\nand stable without over-tightening"
+    ],
+    "selection_checklist": [
+      "Confirm desk\nlength (Crest 1600 suits 1600mm desks)",
+      "Verify desk top thickness and edge\noverhang accommodate Vicinity Clamps",
+      "Select colour from Autex Cube palette\n(20+ colours)",
+      "Confirm pack quantity (supplied in packs of 4 screens, 2 pieces\nper screen)",
+      "Ensure space layout supports curved Crest profile"
+    ],
+    "accessories": [
+      "Vicinity Workstation Clamps",
+      "Allen key"
+    ],
+    "limitations": [
+      "Indoor use only; avoid wet areas or direct liquid contact",
+      "Clamp requires a\nsolid desk edge with adequate overhang",
+      "Product has a directional grain;\nmaintain consistent orientation"
+    ],
+    "warranty": "Manufacturer's Guarantee (10\nyears)"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Autex Vicinity Crest",
+      "Vicinity\nDesk Screen Crest",
+      "acoustic desk screen Crest",
+      "desk privacy screen Autex",
+      "acoustic desk divider 1600",
+      "curved desk acoustic screen",
+      "pinnable desk\nscreen",
+      "Cube desk divider",
+      "clamp on desk screen"
+    ],
+    "problem_keywords": [
+      "distracting open plan office noise",
+      "lack of privacy between desks",
+      "echo in\nopen plan workstation",
+      "keyboard chatter noise",
+      "need non destructive desk\nscreen",
+      "desk partition without drilling"
+    ],
+    "placement": [
+      "internal wall"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "sustainability",
+      "easy_install",
+      "fire"
+    ],
+    "use_cases": [
+      "Dividing facing desks in commercial open-plan offices to\nmitigate conversational distractions",
+      "Providing personal acoustic shelter and\nvisual privacy in co-working spaces",
+      "Creating pinnable, sound-absorbing\nbarriers in university computer labs and study halls"
+    ],
+    "not_for": [
+      "Direct\nfloor standing partition without feet or frame",
+      "Exterior outdoor desks",
+      "Direct ceiling suspension"
+    ],
+    "rag_summary": "Autex Vicinity Desk Screen -\nCrest is a lightweight 12mm acoustic desk screen featuring a gentle curved crest\nprofile, designed to clamp non-destructively to 1600mm workstations. Made\nfrom 100% polyester fibre with an 80% recycled PET core, it absorbs\nconversational noise at the source (0.70 Sabins per unit) while providing a\npinnable self-healing noticeboard. Achieving Group 1 fire compliance under AS\nISO 9705 and certified carbon neutral, Crest delivers acoustic comfort and\nvisual privacy for modern agile offices."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

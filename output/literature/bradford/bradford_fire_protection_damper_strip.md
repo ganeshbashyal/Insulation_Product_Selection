@@ -1,7 +1,7 @@
 ---
 title: "Bradford Fire Protection - Damper Strip - Batt Insulation | Bradford"
-description: "Part of the CSR family with 100+ years of Australian building solutions. Made from natural volcanic rock with superior fire resistance and acoustic pe"
-keywords: "Bradford Fire Protection - Damper Strip, Bradford batt, acoustic insulation, wall insulation, ceiling insulation, floor insulation, insulation Australia, Bradford Australia"
+description: "Bradford Fireseal Fire Damper Strip is a high-density, non-combustible rockwool insulation material specifically formulated to provide passive fire pr"
+keywords: "Bradford Fire Protection - Damper Strip, Bradford batt, wall insulation, floor insulation, pipe insulation, duct insulation, insulation Australia, Bradford Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: BRADFORD_FIRE_PROTECTION_DAMPER_STRIP
 ---
@@ -10,30 +10,35 @@ family_id: BRADFORD_FIRE_PROTECTION_DAMPER_STRIP
 
 **Bradford Batt** — bulk insulation batts for thermal and acoustic performance.
 
-Part of the CSR family with 100+ years of Australian building solutions. Made from natural volcanic rock with superior fire resistance and acoustic performance. Rigid design makes installation fast and efficient.
+Bradford Fireseal Fire Damper Strip is a high-density, non-combustible rockwool insulation material specifically formulated to provide passive fire protection around fire dampers, service penetrations, and control joints. Manufactured by spinning molten natural rock and recycled blast furnace slag into bio-soluble fibres bonded with a thermosetting resin, it offers remarkable resistance to shrinkage at extreme fire temperatures up to 820°C. It is installed compressed in the gap between a fire damper sleeve and the fire-rated wall or floor structure.
 
 ## Key features
 
-- Non-combustible stonewool made from natural volcanic rock.
-- superior fire resistance up to 1000°C.
-- excellent acoustic absorption properties.
-- fully recyclable at end of life.
-- rigid design prevents sagging between joists.
-- reduces drafts and cold floors.
-- excellent thermal performance for roof/ceiling applications.
-- 50 Year Warranty backed by CSR.
+- Non-combustible stone wool material complying with AS 1530.1.
+- Exceptional resistance to shrinkage under high fire temperatures.
+- Specifically engineered for fire damper gaps and penetration sealing.
+- High nominal density of 110 kg/m³ (Fibertex 820 base).
+- Biosoluble safe-to-use FBS-1 rockwool formulation.
+- Performance not adversely affected by contact with water.
+- Easy to cut and friction-fit into tight structural joints.
+- Made from natural rock and up to 40% recycled blast furnace slag.
+- Suitable for Fire Resistance Levels (FRL) up to -/240/240 in tested systems.
 
 ## Applications and selection
 
-- Internal Wall | Ceiling | Floor | General Acoustic
+- duct
+- pipe
+- wall
+- internal wall
+- floor
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Verify required Fire Resistance Level (FRL) and damper certification details.
+2. Confirm gap dimensions between damper sleeve and structural wall/floor (typically 10-25mm).
+3. Determine number of layers needed based on annular gap width.
+4. Calculate total linear metres required around damper perimeters.
+5. Confirm substrate compatibility (Speedpanel, Hebel, masonry, or drywall).
 
 
 ## Current catalogue range
@@ -44,37 +49,51 @@ Part of the CSR family with 100+ years of Australian building solutions. Made fr
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Batt | Manufacturer catalogue |
-| Material | Stonewool | Manufacturer catalogue |
-| Applications | Internal Wall | Ceiling | Floor | General Acoustic | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material | Bio-soluble rockwool (FBS-1) | - |
+| Nominal Density | 110 kg/m³ | - |
+| Thickness | 13 mm | - |
+| Dimensions | 750 mm x 225 mm (or 750 mm x 75 mm) | - |
+| Combustibility | Non-combustible | AS 1530.1 |
+| Fire Hazard Indices | Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1 | AS/NZS 1530.3 |
+| Maximum Service Temperature | 820°C (continuous) | - |
+| Required Installation Compression | Minimum 15% compression (compressed to 85% of original thickness) | AS 1668.1 / AS 4072.1 |
 
-
+Extracted from manufacturer datasheet: https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/walls/fireseal
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Non-combustible to AS 1530.1; AS/NZS 1530.3 indices: Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1; Suitable for FRLs up to -/240/240 when installed as part of tested systems (AS 1530.4, AS 4072.1, AS 1668.1)
+
+AS 1530.1, AS 1530.4, AS 1668.1, AS 4072.1, NCC Deemed-to-Satisfy non-combustible material
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.csrbradford.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://www.firecrunch.com.au/wp-content/uploads/2016/02/BRADFORD-MSDS-e3a0-435b-b6ef-6f1027726ce6.pdf.
 
+## Recommended accessories
+
+- Fire-rated polyurethane or acrylic sealant.
+- Galvanised steel retaining angles.
+- Foil sealing tape.
+
 
 ## Limitations and warnings
 
-- Keep dry during storage and installation..
-- not a water or vapour barrier..
-- do not compress - compression reduces R-value performance..
-- not to be exposed to weather..
-- maximum service temperature 750°C..
-- Ensure adequate subfloor ventilation is maintained..
+- Must be compressed by at least 15% to maintain rated fire integrity.
+- Not designed as external exposed weatherproofing without protective flashing.
+- Must not be loaded structurally; damper body must be independently supported.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Keep dry during storage and installation.
+1. Clean opening around fire damper sleeve, pipe penetration, or control joint.
+2. Cut Fireseal Damper Strip to length allowing for continuous perimeter wrapping.
+3. Pack strips tightly into the gap between damper sleeve and fire-rated substrate.
+4. Ensure the 13mm strip is compressed by at least 15% (to 11mm or less) to form a tight seal.
+5. Seal all butt joints neatly with approved fire-rated sealant or tape if required by system specification.
+6. Fix damper retaining angles over the joint as per manufacturer fire test requirements.
 
 ## Safety and handling
 
@@ -82,11 +101,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Manufactured from up to 40% recycled blast furnace slag; FBS-1 bio-soluble formulation; zero ODP
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Backed by CSR Bradford product warranty
 
 ## Specification starting point
 

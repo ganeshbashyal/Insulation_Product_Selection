@@ -1,7 +1,7 @@
 ---
 title: "Bradford Fire Protection - Filler - Batt Insulation | Bradford"
-description: "Part of the CSR family with 100+ years of Australian building solutions. Made from natural volcanic rock with superior fire resistance and acoustic pe"
-keywords: "Bradford Fire Protection - Filler, Bradford batt, acoustic insulation, wall insulation, ceiling insulation, floor insulation, insulation Australia, Bradford Australia"
+description: "Bradford Fire Protection - Filler (Fireseal Party Wall Batten Fillers) are pre-cut, non-combustible rockwool insulation inserts designed to seal hollo"
+keywords: "Bradford Fire Protection - Filler, Bradford batt, wall insulation, ceiling insulation, roof insulation, insulation Australia, Bradford Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: BRADFORD_FIRE_PROTECTION_FILLER
 ---
@@ -10,30 +10,33 @@ family_id: BRADFORD_FIRE_PROTECTION_FILLER
 
 **Bradford Batt** — bulk insulation batts for thermal and acoustic performance.
 
-Part of the CSR family with 100+ years of Australian building solutions. Made from natural volcanic rock with superior fire resistance and acoustic performance. Rigid design makes installation fast and efficient.
+Bradford Fire Protection - Filler (Fireseal Party Wall Batten Fillers) are pre-cut, non-combustible rockwool insulation inserts designed to seal hollow metal roof and ceiling battens crossing fire-rated separating walls in Class 1 residential buildings. Manufactured from high-temperature rockwool, these inserts fill the 40mm metal batten profile to prevent flame, hot gases, and embers from bypassing the fire compartment boundary. They are purpose-shaped to compress snugly inside steel batten profiles to meet NCC and BCA Deemed-to-Satisfy requirements.
 
 ## Key features
 
-- Non-combustible stonewool made from natural volcanic rock.
-- superior fire resistance up to 1000°C.
-- excellent acoustic absorption properties.
-- fully recyclable at end of life.
-- rigid design prevents sagging between joists.
-- reduces drafts and cold floors.
-- excellent thermal performance for roof/ceiling applications.
-- 50 Year Warranty backed by CSR.
+- Non-combustible stone wool construction complying with AS 1530.1.
+- Pre-cut to fit standard 40mm residential metal roof and ceiling battens.
+- Prevents fire spreading through hollow steel batten cavities over party walls.
+- High resistance to shrinkage under extreme fire temperatures up to 1000°C.
+- Biosoluble FBS-1 rockwool formulation.
+- Quick and easy push-fit installation during roofing or ceiling construction.
+- Performance unaffected by contact with moisture or water.
+- Purpose-designed for Class 1 multi-residential party wall junctions.
 
 ## Applications and selection
 
-- Internal Wall | Ceiling | Floor | General Acoustic
+- roof
+- roofline
+- ceiling
+- wall
+- internal wall
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm metal batten size (standard 40mm profile).
+2. Count total number of continuous steel battens crossing the party wall line.
+3. Ensure sufficient boxes are ordered (35 fillers per box).
+4. Verify party wall system design and FRL specifications.
 
 
 ## Current catalogue range
@@ -44,37 +47,48 @@ Part of the CSR family with 100+ years of Australian building solutions. Made fr
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Batt | Manufacturer catalogue |
-| Material | Stonewool | Manufacturer catalogue |
-| Applications | Internal Wall | Ceiling | Floor | General Acoustic | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material | Bio-soluble rockwool (FBS-1) | - |
+| Dimensions | 100 mm length x 40 mm height | - |
+| Profile Compatibility | Standard 40 mm metal roof and ceiling battens | - |
+| Combustibility | Non-combustible | AS 1530.1 |
+| Fire Hazard Indices | Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1 | AS/NZS 1530.3 |
+| Pack Quantity | 35 pieces per box (3.5 lineal metres) | - |
+| Product Code | 125418 | - |
 
-
+Extracted from manufacturer datasheet: https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/walls/fireseal
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Non-combustible to AS 1530.1; Early Fire Hazard indices to AS/NZS 1530.3: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-1; Meets NCC Class 1 separating wall Deemed-to-Satisfy fire provisions
+
+NCC Volume Two / ABCB Housing Provisions Part 9.3 (Separating walls fire protection), AS 1530.1
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.csrbradford.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://www.firecrunch.com.au/wp-content/uploads/2016/02/BRADFORD-MSDS-e3a0-435b-b6ef-6f1027726ce6.pdf.
 
+## Recommended accessories
+
+- Bradford Fireseal Party Wall Sealer.
+- Bradford Fireseal Party Wall Batts.
+
 
 ## Limitations and warnings
 
-- Keep dry during storage and installation..
-- not a water or vapour barrier..
-- do not compress - compression reduces R-value performance..
-- not to be exposed to weather..
-- maximum service temperature 750°C..
-- Ensure adequate subfloor ventilation is maintained..
+- Designed specifically for hollow metal batten cavities; not for wide masonry gaps.
+- Must be protected from direct weather exposure prior to roof cladding installation.
+- Cannot substitute for party wall blanket or vertical joint batts.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Keep dry during storage and installation.
+1. Locate metal roof or ceiling battens crossing directly over the fire-rated party wall.
+2. Insert a Fireseal Batten Filler into the open cavity of each continuous steel batten.
+3. Centre the filler directly over the party wall line.
+4. Ensure the filler compresses firmly against the inner faces of the steel batten profile.
+5. Check that no air gap or void remains through the batten cross-section.
 
 ## Safety and handling
 
@@ -82,11 +96,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Manufactured using natural rock and recycled slag; bio-soluble FBS-1; zero ODP
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Backed by CSR Bradford product warranty
 
 ## Specification starting point
 

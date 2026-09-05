@@ -1,0 +1,839 @@
+[ { "family_id": "AUTEX_FRONTIER_RAFT_TRAPEZOID", "tds_url":
+"https://www.autexglobal.com/au/products/frontier/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Frontier Raft - Trapezoid is an innovative acoustic ceiling beam system
+designed for targeted sound absorption in open-plan spaces. Constructed
+from 100% polyester fibre using scored and folded 12mm Cube material locked with
+an extruded aluminium channel, Trapezoid creates a lightweight 3D acoustic
+feature with an internal sound-dampening air gap. It easily fixes directly or
+suspends from ceilings, delivering high acoustic performance across a wide
+frequency range without the weight of solid timber or metal beams.", "features":
+[ "Innovative scored and folded hollow 3D trapezoid profile (200mm wide x 137mm
+deep)", "Made from 100% polyester fibre containing a minimum of 60% recycled
+PET", "Group 1 fire rating compliant with AS ISO 9705 - 2003 and AS 5637.1",
+"Sound absorption with internal air cavity achieving high NRC (0.75 - 0.95)",
+"Lightweight alternative to solid wood or steel ceiling beams", "Compatible with
+Frontier channel and mounting clip suspension systems", "Highly durable material
+that will not bend, slump, or warp over time", "Resistant to moisture, mould,
+and mildew (ASTM G21-15 Growth Rating: 0)", "Safe, non-toxic, non-allergenic,
+and low-VOC emissions", "Backed by a 10-year manufacturer's guarantee" ],
+"applications": [ "ceiling", "open-plan office", "commercial interior",
+"education", "retail", "hospitality" ], "technical": [ { "property": "Material
+Composition", "value": "100% polyester fibre (PET) with aluminium extrusion
+channel", "standard": "" }, { "property": "Profile Dimensions", "value": "200 mm
+width x 137 mm height (inclusive of extrusion)", "standard": "" }, { "property":
+"Length", "value": "1200 mm or 2400 mm", "standard": "" }, { "property": "Base
+Material Thickness", "value": "12 mm Cube panel", "standard": "" }, {
+"property": "Acoustic Performance", "value": "NRC 0.75 - 0.95 (at 300 mm
+centres, 200 mm off ceiling)", "standard": "ISO 354" }, { "property": "Fire
+Hazard Classification", "value": "Group 1, SMOGRArc < 100 m2/s2", "standard":
+"AS ISO 9705 - 2003 / AS 5637.1:2015" }, { "property": "Fire Hazard Properties",
+"value": "Class A, FS:0 - SD:45", "standard": "ASTM E-84-15a" }, { "property":
+"International Fire Classification", "value": "Group 1-S (ISO 9705:1993) / B-s2,
+d0 (BS EN 13501-1:2018)", "standard": "ISO 9705 / BS EN 13501-1" }, {
+"property": "Water Vapour Sorption", "value": "0.4% by weight after 4 days
+at 49°C, 95% RH", "standard": "ASTM C1104 / C1104M-13a" }, { "property":
+"Microbial Resistance", "value": "Growth rating: 0 (No growth)", "standard":
+"ASTM G21-15" }, { "property": "VOC Emissions", "value": "Low VOC, CDPH
+compliant (<0.092 mg/m3)", "standard": "CDPH v1.2" } ], "range": [ { "variant":
+"Frontier Raft Trapezoid 2400mm", "size_or_rating": "2400mm L x 200mm W x 137mm
+H (Pack covers 2.88 m2 at 300mm centres)", "pack": "4 rafts per pack" }, {
+"variant": "Frontier Raft Trapezoid 1200mm", "size_or_rating": "1200mm L x 200mm
+W x 137mm H (Pack covers 2.88 m2 at 300mm centres)", "pack": "8 rafts per pack"
+} ], "fire": "Group 1 (AS ISO 9705 - 2003 / AS 5637.1:2015, SMOGRArc < 100
+m2/s2); ISO 9705:1993 Group 1-S; ASTM E-84-15a Class A (FS:0, SD:45); BS
+EN 13501-1:2018 B-s2, d0", "compliance": "NCC BCA Specification C1.10 Group 1
+fire compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354", "sustainability":
+"Contains minimum 60% post-consumer recycled PET; zero carbon manufacturing;
+Declare Red List Free; EPD verified; low VOC", "install": [ "Plan ceiling layout
+allowing recommended 300mm spacing between raft centres", "Securely install
+Frontier mounting clips or suspension track to structural ceiling", "Slide
+RAFNEXRT aluminium extrusion into the folded Trapezoid raft top channel", "Align
+Autex mounting clips with channel and turn 45 degrees to temporarily position",
+"Adjust along length and twist clips 90 degrees to lock firmly in place", "Fit
+black extrusion end caps to ends for a neat aesthetic finish" ],
+"selection_checklist": [ "Confirm ceiling height and available plenum space
+for 137mm deep profile", "Select raft length (1200mm or 2400mm) and calculate
+pack quantities based on 300mm spacing", "Choose colourway from Autex Cube solid
+colour or Acoustic Timber printed finish range", "Verify direct-fix or suspended
+installation hardware requirement", "Confirm local seismic bracing requirements
+if applicable" ], "accessories": [ "Frontier Raft Extrusions (RAFNEXRT)", "Autex
+Mounting Clips (RAFTCC)", "Frontier Channel Connectors (RAFCCT)", "Adjustable
+suspension cable sets / rod hangers", "Frontier Trapezoid end caps" ],
+"limitations": [ "Indoor ceiling application only; not for external use or wet
+environments", "Not load-bearing; cannot support fixtures, lighting, or
+services", "Spacing wider than recommended will decrease overall room acoustic
+absorption" ], "warranty": "10 Year Manufacturer's Guarantee", "found": true,
+"search_keywords": [ "Autex Frontier Raft", "Frontier Raft Trapezoid", "Autex
+acoustic baffles", "polyester ceiling beams", "trapezoid acoustic raft",
+"acoustic ceiling baffles", "Autex raft trapezoid", "Cube ceiling baffle",
+"suspended acoustic beams" ], "problem_keywords": [ "echo in open plan office",
+"reverberant exposed concrete ceiling", "noisy commercial fitout", "high ceiling
+echo", "speech clarity in meeting spaces", "decorative acoustic treatment" ],
+"placement": [ "ceiling" ], "priority_fit": [ "acoustic", "fire",
+"sustainability", "easy_install" ], "use_cases": [ "Suspended linear acoustic
+features over open-plan office desk clusters to cut speech distractions",
+"Direct-fixed acoustic ceiling beams in educational lecture halls and school
+libraries", "Architectural sound absorption in hospitality dining rooms and
+commercial reception foyers" ], "not_for": [ "Underfloor insulation
+applications", "External weather-exposed roofing or cladding", "Direct foot
+traffic or heavy impact floor zones" ], "rag_summary": "Autex Frontier Raft -
+Trapezoid is a 3D acoustic ceiling beam system formed from scored and
+folded 12mm Cube polyester panels locking into an aluminium suspension channel.
+Sized at 200mm wide by 137mm high in 1200mm or 2400mm lengths, its hollow
+profile and internal air gap deliver high sound absorption (NRC 0.75 - 0.95)
+across speech frequencies. Achieving NCC Group 1 fire compliance and
+carbon-neutral certification with over 60% recycled PET content, it offers an
+architecturally striking, lightweight alternative to solid timber baffles for
+open-plan commercial, educational, and hospitality interiors." }, { "family_id":
+"AUTEX_GREENSTUF_AUTEX_SOFFIT_SLAB_LINER", "tds_url":
+"https://www.greenstuf.com.au/products/", "sds_url":
+"https://www.greenstuf.com.au/resources/technical-documents/", "description":
+"GreenStuf Autex Soffit and Slab Liner (ASL) is a high-density, Group 1
+fire-rated 100% polyester insulation panel engineered for thermal and acoustic
+lining of masonry, concrete slab, and metal pan soffits. Designed for exposed
+and semi-exposed applications in commercial carparks, basements, and open-plenum
+interiors, it enhances thermal resistance of the building envelope while
+absorbing reverberant noise. Manufactured without chemical binders or
+formaldehyde, ASL is non-toxic, moisture-resistant, and 100% recyclable with
+circular takeback options.", "features": [ "Group 1 fire rating compliant with
+AS ISO 9705:2003 and AS 5637.1", "Dual thermal and acoustic performance for
+exposed concrete soffits", "Made from 100% polyester fibre with high recycled
+PET content", "Completely non-toxic, non-allergenic, and non-irritant with zero
+itch", "Thermal ratings from R1.0 to R2.5 (thicknesses 50mm to 100mm)", "High
+acoustic absorption controlling reverberation under hard slabs", "Durable and
+moisture resistant; absorption < 0.03% by weight", "Naturally resistant to
+vermin, insects, mould, and mildew", "Available in Flint (light grey) and
+Charcoal (dark grey) finishes", "10-year product warranty and 50-year durability
+design life" ], "applications": [ "underside of masonry floors", "concrete
+soffit", "car park ceiling", "basement slab", "metal pan floor/ceiling" ],
+"technical": [ { "property": "Material Composition", "value": "100% polyester
+fibre (thermally bonded)", "standard": "" }, { "property": "Thermal Resistance
+(R-value)", "value": "R1.0 (50mm), R1.5 (65mm), R2.0 (75-80mm), R2.5 (100mm)",
+"standard": "ASTM C518 / AS/NZS 4859.1" }, { "property": "Sheet Dimensions",
+"value": "1200 mm x 2400 mm", "standard": "" }, { "property": "Thickness
+Options", "value": "50 mm, 65 mm, 75 mm, 100 mm", "standard": "" }, {
+"property": "Fire Hazard Classification", "value": "Group 1, SMOGRArc < 100
+m2/s2", "standard": "AS ISO 9705:2003 / AS 5637.1:2015" }, { "property":
+"International Fire Rating", "value": "Group 1-S", "standard": "ISO 9705:1993"
+}, { "property": "Moisture Absorption", "value": "< 0.03% by weight after 4 days
+at 50°C, 90% RH", "standard": "" }, { "property": "VOC Emissions", "value":
+"0.01 mg/m3 (7 days)", "standard": "Cetec" }, { "property": "Corrosion
+Resistance", "value": "Non-corrosive, pH 7.8", "standard": "AS/NZS 4859.1" } ],
+"range": [ { "variant": "GreenStuf ASL R1.0", "size_or_rating": "50mm x 1200mm
+x 2400mm", "pack": "Panel" }, { "variant": "GreenStuf ASL R1.5",
+"size_or_rating": "65mm x 1200mm x 2400mm", "pack": "Panel" }, { "variant":
+"GreenStuf ASL R2.0", "size_or_rating": "75mm/80mm x 1200mm x 2400mm", "pack":
+"Panel" }, { "variant": "GreenStuf ASL R2.5", "size_or_rating": "100mm x 1200mm
+x 2400mm", "pack": "Panel" } ], "fire": "Group 1 (AS ISO 9705:2003 /
+AS 5637.1:2015, SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S", "compliance":
+"NCC BCA Section J energy efficiency compliance; AS/NZS 4859.1; AS
+ISO 9705:2003; AS 5637.1:2015; ABCB Durability in Buildings 50-year design
+life", "sustainability": "Global GreenTag GreenRate Level A; 100% recyclable;
+high recycled PET content; zero formaldehyde or chemical binders; Declare Red
+List Free", "install": [ "Check concrete slab is fully cured, clean, dry, and
+free of oil, grease, or contaminants", "Set out grid lines on the slab to align
+panel joints neatly", "Direct-fix using approved insulation masonry fasteners
+and large washer heads (min 5-6 fixings per sheet)", "Fasten fasteners at 100mm
+from sheet edges and distributed evenly across panel centre", "Butt-join panels
+tightly to maintain thermal envelope continuity", "Trim neatly around service
+penetrations, pipes, and electrical conduits with a serrated knife" ],
+"selection_checklist": [ "Confirm NCC Section J required R-value for the carpark
+or suspended slab", "Verify Group 1 fire rating requirement for exposed
+ceiling/soffit linings", "Select colourway (Flint light grey or Charcoal dark
+grey)", "Confirm slab fixing type (masonry drive anchors / insulation pins with
+retaining washers)", "Verify clearance requirements around mechanical and
+electrical services" ], "accessories": [ "Concrete/masonry insulation fasteners
+with 50-75mm diameter retention washers", "Serrated insulation trimming knife"
+], "limitations": [ "Not intended for direct exterior weather exposure without
+protection", "Some minor colour variation across non-woven polyester batches is
+natural", "Panels compressed during freight require up to 72 hours to recover
+full nominal thickness" ], "warranty": "10 Year Manufacturer's Guarantee
+(50-year durability design life)", "found": true, "search_keywords": [ "Autex
+ASL", "GreenStuf Soffit Liner", "Slab Liner insulation", "Group 1 soffit
+insulation", "polyester soffit insulation", "carpark slab insulation", "Autex
+Soffit and Slab Liner", "GreenStuf ASL", "underslab acoustic insulation" ],
+"problem_keywords": [ "cold floor above uninsulated carpark", "concrete slab
+thermal loss", "noisy underground carpark reverberation", "meeting NCC Section J
+soffit requirements", "Group 1 fire compliance for exposed slab", "damp concrete
+basement insulation" ], "placement": [ "ceiling", "floor", "between floors",
+"underfloor" ], "priority_fit": [ "thermal", "acoustic", "fire",
+"sustainability" ], "use_cases": [ "Direct-fixed to concrete soffits in
+multi-residential basement car parks to meet Section J thermal efficiency",
+"Exposed thermal and acoustic lining under suspended concrete slabs in
+commercial podium levels", "Sound and thermal control lining to metal pan
+ceilings and plant room slabs" ], "not_for": [ "Direct ground contact under
+concrete footings", "Unprotected external exterior walls exposed to driving
+rain", "Direct roof sarking membrane substitution" ], "rag_summary": "Autex
+GreenStuf Soffit & Slab Liner (ASL) is a high-density, Group 1 fire-rated
+polyester insulation board designed for direct fixing to concrete slabs, masonry
+ceilings, and metal pans. Available in thicknesses from 50mm to 100mm (R1.0 to
+R2.5) in 1200mm x 2400mm panels, ASL delivers thermal performance for NCC
+Section J compliance while simultaneously controlling sound reverberation in
+commercial carparks and open basements. Non-toxic, moisture-resistant, and free
+from chemical binders, it is available in light grey Flint or dark grey Charcoal
+and backed by a 50-year durability design life." }, { "family_id":
+"AUTEX_GREENSTUF_POLYESTER_ACOUSTIC_BLANKET", "tds_url":
+"https://greenstuf.co.nz/products/acoustic-absorption-blanket-aab/", "sds_url":
+"https://www.greenstuf.com.au/resources/technical-documents/", "description":
+"GreenStuf Autex Acoustic Blanket (AAB) is a high-performance 100% polyester
+sound-absorbing insulation blanket engineered to control reverberation and
+transmission in commercial and institutional interiors. Supplied as lofted
+sheets in white or black, it is ideally suited for installation behind slotted
+timber, perforated metal panels, acoustic ceilings, and in wall cavities. Free
+from chemical binders and irritant fibres, AAB is non-toxic, moisture-resistant,
+and delivers superior sound absorption (NRC up to 0.95+).", "features": [
+"Engineered specifically for sound absorption and reverberation control",
+"Thermally bonded 100% polyester fibre without chemical binders or
+formaldehyde", "Available in black and white to suit open joints and perforated
+architectural linings", "Available in densities of 20kg/m3, 32kg/m3,
+and 48kg/m3", "High acoustic performance with NRC ratings from 0.70 to 1.00+",
+"Safe, non-allergenic, non-toxic, and itch-free handling without PPE", "Moisture
+resistant with water absorption < 0.03% by weight", "Resistant to vermin,
+insects, and fungal growth", "50-year durability warranty satisfying ABCB
+durability criteria", "100% recyclable with high recycled PET bottle content" ],
+"applications": [ "behind perforated ceiling panels", "slotted timber wall
+linings", "internal wall stud cavity", "acoustic baffle infill", "HVAC silencer
+infill", "cinema/auditorium acoustic treatment" ], "technical": [ { "property":
+"Material Composition", "value": "100% polyester fibre (thermally bonded)",
+"standard": "" }, { "property": "Density Options", "value": "20 kg/m3, 32
+kg/m3, 48 kg/m3", "standard": "" }, { "property": "Thickness Options", "value":
+"25 mm, 50 mm, 75 mm, 100 mm", "standard": "" }, { "property": "Sheet
+Dimensions", "value": "1200 mm x 2400 mm", "standard": "" }, { "property":
+"Acoustic Performance (NRC)", "value": "0.70 to 1.00+ depending on thickness and
+density", "standard": "ISO 354 / AS 1045" }, { "property": "Fire Rating (New
+Zealand)", "value": "Group 1-S", "standard": "ISO 9705:1993" }, { "property":
+"Early Fire Hazard Properties", "value": "Ignitability: 0, Spread of Flame: 0,
+Heat Evolved: 0, Smoke Developed: 0-3", "standard": "AS 1530.3" }, { "property":
+"Moisture Absorption", "value": "< 0.03% by weight after 4 days at 50°C, 90%
+RH", "standard": "" }, { "property": "VOC Emissions", "value": "0.01 mg/m3 (7
+days)", "standard": "Cetec" }, { "property": "Corrosion Resistance", "value":
+"Non-corrosive, pH 7.8", "standard": "AS/NZS 4859.1" } ], "range": [ {
+"variant": "GreenStuf AAB 20kg/m3", "size_or_rating": "25mm, 50mm, 75mm, 100mm
+x 1200mm x 2400mm (Black / White)", "pack": "Pack of sheets" }, { "variant":
+"GreenStuf AAB 32kg/m3", "size_or_rating": "25mm, 50mm, 75mm, 100mm x 1200mm
+x 2400mm (Black / White)", "pack": "Pack of sheets" }, { "variant": "GreenStuf
+AAB 48kg/m3", "size_or_rating": "25mm, 50mm, 75mm, 100mm x 1200mm x 2400mm
+(Black / White)", "pack": "Pack of sheets" } ], "fire": "Group 1-S
+(ISO 9705:1993); AS 1530.3: Ignitability 0, Spread of Flame 0, Heat Evolved 0,
+Smoke Developed 0-3", "compliance": "AS/NZS 4859.1; ISO 354 / AS 1045 acoustic
+testing; ABCB Durability in Buildings 50-year criteria; IEC 60695-11-5
+non-flammable", "sustainability": "100% recyclable PET; contains high recycled
+content; zero chemical binders, formaldehyde, or respirable fibres; low VOC",
+"install": [ "Ensure wall or ceiling framing/substrate is clean and dry", "Cut
+sheets to required dimensions using a sharp insulation knife or electric
+cutter", "For perforated panel backing, lay black AAB directly against the rear
+of perforated panels", "Friction-fit into wall studs or ceiling framing, or
+secure using mechanical fasteners or contact adhesive", "Butt edges tightly to
+eliminate acoustic flanking paths", "Maintain required clearances from recessed
+non-IC rated light fittings and high-heat flues" ], "selection_checklist": [
+"Confirm density (20kg, 32kg, or 48kg/m3) specified by acoustic engineer",
+"Confirm thickness (25mm, 50mm, 75mm, 100mm) and required NRC", "Select colour
+(Black is standard behind perforated/slotted panels to hide background framing;
+White for ceiling plenums)", "Calculate required area based on 1200mm x 2400mm
+sheet coverage (2.88 m2 per sheet)", "Verify fixing method (friction fit,
+adhesive, or pin fix)" ], "accessories": [ "Serrated insulation knife",
+"Insulation stick pins / washered fasteners", "Water-based contact adhesive" ],
+"limitations": [ "Not intended as an exposed decorative finish in high-traffic
+touch zones (use Quietspace Panel for exposed decorative use)", "Avoid direct
+exposure to liquid water or outdoor weathering" ], "warranty": "50 Year
+Durability Warranty", "found": true, "search_keywords": [ "Autex AAB",
+"GreenStuf Acoustic Blanket", "AAB acoustic insulation", "polyester acoustic
+blanket", "black acoustic insulation", "perforated panel acoustic backing",
+"Autex 32kg acoustic blanket", "Autex 48kg acoustic blanket", "theatre acoustic
+blanket" ], "problem_keywords": [ "reverberation behind slotted timber walls",
+"echo through perforated metal ceilings", "noisy plant room acoustic breakout",
+"auditorium sound reflection", "flanking noise in ceiling plenums", "itchy
+fibreglass behind acoustic timber" ], "placement": [ "ceiling", "wall",
+"internal wall", "between floors" ], "priority_fit": [ "acoustic", "thermal",
+"fire", "sustainability" ], "use_cases": [ "Acoustic backing absorber installed
+directly behind slotted timber and perforated metal wall panels", "Acoustic
+ceiling overlay above open-grid and perforated metal ceiling tiles in corporate
+boardrooms", "Sound absorption lining inside acoustic attenuation louvres,
+silencers, and ductwork plenum chambers", "Acoustic cavity infill in lecture
+theatres, recording studios, and cinema walls" ], "not_for": [ "High-wear
+exposed wall surfaces without protective perforated or timber panel covering",
+"Direct outdoor weather-exposed facades", "Subfloor soil contact" ],
+"rag_summary": "Autex GreenStuf Polyester Acoustic Blanket (AAB) is a premium
+sound-absorbing polyester insulation sheet available in densities of 20, 32,
+and 48 kg/m3 and thicknesses from 25mm to 100mm. Sized at 1200mm x 2400mm in
+solid black or white, it is specifically engineered to sit behind perforated
+metal, timber slats, and suspended ceiling systems to eliminate room echo and
+achieve high sound absorption coefficients (NRC 0.70 to 1.00+). Completely
+non-toxic, non-irritant, moisture resistant, and fire safe (AS 1530.3 0,0,0,0-3
+and Group 1-S), it delivers reliable commercial acoustic treatment backed by
+a 50-year durability warranty." }, { "family_id":
+"AUTEX_GRID_CEILING_TILES_FRAME_RECTANGLE_UNCAP", "tds_url":
+"https://www.autexglobal.com/au/products/grid-ceiling-tiles/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Grid Ceiling Tiles - Frame - Rectangle - Uncapped is a 3D acoustic
+ceiling tile designed to drop into standard 1200mm x 600mm suspended grid
+systems. Formed from 100% polyester fibre containing a minimum of 60% recycled
+PET, the Frame style creates an elegant perimeter-coffer border that defines
+each grid module. The uncapped design leaves the top open to the plenum,
+allowing ceiling airflow and lighting integration while providing targeted
+acoustic absorption (NRC 0.25 - 0.35) and Group 1 fire safety.", "features": [
+"Drop-in 3D rectangular acoustic tile for standard 1200mm x 600mm ceiling
+grids", "Frame style creates a crisp, architectural coffer border aesthetic",
+"Uncapped open-top design maintains ceiling plenum airflow and lighting
+pathways", "Made from 100% polyester fibre with a minimum of 60% recycled PET",
+"Group 1 fire rating compliant with AS ISO 9705 - 2003 and AS 5637.1", "Sound
+absorption controlling reverberation and speech chatter (NRC 0.25 - 0.35)",
+"Lightweight, durable, and will not crack, chip, or warp over time", "Resistant
+to moisture, mould, and mildew (ASTM G21-15 Growth Rating: 0)", "Certified
+Carbon Neutral product with third-party verified EPD", "Available in a
+comprehensive palette of solid Cube colourways" ], "applications": [ "ceiling",
+"commercial office", "education", "retail", "hospitality" ], "technical": [ {
+"property": "Tile Dimensions", "value": "1195 mm x 595 mm (nominal depth varies
+by design, typically 50 mm - 100 mm)", "standard": "" }, { "property": "Ceiling
+Grid Compatibility", "value": "Standard 1200 mm x 600 mm metric grid (15mm
+/ 24mm T-bar)", "standard": "" }, { "property": "Base Material Composition",
+"value": "100% polyester fibre (PET) Cube panel", "standard": "" }, {
+"property": "Recycled Content", "value": "Minimum 60% post-consumer recycled
+PET", "standard": "" }, { "property": "Sound Absorption (NRC)", "value": "0.25
+- 0.35 (uncapped configuration)", "standard": "ISO 354" }, { "property": "Fire
+Hazard Classification", "value": "Group 1, SMOGRArc < 100 m2/s2", "standard":
+"AS ISO 9705 - 2003 / AS 5637.1:2015" }, { "property": "International Fire
+Rating", "value": "Group 1-S (ISO 9705:1993) / B-s2, d0 (BS EN 13501-1:2018)",
+"standard": "ISO 9705 / BS EN 13501-1" }, { "property": "VOC Emissions",
+"value": "< 0.092 mg/m3 (7 days)", "standard": "CDPH Standard Method v1.2" }, {
+"property": "Microbial Resistance", "value": "Growth rating: 0 (No growth)",
+"standard": "ASTM G21-15" } ], "range": [ { "variant": "Grid Ceiling Tiles -
+Frame Rectangle Uncapped", "size_or_rating": "1195mm x 595mm (Rectangle 1200x600
+grid)", "pack": "Pack of tiles" } ], "fire": "Group 1 (AS ISO 9705 - 2003 /
+AS 5637.1:2015); Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a); B-s2, d0
+(BS EN 13501-1:2018)", "compliance": "NCC BCA Specification C1.10 Group 1 fire
+compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354; ISO 14001",
+"sustainability": "Certified Carbon Neutral; minimum 60% recycled PET; Declare
+Red List Free; EPD compliant with ISO 14025 and EN 15804", "install": [ "Ensure
+the suspended 1200mm x 600mm ceiling grid is square, level, and properly
+supported", "Check that all tiles are supplied from a single production batch to
+avoid colour variation", "Assemble the Frame tile components according to
+manufacturer instructions if supplied flat-packed", "Lift the assembled uncapped
+Frame tile through the grid opening at an angle", "Lower the tile gently onto
+the exposed grid flanges, ensuring perimeter notches seat squarely", "Where
+services or sprinklers occur, maintain required building code clearances" ],
+"selection_checklist": [ "Verify ceiling grid module is rectangular
+metric 1200mm x 600mm", "Confirm uncapped style is desired (leaves plenum
+visible from below)", "Select desired colour from Autex Cube palette",
+"Calculate pack quantities required for full ceiling or feature zones", "Ensure
+ceiling grid has adequate load capacity for 3D tiles" ], "accessories": [
+"Standard two-way exposed ceiling grid (15mm or 24mm tee)", "Utility knife for
+perimeter trimming" ], "limitations": [ "Uncapped configuration does not block
+sightlines into the ceiling plenum", "Lower NRC compared to capped versions;
+specify capped if maximum acoustic absorption is required", "Indoor use only;
+avoid direct water leaks or wet areas" ], "warranty": "Manufacturer's Guarantee
+(minimum 10 years)", "found": true, "search_keywords": [ "Autex Grid Ceiling
+Tiles", "Grid Ceiling Tiles Frame", "Rectangle uncapped ceiling tile", "Frame
+rectangle ceiling tile", "Autex 1200x600 ceiling tile", "3D grid acoustic
+ceiling tile", "coffer ceiling tile 1200x600", "uncapped drop in tile" ],
+"problem_keywords": [ "drab flat drop ceiling tiles", "echo in commercial office
+space", "need modern ceiling grid feature", "reverberation in open ceiling",
+"ugly mineral fibre ceiling replacement", "airflow through drop ceiling" ],
+"placement": [ "ceiling" ], "priority_fit": [ "acoustic", "fire",
+"sustainability", "easy_install" ], "use_cases": [ "Replacing standard 1200x600
+mineral fibre ceiling tiles in open-plan corporate offices to add depth and
+acoustic softening", "Creating textured perimeter coffer ceiling features in
+university lecture rooms and study spaces", "Acoustic and aesthetic ceiling
+refurbishment in retail showrooms and reception areas" ], "not_for": [ "Ceilings
+requiring complete visual blockage of the overhead plenum", "Wall panelling or
+underfloor applications", "Wet rooms, showers, or outdoor applications" ],
+"rag_summary": "Autex Grid Ceiling Tiles - Frame - Rectangle - Uncapped is
+a 1195mm x 595mm drop-in acoustic tile designed to transform standard 1200mm
+x 600mm suspended ceiling grids. Formed from 100% polyester fibre with over 60%
+recycled PET, its open-top coffer profile creates architectural depth while
+permitting plenum airflow. Offering Group 1 fire compliance and carbon-neutral
+certification, this uncapped Frame tile provides subtle sound absorption and a
+contemporary visual upgrade to conventional commercial drop ceilings." }, {
+"family_id": "AUTEX_GRID_CEILING_TILES_FRAME_VERTEX_RECTANGL", "tds_url":
+"https://www.autexglobal.com/au/products/grid-ceiling-tiles/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Grid Ceiling Tiles - Frame/Vertex - Rectangle - Capped is a
+high-performance 3D acoustic ceiling tile designed for standard 1200mm x 600mm
+suspended grid systems. Available in architectural Frame (coffer) or faceted
+Vertex styles, this capped version incorporates an integrated solid acoustic
+backing layer that conceals the ceiling plenum. Made from 100% polyester fibre
+with at least 60% recycled PET, it delivers enhanced sound absorption (NRC 0.60
+- 0.85) and Group 1 fire performance.", "features": [ "Drop-in 3D rectangular
+acoustic tile for standard 1200mm x 600mm ceiling grids", "Available in Frame
+(perimeter coffer) or Vertex (faceted prism) architectural styles", "Capped
+design includes an acoustic backing layer that completely conceals the plenum",
+"Delivers high acoustic absorption with NRC up to 0.60 - 0.85", "Made from 100%
+polyester fibre containing a minimum of 60% recycled PET", "Group 1 fire rating
+compliant with AS ISO 9705 - 2003 and AS 5637.1", "Non-toxic, non-allergenic,
+non-irritant, and free of chemical binders", "Certified Carbon Neutral product
+with third-party verified EPD", "Durable, lightweight polyester construction
+that will not crack, chip, or crumble", "Extensive selection of solid colourways
+from the Autex Cube collection" ], "applications": [ "ceiling", "corporate
+boardroom", "commercial office", "education", "hospitality" ], "technical": [ {
+"property": "Tile Dimensions", "value": "1195 mm x 595 mm (depth varies,
+typically 80 mm - 103 mm)", "standard": "" }, { "property": "Ceiling Grid
+Compatibility", "value": "Standard 1200 mm x 600 mm metric grid (15mm / 24mm
+T-bar)", "standard": "" }, { "property": "Material Composition", "value": "100%
+polyester fibre (PET) Cube panel", "standard": "" }, { "property": "Recycled
+Content", "value": "Minimum 60% post-consumer recycled PET", "standard": "" }, {
+"property": "Sound Absorption (NRC)", "value": "0.60 - 0.85 (capped
+configuration)", "standard": "ISO 354" }, { "property": "Fire Hazard
+Classification", "value": "Group 1, SMOGRArc < 100 m2/s2", "standard": "AS
+ISO 9705 - 2003 / AS 5637.1:2015" }, { "property": "International Fire Rating",
+"value": "Group 1-S (ISO 9705:1993) / B-s2, d0 (BS EN 13501-1:2018)",
+"standard": "ISO 9705 / BS EN 13501-1" }, { "property": "VOC Emissions",
+"value": "< 0.092 mg/m3 (7 days)", "standard": "CDPH Standard Method v1.2" }, {
+"property": "Microbial Resistance", "value": "Growth rating: 0 (No growth)",
+"standard": "ASTM G21-15" } ], "range": [ { "variant": "Grid Ceiling Tiles -
+Frame/Vertex Rectangle Capped", "size_or_rating": "1195mm x 595mm
+(Rectangle 1200x600 grid)", "pack": "Pack of tiles" } ], "fire": "Group 1 (AS
+ISO 9705 - 2003 / AS 5637.1:2015); Group 1-S (ISO 9705:1993); Class A (ASTM
+E-84-15a); B-s2, d0 (BS EN 13501-1:2018)", "compliance": "NCC BCA Specification
+C1.10 Group 1 fire compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354",
+"sustainability": "Certified Carbon Neutral; minimum 60% recycled PET; Declare
+Red List Free; EPD compliant with ISO 14025 and EN 15804", "install": [
+"Confirm 1200mm x 600mm suspended grid is properly suspended and square", "Check
+all tiles are from the same production batch before starting installation",
+"Assemble tile and ensure the backing cap is securely locked onto the top of the
+tile structure", "Angle the assembled capped tile up through the grid aperture",
+"Carefully lower the tile until its perimeter flanges rest flat on the T-bar
+grid rails", "Ensure uniform orientation and pattern alignment across adjacent
+ceiling modules" ], "selection_checklist": [ "Select between Frame (coffer) or
+Vertex (faceted prism) style", "Verify grid size is rectangular metric 1200mm
+x 600mm", "Confirm capped option is selected to ensure plenum concealment and
+maximum NRC", "Choose colour from Autex Cube palette", "Confirm ceiling plenum
+clearance accommodates tile depth (approx 80-100mm)" ], "accessories": [
+"Standard two-way exposed ceiling grid (15mm or 24mm tee)", "Utility knife for
+perimeter trimming" ], "limitations": [ "Ensure plenum services (pipes, cables)
+do not foul the 80-100mm depth of the capped tile", "Not designed for exterior
+or high-humidity wet area use", "Do not install different batch numbers in the
+same contiguous ceiling area" ], "warranty": "Manufacturer's Guarantee
+(minimum 10 years)", "found": true, "search_keywords": [ "Autex Grid Ceiling
+Tiles Capped", "Rectangle capped ceiling tile", "Frame capped ceiling tile",
+"Vertex rectangle ceiling tile", "Autex 1200x600 capped tile", "high NRC grid
+ceiling tile", "3D acoustic drop in tile 1200x600", "Cube ceiling tile capped"
+], "problem_keywords": [ "high reverberation in boardroom", "visible messy
+ceiling plenum", "poor speech clarity in conference room", "harsh echo in open
+office", "dated commercial ceiling tiles", "need high acoustic rating in drop
+ceiling" ], "placement": [ "ceiling" ], "priority_fit": [ "acoustic", "fire",
+"sustainability", "easy_install" ], "use_cases": [ "Transforming commercial
+meeting rooms and boardrooms requiring high speech intelligibility and hidden
+plenum services", "Installing over collaborative desk pods in open-plan offices
+for targeted sound absorption (NRC up to 0.85)", "Upgrading executive suites and
+reception areas with high-end faceted 3D ceiling architecture" ], "not_for": [
+"Direct floor or wall foot-traffic exposure", "Continuous moisture or external
+rain exposure", "Unframed or ungrid ceiling installations without mechanical
+support" ], "rag_summary": "Autex Grid Ceiling Tiles - Frame/Vertex - Rectangle
+- Capped is a 1195mm x 595mm 3D acoustic tile designed to drop into
+standard 1200mm x 600mm ceiling grids. Offered in coffer Frame or faceted Vertex
+designs, this capped version incorporates an integrated acoustic backing cap
+that blocks view of the overhead plenum while boosting sound absorption to
+NRC 0.60 - 0.85. Manufactured from 100% polyester fibre with over 60% recycled
+PET and achieving Group 1 fire compliance, it delivers high acoustic absorption
+and modern geometric texture for commercial office, education, and civic
+ceilings." }, { "family_id": "AUTEX_GRID_CEILING_TILES_FRAME_VERTEX_SQUARE_C",
+"tds_url": "https://www.autexglobal.com/au/products/grid-ceiling-tiles/",
+"sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+"description": "Autex Grid Ceiling Tiles - Frame/Vertex - Square - Capped is a
+modular 595mm x 595mm 3D acoustic ceiling tile designed for standard 600mm
+x 600mm suspended grid systems. Available in perimeter Frame (coffer) or faceted
+Vertex profiles, this capped variant includes a solid acoustic backing cap that
+conceals plenum clutter. Formed from 100% polyester fibre with a minimum of 60%
+recycled PET, it provides exceptional sound absorption (NRC 0.60 - 0.80) and
+Group 1 fire compliance.", "features": [ "Modular 3D square acoustic tile for
+standard 600mm x 600mm suspended ceiling grids", "Frame (coffer) or Vertex
+(faceted prism) geometric design options", "Capped design incorporates a solid
+acoustic backing layer to conceal the plenum", "High sound absorption achieving
+NRC 0.60 - 0.80", "Manufactured from 100% polyester fibre with a minimum of 60%
+recycled PET", "Group 1 fire rating to AS ISO 9705 - 2003 and AS 5637.1",
+"Non-toxic, non-allergenic, non-irritant, and free of chemical binders",
+"Certified Carbon Neutral product with third-party verified EPD", "Lightweight,
+durable polyester that will not chip, crack, or break", "Available in 20+
+contemporary Cube colours" ], "applications": [ "ceiling", "commercial office",
+"meeting room", "school classroom", "hospitality" ], "technical": [ {
+"property": "Tile Dimensions", "value": "595 mm x 595 mm (depth varies,
+typically 50 mm - 100 mm)", "standard": "" }, { "property": "Ceiling Grid
+Compatibility", "value": "Standard 600 mm x 600 mm metric grid (15mm / 24mm
+T-bar)", "standard": "" }, { "property": "Material Composition", "value": "100%
+polyester fibre (PET) Cube panel", "standard": "" }, { "property": "Recycled
+Content", "value": "Minimum 60% post-consumer recycled PET", "standard": "" }, {
+"property": "Sound Absorption (NRC)", "value": "0.60 - 0.80 (capped
+configuration)", "standard": "ISO 354" }, { "property": "Fire Hazard
+Classification", "value": "Group 1, SMOGRArc < 100 m2/s2", "standard": "AS
+ISO 9705 - 2003 / AS 5637.1:2015" }, { "property": "International Fire Rating",
+"value": "Group 1-S (ISO 9705:1993) / B-s2, d0 (BS EN 13501-1:2018)",
+"standard": "ISO 9705 / BS EN 13501-1" }, { "property": "VOC Emissions",
+"value": "< 0.092 mg/m3 (7 days)", "standard": "CDPH Standard Method v1.2" }, {
+"property": "Microbial Resistance", "value": "Growth rating: 0 (No growth)",
+"standard": "ASTM G21-15" } ], "range": [ { "variant": "Grid Ceiling Tiles -
+Frame/Vertex Square Capped", "size_or_rating": "595mm x 595mm (Square 600x600
+grid)", "pack": "Pack of tiles (typically 12-15 tiles)" } ], "fire": "Group 1
+(AS ISO 9705 - 2003 / AS 5637.1:2015); Group 1-S (ISO 9705:1993); Class A (ASTM
+E-84-15a); B-s2, d0 (BS EN 13501-1:2018)", "compliance": "NCC BCA Specification
+C1.10 Group 1 fire compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354",
+"sustainability": "Certified Carbon Neutral; minimum 60% recycled PET; Declare
+Red List Free; EPD verified", "install": [ "Ensure the 600mm x 600mm ceiling
+grid system is square and level", "Verify all tiles in the space belong to the
+same manufacturing batch", "Assemble the square Frame or Vertex tile with its
+acoustic backing cap securely in place", "Gently push the capped tile up through
+the grid aperture at a slight angle", "Lower into place squarely so the tile
+flanges rest securely on the grid runners", "Align directional or faceted
+patterns across rows to achieve the desired ceiling design" ],
+"selection_checklist": [ "Verify existing or new ceiling grid is metric 600mm
+x 600mm", "Choose preferred design style (Frame coffer or Vertex prism)",
+"Confirm capped configuration for closed plenum and maximum acoustic
+absorption", "Select colourway from Autex Cube palette", "Check ceiling plenum
+height clearance" ], "accessories": [ "Standard two-way exposed ceiling grid
+(15mm or 24mm tee)", "Utility knife for perimeter cuts" ], "limitations": [ "Not
+designed for direct exposure to water leaks or extreme humidity", "Ensure light
+fittings or fire sprinkler heads maintain compliant clearances", "Do not mix
+batch numbers in the same visual area" ], "warranty": "Manufacturer's Guarantee
+(minimum 10 years)", "found": true, "search_keywords": [ "Autex Square Grid
+Ceiling Tiles", "Frame Square Capped tile", "Vertex Square Capped tile",
+"Autex 600x600 acoustic tile", "3D ceiling tile capped", "acoustic drop in
+tile 600x600", "Cube 600x600 ceiling tile", "capped acoustic ceiling tile" ],
+"problem_keywords": [ "office echo with 600x600 grid", "unattractive plain
+ceiling grid", "poor speech intelligibility in classroom", "distracting noise in
+open plan office", "exposed ceiling plenum clutter", "broken mineral fibre
+ceiling tiles" ], "placement": [ "ceiling" ], "priority_fit": [ "acoustic",
+"fire", "sustainability", "easy_install" ], "use_cases": [ "Retrofitting
+standard 600x600 office ceiling grids to deliver high sound absorption (NRC 0.60
+- 0.80) and modern 3D styling", "Classrooms and university seminar rooms where
+speech clarity is critical and plenum services must remain hidden", "Hospitality
+venues, cafes, and restaurants requiring visual ceiling interest and
+reverberation control" ], "not_for": [ "Unframed ceiling applications without a
+T-bar grid", "Walls or floor traffic zones", "Outdoor balconies or exterior
+soffits" ], "rag_summary": "Autex Grid Ceiling Tiles - Frame/Vertex - Square -
+Capped is a 595mm x 595mm 3D acoustic tile engineered for standard 600mm x 600mm
+suspended ceiling grids. Available in perimeter coffer Frame or faceted
+prismatic Vertex geometries, this capped model features an integrated acoustic
+backing cap that encloses the ceiling plenum while enhancing acoustic absorption
+to NRC 0.60 - 0.80. Manufactured from 100% polyester with over 60% recycled PET
+and rated Group 1 fire compliant, it elevates conventional square drop ceilings
+into dynamic acoustic features." }, { "family_id":
+"AUTEX_GRID_CEILING_TILES_FRAME_VERTEX_SQUARE_U", "tds_url":
+"https://www.autexglobal.com/au/products/grid-ceiling-tiles/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Grid Ceiling Tiles - Frame/Vertex - Square - Uncapped is a modular 595mm
+x 595mm 3D acoustic ceiling tile designed for standard 600mm x 600mm suspended
+grid systems. Formed from 100% polyester fibre containing at least 60% recycled
+PET, it is available in perimeter coffer Frame or faceted Vertex profiles. The
+uncapped design leaves the tile open to the ceiling plenum above, allowing
+natural airflow, light diffusion, and targeted acoustic control (NRC 0.15
+- 0.35) with Group 1 fire safety.", "features": [ "Modular 3D square acoustic
+tile for standard 600mm x 600mm ceiling grids", "Frame (coffer) or Vertex
+(faceted prism) architectural design options", "Uncapped open-top design
+facilitates ceiling plenum airflow and lighting integration", "Sound absorption
+helping reduce unwanted reverberation (NRC 0.15 - 0.35)", "Manufactured
+from 100% polyester fibre with a minimum of 60% recycled PET", "Group 1 fire
+rating to AS ISO 9705 - 2003 and AS 5637.1", "Non-toxic, non-allergenic,
+non-irritant, and free of chemical binders", "Certified Carbon Neutral product
+with third-party verified EPD", "Durable, lightweight polyester construction
+that will not chip or break", "Available in 20+ contemporary solid Cube colours"
+], "applications": [ "ceiling", "commercial office", "education", "retail",
+"creative studio" ], "technical": [ { "property": "Tile Dimensions", "value":
+"595 mm x 595 mm (depth varies, typically 50 mm - 100 mm)", "standard": "" }, {
+"property": "Ceiling Grid Compatibility", "value": "Standard 600 mm x 600 mm
+metric grid (15mm / 24mm T-bar)", "standard": "" }, { "property": "Material
+Composition", "value": "100% polyester fibre (PET) Cube panel", "standard": ""
+}, { "property": "Recycled Content", "value": "Minimum 60% post-consumer
+recycled PET", "standard": "" }, { "property": "Sound Absorption (NRC)",
+"value": "0.15 - 0.35 (uncapped configuration)", "standard": "ISO 354" }, {
+"property": "Fire Hazard Classification", "value": "Group 1, SMOGRArc < 100
+m2/s2", "standard": "AS ISO 9705 - 2003 / AS 5637.1:2015" }, { "property":
+"International Fire Rating", "value": "Group 1-S (ISO 9705:1993) / B-s2, d0 (BS
+EN 13501-1:2018)", "standard": "ISO 9705 / BS EN 13501-1" }, { "property": "VOC
+Emissions", "value": "< 0.092 mg/m3 (7 days)", "standard": "CDPH Standard Method
+v1.2" }, { "property": "Microbial Resistance", "value": "Growth rating: 0 (No
+growth)", "standard": "ASTM G21-15" } ], "range": [ { "variant": "Grid Ceiling
+Tiles - Frame/Vertex Square Uncapped", "size_or_rating": "595mm x 595mm
+(Square 600x600 grid)", "pack": "Pack of tiles (typically 12-15 tiles)" } ],
+"fire": "Group 1 (AS ISO 9705 - 2003 / AS 5637.1:2015); Group 1-S
+(ISO 9705:1993); Class A (ASTM E-84-15a); B-s2, d0 (BS EN 13501-1:2018)",
+"compliance": "NCC BCA Specification C1.10 Group 1 fire compliance; AS
+ISO 9705:2003; AS 5637.1:2015; ISO 354", "sustainability": "Certified Carbon
+Neutral; minimum 60% recycled PET; Declare Red List Free; EPD verified",
+"install": [ "Check that the 600mm x 600mm suspended grid is level and square",
+"Verify all tiles are from the same production batch", "Assemble the square
+uncapped Frame or Vertex tile if supplied flat-packed", "Tilt the uncapped tile
+and pass it upward through the grid opening", "Lower the tile gently so its
+edges sit evenly on the T-bar flanges", "Ensure aligned orientation across the
+ceiling grid array" ], "selection_checklist": [ "Confirm ceiling grid module is
+square 600mm x 600mm", "Select uncapped style to permit airflow and light
+through into the plenum", "Choose preferred architectural design (Frame coffer
+or Vertex prism)", "Select colourway from Autex Cube collection", "Calculate
+total pack quantities needed for area" ], "accessories": [ "Standard two-way
+exposed ceiling grid (15mm or 24mm tee)", "Utility knife for perimeter trimming"
+], "limitations": [ "Uncapped design does not conceal pipes, wiring, or ducts in
+the ceiling plenum", "Provides lower acoustic absorption than the capped
+alternative", "Indoor ceiling use only; avoid wet areas" ], "warranty":
+"Manufacturer's Guarantee (minimum 10 years)", "found": true, "search_keywords":
+[ "Autex Square Grid Tiles Uncapped", "Frame Square Uncapped tile", "Vertex
+Square Uncapped tile", "Autex 600x600 uncapped tile", "open top 3D ceiling
+tile", "uncapped acoustic drop in tile", "Cube 600x600 uncapped",
+"architectural 600x600 tile" ], "problem_keywords": [ "boring commercial drop
+ceiling", "need airflow through ceiling tiles", "reverberation in open ceiling",
+"light diffusion through ceiling grid", "updating 600x600 drop ceiling",
+"commercial office noise build up" ], "placement": [ "ceiling" ],
+"priority_fit": [ "acoustic", "fire", "sustainability", "easy_install" ],
+"use_cases": [ "Refurbishing standard 600x600 grid ceilings in creative offices
+where airflow and light transmission through the ceiling are desired", "Retail
+display areas and showrooms seeking architectural 3D ceiling geometry",
+"Educational breakout spaces and reception lobbies requiring modern visual
+interest and sound scattering" ], "not_for": [ "Spaces requiring total
+concealment of overhead plenum services", "Direct wall or floor traffic
+surfaces", "High-humidity shower rooms or outdoor canopies" ], "rag_summary":
+"Autex Grid Ceiling Tiles - Frame/Vertex - Square - Uncapped is a 595mm
+x 595mm 3D acoustic tile designed to drop into standard 600mm x 600mm ceiling
+grids. Offered in perimeter Frame coffer or faceted Vertex prism profiles, its
+uncapped open-top configuration maintains plenum ventilation and lighting
+pathways while breaking up sound flutter and reverberation (NRC 0.15 - 0.35).
+Made from 100% polyester with at least 60% recycled PET and achieving Group 1
+fire compliance, it provides a lightweight, carbon-neutral visual transformation
+for conventional grid ceilings." }, { "family_id":
+"AUTEX_GRID_CEILING_TILES_LINEAR_HATCH_ANGLE_LO", "tds_url":
+"https://www.autexglobal.com/au/products/grid-ceiling-tiles/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Grid Ceiling Tiles - Linear/Hatch/Angle/Louvre - Rectangle - Capped is a
+premium 3D acoustic ceiling tile designed for standard 1200mm x 600mm suspended
+grid systems. Available in directional Linear, cross-hatch Hatch, slanted Angle,
+or Louvre styles, this capped version incorporates an integrated acoustic
+backing cap that completely encloses the plenum. Made from 100% polyester fibre
+with at least 60% recycled PET, it combines striking slatted geometry with high
+sound absorption (NRC 0.60 - 0.85) and Group 1 fire safety.", "features": [
+"Drop-in 3D rectangular acoustic tile for standard 1200mm x 600mm suspended
+grids", "Four architectural slatted styles: Linear, Hatch, Angle, and Louvre",
+"Capped design includes an acoustic backing cap to conceal plenum services",
+"High sound absorption performance with NRC up to 0.60 - 0.85", "Constructed
+from 100% polyester fibre containing a minimum of 60% recycled PET", "Group 1
+fire rating compliant with AS ISO 9705 - 2003 and AS 5637.1", "Non-toxic,
+non-allergenic, non-irritant, and free of chemical binders", "Certified Carbon
+Neutral product with third-party verified EPD", "Lightweight, durable polyester
+that will not warp, crack, or slump over time", "Available in 20+ contemporary
+Cube colourways" ], "applications": [ "ceiling", "commercial office",
+"boardroom", "education", "retail", "hospitality" ], "technical": [ {
+"property": "Tile Dimensions", "value": "1195 mm x 595 mm (depth varies,
+typically 80 mm - 103 mm)", "standard": "" }, { "property": "Ceiling Grid
+Compatibility", "value": "Standard 1200 mm x 600 mm metric grid (15mm / 24mm
+T-bar)", "standard": "" }, { "property": "Material Composition", "value": "100%
+polyester fibre (PET) Cube panel", "standard": "" }, { "property": "Recycled
+Content", "value": "Minimum 60% post-consumer recycled PET", "standard": "" }, {
+"property": "Sound Absorption (NRC)", "value": "0.60 - 0.85 (capped
+configuration)", "standard": "ISO 354" }, { "property": "Fire Hazard
+Classification", "value": "Group 1, SMOGRArc < 100 m2/s2", "standard": "AS
+ISO 9705 - 2003 / AS 5637.1:2015" }, { "property": "International Fire Rating",
+"value": "Group 1-S (ISO 9705:1993) / B-s2, d0 (BS EN 13501-1:2018)",
+"standard": "ISO 9705 / BS EN 13501-1" }, { "property": "VOC Emissions",
+"value": "< 0.092 mg/m3 (7 days)", "standard": "CDPH Standard Method v1.2" }, {
+"property": "Microbial Resistance", "value": "Growth rating: 0 (No growth)",
+"standard": "ASTM G21-15" } ], "range": [ { "variant": "Grid Ceiling Tiles -
+Linear/Hatch/Angle/Louvre Rectangle Capped", "size_or_rating": "1195mm x 595mm
+(Rectangle 1200x600 grid)", "pack": "Pack of tiles (typically 4-8 tiles
+depending on style)" } ], "fire": "Group 1 (AS ISO 9705 - 2003 /
+AS 5637.1:2015); Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a); B-s2, d0
+(BS EN 13501-1:2018)", "compliance": "NCC BCA Specification C1.10 Group 1 fire
+compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354", "sustainability":
+"Certified Carbon Neutral; minimum 60% recycled PET; Declare Red List Free; EPD
+compliant with ISO 14025 and EN 15804", "install": [ "Ensure 1200mm x 600mm
+suspended grid is level, square, and structurally secured", "Verify that all
+tiles for the installation belong to the same manufacturing batch", "Assemble
+the directional slatted tile with the backing cap firmly fixed to the top",
+"Lift the assembled capped tile up through the grid opening at an angle", "Lower
+onto the grid tees, ensuring orientation of linear slats aligns with project
+design", "Check consistent seating along all perimeter grid edges" ],
+"selection_checklist": [ "Select desired style: Linear (slatted), Hatch
+(cross-hatch), Angle (slanted), or Louvre (louvred)", "Confirm grid size is
+rectangular metric 1200mm x 600mm", "Confirm capped version is required for
+maximum acoustic absorption and plenum blockage", "Choose colourway from Autex
+Cube palette", "Verify overhead plenum depth clearance" ], "accessories": [
+"Standard two-way exposed ceiling grid (15mm or 24mm tee)", "Utility knife for
+perimeter trimming" ], "limitations": [ "Tile depth (approx 80-103mm) requires
+adequate clearance from plenum services", "Not designed for direct exposure to
+driving rain, water leaks, or exterior use", "Ensure batch consistency to avoid
+colour variation" ], "warranty": "Manufacturer's Guarantee (minimum 10 years)",
+"found": true, "search_keywords": [ "Autex Linear Grid Tile", "Hatch Grid
+Ceiling Tile", "Angle Grid Ceiling Tile", "Louvre Grid Ceiling Tile", "Rectangle
+Capped Grid Tile", "Autex 1200x600 slatted tile", "3D slatted acoustic ceiling
+tile", "capped louvre acoustic tile" ], "problem_keywords": [ "excessive echo in
+corporate office", "reverberation in open workspace", "ugly acoustic ceiling
+tiles", "unattractive open ceiling plenum", "high noise level in commercial
+fitout", "need slatted ceiling aesthetic with acoustics" ], "placement": [
+"ceiling" ], "priority_fit": [ "acoustic", "fire", "sustainability",
+"easy_install" ], "use_cases": [ "Installing directional Linear or Louvre
+slatted tiles across large corporate office ceilings to combine slatted
+timber-like aesthetics with high sound absorption (NRC up to 0.85)", "Boardrooms
+and video-conference rooms requiring speech clarity and complete concealment of
+ceiling plenum services", "Retail flagship stores and hospitality dining areas
+requiring architectural slatted ceiling textures" ], "not_for": [ "Direct floor
+foot traffic or wall-impact areas", "Exterior exposed ceilings subject to wind
+or driving rain", "Wet rooms with direct running water" ], "rag_summary": "Autex
+Grid Ceiling Tiles - Linear/Hatch/Angle/Louvre - Rectangle - Capped is a 1195mm
+x 595mm slatted 3D acoustic tile engineered for standard 1200mm x 600mm ceiling
+grids. Available in Linear, Hatch, Angle, or Louvre directional profiles, this
+capped variant includes a solid acoustic backing cap that closes off the ceiling
+plenum while achieving high sound absorption (NRC 0.60 - 0.85). Built from 100%
+polyester fibre with over 60% recycled PET and rated Group 1 fire compliant, it
+provides an architecturally rich, carbon-neutral slatted ceiling solution for
+modern commercial, civic, and education spaces." }, { "family_id":
+"AUTEX_GRID_CEILING_TILES_LINEAR_HATCH_ANGLE_LO_2", "tds_url":
+"https://www.autexglobal.com/au/products/grid-ceiling-tiles/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Grid Ceiling Tiles - Linear/Hatch/Angle/Louvre - Rectangle - Uncapped is
+a versatile 3D acoustic ceiling tile designed to fit standard 1200mm x 600mm
+suspended grid systems. Available in Linear, Hatch, Angle, and Louvre slatted
+designs, this uncapped model features open slats that allow sightlines, airflow,
+and light penetration into the ceiling plenum above. Manufactured from 100%
+polyester fibre with at least 60% recycled PET, it provides acoustic diffusion
+and sound absorption (NRC 0.35 - 0.60) alongside Group 1 fire compliance.",
+"features": [ "Drop-in 3D rectangular acoustic tile for standard 1200mm x 600mm
+suspended grids", "Available in Linear, Hatch, Angle, and Louvre open slatted
+styles", "Uncapped design maintains ceiling plenum ventilation, lighting, and
+service integration", "Acoustic absorption and diffusion reducing room
+reverberation (NRC 0.35 - 0.60)", "Made from 100% polyester fibre containing a
+minimum of 60% recycled PET", "Group 1 fire rating compliant with AS ISO 9705
+- 2003 and AS 5637.1", "Non-toxic, non-allergenic, non-irritant, and free of
+chemical binders", "Certified Carbon Neutral product with third-party verified
+EPD", "Lightweight and durable polyester that will not warp, chip, or crack",
+"Available in 20+ contemporary solid Cube colours" ], "applications": [
+"ceiling", "commercial office", "education", "retail", "hospitality" ],
+"technical": [ { "property": "Tile Dimensions", "value": "1195 mm x 595 mm
+(depth varies, typically 80 mm - 103 mm)", "standard": "" }, { "property":
+"Ceiling Grid Compatibility", "value": "Standard 1200 mm x 600 mm metric grid
+(15mm / 24mm T-bar)", "standard": "" }, { "property": "Material Composition",
+"value": "100% polyester fibre (PET) Cube panel", "standard": "" }, {
+"property": "Recycled Content", "value": "Minimum 60% post-consumer recycled
+PET", "standard": "" }, { "property": "Sound Absorption (NRC)", "value": "0.35
+- 0.60 (uncapped configuration)", "standard": "ISO 354" }, { "property": "Fire
+Hazard Classification", "value": "Group 1, SMOGRArc < 100 m2/s2", "standard":
+"AS ISO 9705 - 2003 / AS 5637.1:2015" }, { "property": "International Fire
+Rating", "value": "Group 1-S (ISO 9705:1993) / B-s2, d0 (BS EN 13501-1:2018)",
+"standard": "ISO 9705 / BS EN 13501-1" }, { "property": "VOC Emissions",
+"value": "< 0.092 mg/m3 (7 days)", "standard": "CDPH Standard Method v1.2" }, {
+"property": "Microbial Resistance", "value": "Growth rating: 0 (No growth)",
+"standard": "ASTM G21-15" } ], "range": [ { "variant": "Grid Ceiling Tiles -
+Linear/Hatch/Angle/Louvre Rectangle Uncapped", "size_or_rating": "1195mm x 595mm
+(Rectangle 1200x600 grid)", "pack": "Pack of tiles (typically 4-8 tiles
+depending on style)" } ], "fire": "Group 1 (AS ISO 9705 - 2003 /
+AS 5637.1:2015); Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a); B-s2, d0
+(BS EN 13501-1:2018)", "compliance": "NCC BCA Specification C1.10 Group 1 fire
+compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354", "sustainability":
+"Certified Carbon Neutral; minimum 60% recycled PET; Declare Red List Free; EPD
+verified", "install": [ "Confirm 1200mm x 600mm suspended grid is level and
+square", "Check all tiles are from the same production batch", "Assemble slatted
+tile elements following manufacturer instructions if flat-packed", "Tilt the
+uncapped tile and pass it upward through the grid opening", "Lower the tile so
+its notches rest squarely onto the grid runners", "Align directional slats
+consistently or alternate orientation for a parquet effect" ],
+"selection_checklist": [ "Select specific design: Linear, Hatch, Angle, or
+Louvre", "Confirm grid size is rectangular metric 1200mm x 600mm", "Verify
+uncapped open-slat design is desired to maintain plenum airflow and light",
+"Choose colour from Autex Cube collection", "Ensure ceiling grid has adequate
+load rating" ], "accessories": [ "Standard two-way exposed ceiling grid (15mm
+or 24mm tee)", "Utility knife for perimeter trimming" ], "limitations": [ "Open
+slatted uncapped design does not hide plenum services or wiring from below",
+"Lower acoustic absorption than the capped version; specify capped if higher NRC
+is required", "Indoor use only; avoid wet areas" ], "warranty": "Manufacturer's
+Guarantee (minimum 10 years)", "found": true, "search_keywords": [ "Autex
+Rectangle Uncapped Tile", "Linear Rectangle Uncapped", "Hatch Rectangle
+Uncapped", "Angle Rectangle Uncapped", "Louvre Rectangle Uncapped", "open
+slatted ceiling tile 1200x600", "Autex uncapped grid tile", "3D slatted drop in
+tile" ], "problem_keywords": [ "stuffy room needing ceiling ventilation",
+"reverberation in open ceiling plenum", "unattractive flat drop ceiling", "need
+slatted ceiling look on standard grid", "diffusing light through ceiling grid",
+"open plan office noise build up" ], "placement": [ "ceiling" ], "priority_fit":
+[ "acoustic", "fire", "sustainability", "easy_install" ], "use_cases": [
+"Creating open slatted ceiling features in corporate workspaces that allow HVAC
+airflow and smoke clearance to reach the plenum", "Architectural slatted light
+diffusion in retail environments and hotel reception zones", "Acoustic softening
+and visual zoning in creative studios and university campus hubs" ], "not_for":
+[ "Ceilings requiring complete visual shielding of ceiling plenum services",
+"Direct floor traffic or wall impact surfaces", "Exterior unconditioned or wet
+areas" ], "rag_summary": "Autex Grid Ceiling Tiles - Linear/Hatch/Angle/Louvre -
+Rectangle - Uncapped is an open-slatted 1195mm x 595mm 3D acoustic tile for
+standard 1200mm x 600mm ceiling grids. Offered in Linear, Hatch, Angle, or
+Louvre directional profiles, its uncapped construction preserves airflow, light
+penetration, and open-plenum sightlines while breaking up sound flutter and
+reducing reverberation (NRC 0.35 - 0.60). Made from 100% polyester with at
+least 60% recycled PET and achieving Group 1 fire compliance, it delivers a
+modern architectural slatted aesthetic without replacing standard drop-ceiling
+infrastructure." }, { "family_id":
+"AUTEX_GRID_CEILING_TILES_LINEAR_HATCH_ANGLE_LO_3", "tds_url":
+"https://www.autexglobal.com/au/products/grid-ceiling-tiles/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Grid Ceiling Tiles - Linear/Hatch/Angle/Louvre - Square - Capped is a
+modular 595mm x 595mm 3D acoustic ceiling tile designed for standard 600mm
+x 600mm suspended grid systems. Available in directional Linear, cross-hatch
+Hatch, slanted Angle, or Louvre designs, this capped variant incorporates an
+integrated acoustic backing cap that conceals overhead plenum services. Crafted
+from 100% polyester fibre with a minimum of 60% recycled PET, it provides
+exceptional acoustic absorption (NRC 0.60 - 0.75+) and Group 1 fire safety.",
+"features": [ "Modular 3D square acoustic tile for standard 600mm x 600mm
+ceiling grids", "Four distinct architectural slatted styles: Linear, Hatch,
+Angle, and Louvre", "Capped design incorporates a solid acoustic backing cap to
+conceal the plenum", "Delivers high acoustic absorption with NRC up to 0.60
+- 0.75+", "Manufactured from 100% polyester fibre with a minimum of 60% recycled
+PET", "Group 1 fire rating compliant with AS ISO 9705 - 2003 and AS 5637.1",
+"Non-toxic, non-allergenic, non-irritant, and free of chemical binders",
+"Certified Carbon Neutral product with third-party verified EPD", "Lightweight,
+durable polyester that will not warp, chip, or crack over time", "Extensive
+selection of solid colourways from the Autex Cube collection" ], "applications":
+[ "ceiling", "commercial office", "meeting room", "education", "retail",
+"hospitality" ], "technical": [ { "property": "Tile Dimensions", "value": "595
+mm x 595 mm (depth varies, typically 80 mm - 103 mm)", "standard": "" }, {
+"property": "Ceiling Grid Compatibility", "value": "Standard 600 mm x 600 mm
+metric grid (15mm / 24mm T-bar)", "standard": "" }, { "property": "Material
+Composition", "value": "100% polyester fibre (PET) Cube panel", "standard": ""
+}, { "property": "Recycled Content", "value": "Minimum 60% post-consumer
+recycled PET", "standard": "" }, { "property": "Sound Absorption (NRC)",
+"value": "0.60 - 0.75+ (capped configuration)", "standard": "ISO 354" }, {
+"property": "Fire Hazard Classification", "value": "Group 1, SMOGRArc < 100
+m2/s2", "standard": "AS ISO 9705 - 2003 / AS 5637.1:2015" }, { "property":
+"International Fire Rating", "value": "Group 1-S (ISO 9705:1993) / B-s2, d0 (BS
+EN 13501-1:2018)", "standard": "ISO 9705 / BS EN 13501-1" }, { "property": "VOC
+Emissions", "value": "< 0.092 mg/m3 (7 days)", "standard": "CDPH Standard Method
+v1.2" }, { "property": "Microbial Resistance", "value": "Growth rating: 0 (No
+growth)", "standard": "ASTM G21-15" } ], "range": [ { "variant": "Grid Ceiling
+Tiles - Linear/Hatch/Angle/Louvre Square Capped", "size_or_rating": "595mm
+x 595mm (Square 600x600 grid)", "pack": "Pack of tiles (typically 8 tiles per
+pack)" } ], "fire": "Group 1 (AS ISO 9705 - 2003 / AS 5637.1:2015); Group 1-S
+(ISO 9705:1993); Class A (ASTM E-84-15a); B-s2, d0 (BS EN 13501-1:2018)",
+"compliance": "NCC BCA Specification C1.10 Group 1 fire compliance; AS
+ISO 9705:2003; AS 5637.1:2015; ISO 354", "sustainability": "Certified Carbon
+Neutral; minimum 60% recycled PET; Declare Red List Free; EPD compliant with
+ISO 14025 and EN 15804", "install": [ "Confirm 600mm x 600mm suspended grid is
+level and square", "Ensure all tiles for the space are from the same production
+batch", "Assemble slatted square tile with its backing cap securely fastened to
+the top", "Tilt the assembled capped tile and pass it upward through the grid
+opening", "Lower onto the grid tees, ensuring edges seat evenly on all sides",
+"Align directional slats consistently or create alternating quarter-turn
+checkerboard patterns" ], "selection_checklist": [ "Select desired style: Linear
+(parallel slats), Hatch (cross-hatch), Angle (slanted), or Louvre (louvred)",
+"Confirm grid size is square metric 600mm x 600mm", "Confirm capped version is
+selected for maximum sound absorption and complete plenum concealment", "Choose
+colour from Autex Cube palette", "Check available ceiling plenum depth" ],
+"accessories": [ "Standard two-way exposed ceiling grid (15mm or 24mm tee)",
+"Utility knife for perimeter cuts" ], "limitations": [ "Tile depth
+(approx 80-103mm) requires adequate clearance beneath overhead services", "Not
+designed for direct exposure to water leaks, steam, or outdoor weather", "Do not
+mix batches in the same contiguous ceiling area" ], "warranty": "Manufacturer's
+Guarantee (minimum 10 years)", "found": true, "search_keywords": [ "Autex Square
+Capped Grid Tile", "Linear Square Capped tile", "Hatch Square Capped tile",
+"Angle Square Capped tile", "Louvre Square Capped tile", "600x600 slatted
+acoustic tile", "Autex 600x600 capped tile", "3D square acoustic drop in tile"
+], "problem_keywords": [ "reverberant meeting room with 600x600 grid",
+"cluttered open ceiling plenum", "harsh acoustic reflection in office", "boring
+white drop ceiling tiles", "need modern slatted ceiling design", "controlling
+speech privacy in offices" ], "placement": [ "ceiling" ], "priority_fit": [
+"acoustic", "fire", "sustainability", "easy_install" ], "use_cases": [
+"Upgrading standard 600x600 square drop ceilings in meeting rooms and
+collaborative zones with slatted 3D textures that conceal overhead services",
+"School classrooms and library quiet zones requiring high acoustic absorption
+(NRC up to 0.75+) and Group 1 fire safety", "Boutique hospitality and retail
+fitouts seeking a warm slatted ceiling appearance with drop-in simplicity" ],
+"not_for": [ "Direct floor traffic or wall impact surfaces", "Unframed ceilings
+without a supporting T-bar grid", "Outdoor unconditioned soffits or external
+canopies" ], "rag_summary": "Autex Grid Ceiling Tiles -
+Linear/Hatch/Angle/Louvre - Square - Capped is a modular 595mm x 595mm 3D
+acoustic ceiling tile designed for standard 600mm x 600mm grid systems.
+Available in Linear, Hatch, Angle, or Louvre profiles, this capped variant
+includes a solid acoustic backing cap that completely encloses the ceiling
+plenum while enhancing acoustic absorption to NRC 0.60 - 0.75+. Crafted
+from 100% polyester fibre with over 60% recycled PET and achieving Group 1 fire
+compliance, it converts standard square grid ceilings into dynamic, acoustically
+tuned commercial features." } ]

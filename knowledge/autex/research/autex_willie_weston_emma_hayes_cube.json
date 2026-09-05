@@ -1,0 +1,179 @@
+{
+  "family_id": "AUTEX_WILLIE_WESTON_EMMA_HAYES_CUBE",
+  "family_name": "Autex Willie Weston / Emma Hayes Cube",
+  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/cube/",
+  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Autex Willie Weston / Emma Hayes Cube combines high-performance Cube acoustic\npanels with curated digital artwork from Australian First Nations artists\n(Willie Weston) and New Zealand landscape designs (Emma Hayes). Manufactured\nfrom 100% polyester fibre, the semi-rigid 12mm or 24mm Cube panels are digitally\nprinted using safe, water-based, UV-cured ink that does not compromise sound\nabsorption. Delivering an NRC of 0.45 to 0.70 (and up to 0.80 with an air gap),\nthis collection unites cultural storytelling and tranquil natural motifs with\ncertified Group 1 fire safety.",
+    "features": [
+      "Features curated First Nations\nartwork (Willie Weston) and tranquil landscape patterns (Emma Hayes)",
+      "High-definition digital printing using safe, water-based UV-cured ink",
+      "Engineered on semi-rigid 100% polyester Cube acoustic panels",
+      "Acoustic\nperformance rating of NRC 0.45 (12mm) to 0.70 (24mm), and up to 0.80 with an air\ngap",
+      "Constructed with a minimum of 80% post-consumer recycled PET",
+      "Group 1\nfire rating compliant with AS ISO 9705 - 2003 and AS 5637.1",
+      "Provides ongoing\nroyalty income to First Nations artists and art centres for every panel sold",
+      "Certified Carbon Neutral product with third-party verified EPD and Declare Red\nList Free",
+      "Safe, non-toxic, non-allergenic, non-irritant, and low-VOC",
+      "Compatible with Direct-fix, SpinFix, and Peel and Stick installation methods"
+    ],
+    "applications": [
+      "wall",
+      "internal wall",
+      "ceiling"
+    ],
+    "technical": [
+      {
+        "property": "Noise Reduction Coefficient (NRC)",
+        "value": "12mm: 0.45 (direct\nfix), 0.70 (with 24mm air gap); 24mm: 0.70 (direct fix), 0.80 (with 24mm air\ngap)",
+        "standard": "ISO 354"
+      },
+      {
+        "property": "Sound Absorption Class",
+        "value": "Class D (direct fix); Class C (with 24mm air gap)",
+        "standard": "ISO 11654"
+      },
+      {
+        "property": "Panel Dimensions",
+        "value": "1220 mm x 2440 mm; 1220 mm x 2740\nmm; custom lengths up to 3000 mm / 3600 mm",
+        "standard": ""
+      },
+      {
+        "property": "Thickness",
+        "value": "12 mm (+/- 6%); 24 mm (+/- 6%)",
+        "standard": ""
+      },
+      {
+        "property": "Material Composition",
+        "value": "100% polyester fibre (PET) printed\nwith UV-curable ink",
+        "standard": ""
+      },
+      {
+        "property": "Recycled Content",
+        "value": "Minimum 80% post-consumer recycled PET",
+        "standard": ""
+      },
+      {
+        "property": "Fire Rating (Australia)",
+        "value": "Group 1, SMOGRArc < 100 m2/s2",
+        "standard": "AS ISO 9705 - 2003 / AS 5637.1:2015"
+      },
+      {
+        "property": "International Fire Rating",
+        "value": "Group 1-S (ISO 9705:1993); Class A (ASTM\nE-84-15a: FS:0 - SD:45); 12mm B - s2, d0; 24mm B - s2, d2 (BS EN 13501-1:2018)",
+        "standard": "ISO 9705 / ASTM E-84 / BS EN 13501-1"
+      },
+      {
+        "property": "Water\nVapour Sorption",
+        "value": "0.4% by weight after 4 days at 49°C, 95% RH",
+        "standard": "ASTM C1104 / C1104M-13a"
+      },
+      {
+        "property": "Microbial Resistance",
+        "value": "Growth rating: 0 (No growth)",
+        "standard": "ASTM G21-15"
+      },
+      {
+        "property": "VOC Emissions",
+        "value": "< 0.092 mg/m3 (7 days)",
+        "standard": "CDPH Standard Method v1.2"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Willie Weston / Emma\nHayes Cube 12mm",
+        "size_or_rating": "1220 mm x 2440 mm x 12 mm, NRC 0.45",
+        "pack": "Panel"
+      },
+      {
+        "variant": "Willie Weston / Emma Hayes Cube 24mm",
+        "size_or_rating": "1220 mm x 2440 mm x 24 mm, NRC 0.70",
+        "pack": "Panel"
+      },
+      {
+        "variant": "Willie Weston / Emma Hayes Cube 2740mm",
+        "size_or_rating": "1220 mm\nx 2740 mm x 12mm / 24mm",
+        "pack": "Panel"
+      }
+    ],
+    "fire": "AS ISO 9705 - 2003 and\nAS 5637.1 Classification: Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993\nGroup 1-S; ASTM E-84-15a Class A; BS EN 13501-1:2018 B - s2, d0 (12mm) / B - s2,\nd2 (24mm)",
+    "compliance": "NCC Specification 7 (BCA C1.10) Group 1 fire\ncompliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354; Indigenous Art Code\npartner",
+    "sustainability": "Provides fair ongoing income to First Nations\nartists; carbon neutral product; min 80% recycled PET; Declare Red List Free;\nEPD verified; low VOC",
+    "install": [
+      "Confirm substrate is plumb, flat, clean,\ndry, and dust-free",
+      "Acclimatise printed panels in the installation environment\nfor at least 24 hours",
+      "Inspect panel pattern repeat and ensure sequence\nalignment across adjacent panels",
+      "Handle panels with clean hands or white\ngloves to prevent marks on the printed artwork",
+      "For adhesive direct fix, apply\nrecommended high-grab MS polymer adhesive evenly across panel backing",
+      "Alternatively, mount using Autex SpinFix clips or Peel and Stick backing",
+      "Butt panel edges tightly together and apply firm, uniform roller pressure\nacross the entire face",
+      "Trim perimeter panels carefully from the face using a\nstraight edge and sharp utility knife on the offcut side"
+    ],
+    "selection_checklist": [
+      "Select curated design from Willie Weston (First\nNations art) or Emma Hayes (NZ landscapes)",
+      "Select thickness (12mm for\nNRC 0.45-0.70 or 24mm for NRC 0.70-0.80)",
+      "Confirm panel dimensions\n(1220x2440mm or 1220x2740mm)",
+      "Verify pattern repeat and sequential numbering\nfor multi-panel wall murals",
+      "Specify mounting system (adhesive direct-fix,\nSpinFix, or Peel and Stick)"
+    ],
+    "accessories": [
+      "Autex SpinFix mounting clips",
+      "Peel and Stick backing",
+      "High-grab MS polymer adhesive",
+      "Straight edge and\nutility knife"
+    ],
+    "limitations": [
+      "Indoor use only; avoid wet areas or direct\nexposure to running water",
+      "Printed decorative surface can be scuffed by heavy\nmechanical abrasion; install in low-to-medium contact zones",
+      "Panel layout must\nfollow manufacturer pattern guide to maintain artwork alignment"
+    ],
+    "warranty": "10 Year Manufacturer's Guarantee"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Autex\nWillie Weston Cube",
+      "Autex Emma Hayes Cube",
+      "Willie Weston acoustic panels",
+      "Emma Hayes acoustic panels",
+      "First Nations acoustic panel",
+      "printed Cube\nacoustic panel",
+      "Indigenous art acoustic panel",
+      "decorative acoustic felt\npanel",
+      "Cube printed wall panel"
+    ],
+    "problem_keywords": [
+      "plain commercial\nacoustic walls",
+      "cultural representation in government buildings",
+      "echo in\ncorporate boardroom",
+      "distracting office noise with decorative art",
+      "reverberant school library",
+      "need Group 1 fire rated artwork"
+    ],
+    "placement": [
+      "wall",
+      "internal wall",
+      "ceiling"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "fire",
+      "sustainability",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Installing First Nations\nacoustic wall art in corporate reception foyers and public government\nbuildings",
+      "Creating serene, tranquil acoustic feature walls in healthcare\nconsult rooms and wellness clinics",
+      "High-performance acoustic art panels in\neducational libraries and university meeting spaces"
+    ],
+    "not_for": [
+      "Flooring\nor subfloor traffic surfaces",
+      "Exterior facade cladding",
+      "Wet areas with\ndirect water splashing"
+    ],
+    "rag_summary": "Autex Willie Weston / Emma Hayes Cube\ncombines 12mm or 24mm semi-rigid Cube polyester acoustic panels with\nhigh-resolution digital UV prints of Australian First Nations art (Willie\nWeston) and New Zealand landscape designs (Emma Hayes). Delivering sound\nabsorption from NRC 0.45 to 0.70 (and up to 0.80 with an air gap), the panels\nuse safe water-based inks that do not reduce acoustic efficiency. Certified\nGroup 1 fire rated under AS ISO 9705, carbon neutral, and containing over 80%\nrecycled PET, this collection brings cultural storytelling and sound control to\ncommercial, educational, and civic interiors."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

@@ -1,6 +1,6 @@
 ---
 title: "Bradford Thermal Underfloor / Optimo - Batt Insulation | Bradford"
-description: "Part of the CSR family with 100+ years of Australian building solutions. Firm friction fit design means batts stay in place permanently. Low itch form"
+description: "Bradford Optimo (Bradford Thermal Underfloor) is a premium, rigid high-density glasswool insulation batt specifically engineered for suspended timber "
 keywords: "Bradford Thermal Underfloor / Optimo, Bradford batt, thermal insulation, floor insulation, underfloor insulation, insulation Australia, Bradford Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: BRADFORD_THERMAL_UNDERFLOOR_OPTIMO
@@ -10,30 +10,35 @@ family_id: BRADFORD_THERMAL_UNDERFLOOR_OPTIMO
 
 **Bradford Batt** — bulk insulation batts for thermal and acoustic performance.
 
-Part of the CSR family with 100+ years of Australian building solutions. Firm friction fit design means batts stay in place permanently. Low itch formula for comfortable installation.
+Bradford Optimo (Bradford Thermal Underfloor) is a premium, rigid high-density glasswool insulation batt specifically engineered for suspended timber and steel subfloors in new and existing homes. Designed to fit snugly between floor joists, Optimo prevents up to 20% of domestic winter heat loss, stops cold draughts entering through timber floorboards, and dampens footfall impact noise. Secured with patented Optimo saddle clips or strap systems, it is non-combustible (AS 1530.1), bio-soluble, and approved by Sensitive Choice.
 
 ## Key features
 
-- FBS-1 Glasswool Bio-Soluble Insulation - safe to use and non-hazardous.
-- manufactured from up to 80% recycled glass content.
-- CodeMark Certificate of Conformity CM 30006.
-- non-combustible to AS 1530.1.
-- low itch soft next-gen formula for comfortable handling.
-- rigid design prevents sagging between joists.
-- reduces drafts and cold floors.
-- 50 Year Warranty backed by CSR.
+- Rigid high-density glasswool construction specifically engineered for underfloor friction fit.
+- Prevents up to 20% of winter heat loss through suspended timber floors.
+- Eliminates cold floor draughts through timber floorboards and improves foot comfort.
+- Acoustic damping reduces footstep impact noise and room drumming.
+- Non-combustible bulk insulation complying with AS 1530.1.
+- Early Fire Hazard properties complying with AS/NZS 1530.3 (0/0/0/1).
+- Secured with easy-to-install patented Optimo saddle clips or underfloor strapping.
+- Approved by National Asthma Council Australia's Sensitive Choice program.
+- FBS-1 bio-soluble glasswool formulation, safe and non-hazardous.
+- Backed by a 70-year performance warranty.
 
 ## Applications and selection
 
-- Underfloor
+- underfloor
+- floor
+- subfloor
+- between floors
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm joist spacing (415mm batts for 450mm centres, 565mm batts for 600mm centres).
+2. Confirm joist depth (minimum 75mm for R2.1, 90mm for R2.5).
+3. Select installation method: from above (new build) or from underneath (retrofit).
+4. Ensure Optimo saddle clips or strapping are ordered with batts.
+5. Verify underfloor access clearance (minimum 400mm clearance recommended for retrofit).
 
 
 ## Current catalogue range
@@ -44,37 +49,52 @@ Part of the CSR family with 100+ years of Australian building solutions. Firm fr
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Batt | Manufacturer catalogue |
-| Material | Glasswool | Manufacturer catalogue |
-| Applications | Underfloor | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material R-values | R2.1 (75mm), R2.5 (90mm) | AS/NZS 4859.1 |
+| Thickness | 75 mm (R2.1), 90 mm (R2.5) | - |
+| Batt Dimensions | 1160 mm x 415 mm (for 450 mm joist centres); 1160 mm x 565 mm (for 600 mm joist centres) | - |
+| Density | High-density rigid glasswool (approx. 28 - 32 kg/m3) | - |
+| Combustibility | Non-Combustible | AS 1530.1 |
+| Fire Hazard Properties | Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 1 | AS/NZS 1530.3 |
+| Maximum Service Temperature | 300°C | - |
+| Moisture Absorption | < 0.2% by volume | - |
+| Recycled Content | Up to 65% recycled glass | - |
 
-
+Extracted from manufacturer datasheet: https://www.bradfordinsulation.com.au/home-insulation/floor/optimo-underfloor-insulation
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Non-Combustible to AS 1530.1; AS/NZS 1530.3: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed: 1
+
+AS/NZS 4859.1:2018; AS 1530.1; AS/NZS 1530.3; AS 3999; NCC 2022 Volume 1 & Volume 2 underfloor energy efficiency standards
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.csrbradford.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://www.firecrunch.com.au/wp-content/uploads/2016/02/BRADFORD-MSDS-e3a0-435b-b6ef-6f1027726ce6.pdf.
 
+## Recommended accessories
+
+- Optimo Saddle Clips (timber and steel joist versions).
+- Optimo Strapping.
+- Insulation trimming knife.
+
 
 ## Limitations and warnings
 
-- Keep dry during storage and installation..
-- not a water or vapour barrier - use appropriate building wrap..
-- do not compress - compression reduces R-value performance..
-- not to be exposed to weather..
-- maximum service temperature 340°C..
-- Ensure adequate subfloor ventilation is maintained..
+- Requires adequate crawl space clearance (minimum 400mm) for retrofit underfloor installation.
+- Must not be placed in direct contact with wet soil or standing water.
+- Protect from rodents or continuous high dampness with proper subfloor ventilation.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Keep dry during storage and installation.
+1. In existing homes from beneath, push Optimo batts firmly up between floor joists until hard against floorboards.
+2. For 450mm joist centres use 415mm wide batts; for 600mm centres use 565mm wide batts.
+3. Fix Optimo saddle clips to the side of timber joists (2 per batt side) to support batts permanently.
+4. Alternatively, in new builds prior to flooring installation, fit Optimo saddle clips over top of joists and drop batts in from above.
+5. Butt ends tightly together to eliminate draught paths.
+6. Cut neatly around plumbing pipes and floor vents using an insulation knife.
 
 ## Safety and handling
 
@@ -82,11 +102,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Manufactured from up to 65% recycled glass; FBS-1 bio-soluble glasswool; zero ODP; low VOC; Sensitive Choice approved
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+70 Year Performance Warranty
 
 ## Specification starting point
 

@@ -1,0 +1,174 @@
+{
+  "family_id": "AUTEX_LANES_BAFFLE_SAWTOOTH",
+  "family_name": "Autex Lanes Baffle Sawtooth",
+  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/lanes/",
+  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Autex Lanes Baffle Sawtooth is a dynamic acoustic wall batten system that\nfeatures an asymmetrical, directional sawtooth profile folded from 12mm Cube\npolyester felt. Engineered with an acoustic air cavity behind each 300mm wide\nlane, Sawtooth achieves the highest acoustic performance in the Lanes collection\nwith an NRC of 0.85. Its glue-free clipping system creates striking directional\nlight-and-shadow lines across interior walls while effectively taming\nreverberation.",
+    "features": [
+      "Asymmetrical angled sawtooth profile creating\ndirectional rhythm and shadow",
+      "Delivers the highest acoustic performance in\nthe Lanes range at NRC 0.85",
+      "Integrated rear air gap boosts low and mid\nfrequency sound absorption",
+      "Glue-free mechanical clipping system ensures fast,\nclean, and precise installation",
+      "Constructed from 100% polyester fibre\ncontaining minimum 60% to 80% recycled PET",
+      "Group 1 fire rating compliant with\nAS ISO 9705 - 2003 and AS 5637.1",
+      "Modular 300mm wide sections for flexible,\nscalable wall design",
+      "Moisture and mould resistant with an ASTM G21-15 Growth\nRating of 0",
+      "Non-toxic, non-allergenic, non-irritant, and low-VOC",
+      "Available\nin 2400mm and 2700mm lengths across the full Autex Cube colour palette"
+    ],
+    "applications": [
+      "wall",
+      "internal wall"
+    ],
+    "technical": [
+      {
+        "property": "Noise\nReduction Coefficient (NRC)",
+        "value": "0.85",
+        "standard": "ISO 354"
+      },
+      {
+        "property": "Sound Absorption Coefficients (Octave Bands)",
+        "value": "125Hz: 0.15, 250Hz: 0.45, 500Hz: 0.90, 1000Hz: 1.00, 2000Hz: 0.95, 4000Hz: 0.95",
+        "standard": "ISO 354"
+      },
+      {
+        "property": "Dimensions (Per Lane)",
+        "value": "300 mm\nwidth x 2400 mm or 2700 mm length (custom lengths up to 3600 mm)",
+        "standard": ""
+      },
+      {
+        "property": "Material Thickness",
+        "value": "12 mm Cube (overall depth\nvaries by Sawtooth profile)",
+        "standard": ""
+      },
+      {
+        "property": "Composition",
+        "value": "100% polyester fibre (PET)",
+        "standard": ""
+      },
+      {
+        "property": "Recycled\nContent",
+        "value": "Minimum 60% to 80% post-consumer recycled PET",
+        "standard": ""
+      },
+      {
+        "property": "Thermal Performance",
+        "value": "R0.41 (@ 15°C)",
+        "standard": ""
+      },
+      {
+        "property": "Fire Rating",
+        "value": "Group 1, SMOGRArc < 100\nm2/s2",
+        "standard": "AS ISO 9705 - 2003 / AS 5637.1:2015"
+      },
+      {
+        "property": "International Fire Classification",
+        "value": "Group 1-S (ISO 9705:1993); Class\nA (ASTM E-84-15a: FS:0 - SD:45); BS EN 13501-1:2018",
+        "standard": "ISO 9705 /\nASTM E-84 / BS EN 13501-1"
+      },
+      {
+        "property": "Water Vapour Sorption",
+        "value": "0.4% by weight after 4 days at 49°C, 95% RH",
+        "standard": "ASTM C1104 /\nC1104M-13a"
+      },
+      {
+        "property": "Microbial Resistance",
+        "value": "Growth rating: 0\n(No growth)",
+        "standard": "ASTM G21-15"
+      },
+      {
+        "property": "Lightfastness",
+        "value": "Rating 6 (ISO 105-B02:2014)",
+        "standard": "ISO 105-B02:2014"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Lanes Sawtooth 2400mm",
+        "size_or_rating": "300 mm\nx 2400 mm (Pack covers 2.16 m2)",
+        "pack": "Pack of 3 lanes"
+      },
+      {
+        "variant": "Lanes Sawtooth 2700mm",
+        "size_or_rating": "300 mm x 2700 mm (Pack covers 2.43\nm2)",
+        "pack": "Pack of 3 lanes"
+      }
+    ],
+    "fire": "AS ISO 9705 - 2003 and AS 5637.1\nClassification: Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM\nE-84-15a Class A (FS:0, SD:45); BS EN 13501-1:2018",
+    "compliance": "NCC\nSpecification 7 (BCA C1.10) Group 1 fire compliance; AS ISO 9705:2003;\nAS 5637.1:2015; ISO 354",
+    "sustainability": "Carbon neutral product and\nmanufacturing; minimum 60% to 80% recycled PET; Declare Red List Free; EPD\ncompliant; low VOC",
+    "install": [
+      "Confirm wall surface is plumb, smooth, and\nstructurally sound",
+      "Mark vertical layout lines at 300mm intervals to align\nsawtooth panels",
+      "Fasten horizontal mounting clips or channel system to wall\nframing studs",
+      "Clip the folded Sawtooth sections onto mounting clips in\nsequence",
+      "Check that the directional sawtooth angles are consistently oriented\nacross the entire wall",
+      "Trim height neatly with a track saw or sharp knife at\nbaseboard or ceiling junction"
+    ],
+    "selection_checklist": [
+      "Determine wall\nheight to select 2400mm or 2700mm length (or custom up to 3600mm)",
+      "Calculate\nrequired wall width in 300mm multiples (3 lanes per pack)",
+      "Verify Sawtooth\norientation and direction of incoming light to maximise 3D shadow effect",
+      "Choose colourway from Autex Cube palette",
+      "Confirm framing structure\naccommodates clip fasteners"
+    ],
+    "accessories": [
+      "Lanes mounting clip system",
+      "Fasteners suitable for substrate",
+      "Track saw or trimming knife"
+    ],
+    "limitations": [
+      "Indoor wall installation only; not suitable for exterior\ncladding or wet areas",
+      "Directional profile must be installed in a consistent\norientation across the wall",
+      "Mechanical clip installation is required; do not\nglue directly flat to substrate"
+    ],
+    "warranty": "Manufacturer's Guarantee (10\nyears)"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Autex Lanes Sawtooth",
+      "Lanes\nBaffle Sawtooth",
+      "Sawtooth acoustic battens",
+      "zigzag acoustic wall",
+      "NRC 0.85\nacoustic wall",
+      "directional acoustic battens",
+      "Cube Sawtooth",
+      "Autex wall\nbattens",
+      "3D acoustic wall panel"
+    ],
+    "problem_keywords": [
+      "high echo in open\nspaces",
+      "harsh acoustics in boardrooms",
+      "distracting office noise",
+      "flat\nlifeless interior walls",
+      "need maximum sound absorption with 3D design",
+      "reverberation in auditoriums"
+    ],
+    "placement": [
+      "wall",
+      "internal wall"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "fire",
+      "sustainability",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Creating acoustic statement walls with dramatic light-and-shadow\neffects in corporate boardrooms",
+      "Taming echo and background chatter in modern\nhospitality, bars, and restaurants",
+      "High-performance acoustic absorption in\nlecture halls, libraries, and open-plan offices"
+    ],
+    "not_for": [
+      "Floors or\nsubfloor insulation",
+      "External exterior cladding",
+      "Wet rooms with direct\nrunning water"
+    ],
+    "rag_summary": "Autex Lanes Baffle Sawtooth is an\nasymmetrical, angled 3D acoustic batten wall system folded from 12mm Cube\npolyester felt into 300mm wide modular sections. It delivers the highest sound\nabsorption in the Lanes collection (NRC 0.85) thanks to an integrated rear air\ncavity created by its glue-free clipping system. Rated Group 1 fire compliant\nunder AS ISO 9705 and certified carbon neutral with over 60% recycled PET, it\nprovides dynamic architectural shadow play and class-leading acoustics for\ncommercial and institutional interiors."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

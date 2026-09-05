@@ -1,6 +1,6 @@
 ---
 title: "Bradford Gold Hi-Performance Batts - Batt Insulation | Bradford"
-description: "Part of the CSR family with 100+ years of Australian building solutions. The firm friction fit design means batts stay in place permanently - no saggi"
+description: "Bradford Gold Hi-Performance Batts (Gold HP) are high-density, top-tier glasswool insulation batts engineered to deliver maximum thermal resistance wi"
 keywords: "Bradford Gold Hi-Performance Batts, Bradford batt, wall insulation, ceiling insulation, insulation Australia, Bradford Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: BRADFORD_GOLD_HI_PERFORMANCE_BATTS
@@ -10,30 +10,34 @@ family_id: BRADFORD_GOLD_HI_PERFORMANCE_BATTS
 
 **Bradford Batt** — bulk insulation batts for thermal and acoustic performance.
 
-Part of the CSR family with 100+ years of Australian building solutions. The firm friction fit design means batts stay in place permanently - no sagging or settling. Low itch formula makes installation more comfortable than ever.
+Bradford Gold Hi-Performance Batts (Gold HP) are high-density, top-tier glasswool insulation batts engineered to deliver maximum thermal resistance within standard residential and commercial cavities. Available in industry-leading ratings up to R7.0 for ceilings and R2.7 HP for 90mm walls, they allow builders and homeowners in extreme Australian climate zones to meet stringent 7-star and 8-star energy efficiency standards without increasing framing depths. Featuring Comfort Touch technology, they are non-combustible, low-allergen, Sensitive Choice certified, and backed by a 70-year performance warranty.
 
 ## Key features
 
-- FBS-1 Glasswool Bio-Soluble Insulation - safe to use and non-hazardous.
-- manufactured from up to 80% recycled glass content.
-- CodeMark Certificate of Conformity CM 30006.
-- non-combustible to AS 1530.1.
-- low itch soft next-gen formula for comfortable handling.
-- 50 Year Warranty backed by CSR.
-- ACCC certified and tested to Australian Standards.
+- Maximum thermal R-value per millimetre of cavity thickness.
+- Industry-leading ceiling ratings: R4.1 HP, R5.0 HP, R6.0 HP, and R7.0 HP.
+- High-density wall batts: R2.0 HP (75mm), R2.2 HP (75mm), R2.5 HP (90mm), and R2.7 HP (90mm).
+- Gold Perimeter Batts available in R3.0 (100mm low-profile) for tight eave zones.
+- Manufactured with up to 80% recycled glass content.
+- Enhanced acoustic density dampens environmental noise and rain noise.
+- Low-itch Comfort Touch technology for cleaner handling and reduced dust.
+- Water-repellent treatment on wall batts prevents moisture absorption.
+- Non-combustible when tested in accordance with AS 1530.1.
+- Backed by CSR Bradford's 70-year product performance warranty.
 
 ## Applications and selection
 
-- Internal Wall | External Wall
-- Ceiling
+- ceiling
+- wall
+- external wall
+- internal wall
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Check NatHERS energy rating report for exact required R-values (e.g. R2.7 in walls, R5.0 or R6.0 in ceiling).
+2. Confirm wall stud depth (75mm for 70mm studs; 90mm for 90mm studs).
+3. Verify stud and joist spacing (430mm for 450mm centres, 580mm for 600mm centres).
+4. Check eave height clearance to determine if Gold Perimeter Batts are needed.
 
 
 ## Current catalogue range
@@ -51,37 +55,51 @@ Part of the CSR family with 100+ years of Australian building solutions. The fir
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Batt | Manufacturer catalogue |
-| Material | Glasswool | Manufacturer catalogue |
-| Applications | Internal Wall | External Wall; Ceiling | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Ceiling HP R-Values | R4.1 HP, R5.0 HP, R6.0 HP, R7.0 HP | AS/NZS 4859.1 |
+| Wall HP R-Values | R2.0 HP (75mm), R2.2 HP (75mm), R2.5 HP (90mm), R2.7 HP (90mm) | AS/NZS 4859.1 |
+| Perimeter HP R-Value | R3.0 (100mm thickness, 400mm length) | AS/NZS 4859.1 |
+| Ceiling HP Thicknesses | R4.1 HP: 195 mm; R5.0 HP: 215 mm; R6.0 HP: 250 mm; R7.0 HP: 290 mm | - |
+| Wall HP Thicknesses | R2.0 HP: 75 mm; R2.2 HP: 75 mm; R2.5 HP: 90 mm; R2.7 HP: 90 mm | - |
+| Standard Dimensions | 1160 mm length x 430 mm or 580 mm width (perimeter: 400 x 430/580 mm) | - |
+| Combustibility | Non-combustible | AS 1530.1 |
+| Fire Hazard Indices | Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1 | AS/NZS 1530.3 |
+| Maximum Service Temperature | 350°C | - |
 
-
+Extracted from manufacturer datasheet: https://www.bradfordinsulation.com.au/home-insulation/ceilings/gold-ceiling-batts
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Non-combustible to AS 1530.1; AS/NZS 1530.3: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-1; Deemed non-combustible under NCC
+
+AS/NZS 4859.1, AS 3999, NCC 2022 / NCC 2025 7-star NatHERS compliance
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.csrbradford.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://www.firecrunch.com.au/wp-content/uploads/2016/02/BRADFORD-MSDS-e3a0-435b-b6ef-6f1027726ce6.pdf.
 
+## Recommended accessories
+
+- Bradford Perimeter Spacer.
+- Bradford Gold Perimeter Batts.
+- Enviroseal wall wraps.
+
 
 ## Limitations and warnings
 
-- Keep dry during storage and installation - if product becomes wet, dry thoroughly before installing..
-- not a water or vapour barrier - use appropriate building wrap..
-- do not compress - compression reduces R-value performance..
-- not to be exposed to weather..
-- maximum service temperature 340°C (glasswool) / 750°C (stonewool)..
-- Verify product is suitable for external exposure..
+- Do not force thicker batts into shallower stud cavities as plasterboard will bulge.
+- Must be kept dry during transport, storage, and installation.
+- Must not cover non-IC rated electrical fixtures.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Keep dry during storage and installation - if product becomes wet, dry thoroughly before installing.
+1. Isolate power at the main switchboard before entering ceiling or working in wall cavities.
+2. Fit HP batts friction-tight between studs or ceiling joists with zero gaps.
+3. Ensure high-density wall batts remain flat without bulging plasterboard or breaching outer cavity space.
+4. Use R3.0 low-profile Gold Perimeter Batts around roof eaves to avoid compression within 450mm of external walls.
+5. Maintain required clearances from non-IC downlights and flues per AS 3999.
 
 ## Safety and handling
 
@@ -89,11 +107,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Contains up to 80% recycled glass; bio-soluble FBS-1; zero ODP; Sensitive Choice certified
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+70 Year Product Performance Warranty
 
 ## Specification starting point
 

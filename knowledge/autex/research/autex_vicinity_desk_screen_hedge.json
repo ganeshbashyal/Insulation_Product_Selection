@@ -1,0 +1,165 @@
+{
+  "family_id": "AUTEX_VICINITY_DESK_SCREEN_HEDGE",
+  "family_name": "Autex Vicinity - Desk Screen - Hedge",
+  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/vicinity/",
+  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Autex Vicinity Desk Screen - Hedge is a clean, classic rectangular acoustic\ndivider designed to sit along the rear edge of desks in open-plan offices.\nFeaturing smooth rounded corners and clean finished edges without capping, Hedge\nprovides acoustic separation and physical definition between facing\nworkstations. Fixed non-destructively using Vicinity Clamps, it absorbs 1.00\nto 1.10 Sabins per unit and delivers Group 1 fire compliance.",
+    "features": [
+      "Classic linear rectangular screen profile with smooth rounded corners",
+      "Mounted non-destructively along desk rear edges with Vicinity Workstation\nClamps",
+      "High acoustic absorption rating of 1.00 (1600mm) to 1.10 (1800mm)\nSabins per unit",
+      "Constructed from 100% polyester fibre containing a minimum\nof 80% recycled PET",
+      "Group 1 fire rating compliant with AS ISO 9705 - 2003 and\nAS 5637.1",
+      "Solid colour throughout with neat finished edges; no capping or\nframing required",
+      "Pinnable self-healing surface for notes and workstation\npersonalisation",
+      "Clamps made from 100% recycled PET (RePET) or powdercoated\nzinc",
+      "Moisture and mould resistant with an ASTM G21-15 Growth Rating of 0",
+      "Certified Carbon Neutral product with third-party verified EPD"
+    ],
+    "applications": [
+      "internal wall"
+    ],
+    "technical": [
+      {
+        "property": "Acoustic\nPerformance",
+        "value": "1600mm: 1.00 Sabin per unit; 1800mm: 1.10 Sabins per\nunit\n(125Hz: 0.35, 250Hz: 0.75, 500Hz: 1.00, 1000Hz: 1.20, 2000Hz: 1.55, 4000Hz: 1.75)",
+        "standard": "ISO 354"
+      },
+      {
+        "property": "Dimensions (1600mm)",
+        "value": "1550 mm\n/ 1600 mm width x 600 mm height (sits ~400 mm above desk)",
+        "standard": ""
+      },
+      {
+        "property": "Dimensions (1800mm)",
+        "value": "1750 mm / 1800 mm width x 600 mm\nheight (sits ~400 mm above desk)",
+        "standard": ""
+      },
+      {
+        "property": "Thickness",
+        "value": "12 mm (+/- 6%)",
+        "standard": ""
+      },
+      {
+        "property": "Material\nComposition",
+        "value": "100% polyester fibre (PET) Cube panel; clamp: 100%\nrecycled PET / zinc",
+        "standard": ""
+      },
+      {
+        "property": "Recycled Content",
+        "value": "Minimum 80% post-consumer recycled PET",
+        "standard": ""
+      },
+      {
+        "property": "Fire Rating (Australia)",
+        "value": "Group 1, SMOGRArc < 100 m2/s2",
+        "standard": "AS ISO 9705 - 2003 / AS 5637.1:2015"
+      },
+      {
+        "property": "International Fire Classification",
+        "value": "Group 1-S (ISO 9705:1993); Class\nA (ASTM E-84-15a: FS:0 - SD:45); BS EN 13501-1:2018",
+        "standard": "ISO 9705 /\nASTM E-84 / BS EN 13501-1"
+      },
+      {
+        "property": "Water Vapour Sorption",
+        "value": "0.4% by weight after 4 days at 49°C, 95% RH",
+        "standard": "ASTM C1104 /\nC1104M-13a"
+      },
+      {
+        "property": "Microbial Resistance",
+        "value": "Growth rating: 0\n(No growth)",
+        "standard": "ASTM G21-15"
+      },
+      {
+        "property": "VOC Emissions",
+        "value": "< 0.092 mg/m3 (7 days)",
+        "standard": "CDPH Standard Method v1.2"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Vicinity Hedge 1600",
+        "size_or_rating": "1550 mm W\nx 600 mm H x 12 mm (suits 1600mm desk)",
+        "pack": "Pack of 4 screens"
+      },
+      {
+        "variant": "Vicinity Hedge 1800",
+        "size_or_rating": "1750 mm W x 600 mm H x 12\nmm (suits 1800mm desk)",
+        "pack": "Pack of 4 screens"
+      }
+    ],
+    "fire": "AS ISO 9705\n- 2003 and AS 5637.1 Classification: Group 1 (SMOGRArc < 100 m2/s2);\nISO 9705:1993 Group 1-S; ASTM E-84-15a Class A; BS EN 13501-1:2018",
+    "compliance": "NCC Specification 7 (BCA C1.10) Group 1 fire compliance; AS\nISO 9705:2003; AS 5637.1:2015; ISO 354",
+    "sustainability": "Carbon neutral\nproduct; minimum 80% recycled PET; clamps made from 100% recycled PET; Declare\nRed List Free; EPD verified; low VOC",
+    "install": [
+      "Unpack Vicinity Hedge\nscreens and verify components",
+      "Insert Vicinity Desk Clamps into the routed\nnotches along the bottom edge of the screen",
+      "Position the screen squarely\nalong the back edge of the workstation",
+      "Tighten the clamp screws from\nunderneath the desk using an Allen key until firmly locked",
+      "Confirm the screen\nis vertical, level, and securely positioned"
+    ],
+    "selection_checklist": [
+      "Select\nsize based on desk width (Hedge 1600 for 1600mm desk; Hedge 1800 for 1800mm\ndesk)",
+      "Verify desk edge lip allows clamp clearance without fouling desk\nframe",
+      "Choose colour from Autex Cube palette (20+ colours)",
+      "Confirm pack\nquantity (supplied in packs of 4 screens)",
+      "Check that monitor arm mountings do\nnot conflict with screen clamp locations"
+    ],
+    "accessories": [
+      "Vicinity\nWorkstation Clamps",
+      "Allen key"
+    ],
+    "limitations": [
+      "Indoor use only; avoid wet\nareas or direct liquid contact",
+      "Desktop must provide adequate rear edge\nclearance for clamp mechanism",
+      "Sold in minimum pack quantities of 4 screens"
+    ],
+    "warranty": "Manufacturer's Guarantee (10 years)"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Autex Vicinity Hedge",
+      "Vicinity Desk Screen Hedge",
+      "linear acoustic desk screen",
+      "rear desk screen 1600",
+      "rear desk screen 1800",
+      "acoustic desk divider Hedge",
+      "Cube Hedge screen",
+      "clamp on acoustic divider",
+      "pinnable desk divider"
+    ],
+    "problem_keywords": [
+      "facing desk distraction in\nopen office",
+      "keyboard typing noise across desks",
+      "lack of desk division in\npod seating",
+      "unattractive plastic desk screens",
+      "need pinnable acoustic desk\ndivider",
+      "office chatter between face-to-face desks"
+    ],
+    "placement": [
+      "internal wall"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "sustainability",
+      "easy_install",
+      "fire"
+    ],
+    "use_cases": [
+      "Dividing back-to-back desks in\ncommercial office clusters to provide acoustic separation and visual modesty",
+      "Adding pinnable sound-absorbing screens across educational computer desks",
+      "Refurbishing call centres with clean, frameless linear desk dividers"
+    ],
+    "not_for": [
+      "Floor standing partitions",
+      "Exterior outdoor furniture",
+      "Ceiling\nmounted baffles"
+    ],
+    "rag_summary": "Autex Vicinity Desk Screen - Hedge is a\nclassic linear acoustic workstation divider designed to mount along the rear\nedge of 1600mm or 1800mm desks with smooth rounded corners. Crafted from 12mm\nCube polyester felt containing over 80% recycled PET, it absorbs direct speech\nand keyboard noise (1.00 to 1.10 Sabins per unit) while doubling as a pinnable\nnoticeboard. Installed non-destructively via 100% recycled PET Vicinity Clamps\nand rated Group 1 fire compliant, Hedge provides a clean, sustainable acoustic\nboundary between facing desks."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

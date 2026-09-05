@@ -1,0 +1,168 @@
+{
+  "family_id": "BRADFORD_POLYMAX_CEILING_INSULATION",
+  "family_name": "Bradford Polymax Ceiling Insulation",
+  "datasheet_pdf_url": "https://www.bradfordinsulation.com.au/home-insulation/ceilings/polymax-ceiling-batts",
+  "sds_url": "https://www.bradfordinsulation.com.au/resources/safety-data-sheets",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Bradford Polymax Ceiling Insulation is a premium thermal and\nacoustic polyester batt designed specifically for residential roof spaces and\nceilings. Made from 100% thermally bonded polyester fibres containing up to 80%\nrecycled content, it provides soft, itch-free handling without chemical binders\nor added formaldehyde. It keeps homes cooler in summer and warmer in winter,\nwill not pack down or deteriorate, and is approved by the National Asthma\nCouncil's Sensitive Choice program.",
+    "features": [
+      "100% thermally bonded\npolyester ceiling batts with zero chemical binders",
+      "High thermal ratings from\nR2.5 up to R4.0 to meet stringent energy codes",
+      "Made from up to 80% recycled\npost-consumer PET fibres",
+      "Completely itch-free and safe to handle without\ngloves or protective clothing",
+      "Will not pack down, shrink, mould, or rot over\ntime",
+      "Early Fire Hazard properties compliant with AS/NZS 1530.3",
+      "Approved by\nNational Asthma Council Australia's Sensitive Choice program",
+      "Absorbs airborne\nsound to reduce outside noise transmission through ceilings",
+      "Zero Ozone\nDepleting Potential (ODP) and low VOC emissions",
+      "Backed by a 70-year\nperformance warranty"
+    ],
+    "applications": [
+      "ceiling"
+    ],
+    "technical": [
+      {
+        "property": "Material R-values",
+        "value": "R2.5, R3.0, R3.5, R4.0",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Nominal Thickness",
+        "value": "R2.5: 140 mm;\nR3.0: 180 mm; R3.5: 200 mm; R4.0: 220 mm",
+        "standard": ""
+      },
+      {
+        "property": "Batt\nDimensions",
+        "value": "1160 mm x 430 mm (450 mm joist centres); 1160 mm x 580 mm\n(600 mm joist centres)",
+        "standard": ""
+      },
+      {
+        "property": "Material Composition",
+        "value": "100% thermally bonded polyester fibres (polyethylene terephthalate)",
+        "standard": ""
+      },
+      {
+        "property": "Recycled Content",
+        "value": "Up to 80% recycled\nPET fibre",
+        "standard": ""
+      },
+      {
+        "property": "Fire Hazard Properties",
+        "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-2",
+        "standard": "AS 1530.3"
+      },
+      {
+        "property": "Maximum Service Temperature",
+        "value": "150°C",
+        "standard": ""
+      },
+      {
+        "property": "Moisture Absorption",
+        "value": "< 0.2%\nby volume",
+        "standard": ""
+      },
+      {
+        "property": "VOC Emissions",
+        "value": "Low VOC\nemitting, non-toxic",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Polymax\nCeiling Batts R2.5",
+        "size_or_rating": "140 mm x 430/580 mm x 1160 mm",
+        "pack": "Pack of 8 (4.0 m2 / 5.4 m2)"
+      },
+      {
+        "variant": "Polymax Ceiling Batts R3.0",
+        "size_or_rating": "180 mm x 430/580 mm x 1160 mm",
+        "pack": "Pack of 8 (4.0 m2\n/ 5.4 m2)"
+      },
+      {
+        "variant": "Polymax Ceiling Batts R3.5",
+        "size_or_rating": "200\nmm x 430/580 mm x 1160 mm",
+        "pack": "Pack of 8 (4.0 m2 / 5.4 m2)"
+      },
+      {
+        "variant": "Polymax Ceiling Batts R4.0",
+        "size_or_rating": "220 mm x 430/580 mm\nx 1160 mm",
+        "pack": "Pack of 6 (3.0 m2 / 4.0 m2)"
+      }
+    ],
+    "fire": "AS 1530.3:\nIgnitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-2",
+    "compliance": "AS/NZS 4859.1; AS 3999; AS 1530.3; NCC 2022 Volume 1 & Volume 2",
+    "sustainability": "Contains up to 80% recycled PET; zero formaldehyde or\nchemical binders; low VOC; Sensitive Choice approved; 100% recyclable",
+    "install": [
+      "Ensure roof space is safe, de-energise electrical circuits before\nentering ceiling if required by state regulations",
+      "Friction-fit batts between\nceiling joists without gaps",
+      "Butt edges firmly together to create a continuous\nthermal barrier",
+      "Maintain required safety clearances around non-IC rated\nrecessed downlights, exhaust fans, and flue pipes per AS 3999",
+      "Start from the\nperimeter plates working inward toward the ceiling manhole",
+      "Do not compress\nbatts or cover electrical equipment not rated for insulation contact"
+    ],
+    "selection_checklist": [
+      "Confirm ceiling joist spacing (430mm width for 450mm\ncentres, 580mm width for 600mm centres)",
+      "Confirm target R-value required by\nNCC climate zone or 7-star NatHERS energy rating (e.g. R3.5, R4.0)",
+      "Check\nceiling cavity clearance and truss heel height",
+      "Verify non-combustible\nrequirement (polyester does not meet AS 1530.1)",
+      "Confirm downlight IC ratings\nto determine clearance requirements"
+    ],
+    "accessories": [
+      "Downlight covers (if\nnon-IC rated)",
+      "Serrated insulation cutter / heavy shears",
+      "Ceiling access\nboards"
+    ],
+    "limitations": [
+      "Not non-combustible under AS 1530.1",
+      "Must not\ncover non-IC rated downlights or high-heat appliances without proper\nclearances",
+      "Avoid compressing batts which reduces thermal performance"
+    ],
+    "warranty": "70 Year Performance Warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Polymax ceiling batts",
+      "Bradford Polymax ceiling",
+      "polyester ceiling\ninsulation",
+      "itch free ceiling batts",
+      "Polymax R3.5",
+      "Polymax R4.0",
+      "non\nglasswool ceiling batts",
+      "recycled polyester roof batts",
+      "ceiling batts\nSensitive Choice",
+      "polyester attic insulation"
+    ],
+    "problem_keywords": [
+      "hot\nceiling radiating heat into bedrooms",
+      "winter heat loss through ceiling",
+      "itchy skin from ceiling insulation",
+      "allergy flareups from attic dust",
+      "slumped or dusty ceiling batts",
+      "high energy bills in summer"
+    ],
+    "placement": [
+      "ceiling"
+    ],
+    "priority_fit": [
+      "sustainability",
+      "easy_install",
+      "thermal",
+      "acoustic"
+    ],
+    "use_cases": [
+      "Upgrading attic ceiling insulation in existing\nhomes to R3.5 or R4.0 without fiberglass dust or skin irritation",
+      "Installing\nceiling insulation in homes with asthma or allergy sufferers where Sensitive\nChoice approval is required",
+      "New residential home roof space insulation to\nachieve 7-star energy compliance"
+    ],
+    "not_for": [
+      "Applications requiring\nAS 1530.1 non-combustible insulation",
+      "Direct contact with hot flues or non-IC\ndownlights without clearance",
+      "Underfloor or exposed wall cavity applications"
+    ],
+    "rag_summary": "Bradford Polymax Ceiling Insulation is a soft, non-irritant\nceiling batt manufactured from 100% thermally bonded polyester fibres with up\nto 80% recycled PET. Offered in thermal ratings from R2.5 to R4.0 (140mm\nto 220mm thickness), it friction-fits between standard ceiling joists to prevent\nroof-space heat transfer and reduce outdoor noise intrusion. Free from\nformaldehyde, chemical binders, and loose respirable fibres, it carries National\nAsthma Council Sensitive Choice accreditation and is backed by\nBradford's 70-year performance warranty."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

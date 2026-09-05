@@ -1,0 +1,175 @@
+{
+  "family_id": "AUTEX_GREENSTUF_POLYESTER_ACOUSTIC_BLANKET",
+  "family_name": "Autex Greenstuf Polyester Acoustic Blanket",
+  "datasheet_pdf_url": "https://greenstuf.co.nz/products/acoustic-absorption-blanket-aab/",
+  "sds_url": "https://www.greenstuf.com.au/resources/technical-documents/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "GreenStuf Autex Acoustic Blanket (AAB) is a high-performance 100% polyester\nsound-absorbing insulation blanket engineered to control reverberation and\ntransmission in commercial and institutional interiors. Supplied as lofted\nsheets in white or black, it is ideally suited for installation behind slotted\ntimber, perforated metal panels, acoustic ceilings, and in wall cavities. Free\nfrom chemical binders and irritant fibres, AAB is non-toxic, moisture-resistant,\nand delivers superior sound absorption (NRC up to 0.95+).",
+    "features": [
+      "Engineered specifically for sound absorption and reverberation control",
+      "Thermally bonded 100% polyester fibre without chemical binders or\nformaldehyde",
+      "Available in black and white to suit open joints and perforated\narchitectural linings",
+      "Available in densities of 20kg/m3, 32kg/m3,\nand 48kg/m3",
+      "High acoustic performance with NRC ratings from 0.70 to 1.00+",
+      "Safe, non-allergenic, non-toxic, and itch-free handling without PPE",
+      "Moisture\nresistant with water absorption < 0.03% by weight",
+      "Resistant to vermin,\ninsects, and fungal growth",
+      "50-year durability warranty satisfying ABCB\ndurability criteria",
+      "100% recyclable with high recycled PET bottle content"
+    ],
+    "applications": [
+      "behind perforated ceiling panels",
+      "slotted timber wall\nlinings",
+      "internal wall stud cavity",
+      "acoustic baffle infill",
+      "HVAC silencer\ninfill",
+      "cinema/auditorium acoustic treatment"
+    ],
+    "technical": [
+      {
+        "property": "Material Composition",
+        "value": "100% polyester fibre (thermally bonded)",
+        "standard": ""
+      },
+      {
+        "property": "Density Options",
+        "value": "20 kg/m3, 32\nkg/m3, 48 kg/m3",
+        "standard": ""
+      },
+      {
+        "property": "Thickness Options",
+        "value": "25 mm, 50 mm, 75 mm, 100 mm",
+        "standard": ""
+      },
+      {
+        "property": "Sheet\nDimensions",
+        "value": "1200 mm x 2400 mm",
+        "standard": ""
+      },
+      {
+        "property": "Acoustic Performance (NRC)",
+        "value": "0.70 to 1.00+ depending on thickness and\ndensity",
+        "standard": "ISO 354 / AS 1045"
+      },
+      {
+        "property": "Fire Rating (New\nZealand)",
+        "value": "Group 1-S",
+        "standard": "ISO 9705:1993"
+      },
+      {
+        "property": "Early Fire Hazard Properties",
+        "value": "Ignitability: 0, Spread of Flame: 0,\nHeat Evolved: 0, Smoke Developed: 0-3",
+        "standard": "AS 1530.3"
+      },
+      {
+        "property": "Moisture Absorption",
+        "value": "< 0.03% by weight after 4 days at 50°C, 90%\nRH",
+        "standard": ""
+      },
+      {
+        "property": "VOC Emissions",
+        "value": "0.01 mg/m3 (7\ndays)",
+        "standard": "Cetec"
+      },
+      {
+        "property": "Corrosion Resistance",
+        "value": "Non-corrosive, pH 7.8",
+        "standard": "AS/NZS 4859.1"
+      }
+    ],
+    "range": [
+      {
+        "variant": "GreenStuf AAB 20kg/m3",
+        "size_or_rating": "25mm, 50mm, 75mm, 100mm\nx 1200mm x 2400mm (Black / White)",
+        "pack": "Pack of sheets"
+      },
+      {
+        "variant": "GreenStuf AAB 32kg/m3",
+        "size_or_rating": "25mm, 50mm, 75mm, 100mm x 1200mm\nx 2400mm (Black / White)",
+        "pack": "Pack of sheets"
+      },
+      {
+        "variant": "GreenStuf\nAAB 48kg/m3",
+        "size_or_rating": "25mm, 50mm, 75mm, 100mm x 1200mm x 2400mm\n(Black / White)",
+        "pack": "Pack of sheets"
+      }
+    ],
+    "fire": "Group 1-S\n(ISO 9705:1993); AS 1530.3: Ignitability 0, Spread of Flame 0, Heat Evolved 0,\nSmoke Developed 0-3",
+    "compliance": "AS/NZS 4859.1; ISO 354 / AS 1045 acoustic\ntesting; ABCB Durability in Buildings 50-year criteria; IEC 60695-11-5\nnon-flammable",
+    "sustainability": "100% recyclable PET; contains high recycled\ncontent; zero chemical binders, formaldehyde, or respirable fibres; low VOC",
+    "install": [
+      "Ensure wall or ceiling framing/substrate is clean and dry",
+      "Cut\nsheets to required dimensions using a sharp insulation knife or electric\ncutter",
+      "For perforated panel backing, lay black AAB directly against the rear\nof perforated panels",
+      "Friction-fit into wall studs or ceiling framing, or\nsecure using mechanical fasteners or contact adhesive",
+      "Butt edges tightly to\neliminate acoustic flanking paths",
+      "Maintain required clearances from recessed\nnon-IC rated light fittings and high-heat flues"
+    ],
+    "selection_checklist": [
+      "Confirm density (20kg, 32kg, or 48kg/m3) specified by acoustic engineer",
+      "Confirm thickness (25mm, 50mm, 75mm, 100mm) and required NRC",
+      "Select colour\n(Black is standard behind perforated/slotted panels to hide background framing;\nWhite for ceiling plenums)",
+      "Calculate required area based on 1200mm x 2400mm\nsheet coverage (2.88 m2 per sheet)",
+      "Verify fixing method (friction fit,\nadhesive, or pin fix)"
+    ],
+    "accessories": [
+      "Serrated insulation knife",
+      "Insulation stick pins / washered fasteners",
+      "Water-based contact adhesive"
+    ],
+    "limitations": [
+      "Not intended as an exposed decorative finish in high-traffic\ntouch zones (use Quietspace Panel for exposed decorative use)",
+      "Avoid direct\nexposure to liquid water or outdoor weathering"
+    ],
+    "warranty": "50 Year\nDurability Warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Autex AAB",
+      "GreenStuf Acoustic Blanket",
+      "AAB acoustic insulation",
+      "polyester acoustic\nblanket",
+      "black acoustic insulation",
+      "perforated panel acoustic backing",
+      "Autex 32kg acoustic blanket",
+      "Autex 48kg acoustic blanket",
+      "theatre acoustic\nblanket"
+    ],
+    "problem_keywords": [
+      "reverberation behind slotted timber walls",
+      "echo through perforated metal ceilings",
+      "noisy plant room acoustic breakout",
+      "auditorium sound reflection",
+      "flanking noise in ceiling plenums",
+      "itchy\nfibreglass behind acoustic timber"
+    ],
+    "placement": [
+      "ceiling",
+      "wall",
+      "internal wall",
+      "between floors"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "thermal",
+      "fire",
+      "sustainability"
+    ],
+    "use_cases": [
+      "Acoustic backing absorber installed\ndirectly behind slotted timber and perforated metal wall panels",
+      "Acoustic\nceiling overlay above open-grid and perforated metal ceiling tiles in corporate\nboardrooms",
+      "Sound absorption lining inside acoustic attenuation louvres,\nsilencers, and ductwork plenum chambers",
+      "Acoustic cavity infill in lecture\ntheatres, recording studios, and cinema walls"
+    ],
+    "not_for": [
+      "High-wear\nexposed wall surfaces without protective perforated or timber panel covering",
+      "Direct outdoor weather-exposed facades",
+      "Subfloor soil contact"
+    ],
+    "rag_summary": "Autex GreenStuf Polyester Acoustic Blanket (AAB) is a premium\nsound-absorbing polyester insulation sheet available in densities of 20, 32,\nand 48 kg/m3 and thicknesses from 25mm to 100mm. Sized at 1200mm x 2400mm in\nsolid black or white, it is specifically engineered to sit behind perforated\nmetal, timber slats, and suspended ceiling systems to eliminate room echo and\nachieve high sound absorption coefficients (NRC 0.70 to 1.00+). Completely\nnon-toxic, non-irritant, moisture resistant, and fire safe (AS 1530.3 0,0,0,0-3\nand Group 1-S), it delivers reliable commercial acoustic treatment backed by\na 50-year durability warranty."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

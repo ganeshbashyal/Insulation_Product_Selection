@@ -1,0 +1,154 @@
+{
+  "family_id": "AUTEX_GRID_CEILING_TILES_FRAME_RECTANGLE_UNCAP",
+  "family_name": "Autex Grid Ceiling Tiles - Frame - Rectangle - Uncapped",
+  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/grid-ceiling-tiles/",
+  "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Autex Grid Ceiling Tiles - Frame - Rectangle - Uncapped is a 3D acoustic\nceiling tile designed to drop into standard 1200mm x 600mm suspended grid\nsystems. Formed from 100% polyester fibre containing a minimum of 60% recycled\nPET, the Frame style creates an elegant perimeter-coffer border that defines\neach grid module. The uncapped design leaves the top open to the plenum,\nallowing ceiling airflow and lighting integration while providing targeted\nacoustic absorption (NRC 0.25 - 0.35) and Group 1 fire safety.",
+    "features": [
+      "Drop-in 3D rectangular acoustic tile for standard 1200mm x 600mm ceiling\ngrids",
+      "Frame style creates a crisp, architectural coffer border aesthetic",
+      "Uncapped open-top design maintains ceiling plenum airflow and lighting\npathways",
+      "Made from 100% polyester fibre with a minimum of 60% recycled PET",
+      "Group 1 fire rating compliant with AS ISO 9705 - 2003 and AS 5637.1",
+      "Sound\nabsorption controlling reverberation and speech chatter (NRC 0.25 - 0.35)",
+      "Lightweight, durable, and will not crack, chip, or warp over time",
+      "Resistant\nto moisture, mould, and mildew (ASTM G21-15 Growth Rating: 0)",
+      "Certified\nCarbon Neutral product with third-party verified EPD",
+      "Available in a\ncomprehensive palette of solid Cube colourways"
+    ],
+    "applications": [
+      "ceiling",
+      "commercial office",
+      "education",
+      "retail",
+      "hospitality"
+    ],
+    "technical": [
+      {
+        "property": "Tile Dimensions",
+        "value": "1195 mm x 595 mm (nominal depth varies\nby design, typically 50 mm - 100 mm)",
+        "standard": ""
+      },
+      {
+        "property": "Ceiling\nGrid Compatibility",
+        "value": "Standard 1200 mm x 600 mm metric grid (15mm\n/ 24mm T-bar)",
+        "standard": ""
+      },
+      {
+        "property": "Base Material Composition",
+        "value": "100% polyester fibre (PET) Cube panel",
+        "standard": ""
+      },
+      {
+        "property": "Recycled Content",
+        "value": "Minimum 60% post-consumer recycled\nPET",
+        "standard": ""
+      },
+      {
+        "property": "Sound Absorption (NRC)",
+        "value": "0.25\n- 0.35 (uncapped configuration)",
+        "standard": "ISO 354"
+      },
+      {
+        "property": "Fire\nHazard Classification",
+        "value": "Group 1, SMOGRArc < 100 m2/s2",
+        "standard": "AS ISO 9705 - 2003 / AS 5637.1:2015"
+      },
+      {
+        "property": "International Fire\nRating",
+        "value": "Group 1-S (ISO 9705:1993) / B-s2, d0 (BS EN 13501-1:2018)",
+        "standard": "ISO 9705 / BS EN 13501-1"
+      },
+      {
+        "property": "VOC Emissions",
+        "value": "< 0.092 mg/m3 (7 days)",
+        "standard": "CDPH Standard Method v1.2"
+      },
+      {
+        "property": "Microbial Resistance",
+        "value": "Growth rating: 0 (No growth)",
+        "standard": "ASTM G21-15"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Grid Ceiling Tiles -\nFrame Rectangle Uncapped",
+        "size_or_rating": "1195mm x 595mm (Rectangle 1200x600\ngrid)",
+        "pack": "Pack of tiles"
+      }
+    ],
+    "fire": "Group 1 (AS ISO 9705 - 2003 /\nAS 5637.1:2015); Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a); B-s2, d0\n(BS EN 13501-1:2018)",
+    "compliance": "NCC BCA Specification C1.10 Group 1 fire\ncompliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354; ISO 14001",
+    "sustainability": "Certified Carbon Neutral; minimum 60% recycled PET; Declare\nRed List Free; EPD compliant with ISO 14025 and EN 15804",
+    "install": [
+      "Ensure\nthe suspended 1200mm x 600mm ceiling grid is square, level, and properly\nsupported",
+      "Check that all tiles are supplied from a single production batch to\navoid colour variation",
+      "Assemble the Frame tile components according to\nmanufacturer instructions if supplied flat-packed",
+      "Lift the assembled uncapped\nFrame tile through the grid opening at an angle",
+      "Lower the tile gently onto\nthe exposed grid flanges, ensuring perimeter notches seat squarely",
+      "Where\nservices or sprinklers occur, maintain required building code clearances"
+    ],
+    "selection_checklist": [
+      "Verify ceiling grid module is rectangular\nmetric 1200mm x 600mm",
+      "Confirm uncapped style is desired (leaves plenum\nvisible from below)",
+      "Select desired colour from Autex Cube palette",
+      "Calculate pack quantities required for full ceiling or feature zones",
+      "Ensure\nceiling grid has adequate load capacity for 3D tiles"
+    ],
+    "accessories": [
+      "Standard two-way exposed ceiling grid (15mm or 24mm tee)",
+      "Utility knife for\nperimeter trimming"
+    ],
+    "limitations": [
+      "Uncapped configuration does not block\nsightlines into the ceiling plenum",
+      "Lower NRC compared to capped versions;\nspecify capped if maximum acoustic absorption is required",
+      "Indoor use only;\navoid direct water leaks or wet areas"
+    ],
+    "warranty": "Manufacturer's Guarantee\n(minimum 10 years)"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Autex Grid Ceiling\nTiles",
+      "Grid Ceiling Tiles Frame",
+      "Rectangle uncapped ceiling tile",
+      "Frame\nrectangle ceiling tile",
+      "Autex 1200x600 ceiling tile",
+      "3D grid acoustic\nceiling tile",
+      "coffer ceiling tile 1200x600",
+      "uncapped drop in tile"
+    ],
+    "problem_keywords": [
+      "drab flat drop ceiling tiles",
+      "echo in commercial office\nspace",
+      "need modern ceiling grid feature",
+      "reverberation in open ceiling",
+      "ugly mineral fibre ceiling replacement",
+      "airflow through drop ceiling"
+    ],
+    "placement": [
+      "ceiling"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "fire",
+      "sustainability",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Replacing standard 1200x600\nmineral fibre ceiling tiles in open-plan corporate offices to add depth and\nacoustic softening",
+      "Creating textured perimeter coffer ceiling features in\nuniversity lecture rooms and study spaces",
+      "Acoustic and aesthetic ceiling\nrefurbishment in retail showrooms and reception areas"
+    ],
+    "not_for": [
+      "Ceilings\nrequiring complete visual blockage of the overhead plenum",
+      "Wall panelling or\nunderfloor applications",
+      "Wet rooms, showers, or outdoor applications"
+    ],
+    "rag_summary": "Autex Grid Ceiling Tiles - Frame - Rectangle - Uncapped is\na 1195mm x 595mm drop-in acoustic tile designed to transform standard 1200mm\nx 600mm suspended ceiling grids. Formed from 100% polyester fibre with over 60%\nrecycled PET, its open-top coffer profile creates architectural depth while\npermitting plenum airflow. Offering Group 1 fire compliance and carbon-neutral\ncertification, this uncapped Frame tile provides subtle sound absorption and a\ncontemporary visual upgrade to conventional commercial drop ceilings."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

@@ -1,7 +1,7 @@
 ---
 title: "Bradford Thermal - Bradford - Batt Insulation | Bradford"
-description: "Part of the CSR family with 100+ years of Australian building solutions. Firm friction fit design means batts stay in place permanently. Low itch form"
-keywords: "Bradford Thermal - Bradford, Bradford batt, thermal insulation, wall insulation, insulation Australia, Bradford Australia"
+description: "Bradford Gold (Bradford Thermal) is Australia's most widely specified glasswool thermal insulation batt for residential and commercial ceilings and wa"
+keywords: "Bradford Thermal - Bradford, Bradford batt, thermal insulation, wall insulation, ceiling insulation, insulation Australia, Bradford Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: BRADFORD_THERMAL_BRADFORD
 ---
@@ -10,29 +10,35 @@ family_id: BRADFORD_THERMAL_BRADFORD
 
 **Bradford Batt** — bulk insulation batts for thermal and acoustic performance.
 
-Part of the CSR family with 100+ years of Australian building solutions. Firm friction fit design means batts stay in place permanently. Low itch formula for comfortable installation.
+Bradford Gold (Bradford Thermal) is Australia's most widely specified glasswool thermal insulation batt for residential and commercial ceilings and walls. Engineered using next-generation FBS-1 bio-soluble glasswool containing up to 80% recycled glass, Bradford Gold batts provide superior resistance to heat transfer, keeping homes warmer in winter and cooler in summer. The batts are non-combustible to AS 1530.1, approved by Sensitive Choice for asthma and allergy sufferers, and guaranteed to maintain performance for 70 years.
 
 ## Key features
 
-- FBS-1 Glasswool Bio-Soluble Insulation - safe to use and non-hazardous.
-- manufactured from up to 80% recycled glass content.
-- CodeMark Certificate of Conformity CM 30006.
-- non-combustible to AS 1530.1.
-- low itch soft next-gen formula for comfortable handling.
-- 50 Year Warranty backed by CSR.
-- ACCC certified.
+- Australia's most trusted residential thermal insulation batt for ceilings and walls.
+- Thermal ratings from R2.0 up to R7.0 for optimal energy efficiency and 7-star NatHERS compliance.
+- Non-combustible in accordance with AS 1530.1.
+- Early Fire Hazard properties (0/0/0/0-1) compliant with AS/NZS 1530.3.
+- Manufactured from up to 80% recycled glass.
+- Approved by National Asthma Council Australia's Sensitive Choice program.
+- FBS-1 bio-soluble glasswool formulation, soft to touch and low-itch.
+- Will not pack down, shrink, mould, rot, or deteriorate.
+- Reduces home heating and cooling energy use by up to 45%.
+- Backed by a 70-year performance warranty.
 
 ## Applications and selection
 
-- Internal Wall | External Wall
+- ceiling
+- wall
+- external wall
+- internal wall
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm framing spacing (430mm width for 450mm centres, 580mm width for 600mm centres).
+2. Confirm target R-value based on NCC 2022 climate zone and NatHERS energy rating (R4.1 to R6.0 typical for ceilings, R2.0 to R2.7 for walls).
+3. Confirm stud or joist depth to avoid over-compression.
+4. Check downlight ratings (IC-4 rated allows continuous coverage; non-IC requires clearance).
+5. Verify non-combustible compliance (AS 1530.1).
 
 
 ## Current catalogue range
@@ -46,37 +52,53 @@ Part of the CSR family with 100+ years of Australian building solutions. Firm fr
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Batt | Manufacturer catalogue |
-| Material | Glasswool | Manufacturer catalogue |
-| Applications | Internal Wall | External Wall | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Ceiling Material R-values | R2.5 (130mm), R3.0 (155mm), R3.5 (175mm), R4.1 (205mm), R5.0 (235mm), R6.0 (260mm), R7.0 (290mm) | AS/NZS 4859.1 |
+| Wall Material R-values | R1.5 (75mm), R2.0 (90mm), R2.5 (90mm), R2.7 (90mm) | AS/NZS 4859.1 |
+| Thickness Options | 75 mm to 290 mm depending on application and R-value | - |
+| Batt Dimensions | 1160 mm x 430 mm; 1160 mm x 580 mm | - |
+| Combustibility | Non-Combustible | AS 1530.1 |
+| Fire Hazard Properties | Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1 | AS/NZS 1530.3 |
+| Maximum Service Temperature | 350°C | - |
+| Moisture Absorption | < 0.2% by volume | - |
+| Corrosion Resistance | pH 7.5 - 8.0, non-corrosive | - |
+| Recycled Content | Up to 80% recycled glass | - |
 
-
+Extracted from manufacturer datasheet: https://www.bradfordinsulation.com.au/home-insulation/ceilings/gold-ceiling-batts
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Non-Combustible to AS 1530.1; AS/NZS 1530.3: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-1
+
+AS/NZS 4859.1:2018; AS 1530.1; AS/NZS 1530.3; AS 3999; NCC 2022 Volume 1 & Volume 2
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.csrbradford.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://www.firecrunch.com.au/wp-content/uploads/2016/02/BRADFORD-MSDS-e3a0-435b-b6ef-6f1027726ce6.pdf.
 
+## Recommended accessories
+
+- Bradford Thermoseal / Enviroseal wall wraps.
+- Insulation multi-tool / knife.
+- Safety kneeling boards for roof crawl.
+
 
 ## Limitations and warnings
 
-- Keep dry during storage and installation..
-- not a water or vapour barrier - use appropriate building wrap..
-- do not compress - compression reduces R-value performance..
-- not to be exposed to weather..
-- maximum service temperature 340°C..
-- Verify product is suitable for external exposure..
+- Do not compress batts into spaces smaller than nominal thickness as this reduces R-value.
+- Must be kept dry during storage and installation.
+- Do not cover unrated heat-generating appliances or non-IC downlights.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Keep dry during storage and installation.
+1. De-energise electrical circuits in roof space prior to installation where required by state regulation.
+2. Friction-fit batts between ceiling joists or wall studs without gaps or folds.
+3. Lay batts flat and butt joins tightly together to form a continuous thermal envelope.
+4. Maintain required safety clearances around non-IC rated recessed downlights, exhaust fans, and chimneys per AS 3999.
+5. Ensure roof ventilation pathways and eave perimeter gaps (minimum 20mm) remain unobstructed.
+6. In walls, ensure batts fill the depth of the stud cavity without bulging linings.
 
 ## Safety and handling
 
@@ -84,11 +106,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Contains up to 80% recycled glass; FBS-1 bio-soluble glasswool; low VOC; Sensitive Choice approved; zero ODP
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+70 Year Performance Warranty
 
 ## Specification starting point
 

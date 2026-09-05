@@ -1,6 +1,6 @@
 ---
 title: "Bradford Fireseal Party Wall Batts - Batt Insulation | Bradford"
-description: "Part of the CSR family with 100+ years of Australian building solutions. Made from natural volcanic rock, delivering superior fire resistance and acou"
+description: "Bradford Fireseal Party Wall Batts are non-combustible stone wool insulation batts specifically designed for Class 1 inter-tenancy wall systems to fil"
 keywords: "Bradford Fireseal Party Wall Batts, Bradford batt, wall insulation, insulation Australia, Bradford Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: BRADFORD_FIRESEAL_PARTY_WALL_BATTS
@@ -10,30 +10,31 @@ family_id: BRADFORD_FIRESEAL_PARTY_WALL_BATTS
 
 **Bradford Batt** — bulk insulation batts for thermal and acoustic performance.
 
-Part of the CSR family with 100+ years of Australian building solutions. Made from natural volcanic rock, delivering superior fire resistance and acoustic performance that lasts the lifetime of the building. Specialised widths suit narrow party wall cavities in modular construction.
+Bradford Fireseal Party Wall Batts are non-combustible stone wool insulation batts specifically designed for Class 1 inter-tenancy wall systems to fill and seal vertical joints, supporting fire protection requirements in multi-residential applications. Manufactured from molten natural rock and blast furnace slag bonded with thermosetting resin, these 100mm thick batts have remarkable resistance to shrinkage under fire conditions. Pre-cut to 1200mm x 168mm, they are installed under 10% compression in vertical wall cavities to prevent fire spread between adjoining dwellings.
 
 ## Key features
 
-- Non-combustible stonewool made from natural volcanic rock.
-- superior fire resistance up to 1000°C.
-- excellent acoustic absorption properties.
-- fully recyclable at end of life.
-- helps achieve NCC acoustic separation requirements.
-- available in specialised widths for modular construction.
-- fire-rated construction for FRL requirements.
-- BCA compliant fire ratings.
+- Non-combustible stone wool construction complying with AS 1530.1.
+- Purpose-designed for vertical joint sealing in Class 1 inter-tenancy walls.
+- Pre-cut to 1200mm x 168mm x 100mm for fast and consistent on-site installation.
+- Exceptional resistance to shrinkage under extreme fire temperatures up to 1000°C.
+- Stacks neatly to fill wall cavities up to 255mm in height per unit.
+- Bio-soluble FBS-1 rockwool formulation.
+- Performance unaffected by contact with water.
+- Provides thermal and acoustic benefits while fulfilling NCC passive fire requirements.
 
 ## Applications and selection
 
-- Party Wall Fire
+- wall
+- internal
+wall
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Verify application is for vertical joints in Class 1 inter-tenancy/party walls.
+2. Measure cavity width to ensure 100mm batt achieves 10-15% compression.
+3. Calculate total vertical lineal metres needed (each pack provides 6 linear metres).
+4. Confirm wall system is approved for Fireseal Party Wall Batts (timber frame, steel stud, or masonry).
 
 
 ## Current catalogue range
@@ -44,37 +45,51 @@ Part of the CSR family with 100+ years of Australian building solutions. Made fr
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Batt | Manufacturer catalogue |
-| Material | Stonewool | Manufacturer catalogue |
-| Applications | Party Wall Fire | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material | Bio-soluble rockwool (FBS-1) | - |
+| Nominal Thickness | 100 mm | - |
+| Dimensions | 1200 mm length x 168 mm width | - |
+| Pieces Per Pack | 5 pieces (6 lineal metres per pack, 1.01 m²) | - |
+| Combustibility | Non-combustible | AS 1530.1 |
+| Fire Hazard Indices | Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1 | AS/NZS 1530.3 |
+| Required Installation Compression | 10% to 15% compression in vertical joints | - |
+| Maximum Stack Height | Cavities up to 255 mm (max 3 stacked layers) | - |
+| Product Code | 119161 | - |
 
-
+Extracted from manufacturer datasheet: https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/walls/fireseal
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Non-combustible to AS 1530.1; AS/NZS 1530.3 indices: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-1; Satisfies NCC Volume Two / ABCB Housing Provisions Part 9.3 for Class 1 separating walls
+
+NCC 2022 / NCC 2025 Volume 1 and Volume 2 Deemed-to-Satisfy Separating Walls; ABCB Housing Provisions Standard Part 9.3; AS 1530.1; AS/NZS 4859.1
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.csrbradford.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://www.firecrunch.com.au/wp-content/uploads/2016/02/BRADFORD-MSDS-e3a0-435b-b6ef-6f1027726ce6.pdf.
 
+## Recommended accessories
+
+- Bradford Fireseal Party Wall Sealer.
+- Bradford Fireseal Batten Fillers.
+
 
 ## Limitations and warnings
 
-- Keep dry during storage and installation - if product becomes wet, dry thoroughly before installing..
-- not a water or vapour barrier - use appropriate building wrap..
-- do not compress - compression reduces R-value performance..
-- not to be exposed to weather..
-- maximum service temperature 750°C..
-- Acoustic and fire ratings are system-based - verify complete wall assembly matches tested configuration..
+- For vertical joints only; not appropriate to seal areas at the top of a masonry or lightweight wall system.
+- Maximum 3 layers should be stacked without adequate intermediate mechanical support.
+- Must be protected from continuous water pooling and direct UV exposure.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Keep dry during storage and installation - if product becomes wet, dry thoroughly before installing.
+1. For vertical joint applications only in Class 1 inter-tenancy wall systems.
+2. Friction-fit batts into the vertical joint maintaining a minimum of 10% compression.
+3. Ensure batts are seated tightly against both wall leaves.
+4. When extending length, make a Vee profile cut to both ends of each batt to create a tight interlocking butt joint.
+5. When stacking layers to fill cavities up to 255mm, stagger vertical joints and install as one consolidated unit.
+6. Do not use to seal areas at the top of wall systems (use Party Wall Sealer for wall heads).
 
 ## Safety and handling
 
@@ -82,11 +97,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Manufactured from up to 40% recycled slag and natural rock; FBS-1 bio-soluble; zero ODP
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Backed by CSR Bradford product warranty
 
 ## Specification starting point
 

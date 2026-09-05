@@ -1,7 +1,7 @@
 ---
 title: "Autex Willie Weston / Emma Hayes Quietspace - Panel Insulation | Autex"
-description: "Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability"
-keywords: "Autex Willie Weston / Emma Hayes Quietspace, Autex panel, acoustic insulation, wall insulation, ceiling insulation, insulation Australia, Autex Australia"
+description: "Autex Willie Weston / Emma Hayes Quietspace is a premium broadband acoustic wall panel engineered with dual-density polyester construction and overlai"
+keywords: "Autex Willie Weston / Emma Hayes Quietspace, Autex panel, wall insulation, ceiling insulation, insulation Australia, Autex Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AUTEX_WILLIE_WESTON_EMMA_HAYES_QUIETSPACE
 ---
@@ -10,30 +10,34 @@ family_id: AUTEX_WILLIE_WESTON_EMMA_HAYES_QUIETSPACE
 
 **Autex Panel** — acoustic panels for sound absorption and interior finish.
 
-Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability.
+Autex Willie Weston / Emma Hayes Quietspace is a premium broadband acoustic wall panel engineered with dual-density polyester construction and overlaid with high-definition digital artwork from First Nations artists (Willie Weston) or serene landscape designs (Emma Hayes). Built on a 25mm thick Quietspace Panel base with an impact-resistant face and cushioned backing, it absorbs 85% of sound energy (NRC 0.85). Digitally printed with water-based UV-cured ink, it provides museum-grade cultural aesthetics with class-leading acoustic absorption and Group 1 fire safety.
 
 ## Key features
 
-- 100% polyester - safe to handle without protective equipment.
-- contains minimum 80% recycled PET plastic bottles.
-- non-allergenic, non-irritant formulation.
-- will not support mould or mildew growth.
-- maintains performance when wet.
-- excellent thermal performance for roof/ceiling applications.
-- Made from recycled PET bottles.
-- Safe to handle without PPE.
+- Class-leading sound absorption absorbing 85% of incident sound energy (NRC 0.85).
+- Overlaid with curated First Nations art (Willie Weston) or organic landscape designs (Emma Hayes).
+- Engineered on a 25mm dual-density 100% polyester Quietspace Panel core.
+- High-resolution digital printing with safe, water-based UV-cured ink.
+- Group 1 fire rating compliant with AS ISO 9705 - 2003 and AS 5637.1.
+- Provides fair, ongoing royalty returns to First Nations artists and communities.
+- Constructed with a minimum of 58% post-consumer recycled PET.
+- Non-toxic, non-allergenic, non-irritant, and free from formaldehyde or chemical binders.
+- Certified Carbon Neutral product with third-party verified EPD and Declare Red List Free.
+- Lightweight and easy to install directly to walls or ceilings.
 
 ## Applications and selection
 
-- Internal Wall | Ceiling | General Acoustic
+- wall
+- internal wall
+- ceiling
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Select artwork design from Willie Weston (First Nations) or Emma Hayes (NZ landscapes).
+2. Confirm 25mm Quietspace core for maximum sound absorption (NRC 0.85).
+3. Confirm panel height (2400mm, 2700mm, or 3000mm) x 1200mm width.
+4. Verify multi-panel mural sequence and wall dimensions.
+5. Specify suitable adhesive and edge profile trims (Type C profiles) if desired.
 
 
 ## Current catalogue range
@@ -46,36 +50,58 @@ Specialists in sustainable polyester acoustic solutions. Safe to handle without 
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Panel | Manufacturer catalogue |
-| Material | Polyester | Manufacturer catalogue |
-| Applications | Internal Wall | Ceiling | General Acoustic | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Noise Reduction Coefficient (NRC) | 0.85 (25mm direct fix) | ISO 354 |
+| Sound Absorption Class | Class C (25mm) | ISO 11654 |
+| Sound Absorption Coefficients (Octave Bands) | 125Hz: 0.15, 250Hz: 0.45, 500Hz: 0.85, 1000Hz: 1.00, 2000Hz: 1.00, 4000Hz: 0.95 | ISO 354 |
+| Panel Dimensions | 1200 mm x 2400 mm; 1200 mm x 2700 mm; 1200 mm x 3000 mm (tolerance +/- 1 mm) | - |
+| Thickness | 25 mm (+/- 6%) | - |
+| Weight | 2300 gsm | - |
+| Material Composition | 100% polyester fibre (PET) printed with UV-curable ink | - |
+| Recycled Content | Minimum 58% post-consumer recycled PET | - |
+| Thermal Resistance | R0.6 (@ 15°C) | - |
+| Fire Rating (Australia) | Group 1, SMOGRArc < 100 m2/s2 | AS ISO 9705 - 2003 / AS 5637.1 |
+| International Fire Rating | Group 1-S (ISO 9705:1993); Class A (ASTM E-84); B - s2, d0 (BS EN 13501-1:2018) | ISO 9705 / ASTM E-84 / BS EN 13501-1 |
+| Microbial Resistance | Growth rating: 0 (No growth) | ASTM G21-15 |
+| VOC Emissions | < 0.019 mg/m3 (24 hours) | CDPH Standard Method v1.2 |
 
-
+Extracted from manufacturer datasheet: https://www.autexglobal.com/au/products/quietspace-panel/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM E-84 Class A; BS EN 13501-1:2018 B - s2, d0
+
+NCC Specification 7 (BCA C1.10) Group 1 fire compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.autexacoustics.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://insulvac.com.au/wp-content/uploads/2020/04/autex-material-safety-data-sheet-msds.pdf.
 
+## Recommended accessories
+
+- Autex Edging Solutions (Type C aluminium profiles for 25mm).
+- High-grab MS polymer or contact adhesive.
+- Pressure roller.
+
 
 ## Limitations and warnings
 
-- Not suitable for fire rating without additional protection..
-- not to be exposed to weather or sustained moisture..
-- do not compress beyond manufacturer recommendations..
-- check fire-rated system requirements..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Indoor use only; avoid wet areas or direct water exposure.
+- Printed decorative face can show marks under heavy friction; avoid high-impact sporting zones.
+- Do not bend or fold panels as this will crack the high-density compressed face.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for fire rating without additional protection.
+1. Inspect wall or ceiling substrate ensuring it is flat, clean, dry, and dust-free.
+2. Acclimatise panels in the installation environment for at least 24 hours prior to fitting.
+3. Confirm image numbering and pattern alignment across the multi-panel layout diagram.
+4. Handle panels with clean hands or white gloves to protect the printed artwork surface.
+5. Apply recommended contact adhesive or high-grab MS polymer adhesive evenly across the panel backing.
+6. Mount panel squarely to the substrate and apply firm, even roller pressure across the face.
+7. Ensure adjacent panels are tightly butted to maintain continuous artistic visuals.
+8. Trim edges squarely from the face using a sharp knife on the offcut side where required.
 
 ## Safety and handling
 
@@ -83,11 +109,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Royalty-sharing model supporting First Nations artists; carbon neutral product; min 58% recycled PET; Declare Red List Free; EPD verified; low VOC
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+10 Year Manufacturer's Guarantee
 
 ## Specification starting point
 

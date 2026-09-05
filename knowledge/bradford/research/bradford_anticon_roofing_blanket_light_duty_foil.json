@@ -1,0 +1,173 @@
+{
+  "family_id": "BRADFORD_ANTICON_ROOFING_BLANKET_LIGHT_DUTY_FOIL",
+  "family_name": "Bradford Anticon Roofing Blanket - Light Duty Foil",
+  "datasheet_pdf_url": "https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/roofing/anticon",
+  "sds_url": "https://www.bradfordinsulation.com.au/resources/safety-data-sheets",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Bradford Anticon Roofing Blanket - Light Duty Foil is an\neconomical glasswool insulation blanket laminated with a Light Duty reflective\nfoil backing. Engineered for domestic metal roofs with closely spaced timber\nbattens or steel rafters (up to 600mm centres) or roofs fully supported by\nsafety wire mesh, it provides thermal insulation, dampens rain noise, and\ncontrols condensation. It features a 150mm foil overlap edge to maintain vapour\nseal continuity across domestic roofs and sheds.",
+    "features": [
+      "Faced with\nLight Duty reflective foil laminate for cost-effective domestic applications",
+      "Designed for closely spaced framing supports (up to 600mm centres) or\nmesh-supported roofs",
+      "Factory-bonded with a 150mm foil overlap edge to\nfacilitate vapour-tight sealing",
+      "Non-combustible glasswool insulation core\nmeeting AS 1530.1",
+      "Bushfire ember protection compliant from BAL 12.5 to BAL FZ\nunder AS 3959",
+      "Damps heavy rain noise by up to 7 dB to improve acoustic\ncomfort inside",
+      "Reflects radiant heat away from the roof space to enhance\nenergy efficiency",
+      "Bio-soluble FBS-1 glasswool approved by Sensitive Choice\nfor allergy sufferers",
+      "Available in 60mm, 80mm, and 100mm thicknesses (R1.3 to\nR2.3)",
+      "Cost-effective solution to stop roof condensation in residential metal\nroofs"
+    ],
+    "applications": [
+      "roof",
+      "roofline",
+      "shed",
+      "ceiling"
+    ],
+    "technical": [
+      {
+        "property": "Foil Duty Classification",
+        "value": "Light Duty",
+        "standard": "AS/NZS 4200.1"
+      },
+      {
+        "property": "Material R-values",
+        "value": "Anticon 60 LD: R1.3 (60mm); Anticon 80 LD: R1.8 (80mm); Anticon 100 LD: R2.3\n(100mm)",
+        "standard": "AS/NZS 4859.1:2018"
+      },
+      {
+        "property": "Blanket Width",
+        "value": "1200 mm (plus 150 mm foil overlap extension)",
+        "standard": ""
+      },
+      {
+        "property": "Roll Lengths",
+        "value": "15 m, 20 m",
+        "standard": ""
+      },
+      {
+        "property": "Combustibility (Core)",
+        "value": "Non-Combustible",
+        "standard": "AS 1530.1"
+      },
+      {
+        "property": "Early Fire Hazard Indices",
+        "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Bushfire Rating",
+        "value": "BAL 12.5 - BAL FZ",
+        "standard": "AS 3959"
+      },
+      {
+        "property": "Foil Emittance",
+        "value": "0.05 (reflective face); 0.90 (antiglare face)",
+        "standard": "AS/NZS 4201.5"
+      },
+      {
+        "property": "Vapour Barrier Classification",
+        "value": "Class 2 Vapour Barrier",
+        "standard": "AS/NZS 4200.1"
+      },
+      {
+        "property": "Maximum\nSpan Between Supports",
+        "value": "Up to 600 mm centres without mesh (or\ncontinuous mesh supported)",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Anticon 60 Light Duty (LD)",
+        "size_or_rating": "60 mm x 1200 mm x 15-20 m,\nR1.3",
+        "pack": "Roll"
+      },
+      {
+        "variant": "Anticon 80 Light Duty (LD)",
+        "size_or_rating": "80 mm x 1200 mm x 15 m, R1.8",
+        "pack": "Roll"
+      },
+      {
+        "variant": "Anticon 100 Light Duty (LD)",
+        "size_or_rating": "100 mm x 1200 mm x 10 m,\nR2.3",
+        "pack": "Roll"
+      }
+    ],
+    "fire": "Core non-combustible to AS 1530.1;\nAS/NZS 1530.3: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke\nDeveloped 0-1; BAL 12.5 to BAL FZ to AS 3959",
+    "compliance": "AS/NZS 4859.1:2018; AS/NZS 4200.1 Light Duty rating; AS 3959; NCC 2022 Volume 2\nHousing Provisions",
+    "sustainability": "Manufactured from up to 65% recycled\nglass; FBS-1 bio-soluble; zero ODP; Sensitive Choice approved",
+    "install": [
+      "Confirm roof batten spacing does not exceed 600mm centres (or that safety wire\nmesh is installed)",
+      "Roll out Anticon Light Duty over framing with the foil\nfacing down into the attic or room",
+      "Ensure a gentle sag of 25mm to 40mm\nbetween battens to prevent compression against sheeting",
+      "Overlap adjoining\nblanket runs by 150mm using the pre-extended foil edge",
+      "Seal all overlaps and\nedges with Bradford 493 Reinforced Foil Tape to create a continuous vapor seal",
+      "Fix metal roof sheets over battens, taking care not to puncture or excessively\nstretch the light-duty foil",
+      "Complete installation prior to rainfall to keep\nthe glasswool dry"
+    ],
+    "selection_checklist": [
+      "Verify framing spacing is\n≤ 600mm centres (if spacing is 600-900mm use MD; if > 900mm use HD)",
+      "Check\nthat safety mesh is installed if used over wider industrial spans",
+      "Confirm\nthermal R-value requirement (R1.3, R1.8, or R2.3)",
+      "Ensure reinforced foil tape\nis included for sealing the 150mm overlap",
+      "Confirm application is under metal\nroof cladding"
+    ],
+    "accessories": [
+      "Bradford 493 Reinforced Aluminium Foil\nTape",
+      "Roof safety wire mesh (if span > 600mm)"
+    ],
+    "limitations": [
+      "Do not use\non framing spans exceeding 600mm without wire mesh support (foil may tear or\nsag)",
+      "Glasswool must be kept completely dry during storage and installation",
+      "Foil must face downward into the building space to prevent condensation"
+    ],
+    "warranty": "CSR Bradford Standard Product Warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Anticon Light Duty",
+      "Anticon LD",
+      "Bradford Anticon LD",
+      "light duty roofing blanket",
+      "budget Anticon blanket",
+      "residential Anticon\nblanket",
+      "Anticon 60 LD",
+      "Anticon 80 LD",
+      "metal roof insulation blanket LD"
+    ],
+    "problem_keywords": [
+      "condensation under tin shed roof",
+      "noisy rain on\nhouse roof",
+      "budget metal roof insulation",
+      "sweating corrugated iron",
+      "heat\nentering ceiling through metal roof",
+      "preventing roof rust from condensation"
+    ],
+    "placement": [
+      "roof",
+      "roofline",
+      "shed",
+      "ceiling"
+    ],
+    "priority_fit": [
+      "budget",
+      "thermal",
+      "condensation",
+      "acoustic"
+    ],
+    "use_cases": [
+      "Residential\nmetal roof installations with timber trusses or steel battens spaced at 450mm\nor 600mm centres",
+      "Domestic garage, shed, and workshop roofs with wire mesh\nsupport to stop condensation dripping",
+      "Cost-effective thermal and acoustic\nrain damping in residential home additions"
+    ],
+    "not_for": [
+      "Unmeshed commercial\npurlin spans over 600mm",
+      "Tiled roof applications without metal deck",
+      "Flooring or wall cavity batts"
+    ],
+    "rag_summary": "Bradford Anticon Roofing\nBlanket - Light Duty Foil is a cost-effective glasswool insulation blanket faced\nwith a Light Duty reflective foil backing and a 150mm overlap edge. Designed for\nresidential metal roofs with batten centres up to 600mm or roofs supported by\ncontinuous safety mesh, it stops condensation pooling, dampens rain noise by up\nto 7 dB, and delivers thermal resistance from R1.3 to R2.3. With a\nnon-combustible glasswool core and BAL-FZ bushfire suitability, it provides\ndependable under-roof protection for budget-conscious home and shed builds."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

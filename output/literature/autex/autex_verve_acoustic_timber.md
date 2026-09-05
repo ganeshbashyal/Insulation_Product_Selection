@@ -1,7 +1,7 @@
 ---
 title: "Autex Verve - Acoustic Timber - Panel Insulation | Autex"
-description: "Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability"
-keywords: "Autex Verve - Acoustic Timber, Autex panel, acoustic insulation, wall insulation, ceiling insulation, insulation Australia, Autex Australia"
+description: "Autex Verve - Acoustic Timber is a contoured acoustic wall panel that combines sculptural, light-responsive geometry with high-definition digital timb"
+keywords: "Autex Verve - Acoustic Timber, Autex panel, acoustic insulation, wall insulation, insulation Australia, Autex Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AUTEX_VERVE_ACOUSTIC_TIMBER
 ---
@@ -10,30 +10,33 @@ family_id: AUTEX_VERVE_ACOUSTIC_TIMBER
 
 **Autex Panel** — acoustic panels for sound absorption and interior finish.
 
-Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability.
+Autex Verve - Acoustic Timber is a contoured acoustic wall panel that combines sculptural, light-responsive geometry with high-definition digital timber prints. Manufactured from 100% polyester fibre with an 80% recycled PET core, it moulds static surfaces into expressive three-dimensional architectural features. Available across six distinctive contoured profiles and 14 timber grain prints, it provides acoustic absorption (NRC 0.30+) and Group 1 fire compliance without the weight or fire risks of solid timber.
 
 ## Key features
 
-- 100% polyester - safe to handle without protective equipment.
-- contains minimum 80% recycled PET plastic bottles.
-- non-allergenic, non-irritant formulation.
-- will not support mould or mildew growth.
-- maintains performance when wet.
-- excellent thermal performance for roof/ceiling applications.
-- Made from recycled PET bottles.
-- Safe to handle without PPE.
+- Sculptural 3D contoured profiles: Pillar, Flute, Ovolo, Pinstripe, Ridge, Windswept.
+- High-definition digital printing of 14 realistic timber woodgrains using water-based UV ink.
+- Engineered from 100% polyester fibre containing a minimum of 80% recycled PET.
+- Available in 12mm (6mm edge) and 21mm (15mm edge) thicknesses.
+- Generous panel dimensions of 2680mm or 2700mm height by 1170mm width.
+- Sound absorption performance starting from NRC 0.30 and higher.
+- Group 1 fire rating compliant with AS ISO 9705 - 2003 and AS 5637.1.
+- Glue-free SpinFix mechanical mounting or direct adhesive fixing options.
+- Resistant to moisture, mould, and mildew (ASTM G21-15 Growth Rating: 0).
+- Certified Carbon Neutral product with third-party verified EPD.
 
 ## Applications and selection
 
-- Internal Wall | Ceiling | General Acoustic
+- wall
+- internal wall
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Select contoured style (Pillar, Flute, Ovolo, Pinstripe, Ridge, Windswept).
+2. Select timber grain print from the 14 Acoustic Timber options (Oak, Birch, Walnut, etc.).
+3. Select panel thickness (12mm with 6mm edge or 21mm with 15mm edge).
+4. Confirm wall height to specify 2680mm or 2700mm lengths.
+5. Choose mounting method (adhesive direct-fix or SpinFix mechanical clips).
 
 
 ## Current catalogue range
@@ -45,36 +48,53 @@ Specialists in sustainable polyester acoustic solutions. Safe to handle without 
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Panel | Manufacturer catalogue |
-| Material | Polyester | Manufacturer catalogue |
-| Applications | Internal Wall | Ceiling | General Acoustic | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Acoustic Rating (NRC) | NRC 0.30 and higher (typically 0.30 - 0.70+ depending on air gap) | ISO 354 |
+| Panel Dimensions | 1170 mm width x 2680 mm length (or 2700 mm length; custom up to 2680 mm) | - |
+| Thickness Options | 12 mm (6 mm edge) | 21 mm (15 mm edge) | - |
+| Base Material | 100% polyester fibre (PET) Cube panel | - |
+| Recycled Content | Minimum 80% post-consumer recycled PET | - |
+| Fire Rating (Australia) | Group 1, SMOGRArc < 100 m2/s2 | AS ISO 9705 - 2003 / AS 5637.1:2015 |
+| International Fire Classification | Group 1-S (ISO 9705:1993); BS EN 13501-1:2018 B - s1, d0 | ISO 9705 / BS EN 13501-1 |
+| Water Vapour Sorption | 0.4% by weight after 4 days at 49°C, 95% RH | ASTM C1104 / C1104M-13a |
+| Microbial Resistance | Growth rating: 0 (No growth) | ASTM G21-15 |
+| VOC Emissions | < 0.092 mg/m3 (7 days) | CDPH Standard Method v1.2 |
 
-
+Extracted from manufacturer datasheet: https://www.autexglobal.com/au/products/verve/
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; BS EN 13501-1:2018 B - s1, d0
+
+NCC Specification 7 (BCA C1.10) Group 1 fire compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.autexacoustics.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://insulvac.com.au/wp-content/uploads/2020/04/autex-material-safety-data-sheet-msds.pdf.
 
+## Recommended accessories
+
+- Autex SpinFix mounting brackets.
+- High-grab MS polymer adhesive.
+- Straight edge and fine-tooth saw.
+
 
 ## Limitations and warnings
 
-- Not suitable for fire rating without additional protection..
-- not to be exposed to weather or sustained moisture..
-- do not compress beyond manufacturer recommendations..
-- check fire-rated system requirements..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Indoor use only; avoid wet areas or direct water exposure.
+- Panels join at pattern low points; verify vertical alignment along panel seams.
+- Pinstripe profile is available in 12mm thickness only.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for fire rating without additional protection.
+1. Check wall substrate is flat, plumb, dry, and structurally sound.
+2. Acclimatise panels in the installation environment for at least 24 hours prior to mounting.
+3. Plan panel layout ensuring contoured profiles and timber grain direction align seamlessly.
+4. Apply high-grab MS polymer adhesive evenly to panel back or install using Autex SpinFix clips.
+5. Position panel, butt joins neatly at pattern low points, and apply uniform pressure across face.
+6. Trim bottom or top perimeter edges cleanly using a track saw with a fine-toothed blade.
 
 ## Safety and handling
 
@@ -82,11 +102,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Carbon neutral product; water-based UV ink; minimum 80% recycled PET; Declare Red List Free; EPD compliant; low VOC
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+Manufacturer's Guarantee (10 years)
 
 ## Specification starting point
 

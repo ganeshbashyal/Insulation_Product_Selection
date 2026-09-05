@@ -1,0 +1,182 @@
+{
+  "family_id": "BRADFORD_SOUNDCSREEN_ACOUSTIC_BATTS",
+  "family_name": "Bradford Soundcsreen Acoustic Batts",
+  "datasheet_pdf_url": "https://www.bradfordinsulation.com.au/home-insulation/walls/soundscreen",
+  "sds_url": "https://www.bradfordinsulation.com.au/resources/safety-data-sheets",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Bradford SoundScreen is Australia's most popular high-density\nacoustic insulation batt, specially engineered to reduce sound transfer through\ninternal walls, external walls, and mid-floors. Manufactured from high-density\nFBS-1 bio-soluble glasswool containing up to 65% recycled glass, SoundScreen\nabsorbs airborne sound and acoustic vibrations to reduce loud noises to a\nwhisper. It is non-combustible, provides thermal resistance up to R3.1, and is\napproved by the National Asthma Council's Sensitive Choice program.",
+    "features": [
+      "Reduces sound power transfer by up to 75% in interior walls and\nmid-floors",
+      "High-density glasswool formulation designed specifically for\nacoustic absorption",
+      "Non-combustible in accordance with AS 1530.1",
+      "Early\nFire Hazard indices of 0/0/0/0-1 to AS/NZS 1530.3",
+      "Thermal ratings from R1.7\nto R3.1 to provide dual thermal-acoustic benefits",
+      "Approved by National Asthma\nCouncil Australia's Sensitive Choice program",
+      "FBS-1 bio-soluble glasswool\nformulation, non-hazardous and safe to handle",
+      "Will not pack down, shrink,\nmould, rot, or deteriorate",
+      "Manufactured in Australia from up to 65% recycled\nglass",
+      "Backed by a 70-year performance warranty"
+    ],
+    "applications": [
+      "internal wall",
+      "wall",
+      "external wall",
+      "between floors",
+      "ceiling"
+    ],
+    "technical": [
+      {
+        "property": "Material R-values",
+        "value": "R1.7 (60mm), R2.0\n(70mm), R2.5 (88mm), R3.1 (110mm)",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Nominal Thickness",
+        "value": "60 mm, 70 mm, 88 mm, 110 mm",
+        "standard": ""
+      },
+      {
+        "property": "Batt Dimensions",
+        "value": "1160 mm x 430 mm; 1160 mm x 580\nmm; 1200 mm x 600 mm",
+        "standard": ""
+      },
+      {
+        "property": "Acoustic Absorption\n(NRC)",
+        "value": "R1.7: 1.00; R2.0: 1.00; R2.5: 1.10; R3.1: 1.15",
+        "standard": "ISO 354"
+      },
+      {
+        "property": "Combustibility",
+        "value": "Non-Combustible",
+        "standard": "AS 1530.1"
+      },
+      {
+        "property": "Fire Hazard Properties",
+        "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Maximum Service Temperature",
+        "value": "350°C",
+        "standard": ""
+      },
+      {
+        "property": "Moisture Absorption",
+        "value": "< 0.2% by volume (96 hours at 50°C, 95% RH)",
+        "standard": ""
+      },
+      {
+        "property": "Corrosion Resistance",
+        "value": "pH 7.5 - 8.0, non-corrosive",
+        "standard": "BS 3958 Part 5"
+      },
+      {
+        "property": "Recycled Content",
+        "value": "Up\nto 65% recycled glass",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "SoundScreen\nR1.7",
+        "size_or_rating": "60 mm x 430/580 mm x 1160 mm",
+        "pack": "Pack of 10\n(4.99 m2 / 6.73 m2)"
+      },
+      {
+        "variant": "SoundScreen R2.0",
+        "size_or_rating": "70\nmm x 430/580 mm x 1160 mm; 70 mm x 600 mm x 1200 mm",
+        "pack": "Pack of 8 (3.99\nm2 / 5.38 m2 / 5.76 m2)"
+      },
+      {
+        "variant": "SoundScreen R2.5",
+        "size_or_rating": "88 mm x 430/580 mm x 1160 mm",
+        "pack": "Pack of 6 (3.0 m2 / 4.0 m2)"
+      },
+      {
+        "variant": "SoundScreen R3.1",
+        "size_or_rating": "110 mm x 430/580 mm x 1160\nmm",
+        "pack": "Pack of 5 (2.5 m2 / 3.4 m2)"
+      }
+    ],
+    "fire": "Non-Combustible to\nAS 1530.1; AS/NZS 1530.3: Ignitability 0, Spread of Flame 0, Heat Evolved 0,\nSmoke Developed 0-1",
+    "compliance": "AS/NZS 4859.1:2018; AS 1530.1;\nAS/NZS 1530.3; NCC 2022 Volume 1 & Volume 2 acoustic and fire standards",
+    "sustainability": "Contains up to 65% recycled glass; FBS-1 bio-soluble\nformulation; low VOC; Sensitive Choice approved; zero ODP",
+    "install": [
+      "Friction-fit SoundScreen batts tightly between timber or steel wall framing\nstuds",
+      "Ensure batts completely fill the stud or joist cavity without gaps or\nvoids around edges",
+      "Cut batts neatly around electrical conduits, plumbing\npipes, and junction boxes using an insulation knife",
+      "For between-floor\napplications, lay batts between mid-floor joists or hold in place before ceiling\nlining installation",
+      "In party walls or home theatres, pair with acoustic\nplasterboard (e.g. Gyprock Soundchek) and resilient mounts for maximum Rw\nperformance",
+      "Fasten internal wall linings directly over the insulated\nframework"
+    ],
+    "selection_checklist": [
+      "Confirm stud or joist cavity width\n(430mm for 450mm centres, 580mm for 600mm centres)",
+      "Confirm stud cavity depth\n(e.g. 70mm, 75mm, or 90mm stud cavity determines R1.7, R2.0, or R2.5)",
+      "Check\nrequired acoustic sound transmission rating (Rw 40 to Rw 55+)",
+      "Confirm\nnon-combustibility requirement (SoundScreen passes AS 1530.1)",
+      "Determine if\nthermal R-value is required for external walls or mid-floors"
+    ],
+    "accessories": [
+      "Gyprock Soundchek acoustic plasterboard",
+      "Acoustic perimeter sealant",
+      "Resilient isolation clips",
+      "Serrated insulation knife"
+    ],
+    "limitations": [
+      "Do\nnot compress batts into cavities narrower than the nominal batt thickness",
+      "Acoustic performance depends on airtight wall construction; seal all perimeter\ngaps and penetrations",
+      "Indoor/enclosed cavity application only; protect from\nweather"
+    ],
+    "warranty": "70 Year Performance Warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Bradford SoundScreen",
+      "SoundScreen acoustic batts",
+      "SoundScreen R2.0",
+      "SoundScreen R2.5",
+      "acoustic wall batts",
+      "soundproofing\nbatts",
+      "high density acoustic insulation",
+      "internal wall sound batts",
+      "home\ntheatre insulation batts",
+      "SoundScreen Comfort Touch"
+    ],
+    "problem_keywords": [
+      "noisy bathroom pipes through bedroom wall",
+      "television noise between rooms",
+      "kids playing noise between floors",
+      "loud traffic noise through external\nwalls",
+      "home theatre sound leakage",
+      "meeting room speech privacy"
+    ],
+    "placement": [
+      "internal wall",
+      "wall",
+      "external wall",
+      "between floors",
+      "ceiling"
+    ],
+    "priority_fit": [
+      "acoustic",
+      "fire",
+      "thermal",
+      "easy_install"
+    ],
+    "use_cases": [
+      "Friction-fitting into 70mm and 90mm internal stud walls around\nbedrooms, bathrooms, and laundries to minimize noise transfer",
+      "Mid-floor\nacoustic cavity treatment between ground-floor living areas and upstairs\nbedrooms to deaden impact and airborne sound",
+      "Lining home theatre walls and\nmedia rooms paired with acoustic plasterboard for high sound isolation"
+    ],
+    "not_for": [
+      "Direct floor traffic surfaces or under-tile subfloor underlays",
+      "Unlined exposed walls without plasterboard covering",
+      "External roofing\napplications without waterproof sarking"
+    ],
+    "rag_summary": "Bradford SoundScreen\nAcoustic Batts are high-density, non-combustible glasswool insulation segments\nengineered to reduce sound power transfer by up to 75% through internal walls\nand mid-floors. Available in thicknesses from 60mm to 110mm (R1.7 to R3.1) with\nan acoustic NRC up to 1.15, they absorb conversational noise, television sound,\nand plumbing rumble. Certified non-combustible under AS 1530.1 and endorsed by\nSensitive Choice for asthma and allergy sufferers, SoundScreen delivers proven\nacoustic privacy and thermal comfort backed by a 70-year warranty."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

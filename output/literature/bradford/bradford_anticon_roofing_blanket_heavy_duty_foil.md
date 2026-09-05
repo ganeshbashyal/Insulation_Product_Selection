@@ -1,7 +1,7 @@
 ---
 title: "Bradford Anticon Roofing Blanket - Heavy Duty Foil - Batt Insulation | Bradford"
-description: "Part of the CSR family with 100+ years of Australian building solutions. The firm friction fit design means batts stay in place permanently - no saggi"
-keywords: "Bradford Anticon Roofing Blanket - Heavy Duty Foil, Bradford batt, roof insulation, shed insulation, insulation Australia, Bradford Australia"
+description: "Bradford Anticon Roofing Blanket - Heavy Duty Foil is a premium glasswool roofing blanket factory-bonded to an Extra Heavy Duty reflective foil lamina"
+keywords: "Bradford Anticon Roofing Blanket - Heavy Duty Foil, Bradford batt, ceiling insulation, roof insulation, shed insulation, insulation Australia, Bradford Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: BRADFORD_ANTICON_ROOFING_BLANKET_HEAVY_DUTY_FOIL
 ---
@@ -10,30 +10,35 @@ family_id: BRADFORD_ANTICON_ROOFING_BLANKET_HEAVY_DUTY_FOIL
 
 **Bradford Batt** — bulk insulation batts for thermal and acoustic performance.
 
-Part of the CSR family with 100+ years of Australian building solutions. The firm friction fit design means batts stay in place permanently - no sagging or settling. Low itch formula makes installation more comfortable than ever.
+Bradford Anticon Roofing Blanket - Heavy Duty Foil is a premium glasswool roofing blanket factory-bonded to an Extra Heavy Duty reflective foil laminate facing. Specifically engineered for commercial metal roofs and residential projects with wider purlin or batten spacings (up to 1200mm centres without mesh), the Heavy Duty foil provides superior tensile strength, tear resistance, and puncture durability. It prevents underside condensation, significantly reduces rain drumming noise, and complies with bushfire attack levels up to BAL-FZ.
 
 ## Key features
 
-- FBS-1 Glasswool Bio-Soluble Insulation - safe to use and non-hazardous.
-- manufactured from up to 80% recycled glass content.
-- CodeMark Certificate of Conformity CM 30006.
-- non-combustible to AS 1530.1.
-- low itch soft next-gen formula for comfortable handling.
-- excellent thermal performance for roof/ceiling applications.
-- helps meet NCC energy efficiency requirements.
-- 50 Year Warranty backed by CSR.
+- Faced with Extra Heavy Duty reflective foil laminate for maximum tensile and tear strength.
+- Engineered for wider purlin spacings up to 1200mm without sagging or tearing.
+- Factory-bonded with a 150mm foil overlap edge for sealed, continuous vapour barriers.
+- Non-combustible glasswool core conforming to AS 1530.1.
+- Bushfire ember protection certified from BAL 12.5 to BAL FZ under AS 3959.
+- Damps heavy rain noise by up to 7 dB to deliver quieter building interiors.
+- Reflects up to 97% of radiant heat entering through metal roofing.
+- Manufactured from up to 65% recycled glass with FBS-1 bio-soluble formulation.
+- Available in thicknesses from 60mm to 145mm (R1.3 to R3.6).
+- Resistant to moisture penetration and condensation formation.
 
 ## Applications and selection
 
-- Metal Roof / Shed
+- roof
+- roofline
+- shed
+- ceiling
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm purlin or batten spacing exceeds 900mm (up to 1200mm centres requires Heavy Duty foil).
+2. Verify commercial or residential metal roof profile and pitch.
+3. Confirm required thermal R-value under NCC Section J or residential energy requirements.
+4. Ensure heavy-duty foil tape (Bradford 493) is specified for all joint sealing.
+5. Check BAL rating compliance (BAL 12.5 to BAL FZ).
 
 
 ## Current catalogue range
@@ -48,37 +53,54 @@ Part of the CSR family with 100+ years of Australian building solutions. The fir
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Batt | Manufacturer catalogue |
-| Material | Glasswool / Foil Composite | Manufacturer catalogue |
-| Applications | Metal Roof / Shed | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Foil Duty Classification | Heavy Duty / Extra Heavy Duty | AS/NZS 4200.1 |
+| Material R-values | Anticon 60 HD: R1.3 (60mm); Anticon 80 HD: R1.8 (80mm); Anticon 100 HD: R2.3 (100mm); Anticon 130 HD: R3.0 (130mm); Anticon 145 HD: R3.6 (145mm) | AS/NZS 4859.1:2018 |
+| Blanket Width | 1200 mm (plus 150 mm foil overlap extension) | - |
+| Roll Lengths | 10 m, 12 m, 15 m, 20 m (custom lengths available) | - |
+| Combustibility (Core) | Non-Combustible | AS 1530.1 |
+| Early Fire Hazard Indices | Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1 | AS/NZS 1530.3 |
+| Bushfire Rating | BAL 12.5 - BAL FZ | AS 3959 |
+| Foil Emittance | 0.05 (reflective face); 0.90 (antiglare face) | AS/NZS 4201.5 |
+| Vapour Barrier Classification | Class 2 Vapour Barrier (< 0.020 µg/N.s) | AS/NZS 4200.1 |
+| Maximum Span Between Supports | Up to 1200 mm centres without safety mesh support | - |
 
-
+Extracted from manufacturer datasheet: https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/roofing/anticon
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Core non-combustible to AS 1530.1; AS/NZS 1530.3: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-1; BAL 12.5 to BAL FZ to AS 3959
+
+AS/NZS 4859.1:2018; AS/NZS 4200.1 Heavy Duty rating; AS 3959; NCC 2022 Volume 1 & 2
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.csrbradford.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://www.firecrunch.com.au/wp-content/uploads/2016/02/BRADFORD-MSDS-e3a0-435b-b6ef-6f1027726ce6.pdf.
 
+## Recommended accessories
+
+- Bradford 493 Reinforced Foil Tape.
+- Roof spacer system (Ashgrid / SpacerX).
+- Plastic squeegee.
+
 
 ## Limitations and warnings
 
-- Keep dry during storage and installation - if product becomes wet, dry thoroughly before installing..
-- not a water or vapour barrier - use appropriate building wrap..
-- do not compress - compression reduces R-value performance..
-- not to be exposed to weather..
-- maximum service temperature 340°C (glasswool) / 750°C (stonewool)..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Do not install in wet weather; glasswool must remain completely dry.
+- Must be installed with foil facing downwards into the roof space.
+- Spans exceeding 1200mm require safety mesh support underneath.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Keep dry during storage and installation - if product becomes wet, dry thoroughly before installing.
+1. Ensure purlins or rafters are clean and dry prior to blanket rollout.
+2. Roll out Anticon Heavy Duty over framing with the heavy-duty foil facing down toward the building interior.
+3. Allow a uniform sag of 25-40mm between purlins (up to 1200mm centres) to ensure thermal recovery.
+4. Lap adjacent blanket rolls by 150mm using the pre-extended foil flap.
+5. Tape all foil seams with Bradford 493 Reinforced Aluminium Foil Tape using a plastic squeegee for an airtight seal.
+6. Install roof spacer systems (e.g. Ashgrid or SpacerX) over purlins if required to prevent insulation pinch.
+7. Fasten metal roof cladding immediately over the blanket or spacer bars.
 
 ## Safety and handling
 
@@ -86,11 +108,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Manufactured from up to 65% recycled glass; FBS-1 bio-soluble; zero ODP; Sensitive Choice approved
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+CSR Bradford Standard Product Warranty
 
 ## Specification starting point
 

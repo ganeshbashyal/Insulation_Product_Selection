@@ -1,0 +1,174 @@
+{
+  "family_id": "BRADFORD_THERMAL_BRADFORD",
+  "family_name": "Bradford Thermal - Bradford",
+  "datasheet_pdf_url": "https://www.bradfordinsulation.com.au/home-insulation/ceilings/gold-ceiling-batts",
+  "sds_url": "https://www.bradfordinsulation.com.au/resources/safety-data-sheets",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Bradford Gold (Bradford Thermal) is Australia's most widely\nspecified glasswool thermal insulation batt for residential and commercial\nceilings and walls. Engineered using next-generation FBS-1 bio-soluble glasswool\ncontaining up to 80% recycled glass, Bradford Gold batts provide superior\nresistance to heat transfer, keeping homes warmer in winter and cooler in\nsummer. The batts are non-combustible to AS 1530.1, approved by Sensitive Choice\nfor asthma and allergy sufferers, and guaranteed to maintain performance for 70\nyears.",
+    "features": [
+      "Australia's most trusted residential thermal insulation\nbatt for ceilings and walls",
+      "Thermal ratings from R2.0 up to R7.0 for optimal\nenergy efficiency and 7-star NatHERS compliance",
+      "Non-combustible in accordance\nwith AS 1530.1",
+      "Early Fire Hazard properties (0/0/0/0-1) compliant with\nAS/NZS 1530.3",
+      "Manufactured from up to 80% recycled glass",
+      "Approved by\nNational Asthma Council Australia's Sensitive Choice program",
+      "FBS-1\nbio-soluble glasswool formulation, soft to touch and low-itch",
+      "Will not pack\ndown, shrink, mould, rot, or deteriorate",
+      "Reduces home heating and cooling\nenergy use by up to 45%",
+      "Backed by a 70-year performance warranty"
+    ],
+    "applications": [
+      "ceiling",
+      "wall",
+      "external wall",
+      "internal wall"
+    ],
+    "technical": [
+      {
+        "property": "Ceiling Material R-values",
+        "value": "R2.5\n(130mm), R3.0 (155mm), R3.5 (175mm), R4.1 (205mm), R5.0 (235mm), R6.0 (260mm),\nR7.0 (290mm)",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Wall Material\nR-values",
+        "value": "R1.5 (75mm), R2.0 (90mm), R2.5 (90mm), R2.7 (90mm)",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Thickness Options",
+        "value": "75\nmm to 290 mm depending on application and R-value",
+        "standard": ""
+      },
+      {
+        "property": "Batt Dimensions",
+        "value": "1160 mm x 430 mm; 1160 mm x 580 mm",
+        "standard": ""
+      },
+      {
+        "property": "Combustibility",
+        "value": "Non-Combustible",
+        "standard": "AS 1530.1"
+      },
+      {
+        "property": "Fire Hazard Properties",
+        "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Maximum Service Temperature",
+        "value": "350°C",
+        "standard": ""
+      },
+      {
+        "property": "Moisture Absorption",
+        "value": "< 0.2% by volume",
+        "standard": ""
+      },
+      {
+        "property": "Corrosion\nResistance",
+        "value": "pH 7.5 - 8.0, non-corrosive",
+        "standard": ""
+      },
+      {
+        "property": "Recycled Content",
+        "value": "Up to 80% recycled glass",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Bradford Gold Ceiling Batts R2.5 - R4.1",
+        "size_or_rating": "130-205 mm x 430/580 mm x 1160 mm",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "Bradford Gold Hi-Performance Ceiling Batts R5.0 - R7.0",
+        "size_or_rating": "235-290 mm x 430/580 mm x 1160 mm",
+        "pack": "Pack of batts"
+      },
+      {
+        "variant": "Bradford Gold Wall Batts R1.5 - R2.7",
+        "size_or_rating": "75-90\nmm x 430/580 mm x 1160 mm",
+        "pack": "Pack of batts"
+      }
+    ],
+    "fire": "Non-Combustible to AS 1530.1; AS/NZS 1530.3: Ignitability 0, Spread of Flame 0,\nHeat Evolved 0, Smoke Developed 0-1",
+    "compliance": "AS/NZS 4859.1:2018;\nAS 1530.1; AS/NZS 1530.3; AS 3999; NCC 2022 Volume 1 & Volume 2",
+    "sustainability": "Contains up to 80% recycled glass; FBS-1 bio-soluble\nglasswool; low VOC; Sensitive Choice approved; zero ODP",
+    "install": [
+      "De-energise electrical circuits in roof space prior to installation where\nrequired by state regulation",
+      "Friction-fit batts between ceiling joists or\nwall studs without gaps or folds",
+      "Lay batts flat and butt joins tightly\ntogether to form a continuous thermal envelope",
+      "Maintain required safety\nclearances around non-IC rated recessed downlights, exhaust fans, and chimneys\nper AS 3999",
+      "Ensure roof ventilation pathways and eave perimeter gaps\n(minimum 20mm) remain unobstructed",
+      "In walls, ensure batts fill the depth of\nthe stud cavity without bulging linings"
+    ],
+    "selection_checklist": [
+      "Confirm\nframing spacing (430mm width for 450mm centres, 580mm width for 600mm centres)",
+      "Confirm target R-value based on NCC 2022 climate zone and NatHERS energy rating\n(R4.1 to R6.0 typical for ceilings, R2.0 to R2.7 for walls)",
+      "Confirm stud or\njoist depth to avoid over-compression",
+      "Check downlight ratings (IC-4 rated\nallows continuous coverage; non-IC requires clearance)",
+      "Verify non-combustible\ncompliance (AS 1530.1)"
+    ],
+    "accessories": [
+      "Bradford Thermoseal / Enviroseal\nwall wraps",
+      "Insulation multi-tool / knife",
+      "Safety kneeling boards for roof\ncrawl"
+    ],
+    "limitations": [
+      "Do not compress batts into spaces smaller than\nnominal thickness as this reduces R-value",
+      "Must be kept dry during storage and\ninstallation",
+      "Do not cover unrated heat-generating appliances or non-IC\ndownlights"
+    ],
+    "warranty": "70 Year Performance Warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Bradford Gold",
+      "Bradford Gold batts",
+      "Bradford ceiling\nbatts",
+      "Bradford wall batts",
+      "Bradford Gold R4.0",
+      "Bradford Gold R5.0",
+      "Bradford Gold R2.5",
+      "Bradford thermal batts",
+      "glasswool ceiling batts",
+      "gold\nbatts insulation"
+    ],
+    "problem_keywords": [
+      "sweltering rooms in summer heat",
+      "freezing cold house in winter",
+      "high air conditioning electricity bills",
+      "heat escaping through roof ceiling",
+      "uninsulated timber stud walls",
+      "meeting 7 star NatHERS energy rating"
+    ],
+    "placement": [
+      "ceiling",
+      "wall",
+      "external wall",
+      "internal wall"
+    ],
+    "priority_fit": [
+      "thermal",
+      "fire",
+      "sustainability",
+      "budget"
+    ],
+    "use_cases": [
+      "Ceiling insulation in new home\nbuilds and major renovations to meet NCC 2022 7-star NatHERS requirements (R4.1\n- R6.0)",
+      "Thermal infill in external timber and steel stud walls (R2.0 - R2.7)\nto restrict summer heat gain",
+      "Retrofit top-up insulation over existing\ncompressed ceiling batts to restore home thermal performance"
+    ],
+    "not_for": [
+      "Underfloor insulation directly exposed to weather",
+      "Internal air-handling duct\nlining without facing",
+      "High-temperature applications exceeding 350°C"
+    ],
+    "rag_summary": "Bradford Gold (Bradford Thermal - Bradford) is Australia's\nbenchmark residential and commercial glasswool insulation batt for ceilings and\nwalls, manufactured with up to 80% recycled glass using bio-soluble FBS-1\nformulation. Sized for 450mm and 600mm framing centres, it spans R-values from\nR1.5 to R2.7 in walls and R2.5 to R7.0 in ceilings, cutting household energy\nconsumption by up to 45%. Non-combustible to AS 1530.1 and certified Sensitive\nChoice asthma-friendly, it provides permanent, fire-safe thermal comfort backed\nby a 70-year warranty."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

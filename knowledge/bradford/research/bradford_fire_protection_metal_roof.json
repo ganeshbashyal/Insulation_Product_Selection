@@ -1,0 +1,153 @@
+{
+  "family_id": "BRADFORD_FIRE_PROTECTION_METAL_ROOF",
+  "family_name": "Bradford Fire Protection - Metal Roof",
+  "datasheet_pdf_url": "https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/walls/fireseal",
+  "sds_url": "https://www.bradfordinsulation.com.au/-/media/bradford/files/safety-data-sheet---rockwool.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Bradford Fire Protection - Metal Roof (Bradford Fireseal Party\nWall Sealer for Metal Roofs / Fireseal FZ Metal Roof Batts) is a\nhigh-temperature, non-combustible rockwool insulation product designed to seal\nthe junction between the top of a fire-rated party wall and metal roof sheeting.\nManufactured from molten rock and blast furnace slag bonded with thermosetting\nresin, the 75mm thick blanket or batts are installed under 10-15% compression\nbeneath corrugated or trapezoidal metal roof profiles. It blocks the passage of\nfire, smoke, and burning embers between adjoining tenancies in Class 1 buildings\nand meets BAL-FZ bushfire conditions.",
+    "features": [
+      "Non-combustible stone\nwool construction tested to AS 1530.1",
+      "75mm thickness tailored specifically\nfor deeper corrugations of metal roofing profiles",
+      "Seals top-of-wall gaps to\nprevent flame, spark, and ember spread between tenancies",
+      "Highly resistant to\nshrinkage and degradation under extreme fire temperatures up to 1000°C",
+      "Suitable for Bushfire Attack Level BAL-FZ applications under metal roofs",
+      "Bio-soluble FBS-1 formulation safe to handle and install",
+      "Performance\nunaffected by contact with water",
+      "Complies with NCC Volume Two\nDeemed-to-Satisfy party wall requirements"
+    ],
+    "applications": [
+      "roof",
+      "roofline",
+      "wall",
+      "internal wall"
+    ],
+    "technical": [
+      {
+        "property": "Material",
+        "value": "Bio-soluble rockwool (FBS-1)",
+        "standard": ""
+      },
+      {
+        "property": "Nominal Thickness",
+        "value": "75 mm",
+        "standard": ""
+      },
+      {
+        "property": "Dimensions (Roll/Blanket)",
+        "value": "4000 mm length x 300 mm or 360 mm width",
+        "standard": ""
+      },
+      {
+        "property": "Dimensions (FZ Batt option)",
+        "value": "1200 mm\nlength x 90 mm width x 75 mm thickness",
+        "standard": ""
+      },
+      {
+        "property": "Combustibility",
+        "value": "Non-combustible",
+        "standard": "AS 1530.1"
+      },
+      {
+        "property": "Fire Hazard Indices",
+        "value": "Ignitability: 0, Spread of\nFlame: 0, Heat Evolved: 0, Smoke Developed: 0-1",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Installation Compression",
+        "value": "Minimum 10% to 15%\ncompression under metal roof profile",
+        "standard": ""
+      },
+      {
+        "property": "Thermal\nPerformance",
+        "value": "R1.8 (uncompressed 75mm)",
+        "standard": "AS/NZS 4859.1"
+      }
+    ],
+    "range": [
+      {
+        "variant": "Fireseal Party Wall Sealer for Metal\nRoofs 75x300mm",
+        "size_or_rating": "75 mm x 4000 mm x 300 mm (2 pieces, 8 lineal\nmetres)",
+        "pack": "Pack of 2 rolls (Code: 123444)"
+      },
+      {
+        "variant": "Fireseal\nParty Wall Sealer for Metal Roofs 75x360mm",
+        "size_or_rating": "75 mm x 4000 mm\nx 360 mm (2 pieces, 8 lineal metres)",
+        "pack": "Pack of 2 rolls (Code: 123446)"
+      },
+      {
+        "variant": "Fireseal FZ Metal Roof Batts",
+        "size_or_rating": "75 mm x 90 mm\nx 1200 mm",
+        "pack": "Pack of 15 pieces (18 lineal metres, Code: 125084)"
+      }
+    ],
+    "fire": "Non-combustible to AS 1530.1; AS/NZS 1530.3: Ignitability 0, Spread of\nFlame 0, Heat Evolved 0, Smoke Developed 0-1; Suitable for BAL-FZ bushfire\nconditions to AS 3959; Meets NCC separating wall fire requirements",
+    "compliance": "NCC Volume Two / ABCB Housing Provisions Standard Part 9.3;\nAS 1530.1; AS/NZS 4859.1; AS 3959 (BAL-FZ)",
+    "sustainability": "Manufactured\nfrom up to 40% recycled blast furnace slag; bio-soluble FBS-1; zero ODP",
+    "install": [
+      "Lay Fireseal 75mm Party Wall Sealer along the full length of the\ntop of the fire-rated wall",
+      "Ensure blanket overhangs the wall thickness\nsymmetrically (300mm or 360mm width)",
+      "Fix metal roofing sheets down over the\nblanket ensuring at least 10-15% compression across all roof ribs and pans",
+      "Where joints in blanket occur, butt tightly together with a minimum 50mm\noverlap or Vee cut",
+      "Inspect from ceiling space to confirm all corrugations and\ncrests are fully packed and sealed"
+    ],
+    "selection_checklist": [
+      "Confirm roof\ncladding type is metal deck / corrugated sheeting (requiring 75mm thickness)",
+      "Select width based on wall thickness (300mm for single/standard walls, 360mm\nfor wider cavity party walls)",
+      "Calculate total linear metres needed along the\ntop of the party wall",
+      "Check if project is in a BAL-FZ bushfire attack zone"
+    ],
+    "accessories": [
+      "Bradford Fireseal Party Wall Batten Fillers",
+      "Bradford\nFireseal Party Wall Batts"
+    ],
+    "limitations": [
+      "Must be compressed\nminimum 10-15% by roof sheets to ensure smoke/flame barrier",
+      "Not suitable as\nexposed roof sarking membrane",
+      "Must be protected from pooling water or\ncontinuous weathering"
+    ],
+    "warranty": "Backed by CSR Bradford product warranty"
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Bradford Fireseal Metal Roof",
+      "Fire\nProtection Metal Roof",
+      "party wall sealer metal roof",
+      "75mm fireseal party\nwall",
+      "metal roof fire seal",
+      "Fireseal FZ metal roof batts",
+      "corrugated roof\nparty wall seal",
+      "CSR Bradford 123444"
+    ],
+    "problem_keywords": [
+      "fire spread\nunder tin roof",
+      "metal roof party wall gap",
+      "corrugated roof flutes fire\nbypass",
+      "party wall metal deck fire rating",
+      "BAL FZ metal roof sealing",
+      "inter-tenancy fire spread metal roof"
+    ],
+    "placement": [
+      "roof",
+      "roofline",
+      "internal wall",
+      "wall"
+    ],
+    "priority_fit": [
+      "fire"
+    ],
+    "use_cases": [
+      "Sealing\nthe junction between the top of an inter-tenancy masonry or Hebel party wall and\ncorrugated metal roof sheeting in townhouses",
+      "Providing BAL-FZ ember and flame\nprotection at metal roof perimeters in bushfire zones"
+    ],
+    "not_for": [
+      "Tiled\nroof party wall junctions (which use 50mm)",
+      "Underfloor timber floor\ninsulation",
+      "HVAC internal duct lining"
+    ],
+    "rag_summary": "Bradford Fire\nProtection - Metal Roof (Fireseal Party Wall Sealer for Metal Roofs) is a 75mm\nthick, non-combustible rockwool blanket engineered to seal the void between the\nhead of fire-rated party walls and profiled metal roof sheeting in Class 1\ndwellings. Its 75mm thickness compresses by 10-15% under corrugations and\ntrapezoidal profiles to block flames, sparks, and hot gases from bypassing\nseparating walls. Certified non-combustible to AS 1530.1 and compliant for\nBAL-FZ bushfire construction, it satisfies NCC Deemed-to-Satisfy requirements\nfor inter-tenancy fire containment."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

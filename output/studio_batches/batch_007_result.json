@@ -1,0 +1,835 @@
+[ { "family_id": "AUTEX_SURFACE_FINISHES_QUIETSPACE", "tds_url":
+"https://www.autexglobal.com/au/products/quietspace-panel/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Surface Finishes Quietspace combines the broadband acoustic performance
+of dual-density Quietspace Panel with high-definition digital UV printing.
+Available in realistic stone, concrete, and textural finishes from the Autex
+Surface Finishes collection, it replicates heavy, reverberant architectural
+surfaces without their cost, weight, or rigidity. Printed with safe, water-based
+inks directly onto 100% polyester fibre, it delivers an NRC of 0.85 to 1.00 and
+Group 1 fire compliance across walls and ceilings.", "features": [ "Broadband
+sound absorption achieving NRC 0.85 (25mm) to 1.00 (50mm, 75mm, 100mm)",
+"Digitally printed with realistic stone, marble, concrete, and textural
+finishes", "Dual-density polyester construction with compressed face and
+cushioned backing", "Printed with safe, water-based, UV-cured ink without
+reducing acoustic absorption", "Group 1 fire rating compliant with AS ISO 9705
+- 2003 and AS 5637.1", "Constructed from 100% polyester fibre containing a
+minimum of 45% to 58% recycled PET", "Lightweight, impact-resistant, and
+seismic-safe alternative to solid stone or precast slabs", "Non-toxic,
+non-allergenic, non-irritant, with low-VOC emissions", "Certified Carbon Neutral
+product with third-party verified EPD and Declare Red List Free", "Backed by
+a 10-year manufacturer's guarantee" ], "applications": [ "wall", "internal
+wall", "ceiling" ], "technical": [ { "property": "Noise Reduction Coefficient
+(NRC)", "value": "25mm: 0.85 (Class C); 50mm: 1.00 (Class A); 75mm: 1.00 (Class
+A); 100mm: 1.00 (Class A)", "standard": "ISO 354" }, { "property": "Panel
+Dimensions", "value": "1220 mm x 2440 mm (custom lengths up to 3600 mm)",
+"standard": "" }, { "property": "Thickness Options", "value": "25 mm, 50 mm, 75
+mm, 100 mm (tolerance +/- 6%)", "standard": "" }, { "property": "Weight",
+"value": "25mm: 2300 gsm; 50mm: 3800 gsm; 75mm: 4050 gsm; 100mm: 4300 gsm",
+"standard": "" }, { "property": "Material Composition", "value": "100% polyester
+fibre (PET) printed with UV-curable ink", "standard": "" }, { "property":
+"Recycled Content", "value": "Minimum 45% to 58% post-consumer recycled PET",
+"standard": "" }, { "property": "Thermal Performance", "value": "25mm: R0.6
+(@ 15°C); 50mm: R1.4 (@ 15°C)", "standard": "" }, { "property": "Fire Rating
+(Australia)", "value": "Group 1, SMOGRArc < 100 m2/s2", "standard": "AS ISO 9705
+- 2003 / AS 5637.1" }, { "property": "International Fire Rating", "value":
+"Group 1-S (ISO 9705:1993); Class A (ASTM E-84); 25mm BS EN 13501-1:2018 B - s2,
+d0; 50mm B - s2, d2", "standard": "ISO 9705 / ASTM E-84 / BS EN 13501-1" }, {
+"property": "Water Vapour Sorption", "value": "0.4% by weight after 4 days
+at 49°C, 95% RH", "standard": "ASTM C1104 / C1104M-13a" }, { "property":
+"Microbial Resistance", "value": "Growth rating: 0 (No growth)", "standard":
+"ASTM G21-15" }, { "property": "VOC Emissions", "value": "< 0.092 mg/m3 (7
+days)", "standard": "CDPH Standard Method v1.2" } ], "range": [ { "variant":
+"Surface Finishes Quietspace Panel 25mm", "size_or_rating": "1220 mm x 2440 mm
+x 25 mm, NRC 0.85", "pack": "Panel" }, { "variant": "Surface Finishes Quietspace
+Panel 50mm", "size_or_rating": "1220 mm x 2440 mm x 50 mm, NRC 1.00", "pack":
+"Panel" }, { "variant": "Surface Finishes Quietspace Panel 75mm",
+"size_or_rating": "1220 mm x 2440 mm x 75 mm, NRC 1.00", "pack": "Panel" }, {
+"variant": "Surface Finishes Quietspace Panel 100mm", "size_or_rating": "1220 mm
+x 2440 mm x 100 mm, NRC 1.00", "pack": "Panel" } ], "fire": "AS ISO 9705 - 2003
+and AS 5637.1 Classification: Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993
+Group 1-S; ASTM E-84 Class A; BS EN 13501-1:2018 B - s2, d0 (25mm) / B - s2, d2
+(50mm)", "compliance": "NCC Specification 7 (BCA C1.10) Group 1 fire compliance;
+AS ISO 9705:2003; AS 5637.1:2015; ISO 354", "sustainability": "Carbon neutral
+product; water-based UV-cured ink; minimum 45% to 58% recycled PET; Declare Red
+List Free; EPD compliant; low VOC", "install": [ "Ensure wall or ceiling
+substrate is flat, clean, dry, and dust-free", "Acclimatise panels in the
+installation environment for at least 24 hours prior to fitting", "Plan stone or
+texture pattern alignment across panels before applying adhesive", "Apply
+recommended contact or high-grab MS polymer adhesive evenly across the panel
+back", "Position panel onto substrate, butt joins tightly together, and roll
+firmly with a pressure roller", "Maintain the protective spun-bond film over
+panel face until all messy construction trades finish", "Trim perimeter panels
+carefully from the face using a straight edge and sharp utility knife on the
+offcut side" ], "selection_checklist": [ "Select finish design from Surface
+Finishes Stone (Carrara, Travertine, Statuario, etc.) or Texture (Concrete,
+Canvas, etc.) palettes", "Confirm panel thickness (25mm for NRC 0.85 or 50mm+
+for NRC 1.00)", "Confirm total wall or ceiling dimensions (1220mm x 2440mm
+sheets)", "Specify suitable mounting adhesive (contact adhesive or MS polymer)",
+"Confirm need for aluminium edge trims (Autex Type C profile for 25mm)" ],
+"accessories": [ "Autex Edging Solutions (Type C profiles for 25mm panels)",
+"Contact adhesive / MS polymer adhesive", "Pressure roller" ], "limitations": [
+"Indoor use only; avoid wet areas or direct water exposure", "Do not expose to
+concentrated heat sources exceeding 80°C", "Recommended for non-contact areas as
+printed surface may mark under heavy impact" ], "warranty": "Manufacturer's
+Guarantee (10 years)", "found": true, "search_keywords": [ "Autex Surface
+Finishes Quietspace", "printed Quietspace panel", "stone finish acoustic panel",
+"marble look acoustic panel", "concrete look acoustic panel", "broadband stone
+acoustic panel", "25mm printed acoustic panel", "50mm printed acoustic panel",
+"Autex Quietspace stone" ], "problem_keywords": [ "heavy solid stone weight
+limits", "reverberant polished concrete walls", "marble wall acoustic
+reflection", "harsh echo in luxury boardroom", "commercial reception noise",
+"need stone aesthetic with high acoustic absorption" ], "placement": [ "wall",
+"internal wall", "ceiling" ], "priority_fit": [ "acoustic", "thermal", "fire",
+"sustainability" ], "use_cases": [ "Creating luxurious marble- or
+travertine-look acoustic walls in corporate boardrooms and hotel lobbies",
+"Treating reverberation in high-end restaurants with industrial concrete-look
+acoustic panels", "Broadband sound absorption in commercial meeting suites and
+presentation rooms" ], "not_for": [ "Floors or subfloor impact insulation",
+"Exterior exposed facades", "High-impact sports facilities without protective
+shielding" ], "rag_summary": "Autex Surface Finishes Quietspace pairs the
+broadband sound absorption of dual-density Quietspace Panel (NRC 0.85 to 1.00)
+with high-definition digital UV printing of natural stone, marble, concrete, and
+textural finishes. Available in thicknesses from 25mm to 100mm in 1220mm
+x 2440mm sheets, it replicates heavy, reverberant architectural masonry without
+structural weight, installation complexity, or acoustic compromise. Achieving
+Group 1 fire compliance under AS ISO 9705 and containing up to 58% recycled PET,
+it delivers premium, carbon-neutral acoustic control for luxury corporate and
+hospitality interiors." }, { "family_id": "AUTEX_VERVE_ACOUSTIC_TIMBER",
+"tds_url": "https://www.autexglobal.com/au/products/verve/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Verve - Acoustic Timber is a contoured acoustic wall panel that combines
+sculptural, light-responsive geometry with high-definition digital timber
+prints. Manufactured from 100% polyester fibre with an 80% recycled PET core, it
+moulds static surfaces into expressive three-dimensional architectural features.
+Available across six distinctive contoured profiles and 14 timber grain prints,
+it provides acoustic absorption (NRC 0.30+) and Group 1 fire compliance without
+the weight or fire risks of solid timber.", "features": [ "Sculptural 3D
+contoured profiles: Pillar, Flute, Ovolo, Pinstripe, Ridge, Windswept",
+"High-definition digital printing of 14 realistic timber woodgrains using
+water-based UV ink", "Engineered from 100% polyester fibre containing a minimum
+of 80% recycled PET", "Available in 12mm (6mm edge) and 21mm (15mm edge)
+thicknesses", "Generous panel dimensions of 2680mm or 2700mm height by 1170mm
+width", "Sound absorption performance starting from NRC 0.30 and higher",
+"Group 1 fire rating compliant with AS ISO 9705 - 2003 and AS 5637.1",
+"Glue-free SpinFix mechanical mounting or direct adhesive fixing options",
+"Resistant to moisture, mould, and mildew (ASTM G21-15 Growth Rating: 0)",
+"Certified Carbon Neutral product with third-party verified EPD" ],
+"applications": [ "wall", "internal wall" ], "technical": [ { "property":
+"Acoustic Rating (NRC)", "value": "NRC 0.30 and higher (typically 0.30 - 0.70+
+depending on air gap)", "standard": "ISO 354" }, { "property": "Panel
+Dimensions", "value": "1170 mm width x 2680 mm length (or 2700 mm length; custom
+up to 2680 mm)", "standard": "" }, { "property": "Thickness Options", "value":
+"12 mm (6 mm edge) | 21 mm (15 mm edge)", "standard": "" }, { "property": "Base
+Material", "value": "100% polyester fibre (PET) Cube panel", "standard": "" }, {
+"property": "Recycled Content", "value": "Minimum 80% post-consumer recycled
+PET", "standard": "" }, { "property": "Fire Rating (Australia)", "value":
+"Group 1, SMOGRArc < 100 m2/s2", "standard": "AS ISO 9705 - 2003 /
+AS 5637.1:2015" }, { "property": "International Fire Classification", "value":
+"Group 1-S (ISO 9705:1993); BS EN 13501-1:2018 B - s1, d0", "standard":
+"ISO 9705 / BS EN 13501-1" }, { "property": "Water Vapour Sorption", "value":
+"0.4% by weight after 4 days at 49°C, 95% RH", "standard": "ASTM C1104 /
+C1104M-13a" }, { "property": "Microbial Resistance", "value": "Growth rating: 0
+(No growth)", "standard": "ASTM G21-15" }, { "property": "VOC Emissions",
+"value": "< 0.092 mg/m3 (7 days)", "standard": "CDPH Standard Method v1.2" } ],
+"range": [ { "variant": "Verve Acoustic Timber 12mm", "size_or_rating": "1170 mm
+x 2680 mm x 12 mm (6 mm edge)", "pack": "Panel" }, { "variant": "Verve Acoustic
+Timber 21mm", "size_or_rating": "1170 mm x 2680 mm x 21 mm (15 mm edge)",
+"pack": "Panel" } ], "fire": "AS ISO 9705 - 2003 and AS 5637.1 Classification:
+Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; BS EN 13501-1:2018 B -
+s1, d0", "compliance": "NCC Specification 7 (BCA C1.10) Group 1 fire compliance;
+AS ISO 9705:2003; AS 5637.1:2015; ISO 354", "sustainability": "Carbon neutral
+product; water-based UV ink; minimum 80% recycled PET; Declare Red List Free;
+EPD compliant; low VOC", "install": [ "Check wall substrate is flat, plumb, dry,
+and structurally sound", "Acclimatise panels in the installation environment for
+at least 24 hours prior to mounting", "Plan panel layout ensuring contoured
+profiles and timber grain direction align seamlessly", "Apply high-grab MS
+polymer adhesive evenly to panel back or install using Autex SpinFix clips",
+"Position panel, butt joins neatly at pattern low points, and apply uniform
+pressure across face", "Trim bottom or top perimeter edges cleanly using a track
+saw with a fine-toothed blade" ], "selection_checklist": [ "Select contoured
+style (Pillar, Flute, Ovolo, Pinstripe, Ridge, Windswept)", "Select timber grain
+print from the 14 Acoustic Timber options (Oak, Birch, Walnut, etc.)", "Select
+panel thickness (12mm with 6mm edge or 21mm with 15mm edge)", "Confirm wall
+height to specify 2680mm or 2700mm lengths", "Choose mounting method (adhesive
+direct-fix or SpinFix mechanical clips)" ], "accessories": [ "Autex SpinFix
+mounting brackets", "High-grab MS polymer adhesive", "Straight edge and
+fine-tooth saw" ], "limitations": [ "Indoor use only; avoid wet areas or direct
+water exposure", "Panels join at pattern low points; verify vertical alignment
+along panel seams", "Pinstripe profile is available in 12mm thickness only" ],
+"warranty": "Manufacturer's Guarantee (10 years)", "found": true,
+"search_keywords": [ "Autex Verve Acoustic Timber", "Verve Contoured Panel
+timber", "fluted timber acoustic panel", "curved timber wall panels",
+"sculptural timber acoustic panel", "Acoustic Timber Verve", "Verve Flute
+timber", "Verve Ovolo timber", "3D timber acoustic wall" ], "problem_keywords":
+[ "solid fluted timber weight", "fluted timber reverberation", "fire compliance
+of wood feature walls", "harsh echo in commercial foyer", "boardroom sound
+reflection", "need 3D timber feature wall with acoustic control" ], "placement":
+[ "wall", "internal wall" ], "priority_fit": [ "acoustic", "fire",
+"sustainability", "easy_install" ], "use_cases": [ "Designing fluted or
+contoured timber feature walls in commercial reception foyers requiring Group 1
+fire rating", "Acoustic feature wall panelling in corporate boardrooms and
+executive suites", "Adding warm wood textures and sound dampening to hotel
+lobbies and dining areas" ], "not_for": [ "Flooring or underfoot applications",
+"Exterior building facades", "Wet rooms with direct running water" ],
+"rag_summary": "Autex Verve - Acoustic Timber is a 3D contoured acoustic wall
+panel that combines sculptural light-and-shadow relief with high-definition
+digital timber grain printing. Formed from 100% polyester fibre with an 80%
+recycled PET core, it is available in six expressive profiles (including Flute,
+Ovolo, and Pillar) and two thicknesses (12mm and 21mm) in 2680mm x 1170mm
+sheets. Achieving Group 1 fire compliance under AS ISO 9705 and an acoustic
+absorption rating of NRC 0.30+, it delivers the warm tactile aesthetic of fluted
+architectural timber without the weight, cost, or fire hazards of solid wood."
+}, { "family_id": "AUTEX_VERVE_SURFACE_FINISHES", "tds_url":
+"https://www.autexglobal.com/au/products/verve/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Verve - Surface Finishes is a three-dimensional contoured acoustic wall
+panel combining expressive architectural forms with digitally printed stone and
+textural finishes. Made from 100% polyester fibre with an 80% recycled PET core,
+it turns static walls into sculptural features that interact with light and
+shadow. Available in six distinctive contoured profiles and a curated selection
+of marble, travertine, and concrete prints, it delivers acoustic comfort
+(NRC 0.30+) and Group 1 fire compliance without the structural weight of real
+masonry.", "features": [ "Sculptural contoured profiles: Pillar, Flute, Ovolo,
+Pinstripe, Ridge, Windswept", "High-definition digital printing of realistic
+stone, marble, and concrete textures", "Printed with safe, water-based, UV-cured
+ink without degrading acoustic performance", "Constructed from 100% polyester
+fibre with minimum 80% recycled PET", "Available in 12mm (6mm edge) and 21mm
+(15mm edge) thicknesses", "Standard full-height panel dimensions of 2680mm
+or 2700mm height by 1170mm width", "Acoustic rating of NRC 0.30 and higher",
+"Group 1 fire rating compliant with AS ISO 9705 - 2003 and AS 5637.1",
+"Compatible with SpinFix mechanical mounting or direct adhesive fixing",
+"Certified Carbon Neutral product with third-party verified EPD" ],
+"applications": [ "wall", "internal wall" ], "technical": [ { "property":
+"Acoustic Rating (NRC)", "value": "NRC 0.30 and higher (typically 0.30 - 0.70+
+depending on air gap)", "standard": "ISO 354" }, { "property": "Panel
+Dimensions", "value": "1170 mm width x 2680 mm length (or 2700 mm length)",
+"standard": "" }, { "property": "Thickness Options", "value": "12 mm (6 mm edge)
+| 21 mm (15 mm edge)", "standard": "" }, { "property": "Base Material", "value":
+"100% polyester fibre (PET) Cube panel", "standard": "" }, { "property":
+"Recycled Content", "value": "Minimum 80% post-consumer recycled PET",
+"standard": "" }, { "property": "Fire Rating (Australia)", "value": "Group 1,
+SMOGRArc < 100 m2/s2", "standard": "AS ISO 9705 - 2003 / AS 5637.1:2015" }, {
+"property": "International Fire Classification", "value": "Group 1-S
+(ISO 9705:1993); BS EN 13501-1:2018 B - s1, d0", "standard": "ISO 9705 / BS
+EN 13501-1" }, { "property": "Water Vapour Sorption", "value": "0.4% by weight
+after 4 days at 49°C, 95% RH", "standard": "ASTM C1104 / C1104M-13a" }, {
+"property": "Microbial Resistance", "value": "Growth rating: 0 (No growth)",
+"standard": "ASTM G21-15" }, { "property": "VOC Emissions", "value": "< 0.092
+mg/m3 (7 days)", "standard": "CDPH Standard Method v1.2" } ], "range": [ {
+"variant": "Verve Surface Finishes 12mm", "size_or_rating": "1170 mm x 2680 mm
+x 12 mm (6 mm edge)", "pack": "Panel" }, { "variant": "Verve Surface
+Finishes 21mm", "size_or_rating": "1170 mm x 2680 mm x 21 mm (15 mm edge)",
+"pack": "Panel" } ], "fire": "AS ISO 9705 - 2003 and AS 5637.1 Classification:
+Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; BS EN 13501-1:2018 B -
+s1, d0", "compliance": "NCC Specification 7 (BCA C1.10) Group 1 fire compliance;
+AS ISO 9705:2003; AS 5637.1:2015; ISO 354", "sustainability": "Carbon neutral
+product; water-based UV ink; minimum 80% recycled PET; Declare Red List Free;
+EPD compliant; low VOC", "install": [ "Confirm substrate is plumb, flat, and
+dry", "Inspect stone or texture pattern alignment across all panels before
+fitting", "Apply high-grab MS polymer adhesive evenly across panel back or use
+SpinFix clips", "Position panel, butt edges tightly at pattern low points, and
+press firmly across face", "Ensure seamless continuity of contoured profile
+across adjacent panels", "Trim top and bottom edges carefully with a track saw
+or fine-toothed blade" ], "selection_checklist": [ "Select contoured profile
+(Pillar, Flute, Ovolo, Pinstripe, Ridge, Windswept)", "Select stone or texture
+print from the Surface Finishes collection (Carrara, Travertine, Concrete,
+etc.)", "Select thickness (12mm with 6mm edge or 21mm with 15mm edge)", "Confirm
+wall height (2680mm or 2700mm)", "Choose fixing method (adhesive direct-fix or
+SpinFix clips)" ], "accessories": [ "Autex SpinFix mounting brackets",
+"High-grab MS polymer adhesive", "Fine-tooth saw" ], "limitations": [ "Indoor
+use only; avoid wet areas or direct water exposure", "Pinstripe design is
+available in 12mm only", "Panels must be installed in uniform vertical
+orientation" ], "warranty": "Manufacturer's Guarantee (10 years)", "found":
+true, "search_keywords": [ "Autex Verve Surface Finishes", "Verve Contoured
+Panel stone", "fluted stone acoustic panel", "fluted concrete acoustic wall",
+"3D stone acoustic panel", "sculptural concrete acoustic panel", "Verve
+Travertine", "Verve Carrara", "Autex Verve stone" ], "problem_keywords": [
+"heavy fluted stone weight limits", "reverberant fluted concrete walls", "hard
+cold stone acoustics", "echo in commercial lobby", "need fluted marble feature
+wall with acoustic properties", "office reception sound reflection" ],
+"placement": [ "wall", "internal wall" ], "priority_fit": [ "acoustic", "fire",
+"sustainability", "easy_install" ], "use_cases": [ "Creating fluted stone or
+travertine feature walls in commercial lobbies and executive boardrooms",
+"Acoustic feature wall panelling in high-end hospitality venues and
+restaurants", "Transforming flat walls into tactile concrete-look sculptural
+surfaces in retail flagships" ], "not_for": [ "Flooring or foot traffic
+surfaces", "Exterior building facades", "Wet rooms with direct running water" ],
+"rag_summary": "Autex Verve - Surface Finishes combines 3D contoured acoustic
+wall geometry with high-definition digital UV printing of natural stone, marble,
+and concrete textures. Constructed from 100% polyester fibre with an 80%
+recycled PET core, it is available in six sculptural profiles and two
+thicknesses (12mm and 21mm) in 2680mm x 1170mm sheets. Delivering an acoustic
+absorption rating of NRC 0.30+ and Group 1 fire compliance under AS ISO 9705, it
+replicates the high-end aesthetic of fluted masonry without structural weight,
+installation complexity, or acoustic harshness." }, { "family_id":
+"AUTEX_VERVE_CUBE", "tds_url": "https://www.autexglobal.com/au/products/verve/",
+"sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+"description": "Autex Verve Cube is a sculpted 3D acoustic wall panel that
+animates spaces through the interplay of light, shadow, and architectural form.
+Formed from 100% polyester fibre with an 80% recycled PET core, Verve Cube
+features solid colour throughout without requiring edge capping. Available in
+six distinctive profiles—Pillar, Flute, Ovolo, Pinstripe, Ridge, and
+Windswept—across the full Autex Cube colour palette, it delivers sound
+absorption (NRC 0.30+) and Group 1 fire compliance.", "features": [ "Six
+sculptural contoured profiles: Pillar, Flute, Ovolo, Pinstripe, Ridge,
+Windswept", "Solid through-core colour across the entire Autex Cube 23+ colour
+palette", "Constructed from 100% polyester fibre containing a minimum of 80%
+recycled PET", "Available in two thicknesses: 12mm (6mm edge) and 21mm (15mm
+edge)", "Full-height wall panel format measuring 2680mm or 2700mm height
+by 1170mm width", "Acoustic rating of NRC 0.30 and higher", "Group 1 fire rating
+compliant with AS ISO 9705 - 2003 and AS 5637.1", "Seamless joint design where
+panels join at pattern low points", "Glue-free SpinFix mechanical mounting or
+direct adhesive fixing options", "Certified Carbon Neutral product with
+third-party verified EPD" ], "applications": [ "wall", "internal wall" ],
+"technical": [ { "property": "Acoustic Rating (NRC)", "value": "NRC 0.30 and
+higher (typically 0.30 - 0.70+ depending on air gap)", "standard": "ISO 354" },
+{ "property": "Panel Dimensions", "value": "1170 mm width x 2680 mm length
+(or 2700 mm length; custom up to 2680 mm)", "standard": "" }, { "property":
+"Thickness Options", "value": "12 mm (6 mm edge) | 21 mm (15 mm edge)",
+"standard": "" }, { "property": "Base Material", "value": "100% polyester fibre
+(PET) Cube panel", "standard": "" }, { "property": "Recycled Content", "value":
+"Minimum 80% post-consumer recycled PET", "standard": "" }, { "property": "Fire
+Rating (Australia)", "value": "Group 1, SMOGRArc < 100 m2/s2", "standard": "AS
+ISO 9705 - 2003 / AS 5637.1:2015" }, { "property": "International Fire
+Classification", "value": "Group 1-S (ISO 9705:1993); BS EN 13501-1:2018 B - s1,
+d0", "standard": "ISO 9705 / BS EN 13501-1" }, { "property": "Water Vapour
+Sorption", "value": "0.4% by weight after 4 days at 49°C, 95% RH", "standard":
+"ASTM C1104 / C1104M-13a" }, { "property": "Microbial Resistance", "value":
+"Growth rating: 0 (No growth)", "standard": "ASTM G21-15" }, { "property": "VOC
+Emissions", "value": "< 0.092 mg/m3 (7 days)", "standard": "CDPH Standard Method
+v1.2" } ], "range": [ { "variant": "Verve Cube 12mm", "size_or_rating": "1170 mm
+x 2680 mm x 12 mm (6 mm edge)", "pack": "Panel" }, { "variant": "Verve
+Cube 21mm", "size_or_rating": "1170 mm x 2680 mm x 21 mm (15 mm edge)", "pack":
+"Panel" } ], "fire": "AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1
+(SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; BS EN 13501-1:2018 B - s1, d0",
+"compliance": "NCC Specification 7 (BCA C1.10) Group 1 fire compliance; AS
+ISO 9705:2003; AS 5637.1:2015; ISO 354", "sustainability": "Carbon neutral
+product; minimum 80% recycled PET; Declare Red List Free; EPD compliant; low
+VOC", "install": [ "Ensure wall substrate is smooth, flat, clean, and dry",
+"Acclimatise panels in the space for at least 24 hours prior to installation",
+"Inspect profile repeat and plan alignment across the wall area", "Apply
+high-grab MS polymer adhesive evenly across panel backing or attach SpinFix
+clips", "Position panel on wall, engage seams tightly at pattern low points, and
+press firmly across face", "Trim perimeter cuts cleanly using a track saw with a
+fine-toothed blade" ], "selection_checklist": [ "Select contoured style (Pillar,
+Flute, Ovolo, Pinstripe, Ridge, Windswept)", "Select colour from the Autex
+Cube 23+ solid colour palette", "Select thickness (12mm with 6mm edge or 21mm
+with 15mm edge)", "Confirm wall height to choose 2680mm or 2700mm lengths",
+"Choose mounting method (adhesive direct-fix or SpinFix mechanical clips)" ],
+"accessories": [ "Autex SpinFix mounting brackets", "High-grab MS polymer
+adhesive", "Fine-tooth saw" ], "limitations": [ "Indoor use only; avoid wet
+areas or direct water exposure", "Pinstripe profile is available in 12mm
+thickness only", "Panels must be installed in uniform vertical orientation" ],
+"warranty": "Manufacturer's Guarantee (10 years)", "found": true,
+"search_keywords": [ "Autex Verve Cube", "Verve Contoured Panel", "fluted
+acoustic wall panel", "sculpted acoustic panels", "3D contoured wall panel",
+"Cube contoured panel", "Verve Flute Cube", "Verve Ovolo Cube", "Verve Pillar
+Cube" ], "problem_keywords": [ "flat boring drywall walls", "echo in commercial
+boardroom", "reverberation in open plan office", "need sculptural acoustic
+feature wall", "distracting office chatter", "meeting room speech privacy" ],
+"placement": [ "wall", "internal wall" ], "priority_fit": [ "acoustic", "fire",
+"sustainability", "easy_install" ], "use_cases": [ "Creating sculpted 3D
+acoustic feature walls in commercial office boardrooms and receptions",
+"Acoustic treatment in creative workspaces, university lecture spaces, and
+libraries", "Adding architectural depth and noise dampening to modern retail
+stores and dining venues" ], "not_for": [ "Flooring or subfloor applications",
+"Exterior weather-exposed cladding", "Wet rooms with direct running water" ],
+"rag_summary": "Autex Verve Cube is a full-height 3D contoured acoustic wall
+panel crafted from 100% polyester Cube felt with an 80% recycled PET core and
+solid through-colour. Available in six distinctive profiles (such as Flute,
+Ovolo, and Pillar) and two thicknesses (12mm and 21mm) in 2680mm x 1170mm
+sheets, it moulds flat walls into light-responsive architectural features.
+Achieving sound absorption from NRC 0.30+ and Group 1 fire compliance under AS
+ISO 9705, it provides a sculptural, carbon-neutral acoustic solution across
+commercial, civic, and hospitality spaces." }, { "family_id":
+"AUTEX_VICINITY_DESK_SCREEN_CREST", "tds_url":
+"https://www.autexglobal.com/au/products/vicinity/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Vicinity Desk Screen - Crest is an elegant, lightweight acoustic desk
+divider designed to provide acoustic and visual privacy in open-plan workspaces.
+Featuring a curved, crest-like wave profile, Crest fixes non-destructively to
+desks using dedicated Vicinity Desk Clamps. Made from 100% polyester fibre with
+an 80% recycled PET core, it absorbs sound at the source (0.70 Sabins per unit)
+and complies with Group 1 fire safety standards.", "features": [ "Curved crest
+wave-like top profile providing visual and acoustic shelter", "Fixes
+non-destructively to standard desks using Vicinity Workstation Clamps",
+"Delivers acoustic sound absorption of 0.70 Sabins per unit", "Constructed
+from 100% polyester fibre containing a minimum of 80% recycled PET", "Group 1
+fire rating compliant with AS ISO 9705 - 2003 and AS 5637.1", "Solid colour
+throughout with neat clean edges; no capping or framing required", "Pinnable
+self-healing surface for notes and personal organisation", "Clamps manufactured
+from 100% recycled PET (RePET) or powdercoated zinc", "Moisture and mould
+resistant (ASTM G21-15 Growth Rating: 0)", "Certified Carbon Neutral product
+with third-party verified EPD" ], "applications": [ "internal wall" ],
+"technical": [ { "property": "Acoustic Performance", "value": "0.70 Sabins per
+unit
+(125Hz: 0.20, 250Hz: 0.45, 500Hz: 0.60, 1000Hz: 0.75, 2000Hz: 0.95, 4000Hz: 1.05)",
+"standard": "ISO 354" }, { "property": "Dimensions", "value": "1190 mm width
+x 600 mm height (to suit 1600 mm desks, sits ~400 mm above desk)", "standard":
+"" }, { "property": "Thickness", "value": "12 mm (+/- 6%)", "standard": "" }, {
+"property": "Material Composition", "value": "100% polyester fibre (PET) Cube
+panel; clamp: 100% recycled PET / zinc", "standard": "" }, { "property":
+"Recycled Content", "value": "Minimum 80% post-consumer recycled PET",
+"standard": "" }, { "property": "Fire Rating (Australia)", "value": "Group 1,
+SMOGRArc < 100 m2/s2", "standard": "AS ISO 9705 - 2003 / AS 5637.1:2015" }, {
+"property": "International Fire Classification", "value": "Group 1-S
+(ISO 9705:1993); Class A (ASTM E-84-15a: FS:0 - SD:45); BS EN 13501-1:2018",
+"standard": "ISO 9705 / ASTM E-84 / BS EN 13501-1" }, { "property": "Water
+Vapour Sorption", "value": "0.4% by weight after 4 days at 49°C, 95% RH",
+"standard": "ASTM C1104 / C1104M-13a" }, { "property": "Microbial Resistance",
+"value": "Growth rating: 0 (No growth)", "standard": "ASTM G21-15" }, {
+"property": "VOC Emissions", "value": "< 0.092 mg/m3 (7 days)", "standard":
+"CDPH Standard Method v1.2" } ], "range": [ { "variant": "Vicinity Crest 1600",
+"size_or_rating": "1190 mm W x 600 mm H x 12 mm (suits 1600mm desk)", "pack":
+"Pack of 4 screens (2 pieces per screen)" } ], "fire": "AS ISO 9705 - 2003 and
+AS 5637.1 Classification: Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993
+Group 1-S; ASTM E-84-15a Class A; BS EN 13501-1:2018", "compliance": "NCC
+Specification 7 (BCA C1.10) Group 1 fire compliance; AS ISO 9705:2003;
+AS 5637.1:2015; ISO 354", "sustainability": "Carbon neutral product; minimum 80%
+recycled PET; clamps made from 100% recycled PET; Declare Red List Free; EPD
+verified; low VOC", "install": [ "Unpack Vicinity Crest panels and inspect
+components", "Slide Vicinity Workstation Clamps into pre-cut sockets along the
+bottom edge of the screen", "Position the screen assembly along the edge of the
+desk at desired location", "Tighten the clamp mounting bolts from the underside
+using an Allen key until firmly clamped to desktop", "Check screen is upright
+and stable without over-tightening" ], "selection_checklist": [ "Confirm desk
+length (Crest 1600 suits 1600mm desks)", "Verify desk top thickness and edge
+overhang accommodate Vicinity Clamps", "Select colour from Autex Cube palette
+(20+ colours)", "Confirm pack quantity (supplied in packs of 4 screens, 2 pieces
+per screen)", "Ensure space layout supports curved Crest profile" ],
+"accessories": [ "Vicinity Workstation Clamps", "Allen key" ], "limitations": [
+"Indoor use only; avoid wet areas or direct liquid contact", "Clamp requires a
+solid desk edge with adequate overhang", "Product has a directional grain;
+maintain consistent orientation" ], "warranty": "Manufacturer's Guarantee (10
+years)", "found": true, "search_keywords": [ "Autex Vicinity Crest", "Vicinity
+Desk Screen Crest", "acoustic desk screen Crest", "desk privacy screen Autex",
+"acoustic desk divider 1600", "curved desk acoustic screen", "pinnable desk
+screen", "Cube desk divider", "clamp on desk screen" ], "problem_keywords": [
+"distracting open plan office noise", "lack of privacy between desks", "echo in
+open plan workstation", "keyboard chatter noise", "need non destructive desk
+screen", "desk partition without drilling" ], "placement": [ "internal wall" ],
+"priority_fit": [ "acoustic", "sustainability", "easy_install", "fire" ],
+"use_cases": [ "Dividing facing desks in commercial open-plan offices to
+mitigate conversational distractions", "Providing personal acoustic shelter and
+visual privacy in co-working spaces", "Creating pinnable, sound-absorbing
+barriers in university computer labs and study halls" ], "not_for": [ "Direct
+floor standing partition without feet or frame", "Exterior outdoor desks",
+"Direct ceiling suspension" ], "rag_summary": "Autex Vicinity Desk Screen -
+Crest is a lightweight 12mm acoustic desk screen featuring a gentle curved crest
+profile, designed to clamp non-destructively to 1600mm workstations. Made
+from 100% polyester fibre with an 80% recycled PET core, it absorbs
+conversational noise at the source (0.70 Sabins per unit) while providing a
+pinnable self-healing noticeboard. Achieving Group 1 fire compliance under AS
+ISO 9705 and certified carbon neutral, Crest delivers acoustic comfort and
+visual privacy for modern agile offices." }, { "family_id":
+"AUTEX_VICINITY_DESK_SCREEN_DEN", "tds_url":
+"https://www.autexglobal.com/au/products/vicinity/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Vicinity Desk Screen - Den is an acoustic workstation screen designed to
+provide a semi-enclosed, focused sanctuary within busy open-plan offices.
+Featuring an integrated side return wing, Den creates defined personal territory
+while absorbing direct speech and conversational distractions (0.75 Sabins per
+unit). Fixed non-destructively to desktops via Vicinity Clamps, it is formed
+from 100% polyester fibre with an 80% recycled PET core and achieves Group 1
+fire compliance.", "features": [ "Semi-enclosed desk shelter design with
+integrated side return wing for enhanced focus", "Fixes non-destructively to
+standard desks using Vicinity Workstation Clamps", "Delivers acoustic absorption
+of 0.75 Sabins per unit", "Constructed from 100% polyester fibre containing a
+minimum of 80% recycled PET", "Group 1 fire rating compliant with AS ISO 9705
+- 2003 and AS 5637.1", "Solid colour throughout with smooth, neat edges
+requiring no capping", "Pinnable self-healing surface for notes and workflow
+planning", "Clamps made from 100% recycled PET (RePET) or powdercoated zinc",
+"Moisture and mould resistant (ASTM G21-15 Growth Rating: 0)", "Certified Carbon
+Neutral product with third-party verified EPD" ], "applications": [ "internal
+wall" ], "technical": [ { "property": "Acoustic Performance", "value": "0.75
+Sabins per unit
+(125Hz: 0.25, 250Hz: 0.50, 500Hz: 0.70, 1000Hz: 0.85, 2000Hz: 1.05, 4000Hz: 1.20)",
+"standard": "ISO 354" }, { "property": "Dimensions", "value": "To suit 1600 mm
+or 1800 mm desks (main back ~1190 mm W x 600 mm H with return wing)",
+"standard": "" }, { "property": "Thickness", "value": "12 mm (+/- 6%)",
+"standard": "" }, { "property": "Material Composition", "value": "100% polyester
+fibre (PET) Cube panel; clamp: 100% recycled PET / zinc", "standard": "" }, {
+"property": "Recycled Content", "value": "Minimum 80% post-consumer recycled
+PET", "standard": "" }, { "property": "Fire Rating (Australia)", "value":
+"Group 1, SMOGRArc < 100 m2/s2", "standard": "AS ISO 9705 - 2003 /
+AS 5637.1:2015" }, { "property": "International Fire Classification", "value":
+"Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a: FS:0 - SD:45); BS
+EN 13501-1:2018", "standard": "ISO 9705 / ASTM E-84 / BS EN 13501-1" }, {
+"property": "Water Vapour Sorption", "value": "0.4% by weight after 4 days
+at 49°C, 95% RH", "standard": "ASTM C1104 / C1104M-13a" }, { "property":
+"Microbial Resistance", "value": "Growth rating: 0 (No growth)", "standard":
+"ASTM G21-15" }, { "property": "VOC Emissions", "value": "< 0.092 mg/m3 (7
+days)", "standard": "CDPH Standard Method v1.2" } ], "range": [ { "variant":
+"Vicinity Den 1600", "size_or_rating": "To suit 1600 mm desks x 600 mm H x 12
+mm", "pack": "Pack of 4 screens (2 pieces per screen)" }, { "variant": "Vicinity
+Den 1800", "size_or_rating": "To suit 1800 mm desks x 600 mm H x 12 mm", "pack":
+"Pack of 4 screens (2 pieces per screen)" } ], "fire": "AS ISO 9705 - 2003 and
+AS 5637.1 Classification: Group 1 (SMOGRArc < 100 m2/s2); ISO 9705:1993
+Group 1-S; ASTM E-84-15a Class A; BS EN 13501-1:2018", "compliance": "NCC
+Specification 7 (BCA C1.10) Group 1 fire compliance; AS ISO 9705:2003;
+AS 5637.1:2015; ISO 354", "sustainability": "Carbon neutral product; minimum 80%
+recycled PET; clamps made from 100% recycled PET; Declare Red List Free; EPD
+verified; low VOC", "install": [ "Unpack Vicinity Den panels and inspect screen
+components", "Slide Vicinity Workstation Clamps into pre-cut slots on the screen
+base", "Position screen and side return wing assembly onto desk corner
+perimeter", "Tighten clamp bolts from underside of desktop using an Allen key
+until firmly locked", "Confirm screen is plumb and securely seated along both
+back and side edges" ], "selection_checklist": [ "Confirm desk size (Den 1600
+for 1600mm desks or Den 1800 for 1800mm desks)", "Verify desk edge overhang and
+clearance for clamp brackets", "Choose left-hand or right-hand side return
+orientation if applicable", "Select colour from the Autex Cube palette",
+"Confirm pack quantity requirement (packs of 4 screens, 2 pieces per screen)" ],
+"accessories": [ "Vicinity Workstation Clamps", "Allen key" ], "limitations": [
+"Indoor use only; avoid direct water exposure", "Desk top must allow clamp
+fixing without under-frame interference", "Ensure screen return wings do not
+obstruct user access or cable ports" ], "warranty": "Manufacturer's Guarantee
+(10 years)", "found": true, "search_keywords": [ "Autex Vicinity Den", "Vicinity
+Desk Screen Den", "corner desk screen", "desk screen with return wing",
+"acoustic desk enclosure", "Vicinity Den 1600", "Vicinity Den 1800", "Cube desk
+divider Den", "workstation privacy booth" ], "problem_keywords": [ "visual
+distraction in open plan office", "phone call noise at desk", "lack of
+workstation boundary", "noisy adjacent desks", "open plan office focus
+problems", "desk partition without screws" ], "placement": [ "internal wall" ],
+"priority_fit": [ "acoustic", "sustainability", "easy_install", "fire" ],
+"use_cases": [ "Creating focused work pods in agile open-plan offices with
+side-return acoustic shielding", "Providing speech dampening in call centres and
+financial trading desks", "Acoustic and visual screening for individual study
+desks in academic libraries" ], "not_for": [ "Free-standing floor dividers
+without desk support", "External weather-exposed spaces", "Ceiling baffle
+installations" ], "rag_summary": "Autex Vicinity Desk Screen - Den is a
+semi-enclosed acoustic desk screen featuring an integrated side return wing to
+create a personal focus shelter on 1600mm or 1800mm workstations. Crafted
+from 12mm Cube polyester felt with an 80% recycled PET core, it absorbs 0.75
+Sabins per unit to shield workers from direct chatter and visual distractions.
+Fixed non-destructively using 100% recycled PET Vicinity Clamps and rated
+Group 1 fire safe, Den delivers sustainable privacy for modern agile
+workspaces." }, { "family_id": "AUTEX_VICINITY_DESK_SCREEN_HAVEN", "tds_url":
+"https://www.autexglobal.com/au/products/vicinity/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Vicinity Desk Screen - Haven is an expansive acoustic workstation screen
+system designed to provide comprehensive visual and sound shielding in open-plan
+offices. Featuring an extended wrapped boundary format that encloses the back
+and side of a desk, Haven achieves an impressive acoustic rating of 1.55 Sabins
+per unit. Attached using non-destructive Vicinity Desk Clamps, it is formed
+from 100% polyester fibre with an 80% recycled PET core and meets Group 1 fire
+safety requirements.", "features": [ "Wrap-around boundary screen providing
+dual-sided acoustic and visual sanctuary", "High acoustic absorption rating
+of 1.55 Sabins per unit", "Non-destructive desk mounting using Vicinity
+Workstation Clamps", "Constructed from 100% polyester fibre containing a minimum
+of 80% recycled PET", "Group 1 fire rating compliant with AS ISO 9705 - 2003 and
+AS 5637.1", "Solid colour throughout with clean finished edges; no capping
+required", "Pinnable self-healing surface for personal workflow notes", "Clamps
+made from 100% recycled PET (RePET) or powdercoated zinc", "Moisture and mould
+resistant with an ASTM G21-15 Growth Rating: 0)", "Certified Carbon Neutral
+product with third-party verified EPD" ], "applications": [ "internal wall" ],
+"technical": [ { "property": "Acoustic Performance", "value": "1.55 Sabins per
+unit
+(125Hz: 0.50, 250Hz: 1.00, 500Hz: 1.40, 1000Hz: 1.65, 2000Hz: 2.10, 4000Hz: 2.35)",
+"standard": "ISO 354" }, { "property": "Dimensions", "value": "2400 mm W x 600
+mm H flat (wrapped to suit 1600 mm or 1800 mm desks, ~400 mm above desk)",
+"standard": "" }, { "property": "Thickness", "value": "12 mm (+/- 6%)",
+"standard": "" }, { "property": "Material Composition", "value": "100% polyester
+fibre (PET) Cube panel; clamp: 100% recycled PET / zinc", "standard": "" }, {
+"property": "Recycled Content", "value": "Minimum 80% post-consumer recycled
+PET", "standard": "" }, { "property": "Fire Rating (Australia)", "value":
+"Group 1, SMOGRArc < 100 m2/s2", "standard": "AS ISO 9705 - 2003 /
+AS 5637.1:2015" }, { "property": "International Fire Classification", "value":
+"Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a: FS:0 - SD:45); BS
+EN 13501-1:2018", "standard": "ISO 9705 / ASTM E-84 / BS EN 13501-1" }, {
+"property": "Water Vapour Sorption", "value": "0.4% by weight after 4 days
+at 49°C, 95% RH", "standard": "ASTM C1104 / C1104M-13a" }, { "property":
+"Microbial Resistance", "value": "Growth rating: 0 (No growth)", "standard":
+"ASTM G21-15" }, { "property": "VOC Emissions", "value": "< 0.092 mg/m3 (7
+days)", "standard": "CDPH Standard Method v1.2" } ], "range": [ { "variant":
+"Vicinity Haven 1600", "size_or_rating": "2400 mm W x 600 mm H x 12 mm
+(suits 1600mm desk)", "pack": "Pack of 4 screens (2 pieces per screen)" }, {
+"variant": "Vicinity Haven 1800", "size_or_rating": "2400 mm W x 600 mm H x 12
+mm (suits 1800mm desk)", "pack": "Pack of 4 screens (2 pieces per screen)" } ],
+"fire": "AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1 (SMOGRArc
+< 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM E-84-15a Class A; BS
+EN 13501-1:2018", "compliance": "NCC Specification 7 (BCA C1.10) Group 1 fire
+compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354", "sustainability":
+"Carbon neutral product; minimum 80% recycled PET; clamps made from 100%
+recycled PET; Declare Red List Free; EPD verified; low VOC", "install": [
+"Unpack Vicinity Haven screen pieces and layout around workstation perimeter",
+"Slide Vicinity Workstation Clamps into pre-routed slots in the screen", "Align
+the wrapped corner treatment to wrap neatly around the desk edges", "Tighten
+clamp screws from the underside of desktop using an Allen key", "Ensure screen
+sits firmly upright, enclosing rear and side boundaries securely" ],
+"selection_checklist": [ "Confirm desk size (Haven 1600 for 1600mm desks or
+Haven 1800 for 1800mm desks)", "Verify desk edge clearance around monitor arms
+and cable trays", "Select colour from the Autex Cube palette", "Confirm required
+pack quantity (packs of 4 screens, 2 pieces per screen)", "Check that user
+egress is unobstructed by the wrap-around screen" ], "accessories": [ "Vicinity
+Workstation Clamps", "Allen key" ], "limitations": [ "Indoor use only; avoid wet
+areas or direct liquid contact", "Requires compatible desk edge overhang for
+clamp engagement", "Ensure wrap-around screen width matches exact workstation
+desk size" ], "warranty": "Manufacturer's Guarantee (10 years)", "found": true,
+"search_keywords": [ "Autex Vicinity Haven", "Vicinity Desk Screen Haven", "wrap
+around desk screen", "Haven 1600 desk screen", "Haven 1800 desk screen",
+"acoustic workstation enclosure", "acoustic privacy screen Haven", "Cube wrap
+around screen", "clamp desk screen Haven" ], "problem_keywords": [ "distracting
+noise in open plan office", "lack of privacy on corner desks", "phone
+conversation privacy in open office", "noisy workstation cluster", "need wrap
+around desk partition", "reverberation around workstations" ], "placement": [
+"internal wall" ], "priority_fit": [ "acoustic", "sustainability",
+"easy_install", "fire" ], "use_cases": [ "Wrapping corner and linear
+workstations to create high-privacy acoustic pods in corporate offices",
+"Isolating noise between adjacent telephone-intensive customer service desks",
+"Providing personal focus alcoves in university study hubs and co-working
+spaces" ], "not_for": [ "Free-standing floor screens", "External weather-exposed
+installations", "Direct ceiling fixing" ], "rag_summary": "Autex Vicinity Desk
+Screen - Haven is an extended wrap-around acoustic desk screen system engineered
+from 12mm Cube polyester felt to enclose the rear and side of 1600mm or 1800mm
+desks. Delivering an outstanding sound absorption rating of 1.55 Sabins per
+unit, it forms an acoustic and visual sanctuary that shields workers from
+open-office chatter. Secured non-destructively via 100% recycled PET Vicinity
+Clamps and achieving Group 1 fire compliance, Haven offers a circular,
+high-performance workstation partition solution." }, { "family_id":
+"AUTEX_VICINITY_DESK_SCREEN_HEDGE", "tds_url":
+"https://www.autexglobal.com/au/products/vicinity/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Vicinity Desk Screen - Hedge is a clean, classic rectangular acoustic
+divider designed to sit along the rear edge of desks in open-plan offices.
+Featuring smooth rounded corners and clean finished edges without capping, Hedge
+provides acoustic separation and physical definition between facing
+workstations. Fixed non-destructively using Vicinity Clamps, it absorbs 1.00
+to 1.10 Sabins per unit and delivers Group 1 fire compliance.", "features": [
+"Classic linear rectangular screen profile with smooth rounded corners",
+"Mounted non-destructively along desk rear edges with Vicinity Workstation
+Clamps", "High acoustic absorption rating of 1.00 (1600mm) to 1.10 (1800mm)
+Sabins per unit", "Constructed from 100% polyester fibre containing a minimum
+of 80% recycled PET", "Group 1 fire rating compliant with AS ISO 9705 - 2003 and
+AS 5637.1", "Solid colour throughout with neat finished edges; no capping or
+framing required", "Pinnable self-healing surface for notes and workstation
+personalisation", "Clamps made from 100% recycled PET (RePET) or powdercoated
+zinc", "Moisture and mould resistant with an ASTM G21-15 Growth Rating of 0",
+"Certified Carbon Neutral product with third-party verified EPD" ],
+"applications": [ "internal wall" ], "technical": [ { "property": "Acoustic
+Performance", "value": "1600mm: 1.00 Sabin per unit; 1800mm: 1.10 Sabins per
+unit
+(125Hz: 0.35, 250Hz: 0.75, 500Hz: 1.00, 1000Hz: 1.20, 2000Hz: 1.55, 4000Hz: 1.75)",
+"standard": "ISO 354" }, { "property": "Dimensions (1600mm)", "value": "1550 mm
+/ 1600 mm width x 600 mm height (sits ~400 mm above desk)", "standard": "" }, {
+"property": "Dimensions (1800mm)", "value": "1750 mm / 1800 mm width x 600 mm
+height (sits ~400 mm above desk)", "standard": "" }, { "property": "Thickness",
+"value": "12 mm (+/- 6%)", "standard": "" }, { "property": "Material
+Composition", "value": "100% polyester fibre (PET) Cube panel; clamp: 100%
+recycled PET / zinc", "standard": "" }, { "property": "Recycled Content",
+"value": "Minimum 80% post-consumer recycled PET", "standard": "" }, {
+"property": "Fire Rating (Australia)", "value": "Group 1, SMOGRArc < 100 m2/s2",
+"standard": "AS ISO 9705 - 2003 / AS 5637.1:2015" }, { "property":
+"International Fire Classification", "value": "Group 1-S (ISO 9705:1993); Class
+A (ASTM E-84-15a: FS:0 - SD:45); BS EN 13501-1:2018", "standard": "ISO 9705 /
+ASTM E-84 / BS EN 13501-1" }, { "property": "Water Vapour Sorption", "value":
+"0.4% by weight after 4 days at 49°C, 95% RH", "standard": "ASTM C1104 /
+C1104M-13a" }, { "property": "Microbial Resistance", "value": "Growth rating: 0
+(No growth)", "standard": "ASTM G21-15" }, { "property": "VOC Emissions",
+"value": "< 0.092 mg/m3 (7 days)", "standard": "CDPH Standard Method v1.2" } ],
+"range": [ { "variant": "Vicinity Hedge 1600", "size_or_rating": "1550 mm W
+x 600 mm H x 12 mm (suits 1600mm desk)", "pack": "Pack of 4 screens" }, {
+"variant": "Vicinity Hedge 1800", "size_or_rating": "1750 mm W x 600 mm H x 12
+mm (suits 1800mm desk)", "pack": "Pack of 4 screens" } ], "fire": "AS ISO 9705
+- 2003 and AS 5637.1 Classification: Group 1 (SMOGRArc < 100 m2/s2);
+ISO 9705:1993 Group 1-S; ASTM E-84-15a Class A; BS EN 13501-1:2018",
+"compliance": "NCC Specification 7 (BCA C1.10) Group 1 fire compliance; AS
+ISO 9705:2003; AS 5637.1:2015; ISO 354", "sustainability": "Carbon neutral
+product; minimum 80% recycled PET; clamps made from 100% recycled PET; Declare
+Red List Free; EPD verified; low VOC", "install": [ "Unpack Vicinity Hedge
+screens and verify components", "Insert Vicinity Desk Clamps into the routed
+notches along the bottom edge of the screen", "Position the screen squarely
+along the back edge of the workstation", "Tighten the clamp screws from
+underneath the desk using an Allen key until firmly locked", "Confirm the screen
+is vertical, level, and securely positioned" ], "selection_checklist": [ "Select
+size based on desk width (Hedge 1600 for 1600mm desk; Hedge 1800 for 1800mm
+desk)", "Verify desk edge lip allows clamp clearance without fouling desk
+frame", "Choose colour from Autex Cube palette (20+ colours)", "Confirm pack
+quantity (supplied in packs of 4 screens)", "Check that monitor arm mountings do
+not conflict with screen clamp locations" ], "accessories": [ "Vicinity
+Workstation Clamps", "Allen key" ], "limitations": [ "Indoor use only; avoid wet
+areas or direct liquid contact", "Desktop must provide adequate rear edge
+clearance for clamp mechanism", "Sold in minimum pack quantities of 4 screens"
+], "warranty": "Manufacturer's Guarantee (10 years)", "found": true,
+"search_keywords": [ "Autex Vicinity Hedge", "Vicinity Desk Screen Hedge",
+"linear acoustic desk screen", "rear desk screen 1600", "rear desk screen 1800",
+"acoustic desk divider Hedge", "Cube Hedge screen", "clamp on acoustic divider",
+"pinnable desk divider" ], "problem_keywords": [ "facing desk distraction in
+open office", "keyboard typing noise across desks", "lack of desk division in
+pod seating", "unattractive plastic desk screens", "need pinnable acoustic desk
+divider", "office chatter between face-to-face desks" ], "placement": [
+"internal wall" ], "priority_fit": [ "acoustic", "sustainability",
+"easy_install", "fire" ], "use_cases": [ "Dividing back-to-back desks in
+commercial office clusters to provide acoustic separation and visual modesty",
+"Adding pinnable sound-absorbing screens across educational computer desks",
+"Refurbishing call centres with clean, frameless linear desk dividers" ],
+"not_for": [ "Floor standing partitions", "Exterior outdoor furniture", "Ceiling
+mounted baffles" ], "rag_summary": "Autex Vicinity Desk Screen - Hedge is a
+classic linear acoustic workstation divider designed to mount along the rear
+edge of 1600mm or 1800mm desks with smooth rounded corners. Crafted from 12mm
+Cube polyester felt containing over 80% recycled PET, it absorbs direct speech
+and keyboard noise (1.00 to 1.10 Sabins per unit) while doubling as a pinnable
+noticeboard. Installed non-destructively via 100% recycled PET Vicinity Clamps
+and rated Group 1 fire compliant, Hedge provides a clean, sustainable acoustic
+boundary between facing desks." }, { "family_id":
+"AUTEX_VICINITY_DESK_SCREEN_NOOK", "tds_url":
+"https://www.autexglobal.com/au/products/vicinity/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Vicinity Desk Screen - Nook is a comprehensive three-sided acoustic
+workstation enclosure designed to create an intimate, distraction-free booth
+around individual desks. Wrapping the back and both sides of a workstation, Nook
+delivers an outstanding sound absorption rating of 1.55 Sabins per unit to
+shield workers from peripheral noise and visual motion. Fixed non-destructively
+with Vicinity Clamps, it is formed from 100% polyester fibre with an 80%
+recycled PET core and meets Group 1 fire safety standards.", "features": [
+"Three-sided wrap-around pod enclosure creating maximum physical and acoustic
+privacy", "Delivers high acoustic sound absorption of 1.55 Sabins per unit",
+"Non-destructive desk mounting using Vicinity Workstation Clamps", "Constructed
+from 100% polyester fibre containing a minimum of 80% recycled PET", "Group 1
+fire rating compliant with AS ISO 9705 - 2003 and AS 5637.1", "Solid colour
+throughout with clean finished edges; no capping required", "Pinnable
+self-healing surface on all three internal faces", "Clamps made from 100%
+recycled PET (RePET) or powdercoated zinc", "Moisture and mould resistant with
+an ASTM G21-15 Growth Rating of 0", "Certified Carbon Neutral product with
+third-party verified EPD" ], "applications": [ "internal wall" ], "technical": [
+{ "property": "Acoustic Performance", "value": "1.55 Sabins per unit
+(125Hz: 0.50, 250Hz: 1.00, 500Hz: 1.40, 1000Hz: 1.65, 2000Hz: 2.10, 4000Hz: 2.35)",
+"standard": "ISO 354" }, { "property": "Dimensions", "value": "2400 mm W x 600
+mm H flat (3 pieces per screen, wrapped around 1600 mm or 1800 mm desks, ~400 mm
+above desk)", "standard": "" }, { "property": "Thickness", "value": "12 mm
+(+/- 6%)", "standard": "" }, { "property": "Material Composition", "value":
+"100% polyester fibre (PET) Cube panel; clamp: 100% recycled PET / zinc",
+"standard": "" }, { "property": "Recycled Content", "value": "Minimum 80%
+post-consumer recycled PET", "standard": "" }, { "property": "Fire Rating
+(Australia)", "value": "Group 1, SMOGRArc < 100 m2/s2", "standard": "AS ISO 9705
+- 2003 / AS 5637.1:2015" }, { "property": "International Fire Classification",
+"value": "Group 1-S (ISO 9705:1993); Class A (ASTM E-84-15a: FS:0 - SD:45); BS
+EN 13501-1:2018", "standard": "ISO 9705 / ASTM E-84 / BS EN 13501-1" }, {
+"property": "Water Vapour Sorption", "value": "0.4% by weight after 4 days
+at 49°C, 95% RH", "standard": "ASTM C1104 / C1104M-13a" }, { "property":
+"Microbial Resistance", "value": "Growth rating: 0 (No growth)", "standard":
+"ASTM G21-15" }, { "property": "VOC Emissions", "value": "< 0.092 mg/m3 (7
+days)", "standard": "CDPH Standard Method v1.2" } ], "range": [ { "variant":
+"Vicinity Nook 1600", "size_or_rating": "2400 mm W x 600 mm H x 12 mm
+(suits 1600mm desk, 3 pieces)", "pack": "Pack of 4 screens" }, { "variant":
+"Vicinity Nook 1800", "size_or_rating": "2400 mm W x 600 mm H x 12 mm
+(suits 1800mm desk, 3 pieces)", "pack": "Pack of 4 screens" } ], "fire": "AS
+ISO 9705 - 2003 and AS 5637.1 Classification: Group 1 (SMOGRArc < 100 m2/s2);
+ISO 9705:1993 Group 1-S; ASTM E-84-15a Class A; BS EN 13501-1:2018",
+"compliance": "NCC Specification 7 (BCA C1.10) Group 1 fire compliance; AS
+ISO 9705:2003; AS 5637.1:2015; ISO 354", "sustainability": "Carbon neutral
+product; minimum 80% recycled PET; clamps made from 100% recycled PET; Declare
+Red List Free; EPD verified; low VOC", "install": [ "Unpack the 3-piece Nook
+screen set and verify all components", "Attach Vicinity Desk Clamps to
+pre-routed sockets on rear and side panels", "Align the three panels around the
+back and both sides of the desktop", "Tighten the clamp mounting bolts from
+underneath the desk using an Allen key", "Ensure all corners fit neatly and the
+enclosure stands rigidly around the workspace" ], "selection_checklist": [
+"Select size matching desk width (Nook 1600 for 1600mm desks; Nook 1800
+for 1800mm desks)", "Confirm desktop depth and edge overhang allow clamp
+installation on three sides", "Select colour from the Autex Cube palette",
+"Confirm pack quantity (supplied in packs of 4 complete screens)", "Verify that
+side return wings do not impede user movement or drawer pedestals" ],
+"accessories": [ "Vicinity Workstation Clamps", "Allen key" ], "limitations": [
+"Indoor use only; avoid wet areas or direct liquid contact", "Workstation desk
+must accommodate side and rear clamps", "Sold in pack quantities of 4 complete
+screens" ], "warranty": "Manufacturer's Guarantee (10 years)", "found": true,
+"search_keywords": [ "Autex Vicinity Nook", "Vicinity Desk Screen Nook", "three
+sided desk screen", "U shaped desk screen", "acoustic workstation booth",
+"Nook 1600 desk screen", "Nook 1800 desk screen", "Cube Nook screen", "desk
+privacy booth" ], "problem_keywords": [ "high open plan office noise", "complete
+lack of workstation privacy", "distracting peripheral movement at desk", "phone
+call confidentiality in open office", "need 3-sided acoustic desk pod",
+"reverberation around individual desks" ], "placement": [ "internal wall" ],
+"priority_fit": [ "acoustic", "sustainability", "easy_install", "fire" ],
+"use_cases": [ "Enclosing desks on three sides in open-plan offices to create
+dedicated quiet focus booths", "Acoustic isolation for phone-intensive customer
+support and telehealth stations", "Creating private study carrels in school,
+university, and public libraries" ], "not_for": [ "Free-standing floor dividers
+without desks", "Outdoor unconditioned areas", "Ceiling suspension" ],
+"rag_summary": "Autex Vicinity Desk Screen - Nook is a 3-piece, three-sided
+wrap-around acoustic desk enclosure formed from 12mm Cube polyester felt to
+cocoon 1600mm or 1800mm workstations. Absorbing an impressive 1.55 Sabins per
+unit across rear and dual-side panels, it blocks peripheral vision and
+conversational noise to establish an intimate focus booth in busy open-plan
+spaces. Mounted non-destructively via 100% recycled PET Vicinity Clamps and
+compliant with Group 1 fire standards, Nook delivers maximum personal acoustic
+privacy." }, { "family_id": "AUTEX_VICINITY_DESK_SCREEN_POLKA", "tds_url":
+"https://www.autexglobal.com/au/products/vicinity/", "sds_url":
+"https://www.autexglobal.com/au/resources/technical-documents/", "description":
+"Autex Vicinity Desk Screen - Polka is a two-piece modular acoustic desk divider
+featuring a playful, stepped dual-panel profile. Designed to provide targeted
+acoustic dampening (0.70 Sabins per unit) while creating an open, dynamic desk
+boundary, Polka attaches non-destructively to desks via Vicinity Desk Clamps.
+Made from 100% polyester fibre with an 80% recycled PET core, it provides
+Group 1 fire compliance and certified carbon neutrality.", "features": [
+"Playful stepped two-piece profile (772mm and 380mm wide panels)",
+"Non-destructive desk mounting using Vicinity Workstation Clamps", "Delivers
+acoustic absorption of 0.70 Sabins per unit", "Constructed from 100% polyester
+fibre containing a minimum of 80% recycled PET", "Group 1 fire rating compliant
+with AS ISO 9705 - 2003 and AS 5637.1", "Solid colour throughout with clean
+finished edges; no capping required", "Pinnable self-healing surface for notes
+and desk accessories", "Clamps made from 100% recycled PET (RePET) or
+powdercoated zinc", "Moisture and mould resistant with an ASTM G21-15 Growth
+Rating of 0", "Certified Carbon Neutral product with third-party verified EPD"
+], "applications": [ "internal wall" ], "technical": [ { "property": "Acoustic
+Performance", "value": "0.70 Sabins per unit
+(125Hz: 0.20, 250Hz: 0.45, 500Hz: 0.65, 1000Hz: 0.75, 2000Hz: 1.00, 4000Hz: 1.10)",
+"standard": "ISO 354" }, { "property": "Dimensions (Panel 1)", "value": "772 mm
+width x 576 mm height", "standard": "" }, { "property": "Dimensions (Panel 2)",
+"value": "380 mm width x 576 mm height", "standard": "" }, { "property":
+"Thickness", "value": "12 mm (+/- 6%)", "standard": "" }, { "property":
+"Material Composition", "value": "100% polyester fibre (PET) Cube panel;
+clamp: 100% recycled PET / zinc", "standard": "" }, { "property": "Recycled
+Content", "value": "Minimum 80% post-consumer recycled PET", "standard": "" }, {
+"property": "Fire Rating (Australia)", "value": "Group 1, SMOGRArc < 100 m2/s2",
+"standard": "AS ISO 9705 - 2003 / AS 5637.1:2015" }, { "property":
+"International Fire Classification", "value": "Group 1-S (ISO 9705:1993); Class
+A (ASTM E-84-15a: FS:0 - SD:45); BS EN 13501-1:2018", "standard": "ISO 9705 /
+ASTM E-84 / BS EN 13501-1" }, { "property": "Water Vapour Sorption", "value":
+"0.4% by weight after 4 days at 49°C, 95% RH", "standard": "ASTM C1104 /
+C1104M-13a" }, { "property": "Microbial Resistance", "value": "Growth rating: 0
+(No growth)", "standard": "ASTM G21-15" }, { "property": "VOC Emissions",
+"value": "< 0.092 mg/m3 (7 days)", "standard": "CDPH Standard Method v1.2" } ],
+"range": [ { "variant": "Vicinity Polka", "size_or_rating": "772 mm W x 576 mm H
+& 380 mm W x 576 mm H x 12 mm", "pack": "Pack of 4 screens (2 pieces per
+screen)" } ], "fire": "AS ISO 9705 - 2003 and AS 5637.1 Classification: Group 1
+(SMOGRArc < 100 m2/s2); ISO 9705:1993 Group 1-S; ASTM E-84-15a Class A; BS
+EN 13501-1:2018", "compliance": "NCC Specification 7 (BCA C1.10) Group 1 fire
+compliance; AS ISO 9705:2003; AS 5637.1:2015; ISO 354", "sustainability":
+"Carbon neutral product; minimum 80% recycled PET; clamps made from 100%
+recycled PET; Declare Red List Free; EPD verified; low VOC", "install": [
+"Unpack Polka panel components (772mm and 380mm panels)", "Slide Vicinity Clamps
+into the routed slots on both screen sections", "Position the stepped panels
+along the desk perimeter to achieve desired layout", "Tighten the clamp screws
+from underneath the desk using an Allen key", "Ensure both stepped panels are
+securely clamped and upright" ], "selection_checklist": [ "Verify desk
+dimensions and edge overhang for dual-panel clamp positions", "Confirm stepped
+configuration (772mm and 380mm widths) suits workstation layout", "Select colour
+from the Autex Cube palette", "Confirm pack quantity requirement (supplied in
+packs of 4 screens, 2 pieces per screen)", "Check lead time for custom
+configurations" ], "accessories": [ "Vicinity Workstation Clamps", "Allen key"
+], "limitations": [ "Indoor use only; avoid wet areas or direct liquid contact",
+"Clamps require adequate desk edge lip for attachment", "Two-piece stepped
+configuration requires arrangement planning" ], "warranty": "Manufacturer's
+Guarantee (10 years)", "found": true, "search_keywords": [ "Autex Vicinity
+Polka", "Vicinity Desk Screen Polka", "stepped acoustic desk screen", "two piece
+desk divider", "modular desk screen Polka", "Cube Polka screen", "decorative
+desk divider", "pinnable stepped desk screen" ], "problem_keywords": [
+"monotonous flat desk screens", "distracting speech noise in creative studio",
+"need partial desk boundary", "lack of workstation personality", "chatter across
+agile desks", "desk partition without drilling" ], "placement": [ "internal
+wall" ], "priority_fit": [ "acoustic", "sustainability", "easy_install", "fire"
+], "use_cases": [ "Adding playful stepped acoustic boundaries to agile desks in
+creative agencies and tech hubs", "Partial desk privacy in collaborative
+open-plan spaces without blocking sightlines", "Pinnable, sound-absorbing desk
+partitions in design studios and university workbenches" ], "not_for": [
+"Complete acoustic room isolation", "Outdoor unconditioned environments", "Floor
+standing divider screens" ], "rag_summary": "Autex Vicinity Desk Screen - Polka
+is a playful two-piece stepped acoustic desk divider comprising 772mm and 380mm
+wide panels formed from 12mm Cube polyester felt. Absorbing 0.70 Sabins per
+unit, its asymmetrical stepped geometry introduces visual rhythm while
+mitigating speech distractions across agile workstations. Fixed
+non-destructively using 100% recycled PET Vicinity Clamps and achieving Group 1
+fire compliance, Polka provides a flexible, carbon-neutral privacy barrier for
+collaborative and creative workspaces." } ]

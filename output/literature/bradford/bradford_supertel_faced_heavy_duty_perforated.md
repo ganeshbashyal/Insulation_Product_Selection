@@ -1,7 +1,7 @@
 ---
 title: "Bradford Supertel Faced - Heavy Duty Perforated - Batt Insulation | Bradford"
-description: "Part of the CSR family with 100+ years of Australian building solutions. Firm friction fit design means batts stay in place permanently. Low itch form"
-keywords: "Bradford Supertel Faced - Heavy Duty Perforated, Bradford batt, duct insulation, insulation Australia, Bradford Australia"
+description: "Bradford Supertel Faced - Heavy Duty Perforated is a high-density (32kg/m3) glasswool insulation blanket and board faced with a factory-applied Heavy "
+keywords: "Bradford Supertel Faced - Heavy Duty Perforated, Bradford batt, wall insulation, ceiling insulation, duct insulation, insulation Australia, Bradford Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: BRADFORD_SUPERTEL_FACED_HEAVY_DUTY_PERFORATED
 ---
@@ -10,30 +10,34 @@ family_id: BRADFORD_SUPERTEL_FACED_HEAVY_DUTY_PERFORATED
 
 **Bradford Batt** — bulk insulation batts for thermal and acoustic performance.
 
-Part of the CSR family with 100+ years of Australian building solutions. Firm friction fit design means batts stay in place permanently. Low itch formula for comfortable installation.
+Bradford Supertel Faced - Heavy Duty Perforated is a high-density (32kg/m3) glasswool insulation blanket and board faced with a factory-applied Heavy Duty Perforated aluminium foil (Thermofoil HD Perf). Specifically developed for internal HVAC duct lining, acoustic attenuators, and visible concrete under-soffit linings, the perforated foil face allows sound waves to enter the glasswool core for maximum acoustic absorption while retaining fibres and providing a durable, wipeable, and reflective finish. It delivers superior acoustic NRC ratings while meeting strict fire requirements.
 
 ## Key features
 
-- FBS-1 Glasswool Bio-Soluble Insulation - safe to use and non-hazardous.
-- manufactured from up to 80% recycled glass content.
-- CodeMark Certificate of Conformity CM 30006.
-- non-combustible to AS 1530.1.
-- low itch soft next-gen formula for comfortable handling.
-- prevents condensation on cold services.
-- maintains system efficiency.
-- 50 Year Warranty backed by CSR.
+- 32kg/m3 high-density glasswool core delivers exceptional acoustic sound absorption.
+- Heavy Duty Perforated foil facing allows sound entry while preventing air-stream fibre erosion.
+- High acoustic performance with sound absorption NRC up to 0.90 - 1.05.
+- Ideal for internal HVAC duct lining, silencers, plant rooms, and carpark soffits.
+- Non-combustible glasswool core complying with AS 1530.1.
+- Early Fire Hazard properties complying with AS/NZS 1530.3 (0/0/0/0-1).
+- Thermal performance ratings from R0.7 to R3.0 in accordance with AS/NZS 4859.1.
+- Manufactured from up to 65% recycled glass using bio-soluble FBS-1 formulation.
+- Durable, semi-rigid construction easy to cut and impale over insulation pins.
+- Maximum service operating temperature up to 150°C (faced).
 
 ## Applications and selection
 
-- Duct
+- duct
+- ceiling
+- wall
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. Confirm acoustic absorption is required (perforated foil allows sound absorption into core).
+2. Note: Not suitable as a condensation vapour barrier (perforations allow moisture passage).
+3. Confirm density (32kg/m3) and thickness (25mm to 100mm).
+4. Verify air velocity in ductwork is within allowable limits.
+5. Specify insulation pins, speed clips, and edge angles.
 
 
 ## Current catalogue range
@@ -51,37 +55,55 @@ Part of the CSR family with 100+ years of Australian building solutions. Firm fr
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Batt | Manufacturer catalogue |
-| Material | Glasswool | Manufacturer catalogue |
-| Applications | Duct | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material R-values | 25mm: R0.7; 40mm: R1.2; 50mm: R1.5; 75mm: R2.2; 100mm: R3.0 | AS/NZS 4859.1 |
+| Density | 32 kg/m3 | - |
+| Thickness | 25 mm, 40 mm, 50 mm, 75 mm, 100 mm | - |
+| Dimensions (Rolls) | 15 m x 1200/1500 mm (25mm); 10 m x 1200/1500 mm (40/50mm); 5 m x 1380/1500 mm (100mm) | - |
+| Dimensions (Boards) | 2400 mm x 1200 mm | - |
+| Facing | Thermofoil Heavy Duty Perforated (HD Perf) reflective aluminium foil | - |
+| Acoustic Absorption (NRC) | 25mm: NRC 0.70; 50mm: NRC 0.90; 75mm: NRC 1.00; 100mm: NRC 1.05 | AS ISO 354 |
+| Combustibility (Core) | Non-Combustible | AS 1530.1 |
+| Fire Hazard Properties | Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1 | AS/NZS 1530.3 |
+| Maximum Service Temperature | 150°C (faced) | - |
+| Thermal Conductivity | 0.032 W/m·K at 20°C | ASTM C518 |
 
-
+Extracted from manufacturer datasheet: https://www.bradfordinsulation.com.au/commercial-and-industrial-insulation/hvac/supertel
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Core non-combustible to AS 1530.1; AS/NZS 1530.3: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-1
+
+AS/NZS 4859.1:2018; AS 1530.1; AS/NZS 1530.3; AS 4254; NCC 2022 Volume 1 & Volume 2
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.csrbradford.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://www.firecrunch.com.au/wp-content/uploads/2016/02/BRADFORD-MSDS-e3a0-435b-b6ef-6f1027726ce6.pdf.
 
+## Recommended accessories
+
+- Insulation weld pins and speed clips.
+- Metal edge angles.
+- Perforated foil tape.
+
 
 ## Limitations and warnings
 
-- Keep dry during storage and installation..
-- not a water or vapour barrier - use appropriate building wrap..
-- do not compress - compression reduces R-value performance..
-- not to be exposed to weather..
-- maximum service temperature 340°C..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Not suitable as a vapour barrier or in moist/wet environments due to perforations.
+- Maximum continuous service temperature is 150°C.
+- Not designed for direct exposure to driving rain or outdoor weathering.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Keep dry during storage and installation.
+1. Clean internal metal duct or concrete ceiling substrate.
+2. Weld or glue insulation pins at 300mm to 400mm centres.
+3. Impale the Supertel Perforated board or blanket over pins with the perforated foil face facing into the air stream or room.
+4. Secure firmly with metal retaining clips / speed washers.
+5. Butt all edges tightly together to eliminate acoustic flanking.
+6. Secure edges with metal channel, angle trims, or perforated foil tape.
+7. For internal HVAC ducting, ensure air velocities do not exceed manufacturer rating.
 
 ## Safety and handling
 
@@ -89,11 +111,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Manufactured from up to 65% recycled glass; FBS-1 bio-soluble formulation; low VOC; zero ODP
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+CSR Bradford Standard Product Warranty
 
 ## Specification starting point
 
