@@ -1,0 +1,121 @@
+{
+  "schema_version": "2.0",
+  "scope": "Misc product families",
+  "rating_scale": "1 = low relevance, 3 = useful, 5 = primary strength; ratings guide discovery and are not compliance or performance certificates",
+  "families": [
+    {
+      "family_id": "MISC_ACCESSORY",
+      "manufacturer": "Misc",
+      "name": "Misc Accessory",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Misc.",
+      "applications": [
+        "General Installation"
+      ],
+      "keywords": [
+        "accessory",
+        "misc",
+        "pt 50 nr1540-48"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Misc Accessory: 13 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "accessory.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.misc.com.au/",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 13
+    },
+    {
+      "family_id": "MISC_REFLECTIVE",
+      "manufacturer": "Misc",
+      "name": "Misc Reflective",
+      "category": "Reflective",
+      "primary_function": "Reflective insulation product from Misc.",
+      "applications": [
+        "Wall Wrap / Sarking"
+      ],
+      "keywords": [
+        "reflective",
+        "misc",
+        "foil breather rp-51b-30,"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 4,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Misc Reflective: 5 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "reflective.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.misc.com.au/",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 5
+    },
+    {
+      "family_id": "MISC_WRAP",
+      "manufacturer": "Misc",
+      "name": "Misc Wrap",
+      "category": "Wrap",
+      "primary_function": "Wrap insulation product from Misc.",
+      "applications": [
+        "Wall Wrap / Sarking"
+      ],
+      "keywords": [
+        "wrap",
+        "misc",
+        "rp-51bm-l-30"
+      ],
+      "scores": {
+        "acoustic_comfort": 2,
+        "energy_efficiency": 3,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Misc Wrap: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "wrap.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.misc.com.au/",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 4
+    }
+  ]
+}

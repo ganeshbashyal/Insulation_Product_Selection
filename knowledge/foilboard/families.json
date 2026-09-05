@@ -1,0 +1,87 @@
+{
+  "schema_version": "2.0",
+  "scope": "Foilboard product families",
+  "rating_scale": "1 = low relevance, 3 = useful, 5 = primary strength; ratings guide discovery and are not compliance or performance certificates",
+  "families": [
+    {
+      "family_id": "FOILBOARD_ACCESSORY",
+      "manufacturer": "Foilboard",
+      "name": "Foilboard Accessory",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Foilboard.",
+      "applications": [
+        "Floor",
+        "General Installation"
+      ],
+      "keywords": [
+        "accessory",
+        "foilboard",
+        "fb041p"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Foilboard Accessory: 20 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "accessory.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.foilboard.com.au/",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 20
+    },
+    {
+      "family_id": "FOILBOARD_BOARD",
+      "manufacturer": "Foilboard",
+      "name": "Foilboard Board",
+      "category": "Board",
+      "primary_function": "Board insulation product from Foilboard.",
+      "applications": [
+        "Roof",
+        "Underfloor",
+        "External Wall | Ceiling | Underfloor",
+        "Garage Door"
+      ],
+      "keywords": [
+        "board",
+        "foilboard",
+        "fb001"
+      ],
+      "scores": {
+        "acoustic_comfort": 2,
+        "energy_efficiency": 4,
+        "sustainability": 3,
+        "installation_practicality": 3,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Foilboard Board: 29 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "board.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.foilboard.com.au/",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 29
+    }
+  ]
+}

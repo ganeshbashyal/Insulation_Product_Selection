@@ -1,0 +1,161 @@
+{
+  "schema_version": "2.0",
+  "scope": "Acoustica product families",
+  "rating_scale": "1 = low relevance, 3 = useful, 5 = primary strength; ratings guide discovery and are not compliance or performance certificates",
+  "families": [
+    {
+      "family_id": "ACOUSTICA_ACCESSORY",
+      "manufacturer": "Acoustica",
+      "name": "Acoustica Accessory",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Acoustica.",
+      "applications": [
+        "General Installation",
+        "Internal Wall",
+        "External Wall"
+      ],
+      "keywords": [
+        "accessory",
+        "acoustica",
+        "72mm premium tape 050"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Acoustica Accessory: 10 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "accessory.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.acoustica.com.au/",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 10
+    },
+    {
+      "family_id": "ACOUSTICA_ACOUSTIC_BARRIER",
+      "manufacturer": "Acoustica",
+      "name": "Acoustica Acoustic Barrier",
+      "category": "Acoustic Barrier",
+      "primary_function": "Acoustic Barrier insulation product from Acoustica.",
+      "applications": [
+        "Internal Wall | Ceiling | Floor | General Acoustic"
+      ],
+      "keywords": [
+        "acoustic barrier",
+        "acoustica",
+        "quietwave membrane"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 3,
+        "sustainability": 3,
+        "installation_practicality": 3,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Acoustica Acoustic Barrier: 7 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "acoustic_barrier.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.acoustica.com.au/",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 7
+    },
+    {
+      "family_id": "ACOUSTICA_PIPE",
+      "manufacturer": "Acoustica",
+      "name": "Acoustica Pipe",
+      "category": "Pipe",
+      "primary_function": "Pipe insulation product from Acoustica.",
+      "applications": [
+        "Pipe | Duct | Services Acoustic | Plumbing"
+      ],
+      "keywords": [
+        "pipe",
+        "acoustica",
+        "gl 15/3 - 3m flat foam full or split rolls"
+      ],
+      "scores": {
+        "acoustic_comfort": 2,
+        "energy_efficiency": 4,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Acoustica Pipe: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "pipe.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.acoustica.com.au/",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 4
+    },
+    {
+      "family_id": "ACOUSTICA_UNDERLAY",
+      "manufacturer": "Acoustica",
+      "name": "Acoustica Underlay",
+      "category": "Underlay",
+      "primary_function": "Underlay insulation product from Acoustica.",
+      "applications": [
+        "Floor | Acoustic Floor"
+      ],
+      "keywords": [
+        "underlay",
+        "acoustica",
+        "angelstep gold8"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 3,
+        "sustainability": 3,
+        "installation_practicality": 3,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Acoustica Underlay: 8 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "underlay.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.acoustica.com.au/",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 8
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": "2.0",
+  "scope": "Paroc product families",
+  "rating_scale": "1 = low relevance, 3 = useful, 5 = primary strength; ratings guide discovery and are not compliance or performance certificates",
+  "families": [
+    {
+      "family_id": "PAROC_BATT",
+      "manufacturer": "Paroc",
+      "name": "Paroc Batt",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Paroc.",
+      "applications": [
+        "Roof | External Wall | General Acoustic",
+        "Party Wall Acoustic",
+        "Internal Wall | Ceiling | Floor | General Acoustic"
+      ],
+      "keywords": [
+        "batt",
+        "paroc",
+        "insr8586321"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Paroc Batt: 12 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "batt.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.paroc.com.au/",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 12
+    }
+  ]
+}
