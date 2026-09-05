@@ -25,7 +25,7 @@ CATALOGUE_FILES = sorted((REPO_ROOT / "knowledge").glob("*/families.json"))
 PERFORMANCE_FILE = REPO_ROOT / "knowledge" / "performance_evidence.json"
 
 QUESTIONS = [
-    ("challenge", "What would you like to improve—noise, heat, condensation or general comfort?"),
+    ("problem", "Tell me about your project or problem in your own words — e.g. 'my upstairs bedroom is freezing in winter and the walls are thin', or 'traffic noise through the front wall of my townhouse'. Mention where it is, what you're feeling, and anything about the building if you know it."),
     ("application", "Where is the problem—wall, floor, roof, pipe or somewhere else?"),
     ("priority", "What matters most: comfort, energy savings, sustainability, easy installation, budget or compliance?"),
     ("conditions", "Any practical constraints, such as limited space, weather exposure, temperature or floor finish?"),
@@ -34,6 +34,34 @@ QUESTIONS = [
     ("requirements", "Do you have a target rating, NCC, fire, BAL or consultant requirement? It’s okay if you’re unsure."),
     ("contact", "Would you prefer to call us, receive a callback or have the brief emailed to the team?"),
 ]
+
+APPLICATION_TERMS = {
+    "roof": ["roof", "ceiling", "rafter", "truss", "attic"],
+    "floor": ["floor", "subfloor", "underfloor", "storey", "storeys"],
+    "wall": ["wall", "partition", "cladding"],
+    "pipe": ["pipe", "plumbing", "waste", "duct", "hvac"],
+}
+PRIORITY_TERMS = {
+    "noise": ["noise", "noisy", "sound", "acoustic", "quiet", "neighbour", "traffic", "footstep", "voices"],
+    "heat": ["heat", "hot", "cold", "freezing", "thermal", "energy", "summer", "winter", "temperature"],
+    "condensation": ["condensation", "moisture", "mould", "damp"],
+    "budget": ["budget", "cheap", "affordable", "cost"],
+}
+PROJECT_TERMS = ["residential", "commercial", "industrial", "apartment", "townhouse", "house", "shed", "office", "renovation", "retrofit", "new build", "new home"]
+
+
+def extract_from_opening(text: str) -> dict[str, str]:
+    folded = " " + text.casefold() + " "
+    found: dict[str, str] = {}
+    if any(term in folded for terms in APPLICATION_TERMS.values() for term in terms):
+        found["application"] = text
+    if any(term in folded for terms in PRIORITY_TERMS.values() for term in terms):
+        found["priority"] = text
+    if any(term in folded for term in PROJECT_TERMS):
+        found["project"] = text
+    if re.search(r"\b\d{4}\b", text):
+        found["locality"] = text
+    return found
 
 NCC_ZONE_GUIDE = [
     {"Zone": 1, "Climate": "High-humidity summer, warm winter", "Wall wrap / external wall layer": "No zone-specific minimum in 10.8.1(2); membrane must still meet 10.8.1(1)", "Roof-space note": "General condensation design applies"},
@@ -223,11 +251,18 @@ def process_customer_message(prompt: str) -> None:
         key, _ = QUESTIONS[st.session_state.step]
         st.session_state.answers[key] = prompt.strip()
         st.session_state.step += 1
+        # harvest what the free-text opening already answered
+        if key == "problem":
+            for filled_key, value in extract_from_opening(prompt).items():
+                st.session_state.answers.setdefault(filled_key, value)
     if st.session_state.step < len(QUESTIONS) and QUESTIONS[st.session_state.step][0] == "locality":
         locality = supplied_locality(st.session_state.answers)
         if locality:
             st.session_state.answers["locality"] = locality
             st.session_state.step += 1
+    # skip steps the opening statement already answered
+    while st.session_state.step < len(QUESTIONS) and QUESTIONS[st.session_state.step][0] in st.session_state.answers:
+        st.session_state.step += 1
     if st.session_state.step < len(QUESTIONS):
         question_text = question_for_step(st.session_state.step, st.session_state.answers)
         if st.session_state.get("use_llm_phrasing"):

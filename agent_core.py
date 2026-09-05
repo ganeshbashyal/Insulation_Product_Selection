@@ -36,7 +36,7 @@ from bot_engine import (
 ROOT = Path(__file__).resolve().parent
 
 QUESTIONS = [
-    ("challenge", "What would you like to improve — noise, heat, condensation or general comfort?"),
+    ("problem", "Tell me about your project or problem in your own words — e.g. 'my upstairs bedroom is freezing in winter and the walls are thin', or 'traffic noise through the front wall of my townhouse'. Mention where it is, what you're feeling, and anything about the building if you know it."),
     ("application", "Where is the problem — wall, floor, roof, pipe or somewhere else?"),
     ("priority", "What matters most: comfort, energy savings, sustainability, easy installation, budget or compliance?"),
     ("conditions", "Any practical constraints, such as limited space, weather exposure, temperature or floor finish?"),
@@ -45,6 +45,36 @@ QUESTIONS = [
     ("requirements", "Do you have a target rating, NCC, fire, BAL or consultant requirement? It's okay if you're unsure."),
     ("contact", "Would you prefer to call us, receive a callback or have the brief emailed to the team?"),
 ]
+
+# signals used to decide whether the opening statement already answered a step
+_APPLICATION_TERMS = {
+    "roof": ["roof", "ceiling", "rafter", "truss", "attic"],
+    "floor": ["floor", "subfloor", "underfloor", "storey", "storeys"],
+    "wall": ["wall", "partition", "cladding"],
+    "pipe": ["pipe", "plumbing", "waste", "duct", "hvac"],
+}
+_PRIORITY_TERMS = {
+    "noise": ["noise", "noisy", "sound", "acoustic", "quiet", "neighbour", "traffic", "footstep", "voices"],
+    "heat": ["heat", "hot", "cold", "freezing", "thermal", "energy", "summer", "winter", "temperature"],
+    "condensation": ["condensation", "moisture", "mould", "damp"],
+    "budget": ["budget", "cheap", "affordable", "cost"],
+}
+_PROJECT_TERMS = ["residential", "commercial", "industrial", "apartment", "townhouse", "house", "shed", "office", "renovation", "retrofit", "new build", "new home"]
+
+
+def extract_from_opening(text: str) -> dict[str, str]:
+    """Pull whatever the free-text opening statement already tells us."""
+    folded = " " + text.casefold() + " "
+    found: dict[str, str] = {}
+    if any(term in folded for terms in _APPLICATION_TERMS.values() for term in terms):
+        found["application"] = text
+    if any(term in folded for terms in _PRIORITY_TERMS.values() for term in terms):
+        found["priority"] = text
+    if any(term in folded for term in _PROJECT_TERMS):
+        found["project"] = text
+    if re.search(r"\b\d{4}\b", text):
+        found["locality"] = text
+    return found
 
 _LOCALITY_ZONE_HINTS = {
     "darwin": 1, "cairns": 1, "brisbane": 2, "gold coast": 2, "alice springs": 3,
@@ -211,12 +241,22 @@ def reply(conversation: Conversation, message: str, use_llm: bool = False, manuf
     conversation.answers[key] = message.strip()
     conversation.step += 1
 
+    # if this was the opening problem statement, harvest whatever it already
+    # answered so we only ask follow-ups for what's genuinely missing
+    if key == "problem":
+        for filled_key, value in extract_from_opening(message).items():
+            conversation.answers.setdefault(filled_key, value)
+
     # locality can be auto-filled if a postcode appeared earlier
     if conversation.step < len(QUESTIONS) and QUESTIONS[conversation.step][0] == "locality":
         existing = next((v for v in conversation.answers.values() if re.search(r"\b\d{4}\b", v)), None)
         if existing:
             conversation.answers["locality"] = existing
             conversation.step += 1
+
+    # skip any step the opening statement already answered
+    while conversation.step < len(QUESTIONS) and QUESTIONS[conversation.step][0] in conversation.answers:
+        conversation.step += 1
 
     if conversation.step < len(QUESTIONS):
         return _phrase(question_for_step(conversation.step, conversation.answers), use_llm)

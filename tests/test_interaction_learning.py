@@ -13,20 +13,13 @@ def test_conversation_logs_and_learns(tmp_path, monkeypatch):
 
     conversation = agent_core.Conversation()
     opening = conversation.next_prompt()
-    assert "improve" in opening
+    assert "own words" in opening
 
-    replies = []
-    for answer in [
-        "too hot in summer and cold in winter",
-        "external timber walls",
-        "energy efficiency",
-        "cavities open during renovation",
-        "residential retrofit",
-        "Parramatta NSW 2150",
-        "no special requirement",
-        "callback please",
-    ]:
-        replies.append(agent_core.reply(conversation, answer))
+    # free-text opening carries application+priority+project+locality; the bot
+    # should only ask the remaining qualifying questions
+    replies = [agent_core.reply(conversation, "My external walls are freezing in winter in my Parramatta NSW 2150 house")]
+    while not conversation.done:
+        replies.append(agent_core.reply(conversation, "no special requirement, callback please"))
 
     assert conversation.done is True
     assert conversation.recommendation is not None
@@ -47,8 +40,9 @@ def test_rejection_report_lists_corrected(tmp_path, monkeypatch):
     monkeypatch.setattr(agent_core.interaction_store, "DEFAULT_DB", db)
 
     conversation = agent_core.Conversation()
-    for answer in ["noise", "wall", "acoustic comfort", "none", "house", "Sydney 2000", "no", "call"]:
-        agent_core.reply(conversation, answer)
+    agent_core.reply(conversation, "noise through the wall between floors in my house in Sydney 2000")
+    while not conversation.done:
+        agent_core.reply(conversation, "no special requirement, just call me")
     assert conversation.done
 
     interaction_store.record_outcome(
