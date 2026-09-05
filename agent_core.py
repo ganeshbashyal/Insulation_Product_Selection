@@ -52,12 +52,31 @@ _LOCALITY_ZONE_HINTS = {
 }
 
 
+def _slug(name: str) -> str:
+    return re.sub(r"[^a-zA-Z0-9]+", "_", name).strip("_").lower()[:60]
+
+
 def load_families() -> list[dict]:
     families = []
     for path in sorted((ROOT / "knowledge").glob("*/families.json")):
+        mdir = path.parent.name
         data = json.loads(path.read_text(encoding="utf-8"))
         for family in data["families"]:
-            family.setdefault("manufacturer", path.parent.name.title())
+            family.setdefault("manufacturer", mdir.title())
+            # merge retrieval/decision signals from the research agent, if present
+            research_file = path.parent / "research" / f"{_slug(family['name'])}.json"
+            if research_file.exists():
+                try:
+                    research = json.loads(research_file.read_text(encoding="utf-8"))
+                    retrieval = research.get("retrieval") or {}
+                except (json.JSONDecodeError, OSError):
+                    retrieval = {}
+                if retrieval:
+                    family["keywords"] = sorted(set(family.get("keywords", [])) | set(retrieval.get("search_keywords") or []) | set(retrieval.get("problem_keywords") or []))
+                    family["applications"] = sorted(set(family.get("applications", [])) | set(retrieval.get("placement") or []) | set(retrieval.get("use_cases") or []))
+                    family["not_for"] = retrieval.get("not_for") or []
+                    family["priority_fit"] = retrieval.get("priority_fit") or []
+                    family["rag_summary"] = retrieval.get("rag_summary") or ""
             families.append(family)
     return families
 
