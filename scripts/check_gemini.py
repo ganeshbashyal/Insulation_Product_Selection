@@ -11,7 +11,7 @@ from google import genai
 from google.genai import types
 
 client = genai.Client(api_key=key)
-model = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+model = os.getenv("GEMINI_MODEL", "gemini-3.6-flash")
 print(f"model: {model}")
 
 print("\n[1] plain generate_content (no tools) ...")

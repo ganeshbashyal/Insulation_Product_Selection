@@ -35,8 +35,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from audit_datasheet_links import OFFICIAL_DOMAINS
 import tds_research_agent as local_agent  # reuse slugify, research_path, caching helpers
 
-# Pro model for deep-dive quality (billing enabled); override with GEMINI_MODEL.
-MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-pro")
+# Only models/gemini-3.6-flash is available to this key (2.5 models 404 for new
+# users). Override with GEMINI_MODEL if your key has broader access.
+MODEL = os.getenv("GEMINI_MODEL", "gemini-3.6-flash")
 MAX_RETRIES = 5
 
 SPEC_KEYS = [
