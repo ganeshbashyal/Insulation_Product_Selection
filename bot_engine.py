@@ -122,6 +122,11 @@ def rank_families(families: list[dict], answers: dict[str, str], manufacturer_sc
         match_score += sum(score for _, score in application_scores) * 3
         match_score += family["scores"].get(priority, 0) * 1.5
         match_score += placement_adjustment(family["family_id"], text, priority)
+        # negative matching: penalise families the research flagged as not-for
+        # this application, so wrong recommendations get pushed down
+        for term in family.get("not_for", []):
+            if term_match_score(term, text, text_words):
+                match_score -= 4
         if not recommendation_allowed(family):
             match_score -= 6
         reliable_match = bool(keyword_hits or application_hits) and match_score >= NO_RELIABLE_MATCH_SCORE

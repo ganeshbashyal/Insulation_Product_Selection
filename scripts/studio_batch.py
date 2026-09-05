@@ -55,9 +55,19 @@ Return ONLY a single JSON array (no markdown fences, no commentary). The array m
   "accessories": list of companion products/tapes/adhesives specified, or [],
   "limitations": up to 8 manufacturer-stated limitations or warnings, or [],
   "warranty": short string of the stated warranty term, or "",
-  "found": true if you located a real manufacturer TDS, false otherwise.
+  "found": true if you located a real manufacturer TDS, false otherwise,
 
-Rules: report ONLY what manufacturer documents actually state. Never invent numbers, URLs, test results or claims. Keep numbers and units exactly as written. Prefer the manufacturer's own site over resellers. If you cannot find a TDS for a family, still include its object with "found": false and empty fields.
+  -- the next fields are for search/retrieval and bot decision-making. Derive them from the manufacturer documents AND from how Australian customers/tradies actually describe the problem. These guide the bot's matching; they are not compliance claims --
+
+  "search_keywords": up to 15 terms/phrases customers would type or say to find this product (include the product name, common synonyms, trade slang, and generic category terms, e.g. "pink batts", "glasswool wall insulation", "wall batts R2.5"),
+  "problem_keywords": up to 12 short phrases describing the problems this product solves (e.g. "cold bedroom in winter", "noise between floors", "hot roof space", "condensation on pipes"),
+  "placement": list of building elements it is installed in/on, from: ["ceiling", "wall", "internal wall", "external wall", "floor", "underfloor", "between floors", "roof", "roofline", "pipe", "duct", "shed", "subfloor"],
+  "priority_fit": list of priorities this family is genuinely strong on, from: ["thermal", "acoustic", "condensation", "fire", "sustainability", "easy_install", "budget"],
+  "use_cases": up to 6 concrete application scenarios (e.g. "insulating existing timber-stud external walls during renovation", "acoustic lagging for PVC waste pipes in apartments"),
+  "not_for": up to 6 applications or situations this product should NOT be recommended for (negative matching to stop wrong recommendations),
+  "rag_summary": one dense paragraph (3-5 sentences) combining what it is, what it is made of, where it goes, what problems it solves, and its key ratings - written for semantic search/embedding retrieval.
+
+Rules: report ONLY what manufacturer documents actually state for the spec fields; the retrieval/decision fields (search_keywords, problem_keywords, placement, priority_fit, use_cases, not_for, rag_summary) may be inferred from the documents and typical usage. Keep numbers and units exactly as written. Prefer the manufacturer's own site over resellers. If you cannot find a TDS for a family, still include its object with "found": false and empty spec fields, but DO still fill the retrieval/decision fields from your knowledge of the product type.
 
 FAMILIES (in order):
 {family_list}
@@ -145,6 +155,7 @@ def ingest_batch(batch_no: int) -> None:
         mdir, family = by_id[fid]
         found = bool(item.get("found")) and bool(item.get("description") or item.get("technical"))
         spec = {k: item.get(k) for k in ("description","features","applications","technical","range","fire","compliance","sustainability","install","selection_checklist","accessories","limitations","warranty")}
+        retrieval = {k: item.get(k) for k in ("search_keywords","problem_keywords","placement","priority_fit","use_cases","not_for","rag_summary")}
         out_path = agent.research_path(mdir, agent.slugify(family["name"]))
         out_path.parent.mkdir(parents=True, exist_ok=True)
         out_path.write_text(json.dumps({
@@ -152,7 +163,7 @@ def ingest_batch(batch_no: int) -> None:
             "datasheet_pdf_url": item.get("tds_url", ""), "sds_url": item.get("sds_url", ""),
             "status": "ok" if found else "gemini_not_found",
             "researched_at": __import__("time").strftime("%Y-%m-%d"),
-            "spec": spec, "source_excerpt": None, "engine": "ai_studio_batch",
+            "spec": spec, "retrieval": retrieval, "source_excerpt": None, "engine": "ai_studio_batch",
         }, indent=2, ensure_ascii=False), encoding="utf-8")
         touched_dirs.add(mdir)
         written += 1
