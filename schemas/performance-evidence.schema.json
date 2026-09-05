@@ -41,7 +41,16 @@
         "ocr_confidence": {"anyOf": [{"type": "number", "minimum": 0, "maximum": 1}, {"type": "null"}]},
         "evidence_status": {"enum": ["verified", "pending_human_review", "legacy_unverified"]},
         "verified_by": {"type": ["string", "null"]},
-        "verified_at": {"anyOf": [{"type": "string", "format": "date-time"}, {"type": "null"}]},
+        "verified_at": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date-time",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d+)?(?:Z|[+-]\\d{2}:\\d{2})$"
+            },
+            {"type": "null"}
+          ]
+        },
         "notes": {"type": "string"}
       },
       "additionalProperties": false
