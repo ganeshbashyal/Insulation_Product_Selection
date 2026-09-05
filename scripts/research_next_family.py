@@ -34,8 +34,15 @@ import tds_research_agent as agent
 from generate_family_literature import main as _lit_main  # noqa: F401  (import for side-effect-free reuse)
 
 
+# Statuses that mean "we tried and there is nothing more to do automatically".
+# These families are skipped on later runs until you supply a link (via the TDS
+# CSV) or one becomes discoverable; re-run tds_research_agent.py --only <mfg>
+# after filling links to force a retry.
+TERMINAL_STATUSES = {"ok", "no_pdf_found", "fetch_failed", "no_text"}
+
+
 def pending_families() -> list[tuple[str, dict]]:
-    """Families with no successful research JSON yet, in stable order."""
+    """Families not yet successfully researched AND not at a terminal dead-end."""
     pending = []
     for path in sorted(ROOT.glob("knowledge/*/families.json")):
         manufacturer_dir = path.parent.name
@@ -44,13 +51,13 @@ def pending_families() -> list[tuple[str, dict]]:
             family.setdefault("manufacturer", manufacturer_dir.title())
             slug = agent.slugify(family["name"])
             research_file = agent.research_path(manufacturer_dir, slug)
-            done = False
+            status = None
             if research_file.exists():
                 try:
-                    done = json.loads(research_file.read_text(encoding="utf-8")).get("status") == "ok"
+                    status = json.loads(research_file.read_text(encoding="utf-8")).get("status")
                 except (json.JSONDecodeError, OSError):
-                    done = False
-            if not done:
+                    status = None
+            if status not in TERMINAL_STATUSES:
                 pending.append((manufacturer_dir, family))
     return pending
 
