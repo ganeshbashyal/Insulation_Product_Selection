@@ -34,6 +34,7 @@ Pink® Batts are made from lightweight, flexible, and resilient glasswool for th
 4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
 5. Record the suburb/postcode so climate-zone requirements can be checked.
 
+
 ## Current catalogue range
 
 | SKU | Product | Published rating |
@@ -81,6 +82,7 @@ Combustibility AS1530.1:1994 Non combustible; AS/NZS 1530.3:1999: Ignitability I
 - BAL: not verified.
 - Datasheet: https://insulation.com.au/product/pink-batts-ceiling-insulation/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: to be sourced.
+
 
 ## Installation overview
 
