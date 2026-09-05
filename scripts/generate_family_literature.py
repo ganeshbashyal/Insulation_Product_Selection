@@ -38,7 +38,7 @@ sys.path.insert(0, str(ROOT))
 OUT_DIR = ROOT / "output" / "literature"
 SKU_CSV = ROOT / "data" / "processed" / "product_catalogue_skus.csv"
 STATE_FILE = OUT_DIR / ".literature_state.json"
-GENERATOR_VERSION = "2"  # bump when the template changes so all outputs regenerate
+GENERATOR_VERSION = "3"  # bump when the template changes so all outputs regenerate
 
 CATEGORY_TAGLINES = {
     "Batt": "bulk insulation batts for thermal and acoustic performance",
@@ -173,11 +173,17 @@ def build_markdown(family: dict, fm: dict, text: str, skus: pd.DataFrame, resear
     applications = spec.get("applications") or family.get("applications", [])
     description = clean(spec.get("description", "")) or extract_description(text)
     features = [clean(f) for f in spec.get("features", []) if clean(f)] or extract_features(text)
-    limitations = extract_limitations(text)
     technical = [t for t in spec.get("technical", []) if isinstance(t, dict) and t.get("property")]
     fire_text = clean(spec.get("fire", ""))
     sustainability_text = clean(spec.get("sustainability", ""))
     install_steps = [clean(s) for s in spec.get("install", []) if clean(s)]
+    # richer deep-dive fields (Gemini agent)
+    range_rows_data = [r for r in spec.get("range", []) if isinstance(r, dict)]
+    selection_checklist = [clean(s) for s in spec.get("selection_checklist", []) if clean(s)]
+    compliance_text = clean(spec.get("compliance", ""))
+    accessories = [clean(a) for a in spec.get("accessories", []) if clean(a)]
+    limitations = [clean(l) for l in spec.get("limitations", []) if clean(l)] or extract_limitations(text)
+    warranty_text = clean(spec.get("warranty", ""))
     grade_rows = extract_grade_rows(text)
     material = fm.get("material") or (clean(skus["material_type"].iloc[0]) if not skus.empty else "")
     tds_url = family.get("source_url") or fm.get("official_datasheet_url", "")
@@ -199,8 +205,16 @@ def build_markdown(family: dict, fm: dict, text: str, skus: pd.DataFrame, resear
     kw_md = ", ".join(keywords)
 
     range_rows = ""
-    if not skus.empty:
-        range_rows = "| SKU | Product | Published rating |\n| --- | --- | --- |\n"
+    if range_rows_data:
+        range_rows = "| Variant | Size / rating | Pack |\n| --- | --- | --- |\n"
+        for row in range_rows_data[:30]:
+            range_rows += f"| {clean(row.get('variant'))} | {clean(row.get('size_or_rating'))} | {clean(row.get('pack'))} |\n"
+        if skus.empty:
+            range_rows += "\n_Variants from the manufacturer datasheet._\n"
+    if skus.empty is False:
+        if range_rows:
+            range_rows += "\n**Internal catalogue range**\n\n"
+        range_rows += "| SKU | Product | Published rating |\n| --- | --- | --- |\n"
         for _, sku in skus.head(25).iterrows():
             rating = rating_summary(pd.Series([sku["thermal_r_value"], sku["acoustic_rw"], sku["nrc_aw"]]))
             range_rows += f"| {clean(sku['our_sku'])} | {clean(sku['product_name'])} | {rating} |\n"
@@ -234,6 +248,16 @@ def build_markdown(family: dict, fm: dict, text: str, skus: pd.DataFrame, resear
     fire_md = fire_text if fire_text else "Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft."
     sustain_md = sustainability_text if sustainability_text else \
         "Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication."
+    compliance_md = compliance_text if compliance_text else ""
+    warranty_md = warranty_text if warranty_text else "No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication."
+    accessories_md = "\n".join(f"- {a}." for a in accessories)
+    checklist_md = "\n".join(f"{i}. {item}." for i, item in enumerate(selection_checklist, 1)) if selection_checklist else (
+        "1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.\n"
+        "2. Confirm the target rating and construction build-up with the project team.\n"
+        "3. Confirm available cavity or fixing depth against the product dimensions.\n"
+        "4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.\n"
+        "5. Record the suburb/postcode so climate-zone requirements can be checked."
+    )
     researched = bool(technical)
 
     meta = {
@@ -245,6 +269,9 @@ def build_markdown(family: dict, fm: dict, text: str, skus: pd.DataFrame, resear
         "fire_text": fire_text, "sustainability_text": sustainability_text,
         "install_steps": install_steps, "researched": researched,
         "datasheet_pdf_url": (research or {}).get("datasheet_pdf_url"),
+        "range_rows_data": range_rows_data, "selection_checklist": selection_checklist,
+        "compliance_text": compliance_text, "accessories": accessories,
+        "warranty_text": warranty_text,
     }
 
     md = f"""---
@@ -271,11 +298,8 @@ family_id: {family['family_id']}
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+{checklist_md}
+{f"\n## Manufacturer range\n\n{range_rows}" if range_rows_data and not skus.empty else ""}
 
 ## Current catalogue range
 
@@ -288,12 +312,13 @@ family_id: {family['family_id']}
 ## Fire, testing and compliance context
 
 {fire_md}
-
+{f"\n{compliance_md}\n" if compliance_md else ""}
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: {tds_url or "to be sourced"} (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: {sds_url or "to be sourced"}.
-
+{f"\n## Recommended accessories\n\n{accessories_md}\n" if accessories_md else ""}
+{f"\n## Limitations and warnings\n\n" + chr(10).join(f'- {l}.' for l in limitations) + chr(10) if limitations else ""}
 ## Installation overview
 
 {install_md}
@@ -308,7 +333,7 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+{warranty_md}
 
 ## Specification starting point
 

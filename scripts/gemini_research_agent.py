@@ -35,31 +35,42 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from audit_datasheet_links import OFFICIAL_DOMAINS
 import tds_research_agent as local_agent  # reuse slugify, research_path, caching helpers
 
-MODEL = os.getenv("GEMINI_MODEL", "gemini-3.6-flash")  # billing enabled -> fast + current
+# Pro model for deep-dive quality (billing enabled); override with GEMINI_MODEL.
+MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-pro")
 MAX_RETRIES = 5
 
-SPEC_KEYS = ["description", "features", "applications", "technical", "fire", "sustainability", "install"]
+SPEC_KEYS = [
+    "description", "features", "applications", "technical", "range", "fire",
+    "sustainability", "install", "selection_checklist", "compliance",
+    "warranty", "limitations", "accessories",
+]
 
-RESEARCH_PROMPT = """You are researching an insulation product family for an Australian supplier's knowledge base.
+RESEARCH_PROMPT = """You are doing a deep-dive technical literature review of one insulation product family for an Australian supplier. The output feeds customer-facing sales/SEO pages and Word documents, so be thorough and precise.
 
 Manufacturer: {manufacturer}
 Product family: {family}
 Category: {category}
 
-Using web search, find the OFFICIAL manufacturer Technical Data Sheet (TDS) and Safety Data Sheet (SDS) for this product on the manufacturer's own website, then read them and return ONLY a JSON object (no markdown fences, no commentary) with these keys:
+Using web search, locate the OFFICIAL manufacturer Technical Data Sheet (TDS) and Safety Data Sheet (SDS) on the manufacturer's own website, read them fully, and return ONLY a JSON object (no markdown fences, no commentary) with these keys:
 
   "tds_url": absolute URL of the official TDS (PDF or product page), or "" if not found.
   "sds_url": absolute URL of the official SDS, or "" if not found.
-  "description": 1-2 sentence factual product description from the TDS.
-  "features": up to 8 short feature strings actually stated by the manufacturer.
+  "description": 2-4 sentence factual description of the product, its material and construction, from the TDS.
+  "features": up to 12 short feature strings actually stated by the manufacturer.
   "applications": list of applications (e.g. "ceiling", "external wall", "pipe").
-  "technical": list of {{"property","value","standard"}} objects for every spec found (R-value, density, thickness, thermal conductivity, fire indices, temperature range, vapour, dimensions). Use "" for standard if none stated.
-  "fire": short string of fire / AS-NZS 1530.3 results, or "" if none.
-  "sustainability": short string of recycled-content / VOC / environmental claims, or "" if none.
-  "install": up to 8 short installation steps from the TDS, or [] if none.
+  "technical": list of {{"property","value","standard"}} objects for EVERY spec in the TDS: R-values per thickness, density, thickness range, dimensions, thermal conductivity, service/operating temperature, water vapour, moisture absorption, corrosion, acoustic ratings (Rw/NRC/aw), UV/weather, compression, etc. Use "" for standard if none stated. Be exhaustive.
+  "range": list of {{"variant","size_or_rating","pack"}} objects describing the available variants/sizes/grades with dimensions or R-values and pack/bag quantities if published.
+  "fire": string with fire test results and indices (e.g. AS/NZS 1530.3 ignitability/spread/heat/smoke, AS 1530.1 combustibility, BAL), or "" if none.
+  "compliance": string describing NCC/standard compliance claims and certifications exactly as stated (CodeMark, AS/NZS 4859.1, etc.), or "" if none.
+  "sustainability": string of recycled-content / VOC / Green Star / EPD / environmental claims, or "" if none.
+  "install": up to 12 short installation steps from the TDS.
+  "selection_checklist": up to 8 short things a buyer must confirm before selecting (e.g. "measure pipe OD and match insulation ID").
+  "accessories": list of companion products/tapes/adhesives the manufacturer specifies, or [] if none.
+  "limitations": up to 8 manufacturer-stated limitations, warnings or exclusions, or [] if none.
+  "warranty": short string of the stated warranty term, or "" if none.
   "found": true if you located a real manufacturer TDS, false otherwise.
 
-Rules: only report values actually present in manufacturer documents. Never invent numbers, URLs or claims. If a field is absent use "" or []. Keep numbers and units exactly as written.
+Rules: report ONLY what the manufacturer documents actually state — never invent numbers, URLs, test results or claims. Keep numbers and units exactly as written. If a field is absent use "" or []. Prefer the manufacturer's own site over resellers.
 """
 
 

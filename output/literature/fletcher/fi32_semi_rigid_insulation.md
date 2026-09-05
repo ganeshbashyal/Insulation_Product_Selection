@@ -32,6 +32,7 @@ FI32 is semi-rigid glasswool supplied as boards or rolls for internal sheet-meta
 4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
 5. Record the suburb/postcode so climate-zone requirements can be checked.
 
+
 ## Current catalogue range
 
 | SKU | Product | Published rating |
@@ -66,6 +67,7 @@ Not verified per SKU. No fire, NCC or BAL classification is asserted in this dra
 - BAL: not verified.
 - Datasheet: https://insulation.com.au/product/fi32-semi-rigid-insulation/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: to be sourced.
+
 
 ## Installation overview
 

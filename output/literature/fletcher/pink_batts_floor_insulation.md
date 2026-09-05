@@ -36,6 +36,7 @@ Pink® Floor Batts are lightweight, flexible, and resilient glasswool insulation
 4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
 5. Record the suburb/postcode so climate-zone requirements can be checked.
 
+
 ## Current catalogue range
 
 | SKU | Product | Published rating |
@@ -66,6 +67,7 @@ Non-combustible (AS/NZS 1530.1); Early Fire Hazard Indices: Ignitability Index 0
 - BAL: not verified.
 - Datasheet: https://insulation.com.au/products/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: to be sourced.
+
 
 ## Installation overview
 
