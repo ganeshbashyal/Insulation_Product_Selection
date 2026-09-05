@@ -119,6 +119,8 @@ python scripts/tds_research_agent.py --only Fletcher      # or a whole manufactu
 
 Resumable: each family writes its own JSON, so you can stop and restart any time. Families whose PDF can't be found are marked `no_pdf_found` and skipped on later runs until you supply a link (via the TDS CSV) or one becomes discoverable. Web search can be blocked in some environments; the sitemap crawl is the fallback, and hand-filled links in `data/processed/tds_links_to_source.csv` always take precedence.
 
+**Alternative: Gemini research agent** ([`scripts/gemini_research_agent.py`](scripts/gemini_research_agent.py)) — instead of the local Ollama pipeline, asks Gemini with Google Search grounding to find the official TDS/SDS links and extract the spec in one step. Faster and higher quality, but sends product/datasheet text to Google's API (user-approved for research only; customer data and live recommendations stay local). Set `$env:GEMINI_API_KEY = "..."` then run `python scripts/gemini_research_agent.py --loop`. Both agents write to the same `research/<slug>.json` files, so the literature generator works identically either way.
+
 ### Optional: deployable website agent
 
 [`web_agent.py`](web_agent.py) serves the same conversation flow as a self-hosted FastAPI app (no Streamlit), so it can be embedded on a website. It reuses the deterministic ranker/gates and logs every conversation for interaction learning:
