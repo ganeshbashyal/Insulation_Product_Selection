@@ -1,13 +1,16 @@
 # Stinger product-family knowledge base
 
-Bot-facing knowledge for Stinger products. Each file represents a technical family, not an individual stock SKU.
+Bot-facing knowledge for Stinger products. Each file represents a technical product-line family as classified by the manufacturer's own product naming, not an individual stock SKU.
 
 ## Family index
 
 | Family ID | Product family | Evidence status |
 | --- | --- | --- |
 | `STINGER_ACCESSORY` | Stinger Accessory | Initial documentation |
-
+| `STINGER_CH` | Stinger Ch | Initial documentation |
+| `STINGER_CN` | Stinger Cn | Initial documentation |
+| `STINGER_CS` | Stinger Cs | Initial documentation |
+| `STINGER_HT` | Stinger Ht | Initial documentation |
 
 ## Retrieval rule
 

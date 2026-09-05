@@ -4,26 +4,18 @@
   "rating_scale": "1 = low relevance, 3 = useful, 5 = primary strength; ratings guide discovery and are not compliance or performance certificates",
   "families": [
     {
-      "family_id": "BRADFORD_BATT",
+      "family_id": "BRADFORD_ACOUSTIGARD",
       "manufacturer": "Bradford",
-      "name": "Bradford Batt",
+      "name": "Bradford Acoustigard",
       "category": "Batt",
       "primary_function": "Batt insulation product from Bradford.",
       "applications": [
-        "Metal Roof / Shed",
-        "Underfloor",
-        "Internal Wall | Ceiling | General Acoustic",
-        "Party Wall Fire",
-        "Ceiling",
-        "Internal Wall",
-        "Internal Wall | External Wall",
-        "Duct",
-        "Internal Wall | Ceiling | Floor | General Acoustic"
+        "Internal Wall | Ceiling | General Acoustic"
       ],
       "keywords": [
+        "acoustigard",
         "batt",
-        "bradford",
-        "cs15417"
+        "bradford"
       ],
       "scores": {
         "acoustic_comfort": 3,
@@ -32,11 +24,11 @@
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Bradford Batt: 129 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Acoustigard: 21 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
-      "knowledge_file": "batt.md",
+      "knowledge_file": "acoustigard.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.bradford.com.au/",
+      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -47,12 +39,164 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 129
+      "product_count": 21
     },
     {
-      "family_id": "BRADFORD_BOARD",
+      "family_id": "BRADFORD_ANTICON_BLANKET",
       "manufacturer": "Bradford",
-      "name": "Bradford Board",
+      "name": "Bradford Anticon Blanket",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Bradford.",
+      "applications": [
+        "Metal Roof / Shed"
+      ],
+      "keywords": [
+        "anticon blanket",
+        "batt",
+        "bradford"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Bradford Anticon Blanket: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "anticon_blanket.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 2
+    },
+    {
+      "family_id": "BRADFORD_ANTICON_ROOFING_BLANKET_HEAVY_DUTY_FOIL",
+      "manufacturer": "Bradford",
+      "name": "Bradford Anticon Roofing Blanket - Heavy Duty Foil",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Bradford.",
+      "applications": [
+        "Metal Roof / Shed"
+      ],
+      "keywords": [
+        "anticon roofing blanket - heavy duty foil",
+        "batt",
+        "bradford"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Bradford Anticon Roofing Blanket - Heavy Duty Foil: 5 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "anticon_roofing_blanket_heavy_duty_foil.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 5
+    },
+    {
+      "family_id": "BRADFORD_ANTICON_ROOFING_BLANKET_LIGHT_DUTY_FOIL",
+      "manufacturer": "Bradford",
+      "name": "Bradford Anticon Roofing Blanket - Light Duty Foil",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Bradford.",
+      "applications": [
+        "Metal Roof / Shed"
+      ],
+      "keywords": [
+        "anticon roofing blanket - light duty foil",
+        "batt",
+        "bradford"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Bradford Anticon Roofing Blanket - Light Duty Foil: 7 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "anticon_roofing_blanket_light_duty_foil.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 7
+    },
+    {
+      "family_id": "BRADFORD_ANTICON_ROOFING_BLANKET_MEDIUM_DUTY_FOIL",
+      "manufacturer": "Bradford",
+      "name": "Bradford Anticon Roofing Blanket - Medium Duty Foil",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Bradford.",
+      "applications": [
+        "Metal Roof / Shed"
+      ],
+      "keywords": [
+        "anticon roofing blanket - medium duty foil",
+        "batt",
+        "bradford"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Bradford Anticon Roofing Blanket - Medium Duty Foil: 7 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "anticon_roofing_blanket_medium_duty_foil.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 7
+    },
+    {
+      "family_id": "BRADFORD_FIBERTEX",
+      "manufacturer": "Bradford",
+      "name": "Bradford Fibertex",
       "category": "Board",
       "primary_function": "Board insulation product from Bradford.",
       "applications": [
@@ -61,7 +205,7 @@
       "keywords": [
         "board",
         "bradford",
-        "cs114044"
+        "fibertex"
       ],
       "scores": {
         "acoustic_comfort": 2,
@@ -70,11 +214,11 @@
         "installation_practicality": 3,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Bradford Board: 13 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Fibertex: 13 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
-      "knowledge_file": "board.md",
+      "knowledge_file": "fibertex.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.bradford.com.au/",
+      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -88,31 +232,31 @@
       "product_count": 13
     },
     {
-      "family_id": "BRADFORD_REFLECTIVE",
+      "family_id": "BRADFORD_FIRE_PROTECTION_DAMPER_STRIP",
       "manufacturer": "Bradford",
-      "name": "Bradford Reflective",
-      "category": "Reflective",
-      "primary_function": "Reflective insulation product from Bradford.",
+      "name": "Bradford Fire Protection - Damper Strip",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Bradford.",
       "applications": [
-        "Wall Wrap / Sarking"
+        "Internal Wall | Ceiling | Floor | General Acoustic"
       ],
       "keywords": [
-        "reflective",
+        "batt",
         "bradford",
-        "cs40483"
+        "fire protection - damper strip"
       ],
       "scores": {
         "acoustic_comfort": 3,
-        "energy_efficiency": 4,
-        "sustainability": 2,
+        "energy_efficiency": 5,
+        "sustainability": 4,
         "installation_practicality": 4,
-        "compliance_readiness": 3
+        "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Bradford Reflective: 9 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Fire Protection - Damper Strip: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
-      "knowledge_file": "reflective.md",
+      "knowledge_file": "fire_protection_damper_strip.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.bradford.com.au/",
+      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -123,34 +267,492 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 9
+      "product_count": 1
     },
     {
-      "family_id": "BRADFORD_WRAP",
+      "family_id": "BRADFORD_FIRE_PROTECTION_FILLER",
       "manufacturer": "Bradford",
-      "name": "Bradford Wrap",
-      "category": "Wrap",
-      "primary_function": "Wrap insulation product from Bradford.",
+      "name": "Bradford Fire Protection - Filler",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Bradford.",
       "applications": [
-        "Wall Wrap / Sarking"
+        "Internal Wall | Ceiling | Floor | General Acoustic"
       ],
       "keywords": [
-        "wrap",
+        "batt",
         "bradford",
-        "cs106703"
+        "fire protection - filler"
       ],
       "scores": {
-        "acoustic_comfort": 2,
-        "energy_efficiency": 3,
-        "sustainability": 2,
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
         "installation_practicality": 4,
-        "compliance_readiness": 3
+        "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Bradford Wrap: 3 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Fire Protection - Filler: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
-      "knowledge_file": "wrap.md",
+      "knowledge_file": "fire_protection_filler.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.bradford.com.au/",
+      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "BRADFORD_FIRE_PROTECTION_METAL_ROOF",
+      "manufacturer": "Bradford",
+      "name": "Bradford Fire Protection - Metal Roof",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Bradford.",
+      "applications": [
+        "Metal Roof / Shed"
+      ],
+      "keywords": [
+        "batt",
+        "bradford",
+        "fire protection - metal roof"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Bradford Fire Protection - Metal Roof: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "fire_protection_metal_roof.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "BRADFORD_FIRE_PROTECTION_TILE_ROOF",
+      "manufacturer": "Bradford",
+      "name": "Bradford Fire Protection - Tile Roof",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Bradford.",
+      "applications": [
+        "Metal Roof / Shed"
+      ],
+      "keywords": [
+        "batt",
+        "bradford",
+        "fire protection - tile roof"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Bradford Fire Protection - Tile Roof: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "fire_protection_tile_roof.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "BRADFORD_FIRE_PROTECTION_WALL_BATT",
+      "manufacturer": "Bradford",
+      "name": "Bradford Fire Protection - Wall Batt",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Bradford.",
+      "applications": [
+        "Internal Wall"
+      ],
+      "keywords": [
+        "batt",
+        "bradford",
+        "fire protection - wall batt"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Bradford Fire Protection - Wall Batt: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "fire_protection_wall_batt.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "BRADFORD_FIRESEAL_PARTY_WALL_BATTS",
+      "manufacturer": "Bradford",
+      "name": "Bradford Fireseal Party Wall Batts",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Bradford.",
+      "applications": [
+        "Party Wall Fire"
+      ],
+      "keywords": [
+        "batt",
+        "bradford",
+        "fireseal party wall batts"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Bradford Fireseal Party Wall Batts: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "fireseal_party_wall_batts.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "BRADFORD_GOLD_BATTS",
+      "manufacturer": "Bradford",
+      "name": "Bradford Gold Batts",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Bradford.",
+      "applications": [
+        "Ceiling",
+        "Internal Wall | External Wall"
+      ],
+      "keywords": [
+        "batt",
+        "bradford",
+        "gold batts"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Bradford Gold Batts: 16 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "gold_batts.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 16
+    },
+    {
+      "family_id": "BRADFORD_GOLD_HI_PERFORMANCE_BATTS",
+      "manufacturer": "Bradford",
+      "name": "Bradford Gold Hi-Performance Batts",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Bradford.",
+      "applications": [
+        "Internal Wall | External Wall",
+        "Ceiling"
+      ],
+      "keywords": [
+        "batt",
+        "bradford",
+        "gold hi-performance batts"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Bradford Gold Hi-Performance Batts: 8 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "gold_hi_performance_batts.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 8
+    },
+    {
+      "family_id": "BRADFORD_MULTITEL_FOIL_FACED",
+      "manufacturer": "Bradford",
+      "name": "Bradford Multitel - Foil - Faced",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Bradford.",
+      "applications": [
+        "Duct"
+      ],
+      "keywords": [
+        "batt",
+        "bradford",
+        "multitel - foil - faced"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Bradford Multitel - Foil - Faced: 5 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "multitel_foil_faced.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 5
+    },
+    {
+      "family_id": "BRADFORD_OPTIMO",
+      "manufacturer": "Bradford",
+      "name": "Bradford Optimo",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Bradford.",
+      "applications": [
+        "Underfloor"
+      ],
+      "keywords": [
+        "batt",
+        "bradford",
+        "bradford optimo"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Bradford Optimo: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "optimo.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 2
+    },
+    {
+      "family_id": "BRADFORD_POLYESTER_POLYMAX",
+      "manufacturer": "Bradford",
+      "name": "Bradford Polyester - Polymax",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Bradford.",
+      "applications": [
+        "Internal Wall | External Wall"
+      ],
+      "keywords": [
+        "batt",
+        "bradford",
+        "polyester - polymax"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Bradford Polyester - Polymax: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "polyester_polymax.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 4
+    },
+    {
+      "family_id": "BRADFORD_POLYMAX_CEILING_INSULATION",
+      "manufacturer": "Bradford",
+      "name": "Bradford Polymax Ceiling Insulation",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Bradford.",
+      "applications": [
+        "Ceiling"
+      ],
+      "keywords": [
+        "batt",
+        "bradford",
+        "polymax ceiling insulation"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Bradford Polymax Ceiling Insulation: 8 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "polymax_ceiling_insulation.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 8
+    },
+    {
+      "family_id": "BRADFORD_SOUNDCSREEN_ACOUSTIC_BATTS",
+      "manufacturer": "Bradford",
+      "name": "Bradford Soundcsreen Acoustic Batts",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Bradford.",
+      "applications": [
+        "Internal Wall | Ceiling | General Acoustic"
+      ],
+      "keywords": [
+        "batt",
+        "bradford",
+        "bradford soundcsreen acoustic batts"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Bradford Soundcsreen Acoustic Batts: 7 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "soundcsreen_acoustic_batts.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 7
+    },
+    {
+      "family_id": "BRADFORD_SOUNDSCREEN_ACOUSTIC_BRADFORD",
+      "manufacturer": "Bradford",
+      "name": "Bradford Soundscreen Acoustic - Bradford",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Bradford.",
+      "applications": [
+        "Internal Wall | Ceiling | General Acoustic"
+      ],
+      "keywords": [
+        "batt",
+        "bradford",
+        "soundscreen acoustic - bradford"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Bradford Soundscreen Acoustic - Bradford: 3 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "soundscreen_acoustic_bradford.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -162,6 +764,538 @@
         "Validate compliance with relevant standards"
       ],
       "product_count": 3
+    },
+    {
+      "family_id": "BRADFORD_SUPERTEL_FACED_HEAVY_DUTY_FOIL",
+      "manufacturer": "Bradford",
+      "name": "Bradford Supertel Faced - Heavy Duty Foil",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Bradford.",
+      "applications": [
+        "Duct"
+      ],
+      "keywords": [
+        "batt",
+        "bradford",
+        "supertel faced - heavy duty foil"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Bradford Supertel Faced - Heavy Duty Foil: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "supertel_faced_heavy_duty_foil.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "BRADFORD_SUPERTEL_FACED_HEAVY_DUTY_PERFORATED",
+      "manufacturer": "Bradford",
+      "name": "Bradford Supertel Faced - Heavy Duty Perforated",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Bradford.",
+      "applications": [
+        "Duct"
+      ],
+      "keywords": [
+        "batt",
+        "bradford",
+        "supertel faced - heavy duty perforated"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Bradford Supertel Faced - Heavy Duty Perforated: 8 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "supertel_faced_heavy_duty_perforated.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 8
+    },
+    {
+      "family_id": "BRADFORD_SUPERTEL_PLAIN",
+      "manufacturer": "Bradford",
+      "name": "Bradford Supertel Plain",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Bradford.",
+      "applications": [
+        "Duct"
+      ],
+      "keywords": [
+        "batt",
+        "bradford",
+        "supertel plain"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Bradford Supertel Plain: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "supertel_plain.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "BRADFORD_SUPERTEL_PLAIN_PLAIN_UNFACED",
+      "manufacturer": "Bradford",
+      "name": "Bradford Supertel Plain - Plain - Unfaced",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Bradford.",
+      "applications": [
+        "Duct"
+      ],
+      "keywords": [
+        "batt",
+        "bradford",
+        "supertel plain - plain - unfaced"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Bradford Supertel Plain - Plain - Unfaced: 12 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "supertel_plain_plain_unfaced.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 12
+    },
+    {
+      "family_id": "BRADFORD_THERMAL_BRADFORD",
+      "manufacturer": "Bradford",
+      "name": "Bradford Thermal - Bradford",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Bradford.",
+      "applications": [
+        "Internal Wall | External Wall"
+      ],
+      "keywords": [
+        "batt",
+        "bradford",
+        "thermal - bradford"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Bradford Thermal - Bradford: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "thermal_bradford.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 4
+    },
+    {
+      "family_id": "BRADFORD_THERMAL_UNDERFLOOR_OPTIMO",
+      "manufacturer": "Bradford",
+      "name": "Bradford Thermal Underfloor / Optimo",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Bradford.",
+      "applications": [
+        "Underfloor"
+      ],
+      "keywords": [
+        "batt",
+        "bradford",
+        "thermal underfloor / optimo"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Bradford Thermal Underfloor / Optimo: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "thermal_underfloor_optimo.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 2
+    },
+    {
+      "family_id": "BRADFORD_WALL_WRAPS_BLACK_LABEL_WITH_INTEGRATED_T",
+      "manufacturer": "Bradford",
+      "name": "Bradford Wall Wraps - Black Label With Integrated Tape",
+      "category": "Wrap",
+      "primary_function": "Wrap insulation product from Bradford.",
+      "applications": [
+        "Wall Wrap / Sarking"
+      ],
+      "keywords": [
+        "bradford",
+        "wall wraps - black label with integrated tape",
+        "wrap"
+      ],
+      "scores": {
+        "acoustic_comfort": 2,
+        "energy_efficiency": 3,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Bradford Wall Wraps - Black Label With Integrated Tape: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "wall_wraps_black_label_with_integrated_t.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "BRADFORD_WALL_WRAPS_ENVIROSEAL_HIGHTACK_TAPE",
+      "manufacturer": "Bradford",
+      "name": "Bradford Wall Wraps - Enviroseal Hightack Tape",
+      "category": "Wrap",
+      "primary_function": "Wrap insulation product from Bradford.",
+      "applications": [
+        "Wall Wrap / Sarking"
+      ],
+      "keywords": [
+        "bradford",
+        "wall wraps - enviroseal hightack tape",
+        "wrap"
+      ],
+      "scores": {
+        "acoustic_comfort": 2,
+        "energy_efficiency": 3,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Bradford Wall Wraps - Enviroseal Hightack Tape: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "wall_wraps_enviroseal_hightack_tape.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "BRADFORD_WALL_WRAPS_ENVIROSEAL_ULTRA_TAPE",
+      "manufacturer": "Bradford",
+      "name": "Bradford Wall Wraps - Enviroseal Ultra Tape",
+      "category": "Wrap",
+      "primary_function": "Wrap insulation product from Bradford.",
+      "applications": [
+        "Wall Wrap / Sarking"
+      ],
+      "keywords": [
+        "bradford",
+        "wall wraps - enviroseal ultra tape",
+        "wrap"
+      ],
+      "scores": {
+        "acoustic_comfort": 2,
+        "energy_efficiency": 3,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Bradford Wall Wraps - Enviroseal Ultra Tape: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "wall_wraps_enviroseal_ultra_tape.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "BRADFORD_WALL_WRAPS_LIGHT_DUTY_COMMERCIAL",
+      "manufacturer": "Bradford",
+      "name": "Bradford Wall Wraps - Light Duty Commercial",
+      "category": "Reflective",
+      "primary_function": "Reflective insulation product from Bradford.",
+      "applications": [
+        "Wall Wrap / Sarking"
+      ],
+      "keywords": [
+        "bradford",
+        "reflective",
+        "wall wraps - light duty commercial"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 4,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Bradford Wall Wraps - Light Duty Commercial: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "wall_wraps_light_duty_commercial.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "BRADFORD_WALL_WRAPS_LIGHT_DUTY_METAL_ROOF",
+      "manufacturer": "Bradford",
+      "name": "Bradford Wall Wraps - Light Duty Metal Roof",
+      "category": "Reflective",
+      "primary_function": "Reflective insulation product from Bradford.",
+      "applications": [
+        "Wall Wrap / Sarking"
+      ],
+      "keywords": [
+        "bradford",
+        "reflective",
+        "wall wraps - light duty metal roof"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 4,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Bradford Wall Wraps - Light Duty Metal Roof: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "wall_wraps_light_duty_metal_roof.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "BRADFORD_WALL_WRAPS_LIGHT_DUTY_RESIDENTIAL",
+      "manufacturer": "Bradford",
+      "name": "Bradford Wall Wraps - Light Duty Residential",
+      "category": "Reflective",
+      "primary_function": "Reflective insulation product from Bradford.",
+      "applications": [
+        "Wall Wrap / Sarking"
+      ],
+      "keywords": [
+        "bradford",
+        "reflective",
+        "wall wraps - light duty residential"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 4,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Bradford Wall Wraps - Light Duty Residential: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "wall_wraps_light_duty_residential.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 2
+    },
+    {
+      "family_id": "BRADFORD_WALL_WRAPS_MEDIUM_DUTY_POLYWEAVE_WALL_WR",
+      "manufacturer": "Bradford",
+      "name": "Bradford Wall Wraps - Medium Duty Polyweave Wall Wrap",
+      "category": "Reflective",
+      "primary_function": "Reflective insulation product from Bradford.",
+      "applications": [
+        "Wall Wrap / Sarking"
+      ],
+      "keywords": [
+        "bradford",
+        "reflective",
+        "wall wraps - medium duty polyweave wall wrap"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 4,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Bradford Wall Wraps - Medium Duty Polyweave Wall Wrap: 3 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "wall_wraps_medium_duty_polyweave_wall_wr.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 3
+    },
+    {
+      "family_id": "BRADFORD_WALL_WRAPS_MEDIUM_DUTY_POLYWEAVE_WRAP",
+      "manufacturer": "Bradford",
+      "name": "Bradford Wall Wraps - Medium Duty Polyweave Wrap",
+      "category": "Reflective",
+      "primary_function": "Reflective insulation product from Bradford.",
+      "applications": [
+        "Wall Wrap / Sarking"
+      ],
+      "keywords": [
+        "bradford",
+        "reflective",
+        "wall wraps - medium duty polyweave wrap"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 4,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Bradford Wall Wraps - Medium Duty Polyweave Wrap: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "wall_wraps_medium_duty_polyweave_wrap.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 2
     }
   ]
 }

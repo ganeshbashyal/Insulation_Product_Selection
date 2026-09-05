@@ -1,6 +1,6 @@
 # Hushtec product-family knowledge base
 
-Bot-facing knowledge for Hushtec products. Each file represents a technical family, not an individual stock SKU.
+Bot-facing knowledge for Hushtec products. Each file represents a technical product-line family as classified by the manufacturer's own product naming, not an individual stock SKU.
 
 ## Family index
 
@@ -9,7 +9,6 @@ Bot-facing knowledge for Hushtec products. Each file represents a technical fami
 | `HUSHTEC_ACOUSTIC_BARRIER` | Hushtec Acoustic Barrier | Initial documentation |
 | `HUSHTEC_BATT` | Hushtec Batt | Initial documentation |
 | `HUSHTEC_REFLECTIVE` | Hushtec Reflective | Initial documentation |
-
 
 ## Retrieval rule
 

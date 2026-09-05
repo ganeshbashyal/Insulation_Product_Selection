@@ -15,6 +15,21 @@ from bot_engine import recommendation_allowed  # noqa: E402
 CATALOGUE_PATHS = sorted((ROOT / "knowledge").glob("*/families.json"))
 EVIDENCE_PATH = ROOT / "knowledge" / "performance_evidence.json"
 
+# Auto-generated (non hand-authored) families share this exact boilerplate questions/gates
+# set. Printing it once in a shared header — instead of once per family — keeps the pack
+# well under the Aircall context threshold as the catalogue has grown to hundreds of families.
+STANDARD_QUESTIONS = (
+    "What is the primary application for this product?",
+    "What performance requirements apply?",
+    "What space or area constraints exist?",
+)
+STANDARD_HUMAN_GATES = (
+    "Verify manufacturer identity from primary source",
+    "Confirm product specifications and performance claims",
+    "Validate compliance with relevant standards",
+)
+STANDARD_SCORE_NOTES_PREFIX = "Deep-dive scoring for "
+
 
 def load_records() -> tuple[list[dict], dict[str, dict]]:
     families: list[dict] = []
@@ -53,11 +68,21 @@ def build_knowledge(families: list[dict], evidence: dict[str, dict]) -> str:
         "R-value, Rw and NRC/alpha-w are different metrics and must never be substituted for one another.",
         "A product or material rating is not the rating of the completed wall, floor, ceiling, roof or service system.",
         "",
+        "STANDARD INTAKE QUESTIONS (apply to every family below unless a family lists its own instead):",
+        *[f"- {question}" for question in STANDARD_QUESTIONS],
+        "STANDARD MANDATORY CHECKS (apply to every family below unless a family lists its own instead):",
+        *[f"- {gate}" for gate in STANDARD_HUMAN_GATES],
+        "",
         "SUPPORTED PRODUCT FAMILIES",
     ]
     for family in enabled:
         record = evidence.get(family["family_id"], {"evidence_items": []})
         verified = [item for item in record["evidence_items"] if item["evidence_status"] == "verified"]
+        questions = tuple(family["questions"])
+        human_gates = tuple(family["human_gates"])
+        score_notes = family["score_notes"]
+        if score_notes.startswith(STANDARD_SCORE_NOTES_PREFIX):
+            score_notes = "Auto-derived from catalogue data; human QA against manufacturer TDS/SDS still pending."
         lines.extend([
             "",
             f"## {family['manufacturer']} — {family['name']}",
@@ -65,12 +90,18 @@ def build_knowledge(families: list[dict], evidence: dict[str, dict]) -> str:
             f"Product role: {family['primary_function']}",
             f"Typical applications: {', '.join(family['applications'])}.",
             f"Useful customer language: {', '.join(family['keywords'])}.",
-            f"Selection guidance: {family['score_notes']}",
-            "Before suggesting this family, clarify:",
-            *[f"- {question}" for question in family["questions"]],
-            "Mandatory checks before quote or order:",
-            *[f"- {gate}" for gate in family["human_gates"]],
+            f"Selection guidance: {score_notes}",
         ])
+        if questions == STANDARD_QUESTIONS:
+            lines.append("Before suggesting this family, clarify: standard intake questions above.")
+        else:
+            lines.append("Before suggesting this family, clarify:")
+            lines.extend(f"- {question}" for question in questions)
+        if human_gates == STANDARD_HUMAN_GATES:
+            lines.append("Mandatory checks before quote or order: standard mandatory checks above.")
+        else:
+            lines.append("Mandatory checks before quote or order:")
+            lines.extend(f"- {gate}" for gate in human_gates)
         if verified:
             lines.append("Approved structured performance evidence:")
             lines.extend(metric_line(item) for item in verified)

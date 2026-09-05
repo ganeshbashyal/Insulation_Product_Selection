@@ -10,16 +10,12 @@
       "category": "Batt",
       "primary_function": "Batt insulation product from Polyester Solutions.",
       "applications": [
-        "Ceiling",
-        "Internal Wall",
-        "Internal Wall | External Wall",
         "Internal Wall | General Acoustic",
-        "Floor"
+        "Internal Wall"
       ],
       "keywords": [
         "batt",
-        "polyester solutions",
-        "p15430"
+        "polyester solutions"
       ],
       "scores": {
         "acoustic_comfort": 3,
@@ -28,11 +24,11 @@
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Polyester Solutions Batt: 32 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Polyester Solutions Batt: 11 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "batt.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.polyestersolutions.com.au/",
+      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -43,7 +39,160 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 32
+      "product_count": 11
+    },
+    {
+      "family_id": "POLYESTER_SOLUTIONS_THERMAL_BATTS_P",
+      "manufacturer": "Polyester Solutions",
+      "name": "Polyester Solutions Thermal batts - P",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Polyester Solutions.",
+      "applications": [
+        "Ceiling",
+        "Internal Wall | External Wall"
+      ],
+      "keywords": [
+        "batt",
+        "polyester solutions",
+        "thermal batts - p"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Polyester Solutions Thermal batts - P: 14 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "thermal_batts_p.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 14
+    },
+    {
+      "family_id": "POLYESTER_SOLUTIONS_UNDER_FLOOR_ROLLS_POLYFB",
+      "manufacturer": "Polyester Solutions",
+      "name": "Polyester Solutions Under Floor Rolls - PolyFB",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Polyester Solutions.",
+      "applications": [
+        "Floor"
+      ],
+      "keywords": [
+        "batt",
+        "polyester solutions",
+        "under floor rolls - polyfb"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Polyester Solutions Under Floor Rolls - PolyFB: 5 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "under_floor_rolls_polyfb.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 5
+    },
+    {
+      "family_id": "POLYESTER_SOLUTIONS_WALL_BLOCK_BAFFLE_BLOCK_BATTS",
+      "manufacturer": "Polyester Solutions",
+      "name": "Polyester Solutions Wall Block - Baffle block Batts",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Polyester Solutions.",
+      "applications": [
+        "Internal Wall"
+      ],
+      "keywords": [
+        "batt",
+        "polyester solutions",
+        "wall block - baffle block batts"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Polyester Solutions Wall Block - Baffle block Batts: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "wall_block_baffle_block_batts.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "POLYESTER_SOLUTIONS_WALL_BLOCK_BAFFLE_BLOCK_ROLLS",
+      "manufacturer": "Polyester Solutions",
+      "name": "Polyester Solutions Wall Block - Baffle block rolls",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Polyester Solutions.",
+      "applications": [
+        "Internal Wall"
+      ],
+      "keywords": [
+        "batt",
+        "polyester solutions",
+        "wall block - baffle block rolls"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Polyester Solutions Wall Block - Baffle block rolls: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "wall_block_baffle_block_rolls.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
     }
   ]
 }

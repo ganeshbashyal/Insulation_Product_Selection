@@ -14,8 +14,7 @@
       ],
       "keywords": [
         "accessory",
-        "misc",
-        "pt 50 nr1540-48"
+        "misc"
       ],
       "scores": {
         "acoustic_comfort": 1,
@@ -24,49 +23,11 @@
         "installation_practicality": 5,
         "compliance_readiness": 2
       },
-      "score_notes": "Deep-dive scoring for Misc Accessory: 13 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Misc Accessory: 5 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "accessory.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.misc.com.au/",
-      "questions": [
-        "What is the primary application for this product?",
-        "What performance requirements apply?",
-        "What space or area constraints exist?"
-      ],
-      "human_gates": [
-        "Verify manufacturer identity from primary source",
-        "Confirm product specifications and performance claims",
-        "Validate compliance with relevant standards"
-      ],
-      "product_count": 13
-    },
-    {
-      "family_id": "MISC_REFLECTIVE",
-      "manufacturer": "Misc",
-      "name": "Misc Reflective",
-      "category": "Reflective",
-      "primary_function": "Reflective insulation product from Misc.",
-      "applications": [
-        "Wall Wrap / Sarking"
-      ],
-      "keywords": [
-        "reflective",
-        "misc",
-        "foil breather rp-51b-30,"
-      ],
-      "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 4,
-        "sustainability": 2,
-        "installation_practicality": 4,
-        "compliance_readiness": 3
-      },
-      "score_notes": "Deep-dive scoring for Misc Reflective: 5 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
-      "confidence": "manufacturer_supported",
-      "knowledge_file": "reflective.md",
-      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.misc.com.au/",
+      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -80,31 +41,68 @@
       "product_count": 5
     },
     {
-      "family_id": "MISC_WRAP",
+      "family_id": "MISC_POLYSTRAPPING",
       "manufacturer": "Misc",
-      "name": "Misc Wrap",
-      "category": "Wrap",
-      "primary_function": "Wrap insulation product from Misc.",
+      "name": "Misc Polystrapping",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Misc.",
+      "applications": [
+        "General Installation"
+      ],
+      "keywords": [
+        "accessory",
+        "misc",
+        "polystrapping"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Misc Polystrapping: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "polystrapping.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "MISC_REFLECTIVE",
+      "manufacturer": "Misc",
+      "name": "Misc Reflective",
+      "category": "Reflective",
+      "primary_function": "Reflective insulation product from Misc.",
       "applications": [
         "Wall Wrap / Sarking"
       ],
       "keywords": [
-        "wrap",
         "misc",
-        "rp-51bm-l-30"
+        "reflective"
       ],
       "scores": {
-        "acoustic_comfort": 2,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 3,
+        "energy_efficiency": 4,
         "sustainability": 2,
         "installation_practicality": 4,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Misc Wrap: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Misc Reflective: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
-      "knowledge_file": "wrap.md",
+      "knowledge_file": "reflective.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.misc.com.au/",
+      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -116,6 +114,271 @@
         "Validate compliance with relevant standards"
       ],
       "product_count": 4
+    },
+    {
+      "family_id": "MISC_RHINO_BREATHABLE_MEMBRANE",
+      "manufacturer": "Misc",
+      "name": "Misc Rhino Breathable Membrane",
+      "category": "Wrap",
+      "primary_function": "Wrap insulation product from Misc.",
+      "applications": [
+        "Wall Wrap / Sarking"
+      ],
+      "keywords": [
+        "misc",
+        "rhino breathable membrane",
+        "wrap"
+      ],
+      "scores": {
+        "acoustic_comfort": 2,
+        "energy_efficiency": 3,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Misc Rhino Breathable Membrane: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "rhino_breathable_membrane.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "MISC_RHINO_WRAP_BREATHER",
+      "manufacturer": "Misc",
+      "name": "Misc Rhino Wrap Breather",
+      "category": "Reflective",
+      "primary_function": "Reflective insulation product from Misc.",
+      "applications": [
+        "Wall Wrap / Sarking"
+      ],
+      "keywords": [
+        "misc",
+        "reflective",
+        "rhino wrap breather"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 4,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Misc Rhino Wrap Breather: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "rhino_wrap_breather.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "MISC_TAPE_METALISED",
+      "manufacturer": "Misc",
+      "name": "Misc Tape Metalised",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Misc.",
+      "applications": [
+        "General Installation"
+      ],
+      "keywords": [
+        "accessory",
+        "misc",
+        "tape metalised"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Misc Tape Metalised: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "tape_metalised.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "MISC_TENSORGRIP",
+      "manufacturer": "Misc",
+      "name": "Misc Tensorgrip",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Misc.",
+      "applications": [
+        "General Installation"
+      ],
+      "keywords": [
+        "accessory",
+        "misc",
+        "tensorgrip"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Misc Tensorgrip: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "tensorgrip.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 2
+    },
+    {
+      "family_id": "MISC_TENSORGRIP_H",
+      "manufacturer": "Misc",
+      "name": "Misc Tensorgrip H",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Misc.",
+      "applications": [
+        "General Installation"
+      ],
+      "keywords": [
+        "accessory",
+        "misc",
+        "tensorgrip h"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Misc Tensorgrip H: 3 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "tensorgrip_h.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 3
+    },
+    {
+      "family_id": "MISC_TENSORGRIPH",
+      "manufacturer": "Misc",
+      "name": "Misc TensorgripH",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Misc.",
+      "applications": [
+        "General Installation"
+      ],
+      "keywords": [
+        "accessory",
+        "misc",
+        "tensorgriph"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Misc TensorgripH: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "tensorgriph.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "MISC_WRAP",
+      "manufacturer": "Misc",
+      "name": "Misc Wrap",
+      "category": "Wrap",
+      "primary_function": "Wrap insulation product from Misc.",
+      "applications": [
+        "Wall Wrap / Sarking"
+      ],
+      "keywords": [
+        "misc",
+        "wrap"
+      ],
+      "scores": {
+        "acoustic_comfort": 2,
+        "energy_efficiency": 3,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Misc Wrap: 3 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "wrap.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 3
     }
   ]
 }

@@ -25,7 +25,7 @@ gate_fire_compliance: not_verified_per_sku
 gate_bal: not_verified
 official_datasheet_url: https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf
 official_sds_url: https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf
-product_count: 10
+product_count: 9
 rating_basis: thermal
 ---
 
@@ -33,13 +33,13 @@ rating_basis: thermal
 
 ## Purpose of this file
 
-This is the canonical internal description for the Acoustica Accessory family. It aligns the terminology used by the enquiry bot, sales team and future Aircall CSV.
+This is the canonical internal description for the Acoustica Accessory family (Accessory category). It aligns the terminology used by the enquiry bot, sales team and future Aircall CSV.
 
 For the demonstration, the bot may recommend the **Acoustica Accessory family** when the customer's problem matches its documented applications. It must not choose a specific grade, calculate order quantity, or confirm thermal, acoustic, fire, NCC or BAL compliance for a project. Those decisions remain human-reviewed.
 
 ## Canonical description
 
-Quality insulation engineered for Australian conditions. Engineered to meet the demanding requirements of Australian building conditions. Manufacturer-published features and benefits include: Purpose-designed accessory for insulation systems; compatible with specified insulation products; maintains system integrity and performance This family covers 10 SKU variant(s) in the current catalogue. It is not a complete compliant building system on its own; project-specific claims about a finished construction must be confirmed by a human reviewer against a tested system that matches the proposed build-up.
+Quality insulation engineered for Australian conditions. Engineered to meet the demanding requirements of Australian building conditions. Manufacturer-published features and benefits include: Purpose-designed accessory for insulation systems; compatible with specified insulation products; maintains system integrity and performance This family covers 9 SKU variant(s) in the current catalogue. It is not a complete compliant building system on its own; project-specific claims about a finished construction must be confirmed by a human reviewer against a tested system that matches the proposed build-up.
 
 ## Current manufacturer-supported facts
 
@@ -49,7 +49,7 @@ Quality insulation engineered for Australian conditions. Engineered to meet the 
 - Purpose-designed accessory for insulation systems.
 - compatible with specified insulation products.
 - maintains system integrity and performance.
-- The catalogue includes 10 unique SKU variant(s) in this family.
+- The catalogue includes 9 unique SKU variant(s) in this family.
 
 ## Grade and catalogue reconciliation
 
@@ -57,7 +57,7 @@ The following reflects the current internal SKU extraction from the master produ
 
 | Rating (as supplied) | Rating type | Thickness (mm) | Dimensions (L x W mm) | SKU count |
 | --- | --- | ---: | --- | ---: |
-| R1.5 | thermal_r_value | Varies | Varies | 5 |
+| R1.5 | thermal_r_value | Varies | Varies | 4 |
 | R1.5 | thermal_r_value | 72 | 72 x 50000 | 2 |
 | R1.5 | thermal_r_value | 48 | 48 x 50000 | 2 |
 | R1.5 | thermal_r_value | 160 | 540 x 370 | 1 |
@@ -68,7 +68,7 @@ Ratings prefixed `R` are thermal resistance values; ratings including `Rw` are w
 
 ## Application boundaries
 
-### Within the Accessory family
+### Within the Acoustica Accessory family
 
 - General Installation
 - External Wall
@@ -76,7 +76,7 @@ Ratings prefixed `R` are thermal resistance values; ratings including `Rw` are w
 
 ### Separate product families
 
-Do not transfer claims from this family to other Acoustica product families without their own current technical evidence. Where Acoustica sells multiple categories (batt, board, reflective, pipe, wrap, panel, accessory), each is a distinct family with its own grade table and evidence.
+Do not transfer claims from this family to other Acoustica product families without their own current technical evidence. Where Acoustica sells multiple product families within the Accessory category or in other categories, each is a distinct family with its own grade table and evidence.
 
 This family should not be presented as a fire-rated system, a complete compliant wall/ceiling assembly, or a guaranteed noise-elimination/thermal-comfort product. Record the customer's requirement and construction context for human review rather than confirming compliance directly.
 
@@ -173,7 +173,7 @@ Use this source for the canonical product identity, current grades, published ra
 
 ### Tier 2 — current internal catalogue
 
-The master product catalogue provides current commercial records for 10 SKUs, including internal SKU codes, dimensions, grade labels and stock. Commercial data does not validate technical performance; grade labels must be cross-checked against current manufacturer TDS per SKU before quoting.
+The master product catalogue provides current commercial records for 9 SKUs, including internal SKU codes, dimensions, grade labels and stock. Commercial data does not validate technical performance; grade labels must be cross-checked against current manufacturer TDS per SKU before quoting.
 
 ### Tier 3 — authorised owned-site literature
 
@@ -196,12 +196,12 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
     "External Wall",
     "Internal Wall"
   ],
-  "product_count": 10,
+  "product_count": 9,
   "grades": [
     {
       "rating": "R1.5",
       "rating_type": "thermal_r_value",
-      "sku_count": 10
+      "sku_count": 9
     }
   ],
   "priority_profile": {

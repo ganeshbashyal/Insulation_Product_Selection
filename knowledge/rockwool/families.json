@@ -14,8 +14,7 @@
       ],
       "keywords": [
         "reflective",
-        "rockwool",
-        "931391302535"
+        "rockwool"
       ],
       "scores": {
         "acoustic_comfort": 3,
@@ -28,7 +27,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "reflective.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.rockwool.com.au/",
+      "source_url": "https://www.rockwool.com/syssiteassets/rw-sa/technical-resources/thermalrock-s---technical-datasheet-au---2023.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",

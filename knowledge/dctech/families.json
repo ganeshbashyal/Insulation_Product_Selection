@@ -14,8 +14,7 @@
       ],
       "keywords": [
         "acoustic barrier",
-        "dctech",
-        "tecsound 35"
+        "dctech"
       ],
       "scores": {
         "acoustic_comfort": 3,
@@ -24,11 +23,11 @@
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for DCTech Acoustic Barrier: 8 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for DCTech Acoustic Barrier: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "acoustic_barrier.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.dctech.com.au/",
+      "source_url": "https://dctech.com.au/wp-content/uploads/2018/09/DCT_Industrial_Insulation_Brochure.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -39,12 +38,12 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 8
+      "product_count": 4
     },
     {
-      "family_id": "DCTECH_BOARD",
+      "family_id": "DCTECH_DCT_XPS_GA",
       "manufacturer": "DCTech",
-      "name": "DCTech Board",
+      "name": "DCTech Dct Xps Ga",
       "category": "Board",
       "primary_function": "Board insulation product from DCTech.",
       "applications": [
@@ -52,8 +51,8 @@
       ],
       "keywords": [
         "board",
-        "dctech",
-        "dct xps 300 30"
+        "dct xps ga",
+        "dctech"
       ],
       "scores": {
         "acoustic_comfort": 2,
@@ -62,11 +61,11 @@
         "installation_practicality": 3,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for DCTech Board: 6 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for DCTech Dct Xps Ga: 6 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
-      "knowledge_file": "board.md",
+      "knowledge_file": "dct_xps_ga.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.dctech.com.au/",
+      "source_url": "https://dctech.com.au/wp-content/uploads/2018/09/DCT_Industrial_Insulation_Brochure.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -78,6 +77,44 @@
         "Validate compliance with relevant standards"
       ],
       "product_count": 6
+    },
+    {
+      "family_id": "DCTECH_TECSOUND",
+      "manufacturer": "DCTech",
+      "name": "DCTech Tecsound",
+      "category": "Acoustic Barrier",
+      "primary_function": "Acoustic Barrier insulation product from DCTech.",
+      "applications": [
+        "Internal Wall | Ceiling | Floor | General Acoustic"
+      ],
+      "keywords": [
+        "acoustic barrier",
+        "dctech",
+        "tecsound"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 3,
+        "sustainability": 3,
+        "installation_practicality": 3,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for DCTech Tecsound: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "tecsound.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://dctech.com.au/wp-content/uploads/2018/09/DCT_Industrial_Insulation_Brochure.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 4
     }
   ]
 }

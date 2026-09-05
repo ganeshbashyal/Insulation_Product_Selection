@@ -25,7 +25,7 @@ gate_fire_compliance: not_verified_per_sku
 gate_bal: not_verified
 official_datasheet_url: https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf
 official_sds_url: https://eurekainsulation.com.au/wp-content/uploads/2025/06/PS-Sound-Batt.pdf
-product_count: 32
+product_count: 11
 rating_basis: mixed
 ---
 
@@ -33,13 +33,13 @@ rating_basis: mixed
 
 ## Purpose of this file
 
-This is the canonical internal description for the Polyester Solutions Batt family. It aligns the terminology used by the enquiry bot, sales team and future Aircall CSV.
+This is the canonical internal description for the Polyester Solutions Batt family (Batt category). It aligns the terminology used by the enquiry bot, sales team and future Aircall CSV.
 
 For the demonstration, the bot may recommend the **Polyester Solutions Batt family** when the customer's problem matches its documented applications. It must not choose a specific grade, calculate order quantity, or confirm thermal, acoustic, fire, NCC or BAL compliance for a project. Those decisions remain human-reviewed.
 
 ## Canonical description
 
-Quality insulation engineered for Australian conditions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled plastic bottles, it's the sustainable choice for modern buildings. Manufacturer-published features and benefits include: 100% polyester - safe to handle without protective equipment; contains minimum 80% recycled PET plastic bottles; non-allergenic, non-irritant formulation; will not support mould or mildew growth; maintains performance when wet - dries out naturally This family covers 32 SKU variant(s) in the current catalogue. It is not a complete compliant building system on its own; project-specific claims about a finished construction must be confirmed by a human reviewer against a tested system that matches the proposed build-up.
+Quality insulation engineered for Australian conditions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled plastic bottles, it's the sustainable choice for modern buildings. Manufacturer-published features and benefits include: 100% polyester - safe to handle without protective equipment; contains minimum 80% recycled PET plastic bottles; non-allergenic, non-irritant formulation; will not support mould or mildew growth; maintains performance when wet - dries out naturally This family covers 11 SKU variant(s) in the current catalogue. It is not a complete compliant building system on its own; project-specific claims about a finished construction must be confirmed by a human reviewer against a tested system that matches the proposed build-up.
 
 ## Current manufacturer-supported facts
 
@@ -51,7 +51,7 @@ Quality insulation engineered for Australian conditions. Safe to handle without 
 - non-allergenic, non-irritant formulation.
 - will not support mould or mildew growth.
 - maintains performance when wet - dries out naturally.
-- The catalogue includes 32 unique SKU variant(s) in this family.
+- The catalogue includes 11 unique SKU variant(s) in this family.
 
 ## Grade and catalogue reconciliation
 
@@ -59,24 +59,12 @@ The following reflects the current internal SKU extraction from the master produ
 
 | Rating (as supplied) | Rating type | Thickness (mm) | Dimensions (L x W mm) | SKU count |
 | --- | --- | ---: | --- | ---: |
-| R1.5 | thermal_r_value | 580 | 1170 x 580 | 6 |
-| R1.5 | thermal_r_value | 430 | 1170 x 430 | 5 |
 | R1.5 | thermal_r_value | 610 | 16500 x 610 | 4 |
 | Rw 45 | acoustic_rw | 90 | 1160 x 430 | 2 |
 | Rw 45 | acoustic_rw | 90 | 1160 x 580 | 2 |
-| R2.0 | thermal_r_value | 430 | 1170 x 430 | 1 |
-| R2.0 | thermal_r_value | 580 | 1170 x 580 | 1 |
-| R2.5 | thermal_r_value | 430 | 1170 x 430 | 1 |
 | Rw 45 | acoustic_rw | 75 | 1160 x 430 | 1 |
 | Rw 45 | acoustic_rw | 75 | 1160 x 580 | 1 |
-| R1.5 | thermal_r_value | 695250 | 6000 (width varies) | 1 |
-| R2 | thermal_r_value | 920250 | 6000 (width varies) | 1 |
-| R2.5 | thermal_r_value | 1145250 | 6000 (width varies) | 1 |
-| R3 | thermal_r_value | 1370250 | 6000 (width varies) | 1 |
-| R4 | thermal_r_value | 1820250 | 6000 (width varies) | 1 |
 | R1.5 | thermal_r_value | 610 | 10000 x 610 | 1 |
-| R1.5 | thermal_r_value | 100 | 1200 x 600 | 1 |
-| R1.5 | thermal_r_value | 100 | 8330 x 600 | 1 |
 
 ### Critical rating interpretation
 
@@ -84,17 +72,14 @@ Ratings prefixed `R` are thermal resistance values; ratings including `Rw` are w
 
 ## Application boundaries
 
-### Within the Batt family
+### Within the Polyester Solutions Batt family
 
-- Ceiling
-- Internal Wall
-- Internal Wall | External Wall
 - Internal Wall | General Acoustic
-- Floor
+- Internal Wall
 
 ### Separate product families
 
-Do not transfer claims from this family to other Polyester Solutions product families without their own current technical evidence. Where Polyester Solutions sells multiple categories (batt, board, reflective, pipe, wrap, panel, accessory), each is a distinct family with its own grade table and evidence.
+Do not transfer claims from this family to other Polyester Solutions product families without their own current technical evidence. Where Polyester Solutions sells multiple product families within the Batt category or in other categories, each is a distinct family with its own grade table and evidence.
 
 This family should not be presented as a fire-rated system, a complete compliant wall/ceiling assembly, or a guaranteed noise-elimination/thermal-comfort product. Record the customer's requirement and construction context for human review rather than confirming compliance directly.
 
@@ -196,7 +181,7 @@ Use this source for the canonical product identity, current grades, published ra
 
 ### Tier 2 — current internal catalogue
 
-The master product catalogue provides current commercial records for 32 SKUs, including internal SKU codes, dimensions, grade labels and stock. Commercial data does not validate technical performance; grade labels must be cross-checked against current manufacturer TDS per SKU before quoting.
+The master product catalogue provides current commercial records for 11 SKUs, including internal SKU codes, dimensions, grade labels and stock. Commercial data does not validate technical performance; grade labels must be cross-checked against current manufacturer TDS per SKU before quoting.
 
 ### Tier 3 — authorised owned-site literature
 
@@ -215,48 +200,20 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
   "primary_function": "both thermal insulation (R-value) and acoustic performance (Rw/NRC)",
   "material": "Polyester",
   "applications": [
-    "Ceiling",
-    "Internal Wall",
-    "Internal Wall | External Wall",
     "Internal Wall | General Acoustic",
-    "Floor"
+    "Internal Wall"
   ],
-  "product_count": 32,
+  "product_count": 11,
   "grades": [
-    {
-      "rating": "R1.5",
-      "rating_type": "thermal_r_value",
-      "sku_count": 19
-    },
     {
       "rating": "Rw 45",
       "rating_type": "acoustic_rw",
       "sku_count": 6
     },
     {
-      "rating": "R2.0",
+      "rating": "R1.5",
       "rating_type": "thermal_r_value",
-      "sku_count": 2
-    },
-    {
-      "rating": "R2.5",
-      "rating_type": "thermal_r_value",
-      "sku_count": 2
-    },
-    {
-      "rating": "R2",
-      "rating_type": "thermal_r_value",
-      "sku_count": 1
-    },
-    {
-      "rating": "R3",
-      "rating_type": "thermal_r_value",
-      "sku_count": 1
-    },
-    {
-      "rating": "R4",
-      "rating_type": "thermal_r_value",
-      "sku_count": 1
+      "sku_count": 5
     }
   ],
   "priority_profile": {

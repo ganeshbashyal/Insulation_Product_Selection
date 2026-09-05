@@ -25,7 +25,7 @@ gate_fire_compliance: not_verified_per_sku
 gate_bal: not_verified
 official_datasheet_url: https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf
 official_sds_url: https://insulationessentials.com.au/wp-content/uploads/2022/10/MSDS-Foilboard-Nov-2019.pdf
-product_count: 29
+product_count: 15
 rating_basis: thermal
 ---
 
@@ -33,13 +33,13 @@ rating_basis: thermal
 
 ## Purpose of this file
 
-This is the canonical internal description for the Foilboard Board family. It aligns the terminology used by the enquiry bot, sales team and future Aircall CSV.
+This is the canonical internal description for the Foilboard Board family (Board category). It aligns the terminology used by the enquiry bot, sales team and future Aircall CSV.
 
 For the demonstration, the bot may recommend the **Foilboard Board family** when the customer's problem matches its documented applications. It must not choose a specific grade, calculate order quantity, or confirm thermal, acoustic, fire, NCC or BAL compliance for a project. Those decisions remain human-reviewed.
 
 ## Canonical description
 
-Quality insulation engineered for Australian conditions. Rigid design makes installation fast and efficient - no sagging or falling out. Essential for achieving NCC compliance in floor applications. Manufacturer-published features and benefits include: Lightweight closed-cell expanded polystyrene foam; excellent thermal performance with zero thermal drift; moisture resistant closed-cell structure; CFC/HCFC free manufacturing process; rigid design prevents sagging between joists; reduces drafts and cold floors This family covers 29 SKU variant(s) in the current catalogue. It is not a complete compliant building system on its own; project-specific claims about a finished construction must be confirmed by a human reviewer against a tested system that matches the proposed build-up.
+Quality insulation engineered for Australian conditions. Rigid design makes installation fast and efficient - no sagging or falling out. Essential for achieving NCC compliance in floor applications. Manufacturer-published features and benefits include: Lightweight closed-cell expanded polystyrene foam; excellent thermal performance with zero thermal drift; moisture resistant closed-cell structure; CFC/HCFC free manufacturing process; rigid design prevents sagging between joists; reduces drafts and cold floors This family covers 15 SKU variant(s) in the current catalogue. It is not a complete compliant building system on its own; project-specific claims about a finished construction must be confirmed by a human reviewer against a tested system that matches the proposed build-up.
 
 ## Current manufacturer-supported facts
 
@@ -52,7 +52,7 @@ Quality insulation engineered for Australian conditions. Rigid design makes inst
 - CFC/HCFC free manufacturing process.
 - rigid design prevents sagging between joists.
 - reduces drafts and cold floors.
-- The catalogue includes 29 unique SKU variant(s) in this family.
+- The catalogue includes 15 unique SKU variant(s) in this family.
 
 ## Grade and catalogue reconciliation
 
@@ -60,22 +60,14 @@ The following reflects the current internal SKU extraction from the master produ
 
 | Rating (as supplied) | Rating type | Thickness (mm) | Dimensions (L x W mm) | SKU count |
 | --- | --- | ---: | --- | ---: |
-| R1.0 | thermal_r_value | Varies | 1200 (width varies) | 4 |
-| R1.0 | thermal_r_value | 40 | 2400 x 1200 | 3 |
-| R1.2 | thermal_r_value | 50 | 2400 x 1200 | 3 |
-| R0.77 | thermal_r_value | 30 | 2400 x 1200 | 2 |
+| R1.0 | thermal_r_value | 40 | 2400 x 1200 | 2 |
+| R1.2 | thermal_r_value | 50 | 2400 x 1200 | 2 |
 | R1.0 | thermal_r_value | 60 | 2400 x 1200 | 2 |
 | R1.0 | thermal_r_value | 70 | 2400 x 1200 | 2 |
 | R1.0 | thermal_r_value | 80 | 2400 x 1200 | 2 |
 | R1.0 | thermal_r_value | 100 | 2400 x 1200 | 2 |
-| R0.55 | thermal_r_value | Varies | 1200 (width varies) | 2 |
-| R0.30 | thermal_r_value | 10 | 2400 x 1200 | 1 |
-| R0.43 | thermal_r_value | 15 | 2400 x 1200 | 1 |
-| R0.55 | thermal_r_value | 20 | 2400 x 1200 | 1 |
-| R0.67 | thermal_r_value | 25 | 2400 x 1200 | 1 |
-| R0.30 | thermal_r_value | 10 | 1200 (width varies) | 1 |
-| R0.30 | thermal_r_value | 10 | 2700 x 1200 | 1 |
-| R0.43 | thermal_r_value | 15 | 2700 x 1200 | 1 |
+| R1.0 | thermal_r_value | Varies | 1200 (width varies) | 2 |
+| R0.77 | thermal_r_value | 30 | 2400 x 1200 | 1 |
 
 ### Critical rating interpretation
 
@@ -83,16 +75,14 @@ Ratings prefixed `R` are thermal resistance values; ratings including `Rw` are w
 
 ## Application boundaries
 
-### Within the Board family
+### Within the Foilboard Board family
 
 - Underfloor
 - External Wall | Ceiling | Underfloor
-- Garage Door
-- Roof
 
 ### Separate product families
 
-Do not transfer claims from this family to other Foilboard product families without their own current technical evidence. Where Foilboard sells multiple categories (batt, board, reflective, pipe, wrap, panel, accessory), each is a distinct family with its own grade table and evidence.
+Do not transfer claims from this family to other Foilboard product families without their own current technical evidence. Where Foilboard sells multiple product families within the Board category or in other categories, each is a distinct family with its own grade table and evidence.
 
 This family should not be presented as a fire-rated system, a complete compliant wall/ceiling assembly, or a guaranteed noise-elimination/thermal-comfort product. Record the customer's requirement and construction context for human review rather than confirming compliance directly.
 
@@ -194,7 +184,7 @@ Use this source for the canonical product identity, current grades, published ra
 
 ### Tier 2 — current internal catalogue
 
-The master product catalogue provides current commercial records for 29 SKUs, including internal SKU codes, dimensions, grade labels and stock. Commercial data does not validate technical performance; grade labels must be cross-checked against current manufacturer TDS per SKU before quoting.
+The master product catalogue provides current commercial records for 15 SKUs, including internal SKU codes, dimensions, grade labels and stock. Commercial data does not validate technical performance; grade labels must be cross-checked against current manufacturer TDS per SKU before quoting.
 
 ### Tier 3 — authorised owned-site literature
 
@@ -214,44 +204,22 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
   "material": "EPS",
   "applications": [
     "Underfloor",
-    "External Wall | Ceiling | Underfloor",
-    "Garage Door",
-    "Roof"
+    "External Wall | Ceiling | Underfloor"
   ],
-  "product_count": 29,
+  "product_count": 15,
   "grades": [
     {
       "rating": "R1.0",
       "rating_type": "thermal_r_value",
-      "sku_count": 15
-    },
-    {
-      "rating": "R0.30",
-      "rating_type": "thermal_r_value",
-      "sku_count": 3
-    },
-    {
-      "rating": "R0.55",
-      "rating_type": "thermal_r_value",
-      "sku_count": 3
+      "sku_count": 12
     },
     {
       "rating": "R1.2",
-      "rating_type": "thermal_r_value",
-      "sku_count": 3
-    },
-    {
-      "rating": "R0.43",
       "rating_type": "thermal_r_value",
       "sku_count": 2
     },
     {
       "rating": "R0.77",
-      "rating_type": "thermal_r_value",
-      "sku_count": 2
-    },
-    {
-      "rating": "R0.67",
       "rating_type": "thermal_r_value",
       "sku_count": 1
     }

@@ -11,13 +11,12 @@
       "primary_function": "Accessory insulation product from Acoustica.",
       "applications": [
         "General Installation",
-        "Internal Wall",
-        "External Wall"
+        "External Wall",
+        "Internal Wall"
       ],
       "keywords": [
         "accessory",
-        "acoustica",
-        "72mm premium tape 050"
+        "acoustica"
       ],
       "scores": {
         "acoustic_comfort": 1,
@@ -26,11 +25,11 @@
         "installation_practicality": 5,
         "compliance_readiness": 2
       },
-      "score_notes": "Deep-dive scoring for Acoustica Accessory: 10 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Acoustica Accessory: 9 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "accessory.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.acoustica.com.au/",
+      "source_url": "https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -41,7 +40,7 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 10
+      "product_count": 9
     },
     {
       "family_id": "ACOUSTICA_ACOUSTIC_BARRIER",
@@ -54,8 +53,7 @@
       ],
       "keywords": [
         "acoustic barrier",
-        "acoustica",
-        "quietwave membrane"
+        "acoustica"
       ],
       "scores": {
         "acoustic_comfort": 3,
@@ -64,11 +62,11 @@
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Acoustica Acoustic Barrier: 7 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Acoustica Acoustic Barrier: 3 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "acoustic_barrier.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.acoustica.com.au/",
+      "source_url": "https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -79,21 +77,135 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 7
+      "product_count": 3
     },
     {
-      "family_id": "ACOUSTICA_PIPE",
+      "family_id": "ACOUSTICA_ACOUSTIFLEX_SQ",
       "manufacturer": "Acoustica",
-      "name": "Acoustica Pipe",
+      "name": "Acoustica Acoustiflex SQ",
+      "category": "Acoustic Barrier",
+      "primary_function": "Acoustic Barrier insulation product from Acoustica.",
+      "applications": [
+        "Internal Wall | Ceiling | Floor | General Acoustic"
+      ],
+      "keywords": [
+        "acoustic barrier",
+        "acoustica",
+        "acoustiflex sq"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 3,
+        "sustainability": 3,
+        "installation_practicality": 3,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Acoustica Acoustiflex SQ: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "acoustiflex_sq.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 4
+    },
+    {
+      "family_id": "ACOUSTICA_ANGELSTEP",
+      "manufacturer": "Acoustica",
+      "name": "Acoustica AngelStep",
+      "category": "Underlay",
+      "primary_function": "Underlay insulation product from Acoustica.",
+      "applications": [
+        "Floor | Acoustic Floor"
+      ],
+      "keywords": [
+        "acoustica",
+        "angelstep",
+        "underlay"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 3,
+        "sustainability": 3,
+        "installation_practicality": 3,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Acoustica AngelStep: 3 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "angelstep.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 3
+    },
+    {
+      "family_id": "ACOUSTICA_DUST_FOAM_FILTER",
+      "manufacturer": "Acoustica",
+      "name": "Acoustica Dust foam filter",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Acoustica.",
+      "applications": [
+        "General Installation"
+      ],
+      "keywords": [
+        "accessory",
+        "acoustica",
+        "dust foam filter"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Acoustica Dust foam filter: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "dust_foam_filter.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "ACOUSTICA_GL",
+      "manufacturer": "Acoustica",
+      "name": "Acoustica Gl",
       "category": "Pipe",
       "primary_function": "Pipe insulation product from Acoustica.",
       "applications": [
         "Pipe | Duct | Services Acoustic | Plumbing"
       ],
       "keywords": [
-        "pipe",
         "acoustica",
-        "gl 15/3 - 3m flat foam full or split rolls"
+        "gl",
+        "pipe"
       ],
       "scores": {
         "acoustic_comfort": 2,
@@ -102,11 +214,11 @@
         "installation_practicality": 4,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Acoustica Pipe: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Acoustica Gl: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
-      "knowledge_file": "pipe.md",
+      "knowledge_file": "gl.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.acoustica.com.au/",
+      "source_url": "https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -129,9 +241,8 @@
         "Floor | Acoustic Floor"
       ],
       "keywords": [
-        "underlay",
         "acoustica",
-        "angelstep gold8"
+        "underlay"
       ],
       "scores": {
         "acoustic_comfort": 3,
@@ -140,11 +251,11 @@
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Acoustica Underlay: 8 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Acoustica Underlay: 5 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "underlay.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.acoustica.com.au/",
+      "source_url": "https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -155,7 +266,7 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 8
+      "product_count": 5
     }
   ]
 }

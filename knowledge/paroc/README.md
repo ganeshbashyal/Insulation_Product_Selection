@@ -1,13 +1,13 @@
 # Paroc product-family knowledge base
 
-Bot-facing knowledge for Paroc products. Each file represents a technical family, not an individual stock SKU.
+Bot-facing knowledge for Paroc products. Each file represents a technical product-line family as classified by the manufacturer's own product naming, not an individual stock SKU.
 
 ## Family index
 
 | Family ID | Product family | Evidence status |
 | --- | --- | --- |
-| `PAROC_BATT` | Paroc Batt | Initial documentation |
-
+| `PAROC_INSULROCK_PARTY_WALL_BATT` | Paroc InsulRock Party Wall Batt | Initial documentation |
+| `PAROC_ROCKWOOL` | Paroc Rockwool | Initial documentation |
 
 ## Retrieval rule
 

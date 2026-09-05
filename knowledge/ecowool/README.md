@@ -1,16 +1,18 @@
 # Ecowool product-family knowledge base
 
-Bot-facing knowledge for Ecowool products. Each file represents a technical family, not an individual stock SKU.
+Bot-facing knowledge for Ecowool products. Each file represents a technical product-line family as classified by the manufacturer's own product naming, not an individual stock SKU.
 
 ## Family index
 
 | Family ID | Product family | Evidence status |
 | --- | --- | --- |
-| `ECOWOOL_ACCESSORY` | Ecowool Accessory | Initial documentation |
-| `ECOWOOL_BATT` | Ecowool Batt | Initial documentation |
-| `ECOWOOL_ROLL` | Ecowool Roll | Initial documentation |
+| `ECOWOOL_ACOUSTIC_PARTITION_BATT` | Ecowool Acoustic Partition Batt | Initial documentation |
+| `ECOWOOL_ACOUSTIC_PARTITION_ROLL` | Ecowool Acoustic Partition Roll | Initial documentation |
+| `ECOWOOL_CONDENSHIELD_ROOF_BLANKET` | Ecowool Condenshield Roof Blanket | Initial documentation |
+| `ECOWOOL_ECOSEAL_TAPE` | Ecowool Ecoseal Tape | Initial documentation |
+| `ECOWOOL_NOISEBREAK_BATT` | Ecowool NoiseBREAK Batt | Initial documentation |
+| `ECOWOOL_RESIDENTIAL_BATT` | Ecowool Residential Batt | Initial documentation |
 | `ECOWOOL_WRAP` | Ecowool Wrap | Initial documentation |
-
 
 ## Retrieval rule
 

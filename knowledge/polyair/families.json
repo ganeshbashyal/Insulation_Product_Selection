@@ -13,9 +13,8 @@
         "Metal Roof / Shed | External Wall"
       ],
       "keywords": [
-        "reflective",
         "polyair",
-        "cs152161"
+        "reflective"
       ],
       "scores": {
         "acoustic_comfort": 3,
@@ -24,11 +23,11 @@
         "installation_practicality": 4,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Polyair Reflective: 5 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Polyair Reflective: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "reflective.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.polyair.com.au/",
+      "source_url": "https://hmrsupplies.com.au/wp-content/uploads/2024/05/Bradford™-Poly-Air-Perfroma™-XHD-Data.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -39,7 +38,83 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 5
+      "product_count": 2
+    },
+    {
+      "family_id": "POLYAIR_THERMO_REFLECTIVE_PRODUCTS_POLYAIR_UNICE",
+      "manufacturer": "Polyair",
+      "name": "Polyair Thermo Reflective Products - Polyair Unicell",
+      "category": "Reflective",
+      "primary_function": "Reflective insulation product from Polyair.",
+      "applications": [
+        "Metal Roof / Shed | External Wall"
+      ],
+      "keywords": [
+        "polyair",
+        "reflective",
+        "thermo reflective products - polyair unicell"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 4,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Polyair Thermo Reflective Products - Polyair Unicell: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "thermo_reflective_products_polyair_unice.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://hmrsupplies.com.au/wp-content/uploads/2024/05/Bradford™-Poly-Air-Perfroma™-XHD-Data.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 2
+    },
+    {
+      "family_id": "POLYAIR_THERMO_REFLECTIVE_PRODUCTS_POLYAIR_UNICE_2",
+      "manufacturer": "Polyair",
+      "name": "Polyair Thermo Reflective Products - Polyair Unicell Self Adhesive",
+      "category": "Reflective",
+      "primary_function": "Reflective insulation product from Polyair.",
+      "applications": [
+        "Metal Roof / Shed | External Wall"
+      ],
+      "keywords": [
+        "polyair",
+        "reflective",
+        "thermo reflective products - polyair unicell self adhesive"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 4,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Polyair Thermo Reflective Products - Polyair Unicell Self Adhesive: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "thermo_reflective_products_polyair_unice_2.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://hmrsupplies.com.au/wp-content/uploads/2024/05/Bradford™-Poly-Air-Perfroma™-XHD-Data.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
     }
   ]
 }

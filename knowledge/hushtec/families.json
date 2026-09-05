@@ -14,8 +14,7 @@
       ],
       "keywords": [
         "acoustic barrier",
-        "hushtec",
-        "mlv 4kg/m2 1.2m x 6m roll"
+        "hushtec"
       ],
       "scores": {
         "acoustic_comfort": 3,
@@ -28,7 +27,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "acoustic_barrier.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.hushtec.com.au/",
+      "source_url": "https://masonmercer.com.au/wp-content/uploads/2024/06/Hushtec-Premium-Noise-Control-Brochure-Data-Sheet.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -52,8 +51,7 @@
       ],
       "keywords": [
         "batt",
-        "hushtec",
-        "mlc 2kg/m2 1.3m x 20m roll"
+        "hushtec"
       ],
       "scores": {
         "acoustic_comfort": 3,
@@ -66,7 +64,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "batt.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.hushtec.com.au/",
+      "source_url": "https://masonmercer.com.au/wp-content/uploads/2024/06/Hushtec-Premium-Noise-Control-Brochure-Data-Sheet.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -89,9 +87,8 @@
         "Metal Roof / Shed | External Wall"
       ],
       "keywords": [
-        "reflective",
         "hushtec",
-        "performance series panels"
+        "reflective"
       ],
       "scores": {
         "acoustic_comfort": 3,
@@ -104,7 +101,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "reflective.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.hushtec.com.au/",
+      "source_url": "https://masonmercer.com.au/wp-content/uploads/2024/06/Hushtec-Premium-Noise-Control-Brochure-Data-Sheet.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",

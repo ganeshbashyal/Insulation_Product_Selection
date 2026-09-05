@@ -33,7 +33,7 @@ rating_basis: acoustic
 
 ## Purpose of this file
 
-This is the canonical internal description for the Hushtec Batt family. It aligns the terminology used by the enquiry bot, sales team and future Aircall CSV.
+This is the canonical internal description for the Hushtec Batt family (Batt category). It aligns the terminology used by the enquiry bot, sales team and future Aircall CSV.
 
 For the demonstration, the bot may recommend the **Hushtec Batt family** when the customer's problem matches its documented applications. It must not choose a specific grade, calculate order quantity, or confirm thermal, acoustic, fire, NCC or BAL compliance for a project. Those decisions remain human-reviewed.
 
@@ -69,13 +69,13 @@ Ratings prefixed `R` are thermal resistance values; ratings including `Rw` are w
 
 ## Application boundaries
 
-### Within the Batt family
+### Within the Hushtec Batt family
 
 - Internal Wall | Ceiling | Floor | General Acoustic
 
 ### Separate product families
 
-Do not transfer claims from this family to other Hushtec product families without their own current technical evidence. Where Hushtec sells multiple categories (batt, board, reflective, pipe, wrap, panel, accessory), each is a distinct family with its own grade table and evidence.
+Do not transfer claims from this family to other Hushtec product families without their own current technical evidence. Where Hushtec sells multiple product families within the Batt category or in other categories, each is a distinct family with its own grade table and evidence.
 
 This family should not be presented as a fire-rated system, a complete compliant wall/ceiling assembly, or a guaranteed noise-elimination/thermal-comfort product. Record the customer's requirement and construction context for human review rather than confirming compliance directly.
 

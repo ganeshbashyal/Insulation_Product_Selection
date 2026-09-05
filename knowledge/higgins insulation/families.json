@@ -14,8 +14,7 @@
       ],
       "keywords": [
         "acoustic sheet",
-        "higgins insulation",
-        "hig-hdac2050"
+        "higgins insulation"
       ],
       "scores": {
         "acoustic_comfort": 3,
@@ -28,7 +27,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "acoustic_sheet.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.higginsinsulation.com.au/",
+      "source_url": "https://higginsinsulation.com.au/wp-content/uploads/2019/10/FI96-HDEI-Insulation-Technical-Data-Sheet.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -48,15 +47,11 @@
       "category": "Batt",
       "primary_function": "Batt insulation product from Higgins Insulation.",
       "applications": [
-        "Internal Wall | External Wall",
-        "Ceiling",
-        "Acoustic Wall / Ceiling",
-        "Acoustic Wall / Partition"
+        "Acoustic Wall / Ceiling"
       ],
       "keywords": [
         "batt",
-        "higgins insulation",
-        "hig-p15430"
+        "higgins insulation"
       ],
       "scores": {
         "acoustic_comfort": 3,
@@ -65,11 +60,11 @@
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Higgins Insulation Batt: 31 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Higgins Insulation Batt: 8 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "batt.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.higginsinsulation.com.au/",
+      "source_url": "https://higginsinsulation.com.au/wp-content/uploads/2019/10/FI96-HDEI-Insulation-Technical-Data-Sheet.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -80,22 +75,59 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 31
+      "product_count": 8
     },
     {
-      "family_id": "HIGGINS_INSULATION_REFLECTIVE",
+      "family_id": "HIGGINS_INSULATION_HIGGINS_BUILDERS_BAFFLE",
       "manufacturer": "Higgins Insulation",
-      "name": "Higgins Insulation Reflective",
+      "name": "Higgins Insulation Higgins Builders Baffle",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Higgins Insulation.",
+      "applications": [
+        "Acoustic Wall / Ceiling"
+      ],
+      "keywords": [
+        "batt",
+        "higgins builders baffle",
+        "higgins insulation"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Higgins Insulation Higgins Builders Baffle: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "higgins_builders_baffle.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://higginsinsulation.com.au/wp-content/uploads/2019/10/FI96-HDEI-Insulation-Technical-Data-Sheet.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "HIGGINS_INSULATION_HIGGINS_FOIL_BREATHER_MEDIUM_DUTY",
+      "manufacturer": "Higgins Insulation",
+      "name": "Higgins Insulation Higgins Foil Breather Medium Duty",
       "category": "Reflective",
       "primary_function": "Reflective insulation product from Higgins Insulation.",
       "applications": [
-        "Breather Wall Wrap / Sarking",
-        "Non-Breather Wall Wrap / Sarking"
+        "Breather Wall Wrap / Sarking"
       ],
       "keywords": [
-        "reflective",
+        "higgins foil breather medium duty",
         "higgins insulation",
-        "hig-foilb60"
+        "reflective"
       ],
       "scores": {
         "acoustic_comfort": 3,
@@ -104,11 +136,87 @@
         "installation_practicality": 4,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Higgins Insulation Reflective: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Higgins Insulation Higgins Foil Breather Medium Duty: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
-      "knowledge_file": "reflective.md",
+      "knowledge_file": "higgins_foil_breather_medium_duty.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.higginsinsulation.com.au/",
+      "source_url": "https://higginsinsulation.com.au/wp-content/uploads/2019/10/FI96-HDEI-Insulation-Technical-Data-Sheet.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "HIGGINS_INSULATION_HIGGINS_FOIL_NON_BREATHER_MEDIUM_DUTY",
+      "manufacturer": "Higgins Insulation",
+      "name": "Higgins Insulation Higgins Foil Non Breather Medium Duty",
+      "category": "Reflective",
+      "primary_function": "Reflective insulation product from Higgins Insulation.",
+      "applications": [
+        "Non-Breather Wall Wrap / Sarking"
+      ],
+      "keywords": [
+        "higgins foil non breather medium duty",
+        "higgins insulation",
+        "reflective"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 4,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Higgins Insulation Higgins Foil Non Breather Medium Duty: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "higgins_foil_non_breather_medium_duty.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://higginsinsulation.com.au/wp-content/uploads/2019/10/FI96-HDEI-Insulation-Technical-Data-Sheet.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "HIGGINS_INSULATION_HIGGINS_HBL",
+      "manufacturer": "Higgins Insulation",
+      "name": "Higgins Insulation Higgins HBL",
+      "category": "Roll",
+      "primary_function": "Roll insulation product from Higgins Insulation.",
+      "applications": [
+        "Acoustic Wall / Ceiling"
+      ],
+      "keywords": [
+        "higgins hbl",
+        "higgins insulation",
+        "roll"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 3,
+        "sustainability": 3,
+        "installation_practicality": 3,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Higgins Insulation Higgins HBL: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "higgins_hbl.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://higginsinsulation.com.au/wp-content/uploads/2019/10/FI96-HDEI-Insulation-Technical-Data-Sheet.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -122,32 +230,32 @@
       "product_count": 2
     },
     {
-      "family_id": "HIGGINS_INSULATION_ROLL",
+      "family_id": "HIGGINS_INSULATION_HIGGINS_POLYESTER_BATT",
       "manufacturer": "Higgins Insulation",
-      "name": "Higgins Insulation Roll",
-      "category": "Roll",
-      "primary_function": "Roll insulation product from Higgins Insulation.",
+      "name": "Higgins Insulation Higgins Polyester Batt",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Higgins Insulation.",
       "applications": [
-        "Acoustic Wall / Ceiling",
-        "Acoustic Wall / Partition Roll"
+        "Ceiling",
+        "Internal Wall | External Wall"
       ],
       "keywords": [
-        "roll",
+        "batt",
         "higgins insulation",
-        "hig-hsb2450"
+        "higgins polyester batt"
       ],
       "scores": {
         "acoustic_comfort": 3,
-        "energy_efficiency": 3,
-        "sustainability": 3,
-        "installation_practicality": 3,
-        "compliance_readiness": 3
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Higgins Insulation Roll: 12 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Higgins Insulation Higgins Polyester Batt: 14 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
-      "knowledge_file": "roll.md",
+      "knowledge_file": "higgins_polyester_batt.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.higginsinsulation.com.au/",
+      "source_url": "https://higginsinsulation.com.au/wp-content/uploads/2019/10/FI96-HDEI-Insulation-Technical-Data-Sheet.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -158,7 +266,82 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 12
+      "product_count": 14
+    },
+    {
+      "family_id": "HIGGINS_INSULATION_HIGGINS_POLYESTER_SOUND_CONTROL_BATT",
+      "manufacturer": "Higgins Insulation",
+      "name": "Higgins Insulation Higgins Polyester Sound Control Batt",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Higgins Insulation.",
+      "applications": [
+        "Acoustic Wall / Partition"
+      ],
+      "keywords": [
+        "batt",
+        "higgins insulation",
+        "higgins polyester sound control batt"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Higgins Insulation Higgins Polyester Sound Control Batt: 8 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "higgins_polyester_sound_control_batt.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://higginsinsulation.com.au/wp-content/uploads/2019/10/FI96-HDEI-Insulation-Technical-Data-Sheet.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 8
+    },
+    {
+      "family_id": "HIGGINS_INSULATION_ROLL",
+      "manufacturer": "Higgins Insulation",
+      "name": "Higgins Insulation Roll",
+      "category": "Roll",
+      "primary_function": "Roll insulation product from Higgins Insulation.",
+      "applications": [
+        "Acoustic Wall / Partition Roll"
+      ],
+      "keywords": [
+        "higgins insulation",
+        "roll"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 3,
+        "sustainability": 3,
+        "installation_practicality": 3,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Higgins Insulation Roll: 10 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "roll.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://higginsinsulation.com.au/wp-content/uploads/2019/10/FI96-HDEI-Insulation-Technical-Data-Sheet.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 10
     }
   ]
 }

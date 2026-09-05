@@ -1,14 +1,14 @@
 # DCTech product-family knowledge base
 
-Bot-facing knowledge for DCTech products. Each file represents a technical family, not an individual stock SKU.
+Bot-facing knowledge for DCTech products. Each file represents a technical product-line family as classified by the manufacturer's own product naming, not an individual stock SKU.
 
 ## Family index
 
 | Family ID | Product family | Evidence status |
 | --- | --- | --- |
 | `DCTECH_ACOUSTIC_BARRIER` | DCTech Acoustic Barrier | Initial documentation |
-| `DCTECH_BOARD` | DCTech Board | Initial documentation |
-
+| `DCTECH_DCT_XPS_GA` | DCTech Dct Xps Ga | Initial documentation |
+| `DCTECH_TECSOUND` | DCTech Tecsound | Initial documentation |
 
 ## Retrieval rule
 

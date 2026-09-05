@@ -25,7 +25,7 @@ gate_fire_compliance: not_verified_per_sku
 gate_bal: not_verified
 official_datasheet_url: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
 official_sds_url: https://insulvac.com.au/wp-content/uploads/2020/04/autex-material-safety-data-sheet-msds.pdf
-product_count: 21
+product_count: 18
 rating_basis: mixed
 ---
 
@@ -33,13 +33,13 @@ rating_basis: mixed
 
 ## Purpose of this file
 
-This is the canonical internal description for the Autex Accessory family. It aligns the terminology used by the enquiry bot, sales team and future Aircall CSV.
+This is the canonical internal description for the Autex Accessory family (Accessory category). It aligns the terminology used by the enquiry bot, sales team and future Aircall CSV.
 
 For the demonstration, the bot may recommend the **Autex Accessory family** when the customer's problem matches its documented applications. It must not choose a specific grade, calculate order quantity, or confirm thermal, acoustic, fire, NCC or BAL compliance for a project. Those decisions remain human-reviewed.
 
 ## Canonical description
 
-Specialists in sustainable polyester acoustic solutions. Engineered to meet Australian building requirements. Manufacturer-published features and benefits include: Quality insulation product for Australian building conditions; designed to meet NCC energy efficiency requirements; Made from recycled PET bottles; Safe to handle without PPE This family covers 21 SKU variant(s) in the current catalogue. It is not a complete compliant building system on its own; project-specific claims about a finished construction must be confirmed by a human reviewer against a tested system that matches the proposed build-up.
+Specialists in sustainable polyester acoustic solutions. Engineered to meet Australian building requirements. Manufacturer-published features and benefits include: Quality insulation product for Australian building conditions; designed to meet NCC energy efficiency requirements; Made from recycled PET bottles; Safe to handle without PPE This family covers 18 SKU variant(s) in the current catalogue. It is not a complete compliant building system on its own; project-specific claims about a finished construction must be confirmed by a human reviewer against a tested system that matches the proposed build-up.
 
 ## Current manufacturer-supported facts
 
@@ -50,7 +50,7 @@ Specialists in sustainable polyester acoustic solutions. Engineered to meet Aust
 - designed to meet NCC energy efficiency requirements.
 - Made from recycled PET bottles.
 - Safe to handle without PPE.
-- The catalogue includes 21 unique SKU variant(s) in this family.
+- The catalogue includes 18 unique SKU variant(s) in this family.
 
 ## Grade and catalogue reconciliation
 
@@ -60,9 +60,6 @@ The following reflects the current internal SKU extraction from the master produ
 | --- | --- | ---: | --- | ---: |
 | R1.4 | thermal_r_value | Varies | Varies | 11 |
 | Rw 35 | acoustic_rw | Varies | Varies | 2 |
-| R1.4 | thermal_r_value | 150 | Varies | 1 |
-| R1.4 | thermal_r_value | 300 | Varies | 1 |
-| R1.4 | thermal_r_value | 3000 | 3000 (width varies) | 1 |
 | R1.4 | thermal_r_value | 10.5 | Varies | 1 |
 | R1.4 | thermal_r_value | 12 | Varies | 1 |
 | R1.4 | thermal_r_value | 24/25mm | Varies | 1 |
@@ -75,14 +72,14 @@ Ratings prefixed `R` are thermal resistance values; ratings including `Rw` are w
 
 ## Application boundaries
 
-### Within the Accessory family
+### Within the Autex Accessory family
 
 - General Installation
 - Internal Wall | Ceiling | General Acoustic
 
 ### Separate product families
 
-Do not transfer claims from this family to other Autex product families without their own current technical evidence. Where Autex sells multiple categories (batt, board, reflective, pipe, wrap, panel, accessory), each is a distinct family with its own grade table and evidence.
+Do not transfer claims from this family to other Autex product families without their own current technical evidence. Where Autex sells multiple product families within the Accessory category or in other categories, each is a distinct family with its own grade table and evidence.
 
 This family should not be presented as a fire-rated system, a complete compliant wall/ceiling assembly, or a guaranteed noise-elimination/thermal-comfort product. Record the customer's requirement and construction context for human review rather than confirming compliance directly.
 
@@ -179,7 +176,7 @@ Use this source for the canonical product identity, current grades, published ra
 
 ### Tier 2 — current internal catalogue
 
-The master product catalogue provides current commercial records for 21 SKUs, including internal SKU codes, dimensions, grade labels and stock. Commercial data does not validate technical performance; grade labels must be cross-checked against current manufacturer TDS per SKU before quoting.
+The master product catalogue provides current commercial records for 18 SKUs, including internal SKU codes, dimensions, grade labels and stock. Commercial data does not validate technical performance; grade labels must be cross-checked against current manufacturer TDS per SKU before quoting.
 
 ### Tier 3 — authorised owned-site literature
 
@@ -201,12 +198,12 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
     "General Installation",
     "Internal Wall | Ceiling | General Acoustic"
   ],
-  "product_count": 21,
+  "product_count": 18,
   "grades": [
     {
       "rating": "R1.4",
       "rating_type": "thermal_r_value",
-      "sku_count": 19
+      "sku_count": 16
     },
     {
       "rating": "Rw 35",

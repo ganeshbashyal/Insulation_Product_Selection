@@ -1,13 +1,12 @@
 # Sonata Acoustic Panels product-family knowledge base
 
-Bot-facing knowledge for Sonata Acoustic Panels products. Each file represents a technical family, not an individual stock SKU.
+Bot-facing knowledge for Sonata Acoustic Panels products. Each file represents a technical product-line family as classified by the manufacturer's own product naming, not an individual stock SKU.
 
 ## Family index
 
 | Family ID | Product family | Evidence status |
 | --- | --- | --- |
-| `SONATA_ACOUSTIC_PANELS_PANEL` | Sonata Acoustic Panels Panel | Initial documentation |
-
+| `SONATA_ACOUSTIC_PANELS_SONATA_RECITAL_CORE` | Sonata Acoustic Panels Sonata Recital Core | Initial documentation |
 
 ## Retrieval rule
 

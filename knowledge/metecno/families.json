@@ -14,8 +14,7 @@
       ],
       "keywords": [
         "accessory",
-        "metecno",
-        "agft10050"
+        "metecno"
       ],
       "scores": {
         "acoustic_comfort": 1,
@@ -24,11 +23,11 @@
         "installation_practicality": 5,
         "compliance_readiness": 2
       },
-      "score_notes": "Deep-dive scoring for Metecno Accessory: 12 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Metecno Accessory: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "accessory.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.metecno.com.au/",
+      "source_url": "https://insulationessentials.com.au/wp-content/uploads/2024/10/Current-MetecnoPIR-Tech-Data-Sheets-MetecnoTherm-v4_v4-2.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -39,7 +38,83 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 12
+      "product_count": 1
+    },
+    {
+      "family_id": "METECNO_ALUMINIUM_GLASS_FOIL_TAPE",
+      "manufacturer": "Metecno",
+      "name": "Metecno Aluminium Glass Foil Tape",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Metecno.",
+      "applications": [
+        "General Installation"
+      ],
+      "keywords": [
+        "accessory",
+        "aluminium glass foil tape",
+        "metecno"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Metecno Aluminium Glass Foil Tape: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "aluminium_glass_foil_tape.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://insulationessentials.com.au/wp-content/uploads/2024/10/Current-MetecnoPIR-Tech-Data-Sheets-MetecnoTherm-v4_v4-2.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "METECNO_BALLISTIC_POINT_INSULATION_FASTENE",
+      "manufacturer": "Metecno",
+      "name": "Metecno Ballistic Point Insulation Fastene",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Metecno.",
+      "applications": [
+        "General Installation"
+      ],
+      "keywords": [
+        "accessory",
+        "ballistic point insulation fastene",
+        "metecno"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Metecno Ballistic Point Insulation Fastene: 10 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "ballistic_point_insulation_fastene.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://insulationessentials.com.au/wp-content/uploads/2024/10/Current-MetecnoPIR-Tech-Data-Sheets-MetecnoTherm-v4_v4-2.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 10
     },
     {
       "family_id": "METECNO_BOARD",
@@ -52,8 +127,7 @@
       ],
       "keywords": [
         "board",
-        "metecno",
-        "pir-mtg2-25"
+        "metecno"
       ],
       "scores": {
         "acoustic_comfort": 2,
@@ -66,7 +140,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "board.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.metecno.com.au/",
+      "source_url": "https://insulationessentials.com.au/wp-content/uploads/2024/10/Current-MetecnoPIR-Tech-Data-Sheets-MetecnoTherm-v4_v4-2.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",

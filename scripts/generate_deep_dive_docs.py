@@ -32,8 +32,22 @@ TODAY = "2026-09-05"
 SKIP = {
     ("Fletcher", None),
     ("Thermotec", None),
-    ("Autex", "Batt"),
 }
+# No manufacturer-classified families are hand-preserved beyond Fletcher/Thermotec; all other
+# families are (re)grouped from the source data below so that grouping reflects the
+# manufacturer's actual product-line/brand naming rather than a generic category bucket.
+PRESERVE_FAMILY = set()
+
+STANDARD_QUESTIONS = [
+    "What is the primary application for this product?",
+    "What performance requirements apply?",
+    "What space or area constraints exist?",
+]
+STANDARD_HUMAN_GATES = [
+    "Verify manufacturer identity from primary source",
+    "Confirm product specifications and performance claims",
+    "Validate compliance with relevant standards",
+]
 
 CATEGORY_SCORES = {
     "batt": {"acoustic_comfort": 3, "energy_efficiency": 5, "sustainability": 4, "installation_practicality": 4, "compliance_readiness": 4},
@@ -84,6 +98,49 @@ def extract_category(product_use, category, material_type):
 
 def scores_for(category):
     return CATEGORY_SCORES.get(category.lower(), DEFAULT_SCORES)
+
+
+LEADING_BRAND_RE = re.compile(
+    r"^(?P<brand>[A-Za-z][A-Za-z .\-/'&]*?)(?=\s*(?:R\s*\d|\d+\s*(?:mm|x|X|pce|pcs)|\(|\d{2,}\b|-\s*Category\s*\d))",
+)
+MODEL_CODE_RE = re.compile(r"^(?!R\d)(?P<code>[A-Z]{1,4}\d{1,3})\b")
+GENERIC_BRANDS = {"", "r", "hd", "hp"}
+
+
+def clean_brand(brand):
+    words = brand.split()
+    if len(words) > 2 and words[0].casefold() == words[-1].casefold():
+        words = words[:-1]
+    while words and words[-1].casefold() in {"x", "-", "and", "the", "of", "in"}:
+        words.pop()
+    brand = " ".join(words).strip(" -/")
+    if brand.isupper():
+        brand = brand.title()
+    return brand
+
+
+def extract_brand(name):
+    """Recover a manufacturer brand/model name from 'Our Product Name', e.g.
+    'K10 025mm 1200 x 2400 ...' -> 'K10', 'GOLD BATTS - 430mm wide ...' -> 'Gold Batts'.
+    Returns '' when no reliable brand/model token is present (falls back to category)."""
+    if not isinstance(name, str):
+        return ""
+    stripped = name.strip()
+    code_match = MODEL_CODE_RE.match(stripped)
+    if code_match:
+        return code_match.group("code")
+    m = LEADING_BRAND_RE.match(stripped)
+    if not m:
+        return ""
+    brand = clean_brand(m.group("brand"))
+    if brand.casefold() in GENERIC_BRANDS:
+        return ""
+    return brand
+
+
+def slugify(text, maxlen=40):
+    text = re.sub(r"[^a-z0-9]+", "_", text.lower()).strip("_")
+    return (text[:maxlen].strip("_")) or "family"
 
 
 def most_common_nonempty(series, n=1):
@@ -159,7 +216,8 @@ def dominant_rating_family(rows):
     return "unspecified"
 
 
-def generate_family_md(manufacturer, category, family_id, rows):
+def generate_family_md(manufacturer, category, family_id, rows, family_name=None):
+    family_name = family_name or f"{manufacturer} {category}"
     product_count = len(rows)
     applications = most_common_nonempty(rows["Product Use"], n=6)
     material = most_common_nonempty(rows["Material Type"], n=1)
@@ -194,7 +252,7 @@ def generate_family_md(manufacturer, category, family_id, rows):
         canonical_desc_parts.append(pitch)
     else:
         canonical_desc_parts.append(
-            f"{manufacturer} {category} is a {material.lower() if material != 'Not specified' else 'manufacturer-specified material'} "
+            f"{family_name} is a {material.lower() if material != 'Not specified' else 'manufacturer-specified material'} "
             f"insulation product family used for {rating_label} across {', '.join(app_list[:3]).lower()} applications."
         )
     if features:
@@ -238,7 +296,7 @@ def generate_family_md(manufacturer, category, family_id, rows):
     json_record = {
         "family_id": family_id,
         "manufacturer": manufacturer,
-        "canonical_name": f"{manufacturer} {category}",
+        "canonical_name": family_name,
         "bot_mode": "demo_family_recommendation",
         "recommendation_allowed": True,
         "recommendation_scope": "manufacturer_supported_family_only",
@@ -267,7 +325,7 @@ id: {family_id.lower().replace('_', '-')}
 family_id: {family_id}
 manufacturer: {manufacturer}
 category: {category}
-canonical_name: {manufacturer} {category}
+canonical_name: {family_name}
 material: {material}
 bot_mode: demo_family_recommendation
 recommendation_allowed: true
@@ -293,13 +351,13 @@ product_count: {product_count}
 rating_basis: {rating_kind}
 ---
 
-# {manufacturer} {category}
+# {family_name}
 
 ## Purpose of this file
 
-This is the canonical internal description for the {manufacturer} {category} family. It aligns the terminology used by the enquiry bot, sales team and future Aircall CSV.
+This is the canonical internal description for the {family_name} family ({category} category). It aligns the terminology used by the enquiry bot, sales team and future Aircall CSV.
 
-For the demonstration, the bot may recommend the **{manufacturer} {category} family** when the customer's problem matches its documented applications. It must not choose a specific grade, calculate order quantity, or confirm thermal, acoustic, fire, NCC or BAL compliance for a project. Those decisions remain human-reviewed.
+For the demonstration, the bot may recommend the **{family_name} family** when the customer's problem matches its documented applications. It must not choose a specific grade, calculate order quantity, or confirm thermal, acoustic, fire, NCC or BAL compliance for a project. Those decisions remain human-reviewed.
 
 ## Canonical description
 
@@ -321,13 +379,13 @@ Ratings prefixed `R` are thermal resistance values; ratings including `Rw` are w
 
 ## Application boundaries
 
-### Within the {category} family
+### Within the {family_name} family
 
 {boundary_lines}
 
 ### Separate product families
 
-Do not transfer claims from this family to other {manufacturer} product families without their own current technical evidence. Where {manufacturer} sells multiple categories (batt, board, reflective, pipe, wrap, panel, accessory), each is a distinct family with its own grade table and evidence.
+Do not transfer claims from this family to other {manufacturer} product families without their own current technical evidence. Where {manufacturer} sells multiple product families within the {category} category or in other categories, each is a distinct family with its own grade table and evidence.
 
 This family should not be presented as a fire-rated system, a complete compliant wall/ceiling assembly, or a guaranteed noise-elimination/thermal-comfort product. Record the customer's requirement and construction context for human review rather than confirming compliance directly.
 
@@ -356,7 +414,7 @@ These ratings are internal conversation aids. They determine useful follow-up qu
 
 ## Mandatory human-review gates
 
-| Requirement | Status for {manufacturer} {category} | Enquiry-bot action |
+| Requirement | Status for {family_name} | Enquiry-bot action |
 | --- | --- | --- |
 | Acoustic/thermal target / NCC | CONDITIONAL | Record the building type, construction and target rating. Do not confirm compliance; arrange human review. |
 | Fire requirement | NOT VERIFIED PER SKU | Record the required fire test, classification or system and arrange human review. |
@@ -382,7 +440,7 @@ The agent must not ask the caller to choose a specific grade or SKU. If the call
 
 ### General explanation
 
-> {manufacturer} {category} is a manufacturer-supported product family used for {rating_label}. The right grade depends on the complete construction and project requirements. I can collect the details for our team to review.
+> {family_name} is a manufacturer-supported product family used for {rating_label}. The right grade depends on the complete construction and project requirements. I can collect the details for our team to review.
 
 ### When asked which grade to buy
 
@@ -480,6 +538,7 @@ def main():
         lambda r: extract_category(clean(r.get("Product Use")), clean(r.get("Category")), clean(r.get("Material Type"))),
         axis=1,
     )
+    df["__brand__"] = df["Our Product Name"].map(extract_brand)
 
     manufacturers = sorted(df["Manufacturer Name"].dropna().unique(), key=lambda x: str(x))
     if args.only:
@@ -502,47 +561,122 @@ def main():
         with open(families_json_path, "r", encoding="utf-8") as f:
             families_data = json.load(f)
 
-        changed = False
-        for family in families_data["families"]:
-            category = family["category"]
-            if (mfg, category) in SKIP:
-                print(f"  Skipping {mfg} {category} (already deep-dive documented)")
-                continue
+        # Preserve any hand-authored / already-correct families exactly as-is.
+        preserved_families = [f for f in families_data["families"] if (mfg, f["category"]) in PRESERVE_FAMILY]
+        preserved_files = {f["knowledge_file"] for f in preserved_families}
+        preserved_mask = pd.Series(False, index=mfg_df.index)
+        for f in preserved_families:
+            preserved_mask |= (mfg_df["__category__"] == f["category"]) & (mfg_df["__brand__"] == "")
 
-            rows = mfg_df[mfg_df["__category__"] == category]
-            if rows.empty:
-                print(f"  [WARN] No rows matched {mfg} {category}, skipping")
-                continue
+        remaining_df = mfg_df[~preserved_mask].copy()
+        remaining_df["__family_name__"] = remaining_df.apply(
+            lambda r: (
+                r["__brand__"] if r["__brand__"].casefold().startswith(mfg.casefold())
+                else f"{mfg} {r['__brand__']}"
+            ) if r["__brand__"] else f"{mfg} {r['__category__']}",
+            axis=1,
+        )
 
-            family_id = family["family_id"]
-            print(f"  Generating {mfg} / {category} ({len(rows)} SKUs) -> {family['knowledge_file']}")
+        new_families = list(preserved_families)
+        used_ids = {f["family_id"] for f in preserved_families}
+        used_files = set(preserved_files)
+        mfg_prefix = re.sub(r"[^A-Z0-9]+", "_", mfg.upper()).strip("_")
 
-            if args.dry_run:
-                continue
+        for family_name, rows in sorted(remaining_df.groupby("__family_name__"), key=lambda kv: kv[0]):
+            brand = most_common_nonempty(rows["__brand__"], n=1)
+            brand = brand[0] if brand else ""
+            category = most_common_nonempty(rows["__category__"], n=1)
+            category = category[0] if category else "General"
+            slug_source = brand if brand else category
+            if brand and brand.casefold().startswith(mfg.casefold()):
+                slug_source = brand[len(mfg):].strip() or brand
+            slug = slugify(slug_source)
 
-            md, json_record = generate_family_md(mfg, category, family_id, rows)
-            md_path = mfg_dir / family["knowledge_file"]
-            with open(md_path, "w", encoding="utf-8") as f:
-                f.write(md)
+            base_id = f"{mfg_prefix}_{slug.upper()}"
+            family_id = base_id
+            suffix = 2
+            while family_id in used_ids:
+                family_id = f"{base_id}_{suffix}"
+                suffix += 1
+            used_ids.add(family_id)
+
+            filename = f"{slug}.md"
+            suffix = 2
+            while filename in used_files:
+                filename = f"{slug}_{suffix}.md"
+                suffix += 1
+            used_files.add(filename)
+
+            print(f"  Generating {family_name} ({len(rows)} SKUs, category={category}) -> {filename}")
+            if not args.dry_run:
+                md, _ = generate_family_md(mfg, category, family_id, rows, family_name=family_name)
+                (mfg_dir / filename).write_text(md, encoding="utf-8")
             total_written += 1
 
-            # Update families.json metadata in place
             scores = scores_for(category)
-            family["scores"] = scores
-            family["score_notes"] = (
-                f"Deep-dive scoring for {mfg} {category}: {len(rows)} SKUs generated from master catalogue spec data "
-                f"via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending."
-            )
-            family["detailed_knowledge_status"] = f"complete_deep_dive_{TODAY}"
-            family["product_count"] = len(rows)
-            changed = True
+            keywords = sorted({category.lower(), mfg.lower(), brand.lower()} - {""})
+            tds_urls = most_common_nonempty(rows["TDS URL"], n=1)
+            new_families.append({
+                "family_id": family_id,
+                "manufacturer": mfg,
+                "name": family_name,
+                "category": category,
+                "primary_function": f"{category} insulation product from {mfg}.",
+                "applications": most_common_nonempty(rows["Product Use"], n=6) or ["General building applications"],
+                "keywords": keywords,
+                "scores": scores,
+                "score_notes": (
+                    f"Deep-dive scoring for {family_name}: {len(rows)} SKUs generated from master catalogue spec data "
+                    f"via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending."
+                ),
+                "confidence": "manufacturer_supported",
+                "knowledge_file": filename,
+                "detailed_knowledge_status": f"complete_deep_dive_{TODAY}",
+                "source_url": tds_urls[0] if tds_urls else f"https://www.{mfg.lower().replace(' ', '')}.com.au/",
+                "questions": STANDARD_QUESTIONS,
+                "human_gates": STANDARD_HUMAN_GATES,
+                "product_count": len(rows),
+            })
 
-        if changed and not args.dry_run:
+        if not args.dry_run:
+            keep_files = {f["knowledge_file"] for f in new_families}
+            keep_files.add("README.md")
+            for existing_md in mfg_dir.glob("*.md"):
+                if existing_md.name not in keep_files:
+                    existing_md.unlink()
+
+            families_data["families"] = new_families
             with open(families_json_path, "w", encoding="utf-8") as f:
                 json.dump(families_data, f, indent=2, ensure_ascii=False)
+
+            readme_lines = [
+                f"# {mfg} product-family knowledge base",
+                "",
+                f"Bot-facing knowledge for {mfg} products. Each file represents a technical product-line family "
+                "as classified by the manufacturer's own product naming, not an individual stock SKU.",
+                "",
+                "## Family index",
+                "",
+                "| Family ID | Product family | Evidence status |",
+                "| --- | --- | --- |",
+            ]
+            for family in new_families:
+                readme_lines.append(f"| `{family['family_id']}` | {family['name']} | Initial documentation |")
+            readme_lines.extend([
+                "",
+                "## Retrieval rule",
+                "",
+                "1. Identify the application and problem before comparing manufacturers.",
+                "2. Rank families using application/keyword fit and the customer's priority.",
+                "3. Recommend only a manufacturer-supported family.",
+                "4. Keep thermal R-values, acoustic Rw, and fire-test results separate.",
+                "5. Select the exact SKU, grade, and quantity only after technical review.",
+            ])
+            (mfg_dir / "README.md").write_text("\n".join(readme_lines) + "\n", encoding="utf-8")
 
     print(f"\n[DONE] Wrote {total_written} deep-dive family documents.")
 
 
 if __name__ == "__main__":
     main()
+

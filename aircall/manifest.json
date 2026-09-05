@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0",
   "generated_on": "2026-09-05",
-  "source_sha256": "fe30d4f10fb1ccac792e7618f989b79e689ca7a290389a888010a3aded9b7809",
-  "total_families": 83,
-  "recommendation_eligible_families": 77,
+  "source_sha256": "4370d41c98233e5224827e2921e3cd8838fe0c0e64941ae5c1ca9a16f587b0f1",
+  "total_families": 287,
+  "recommendation_eligible_families": 281,
   "blocked_families": 6,
-  "knowledge_characters": 98325,
+  "knowledge_characters": 285566,
   "aircall_context_threshold": 300000,
   "files": {
     "knowledge_base": "aircall_knowledge_base.txt",

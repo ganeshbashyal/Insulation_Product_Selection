@@ -1,13 +1,14 @@
 # Polyair product-family knowledge base
 
-Bot-facing knowledge for Polyair products. Each file represents a technical family, not an individual stock SKU.
+Bot-facing knowledge for Polyair products. Each file represents a technical product-line family as classified by the manufacturer's own product naming, not an individual stock SKU.
 
 ## Family index
 
 | Family ID | Product family | Evidence status |
 | --- | --- | --- |
 | `POLYAIR_REFLECTIVE` | Polyair Reflective | Initial documentation |
-
+| `POLYAIR_THERMO_REFLECTIVE_PRODUCTS_POLYAIR_UNICE` | Polyair Thermo Reflective Products - Polyair Unicell | Initial documentation |
+| `POLYAIR_THERMO_REFLECTIVE_PRODUCTS_POLYAIR_UNICE_2` | Polyair Thermo Reflective Products - Polyair Unicell Self Adhesive | Initial documentation |
 
 ## Retrieval rule
 

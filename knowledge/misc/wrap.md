@@ -25,7 +25,7 @@ gate_fire_compliance: not_verified_per_sku
 gate_bal: not_verified
 official_datasheet_url: https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf
 official_sds_url: https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf
-product_count: 4
+product_count: 3
 rating_basis: thermal
 ---
 
@@ -33,13 +33,13 @@ rating_basis: thermal
 
 ## Purpose of this file
 
-This is the canonical internal description for the Misc Wrap family. It aligns the terminology used by the enquiry bot, sales team and future Aircall CSV.
+This is the canonical internal description for the Misc Wrap family (Wrap category). It aligns the terminology used by the enquiry bot, sales team and future Aircall CSV.
 
 For the demonstration, the bot may recommend the **Misc Wrap family** when the customer's problem matches its documented applications. It must not choose a specific grade, calculate order quantity, or confirm thermal, acoustic, fire, NCC or BAL compliance for a project. Those decisions remain human-reviewed.
 
 ## Canonical description
 
-Quality insulation engineered for Australian conditions. Engineered to meet the demanding requirements of Australian building conditions. Manufacturer-published features and benefits include: High-performance membrane technology; provides effective vapour and moisture management; compatible with a wide range of substrates This family covers 4 SKU variant(s) in the current catalogue. It is not a complete compliant building system on its own; project-specific claims about a finished construction must be confirmed by a human reviewer against a tested system that matches the proposed build-up.
+Quality insulation engineered for Australian conditions. Engineered to meet the demanding requirements of Australian building conditions. Manufacturer-published features and benefits include: High-performance membrane technology; provides effective vapour and moisture management; compatible with a wide range of substrates This family covers 3 SKU variant(s) in the current catalogue. It is not a complete compliant building system on its own; project-specific claims about a finished construction must be confirmed by a human reviewer against a tested system that matches the proposed build-up.
 
 ## Current manufacturer-supported facts
 
@@ -49,7 +49,7 @@ Quality insulation engineered for Australian conditions. Engineered to meet the 
 - High-performance membrane technology.
 - provides effective vapour and moisture management.
 - compatible with a wide range of substrates.
-- The catalogue includes 4 unique SKU variant(s) in this family.
+- The catalogue includes 3 unique SKU variant(s) in this family.
 
 ## Grade and catalogue reconciliation
 
@@ -59,7 +59,6 @@ The following reflects the current internal SKU extraction from the master produ
 | --- | --- | ---: | --- | ---: |
 | Not specified | unspecified | Varies | Varies | 2 |
 | R0.0 | thermal_r_value | 0.5 | 30000 x 300 | 1 |
-| R37.5 | thermal_r_value | 1500 | 30000 x 1500 | 1 |
 
 ### Critical rating interpretation
 
@@ -67,13 +66,13 @@ Ratings prefixed `R` are thermal resistance values; ratings including `Rw` are w
 
 ## Application boundaries
 
-### Within the Wrap family
+### Within the Misc Wrap family
 
 - Wall Wrap / Sarking
 
 ### Separate product families
 
-Do not transfer claims from this family to other Misc product families without their own current technical evidence. Where Misc sells multiple categories (batt, board, reflective, pipe, wrap, panel, accessory), each is a distinct family with its own grade table and evidence.
+Do not transfer claims from this family to other Misc product families without their own current technical evidence. Where Misc sells multiple product families within the Wrap category or in other categories, each is a distinct family with its own grade table and evidence.
 
 This family should not be presented as a fire-rated system, a complete compliant wall/ceiling assembly, or a guaranteed noise-elimination/thermal-comfort product. Record the customer's requirement and construction context for human review rather than confirming compliance directly.
 
@@ -172,7 +171,7 @@ Use this source for the canonical product identity, current grades, published ra
 
 ### Tier 2 — current internal catalogue
 
-The master product catalogue provides current commercial records for 4 SKUs, including internal SKU codes, dimensions, grade labels and stock. Commercial data does not validate technical performance; grade labels must be cross-checked against current manufacturer TDS per SKU before quoting.
+The master product catalogue provides current commercial records for 3 SKUs, including internal SKU codes, dimensions, grade labels and stock. Commercial data does not validate technical performance; grade labels must be cross-checked against current manufacturer TDS per SKU before quoting.
 
 ### Tier 3 — authorised owned-site literature
 
@@ -193,7 +192,7 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
   "applications": [
     "Wall Wrap / Sarking"
   ],
-  "product_count": 4,
+  "product_count": 3,
   "grades": [
     {
       "rating": "not_specified",
@@ -202,11 +201,6 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
     },
     {
       "rating": "R0.0",
-      "rating_type": "thermal_r_value",
-      "sku_count": 1
-    },
-    {
-      "rating": "R37.5",
       "rating_type": "thermal_r_value",
       "sku_count": 1
     }
