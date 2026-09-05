@@ -58,28 +58,30 @@
         "autex frontier fins - standard kit 12mm - 2400 x 150 - category 1"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 4,
+        "energy_efficiency": 4,
         "sustainability": 4,
         "installation_practicality": 4,
-        "compliance_readiness": 4
+        "compliance_readiness": 3
       },
-      "score_notes": "Initial categorization of Autex Batt products. Scores based on product category.",
+      "score_notes": "Deep-dive scoring for Autex GreenStuf Batt: 92 SKUs across 5 grades (R1.5, Rw 35/40/45/50). Mixed thermal/acoustic rating types require per-SKU confirmation before customer-facing claims.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "batt.md",
-      "detailed_knowledge_status": "initial_2026-09-05",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
       "source_url": "https://www.autex.com.au/",
       "questions": [
-        "What is the primary application for this product?",
-        "What performance requirements apply?",
-        "What space or area constraints exist?"
+        "Do you need thermal comfort, acoustic control, or both?",
+        "What is the building type and construction (wall, ceiling, soffit, open-plan)?",
+        "Is there a specified R-value, Rw target, NCC or BAL requirement?",
+        "Are you looking for standard cavity batts or specialised acoustic hardware (Fins/Raft/Cove/ASL)?"
       ],
       "human_gates": [
         "Verify manufacturer identity from primary source",
-        "Confirm product specifications and performance claims",
-        "Validate compliance with relevant standards"
+        "Confirm rating type (thermal R vs acoustic Rw) per SKU before quoting",
+        "Validate compliance with relevant NCC/BAL/fire standards",
+        "Confirm current TDS/SDS per SKU prior to customer commitment"
       ],
-      "product_count": 107
+      "product_count": 92
     },
     {
       "family_id": "AUTEX_PANEL",
