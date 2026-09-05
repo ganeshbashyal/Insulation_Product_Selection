@@ -124,7 +124,23 @@ def make_batch(batch_no: int, size: int) -> Path:
 
 
 def _result_path(batch_no: int) -> Path:
-    return BATCH_DIR / f"batch_{batch_no:03d}_result.json"
+    """Find the result file, tolerating zero-padding and stray underscores.
+
+    Accepts batch_010_result.json, batch_10_result.json, batch_10__result.json, etc.
+    """
+    patterns = [
+        f"batch_{batch_no:03d}_result.json",
+        f"batch_{batch_no}_result.json",
+        f"batch_{batch_no:03d}__result.json",
+        f"batch_{batch_no}__result.json",
+    ]
+    for pattern in patterns:
+        candidate = BATCH_DIR / pattern
+        if candidate.exists():
+            return candidate
+    # fall back to a glob match for anything close
+    matches = sorted(BATCH_DIR.glob(f"batch_*{batch_no}*_result.json"))
+    return matches[0] if matches else BATCH_DIR / f"batch_{batch_no:03d}_result.json"
 
 
 def _strip_citations(raw: str) -> str:
