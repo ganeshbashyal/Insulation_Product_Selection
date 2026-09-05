@@ -1,6 +1,6 @@
 ---
 title: "Rockwool Pipe Insulation - High-temperature pipe Insulation | Thermotec"
-description: ""
+description: "Rockwool Pipe Insulation is a high-temperature pipe insulation product family from Thermotec. View the catalogue range, applications and specification"
 keywords: "Rockwool Pipe Insulation, Thermotec high-temperature pipe, pipe insulation, R-value insulation, insulation Australia, Thermotec Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: THERMOTEC_ROCKWOOL_PIPE
@@ -30,6 +30,7 @@ Rockwool Pipe Insulation is a high-temperature pipe product family from Thermote
 3. Confirm available cavity or fixing depth against the product dimensions.
 4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
 5. Record the suburb/postcode so climate-zone requirements can be checked.
+
 
 ## Current catalogue range
 
@@ -72,17 +73,21 @@ _44 further catalogue variants not listed here._
 | Applications | industrial pipe; high-temperature pipe; plant room; process service | Manufacturer catalogue |
 | Published ratings | NRC 0.95, R1.2, R2.5, Rw 120, Rw 50 | Internal catalogue; confirm against current TDS |
 
-## Compliance and review status
+
+
+## Fire, testing and compliance context
+
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
-- Fire: not verified per SKU.
 - BAL: not verified.
 - Datasheet: https://thermotec.com.au/products/thermotec-rockwool-pipe-insulation (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: to be sourced.
 
+
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. 
+Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU.
 
 ## Safety and handling
 

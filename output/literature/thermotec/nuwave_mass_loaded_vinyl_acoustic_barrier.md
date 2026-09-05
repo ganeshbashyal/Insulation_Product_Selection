@@ -33,6 +33,7 @@ Thermotec NuWave Base is an Australian-made, flexible, high-density mass loaded 
 4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
 5. Record the suburb/postcode so climate-zone requirements can be checked.
 
+
 ## Current catalogue range
 
 | SKU | Product | Published rating |
@@ -58,17 +59,21 @@ Thermotec NuWave Base is an Australian-made, flexible, high-density mass loaded 
 | Applications | internal wall; ceiling; floor; partition; vehicle; general acoustic barrier | Manufacturer catalogue |
 | Published ratings | Rw 24, Rw 26, Rw 27, Rw 29, Rw 30, Rw 34 | Internal catalogue; confirm against current TDS |
 
-## Compliance and review status
+
+
+## Fire, testing and compliance context
+
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
-- Fire: not verified per SKU.
 - BAL: not verified.
 - Datasheet: https://thermotec.com.au/products/nuwave_mlv_acoustic_barriers_2 (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: to be sourced.
 
+
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. 
+Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU.
 
 ## Safety and handling
 

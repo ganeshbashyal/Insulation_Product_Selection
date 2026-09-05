@@ -1,6 +1,6 @@
 ---
 title: "NuWave Acoustic Floor Underlay - Acoustic underlay Insulation | Thermotec"
-description: ""
+description: "NuWave Acoustic Floor Underlay is a acoustic underlay insulation product family from Thermotec. View the catalogue range, applications and specificati"
 keywords: "NuWave Acoustic Floor Underlay, Thermotec acoustic underlay, acoustic insulation, floor insulation, R-value insulation, insulation Australia, Thermotec Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: THERMOTEC_NUWAVE_UNDERLAY
@@ -32,6 +32,7 @@ NuWave Acoustic Floor Underlay is a acoustic underlay product family from Thermo
 4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
 5. Record the suburb/postcode so climate-zone requirements can be checked.
 
+
 ## Current catalogue range
 
 | SKU | Product | Published rating |
@@ -49,17 +50,21 @@ NuWave Acoustic Floor Underlay is a acoustic underlay product family from Thermo
 | Applications | floor; apartment floor; timber floor; laminate floor; carpet underlay | Manufacturer catalogue |
 | Published ratings | Rw 26, Rw 27, Rw 29, Rw 30 | Internal catalogue; confirm against current TDS |
 
-## Compliance and review status
+
+
+## Fire, testing and compliance context
+
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
-- Fire: not verified per SKU.
 - BAL: not verified.
 - Datasheet: https://thermotec.com.au/products/carpet-underlay (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: to be sourced.
 
+
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. 
+Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU.
 
 ## Safety and handling
 

@@ -1,0 +1,37 @@
+You are researching 10 insulation product families for an Australian supplier's knowledge base. For EACH family, use Google Search to find the OFFICIAL manufacturer Technical Data Sheet (TDS) and Safety Data Sheet (SDS) on the manufacturer's own website, read them, and extract the data.
+
+Return ONLY a single JSON array (no markdown fences, no commentary). The array must have exactly 10 objects, one per family IN THE SAME ORDER AS LISTED BELOW. Each object must have:
+
+  "family_id": the exact family_id string from the list below (copy it verbatim),
+  "tds_url": absolute URL of the official TDS (PDF or product page), or "" if not found,
+  "sds_url": absolute URL of the official SDS, or "" if not found,
+  "description": 2-4 sentence factual description from the TDS,
+  "features": up to 10 short feature strings the manufacturer actually states,
+  "applications": list of applications (e.g. "ceiling", "external wall", "pipe"),
+  "technical": list of {"property","value","standard"} objects for every spec found (R-values per thickness, density, thickness, dimensions, thermal conductivity, temperature range, vapour, acoustic Rw/NRC, fire indices). Use "" for standard if none stated,
+  "range": list of {"variant","size_or_rating","pack"} objects for available variants/sizes/grades,
+  "fire": string of fire test results (AS/NZS 1530.3 indices, AS 1530.1, BAL), or "",
+  "compliance": string of NCC/standard compliance claims exactly as stated, or "",
+  "sustainability": string of recycled-content / VOC / environmental claims, or "",
+  "install": up to 10 short installation steps from the TDS,
+  "selection_checklist": up to 8 short things a buyer must confirm before selecting,
+  "accessories": list of companion products/tapes/adhesives specified, or [],
+  "limitations": up to 8 manufacturer-stated limitations or warnings, or [],
+  "warranty": short string of the stated warranty term, or "",
+  "found": true if you located a real manufacturer TDS, false otherwise.
+
+Rules: report ONLY what manufacturer documents actually state. Never invent numbers, URLs, test results or claims. Keep numbers and units exactly as written. Prefer the manufacturer's own site over resellers. If you cannot find a TDS for a family, still include its object with "found": false and empty fields.
+
+FAMILIES (in order):
+1. family_id=ACOUSTICA_ACCESSORY | manufacturer=acoustica | family=Acoustica Accessory | category=Accessory
+2. family_id=ACOUSTICA_ACOUSTIC_BARRIER | manufacturer=acoustica | family=Acoustica Acoustic Barrier | category=Acoustic Barrier
+3. family_id=ACOUSTICA_ACOUSTIFLEX_SQ | manufacturer=acoustica | family=Acoustica Acoustiflex SQ | category=Acoustic Barrier
+4. family_id=ACOUSTICA_ANGELSTEP | manufacturer=acoustica | family=Acoustica AngelStep | category=Underlay
+5. family_id=ACOUSTICA_DUST_FOAM_FILTER | manufacturer=acoustica | family=Acoustica Dust foam filter | category=Accessory
+6. family_id=ACOUSTICA_GL | manufacturer=acoustica | family=Acoustica Gl | category=Pipe
+7. family_id=ACOUSTICA_UNDERLAY | manufacturer=acoustica | family=Acoustica Underlay | category=Underlay
+8. family_id=AIRCELL_BISCUITS | manufacturer=aircell | family=Aircell Biscuits | category=Reflective
+9. family_id=AIRCELL_FOIL_TAPE | manufacturer=aircell | family=Aircell Foil Tape | category=Reflective
+10. family_id=AIRCELL_GLARESHIELD | manufacturer=aircell | family=Aircell Glareshield | category=Reflective
+
+Return the JSON array now.

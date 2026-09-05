@@ -33,6 +33,7 @@ Quality insulation engineered for Australian conditions. Safe to handle without 
 4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
 5. Record the suburb/postcode so climate-zone requirements can be checked.
 
+
 ## Current catalogue range
 
 | Rating | Type | Thickness | Dimensions | SKUs |
@@ -48,13 +49,25 @@ Quality insulation engineered for Australian conditions. Safe to handle without 
 | Applications | Roof Blanket | Manufacturer catalogue |
 | Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
 
-## Compliance and review status
+
+
+## Fire, testing and compliance context
+
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
-- Fire: not verified per SKU.
 - BAL: not verified.
 - Datasheet: https://chadgroup.com.au/wp-content/uploads/2022/09/eco-wool-datasheet.pdf (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://chadgroup.com.au/wp-content/uploads/2022/09/eco-wool-datasheet.pdf.
+
+
+## Limitations and warnings
+
+- Not suitable for fire rating without additional protection..
+- not to be exposed to weather or sustained moisture..
+- do not compress beyond manufacturer recommendations..
+- check fire-rated system requirements..
+- confirm product selection matches specified thermal/acoustic/fire rating..
 
 ## Installation overview
 

@@ -1,6 +1,6 @@
 ---
 title: "NuWave UV-treated Fence MLV - Outdoor acoustic barrier Insulation | Thermotec"
-description: ""
+description: "NuWave UV-treated Fence MLV is a outdoor acoustic barrier insulation product family from Thermotec. View the catalogue range, applications and specifi"
 keywords: "NuWave UV-treated Fence MLV, Thermotec outdoor acoustic barrier, acoustic insulation, R-value insulation, insulation Australia, Thermotec Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: THERMOTEC_NUWAVE_FENCE_MLV
@@ -30,6 +30,7 @@ NuWave UV-treated Fence MLV is a outdoor acoustic barrier product family from Th
 4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
 5. Record the suburb/postcode so climate-zone requirements can be checked.
 
+
 ## Current catalogue range
 
 | SKU | Product | Published rating |
@@ -47,17 +48,21 @@ NuWave UV-treated Fence MLV is a outdoor acoustic barrier product family from Th
 | Applications | acoustic fence; outdoor barrier; plant enclosure | Manufacturer catalogue |
 | Published ratings | Rw 26, Rw 27, Rw 29, Rw 30 | Internal catalogue; confirm against current TDS |
 
-## Compliance and review status
+
+
+## Fire, testing and compliance context
+
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
-- Fire: not verified per SKU.
 - BAL: not verified.
 - Datasheet: https://thermotec.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: to be sourced.
 
+
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. 
+Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU.
 
 ## Safety and handling
 
