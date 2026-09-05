@@ -1,0 +1,65 @@
+{
+  "family_id": "AIRCELL_RETROSHIELD_HANDYPACK",
+  "family_name": "Aircell Retroshield Handypack",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "gemini_not_found",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "",
+    "features": [],
+    "applications": [],
+    "technical": [],
+    "range": [],
+    "fire": "",
+    "compliance": "",
+    "sustainability": "",
+    "install": [],
+    "selection_checklist": [],
+    "accessories": [],
+    "limitations": [],
+    "warranty": ""
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Aircell Retroshield Handypack",
+      "Retroshield DIY roll",
+      "Kingspan Handypack",
+      "small roll reflective foil",
+      "shed insulation handypack",
+      "garage insulation roll",
+      "DIY foil insulation pack"
+    ],
+    "problem_keywords": [
+      "insulating small shed",
+      "hot garage door",
+      "small area reflective insulation",
+      "condensation in workshop",
+      "camper van insulation DIY"
+    ],
+    "placement": [
+      "roof",
+      "wall",
+      "shed",
+      "ceiling"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "thermal",
+      "budget"
+    ],
+    "use_cases": [
+      "insulating residential garden sheds and hobby workshops without buying a full commercial roll",
+      "lining sectional garage doors to block afternoon radiant sun",
+      "DIY campervan and caravan wall/roof insulation projects"
+    ],
+    "not_for": [
+      "large-scale commercial roof contracts",
+      "acoustic flooring underlay",
+      "applications requiring breathable Class 4 vapour membranes"
+    ],
+    "rag_summary": "Kingspan AIR-CELL Retroshield Handypack represents a compact, DIY-friendly packaged roll format of Kingspan's popular Retroshield reflective bubble insulation. Designed for small residential projects such as garden sheds, workshops, garage doors, and camper conversions, it provides the same 7mm encapsulated air cell structure and dual aluminium foil facings as commercial rolls. It effectively blocks radiant heat transfer and stops condensation without the material surplus of standard 30m² rolls."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

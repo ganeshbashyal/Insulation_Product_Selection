@@ -1,0 +1,169 @@
+{
+  "family_id": "AMETALIN_CAVITY_DRAINAGE_BATTENS",
+  "family_name": "Ametalin Cavity Drainage Battens",
+  "datasheet_pdf_url": "https://www.ametalin.com/product/ametalin-cavity-drainage-battens/",
+  "sds_url": "",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Ametalin Cavity Drainage Battens are an innovative triple-layer, high-density polypropylene, self-adhesive passive open air-flow strip specifically designed to isolate and create ventilation, cavity drainage, and thermal separation behind roof and wall cladding[][]. Installed between pliable building membranes and exterior cladding or roofing sheets, they provide a firm base to install to while creating a natural drainage plane for moisture to escape[][]. In metal roof assemblies, they help locate and maintain the dew point at the underside of the roof cladding to prevent condensation from forming on the pliable membrane[].",
+    "features": [
+      ",\n      ",
+      "Assists in thermal mitigation strategies and energy efficiency[",
+      ",\n      ",
+      "Creates a natural drainage plane for moisture to escape[",
+      ",\n      ",
+      "Heat",
+      "fire and UV resistant[",
+      ",\n      ",
+      "Engineered for very high compression resistance[",
+      ",\n      ",
+      "Self-adhesive backing for fast",
+      "easy",
+      "fix-free installation[",
+      ",\n      ",
+      "Termite",
+      "mould",
+      "and mildew resistant[",
+      ",\n      ",
+      "Triple-layer high-density polypropylene construction[",
+      "Withstands normal foot traffic and provides high screw-pull resistance[",
+      "10 mm thickness allows doubling up to create 20mm cavities per NCC 2022["
+    ],
+    "applications": [
+      "external wall",
+      "wall",
+      "roof",
+      "roofline"
+    ],
+    "technical": [
+      {
+        "property": "Thermal Resistance (In-Situ)",
+        "value": "RT 0.15 (single layer 10mm), RT 0.30 (double layer 20mm)",
+        "standard": ""
+      },
+      {
+        "property": "Dimensions",
+        "value": "45 mm x 1200 mm",
+        "standard": ""
+      },
+      {
+        "property": "Nominal Thickness",
+        "value": "10 mm",
+        "standard": ""
+      },
+      {
+        "property": "Pack Size",
+        "value": "50 pieces per box (60 lineal metres)",
+        "standard": ""
+      },
+      {
+        "property": "Material",
+        "value": "Triple-layer high density polypropylene (PP core with 2 layers of premium PP facing)",
+        "standard": ""
+      },
+      {
+        "property": "Adhesive",
+        "value": "High-tack self-adhesive backing with peel-off release liner",
+        "standard": ""
+      },
+      {
+        "property": "Compression Resistance",
+        "value": "Very high compression resistance",
+        "standard": ""
+      },
+      {
+        "property": "Biological Resistance",
+        "value": "Termite, mould, and mildew resistant",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Ametalin Cavity Drainage Battens (CDB-451200)",
+        "size_or_rating": "45 mm x 1200 mm x 10 mm (50 pieces)",
+        "pack": "Box (50 pcs / 60 lm)"
+      }
+    ],
+    "fire": "Heat, fire, and UV resistant; compliant for non-combustible constructions under NCC provisions where drainage cavities are specified[][][",
+    "compliance": "NCC 2022 Vol 1 F8D5 and J4D3, NCC Housing Provisions 10.8.3 and 13.2.2; AS 4200.2:2017[][",
+    "sustainability": "100% recyclable polypropylene construction, inert, non-toxic, rot-proof",
+    "install": [
+      "Install pliable building membrane to roof or wall frame construction in accordance with AS 4200.2:2017 [2.4.1]",
+      "Locate structural framing member (stud, plate, rafter, or purlin) to which battens will be applied[",
+      "Ensure surfaces to be adhered to are clean, dry, and free from dirt, grease, oil, and contaminants[",
+      "Peel back release liner from self-adhesive backing strip[",
+      "Centre the batten parallel along the supporting framing member and press firmly into place[",
+      "For a 20mm cavity or higher ventilation requirements, apply a second batten directly over the first[",
+      "Fasten cladding or roofing through the battens directly into structural framing",
+      "Install battens concurrently with outer cladding or roofing to ensure optimal durability["
+    ],
+    "selection_checklist": [
+      "Confirm required cavity depth (10mm single layer or 20mm double layer) [2.4.2]",
+      "Verify framing centres and calculate total lineal metres (each piece is 1.2m)[",
+      "Ensure structural framing surfaces are clean and free of moisture or chemical residues[",
+      "Confirm cladding fixing screw length accounts for the 10mm or 20mm batten buildup",
+      "Verify application matches NCC 2022 condensation management requirements (F8D5 / 10.8.3)["
+    ],
+    "accessories": [
+      ",\n      ",
+      "Ametalin QuickTape[",
+      ",\n      ",
+      "Cladding fasteners with appropriate extended length"
+    ],
+    "limitations": [
+      "Non-structural cavity spacer; claddings and roofing must fix directly into structural framework [2.4.2]",
+      "Surfaces must be clean and dry; moisture reduces initial adhesive bond[][",
+      "Must be stored flat in a clean, dry place out of direct sunlight[",
+      "Should not be left permanently exposed to UV without outer cladding or roofing"
+    ],
+    "warranty": "Covered by Ametalin standard product warranty["
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Ametalin Cavity Drainage Battens",
+      "cavity drainage battens",
+      "open air flow battens",
+      "polypropylene drainage battens",
+      "cladding cavity spacer",
+      "roof drainage battens",
+      "condensation drainage battens",
+      "Ametalin CDB-451200",
+      "self adhesive drainage battens",
+      "NCC 2022 drainage battens"
+    ],
+    "problem_keywords": [
+      "trapped moisture behind cladding",
+      "dew point condensation under roof",
+      "mould behind fibre cement cladding",
+      "lack of ventilation in cavity wall",
+      "meeting NCC 2022 cavity drainage mandate",
+      "thermal bridging between frame and cladding"
+    ],
+    "placement": [
+      "wall",
+      "external wall",
+      "roof",
+      "roofline"
+    ],
+    "priority_fit": [
+      "condensation",
+      "easy_install",
+      "thermal"
+    ],
+    "use_cases": [
+      "creating a 10mm or 20mm ventilated drainage cavity behind lightweight fibre-cement or timber wall cladding",
+      "isolating metal roof cladding from pliable membrane to prevent underside condensation pooling",
+      "providing a continuous passive airflow pathway under metal roofing in temperate and cold climate zones",
+      "satisfying NCC 2022 condensation management requirements for drained external cavities"
+    ],
+    "not_for": [
+      "structural load-bearing framing battens",
+      "underfloor joist isolation",
+      "internal direct plasterboard furring without framing"
+    ],
+    "rag_summary": "Ametalin Cavity Drainage Battens (CDB-451200) are 45 mm x 1200 mm x 10 mm self-adhesive, open-air-flow strips manufactured from a high-density triple-layer polypropylene core. Engineered for application over pliable membranes on steel and timber wall framing and metal roofs, they establish a durable ventilation and drainage plane (RT 0.15 in-situ) that directs trapped moisture away from building fabrics. Highly compression-resistant and stackable to 20mm to meet NCC 2022 condensation management and energy efficiency provisions, they prevent interstitial moisture damage, mould growth, and roof condensation."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

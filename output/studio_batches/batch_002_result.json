@@ -1,0 +1,1297 @@
+[
+  {
+    "family_id": "AIRCELL_PERMISHIELD",
+    "tds_url": "https://www.insulation.kingspan.com/au/en/products/reflective-insulation/air-cell-permishield-xv-70",
+    "sds_url": "https://www.insulation.kingspan.com/au/en/products/reflective-insulation/",
+    "description": "Kingspan AIR-CELL Permishield XV 70 is an Australian-made, fibre-free, closed-cell thermo-reflective insulation and sarking engineered specifically for framed and reverse brick veneer walls behind lightweight claddings[][][]. It combines thermal insulation, a thermal break, and a vapour-permeable sarking pierced with evenly spaced breather holes into a single 3-in-1 product[][]. It protects the wall structure from external water penetration while allowing internal moisture vapour to escape, significantly reducing interstitial condensation risk[][].",
+    "features": [
+      ",\n      ",
+      "3-in-1 insulation",
+      "thermal break",
+      "and vapour-permeable sarking[",
+      "CodeMark-certified for NCC compliance[][",
+      "AS/NZS 4859.1:2018 compliant[",
+      "Class 3 vapour permeable (0.300 µg/N·s)[][",
+      "Water-resistant and unaffected by moisture (passes water barrier test)[][][",
+      "Fibre-free, non-allergenic, non-irritant[][",
+      "Anti-bacterial and anti-fungal[",
+      "Rodent and insect resistant[",
+      "Extra Heavy Duty rating (AS/NZS 4200.1)["
+    ],
+    "applications": [
+      "external wall",
+      "wall",
+      "shed"
+    ],
+    "technical": [
+      {
+        "property": "Material R-value",
+        "value": "R0.20 m²·K/W at 23°C",
+        "standard": "ASTM C518-2017"
+      },
+      {
+        "property": "Product Thickness",
+        "value": "7.2 mm",
+        "standard": ""
+      },
+      {
+        "property": "Roll Dimensions",
+        "value": "1350 mm x 22.25 m (30 m²)",
+        "standard": ""
+      },
+      {
+        "property": "Roll Weight",
+        "value": "9.15 kg",
+        "standard": ""
+      },
+      {
+        "property": "Roll Diameter",
+        "value": "450 mm",
+        "standard": ""
+      },
+      {
+        "property": "Reflectance (Reflective Face)",
+        "value": "97%",
+        "standard": ""
+      },
+      {
+        "property": "Reflectance (Anti-Glare Face)",
+        "value": "88%",
+        "standard": ""
+      },
+      {
+        "property": "Emittance (Reflective Face)",
+        "value": "E0.03",
+        "standard": ""
+      },
+      {
+        "property": "Emittance (Anti-Glare Face)",
+        "value": "E0.12 (Category RS)",
+        "standard": ""
+      },
+      {
+        "property": "Vapour Permeability",
+        "value": "0.300 µg/N·s (Class 3 Vapour Permeable)",
+        "standard": "ASTM E96 / AS/NZS 4200.1"
+      },
+      {
+        "property": "Water Control",
+        "value": "Pass (Water Barrier)",
+        "standard": "AS/NZS 4201.4"
+      },
+      {
+        "property": "Duty Rating",
+        "value": "Extra Heavy",
+        "standard": "AS/NZS 4200.1"
+      },
+      {
+        "property": "Burst Strength",
+        "value": "0.9 kN",
+        "standard": "AS 3706.4"
+      },
+      {
+        "property": "Flammability Index",
+        "value": "≤ 5 (Low)",
+        "standard": "AS 1530.2"
+      },
+      {
+        "property": "Cone Calorimeter Classification",
+        "value": "Group 1",
+        "standard": "AS/NZS 3837"
+      },
+      {
+        "property": "Maximum Unsupported Span",
+        "value": "2.4 m",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "AIR-CELL Permishield XV 70",
+        "size_or_rating": "1350 mm x 22.25 m x 7.2 mm (30 m²)",
+        "pack": "Roll"
+      }
+    ],
+    "fire": "Flammability Index ≤ 5 (Low) to AS 1530.2; Group 1 to AS/NZS 3837; early fire hazard 0/0/0/0-1 to AS 1530.3[][",
+    "compliance": "AS/NZS 4859.1:2018, AS/NZS 4200.1, CodeMark Certified for NCC compliance, NCC 2019/2022 thermal break R0.20 compliant[][][][",
+    "sustainability": "Fibre-free core; non-allergenic; non-irritant; low VOC; zero ODP; Australian made[][][",
+    "install": [
+      "Fix Kingspan AIR-CELL Permishield XV 70 loosely to outside of frame, leaving flexibility to dish into cavity if required [1.1.9]",
+      "Install with anti-glare face facing outward towards the installer[][",
+      "Cut carefully around doors, windows, and openings so that it neatly abuts frames[][",
+      "Butt join sheets and tape all joins with 48mm wide Kingspan reinforced foil tape[][",
+      "When taping, use a plastic squeegee or blade to apply firm, even pressure[",
+      "Provide outer air space by adhering Kingspan AIR-CELL Spacer Biscuits to outer face (approx. 3 per square metre)[",
+      "Maintain minimum 50mm clearance around heat-producing flues and recessed light fittings[",
+      "Fix counter-battens and exterior cladding in accordance with cladding manufacturer instructions["
+    ],
+    "selection_checklist": [
+      ",\n      ",
+      "Verify lightweight cladding manufacturer requires a Class 3 vapour-permeable membrane[",
+      ",\n      ",
+      "Confirm need for R0.20 thermal break on steel studs to satisfy NCC energy provisions[",
+      ",\n      ",
+      "Ensure 48mm reinforced foil tape and spacer biscuits are included in quantity calculations[",
+      ",\n      ",
+      "Check clearances around penetrations",
+      "window frames",
+      "and structural corners["
+    ],
+    "accessories": [
+      ",\n      ",
+      "Kingspan AIR-CELL Spacer Biscuits[",
+      "Application squeegee["
+    ],
+    "limitations": [
+      "Can be damaged by intense heat above 105°C; keep away from sparks and naked flames [1.2.9]",
+      "Aluminium facings are electrically conductive; avoid contact with live electrical wiring[",
+      "Not suitable for roofing applications requiring sarking with zero vapour permeance[][",
+      "Surfaces must be clean, dry, and free of dust or grease prior to taping["
+    ],
+    "warranty": "15 years[",
+    "found": true,
+    "search_keywords": [
+      "AIR-CELL Permishield",
+      "Permishield XV 70",
+      "Kingspan Permishield",
+      "vapour permeable foil insulation",
+      "breathable wall sarking",
+      "thermal break wall insulation",
+      "reverse brick veneer insulation",
+      "steel frame thermal break foil",
+      "Class 3 vapour permeable sarking",
+      "fibre-free wall wrap"
+    ],
+    "problem_keywords": [
+      "condensation in external walls",
+      "thermal bridging through steel studs",
+      "moisture buildup behind lightweight cladding",
+      "cold drafty framed walls",
+      "interstitial condensation risk",
+      "meeting NCC R0.20 thermal break requirement"
+    ],
+    "placement": [
+      "wall",
+      "external wall",
+      "shed"
+    ],
+    "priority_fit": [
+      "thermal",
+      "condensation",
+      "fire",
+      "easy_install"
+    ],
+    "use_cases": [
+      "wrapping steel-framed residential walls behind fibre-cement cladding to deliver an R0.20 thermal break and vapour breathability",
+      "installing in reverse brick veneer constructions to control heat flow and prevent condensation",
+      "insulating timber-framed walls behind lightweight cladding requiring Class 3 vapour permeance"
+    ],
+    "not_for": [
+      "pitched or flat roof sarking where Class 1 or 2 vapour barrier is mandatory",
+      "direct floor underlay under tiles or floorboards",
+      "high-temperature pipe lagging"
+    ],
+    "rag_summary": "Kingspan AIR-CELL Permishield XV 70 is an Australian-made 7.2mm thick, 3-in-1 thermo-reflective insulation, thermal break, and Class 3 vapour-permeable sarking. Manufactured with a closed-cell polyolefin core sandwiched between reflective foil facings and pierced with micro-breather holes, it provides an in-situ material R-value of R0.20 to satisfy NCC thermal break provisions on steel-framed walls. It allows internal moisture vapour to breathe outward while blocking external liquid water, making it the premier choice behind lightweight claddings and reverse brick veneer wall assemblies."
+  },
+  {
+    "family_id": "AIRCELL_PERMIWALL",
+    "tds_url": "",
+    "sds_url": "",
+    "description": "",
+    "features": [],
+    "applications": [],
+    "technical": [],
+    "range": [],
+    "fire": "",
+    "compliance": "",
+    "sustainability": "",
+    "install": [],
+    "selection_checklist": [],
+    "accessories": [],
+    "limitations": [],
+    "warranty": "",
+    "found": false,
+    "search_keywords": [
+      "AIR-CELL Permiwall",
+      "Kingspan Permiwall",
+      "Permiwall PS055F",
+      "concrete wall reflective insulation",
+      "vapour permeable concrete wall insulation",
+      "block wall foil insulation",
+      "internal masonry wall insulation",
+      "reflective furring channel insulation"
+    ],
+    "problem_keywords": [
+      "condensation on concrete walls",
+      "damp concrete block walls",
+      "insulating internal masonry walls",
+      "thermal loss through concrete panel",
+      "space saving concrete wall insulation",
+      "mould behind plasterboard on block walls"
+    ],
+    "placement": [
+      "wall",
+      "internal wall",
+      "external wall"
+    ],
+    "priority_fit": [
+      "thermal",
+      "condensation",
+      "easy_install"
+    ],
+    "use_cases": [
+      "lining internal concrete tilt-up or precast panels behind furring channels and plasterboard",
+      "retrofitting basement or core-filled block walls to prevent interstitial condensation",
+      "providing a thin-profile thermal and vapour-permeable barrier in masonry cavity retrofits"
+    ],
+    "not_for": [
+      "external direct weather-exposed cladding without rainscreen",
+      "subfloor underfoot traffic",
+      "roof sarking applications"
+    ],
+    "rag_summary": "Kingspan AIR-CELL Permiwall is a discontinued 5.5mm thermo-reflective insulation and vapour-permeable membrane engineered specifically for internal concrete and masonry block walls. Comprising a micro-perforated closed-cell foam core between reflective foil facings, it allowed moisture vapour to permeate rather than condense against cold masonry, while reflecting radiant heat into the living space. Installed over furring channels or clips beneath plasterboard, it provided an ultra-slim thermal solution that helped achieve 6-star residential energy ratings without sacrificing floor area."
+  },
+  {
+    "family_id": "AIRCELL_RETROSHIELD",
+    "tds_url": "https://www.insulation.kingspan.com/au/en/products/reflective-insulation/air-cell-retroshield",
+    "sds_url": "https://www.insulation.kingspan.com/au/en/products/reflective-insulation/",
+    "description": "Kingspan AIR-CELL Retroshield is a fibre-free, high-performance thermo-reflective insulation and vapour barrier comprising an encapsulated 7mm air cell core faced on both sides with reflective aluminium foil[][][]. Engineered to combat heat gain and loss via radiation, convection, and conduction, it features an anti-tear surface that provides superior strength during retrofit and new build applications[][]. It is non-allergenic, non-irritant, and CodeMark certified for NCC compliance across residential and commercial buildings[][][].",
+    "features": [
+      ",\n      \"Unique reflective anti-tear surface[\",\n      ",
+      "7mm air bubble / thermo-cellular core[",
+      ",\n      ",
+      "Combats radiation",
+      "convection",
+      "and conduction heat transfer[",
+      ",\n      ",
+      "Fibre-free",
+      "non-allergenic",
+      "non-irritant[",
+      ",\n      ",
+      "Extra Heavy Duty rating (AS/NZS 4200.1)[",
+      ",\n      ",
+      "CodeMark-certified for NCC compliance[",
+      ",\n      ",
+      "Flammability Index ≤ 5 (Low) to AS 1530.2[",
+      ",\n      ",
+      "Group 1 fire classification to AS/NZS 3837[",
+      "Suitable for new build and refurbishment projects["
+    ],
+    "applications": [
+      "roof",
+      "roofline",
+      "ceiling",
+      "wall",
+      "external wall",
+      "shed"
+    ],
+    "technical": [
+      {
+        "property": "Material R-value",
+        "value": "R0.14 m²·K/W",
+        "standard": "ASTM C518"
+      },
+      {
+        "property": "Product Thickness",
+        "value": "7 mm",
+        "standard": ""
+      },
+      {
+        "property": "Roll Dimensions",
+        "value": "1350 mm x 22.25 m (30 m²)",
+        "standard": ""
+      },
+      {
+        "property": "Roll Weight",
+        "value": "11 kg",
+        "standard": ""
+      },
+      {
+        "property": "Roll Diameter",
+        "value": "440 mm",
+        "standard": ""
+      },
+      {
+        "property": "Reflectance",
+        "value": "97%",
+        "standard": ""
+      },
+      {
+        "property": "Emittance",
+        "value": "E0.03",
+        "standard": "ASTM E408"
+      },
+      {
+        "property": "Duty Rating",
+        "value": "Extra Heavy",
+        "standard": "AS/NZS 4200.1"
+      },
+      {
+        "property": "Flammability Index",
+        "value": "3 (Low, Index ≤ 5)",
+        "standard": "AS 1530.2"
+      },
+      {
+        "property": "Cone Calorimeter Classification",
+        "value": "Group 1",
+        "standard": "AS/NZS 3837"
+      },
+      {
+        "property": "Vapour Transmission",
+        "value": "Medium (Vapour Barrier)",
+        "standard": "ASTM E96"
+      },
+      {
+        "property": "Water Penetration",
+        "value": "High Resistance",
+        "standard": "AS/NZS 4201.4"
+      },
+      {
+        "property": "Maximum Span",
+        "value": "2.4 m without support mesh",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "AIR-CELL Retroshield",
+        "size_or_rating": "1350 mm x 22.25 m x 7 mm (30 m²)",
+        "pack": "Roll (11 kg)"
+      }
+    ],
+    "fire": "Flammability Index 3 (Low) to AS 1530.2; Group 1 to AS/NZS 3837; early fire hazard indices 0/0/0/0-1 to AS 1530.3[][",
+    "compliance": "AS/NZS 4859.1:2002 Amdt 1, AS/NZS 4200.1, CodeMark Certified CM20001 for BCA/NCC compliance[][][][",
+    "sustainability": "Fibre-free, zero ODP, non-allergenic, clean to install without itchy fibres[][",
+    "install": [
+      ",\n      ",
+      "Allow recommended sag between framing members (approx. 40mm) to create reflective air spaces[",
+      ",\n      ",
+      "Overlap joins by 150mm if untaped",
+      "or 50mm if taped",
+      "Tape all longitudinal and end joins with 72mm wide Kingspan reinforced aluminium foil tape[",
+      "Firmly squeegee or roll tape to ensure permanent pressure-sensitive adhesion[",
+      "Maintain minimum 50mm clearance around heat-producing flues and recessed light fittings[",
+      "If span between framing exceeds 2.4m, install safety mesh support prior to laying insulation[]["
+    ],
+    "selection_checklist": [
+      ",\n      \"Check framing span (ensure ≤ 2.4m or install safety mesh support)[\",\n      ",
+      "Verify total system R-value calculation includes proper reflective air spaces[",
+      ",\n      ",
+      "Ensure adequate rolls of 72mm reinforced foil tape are ordered for sealing[",
+      "Verify non-conductive safety practices around electrical services["
+    ],
+    "accessories": [
+      "Kingspan AIR-CELL reinforced foil tape (72mm) [1.2.1]",
+      "Application squeegee / roller[",
+      "Roof safety mesh (for spans > 2.4m)["
+    ],
+    "limitations": [
+      "Can be damaged by heat exceeding 105°C; avoid direct exposure to sparks, torches, or open flames [1.2.9]",
+      "Aluminium foil facings are electrically conductive; avoid contact with uninsulated electrical cables[",
+      "Not a walking surface; do not step directly on unsupported insulation[",
+      "Accumulation of dust on upward-facing reflective surfaces reduces thermal performance[]["
+    ],
+    "warranty": "15 years[",
+    "found": true,
+    "search_keywords": [
+      "AIR-CELL Retroshield",
+      "Kingspan Retroshield",
+      "Retroshield insulation",
+      "bubble foil insulation",
+      "reflective roof insulation",
+      "warehouse roof insulation",
+      "shed foil insulation",
+      "thermo cellular insulation",
+      "air cell foil wrap",
+      "commercial roof retrofit foil"
+    ],
+    "problem_keywords": [
+      "hot warehouse roof in summer",
+      "shed heat radiating down",
+      "condensation dripping from metal roof",
+      "expensive cooling bills in metal buildings",
+      "drafty industrial roof",
+      "retrofitting uninsulated metal roof"
+    ],
+    "placement": [
+      "roof",
+      "roofline",
+      "ceiling",
+      "wall",
+      "external wall",
+      "shed"
+    ],
+    "priority_fit": [
+      "thermal",
+      "condensation",
+      "fire",
+      "easy_install"
+    ],
+    "use_cases": [
+      "retrofitting under commercial warehouse metal roofs to reflect summer radiant heat",
+      "insulating domestic garages and steel sheds against temperature extremes and dripping condensation",
+      "lining precast tilt-up concrete walls to enhance thermal comfort in commercial tenancies",
+      "installing above ceiling joists in residential homes as an effective radiant barrier"
+    ],
+    "not_for": [
+      "direct floor impact sound underlay",
+      "cavity wall installations requiring high vapour permeance (Class 3 or 4)",
+      "high-temperature flue or boiler wraps exceeding 105°C"
+    ],
+    "rag_summary": "Kingspan AIR-CELL Retroshield is a 7mm thick, fibre-free thermo-reflective insulation blanket comprising an encapsulated air cell core sandwiched between two highly reflective aluminium foil facings. Designed for roofs, ceilings, walls, and sheds in both new build and retrofit scenarios, it delivers an R0.14 material R-value, an Extra Heavy Duty rating, and a Flammability Index of 3 to AS 1530.2. By blocking radiant heat, convective currents, and air leakage, it dramatically moderates internal temperatures and controls roof condensation in metal-clad and industrial buildings."
+  },
+  {
+    "family_id": "AIRCELL_RETROSHIELD_HANDYPACK",
+    "tds_url": "",
+    "sds_url": "",
+    "description": "",
+    "features": [],
+    "applications": [],
+    "technical": [],
+    "range": [],
+    "fire": "",
+    "compliance": "",
+    "sustainability": "",
+    "install": [],
+    "selection_checklist": [],
+    "accessories": [],
+    "limitations": [],
+    "warranty": "",
+    "found": false,
+    "search_keywords": [
+      "Aircell Retroshield Handypack",
+      "Retroshield DIY roll",
+      "Kingspan Handypack",
+      "small roll reflective foil",
+      "shed insulation handypack",
+      "garage insulation roll",
+      "DIY foil insulation pack"
+    ],
+    "problem_keywords": [
+      "insulating small shed",
+      "hot garage door",
+      "small area reflective insulation",
+      "condensation in workshop",
+      "camper van insulation DIY"
+    ],
+    "placement": [
+      "roof",
+      "wall",
+      "shed",
+      "ceiling"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "thermal",
+      "budget"
+    ],
+    "use_cases": [
+      "insulating residential garden sheds and hobby workshops without buying a full commercial roll",
+      "lining sectional garage doors to block afternoon radiant sun",
+      "DIY campervan and caravan wall/roof insulation projects"
+    ],
+    "not_for": [
+      "large-scale commercial roof contracts",
+      "acoustic flooring underlay",
+      "applications requiring breathable Class 4 vapour membranes"
+    ],
+    "rag_summary": "Kingspan AIR-CELL Retroshield Handypack represents a compact, DIY-friendly packaged roll format of Kingspan's popular Retroshield reflective bubble insulation. Designed for small residential projects such as garden sheds, workshops, garage doors, and camper conversions, it provides the same 7mm encapsulated air cell structure and dual aluminium foil facings as commercial rolls. It effectively blocks radiant heat transfer and stops condensation without the material surplus of standard 30m² rolls."
+  },
+  {
+    "family_id": "AIRCELL_RETROSHIELD_XL",
+    "tds_url": "",
+    "sds_url": "",
+    "description": "",
+    "features": [],
+    "applications": [],
+    "technical": [],
+    "range": [],
+    "fire": "",
+    "compliance": "",
+    "sustainability": "",
+    "install": [],
+    "selection_checklist": [],
+    "accessories": [],
+    "limitations": [],
+    "warranty": "",
+    "found": false,
+    "search_keywords": [
+      "Aircell Retroshield XL",
+      "Kingspan Retroshield XL",
+      "Retroshield XL closed cell",
+      "Retroshield cross linked foam",
+      "heavy duty reflective insulation",
+      "commercial roof reflective blanket"
+    ],
+    "problem_keywords": [
+      "high thermal break requirement",
+      "extreme roof space heat",
+      "heavy duty commercial roof insulation",
+      "condensation under commercial metal decking"
+    ],
+    "placement": [
+      "roof",
+      "roofline",
+      "wall",
+      "shed"
+    ],
+    "priority_fit": [
+      "thermal",
+      "fire",
+      "condensation"
+    ],
+    "use_cases": [
+      "insulating wide-span industrial roof structures requiring higher tear resistance and thermal performance",
+      "commercial wall cladding assemblies needing durable double-sided foil insulation"
+    ],
+    "not_for": [
+      "under-carpet domestic floor underlay",
+      "breathable open cavity walls needing Class 4 vapour permeability",
+      "direct exposure to weather without external roof/wall cladding"
+    ],
+    "rag_summary": "Kingspan AIR-CELL Retroshield XL was an upgraded commercial variant featuring a cross-linked closed-cell foam core sandwiched between plain reflective aluminium foil facings on both sides. Formulated to offer higher thermal buffering and enhanced structural durability compared to standard bubble core insulation, it served large-span commercial roofs, warehouses, and industrial wall envelopes. Formerly CodeMark certified under certificate CM20001, it has since been superseded in Kingspan's contemporary product portfolio."
+  },
+  {
+    "family_id": "AIRCELL_SPACER_BISCUITS",
+    "tds_url": "https://www.insulation.kingspan.com/au/en/products/reflective-insulation/air-cell-spacer-biscuits",
+    "sds_url": "https://www.insulation.kingspan.com/au/en/products/reflective-insulation/",
+    "description": "Kingspan AIR-CELL Spacer Biscuits are made of expanded black polyethylene material and are used to achieve and maintain adequate reflective air spaces between reflective insulation and the adjacent material[]. The biscuits are slit to allow easy placement over wall ties and provide strong holding power with no long-term deterioration[]. Adhesive backed for ease of use on foil faces, they can be re-positioned to allow alignment with the substrate[].",
+    "features": [
+      "Adhesive backed for ease of use on foil face [2.3.1]",
+      "Can be re-positioned allowing alignment with substrate[",
+      "Assists in maintaining adequate reflective air spaces in wall applications",
+      "Made of expanded black polyethylene material[",
+      "Slit to allow easy placement over wall ties[",
+      "Provides strong holding power with no long-term deterioration[",
+      "Fibre-free, non-allergenic and non-irritant",
+      "Manufactured under ISO 9001:2008 Quality Management system[]["
+    ],
+    "applications": [
+      "double brick cavity walls",
+      "brick veneer cavity walls",
+      "metal and timber framed walls"
+    ],
+    "technical": [
+      {
+        "property": "Dimensions",
+        "value": "60 x 60 mm",
+        "standard": ""
+      },
+      {
+        "property": "Thickness",
+        "value": "20 mm",
+        "standard": ""
+      },
+      {
+        "property": "Material",
+        "value": "Expanded black polyethylene",
+        "standard": ""
+      },
+      {
+        "property": "Service Temperature Range",
+        "value": "-20°C to +85°C",
+        "standard": ""
+      },
+      {
+        "property": "Intermittent Temperature",
+        "value": "105°C",
+        "standard": ""
+      },
+      {
+        "property": "Unit Weight (Bag of 50 pc)",
+        "value": "200 g",
+        "standard": ""
+      },
+      {
+        "property": "Unit Weight (Box of 400 pc)",
+        "value": "1.8 kg",
+        "standard": ""
+      },
+      {
+        "property": "Unit Size (Bag of 50 pc)",
+        "value": "320 x 120 x 520 mm",
+        "standard": ""
+      },
+      {
+        "property": "Unit Size (Box of 400 pc)",
+        "value": "390 x 385 x 460 mm",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "AIR-CELL Spacer Biscuits 50 pc",
+        "size_or_rating": "60 x 60 x 20 mm",
+        "pack": "Bag of 50 pcs"
+      },
+      {
+        "variant": "AIR-CELL Spacer Biscuits 400 pc",
+        "size_or_rating": "60 x 60 x 20 mm",
+        "pack": "Box of 400 pcs"
+      }
+    ],
+    "fire": "Service temperature -20°C to +85°C; intermittent up to 105°C",
+    "compliance": "ISO 9001:2008 Quality Management; NCC compliant system component when used with Kingspan AIR-CELL insulation[][][",
+    "sustainability": "Fibre-free core, non-hazardous, chemically inert polyethylene",
+    "install": [
+      "In cavity brick walls, lay outer leaf of brickwork with wire wall ties in place [1.1.9]",
+      "Clip Spacer Biscuit onto wire tie and push firmly against the brickwork[",
+      "Install approximately one biscuit per square metre or onto every second tie to maintain a nominal 20mm air space[][",
+      "Roll out AIR-CELL horizontally with anti-glare facing the installer and offer up to wall[][",
+      "Cut a slit in the AIR-CELL for each wire tie to protrude through using a sharp knife[",
+      "Push AIR-CELL over ties until firmly against the Spacer Biscuit[",
+      "In framed walls, peel adhesive backing and stick Spacer Biscuits to outside of AIR-CELL between framework[",
+      "Fix external cladding through the AIR-CELL to the frame ensuring maintained airspace["
+    ],
+    "selection_checklist": [
+      "Confirm wall system type (masonry cavity vs framed cladding) [1.1.9]",
+      "Confirm wire wall tie compatibility and thickness allowance (20mm)[][",
+      "Calculate quantity required based on approx. 1 biscuit per square metre[][",
+      "Choose pack size (bag of 50 or box of 400)"
+    ],
+    "accessories": [
+      ",\n      ",
+      "Kingspan AIR-CELL Permishield XV 70[",
+      ",\n      ",
+      "Kingspan AIR-CELL reinforced foil tape (48mm)[",
+      "\n    ],\n    \"limitations\": [\n      ",
+      "Maximum continuous service temperature 85°C",
+      "intermittent 105°C",
+      "Avoid contact with sparks, open flame and hot tools [1.2.9]",
+      "Non-load bearing accessory"
+    ],
+    "warranty": "Covered under Kingspan AIR-CELL warranty system[",
+    "found": true,
+    "search_keywords": [
+      "Aircell Biscuits",
+      "Kingspan spacer biscuits",
+      "AIR-CELL Spacer Biscuits",
+      "insulation spacer biscuits",
+      "reflective air space biscuits",
+      "cavity wall spacers",
+      "foil insulation spacers",
+      "brick tie spacers",
+      "wall tie clips"
+    ],
+    "problem_keywords": [
+      "foil touching brickwork",
+      "losing reflective R-value in cavity",
+      "maintaining 20mm air space",
+      "wall ties compressing foil",
+      "reflective foil gap maintenance",
+      "air cavity collapsing"
+    ],
+    "placement": [
+      "wall",
+      "external wall",
+      "shed"
+    ],
+    "priority_fit": [
+      "thermal",
+      "easy_install"
+    ],
+    "use_cases": [
+      "spacing Kingspan AIR-CELL reflective insulation over wire wall ties in double brick cavity walls",
+      "maintaining a 20mm reflective airspace behind external cladding in brick veneer construction",
+      "positioning on timber or metal stud frames to ensure foil insulation maintains designed thermal performance"
+    ],
+    "not_for": [
+      "acoustic impact noise dampening under floors",
+      "pipe lagging",
+      "use as standalone thermal insulation batts"
+    ],
+    "rag_summary": "Kingspan AIR-CELL Spacer Biscuits are 60 x 60 x 20 mm expanded black polyethylene spacers designed to create and preserve a nominal 20mm reflective airspace between Kingspan AIR-CELL reflective insulation and adjacent wall substrates. Slit for rapid placement over standard wire wall ties and featuring an adhesive backing for repositionable installation against foil facings, they guarantee the reflective air cavity necessary to achieve rated system R-values. They are fibre-free, inert, and non-deteriorating, making them essential for cavity brick, brick veneer, and framed wall installations."
+  },
+  {
+    "family_id": "AMETALIN_ACCESSORY",
+    "tds_url": "",
+    "sds_url": "",
+    "description": "",
+    "features": [],
+    "applications": [],
+    "technical": [],
+    "range": [],
+    "fire": "",
+    "compliance": "",
+    "sustainability": "",
+    "install": [],
+    "selection_checklist": [],
+    "accessories": [],
+    "limitations": [],
+    "warranty": "",
+    "found": false,
+    "search_keywords": [
+      "Ametalin accessory",
+      "Ametalin tape",
+      "insulation fixing tape",
+      "double sided insulation tape",
+      "Ametalin cap nails",
+      "sarking tape",
+      "wall wrap tape",
+      "thermal break strip"
+    ],
+    "problem_keywords": [
+      "fixing wall wrap to steel studs",
+      "joining reflective sarking",
+      "sealing penetrations in building wrap",
+      "preventing wind tearing on wrap",
+      "thermal bridging across steel framing"
+    ],
+    "placement": [
+      "roof",
+      "wall",
+      "floor",
+      "ceiling",
+      "external wall"
+    ],
+    "priority_fit": [
+      "easy_install",
+      "thermal",
+      "condensation"
+    ],
+    "use_cases": [
+      "temporarily holding foil sarking to steel studs with double-sided tape before cladding",
+      "sealing seams on vapour-permeable membranes to form an airtight envelope",
+      "fastening pliable building membranes with plastic cap nails to prevent blowout in windy conditions"
+    ],
+    "not_for": [
+      "primary structural fixing",
+      "standalone bulk insulation",
+      "high-stress expansion joint sealing"
+    ],
+    "rag_summary": "Ametalin Accessories encompass the specialised range of tapes, fasteners, and thermal isolation components developed by Ametalin to ensure compliant installation of building membranes. Including double-sided fixing tapes, reinforced foil duct tapes, plastic cap nails, and thermal break strips, these products eliminate thermal bridging, wind displacement, and moisture leakage across steel and timber frames. They ensure residential and commercial wall wraps, roof sarkings, and underfloor foils achieve their designed airtightness, condensation control, and energy ratings."
+  },
+  {
+    "family_id": "AMETALIN_CAVITY_DRAINAGE_BATTENS",
+    "tds_url": "https://www.ametalin.com/product/ametalin-cavity-drainage-battens/",
+    "sds_url": "",
+    "description": "Ametalin Cavity Drainage Battens are an innovative triple-layer, high-density polypropylene, self-adhesive passive open air-flow strip specifically designed to isolate and create ventilation, cavity drainage, and thermal separation behind roof and wall cladding[][]. Installed between pliable building membranes and exterior cladding or roofing sheets, they provide a firm base to install to while creating a natural drainage plane for moisture to escape[][]. In metal roof assemblies, they help locate and maintain the dew point at the underside of the roof cladding to prevent condensation from forming on the pliable membrane[].",
+    "features": [
+      ",\n      ",
+      "Assists in thermal mitigation strategies and energy efficiency[",
+      ",\n      ",
+      "Creates a natural drainage plane for moisture to escape[",
+      ",\n      ",
+      "Heat",
+      "fire and UV resistant[",
+      ",\n      ",
+      "Engineered for very high compression resistance[",
+      ",\n      ",
+      "Self-adhesive backing for fast",
+      "easy",
+      "fix-free installation[",
+      ",\n      ",
+      "Termite",
+      "mould",
+      "and mildew resistant[",
+      ",\n      ",
+      "Triple-layer high-density polypropylene construction[",
+      "Withstands normal foot traffic and provides high screw-pull resistance[",
+      "10 mm thickness allows doubling up to create 20mm cavities per NCC 2022["
+    ],
+    "applications": [
+      "external wall",
+      "wall",
+      "roof",
+      "roofline"
+    ],
+    "technical": [
+      {
+        "property": "Thermal Resistance (In-Situ)",
+        "value": "RT 0.15 (single layer 10mm), RT 0.30 (double layer 20mm)",
+        "standard": ""
+      },
+      {
+        "property": "Dimensions",
+        "value": "45 mm x 1200 mm",
+        "standard": ""
+      },
+      {
+        "property": "Nominal Thickness",
+        "value": "10 mm",
+        "standard": ""
+      },
+      {
+        "property": "Pack Size",
+        "value": "50 pieces per box (60 lineal metres)",
+        "standard": ""
+      },
+      {
+        "property": "Material",
+        "value": "Triple-layer high density polypropylene (PP core with 2 layers of premium PP facing)",
+        "standard": ""
+      },
+      {
+        "property": "Adhesive",
+        "value": "High-tack self-adhesive backing with peel-off release liner",
+        "standard": ""
+      },
+      {
+        "property": "Compression Resistance",
+        "value": "Very high compression resistance",
+        "standard": ""
+      },
+      {
+        "property": "Biological Resistance",
+        "value": "Termite, mould, and mildew resistant",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "Ametalin Cavity Drainage Battens (CDB-451200)",
+        "size_or_rating": "45 mm x 1200 mm x 10 mm (50 pieces)",
+        "pack": "Box (50 pcs / 60 lm)"
+      }
+    ],
+    "fire": "Heat, fire, and UV resistant; compliant for non-combustible constructions under NCC provisions where drainage cavities are specified[][][",
+    "compliance": "NCC 2022 Vol 1 F8D5 and J4D3, NCC Housing Provisions 10.8.3 and 13.2.2; AS 4200.2:2017[][",
+    "sustainability": "100% recyclable polypropylene construction, inert, non-toxic, rot-proof",
+    "install": [
+      "Install pliable building membrane to roof or wall frame construction in accordance with AS 4200.2:2017 [2.4.1]",
+      "Locate structural framing member (stud, plate, rafter, or purlin) to which battens will be applied[",
+      "Ensure surfaces to be adhered to are clean, dry, and free from dirt, grease, oil, and contaminants[",
+      "Peel back release liner from self-adhesive backing strip[",
+      "Centre the batten parallel along the supporting framing member and press firmly into place[",
+      "For a 20mm cavity or higher ventilation requirements, apply a second batten directly over the first[",
+      "Fasten cladding or roofing through the battens directly into structural framing",
+      "Install battens concurrently with outer cladding or roofing to ensure optimal durability["
+    ],
+    "selection_checklist": [
+      "Confirm required cavity depth (10mm single layer or 20mm double layer) [2.4.2]",
+      "Verify framing centres and calculate total lineal metres (each piece is 1.2m)[",
+      "Ensure structural framing surfaces are clean and free of moisture or chemical residues[",
+      "Confirm cladding fixing screw length accounts for the 10mm or 20mm batten buildup",
+      "Verify application matches NCC 2022 condensation management requirements (F8D5 / 10.8.3)["
+    ],
+    "accessories": [
+      ",\n      ",
+      "Ametalin QuickTape[",
+      ",\n      ",
+      "Cladding fasteners with appropriate extended length"
+    ],
+    "limitations": [
+      "Non-structural cavity spacer; claddings and roofing must fix directly into structural framework [2.4.2]",
+      "Surfaces must be clean and dry; moisture reduces initial adhesive bond[][",
+      "Must be stored flat in a clean, dry place out of direct sunlight[",
+      "Should not be left permanently exposed to UV without outer cladding or roofing"
+    ],
+    "warranty": "Covered by Ametalin standard product warranty[",
+    "found": true,
+    "search_keywords": [
+      "Ametalin Cavity Drainage Battens",
+      "cavity drainage battens",
+      "open air flow battens",
+      "polypropylene drainage battens",
+      "cladding cavity spacer",
+      "roof drainage battens",
+      "condensation drainage battens",
+      "Ametalin CDB-451200",
+      "self adhesive drainage battens",
+      "NCC 2022 drainage battens"
+    ],
+    "problem_keywords": [
+      "trapped moisture behind cladding",
+      "dew point condensation under roof",
+      "mould behind fibre cement cladding",
+      "lack of ventilation in cavity wall",
+      "meeting NCC 2022 cavity drainage mandate",
+      "thermal bridging between frame and cladding"
+    ],
+    "placement": [
+      "wall",
+      "external wall",
+      "roof",
+      "roofline"
+    ],
+    "priority_fit": [
+      "condensation",
+      "easy_install",
+      "thermal"
+    ],
+    "use_cases": [
+      "creating a 10mm or 20mm ventilated drainage cavity behind lightweight fibre-cement or timber wall cladding",
+      "isolating metal roof cladding from pliable membrane to prevent underside condensation pooling",
+      "providing a continuous passive airflow pathway under metal roofing in temperate and cold climate zones",
+      "satisfying NCC 2022 condensation management requirements for drained external cavities"
+    ],
+    "not_for": [
+      "structural load-bearing framing battens",
+      "underfloor joist isolation",
+      "internal direct plasterboard furring without framing"
+    ],
+    "rag_summary": "Ametalin Cavity Drainage Battens (CDB-451200) are 45 mm x 1200 mm x 10 mm self-adhesive, open-air-flow strips manufactured from a high-density triple-layer polypropylene core. Engineered for application over pliable membranes on steel and timber wall framing and metal roofs, they establish a durable ventilation and drainage plane (RT 0.15 in-situ) that directs trapped moisture away from building fabrics. Highly compression-resistant and stackable to 20mm to meet NCC 2022 condensation management and energy efficiency provisions, they prevent interstitial moisture damage, mould growth, and roof condensation."
+  },
+  {
+    "family_id": "AMETALIN_QUICK_TAPE_BLUE",
+    "tds_url": "https://www.ametalin.com/product/ametalin-quicktape/",
+    "sds_url": "",
+    "description": "Ametalin QuickTape is a reliable, high-performance woven polymer fabric tape coated with a cold-weather acrylic adhesive specifically developed for demanding building envelope applications[][][]. It is engineered for the fast and easy joining, sealing, and repair of overlapped edges and penetrations in building membranes such as vapour-permeable wall wraps[][][]. Release liner-free and hand-tearable, it features the thickest premium-grade adhesive in the Ametalin range to provide instant high tack and airtight integrity[][][].",
+    "features": [
+      ",\n      ",
+      "Fast",
+      "easy and reliable fixing[",
+      ",\n      ",
+      "Release liner-free design eliminates backing paper waste on site[",
+      ",\n      ",
+      "Premium adhesion with superior initial tack[",
+      ",\n      ",
+      "Cold-weather acrylic adhesive performs down to -30°C[",
+      ",\n      ",
+      "Durable across service temperatures from -30°C to over 80°C[",
+      ",\n      ",
+      "Ideal for use with VapourTech® vapour permeable wall wraps[",
+      ",\n      ",
+      "Ideal for airtight sealing in Passive House and high-performance envelopes[",
+      ",\n      ",
+      "Robust woven polymer fabric backing resists scuffing and tears[",
+      ",\n      ",
+      "Manufactured by an ISO 9001 certified company[",
+      "\n    ],\n    ",
+      "applications",
+      [
+        "external wall",
+        "wall",
+        "roof",
+        "roofline",
+        "duct"
+      ],
+      {
+        "technical": [
+          {
+            "property": "Roll Width",
+            "value": "48 mm / 72 mm",
+            "standard": ""
+          },
+          {
+            "property": "Roll Length",
+            "value": "50 m",
+            "standard": ""
+          },
+          {
+            "property": "Backing Material",
+            "value": "Woven polymer fabric (blue trade / commercial)",
+            "standard": ""
+          },
+          {
+            "property": "Adhesive Type",
+            "value": "Cold-weather acrylic adhesive",
+            "standard": ""
+          },
+          {
+            "property": "Operating Temperature Range",
+            "value": "-30°C to >80°C",
+            "standard": ""
+          },
+          {
+            "property": "Release Liner",
+            "value": "None (Liner-free)",
+            "standard": ""
+          },
+          {
+            "property": "Hand Tearability",
+            "value": "Yes",
+            "standard": ""
+          },
+          {
+            "property": "Application",
+            "value": "Airtight and vapour barrier sealing",
+            "standard": ""
+          }
+        ],
+        "range": [
+          {
+            "variant": "Ametalin QuickTape 48mm",
+            "size_or_rating": "48 mm x 50 m (QT-4850)",
+            "pack": "Roll"
+          },
+          {
+            "variant": "Ametalin QuickTape 72mm",
+            "size_or_rating": "72 mm x 50 m (QT-7250)",
+            "pack": "Roll"
+          },
+          {
+            "variant": "Ametalin QuickTape Blue (No Label Commercial) 48mm",
+            "size_or_rating": "48 mm x 50 m (QT-4850-NL)",
+            "pack": "Roll"
+          },
+          {
+            "variant": "Ametalin QuickTape Blue (No Label Commercial) 72mm",
+            "size_or_rating": "72 mm x 50 m (QT-7250-NL)",
+            "pack": "Roll"
+          }
+        ],
+        "fire": "Durable across service temperatures -30°C to over 80°C; suitable for use with BAL-rated building membranes[][][",
+        "compliance": "AS 4200.2:2017 compliant joining tape; Passive House airtightness envelope compatible; ISO 9001[][][][",
+        "sustainability": "Linerless roll eliminates paper release backing waste on building sites; low VOC acrylic adhesive[][][",
+        "install": [
+          ",\n      \"Align overlapped membrane sheets with minimum 150mm lap (or 50mm if taped in accordance with AS 4200.2)[\",\n      ",
+          "Tear Ametalin QuickTape by hand to required length without need for knives or scissors[",
+          ",\n      ",
+          "Centre the tape over the seam or penetration[",
+          ",\n      ",
+          "Apply firm",
+          "continuous pressure along the tape using a plastic squeegee or roller to activate adhesive[",
+          ",\n      ",
+          "Ensure no wrinkles",
+          "fishmouths",
+          "or air channels are left in the tape seal",
+          "Seal around all window flashings, pipe penetrations, and corners to maintain airtight envelope[][]["
+        ],
+        "selection_checklist": [
+          ",\n      ",
+          "Verify substrate compatibility (specifically engineered for non-woven vapour-permeable wraps like VapourTech)[",
+          ",\n      ",
+          "Calculate total lineal metres needed for seams",
+          "openings",
+          "and penetrations",
+          "Check application temperature conditions (effective even in cold weather down to sub-zero temperatures)[][]["
+        ],
+        "accessories": [
+          ",\n      ",
+          "Ametalin CeaseFire[",
+          ",\n      ",
+          "Application squeegee[",
+          "\n    ],\n    \"limitations\": [\n      ",
+          "Pressure must be applied firmly to ensure 100% bond contact [3.4.2"
+        ],
+        ",\n      ": "ubstrates contaminated with heavy water, mud, or grease will compromise bond strength[\",",
+        "limits[": "Non-structural; not intended to support structural loads",
+        "warranty": "Covered by Ametalin manufacturer warranty[",
+        "found": true,
+        "search_keywords": [
+          "Ametalin Quick Tape Blue",
+          "Ametalin QuickTape",
+          "Ametalin blue tape",
+          "vapour permeable membrane tape",
+          "hand tearable sarking tape",
+          "linerless insulation tape",
+          "VapourTech joining tape",
+          "cold weather acrylic tape",
+          "Passive House airtight tape",
+          "woven fabric building tape"
+        ],
+        "problem_keywords": [
+          "peeling tape on wall wrap",
+          "tape backing paper blowing around building site",
+          "air leaks in building envelope",
+          "tape not sticking in cold weather",
+          "ripped vapour-permeable wrap",
+          "failing blower door test"
+        ],
+        "placement": [
+          "wall",
+          "external wall",
+          "roof",
+          "roofline",
+          "duct"
+        ],
+        "priority_fit": [
+          "easy_install",
+          "condensation",
+          "sustainability"
+        ],
+        "use_cases": [
+          "sealing horizontal and vertical laps of Ametalin VapourTech wall wraps on timber or steel frames",
+          "taping around window flanges and door openings to create an airtight weather barrier",
+          "patching cuts, punctures, or tears in pliable building membranes during construction",
+          "sealing penetrations for electrical conduits, plumbing pipes, and HVAC ducting in Passive House builds"
+        ],
+        "not_for": [
+          "high-stress mechanical strapping",
+          "submerged waterproofing joints",
+          "hot flue sealing above 80°C"
+        ],
+        "rag_summary": "Ametalin QuickTape (QuickTape Blue) is a high-performance woven polymer fabric tape coated with an aggressive cold-weather acrylic adhesive, designed specifically for joining and sealing pliable building membranes. Featuring a release-liner-free design and hand-tearable construction, it accelerates installation while eliminating jobsite rubbish. Operating reliably from -30°C to over 80°C, it provides airtight and vapour-tight seams across Ametalin VapourTech wall wraps, roof sarkings, and duct penetrations to ensure high-performance envelope integrity and Passive House compliance."
+      },
+      {
+        "family_id": "AUTEX_ACCENT_CEILING_TILES",
+        "tds_url": "https://www.autexglobal.com/au/products/accent-ceiling-tiles/",
+        "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
+        "description": "Autex Accent Ceiling Tiles are a simple, modest, high-performance acoustic tile designed to fit within standard suspended grid systems and comply with typical loading standards[][][]. Made from non-woven, needle-punched 100% polyester fibre containing a minimum of 60% post-consumer recycled content, the tiles are lightweight yet sturdy, ensuring they will not chip, crack, or break during or after installation[][][]. Developed with two functional sides for creative flexibility, they feature one smooth classic white face and one vibrant coloured face to deliver an NRC rating of 0.85 (Class A sound absorption)[][][].",
+        "features": [
+          ",\n      ",
+          "Two functional sides: solid colour and classic white for design versatility[",
+          ",\n      ",
+          "Made from 100% polyester fibre with a minimum of 60% post-consumer recycled material[",
+          ",\n      ",
+          "Will not chip",
+          "crack",
+          "or break",
+          "eliminating site wastage[",
+          ",\n      ",
+          "High acoustic performance with NRC 0.85 (Class A absorption)[",
+          ",\n      ",
+          "Spun-bond cover protects tiles during installation[",
+          ",\n      ",
+          "Naturally resistant to moisture",
+          "mould",
+          "and mildew (ASTM G21-15 Growth Rating: 0)[",
+          ",\n      ",
+          "Safe",
+          "non-toxic",
+          "non-irritant",
+          "and non-allergenic[",
+          "Group 1 fire rating to AS ISO 9705 - 2003 and Group 1-S to ISO 9705[][",
+          "Certified Carbon Neutral product with third-party verified EPD[]["
+        ],
+        "applications": [
+          "ceiling"
+        ],
+        "technical": [
+          {
+            "property": "Noise Reduction Coefficient (NRC)",
+            "value": "0.85",
+            "standard": "ASTM C423 / ISO 354"
+          },
+          {
+            "property": "Sound Absorption Class",
+            "value": "Class A (αw 0.85)",
+            "standard": "ISO 11654"
+          },
+          {
+            "property": "Tile Dimensions",
+            "value": "595 mm x 1195 mm (fits 600 x 1200 mm grid)",
+            "standard": ""
+          },
+          {
+            "property": "Thickness",
+            "value": "12 mm (tolerance +/- 6%)",
+            "standard": ""
+          },
+          {
+            "property": "Weight",
+            "value": "2400 gsm",
+            "standard": ""
+          },
+          {
+            "property": "Material Composition",
+            "value": "100% polyester fibre (PET)",
+            "standard": ""
+          },
+          {
+            "property": "Recycled Content",
+            "value": "Minimum 60% post-consumer recycled PET (from bottle flakes)",
+            "standard": ""
+          },
+          {
+            "property": "Fire Hazard Classification",
+            "value": "Group 1 (AS ISO 9705 - 2003); Group 1-S (ISO 9705:1993); Class B-s1, d0 (BS EN 13501-1:2018)",
+            "standard": "AS ISO 9705 / ISO 9705 / BS EN 13501-1"
+          },
+          {
+            "property": "Microbial Resistance",
+            "value": "Growth Rating: 0 (No Growth)",
+            "standard": "ASTM G21-15"
+          },
+          {
+            "property": "Impact Resistance",
+            "value": "Resists 70 Joule impact adhered to 10mm plasterboard",
+            "standard": ""
+          },
+          {
+            "property": "Volatile Organic Compounds (VOC)",
+            "value": "Low VOC, certified indoor air quality",
+            "standard": ""
+          }
+        ],
+        "range": [
+          {
+            "variant": "Accent Ceiling Tile (595 x 1195 mm)",
+            "size_or_rating": "595 mm x 1195 mm x 12 mm, NRC 0.85",
+            "pack": "Box of tiles"
+          }
+        ],
+        "fire": "AS ISO 9705 - 2003: Group 1; ISO 9705: Group 1-S; BS EN 13501-1:2018: Class B-s1, d0[][",
+        "compliance": "Complies with NCC BCA Group 1 fire regulations for interior ceiling finishes; ISO 9001 and ISO 14001 accredited manufacturing; EPD compliant with ISO 14025 and EN 15804[][][][",
+        "sustainability": "Made from 100% polyester fibre containing minimum 60% post-consumer recycled PET; 100% recyclable; certified Carbon Neutral; zero VOCs and no chemical binders[][][",
+        "install": [
+          ",\n      ",
+          "Ensure the suspended metric ceiling grid system (600 x 1200 mm) is installed square and true[",
+          ",\n      ",
+          "Take care when working around electrical wiring and services; treat all wires as live[",
+          ",\n      \"Gently tilt tile and lift up through standard 600 x 1200 mm ceiling grid opening[\",\n      ",
+          "Select desired face orientation (vibrant colour facing downward or classic white facing downward)[",
+          ",\n      ",
+          "Carefully lower tile squarely into grid flanges",
+          "avoiding edge crushing[",
+          ",\n      ",
+          "Remove the protective spun-bond cover once the tile is safely seated in the grid[",
+          ",\n      ",
+          "Where perimeter cutting is required",
+          "cut neatly using a sharp utility knife and straight edge[",
+          "Can be paired with acoustic insulation overlay batts if higher transmission loss is required["
+        ],
+        "selection_checklist": [
+          ",\n      ",
+          "Choose face colour from Autex Cube palette (over 20 colours available)[",
+          ",\n      ",
+          "Verify batch numbers match across all boxes to eliminate potential dye-lot variation[",
+          ",\n      ",
+          "Confirm acoustic target requires high reverberation control (NRC 0.85)[",
+          ",\n      ",
+          "Ensure compliance with NCC Group 1 fire hazard rating for commercial ceilings["
+        ],
+        "accessories": [
+          "Standard two-way exposed ceiling grid (15mm or 24mm tee)",
+          "Utility knife for perimeter trimming",
+          "Acoustic backing insulation batts (optional) [3.3.8]"
+        ],
+        "limitations": [
+          ",\n      ",
+          "Batch-to-batch variations can occur; do not mix different batch lots in the same space[",
+          ",\n      ",
+          "Protect edges from crushing during transport",
+          "handling",
+          "and storage[",
+          ",\n      ",
+          "Avoid direct water leaks from overhead plumbing or roof penetration["
+        ],
+        "warranty": "Manufacturer's guarantee by Autex Acoustics[][",
+        "found": true,
+        "search_keywords": [
+          "Autex Accent Ceiling Tiles",
+          "Accent Ceiling Tiles",
+          "Autex ceiling tiles",
+          "polyester acoustic ceiling tiles",
+          "coloured ceiling tiles",
+          "600x1200 acoustic ceiling tiles",
+          "drop in acoustic ceiling tiles",
+          "suspended ceiling acoustic tiles",
+          "Autex Quietspace Accent",
+          "NRC 0.85 ceiling tile"
+        ],
+        "problem_keywords": [
+          "echo in commercial office",
+          "reverberation in classroom",
+          "broken mineral fibre ceiling tiles",
+          "dusty ceiling tiles",
+          "noisy open plan workspace",
+          "drab white drop ceiling upgrade",
+          "reverberation in meeting room"
+        ],
+        "placement": [
+          "ceiling"
+        ],
+        "priority_fit": [
+          "acoustic",
+          "sustainability",
+          "easy_install",
+          "fire"
+        ],
+        "use_cases": [
+          "replacing damaged mineral fibre tiles in corporate offices to brighten aesthetics and eliminate speech echo",
+          "installing in school classrooms and lecture theatres to improve speech intelligibility and acoustic comfort",
+          "enhancing reverberation control in retail stores, restaurants, and hospitality venues using coloured tiles",
+          "retrofitting suspended ceilings in healthcare and public facilities where non-shedding, mould-resistant tiles are essential"
+        ],
+        "not_for": [
+          "high-humidity swimming pool enclosures with direct water splashing",
+          "underfloor acoustic decoupling",
+          "external roof or wall weatherproofing"
+        ],
+        "rag_summary": "Autex Accent Ceiling Tiles are lightweight, high-performance acoustic tiles measuring 595 x 1195 x 12 mm, engineered to drop directly into standard 600 x 1200 mm suspended ceiling grids. Manufactured in New Zealand and Australia from 100% polyester fibre with a minimum of 60% recycled PET, they feature a reversible dual-sided design (smooth classic white on one side and a choice of over 20 vibrant colours on the other). With an outstanding NRC of 0.85 (Class A sound absorption), Group 1 fire classification, and certified carbon-neutral credentials, they solve commercial noise reverberation without chipping, cracking, or releasing airborne fibres."
+      }
+    ]
+  }
+]

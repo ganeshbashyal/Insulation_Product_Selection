@@ -1,7 +1,7 @@
 ---
 title: "Aircell Retroshield - Reflective Insulation | Aircell"
-description: "Quality insulation engineered for Australian conditions. Reflects up to 97% of radiant heat, dramatically reducing summer cooling costs while providin"
-keywords: "Aircell Retroshield, Aircell reflective, roof insulation, shed insulation, insulation Australia, Aircell Australia"
+description: "Kingspan AIR-CELL Retroshield is a fibre-free, high-performance thermo-reflective insulation and vapour barrier comprising an encapsulated 7mm air cel"
+keywords: "Aircell Retroshield, Aircell reflective, wall insulation, ceiling insulation, roof insulation, shed insulation, insulation Australia, Aircell Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AIRCELL_RETROSHIELD
 ---
@@ -10,28 +10,46 @@ family_id: AIRCELL_RETROSHIELD
 
 **Aircell Reflective** — reflective foil insulation for radiant heat control.
 
-Quality insulation engineered for Australian conditions. Reflects up to 97% of radiant heat, dramatically reducing summer cooling costs while providing an effective vapour barrier.
+Kingspan AIR-CELL Retroshield is a fibre-free, high-performance thermo-reflective insulation and vapour barrier comprising an encapsulated 7mm air cell core faced on both sides with reflective aluminium foil[][][]. Engineered to combat heat gain and loss via radiation, convection, and conduction, it features an anti-tear surface that provides superior strength during retrofit and new build applications[][]. It is non-allergenic, non-irritant, and CodeMark certified for NCC compliance across residential and commercial buildings[][][].
 
 ## Key features
 
-- High-purity aluminium reflective facing.
-- reflects up to 97% of radiant heat.
-- lightweight and easy to install.
-- provides vapour barrier when properly sealed.
-- excellent thermal performance for roof/ceiling applications.
-- helps meet NCC energy efficiency requirements.
+- , "Unique reflective anti-tear surface[",.
+- 7mm air bubble / thermo-cellular core[.
+- ,.
+- Combats radiation.
+- convection.
+- and conduction heat transfer[.
+- ,.
+- Fibre-free.
+- non-allergenic.
+- non-irritant[.
+- ,.
+- Extra Heavy Duty rating (AS/NZS 4200.1)[.
+- ,.
+- CodeMark-certified for NCC compliance[.
+- ,.
+- Flammability Index ≤ 5 (Low) to AS 1530.2[.
+- ,.
+- Group 1 fire classification to AS/NZS 3837[.
+- Suitable for new build and refurbishment projects[.
 
 ## Applications and selection
 
-- Metal Roof / Shed
+- roof
+- roofline
+- ceiling
+- wall
+- external wall
+- shed
 
 **Selection checklist**
 
-1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
-2. Confirm the target rating and construction build-up with the project team.
-3. Confirm available cavity or fixing depth against the product dimensions.
-4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
-5. Record the suburb/postcode so climate-zone requirements can be checked.
+1. , "Check framing span (ensure ≤ 2.4m or install safety mesh support)[",.
+2. Verify total system R-value calculation includes proper reflective air spaces[.
+3. ,.
+4. Ensure adequate rolls of 72mm reinforced foil tape are ordered for sealing[.
+5. Verify non-conductive safety practices around electrical services[.
 
 
 ## Current catalogue range
@@ -42,35 +60,60 @@ Quality insulation engineered for Australian conditions. Reflects up to 97% of r
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Reflective | Manufacturer catalogue |
-| Material | Reflective Composite | Manufacturer catalogue |
-| Applications | Metal Roof / Shed | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material R-value | R0.14 m²·K/W | ASTM C518 |
+| Product Thickness | 7 mm | - |
+| Roll Dimensions | 1350 mm x 22.25 m (30 m²) | - |
+| Roll Weight | 11 kg | - |
+| Roll Diameter | 440 mm | - |
+| Reflectance | 97% | - |
+| Emittance | E0.03 | ASTM E408 |
+| Duty Rating | Extra Heavy | AS/NZS 4200.1 |
+| Flammability Index | 3 (Low, Index ≤ 5) | AS 1530.2 |
+| Cone Calorimeter Classification | Group 1 | AS/NZS 3837 |
+| Vapour Transmission | Medium (Vapour Barrier) | ASTM E96 |
+| Water Penetration | High Resistance | AS/NZS 4201.4 |
+| Maximum Span | 2.4 m without support mesh | - |
 
-
+Extracted from manufacturer datasheet: https://www.insulation.kingspan.com/au/en/products/reflective-insulation/air-cell-retroshield
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Flammability Index 3 (Low) to AS 1530.2; Group 1 to AS/NZS 3837; early fire hazard indices 0/0/0/0-1 to AS 1530.3[][
+
+AS/NZS 4859.1:2002 Amdt 1, AS/NZS 4200.1, CodeMark Certified CM20001 for BCA/NCC compliance[][][][
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://www.kingspan.com/au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://www.allcongroup.com.au/wp-content/uploads/2025/10/kingspan-greenguard-safety-data-sheet-en-au.pdf.
 
+## Recommended accessories
+
+- Kingspan AIR-CELL reinforced foil tape (72mm) [1.2.1].
+- Application squeegee / roller[.
+- Roof safety mesh (for spans > 2.4m)[.
+
 
 ## Limitations and warnings
 
-- Reflective performance requires maintained airspace..
-- conductive material - keep away from electrical services..
-- not suitable as sole insulation in cold climates..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Can be damaged by heat exceeding 105°C; avoid direct exposure to sparks, torches, or open flames [1.2.9].
+- Aluminium foil facings are electrically conductive; avoid contact with uninsulated electrical cables[.
+- Not a walking surface; do not step directly on unsupported insulation[.
+- Accumulation of dust on upward-facing reflective surfaces reduces thermal performance[][.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Reflective performance requires maintained airspace.
+1. ,.
+2. Allow recommended sag between framing members (approx. 40mm) to create reflective air spaces[.
+3. ,.
+4. Overlap joins by 150mm if untaped.
+5. or 50mm if taped.
+6. Tape all longitudinal and end joins with 72mm wide Kingspan reinforced aluminium foil tape[.
+7. Firmly squeegee or roll tape to ensure permanent pressure-sensitive adhesion[.
+8. Maintain minimum 50mm clearance around heat-producing flues and recessed light fittings[.
+9. If span between framing exceeds 2.4m, install safety mesh support prior to laying insulation[][.
 
 ## Safety and handling
 
@@ -78,11 +121,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Fibre-free, zero ODP, non-allergenic, clean to install without itchy fibres[][
 
 ## Warranty, returns and support
 
-No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
+15 years[
 
 ## Specification starting point
 

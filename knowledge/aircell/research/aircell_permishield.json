@@ -1,0 +1,202 @@
+{
+  "family_id": "AIRCELL_PERMISHIELD",
+  "family_name": "Aircell Permishield",
+  "datasheet_pdf_url": "https://www.insulation.kingspan.com/au/en/products/reflective-insulation/air-cell-permishield-xv-70",
+  "sds_url": "https://www.insulation.kingspan.com/au/en/products/reflective-insulation/",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "Kingspan AIR-CELL Permishield XV 70 is an Australian-made, fibre-free, closed-cell thermo-reflective insulation and sarking engineered specifically for framed and reverse brick veneer walls behind lightweight claddings[][][]. It combines thermal insulation, a thermal break, and a vapour-permeable sarking pierced with evenly spaced breather holes into a single 3-in-1 product[][]. It protects the wall structure from external water penetration while allowing internal moisture vapour to escape, significantly reducing interstitial condensation risk[][].",
+    "features": [
+      ",\n      ",
+      "3-in-1 insulation",
+      "thermal break",
+      "and vapour-permeable sarking[",
+      "CodeMark-certified for NCC compliance[][",
+      "AS/NZS 4859.1:2018 compliant[",
+      "Class 3 vapour permeable (0.300 µg/N·s)[][",
+      "Water-resistant and unaffected by moisture (passes water barrier test)[][][",
+      "Fibre-free, non-allergenic, non-irritant[][",
+      "Anti-bacterial and anti-fungal[",
+      "Rodent and insect resistant[",
+      "Extra Heavy Duty rating (AS/NZS 4200.1)["
+    ],
+    "applications": [
+      "external wall",
+      "wall",
+      "shed"
+    ],
+    "technical": [
+      {
+        "property": "Material R-value",
+        "value": "R0.20 m²·K/W at 23°C",
+        "standard": "ASTM C518-2017"
+      },
+      {
+        "property": "Product Thickness",
+        "value": "7.2 mm",
+        "standard": ""
+      },
+      {
+        "property": "Roll Dimensions",
+        "value": "1350 mm x 22.25 m (30 m²)",
+        "standard": ""
+      },
+      {
+        "property": "Roll Weight",
+        "value": "9.15 kg",
+        "standard": ""
+      },
+      {
+        "property": "Roll Diameter",
+        "value": "450 mm",
+        "standard": ""
+      },
+      {
+        "property": "Reflectance (Reflective Face)",
+        "value": "97%",
+        "standard": ""
+      },
+      {
+        "property": "Reflectance (Anti-Glare Face)",
+        "value": "88%",
+        "standard": ""
+      },
+      {
+        "property": "Emittance (Reflective Face)",
+        "value": "E0.03",
+        "standard": ""
+      },
+      {
+        "property": "Emittance (Anti-Glare Face)",
+        "value": "E0.12 (Category RS)",
+        "standard": ""
+      },
+      {
+        "property": "Vapour Permeability",
+        "value": "0.300 µg/N·s (Class 3 Vapour Permeable)",
+        "standard": "ASTM E96 / AS/NZS 4200.1"
+      },
+      {
+        "property": "Water Control",
+        "value": "Pass (Water Barrier)",
+        "standard": "AS/NZS 4201.4"
+      },
+      {
+        "property": "Duty Rating",
+        "value": "Extra Heavy",
+        "standard": "AS/NZS 4200.1"
+      },
+      {
+        "property": "Burst Strength",
+        "value": "0.9 kN",
+        "standard": "AS 3706.4"
+      },
+      {
+        "property": "Flammability Index",
+        "value": "≤ 5 (Low)",
+        "standard": "AS 1530.2"
+      },
+      {
+        "property": "Cone Calorimeter Classification",
+        "value": "Group 1",
+        "standard": "AS/NZS 3837"
+      },
+      {
+        "property": "Maximum Unsupported Span",
+        "value": "2.4 m",
+        "standard": ""
+      }
+    ],
+    "range": [
+      {
+        "variant": "AIR-CELL Permishield XV 70",
+        "size_or_rating": "1350 mm x 22.25 m x 7.2 mm (30 m²)",
+        "pack": "Roll"
+      }
+    ],
+    "fire": "Flammability Index ≤ 5 (Low) to AS 1530.2; Group 1 to AS/NZS 3837; early fire hazard 0/0/0/0-1 to AS 1530.3[][",
+    "compliance": "AS/NZS 4859.1:2018, AS/NZS 4200.1, CodeMark Certified for NCC compliance, NCC 2019/2022 thermal break R0.20 compliant[][][][",
+    "sustainability": "Fibre-free core; non-allergenic; non-irritant; low VOC; zero ODP; Australian made[][][",
+    "install": [
+      "Fix Kingspan AIR-CELL Permishield XV 70 loosely to outside of frame, leaving flexibility to dish into cavity if required [1.1.9]",
+      "Install with anti-glare face facing outward towards the installer[][",
+      "Cut carefully around doors, windows, and openings so that it neatly abuts frames[][",
+      "Butt join sheets and tape all joins with 48mm wide Kingspan reinforced foil tape[][",
+      "When taping, use a plastic squeegee or blade to apply firm, even pressure[",
+      "Provide outer air space by adhering Kingspan AIR-CELL Spacer Biscuits to outer face (approx. 3 per square metre)[",
+      "Maintain minimum 50mm clearance around heat-producing flues and recessed light fittings[",
+      "Fix counter-battens and exterior cladding in accordance with cladding manufacturer instructions["
+    ],
+    "selection_checklist": [
+      ",\n      ",
+      "Verify lightweight cladding manufacturer requires a Class 3 vapour-permeable membrane[",
+      ",\n      ",
+      "Confirm need for R0.20 thermal break on steel studs to satisfy NCC energy provisions[",
+      ",\n      ",
+      "Ensure 48mm reinforced foil tape and spacer biscuits are included in quantity calculations[",
+      ",\n      ",
+      "Check clearances around penetrations",
+      "window frames",
+      "and structural corners["
+    ],
+    "accessories": [
+      ",\n      ",
+      "Kingspan AIR-CELL Spacer Biscuits[",
+      "Application squeegee["
+    ],
+    "limitations": [
+      "Can be damaged by intense heat above 105°C; keep away from sparks and naked flames [1.2.9]",
+      "Aluminium facings are electrically conductive; avoid contact with live electrical wiring[",
+      "Not suitable for roofing applications requiring sarking with zero vapour permeance[][",
+      "Surfaces must be clean, dry, and free of dust or grease prior to taping["
+    ],
+    "warranty": "15 years["
+  },
+  "retrieval": {
+    "search_keywords": [
+      "AIR-CELL Permishield",
+      "Permishield XV 70",
+      "Kingspan Permishield",
+      "vapour permeable foil insulation",
+      "breathable wall sarking",
+      "thermal break wall insulation",
+      "reverse brick veneer insulation",
+      "steel frame thermal break foil",
+      "Class 3 vapour permeable sarking",
+      "fibre-free wall wrap"
+    ],
+    "problem_keywords": [
+      "condensation in external walls",
+      "thermal bridging through steel studs",
+      "moisture buildup behind lightweight cladding",
+      "cold drafty framed walls",
+      "interstitial condensation risk",
+      "meeting NCC R0.20 thermal break requirement"
+    ],
+    "placement": [
+      "wall",
+      "external wall",
+      "shed"
+    ],
+    "priority_fit": [
+      "thermal",
+      "condensation",
+      "fire",
+      "easy_install"
+    ],
+    "use_cases": [
+      "wrapping steel-framed residential walls behind fibre-cement cladding to deliver an R0.20 thermal break and vapour breathability",
+      "installing in reverse brick veneer constructions to control heat flow and prevent condensation",
+      "insulating timber-framed walls behind lightweight cladding requiring Class 3 vapour permeance"
+    ],
+    "not_for": [
+      "pitched or flat roof sarking where Class 1 or 2 vapour barrier is mandatory",
+      "direct floor underlay under tiles or floorboards",
+      "high-temperature pipe lagging"
+    ],
+    "rag_summary": "Kingspan AIR-CELL Permishield XV 70 is an Australian-made 7.2mm thick, 3-in-1 thermo-reflective insulation, thermal break, and Class 3 vapour-permeable sarking. Manufactured with a closed-cell polyolefin core sandwiched between reflective foil facings and pierced with micro-breather holes, it provides an in-situ material R-value of R0.20 to satisfy NCC thermal break provisions on steel-framed walls. It allows internal moisture vapour to breathe outward while blocking external liquid water, making it the premier choice behind lightweight claddings and reverse brick veneer wall assemblies."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}

@@ -1,0 +1,62 @@
+{
+  "family_id": "AIRCELL_RETROSHIELD_XL",
+  "family_name": "Aircell Retroshield XL",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "gemini_not_found",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "description": "",
+    "features": [],
+    "applications": [],
+    "technical": [],
+    "range": [],
+    "fire": "",
+    "compliance": "",
+    "sustainability": "",
+    "install": [],
+    "selection_checklist": [],
+    "accessories": [],
+    "limitations": [],
+    "warranty": ""
+  },
+  "retrieval": {
+    "search_keywords": [
+      "Aircell Retroshield XL",
+      "Kingspan Retroshield XL",
+      "Retroshield XL closed cell",
+      "Retroshield cross linked foam",
+      "heavy duty reflective insulation",
+      "commercial roof reflective blanket"
+    ],
+    "problem_keywords": [
+      "high thermal break requirement",
+      "extreme roof space heat",
+      "heavy duty commercial roof insulation",
+      "condensation under commercial metal decking"
+    ],
+    "placement": [
+      "roof",
+      "roofline",
+      "wall",
+      "shed"
+    ],
+    "priority_fit": [
+      "thermal",
+      "fire",
+      "condensation"
+    ],
+    "use_cases": [
+      "insulating wide-span industrial roof structures requiring higher tear resistance and thermal performance",
+      "commercial wall cladding assemblies needing durable double-sided foil insulation"
+    ],
+    "not_for": [
+      "under-carpet domestic floor underlay",
+      "breathable open cavity walls needing Class 4 vapour permeability",
+      "direct exposure to weather without external roof/wall cladding"
+    ],
+    "rag_summary": "Kingspan AIR-CELL Retroshield XL was an upgraded commercial variant featuring a cross-linked closed-cell foam core sandwiched between plain reflective aluminium foil facings on both sides. Formulated to offer higher thermal buffering and enhanced structural durability compared to standard bubble core insulation, it served large-span commercial roofs, warehouses, and industrial wall envelopes. Formerly CodeMark certified under certificate CM20001, it has since been superseded in Kingspan's contemporary product portfolio."
+  },
+  "source_excerpt": null,
+  "engine": "ai_studio_batch"
+}
