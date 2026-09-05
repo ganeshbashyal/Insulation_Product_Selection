@@ -35,7 +35,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from audit_datasheet_links import OFFICIAL_DOMAINS
 import tds_research_agent as local_agent  # reuse slugify, research_path, caching helpers
 
-MODEL = os.getenv("GEMINI_MODEL", "gemini-2.0-flash")
+MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
 
 SPEC_KEYS = ["description", "features", "applications", "technical", "fire", "sustainability", "install"]
 
