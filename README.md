@@ -94,6 +94,26 @@ cd "C:\Users\ganes\OneDrive\Documents\GitHub\Insulation_Product_Selection"
 streamlit run app.py
 ```
 
+### Optional: product literature (sales/SEO pages + DOCX)
+
+[`scripts/generate_family_literature.py`](scripts/generate_family_literature.py) mines the deep-dive docs, `families.json` and the SKU catalogue to produce a concise, customer-facing page (`output/literature/<manufacturer>/<family>.md`) and a matching Word document (`.docx`) for every family, structured like the Thermotec 4-Zero literature draft (description, key features, applications + selection checklist, range table, technical data, compliance, install, safety, sustainability, warranty, spec clause, source register, review actions). Each page carries SEO `title`/`description`/`keywords`. Runs locally with no LLM; content-hashed so repeat runs only regenerate changed families:
+
+```powershell
+python scripts/generate_family_literature.py            # all 287 families
+python scripts/generate_family_literature.py --only Autex
+```
+
+### Optional: deployable website agent
+
+[`web_agent.py`](web_agent.py) serves the same conversation flow as a self-hosted FastAPI app (no Streamlit), so it can be embedded on a website. It reuses the deterministic ranker/gates and logs every conversation for interaction learning:
+
+```powershell
+uvicorn web_agent:app --host 0.0.0.0 --port 8000
+# embed: <iframe src="https://your-server/chat" style="width:420px;height:640px;border:0"></iframe>
+```
+
+Interaction learning ([`interaction_store.py`](interaction_store.py)) records each completed conversation and its recommended family; reviewers then record an outcome (`approved` / `edited` / `rejected`, with an optional corrected family). Per-family stats (`/api/learning/families`), pending reviews (`/api/learning/pending`) and recent rejections (`/api/learning/rejections`) show where the deterministic ranker misfires so the team can tune it. Learning informs human tuning — it never auto-changes live recommendations.
+
 ### Optional: natural reply phrasing via a local LLM
 
 By default the chat's questions and recommendation replies are built from fixed template text — safe, but repetitive. To have replies phrased more naturally, run a local [Ollama](https://ollama.com) server (no external API, no data leaves your machine/server):
