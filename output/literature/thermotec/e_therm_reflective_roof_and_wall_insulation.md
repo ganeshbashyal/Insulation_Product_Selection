@@ -1,6 +1,6 @@
 ---
 title: "E-Therm Reflective Roof and Wall Insulation - Reflective Insulation | Thermotec"
-description: ""
+description: "E-Therm Reflective Roof and Wall Insulation is a reflective insulation product family from Thermotec. View the catalogue range, applications and speci"
 keywords: "E-Therm Reflective Roof and Wall Insulation, Thermotec reflective, wall insulation, roof insulation, shed insulation, R-value insulation, insulation Australia, Thermotec Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: THERMOTEC_E_THERM
@@ -32,6 +32,7 @@ E-Therm Reflective Roof and Wall Insulation is a reflective product family from 
 4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
 5. Record the suburb/postcode so climate-zone requirements can be checked.
 
+
 ## Current catalogue range
 
 | SKU | Product | Published rating |
@@ -49,17 +50,21 @@ E-Therm Reflective Roof and Wall Insulation is a reflective product family from 
 | Applications | metal roof; shed; roof; wall; reflective insulation | Manufacturer catalogue |
 | Published ratings | R1.2, R2.5 | Internal catalogue; confirm against current TDS |
 
-## Compliance and review status
+
+
+## Fire, testing and compliance context
+
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
-- Fire: not verified per SKU.
 - BAL: not verified.
 - Datasheet: https://thermotec.com.au/products/thermotec-e-therm-roof-wall-insulation (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: to be sourced.
 
+
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. 
+Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU.
 
 ## Safety and handling
 

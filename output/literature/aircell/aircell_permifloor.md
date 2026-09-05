@@ -33,6 +33,7 @@ Quality insulation engineered for Australian conditions. Reflects up to 97% of r
 4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
 5. Record the suburb/postcode so climate-zone requirements can be checked.
 
+
 ## Current catalogue range
 
 | Rating | Type | Thickness | Dimensions | SKUs |
@@ -49,13 +50,26 @@ Quality insulation engineered for Australian conditions. Reflects up to 97% of r
 | Applications | Floor | Manufacturer catalogue |
 | Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
 
-## Compliance and review status
+
+
+## Fire, testing and compliance context
+
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
-- Fire: not verified per SKU.
 - BAL: not verified.
 - Datasheet: https://www.kingspan.com/au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://www.allcongroup.com.au/wp-content/uploads/2025/10/kingspan-greenguard-safety-data-sheet-en-au.pdf.
+
+
+## Limitations and warnings
+
+- Reflective performance requires maintained airspace..
+- conductive material - keep away from electrical services..
+- not suitable as sole insulation in cold climates..
+- Ensure adequate subfloor ventilation is maintained..
+- do not leave exposed to ground moisture or subfloor dampness..
+- confirm product selection matches specified thermal/acoustic/fire rating..
 
 ## Installation overview
 

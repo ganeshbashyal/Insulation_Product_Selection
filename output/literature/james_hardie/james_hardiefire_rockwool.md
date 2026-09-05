@@ -35,6 +35,7 @@ Quality insulation engineered for Australian conditions. Made from natural volca
 4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
 5. Record the suburb/postcode so climate-zone requirements can be checked.
 
+
 ## Current catalogue range
 
 | Rating | Type | Thickness | Dimensions | SKUs |
@@ -54,13 +55,26 @@ Quality insulation engineered for Australian conditions. Made from natural volca
 | Applications | Party Wall Fire | Manufacturer catalogue |
 | Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
 
-## Compliance and review status
+
+
+## Fire, testing and compliance context
+
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
-- Fire: not verified per SKU.
 - BAL: not verified.
 - Datasheet: https://www.jameshardie.com.au/ContentfulCMS/Installation-Guide/Hardie_Wrap_Weather_Barrier_Installation_Guide.pdf (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://www.jameshardie.com.au/ContentfulCMS/Installation-Guide/Hardie_Wrap_Weather_Barrier_Installation_Guide.pdf.
+
+
+## Limitations and warnings
+
+- Keep dry during storage and installation - if product becomes wet, dry thoroughly before installing..
+- not a water or vapour barrier - use appropriate building wrap..
+- do not compress - compression reduces R-value performance..
+- not to be exposed to weather..
+- maximum service temperature 750°C..
+- Acoustic and fire ratings are system-based - verify complete wall assembly matches tested configuration..
 
 ## Installation overview
 

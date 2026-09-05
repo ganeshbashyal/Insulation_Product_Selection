@@ -1,6 +1,6 @@
 ---
 title: "4-Zero Fire Retardant Pipe Insulation - Pipe Insulation | Thermotec"
-description: ""
+description: "4-Zero Fire Retardant Pipe Insulation is a pipe insulation product family from Thermotec. View the catalogue range, applications and specification sta"
 keywords: "4-Zero Fire Retardant Pipe Insulation, Thermotec pipe, pipe insulation, R-value insulation, insulation Australia, Thermotec Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: THERMOTEC_4_ZERO
@@ -30,6 +30,7 @@ family_id: THERMOTEC_4_ZERO
 3. Confirm available cavity or fixing depth against the product dimensions.
 4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
 5. Record the suburb/postcode so climate-zone requirements can be checked.
+
 
 ## Current catalogue range
 
@@ -72,17 +73,21 @@ _36 further catalogue variants not listed here._
 | Applications | HVAC pipe; refrigeration pipe; hot water pipe; commercial services | Manufacturer catalogue |
 | Published ratings | R1.2, R1.3, R102, R13, R2.0, R2.5, R20, R25 | Internal catalogue; confirm against current TDS |
 
-## Compliance and review status
+
+
+## Fire, testing and compliance context
+
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
-- Fire: not verified per SKU.
 - BAL: not verified.
 - Datasheet: https://thermotec.com.au/products/thermotec-4-zero (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: to be sourced.
 
+
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. 
+Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU.
 
 ## Safety and handling
 

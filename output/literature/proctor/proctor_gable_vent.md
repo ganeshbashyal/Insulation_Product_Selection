@@ -29,6 +29,7 @@ Quality insulation engineered for Australian conditions. Engineered to meet Aust
 4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
 5. Record the suburb/postcode so climate-zone requirements can be checked.
 
+
 ## Current catalogue range
 
 | Rating | Type | Thickness | Dimensions | SKUs |
@@ -45,13 +46,22 @@ Quality insulation engineered for Australian conditions. Engineered to meet Aust
 | Applications | Ventilation | Manufacturer catalogue |
 | Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
 
-## Compliance and review status
+
+
+## Fire, testing and compliance context
+
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
-- Fire: not verified per SKU.
 - BAL: not verified.
 - Datasheet: https://proctorgroup.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://proctorgroup.com.au/wp-content/uploads/2021/02/DCT_PIR_Silver_White_Tissue_Ver_2_2020-2.pdf.
+
+
+## Limitations and warnings
+
+- Install in accordance with manufacturer specifications..
+- confirm product selection matches specified thermal/acoustic/fire rating..
 
 ## Installation overview
 

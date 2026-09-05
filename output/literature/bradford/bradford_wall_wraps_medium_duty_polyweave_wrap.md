@@ -33,6 +33,7 @@ Part of the CSR family with 100+ years of Australian building solutions. Reflect
 4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
 5. Record the suburb/postcode so climate-zone requirements can be checked.
 
+
 ## Current catalogue range
 
 | Rating | Type | Thickness | Dimensions | SKUs |
@@ -49,13 +50,24 @@ Part of the CSR family with 100+ years of Australian building solutions. Reflect
 | Applications | Wall Wrap / Sarking | Manufacturer catalogue |
 | Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
 
-## Compliance and review status
+
+
+## Fire, testing and compliance context
+
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
-- Fire: not verified per SKU.
 - BAL: not verified.
 - Datasheet: https://www.csrbradford.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://www.firecrunch.com.au/wp-content/uploads/2016/02/BRADFORD-MSDS-e3a0-435b-b6ef-6f1027726ce6.pdf.
+
+
+## Limitations and warnings
+
+- Reflective performance requires maintained airspace..
+- conductive material - keep away from electrical services..
+- not suitable as sole insulation in cold climates..
+- confirm product selection matches specified thermal/acoustic/fire rating..
 
 ## Installation overview
 

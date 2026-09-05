@@ -3,7 +3,6 @@
 Runs entirely locally, no LLM calls. Mines the existing deep-dive markdown docs,
 families.json, and the SKU catalogue, then produces for each family:
   - output/literature/<manufacturer>/<slug>.md    (customer-facing page)
-  - output/literature/<manufacturer>/<slug>.docx  (matching Word document)
 
 The copy follows the structure of the Thermotec 4-Zero literature draft
 (product description, key features, applications/selection checklist, range
@@ -38,7 +37,7 @@ sys.path.insert(0, str(ROOT))
 OUT_DIR = ROOT / "output" / "literature"
 SKU_CSV = ROOT / "data" / "processed" / "product_catalogue_skus.csv"
 STATE_FILE = OUT_DIR / ".literature_state.json"
-GENERATOR_VERSION = "3"  # bump when the template changes so all outputs regenerate
+GENERATOR_VERSION = "4"  # bump when the template changes so all outputs regenerate
 
 CATEGORY_TAGLINES = {
     "Batt": "bulk insulation batts for thermal and acoustic performance",
@@ -357,113 +356,6 @@ _Draft generated 2026-09-05 from the internal knowledge base. Technical values a
     return md, meta
 
 
-def build_docx(meta: dict, out_path: Path) -> None:
-    from docx import Document
-    from docx.shared import Pt
-
-    doc = Document()
-    doc.add_paragraph(meta["category"].upper() if meta["category"] else "INSULATION")
-    doc.add_paragraph(meta["name"]).runs[0].font.size = Pt(22)
-    doc.add_paragraph(meta["tagline"].capitalize())
-
-    doc.add_heading("1. Product description", level=1)
-    doc.add_paragraph(meta["description"] or f"{meta['name']} is a {meta['category'].lower()} product family from {meta['manufacturer']}.")
-    doc.add_heading("Key features", level=2)
-    for feature in meta["features"]:
-        doc.add_paragraph(feature + ".", style="List Bullet")
-
-    doc.add_heading("2. Applications and selection", level=1)
-    for app in meta["applications"]:
-        doc.add_paragraph(app, style="List Bullet")
-    doc.add_heading("Selection checklist", level=2)
-    for step in [
-        "Confirm the application matches the family.",
-        "Confirm the target rating and construction build-up.",
-        "Confirm available depth against product dimensions.",
-        "Check NCC, fire, BAL or acoustic requirements with a qualified reviewer.",
-        "Record the suburb/postcode for climate-zone checks.",
-    ]:
-        doc.add_paragraph(step, style="List Number")
-
-    doc.add_heading("3. Current catalogue range", level=1)
-    skus = meta["skus"]
-    if not skus.empty:
-        table = doc.add_table(rows=1, cols=3)
-        table.style = "Light Grid Accent 1"
-        for cell, header in zip(table.rows[0].cells, ["SKU", "Product", "Published rating"]):
-            cell.text = header
-        for _, sku in skus.head(25).iterrows():
-            cells = table.add_row().cells
-            cells[0].text = clean(sku["our_sku"])
-            cells[1].text = clean(sku["product_name"])
-            cells[2].text = rating_summary(pd.Series([sku["thermal_r_value"], sku["acoustic_rw"], sku["nrc_aw"]]))
-    else:
-        doc.add_paragraph("Range not yet extracted; confirm variants against the current manufacturer TDS.")
-
-    doc.add_heading("4. Technical data", level=1)
-    table = doc.add_table(rows=1, cols=3)
-    table.style = "Light Grid Accent 1"
-    if meta["technical"]:
-        for cell, header in zip(table.rows[0].cells, ["Property", "Value", "Standard"]):
-            cell.text = header
-        for row in meta["technical"][:20]:
-            cells = table.add_row().cells
-            cells[0].text = clean(row.get("property"))
-            cells[1].text = clean(row.get("value"))
-            cells[2].text = clean(row.get("standard")) or "-"
-        if meta.get("datasheet_pdf_url"):
-            doc.add_paragraph(f"Extracted from manufacturer datasheet: {meta['datasheet_pdf_url']}")
-    else:
-        for cell, header in zip(table.rows[0].cells, ["Property", "Value", "Source"]):
-            cell.text = header
-        for prop, value, source in [
-            ("Product type", meta["category"], "Manufacturer catalogue"),
-            ("Material", meta["material"] or "Not specified", "Manufacturer catalogue"),
-            ("Applications", "; ".join(meta["applications"]) or "General building applications", "Manufacturer catalogue"),
-        ]:
-            cells = table.add_row().cells
-            cells[0].text, cells[1].text, cells[2].text = prop, value, source
-
-    doc.add_heading("5. Fire, testing and compliance context", level=1)
-    doc.add_paragraph(meta["fire_text"] or "Fire: not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.")
-    doc.add_paragraph("NCC / project compliance: conditional - project-specific evidence required. BAL: not verified.")
-
-    doc.add_heading("6. Installation overview", level=1)
-    if meta["install_steps"]:
-        for step in meta["install_steps"]:
-            doc.add_paragraph(step + ".", style="List Number")
-    else:
-        doc.add_paragraph("Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU.")
-
-    doc.add_heading("7. Safety, handling and SDS status", level=1)
-    doc.add_paragraph(f"SDS: {meta['sds_url'] or 'to be sourced'}. Confirm the current SDS before handling or cutting.")
-
-    doc.add_heading("8. Sustainability and indoor environment", level=1)
-    doc.add_paragraph(meta["sustainability_text"] or "Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft.")
-
-    doc.add_heading("9. Warranty, returns and support", level=1)
-    doc.add_paragraph("No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms.")
-
-    doc.add_heading("10. Specification starting point", level=1)
-    doc.add_paragraph(f"Insulation shall be {meta['name']} ({meta['category'].lower()}) by {meta['manufacturer']}, selected to suit the confirmed application and required rating. Exact product, thickness and compliance to be confirmed by the project reviewer against the current manufacturer TDS before ordering.")
-
-    doc.add_heading("11. Public document register", level=1)
-    doc.add_paragraph(f"SRC-01 Manufacturer datasheet: {meta['tds_url'] or 'to be sourced'}.")
-    doc.add_paragraph(f"SRC-02 Safety data sheet: {meta['sds_url'] or 'to be sourced'}.")
-
-    doc.add_heading("12. Technical-review actions before publication", level=1)
-    for action in [
-        "Confirm the exact product TDS deep link and re-validate all technical values.",
-        "Confirm SDS currency and handling guidance.",
-        "Approve environmental and warranty wording with the manufacturer.",
-        "Human review of NCC, fire, BAL and acoustic claims remains mandatory.",
-    ]:
-        doc.add_paragraph(action, style="List Bullet")
-
-    doc.add_paragraph("Draft generated 2026-09-05 from the internal knowledge base. Technical values and claims remain subject to manufacturer review before publication.")
-    doc.save(out_path)
-
-
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--only", help="limit to one manufacturer directory name")
@@ -509,10 +401,6 @@ def main() -> None:
             md, meta = build_markdown(family, fm, text, family_skus, research=research)
             out_dir.mkdir(parents=True, exist_ok=True)
             (out_dir / f"{slug}.md").write_text(md, encoding="utf-8")
-            try:
-                build_docx(meta, out_dir / f"{slug}.docx")
-            except Exception as exc:  # noqa: BLE001 - docx failure must not stop the batch
-                print(f"  docx failed for {slug}: {exc}")
             state[state_key] = fingerprint
             written += 1
 

@@ -1,6 +1,6 @@
 ---
 title: "MaxTape FR Insulating Foam Tape - Accessory Insulation | Thermotec"
-description: ""
+description: "MaxTape FR Insulating Foam Tape is a accessory insulation product family from Thermotec. View the catalogue range, applications and specification star"
 keywords: "MaxTape FR Insulating Foam Tape, Thermotec accessory, pipe insulation, R-value insulation, insulation Australia, Thermotec Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: THERMOTEC_MAXTAPE_FR
@@ -31,6 +31,7 @@ MaxTape FR Insulating Foam Tape is a accessory product family from Thermotec. Co
 4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
 5. Record the suburb/postcode so climate-zone requirements can be checked.
 
+
 ## Current catalogue range
 
 | SKU | Product | Published rating |
@@ -47,17 +48,21 @@ MaxTape FR Insulating Foam Tape is a accessory product family from Thermotec. Co
 | Applications | pipe insulation joint; fitting; insulation repair; system accessory | Manufacturer catalogue |
 | Published ratings | R1.2, R2.5 | Internal catalogue; confirm against current TDS |
 
-## Compliance and review status
+
+
+## Fire, testing and compliance context
+
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
-- Fire: not verified per SKU.
 - BAL: not verified.
 - Datasheet: https://thermotec.com.au/products/thermotec-maxflex-insulating-foam-tape (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: to be sourced.
 
+
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. 
+Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU.
 
 ## Safety and handling
 
