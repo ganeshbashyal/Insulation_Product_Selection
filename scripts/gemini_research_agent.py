@@ -9,9 +9,19 @@ NOTE: this sends family/manufacturer names and datasheet text to Google's API
 (user-approved for the research step). The deterministic ranker, customer data
 and the local chat path remain local-only.
 
-Set the key first:
-    $env:GEMINI_API_KEY = "your-key"        # PowerShell
-    export GEMINI_API_KEY=your-key          # bash
+Two ways to authenticate:
+
+  A) AI Studio API key (simple, free-tier quota):
+    $env:GEMINI_API_KEY = "your-key"
+
+  B) Vertex AI (uses your Google Cloud credit, separate/higher quota):
+    $env:GOOGLE_GENAI_USE_VERTEXAI = "true"
+    $env:GOOGLE_CLOUD_PROJECT = "your-project-id"
+    $env:GOOGLE_CLOUD_LOCATION = "us-central1"     # or your region
+    # plus credentials, one of:
+    #   gcloud auth application-default login
+    # or:
+    #   $env:GOOGLE_APPLICATION_CREDENTIALS = "C:\path\to\service-account.json"
 
 Run one family at a time (resumable, one JSON per family):
     python scripts/gemini_research_agent.py                 # next pending family
@@ -76,10 +86,19 @@ Rules: report ONLY what the manufacturer documents actually state — never inve
 
 
 def _client():
+    from google import genai
+    if os.getenv("GOOGLE_GENAI_USE_VERTEXAI", "").casefold() == "true":
+        project = os.getenv("GOOGLE_CLOUD_PROJECT")
+        if not project:
+            raise RuntimeError("GOOGLE_CLOUD_PROJECT is not set (required for Vertex AI)")
+        return genai.Client(
+            vertexai=True,
+            project=project,
+            location=os.getenv("GOOGLE_CLOUD_LOCATION", "us-central1"),
+        )
     key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
     if not key:
-        raise RuntimeError("GEMINI_API_KEY is not set")
-    from google import genai
+        raise RuntimeError("Set GEMINI_API_KEY, or GOOGLE_GENAI_USE_VERTEXAI=true + GOOGLE_CLOUD_PROJECT for Vertex AI")
     return genai.Client(api_key=key)
 
 
@@ -186,8 +205,15 @@ def main() -> None:
         print(f"pending: {len(pending())}")
         return
 
-    if not (os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")):
-        print("GEMINI_API_KEY is not set. Set it first, e.g.:  $env:GEMINI_API_KEY = \"...\"")
+    using_vertex = os.getenv("GOOGLE_GENAI_USE_VERTEXAI", "").casefold() == "true"
+    if not using_vertex and not (os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")):
+        print("No auth configured. Either set GEMINI_API_KEY, or for Vertex AI set:")
+        print('  $env:GOOGLE_GENAI_USE_VERTEXAI = "true"')
+        print('  $env:GOOGLE_CLOUD_PROJECT = "your-project-id"')
+        print("  gcloud auth application-default login")
+        sys.exit(1)
+    if using_vertex and not os.getenv("GOOGLE_CLOUD_PROJECT"):
+        print("GOOGLE_GENAI_USE_VERTEXAI is true but GOOGLE_CLOUD_PROJECT is not set.")
         sys.exit(1)
 
     queue = pending(args.only)
