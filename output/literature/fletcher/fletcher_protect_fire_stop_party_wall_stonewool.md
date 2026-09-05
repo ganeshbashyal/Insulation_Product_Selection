@@ -55,17 +55,20 @@ This family groups Fletcher Protect stonewool components used in specified party
 | Applications | party wall; separating wall; intertenancy wall; roof junction; fire stopping | Manufacturer catalogue |
 | Published ratings | NRC 0.80, NRC 0.85, NRC 1.00, R0.53, R1.42, R1.5, R2.0, Rw 35 | Internal catalogue; confirm against current TDS |
 
-## Compliance and review status
+
+
+## Fire, testing and compliance context
+
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
-- Fire: not verified per SKU.
 - BAL: not verified.
 - Datasheet: https://insulation.com.au/product/fletcher-protect-party-wall-stonewool-batts/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: to be sourced.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. 
+Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU.
 
 ## Safety and handling
 

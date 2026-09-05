@@ -41,12 +41,20 @@ def ollama_available() -> bool:
         return False
 
 
-def generate_reply(system_prompt: str, user_prompt: str) -> str | None:
+def generate_reply(system_prompt: str, user_prompt: str, max_tokens: int = 160, num_ctx: int | None = None) -> str | None:
     """Ask the local Ollama chat endpoint to produce a reply.
 
     Returns None on any failure (server down, timeout, bad response, model
     not pulled, etc.) so callers can fall back to their deterministic text.
+
+    `max_tokens` bounds the reply; `num_ctx` sizes the context window and is
+    auto-derived from the prompt length when omitted (a short chat rephrase
+    stays small and fast, a long datasheet gets a large window).
     """
+    # rough token estimate: ~4 chars per token, plus headroom for the reply
+    if num_ctx is None:
+        estimated = (len(system_prompt) + len(user_prompt)) // 4 + max_tokens + 256
+        num_ctx = max(2048, min(16384, 1 << (estimated - 1).bit_length()))  # next power of two
     payload = {
         "model": OLLAMA_MODEL,
         "messages": [
@@ -56,10 +64,9 @@ def generate_reply(system_prompt: str, user_prompt: str) -> str | None:
         "stream": False,
         "think": False,
         # Keep the model loaded between calls (first call after idle is by far
-        # the slowest) and bound the work: replies only ever need 1-3 short
-        # sentences, and a small context window keeps prompt eval fast.
+        # the slowest) and bound the work.
         "keep_alive": "30m",
-        "options": {"temperature": 0.4, "num_predict": 160, "num_ctx": 2048},
+        "options": {"temperature": 0.4, "num_predict": max_tokens, "num_ctx": num_ctx},
     }
     request = urllib.request.Request(
         f"{OLLAMA_HOST}/api/chat",

@@ -1,7 +1,7 @@
 ---
 title: "Pink Batts Floor Insulation - Bulk Insulation | Fletcher"
-description: "FBS-1 glasswool batts intended for suitable suspended-floor systems to reduce heat flow and improve thermal comfort. They are bulk insulation between/"
-keywords: "Pink Batts Floor Insulation, Fletcher bulk, floor insulation, underfloor insulation, R-value insulation, insulation Australia, Fletcher Australia"
+description: "Pink® Floor Batts are lightweight, flexible, and resilient glasswool insulation designed for thermal and acoustic insulation of residential floors. Th"
+keywords: "Pink Batts Floor Insulation, Fletcher bulk, floor insulation, R-value insulation, insulation Australia, Fletcher Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: FLETCHER_PINK_BATTS_FLOOR
 ---
@@ -10,18 +10,23 @@ family_id: FLETCHER_PINK_BATTS_FLOOR
 
 **Fletcher Bulk** — bulk insulation product.
 
-FBS-1 glasswool batts intended for suitable suspended-floor systems to reduce heat flow and improve thermal comfort. They are bulk insulation between/under floor framing, not a resilient acoustic underlay. The complete installation needs retention, wind protection where applicable, moisture management and safe service clearances.
+Pink® Floor Batts are lightweight, flexible, and resilient glasswool insulation designed for thermal and acoustic insulation of residential floors. They are designed to friction fit standard floor joists for energy savings year-round.
 
 ## Key features
 
-- Refer to the manufacturer datasheet for published features.
+- Firm to fit Friction fit to stay in place without slumping.
+- Recover to their natural thickness quickly.
+- Australian made using up to 80% recycled content.
+- With water resistant additive.
+- Codemark certified.
+- Low itch.
+- Easy to cut.
 
 ## Applications and selection
 
-- suspended floor
-- timber floor
-- underfloor
-- floor insulation
+- under floor
+- intra-floor
+- flooring
 
 **Selection checklist**
 
@@ -39,24 +44,35 @@ FBS-1 glasswool batts intended for suitable suspended-floor systems to reduce he
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Bulk | Manufacturer catalogue |
-| Material | Glasswool | Manufacturer catalogue |
-| Applications | suspended floor; timber floor; underfloor; floor insulation | Manufacturer catalogue |
-| Published ratings | R2.2, R2.5, Rw 35 | Internal catalogue; confirm against current TDS |
+| R-value | 2.5 | m2K/W |
+| Maximum service temperature | 340 °C | EN14706:2012 |
+| Thermal conductivity | Complies | AS/NZS 4859.1:2018 |
+| Moisture absorption | < 0.2% | % by volume |
+| Anti-fungal | PASS | - |
+| Nominal thickness | 90 | mm |
+| Width | 430 | mm |
+| Length | 1160 | mm |
+| R-value | 2.5 | ASTM C522-03 |
 
-## Compliance and review status
+Extracted from manufacturer datasheet: https://insulation.com.au/wp-content/uploads/2024/TDS-Pink-Batts-Floor-Rev2-15042024-2.pdf
+
+## Fire, testing and compliance context
+
+Non-combustible (AS/NZS 1530.1); Early Fire Hazard Indices: Ignitability Index 0, Spread of Flame Index 0, Heat Evolved Index 0, Smoke Developed Index 0–1; BAL Compliance: Low – FZ (Enclosed sub floor only)
 
 - NCC / project compliance: conditional — project-specific evidence required.
-- Fire: not verified per SKU.
 - BAL: not verified.
 - Datasheet: https://insulation.com.au/products/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: to be sourced.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. 
+1. Product should be kept dry, not to be exposed to weather in any condition including prior, during and after installation..
+2. Product needs to be correctly installed in the right stud width and depth..
+3. Product should be installed without compression to keep its claimed R..
+4. Where insulation can be inspected, ensure any tears in the facing are repaired with appropriate tape..
 
 ## Safety and handling
 
@@ -64,7 +80,7 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Australian made using up to 80% recycled content; Zero ODP insulation; no harmful levels of Volatile Organic Compounds (VOCs) released.
 
 ## Warranty, returns and support
 

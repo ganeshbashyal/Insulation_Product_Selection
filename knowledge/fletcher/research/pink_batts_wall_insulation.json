@@ -1,0 +1,71 @@
+{
+  "family_id": "FLETCHER_PINK_BATTS_WALL",
+  "family_name": "Pink Batts Wall Insulation",
+  "datasheet_pdf_url": "https://insulation.com.au/wp-content/uploads/2024/TDS-Pink-Batts-Wall-Rev12-010225.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-05",
+  "spec": {
+    "description": "Pink® Batts is a thermal and acoustic insulation made from flexible and resilient glasswool for residential wall applications. It is designed to fit standard timber and steel studs, helping to improve energy efficiency.",
+    "features": [
+      "Firm to fit Friction fit to stay in place without slumping",
+      "Recover to their natural thickness quickly",
+      "Australian made using up to 80% recycled content",
+      "Codemark certified Assurance that product meets requirements of National Construction Code (NCC)"
+    ],
+    "applications": [
+      "wall"
+    ],
+    "technical": [
+      {
+        "property": "R-value",
+        "value": "R1.5",
+        "standard": "m2K/W"
+      },
+      {
+        "property": "R-value",
+        "value": "R2.0",
+        "standard": "m2K/W"
+      },
+      {
+        "property": "R-value",
+        "value": "R2.0 HD",
+        "standard": "m2K/W"
+      },
+      {
+        "property": "R-value",
+        "value": "R2.5 HD",
+        "standard": "m2K/W"
+      },
+      {
+        "property": "R-value",
+        "value": "R4.0 HD",
+        "standard": "m2K/W"
+      },
+      {
+        "property": "Maximum service temperature",
+        "value": "340 °C",
+        "standard": "ASTM C411/C447"
+      },
+      {
+        "property": "Thermal resistance R-value",
+        "value": "Complies",
+        "standard": "AS/NZS 4859.1"
+      },
+      {
+        "property": "Moisture absorption",
+        "value": "< 0.2%",
+        "standard": "% by volume"
+      }
+    ],
+    "fire": "Combustibility AS1530.1 Non-combustible; Early Fire Hazard Indices: Ignitability Index 0, Spread of Flame Index 0, Heat Evolved Index 0, Smoke Developed Index 0–1; BAL Compliance AS3959 Low–FZ",
+    "sustainability": "Australian made using up to 80% recycled content; Zero ODP insulation; no harmful levels of Volatile Organic Compounds (VOCs) released.",
+    "install": [
+      "Product must be kept dry and not be exposed to weather in any condition including prior, during and after installation.",
+      "Product must be correctly installed in the right stud width and depth.",
+      "Product must be installed without compression to keep its claimed R-value.",
+      "If used with any other products except Sisalation, confirmation of suitability must be reviewed.",
+      "Follow the Installation Guidelines available from insulation.com.au"
+    ]
+  },
+  "source_excerpt": "Technical data sheet\nFor more information: phone 1300 654 444 email info@insulation.com.au visit insulation.com.au\nPink® Batts: Wall \nThermal insulation for residential wall applications\nDescription\nPink® Batts are made from flexible and resilient glasswool for thermal and acoustic insulation of residential walls. Pink® Batts are \navailable in various sizes and densities to fit standard timber and steel stud spacings.\nApplication\nPink® Batts are the trusted choice when it comes to constructing new homes or retrofitting existing buildings for increased thermal \nefficiency. The Pink® Batts insulation range is available in various thermal R-values and dimensions ensuring there is an effective \nand efficient product solution for every application.\nPink® Batts, renowned for their firmness, are low itch, easy to cut and friction fit standard wall studs to make homes feel cooler in \nsummer, warmer in winter and provide energy savings all year round.\nProduct limitations of use\n• Not to be used/exposed to weather in any condition including prior, during and after installation.\n• Check the plasterboard ceiling manufacturers guide for any weight limitations on ceilings.\n• Not suitable for applications where high humidity is present within building (wet climates for a long period).\n• This product cannot be used as a water or vapour barrier.\n• Modifications not permissible, as suitability and/or compliance may be compromised.\n• Product must be allowed to fully recover before use (cannot be used crushed).\n• Confirm any weight limitations of ceiling framing/lining prior to installation to ensure additional weight of insulation does not \ncompromise the system.\nFeatures and benefits\n Firm to fit Friction fit to stay in place without slumping,  \nfor continual thermal performance.\nRecover to their natural thickness quickly You can be assured the batts will meet their  \nrequired thermal performance.\nAustralian made using up to 80% recycled content Made for Australian conditions.\nCodema"
+}

@@ -1,6 +1,6 @@
 ---
 title: "Pink Batts Wall Insulation - Bulk Insulation | Fletcher"
-description: "Australian-made FBS-1 biosoluble glasswool batts for external and internal wall cavities. Fletcher documents thermal insulation, acoustic contribution"
+description: "Pink® Batts is a thermal and acoustic insulation made from flexible and resilient glasswool for residential wall applications. It is designed to fit s"
 keywords: "Pink Batts Wall Insulation, Fletcher bulk, wall insulation, R-value insulation, insulation Australia, Fletcher Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: FLETCHER_PINK_BATTS_WALL
@@ -10,18 +10,18 @@ family_id: FLETCHER_PINK_BATTS_WALL
 
 **Fletcher Bulk** — bulk insulation product.
 
-Australian-made FBS-1 biosoluble glasswool batts for external and internal wall cavities. Fletcher documents thermal insulation, acoustic contribution, non-combustibility, up to 80% recycled content, a consumer lifetime warranty and CodeMark CM30006, subject to the certificate scope. The current national page lists material R-values R1.5, R2.0, R2.0 HD, R2.5 HD and R4.0 HD; WA-only lines and availability notes must be preserved.
+Pink® Batts is a thermal and acoustic insulation made from flexible and resilient glasswool for residential wall applications. It is designed to fit standard timber and steel studs, helping to improve energy efficiency.
 
 ## Key features
 
-- Refer to the manufacturer datasheet for published features.
+- Firm to fit Friction fit to stay in place without slumping.
+- Recover to their natural thickness quickly.
+- Australian made using up to 80% recycled content.
+- Codemark certified Assurance that product meets requirements of National Construction Code (NCC).
 
 ## Applications and selection
 
-- internal wall
-- external wall
-- timber frame wall
-- residential wall
+- wall
 
 **Selection checklist**
 
@@ -49,24 +49,35 @@ Australian-made FBS-1 biosoluble glasswool batts for external and internal wall 
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Bulk | Manufacturer catalogue |
-| Material | Glasswool | Manufacturer catalogue |
-| Applications | internal wall; external wall; timber frame wall; residential wall | Manufacturer catalogue |
-| Published ratings | NRC 0.80, NRC 0.90, NRC 0.95, R1.5, R2.0, R2.17, R2.2, R2.5 | Internal catalogue; confirm against current TDS |
+| R-value | R1.5 | m2K/W |
+| R-value | R2.0 | m2K/W |
+| R-value | R2.0 HD | m2K/W |
+| R-value | R2.5 HD | m2K/W |
+| R-value | R4.0 HD | m2K/W |
+| Maximum service temperature | 340 °C | ASTM C411/C447 |
+| Thermal resistance R-value | Complies | AS/NZS 4859.1 |
+| Moisture absorption | < 0.2% | % by volume |
 
-## Compliance and review status
+Extracted from manufacturer datasheet: https://insulation.com.au/wp-content/uploads/2024/TDS-Pink-Batts-Wall-Rev12-010225.pdf
+
+## Fire, testing and compliance context
+
+Combustibility AS1530.1 Non-combustible; Early Fire Hazard Indices: Ignitability Index 0, Spread of Flame Index 0, Heat Evolved Index 0, Smoke Developed Index 0–1; BAL Compliance AS3959 Low–FZ
 
 - NCC / project compliance: conditional — project-specific evidence required.
-- Fire: not verified per SKU.
 - BAL: not verified.
 - Datasheet: https://insulation.com.au/product/pink-batts-insulation/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: to be sourced.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. 
+1. Product must be kept dry and not be exposed to weather in any condition including prior, during and after installation..
+2. Product must be correctly installed in the right stud width and depth..
+3. Product must be installed without compression to keep its claimed R-value..
+4. If used with any other products except Sisalation, confirmation of suitability must be reviewed..
+5. Follow the Installation Guidelines available from insulation.com.au.
 
 ## Safety and handling
 
@@ -74,7 +85,7 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Australian made using up to 80% recycled content; Zero ODP insulation; no harmful levels of Volatile Organic Compounds (VOCs) released.
 
 ## Warranty, returns and support
 

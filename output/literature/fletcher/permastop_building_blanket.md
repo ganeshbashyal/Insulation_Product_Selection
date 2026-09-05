@@ -62,17 +62,20 @@ Permastop is a faced glasswool building blanket for suitable metal-roof and comm
 | Applications | metal roof; warehouse roof; shed roof; commercial roof; external wall | Manufacturer catalogue |
 | Published ratings | R1.3, R1.54, R1.8, R2.04, R2.5, R2.67, R3, R3.2 | Internal catalogue; confirm against current TDS |
 
-## Compliance and review status
+
+
+## Fire, testing and compliance context
+
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
-- Fire: not verified per SKU.
 - BAL: not verified.
 - Datasheet: https://insulation.com.au/product/permastop-building-blanket/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: to be sourced.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. 
+Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU.
 
 ## Safety and handling
 

@@ -103,6 +103,22 @@ python scripts/generate_family_literature.py            # all 287 families
 python scripts/generate_family_literature.py --only Autex
 ```
 
+### Optional: deep-dive TDS research agent (local, background)
+
+[`scripts/tds_research_agent.py`](scripts/tds_research_agent.py) fetches each family's real manufacturer datasheet PDF (from the SKU catalogue, the official `source_url`, or a web/sitemap search on the manufacturer's domain), extracts the text, and asks your **local Ollama** model to structure it into a JSON spec — real R-values, densities, fire indices, install steps, applications — stored at `knowledge/<manufacturer>/research/<family>.json` with the source URL recorded. Nothing leaves your machine; only the local model processes the text. Re-running the literature generator then folds that real data into the MD/DOCX instead of thin placeholders.
+
+Run it one family at a time (reliable on a local LLM; safe to schedule in the background):
+
+```powershell
+ollama serve                                   # keep the local model running
+python scripts/research_next_family.py         # process the next pending family, then stop
+python scripts/research_next_family.py --loop --delay 3   # or keep going until done
+python scripts/research_next_family.py --status           # progress
+python scripts/tds_research_agent.py --only Fletcher      # or a whole manufacturer at once
+```
+
+Resumable: each family writes its own JSON, so you can stop and restart any time. Families whose PDF can't be found are marked `no_pdf_found` and skipped on later runs until you supply a link (via the TDS CSV) or one becomes discoverable. Web search can be blocked in some environments; the sitemap crawl is the fallback, and hand-filled links in `data/processed/tds_links_to_source.csv` always take precedence.
+
 ### Optional: deployable website agent
 
 [`web_agent.py`](web_agent.py) serves the same conversation flow as a self-hosted FastAPI app (no Streamlit), so it can be embedded on a website. It reuses the deterministic ranker/gates and logs every conversation for interaction learning:

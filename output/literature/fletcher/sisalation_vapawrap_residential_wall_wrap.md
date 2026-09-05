@@ -49,17 +49,20 @@ Vapawrap Residential Wall Wrap is a vapour-permeable wall membrane used behind s
 | Applications | external wall wrap; brick veneer; lightweight cladding; vapour permeable membrane | Manufacturer catalogue |
 | Published ratings | NRC 0.85, R1.5 | Internal catalogue; confirm against current TDS |
 
-## Compliance and review status
+
+
+## Fire, testing and compliance context
+
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
-- Fire: not verified per SKU.
 - BAL: not verified.
 - Datasheet: https://insulation.com.au/product/sisalation-vapawrap-residential-wall-wrap/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: to be sourced.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. 
+Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU.
 
 ## Safety and handling
 
