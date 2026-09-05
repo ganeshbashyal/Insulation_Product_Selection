@@ -12,13 +12,11 @@
       "applications": [
         "Internal Wall | External Wall",
         "Ceiling",
-        "Metal Roof / Shed",
         "Internal Wall | Ceiling | General Acoustic"
       ],
       "keywords": [
         "batt",
-        "knauf",
-        "ewr15430"
+        "knauf"
       ],
       "scores": {
         "acoustic_comfort": 3,
@@ -27,11 +25,11 @@
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Knauf Batt: 53 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Knauf Batt: 47 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "batt.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.knauf.com.au/",
+      "source_url": "https://www.earthwool.com.au/wp-content/uploads/2024/11/datasheet_earthwool_wall_batt.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -42,7 +40,45 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 53
+      "product_count": 47
+    },
+    {
+      "family_id": "KNAUF_BLANKET_ROOF_LAMIN",
+      "manufacturer": "Knauf",
+      "name": "Knauf Blanket Roof Lamin",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Knauf.",
+      "applications": [
+        "Metal Roof / Shed"
+      ],
+      "keywords": [
+        "batt",
+        "blanket roof lamin",
+        "knauf"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Knauf Blanket Roof Lamin: 6 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "blanket_roof_lamin.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.earthwool.com.au/wp-content/uploads/2024/11/datasheet_earthwool_wall_batt.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 6
     }
   ]
 }

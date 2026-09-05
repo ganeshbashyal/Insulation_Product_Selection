@@ -1,6 +1,6 @@
 # Higgins Insulation product-family knowledge base
 
-Bot-facing knowledge for Higgins Insulation products. Each file represents a technical family, not an individual stock SKU.
+Bot-facing knowledge for Higgins Insulation products. Each file represents a technical product-line family as classified by the manufacturer's own product naming, not an individual stock SKU.
 
 ## Family index
 
@@ -8,9 +8,13 @@ Bot-facing knowledge for Higgins Insulation products. Each file represents a tec
 | --- | --- | --- |
 | `HIGGINS_INSULATION_ACOUSTIC_SHEET` | Higgins Insulation Acoustic Sheet | Initial documentation |
 | `HIGGINS_INSULATION_BATT` | Higgins Insulation Batt | Initial documentation |
-| `HIGGINS_INSULATION_REFLECTIVE` | Higgins Insulation Reflective | Initial documentation |
+| `HIGGINS_INSULATION_HIGGINS_BUILDERS_BAFFLE` | Higgins Insulation Higgins Builders Baffle | Initial documentation |
+| `HIGGINS_INSULATION_HIGGINS_FOIL_BREATHER_MEDIUM_DUTY` | Higgins Insulation Higgins Foil Breather Medium Duty | Initial documentation |
+| `HIGGINS_INSULATION_HIGGINS_FOIL_NON_BREATHER_MEDIUM_DUTY` | Higgins Insulation Higgins Foil Non Breather Medium Duty | Initial documentation |
+| `HIGGINS_INSULATION_HIGGINS_HBL` | Higgins Insulation Higgins HBL | Initial documentation |
+| `HIGGINS_INSULATION_HIGGINS_POLYESTER_BATT` | Higgins Insulation Higgins Polyester Batt | Initial documentation |
+| `HIGGINS_INSULATION_HIGGINS_POLYESTER_SOUND_CONTROL_BATT` | Higgins Insulation Higgins Polyester Sound Control Batt | Initial documentation |
 | `HIGGINS_INSULATION_ROLL` | Higgins Insulation Roll | Initial documentation |
-
 
 ## Retrieval rule
 

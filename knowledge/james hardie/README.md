@@ -1,13 +1,12 @@
 # James Hardie product-family knowledge base
 
-Bot-facing knowledge for James Hardie products. Each file represents a technical family, not an individual stock SKU.
+Bot-facing knowledge for James Hardie products. Each file represents a technical product-line family as classified by the manufacturer's own product naming, not an individual stock SKU.
 
 ## Family index
 
 | Family ID | Product family | Evidence status |
 | --- | --- | --- |
-| `JAMES_HARDIE_BATT` | James Hardie Batt | Initial documentation |
-
+| `JAMES_HARDIE_FIRE_ROCKWOOL` | JAMES HARDIEFIRE ROCKWOOl | Initial documentation |
 
 ## Retrieval rule
 

@@ -33,7 +33,7 @@ rating_basis: thermal
 
 ## Purpose of this file
 
-This is the canonical internal description for the Ecowool Wrap family. It aligns the terminology used by the enquiry bot, sales team and future Aircall CSV.
+This is the canonical internal description for the Ecowool Wrap family (Wrap category). It aligns the terminology used by the enquiry bot, sales team and future Aircall CSV.
 
 For the demonstration, the bot may recommend the **Ecowool Wrap family** when the customer's problem matches its documented applications. It must not choose a specific grade, calculate order quantity, or confirm thermal, acoustic, fire, NCC or BAL compliance for a project. Those decisions remain human-reviewed.
 
@@ -66,13 +66,13 @@ Ratings prefixed `R` are thermal resistance values; ratings including `Rw` are w
 
 ## Application boundaries
 
-### Within the Wrap family
+### Within the Ecowool Wrap family
 
 - Wall Wrap | Roof Wrap
 
 ### Separate product families
 
-Do not transfer claims from this family to other Ecowool product families without their own current technical evidence. Where Ecowool sells multiple categories (batt, board, reflective, pipe, wrap, panel, accessory), each is a distinct family with its own grade table and evidence.
+Do not transfer claims from this family to other Ecowool product families without their own current technical evidence. Where Ecowool sells multiple product families within the Wrap category or in other categories, each is a distinct family with its own grade table and evidence.
 
 This family should not be presented as a fire-rated system, a complete compliant wall/ceiling assembly, or a guaranteed noise-elimination/thermal-comfort product. Record the customer's requirement and construction context for human review rather than confirming compliance directly.
 

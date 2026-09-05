@@ -15,8 +15,7 @@
       ],
       "keywords": [
         "accessory",
-        "proctor",
-        "proctor passive rainscreen with integrated tape (rs-it)"
+        "proctor"
       ],
       "scores": {
         "acoustic_comfort": 1,
@@ -25,11 +24,11 @@
         "installation_practicality": 5,
         "compliance_readiness": 2
       },
-      "score_notes": "Deep-dive scoring for Proctor Accessory: 31 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Proctor Accessory: 3 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "accessory.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.proctor.com.au/",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -40,21 +39,21 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 31
+      "product_count": 3
     },
     {
-      "family_id": "PROCTOR_ACOUSTIC_MEMBRANE",
+      "family_id": "PROCTOR_BAL",
       "manufacturer": "Proctor",
-      "name": "Proctor Acoustic Membrane",
-      "category": "Acoustic Membrane",
-      "primary_function": "Acoustic Membrane insulation product from Proctor.",
+      "name": "Proctor BAL",
+      "category": "Mesh",
+      "primary_function": "Mesh insulation product from Proctor.",
       "applications": [
-        "Acoustic Treatment"
+        "Bushfire / Ember Protection"
       ],
       "keywords": [
-        "acoustic membrane",
+        "mesh",
         "proctor",
-        "proctor q-silence p80"
+        "proctor bal"
       ],
       "scores": {
         "acoustic_comfort": 3,
@@ -63,11 +62,11 @@
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Proctor Acoustic Membrane: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Proctor BAL: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
-      "knowledge_file": "acoustic_membrane.md",
+      "knowledge_file": "bal.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.proctor.com.au/",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -91,8 +90,7 @@
       ],
       "keywords": [
         "drainage / ventilation",
-        "proctor",
-        "proctorgeo irma (3m)"
+        "proctor"
       ],
       "scores": {
         "acoustic_comfort": 3,
@@ -101,11 +99,11 @@
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Proctor Drainage / Ventilation: 8 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Proctor Drainage / Ventilation: 3 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "drainage_ventilation.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.proctor.com.au/",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -116,7 +114,45 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 8
+      "product_count": 3
+    },
+    {
+      "family_id": "PROCTOR_GABLE_VENT",
+      "manufacturer": "Proctor",
+      "name": "Proctor Gable Vent",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Proctor.",
+      "applications": [
+        "Ventilation"
+      ],
+      "keywords": [
+        "accessory",
+        "gable vent",
+        "proctor"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Proctor Gable Vent: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "gable_vent.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 2
     },
     {
       "family_id": "PROCTOR_MEMBRANE",
@@ -129,8 +165,7 @@
       ],
       "keywords": [
         "membrane",
-        "proctor",
-        "proctor passive wraptite sa"
+        "proctor"
       ],
       "scores": {
         "acoustic_comfort": 3,
@@ -139,11 +174,11 @@
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Proctor Membrane: 5 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Proctor Membrane: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "membrane.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.proctor.com.au/",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -154,21 +189,97 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 5
+      "product_count": 4
     },
     {
-      "family_id": "PROCTOR_MESH",
+      "family_id": "PROCTOR_PASSIVE_DRIFLASH_TAPE",
       "manufacturer": "Proctor",
-      "name": "Proctor Mesh",
-      "category": "Mesh",
-      "primary_function": "Mesh insulation product from Proctor.",
+      "name": "Proctor Passive DriFlash Tape",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Proctor.",
       "applications": [
-        "Bushfire / Ember Protection"
+        "Passive House Membrane"
       ],
       "keywords": [
-        "mesh",
+        "accessory",
         "proctor",
-        "proctor bal 40 mesh 15m x 1m"
+        "proctor passive driflash tape"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Proctor Passive DriFlash Tape: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "passive_driflash_tape.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 2
+    },
+    {
+      "family_id": "PROCTOR_PASSIVE_RAINSCREEN_WITH_INTEGRATED_TAPE",
+      "manufacturer": "Proctor",
+      "name": "Proctor Passive Rainscreen with Integrated Tape",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Proctor.",
+      "applications": [
+        "Passive House Membrane"
+      ],
+      "keywords": [
+        "accessory",
+        "proctor",
+        "proctor passive rainscreen with integrated tape"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Proctor Passive Rainscreen with Integrated Tape: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "passive_rainscreen_with_integrated_tape.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "PROCTOR_PASSIVE_SMARTVAP",
+      "manufacturer": "Proctor",
+      "name": "Proctor Passive SmartVap",
+      "category": "Membrane",
+      "primary_function": "Membrane insulation product from Proctor.",
+      "applications": [
+        "Passive House Membrane"
+      ],
+      "keywords": [
+        "membrane",
+        "proctor",
+        "proctor passive smartvap"
       ],
       "scores": {
         "acoustic_comfort": 3,
@@ -177,11 +288,87 @@
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Proctor Mesh: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Proctor Passive SmartVap: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
-      "knowledge_file": "mesh.md",
+      "knowledge_file": "passive_smartvap.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.proctor.com.au/",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "PROCTOR_PASSIVE_WRAPTITE_SA_TAPE",
+      "manufacturer": "Proctor",
+      "name": "Proctor Passive Wraptite SA Tape",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Proctor.",
+      "applications": [
+        "Passive House Membrane"
+      ],
+      "keywords": [
+        "accessory",
+        "proctor",
+        "proctor passive wraptite sa tape"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Proctor Passive Wraptite SA Tape: 6 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "passive_wraptite_sa_tape.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 6
+    },
+    {
+      "family_id": "PROCTOR_Q_SILENCE_P",
+      "manufacturer": "Proctor",
+      "name": "Proctor Q-Silence P",
+      "category": "Acoustic Membrane",
+      "primary_function": "Acoustic Membrane insulation product from Proctor.",
+      "applications": [
+        "Acoustic Treatment"
+      ],
+      "keywords": [
+        "acoustic membrane",
+        "proctor",
+        "proctor q-silence p"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 3,
+        "sustainability": 3,
+        "installation_practicality": 3,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Proctor Q-Silence P: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "q_silence_p.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -204,9 +391,8 @@
         "Wall Wrap / Sarking"
       ],
       "keywords": [
-        "reflective",
         "proctor",
-        "proctorwrap rw 1.5m x 30m"
+        "reflective"
       ],
       "scores": {
         "acoustic_comfort": 3,
@@ -215,11 +401,11 @@
         "installation_practicality": 4,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Proctor Reflective: 11 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Proctor Reflective: 10 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "reflective.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.proctor.com.au/",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -230,21 +416,515 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 11
+      "product_count": 10
     },
     {
-      "family_id": "PROCTOR_WRAP",
+      "family_id": "PROCTOR_TIGHTMATE",
       "manufacturer": "Proctor",
-      "name": "Proctor Wrap",
+      "name": "Proctor TightMate",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Proctor.",
+      "applications": [
+        "Passive House Membrane"
+      ],
+      "keywords": [
+        "accessory",
+        "proctor",
+        "tightmate"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Proctor TightMate: 6 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "tightmate.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 6
+    },
+    {
+      "family_id": "PROCTOR_YOURIPPA_CURING_TAPE",
+      "manufacturer": "Proctor",
+      "name": "Proctor YouRippa Curing Tape",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Proctor.",
+      "applications": [
+        "Passive House Membrane"
+      ],
+      "keywords": [
+        "accessory",
+        "proctor",
+        "yourippa curing tape"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Proctor YouRippa Curing Tape: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "yourippa_curing_tape.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "PROCTOR_YOURIPPA_CYCLONE",
+      "manufacturer": "Proctor",
+      "name": "Proctor YouRippa Cyclone",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Proctor.",
+      "applications": [
+        "Passive House Membrane"
+      ],
+      "keywords": [
+        "accessory",
+        "proctor",
+        "yourippa cyclone"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Proctor YouRippa Cyclone: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "yourippa_cyclone.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "PROCTOR_YOURIPPA_EASY",
+      "manufacturer": "Proctor",
+      "name": "Proctor YouRippa Easy",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Proctor.",
+      "applications": [
+        "Passive House Membrane"
+      ],
+      "keywords": [
+        "accessory",
+        "proctor",
+        "yourippa easy"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Proctor YouRippa Easy: 3 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "yourippa_easy.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 3
+    },
+    {
+      "family_id": "PROCTOR_YOURIPPA_PROTECT_TAPE",
+      "manufacturer": "Proctor",
+      "name": "Proctor YouRippa Protect Tape",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Proctor.",
+      "applications": [
+        "Passive House Membrane"
+      ],
+      "keywords": [
+        "accessory",
+        "proctor",
+        "yourippa protect tape"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Proctor YouRippa Protect Tape: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "yourippa_protect_tape.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 2
+    },
+    {
+      "family_id": "PROCTOR_YOURIPPA_SILVER",
+      "manufacturer": "Proctor",
+      "name": "Proctor YouRippa Silver",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Proctor.",
+      "applications": [
+        "Passive House Membrane"
+      ],
+      "keywords": [
+        "accessory",
+        "proctor",
+        "yourippa silver"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Proctor YouRippa Silver: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "yourippa_silver.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "PROCTOR_GEO_HC",
+      "manufacturer": "Proctor",
+      "name": "ProctorGeo HC",
+      "category": "Drainage / Ventilation",
+      "primary_function": "Drainage / Ventilation insulation product from Proctor.",
+      "applications": [
+        "Drainage / Ventilation"
+      ],
+      "keywords": [
+        "drainage / ventilation",
+        "proctor",
+        "proctorgeo hc"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 3,
+        "sustainability": 3,
+        "installation_practicality": 3,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for ProctorGeo HC: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "geo_hc.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "PROCTOR_GEO_IRMA",
+      "manufacturer": "Proctor",
+      "name": "ProctorGeo IRMA",
+      "category": "Drainage / Ventilation",
+      "primary_function": "Drainage / Ventilation insulation product from Proctor.",
+      "applications": [
+        "Drainage / Ventilation"
+      ],
+      "keywords": [
+        "drainage / ventilation",
+        "proctor",
+        "proctorgeo irma"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 3,
+        "sustainability": 3,
+        "installation_practicality": 3,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for ProctorGeo IRMA: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "geo_irma.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 2
+    },
+    {
+      "family_id": "PROCTOR_GEO_VAP",
+      "manufacturer": "Proctor",
+      "name": "ProctorGeo Vap",
+      "category": "Drainage / Ventilation",
+      "primary_function": "Drainage / Ventilation insulation product from Proctor.",
+      "applications": [
+        "Drainage / Ventilation"
+      ],
+      "keywords": [
+        "drainage / ventilation",
+        "proctor",
+        "proctorgeo vap"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 3,
+        "sustainability": 3,
+        "installation_practicality": 3,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for ProctorGeo Vap: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "geo_vap.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 2
+    },
+    {
+      "family_id": "PROCTOR_PASSIVE_YOUBYUTE_FLEXI_TAPE",
+      "manufacturer": "Proctor",
+      "name": "ProctorPassive YouByute Flexi Tape",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Proctor.",
+      "applications": [
+        "Passive House Membrane"
+      ],
+      "keywords": [
+        "accessory",
+        "proctor",
+        "proctorpassive youbyute flexi tape"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for ProctorPassive YouByute Flexi Tape: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "passive_youbyute_flexi_tape.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "PROCTOR_PASSIVE_YOUBYUTE_SEALING_TAPE",
+      "manufacturer": "Proctor",
+      "name": "ProctorPassive YouByute Sealing Tape",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Proctor.",
+      "applications": [
+        "Passive House Membrane"
+      ],
+      "keywords": [
+        "accessory",
+        "proctor",
+        "proctorpassive youbyute sealing tape"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for ProctorPassive YouByute Sealing Tape: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "passive_youbyute_sealing_tape.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "PROCTOR_PASSIVE_YOURIPPA_DUO_TAPE",
+      "manufacturer": "Proctor",
+      "name": "ProctorPassive YouRippa Duo Tape",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Proctor.",
+      "applications": [
+        "Passive House Membrane"
+      ],
+      "keywords": [
+        "accessory",
+        "proctor",
+        "proctorpassive yourippa duo tape"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for ProctorPassive YouRippa Duo Tape: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "passive_yourippa_duo_tape.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "PROCTOR_WRAP_HT",
+      "manufacturer": "Proctor",
+      "name": "ProctorWrap HT",
+      "category": "Reflective",
+      "primary_function": "Reflective insulation product from Proctor.",
+      "applications": [
+        "Wall Wrap / Sarking"
+      ],
+      "keywords": [
+        "proctor",
+        "proctorwrap ht",
+        "reflective"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 4,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for ProctorWrap HT: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "wrap_ht.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "PROCTOR_WRAP_HIGH_TACK_PLUS_TAPE",
+      "manufacturer": "Proctor",
+      "name": "ProctorWrap High Tack PLUS Tape",
       "category": "Wrap",
       "primary_function": "Wrap insulation product from Proctor.",
       "applications": [
         "Wall Wrap / Sarking"
       ],
       "keywords": [
-        "wrap",
         "proctor",
-        "proctorwrap high tack tape (10 rolls per carton)"
+        "proctorwrap high tack plus tape",
+        "wrap"
       ],
       "scores": {
         "acoustic_comfort": 2,
@@ -253,11 +933,11 @@
         "installation_practicality": 4,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Proctor Wrap: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for ProctorWrap High Tack PLUS Tape: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
-      "knowledge_file": "wrap.md",
+      "knowledge_file": "wrap_high_tack_plus_tape.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.proctor.com.au/",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -268,7 +948,121 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 4
+      "product_count": 1
+    },
+    {
+      "family_id": "PROCTOR_WRAP_HIGH_TACK_PLUS_TAPE_2",
+      "manufacturer": "Proctor",
+      "name": "ProctorWrap High Tack Plus Tape",
+      "category": "Wrap",
+      "primary_function": "Wrap insulation product from Proctor.",
+      "applications": [
+        "Wall Wrap / Sarking"
+      ],
+      "keywords": [
+        "proctor",
+        "proctorwrap high tack plus tape",
+        "wrap"
+      ],
+      "scores": {
+        "acoustic_comfort": 2,
+        "energy_efficiency": 3,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for ProctorWrap High Tack Plus Tape: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "wrap_high_tack_plus_tape_2.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "PROCTOR_WRAP_HIGH_TACK_TAPE",
+      "manufacturer": "Proctor",
+      "name": "ProctorWrap High Tack Tape",
+      "category": "Wrap",
+      "primary_function": "Wrap insulation product from Proctor.",
+      "applications": [
+        "Wall Wrap / Sarking"
+      ],
+      "keywords": [
+        "proctor",
+        "proctorwrap high tack tape",
+        "wrap"
+      ],
+      "scores": {
+        "acoustic_comfort": 2,
+        "energy_efficiency": 3,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for ProctorWrap High Tack Tape: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "wrap_high_tack_tape.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "PROCTOR_WRAP_PLASTI_GRIP_WASHERS",
+      "manufacturer": "Proctor",
+      "name": "ProctorWrap Plasti-Grip Washers",
+      "category": "Wrap",
+      "primary_function": "Wrap insulation product from Proctor.",
+      "applications": [
+        "Wall Wrap / Sarking"
+      ],
+      "keywords": [
+        "proctor",
+        "proctorwrap plasti-grip washers",
+        "wrap"
+      ],
+      "scores": {
+        "acoustic_comfort": 2,
+        "energy_efficiency": 3,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for ProctorWrap Plasti-Grip Washers: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "wrap_plasti_grip_washers.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
     }
   ]
 }

@@ -4,7 +4,7 @@ family_id: ACOUSTICA_ACOUSTIC_BARRIER
 manufacturer: Acoustica
 category: Acoustic Barrier
 canonical_name: Acoustica Acoustic Barrier
-material: Mass Loaded Vinyl
+material: Acoustic Composite
 bot_mode: demo_family_recommendation
 recommendation_allowed: true
 recommendation_scope: manufacturer_supported_family_only
@@ -25,7 +25,7 @@ gate_fire_compliance: not_verified_per_sku
 gate_bal: not_verified
 official_datasheet_url: https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf
 official_sds_url: https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf
-product_count: 7
+product_count: 3
 rating_basis: thermal
 ---
 
@@ -33,26 +33,26 @@ rating_basis: thermal
 
 ## Purpose of this file
 
-This is the canonical internal description for the Acoustica Acoustic Barrier family. It aligns the terminology used by the enquiry bot, sales team and future Aircall CSV.
+This is the canonical internal description for the Acoustica Acoustic Barrier family (Acoustic Barrier category). It aligns the terminology used by the enquiry bot, sales team and future Aircall CSV.
 
 For the demonstration, the bot may recommend the **Acoustica Acoustic Barrier family** when the customer's problem matches its documented applications. It must not choose a specific grade, calculate order quantity, or confirm thermal, acoustic, fire, NCC or BAL compliance for a project. Those decisions remain human-reviewed.
 
 ## Canonical description
 
-Quality insulation engineered for Australian conditions. Engineered specifically for noise control, delivering the acoustic separation required for NCC compliance. Rigid design makes installation fast and efficient - no sagging or falling out. Essential for achieving NCC compliance in floor applications. Manufacturer-published features and benefits include: Quality insulation product for Australian building conditions; designed to meet NCC energy efficiency requirements; rigid design prevents sagging between joists; reduces drafts and cold floors; excellent thermal performance for roof/ceiling applications; helps meet NCC energy efficiency requirements This family covers 7 SKU variant(s) in the current catalogue. It is not a complete compliant building system on its own; project-specific claims about a finished construction must be confirmed by a human reviewer against a tested system that matches the proposed build-up.
+Quality insulation engineered for Australian conditions. Engineered specifically for noise control, delivering the acoustic separation required for NCC compliance. Rigid design makes installation fast and efficient - no sagging or falling out. Essential for achieving NCC compliance in floor applications. Manufacturer-published features and benefits include: Engineered specifically for acoustic performance; high NRC/Rw ratings for effective sound control; suitable for commercial and residential applications; rigid design prevents sagging between joists; reduces drafts and cold floors; excellent thermal performance for roof/ceiling applications; helps meet NCC energy efficiency requirements This family covers 3 SKU variant(s) in the current catalogue. It is not a complete compliant building system on its own; project-specific claims about a finished construction must be confirmed by a human reviewer against a tested system that matches the proposed build-up.
 
 ## Current manufacturer-supported facts
 
 - Product type: Acoustic Barrier insulation product from Acoustica.
-- Material: Mass Loaded Vinyl.
+- Material: Acoustic Composite.
 - Rating basis: thermal insulation (R-value).
-- Quality insulation product for Australian building conditions.
-- designed to meet NCC energy efficiency requirements.
+- Engineered specifically for acoustic performance.
+- high NRC/Rw ratings for effective sound control.
+- suitable for commercial and residential applications.
 - rigid design prevents sagging between joists.
 - reduces drafts and cold floors.
 - excellent thermal performance for roof/ceiling applications.
-- helps meet NCC energy efficiency requirements.
-- The catalogue includes 7 unique SKU variant(s) in this family.
+- The catalogue includes 3 unique SKU variant(s) in this family.
 
 ## Grade and catalogue reconciliation
 
@@ -60,10 +60,7 @@ The following reflects the current internal SKU extraction from the master produ
 
 | Rating (as supplied) | Rating type | Thickness (mm) | Dimensions (L x W mm) | SKU count |
 | --- | --- | ---: | --- | ---: |
-| R1.5 | thermal_r_value | 4.5 | 1300 x 2500 | 2 |
 | R1.5 | thermal_r_value | 1.2 | 1300 x 5400 | 1 |
-| R1.5 | thermal_r_value | 2.5 | 1300 x 5400 | 1 |
-| R1.5 | thermal_r_value | 3.5 | 1300 x 4000 | 1 |
 | R1.5 | thermal_r_value | 10 | 1200 x 1200 | 1 |
 | R1.5 | thermal_r_value | 20 | 1200 x 1200 | 1 |
 
@@ -73,13 +70,13 @@ Ratings prefixed `R` are thermal resistance values; ratings including `Rw` are w
 
 ## Application boundaries
 
-### Within the Acoustic Barrier family
+### Within the Acoustica Acoustic Barrier family
 
 - Internal Wall | Ceiling | Floor | General Acoustic
 
 ### Separate product families
 
-Do not transfer claims from this family to other Acoustica product families without their own current technical evidence. Where Acoustica sells multiple categories (batt, board, reflective, pipe, wrap, panel, accessory), each is a distinct family with its own grade table and evidence.
+Do not transfer claims from this family to other Acoustica product families without their own current technical evidence. Where Acoustica sells multiple product families within the Acoustic Barrier category or in other categories, each is a distinct family with its own grade table and evidence.
 
 This family should not be presented as a fire-rated system, a complete compliant wall/ceiling assembly, or a guaranteed noise-elimination/thermal-comfort product. Record the customer's requirement and construction context for human review rather than confirming compliance directly.
 
@@ -87,18 +84,19 @@ This family should not be presented as a fire-rated system, a complete compliant
 
 Manufacturer literature notes:
 
-- Install as per manufacturer specifications.
-- ensure complete coverage without gaps.
+- Install continuously without gaps for acoustic integrity.
+- overlap or seal all joints for maximum acoustic performance.
+- fix securely to prevent vibration transmission.
 - secure between floor joists using strapping, saddles or wire supports.
 - ensure adequate subfloor ventilation is maintained per NCC requirements.
 - install after electrical and plumbing rough-in.
-- Follow AS 4773.1 installation practices.
 
 The bot may use this information to understand the customer's project, but must not issue project-specific installation instructions. The human reviewer must confirm the complete construction, fixing method, junction/penetration treatment, moisture/vapour requirements, manual-handling requirements and the current manufacturer installation guide.
 
 ## Manufacturer-stated limitations and warnings
 
-- Install in accordance with manufacturer specifications.
+- Acoustic ratings are system-based - verify complete assembly matches tested configuration.
+- joints and penetrations must be properly sealed for rated performance.
 - Ensure adequate subfloor ventilation is maintained.
 - do not leave exposed to ground moisture or subfloor dampness.
 - confirm product selection matches specified thermal/acoustic/fire rating.
@@ -181,7 +179,7 @@ Use this source for the canonical product identity, current grades, published ra
 
 ### Tier 2 — current internal catalogue
 
-The master product catalogue provides current commercial records for 7 SKUs, including internal SKU codes, dimensions, grade labels and stock. Commercial data does not validate technical performance; grade labels must be cross-checked against current manufacturer TDS per SKU before quoting.
+The master product catalogue provides current commercial records for 3 SKUs, including internal SKU codes, dimensions, grade labels and stock. Commercial data does not validate technical performance; grade labels must be cross-checked against current manufacturer TDS per SKU before quoting.
 
 ### Tier 3 — authorised owned-site literature
 
@@ -198,16 +196,16 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
   "recommendation_allowed": true,
   "recommendation_scope": "manufacturer_supported_family_only",
   "primary_function": "thermal insulation (R-value)",
-  "material": "Mass Loaded Vinyl",
+  "material": "Acoustic Composite",
   "applications": [
     "Internal Wall | Ceiling | Floor | General Acoustic"
   ],
-  "product_count": 7,
+  "product_count": 3,
   "grades": [
     {
       "rating": "R1.5",
       "rating_type": "thermal_r_value",
-      "sku_count": 7
+      "sku_count": 3
     }
   ],
   "priority_profile": {

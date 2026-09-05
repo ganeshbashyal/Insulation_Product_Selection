@@ -4,59 +4,18 @@
   "rating_scale": "1 = low relevance, 3 = useful, 5 = primary strength; ratings guide discovery and are not compliance or performance certificates",
   "families": [
     {
-      "family_id": "ECOWOOL_ACCESSORY",
+      "family_id": "ECOWOOL_ACOUSTIC_PARTITION_BATT",
       "manufacturer": "Ecowool",
-      "name": "Ecowool Accessory",
-      "category": "Accessory",
-      "primary_function": "Accessory insulation product from Ecowool.",
-      "applications": [
-        "Sealing Tape"
-      ],
-      "keywords": [
-        "accessory",
-        "ecowool",
-        "eco 351501"
-      ],
-      "scores": {
-        "acoustic_comfort": 1,
-        "energy_efficiency": 1,
-        "sustainability": 2,
-        "installation_practicality": 5,
-        "compliance_readiness": 2
-      },
-      "score_notes": "Deep-dive scoring for Ecowool Accessory: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
-      "confidence": "manufacturer_supported",
-      "knowledge_file": "accessory.md",
-      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.ecowool.com.au/",
-      "questions": [
-        "What is the primary application for this product?",
-        "What performance requirements apply?",
-        "What space or area constraints exist?"
-      ],
-      "human_gates": [
-        "Verify manufacturer identity from primary source",
-        "Confirm product specifications and performance claims",
-        "Validate compliance with relevant standards"
-      ],
-      "product_count": 1
-    },
-    {
-      "family_id": "ECOWOOL_BATT",
-      "manufacturer": "Ecowool",
-      "name": "Ecowool Batt",
+      "name": "Ecowool Acoustic Partition Batt",
       "category": "Batt",
       "primary_function": "Batt insulation product from Ecowool.",
       "applications": [
-        "Ceiling | Wall",
-        "Internal Wall | Acoustic",
-        "Acoustic",
-        "Roof Blanket"
+        "Internal Wall | Acoustic"
       ],
       "keywords": [
         "batt",
         "ecowool",
-        "eco 600014"
+        "ecowool acoustic partition batt"
       ],
       "scores": {
         "acoustic_comfort": 3,
@@ -65,11 +24,11 @@
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Ecowool Batt: 54 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Ecowool Acoustic Partition Batt: 25 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
-      "knowledge_file": "batt.md",
+      "knowledge_file": "acoustic_partition_batt.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.ecowool.com.au/",
+      "source_url": "https://chadgroup.com.au/wp-content/uploads/2022/09/eco-wool-datasheet.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -80,21 +39,21 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 54
+      "product_count": 25
     },
     {
-      "family_id": "ECOWOOL_ROLL",
+      "family_id": "ECOWOOL_ACOUSTIC_PARTITION_ROLL",
       "manufacturer": "Ecowool",
-      "name": "Ecowool Roll",
+      "name": "Ecowool Acoustic Partition Roll",
       "category": "Roll",
       "primary_function": "Roll insulation product from Ecowool.",
       "applications": [
         "Internal Wall | Acoustic"
       ],
       "keywords": [
-        "roll",
         "ecowool",
-        "eco 616002"
+        "ecowool acoustic partition roll",
+        "roll"
       ],
       "scores": {
         "acoustic_comfort": 3,
@@ -103,11 +62,11 @@
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Ecowool Roll: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Ecowool Acoustic Partition Roll: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
-      "knowledge_file": "roll.md",
+      "knowledge_file": "acoustic_partition_roll.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.ecowool.com.au/",
+      "source_url": "https://chadgroup.com.au/wp-content/uploads/2022/09/eco-wool-datasheet.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -119,6 +78,158 @@
         "Validate compliance with relevant standards"
       ],
       "product_count": 1
+    },
+    {
+      "family_id": "ECOWOOL_CONDENSHIELD_ROOF_BLANKET",
+      "manufacturer": "Ecowool",
+      "name": "Ecowool Condenshield Roof Blanket",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Ecowool.",
+      "applications": [
+        "Roof Blanket"
+      ],
+      "keywords": [
+        "batt",
+        "condenshield roof blanket",
+        "ecowool"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Ecowool Condenshield Roof Blanket: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "condenshield_roof_blanket.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://chadgroup.com.au/wp-content/uploads/2022/09/eco-wool-datasheet.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "ECOWOOL_ECOSEAL_TAPE",
+      "manufacturer": "Ecowool",
+      "name": "Ecowool Ecoseal Tape",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Ecowool.",
+      "applications": [
+        "Sealing Tape"
+      ],
+      "keywords": [
+        "accessory",
+        "ecoseal tape",
+        "ecowool"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Ecowool Ecoseal Tape: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "ecoseal_tape.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://chadgroup.com.au/wp-content/uploads/2022/09/eco-wool-datasheet.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "ECOWOOL_NOISEBREAK_BATT",
+      "manufacturer": "Ecowool",
+      "name": "Ecowool NoiseBREAK Batt",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Ecowool.",
+      "applications": [
+        "Acoustic"
+      ],
+      "keywords": [
+        "batt",
+        "ecowool",
+        "ecowool noisebreak batt"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Ecowool NoiseBREAK Batt: 8 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "noisebreak_batt.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://chadgroup.com.au/wp-content/uploads/2022/09/eco-wool-datasheet.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 8
+    },
+    {
+      "family_id": "ECOWOOL_RESIDENTIAL_BATT",
+      "manufacturer": "Ecowool",
+      "name": "Ecowool Residential Batt",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Ecowool.",
+      "applications": [
+        "Ceiling | Wall"
+      ],
+      "keywords": [
+        "batt",
+        "ecowool",
+        "ecowool residential batt"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Ecowool Residential Batt: 20 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "residential_batt.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://chadgroup.com.au/wp-content/uploads/2022/09/eco-wool-datasheet.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 20
     },
     {
       "family_id": "ECOWOOL_WRAP",
@@ -130,9 +241,8 @@
         "Wall Wrap | Roof Wrap"
       ],
       "keywords": [
-        "wrap",
         "ecowool",
-        "eco tt-10501"
+        "wrap"
       ],
       "scores": {
         "acoustic_comfort": 2,
@@ -145,7 +255,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "wrap.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.ecowool.com.au/",
+      "source_url": "https://chadgroup.com.au/wp-content/uploads/2022/09/eco-wool-datasheet.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",

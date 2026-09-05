@@ -25,7 +25,7 @@ gate_fire_compliance: not_verified_per_sku
 gate_bal: not_verified
 official_datasheet_url: https://higginsinsulation.com.au/wp-content/uploads/2019/10/FI96-HDEI-Insulation-Technical-Data-Sheet.pdf
 official_sds_url: https://db4dv8bb88ruo.cloudfront.net/media/ListingAdditions/Document/5/0/2/0/7/5/aexx9wdzrze9.pdf
-product_count: 31
+product_count: 8
 rating_basis: thermal
 ---
 
@@ -33,13 +33,13 @@ rating_basis: thermal
 
 ## Purpose of this file
 
-This is the canonical internal description for the Higgins Insulation Batt family. It aligns the terminology used by the enquiry bot, sales team and future Aircall CSV.
+This is the canonical internal description for the Higgins Insulation Batt family (Batt category). It aligns the terminology used by the enquiry bot, sales team and future Aircall CSV.
 
 For the demonstration, the bot may recommend the **Higgins Insulation Batt family** when the customer's problem matches its documented applications. It must not choose a specific grade, calculate order quantity, or confirm thermal, acoustic, fire, NCC or BAL compliance for a project. Those decisions remain human-reviewed.
 
 ## Canonical description
 
-Quality insulation engineered for Australian conditions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability. Perfect for maximum thermal performance in roof/ceiling applications. Manufacturer-published features and benefits include: 100% polyester - safe to handle without protective equipment; contains minimum 80% recycled PET plastic bottles; non-allergenic, non-irritant formulation; will not support mould or mildew growth; maintains performance when wet; excellent thermal performance for roof/ceiling applications This family covers 31 SKU variant(s) in the current catalogue. It is not a complete compliant building system on its own; project-specific claims about a finished construction must be confirmed by a human reviewer against a tested system that matches the proposed build-up.
+Quality insulation engineered for Australian conditions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability. Perfect for maximum thermal performance in roof/ceiling applications. Manufacturer-published features and benefits include: 100% polyester - safe to handle without protective equipment; contains minimum 80% recycled PET plastic bottles; non-allergenic, non-irritant formulation; will not support mould or mildew growth; maintains performance when wet; excellent thermal performance for roof/ceiling applications This family covers 8 SKU variant(s) in the current catalogue. It is not a complete compliant building system on its own; project-specific claims about a finished construction must be confirmed by a human reviewer against a tested system that matches the proposed build-up.
 
 ## Current manufacturer-supported facts
 
@@ -52,7 +52,7 @@ Quality insulation engineered for Australian conditions. Safe to handle without 
 - will not support mould or mildew growth.
 - maintains performance when wet.
 - excellent thermal performance for roof/ceiling applications.
-- The catalogue includes 31 unique SKU variant(s) in this family.
+- The catalogue includes 8 unique SKU variant(s) in this family.
 
 ## Grade and catalogue reconciliation
 
@@ -60,31 +60,14 @@ The following reflects the current internal SKU extraction from the master produ
 
 | Rating (as supplied) | Rating type | Thickness (mm) | Dimensions (L x W mm) | SKU count |
 | --- | --- | ---: | --- | ---: |
-| R1.5 | thermal_r_value | 75 | 1160 x 430 | 2 |
-| R1.5 | thermal_r_value | 75 | 1160 x 580 | 2 |
-| R1.5 | thermal_r_value | 50 | 1200 x 450 | 2 |
-| R1.5 | thermal_r_value | 75 | 1200 x 450 | 2 |
-| R1.5 | thermal_r_value | 50 | 1200 x 600 | 2 |
-| R1.5 | thermal_r_value | 75 | 1200 x 600 | 2 |
-| R2.0 | thermal_r_value | 90 | 1160 x 430 | 1 |
-| R2.5 | thermal_r_value | 90 | 1160 x 430 | 1 |
-| R2.0 | thermal_r_value | 90 | 1160 x 580 | 1 |
-| R2.5 | thermal_r_value | 90 | 1160 x 580 | 1 |
-| R2.0 | thermal_r_value | 110 | 1160 x 430 | 1 |
-| R2.5 | thermal_r_value | 135 | 1160 x 430 | 1 |
-| R3.0 | thermal_r_value | 150 | 1160 x 430 | 1 |
-| R3.5 | thermal_r_value | 150 | 1160 x 430 | 1 |
-| R2.0 | thermal_r_value | 110 | 1160 x 580 | 1 |
-| R2.5 | thermal_r_value | 135 | 1160 x 580 | 1 |
-| R3.0 | thermal_r_value | 150 | 1160 x 580 | 1 |
-| R3.5 | thermal_r_value | 150 | 1160 x 580 | 1 |
 | R1.5 | thermal_r_value | 85 | 1160 x 430 | 1 |
 | R1.5 | thermal_r_value | 85 | 1160 x 580 | 1 |
 | R1.5 | thermal_r_value | 50 | 1160 x 430 | 1 |
 | R1.5 | thermal_r_value | 50 | 1160 x 580 | 1 |
+| R1.5 | thermal_r_value | 75 | 1160 x 430 | 1 |
+| R1.5 | thermal_r_value | 75 | 1160 x 580 | 1 |
 | R1.5 | thermal_r_value | 100 | 1160 x 430 | 1 |
 | R1.5 | thermal_r_value | 100 | 1160 x 580 | 1 |
-| R1.5 | thermal_r_value | 100 | 1200 x 600 | 1 |
 
 ### Critical rating interpretation
 
@@ -92,16 +75,13 @@ Ratings prefixed `R` are thermal resistance values; ratings including `Rw` are w
 
 ## Application boundaries
 
-### Within the Batt family
+### Within the Higgins Insulation Batt family
 
 - Acoustic Wall / Ceiling
-- Ceiling
-- Acoustic Wall / Partition
-- Internal Wall | External Wall
 
 ### Separate product families
 
-Do not transfer claims from this family to other Higgins Insulation product families without their own current technical evidence. Where Higgins Insulation sells multiple categories (batt, board, reflective, pipe, wrap, panel, accessory), each is a distinct family with its own grade table and evidence.
+Do not transfer claims from this family to other Higgins Insulation product families without their own current technical evidence. Where Higgins Insulation sells multiple product families within the Batt category or in other categories, each is a distinct family with its own grade table and evidence.
 
 This family should not be presented as a fire-rated system, a complete compliant wall/ceiling assembly, or a guaranteed noise-elimination/thermal-comfort product. Record the customer's requirement and construction context for human review rather than confirming compliance directly.
 
@@ -204,7 +184,7 @@ Use this source for the canonical product identity, current grades, published ra
 
 ### Tier 2 — current internal catalogue
 
-The master product catalogue provides current commercial records for 31 SKUs, including internal SKU codes, dimensions, grade labels and stock. Commercial data does not validate technical performance; grade labels must be cross-checked against current manufacturer TDS per SKU before quoting.
+The master product catalogue provides current commercial records for 8 SKUs, including internal SKU codes, dimensions, grade labels and stock. Commercial data does not validate technical performance; grade labels must be cross-checked against current manufacturer TDS per SKU before quoting.
 
 ### Tier 3 — authorised owned-site literature
 
@@ -223,37 +203,14 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
   "primary_function": "thermal insulation (R-value)",
   "material": "Polyester",
   "applications": [
-    "Acoustic Wall / Ceiling",
-    "Ceiling",
-    "Acoustic Wall / Partition",
-    "Internal Wall | External Wall"
+    "Acoustic Wall / Ceiling"
   ],
-  "product_count": 31,
+  "product_count": 8,
   "grades": [
     {
       "rating": "R1.5",
       "rating_type": "thermal_r_value",
-      "sku_count": 19
-    },
-    {
-      "rating": "R2.0",
-      "rating_type": "thermal_r_value",
-      "sku_count": 4
-    },
-    {
-      "rating": "R2.5",
-      "rating_type": "thermal_r_value",
-      "sku_count": 4
-    },
-    {
-      "rating": "R3.0",
-      "rating_type": "thermal_r_value",
-      "sku_count": 2
-    },
-    {
-      "rating": "R3.5",
-      "rating_type": "thermal_r_value",
-      "sku_count": 2
+      "sku_count": 8
     }
   ],
   "priority_profile": {

@@ -14,8 +14,7 @@
       ],
       "keywords": [
         "accessory",
-        "stinger",
-        "136450"
+        "stinger"
       ],
       "scores": {
         "acoustic_comfort": 1,
@@ -24,11 +23,11 @@
         "installation_practicality": 5,
         "compliance_readiness": 2
       },
-      "score_notes": "Deep-dive scoring for Stinger Accessory: 13 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Stinger Accessory: 9 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "accessory.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.stinger.com.au/",
+      "source_url": "https://insulation.com.au/wp-content/uploads/2024/Brochure-Sisalation-Wrap-Selection-Guide-Consumer-Rev6-120825-web-1.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -39,7 +38,159 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 13
+      "product_count": 9
+    },
+    {
+      "family_id": "STINGER_CH",
+      "manufacturer": "Stinger",
+      "name": "Stinger Ch",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Stinger.",
+      "applications": [
+        "General Installation"
+      ],
+      "keywords": [
+        "accessory",
+        "stinger",
+        "stinger ch"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Stinger Ch: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "ch.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://insulation.com.au/wp-content/uploads/2024/Brochure-Sisalation-Wrap-Selection-Guide-Consumer-Rev6-120825-web-1.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "STINGER_CN",
+      "manufacturer": "Stinger",
+      "name": "Stinger Cn",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Stinger.",
+      "applications": [
+        "General Installation"
+      ],
+      "keywords": [
+        "accessory",
+        "stinger",
+        "stinger cn"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Stinger Cn: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "cn.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://insulation.com.au/wp-content/uploads/2024/Brochure-Sisalation-Wrap-Selection-Guide-Consumer-Rev6-120825-web-1.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "STINGER_CS",
+      "manufacturer": "Stinger",
+      "name": "Stinger Cs",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Stinger.",
+      "applications": [
+        "General Installation"
+      ],
+      "keywords": [
+        "accessory",
+        "stinger",
+        "stinger cs"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Stinger Cs: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "cs.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://insulation.com.au/wp-content/uploads/2024/Brochure-Sisalation-Wrap-Selection-Guide-Consumer-Rev6-120825-web-1.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "STINGER_HT",
+      "manufacturer": "Stinger",
+      "name": "Stinger Ht",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Stinger.",
+      "applications": [
+        "General Installation"
+      ],
+      "keywords": [
+        "accessory",
+        "stinger",
+        "stinger ht"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Stinger Ht: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "ht.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://insulation.com.au/wp-content/uploads/2024/Brochure-Sisalation-Wrap-Selection-Guide-Consumer-Rev6-120825-web-1.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
     }
   ]
 }

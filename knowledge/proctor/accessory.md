@@ -25,7 +25,7 @@ gate_fire_compliance: not_verified_per_sku
 gate_bal: not_verified
 official_datasheet_url: https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf
 official_sds_url: https://proctorgroup.com.au/wp-content/uploads/2021/02/DCT_PIR_Silver_White_Tissue_Ver_2_2020-2.pdf
-product_count: 31
+product_count: 3
 rating_basis: thermal
 ---
 
@@ -33,13 +33,13 @@ rating_basis: thermal
 
 ## Purpose of this file
 
-This is the canonical internal description for the Proctor Accessory family. It aligns the terminology used by the enquiry bot, sales team and future Aircall CSV.
+This is the canonical internal description for the Proctor Accessory family (Accessory category). It aligns the terminology used by the enquiry bot, sales team and future Aircall CSV.
 
 For the demonstration, the bot may recommend the **Proctor Accessory family** when the customer's problem matches its documented applications. It must not choose a specific grade, calculate order quantity, or confirm thermal, acoustic, fire, NCC or BAL compliance for a project. Those decisions remain human-reviewed.
 
 ## Canonical description
 
-Quality insulation engineered for Australian conditions. Engineered to meet Australian building requirements. Manufacturer-published features and benefits include: High-performance sealing and joining solution; maintains air and vapour barrier continuity; compatible with a range of insulation substrates This family covers 31 SKU variant(s) in the current catalogue. It is not a complete compliant building system on its own; project-specific claims about a finished construction must be confirmed by a human reviewer against a tested system that matches the proposed build-up.
+Quality insulation engineered for Australian conditions. Engineered to meet Australian building requirements. Manufacturer-published features and benefits include: High-performance sealing and joining solution; maintains air and vapour barrier continuity; compatible with a range of insulation substrates This family covers 3 SKU variant(s) in the current catalogue. It is not a complete compliant building system on its own; project-specific claims about a finished construction must be confirmed by a human reviewer against a tested system that matches the proposed build-up.
 
 ## Current manufacturer-supported facts
 
@@ -49,7 +49,7 @@ Quality insulation engineered for Australian conditions. Engineered to meet Aust
 - High-performance sealing and joining solution.
 - maintains air and vapour barrier continuity.
 - compatible with a range of insulation substrates.
-- The catalogue includes 31 unique SKU variant(s) in this family.
+- The catalogue includes 3 unique SKU variant(s) in this family.
 
 ## Grade and catalogue reconciliation
 
@@ -57,23 +57,9 @@ The following reflects the current internal SKU extraction from the master produ
 
 | Rating (as supplied) | Rating type | Thickness (mm) | Dimensions (L x W mm) | SKU count |
 | --- | --- | ---: | --- | ---: |
-| R0.1 | thermal_r_value | Varies | Varies | 7 |
-| R0.1 | thermal_r_value | 75 | 50000 x 75 | 3 |
-| R0.1 | thermal_r_value | 150 | 50000 x 150 | 3 |
-| R0.1 | thermal_r_value | 50 | 25000 x 50 | 3 |
-| R0.1 | thermal_r_value | 60 | 50000 x 60 | 2 |
-| R0.1 | thermal_r_value | 75 | 25000 x 75 | 2 |
-| R0.1 | thermal_r_value | Varies | 35000 x 2 | 1 |
-| R0.1 | thermal_r_value | 300 | 50000 x 300 | 1 |
-| R0.1 | thermal_r_value | 100 | 50000 x 100 | 1 |
 | R0.1 | thermal_r_value | Varies | 25000 x 60 | 1 |
-| R0.1 | thermal_r_value | 30 | 20000 x 30 | 1 |
 | R0.1 | thermal_r_value | Varies | 20000 x 50 | 1 |
-| R0.1 | thermal_r_value | 80 | 10000 (width varies) | 1 |
-| R0.1 | thermal_r_value | 50 | 20000 (width varies) | 1 |
-| R0.1 | thermal_r_value | 550 | 580 x 550 | 1 |
-| R0.1 | thermal_r_value | 450 | 620 x 450 | 1 |
-| R0.1 | thermal_r_value | 50 | 50000 x 50 | 1 |
+| R0.1 | thermal_r_value | Varies | Varies | 1 |
 
 ### Critical rating interpretation
 
@@ -81,14 +67,14 @@ Ratings prefixed `R` are thermal resistance values; ratings including `Rw` are w
 
 ## Application boundaries
 
-### Within the Accessory family
+### Within the Proctor Accessory family
 
 - Passive House Membrane
 - Ventilation
 
 ### Separate product families
 
-Do not transfer claims from this family to other Proctor product families without their own current technical evidence. Where Proctor sells multiple categories (batt, board, reflective, pipe, wrap, panel, accessory), each is a distinct family with its own grade table and evidence.
+Do not transfer claims from this family to other Proctor product families without their own current technical evidence. Where Proctor sells multiple product families within the Accessory category or in other categories, each is a distinct family with its own grade table and evidence.
 
 This family should not be presented as a fire-rated system, a complete compliant wall/ceiling assembly, or a guaranteed noise-elimination/thermal-comfort product. Record the customer's requirement and construction context for human review rather than confirming compliance directly.
 
@@ -186,7 +172,7 @@ Use this source for the canonical product identity, current grades, published ra
 
 ### Tier 2 — current internal catalogue
 
-The master product catalogue provides current commercial records for 31 SKUs, including internal SKU codes, dimensions, grade labels and stock. Commercial data does not validate technical performance; grade labels must be cross-checked against current manufacturer TDS per SKU before quoting.
+The master product catalogue provides current commercial records for 3 SKUs, including internal SKU codes, dimensions, grade labels and stock. Commercial data does not validate technical performance; grade labels must be cross-checked against current manufacturer TDS per SKU before quoting.
 
 ### Tier 3 — authorised owned-site literature
 
@@ -208,12 +194,12 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
     "Passive House Membrane",
     "Ventilation"
   ],
-  "product_count": 31,
+  "product_count": 3,
   "grades": [
     {
       "rating": "R0.1",
       "rating_type": "thermal_r_value",
-      "sku_count": 31
+      "sku_count": 3
     }
   ],
   "priority_profile": {

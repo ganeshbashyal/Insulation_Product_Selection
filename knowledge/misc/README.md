@@ -1,15 +1,21 @@
 # Misc product-family knowledge base
 
-Bot-facing knowledge for Misc products. Each file represents a technical family, not an individual stock SKU.
+Bot-facing knowledge for Misc products. Each file represents a technical product-line family as classified by the manufacturer's own product naming, not an individual stock SKU.
 
 ## Family index
 
 | Family ID | Product family | Evidence status |
 | --- | --- | --- |
 | `MISC_ACCESSORY` | Misc Accessory | Initial documentation |
+| `MISC_POLYSTRAPPING` | Misc Polystrapping | Initial documentation |
 | `MISC_REFLECTIVE` | Misc Reflective | Initial documentation |
+| `MISC_RHINO_BREATHABLE_MEMBRANE` | Misc Rhino Breathable Membrane | Initial documentation |
+| `MISC_RHINO_WRAP_BREATHER` | Misc Rhino Wrap Breather | Initial documentation |
+| `MISC_TAPE_METALISED` | Misc Tape Metalised | Initial documentation |
+| `MISC_TENSORGRIP` | Misc Tensorgrip | Initial documentation |
+| `MISC_TENSORGRIP_H` | Misc Tensorgrip H | Initial documentation |
+| `MISC_TENSORGRIPH` | Misc TensorgripH | Initial documentation |
 | `MISC_WRAP` | Misc Wrap | Initial documentation |
-
 
 ## Retrieval rule
 

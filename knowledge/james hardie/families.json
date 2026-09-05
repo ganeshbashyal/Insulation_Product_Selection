@@ -4,9 +4,9 @@
   "rating_scale": "1 = low relevance, 3 = useful, 5 = primary strength; ratings guide discovery and are not compliance or performance certificates",
   "families": [
     {
-      "family_id": "JAMES_HARDIE_BATT",
+      "family_id": "JAMES_HARDIE_FIRE_ROCKWOOL",
       "manufacturer": "James Hardie",
-      "name": "James Hardie Batt",
+      "name": "JAMES HARDIEFIRE ROCKWOOl",
       "category": "Batt",
       "primary_function": "Batt insulation product from James Hardie.",
       "applications": [
@@ -15,7 +15,7 @@
       "keywords": [
         "batt",
         "james hardie",
-        "hfib1142_60"
+        "james hardiefire rockwool"
       ],
       "scores": {
         "acoustic_comfort": 3,
@@ -24,11 +24,11 @@
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for James Hardie Batt: 5 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for JAMES HARDIEFIRE ROCKWOOl: 5 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
-      "knowledge_file": "batt.md",
+      "knowledge_file": "fire_rockwool.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.jameshardie.com.au/",
+      "source_url": "https://www.jameshardie.com.au/ContentfulCMS/Installation-Guide/Hardie_Wrap_Weather_Barrier_Installation_Guide.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",

@@ -4,22 +4,18 @@
   "rating_scale": "1 = low relevance, 3 = useful, 5 = primary strength; ratings guide discovery and are not compliance or performance certificates",
   "families": [
     {
-      "family_id": "TRADE_SELECT_REFLECTIVE",
+      "family_id": "TRADE_SELECT_ALUMINIUM_GLASS_FOIL_TAPE",
       "manufacturer": "Trade Select",
-      "name": "Trade Select Reflective",
+      "name": "Trade Select Aluminium Glass Foil Tape",
       "category": "Reflective",
       "primary_function": "Reflective insulation product from Trade Select.",
       "applications": [
-        "Thermal Break",
-        "Metal Roof / Shed",
-        "General Installation",
-        "Internal Wall",
-        "Wall Wrap / Sarking"
+        "General Installation"
       ],
       "keywords": [
+        "aluminium glass foil tape",
         "reflective",
-        "trade select",
-        "tsld-40"
+        "trade select"
       ],
       "scores": {
         "acoustic_comfort": 3,
@@ -28,11 +24,11 @@
         "installation_practicality": 4,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Trade Select Reflective: 51 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Trade Select Aluminium Glass Foil Tape: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
-      "knowledge_file": "reflective.md",
+      "knowledge_file": "aluminium_glass_foil_tape.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.tradeselect.com.au/",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -43,7 +39,275 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 51
+      "product_count": 2
+    },
+    {
+      "family_id": "TRADE_SELECT_BALLISTIC_POINT_INSULATION_FASTENE",
+      "manufacturer": "Trade Select",
+      "name": "Trade Select Ballistic Point Insulation Fastene",
+      "category": "Reflective",
+      "primary_function": "Reflective insulation product from Trade Select.",
+      "applications": [
+        "General Installation"
+      ],
+      "keywords": [
+        "ballistic point insulation fastene",
+        "reflective",
+        "trade select"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 4,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Trade Select Ballistic Point Insulation Fastene: 10 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "ballistic_point_insulation_fastene.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 10
+    },
+    {
+      "family_id": "TRADE_SELECT_EASYSEAL_INSULATION_FLASHING_TAPE",
+      "manufacturer": "Trade Select",
+      "name": "Trade Select EasySeal Insulation Flashing Tape",
+      "category": "Reflective",
+      "primary_function": "Reflective insulation product from Trade Select.",
+      "applications": [
+        "General Installation"
+      ],
+      "keywords": [
+        "easyseal insulation flashing tape",
+        "reflective",
+        "trade select"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 4,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Trade Select EasySeal Insulation Flashing Tape: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "easyseal_insulation_flashing_tape.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "TRADE_SELECT_NC_THERMAL_BREAK_STRIPS",
+      "manufacturer": "Trade Select",
+      "name": "Trade Select NC Thermal Break Strips",
+      "category": "Reflective",
+      "primary_function": "Reflective insulation product from Trade Select.",
+      "applications": [
+        "Thermal Break"
+      ],
+      "keywords": [
+        "nc thermal break strips",
+        "reflective",
+        "trade select"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 4,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Trade Select NC Thermal Break Strips: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "nc_thermal_break_strips.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "TRADE_SELECT_NC_THERMAL_BREAK_STRIPS_ADHESIVE_BACKED",
+      "manufacturer": "Trade Select",
+      "name": "Trade Select NC Thermal Break Strips Adhesive backed",
+      "category": "Reflective",
+      "primary_function": "Reflective insulation product from Trade Select.",
+      "applications": [
+        "Thermal Break"
+      ],
+      "keywords": [
+        "nc thermal break strips adhesive backed",
+        "reflective",
+        "trade select"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 4,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Trade Select NC Thermal Break Strips Adhesive backed: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "nc_thermal_break_strips_adhesive_backed.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 2
+    },
+    {
+      "family_id": "TRADE_SELECT_NON_COMBUSTIBLE_INSULATION_FLASHING_TAPE",
+      "manufacturer": "Trade Select",
+      "name": "Trade Select Non-combustible Insulation Flashing Tape",
+      "category": "Reflective",
+      "primary_function": "Reflective insulation product from Trade Select.",
+      "applications": [
+        "General Installation"
+      ],
+      "keywords": [
+        "non-combustible insulation flashing tape",
+        "reflective",
+        "trade select"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 4,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Trade Select Non-combustible Insulation Flashing Tape: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "non_combustible_insulation_flashing_tape.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "TRADE_SELECT_REFLECTIVE",
+      "manufacturer": "Trade Select",
+      "name": "Trade Select Reflective",
+      "category": "Reflective",
+      "primary_function": "Reflective insulation product from Trade Select.",
+      "applications": [
+        "Wall Wrap / Sarking",
+        "Metal Roof / Shed",
+        "General Installation",
+        "Internal Wall"
+      ],
+      "keywords": [
+        "reflective",
+        "trade select"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 4,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Trade Select Reflective: 33 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "reflective.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 33
+    },
+    {
+      "family_id": "TRADE_SELECT_THERMAL_BREAK_STRIPS",
+      "manufacturer": "Trade Select",
+      "name": "Trade Select Thermal Break Strips",
+      "category": "Reflective",
+      "primary_function": "Reflective insulation product from Trade Select.",
+      "applications": [
+        "Thermal Break"
+      ],
+      "keywords": [
+        "reflective",
+        "thermal break strips",
+        "trade select"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 4,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Trade Select Thermal Break Strips: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "thermal_break_strips.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
     },
     {
       "family_id": "TRADE_SELECT_WRAP",
@@ -55,9 +319,8 @@
         "Wall Wrap / Sarking"
       ],
       "keywords": [
-        "wrap",
         "trade select",
-        "tsld-40-b"
+        "wrap"
       ],
       "scores": {
         "acoustic_comfort": 2,
@@ -70,7 +333,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "wrap.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.tradeselect.com.au/",
+      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",

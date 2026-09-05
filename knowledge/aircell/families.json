@@ -4,21 +4,18 @@
   "rating_scale": "1 = low relevance, 3 = useful, 5 = primary strength; ratings guide discovery and are not compliance or performance certificates",
   "families": [
     {
-      "family_id": "AIRCELL_REFLECTIVE",
+      "family_id": "AIRCELL_BISCUITS",
       "manufacturer": "Aircell",
-      "name": "Aircell Reflective",
+      "name": "Aircell Biscuits",
       "category": "Reflective",
       "primary_function": "Reflective insulation product from Aircell.",
       "applications": [
-        "Internal Wall",
-        "Floor",
-        "General Installation",
-        "Metal Roof / Shed"
+        "General Installation"
       ],
       "keywords": [
-        "reflective",
         "aircell",
-        "100000065076"
+        "biscuits",
+        "reflective"
       ],
       "scores": {
         "acoustic_comfort": 3,
@@ -27,11 +24,11 @@
         "installation_practicality": 4,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Aircell Reflective: 23 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Aircell Biscuits: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
-      "knowledge_file": "reflective.md",
+      "knowledge_file": "biscuits.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.aircell.com.au/",
+      "source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -42,7 +39,539 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 23
+      "product_count": 1
+    },
+    {
+      "family_id": "AIRCELL_FOIL_TAPE",
+      "manufacturer": "Aircell",
+      "name": "Aircell Foil Tape",
+      "category": "Reflective",
+      "primary_function": "Reflective insulation product from Aircell.",
+      "applications": [
+        "General Installation"
+      ],
+      "keywords": [
+        "aircell",
+        "foil tape",
+        "reflective"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 4,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Aircell Foil Tape: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "foil_tape.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 4
+    },
+    {
+      "family_id": "AIRCELL_GLARESHIELD",
+      "manufacturer": "Aircell",
+      "name": "Aircell Glareshield",
+      "category": "Reflective",
+      "primary_function": "Reflective insulation product from Aircell.",
+      "applications": [
+        "Metal Roof / Shed"
+      ],
+      "keywords": [
+        "aircell",
+        "glareshield",
+        "reflective"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 4,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Aircell Glareshield: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "glareshield.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "AIRCELL_INSULBREAK",
+      "manufacturer": "Aircell",
+      "name": "Aircell Insulbreak",
+      "category": "Reflective",
+      "primary_function": "Reflective insulation product from Aircell.",
+      "applications": [
+        "Metal Roof / Shed"
+      ],
+      "keywords": [
+        "aircell",
+        "insulbreak",
+        "reflective"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 4,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Aircell Insulbreak: 3 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "insulbreak.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 3
+    },
+    {
+      "family_id": "AIRCELL_INSULINER",
+      "manufacturer": "Aircell",
+      "name": "Aircell Insuliner",
+      "category": "Reflective",
+      "primary_function": "Reflective insulation product from Aircell.",
+      "applications": [
+        "Metal Roof / Shed"
+      ],
+      "keywords": [
+        "aircell",
+        "insuliner",
+        "reflective"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 4,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Aircell Insuliner: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "insuliner.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "AIRCELL_INSULSHED",
+      "manufacturer": "Aircell",
+      "name": "Aircell Insulshed",
+      "category": "Reflective",
+      "primary_function": "Reflective insulation product from Aircell.",
+      "applications": [
+        "Metal Roof / Shed"
+      ],
+      "keywords": [
+        "aircell",
+        "insulshed",
+        "reflective"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 4,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Aircell Insulshed: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "insulshed.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 2
+    },
+    {
+      "family_id": "AIRCELL_INSULWHITE",
+      "manufacturer": "Aircell",
+      "name": "Aircell Insulwhite",
+      "category": "Reflective",
+      "primary_function": "Reflective insulation product from Aircell.",
+      "applications": [
+        "Metal Roof / Shed"
+      ],
+      "keywords": [
+        "aircell",
+        "insulwhite",
+        "reflective"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 4,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Aircell Insulwhite: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "insulwhite.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "AIRCELL_PERMICAV",
+      "manufacturer": "Aircell",
+      "name": "Aircell Permicav",
+      "category": "Reflective",
+      "primary_function": "Reflective insulation product from Aircell.",
+      "applications": [
+        "Metal Roof / Shed"
+      ],
+      "keywords": [
+        "aircell",
+        "permicav",
+        "reflective"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 4,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Aircell Permicav: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "permicav.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "AIRCELL_PERMIFLOOR",
+      "manufacturer": "Aircell",
+      "name": "Aircell Permifloor",
+      "category": "Reflective",
+      "primary_function": "Reflective insulation product from Aircell.",
+      "applications": [
+        "Floor"
+      ],
+      "keywords": [
+        "aircell",
+        "permifloor",
+        "reflective"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 4,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Aircell Permifloor: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "permifloor.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 2
+    },
+    {
+      "family_id": "AIRCELL_PERMISHIELD",
+      "manufacturer": "Aircell",
+      "name": "Aircell Permishield",
+      "category": "Reflective",
+      "primary_function": "Reflective insulation product from Aircell.",
+      "applications": [
+        "Metal Roof / Shed"
+      ],
+      "keywords": [
+        "aircell",
+        "permishield",
+        "reflective"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 4,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Aircell Permishield: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "permishield.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 2
+    },
+    {
+      "family_id": "AIRCELL_PERMIWALL",
+      "manufacturer": "Aircell",
+      "name": "Aircell Permiwall",
+      "category": "Reflective",
+      "primary_function": "Reflective insulation product from Aircell.",
+      "applications": [
+        "Internal Wall"
+      ],
+      "keywords": [
+        "aircell",
+        "permiwall",
+        "reflective"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 4,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Aircell Permiwall: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "permiwall.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "AIRCELL_RETROSHIELD",
+      "manufacturer": "Aircell",
+      "name": "Aircell Retroshield",
+      "category": "Reflective",
+      "primary_function": "Reflective insulation product from Aircell.",
+      "applications": [
+        "Metal Roof / Shed"
+      ],
+      "keywords": [
+        "aircell",
+        "reflective",
+        "retroshield"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 4,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Aircell Retroshield: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "retroshield.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "AIRCELL_RETROSHIELD_HANDYPACK",
+      "manufacturer": "Aircell",
+      "name": "Aircell Retroshield Handypack",
+      "category": "Reflective",
+      "primary_function": "Reflective insulation product from Aircell.",
+      "applications": [
+        "Metal Roof / Shed"
+      ],
+      "keywords": [
+        "aircell",
+        "reflective",
+        "retroshield handypack"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 4,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Aircell Retroshield Handypack: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "retroshield_handypack.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "AIRCELL_RETROSHIELD_XL",
+      "manufacturer": "Aircell",
+      "name": "Aircell Retroshield XL",
+      "category": "Reflective",
+      "primary_function": "Reflective insulation product from Aircell.",
+      "applications": [
+        "Metal Roof / Shed"
+      ],
+      "keywords": [
+        "aircell",
+        "reflective",
+        "retroshield xl"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 4,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Aircell Retroshield XL: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "retroshield_xl.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "AIRCELL_SPACER_BISCUITS",
+      "manufacturer": "Aircell",
+      "name": "Aircell Spacer Biscuits",
+      "category": "Reflective",
+      "primary_function": "Reflective insulation product from Aircell.",
+      "applications": [
+        "General Installation"
+      ],
+      "keywords": [
+        "aircell",
+        "reflective",
+        "spacer biscuits"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 4,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Deep-dive scoring for Aircell Spacer Biscuits: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "spacer_biscuits.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
     }
   ]
 }

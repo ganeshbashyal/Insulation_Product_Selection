@@ -1,6 +1,6 @@
 # Acoustica product-family knowledge base
 
-Bot-facing knowledge for Acoustica products. Each file represents a technical family, not an individual stock SKU.
+Bot-facing knowledge for Acoustica products. Each file represents a technical product-line family as classified by the manufacturer's own product naming, not an individual stock SKU.
 
 ## Family index
 
@@ -8,9 +8,11 @@ Bot-facing knowledge for Acoustica products. Each file represents a technical fa
 | --- | --- | --- |
 | `ACOUSTICA_ACCESSORY` | Acoustica Accessory | Initial documentation |
 | `ACOUSTICA_ACOUSTIC_BARRIER` | Acoustica Acoustic Barrier | Initial documentation |
-| `ACOUSTICA_PIPE` | Acoustica Pipe | Initial documentation |
+| `ACOUSTICA_ACOUSTIFLEX_SQ` | Acoustica Acoustiflex SQ | Initial documentation |
+| `ACOUSTICA_ANGELSTEP` | Acoustica AngelStep | Initial documentation |
+| `ACOUSTICA_DUST_FOAM_FILTER` | Acoustica Dust foam filter | Initial documentation |
+| `ACOUSTICA_GL` | Acoustica Gl | Initial documentation |
 | `ACOUSTICA_UNDERLAY` | Acoustica Underlay | Initial documentation |
-
 
 ## Retrieval rule
 

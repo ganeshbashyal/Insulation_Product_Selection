@@ -25,7 +25,7 @@ gate_fire_compliance: not_verified_per_sku
 gate_bal: not_verified
 official_datasheet_url: https://insulation.com.au/wp-content/uploads/2024/Brochure-Sisalation-Wrap-Selection-Guide-Consumer-Rev6-120825-web-1.pdf
 official_sds_url: https://insulation.com.au/wp-content/uploads/2024/Brochure-Sisalation-Wrap-Selection-Guide-Consumer-Rev6-120825-web-1.pdf
-product_count: 13
+product_count: 9
 rating_basis: thermal
 ---
 
@@ -33,13 +33,13 @@ rating_basis: thermal
 
 ## Purpose of this file
 
-This is the canonical internal description for the Stinger Accessory family. It aligns the terminology used by the enquiry bot, sales team and future Aircall CSV.
+This is the canonical internal description for the Stinger Accessory family (Accessory category). It aligns the terminology used by the enquiry bot, sales team and future Aircall CSV.
 
 For the demonstration, the bot may recommend the **Stinger Accessory family** when the customer's problem matches its documented applications. It must not choose a specific grade, calculate order quantity, or confirm thermal, acoustic, fire, NCC or BAL compliance for a project. Those decisions remain human-reviewed.
 
 ## Canonical description
 
-Quality insulation engineered for Australian conditions. Engineered to meet the demanding requirements of Australian building conditions. Manufacturer-published features and benefits include: Quality insulation product for Australian building conditions; designed to meet NCC energy efficiency requirements This family covers 13 SKU variant(s) in the current catalogue. It is not a complete compliant building system on its own; project-specific claims about a finished construction must be confirmed by a human reviewer against a tested system that matches the proposed build-up.
+Quality insulation engineered for Australian conditions. Engineered to meet the demanding requirements of Australian building conditions. Manufacturer-published features and benefits include: Quality insulation product for Australian building conditions; designed to meet NCC energy efficiency requirements This family covers 9 SKU variant(s) in the current catalogue. It is not a complete compliant building system on its own; project-specific claims about a finished construction must be confirmed by a human reviewer against a tested system that matches the proposed build-up.
 
 ## Current manufacturer-supported facts
 
@@ -48,7 +48,7 @@ Quality insulation engineered for Australian conditions. Engineered to meet the 
 - Rating basis: thermal insulation (R-value).
 - Quality insulation product for Australian building conditions.
 - designed to meet NCC energy efficiency requirements.
-- The catalogue includes 13 unique SKU variant(s) in this family.
+- The catalogue includes 9 unique SKU variant(s) in this family.
 
 ## Grade and catalogue reconciliation
 
@@ -56,7 +56,7 @@ The following reflects the current internal SKU extraction from the master produ
 
 | Rating (as supplied) | Rating type | Thickness (mm) | Dimensions (L x W mm) | SKU count |
 | --- | --- | ---: | --- | ---: |
-| R0.5 | thermal_r_value | Varies | Varies | 9 |
+| R0.5 | thermal_r_value | Varies | Varies | 5 |
 | R0.5 | thermal_r_value | 38 | Varies | 2 |
 | R0.5 | thermal_r_value | 22 | Varies | 1 |
 | R0.5 | thermal_r_value | 32 | Varies | 1 |
@@ -67,13 +67,13 @@ Ratings prefixed `R` are thermal resistance values; ratings including `Rw` are w
 
 ## Application boundaries
 
-### Within the Accessory family
+### Within the Stinger Accessory family
 
 - General Installation
 
 ### Separate product families
 
-Do not transfer claims from this family to other Stinger product families without their own current technical evidence. Where Stinger sells multiple categories (batt, board, reflective, pipe, wrap, panel, accessory), each is a distinct family with its own grade table and evidence.
+Do not transfer claims from this family to other Stinger product families without their own current technical evidence. Where Stinger sells multiple product families within the Accessory category or in other categories, each is a distinct family with its own grade table and evidence.
 
 This family should not be presented as a fire-rated system, a complete compliant wall/ceiling assembly, or a guaranteed noise-elimination/thermal-comfort product. Record the customer's requirement and construction context for human review rather than confirming compliance directly.
 
@@ -170,7 +170,7 @@ Use this source for the canonical product identity, current grades, published ra
 
 ### Tier 2 — current internal catalogue
 
-The master product catalogue provides current commercial records for 13 SKUs, including internal SKU codes, dimensions, grade labels and stock. Commercial data does not validate technical performance; grade labels must be cross-checked against current manufacturer TDS per SKU before quoting.
+The master product catalogue provides current commercial records for 9 SKUs, including internal SKU codes, dimensions, grade labels and stock. Commercial data does not validate technical performance; grade labels must be cross-checked against current manufacturer TDS per SKU before quoting.
 
 ### Tier 3 — authorised owned-site literature
 
@@ -191,12 +191,12 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
   "applications": [
     "General Installation"
   ],
-  "product_count": 13,
+  "product_count": 9,
   "grades": [
     {
       "rating": "R0.5",
       "rating_type": "thermal_r_value",
-      "sku_count": 13
+      "sku_count": 9
     }
   ],
   "priority_profile": {

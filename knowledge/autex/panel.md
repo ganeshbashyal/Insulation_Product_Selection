@@ -25,7 +25,7 @@ gate_fire_compliance: not_verified_per_sku
 gate_bal: not_verified
 official_datasheet_url: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
 official_sds_url: https://insulvac.com.au/wp-content/uploads/2020/04/autex-material-safety-data-sheet-msds.pdf
-product_count: 196
+product_count: 21
 rating_basis: mixed
 ---
 
@@ -33,13 +33,13 @@ rating_basis: mixed
 
 ## Purpose of this file
 
-This is the canonical internal description for the Autex Panel family. It aligns the terminology used by the enquiry bot, sales team and future Aircall CSV.
+This is the canonical internal description for the Autex Panel family (Panel category). It aligns the terminology used by the enquiry bot, sales team and future Aircall CSV.
 
 For the demonstration, the bot may recommend the **Autex Panel family** when the customer's problem matches its documented applications. It must not choose a specific grade, calculate order quantity, or confirm thermal, acoustic, fire, NCC or BAL compliance for a project. Those decisions remain human-reviewed.
 
 ## Canonical description
 
-Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability. Perfect for maximum thermal performance in roof/ceiling applications. Manufacturer-published features and benefits include: 100% polyester - safe to handle without protective equipment; contains minimum 80% recycled PET plastic bottles; non-allergenic, non-irritant formulation; will not support mould or mildew growth; maintains performance when wet; excellent thermal performance for roof/ceiling applications; Made from recycled PET bottles; Safe to handle without PPE This family covers 196 SKU variant(s) in the current catalogue. It is not a complete compliant building system on its own; project-specific claims about a finished construction must be confirmed by a human reviewer against a tested system that matches the proposed build-up.
+Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled plastic bottles, it's the sustainable choice for modern buildings. Manufacturer-published features and benefits include: 100% polyester - safe to handle without protective equipment; contains minimum 80% recycled PET plastic bottles; non-allergenic, non-irritant formulation; will not support mould or mildew growth; maintains performance when wet - dries out naturally; Made from recycled PET bottles; Safe to handle without protective equipment This family covers 21 SKU variant(s) in the current catalogue. It is not a complete compliant building system on its own; project-specific claims about a finished construction must be confirmed by a human reviewer against a tested system that matches the proposed build-up.
 
 ## Current manufacturer-supported facts
 
@@ -50,9 +50,9 @@ Specialists in sustainable polyester acoustic solutions. Safe to handle without 
 - contains minimum 80% recycled PET plastic bottles.
 - non-allergenic, non-irritant formulation.
 - will not support mould or mildew growth.
-- maintains performance when wet.
-- excellent thermal performance for roof/ceiling applications.
-- The catalogue includes 196 unique SKU variant(s) in this family.
+- maintains performance when wet - dries out naturally.
+- Made from recycled PET bottles.
+- The catalogue includes 21 unique SKU variant(s) in this family.
 
 ## Grade and catalogue reconciliation
 
@@ -60,53 +60,11 @@ The following reflects the current internal SKU extraction from the master produ
 
 | Rating (as supplied) | Rating type | Thickness (mm) | Dimensions (L x W mm) | SKU count |
 | --- | --- | ---: | --- | ---: |
-| NRC 0.60 | acoustic_nrc | Varies | 1200 (width varies) | 19 |
-| Rw 35 | acoustic_rw | Varies | 1195 x 595 | 14 |
-| Rw 35 | acoustic_rw | Varies | 595 x 595 | 12 |
-| Rw 35 | acoustic_rw | Varies | 2400 x 1200 | 10 |
-| NRC 0.60 | acoustic_nrc | 25 | 2400 x 1200 | 9 |
-| NRC 0.60 | acoustic_nrc | 25 | 2700 x 1200 | 9 |
-| Rw 35 | acoustic_rw | 12 | 2400 x 1200 | 7 |
-| Rw 35 | acoustic_rw | 12 | 2700 x 1200 | 7 |
-| Rw 35 | acoustic_rw | 24 | 2400 x 1200 | 7 |
-| Rw 35 | acoustic_rw | 24 | 2700 x 1200 | 7 |
-| NRC 0.60 | acoustic_nrc | 25 | 3000 x 1200 | 5 |
-| Rw 40 | acoustic_rw | 50 | 2400 x 1200 | 4 |
-| Rw 45 | acoustic_rw | 75 | 2400 x 1200 | 4 |
-| Rw 50 | acoustic_rw | 100 | 2400 x 1200 | 4 |
-| Rw 40 | acoustic_rw | 50 | 2700 x 1200 | 4 |
-| Rw 45 | acoustic_rw | 75 | 2700 x 1200 | 4 |
-| Rw 50 | acoustic_rw | 100 | 2700 x 1200 | 4 |
-| Rw 35 | acoustic_rw | Varies | 1200 x 1200 | 4 |
-| Rw 35 | acoustic_rw | 12 | 2700 x 1170 | 4 |
-| Rw 35 | acoustic_rw | 21 | 2700 x 1170 | 4 |
-| Rw 35 | acoustic_rw | 12 | 3000 x 1200 | 4 |
-| Rw 35 | acoustic_rw | 24 | 3000 x 1200 | 4 |
+| NRC 0.60 | acoustic_nrc | Varies | 1200 (width varies) | 13 |
 | R0.2 | thermal_r_value | Varies | 600 x 600 | 3 |
-| Rw 35 | acoustic_rw | 12 | 1195 x 595 | 3 |
-| Rw 35 | acoustic_rw | 12 | 595 x 595 | 3 |
-| R0.3 | thermal_r_value | 10 | 1200 x 1220 | 2 |
 | R0.3 | thermal_r_value | Varies | 600 x 600 | 2 |
-| NRC 0.60 | acoustic_nrc | 16 | 2440 x 1220 | 2 |
-| NRC 0.60 | acoustic_nrc | 16 | 2740 x 1220 | 2 |
-| Rw 35 | acoustic_rw | 6 | 2440 x 1220 | 2 |
-| Rw 35 | acoustic_rw | 12 | 2440 x 1220 | 2 |
-| Rw 35 | acoustic_rw | 12 | 2740 x 1220 | 2 |
-| Rw 35 | acoustic_rw | 24 | 2440 x 1220 | 2 |
-| Rw 35 | acoustic_rw | 24 | 2740 x 1220 | 2 |
-| Rw 35 | acoustic_rw | 6 | 1200 x 1220 | 2 |
-| Rw 35 | acoustic_rw | 12 | 1200 x 1220 | 2 |
-| Rw 35 | acoustic_rw | 24 | 1200 x 1220 | 2 |
-| NRC 0.60 | acoustic_nrc | 16 | 1200 x 1220 | 2 |
-| Rw 35 | acoustic_rw | Varies | 1185 x 1039 | 2 |
-| Rw 35 | acoustic_rw | Varies | 1159 x 1159 | 2 |
+| Rw 35 | acoustic_rw | Varies | 1195 x 595 | 2 |
 | Rw 35 | acoustic_rw | Varies | 25000 x 1300 | 1 |
-| NRC 0.60 | acoustic_nrc | 12 | 2400 (width varies) | 1 |
-| NRC 0.60 | acoustic_nrc | 12 | 2700 (width varies) | 1 |
-| NRC 0.60 | acoustic_nrc | 24 | 2400 (width varies) | 1 |
-| NRC 0.60 | acoustic_nrc | 24 | 2700 (width varies) | 1 |
-| NRC 0.60 | acoustic_nrc | 12 | 3000 x 1200 | 1 |
-| NRC 0.60 | acoustic_nrc | 24 | 3000 x 1200 | 1 |
 
 ### Critical rating interpretation
 
@@ -114,16 +72,15 @@ Ratings prefixed `R` are thermal resistance values; ratings including `Rw` are w
 
 ## Application boundaries
 
-### Within the Panel family
+### Within the Autex Panel family
 
-- Internal Wall | Ceiling | General Acoustic
-- Ceiling
 - Internal Wall
-- Internal Wall | General Acoustic
+- Ceiling
+- Internal Wall | Ceiling | General Acoustic
 
 ### Separate product families
 
-Do not transfer claims from this family to other Autex product families without their own current technical evidence. Where Autex sells multiple categories (batt, board, reflective, pipe, wrap, panel, accessory), each is a distinct family with its own grade table and evidence.
+Do not transfer claims from this family to other Autex product families without their own current technical evidence. Where Autex sells multiple product families within the Panel category or in other categories, each is a distinct family with its own grade table and evidence.
 
 This family should not be presented as a fire-rated system, a complete compliant wall/ceiling assembly, or a guaranteed noise-elimination/thermal-comfort product. Record the customer's requirement and construction context for human review rather than confirming compliance directly.
 
@@ -135,17 +92,16 @@ Manufacturer literature notes:
 - cut to size using sharp knife or electric carving knife.
 - ensure snug fit without compression for rated R-value.
 - no PPE required - safe to handle with bare hands.
-- ensure clearance around recessed lighting per AS/NZS 3000.
-- install continuous layer without gaps.
+- Follow AS 4773.1 installation practices.
 
 The bot may use this information to understand the customer's project, but must not issue project-specific installation instructions. The human reviewer must confirm the complete construction, fixing method, junction/penetration treatment, moisture/vapour requirements, manual-handling requirements and the current manufacturer installation guide.
 
 ## Manufacturer-stated limitations and warnings
 
-- Not suitable for fire rating without additional protection.
+- Not suitable for applications requiring fire rating without additional protection.
 - not to be exposed to weather or sustained moisture.
 - do not compress beyond manufacturer recommendations.
-- check fire-rated system requirements.
+- check fire-rated system requirements if fire rating is required.
 - confirm product selection matches specified thermal/acoustic/fire rating.
 
 ## Customer-priority profile
@@ -226,7 +182,7 @@ Use this source for the canonical product identity, current grades, published ra
 
 ### Tier 2 — current internal catalogue
 
-The master product catalogue provides current commercial records for 196 SKUs, including internal SKU codes, dimensions, grade labels and stock. Commercial data does not validate technical performance; grade labels must be cross-checked against current manufacturer TDS per SKU before quoting.
+The master product catalogue provides current commercial records for 21 SKUs, including internal SKU codes, dimensions, grade labels and stock. Commercial data does not validate technical performance; grade labels must be cross-checked against current manufacturer TDS per SKU before quoting.
 
 ### Tier 3 — authorised owned-site literature
 
@@ -245,47 +201,31 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
   "primary_function": "both thermal insulation (R-value) and acoustic performance (Rw/NRC)",
   "material": "Polyester",
   "applications": [
-    "Internal Wall | Ceiling | General Acoustic",
-    "Ceiling",
     "Internal Wall",
-    "Internal Wall | General Acoustic"
+    "Ceiling",
+    "Internal Wall | Ceiling | General Acoustic"
   ],
-  "product_count": 196,
+  "product_count": 21,
   "grades": [
-    {
-      "rating": "Rw 35",
-      "rating_type": "acoustic_rw",
-      "sku_count": 111
-    },
     {
       "rating": "NRC 0.60",
       "rating_type": "acoustic_nrc",
-      "sku_count": 54
+      "sku_count": 13
     },
     {
-      "rating": "Rw 40",
+      "rating": "Rw 35",
       "rating_type": "acoustic_rw",
-      "sku_count": 8
-    },
-    {
-      "rating": "Rw 45",
-      "rating_type": "acoustic_rw",
-      "sku_count": 8
-    },
-    {
-      "rating": "Rw 50",
-      "rating_type": "acoustic_rw",
-      "sku_count": 8
-    },
-    {
-      "rating": "R0.3",
-      "rating_type": "thermal_r_value",
-      "sku_count": 4
+      "sku_count": 3
     },
     {
       "rating": "R0.2",
       "rating_type": "thermal_r_value",
       "sku_count": 3
+    },
+    {
+      "rating": "R0.3",
+      "rating_type": "thermal_r_value",
+      "sku_count": 2
     }
   ],
   "priority_profile": {

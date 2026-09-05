@@ -10,13 +10,11 @@
       "category": "Accessory",
       "primary_function": "Accessory insulation product from Ametalin.",
       "applications": [
-        "General Installation",
-        "External Wall"
+        "General Installation"
       ],
       "keywords": [
         "accessory",
-        "ametalin",
-        "idt-5050"
+        "ametalin"
       ],
       "scores": {
         "acoustic_comfort": 1,
@@ -25,11 +23,11 @@
         "installation_practicality": 5,
         "compliance_readiness": 2
       },
-      "score_notes": "Deep-dive scoring for Ametalin Accessory: 8 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Ametalin Accessory: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "accessory.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.ametalin.com.au/",
+      "source_url": "https://www.ametalin.com/wp-content/uploads/PDFs/TDS/ThermalBreak-Technical-Data-Sheet_APM-45758-2.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -40,7 +38,83 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 8
+      "product_count": 4
+    },
+    {
+      "family_id": "AMETALIN_CAVITY_DRAINAGE_BATTENS",
+      "manufacturer": "Ametalin",
+      "name": "Ametalin Cavity Drainage Battens",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Ametalin.",
+      "applications": [
+        "External Wall"
+      ],
+      "keywords": [
+        "accessory",
+        "ametalin",
+        "ametalin cavity drainage battens"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Ametalin Cavity Drainage Battens: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "cavity_drainage_battens.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.ametalin.com/wp-content/uploads/PDFs/TDS/ThermalBreak-Technical-Data-Sheet_APM-45758-2.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 2
+    },
+    {
+      "family_id": "AMETALIN_QUICK_TAPE_BLUE",
+      "manufacturer": "Ametalin",
+      "name": "Ametalin Quick Tape Blue",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Ametalin.",
+      "applications": [
+        "General Installation"
+      ],
+      "keywords": [
+        "accessory",
+        "ametalin",
+        "ametalin quick tape blue"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Ametalin Quick Tape Blue: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "quick_tape_blue.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.ametalin.com/wp-content/uploads/PDFs/TDS/ThermalBreak-Technical-Data-Sheet_APM-45758-2.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 2
     }
   ]
 }

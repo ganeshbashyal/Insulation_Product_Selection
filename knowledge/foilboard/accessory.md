@@ -25,7 +25,7 @@ gate_fire_compliance: not_verified_per_sku
 gate_bal: not_verified
 official_datasheet_url: https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf
 official_sds_url: https://insulationessentials.com.au/wp-content/uploads/2022/10/MSDS-Foilboard-Nov-2019.pdf
-product_count: 20
+product_count: 1
 rating_basis: thermal
 ---
 
@@ -33,21 +33,26 @@ rating_basis: thermal
 
 ## Purpose of this file
 
-This is the canonical internal description for the Foilboard Accessory family. It aligns the terminology used by the enquiry bot, sales team and future Aircall CSV.
+This is the canonical internal description for the Foilboard Accessory family (Accessory category). It aligns the terminology used by the enquiry bot, sales team and future Aircall CSV.
 
 For the demonstration, the bot may recommend the **Foilboard Accessory family** when the customer's problem matches its documented applications. It must not choose a specific grade, calculate order quantity, or confirm thermal, acoustic, fire, NCC or BAL compliance for a project. Those decisions remain human-reviewed.
 
 ## Canonical description
 
-Quality insulation engineered for Australian conditions. Manufacturer-published features and benefits include: Premium insulation product designed for Australian building conditions This family covers 20 SKU variant(s) in the current catalogue. It is not a complete compliant building system on its own; project-specific claims about a finished construction must be confirmed by a human reviewer against a tested system that matches the proposed build-up.
+Quality insulation engineered for Australian conditions. Rigid design makes installation fast and efficient - no sagging or falling out. Essential for achieving NCC compliance in floor applications. Manufacturer-published features and benefits include: Lightweight closed-cell expanded polystyrene foam; excellent thermal performance with zero thermal drift; moisture resistant closed-cell structure; CFC/HCFC free manufacturing process; rigid design prevents sagging between joists; reduces drafts and cold floors This family covers 1 SKU variant(s) in the current catalogue. It is not a complete compliant building system on its own; project-specific claims about a finished construction must be confirmed by a human reviewer against a tested system that matches the proposed build-up.
 
 ## Current manufacturer-supported facts
 
 - Product type: Accessory insulation product from Foilboard.
 - Material: Accessory.
 - Rating basis: thermal insulation (R-value).
-- Premium insulation product designed for Australian building conditions.
-- The catalogue includes 20 unique SKU variant(s) in this family.
+- Lightweight closed-cell expanded polystyrene foam.
+- excellent thermal performance with zero thermal drift.
+- moisture resistant closed-cell structure.
+- CFC/HCFC free manufacturing process.
+- rigid design prevents sagging between joists.
+- reduces drafts and cold floors.
+- The catalogue includes 1 unique SKU variant(s) in this family.
 
 ## Grade and catalogue reconciliation
 
@@ -55,12 +60,7 @@ The following reflects the current internal SKU extraction from the master produ
 
 | Rating (as supplied) | Rating type | Thickness (mm) | Dimensions (L x W mm) | SKU count |
 | --- | --- | ---: | --- | ---: |
-| Not specified | unspecified | 30 | Varies | 4 |
-| Not specified | unspecified | 40 | Varies | 4 |
-| Not specified | unspecified | Varies | Varies | 4 |
-| R1.0 | thermal_r_value | Varies | Varies | 4 |
-| Not specified | unspecified | 48 | Varies | 2 |
-| Not specified | unspecified | 50 | Varies | 2 |
+| R1.0 | thermal_r_value | Varies | Varies | 1 |
 
 ### Critical rating interpretation
 
@@ -68,14 +68,13 @@ Ratings prefixed `R` are thermal resistance values; ratings including `Rw` are w
 
 ## Application boundaries
 
-### Within the Accessory family
+### Within the Foilboard Accessory family
 
-- General Installation
 - Floor
 
 ### Separate product families
 
-Do not transfer claims from this family to other Foilboard product families without their own current technical evidence. Where Foilboard sells multiple categories (batt, board, reflective, pipe, wrap, panel, accessory), each is a distinct family with its own grade table and evidence.
+Do not transfer claims from this family to other Foilboard product families without their own current technical evidence. Where Foilboard sells multiple product families within the Accessory category or in other categories, each is a distinct family with its own grade table and evidence.
 
 This family should not be presented as a fire-rated system, a complete compliant wall/ceiling assembly, or a guaranteed noise-elimination/thermal-comfort product. Record the customer's requirement and construction context for human review rather than confirming compliance directly.
 
@@ -83,13 +82,21 @@ This family should not be presented as a fire-rated system, a complete compliant
 
 Manufacturer literature notes:
 
+- secure between floor joists using strapping, saddles or wire supports.
+- ensure adequate subfloor ventilation is maintained per NCC requirements.
+- install after electrical and plumbing rough-in.
 - Follow AS 4773.1 installation practices.
 
 The bot may use this information to understand the customer's project, but must not issue project-specific installation instructions. The human reviewer must confirm the complete construction, fixing method, junction/penetration treatment, moisture/vapour requirements, manual-handling requirements and the current manufacturer installation guide.
 
 ## Manufacturer-stated limitations and warnings
 
-- confirm product selection matches specified thermal/acoustic/fire rating.
+- Combustible material - do not expose to flame or high heat sources.
+- protect from UV exposure during installation.
+- check compatibility with solvents and chemicals before use.
+- not suitable for direct contact with bitumen without barrier.
+- Ensure adequate subfloor ventilation is maintained.
+- do not leave exposed to ground moisture or subfloor dampness.
 
 ## Customer-priority profile
 
@@ -169,7 +176,7 @@ Use this source for the canonical product identity, current grades, published ra
 
 ### Tier 2 — current internal catalogue
 
-The master product catalogue provides current commercial records for 20 SKUs, including internal SKU codes, dimensions, grade labels and stock. Commercial data does not validate technical performance; grade labels must be cross-checked against current manufacturer TDS per SKU before quoting.
+The master product catalogue provides current commercial records for 1 SKUs, including internal SKU codes, dimensions, grade labels and stock. Commercial data does not validate technical performance; grade labels must be cross-checked against current manufacturer TDS per SKU before quoting.
 
 ### Tier 3 — authorised owned-site literature
 
@@ -188,20 +195,14 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
   "primary_function": "thermal insulation (R-value)",
   "material": "Accessory",
   "applications": [
-    "General Installation",
     "Floor"
   ],
-  "product_count": 20,
+  "product_count": 1,
   "grades": [
-    {
-      "rating": "not_specified",
-      "rating_type": "unspecified",
-      "sku_count": 16
-    },
     {
       "rating": "R1.0",
       "rating_type": "thermal_r_value",
-      "sku_count": 4
+      "sku_count": 1
     }
   ],
   "priority_profile": {

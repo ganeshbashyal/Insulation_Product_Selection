@@ -4,23 +4,20 @@
   "rating_scale": "1 = low relevance, 3 = useful, 5 = primary strength; ratings guide discovery and are not compliance or performance certificates",
   "families": [
     {
-      "family_id": "KINGSPAN_BOARD",
+      "family_id": "KINGSPAN_K10",
       "manufacturer": "Kingspan",
-      "name": "Kingspan Board",
+      "name": "Kingspan K10",
       "category": "Board",
       "primary_function": "Board insulation product from Kingspan.",
       "applications": [
         "Ceiling | Underfloor",
-        "Underfloor",
-        "General Installation",
-        "Internal Wall",
         "External Wall",
-        "Internal Wall | External Wall"
+        "Internal Wall"
       ],
       "keywords": [
         "board",
-        "kingspan",
-        "100000037889"
+        "k10",
+        "kingspan"
       ],
       "scores": {
         "acoustic_comfort": 2,
@@ -29,11 +26,11 @@
         "installation_practicality": 3,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Kingspan Board: 93 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Kingspan K10: 48 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
-      "knowledge_file": "board.md",
+      "knowledge_file": "k10.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.kingspan.com.au/",
+      "source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -44,7 +41,311 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 93
+      "product_count": 48
+    },
+    {
+      "family_id": "KINGSPAN_K12",
+      "manufacturer": "Kingspan",
+      "name": "Kingspan K12",
+      "category": "Board",
+      "primary_function": "Board insulation product from Kingspan.",
+      "applications": [
+        "Internal Wall | External Wall"
+      ],
+      "keywords": [
+        "board",
+        "k12",
+        "kingspan"
+      ],
+      "scores": {
+        "acoustic_comfort": 2,
+        "energy_efficiency": 4,
+        "sustainability": 3,
+        "installation_practicality": 3,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Kingspan K12: 8 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "k12.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 8
+    },
+    {
+      "family_id": "KINGSPAN_K15",
+      "manufacturer": "Kingspan",
+      "name": "Kingspan K15",
+      "category": "Board",
+      "primary_function": "Board insulation product from Kingspan.",
+      "applications": [
+        "External Wall"
+      ],
+      "keywords": [
+        "board",
+        "k15",
+        "kingspan"
+      ],
+      "scores": {
+        "acoustic_comfort": 2,
+        "energy_efficiency": 4,
+        "sustainability": 3,
+        "installation_practicality": 3,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Kingspan K15: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "k15.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 2
+    },
+    {
+      "family_id": "KINGSPAN_K17",
+      "manufacturer": "Kingspan",
+      "name": "Kingspan K17",
+      "category": "Board",
+      "primary_function": "Board insulation product from Kingspan.",
+      "applications": [
+        "Internal Wall"
+      ],
+      "keywords": [
+        "board",
+        "k17",
+        "kingspan"
+      ],
+      "scores": {
+        "acoustic_comfort": 2,
+        "energy_efficiency": 4,
+        "sustainability": 3,
+        "installation_practicality": 3,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Kingspan K17: 17 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "k17.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 17
+    },
+    {
+      "family_id": "KINGSPAN_K18",
+      "manufacturer": "Kingspan",
+      "name": "Kingspan K18",
+      "category": "Board",
+      "primary_function": "Board insulation product from Kingspan.",
+      "applications": [
+        "Internal Wall"
+      ],
+      "keywords": [
+        "board",
+        "k18",
+        "kingspan"
+      ],
+      "scores": {
+        "acoustic_comfort": 2,
+        "energy_efficiency": 4,
+        "sustainability": 3,
+        "installation_practicality": 3,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Kingspan K18: 11 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "k18.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 11
+    },
+    {
+      "family_id": "KINGSPAN_K3",
+      "manufacturer": "Kingspan",
+      "name": "Kingspan K3",
+      "category": "Board",
+      "primary_function": "Board insulation product from Kingspan.",
+      "applications": [
+        "Underfloor"
+      ],
+      "keywords": [
+        "board",
+        "k3",
+        "kingspan"
+      ],
+      "scores": {
+        "acoustic_comfort": 2,
+        "energy_efficiency": 4,
+        "sustainability": 3,
+        "installation_practicality": 3,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Kingspan K3: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "k3.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 2
+    },
+    {
+      "family_id": "KINGSPAN_K8",
+      "manufacturer": "Kingspan",
+      "name": "Kingspan K8",
+      "category": "Board",
+      "primary_function": "Board insulation product from Kingspan.",
+      "applications": [
+        "Internal Wall | External Wall"
+      ],
+      "keywords": [
+        "board",
+        "k8",
+        "kingspan"
+      ],
+      "scores": {
+        "acoustic_comfort": 2,
+        "energy_efficiency": 4,
+        "sustainability": 3,
+        "installation_practicality": 3,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Kingspan K8: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "k8.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 2
+    },
+    {
+      "family_id": "KINGSPAN_UNIVERSAL_INSULATION_RETAINING_CLIPS",
+      "manufacturer": "Kingspan",
+      "name": "Kingspan Universal Insulation Retaining Clips",
+      "category": "Board",
+      "primary_function": "Board insulation product from Kingspan.",
+      "applications": [
+        "General Installation"
+      ],
+      "keywords": [
+        "board",
+        "kingspan",
+        "universal insulation retaining clips"
+      ],
+      "scores": {
+        "acoustic_comfort": 2,
+        "energy_efficiency": 4,
+        "sustainability": 3,
+        "installation_practicality": 3,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Kingspan Universal Insulation Retaining Clips: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "universal_insulation_retaining_clips.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "KINGSPAN_XPS_STRIP_SLAP_EDGE_INSULATION",
+      "manufacturer": "Kingspan",
+      "name": "Kingspan XPS Strip Slap Edge Insulation",
+      "category": "Board",
+      "primary_function": "Board insulation product from Kingspan.",
+      "applications": [
+        "Underfloor"
+      ],
+      "keywords": [
+        "board",
+        "kingspan",
+        "xps strip slap edge insulation"
+      ],
+      "scores": {
+        "acoustic_comfort": 2,
+        "energy_efficiency": 4,
+        "sustainability": 3,
+        "installation_practicality": 3,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Kingspan XPS Strip Slap Edge Insulation: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "xps_strip_slap_edge_insulation.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 2
     }
   ]
 }

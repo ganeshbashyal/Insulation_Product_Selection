@@ -10,13 +10,11 @@
       "category": "Accessory",
       "primary_function": "Accessory insulation product from Foilboard.",
       "applications": [
-        "Floor",
-        "General Installation"
+        "Floor"
       ],
       "keywords": [
         "accessory",
-        "foilboard",
-        "fb041p"
+        "foilboard"
       ],
       "scores": {
         "acoustic_comfort": 1,
@@ -25,11 +23,11 @@
         "installation_practicality": 5,
         "compliance_readiness": 2
       },
-      "score_notes": "Deep-dive scoring for Foilboard Accessory: 20 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Foilboard Accessory: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "accessory.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.foilboard.com.au/",
+      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -40,7 +38,45 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 20
+      "product_count": 1
+    },
+    {
+      "family_id": "FOILBOARD_BLANK_PLATES",
+      "manufacturer": "Foilboard",
+      "name": "Foilboard Blank Plates",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Foilboard.",
+      "applications": [
+        "General Installation"
+      ],
+      "keywords": [
+        "accessory",
+        "blank plates",
+        "foilboard"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Foilboard Blank Plates: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "blank_plates.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 2
     },
     {
       "family_id": "FOILBOARD_BOARD",
@@ -49,15 +85,12 @@
       "category": "Board",
       "primary_function": "Board insulation product from Foilboard.",
       "applications": [
-        "Roof",
         "Underfloor",
-        "External Wall | Ceiling | Underfloor",
-        "Garage Door"
+        "External Wall | Ceiling | Underfloor"
       ],
       "keywords": [
         "board",
-        "foilboard",
-        "fb001"
+        "foilboard"
       ],
       "scores": {
         "acoustic_comfort": 2,
@@ -66,11 +99,11 @@
         "installation_practicality": 3,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Foilboard Board: 29 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Foilboard Board: 15 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "board.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.foilboard.com.au/",
+      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -81,7 +114,464 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 29
+      "product_count": 15
+    },
+    {
+      "family_id": "FOILBOARD_DIY_FAST_TRADE_PACK",
+      "manufacturer": "Foilboard",
+      "name": "Foilboard DIY/Fast Trade Pack",
+      "category": "Board",
+      "primary_function": "Board insulation product from Foilboard.",
+      "applications": [
+        "External Wall | Ceiling | Underfloor"
+      ],
+      "keywords": [
+        "board",
+        "diy/fast trade pack",
+        "foilboard"
+      ],
+      "scores": {
+        "acoustic_comfort": 2,
+        "energy_efficiency": 4,
+        "sustainability": 3,
+        "installation_practicality": 3,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Foilboard DIY/Fast Trade Pack: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "diy_fast_trade_pack.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "FOILBOARD_FLEXIFAST_FASTENERS",
+      "manufacturer": "Foilboard",
+      "name": "Foilboard Flexifast Fasteners",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Foilboard.",
+      "applications": [
+        "General Installation"
+      ],
+      "keywords": [
+        "accessory",
+        "flexifast fasteners",
+        "foilboard"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Foilboard Flexifast Fasteners: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "flexifast_fasteners.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 2
+    },
+    {
+      "family_id": "FOILBOARD_FLOOR_SADDLES",
+      "manufacturer": "Foilboard",
+      "name": "Foilboard Floor Saddles",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Foilboard.",
+      "applications": [
+        "Floor"
+      ],
+      "keywords": [
+        "accessory",
+        "floor saddles",
+        "foilboard"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Foilboard Floor Saddles: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "floor_saddles.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "FOILBOARD_GARAGE_DOOR_KIT",
+      "manufacturer": "Foilboard",
+      "name": "Foilboard Garage Door Kit",
+      "category": "Board",
+      "primary_function": "Board insulation product from Foilboard.",
+      "applications": [
+        "Garage Door"
+      ],
+      "keywords": [
+        "board",
+        "foilboard",
+        "foilboard garage door kit"
+      ],
+      "scores": {
+        "acoustic_comfort": 2,
+        "energy_efficiency": 4,
+        "sustainability": 3,
+        "installation_practicality": 3,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Foilboard Garage Door Kit: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "garage_door_kit.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 4
+    },
+    {
+      "family_id": "FOILBOARD_GREEN",
+      "manufacturer": "Foilboard",
+      "name": "Foilboard Green",
+      "category": "Board",
+      "primary_function": "Board insulation product from Foilboard.",
+      "applications": [
+        "External Wall | Ceiling | Underfloor",
+        "Roof"
+      ],
+      "keywords": [
+        "board",
+        "foilboard",
+        "green"
+      ],
+      "scores": {
+        "acoustic_comfort": 2,
+        "energy_efficiency": 4,
+        "sustainability": 3,
+        "installation_practicality": 3,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Deep-dive scoring for Foilboard Green: 9 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "green.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 9
+    },
+    {
+      "family_id": "FOILBOARD_GREEN_JOINING_TAPE",
+      "manufacturer": "Foilboard",
+      "name": "Foilboard Green Joining Tape",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Foilboard.",
+      "applications": [
+        "General Installation"
+      ],
+      "keywords": [
+        "accessory",
+        "foilboard",
+        "green joining tape"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Foilboard Green Joining Tape: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "green_joining_tape.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 2
+    },
+    {
+      "family_id": "FOILBOARD_SILVER_JOINING_TAPE",
+      "manufacturer": "Foilboard",
+      "name": "Foilboard Silver Joining Tape",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Foilboard.",
+      "applications": [
+        "General Installation"
+      ],
+      "keywords": [
+        "accessory",
+        "foilboard",
+        "silver joining tape"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Foilboard Silver Joining Tape: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "silver_joining_tape.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 2
+    },
+    {
+      "family_id": "FOILBOARD_SPACER_BLOCKS",
+      "manufacturer": "Foilboard",
+      "name": "Foilboard Spacer Blocks",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Foilboard.",
+      "applications": [
+        "General Installation"
+      ],
+      "keywords": [
+        "accessory",
+        "foilboard",
+        "spacer blocks"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Foilboard Spacer Blocks: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "spacer_blocks.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 2
+    },
+    {
+      "family_id": "FOILBOARD_STANDARD_FASTENERS",
+      "manufacturer": "Foilboard",
+      "name": "Foilboard Standard Fasteners",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Foilboard.",
+      "applications": [
+        "General Installation"
+      ],
+      "keywords": [
+        "accessory",
+        "foilboard",
+        "standard fasteners"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Foilboard Standard Fasteners: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "standard_fasteners.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 2
+    },
+    {
+      "family_id": "FOILBOARD_STANDARD_TEK_SCREWS",
+      "manufacturer": "Foilboard",
+      "name": "Foilboard Standard Tek Screws",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Foilboard.",
+      "applications": [
+        "General Installation"
+      ],
+      "keywords": [
+        "accessory",
+        "foilboard",
+        "standard tek screws"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Foilboard Standard Tek Screws: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "standard_tek_screws.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 2
+    },
+    {
+      "family_id": "FOILBOARD_ULTRA_FASTENERS",
+      "manufacturer": "Foilboard",
+      "name": "Foilboard Ultra Fasteners",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Foilboard.",
+      "applications": [
+        "General Installation"
+      ],
+      "keywords": [
+        "accessory",
+        "foilboard",
+        "ultra fasteners"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Foilboard Ultra Fasteners: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "ultra_fasteners.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 2
+    },
+    {
+      "family_id": "FOILBOARD_ULTRA_TEK_SCREWS",
+      "manufacturer": "Foilboard",
+      "name": "Foilboard Ultra Tek Screws",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Foilboard.",
+      "applications": [
+        "General Installation"
+      ],
+      "keywords": [
+        "accessory",
+        "foilboard",
+        "ultra tek screws"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Deep-dive scoring for Foilboard Ultra Tek Screws: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "ultra_tek_screws.md",
+      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
+      "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 2
     }
   ]
 }
