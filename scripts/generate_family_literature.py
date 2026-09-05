@@ -153,14 +153,31 @@ def title_case_manufacturer(manufacturer_dir: str) -> str:
     return manufacturer_dir.title()
 
 
-def build_markdown(family: dict, fm: dict, text: str, skus: pd.DataFrame) -> tuple[str, dict]:
+def load_research(manufacturer_dir: str, name: str) -> dict | None:
+    """Return the researched spec JSON for a family if the TDS agent produced one."""
+    path = ROOT / "knowledge" / manufacturer_dir / "research" / f"{slugify(name)}.json"
+    if not path.exists():
+        return None
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return None
+    return data if data.get("status") == "ok" and data.get("spec") else None
+
+
+def build_markdown(family: dict, fm: dict, text: str, skus: pd.DataFrame, research: dict | None = None) -> tuple[str, dict]:
     name = family["name"]
     manufacturer = family["manufacturer"]
     category = clean(family.get("category", "")).replace(" insulation", "").replace(" Insulation", "")
-    applications = family.get("applications", [])
-    description = extract_description(text)
-    features = extract_features(text)
+    spec = (research or {}).get("spec") or {}
+    applications = spec.get("applications") or family.get("applications", [])
+    description = clean(spec.get("description", "")) or extract_description(text)
+    features = [clean(f) for f in spec.get("features", []) if clean(f)] or extract_features(text)
     limitations = extract_limitations(text)
+    technical = [t for t in spec.get("technical", []) if isinstance(t, dict) and t.get("property")]
+    fire_text = clean(spec.get("fire", ""))
+    sustainability_text = clean(spec.get("sustainability", ""))
+    install_steps = [clean(s) for s in spec.get("install", []) if clean(s)]
     grade_rows = extract_grade_rows(text)
     material = fm.get("material") or (clean(skus["material_type"].iloc[0]) if not skus.empty else "")
     tds_url = family.get("source_url") or fm.get("official_datasheet_url", "")
@@ -196,12 +213,38 @@ def build_markdown(family: dict, fm: dict, text: str, skus: pd.DataFrame) -> tup
     else:
         range_rows = "_Range not yet extracted; confirm variants against the current manufacturer TDS._\n"
 
+    if technical:
+        tech_rows = "| Property | Value | Standard |\n| --- | --- | --- |\n"
+        for row in technical[:20]:
+            tech_rows += f"| {clean(row.get('property'))} | {clean(row.get('value'))} | {clean(row.get('standard')) or '-'} |\n"
+        tech_source = research.get("datasheet_pdf_url", tds_url)
+    else:
+        tech_rows = (
+            "| Property | Value | Source |\n| --- | --- | --- |\n"
+            f"| Product type | {category} | Manufacturer catalogue |\n"
+            f"| Material | {material or 'Not specified'} | Manufacturer catalogue |\n"
+            f"| Applications | {'; '.join(applications) or 'General building applications'} | Manufacturer catalogue |\n"
+            f"| Published ratings | {rating_text} | Internal catalogue; confirm against current TDS |\n"
+        )
+        tech_source = tds_url
+
+    install_md = "\n".join(f"{i}. {step}." for i, step in enumerate(install_steps, 1)) if install_steps else \
+        "Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU." + (f" Key limitation: {limitations[0]}" if limitations else "")
+
+    fire_md = fire_text if fire_text else "Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft."
+    sustain_md = sustainability_text if sustainability_text else \
+        "Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication."
+    researched = bool(technical)
+
     meta = {
         "name": name, "manufacturer": manufacturer, "category": category,
         "tagline": tagline, "keywords": keywords, "description": description,
         "features": features, "limitations": limitations, "material": material,
         "tds_url": tds_url, "sds_url": sds_url, "applications": applications,
-        "skus": skus, "grade_rows": grade_rows,
+        "skus": skus, "grade_rows": grade_rows, "technical": technical,
+        "fire_text": fire_text, "sustainability_text": sustainability_text,
+        "install_steps": install_steps, "researched": researched,
+        "datasheet_pdf_url": (research or {}).get("datasheet_pdf_url"),
     }
 
     md = f"""---
@@ -239,24 +282,21 @@ family_id: {family['family_id']}
 {range_rows}
 ## Technical data
 
-| Property | Value | Source |
-| --- | --- | --- |
-| Product type | {category} | Manufacturer catalogue |
-| Material | {material or "Not specified"} | Manufacturer catalogue |
-| Applications | {"; ".join(applications) or "General building applications"} | Manufacturer catalogue |
-| Published ratings | {rating_text} | Internal catalogue; confirm against current TDS |
+{tech_rows}
+{f"Extracted from manufacturer datasheet: {tech_source}" if researched else ""}
 
-## Compliance and review status
+## Fire, testing and compliance context
+
+{fire_md}
 
 - NCC / project compliance: conditional — project-specific evidence required.
-- Fire: not verified per SKU.
 - BAL: not verified.
 - Datasheet: {tds_url or "to be sourced"} (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: {sds_url or "to be sourced"}.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. {("Key limitation: " + limitations[0]) if limitations else ""}
+{install_md}
 
 ## Safety and handling
 
@@ -264,7 +304,7 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+{sustain_md}
 
 ## Warranty, returns and support
 
@@ -338,27 +378,43 @@ def build_docx(meta: dict, out_path: Path) -> None:
     doc.add_heading("4. Technical data", level=1)
     table = doc.add_table(rows=1, cols=3)
     table.style = "Light Grid Accent 1"
-    for cell, header in zip(table.rows[0].cells, ["Property", "Value", "Source"]):
-        cell.text = header
-    for prop, value, source in [
-        ("Product type", meta["category"], "Manufacturer catalogue"),
-        ("Material", meta["material"] or "Not specified", "Manufacturer catalogue"),
-        ("Applications", "; ".join(meta["applications"]) or "General building applications", "Manufacturer catalogue"),
-    ]:
-        cells = table.add_row().cells
-        cells[0].text, cells[1].text, cells[2].text = prop, value, source
+    if meta["technical"]:
+        for cell, header in zip(table.rows[0].cells, ["Property", "Value", "Standard"]):
+            cell.text = header
+        for row in meta["technical"][:20]:
+            cells = table.add_row().cells
+            cells[0].text = clean(row.get("property"))
+            cells[1].text = clean(row.get("value"))
+            cells[2].text = clean(row.get("standard")) or "-"
+        if meta.get("datasheet_pdf_url"):
+            doc.add_paragraph(f"Extracted from manufacturer datasheet: {meta['datasheet_pdf_url']}")
+    else:
+        for cell, header in zip(table.rows[0].cells, ["Property", "Value", "Source"]):
+            cell.text = header
+        for prop, value, source in [
+            ("Product type", meta["category"], "Manufacturer catalogue"),
+            ("Material", meta["material"] or "Not specified", "Manufacturer catalogue"),
+            ("Applications", "; ".join(meta["applications"]) or "General building applications", "Manufacturer catalogue"),
+        ]:
+            cells = table.add_row().cells
+            cells[0].text, cells[1].text, cells[2].text = prop, value, source
 
     doc.add_heading("5. Fire, testing and compliance context", level=1)
-    doc.add_paragraph("NCC / project compliance: conditional - project-specific evidence required. Fire: not verified per SKU. BAL: not verified.")
+    doc.add_paragraph(meta["fire_text"] or "Fire: not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.")
+    doc.add_paragraph("NCC / project compliance: conditional - project-specific evidence required. BAL: not verified.")
 
     doc.add_heading("6. Installation overview", level=1)
-    doc.add_paragraph("Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU.")
+    if meta["install_steps"]:
+        for step in meta["install_steps"]:
+            doc.add_paragraph(step + ".", style="List Number")
+    else:
+        doc.add_paragraph("Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU.")
 
     doc.add_heading("7. Safety, handling and SDS status", level=1)
     doc.add_paragraph(f"SDS: {meta['sds_url'] or 'to be sourced'}. Confirm the current SDS before handling or cutting.")
 
     doc.add_heading("8. Sustainability and indoor environment", level=1)
-    doc.add_paragraph("Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft.")
+    doc.add_paragraph(meta["sustainability_text"] or "Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft.")
 
     doc.add_heading("9. Warranty, returns and support", level=1)
     doc.add_paragraph("No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms.")
@@ -407,7 +463,8 @@ def main() -> None:
                 continue
             text = md_path.read_text(encoding="utf-8")
             family_skus = skus[skus["family_id"] == family["family_id"]]
-            fingerprint = hashlib.sha256((GENERATOR_VERSION + text + json.dumps(family, sort_keys=True) + str(len(family_skus))).encode()).hexdigest()
+            research = load_research(manufacturer_dir, family["name"])
+            fingerprint = hashlib.sha256((GENERATOR_VERSION + text + json.dumps(family, sort_keys=True) + str(len(family_skus)) + json.dumps(research or {}, sort_keys=True)).encode()).hexdigest()
             slug = slugify(family["name"])
             base_slug = slug
             suffix = 2
@@ -424,7 +481,7 @@ def main() -> None:
                 written += 1
                 continue
             fm = parse_front_matter(text)
-            md, meta = build_markdown(family, fm, text, family_skus)
+            md, meta = build_markdown(family, fm, text, family_skus, research=research)
             out_dir.mkdir(parents=True, exist_ok=True)
             (out_dir / f"{slug}.md").write_text(md, encoding="utf-8")
             try:

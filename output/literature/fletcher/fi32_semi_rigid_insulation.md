@@ -56,17 +56,20 @@ FI32 is semi-rigid glasswool supplied as boards or rolls for internal sheet-meta
 | Applications | duct liner; sheet metal duct; plant room; process vessel; acoustic baffle | Manufacturer catalogue |
 | Published ratings | NRC 0.80, R0.6, R0.80, R0.9, R1.12, R1.3, R1.42, R1.9 | Internal catalogue; confirm against current TDS |
 
-## Compliance and review status
+
+
+## Fire, testing and compliance context
+
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
-- Fire: not verified per SKU.
 - BAL: not verified.
 - Datasheet: https://insulation.com.au/product/fi32-semi-rigid-insulation/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: to be sourced.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. 
+Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU.
 
 ## Safety and handling
 

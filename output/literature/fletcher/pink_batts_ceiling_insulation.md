@@ -1,7 +1,7 @@
 ---
 title: "Pink Batts Ceiling Insulation - Bulk Insulation | Fletcher"
-description: "Pink Batts Ceiling Insulation is a bulk insulation product family from Fletcher. View the catalogue range, applications and specification starting poi"
-keywords: "Pink Batts Ceiling Insulation, Fletcher bulk, ceiling insulation, roof insulation, R-value insulation, insulation Australia, Fletcher Australia"
+description: "Pink® Batts are made from lightweight, flexible, and resilient glasswool for thermal and acoustic insulation of residential ceilings. They are availab"
+keywords: "Pink Batts Ceiling Insulation, Fletcher bulk, ceiling insulation, R-value insulation, insulation Australia, Fletcher Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: FLETCHER_PINK_BATTS_CEILING
 ---
@@ -10,18 +10,21 @@ family_id: FLETCHER_PINK_BATTS_CEILING
 
 **Fletcher Bulk** — bulk insulation product.
 
-Pink Batts Ceiling Insulation is a bulk product family from Fletcher. Confirm the current published specification against the manufacturer datasheet before quoting.
+Pink® Batts are made from lightweight, flexible, and resilient glasswool for thermal and acoustic insulation of residential ceilings. They are available in various sizes to fit standard timber and steel joist spacings.
 
 ## Key features
 
-- Refer to the manufacturer datasheet for published features.
+- Low itch.
+- Easy to cut.
+- Friction fit standard joists.
+- Provides energy savings all year round.
+- Zero ODP insulation.
+- No harmful levels of VOCs released.
 
 ## Applications and selection
 
 - ceiling
-- roof space
-- ceiling retrofit
-- residential ceiling
+- residential
 
 **Selection checklist**
 
@@ -53,24 +56,36 @@ Pink Batts Ceiling Insulation is a bulk product family from Fletcher. Confirm th
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Bulk | Manufacturer catalogue |
-| Material | Glasswool | Manufacturer catalogue |
-| Applications | ceiling; roof space; ceiling retrofit; residential ceiling | Manufacturer catalogue |
-| Published ratings | NRC 0.80, NRC 0.95, R2.5, R2.92, R3.0, R3.1, R3.17, R3.42 | Internal catalogue; confirm against current TDS |
+| R-value | 2.5 | m² K/W |
+| R-value | 3.0 | m² K/W |
+| R-value | 3.5 | m² K/W |
+| R-value | 4.0 | m² K/W |
+| R-value | 4.1 | m² K/W |
+| R-value | 5.0 | m² K/W |
+| R-value | 6.0 | m² K/W |
+| R-value | 7.0 | m² K/W |
+| Maximum Service Temperature | 350 °C | ASTM C411/C447 |
+| Thermal Resistance | Complies | AS/NZS 4859.1:2002 |
+| Moisture Absorption | <0.2% | % by volume |
+| pH | 9 | ASTM C871 |
 
-## Compliance and review status
+Extracted from manufacturer datasheet: https://insulation.com.au/wp-content/uploads/2019/11/TDS-Pink-Batts-Ceiling-v4.pdf
+
+## Fire, testing and compliance context
+
+Combustibility AS1530.1:1994 Non combustible; AS/NZS 1530.3:1999: Ignitability Index 0, Spread of Flame Index 0, Heat Evolved Index 0, Smoke Developed Index 0–1; BAL Compliance AS3959:2018 Low – FZ
 
 - NCC / project compliance: conditional — project-specific evidence required.
-- Fire: not verified per SKU.
 - BAL: not verified.
 - Datasheet: https://insulation.com.au/product/pink-batts-ceiling-insulation/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: to be sourced.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. 
+1. Fit standard joists.
+2. Use for new homes or retrofitting existing buildings.
 
 ## Safety and handling
 
@@ -78,7 +93,7 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Avoids the use of Ozone Depleting Potential (ODP) substances and ensures no harmful levels of Volatile Organic Compounds (VOCs) are released.
 
 ## Warranty, returns and support
 

@@ -52,17 +52,20 @@ This family contains distinct joining/sealing accessories such as Thermatape, Va
 | Applications | steel frame thermal break; membrane seam; foil insulation joint; vapour seal; installation accessory | Manufacturer catalogue |
 | Published ratings | R0.2, R0.42, R1.2, R1.37, R1.6, R1.74, R1.8, R1.97 | Internal catalogue; confirm against current TDS |
 
-## Compliance and review status
+
+
+## Fire, testing and compliance context
+
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
-- Fire: not verified per SKU.
 - BAL: not verified.
 - Datasheet: https://insulation.com.au/product/vapastop-883-tape/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: to be sourced.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. 
+Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU.
 
 ## Safety and handling
 

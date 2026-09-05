@@ -47,17 +47,20 @@ Safe'n'Silent Pro350 (legacy identity review) is a acoustic bulk product family 
 | Applications | internal wall; ceiling; general acoustic | Manufacturer catalogue |
 | Published ratings | NRC 0.90, R1.56, R1.98, R2.67, Rw 40, Rw 45 | Internal catalogue; confirm against current TDS |
 
-## Compliance and review status
+
+
+## Fire, testing and compliance context
+
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
-- Fire: not verified per SKU.
 - BAL: not verified.
 - Datasheet: https://insulation.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: to be sourced.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. 
+Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU.
 
 ## Safety and handling
 

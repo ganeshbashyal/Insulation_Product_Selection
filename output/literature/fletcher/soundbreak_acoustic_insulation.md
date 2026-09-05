@@ -59,17 +59,20 @@ Fletcher Soundbreak is a range of high-density, flexible and resilient glasswool
 | Applications | internal wall; external wall; ceiling; floor; media room; bedroom | Manufacturer catalogue |
 | Published ratings | NRC 0.75, NRC 0.80, R1.7, R1.87, R2.0, R2.17, R2.42, R2.5 | Internal catalogue; confirm against current TDS |
 
-## Compliance and review status
+
+
+## Fire, testing and compliance context
+
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
-- Fire: not verified per SKU.
 - BAL: not verified.
 - Datasheet: https://insulation.com.au/product/soundbreak/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: to be sourced.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. 
+Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU.
 
 ## Safety and handling
 
