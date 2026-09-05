@@ -43,9 +43,11 @@ Bradford Fireseal Fire Damper Strip is a high-density, non-combustible rockwool 
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Rw 40 | acoustic_rw | 60 | 750 x 225 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Fireseal Fire Damper Strip 13mm | 13 mm x 750 mm x 225 mm | Pack of 15 or 60 pieces (45 lineal metres) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

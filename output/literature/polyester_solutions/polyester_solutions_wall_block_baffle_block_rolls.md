@@ -42,9 +42,13 @@ Polyester Solutions Ceiling Baffle Block Rolls (Wall Block Baffle Rolls) are lig
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.5 | thermal_r_value | 100 | 8330 x 600 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Baffle Block Roll 50mm | 50 mm x 600/1200 mm x continuous roll length | Roll |
+| Baffle Block Roll 75mm | 75 mm x 600/1200 mm x continuous roll length | Roll |
+| Baffle Block Roll 100mm | 100 mm x 600/1200 mm x continuous roll length | Roll |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

@@ -42,9 +42,11 @@ Bradford Polyair Unicell Self Adhesive is an extra heavy duty, commercial-grade 
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.0 | thermal_r_value | 4 | 25000 x 1350 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Polyair Unicell Self Adhesive 4.0 | 4 mm x 1350 mm x 40 m (54 m²) | Roll (Code: 130304) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

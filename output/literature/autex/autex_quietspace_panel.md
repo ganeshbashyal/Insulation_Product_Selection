@@ -42,16 +42,14 @@ Autex Quietspace Panel is a discrete, high-performance acoustic treatment engine
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| NRC 0.60 | acoustic_nrc | 25 | 2400 x 1200 | 4 |
-| Rw 40 | acoustic_rw | 50 | 2400 x 1200 | 4 |
-| Rw 45 | acoustic_rw | 75 | 2400 x 1200 | 4 |
-| Rw 50 | acoustic_rw | 100 | 2400 x 1200 | 4 |
-| NRC 0.60 | acoustic_nrc | 25 | 2700 x 1200 | 4 |
-| Rw 40 | acoustic_rw | 50 | 2700 x 1200 | 4 |
-| Rw 45 | acoustic_rw | 75 | 2700 x 1200 | 4 |
-| Rw 50 | acoustic_rw | 100 | 2700 x 1200 | 4 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Quietspace Panel 25mm | 1200 mm x 2400 mm x 25 mm, NRC 0.85 | Panel |
+| Quietspace Panel 50mm | 1200 mm x 2400 mm x 50 mm, NRC 1.00 | Panel |
+| Quietspace Panel 75mm | 1200 mm x 2400 mm x 75 mm, NRC 1.00 | Panel |
+| Quietspace Panel 100mm | 1200 mm x 2400 mm x 100 mm, NRC 1.00 | Panel |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

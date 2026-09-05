@@ -44,12 +44,14 @@ GreenLAG pipe lagging has a noise barrier with a microcellular structure designe
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.5 | thermal_r_value | 15 | 1300 x 3000 | 1 |
-| R1.5 | thermal_r_value | 15 | 1300 x 5000 | 1 |
-| R1.5 | thermal_r_value | 25 | 1300 x 3000 | 1 |
-| R1.5 | thermal_r_value | 25 | 1300 x 5000 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| GreenLAG 18mm x 3m | 1.3m x 3m (3.9m²), 18mm, 3.6kg/m² | Roll |
+| GreenLAG 18mm x 5m | 1.3m x 5m (6.5m²), 18mm, 3.6kg/m² | Roll |
+| GreenLAG 25mm x 3m | 1.3m x 3m (3.9m²), 25mm, 5.0kg/m² | Roll |
+| GreenLAG 25mm x 5m | 1.3m x 5m (6.5m²), 25mm, 5.0kg/m² | Roll |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

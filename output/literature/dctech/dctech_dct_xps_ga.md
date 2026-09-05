@@ -44,14 +44,14 @@ DCT XPS GA 300 is a closed-cell, high-compressive-strength, low-moisture-absorpt
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R0.9 | thermal_r_value | 30 | 2500 x 600 | 1 |
-| R1.2 | thermal_r_value | 40 | 2500 x 600 | 1 |
-| R1.5 | thermal_r_value | 50 | 2500 x 600 | 1 |
-| R2.25 | thermal_r_value | 75 | 2500 x 600 | 1 |
-| R3 | thermal_r_value | 100 | 2500 x 600 | 1 |
-| R1.8 | thermal_r_value | 60 | 2500 x 600 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| DCT XPS GA 300 (30mm) | 600 mm x 2400 mm x 30 mm (R1.00) | Pack / Pallet |
+| DCT XPS GA 300 (50mm) | 600 mm x 2400 mm x 50 mm (R1.70) | Pack / Pallet |
+| DCT XPS GA 300 (75mm) | 600 mm x 2400 mm x 75 mm (R2.55) | Pack / Pallet |
+| DCT XPS GA 300 (100mm) | 600 mm x 2400 mm x 100 mm (R3.40) | Pack / Pallet |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

@@ -43,9 +43,12 @@ Bradford Optimo (Bradford Thermal Underfloor) is a premium, rigid high-density g
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R2.0 | thermal_r_value | Varies | 1160 (width varies) | 2 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Optimo R2.1 | 75 mm x 415/565 mm x 1160 mm | Pack of 8 (3.9 m2 / 5.2 m2) |
+| Optimo R2.5 | 90 mm x 415/565 mm x 1160 mm | Pack of 8 (3.9 m2 / 5.2 m2) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

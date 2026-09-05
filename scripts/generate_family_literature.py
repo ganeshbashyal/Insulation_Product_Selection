@@ -37,7 +37,7 @@ sys.path.insert(0, str(ROOT))
 OUT_DIR = ROOT / "output" / "literature"
 SKU_CSV = ROOT / "data" / "processed" / "product_catalogue_skus.csv"
 STATE_FILE = OUT_DIR / ".literature_state.json"
-GENERATOR_VERSION = "5"  # bump when the template changes so all outputs regenerate
+GENERATOR_VERSION = "8"  # bump when the template changes so all outputs regenerate
 
 CATEGORY_TAGLINES = {
     "Batt": "bulk insulation batts for thermal and acoustic performance",
@@ -214,11 +214,22 @@ def build_markdown(family: dict, fm: dict, text: str, skus: pd.DataFrame, resear
 
     range_rows = ""
     if range_rows_data:
-        range_rows = "| Variant | Size / rating | Pack |\n| --- | --- | --- |\n"
-        for row in range_rows_data[:30]:
-            range_rows += f"| {clean(row.get('variant'))} | {clean(row.get('size_or_rating'))} | {clean(row.get('pack'))} |\n"
-        if skus.empty:
-            range_rows += "\n_Variants from the manufacturer datasheet._\n"
+        # support both Gemini's {variant,size_or_rating,pack} and the injected
+        # granular size/pack tables ({c0,c1,...} with range_headers)
+        headers = spec.get("range_headers")
+        if headers and range_rows_data and "c0" in range_rows_data[0]:
+            cols = headers
+            range_rows = "| " + " | ".join(clean(h) for h in cols) + " |\n"
+            range_rows += "|" + " --- |" * len(cols) + "\n"
+            for row in range_rows_data:
+                range_rows += "| " + " | ".join(clean(row.get(f"c{i}", "")) for i in range(len(cols))) + " |\n"
+            range_rows += "\n_Manufacturer size/packaging breakdown._\n"
+        else:
+            range_rows = "| Variant | Size / rating | Pack |\n| --- | --- | --- |\n"
+            for row in range_rows_data[:30]:
+                range_rows += f"| {clean(row.get('variant'))} | {clean(row.get('size_or_rating'))} | {clean(row.get('pack'))} |\n"
+            if skus.empty:
+                range_rows += "\n_Variants from the manufacturer datasheet._\n"
     if skus.empty is False:
         if range_rows:
             range_rows += "\n**Internal catalogue range**\n\n"
@@ -228,11 +239,11 @@ def build_markdown(family: dict, fm: dict, text: str, skus: pd.DataFrame, resear
             range_rows += f"| {clean(sku['our_sku'])} | {clean(sku['product_name'])} | {rating} |\n"
         if len(skus) > 25:
             range_rows += f"\n_{len(skus) - 25} further catalogue variants not listed here._\n"
-    elif grade_rows:
+    elif grade_rows and not range_rows:
         range_rows = "| Rating | Type | Thickness | Dimensions | SKUs |\n| --- | --- | --- | --- | --- |\n"
         for row in grade_rows:
             range_rows += f"| {row['rating']} | {row['rating_type']} | {row['thickness']} | {row['dimensions']} | {row['sku_count']} |\n"
-    else:
+    elif not range_rows:
         range_rows = "_Range not yet extracted; confirm variants against the current manufacturer TDS._\n"
 
     if technical:

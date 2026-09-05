@@ -43,14 +43,15 @@ Ecowool NoiseBreak is a high-density glass mineral wool acoustic insulation batt
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Rw 45 | acoustic_rw | 90 | 1160 x 580 | 2 |
-| Rw 45 | acoustic_rw | 90 | 1160 x 430 | 2 |
-| Rw 40 | acoustic_rw | 70 | 1160 x 580 | 1 |
-| Rw 50 | acoustic_rw | 110 | 1160 x 580 | 1 |
-| Rw 40 | acoustic_rw | 70 | 1160 x 430 | 1 |
-| Rw 50 | acoustic_rw | 110 | 1160 x 430 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| NoiseBreak R1.7 (60mm) | 60 mm x 1160 mm x 430/580 mm (24 kg/m³) | Pack of batts |
+| NoiseBreak R2.0 (70mm) | 70 mm x 1160 mm x 430/580 mm (24 kg/m³) | Pack of batts |
+| NoiseBreak R2.5 (90mm) | 90 mm x 1160 mm x 430/580 mm (24 kg/m³) | Pack of batts |
+| NoiseBreak R2.7 (90mm) | 90 mm x 1160 mm x 430/580 mm (32 kg/m³) | Pack of batts |
+| NoiseBreak R3.1 (110mm) | 110 mm x 1160 mm x 430/580 mm (24 kg/m³) | Pack of batts |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

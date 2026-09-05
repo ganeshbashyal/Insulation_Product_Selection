@@ -40,10 +40,12 @@ Bradford Thermoseal Wall Breather Medium Duty Polyweave Wrap is a high-strength 
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.5 | thermal_r_value | 40 | 30000 x 135040 | 1 |
-| R1.5 | thermal_r_value | 81 | 60000 x 135081 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Thermoseal Wall Breather Medium Duty Polyweave 30m | 1350 mm x 30 m (40.5 m²) | Roll (Code: 101254) |
+| Thermoseal Wall Breather Medium Duty Polyweave 60m | 1350 mm x 60 m (81 m²) | Roll (Code: 15123) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

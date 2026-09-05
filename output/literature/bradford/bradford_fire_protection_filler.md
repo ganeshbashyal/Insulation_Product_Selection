@@ -41,9 +41,11 @@ Bradford Fire Protection - Filler (Fireseal Party Wall Batten Fillers) are pre-c
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Rw 35 | acoustic_rw | Varies | 40 x 100 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Fireseal Party Wall Batten Fillers 40x100mm | 40 mm x 100 mm | Box of 35 pieces (Code: 125418) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

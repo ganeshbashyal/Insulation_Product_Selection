@@ -46,11 +46,14 @@ AcoustiFlex SQ flexible noise barrier and vibration damping material has a soft,
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.5 | thermal_r_value | 4.5 | 1300 x 2500 | 2 |
-| R1.5 | thermal_r_value | 2.5 | 1300 x 5400 | 1 |
-| R1.5 | thermal_r_value | 3.5 | 1300 x 4000 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| AcoustiFlex SQ 25 | 1.3m x 5.4m (Rw 24) | Roll |
+| AcoustiFlex SQ 40 | 1.3m x 4m (Rw 28) | Roll |
+| AcoustiFlex SQ 60 | 1.3m x 2.5m (Rw 35) | Roll |
+| AcoustiFlex SQ 80 | 1.3m x 2.5m (Rw 36) | Roll |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

@@ -40,9 +40,11 @@ Autex Vicinity Desk Screen - Polka is a two-piece modular acoustic desk divider 
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Rw 35 | acoustic_rw | Varies | 1160 (width varies) | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Vicinity Polka | 772 mm W x 576 mm H & 380 mm W x 576 mm H x 12 mm | Pack of 4 screens (2 pieces per screen) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

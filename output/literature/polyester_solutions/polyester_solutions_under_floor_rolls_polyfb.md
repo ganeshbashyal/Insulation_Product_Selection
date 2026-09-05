@@ -42,13 +42,14 @@ Polyester Solutions Underfloor Insulation (PolyFB / Poly-Floor) consists of 100%
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.5 | thermal_r_value | 695250 | 6000 (width varies) | 1 |
-| R2 | thermal_r_value | 920250 | 6000 (width varies) | 1 |
-| R2.5 | thermal_r_value | 1145250 | 6000 (width varies) | 1 |
-| R3 | thermal_r_value | 1370250 | 6000 (width varies) | 1 |
-| R4 | thermal_r_value | 1820250 | 6000 (width varies) | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| PolyFB Underfloor Roll R1.5 | 90 mm x 450 mm x 10 m (2 rolls, 9.0 m²) | Pack of 2 rolls |
+| PolyFB Underfloor Roll R2.0 | 90 mm x 450 mm x 10 m (2 rolls, 9.0 m²) | Pack of 2 rolls |
+| PolyFB Underfloor Roll R2.5 | 120 mm x 450 mm x 8 m (2 rolls, 7.2 m²) | Pack of 2 rolls |
+| PolyFB Underfloor Roll R3.0 | 140 mm x 450 mm x 6 m (2 rolls, 5.4 m²) | Pack of 2 rolls |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

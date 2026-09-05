@@ -41,9 +41,13 @@ Foilboard Standard Fasteners are purpose-designed mechanical fixings consisting 
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Not specified | unspecified | 30 | Varies | 2 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Foilboard Standard Fasteners 30mm | 30 mm length (suits 10-15mm boards) | Box of 250 / 500 |
+| Foilboard Standard Fasteners 40mm | 40 mm length (suits 15-20mm boards) | Box of 250 / 500 |
+| Foilboard Standard Fasteners 50mm | 50 mm length (suits 20-25mm boards) | Box of 250 / 500 |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

@@ -45,9 +45,13 @@ ProctorPassive YouByute Flexi Tape is a high performance, highly stretchable but
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R0.1 | thermal_r_value | 80 | 10000 (width varies) | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| YouByute Flexi Tape 60mm | 60 mm x 25 m | Roll |
+| YouByute Flexi Tape 75mm | 75 mm x 25 m | Roll |
+| YouByute Flexi Tape 150mm | 150 mm x 25 m | Roll |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

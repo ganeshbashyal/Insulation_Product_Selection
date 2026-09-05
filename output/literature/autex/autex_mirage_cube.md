@@ -42,12 +42,14 @@ Autex Mirage Cube is an intricately textured acoustic panel range designed to ad
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Rw 35 | acoustic_rw | 12 | 2400 x 1200 | 2 |
-| Rw 35 | acoustic_rw | 12 | 2700 x 1200 | 2 |
-| Rw 35 | acoustic_rw | 24 | 2400 x 1200 | 2 |
-| Rw 35 | acoustic_rw | 24 | 2700 x 1200 | 2 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Mirage Cube 12mm (2400x1200) | 1200 mm x 2400 mm x 12 mm, NRC 0.45 | Panel |
+| Mirage Cube 12mm (2700x1200) | 1200 mm x 2700 mm x 12 mm, NRC 0.45 | Panel |
+| Mirage Cube 24mm (2400x1200) | 1200 mm x 2400 mm x 24 mm, NRC 0.70 | Panel |
+| Mirage Cube 24mm (2700x1200) | 1200 mm x 2700 mm x 24 mm, NRC 0.70 | Panel |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

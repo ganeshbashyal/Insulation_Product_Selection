@@ -44,9 +44,11 @@ Autex Grid Ceiling Tiles - Frame - Rectangle - Uncapped is a 3D acoustic ceiling
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Rw 35 | acoustic_rw | Varies | 1195 x 595 | 2 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Grid Ceiling Tiles - Frame Rectangle Uncapped | 1195mm x 595mm (Rectangle 1200x600 grid) | Pack of tiles |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

@@ -42,11 +42,13 @@ Autex Willie Weston / Emma Hayes Quietspace is a premium broadband acoustic wall
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| NRC 0.60 | acoustic_nrc | 25 | 2400 x 1200 | 1 |
-| NRC 0.60 | acoustic_nrc | 25 | 2700 x 1200 | 1 |
-| NRC 0.60 | acoustic_nrc | 25 | 3000 x 1200 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Willie Weston / Emma Hayes Quietspace 25mm (2400x1200) | 1200 mm x 2400 mm x 25 mm, NRC 0.85 | Panel |
+| Willie Weston / Emma Hayes Quietspace 25mm (2700x1200) | 1200 mm x 2700 mm x 25 mm, NRC 0.85 | Panel |
+| Willie Weston / Emma Hayes Quietspace 25mm (3000x1200) | 1200 mm x 3000 mm x 25 mm, NRC 0.85 | Panel |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

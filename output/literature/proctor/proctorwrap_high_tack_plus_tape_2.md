@@ -41,9 +41,11 @@ ProctorWrap High Tack Plus Tape is a professional single-sided acrylic adhesive 
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R0.1 | thermal_r_value | 75 | 20000 (width varies) | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| ProctorWrap HighTack PLUS Tape 60mm | 60 mm x 25 m | Roll (Carton of 10) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

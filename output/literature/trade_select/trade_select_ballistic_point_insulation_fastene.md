@@ -34,18 +34,16 @@ Quality insulation engineered for Australian conditions. Reflects up to 97% of r
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.5 | thermal_r_value | 25 | Varies | 1 |
-| R1.5 | thermal_r_value | 30 | Varies | 1 |
-| R1.5 | thermal_r_value | 40 | Varies | 1 |
-| R1.5 | thermal_r_value | 45 | Varies | 1 |
-| R1.5 | thermal_r_value | 50 | Varies | 1 |
-| R1.5 | thermal_r_value | 60 | Varies | 1 |
-| R1.5 | thermal_r_value | 75 | Varies | 1 |
-| R1.5 | thermal_r_value | 80 | Varies | 1 |
-| R1.5 | thermal_r_value | 90 | Varies | 1 |
-| R1.5 | thermal_r_value | 100 | Varies | 1 |
+| Code | Pin length | Washer dia | Shank dia | Board thickness | Box qty |
+| --- | --- | --- | --- | --- | --- |
+| GTIF-30 | 30 mm | 60 mm | 3.7 mm | 25-30 mm | 250 pcs |
+| GTIF-50 | 50 mm | 60 mm | 3.7 mm | 40-50 mm | 250 pcs |
+| GTIF-60 | 60 mm | 60 mm | 3.7 mm | 50-60 mm | 250 pcs |
+| GTIF-75 | 75 mm | 60 mm | 3.7 mm | 65-75 mm | 200 pcs |
+| GTIF-100 | 100 mm | 60 mm | 3.7 mm | 80-100 mm | 150 pcs |
+| GTIF-125 | 125 mm | 60 mm | 3.7 mm | 110-125 mm | 100 pcs |
+
+_Manufacturer size/packaging breakdown._
 
 ## Technical data
 

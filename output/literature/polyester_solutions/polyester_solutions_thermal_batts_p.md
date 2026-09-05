@@ -44,13 +44,16 @@ Polyester Solutions Thermal Batts - P (PolyBatts Premium) are Australian-made th
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.5 | thermal_r_value | 580 | 1170 x 580 | 6 |
-| R1.5 | thermal_r_value | 430 | 1170 x 430 | 5 |
-| R2.0 | thermal_r_value | 430 | 1170 x 430 | 1 |
-| R2.0 | thermal_r_value | 580 | 1170 x 580 | 1 |
-| R2.5 | thermal_r_value | 430 | 1170 x 430 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Thermal Batts P Wall R1.5 | 90 mm x 1170 mm x 430/580 mm | Pack of batts |
+| Thermal Batts P Wall R2.0 | 90 mm x 1170 mm x 430/580 mm | Pack of batts |
+| Thermal Batts P Wall R2.5 | 90 mm x 1170 mm x 430/580 mm | Pack of batts |
+| Thermal Batts P Ceiling R2.5 | 165 mm x 1170 mm x 430/580 mm | Pack of batts |
+| Thermal Batts P Ceiling R3.5 | 200 mm x 1170 mm x 430/580 mm | Pack of batts |
+| Thermal Batts P Ceiling R4.0 | 220 mm x 1170 mm x 430/580 mm | Pack of batts |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

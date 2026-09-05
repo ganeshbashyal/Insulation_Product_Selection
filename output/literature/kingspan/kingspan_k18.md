@@ -40,19 +40,15 @@ Kingspan Kooltherm K18 Insulated Plasterboard is a premium performance insulated
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R0.2 | thermal_r_value | 25 | 2400 x 1200 | 1 |
-| R2.75 | thermal_r_value | 25 | 2700 x 1200 | 1 |
-| R1.3 | thermal_r_value | 30 | 2700 x 1200 | 1 |
-| R2.30 | thermal_r_value | 40 | 2700 x 1200 | 1 |
-| R4.55 | thermal_r_value | 40 | 3000 x 1200 | 1 |
-| R1.80 | thermal_r_value | 50 | 2700 x 1200 | 1 |
-| R4.10 | thermal_r_value | 50 | 3000 x 1200 | 1 |
-| R1.3 | thermal_r_value | 60 | 2400 x 1200 | 1 |
-| R1.3 | thermal_r_value | 60 | 3000 x 1200 | 1 |
-| R1.3 | thermal_r_value | 70 | 2400 x 1200 | 1 |
-| R1.3 | thermal_r_value | 80 | 2400 x 1200 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Kooltherm K18 Insulated Plasterboard 37.5mm | 37.5 mm x 1200 mm x 2400 mm | Board |
+| Kooltherm K18 Insulated Plasterboard 52.5mm | 52.5 mm x 1200 mm x 2400 mm | Board |
+| Kooltherm K18 Insulated Plasterboard 62.5mm | 62.5 mm x 1200 mm x 2400 mm | Board |
+| Kooltherm K18 Insulated Plasterboard 72.5mm | 72.5 mm x 1200 mm x 2400 mm | Board |
+| Kooltherm K18 Insulated Plasterboard 82.5mm | 82.5 mm x 1200 mm x 2400 mm | Board |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

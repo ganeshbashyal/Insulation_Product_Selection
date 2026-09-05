@@ -41,9 +41,11 @@ Autex Cascade Acoustic Hanging Screens - Expanding are innovative suspended acou
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Rw 35 | acoustic_rw | Varies | 2400 x 1200 | 2 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Cascade Expanding Screen (Pattern E1-E6) | 1200 mm x 2400 mm expanded, 12mm thickness | Kit (Screen + Suspension hardware) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

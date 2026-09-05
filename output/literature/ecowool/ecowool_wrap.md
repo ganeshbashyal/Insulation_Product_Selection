@@ -40,9 +40,12 @@ Ecowool ClimaWrap (ClimaWrap CW / ClimaWrap BMX800) is a durable, triple-layer C
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R2.0 | thermal_r_value | Varies | 30000 x 1500 | 2 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| ClimaWrap BMX800 / CW (1500mm) | 1500 mm x 30 m (45 m²) | Roll |
+| ClimaWrap BMX800 / CW (1370mm) | 1370 mm x 30 m (41.1 m²) | Roll |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

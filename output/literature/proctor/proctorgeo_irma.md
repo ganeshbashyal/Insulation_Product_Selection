@@ -40,10 +40,12 @@ ProctorGeo IRMA is a heavy-duty, water-vapour permeable non-woven geotextile mem
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R0.1 | thermal_r_value | Varies | 50000 x 3000 | 1 |
-| R0.1 | thermal_r_value | Varies | 50000 x 1500 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| ProctorGeo IRMA Geotextile | 3.0 m x 100 m (300 m²) | Roll |
+| ProctorGeo IRMA Geotextile (Narrow) | 2.0 m x 50 m (100 m²) | Roll |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

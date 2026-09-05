@@ -40,9 +40,12 @@ Autex Vicinity Desk Screen - Nook is a comprehensive three-sided acoustic workst
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Rw 35 | acoustic_rw | Varies | 1160 (width varies) | 2 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Vicinity Nook 1600 | 2400 mm W x 600 mm H x 12 mm (suits 1600mm desk, 3 pieces) | Pack of 4 screens |
+| Vicinity Nook 1800 | 2400 mm W x 600 mm H x 12 mm (suits 1800mm desk, 3 pieces) | Pack of 4 screens |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

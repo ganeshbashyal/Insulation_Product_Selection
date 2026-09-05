@@ -40,9 +40,12 @@ Bradford Fire Protection - Wall Batt (Bradford Rockwool Fireseal Curtain Wall Ba
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.5 | thermal_r_value | 18 | 1200 x 120 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Fireseal Curtain Wall Batts 50mm | 50 mm x 1200 mm x 120 mm / 150 mm | Pack of 18 pieces |
+| Fireseal Curtain Wall Batts 100mm | 100 mm x 1200 mm x 150 mm / 168 mm | Pack of 10 pieces |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

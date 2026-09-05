@@ -41,9 +41,12 @@ Bradford Enviroseal ProctorWrap Commercial Wall (CW) is a premium, Light Duty va
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.5 | thermal_r_value | 75 | 50000 x 150075 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Enviroseal ProctorWrap CW (Commercial Wall) | 1500 mm x 50 m (75 m²) | Roll (35 rolls per pallet, Code: 114175) |
+| Enviroseal ProctorWrap CW-IT (Integrated Tape) | 1500 mm x 50 m (75 m²) | Roll (35 rolls per pallet, Code: 114176) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

@@ -40,9 +40,13 @@ Bradford Fire Protection - Metal Roof (Bradford Fireseal Party Wall Sealer for M
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R2.0 | thermal_r_value | 2 | 4000 x 300 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Fireseal Party Wall Sealer for Metal Roofs 75x300mm | 75 mm x 4000 mm x 300 mm (2 pieces, 8 lineal metres) | Pack of 2 rolls (Code: 123444) |
+| Fireseal Party Wall Sealer for Metal Roofs 75x360mm | 75 mm x 4000 mm x 360 mm (2 pieces, 8 lineal metres) | Pack of 2 rolls (Code: 123446) |
+| Fireseal FZ Metal Roof Batts | 75 mm x 90 mm x 1200 mm | Pack of 15 pieces (18 lineal metres, Code: 125084) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

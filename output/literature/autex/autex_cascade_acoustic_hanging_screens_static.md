@@ -42,9 +42,11 @@ wall
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Rw 35 | acoustic_rw | Varies | 2400 x 1200 | 2 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Cascade Static Screen (Pattern S1-S14 or Custom) | 1200 mm x 2400 mm x 12 mm | Kit (Screen + Suspension hardware) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

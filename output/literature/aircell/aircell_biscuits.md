@@ -39,9 +39,12 @@ Kingspan AIR-CELL Spacer Biscuits are manufactured from expanded black polyethyl
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Not specified | unspecified | Varies | 60 x 60 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| AIR-CELL Spacer Biscuits 50 pc | 60 x 60 x 20 mm | Bag of 50 pcs |
+| AIR-CELL Spacer Biscuits 400 pc | 60 x 60 x 20 mm | Box of 400 pcs |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

@@ -1,7 +1,7 @@
 ---
 title: "MaxTape FR Insulating Foam Tape - Accessory Insulation | Thermotec"
-description: "Thermotec MaxTape FR (Maxflex Insulating Foam Tape) is a high-performance, fire-rated EPDM closed-cell elastomeric insulating foam tape coated on one "
-keywords: "MaxTape FR Insulating Foam Tape, Thermotec accessory, wall insulation, roof insulation, pipe insulation, duct insulation, shed insulation, R-value insulation, insulation Australia, Thermotec Australia"
+description: "MaxTape FR Insulating Foam Tape is a accessory insulation product family from Thermotec. View the catalogue range, applications and specification star"
+keywords: "MaxTape FR Insulating Foam Tape, Thermotec accessory, pipe insulation, R-value insulation, insulation Australia, Thermotec Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: THERMOTEC_MAXTAPE_FR
 ---
@@ -10,42 +10,36 @@ family_id: THERMOTEC_MAXTAPE_FR
 
 **Thermotec Accessory** — installation accessories and fixings.
 
-Thermotec MaxTape FR (Maxflex Insulating Foam Tape) is a high-performance, fire-rated EPDM closed-cell elastomeric insulating foam tape coated on one side with an aggressive acrylic pressure-sensitive adhesive. Engineered for thermal insulation, vibration dampening, and condensation control, it is widely used as a purlin tape on steel-framed buildings to reduce thermal movement creaks, and as an insulation wrap for pipe fittings, valves, and HVAC components. Flexible and lightweight, it retards heat gain and loss while providing long service life without deterioration.
+MaxTape FR Insulating Foam Tape is a accessory product family from Thermotec. Confirm the current published specification against the manufacturer datasheet before quoting.
 
 ## Key features
 
-- Made from closed-cell fire-rated EPDM elastomeric insulating foam sheet.
-- Coated with high-tack acrylic pressure-sensitive adhesive protected by release liner.
-- Serves as an effective purlin tape to eliminate thermal movement noise in steel buildings.
-- Low, stable thermal conductivity retards heat loss, heat gain, and prevents condensation.
-- Fire-rated formulation compliant with building safety standards.
-- Highly flexible and conforms easily to irregular pipe fittings, valves, and bends.
-- Resistant to moisture absorption, weathering, and UV degradation.
-- Will not dry out, shrink, or deteriorate over time.
-- Available in 50mm and 98mm widths in 3mm thickness.
+- Refer to the manufacturer datasheet for published features.
 
 ## Applications and selection
 
-- pipe
-- duct
-- roof
-- roofline
-- wall
-- shed
+- pipe insulation joint
+- fitting
+- insulation repair
+- system accessory
 
 **Selection checklist**
 
-1. Confirm application (purlin thermal cushion tape vs pipe fitting lagging).
-2. Select width (50mm standard for pipe fittings and narrow purlins; 98mm for wide structural purlins).
-3. Calculate total lineal meters needed along steel framing or pipe runs.
-4. Ensure substrate is clean and grease-free.
+1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
+2. Confirm the target rating and construction build-up with the project team.
+3. Confirm available cavity or fixing depth against the product dimensions.
+4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
+5. Record the suburb/postcode so climate-zone requirements can be checked.
 
 ## Manufacturer range
 
-| Variant | Size / rating | Pack |
-| --- | --- | --- |
-| MaxTape FR 50mm | 3 mm x 50 mm x 9.1 m | Box of 10 rolls |
-| MaxTape FR 98mm | 3 mm x 98 mm x 9.1 m | Box of 5 rolls |
+| Variant | Thickness | Width | Length | Area/roll | Box qty | Master carton |
+| --- | --- | --- | --- | --- | --- | --- |
+| MaxTape FR 50 | 3.0 mm | 50 mm | 9.1 m | 0.455 m2 | 10 rolls | 91.0 lineal m |
+| MaxTape FR 98 | 3.0 mm | 98 mm | 9.1 m | 0.892 m2 | 5 rolls | 45.5 lineal m |
+| MaxTape FR Heavy | 6.0 mm | 50 mm | 7.5 m | 0.375 m2 | 10 rolls | 75.0 lineal m |
+
+_Manufacturer size/packaging breakdown._
 
 **Internal catalogue range**
 
@@ -57,10 +51,13 @@ Thermotec MaxTape FR (Maxflex Insulating Foam Tape) is a high-performance, fire-
 
 ## Current catalogue range
 
-| Variant | Size / rating | Pack |
-| --- | --- | --- |
-| MaxTape FR 50mm | 3 mm x 50 mm x 9.1 m | Box of 10 rolls |
-| MaxTape FR 98mm | 3 mm x 98 mm x 9.1 m | Box of 5 rolls |
+| Variant | Thickness | Width | Length | Area/roll | Box qty | Master carton |
+| --- | --- | --- | --- | --- | --- | --- |
+| MaxTape FR 50 | 3.0 mm | 50 mm | 9.1 m | 0.455 m2 | 10 rolls | 91.0 lineal m |
+| MaxTape FR 98 | 3.0 mm | 98 mm | 9.1 m | 0.892 m2 | 5 rolls | 45.5 lineal m |
+| MaxTape FR Heavy | 6.0 mm | 50 mm | 7.5 m | 0.375 m2 | 10 rolls | 75.0 lineal m |
+
+_Manufacturer size/packaging breakdown._
 
 **Internal catalogue range**
 
@@ -71,50 +68,28 @@ Thermotec MaxTape FR (Maxflex Insulating Foam Tape) is a high-performance, fire-
 
 ## Technical data
 
-| Property | Value | Standard |
+| Property | Value | Source |
 | --- | --- | --- |
-| Material | Closed-cell EPDM elastomeric insulating foam with acrylic adhesive | - |
-| Thickness | 3 mm | - |
-| Width Options | 50 mm, 98 mm | - |
-| Roll Length | 9.1 m | - |
-| Adhesive Type | Pressure-sensitive acrylic adhesive | - |
-| Thermal Conductivity | Stable low thermal conductivity for thermal insulation and anti-condensation | - |
-| Fire Performance | Fire Rated (FR formulation) | - |
-| Moisture Resistance | Closed-cell structure resists moisture and condensation | - |
+| Product type | Accessory | Manufacturer catalogue |
+| Material | Adhesive-backed closed-cell EPDM foam | Manufacturer catalogue |
+| Applications | pipe insulation joint; fitting; insulation repair; system accessory | Manufacturer catalogue |
+| Published ratings | R1.2, R2.5 | Internal catalogue; confirm against current TDS |
 
-Extracted from manufacturer datasheet: https://thermotec.com.au/product/thermotec-maxflex-insulating-foam-tape/
+
 
 ## Fire, testing and compliance context
 
-Fire-rated formulation; low flammability EPDM rubber
-
-Meets Australian building and HVAC insulation performance standards
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://thermotec.com.au/products/thermotec-maxflex-insulating-foam-tape (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: to be sourced.
 
-## Recommended accessories
-
-- Thermotec E-Flex pipe insulation.
-- Thermotec 4-Zero pipe lagging.
-
-
-## Limitations and warnings
-
-- Surfaces must be dry and free of oil or rust before applying.
-- Not designed as a structural load-bearing tape.
-- Ensure 50% overlap when wrapping pipes to prevent condensation tracking.
 
 ## Installation overview
 
-1. Ensure target pipe, fitting, or purlin surface is clean, dry, and free of grease and dust.
-2. For purlin installation, unroll MaxTape FR along the top flange of steel roof purlins or wall girts.
-3. Peel back release liner and press tape firmly onto the steel surface.
-4. Ensure tape runs continuously beneath roof or wall sheets to eliminate thermal expansion noise.
-5. For pipe fittings and valves, wrap MaxTape FR tightly with a 50% overlap to achieve required insulation thickness.
-6. Press firmly along all edges to ensure complete, gap-free adhesion and prevent air ingress.
+Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU.
 
 ## Safety and handling
 
@@ -122,11 +97,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Zero ODP; low VOC emissions; fiber-free
+Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
 
 ## Warranty, returns and support
 
-Backed by Thermotec Australia product warranty
+No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
 
 ## Specification starting point
 

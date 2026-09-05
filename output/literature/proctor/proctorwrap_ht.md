@@ -40,9 +40,11 @@ ProctorWrap HTR (High Tensile Roof / High Temperature Roof) is a heavy-weight, U
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R0.1 | thermal_r_value | Varies | 50000 x 1500 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| ProctorWrap HTR (1.5m x 50m) | 1500 mm x 50 m (75 m²) | Roll |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

@@ -43,13 +43,15 @@ Bradford Anticon Roofing Blanket - Heavy Duty Foil is a premium glasswool roofin
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.3 | thermal_r_value | 60 | 15000 x 1200 | 1 |
-| R1.8 | thermal_r_value | 80 | 10000 x 1200 | 1 |
-| R2.3 | thermal_r_value | 100 | 10000 x 1200 | 1 |
-| R2.5 | thermal_r_value | 110 | 10000 x 1200 | 1 |
-| R3.0 | thermal_r_value | 130 | 10000 x 1200 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Anticon 60 Heavy Duty (HD) | 60 mm x 1200 mm x 15-20 m, R1.3 | Roll |
+| Anticon 80 Heavy Duty (HD) | 80 mm x 1200 mm x 15 m, R1.8 | Roll |
+| Anticon 100 Heavy Duty (HD) | 100 mm x 1200 mm x 10 m, R2.3 | Roll |
+| Anticon 130 Heavy Duty (HD) | 130 mm x 1200 mm x 10 m, R3.0 | Roll |
+| Anticon 145 Heavy Duty (HD) | 145 mm x 1200 mm x 10 m, R3.6 | Roll |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

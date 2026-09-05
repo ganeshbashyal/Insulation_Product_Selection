@@ -45,9 +45,16 @@ Autex GreenStuf Thermal Batts are 100% polyester insulation segments engineered 
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.5 | thermal_r_value | 100 | 8330 x 600 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| GreenStuf Thermal Batts R1.5 | 75mm thickness, 430mm / 580mm width | Pack of batts |
+| GreenStuf Thermal Batts R2.0 | 90mm thickness, 430mm / 580mm width | Pack of batts |
+| GreenStuf Thermal Batts R2.5 | 90-100mm thickness, 430mm / 580mm width | Pack of batts |
+| GreenStuf Thermal Batts R3.0 | 140mm thickness, 430mm / 580mm width | Pack of batts |
+| GreenStuf Thermal Batts R3.5 | 175-185mm thickness, 430mm / 580mm width | Pack of batts |
+| GreenStuf Thermal Batts R4.0 | 200mm thickness, 430mm / 580mm width | Pack of batts |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

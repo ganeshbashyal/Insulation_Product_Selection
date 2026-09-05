@@ -45,12 +45,14 @@ soffit
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Rw 40 | acoustic_rw | 50 | 1160 (width varies) | 4 |
-| Rw 45 | acoustic_rw | 75 | 1160 (width varies) | 4 |
-| Rw 50 | acoustic_rw | 100 | 1160 (width varies) | 4 |
-| Rw 50 | acoustic_rw | 140 | 1160 (width varies) | 3 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| GreenStuf ASL R1.0 | 50mm x 1200mm x 2400mm | Panel |
+| GreenStuf ASL R1.5 | 65mm x 1200mm x 2400mm | Panel |
+| GreenStuf ASL R2.0 | 75mm/80mm x 1200mm x 2400mm | Panel |
+| GreenStuf ASL R2.5 | 100mm x 1200mm x 2400mm | Panel |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

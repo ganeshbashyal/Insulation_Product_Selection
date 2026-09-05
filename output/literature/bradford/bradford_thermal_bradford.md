@@ -43,12 +43,13 @@ Bradford Gold (Bradford Thermal) is Australia's most widely specified glasswool 
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R2 | thermal_r_value | 12 | 1200 x 600 | 1 |
-| R2 | thermal_r_value | 90 | 1200 x 600 | 1 |
-| R2.5 | thermal_r_value | 9 | 1200 x 600 | 1 |
-| R2.7 | thermal_r_value | 5 | 1200 x 600 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Bradford Gold Ceiling Batts R2.5 - R4.1 | 130-205 mm x 430/580 mm x 1160 mm | Pack of batts |
+| Bradford Gold Hi-Performance Ceiling Batts R5.0 - R7.0 | 235-290 mm x 430/580 mm x 1160 mm | Pack of batts |
+| Bradford Gold Wall Batts R1.5 - R2.7 | 75-90 mm x 430/580 mm x 1160 mm | Pack of batts |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

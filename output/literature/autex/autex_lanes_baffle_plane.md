@@ -41,10 +41,12 @@ Autex Lanes Baffle Plane is a modular acoustic wall batten system that features 
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Rw 35 | acoustic_rw | 12 | 2400 x 300 | 2 |
-| Rw 35 | acoustic_rw | 12 | 2700 x 300 | 2 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Lanes Plane 2400mm | 300 mm x 2400 mm (Pack covers 2.16 m2) | Pack of 3 lanes |
+| Lanes Plane 2700mm | 300 mm x 2700 mm (Pack covers 2.43 m2) | Pack of 3 lanes |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

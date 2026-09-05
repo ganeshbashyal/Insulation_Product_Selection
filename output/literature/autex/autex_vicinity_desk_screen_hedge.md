@@ -40,9 +40,12 @@ Autex Vicinity Desk Screen - Hedge is a clean, classic rectangular acoustic divi
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Rw 35 | acoustic_rw | Varies | 1160 (width varies) | 2 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Vicinity Hedge 1600 | 1550 mm W x 600 mm H x 12 mm (suits 1600mm desk) | Pack of 4 screens |
+| Vicinity Hedge 1800 | 1750 mm W x 600 mm H x 12 mm (suits 1800mm desk) | Pack of 4 screens |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

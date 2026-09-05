@@ -40,9 +40,12 @@ Autex Vicinity Desk Screen - Slate is a lightweight, semi-rigid acoustic worksta
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Rw 35 | acoustic_rw | Varies | 1160 (width varies) | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Vicinity Desk Screen Slate 12mm | 800 mm x 450-600 mm x 12 mm | Screen (single or boxed set) |
+| Vicinity Desk Screen Slate 24mm | 800 mm x 450-600 mm x 24 mm | Screen (single or boxed set) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

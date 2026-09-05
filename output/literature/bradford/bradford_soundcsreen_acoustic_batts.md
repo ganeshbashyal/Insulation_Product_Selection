@@ -44,15 +44,14 @@ Bradford SoundScreen is Australia's most popular high-density acoustic insulatio
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Rw 40 | acoustic_rw | 70 | 1160 x 430 | 1 |
-| Rw 40 | acoustic_rw | 70 | 1160 x 580 | 1 |
-| Rw 40 | acoustic_rw | 70 | 1160 x 600 | 1 |
-| Rw 45 | acoustic_rw | 88 | 1160 x 430 | 1 |
-| Rw 45 | acoustic_rw | 88 | 1160 x 580 | 1 |
-| Rw 50 | acoustic_rw | 110 | 1160 x 430 | 1 |
-| Rw 50 | acoustic_rw | 110 | 1160 x 580 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| SoundScreen R1.7 | 60 mm x 430/580 mm x 1160 mm | Pack of 10 (4.99 m2 / 6.73 m2) |
+| SoundScreen R2.0 | 70 mm x 430/580 mm x 1160 mm; 70 mm x 600 mm x 1200 mm | Pack of 8 (3.99 m2 / 5.38 m2 / 5.76 m2) |
+| SoundScreen R2.5 | 88 mm x 430/580 mm x 1160 mm | Pack of 6 (3.0 m2 / 4.0 m2) |
+| SoundScreen R3.1 | 110 mm x 430/580 mm x 1160 mm | Pack of 5 (2.5 m2 / 3.4 m2) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

@@ -44,24 +44,16 @@ wall
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R2.0 | thermal_r_value | 90 | 1160 x 430 | 1 |
-| R2.5 | thermal_r_value | 140 | 1160 x 430 | 1 |
-| R3.0 | thermal_r_value | 165 | 1160 x 430 | 1 |
-| R3.5 | thermal_r_value | 185 | 1160 x 430 | 1 |
-| R4.1 | thermal_r_value | 215 | 1160 x 430 | 1 |
-| R5.0 | thermal_r_value | 240 | 1160 x 430 | 1 |
-| R6.0 | thermal_r_value | 260 | 1160 x 430 | 1 |
-| R7.0 | thermal_r_value | 290 | 1160 x 430 | 1 |
-| R2.0 | thermal_r_value | 90 | 1160 x 580 | 1 |
-| R2.5 | thermal_r_value | 140 | 1160 x 580 | 1 |
-| R3.0 | thermal_r_value | 165 | 1160 x 580 | 1 |
-| R3.5 | thermal_r_value | 185 | 1160 x 580 | 1 |
-| R4.1 | thermal_r_value | 215 | 1160 x 580 | 1 |
-| R5.0 | thermal_r_value | 240 | 1160 x 580 | 1 |
-| R6.0 | thermal_r_value | 260 | 1160 x 580 | 1 |
-| R7.0 | thermal_r_value | 290 | 1160 x 580 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Gold Ceiling Batts R2.5 | 140 mm x 1160 mm x 430/580 mm | Pack of 16 batts |
+| Gold Ceiling Batts R3.0 | 165 mm x 1160 mm x 430/580 mm | Pack of 16 batts |
+| Gold Ceiling Batts R3.5 | 185 mm x 1160 mm x 430/580 mm | Pack of 16/10 batts |
+| Gold Ceiling Batts R4.1 | 205 mm x 1160 mm x 430/580 mm | Pack of 10 batts |
+| Gold Wall Batts R1.5 | 75 mm x 1160 mm x 430/580 mm | Pack of 22/33 batts |
+| Gold Wall Batts R2.0 | 90 mm x 1160 mm x 430/580 mm | Pack of 16/24 batts |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

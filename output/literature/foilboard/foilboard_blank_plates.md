@@ -42,9 +42,11 @@ Foilboard Blank Plates are lightweight, rigid spreading washers designed to dist
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Not specified | unspecified | Varies | Varies | 2 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Foilboard Blank Plates | 40 mm x 40 mm / 50 mm | Box of 250 pieces |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

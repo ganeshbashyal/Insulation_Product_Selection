@@ -40,9 +40,12 @@ ProctorPassive Rainscreen (such as Rainscreen FR-Zero with Integrated Tape / IT)
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R0.1 | thermal_r_value | Varies | 35000 x 2 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| ProctorPassive Rainscreen IT | 1500 mm x 50 m (75 m²) | Roll |
+| ProctorPassive Rainscreen FR-Zero IT | 1500 mm x 50 m (75 m²) | Roll |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

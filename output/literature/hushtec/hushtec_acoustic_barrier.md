@@ -40,10 +40,13 @@ Hushtec Acoustic Barriers (Performance Series & Premium Series) are high-perform
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Rw 40 | acoustic_rw | Varies | 6000 x 1200 | 1 |
-| Rw 40 | acoustic_rw | Varies | 4000 x 1200 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Hushtec Performance Series Panel | 1300 mm x 2000 mm (up to 34 dB reduction) | Panel (Min. order 5) |
+| Hushtec Premium Series Panel | 1300 mm x 2000 mm (up to 43 dB reduction) | Panel |
+| Hushtec Transparent Noise Barrier | Clear PVC mass-loaded barrier sheet | Roll / Panel |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

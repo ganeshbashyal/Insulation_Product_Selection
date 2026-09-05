@@ -41,11 +41,12 @@ Autex Composition Smooth Panel is a durable, high-performance acoustic wall pane
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| NRC 0.60 | acoustic_nrc | 16 | 2440 x 1220 | 1 |
-| NRC 0.60 | acoustic_nrc | 16 | 2740 x 1220 | 1 |
-| NRC 0.60 | acoustic_nrc | 16 | 1200 x 1220 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Composition Smooth Panel | 1200 mm x 2400 mm x 10-12 mm, NRC 0.40 | Panel |
+| Composition Smooth Tile (Peel 'n' Stick) | 600 mm x 600 mm x 10-12 mm, NRC 0.40 | Box of 6 (2.16 m²) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

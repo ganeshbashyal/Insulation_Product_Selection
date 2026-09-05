@@ -43,9 +43,12 @@ ProctorGeo D-Rain HC (HC9 / HC10) is a flexible, lightweight horizontal and vert
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R0.1 | thermal_r_value | Varies | 45000 x 1020 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| ProctorGeo D-Rain HC9 | 9 mm thickness x 1.4 m x 30 m | Roll |
+| ProctorGeo D-Rain HC10 | 10 mm thickness x 2.0 m x 20 m | Roll |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

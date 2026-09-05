@@ -46,11 +46,17 @@ AngelStep is an Australian designed and manufactured acoustic underlay range eng
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.5 | thermal_r_value | 4 | 1200 x 1200 | 1 |
-| R1.5 | thermal_r_value | 4 | 1200 x 25000 | 1 |
-| R1.5 | thermal_r_value | 12 | 1200 x 1200 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| AngelStep GOLD8 | 1150mm x 1150mm x 8mm | Tile |
+| AngelStep GOLD4 | 1150mm x 1150mm x 4mm | Tile |
+| AngelStep 48P | 1150mm x 1150mm x 8mm | Tile |
+| AngelStep 484P | 1150mm x 1150mm x 10mm | Tile |
+| AngelStep 630 | 1150mm x 1150mm x 4mm | Tile |
+| AngelStep 3D | 1200mm x 1200mm x 17/8mm | Tile |
+| AngelStep 250 | 1150mm x 1150mm x 4mm | Tile |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

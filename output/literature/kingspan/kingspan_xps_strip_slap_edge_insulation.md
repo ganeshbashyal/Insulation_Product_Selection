@@ -41,10 +41,11 @@ Kingspan GreenGuard GG350 (XPS Strip Slab Edge Insulation) is a high-performance
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.3 | thermal_r_value | 30 | 2400 x 300 | 1 |
-| R1.3 | thermal_r_value | 40 | 2400 x 300 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| GreenGuard GG350 XPS Slab Edge Strip 40mm | 40 mm x 300 mm x 2400 mm (R1.0, 5 sheets, 12 lineal metres) | Pack of 5 strips |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

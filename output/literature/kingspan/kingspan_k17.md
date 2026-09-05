@@ -40,25 +40,16 @@ Kingspan Kooltherm K17 Insulated Plasterboard is a 3-in-1 internal wall dry-lini
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.4 | thermal_r_value | 25 | 2400 x 1200 | 1 |
-| R4.10 | thermal_r_value | 25 | 2700 x 1200 | 1 |
-| R1.4 | thermal_r_value | 25 | 3000 x 1200 | 1 |
-| R1.6 | thermal_r_value | 30 | 2400 x 1200 | 1 |
-| R1.6 | thermal_r_value | 30 | 2700 x 1200 | 1 |
-| R2.0 | thermal_r_value | 40 | 2400 x 1200 | 1 |
-| R3.65 | thermal_r_value | 40 | 2700 x 1200 | 1 |
-| R1.35 | thermal_r_value | 40 | 3000 x 1200 | 1 |
-| R2.5 | thermal_r_value | 50 | 2400 x 1200 | 1 |
-| R3.20 | thermal_r_value | 50 | 2700 x 1200 | 1 |
-| R1.10 | thermal_r_value | 50 | 3000 x 1200 | 1 |
-| R3.0 | thermal_r_value | 60 | 2400 x 1200 | 1 |
-| R3.0 | thermal_r_value | 60 | 2700 x 1200 | 1 |
-| R3.4 | thermal_r_value | 70 | 2700 x 1200 | 1 |
-| R3.4 | thermal_r_value | 70 | 3000 x 1200 | 1 |
-| R3.8 | thermal_r_value | 80 | 3000 x 1200 | 1 |
-| R4.3 | thermal_r_value | 90 | 3000 x 1200 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Kooltherm K17 Insulated Plasterboard 35mm | 35 mm x 1200 mm x 2400 mm (R1.15) | Board |
+| Kooltherm K17 Insulated Plasterboard 50mm | 50 mm x 1200 mm x 2400 mm (R1.80) | Board |
+| Kooltherm K17 Insulated Plasterboard 60mm | 60 mm x 1200 mm x 2400 mm (R2.25) | Board |
+| Kooltherm K17 Insulated Plasterboard 70mm | 70 mm x 1200 mm x 2400 mm (R2.70) | Board |
+| Kooltherm K17 Insulated Plasterboard 80mm | 80 mm x 1200 mm x 2400 mm (R3.15) | Board |
+| Kooltherm K17 Insulated Plasterboard 90mm | 90 mm x 1200 mm x 2400 mm (R3.65) | Board |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

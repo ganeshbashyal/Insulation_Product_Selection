@@ -41,10 +41,12 @@ Autex Verve Cube is a sculpted 3D acoustic wall panel that animates spaces throu
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Rw 35 | acoustic_rw | 12 | 2700 x 1170 | 2 |
-| Rw 35 | acoustic_rw | 21 | 2700 x 1170 | 2 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Verve Cube 12mm | 1170 mm x 2680 mm x 12 mm (6 mm edge) | Panel |
+| Verve Cube 21mm | 1170 mm x 2680 mm x 21 mm (15 mm edge) | Panel |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

@@ -45,10 +45,12 @@ Autex Accent Ceiling Tiles (Solid Colour Ceiling Tiles) are a simple, high-perfo
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Rw 35 | acoustic_rw | 12 | 1195 x 595 | 1 |
-| Rw 35 | acoustic_rw | 12 | 595 x 595 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Solid Colour Accent Tile 600x600 | 595 mm x 595 mm x 12 mm, NRC 0.85 | Pack of 16 tiles |
+| Solid Colour Accent Tile 1200x600 | 595 mm x 1195 mm x 12 mm, NRC 0.85 | Pack of 8 tiles |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

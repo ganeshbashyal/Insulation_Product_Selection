@@ -3,62 +3,70 @@
   "family_name": "Trade Select Ballistic Point Insulation Fastene",
   "datasheet_pdf_url": "",
   "sds_url": "",
-  "status": "gemini_not_found",
+  "status": "ok",
   "researched_at": "2026-09-06",
   "spec": {
-    "description": "",
-    "features": "",
-    "applications": "",
-    "technical": "",
-    "range": "",
-    "fire": "",
-    "compliance": "",
-    "sustainability": "",
-    "install": "",
-    "selection_checklist": "",
-    "accessories": "",
-    "limitations": "",
-    "warranty": ""
+    "range": [
+      {
+        "c0": "GTIF-30",
+        "c1": "30 mm",
+        "c2": "60 mm",
+        "c3": "3.7 mm",
+        "c4": "25-30 mm",
+        "c5": "250 pcs"
+      },
+      {
+        "c0": "GTIF-50",
+        "c1": "50 mm",
+        "c2": "60 mm",
+        "c3": "3.7 mm",
+        "c4": "40-50 mm",
+        "c5": "250 pcs"
+      },
+      {
+        "c0": "GTIF-60",
+        "c1": "60 mm",
+        "c2": "60 mm",
+        "c3": "3.7 mm",
+        "c4": "50-60 mm",
+        "c5": "250 pcs"
+      },
+      {
+        "c0": "GTIF-75",
+        "c1": "75 mm",
+        "c2": "60 mm",
+        "c3": "3.7 mm",
+        "c4": "65-75 mm",
+        "c5": "200 pcs"
+      },
+      {
+        "c0": "GTIF-100",
+        "c1": "100 mm",
+        "c2": "60 mm",
+        "c3": "3.7 mm",
+        "c4": "80-100 mm",
+        "c5": "150 pcs"
+      },
+      {
+        "c0": "GTIF-125",
+        "c1": "125 mm",
+        "c2": "60 mm",
+        "c3": "3.7 mm",
+        "c4": "110-125 mm",
+        "c5": "100 pcs"
+      }
+    ],
+    "range_headers": [
+      "Code",
+      "Pin length",
+      "Washer dia",
+      "Shank dia",
+      "Board thickness",
+      "Box qty"
+    ]
   },
-  "retrieval": {
-    "search_keywords": [
-      "Ballistic Point Insulation Fasteners",
-      "ICCONS ballistic point fasteners",
-      "insulation concrete drive pins",
-      "gas nail\ninsulation fasteners",
-      "Trade Select ballistic fasteners",
-      "soffit insulation\npins"
-    ],
-    "problem_keywords": [
-      "slow drilling and fixing insulation to\nconcrete",
-      "insulation anchors pulling out of concrete",
-      "fastening rigid boards\nto carpark ceiling",
-      "fixing facade insulation to precast concrete",
-      "thermal\nbridging through metal fasteners"
-    ],
-    "placement": [
-      "ceiling",
-      "wall",
-      "external\nwall",
-      "floor",
-      "underfloor"
-    ],
-    "priority_fit": [
-      "easy_install",
-      "thermal"
-    ],
-    "use_cases": [
-      "High-speed drill-free mechanical fixing of rigid insulation\nboards (PIR, phenolic, EPS) to concrete soffits using gas tools",
-      "Fastening\ncommercial wall insulation panels to precast concrete and masonry substrates",
-      "Securing carpark ceiling insulation boards directly to concrete slabs"
-    ],
-    "not_for": [
-      "Timber framing without concrete backing",
-      "Hollow drywall steel\nstuds",
-      "Soft unsupported insulation without washer heads"
-    ],
-    "rag_summary": "Trade Select Ballistic Point Insulation Fasteners (manufactured by ICCONS under\nthe GTIF series and distributed alongside Trade Select insulation) are\npre-assembled ballistic drive pins with integrated plastic washer heads designed\nfor gas-actuated concrete nailers. Engineered to secure rigid insulation boards\n(25mm to 100mm) directly to hard concrete, masonry, and steel substrates without\npre-drilling, they accelerate installation on commercial carpark soffits,\nbasement ceilings, and precast facade walls."
-  },
+  "retrieval": {},
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "manual_range_injection",
+  "range_source": "manufacturer size/packaging breakdown (hand-supplied 2026-09-06)"
 }

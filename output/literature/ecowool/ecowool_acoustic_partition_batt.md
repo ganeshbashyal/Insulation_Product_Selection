@@ -42,18 +42,15 @@ Ecowool Acoustic Partition Batts are high-performance glass mineral wool insulat
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Rw 40 | acoustic_rw | 50 | 1200 x 600 | 4 |
-| Rw 45 | acoustic_rw | 75 | 1200 x 600 | 4 |
-| Rw 45 | acoustic_rw | 90 | 1200 x 450 | 4 |
-| Rw 45 | acoustic_rw | 90 | 1200 x 600 | 4 |
-| Rw 40 | acoustic_rw | 50 | 1200 x 450 | 3 |
-| Rw 45 | acoustic_rw | 75 | 1200 x 450 | 2 |
-| Rw 50 | acoustic_rw | 110 | 1200 x 600 | 1 |
-| NRC 0.75 | acoustic_nrc | 25 | 1200 x 600 | 1 |
-| Rw 50 | acoustic_rw | 100 | 1200 x 450 | 1 |
-| Rw 50 | acoustic_rw | 100 | 1200 x 600 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Acoustic Partition Batt 11kg/m³ R1.8 | 75 mm x 1200 mm x 450/600 mm | Pack of 20 batts (14.4 m² / 10.8 m²) |
+| Acoustic Partition Batt 14kg/m³ R1.9 | 75 mm x 1200 mm x 450/600 mm | Pack of 15 batts (10.8 m²) |
+| Acoustic Partition Batt 24kg/m³ R2.0 | 75 mm x 1200 mm x 450/600 mm | Pack of batts |
+| Acoustic Partition Batt 32kg/m³ R2.2 | 75 mm x 1200 mm x 450/600 mm | Pack of batts |
+| Acoustic Partition Batt 11kg/m³ R2.5 | 110 mm x 1200 mm x 450/600 mm | Pack of batts |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

@@ -43,10 +43,13 @@ ProctorPassive DriFlash Tape is a high performance single-sided vapor-permeable 
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R0.1 | thermal_r_value | 60 | 50000 x 60 | 1 |
-| R0.1 | thermal_r_value | 150 | 50000 x 150 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| DriFlash Tape 75mm | 75 mm x 25 m | Roll |
+| DriFlash Tape 100mm | 100 mm x 25 m | Roll |
+| DriFlash Tape 150mm | 150 mm x 25 m | Roll |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

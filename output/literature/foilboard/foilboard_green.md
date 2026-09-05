@@ -49,17 +49,16 @@ Foilboard Green is an Australian-manufactured rigid insulation panel engineered 
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R0.30 | thermal_r_value | 10 | 2400 x 1200 | 1 |
-| R0.43 | thermal_r_value | 15 | 2400 x 1200 | 1 |
-| R0.55 | thermal_r_value | 20 | 2400 x 1200 | 1 |
-| R0.67 | thermal_r_value | 25 | 2400 x 1200 | 1 |
-| R0.77 | thermal_r_value | 30 | 2400 x 1200 | 1 |
-| R1.0 | thermal_r_value | 40 | 2400 x 1200 | 1 |
-| R1.2 | thermal_r_value | 50 | 2400 x 1200 | 1 |
-| R0.30 | thermal_r_value | 10 | 2700 x 1200 | 1 |
-| R0.43 | thermal_r_value | 15 | 2700 x 1200 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Foilboard Green 10mm (Standard 15) | 10 mm x 1200 mm x 2440 mm (Material R0.3 / Total R1.6) | Sheet |
+| Foilboard Green 15mm (Standard 20) | 15 mm x 1200 mm x 2440 mm (Material R0.4 / Total R2.1) | Sheet |
+| Foilboard Green 20mm (Standard 25) | 20 mm x 1200 mm x 2440 mm (Material R0.5 / Total R2.6) | Sheet |
+| Foilboard Green 25mm (Plus 30) | 25 mm x 1200 mm x 2440 mm (Material R0.7 / Total R3.0) | Sheet |
+| Foilboard Green 40mm (Super 40) | 40 mm x 1200 mm x 2440 mm (Material R1.1 / Total R3.4) | Sheet |
+| Foilboard Green 50mm (Max 50) | 50 mm x 1200 mm x 2440 mm (Material R1.3 / Total R4.0) | Sheet |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

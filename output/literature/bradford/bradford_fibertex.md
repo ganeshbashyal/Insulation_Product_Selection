@@ -44,13 +44,14 @@ Bradford Fibertex is a range of robust, non-combustible rockwool (stone wool) in
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Not specified | unspecified | 50 | 1200 x 600 | 4 |
-| Not specified | unspecified | 75 | 1200 x 600 | 4 |
-| Not specified | unspecified | 25 | 1200 x 600 | 3 |
-| Not specified | unspecified | 30 | 1200 x 600 | 1 |
-| Not specified | unspecified | 100 | 1200 x 600 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Fibertex 350 (60 kg/m3) | 1200 mm x 600 mm x 25-100 mm (up to 350°C) | Pack of boards |
+| Fibertex 450 (80 kg/m3) | 1200 mm x 600 mm x 25-100 mm (up to 450°C) | Pack of boards |
+| Fibertex 650 (100 kg/m3) | 1200 mm x 600 mm x 25-100 mm (up to 650°C) | Pack of boards |
+| Fibertex 820 (120-130 kg/m3) | 1200 mm x 600 mm x 25-100 mm (up to 820°C) | Pack of boards |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

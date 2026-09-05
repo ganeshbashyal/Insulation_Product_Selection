@@ -41,9 +41,12 @@ Foilboard Spacer Blocks are pre-cut expanded polystyrene (EPS) blocks designed t
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.0 | thermal_r_value | Varies | Varies | 2 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Foilboard Spacer Blocks 20mm | 20 mm thickness (creates 20mm airspace) | Bag / Box |
+| Foilboard Spacer Blocks 25mm | 25 mm thickness (creates 25mm airspace) | Bag / Box |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

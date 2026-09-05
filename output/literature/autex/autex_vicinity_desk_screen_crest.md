@@ -40,9 +40,11 @@ Autex Vicinity Desk Screen - Crest is an elegant, lightweight acoustic desk divi
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Rw 35 | acoustic_rw | Varies | 1160 (width varies) | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Vicinity Crest 1600 | 1190 mm W x 600 mm H x 12 mm (suits 1600mm desk) | Pack of 4 screens (2 pieces per screen) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

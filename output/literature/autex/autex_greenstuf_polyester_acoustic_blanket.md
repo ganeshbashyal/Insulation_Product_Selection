@@ -47,15 +47,13 @@ infill
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.5 | thermal_r_value | 50 | 15000 (width varies) | 4 |
-| R1.5 | thermal_r_value | 75 | 15000 (width varies) | 3 |
-| Rw 40 | acoustic_rw | 50 | 6000 (width varies) | 2 |
-| R1.5 | thermal_r_value | 100 | 12000 (width varies) | 2 |
-| R1.5 | thermal_r_value | 25 | 15000 (width varies) | 2 |
-| NRC 0.66 | acoustic_nrc | 25 | 6000 (width varies) | 1 |
-| R1.5 | thermal_r_value | 90 | 12000 (width varies) | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| GreenStuf AAB 20kg/m3 | 25mm, 50mm, 75mm, 100mm x 1200mm x 2400mm (Black / White) | Pack of sheets |
+| GreenStuf AAB 32kg/m3 | 25mm, 50mm, 75mm, 100mm x 1200mm x 2400mm (Black / White) | Pack of sheets |
+| GreenStuf AAB 48kg/m3 | 25mm, 50mm, 75mm, 100mm x 1200mm x 2400mm (Black / White) | Pack of sheets |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

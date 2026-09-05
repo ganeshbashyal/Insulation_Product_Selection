@@ -42,10 +42,16 @@ Proctor Drainage / Ventilation represents an engineered suite of passive roof an
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R0.1 | thermal_r_value | Varies | 20000 x 2400 | 2 |
-| R0.1 | thermal_r_value | Varies | 75000 x 1020 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| ProctorPassive Drainage Batten DB-FR | 10.5 mm x 40 mm x 2500 mm (folded to 1.25m, 40 per pack, 100lm) | Pack of 40 (100 lm) |
+| ProctorVent Vented Batten VB10 | 10 mm thickness x 1000 mm length | Pack |
+| ProctorVent Vented Batten VB20 | 20 mm thickness x 1000 mm length (16,000 mm²/m airflow) | Pack |
+| ProctorVent Over Fascia Vent FV10 | 10,000 mm²/m airflow capacity | Unit |
+| ProctorVent Over Fascia Vent FV25 | 25,000 mm²/m airflow capacity | Unit |
+| ProctorVent Ridge Vent RV10 | 10,000 mm²/m airflow capacity | Unit |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

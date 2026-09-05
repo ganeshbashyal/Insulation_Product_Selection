@@ -43,9 +43,15 @@ Bradford Supertel Faced - Heavy Duty Foil is a high-density (32kg/m3) glasswool 
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R2.2 | thermal_r_value | 75 | 6000 (width varies) | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Supertel Faced HD Foil 25mm | 25 mm x 1200/1500 mm x 15 m (R0.8) or 2400x1200 mm board | Roll / Pack |
+| Supertel Faced HD Foil 40mm | 40 mm x 1500 mm x 10 m (R1.2) or 2400x1200 mm board | Roll / Pack |
+| Supertel Faced HD Foil 50mm | 50 mm x 1200/1500 mm x 10 m (R1.5) or 2400x1200 mm board | Roll / Pack |
+| Supertel Faced HD Foil 75mm | 75 mm x 1200/1500 mm x 5 m (R2.2) or 2400x1200 mm board | Roll / Pack |
+| Supertel Faced HD Foil 100mm | 100 mm x 1380/1500 mm x 5 m (R3.0) or 2400x1200 mm board | Roll / Pack |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

@@ -42,16 +42,15 @@ Kingspan Kooltherm K12 Framing Board is an ultra-thin, fiber-free rigid thermose
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R2.25 | thermal_r_value | 25 | 2400 x 1200 | 1 |
-| R1.80 | thermal_r_value | 30 | 2400 x 1200 | 1 |
-| R1.35 | thermal_r_value | 40 | 2400 x 1200 | 1 |
-| R1.10 | thermal_r_value | 50 | 2400 x 1200 | 1 |
-| R2.30 | thermal_r_value | 60 | 2400 x 1200 | 1 |
-| R2.30 | thermal_r_value | 70 | 2400 x 1200 | 1 |
-| R3.60 | thermal_r_value | 90 | 2400 x 1200 | 1 |
-| R3.60 | thermal_r_value | 100 | 2400 x 1200 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Kooltherm K12 Framing Board 25mm | 25 mm x 1200 mm x 2400 mm (R1.1) | Board |
+| Kooltherm K12 Framing Board 40mm | 40 mm x 1200 mm x 2400 mm (R1.75) | Board |
+| Kooltherm K12 Framing Board 50mm | 50 mm x 1200 mm x 2400 mm (R2.15) | Board |
+| Kooltherm K12 Framing Board 70mm | 70 mm x 1200 mm x 2400 mm (R3.0) | Board |
+| Kooltherm K12 Framing Board 80mm | 80 mm x 1200 mm x 2400 mm (R3.45) | Board |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

@@ -44,10 +44,13 @@ Polyair Reflective is an Australian-manufactured thermo-reflective insulation ra
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.0 | thermal_r_value | 8 | 22250 x 1350 | 1 |
-| R1.0 | thermal_r_value | 4 | 40000 x 1350 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Polyair Performa 4.0 | 4.0 mm x 1350 mm x 22.25 m (30 m²) | Roll |
+| Polyair Performa 7.0 / 8.0 | 7.0-8.0 mm x 1350 mm x 22.25 m (30 m²) | Roll |
+| Polyair Shed | 1350 mm x 22.25 m (30 m²) | Roll |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

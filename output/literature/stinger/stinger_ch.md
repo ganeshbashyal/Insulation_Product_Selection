@@ -40,9 +40,12 @@ The STINGER CH38-2 is an award-winning, non-pneumatic cap hammer tacker engineer
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R0.5 | thermal_r_value | Varies | Varies | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| STINGER CH38-2 Cap Hammer | Tool Weight 1.17 kg (SKU: 136400) | Tool |
+| STINGER CH38A Autofeed Cap Hammer | Tool Weight 1.31 kg (SKU: 136401) | Tool |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

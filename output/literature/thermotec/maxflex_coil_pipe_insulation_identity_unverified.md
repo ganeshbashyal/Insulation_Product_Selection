@@ -28,8 +28,43 @@ Maxflex Coil Pipe Insulation (identity unverified) is a pipe product family from
 4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
 5. Record the suburb/postcode so climate-zone requirements can be checked.
 
+## Manufacturer range
+
+| Wall | Pipe IDs | Pipe types | Carton (lineal m) |
+| --- | --- | --- | --- |
+| 9 mm | 6/10/13/16/19 mm | AC copper / PEX | 160-200 m (80-100 pcs) |
+| 9 mm | 22/25/28/35 mm | Domestic hot & cold | 80-120 m (40-60 pcs) |
+| 13 mm | 10/13/16/19/22 mm | Refrigeration liquid/suction | 96-140 m (48-70 pcs) |
+| 13 mm | 25/32/38/50 mm | Chilled/hot water mains | 40-70 m (20-35 pcs) |
+| 19 mm | 13/19/25/32 mm | VRV/VRF suction | 36-64 m (18-32 pcs) |
+| 19 mm | 38/50/65/75/100 mm | Commercial HVAC chilled water | 12-28 m (6-14 pcs) |
+| 25 mm | 19/25/32/38/50 mm | Heavy condensation control | 16-32 m (8-16 pcs) |
+
+_Manufacturer size/packaging breakdown._
+
+**Internal catalogue range**
+
+| SKU | Product | Published rating |
+| --- | --- | --- |
+| Maxflex Coil 13mm Wall * 13mm (32m) | Maxflex Coil 13mm Wall * 13mm (32m) | R1.2, R2.5 |
+| Maxflex Coil 13mm Wall * 19mm (25m) | Maxflex Coil 13mm Wall * 19mm (25m) | R1.2, R2.5 |
+
 
 ## Current catalogue range
+
+| Wall | Pipe IDs | Pipe types | Carton (lineal m) |
+| --- | --- | --- | --- |
+| 9 mm | 6/10/13/16/19 mm | AC copper / PEX | 160-200 m (80-100 pcs) |
+| 9 mm | 22/25/28/35 mm | Domestic hot & cold | 80-120 m (40-60 pcs) |
+| 13 mm | 10/13/16/19/22 mm | Refrigeration liquid/suction | 96-140 m (48-70 pcs) |
+| 13 mm | 25/32/38/50 mm | Chilled/hot water mains | 40-70 m (20-35 pcs) |
+| 19 mm | 13/19/25/32 mm | VRV/VRF suction | 36-64 m (18-32 pcs) |
+| 19 mm | 38/50/65/75/100 mm | Commercial HVAC chilled water | 12-28 m (6-14 pcs) |
+| 25 mm | 19/25/32/38/50 mm | Heavy condensation control | 16-32 m (8-16 pcs) |
+
+_Manufacturer size/packaging breakdown._
+
+**Internal catalogue range**
 
 | SKU | Product | Published rating |
 | --- | --- | --- |

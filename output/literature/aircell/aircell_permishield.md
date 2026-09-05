@@ -49,10 +49,11 @@ Kingspan AIR-CELL Permishield XV 70 is an Australian-made, fibre-free, closed-ce
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Not specified | unspecified | 70 | 22250 x 1350 | 1 |
-| Not specified | unspecified | 90 | 22250 x 1350 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| AIR-CELL Permishield XV 70 | 1350 mm x 22.25 m x 7.2 mm (30 m²) | Roll |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

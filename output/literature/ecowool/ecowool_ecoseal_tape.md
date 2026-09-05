@@ -39,9 +39,11 @@ EcoSeal 201 Cloth Tape is a heavy-duty, high-tack polyethylene-coated cloth tape
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R2.0 | thermal_r_value | 48 | 50000 x 48 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| EcoSeal 201 Cloth Tape 48mm x 50m | 48 mm x 50 m | Roll |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

@@ -41,9 +41,12 @@ TensorGrip H-Series comprises high-performance industrial spray adhesives engine
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Not specified | unspecified | Varies | Varies | 3 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| TensorGrip H-Series 500ml Aerosol | 500 ml aerosol can | Can |
+| TensorGrip H-Series 22L Canister | 22 Litre canister (17 kg) | Canister |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

@@ -41,11 +41,12 @@ Autex Composition Velour Panel is an acoustic wall panel featuring a plush fine-
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| NRC 0.60 | acoustic_nrc | 16 | 2440 x 1220 | 1 |
-| NRC 0.60 | acoustic_nrc | 16 | 2740 x 1220 | 1 |
-| NRC 0.60 | acoustic_nrc | 16 | 1200 x 1220 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Composition Peel 'n' Stick Tile (Velour) | 600 mm x 600 mm x 10-12 mm (Pack of 6, 2.16 m²) | Box of 6 |
+| Composition Velour Panel | 1200 mm x 2400 mm x 10-12 mm, NRC 0.40 | Panel |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

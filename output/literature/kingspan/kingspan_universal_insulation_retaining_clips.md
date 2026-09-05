@@ -38,9 +38,11 @@ Kingspan Universal Insulation Retaining Clips (Insu-loc discs) are 80mm diameter
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.3 | thermal_r_value | Varies | 1200 (width varies) | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Kingspan Universal Insulation Retaining Clips 80mm | 80 mm diameter | Pack of 250 pieces |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

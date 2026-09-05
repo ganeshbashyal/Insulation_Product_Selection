@@ -39,9 +39,11 @@ wall
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Not specified | unspecified | 100 | 1200 x 168 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Fireseal Party Wall Batts 100x1200x168mm | 100 mm x 1200 mm x 168 mm | Pack of 5 batts (6 lineal metres, Code: 119161) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

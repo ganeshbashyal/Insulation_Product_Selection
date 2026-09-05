@@ -43,50 +43,15 @@ Kingspan Kooltherm K10 G2 Soffit Board is a premium performance, fiber-free rigi
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.75 | thermal_r_value | 40 | 2400 x 1200 | 3 |
-| R1.10 | thermal_r_value | 25 | 2400 x 1200 | 2 |
-| R2.30 | thermal_r_value | 50 | 2400 x 1200 | 2 |
-| R2.30 | thermal_r_value | 70 | 2400 x 1200 | 2 |
-| R3.60 | thermal_r_value | 80 | 2400 x 1200 | 2 |
-| R1.30 | thermal_r_value | 30 | 2400 x 1200 | 1 |
-| R1.30 | thermal_r_value | 30 | 2700 x 1200 | 1 |
-| R1.75 | thermal_r_value | 40 | 2700 x 1200 | 1 |
-| R1.75 | thermal_r_value | 40 | 3000 x 1200 | 1 |
-| R2.30 | thermal_r_value | 70 | 3000 x 1200 | 1 |
-| R2.75 | thermal_r_value | 25 | 2400 x 1200 | 1 |
-| R2.25 | thermal_r_value | 30 | 2400 x 1200 | 1 |
-| R1.80 | thermal_r_value | 40 | 2400 x 1200 | 1 |
-| R1.10 | thermal_r_value | 45 | 2400 x 1200 | 1 |
-| R1.35 | thermal_r_value | 50 | 2400 x 1200 | 1 |
-| R1.10 | thermal_r_value | 60 | 2400 x 1200 | 1 |
-| R4.55 | thermal_r_value | 70 | 2400 x 1200 | 1 |
-| R4.10 | thermal_r_value | 80 | 2400 x 1200 | 1 |
-| R3.65 | thermal_r_value | 90 | 2400 x 1200 | 1 |
-| R3.20 | thermal_r_value | 100 | 2400 x 1200 | 1 |
-| R3.65 | thermal_r_value | 30 | 2400 x 1200 | 1 |
-| R2.30 | thermal_r_value | 45 | 2400 x 1200 | 1 |
-| R2.30 | thermal_r_value | 60 | 2400 x 1200 | 1 |
-| R3.60 | thermal_r_value | 90 | 2400 x 1200 | 1 |
-| R3.60 | thermal_r_value | 100 | 2400 x 1200 | 1 |
-| R1.1 | thermal_r_value | 25 | 2400 x 1200 | 1 |
-| R1.4 | thermal_r_value | 30 | 2400 x 1200 | 1 |
-| R2.3 | thermal_r_value | 50 | 2400 x 1200 | 1 |
-| R2.75 | thermal_r_value | 60 | 2400 x 1200 | 1 |
-| R3.25 | thermal_r_value | 70 | 2400 x 1200 | 1 |
-| R3.7 | thermal_r_value | 80 | 2400 x 1200 | 1 |
-| R4.15 | thermal_r_value | 90 | 2400 x 1200 | 1 |
-| R4.62 | thermal_r_value | 100 | 2400 x 1200 | 1 |
-| R1.10 | thermal_r_value | 25 | 1200 (width varies) | 1 |
-| R1.30 | thermal_r_value | 30 | 1200 (width varies) | 1 |
-| R1.75 | thermal_r_value | 40 | 1200 (width varies) | 1 |
-| R2.30 | thermal_r_value | 50 | 1200 (width varies) | 1 |
-| R2.30 | thermal_r_value | 60 | 1200 (width varies) | 1 |
-| R2.30 | thermal_r_value | 70 | 1200 (width varies) | 1 |
-| R3.60 | thermal_r_value | 80 | 1200 (width varies) | 1 |
-| R3.60 | thermal_r_value | 90 | 1200 (width varies) | 1 |
-| R3.60 | thermal_r_value | 100 | 1200 (width varies) | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Kooltherm K10 G2 (Silver) 25mm | 25 mm x 1200 mm x 2440 mm (R1.2) | Board |
+| Kooltherm K10 G2 (Silver) 50mm | 50 mm x 1200 mm x 2400 mm (R2.4) | Board |
+| Kooltherm K10 G2 (Silver) 80mm | 80 mm x 1200 mm x 2400 mm (R3.8) | Board |
+| Kooltherm K10 G2W (White) 50mm | 50 mm x 1200 mm x 2400 mm (R2.4) | Board |
+| Kooltherm K10 Plus (Fibre Cement) 50mm | 50 mm x 1200 mm x 2400 mm (Group 1) | Board |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

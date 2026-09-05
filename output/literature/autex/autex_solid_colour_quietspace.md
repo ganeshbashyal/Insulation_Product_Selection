@@ -42,11 +42,14 @@ Autex Solid Colour Quietspace is a high-performance broadband acoustic panel eng
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| NRC 0.60 | acoustic_nrc | 25 | 2400 x 1200 | 1 |
-| NRC 0.60 | acoustic_nrc | 25 | 2700 x 1200 | 1 |
-| NRC 0.60 | acoustic_nrc | 25 | 3000 x 1200 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Solid Colour Quietspace Panel 25mm | 1200 mm x 2400 mm x 25 mm, NRC 0.85 | Panel |
+| Solid Colour Quietspace Panel 50mm | 1200 mm x 2400 mm x 50 mm, NRC 1.00 | Panel |
+| Solid Colour Quietspace Panel 75mm | 1200 mm x 2400 mm x 75 mm, NRC 1.00 | Panel |
+| Solid Colour Quietspace Panel 100mm | 1200 mm x 2400 mm x 100 mm, NRC 1.00 | Panel |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

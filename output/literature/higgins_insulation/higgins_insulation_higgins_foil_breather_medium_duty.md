@@ -39,9 +39,11 @@ Foil Wall Wrap Breather is a medium-duty, five-layer reflective foil wall insula
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.5 | thermal_r_value | 1350 | 60000 x 1350 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Sarking Wall Insulation Breather Foil Medium Duty 81m2 | 1350 mm x 60 m (81 m²) | Roll |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

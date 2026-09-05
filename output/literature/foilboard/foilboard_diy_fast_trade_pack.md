@@ -43,9 +43,13 @@ Foilboard DIY / Fast Trade Pack (Foilboard Handypack) is a convenient, compact-f
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R0.30 | thermal_r_value | 10 | 1200 (width varies) | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Foilboard Handypack 15mm | 15 mm x 600 mm x 1200 mm | Pack of 10 sheets (7.2 m²) |
+| Foilboard Handypack 20mm | 20 mm x 600 mm x 1200 mm | Pack of 8 sheets (5.76 m²) |
+| Foilboard Handypack 25mm | 25 mm x 600 mm x 1200 mm | Pack of 6 sheets (4.32 m²) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

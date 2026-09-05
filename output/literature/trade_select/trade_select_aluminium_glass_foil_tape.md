@@ -34,9 +34,14 @@ Quality insulation engineered for Australian conditions. Reflects up to 97% of r
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.5 | thermal_r_value | Varies | 50000 x 100 | 2 |
+| Width | Length | Area/roll | Thickness | Box qty | Pallet |
+| --- | --- | --- | --- | --- | --- |
+| 48 mm | 45 m | 2.16 m2 | 130 microns | 24 rolls | 1152 rolls |
+| 72 mm | 45 m | 3.24 m2 | 130 microns | 16 rolls | 768 rolls |
+| 96/100 mm | 45 m | 4.50 m2 | 130 microns | 12 rolls | 576 rolls |
+| 72 mm Heavy Duty | 50 m | 3.60 m2 | 155 microns | 16 rolls | 768 rolls |
+
+_Manufacturer size/packaging breakdown._
 
 ## Technical data
 

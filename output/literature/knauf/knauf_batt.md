@@ -44,55 +44,18 @@ Earthwool Wall and Ceiling Batts are high-performance glass mineral wool insulat
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.5 | thermal_r_value | 75 | 1160 x 430 | 1 |
-| R1.5 | thermal_r_value | 75 | 1160 x 580 | 1 |
-| R2.0 | thermal_r_value | 90 | 1160 x 430 | 1 |
-| R2.0 | thermal_r_value | 90 | 1160 x 580 | 1 |
-| R2.5 | thermal_r_value | 125 | 1160 x 430 | 1 |
-| R2.5 | thermal_r_value | 125 | 1160 x 580 | 1 |
-| R3.0 | thermal_r_value | 145 | 1160 x 430 | 1 |
-| R3.0 | thermal_r_value | 145 | 1160 x 580 | 1 |
-| R3.5 | thermal_r_value | 175 | 1160 x 430 | 1 |
-| R3.5 | thermal_r_value | 175 | 1160 x 580 | 1 |
-| R4.0 | thermal_r_value | 195 | 1160 x 430 | 1 |
-| R4.0 | thermal_r_value | 195 | 1160 x 580 | 1 |
-| R5.0 | thermal_r_value | 210 | 1160 x 430 | 1 |
-| R5.0 | thermal_r_value | 210 | 1160 x 580 | 1 |
-| R6.0 | thermal_r_value | 275 | 1160 x 430 | 1 |
-| R6.0 | thermal_r_value | 275 | 1160 x 580 | 1 |
-| R7.0 | thermal_r_value | 330 | 1160 x 460 | 1 |
-| R7.0 | thermal_r_value | 330 | 1160 x 620 | 1 |
-| R8.0 | thermal_r_value | 350 | 1160 x 460 | 1 |
-| R8.0 | thermal_r_value | 350 | 1160 x 620 | 1 |
-| R2.0 | thermal_r_value | 75 | 1160 x 430 | 1 |
-| R2.0 | thermal_r_value | 75 | 1160 x 580 | 1 |
-| R2.5 | thermal_r_value | 90 | 1160 x 430 | 1 |
-| R2.5 | thermal_r_value | 90 | 1160 x 580 | 1 |
-| R2.7 | thermal_r_value | 90 | 1160 x 430 | 1 |
-| R2.7 | thermal_r_value | 90 | 1160 x 580 | 1 |
-| R4.0 | thermal_r_value | 140 | 1160 x 430 | 1 |
-| R4.0 | thermal_r_value | 140 | 1160 x 580 | 1 |
-| R1.2 | thermal_r_value | 50 | 2700 x 450 | 1 |
-| R1.2 | thermal_r_value | 50 | 2700 x 600 | 1 |
-| R1.8 | thermal_r_value | 75 | 2700 x 450 | 1 |
-| R1.8 | thermal_r_value | 75 | 2700 x 600 | 1 |
-| R2.2 | thermal_r_value | 90 | 11600 x 600 | 1 |
-| R2.5 | thermal_r_value | 110 | 1160 x 600 | 1 |
-| R1.3 | thermal_r_value | 50 | 1160 x 430 | 1 |
-| R1.3 | thermal_r_value | 50 | 1160 x 600 | 1 |
-| R1.9 | thermal_r_value | 75 | 1160 x 430 | 1 |
-| R1.9 | thermal_r_value | 75 | 1160 x 600 | 1 |
-| R2.2 | thermal_r_value | 90 | 9100 x 600 | 1 |
-| Not specified | unspecified | 25 | 18900 x 600 | 1 |
-| Rw 45 | acoustic_rw | 75 | 6200 x 600 | 1 |
-| Rw 45 | acoustic_rw | 90 | 5300 x 600 | 1 |
-| Rw 40 | acoustic_rw | 50 | 7200 x 600 | 1 |
-| Rw 45 | acoustic_rw | 75 | 4800 x 600 | 1 |
-| Rw 45 | acoustic_rw | 90 | 4000 x 450 | 1 |
-| Rw 45 | acoustic_rw | 90 | 4000 x 600 | 1 |
-| Rw 50 | acoustic_rw | 100 | 3600 x 600 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Earthwool Wall Batts R2.0 (90mm) | 90 mm x 1160 mm x 430/580 mm | Pack of batts |
+| Earthwool Wall Batts R2.5 (90mm) | 90 mm x 1160 mm x 430/580 mm | Pack of batts |
+| Earthwool Wall Batts R2.7 (90mm) | 90 mm x 1160 mm x 430/580 mm | Pack of batts |
+| Earthwool Ceiling Batts R3.5 | 175 mm x 1160 mm x 430/580 mm | Pack of batts |
+| Earthwool Ceiling Batts R4.0 | 195 mm x 1160 mm x 430/580 mm | Pack of batts |
+| Earthwool Ceiling Batts R5.0 | 210 mm x 1160 mm x 430/580 mm | Pack of batts |
+| Earthwool Ceiling Batts R6.0 | 250 mm x 1160 mm x 430/580 mm | Pack of batts |
+| Earthwool Ceiling Batts R7.0 | 290 mm x 1160 mm x 430/580 mm | Pack of batts |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

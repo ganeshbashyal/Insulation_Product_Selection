@@ -45,9 +45,11 @@ Autex Grid Ceiling Tiles - Linear/Hatch/Angle/Louvre - Square - Capped is a modu
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Rw 35 | acoustic_rw | Varies | 595 x 595 | 2 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Grid Ceiling Tiles - Linear/Hatch/Angle/Louvre Square Capped | 595mm x 595mm (Square 600x600 grid) | Pack of tiles (typically 8 tiles per pack) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

@@ -43,9 +43,15 @@ Foilboard Accessories comprise specialized installation hardware and sealing com
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.0 | thermal_r_value | Varies | Varies | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Foilboard Reinforced Foil Tape 72mm | 72 mm x 50 m | Roll |
+| Foilboard Reinforced Foil Tape 48mm | 48 mm x 50 m | Roll |
+| Foilboard Flexifast Fasteners | 45mm, 70mm, 95mm | Box of 250 |
+| Foilboard Floor Saddles | 100mm / 130mm drop | Box of 100 / 250 |
+| Foilboard Blank Plates | 40 mm x 40 mm | Box of 250 |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

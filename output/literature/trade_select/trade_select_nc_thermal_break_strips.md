@@ -1,7 +1,7 @@
 ---
 title: "Trade Select NC Thermal Break Strips - Reflective Insulation | Trade Select"
-description: "Trade Select Non-combustible ThermalBreak Strip (by Ametalin) is a high-performance thermal break solution engineered for commercial and residential s"
-keywords: "Trade Select NC Thermal Break Strips, Trade Select reflective, thermal insulation, wall insulation, roof insulation, insulation Australia, Trade Select Australia"
+description: "Quality insulation engineered for Australian conditions. Reflects up to 97% of radiant heat, dramatically reducing summer cooling costs while providin"
+keywords: "Trade Select NC Thermal Break Strips, Trade Select reflective, thermal insulation, insulation Australia, Trade Select Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: TRADE_SELECT_NC_THERMAL_BREAK_STRIPS
 ---
@@ -10,86 +10,70 @@ family_id: TRADE_SELECT_NC_THERMAL_BREAK_STRIPS
 
 **Trade Select Reflective** — reflective foil insulation for radiant heat control.
 
-Trade Select Non-combustible ThermalBreak Strip (by Ametalin) is a high-performance thermal break solution engineered for commercial and residential steel-framed wall and roof constructions. Tested to AS 1530.1 and classified as Not Deemed Combustible, it complies with NCC Volume One C1.9 / C2D10 and Volume Two Part 3.7.1 / H3D2 for all non-combustible building constructions. Built with a dense, chemically stable, compression-resistant core, it isolates steel framing from exterior claddings and roofing to eliminate thermal bridging without compromising fire compliance.
+Quality insulation engineered for Australian conditions. Reflects up to 97% of radiant heat, dramatically reducing summer cooling costs while providing an effective vapour barrier.
 
 ## Key features
 
-- Classified as Not Deemed Combustible when tested in accordance with AS 1530.1.
-- Delivers in-situ R0.24 thermal break, exceeding the NCC R0.20 requirement for steel framing.
-- Engineered for commercial and multi-residential Type A, B, and C non-combustible steel-frame buildings.
-- Highly compression-resistant, providing a solid, stable base for cladding screws.
-- Easily cuts to length on site using a utility knife or shears.
-- Termite, mould, and mildew resistant.
-- Non-irritant and odorless with low VOC emissions.
-- Suitable for all Bushfire Attack Levels (BAL Low to BAL-FZ) under AS 3959.
+- High-purity aluminium reflective facing.
+- reflects up to 97% of radiant heat.
+- lightweight and easy to install.
+- provides vapour barrier when properly sealed.
 
 ## Applications and selection
 
-- wall
-- external wall
-- roof
-- roofline
+- Thermal Break
 
 **Selection checklist**
 
-1. Confirm project requires AS 1530.1 non-combustible thermal break for commercial or multi-residential steel framing.
-2. Measure total linear meterage of steel framing faces needing thermal break.
-3. Confirm width (45mm) matches stud flange width.
-4. Select plain version (without adhesive backing) for clamp/friction applications.
+1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
+2. Confirm the target rating and construction build-up with the project team.
+3. Confirm available cavity or fixing depth against the product dimensions.
+4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
+5. Record the suburb/postcode so climate-zone requirements can be checked.
 
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.5 | thermal_r_value | Varies | 1200 x 45 | 1 |
+| Thickness | Width | Length/strip | Pack | Pack lineal m | Pallet |
+| --- | --- | --- | --- | --- | --- |
+| 10 mm (R0.24) | 42 mm | 1200 mm | 50 strips | 60.0 lm | 40 packs (2400 lm) |
+| 10 mm (R0.24) | 45 mm | 1200 mm | 50 strips | 60.0 lm | 40 packs (2400 lm) |
+| 10 mm (R0.24) | 50 mm | 1200 mm | 50 strips | 60.0 lm | 36 packs (2160 lm) |
+| 10 mm (R0.24) | 75 mm | 1200 mm | 30 strips | 36.0 lm | 32 packs (1152 lm) |
+
+_Manufacturer size/packaging breakdown._
 
 ## Technical data
 
-| Property | Value | Standard |
+| Property | Value | Source |
 | --- | --- | --- |
-| Material | Non-combustible, chemically stable compression-resistant core | - |
-| Thermal Break (In-Situ) | R0.24 (exceeds NCC R0.20 mandate) | AS/NZS 4859.1 |
-| Thickness | 10 mm | - |
-| Width | 45 mm | - |
-| Length | 1200 mm | - |
-| Combustibility | Not Deemed Combustible | AS 1530.1 |
-| Pack Coverage | Pack of 50 strips (60 lineal metres) | - |
-| Compressive Resistance | High compressive strength under cladding fastener loads | - |
+| Product type | Reflective | Manufacturer catalogue |
+| Material | Reflective Membrane | Manufacturer catalogue |
+| Applications | Thermal Break | Manufacturer catalogue |
+| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
 
-Extracted from manufacturer datasheet: https://tradeselect.co/wp-content/uploads/
+
 
 ## Fire, testing and compliance context
 
-Tested to AS 1530.1 and classified as Not Deemed Combustible; Suitable for BAL-12.5 to BAL-FZ in accordance with AS 3959
-
-NCC 2019 / NCC 2022 Volume One (C1.9, C2D10, J4D3) and Volume Two (Part 3.7.1, H3D2, 13.2.2); AS 1530.1; AS/NZS 4859.1
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://tradeselect.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://proctorgroup.com.au/wp-content/uploads/2021/02/DCT_PIR_Silver_White_Tissue_Ver_2_2020-2.pdf.
 
-## Recommended accessories
-
-- Trade Select VapourTech wall wraps.
-- Cladding fasteners with extended length.
-
 
 ## Limitations and warnings
 
-- Non-structural spacer; cladding fasteners must penetrate into steel frame members.
-- Must be installed on the exterior face of steel framing before cladding.
-- Must not be left exposed to permanent UV weather without cladding.
+- Reflective performance requires maintained airspace..
+- conductive material - keep away from electrical services..
+- not suitable as sole insulation in cold climates..
+- confirm product selection matches specified thermal/acoustic/fire rating..
 
 ## Installation overview
 
-1. Ensure steel frame studs, noggings, or roof purlins are clean, dry, and free of oil.
-2. Apply wall wrap or roof sarking over the steel framing in accordance with AS/NZS 4200.2.
-3. Position Non-combustible ThermalBreak Strip continuously along the steel stud or purlin face over the wrap.
-4. Fasten cladding or battens directly through the thermal break strip into the steel framing.
-5. Ensure cladding screws compress the strip firmly without over-tightening to crush the core.
-6. Butt strip ends tightly together along the length of the steel member.
+Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Reflective performance requires maintained airspace.
 
 ## Safety and handling
 
@@ -97,11 +81,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Zero ODP; low VOC emissions; non-hazardous; fiber-free
+Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
 
 ## Warranty, returns and support
 
-15 Year Product Warranty backed by Ametalin
+No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
 
 ## Specification starting point
 

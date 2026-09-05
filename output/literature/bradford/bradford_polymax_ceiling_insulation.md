@@ -40,16 +40,14 @@ Bradford Polymax Ceiling Insulation is a premium thermal and acoustic polyester 
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R2.5 | thermal_r_value | 140 | 1160 x 430 | 1 |
-| R2.5 | thermal_r_value | 140 | 1160 x 580 | 1 |
-| R3.0 | thermal_r_value | 180 | 1160 x 430 | 1 |
-| R3.0 | thermal_r_value | 180 | 1160 x 580 | 1 |
-| R3.5 | thermal_r_value | 200 | 1160 x 430 | 1 |
-| R3.5 | thermal_r_value | 200 | 1160 x 580 | 1 |
-| R4.0 | thermal_r_value | 220 | 1160 x 430 | 1 |
-| R4.0 | thermal_r_value | 220 | 1160 x 580 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Polymax Ceiling Batts R2.5 | 140 mm x 430/580 mm x 1160 mm | Pack of 8 (4.0 m2 / 5.4 m2) |
+| Polymax Ceiling Batts R3.0 | 180 mm x 430/580 mm x 1160 mm | Pack of 8 (4.0 m2 / 5.4 m2) |
+| Polymax Ceiling Batts R3.5 | 200 mm x 430/580 mm x 1160 mm | Pack of 8 (4.0 m2 / 5.4 m2) |
+| Polymax Ceiling Batts R4.0 | 220 mm x 430/580 mm x 1160 mm | Pack of 6 (3.0 m2 / 4.0 m2) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

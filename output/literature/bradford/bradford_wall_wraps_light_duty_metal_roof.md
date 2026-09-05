@@ -42,9 +42,12 @@ Bradford Thermoseal Light Duty Metal Roof / Wall is a multi-layer reflective foi
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.5 | thermal_r_value | 40 | 30000 x 135040 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Thermoseal Light Duty Metal Roof/Wall 30m | 1350 mm x 30 m (40.5 m²) | Roll (Code: 105871) |
+| Thermoseal Light Duty Metal Roof/Wall 60m | 1350 mm x 60 m (81 m²) | Roll (Code: 15056) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

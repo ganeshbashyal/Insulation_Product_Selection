@@ -43,15 +43,15 @@ Bradford Anticon Roofing Blanket - Medium Duty Foil is the benchmark residential
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.3 | thermal_r_value | 60 | 15000 x 1200 | 1 |
-| R1.8 | thermal_r_value | 80 | 15000 x 1200 | 1 |
-| R2.3 | thermal_r_value | 100 | 10000 x 1200 | 1 |
-| R2.5 | thermal_r_value | 110 | 10000 x 1200 | 1 |
-| R3.0 | thermal_r_value | 130 | 10000 x 1200 | 1 |
-| R3.3 | thermal_r_value | 140 | 7500 x 1200 | 1 |
-| R3.6 | thermal_r_value | 145 | 7500 x 1200 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Anticon 60 Medium Duty (MD) | 60 mm x 1200 mm x 15-20 m, R1.3 | Roll |
+| Anticon 80 Medium Duty (MD) | 80 mm x 1200 mm x 15 m, R1.8 | Roll |
+| Anticon 100 Medium Duty (MD) | 100 mm x 1200 mm x 10 m, R2.3 | Roll |
+| Anticon 110 Medium Duty (MD) | 110 mm x 1200 mm x 10 m, R2.5 | Roll |
+| Anticon 130 Medium Duty (MD) | 130 mm x 1200 mm x 10 m, R3.0 | Roll |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

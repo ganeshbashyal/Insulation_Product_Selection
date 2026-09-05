@@ -45,9 +45,11 @@ Autex Quietspace Lattice - Torus is an architectural suspended acoustic baffle s
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| NRC 0.60 | acoustic_nrc | Varies | 1200 (width varies) | 2 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Quietspace Lattice Torus | 1450 mm x 1450 mm x 293 mm | Pack of 2 units |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

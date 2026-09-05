@@ -40,9 +40,12 @@ Autex Vicinity Desk Screen - Sol is an acoustic workstation divider characterize
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Rw 35 | acoustic_rw | Varies | 1160 (width varies) | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Vicinity Desk Screen Sol 12mm | 600 mm x 450-600 mm x 12 mm | Screen (single or boxed set) |
+| Vicinity Desk Screen Sol 24mm | 600 mm x 450-600 mm x 24 mm | Screen (single or boxed set) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

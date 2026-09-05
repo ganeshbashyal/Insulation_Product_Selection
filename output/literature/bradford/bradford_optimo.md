@@ -43,10 +43,14 @@ Bradford Optimo is a rigid, high-density glasswool insulation batt specifically 
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R2.5 | thermal_r_value | 90 | 1160 x 415 | 1 |
-| R2.5 | thermal_r_value | 90 | 1160 x 565 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Optimo Underfloor Batts R2.1 (415mm) | 75 mm x 1160 mm x 415 mm | Pack of 8 batts (3.85 m², Code: 122432) |
+| Optimo Underfloor Batts R2.1 (565mm) | 75 mm x 1160 mm x 565 mm | Pack of 8 batts (5.24 m², Code: 122433) |
+| Optimo Underfloor Batts R2.5 (415mm) | 90 mm x 1160 mm x 415 mm | Pack of 8 batts (3.85 m², Code: 114650) |
+| Optimo Underfloor Batts R2.5 (565mm) | 90 mm x 1160 mm x 565 mm | Pack of 8 batts (5.24 m², Code: 114692) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

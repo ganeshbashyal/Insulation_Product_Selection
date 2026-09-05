@@ -43,11 +43,15 @@ Proctor Accessories comprise high-performance sealing tapes and flashing compone
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R0.1 | thermal_r_value | Varies | 25000 x 60 | 1 |
-| R0.1 | thermal_r_value | Varies | 20000 x 50 | 1 |
-| R0.1 | thermal_r_value | Varies | Varies | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| ProctorWrap HighTack PLUS Tape | 60 mm x 25 m | Roll (Carton of 10) |
+| ProctorPassive DriFlash Tape | 75 mm / 150 mm x 25 m | Roll |
+| ProctorPassive YouByute Flexi Tape | 60 mm x 25 m (Stretchable butyl) | Roll |
+| ProctorPassive UV Tape | 60 mm x 25 m | Roll |
+| ProctorPassive Wraptite Tape | 50 mm / 75 mm / 100 mm x 50 m | Roll |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

@@ -44,9 +44,11 @@ Autex Quietspace Lattice - Eclipse is an architectural suspended acoustic ceilin
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| NRC 0.60 | acoustic_nrc | Varies | 1200 (width varies) | 2 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Lattice Eclipse | 1197 mm x 2346 mm x 337 mm | Kit (unassembled fins + 4 x 1m cables + mounts) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

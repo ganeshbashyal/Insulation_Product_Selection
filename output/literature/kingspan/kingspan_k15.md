@@ -39,10 +39,14 @@ Kingspan Kooltherm K15 Rainscreen Board is a premium performance, fiber-free rig
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.3 | thermal_r_value | 25 | 2400 x 1200 | 1 |
-| R1.80 | thermal_r_value | 50 | 2400 x 1200 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Kooltherm K15 Rainscreen Board 50mm | 50 mm x 1200 mm x 2400 mm (R2.35) | Pack of 5 boards |
+| Kooltherm K15 Rainscreen Board 75mm | 75 mm x 1200 mm x 2400 mm (R3.55) | Pack of 3 boards |
+| Kooltherm K15 Rainscreen Board 100mm | 100 mm x 1200 mm x 2400 mm (R4.75) | Pack of 2 boards |
+| Kooltherm K15 Rainscreen Board 120mm | 1200 mm x 2400 mm x 120 mm (R5.70) | Pack of 2 boards |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

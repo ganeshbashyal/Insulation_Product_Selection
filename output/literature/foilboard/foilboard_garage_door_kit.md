@@ -42,10 +42,12 @@ The Foilboard Garage Door Kit is an all-in-one DIY thermal insulation system eng
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.0 | thermal_r_value | Varies | 1200 (width varies) | 2 |
-| R0.55 | thermal_r_value | Varies | 1200 (width varies) | 2 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Foilboard Garage Door Kit - Single Door | Suits standard single sectional garage door (up to 4-5 panels) | Kit (Panels, tape, adhesive fasteners) |
+| Foilboard Garage Door Kit - Double Door | Suits standard double sectional garage door (up to 4-5 panels wide) | Kit (Panels, tape, adhesive fasteners) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

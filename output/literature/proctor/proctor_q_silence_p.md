@@ -40,9 +40,11 @@ Proctor Q-Silence P is an acoustic underlay and isolation membrane engineered fo
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R0.1 | thermal_r_value | Varies | 35000 x 1500 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Proctor Q-Silence P Acoustic Underlay | Acoustic roll underlay | Roll |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

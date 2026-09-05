@@ -42,14 +42,14 @@ Autex Surface Finishes Cube is a lightweight, semi-rigid acoustic panel featurin
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Rw 35 | acoustic_rw | 12 | 2400 x 1200 | 1 |
-| Rw 35 | acoustic_rw | 12 | 2700 x 1200 | 1 |
-| Rw 35 | acoustic_rw | 12 | 3000 x 1200 | 1 |
-| Rw 35 | acoustic_rw | 24 | 2400 x 1200 | 1 |
-| Rw 35 | acoustic_rw | 24 | 2700 x 1200 | 1 |
-| Rw 35 | acoustic_rw | 24 | 3000 x 1200 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Surface Finishes Cube 12mm (2440x1220) | 1220 mm x 2440 mm x 12 mm, NRC 0.45 | Panel |
+| Surface Finishes Cube 12mm (2740x1220) | 1220 mm x 2740 mm x 12 mm, NRC 0.45 | Panel |
+| Surface Finishes Cube 24mm (2440x1220) | 1220 mm x 2440 mm x 24 mm, NRC 0.70 | Panel |
+| Surface Finishes Cube 24mm (2740x1220) | 1220 mm x 2740 mm x 24 mm, NRC 0.70 | Panel |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

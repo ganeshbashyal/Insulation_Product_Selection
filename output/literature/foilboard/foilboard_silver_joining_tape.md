@@ -45,9 +45,12 @@ Foilboard Silver Joining Tape is a heavy-duty reinforced aluminum foil tape engi
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Not specified | unspecified | 50 | Varies | 2 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Foilboard Silver Joining Tape 72mm | 72 mm x 50 m | Roll (Carton of 16) |
+| Foilboard Silver Joining Tape 48mm | 48 mm x 50 m | Roll (Carton of 24) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

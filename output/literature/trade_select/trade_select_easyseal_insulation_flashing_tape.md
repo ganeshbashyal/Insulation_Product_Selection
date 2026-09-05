@@ -34,9 +34,16 @@ Quality insulation engineered for Australian conditions. Reflects up to 97% of r
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.5 | thermal_r_value | Varies | 25000 x 150 | 1 |
+| Width | Length | Area/roll | Thickness | Carton qty | Application |
+| --- | --- | --- | --- | --- | --- |
+| 50 mm | 20 m | 1.0 m2 | 1.0 mm | 12 rolls | Membrane overlaps & vertical joins |
+| 75 mm | 20 m | 1.5 m2 | 1.0 mm | 8 rolls | Window jambs & narrow flashing |
+| 100 mm | 20 m | 2.0 m2 | 1.0 mm | 6 rolls | Standard window reveals & duct collars |
+| 150 mm | 20 m | 3.0 m2 | 1.0 mm | 4 rolls | Full window sill pan flashing |
+| 200 mm | 20 m | 4.0 m2 | 1.0 mm | 2 rolls | Commercial deep window reveals |
+| 300 mm | 20 m | 6.0 m2 | 1.0 mm | 2 rolls | Parapet caps & slab-edge junctions |
+
+_Manufacturer size/packaging breakdown._
 
 ## Technical data
 

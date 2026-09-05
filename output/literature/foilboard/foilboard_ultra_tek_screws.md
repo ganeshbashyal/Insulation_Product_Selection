@@ -41,9 +41,13 @@ Foilboard Ultra Tek Screws are long, self-drilling steel fasteners fitted with o
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Not specified | unspecified | 40 | Varies | 2 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Foilboard Ultra Tek Screws 75mm | 75 mm length (suits 40mm boards on steel) | Box of 250 |
+| Foilboard Ultra Tek Screws 85mm | 85 mm length (suits 50mm boards on steel) | Box of 250 |
+| Foilboard Ultra Tek Screws 95mm | 95 mm length (suits 50mm+ boards on steel) | Box of 250 |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

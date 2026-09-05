@@ -44,26 +44,14 @@ wall
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Rw 45 | acoustic_rw | 75 | 13500 x 450 | 2 |
-| Rw 45 | acoustic_rw | 75 | 13500 x 600 | 2 |
-| Rw 45 | acoustic_rw | 75 | 6000 (width varies) | 2 |
-| Rw 50 | acoustic_rw | 110 | 8100 x 600 | 1 |
-| Rw 50 | acoustic_rw | 165 | 5400 x 600 | 1 |
-| Rw 40 | acoustic_rw | 50 | 16200 x 450 | 1 |
-| Rw 40 | acoustic_rw | 50 | 16200 x 600 | 1 |
-| Rw 45 | acoustic_rw | 90 | 10800 x 450 | 1 |
-| Rw 45 | acoustic_rw | 90 | 10800 x 600 | 1 |
-| Rw 50 | acoustic_rw | 100 | 10800 x 450 | 1 |
-| Rw 50 | acoustic_rw | 100 | 10800 x 600 | 1 |
-| NRC 0.65 | acoustic_nrc | 25 | 16200 x 450 | 1 |
-| NRC 0.65 | acoustic_nrc | 25 | 16200 x 600 | 1 |
-| Rw 45 | acoustic_rw | 75 | 8100 x 450 | 1 |
-| Rw 45 | acoustic_rw | 75 | 8100 x 600 | 1 |
-| Rw 45 | acoustic_rw | 90 | 5400 x 600 | 1 |
-| Rw 40 | acoustic_rw | 50 | 8100 x 600 | 1 |
-| Rw 45 | acoustic_rw | 90 | 6000 (width varies) | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Acoustigard 11kg/m3 (75mm R1.7) | 75mm x 450/600mm x 1200mm (Batts) or 13.5m (Rolls) | Pack |
+| Acoustigard 14kg/m3 (75mm R1.8) | 75mm x 450/600mm x 1200mm (Batts) or 13.5m (Rolls) | Pack |
+| Acoustigard 24kg/m3 (50mm R1.5) | 50mm x 450/600mm x 1200mm (Batts) or 10.0m (Rolls) | Pack |
+| Acoustigard 32kg/m3 (90mm R2.7) | 90mm x 450/600mm x 1200mm (Batts) or 5.4m (Rolls) | Pack |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

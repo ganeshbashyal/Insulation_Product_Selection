@@ -41,9 +41,12 @@ wall
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Rw 35 | acoustic_rw | Varies | 1160 (width varies) | 2 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Vicinity Den 1600 | To suit 1600 mm desks x 600 mm H x 12 mm | Pack of 4 screens (2 pieces per screen) |
+| Vicinity Den 1800 | To suit 1800 mm desks x 600 mm H x 12 mm | Pack of 4 screens (2 pieces per screen) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

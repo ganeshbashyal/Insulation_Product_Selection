@@ -40,9 +40,12 @@ Foilboard Floor Saddles are specialized galvanized steel support brackets engine
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.0 | thermal_r_value | Varies | Varies | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Foilboard Floor Saddles 10-25mm | 100 mm depth (suits 10mm to 25mm Foilboard) | Box of 100 / Box of 250 |
+| Foilboard Floor Saddles 20-50mm | 130 mm depth (suits 20mm to 50mm Foilboard) | Box of 100 / Box of 250 |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

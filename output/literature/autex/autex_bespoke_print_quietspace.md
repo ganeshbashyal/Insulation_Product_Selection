@@ -42,11 +42,12 @@ Autex Bespoke Print Quietspace is a premium, high-absorption acoustic panel engi
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| NRC 0.60 | acoustic_nrc | 25 | 2400 x 1200 | 1 |
-| NRC 0.60 | acoustic_nrc | 25 | 2700 x 1200 | 1 |
-| NRC 0.60 | acoustic_nrc | 25 | 3000 x 1200 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Bespoke Print Quietspace 25mm | 1200 mm x 2400 mm x 25 mm, NRC 0.85 | Panel |
+| Bespoke Print Quietspace 25mm Custom Length | 1200 mm x up to 3600 mm x 25 mm, NRC 0.85 | Panel |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

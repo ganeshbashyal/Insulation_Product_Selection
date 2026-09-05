@@ -42,9 +42,11 @@ The ProctorWrap PlastiGrip is a 45mm diameter polypropylene washer designed for 
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R0.1 | thermal_r_value | Varies | Varies | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| ProctorWrap PlastiGrip Washers | 45 mm diameter x 5 mm depth | Box / Pack |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

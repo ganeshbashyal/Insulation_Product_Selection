@@ -40,10 +40,13 @@ Bradford Enviroseal ProctorWrap Residential Wall (RW) is a Light Duty, Class 4 v
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.5 | thermal_r_value | 45 | 30000 x 150045 | 1 |
-| R1.5 | thermal_r_value | 40 | 30000 x 135040 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Enviroseal ProctorWrap RW (1.5m) | 1500 mm x 50 m (75 m²) | Roll (Code: 118153) |
+| Enviroseal ProctorWrap RW (2.75m) | 2750 mm x 25 m (68.75 m²) | Roll (Code: 138628) |
+| Enviroseal ProctorWrap RW-IT (Integrated Tape) | 1500 mm x 50 m (75 m²) | Roll (Code: 118154) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

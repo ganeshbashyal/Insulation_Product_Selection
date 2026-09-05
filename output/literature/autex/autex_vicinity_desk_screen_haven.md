@@ -40,9 +40,12 @@ Autex Vicinity Desk Screen - Haven is an expansive acoustic workstation screen s
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Rw 35 | acoustic_rw | Varies | 1160 (width varies) | 2 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Vicinity Haven 1600 | 2400 mm W x 600 mm H x 12 mm (suits 1600mm desk) | Pack of 4 screens (2 pieces per screen) |
+| Vicinity Haven 1800 | 2400 mm W x 600 mm H x 12 mm (suits 1800mm desk) | Pack of 4 screens (2 pieces per screen) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

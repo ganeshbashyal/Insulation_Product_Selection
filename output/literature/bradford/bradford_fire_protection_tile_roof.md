@@ -41,9 +41,13 @@ wall
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R2.0 | thermal_r_value | 2 | 4000 x 300 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Fireseal Party Wall Sealer for Tiled Roofs 50x300mm | 50 mm x 4000 mm x 300 mm (2 pieces, 8 lineal metres) | Pack of 2 rolls (Code: 123443) |
+| Fireseal Party Wall Sealer for Tiled Roofs 50x360mm | 50 mm x 4000 mm x 360 mm (2 pieces, 8 lineal metres) | Pack of 2 rolls (Code: 123445) |
+| Fireseal FZ Tile Roof Batts | 100 mm x 115 mm x 1200 mm | Pack of 8 pieces (9.6 lineal metres, Code: 125083) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

@@ -44,9 +44,12 @@ Foilboard Green Joining Tape is a heavy-duty reinforced aluminum foil tape engin
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Not specified | unspecified | 48 | Varies | 2 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Foilboard Green Joining Tape 72mm | 72 mm x 50 m | Roll (Carton of 16) |
+| Foilboard Green Joining Tape 48mm | 48 mm x 50 m | Roll (Carton of 24) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

@@ -43,11 +43,14 @@ wall
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| NRC 0.60 | acoustic_nrc | 25 | 2400 x 1200 | 1 |
-| NRC 0.60 | acoustic_nrc | 25 | 2700 x 1200 | 1 |
-| NRC 0.60 | acoustic_nrc | 25 | 3000 x 1200 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Surface Finishes Quietspace Panel 25mm | 1220 mm x 2440 mm x 25 mm, NRC 0.85 | Panel |
+| Surface Finishes Quietspace Panel 50mm | 1220 mm x 2440 mm x 50 mm, NRC 1.00 | Panel |
+| Surface Finishes Quietspace Panel 75mm | 1220 mm x 2440 mm x 75 mm, NRC 1.00 | Panel |
+| Surface Finishes Quietspace Panel 100mm | 1220 mm x 2440 mm x 100 mm, NRC 1.00 | Panel |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

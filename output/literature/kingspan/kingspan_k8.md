@@ -40,10 +40,13 @@ Kingspan Kooltherm K8 Cavity Board is a premium performance, fiber-free rigid th
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.3 | thermal_r_value | 25 | 1200 x 514 | 1 |
-| R1.3 | thermal_r_value | 40 | 1200 x 514 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Kooltherm K8 Cavity Board 25mm | 25 mm x 450 mm x 1200 mm (R1.1) | Pack of boards |
+| Kooltherm K8 Cavity Board 40mm | 40 mm x 450 mm x 1200 mm (R1.75) | Pack of boards |
+| Kooltherm K8 Cavity Board 50mm | 50 mm x 450 mm x 1200 mm (R2.15) | Pack of boards |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

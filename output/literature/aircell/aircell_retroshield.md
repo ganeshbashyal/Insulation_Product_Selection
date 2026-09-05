@@ -54,9 +54,11 @@ Kingspan AIR-CELL Retroshield is a fibre-free, high-performance thermo-reflectiv
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Not specified | unspecified | Varies | 22250 x 1350 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| AIR-CELL Retroshield | 1350 mm x 22.25 m x 7 mm (30 m²) | Roll (11 kg) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

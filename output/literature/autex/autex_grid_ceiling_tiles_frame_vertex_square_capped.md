@@ -44,9 +44,11 @@ Autex Grid Ceiling Tiles - Frame/Vertex - Square - Capped is a modular 595mm x 5
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Rw 35 | acoustic_rw | Varies | 595 x 595 | 2 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Grid Ceiling Tiles - Frame/Vertex Square Capped | 595mm x 595mm (Square 600x600 grid) | Pack of tiles (typically 12-15 tiles) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

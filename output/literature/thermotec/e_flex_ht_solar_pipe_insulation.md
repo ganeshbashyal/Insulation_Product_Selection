@@ -1,7 +1,7 @@
 ---
 title: "E-Flex HT Solar Pipe Insulation - High-temperature pipe Insulation | Thermotec"
-description: "Thermotec E-Flex HT is a high-performance, flexible closed-cell EPDM rubber foam pipe insulation specifically engineered for solar hot water, HVAC, an"
-keywords: "E-Flex HT Solar Pipe Insulation, Thermotec high-temperature pipe, wall insulation, roof insulation, pipe insulation, R-value insulation, insulation Australia, Thermotec Australia"
+description: "E-Flex HT Solar Pipe Insulation is a high-temperature pipe insulation product family from Thermotec. View the catalogue range, applications and specif"
+keywords: "E-Flex HT Solar Pipe Insulation, Thermotec high-temperature pipe, pipe insulation, R-value insulation, insulation Australia, Thermotec Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: THERMOTEC_E_FLEX_HT
 ---
@@ -10,45 +10,48 @@ family_id: THERMOTEC_E_FLEX_HT
 
 **Thermotec High-temperature pipe** — high-temperature pipe insulation product.
 
-Thermotec E-Flex HT is a high-performance, flexible closed-cell EPDM rubber foam pipe insulation specifically engineered for solar hot water, HVAC, and high-temperature plumbing systems. Designed with outstanding UV resistance, it withstands outdoor weathering and sun exposure for many years without cracking, embrittlement, or deterioration. It operates at continuous temperatures from -57°C up to +150°C (with intermittent peak exposure up to 175°C - 180°C), preventing thermal energy loss and solar line overheating.
+E-Flex HT Solar Pipe Insulation is a high-temperature pipe product family from Thermotec. Confirm the current published specification against the manufacturer datasheet before quoting.
 
 ## Key features
 
-- Manufactured from flexible closed-cell EPDM rubber foam.
-- Outstanding UV and weather resistance requiring no additional protective painting or jacketing.
-- Continuous operating temperature from -57°C up to +150°C (intermittent to 180°C).
-- Engineered specifically for solar hot water lines, HVAC, and refrigeration.
-- Exceeds BCA/NCC energy efficiency requirements for solar pipework (13mm wall achieves R0.38 vs R0.30 mandate).
-- Thermal conductivity of 0.036 W/m·K at 24°C.
-- Low flammability tested to AS/NZS 1530.3 with zero spread of flame.
-- Self-extinguishing to ASTM D 635 and non-flammable to JIS K 6911.
-- Green Star and ODP-EMI4 compliant with zero ozone-depleting substances.
-- Available in standard 2m lengths, continuous coils, and multiple wall thicknesses.
+- Refer to the manufacturer datasheet for published features.
 
 ## Applications and selection
 
-- pipe
-- roof
-- roofline
-- wall
+- solar hot water
+- outdoor pipe
+- high-temperature pipe
+- UV-exposed service
 
 **Selection checklist**
 
-1. Confirm pipe is solar hot water, heat pump, or high-temperature line exceeding 100°C.
-2. Measure outside diameter of pipe to match internal diameter (ID) of E-Flex HT.
-3. Select wall thickness (13mm WT standard to achieve compliant R0.38; 19mm or 25mm for higher efficiency).
-4. Order matching E-Flex Bond adhesive for joint and seam sealing.
-5. Confirm external roof run requires UV-resistant EPDM material.
+1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
+2. Confirm the target rating and construction build-up with the project team.
+3. Confirm available cavity or fixing depth against the product dimensions.
+4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
+5. Record the suburb/postcode so climate-zone requirements can be checked.
 
 ## Manufacturer range
 
-| Variant | Size / rating | Pack |
-| --- | --- | --- |
-| E-Flex HT 13mm Wall x 13mm ID | 13 mm WT x 13 mm ID x 2000 mm (R0.38) | Length |
-| E-Flex HT 13mm Wall x 19mm ID | 13 mm WT x 19 mm ID x 2000 mm (R0.38) | Length |
-| E-Flex HT 13mm Wall x 25mm ID | 13 mm WT x 25 mm ID x 2000 mm (R0.38) | Length |
-| E-Flex HT 19mm Wall x 19mm ID | 19 mm WT x 19 mm ID x 2000 mm | Length |
-| E-Flex HT 25mm Wall x 25mm ID | 25 mm WT x 25 mm ID x 2000 mm | Length |
+| Wall / R | Pipe ID | Fits Copper | Imperial OD | Carton (lineal m) | Pcs/carton |
+| --- | --- | --- | --- | --- | --- |
+| 13 mm (R0.38) | 10 mm | DN10 | 3/8" | 160 m | 80 |
+| 13 mm (R0.38) | 13 mm | DN15 | 1/2" | 136 m | 68 |
+| 13 mm (R0.38) | 19 mm | DN20 | 3/4" | 96 m | 48 |
+| 13 mm (R0.38) | 22 mm | - | 7/8" | 84 m | 42 |
+| 13 mm (R0.38) | 25 mm | DN25 | 1" | 70 m | 35 |
+| 13 mm (R0.38) | 28 mm | - | 1-1/8" | 60 m | 30 |
+| 13 mm (R0.38) | 35 mm | DN32 | 1-3/8" | 44 m | 22 |
+| 13 mm (R0.38) | 42 mm | DN40 | 1-5/8" | 36 m | 18 |
+| 13 mm (R0.38) | 54 mm | DN50 | 2-1/8" | 24 m | 12 |
+| 19 mm (R0.60) | 13 mm | DN15 | 1/2" | 72 m | 36 |
+| 19 mm (R0.60) | 19 mm | DN20 | 3/4" | 56 m | 28 |
+| 19 mm (R0.60) | 25 mm | DN25 | 1" | 48 m | 24 |
+| 19 mm (R0.60) | 35 mm | DN32 | 1-3/8" | 32 m | 16 |
+| 25 mm (R0.85) | 19 mm | DN20 | 3/4" | 36 m | 18 |
+| 25 mm (R0.85) | 25 mm | DN25 | 1" | 30 m | 15 |
+
+_Manufacturer size/packaging breakdown._
 
 **Internal catalogue range**
 
@@ -74,13 +77,25 @@ Thermotec E-Flex HT is a high-performance, flexible closed-cell EPDM rubber foam
 
 ## Current catalogue range
 
-| Variant | Size / rating | Pack |
-| --- | --- | --- |
-| E-Flex HT 13mm Wall x 13mm ID | 13 mm WT x 13 mm ID x 2000 mm (R0.38) | Length |
-| E-Flex HT 13mm Wall x 19mm ID | 13 mm WT x 19 mm ID x 2000 mm (R0.38) | Length |
-| E-Flex HT 13mm Wall x 25mm ID | 13 mm WT x 25 mm ID x 2000 mm (R0.38) | Length |
-| E-Flex HT 19mm Wall x 19mm ID | 19 mm WT x 19 mm ID x 2000 mm | Length |
-| E-Flex HT 25mm Wall x 25mm ID | 25 mm WT x 25 mm ID x 2000 mm | Length |
+| Wall / R | Pipe ID | Fits Copper | Imperial OD | Carton (lineal m) | Pcs/carton |
+| --- | --- | --- | --- | --- | --- |
+| 13 mm (R0.38) | 10 mm | DN10 | 3/8" | 160 m | 80 |
+| 13 mm (R0.38) | 13 mm | DN15 | 1/2" | 136 m | 68 |
+| 13 mm (R0.38) | 19 mm | DN20 | 3/4" | 96 m | 48 |
+| 13 mm (R0.38) | 22 mm | - | 7/8" | 84 m | 42 |
+| 13 mm (R0.38) | 25 mm | DN25 | 1" | 70 m | 35 |
+| 13 mm (R0.38) | 28 mm | - | 1-1/8" | 60 m | 30 |
+| 13 mm (R0.38) | 35 mm | DN32 | 1-3/8" | 44 m | 22 |
+| 13 mm (R0.38) | 42 mm | DN40 | 1-5/8" | 36 m | 18 |
+| 13 mm (R0.38) | 54 mm | DN50 | 2-1/8" | 24 m | 12 |
+| 19 mm (R0.60) | 13 mm | DN15 | 1/2" | 72 m | 36 |
+| 19 mm (R0.60) | 19 mm | DN20 | 3/4" | 56 m | 28 |
+| 19 mm (R0.60) | 25 mm | DN25 | 1" | 48 m | 24 |
+| 19 mm (R0.60) | 35 mm | DN32 | 1-3/8" | 32 m | 16 |
+| 25 mm (R0.85) | 19 mm | DN20 | 3/4" | 36 m | 18 |
+| 25 mm (R0.85) | 25 mm | DN25 | 1" | 30 m | 15 |
+
+_Manufacturer size/packaging breakdown._
 
 **Internal catalogue range**
 
@@ -105,55 +120,28 @@ Thermotec E-Flex HT is a high-performance, flexible closed-cell EPDM rubber foam
 
 ## Technical data
 
-| Property | Value | Standard |
+| Property | Value | Source |
 | --- | --- | --- |
-| Material | Closed-cell ethylene propylene diene monomer (EPDM) synthetic rubber foam | - |
-| Nominal Density | 60 kg/m³ nominal | - |
-| Continuous Service Temperature | -57°C to +150°C | - |
-| Maximum Intermittent Temperature | +175°C to +180°C | - |
-| Thermal Conductivity | 0.036 W/m·K at 24°C | ASTM C518 |
-| Thermal Resistance (13mm wall) | R0.38 (exceeds NCC R0.30 solar requirement) | AS/NZS 4859.1 |
-| Early Fire Hazard Indices (AS 1530.3) | Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 5 | AS 1530.3 |
-| Flammability Classifications | Self-extinguishing (ASTM D 635), Non-flammable (JIS K 6911) | ASTM D 635 / JIS K 6911 |
-| UV & Ozone Resistance | Excellent (suitable for direct outdoor sun exposure) | - |
-| Dimensions | 2000 mm lengths (available in 13 mm, 19 mm, 25 mm wall thicknesses to suit 9 mm to 54 mm pipe ID) | - |
+| Product type | High-temperature pipe | Manufacturer catalogue |
+| Material | Closed-cell EPDM foam | Manufacturer catalogue |
+| Applications | solar hot water; outdoor pipe; high-temperature pipe; UV-exposed service | Manufacturer catalogue |
+| Published ratings | R1.2, R2.5 | Internal catalogue; confirm against current TDS |
 
-Extracted from manufacturer datasheet: https://thermotec.com.au/product/thermotec-e-flex-ht-solar-pipe-insulation/
+
 
 ## Fire, testing and compliance context
 
-AS 1530.3 Early Fire Hazard Indices: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 5; ASTM D 635 self-extinguishing; JIS K 6911 non-flammable
-
-AS/NZS 4859.1, AS 1530.3, AS/NZS 3500.4 (Plumbing and drainage - Heated water services), NCC Volume One and Two
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://thermotec.com.au/products/thermotec-e-flex-ht-solar-pipe-insulation (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: to be sourced.
 
-## Recommended accessories
-
-- Thermotec E-Flex Bond Adhesive (500ml tin with applicator).
-- Thermotec MaxTape FR / Insulating Foam Tape.
-- Utility knife.
-
-
-## Limitations and warnings
-
-- Not suitable for continuous operating temperatures exceeding 150°C (steam lines over 150°C require Rockwool pipe insulation).
-- Slit seams must be sealed with E-Flex Bond adhesive to maintain water tightness.
-- Do not stretch insulation lengthwise during installation as it will pull apart at butt joints.
 
 ## Installation overview
 
-1. Ensure copper or stainless steel solar pipes are clean, dry, and leak-tested.
-2. For new pipework, slide unslit E-Flex HT tubes directly over pipes prior to joint brazing or connecting.
-3. For existing lines, slit E-Flex HT longitudinally using a sharp insulation knife and snap over pipe.
-4. Apply Thermotec E-Flex Bond adhesive evenly to both slit edges and allow to become touch-dry.
-5. Press slit edges firmly together to create a continuous, permanent vapor seal.
-6. Butt consecutive 2m lengths tightly and join with E-Flex Bond adhesive.
-7. Mitre cut and glue sections around 90-degree elbows, tees, and solar collector connections.
-8. Ensure complete coverage up to solar roof panel collectors without leaving exposed copper.
+Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU.
 
 ## Safety and handling
 
@@ -161,11 +149,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Zero ODP; Green Star compliant low VOC; free from CFCs and HCFCs
+Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
 
 ## Warranty, returns and support
 
-Backed by Thermotec Australia product warranty
+No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
 
 ## Specification starting point
 

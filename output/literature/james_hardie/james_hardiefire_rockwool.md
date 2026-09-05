@@ -43,13 +43,14 @@ wall
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Not specified | unspecified | 60 | 1160 x 420 | 1 |
-| Not specified | unspecified | 60 | 1160 x 560 | 1 |
-| Not specified | unspecified | 60 | 1320 x 420 | 1 |
-| Not specified | unspecified | 85 | 1160 x 420 | 1 |
-| Not specified | unspecified | 85 | 1160 x 560 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| HardieFire Insulation 60mm (420mm) | 60 mm x 420 mm x 1160 mm (R1.7, 7 batts, 3.4 m²) | Pack of 7 batts |
+| HardieFire Insulation 60mm (560mm) | 60 mm x 560 mm x 1160 mm (R1.7, 7 batts, 4.5 m²) | Pack of 7 batts |
+| HardieFire Insulation 85mm (420mm) | 85 mm x 420 mm x 1160 mm (R2.5, 5 batts, 2.4 m²) | Pack of 5 batts |
+| HardieFire Insulation 85mm (560mm) | 85 mm x 560 mm x 1160 mm (R2.5, 5 batts, 3.2 m²) | Pack of 5 batts |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

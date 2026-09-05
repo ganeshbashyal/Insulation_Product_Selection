@@ -41,9 +41,14 @@ Proctor BAL represents specialized bushfire ember protection mesh components and
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R0.1 | thermal_r_value | Varies | 15000 x 1000 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| ProctorVent Over Fascia Vent FV10 BAL | 10,000 mm²/m airflow with pre-fitted BAL mesh | Unit / Linear metre |
+| ProctorVent Over Fascia Vent FV25 BAL | 25,000 mm²/m airflow with pre-fitted BAL mesh | Unit / Linear metre |
+| ProctorVent Ridge Vent RV10 BAL | 10,000 mm²/m airflow with pre-fitted BAL mesh | Unit / Linear metre |
+| ProctorPassive DB-FR BAL Option | 10.5 mm x 40 mm with integrated BAL mesh (max 2mm) | Pack |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

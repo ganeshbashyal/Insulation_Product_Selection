@@ -44,12 +44,13 @@ wall
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.5 | thermal_r_value | 90 | 1160 x 430 | 1 |
-| R1.5 | thermal_r_value | 90 | 1160 x 580 | 1 |
-| R2 | thermal_r_value | 90 | 1160 x 430 | 1 |
-| R2 | thermal_r_value | 90 | 1160 x 580 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Polymax Thermal Wall Batts R1.5 | 90 mm x 430/580 mm x 1160 mm | Pack of 16 (8.0 m2 / 10.8 m2) |
+| Polymax Thermal Wall Batts R2.0 | 90 mm x 430/580 mm x 1160 mm | Pack of 12 (6.0 m2 / 8.1 m2) |
+| Polymax Thermal Wall Batts R2.5 | 90 mm x 430/580 mm x 1160 mm | Pack of 8 (4.0 m2 / 5.4 m2) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

@@ -43,9 +43,11 @@ Kingspan AIR-CELL Glareshield is an Australian-made thermo reflective anti-glare
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Not specified | unspecified | Varies | 22250 x 1350 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| AIR-CELL Glareshield | 1350 mm x 22.25 m x 5.5 mm (30 m²) | Roll (11 kg) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

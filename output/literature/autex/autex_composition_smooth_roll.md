@@ -41,9 +41,11 @@ Autex Composition Smooth Roll is a high-performance acoustic wallcovering suppli
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R0.3 | thermal_r_value | 10 | 1200 x 1220 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Composition Smooth Roll (1.22m x 25m) | 1.22 m x 25 m x 10-12 mm (30.5 m²) | Roll |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

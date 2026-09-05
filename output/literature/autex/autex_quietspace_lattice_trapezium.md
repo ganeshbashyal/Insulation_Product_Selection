@@ -45,9 +45,11 @@ Autex Quietspace Lattice - Trapezium is a geometric suspended acoustic baffle sy
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| NRC 0.60 | acoustic_nrc | Varies | 1200 (width varies) | 2 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Quietspace Lattice Trapezium | 1180 mm x 2380 mm x 290 mm | Pack of 1 unit |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

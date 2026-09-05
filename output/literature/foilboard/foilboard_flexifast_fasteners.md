@@ -42,9 +42,13 @@ Foilboard Flexifast Fasteners are specialized one-piece nylon anchor fasteners e
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Not specified | unspecified | Varies | Varies | 2 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Flexifast 45mm | 45 mm length (suits 10-15mm boards) | Box of 250 |
+| Flexifast 70mm | 70 mm length (suits 20-25mm boards) | Box of 250 |
+| Flexifast 95mm | 95 mm length (suits 40-50mm boards) | Box of 250 |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

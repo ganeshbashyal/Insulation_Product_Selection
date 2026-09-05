@@ -39,11 +39,14 @@ Kingspan AIR-CELL Insulation Tape is a reinforced aluminium foil tape engineered
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Not specified | unspecified | Varies | 50000 x 72 | 2 |
-| Not specified | unspecified | Varies | 50000 x 48 | 1 |
-| Not specified | unspecified | Varies | 50000 x 96 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| AIR-CELL Insulation Tape (Silver) 48mm | 48mm x 50m | Roll (Carton of 24) |
+| AIR-CELL Insulation Tape (Silver) 72mm | 72mm x 50m | Roll (Carton of 16) |
+| AIR-CELL Insulation Tape (Silver) 96mm | 96mm x 50m | Roll (Carton of 12) |
+| AIR-CELL Insulation Tape (White) 72mm | 72mm x 50m | Roll (Carton of 16) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

@@ -44,14 +44,15 @@ Earthwool Roof Blanket (with reflective foil laminate / Space Blanket) is a glas
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.3 | thermal_r_value | 55 | 15000 x 1200 | 1 |
-| R1.8 | thermal_r_value | 75 | 15000 x 1200 | 1 |
-| R2.3 | thermal_r_value | 100 | 10000 x 1200 | 1 |
-| R2.5 | thermal_r_value | 105 | 10000 x 1200 | 1 |
-| R3 | thermal_r_value | 120 | 8000 x 1200 | 1 |
-| R3.2 | thermal_r_value | 130 | 8000 x 1200 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Earthwool Roof Blanket R1.3 (55mm) | 55 mm x 1200 mm x 20 m (24 m²) | Roll |
+| Earthwool Roof Blanket R1.8 (75mm) | 75 mm x 1200 mm x 15 m (18 m²) | Roll |
+| Earthwool Roof Blanket R2.5 (100mm) | 100 mm x 1200 mm x 10 m (12 m²) | Roll |
+| Earthwool Roof Blanket R3.0 (125mm) | 125 mm x 1200 mm x 10 m (12 m²) | Roll |
+| Earthwool Roof Blanket R3.6 (140mm) | 140 mm x 1200 mm x 6.5 m (7.8 m²) | Roll |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

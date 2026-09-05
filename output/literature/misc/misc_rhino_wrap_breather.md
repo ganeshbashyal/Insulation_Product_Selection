@@ -39,9 +39,12 @@ Rhino Wrap Breather is a micro-perforated or permeable reflective foil laminate 
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R37.5 | thermal_r_value | 1500 | 30000 x 1500 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Rhino Wrap Breather Foil 30m | 1350 mm x 30 m (40.5 m²) | Roll |
+| Rhino Wrap Breather Foil 60m | 1350 mm x 60 m (81 m²) | Roll |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

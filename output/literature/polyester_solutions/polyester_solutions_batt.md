@@ -44,14 +44,17 @@ Polyester Solutions PolyBatts are high-performance, non-irritant thermal and aco
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.5 | thermal_r_value | 610 | 16500 x 610 | 4 |
-| Rw 45 | acoustic_rw | 90 | 1160 x 430 | 2 |
-| Rw 45 | acoustic_rw | 90 | 1160 x 580 | 2 |
-| Rw 45 | acoustic_rw | 75 | 1160 x 430 | 1 |
-| Rw 45 | acoustic_rw | 75 | 1160 x 580 | 1 |
-| R1.5 | thermal_r_value | 610 | 10000 x 610 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| PolyBatts Wall R1.5 | 90 mm x 1170 mm x 430/580 mm | Pack of batts |
+| PolyBatts Wall R2.0 | 90 mm x 1170 mm x 430/580 mm | Pack of batts |
+| PolyBatts Wall R2.5 | 90 mm x 1170 mm x 430/580 mm | Pack of batts |
+| PolyBatts Ceiling R2.5 | 165 mm x 1170 mm x 430/580 mm | Pack of batts |
+| PolyBatts Ceiling R3.0 | 180 mm x 1170 mm x 430/580 mm | Pack of batts |
+| PolyBatts Ceiling R3.5 | 200 mm x 1170 mm x 430/580 mm | Pack of batts |
+| PolyBatts Ceiling R4.0 | 220 mm x 1170 mm x 430/580 mm | Pack of batts |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

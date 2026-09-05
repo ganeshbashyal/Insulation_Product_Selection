@@ -41,9 +41,11 @@ ProctorPassive SmartVap 100 is an internal air barrier and variable vapour contr
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R0.1 | thermal_r_value | Varies | 30000 x 1500 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| ProctorPassive SmartVap 100 | 1500 mm x 50 m (75 m²) | Roll |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

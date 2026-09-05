@@ -44,9 +44,11 @@ wall
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R0.1 | thermal_r_value | Varies | 25000 x 60 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| ProctorWrap HighTack Tape 60mm | 60 mm x 25 m | Roll (Carton of 10) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

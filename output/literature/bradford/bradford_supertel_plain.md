@@ -43,9 +43,15 @@ Bradford Supertel Plain is a high-density (32kg/m3) unfaced glasswool insulation
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R2.0 | thermal_r_value | 5 | 2400 x 1200 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Supertel Plain 25mm | 25 mm x 1200/1500 mm x 15 m (R0.8) or 2400x1200 mm board | Roll / Pack |
+| Supertel Plain 40mm | 40 mm x 1500 mm x 10 m (R1.2) or 2400x1200 mm board | Roll / Pack |
+| Supertel Plain 50mm | 50 mm x 1200/1500 mm x 10 m (R1.5) or 2400x1200 mm board | Roll / Pack |
+| Supertel Plain 75mm | 75 mm x 1200/1500 mm x 5 m (R2.2) or 2400x1200 mm board | Roll / Pack |
+| Supertel Plain 100mm | 100 mm x 1380/1500 mm x 5 m (R3.0) or 2400x1200 mm board | Roll / Pack |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

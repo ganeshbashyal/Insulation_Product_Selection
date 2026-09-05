@@ -43,9 +43,13 @@ Polyester Solutions WallBlock Batts (and Ceiling Baffle Block Batts) are high-de
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.5 | thermal_r_value | 100 | 1200 x 600 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| WallBlock Batts R1.5 HD (75mm) | 75 mm x 1170 mm x 430/580 mm (NRC 0.85) | Pack of batts |
+| WallBlock Batts R2.0 HD (90mm) | 90 mm x 1170 mm x 430/580 mm (NRC 0.95) | Pack of batts |
+| WallBlock Batts R2.5 HD (90mm) | 90 mm x 1170 mm x 430/580 mm (NRC 1.00) | Pack of batts |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

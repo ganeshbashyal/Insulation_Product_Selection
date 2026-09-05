@@ -41,9 +41,13 @@ Foilboard Standard Tek Screws are self-drilling, zinc-plated steel screws pre-fi
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Not specified | unspecified | 30 | Varies | 2 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Foilboard Standard Tek Screws 35mm | 35 mm length (suits 10-15mm boards on steel) | Box of 250 |
+| Foilboard Standard Tek Screws 45mm | 45 mm length (suits 15-20mm boards on steel) | Box of 250 |
+| Foilboard Standard Tek Screws 55mm | 55 mm length (suits 20-25mm boards on steel) | Box of 250 |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

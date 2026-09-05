@@ -43,20 +43,15 @@ Bradford Supertel Plain - Plain - Unfaced is a high-density (32kg/m3) plain glas
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.5 | thermal_r_value | 50 | 10000 x 1500 | 1 |
-| R0.8 | thermal_r_value | 25 | 2400 x 1200 | 1 |
-| R0.8 | thermal_r_value | 25 | 3000 x 1500 | 1 |
-| R0.8 | thermal_r_value | 25 | 2400 x 1500 | 1 |
-| R1.2 | thermal_r_value | 40 | 2400 x 1500 | 1 |
-| R1.5 | thermal_r_value | 50 | 2400 x 1200 | 1 |
-| R1.5 | thermal_r_value | 50 | 2400 x 1500 | 1 |
-| R1.5 | thermal_r_value | 50 | 3000 x 1500 | 1 |
-| R2.2 | thermal_r_value | 75 | 2400 x 1200 | 1 |
-| R2.2 | thermal_r_value | 75 | 2400 x 1500 | 1 |
-| R3 | thermal_r_value | 100 | 2400 x 1200 | 1 |
-| R3 | thermal_r_value | 100 | 2400 x 1500 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Supertel Plain Unfaced 25mm | 25 mm x 1200/1500 mm x 15 m (R0.8) or 2400x1200 mm board | Roll / Pack |
+| Supertel Plain Unfaced 40mm | 40 mm x 1500 mm x 10 m (R1.2) or 2400x1200 mm board | Roll / Pack |
+| Supertel Plain Unfaced 50mm | 50 mm x 1200/1500 mm x 10 m (R1.5) or 2400x1200 mm board | Roll / Pack |
+| Supertel Plain Unfaced 75mm | 75 mm x 1200/1500 mm x 5 m (R2.2) or 2400x1200 mm board | Roll / Pack |
+| Supertel Plain Unfaced 100mm | 100 mm x 1380/1500 mm x 5 m (R3.0) or 2400x1200 mm board | Roll / Pack |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

@@ -45,10 +45,12 @@ Autex Frontier Raft - Trapezoid is an innovative acoustic ceiling beam system de
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Rw 50 | acoustic_rw | 1200 | 1200 (width varies) | 2 |
-| Rw 50 | acoustic_rw | 2400 | 2400 (width varies) | 2 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Frontier Raft Trapezoid 2400mm | 2400mm L x 200mm W x 137mm H (Pack covers 2.88 m2 at 300mm centres) | 4 rafts per pack |
+| Frontier Raft Trapezoid 1200mm | 1200mm L x 200mm W x 137mm H (Pack covers 2.88 m2 at 300mm centres) | 8 rafts per pack |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

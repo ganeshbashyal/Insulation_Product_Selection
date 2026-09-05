@@ -43,10 +43,15 @@ Bradford Anticon Roofing Blanket is a premium Australian-made glasswool insulati
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.3 | thermal_r_value | 60 | 15000 x 1400 | 1 |
-| R1.3 | thermal_r_value | 60 | 20000 x 1200 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Anticon 60 (R1.3) | 60 mm x 1200 mm x 15-20 m (LD, MD, HD) | Roll |
+| Anticon 80 (R1.8) | 80 mm x 1200 mm x 15 m (LD, MD, HD) | Roll |
+| Anticon 100 (R2.3) | 100 mm x 1200 mm x 10 m (MD, HD) | Roll |
+| Anticon 130 (R3.0) | 130 mm x 1200 mm x 10 m (HD) | Roll |
+| Anticon 145 (R3.6) | 145 mm x 1200 mm x 10 m (HD) | Roll |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

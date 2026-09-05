@@ -42,10 +42,15 @@ Kingspan Kooltherm K3 Floorboard is a premium performance, fiber-free rigid ther
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R2.25 | thermal_r_value | 25 | 2400 x 1200 | 1 |
-| R2.30 | thermal_r_value | 50 | 2400 x 1200 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Kooltherm K3 Floorboard 25mm | 25 mm x 1200 mm x 2400 mm (R1.1) | Board |
+| Kooltherm K3 Floorboard 30mm | 30 mm x 1200 mm x 2400 mm (R1.3) | Board |
+| Kooltherm K3 Floorboard 40mm | 40 mm x 1200 mm x 2400 mm (R1.75) | Board |
+| Kooltherm K3 Floorboard 50mm | 50 mm x 1200 mm x 2400 mm (R2.15) | Board |
+| Kooltherm K3 Floorboard 80mm | 80 mm x 1200 mm x 2400 mm (R3.45) | Board |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

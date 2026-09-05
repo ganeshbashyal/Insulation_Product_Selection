@@ -43,9 +43,11 @@ Bradford Enviroseal HighTack Tape is a single-sided, aggressive adhesive sealing
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.5 | thermal_r_value | 60 | Varies | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Enviroseal HighTack Tape 60mm x 25m | 60 mm x 25 m | Roll (10 rolls per carton, Code: 155170) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

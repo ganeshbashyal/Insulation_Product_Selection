@@ -42,16 +42,18 @@ Bradford Gold Hi-Performance Batts (Gold HP) are high-density, top-tier glasswoo
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R2.0 | thermal_r_value | 75 | 1160 x 430 | 1 |
-| R2.5 | thermal_r_value | 90 | 1160 x 420 | 1 |
-| R2.7 | thermal_r_value | 90 | 1160 x 420 | 1 |
-| R4.0 | thermal_r_value | 140 | 1160 x 430 | 1 |
-| R2.0 | thermal_r_value | 75 | 1160 x 580 | 1 |
-| R2.5 | thermal_r_value | 90 | 1160 x 570 | 1 |
-| R2.7 | thermal_r_value | 90 | 1160 x 570 | 1 |
-| R4.0 | thermal_r_value | 140 | 1160 x 580 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Gold HP Ceiling Batts R5.0 | 215 mm x 1160 mm x 430/580 mm | Pack of 8 batts |
+| Gold HP Ceiling Batts R6.0 | 250 mm x 1160 mm x 430/580 mm | Pack of 6 batts |
+| Gold HP Ceiling Batts R7.0 | 290 mm x 1160 mm x 430/580 mm | Pack of 4 batts |
+| Gold HP Wall Batts R2.0 (75mm) | 75 mm x 1160 mm x 430/580 mm | Pack of 16/24 batts |
+| Gold HP Wall Batts R2.2 (75mm) | 75 mm x 1160 mm x 430/580 mm | Pack of 12/18 batts |
+| Gold HP Wall Batts R2.5 (90mm) | 90 mm x 1160 mm x 430/580 mm | Pack of 12/18 batts |
+| Gold HP Wall Batts R2.7 (90mm) | 90 mm x 1160 mm x 430/580 mm | Pack of 8/12 batts |
+| Gold Perimeter Batts R3.0 | 100 mm x 400 mm x 430/580 mm | Pack of 5 batts |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

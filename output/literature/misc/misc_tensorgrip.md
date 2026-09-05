@@ -42,9 +42,12 @@ TensorGrip is an advanced range of industrial canister and aerosol contact adhes
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Not specified | unspecified | Varies | Varies | 2 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| TensorGrip 500ml Aerosol | 500 ml can | Can |
+| TensorGrip 22L Canister | 22 Litre canister (17 kg) | Canister |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

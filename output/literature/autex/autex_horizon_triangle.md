@@ -42,9 +42,11 @@ Autex Horizon is a range of floating acoustic panels that create a cloud-like il
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Rw 35 | acoustic_rw | Varies | 1159 x 1159 | 2 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Horizon Right Angle Triangle | 1159 mm x 1159 mm x 24 mm | Pack of 4 (covers 2.88 m2) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

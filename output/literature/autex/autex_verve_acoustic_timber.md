@@ -41,10 +41,12 @@ Autex Verve - Acoustic Timber is a contoured acoustic wall panel that combines s
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Rw 35 | acoustic_rw | 12 | 2700 x 1170 | 1 |
-| Rw 35 | acoustic_rw | 21 | 2700 x 1170 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Verve Acoustic Timber 12mm | 1170 mm x 2680 mm x 12 mm (6 mm edge) | Panel |
+| Verve Acoustic Timber 21mm | 1170 mm x 2680 mm x 21 mm (15 mm edge) | Panel |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

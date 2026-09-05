@@ -42,12 +42,14 @@ Polyester Sound Control Batts are high-density acoustic insulation slabs specifi
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.5 | thermal_r_value | 50 | 1200 x 450 | 2 |
-| R1.5 | thermal_r_value | 75 | 1200 x 450 | 2 |
-| R1.5 | thermal_r_value | 50 | 1200 x 600 | 2 |
-| R1.5 | thermal_r_value | 75 | 1200 x 600 | 2 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Polyester Sound Control Batts 11kg/m³ (50mm) | 50 mm x 1200 mm x 450/600 mm | Pack of 16-20 batts |
+| Polyester Sound Control Batts 11kg/m³ (75mm) | 75 mm x 1200 mm x 450/600 mm | Pack of 9-12 batts |
+| Polyester Sound Control Batts 14kg/m³ (50mm) | 50 mm x 1200 mm x 450/600 mm | Pack of 12-15 batts |
+| Polyester Sound Control Batts 14kg/m³ (75mm) | 75 mm x 1200 mm x 450/600 mm | Pack of 9-12 batts |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

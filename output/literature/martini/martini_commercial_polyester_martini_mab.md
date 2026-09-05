@@ -45,12 +45,15 @@ Martini MAB (Multi-Application Blanket & Batts) is a premium commercial and indu
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R0.5 | thermal_r_value | 50 | 15000 x 610 | 1 |
-| R0.5 | thermal_r_value | 75 | 10000 x 610 | 1 |
-| R0.5 | thermal_r_value | 25 | 25000 x 610 | 1 |
-| R0.5 | thermal_r_value | 75 | 6000 x 610 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Martini MAB 14 (14 kg/m³) | 50mm / 75mm / 100mm x 1200mm x 2400mm | Pack of batts |
+| Martini MAB 20 (20 kg/m³) | 25mm / 50mm / 75mm / 100mm x 1200mm x 2400mm | Pack of batts |
+| Martini MAB 32 (32 kg/m³) | 25mm / 50mm / 75mm / 100mm x 1200mm x 2400mm | Pack of batts |
+| Martini MAB 48 (48 kg/m³) | 25mm / 50mm / 75mm x 1200mm x 2400mm | Pack of batts |
+| Martini MAB 60 (60 kg/m³) | 25mm / 50mm x 1200mm x 2400mm | Pack of batts |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

@@ -41,9 +41,12 @@ TensorGrip H represents the HVAC and insulation-grade spray contact adhesive lin
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Not specified | unspecified | Varies | Varies | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| TensorGrip H 500ml Aerosol | 500 ml aerosol can | Can |
+| TensorGrip H 22L Canister | 22 Litre canister (17 kg) | Canister |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

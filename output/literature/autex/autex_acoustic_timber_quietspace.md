@@ -42,11 +42,12 @@ Autex Acoustic Timber Panel is a high-performance acoustic treatment designed to
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| NRC 0.60 | acoustic_nrc | 25 | 2400 x 1200 | 1 |
-| NRC 0.60 | acoustic_nrc | 25 | 2700 x 1200 | 1 |
-| NRC 0.60 | acoustic_nrc | 25 | 3000 x 1200 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Acoustic Timber Panel 25mm Quietspace | 1200 mm x 2400 mm x 25 mm, NRC 0.85 | Panel |
+| Acoustic Timber Panel 25mm Quietspace (Custom Length) | 1200 mm x 2700 mm x 25 mm, NRC 0.85 | Panel |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

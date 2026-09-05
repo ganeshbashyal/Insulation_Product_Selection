@@ -44,13 +44,14 @@ wall
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R0.3 | thermal_r_value | 50 | 2400 x 1200 | 12 |
-| R0.3 | thermal_r_value | 75 | 2400 x 1200 | 12 |
-| R0.3 | thermal_r_value | 100 | 2400 x 1200 | 12 |
-| R0.3 | thermal_r_value | 25 | 2400 x 1200 | 9 |
-| R0.3 | thermal_r_value | 30 | 2400 x 1200 | 3 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Sonata Recital Core 20kg/m³ | 25mm, 50mm, 75mm, 100mm x 1200mm x 2400mm | Panel |
+| Sonata Recital Core 32kg/m³ | 25mm, 50mm, 75mm, 100mm x 1200mm x 2400mm | Panel |
+| Sonata Recital Core 48kg/m³ | 25mm, 50mm, 75mm x 1200mm x 2400mm | Panel |
+| Sonata Recital Core 60kg/m³ | 25mm, 50mm x 1200mm x 2400mm | Panel |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

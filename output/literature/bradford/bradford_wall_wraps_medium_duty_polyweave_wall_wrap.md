@@ -40,10 +40,14 @@ Bradford Thermoseal Medium Duty Polyweave Wall Wrap is a heavy-duty, tear-resist
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.5 | thermal_r_value | 81 | 60000 x 135081 | 2 |
-| R1.5 | thermal_r_value | 40 | 30000 x 135040 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Thermoseal Medium Duty Polyweave Wall Wrap 30m | 1350 mm x 30 m (40.5 m²) | Roll (Code: 40483) |
+| Thermoseal Medium Duty Polyweave Wall Wrap 60m | 1350 mm x 60 m (81 m²) | Roll (Code: 15128) |
+| Thermoseal Wall Wrap XP (Outward Reflective) 30m | 1350 mm x 30 m (40.5 m²) | Roll (Code: 125825) |
+| Thermoseal Wall Wrap XP (Outward Reflective) 60m | 1350 mm x 60 m (81 m²) | Roll (Code: 124652) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

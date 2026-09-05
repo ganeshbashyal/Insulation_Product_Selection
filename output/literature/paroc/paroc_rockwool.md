@@ -46,17 +46,12 @@ Paroc Rockwool is a premium European-engineered stone wool insulation made from 
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Rw 40 | acoustic_rw | 50 | 1000 x 600 | 3 |
-| Rw 45 | acoustic_rw | 90 | 1000 x 600 | 1 |
-| NRC 0.70 | acoustic_nrc | 25 | 1000 x 600 | 1 |
-| Rw 45 | acoustic_rw | 75 | 1000 x 600 | 1 |
-| Rw 50 | acoustic_rw | 100 | 1000 x 600 | 1 |
-| R1.0 | thermal_r_value | 50 | 6000 x 1000 | 1 |
-| R1.0 | thermal_r_value | 50 | 4500 x 1000 | 1 |
-| R1.0 | thermal_r_value | 80 | 2500 x 1000 | 1 |
-| R1.0 | thermal_r_value | 50 | 4000 x 1000 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Paroc General Building Slabs | 50mm - 100mm thickness x 600mm x 1200mm | Pack / Pallet |
+| Paroc Acoustic & Fire Batts | High density fire batts | Pack |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

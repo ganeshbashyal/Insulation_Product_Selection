@@ -42,13 +42,15 @@ Bradford Multitel Foil-Faced is a lightweight, flexible glasswool insulation bla
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.3 | thermal_r_value | 50 | 10000 x 1380 | 1 |
-| R2 | thermal_r_value | 75 | 7500 x 1380 | 1 |
-| R0.6 | thermal_r_value | 25 | 20000 x 1200 | 1 |
-| R1.5 | thermal_r_value | 55 | 10000 x 1200 | 1 |
-| R2 | thermal_r_value | 75 | 10000 x 1200 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Multitel HVAC Foil Faced 25mm | 25 mm x 1200 mm x 15 m (R0.7, 18 m²) | Roll (Code: 16074) |
+| Multitel HVAC Foil Faced 38mm | 38 mm x 1200 mm x 15 m (R1.0, 18 m²) | Roll (Code: 77363) |
+| Multitel HVAC Foil Faced 50mm | 50 mm x 1200 mm x 10 m (R1.3, 12 m²) | Roll (Code: 16068) |
+| Multitel HVAC Foil Faced 75mm | 75 mm x 1200 mm x 7.5 m (R2.0, 9 m²) | Roll (Code: 77399) |
+| Multitel BAL 12.5-40 Blanket | 25 mm x 300 mm x 20 m (4 pieces, 80 lineal metres) | Pack of 4 rolls (Code: 100061) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

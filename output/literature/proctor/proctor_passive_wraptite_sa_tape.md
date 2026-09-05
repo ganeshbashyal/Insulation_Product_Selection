@@ -43,12 +43,14 @@ ProctorPassive Wraptite SA Tape is a self-adhering, vapour-permeable air barrier
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R0.1 | thermal_r_value | 75 | 50000 x 75 | 2 |
-| R0.1 | thermal_r_value | 150 | 50000 x 150 | 2 |
-| R0.1 | thermal_r_value | 300 | 50000 x 300 | 1 |
-| R0.1 | thermal_r_value | 100 | 50000 x 100 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Wraptite SA Tape 75mm | 75 mm x 50 m | Roll |
+| Wraptite SA Tape 100mm | 100 mm x 50 m | Roll |
+| Wraptite SA Tape 150mm | 150 mm x 50 m | Roll |
+| Wraptite SA Tape 300mm | 300 mm x 50 m | Roll |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

@@ -44,9 +44,14 @@ Ecowool CondenShield is a lightweight, reflective foil-faced glass mineral wool 
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.3 | thermal_r_value | 60 | 15000 x 1200 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| CondenShield Blanket R1.3 | 60 mm x 1200 mm x 15000 mm (18 m²) | Roll |
+| CondenShield Blanket R1.8 | 80 mm x 1200 mm x 15000 mm (18 m²) | Roll |
+| CondenShield Blanket R2.5 | 100 mm x 1200 mm x 10000 mm (12 m²) | Roll |
+| CondenShield Blanket R3.7 | 150 mm x 1200 mm x 5000 mm (6 m²) | Roll |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

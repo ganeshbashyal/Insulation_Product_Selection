@@ -40,9 +40,12 @@ Rhino Wrap Breather is a Class 4 vapour permeable, Light Duty flexible building 
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R37.5 | thermal_r_value | 1500 | 30000 x 1500 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Rhino Wrap Breather 30m | 1500 mm x 30 m (45 m²) | Roll |
+| Rhino Wrap Breather 50m | 1500 mm x 50 m (75 m²) | Roll |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

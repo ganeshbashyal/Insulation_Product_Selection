@@ -41,9 +41,11 @@ Higgins Builders Acoustic Baffle for Party Walls is a high-density, custom-manuf
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.5 | thermal_r_value | 100 | 1200 x 600 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Builders Acoustic Baffle for Party Walls | High-density acoustic baffle block / roll | Pack |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

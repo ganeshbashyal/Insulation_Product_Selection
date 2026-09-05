@@ -1,183 +1,144 @@
 {
   "family_id": "THERMOTEC_E_FLEX_HT",
   "family_name": "E-Flex HT Solar Pipe Insulation",
-  "datasheet_pdf_url": "https://thermotec.com.au/product/thermotec-e-flex-ht-solar-pipe-insulation/",
-  "sds_url": "https://thermotec.com.au/",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
   "status": "ok",
   "researched_at": "2026-09-06",
   "spec": {
-    "description": "Thermotec E-Flex HT is a\nhigh-performance, flexible closed-cell EPDM rubber foam pipe insulation\nspecifically engineered for solar hot water, HVAC, and high-temperature plumbing\nsystems. Designed with outstanding UV resistance, it withstands outdoor\nweathering and sun exposure for many years without cracking, embrittlement, or\ndeterioration. It operates at continuous temperatures from -57°C up to +150°C\n(with intermittent peak exposure up to 175°C - 180°C), preventing thermal energy\nloss and solar line overheating.",
-    "features": [
-      "Manufactured from flexible\nclosed-cell EPDM rubber foam",
-      "Outstanding UV and weather resistance requiring\nno additional protective painting or jacketing",
-      "Continuous operating\ntemperature from -57°C up to +150°C (intermittent to 180°C)",
-      "Engineered\nspecifically for solar hot water lines, HVAC, and refrigeration",
-      "Exceeds\nBCA/NCC energy efficiency requirements for solar pipework (13mm wall achieves\nR0.38 vs R0.30 mandate)",
-      "Thermal conductivity of 0.036 W/m·K at 24°C",
-      "Low\nflammability tested to AS/NZS 1530.3 with zero spread of flame",
-      "Self-extinguishing to ASTM D 635 and non-flammable to JIS K 6911",
-      "Green Star\nand ODP-EMI4 compliant with zero ozone-depleting substances",
-      "Available in\nstandard 2m lengths, continuous coils, and multiple wall thicknesses"
-    ],
-    "applications": [
-      "pipe",
-      "roof",
-      "roofline",
-      "wall"
-    ],
-    "technical": [
-      {
-        "property": "Material",
-        "value": "Closed-cell ethylene propylene diene monomer\n(EPDM) synthetic rubber foam",
-        "standard": ""
-      },
-      {
-        "property": "Nominal\nDensity",
-        "value": "60 kg/m³ nominal",
-        "standard": ""
-      },
-      {
-        "property": "Continuous Service Temperature",
-        "value": "-57°C to +150°C",
-        "standard": ""
-      },
-      {
-        "property": "Maximum Intermittent Temperature",
-        "value": "+175°C to +180°C",
-        "standard": ""
-      },
-      {
-        "property": "Thermal Conductivity",
-        "value": "0.036 W/m·K\nat 24°C",
-        "standard": "ASTM C518"
-      },
-      {
-        "property": "Thermal Resistance (13mm\nwall)",
-        "value": "R0.38 (exceeds NCC R0.30 solar requirement)",
-        "standard": "AS/NZS 4859.1"
-      },
-      {
-        "property": "Early Fire Hazard Indices (AS 1530.3)",
-        "value": "Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke\nDeveloped: 5",
-        "standard": "AS 1530.3"
-      },
-      {
-        "property": "Flammability\nClassifications",
-        "value": "Self-extinguishing (ASTM D 635), Non-flammable (JIS\nK 6911)",
-        "standard": "ASTM D 635 / JIS K 6911"
-      },
-      {
-        "property": "UV & Ozone\nResistance",
-        "value": "Excellent (suitable for direct outdoor sun exposure)",
-        "standard": ""
-      },
-      {
-        "property": "Dimensions",
-        "value": "2000 mm lengths\n(available in 13 mm, 19 mm, 25 mm wall thicknesses to suit 9 mm to 54 mm pipe\nID)",
-        "standard": ""
-      }
-    ],
     "range": [
       {
-        "variant": "E-Flex HT 13mm Wall x 13mm\nID",
-        "size_or_rating": "13 mm WT x 13 mm ID x 2000 mm (R0.38)",
-        "pack": "Length"
+        "c0": "13 mm (R0.38)",
+        "c1": "10 mm",
+        "c2": "DN10",
+        "c3": "3/8\"",
+        "c4": "160 m",
+        "c5": "80"
       },
       {
-        "variant": "E-Flex HT 13mm Wall x 19mm ID",
-        "size_or_rating": "13 mm WT\nx 19 mm ID x 2000 mm (R0.38)",
-        "pack": "Length"
+        "c0": "13 mm (R0.38)",
+        "c1": "13 mm",
+        "c2": "DN15",
+        "c3": "1/2\"",
+        "c4": "136 m",
+        "c5": "68"
       },
       {
-        "variant": "E-Flex HT 13mm\nWall x 25mm ID",
-        "size_or_rating": "13 mm WT x 25 mm ID x 2000 mm (R0.38)",
-        "pack": "Length"
+        "c0": "13 mm (R0.38)",
+        "c1": "19 mm",
+        "c2": "DN20",
+        "c3": "3/4\"",
+        "c4": "96 m",
+        "c5": "48"
       },
       {
-        "variant": "E-Flex HT 19mm Wall x 19mm ID",
-        "size_or_rating": "19 mm WT x 19 mm ID x 2000 mm",
-        "pack": "Length"
+        "c0": "13 mm (R0.38)",
+        "c1": "22 mm",
+        "c2": "-",
+        "c3": "7/8\"",
+        "c4": "84 m",
+        "c5": "42"
       },
       {
-        "variant": "E-Flex HT 25mm Wall x 25mm ID",
-        "size_or_rating": "25 mm WT x 25 mm\nID x 2000 mm",
-        "pack": "Length"
+        "c0": "13 mm (R0.38)",
+        "c1": "25 mm",
+        "c2": "DN25",
+        "c3": "1\"",
+        "c4": "70 m",
+        "c5": "35"
+      },
+      {
+        "c0": "13 mm (R0.38)",
+        "c1": "28 mm",
+        "c2": "-",
+        "c3": "1-1/8\"",
+        "c4": "60 m",
+        "c5": "30"
+      },
+      {
+        "c0": "13 mm (R0.38)",
+        "c1": "35 mm",
+        "c2": "DN32",
+        "c3": "1-3/8\"",
+        "c4": "44 m",
+        "c5": "22"
+      },
+      {
+        "c0": "13 mm (R0.38)",
+        "c1": "42 mm",
+        "c2": "DN40",
+        "c3": "1-5/8\"",
+        "c4": "36 m",
+        "c5": "18"
+      },
+      {
+        "c0": "13 mm (R0.38)",
+        "c1": "54 mm",
+        "c2": "DN50",
+        "c3": "2-1/8\"",
+        "c4": "24 m",
+        "c5": "12"
+      },
+      {
+        "c0": "19 mm (R0.60)",
+        "c1": "13 mm",
+        "c2": "DN15",
+        "c3": "1/2\"",
+        "c4": "72 m",
+        "c5": "36"
+      },
+      {
+        "c0": "19 mm (R0.60)",
+        "c1": "19 mm",
+        "c2": "DN20",
+        "c3": "3/4\"",
+        "c4": "56 m",
+        "c5": "28"
+      },
+      {
+        "c0": "19 mm (R0.60)",
+        "c1": "25 mm",
+        "c2": "DN25",
+        "c3": "1\"",
+        "c4": "48 m",
+        "c5": "24"
+      },
+      {
+        "c0": "19 mm (R0.60)",
+        "c1": "35 mm",
+        "c2": "DN32",
+        "c3": "1-3/8\"",
+        "c4": "32 m",
+        "c5": "16"
+      },
+      {
+        "c0": "25 mm (R0.85)",
+        "c1": "19 mm",
+        "c2": "DN20",
+        "c3": "3/4\"",
+        "c4": "36 m",
+        "c5": "18"
+      },
+      {
+        "c0": "25 mm (R0.85)",
+        "c1": "25 mm",
+        "c2": "DN25",
+        "c3": "1\"",
+        "c4": "30 m",
+        "c5": "15"
       }
     ],
-    "fire": "AS 1530.3 Early Fire Hazard\nIndices: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 5;\nASTM D 635 self-extinguishing; JIS K 6911 non-flammable",
-    "compliance": "AS/NZS 4859.1, AS 1530.3, AS/NZS 3500.4 (Plumbing and drainage - Heated water\nservices), NCC Volume One and Two",
-    "sustainability": "Zero ODP; Green Star\ncompliant low VOC; free from CFCs and HCFCs",
-    "install": [
-      "Ensure copper or\nstainless steel solar pipes are clean, dry, and leak-tested",
-      "For new pipework,\nslide unslit E-Flex HT tubes directly over pipes prior to joint brazing or\nconnecting",
-      "For existing lines, slit E-Flex HT longitudinally using a sharp\ninsulation knife and snap over pipe",
-      "Apply Thermotec E-Flex Bond adhesive\nevenly to both slit edges and allow to become touch-dry",
-      "Press slit edges\nfirmly together to create a continuous, permanent vapor seal",
-      "Butt\nconsecutive 2m lengths tightly and join with E-Flex Bond adhesive",
-      "Mitre cut\nand glue sections around 90-degree elbows, tees, and solar collector\nconnections",
-      "Ensure complete coverage up to solar roof panel collectors\nwithout leaving exposed copper"
-    ],
-    "selection_checklist": [
-      "Confirm pipe is\nsolar hot water, heat pump, or high-temperature line exceeding 100°C",
-      "Measure\noutside diameter of pipe to match internal diameter (ID) of E-Flex HT",
-      "Select\nwall thickness (13mm WT standard to achieve compliant R0.38; 19mm or 25mm for\nhigher efficiency)",
-      "Order matching E-Flex Bond adhesive for joint and seam\nsealing",
-      "Confirm external roof run requires UV-resistant EPDM material"
-    ],
-    "accessories": [
-      "Thermotec E-Flex Bond Adhesive (500ml tin with applicator)",
-      "Thermotec MaxTape FR / Insulating Foam Tape",
-      "Utility knife"
-    ],
-    "limitations": [
-      "Not suitable for continuous operating temperatures exceeding 150°C (steam\nlines over 150°C require Rockwool pipe insulation)",
-      "Slit seams must be sealed\nwith E-Flex Bond adhesive to maintain water tightness",
-      "Do not stretch\ninsulation lengthwise during installation as it will pull apart at butt joints"
-    ],
-    "warranty": "Backed by Thermotec Australia product warranty"
+    "range_headers": [
+      "Wall / R",
+      "Pipe ID",
+      "Fits Copper",
+      "Imperial OD",
+      "Carton (lineal m)",
+      "Pcs/carton"
+    ]
   },
-  "retrieval": {
-    "search_keywords": [
-      "Thermotec E-Flex HT",
-      "E-Flex HT",
-      "solar pipe\ninsulation",
-      "EPDM pipe insulation",
-      "high temperature pipe lagging",
-      "UV\nresistant pipe insulation",
-      "solar hot water lagging",
-      "E-Flex solar",
-      "150\ndegree pipe insulation"
-    ],
-    "problem_keywords": [
-      "pipe insulation melting on\nsolar hot water line",
-      "UV sun damage cracking foam pipe lagging",
-      "heat loss\nfrom roof solar hot water pipes",
-      "frozen solar water pipes in winter",
-      "standard nitrile lagging perishing on roof"
-    ],
-    "placement": [
-      "pipe",
-      "roof",
-      "roofline",
-      "wall"
-    ],
-    "priority_fit": [
-      "thermal",
-      "fire",
-      "easy_install"
-    ],
-    "use_cases": [
-      "Insulating external copper flow and return pipes on rooftop\nsolar hot water systems exposed to direct sunlight",
-      "Thermal lagging on\nhigh-temperature heat pump water heater external connections",
-      "Insulating\ncommercial HVAC dual-temperature and hot water distribution pipework up\nto 150°C"
-    ],
-    "not_for": [
-      "High-pressure steam pipes operating continuously\nabove 150°C (use Rockwool Pipe)",
-      "Direct underground burial without protective\nconduit",
-      "Internal drywall acoustic wall cavities"
-    ],
-    "rag_summary": "Thermotec\nE-Flex HT is an Australian-supplied, high-temperature EPDM closed-cell rubber\nfoam pipe insulation specifically engineered for solar hot water and HVAC\nsystems. Built with outstanding UV and weather resistance, it withstands outdoor\nrooftop exposure without cracking or degrading, operating continuously from\n-57°C to +150°C (with intermittent peaks to 180°C). Delivering an in-situ\nR-value of R0.38 in 13mm wall thickness (exceeding NCC/AS 3500.4 mandates) and\nfire-tested to AS 1530.3 (flame spread 0), it protects solar lines against\nextreme thermal loss, freezing, and sun degradation."
-  },
+  "retrieval": {},
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "manual_range_injection",
+  "range_source": "manufacturer size/packaging breakdown (hand-supplied 2026-09-06)"
 }

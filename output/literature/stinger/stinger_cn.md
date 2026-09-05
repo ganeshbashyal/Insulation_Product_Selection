@@ -42,9 +42,11 @@ wall
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R0.5 | thermal_r_value | Varies | Varies | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| STINGER CN100B Cap Nailer | Tool Weight 2.3 kg (SKU: 136252) | Tool (Includes case and fittings) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

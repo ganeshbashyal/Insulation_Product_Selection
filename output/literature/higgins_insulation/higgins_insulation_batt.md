@@ -45,16 +45,18 @@ wall
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.5 | thermal_r_value | 85 | 1160 x 430 | 1 |
-| R1.5 | thermal_r_value | 85 | 1160 x 580 | 1 |
-| R1.5 | thermal_r_value | 50 | 1160 x 430 | 1 |
-| R1.5 | thermal_r_value | 50 | 1160 x 580 | 1 |
-| R1.5 | thermal_r_value | 75 | 1160 x 430 | 1 |
-| R1.5 | thermal_r_value | 75 | 1160 x 580 | 1 |
-| R1.5 | thermal_r_value | 100 | 1160 x 430 | 1 |
-| R1.5 | thermal_r_value | 100 | 1160 x 580 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Higgins Polyester Wall Batts R1.5 | 75 mm x 1160 mm x 430/580 mm | Pack of batts |
+| Higgins Polyester Wall Batts R2.0 | 90 mm x 1160 mm x 430/580 mm | Pack of batts |
+| Higgins Polyester Wall Batts R2.5 | 90 mm x 1160 mm x 430/580 mm | Pack of batts |
+| Higgins Polyester Ceiling Batts R2.5 | 140 mm x 1160 mm x 430/580 mm | Pack of batts |
+| Higgins Polyester Ceiling Batts R3.0 | 165 mm x 1160 mm x 430/580 mm | Pack of batts |
+| Higgins Polyester Ceiling Batts R3.5 | 185 mm x 1160 mm x 430/580 mm | Pack of batts |
+| Higgins Polyester Ceiling Batts R4.0 | 200 mm x 1160 mm x 430/580 mm | Pack of batts |
+| Higgins Polyester Ceiling Batts R5.0 | 230 mm x 1160 mm x 430/580 mm | Pack of batts |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

@@ -3,61 +3,70 @@
   "family_name": "Trade Select EasySeal Insulation Flashing Tape",
   "datasheet_pdf_url": "",
   "sds_url": "",
-  "status": "gemini_not_found",
+  "status": "ok",
   "researched_at": "2026-09-06",
   "spec": {
-    "description": "",
-    "features": "",
-    "applications": "",
-    "technical": "",
-    "range": "",
-    "fire": "",
-    "compliance": "",
-    "sustainability": "",
-    "install": "",
-    "selection_checklist": "",
-    "accessories": "",
-    "limitations": "",
-    "warranty": ""
+    "range": [
+      {
+        "c0": "50 mm",
+        "c1": "20 m",
+        "c2": "1.0 m2",
+        "c3": "1.0 mm",
+        "c4": "12 rolls",
+        "c5": "Membrane overlaps & vertical joins"
+      },
+      {
+        "c0": "75 mm",
+        "c1": "20 m",
+        "c2": "1.5 m2",
+        "c3": "1.0 mm",
+        "c4": "8 rolls",
+        "c5": "Window jambs & narrow flashing"
+      },
+      {
+        "c0": "100 mm",
+        "c1": "20 m",
+        "c2": "2.0 m2",
+        "c3": "1.0 mm",
+        "c4": "6 rolls",
+        "c5": "Standard window reveals & duct collars"
+      },
+      {
+        "c0": "150 mm",
+        "c1": "20 m",
+        "c2": "3.0 m2",
+        "c3": "1.0 mm",
+        "c4": "4 rolls",
+        "c5": "Full window sill pan flashing"
+      },
+      {
+        "c0": "200 mm",
+        "c1": "20 m",
+        "c2": "4.0 m2",
+        "c3": "1.0 mm",
+        "c4": "2 rolls",
+        "c5": "Commercial deep window reveals"
+      },
+      {
+        "c0": "300 mm",
+        "c1": "20 m",
+        "c2": "6.0 m2",
+        "c3": "1.0 mm",
+        "c4": "2 rolls",
+        "c5": "Parapet caps & slab-edge junctions"
+      }
+    ],
+    "range_headers": [
+      "Width",
+      "Length",
+      "Area/roll",
+      "Thickness",
+      "Carton qty",
+      "Application"
+    ]
   },
-  "retrieval": {
-    "search_keywords": [
-      "Trade Select EasySeal",
-      "EasySeal flashing\ntape",
-      "insulation flashing tape",
-      "Ametalin EasySeal",
-      "window flashing tape\nTrade Select",
-      "weatherproof flashing tape"
-    ],
-    "problem_keywords": [
-      "water\nleaks around window and door frames",
-      "air leakage through rough openings",
-      "tape failing on building wrap",
-      "flashing penetrations in external walls",
-      "interstitial water ingress at corners"
-    ],
-    "placement": [
-      "wall",
-      "external\nwall",
-      "roof",
-      "roofline"
-    ],
-    "priority_fit": [
-      "easy_install",
-      "condensation"
-    ],
-    "use_cases": [
-      "Flashing and sealing window and door openings to exterior\npliable wall wraps",
-      "Creating watertight and airtight seals around pipe and\nservice penetrations",
-      "Sealing critical corner junctions and lap joints on\nbuilding envelopes"
-    ],
-    "not_for": [
-      "Permanent immersion in standing water",
-      "High-temperature flue exhaust pipes",
-      "Structural load-bearing connections"
-    ],
-    "rag_summary": "Trade Select EasySeal Insulation Flashing Tape represents a\nheavy-duty, weather-resistant flashing tape designed to provide watertight and\nairtight seals around window openings, door frames, and building envelope\npenetrations. Coated with an aggressive pressure-sensitive adhesive on a\nflexible carrier, it bonds tightly to building wraps, timber, steel, and masonry\nto prevent water ingress and draughts in accordance with AS/NZS 4200.2\nweatherproofing guidelines."
-  },
+  "retrieval": {},
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "manual_range_injection",
+  "range_source": "manufacturer size/packaging breakdown (hand-supplied 2026-09-06)"
 }

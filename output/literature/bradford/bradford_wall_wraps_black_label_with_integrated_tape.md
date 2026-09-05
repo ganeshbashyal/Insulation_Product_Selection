@@ -40,9 +40,11 @@ Bradford Enviroseal ProctorWrap Black Label with Integrated Tape (BL-IT) is a pr
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.5 | thermal_r_value | 75 | 50000 x 150075 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Enviroseal ProctorWrap BL-IT | 1500 mm x 50 m (75 m²) | Roll (Code: 106703) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

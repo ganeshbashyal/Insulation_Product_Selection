@@ -54,10 +54,11 @@ Ametalin Cavity Drainage Battens are an innovative triple-layer, high-density po
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R0.1 | thermal_r_value | 10 | 1200 x 45 | 1 |
-| R0.1 | thermal_r_value | 20 | 1200 x 45 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Ametalin Cavity Drainage Battens (CDB-451200) | 45 mm x 1200 mm x 10 mm (50 pieces) | Box (50 pcs / 60 lm) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

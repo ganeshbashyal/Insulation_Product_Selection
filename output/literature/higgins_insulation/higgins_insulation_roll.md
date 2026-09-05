@@ -43,18 +43,15 @@ Higgins Polyester Sound Blankets (Polyester Acoustic Partition Rolls) are lightw
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.0 | thermal_r_value | 50 | 15000 x 450 | 1 |
-| R1.0 | thermal_r_value | 65 | 15000 x 450 | 1 |
-| R1.0 | thermal_r_value | 75 | 15000 x 450 | 1 |
-| R1.0 | thermal_r_value | 85 | 15000 x 450 | 1 |
-| R1.0 | thermal_r_value | 100 | 7500 x 450 | 1 |
-| R1.0 | thermal_r_value | 50 | 15000 x 600 | 1 |
-| R1.0 | thermal_r_value | 65 | 15000 x 600 | 1 |
-| R1.0 | thermal_r_value | 75 | 15000 x 600 | 1 |
-| R1.0 | thermal_r_value | 85 | 15000 x 600 | 1 |
-| R1.0 | thermal_r_value | 100 | 7500 x 600 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Polyester Sound Blanket 50mm | 50 mm x 450/610 mm x 15000 mm | Roll (20.25 m² / 18.3 m²) |
+| Polyester Sound Blanket 65mm | 65 mm x 450/610 mm x roll length | Roll |
+| Polyester Sound Blanket 75mm | 75 mm x 450/610 mm x roll length | Roll |
+| Polyester Sound Blanket 85mm | 85 mm x 450/610 mm x roll length | Roll |
+| Polyester Sound Blanket 100mm | 100 mm x 450/610 mm x roll length | Roll |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

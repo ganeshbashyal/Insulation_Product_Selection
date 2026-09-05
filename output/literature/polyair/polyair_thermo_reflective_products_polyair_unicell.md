@@ -41,10 +41,13 @@ Bradford Polyair Unicell is an extra heavy duty, commercial-grade thermo-reflect
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.0 | thermal_r_value | 4 | 22250 x 1350 | 1 |
-| R1.0 | thermal_r_value | 4 | 40000 x 1350 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Polyair Unicell 4.0 (1350mm x 40m) | 4 mm x 1350 mm x 40 m (54 m²) | Roll (Code: 127418) |
+| Polyair Unicell 4.0 (1500mm x 25m) | 4 mm x 1500 mm x 25 m (37.5 m²) | Roll (Code: 130301) |
+| Polyair Unicell White | 4 mm x 1350 mm x 40 m (54 m²) | Roll (Code: 130302) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

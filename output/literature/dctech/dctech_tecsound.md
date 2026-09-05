@@ -46,12 +46,15 @@ Tecsound is a high-density, polymer-based asphalt-free synthetic soundproofing m
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Rw 35 | acoustic_rw | 1.75 | 8000 x 1220 | 1 |
-| Rw 35 | acoustic_rw | 2.5 | 6000 x 1220 | 1 |
-| Rw 35 | acoustic_rw | 3.5 | 5000 x 1220 | 1 |
-| Rw 35 | acoustic_rw | 5 | 4000 x 1200 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Tecsound 50 | 1.22 m x 6 m x 2.5 mm (5 kg/m²) | Roll (7.32 m²) |
+| Tecsound 70 | 1.22 m x 5 m x 3.5 mm (7 kg/m²) | Roll (6.10 m²) |
+| Tecsound SY 70 (Self Adhesive) | 1.22 m x 5 m x 3.5 mm (7 kg/m²) | Roll (6.10 m²) |
+| Tecsound 2FT | 1.20 m x 5.5 m x 12 mm | Roll (6.60 m²) |
+| Tecsound S Band | 50 mm / 70 mm x 20 m | Roll |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

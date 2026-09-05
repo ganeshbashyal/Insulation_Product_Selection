@@ -1,7 +1,7 @@
 ---
 title: "Trade Select NC Thermal Break Strips Adhesive backed - Reflective Insulation | Trade Select"
-description: "Trade Select Non-combustible ThermalBreak Strip Adhesive Backed is a high-performance thermal break strip equipped with an aggressive high-tack pressu"
-keywords: "Trade Select NC Thermal Break Strips Adhesive backed, Trade Select reflective, thermal insulation, wall insulation, roof insulation, insulation Australia, Trade Select Australia"
+description: "Quality insulation engineered for Australian conditions. Reflects up to 97% of radiant heat, dramatically reducing summer cooling costs while providin"
+keywords: "Trade Select NC Thermal Break Strips Adhesive backed, Trade Select reflective, thermal insulation, insulation Australia, Trade Select Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: TRADE_SELECT_NC_THERMAL_BREAK_STRIPS_ADHESIVE_BACKED
 ---
@@ -10,88 +10,70 @@ family_id: TRADE_SELECT_NC_THERMAL_BREAK_STRIPS_ADHESIVE_BACKED
 
 **Trade Select Reflective** — reflective foil insulation for radiant heat control.
 
-Trade Select Non-combustible ThermalBreak Strip Adhesive Backed is a high-performance thermal break strip equipped with an aggressive high-tack pressure-sensitive adhesive backing for rapid installation onto steel framing. Tested to AS 1530.1 and classified as Not Deemed Combustible, it delivers an in-situ R0.24 thermal break that exceeds NCC Volume One and Two requirements for commercial and residential steel-framed constructions. Its peel-and-stick adhesive holds the strip firmly to steel studs or roof purlins in windy site conditions prior to cladding installation.
+Quality insulation engineered for Australian conditions. Reflects up to 97% of radiant heat, dramatically reducing summer cooling costs while providing an effective vapour barrier.
 
 ## Key features
 
-- High-tack self-adhesive backing with peel-off release liner for fast, one-person installation.
-- Classified as Not Deemed Combustible when tested in accordance with AS 1530.1.
-- Delivers in-situ R0.24 thermal break, exceeding the NCC R0.20 requirement.
-- Designed for commercial and multi-residential non-combustible steel frame construction.
-- High compression resistance provides a firm, stable base for cladding screws.
-- Adheres firmly to steel studs, purlins, and building membranes on site.
-- Termite, mould, and mildew resistant.
-- Suitable for all Bushfire Attack Levels (BAL Low to BAL-FZ) under AS 3959.
-- Sized in convenient 1200mm lengths for easy handling.
+- High-purity aluminium reflective facing.
+- reflects up to 97% of radiant heat.
+- lightweight and easy to install.
+- provides vapour barrier when properly sealed.
 
 ## Applications and selection
 
-- wall
-- external wall
-- roof
-- roofline
+- Thermal Break
 
 **Selection checklist**
 
-1. Confirm requirement for self-adhesive peel-and-stick backing for faster installation.
-2. Verify project requires AS 1530.1 non-combustible compliance for steel frames.
-3. Measure total linear meterage of framing to calculate pack requirement (60 lineal metres per pack).
-4. Ensure cladding screws have sufficient length to account for the 10mm strip thickness.
+1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
+2. Confirm the target rating and construction build-up with the project team.
+3. Confirm available cavity or fixing depth against the product dimensions.
+4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
+5. Record the suburb/postcode so climate-zone requirements can be checked.
 
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.5 | thermal_r_value | Varies | 1200 x 45 | 1 |
-| R1.5 | thermal_r_value | Varies | 1200 x 90 | 1 |
+| Thickness | Width | Length/strip | Adhesive | Pack lineal m | Pallet |
+| --- | --- | --- | --- | --- | --- |
+| 10 mm (R0.24) | 42 mm | 1200 mm | Full-width high-tack PSA | 60.0 lm (50 strips) | 40 packs (2400 lm) |
+| 10 mm (R0.24) | 45 mm | 1200 mm | Full-width high-tack PSA | 60.0 lm (50 strips) | 40 packs (2400 lm) |
+| 10 mm (R0.24) | 50 mm | 1200 mm | Full-width high-tack PSA | 60.0 lm (50 strips) | 36 packs (2160 lm) |
+| 10 mm (R0.24) | 75 mm | 1200 mm | Full-width high-tack PSA | 36.0 lm (30 strips) | 32 packs (1152 lm) |
+
+_Manufacturer size/packaging breakdown._
 
 ## Technical data
 
-| Property | Value | Standard |
+| Property | Value | Source |
 | --- | --- | --- |
-| Material | Non-combustible, chemically stable compression-resistant core with high-tack pressure-sensitive adhesive | - |
-| Thermal Break (In-Situ) | R0.24 (exceeds NCC R0.20 mandate) | AS/NZS 4859.1 |
-| Thickness | 10 mm | - |
-| Width | 45 mm | - |
-| Length | 1200 mm | - |
-| Combustibility | Not Deemed Combustible | AS 1530.1 |
-| Adhesive Backing | High-tack pressure-sensitive adhesive with release liner | - |
-| Pack Coverage | Pack of 50 strips (60 lineal metres) | - |
+| Product type | Reflective | Manufacturer catalogue |
+| Material | Reflective Membrane | Manufacturer catalogue |
+| Applications | Thermal Break | Manufacturer catalogue |
+| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
 
-Extracted from manufacturer datasheet: https://tradeselect.co/wp-content/uploads/
+
 
 ## Fire, testing and compliance context
 
-Tested to AS 1530.1 and classified as Not Deemed Combustible; Suitable for BAL-12.5 to BAL-FZ to AS 3959
-
-NCC 2019 / NCC 2022 Volume One (C1.9, C2D10, J4D3) and Volume Two (Part 3.7.1, H3D2, 13.2.2); AS 1530.1; AS/NZS 4859.1
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://tradeselect.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://proctorgroup.com.au/wp-content/uploads/2021/02/DCT_PIR_Silver_White_Tissue_Ver_2_2020-2.pdf.
 
-## Recommended accessories
-
-- Trade Select VapourTech wall wraps.
-- Extended-length self-drilling cladding screws.
-
 
 ## Limitations and warnings
 
-- Non-structural spacer; cladding fasteners must penetrate through strip into steel frame.
-- Steel substrate must be clean and dry to ensure proper adhesive grab.
-- Cladding should be installed without prolonged delay to protect the assembly.
+- Reflective performance requires maintained airspace..
+- conductive material - keep away from electrical services..
+- not suitable as sole insulation in cold climates..
+- confirm product selection matches specified thermal/acoustic/fire rating..
 
 ## Installation overview
 
-1. Ensure steel stud flange or purlin surface is clean, dry, and free from oil, grease, or dust.
-2. Install pliable wall wrap or roof sarking over the steel framing in accordance with AS/NZS 4200.2.
-3. Peel back the protective release liner from the self-adhesive backing of the thermal break strip.
-4. Press the strip firmly along the steel stud or purlin face, ensuring continuous adhesive contact.
-5. Butt consecutive 1200mm strips tightly end-to-end along the entire length of the framing member.
-6. Fasten exterior cladding, battens, or roofing directly through the strip into the steel frame.
+Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Reflective performance requires maintained airspace.
 
 ## Safety and handling
 
@@ -99,11 +81,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Zero ODP; low VOC emissions; solvent-free adhesive; non-toxic
+Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
 
 ## Warranty, returns and support
 
-15 Year Product Warranty backed by Ametalin
+No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
 
 ## Specification starting point
 

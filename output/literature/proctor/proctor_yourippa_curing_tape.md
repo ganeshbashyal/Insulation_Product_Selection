@@ -41,9 +41,11 @@ wall
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R0.1 | thermal_r_value | 50 | 25000 x 50 | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| YouRippa Curing Tape 48mm | 48 mm x 25 m | Roll |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

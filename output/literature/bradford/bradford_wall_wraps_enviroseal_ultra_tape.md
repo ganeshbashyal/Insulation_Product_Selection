@@ -41,9 +41,11 @@ Bradford ULTRAtape (Enviroseal Ultra Tape) is a high-performance, linerless wove
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| R1.5 | thermal_r_value | 60 | Varies | 1 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Bradford ULTRAtape 60mm x 25m | 60 mm x 25 m | Roll (Code: 471825) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 

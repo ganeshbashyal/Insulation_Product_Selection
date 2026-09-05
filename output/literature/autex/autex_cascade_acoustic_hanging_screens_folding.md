@@ -41,9 +41,11 @@ Autex Cascade Acoustic Hanging Screens - Folding are suspended acoustic space di
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Rw 35 | acoustic_rw | Varies | 2400 x 1200 | 2 |
+| Variant | Size / rating | Pack |
+| --- | --- | --- |
+| Cascade Folding Screen (Pattern F1-F7) | 1200 mm x 2400 mm x 12 mm | Kit (Screen + Suspension hardware) |
+
+_Variants from the manufacturer datasheet._
 
 ## Technical data
 
