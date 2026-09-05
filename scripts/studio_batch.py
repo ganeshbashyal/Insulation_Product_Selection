@@ -128,23 +128,30 @@ def _result_path(batch_no: int) -> Path:
 
 
 def _strip_citations(raw: str) -> str:
-    """Remove AI Studio's grounding citation artifacts that corrupt the JSON.
+    """Remove AI Studio grounding citation artifacts that corrupt the JSON.
 
-    Grounded responses inline markers like `[1]`, `[2]` and `(https://www.google.com/url?...)`
-    inside string/array values. Strip them so the result parses as clean JSON.
+    Grounded replies inline markers like `[1]`, `[2]`, `(google.com/url?...)` and
+    `(vertexaisearch...)` inside string and array values, sometimes replacing an
+    array's opening `[` so a field becomes `"features":[1],(url)"a","b"`. Strip the
+    markers and repair the structural damage so the result parses as clean JSON.
     """
-    # drop google-redirect citation urls: (https://www.google.com/url?...) or bare vertexaisearch links
+    # 1. drop citation URLs (parenthesised or bare)
     raw = re.sub(r"\(https?://(?:www\.)?google\.com/url\?[^)\s]*\)", "", raw)
+    raw = re.sub(r"\(https?://vertexaisearch\.cloud\.google\.com[^)\s]*\)", "", raw)
     raw = re.sub(r"https?://vertexaisearch\.cloud\.google\.com[^\s)\]\",]*", "", raw)
-    # drop bare numeric citation markers used as array entries: [[2],] or , [3],
-    raw = re.sub(r"\[\s*\d+\s*\]\s*,?", "", raw)
-    # collapse the empty slots/commas the removals leave behind
-    raw = re.sub(r",\s*,+", ",", raw)
+    # 2. an array whose opener was eaten by citations: `"key": [1],[2](url)"a"` -> `"key": ["a"`
+    raw = re.sub(r'(:\s*)(?:\[\s*\d+(?:\s*,\s*\d+)*\s*\]\s*,?\s*)+(")', r"\1[\2", raw)
+    # 3. drop remaining inline citation markers: [1], [2][3], []
+    raw = re.sub(r"\[\s*\d+(?:\s*,\s*\d+)*\s*\]", "", raw)
+    # 4. empty array markers left as stray [] inside strings
+    raw = re.sub(r"\[\s*\]", "", raw)
+    # 5. collapse commas/empties left behind
+    raw = re.sub(r",(\s*,)+", ",", raw)
     raw = re.sub(r"\[\s*,", "[", raw)
     raw = re.sub(r",\s*\]", "]", raw)
     raw = re.sub(r",\s*\}", "}", raw)
-    # tidy double quotes left adjacent to removed markers
-    raw = re.sub(r'"\s*\]', '"]', raw)
+    raw = re.sub(r":\s*,", ': ""', raw)         # `"key": ,` -> empty string
+    raw = re.sub(r'"\s*\n\s*,', '",', raw)      # stray comma after string
     return raw
 
 
@@ -162,17 +169,21 @@ def ingest_batch(batch_no: int) -> None:
     try:
         items = json.loads(candidate)
     except json.JSONDecodeError:
-        # AI Studio grounding sometimes inlines citation markers that break
-        # strict JSON; strip them and retry.
-        items = None
+        # AI Studio grounding inlines citation markers that break strict JSON.
+        # Strip what we can, then fall back to a tolerant repair parser.
         cleaned = _strip_citations(candidate)
         try:
             items = json.loads(cleaned)
             print("note: stripped grounding citation markers to parse the result")
-        except json.JSONDecodeError as exc:
-            print(f"invalid JSON even after cleaning citations: {exc}")
-            print("tip: re-run the batch in AI Studio and ask it to 'return clean JSON with no citation markers'")
-            sys.exit(1)
+        except json.JSONDecodeError:
+            try:
+                from json_repair import repair_json
+                items = json.loads(repair_json(cleaned))
+                print("note: repaired malformed JSON with json-repair")
+            except Exception as exc:
+                print(f"invalid JSON even after citation stripping and repair: {exc}")
+                print("tip: re-run the batch in AI Studio and ask it to 'return clean JSON with no citation markers'")
+                sys.exit(1)
 
     by_id = {f["family_id"]: (mdir, f) for mdir, f in all_families()}
     written = failed = 0
