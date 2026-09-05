@@ -1,0 +1,121 @@
+{
+  "schema_version": "2.0",
+  "scope": "Hushtec product families",
+  "rating_scale": "1 = low relevance, 3 = useful, 5 = primary strength; ratings guide discovery and are not compliance or performance certificates",
+  "families": [
+    {
+      "family_id": "HUSHTEC_ACOUSTIC_BARRIER",
+      "manufacturer": "Hushtec",
+      "name": "Hushtec Acoustic Barrier",
+      "category": "Acoustic Barrier",
+      "primary_function": "Acoustic Barrier insulation product from Hushtec.",
+      "applications": [
+        "Internal Wall | Ceiling | Floor | General Acoustic"
+      ],
+      "keywords": [
+        "acoustic barrier",
+        "hushtec",
+        "mlv 4kg/m2 1.2m x 6m roll"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 3,
+        "sustainability": 3,
+        "installation_practicality": 3,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Initial categorization of Hushtec Acoustic Barrier products. Scores based on product category.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "acoustic_barrier.md",
+      "detailed_knowledge_status": "initial_2026-09-05",
+      "source_url": "https://www.hushtec.com.au/",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 2
+    },
+    {
+      "family_id": "HUSHTEC_BATT",
+      "manufacturer": "Hushtec",
+      "name": "Hushtec Batt",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Hushtec.",
+      "applications": [
+        "Internal Wall | Ceiling | Floor | General Acoustic"
+      ],
+      "keywords": [
+        "batt",
+        "hushtec",
+        "mlc 2kg/m2 1.3m x 20m roll"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Initial categorization of Hushtec Batt products. Scores based on product category.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "batt.md",
+      "detailed_knowledge_status": "initial_2026-09-05",
+      "source_url": "https://www.hushtec.com.au/",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 2
+    },
+    {
+      "family_id": "HUSHTEC_REFLECTIVE",
+      "manufacturer": "Hushtec",
+      "name": "Hushtec Reflective",
+      "category": "Reflective",
+      "primary_function": "Reflective insulation product from Hushtec.",
+      "applications": [
+        "Metal Roof / Shed | External Wall"
+      ],
+      "keywords": [
+        "reflective",
+        "hushtec",
+        "performance series panels"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 3,
+        "sustainability": 3,
+        "installation_practicality": 3,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Initial categorization of Hushtec Reflective products. Scores based on product category.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "reflective.md",
+      "detailed_knowledge_status": "initial_2026-09-05",
+      "source_url": "https://www.hushtec.com.au/",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    }
+  ]
+}

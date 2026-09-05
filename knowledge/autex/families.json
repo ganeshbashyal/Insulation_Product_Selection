@@ -1,0 +1,126 @@
+{
+  "schema_version": "2.0",
+  "scope": "Autex product families",
+  "rating_scale": "1 = low relevance, 3 = useful, 5 = primary strength; ratings guide discovery and are not compliance or performance certificates",
+  "families": [
+    {
+      "family_id": "AUTEX_ACCESSORY",
+      "manufacturer": "Autex",
+      "name": "Autex Accessory",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Autex.",
+      "applications": [
+        "Internal Wall | Ceiling | General Acoustic",
+        "General Installation"
+      ],
+      "keywords": [
+        "accessory",
+        "autex",
+        "autex frontier fins - non-standard powder coated extrusions - 150mm"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Initial categorization of Autex Accessory products. Scores based on product category.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "accessory.md",
+      "detailed_knowledge_status": "initial_2026-09-05",
+      "source_url": "https://www.autex.com.au/",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 21
+    },
+    {
+      "family_id": "AUTEX_BATT",
+      "manufacturer": "Autex",
+      "name": "Autex Batt",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Autex.",
+      "applications": [
+        "Internal Wall | Ceiling | General Acoustic",
+        "Ceiling | General Acoustic"
+      ],
+      "keywords": [
+        "batt",
+        "autex",
+        "autex frontier fins - standard kit 12mm - 2400 x 150 - category 1"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Initial categorization of Autex Batt products. Scores based on product category.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "batt.md",
+      "detailed_knowledge_status": "initial_2026-09-05",
+      "source_url": "https://www.autex.com.au/",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 107
+    },
+    {
+      "family_id": "AUTEX_PANEL",
+      "manufacturer": "Autex",
+      "name": "Autex Panel",
+      "category": "Panel",
+      "primary_function": "Panel insulation product from Autex.",
+      "applications": [
+        "Internal Wall | Ceiling | General Acoustic",
+        "Internal Wall | General Acoustic",
+        "Ceiling",
+        "Internal Wall"
+      ],
+      "keywords": [
+        "panel",
+        "autex",
+        "autex vertiface - standard roll rate"
+      ],
+      "scores": {
+        "acoustic_comfort": 4,
+        "energy_efficiency": 3,
+        "sustainability": 3,
+        "installation_practicality": 3,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Initial categorization of Autex Panel products. Scores based on product category.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "panel.md",
+      "detailed_knowledge_status": "initial_2026-09-05",
+      "source_url": "https://www.autex.com.au/",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 196
+    }
+  ]
+}

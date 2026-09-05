@@ -1,4 +1,4 @@
-"""Build the checked-in Thermotec/Fletcher bot catalogue from the validated Sheet1 export."""
+"""Build the all-manufacturer bot catalogue from the validated Sheet1 export."""
 from __future__ import annotations
 
 import argparse
@@ -35,12 +35,45 @@ def thermotec_family_id(row: pd.Series) -> str:
     return next((family_id for pattern, family_id in THERMOTEC_RULES if re.search(pattern, value)), "UNMAPPED")
 
 
+def get_family_id_for_product(row: pd.Series, manufacturer: str, families: dict) -> str:
+    """Generic family mapping based on manufacturer and product category."""
+    manufacturer_lower = str(manufacturer).strip().casefold()
+    
+    # For thermotec and fletcher, use existing specific rules
+    if manufacturer_lower == "thermotec":
+        return thermotec_family_id(row)
+    elif manufacturer_lower == "fletcher":
+        return fletcher_family_id(row)
+    
+    # For all other manufacturers, map based on category
+    category = str(row.get('Category', '')).strip() if pd.notna(row.get('Category')) else ''
+    mfg_normalized = str(manufacturer).lower().replace(' ', '')
+    
+    # Find matching family by manufacturer and category
+    for family_id, family in families.items():
+        if family.get('manufacturer', '').lower().replace(' ', '') == mfg_normalized:
+            family_category = family.get('category', '').lower()
+            if category.lower() in family_category or family_category in category.lower():
+                return family_id
+    
+    # If no exact match, try to find any family for this manufacturer
+    for family_id, family in families.items():
+        if family.get('manufacturer', '').lower().replace(' ', '') == mfg_normalized:
+            return family_id
+    
+    return "UNMAPPED"
+
+
 def load_families() -> dict[str, dict]:
     result = {}
-    for manufacturer in ("thermotec", "fletcher"):
-        path = ROOT / "knowledge" / manufacturer / "families.json"
-        for family in json.loads(path.read_text(encoding="utf-8"))["families"]:
-            result[family["family_id"]] = {**family, "manufacturer": manufacturer.title()}
+    # Load families from all manufacturers in knowledge directory
+    knowledge_dir = ROOT / "knowledge"
+    for mfg_dir in knowledge_dir.iterdir():
+        if mfg_dir.is_dir():
+            families_path = mfg_dir / "families.json"
+            if families_path.exists():
+                for family in json.loads(families_path.read_text(encoding="utf-8"))["families"]:
+                    result[family["family_id"]] = {**family, "manufacturer": family.get("manufacturer", mfg_dir.name.title())}
     return result
 
 
@@ -50,13 +83,13 @@ def clean(value):
 
 def build(source: Path, output: Path, source_retrieved_at: str, manifest_output: Path) -> pd.DataFrame:
     rows = pd.read_excel(source, sheet_name="Sheet1")
-    rows = rows[rows["Manufacturer Name"].astype(str).str.casefold().isin(["thermotec", "fletcher"])].copy()
+    # Process all manufacturers
     families = load_families()
     evidence = {
         record["family_id"]: record
         for record in json.loads((ROOT / "knowledge" / "performance_evidence.json").read_text(encoding="utf-8"))["families"]
     }
-    rows["family_id"] = rows.apply(lambda row: thermotec_family_id(row) if str(row["Manufacturer Name"]).casefold() == "thermotec" else fletcher_family_id(row), axis=1)
+    rows["family_id"] = rows.apply(lambda row: get_family_id_for_product(row, row.get("Manufacturer Name", ""), families), axis=1)
     if (rows["family_id"] == "UNMAPPED").any():
         names = rows.loc[rows["family_id"] == "UNMAPPED", "Our Product Name"].astype(str).unique()
         raise ValueError(f"Unmapped selected products: {', '.join(names[:10])}")

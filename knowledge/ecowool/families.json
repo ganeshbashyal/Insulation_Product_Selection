@@ -1,0 +1,162 @@
+{
+  "schema_version": "2.0",
+  "scope": "Ecowool product families",
+  "rating_scale": "1 = low relevance, 3 = useful, 5 = primary strength; ratings guide discovery and are not compliance or performance certificates",
+  "families": [
+    {
+      "family_id": "ECOWOOL_ACCESSORY",
+      "manufacturer": "Ecowool",
+      "name": "Ecowool Accessory",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Ecowool.",
+      "applications": [
+        "Sealing Tape"
+      ],
+      "keywords": [
+        "accessory",
+        "ecowool",
+        "eco 351501"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Initial categorization of Ecowool Accessory products. Scores based on product category.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "accessory.md",
+      "detailed_knowledge_status": "initial_2026-09-05",
+      "source_url": "https://www.ecowool.com.au/",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "ECOWOOL_BATT",
+      "manufacturer": "Ecowool",
+      "name": "Ecowool Batt",
+      "category": "Batt",
+      "primary_function": "Batt insulation product from Ecowool.",
+      "applications": [
+        "Ceiling | Wall",
+        "Internal Wall | Acoustic",
+        "Acoustic",
+        "Roof Blanket"
+      ],
+      "keywords": [
+        "batt",
+        "ecowool",
+        "eco 600014"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 5,
+        "sustainability": 4,
+        "installation_practicality": 4,
+        "compliance_readiness": 4
+      },
+      "score_notes": "Initial categorization of Ecowool Batt products. Scores based on product category.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "batt.md",
+      "detailed_knowledge_status": "initial_2026-09-05",
+      "source_url": "https://www.ecowool.com.au/",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 54
+    },
+    {
+      "family_id": "ECOWOOL_ROLL",
+      "manufacturer": "Ecowool",
+      "name": "Ecowool Roll",
+      "category": "Roll",
+      "primary_function": "Roll insulation product from Ecowool.",
+      "applications": [
+        "Internal Wall | Acoustic"
+      ],
+      "keywords": [
+        "roll",
+        "ecowool",
+        "eco 616002"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 3,
+        "sustainability": 3,
+        "installation_practicality": 3,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Initial categorization of Ecowool Roll products. Scores based on product category.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "roll.md",
+      "detailed_knowledge_status": "initial_2026-09-05",
+      "source_url": "https://www.ecowool.com.au/",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "ECOWOOL_WRAP",
+      "manufacturer": "Ecowool",
+      "name": "Ecowool Wrap",
+      "category": "Wrap",
+      "primary_function": "Wrap insulation product from Ecowool.",
+      "applications": [
+        "Wall Wrap | Roof Wrap"
+      ],
+      "keywords": [
+        "wrap",
+        "ecowool",
+        "eco tt-10501"
+      ],
+      "scores": {
+        "acoustic_comfort": 2,
+        "energy_efficiency": 3,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Initial categorization of Ecowool Wrap products. Scores based on product category.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "wrap.md",
+      "detailed_knowledge_status": "initial_2026-09-05",
+      "source_url": "https://www.ecowool.com.au/",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 2
+    }
+  ]
+}

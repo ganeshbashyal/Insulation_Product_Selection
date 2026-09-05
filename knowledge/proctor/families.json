@@ -1,0 +1,274 @@
+{
+  "schema_version": "2.0",
+  "scope": "Proctor product families",
+  "rating_scale": "1 = low relevance, 3 = useful, 5 = primary strength; ratings guide discovery and are not compliance or performance certificates",
+  "families": [
+    {
+      "family_id": "PROCTOR_ACCESSORY",
+      "manufacturer": "Proctor",
+      "name": "Proctor Accessory",
+      "category": "Accessory",
+      "primary_function": "Accessory insulation product from Proctor.",
+      "applications": [
+        "Passive House Membrane",
+        "Ventilation"
+      ],
+      "keywords": [
+        "accessory",
+        "proctor",
+        "proctor passive rainscreen with integrated tape (rs-it)"
+      ],
+      "scores": {
+        "acoustic_comfort": 1,
+        "energy_efficiency": 1,
+        "sustainability": 2,
+        "installation_practicality": 5,
+        "compliance_readiness": 2
+      },
+      "score_notes": "Initial categorization of Proctor Accessory products. Scores based on product category.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "accessory.md",
+      "detailed_knowledge_status": "initial_2026-09-05",
+      "source_url": "https://www.proctor.com.au/",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 31
+    },
+    {
+      "family_id": "PROCTOR_ACOUSTIC_MEMBRANE",
+      "manufacturer": "Proctor",
+      "name": "Proctor Acoustic Membrane",
+      "category": "Acoustic Membrane",
+      "primary_function": "Acoustic Membrane insulation product from Proctor.",
+      "applications": [
+        "Acoustic Treatment"
+      ],
+      "keywords": [
+        "acoustic membrane",
+        "proctor",
+        "proctor q-silence p80"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 3,
+        "sustainability": 3,
+        "installation_practicality": 3,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Initial categorization of Proctor Acoustic Membrane products. Scores based on product category.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "acoustic_membrane.md",
+      "detailed_knowledge_status": "initial_2026-09-05",
+      "source_url": "https://www.proctor.com.au/",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "PROCTOR_DRAINAGE_VENTILATION",
+      "manufacturer": "Proctor",
+      "name": "Proctor Drainage / Ventilation",
+      "category": "Drainage / Ventilation",
+      "primary_function": "Drainage / Ventilation insulation product from Proctor.",
+      "applications": [
+        "Drainage / Ventilation"
+      ],
+      "keywords": [
+        "drainage / ventilation",
+        "proctor",
+        "proctorgeo irma (3m)"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 3,
+        "sustainability": 3,
+        "installation_practicality": 3,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Initial categorization of Proctor Drainage / Ventilation products. Scores based on product category.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "drainage_ventilation.md",
+      "detailed_knowledge_status": "initial_2026-09-05",
+      "source_url": "https://www.proctor.com.au/",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 8
+    },
+    {
+      "family_id": "PROCTOR_MEMBRANE",
+      "manufacturer": "Proctor",
+      "name": "Proctor Membrane",
+      "category": "Membrane",
+      "primary_function": "Membrane insulation product from Proctor.",
+      "applications": [
+        "Passive House Membrane"
+      ],
+      "keywords": [
+        "membrane",
+        "proctor",
+        "proctor passive wraptite sa"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 3,
+        "sustainability": 3,
+        "installation_practicality": 3,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Initial categorization of Proctor Membrane products. Scores based on product category.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "membrane.md",
+      "detailed_knowledge_status": "initial_2026-09-05",
+      "source_url": "https://www.proctor.com.au/",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 5
+    },
+    {
+      "family_id": "PROCTOR_MESH",
+      "manufacturer": "Proctor",
+      "name": "Proctor Mesh",
+      "category": "Mesh",
+      "primary_function": "Mesh insulation product from Proctor.",
+      "applications": [
+        "Bushfire / Ember Protection"
+      ],
+      "keywords": [
+        "mesh",
+        "proctor",
+        "proctor bal 40 mesh 15m x 1m"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 3,
+        "sustainability": 3,
+        "installation_practicality": 3,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Initial categorization of Proctor Mesh products. Scores based on product category.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "mesh.md",
+      "detailed_knowledge_status": "initial_2026-09-05",
+      "source_url": "https://www.proctor.com.au/",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 1
+    },
+    {
+      "family_id": "PROCTOR_REFLECTIVE",
+      "manufacturer": "Proctor",
+      "name": "Proctor Reflective",
+      "category": "Reflective",
+      "primary_function": "Reflective insulation product from Proctor.",
+      "applications": [
+        "Wall Wrap / Sarking"
+      ],
+      "keywords": [
+        "reflective",
+        "proctor",
+        "proctorwrap rw 1.5m x 30m"
+      ],
+      "scores": {
+        "acoustic_comfort": 3,
+        "energy_efficiency": 3,
+        "sustainability": 3,
+        "installation_practicality": 3,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Initial categorization of Proctor Reflective products. Scores based on product category.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "reflective.md",
+      "detailed_knowledge_status": "initial_2026-09-05",
+      "source_url": "https://www.proctor.com.au/",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 11
+    },
+    {
+      "family_id": "PROCTOR_WRAP",
+      "manufacturer": "Proctor",
+      "name": "Proctor Wrap",
+      "category": "Wrap",
+      "primary_function": "Wrap insulation product from Proctor.",
+      "applications": [
+        "Wall Wrap / Sarking"
+      ],
+      "keywords": [
+        "wrap",
+        "proctor",
+        "proctorwrap high tack tape (10 rolls per carton)"
+      ],
+      "scores": {
+        "acoustic_comfort": 2,
+        "energy_efficiency": 3,
+        "sustainability": 2,
+        "installation_practicality": 4,
+        "compliance_readiness": 3
+      },
+      "score_notes": "Initial categorization of Proctor Wrap products. Scores based on product category.",
+      "confidence": "manufacturer_supported",
+      "knowledge_file": "wrap.md",
+      "detailed_knowledge_status": "initial_2026-09-05",
+      "source_url": "https://www.proctor.com.au/",
+      "questions": [
+        "What is the primary application for this product?",
+        "What performance requirements apply?",
+        "What space or area constraints exist?"
+      ],
+      "human_gates": [
+        "Verify manufacturer identity from primary source",
+        "Confirm product specifications and performance claims",
+        "Validate compliance with relevant standards"
+      ],
+      "product_count": 4
+    }
+  ]
+}
