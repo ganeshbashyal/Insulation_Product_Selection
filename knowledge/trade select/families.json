@@ -18,17 +18,17 @@
         "trade select"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 4,
+        "acoustic_comfort": 2,
+        "energy_efficiency": 5,
         "sustainability": 2,
         "installation_practicality": 4,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Trade Select Aluminium Glass Foil Tape: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Trade Select Aluminium Glass Foil Tape: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "aluminium_glass_foil_tape.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "source_url": "https://tradeselect.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -39,7 +39,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "TRADE_SELECT_BALLISTIC_POINT_INSULATION_FASTENE",
@@ -56,17 +58,17 @@
         "trade select"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 4,
+        "acoustic_comfort": 2,
+        "energy_efficiency": 5,
         "sustainability": 2,
         "installation_practicality": 4,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Trade Select Ballistic Point Insulation Fastene: 10 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Trade Select Ballistic Point Insulation Fastene: 10 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "ballistic_point_insulation_fastene.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "source_url": "https://tradeselect.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -77,7 +79,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 10
+      "product_count": 10,
+      "legacy_source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "TRADE_SELECT_EASYSEAL_INSULATION_FLASHING_TAPE",
@@ -94,17 +98,17 @@
         "trade select"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 4,
+        "acoustic_comfort": 2,
+        "energy_efficiency": 5,
         "sustainability": 2,
         "installation_practicality": 4,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Trade Select EasySeal Insulation Flashing Tape: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Trade Select EasySeal Insulation Flashing Tape: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "easyseal_insulation_flashing_tape.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "source_url": "https://tradeselect.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -115,7 +119,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "legacy_source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "TRADE_SELECT_NC_THERMAL_BREAK_STRIPS",
@@ -132,17 +138,17 @@
         "trade select"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 4,
+        "acoustic_comfort": 2,
+        "energy_efficiency": 5,
         "sustainability": 2,
         "installation_practicality": 4,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Trade Select NC Thermal Break Strips: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Trade Select NC Thermal Break Strips: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "nc_thermal_break_strips.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "source_url": "https://tradeselect.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -153,7 +159,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "legacy_source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "TRADE_SELECT_NC_THERMAL_BREAK_STRIPS_ADHESIVE_BACKED",
@@ -170,17 +178,17 @@
         "trade select"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 4,
+        "acoustic_comfort": 2,
+        "energy_efficiency": 5,
         "sustainability": 2,
         "installation_practicality": 4,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Trade Select NC Thermal Break Strips Adhesive backed: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Trade Select NC Thermal Break Strips Adhesive backed: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "nc_thermal_break_strips_adhesive_backed.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "source_url": "https://tradeselect.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -191,7 +199,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "TRADE_SELECT_NON_COMBUSTIBLE_INSULATION_FLASHING_TAPE",
@@ -208,17 +218,17 @@
         "trade select"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 4,
+        "acoustic_comfort": 2,
+        "energy_efficiency": 5,
         "sustainability": 2,
         "installation_practicality": 4,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Trade Select Non-combustible Insulation Flashing Tape: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Trade Select Non-combustible Insulation Flashing Tape: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "non_combustible_insulation_flashing_tape.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "source_url": "https://tradeselect.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -229,7 +239,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "legacy_source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "TRADE_SELECT_REFLECTIVE",
@@ -248,17 +260,17 @@
         "trade select"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 4,
+        "acoustic_comfort": 2,
+        "energy_efficiency": 5,
         "sustainability": 2,
         "installation_practicality": 4,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Trade Select Reflective: 33 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Trade Select Reflective: 33 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "reflective.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "source_url": "https://tradeselect.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -269,7 +281,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 33
+      "product_count": 33,
+      "legacy_source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "TRADE_SELECT_THERMAL_BREAK_STRIPS",
@@ -286,17 +300,17 @@
         "trade select"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 4,
+        "acoustic_comfort": 2,
+        "energy_efficiency": 5,
         "sustainability": 2,
         "installation_practicality": 4,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Trade Select Thermal Break Strips: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Trade Select Thermal Break Strips: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "thermal_break_strips.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "source_url": "https://tradeselect.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -307,7 +321,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "legacy_source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "TRADE_SELECT_WRAP",
@@ -324,16 +340,16 @@
       ],
       "scores": {
         "acoustic_comfort": 2,
-        "energy_efficiency": 3,
+        "energy_efficiency": 5,
         "sustainability": 2,
         "installation_practicality": 4,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Trade Select Wrap: 8 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Trade Select Wrap: 8 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "wrap.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "source_url": "https://tradeselect.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -344,7 +360,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 8
+      "product_count": 8,
+      "legacy_source_url": "https://thermacon.com.au/wp-content/uploads/2025/09/Trade-Select-Sarking-HD-Technical-Data-Sheet-TPM-45763-2.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     }
   ]
 }

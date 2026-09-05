@@ -9,30 +9,20 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from family_scoring import classify_scores
 
 # Load Excel data
 EXCEL_FILE = Path(r"C:\Users\ganes\OneDrive\Desktop\Insulation Easy\Bot\Product_Master_Bot_KB_SKU_Matched_cleaned.xlsx")
 KNOWLEDGE_BASE_DIR = ROOT / "knowledge"
 
-# Scoring templates based on product categories
-CATEGORY_SCORES = {
-    "batt": {"acoustic_comfort": 3, "energy_efficiency": 5, "sustainability": 4, "installation_practicality": 4, "compliance_readiness": 4},
-    "blanket": {"acoustic_comfort": 3, "energy_efficiency": 5, "sustainability": 4, "installation_practicality": 3, "compliance_readiness": 4},
-    "board": {"acoustic_comfort": 2, "energy_efficiency": 4, "sustainability": 3, "installation_practicality": 3, "compliance_readiness": 4},
-    "foil": {"acoustic_comfort": 3, "energy_efficiency": 4, "sustainability": 2, "installation_practicality": 4, "compliance_readiness": 3},
-    "wrap": {"acoustic_comfort": 2, "energy_efficiency": 3, "sustainability": 2, "installation_practicality": 4, "compliance_readiness": 3},
-    "panel": {"acoustic_comfort": 4, "energy_efficiency": 3, "sustainability": 3, "installation_practicality": 3, "compliance_readiness": 3},
-    "pipe": {"acoustic_comfort": 2, "energy_efficiency": 4, "sustainability": 2, "installation_practicality": 4, "compliance_readiness": 3},
-    "accessory": {"acoustic_comfort": 1, "energy_efficiency": 1, "sustainability": 2, "installation_practicality": 5, "compliance_readiness": 2},
-}
+# Scoring templates live in scripts/family_scoring.py (imported above). Scores are
+# classification-aware (manufacturer-stated use), not based on physical form alone.
 
-def get_scores_for_category(category_name):
-    """Get default scores based on product category."""
-    category_lower = category_name.lower() if category_name else ""
-    for key, scores in CATEGORY_SCORES.items():
-        if key in category_lower:
-            return scores
-    return {"acoustic_comfort": 3, "energy_efficiency": 3, "sustainability": 3, "installation_practicality": 3, "compliance_readiness": 3}
+def get_scores_for_category(category_name, name="", applications=(), keywords=()):
+    """Get scores for a family, driven by its classification signals."""
+    return classify_scores(category_name, name=name, applications=applications, keywords=keywords)
 
 def normalize_family_name(name):
     """Convert product name to family ID format."""
@@ -113,15 +103,17 @@ def create_family_json_for_manufacturer(manufacturer_name, products_by_category)
         sample_product = products[0]['name'] if products else category
         sample_product = str(sample_product).strip() if sample_product else ""
         
+        app_list = list(set([str(p['product_use']).strip() for p in products if p['product_use'] and pd.notna(p['product_use'])]))
+        keyword_list = [category.lower(), manufacturer_name.lower(), sample_product.lower() if sample_product else category.lower()]
         family = {
             "family_id": family_id,
             "manufacturer": manufacturer_name,
             "name": f"{manufacturer_name} {category}",
             "category": category,
             "primary_function": f"{category} insulation product from {manufacturer_name}.",
-            "applications": list(set([str(p['product_use']).strip() for p in products if p['product_use'] and pd.notna(p['product_use'])])),
-            "keywords": [category.lower(), manufacturer_name.lower(), sample_product.lower() if sample_product else category.lower()],
-            "scores": get_scores_for_category(category),
+            "applications": app_list,
+            "keywords": keyword_list,
+            "scores": get_scores_for_category(category, name=f"{manufacturer_name} {category}", applications=app_list, keywords=keyword_list),
             "score_notes": f"Initial categorization of {manufacturer_name} {category} products. Scores based on product category.",
             "confidence": "manufacturer_supported",
             "knowledge_file": f"{normalize_family_name(category).lower()}.md",

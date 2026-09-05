@@ -23,7 +23,7 @@ priority_installation_practicality_confidence: medium
 gate_ncc_project_compliance: conditional_project_specific_evidence_required
 gate_fire_compliance: not_verified_per_sku
 gate_bal: not_verified
-official_datasheet_url: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+official_datasheet_url: https://www.autexacoustics.com.au/
 official_sds_url: https://insulvac.com.au/wp-content/uploads/2020/04/autex-material-safety-data-sheet-msds.pdf
 product_count: 4
 rating_basis: acoustic
@@ -170,9 +170,12 @@ Avoid:
 
 ### Tier 1 — current manufacturer source
 
-Technical Data Sheet: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+Technical Data Sheet: https://www.autexacoustics.com.au/
 
 Safety Data Sheet: https://insulvac.com.au/wp-content/uploads/2020/04/autex-material-safety-data-sheet-msds.pdf
+
+
+> Datasheet link audited 2026-09-05: repointed to the verified manufacturer site. Exact product TDS deep link still to be sourced; legacy reference: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
 
 Use this source for the canonical product identity, current grades, published ratings, primary applications and material composition.
 
@@ -231,7 +234,7 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
     "bal": "not_verified"
   },
   "callback_required": true,
-  "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf"
+  "source_url": "https://www.autexacoustics.com.au/"
 }
 ```
 
@@ -239,10 +242,10 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
 
 | Evidence type | Status | Reference |
 | --- | --- | --- |
-| Performance rating(s) | Manufacturer-published, not yet SKU-matched to current TDS | https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf |
-| Material composition | Manufacturer-claimed | https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf |
+| Performance rating(s) | Manufacturer-published, not yet SKU-matched to current TDS | https://www.autexacoustics.com.au/ |
+| Material composition | Manufacturer-claimed | https://www.autexacoustics.com.au/ |
 | Fire performance | Not verified per SKU | Pending SDS/test report review |
-| Installation guidance | Extracted from manufacturer spec text (see above) | https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf |
+| Installation guidance | Extracted from manufacturer spec text (see above) | https://www.autexacoustics.com.au/ |
 
 ## Quality checklist validation
 

@@ -18,17 +18,17 @@
         "sonata recital core"
       ],
       "scores": {
-        "acoustic_comfort": 4,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Sonata Acoustic Panels Sonata Recital Core: 48 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Sonata Acoustic Panels Sonata Recital Core: 48 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "sonata_recital_core.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.acransoundcontrol.com.au/media/website_pages/noise-control-products/acoustic-panels/sonata_acoustic_panels.pdf",
+      "source_url": "https://sonataacousticpanels.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -39,7 +39,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 48
+      "product_count": 48,
+      "legacy_source_url": "https://www.acransoundcontrol.com.au/media/website_pages/noise-control-products/acoustic-panels/sonata_acoustic_panels.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     }
   ]
 }

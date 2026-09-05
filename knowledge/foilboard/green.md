@@ -14,7 +14,7 @@ last_validated: 2026-09-05
 rating_framework_version: 1
 priority_sustainability_score: 3
 priority_sustainability_confidence: medium
-priority_energy_efficiency_score: 4
+priority_energy_efficiency_score: 5
 priority_energy_efficiency_confidence: medium
 priority_acoustic_comfort_score: 2
 priority_acoustic_comfort_confidence: medium
@@ -23,7 +23,7 @@ priority_installation_practicality_confidence: medium
 gate_ncc_project_compliance: conditional_project_specific_evidence_required
 gate_fire_compliance: not_verified_per_sku
 gate_bal: not_verified
-official_datasheet_url: https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf
+official_datasheet_url: https://www.foilboard.com.au/
 official_sds_url: https://insulationessentials.com.au/wp-content/uploads/2022/10/MSDS-Foilboard-Nov-2019.pdf
 product_count: 9
 rating_basis: thermal
@@ -114,7 +114,7 @@ These ratings are internal conversation aids. They determine useful follow-up qu
 | Customer priority | Internal rating | Confidence | Interpretation |
 | --- | ---: | --- | --- |
 | Sustainability | 3/5 | Medium | Based on product category norms; product-specific certification not yet verified. |
-| Energy efficiency | 4/5 | Medium | Based on thermal insulation (R-value); confirm per-SKU rating before quoting a thermal target. |
+| Energy efficiency | 5/5 | Medium | Based on thermal insulation (R-value); confirm per-SKU rating before quoting a thermal target. |
 | Acoustic comfort | 2/5 | Medium | Based on product category norms and any Rw/NRC ratings present in this family. |
 | Installation practicality | 3/5 | Medium | Based on manufacturer install notes above; confirm access and handling requirements per project. |
 
@@ -177,9 +177,12 @@ Avoid:
 
 ### Tier 1 — current manufacturer source
 
-Technical Data Sheet: https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf
+Technical Data Sheet: https://www.foilboard.com.au/
 
 Safety Data Sheet: https://insulationessentials.com.au/wp-content/uploads/2022/10/MSDS-Foilboard-Nov-2019.pdf
+
+
+> Datasheet link audited 2026-09-05: repointed to the verified manufacturer site. Exact product TDS deep link still to be sourced; legacy reference: https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf
 
 Use this source for the canonical product identity, current grades, published ratings, primary applications and material composition.
 
@@ -269,7 +272,7 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
     "bal": "not_verified"
   },
   "callback_required": true,
-  "source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf"
+  "source_url": "https://www.foilboard.com.au/"
 }
 ```
 
@@ -277,10 +280,10 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
 
 | Evidence type | Status | Reference |
 | --- | --- | --- |
-| Performance rating(s) | Manufacturer-published, not yet SKU-matched to current TDS | https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf |
-| Material composition | Manufacturer-claimed | https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf |
+| Performance rating(s) | Manufacturer-published, not yet SKU-matched to current TDS | https://www.foilboard.com.au/ |
+| Material composition | Manufacturer-claimed | https://www.foilboard.com.au/ |
 | Fire performance | Not verified per SKU | Pending SDS/test report review |
-| Installation guidance | Extracted from manufacturer spec text (see above) | https://pricewiseinsulation.com.au/wp-content/uploads/2025/03/Foilboard-GreenRigid-Planels-DataSheet-2025.pdf |
+| Installation guidance | Extracted from manufacturer spec text (see above) | https://www.foilboard.com.au/ |
 
 ## Quality checklist validation
 

@@ -16,6 +16,16 @@ def catalogue():
     return families
 
 
+def full_catalogue():
+    families = []
+    for path in sorted((ROOT / "knowledge").glob("*/families.json")):
+        document = json.loads(path.read_text(encoding="utf-8"))
+        for family in document["families"]:
+            family.setdefault("manufacturer", path.parent.name.title())
+            families.append(family)
+    return families
+
+
 def top(answers, scope=None):
     return rank_families(catalogue(), answers, scope)[0]
 
@@ -61,3 +71,40 @@ def test_singularisation_exception_keeps_services_intact():
     result = top({"challenge": "noise breakout", "application": "building services waste pipe", "priority": "acoustic comfort"}, "Thermotec")
     assert result["family_id"] in {"THERMOTEC_NUWRAP_5", "THERMOTEC_NUWRAP_XTRAFLEX"}
     assert result["reliable_match"] is True
+
+
+def test_thermal_enquiry_never_ranks_acoustic_only_family_first():
+    """Regression: form-based scoring used to give acoustic products
+    energy_efficiency 5, so a hot/cold house was offered acoustic desk
+    dividers and acoustic batts."""
+    answers = {
+        "challenge": "too hot in summer and cold in winter",
+        "application": "wall batts",
+        "priority": "energy savings",
+        "conditions": "cavity access",
+        "project": "house retrofit",
+    }
+    ranked = rank_families(full_catalogue(), answers, "Compare both")
+    winner = ranked[0]
+    assert "acoustic" not in winner["name"].casefold()
+    assert winner["scores"]["energy_efficiency"] >= 4
+    acoustic_only = [r for r in ranked[:10] if "acoustic" in r["name"].casefold() and r["scores"]["energy_efficiency"] <= 2]
+    assert acoustic_only == []
+
+
+def test_classification_scores_follow_manufacturer_use_not_form():
+    import sys
+    sys.path.insert(0, str(ROOT / "scripts"))
+    from family_scoring import classify_scores
+
+    acoustic_batt = classify_scores("Batt", name="Bradford Soundscreen Acoustic", applications=["Internal Wall | General Acoustic"])
+    assert acoustic_batt["acoustic_comfort"] == 5
+    assert acoustic_batt["energy_efficiency"] <= 2
+
+    thermal_batt = classify_scores("Batt", name="Bradford Gold Batts", applications=["Ceiling"])
+    assert thermal_batt["energy_efficiency"] == 5
+    assert thermal_batt["acoustic_comfort"] <= 3
+
+    accessory = classify_scores("Accessory", name="Autex Accessory", applications=["General Installation", "Internal Wall | Ceiling | General Acoustic"])
+    assert accessory["acoustic_comfort"] <= 1
+    assert accessory["energy_efficiency"] <= 1

@@ -18,17 +18,17 @@
         "bradford"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Bradford Acoustigard: 21 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Acoustigard: 21 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "acoustigard.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url": "https://www.csrbradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -39,7 +39,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 21
+      "product_count": 21,
+      "legacy_source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "BRADFORD_ANTICON_BLANKET",
@@ -56,17 +58,17 @@
         "bradford"
       ],
       "scores": {
-        "acoustic_comfort": 3,
+        "acoustic_comfort": 2,
         "energy_efficiency": 5,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Bradford Anticon Blanket: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Anticon Blanket: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "anticon_blanket.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url": "https://www.csrbradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -77,7 +79,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "BRADFORD_ANTICON_ROOFING_BLANKET_HEAVY_DUTY_FOIL",
@@ -94,17 +98,17 @@
         "bradford"
       ],
       "scores": {
-        "acoustic_comfort": 3,
+        "acoustic_comfort": 2,
         "energy_efficiency": 5,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Bradford Anticon Roofing Blanket - Heavy Duty Foil: 5 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Anticon Roofing Blanket - Heavy Duty Foil: 5 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "anticon_roofing_blanket_heavy_duty_foil.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url": "https://www.csrbradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -115,7 +119,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 5
+      "product_count": 5,
+      "legacy_source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "BRADFORD_ANTICON_ROOFING_BLANKET_LIGHT_DUTY_FOIL",
@@ -132,17 +138,17 @@
         "bradford"
       ],
       "scores": {
-        "acoustic_comfort": 3,
+        "acoustic_comfort": 2,
         "energy_efficiency": 5,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Bradford Anticon Roofing Blanket - Light Duty Foil: 7 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Anticon Roofing Blanket - Light Duty Foil: 7 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "anticon_roofing_blanket_light_duty_foil.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url": "https://www.csrbradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -153,7 +159,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 7
+      "product_count": 7,
+      "legacy_source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "BRADFORD_ANTICON_ROOFING_BLANKET_MEDIUM_DUTY_FOIL",
@@ -170,17 +178,17 @@
         "bradford"
       ],
       "scores": {
-        "acoustic_comfort": 3,
+        "acoustic_comfort": 2,
         "energy_efficiency": 5,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Bradford Anticon Roofing Blanket - Medium Duty Foil: 7 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Anticon Roofing Blanket - Medium Duty Foil: 7 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "anticon_roofing_blanket_medium_duty_foil.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url": "https://www.csrbradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -191,7 +199,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 7
+      "product_count": 7,
+      "legacy_source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "BRADFORD_FIBERTEX",
@@ -208,17 +218,17 @@
         "fibertex"
       ],
       "scores": {
-        "acoustic_comfort": 2,
+        "acoustic_comfort": 4,
         "energy_efficiency": 4,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Bradford Fibertex: 13 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Fibertex: 13 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "fibertex.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url": "https://www.csrbradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -229,7 +239,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 13
+      "product_count": 13,
+      "legacy_source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "BRADFORD_FIRE_PROTECTION_DAMPER_STRIP",
@@ -246,17 +258,17 @@
         "fire protection - damper strip"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 2,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
-        "compliance_readiness": 4
+        "compliance_readiness": 5
       },
-      "score_notes": "Deep-dive scoring for Bradford Fire Protection - Damper Strip: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Fire Protection - Damper Strip: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "fire_protection_damper_strip.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url": "https://www.csrbradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -267,7 +279,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "legacy_source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "BRADFORD_FIRE_PROTECTION_FILLER",
@@ -284,17 +298,17 @@
         "fire protection - filler"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 2,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
-        "compliance_readiness": 4
+        "compliance_readiness": 5
       },
-      "score_notes": "Deep-dive scoring for Bradford Fire Protection - Filler: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Fire Protection - Filler: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "fire_protection_filler.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url": "https://www.csrbradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -305,7 +319,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "legacy_source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "BRADFORD_FIRE_PROTECTION_METAL_ROOF",
@@ -322,17 +338,17 @@
         "fire protection - metal roof"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 2,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
-        "compliance_readiness": 4
+        "compliance_readiness": 5
       },
-      "score_notes": "Deep-dive scoring for Bradford Fire Protection - Metal Roof: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Fire Protection - Metal Roof: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "fire_protection_metal_roof.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url": "https://www.csrbradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -343,7 +359,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "legacy_source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "BRADFORD_FIRE_PROTECTION_TILE_ROOF",
@@ -360,17 +378,17 @@
         "fire protection - tile roof"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 2,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
-        "compliance_readiness": 4
+        "compliance_readiness": 5
       },
-      "score_notes": "Deep-dive scoring for Bradford Fire Protection - Tile Roof: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Fire Protection - Tile Roof: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "fire_protection_tile_roof.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url": "https://www.csrbradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -381,7 +399,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "legacy_source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "BRADFORD_FIRE_PROTECTION_WALL_BATT",
@@ -398,17 +418,17 @@
         "fire protection - wall batt"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 2,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
-        "compliance_readiness": 4
+        "compliance_readiness": 5
       },
-      "score_notes": "Deep-dive scoring for Bradford Fire Protection - Wall Batt: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Fire Protection - Wall Batt: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "fire_protection_wall_batt.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url": "https://www.csrbradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -419,7 +439,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "legacy_source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "BRADFORD_FIRESEAL_PARTY_WALL_BATTS",
@@ -436,17 +458,17 @@
         "fireseal party wall batts"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 2,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
-        "compliance_readiness": 4
+        "compliance_readiness": 5
       },
-      "score_notes": "Deep-dive scoring for Bradford Fireseal Party Wall Batts: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Fireseal Party Wall Batts: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "fireseal_party_wall_batts.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url": "https://www.csrbradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -457,7 +479,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "legacy_source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "BRADFORD_GOLD_BATTS",
@@ -475,17 +499,17 @@
         "gold batts"
       ],
       "scores": {
-        "acoustic_comfort": 3,
+        "acoustic_comfort": 2,
         "energy_efficiency": 5,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Bradford Gold Batts: 16 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Gold Batts: 16 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "gold_batts.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url": "https://www.csrbradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -496,7 +520,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 16
+      "product_count": 16,
+      "legacy_source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "BRADFORD_GOLD_HI_PERFORMANCE_BATTS",
@@ -514,17 +540,17 @@
         "gold hi-performance batts"
       ],
       "scores": {
-        "acoustic_comfort": 3,
+        "acoustic_comfort": 2,
         "energy_efficiency": 5,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Bradford Gold Hi-Performance Batts: 8 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Gold Hi-Performance Batts: 8 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "gold_hi_performance_batts.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url": "https://www.csrbradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -535,7 +561,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 8
+      "product_count": 8,
+      "legacy_source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "BRADFORD_MULTITEL_FOIL_FACED",
@@ -552,17 +580,17 @@
         "multitel - foil - faced"
       ],
       "scores": {
-        "acoustic_comfort": 3,
+        "acoustic_comfort": 2,
         "energy_efficiency": 5,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Bradford Multitel - Foil - Faced: 5 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Multitel - Foil - Faced: 5 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "multitel_foil_faced.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url": "https://www.csrbradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -573,7 +601,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 5
+      "product_count": 5,
+      "legacy_source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "BRADFORD_OPTIMO",
@@ -590,17 +620,17 @@
         "bradford optimo"
       ],
       "scores": {
-        "acoustic_comfort": 3,
+        "acoustic_comfort": 2,
         "energy_efficiency": 5,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Bradford Optimo: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Optimo: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "optimo.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url": "https://www.csrbradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -611,7 +641,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "BRADFORD_POLYESTER_POLYMAX",
@@ -628,17 +660,17 @@
         "polyester - polymax"
       ],
       "scores": {
-        "acoustic_comfort": 3,
+        "acoustic_comfort": 2,
         "energy_efficiency": 5,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Bradford Polyester - Polymax: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Polyester - Polymax: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "polyester_polymax.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url": "https://www.csrbradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -649,7 +681,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 4
+      "product_count": 4,
+      "legacy_source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "BRADFORD_POLYMAX_CEILING_INSULATION",
@@ -666,17 +700,17 @@
         "polymax ceiling insulation"
       ],
       "scores": {
-        "acoustic_comfort": 3,
+        "acoustic_comfort": 2,
         "energy_efficiency": 5,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Bradford Polymax Ceiling Insulation: 8 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Polymax Ceiling Insulation: 8 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "polymax_ceiling_insulation.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url": "https://www.csrbradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -687,7 +721,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 8
+      "product_count": 8,
+      "legacy_source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "BRADFORD_SOUNDCSREEN_ACOUSTIC_BATTS",
@@ -704,17 +740,17 @@
         "bradford soundcsreen acoustic batts"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Bradford Soundcsreen Acoustic Batts: 7 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Soundcsreen Acoustic Batts: 7 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "soundcsreen_acoustic_batts.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url": "https://www.csrbradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -725,7 +761,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 7
+      "product_count": 7,
+      "legacy_source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "BRADFORD_SOUNDSCREEN_ACOUSTIC_BRADFORD",
@@ -742,17 +780,17 @@
         "soundscreen acoustic - bradford"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 5,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Bradford Soundscreen Acoustic - Bradford: 3 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Soundscreen Acoustic - Bradford: 3 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "soundscreen_acoustic_bradford.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url": "https://www.csrbradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -763,7 +801,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 3
+      "product_count": 3,
+      "legacy_source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "BRADFORD_SUPERTEL_FACED_HEAVY_DUTY_FOIL",
@@ -780,17 +820,17 @@
         "supertel faced - heavy duty foil"
       ],
       "scores": {
-        "acoustic_comfort": 3,
+        "acoustic_comfort": 2,
         "energy_efficiency": 5,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Bradford Supertel Faced - Heavy Duty Foil: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Supertel Faced - Heavy Duty Foil: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "supertel_faced_heavy_duty_foil.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url": "https://www.csrbradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -801,7 +841,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "legacy_source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "BRADFORD_SUPERTEL_FACED_HEAVY_DUTY_PERFORATED",
@@ -818,17 +860,17 @@
         "supertel faced - heavy duty perforated"
       ],
       "scores": {
-        "acoustic_comfort": 3,
+        "acoustic_comfort": 2,
         "energy_efficiency": 5,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Bradford Supertel Faced - Heavy Duty Perforated: 8 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Supertel Faced - Heavy Duty Perforated: 8 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "supertel_faced_heavy_duty_perforated.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url": "https://www.csrbradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -839,7 +881,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 8
+      "product_count": 8,
+      "legacy_source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "BRADFORD_SUPERTEL_PLAIN",
@@ -856,17 +900,17 @@
         "supertel plain"
       ],
       "scores": {
-        "acoustic_comfort": 3,
+        "acoustic_comfort": 2,
         "energy_efficiency": 5,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Bradford Supertel Plain: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Supertel Plain: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "supertel_plain.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url": "https://www.csrbradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -877,7 +921,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "legacy_source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "BRADFORD_SUPERTEL_PLAIN_PLAIN_UNFACED",
@@ -894,17 +940,17 @@
         "supertel plain - plain - unfaced"
       ],
       "scores": {
-        "acoustic_comfort": 3,
+        "acoustic_comfort": 2,
         "energy_efficiency": 5,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Bradford Supertel Plain - Plain - Unfaced: 12 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Supertel Plain - Plain - Unfaced: 12 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "supertel_plain_plain_unfaced.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url": "https://www.csrbradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -915,7 +961,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 12
+      "product_count": 12,
+      "legacy_source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "BRADFORD_THERMAL_BRADFORD",
@@ -932,17 +980,17 @@
         "thermal - bradford"
       ],
       "scores": {
-        "acoustic_comfort": 3,
+        "acoustic_comfort": 2,
         "energy_efficiency": 5,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Bradford Thermal - Bradford: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Thermal - Bradford: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "thermal_bradford.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url": "https://www.csrbradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -953,7 +1001,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 4
+      "product_count": 4,
+      "legacy_source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "BRADFORD_THERMAL_UNDERFLOOR_OPTIMO",
@@ -970,17 +1020,17 @@
         "thermal underfloor / optimo"
       ],
       "scores": {
-        "acoustic_comfort": 3,
+        "acoustic_comfort": 2,
         "energy_efficiency": 5,
         "sustainability": 4,
         "installation_practicality": 4,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for Bradford Thermal Underfloor / Optimo: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Thermal Underfloor / Optimo: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "thermal_underfloor_optimo.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url": "https://www.csrbradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -991,7 +1041,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "BRADFORD_WALL_WRAPS_BLACK_LABEL_WITH_INTEGRATED_T",
@@ -1009,16 +1061,16 @@
       ],
       "scores": {
         "acoustic_comfort": 2,
-        "energy_efficiency": 3,
+        "energy_efficiency": 5,
         "sustainability": 2,
         "installation_practicality": 4,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Bradford Wall Wraps - Black Label With Integrated Tape: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Wall Wraps - Black Label With Integrated Tape: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "wall_wraps_black_label_with_integrated_t.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url": "https://www.csrbradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -1029,7 +1081,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "legacy_source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "BRADFORD_WALL_WRAPS_ENVIROSEAL_HIGHTACK_TAPE",
@@ -1047,16 +1101,16 @@
       ],
       "scores": {
         "acoustic_comfort": 2,
-        "energy_efficiency": 3,
+        "energy_efficiency": 5,
         "sustainability": 2,
         "installation_practicality": 4,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Bradford Wall Wraps - Enviroseal Hightack Tape: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Wall Wraps - Enviroseal Hightack Tape: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "wall_wraps_enviroseal_hightack_tape.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url": "https://www.csrbradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -1067,7 +1121,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "legacy_source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "BRADFORD_WALL_WRAPS_ENVIROSEAL_ULTRA_TAPE",
@@ -1085,16 +1141,16 @@
       ],
       "scores": {
         "acoustic_comfort": 2,
-        "energy_efficiency": 3,
+        "energy_efficiency": 5,
         "sustainability": 2,
         "installation_practicality": 4,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Bradford Wall Wraps - Enviroseal Ultra Tape: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Wall Wraps - Enviroseal Ultra Tape: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "wall_wraps_enviroseal_ultra_tape.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url": "https://www.csrbradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -1105,7 +1161,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "legacy_source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "BRADFORD_WALL_WRAPS_LIGHT_DUTY_COMMERCIAL",
@@ -1122,17 +1180,17 @@
         "wall wraps - light duty commercial"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 4,
+        "acoustic_comfort": 2,
+        "energy_efficiency": 5,
         "sustainability": 2,
         "installation_practicality": 4,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Bradford Wall Wraps - Light Duty Commercial: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Wall Wraps - Light Duty Commercial: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "wall_wraps_light_duty_commercial.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url": "https://www.csrbradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -1143,7 +1201,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "legacy_source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "BRADFORD_WALL_WRAPS_LIGHT_DUTY_METAL_ROOF",
@@ -1160,17 +1220,17 @@
         "wall wraps - light duty metal roof"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 4,
+        "acoustic_comfort": 2,
+        "energy_efficiency": 5,
         "sustainability": 2,
         "installation_practicality": 4,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Bradford Wall Wraps - Light Duty Metal Roof: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Wall Wraps - Light Duty Metal Roof: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "wall_wraps_light_duty_metal_roof.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url": "https://www.csrbradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -1181,7 +1241,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "legacy_source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "BRADFORD_WALL_WRAPS_LIGHT_DUTY_RESIDENTIAL",
@@ -1198,17 +1260,17 @@
         "wall wraps - light duty residential"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 4,
+        "acoustic_comfort": 2,
+        "energy_efficiency": 5,
         "sustainability": 2,
         "installation_practicality": 4,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Bradford Wall Wraps - Light Duty Residential: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Wall Wraps - Light Duty Residential: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "wall_wraps_light_duty_residential.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url": "https://www.csrbradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -1219,7 +1281,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "BRADFORD_WALL_WRAPS_MEDIUM_DUTY_POLYWEAVE_WALL_WR",
@@ -1236,17 +1300,17 @@
         "wall wraps - medium duty polyweave wall wrap"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 4,
+        "acoustic_comfort": 2,
+        "energy_efficiency": 5,
         "sustainability": 2,
         "installation_practicality": 4,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Bradford Wall Wraps - Medium Duty Polyweave Wall Wrap: 3 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Wall Wraps - Medium Duty Polyweave Wall Wrap: 3 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "wall_wraps_medium_duty_polyweave_wall_wr.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url": "https://www.csrbradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -1257,7 +1321,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 3
+      "product_count": 3,
+      "legacy_source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     },
     {
       "family_id": "BRADFORD_WALL_WRAPS_MEDIUM_DUTY_POLYWEAVE_WRAP",
@@ -1274,17 +1340,17 @@
         "wall wraps - medium duty polyweave wrap"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 4,
+        "acoustic_comfort": 2,
+        "energy_efficiency": 5,
         "sustainability": 2,
         "installation_practicality": 4,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for Bradford Wall Wraps - Medium Duty Polyweave Wrap: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for Bradford Wall Wraps - Medium Duty Polyweave Wrap: 2 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "wall_wraps_medium_duty_polyweave_wrap.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url": "https://www.csrbradford.com.au/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -1295,7 +1361,9 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "legacy_source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf",
+      "source_url_status": "manufacturer_site_root_tds_pending"
     }
   ]
 }

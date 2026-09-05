@@ -17,13 +17,13 @@
         "dctech"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for DCTech Acoustic Barrier: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for DCTech Acoustic Barrier: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "acoustic_barrier.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
@@ -56,12 +56,12 @@
       ],
       "scores": {
         "acoustic_comfort": 2,
-        "energy_efficiency": 4,
+        "energy_efficiency": 5,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 4
       },
-      "score_notes": "Deep-dive scoring for DCTech Dct Xps Ga: 6 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for DCTech Dct Xps Ga: 6 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "dct_xps_ga.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
@@ -93,13 +93,13 @@
         "tecsound"
       ],
       "scores": {
-        "acoustic_comfort": 3,
-        "energy_efficiency": 3,
+        "acoustic_comfort": 5,
+        "energy_efficiency": 2,
         "sustainability": 3,
         "installation_practicality": 3,
         "compliance_readiness": 3
       },
-      "score_notes": "Deep-dive scoring for DCTech Tecsound: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending.",
+      "score_notes": "Deep-dive scoring for DCTech Tecsound: 4 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "tecsound.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",

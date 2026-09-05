@@ -55,7 +55,11 @@ def generate_reply(system_prompt: str, user_prompt: str) -> str | None:
         ],
         "stream": False,
         "think": False,
-        "options": {"temperature": 0.4},
+        # Keep the model loaded between calls (first call after idle is by far
+        # the slowest) and bound the work: replies only ever need 1-3 short
+        # sentences, and a small context window keeps prompt eval fast.
+        "keep_alive": "30m",
+        "options": {"temperature": 0.4, "num_predict": 160, "num_ctx": 2048},
     }
     request = urllib.request.Request(
         f"{OLLAMA_HOST}/api/chat",
@@ -72,6 +76,13 @@ def generate_reply(system_prompt: str, user_prompt: str) -> str | None:
     return content or None
 
 
+# Successful rephrasings are cached: the demo asks the same questions every
+# conversation, so repeat phrasings are instant instead of another model
+# round-trip. Failures are deliberately NOT cached, so a server that starts
+# mid-session begins working on the next message without an app restart.
+_PHRASE_CACHE: dict[tuple[str, str | None], str] = {}
+
+
 def phrase(fallback_text: str, context: dict | None = None) -> str:
     """Return a naturally-phrased version of `fallback_text`, or `fallback_text`
     itself if the local LLM is unavailable or the call fails for any reason.
@@ -81,8 +92,16 @@ def phrase(fallback_text: str, context: dict | None = None) -> str:
     facts, but it must not introduce anything not already present in
     `fallback_text`.
     """
-    user_prompt = fallback_text if not context else (
-        f"Message to rephrase: {fallback_text}\n\nSupporting facts (for grounding only, do not add anything not already in the message): {json.dumps(context, ensure_ascii=False)}"
+    context_json = json.dumps(context, ensure_ascii=False) if context else None
+    key = (fallback_text, context_json)
+    if key in _PHRASE_CACHE:
+        return _PHRASE_CACHE[key]
+    user_prompt = fallback_text if not context_json else (
+        f"Message to rephrase: {fallback_text}\n\nSupporting facts (for grounding only, do not add anything not already in the message): {context_json}"
     )
     rephrased = generate_reply(GUARDRAIL_SYSTEM_PROMPT, user_prompt)
-    return rephrased or fallback_text
+    if rephrased:
+        if len(_PHRASE_CACHE) < 256:
+            _PHRASE_CACHE[key] = rephrased
+        return rephrased
+    return fallback_text

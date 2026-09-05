@@ -16,15 +16,15 @@ priority_sustainability_score: 2
 priority_sustainability_confidence: medium
 priority_energy_efficiency_score: 4
 priority_energy_efficiency_confidence: medium
-priority_acoustic_comfort_score: 2
+priority_acoustic_comfort_score: 4
 priority_acoustic_comfort_confidence: medium
 priority_installation_practicality_score: 4
 priority_installation_practicality_confidence: medium
 gate_ncc_project_compliance: conditional_project_specific_evidence_required
 gate_fire_compliance: not_verified_per_sku
 gate_bal: not_verified
-official_datasheet_url: https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf
-official_sds_url: https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf
+official_datasheet_url: https://acoustica.com.au/
+official_sds_url: https://acoustica.com.au/
 product_count: 4
 rating_basis: thermal
 ---
@@ -106,7 +106,7 @@ These ratings are internal conversation aids. They determine useful follow-up qu
 | --- | ---: | --- | --- |
 | Sustainability | 2/5 | Medium | Based on product category norms; product-specific certification not yet verified. |
 | Energy efficiency | 4/5 | Medium | Based on thermal insulation (R-value); confirm per-SKU rating before quoting a thermal target. |
-| Acoustic comfort | 2/5 | Medium | Based on product category norms and any Rw/NRC ratings present in this family. |
+| Acoustic comfort | 4/5 | Medium | Based on product category norms and any Rw/NRC ratings present in this family. |
 | Installation practicality | 4/5 | Medium | Based on manufacturer install notes above; confirm access and handling requirements per project. |
 
 ## Mandatory human-review gates
@@ -168,9 +168,12 @@ Avoid:
 
 ### Tier 1 — current manufacturer source
 
-Technical Data Sheet: https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf
+Technical Data Sheet: https://acoustica.com.au/
 
-Safety Data Sheet: https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf
+Safety Data Sheet: https://acoustica.com.au/
+
+
+> Datasheet link audited 2026-09-05: repointed to the verified manufacturer site. Exact product TDS deep link still to be sourced; legacy reference: https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf
 
 Use this source for the canonical product identity, current grades, published ratings, primary applications and material composition.
 
@@ -229,7 +232,7 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
     "bal": "not_verified"
   },
   "callback_required": true,
-  "source_url": "https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf"
+  "source_url": "https://acoustica.com.au/"
 }
 ```
 
@@ -237,10 +240,10 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
 
 | Evidence type | Status | Reference |
 | --- | --- | --- |
-| Performance rating(s) | Manufacturer-published, not yet SKU-matched to current TDS | https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf |
-| Material composition | Manufacturer-claimed | https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf |
+| Performance rating(s) | Manufacturer-published, not yet SKU-matched to current TDS | https://acoustica.com.au/ |
+| Material composition | Manufacturer-claimed | https://acoustica.com.au/ |
 | Fire performance | Not verified per SKU | Pending SDS/test report review |
-| Installation guidance | Extracted from manufacturer spec text (see above) | https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf |
+| Installation guidance | Extracted from manufacturer spec text (see above) | https://acoustica.com.au/ |
 
 ## Quality checklist validation
 

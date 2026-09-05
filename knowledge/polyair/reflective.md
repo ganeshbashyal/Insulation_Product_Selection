@@ -14,17 +14,17 @@ last_validated: 2026-09-05
 rating_framework_version: 1
 priority_sustainability_score: 2
 priority_sustainability_confidence: medium
-priority_energy_efficiency_score: 4
+priority_energy_efficiency_score: 5
 priority_energy_efficiency_confidence: medium
-priority_acoustic_comfort_score: 3
+priority_acoustic_comfort_score: 2
 priority_acoustic_comfort_confidence: medium
 priority_installation_practicality_score: 4
 priority_installation_practicality_confidence: medium
 gate_ncc_project_compliance: conditional_project_specific_evidence_required
 gate_fire_compliance: not_verified_per_sku
 gate_bal: not_verified
-official_datasheet_url: https://hmrsupplies.com.au/wp-content/uploads/2024/05/Bradford™-Poly-Air-Perfroma™-XHD-Data.pdf
-official_sds_url: https://hmrsupplies.com.au/wp-content/uploads/2024/05/Bradford™-Poly-Air-Perfroma™-XHD-Data.pdf
+official_datasheet_url: https://www.polyair.com.au/
+official_sds_url: https://www.polyair.com.au/
 product_count: 2
 rating_basis: thermal
 ---
@@ -107,8 +107,8 @@ These ratings are internal conversation aids. They determine useful follow-up qu
 | Customer priority | Internal rating | Confidence | Interpretation |
 | --- | ---: | --- | --- |
 | Sustainability | 2/5 | Medium | Based on product category norms; product-specific certification not yet verified. |
-| Energy efficiency | 4/5 | Medium | Based on thermal insulation (R-value); confirm per-SKU rating before quoting a thermal target. |
-| Acoustic comfort | 3/5 | Medium | Based on product category norms and any Rw/NRC ratings present in this family. |
+| Energy efficiency | 5/5 | Medium | Based on thermal insulation (R-value); confirm per-SKU rating before quoting a thermal target. |
+| Acoustic comfort | 2/5 | Medium | Based on product category norms and any Rw/NRC ratings present in this family. |
 | Installation practicality | 4/5 | Medium | Based on manufacturer install notes above; confirm access and handling requirements per project. |
 
 ## Mandatory human-review gates
@@ -170,9 +170,12 @@ Avoid:
 
 ### Tier 1 — current manufacturer source
 
-Technical Data Sheet: https://hmrsupplies.com.au/wp-content/uploads/2024/05/Bradford™-Poly-Air-Perfroma™-XHD-Data.pdf
+Technical Data Sheet: https://www.polyair.com.au/
 
-Safety Data Sheet: https://hmrsupplies.com.au/wp-content/uploads/2024/05/Bradford™-Poly-Air-Perfroma™-XHD-Data.pdf
+Safety Data Sheet: https://www.polyair.com.au/
+
+
+> Datasheet link audited 2026-09-05: repointed to the verified manufacturer site. Exact product TDS deep link still to be sourced; legacy reference: https://hmrsupplies.com.au/wp-content/uploads/2024/05/Bradford™-Poly-Air-Perfroma™-XHD-Data.pdf
 
 Use this source for the canonical product identity, current grades, published ratings, primary applications and material composition.
 
@@ -239,10 +242,10 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
 
 | Evidence type | Status | Reference |
 | --- | --- | --- |
-| Performance rating(s) | Manufacturer-published, not yet SKU-matched to current TDS | https://hmrsupplies.com.au/wp-content/uploads/2024/05/Bradford™-Poly-Air-Perfroma™-XHD-Data.pdf |
-| Material composition | Manufacturer-claimed | https://hmrsupplies.com.au/wp-content/uploads/2024/05/Bradford™-Poly-Air-Perfroma™-XHD-Data.pdf |
+| Performance rating(s) | Manufacturer-published, not yet SKU-matched to current TDS | https://www.polyair.com.au/ |
+| Material composition | Manufacturer-claimed | https://www.polyair.com.au/ |
 | Fire performance | Not verified per SKU | Pending SDS/test report review |
-| Installation guidance | Extracted from manufacturer spec text (see above) | https://hmrsupplies.com.au/wp-content/uploads/2024/05/Bradford™-Poly-Air-Perfroma™-XHD-Data.pdf |
+| Installation guidance | Extracted from manufacturer spec text (see above) | https://www.polyair.com.au/ |
 
 ## Quality checklist validation
 

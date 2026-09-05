@@ -23,8 +23,8 @@ priority_installation_practicality_confidence: medium
 gate_ncc_project_compliance: conditional_project_specific_evidence_required
 gate_fire_compliance: not_verified_per_sku
 gate_bal: not_verified
-official_datasheet_url: https://insulationessentials.com.au/wp-content/uploads/2024/10/Current-MetecnoPIR-Tech-Data-Sheets-MetecnoTherm-v4_v4-2.pdf
-official_sds_url: https://insulationessentials.com.au/wp-content/uploads/2024/10/Current-MetecnoPIR-Tech-Data-Sheets-MetecnoTherm-v4_v4-2.pdf
+official_datasheet_url: https://metecno.com/
+official_sds_url: https://metecno.com/
 product_count: 1
 rating_basis: thermal
 ---
@@ -161,9 +161,12 @@ Avoid:
 
 ### Tier 1 — current manufacturer source
 
-Technical Data Sheet: https://insulationessentials.com.au/wp-content/uploads/2024/10/Current-MetecnoPIR-Tech-Data-Sheets-MetecnoTherm-v4_v4-2.pdf
+Technical Data Sheet: https://metecno.com/
 
-Safety Data Sheet: https://insulationessentials.com.au/wp-content/uploads/2024/10/Current-MetecnoPIR-Tech-Data-Sheets-MetecnoTherm-v4_v4-2.pdf
+Safety Data Sheet: https://metecno.com/
+
+
+> Datasheet link audited 2026-09-05: repointed to the verified manufacturer site. Exact product TDS deep link still to be sourced; legacy reference: https://insulationessentials.com.au/wp-content/uploads/2024/10/Current-MetecnoPIR-Tech-Data-Sheets-MetecnoTherm-v4_v4-2.pdf
 
 Use this source for the canonical product identity, current grades, published ratings, primary applications and material composition.
 
@@ -222,7 +225,7 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
     "bal": "not_verified"
   },
   "callback_required": true,
-  "source_url": "https://insulationessentials.com.au/wp-content/uploads/2024/10/Current-MetecnoPIR-Tech-Data-Sheets-MetecnoTherm-v4_v4-2.pdf"
+  "source_url": "https://metecno.com/"
 }
 ```
 
@@ -230,10 +233,10 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
 
 | Evidence type | Status | Reference |
 | --- | --- | --- |
-| Performance rating(s) | Manufacturer-published, not yet SKU-matched to current TDS | https://insulationessentials.com.au/wp-content/uploads/2024/10/Current-MetecnoPIR-Tech-Data-Sheets-MetecnoTherm-v4_v4-2.pdf |
-| Material composition | Manufacturer-claimed | https://insulationessentials.com.au/wp-content/uploads/2024/10/Current-MetecnoPIR-Tech-Data-Sheets-MetecnoTherm-v4_v4-2.pdf |
+| Performance rating(s) | Manufacturer-published, not yet SKU-matched to current TDS | https://metecno.com/ |
+| Material composition | Manufacturer-claimed | https://metecno.com/ |
 | Fire performance | Not verified per SKU | Pending SDS/test report review |
-| Installation guidance | Extracted from manufacturer spec text (see above) | https://insulationessentials.com.au/wp-content/uploads/2024/10/Current-MetecnoPIR-Tech-Data-Sheets-MetecnoTherm-v4_v4-2.pdf |
+| Installation guidance | Extracted from manufacturer spec text (see above) | https://metecno.com/ |
 
 ## Quality checklist validation
 

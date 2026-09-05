@@ -23,6 +23,9 @@ import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from family_scoring import CATEGORY_SCORES, DEFAULT_SCORES, classify_scores
 
 EXCEL_FILE = Path(r"C:\Users\ganes\OneDrive\Desktop\Insulation Easy\Bot\Product_Master_Bot_KB_SKU_Matched_cleaned.xlsx")
 KNOWLEDGE_BASE_DIR = ROOT / "knowledge"
@@ -49,16 +52,9 @@ STANDARD_HUMAN_GATES = [
     "Validate compliance with relevant standards",
 ]
 
-CATEGORY_SCORES = {
-    "batt": {"acoustic_comfort": 3, "energy_efficiency": 5, "sustainability": 4, "installation_practicality": 4, "compliance_readiness": 4},
-    "board": {"acoustic_comfort": 2, "energy_efficiency": 4, "sustainability": 3, "installation_practicality": 3, "compliance_readiness": 4},
-    "reflective": {"acoustic_comfort": 3, "energy_efficiency": 4, "sustainability": 2, "installation_practicality": 4, "compliance_readiness": 3},
-    "pipe": {"acoustic_comfort": 2, "energy_efficiency": 4, "sustainability": 2, "installation_practicality": 4, "compliance_readiness": 3},
-    "wrap": {"acoustic_comfort": 2, "energy_efficiency": 3, "sustainability": 2, "installation_practicality": 4, "compliance_readiness": 3},
-    "panel": {"acoustic_comfort": 4, "energy_efficiency": 3, "sustainability": 3, "installation_practicality": 3, "compliance_readiness": 3},
-    "accessory": {"acoustic_comfort": 1, "energy_efficiency": 1, "sustainability": 2, "installation_practicality": 5, "compliance_readiness": 2},
-}
-DEFAULT_SCORES = {"acoustic_comfort": 3, "energy_efficiency": 3, "sustainability": 3, "installation_practicality": 3, "compliance_readiness": 3}
+# CATEGORY_SCORES / DEFAULT_SCORES now live in scripts/family_scoring.py and are
+# imported above. Scores must be classification-aware (manufacturer-stated use),
+# not based on physical form alone.
 
 
 def clean(val):
@@ -96,8 +92,8 @@ def extract_category(product_use, category, material_type):
         return category if category else "General"
 
 
-def scores_for(category):
-    return CATEGORY_SCORES.get(category.lower(), DEFAULT_SCORES)
+def scores_for(category, name="", applications=(), keywords=()):
+    return classify_scores(category, name=name, applications=applications, keywords=keywords)
 
 
 LEADING_BRAND_RE = re.compile(
@@ -233,7 +229,7 @@ def generate_family_md(manufacturer, category, family_id, rows, family_name=None
     tds_urls = most_common_nonempty(rows["TDS URL"], n=2)
     sds_urls = most_common_nonempty(rows["SDS URL"], n=1)
     rating_kind = dominant_rating_family(rows)
-    scores = scores_for(category)
+    scores = scores_for(category, name=family_name, applications=applications)
 
     feature_bullets = split_bullets(features, max_items=6)
     limitation_bullets = split_bullets(limitations, max_items=6)
@@ -613,8 +609,9 @@ def main():
                 (mfg_dir / filename).write_text(md, encoding="utf-8")
             total_written += 1
 
-            scores = scores_for(category)
             keywords = sorted({category.lower(), mfg.lower(), brand.lower()} - {""})
+            app_list = most_common_nonempty(rows["Product Use"], n=6) or ["General building applications"]
+            scores = scores_for(category, name=family_name, applications=app_list, keywords=keywords)
             tds_urls = most_common_nonempty(rows["TDS URL"], n=1)
             new_families.append({
                 "family_id": family_id,
@@ -622,7 +619,7 @@ def main():
                 "name": family_name,
                 "category": category,
                 "primary_function": f"{category} insulation product from {mfg}.",
-                "applications": most_common_nonempty(rows["Product Use"], n=6) or ["General building applications"],
+                "applications": app_list,
                 "keywords": keywords,
                 "scores": scores,
                 "score_notes": (

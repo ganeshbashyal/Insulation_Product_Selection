@@ -16,14 +16,14 @@ priority_sustainability_score: 4
 priority_sustainability_confidence: medium
 priority_energy_efficiency_score: 5
 priority_energy_efficiency_confidence: medium
-priority_acoustic_comfort_score: 3
+priority_acoustic_comfort_score: 2
 priority_acoustic_comfort_confidence: medium
 priority_installation_practicality_score: 4
 priority_installation_practicality_confidence: medium
 gate_ncc_project_compliance: conditional_project_specific_evidence_required
 gate_fire_compliance: not_verified_per_sku
 gate_bal: not_verified
-official_datasheet_url: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
+official_datasheet_url: https://www.csrbradford.com.au/
 official_sds_url: https://www.firecrunch.com.au/wp-content/uploads/2016/02/BRADFORD-MSDS-e3a0-435b-b6ef-6f1027726ce6.pdf
 product_count: 5
 rating_basis: thermal
@@ -112,7 +112,7 @@ These ratings are internal conversation aids. They determine useful follow-up qu
 | --- | ---: | --- | --- |
 | Sustainability | 4/5 | Medium | Based on product category norms; product-specific certification not yet verified. |
 | Energy efficiency | 5/5 | Medium | Based on thermal insulation (R-value); confirm per-SKU rating before quoting a thermal target. |
-| Acoustic comfort | 3/5 | Medium | Based on product category norms and any Rw/NRC ratings present in this family. |
+| Acoustic comfort | 2/5 | Medium | Based on product category norms and any Rw/NRC ratings present in this family. |
 | Installation practicality | 4/5 | Medium | Based on manufacturer install notes above; confirm access and handling requirements per project. |
 
 ## Mandatory human-review gates
@@ -174,9 +174,12 @@ Avoid:
 
 ### Tier 1 — current manufacturer source
 
-Technical Data Sheet: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
+Technical Data Sheet: https://www.csrbradford.com.au/
 
 Safety Data Sheet: https://www.firecrunch.com.au/wp-content/uploads/2016/02/BRADFORD-MSDS-e3a0-435b-b6ef-6f1027726ce6.pdf
+
+
+> Datasheet link audited 2026-09-05: repointed to the verified manufacturer site. Exact product TDS deep link still to be sourced; legacy reference: https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf
 
 Use this source for the canonical product identity, current grades, published ratings, primary applications and material composition.
 
@@ -255,7 +258,7 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
     "bal": "not_verified"
   },
   "callback_required": true,
-  "source_url": "https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf"
+  "source_url": "https://www.csrbradford.com.au/"
 }
 ```
 
@@ -263,10 +266,10 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
 
 | Evidence type | Status | Reference |
 | --- | --- | --- |
-| Performance rating(s) | Manufacturer-published, not yet SKU-matched to current TDS | https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf |
-| Material composition | Manufacturer-claimed | https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf |
+| Performance rating(s) | Manufacturer-published, not yet SKU-matched to current TDS | https://www.csrbradford.com.au/ |
+| Material composition | Manufacturer-claimed | https://www.csrbradford.com.au/ |
 | Fire performance | Not verified per SKU | Pending SDS/test report review |
-| Installation guidance | Extracted from manufacturer spec text (see above) | https://www.insulationvictoria.com.au/wp-content/uploads/2025/09/9825-bradford-black-wall-batt-datasheet_11_17-final.pdf |
+| Installation guidance | Extracted from manufacturer spec text (see above) | https://www.csrbradford.com.au/ |
 
 ## Quality checklist validation
 

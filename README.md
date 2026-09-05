@@ -32,6 +32,8 @@ See [`knowledge/LITERATURE_REVIEW_STATUS.md`](knowledge/LITERATURE_REVIEW_STATUS
 - [`data/processed/product_catalogue_skus.csv`](data/processed/product_catalogue_skus.csv) — normalized SKU catalogue for all manufacturers. Stock-control fields are deliberately excluded.
 - [`notebooks/01_thermotec_poc.ipynb`](notebooks/01_thermotec_poc.ipynb) — legacy validation notebook for Thermotec
 - [`scripts/validate_fletcher.py`](scripts/validate_fletcher.py) — legacy validation script for Fletcher
+- [`scripts/family_scoring.py`](scripts/family_scoring.py) — classification-aware priority scoring (scores follow the manufacturer's stated product use, not physical form alone); used by both generators and [`scripts/rescore_family_scores.py`](scripts/rescore_family_scores.py)
+- [`scripts/audit_datasheet_links.py`](scripts/audit_datasheet_links.py) — audits every family's datasheet link against verified official manufacturer domains plus a live HTTP check; writes [`data/processed/datasheet_audit.csv`](data/processed/datasheet_audit.csv). [`scripts/fix_datasheet_links.py`](scripts/fix_datasheet_links.py) repoints wrong-domain links to the verified manufacturer site root (flagged `manufacturer_site_root_tds_pending`, old link kept as `legacy_source_url`). Ecowool, Hushtec and misc-brand links remain flagged `UNVERIFIED_MFR` pending a confirmed official domain.
 - [`scripts/build_sku_dataset.py`](scripts/build_sku_dataset.py) — builds normalized SKU dataset from source Excel (now processes all manufacturers)
 - [`scripts/generate_all_manufacturers.py`](scripts/generate_all_manufacturers.py) — generates knowledge base structure for new manufacturers
 - [`schemas/`](schemas/) and [`scripts/validate_catalogue.py`](scripts/validate_catalogue.py) — machine-enforced structures and cross-file safety checks.
@@ -102,4 +104,6 @@ ollama serve
 ```
 
 Then restart the Streamlit app. A "Natural phrasing (local LLM)" toggle appears in the sidebar and turns on automatically once the local server is detected (`http://localhost:11434` by default; override with the `OLLAMA_HOST` and `OLLAMA_MODEL` environment variables). The LLM only rephrases text the rules engine has already decided — it never selects the recommended family, chooses a SKU, or asserts compliance; if the server is unreachable the app silently falls back to the fixed wording.
+
+If phrasing feels slow: use a smaller model (`ollama pull gemma3:4b` then set `OLLAMA_MODEL=gemma3:4b` — 3-4B models rephrase a short sentence in ~1-2s on CPU), keep `ollama serve` running so the model stays warm, and note the app caps reply length (`num_predict=160`), keeps the model loaded for 30 minutes, and caches successful phrasings — the demo asks the same questions every conversation, so repeat runs are instant.
 
