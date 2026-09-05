@@ -9,6 +9,7 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 
+import llm_client
 from audit_store import create_review, decide_review, get_review
 from bot_engine import (
     PRIORITY_LABELS,
@@ -228,7 +229,10 @@ def process_customer_message(prompt: str) -> None:
             st.session_state.answers["locality"] = locality
             st.session_state.step += 1
     if st.session_state.step < len(QUESTIONS):
-        st.session_state.messages.append({"role": "assistant", "content": question_for_step(st.session_state.step, st.session_state.answers)})
+        question_text = question_for_step(st.session_state.step, st.session_state.answers)
+        if st.session_state.get("use_llm_phrasing"):
+            question_text = llm_client.phrase(question_text)
+        st.session_state.messages.append({"role": "assistant", "content": question_text})
     else:
         st.session_state.demo_complete = True
         top = rank_families(st.session_state.answers, st.session_state.get("manufacturer_scope", "Compare both"))[0]
@@ -241,6 +245,8 @@ def process_customer_message(prompt: str) -> None:
             reply = f"**{top['name']}** looks like the best fit. {why} We’ll confirm the exact product and compliance details before quoting."
         else:
             reply = f"**{top['name']}** is the closest match, but its product evidence still needs checking. I’ll flag it for the team before anything is selected or quoted."
+        if st.session_state.get("use_llm_phrasing"):
+            reply = llm_client.phrase(reply, context={"family": top.get("name"), "manufacturer": top.get("manufacturer"), "confidence": top.get("confidence")})
         st.session_state.messages.append({"role": "assistant", "content": reply})
         if st.session_state.review_id is None:
             st.session_state.review_id = create_review(
@@ -301,6 +307,13 @@ with st.sidebar:
         load_example(example_name); st.rerun()
     if st.button("↻ Start again", width="stretch"):
         reset_demo(); st.rerun()
+    st.divider()
+    ollama_online = st.cache_data(ttl=15)(llm_client.ollama_available)()
+    st.toggle(
+        "Natural phrasing (local LLM)", key="use_llm_phrasing", value=ollama_online, disabled=not ollama_online,
+        help=f"Rephrases replies via a local Ollama server ({llm_client.OLLAMA_HOST}, model {llm_client.OLLAMA_MODEL}). No customer data leaves this machine/server. The question asked and the family recommended are always decided by the rules engine, never by the LLM.",
+    )
+    st.caption("🟢 Local LLM connected" if ollama_online else "⚪ Local LLM not detected — using fixed wording. Start Ollama to enable natural phrasing.")
     st.divider()
     count_cols = st.columns(2)
     count_cols[0].metric("Manufacturers", len(MANUFACTURERS))

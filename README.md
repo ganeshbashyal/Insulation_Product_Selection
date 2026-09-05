@@ -83,9 +83,7 @@ See [`IMPLEMENTATION_STATUS.md`](IMPLEMENTATION_STATUS.md) for the control mappe
 
 ## Team demonstration
 
-The local Streamlit demonstration can now compare all 83 families across 26 manufacturers. The knowledge base supports acoustic, thermal, membrane, HVAC, pipe, roof and accessory applications. The user can filter by manufacturer or application, or compare across all manufacturers. It recommends the best supported family (with deep validation for Thermotec and Fletcher), exposes evidence limitations, includes a searchable range explorer, produces a callback brief and demonstrates a human-approved mock MYOB quote handoff. It does not access live Aircall, Google Drive or MYOB data.
-
-Note: For optimal performance, start with Thermotec/Fletcher (fully validated) or specific application filters. Other manufacturers show initial categorization structure and require TDS validation for performance claims.
+The local Streamlit demonstration compares all 287 manufacturer-classified product families across 26 manufacturers. The knowledge base supports acoustic, thermal, membrane, HVAC, pipe, roof and accessory applications. The user can filter by manufacturer or application, or compare across all manufacturers. It recommends the best supported family (with deep validation for Thermotec and Fletcher), exposes evidence limitations, includes a searchable range explorer, produces a callback brief and demonstrates a human-approved mock MYOB quote handoff. It does not access live Aircall, Google Drive or MYOB data.
 
 Run it from Anaconda Prompt:
 
@@ -93,3 +91,15 @@ Run it from Anaconda Prompt:
 cd "C:\Users\ganes\OneDrive\Documents\GitHub\Insulation_Product_Selection"
 streamlit run app.py
 ```
+
+### Optional: natural reply phrasing via a local LLM
+
+By default the chat's questions and recommendation replies are built from fixed template text — safe, but repetitive. To have replies phrased more naturally, run a local [Ollama](https://ollama.com) server (no external API, no data leaves your machine/server):
+
+```powershell
+ollama pull llama3.1:8b   # or any chat model you have pulled, e.g. gemma4:latest
+ollama serve
+```
+
+Then restart the Streamlit app. A "Natural phrasing (local LLM)" toggle appears in the sidebar and turns on automatically once the local server is detected (`http://localhost:11434` by default; override with the `OLLAMA_HOST` and `OLLAMA_MODEL` environment variables). The LLM only rephrases text the rules engine has already decided — it never selects the recommended family, chooses a SKU, or asserts compliance; if the server is unreachable the app silently falls back to the fixed wording.
+
