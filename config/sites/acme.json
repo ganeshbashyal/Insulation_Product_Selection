@@ -1,0 +1,25 @@
+{
+  "site_id": "acme",
+  "display_name": "ACME Construction",
+  "colours": {
+    "primary": "#003f5c",
+    "accent": "#bc5090"
+  },
+  "logo_url": "https://acme.example.com/logo.png",
+  "greeting": "G'day! ACME Insulation here. Need help picking the right insulation?",
+  "contact_method": "callback",
+  "callback_hours": "Mon–Fri 8am–5pm AEDT",
+  "callback_wording": "We'll call you back within 2 hours",
+  "privacy_text": "Your data stays with us and is never sold to third parties.",
+  "consent_text": "I agree to ACME contacting me about insulation products and services.",
+  "allowed_origins": [
+    "https://acme.example.com",
+    "https://www.acme.example.com"
+  ],
+  "api_key": "sk_acme_prod_xxxxx",
+  "rate_limit": {
+    "requests_per_minute": 10,
+    "per_ip": true
+  },
+  "manufacturer_emphasis": {}
+}

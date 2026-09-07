@@ -1,0 +1,24 @@
+{
+  "site_id": "local",
+  "display_name": "Local Test",
+  "colours": {
+    "primary": "#0066cc",
+    "accent": "#ff9900"
+  },
+  "logo_url": "http://localhost:8000/static/logo.png",
+  "greeting": "Hi! Let me help you find the right insulation.",
+  "contact_method": "phone",
+  "phone": "+61-2-9000-0000",
+  "privacy_text": "Your data is used for testing only.",
+  "consent_text": "I consent to testing.",
+  "allowed_origins": [
+    "http://localhost:3000",
+    "http://localhost:8000",
+    "http://127.0.0.1:3000"
+  ],
+  "api_key": "sk_local_dev_test",
+  "rate_limit": {
+    "requests_per_minute": 100,
+    "per_ip": true
+  }
+}
