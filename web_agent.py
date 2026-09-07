@@ -1,43 +1,83 @@
-"""Deployable website agent: serves the insulation enquiry bot over HTTP.
+"""Deployable website agent with multi-site support and persistent sessions.
 
-Self-hosted FastAPI app. Reuses:
-  - agent_core for the conversation flow (bot_engine ranking + gating)
-  - interaction_store for conversation logging and reviewer outcomes
-  - llm_client for optional local-LLM phrasing (safe fallback when offline)
+Self-hosted FastAPI app with P2 infrastructure:
+  - site_config: per-site branding and routing
+  - session_store: persistent SQLite sessions (multi-worker safe)
+  - auth_middleware: API key validation + rate limiting
+  - cors_validator: origin allowlist enforcement
+  - widget_config: client-side branding endpoint
+
+Reuses:
+  - agent_core for conversation flow (bot_engine ranking + gating)
+  - interaction_store for conversation logging (with site_id)
+  - llm_client for optional phrasing (safe fallback when offline)
 
 Run locally:
     pip install fastapi uvicorn python-docx
     uvicorn web_agent:app --host 0.0.0.0 --port 8000
 
-Embed on a website with an iframe:
-    <iframe src="https://your-server/chat" style="width:420px;height:640px;border:0"></iframe>
-
 Endpoints:
-    GET  /chat                     embedded chat UI
-    POST /api/conversations        start a conversation -> {conversation_id, reply}
-    POST /api/conversations/{id}/messages   send a message -> {reply, done}
-    GET  /api/learning/families    per-family recommendation/outcome stats
-    GET  /api/learning/pending     conversations awaiting a reviewer outcome
-    POST /api/learning/outcomes    record approved/edited/rejected (+ corrected family)
-    GET  /api/learning/rejections  recent rejected/edited conversations for tuning
+    GET  /chat                             embedded chat UI
+    GET  /api/widget-config?site_id=X     site branding for widget injection
+    POST /api/conversations                start conversation (X-API-Key header)
+    POST /api/conversations/{id}/messages  send message (X-API-Key header)
+    GET  /api/learning/families            family stats (X-API-Key header)
+    GET  /api/learning/pending             pending review (X-API-Key header)
+    POST /api/learning/outcomes            record outcome (X-API-Key header)
+    GET  /api/learning/rejections          rejection report (X-API-Key header)
 """
 from __future__ import annotations
 
+import json
 import os
+import uuid
+from typing import Any
 
-from fastapi import FastAPI, HTTPException
-from fastapi.responses import HTMLResponse
+from fastapi import FastAPI, HTTPException, Request
+from fastapi.responses import HTMLResponse, JSONResponse
 from pydantic import BaseModel
 
 import agent_core
 import interaction_store
+from auth_middleware import AuthMiddleware, AuditLog
+from cors_validator import CORSValidator
+from session_store import SQLiteSessionStore
+from site_config import load_all_sites, SiteConfigError
+from widget_config import WidgetConfigProvider
 
-app = FastAPI(title="Insulation Enquiry Agent", version="1.0.0")
+app = FastAPI(title="Insulation Enquiry Agent", version="2.0.0")
 
-# in-memory conversation state; fine for a single-process deploy, swap for a
-# shared store if you scale beyond one process
-_SESSIONS: dict[str, agent_core.Conversation] = {}
 USE_LLM = os.getenv("AGENT_USE_LLM", "false").casefold() == "true"
+
+# P2 infrastructure instances
+session_store: SQLiteSessionStore | None = None
+auth_middleware: AuthMiddleware | None = None
+cors_validator: CORSValidator | None = None
+widget_provider: WidgetConfigProvider | None = None
+audit_log: AuditLog | None = None
+sites: dict[str, Any] = {}
+
+
+@app.on_event("startup")
+async def startup():
+    """Initialize P2 infrastructure at startup."""
+    global session_store, auth_middleware, cors_validator, widget_provider, audit_log, sites
+
+    try:
+        sites = load_all_sites()
+        if not sites:
+            raise RuntimeError("No site configs found in config/sites/")
+        print(f"✓ Loaded {len(sites)} site(s)")
+    except SiteConfigError as e:
+        raise RuntimeError(f"Failed to load site configs: {e}")
+
+    session_store = SQLiteSessionStore()
+    auth_middleware = AuthMiddleware()
+    cors_validator = CORSValidator()
+    widget_provider = WidgetConfigProvider()
+    audit_log = AuditLog()
+
+    print("✓ P2 infrastructure initialized (sessions, auth, CORS, audit)")
 
 
 class StartResponse(BaseModel):
@@ -84,14 +124,55 @@ button{padding:11px 18px;border:0;border-radius:10px;background:var(--teal);colo
 <div id="log"></div>
 <form id="f"><input id="in" autocomplete="off" placeholder="Type your answer&hellip;"><button>Send</button></form>
 <script>
-let convo=null;
-const log=document.getElementById('log');
+let convo=null;const log=document.getElementById('log');
 function add(text,cls){const d=document.createElement('div');d.className='msg '+cls;d.textContent=text;log.appendChild(d);log.scrollTop=log.scrollHeight;}
-async function start(){const r=await fetch('/api/conversations',{method:'POST'});const j=await r.json();convo=j.conversation_id;add(j.reply,'bot');}
+async function start(){const r=await fetch('/api/conversations',{method:'POST',headers:{'X-API-Key':'sk_local_dev_test'}});const j=await r.json();convo=j.conversation_id;add(j.reply,'bot');}
 document.getElementById('f').addEventListener('submit',async e=>{e.preventDefault();const i=document.getElementById('in');const m=i.value.trim();if(!m||!convo)return;i.value='';add(m,'user');
-const r=await fetch('/api/conversations/'+convo+'/messages',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({message:m})});const j=await r.json();add(j.reply,'bot');if(j.done){i.placeholder='Enquiry sent for review';}});
+const r=await fetch('/api/conversations/'+convo+'/messages',{method:'POST',headers:{'Content-Type':'application/json','X-API-Key':'sk_local_dev_test'},body:JSON.stringify({message:m})});const j=await r.json();add(j.reply,'bot');if(j.done){i.placeholder='Enquiry sent for review';}});
 start();
 </script></body></html>"""
+
+
+def _get_request_context(request: Request) -> tuple[str, str, str]:
+    """Extract origin, IP, and API key from request."""
+    origin = request.headers.get("Origin", "")
+    client_ip = request.client.host if request.client else "unknown"
+    api_key = request.headers.get("X-API-Key", "")
+    return origin, client_ip, api_key
+
+
+def _auth_and_cors(request: Request, site_id: str) -> dict[str, str]:
+    """
+    Validate auth and return CORS headers.
+    Raises HTTPException on failure. Returns CORS headers dict on success.
+    """
+    origin, client_ip, api_key = _get_request_context(request)
+
+    # Validate API key
+    error, site = auth_middleware.validate_api_key(api_key)
+    if error:
+        audit_log.log("api_key_invalid", site_id=site_id, ip_address=client_ip, status_code=401)
+        raise HTTPException(status_code=401, detail=error)
+
+    # Verify site_id matches the API key's site
+    if site.site_id != site_id:
+        audit_log.log("site_mismatch", site_id=site_id, ip_address=client_ip, status_code=403)
+        raise HTTPException(status_code=403, detail="Site ID mismatch")
+
+    # Check rate limit
+    if not auth_middleware.check_rate_limit(site_id, client_ip):
+        audit_log.log("rate_limit_hit", site_id=site_id, ip_address=client_ip, status_code=429)
+        raise HTTPException(status_code=429, detail="Rate limit exceeded")
+
+    # Get CORS headers
+    cors_headers = cors_validator.get_cors_headers(site_id, origin)
+    if not cors_headers and origin:  # Origin was provided but not allowed
+        audit_log.log("cors_blocked", site_id=site_id, ip_address=client_ip, status_code=403)
+        # Still reject, don't return headers
+        cors_headers = {}
+
+    audit_log.log("auth_success", site_id=site_id, ip_address=client_ip, status_code=200)
+    return cors_headers
 
 
 @app.get("/chat", response_class=HTMLResponse)
@@ -99,40 +180,118 @@ def chat() -> str:
     return CHAT_HTML
 
 
-@app.post("/api/conversations", response_model=StartResponse)
-def start_conversation() -> StartResponse:
+@app.get("/api/widget-config")
+async def get_widget_config(site_id: str, request: Request):
+    """Get site configuration for client-side widget injection."""
+    origin = request.headers.get("Origin", "")
+
+    # No auth required for widget config (it's public branding data)
+    # But still enforce CORS
+    config = widget_provider.get_widget_config(site_id)
+    if not config:
+        raise HTTPException(status_code=404, detail=f"Site not found: {site_id}")
+
+    cors_headers = cors_validator.get_cors_headers(site_id, origin)
+    return JSONResponse(config, headers=cors_headers)
+
+
+@app.post("/api/conversations")
+async def start_conversation(request: Request, site_id: str = "local") -> JSONResponse:
+    """Start a new conversation. Requires X-API-Key header."""
+    cors_headers = _auth_and_cors(request, site_id)
+
+    # Create conversation and session
     conversation = agent_core.Conversation()
-    _SESSIONS[conversation.conversation_id] = conversation
+    session_id = str(uuid.uuid4())
+    session_store.create(session_id, site_id, {
+        "conversation_id": conversation.conversation_id,
+        "messages": [],
+        "answers": {},
+        "done": False,
+    })
+
     opening = agent_core.QUESTIONS[0][1]
     if USE_LLM:
         opening = agent_core._phrase(opening, True)
-    return StartResponse(conversation_id=conversation.conversation_id, reply=opening)
+
+    response = StartResponse(conversation_id=session_id, reply=opening)
+    return JSONResponse(response.dict(), headers=cors_headers)
 
 
-@app.post("/api/conversations/{conversation_id}/messages", response_model=MessageResponse)
-def send_message(conversation_id: str, body: MessageRequest) -> MessageResponse:
-    conversation = _SESSIONS.get(conversation_id)
-    if conversation is None:
-        raise HTTPException(status_code=404, detail="conversation not found")
+@app.post("/api/conversations/{session_id}/messages")
+async def send_message(session_id: str, body: MessageRequest, request: Request, site_id: str = "local") -> JSONResponse:
+    """Send a message in an active conversation. Requires X-API-Key header."""
+    cors_headers = _auth_and_cors(request, site_id)
+
+    # Retrieve session (site-scoped)
+    session = session_store.get(session_id, site_id)
+    if not session:
+        raise HTTPException(status_code=404, detail="Session not found")
+
+    if session.is_expired:
+        session_store.delete(session_id, site_id)
+        raise HTTPException(status_code=401, detail="Session expired")
+
+    # Reconstruct conversation from session
+    session_data = json.loads(session.conversation_json)
+    conversation = agent_core.Conversation()
+    conversation.conversation_id = session_data["conversation_id"]
+    conversation.answers = session_data["answers"]
+    conversation.done = session_data["done"]
+
+    # Process message
     reply = agent_core.reply(conversation, body.message, use_llm=USE_LLM, manufacturer_scope=body.manufacturer_scope)
-    return MessageResponse(reply=reply, done=conversation.done)
+
+    # Update session (extends TTL)
+    session_store.update(session_id, site_id, {
+        "conversation_id": conversation.conversation_id,
+        "messages": session_data["messages"] + [{"role": "user", "content": body.message}, {"role": "assistant", "content": reply}],
+        "answers": conversation.answers,
+        "done": conversation.done,
+    })
+
+    # Log to interaction store with site_id
+    if conversation.done and conversation.recommendation:
+        interaction_store.log_conversation(
+            conversation_id=conversation.conversation_id,
+            site_id=site_id,
+            answers=conversation.answers,
+            recommendation=conversation.recommendation,
+            gate_status=getattr(conversation, "gate_status", "unknown"),
+            gate_reason=getattr(conversation, "gate_reason", ""),
+            climate_zone=None,
+            candidates=getattr(conversation, "candidates", []),
+        )
+
+    response = MessageResponse(reply=reply, done=conversation.done)
+    return JSONResponse(response.dict(), headers=cors_headers)
 
 
 @app.get("/api/learning/families")
-def learning_families() -> list[dict]:
-    return interaction_store.family_stats()
+async def learning_families(request: Request, site_id: str = "local") -> JSONResponse:
+    """Get per-family statistics. Requires X-API-Key header."""
+    cors_headers = _auth_and_cors(request, site_id)
+    stats = interaction_store.family_stats()
+    return JSONResponse(stats, headers=cors_headers)
 
 
 @app.get("/api/learning/pending")
-def learning_pending() -> list[dict]:
-    return interaction_store.pending_review()
+async def learning_pending(request: Request, site_id: str = "local") -> JSONResponse:
+    """Get conversations awaiting review. Requires X-API-Key header."""
+    cors_headers = _auth_and_cors(request, site_id)
+    pending = interaction_store.pending_review()
+    return JSONResponse(pending, headers=cors_headers)
 
 
 @app.post("/api/learning/outcomes")
-def learning_outcome(body: OutcomeRequest) -> dict:
+async def learning_outcome(body: OutcomeRequest, request: Request, site_id: str = "local") -> JSONResponse:
+    """Record an outcome for a conversation. Requires X-API-Key header."""
+    cors_headers = _auth_and_cors(request, site_id)
+
     try:
         interaction_store.record_outcome(
             conversation_id=body.conversation_id,
+            site_id=site_id,
             outcome=body.outcome,
             reviewer=body.reviewer,
             corrected_family_id=body.corrected_family_id,
@@ -140,9 +299,13 @@ def learning_outcome(body: OutcomeRequest) -> dict:
         )
     except ValueError as exc:
         raise HTTPException(status_code=400, detail=str(exc)) from exc
-    return {"status": "recorded"}
+
+    return JSONResponse({"status": "recorded"}, headers=cors_headers)
 
 
 @app.get("/api/learning/rejections")
-def learning_rejections() -> list[dict]:
-    return interaction_store.rejection_report()
+async def learning_rejections(request: Request, site_id: str = "local") -> JSONResponse:
+    """Get recent rejections for tuning. Requires X-API-Key header."""
+    cors_headers = _auth_and_cors(request, site_id)
+    rejections = interaction_store.rejection_report()
+    return JSONResponse(rejections, headers=cors_headers)
