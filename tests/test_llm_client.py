@@ -35,3 +35,27 @@ def test_phrase_never_calls_llm_endpoint_when_fallback_returns_none(monkeypatch)
     original = "Some literal fallback message."
     assert llm_client.phrase(original) == original
     assert len(calls) == 1
+
+
+def test_system_prompt_keeps_guardrails_ahead_of_persona():
+    # persona is an overlay: the guardrail block must open the system prompt
+    assert llm_client.SYSTEM_PROMPT.startswith(llm_client.GUARDRAIL_SYSTEM_PROMPT)
+
+
+def test_persona_loads_and_bans_assurance_slang():
+    persona = llm_client._load_persona()
+    if not persona:  # persona file removed or AGENT_PERSONA=off — valid config
+        return
+    assert "never overrides the rules above" in persona
+    # the policy-hazard phrases must appear only as banned examples
+    assert "she'll be right" in persona and "Never use" in persona
+
+
+def test_missing_persona_file_is_a_safe_fallback(monkeypatch, tmp_path):
+    monkeypatch.setattr(llm_client, "PERSONA_FILE", tmp_path / "nope.md")
+    assert llm_client._load_persona() == ""
+
+
+def test_persona_off_switch(monkeypatch):
+    monkeypatch.setenv("AGENT_PERSONA", "off")
+    assert llm_client._load_persona() == ""

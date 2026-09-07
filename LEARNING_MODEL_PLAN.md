@@ -1,6 +1,6 @@
 # Learning Model & Multi-Site Chatbot — Design Plan
 
-Status: **proposed** (not implemented). Written 2026-09-07.
+Status: **P0 Complete** (2026-09-07). P1–P5 proposed.
 
 This plan turns the current single-machine demo into a multi-site embedded chatbot with a
 real learning loop, without weakening [`BOT_POLICY.md`](BOT_POLICY.md).
@@ -32,28 +32,30 @@ asserts NCC/AS/BAL/fire compliance, and never promotes a family that
 - `bot_engine.py` — deterministic, tested, auditable ranking + evidence gate.
 - `web_agent.py` — FastAPI serving surface with iframe embed.
 
-**Four blocking gaps**
+**P0 COMPLETE (2026-09-07)**
+- **Retrieval hygiene:** 236 research JSONs cleaned (2,500 terms dropped/salvaged), ingesters protected, ranker protected. 15 tests passing.
+- **Retrieval cards:** 283 embedding-ready cards in `data/processed/retrieval_cards.jsonl`.
+- **Gold-label template:** 240 real enquiries in `data/local/gold_labels_todo.csv` (local-only, awaiting labeller).
+- **Persona:** "The Site Sage" wired into `llm_client.py` as a tone overlay beneath policy guardrails (`AGENT_PERSONA=off` kill-switch). 8 tests passing.
+- **Test suite:** Full 49 passing (fixed pytest temp dir issue; removed committed `.pytest-tmp` junk tree).
+
+**Four remaining gaps** (no work done on these yet)
 
 1. **The learning loop is write-only.** `interaction_store.py` records outcomes
    (`approved`/`edited`/`rejected` + `corrected_family_id`) and `web_agent.py` reports them,
    but no call site reads outcomes back into ranking. It is telemetry, not learning.
 
-2. **Retrieval is bag-of-words only.** No embeddings in the repo.
-   `IMPLEMENTATION_STATUS.md` parks embeddings behind "evaluate only with a labelled enquiry
-   set" — and that set does not exist. `scripts/eval_scenarios.py` checks placement heuristics,
-   not correctness against gold labels.
+2. **Retrieval is bag-of-words only.** No embeddings in the repo. P1 will build the dense
+   channel and the eval harness to measure accuracy gain.
 
-3. **Retrieval data is polluted.** `agent_core.load_families()` merges
-   `research.retrieval.*` into `keywords`/`applications`/`not_for`, but those fields contain
-   prose fragments. Example — `knowledge/ametalin/research/ametalin_cavity_drainage_battens.json`
-   has `not_for: ["cladding screws", "must pass completely through the batten into the
-   structural studs."]`. Each fragment can fire a spurious −4 penalty in `rank_families`.
-   **Any model trained on this learns the noise.**
-
-4. **`web_agent.py` is single-tenant and unauthenticated.** `_SESSIONS` is an in-process dict
+3. **`web_agent.py` is single-tenant and unauthenticated.** `_SESSIONS` is an in-process dict
    (one worker only, unbounded, lost on restart); no site concept; no CORS allowlist; no rate
    limiting; and `/api/learning/*` exposes conversation contents and accepts outcome writes
-   with no auth.
+   with no auth. P2 hardens this for multi-site deployment.
+
+4. **Bot scope is qualification + callback only.** It cannot answer informational questions
+   ("what is an R-value?") or look up availability mid-conversation. P3 adds RAG, size
+   lookups, and a router. Policy lint lands with P3 to guard all generated text.
 
 ---
 
@@ -94,20 +96,18 @@ asserts NCC/AS/BAL/fire compliance, and never promotes a family that
                      └──────────────────────────────┘
 ```
 
-### L0 — Corpus hygiene (prerequisite, no ML)
+### L0 — Corpus hygiene (✓ COMPLETE)
 
-Nothing downstream is trustworthy until this is done.
+**Delivery:**
+- `retrieval_hygiene.py` — shared validation rules for all retrieval fields
+- `scripts/clean_retrieval_fields.py` — one-pass cleanup + audit trail
+- Applied to 236 research JSONs: ~2,500 terms dropped/salvaged, none lost to false positive
+- `ingest_knowledge_base_txt.py` and `studio_batch.py` now clean at ingest-time
+- `agent_core.load_families()` protected by `ranker_safe_terms()` at merge time
+- 15 unit tests on edge cases (line-wrap artifacts, label bleed, fragments, mojibake)
+- Full test suite: **49 passing**
 
-- `scripts/clean_retrieval_fields.py` — normalise every `research.retrieval.*` list: drop
-  entries containing sentence punctuation or exceeding ~6 tokens, dedupe case-insensitively,
-  reject entries that are prose rather than noun phrases. `not_for` is the highest-risk field
-  (it subtracts score) and gets the strictest rule.
-- Tighten the extraction prompt in `scripts/tds_research_agent.py` to emit validated short
-  lists, so newly-researched families arrive clean.
-- Finish the outstanding TDS refresh (`extract_failed`, `no_pdf_found`, `identity_mismatch`).
-- Build one **retrieval card** per family → `data/processed/retrieval_cards.jsonl`:
-  name, manufacturer, `rag_summary`, applications, placement, use cases, headline specs,
-  `not_for`. This single blob is the unit that gets embedded.
+**Outcome:** Pollution purged from the ranker's keyword/application/not_for feeds. Future ingests arrive clean. The reranker will train on curated terms, not noise.
 
 ### L1 — Hybrid retrieval
 

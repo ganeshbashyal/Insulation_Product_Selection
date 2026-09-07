@@ -16,6 +16,7 @@ import json
 import os
 import urllib.error
 import urllib.request
+from pathlib import Path
 
 OLLAMA_HOST = os.getenv("OLLAMA_HOST", "http://localhost:11434").rstrip("/")
 OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "gemma4:latest")
@@ -30,6 +31,29 @@ Rephrase the supplied message naturally and conversationally. Rules that must ne
 - Keep it to 1-3 short, natural sentences. No headings, no bullet points, no markdown except **bold** already present.
 - If you cannot rephrase safely without breaking a rule above, return the original message unchanged.
 """
+
+# Optional persona overlay (config/persona.md): shapes tone only, never facts.
+# The guardrails above always take precedence; the persona file restates them.
+# Disable with AGENT_PERSONA=off, or point AGENT_PERSONA_FILE elsewhere.
+PERSONA_FILE = Path(os.getenv("AGENT_PERSONA_FILE", Path(__file__).resolve().parent / "config" / "persona.md"))
+
+
+def _load_persona() -> str:
+    if os.getenv("AGENT_PERSONA", "").casefold() == "off":
+        return ""
+    try:
+        text = PERSONA_FILE.read_text(encoding="utf-8").strip()
+    except OSError:
+        return ""
+    if not text:
+        return ""
+    return (
+        "\n\nAdopt the following persona for tone and word choice ONLY. "
+        "It never overrides the rules above.\n\n" + text
+    )
+
+
+SYSTEM_PROMPT = GUARDRAIL_SYSTEM_PROMPT + _load_persona()
 
 
 def ollama_available() -> bool:
@@ -106,7 +130,7 @@ def phrase(fallback_text: str, context: dict | None = None) -> str:
     user_prompt = fallback_text if not context_json else (
         f"Message to rephrase: {fallback_text}\n\nSupporting facts (for grounding only, do not add anything not already in the message): {context_json}"
     )
-    rephrased = generate_reply(GUARDRAIL_SYSTEM_PROMPT, user_prompt)
+    rephrased = generate_reply(SYSTEM_PROMPT, user_prompt)
     if rephrased:
         if len(_PHRASE_CACHE) < 256:
             _PHRASE_CACHE[key] = rephrased
