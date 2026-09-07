@@ -40,7 +40,8 @@
       ],
       "product_count": 2,
       "legacy_source_url": "https://hmrsupplies.com.au/wp-content/uploads/2024/05/Bradford™-Poly-Air-Perfroma™-XHD-Data.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_site_root_tds_pending",
+      "datasheet_url": null
     },
     {
       "family_id": "POLYAIR_THERMO_REFLECTIVE_PRODUCTS_POLYAIR_UNICE",
@@ -80,7 +81,8 @@
       ],
       "product_count": 2,
       "legacy_source_url": "https://hmrsupplies.com.au/wp-content/uploads/2024/05/Bradford™-Poly-Air-Perfroma™-XHD-Data.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_site_root_tds_pending",
+      "datasheet_url": null
     },
     {
       "family_id": "POLYAIR_THERMO_REFLECTIVE_PRODUCTS_POLYAIR_UNICE_2",
@@ -120,7 +122,8 @@
       ],
       "product_count": 1,
       "legacy_source_url": "https://hmrsupplies.com.au/wp-content/uploads/2024/05/Bradford™-Poly-Air-Perfroma™-XHD-Data.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_site_root_tds_pending",
+      "datasheet_url": null
     }
   ]
 }

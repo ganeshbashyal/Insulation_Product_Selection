@@ -112,7 +112,10 @@
       "Workstation desk\nmust accommodate side and rear clamps",
       "Sold in pack quantities of 4 complete\nscreens"
     ],
-    "warranty": "Manufacturer's Guarantee (10 years)"
+    "warranty": "Manufacturer's Guarantee (10 years)",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -170,5 +173,7 @@
     "rag_summary": "Autex Vicinity Desk Screen - Nook is a 3-piece, three-sided\nwrap-around acoustic desk enclosure formed from 12mm Cube polyester felt to\ncocoon 1600mm or 1800mm workstations. Absorbing an impressive 1.55 Sabins per\nunit across rear and dual-side panels, it blocks peripheral vision and\nconversational noise to establish an intimate focus booth in busy open-plan\nspaces. Mounted non-destructively via 100% recycled PET Vicinity Clamps and\ncompliant with Group 1 fire standards, Nook delivers maximum personal acoustic\nprivacy."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

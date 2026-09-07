@@ -116,7 +116,9 @@
       "Pinstripe profile is available in 12mm thickness only"
     ],
     "warranty": "Manufacturer's Guarantee (10 years)",
-    "accessories_upsell": "Autex SpinFix mechanical mounting clips or contact/MS polymer adhesive."
+    "accessories_upsell": "Autex SpinFix mechanical mounting clips or contact/MS polymer adhesive.",
+    "range_headers": [],
+    "clearances": []
   },
   "retrieval": {
     "search_keywords": [
@@ -171,5 +173,7 @@
     "rag_summary": "Autex Verve - Acoustic Timber is a 3D contoured acoustic wall\npanel that combines sculptural light-and-shadow relief with high-definition\ndigital timber grain printing. Formed from 100% polyester fibre with an 80%\nrecycled PET core, it is available in six expressive profiles (including Flute,\nOvolo, and Pillar) and two thicknesses (12mm and 21mm) in 2680mm x 1170mm\nsheets. Achieving Group 1 fire compliance under AS ISO 9705 and an acoustic\nabsorption rating of NRC 0.30+, it delivers the warm tactile aesthetic of fluted\narchitectural timber without the weight, cost, or fire hazards of solid wood."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

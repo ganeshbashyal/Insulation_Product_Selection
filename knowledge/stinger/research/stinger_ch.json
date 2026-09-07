@@ -94,7 +94,10 @@
       "Must be loaded exclusively with genuine STINGER 10mm StaplePac\nfasteners",
       "Not recommended where local high-wind codes mandate ring-shank\nnails (use CN100B)"
     ],
-    "warranty": "National Nail Repair Program warranty"
+    "warranty": "National Nail Repair Program warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -163,5 +166,7 @@
     "rag_summary": "The STINGER CH (CH38-2 / CH38A) is a manual,\nnon-pneumatic cap hammer tacker engineered by National Nail to install\nhousewrap, roofing underlayment, and rolled insulation. With every swing, it\nautomatically positions a 25mm (1 inch) plastic collated cap and drives a 10mm\n(3/8 inch) crown staple through its center into timber framing. Weighing 1.17 kg\nand holding 168 caps and staples (loaded with STINGER StaplePac), it eliminates\ncompressor hoses on roofs while sealing staple penetrations against water leaks\nand preventing high-wind blow-offs."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

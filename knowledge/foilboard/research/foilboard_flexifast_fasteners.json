@@ -97,7 +97,10 @@
       "Not\ndesigned for hollow plasterboard or soft substrates without structural backing",
       "Non-structural; cannot support secondary heavy cladding hung from the fastener"
     ],
-    "warranty": "Backed by Foilboard product warranty"
+    "warranty": "Backed by Foilboard product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -153,5 +156,7 @@
     "rag_summary": "Foilboard Flexifast Fasteners are\none-piece non-conductive nylon anchors engineered to secure Foilboard panels\ndirectly to masonry, concrete, and timber substrates. Featuring a 35-45mm wide\nflexible washer head and an 8mm barbed expanding anchor shank, they clamp panels\ntightly without puncturing the aluminum facing or creating thermal bridging.\nAvailable in 45mm, 70mm, and 95mm lengths to suit 10mm to 50mm boards, they\nprovide rapid, hammer-in fixing for basement walls, carpark soffits, and precast\nconcrete panels."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

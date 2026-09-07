@@ -129,7 +129,10 @@
       "Not designed for exposed decorative finishes; must be enclosed\nbehind plasterboard or linings",
       "Maintain mandatory clearances from non-IC\nrated electrical fixtures"
     ],
-    "warranty": "Backed by Polyester Solutions\nmanufacturer warranty"
+    "warranty": "Backed by Polyester Solutions\nmanufacturer warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -177,5 +180,7 @@
     "rag_summary": "Polyester Solutions Thermal\nBatts - P are premium Australian-made polyester insulation batts manufactured\nfrom 100% thermally bonded polyester fibers with at least 80% recycled PET\ncontent. Engineered without chemical binders, resins, or formaldehyde, they\nprovide a clean, non-toxic, and non-allergenic barrier to heat flow in ceilings\n(R2.5 to R4.0) and walls (R1.5 to R2.5). Compliant with AS/NZS 4859.1 and\npossessing zero spread of flame under AS 1530.3, they deliver lasting thermal\ncomfort and acoustic damping without slumping or degrading."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

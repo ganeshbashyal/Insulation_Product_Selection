@@ -132,7 +132,10 @@
       "Must be kept dry prior to and\nduring installation",
       "Foil must always face down toward the building interior"
     ],
-    "warranty": "CSR Bradford Standard Product Warranty"
+    "warranty": "CSR Bradford Standard Product Warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -194,5 +197,7 @@
     "rag_summary": "Bradford\nAnticon Roofing Blanket - Medium Duty Foil is the standard residential and\nlight-commercial metal roof insulation blanket, laminated with a Medium Duty\nreflective foil facing and a 150mm overlap flap. Engineered for batten spacings\nup to 900mm centres without wire mesh, it forms a Class 2 vapour barrier that\nprevents underside condensation, cuts heavy rain noise by up to 7 dB, and\ndelivers thermal ratings from R1.3 to R3.0. Made in Australia with a\nnon-combustible glasswool core (AS 1530.1) and BAL-FZ suitability, it ensures\nlong-term moisture and thermal protection for Colorbond and metal roofs."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

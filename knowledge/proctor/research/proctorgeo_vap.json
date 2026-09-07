@@ -18,7 +18,10 @@
     "selection_checklist": "",
     "accessories": "",
     "limitations": "",
-    "warranty": ""
+    "warranty": "",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -58,5 +61,7 @@
     "rag_summary": "ProctorGeo Vap represents a specialized vapour-retardant\ngeotextile or composite drainage membrane within the Proctor civil and building\nenvelope line. Engineered for subterranean, under-slab, and basement foundation\napplications, it combines drainage filtration with moisture vapour control to\nblock ground dampness from migrating into structural building elements. It\nprevents damp concrete slabs, efflorescence, and moisture-induced flooring\nfailures."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

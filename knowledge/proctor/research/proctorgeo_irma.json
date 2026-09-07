@@ -105,7 +105,10 @@
       "Must be weighed\ndown with ballast or pavers to prevent wind uplift",
       "Do not use crushed, sharp\naggregate ballast that could pierce the fabric"
     ],
-    "warranty": "Backed by\nProctor Group Australia manufacturer warranty"
+    "warranty": "Backed by\nProctor Group Australia manufacturer warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -148,5 +151,7 @@
     "rag_summary": "ProctorGeo IRMA is a heavy-duty, water-vapour permeable non-woven geotextile\nengineered specifically as a filter, separation, and water-deflecting layer for\nInverted Roof Membrane Assemblies (IRMA). Laid loose directly over extruded\npolystyrene (XPS) insulation beneath gravel ballast or pavers, its virgin\npolypropylene fiber matrix filters out silt and prevents ballast fines from\njamming board joints while allowing vapor to vent freely. By shedding up to 98%\nof surface rainwater directly to outlets, it minimizes rainwater cooling to\npreserve the thermal performance of flat concrete roofs."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

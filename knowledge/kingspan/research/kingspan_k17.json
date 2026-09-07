@@ -132,7 +132,10 @@
       "Do not use directly adjacent to combustion\nsources or uninsulated fireplace flues",
       "Substrate must be protected from\nexternal water penetration before drylining"
     ],
-    "warranty": "10-year\nmanufacturing warranty"
+    "warranty": "10-year\nmanufacturing warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -186,5 +189,7 @@
     "rag_summary": "Kingspan Kooltherm K17 Insulated Plasterboard is a 3-in-1 internal drylining\nboard combining rigid thermoset phenolic insulation (conductivity 0.021 W/m·K),\nan integrated vapor barrier, and a 10mm tapered-edge plasterboard face. Sized\nat 2400mm x 1200mm in overall thicknesses from 35mm to 90mm (R1.15 to R3.65), it\nbonds directly to masonry, concrete, or framing via adhesive daubs to reduce\nwall depth by up to 60% compared to stud systems. CodeMark certified and Group 1\nfire classified under AS 5637.1, it delivers space-saving thermal comfort and\ncondensation control."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

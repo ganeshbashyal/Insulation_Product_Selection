@@ -43,7 +43,8 @@
       ],
       "product_count": 48,
       "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_site_root_tds_pending",
+      "datasheet_url": null
     },
     {
       "family_id": "KINGSPAN_K12",
@@ -83,7 +84,8 @@
       ],
       "product_count": 8,
       "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_site_root_tds_pending",
+      "datasheet_url": null
     },
     {
       "family_id": "KINGSPAN_K15",
@@ -123,7 +125,8 @@
       ],
       "product_count": 2,
       "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_site_root_tds_pending",
+      "datasheet_url": null
     },
     {
       "family_id": "KINGSPAN_K17",
@@ -163,7 +166,8 @@
       ],
       "product_count": 17,
       "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_site_root_tds_pending",
+      "datasheet_url": null
     },
     {
       "family_id": "KINGSPAN_K18",
@@ -203,7 +207,8 @@
       ],
       "product_count": 11,
       "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_site_root_tds_pending",
+      "datasheet_url": null
     },
     {
       "family_id": "KINGSPAN_K3",
@@ -243,7 +248,8 @@
       ],
       "product_count": 2,
       "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_site_root_tds_pending",
+      "datasheet_url": null
     },
     {
       "family_id": "KINGSPAN_K8",
@@ -283,7 +289,8 @@
       ],
       "product_count": 2,
       "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_site_root_tds_pending",
+      "datasheet_url": null
     },
     {
       "family_id": "KINGSPAN_UNIVERSAL_INSULATION_RETAINING_CLIPS",
@@ -323,7 +330,8 @@
       ],
       "product_count": 1,
       "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_site_root_tds_pending",
+      "datasheet_url": null
     },
     {
       "family_id": "KINGSPAN_XPS_STRIP_SLAP_EDGE_INSULATION",
@@ -363,7 +371,8 @@
       ],
       "product_count": 2,
       "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-greenguard-300-500-700-product-datasheet-en-au.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_site_root_tds_pending",
+      "datasheet_url": null
     }
   ]
 }

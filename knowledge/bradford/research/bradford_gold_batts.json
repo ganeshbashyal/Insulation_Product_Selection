@@ -142,7 +142,10 @@
       "Must be protected from continuous\nwater exposure and prolonged outdoor weather",
       "Maintain electrical safety\nclearances around recessed electrical equipment"
     ],
-    "warranty": "70 Year Product\nPerformance Warranty"
+    "warranty": "70 Year Product\nPerformance Warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -200,5 +203,7 @@
     "rag_summary": "Bradford Gold Batts are Australia's\nflagship glasswool thermal and acoustic insulation batts for residential\nceilings (R2.5 to R4.1) and walls (R1.5 to R2.0). Manufactured from up to 80%\nrecycled glass with low-itch Comfort Touch technology and water-repellent\nbinders, they reduce home heating and cooling energy use by up to 45%. Deemed\nnon-combustible to AS 1530.1 and certified by the National Asthma Council's\nSensitive Choice program, they deliver dependable, lifetime thermal performance\nbacked by CSR Bradford's 70-year warranty."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

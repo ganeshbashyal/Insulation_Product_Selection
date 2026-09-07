@@ -39,7 +39,10 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 25
+      "product_count": 25,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "ECOWOOL_ACOUSTIC_PARTITION_ROLL",
@@ -77,7 +80,10 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "ECOWOOL_CONDENSHIELD_ROOF_BLANKET",
@@ -115,7 +121,10 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "ECOWOOL_ECOSEAL_TAPE",
@@ -153,7 +162,10 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "ECOWOOL_NOISEBREAK_BATT",
@@ -191,7 +203,10 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 8
+      "product_count": 8,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "ECOWOOL_RESIDENTIAL_BATT",
@@ -229,7 +244,10 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 20
+      "product_count": 20,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "ECOWOOL_WRAP",
@@ -266,7 +284,10 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     }
   ]
 }

@@ -113,7 +113,10 @@
       "Curved profile has lower total surface area\ncompared to full rectangular screens",
       "Cannot support mounted accessories or\nheavy equipment"
     ],
-    "warranty": "10 Year Manufacturer's Guarantee"
+    "warranty": "10 Year Manufacturer's Guarantee",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -172,5 +175,7 @@
     "rag_summary": "Autex Vicinity - Desk Screen\n- Sol is an organic curved acoustic desk partition crafted from 12mm or 24mm\nCube semi-rigid polyester felt containing at least 80% recycled PET.\nCharacterized by its arched Sol silhouette, it mounts non-destructively to desks\nusing 100% recycled PET Vicinity clamps to absorb voice frequencies (0.30 Sabins\nper 600mm unit) and provide visual privacy. Certified Group 1 fire rated under\nAS ISO 9705 and carbon neutral, it softens open-plan office acoustics while\nintroducing fluid, contemporary geometry to workstations."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

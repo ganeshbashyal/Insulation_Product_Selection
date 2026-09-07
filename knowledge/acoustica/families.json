@@ -42,7 +42,8 @@
       ],
       "product_count": 9,
       "legacy_source_url": "https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf",
-      "source_url_status": "manufacturer_tds_confirmed"
+      "source_url_status": "manufacturer_tds_confirmed",
+      "datasheet_url": null
     },
     {
       "family_id": "ACOUSTICA_ACOUSTIC_BARRIER",
@@ -81,7 +82,8 @@
       ],
       "product_count": 3,
       "legacy_source_url": "https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf",
-      "source_url_status": "manufacturer_tds_confirmed"
+      "source_url_status": "manufacturer_tds_confirmed",
+      "datasheet_url": null
     },
     {
       "family_id": "ACOUSTICA_ACOUSTIFLEX_SQ",
@@ -121,7 +123,8 @@
       ],
       "product_count": 4,
       "legacy_source_url": "https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf",
-      "source_url_status": "manufacturer_tds_confirmed"
+      "source_url_status": "manufacturer_tds_confirmed",
+      "datasheet_url": null
     },
     {
       "family_id": "ACOUSTICA_ANGELSTEP",
@@ -161,7 +164,8 @@
       ],
       "product_count": 3,
       "legacy_source_url": "https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf",
-      "source_url_status": "manufacturer_tds_confirmed"
+      "source_url_status": "manufacturer_tds_confirmed",
+      "datasheet_url": null
     },
     {
       "family_id": "ACOUSTICA_DUST_FOAM_FILTER",
@@ -201,7 +205,8 @@
       ],
       "product_count": 1,
       "legacy_source_url": "https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf",
-      "source_url_status": "manufacturer_tds_confirmed"
+      "source_url_status": "manufacturer_tds_confirmed",
+      "datasheet_url": null
     },
     {
       "family_id": "ACOUSTICA_GL",
@@ -241,7 +246,8 @@
       ],
       "product_count": 4,
       "legacy_source_url": "https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf",
-      "source_url_status": "manufacturer_tds_confirmed"
+      "source_url_status": "manufacturer_tds_confirmed",
+      "datasheet_url": null
     },
     {
       "family_id": "ACOUSTICA_UNDERLAY",
@@ -280,7 +286,8 @@
       ],
       "product_count": 5,
       "legacy_source_url": "https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf",
-      "source_url_status": "manufacturer_tds_confirmed"
+      "source_url_status": "manufacturer_tds_confirmed",
+      "datasheet_url": null
     }
   ]
 }

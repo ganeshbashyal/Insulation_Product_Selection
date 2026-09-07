@@ -101,7 +101,10 @@
       "Must not be applied to\nwet, oily, or frozen surfaces",
       "Not intended for structural load-bearing\napplications"
     ],
-    "warranty": "Backed by Fletcher Insulation product warranty"
+    "warranty": "Backed by Fletcher Insulation product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -150,5 +153,7 @@
     "rag_summary": "Fletcher Membrane Tapes and Thermal Break\nAccessories provide engineered sealing solutions including Vapastop 883\nreinforced aluminum foil tape and Sisalation VapaSeam tape. Built with high-grab\npressure-sensitive adhesives and tear-resistant backings, they form airtight and\nvapor-tight seals across building membranes, reflective foils, and duct wrap.\nRated with a low Flammability Index (≤ 5 to AS 1530.2), they are essential\ncomponents for achieving NCC-compliant energy efficiency, condensation control,\nand air barrier integrity."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

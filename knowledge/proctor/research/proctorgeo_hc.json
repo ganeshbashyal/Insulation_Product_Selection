@@ -108,7 +108,10 @@
       "Do not leave exposed to direct outdoor UV weather for longer than 30\ndays prior to cladding",
       "Fasteners must not pinch or compress the drainage\npathway excessively"
     ],
-    "warranty": "Backed by Proctor Group Australia\nmanufacturer warranty"
+    "warranty": "Backed by Proctor Group Australia\nmanufacturer warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -154,5 +157,7 @@
     "rag_summary": "ProctorGeo HC (D-Rain HC9 / HC10) is an entangled monofilament\npolypropylene drainage and acoustic separation mat laminated with a non-woven\ngeotextile filter fabric. Sized at 9mm to 10mm thickness in roll format, it\ncreates a permanent drainage and ventilation plane under standing seam metal,\nzinc, and copper roofs, as well as behind wall claddings and beneath plaza\npavers. Delivering up to 21 dB in rain noise damping while rapidly draining\ncondensation, it protects metal claddings from underside corrosion and water\nponding."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

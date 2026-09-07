@@ -134,7 +134,9 @@
       "Avoid over-compressing blanket directly under roof sheets unless\nusing roof spacer systems"
     ],
     "warranty": "CSR Bradford Standard Product\nWarranty",
-    "accessories_upsell": "Bradford 72mm reinforced aluminium foil tape (min. 1 roll per 2 rolls of Anticon) and roof safety wire mesh."
+    "accessories_upsell": "Bradford 72mm reinforced aluminium foil tape (min. 1 roll per 2 rolls of Anticon) and roof safety wire mesh.",
+    "range_headers": [],
+    "clearances": []
   },
   "retrieval": {
     "search_keywords": [
@@ -197,5 +199,7 @@
     "rag_summary": "Bradford Anticon Blanket is an Australian-made glasswool roofing\nblanket factory-laminated to a reflective foil vapour-barrier backing with\na 150mm overlap edge. Designed for residential and commercial metal roofs, it\nprovides an all-in-one solution for thermal control (R1.3 to R3.6), rain impact\nsound damping (reducing rain noise by up to 7 dB), and condensation management.\nFeaturing a non-combustible glasswool core (AS 1530.1) and suitability for\nbushfire zones up to BAL-FZ, it protects roof timbers and ceilings from\nmoisture, heat, and flame."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

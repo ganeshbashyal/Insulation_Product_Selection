@@ -139,7 +139,10 @@
       "Must be\nprotected from continuous water exposure and outdoor weather",
       "Not designed as\nan exposed decorative lining; must be enclosed behind plasterboard or internal\nlinings"
     ],
-    "warranty": "50 Year Product Warranty"
+    "warranty": "50 Year Product Warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -197,5 +200,7 @@
     "rag_summary": "Knauf Earthwool Batts (Knauf Batt) are\nnon-combustible glass mineral wool thermal and acoustic insulation batts\nmanufactured using bio-based ECOSE Technology with zero added formaldehyde.\nAvailable in wall ratings from R1.5 to R4.0 and ceiling ratings from R2.5 up to\nAustralia's thickest R7.0, they fit standard 430mm and 580mm framing without\nslumping. Tested non-combustible to AS 1530.1 and certified under BRANZ\nAppraisal 873 and GreenTag Level A, they provide an itch-free, low-dust\ninstallation backed by a 50-year warranty."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

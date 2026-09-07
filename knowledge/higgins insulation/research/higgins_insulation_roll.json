@@ -122,7 +122,10 @@
       "Avoid excessive compression beyond cavity\ndepth",
       "Do not install directly over non-IC rated light fittings"
     ],
-    "warranty": "Backed by Higgins Insulation product warranty"
+    "warranty": "Backed by Higgins Insulation product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -177,5 +180,7 @@
     "rag_summary": "Higgins Insulation\nRoll (Polyester Sound Blankets / Partition Rolls) is a continuous bulk acoustic\nand thermal insulation roll manufactured from 100% polyester fiber with 80%\nrecycled PET content. Available in widths of 450mm and 610mm and thicknesses\nfrom 50mm to 100mm, it unrolls smoothly into wall cavities, ceilings, and\nunderfloor joists to dampen sound transmission and block thermal loss.\nHydrophobic, itch-free, zero-ODP, and compliant with AS/NZS 1530.3 fire safety,\nit provides an economical, rapid-install acoustic solution."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

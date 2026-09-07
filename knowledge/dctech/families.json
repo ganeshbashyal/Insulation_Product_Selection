@@ -38,7 +38,10 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 4
+      "product_count": 4,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "DCTECH_DCT_XPS_GA",
@@ -76,7 +79,10 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 6
+      "product_count": 6,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "DCTECH_TECSOUND",
@@ -114,7 +120,10 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 4
+      "product_count": 4,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     }
   ]
 }

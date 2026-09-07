@@ -144,7 +144,10 @@
       "Not designed for exposed decorative finishes; must be\nenclosed behind plasterboard or linings",
       "Maintain mandatory clearances from\nnon-IC rated electrical fixtures"
     ],
-    "warranty": "Lifetime performance guarantee\nbacked by Higgins Insulation"
+    "warranty": "Lifetime performance guarantee\nbacked by Higgins Insulation",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -193,5 +196,7 @@
     "rag_summary": "Higgins Insulation Higgins Polyester Batts are Australian-made,\nitch-free thermal and acoustic insulation batts manufactured from 100% polyester\nfiber containing up to 85% recycled PET bottles. Available in ceiling ratings\nfrom R2.0 to R5.0 and wall ratings from R1.5 to R2.5 (widths 430mm and 580mm),\nthey fit standard framing without slumping, packing down, or deteriorating over\ntime. Completely free of chemical binders, resins, and formaldehyde, they are\nnon-allergenic, Sensitive Choice friendly, and tested to AS/NZS 1530.3 fire\nsafety standards."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

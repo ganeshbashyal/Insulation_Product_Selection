@@ -47,7 +47,12 @@
         "Select grade only after system and target are known",
         "Verify fire, NCC and BAL requirements for the complete construction",
         "Product Rw is not the completed-system Rw"
-      ]
+      ],
+      "manufacturer": "Thermotec",
+      "product_count": 0,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "THERMOTEC_NUWAVE_UNDERLAY",
@@ -90,7 +95,12 @@
         "Verify floor-finish compatibility",
         "Confirm tested system or consultant requirement",
         "Do not promise an installed-system result from a component claim"
-      ]
+      ],
+      "manufacturer": "Thermotec",
+      "product_count": 0,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "THERMOTEC_NUWAVE_FENCE_MLV",
@@ -132,7 +142,10 @@
         "No BAL or fire claim without project evidence"
       ],
       "legacy_source_url": "https://insulationeasy.com.au/product/mass-loaded-vinyl-treated-for-uv-radiation-acoustic-sound-noise-barrier-fence-insulation/",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_site_root_tds_pending",
+      "manufacturer": "Thermotec",
+      "product_count": 0,
+      "datasheet_url": null
     },
     {
       "family_id": "THERMOTEC_NUWAVE_FOIL_FACED_MLV",
@@ -173,7 +186,10 @@
         "Do not confuse with Thermotec 4-Zero pipe insulation"
       ],
       "legacy_source_url": "https://insulationeasy.com.au/product/nuwave-4zero-foil-faced-mlv-soundproofing/",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_site_root_tds_pending",
+      "manufacturer": "Thermotec",
+      "product_count": 0,
+      "datasheet_url": null
     },
     {
       "family_id": "THERMOTEC_NUWRAP_5",
@@ -216,7 +232,12 @@
         "Confirm service temperature and diameter",
         "Verify joints, penetrations and complete system",
         "Check fire and project specification"
-      ]
+      ],
+      "manufacturer": "Thermotec",
+      "product_count": 0,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "THERMOTEC_NUWRAP_XTRAFLEX",
@@ -257,7 +278,12 @@
         "Choose between NuWrap variants from current data",
         "Confirm service conditions",
         "Verify complete system and compliance"
-      ]
+      ],
+      "manufacturer": "Thermotec",
+      "product_count": 0,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "THERMOTEC_4_ZERO",
@@ -299,7 +325,12 @@
         "Select diameter and thickness from design",
         "Retain exact fire-test context",
         "Confirm condensation, exposure and project requirements"
-      ]
+      ],
+      "manufacturer": "Thermotec",
+      "product_count": 0,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "THERMOTEC_E_FLEX_ST",
@@ -344,7 +375,12 @@
         "Confirm thickness from thermal and condensation design",
         "Use HT rather than ST where exposure/temperature requires it",
         "No generic family R-value"
-      ]
+      ],
+      "manufacturer": "Thermotec",
+      "product_count": 0,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "THERMOTEC_E_FLEX_HT",
@@ -387,7 +423,12 @@
         "Confirm documented temperature limit",
         "Confirm weather/mechanical protection",
         "Verify regulatory and system requirements"
-      ]
+      ],
+      "manufacturer": "Thermotec",
+      "product_count": 0,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "THERMOTEC_ROCKWOOL_PIPE",
@@ -429,7 +470,12 @@
         "Confirm temperature and thickness",
         "Select jacketing/protection",
         "Do not interpret density as an acoustic rating"
-      ]
+      ],
+      "manufacturer": "Thermotec",
+      "product_count": 0,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "THERMOTEC_E_THERM",
@@ -472,7 +518,12 @@
         "Verify system R-value, not just product layer",
         "Check condensation and installation orientation",
         "Confirm NCC and project specification"
-      ]
+      ],
+      "manufacturer": "Thermotec",
+      "product_count": 0,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "THERMOTEC_MAXTAPE_FR",
@@ -514,7 +565,12 @@
         "Confirm compatibility with parent system",
         "Verify current fire-classification evidence",
         "Do not sell as stand-alone insulation"
-      ]
+      ],
+      "manufacturer": "Thermotec",
+      "product_count": 0,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "THERMOTEC_MAXFLEX_PIPE",
@@ -550,7 +606,11 @@
         "Do not recommend, quote or map specifications until identity is verified",
         "Confirm both MPNs with manufacturer or purchasing records"
       ],
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_site_root_tds_pending",
+      "manufacturer": "Thermotec",
+      "product_count": 0,
+      "legacy_source_url": null,
+      "datasheet_url": null
     }
   ]
 }

@@ -18,7 +18,10 @@
     "selection_checklist": "",
     "accessories": "",
     "limitations": "",
-    "warranty": ""
+    "warranty": "",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -58,5 +61,7 @@
     "rag_summary": "Hushtec Reflective is an unverified catalog placeholder within the Hushtec\nproduct listing. Hushtec exclusively manufactures modular industrial acoustic\nbarrier curtains, transparent noise barriers, and marine/film acoustic\nenclosures, and does not produce reflective foil laminates, bubble foil, or\nthermal roof sarking. For reflective insulation in Australian building\nassemblies, compliant products such as Fletcher Sisalation, Kingspan AIR-CELL,\nor Foilboard Green are standard."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

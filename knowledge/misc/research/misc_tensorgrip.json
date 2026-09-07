@@ -97,7 +97,10 @@
       "Do not\napply to wet, greasy, or frozen surfaces",
       "Requires adequate ventilation during\napplication"
     ],
-    "warranty": "Backed by Quin Global manufacturer product\nwarranty"
+    "warranty": "Backed by Quin Global manufacturer product\nwarranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -179,5 +182,7 @@
     "rag_summary": "Misc\nTensorGrip (manufactured by Quin Global) is a portable canister spray contact\nadhesive system designed for bonding insulation, acoustic foam, fabrics, and\ncomposite building panels. Offering fast flash-off times, immediate high green\nstrength, and heat resistance up to 120°C, it eliminates the need for mechanical\ncompressors and messy manual rolling on site. Available in 500ml aerosols\nand 22L canisters with low-VOC formulations, it delivers rapid, durable bonding\nacross concrete, metal, timber, and insulation substrates."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

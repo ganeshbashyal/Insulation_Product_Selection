@@ -117,7 +117,10 @@
       "Desktop must provide adequate rear edge\nclearance for clamp mechanism",
       "Sold in minimum pack quantities of 4 screens"
     ],
-    "warranty": "Manufacturer's Guarantee (10 years)"
+    "warranty": "Manufacturer's Guarantee (10 years)",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -175,5 +178,7 @@
     "rag_summary": "Autex Vicinity Desk Screen - Hedge is a\nclassic linear acoustic workstation divider designed to mount along the rear\nedge of 1600mm or 1800mm desks with smooth rounded corners. Crafted from 12mm\nCube polyester felt containing over 80% recycled PET, it absorbs direct speech\nand keyboard noise (1.00 to 1.10 Sabins per unit) while doubling as a pinnable\nnoticeboard. Installed non-destructively via 100% recycled PET Vicinity Clamps\nand rated Group 1 fire compliant, Hedge provides a clean, sustainable acoustic\nboundary between facing desks."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

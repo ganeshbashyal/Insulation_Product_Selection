@@ -43,37 +43,67 @@ VARIANTS_BEFORE_HEADING = "## Selection logic and metric discipline"
 INSTALL_BEFORE_HEADING = "## Approved bot language"
 
 
-def load_research(manufacturer_dir: str, family_name: str) -> dict | None:
-    path = research_path(manufacturer_dir, slugify(family_name))
-    if not path.exists():
-        return None
-    try:
-        data = json.loads(path.read_text(encoding="utf-8"))
-    except (json.JSONDecodeError, OSError):
-        return None
-    if data.get("status") != "ok" or not data.get("spec"):
-        return None
-    return data
+def load_research(manufacturer_dir: str, family_name: str, family_id: str = "") -> dict | None:
+    research_dir = ROOT / "knowledge" / manufacturer_dir / "research"
+    candidates = [research_path(manufacturer_dir, slugify(family_name))]
+    names = {family_name, family_name.lower(), slugify(family_name), slugify(family_name).replace("-", "_")}
+    names.update({family_id, family_id.lower(), slugify(family_id), slugify(family_id).replace("-", "_")})
+    candidates.extend(research_dir / f"{name}.json" for name in names if name)
+    seen: set[Path] = set()
+    paths = [path for path in candidates if not (path in seen or seen.add(path))]
+    paths.extend(path for path in sorted(research_dir.glob("*.json")) if path not in seen)
+    for path in paths:
+        if not path.exists():
+            continue
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            continue
+        if data.get("status") != "ok" or not data.get("spec"):
+            continue
+        if data.get("family_id") == family_id or data.get("family_name", "").casefold() == family_name.casefold() or path in candidates[:len(names) + 1]:
+            return data
+    return None
 
 
 def build_variants_block(research: dict) -> str | None:
     spec = research["spec"]
     headers = spec.get("range_headers") or []
     rows = [r for r in (spec.get("range") or []) if isinstance(r, dict)]
+    technical = [item for item in (spec.get("technical") or []) if isinstance(item, dict) and item.get("property") and item.get("value")]
     if not headers or not rows:
-        return None
-    lines = [VARIANTS_START, "", "## Physical characteristics and product codes", ""]
+        if not technical:
+            source = research.get("datasheet_pdf_url") or "the current manufacturer source"
+            return "\n".join([
+                VARIANTS_START,
+                "",
+                "## Documented physical and technical properties",
+                "",
+                "_Variation data is pending a verified manufacturer range table or technical extraction. No dimensions, ratings or product combinations are inferred._",
+                "",
+                f"Source currently recorded: {source}",
+                "",
+                VARIANTS_END,
+            ])
+        headers = ["Published property", "Value", "Standard"]
+        rows = [{"c0": item.get("property", ""), "c1": item.get("value", ""), "c2": item.get("standard", "")} for item in technical]
+        title = "## Documented physical and technical properties"
+        note = "_No manufacturer range table was available in the extracted source; this records each published technical property without inferring product combinations._"
+    else:
+        title = "## Physical characteristics and product codes"
+        note = (
+            f"_Every size/product-code variant published in the current manufacturer datasheet "
+            f"({research.get('datasheet_pdf_url', 'source pending')}); not a summary. Confirm current "
+            f"availability and product codes before quoting._"
+        )
+    lines = [VARIANTS_START, "", title, ""]
     lines.append("| " + " | ".join(h.strip() for h in headers) + " |")
     lines.append("|" + " --- |" * len(headers))
     for row in rows:
         cells = [str(row.get(f"c{i}", "")).strip() for i in range(len(headers))]
         lines.append("| " + " | ".join(cells) + " |")
     lines.append("")
-    lines.append(
-        f"_Every size/product-code variant published in the current manufacturer datasheet "
-        f"({research.get('datasheet_pdf_url', 'source pending')}); not a summary. Confirm current "
-        f"availability and product codes before quoting._"
-    )
+    lines.append(note)
     lines.append("")
     lines.append(VARIANTS_END)
     return "\n".join(lines)
@@ -84,8 +114,19 @@ def build_install_block(research: dict) -> str | None:
     steps = [str(s).strip() for s in (spec.get("install") or []) if str(s).strip()]
     clearances = [str(c).strip() for c in (spec.get("clearances") or []) if str(c).strip()]
     limitations = [str(l).strip() for l in (spec.get("limitations") or []) if str(l).strip()]
-    if not steps and not clearances:
-        return None
+    if not steps and not clearances and not limitations:
+        source = research.get("datasheet_pdf_url") or "the current manufacturer source"
+        return "\n".join([
+            INSTALL_START,
+            "",
+            "## Installation and clearances",
+            "",
+            "_Installation, clearance and limitation evidence is pending a verified manufacturer source. Do not infer project-specific installation instructions from this family file._",
+            "",
+            f"Source currently recorded: {source}",
+            "",
+            INSTALL_END,
+        ])
     lines = [INSTALL_START, "", "## Installation and clearances", ""]
     if steps:
         lines.append(
@@ -164,10 +205,13 @@ def main() -> None:
             md_path = path.parent / knowledge_file
             if not md_path.exists():
                 continue
-            research = load_research(manufacturer_dir, family["name"])
+            research = load_research(manufacturer_dir, family["name"], family["family_id"])
             if not research:
-                skipped += 1
-                continue
+                research = {
+                    "status": "research_pending",
+                    "datasheet_pdf_url": family.get("source_url") or "",
+                    "spec": {},
+                }
             if enrich_file(md_path, research, args.dry_run):
                 print(f"{'[dry-run] ' if args.dry_run else ''}enriched {md_path.relative_to(ROOT)}")
                 changed += 1

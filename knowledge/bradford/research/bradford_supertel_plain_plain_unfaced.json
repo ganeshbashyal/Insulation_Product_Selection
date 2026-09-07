@@ -135,7 +135,10 @@
       "Not for direct exposure to liquid water or\noutdoor weather",
       "Must be covered or contained in high-velocity air streams"
     ],
-    "warranty": "CSR Bradford Standard Product Warranty"
+    "warranty": "CSR Bradford Standard Product Warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -180,5 +183,7 @@
     "rag_summary": "Bradford Supertel Plain - Plain - Unfaced\nis a 32 kg/m3 density, unlaminated bio-soluble glasswool insulation board and\nblanket manufactured in Australia with up to 65% recycled glass. Delivering an\nNRC of up to 1.10 and continuous temperature resistance to 350°C, it is\ncertified non-combustible under AS 1530.1. Sized in 13mm to 100mm thicknesses\n(R0.4 to R3.0), it serves as the industry standard acoustic and thermal core for\nmechanical attenuators, commercial duct linings, and architectural acoustic\ncavities."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

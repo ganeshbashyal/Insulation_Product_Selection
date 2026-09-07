@@ -113,7 +113,10 @@
       "Non-structural screen; cannot support heavy\nmonitor arms or mounted shelving",
       "Avoid direct exposure to liquids or\nhigh-humidity environments"
     ],
-    "warranty": "10 Year Manufacturer's Guarantee"
+    "warranty": "10 Year Manufacturer's Guarantee",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -177,5 +180,7 @@
     "rag_summary": "Autex Vicinity -\nDesk Screen - Slate is a lightweight acoustic workstation partition made\nfrom 12mm or 24mm Cube semi-rigid polyester felt containing at least 80%\nrecycled PET. Specifically shaped in the tailored Slate profile, it fixes\nnon-destructively to desktops via 100% recycled PET Vicinity clamps to absorb\nvoice frequencies (0.50 Sabins per 800mm unit) right where open-plan chatter\nstarts. Rated Group 1 fire compliant under AS ISO 9705 and certified carbon\nneutral, it provides durable, pinnable acoustic and visual shelter for modern\nagile offices."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

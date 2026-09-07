@@ -40,7 +40,8 @@
       ],
       "product_count": 1,
       "legacy_source_url": "https://insulationessentials.com.au/wp-content/uploads/2024/10/Current-MetecnoPIR-Tech-Data-Sheets-MetecnoTherm-v4_v4-2.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_site_root_tds_pending",
+      "datasheet_url": null
     },
     {
       "family_id": "METECNO_ALUMINIUM_GLASS_FOIL_TAPE",
@@ -80,7 +81,8 @@
       ],
       "product_count": 1,
       "legacy_source_url": "https://insulationessentials.com.au/wp-content/uploads/2024/10/Current-MetecnoPIR-Tech-Data-Sheets-MetecnoTherm-v4_v4-2.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_site_root_tds_pending",
+      "datasheet_url": null
     },
     {
       "family_id": "METECNO_BALLISTIC_POINT_INSULATION_FASTENE",
@@ -120,7 +122,8 @@
       ],
       "product_count": 10,
       "legacy_source_url": "https://insulationessentials.com.au/wp-content/uploads/2024/10/Current-MetecnoPIR-Tech-Data-Sheets-MetecnoTherm-v4_v4-2.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_site_root_tds_pending",
+      "datasheet_url": null
     },
     {
       "family_id": "METECNO_BOARD",
@@ -159,7 +162,8 @@
       ],
       "product_count": 10,
       "legacy_source_url": "https://insulationessentials.com.au/wp-content/uploads/2024/10/Current-MetecnoPIR-Tech-Data-Sheets-MetecnoTherm-v4_v4-2.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_site_root_tds_pending",
+      "datasheet_url": null
     }
   ]
 }

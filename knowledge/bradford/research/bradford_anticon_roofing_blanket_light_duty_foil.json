@@ -122,7 +122,10 @@
       "Glasswool must be kept completely dry during storage and installation",
       "Foil must face downward into the building space to prevent condensation"
     ],
-    "warranty": "CSR Bradford Standard Product Warranty"
+    "warranty": "CSR Bradford Standard Product Warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -181,5 +184,7 @@
     "rag_summary": "Bradford Anticon Roofing\nBlanket - Light Duty Foil is a cost-effective glasswool insulation blanket faced\nwith a Light Duty reflective foil backing and a 150mm overlap edge. Designed for\nresidential metal roofs with batten centres up to 600mm or roofs supported by\ncontinuous safety mesh, it stops condensation pooling, dampens rain noise by up\nto 7 dB, and delivers thermal resistance from R1.3 to R2.3. With a\nnon-combustible glasswool core and BAL-FZ bushfire suitability, it provides\ndependable under-roof protection for budget-conscious home and shed builds."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

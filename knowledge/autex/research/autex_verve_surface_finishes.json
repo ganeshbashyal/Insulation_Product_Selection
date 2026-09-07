@@ -115,7 +115,10 @@
       "Pinstripe design is\navailable in 12mm only",
       "Panels must be installed in uniform vertical\norientation"
     ],
-    "warranty": "Manufacturer's Guarantee (10 years)"
+    "warranty": "Manufacturer's Guarantee (10 years)",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -171,5 +174,7 @@
     "rag_summary": "Autex Verve - Surface Finishes combines 3D contoured acoustic\nwall geometry with high-definition digital UV printing of natural stone, marble,\nand concrete textures. Constructed from 100% polyester fibre with an 80%\nrecycled PET core, it is available in six sculptural profiles and two\nthicknesses (12mm and 21mm) in 2680mm x 1170mm sheets. Delivering an acoustic\nabsorption rating of NRC 0.30+ and Group 1 fire compliance under AS ISO 9705, it\nreplicates the high-end aesthetic of fluted masonry without structural weight,\ninstallation complexity, or acoustic harshness."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

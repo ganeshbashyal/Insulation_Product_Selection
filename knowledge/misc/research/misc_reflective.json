@@ -18,7 +18,10 @@
     "selection_checklist": "",
     "accessories": "",
     "limitations": "",
-    "warranty": ""
+    "warranty": "",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -66,5 +69,7 @@
     "rag_summary": "Misc Reflective\nrepresents generic reflective foil laminates, bubble foil, and building sarking\nmembranes used across Australian residential and commercial construction.\nEngineered with high-purity aluminum foil facings that reflect up to 97% of\nradiant heat when installed facing an enclosed air cavity, these products reduce\nsolar heat gain and assist in condensation management when installed in roofs,\nwalls, and sheds."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

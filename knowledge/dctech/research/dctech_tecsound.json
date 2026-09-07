@@ -152,7 +152,10 @@
       "Ceiling applications require mechanical fastening in addition to\nadhesive bonding",
       "Heavy weight requires adequate structural support and\nmulti-person handling during overhead installation"
     ],
-    "warranty": "Backed by\nDCTech product warranty"
+    "warranty": "Backed by\nDCTech product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -205,5 +208,7 @@
     "rag_summary": "DCTech Tecsound (Tecsound / Tecsound SY) is a high-density, visco-elastic\nsynthetic soundproofing membrane distributed in Australia by DCTech. Formulated\nfrom asphalt-free polymers at 5.0 kg/m² (Tecsound 50, 2.5mm) and 7.0 kg/m²\n(Tecsound 70 / SY 70, 3.5mm), it provides an Rw of up to 30 dB as a single layer\nwithout adding significant wall or ceiling thickness. Available with a\nself-adhesive backing (SY) or composite felt (2FT), it dampens airborne noise,\naircraft flyover rumble, and metal roof rain drumming across walls, ceilings,\nfloors, and building services. Rated Euroclass B, s2, d0, non-toxic, and\nflexible down to -20°C, it is an advanced acoustic damping membrane for\nhigh-performance building envelopes."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

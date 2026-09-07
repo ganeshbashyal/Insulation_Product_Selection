@@ -120,7 +120,10 @@
       "Not\nsuitable for damp or unventilated solid walls without moisture treatment",
       "Do\nnot use directly adjacent to combustion flues or solid fuel stoves"
     ],
-    "warranty": "Standard Kingspan manufacturer product warranty"
+    "warranty": "Standard Kingspan manufacturer product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -167,5 +170,7 @@
     "rag_summary": "Kingspan Kooltherm K18\nInsulated Plasterboard is a 3-in-1 insulated dry-lining board combining rigid\nthermoset phenolic foam (conductivity 0.021 W/m·K), a low-emissivity composite\nfoil backing, and a 12.5mm tapered-edge gypsum plasterboard face.\nPurpose-designed for mechanical screw-fixing to timber battens, metal furring\nchannels, or studs over solid masonry and concrete walls, it provides thermal\nratings up to R3.8 while preserving interior room dimensions. Euroclass B-s1, d0\nfire rated and fiber-free, it delivers robust, moisture-resistant internal wall\ninsulation."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

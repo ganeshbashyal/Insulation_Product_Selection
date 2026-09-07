@@ -18,7 +18,10 @@
     "selection_checklist": "",
     "accessories": "",
     "limitations": "",
-    "warranty": ""
+    "warranty": "",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -82,5 +85,7 @@
     "rag_summary": "Rockwool Reflective represents\nstone wool (mineral wool) insulation blankets or slabs laminated with reflective\naluminium foil facings for thermal, acoustic, and passive fire control.\nManufactured from volcanic basalt rock, the non-combustible stone wool substrate\nwithstands temperatures exceeding 1000°C, while the reinforced foil facing acts\nas a vapour barrier and reflects radiant heat. It is used in industrial pipe\nlagging, HVAC duct wrap, and commercial building envelopes requiring combined\nfire resistance and condensation control."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

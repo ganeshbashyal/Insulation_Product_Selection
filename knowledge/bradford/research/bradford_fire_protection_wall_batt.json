@@ -104,7 +104,9 @@
       "Must\nbe protected from continuous water soaking during construction"
     ],
     "warranty": "Backed by CSR Bradford product warranty",
-    "accessories_upsell": "Mechanical steel impaling brackets and smoke seal foil backing plates."
+    "accessories_upsell": "Mechanical steel impaling brackets and smoke seal foil backing plates.",
+    "range_headers": [],
+    "clearances": []
   },
   "retrieval": {
     "search_keywords": [
@@ -158,5 +160,7 @@
     "rag_summary": "Bradford Fire\nProtection - Wall Batt (Rockwool Fireseal Curtain Wall Batts) is a high-density,\nnon-combustible stone wool batt engineered for perimeter fire containment and\nspandrel insulation in commercial curtain walls and external wall assemblies. It\nmaintains structural integrity and resists shrinkage at temperatures up\nto 1000°C, stopping vertical fire spread between building storeys at the slab\nedge. Certified non-combustible to AS 1530.1 and tested to AS 1530.4 for FRLs up\nto -/240/240, it satisfies NCC non-combustibility mandates for commercial\nhigh-rise envelopes."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

@@ -18,7 +18,10 @@
     "selection_checklist": "",
     "accessories": "",
     "limitations": "",
-    "warranty": ""
+    "warranty": "",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -75,5 +78,7 @@
     "rag_summary": "Misc Tape Metalised represents metalised\npolypropylene or aluminium foil pressure-sensitive tapes widely used in\nAustralian construction for joining and sealing reflective insulation, roof\nsarking, and ductwork. Coated with aggressive acrylic or synthetic rubber\nadhesives, these tapes create continuous moisture-tight and airtight seals\nacross membrane laps and penetrations. By preventing convective thermal bypass\nand moisture ingress, they maintain system R-values and vapour barrier integrity\nacross roofs, walls, and HVAC systems."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

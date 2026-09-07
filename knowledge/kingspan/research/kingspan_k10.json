@@ -129,7 +129,9 @@
       "Operating temperature must not exceed 100°C continuous exposure"
     ],
     "warranty": "10-year project-specific warranty",
-    "accessories_upsell": "Kingspan 72mm reinforced foil tape (Silver or White)."
+    "accessories_upsell": "Kingspan 72mm reinforced foil tape (Silver or White).",
+    "range_headers": [],
+    "clearances": []
   },
   "retrieval": {
     "search_keywords": [
@@ -195,5 +197,7 @@
     "rag_summary": "Kingspan Kooltherm K10 (K10 G2 / K10 G2W / K10 Plus) is an\nAustralian-manufactured rigid thermoset phenolic insulation board engineered for\nconcrete soffits, ceilings, and exposed beams. Featuring an ultra-low thermal\nconductivity of 0.021 W/m·K and thicknesses from 25mm to 100mm (R1.2 to R4.75),\nits slim profile maximizes ceiling clearance while satisfying NCC Section J\nenergy standards. Achieving an NCC Group 2 fire classification (Group 1 with K10\nPlus) and FM Global approval, it delivers non-melting, fiber-free thermal\nperformance backed by a 10-year warranty."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

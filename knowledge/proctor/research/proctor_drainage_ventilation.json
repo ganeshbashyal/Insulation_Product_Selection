@@ -132,7 +132,10 @@
       "Do not over-torque fasteners\nto avoid crushing the ventilation openings",
       "Maximum service temperature\nis 90°C"
     ],
-    "warranty": "Backed by Proctor Group Australia product warranty"
+    "warranty": "Backed by Proctor Group Australia product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -203,5 +206,7 @@
     "rag_summary": "Proctor\nDrainage / Ventilation represents an engineered system of passive roof and wall\ncavity ventilation and drainage components, including ProctorPassive Drainage\nBattens (DB-FR), Vented Battens (VB10 & VB20), Over-Fascia Vents, and Ridge\nVents. Manufactured from flame-retardant polyolefin extrusions with a Spread of\nFlame index of 0 (AS 1530.3) and high compressive strength (>500 kPa), they\nestablish continuous 10mm to 20mm drained pathways that satisfy NCC 2022\ncondensation management mandates. They prevent ponding on sarking and promote\nnatural convective airflow to protect roof and wall envelopes from moisture,\nrot, and corrosion."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

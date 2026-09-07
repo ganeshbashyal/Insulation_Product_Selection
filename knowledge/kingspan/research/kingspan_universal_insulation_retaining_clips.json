@@ -92,7 +92,10 @@
       "Must not be forced onto oversized ties exceeding clip aperture to\nprevent cracking",
       "Non-structural accessory; does not carry structural wall\nloads"
     ],
-    "warranty": "Covered under Kingspan wall system warranty"
+    "warranty": "Covered under Kingspan wall system warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -138,5 +141,7 @@
     "rag_summary": "Kingspan Universal Insulation\nRetaining Clips are 80mm diameter polypropylene retaining discs engineered to\nhold rigid insulation boards (such as Kooltherm K8) firmly against the inner\nleaf of masonry cavity walls. Featuring universal gripping teeth that lock onto\nbutterfly, double triangle, and vertical-twist wall ties, they prevent boards\nfrom shifting, slumping, or bridging the cavity. By ensuring boards stay flat\nagainst the inner wall, they maintain the critical clear drainage space required\nto stop moisture penetration across external brickwork."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

@@ -147,7 +147,10 @@
       "Do not leave\npermanently exposed to direct outdoor UV weather without cladding",
       "Maximum\ncontinuous service temperature is 80°C"
     ],
-    "warranty": "25 Year Performance\nWarranty"
+    "warranty": "25 Year Performance\nWarranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -216,5 +219,7 @@
     "rag_summary": "Foilboard Green is a rigid Australian-made\ninsulation board composed of a fire-retardant EPS core laminated with pure\naluminum foil facings on both sides. Available in thicknesses from 10mm to 50mm\n(Total R-values from R1.6 to R4.0+ when paired with airspaces), it acts as a\ncombined thermal insulator, thermal break, and vapor barrier across walls,\nroofs, sheds, and suspended timber floors. Fiber-free, moisture-impermeable,\nnon-allergenic, and tested to Group 1 fire standards, it delivers lifetime\nthermal efficiency backed by a 25-year performance warranty."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

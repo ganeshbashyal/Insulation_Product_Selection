@@ -149,7 +149,9 @@
       "Maximum continuous service temperature is 80°C"
     ],
     "warranty": "25 Year\nPerformance Warranty",
-    "accessories_upsell": "72mm reinforced aluminium tape (silver for underfloor/internal; green for roof/external), Floor Saddles, and Blank Plates."
+    "accessories_upsell": "72mm reinforced aluminium tape (silver for underfloor/internal; green for roof/external), Floor Saddles, and Blank Plates.",
+    "range_headers": [],
+    "clearances": []
   },
   "retrieval": {
     "search_keywords": [
@@ -230,5 +232,7 @@
     "rag_summary": "Foilboard Green is a rigid Australian-made insulation board composed of a\nfire-retardant EPS core laminated with pure aluminum foil facings on both sides.\nAvailable in thicknesses from 10mm to 50mm (Total R-values from R1.6 to R4.0+\nwhen paired with airspaces), it acts as a combined thermal insulator, thermal\nbreak, and vapor barrier across walls, roofs, sheds, and suspended timber\nfloors. Fiber-free, moisture-impermeable, non-allergenic, and tested to Group 1\nfire standards, it delivers lifetime thermal efficiency backed by a 25-year\nperformance warranty."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

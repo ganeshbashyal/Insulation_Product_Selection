@@ -107,7 +107,10 @@
       "Not intended for permanent outdoor UV exposure exceeding\nmembrane exposure limits",
       "Non-structural; cannot support mechanical loads"
     ],
-    "warranty": "Backed by CSR Bradford product warranty"
+    "warranty": "Backed by CSR Bradford product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -171,5 +174,7 @@
     "rag_summary": "Bradford\nWall Wraps - Enviroseal Hightack Tape (product code 155170) is a premium 60mm\nx 25m single-sided adhesive tape featuring an aggressive, solvent-free acrylic\nadhesive on a flexible polyolefin carrier. Engineered specifically for sealing\nlaps and penetrations on Enviroseal vapour-permeable membranes and Thermoseal\nsarking, it creates airtight and watertight barriers across diverse construction\nsubstrates including timber, steel, PVC, and foil. Operating reliably from -40°C\nto +80°C with zero chlorine or formaldehyde, it is essential for achieving\nblower-door airtightness and weather protection in modern energy-efficient\nenvelopes."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

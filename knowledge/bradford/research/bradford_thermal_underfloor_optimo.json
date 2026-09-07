@@ -112,7 +112,10 @@
       "Must not be placed in\ndirect contact with wet soil or standing water",
       "Protect from rodents or\ncontinuous high dampness with proper subfloor ventilation"
     ],
-    "warranty": "70\nYear Performance Warranty"
+    "warranty": "70\nYear Performance Warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -173,5 +176,7 @@
     "rag_summary": "Bradford Thermal Underfloor / Optimo is a rigid, high-density\nglasswool batt designed specifically to fit between joists in suspended timber\nand steel subfloors. Sized in 415mm and 565mm widths (R2.1 and R2.5), it\nfriction-fits securely against floorboards with patented Optimo saddle clips,\nstopping up to 20% of domestic winter heat loss and eliminating floor draughts.\nNon-combustible to AS 1530.1 and endorsed by Sensitive Choice, it softens\nfootstep impact sound while delivering permanent underfoot thermal comfort\nbacked by a 70-year warranty."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

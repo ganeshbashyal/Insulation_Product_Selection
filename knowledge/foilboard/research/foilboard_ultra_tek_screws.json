@@ -102,7 +102,10 @@
       "Heavy structural steel\nexceeding 2.5mm requires pre-drilling",
       "Do not overdrive to prevent stripping\nscrew threads in light-gauge steel"
     ],
-    "warranty": "Backed by Foilboard product\nwarranty"
+    "warranty": "Backed by Foilboard product\nwarranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -158,5 +161,7 @@
     "rag_summary": "Foilboard Ultra Tek Screws\nare long, self-drilling steel fasteners equipped with oversized spreader\nwashers, engineered to secure thick 40mm and 50mm Foilboard panels to steel\nframing up to 2.5mm thick. With lengths from 75mm to 95mm, they penetrate steel\nstuds and purlins without pre-drilling while the broad washer head prevents\nfastener pull-through or foil tearing. Zinc-coated for corrosion resistance to\nAS 3566, they provide dependable mechanical fixing for commercial sheds,\nindustrial walls, and steel-framed buildings."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

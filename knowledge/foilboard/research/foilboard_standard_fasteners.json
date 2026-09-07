@@ -95,7 +95,10 @@
       "Do not overdrive\nfastener to prevent deforming the board core",
       "Non-structural; does not replace\nstructural wall bracing or cladding fixings"
     ],
-    "warranty": "Backed by Foilboard\nproduct warranty"
+    "warranty": "Backed by Foilboard\nproduct warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -155,5 +158,7 @@
     "rag_summary": "Foilboard Standard Fasteners are\ngalvanized timber-fixing fasteners equipped with wide washer heads designed to\nsecure 10mm to 25mm Foilboard panels to timber framing. By spreading mechanical\nholding loads over an enlarged surface area, they prevent nail heads from\ntearing through the aluminum facing or crushing the EPS core. Engineered for\nrapid hammer-in fixing on residential timber-stud walls and ceilings, they\nprovide durable mechanical retention without compromising panel performance."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

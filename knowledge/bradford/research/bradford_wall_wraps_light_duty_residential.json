@@ -126,7 +126,10 @@
       "Must not be left exposed to direct UV\nsunlight for more than 30 days",
       "Not designed for open-joint rainscreens (use\nBlack Label)"
     ],
-    "warranty": "Backed by CSR Bradford product warranty"
+    "warranty": "Backed by CSR Bradford product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -188,5 +191,7 @@
     "rag_summary": "Bradford Wall Wraps - Light\nDuty Residential (Enviroseal ProctorWrap Residential Wall / RW, product\ncodes 118153 / 138628) is a premium Light Duty, Class 4 vapour-permeable wall\nwrap designed for residential timber and steel stud construction. Featuring a\ntriple-layer non-woven polyolefin textile, it lets interior moisture vapour\nescape to prevent condensation, rot, and mould while acting as a barrier against\nwind-driven rain and drafts. Available in 1500mm and 2750mm roll widths with a\nFlammability Index ≤ 5 (BAL 12.5-40 compliant), it provides a durable, quiet\nweatherproofing layer behind residential brick veneer, weatherboards, and\nlightweight claddings."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

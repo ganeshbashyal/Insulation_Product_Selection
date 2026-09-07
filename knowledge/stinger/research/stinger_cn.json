@@ -97,7 +97,10 @@
       "Must\nonly be operated with genuine STINGER 25mm NailPac fasteners",
       "For timber\nsubstrates only; not designed for steel framing or solid concrete"
     ],
-    "warranty": "1-year limited warranty backed by National Nail Corp"
+    "warranty": "1-year limited warranty backed by National Nail Corp",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -161,5 +164,7 @@
     "rag_summary": "The STINGER CN (CN100B) is a\nhigh-speed pneumatic cap nailer manufactured by National Nail for securing\nsynthetic underlayment, roofing felt, and housewrap to timber substrates. Firing\nup to 5 cap nails per second with a 200-count magazine capacity, it drives 25mm\n(1 inch) plastic collated caps with 25mm ring-shank nails (loaded via STINGER\nNailPac). Tested to withstand winds up to 180 mph and certified under IBHS\nFORTIFIED Home standards, it prevents underlayment blow-offs and seals fastener\npenetrations against water ingress."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

@@ -18,7 +18,10 @@
     "selection_checklist": "",
     "accessories": "",
     "limitations": "",
-    "warranty": ""
+    "warranty": "",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -64,5 +67,7 @@
     "rag_summary": "Proctor YouRippa Cyclone\nrepresents an ultra-heavy-duty, high-tack construction and joining tape within\nthe YouRippa product family, engineered for demanding wind-exposed environments.\nDesigned to withstand extreme site conditions, it bonds aggressively to\nmembranes, plastic sheeting, timber, and metal framing where standard tapes risk\npeeling under wind load. It provides rapid weather-resistant sealing and\nemergency site protection across walls, roofs, and temporary building wraps."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

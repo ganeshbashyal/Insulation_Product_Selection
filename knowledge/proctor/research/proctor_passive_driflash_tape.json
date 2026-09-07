@@ -108,7 +108,10 @@
       "Pressure-sensitive adhesive requires firm\nrolling for complete mechanical bond",
       "Must not be permanently exposed to UV\nweather beyond manufacturer limits"
     ],
-    "warranty": "Backed by Proctor Group\nAustralia product warranty"
+    "warranty": "Backed by Proctor Group\nAustralia product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -153,5 +156,7 @@
     "rag_summary": "ProctorPassive DriFlash Tape is a high-performance, single-sided\nvapour-permeable fleece flashing tape coated with solvent-free polyacrylic\nadhesive. Designed with a split release liner, it seals window and door frames,\npenetrations, and wall-to-roof junctions to provide continuous airtight and\nweathertight protection. Its vapour-permeable fleece core (Sd 0.03m) allows\ntrapped moisture inside framing to dry outward, mitigating rot and mould while\nsupporting Passive House airtightness standards."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

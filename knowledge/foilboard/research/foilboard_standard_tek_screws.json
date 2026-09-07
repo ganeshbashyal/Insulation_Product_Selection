@@ -102,7 +102,10 @@
       "Do not overtighten; excessive torque will\nstrip light-gauge steel or crush board",
       "For thick boards (40mm to 50mm), use\nFoilboard Ultra Tek Screws"
     ],
-    "warranty": "Backed by Foilboard product\nwarranty"
+    "warranty": "Backed by Foilboard product\nwarranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -157,5 +160,7 @@
     "rag_summary": "Foilboard Standard Tek Screws are self-drilling steel fasteners\nfitted with broad load-spreading washers, designed for fixing 10mm to 25mm\nFoilboard panels to light-gauge steel framing (up to 2.5mm). Their hardened\ndrill-point tip penetrates steel studs and girts without pre-drilling, while the\nbroad washer head prevents the screw from pulling through the aluminum facing or\ncrushing the EPS core. Coated for corrosion resistance to AS 3566, they provide\nfast, reliable mechanical fixing for steel-framed homes, sheds, and commercial\npartitions."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

@@ -141,7 +141,9 @@
       "For tropical\nhigh-humidity climates, specify Permastop Tropic with outward-facing foil"
     ],
     "warranty": "Backed by Fletcher Insulation product warranty",
-    "accessories_upsell": "72mm Sisalation reinforced aluminium foil tape and Roof Razor thermal spacers."
+    "accessories_upsell": "72mm Sisalation reinforced aluminium foil tape and Roof Razor thermal spacers.",
+    "range_headers": [],
+    "clearances": []
   },
   "retrieval": {
     "search_keywords": [
@@ -207,5 +209,7 @@
     "rag_summary": "Fletcher Permastop Building Blanket is a reflective glasswool insulation\nblanket factory-bonded to a Sisalation foil facing with a 150mm overlap flap.\nAvailable in ratings from R1.3 to R3.6 (55mm to 130mm thick) in 1200mm wide\nrolls, it is installed under residential and commercial metal roofs to prevent\ncondensation dripping, reflect radiant heat, and dampen rain drumming noise.\nBuilt with non-combustible glasswool (AS 1530.1) and low-flammability foil\n(Index ≤ 5, BAL-40 compliant), it provides a complete thermal, acoustic, and\nvapour barrier for metal-clad structures."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

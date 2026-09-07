@@ -148,7 +148,10 @@
       "Black Matt Facing (BMF) is unsuitable for\nmechanical brush cleaning inside ducts",
       "Not designed for external weather\nexposure without protective sheet metal cladding"
     ],
-    "warranty": "Backed by\nFletcher Insulation commercial product warranty"
+    "warranty": "Backed by\nFletcher Insulation commercial product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -224,5 +227,7 @@
     "rag_summary": "Fletcher FI32 Semi-Rigid\nInsulation is a 32 kg/m³ high-density glasswool board and roll insulation\nengineered for internal HVAC duct lining and industrial vessel lagging.\nDelivering superior sound absorption (NRC up to 1.00) and thermal conductivity\nof 0.032 W/m·K, it is available unfaced or with Sisalation HDP perforated foil,\nBlack Matt Facing, or Vapastop 883 vapour barrier. CodeMark certified (CM 30006)\nand non-combustible to AS 1530.1, it dampens air turbulence, fan noise, and heat\ntransfer in commercial ductwork and plant rooms."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

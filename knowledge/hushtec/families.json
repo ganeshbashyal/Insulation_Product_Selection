@@ -38,7 +38,10 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "HUSHTEC_BATT",
@@ -75,7 +78,10 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "HUSHTEC_REFLECTIVE",
@@ -112,7 +118,10 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     }
   ]
 }

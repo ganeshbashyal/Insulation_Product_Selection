@@ -111,7 +111,10 @@
       "Must not come into direct\ncontact with solvent-based waterproofing, coal tar, or petrol",
       "Maximum service\ntemperature is 75°C"
     ],
-    "warranty": "10-year manufacturing warranty"
+    "warranty": "10-year manufacturing warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -167,5 +170,7 @@
     "rag_summary": "Kingspan XPS Strip Slab Edge Insulation (GreenGuard GG350) is\na 2400mm x 300mm x 40mm (R1.0) rigid extruded polystyrene strip purpose-designed\nto insulate exposed concrete slab perimeters. With a high compressive strength\nof 350 kPa (AS 2498.3) and near-zero water absorption (<1%), it halts thermal\nbridging where up to 49% of ground heat loss occurs, satisfying mandatory NCC\nslab edge insulation requirements in cooler climate zones. Durable against\nbackfill pressure and soil moisture, it installs easily inside perimeter\nformwork prior to concrete pouring."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

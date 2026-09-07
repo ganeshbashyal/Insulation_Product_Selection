@@ -38,7 +38,10 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 11
+      "product_count": 11,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "HIGGINS_INSULATION_BATT",
@@ -75,7 +78,10 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 8
+      "product_count": 8,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "HIGGINS_INSULATION_HIGGINS_BUILDERS_BAFFLE",
@@ -113,7 +119,10 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "HIGGINS_INSULATION_HIGGINS_FOIL_BREATHER_MEDIUM_DUTY",
@@ -151,7 +160,10 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "HIGGINS_INSULATION_HIGGINS_FOIL_NON_BREATHER_MEDIUM_DUTY",
@@ -189,7 +201,10 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 1
+      "product_count": 1,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "HIGGINS_INSULATION_HIGGINS_HBL",
@@ -227,7 +242,10 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 2
+      "product_count": 2,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "HIGGINS_INSULATION_HIGGINS_POLYESTER_BATT",
@@ -266,7 +284,10 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 14
+      "product_count": 14,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "HIGGINS_INSULATION_HIGGINS_POLYESTER_SOUND_CONTROL_BATT",
@@ -304,7 +325,10 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 8
+      "product_count": 8,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "HIGGINS_INSULATION_ROLL",
@@ -341,7 +365,10 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 10
+      "product_count": 10,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     }
   ]
 }

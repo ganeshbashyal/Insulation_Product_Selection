@@ -90,7 +90,10 @@
       "Ensure working area is well ventilated",
       "Canisters must not be\nstored below 10°C"
     ],
-    "warranty": "Backed by Quin Global manufacturer warranty"
+    "warranty": "Backed by Quin Global manufacturer warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -132,5 +135,7 @@
     "rag_summary": "Misc TensorgripH (TensorGrip H-Series by Quin Global) is a\nportable canister spray contact adhesive formulated for HVAC duct lining,\nacoustic insulation, and mechanical plant room installations. Designed to bond\nglasswool, rockwool, and acoustic foams to sheet metal, concrete, and timber, it\noffers fast tack, high heat resistance up to 115°C, and excellent bond strength.\nThe self-contained pressurized canister eliminates manual brushing and\ncompressed air lines, providing clean, rapid installation compliant with HVAC\nductwork standards."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

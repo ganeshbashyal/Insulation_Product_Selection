@@ -117,7 +117,9 @@
       "Must not be left exposed to direct sunlight\nbeyond recommended UV exposure limits"
     ],
     "warranty": "PGF Australia product\nwarranty",
-    "accessories_upsell": "EcoSeal 201 Cloth Tape (for lap and penetration sealing)."
+    "accessories_upsell": "EcoSeal 201 Cloth Tape (for lap and penetration sealing).",
+    "range_headers": [],
+    "clearances": []
   },
   "retrieval": {
     "search_keywords": [
@@ -179,5 +181,7 @@
     "rag_summary": "Ecowool Wrap (ClimaWrap CW /\nBMX800) is a triple-layer, Class 4 vapour-permeable building wrap manufactured\nby PGF Insulation. Engineered with two non-woven spunbond outer layers\nprotecting an inner microporous breathable membrane, it stops liquid water and\ndraft infiltration while allowing water vapour to diffuse outward (3.967 µg/N·s\npermeance). Tested to AS/NZS 4200.1:2017 with a low Flammability Index (<5,\nBAL-40 compliant), it prevents condensation and timber rot behind residential\nand commercial wall claddings across climate zones 2 through 8."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

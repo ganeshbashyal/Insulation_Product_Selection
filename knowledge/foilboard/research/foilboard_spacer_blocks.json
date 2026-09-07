@@ -91,7 +91,10 @@
       "Spacer blocks are\nnon-structural and do not replace primary mechanical framing fasteners",
       "Do not\nexpose to continuous service temperatures above 80°C"
     ],
-    "warranty": "Covered\nunder Foilboard 25-year performance warranty system"
+    "warranty": "Covered\nunder Foilboard 25-year performance warranty system",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -141,5 +144,7 @@
     "rag_summary": "Foilboard Spacer Blocks are\npre-cut 20mm and 25mm fire-retardant EPS blocks designed to maintain a\nconsistent, uncompressed reflective airspace between Foilboard panels and\nadjacent building claddings. By establishing the required still air cavity, they\nensure Foilboard systems achieve their certified total thermal R-values while\npreventing panels from flexing under wind loads. Moisture-proof and rot-proof,\nthey provide a reliable, low-cost solution for cavity depth management across\nframed walls and ceilings."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

@@ -100,7 +100,10 @@
       "Does not substitute for fire-rated\nstonewool where a specific FRL is required by structural engineers",
       "Ensure\nproper clearances around non-IC rated light fittings and hot flues"
     ],
-    "warranty": "Lifetime performance guarantee backed by Higgins Insulation"
+    "warranty": "Lifetime performance guarantee backed by Higgins Insulation",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -157,5 +160,7 @@
     "rag_summary": "Higgins Insulation Higgins Builders Baffle is a high-density\npolyester acoustic sound absorber engineered specifically to stop sound transfer\nthrough ceiling voids above party walls in Class 1 and Class 2 multi-residential\nbuildings. Manufactured in Queensland from 100% thermally bonded polyester\ncontaining up to 85% recycled PET, it friction-fits between the top of the wall\nand the roofline to block acoustic flanking paths. Completely itch-free,\nnon-toxic, hydrophobic, and fire-tested to AS/NZS 1530.3, it provides a safe,\npermanent acoustic barrier between adjoining tenancies."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

@@ -123,7 +123,10 @@
       "Avoid excessive compression that reduces\nacoustic and thermal ratings",
       "Maintain required electrical clearances around\nnon-IC rated fixtures"
     ],
-    "warranty": "Consumer Lifetime Warranty"
+    "warranty": "Consumer Lifetime Warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -191,5 +194,7 @@
     "rag_summary": "Fletcher Soundbreak is a high-density,\nnon-combustible glasswool acoustic insulation batt manufactured in Australia by\nFletcher Insulation. Coloured green for rapid on-site identification, it offers\nratings from R1.7 to R3.1 across 60mm to 110mm thicknesses to attenuate airborne\nspeech, entertainment, and street noise. Formulated from FBS-1 bio-soluble\nglasswool with up to 80% recycled content, non-combustible to AS 1530.1, and\nCodeMark certified (CM 30006), Soundbreak delivers lifetime acoustic and thermal\ncomfort in residential walls, ceilings, and mid-floors."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

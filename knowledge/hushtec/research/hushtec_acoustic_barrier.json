@@ -99,7 +99,10 @@
       "Temporary fencing must be adequately weighted\nwith counterweights to withstand wind loads",
       "Avoid puncturing the acoustic\ncomposite skin during handling"
     ],
-    "warranty": "Standard manufacturer warranty\nbacked by Hushtec"
+    "warranty": "Standard manufacturer warranty\nbacked by Hushtec",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -168,5 +171,7 @@
     "rag_summary": "Hushtec Acoustic Barrier (Performance Series and\nPremium Series) is a heavy-duty, modular portable noise barrier panel engineered\nfor construction, demolition, and industrial noise containment. Featuring a\nmulti-layered acoustic composite core with waterproof, UV-resistant outer\nfacings, it achieves laboratory-tested sound reductions of up to 43 dB.\nMeasuring 1300mm x 2000mm with reinforced eyelets and airtight Velcro overlap\njoins, it mounts rapidly to temporary fencing and scaffolding to shield\nsurrounding communities from site noise and dust."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

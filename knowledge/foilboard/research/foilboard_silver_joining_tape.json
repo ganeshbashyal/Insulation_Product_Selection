@@ -103,7 +103,10 @@
       "Requires firm mechanical pressure with a squeegee to achieve complete adhesive\nactivation",
       "Not designed for structural mechanical holding"
     ],
-    "warranty": "Covered under Foilboard 25-year performance warranty system"
+    "warranty": "Covered under Foilboard 25-year performance warranty system",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -165,5 +168,7 @@
     "rag_summary": "Foilboard Silver Joining Tape\nis a 72mm reinforced pure aluminum foil tape coated with an aggressive\ncold-weather acrylic adhesive, designed to seal butt joints on the silver\nreflective side of Foilboard panels. It forms an impermeable Class 1 vapor\nbarrier and airtight seal that prevents thermal bypass, convective drafts, and\nmoisture intrusion across wall, ceiling, and underfloor assemblies. Low\nflammability rated (Index ≤ 5 to AS 1530.2), it ensures continuous radiant heat\nreflection and compliance with NCC air-sealing standards."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

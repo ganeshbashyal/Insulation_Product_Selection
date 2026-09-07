@@ -102,7 +102,10 @@
       "Not designed as external\nexposed weatherproofing without protective flashing",
       "Must not be loaded\nstructurally; damper body must be independently supported"
     ],
-    "warranty": "Backed by CSR Bradford product warranty"
+    "warranty": "Backed by CSR Bradford product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -162,5 +165,7 @@
     "rag_summary": "Bradford Fire\nProtection - Damper Strip (Fireseal Fire Damper Strip / Fibertex 820 Damper\nStrip) is a specialized 13mm thick, high-density (110 kg/m³) rockwool insulation\nstrip engineered for passive fire stopping. Specifically designed to seal the\nperimeter clearance between fire dampers and fire-rated walls or floor slabs, it\nalso provides horizontal joint fire protection in Hebel and Speedpanel systems.\nIt resists shrinkage at temperatures up to 820°C, complies with AS 1530.1 as\nnon-combustible, and must be installed under a minimum 15% compression to\nachieve rated fire resistance levels (up to -/240/240)."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

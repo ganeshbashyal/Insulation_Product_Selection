@@ -18,7 +18,10 @@
     "selection_checklist": "",
     "accessories": "",
     "limitations": "",
-    "warranty": ""
+    "warranty": "",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -73,5 +76,7 @@
     "rag_summary": "Higgins Insulation\nAcoustic Sheet represents polyester or glass mineral wool acoustic sheet\ninsulation distributed for sound attenuation across commercial and residential\npartition walls and ceilings. Higgins Insulation (operating out of Queensland,\nAustralia) manufactures and supplies thermal and acoustic batts and blankets for\nbuilding applications. When supplied in rigid or semi-rigid sheet form, these\nproducts absorb airborne noise, reduce room reverberation, and provide\nnon-irritant, fiber-safe soundproofing for partition cavities and acoustic\nlinings."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

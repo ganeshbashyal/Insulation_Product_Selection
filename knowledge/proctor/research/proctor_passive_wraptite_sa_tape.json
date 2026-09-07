@@ -119,7 +119,10 @@
       "Requires firm rolling pressure to activate\nfull pressure-sensitive bond",
       "Must not remain exposed to permanent UV beyond\nrated exposure window"
     ],
-    "warranty": "Backed by Proctor Group Australia product\nwarranty"
+    "warranty": "Backed by Proctor Group Australia product\nwarranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -164,5 +167,7 @@
     "rag_summary": "ProctorPassive Wraptite SA Tape is\na full-surface self-adhering, Class 4 vapour-permeable air and weather barrier\ntape. Manufactured from a triple-layer polypropylene laminate with an aggressive\npressure-sensitive adhesive backing, it seals joints in mass timber (CLT),\nprecast concrete, and window openings without trapping moisture in structural\nframing. Fully certified as an airtight barrier with a Flammability Index ≤ 5\n(AS 1530.2), it replaces mechanical fixings to deliver robust, airtight envelope\ncontinuity for Passive House and high-performance buildings."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

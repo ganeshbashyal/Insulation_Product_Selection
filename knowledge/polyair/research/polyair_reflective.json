@@ -113,7 +113,10 @@
       "Do not allow direct contact with wet concrete or alkaline mortar to\nprevent foil corrosion",
       "Not designed as a permanent foot-traffic surface or\nexposed outdoor weather membrane"
     ],
-    "warranty": "Backed by Polyair manufacturer\nwarranty"
+    "warranty": "Backed by Polyair manufacturer\nwarranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -168,5 +171,7 @@
     "rag_summary": "Polyair Reflective (Polyair Performa) is an\nAustralian-made 3-in-1 reflective insulation, thermal break, and Class 2 vapour\nbarrier manufactured from closed-cell polyethylene foam laminated between pure\naluminium foil facings. Reflecting up to 97% of radiant heat and providing a\ncertified R0.20+ thermal break on steel framing, it stops condensation and\nreduces solar heat gain across roofs, walls, and sheds. Tested to AS 1530.2 with\na low Flammability Index (≤ 5, BAL-40 compliant), it provides a durable,\nfiber-free thermal solution."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

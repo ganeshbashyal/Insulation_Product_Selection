@@ -18,7 +18,10 @@
     "selection_checklist": "",
     "accessories": "",
     "limitations": "",
-    "warranty": ""
+    "warranty": "",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -60,5 +63,7 @@
     "rag_summary": "Higgins Insulation Higgins HBL\nrepresents a bulk insulation blanket or roll product formerly identified in\ndistributor listings for Higgins Insulation. As no manufacturer technical data\nsheet is currently published by Higgins Insulation under the standalone HBL\nacronym, it corresponds to their commercial and residential polyester sound\nblankets and building blankets. When specified, these rolls provide thermal\nresistance and sound attenuation across cavity walls, roofs, and ceiling\nassemblies."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

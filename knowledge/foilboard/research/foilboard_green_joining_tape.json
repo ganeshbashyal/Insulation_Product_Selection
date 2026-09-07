@@ -102,7 +102,10 @@
       "Requires firm squeegee pressure to activate permanent\nadhesive bond",
       "Not designed for structural load-bearing mechanical fastening"
     ],
-    "warranty": "Covered under Foilboard 25-year performance warranty system"
+    "warranty": "Covered under Foilboard 25-year performance warranty system",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -158,5 +161,7 @@
     "rag_summary": "Foilboard Green Joining Tape\nis a 72mm reinforced aluminum foil tape featuring an anti-glare green coating\nand an aggressive acrylic pressure-sensitive adhesive. Designed specifically to\nseal butt joints and penetrations on the green face of Foilboard Green panels,\nit prevents installer glare in sunny roof and wall installations while\nmaintaining airtight and vapor-tight integrity. Tested to AS 1530.2 with a low\nFlammability Index (≤ 5), it ensures continuous thermal envelope performance\nacross residential and commercial buildings."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

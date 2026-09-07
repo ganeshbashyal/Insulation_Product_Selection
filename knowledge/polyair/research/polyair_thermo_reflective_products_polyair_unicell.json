@@ -115,7 +115,9 @@
       "Avoid contact with wet alkaline concrete or mortar"
     ],
     "warranty": "Backed by CSR Bradford product warranty",
-    "accessories_upsell": "72mm reinforced aluminium foil tape."
+    "accessories_upsell": "72mm reinforced aluminium foil tape.",
+    "range_headers": [],
+    "clearances": []
   },
   "retrieval": {
     "search_keywords": [
@@ -172,5 +174,7 @@
     "rag_summary": "Bradford Polyair Unicell is an extra heavy duty, commercial-grade\nthermo-reflective insulation roll composed of a fire-retardant bubble cell core\nlaminated between dual layers of pure aluminium foil. Designed for residential\nsheds, garages, and commercial warehouses, it reflects up to 95% of radiant heat\nin summer while reducing condensation on metal surfaces and blocking wind-driven\ndraughts. With an Extra Heavy Duty rating to AS/NZS 4200.1 and a Flammability\nIndex ≤ 5 (BAL-40 suitable), it provides durable, fibre-free thermal control for\nunlined metal buildings."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

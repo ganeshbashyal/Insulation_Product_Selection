@@ -120,7 +120,10 @@
       "Maximum continuous operating temperature of facing is 120°C",
       "Ensure air stream velocities do not exceed manufacturer tested maximums without\nadditional mechanical fastening"
     ],
-    "warranty": "Backed by Fletcher Insulation\ncommercial product warranty"
+    "warranty": "Backed by Fletcher Insulation\ncommercial product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -180,5 +183,7 @@
     "rag_summary": "Fletcher FI24 Flexible\nDuctliner is a 24 kg/m³ flexible glasswool internal duct lining roll\nspecifically engineered for automated coil-line and sheet metal duct\nmanufacturing. Combining the compressive recovery of a board with the\nflexibility of a blanket, it dampens airflow turbulence and equipment noise\nwhile delivering thermal ratings from R0.7 to R2.0. Non-combustible (AS 1530.1)\nand compliant with AS 4254, it is available unfaced or laminated with HDP\nperforated foil, Black Matt Facing, or Vapastop 883."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

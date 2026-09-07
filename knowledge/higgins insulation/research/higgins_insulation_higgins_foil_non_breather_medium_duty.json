@@ -93,7 +93,10 @@
       "Not designed as primary roof sarking",
       "Must not be\nleft exposed to continuous outdoor weather without cladding"
     ],
-    "warranty": "Backed by Higgins Insulation product warranty"
+    "warranty": "Backed by Higgins Insulation product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -152,5 +155,7 @@
     "rag_summary": "Higgins\nInsulation Higgins Foil Non Breather Medium Duty is a solid, unperforated\nfive-layer reflective foil wall wrap measuring 1350mm x 60m (81 m² per roll).\nEngineered with a high-strength woven polypropylene core and a 97% reflective\npure aluminum facing, it functions as an impermeable Class 1/2 vapor barrier and\nradiant heat reflector for hot, humid climate zones. Compliant with\nAS/NZS 4200.1 and AS 1530 fire standards, it prevents external moisture drive\nand draughts from penetrating building frames."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

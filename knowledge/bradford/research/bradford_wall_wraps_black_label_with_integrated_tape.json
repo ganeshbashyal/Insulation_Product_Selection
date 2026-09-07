@@ -117,7 +117,9 @@
       "Do not leave exposed to weather\nlonger than 120 days prior to cladding installation"
     ],
     "warranty": "Backed by\nCSR Bradford product warranty",
-    "accessories_upsell": "Bradford Enviroseal Black Label Tape (for window flashings, penetrations, and cut vertical edges)."
+    "accessories_upsell": "Bradford Enviroseal Black Label Tape (for window flashings, penetrations, and cut vertical edges).",
+    "range_headers": [],
+    "clearances": []
   },
   "retrieval": {
     "search_keywords": [
@@ -193,5 +195,7 @@
     "rag_summary": "Bradford Wall Wraps - Black Label With Integrated Tape (Enviroseal ProctorWrap\nBL-IT, product code 106703) is a specialized Light Duty, Class 4\nvapour-permeable wall wrap engineered for open-joint rainscreen facades.\nManufactured with a high-temperature functional UV coating that withstands\ntemperatures up to 120°C, it is rated for facades with up to 30% open joint\narea. Equipped with an integrated adhesive lap tape system, it seals building\nenvelopes against wind-driven rain and air leakage while allowing interior\nmoisture vapour to breathe freely, complying with AS/NZS 4200.1 and AS 1530.2\n(Flammability Index ≤ 5)."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

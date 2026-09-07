@@ -137,7 +137,10 @@
       "Maximum continuous service temperature is 150°C",
       "Not\ndesigned for direct exposure to driving rain or outdoor weathering"
     ],
-    "warranty": "CSR Bradford Standard Product Warranty"
+    "warranty": "CSR Bradford Standard Product Warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -211,5 +214,7 @@
     "rag_summary": "Bradford Supertel Faced - Heavy Duty\nPerforated is a 32 kg/m3 density glasswool blanket and board faced with\nThermofoil Heavy Duty Perforated aluminium foil. Engineered for internal HVAC\nduct lining, acoustic silencers, and exposed carpark soffits, the\nmicro-perforated foil allows sound waves to enter the high-density glasswool\ncore (NRC up to 1.05) while shielding the fibres from air erosion.\nNon-combustible to AS 1530.1 and thermal rated from R0.7 to R3.0, it provides a\nwipeable, light-reflective, and fire-safe acoustic liner for commercial air\nhandling and plant spaces."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

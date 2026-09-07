@@ -23,7 +23,22 @@
         "c4": "~6.0 kg / kit",
         "c5": "Frontier channel (top), 2× 1m cables, connectors, end caps"
       }
-    ]
+    ],
+    "description": "",
+    "features": [],
+    "applications": [],
+    "technical": [],
+    "range_headers": [],
+    "fire": "",
+    "sustainability": "",
+    "install": [],
+    "clearances": [],
+    "limitations": [],
+    "selection_checklist": [],
+    "compliance": "",
+    "warranty": "",
+    "accessories": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -66,5 +81,6 @@
   },
   "source_excerpt": null,
   "engine": "knowledge_base_txt",
-  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
+  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)",
+  "schema_version": "1.0"
 }

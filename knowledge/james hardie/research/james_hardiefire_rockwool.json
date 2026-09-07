@@ -124,7 +124,9 @@
       "Must be\nused as part of complete HardieSmart tested systems to achieve warranty and\ncertified fire ratings"
     ],
     "warranty": "10-year manufacturing warranty when used\nwith HardieSmart systems",
-    "accessories_upsell": "HardieWrap weather barrier, Villaboard interior lining, and James Hardie 6mm+ external claddings."
+    "accessories_upsell": "HardieWrap weather barrier, Villaboard interior lining, and James Hardie 6mm+ external claddings.",
+    "range_headers": [],
+    "clearances": []
   },
   "retrieval": {
     "search_keywords": [
@@ -191,5 +193,7 @@
     "rag_summary": "HardieFire Insulation is an 80 kg/m³ high-density mineral wool (rockwool) batt\nmanufactured by James Hardie for HardieSmart fire-rated boundary, zero-lot, and\ninter-tenancy wall systems. Formed from over 95% molten rock wool with cured\nbinders, it is non-combustible to AS 1530.4 and achieves certified FRLs up\nto 60/60/60 and BAL-FZ bushfire resistance when installed with a mandatory 5mm\ncompression. Available in 60mm (R1.7) and 85mm (R2.5) thicknesses to fit 450mm\nand 600mm stud centers, it provides combined passive fire containment, thermal\ncontrol, and acoustic isolation."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

@@ -125,7 +125,9 @@
       "Do not block subfloor wall vents which are critical for moisture\ndissipation"
     ],
     "warranty": "70 Year Product Performance Warranty",
-    "accessories_upsell": "Rule: Always pair with Optimo Saddles (new build) or Optimo Straps / StayFast Brackets (retrofits)."
+    "accessories_upsell": "Rule: Always pair with Optimo Saddles (new build) or Optimo Straps / StayFast Brackets (retrofits).",
+    "range_headers": [],
+    "clearances": []
   },
   "retrieval": {
     "search_keywords": [
@@ -185,5 +187,7 @@
     "rag_summary": "Bradford Optimo is a high-density, rigid\nglasswool insulation batt specifically designed to insulate suspended timber\nfloors. Available in R2.1 and R2.5 ratings and custom-sized to 415mm and 565mm\nwidths to friction-fit snugly between joists, it prevents cold subfloor\ndraughts, cuts floor heat loss by up to 20%, and dampens floorboard footstep\nnoise by up to 6dB. Deemed non-combustible to AS 1530.1, Sensitive Choice\ncertified, and secured using Optimo Saddles, Straps, or StayFast brackets, it is\nbacked by a 70-year performance warranty."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

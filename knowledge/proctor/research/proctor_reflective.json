@@ -18,7 +18,10 @@
     "selection_checklist": "",
     "accessories": "",
     "limitations": "",
-    "warranty": ""
+    "warranty": "",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -61,5 +64,7 @@
     "rag_summary": "Proctor Reflective represents reflective foil\nmembranes or foil-laminated pliable building fabrics historically or generically\nreferenced within the Proctor product scope. While Proctor Group Australia\nprimarily specializes in high-performance non-reflective vapour-permeable\nmembranes (such as ProctorWrap and ProctorPassive), reflective foil laminates\nreflect up to 95-97% of radiant heat when installed adjacent to an enclosed\nairspace. They serve as radiant thermal barriers, weather barriers, and vapour\ncontrol layers in roofs, walls, and sheds."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

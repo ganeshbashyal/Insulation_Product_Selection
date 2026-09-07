@@ -137,7 +137,10 @@
       "Keep dry during\ntransport, storage, and installation",
       "Must not be left exposed to continuous\noutdoor weather"
     ],
-    "warranty": "PGF Australia product warranty"
+    "warranty": "PGF Australia product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -195,5 +198,7 @@
     "rag_summary": "Ecowool Residential Batts (Ceiling Batts and\nWall Batts) are non-combustible glass mineral wool thermal insulation batts\nmanufactured by PGF Insulation. Engineered with SensiTouch low-dust,\nanti-formaldehyde binder technology from nearly 80% recycled glass, they provide\nceiling ratings from R2.5 to R7.0 (up to 285mm thick) and wall ratings of R2.0\nand R2.5. Tested non-combustible to AS 1530.1 and certified to\nAS/NZS 4859.1:2018, they form a soft-to-touch, durable thermal barrier that\nkeeps homes comfortable year-round."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

@@ -18,7 +18,10 @@
     "selection_checklist": "",
     "accessories": "",
     "limitations": "",
-    "warranty": ""
+    "warranty": "",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -61,5 +64,7 @@
     "rag_summary": "Proctor\nTightMate represents an airtight sealing tape or grommet accessory catalogued\nfor building envelope airtightness in Proctor Group systems. Engineered to seal\nmembrane overlaps, service penetrations, and framing junctions, it prevents\nuncontrolled air leakage and convective heat transfer across walls, roofs, and\nceilings. By maintaining airtight continuity, it protects building assemblies\nfrom convective moisture damage and supports stringent blower-door airtightness\ntargets."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

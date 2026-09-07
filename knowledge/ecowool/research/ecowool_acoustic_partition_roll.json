@@ -18,7 +18,10 @@
     "selection_checklist": "",
     "accessories": "",
     "limitations": "",
-    "warranty": ""
+    "warranty": "",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -63,5 +66,7 @@
     "rag_summary": "Ecowool Acoustic Partition\nRoll represents glass mineral wool acoustic insulation supplied in roll format\nfor friction-fitting in steel and timber stud partition walls. In Australia, PGF\nInsulation / Ecowool supplies its acoustic partition range primarily in pre-cut\nbatts (Acoustic Partition Batts and NoiseBreak), with rolls primarily designated\nfor HVAC and reflective roof blankets. When specified, partition rolls provide\ncontinuous, joint-free acoustic and thermal insulation to control speech\ntransmission in commercial and residential walls."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

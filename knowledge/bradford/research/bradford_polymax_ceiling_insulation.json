@@ -119,7 +119,10 @@
       "Must not\ncover non-IC rated downlights or high-heat appliances without proper\nclearances",
       "Avoid compressing batts which reduces thermal performance"
     ],
-    "warranty": "70 Year Performance Warranty"
+    "warranty": "70 Year Performance Warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -201,5 +204,7 @@
     "rag_summary": "Bradford Polymax Ceiling Insulation is a soft, non-irritant\nceiling batt manufactured from 100% thermally bonded polyester fibres with up\nto 80% recycled PET. Offered in thermal ratings from R2.5 to R4.0 (140mm\nto 220mm thickness), it friction-fits between standard ceiling joists to prevent\nroof-space heat transfer and reduce outdoor noise intrusion. Free from\nformaldehyde, chemical binders, and loose respirable fibres, it carries National\nAsthma Council Sensitive Choice accreditation and is backed by\nBradford's 70-year performance warranty."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

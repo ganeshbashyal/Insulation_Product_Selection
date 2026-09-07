@@ -125,7 +125,10 @@
       "Maximum continuous service temperature\nis 150°C",
       "In high-velocity HVAC ducts, requires perforated metal or scrim\nfacing to prevent fiber displacement"
     ],
-    "warranty": "Backed by CSR Martini\ncommercial product warranty"
+    "warranty": "Backed by CSR Martini\ncommercial product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -186,5 +189,7 @@
     "rag_summary": "CSR\nMartini MAB (Commercial Polyester / Martini MAB) is a premium acoustic and\nthermal insulation manufactured from 100% thermally bonded polyester with up\nto 80% recycled PET. Available in densities from 11 kg/m³ to 60 kg/m³ and\nthicknesses from 25mm to 100mm (in white, grey, or acoustic black), it achieves\nClass A acoustic sound absorption (NRC up to 1.10) in studios, cinemas, sports\nhalls, and HVAC silencers. Non-toxic, non-irritant, GreenTag Level A certified,\nand fire-tested to AS/NZS 1530.3, it delivers fiber-safe commercial acoustic\nperformance."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

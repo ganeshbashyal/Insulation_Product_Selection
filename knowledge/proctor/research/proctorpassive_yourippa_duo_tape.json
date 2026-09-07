@@ -18,7 +18,10 @@
     "selection_checklist": "",
     "accessories": "",
     "limitations": "",
-    "warranty": ""
+    "warranty": "",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -61,5 +64,7 @@
     "rag_summary": "ProctorPassive YouRippa Duo Tape is\na heavy-duty, double-sided adhesive tape designed for concealed lap sealing and\ntemporary positioning of building membranes on structural framing. Featuring\nhigh-tack adhesive on both faces of a carrier with a silicone-coated release\nliner, it bonds membranes securely to timber studs, steel girts, and overlapping\nsheet runs. It creates a concealed airtight weather seal between membrane layers\nwhile preventing wind flap during frame construction."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

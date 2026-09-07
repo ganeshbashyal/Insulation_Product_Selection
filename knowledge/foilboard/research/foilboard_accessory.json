@@ -105,7 +105,10 @@
       "Do not substitute non-approved duct tapes that degrade\nunder heat",
       "Saddles and fasteners are non-structural; do not support\nmechanical equipment"
     ],
-    "warranty": "Covered under Foilboard 25-year\nperformance warranty system"
+    "warranty": "Covered under Foilboard 25-year\nperformance warranty system",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -152,5 +155,7 @@
     "rag_summary": "Foilboard Accessories include 72mm reinforced aluminum foil\nsealing tape, galvanized Floor Saddles, Flexifast polymer fasteners, and blank\nplates purpose-designed for Foilboard insulation panels. They eliminate thermal\nbridging, maintain designed reflective airspaces, and mechanically anchor panels\nacross underfloor joists, concrete slabs, and framed walls. Tested for thermal\nand fire compliance, they ensure Foilboard installations achieve their rated\nTotal R-value and maintain long-term structural resilience."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

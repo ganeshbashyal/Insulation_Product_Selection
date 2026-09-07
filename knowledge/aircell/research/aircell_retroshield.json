@@ -28,7 +28,21 @@
         "c7": "R0.14"
       }
     ],
-    "accessories_upsell": "72mm silver reinforced foil tape."
+    "accessories_upsell": "72mm silver reinforced foil tape.",
+    "description": "",
+    "features": [],
+    "applications": [],
+    "technical": [],
+    "range_headers": [],
+    "fire": "",
+    "sustainability": "",
+    "install": [],
+    "clearances": [],
+    "limitations": [],
+    "selection_checklist": [],
+    "compliance": "",
+    "warranty": "",
+    "accessories": []
   },
   "retrieval": {
     "search_keywords": [
@@ -75,5 +89,6 @@
   },
   "source_excerpt": null,
   "engine": "knowledge_base_txt",
-  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
+  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)",
+  "schema_version": "1.0"
 }

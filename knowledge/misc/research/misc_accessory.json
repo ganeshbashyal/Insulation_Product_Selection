@@ -18,7 +18,10 @@
     "selection_checklist": "",
     "accessories": "",
     "limitations": "",
-    "warranty": ""
+    "warranty": "",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -62,5 +65,7 @@
     "rag_summary": "Misc\nAccessory refers to general-purpose insulation installation accessories\nincluding mechanical impaling pins, retaining washers, foil joining tapes, and\ninsulation knives used across Australian building projects. These components\nensure insulation panels, batts, and membranes are correctly secured, sealed,\nand aligned to maintain designed thermal and acoustic performance without\nsagging or air leakage."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

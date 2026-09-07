@@ -92,7 +92,10 @@
       "Must not be applied to wet,\noily, or dusty surfaces",
       "Not designed for permanent outdoor UV exposure beyond\nmembrane limits"
     ],
-    "warranty": "Backed by Proctor Group Australia product\nwarranty"
+    "warranty": "Backed by Proctor Group Australia product\nwarranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -156,5 +159,7 @@
     "rag_summary": "ProctorWrap\nHigh Tack Tape is a flexible, single-sided pressure-sensitive adhesive tape\nfeaturing an aggressive modified acrylate adhesive on a reinforced polyolefin\ncarrier. Sized at 60mm x 25m, it is engineered to form an airtight and\nwatertight seal across vapour-permeable wall wraps, roof underlays, window\ninterfaces, and pipe penetrations. Resistant to plasticiser migration,\ntemperature extremes from -40°C to +80°C, and building movement, it provides\ndurable weather protection and air-sealing compliance with AS/NZS 4200.2:2017."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

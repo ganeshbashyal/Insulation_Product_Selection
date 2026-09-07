@@ -114,7 +114,10 @@
       "Ensure ventilated cavity between\nboard face and cladding remains unobstructed",
       "Cavity barriers must be\ninstalled at floor slab levels and compartment lines"
     ],
-    "warranty": "Standard\nKingspan manufacturer product warranty"
+    "warranty": "Standard\nKingspan manufacturer product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -173,5 +176,7 @@
     "rag_summary": "Kingspan Kooltherm K15 Rainscreen Board is a premium\nperformance, fiber-free rigid thermoset phenolic insulation board engineered\nspecifically for ventilated rainscreen facade systems. Offering an ultra-low\nthermal conductivity of 0.021 W/m·K and low-emissivity composite foil facings,\nit achieves stringent thermal U-values with the thinnest possible wall profile.\nExtensively tested in large-scale facade fire tests (BS 8414 / BR 135) with a\nclosed-cell water-resistant core, it provides durable thermal protection behind\nmodern architectural claddings."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

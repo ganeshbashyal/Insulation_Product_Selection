@@ -131,7 +131,10 @@
       "Must be protected from\nextended outdoor UV exposure prior to covering",
       "Requires concrete ballast or\npavers on inverted flat roofs to prevent wind uplift and flotation"
     ],
-    "warranty": "Backed by DCTech product warranty (life equivalent to the\nstructure)"
+    "warranty": "Backed by DCTech product warranty (life equivalent to the\nstructure)",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -203,5 +206,7 @@
     "rag_summary": "DCTech DCT XPS GA (DCT XPS GA 300) is a rigid,\nhigh-compressive-strength (300 kPa) extruded polystyrene insulation board\nengineered for under-slab, inverted flat roof (IRMA), green roof, and cavity\nwall applications. Featuring a 100% closed-cell structure with near-zero water\nabsorption (<0.3%) and tongue-and-groove edges, it delivers durable thermal\nperformance (conductivity 0.028-0.034 W/m·K) that resists compression creep,\nground moisture, and freeze-thaw degradation over a 50-year design life.\nManufactured with zero ODP and CFC/HCFC-free blowing agents, it provides\nhigh-load thermal buffering beneath concrete slabs and protected membrane\nroofs."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

@@ -92,7 +92,10 @@
       "Not recommended for permanent exposure to direct sunlight after\ninstallation",
       "Cladding must be installed within the UV exposure window of the\nunderlying membrane"
     ],
-    "warranty": "Backed by Proctor Group Australia product\nwarranty"
+    "warranty": "Backed by Proctor Group Australia product\nwarranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -158,5 +161,7 @@
     "rag_summary": "ProctorWrap Plasti-Grip Washers are 45mm\ndiameter polypropylene fixing discs engineered to secure building wraps and\nrigid insulation boards to timber and steel framing. Designed with a flat base,\nflexible perimeter, and 5mm deep cupped head, they distribute clamping loads\nover an enlarged area to eliminate wind tear-out and water leakage associated\nwith staples. Compatible with 8g-10g screws and galvanised clouts at 4 per\nsquare metre, they ensure secure, tear-free mechanical fixing compliant with\nAS/NZS 4200.2:2017."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

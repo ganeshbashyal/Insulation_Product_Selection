@@ -85,7 +85,10 @@
       "Must not be installed on wet or rotting timber\njoists",
       "Non-structural bracket; do not walk on unsupported panels inside\nsaddles"
     ],
-    "warranty": "Covered under Foilboard 25-year performance warranty\nsystem"
+    "warranty": "Covered under Foilboard 25-year performance warranty\nsystem",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -140,5 +143,7 @@
     "rag_summary": "Foilboard Floor Saddles are\ngalvanized spring-steel support brackets designed to cradle Foilboard panels\nbetween timber joists in new suspended floor construction. Engineered in 100mm\nand 130mm depths to accommodate panels from 10mm to 50mm, they automatically\nguarantee the critical 20mm reflective airspace required beneath floorboards to\nachieve rated underfloor R-values. Installed from above before flooring is laid,\nthey hold panels permanently in place without sagging, eliminating the need for\nstrapping or adhesives."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

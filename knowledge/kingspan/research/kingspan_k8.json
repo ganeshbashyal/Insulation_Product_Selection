@@ -121,7 +121,9 @@
       "Protect boards from excessive mortar droppings during bricklaying"
     ],
     "warranty": "10-year manufacturing warranty",
-    "accessories_upsell": "Universal Insulation Retaining Clips (80mm discs) to lock boards against the inner brick leaf."
+    "accessories_upsell": "Universal Insulation Retaining Clips (80mm discs) to lock boards against the inner brick leaf.",
+    "range_headers": [],
+    "clearances": []
   },
   "retrieval": {
     "search_keywords": [
@@ -172,5 +174,7 @@
     "rag_summary": "Kingspan Kooltherm K8 Cavity Board is a premium performance\nrigid thermoset phenolic insulation board purpose-designed for partial-fill\nmasonry cavity walls. Sized at 1200mm x 450mm to match brick tie vertical\nspacings, its thermal conductivity of 0.021 - 0.023 W/m·K and dual composite\nfoil facings deliver high Total R-values (RT2.2 to RT2.9) while preserving a\nclear 40-50mm drainage cavity against moisture penetration. CodeMark certified\nand non-slumping, it is secured against the inner leaf using standard wall ties\nand retaining clips."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

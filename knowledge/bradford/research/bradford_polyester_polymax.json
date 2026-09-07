@@ -116,7 +116,10 @@
       "Do not compress\ninto stud cavities shallower than the nominal thickness",
       "Indoor/enclosed wall\napplication only; protect from weather and wet conditions"
     ],
-    "warranty": "70\nYear Performance Warranty"
+    "warranty": "70\nYear Performance Warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -173,5 +176,7 @@
     "rag_summary": "Bradford Polyester - Polymax is a\npremium, itch-free thermal and acoustic insulation batt manufactured from 100%\nthermally bonded polyester fibres with up to 80% recycled content. Engineered\nfor 90mm timber and steel stud wall cavities, it delivers thermal ratings from\nR1.5 to R2.5 and sound dampening without chemical binders or added flame\nretardants. Recognized by Sensitive Choice as asthma- and allergy-friendly and\nbacked by a 70-year performance warranty, it provides a safe, non-irritant\nalternative to glasswool for residential walls and mid-floors."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

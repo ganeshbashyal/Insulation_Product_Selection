@@ -124,7 +124,10 @@
       "Do not\ncompress into cavities shallower than nominal thickness",
       "Maintain required\nclearances around non-IC rated light fittings and flues"
     ],
-    "warranty": "PGF\nAustralia product warranty"
+    "warranty": "PGF\nAustralia product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -184,5 +187,7 @@
     "rag_summary": "Ecowool NoiseBreak is a\nhigh-density glass mineral wool acoustic batt manufactured by PGF Insulation for\nresidential and commercial walls and ceilings. Available in densities of 24\nkg/m³ and 32 kg/m³ across ratings from R1.7 to R3.1 (60mm to 110mm thick), it\ndampens airborne speech, television, and plumbing noise between rooms. Built\nwith SensiTouch low-VOC, anti-formaldehyde technology from nearly 80% recycled\nglass, it is non-combustible to AS 1530.1 and provides rigid friction-fit\ninstallation without slumping."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

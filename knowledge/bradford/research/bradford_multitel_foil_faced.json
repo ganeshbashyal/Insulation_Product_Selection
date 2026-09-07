@@ -132,7 +132,10 @@
       "Operating temperature of foil facing must not\nexceed 120°C",
       "Must not be left exposed to direct sunlight (UV) or outdoor\nweather without protective cladding"
     ],
-    "warranty": "Backed by CSR Bradford\nproduct warranty"
+    "warranty": "Backed by CSR Bradford\nproduct warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -188,5 +191,7 @@
     "rag_summary": "Bradford Multitel Foil-Faced is a flexible,\nlightweight glasswool HVAC blanket factory-laminated with a reinforced aluminium\nfoil vapour barrier, designed for the external thermal and acoustic wrapping of\nair conditioning ductwork. Available in thicknesses from 25mm to 75mm (R0.7 to\nR2.0) in 1200mm wide rolls, it prevents duct sweat/condensation, reduces energy\nlosses, and dampens airflow noise. Also produced in a 300mm width as Multitel\nBAL 12.5-40 for sealing roof ember entry points, it features a non-combustible\ncore to AS 1530.1 and complies with AS 4254 ductwork standards."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

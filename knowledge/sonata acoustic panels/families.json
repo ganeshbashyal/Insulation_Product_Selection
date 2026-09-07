@@ -41,7 +41,8 @@
       ],
       "product_count": 48,
       "legacy_source_url": "https://www.acransoundcontrol.com.au/media/website_pages/noise-control-products/acoustic-panels/sonata_acoustic_panels.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_site_root_tds_pending",
+      "datasheet_url": null
     }
   ]
 }

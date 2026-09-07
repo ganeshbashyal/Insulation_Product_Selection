@@ -129,7 +129,9 @@
       "Do not install directly over non-IC\nrated recessed lighting without proper clearances"
     ],
     "warranty": "PGF Australia\nproduct warranty",
-    "accessories_upsell": "72mm reinforced aluminium foil tape (mandatory for sealing foil laps)."
+    "accessories_upsell": "72mm reinforced aluminium foil tape (mandatory for sealing foil laps).",
+    "range_headers": [],
+    "clearances": []
   },
   "retrieval": {
     "search_keywords": [
@@ -191,5 +193,7 @@
     "rag_summary": "Ecowool CondenShield is a lightweight, reflective\nfoil-faced glass mineral wool roofing blanket manufactured by PGF Insulation.\nAvailable in thermal ratings from R1.3 to R3.7 (60mm to 150mm thick) in 1200mm\nwide rolls, it is installed under residential and commercial metal or tile roofs\nto manage condensation, block radiant heat, and dampen rain impact drumming\nnoise. Built with SensiTouch low-VOC bio-soluble glasswool and nearly 80%\nrecycled glass, its non-combustible core (AS 1530.1) and low-flammability foil\nfacing (Index ≤ 5) make it suitable for bushfire zones up to BAL-40."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

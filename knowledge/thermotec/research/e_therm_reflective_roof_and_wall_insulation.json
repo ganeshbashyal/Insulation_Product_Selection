@@ -58,7 +58,20 @@
       "Weight",
       "Pallet"
     ],
-    "accessories_upsell": "Thermotec 72mm Ezy Tear reinforced aluminium foil tape."
+    "accessories_upsell": "Thermotec 72mm Ezy Tear reinforced aluminium foil tape.",
+    "description": "",
+    "features": [],
+    "applications": [],
+    "technical": [],
+    "fire": "",
+    "sustainability": "",
+    "install": [],
+    "clearances": [],
+    "limitations": [],
+    "selection_checklist": [],
+    "compliance": "",
+    "warranty": "",
+    "accessories": []
   },
   "retrieval": {
     "search_keywords": [
@@ -122,5 +135,6 @@
   },
   "source_excerpt": null,
   "engine": "manual_range_injection",
-  "range_source": "manufacturer size/packaging breakdown (hand-supplied 2026-09-06)"
+  "range_source": "manufacturer size/packaging breakdown (hand-supplied 2026-09-06)",
+  "schema_version": "1.0"
 }

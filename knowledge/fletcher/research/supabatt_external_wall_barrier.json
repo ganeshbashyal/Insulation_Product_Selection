@@ -104,7 +104,10 @@
       "Cladding/brickwork should be installed without prolonged delay to prevent\nweather damage",
       "Must not be compressed into internal stud bays designed for\nsoft batts"
     ],
-    "warranty": "Consumer Lifetime Warranty"
+    "warranty": "Consumer Lifetime Warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -163,5 +166,7 @@
     "rag_summary": "Fletcher supaBATT is a rigid, high-density glasswool board designed for\ninstallation onto the exterior face of timber or steel studs in brick veneer\nconstruction. Engineered to help builders achieve 7-star NatHERS energy\ncompliance under NCC 2022, it provides continuous external insulation that\neliminates stud thermal bridging. Available plain or factory-laminated with a\nClass 4 vapour-permeable membrane (supaBATT VP4), it combines non-combustible\nbulk thermal resistance (AS 1530.1) with condensation management, backed by a\nConsumer Lifetime Warranty."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

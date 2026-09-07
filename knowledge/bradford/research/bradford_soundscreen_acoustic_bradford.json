@@ -129,7 +129,10 @@
       "Acoustic\nperformance is significantly degraded if flanking paths and gaps are left\nunsealed",
       "Not for use in exposed exterior or wet environments without\nprotective lining"
     ],
-    "warranty": "70 Year Performance Warranty"
+    "warranty": "70 Year Performance Warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -178,5 +181,7 @@
     "rag_summary": "Bradford SoundScreen Acoustic - Bradford is an\nAustralian-made, high-density glasswool batt engineered to reduce airborne and\nimpact noise transmission across internal walls, mid-floors, and external walls.\nProviding sound reduction of up to 75% and acoustic absorption with an NRC up\nto 1.15, it doubles as an effective thermal insulator with ratings from R1.7 to\nR3.1. Certified non-combustible to AS 1530.1 and approved by Sensitive Choice,\nit offers peace, quiet, and fire safety backed by a 70-year warranty."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

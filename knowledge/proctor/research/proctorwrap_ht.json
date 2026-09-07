@@ -108,7 +108,9 @@
       "Must not be left exposed to direct sunlight beyond manufacturer UV\nlimits prior to roof covering"
     ],
     "warranty": "Backed by Proctor Group Australia\nmanufacturer warranty",
-    "accessories_upsell": "ProctorWrap HighTack PLUS Tape and ProctorWrap PlastiGrip Washers."
+    "accessories_upsell": "ProctorWrap HighTack PLUS Tape and ProctorWrap PlastiGrip Washers.",
+    "range_headers": [],
+    "clearances": []
   },
   "retrieval": {
     "search_keywords": [
@@ -227,5 +229,7 @@
     "rag_summary": "ProctorWrap HT (ProctorWrap HTR) is a\nheavy-duty, reinforced 3-ply spunbonded polyolefin vapour-permeable roof\nunderlay manufactured for commercial and residential pitched roofs. Sized\nat 1500mm x 50m (75 m² per roll) with a Medium Duty classification, it\nwithstands high construction foot traffic and wind loads under metal deck, tile,\nand slate roofs. Class 4 vapour-permeable, highly water-resistant, and\nfire-tested to AS 1530.2 (BAL 12.5-40 compliant), it exhausts roof cavity\nmoisture into a ventilated airspace to prevent condensation and structural\ntimber rot."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

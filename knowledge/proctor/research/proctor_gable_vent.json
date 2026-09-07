@@ -18,7 +18,10 @@
     "selection_checklist": "",
     "accessories": "",
     "limitations": "",
-    "warranty": ""
+    "warranty": "",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -64,5 +67,7 @@
     "rag_summary": "Proctor Gable Vent represents passive external\nventilation louvres installed on exterior gable end walls to cross-ventilate\nresidential and commercial pitched roof spaces. By creating a natural convective\nairflow path across the attic void, it expels trapped heat in summer and vents\nmoisture vapour in winter to mitigate condensation and mould growth. It\nfunctions as a non-mechanical roof space ventilation component complementary to\neaves and ridge venting systems."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

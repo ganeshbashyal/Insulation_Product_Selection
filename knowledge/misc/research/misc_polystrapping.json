@@ -18,7 +18,10 @@
     "selection_checklist": "",
     "accessories": "",
     "limitations": "",
-    "warranty": ""
+    "warranty": "",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -77,5 +80,7 @@
     "rag_summary": "Misc Polystrapping is high-tensile polypropylene strapping (commonly 15mm\nto 19mm wide in 500m to 1000m rolls) widely utilized in the Australian building\nindustry to support underfloor and ceiling insulation batts. Stapled across\ntimber joists or steel purlins at 300mm to 450mm intervals, it cradles\nglasswool, polyester, and rockwool batts permanently in position, preventing\ngravity sag, wind dislodgement, and loss of thermal contact with the floor."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

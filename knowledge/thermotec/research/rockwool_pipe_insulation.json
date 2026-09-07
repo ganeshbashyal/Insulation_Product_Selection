@@ -99,7 +99,20 @@
       "38 mm wall (qty)",
       "50 mm wall (qty)"
     ],
-    "accessories_upsell": "72mm reinforced aluminium foil tape and stainless steel pipe banding straps (installed at 300mm intervals)."
+    "accessories_upsell": "72mm reinforced aluminium foil tape and stainless steel pipe banding straps (installed at 300mm intervals).",
+    "description": "",
+    "features": [],
+    "applications": [],
+    "technical": [],
+    "fire": "",
+    "sustainability": "",
+    "install": [],
+    "clearances": [],
+    "limitations": [],
+    "selection_checklist": [],
+    "compliance": "",
+    "warranty": "",
+    "accessories": []
   },
   "retrieval": {
     "search_keywords": [
@@ -146,5 +159,6 @@
   },
   "source_excerpt": null,
   "engine": "manual_range_injection",
-  "range_source": "manufacturer size/packaging breakdown (hand-supplied 2026-09-06)"
+  "range_source": "manufacturer size/packaging breakdown (hand-supplied 2026-09-06)",
+  "schema_version": "1.0"
 }

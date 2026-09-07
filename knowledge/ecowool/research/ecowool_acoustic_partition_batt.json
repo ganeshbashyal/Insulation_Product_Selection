@@ -132,7 +132,10 @@
       "Avoid excessive compression which reduces acoustic absorption\nperformance",
       "Do not install over unsealed damp or leaking surfaces"
     ],
-    "warranty": "PGF Australia product warranty"
+    "warranty": "PGF Australia product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -200,5 +203,7 @@
     "rag_summary": "Ecowool Acoustic Partition Batts are non-combustible glass\nmineral wool batts manufactured by PGF Insulation using SensiTouch low-VOC,\nanti-formaldehyde technology. Available in densities of 11, 14, 24, and 32 kg/m³\nand thicknesses from 75mm to 110mm (R1.8 to R2.5), they fit 450mm and 600mm stud\nspacings to dampen room-to-room airborne noise transfer. Engineered from up\nto 80% recycled glass, they are non-combustible to AS 1530.1 and provide a soft,\nlow-itch installation for residential and commercial drywall partitions."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

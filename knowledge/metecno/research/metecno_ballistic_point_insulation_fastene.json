@@ -18,7 +18,10 @@
     "selection_checklist": "",
     "accessories": "",
     "limitations": "",
-    "warranty": ""
+    "warranty": "",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -75,5 +78,7 @@
     "rag_summary": "Metecno Ballistic Point Insulation\nFastener (manufactured by ICCONS under the GTIF series and distributed across\nthe Australian commercial construction market) is a pre-assembled ballistic\ndrive pin with an integrated 60mm plastic washer head. Engineered for gas or\npowder-actuated tools (such as the GTIXF-160C), it enables rapid, drill-free\nfastening of 25mm to 100mm rigid insulation panels directly to hard concrete,\nmasonry, and structural steel substrates in carparks, soffits, and facade\nwalls."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

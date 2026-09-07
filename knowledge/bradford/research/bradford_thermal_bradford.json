@@ -122,7 +122,10 @@
       "Must be kept dry during storage and\ninstallation",
       "Do not cover unrated heat-generating appliances or non-IC\ndownlights"
     ],
-    "warranty": "70 Year Performance Warranty"
+    "warranty": "70 Year Performance Warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -168,5 +171,7 @@
     "rag_summary": "Bradford Gold (Bradford Thermal - Bradford) is Australia's\nbenchmark residential and commercial glasswool insulation batt for ceilings and\nwalls, manufactured with up to 80% recycled glass using bio-soluble FBS-1\nformulation. Sized for 450mm and 600mm framing centres, it spans R-values from\nR1.5 to R2.7 in walls and R2.5 to R7.0 in ceilings, cutting household energy\nconsumption by up to 45%. Non-combustible to AS 1530.1 and certified Sensitive\nChoice asthma-friendly, it provides permanent, fire-safe thermal comfort backed\nby a 70-year warranty."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

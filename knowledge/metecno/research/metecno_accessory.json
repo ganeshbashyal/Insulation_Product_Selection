@@ -18,7 +18,10 @@
     "selection_checklist": "",
     "accessories": "",
     "limitations": "",
-    "warranty": ""
+    "warranty": "",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -62,5 +65,7 @@
     "rag_summary": "Metecno Accessory encompasses\nspecialized installation hardware, perimeter flashings, fasteners, and sealants\nused in conjunction with Metecno / Bondor insulated composite sandwich panels\n(such as MetecnoPanel, MetecnoSpan, and MetecnoCoffer). These accessories\nmaintain airtight, weather-tight, and thermally isolated connections across\ncommercial coolrooms, architectural facades, and industrial roof envelopes."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

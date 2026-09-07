@@ -140,7 +140,10 @@
       "Must be kept dry during transport,\nstorage, and installation",
       "Must not cover non-IC rated electrical fixtures"
     ],
-    "warranty": "70 Year Product Performance Warranty"
+    "warranty": "70 Year Product Performance Warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -195,5 +198,7 @@
     "rag_summary": "Bradford Gold Hi-Performance Batts (Gold\nHP) represent CSR Bradford's highest-density glasswool insulation range,\nengineered to provide maximum thermal resistance in space-constrained building\ncavities. Offering ceiling ratings from R4.1 HP up to R7.0 HP and wall ratings\nup to R2.7 HP in standard 90mm studs, it is the premier solution for\nachieving 7-star and 8-star NatHERS energy compliance across Australia.\nNon-combustible to AS 1530.1, Sensitive Choice certified, and formulated with\nlow-itch Comfort Touch technology, it provides lifetime thermal and acoustic\nperformance backed by a 70-year warranty."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

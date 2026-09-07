@@ -133,7 +133,10 @@
       "Must be installed with foil facing downwards into the\nroof space",
       "Spans exceeding 1200mm require safety mesh support underneath"
     ],
-    "warranty": "CSR Bradford Standard Product Warranty"
+    "warranty": "CSR Bradford Standard Product Warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -195,5 +198,7 @@
     "rag_summary": "Bradford Anticon\nRoofing Blanket - Heavy Duty Foil is an Australian-made glasswool insulation\nblanket laminated to an Extra Heavy Duty reflective foil facing with a 150mm\noverlap edge. Designed specifically for commercial and wide-span residential\nmetal roofs with purlin centres up to 1200mm, its robust foil backing resists\ntearing and sagging while forming a Class 2 vapour barrier to prevent\ncondensation. Offering R-values from R1.3 to R3.6, rain sound attenuation up\nto 7 dB, and BAL-FZ bushfire resistance, it delivers heavy-duty thermal and\nmoisture protection for metal roofs."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

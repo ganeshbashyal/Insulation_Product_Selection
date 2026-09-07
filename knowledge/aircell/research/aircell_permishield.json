@@ -28,7 +28,21 @@
         "c7": "R0.20 in-situ"
       }
     ],
-    "accessories_upsell": "AIR-CELL 48mm reinforced foil tape + AIR-CELL Spacer Biscuits (approx. 3 per m² to preserve outer air cavity)."
+    "accessories_upsell": "AIR-CELL 48mm reinforced foil tape + AIR-CELL Spacer Biscuits (approx. 3 per m² to preserve outer air cavity).",
+    "description": "",
+    "features": [],
+    "applications": [],
+    "technical": [],
+    "range_headers": [],
+    "fire": "",
+    "sustainability": "",
+    "install": [],
+    "clearances": [],
+    "limitations": [],
+    "selection_checklist": [],
+    "compliance": "",
+    "warranty": "",
+    "accessories": []
   },
   "retrieval": {
     "search_keywords": [
@@ -62,5 +76,6 @@
   },
   "source_excerpt": null,
   "engine": "knowledge_base_txt",
-  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
+  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)",
+  "schema_version": "1.0"
 }

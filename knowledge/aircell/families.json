@@ -41,7 +41,8 @@
       ],
       "product_count": 1,
       "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
-      "source_url_status": "manufacturer_tds_confirmed"
+      "source_url_status": "manufacturer_tds_confirmed",
+      "datasheet_url": null
     },
     {
       "family_id": "AIRCELL_FOIL_TAPE",
@@ -81,7 +82,8 @@
       ],
       "product_count": 4,
       "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
-      "source_url_status": "manufacturer_tds_confirmed"
+      "source_url_status": "manufacturer_tds_confirmed",
+      "datasheet_url": null
     },
     {
       "family_id": "AIRCELL_GLARESHIELD",
@@ -121,7 +123,8 @@
       ],
       "product_count": 1,
       "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
-      "source_url_status": "manufacturer_tds_confirmed"
+      "source_url_status": "manufacturer_tds_confirmed",
+      "datasheet_url": null
     },
     {
       "family_id": "AIRCELL_INSULBREAK",
@@ -161,7 +164,8 @@
       ],
       "product_count": 3,
       "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
-      "source_url_status": "manufacturer_tds_confirmed"
+      "source_url_status": "manufacturer_tds_confirmed",
+      "datasheet_url": null
     },
     {
       "family_id": "AIRCELL_INSULINER",
@@ -201,7 +205,8 @@
       ],
       "product_count": 1,
       "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
-      "source_url_status": "manufacturer_tds_confirmed"
+      "source_url_status": "manufacturer_tds_confirmed",
+      "datasheet_url": null
     },
     {
       "family_id": "AIRCELL_INSULSHED",
@@ -241,7 +246,8 @@
       ],
       "product_count": 2,
       "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
-      "source_url_status": "manufacturer_tds_confirmed"
+      "source_url_status": "manufacturer_tds_confirmed",
+      "datasheet_url": null
     },
     {
       "family_id": "AIRCELL_INSULWHITE",
@@ -281,7 +287,8 @@
       ],
       "product_count": 1,
       "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
-      "source_url_status": "manufacturer_tds_confirmed"
+      "source_url_status": "manufacturer_tds_confirmed",
+      "datasheet_url": null
     },
     {
       "family_id": "AIRCELL_PERMICAV",
@@ -321,7 +328,8 @@
       ],
       "product_count": 1,
       "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
-      "source_url_status": "manufacturer_tds_confirmed"
+      "source_url_status": "manufacturer_tds_confirmed",
+      "datasheet_url": null
     },
     {
       "family_id": "AIRCELL_PERMIFLOOR",
@@ -361,7 +369,8 @@
       ],
       "product_count": 2,
       "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
-      "source_url_status": "manufacturer_tds_confirmed"
+      "source_url_status": "manufacturer_tds_confirmed",
+      "datasheet_url": null
     },
     {
       "family_id": "AIRCELL_PERMISHIELD",
@@ -401,7 +410,8 @@
       ],
       "product_count": 2,
       "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
-      "source_url_status": "manufacturer_tds_confirmed"
+      "source_url_status": "manufacturer_tds_confirmed",
+      "datasheet_url": null
     },
     {
       "family_id": "AIRCELL_PERMIWALL",
@@ -441,7 +451,8 @@
       ],
       "product_count": 1,
       "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
-      "source_url_status": "manufacturer_tds_confirmed"
+      "source_url_status": "manufacturer_tds_confirmed",
+      "datasheet_url": null
     },
     {
       "family_id": "AIRCELL_RETROSHIELD",
@@ -481,7 +492,8 @@
       ],
       "product_count": 1,
       "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_site_root_tds_pending",
+      "datasheet_url": null
     }
   ]
 }

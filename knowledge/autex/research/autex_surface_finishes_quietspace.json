@@ -138,7 +138,9 @@
       "Recommended for non-contact areas as\nprinted surface may mark under heavy impact"
     ],
     "warranty": "Manufacturer's\nGuarantee (10 years)",
-    "accessories_upsell": "Type C aluminium edge channels (powder-coated to match stone edge) and high-grab MS polymer adhesive."
+    "accessories_upsell": "Type C aluminium edge channels (powder-coated to match stone edge) and high-grab MS polymer adhesive.",
+    "range_headers": [],
+    "clearances": []
   },
   "retrieval": {
     "search_keywords": [
@@ -207,5 +209,7 @@
     "rag_summary": "Autex Surface Finishes Quietspace pairs the\nbroadband sound absorption of dual-density Quietspace Panel (NRC 0.85 to 1.00)\nwith high-definition digital UV printing of natural stone, marble, concrete, and\ntextural finishes. Available in thicknesses from 25mm to 100mm in 1220mm\nx 2440mm sheets, it replicates heavy, reverberant architectural masonry without\nstructural weight, installation complexity, or acoustic compromise. Achieving\nGroup 1 fire compliance under AS ISO 9705 and containing up to 58% recycled PET,\nit delivers premium, carbon-neutral acoustic control for luxury corporate and\nhospitality interiors."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

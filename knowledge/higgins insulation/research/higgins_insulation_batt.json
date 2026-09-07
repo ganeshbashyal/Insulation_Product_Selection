@@ -145,7 +145,10 @@
       "Not designed for exposed\ndecorative finishes; must be enclosed behind plasterboard or internal linings",
       "Maintain required clearances around non-IC rated electrical downlights"
     ],
-    "warranty": "50 Year Product Warranty"
+    "warranty": "50 Year Product Warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -206,5 +209,7 @@
     "rag_summary": "Higgins Polyester Thermal &\nAcoustic Batts are non-itchy, Australian-made insulation batts manufactured\nfrom 100% polyester fiber containing up to 85% recycled PET plastic bottles.\nAvailable in ceiling ratings from R2.5 to R5.0 and wall ratings from R1.5 to\nR2.5 (widths 430mm and 580mm), they deliver durable thermal resistance and sound\nabsorption without slumping or degrading over time. Completely free of chemical\nbinders, resins, and formaldehyde, they are non-allergenic, Sensitive Choice\nfriendly, and backed by a 50-year manufacturer warranty."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

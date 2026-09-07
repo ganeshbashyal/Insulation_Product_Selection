@@ -116,7 +116,10 @@
       "Must not\nbe compressed against non-IC rated light fittings or hot flue exhausts",
       "Does\nnot replace structural fire barriers where specific FRLs are mandated"
     ],
-    "warranty": "Backed by Polyester Solutions manufacturer product warranty"
+    "warranty": "Backed by Polyester Solutions manufacturer product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -167,5 +170,7 @@
     "rag_summary": "Polyester Solutions Wall Block - Baffle Block Rolls (Ceiling Baffle Rolls) are\ncontinuous polyester acoustic insulation blankets designed for layer-stacking\nabove partition walls in ceiling plenum voids. Formed from 100% thermally bonded\npolyester with high recycled PET content, the flexible roll format unrolls\nsmoothly and moulds tightly around HVAC ducting, electrical conduits, and\nservice pipes to seal acoustic flanking paths. Hydrophobic, itch-free, and\ntested to AS 1530.3 fire standards, it provides an economical, joint-free\nacoustic barrier for commercial and institutional interiors."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

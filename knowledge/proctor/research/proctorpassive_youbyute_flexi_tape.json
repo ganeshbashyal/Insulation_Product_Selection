@@ -116,7 +116,10 @@
       "Porous,\nchalky, or damp masonry requires priming prior to application",
       "Must not be\nleft exposed to permanent UV sunlight beyond rated exposure limits"
     ],
-    "warranty": "Backed by Proctor Group Australia product warranty"
+    "warranty": "Backed by Proctor Group Australia product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -163,5 +166,7 @@
     "rag_summary": "ProctorPassive YouByute Flexi Tape is an elastic, stretchable butyl rubber\nflashing and sealing tape designed for complex 3D corners, curved pipes, and\nirregular envelope penetrations. Featuring an ultra-pliant creped carrier that\nelongates up to 300% and a heavy coating of aggressive pure butyl adhesive, it\nmoulds tightly around difficult geometric junctions without tearing or\npuckering. Equipped with a split release liner for quick corner placement, it\nforms an instantaneous, airtight, and watertight seal essential for Passive\nHouse and high-performance weatherproofing."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

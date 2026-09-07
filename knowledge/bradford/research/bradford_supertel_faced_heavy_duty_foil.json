@@ -138,7 +138,10 @@
       "Protect from\nexterior weather and rain until metal cladding or outer jacketing is installed",
       "Tape all penetrations to prevent vapor ingress and condensation formation\nbehind the foil"
     ],
-    "warranty": "CSR Bradford Standard Product Warranty"
+    "warranty": "CSR Bradford Standard Product Warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -194,5 +197,7 @@
     "rag_summary": "Bradford Supertel Faced - Heavy Duty Foil is a 32\nkg/m3 high-density glasswool insulation blanket and board factory-bonded with a\npuncture-resistant Heavy Duty Thermofoil aluminium facing. Engineered for\ncommercial HVAC duct wrapping, equipment enclosures, and under-soffit linings,\nit delivers thermal ratings from R0.8 to R3.0 (25mm to 100mm) while forming a\nrobust vapour barrier that stops condensation. Featuring a non-combustible\nglasswool core under AS 1530.1 and early fire hazard ratings of 0/0/0/0-1, it\nprovides fire-safe, durable thermal and acoustic protection for commercial\nservices."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

@@ -40,7 +40,10 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 47
+      "product_count": 47,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "KNAUF_BLANKET_ROOF_LAMIN",
@@ -78,7 +81,10 @@
         "Confirm product specifications and performance claims",
         "Validate compliance with relevant standards"
       ],
-      "product_count": 6
+      "product_count": 6,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     }
   ]
 }

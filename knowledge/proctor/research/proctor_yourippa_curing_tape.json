@@ -89,7 +89,10 @@
       "Do not\nleave on sensitive timber finishes beyond recommended removal period",
       "Not an\nair-barrier or vapour-permeable membrane joining tape"
     ],
-    "warranty": "Backed by\nProctor Group Australia product warranty"
+    "warranty": "Backed by\nProctor Group Australia product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -131,5 +134,7 @@
     "rag_summary": "Proctor YouRippa Curing Tape is a heavy-duty, hand-tearable polyethylene cloth\ntape designed for temporary surface protection and concrete curing applications\non construction sites. Coated with a natural rubber adhesive, it delivers high\ngrab to corflute, cardboard, timber, and cured concrete, yet removes cleanly\nwithout leaving sticky residue. Hand-tearable in both directions for rapid\njobsite handling, it secures protective floor coverings against heavy trade\ntraffic."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

@@ -123,7 +123,10 @@
       "Avoid severe compression beyond cavity\nthickness",
       "Must not be installed over unsealed damp surfaces"
     ],
-    "warranty": "50 Year Commercial Warranty"
+    "warranty": "50 Year Commercial Warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -197,5 +200,7 @@
     "rag_summary": "Fletcher Pink\nPartition is a commercial glasswool acoustic and thermal insulation range\nmanufactured in Australia by Fletcher Insulation for steel and timber stud\npartitions and ceilings. Available in densities of 11, 14, 24, and 32 kg/m³ and\nthicknesses from 50mm to 165mm (R1.2 to R3.5), it delivers customizable sound\ntransmission control (Rw / STC) across commercial offices, healthcare, aged\ncare, and educational institutions. Non-combustible to AS 1530.1, CodeMark\ncertified (CM 30006), and containing up to 80% recycled glass, Pink Partition\nmaintains rigid friction-fit cavity stability backed by a 50-year commercial\nwarranty."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

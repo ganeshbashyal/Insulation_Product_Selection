@@ -43,7 +43,11 @@
         "Select R-value and width from the actual wall system",
         "Confirm climate-zone, condensation and NCC requirements",
         "Do not use a batt rating as a complete wall-system rating"
-      ]
+      ],
+      "product_count": 0,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "FLETCHER_PINK_BATTS_CEILING",
@@ -85,7 +89,11 @@
         "Confirm current regional SKU and CodeMark coverage",
         "Assess existing insulation and electrical clearances",
         "Confirm total system R-value"
-      ]
+      ],
+      "product_count": 0,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "FLETCHER_PINK_BATTS_FLOOR",
@@ -127,7 +135,11 @@
         "Confirm current TDS and available SKU",
         "Verify retention/support method",
         "Check moisture, services and subfloor conditions"
-      ]
+      ],
+      "product_count": 0,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "FLETCHER_SOUNDBREAK",
@@ -174,7 +186,10 @@
         "Use tested system evidence for an acoustic target",
         "Reconcile legacy 9021xx/4006068 codes before quoting",
         "Confirm batt size, cavity depth and complete construction"
-      ]
+      ],
+      "product_count": 0,
+      "source_url_status": null,
+      "legacy_source_url": null
     },
     {
       "family_id": "FLETCHER_PINK_PARTITION",
@@ -217,7 +232,11 @@
         "Select density and thickness from tested/specifed system",
         "Do not infer Rw from density",
         "Confirm fire and project specification"
-      ]
+      ],
+      "product_count": 0,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "FLETCHER_FI32_SEMI_RIGID",
@@ -261,7 +280,11 @@
         "Confirm facing and exposure",
         "Verify HVAC/fire/hygiene specification",
         "Use current TDS for R-value and acoustic data"
-      ]
+      ],
+      "product_count": 0,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "FLETCHER_FI24_FLEX_DUCTLINER",
@@ -302,7 +325,11 @@
         "Confirm legacy FI22-to-current-FI24 identity",
         "Check facing, air velocity and hygiene requirements",
         "Confirm current product code"
-      ]
+      ],
+      "product_count": 0,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "FLETCHER_PINK_THERMAL_SLAB",
@@ -345,7 +372,11 @@
         "Confirm fixing and facing detail",
         "Retain exact fire-classification context",
         "Verify project specification"
-      ]
+      ],
+      "product_count": 0,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "FLETCHER_PARTY_WALL_STONEWOOL",
@@ -390,7 +421,11 @@
         "Follow the nominated tested system and installation guide",
         "Confirm exact component code",
         "No standalone compliance claim"
-      ]
+      ],
+      "product_count": 0,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "FLETCHER_PERMASTOP",
@@ -434,7 +469,11 @@
         "Confirm blanket compression and installed R-value",
         "Select foil duty and roll size",
         "Verify condensation, BAL and roof-system requirements"
-      ]
+      ],
+      "product_count": 0,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "FLETCHER_VAPAWRAP_WALL",
@@ -476,7 +515,11 @@
         "Confirm vapour class and climate-zone selection",
         "Seal laps and penetrations to the installation guide",
         "Verify BAL/NCC edition and wall system"
-      ]
+      ],
+      "product_count": 0,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "FLETCHER_VAPAWRAP_METAL_ROOF",
@@ -517,7 +560,11 @@
         "Verify roof assembly and drainage detail",
         "Confirm vapour-permeability requirement",
         "Do not substitute wall-wrap SKU without evidence"
-      ]
+      ],
+      "product_count": 0,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "FLETCHER_SISALATION_WRAP",
@@ -561,7 +608,11 @@
         "Select exact membrane variant",
         "Confirm vapour classification and duty",
         "Verify BAL/NCC evidence for current product and edition"
-      ]
+      ],
+      "product_count": 0,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "FLETCHER_FOAM_BUBBLE_CELL",
@@ -604,7 +655,11 @@
         "Select exact Foam Cell or Bubble Cell variant",
         "Keep product and total system R-values separate",
         "Verify fire/BAL context"
-      ]
+      ],
+      "product_count": 0,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "FLETCHER_SUPABATT",
@@ -646,7 +701,11 @@
         "Choose faced or unfaced SKU",
         "Confirm compatibility with adjacent membranes",
         "Verify full wall system and NCC target"
-      ]
+      ],
+      "product_count": 0,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "FLETCHER_TAPES_ACCESSORIES",
@@ -690,7 +749,11 @@
         "Confirm accessory compatibility",
         "Thermatape compression changes R-value",
         "Do not treat tape as standalone insulation"
-      ]
+      ],
+      "product_count": 0,
+      "source_url_status": null,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "FLETCHER_SAFE_N_SILENT_LEGACY",
@@ -729,7 +792,10 @@
         "Do not recommend or quote until identity is verified",
         "Do not automatically substitute Soundbreak"
       ],
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_site_root_tds_pending",
+      "product_count": 0,
+      "legacy_source_url": null,
+      "datasheet_url": null
     },
     {
       "family_id": "FLETCHER_FF_HD_LEGACY",
@@ -768,7 +834,10 @@
         "Do not recommend or quote until identity is verified",
         "Do not infer membrane performance from the abbreviated name"
       ],
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_site_root_tds_pending",
+      "product_count": 0,
+      "legacy_source_url": null,
+      "datasheet_url": null
     }
   ]
 }

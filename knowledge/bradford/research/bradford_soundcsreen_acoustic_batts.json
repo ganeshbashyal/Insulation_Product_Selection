@@ -129,7 +129,10 @@
       "Acoustic performance depends on airtight wall construction; seal all perimeter\ngaps and penetrations",
       "Indoor/enclosed cavity application only; protect from\nweather"
     ],
-    "warranty": "70 Year Performance Warranty"
+    "warranty": "70 Year Performance Warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -176,5 +179,7 @@
     "rag_summary": "Bradford SoundScreen\nAcoustic Batts are high-density, non-combustible glasswool insulation segments\nengineered to reduce sound power transfer by up to 75% through internal walls\nand mid-floors. Available in thicknesses from 60mm to 110mm (R1.7 to R3.1) with\nan acoustic NRC up to 1.15, they absorb conversational noise, television sound,\nand plumbing rumble. Certified non-combustible under AS 1530.1 and endorsed by\nSensitive Choice for asthma and allergy sufferers, SoundScreen delivers proven\nacoustic privacy and thermal comfort backed by a 70-year warranty."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

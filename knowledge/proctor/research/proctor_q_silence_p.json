@@ -85,7 +85,10 @@
       "Do not\nmechanically fix through the membrane as screws create acoustic bridges",
       "Must\nbe isolated from perimeter walls and skirtings"
     ],
-    "warranty": "Backed by\nProctor Group Australia product warranty"
+    "warranty": "Backed by\nProctor Group Australia product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -128,5 +131,7 @@
     "rag_summary": "Proctor Q-Silence P is an\nacoustic underlay and isolation membrane designed to reduce impact sound\ntransmission (L'nT,w) beneath screeds, floating timber, and tile flooring\nsystems. Constructed from resilient elastomeric polymer composites, it decouples\nfloor finishes from concrete slabs and timber subfloors, preventing footstep\nthuds and structural vibrations from traveling between building levels.\nFormulated for multi-residential apartments, it assists projects in satisfying\nNCC Part F5 acoustic impact standards."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

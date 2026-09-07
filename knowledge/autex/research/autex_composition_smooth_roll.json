@@ -26,7 +26,21 @@
         "c6": "NRC 0.40"
       }
     ],
-    "accessories_upsell": "Autex recommended water-based wallcovering adhesive and Autex Type A aluminium capping and joiner profiles."
+    "accessories_upsell": "Autex recommended water-based wallcovering adhesive and Autex Type A aluminium capping and joiner profiles.",
+    "description": "",
+    "features": [],
+    "applications": [],
+    "technical": [],
+    "range_headers": [],
+    "fire": "",
+    "sustainability": "",
+    "install": [],
+    "clearances": [],
+    "limitations": [],
+    "selection_checklist": [],
+    "compliance": "",
+    "warranty": "",
+    "accessories": []
   },
   "retrieval": {
     "search_keywords": [
@@ -57,5 +71,6 @@
   },
   "source_excerpt": null,
   "engine": "knowledge_base_txt",
-  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
+  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)",
+  "schema_version": "1.0"
 }

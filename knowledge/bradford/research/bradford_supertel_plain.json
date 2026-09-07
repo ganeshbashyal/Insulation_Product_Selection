@@ -136,7 +136,10 @@
       "Not for direct exposure to high-velocity air\nstreams without facing or scrim",
       "Keep dry during storage and installation"
     ],
-    "warranty": "CSR Bradford Standard Product Warranty"
+    "warranty": "CSR Bradford Standard Product Warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -182,5 +185,7 @@
     "rag_summary": "Bradford Supertel Plain\nis an unfaced, 32 kg/m3 high-density bio-soluble glasswool blanket and board\nengineered for superior thermal and acoustic performance. With a continuous\nservice temperature limit of 350°C and AS 1530.1 non-combustibility, it achieves\nexceptional sound absorption (NRC 0.85 to 1.10) and thermal resistance from R0.4\nto R3.0 (13mm to 100mm). Widely specified as acoustic infill behind perforated\narchitectural panelling, in HVAC attenuators, and for industrial enclosures, it\noffers versatile, non-combustible sound and heat dampening."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

@@ -134,7 +134,9 @@
       "Must not be left exposed\nto direct sunlight beyond recommended exposure window"
     ],
     "warranty": "Backed by\nFletcher Insulation product warranty",
-    "accessories_upsell": "Vapastop 883 reinforced foil tape."
+    "accessories_upsell": "Vapastop 883 reinforced foil tape.",
+    "range_headers": [],
+    "clearances": []
   },
   "retrieval": {
     "search_keywords": [
@@ -190,5 +192,7 @@
     "rag_summary": "Sisalation Tuff Wrap and Multipurpose Sarking (Sisalation 497 / 456 EHD) is an\nextra-tough reflective foil building membrane manufactured by Fletcher\nInsulation. Built with woven polymer (polyweave) reinforcement laminated to pure\naluminium foil, it provides superior resistance to tears and punctures on windy\njobsites while reflecting up to 95% of radiant heat across adjacent air\ncavities. Available in Standard vapour-barrier and pin-perforated Breather\nformats with a Flammability Index ≤ 5 (BAL 0-40 roof / BAL 0-FZ wall), it\ndelivers robust weather and radiant heat protection."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

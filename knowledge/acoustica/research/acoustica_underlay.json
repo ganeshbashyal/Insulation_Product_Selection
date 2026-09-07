@@ -4,6 +4,28 @@
   "datasheet_pdf_url": "https://acoustica.com.au/wp-content/uploads/2020/04/Acoustica-specifications-AngelStep_2020.docx",
   "status": "extract_failed",
   "researched_at": "2026-09-07",
-  "spec": null,
-  "source_excerpt": null
+  "spec": {
+    "description": "",
+    "features": [],
+    "applications": [],
+    "technical": [],
+    "range_headers": [],
+    "range": [],
+    "fire": "",
+    "sustainability": "",
+    "install": [],
+    "clearances": [],
+    "limitations": [],
+    "selection_checklist": [],
+    "compliance": "",
+    "warranty": "",
+    "accessories": [],
+    "accessories_upsell": []
+  },
+  "source_excerpt": null,
+  "schema_version": "1.0",
+  "sds_url": "",
+  "engine": "local",
+  "retrieval": {},
+  "range_source": ""
 }

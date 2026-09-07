@@ -18,7 +18,10 @@
     "selection_checklist": "",
     "accessories": "",
     "limitations": "",
-    "warranty": ""
+    "warranty": "",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -64,5 +67,7 @@
     "rag_summary": "Proctor YouRippa Silver\nrepresents a heavy-duty, silver-faced construction and duct tape within the\nYouRippa range. Featuring an embossed, high-tensile waterproof backing coated\nwith an aggressive pressure-sensitive adhesive, it matches silver foil membranes\nand ducting. It delivers an airtight, moisture-resistant seal for joining\nreflective insulation, sealing foil laps, and performing durable jobsite repairs\nwithout requiring scissors or knives."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

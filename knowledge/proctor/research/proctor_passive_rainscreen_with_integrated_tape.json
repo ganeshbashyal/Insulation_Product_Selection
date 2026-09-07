@@ -101,7 +101,10 @@
       "Must be separated from cladding by\nan unblocked drainage cavity",
       "Not designed for roof sarking or horizontal\napplications"
     ],
-    "warranty": "Backed by Proctor Group Australia manufacturer\nwarranty"
+    "warranty": "Backed by Proctor Group Australia manufacturer\nwarranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -142,5 +145,7 @@
     "rag_summary": "ProctorPassive Rainscreen\nwith Integrated Tape is an Extra Heavy Duty, Class 4 vapour-permeable weather\nbarrier engineered for open-joint rainscreen facades with up to 40% open area\nand 50mm gap widths. Formulated with high UV stabilisers and halogen-free fire\nretardants (Flammability Index ≤ 5 to AS 1530.2), it presents a deep black\nshadow finish behind open cladding. Equipped with factory-applied integrated\nadhesive tape along overlaps, it forms a durable airtight and watertight barrier\nwhile allowing moisture vapour to escape from wall cavities."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

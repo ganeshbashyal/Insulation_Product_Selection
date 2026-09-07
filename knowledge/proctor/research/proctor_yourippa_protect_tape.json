@@ -90,7 +90,10 @@
       "Do not leave on sensitive porous timber finishes\nbeyond recommended removal period",
       "Not a vapour-permeable building wrap\njoining tape"
     ],
-    "warranty": "Backed by Proctor Group Australia product\nwarranty"
+    "warranty": "Backed by Proctor Group Australia product\nwarranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -132,5 +135,7 @@
     "rag_summary": "Proctor YouRippa Protect Tape (Heavy Duty Curing & Protection\nTape) is an embossed polyethylene cloth tape coated with a natural rubber-based\nadhesive, engineered specifically for temporary jobsite surface protection.\nHand-tearable in both directions without cutting tools, it securely joins\ncorflute, cardboard, hardboard, and concrete curing blankets under heavy trade\nfoot traffic. It removes cleanly without leaving adhesive residue or damaging\nsensitive finished surfaces such as timber, tiles, polished stone, and cured\nconcrete."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

@@ -41,7 +41,8 @@
       ],
       "product_count": 11,
       "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_site_root_tds_pending",
+      "datasheet_url": null
     },
     {
       "family_id": "POLYESTER_SOLUTIONS_THERMAL_BATTS_P",
@@ -82,7 +83,8 @@
       ],
       "product_count": 14,
       "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_site_root_tds_pending",
+      "datasheet_url": null
     },
     {
       "family_id": "POLYESTER_SOLUTIONS_UNDER_FLOOR_ROLLS_POLYFB",
@@ -122,7 +124,8 @@
       ],
       "product_count": 5,
       "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_site_root_tds_pending",
+      "datasheet_url": null
     },
     {
       "family_id": "POLYESTER_SOLUTIONS_WALL_BLOCK_BAFFLE_BLOCK_BATTS",
@@ -162,7 +165,8 @@
       ],
       "product_count": 1,
       "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_site_root_tds_pending",
+      "datasheet_url": null
     },
     {
       "family_id": "POLYESTER_SOLUTIONS_WALL_BLOCK_BAFFLE_BLOCK_ROLLS",
@@ -202,7 +206,8 @@
       ],
       "product_count": 1,
       "legacy_source_url": "https://pricewiseinsulation.com.au/wp-content/uploads/2022/12/Polyester-Solutions-Product-Data-Sheet-All-batts.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_site_root_tds_pending",
+      "datasheet_url": null
     }
   ]
 }

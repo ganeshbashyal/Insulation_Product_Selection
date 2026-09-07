@@ -129,7 +129,10 @@
       "Printed decorative surface can be scuffed by heavy\nmechanical abrasion; install in low-to-medium contact zones",
       "Panel layout must\nfollow manufacturer pattern guide to maintain artwork alignment"
     ],
-    "warranty": "10 Year Manufacturer's Guarantee"
+    "warranty": "10 Year Manufacturer's Guarantee",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -187,5 +190,7 @@
     "rag_summary": "Autex Willie Weston / Emma Hayes Cube\ncombines 12mm or 24mm semi-rigid Cube polyester acoustic panels with\nhigh-resolution digital UV prints of Australian First Nations art (Willie\nWeston) and New Zealand landscape designs (Emma Hayes). Delivering sound\nabsorption from NRC 0.45 to 0.70 (and up to 0.80 with an air gap), the panels\nuse safe water-based inks that do not reduce acoustic efficiency. Certified\nGroup 1 fire rated under AS ISO 9705, carbon neutral, and containing over 80%\nrecycled PET, this collection brings cultural storytelling and sound control to\ncommercial, educational, and civic interiors."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

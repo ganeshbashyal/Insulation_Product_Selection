@@ -112,7 +112,10 @@
       "Requires compatible desk edge overhang for\nclamp engagement",
       "Ensure wrap-around screen width matches exact workstation\ndesk size"
     ],
-    "warranty": "Manufacturer's Guarantee (10 years)"
+    "warranty": "Manufacturer's Guarantee (10 years)",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -170,5 +173,7 @@
     "rag_summary": "Autex Vicinity Desk\nScreen - Haven is an extended wrap-around acoustic desk screen system engineered\nfrom 12mm Cube polyester felt to enclose the rear and side of 1600mm or 1800mm\ndesks. Delivering an outstanding sound absorption rating of 1.55 Sabins per\nunit, it forms an acoustic and visual sanctuary that shields workers from\nopen-office chatter. Secured non-destructively via 100% recycled PET Vicinity\nClamps and achieving Group 1 fire compliance, Haven offers a circular,\nhigh-performance workstation partition solution."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

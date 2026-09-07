@@ -19,6 +19,7 @@
       "properties": {
         "family_id": {"type": "string", "pattern": "^[A-Z0-9_]+$"},
         "name": {"type": "string", "minLength": 1},
+        "product_count": {"type": "integer", "minimum": 0},
         "category": {"type": "string", "minLength": 1},
         "primary_function": {"type": "string", "minLength": 1},
         "applications": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
@@ -36,14 +37,14 @@
           "additionalProperties": false
         },
         "score_notes": {"type": "string", "minLength": 1},
-        "manufacturer": {"type": "string", "enum": ["Thermotec", "Fletcher"]},
+        "manufacturer": {"type": "string", "minLength": 1},
         "confidence": {"enum": ["manufacturer_supported", "manufacturer_supported_performance_pending", "manufacturer_supported_classification_pending", "manufacturer_supported_identity_review", "manufacturer_supported_variant_review", "secondary_owned_source_only", "identity_unverified"]},
         "knowledge_file": {"type": "string", "pattern": "^[^/\\\\]+\\.md$"},
         "detailed_knowledge_status": {"type": "string"},
         "source_url": {"$ref": "#/$defs/uriOrNull"},
         "datasheet_url": {"$ref": "#/$defs/uriOrNull"},
-        "legacy_source_url": {"type": "string", "minLength": 1},
-        "source_url_status": {"enum": ["manufacturer_site_root_tds_pending", "manufacturer_tds_confirmed"]},
+        "legacy_source_url": {"anyOf": [{"type": "string", "minLength": 1}, {"type": "null"}]},
+        "source_url_status": {"anyOf": [{"enum": ["manufacturer_site_root_tds_pending", "manufacturer_tds_confirmed"]}, {"type": "null"}]},
         "questions": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
         "human_gates": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}}
       },

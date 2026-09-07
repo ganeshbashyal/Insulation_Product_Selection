@@ -18,7 +18,10 @@
     "selection_checklist": "",
     "accessories": "",
     "limitations": "",
-    "warranty": ""
+    "warranty": "",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -62,5 +65,7 @@
     "rag_summary": "Proctor Membrane encompasses the broader family of ProctorWrap\nand ProctorPassive technical building fabrics engineered for Australian climate\nzones. These spunbonded polyolefin and composite membranes serve as Class 3 or\nClass 4 vapour-permeable, airtight, and water-barrier layers across wall\nassemblies and pitched roofs. By allowing structural moisture to escape while\nblocking external liquid water and wind-driven draughts, they protect building\ndurability and enhance thermal insulation efficiency."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

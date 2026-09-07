@@ -116,7 +116,10 @@
       "Not\na substitute for primary roof cladding; must be covered promptly",
       "Ensure an\nair space exists adjacent to reflective foil to generate rated thermal R-value"
     ],
-    "warranty": "Backed by CSR Bradford product warranty"
+    "warranty": "Backed by CSR Bradford product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -177,5 +180,7 @@
     "rag_summary": "Bradford Wall Wraps - Light Duty Metal Roof (Bradford\nThermoseal Roof Metal Wall, product codes 105871 / 15056) is a reinforced\nreflective foil laminate sarking engineered for metal-clad roofs and external\nwalls. Combining kraft paper, reinforcing fibreglass scrim, and pure aluminium\nfoil with a green anti-glare finish on the outer face, it reflects up to 95% of\nradiant heat when installed adjacent to an air cavity. Functioning as a\nClass 1/2 vapour barrier and water barrier with a Flammability Index ≤ 5\n(suitable up to BAL-40 under AS 3959), it protects buildings from storm rain,\ndust, and summer solar gain."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

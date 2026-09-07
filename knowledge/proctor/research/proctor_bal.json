@@ -115,7 +115,10 @@
       "Do not install without roof underlay;\ndesigned as part of a complete roof envelope system",
       "Ensure all fascia and\nridge junctions are tightly fitted with no bypass gaps greater than 2mm"
     ],
-    "warranty": "Backed by Proctor Group Australia product warranty"
+    "warranty": "Backed by Proctor Group Australia product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -171,5 +174,7 @@
     "rag_summary": "Proctor BAL comprises specialized\nbushfire ember protection mesh components and BAL-ready passive ventilation\nproducts engineered by Proctor Group Australia. Featuring non-combustible\ncorrosion-resistant metal mesh with apertures ≤ 2mm, it integrates directly into\nProctorVent over-fascia vents (FV10 BAL, FV25 BAL), ridge vents (RV10 BAL), and\ndrainage battens. Fully compliant with AS 3959 for bushfire attack levels from\nBAL-12.5 up to BAL-40 (and BAL-FZ in compliant assemblies), it blocks burning\nembers and debris while maintaining essential airflow to prevent roof cavity\ncondensation."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

@@ -144,7 +144,10 @@
       "Do not use in direct contact with wet\nconcrete or alkaline mortar to prevent foil corrosion",
       "Not suitable for\napplications subject to continuous water immersion"
     ],
-    "warranty": "Backed by\nFletcher Insulation product warranty"
+    "warranty": "Backed by\nFletcher Insulation product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -204,5 +207,7 @@
     "rag_summary": "Sisalation Foam Cell and Bubble Cell is an Extra Heavy\nDuty 3-in-1 reflective insulation, thermal break, and Class 2 vapour barrier\ncomposite manufactured by Fletcher Insulation. Built with an 8.4mm closed-cell\ncross-linked foam core (R0.20 to R0.25) or 4.0mm bubble core laminated between\naluminium foil faces with an anti-glare finish and a 150mm overlap flap, it\nreflects up to 95% of radiant heat while preventing thermal bridging on steel\nstuds. Tested to AS 5637.1 (Group 2 rating for Multipurpose) and compliant with\nAS 3959 up to BAL-40, it is ideal for steel-framed roofs, walls, and sheds."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

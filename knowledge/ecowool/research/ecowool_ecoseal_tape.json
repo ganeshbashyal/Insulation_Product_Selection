@@ -82,7 +82,10 @@
       "Pressure-sensitive adhesive requires firm pressure to\nachieve full bonding",
       "Not designed for structural mechanical fastening"
     ],
-    "warranty": "PGF Australia product warranty"
+    "warranty": "PGF Australia product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -137,5 +140,7 @@
     "rag_summary": "Ecowool EcoSeal Tape (EcoSeal 201 Cloth Tape) is a\nheavy-duty 48mm x 50m polyethylene-coated cloth tape distributed by PGF\nInsulation. Engineered with an aggressive, high-tack pressure-sensitive\nadhesive, it bonds, seals, and mends overlapped edges of ClimaWrap wall wraps,\nvapour barriers, and pliable building membranes. Hand-tearable for fast on-site\napplication, it provides a weather-tight, moisture-resistant barrier that\nprevents air leakage and wind-driven rain penetration across the building\nenvelope."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

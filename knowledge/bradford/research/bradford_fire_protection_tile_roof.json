@@ -107,7 +107,10 @@
       "Not suitable for\ndeep-rib metal roofing where 75mm is required",
       "Must not be left exposed to\npooling water or continuous outdoor weathering"
     ],
-    "warranty": "Backed by CSR\nBradford product warranty"
+    "warranty": "Backed by CSR\nBradford product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -163,5 +166,7 @@
     "rag_summary": "Bradford Fire Protection - Tile Roof\n(Fireseal Party Wall Sealer for Tiled Roofs) is a 50mm thick, non-combustible\nstone wool blanket designed to seal the gap between the top of fire-rated party\nwalls and concrete or terracotta roof tiles in Class 1 buildings. It compresses\nby 10-15% under tile battens and contours, creating an impenetrable barrier\nagainst flame, hot gases, and embers. Certified non-combustible to AS 1530.1 and\nrated for BAL-FZ bushfire conditions, it ensures multi-residential party wall\nassemblies comply with NCC Deemed-to-Satisfy fire separation standards."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

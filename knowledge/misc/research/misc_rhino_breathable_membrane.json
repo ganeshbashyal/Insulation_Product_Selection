@@ -100,7 +100,10 @@
       "Must not be left exposed to direct sunlight beyond\nmanufacturer UV limits",
       "Ensure cladding provides an unobstructed drainage\ncavity"
     ],
-    "warranty": "Backed by manufacturer product warranty"
+    "warranty": "Backed by manufacturer product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -154,5 +157,7 @@
     "rag_summary": "Rhino Breathable Membrane (Rhino Wrap Breather) is\na Class 4 vapour-permeable, Light Duty pliable building membrane manufactured\nfrom non-woven spunbonded polyolefin with a microporous core. Designed for\ntimber and steel-framed external walls, it allows interior moisture vapour to\ndiffuse freely while acting as a barrier against wind-driven rain, dust, and\ndraughts. Compliant with AS/NZS 4200.1:2017 and possessing a Flammability Index\n≤ 5 (BAL-40 suitable), it mitigates condensation and mould in residential and\ncommercial wall assemblies."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

@@ -115,7 +115,10 @@
       "Pinstripe profile is available in 12mm\nthickness only",
       "Panels must be installed in uniform vertical orientation"
     ],
-    "warranty": "Manufacturer's Guarantee (10 years)"
+    "warranty": "Manufacturer's Guarantee (10 years)",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -168,5 +171,7 @@
     "rag_summary": "Autex Verve Cube is a full-height 3D contoured acoustic wall\npanel crafted from 100% polyester Cube felt with an 80% recycled PET core and\nsolid through-colour. Available in six distinctive profiles (such as Flute,\nOvolo, and Pillar) and two thicknesses (12mm and 21mm) in 2680mm x 1170mm\nsheets, it moulds flat walls into light-responsive architectural features.\nAchieving sound absorption from NRC 0.30+ and Group 1 fire compliance under AS\nISO 9705, it provides a sculptural, carbon-neutral acoustic solution across\ncommercial, civic, and hospitality spaces."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

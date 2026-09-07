@@ -94,7 +94,10 @@
       "Not recommended for cold climate zones\nrequiring non-perforated Class 4 spunbond wraps",
       "Do not use as direct roof\nsarking without appropriate fall and drainage"
     ],
-    "warranty": "Backed by\nmanufacturer product warranty"
+    "warranty": "Backed by\nmanufacturer product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -148,5 +151,7 @@
     "rag_summary": "Misc Rhino Wrap Breather is a Medium Duty\nreflective foil wall sarking manufactured from high-tensile woven polypropylene\nlaminated to pure aluminium foil with micro-perforations. Designed for external\nframed walls, it reflects up to 95% of radiant heat across an adjacent air\ncavity while allowing moisture vapour to breathe outward. Complying with\nAS/NZS 4200.1:2017 and possessing a Flammability Index ≤ 5 (BAL-40 suitable), it\ndelivers tear-resistant weather protection and thermal reflectance for\nresidential and shed construction."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

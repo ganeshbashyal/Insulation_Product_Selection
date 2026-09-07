@@ -129,7 +129,10 @@
       "Dense grades (Fibertex 820) are semi-rigid and do not conform\neasily to tight curved surfaces without pre-cutting",
       "Outdoor installations\nmust be clad with metal jacketing or weatherproofing cladding to prevent water\npooling"
     ],
-    "warranty": "CSR Bradford Standard Product Warranty"
+    "warranty": "CSR Bradford Standard Product Warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -205,5 +208,7 @@
     "rag_summary": "Bradford\nFibertex is a heavy-duty, non-combustible rockwool (stone wool) board and\nblanket range engineered for high-temperature industrial equipment, fire-rated\ncurtain walls, and acoustic enclosures. Spun from natural volcanic rock and\nrecycled slag in densities from 60 kg/m3 (Fibertex 350) up to 130 kg/m3\n(Fibertex 820), it withstands continuous service temperatures up to 820°C with\nminimal thermal shrinkage. Certified non-combustible to AS 1530.1 and complying\nwith ASTM C795 low-chloride standards for stainless steel, it delivers\nindustrial thermal conservation, personnel protection, and acoustic absorption."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

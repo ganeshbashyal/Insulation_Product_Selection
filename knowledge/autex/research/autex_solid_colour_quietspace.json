@@ -48,7 +48,21 @@
         "c5": "NRC 1.00"
       }
     ],
-    "accessories_upsell": "Type C aluminium edge trims (anodised or powder-coated to match)."
+    "accessories_upsell": "Type C aluminium edge trims (anodised or powder-coated to match).",
+    "description": "",
+    "features": [],
+    "applications": [],
+    "technical": [],
+    "range_headers": [],
+    "fire": "",
+    "sustainability": "",
+    "install": [],
+    "clearances": [],
+    "limitations": [],
+    "selection_checklist": [],
+    "compliance": "",
+    "warranty": "",
+    "accessories": []
   },
   "retrieval": {
     "search_keywords": [
@@ -75,5 +89,6 @@
   },
   "source_excerpt": null,
   "engine": "knowledge_base_txt",
-  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
+  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)",
+  "schema_version": "1.0"
 }

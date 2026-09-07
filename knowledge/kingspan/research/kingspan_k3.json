@@ -123,7 +123,10 @@
       "Must be installed with a\ncontinuous damp-proof membrane beneath",
       "Protect boards from site traffic prior\nto concrete pouring"
     ],
-    "warranty": "10-year manufacturing warranty"
+    "warranty": "10-year manufacturing warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -182,5 +185,7 @@
     "rag_summary": "Kingspan Kooltherm K3 Floorboard is an ultra-thin, fiber-free\nrigid thermoset phenolic insulation board engineered specifically for concrete\nground-bearing and suspended floors. With a thermal conductivity of 0.021\n- 0.023 W/m·K and thicknesses from 25mm to 90mm (R1.1 to R3.9), it provides\nsuperior thermal resistance at minimal thickness to prevent ground heat loss and\nachieve 7-star NatHERS compliance. Built with high compressive strength (≥ 150\nkPa) and autohesively bonded glass tissue facings, it is CodeMark certified and\nmoisture-resistant."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

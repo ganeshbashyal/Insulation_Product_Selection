@@ -118,7 +118,10 @@
       "Do not compress 90mm batts into 70mm cavities",
       "Maintain\nrequired clearances around non-IC rated light fittings"
     ],
-    "warranty": "Backed\nby Polyester Solutions manufacturer product warranty"
+    "warranty": "Backed\nby Polyester Solutions manufacturer product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -173,5 +176,7 @@
     "rag_summary": "Polyester Solutions WallBlock Batts (and Baffle Block Batts) are\nhigh-density acoustic insulation slabs manufactured from 100% thermally bonded\npolyester fibers containing recycled PET plastic. Achieving superior sound\nabsorption ratings (NRC 0.85 at 75mm up to NRC 1.00 at 90mm R2.5), they\nfriction-fit into wall stud bays or stack in ceiling plenums to eliminate\nairborne noise transfer and acoustic flanking. Free from formaldehyde, chemical\nbinders, and glass fibers, they provide non-toxic, non-sagging acoustic control\ncompliant with AS/NZS 4859.1 and AS 1530.3."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

@@ -106,7 +106,10 @@
       "Surfaces must be dry and free of dust\nfor the self-adhesive lap to bond properly",
       "Requires minimum 20mm air space to\ndeliver rated system R-values"
     ],
-    "warranty": "Backed by CSR Bradford product\nwarranty"
+    "warranty": "Backed by CSR Bradford product\nwarranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -160,5 +163,7 @@
     "rag_summary": "Bradford Polyair Unicell Self Adhesive is an\nextra heavy duty 4mm thermo-reflective shed insulation roll featuring an\nintegrated self-adhesive lap tape with a peel-off release liner. Constructed\nwith an inner fire-retardant bubble core and dual pure aluminium reflective foil\nfacings, it eliminates the need for separate joint taping on longitudinal runs\nwhile reflecting up to 95% of radiant heat. Certified Extra Heavy Duty to\nAS/NZS 4200.1 with a low Flammability Index (≤ 5, BAL-40 compliant), it\naccelerates weatherproofing and condensation control in metal sheds and\ngarages."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

@@ -99,7 +99,10 @@
       "Not designed for structural mechanical holding",
       "Should\nnot be left exposed to UV beyond maximum membrane exposure limits"
     ],
-    "warranty": "Backed by CSR Bradford product warranty"
+    "warranty": "Backed by CSR Bradford product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -153,5 +156,7 @@
     "rag_summary": "Bradford Wall Wraps - Enviroseal Ultra Tape (Bradford ULTRAtape,\nproduct code 471825) is an advanced 60mm x 25m linerless, hand-tearable woven\npolymer tape engineered for rapid, mess-free sealing of wall wraps and roof\nsarking. Formulated with an aggressive pressure-sensitive adhesive, it\neliminates the rubbish and frustration of backing paper on construction sites\nwhile creating tough, airtight, and weather-resistant lap seals. Operating\nreliably from -20°C to +80°C and fully compliant with AS/NZS 4200.2, it\naccelerates weatherproofing on residential and commercial frames."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

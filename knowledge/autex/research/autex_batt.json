@@ -5,7 +5,24 @@
   "sds_url": "",
   "status": "ok",
   "researched_at": "2026-09-06",
-  "spec": {},
+  "spec": {
+    "description": "",
+    "features": [],
+    "applications": [],
+    "technical": [],
+    "range_headers": [],
+    "range": [],
+    "fire": "",
+    "sustainability": "",
+    "install": [],
+    "clearances": [],
+    "limitations": [],
+    "selection_checklist": [],
+    "compliance": "",
+    "warranty": "",
+    "accessories": [],
+    "accessories_upsell": []
+  },
   "retrieval": {
     "search_keywords": [
       "asthma friendly",
@@ -54,5 +71,7 @@
     ]
   },
   "source_excerpt": null,
-  "engine": "knowledge_base_txt"
+  "engine": "knowledge_base_txt",
+  "schema_version": "1.0",
+  "range_source": ""
 }

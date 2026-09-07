@@ -134,7 +134,10 @@
       "Must be enclosed behind plasterboard or building lining; not for\nexposed decorative finish",
       "Maximum continuous service temperature is 150°C"
     ],
-    "warranty": "Backed by Polyester Solutions manufacturer product warranty"
+    "warranty": "Backed by Polyester Solutions manufacturer product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -192,5 +195,7 @@
     "rag_summary": "Polyester\nSolutions PolyBatts are Australian-made thermal and acoustic insulation batts\nmanufactured from 100% thermally bonded polyester fibers containing at least 80%\nrecycled PET plastic bottles. Completely free of formaldehyde, chemical binders,\nand respirable glass fibers, they are non-toxic, non-allergenic, and safe to\nhandle without protective gear. Available in wall ratings from R1.5 to R2.5 and\nceiling ratings from R2.0 to R4.0, they maintain permanent thickness without\nsagging or slumping, backed by AS/NZS 4859.1 compliance and a lifetime product\nwarranty."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

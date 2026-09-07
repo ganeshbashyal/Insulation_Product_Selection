@@ -93,7 +93,10 @@
       "Must be protected\nfrom direct weather exposure prior to roof cladding installation",
       "Cannot\nsubstitute for party wall blanket or vertical joint batts"
     ],
-    "warranty": "Backed by CSR Bradford product warranty"
+    "warranty": "Backed by CSR Bradford product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -155,5 +158,7 @@
     "rag_summary": "Bradford Fire Protection - Filler (Fireseal Party\nWall Batten Fillers) are pre-formed non-combustible rockwool inserts\nmeasuring 100mm x 40mm, designed specifically to plug continuous metal roof and\nceiling battens passing over party walls in Class 1 buildings. They prevent\nfire, embers, and hot gases from channeling through hollow metal batten cavities\nacross inter-tenancy boundaries. Certified non-combustible to AS 1530.1 and\ntested to AS/NZS 1530.3, they are a critical Deemed-to-Satisfy component of\ncompliant multi-residential passive fire containment systems."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

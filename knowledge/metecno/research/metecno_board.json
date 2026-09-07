@@ -18,7 +18,10 @@
     "selection_checklist": "",
     "accessories": "",
     "limitations": "",
-    "warranty": ""
+    "warranty": "",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -78,5 +81,7 @@
     "rag_summary": "Metecno Board\nrepresents insulated composite sandwich panels manufactured and supplied by\nMetecno / Bondor Australia (such as MetecnoPanel and MetecnoSpan). Formed with\nhigh-performance PIR, EPS-FR, or mineral wool cores bonded between Colorbond\nsteel skins, these structural panels provide integrated exterior cladding, vapor\nbarrier, and thermal insulation in a single element for commercial coolrooms,\ndistribution centers, and industrial facilities."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

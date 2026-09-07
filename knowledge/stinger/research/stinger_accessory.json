@@ -18,7 +18,10 @@
     "selection_checklist": "",
     "accessories": "",
     "limitations": "",
-    "warranty": ""
+    "warranty": "",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -73,5 +76,7 @@
     "rag_summary": "Stinger Accessory encompasses the proprietary collated\nfasteners, plastic caps, and maintenance components manufactured for STINGER cap\nsystems by National Nail Corp. Centered on the StaplePac and NailPac product\nlines, these accessories deliver full 25mm (1 inch) diameter plastic caps\nalongside staples or ring-shank nails. By spreading the fastening load and\nsealing out moisture, they prevent wind blow-offs, tearing, and lateral slippage\nof housewrap and roofing underlayments across residential jobsites."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

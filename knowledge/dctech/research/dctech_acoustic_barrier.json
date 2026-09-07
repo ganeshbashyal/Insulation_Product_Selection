@@ -153,7 +153,9 @@
       "Heavy weight requires adequate structural support and\nmulti-person handling during overhead installation"
     ],
     "warranty": "Backed by\nDCTech product warranty",
-    "accessories_upsell": "Tecsound S Band (for sealing all butt joints)."
+    "accessories_upsell": "Tecsound S Band (for sealing all butt joints).",
+    "range_headers": [],
+    "clearances": []
   },
   "retrieval": {
     "search_keywords": [
@@ -217,5 +219,7 @@
     "rag_summary": "DCTech Acoustic Barrier (Tecsound / Tecsound SY) is a\nhigh-density, visco-elastic synthetic soundproofing membrane distributed in\nAustralia by DCTech. Formulated from asphalt-free polymers at 5.0 kg/m²\n(Tecsound 50, 2.5mm) and 7.0 kg/m² (Tecsound 70 / SY 70, 3.5mm), it provides an\nRw of up to 30 dB as a single layer without adding significant wall or ceiling\nthickness. Available with a self-adhesive backing (SY) or composite felt (2FT),\nit dampens airborne noise, aircraft flyover rumble, and metal roof rain drumming\nacross walls, ceilings, floors, and building services. Rated Euroclass B, s2,\nd0, non-toxic, and flexible down to -20°C, it is an advanced acoustic damping\nmembrane for high-performance building envelopes."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

@@ -1,9 +1,31 @@
 {
   "family_id": "AIRCELL_PERMIFLOOR",
   "family_name": "Aircell Permifloor",
-  "datasheet_pdf_url": null,
+  "datasheet_pdf_url": "",
   "status": "no_pdf_found",
   "researched_at": "2026-09-07",
-  "spec": null,
-  "source_excerpt": null
+  "spec": {
+    "description": "",
+    "features": [],
+    "applications": [],
+    "technical": [],
+    "range_headers": [],
+    "range": [],
+    "fire": "",
+    "sustainability": "",
+    "install": [],
+    "clearances": [],
+    "limitations": [],
+    "selection_checklist": [],
+    "compliance": "",
+    "warranty": "",
+    "accessories": [],
+    "accessories_upsell": []
+  },
+  "source_excerpt": null,
+  "schema_version": "1.0",
+  "sds_url": "",
+  "engine": "local",
+  "retrieval": {},
+  "range_source": ""
 }

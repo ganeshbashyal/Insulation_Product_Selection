@@ -93,7 +93,10 @@
       "Not suitable for cold climate zones where non-perforated Class 4 spunbond\nmembranes are required by the NCC",
       "Protect from direct prolonged weather\nexposure prior to cladding installation"
     ],
-    "warranty": "Backed by Higgins\nInsulation product warranty"
+    "warranty": "Backed by Higgins\nInsulation product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -154,5 +157,7 @@
     "rag_summary": "Higgins Insulation Higgins Foil Breather Medium Duty is a five-layer reflective\nfoil wall sarking membrane measuring 1350mm x 60m (81 m² per roll). Combining a\nUV-stabilized woven polypropylene core with a 97% reflective aluminum face and\nmicroscopic breathability perforations, it blocks radiant heat while allowing\ncavity moisture vapor to escape. Tear-resistant and compliant with AS/NZS 4200.1\nand AS 1530, it delivers durable weather protection and thermal air-gap\nresistance across external residential and shed walls."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

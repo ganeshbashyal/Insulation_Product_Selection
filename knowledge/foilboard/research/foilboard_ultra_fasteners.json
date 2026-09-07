@@ -97,7 +97,10 @@
       "Ensure fastener length is sufficient to\npenetrate solid timber behind 50mm boards",
       "Non-structural; does not replace\nprimary cladding fixings"
     ],
-    "warranty": "Backed by Foilboard product warranty"
+    "warranty": "Backed by Foilboard product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -150,5 +153,7 @@
     "rag_summary": "Foilboard Ultra Fasteners are extra-long mechanical fixings\nfitted with oversized spreader washers, purpose-designed for securing thick 40mm\nand 50mm Foilboard panels to timber framing. With extended shank lengths\nfrom 75mm to 100mm, they guarantee deep structural embedment in timber studs and\njoists while preventing heavy panels from pulling through or sagging under\ngravity. Engineered for high-R-value wall, ceiling, and underfloor assemblies,\nthey deliver robust, non-deforming mechanical attachment."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

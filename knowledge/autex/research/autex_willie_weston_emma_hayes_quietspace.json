@@ -138,7 +138,10 @@
       "Printed decorative face can show marks under heavy\nfriction; avoid high-impact sporting zones",
       "Do not bend or fold panels as this\nwill crack the high-density compressed face"
     ],
-    "warranty": "10 Year\nManufacturer's Guarantee"
+    "warranty": "10 Year\nManufacturer's Guarantee",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -192,5 +195,7 @@
     "rag_summary": "Autex Willie\nWeston / Emma Hayes Quietspace merges the class-leading sound absorption of 25mm\ndual-density Quietspace Panel (NRC 0.85) with curated digital UV printing of\nAustralian First Nations art (Willie Weston) and New Zealand landscapes (Emma\nHayes). Using safe water-based inks directly on the compressed polyester face,\nit eliminates room reverberation while functioning as a large-format cultural\nart piece. Certified Group 1 fire rated under AS ISO 9705, carbon neutral, and\nmade with over 58% recycled PET, it offers an architecturally stunning,\nhigh-performance acoustic wall finish."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

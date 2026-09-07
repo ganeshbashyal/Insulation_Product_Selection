@@ -35,7 +35,22 @@
         "c3": "Box of 1000 pcs",
         "c4": "Wind-resistant timber frame wrap fixing"
       }
-    ]
+    ],
+    "description": "",
+    "features": [],
+    "applications": [],
+    "technical": [],
+    "range_headers": [],
+    "fire": "",
+    "sustainability": "",
+    "install": [],
+    "clearances": [],
+    "limitations": [],
+    "selection_checklist": [],
+    "compliance": "",
+    "warranty": "",
+    "accessories": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -47,5 +62,6 @@
   },
   "source_excerpt": null,
   "engine": "knowledge_base_txt",
-  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
+  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)",
+  "schema_version": "1.0"
 }

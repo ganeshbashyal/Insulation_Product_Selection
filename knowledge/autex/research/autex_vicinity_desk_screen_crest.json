@@ -107,7 +107,10 @@
       "Clamp requires a\nsolid desk edge with adequate overhang",
       "Product has a directional grain;\nmaintain consistent orientation"
     ],
-    "warranty": "Manufacturer's Guarantee (10\nyears)"
+    "warranty": "Manufacturer's Guarantee (10\nyears)",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -163,5 +166,7 @@
     "rag_summary": "Autex Vicinity Desk Screen -\nCrest is a lightweight 12mm acoustic desk screen featuring a gentle curved crest\nprofile, designed to clamp non-destructively to 1600mm workstations. Made\nfrom 100% polyester fibre with an 80% recycled PET core, it absorbs\nconversational noise at the source (0.70 Sabins per unit) while providing a\npinnable self-healing noticeboard. Achieving Group 1 fire compliance under AS\nISO 9705 and certified carbon neutral, Crest delivers acoustic comfort and\nvisual privacy for modern agile offices."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

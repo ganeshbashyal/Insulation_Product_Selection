@@ -18,7 +18,10 @@
     "selection_checklist": "",
     "accessories": "",
     "limitations": "",
-    "warranty": ""
+    "warranty": "",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -71,5 +74,7 @@
     "rag_summary": "Metecno Aluminium Glass Foil Tape\nrepresents heavy-duty reinforced aluminum glass-cloth tape distributed for vapor\nsealing and air-tight jointing on insulated panels and HVAC duct systems.\nFeaturing high tensile strength fiberglass scrim reinforcement and an aggressive\npressure-sensitive adhesive, it creates impermeable vapor barriers across panel\nseams in coolrooms, food processing facilities, and commercial buildings."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

@@ -126,7 +126,9 @@
       "Ensure cladding\nmanufacturer requirements for cavity drainage are followed"
     ],
     "warranty": "Backed by Fletcher Insulation consumer warranty",
-    "accessories_upsell": "Sisalation VapaSeam Tape (48mm × 50m)."
+    "accessories_upsell": "Sisalation VapaSeam Tape (48mm × 50m).",
+    "range_headers": [],
+    "clearances": []
   },
   "retrieval": {
     "search_keywords": [
@@ -177,5 +179,7 @@
     "rag_summary": "Sisalation Vapawrap Residential Wall Wrap is a Class 4\nvapour-permeable, Light Duty pliable building membrane designed for residential\ntimber and steel-framed walls. Manufactured from non-woven spunbond polyolefin\nwith a microporous breathable film, it prevents liquid water, drafts, and dust\npenetration while permitting internal water vapour to escape. Available\nin 1350mm and 1500mm widths with up to 30-day (VP4-30) or 90-day (VP4-90) UV\nresistance and a Flammability Index ≤ 5 (BAL 0-FZ compliant), it prevents mould\nand rot behind lightweight claddings and brick veneer."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

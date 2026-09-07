@@ -111,7 +111,10 @@
       "Not designed as primary weatherproofing; must be sheltered by\nroof cladding or wall linings",
       "Protect from continuous pooling water during\nconstruction"
     ],
-    "warranty": "Backed by Fletcher Insulation product warranty"
+    "warranty": "Backed by Fletcher Insulation product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -174,5 +177,7 @@
     "rag_summary": "Fletcher Protect Party\nWall Stonewool Batts and Blankets are non-combustible rock mineral wool\ninsulation products engineered specifically for passive fire protection in\nClass 1 multi-residential separating walls. Sized in 100mm x 168mm x 1200mm\nbatts and foil-faced rolls, they resist shrinkage at temperatures\nexceeding 1000°C to halt fire, smoke, and hot gases from bypassing inter-tenancy\nbarriers. Installed under a mandatory minimum 20% compression to ensure a\nvoid-free seal, they satisfy NCC Part 9.3 Deemed-to-Satisfy provisions for\ntownhouse and duplex party walls."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

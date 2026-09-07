@@ -104,7 +104,10 @@
       "Must not be left exposed to direct UV sunlight\nbeyond manufacturer recommended exposure time",
       "Ensure membrane has continuous\nfall to gutters without reverse laps or ponding"
     ],
-    "warranty": "Backed by\nFletcher Insulation product warranty"
+    "warranty": "Backed by\nFletcher Insulation product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -156,5 +159,7 @@
     "rag_summary": "Sisalation Vapawrap Vapour Permeable\nMetal Roof is a Medium Duty, Class 4 vapour-permeable synthetic roof sarking\nmembrane developed specifically for profiled metal roofs. Fabricated from\nspun-bonded polyolefin non-woven layers sandwiching a microporous core, it\ndelivers outstanding heat-shrink resistance to remain taut beneath hot metal\ndecks. Allowing moisture vapour to vent freely while preventing water leaks and\ndrafts, it complies with AS/NZS 4200.1, AS 1530.2 (Flammability Index ≤ 5), and\nAS 3959 (up to BAL-40) to mitigate roof condensation."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

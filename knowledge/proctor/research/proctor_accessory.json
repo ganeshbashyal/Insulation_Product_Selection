@@ -121,7 +121,10 @@
       "Not a substitute for\nmechanical fasteners; all structural loads must be carried by framing fixings",
       "Must not be applied to wet, oily, or frozen surfaces"
     ],
-    "warranty": "Backed by\nProctor Group Australia manufacturer warranty"
+    "warranty": "Backed by\nProctor Group Australia manufacturer warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -174,5 +177,7 @@
     "rag_summary": "Proctor\nAccessories encompass high-performance pressure-sensitive sealing tapes and\nflashing components engineered by Proctor Group Australia, including ProctorWrap\nHighTack PLUS Tape, DriFlash Tape, and YouByute Flexi Tape. Coated with\naggressive, aging-resistant acrylic and butyl adhesives, they create durable\nairtight and weathertight seals across polyolefin membranes, timber, steel, and\nconcrete without impeding vapour permeability. Low-VOC and temperature-resistant\nfrom -40°C to +80°C, they are critical components for achieving Passive House\nairtightness and NCC-compliant weatherproofing."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

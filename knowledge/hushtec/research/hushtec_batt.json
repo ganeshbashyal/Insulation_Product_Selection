@@ -18,7 +18,10 @@
     "selection_checklist": "",
     "accessories": "",
     "limitations": "",
-    "warranty": ""
+    "warranty": "",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -56,5 +59,7 @@
     "rag_summary": "Hushtec Batt is an unverified catalog placeholder within the Hushtec brand\nfamily. Hushtec specializes strictly in exterior and industrial noise control\nsystems—including portable acoustic curtains, temporary fence barriers, and\nacoustic enclosures—and does not manufacture residential or commercial internal\ncavity insulation batts. For cavity acoustic batts in Australian construction,\nproducts such as Bradford Soundscreen, Fletcher Soundbreak, or Ecowool\nNoiseBreak are specified."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

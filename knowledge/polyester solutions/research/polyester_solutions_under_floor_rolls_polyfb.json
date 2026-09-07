@@ -122,7 +122,10 @@
       "Do not cover electrical cables that are prone to derating\nwithout checking AS/NZS 3000",
       "Do not block subfloor wall vents"
     ],
-    "warranty": "Backed by Polyester Solutions manufacturer product warranty"
+    "warranty": "Backed by Polyester Solutions manufacturer product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -177,5 +180,7 @@
     "rag_summary": "Polyester Solutions Under Floor Rolls\n(PolyFB / Poly-Floor) are pre-cut 450mm wide polyester thermal insulation rolls\ndesigned specifically for suspended timber floors in new builds and retrofits.\nManufactured from 100% thermally bonded polyester with over 80% recycled PET,\nthey friction-fit securely between 450mm-spaced joists without requiring\nstaples, creating a snug thermal barrier that cuts subfloor heat loss and blocks\ncold draughts. Hydrophobic (moisture absorption <0.2%), rot-proof, and tested to\nAS 1530.3 (flame spread 0), PolyFB provides durable, non-sagging underfloor\ncomfort."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

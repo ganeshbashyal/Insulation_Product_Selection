@@ -98,7 +98,10 @@
       "Metal door surface must be thoroughly cleaned of\ngrease and dust for adhesive to bond",
       "Ensure panels do not bind against door\ntracks, cables, or side hinges during movement"
     ],
-    "warranty": "25 Year\nPerformance Warranty"
+    "warranty": "25 Year\nPerformance Warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -156,5 +159,7 @@
     "rag_summary": "The\nFoilboard Garage Door Kit is an all-in-one DIY insulation system designed to\ninsulate residential sectional panel-lift metal garage doors. Comprising\nlightweight, pre-cut Foilboard Green panels (10mm or 15mm), heavy-duty mounting\nfasteners, and reinforced aluminum tape, it reflects up to 97% of radiant heat\nto lower garage temperatures by up to 10°C in summer. Adding only 4-6 kg to the\nentire door, it preserves automatic door opener balance while providing thermal,\nacoustic, and anti-vibration benefits backed by a 25-year warranty."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

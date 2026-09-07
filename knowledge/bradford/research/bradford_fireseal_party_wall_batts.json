@@ -101,7 +101,10 @@
       "Maximum 3\nlayers should be stacked without adequate intermediate mechanical support",
       "Must be protected from continuous water pooling and direct UV exposure"
     ],
-    "warranty": "Backed by CSR Bradford product warranty"
+    "warranty": "Backed by CSR Bradford product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -154,5 +157,7 @@
     "rag_summary": "Bradford Fireseal Party Wall Batts are purpose-made,\nnon-combustible stone wool insulation batts measuring 100mm x 1200mm x 168mm\n(product code 119161) designed exclusively to seal vertical joints in Class 1\ninter-tenancy party walls. Engineered from high-temperature bio-soluble\nrockwool, they resist shrinkage at temperatures up to 1000°C and maintain fire\nintegrity between adjoining townhouses and duplexes. Installed under 10%\ncompression and compliant with AS 1530.1, they satisfy NCC Deemed-to-Satisfy\nprovisions for separating wall fire containment."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

@@ -41,7 +41,8 @@
       ],
       "product_count": 1,
       "legacy_source_url": "https://fminsulation.com.au/wp-content/uploads/2023/12/98-tds-rockwool-slab-s80.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_site_root_tds_pending",
+      "datasheet_url": null
     },
     {
       "family_id": "PAROC_ROCKWOOL",
@@ -82,7 +83,8 @@
       ],
       "product_count": 11,
       "legacy_source_url": "https://fminsulation.com.au/wp-content/uploads/2023/12/98-tds-rockwool-slab-s80.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_site_root_tds_pending",
+      "datasheet_url": null
     }
   ]
 }

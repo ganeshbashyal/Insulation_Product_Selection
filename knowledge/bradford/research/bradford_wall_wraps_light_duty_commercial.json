@@ -122,7 +122,10 @@
       "Do not leave exposed to\ndirect UV sunlight for longer than 60 days",
       "Not for open-joint rainscreens\nwhere >30% is exposed (use Black Label)"
     ],
-    "warranty": "Backed by CSR Bradford\nproduct warranty"
+    "warranty": "Backed by CSR Bradford\nproduct warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -178,5 +181,7 @@
     "rag_summary": "Bradford Wall\nWraps - Light Duty Commercial (Enviroseal ProctorWrap Commercial Wall / CW,\nproduct code 114175) is a high-strength, Light Duty Class 4 vapour-permeable\nwall wrap engineered for commercial and multi-residential timber and steel stud\nconstruction. Fabricated from a spunbond polyolefin non-woven composite, it\nprovides superior water hold-out and airtightness while allowing internal water\nvapour to escape, preventing rot and mould in building assemblies. Suitable for\nwind regions A and B and compliant with AS/NZS 4200.1 and AS 1530.2\n(Flammability Index ≤ 5), it delivers heavy-duty tear resistance for commercial\njobsites."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

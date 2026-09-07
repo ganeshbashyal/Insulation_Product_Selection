@@ -82,7 +82,10 @@
       "Blank Plates do not provide thermal break values\non their own",
       "Not designed to support heavy structural cladding loads\nindependently"
     ],
-    "warranty": "Backed by Foilboard product warranty"
+    "warranty": "Backed by Foilboard product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -132,5 +135,7 @@
     "rag_summary": "Foilboard\nBlank Plates are rigid 40mm x 40mm spreader plates engineered to distribute\nfastening loads when securing Foilboard insulation boards to timber, steel, or\nmasonry framing. Pre-punched to accept standard construction screws and nails,\nthey prevent fasteners from crushing the EPS core or tearing through the\nreflective aluminum facing. They ensure solid mechanical fixing across wall,\nceiling, and underfloor applications without compromising panel integrity."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

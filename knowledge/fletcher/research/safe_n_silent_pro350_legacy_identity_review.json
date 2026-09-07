@@ -18,7 +18,10 @@
     "selection_checklist": "",
     "accessories": "",
     "limitations": "",
-    "warranty": ""
+    "warranty": "",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -64,5 +67,7 @@
     "rag_summary": "Fletcher\nSafe'n'Silent Pro350 represents a legacy high-density stonewool/mineral wool\nacoustic batt line formerly distributed by Fletcher Insulation for commercial\ndrywall partitions and party walls. Engineered for high acoustic sound\ntransmission loss (Rw) and non-combustible fire protection, it has been\nsuperseded in Fletcher's contemporary Australian catalog by Soundbreak\nhigh-density glasswool and Fletcher Protect Stonewool products. It solved\nairborne sound transfer and inter-tenancy noise leakage in commercial and\nmulti-residential partition assemblies."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

@@ -109,7 +109,10 @@
       "Must not be used in roofs as sarking",
       "Must be\ncovered within manufacturer UV exposure limits"
     ],
-    "warranty": "Backed by CSR\nBradford product warranty"
+    "warranty": "Backed by CSR\nBradford product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -165,5 +168,7 @@
     "rag_summary": "Bradford Wall Wraps - Medium Duty Polyweave Wrap\n(Bradford Thermoseal Wall Breather, product codes 15123 / 101254) is a\nmicro-perforated, high-strength woven polyweave reflective wall wrap designed\nfor brick veneer and lightweight framed walls. Engineered with a tough woven\npolymer core and reflective aluminium foil, it provides exceptional tear\nresistance against high site winds while its micro-perforations permit water\nvapour transmission to prevent trapped cavity moisture. Providing radiant\nthermal insulation across wall airspaces and achieving a Flammability Index ≤ 5\n(BAL 12.5-40 compliant), it offers robust weather and thermal protection for\nresidential envelopes."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

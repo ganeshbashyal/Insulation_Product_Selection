@@ -97,7 +97,10 @@
       "Do not use in direct\ncontact with organic solvents or petroleum products",
       "Keep away from continuous\nheat sources above 80°C"
     ],
-    "warranty": "25 Year Performance Warranty"
+    "warranty": "25 Year Performance Warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -155,5 +158,7 @@
     "rag_summary": "Foilboard DIY / Fast Trade Pack (Foilboard Handypack) is a modular, pre-cut\npack of Foilboard Green rigid insulation sheets (1200mm x 600mm) sized\nspecifically for car boot transport and tight jobsite access. Featuring the same\nfire-retardant EPS core with dual pure aluminum reflective facings as full-sized\nboards, it provides an itch-free, moisture-proof thermal and vapor barrier for\nsmaller renovations, subfloors, and sheds. Available in 15mm, 20mm, and 25mm\nthicknesses, it delivers premium thermal performance backed by a 25-year\nwarranty."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

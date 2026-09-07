@@ -134,7 +134,9 @@
       "For tropical high-humidity climates, verify condensation design\nbefore installing foil facing inward"
     ],
     "warranty": "50 Year Product Warranty",
-    "accessories_upsell": "72mm reinforced aluminium foil tape and roof safety wire mesh."
+    "accessories_upsell": "72mm reinforced aluminium foil tape and roof safety wire mesh.",
+    "range_headers": [],
+    "clearances": []
   },
   "retrieval": {
     "search_keywords": [
@@ -193,5 +195,7 @@
     "rag_summary": "Knauf Blanket Roof\nLamin (Earthwool Roof Blanket / Space Blanket) is a glass mineral wool\ninsulation blanket factory-laminated to a reflective foil facing with a 150mm\noverlap flap. Engineered for installation under residential and commercial metal\nroofs, it prevents condensation, reflects radiant heat, and dampens rain impact\ndrumming noise. Manufactured with bio-based ECOSE Technology, non-combustible\ncore (AS 1530.1), and low-flammability foil (Index ≤ 5, BAL-40 compliant), it\ndelivers ratings from R1.3 to R3.6 backed by a 50-year warranty."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

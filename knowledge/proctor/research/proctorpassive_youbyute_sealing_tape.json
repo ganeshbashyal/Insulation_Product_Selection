@@ -18,7 +18,10 @@
     "selection_checklist": "",
     "accessories": "",
     "limitations": "",
-    "warranty": ""
+    "warranty": "",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -62,5 +65,7 @@
     "rag_summary": "ProctorPassive YouByute Sealing Tape represents a high-tack,\nmulti-purpose envelope sealing tape designed to join and seal ProctorWrap and\nProctorPassive building membranes. Formulated with an aggressive\npressure-sensitive adhesive on a robust carrier, it creates durable airtight and\nweather-resistant bonds across membrane laps, timber framing, steel studs, and\nbuilding sheathing. It prevents air leakage and wind-driven rain penetration,\nsupporting energy-efficient building standards."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

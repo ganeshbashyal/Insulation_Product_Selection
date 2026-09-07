@@ -6,7 +6,22 @@
   "status": "ok",
   "researched_at": "2026-09-06",
   "spec": {
-    "accessories_upsell": "E-Flex Bond Contact Adhesive (for joining seams and butt joints)."
+    "accessories_upsell": "E-Flex Bond Contact Adhesive (for joining seams and butt joints).",
+    "description": "",
+    "features": [],
+    "applications": [],
+    "technical": [],
+    "range_headers": [],
+    "range": [],
+    "fire": "",
+    "sustainability": "",
+    "install": [],
+    "clearances": [],
+    "limitations": [],
+    "selection_checklist": [],
+    "compliance": "",
+    "warranty": "",
+    "accessories": []
   },
   "retrieval": {
     "search_keywords": [
@@ -56,5 +71,7 @@
     ]
   },
   "source_excerpt": null,
-  "engine": "knowledge_base_txt"
+  "engine": "knowledge_base_txt",
+  "schema_version": "1.0",
+  "range_source": ""
 }

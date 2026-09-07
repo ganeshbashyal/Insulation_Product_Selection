@@ -132,7 +132,9 @@
       "Avoid puncturing the foil facing during maintenance to preserve\nthe vapour barrier"
     ],
     "warranty": "Backed by Fletcher Insulation commercial\nproduct warranty",
-    "accessories_upsell": "72mm reinforced aluminium foil tape (to seal all butt joints) and concrete insulation drive pins."
+    "accessories_upsell": "72mm reinforced aluminium foil tape (to seal all butt joints) and concrete insulation drive pins.",
+    "range_headers": [],
+    "clearances": []
   },
   "retrieval": {
     "search_keywords": [
@@ -205,5 +207,7 @@
     "rag_summary": "Fletcher Pink Thermal Slab is a semi-rigid, foil-faced glasswool\ninsulation board engineered for direct fixing to commercial concrete soffits,\nroofs, and walls. Available in thicknesses from 50mm to 110mm (R1.5 to R3.5)\nwith a 1200mm x 2400mm format, it delivers excellent thermal control for NCC\nSection J compliance while dampening carpark reverberation. Backed by CodeMark\ncertification (CM 30006) and an AS 5637.1 Group 1 fire rating, it provides an\naesthetic, non-combustible thermal barrier beneath commercial concrete slabs."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

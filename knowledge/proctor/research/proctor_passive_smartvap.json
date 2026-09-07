@@ -102,7 +102,10 @@
       "Do not leave exposed to\ninterior UV sunlight for longer than 60 days before lining",
       "Must not be\npunctured without subsequent airtight taping"
     ],
-    "warranty": "Backed by Proctor\nGroup Australia product warranty"
+    "warranty": "Backed by Proctor\nGroup Australia product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -146,5 +149,7 @@
     "rag_summary": "ProctorPassive SmartVap 100 is an internal air barrier and variable vapour\ncontrol layer (VCL) made from spunbonded polyolefin with a functional polymer\ncoating. It intelligently adapts its vapour permeability to ambient relative\nhumidity—acting as a vapour retarder in winter to prevent moisture entering\nframing, while opening up in summer to allow safe inward drying. Certified for\nPassive House airtightness with a Flammability Index ≤ 5 (AS 1530.2), it\nprevents interstitial condensation and mould behind internal linings."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

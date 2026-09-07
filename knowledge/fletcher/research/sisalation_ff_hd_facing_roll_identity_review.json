@@ -18,7 +18,10 @@
     "selection_checklist": "",
     "accessories": "",
     "limitations": "",
-    "warranty": ""
+    "warranty": "",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -61,5 +64,7 @@
     "rag_summary": "Fletcher Sisalation FF HD (Foil Facing Heavy Duty) represents a\nlegacy industrial reinforced aluminum foil facing laminate formerly manufactured\nby Fletcher Insulation for laminating to bulk glasswool blankets. Featuring high\ntensile fiberglass scrim and kraft reinforcement, it provided heavy-duty tear\nresistance and an impermeable Class 1 vapor barrier reflecting up to 95% of\nradiant heat. Today, this specification is integrated into pre-laminated product\nlines like Permastop Building Blanket Heavy Duty and Sisalation Multipurpose\nEHD."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

@@ -53,7 +53,21 @@
         "c6": "NRC 1.00"
       }
     ],
-    "accessories_upsell": "Autex Edging Solutions Type C (25mm anodised aluminium perimeter channel) and high-grab MS polymer adhesive."
+    "accessories_upsell": "Autex Edging Solutions Type C (25mm anodised aluminium perimeter channel) and high-grab MS polymer adhesive.",
+    "description": "",
+    "features": [],
+    "applications": [],
+    "technical": [],
+    "range_headers": [],
+    "fire": "",
+    "sustainability": "",
+    "install": [],
+    "clearances": [],
+    "limitations": [],
+    "selection_checklist": [],
+    "compliance": "",
+    "warranty": "",
+    "accessories": []
   },
   "retrieval": {
     "search_keywords": [
@@ -98,5 +112,6 @@
   },
   "source_excerpt": null,
   "engine": "knowledge_base_txt",
-  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
+  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)",
+  "schema_version": "1.0"
 }

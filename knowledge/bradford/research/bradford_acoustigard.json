@@ -131,7 +131,10 @@
       "Do not over-compress into studs\nnarrower than the nominal insulation thickness",
       "Not suitable for continuous\noperating temperatures exceeding 150°C (batts) or 300°C (rolls)"
     ],
-    "warranty": "CSR Bradford Standard Product Warranty"
+    "warranty": "CSR Bradford Standard Product Warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -193,5 +196,7 @@
     "rag_summary": "Bradford Acoustigard is a non-combustible bio-soluble glasswool\ninsulation supplied in pre-cut batts and rolls, specifically formulated for\nacoustic control in commercial steel stud and timber drywall partitions.\nAvailable in densities from 11 kg/m3 to 32 kg/m3 and thicknesses of 50mm, 75mm,\nand 90mm (R1.3 to R2.7), it provides high sound transmission loss (Rw 42 to 60+)\nand cavity absorption. Manufactured in Australia with up to 65% recycled glass\nand certified non-combustible to AS 1530.1, it fits standard 64mm and 92mm studs\nsnugly without bulging plasterboard linings."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

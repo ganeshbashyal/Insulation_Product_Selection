@@ -113,7 +113,10 @@
       "Not suitable for external\napplications exposed to UV radiation, moisture, or wind pressure",
       "Do not\ncompress panels excessively as this degrades low-frequency acoustic absorption"
     ],
-    "warranty": "15-Year Product Warranty"
+    "warranty": "15-Year Product Warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -188,5 +191,7 @@
     "rag_summary": "Sonata Recital Core acoustic panels are\nhigh-performance thermally bonded polyester sound-absorbing boards manufactured\nin Victoria by Sonata Acoustic Panels (part of Fletcher Building). Engineered\nfor semi-exposed applications behind perforated timber, metal, or plasterboard\nwall and ceiling systems, they absorb reverberation across broad frequency bands\n(NRC up to 1.00+). Available in densities from 20 to 60 kg/m³, thicknesses\nfrom 25mm to 100mm (1200mm x 2400mm sheets), and colours in Black, White, and\nGrey, they are itch-free, non-allergenic, compliant with AS/NZS 1530.3, and\nbacked by a 15-year warranty."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

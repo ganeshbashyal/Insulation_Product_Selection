@@ -62,7 +62,21 @@
         "c6": "NRC 0.45 – 0.80"
       }
     ],
-    "accessories_upsell": "Autex SpinFix mounting hardware or contact adhesive; Type B aluminium joiner profiles."
+    "accessories_upsell": "Autex SpinFix mounting hardware or contact adhesive; Type B aluminium joiner profiles.",
+    "description": "",
+    "features": [],
+    "applications": [],
+    "technical": [],
+    "range_headers": [],
+    "fire": "",
+    "sustainability": "",
+    "install": [],
+    "clearances": [],
+    "limitations": [],
+    "selection_checklist": [],
+    "compliance": "",
+    "warranty": "",
+    "accessories": []
   },
   "retrieval": {
     "search_keywords": [
@@ -102,5 +116,6 @@
   },
   "source_excerpt": null,
   "engine": "knowledge_base_txt",
-  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
+  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)",
+  "schema_version": "1.0"
 }

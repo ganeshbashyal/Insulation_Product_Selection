@@ -107,7 +107,10 @@
       "Not suitable as\nexposed roof sarking membrane",
       "Must be protected from pooling water or\ncontinuous weathering"
     ],
-    "warranty": "Backed by CSR Bradford product warranty"
+    "warranty": "Backed by CSR Bradford product warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -163,5 +166,7 @@
     "rag_summary": "Bradford Fire\nProtection - Metal Roof (Fireseal Party Wall Sealer for Metal Roofs) is a 75mm\nthick, non-combustible rockwool blanket engineered to seal the void between the\nhead of fire-rated party walls and profiled metal roof sheeting in Class 1\ndwellings. Its 75mm thickness compresses by 10-15% under corrugations and\ntrapezoidal profiles to block flames, sparks, and hot gases from bypassing\nseparating walls. Certified non-combustible to AS 1530.1 and compliant for\nBAL-FZ bushfire construction, it satisfies NCC Deemed-to-Satisfy requirements\nfor inter-tenancy fire containment."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

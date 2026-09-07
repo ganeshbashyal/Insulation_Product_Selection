@@ -127,7 +127,10 @@
       "Does not replace structural mass; combine with dense\nplasterboard for maximum acoustic Rw",
       "Maintain required clearances around\nnon-IC rated light fittings"
     ],
-    "warranty": "Backed by Higgins Insulation\nproduct warranty"
+    "warranty": "Backed by Higgins Insulation\nproduct warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -181,5 +184,7 @@
     "rag_summary": "Higgins\nInsulation Higgins Polyester Sound Control Batts are high-density acoustic\ninsulation slabs engineered from 100% polyester fiber with up to 85% recycled\nPET content to reduce noise transfer between residential rooms. Available in 11\nkg/m³ and 14 kg/m³ densities across 50mm and 75mm thicknesses (450mm and 600mm\nwidths), they friction-fit into internal timber or steel stud walls to absorb\nspeech, TV, and plumbing noise. Non-toxic, itch-free, and tested to\nAS/NZS 1530.3 fire safety standards, they deliver safe, durable acoustic\ncontrol."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

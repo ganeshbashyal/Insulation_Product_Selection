@@ -112,7 +112,10 @@
       "Clamps require adequate desk edge lip for attachment",
       "Two-piece stepped\nconfiguration requires arrangement planning"
     ],
-    "warranty": "Manufacturer's\nGuarantee (10 years)"
+    "warranty": "Manufacturer's\nGuarantee (10 years)",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -169,5 +172,7 @@
     "rag_summary": "Autex Vicinity Desk Screen - Polka\nis a playful two-piece stepped acoustic desk divider comprising 772mm and 380mm\nwide panels formed from 12mm Cube polyester felt. Absorbing 0.70 Sabins per\nunit, its asymmetrical stepped geometry introduces visual rhythm while\nmitigating speech distractions across agile workstations. Fixed\nnon-destructively using 100% recycled PET Vicinity Clamps and achieving Group 1\nfire compliance, Polka provides a flexible, carbon-neutral privacy barrier for\ncollaborative and creative workspaces."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

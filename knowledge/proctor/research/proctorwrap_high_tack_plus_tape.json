@@ -95,7 +95,10 @@
       "Must not be applied to wet, oily,\nor dusty surfaces",
       "All mechanical loads must be carried by mechanical\nfasteners, not the tape"
     ],
-    "warranty": "Backed by Proctor Group Australia\nproduct warranty"
+    "warranty": "Backed by Proctor Group Australia\nproduct warranty",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -139,5 +142,7 @@
     "rag_summary": "ProctorWrap High Tack Plus Tape is an aggressive, single-sided acrylic adhesive\nsealing tape designed for sealing overlaps, joins, and penetrations on\nvapour-permeable wall wraps and roof underlays. Offering high tested peel\nadhesion of ≥ 45 N / 25 mm on a semi-transparent, pliable polyolefin carrier, it\nconforms neatly over creases without skipping or lifting. Operating reliably\nfrom -40°C to +80°C with high resistance to heat and UV edge bleed, it delivers\nan airtight and weathertight seal compliant with AS/NZS 4200.2:2017."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }

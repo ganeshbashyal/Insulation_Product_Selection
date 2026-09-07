@@ -18,7 +18,10 @@
     "selection_checklist": "",
     "accessories": "",
     "limitations": "",
-    "warranty": ""
+    "warranty": "",
+    "range_headers": [],
+    "clearances": [],
+    "accessories_upsell": []
   },
   "retrieval": {
     "search_keywords": [
@@ -73,5 +76,7 @@
     "rag_summary": "Paroc InsulRock\nParty Wall Batt represents high-density, non-combustible stone wool (rockwool)\ninsulation batts engineered for fire and acoustic separation in inter-tenancy\nparty walls. InsulRock (manufactured using Paroc volcanic rockwool technology\nand distributed in Australasia by Fletcher Insulation and regional partners)\nprovides extreme resistance to shrinkage at temperatures over 1000°C. Meeting\nAS 1530.1 non-combustibility and tested for multi-residential FRL compliance, it\ncontrols airborne sound transmission and stops fire spread between adjoining\ndwellings."
   },
   "source_excerpt": null,
-  "engine": "ai_studio_batch"
+  "engine": "ai_studio_batch",
+  "schema_version": "1.0",
+  "range_source": ""
 }
