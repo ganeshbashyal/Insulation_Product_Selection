@@ -44,6 +44,9 @@ from cors_validator import CORSValidator
 from session_store import SQLiteSessionStore
 from site_config import load_all_sites, SiteConfigError
 from widget_config import WidgetConfigProvider
+from router import MessageRouter
+from rag_answerer import RAGAnswerer
+from policy_lint import PolicyLinter
 
 app = FastAPI(title="Insulation Enquiry Agent", version="2.0.0")
 
@@ -57,17 +60,23 @@ widget_provider: WidgetConfigProvider | None = None
 audit_log: AuditLog | None = None
 sites: dict[str, Any] = {}
 
+# P3 infrastructure instances
+router: MessageRouter | None = None
+rag_answerer: RAGAnswerer | None = None
+policy_linter: PolicyLinter | None = None
+
 
 @app.on_event("startup")
 async def startup():
-    """Initialize P2 infrastructure at startup."""
+    """Initialize P2 and P3 infrastructure at startup."""
     global session_store, auth_middleware, cors_validator, widget_provider, audit_log, sites
+    global router, rag_answerer, policy_linter
 
     try:
         sites = load_all_sites()
         if not sites:
             raise RuntimeError("No site configs found in config/sites/")
-        print(f"✓ Loaded {len(sites)} site(s)")
+        print(f"OK - Loaded {len(sites)} site(s)")
     except SiteConfigError as e:
         raise RuntimeError(f"Failed to load site configs: {e}")
 
@@ -77,7 +86,14 @@ async def startup():
     widget_provider = WidgetConfigProvider()
     audit_log = AuditLog()
 
-    print("✓ P2 infrastructure initialized (sessions, auth, CORS, audit)")
+    print("OK - P2 infrastructure initialized (sessions, auth, CORS, audit)")
+
+    # P3 initialization
+    router = MessageRouter(use_llm=USE_LLM)
+    rag_answerer = RAGAnswerer()
+    policy_linter = PolicyLinter(protected_families=set(f["name"] for f in agent_core.FAMILIES))
+
+    print("OK - P3 infrastructure initialized (router, RAG, lint)")
 
 
 class StartResponse(BaseModel):
@@ -220,7 +236,7 @@ async def start_conversation(request: Request, site_id: str = "local") -> JSONRe
 
 @app.post("/api/conversations/{session_id}/messages")
 async def send_message(session_id: str, body: MessageRequest, request: Request, site_id: str = "local") -> JSONResponse:
-    """Send a message in an active conversation. Requires X-API-Key header."""
+    """Send a message in an active conversation with P3 routing (router → RAG/lint → response)."""
     cors_headers = _auth_and_cors(request, site_id)
 
     # Retrieve session (site-scoped)
@@ -239,8 +255,30 @@ async def send_message(session_id: str, body: MessageRequest, request: Request, 
     conversation.answers = session_data["answers"]
     conversation.done = session_data["done"]
 
-    # Process message
-    reply = agent_core.reply(conversation, body.message, use_llm=USE_LLM, manufacturer_scope=body.manufacturer_scope)
+    # P3: Route the message
+    classification = router.classify(body.message)
+
+    if classification.is_escalate:
+        # Escalate: hand off to human
+        reply = "Thank you for that information. This requires our team's attention. We'll be in touch shortly."
+        conversation.done = True
+    elif classification.is_commercial:
+        # Commercial: hand off
+        reply = "For pricing and availability details, please contact our sales team directly."
+        conversation.done = True
+    elif classification.is_informational:
+        # Informational: RAG answer with citations
+        rag_result = rag_answerer.answer(body.message, use_llm=USE_LLM)
+        reply = rag_result["answer"]
+    else:
+        # Product-fit: continue with existing flow
+        reply = agent_core.reply(conversation, body.message, use_llm=USE_LLM, manufacturer_scope=body.manufacturer_scope)
+
+    # P3: Apply policy lint to all generated text
+    if conversation.recommendation:
+        lint_result = policy_linter.lint(reply, recommended_family=conversation.recommendation.get("name"))
+        if not lint_result.passed:
+            reply = lint_result.fallback_text
 
     # Update session (extends TTL)
     session_store.update(session_id, site_id, {
@@ -250,7 +288,7 @@ async def send_message(session_id: str, body: MessageRequest, request: Request, 
         "done": conversation.done,
     })
 
-    # Log to interaction store with site_id
+    # Log to interaction store with site_id (only on completion)
     if conversation.done and conversation.recommendation:
         interaction_store.log_conversation(
             conversation_id=conversation.conversation_id,
