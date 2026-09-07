@@ -29,7 +29,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "accessory.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://acoustica.com.au/",
+      "source_url": "https://acoustica.com.au/technical-information/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -42,7 +42,7 @@
       ],
       "product_count": 9,
       "legacy_source_url": "https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_tds_confirmed"
     },
     {
       "family_id": "ACOUSTICA_ACOUSTIC_BARRIER",
@@ -68,7 +68,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "acoustic_barrier.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://acoustica.com.au/",
+      "source_url": "https://acoustica.com.au/wp-content/uploads/2020/04/Acoustica-specifications-QuietWave_2020.docx",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -81,7 +81,7 @@
       ],
       "product_count": 3,
       "legacy_source_url": "https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_tds_confirmed"
     },
     {
       "family_id": "ACOUSTICA_ACOUSTIFLEX_SQ",
@@ -108,7 +108,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "acoustiflex_sq.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://acoustica.com.au/",
+      "source_url": "https://acoustica.com.au/wp-content/uploads/2020/04/Acoustica-specifications-AcoustiFlex_Walls_Ceilings_Roofs_2020.docx",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -121,7 +121,7 @@
       ],
       "product_count": 4,
       "legacy_source_url": "https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_tds_confirmed"
     },
     {
       "family_id": "ACOUSTICA_ANGELSTEP",
@@ -148,7 +148,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "angelstep.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://acoustica.com.au/",
+      "source_url": "https://acoustica.com.au/wp-content/uploads/2020/04/Acoustica-specifications-AngelStep_2020.docx",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -161,7 +161,7 @@
       ],
       "product_count": 3,
       "legacy_source_url": "https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_tds_confirmed"
     },
     {
       "family_id": "ACOUSTICA_DUST_FOAM_FILTER",
@@ -188,7 +188,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "dust_foam_filter.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://acoustica.com.au/",
+      "source_url": "https://acoustica.com.au/technical-information/",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -201,7 +201,7 @@
       ],
       "product_count": 1,
       "legacy_source_url": "https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_tds_confirmed"
     },
     {
       "family_id": "ACOUSTICA_GL",
@@ -228,7 +228,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "gl.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://acoustica.com.au/",
+      "source_url": "https://acoustica.com.au/wp-content/uploads/2020/04/Acoustica-specifications-GreenLag_2020.docx",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -241,7 +241,7 @@
       ],
       "product_count": 4,
       "legacy_source_url": "https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_tds_confirmed"
     },
     {
       "family_id": "ACOUSTICA_UNDERLAY",
@@ -267,7 +267,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "underlay.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://acoustica.com.au/",
+      "source_url": "https://acoustica.com.au/wp-content/uploads/2020/04/Acoustica-specifications-AngelStep_2020.docx",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -280,7 +280,7 @@
       ],
       "product_count": 5,
       "legacy_source_url": "https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_tds_confirmed"
     }
   ]
 }

@@ -18,9 +18,6 @@ Bot-facing knowledge for Aircell products. Each file represents a technical prod
 | `AIRCELL_PERMISHIELD` | Aircell Permishield | Initial documentation |
 | `AIRCELL_PERMIWALL` | Aircell Permiwall | Initial documentation |
 | `AIRCELL_RETROSHIELD` | Aircell Retroshield | Initial documentation |
-| `AIRCELL_RETROSHIELD_HANDYPACK` | Aircell Retroshield Handypack | Initial documentation |
-| `AIRCELL_RETROSHIELD_XL` | Aircell Retroshield XL | Initial documentation |
-| `AIRCELL_SPACER_BISCUITS` | Aircell Spacer Biscuits | Initial documentation |
 
 ## Retrieval rule
 

@@ -26,6 +26,7 @@ See [`knowledge/LITERATURE_REVIEW_STATUS.md`](knowledge/LITERATURE_REVIEW_STATUS
 - [`knowledge/{manufacturer}/{family}.md`](knowledge/autex/batt.md) — Product family documentation files
 - [`knowledge/performance_evidence.json`](knowledge/performance_evidence.json) — normalized R, Rw, NRC/αw, fire, vapour and temperature evidence with variant, scope, test context and provenance.
 - [`knowledge/LITERATURE_REVIEW_STATUS.md`](knowledge/LITERATURE_REVIEW_STATUS.md) — Documentation status and next steps for technical validation
+- [`knowledge/industry/`](knowledge/industry/README.md) — General (not manufacturer-specific) Australian insulation industry reference: NCC/compliance intelligence, thermal/acoustic principles, product/material overviews, customer-support triage and a Q&A training corpus. Intended as background/RAG context for the enquiry bot, not a source of manufacturer-supported product claims.
 
 ### Supporting Files
 

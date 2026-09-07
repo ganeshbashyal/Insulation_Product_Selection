@@ -1,47 +1,9 @@
 {
   "family_id": "ACOUSTICA_UNDERLAY",
   "family_name": "Acoustica Underlay",
-  "datasheet_pdf_url": "",
-  "sds_url": "",
-  "status": "ok",
-  "researched_at": "2026-09-06",
-  "spec": {
-    "range": [
-      {
-        "c0": "Variant",
-        "c1": "Thickness",
-        "c2": "Format",
-        "c3": "Packaging Unit",
-        "c4": "Target Flooring",
-        "c5": "AAAC Star Potential"
-      },
-      {
-        "c0": "Acoustica AngelStep Range",
-        "c1": "4 mm – 17 mm",
-        "c2": "1150 mm × 1150 mm tiles",
-        "c3": "Palletised sheets",
-        "c4": "Tile, timber, vinyl, carpet",
-        "c5": "5 to 6 Stars"
-      },
-      {
-        "c0": "Resilient Perimeter Foam",
-        "c1": "5 mm × 100 mm",
-        "c2": "20 m rolls",
-        "c3": "Roll",
-        "c4": "Wall/skirting boundary",
-        "c5": "Flanking isolation"
-      }
-    ]
-  },
-  "retrieval": {
-    "search_keywords": [
-      "Acoustica floor underlay",
-      "apartment acoustic underlay",
-      "soundproof matting",
-      "strata underlay"
-    ]
-  },
-  "source_excerpt": null,
-  "engine": "knowledge_base_txt",
-  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
+  "datasheet_pdf_url": null,
+  "status": "no_pdf_found",
+  "researched_at": "2026-09-07",
+  "spec": null,
+  "source_excerpt": null
 }

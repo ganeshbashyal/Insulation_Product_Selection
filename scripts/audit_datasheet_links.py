@@ -38,9 +38,9 @@ OUT_CSV = ROOT / "data" / "processed" / "datasheet_audit.csv"
 # Official manufacturer domains, verified live on 2026-09-05 unless noted.
 OFFICIAL_DOMAINS = {
     "acoustica": ["acoustica.com.au"],
-    "aircell": ["kingspan.com"],  # AIR-CELL is a Kingspan brand
+    "aircell": ["kingspan.com", "filerobot.com"],  # AIR-CELL is a Kingspan brand; filerobot.com hosts Kingspan-scoped (/kingspan/kil/...) asset PDFs
     "ametalin": ["ametalin.com"],
-    "autex": ["autexacoustics.com.au", "autexacoustics.co.nz", "autex.com.au", "autexglobal.com"],
+    "autex": ["autexacoustics.com.au", "autexacoustics.co.nz", "autex.com.au", "autexglobal.com", "mediavalet.com"],  # mediavalet.com hosts Autex-scoped (/aunsw/autex/...) asset PDFs
     "bradford": ["csrbradford.com.au", "bradfordinsulation.com.au"],
     "dctech": ["dctech.com.au"],
     "ecowool": ["ecowool-insulation.com", "ecowool.com.au"],  # unverified from audit environment

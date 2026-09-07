@@ -38,7 +38,7 @@ from generate_family_literature import main as _lit_main  # noqa: F401  (import 
 # These families are skipped on later runs until you supply a link (via the TDS
 # CSV) or one becomes discoverable; re-run tds_research_agent.py --only <mfg>
 # after filling links to force a retry.
-TERMINAL_STATUSES = {"ok", "no_pdf_found", "fetch_failed", "no_text"}
+TERMINAL_STATUSES = {"ok", "no_pdf_found", "fetch_failed", "no_text", "identity_mismatch"}
 
 
 def pending_families() -> list[tuple[str, dict]]:

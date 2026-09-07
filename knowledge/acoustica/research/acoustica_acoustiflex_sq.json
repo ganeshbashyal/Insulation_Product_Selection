@@ -1,118 +1,82 @@
 {
   "family_id": "ACOUSTICA_ACOUSTIFLEX_SQ",
   "family_name": "Acoustica Acoustiflex SQ",
-  "datasheet_pdf_url": "",
-  "sds_url": "",
+  "datasheet_pdf_url": "https://acoustica.com.au/wp-content/uploads/2024/03/AcoustiFlex-SQ-Brochure-2024.pdf",
   "status": "ok",
-  "researched_at": "2026-09-06",
+  "researched_at": "2026-09-07",
   "spec": {
-    "range": [
+    "description": "AcoustiFlex®SQ is a high-performance flexible noise barrier designed to reduce aircraft, traffic, and railway noise, available in various weights and configurations.",
+    "features": [
+      "Flexible micro-cellular membrane",
+      "Aluminium facing foil",
+      "Reinforced polyester backing",
+      "Equivalent to competitor barriers by weight",
+      "Low VOC content",
+      "Certified by CSIRO for fire safety",
+      "Available in different weights",
+      "Easy to handle, cut, and install"
+    ],
+    "applications": [
+      "Ceiling acoustic insulation",
+      "Floor acoustic insulation",
+      "Roof acoustic insulation",
+      "Walls and ceilings to reduce noise",
+      "Portable acoustic screens",
+      "Construction sites",
+      "Automotive cabins"
+    ],
+    "technical": [
       {
-        "c0": "Variant",
-        "c1": "Mass Rating",
-        "c2": "Thickness",
-        "c3": "Roll Size",
-        "c4": "Roll Area",
-        "c5": "Roll Weight",
-        "c6": "Tested Single-Layer Rw"
+        "property": "Fire performance",
+        "value": "AS1530.3 standard",
+        "standard": "AS1530.3"
       },
       {
-        "c0": "AcoustiFlex SQ 25",
-        "c1": "~2.5 kg/m ²",
-        "c2": "~2.5 mm",
-        "c3": "1.3 m × 5.4 m",
-        "c4": "7.02 m²",
-        "c5": "17.5 kg",
-        "c6": "Rw 24"
+        "property": "VOC content",
+        "value": "Less than 0.5mg",
+        "standard": "Green Star rating"
       },
       {
-        "c0": "AcoustiFlex SQ 40",
-        "c1": "~4.0 kg/m ²",
-        "c2": "~3.8 mm",
-        "c3": "1.3 m × 4.0 m",
-        "c4": "5.20 m²",
-        "c5": "20.8 kg",
-        "c6": "Rw 28"
+        "property": "Density",
+        "value": "",
+        "standard": ""
       },
       {
-        "c0": "AcoustiFlex SQ 60",
-        "c1": "~6.0 kg/m ²",
-        "c2": "~5.0 mm",
-        "c3": "1.3 m × 2.5 m",
-        "c4": "3.25 m²",
-        "c5": "19.5 kg",
-        "c6": "Rw 35"
+        "property": "Thermal conductivity",
+        "value": "",
+        "standard": ""
       },
       {
-        "c0": "AcoustiFlex SQ 80",
-        "c1": "~8.0 kg/m ²",
-        "c2": "~6.5 mm",
-        "c3": "1.3 m × 2.5 m",
-        "c4": "3.25 m²",
-        "c5": "26.0 kg",
-        "c6": "Rw 36"
+        "property": "Temperature range",
+        "value": "",
+        "standard": ""
+      },
+      {
+        "property": "Vapour resistance",
+        "value": "",
+        "standard": ""
+      },
+      {
+        "property": "pH",
+        "value": "",
+        "standard": ""
       }
     ],
-    "accessories_upsell": "72mm reinforced aluminium tape (for all 75–100mm overlaps)."
+    "fire": "AS1530.3 standard",
+    "sustainability": "Low VOC’s - less than that required for GreenStar rating of 0.5mg",
+    "install": [
+      "Easy to handle, cut, and install",
+      "Can be wrapped around noisy fans or pumps",
+      "Used in walls or ceilings to reduce noise",
+      "Can be hung from an overhead structure",
+      "Can be draped over temporary fencing",
+      "Can be used to reduce noise transmission into an automotive cabin"
+    ],
+    "clearances": [],
+    "limitations": [],
+    "range_headers": [],
+    "range": [],
+    "range_extraction_status": "inconsistent_columns_dropped"
   },
-  "retrieval": {
-    "search_keywords": [
-      "Acoustica foil faced barrier",
-      "Acoustiflex SQ",
-      "Group 1 acoustic barrier",
-      "SQ 25",
-      "SQ 40",
-      "SQ 60"
-    ],
-    "problem_keywords": [
-      "(must hang slightly loose for maximum damping)",
-      "- Complementary Upsell: 72mm reinforced aluminium tape (for all 75–100mm",
-      "- Negative Filter (not_for): Do not pull drum-tight over roof/ceiling rafters",
-      "- Placement: Roof, ceiling, wall, internal wall, temporary site fencing.",
-      "- Positive Recommendation Rule: When customer specifies Group 1 Fire Hazard",
-      "Aircraft noise through metal roof, rain drumming on",
-      "Aircraft noise through metal roof, rain drumming on lightweight roofs, medical/legal consulting room privacy, temporary site fence noise.",
-      "Classification (AS ISO 9705) for an acoustic barrier membrane (e.g. hung in",
-      "do not install under",
-      "fence noise.",
-      "foot-traffic flooring.",
-      "lightweight roofs, medical/legal consulting room privacy, temporary site",
-      "overlaps).",
-      "return air ceiling plenums or public building walls)."
-    ],
-    "placement": [
-      "Roof",
-      "ceiling",
-      "ceiling rafters (must hang slightly loose for maximum damping); do not install under foot-traffic flooring. - Complementary Upsell: 72mm reinforced aluminium tape (for all 75–100mm overlaps)",
-      "internal wall",
-      "temporary site fencing",
-      "temporary site fencing. - Positive Recommendation Rule: When customer specifies Group 1 Fire Hazard Classification (AS ISO 9705) for an acoustic barrier membrane (e.g. hung in return air ceiling plenums or public building walls). - Negative Filter (not_for): Do not pull drum-tight over roof",
-      "wall"
-    ],
-    "not_for": [
-      "(must hang slightly loose for maximum damping)",
-      "- Complementary Upsell: 72mm reinforced aluminium tape (for all 75–100mm",
-      "do not install under",
-      "do not install under foot-traffic flooring.",
-      "foot-traffic flooring.",
-      "not_for): Do not pull drum-tight over roof/ceiling rafters",
-      "not_for): Do not pull drum-tight over roof/ceiling rafters (must hang slightly loose for maximum damping)",
-      "overlaps)."
-    ],
-    "use_cases": [
-      "(must hang slightly loose for maximum damping)",
-      "- Complementary Upsell: 72mm reinforced aluminium tape (for all 75–100mm",
-      "- Negative Filter (not_for): Do not pull drum-tight over roof/ceiling rafters",
-      "Classification (AS ISO 9705) for an acoustic barrier membrane (e.g. hung in",
-      "When customer specifies Group 1 Fire Hazard",
-      "When customer specifies Group 1 Fire Hazard Classification (AS ISO 9705) for an acoustic barrier membrane (e.g. hung in return air ceiling plenums or public building walls).",
-      "do not install under",
-      "foot-traffic flooring.",
-      "overlaps).",
-      "return air ceiling plenums or public building walls)."
-    ]
-  },
-  "source_excerpt": null,
-  "engine": "knowledge_base_txt",
-  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
+  "source_excerpt": "acoustica.com.au\nAcoustiFlex\n® \nSQ\nthe high performance flexible noise barrier\nBARRIER\nAcoustiFlex®SQ flexible noise barrier is one of the most \neffective sound solutions on the market for aircraft noise, \ntraffic and railway disturbance.\nNow available as;\nAcoustiFlex® SQ 25\nAcoustiFlex® SQ 40\nAcoustiFlex® SQ 60\nAcoustiFlex® SQ 80\nAcoustiFlex®SQ consists of a flexible micro-cellular \nmembrane bonded to an aluminium facing foil and \nreinforced polyester backing. \nThe AcoustiFlex®SQ has extremely good sound \nattenuation over the full frequency spectrum. \nTypically, the AcoustiFlex®SQ range achieves better \nresults than competitors’ products; \nAcoustiFlex®SQ 25 equivalent to a 4kg competitor barrier\nAcoustiFlex®SQ 40 equivalent to a 6kg competitor barrier\nAcoustiFlex®SQ 60 equivalent to an 8kg competitor barrier\nAcoustiFlex®SQ 80 equivalent to a 10kg competitor barrier\nAcoustiFlex®SQ has been tested and certified by the \nCSIRO Division of Materials Science and Engineering to \nAS1530.3 standard for fire hazard properties.\nAcoustiFlex\n® \nSQ\nthe high performance flexible noise barrier\nAcoustica AcoustiFlex®\nThe AcoustiFlex®SQ range of noise barriers are highly effective against a wide variety \nof external noises such as from aircraft noise, motor vehicles, rail transportation, \nneighbouring properties, adjoining offices and noisy equipment.\nAcoustiFlex®SQ can also greatly reduce noise at construction sites when hung from an \noverhead structure or draped over temporary fencing. It can easily be wrapped around \nnoisy fans or pumps or used in walls or ceilings to reduce noise from adjacent rooms, \nimproving the privacy of rooms within the home, offices, boardrooms or a practitioners’ \npractice. \nKey beneﬁts \n• Meets AS1530.3 for fire \nperformance\n• Low VOC’s - less than  \nthat required for GreenStar \nrating of 0.5mg\n• Cost effective, long lasting \n• Easy to handle, cut and \ninstall\nCall 1300 722 825 / +61 2 9550 2900 \nAcoustiFlex®SQ \nceiling acoustic insulation\nAcoustiFlex®S"
 }

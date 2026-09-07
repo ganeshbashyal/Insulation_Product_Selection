@@ -28,7 +28,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "biscuits.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.kingspan.com/au/",
+      "source_url": "https://www.insulation.kingspan.com/au/en/products/insulation/wall-insulation/air-cell-spacer-biscuits?tab=technicalInformation",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -41,7 +41,7 @@
       ],
       "product_count": 1,
       "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_tds_confirmed"
     },
     {
       "family_id": "AIRCELL_FOIL_TAPE",
@@ -68,7 +68,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "foil_tape.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.kingspan.com/au/",
+      "source_url": "https://www.insulation.kingspan.com/au/en/products/insulation-tape0?tab=technicalInformation",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -81,7 +81,7 @@
       ],
       "product_count": 4,
       "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_tds_confirmed"
     },
     {
       "family_id": "AIRCELL_GLARESHIELD",
@@ -108,7 +108,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "glareshield.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.kingspan.com/au/",
+      "source_url": "https://store.filerobot.com/xamyxyg7fn/kingspan/kil/products/air-cell-glareshield-au-and-nz/kingspan-aircell-glareshield-product-datasheet-en-au.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -121,7 +121,7 @@
       ],
       "product_count": 1,
       "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_tds_confirmed"
     },
     {
       "family_id": "AIRCELL_INSULBREAK",
@@ -148,7 +148,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "insulbreak.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.kingspan.com/au/",
+      "source_url": "https://store.filerobot.com/xamyxyg7fn/kingspan/kil/products/air-cell-insulbreak-au-and-nz/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -161,7 +161,7 @@
       ],
       "product_count": 3,
       "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_tds_confirmed"
     },
     {
       "family_id": "AIRCELL_INSULINER",
@@ -188,7 +188,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "insuliner.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.kingspan.com/au/",
+      "source_url": "https://store.filerobot.com/xamyxyg7fn/kingspan/kil/products/air-cell-insuliner-au-and-nz/kingspan-aircell-insuliner-product-datasheet-en-au.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -201,7 +201,7 @@
       ],
       "product_count": 1,
       "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_tds_confirmed"
     },
     {
       "family_id": "AIRCELL_INSULSHED",
@@ -228,7 +228,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "insulshed.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.kingspan.com/au/",
+      "source_url": "https://xamyxyg7fn.filerobot.com/kingspan/kil/products/air-cell-insulshed-50-au-and-nz/kingspan-aircell-insulshed-product-datasheet-en-au.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -241,7 +241,7 @@
       ],
       "product_count": 2,
       "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_tds_confirmed"
     },
     {
       "family_id": "AIRCELL_INSULWHITE",
@@ -268,7 +268,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "insulwhite.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.kingspan.com/au/",
+      "source_url": "https://xamyxyg7fn.filerobot.com/kingspan/kil/products/air-cell-insulwhite-au-and-nz/kingspan-aircell-insulwhite-product-datasheet-en-au.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -281,7 +281,7 @@
       ],
       "product_count": 1,
       "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_tds_confirmed"
     },
     {
       "family_id": "AIRCELL_PERMICAV",
@@ -308,7 +308,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "permicav.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.kingspan.com/au/",
+      "source_url": "https://xamyxyg7fn.filerobot.com/kingspan/kil/products/air-cell-permicav-xv-au-and-nz/kingspan-aircell-permicavxv-product-datasheet-en-au.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -321,7 +321,7 @@
       ],
       "product_count": 1,
       "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_tds_confirmed"
     },
     {
       "family_id": "AIRCELL_PERMIFLOOR",
@@ -348,7 +348,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "permifloor.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.kingspan.com/au/",
+      "source_url": "https://xamyxyg7fn.filerobot.com/kingspan/kil/products/air-cell-permifloor-au-and-nz/kingspan-aircell-permifloor-product-datasheet-en-au.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -361,7 +361,7 @@
       ],
       "product_count": 2,
       "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_tds_confirmed"
     },
     {
       "family_id": "AIRCELL_PERMISHIELD",
@@ -388,7 +388,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "permishield.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.kingspan.com/au/",
+      "source_url": "https://xamyxyg7fn.filerobot.com/kingspan/kil/products/air-cell-permishield-xv-70-au-and-nz/kingspan-aircell-permishieldxv-product-datasheet-en-au.pdf",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -401,7 +401,7 @@
       ],
       "product_count": 2,
       "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_tds_confirmed"
     },
     {
       "family_id": "AIRCELL_PERMIWALL",
@@ -428,7 +428,7 @@
       "confidence": "manufacturer_supported",
       "knowledge_file": "permiwall.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.kingspan.com/au/",
+      "source_url": "https://www.insulation.kingspan.com/au/en/products/insulation",
       "questions": [
         "What is the primary application for this product?",
         "What performance requirements apply?",
@@ -441,7 +441,7 @@
       ],
       "product_count": 1,
       "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
+      "source_url_status": "manufacturer_tds_confirmed"
     },
     {
       "family_id": "AIRCELL_RETROSHIELD",
@@ -467,126 +467,6 @@
       "score_notes": "Deep-dive scoring for Aircell Retroshield: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
       "confidence": "manufacturer_supported",
       "knowledge_file": "retroshield.md",
-      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.kingspan.com/au/",
-      "questions": [
-        "What is the primary application for this product?",
-        "What performance requirements apply?",
-        "What space or area constraints exist?"
-      ],
-      "human_gates": [
-        "Verify manufacturer identity from primary source",
-        "Confirm product specifications and performance claims",
-        "Validate compliance with relevant standards"
-      ],
-      "product_count": 1,
-      "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
-    },
-    {
-      "family_id": "AIRCELL_RETROSHIELD_HANDYPACK",
-      "manufacturer": "Aircell",
-      "name": "Aircell Retroshield Handypack",
-      "category": "Reflective",
-      "primary_function": "Reflective insulation product from Aircell.",
-      "applications": [
-        "Metal Roof / Shed"
-      ],
-      "keywords": [
-        "aircell",
-        "reflective",
-        "retroshield handypack"
-      ],
-      "scores": {
-        "acoustic_comfort": 2,
-        "energy_efficiency": 5,
-        "sustainability": 2,
-        "installation_practicality": 4,
-        "compliance_readiness": 3
-      },
-      "score_notes": "Deep-dive scoring for Aircell Retroshield Handypack: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
-      "confidence": "manufacturer_supported",
-      "knowledge_file": "retroshield_handypack.md",
-      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.kingspan.com/au/",
-      "questions": [
-        "What is the primary application for this product?",
-        "What performance requirements apply?",
-        "What space or area constraints exist?"
-      ],
-      "human_gates": [
-        "Verify manufacturer identity from primary source",
-        "Confirm product specifications and performance claims",
-        "Validate compliance with relevant standards"
-      ],
-      "product_count": 1,
-      "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
-    },
-    {
-      "family_id": "AIRCELL_RETROSHIELD_XL",
-      "manufacturer": "Aircell",
-      "name": "Aircell Retroshield XL",
-      "category": "Reflective",
-      "primary_function": "Reflective insulation product from Aircell.",
-      "applications": [
-        "Metal Roof / Shed"
-      ],
-      "keywords": [
-        "aircell",
-        "reflective",
-        "retroshield xl"
-      ],
-      "scores": {
-        "acoustic_comfort": 2,
-        "energy_efficiency": 5,
-        "sustainability": 2,
-        "installation_practicality": 4,
-        "compliance_readiness": 3
-      },
-      "score_notes": "Deep-dive scoring for Aircell Retroshield XL: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
-      "confidence": "manufacturer_supported",
-      "knowledge_file": "retroshield_xl.md",
-      "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
-      "source_url": "https://www.kingspan.com/au/",
-      "questions": [
-        "What is the primary application for this product?",
-        "What performance requirements apply?",
-        "What space or area constraints exist?"
-      ],
-      "human_gates": [
-        "Verify manufacturer identity from primary source",
-        "Confirm product specifications and performance claims",
-        "Validate compliance with relevant standards"
-      ],
-      "product_count": 1,
-      "legacy_source_url": "https://www.archiclad.com.au/wp-content/uploads/2023/04/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
-      "source_url_status": "manufacturer_site_root_tds_pending"
-    },
-    {
-      "family_id": "AIRCELL_SPACER_BISCUITS",
-      "manufacturer": "Aircell",
-      "name": "Aircell Spacer Biscuits",
-      "category": "Reflective",
-      "primary_function": "Reflective insulation product from Aircell.",
-      "applications": [
-        "General Installation"
-      ],
-      "keywords": [
-        "aircell",
-        "reflective",
-        "spacer biscuits"
-      ],
-      "scores": {
-        "acoustic_comfort": 2,
-        "energy_efficiency": 5,
-        "sustainability": 2,
-        "installation_practicality": 4,
-        "compliance_readiness": 3
-      },
-      "score_notes": "Deep-dive scoring for Aircell Spacer Biscuits: 1 SKUs generated from master catalogue spec data via scripts/generate_deep_dive_docs.py. Human QA against current manufacturer TDS/SDS still pending. Re-scored 2026-09-05 by scripts/rescore_family_scores.py using classification signals (manufacturer name/applications) instead of physical form alone.",
-      "confidence": "manufacturer_supported",
-      "knowledge_file": "spacer_biscuits.md",
       "detailed_knowledge_status": "complete_deep_dive_2026-09-05",
       "source_url": "https://www.kingspan.com/au/",
       "questions": [

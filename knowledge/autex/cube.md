@@ -23,7 +23,7 @@ priority_installation_practicality_confidence: medium
 gate_ncc_project_compliance: conditional_project_specific_evidence_required
 gate_fire_compliance: not_verified_per_sku
 gate_bal: not_verified
-official_datasheet_url: https://www.autexacoustics.com.au/
+official_datasheet_url: https://cdn.mediavalet.com/aunsw/autex/WQy9apLXOkSWnFbgSFF_Dw/yHhPYydqiEmaZP2RLoMz0g/Original/AU%20Cube%20Data%20Sheet.pdf
 official_sds_url: https://insulvac.com.au/wp-content/uploads/2020/04/autex-material-safety-data-sheet-msds.pdf
 product_count: 16
 rating_basis: acoustic
@@ -176,12 +176,12 @@ Avoid:
 
 ### Tier 1 — current manufacturer source
 
-Technical Data Sheet: https://www.autexacoustics.com.au/
+Technical Data Sheet: https://cdn.mediavalet.com/aunsw/autex/WQy9apLXOkSWnFbgSFF_Dw/yHhPYydqiEmaZP2RLoMz0g/Original/AU%20Cube%20Data%20Sheet.pdf
 
 Safety Data Sheet: https://insulvac.com.au/wp-content/uploads/2020/04/autex-material-safety-data-sheet-msds.pdf
 
 
-> Datasheet link audited 2026-09-05: repointed to the verified manufacturer site. Exact product TDS deep link still to be sourced; legacy reference: https://pricewiseinsulation.com.au/wp-content/uploads/2019/04/Greenstuf-MSDS.pdf
+> Datasheet link confirmed https://cdn.mediavalet.com/aunsw/autex/WQy9apLXOkSWnFbgSFF_Dw/yHhPYydqiEmaZP2RLoMz0g/Original/AU%20Cube%20Data%20Sheet.pdf
 
 Use this source for the canonical product identity, current grades, published ratings, primary applications and material composition.
 

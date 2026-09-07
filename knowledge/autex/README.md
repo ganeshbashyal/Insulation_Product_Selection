@@ -8,7 +8,6 @@ Bot-facing knowledge for Autex products. Each file represents a technical produc
 | --- | --- | --- |
 | `AUTEX_ACCENT_CEILING_TILES` | Autex Accent Ceiling Tiles | Initial documentation |
 | `AUTEX_ACCESSORY` | Autex Accessory | Initial documentation |
-| `AUTEX_ACOUSTIC_TIMBER_ACOUSTIC_TIMBER_PANEL` | Autex Acoustic Timber - Acoustic Timber Panel | Initial documentation |
 | `AUTEX_ACOUSTIC_TIMBER_ACOUSTIC_TIMBER_RAFT` | Autex Acoustic Timber - Acoustic Timber Raft | Initial documentation |
 | `AUTEX_ACOUSTIC_TIMBER_CEILING_TILES` | Autex Acoustic Timber - Ceiling Tiles | Initial documentation |
 | `AUTEX_ACOUSTIC_TIMBER_QUIETSPACE` | Autex Acoustic Timber - Quietspace | Initial documentation |

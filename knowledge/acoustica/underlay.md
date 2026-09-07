@@ -23,7 +23,7 @@ priority_installation_practicality_confidence: medium
 gate_ncc_project_compliance: conditional_project_specific_evidence_required
 gate_fire_compliance: not_verified_per_sku
 gate_bal: not_verified
-official_datasheet_url: https://acoustica.com.au/
+official_datasheet_url: https://acoustica.com.au/wp-content/uploads/2020/04/Acoustica-specifications-AngelStep_2020.docx
 official_sds_url: https://acoustica.com.au/
 product_count: 5
 rating_basis: thermal
@@ -171,12 +171,12 @@ Avoid:
 
 ### Tier 1 — current manufacturer source
 
-Technical Data Sheet: https://acoustica.com.au/
+Technical Data Sheet: https://acoustica.com.au/wp-content/uploads/2020/04/Acoustica-specifications-AngelStep_2020.docx
 
 Safety Data Sheet: https://acoustica.com.au/
 
 
-> Datasheet link audited 2026-09-05: repointed to the verified manufacturer site. Exact product TDS deep link still to be sourced; legacy reference: https://irp-cdn.multiscreensite.com/2b70b589/files/uploaded/polymax-acoustic-datasheet.pdf
+> Datasheet link confirmed https://acoustica.com.au/wp-content/uploads/2020/04/Acoustica-specifications-AngelStep_2020.docx
 
 Use this source for the canonical product identity, current grades, published ratings, primary applications and material composition.
 

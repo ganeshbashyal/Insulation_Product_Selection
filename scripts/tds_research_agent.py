@@ -26,6 +26,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import sys
 import time
@@ -43,29 +44,89 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import llm_client
 from audit_datasheet_links import OFFICIAL_DOMAINS, domain_matches, domain_of
 
+# Extraction is pure text-restructuring (temperature 0, no creative reasoning).
+# phi4-mini benchmarked fastest locally on this CPU-only box (~68s/family vs
+# ~93s for gemma4 and 350s+ for qwen3:8b, which is unexpectedly slow here
+# despite think:false). Override with OLLAMA_EXTRACT_MODEL if that changes.
+EXTRACT_MODEL = os.getenv("OLLAMA_EXTRACT_MODEL", "phi4-mini:latest")
+
 CACHE_DIR = ROOT / "data" / "local" / "tds_cache"
 RESEARCH_DIR_NAME = "research"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) tds-research/1.0"
 
-EXTRACT_PROMPT = """You are extracting structured product data from an insulation Technical Data Sheet.
+BASE_EXTRACT_PROMPT = """You are extracting structured product data from an insulation Technical Data Sheet.
 
 Return ONLY a JSON object (no markdown fences, no commentary) with these keys:
   "description": 1-2 sentence factual product description.
   "features": list of up to 8 short feature strings.
   "applications": list of applications (e.g. "ceiling", "external wall").
-  "technical": list of {"property","value","standard"} objects for every spec found (R-value, density, thickness, thermal conductivity, fire indices, temperature range, vapour, dimensions). Use "" for standard if none stated.
+  "technical": list of {"property","value","standard"} objects for every general spec found (R-value, density, thermal conductivity, fire indices, temperature range, vapour, pH). Use "" for standard if none stated.
   "fire": short string of fire/AS-NZS 1530.3 results, or "" if none.
   "sustainability": short string of recycled-content/VOC/environmental claims, or "" if none.
-  "install": list of up to 8 short installation steps, or [] if none.
-
-Rules: only report values actually present in the text. Never invent numbers. If a field is absent use "" or []. Keep numbers and units exactly as written.
+  "install": list of up to 12 short installation steps actually described in the text (fixing method, spacing, compression/gap avoidance, vapour barrier orientation, handling), or [] if none.
+  "clearances": list of up to 8 short strings describing required clearances/safe distances (downlights, flues, exhaust fans, electrical) if stated, or [] if none.
+  "limitations": list of up to 6 short manufacturer-stated limitations or warnings, or [] if none.
+{range_fields}
+Rules: only report values actually present in the text. Never invent numbers or rows. If a field is absent use "" or []. Keep numbers, units and product codes exactly as written.
 
 TDS TEXT:
+"""
+
+# Appended to BASE_EXTRACT_PROMPT only when the deterministic regex table parser
+# (parse_variant_table) found no variant table, so the model isn't asked to do
+# work the parser already does faster and more reliably.
+RANGE_FIELDS_PROMPT = """  "range_headers": the exact column headings of the product's physical characteristics / dimensions / packaging table (e.g. ["Material R-value","Nominal thickness (mm)","Width (mm)","Length (mm)","Batts per pack","m2 per pack","Coverage per pack (m2)","Packs per bale","Product code"]). [] if no such table exists.
+  "range": list of row objects, one per size/variant/product code in that table, each shaped {"c0":...,"c1":...} matching range_headers by position. EVERY row must have exactly one key per header, in order, with no gaps — if the source table merges a cell (e.g. the same R-value or thickness spans two width rows), repeat that value in both rows rather than omitting it. Combine a value and its unit into one header/cell (e.g. "R2.5", not separate "R-value" and "m2 K/W" headers). Copy EVERY row present — do not summarize, average or omit any width, thickness or product code variant. [] if none. The range table must be exhaustive: if the source table has 16 rows, return 16 rows.
 """
 
 
 def slugify(name: str) -> str:
     return re.sub(r"[^a-zA-Z0-9]+", "_", name).strip("_").lower()[:60]
+
+
+# Deterministic parser for the common AU glasswool batt "Physical Characteristics"
+# table layout: a full row states R-value, thickness, width, length, batts/pack,
+# m2/pack, coverage/pack and product code; a following row often re-states only
+# the width variant at the same R-value/thickness (a merged cell in the source
+# PDF), omitting the first two fields. Parsing this with regex is instant and
+# never misaligns columns the way an LLM reproduction of a merged-cell table can.
+_BATT_TABLE_HEADERS = [
+    "Material R-value", "Nominal thickness (mm)", "Width (mm)", "Length (mm)",
+    "Batts per pack", "m2 per pack", "Coverage per pack (m2)", "Packs per bale", "Product code",
+]
+_BATT_FULL_ROW = re.compile(
+    r"^\s*(R\d+(?:\.\d+)?)\s+(\d{2,4})\s+(\d{2,4})\s+(\d{3,5})\s+(\d{1,3})\s+([\d.]+)\s+([\d.]+)\s+(\d{1,3})\s+(\d{5,8})\s*$",
+    re.M,
+)
+_BATT_CONT_ROW = re.compile(
+    r"^\s*(\d{2,4})\s+(\d{3,5})\s+(\d{1,3})\s+([\d.]+)\s+([\d.]+)\s+(\d{1,3})\s+(\d{5,8})\s*$",
+    re.M,
+)
+_TABLE_SECTION = re.compile(r"physical (?:characteristics|properties)", re.I)
+
+
+def parse_variant_table(text: str) -> tuple[list[str], list[dict]] | None:
+    """Best-effort deterministic extraction of the batt dimensions/packaging
+    table. Returns (headers, rows) or None if the known layout isn't found."""
+    section_match = _TABLE_SECTION.search(text)
+    window = text[section_match.start():section_match.start() + 4000] if section_match else text
+    rows: list[dict] = []
+    last_r_value: str | None = None
+    last_thickness: str | None = None
+    for line in window.splitlines():
+        full = _BATT_FULL_ROW.match(line)
+        if full:
+            r_value, thickness, width, length, batts, m2, coverage, bale, code = full.groups()
+            last_r_value, last_thickness = r_value, thickness
+            rows.append({f"c{i}": v for i, v in enumerate([r_value, thickness, width, length, batts, m2, coverage, bale, code])})
+            continue
+        cont = _BATT_CONT_ROW.match(line)
+        if cont and last_r_value is not None:
+            width, length, batts, m2, coverage, bale, code = cont.groups()
+            rows.append({f"c{i}": v for i, v in enumerate([last_r_value, last_thickness, width, length, batts, m2, coverage, bale, code])})
+    if len(rows) < 2:
+        return None
+    return _BATT_TABLE_HEADERS, rows
 
 
 _SKU_PDFS: dict[str, str] | None = None
@@ -95,9 +156,12 @@ def research_path(manufacturer_dir: str, slug: str) -> Path:
 
 
 def fetch_pdf(url: str) -> Path | None:
-    """Download a PDF to the cache; return its path or None."""
+    """Download a TDS document (PDF or DOCX) to the cache; return its path or
+    None. Named fetch_pdf for historical reasons but handles both types —
+    several manufacturers (e.g. Acoustica) only publish DOCX datasheets."""
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
-    name = hashlib_name(url) + ".pdf"
+    ext = ".docx" if url.lower().split("?")[0].endswith(".docx") else ".pdf"
+    name = hashlib_name(url) + ext
     target = CACHE_DIR / name
     if target.exists() and target.stat().st_size > 1000:
         return target
@@ -106,7 +170,9 @@ def fetch_pdf(url: str) -> Path | None:
         if response.status_code != 200:
             return None
         content = response.content
-        if not content.startswith(b"%PDF"):
+        if ext == ".pdf" and not content.startswith(b"%PDF"):
+            return None
+        if ext == ".docx" and not content.startswith(b"PK\x03\x04"):  # DOCX is a zip archive
             return None
         target.write_bytes(content)
         return target
@@ -120,10 +186,25 @@ def hashlib_name(url: str) -> str:
 
 
 def pdf_text(path: Path, max_pages: int = 12) -> str:
+    if path.suffix.lower() == ".docx":
+        return docx_text(path)
     try:
         reader = pypdf.PdfReader(str(path))
         pages = [page.extract_text() or "" for page in reader.pages[:max_pages]]
         return "\n".join(pages)
+    except Exception:
+        return ""
+
+
+def docx_text(path: Path) -> str:
+    try:
+        import docx
+        document = docx.Document(str(path))
+        parts = [p.text for p in document.paragraphs if p.text.strip()]
+        for table in document.tables:
+            for row in table.rows:
+                parts.append(" | ".join(cell.text.strip() for cell in row.cells))
+        return "\n".join(parts)
     except Exception:
         return ""
 
@@ -204,34 +285,71 @@ def _sitemap_pdf(domain: str, family_terms: list[str], matches) -> str | None:
     return None
 
 
-def extract_spec(text: str) -> dict | None:
-    """Ask the local Ollama model to structure the TDS text into JSON."""
+def _validate_range(spec: dict) -> None:
+    """Drop range/range_headers in place if the model produced a misaligned
+    table (e.g. merged source cells it failed to repeat per row). A table we
+    can't verify column-by-column must not be rendered at all."""
+    headers = spec.get("range_headers")
+    rows = spec.get("range")
+    if not isinstance(headers, list) or not isinstance(rows, list) or not headers or not rows:
+        spec["range_headers"], spec["range"] = [], []
+        return
+    expected_keys = {f"c{i}" for i in range(len(headers))}
+    if any(not isinstance(row, dict) or set(row.keys()) != expected_keys for row in rows):
+        spec["range_headers"], spec["range"] = [], []
+        spec["range_extraction_status"] = "inconsistent_columns_dropped"
+
+
+def extract_spec(text: str, need_range: bool = True) -> dict | None:
+    """Ask the local Ollama model to structure the TDS text into JSON.
+
+    `need_range` is False when parse_variant_table() already found the size
+    table deterministically, so the model isn't asked to reproduce it (smaller
+    prompt/output, and no risk of it misaligning a merged-cell table).
+    """
     if not llm_client.ollama_available():
         return None
-    trimmed = text[:10000]  # leave headroom for the JSON reply in context
+    trimmed = text[:16000]  # leave headroom for the JSON reply in context
     for attempt in range(3):
-        raw = _generate_json(trimmed)
+        raw = _generate_json(trimmed, need_range)
         if raw:
             spec = _parse_spec(raw)
             if spec is not None:
+                if need_range:
+                    _validate_range(spec)
+                else:
+                    spec.setdefault("range_headers", [])
+                    spec.setdefault("range", [])
                 return spec
         time.sleep(2 * (attempt + 1))  # back off; cold model loads can drop a call
     return None
 
 
-def _generate_json(text: str) -> str | None:
+def _adaptive_budget(text: str, need_range: bool) -> tuple[int, int]:
+    """Size num_predict/num_ctx to the actual job instead of a fixed worst-case
+    budget, so small datasheets (or ones where regex already got the range
+    table) run several times faster on CPU-only local inference."""
+    num_predict = 3200 if need_range else 1400
+    estimated = len(text) // 4 + num_predict + 256
+    num_ctx = max(4096, min(16384, 1 << (estimated - 1).bit_length()))
+    return num_predict, num_ctx
+
+
+def _generate_json(text: str, need_range: bool = True) -> str | None:
     """Direct Ollama call tuned for deterministic JSON: temperature 0 and a
-    large num_predict, unlike the chat phrasing defaults in llm_client."""
+    budget sized to the job, unlike the chat phrasing defaults in llm_client."""
+    prompt = BASE_EXTRACT_PROMPT.replace("{range_fields}", RANGE_FIELDS_PROMPT if need_range else "")
+    num_predict, num_ctx = _adaptive_budget(text, need_range)
     payload = {
-        "model": llm_client.OLLAMA_MODEL,
+        "model": EXTRACT_MODEL,
         "messages": [
             {"role": "system", "content": "You extract structured JSON from technical datasheets. Output only valid JSON, no markdown fences, no commentary."},
-            {"role": "user", "content": EXTRACT_PROMPT + text},
+            {"role": "user", "content": prompt + text},
         ],
         "stream": False,
         "think": False,
         "keep_alive": "30m",
-        "options": {"temperature": 0, "num_predict": 2000, "num_ctx": 8192},
+        "options": {"temperature": 0, "num_predict": num_predict, "num_ctx": num_ctx},
     }
     request = urllib.request.Request(
         f"{llm_client.OLLAMA_HOST}/api/chat",
@@ -265,13 +383,47 @@ def _parse_spec(raw: str) -> dict | None:
     return None
 
 
-def process_family(manufacturer_dir: str, family: dict, delay: float = 1.0) -> str:
+_IDENTITY_STOPWORDS = {
+    "insulation", "product", "products", "range", "system", "systems", "board", "panel",
+    "the", "and", "for", "with", "series",
+}
+
+
+def _significant_terms(family_name: str, manufacturer_dir: str) -> list[str]:
+    """Distinctive words from a family name, used to verify a datasheet is
+    actually about this family and not a cross-linked/wrong-product PDF."""
+    stop = _IDENTITY_STOPWORDS | {manufacturer_dir.casefold()}
+    words = re.findall(r"[a-z0-9]+", family_name.casefold())
+    return [w for w in words if len(w) > 2 and w not in stop]
+
+
+def verify_family_identity(family_name: str, manufacturer_dir: str, text: str) -> bool:
+    """True if the extracted PDF text plausibly matches this family: a
+    domain being official (audit_datasheet_links.py) does not guarantee the
+    specific linked document is for the right product — spreadsheet-inherited
+    links have pointed multiple families at the same generic TDS before."""
+    terms = _significant_terms(family_name, manufacturer_dir)
+    if not terms:
+        return True  # nothing distinctive to check (e.g. a bare "Accessory" family)
+    haystack = text.casefold()
+    hits = sum(1 for term in terms if term in haystack)
+    # a short, distinctive name (the common case) must match in full — a
+    # majority vote lets one generic word (e.g. "acoustic") false-positive a
+    # completely different product's datasheet.
+    required = len(terms) if len(terms) <= 3 else max(3, round(len(terms) * 0.8))
+    return hits >= required
+
+
+def process_family(manufacturer_dir: str, family: dict, delay: float = 1.0, refresh: bool = False) -> str:
     slug = slugify(family["name"])
     out_path = research_path(manufacturer_dir, slug)
+    previous_pdf_url: str | None = None
     if out_path.exists():
         try:
-            if json.loads(out_path.read_text(encoding="utf-8")).get("status") == "ok":
+            previous = json.loads(out_path.read_text(encoding="utf-8"))
+            if previous.get("status") == "ok" and not refresh:
                 return "cached"
+            previous_pdf_url = previous.get("datasheet_pdf_url")
         except (json.JSONDecodeError, OSError):
             pass  # corrupt file: reprocess
 
@@ -279,35 +431,61 @@ def process_family(manufacturer_dir: str, family: dict, delay: float = 1.0) -> s
     official = OFFICIAL_DOMAINS.get(manufacturer_dir) or []
     on_official = tds_url and domain_matches(domain_of(tds_url), official)
 
-    # resolve a PDF URL. Preference order:
-    #   1. an official TDS PDF already in the SKU catalogue for this family
-    #   2. the family's own source_url if it is already an official PDF
-    #   3. a web search on the manufacturer's domain (needs open internet)
-    pdf_url = _sku_pdf_url(family["family_id"], official)
-    if pdf_url is None and tds_url.lower().endswith(".pdf") and on_official:
-        pdf_url = tds_url
-    if pdf_url is None:
-        pdf_url = search_tds_url(manufacturer_dir, family["name"])
+    # candidate PDF URLs in preference order. A domain being official
+    # (audit_datasheet_links.py) does not prove the specific document is for
+    # this family, so every candidate is fetched and identity-checked below
+    # rather than trusting the first one that resolves.
+    candidates: list[str] = []
+    sku_pdf = _sku_pdf_url(family["family_id"], official)
+    if sku_pdf:
+        candidates.append(sku_pdf)
+    if tds_url.lower().split("?")[0].endswith((".pdf", ".docx")) and on_official and tds_url not in candidates:
+        candidates.append(tds_url)
+    if previous_pdf_url and previous_pdf_url not in candidates:
+        candidates.append(previous_pdf_url)
+
+    tried: list[str] = []
+    text = pdf_url = None
+    for candidate_url in candidates:
+        tried.append(candidate_url)
+        pdf_path = fetch_pdf(candidate_url)
+        if not pdf_path:
+            continue
+        candidate_text = pdf_text(pdf_path)
+        if len(candidate_text) < 200:
+            continue
+        if verify_family_identity(family["name"], manufacturer_dir, candidate_text):
+            text, pdf_url = candidate_text, candidate_url
+            break
+
+    if text is None:
+        searched_url = search_tds_url(manufacturer_dir, family["name"])
         time.sleep(delay)  # be polite to search
+        if searched_url and searched_url not in tried:
+            tried.append(searched_url)
+            pdf_path = fetch_pdf(searched_url)
+            if pdf_path:
+                candidate_text = pdf_text(pdf_path)
+                if len(candidate_text) >= 200 and verify_family_identity(family["name"], manufacturer_dir, candidate_text):
+                    text, pdf_url = candidate_text, searched_url
 
-    if not pdf_url:
-        _write(out_path, family, None, None, None, "no_pdf_found")
-        return "no_pdf"
+    if text is None:
+        if not tried:
+            _write(out_path, family, None, None, None, "no_pdf_found")
+            return "no_pdf"
+        # documents were found but none were verifiably about this family
+        _write(out_path, family, tried[-1], None, None, "identity_mismatch")
+        return "identity_mismatch"
 
-    pdf_path = fetch_pdf(pdf_url)
-    if not pdf_path:
-        _write(out_path, family, pdf_url, None, None, "pdf_fetch_failed")
-        return "fetch_failed"
-
-    text = pdf_text(pdf_path)
-    if len(text) < 200:
-        _write(out_path, family, pdf_url, None, None, "pdf_no_text")
-        return "no_text"
-
-    spec = extract_spec(text)
+    variant_table = parse_variant_table(text)
+    spec = extract_spec(text, need_range=variant_table is None)
     if spec is None:
         _write(out_path, family, pdf_url, None, None, "extract_failed")
         return "extract_failed"
+    if variant_table is not None:
+        headers, rows = variant_table
+        spec["range_headers"], spec["range"] = headers, rows
+        spec["range_extraction_status"] = "regex_parsed"
 
     _write(out_path, family, pdf_url, spec, text[:2000], "ok")
     return "ok"
@@ -340,8 +518,10 @@ def status_report() -> None:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--only", help="one manufacturer directory name")
+    parser.add_argument("--family", help="one family_id, for reprocessing a single family")
     parser.add_argument("--limit", type=int, default=0)
     parser.add_argument("--delay", type=float, default=1.0)
+    parser.add_argument("--refresh", action="store_true", help="reprocess families already marked ok (e.g. after a schema/prompt change)")
     parser.add_argument("--status", action="store_true")
     args = parser.parse_args()
 
@@ -361,9 +541,11 @@ def main() -> None:
         data = json.loads(path.read_text(encoding="utf-8"))
         for family in data["families"]:
             family.setdefault("manufacturer", manufacturer_dir.title())
+            if args.family and family["family_id"] != args.family:
+                continue
             if args.limit and done >= args.limit:
                 break
-            result = process_family(manufacturer_dir, family, delay=args.delay)
+            result = process_family(manufacturer_dir, family, delay=args.delay, refresh=args.refresh)
             tally[result] = tally.get(result, 0) + 1
             done += 1
             if result != "cached":
