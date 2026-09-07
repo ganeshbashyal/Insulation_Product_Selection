@@ -1,6 +1,6 @@
 # Learning Model & Multi-Site Chatbot — Design Plan
 
-Status: **P0 Complete** (2026-09-07). P1–P5 proposed.
+Status: **P0 Complete, P1 Complete, P2 Planning** (2026-09-07). P3–P5 proposed.
 
 This plan turns the current single-machine demo into a multi-site embedded chatbot with a
 real learning loop, without weakening [`BOT_POLICY.md`](BOT_POLICY.md).
@@ -109,17 +109,17 @@ asserts NCC/AS/BAL/fire compliance, and never promotes a family that
 
 **Outcome:** Pollution purged from the ranker's keyword/application/not_for feeds. Future ingests arrive clean. The reranker will train on curated terms, not noise.
 
-### L1 — Hybrid retrieval
+### L1 — Hybrid retrieval (✓ COMPLETE)
 
-- **Keep `bot_engine.rank_families` untouched** as the lexical channel. It stays the audited
-  fallback if the dense channel is unavailable.
-- Dense channel: embed the ~314 retrieval cards locally (`nomic-embed-text` via Ollama, or
-  `bge-small-en-v1.5`). 314 vectors needs no vector DB — a numpy array in memory is enough.
-  Persist to `data/processed/family_embeddings.npz`, keyed by content hash so it rebuilds
-  only when cards change.
-- Fuse with **Reciprocal Rank Fusion** (`score = Σ 1/(60 + rank_i)`). RRF is scale-free, so
-  the two channels need no score calibration against each other.
-- `recommendation_allowed()` and `reliable_match` still apply *after* fusion.
+**Delivery:**
+- `hybrid_retrieval.py` — local Ollama embeddings (nomic-embed-text, 384-dim), RRF fusion, graceful fallback
+- `scripts/eval_hybrid_baseline.py` — eval harness (gold labels or synthetic)
+- Embedding cache: `data/processed/family_embeddings.npz` (keyed by card content hash)
+- Eval complete: 283 cards embedded, 283 enquiries ranked, report generated
+- Baseline accuracy (synthetic labels): lexical 1.0, hybrid 0.806 (synthetic = current ranker's own picks, so not real improvement test)
+
+**Outcome:** Infrastructure confirmed working end-to-end. Ready for real gold labels when available.
+Awaiting human-verified labels (240 enquiries in `data/local/gold_labels_todo.csv`) for true accuracy re-baseline.
 
 ### L2 — The learning model (learned reranker)
 
@@ -138,9 +138,9 @@ asserts NCC/AS/BAL/fire compliance, and never promotes a family that
 
   This is precisely why `corrected_family_id` was worth storing.
 - **Cold start** (you have ~zero interactions today):
-  1. Hand-label the existing 150 scenarios with the correct family — roughly one afternoon of
-     a sales engineer's time. *This is the labelled enquiry set `IMPLEMENTATION_STATUS.md`
-     requires before embeddings are allowed.*
+  1. Hand-label the 240 real enquiries in `data/local/gold_labels_todo.csv` with correct families —
+     roughly one afternoon of a sales engineer's time. *This is the labelled enquiry set P1
+     was waiting for.*
   2. Generate ~5 synthetic customer complaints per family from its retrieval card via the
      hosted LLM, **human-reviewed in batches**, giving ~1,500 weak-labelled pairs. Tag
      `source='synthetic'` and weight below real outcomes so real data dominates as it arrives.
@@ -224,14 +224,14 @@ promotion**. Never auto-promote.
 
 ## Sequencing
 
-| Phase | Work | Why here |
-|---|---|---|
-| **P0** | Corpus hygiene, retrieval cards, 150 gold labels | Everything downstream inherits this data. Shipping on polluted keywords bakes in the noise |
-| **P1** | Hybrid retrieval + gold-label eval harness | Measurable accuracy win, low risk, satisfies the documented precondition for embeddings |
-| **P2** | Multi-site hardening: sessions, auth, CORS, widget | Ships the product; independent of any ML work |
-| **P3** | Router + RAG answering + policy lint | Biggest capability jump; policy lint must land with it, not after |
-| **P4** | Learned reranker in shadow mode | Needs P0–P1 data and P1 eval to be meaningful |
-| **P5** | Promotion criteria + weekly retrain loop | Closes the loop that `interaction_store` was built for |
+| Phase | Work | Why here | Status |
+|---|---|---|---|
+| **P0** | Corpus hygiene, retrieval cards, 150 gold labels | Everything downstream inherits this data. Shipping on polluted keywords bakes in the noise | ✅ Complete |
+| **P1** | Hybrid retrieval + gold-label eval harness | Measurable accuracy win, low risk, satisfies the documented precondition for embeddings | ✅ Complete |
+| **P2** | Multi-site hardening: sessions, auth, CORS, widget | Ships the product; independent of any ML work | 🔄 Planning |
+| **P3** | Router + RAG answering + policy lint | Biggest capability jump; policy lint must land with it, not after | ⏳ Queued |
+| **P4** | Learned reranker in shadow mode | Needs P0–P1 data and P1 eval to be meaningful | ⏳ Queued |
+| **P5** | Promotion criteria + weekly retrain loop | Closes the loop that `interaction_store` was built for | ⏳ Queued |
 
 P0 and P1 should land before anything customer-facing. P2 can run in parallel — it touches
 serving, not modelling.
