@@ -62,4 +62,8 @@ def test_repointed_families_have_official_source_and_preserve_legacy_when_one_ex
             assert not domain_matches(domain_of(family["legacy_source_url"]), official), (
                 f"{family['family_id']} legacy_source_url was not actually wrong-domain"
             )
-    assert flagged > 200, "expected the 2026-09-05 remediation to have flagged most families"
+    # The current 283-family catalogue has 176 verified-domain site-root
+    # repoints awaiting exact product TDS links. Keep a lower bound so the
+    # remediation cannot silently disappear while allowing the catalogue to
+    # gain more directly verified links over time.
+    assert flagged > 150, "expected the datasheet remediation to flag the current majority-scale set"

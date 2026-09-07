@@ -32,6 +32,7 @@ import sys
 import time
 import urllib.parse
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor, TimeoutError as FutureTimeoutError
 from pathlib import Path
 
 import pypdf
@@ -310,7 +311,7 @@ def extract_spec(text: str, need_range: bool = True) -> dict | None:
     if not llm_client.ollama_available():
         return None
     trimmed = text[:16000]  # leave headroom for the JSON reply in context
-    for attempt in range(3):
+    for attempt in range(2):
         raw = _generate_json(trimmed, need_range)
         if raw:
             spec = _parse_spec(raw)
@@ -358,7 +359,7 @@ def _generate_json(text: str, need_range: bool = True) -> str | None:
         method="POST",
     )
     try:
-        with urllib.request.urlopen(request, timeout=180) as response:
+        with urllib.request.urlopen(request, timeout=90) as response:
             data = json.loads(response.read().decode("utf-8"))
     except Exception:
         return None
@@ -532,6 +533,24 @@ def main() -> None:
     if not llm_client.ollama_available():
         print("WARNING: local Ollama not detected - extraction will fail. Start 'ollama serve' first.")
 
+    # A single family (a slow/hanging search or fetch) must never stall an
+    # unattended multi-hour run: bound each one with a hard wall-clock timeout.
+    # A fresh single-use executor per family means an abandoned/hung thread
+    # (Python threads can't be force-killed) never blocks the next family.
+    FAMILY_TIMEOUT_SECONDS = 240
+
+    def process_with_timeout(manufacturer_dir: str, family: dict) -> str:
+        executor = ThreadPoolExecutor(max_workers=1)
+        future = executor.submit(process_family, manufacturer_dir, family, args.delay, args.refresh)
+        try:
+            return future.result(timeout=FAMILY_TIMEOUT_SECONDS)
+        except FutureTimeoutError:
+            slug = slugify(family["name"])
+            _write(research_path(manufacturer_dir, slug), family, None, None, None, "timeout")
+            return "timeout"
+        finally:
+            executor.shutdown(wait=False)
+
     done = 0
     tally: dict[str, int] = {}
     for path in sorted(ROOT.glob("knowledge/*/families.json")):
@@ -545,7 +564,7 @@ def main() -> None:
                 continue
             if args.limit and done >= args.limit:
                 break
-            result = process_family(manufacturer_dir, family, delay=args.delay, refresh=args.refresh)
+            result = process_with_timeout(manufacturer_dir, family)
             tally[result] = tally.get(result, 0) + 1
             done += 1
             if result != "cached":

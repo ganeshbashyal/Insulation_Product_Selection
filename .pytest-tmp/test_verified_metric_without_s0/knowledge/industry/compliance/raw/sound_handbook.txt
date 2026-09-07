@@ -1,0 +1,2650 @@
+
+===== PAGE 1 =====
+Sound transmission and 
+insulation in buildings
+Handbook
+
+===== PAGE 2 =====
+abcb.gov.au Page i 
+The Australian Building Codes Board 
+The Australian Building Codes Board (ABCB) is a standards writing body responsible for the National Construction Code (NCC), 
+WaterMark and CodeMark Certification Schemes. 
+The ABCB is a joint initiative of all levels of government in Australia, together with the building and plumbing industry. Its mission 
+is to oversee issues relating to health, safety, amenity, accessibility and sustainability in building. 
+For more information visit the ABCB website. 
+Copyright 
+© Commonwealth of Australia and the States and Territories of Australia 2023, published by the Australian Building 
+Codes Board. 
+This work is licensed under the Creative Commons Attribution 4.0 International License. More information on this licence is set 
+out at the Creative Commons website. 
+Unless otherwise noted, copyright (and any other intellectual property rights, if any) in this publication is jointly owned by the 
+Commonwealth, States and Territories of Australia. 
+ 
+Attribution 
+Use of all or part of this publication must include the following attribution: 
+The Sound Transmission and Insulation in Buildings Handbook was provided by the Australian Building Codes Board under the 
+CC BY 4.0 licence. 
+Disclaimer 
+By accessing or using this publication, you agree to the following: 
+While care has been taken in the preparation of this publication, it may not be complete or up-to-date. You can ensure that you 
+are using a complete and up-to-date version by checking the ABCB website. 
+The ABCB, the Commonwealth of Australia and States and Territories of Australia do not accept any liability, including liability for 
+negligence, for any loss (howsoever caused), damage, injury, expense or cost incurred by any person as a result of accessing, 
+using or relying upon this publication, to the maximum extent permitted by law. No representation or warranty is made or given as 
+to the currency, accuracy, reliability, merchantability, fitness for any purpose or completeness of this publication or any 
+information which may appear on any linked websites, or in other linked information sources, and all such representations and 
+warranties are excluded to the extent permitted by law. 
+This publication is not legal or professional advice. Persons rely upon this publication entirely at their own risk and must take 
+responsibility for assessing the relevance and accuracy of the information in relation to their particular circumstances. 
+Version history
+Original  
+Publish date: May 2004 
+Print version: 1.0 
+This version 
+Publish date: Jun 2024 
+Print version: 4.3 
+Details of amendments: Minor editorial corrections 
+Sound transmission and insulation in buildings 
+Handbook 
+
+===== PAGE 3 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page ii 
+Preface 
+This handbook is one of a series by the ABCB. Handbooks expand on areas of existing 
+regulation or relate to topics that are not regulated by the NCC. They provide advice and 
+guidance. 
+The Sound Transmission and Insulation in Buildings Handbook assists in understanding the 
+sound transmission and insulation requirements in the NCC Volume One and Volume Two. 
+It addresses issues in generic terms and is not a document that sets out specific compliance 
+advice for developing solutions to comply with the requirements in the NCC. It is expected that 
+this handbook guides readers to develop solutions relevant to specific situations in accordance 
+with the generic principles and criteria contained herein. 
+  
+
+===== PAGE 4 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page iii 
+Contents  
+ 1 Background ........................................................................................................... 1 
+1.1 Scope .................................................................................................................... 2 
+1.2 Using this document ............................................................................................. 2 
+2 Sound transmission and insulation in the NCC .................................................. 4 
+2.1 Objective ............................................................................................................... 4 
+2.2 Scope .................................................................................................................... 4 
+2.3 Overview of NCC compliance ............................................................................... 5 
+2.4 Volume One .......................................................................................................... 6 
+2.5 Volume Two ........................................................................................................ 23 
+3 Design practice .................................................................................................... 37 
+3.1 Building layout and planning ............................................................................... 37 
+3.2 Envelope of dwellings and units .......................................................................... 39 
+3.3 Building services ................................................................................................. 47 
+3.4 Improving sound insulation of building elements ................................................ 51 
+3.5 Avoidance of sound leakage ............................................................................... 52 
+3.6 Building movement ............................................................................................. 56 
+3.7 Structure-borne sound insulation ........................................................................ 57 
+4 Construction ........................................................................................................ 59 
+4.1 General ............................................................................................................... 59 
+4.2 Windows and external doors ............................................................................... 59 
+4.3 Penetrations and gaps ........................................................................................ 59 
+4.4 Floors/ceilings ..................................................................................................... 60 
+4.5 Wall construction................................................................................................. 61 
+4.6 Services .............................................................................................................. 65 
+5 Refurbishing existing buildings ......................................................................... 66 
+5.1 Floor, ceiling and wall modifications.................................................................... 67 
+5.2 Substitution of materials ...................................................................................... 68 
+Appendix A Abbreviations ..................................................................................... 62 
+Appendix B Glossary.............................................................................................. 63 
+
+===== PAGE 5 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page iv 
+B.1 NCC defined terms ............................................................................................. 63 
+B.2 Other terms ........................................................................................................ 63 
+Appendix C Compliance with the NCC ................................................................. 67 
+C.1 Responsibilities for regulation of building and plumbing in Australia .................. 67 
+C.2 Demonstrating compliance with the NCC ........................................................... 67 
+Appendix D Acoustic testing and specification ................................................... 70 
+D.1 Difference between laboratory and field-testing results ...................................... 70 
+D.2 Acoustic specification ......................................................................................... 71 
+D.3 Testing ............................................................................................................... 72 
+Appendix E Resources ........................................................................................... 74 
+E.1 Australian & International Standards .................................................................. 74 
+E.2 Other sources ..................................................................................................... 74 
+ 
+  
+
+===== PAGE 6 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page v 
+ 
+ 
+Reminder 
+This handbook is not mandatory or regulatory in nature. Compliance with it will not necessarily 
+discharge a user's legal obligations. The handbook should only be read and used subject to, 
+and in conjunction with, the general disclaimer at page i. 
+The handbook also needs to be read in conjunction with the NCC and the relevant legislation 
+of the appropriate state or territory. It is written in generic terms and it is not intended that the 
+content of the handbook counteract or conflict with the legislative requirements, any references 
+in legal documents, any handbooks issued by the administration or any directives by the 
+appropriate authority. 
+
+===== PAGE 7 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 1 
+1 Background 
+The NCC is a performance-based code containing all Performance Requirements for the 
+construction of buildings. To comply with the NCC, a solution must achieve compliance with the 
+Governing Requirements and the Performance Requirements.  
+The Governing Requirements contain requirements about how the Performance Requirements 
+must be met. A building, plumbing or drainage solution will comply with the NCC if it satisfies the 
+Performance Requirements, which are the mandatory requirements of the NCC.  
+This handbook reflects the latest updates and modifications introduced in NCC 2022.  
+When compared to NCC 2019 there are 2 main changes to the NCC sound transmission and 
+insulation requirements. These are: 
+(1) Changes to the clause numbering due to the introduction of a consistent volume structure 
+(CVS) across all 3 volumes of the NCC. 
+(2) The Performance Requirements for sound transmission and insulation are now quantified in 
+NCC Volume One and Two. This means the Performance Requirements now primarily 
+include numerical targets that clarify the level of performance required, rather than 
+qualitative (non-numerical) statements. 
+This handbook is not intended to replace or supersede the NCC but rather provide additional 
+information to aid the user in the application of the sound insulation requirements of the NCC 
+2022. 
+The objectives of this handbook are to: 
+• outline the minimum NCC requirements 
+• provide guidance on compliance options that can be used to meet the NCC requirements 
+• provide guidance on the installation of acoustic elements 
+• help achieve acceptable acoustic outcomes for buildings. 
+It is expected that this handbook provides links between the NCC sound transmission and 
+insulation requirements and the needs of various types of practitioners. 
+The NCC requires a level of sound insulation that represents the minimum acceptable building 
+standard. This was determined through wide consultation with the community and industry. An 
+owner or designer can always go beyond the minimum requirements in the NCC if they choose 
+in which case, the information provided in this handbook may need to be supplemented to suit 
+the specific project. 
+
+===== PAGE 8 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 2 
+1.1 Scope 
+Chapter 2 provides an overview of the NCC Performance Requirements, Verification Methods 
+and the Deemed-to-Satisfy Provisions. 
+Chapters 3 to 5 provide guidance on design practice for practitioners to consider when 
+implementing solutions for sound transmission.  
+To specify particular requirements, the NCC uses a building classification system. Building 
+classifications are labelled ‘Class 1’ through to ‘Class 10’. Some classifications also have  
+sub-classifications, referred to by a letter after the number (e.g., Class 1a).  
+The scope of this document is limited to Class 1, 2, 3 and Class 9c buildings. It focuses only on 
+the sound transmission and insulation requirements of NCC Volume One Part F7 and NCC 
+Volume Two Part H4. It does not cover the excess noise requirements of NCC Volume Three. 
+Any acoustic design should be conducted in conjunction with the design of all other building 
+requirements including, but not limited to, structural loading, wind loading, fire safety, earthquake 
+design, energy efficiency, ventilation requirements and buildability. 
+Access to the NCC is available from the ABCB website.  
+1.2 Using this document 
+This document contains 5 appendices, which are as follows. 
+• Appendix A contains a list of abbreviations and symbols used in this document. 
+• Appendix B is a glossary of key terms used in this document. 
+• Appendix C provides general information about complying with the NCC and responsibilities 
+for building and plumbing regulations. 
+• Appendix D provides more information about laboratory and field testing. 
+• Appendix E provides a list of additional resources. 
+  
+
+===== PAGE 9 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 3 
+Different styles are used in this document. Examples of these are provided below: 
+NCC extracts1 
+ 
+Examples 
+ 
+ Alerts or Reminders 
+ 
+1 NCC extracts italicise defined terms as per the NCC. See Schedule 1 of the NCC for further information.  
+
+===== PAGE 10 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 4 
+2 Sound transmission and insulation in the NCC 
+This chapter aims to provide an understanding of the sound transmission and insulation 
+requirements outlined in the NCC 2022. It explores the objectives, scope, and various 
+compliance options available and outlines effective strategies for meeting the NCC requirements. 
+The NCC has sound insulation requirements for residential buildings in the following parts.  
+• Part F7 Sound transmission and insulation in Volume One.  
+• Part H4 Health and amenity in Volume Two.  
+• Part 10.7 of the ABCB Housing Provisions (Housing Provisions). 
+2.1 Objective 
+The NCC Objective of the sound transmission and insulation requirements in Volumes One 
+(F7O1) and Two (H4O6) is to safeguard occupants from illness or loss of amenity as a result of 
+undue sound being transmitted:  
+• between adjoining dwellings or units containing sleeping facilities 
+• from common spaces into adjoining units 
+• from parts of the building with a different classification into adjoining units. 
+2.2 Scope 
+The NCC only deals with sound insulation between dwellings or units. It does not address the 
+following:  
+• noise entering the building from outside, for example from industrial processes, vehicle 
+traffic, trains, aircraft or animals 
+• environmental noise emission from the building to surrounding areas 
+• air conditioning or other plant noise within a unit  
+• domestic appliance noise within a unit 
+• room acoustic design for home entertainment systems 
+• noise transfer within a unit. 
+
+===== PAGE 11 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 5 
+Reminder 
+Sound and noise are terms often used interchangeably. Both terms are used in the NCC. They 
+relate to wave energy that causes vibrations in the air (or other media). The vibrations of a 
+sound wave decrease with distance from the source as they spread over a larger area or are 
+absorbed by objects. Hearing is the perception of sound. The term noise is typically used to 
+describe unwanted sound. 
+2.3 Overview of NCC compliance 
+The NCC Performance Requirements prescribe the minimum necessary technical requirements 
+for buildings, building elements, and plumbing and drainage systems.  
+Compliance with the NCC is achieved by complying with the NCC Governing Requirements and 
+relevant Performance Requirements. There are 3 options available to demonstrate compliance 
+with the Performance Requirements: 
+• a Performance Solution 
+• a Deemed-to-Satisfy (DTS) Solution, or 
+• a combination of a Performance Solution and a DTS Solution. 
+General information on compliance with the NCC is contained in Appendix C.  
+For sound insulation requirements, the mandatory Performance Requirements are F7P1 to F7P4 
+in Volume One and H4P6 in Volume Two for building Classes 1, 2, 3 and 9c. See Figure 2.1. 
+Figure 2.1 NCC Performance Requirements for sound insulation Volumes One and Two 
+ 
+The Performance Requirements for sound insulation in Volume One and Volume Two are 
+discussed further in this chapter. 
+Performance Requirements
+Sound  transmission and insulation 
+Volume One
+Class 2 & 3
+F7P1 & F7P2
+Class 9c
+F7P3 & F7P4
+Volume Two
+Class 1
+H4P6
+
+===== PAGE 12 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 6 
+2.4 Volume One  
+To meet the objective outlined in section 2.1, the NCC has detailed sound insulation provisions in 
+Part F7 of Volume One sound transmission and insulation. The types of buildings these clauses 
+relate to is summarised below: 
+• Class 2 building 
+• Class 3 building 
+• Class 9c building. 
+Refer to the NCC for exact definitions of the different building classifications. 
+2.4.1 Performance Requirements 
+F7P1 to F7P4 are the Performance Requirements for sound transmission in NCC Volume One 
+2022. The Performance Requirements in F7P1 to F7P4 are separated between Class 2 & 3 
+buildings (apartments and hotels) and Class 9c buildings (residential care buildings). 
+2.4.1.1 Apartments and hotels 
+F7P1 Sound transmission through floors 
+F7P1 Sound transmission through floors applies to Class 2 and 3 buildings (apartments and 
+hotels) and relates to the floor separating sole-occupancy units (SOUs) or an SOU from specified 
+spaces or parts of a different classification. It covers both airborne and impact generated sound. 
+F7P1 tends to minimise the transmission of sound, through separating floors from a number of 
+specified spaces. A list is included with the additional words ‘or the like’. An example of a floor 
+separating SOUs from parts of a different classification, would be a floor separating ground floor 
+shops (Class 6) from an apartment (Class 2) level above.  
+F7P2 Sound transmission through walls 
+F7P2 Sound transmission through walls applies to Class 2 and 3 buildings and relates to the 
+walls between SOUs, an SOU and specified spaces or parts of a different classification. A list is 
+included with the additional words ‘or the like’. 
+Any door assembly located in a wall that separates an SOU from a stairway, public corridor, 
+public lobby or the like should meet the requirements of F7P2. F7P2 covers both airborne and 
+impact generated sound and tends to minimise the transmission of sound through walls including 
+services and their penetrations from a number of specified spaces.  
+
+===== PAGE 13 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 7 
+An example of a wall separating SOUs from parts of a different classification, would be a wall in 
+a building between shops (Class 6) and hotel rooms (Class 3). 
+Unlike F7P1 impact generated sound is only a consideration for walls separating a bathroom, 
+sanitary compartment, laundry or kitchen in an SOU from a habitable room (other than a kitchen) 
+in adjoining SOUs or walls separating an SOU from a plant room or lift shaft. 
+Reminder  
+A habitable room is a room used for normal activities. It includes a bedroom, living room, 
+lounge room, music room, television room, kitchen, dining room, sewing room, study, 
+playroom, family room, home theatre and sunroom.  
+Rooms such as a bathroom, laundry, water closet, pantry, walk-in wardrobe, corridor, hallway, 
+lobby, photographic darkroom, clothes-drying room are excluded and are considered non 
+habitable. 
+Note that other spaces of a specialised nature occupied neither frequently nor for extended 
+periods are also considered non habitable. 
+2.4.1.2 Residential care buildings 
+F7P3 Sound transmission through floors 
+F7P3 Sound transmission through floors in a residential care building relates to floors between 
+SOUs in class 9c buildings. It covers airborne and impact generated sounds between units 
+located above one another. It does not cover sound transmission through floors from common 
+spaces such as a common corridor, laundry, or entertainment area.  
+F7P4 Sound transmission through walls 
+F7P4 Sound transmission through walls in a residential care building relates to the walls 
+separating SOUs, or an SOU from a kitchen, bathroom, sanitary compartment (not being an 
+associated ensuite), laundry, plant room or utilities room. The requirements for impact generated 
+sound only applies to the walls separating an SOU from a kitchen or laundry. 
+Reminder  
+The requirements for the sound insulation of walls and floors as specified in F7P1 to F7P4 
+must not be compromised because of services that penetrate the elements. 
+ 
+The Performance Requirements relevant to Part F7 are reproduced below.  
+
+===== PAGE 14 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 8 
+F7P1 Sound transmission through floors 
+A floor separating sole-occupancy units or a sole-occupancy unit from a plant room, lift shaft, 
+stairway, public corridor, public lobby, or the like, or parts of a different classification, must 
+minimise the transmission of airborne and impact generated sound such that the separating 
+floor, including the effect of services and their penetrations, has—  
+(a) weighted standardised level difference with spectrum adaptation term (DnT,w + Ctr) 
+not less than 45 for airborne sound; and  
+(b) a weighted standardised impact sound pressure level (LnT,w) not more than 62 for 
+impact generated sound. 
+Applications 
+F7P1 only applies to a Class 2 or 3 building. 
+ 
+F7P2 Sound transmission through walls 
+A wall, including services and their penetrations, must minimise the transmission of sound 
+such that— 
+(a) for airborne sound—  
+(i) a wall separating sole-occupancy units has a weighted standardised level 
+difference with spectrum adaptation term (DnT,w + Ctr) not less than 45; and  
+(ii) a wall separating a sole-occupancy unit from a plant room, lift shaft, stairway, 
+public corridor, public lobby, or the like, or parts of a different classification, has 
+a weighted standardised level difference (DnT,w) not less than 45; and  
+(iii) any door assembly located in a wall that separates a sole-occupancy unit from 
+a stairway, public corridor, public lobby, or the like, has a weighted 
+standardised level difference (DnT,w) not less than 25; and  
+(b) for impact generated sound, a wall must have sufficient sound insulation to prevent 
+illness or loss of amenity to the occupants if the wall separates—  
+(i) a bathroom, sanitary compartment, laundry or kitchen in one sole-occupancy 
+unit from a habitable room (other than a kitchen) in an adjoining sole-
+occupancy unit; or  
+(ii) a sole-occupancy unit from a plant room or lift shaft. 
+• Applications 
+• F7P2 only applies to a Class 2 or 3 building. 
+ 
+
+===== PAGE 15 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 9 
+F7P3 Sound transmission through floors in a residential care building 
+A floor separating sole-occupancy units must minimise the transmission of airborne and impact 
+generated sound such that the separating floor, including the effect of services and their 
+penetrations, has— 
+(a) a weighted standardised level difference with spectrum adaptation term (DnT,w) not 
+less than 40 for airborne sound; and 
+(b) a weighted standardised impact sound pressure level (LnT,w) not more than 62 for 
+impact generated sound. 
+Applications 
+F7P3 only applies to a Class 9c building. 
+ 
+F7P4 Sound transmission through walls in a residential care building 
+(1) A wall separating sole-occupancy units, or a sole-occupancy unit from a kitchen, 
+bathroom, sanitary compartment (not being an associated ensuite), laundry, plant room or 
+utilities room, including the effect of services and their penetrations, must minimise the 
+transmission of— 
+(a) airborne sound such that the wall has a weighted standardised level difference 
+(DnT,w) not less than 40; and 
+(b) impact generated sound, if the wall separates a sole-occupancy unit from a kitchen 
+or laundry. 
+(2) Sound insulation required by (1) must be sufficient to prevent illness or loss of amenity to 
+the occupants 
+Applications 
+F7P4 only applies to a Class 9c building. 
+  
+
+===== PAGE 16 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 10 
+2.4.2 Compliance options 
+2.4.2.1 Apartments and hotels 
+There are several compliance options available to meet the Performance Requirements for 
+apartments and hotels. A simplified overview of the available options is in Figure 2.2. 
+Figure 2.2 Sound insulation compliance options for walls and floors in apartments and hotels  
+Note to Figure 2.2: Blue shading indicates a DTS Solution, purple shading indicates a Performance Solution. 
+2.4.2.2 Residential care buildings 
+There are several compliance options available to meet the Performance Requirements for 
+residential care buildings. A simplified overview of the available options is in Figure 2.3. 
+Figure 2.3 Sound insulation compliance options for walls and floors in residential care buildings  
+Note to Figure 2.3: Blue shading indicates a DTS Solution, purple shading indicates a Performance Solution. 
+2.4.3 Verification Methods 
+Verification Methods F7V1, F7V2, F7V3 and F7V4 provide designers with a Performance 
+Solution pathway to demonstrate compliance. Figure 2.4 and Figure 2.5 below matches the 
+Verification Method to the relevant Performance Requirement for apartments and hotels  
+(Class 2 & 3) and residential care buildings (Class 9c). 
+Compliance options
+Performance 
+Requirement
+Floors
+F7P1
+Option 1 
+Verification 
+Method  
+F7V1
+Option 2
+DTS Solution
+Walls
+F7P2
+Option 1 
+Verification 
+Method
+ F7V2
+Option 2
+DTS Solution
+Compliance options
+Performance 
+Requirement
+Floor
+F7P3
+Option 1 
+Verification 
+Method 
+F7V3
+Option 2
+DTS Solution
+Wall
+F7P4
+Option 1 
+Verification 
+Method 
+F7V4
+Option 2
+DTS Solution
+
+===== PAGE 17 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 11 
+Figure 2.4 Sound insulation Verification Methods for apartments and hotels 
+ 
+ 
+Figure 2.5 Sound insulation Verification Methods for residential care buildings 
+ 
+There is no Verification Method for determining compliance with F7P2(b) and F7P4(1)(b). Both 
+requirements outline the impact generated sound insulation requirements for walls. Therefore, in 
+this instance the option for compliance is a DTS Solution or another means of verifying that the 
+requirements are achieved (refer to section 2.4.5 of this document). 
+It is not compulsory to use a Verification Method as part of a Performance Solution to show 
+compliance with the relevant Performance Requirement(s). The designer can use the DTS 
+Provisions of Part F7 or another Performance Solution as a means of verifying that the 
+Performance Requirements will be achieved. 
+The basic premise of the Verification Methods F7V1 to F7V4 is to measure in-situ (i.e. on-site) 
+the transmission of airborne and impact generated sound through floors and walls against the 
+quantified values specified in the applicable Verification Method. If the values measured are 
+greater than or equal to the quantified values in the applicable Verification Method, then the 
+solution complies. 
+The advice of an appropriately qualified person should be sought to undertake the assessment 
+and analysis where required. 
+Appendix D of this document provides further background information on testing and reporting 
+methods. 
+2.4.3.1 Apartments and hotels 
+There are 2 NCC Verification Methods that can be used to meet the relevant Performance 
+Requirements for sound insulation for apartments and hotels. They are: 
+(1) F7V1 Sound transmission through floors 
+(2) F7V2 Sound transmission through walls. 
+Sound transmitted through floors
+Verification Method: F7V1
+Performance Requirement
+F7P1
+Sound transmitted through walls
+Verification Method: F7V2
+Performance Requirement
+F7P2(a)
+Sound transmitted through floors
+Verification Method: F7V3
+Performance Requirement
+F7P3
+Sound transmitted through walls
+Verification Method: F7V4
+Performance Requirement
+F7P4(1)(a) and (2)
+
+===== PAGE 18 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 12 
+These are discussed in the following sections. 
+F7V1 Sound transmission through floors 
+F7V1 Sound transmission through floors is a means of verifying whether a floor achieves the 
+requirements of F7P1 in minimising the transmission of airborne and impact generated sound 
+through the floor. F7V1 only applies to Class 2 and 3 buildings.  
+If F7V1 is used to verify compliance, when tested on site the floor must have a weighted 
+standardised level difference with spectrum adaption term DnT,w+Ctr not less than 45 when 
+determined under AS/NZS ISO 717.1 and a weighted standardised impact sound pressure level 
+LnT,w not less than 62 when determined under AS ISO 717.2. 
+F7V2 Sound transmission through walls  
+F7V2 Sound transmission through walls is a means of verifying if a wall complies with 
+requirements of F7P2(a) in minimising the transmission of airborne sound through the wall. F7V2 
+only applies to Class 2 and 3 buildings.  
+Unlike F7V1, the requirements differ depending on the location of the wall.  
+Walls separating SOUs require a DnT,w+Ctr not less than 45 when determined under AS/NZS ISO 
+717.1. 
+Walls separating SOUs and areas such as plant rooms, lifts shafts, stairways, public corridors, 
+public lobbies or the like, or part of a different classification, must have a DnT,w not less than 45 
+when determined under AS/NZS ISO 717.1.  
+Ctr does not apply in these instances, as the walls separate units from areas that are not likely to 
+produce low frequency noise, which Ctr accounts for. 
+Door assemblies are permitted in walls between SOUs and public corridors, stairways or the like, 
+providing the door assembly has a DnT,w not less than 25 when determined under               
+AS/NZS ISO 717.1. Door assemblies are also permitted in walls between SOUs providing the 
+door assembly has the same level of sound insulation as the wall i.e. DnT,w+ Ctr not less than 45. 
+2.4.3.2 Residential care buildings 
+There are 2 NCC Verification Methods that can be used to meet the relevant Performance 
+Requirements for sound insulation for residential care buildings. They are: 
+(1) F7V3 Sound transmission through floors 
+(2) F7V4 Sound transmission through walls. 
+These are discussed in the following sections. 
+ 
+
+===== PAGE 19 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 13 
+F7V3 Sound transmission through floors  
+F7V3 is a means of verifying whether a floor achieves the requirements of F7P3 in minimising 
+the transmission of airborne and impact generated sound through the floor.  
+If F7V3 is used to verify compliance, when tested on site the floor must have a weighted 
+standardised level difference (DnT,w) not more than 40 when determined under                   
+AS/NZS ISO 717.1 and a weighted standardised impact sound pressure level (LnT,w) not more 
+than 62 when determined under AS ISO 717.2. 
+F7V4 Sound transmission through walls  
+F7V4 is a means of verifying if a wall complies with the requirements of F7P4(1)(a) and (2) in 
+minimising the transmission of airborne sound through a wall.  
+If F7V4 is used to verify compliance, when tested on site the wall separating SOUs must have a 
+weighted standardised level difference DnT,w not less than 40 when determined under        
+AS/NZS ISO 717.1. 
+A wall separating an SOU from a kitchen, bathroom, sanitary compartment (not being an 
+associated ensuite), laundry, plant room or utilities room has a weighted standardised level 
+difference DnT,w not less than 40 when determined under AS/NZS ISO 717.1. 
+
+===== PAGE 20 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 14 
+Reminder  
+For Verification Methods F7V1 to F7V4, DnT,w is a measure of airborne sound insulation,  
+similar to Rw.  
+Ctr is a spectrum adjustment factor which adjusts for low frequency sound levels. Ctr has been 
+chosen in recognition of the problems caused by the high bass frequency outputs of modern 
+home theatre systems and music reproduction equipment used by occupants of Class 2 and 3 
+buildings. 
+DnT,w and Ctr must be determined in accordance with AS/NZS ISO 717.1 Acoustics - Rating of 
+sound insulation in buildings and of building elements - Airborne sound insulation.  
+AS/NZS ISO 717.1 outlines how to use test results to determine the DnT,w and Ctr of a building 
+element. The test results must be obtained by testing a building element in accordance with 
+ISO 140-4. ISO 140-4 is the method for testing the airborne sound insulation of building 
+elements in the field.  
+LnT,w is a measure of impact sound insulation. The lower the LnT,w, the better the floor’s impact 
+sound insulation rating. The LnT,w must be determined in accordance with AS ISO 717.2 
+Acoustics - Rating of sound insulation in buildings and of building elements - Impact sound 
+insulation. This document outlines how to use test results to determine the LnT,w  of a building 
+element. The test results must be obtained by testing of the floor in accordance with            
+ISO 140-7. ISO 140-7 is the method for testing impact sound insulation of building elements in 
+the field. 
+Note that ISO 140-4 Acoustics - Measurement of sound insulation in buildings and of building 
+elements - Field measurements of airborne sound insulation between rooms, and ISO 140-7  
+Acoustics - Measurement of sound insulation in buildings and of building elements - Field 
+measurements of impact sound insulation of floors, are not NCC referenced Standards. 
+2.4.4 DTS Provisions 
+The DTS Provisions provide a prescriptive approach that can be used to comply with 
+Performance Requirements. A solution that complies with DTS Provisions is deemed to have 
+met the Performance Requirements.  
+Table 2.1 shows the DTS clauses for sound insulation in Volume One. 
+Table 2.1 Sound insulation DTS clauses in Volume One 
+DTS Provisions Clause reference 
+Deemed-to-Satisfy Provisions F7D1 
+Application F7D2 
+Determination of airborne sound insulation ratings F7D3 
+Determination of impact sound insulation ratings F7D4 
+
+===== PAGE 21 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 15 
+Sound insulation rating of floors F7D5 
+Sound insulation rating of walls F7D6 
+Sound insulation rating of internal services F7D7 
+Sound insulation of pumps F7D8 
+ 
+These DTS Provisions are grouped based on their application to apartments and hotels (Class 2 
+and 3 Buildings) and residential care buildings (Class 9c buildings). Additionally, there are DTS 
+Provisions that are applicable to both groups. 
+2.4.4.1 Apartments, hotels and residential care buildings  
+The NCC DTS Provisions that can be used for both Class 2 and 3 buildings (apartments and 
+hotels) and Class 9c buildings (residential care buildings) to meet the relevant Performance 
+Requirements for sound insulation are: 
+• F7D3 Determination of airborne sound insulation ratings 
+• F7D4(1) and (3) Determination of impact sound insulation ratings 
+• F7D6(5) and (6) Construction requirements for a sound rated wall that has floor or roof above 
+• F7D7 Sound insulation rating of internal services 
+• F7D8 Sound insulation of pumps. 
+These are discussed in the following sections. 
+F7D3 Determination of airborne sound insulation ratings 
+F7D3 clarifies the means of determining the airborne sound insulation rating (Rw, Rw+Ctr). 
+Throughout the DTS Provisions of Part F7, some forms of construction are required to have an 
+Rw or Rw + Ctr. These values must be: 
+• determined under AS/NZS ISO 717.1 using laboratory measurements, or 
+• in compliance with specification 28. 
+Specification 28 lists the weighted sound reduction index Rw for some common forms of 
+construction. See Table 2.2. 
+ 
+ 
+ 
+
+===== PAGE 22 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 16 
+Table 2.2 Specification 28 Sound insulation for building elements 
+Specification 28 
+reference 
+Clause title 
+S28C1 Scope 
+S28C2 Discontinuous construction  
+S28C3 Construction Deemed-to-Satisfy 
+S28C4 Acceptable forms of construction for walls- masonry 
+S28C5 Acceptable forms of construction for walls- concrete 
+S28C6 Acceptable forms of construction for walls- autoclaved aerated concrete 
+S28C7 Acceptable forms of construction for walls- timber and steel framing 
+S28C8 Acceptable forms of construction for floors- concrete 
+S28C9 Acceptable forms of construction for floors- autoclaved aerated concrete 
+S28C10 Acceptable forms of construction for floors- timber 
+Note to Table 2.2: Discontinuous construction is a term defined in F7D4(3).  
+F7D4(1) Determination of impact sound insulation ratings 
+In F7D4(1), floors that require impact sound rating are required to have an Ln,w determined in 
+accordance with AS ISO 717.2 using laboratory measurement. Alternatively, the sound insulation 
+must comply with Specification 28. See Table 2.2. 
+In F7D4(1), Ln,w is a measure of impact sound insulation. The type of impact generated noise 
+passing through floors that the requirements aimed at minimising are noise associated with 
+footsteps and moving of furniture. 
+F7D6(5) and (6) Sound insulation rating of walls 
+F7D6(5) and (6) contains additional requirements for sound insulated walls. F7D6(5) and (6) 
+requires sound insulated walls to extend to either the roof/floor above or a ceiling that provides 
+the required level of sound insulation. This is to ensure there is no space above the wall which 
+could provide a flanking path for sound to travel through (Refer to Section 3.5.1 and Figure 3.3 of 
+this document). 
+F7D7 Sound insulation rating of internal services 
+The intent of F7D7 is to minimise the transmission of sound that may arise from services that 
+pass through more than one SOU. 
+
+===== PAGE 23 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 17 
+F7D7 details separation requirements for services. The requirements only apply to services which 
+pass through more than one SOU unit or are located in a wall or floor cavity which separates 
+SOUs. F7D7 does not apply if the pipe is only located in a single unit, or any part of a Class 2, 3 
+or 9c building which is not part of an SOU. 
+The R w+Ctr values specified do not take account of the inherent acoustic properties of a pipe 
+material. 
+F7D8 Sound insulation of pumps 
+The intent of F7D8 is to minimise transmission of sound from a pump. F7D8 requires flexible 
+couplings at connection points to or from a pump to minimise vibration and any consequent sound 
+transmission along the piping. 
+2.4.4.2 Apartments and hotels 
+The NCC DTS Provisions that can be used to meet the relevant Performance Requirements for 
+sound insulation only for apartments and hotels are: 
+(1) F7D4(2)(a) Determination of impact sound insulation ratings for walls 
+(2) F7D5(1) Sound insulation rating of floors 
+(3) F7D6(1) and (2) sound insulation rating of walls and a door incorporated in a sound rated 
+wall. 
+These are discussed in the following sections. 
+F7D4(2)(a) Determination of impact sound insulation ratings 
+In F7D4(2)(a) the walls of Class 2 and 3 buildings that require an impact sound insulation rating 
+must be of discontinuous construction.  
+Discontinuous construction is a term defined for Part F7 of NCC Volume One as stated in 
+F7D4(3). It applies to all of Part F7 including Specifications 28 and 29.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+===== PAGE 24 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 18 
+F7D5(1) Sound insulation rating of floors 
+The intent of F7D5(1) is to minimise the transmission of sound through floors separating SOUs 
+and floors separating SOUs and certain types of areas or parts of a different classification. 
+F7D5(1) contains requirements for Class 2 and 3 buildings. 
+For Class 2 and 3 buildings, a floor requires Rw+Ctr (airborne) not less than 50 and impact sound 
+insulation Ln,w not more than 62 if it separates SOUs, an SOU from a plant room, lift shaft, 
+stairway, public corridor, public lobby or the like, or parts of a different classification. 
+F7D6(1) and (2) Sound insulation rating of walls 
+F7D6(1) and (2) apply to Class 2 and 3 buildings. The intent of F7D6(1) is to minimise the 
+transmission of sound through walls separating SOUs and walls separating SOUs and certain 
+types of spaces or parts of a different classification. 
+F7D6(2) applies to a door assembly in a wall that separates an SOU from a common area.  
+F7D6(1) outlines airborne and impact sound insulation requirements for walls. The airborne 
+sound requirements apply to walls separating SOUs and a n SOU from a plant room, lift shaft, 
+stairway, public corridor, public lobby or the like, or parts of a differen t classification. For walls 
+separating SOUs, the wall must have a n Rw+Ctr not less than 50. For walls separating a n SOU 
+from a plant room, lift shaft, stairway, public corridor, public lobby or the like, or parts of a different 
+classification, the wall must have an Rw not less than 50.  
+For walls separating habitable areas (excluding a kitchen) in one SOU from a bathroom, laundry, 
+kitchen or sanitary compartment in an adjoining unit or an SOU from a plant room or lift shaft, the 
+wall must be discontinuous construction.  
+F7D6(2) provides a concession for a door assembly located in a wall that separates an SOU from 
+public corridor or the like. The door requires an R w of not less than 30 whereas the wall requires 
+an Rw of not less than 50.  
+Alert 
+As a defined term in the NCC Volume One, discontinuous construction means: 
+(a) a wall having a minimum 20 mm cavity between 2 separate leaves, and 
+(i) for masonry, where wall ties are used to connect leaves, the ties are of the 
+resilient type, and 
+(ii) for other than masonry, there is no mechanical linkage between the leaves, 
+except at the periphery, and 
+(b) a staggered stud wall is not deemed to be discontinuous construction. 
+
+===== PAGE 25 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 19 
+2.4.4.3 Residential care buildings 
+The NCC DTS Provisions that need to be complied with to meet the relevant Performance 
+Requirements for sound insulation for residential care buildings are: 
+• F7D4(2)(b) Determination of impact sound insulation ratings for a wall required to have an 
+impact sound insulation rating 
+• F7D5(2) Sound insulation rating of floors 
+• F7D6(3) and (4), sound insulation rating of walls  
+These are discussed in the following sections. 
+F7D4(2)(b) Determination of impact sound insulation ratings 
+In F7D4(2)(b), the walls of Class 9c buildings that require an impact sound insulation rating must: 
+• for other than masonry, be two or more separate leaves without rigid mechanical connection 
+except at the periphery, or 
+• be identical with a prototype that is no less resistant to the transmission of impact sound 
+when tested in accordance with specification 29 than a wall listed in S28C4 to S28C7. See 
+Table 2.2 and Table 2.3 for Specification 28 and 29. 
+Table 2.3 Summary of requirements of specification 29 
+Specification 29 
+reference 
+Key requirements 
+S29C1 Scope • Specification 29 describes a method of test to determine the 
+comparative resistance of walls to the transmission of impact 
+sound. 
+S29C2 Construction 
+to be tested 
+• The test is conducted on a specimen of prototype wall construction 
+and on a specimen of one or other of the constructions specified in 
+S28C4 to S28C7. 
+• The testing of a construction specified in S28C4 to S28C7 doesn’t 
+need to be repeated for subsequent comparisons provided –  
+− complete records of the results are retained,  
+− the test equipment and the technique of testing are kept so 
+that identical equipment can be employed, and  
+− an identical technique can be adopted in the testing of 
+specimens of prototype wall construction. 
+
+===== PAGE 26 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 20 
+S29C3 Method • The wall constructions to be compared must be tested in 
+accordance with AS 1191 Acoustics – Method for laboratory 
+measurement of airborne sound transmission insulation of building 
+elements. 
+• A horizontal steel platform 510 mm x 460 mm x 10 mm thick must 
+be placed with one long edge in continuous and direct contact with 
+the wall to be tested on the side of the wall on which the impact 
+sound is to be generated. 
+• A tapping machine complying with ISO 140/6 - 1998 (E) Acoustics - 
+Measurement of sound insulation in buildings and of building 
+elements - Laboratory measurements of impact sound insulation of 
+floors must be mounted centrally on the steel platform. 
+• The sound transmission through the wall must be determined in 
+accordance with AS 1191, except a tapping machine mounted on a 
+steel platform must be used as the source of sound. 
+• The impact sound pressure levels measured in the receiving room 
+must be converted into normalised levels using a reference 
+equivalent absorption area of 10 m2. 
+F7D5(2) Sound insulation rating of floors 
+For residential care buildings , a floor requires to have an Rw (airborne) not less than 45 if it 
+separates SOUs.  
+F7D6(3) and (4) Sound insulation rating of walls 
+F7D6(3) and F7D6(4) apply to Class 9c buildings. F7D6(3) covers sound transmission through 
+a wall separating SOUs or an SOU from a kitchen, bathroom, sanitary compartment (not being 
+an associated ensuite), laundry, plant room or utilities room. The list of adjoining rooms and 
+spaces in these clauses, does not include the words ‘or the like’ because it is intended to be 
+specific to only those areas. 
+F7D6(4) applies to a wall that separates an SOU from a kitchen or laundry. The walls of SOUs 
+prescribed in F7D6(3) and F7D6(4) must be at least Rw 45. 
+F7D6(4) has additional requirements for a wall separating an SOU in a Class 9c building from a 
+kitchen or laundry. It requires the wall to comply with F7D4(2). 
+The list of spaces in F7D6(3) does not include stairways, public corridors, hallways, etc. The 
+reason is that aged care buildings should be provided with a level of sound insulation around 
+the resident bedroom/sleeping areas to ensure a level of privacy, but still allow the residents to 
+
+===== PAGE 27 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 21 
+be reassured they are not alone. If the Rw of the wall is too high, it may create a feeling of 
+isolation for the residents, and this can be detrimental to their well-being. Being able to hear 
+sounds that are outside their bedroom provides reassurance that assistance is available.  
+Reminder  
+For DTS Provisions F7D1 to F7D8, Rw is a measure of airborne sound insulation. Ctr is a 
+spectrum adjustment factor which adjusts for low frequency sound levels. Ctr has been chosen 
+in recognition of the problems caused by the high bass frequency outputs of modern home 
+theatre systems and music reproduction equipment used by occupants of Class 2 and 3 
+buildings. 
+The Rw and Ctr must be determined in accordance with AS/NZS ISO 717.1 Acoustics - Rating 
+of sound insulation in buildings and of building elements - Airborne sound insulation. These 
+documents outline how to use test results from testing a building element to determine the Rw 
+and Ctr of the building element. The test results must be obtained by testing the building 
+element in accordance with ISO 140-3. ISO 140-3 is the method for testing the airborne sound 
+insulation of building elements in the laboratory. 
+Ln,w  is a measure of the impact sound insulation. The type of impact generated noise passing 
+through floors that the requirements are aimed at minimising are noise associated with 
+footsteps and moving furniture. 
+Note that ISO 140-3 Acoustics - Measurement of sound insulation in buildings and of building 
+elements - Laboratory measurements of airborne sound insulation of building elements, is not 
+an NCC referenced Standard. 
+ 
+Note the requirements for walls and floors differ between Class 2 and 3 buildings, and Class 9c 
+buildings. This is due to SOUs in Class 2 and 3 buildings being ‘noisier’ than SOUs in Class 9c 
+buildings. The reasons include the presence of televisions, stereos and DVDs and activities that 
+may be conducted in Class 2 and 3 buildings. Therefore, Ctr only applies to Class 2 and 3 
+buildings. Also, the level of airborne sound insulation required in Class 9c buildings is less. 
+2.4.5 Other Performance Solutions  
+As outlined in section 2.3 of this document, there are 3 options available to demonstrate 
+compliance with the Performance Requirements: 
+• a Performance Solution 
+• a DTS Solution, or 
+• a combination of a Performance Solution and a DTS Solution. 
+
+===== PAGE 28 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 22 
+An overview of how to comply with the NCC is in Appendix C of this document, with further 
+guidance available from the ABCB website.  
+A Performance Solution can be used in an individual situation where the desired solution meets 
+the Performance Requirements of the NCC, but not the relevant DTS Provisions. These 
+solutions are often flexible in achieving the outcomes required and encourage innovative design 
+and technology use. 
+This section outlines some potential options for Performance Solutions that do not use an NCC 
+Verification Method as the Assessment Method.  
+2.4.5.1 Assessment Methods 
+Assessment Methods are used when determining if a Performance Solution complies with the 
+relevant Performance Requirements.  
+The following Assessment Methods are listed in the NCC (see A2G2 and A2G3) and each, or 
+any combination, can be used to demonstrate compliance for a Performance Solution where 
+appropriate:  
+• Evidence of Suitability 
+• Expert Judgement 
+• Comparison with the DTS Provisions 
+• Verification Methods. 
+2.4.5.2 Performance Solution process 
+To help ensure a Performance Solution provides the level of intended performance, clause 
+A2G2(4) of the NCC mandates a process for developing Performance Solutions. This process 
+must be followed regardless of whether the Performance Solution is simple or complex in nature.  
+In simple terms, the 4 steps of the Performance Solution process include: 
+(1) preparing a brief 
+(2) carrying out analysis 
+(3) evaluating results 
+(4) preparing a final report. 
+More information on this process is in the Performance Solution Process Guidance Document 
+and the ABCB Performance Solution Process Handbook, which are available from the ABCB 
+website. 
+
+===== PAGE 29 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 23 
+2.5 Volume Two 
+To meet the objective outlined, the NCC has detailed sound insulation provisions in Part H4 of 
+Volume Two (Health and Amenity) and references Part 10.7 Sound insulation of the ABCB 
+Housing Provisions.  
+The types of buildings these requirements relate to is Class 1 buildings, but they only apply to 
+single dwellings with common walls separating dwellings or attached dwellings like a town 
+house, row house or the like.  
+Refer to the NCC for exact definitions of the different building classifications. 
+2.5.1 Performance Requirement 
+The NCC Performance Requirements prescribe the minimum necessary technical requirements 
+for building elements and plumbing and drainage systems. They must be met to demonstrate 
+compliance with the NCC. 
+H4P6 is the Performance Requirement for sound transmission in NCC Volume Two. H4P6 
+applies to Class 1 buildings and relates to walls separating dwellings. It covers both airborne and 
+impact generated sound.  
+For H4P6, impact generated sound is only a consideration for walls separating a bathroom, 
+sanitary compartment, laundry or kitchen in a dwelling from a habitable room (other than a 
+kitchen) in an adjoining dwelling. The Performance Requirement H4P6 is reproduced below.  
+H4P6 Sound Insulation 
+(1) Walls separating dwellings must, to provide insulation against the transmission of airborne 
+sound, have a weighted standardised level difference with spectrum adaptation term 
+(DnT,w+Ctr) not less than 45. 
+(2) Walls separating a bathroom, sanitary compartment, laundry or kitchen in a dwelling from a 
+habitable room (other than a kitchen) in an adjoining dwelling, must provide insulation 
+against impact generated sound sufficient to prevent illness or loss of amenity to the 
+occupants. 
+(3) The required sound insulation of walls must not be compromised by the incorporation or 
+penetration of a pipe or other service element. 
+2.5.2 Compliance options 
+Sound insulation compliance options for Class 1 buildings are shown in Figure 2.6. 
+
+===== PAGE 30 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 24 
+Note to Figure 2.6: Blue shading indicates a DTS Solution, purple shading indicates a Performance Solution. 
+2.5.3 Verification Method 
+Verification Method H4V4 provides designers with a Performance Solution pathway to 
+demonstrate compliance. 
+The basic premise of the Verification Method H4V4 is to measure in-situ (i.e. on-site) the 
+transmission of airborne and impact generated sound through floors and walls against the 
+quantified values specified in the applicable Verification Method. If the values measured are 
+greater than or equal to the quantified values in the applicable Verification Method then the 
+solution complies. 
+The advice of an appropriately qualified person should be sought to undertake the assessment 
+and analysis where required. Appendix D of this document provides further background 
+information on testing and reporting methods. 
+Figure 2.7 below matches the Verification Method to the relevant Performance Requirement. 
+Figure 2.7 Sound Insulation Verification Method for attached dwellings 
+ 
+2.5.3.1 Attached dwellings (Class 1 buildings) 
+There is only one NCC Verification Methods for sound insulation that can be used to meet the 
+relevant Performance Requirement for attached dwellings (Class 1 buildings). 
+H4V4 is the Verification Method to comply with H4P6(1) and (3). If H4V4 is used to verify 
+compliance, when tested on site the wall must have a weighted standardised level difference 
+Sound insulation
+Verification Method: H4V4
+Performance Requirement
+H4P6(1) and (3)
+Compliance options
+Performance 
+Requirement
+Wall
+H4P6
+Option 1 
+Verification Method H4V4
+Option 2
+DTS Solution H4D8
+(Part 10.7 of ABCB Housing 
+Provisions)
+Figure 2.6 Sound insulation compliance options for Class 1 buildings 
+
+===== PAGE 31 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 25 
+with spectrum adoption term DnT,w+ Ctr not less than 45 when determined under  
+AS/NZS ISO 717.1. 
+Reminder  
+For Performance Requirement H4P6 and Verification Method H4V4, DnT,w is a measure of 
+airborne sound insulation, similar to RW. Ctr is a spectrum adjustment factor which adjusts for 
+low frequency sound levels. Ctr has been chosen in recognition of the problems caused by the 
+high bass frequency outputs of modern home theatre systems and music reproduction 
+equipment used by occupants of Class 1. 
+DnT,w and Ctr must be determined in accordance with AS/NZS ISO 717.1 Acoustics - Rating of 
+sound insulation in buildings and of building elements - Airborne sound insulation.  
+AS/NZS ISO 717.1 outlines how to use test results to determine the DnT,w and Ctr of a building 
+element. The test results must be obtained by testing the building element accordance with 
+ISO 140-4. ISO 140-4 is the method of testing the airborne sound insulation of building 
+elements in the field. 
+Note that ISO 140-4 Acoustics - Measurement of sound insulation in buildings and of building 
+elements - Field measurements of airborne sound insulation between rooms, is not an NCC 
+referenced Standard.  
+ 
+There is no Verification Method for determining compliance with H4P6(2). H4P6(2) outlines the 
+impact generated sound insulation requirements for walls. Therefore, in this instance the options 
+for compliance are a DTS Solution or another means of verifying that H4P6(2) will be achieved. 
+See section 2.5.5. 
+The Verification Method H4V4 is reproduced below.  
+H4V4 Sound insulation 
+Compliance with H4P6(1) and (3) to insulate against transmission of airborne sound through 
+walls separating dwellings is verified when it is measured in-situ that the wall has a weighted 
+standardised level difference with spectrum adaptation term (DnT,w + Ctr) not less than 45 when 
+determined under AS/NZS ISO 717.1. 
+2.5.4 DTS Provisions 
+2.5.4.1 Attached dwellings (Class 1 buildings) 
+The DTS Provisions provide a prescriptive approach that can be used to comply with 
+Performance Requirements. In NCC Volume Two, DTS Provision H4D8 can be used as a DTS 
+Solution to meet the Performance Requirement H4P6. H4D8 outlines that compliance with     
+Part 10.7 of the ABCB Housing Provisions satisfies Performance Requirement H4P6 for sound 
+insulation. Table 2.4 shows the DTS Provisions of Part 10.7 for compliance with H4P6. 
+
+===== PAGE 32 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 26 
+Table 2.4 Part 10.7 of the Housing Provisions 
+Part 10.7 Housing Provisions 
+reference 
+Sound insulation requirements 10.7.1 
+Determination of airborne sound insulation ratings 10.7.2 
+Construction of sound insulated walls 10.7.3 
+Services 10.7.4 
+Acceptable forms of construction for masonry walls 10.7.5 
+Acceptable forms of construction for concrete walls 10.7.6 
+Acceptable forms of construction for autoclaved aerated 
+concrete walls 
+10.7.7 
+Acceptable forms of construction for timber and steel framed 
+walls 
+10.7.8 
+10.7.1 Sound insulation requirements 
+Compliance with 10.7.1 is verified when the requirements of 10.7.1(1) and 10.7.1(2) are met.  
+In 10.7.1(1) a wall between Class 1 buildings or a wall that separates a Class 1 building from a 
+Class 10a building which is not associated with the Class 1 building require airborne (Rw+Ctr) not 
+less than 50. 
+Reminder  
+Rw is a measure of airborne sound insulation. Ctr is a spectrum adjustment factor which adjusts 
+for low frequency sound levels. Ctr has been chosen in recognition of the problems caused by 
+the high bass frequency outputs of modern home theatre systems and music reproduction 
+equipment used by occupants of Class 1 buildings. 
+The Rw and Ctr must be determined in accordance with AS/NZS ISO 717.1. This standard 
+outlines how to use test results from testing a building element to determine the Rw and Ctr of 
+the building element. The test results must be obtained by testing the building element in 
+accordance with ISO 140-3. ISO 140-3 is the method for testing the airborne sound insulation 
+of building elements in the laboratory. 
+Note that ISO 140-3 Acoustics - Measurement of sound insulation in buildings and of building 
+elements - Laboratory measurements of airborne sound insulation of building elements, is not 
+an NCC referenced Standard. 
+10.7.1 (1) also requires the wall to be of discontinuous construction if it separates a bathroom, 
+sanitary compartment, laundry or kitchen in one Class 1 building from a habitable room (other 
+than a kitchen) in an adjoining Class 1 building. See Figure 2.8. 
+
+===== PAGE 33 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 27 
+Figure 2.8 Required airborne and impact sound insulation - Plan view (Figure 10.7.1 of the Housing 
+Provisions) 
+ 
+Discontinuous construction  
+Means: 
+(a) a wall having a minimum 20 mm cavity between 2 separate leaves, and 
+(i) for masonry, where wall ties are used to connect leaves, the ties are of the 
+resilient type, and 
+(ii) for other than masonry, there is no mechanical linkage between the leaves, 
+except at the periphery, and 
+(b) a staggered stud wall is not deemed to be discontinuous construction. 
+ 
+
+
+===== PAGE 34 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 28 
+Note discontinuous construction is a defined term in the Housing Provisions. 
+10.7.1(2) requires sound insulated walls to extend to underside of the roof above or to the ceiling 
+that provides the sound insulation required for the wall. This is to ensure that there is no space 
+above the wall which could provide a flanking path for sound to travel through. See Figure 3.3 of 
+this document. 
+Alert  
+In Part 10.7, insulation to reduce both airborne and impact noise transmission is required for 
+parts of a wall that are common to adjoining Class 1 buildings. It is not required for parts of a 
+wall located in the subfloor. 
+10.7.2 Determination of airborne sound insulation ratings 
+This clause has two options to determine Rw + Ctr to meet the requirements of 10.7.1(1)(a) as 
+follows: 
+• be determined in accordance with AS/NZS ISO 717.1, using results from laboratory 
+measurements, or 
+• comply with 10.7.5 to 10.7.8 and the relevant provisions of 10.7.3. 
+These 2 options are discussed in the following sections. 
+10.7.3 Construction of sound insulated walls 
+10.7.3 outlines the construction requirements of sound insulated walls to achieve the appropriate 
+level of sound insulation. They are summarised in Table 2.5. 
+Table 2.5 Key requirements for the construction of sound insulated walls 
+Clause 10.7.3 
+reference 
+Key requirements 
+(a) Stud wall 
+junction 
+• Junctions of sound insulated walls with any perimeter walls and roof 
+cladding must be sealed in accordance with Figure 10.7.3a. 
+(b) Masonry • Units must be laid with all joints filled solid. 
+• This does not apply to articulation joints that meet clause 5.6.8, 
+including those between the masonry and any adjoining 
+construction. 
+(c) Concrete panels • Must have joints between panels and any adjoining construction 
+filled solid. 
+
+===== PAGE 35 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 29 
+(d) Plasterboard 
+sheeting 
+• If two layers are required, the second layer joints must not coincide 
+with those of the first layer (see Figure 10.7.3b). 
+• Joints between sheets including the outer layer or between sheets 
+and any adjoining construction must be taped and filled solid. 
+(e) Steel framed 
+and perimeter 
+members 
+construction  
+• Steel framing members must be at least 0.6 mm thick. 
+• Studs must be at least 63 mm in depth unless another depth is 
+specified in 10.7.5 to 10.7.8. 
+• All steel members at the perimeter of the wall must be securely fixed 
+to the adjoining structure. The joints must be caulked so there are no 
+voids between the steel members and the wall. 
+(f) Timber- framed 
+and perimeter 
+members 
+construction 
+• Noggings and like members must not bridge between studs 
+supporting different wall leaves. 
+• All timber members at the perimeter of the wall must be securely 
+fixed to the adjoining structure. The joints must be caulked so there 
+are no voids between the timber members and the wall. 
+Note to Table 2.5: All the figures mentioned in the table are available in the ABCB Housing Provisions, which is 
+available from the ABCB website. 
+10.7.4 Services 
+10.7.4 contains the sound insulation requirements for services located in separating walls  as 
+specified in Table 2.6.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+===== PAGE 36 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 30 
+Table 2.6 Key requirements for services 
+Clause 
+10.7.4 
+reference 
+Key Requirements 
+(1) • Services must not be chased into concrete or masonry separating walls. 
+(2) 
+• Where a duct, soil, waste supply or stormwater pipe is located within a 
+separating wall, any door or access panel to the duct or pipe must: 
+− not open into any habitable room, except for kitchens 
+− be securely fixed, overlapping the frame or rebate of the frame by 
+at least 10 mm. 
+− be constructed of wood, plasterboard or blockboard not less than 
+33 mm thick, or compressed fibre reinforced cement sheeting not 
+less than 9 mm thick, or other suitable material with a mass per 
+unit area not less than 24.4 kg/m2. 
+• A water supply pipe: 
+− must only be installed in discontinuous construction 
+− if it serves a single dwelling, it should not be fixed to the wall leaf 
+on the side of any other dwelling and have a clearance not less 
+than 10 mm to the other wall leaf. 
+(3) 
+• Electrical outlets must be offset from each other. In masonry walling, the 
+gap should not be less than 100 mm; and in timber or steel-framed 
+walling, the gap should not be less than 300 mm. 
+Note to Table 2.6: A separating wall is a defined term in the Housing Provisions and is a wall that is common to 
+adjoining Class 1 buildings. 
+10.7.5 Acceptable forms of construction for masonry walls 
+10.7.5 outlines the acceptable forms of construction for masonry walls. The key requirements are 
+summarised in Table 2.7.  
+ 
+ 
+ 
+ 
+
+===== PAGE 37 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 31 
+Table 2.7 Key requirements for acceptable forms of construction for masonry walls 
+Clause 10.7.5 
+reference 
+Key Requirements 
+(1) • Acceptable forms of construction for masonry walls are set out in (2) to 
+(6). 
+(2) 
+• Two leaves of 110 mm clay brick masonry constructed in accordance 
+with Figure 10.7.5a has Rw+Ctr of not less than 50 with: 
+− a cavity not less than 50 mm between leaves, and 
+− 50 mm thick glass wool insulation with a density of 11 kg/m3 
+or 50 mm thick polyester insulation with a density of 20 kg/m3 
+in the cavity. 
+(3) 
+• Two leaves of 110 mm clay brick masonry constructed in accordance 
+with Figure 10.7.5b has Rw+Ctr of not less than 50 with:  
+− a cavity not less than 50 mm between leave, and  
+− 13 mm cement render on each outside face. 
+(4) 
+• A single leaf of 110 mm clay brick masonry constructed in accordance 
+with Figure 10.7.5c has Rw+Ctr of not less than 50 with: 
+− a row of 70 mm x 35 mm timber studs or 64 mm steel studs at 
+600 mm centres, spaced 20 mm from the masonry wall, and 
+− 50 mm thick mineral insulation or glass wool insulation with a 
+density of 11 kg/m3 positioned between studs, and 
+− one layer of 13 mm plasterboard fixed to outside face of studs 
+and outside face of masonry. 
+(5) 
+• A single leaf of 90 mm clay brick masonry constructed in accordance 
+with Figure 10.7.5d has Rw+Ctr of not less than 50 with: 
+− a row of 70 mm x 35 mm timber studs or 64 mm steels studs 
+at 600 mm centres, spaced 20 mm from each face of the 
+masonry wall, and 
+− 50 mm thick mineral insulation or glass wool insulation with a 
+density of 11 kg/m3 positioned between studs in each row, 
+and 
+− one layer of 13 mm plasterboard fixed to studs on each 
+outside face. 
+
+===== PAGE 38 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 32 
+(6) 
+• A single leaf of 220 mm brick masonry with 13 mm cement render on 
+each face has an Rw+Ctr of not less than 50, if constructed in 
+accordance with Figure 10.7.5e. 
+Note to Table 2.7: All the figures mentioned in the table are available in the ABCB Housing Provisions, which is 
+available from the ABCB website. 
+10.7.6 Acceptable forms of construction for concrete walls 
+10.7.6 outlines the acceptable form of construction for concrete walls. The key requirements are 
+summarised in Table 2.8. 
+Table 2.8 Key requirements for acceptable forms of construction for concrete walls 
+Clause 10.7.6 
+reference 
+Key Requirements 
+(1) • Acceptable forms of construction for concrete walls are set out in (2) to 
+(5). 
+(2) • 150 mm thick plain off form concrete, has an Rw+Ctr of not less than 
+50, if constructed in accordance with Figure 10.7.6a. 
+(3) 
+• 200 mm thick concrete panel with one layer of 13 mm plasterboard or 
+13 mm cement render on each face, has an Rw+Ctr of not less than 50, 
+if constructed in accordance with Figure 10.7.6b. 
+(4) 
+• A 100 mm thick concrete panel constructed in accordance with Figure 
+10.7.6c has Rw+Ctr of not less than 50 with: 
+− a row of 64 mm steel studs at 600 mm centres, spaced  
+25 mm from the concrete panel, and 
+− 80 mm thick polyester insulation or 50 mm thick glass wool 
+insulation with a density of 11 kg/m3, positioned between 
+studs, and 
+− two layers of 13 mm plasterboard fixed to the outside face of 
+studs and one layer of 13 mm plasterboard fixed to the 
+outside face of the concrete panel. 
+(5) 
+• A 125 mm thick concrete panel constructed in accordance with Figure 
+10.7.6d has Rw+Ctr of not less than 50 with: 
+− a row of 64 mm steel studs at 600 mm centres, spaced 20 
+mm from the concrete panel, and 
+
+===== PAGE 39 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 33 
+− 70 mm polyester insulation with a density of 9 kg/m3, 
+positioned between studs, and 
+− one layer of 13 mm plasterboard fixed to the outside face of 
+the studs. 
+Note to Table 2.8: All the figures mentioned in the table are available in the ABCB Housing Provisions, which is 
+available from the ABCB website. 
+10.7.7 Acceptable forms of construction for autoclaved aerated concrete walls 
+10.7.7 outlines the acceptable form of construction for autoclaved aerated concrete walls . The 
+key requirements are summarised in Table 2.9.  
+Table 2.9 Key requirements for acceptable forms of construction for autoclaved aerated concrete walls 
+Clause 10.7.7 
+reference 
+Key Requirements 
+(1) • Acceptable forms of construction for autoclaved aerated concrete 
+walls are set out in (2) to (4). 
+(2) 
+• A 75 mm thick autoclaved aerated concrete wall panel constructed in 
+accordance with Figure 10.7.7.a, has Rw+Ctr of not less than 50 with: 
+− a row of 64 mm steel studs at 600 mm centres, spaced  
+20 mm from the autoclaved aerated concrete wall panel, and 
+− 75 mm thick glass wool insulation with a density of 11 kg/m3 
+positioned between studs, and 
+− one layer of 10 mm moisture resistant plasterboard or 13 mm 
+fire protective grade plasterboard fixed to outside face of 
+studs and outside face of autoclaved aerated concrete wall 
+panel 
+(3) 
+• A 75 mm thick autoclaved aerated concrete wall panel constructed in 
+accordance with Figure 10.7.7.b, has Rw+Ctr of not less than 50 with: 
+− a row of 64 mm steel studs at 600 mm centres, spaced  
+35 mm from the autoclaved aerated concrete panel wall, and 
+− 28 mm metal furring channels fixed to the outside face of the 
+autoclaved aerated concrete wall panel, with 50 mm thick 
+polyester insulation with a density of 9 kg/m3 positioned 
+between furring channels and one layer of 13 mm fire 
+protective grade plasterboard fixed to furring channels, and 
+
+===== PAGE 40 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 34 
+− 105 mm thick glass wool insulation with a density of 7 kg/m3 
+positioned between studs, and 
+− one layer of 13 mm fire protective grade plasterboard fixed to 
+the outside face of the studs. 
+(4) 
+• Two leaves of 75 mm autoclaved aerated concrete wall panel 
+constructed in accordance with Figure 10.7.7.c, has Rw+Ctr of not less 
+than 50 with: 
+− a cavity not less than 30 mm between panels containing  
+50 mm glass wool insulation with a density of 11 kg/m3, and 
+− one layer of 10 mm plasterboard fixed to outside face of each 
+panel. 
+Note to Table 2.9: All the figures mentioned in the table are available in the ABCB Housing Provisions, which is 
+available from the ABCB website. 
+10.7.8 Acceptable forms of construction for timber and steel framed walls 
+10.7.8 outlines the acceptable forms of construction for timber and steel framed walls. The key 
+requirements are summarised in Table 2.10. 
+Table 2.10 Key requirements for acceptable forms of construction for timber and steel framed walls 
+Clause 10.7.8 
+reference 
+Key Requirements 
+(1) • Acceptable forms of construction for timber and steel framed walls are 
+set out in (2) and (3). 
+(2) 
+• Two rows of 90 mm x 35 mm timber studs or two rows of 64 mm 
+steels studs at 600 mm centres constructed in accordance with  
+Figure 10.7.8.a, has Rw+Ctr of not less than 50 with: 
+− an air gap not less than 20 mm between the rows of studs, 
+and 
+− 50 mm thick glass wool insulation or 60 mm thick polyester 
+insulation with a density of 11 kg/m³, positioned between one 
+row of studs, and 
+− two layers of 13 mm fire protective grade plasterboard or one 
+layer of 6 mm fibre cement sheet and one layer of 13 mm fire 
+protective grade plasterboard, fixed to outside face of studs. 
+
+===== PAGE 41 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 35 
+(3) 
+• Two rows of 64 mm steel studs at 600 mm centres constructed in 
+accordance with Figure 10.7.8.b, has Rw+Ctr of not less than 50 with: 
+− an air gap not less than 80 mm between the rows of studs, 
+and 
+− 200 mm thick polyester insulation with a density of 14 kg/m3 
+positioned between studs, and 
+− one layer of 13 mm fire-protective grade plasterboard and 
+one layer 13 mm plasterboard on one outside face and one 
+layer of 13 mm fire-protective grade plasterboard on the other 
+outside face. 
+Note to Table 2.10: All the figures mentioned in the table are available in the ABCB Housing Provisions, which is 
+available from the ABCB website. 
+2.5.5 Other Performance Solutions 
+As outlined in section 2.3 of this document, there are 3 options available to demonstrate 
+compliance with the Performance Requirements: 
+• a Performance Solution 
+• a DTS Solution, or 
+• a combination of a Performance Solution and a DTS Solution. 
+An overview of how to comply with the NCC is in Appendix C of this document, with further 
+guidance available from the ABCB website.  
+A Performance Solution can be used in an individual situation where the desired solution meets 
+the Performance Requirements of the NCC, but not the relevant DTS Provisions. These 
+solutions are often flexible in achieving the outcomes required and encourage innovative design 
+and technology use. 
+This section outlines some potential options for Performance Solutions that do not use an NCC 
+Verification Method as the Assessment Method.  
+2.5.5.1 Assessment Methods 
+Assessment Methods are used when determining if a Performance Solution complies with the 
+relevant Performance Requirements.  
+The following Assessment Methods are listed in the NCC (see A2G2 and A2G3) and each, or 
+any combination, can be used to demonstrate compliance for a Performance Solution where 
+appropriate.  
+• Evidence of Suitability. 
+
+===== PAGE 42 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 36 
+• Expert Judgement. 
+• Comparison with the DTS Provisions. 
+• Verification Methods. 
+2.5.5.2 Performance Solution process 
+To help ensure a Performance Solution provides the level of intended performance, clause 
+A2G2(4) of the NCC mandates a process for developing Performance Solutions. This process 
+must be followed regardless of whether the Performance Solution is simple or complex in nature.  
+In simple terms, the 4 steps of the Performance Solution process include: 
+(1) preparing a brief 
+(2) carrying out analysis 
+(3) evaluating results 
+(4) preparing a final report. 
+More information on this process is in the Performance Solution Process Guidance Document 
+and the ABCB Performance Solution Process Handbook, which are available from the  
+ABCB website. 
+  
+
+===== PAGE 43 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 37 
+3 Design practice 
+Effective sound insulation requires careful consideration of building design, materials, and 
+construction techniques. The best time to manage and minimise the amount of sound entering a 
+dwelling or unit from adjoining dwellings or units is in the design and construction phase of the 
+dwelling(s). This includes the following. 
+• Determining the strategy and planning the approach that will be used to comply with the NCC 
+Performance Requirement(s) before initiating the design. 
+• Using wall, floor, ceiling, bulkhead and riser systems which have been tested and 
+documented. 
+• Consulting with relevant authorities and/or professionals as needed.  
+The followings are some key considerations for building design, material selection, and 
+implementing sound insulation techniques that can effectively manage sound intrusion in 
+buildings. 
+3.1 Building layout and planning 
+When designing the layout of dwellings or units, the followings key considerations can help to 
+minimise the sound transmission entering a dwelling or unit from adjoining dwellings or units. 
+• Plan quiet areas in a unit adjacent to quiet areas in adjoining units. 
+• Plan quiet areas in a unit away from services. 
+• Plan buffer areas between units where possible. 
+• Locate services away from sensitive areas in a unit. 
+• Consult the body corporate if intending to modify or renovate existing units. 
+To minimise the amount of noise entering a dwelling or unit from adjoining dwellings or units and 
+minimise the cost of construction, it is recommended to locate noise-sensitive rooms away from 
+noisy areas where possible, both within each unit and between adjoining units.  
+Noisy areas such as living rooms, kitchens, laundries, and bathrooms should be grouped 
+together, possibly sharing common walls. Quiet areas such as study and bedrooms should be 
+grouped away from noisy areas (refer to Figure 3.1 and Figure 3.2). 
+Locating wet areas above one another can result in significant cost savings in relation to sound 
+insulation requirements, particularly where pipes penetrate the separating slab. 
+Buffer spaces can be set up on each side of common walls, for example garages, wardrobes, 
+store rooms and closets. 
+
+===== PAGE 44 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 38 
+Noisy areas external to a unit such as plantrooms, lift shafts, garbage chutes, spa baths, pools, 
+gymnasiums, entertainment rooms and other communal areas or public areas should be located 
+as far away as possible from noise-sensitive areas of a unit. 
+Figure 3.1 Example of layout planning - Good acoustic practice 
+ 
+
+
+===== PAGE 45 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 39 
+Figure 3.2 Example of layout planning - Bad acoustic practice 
+ 
+3.2 Envelope of dwellings and units  
+Sound insulation of the envelope of a dwelling or unit is an important consideration when 
+designing a building. This is more important in dwellings or units with adjoining dwellings or units 
+because the residents have less control over the undue sound transmission from adjoining 
+dwellings or units.  
+For a dwelling or unit envelope design, it is recommended to use systems which have been 
+laboratory tested and have demonstrated compliance with the NCC.  
+Where a building material supplier is proposing specific building elements for the project, it is 
+preferable to receive a valid test certificate on the system as well as a clear statement on the 
+requirements and techniques for working with the particular system.  
+The following are some key considerations for a dwelling or unit envelope design. 
+• Allow sufficient width for party walls and sufficient depth for floor and ceilings in initial 
+planning.  
+• Provide clear construction drawings detailing junctions of walls, ceilings, and floors.  
+
+
+===== PAGE 46 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 40 
+• Indicate where impact-rated wall systems are required. 
+• Choose wall systems which are simple to build and reliable. 
+• Ensure that discontinuities in walls and floors/ceilings can be maintained. 
+• Use acoustic grade insulation in sound-rated walls and ceiling cavities. 
+• Design acoustic seals for joints to remain effective over the life of the building. 
+• It is not recommended to: 
+− substitute materials in building elements without proper testing and documentation 
+− fix together discontinuous elements of an sound-rated wall or ceiling. 
+3.2.1 Party walls 
+Wall design is principally concerned with ensuring high acoustic performance for minimal 
+thickness, minimal weight and minimal cost. It is not easy to simultaneously meet all these 
+conditions and therefore close attention to design is required.  
+The acoustic performance of wall systems is generally improved by substituting either 
+thicker/heavier wall systems or substituting systems with larger cavities and moderate cladding 
+thicknesses. 
+To save weight, some heavy single-leaf wall systems could be replaced by lightweight 
+constructions using thinner leaves of material and insulation filled cavities. 
+To control sound transfer, it is good design practice to extend sound-rated walls to full height, 
+from slab to soffit, or slab to roof (refer to Figure 3.3). Wall partitions should be selected which 
+allow for a margin of safety in the construction to reduce the risk of non-compliance. 
+
+===== PAGE 47 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 41 
+Figure 3.3 Sound-rated wall penetration to roof 
+ 
+There are additional factors which should also be considered in relation to sound-rated walls. 
+These include the following. 
+• Reliability in the field – is it possible to easily reproduce the laboratory acoustic 
+performance for a sound-rated wall? 
+• Walls which are impact-rated or discontinuous require more attention to detail. 
+• If the acoustic performance of the wall fails, is there sufficient space to allow rectification 
+and a further upgrade undertaken to the wall? 
+• For wall designs which rely on sound-rated ceilings, has detail been developed to control 
+sound intrusion through ceiling penetrations such as downlights, mechanical ventilation 
+grilles, fire service penetrations and ceiling speakers? (Refer to section 3.2.2 and 3.3 of this 
+document) 
+• Buildability – is it possible to easily build the walls to the same standard as in the laboratory 
+and therefore maintain the acoustic rating? Simple systems will tend to be more reliable 
+than complex systems. 
+• Has the wall been designed to comply with other NCC requirements such as for fire or 
+structural safety? 
+• It is not recommended to: 
+− use short circuit bracing between separate stud systems 
+
+
+===== PAGE 48 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 42 
+− design wall-mounted furniture to be fixed across walls requiring to be discontinuous. 
+ 
+Reminder  
+Party walls can be a wall separating an SOU from another SOU, a plant room, lift shaft, 
+stairway, public corridor, public lobby or the like or part of a different classification.  
+The NCC sound insulation requirements do not cover building elements which separate SOUs 
+from the outside of the building and/or the internal walls within a dwelling or unit. 
+3.2.2 Floors and ceilings  
+Some designs require both floors and ceilings to be sound-rated to meet the NCC provisions. 
+When designing floors and ceilings, the following factors should be considered.  
+• Some floor designs require carpet and underlay to meet the NCC provisions. When 
+substituting material, a carpet should not be replaced with acoustically non-compliant hard 
+floor coverings. It is recommended to develop alternative floor designs which are  
+impact-rated and not reliant on carpet and underlay alone.  
+• A break in the floorboards should be designed under the party walls of a unit. The break at 
+the boundary in the floorboards and/or joists should be sufficient to isolate horizontally 
+adjacent units and control structure-borne noise intrusion from footsteps. (Refer to  
+Figure 3.4 and Figure 3.5). 
+• For sound-rated ceilings, the details should be developed to control noise intrusion through 
+ceiling penetrations such as downlights, mechanical ventilation grilles, fire service 
+penetrations and ceiling speakers. (Refer to section 3.3 of this document). 
+
+===== PAGE 49 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 43 
+Figure 3.4 Floor lateral vibration isolation - Good design practice 
+ 
+Figure 3.5 Floor lateral vibration isolation - Bad design practice 
+ 
+3.2.3 External doors  
+Doors are an acoustic weak link and invariably reduce the acoustic performance of walls. To 
+counter this weakness, the NCC requires doors from corridors to units to be sound-rated. Doors 
+may be either thick solid-core doors or proprietary systems. Most sound-rated doors require full 
+acoustic seals around the head, jamb and foot to limit flanking. The installation of a door closer 
+can effectively reduce noise caused by slamming. In addition, the following points should be 
+considered. 
+
+
+===== PAGE 50 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 44 
+• Maximise the buffer distance between entrance doors of adjoining units to limit sound 
+flanking via the doors (refer to Figure 3.7 and Figure 3.8). 
+• It is not recommended to undercut sound-rated doors.  
+• For return air flow, it is preferable to use transfer ducts with fire dampers rather than 
+undercut sound-rated doors.  
+• Air grilles should not be installed in sound-rated doors (refer to Figure 3.6). 
+• Use full perimeter acoustic seals on external doors. Acoustic seals do not provide suitable 
+performance if they are not properly adjusted. Allow for the adjustments and maintenance 
+of acoustic seals on doors. Seals should be selected based on their performance, simplicity 
+of use, and they should be low maintenance and durable.  
+• Doors may be installed in sound-rated walls, for example between hotel or resort 
+guestrooms. The acoustic performance of the wall can be degraded where doors are 
+installed. Careful design is required to maintain the sound-rating of the wall/door 
+combination.  
+• The performance of an acoustic seal can be limited if it seals onto carpet or onto  
+non-smooth materials such as tiles or pavers.  
+• Consideration should also be given to Performance Requirements that cover other types of 
+seals, such as fire resistance, smoke resistance, chemical resistance, weather resistance, 
+dust resistance and vermin proofing. 
+Figure 3.6 Treatment around sound-rated doors in sound-rated walls 
+ 
+
+
+===== PAGE 51 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 45 
+Figure 3.7 Example of layout planning and placement of windows and external doors - Good acoustic 
+practice 
+ 
+Figure 3.8 shows a bad example of layout planning. It shows that the maximum distance 
+between windows and doors are not maintained. It increases the risk of flanking via external 
+glazing and entrance doors. 
+Figure 3.8 Example of layout planning- and placement of windows and external doors - Bad acoustic 
+practice 
+ 
+
+
+===== PAGE 52 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 46 
+3.2.4 Windows  
+Façade glazing and glazing installed in external walls of units can reduce the acoustic 
+performance of the sound-rated common walls. They can produce a flanking path for sound 
+transfer as shown in Figure 3.8. Like the doors in section 3.2.3 above, glazing requires careful 
+design to limit sound transfer.  
+The distance between the external windows of adjoining units should be maximised. This will 
+limit potential flanking sound through the windows especially where there is a common light well, 
+shared courtyard or atrium (refer to Figure 3.7 and Figure 3.8).  
+Full perimeter acoustic seals should be used on sensitive windows and the design of the window 
+should allow for adjustment and maintenance of acoustic seals on windows.  
+3.2.5 Façade 
+The design and layout of the facade can impact sound intrusion. Considerations such as the 
+placement of windows and balconies, as well as the incorporation of setback areas or buffer 
+zones, can help reduce direct sound transmission between adjoining units.  
+Façade walls can also reduce the performance of sound-rated common walls. They can produce 
+a flanking path for sound transfer as shown in Figure 3.9 and Figure 3.10. Detailed design 
+measures and the use of sound absorption materials may be required to overcome this flanking.  
+Figure 3.9 External wall flanking control – Good design practice 
+ 
+
+
+===== PAGE 53 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 47 
+Figure 3.10 External wall flanking control – Bad design practice 
+ 
+The design measures may need to be applied to the entire façade wall at the time of construction 
+to allow suitable flexibility for the location of common walls. For instance, common walls should 
+align at structural columns in the façade where possible and should not be bridged by common 
+air supply grilles or by windows in the façade. 
+Reminder  
+Noise entering the building from outside such as noise from industrial processes, vehicle 
+traffic, trains, aircraft or animals are not addressed in the NCC. 
+3.3 Building services 
+Historically, sound generated by building services and flanking around building services have 
+been significant problems. The focus of this section is to address the noise from internal building 
+services. Noise generated from the Heating, Ventilation, and Air Conditioning (HVAC) 
+equipment, sewage lines, lifts, ductworks, water supply system, garbage chutes are some of the 
+potential sources that can affect other parts of the building. 
+
+
+===== PAGE 54 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 48 
+Reminder  
+The NCC Requirements only apply to services which pass through more than one SOU or are 
+located in a wall or floor cavity which separates SOUs. 
+This section does not cover the requirements of NCC Volume Three Part D to prevent 
+excessive noise being generated from a plumbing and drainage system. 
+Some of the general design practices to manage the noise from building services are 
+summarised below. 
+• Design for sufficient sound isolation in common ventilation ducts and risers. 
+• Flexible connectors should be installed for pipes and ducts to limit structure-borne sound 
+transfer. 
+• Reduce the number of bends and elbows in pipes and ducts. 
+• Reduce the flow velocity in pipes and ducts. 
+• Fixing of plumbing and ducting should be via resilient mounts.  
+• Use quieter pipe constructions to reduce noise generated by pipes.  
+• Mechanical and hydraulic services should be located away from sensitive areas within the 
+unit (refer to Figure 3.11). 
+• Services such as power outlets, light switches, plumbing pipes and fittings, and ducts 
+should preferably not be fixed to common walls. 
+• Services such as plumbing pipes and fittings should not be chased into common walls. 
+• Design pipe treatment using acoustic wrapping where necessary. 
+• It is not recommended to: 
+− acoustically seal around fire collars without regard for the fire rating 
+− design air grilles into bulkheads which contain hydraulic services or ductwork.  
+
+===== PAGE 55 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 49 
+Figure 3.11 Location of services 
+ 
+3.3.1 Treatment of services 
+The noise from building services and pipes can be controlled by effective insulation of the pipes 
+that are considered a potential sound source. 
+Using lightweight barriers such as plasterboard linings and sound insulation for both risers and 
+bulkheads, along with acoustic lagging of pipes can also help to reduce the pipe sound in 
+buildings. 
+Pipe acoustic lagging is a method used to reduce the transmission of noise through pipes in 
+buildings. Effective acoustic lagging is characterised by the following points. 
+• It uses a heavy barrier such as loaded vinyl, isolated from the pipe with foam rubber or 
+fibreglass. 
+• It extends gap-free along the full length of a pipe. 
+• The lagging and pipe do not contact ceilings, walls or supports. 
+• The pipe mounts and supports do not contact the surrounding bulkheads or risers.  
+Reminder  
+Care must be exercised with lagging to make sure that the performance of any fire collar, and 
+the like, on the pipe is not impeded by the lagging. In all cases refer to the manufacturer’s 
+specific recommendations. 
+ 
+When designing for sound insulation of internal building services, it is important to consider the 
+specific needs and requirements of the building and its occupants, as well as any relevant 
+
+
+===== PAGE 56 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 50 
+building codes and standards. Proper installation and maintenance of sound insulation materials 
+and systems can help to ensure their effectiveness and longevity over the lifetime of the building. 
+3.3.1.1 Hydraulic services 
+• Where a sound-rated building element is required to isolate sound from pipes, a lighter 
+building element could be constructed. This could occur if a suitable pipe lagging is also 
+incorporated and sufficient space is retained around the pipes to ensure there is no contact 
+with ceilings, risers or supports. 
+• Where pipe lagging is required to isolate sound, sufficient space should be retained around 
+the pipe and lagging to ensure there is no contact with ceilings, ceiling supports or risers.  
+• Waste and stormwater can generate sound from turbulent flow within the pipes. Pipe 
+suppliers can supply quiet proprietary pipe systems which reduce sound. It should be noted 
+that additional treatment may still be required to meet the NCC provisions.  
+• Waste pipes and stormwater pipes should pass above non-habitable areas where possible. 
+• Sharp bends, elbows and take off points exacerbate pipe sound, so should be minimised.  
+• Reducing water flow velocity and pressure within pipes to the rated specification can reduce 
+sound. 
+• Pumps and other plant should have flexible couplings to the services pipes. This is required 
+for pumps in F7D8 Sound isolation of pumps in Volume One. 
+• Avoid the installation of hydraulic services in plenums containing air grilles. 
+• Supply pipes should be resiliently fixed to wall structures and not fixed to the neighbour’s 
+side of a cavity wall system. 
+• Pipes should not be lagged at the fire collar. 
+3.3.1.2 Mechanical services 
+• Where a sound-rated building element is required to isolate sound from ducts, a lighter 
+building element can be constructed where suitable duct lagging is also incorporated. 
+Sufficient space should be retained around the duct to ensure there is no contact with 
+ceilings, risers or supports. 
+• Design smooth duct runs and transitions and large radius bends to maintain smooth airflow 
+and reduce the likelihood of generating sound. 
+• Lower air velocities generate less sound. 
+• Bends with turning vanes limit turbulent sound generation. 
+• Doors with undercuts allow flanking sound. Such doors would not meet the NCC provisions. 
+Fit acoustic seals onto doors and design return air paths via acoustically treated transfer 
+ducts. 
+
+===== PAGE 57 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 51 
+• Where ducts penetrate sound-rated walls, acoustic treatment is required around the ducts, 
+especially between the duct and the slab soffit above.  
+3.3.1.3 Electrical services 
+• Sound barriers should be provided to control sound from cooling fans, transformers and 
+other sound producing electrical equipment in electrical plantrooms and from the regular 
+operation, servicing and testing of stand-by generators.  
+• Sound-rated electrical outlets and switches should be used, or outlets and switches should 
+be surface mounted on sound-rated walls. The mounting boxes to be airtight and to be 
+sealed with acoustical caulk. 
+• Note the NCC also requires electrical outlets in a wall to be offset. 
+• It is recommended not to: 
+− design for non-rated (acoustic) power outlets and switches to be installed in sound-
+rated walls 
+− design power outlets and light switches to be installed back-to-back. 
+3.3.1.4 Other Services and penetrations 
+• To limit sound intrusion from lift shafts, it may be useful to isolate the lift rails from the 
+surrounding structure. 
+• Control air-rush whistle sound through doors. 
+• Slower travelling cars make less sound than faster travelling cars. 
+• Minimise the call signal volume as much as practical.  
+• Where sprinklers are located in sound-rated ceilings, the penetrations are to be treated to 
+control sound transfer.  
+• Gaps and penetrations around fire collars need to be acoustically sealed while maintaining 
+their fire rating. 
+• Penetrations in sound-rated ceilings, for example downlights and other recessed lights, air 
+grilles, fire services sprinklers and speakers, need to be acoustically treated to maintain the 
+overall acoustic rating of the ceiling. 
+3.4 Improving sound insulation of building elements 
+3.4.1 Additional material 
+Using additional layer of materials to increase mass and using materials of greater mass per unit 
+can enhance the sound insulation of building elements. When additional mass is incorporated 
+
+===== PAGE 58 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 52 
+into walls, floors or ceilings, the added mass acts as a barrier that reduces transmission of sound 
+waves. The mass absorbs and dissipates the sound energy, preventing it from passing through 
+and entering (or escaping) the enclosed spaces. This improvement in sound insulation is 
+particularly effective in reducing airborne noise.  
+Use of additional skins of materials such as an additional layer of plasterboard with a cavity can 
+effectively reduce sound transmission. The depth of the cavity impacts its effectiveness and 
+helps to interrupt sound transmission path. Larger depth cavities provides better sound 
+insulation. 
+In addition, there are various other strategies that can contribute to better sound insulation, 
+including: 
+• the use of limp materials or materials with low stiffness  
+• the addition of damping, especially to thin stiff elements in a partition system. 
+3.4.2 Sound absorption 
+The sound insulation of a lightweight building element can be improved by introducing sound 
+absorption into cavities. Where absorption is already present, some marginal improvements can 
+be achieved by upgrading the sound absorption material.  
+The sound absorption performance of a material can be quantified by its noise reduction 
+coefficient (NRC). Different materials such as glass wool, rock wool, polyester fibre, natural wool 
+or cellulose fibre are sound absorptive. The sound absorption performance can be marginally 
+improved by: 
+• using thinner fibres within a material 
+• increasing the density of, and hence number of fibres within a given material 
+• increasing the thickness of the absorbing material itself. 
+3.5 Avoidance of sound leakage 
+3.5.1 Flanking 
+Flanking reduces the effectiveness of acoustically rated building elements that separate spaces. 
+Flanking should be minimised to ensure that the element performs to the desired level. Some 
+flanking paths are presented in Figure 3.12. 
+Typical problem flanking paths in units include:  
+• sound travelling through air conditioning ducting  
+• sound travelling through kitchen or toilet exhaust ducting 
+
+===== PAGE 59 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 53 
+• sound passing through gaps and weaknesses around building elements  
+• structure-borne sound passing through perimeter building elements, such as floors, ceilings 
+and façade walls which pass across a sound-rated wall 
+• sound passing through gaps and penetrations associated with building services 
+penetrations 
+• sound travelling through lift shafts or garbage chutes. 
+ 
+
+===== PAGE 60 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 54 
+Figure 3.12 Internal flanking paths 
+ 
+ 
+
+
+===== PAGE 61 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 55 
+3.5.2 Penetrations 
+• Design penetrations in acoustically rated building elements, such as ceilings, floors, walls, 
+bulkheads, and risers, so as not to reduce the sound rating of the building element.  
+• Design acoustic seals at penetrations to last as long as the building design life. 
+• Minimise the incidence of penetrations in sound-rated walls and floors. 
+• Minimise the incidence of other flanking paths in the design.  
+• Design for the sealing of all gaps at building element perimeters and penetrations, including 
+gaps behind skirting boards and cornices. 
+• It is not recommended to:  
+− use non-sound-rated downlights or other fittings in sound-rated ceilings 
+− install return air grilles on sound-rated doors 
+− leave untreated penetrations in sound-rated walls above ceilings. 
+3.5.3 Sealing of penetrations 
+The acoustic performance of a system is severely degraded by the presence of gaps. All gaps in 
+acoustically rated walls and floors, especially around penetrations should be acoustically sealed 
+to minimise flanking (refer to Figure 3.13). 
+The method of sealing should reflect the environment where the penetration occurs. The seal 
+normally has to remain effective over the life of the building. Sealing is best performed on both 
+sides of the element. The sealing treatments are most effective where the penetrations are cut 
+neatly and are not any larger than necessary.  
+To maintain suitable long-term performance an acoustic seal should be: 
+• fire-rated 
+• heat and temperature resistant  
+• weatherproof 
+• remain flexible over the life of the building  
+• able to withstand movement 
+• resistant to chemicals.  
+ 
+
+===== PAGE 62 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 56 
+Figure 3.13 Sealing of flanking paths 
+ 
+3.6 Building movement 
+Buildings have the potential to move over time. Any settling of the building can translate into 
+movement at the joints. Joints are a prime source of sound intrusion in buildings. As an example, 
+set plaster joints on concrete or set mortar joints have the potential to crack with building 
+movement over time. The residual sound intrusion can be excessive through such joints.  
+It is important to maintain acoustic ratings by using a design which allows for building movement, 
+especially at penetrations and junctions. This can be done by designing for a flexible acoustic 
+seal between: 
+• internal walls  
+• common walls and the adjoining façade  
+• walls and floors/ceilings. 
+The sealant or mastic applied at joints as sound barriers should be suitably dense, sufficiently 
+flexible and maintain their flexibility over time. It is important to note that acoustic sealants are 
+not the same as ordinary sealant or caulk. They are formulated to be permanently flexible.  
+
+
+===== PAGE 63 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 57 
+A normal sealant or caulk can crack or shrink or separate from substrates over time and allow for 
+passage of the sound. 
+Where joints are sealed with mastic, it is not good practice to smear the mastic on in a thin layer. 
+The depth of the mastic in the joint should be sufficient to provide the movement and strength 
+needed while maintaining the acoustic rating of the construction.  
+Typically, the depth of mastic should be equal to or greater than the width of the joint. Suitable 
+backing rods are also generally required. The manufacturer’s installation instructions should be 
+followed to ensure products work as designed. 
+3.7 Structure-borne sound insulation 
+Structure-borne sound is the audible sound generated by vibrations induced in the ground and/or 
+a structure. Vibration can be generated by impact or by direct contact with a vibrating machine.  
+When designing a building it is important to maintain acoustic ratings by using a design which 
+allows for building movement, especially at penetrations and junctions. A flexible acoustic seal 
+should be designed between internal walls, common walls, and adjoining facades and between 
+walls and floors/ceilings. 
+It is impossible to eliminate all structure-borne sound in a building, however the amount of 
+structure-borne sound can be reduced by increasing the vibration isolation in a system. This can 
+be done by: 
+• using a suitably soft connecting material such as rubber, neoprene, or isolation springs 
+between the elements within a building element 
+• designing and installing a break in continuity of a panel, for example using double studs 
+(not touching) instead of large single studs (refer to Figure 3.14)  
+• increasing the size of the air gap or cavity between the panels 
+• introducing vibration isolated floors to adjacent rooms located on a common slab. 
+
+===== PAGE 64 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 58 
+Figure 3.14 Vibration isolation treatments 
+ 
+ 
+
+
+===== PAGE 65 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 59 
+4 Construction 
+This chapter outlines good practice tips for construction. These should be applied during the 
+building phase. 
+4.1 General 
+• When using proprietary building elements, the specific installation instructions from 
+suppliers should be accurately followed.  
+• No substitutions should be permitted which have not been thoroughly documented and 
+approved by an acoustic consultant, manufacturer, supplier or testing authority. 
+• All building element systems should be constructed and installed in accordance with 
+manufacturing requirements. 
+• Design drawings should be followed. 
+• Where conflicts occur which have not been documented, designers should be consulted. 
+• Thorough inspections should be conducted and documented during construction. 
+4.2 Windows and external doors 
+• Seals should not be removed from sound-rated doors or windows. 
+• Acoustic seals on all sound-rated doors should be properly adjusted and operational. 
+4.3 Penetrations and gaps 
+• There should be no residual gaps around full-height walls. 
+• Joints at wall and floor perimeters should be sealed and airtight, using approved mastic. 
+• The depth of mastic in joints should be equal to or greater than the depth of the joint. 
+• Joints in dissimilar materials may open up if there is building movement. It is important that 
+the acoustic seal in joints will accommodate building movement. 
+• Gaps around all penetrations in sound-rated walls, floors and ceilings should be treated and 
+sealed to maintain acoustic ratings. This includes around bundles of cables as well as 
+around and above ducts installed close to a slab soffit overhead. 
+• All penetrations in sound-rated building elements should be neatly cut or drilled. Avoid 
+excessively sized penetrations. 
+
+===== PAGE 66 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 60 
+• The wall/floor around any large penetration should be rebuilt with the same material. Small 
+residual gaps at penetrations can be sealed with a suitable mastic (refer to Figure 4.1). 
+• Sealing should be effective, resilient, and resistant to the surrounding environment and 
+designed to last for the life of the building.  
+• It is not good practice to install insulation in small gaps over wide elements after installation. 
+The insulation should be planned and applied prior to installation. 
+• The normal tolerance in building construction should be considered when installing 
+penetrations and at wall/floor junctions. Revised detailing may be needed where residual 
+gaps are too large to allow effective sealing with mastic. 
+• It is good practice to cut sizes of holes to suit. It is not advisable to knock large holes into 
+walls by using a sledgehammer or other similar method. 
+Figure 4.1 Treatment of gaps around penetrations 
+ 
+4.4 Floors/ceilings 
+• It should be ensured that the resilient rubber underlay used for isolated floors is not 
+‘bridged’ or short circuited by nails and screws connecting the floor to the slab underneath. 
+These penetrate the rubber underlay and diminish its performance. 
+
+
+===== PAGE 67 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 61 
+• Isolated floors should not be installed in contact with side walls. Isolation is also important 
+between the floor and side wall (refer to Figure 4.2). 
+• It is not good practice to bridge across breaks or vibration isolation joints in floor and ceiling 
+construction.  
+• Any penetrations in a sound-rated ceiling should be acoustically treated. 
+Figure 4.2 Treatment around the perimeter of isolated floors 
+ 
+4.5  Wall construction 
+4.5.1 Wall design 
+Sufficient space should be provided to allow construction of suitable sound-rated walls. 
+Take care when fixing wall furniture so it does not bridge across vibration isolation elements in 
+walls. This is particularly the case for fixing of cupboards, toilet bowls, clothes dryers and other 
+appliances to drywall cladding or its associated stud work rather than to any free-standing 
+masonry or the separate studs forming the discontinuous wall behind the cladding (refer to 
+Figure 4.3) 
+
+
+===== PAGE 68 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 62 
+Figure 4.3 Mounting of wall furniture 
+ 
+4.5.2 Sheeted walls 
+• Joints in sheeting systems, including plasterboard systems, should be staggered and, 
+where multiple layers of material are used on walls, the joints must not overlap (refer to 
+Figure 4.4). 
+Full height walls should not stop short of the slab soffit or roof above. 
+• There should be no residual gaps around full-height sound-rated walls, especially around 
+roof structure such as rafters and purlins (refer to Figure 3.3).  
+• Any discontinuity in isolated walls should not be ‘bridged’ or short circuited by:  
+− nails or screws 
+− noggins, battens or packers 
+− joists or floor boards on the floor supporting the wall (refer to Figure 3.4 and  
+Figure 3.5). 
+• Building debris or rubbish should not be left in wall or ceiling cavities. This material can 
+span the discontinuity causing bridging or short circuiting. 
+• When installing sanitary fixtures onto walls, noggins which span across the discontinuous 
+studs on both sides of the wall should not be installed.  
+• Cupboards, wall furniture, appliances and toilet cisterns should be mounted onto the 
+cladding/supports of the front wall only.  
+
+
+===== PAGE 69 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 63 
+• In timber construction, it is good practice to install walls and ceilings on isolation mounts to 
+improve impact isolation between floors (refer to Figure 4.5). 
+• Insulation should be evenly spaced throughout the entire cavity where needed.  
+Figure 4.4 Optimum plasterboard sheeting configuration 
+ 
+Figure 4.5 Wall and ceiling isolation in timber construction 
+ 
+
+
+===== PAGE 70 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 64 
+4.5.3 Masonry walls 
+• Joints in sheeting in dry wall/masonry combination systems should be staggered and, 
+where multiple layers of material are used on walls, the joints should not overlap. 
+• Full height walls should not stop short of the slab soffit or roof above. 
+• There should be no residual gaps around full-height sound-rated walls, especially around 
+roof structure such as rafters and purlins (refer to Figure 3.3).  
+• Discontinuity in isolated walls should not be ‘bridged’ or short circuited by noggins, battens 
+or packers of plaster linings. 
+• There should be no building debris or rubbish left in wall or ceiling cavities. This material 
+can span the discontinuity causing bridging or short circuiting. 
+• Cupboards, wall furniture, appliances and toilet cisterns should be mounted onto the 
+cladding/supports of the front wall only. Wall elements should not be supported behind a 
+wall discontinuity (refer to Figure 4.3). 
+• Services should not be chased into masonry or concrete walls. 
+• Full-mortar joints should be used where a sound-rated masonry wall system is used. 
+Special care is required at perpends to ensure full-mortar joints (refer to Figure 4.6). 
+• Insulation should be evenly spaced throughout the entire cavity where needed.  
+Figure 4.6 Treatment of joints in masonry walls 
+ 
+
+
+===== PAGE 71 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 65 
+4.6 Services 
+• Waste pipes, water supply pipes, stormwater pipes and ductwork in ceiling cavities and 
+risers should be acoustically treated. Alternatively, acoustically treat the ceilings and riser 
+walls themselves as well as any penetrations in these elements.  
+• Installation of pipe/duct lagging should be gap-free and in accordance with the 
+manufacturer’s requirements. 
+• Electrical wiring or lighting should not be covered with acoustic blankets if not designed to 
+be covered. 
+• Flexible connectors in pipes should be operational and not bridged. 
+• Unnecessary bends and elbows in pipes and ducts should be avoided. 
+• Resilient fixings of pipes and ducts to party-walls should be used.  
+• Pipes and ducts should only be attached to the side of the wall to which the services 
+belong. It is not good practice to bridge across wall discontinuities.  
+• An access door or panel that provides access to a duct, pipe or other services should not 
+open into any habitable room such as a bedroom.  
+ 
+
+===== PAGE 72 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 66 
+5 Refurbishing existing buildings 
+Refurbishments have the potential to severely compromise the acoustic ratings within a building.  
+In addition, the majority of buildings undergoing refurbishment were constructed during a period 
+when previous regulatory regimes had lower acoustic standards in place. Therefore, when 
+substituting materials during the refurbishment process, it becomes essential to ensure that the 
+new materials meet the current, higher acoustic standards.  
+Failing to do so could compromise the building's sound insulation performance and potentially 
+lead to non-compliance with current NCC building regulations. It is crucial to seek expert advice, 
+conduct necessary testing, and obtain proper documentation and approvals to ensure that any 
+material substitutions do not negatively impact the building's sound insulation capabilities. 
+To this end, the following areas may require extra detailing and attention.  
+• Wall constructions (refer to section 3.2.1). 
+• Limiting flanking paths around the walls, ceilings and floors (refer to Section 3.5). 
+• The treatment applied to seal gaps should be sufficiently flexible to allow for building 
+movement (refer to section 3.6). 
+• Controlling sound and vibration travelling through timber floorboards, joists, beams, external 
+walls or ceilings (refer to Figure 3.4).  
+• The avoidance of fire hazards from the acoustic treatment, for example by covering 
+electrical wiring or lighting with acoustic insulation.  
+• Gaps appearing over time from building movement. This limits the sound isolation and may 
+lead to non-compliance with the NCC. 
+• Robust acoustic design to allow for site conditions where surfaces may not be straight, true 
+or square. This is especially an issue around joints, walls, floors, ceiling junctions and 
+penetrations.  
+• Adding mass to building elements where upgrading acoustic ratings without exceeding 
+maximum acceptable structural loading (refer to section 3.4). 
+• Variations in the building fit out driven by unexpected site conditions which may require 
+revised designs. 
+• Where renovation is performed, for example in a unit, it is advisable to ensure that sufficient 
+detail is readily available to the future occupants via the body corporate for any floor, ceiling 
+and wall modifications made (refer to section 5.1).  
+
+===== PAGE 73 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 67 
+5.1 Floor, ceiling and wall modifications 
+5.1.1  Floor design 
+Some designs require floors to be sound-rated to meet the NCC provisions. Carpet may only be 
+one option to meet the impact rating on floors. Alternative hard-floor systems also need to be 
+considered. This is the case whether the hard floor covering is installed as part of the initial fit out 
+or as part of a future occupant upgrade. The design for both the hard floor covering and carpet 
+options should allow for: 
+• sufficient ceiling height being maintained in all rooms 
+• an excessively high step is not formed between carpet and hard floor covering systems 
+within the unit. 
+Where carpet is replaced during renovation works by hard floor finishes, the impact isolation 
+performance of the floor will invariably reduce. This reduction in performance can result in as 
+much as 25 to 30 dB extra sound transmission. This increased sound is difficult to reduce, and 
+the use of resilient suspended ceilings becomes an important part of any design solution.  
+After the installation of resilient ceilings and floors, a NCC compliant floor/ceiling system may still 
+transmit sound at 15 to 20 dB higher than the original carpet design. It is not unusual for 
+complaints to be registered by the neighbour in the unit underneath in this situation. 
+5.1.2 Ceiling design 
+Where carpet is installed on the floor above a ceiling to comply with the floor impact 
+requirements, consideration should be given to the potential of occupants to upgrade their own 
+carpets to hard floor coverings.  
+The replacement of carpet with hard floor coverings in the unit or dwelling above can cause a 
+reduction in acoustic performance and this may require an acoustically rated ceiling to be 
+installed underneath. The ceiling would need to be installed at the time of building construction 
+as there is no guarantee of access to the unit or dwelling underneath to retrofit later.  
+Penetrations in sound-rated ceilings which require acoustic detail to be developed include: 
+• downlights 
+• mechanical ventilation 
+• air conditioning 
+• ceiling speakers 
+• fire sprinklers. 
+
+===== PAGE 74 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 68 
+The construction details should be made available to the occupants as part of the body corporate 
+approval for these works. The combined ceiling and floor treatments should be covered (refer to 
+Figure 5.1) 
+Figure 5.1 Sound-rated treatments for ceilings and floors 
+ 
+5.2  Substitution of materials 
+The sound insulation performance of modern, high-performance building elements is highly 
+sensitive to specific material chosen for construction. Different materials have varying sound 
+absorption and transmission properties. Therefore, substituting building materials without proper 
+consideration can have a significant impact on the sound insulation of a building. 
+Extensive testing by product suppliers has identified the most efficient way to meet the specified 
+performance standards for different building systems. The substitution of materials may also 
+affect the compatibility and integration of different components within the building system. 
+It is important to avoid substituting materials unless it can be proven that the new material will not 
+compromise the overall insulation performance of the building element. Any substitution has the 
+potential to reduce sound insulation levels and may lead to non-compliance with NCC building 
+regulations. Therefore, substitutions should only be considered after seeking expert advice, 
+conducting testing to ensure acceptable residual performance, and obtaining the necessary 
+approvals. This applies to all aspects of the design, including cavity insulation materials, cladding 
+or masonry products used in walls, vibration isolation products for resilient floors, walls, and 
+ceilings, as well as acoustic sealants. 
+ 
+
+
+===== PAGE 75 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 61 
+  
+Appendices 
+ 
+
+===== PAGE 76 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 62 
+Appendix A Abbreviations 
+The following table, Table A.1 contains abbreviations and symbols used in this document. 
+A. 1 Abbreviations and symbols 
+Abbreviations Meaning 
+ABCB Australian Building Codes Board 
+AS Australian Standard 
+BCA Building Code of Australia 
+CI Spectrum adaptation value 
+Ctr Spectrum adaptation value 
+dB decibels 
+DnT,w Weighted standardised level difference 
+DTS Deemed-to-Satisfy 
+Hz Hertz 
+ISO International Standardization Organisation 
+LnT,w Weighted standardised field impact sound pressure level 
+Ln,w Weighted normalised impact sound pressure level 
+NCC National Construction Code 
+NRC Noise reduction coefficient 
+NZS New Zealand Standard 
+Rw Weighted Sound Reduction Index 
+STC Sound Transmission Class 
+SOU Sole-occupancy unit 
+VM Verification Method 
+ 
+
+===== PAGE 77 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 63 
+Appendix B Glossary 
+B.1 NCC defined terms 
+NCC definitions for the terms used in this handbook can be found in Schedule 1 of NCC 2022 
+Volumes One, Two and Three. 
+Building classifications can be found in Part A6 Building Classifications of NCC 2022  
+Volumes One, Two and Three. 
+B.2 Other terms  
+Ctr: A value used to modify the measured sound insulation performance of a wall or floor. This 
+sound insulation performance can be described by the RW or the DnT,w terms. However, these are 
+not accurate for all sounds, especially for low frequency bass sound from modern stereo 
+systems. 
+The value is referred to as a “spectrum adaptation value” and is added to either the RW or DnT,w. 
+AS/NZS 1276 sets out testing methodologies for the sound insulation properties of building 
+elements and spectrum adaptation values and explains their use.  
+The Ctr for a building element varies according to the insulating material employed. For example, 
+a 90 mm cavity brick masonry wall has a Ctr value of -6, as does a wall constructed of 150 mm 
+core-filled concrete blocks. By contrast, a brick veneer wall may have a Ctr of -12.  
+Smaller negative Ctr values are more favourable than large negative values. 
+DnT,w: A measure of the sound insulation performance of a building element. It is characterised 
+by the difference in sound level on each side of a wall or floor. It is measured in the field and is 
+therefore subject to the inherent inaccuracies involved in such a measurement. 
+The term is referred to as the “weighted standardised field level difference” and it indicates the 
+level of speech privacy between spaces. It is a field measurement that relates to the RW 
+laboratory measurement. The higher the number the better the insulation performance.  
+Field test: A test of the overall building performance, rather than the performance of a building 
+element. See also ‘laboratory test’. 
+The sound insulation performance of a building can be measured by conducting a field test. The 
+field test is a test which is conducted, typically at the construction site when the spaces are ready 
+for testing.  
+
+===== PAGE 78 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 64 
+A field test is conducted in a non-ideal acoustic environment. It is generally not possible to 
+measure the performance of an individual building element as the results can be affected by 
+numerous field conditions (refer to Appendix D). 
+Flanking: The mechanism of sound passing from one space to another through paths around a 
+building element rather than through the building element material directly (refer to  
+section 3.5.1). 
+Frequency: All sounds can be described by their frequency or their mix of frequencies. Sounds 
+have a mix of frequencies which are peculiar to the nature of the sound generator. For example, 
+the sound of a tiny bell has a mix of predominantly high frequencies, and the sound of a bass 
+drum or large truck has a mix of predominantly lower frequencies. Frequency can be measured 
+on a scale in units of Hertz (Hz).  
+Impact sound: The sound in a room, caused by impact or collision with the perimeter walls or 
+floor of the room. The impact sound of interest to the NCC occurs in the adjoining tenancy and 
+occurs on the floor or common wall of that tenancy. Typical sources of impact are footsteps on 
+the floor above a tenancy and the slamming of doors on cupboards mounted on the common 
+wall between tenancies.  
+LnT,w: A measure of the sound impact performance of a floor. It is characterised by how much 
+sound reaches the receiving room from a standard tapping machine. It is measured in the field 
+and is therefore subject to the inherent inaccuracies involved in such a measurement. 
+The term is referred to as “weighted standardised field impact sound pressure level”. It is a field 
+measure of the amount of impact sound reaching a space via a floor. It is the equivalent field 
+measurement to the Ln,w laboratory measurement. The lower the number the better the 
+performance. 
+Ln,w: A measure of the sound impact performance of a floor. It is measured in very controlled 
+conditions in a laboratory and is characterised by how much sound reaches the receiving room 
+from a standard tapping machine. 
+The term is referred to as the “weighted normalised impact sound pressure level”. It is a 
+laboratory measure of the amount of impact sound reaching a space via the ceiling/floor 
+overhead. The lower the number the better the performance. 
+Laboratory test: The sound insulation performance of a building element can be accurately 
+measured in a laboratory. The sound insulation performance of the entire building cannot. This is 
+because laboratory tests are not subject to the same site conditions as building elements 
+installed in the field (refer to Appendix D and ‘field test’).  
+Noise reduction coefficient (NRC): A measure of the ability of a material to absorb sound. The 
+NRC is generally a number between 0 and 1. A material with an NRC rating of 1 absorbs 100% 
+of incoming sound, that is, no sound is reflected back from the material. 
+
+===== PAGE 79 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 65 
+RW: A measure of the sound insulation performance of a building element. It is measured in very 
+controlled conditions in a laboratory. 
+The term symbolises the “weighted sound reduction index” and is a laboratory measurement 
+similar to STC. RW is measured and calculated using the procedures from AS/NZS 1276 and  
+AS 1191. The related field measurement is the DnT,w. The higher the number the better the 
+performance.  
+Sound: Sound can be classified into airborne and structure-borne components to identify the two 
+mechanisms by which sound is transferred.  
+Airborne sound: Airborne sound is sound that travels through air, generally through a direct or 
+open path between the sound source and the listener (refer to Figure B.1) 
+Structure-borne sound: Audible sound which is generated by vibrations induced in the ground 
+and/or a structure. Vibration can be generated by impact or by direct contact with a vibrating 
+machine (refer to Figure B.1). 
+Figure B.1 Airborne and structure-borne sound 
+ 
+Structure-borne sound cannot be attenuated by barriers or walls but requires the isolation of the 
+vibration itself. Isolation is improved by using a resilient element such as rubber, neoprene or 
+springs in the structure, or by a gap in the structure through which the vibration cannot pass. 
+Examples of structure-borne sound include the sound of air-conditioning plant in a plant room, 
+the sound of footsteps on the floor above a listener and the sound of a lift car passing in a shaft. 
+See also ‘impact sound’. 
+Sound absorption: The ability of a material to absorb sound. In doing so, the sound energy is 
+converted to heat energy. Sound absorptive materials are useful within internal cavities of double 
+
+
+===== PAGE 80 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 66 
+skin partitions as they help absorb sound within the cavity and hence improve the acoustic 
+performance of the building element. A measure of sound absorption is the NRC. 
+Efficient sound absorbers are typically made from glass wool, rock wool, polyester fibre, natural 
+wool or cellulose fibre. 
+Sound insulation: Sound Insulation refers to the ability of a construction or building element to 
+limit sound transmission through the building element. The sound insulation of a material can be 
+described by the RW or DnT,w of the system.  
+Sound Transmission Class (STC): A measure of the sound insulation performance of a 
+building element. It is measured in very controlled conditions in a laboratory. 
+Specification: A specification provides technical data in the NCC which is relied upon as a 
+component of one or more DTS Provisions. A specification may be referenced by multiple DTS 
+Provisions, wherever the same data needs to be referred to by different parts of the NCC. 
+Including this common information in a single specification avoids the need to repeat the same 
+information across multiple parts of the NCC. 
+Standardising: A method of adjusting the measured sound results so that they are independent 
+of the measuring space. The standardising of results is the NCC required method of adjusting 
+field measured results to give consistency. This relates to the Verification Methods in NCC 
+Volume One and Two. 
+The sound level in a room is affected by the amount of sound entering the room as well as by the 
+acoustic behaviour of the room. For example the standardised LnT,w impact sound pressure level 
+measured in the field is dependent on the amount of sound entering through the floor and also 
+the amount of absorptive material in the receiving room. Impact sound pressure level results are 
+standardised when the reverberation time within the receiving room is set to half a second. See 
+also ‘normalising’. 
+
+===== PAGE 81 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 67 
+Appendix C Compliance with the NCC  
+C.1 Responsibilities for regulation of building and plumbing in 
+Australia 
+State and territory governments are responsible for regulation of building, plumbing and 
+development/planning in their respective state or territory. 
+The NCC is a joint initiative of the Commonwealth and State and Territory Governments in 
+Australia and is produced and maintained by the ABCB on behalf of the Australian Government 
+and each state and territory government. The NCC provides a uniform set of technical provisions 
+for the design and construction of buildings and other structures, and plumbing and drainage 
+systems throughout Australia. It allows for variations in climate and geological or geographic 
+conditions. 
+The NCC is given legal effect by building and plumbing regulatory legislation in each state and 
+territory. This legislation consists of an Act of Parliament and subordinate legislation (e.g. 
+Building Regulations) which empowers the regulation of certain aspects of buildings and 
+structures, and contains the administrative provisions necessary to give effect to the legislation. 
+Each state's and territory's legislation adopts the NCC subject to the variation or deletion of some 
+of its provisions, or the addition of extra provisions. These variations, deletions and additions are 
+generally signposted within the relevant section of the NCC and located within appendices to the 
+NCC. Notwithstanding this, any provision of the NCC may be overridden by, or subject to, state 
+or territory legislation. The NCC must therefore be read in conjunction with that legislation. 
+C.2 Demonstrating compliance with the NCC 
+Compliance with the NCC is achieved by complying with the NCC Governing Requirements and 
+relevant Performance Requirements. The Governing Requirements are a set of governing rules 
+outlining how the NCC must be used and the process that must be followed. The Performance 
+Requirements prescribe the minimum necessary requirements for buildings, building elements, 
+and plumbing and drainage systems. They must be met to demonstrate compliance with the 
+NCC. There are 3 options available to demonstrate compliance with the Performance 
+Requirements. These are: 
+• a Performance Solution  
+• a Deemed-to-Satisfy Solution, or  
+• a combination of a Performance Solution and a Deemed-to-Satisfy Solution.  
+
+===== PAGE 82 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 68 
+All compliance options must be assessed using one or a combination of Assessment Methods, 
+as appropriate. These include: 
+• Evidence of Suitability 
+• Expert Judgement 
+• Verification Methods 
+• Comparison with DTS Provisions. 
+A figure showing the hierarchy of the NCC and its compliance options is provided in Figure C.1. 
+It should be read in conjunction with the NCC.  
+To access the NCC or for further general information regarding demonstrating compliance with 
+the NCC visit the ABCB website. 
+  
+
+===== PAGE 83 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 69 
+Figure C.1 Demonstrating compliance with the NCC 
+ 
+
+===== PAGE 84 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 70 
+Appendix D Acoustic testing and specification 
+D.1 Difference between laboratory and field-testing results 
+The airborne sound insulation performance of walls is characterised by the “weighted sound 
+reduction index”, Rw, which may be modified to give Rw + Ctr, to account for low frequency sound 
+energy. In a similar way, the measured floor impact performance, Ln,w can also have a spectrum 
+correction, CI applied to it and, up to 2015 this was an option in the BCA. However, while the  
+ISO 717-2 (2014) standard from the International Standards Organisation has retained this 
+option, it was removed from the BCA in 2016 at the request of industry. 
+The terms Rw and Ln,w describe acoustic properties of a material or building element. They are 
+only measurable in a laboratory where accurate measurements are conducted with precise 
+techniques and equipment and where noise travelling via flanking paths has been minimised in 
+vibration isolation chambers.  
+The measured performance of a floor or wall panel in the field can be affected by flanking paths 
+and non-ideal measurement conditions as outlined below. 
+• The size or volume of the test rooms being too small to allow uniform sound distribution at 
+all frequencies.  
+• The size of the building element under test not being uniform. Variations in the size can 
+give both higher and lower readings when compared to standard panel sizes in 
+laboratories.  
+• Absorption in the field space not being uniform and invariably being greater than that in a 
+laboratory. Noise measurements in such environments can have a reduced accuracy.  
+• Flanking paths via floors, ceilings, penetrations and external walls could reduce the 
+element’s apparent performance.  
+• Flanking via structure-borne noise may reduce the element’s apparent performance.  
+• Background noise within field spaces are generally higher than in laboratories, potentially 
+reducing the accuracy of tests. 
+Other factors can also reduce the performance of wall and floor systems. These include: 
+• insufficient acoustic treatment around penetrations 
+• insufficient acoustic sealing at the wall junctions with surrounding walls, floors, ceilings, or  
+• substandard wall/floor construction. 
+
+===== PAGE 85 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 71 
+D.2 Acoustic specification 
+An acoustic specification is recommended for each project undertaken. The following information 
+summarises the necessary elements of the specification. Additional requirements should be 
+incorporated as needed.  
+• Nominate the acoustic performance rating for all building elements between adjoining units. 
+• Nominate the materials and building systems that have to meet the acoustic performance 
+requirements. This includes all systems proposed for construction and also where 
+alternative systems are available to the building occupants, for example changing from 
+carpet to hard floor finishes by building occupants.  
+• Nominate that, where a proprietary system is used, the manufacturer’s installation 
+instructions should be strictly followed. 
+• Nominate the procedure for reviewing and approving alternative construction techniques. 
+• Nominate details on construction techniques, for example penetrations, building element 
+constructions and the treatment of services.  
+• Specifying the process for establishing compliance, i.e. whether laboratory tested results or 
+field tested results take precedence. 
+• Nominate who is responsible for, and the frequency of periodic inspections.  
+• Nominate the procedure for rectifying defects. 
+• Nominate who is responsible for, and the extent of, any compliance measurements to be 
+conducted at the site. 
+• Nominate the maximum acceptable deviation in performance between field and laboratory 
+results. 
+• Address whether the sound insulation performance of the walls or floors relies on an 
+installed acoustic ceiling system and the minimum current and future requirements of that 
+ceiling, i.e. what treatments are required to modify the ceiling.  
+• Specifying how many penetrations are permitted in the wall or floor/ceiling to maintain the 
+acoustic rating. Consider alternative forms of treatment where excessive numbers of 
+penetrations are proposed. 
+• Specify the method of treatment and support for services within wall and ceiling cavities. 
+• Reference to acoustic compliance does not necessarily provide compliance within other 
+NCC requirements, for example fire-rating, structural loading, wind loading, weather 
+proofing and energy efficiency. 
+
+===== PAGE 86 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 72 
+D.3 Testing 
+A testing regime is required when the NCC sound insulation Verification Methods are used to 
+demonstrate compliance. The main features of acoustic testing are outlined below. For a full 
+guide on testing methods refer to the ABCB Handbook Evidence of Suitability, which can be 
+accessed through the ABCB website. 
+D.3.1 Regime of testing 
+A selection of randomly chosen building elements should be tested. A risk assessment should be 
+performed to determine: 
+• how many building elements need to be evaluated 
+• which building elements require evaluation 
+• for which building elements are the test results valid. 
+As a minimum, the following testing is recommended for: 
+• representative walls and floors/ceilings of all different types 
+• any building element which had faults or defects during construction. 
+In addition to the above: 
+• at least one test on each storey 
+• 10% of the common walls and separating floors/ceilings on a project should be tested 
+• for difficult or complex projects, more testing should be undertaken. 
+Other building elements should also be tested where there is a higher risk of non-compliance. 
+Note that the higher the building element acoustic performance, or the more complex the 
+structure, the greater the risk of failure. 
+It is worth noting that the building occupants themselves can commission acoustic testing on 
+their own elements. Where such testing demonstrates failure with the NCC field performance 
+requirements, then the procedures outlined in section 2.4.5 and section 2.5.5 should be used to 
+resolve disputes. 
+D.3.2 Testing of completed units 
+Acoustic testing can be conducted in rooms before they are fully complete. For example, it is not 
+necessary to have a room which is fully carpeted and furnished. The minimum room 
+requirements are as follows. 
+• The room to be tested is to be a defined volume, preferably rectangular in shape with all 
+four (or more) walls complete and fully sealed. The preferred size of floors and walls is  
+10 m2. 
+
+===== PAGE 87 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 73 
+• Both external and any internal glazing, and all doors, access panels and hatches to the 
+rooms under consideration are to be installed and complete. 
+• No furniture or building materials should cover or shield the building element under test, on 
+either side of the building element. All penetrations to the building element, and fittings, 
+such as general purpose outlets, light switches, fire sprinklers, and mechanical registers, 
+are to be installed and complete. 
+• Where testing sound-rated doors, then a comparative test should be conducted with the 
+door open and closed. The overall performance of the wall/door combination is evaluated 
+and the performance of the door itself deduced from the results. 
+D.3.3 Reporting requirements 
+Any test results should, as a minimum, state the following: 
+• the name of the organisation and test officer who conducted the tests 
+• the name of the organisation and the person who commissioned the tests 
+• the date and place of the testing 
+• which standards were used as references for the test procedure. Where departure from the 
+standards was necessary, a statement on the effect of this departure on the results 
+• a description of the test sample including age, size, weight and composition 
+• a description of the test rooms including dimensions, volumes and finishes within the 
+spaces 
+• a description of the test procedure and equipment used for testing 
+• a description of the microphone locations and source speaker/tapping machine locations 
+• a description of the test sound and how it was produced 
+• an indication of results which have been affected by the test conditions, and a statement of 
+the effect, for example, of a high background sound during the testing, sound via flanking 
+paths, etc 
+• a summary of the measured reverberation times, source room sound levels and receiver 
+room sound levels in each frequency band 
+• the overall weighted standardised results and third-octave band frequency results, both 
+tabulated and graphed 
+• an indication of the overall precision of the results. 
+
+===== PAGE 88 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 74 
+Appendix E Resources 
+E.1 Australian & International Standards 
+The following Australian & International Standards may be applicable when measuring the 
+acoustic performance of building elements: 
+• AS 1191 (2002) ‘Acoustics – Method for laboratory measurement of airborne sound 
+transmission loss of building partitions’, Standards Australia International Ltd. 
+• AS/NZS 1276.1 (19992) ‘Rating of sound insulation in buildings and of building elements – 
+Part 1 – Airborne sound insulation’, Standards Australia International Ltd. 
+• AS/NZS ISO 717.1 (2004) ‘Acoustics - Rating of sound insulation in buildings and of 
+building elements - Airborne sound insulation’, Standards Australia/Standards New 
+Zealand. 
+• AS ISO 140.6 (2006) ‘Acoustics – Measurement of sound insulation in buildings and of 
+building elements – Part 6 – Laboratory measurements of impact sound insulation of floors’, 
+Standards Australia International Ltd. 
+• AS ISO 717.2 (2004) ‘Acoustics – Rating of sound insulation in buildings and of building 
+elements – Part 2 – Impact sound insulation’, Standards Australia International Ltd. 
+E.2 Other sources 
+ABCB Handbook: Performance Solution Process abcb.gov.au 
+ABCB Handbook: Evidence of Suitability abcb.gov.au 
+E.2.1 Useful textbooks 
+• D. Bies, C. Hansen & C. Howard (2018) ‘Engineering Noise Control’, Taylor and Francis 
+Group 
+• L. Beranek (2005) ‘Noise and Vibration Control’, John Wiley & Sons, Inc. 
+• P. Lord & D. Templeton (1995) ‘Detailing for Acoustics’, Taylor and Francis Group 
+ 
+2 Available superseded 
+
+===== PAGE 89 =====
+Sound transmission and insulation in buildings 
+Handbook 
+abcb.gov.au Page 75 
+E.2.2 Associations and Professional Bodies 
+The following organisations (listed alphabetically) can provide additional information on acoustic 
+issues related to building construction: 
+Association of Australian Acoustical Consultants aaac.org.au  
+Association of Wall and Ceiling Industries – Aus & NZ awci.org.au 
+Australian Acoustical Society acoustics.org.au 
+Australian Institute of Refrigeration, Air Conditioning & Heating airah.org.au 
+Australian Glass and Window Association agwa.com.au 
+Cement, Concrete and Aggregate Australia ccaa.com.au 
+Concrete and Masonry Association of Australia cmaa.com.au 
+Wood Solutions woodsolutions.com.au 
+ 

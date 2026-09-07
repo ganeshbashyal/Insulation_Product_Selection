@@ -1,0 +1,32 @@
+{
+  "family_id": "AIRCELL_RETROSHIELD_XL",
+  "family_name": "Aircell Retroshield XL",
+  "datasheet_pdf_url": "",
+  "sds_url": "",
+  "status": "ok",
+  "researched_at": "2026-09-06",
+  "spec": {
+    "range": [
+      {
+        "c0": "Historical Variant",
+        "c1": "Core Matrix",
+        "c2": "Thickness",
+        "c3": "Roll Size",
+        "c4": "Status",
+        "c5": "Direct Current Replacement"
+      },
+      {
+        "c0": "Retroshield XL",
+        "c1": "Cross-linked closed cell polyolefin foam",
+        "c2": "8.0 mm – 10.0 mm",
+        "c3": "1350 mm × 22.25 m",
+        "c4": "Discontinued",
+        "c5": "Kingspan AIR-CELL Insulbreak 80"
+      }
+    ]
+  },
+  "retrieval": {},
+  "source_excerpt": null,
+  "engine": "knowledge_base_txt",
+  "range_source": "manufacturer granular sizing matrix (knowledge-base dump)"
+}

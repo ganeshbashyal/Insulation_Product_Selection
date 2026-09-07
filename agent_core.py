@@ -26,6 +26,7 @@ from pathlib import Path
 import llm_client
 import interaction_store
 import size_index
+from retrieval_hygiene import ranker_safe_terms
 from bot_engine import (
     PRIORITY_LABELS,
     rank_families,
@@ -103,9 +104,11 @@ def load_families() -> list[dict]:
                 except (json.JSONDecodeError, OSError):
                     retrieval = {}
                 if retrieval:
-                    family["keywords"] = sorted(set(family.get("keywords", [])) | set(retrieval.get("search_keywords") or []) | set(retrieval.get("problem_keywords") or []))
-                    family["applications"] = sorted(set(family.get("applications", [])) | set(retrieval.get("placement") or []) | set(retrieval.get("use_cases") or []))
-                    family["not_for"] = retrieval.get("not_for") or []
+                    # ranker_safe_terms keeps long scenario sentences (valuable for
+                    # retrieval cards/embeddings) out of lexical keyword matching
+                    family["keywords"] = sorted(set(family.get("keywords", [])) | set(ranker_safe_terms(retrieval.get("search_keywords"))) | set(ranker_safe_terms(retrieval.get("problem_keywords"))))
+                    family["applications"] = sorted(set(family.get("applications", [])) | set(ranker_safe_terms(retrieval.get("placement"))) | set(ranker_safe_terms(retrieval.get("use_cases"))))
+                    family["not_for"] = ranker_safe_terms(retrieval.get("not_for"))
                     family["priority_fit"] = retrieval.get("priority_fit") or []
                     family["rag_summary"] = retrieval.get("rag_summary") or ""
             families.append(family)

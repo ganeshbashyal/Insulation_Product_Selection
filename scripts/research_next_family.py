@@ -41,11 +41,13 @@ from generate_family_literature import main as _lit_main  # noqa: F401  (import 
 TERMINAL_STATUSES = {"ok", "no_pdf_found", "fetch_failed", "no_text", "identity_mismatch"}
 
 
-def pending_families() -> list[tuple[str, dict]]:
+def pending_families(only_manufacturer: str | None = None) -> list[tuple[str, dict]]:
     """Families not yet successfully researched AND not at a terminal dead-end."""
     pending = []
     for path in sorted(ROOT.glob("knowledge/*/families.json")):
         manufacturer_dir = path.parent.name
+        if only_manufacturer and manufacturer_dir.casefold() != only_manufacturer.casefold():
+            continue
         data = json.loads(path.read_text(encoding="utf-8"))
         for family in data["families"]:
             family.setdefault("manufacturer", manufacturer_dir.title())
@@ -62,14 +64,47 @@ def pending_families() -> list[tuple[str, dict]]:
     return pending
 
 
-def process_one() -> str | None:
-    pending = pending_families()
+def process_one(only_manufacturer: str | None = None) -> str | None:
+    pending = pending_families(only_manufacturer)
     if not pending:
         return None
     manufacturer_dir, family = pending[0]
     slug = agent.slugify(family["name"])
     print(f"researching: {manufacturer_dir} / {family['name']}")
-    result = agent.process_family(manufacturer_dir, family, delay=0.5)
+    research_file = agent.research_path(manufacturer_dir, slug)
+    command = [
+        sys.executable,
+        str(ROOT / "scripts" / "tds_research_agent.py"),
+        "--only",
+        manufacturer_dir,
+        "--family",
+        family["family_id"],
+        "--delay",
+        "0.5",
+    ]
+    try:
+        completed = subprocess.run(
+            command,
+            cwd=ROOT,
+            capture_output=True,
+            text=True,
+            timeout=300,
+            check=False,
+        )
+        if completed.stdout:
+            print(completed.stdout.rstrip())
+        if completed.stderr:
+            print(completed.stderr.rstrip())
+    except subprocess.TimeoutExpired:
+        agent._write(research_file, family, None, None, None, "timeout")
+        result = "timeout"
+    else:
+        result = "unknown"
+        if research_file.exists():
+            try:
+                result = json.loads(research_file.read_text(encoding="utf-8")).get("status", "unknown")
+            except (json.JSONDecodeError, OSError):
+                pass
     print(f"  -> {result}")
     if result == "ok":
         # regenerate just this manufacturer's literature so the rich data lands
@@ -91,6 +126,7 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--loop", action="store_true", help="keep processing until none remain")
     parser.add_argument("--delay", type=float, default=3.0, help="seconds between families in --loop")
+    parser.add_argument("--only", help="process only one manufacturer directory")
     parser.add_argument("--status", action="store_true")
     args = parser.parse_args()
 
@@ -100,14 +136,14 @@ def main() -> None:
 
     if args.loop:
         while True:
-            result = process_one()
+            result = process_one(args.only)
             if result is None:
-                print("all families researched.")
+                print("no pending families for the selected scope.")
                 break
             time.sleep(args.delay)
     else:
-        if process_one() is None:
-            print("all families researched.")
+        if process_one(args.only) is None:
+            print("no pending families for the selected scope.")
 
 
 if __name__ == "__main__":

@@ -20,8 +20,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(ROOT))
 
 import tds_research_agent as agent
+from retrieval_hygiene import clean_retrieval
 
 
 def slugify(name: str) -> str:
@@ -129,6 +131,9 @@ def merge_family(family_id: str, body: str, dry_run: bool) -> str:
         "use_cases": bullet_list(body, "Positive Recommendation Rule"),
         "priority_fit": parse_priority_fit(body),
     }
+    # normalise before merging: the naive bullet/line splitting above produces
+    # line-wrap fragments and label bleed that must never reach the ranker
+    retrieval = clean_retrieval(retrieval)
     retrieval = {k: v for k, v in retrieval.items() if v}
     substitute = field_text(body, "Substitute Mapping") or field_text(body, "Substitute")
     upsell = field_text(body, "Accessories Upsell") or field_text(body, "Complementary Upsell")

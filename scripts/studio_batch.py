@@ -29,9 +29,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(ROOT))
 
 import tds_research_agent as agent
 from research_next_family import TERMINAL_STATUSES  # families already done/terminal
+from retrieval_hygiene import clean_retrieval
 
 BATCH_DIR = ROOT / "output" / "studio_batches"
 
@@ -67,7 +69,7 @@ Return ONLY a single JSON array (no markdown fences, no commentary, and NO inlin
   "not_for": up to 6 applications or situations this product should NOT be recommended for (negative matching to stop wrong recommendations),
   "rag_summary": one dense paragraph (3-5 sentences) combining what it is, what it is made of, where it goes, what problems it solves, and its key ratings - written for semantic search/embedding retrieval.
 
-Rules: report ONLY what manufacturer documents actually state for the spec fields; the retrieval/decision fields (search_keywords, problem_keywords, placement, priority_fit, use_cases, not_for, rag_summary) may be inferred from the documents and typical usage. Keep numbers and units exactly as written. Prefer the manufacturer's own site over resellers. If you cannot find a TDS for a family, still include its object with "found": false and empty spec fields, but DO still fill the retrieval/decision fields from your knowledge of the product type.
+Rules: report ONLY what manufacturer documents actually state for the spec fields; the retrieval/decision fields (search_keywords, problem_keywords, placement, priority_fit, use_cases, not_for, rag_summary) may be inferred from the documents and typical usage. Every entry in search_keywords, problem_keywords, placement and not_for must be a short standalone phrase (max ~6 words) — never a sentence, never a label like "Negative Filter:", no trailing punctuation. Keep numbers and units exactly as written. Prefer the manufacturer's own site over resellers. If you cannot find a TDS for a family, still include its object with "found": false and empty spec fields, but DO still fill the retrieval/decision fields from your knowledge of the product type.
 
 FAMILIES (in order):
 {family_list}
@@ -267,7 +269,7 @@ def ingest_batch(batch_no: int) -> None:
         mdir, family = by_id[fid]
         found = bool(item.get("found")) and bool(item.get("description") or item.get("technical"))
         spec = {k: item.get(k) for k in ("description","features","applications","technical","range","fire","compliance","sustainability","install","selection_checklist","accessories","limitations","warranty")}
-        retrieval = {k: item.get(k) for k in ("search_keywords","problem_keywords","placement","priority_fit","use_cases","not_for","rag_summary")}
+        retrieval = clean_retrieval({k: item.get(k) for k in ("search_keywords","problem_keywords","placement","priority_fit","use_cases","not_for","rag_summary")})
         out_path = agent.research_path(mdir, agent.slugify(family["name"]))
         out_path.parent.mkdir(parents=True, exist_ok=True)
         out_path.write_text(json.dumps({
