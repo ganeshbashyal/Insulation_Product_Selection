@@ -19,6 +19,7 @@ from bot_engine import (
     technical_gate,
 )
 from smart_questioner import SmartQuestioner
+from voice_assistant import voice_input_widget, inject_voice_css
 
 APP_TITLE = "Insulation Sales Engineer"
 REPO_ROOT = Path(__file__).resolve().parent
@@ -369,6 +370,8 @@ with st.sidebar:
     )
     st.caption("🟢 Local LLM connected" if ollama_online else "⚪ Local LLM not detected — using fixed wording. Start Ollama to enable natural phrasing.")
     st.divider()
+    st.toggle("Voice input/output", key="enable_voice", value=True, help="Microphone 🎤 to speak responses; speaker 🔊 to hear bot replies (Chrome/Edge recommended).")
+    st.divider()
     count_cols = st.columns(2)
     count_cols[0].metric("Manufacturers", len(MANUFACTURERS))
     count_cols[1].metric("Product families", len(FAMILIES))
@@ -384,7 +387,10 @@ with conversation_tab:
         for message in st.session_state.messages:
             with st.chat_message(message["role"]): st.markdown(message["content"])
         if not st.session_state.demo_complete:
-            prompt = st.chat_input("Type the customer's response…")
+            if st.session_state.get("enable_voice"):
+                inject_voice_css()
+                voice_input_widget()
+            prompt = st.chat_input("Type or speak the customer's response…")
             if prompt: process_customer_message(prompt); st.rerun()
         else: st.success("Enquiry complete. The sales-engineer brief is ready for review.")
     with work_col:

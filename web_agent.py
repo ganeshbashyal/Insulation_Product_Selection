@@ -231,7 +231,7 @@ async def start_conversation(request: Request, site_id: str = "local") -> JSONRe
         opening = agent_core._phrase(opening, True)
 
     response = StartResponse(conversation_id=session_id, reply=opening)
-    return JSONResponse(response.dict(), headers=cors_headers)
+    return JSONResponse(response.model_dump(), headers=cors_headers)
 
 
 @app.post("/api/conversations/{session_id}/messages")
