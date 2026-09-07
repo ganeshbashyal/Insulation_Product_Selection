@@ -18,11 +18,15 @@ from bot_engine import (
     recommendation_allowed,
     technical_gate,
 )
+from smart_questioner import SmartQuestioner
 
 APP_TITLE = "Insulation Sales Engineer"
 REPO_ROOT = Path(__file__).resolve().parent
 CATALOGUE_FILES = sorted((REPO_ROOT / "knowledge").glob("*/families.json"))
 PERFORMANCE_FILE = REPO_ROOT / "knowledge" / "performance_evidence.json"
+
+# Smart questioner for context-aware follow-ups
+smart_questioner = SmartQuestioner(use_llm=True)
 
 QUESTIONS = [
     ("problem", "Tell me about your project or problem in your own words — e.g. 'my upstairs bedroom is freezing in winter and the walls are thin', or 'traffic noise through the front wall of my townhouse'. Mention where it is, what you're feeling, and anything about the building if you know it."),
@@ -185,6 +189,19 @@ def detected_element(answers: dict[str, str]) -> str | None:
 
 
 def question_for_step(step: int, answers: dict[str, str]) -> str:
+    # For step 0 (initial problem), use context-aware questioner if we have history
+    if step == 0 and answers:
+        # Build a lightweight conversation object for smart_questioner
+        class LiteConversation:
+            def __init__(self, answers_dict):
+                self.answers = answers_dict
+
+        conv = LiteConversation(answers)
+        smart_q = smart_questioner.next_question(conv)
+        if smart_q and smart_q != conv.answers.get("problem", ""):
+            return smart_q
+
+    # Original context-aware logic for later steps
     if step == 1:
         text = enquiry_text(answers)
         element = detected_element(answers)
