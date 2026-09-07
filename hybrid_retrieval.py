@@ -72,18 +72,23 @@ def load_or_embed_cards(cards: list[dict]) -> tuple[dict[str, np.ndarray], dict[
         try:
             npz = np.load(EMBEDDINGS_CACHE, allow_pickle=True)
             cached_hashes = dict(npz["hashes"].item() or {})
-            cached_embeddings = dict(npz.get("embeddings", {}).items())
+            cached_family_ids = npz.get("family_ids", [])
+            cached_embedding_array = npz.get("embeddings")
 
-            # Keep cached embeddings whose card text hasn't changed
-            for fid in list(needed_ids):
-                card = card_map[fid]
-                card_text = card.get("text", "")
-                new_hash = _card_hash(card_text)
-                if fid in cached_hashes and cached_hashes[fid] == new_hash and fid in cached_embeddings:
-                    embeddings[fid] = cached_embeddings[fid]
-                    hashes[fid] = new_hash
-                    needed_ids.discard(fid)
-        except (OSError, ValueError, KeyError):
+            # Re-associate embeddings with family IDs
+            if cached_embedding_array is not None and len(cached_family_ids) > 0:
+                for i, fid in enumerate(cached_family_ids):
+                    fid = str(fid)  # numpy string might need conversion
+                    card = card_map.get(fid)
+                    if not card:
+                        continue
+                    card_text = card.get("text", "")
+                    new_hash = _card_hash(card_text)
+                    if cached_hashes.get(fid) == new_hash:
+                        embeddings[fid] = cached_embedding_array[i]
+                        hashes[fid] = new_hash
+                        needed_ids.discard(fid)
+        except (OSError, ValueError, KeyError, IndexError):
             pass
 
     # Embed any cards not in cache or whose content changed
@@ -101,10 +106,13 @@ def load_or_embed_cards(cards: list[dict]) -> tuple[dict[str, np.ndarray], dict[
 
     # Write cache
     if embeddings:
+        # Store as: family_ids array, embeddings matrix, hashes dict
+        sorted_ids = sorted(embeddings.keys())
+        embedding_matrix = np.array([embeddings[fid] for fid in sorted_ids], dtype=np.float32)
         np.savez(
             EMBEDDINGS_CACHE,
-            embeddings=np.array([embeddings.get(fid, np.zeros(384)) for fid in sorted(embeddings.keys())]),
-            family_ids=np.array(sorted(embeddings.keys())),
+            embeddings=embedding_matrix,
+            family_ids=np.array(sorted_ids),
             hashes=np.array(hashes, dtype=object),
         )
 
