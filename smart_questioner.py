@@ -52,6 +52,10 @@ class SmartQuestioner:
         answers = conversation.answers
         problem = answers.get("problem", "")
 
+        # If we have no problem statement yet, return default
+        if not problem:
+            return ""
+
         # Detect scenario from conversation history
         scenario = self._detect_scenario(problem)
 

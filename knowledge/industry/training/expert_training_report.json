@@ -1,0 +1,76 @@
+{
+  "corpus_id": "au_insulation_expert_corpus",
+  "corpus_version": "1.0.0",
+  "generated_by": "scripts/build_expert_training_data.py",
+  "modules": [
+    {
+      "module_id": "industry_landscape",
+      "title": "Australian Insulation Industry — Structure, Players & Market",
+      "records": 6,
+      "qa_pairs": 7,
+      "words": 645
+    },
+    {
+      "module_id": "thermal_principles",
+      "title": "Thermal Physics for Insulation Professionals",
+      "records": 8,
+      "qa_pairs": 8,
+      "words": 886
+    },
+    {
+      "module_id": "acoustic_principles",
+      "title": "Acoustic Physics for Insulation Professionals",
+      "records": 6,
+      "qa_pairs": 6,
+      "words": 712
+    },
+    {
+      "module_id": "compliance_ncc",
+      "title": "NCC, Standards and Compliance Deep Dive",
+      "records": 8,
+      "qa_pairs": 8,
+      "words": 925
+    },
+    {
+      "module_id": "materials",
+      "title": "Insulation Materials — Properties, Trade-offs and Selection",
+      "records": 6,
+      "qa_pairs": 6,
+      "words": 616
+    },
+    {
+      "module_id": "products_applications",
+      "title": "Product Selection by Application",
+      "records": 5,
+      "qa_pairs": 5,
+      "words": 593
+    },
+    {
+      "module_id": "best_practices",
+      "title": "Installation Best Practice, QA and Safety",
+      "records": 5,
+      "qa_pairs": 5,
+      "words": 636
+    }
+  ],
+  "totals": {
+    "modules": 7,
+    "records": 44,
+    "qa_pairs_corpus": 45,
+    "qa_pairs_legacy_merged": 88,
+    "finetune_rows": 133,
+    "rag_chunks": 44,
+    "words": 5013
+  },
+  "kind_histogram": {
+    "fact": 18,
+    "comparison": 4,
+    "rule": 15,
+    "procedure": 7
+  },
+  "artifacts": {
+    "finetune_jsonl": "knowledge\\industry\\training\\expert_finetune.jsonl",
+    "rag_chunks_jsonl": "knowledge\\industry\\training\\expert_rag_chunks.jsonl",
+    "report": "knowledge\\industry\\training\\expert_training_report.json"
+  }
+}

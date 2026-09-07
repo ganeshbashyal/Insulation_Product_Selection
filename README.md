@@ -1,21 +1,29 @@
 # Insulation Product Enquiry Knowledge Base
 
-This repository contains validated product knowledge for a customer enquiry and callback bot.
+This repository contains a local-first product knowledge and enquiry bot for Australian insulation and building-material enquiries.
 
-The local POC may recommend a manufacturer-supported product family. Exact product selection and all production behaviour remain governed by [`BOT_POLICY.md`](BOT_POLICY.md).
+The local POC may recommend a manufacturer-supported product family. Exact SKU selection, quantities, compliance decisions and all production behaviour remain governed by [`BOT_POLICY.md`](BOT_POLICY.md).
+
+## Current architecture
+
+The repository has four related data layers:
+
+1. **Family metadata** — `knowledge/*/families.json` contains the stable family identity, applications, ranking signals, source provenance and human gates for 283 families across 26 manufacturers.
+2. **Research evidence** — `knowledge/*/research/*.json` contains the normalized research contract for 259 extracted or attempted family research records. Each file has the same top-level and `spec` fields, including range rows, technical properties, installation, clearances, limitations and source links.
+3. **Human-readable knowledge** — `knowledge/*/*.md` preserves hand-authored family guidance and adds generated physical/technical and installation sections. Every family document now has both generated sections; missing evidence is marked as pending rather than inferred.
+4. **Structured local catalogue** — `data/local/family_catalogue.sqlite3` provides queryable family, variant and installation tables for deterministic retrieval. It complements Markdown; it does not replace the source and policy layers.
+
+The bot path is deliberately deterministic first: family metadata and approved evidence drive ranking and gates, while a local LLM may phrase an already-decided response. The LLM does not choose products or invent technical claims.
 
 ## Structure
 
-### Complete Manufacturer Coverage (26 manufacturers, 2,359 products)
+### Complete Manufacturer Coverage (26 manufacturers, 283 families)
 
-**Deep-dive documentation** (complete validation):
-- [`knowledge/thermotec/`](knowledge/thermotec/README.md) — Thermotec product-family guides (13 families, 280 products)
-- [`knowledge/fletcher/`](knowledge/fletcher/README.md) — Fletcher product-family guides (18 families, 134 products)
+**Deep-dive documentation and generated research:**
+- [`knowledge/thermotec/`](knowledge/thermotec/README.md) — Thermotec product-family guides
+- [`knowledge/fletcher/`](knowledge/fletcher/README.md) — Fletcher product-family guides
 
-**Initial documentation** (all other manufacturers - 24 families each):
-- [`knowledge/autex/`](knowledge/autex/README.md) — Autex (3 families, 324 products)
-- [`knowledge/bradford/`](knowledge/bradford/README.md) — Bradford (4 families, 154 products)
-- And 22 additional manufacturers: Kingspan, Rockwool, Proctor, Trade Select, Ecowool, Higgins Insulation, Knauf, Foilboard, Sonata, Polyester Solutions, Acoustica, Aircell, Metecno, Misc, DCTech, Stinger, Paroc, Ametalin, James Hardie, Hushtec, Polyair, Martini
+All other manufacturer directories contain the same family metadata, Markdown structure and normalized research contract. Technical completeness varies by family and is visible in each file's generated pending-evidence notices.
 
 See [`knowledge/LITERATURE_REVIEW_STATUS.md`](knowledge/LITERATURE_REVIEW_STATUS.md) for complete manufacturer list and status.
 
@@ -27,6 +35,9 @@ See [`knowledge/LITERATURE_REVIEW_STATUS.md`](knowledge/LITERATURE_REVIEW_STATUS
 - [`knowledge/performance_evidence.json`](knowledge/performance_evidence.json) — normalized R, Rw, NRC/αw, fire, vapour and temperature evidence with variant, scope, test context and provenance.
 - [`knowledge/LITERATURE_REVIEW_STATUS.md`](knowledge/LITERATURE_REVIEW_STATUS.md) — Documentation status and next steps for technical validation
 - [`knowledge/industry/`](knowledge/industry/README.md) — General (not manufacturer-specific) Australian insulation industry reference: NCC/compliance intelligence, thermal/acoustic principles, product/material overviews, customer-support triage and a Q&A training corpus. Intended as background/RAG context for the enquiry bot, not a source of manufacturer-supported product claims.
+- [`data/local/family_catalogue.sqlite3`](data/local/family_catalogue.sqlite3) — generated local SQLite catalogue containing family metadata, structured variants and installation/clearance/limitation rows.
+- [`schemas/families.schema.json`](schemas/families.schema.json) — family metadata contract for the multi-manufacturer catalogue.
+- [`scripts/normalize_family_json.py`](scripts/normalize_family_json.py) and [`scripts/normalize_research_json.py`](scripts/normalize_research_json.py) — normalize JSON records without discarding existing values.
 
 ### Supporting Files
 
@@ -44,9 +55,11 @@ See [`knowledge/LITERATURE_REVIEW_STATUS.md`](knowledge/LITERATURE_REVIEW_STATUS
 - [`CONTRIBUTING.md`](CONTRIBUTING.md) and [`AUDIT_SECURITY.md`](AUDIT_SECURITY.md) — evidence approval, rollback, access, encryption and retention controls.
 - [`MANUFACTURERS_EXPANSION.md`](MANUFACTURERS_EXPANSION.md) — Documentation of expansion from 2 to 26 manufacturers (2026-09-05)
 
-## Data model
+## Data model and enrichment
 
-The Google Sheet remains the structured product catalogue and source dataset. The Markdown files provide context the enquiry bot needs to interpret customer questions, including:
+The validated workbook export is an input snapshot, not the bot's live runtime database. [`scripts/build_sku_dataset.py`](scripts/build_sku_dataset.py) converts an approved workbook export into the normalized SKU CSV and SKU-to-evidence manifest. The local SQLite catalogue is built from family metadata and research JSON and is the runtime-friendly structured layer.
+
+The Markdown files provide context the enquiry bot needs to interpret customer questions, including:
 
 - intended applications and product roles;
 - enquiry-routing and exclusion rules;
@@ -56,13 +69,27 @@ The Google Sheet remains the structured product catalogue and source dataset. Th
 
 Ratings guide follow-up questions, candidate ordering and the callback brief. In local demo mode, they may support a family-level recommendation when the application also matches; they never authorise SKU, grade, quantity or compliance selection.
 
+Run the enrichment pipeline after new research is approved:
+
+```powershell
+python scripts/normalize_research_json.py
+python scripts/normalize_family_json.py
+python scripts/enrich_knowledge_docs.py
+python scripts/build_family_sqlite.py
+python scripts/build_aircall_pack.py
+python scripts/validate_catalogue.py
+python scripts/validate_aircall_pack.py
+```
+
+The Markdown generator only writes between its `AUTO:VARIANTS` and `AUTO:INSTALL` markers. It preserves hand-authored descriptions, selection logic, safeguards, approved language and source notes. When a family lacks usable range or installation evidence, it writes a pending notice and does not manufacture dimensions or product combinations.
+
 Performance values must retain their test metric and system context. For example, `R` and `Rw` represent different properties and must never be treated as interchangeable.
 
 ## Validation convention
 
 Each product-family file includes front matter with a stable `family_id`, manufacturer, validation status, and validation date. Product claims should be traceable to the official sources listed in that file.
 
-The knowledge base now covers all 26 manufacturers represented in the source data. Deep-dive validation is complete for Thermotec and Fletcher. All other manufacturers have initial categorization structure ready for technical validation. A family may be recommended only when its identity is supported; exact SKU selection still requires row-level evidence and human review.
+The knowledge base covers all 26 manufacturers represented in the source data. Research and evidence status remain family-specific. A family may be recommended only when its identity is supported; exact SKU selection still requires row-level evidence and human review.
 
 Rebuild the normalized SKU dataset from a validated local workbook export:
 
@@ -72,7 +99,19 @@ python scripts/validate_catalogue.py
 pytest -q
 ```
 
-The checked-in CSV records the source workbook filename, source row, retrieval timestamp and SHA-256 hash. `sku_evidence_manifest.csv` provides the SKU → family → evidence chain. Only rows marked `PASS` and `READY`, attached to an evidence-eligible family with verified evidence, can set `sku_selection_eligible=true`. The demo still does not select that SKU automatically.
+The checked-in CSV records the source workbook filename, source row, retrieval timestamp and SHA-256 hash. `sku_evidence_manifest.csv` provides the SKU → family → evidence chain. Only rows marked `PASS` and `READY`, attached to an evidence-eligible family with verified evidence, can set `sku_selection_eligible=true`.
+
+### Planned SKU recommendation stage
+
+The current bot supports family ranking and direct size/R-value availability lookup through [`size_index.py`](size_index.py). The next SKU capability should be implemented as a separate, gated retrieval stage:
+
+1. Filter candidate rows by family, application, region and the customer's stated constraints.
+2. Require `sku_selection_eligible=true`, verified product evidence, current source provenance and a matching variant record.
+3. Rank possible SKU candidates deterministically; never let the LLM choose the row.
+4. Present results as possible matches, including product code, published dimensions, R-value and source status.
+5. Require human confirmation before quoting, ordering, selecting quantity or claiming compliance.
+
+The response contract should distinguish `family_recommendation`, `possible_sku_matches` and `human_review_required`. A missing dimension, conflicting source, stale product code, unverified identity or compliance request must produce an escalation rather than a confident SKU recommendation.
 
 Aircall does not currently accept spreadsheet files as AI Voice Agent knowledge. `scripts/build_aircall_pack.py` converts the same governed family/evidence records into a concise paste-ready content block. Its manifest binds the generated pack to the exact source hashes, and validation prevents blocked families from entering the supported section.
 
@@ -86,7 +125,7 @@ See [`IMPLEMENTATION_STATUS.md`](IMPLEMENTATION_STATUS.md) for the control mappe
 
 ## Team demonstration
 
-The local Streamlit demonstration compares all 287 manufacturer-classified product families across 26 manufacturers. The knowledge base supports acoustic, thermal, membrane, HVAC, pipe, roof and accessory applications. The user can filter by manufacturer or application, or compare across all manufacturers. It recommends the best supported family (with deep validation for Thermotec and Fletcher), exposes evidence limitations, includes a searchable range explorer, produces a callback brief and demonstrates a human-approved mock MYOB quote handoff. It does not access live Aircall, Google Drive or MYOB data.
+The local Streamlit demonstration compares all 283 manufacturer-classified product families across 26 manufacturers. The knowledge base supports acoustic, thermal, membrane, HVAC, pipe, roof and accessory applications. The user can filter by manufacturer or application, or compare across all manufacturers. It recommends the best supported family, exposes evidence limitations, includes a searchable range explorer, produces a callback brief and demonstrates a human-approved mock MYOB quote handoff. It does not access live Aircall, Google Drive or MYOB data.
 
 Run it from Anaconda Prompt:
 
@@ -100,7 +139,7 @@ streamlit run app.py
 [`scripts/generate_family_literature.py`](scripts/generate_family_literature.py) mines the deep-dive docs, `families.json` and the SKU catalogue to produce a concise, customer-facing page (`output/literature/<manufacturer>/<family>.md`) and a matching Word document (`.docx`) for every family, structured like the Thermotec 4-Zero literature draft (description, key features, applications + selection checklist, range table, technical data, compliance, install, safety, sustainability, warranty, spec clause, source register, review actions). Each page carries SEO `title`/`description`/`keywords`. Runs locally with no LLM; content-hashed so repeat runs only regenerate changed families:
 
 ```powershell
-python scripts/generate_family_literature.py            # all 287 families
+python scripts/generate_family_literature.py            # all 283 families
 python scripts/generate_family_literature.py --only Autex
 ```
 

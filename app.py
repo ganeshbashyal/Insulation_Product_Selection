@@ -189,17 +189,19 @@ def detected_element(answers: dict[str, str]) -> str | None:
 
 
 def question_for_step(step: int, answers: dict[str, str]) -> str:
-    # For step 0 (initial problem), use context-aware questioner if we have history
-    if step == 0 and answers:
-        # Build a lightweight conversation object for smart_questioner
-        class LiteConversation:
-            def __init__(self, answers_dict):
-                self.answers = answers_dict
+    # Use smart questioner for follow-up questions (step > 0) when we have a problem statement
+    if step > 0 and answers.get("problem"):
+        try:
+            class LiteConversation:
+                def __init__(self, answers_dict):
+                    self.answers = answers_dict
 
-        conv = LiteConversation(answers)
-        smart_q = smart_questioner.next_question(conv)
-        if smart_q and smart_q != conv.answers.get("problem", ""):
-            return smart_q
+            conv = LiteConversation(answers)
+            smart_q = smart_questioner.next_question(conv)
+            if smart_q:
+                return smart_q
+        except Exception:
+            pass  # Fall back to standard questions
 
     # Original context-aware logic for later steps
     if step == 1:

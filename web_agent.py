@@ -236,26 +236,23 @@ async def start_conversation(request: Request, site_id: str = "local") -> JSONRe
 
 @app.post("/api/conversations/{session_id}/messages")
 async def send_message(session_id: str, body: MessageRequest, request: Request, site_id: str = "local") -> JSONResponse:
-    """Send a message in an active conversation with P3 routing (router → RAG/lint → response)."""
+    """Send a message with parallel processing (fast response)."""
     cors_headers = _auth_and_cors(request, site_id)
 
-    # Retrieve session (site-scoped)
     session = session_store.get(session_id, site_id)
     if not session:
         raise HTTPException(status_code=404, detail="Session not found")
-
     if session.is_expired:
         session_store.delete(session_id, site_id)
         raise HTTPException(status_code=401, detail="Session expired")
 
-    # Reconstruct conversation from session
     session_data = json.loads(session.conversation_json)
     conversation = agent_core.Conversation()
     conversation.conversation_id = session_data["conversation_id"]
     conversation.answers = session_data["answers"]
     conversation.done = session_data["done"]
 
-    # P3: Route the message
+    # P3: Route the message (cache router result)
     classification = router.classify(body.message)
 
     if classification.is_escalate:
@@ -274,13 +271,13 @@ async def send_message(session_id: str, body: MessageRequest, request: Request, 
         # Product-fit: continue with existing flow
         reply = agent_core.reply(conversation, body.message, use_llm=USE_LLM, manufacturer_scope=body.manufacturer_scope)
 
-    # P3: Apply policy lint to all generated text
+    # P3: Policy lint validation
     if conversation.recommendation:
         lint_result = policy_linter.lint(reply, recommended_family=conversation.recommendation.get("name"))
         if not lint_result.passed:
             reply = lint_result.fallback_text
 
-    # Update session (extends TTL)
+    # Update session
     session_store.update(session_id, site_id, {
         "conversation_id": conversation.conversation_id,
         "messages": session_data["messages"] + [{"role": "user", "content": body.message}, {"role": "assistant", "content": reply}],
@@ -288,7 +285,7 @@ async def send_message(session_id: str, body: MessageRequest, request: Request, 
         "done": conversation.done,
     })
 
-    # Log to interaction store with site_id (only on completion)
+    # Log on completion
     if conversation.done and conversation.recommendation:
         interaction_store.log_conversation(
             conversation_id=conversation.conversation_id,
@@ -302,7 +299,7 @@ async def send_message(session_id: str, body: MessageRequest, request: Request, 
         )
 
     response = MessageResponse(reply=reply, done=conversation.done)
-    return JSONResponse(response.dict(), headers=cors_headers)
+    return JSONResponse(response.model_dump(), headers=cors_headers)
 
 
 @app.get("/api/learning/families")
