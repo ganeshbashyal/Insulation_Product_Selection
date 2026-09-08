@@ -20,6 +20,7 @@ from bot_engine import (
 )
 from smart_questioner import SmartQuestioner
 from voice_assistant import voice_input_widget, inject_voice_css
+from data_health import run_all as run_data_health_checks
 
 APP_TITLE = "Insulation Sales Engineer"
 REPO_ROOT = Path(__file__).resolve().parent
@@ -378,7 +379,7 @@ with st.sidebar:
     st.caption(f"{sum(x.get('product_count', 0) for x in FAMILIES)} catalogue SKU rows are represented across all manufacturers. Evidence gates remain visible.")
     st.markdown("✓ Evidence-linked family records\n\n✓ Priority comparison\n\n✓ Human technical gate\n\n◌ MYOB — simulated only")
 
-conversation_tab, explorer_tab, architecture_tab = st.tabs(["Customer conversation", "Product range explorer", "Demo architecture"])
+conversation_tab, explorer_tab, architecture_tab, data_health_tab = st.tabs(["Customer conversation", "Product range explorer", "Demo architecture", "Data & rebuild status"])
 with conversation_tab:
     chat_col, work_col = st.columns([1.35, 1], gap="large")
     with chat_col:
@@ -499,5 +500,34 @@ with architecture_tab:
     st.dataframe(pd.DataFrame(NCC_ZONE_GUIDE), hide_index=True, width="stretch")
     st.caption("NCC 2022 Housing Provisions 10.8 screening aid only. Required roof, wall and floor Total R-values are project-specific; confirm the exact address, building class, compliance pathway, applicable NCC edition and state or territory variations.")
     st.link_button("Open the official ABCB Climate Map", "https://ncc.abcb.gov.au/abcb-climate-map")
+
+with data_health_tab:
+    st.subheader("Local rebuild & ingestion status")
+    st.caption("Reads files/SQLite already on disk - no network calls. Refresh after re-running any ingestion script locally to confirm the rebuild worked.")
+    if st.button("↻ Re-check now", key="data_health_refresh"):
+        st.rerun()
+    icon_map = {"ok": "🟢", "warn": "🟠", "missing": "🔴"}
+    results = run_data_health_checks()
+    ok_n = sum(1 for r in results if r.status == "ok")
+    warn_n = sum(1 for r in results if r.status == "warn")
+    missing_n = sum(1 for r in results if r.status == "missing")
+    m0, m1, m2 = st.columns(3)
+    m0.metric("OK", ok_n); m1.metric("Warnings", warn_n); m2.metric("Missing", missing_n)
+    for result in results:
+        with st.container():
+            st.markdown(f"**{icon_map.get(result.status, '⚪')} {result.name}**")
+            st.write(result.detail)
+            if result.last_modified:
+                st.caption(f"Last modified: {result.last_modified}")
+            st.divider()
+    st.markdown("#### Rebuild commands (run locally)")
+    st.code(
+        "python scripts/build_family_sqlite.py\n"
+        "python scripts/ingest_product_master.py\n"
+        "python -m construction_ingest.db_setup\n"
+        "python -m construction_ingest.local_pdf_parser --pdf-dir data/tds\n"
+        "python data_health.py   # plain-text report, same checks as this tab",
+        language="bash",
+    )
 
 st.markdown('<p class="small-note">Demonstration only. No live Aircall, Google Drive, MYOB, pricing, stock, customer-record or ordering connection is used.</p>', unsafe_allow_html=True)

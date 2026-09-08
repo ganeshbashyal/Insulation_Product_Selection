@@ -443,7 +443,12 @@ def parse_directory(
     model: str = OLLAMA_MODEL,
     use_llm: bool = True,
 ) -> ProductKnowledge:
-    """Parse every PDF in a directory tree and write ``product_knowledge.json``."""
+    """Parse every PDF in a directory tree and write ``product_knowledge.json``.
+
+    Also writes a sibling ``<output>.status.json`` summary (counts by
+    extraction method/outcome) so a caller - a human running this locally, or
+    data_health.py - can check how the run went without re-parsing every PDF.
+    """
     directory = Path(pdf_dir)
     directory.mkdir(parents=True, exist_ok=True)
     pdfs = list(iter_pdfs(directory))
@@ -457,9 +462,25 @@ def parse_directory(
         use_llm = False
 
     records: list[ProductRecord] = []
+    per_file_status: list[dict] = []
     for index, path in enumerate(pdfs, start=1):
-        print(f"  [{index}/{len(pdfs)}] {path.name}")
-        records.append(parse_pdf(path, model=model, use_llm=use_llm))
+        record = parse_pdf(path, model=model, use_llm=use_llm)
+        records.append(record)
+        if record.extraction_warnings:
+            outcome = "warn"
+        elif record.extraction_method == "ollama+regex":
+            outcome = "ok"
+        else:
+            outcome = "ok-regex-only"
+        print(f"  [{index}/{len(pdfs)}] {_status_tag(outcome)} {path.name} ({record.extraction_method})")
+        for warning in record.extraction_warnings:
+            print(f"        - {warning}")
+        per_file_status.append({
+            "file": path.name,
+            "outcome": outcome,
+            "extraction_method": record.extraction_method,
+            "warnings": record.extraction_warnings,
+        })
 
     document = ProductKnowledge(
         generated_at=datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -471,7 +492,33 @@ def parse_directory(
     output_path = Path(output)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(document.model_dump_json(indent=2), encoding="utf-8")
+
+    ok_count = sum(1 for s in per_file_status if s["outcome"] == "ok")
+    warn_count = sum(1 for s in per_file_status if s["outcome"] == "warn")
+    regex_only_count = sum(1 for s in per_file_status if s["outcome"] == "ok-regex-only")
+    status_summary = {
+        "generated_at": document.generated_at,
+        "pdf_dir": str(directory),
+        "output": str(output_path),
+        "used_llm": use_llm,
+        "model": model if use_llm else "regex-only",
+        "pdf_count": len(pdfs),
+        "ok": ok_count,
+        "regex_only": regex_only_count,
+        "warnings": warn_count,
+        "files": per_file_status,
+    }
+    status_path = output_path.with_name(output_path.stem + "_status.json")
+    status_path.write_text(json.dumps(status_summary, indent=2), encoding="utf-8")
+    print(
+        f"\nSummary: {len(pdfs)} PDF(s) -> {ok_count} ok (llm), {regex_only_count} regex-only, "
+        f"{warn_count} with warnings. Status written to {status_path}."
+    )
     return document
+
+
+def _status_tag(outcome: str) -> str:
+    return {"ok": "[OK]", "ok-regex-only": "[REGEX]", "warn": "[WARN]"}.get(outcome, "[?]")
 
 
 def load_product_knowledge(path: Path | str = DEFAULT_OUTPUT) -> ProductKnowledge | None:
@@ -502,7 +549,12 @@ def main(argv: list[str] | None = None) -> int:
     )
     if not document.pdf_count:
         print(f"  no PDFs found. Drop technical data sheets into {args.pdf_dir} and re-run.")
+        return 1
     print(f"  wrote {len(document.products)} product record(s) to {args.output}")
+    warning_count = sum(1 for record in document.products if record.extraction_warnings)
+    if warning_count:
+        print(f"  {warning_count}/{len(document.products)} record(s) had extraction warnings - see the status JSON for detail.")
+        return 2
     return 0
 
 
