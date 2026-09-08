@@ -14,8 +14,10 @@ from __future__ import annotations
 
 import sqlite3
 from pathlib import Path
+import re
 
 DB_PATH = Path(__file__).resolve().parent / "data" / "local" / "family_catalogue.sqlite3"
+_R_NUM_RE = re.compile(r"(\d+(?:\.\d+)?)")
 
 _FIELDS = (
     "sku, our_sku, product_name, manufacturer, category, material_type, "
@@ -96,6 +98,38 @@ def skus_for_family(family_id: str, limit: int = 25, db_path: Path | None = None
         )
     finally:
         conn.close()
+
+
+def skus_matching(
+    family_id: str,
+    width: float | None = None,
+    thickness: float | None = None,
+    rvalue: float | None = None,
+    limit: int = 10,
+    db_path: Path | None = None,
+) -> list[dict]:
+    """Confirmed SKUs for a family, narrowed to a width/thickness/R-value.
+
+    Tolerances mirror ``size_index.query`` (+-5mm width, +-2mm thickness,
+    +-0.15 R-value) so an availability answer and its SKU list agree on what
+    counts as a match. Only ``match_tier = 'high'`` rows are eligible, for the
+    same reason as ``skus_for_family``: an unconfirmed guess must not be quoted
+    as an orderable product.
+    """
+    rows = skus_for_family(family_id, limit=max(limit, 200), db_path=db_path)
+    if width is not None:
+        rows = [r for r in rows if r["width_mm"] is not None and abs(r["width_mm"] - width) <= 5]
+    if thickness is not None:
+        rows = [r for r in rows if r["thickness_mm"] is not None and abs(r["thickness_mm"] - thickness) <= 2]
+    if rvalue is not None:
+        def _r(value) -> float | None:
+            if not value:
+                return None
+            match = _R_NUM_RE.search(str(value))
+            return float(match.group(1)) if match else None
+
+        rows = [r for r in rows if (_r(r["r_value"]) is not None and abs(_r(r["r_value"]) - rvalue) <= 0.15)]
+    return rows[:limit]
 
 
 def coverage(db_path: Path | None = None) -> dict:

@@ -26,6 +26,7 @@ from pathlib import Path
 import llm_client
 import interaction_store
 import size_index
+import sku_catalogue
 from retrieval_hygiene import ranker_safe_terms
 from bot_engine import (
     PRIORITY_LABELS,
@@ -228,7 +229,22 @@ def answer_size_query(text: str) -> str | None:
     if constraints["thickness"]:
         bits.append(f"{constraints['thickness']:g} mm thick")
     extra = f" and {len(matches) - 4} more" if len(matches) > 4 else ""
-    return f"For {'/'.join(bits)}, current options include {names}{extra}. We'll confirm the exact variant, pack coverage and availability before quoting."
+    answer = f"For {'/'.join(bits)}, current options include {names}{extra}. We'll confirm the exact variant, pack coverage and availability before quoting."
+
+    if sku_catalogue.available():
+        # Attach real SKU codes for the top match only, so the reply stays a
+        # short options list rather than a dump of every candidate's stock.
+        sku_rows = sku_catalogue.skus_matching(
+            matches[0]["family_id"],
+            width=constraints["width"],
+            thickness=constraints["thickness"],
+            rvalue=constraints["rvalue"],
+            limit=3,
+        )
+        if sku_rows:
+            codes = ", ".join(r["sku"] or r["our_sku"] for r in sku_rows)
+            answer += f" Orderable SKU(s) for {matches[0]['name']}: {codes}."
+    return answer
 
 
 def reply(conversation: Conversation, message: str, use_llm: bool = False, manufacturer_scope: str | None = None, site_id: str = "default") -> str:
