@@ -41,12 +41,53 @@ Knowledge:
 Requirements:
 1. Answer concisely (2-3 sentences max)
 2. Use ONLY information from the knowledge sources above
-3. Cite inline like [this](path/to/source) for EVERY claim
+3. Cite with the bracketed number of the source, e.g. [1] or [2], at the end of
+   each sentence it supports. Cite each source once per sentence - never repeat
+   the same marker several times in one sentence.
 4. If sources don't cover the question, say "I don't have enough information about that"
 5. Never make up information or cite sources that weren't provided
+6. Write in plain text. Never use LaTeX or maths markup - write ">=" not "\\ge",
+   and "->" not "\\rightarrow".
 
 Answer:
 """
+
+
+def _citation_label(chunk: dict) -> str:
+    """Human-readable citation for a chunk.
+
+    The raw source is the JSONL filename, which is identical for every chunk in
+    a file and so is useless as a citation. Prefer the chunk's topic.
+    """
+    topic = (chunk.get("topic") or "").strip()
+    if topic:
+        module = (chunk.get("module_title") or "").strip()
+        # Skip the module when it repeats the topic (topic "Class 10 Garages"
+        # under module "Class 10") or is a generic corpus-level title that adds
+        # length without telling the reader anything.
+        generic = module.lower().endswith(("profiles", "corpus", "knowledge base"))
+        if module and not generic and module.lower() not in topic.lower():
+            return f"{topic} - {module}"
+        return topic
+    return (chunk.get("source") or "unknown").strip()
+
+
+def _expand_citations(text: str, ranked: list[dict]) -> str:
+    """Rewrite the model's [n] markers into readable [topic](topic) links.
+
+    Small local models emit numeric markers far more reliably than they
+    reproduce long labels, so we ask for [n] and resolve it deterministically
+    here. Out-of-range markers are dropped rather than shown to the customer.
+    """
+    def replace(match: re.Match) -> str:
+        idx = int(match.group(1))
+        if 1 <= idx <= len(ranked):
+            label = _citation_label(ranked[idx - 1])
+            return f"[{label}]({label})"
+        return ""
+
+    text = re.sub(r"\[(\d+)\]", replace, text)
+    return re.sub(r"\s+([.,;])", r"\1", text).strip()
 
 
 class RAGAnswerer:
@@ -189,9 +230,9 @@ class RAGAnswerer:
         # Format knowledge for prompt
         knowledge_text = ""
         for i, chunk in enumerate(ranked):
-            source = chunk.get("source", "unknown")
+            label = _citation_label(chunk)
             text = chunk.get("text", chunk.get("content", ""))
-            knowledge_text += f"[{i+1}] ({source}): {text}\n\n"
+            knowledge_text += f"[{i+1}] ({label}): {text}\n\n"
 
         # Generate answer via LLM
         answer = f"Retrieved {len(ranked)} relevant sources"
@@ -205,14 +246,14 @@ class RAGAnswerer:
                     RAG_SYSTEM_PROMPT, prompt, max_tokens=400, timeout=RAG_TIMEOUT_SECONDS
                 )
                 if reply and reply.strip():
-                    answer = reply.strip()
+                    answer = _expand_citations(reply.strip(), ranked)
                 else:
                     answer = f"Retrieved {len(ranked)} sources but LLM unavailable"
             except Exception:
                 answer = f"Retrieved {len(ranked)} sources but LLM unavailable"
 
         # Extract sources from answer (look for citations)
-        sources = list(set(chunk.get("source", "") for chunk in ranked))
+        sources = list(dict.fromkeys(_citation_label(chunk) for chunk in ranked))
 
         return {
             "answer": answer,
