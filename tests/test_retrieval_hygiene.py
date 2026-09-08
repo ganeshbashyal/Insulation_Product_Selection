@@ -92,3 +92,40 @@ def test_ranker_safe_terms_excludes_long_scenarios():
         "label: bleed",
     ]
     assert ranker_safe_terms(terms) == ["wall batts"]
+
+
+def test_chat_scaffolding_never_becomes_a_matching_term():
+    """Extraction-model chat filler reached the live catalogue as keywords.
+
+    'Reply with "batch 5 and 6' was a searchable term on real families, so any
+    enquiry containing those common words scored against unrelated products.
+    """
+    for junk in (
+        'Reply with "batch 5 and 6',
+        "batch 5 and 6",
+        "batch 11 and 12",
+        "batch 7",
+        "Here are the keywords",
+        "As an AI language model",
+        "Note: this is approximate",
+    ):
+        assert clean_term(junk, "search_keywords") is None, junk
+        assert ranker_safe_terms([junk]) == [], junk
+
+
+def test_spliced_json_list_residue_is_rejected():
+    """Two terms glued by their quote/comma separator are not one term."""
+    assert clean_term('SoundScreen", "home theatre insulation', "search_keywords") is None
+    assert clean_term('unterminated "quote fragment', "search_keywords") is None
+
+
+def test_scaffolding_filter_keeps_ordinary_product_terms():
+    """The filter must not over-reach: these are legitimate and must survive."""
+    for good in (
+        "ok term",
+        "okay for ceilings",
+        "wall batt",
+        "acoustic wall insulation",
+        "manufacturer's recommended fixing",
+    ):
+        assert clean_term(good, "search_keywords") == good, good

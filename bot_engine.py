@@ -55,7 +55,11 @@ def fuzzy_word_match(expected: str, actual_words: set[str]) -> bool:
 
 def term_match_score(term: str, text: str, text_words: set[str]) -> float:
     folded_term = canonical_text(term)
-    if folded_term in text:
+    # Substring containment must respect word boundaries. A bare "board" was
+    # scoring a perfect match against "weatherboard", which pushed rigid boards
+    # to the top of timber-framed weatherboard wall enquiries. Multi-word terms
+    # still match across the phrase, but each end must land on a word edge.
+    if folded_term and re.search(rf"\b{re.escape(folded_term)}\b", text):
         return 1.0
     term_words = normalised_words(folded_term)
     if term_words and term_words.issubset(text_words):

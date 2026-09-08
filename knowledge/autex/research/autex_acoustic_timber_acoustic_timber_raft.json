@@ -2,8 +2,79 @@
   "family_id": "AUTEX_ACOUSTIC_TIMBER_ACOUSTIC_TIMBER_RAFT",
   "family_name": "Autex Acoustic Timber - Acoustic Timber Raft",
   "datasheet_pdf_url": "https://cdn.mediavalet.com/aunsw/autex/7stmLZyUYEmq4O_fpAwUNQ/34ByV9cm6UmNXhpS6AsgFQ/Original/Acoustic%20Timber%20Raft%20Datasheet.pdf",
-  "status": "extract_failed",
+  "status": "ok",
   "researched_at": "2026-09-08",
-  "spec": null,
-  "source_excerpt": null
+  "spec": {
+    "description": "Acoustic Timber Raft is a modular acoustic baffle system made from 100% polyester fibre, designed for adjustable height, spacing, and placement control, suitable for acoustic and decorative treatments in non-contact areas.",
+    "features": [
+      "Modular design",
+      "Adjustable channel and clip system",
+      "Lightweight",
+      "Solid appearance",
+      "Made from 100% polyester fibre",
+      "Carbon neutral",
+      "Recycled content",
+      "Low VOC"
+    ],
+    "applications": [
+      "Ceiling applications",
+      "Wall applications"
+    ],
+    "technical": [
+      {
+        "property": "R-value",
+        "value": "N/A",
+        "standard": "N/A"
+      },
+      {
+        "property": "Density",
+        "value": "N/A",
+        "standard": "N/A"
+      },
+      {
+        "property": "Thermal conductivity",
+        "value": "N/A",
+        "standard": "N/A"
+      },
+      {
+        "property": "Fire indices",
+        "value": "ISO 9705: Group 1-S, Group 1",
+        "standard": "ISO 9705"
+      },
+      {
+        "property": "Temperature range",
+        "value": "N/A",
+        "standard": "N/A"
+      },
+      {
+        "property": "Vapour",
+        "value": "N/A",
+        "standard": "N/A"
+      },
+      {
+        "property": "pH",
+        "value": "N/A",
+        "standard": "N/A"
+      }
+    ],
+    "fire": "Class A, FS:0 - SD:45, Group 1-S, Group 1",
+    "sustainability": "Recycled content, Zero waste manufacturing initiative",
+    "install": [
+      "Install as per Autex Acoustics recommendations",
+      "Install instructions included in each pack or available on the website"
+    ],
+    "clearances": [],
+    "limitations": [
+      "Not recommended for areas with likely contact",
+      "Light fastness dependent on use and exposure",
+      "May show surface damage upon impact",
+      "Avoid contact with surface",
+      "Gently remove liquids and contaminants",
+      "Consult specialist for cleaning if required"
+    ],
+    "range_headers": [],
+    "range": [],
+    "range_extraction_status": "inconsistent_columns_dropped"
+  },
+  "source_excerpt": " autexacoustics.com.au\nData SheetAcoustic Timber™  Raft\nAcoustic Timber™  Raft is a modular acoustic baffle system designed \nto communicate with interior spaces via an adjustable channel and \nclip system—giving you complete control over the height, spacing, \nand placement of each individual component. Lightweight yet  \nsolid in appearance, Acoustic Timber Raft is made from 100% \npolyester fibre. Acoustic Timber Raft is designed to be ‘tuned’ to \nspaces, offering tailored acoustic absorption across a wide range  \nof frequencies.\nSuitable for use as acoustic and decorative treatments in non-contact areas.  \nFor applications where contact is likely to occur, Autex Acoustics recommends our \nstandard Frontier Raft range. If you have any concerns about the install location, please \ncontact your specification manager.\nSuitable applications\nProduct \noverview\nAutex Acoustics® products meet criteria for WELL, LEED, Green Star, and BREEAM \nbuilding rating systems, helping you achieve certification for your project. For support and \nguidance on available rating system points please visit autexacoustics.com.au, or speak \nwith your Autex Acoustics specification manager. \n• Carbon neutral product  \n• Zero carbon manufacturing\n• Recycled content  \n- >80% recycled material  \n• Low VOC and CDPH compliant  \n- <0.092 mg/m3 (7 days)\n• Zero waste manufacturing initiative \n• Sustainable supply chain and  \nanti-modern slavery\n• EPD – compliant with ISO 14025  \nand EN 15804\n• Declare – Red List free  \n(third party verified) \n• ISO 14001 Certified Environmental \nManagement \n• Health Product Declaration\n• CDPH Standard\nSustainable material\nEnvironmental \ncredentials\nCertifying your  \ngreen building\nSM \n\n autexacoustics.com.au\nProduct specifications\nInstallation \nInstall as per Autex Acoustics recommendations. Install instructions \nare included in each pack or available on the website.\nProduct name Acoustic Timber Raft\nComposition 100% polyester fibre (PET); \n   aluminium channel\nFin length  2"
 }

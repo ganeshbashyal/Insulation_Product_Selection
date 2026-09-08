@@ -8,15 +8,6 @@
   "spec": {
     "range": [
       {
-        "c0": "Product Code",
-        "c1": "Roll Width",
-        "c2": "Roll Length",
-        "c3": "Carrier Type",
-        "c4": "Adhesive Technology",
-        "c5": "Release Liner",
-        "c6": "Rolls per Carton"
-      },
-      {
         "c0": "QT-4850",
         "c1": "48 mm",
         "c2": "50 m",
@@ -57,7 +48,15 @@
     "features": [],
     "applications": [],
     "technical": [],
-    "range_headers": [],
+    "range_headers": [
+      "Product Code",
+      "Roll Width",
+      "Roll Length",
+      "Carrier Type",
+      "Adhesive Technology",
+      "Release Liner",
+      "Rolls per Carton"
+    ],
     "fire": "",
     "sustainability": "",
     "install": [],
@@ -67,7 +66,8 @@
     "compliance": "",
     "warranty": "",
     "accessories": [],
-    "accessories_upsell": []
+    "accessories_upsell": [],
+    "range_extraction_status": "header_row_promoted"
   },
   "retrieval": {
     "search_keywords": [

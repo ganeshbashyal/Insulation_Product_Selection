@@ -8,16 +8,6 @@
   "spec": {
     "range": [
       {
-        "c0": "Variant",
-        "c1": "Thickness",
-        "c2": "Roll Width",
-        "c3": "Roll Length",
-        "c4": "Roll Area",
-        "c5": "Roll Weight",
-        "c6": "Roll Diameter",
-        "c7": "Material R-value"
-      },
-      {
         "c0": "Standard Roll",
         "c1": "7.0 mm",
         "c2": "1350 mm",
@@ -33,7 +23,16 @@
     "features": [],
     "applications": [],
     "technical": [],
-    "range_headers": [],
+    "range_headers": [
+      "Variant",
+      "Thickness",
+      "Roll Width",
+      "Roll Length",
+      "Roll Area",
+      "Roll Weight",
+      "Roll Diameter",
+      "Material R-value"
+    ],
     "fire": "",
     "sustainability": "",
     "install": [],
@@ -42,7 +41,8 @@
     "selection_checklist": [],
     "compliance": "",
     "warranty": "",
-    "accessories": []
+    "accessories": [],
+    "range_extraction_status": "header_row_promoted"
   },
   "retrieval": {
     "search_keywords": [

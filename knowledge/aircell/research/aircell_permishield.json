@@ -8,16 +8,6 @@
   "spec": {
     "range": [
       {
-        "c0": "Variant",
-        "c1": "Total Thickness",
-        "c2": "Width",
-        "c3": "Length",
-        "c4": "Area per Roll",
-        "c5": "Roll Weight",
-        "c6": "Vapour Permeance",
-        "c7": "Thermal Break Rating"
-      },
-      {
         "c0": "Permishield XV 70",
         "c1": "7.2 mm",
         "c2": "1350 mm",
@@ -33,7 +23,16 @@
     "features": [],
     "applications": [],
     "technical": [],
-    "range_headers": [],
+    "range_headers": [
+      "Variant",
+      "Total Thickness",
+      "Width",
+      "Length",
+      "Area per Roll",
+      "Roll Weight",
+      "Vapour Permeance",
+      "Thermal Break Rating"
+    ],
     "fire": "",
     "sustainability": "",
     "install": [],
@@ -42,7 +41,8 @@
     "selection_checklist": [],
     "compliance": "",
     "warranty": "",
-    "accessories": []
+    "accessories": [],
+    "range_extraction_status": "header_row_promoted"
   },
   "retrieval": {
     "search_keywords": [

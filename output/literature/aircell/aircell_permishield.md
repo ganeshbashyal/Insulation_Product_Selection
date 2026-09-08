@@ -36,12 +36,11 @@ Quality insulation engineered for Australian conditions. Reflects up to 97% of r
 
 ## Current catalogue range
 
-| Variant | Size / rating | Pack |
-| --- | --- | --- |
-|  |  |  |
-|  |  |  |
+| Variant | Total Thickness | Width | Length | Area per Roll | Roll Weight | Vapour Permeance | Thermal Break Rating |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Permishield XV 70 | 7.2 mm | 1350 mm | 22.25 m | 30.0 m² | 9.15 kg | Class 3 (0.300 µg/N·s) | R0.20 in-situ |
 
-_Variants from the manufacturer datasheet._
+_Manufacturer size/packaging breakdown._
 
 ## Technical data
 

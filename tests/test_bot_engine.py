@@ -1,7 +1,14 @@
 import json
 from pathlib import Path
 
-from bot_engine import rank_families, recommendation_allowed, technical_gate
+from bot_engine import (
+    canonical_text,
+    normalised_words,
+    rank_families,
+    recommendation_allowed,
+    technical_gate,
+    term_match_score,
+)
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -108,3 +115,25 @@ def test_classification_scores_follow_manufacturer_use_not_form():
     accessory = classify_scores("Accessory", name="Autex Accessory", applications=["General Installation", "Internal Wall | Ceiling | General Acoustic"])
     assert accessory["acoustic_comfort"] <= 1
     assert accessory["energy_efficiency"] <= 1
+
+
+def test_term_match_respects_word_boundaries():
+    """A bare "board" must not match "weatherboard".
+
+    It did, scoring a perfect 1.0, which put rigid boards above wall wraps on
+    timber-framed weatherboard enquiries.
+    """
+    text = canonical_text("our melbourne weatherboard house is cold")
+    words = normalised_words(text)
+
+    assert term_match_score("board", text, words) == 0.0
+    assert term_match_score("weatherboard", text, words) == 1.0
+
+
+def test_multi_word_terms_still_match_across_a_phrase():
+    """The boundary fix must not break legitimate phrase matching."""
+    text = canonical_text("insulating an external wall in a timber frame")
+    words = normalised_words(text)
+
+    assert term_match_score("external wall", text, words) == 1.0
+    assert term_match_score("timber frame", text, words) == 1.0

@@ -8,15 +8,6 @@
   "spec": {
     "range": [
       {
-        "c0": "Product Code",
-        "c1": "Thickness",
-        "c2": "Width",
-        "c3": "Length",
-        "c4": "Box Quantity",
-        "c5": "Total Lineal Metres",
-        "c6": "In-Situ Thermal Resistance"
-      },
-      {
         "c0": "CDB-451200",
         "c1": "10.0 mm (single) / 20.0 mm (doubled)",
         "c2": "45 mm",
@@ -30,7 +21,15 @@
     "features": [],
     "applications": [],
     "technical": [],
-    "range_headers": [],
+    "range_headers": [
+      "Product Code",
+      "Thickness",
+      "Width",
+      "Length",
+      "Box Quantity",
+      "Total Lineal Metres",
+      "In-Situ Thermal Resistance"
+    ],
     "fire": "",
     "sustainability": "",
     "install": [],
@@ -40,7 +39,8 @@
     "compliance": "",
     "warranty": "",
     "accessories": [],
-    "accessories_upsell": []
+    "accessories_upsell": [],
+    "range_extraction_status": "header_row_promoted"
   },
   "retrieval": {
     "search_keywords": [

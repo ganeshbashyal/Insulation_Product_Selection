@@ -33,15 +33,14 @@ Quality insulation engineered for Australian conditions. Engineered to meet the 
 
 ## Current catalogue range
 
-| Variant | Size / rating | Pack |
-| --- | --- | --- |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| Product Code | Roll Width | Roll Length | Carrier Type | Adhesive Technology | Release Liner | Rolls per Carton |
+| --- | --- | --- | --- | --- | --- | --- |
+| QT-4850 | 48 mm | 50 m | Blue woven polymer fabric | Cold-weather acrylic (-30°C to +80°C) | Linerless (None) | 24 rolls |
+| QT-7250 | 72 mm | 50 m | Blue woven polymer fabric | Cold-weather acrylic (-30°C to +80°C) | Linerless (None) | 16 rolls |
+| QT-4850-NL | 48 mm | 50 m | Trade Blue (Unlabelled commercial) | Cold-weather acrylic | Linerless (None) | 24 rolls |
+| QT-7250-NL | 72 mm | 50 m | Trade Blue (Unlabelled commercial) | Cold-weather acrylic | Linerless (None) | 16 rolls |
 
-_Variants from the manufacturer datasheet._
+_Manufacturer size/packaging breakdown._
 
 ## Technical data
 

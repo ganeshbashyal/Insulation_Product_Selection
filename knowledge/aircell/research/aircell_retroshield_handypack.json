@@ -8,15 +8,6 @@
   "spec": {
     "range": [
       {
-        "c0": "Variant",
-        "c1": "Thickness",
-        "c2": "Width",
-        "c3": "Length",
-        "c4": "Total Area",
-        "c5": "Target Vehicle",
-        "c6": "Typical DIY Application"
-      },
-      {
         "c0": "Retroshield Handypack",
         "c1": "7.0 mm",
         "c2": "1350 mm",
@@ -30,7 +21,15 @@
     "features": [],
     "applications": [],
     "technical": [],
-    "range_headers": [],
+    "range_headers": [
+      "Variant",
+      "Thickness",
+      "Width",
+      "Length",
+      "Total Area",
+      "Target Vehicle",
+      "Typical DIY Application"
+    ],
     "fire": "",
     "sustainability": "",
     "install": [],
@@ -40,7 +39,8 @@
     "compliance": "",
     "warranty": "",
     "accessories": [],
-    "accessories_upsell": []
+    "accessories_upsell": [],
+    "range_extraction_status": "header_row_promoted"
   },
   "retrieval": {
     "search_keywords": [

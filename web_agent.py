@@ -268,8 +268,10 @@ async def send_message(session_id: str, body: MessageRequest, request: Request, 
         rag_result = rag_answerer.answer(body.message, use_llm=USE_LLM)
         reply = rag_result["answer"]
     else:
-        # Product-fit: continue with existing flow
-        reply = agent_core.reply(conversation, body.message, use_llm=USE_LLM, manufacturer_scope=body.manufacturer_scope)
+        # Product-fit: continue with existing flow. agent_core owns the
+        # interaction log for this path (it is the only place the ranked
+        # candidates and gate decision exist).
+        reply = agent_core.reply(conversation, body.message, use_llm=USE_LLM, manufacturer_scope=body.manufacturer_scope, site_id=site_id)
 
     # P3: Policy lint validation
     if conversation.recommendation:
@@ -285,17 +287,20 @@ async def send_message(session_id: str, body: MessageRequest, request: Request, 
         "done": conversation.done,
     })
 
-    # Log on completion
-    if conversation.done and conversation.recommendation:
+    # Record the interactions agent_core cannot see. The product-fit path logs
+    # itself (it owns the ranking and gate decision); escalate/commercial/
+    # informational turns previously vanished unrecorded, which is why the
+    # conversations table stayed empty despite the endpoint being in use.
+    if classification.category != "product-fit":
         interaction_store.log_conversation(
             conversation_id=conversation.conversation_id,
             site_id=site_id,
-            answers=conversation.answers,
-            recommendation=conversation.recommendation,
-            gate_status=getattr(conversation, "gate_status", "unknown"),
-            gate_reason=getattr(conversation, "gate_reason", ""),
+            answers={**conversation.answers, "_message": body.message},
+            recommendation=None,
+            gate_status=f"routed:{classification.category}",
+            gate_reason=f"Router classified this as {classification.category} (confidence {classification.confidence:.2f}); no product recommendation was made.",
             climate_zone=None,
-            candidates=getattr(conversation, "candidates", []),
+            candidates=[],
         )
 
     response = MessageResponse(reply=reply, done=conversation.done)

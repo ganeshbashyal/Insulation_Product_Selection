@@ -32,12 +32,11 @@ Quality insulation engineered for Australian conditions. Engineered to meet the 
 
 ## Current catalogue range
 
-| Variant | Size / rating | Pack |
-| --- | --- | --- |
-|  |  |  |
-|  |  |  |
+| Product Code | Thickness | Width | Length | Box Quantity | Total Lineal Metres | In-Situ Thermal Resistance |
+| --- | --- | --- | --- | --- | --- | --- |
+| CDB-451200 | 10.0 mm (single) / 20.0 mm (doubled) | 45 mm | 1200 mm | 50 pieces | 60.0 lineal metres | RT 0.15 (10mm) / RT 0.30 (20mm) |
 
-_Variants from the manufacturer datasheet._
+_Manufacturer size/packaging breakdown._
 
 ## Technical data
 

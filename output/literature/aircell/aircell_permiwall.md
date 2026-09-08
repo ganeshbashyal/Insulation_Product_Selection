@@ -34,12 +34,11 @@ Quality insulation engineered for Australian conditions. Reflects up to 97% of r
 
 ## Current catalogue range
 
-| Variant | Size / rating | Pack |
-| --- | --- | --- |
-|  |  |  |
-|  |  |  |
+| Historical Product Code | Thickness | Width | Length | Roll Area | Structure | Replacement / Current Equivalent |
+| --- | --- | --- | --- | --- | --- | --- |
+| PS055F | 5.5 mm | 1350 mm | 22.25 m | 30.0 m² | Micro-perforated closed cell foam + foil | Kingspan AIR-CELL Permicav XV |
 
-_Variants from the manufacturer datasheet._
+_Manufacturer size/packaging breakdown._
 
 ## Technical data
 

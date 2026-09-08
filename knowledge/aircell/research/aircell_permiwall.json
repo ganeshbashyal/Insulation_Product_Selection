@@ -8,15 +8,6 @@
   "spec": {
     "range": [
       {
-        "c0": "Historical Product Code",
-        "c1": "Thickness",
-        "c2": "Width",
-        "c3": "Length",
-        "c4": "Roll Area",
-        "c5": "Structure",
-        "c6": "Replacement / Current Equivalent"
-      },
-      {
         "c0": "PS055F",
         "c1": "5.5 mm",
         "c2": "1350 mm",
@@ -30,7 +21,15 @@
     "features": [],
     "applications": [],
     "technical": [],
-    "range_headers": [],
+    "range_headers": [
+      "Historical Product Code",
+      "Thickness",
+      "Width",
+      "Length",
+      "Roll Area",
+      "Structure",
+      "Replacement / Current Equivalent"
+    ],
     "fire": "",
     "sustainability": "",
     "install": [],
@@ -40,7 +39,8 @@
     "compliance": "",
     "warranty": "",
     "accessories": [],
-    "accessories_upsell": []
+    "accessories_upsell": [],
+    "range_extraction_status": "header_row_promoted"
   },
   "retrieval": {
     "search_keywords": [

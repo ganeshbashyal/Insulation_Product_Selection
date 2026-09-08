@@ -48,11 +48,9 @@
       "the top"
     ],
     "placement": [
-      "[\"wall",
       "boundary walls",
       "equipment hoardings",
-      "external wall",
-      "shed\"]"
+      "external wall"
     ],
     "use_cases": [
       "Attach to timber palings or colorbond fence",

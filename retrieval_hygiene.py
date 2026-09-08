@@ -84,8 +84,23 @@ _GENERIC_SOLO = {
     "zones", "zone",
 }
 
-# pipeline artifacts that leaked into term lists
-_ARTIFACT = re.compile(r"^batch\s*\d+$", re.I)
+# pipeline artifacts that leaked into term lists.
+# The batch pattern must cover ranges ("batch 5 and 6") and the surrounding
+# chat instruction ('Reply with "batch 5 and 6'), not just a bare "batch 5":
+# those reached the live catalogue as matchable keywords.
+_ARTIFACT = re.compile(r"^batch\s*\d+(\s*(?:and|to|-|&)\s*\d+)*$", re.I)
+
+# Conversational scaffolding from the extraction models. None of this is ever a
+# product term, and any of it in a keyword list silently pollutes matching.
+# Anchored openers require following punctuation so ordinary product terms
+# ("ok term", "Sure-Seal tape") are not mistaken for chat filler.
+_SCAFFOLD = re.compile(
+    r"\breply with\b|\bbatch\s*\d+\s*(?:and|to|&)\s*\d+|"
+    r"^(?:sure|certainly|okay|ok)\s*[,!.:]|"
+    r"\bas an ai\b|\bi (?:cannot|can't|am unable)\b|\bhere (?:is|are) the\b|"
+    r"\blet me know\b|\bcontinue with\b|^note\s*:|^json\b|```",
+    re.I,
+)
 
 
 def _normalise(term: str) -> str:
@@ -139,6 +154,19 @@ def clean_term(term: str, field: str) -> str | None:
         return None
     if _ARTIFACT.match(text):
         return None
+    if _SCAFFOLD.search(text):
+        return None
+    # An unbalanced quote means the term was cut out of a larger quoted string,
+    # so what survives is a fragment of prose rather than a term. Apostrophes
+    # inside words ("manufacturer's") are not quoting and must not count.
+    if text.count('"') % 2:
+        return None
+    if text.count("'") % 2 and not re.search(r"\w'\w", text):
+        return None
+    # Residue of a spliced JSON list: two terms glued by their quote/comma
+    # separator ('SoundScreen", "home theatre insulation').
+    if re.search(r"""["']\s*,\s*["']""", text):
+        return None
     words = text.split()
     if len(words[0]) == 1 and words[0].islower():  # orphan token from a mid-word split
         return None
@@ -189,6 +217,8 @@ def ranker_safe_terms(terms: list, max_words: int = 6) -> list[str]:
     for term in terms or []:
         text = re.sub(r"\s+", " ", str(term)).strip()
         if not text or ":" in text or ";" in text or ". " in text:
+            continue
+        if _SCAFFOLD.search(text) or _ARTIFACT.match(text):
             continue
         if len(text.split()) > max_words:
             continue

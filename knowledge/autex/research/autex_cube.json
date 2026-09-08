@@ -1,0 +1,114 @@
+{
+  "family_id": "AUTEX_CUBE",
+  "family_name": "Autex Cube",
+  "datasheet_pdf_url": "https://cdn.mediavalet.com/aunsw/autex/WQy9apLXOkSWnFbgSFF_Dw/yHhPYydqiEmaZP2RLoMz0g/Original/AU%20Cube%20Data%20Sheet.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-08",
+  "spec": {
+    "description": "Cube™ is a versatile acoustic panel designed for various interior applications, available in 12 mm and 24 mm thicknesses, made from 100% polyester fibre, and customizable with different finishes.",
+    "features": [
+      "Lightweight and semi-rigid",
+      "Made from 100% polyester fibre",
+      "Customizable with Print, Mould, and Press",
+      "Requires no edging or capping",
+      "Available in 12 mm and 24 mm thicknesses"
+    ],
+    "applications": [
+      "Wall applications",
+      "Ceiling applications"
+    ],
+    "technical": [
+      {
+        "property": "R-value",
+        "value": "0.41 (12 mm)",
+        "standard": "ISO 14025"
+      },
+      {
+        "property": "R-value",
+        "value": "0.82 (24 mm)",
+        "standard": "ISO 14025"
+      },
+      {
+        "property": "Density",
+        "value": "Not specified",
+        "standard": ""
+      },
+      {
+        "property": "Thermal conductivity",
+        "value": "Not specified",
+        "standard": ""
+      },
+      {
+        "property": "Fire indices",
+        "value": "Class A, FS:0 - SD:45",
+        "standard": "ASTM E-84-15a"
+      },
+      {
+        "property": "Temperature range",
+        "value": "Not specified",
+        "standard": ""
+      },
+      {
+        "property": "Vapour resistance",
+        "value": "Not specified",
+        "standard": ""
+      },
+      {
+        "property": "pH",
+        "value": "Not specified",
+        "standard": ""
+      }
+    ],
+    "fire": "Class A, FS:0 - SD:45",
+    "sustainability": "Carbon neutral product, Zero carbon manufacturing, Recycled content (>80% recycled material), Low VOC and CDPH compliant, Zero waste manufacturing initiative, Sustainable supply chain, Anti-modern slavery, EPD – compliant with ISO 14025 and EN 15804, Declare – Red List free",
+    "install": [
+      "Install as per Autex Acoustics recommendations",
+      "Install instructions are included in each pack or available on the website"
+    ],
+    "clearances": [],
+    "limitations": [
+      "Not specified",
+      "Not specified",
+      "Not specified",
+      "Not specified",
+      "Not specified",
+      "Not specified"
+    ],
+    "range_headers": [
+      "Material R-value",
+      "Nominal thickness (mm)",
+      "Width (mm)",
+      "Length (mm)",
+      "Batts per pack",
+      "m2 per pack",
+      "Coverage per pack (m2)",
+      "Packs per bale",
+      "Product code"
+    ],
+    "range": [
+      {
+        "c0": "100% polyester fibre",
+        "c1": "12 mm x 2440 mm",
+        "c2": "1220 mm x 2440 mm",
+        "c3": "1220 mm x 2740 mm",
+        "c4": "Not specified",
+        "c5": "Not specified",
+        "c6": "Not specified",
+        "c7": "Not specified",
+        "c8": "Not specified"
+      },
+      {
+        "c0": "100% polyester fibre",
+        "c1": "24 mm x 2440 mm",
+        "c2": "1220 mm x 2440 mm",
+        "c3": "1220 mm x 2740 mm",
+        "c4": "Not specified",
+        "c5": "Not specified",
+        "c6": "Not specified",
+        "c7": "Not specified",
+        "c8": "Not specified"
+      }
+    ]
+  },
+  "source_excerpt": " autexacoustics.com.au\nData SheetCube™\nCube™  is a versatile acoustic panel designed for a variety  \nof interior applications. Available in 12 mm and 24 mm thicknesses, \nCube panels are lightweight and semi-rigid—made from 100% \npolyester fibre. Cube panels are customisable with Print, Mould  \nand Press, Precision Cut, Groove, and Peel ‘n’ Stick, and require  \nno edging or capping. \n(Wall) treatment shall be Cube from \nthermally bonded high density polyester \ncontaining not less than 80% recycled \nmaterial as manufactured by Autex \nAcoustics autexglobal.com\nPanel 1220 x 2440 or 1220 x 2740 x (_)mm \n(nom.) depth, colour (_), sound absorption \n12 mm: Class D, NRC 0.45 – with 25 mm air \ngap: Class C, NRC 0.70. 24 mm: Class D, \nNRC 0.70  \n– with 25 mm air gap: Class C, NRC 0.80. \nFire rating ASTM E-84-15a: Class A, FS:0 - \nSD:45, ISO 9705: Classification: Group 1-S, \nAS ISO 9705 – 2003 Classification: Group 1, \n12 mm BS EN 13501-1:2018: B - s1, d0,  \n24 mm BS EN 13501-1:2018: B - s2, d0.\nIf Cube is to be specified for use other than \nas a wallcovering, please seek guidance from \nyour Autex Acoustics account manager.\nSpecification\nProduct \noverview\nAutex Acoustics® products meet criteria for WELL, LEED, Green Star, and BREEAM building \nrating systems, helping you achieve certification for your project. For support and guidance \non available rating system points please visit autexglobal.com, or speak with your Autex \nAcoustics account manager. \n• Carbon neutral product  \n• Zero carbon manufacturing\n• Recycled content  \n- >80% recycled material\n• Low VOC and CDPH compliant  \n- <0.092 mg/m3 (7 days)\n• Zero waste manufacturing initiative \n• Sustainable supply chain and  \nanti-modern slavery\n• EPD – compliant with ISO 14025  \nand EN 15804\n• Declare – Red List free  \n(third party verified) \n• ISO 14001 Certified Environmental \nManagement \n• Health Product Declaration\n• CDPH Standard\nSustainable material\nEnvironmental \ncertifications\nCertifying your  \ngreen building\nSM \n\n autex"
+}

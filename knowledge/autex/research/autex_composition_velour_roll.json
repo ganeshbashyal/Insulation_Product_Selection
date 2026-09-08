@@ -1,0 +1,81 @@
+{
+  "family_id": "AUTEX_COMPOSITION_VELOUR_ROLL",
+  "family_name": "Autex Composition - Velour Roll",
+  "datasheet_pdf_url": "https://cdn.mediavalet.com/aunsw/autex/otDZn5oeBUmKBopa_5u2UA/jGYOi-Q89kGkR8UV0IKNnQ/Original/Composition%20Data%20Sheet%20AU.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-08",
+  "spec": {
+    "description": "Composition® is a durable, high-performance acoustic wallcovering designed as a paint or wallpaper alternative, made from 100% polyester fibre, ideal for enhancing interior acoustics in creative and learning spaces.",
+    "features": [
+      "Available in two thicknesses",
+      "Available in 39 colours",
+      "Choice of velour or smooth finish",
+      "Made from 100% polyester fibre",
+      "Contains not less than 49% recycled material",
+      "Carbon neutral product",
+      "Zero carbon manufacturing"
+    ],
+    "applications": [
+      "Wallcovering"
+    ],
+    "technical": [
+      {
+        "property": "R-value",
+        "value": "0.20",
+        "standard": "23°C"
+      },
+      {
+        "property": "R-value",
+        "value": "0.30",
+        "standard": "23°C"
+      },
+      {
+        "property": "Density",
+        "value": "1680 gsm for 12 mm",
+        "standard": ""
+      },
+      {
+        "property": "Density",
+        "value": "2980 gsm for 18 mm",
+        "standard": ""
+      },
+      {
+        "property": "Fire ratings",
+        "value": "ISO 9705: Classification: Group 1-S",
+        "standard": ""
+      },
+      {
+        "property": "Fire ratings",
+        "value": "AS ISO 9705: Group 1",
+        "standard": ""
+      },
+      {
+        "property": "Water vapour sorption",
+        "value": "0.4% by weight",
+        "standard": "ASTM C1104 / C1104M-13a"
+      },
+      {
+        "property": "Moisture absorption",
+        "value": "<0.03% by weight",
+        "standard": "Polyester fibre"
+      }
+    ],
+    "fire": "Group 1-S, AS ISO 9705: Group 1",
+    "sustainability": "Carbon neutral product, Zero carbon manufacturing, Recycled content, Low VOC and CDPH compliant, Zero waste manufacturing initiative, Sustainable supply chain and anti-modern slavery",
+    "install": [
+      "Install as per Autex Acoustics recommendations",
+      "Install instructions are included in each pack or available on the website"
+    ],
+    "clearances": [],
+    "limitations": [
+      "Composition is suitable for indoor use only",
+      "Light fastness is dependent on use and exposure",
+      "Composition has been evaluated to the following standard: ISO 105-B02:2014",
+      "Composition is specifically designed to reduce and control reverberated noise and echo in building interiors"
+    ],
+    "range_headers": [],
+    "range": [],
+    "range_extraction_status": "inconsistent_columns_dropped"
+  },
+  "source_excerpt": " autexacoustics.com.au\nData SheetComposition®\nComposition® is a durable, high-performance acoustic wallcovering \ndesigned as a paint or wallpaper alternative. Made from 100% \npolyester fibre, Composition enhances interior acoustics and \nfeatures a pinnable, self-healing surface ideal for creative and \nlearning spaces. Composition is available in two thicknesses,  \n39 colours, and a choice of either velour or smooth finish.\n(Wall) treatment shall be Composition  \nmade from non-woven needle-punched \npolyester containing not less than 49% \nrecycled material as manufactured  \nby Autex Acoustics autexacoustics.com.au\nRoll 12 mm (nom.) depth, colour (_),  \nfinish (velour, smooth), sound absorption: \nClass D, NRC 0.40, Fire ratings: ISO 9705: \nClassification: Group 1-S, AS ISO 9705 – \n2003: Classification: Group 1, BS EN 13501-\n1:2018: B - s1, d0.\nPanel 18 mm, (nom.) depth, colour (_),  \nfinish (velour, smooth), sound absorption: \nClass D, NRC 0.55, Fire ratings: ISO 9705: \nGroup 1-S, AS ISO 9705: Group 1 \nInstall as per Autex Acoustics \nrecommendations. If Composition is  \nto be specified for use other than as  \na wallcovering, please seek guidance from \nyour Autex Acoustics specification manager.\nSpecification\nProduct \noverview\nAutex Acoustics® products meet criteria for NABERS, WELL, LEED, Green Star, and \nBREEAM building rating systems, helping you achieve certification for your project. For \nsupport and guidance on available rating system points please visit autexacoustics.com.au, \nor speak with your Autex Acoustics specification manager. \n• Carbon neutral product  \n• Zero carbon manufacturing\n• Recycled content  \n- >49% recycled material\n• Low VOC and CDPH compliant  \n- <0.0035 mg/m3 (7 days)\n• Zero waste manufacturing initiative \n• Sustainable supply chain and  \nanti-modern slavery\n• EPD – compliant with ISO 14025  \nand EN 15804\n• Declare – Red List free  \n(third party verified) \n• ISO 14001 Certified Environmental \nManagement \n• Health Product Declaration\n• CDPH St"
+}

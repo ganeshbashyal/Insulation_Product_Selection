@@ -231,7 +231,7 @@ def answer_size_query(text: str) -> str | None:
     return f"For {'/'.join(bits)}, current options include {names}{extra}. We'll confirm the exact variant, pack coverage and availability before quoting."
 
 
-def reply(conversation: Conversation, message: str, use_llm: bool = False, manufacturer_scope: str | None = None) -> str:
+def reply(conversation: Conversation, message: str, use_llm: bool = False, manufacturer_scope: str | None = None, site_id: str = "default") -> str:
     """Advance the conversation by one customer message and return the agent reply."""
     if conversation.done:
         # after completion, still answer direct size/availability follow-ups
@@ -288,11 +288,23 @@ def reply(conversation: Conversation, message: str, use_llm: bool = False, manuf
 
     interaction_store.log_conversation(
         conversation_id=conversation.conversation_id,
+        site_id=site_id,
         answers=conversation.answers,
         recommendation=conversation.recommendation,
         gate_status=gate[0],
         gate_reason=gate[1],
         climate_zone=zone,
-        candidates=[{"family_id": r["family_id"], "name": r["name"]} for r in ranked[:3]],
+        candidates=[
+            {
+                "family_id": r["family_id"],
+                "name": r["name"],
+                "manufacturer": r.get("manufacturer", ""),
+                "match_score": r.get("match_score"),
+                "matched": r.get("matched", []),
+                "reliable_match": r.get("reliable_match"),
+                "confidence": r.get("confidence", ""),
+            }
+            for r in ranked[:5]
+        ],
     )
     return _phrase(reply_text, use_llm, context=conversation.recommendation)
