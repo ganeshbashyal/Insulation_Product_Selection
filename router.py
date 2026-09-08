@@ -1,6 +1,7 @@
 """Message classifier: route to informational, product-fit, size-availability, commercial, or escalate.
 
-Uses hosted LLM with rules-based fallback. Returns classification + confidence.
+Uses the local Ollama model with a rules-based fallback. Returns classification
++ confidence. No hosted or third-party model is involved.
 """
 from __future__ import annotations
 
@@ -83,7 +84,7 @@ class MessageRouter:
         return self._classify_rules(message)
 
     def _classify_llm(self, message: str) -> RouterClassification | None:
-        """Use hosted LLM to classify. Returns None on failure."""
+        """Use the local model to classify. Returns None on failure."""
         try:
             prompt = CLASSIFIER_PROMPT.format(message=message[:500])
             reply = llm_client.phrase(prompt, context={})

@@ -1,6 +1,7 @@
 """Tests for message router (LLM classifier + rules fallback)."""
 import pytest
 
+import llm_client
 from router import MessageRouter, RouterClassification
 
 
@@ -105,32 +106,42 @@ class TestRulesBasedClassification:
 
 
 class TestLLMClassification:
-    """Tests for LLM-based classification (when LLM available)."""
+    """Local-model classification, with the Ollama boundary stubbed.
 
-    def test_llm_returns_classification(self, router):
-        """LLM classifier returns a RouterClassification."""
+    These must not call the live model: a real call costs ~15s each, makes the
+    suite non-deterministic, and asserting only "some valid category came back"
+    would pass even if the classifier were broken. Here the model's reply is
+    fixed so the parsing, validation and fallback logic are what get tested.
+    """
+
+    def test_llm_reply_is_used(self, router, monkeypatch):
+        """A valid category from the model is trusted and reported confidently."""
+        monkeypatch.setattr(llm_client, "phrase", lambda *a, **k: "commercial")
         c = router.classify("What is an R-value?")
-        assert isinstance(c, RouterClassification)
-        assert c.category in {"informational", "product-fit", "size-availability", "commercial", "escalate"}
+        assert c.category == "commercial"  # proves the model's reply won, not the rules
+        assert c.confidence == 0.95
 
-    def test_llm_with_escalate(self, router):
-        """LLM recognizes escalate trigger."""
-        c = router.classify("Is this NCC compliant?")
-        # LLM may or may not trigger on this; test that it returns a valid category
-        assert c.category in {"informational", "product-fit", "size-availability", "commercial", "escalate"}
+    def test_llm_reply_is_normalised(self, router, monkeypatch):
+        """Whitespace/casing from the model is tolerated."""
+        monkeypatch.setattr(llm_client, "phrase", lambda *a, **k: "  ESCALATE\n")
+        assert router.classify("Is this NCC compliant?").category == "escalate"
 
-    def test_llm_fallback_on_error(self, router):
-        """LLM classifier falls back to rules if LLM fails."""
-        # Force LLM to fail by passing something that breaks the prompt
+    def test_invalid_llm_reply_falls_back_to_rules(self, router, monkeypatch):
+        """A category outside the allowed set is discarded, not passed through."""
+        monkeypatch.setattr(llm_client, "phrase", lambda *a, **k: "banana")
         c = router.classify("Does it meet NCC requirements?")
-        # Should still get a valid classification (from fallback rules)
-        assert c.category in {"informational", "product-fit", "size-availability", "commercial", "escalate"}
+        assert c.category == "escalate"  # from the rules, which catch "NCC"
+        assert c.confidence == 0.7
 
-    def test_llm_confidence_high_when_successful(self, router):
-        """LLM classification has reasonable confidence."""
-        c = router.classify("What does R-value mean?")
-        # Confidence should be either high (LLM) or medium (rules)
-        assert c.confidence >= 0.5
+    def test_llm_exception_falls_back_to_rules(self, router, monkeypatch):
+        """An unreachable/erroring model must not break classification."""
+        def boom(*a, **k):
+            raise RuntimeError("ollama down")
+
+        monkeypatch.setattr(llm_client, "phrase", boom)
+        c = router.classify("How much does it cost?")
+        assert c.category == "commercial"
+        assert c.confidence == 0.7
 
 
 class TestRouterEdgeCases:

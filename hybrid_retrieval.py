@@ -16,6 +16,7 @@ from __future__ import annotations
 import hashlib
 import json
 import os
+import re
 import urllib.error
 import urllib.request
 from pathlib import Path
@@ -57,9 +58,30 @@ def _card_hash(card_text: str) -> str:
     return hashlib.sha256(card_text.encode("utf-8")).hexdigest()[:16]
 
 
-def load_or_embed_cards(cards: list[dict]) -> tuple[dict[str, np.ndarray], dict[str, str]]:
-    """Load embeddings from cache or embed fresh. Returns ({family_id -> embedding}, {family_id -> card_hash})."""
-    EMBEDDINGS_CACHE.parent.mkdir(parents=True, exist_ok=True)
+def cache_path_for(namespace: str | None = None) -> Path:
+    """Cache file for a corpus.
+
+    Each corpus gets its own file. A single shared file cannot work: the writer
+    below persists only the cards passed to this call, so two corpora sharing a
+    path would overwrite each other's entries on every alternating call and
+    re-embed from scratch every time.
+    """
+    if not namespace:
+        return EMBEDDINGS_CACHE
+    safe = re.sub(r"[^a-z0-9_]+", "_", namespace.casefold()).strip("_") or "default"
+    return EMBEDDINGS_CACHE.with_name(f"{EMBEDDINGS_CACHE.stem}_{safe}.npz")
+
+
+def load_or_embed_cards(
+    cards: list[dict], namespace: str | None = None
+) -> tuple[dict[str, np.ndarray], dict[str, str]]:
+    """Load embeddings from cache or embed fresh. Returns ({family_id -> embedding}, {family_id -> card_hash}).
+
+    `namespace` selects an isolated cache file so unrelated corpora (product
+    cards vs knowledge chunks) never evict one another.
+    """
+    cache_file = cache_path_for(namespace)
+    cache_file.parent.mkdir(parents=True, exist_ok=True)
     hashes: dict[str, str] = {}
     embeddings: dict[str, np.ndarray] = {}
 
@@ -68,9 +90,9 @@ def load_or_embed_cards(cards: list[dict]) -> tuple[dict[str, np.ndarray], dict[
     needed_ids = set(card_map.keys())
 
     # Try to load from cache
-    if EMBEDDINGS_CACHE.exists():
+    if cache_file.exists():
         try:
-            npz = np.load(EMBEDDINGS_CACHE, allow_pickle=True)
+            npz = np.load(cache_file, allow_pickle=True)
             cached_hashes = dict(npz["hashes"].item() or {})
             cached_family_ids = npz.get("family_ids", [])
             cached_embedding_array = npz.get("embeddings")
@@ -104,16 +126,35 @@ def load_or_embed_cards(cards: list[dict]) -> tuple[dict[str, np.ndarray], dict[
             else:
                 print(f"  warning: embedding failed for {fid}")
 
-    # Write cache
+    # Write cache. Merge with whatever else is already stored so a caller that
+    # passes a subset of the corpus cannot evict the rest.
     if embeddings:
-        # Store as: family_ids array, embeddings matrix, hashes dict
-        sorted_ids = sorted(embeddings.keys())
-        embedding_matrix = np.array([embeddings[fid] for fid in sorted_ids], dtype=np.float32)
+        merged_embeddings: dict[str, np.ndarray] = {}
+        merged_hashes: dict[str, str] = {}
+        if cache_file.exists():
+            try:
+                npz = np.load(cache_file, allow_pickle=True)
+                prior_hashes = dict(npz["hashes"].item() or {})
+                prior_ids = [str(x) for x in npz.get("family_ids", [])]
+                prior_matrix = npz.get("embeddings")
+                if prior_matrix is not None:
+                    for i, fid in enumerate(prior_ids):
+                        if fid in prior_hashes:
+                            merged_embeddings[fid] = prior_matrix[i]
+                            merged_hashes[fid] = prior_hashes[fid]
+            except (OSError, ValueError, KeyError, IndexError):
+                merged_embeddings, merged_hashes = {}, {}
+
+        merged_embeddings.update(embeddings)
+        merged_hashes.update(hashes)
+
+        sorted_ids = sorted(merged_embeddings.keys())
+        embedding_matrix = np.array([merged_embeddings[fid] for fid in sorted_ids], dtype=np.float32)
         np.savez(
-            EMBEDDINGS_CACHE,
+            cache_file,
             embeddings=embedding_matrix,
             family_ids=np.array(sorted_ids),
-            hashes=np.array(hashes, dtype=object),
+            hashes=np.array(merged_hashes, dtype=object),
         )
 
     return embeddings, hashes

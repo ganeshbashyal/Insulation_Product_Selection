@@ -99,10 +99,31 @@ def _expand_citations(text: str, ranked: list[dict]) -> str:
 class RAGAnswerer:
     """Answer informational questions using RAG over knowledge base."""
 
+    # The corpus is read-only and identical for every instance, so load and
+    # embed it once per process. Without this, each construction re-embedded
+    # ~1,100 chunks: FastAPI paid it on every worker start and the test suite
+    # paid it once per fixture, which is what pushed a full run past 55 minutes.
+    _shared_chunks: list[dict] | None = None
+    _shared_embeddings: dict | None = None
+
     def __init__(self):
-        self.knowledge_chunks = self._load_knowledge_base()
-        self.embeddings = {}
-        self._load_embeddings()
+        cls = type(self)
+        if cls._shared_chunks is None:
+            cls._shared_chunks = self._load_knowledge_base()
+        self.knowledge_chunks = cls._shared_chunks
+
+        if cls._shared_embeddings is None:
+            self.embeddings = {}
+            self._load_embeddings()
+            cls._shared_embeddings = self.embeddings
+        else:
+            self.embeddings = cls._shared_embeddings
+
+    @classmethod
+    def reset_cache(cls) -> None:
+        """Drop the process-wide corpus cache (tests, or after a corpus rebuild)."""
+        cls._shared_chunks = None
+        cls._shared_embeddings = None
 
     def _load_knowledge_base(self) -> list[dict]:
         """Load Q&A pairs and RAG chunks from knowledge/industry/**."""
@@ -163,7 +184,7 @@ class RAGAnswerer:
         ]
 
         try:
-            self.embeddings, _ = load_or_embed_cards(cards)
+            self.embeddings, _ = load_or_embed_cards(cards, namespace="knowledge")
         except Exception:
             # If embedding fails (Ollama not running), continue with empty embeddings
             pass
