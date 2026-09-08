@@ -1,7 +1,7 @@
 ---
 title: "Acoustica Acoustiflex SQ - Acoustic Barrier Insulation | Acoustica"
-description: "Quality insulation engineered for Australian conditions. Engineered specifically for noise control, delivering the acoustic separation required for NC"
-keywords: "Acoustica Acoustiflex SQ, Acoustica acoustic barrier, acoustic insulation, wall insulation, ceiling insulation, floor insulation, insulation Australia, Acoustica Australia"
+description: "AcoustiFlex®SQ is a high-performance flexible noise barrier designed to reduce aircraft, traffic, and railway noise, available in various weights and "
+keywords: "Acoustica Acoustiflex SQ, Acoustica acoustic barrier, acoustic insulation, wall insulation, ceiling insulation, roof insulation, floor insulation, insulation Australia, Acoustica Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: ACOUSTICA_ACOUSTIFLEX_SQ
 ---
@@ -10,20 +10,27 @@ family_id: ACOUSTICA_ACOUSTIFLEX_SQ
 
 **Acoustica Acoustic Barrier** — acoustic barrier insulation product.
 
-Quality insulation engineered for Australian conditions. Engineered specifically for noise control, delivering the acoustic separation required for NCC compliance. Rigid design makes installation fast and efficient - no sagging or falling out.
+AcoustiFlex®SQ is a high-performance flexible noise barrier designed to reduce aircraft, traffic, and railway noise, available in various weights and configurations.
 
 ## Key features
 
-- Quality insulation product for Australian building conditions.
-- designed to meet NCC energy efficiency requirements.
-- rigid design prevents sagging between joists.
-- reduces drafts and cold floors.
-- excellent thermal performance for roof/ceiling applications.
-- helps meet NCC energy efficiency requirements.
+- Flexible micro-cellular membrane.
+- Aluminium facing foil.
+- Reinforced polyester backing.
+- Equivalent to competitor barriers by weight.
+- Low VOC content.
+- Certified by CSIRO for fire hazard properties.
+- Available in different weights.
+- Easy to handle, cut, and install.
 
 ## Applications and selection
 
-- Internal Wall | Ceiling | Floor | General Acoustic
+- Ceiling acoustic insulation
+- Floor acoustic insulation
+- Roof acoustic insulation
+- Walls and ceilings to reduce noise from adjacent rooms
+- Portable acoustic screens for construction sites
+- Acoustic screens for automotive cabins
 
 **Selection checklist**
 
@@ -36,34 +43,33 @@ Quality insulation engineered for Australian conditions. Engineered specifically
 
 ## Current catalogue range
 
-| Variant | Size / rating | Pack |
-| --- | --- | --- |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-
-_Variants from the manufacturer datasheet._
+| Rating | Type | Thickness | Dimensions | SKUs |
+| --- | --- | --- | --- | --- |
+| R1.5 | thermal_r_value | 4.5 | 1300 x 2500 | 2 |
+| R1.5 | thermal_r_value | 2.5 | 1300 x 5400 | 1 |
+| R1.5 | thermal_r_value | 3.5 | 1300 x 4000 | 1 |
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Acoustic Barrier | Manufacturer catalogue |
-| Material | Mass Loaded Vinyl | Manufacturer catalogue |
-| Applications | Internal Wall | Ceiling | Floor | General Acoustic | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Fire performance | AS1530.3 standard | AS1530.3 |
+| VOC content | Less than 0.5mg | Green Star rating |
+| Density |  | - |
+| Thermal conductivity |  | - |
+| Temperature range |  | - |
+| Vapour resistance |  | - |
+| pH |  | - |
 
-
+Extracted from manufacturer datasheet: https://acoustica.com.au/wp-content/uploads/2024/03/AcoustiFlex-SQ-Brochure-2024.pdf
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+AS1530.3 standard
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
-- Datasheet: https://acoustica.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
+- Datasheet: https://acoustica.com.au/wp-content/uploads/2020/04/Acoustica-specifications-AcoustiFlex_Walls_Ceilings_Roofs_2020.docx (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://acoustica.com.au/.
 
 
@@ -76,7 +82,12 @@ Not verified per SKU. No fire, NCC or BAL classification is asserted in this dra
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Install in accordance with manufacturer specifications.
+1. Easy to handle, cut, and install.
+2. Can be wrapped around noisy fans or pumps.
+3. Used in walls or ceilings to reduce noise.
+4. Can be hung from an overhead structure.
+5. Can be draped over temporary fencing.
+6. Can be used to reduce noise transmission into an automotive cabin.
 
 ## Safety and handling
 
@@ -84,7 +95,7 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Low VOC’s - less than that required for GreenStar rating of 0.5mg
 
 ## Warranty, returns and support
 
@@ -96,7 +107,7 @@ No product-specific warranty term is asserted in this draft. Refer to the manufa
 
 ## Source register
 
-- SRC-01 Manufacturer datasheet: https://acoustica.com.au/.
+- SRC-01 Manufacturer datasheet: https://acoustica.com.au/wp-content/uploads/2020/04/Acoustica-specifications-AcoustiFlex_Walls_Ceilings_Roofs_2020.docx.
 - SRC-02 Safety data sheet: https://acoustica.com.au/.
 - SRC-03 Internal SKU catalogue (3 variant(s)).
 

@@ -58,7 +58,7 @@ Not verified per SKU. No fire, NCC or BAL classification is asserted in this dra
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
-- Datasheet: https://www.kingspan.com/au/ (link audited 2026-09-05; exact product TDS may still be pending).
+- Datasheet: https://www.insulation.kingspan.com/au/en/products/insulation (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://www.allcongroup.com.au/wp-content/uploads/2025/10/kingspan-greenguard-safety-data-sheet-en-au.pdf.
 
 
@@ -91,7 +91,7 @@ No product-specific warranty term is asserted in this draft. Refer to the manufa
 
 ## Source register
 
-- SRC-01 Manufacturer datasheet: https://www.kingspan.com/au/.
+- SRC-01 Manufacturer datasheet: https://www.insulation.kingspan.com/au/en/products/insulation.
 - SRC-02 Safety data sheet: https://www.allcongroup.com.au/wp-content/uploads/2025/10/kingspan-greenguard-safety-data-sheet-en-au.pdf.
 - SRC-03 Internal SKU catalogue (1 variant(s)).
 

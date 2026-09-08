@@ -62,7 +62,7 @@ Not verified per SKU. No fire, NCC or BAL classification is asserted in this dra
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
-- Datasheet: https://www.autexacoustics.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
+- Datasheet: https://www.autexacoustics.com.au/technical-documents/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://insulvac.com.au/wp-content/uploads/2020/04/autex-material-safety-data-sheet-msds.pdf.
 
 
@@ -93,7 +93,7 @@ No product-specific warranty term is asserted in this draft. Refer to the manufa
 
 ## Source register
 
-- SRC-01 Manufacturer datasheet: https://www.autexacoustics.com.au/.
+- SRC-01 Manufacturer datasheet: https://www.autexacoustics.com.au/technical-documents/.
 - SRC-02 Safety data sheet: https://insulvac.com.au/wp-content/uploads/2020/04/autex-material-safety-data-sheet-msds.pdf.
 - SRC-03 Internal SKU catalogue (7 variant(s)).
 

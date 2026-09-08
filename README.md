@@ -134,9 +134,9 @@ cd "C:\Users\ganes\OneDrive\Documents\GitHub\Insulation_Product_Selection"
 streamlit run app.py
 ```
 
-### Optional: product literature (sales/SEO pages + DOCX)
+### Optional: product literature (sales/SEO pages)
 
-[`scripts/generate_family_literature.py`](scripts/generate_family_literature.py) mines the deep-dive docs, `families.json` and the SKU catalogue to produce a concise, customer-facing page (`output/literature/<manufacturer>/<family>.md`) and a matching Word document (`.docx`) for every family, structured like the Thermotec 4-Zero literature draft (description, key features, applications + selection checklist, range table, technical data, compliance, install, safety, sustainability, warranty, spec clause, source register, review actions). Each page carries SEO `title`/`description`/`keywords`. Runs locally with no LLM; content-hashed so repeat runs only regenerate changed families:
+[`scripts/generate_family_literature.py`](scripts/generate_family_literature.py) mines the deep-dive docs, `families.json` and the SKU catalogue to produce a concise, customer-facing Markdown page (`output/literature/<manufacturer>/<family>.md`) for every family, structured like the Thermotec 4-Zero literature draft (description, key features, applications + selection checklist, range table, technical data, compliance, install, safety, sustainability, warranty, spec clause, source register, review actions). Each page carries SEO `title`/`description`/`keywords`. Runs locally with no LLM; content-hashed so repeat runs only regenerate changed families:
 
 ```powershell
 python scripts/generate_family_literature.py            # all 283 families
@@ -145,7 +145,7 @@ python scripts/generate_family_literature.py --only Autex
 
 ### Optional: deep-dive TDS research agent (local, background)
 
-[`scripts/tds_research_agent.py`](scripts/tds_research_agent.py) fetches each family's real manufacturer datasheet PDF (from the SKU catalogue, the official `source_url`, or a web/sitemap search on the manufacturer's domain), extracts the text, and asks your **local Ollama** model to structure it into a JSON spec — real R-values, densities, fire indices, install steps, applications — stored at `knowledge/<manufacturer>/research/<family>.json` with the source URL recorded. Nothing leaves your machine; only the local model processes the text. Re-running the literature generator then folds that real data into the MD/DOCX instead of thin placeholders.
+[`scripts/tds_research_agent.py`](scripts/tds_research_agent.py) fetches each family's real manufacturer datasheet PDF (from the SKU catalogue, the official `source_url`, or a web/sitemap search on the manufacturer's domain), extracts the text, and asks your **local Ollama** model to structure it into a JSON spec — real R-values, densities, fire indices, install steps, applications — stored at `knowledge/<manufacturer>/research/<family>.json` with the source URL recorded. Nothing leaves your machine; only the local model processes the text. Re-running the literature generator then folds that real data into the Markdown pages instead of thin placeholders.
 
 Run it one family at a time (reliable on a local LLM; safe to schedule in the background):
 

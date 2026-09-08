@@ -60,7 +60,7 @@ Not verified per SKU. No fire, NCC or BAL classification is asserted in this dra
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
-- Datasheet: https://acoustica.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
+- Datasheet: https://acoustica.com.au/wp-content/uploads/2020/04/Acoustica-specifications-QuietWave_2020.docx (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://acoustica.com.au/.
 
 
@@ -94,7 +94,7 @@ No product-specific warranty term is asserted in this draft. Refer to the manufa
 
 ## Source register
 
-- SRC-01 Manufacturer datasheet: https://acoustica.com.au/.
+- SRC-01 Manufacturer datasheet: https://acoustica.com.au/wp-content/uploads/2020/04/Acoustica-specifications-QuietWave_2020.docx.
 - SRC-02 Safety data sheet: https://acoustica.com.au/.
 - SRC-03 Internal SKU catalogue (3 variant(s)).
 

@@ -1,6 +1,6 @@
 ---
 title: "Autex Acoustic Timber - Ceiling Tiles - Panel Insulation | Autex"
-description: "Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability"
+description: "Acoustic Timber Ceiling Tile is a high-performance acoustic tile made from non-woven, needle punched 100% polyester fibre, designed for ceiling applic"
 keywords: "Autex Acoustic Timber - Ceiling Tiles, Autex panel, acoustic insulation, ceiling insulation, insulation Australia, Autex Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AUTEX_ACOUSTIC_TIMBER_CEILING_TILES
@@ -10,22 +10,22 @@ family_id: AUTEX_ACOUSTIC_TIMBER_CEILING_TILES
 
 **Autex Panel** — acoustic panels for sound absorption and interior finish.
 
-Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability.
+Acoustic Timber Ceiling Tile is a high-performance acoustic tile made from non-woven, needle punched 100% polyester fibre, designed for ceiling applications and compliant with standard grid systems.
 
 ## Key features
 
-- 100% polyester - safe to handle without protective equipment.
-- contains minimum 80% recycled PET plastic bottles.
-- non-allergenic, non-irritant formulation.
-- will not support mould or mildew growth.
-- maintains performance when wet.
-- excellent thermal performance for roof/ceiling applications.
-- Made from recycled PET bottles.
-- Safe to handle without PPE.
+- Made from recycled material.
+- Carbon neutral product.
+- Low VOC.
+- Zero waste manufacturing.
+- Sustainable supply chain.
+- Anti-modern slavery.
+- Certified environmental management.
+- Health Product Declaration.
 
 ## Applications and selection
 
-- Ceiling
+- Ceiling applications
 
 **Selection checklist**
 
@@ -45,36 +45,42 @@ Specialists in sustainable polyester acoustic solutions. Safe to handle without 
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Panel | Manufacturer catalogue |
-| Material | Polyester | Manufacturer catalogue |
-| Applications | Ceiling | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| R-value | Not specified | - |
+| Density | Not specified | - |
+| Thermal conductivity | Not specified | - |
+| Fire indices | Group 1-S, Group 1 | - |
+| Temperature range | Not specified | - |
+| Vapour | Not specified | - |
+| pH | Not specified | - |
 
-
+Extracted from manufacturer datasheet: https://cdn.mediavalet.com/aunsw/autex/vVJbtLTmhkiu6yc1K7rYtw/uOImq3g0Jk2TMGrqwIZgug/Original/Acoustic%20Timber%20Ceiling%20Tiles%20Data%20Sheet%20AU.pdf
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Group 1-S, Group 1
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
-- Datasheet: https://www.autexacoustics.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
+- Datasheet: https://cdn.mediavalet.com/aunsw/autex/vVJbtLTmhkiu6yc1K7rYtw/uOImq3g0Jk2TMGrqwIZgug/Original/Acoustic%20Timber%20Ceiling%20Tiles%20Data%20Sheet%20AU.pdf (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://insulvac.com.au/wp-content/uploads/2020/04/autex-material-safety-data-sheet-msds.pdf.
 
 
 ## Limitations and warnings
 
-- Not suitable for fire rating without additional protection..
-- not to be exposed to weather or sustained moisture..
-- do not compress beyond manufacturer recommendations..
-- check fire-rated system requirements..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Avoid contact with the Acoustic Timber Ceiling Tile surface.
+- Gently remove liquids and contaminants immediately.
+- Do not allow liquids to soak, dry, or set.
+- Refer to product Care and Maintenance for cleaning guidance.
+- Consult a specialist cleaning company if required.
+- All loads to be independently supported or transferred to the grid.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for fire rating without additional protection.
+1. Install as per Autex Acoustics recommendations.
+2. Install instructions included in each pack or available on the website.
+3. Adhere to relevant building codes and design rules near fire protection systems.
 
 ## Safety and handling
 
@@ -82,7 +88,7 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Carbon neutral, Zero waste manufacturing, Anti-modern slavery
 
 ## Warranty, returns and support
 
@@ -94,7 +100,7 @@ No product-specific warranty term is asserted in this draft. Refer to the manufa
 
 ## Source register
 
-- SRC-01 Manufacturer datasheet: https://www.autexacoustics.com.au/.
+- SRC-01 Manufacturer datasheet: https://cdn.mediavalet.com/aunsw/autex/vVJbtLTmhkiu6yc1K7rYtw/uOImq3g0Jk2TMGrqwIZgug/Original/Acoustic%20Timber%20Ceiling%20Tiles%20Data%20Sheet%20AU.pdf.
 - SRC-02 Safety data sheet: https://insulvac.com.au/wp-content/uploads/2020/04/autex-material-safety-data-sheet-msds.pdf.
 - SRC-03 Internal SKU catalogue (2 variant(s)).
 

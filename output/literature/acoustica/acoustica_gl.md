@@ -1,7 +1,7 @@
 ---
 title: "Acoustica Gl - Pipe Insulation | Acoustica"
-description: "Quality insulation engineered for Australian conditions. Engineered for noise control, delivering acoustic separation for NCC compliance."
-keywords: "Acoustica Gl, Acoustica pipe, acoustic insulation, pipe insulation, duct insulation, insulation Australia, Acoustica Australia"
+description: "GreenLAG pipe lagging is an environmentally-friendly acoustic insulation system that combines a patented visco-elastic QuietWave noise barrier with ac"
+keywords: "Acoustica Gl, Acoustica pipe, acoustic insulation, pipe insulation, insulation Australia, Acoustica Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: ACOUSTICA_GL
 ---
@@ -10,19 +10,25 @@ family_id: ACOUSTICA_GL
 
 **Acoustica Pipe** — pre-formed pipe insulation for thermal efficiency and condensation control.
 
-Quality insulation engineered for Australian conditions. Engineered for noise control, delivering acoustic separation for NCC compliance.
+GreenLAG pipe lagging is an environmentally-friendly acoustic insulation system that combines a patented visco-elastic QuietWave noise barrier with acoustic foam for exceptional sound transmission loss, suitable for waste water pipes in residential, commercial, and industrial properties.
 
 ## Key features
 
-- Engineered specifically for acoustic performance.
-- high NRC/Rw ratings for effective sound control.
-- suitable for commercial and residential applications.
-- prevents condensation on cold services.
-- maintains system efficiency.
+- Patented visco-elastic QuietWave noise barrier.
+- Acoustic foam for sound transmission loss.
+- Soft microcellular material for vibration damping.
+- Available in rolls, bends, strips, and junctions.
+- NCC-compliant.
+- No protective wear required for installation.
+- Thin and lightweight.
+- Supplied in various thicknesses.
 
 ## Applications and selection
 
-- Pipe | Duct | Services Acoustic | Plumbing
+- Waste water pipes
+- Residential buildings
+- Commercial properties
+- Industrial properties
 
 **Selection checklist**
 
@@ -35,26 +41,26 @@ Quality insulation engineered for Australian conditions. Engineered for noise co
 
 ## Current catalogue range
 
-| Variant | Size / rating | Pack |
-| --- | --- | --- |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-
-_Variants from the manufacturer datasheet._
+| Rating | Type | Thickness | Dimensions | SKUs |
+| --- | --- | --- | --- | --- |
+| R1.5 | thermal_r_value | 15 | 1300 x 3000 | 1 |
+| R1.5 | thermal_r_value | 15 | 1300 x 5000 | 1 |
+| R1.5 | thermal_r_value | 25 | 1300 x 3000 | 1 |
+| R1.5 | thermal_r_value | 25 | 1300 x 5000 | 1 |
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Pipe | Manufacturer catalogue |
-| Material | Acoustic Composite | Manufacturer catalogue |
-| Applications | Pipe | Duct | Services Acoustic | Plumbing | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Thickness | 15mm | - |
+| Thickness | 25mm | - |
+| Width | 1.3m | - |
+| Length | 5m | - |
+| Fire indices |  | - |
+| Vapour |  | - |
+| pH |  | - |
 
-
+Extracted from manufacturer datasheet: https://acoustica.com.au/wp-content/uploads/2020/04/Acoustica-specifications-GreenLag_2020.docx
 
 ## Fire, testing and compliance context
 
@@ -62,7 +68,7 @@ Not verified per SKU. No fire, NCC or BAL classification is asserted in this dra
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
-- Datasheet: https://acoustica.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
+- Datasheet: https://acoustica.com.au/wp-content/uploads/2020/04/Acoustica-specifications-GreenLag_2020.docx (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://acoustica.com.au/.
 
 
@@ -74,7 +80,11 @@ Not verified per SKU. No fire, NCC or BAL classification is asserted in this dra
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Acoustic ratings are system-based - verify complete assembly matches tested configuration.
+1. Cut into strips to suit pipe size.
+2. Wrap around the pipe overlapping all joints by 50mm.
+3. Wrap three circumferential wraps of high quality 48-72mm wide reinforced aluminium tape at approximately every 350mm.
+4. Tape along all seams.
+5. Install as per detail drawings.
 
 ## Safety and handling
 
@@ -94,7 +104,7 @@ No product-specific warranty term is asserted in this draft. Refer to the manufa
 
 ## Source register
 
-- SRC-01 Manufacturer datasheet: https://acoustica.com.au/.
+- SRC-01 Manufacturer datasheet: https://acoustica.com.au/wp-content/uploads/2020/04/Acoustica-specifications-GreenLag_2020.docx.
 - SRC-02 Safety data sheet: https://acoustica.com.au/.
 - SRC-03 Internal SKU catalogue (4 variant(s)).
 

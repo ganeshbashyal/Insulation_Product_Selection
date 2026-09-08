@@ -1,6 +1,6 @@
 ---
 title: "Autex Acoustic Timber - Acoustic Timber Raft - Batt Insulation | Autex"
-description: "Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled pla"
+description: "Acoustic Timber Raft is a modular acoustic baffle system made from 100% polyester fibre, designed for adjustable height, spacing, and placement contro"
 keywords: "Autex Acoustic Timber - Acoustic Timber Raft, Autex batt, acoustic insulation, wall insulation, ceiling insulation, insulation Australia, Autex Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AUTEX_ACOUSTIC_TIMBER_ACOUSTIC_TIMBER_RAFT
@@ -10,23 +10,23 @@ family_id: AUTEX_ACOUSTIC_TIMBER_ACOUSTIC_TIMBER_RAFT
 
 **Autex Batt** — bulk insulation batts for thermal and acoustic performance.
 
-Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled plastic bottles, it's the sustainable choice for modern buildings.
+Acoustic Timber Raft is a modular acoustic baffle system made from 100% polyester fibre, designed for adjustable height, spacing, and placement control, suitable for acoustic and decorative treatments in non-contact areas.
 
 ## Key features
 
-- 100% polyester - safe to handle without protective equipment.
-- contains minimum 80% recycled PET plastic bottles.
-- non-allergenic, non-irritant formulation.
-- will not support mould or mildew growth.
-- maintains performance when wet - dries out naturally.
-- excellent thermal performance for roof/ceiling applications.
-- helps meet NCC energy efficiency requirements.
-- Made from recycled PET bottles.
+- Modular design.
+- Adjustable channel and clip system.
+- Lightweight.
+- Solid appearance.
+- Made from 100% polyester fibre.
+- Carbon neutral.
+- Recycled content.
+- Low VOC.
 
 ## Applications and selection
 
-- Internal Wall | Ceiling | General Acoustic
-- Ceiling | General Acoustic
+- Ceiling applications
+- Wall applications
 
 **Selection checklist**
 
@@ -46,36 +46,41 @@ Specialists in sustainable polyester acoustic solutions. Safe to handle without 
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Batt | Manufacturer catalogue |
-| Material | Polyester | Manufacturer catalogue |
-| Applications | Internal Wall | Ceiling | General Acoustic; Ceiling | General Acoustic | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| R-value | N/A | N/A |
+| Density | N/A | N/A |
+| Thermal conductivity | N/A | N/A |
+| Fire indices | ISO 9705: Group 1-S, Group 1 | ISO 9705 |
+| Temperature range | N/A | N/A |
+| Vapour | N/A | N/A |
+| pH | N/A | N/A |
 
-
+Extracted from manufacturer datasheet: https://cdn.mediavalet.com/aunsw/autex/7stmLZyUYEmq4O_fpAwUNQ/34ByV9cm6UmNXhpS6AsgFQ/Original/Acoustic%20Timber%20Raft%20Datasheet.pdf
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Class A, FS:0 - SD:45, Group 1-S, Group 1
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
-- Datasheet: https://www.autexacoustics.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
+- Datasheet: https://cdn.mediavalet.com/aunsw/autex/7stmLZyUYEmq4O_fpAwUNQ/34ByV9cm6UmNXhpS6AsgFQ/Original/Acoustic%20Timber%20Raft%20Datasheet.pdf (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://insulvac.com.au/wp-content/uploads/2020/04/autex-material-safety-data-sheet-msds.pdf.
 
 
 ## Limitations and warnings
 
-- Not suitable for applications requiring fire rating without additional protection..
-- not to be exposed to weather or sustained moisture..
-- do not compress beyond manufacturer recommendations..
-- check fire-rated system requirements if fire rating is required..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Not recommended for areas with likely contact.
+- Light fastness dependent on use and exposure.
+- May show surface damage upon impact.
+- Avoid contact with surface.
+- Gently remove liquids and contaminants.
+- Consult specialist for cleaning if required.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for applications requiring fire rating without additional protection.
+1. Install as per Autex Acoustics recommendations.
+2. Install instructions included in each pack or available on the website.
 
 ## Safety and handling
 
@@ -83,7 +88,7 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Recycled content, Zero waste manufacturing initiative
 
 ## Warranty, returns and support
 
@@ -95,7 +100,7 @@ No product-specific warranty term is asserted in this draft. Refer to the manufa
 
 ## Source register
 
-- SRC-01 Manufacturer datasheet: https://www.autexacoustics.com.au/.
+- SRC-01 Manufacturer datasheet: https://cdn.mediavalet.com/aunsw/autex/7stmLZyUYEmq4O_fpAwUNQ/34ByV9cm6UmNXhpS6AsgFQ/Original/Acoustic%20Timber%20Raft%20Datasheet.pdf.
 - SRC-02 Safety data sheet: https://insulvac.com.au/wp-content/uploads/2020/04/autex-material-safety-data-sheet-msds.pdf.
 - SRC-03 Internal SKU catalogue (2 variant(s)).
 

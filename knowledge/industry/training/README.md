@@ -17,6 +17,44 @@
 | [expert_finetune.jsonl](expert_finetune.jsonl) | JSONL | 133 chat-format pairs (45 corpus + 88 legacy, deduped) — generated |
 | [expert_rag_chunks.jsonl](expert_rag_chunks.jsonl) | JSONL | 44 retrieval chunks with module/kind/sources metadata + content hash — generated |
 | [expert_training_report.json](expert_training_report.json) | JSON | Coverage report (per-module counts, kind histogram) — generated |
+| [building_class_rag_chunks.jsonl](building_class_rag_chunks.jsonl) | JSONL | 232 retrieval chunks covering NCC building-class construction staging — generated, **loaded at runtime by `rag_answerer.py`** |
+| `building_class_finetune.jsonl` | JSONL | 850 chat-format pairs from the building-class profiles — generated, git-ignored, **unreviewed** |
+| [building_class_training_report.json](building_class_training_report.json) | JSON | Building-class coverage report (per-class profile/element counts) — generated |
+
+### Building-class dataset
+
+Covers what is built at each construction stage per NCC class (1–10c), and
+where insulation, membranes and fire/acoustic materials are installed. Source
+of truth is `knowledge/building_classes/building_class_source.json`; edit that,
+not the outputs, then re-run:
+
+```powershell
+python -m construction_ingest.building_class --export-json --export-training --summary
+```
+
+36 profiles → 196 stages → 338 insulation elements. The same command loads them
+into SQLite with an FTS5 index for direct querying (`--lookup 9b`, `--search soffit`).
+
+> The fine-tune pairs assert NCC clauses taken verbatim from the source and have
+> **not** been used to train anything. Review them before any model repeats those
+> clauses as fact. Retrieval is doing the work today, not fine-tuning.
+
+### Retrieval quality (measured 2026-09-08)
+
+Measured by `scripts/eval_knowledge_retrieval.py`, which derives its own ground
+truth from the corpus, so no hand labelling is needed. All local — embeddings
+and generation both via Ollama.
+
+| Metric | Result |
+|---|---|
+| recall@1 | 83.2% |
+| recall@5 | 98.7% |
+| MRR | 0.903 |
+| answers generated | 100% |
+| answers citing a source | 100% |
+
+Remaining recall@1 misses are near-ties between genuinely similar profiles
+(e.g. two separate Class 9b assembly-building profiles), not wrong-class matches.
 
 *Generated files are built by `scripts/build_expert_training_data.py` from `expert_corpus.json`; edit the corpus, not the outputs, then re-run:*
 
@@ -57,7 +95,7 @@ Each line is an OpenAI-style chat message:
 ## How to use for bot training
 
 1. **Fine-tuning:** use `qa_pairs.jsonl` directly (OpenAI chat format) — ready for OpenAI/GPT, Llama, or other fine-tuning pipelines.
-2. **RAG (retrieval-augmented generation):** chunk the markdown files (glossary, climate zones, installation, bushfire, plus the parent `compliance/`, `product_intelligence/`, and `principles/` folders) as the knowledge base.
+2. **RAG (retrieval-augmented generation):** `rag_answerer.py` loads `qa_pairs.jsonl` plus every `training/*_rag_chunks.jsonl` automatically, embeds them with local Ollama and caches the vectors. Dropping a new `*_rag_chunks.jsonl` here is enough to put it in front of the bot; only the first run pays the embedding cost.
 3. **System prompt:** the master [README.md](../README.md) and [AU_Insulation_Expert_Knowledge_Base.md](../AU_Insulation_Expert_Knowledge_Base.md) provide the bot's persona and domain framing.
 
 ## Full corpus (all layers)

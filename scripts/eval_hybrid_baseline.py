@@ -42,7 +42,8 @@ def load_gold_labels() -> list[dict] | None:
     path = ROOT / "data" / "local" / "gold_labels_todo.csv"
     if not path.exists():
         return None
-    rows = list(csv.DictReader(path, encoding="utf-8"))
+    with open(path, encoding="utf-8-sig", newline="") as handle:
+        rows = list(csv.DictReader(handle))
     filled = [r for r in rows if r.get("gold_family_id") or r.get("gold_verdict")]
     return filled if filled else None
 

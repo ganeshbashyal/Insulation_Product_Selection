@@ -13,6 +13,10 @@ reports/*
 !reports/.gitkeep
 data/local/
 
+# Product literature is Markdown only. DOCX copies were dropped: the generator
+# no longer emits them and stale binaries drifted out of sync with the .md.
+output/literature/**/*.docx
+
 # construction ingestion engine artefacts (regenerate with
 # `python -m construction_ingest.main --build`)
 data/construction_postcodes.db

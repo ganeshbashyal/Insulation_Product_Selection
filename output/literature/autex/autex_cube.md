@@ -1,7 +1,7 @@
 ---
 title: "Autex Cube - Panel Insulation | Autex"
-description: "Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled pla"
-keywords: "Autex Cube, Autex panel, acoustic insulation, wall insulation, ceiling insulation, insulation Australia, Autex Australia"
+description: "Cube™ is a versatile acoustic panel designed for various interior applications, available in 12 mm and 24 mm thicknesses, made from 100% polyester fib"
+keywords: "Autex Cube, Autex panel, wall insulation, ceiling insulation, insulation Australia, Autex Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AUTEX_CUBE
 ---
@@ -10,22 +10,20 @@ family_id: AUTEX_CUBE
 
 **Autex Panel** — acoustic panels for sound absorption and interior finish.
 
-Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled plastic bottles, it's the sustainable choice for modern buildings.
+Cube™ is a versatile acoustic panel designed for various interior applications, available in 12 mm and 24 mm thicknesses, made from 100% polyester fibre, and customizable with different finishes.
 
 ## Key features
 
-- 100% polyester - safe to handle without protective equipment.
-- contains minimum 80% recycled PET plastic bottles.
-- non-allergenic, non-irritant formulation.
-- will not support mould or mildew growth.
-- maintains performance when wet - dries out naturally.
-- excellent thermal performance for roof/ceiling applications.
-- helps meet NCC energy efficiency requirements.
-- Made from recycled PET bottles.
+- Lightweight and semi-rigid.
+- Made from 100% polyester fibre.
+- Customizable with Print, Mould, and Press.
+- Requires no edging or capping.
+- Available in 12 mm and 24 mm thicknesses.
 
 ## Applications and selection
 
-- Internal Wall | Ceiling | General Acoustic
+- Wall applications
+- Ceiling applications
 
 **Selection checklist**
 
@@ -38,49 +36,51 @@ Specialists in sustainable polyester acoustic solutions. Safe to handle without 
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
-| --- | --- | --- | --- | --- |
-| Rw 35 | acoustic_rw | 6 | 2440 x 1220 | 2 |
-| Rw 35 | acoustic_rw | 12 | 2440 x 1220 | 2 |
-| Rw 35 | acoustic_rw | 12 | 2740 x 1220 | 2 |
-| Rw 35 | acoustic_rw | 24 | 2440 x 1220 | 2 |
-| Rw 35 | acoustic_rw | 24 | 2740 x 1220 | 2 |
-| Rw 35 | acoustic_rw | 6 | 1200 x 1220 | 2 |
-| Rw 35 | acoustic_rw | 12 | 1200 x 1220 | 2 |
-| Rw 35 | acoustic_rw | 24 | 1200 x 1220 | 2 |
+| Material R-value | Nominal thickness (mm) | Width (mm) | Length (mm) | Batts per pack | m2 per pack | Coverage per pack (m2) | Packs per bale | Product code |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 100% polyester fibre | 12 mm x 2440 mm | 1220 mm x 2440 mm | 1220 mm x 2740 mm | Not specified | Not specified | Not specified | Not specified | Not specified |
+| 100% polyester fibre | 24 mm x 2440 mm | 1220 mm x 2440 mm | 1220 mm x 2740 mm | Not specified | Not specified | Not specified | Not specified | Not specified |
+
+_Manufacturer size/packaging breakdown._
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Panel | Manufacturer catalogue |
-| Material | Polyester | Manufacturer catalogue |
-| Applications | Internal Wall | Ceiling | General Acoustic | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| R-value | 0.41 (12 mm) | ISO 14025 |
+| R-value | 0.82 (24 mm) | ISO 14025 |
+| Density | Not specified | - |
+| Thermal conductivity | Not specified | - |
+| Fire indices | Class A, FS:0 - SD:45 | ASTM E-84-15a |
+| Temperature range | Not specified | - |
+| Vapour resistance | Not specified | - |
+| pH | Not specified | - |
 
-
+Extracted from manufacturer datasheet: https://cdn.mediavalet.com/aunsw/autex/WQy9apLXOkSWnFbgSFF_Dw/yHhPYydqiEmaZP2RLoMz0g/Original/AU%20Cube%20Data%20Sheet.pdf
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Class A, FS:0 - SD:45
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
-- Datasheet: https://www.autexacoustics.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
+- Datasheet: https://cdn.mediavalet.com/aunsw/autex/WQy9apLXOkSWnFbgSFF_Dw/yHhPYydqiEmaZP2RLoMz0g/Original/AU%20Cube%20Data%20Sheet.pdf (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://insulvac.com.au/wp-content/uploads/2020/04/autex-material-safety-data-sheet-msds.pdf.
 
 
 ## Limitations and warnings
 
-- Not suitable for applications requiring fire rating without additional protection..
-- not to be exposed to weather or sustained moisture..
-- do not compress beyond manufacturer recommendations..
-- check fire-rated system requirements if fire rating is required..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Not specified.
+- Not specified.
+- Not specified.
+- Not specified.
+- Not specified.
+- Not specified.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for applications requiring fire rating without additional protection.
+1. Install as per Autex Acoustics recommendations.
+2. Install instructions are included in each pack or available on the website.
 
 ## Safety and handling
 
@@ -88,7 +88,7 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Carbon neutral product, Zero carbon manufacturing, Recycled content (>80% recycled material), Low VOC and CDPH compliant, Zero waste manufacturing initiative, Sustainable supply chain, Anti-modern slavery, EPD – compliant with ISO 14025 and EN 15804, Declare – Red List free
 
 ## Warranty, returns and support
 
@@ -100,7 +100,7 @@ No product-specific warranty term is asserted in this draft. Refer to the manufa
 
 ## Source register
 
-- SRC-01 Manufacturer datasheet: https://www.autexacoustics.com.au/.
+- SRC-01 Manufacturer datasheet: https://cdn.mediavalet.com/aunsw/autex/WQy9apLXOkSWnFbgSFF_Dw/yHhPYydqiEmaZP2RLoMz0g/Original/AU%20Cube%20Data%20Sheet.pdf.
 - SRC-02 Safety data sheet: https://insulvac.com.au/wp-content/uploads/2020/04/autex-material-safety-data-sheet-msds.pdf.
 - SRC-03 Internal SKU catalogue (8 variant(s)).
 

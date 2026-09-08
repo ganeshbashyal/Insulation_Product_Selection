@@ -35,13 +35,12 @@ Quality insulation engineered for Australian conditions. Engineered specifically
 
 ## Current catalogue range
 
-| Variant | Size / rating | Pack |
-| --- | --- | --- |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-
-_Variants from the manufacturer datasheet._
+| Rating | Type | Thickness | Dimensions | SKUs |
+| --- | --- | --- | --- | --- |
+| R1.5 | thermal_r_value | 8 | 1150 x 1150 | 2 |
+| R1.5 | thermal_r_value | 4 | 1150 x 1150 | 1 |
+| R1.5 | thermal_r_value | 17 | 1200 x 1200 | 1 |
+| R1.5 | thermal_r_value | 10 | 1150 x 1150 | 1 |
 
 ## Technical data
 
@@ -60,7 +59,7 @@ Not verified per SKU. No fire, NCC or BAL classification is asserted in this dra
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
-- Datasheet: https://acoustica.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
+- Datasheet: https://acoustica.com.au/wp-content/uploads/2020/04/Acoustica-specifications-AngelStep_2020.docx (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://acoustica.com.au/.
 
 
@@ -94,7 +93,7 @@ No product-specific warranty term is asserted in this draft. Refer to the manufa
 
 ## Source register
 
-- SRC-01 Manufacturer datasheet: https://acoustica.com.au/.
+- SRC-01 Manufacturer datasheet: https://acoustica.com.au/wp-content/uploads/2020/04/Acoustica-specifications-AngelStep_2020.docx.
 - SRC-02 Safety data sheet: https://acoustica.com.au/.
 - SRC-03 Internal SKU catalogue (4 variant(s)).
 

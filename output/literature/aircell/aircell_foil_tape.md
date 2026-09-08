@@ -34,15 +34,11 @@ Quality insulation engineered for Australian conditions. Reflects up to 97% of r
 
 ## Current catalogue range
 
-| Variant | Size / rating | Pack |
-| --- | --- | --- |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-
-_Variants from the manufacturer datasheet._
+| Rating | Type | Thickness | Dimensions | SKUs |
+| --- | --- | --- | --- | --- |
+| Not specified | unspecified | Varies | 50000 x 72 | 2 |
+| Not specified | unspecified | Varies | 50000 x 48 | 1 |
+| Not specified | unspecified | Varies | 50000 x 96 | 1 |
 
 ## Technical data
 
@@ -61,7 +57,7 @@ Not verified per SKU. No fire, NCC or BAL classification is asserted in this dra
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
-- Datasheet: https://www.kingspan.com/au/ (link audited 2026-09-05; exact product TDS may still be pending).
+- Datasheet: https://www.insulation.kingspan.com/au/en/products/insulation-tape0?tab=technicalInformation (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://www.allcongroup.com.au/wp-content/uploads/2025/10/kingspan-greenguard-safety-data-sheet-en-au.pdf.
 
 
@@ -94,7 +90,7 @@ No product-specific warranty term is asserted in this draft. Refer to the manufa
 
 ## Source register
 
-- SRC-01 Manufacturer datasheet: https://www.kingspan.com/au/.
+- SRC-01 Manufacturer datasheet: https://www.insulation.kingspan.com/au/en/products/insulation-tape0?tab=technicalInformation.
 - SRC-02 Safety data sheet: https://www.allcongroup.com.au/wp-content/uploads/2025/10/kingspan-greenguard-safety-data-sheet-en-au.pdf.
 - SRC-03 Internal SKU catalogue (3 variant(s)).
 

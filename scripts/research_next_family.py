@@ -7,7 +7,7 @@ run in a loop without overloading the machine. Each run:
   2. resolves its datasheet PDF (SKU catalogue -> official source_url -> web search)
   3. downloads and extracts it with the local Ollama model
   4. writes knowledge/<mfg>/research/<slug>.json
-  5. regenerates that family's MD + DOCX literature
+  5. regenerates that family's Markdown literature
 
 Run it once:
     python scripts/research_next_family.py
