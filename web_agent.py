@@ -47,6 +47,7 @@ from widget_config import WidgetConfigProvider
 from router import MessageRouter
 from rag_answerer import RAGAnswerer
 from policy_lint import PolicyLinter
+from tools import default_registry
 
 app = FastAPI(title="Insulation Enquiry Agent", version="2.0.0")
 
@@ -64,6 +65,7 @@ sites: dict[str, Any] = {}
 router: MessageRouter | None = None
 rag_answerer: RAGAnswerer | None = None
 policy_linter: PolicyLinter | None = None
+tool_registry = default_registry()
 
 
 @app.on_event("startup")
@@ -255,14 +257,11 @@ async def send_message(session_id: str, body: MessageRequest, request: Request, 
     # P3: Route the message (cache router result)
     classification = router.classify(body.message)
 
-    if classification.is_escalate:
-        # Escalate: hand off to human
-        reply = "Thank you for that information. This requires our team's attention. We'll be in touch shortly."
-        conversation.done = True
-    elif classification.is_commercial:
-        # Commercial: hand off
-        reply = "For pricing and availability details, please contact our sales team directly."
-        conversation.done = True
+    tool_result = tool_registry.dispatch(classification.category, body.message, conversation, site_id)
+    if tool_result is not None:
+        # escalate / commercial / freight / tracking: each tool owns its own
+        # reply and log status, so a new tool needs no edit here.
+        reply = tool_result.reply
     elif classification.is_informational:
         # Informational: RAG answer with citations
         rag_result = rag_answerer.answer(body.message, use_llm=USE_LLM)
@@ -288,17 +287,24 @@ async def send_message(session_id: str, body: MessageRequest, request: Request, 
     })
 
     # Record the interactions agent_core cannot see. The product-fit path logs
-    # itself (it owns the ranking and gate decision); escalate/commercial/
-    # informational turns previously vanished unrecorded, which is why the
-    # conversations table stayed empty despite the endpoint being in use.
+    # itself (it owns the ranking and gate decision); every other category is
+    # logged once here so a new tool cannot forget the audit entry the way
+    # escalate/commercial/informational turns previously did (the conversations
+    # table stayed empty despite the endpoint being in use, until 86a6739).
     if classification.category != "product-fit":
+        if tool_result is not None:
+            gate_status = tool_result.log_status or f"routed:{classification.category}"
+            gate_reason = tool_result.log_reason or f"Router classified this as {classification.category}."
+        else:
+            gate_status = f"routed:{classification.category}"
+            gate_reason = f"Router classified this as {classification.category} (confidence {classification.confidence:.2f}); no product recommendation was made."
         interaction_store.log_conversation(
             conversation_id=conversation.conversation_id,
             site_id=site_id,
             answers={**conversation.answers, "_message": body.message},
             recommendation=None,
-            gate_status=f"routed:{classification.category}",
-            gate_reason=f"Router classified this as {classification.category} (confidence {classification.confidence:.2f}); no product recommendation was made.",
+            gate_status=gate_status,
+            gate_reason=gate_reason,
             climate_zone=None,
             candidates=[],
         )
