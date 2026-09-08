@@ -65,7 +65,13 @@ def ollama_available() -> bool:
         return False
 
 
-def generate_reply(system_prompt: str, user_prompt: str, max_tokens: int = 160, num_ctx: int | None = None) -> str | None:
+def generate_reply(
+    system_prompt: str,
+    user_prompt: str,
+    max_tokens: int = 160,
+    num_ctx: int | None = None,
+    timeout: float | None = None,
+) -> str | None:
     """Ask the local Ollama chat endpoint to produce a reply.
 
     Returns None on any failure (server down, timeout, bad response, model
@@ -73,7 +79,9 @@ def generate_reply(system_prompt: str, user_prompt: str, max_tokens: int = 160, 
 
     `max_tokens` bounds the reply; `num_ctx` sizes the context window and is
     auto-derived from the prompt length when omitted (a short chat rephrase
-    stays small and fast, a long datasheet gets a large window).
+    stays small and fast, a long datasheet gets a large window). `timeout`
+    overrides the default deadline for callers that send large prompts, which
+    take far longer than a short rephrase.
     """
     # rough token estimate: ~4 chars per token, plus headroom for the reply
     if num_ctx is None:
@@ -99,7 +107,9 @@ def generate_reply(system_prompt: str, user_prompt: str, max_tokens: int = 160, 
         method="POST",
     )
     try:
-        with urllib.request.urlopen(request, timeout=OLLAMA_TIMEOUT_SECONDS) as response:
+        with urllib.request.urlopen(
+            request, timeout=timeout if timeout is not None else OLLAMA_TIMEOUT_SECONDS
+        ) as response:
             data = json.loads(response.read().decode("utf-8"))
     except (urllib.error.URLError, TimeoutError, OSError, json.JSONDecodeError):
         return None

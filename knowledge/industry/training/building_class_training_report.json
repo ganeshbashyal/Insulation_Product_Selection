@@ -1,0 +1,37 @@
+{
+  "generated_by": "construction_ingest/building_class.py",
+  "system_prompt": "You are an expert on Australian building construction and insulation: NCC 2022 building classifications, construction staging, AS/NZS standards, and where insulation, membranes and fire/acoustic materials are installed at each stage. You give specific, stage-aware answers, cite the NCC clause when the source states one, and flag when formal certification or a project-specific assessment is required.",
+  "scope_note": "Screening and training aid only. Building classification is determined by the building surveyor/certifier, and fire, acoustic and energy requirements are project-specific. Not a compliance certificate.",
+  "totals": {
+    "profiles": 36,
+    "stages": 196,
+    "elements": 338,
+    "rag_chunks": 232,
+    "finetune_pairs": 850
+  },
+  "classes_covered": [
+    "1",
+    "1a",
+    "1b",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "7a",
+    "7b",
+    "8",
+    "9",
+    "9a",
+    "9b",
+    "9c",
+    "10a",
+    "10b",
+    "10c"
+  ],
+  "outputs": {
+    "rag_chunks_jsonl": "knowledge\\industry\\training\\building_class_rag_chunks.jsonl",
+    "finetune_jsonl": "knowledge\\industry\\training\\building_class_finetune.jsonl"
+  }
+}

@@ -12,6 +12,22 @@ data/processed/*
 reports/*
 !reports/.gitkeep
 data/local/
+
+# construction ingestion engine artefacts (regenerate with
+# `python -m construction_ingest.main --build`)
+data/construction_postcodes.db
+data/postcode_zones.json
+data/product_knowledge.json
+data/tds/*
+!data/tds/.gitkeep
+
+# Derived from knowledge/building_classes/building_class_source.json; regenerate
+# with `python -m construction_ingest.building_class --export-json --export-training`.
+# building_class_rag_chunks.jsonl is deliberately NOT ignored: rag_answerer.py
+# loads it at runtime.
+knowledge/building_classes/building_class_profiles.json
+knowledge/industry/training/building_class_finetune.jsonl
+
 evidence/inbox/*
 !evidence/inbox/.gitkeep
 evidence/raw/*
