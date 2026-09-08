@@ -24,6 +24,34 @@ This folder contains digested compliance artifacts for Australian insulation, so
 | [raw/aiic_traffic_light_2025.txt](raw/aiic_traffic_light_2025.txt) | AIIC Traffic Light Report 2025 |
 | [raw/aiic_policy_2024.txt](raw/aiic_policy_2024.txt) | AIIC Policy Statement 2024 |
 
+## Retrieval status
+
+All files in this folder — the digested summaries **and** the raw extracted
+text — are chunked into
+[../training/compliance_rag_chunks.jsonl](../training/compliance_rag_chunks.jsonl)
+by `scripts/build_compliance_chunks.py`, and loaded at runtime by
+`rag_answerer.py`. 868 chunks; 540 carry an NCC clause identifier.
+
+Chunking preserves the `===== PAGE n =====` markers as `page_start`/`page_end`
+and extracts clause ids (`H4D9`, `F8D6`, `Part 10.8`, `J1D5`) into a `clauses`
+field, so a retrieved chunk cites a locatable place in the source rather than a
+filename. Re-run after editing anything here:
+
+```powershell
+python scripts/build_compliance_chunks.py --summary
+```
+
+> Before this was built, none of this folder reached the bot: the retriever's
+> only `.txt` glob was non-recursive and matched nothing, so ~1.3 MB of primary
+> compliance text — including both NCC volumes — was indexed nowhere.
+
+## Version note
+
+The raw extracts are **NCC 2025**, which supersedes NCC 2022. Where a document
+elsewhere in this repo cites "NCC 2022", treat these extracts as the newer
+source and re-check the clause. Clause identifiers were renumbered between
+editions (NCC 2019 `3.8.7` → NCC 2022/2025 `H4D9` + Housing Provisions `10.8`).
+
 ## Source PDFs (original artifacts)
 
 Downloaded to session scratchpad (`downloads/`):

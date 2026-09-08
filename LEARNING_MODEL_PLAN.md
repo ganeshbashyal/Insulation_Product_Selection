@@ -1,6 +1,6 @@
 # Learning Model & Multi-Site Chatbot — Design Plan
 
-Status: **P0 Complete, P1 Complete, P2 Planning** (2026-09-07). P3–P5 proposed.
+Status: **P0–P3 Complete, P4 blocked on gold labels** (2026-09-08). P5 proposed.
 
 This plan turns the current single-machine demo into a multi-site embedded chatbot with a
 real learning loop, without weakening [`BOT_POLICY.md`](BOT_POLICY.md).
@@ -228,13 +228,48 @@ promotion**. Never auto-promote.
 |---|---|---|---|
 | **P0** | Corpus hygiene, retrieval cards, 150 gold labels | Everything downstream inherits this data. Shipping on polluted keywords bakes in the noise | ✅ Complete |
 | **P1** | Hybrid retrieval + gold-label eval harness | Measurable accuracy win, low risk, satisfies the documented precondition for embeddings | ✅ Complete |
-| **P2** | Multi-site hardening: sessions, auth, CORS, widget | Ships the product; independent of any ML work | 🔄 Planning |
-| **P3** | Router + RAG answering + policy lint | Biggest capability jump; policy lint must land with it, not after | ⏳ Queued |
-| **P4** | Learned reranker in shadow mode | Needs P0–P1 data and P1 eval to be meaningful | ⏳ Queued |
+| **P2** | Multi-site hardening: sessions, auth, CORS, widget | Ships the product; independent of any ML work | ✅ Complete |
+| **P3** | Router + RAG answering + policy lint | Biggest capability jump; policy lint must land with it, not after | ✅ Complete |
+| **P4** | Learned reranker in shadow mode | Needs P0–P1 data and P1 eval to be meaningful | ⏳ Blocked on gold labels |
 | **P5** | Promotion criteria + weekly retrain loop | Closes the loop that `interaction_store` was built for | ⏳ Queued |
 
 P0 and P1 should land before anything customer-facing. P2 can run in parallel — it touches
 serving, not modelling.
+
+## Knowledge corpus status (2026-09-08)
+
+The retrieval corpus is **1,144 chunks**, loaded by `rag_answerer.py` from
+`knowledge/industry/training/*_rag_chunks.jsonl`:
+
+| Set | Chunks | Built by |
+|---|---|---|
+| Compliance (NCC 2025 Vols 1–2, ABCB handbooks, AIIC, curated MD) | 868 | `scripts/build_compliance_chunks.py` |
+| Building-class construction staging | 232 | `construction_ingest/building_class.py` |
+| Expert corpus | 44 | `scripts/build_expert_training_data.py` |
+
+Measured by `scripts/eval_knowledge_retrieval.py` (232 auto-derived cases, all local):
+**recall@1 83.2%, recall@5 98.7%, MRR 0.903.** Adding the 868 compliance chunks
+changed these figures by 0.0pp — a 4x larger corpus with no dilution, which is
+the evidence that the index discriminates rather than merely matching topic words.
+
+Two defects found and fixed getting here, both of which made the system look
+healthier than it was:
+- The retriever globbed `*.txt` non-recursively at the top of `knowledge/industry/`,
+  matching nothing. ~1.3 MB of primary compliance text, including both NCC
+  volumes, was indexed nowhere while appearing present in the repo.
+- Citations rendered as the source *filename*, identical for every chunk in a
+  file. The eval's 100% cited-rate was counting link syntax, not usable
+  attribution.
+
+## P4 readiness
+
+Blocked on the owner's gold labels. `scripts/synthesise_gold_labels.py`
+validates and synthesises them; run `--validate-only` while labelling.
+Observed so far: gold agrees with the current ranker's `candidate_1` in
+**0 of 5** labelled thermal rows. If that ratio holds across the set it is
+strong justification for P4, and it is also why labels must not be produced by
+confirming `candidate_1` — doing so would train the reranker to reproduce the
+current behaviour.
 
 ## Open items for owner decision
 

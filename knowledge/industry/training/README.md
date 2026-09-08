@@ -20,6 +20,35 @@
 | [building_class_rag_chunks.jsonl](building_class_rag_chunks.jsonl) | JSONL | 232 retrieval chunks covering NCC building-class construction staging — generated, **loaded at runtime by `rag_answerer.py`** |
 | `building_class_finetune.jsonl` | JSONL | 850 chat-format pairs from the building-class profiles — generated, git-ignored, **unreviewed** |
 | [building_class_training_report.json](building_class_training_report.json) | JSON | Building-class coverage report (per-class profile/element counts) — generated |
+| [compliance_rag_chunks.jsonl](compliance_rag_chunks.jsonl) | JSONL | 868 retrieval chunks from the raw NCC/ABCB corpus + curated markdown — generated, **loaded at runtime** |
+
+### Compliance dataset
+
+The primary compliance sources — NCC 2025 Volumes One and Two, the ABCB
+condensation and sound handbooks, AIIC industry reports — plus the curated
+markdown under `compliance/`, `principles/`, `product_intelligence/` and
+`customer_support/`. Rebuild with:
+
+```powershell
+python scripts/build_compliance_chunks.py --summary
+```
+
+| Source | Chunks |
+|---|---|
+| NCC Volume One (commercial) | 280 |
+| Curated knowledge base | 277 |
+| ABCB handbooks | 166 |
+| NCC Volume Two (housing) | 108 |
+| Industry reports | 37 |
+
+540 of the 868 carry an extracted NCC clause id (`H4D9`, `F8D6`, `Part 10.8`),
+and raw-source chunks keep their page numbers, so citations point at a
+locatable place in the source document.
+
+> None of this reached the bot before 2026-09-08: the retriever globbed
+> `*.txt` non-recursively at the top of `knowledge/industry/`, which matched
+> nothing, so ~1.3 MB of primary compliance text was indexed nowhere. The
+> corpus went from 276 chunks to 1,144.
 
 ### Building-class dataset
 

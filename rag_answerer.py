@@ -80,13 +80,19 @@ def _expand_citations(text: str, ranked: list[dict]) -> str:
     here. Out-of-range markers are dropped rather than shown to the customer.
     """
     def replace(match: re.Match) -> str:
-        idx = int(match.group(1))
-        if 1 <= idx <= len(ranked):
-            label = _citation_label(ranked[idx - 1])
-            return f"[{label}]({label})"
-        return ""
+        labels = []
+        for raw in re.split(r"[,\s]+", match.group(1)):
+            if not raw.isdigit():
+                continue
+            idx = int(raw)
+            if 1 <= idx <= len(ranked):
+                label = _citation_label(ranked[idx - 1])
+                if label not in labels:
+                    labels.append(label)
+        return "".join(f"[{lab}]({lab})" for lab in labels)
 
-    text = re.sub(r"\[(\d+)\]", replace, text)
+    # Models group markers as [5, 6] as well as [5], so accept both forms.
+    text = re.sub(r"\[(\d+(?:\s*,\s*\d+)*)\]", replace, text)
     return re.sub(r"\s+([.,;])", r"\1", text).strip()
 
 
@@ -131,17 +137,11 @@ class RAGAnswerer:
                         chunk["source"] = jsonl_path.name
                         chunks.append(chunk)
 
-        # Load other .txt files as chunks
-        for txt_file in KNOWLEDGE_DIR.glob("*.txt"):
-            with open(txt_file, encoding="utf-8") as f:
-                text = f.read()
-                # Split into paragraphs
-                for para in text.split("\n\n"):
-                    if para.strip():
-                        chunks.append({
-                            "text": para.strip(),
-                            "source": txt_file.name,
-                        })
+        # Raw compliance sources (both NCC volumes, ABCB handbooks, industry
+        # reports) and the curated markdown are chunked ahead of time by
+        # scripts/build_compliance_chunks.py into compliance_rag_chunks.jsonl,
+        # which the loop above picks up. Splitting them here on blank lines
+        # would strip the clause ids and page numbers that make them citable.
 
         return chunks
 
