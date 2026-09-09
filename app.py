@@ -195,11 +195,12 @@ def question_for_step(step: int, answers: dict[str, str]) -> str:
     if step > 0 and answers.get("problem"):
         try:
             class LiteConversation:
-                def __init__(self, answers_dict):
+                def __init__(self, answers_dict, current_step):
                     self.answers = answers_dict
+                    self.step = current_step
 
-            conv = LiteConversation(answers)
-            smart_q = smart_questioner.next_question(conv)
+            conv = LiteConversation(answers, step)
+            smart_q = smart_questioner.next_question(conv, step=step)
             if smart_q:
                 return smart_q
         except Exception:

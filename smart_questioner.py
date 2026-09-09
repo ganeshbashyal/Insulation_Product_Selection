@@ -63,9 +63,9 @@ class SmartQuestioner:
         self.router = MessageRouter(use_llm=use_llm)
         self.use_llm = use_llm
 
-    def next_question(self, conversation: agent_core.Conversation) -> str:
+    def next_question(self, conversation: any, step: int | None = None) -> str:
         """
-        Generate next question based on conversation context.
+        Generate next question based on conversation context and active step.
         Returns a naturally-phrased question tailored to what they've said so far.
         """
         answers = conversation.answers
@@ -75,17 +75,44 @@ class SmartQuestioner:
         if not problem:
             return ""
 
-        # Detect scenario from conversation history
-        scenario = self._detect_scenario(problem)
+        # Determine the active step (prefer explicitly passed step, fallback to conversation.step or length)
+        active_step = step
+        if active_step is None:
+            active_step = getattr(conversation, "step", None)
+        if active_step is None:
+            active_step = len(answers)
 
-        # Get appropriate question for scenario
-        question = self._get_contextual_question(scenario, answers)
+        if active_step >= len(agent_core.QUESTIONS):
+            return ""
+
+        # Get the standard key and default question for the active step
+        key, default_question = agent_core.QUESTIONS[active_step]
+
+        # Scenario-specific customization of standard questions before LLM rephrasing
+        scenario = self._detect_scenario(problem)
+        question = default_question
+
+        if key == "application":
+            if scenario == "retrofit":
+                question = "Where is this retrofit happening — wall, floor, roof, pipe or somewhere else?"
+            elif scenario == "garage":
+                question = "Is this insulation for the garage wall, roof, ceiling, or somewhere else?"
+        elif key == "priority":
+            if scenario == "retrofit":
+                question = "For this retrofit, what matters most: comfort, energy savings, budget, or acoustic performance?"
+            elif scenario == "garage":
+                question = "What's the main priority for your garage insulation: climate control, noise reduction, or budget?"
+        elif key == "project":
+            if scenario == "retrofit":
+                question = "Is this bathroom or building retrofit residential, commercial, or industrial?"
+            elif scenario == "garage":
+                question = "Is your garage project residential, commercial, or industrial?"
 
         # Use LLM to rephrase naturally if enabled
         if self.use_llm and question:
             question = self._rephrase_naturally(question, problem)
 
-        return question or self._default_question()
+        return question or default_question
 
     def _detect_scenario(self, problem: str) -> str | None:
         """Detect building scenario from problem statement."""
@@ -98,7 +125,7 @@ class SmartQuestioner:
         return None
 
     def _get_contextual_question(self, scenario: str | None, answers: dict) -> str:
-        """Get next question based on scenario and what they've told us."""
+        """Deprecated: kept for backward compatibility if called elsewhere."""
         asked = set(answers.keys())
 
         # If we know the scenario, ask scenario-specific follow-ups
