@@ -25,7 +25,7 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parent
 
-OLLAMA_HOST = os.getenv("OLLAMA_HOST", "http://localhost:11434").rstrip("/")
+OLLAMA_HOST = os.getenv("OLLAMA_HOST", "http://127.0.0.1:11434").rstrip("/")
 OLLAMA_EMBED_MODEL = os.getenv("OLLAMA_EMBED_MODEL", "nomic-embed-text")
 EMBEDDINGS_CACHE = ROOT / "data" / "processed" / "family_embeddings.npz"
 

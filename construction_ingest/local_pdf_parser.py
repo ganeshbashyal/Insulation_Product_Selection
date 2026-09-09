@@ -2,7 +2,7 @@
 
 Extracts text from TDS PDFs on disk and asks a *local* Ollama model to return
 structured JSON validated by Pydantic. Nothing leaves the machine: the only
-network call is to ``OLLAMA_HOST`` (default ``http://localhost:11434``).
+network call is to ``OLLAMA_HOST`` (default ``http://127.0.0.1:11434``).
 
 Usage
 -----
@@ -32,7 +32,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_PDF_DIR = ROOT / "data" / "tds"
 DEFAULT_OUTPUT = ROOT / "data" / "product_knowledge.json"
 
-OLLAMA_HOST = os.getenv("OLLAMA_HOST", "http://localhost:11434").rstrip("/")
+OLLAMA_HOST = os.getenv("OLLAMA_HOST", "http://127.0.0.1:11434").rstrip("/")
 OLLAMA_MODEL = os.getenv("OLLAMA_TDS_MODEL", os.getenv("OLLAMA_MODEL", "llama3.2"))
 OLLAMA_TIMEOUT_SECONDS = float(os.getenv("OLLAMA_TIMEOUT_SECONDS", "120"))
 
