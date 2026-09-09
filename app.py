@@ -253,6 +253,8 @@ def wall_wrap_zone_summary(zone: int) -> str:
 
 
 def rank_families(answers: dict[str, str], manufacturer_scope: str | None = None) -> list[dict]:
+    import os
+    os.environ["USE_HYBRID_RANKING"] = str(st.session_state.get("use_hybrid_ranking", False)).lower()
     return rank_catalogue(FAMILIES, answers, manufacturer_scope)
 
 
@@ -370,7 +372,11 @@ with st.sidebar:
         "Natural phrasing (local LLM)", key="use_llm_phrasing", value=ollama_online, disabled=not ollama_online,
         help=f"Rephrases replies via a local Ollama server ({llm_client.OLLAMA_HOST}, model {llm_client.OLLAMA_MODEL}). No customer data leaves this machine/server. The question asked and the family recommended are always decided by the rules engine, never by the LLM.",
     )
-    st.caption("🟢 Local LLM connected" if ollama_online else "⚪ Local LLM not detected — using fixed wording. Start Ollama to enable natural phrasing.")
+    st.toggle(
+        "Hybrid Lexical/Dense Ranking", key="use_hybrid_ranking", value=False, disabled=not ollama_online,
+        help="Combines keyword matching with semantic vector embeddings via local Ollama (nomic-embed-text) for smarter product recommendations.",
+    )
+    st.caption("🟢 Local LLM connected" if ollama_online else "⚪ Local LLM not detected — using fixed wording & lexical ranking. Start Ollama to enable advanced features.")
     st.divider()
     st.toggle("Voice input/output", key="enable_voice", value=True, help="Microphone 🎤 to speak responses; speaker 🔊 to hear bot replies (Chrome/Edge recommended).")
     st.divider()

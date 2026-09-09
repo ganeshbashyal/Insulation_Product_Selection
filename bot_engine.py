@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import re
+import os
 import json
 from difflib import SequenceMatcher
 from pathlib import Path
@@ -109,6 +110,31 @@ def recommendation_allowed(family: dict | None) -> bool:
 
 
 def rank_families(families: list[dict], answers: dict[str, str], manufacturer_scope: str | None = None) -> list[dict]:
+    # Check if hybrid ranking is explicitly opted in via matching.json or environment variable
+    if MATCHING_CONFIG.get("use_hybrid_ranking") or os.getenv("USE_HYBRID_RANKING", "").casefold() == "true":
+        try:
+            from hybrid_retrieval import load_or_embed_cards, hybrid_rank
+            cards_path = Path(__file__).resolve().parent / "data" / "processed" / "retrieval_cards.jsonl"
+            if cards_path.exists():
+                with open(cards_path, encoding="utf-8") as f:
+                    cards = [json.loads(line) for line in f if line.strip()]
+                embeddings, _ = load_or_embed_cards(cards, namespace="product_cards")
+
+                # Combine all answers as enquiry text for embedding
+                enquiry_text = " ".join(answers.values())
+
+                def internal_lexical_ranker(fams, ans, scope=None):
+                    return _lexical_rank_families(fams, ans, manufacturer_scope)
+
+                return hybrid_rank(enquiry_text, families, embeddings, lexical_ranker=internal_lexical_ranker)
+        except Exception:
+            # Fall back to lexical ranking on any error (Ollama not running, etc.)
+            pass
+
+    return _lexical_rank_families(families, answers, manufacturer_scope)
+
+
+def _lexical_rank_families(families: list[dict], answers: dict[str, str], manufacturer_scope: str | None = None) -> list[dict]:
     raw_text = " ".join(answers.values())
     text = canonical_text(raw_text)
     text_words = normalised_words(text)
