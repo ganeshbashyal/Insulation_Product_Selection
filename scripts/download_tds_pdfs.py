@@ -33,6 +33,7 @@ import json
 import re
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
@@ -54,6 +55,17 @@ _SAFE_NAME_RE = re.compile(r"[^A-Za-z0-9._-]+")
 
 def _safe_filename(text: str) -> str:
     return _SAFE_NAME_RE.sub("_", text.strip()).strip("_") or "unnamed"
+
+
+def _quote_url(url: str) -> str:
+    """Percent-encode any non-ASCII characters (e.g. a literal (tm) symbol in
+    a filename) that a real-world PDF link can contain but plain HTTP request
+    lines cannot - without re-encoding characters that are already valid URL
+    syntax (:, /, ?, &, =, #, %)."""
+    parts = urllib.parse.urlsplit(url)
+    path = urllib.parse.quote(parts.path, safe="/%")
+    query = urllib.parse.quote(parts.query, safe="=&%")
+    return urllib.parse.urlunsplit((parts.scheme, parts.netloc, path, query, parts.fragment))
 
 
 def _load_rows(csv_path: Path) -> list[dict]:
@@ -81,7 +93,7 @@ def _select_rows(
     return selected
 
 
-def _download_one(row: dict, out_dir: Path, timeout: float) -> dict:
+def _download_one(row: dict, out_dir: Path, timeout: float, skip_existing: bool = True) -> dict:
     url = row["candidate_url"]
     manufacturer_dir = out_dir / _safe_filename(row["manufacturer"])
     filename = _safe_filename(row.get("family_id") or row.get("family_name") or "unnamed") + ".pdf"
@@ -99,8 +111,14 @@ def _download_one(row: dict, out_dir: Path, timeout: float) -> dict:
         "error": None,
     }
 
-    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    if skip_existing and dest.exists() and dest.stat().st_size > 0:
+        result["outcome"] = "skipped_existing"
+        result["bytes_written"] = dest.stat().st_size
+        return result
+
     try:
+        quoted_url = _quote_url(url)
+        request = urllib.request.Request(quoted_url, headers={"User-Agent": USER_AGENT})
         with urllib.request.urlopen(request, timeout=timeout) as response:
             result["http_status"] = getattr(response, "status", None) or response.getcode()
             content_type = response.headers.get("Content-Type", "")
@@ -117,6 +135,10 @@ def _download_one(row: dict, out_dir: Path, timeout: float) -> dict:
     except TimeoutError:
         result["outcome"] = "failed"
         result["error"] = f"timed out after {timeout}s"
+        return result
+    except Exception as error:  # noqa: BLE001 - one bad URL must never kill the batch
+        result["outcome"] = "failed"
+        result["error"] = f"{type(error).__name__}: {error}"
         return result
 
     if b"%PDF" not in body[:1024] and "pdf" not in content_type.lower():
@@ -141,6 +163,7 @@ def run(
     delay: float = 1.5,
     timeout: float = 20.0,
     dry_run: bool = False,
+    skip_existing: bool = True,
 ) -> list[dict]:
     if not csv_path.exists():
         raise FileNotFoundError(f"{csv_path} not found - run scripts/compile_tds_url_list.py first.")
@@ -158,18 +181,27 @@ def run(
 
     results = []
     for index, row in enumerate(rows, start=1):
-        result = _download_one(row, out_dir, timeout=timeout)
-        tag = {"ok": "[OK]", "warn_not_pdf": "[WARN]", "failed": "[FAIL]"}.get(result["outcome"], "[?]")
+        try:
+            result = _download_one(row, out_dir, timeout=timeout, skip_existing=skip_existing)
+        except Exception as error:  # noqa: BLE001 - defence in depth: one row must never abort the whole batch
+            result = {
+                "manufacturer": row.get("manufacturer", ""), "family_id": row.get("family_id", ""),
+                "family_name": row.get("family_name", ""), "url": row.get("candidate_url", ""),
+                "dest": "", "outcome": "failed", "http_status": None, "bytes_written": 0,
+                "error": f"unexpected {type(error).__name__}: {error}",
+            }
+        tag = {"ok": "[OK]", "warn_not_pdf": "[WARN]", "failed": "[FAIL]", "skipped_existing": "[SKIP]"}.get(result["outcome"], "[?]")
         print(f"  [{index}/{len(rows)}] {tag} {row['manufacturer']} / {row['family_name']}")
         if result["error"]:
             print(f"        {result['error']}")
         results.append(result)
-        if index < len(rows):
+        if index < len(rows) and result["outcome"] != "skipped_existing":
             time.sleep(delay)
 
     ok = sum(1 for r in results if r["outcome"] == "ok")
     warn = sum(1 for r in results if r["outcome"] == "warn_not_pdf")
     failed = sum(1 for r in results if r["outcome"] == "failed")
+    skipped = sum(1 for r in results if r["outcome"] == "skipped_existing")
     summary = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "csv_source": str(csv_path),
@@ -180,11 +212,12 @@ def run(
         "ok": ok,
         "warn_not_pdf": warn,
         "failed": failed,
+        "skipped_existing": skipped,
         "files": results,
     }
     DEFAULT_STATUS_PATH.parent.mkdir(parents=True, exist_ok=True)
     DEFAULT_STATUS_PATH.write_text(json.dumps(summary, indent=2), encoding="utf-8")
-    print(f"\nSummary: {ok} ok, {warn} warn (not a PDF), {failed} failed. Status written to {DEFAULT_STATUS_PATH}.")
+    print(f"\nSummary: {ok} ok, {warn} warn (not a PDF), {failed} failed, {skipped} skipped (already on disk). Status written to {DEFAULT_STATUS_PATH}.")
     return results
 
 
@@ -198,6 +231,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--delay", type=float, default=1.5, help="seconds to wait between downloads (politeness delay)")
     parser.add_argument("--timeout", type=float, default=20.0, help="per-request timeout in seconds")
     parser.add_argument("--dry-run", action="store_true", help="list what would be downloaded without fetching anything")
+    parser.add_argument("--force", action="store_true", help="re-download even if the destination file already exists")
     args = parser.parse_args(argv)
 
     manufacturers = {m.strip().lower() for m in args.manufacturer.split(",") if m.strip()} or None
@@ -211,6 +245,7 @@ def main(argv: list[str] | None = None) -> int:
         delay=args.delay,
         timeout=args.timeout,
         dry_run=args.dry_run,
+        skip_existing=not args.force,
     )
     if args.dry_run:
         return 0

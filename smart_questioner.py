@@ -37,6 +37,25 @@ SCENARIO_QUESTIONS = {
 }
 
 
+def _looks_like_a_question(text: str | None) -> bool:
+    """Reject anything that isn't a short, single-line reply.
+
+    Guards against a local LLM echoing prompt scaffolding back verbatim
+    instead of actually rephrasing (e.g. returning "Rephrase this
+    question..." or "Original question: ..." as if that were the message) -
+    the caller falls back to the plain deterministic question when this
+    returns False.
+    """
+    if not text or "\n" in text:
+        return False
+    if len(text) > 220:
+        return False
+    lowered = text.casefold()
+    if "rephrase" in lowered or "original question" in lowered:
+        return False
+    return True
+
+
 class SmartQuestioner:
     """Context-aware question flow using router + conversation state."""
 
@@ -101,17 +120,22 @@ class SmartQuestioner:
         return ""
 
     def _rephrase_naturally(self, question: str, context: str) -> str:
-        """Use LLM to rephrase question naturally based on context."""
+        """Use the LLM to rephrase a question naturally, grounded in what the
+        customer has already told us.
+
+        Reuses llm_client.phrase() - the same guardrailed rephrasing path
+        used everywhere else in the app - instead of building a second,
+        separate meta-prompt ("Rephrase this question... Original question:
+        ... Rephrased:") on top of it. That double-prompt made a small local
+        model sometimes echo the whole instruction back verbatim as if it
+        were the chat reply, which is exactly the bug this fixes: a customer
+        must never see prompt scaffolding instead of a real question.
+        """
         try:
-            prompt = f"""Rephrase this question to sound natural and conversational, as if asked by an experienced insulation adviser who understands: \"{context}\"
-
-Original question: {question}
-
-Rephrased (natural, 1-2 sentences, Australian construction language):"""
-            response = llm_client.phrase(prompt, context={})
-            return response.strip() if response else question
+            rephrased = llm_client.phrase(question, context={"customer_said": context} if context else None)
         except Exception:
             return question
+        return rephrased if _looks_like_a_question(rephrased) else question
 
     def _default_question(self) -> str:
         """Fallback to first standard question if nothing else fits."""
