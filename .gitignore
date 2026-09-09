@@ -22,6 +22,7 @@ output/literature/**/*.docx
 data/construction_postcodes.db
 data/postcode_zones.json
 data/product_knowledge.json
+data/product_knowledge_status.json
 data/tds/*
 !data/tds/.gitkeep
 
