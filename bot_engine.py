@@ -86,6 +86,55 @@ def detected_priority(text: str, context: str = "") -> str:
     return best if combined[best] else "energy_efficiency"
 
 
+# Hard cross-application gate: a wall/floor/roof enquiry must never surface a
+# pipe/duct product and vice versa, regardless of keyword/score overlap. This
+# is a strict business rule (not a soft ranking preference) because a batt
+# recommended for a pipe, or pipe lagging recommended for a wall, is simply
+# wrong - it is not a matter of degree the way "acoustic vs thermal" is.
+_ELEMENT_TERMS = {
+    "wall": ["wall", "partition", "cladding", "stud wall"],
+    "floor": ["floor", "subfloor", "underfloor", "slab"],
+    "roof": ["roof", "ceiling", "rafter", "truss", "attic", "loft"],
+    "pipe_duct": ["pipe", "plumbing", "duct", "hvac", "ducting", "flue", "waste pipe", "hot water"],
+}
+_BUILDING_ELEMENTS = {"wall", "floor", "roof"}
+
+
+def text_elements(text: str) -> set[str]:
+    """Which building/mechanical elements a piece of text confidently refers to."""
+    folded = canonical_text(text)
+    return {element for element, terms in _ELEMENT_TERMS.items() if any(term in folded for term in terms)}
+
+
+def family_elements(family: dict) -> set[str]:
+    """Which elements a family's own applications/category/keywords cover."""
+    combined = " ".join([
+        family.get("category", ""),
+        *family.get("applications", []),
+        *family.get("keywords", []),
+    ])
+    return text_elements(combined)
+
+
+def cross_element_mismatch(requested: set[str], family_els: set[str]) -> bool:
+    """True when the enquiry and the family are confidently in mutually
+    exclusive groups: building fabric (wall/floor/roof) vs mechanical
+    (pipe/duct). Only fires when BOTH sides are confidently classified and
+    neither side straddles both groups, so a versatile family (or an
+    ambiguous enquiry) is never wrongly excluded."""
+    if not requested or not family_els:
+        return False
+    requested_building = bool(requested & _BUILDING_ELEMENTS)
+    requested_pipe = "pipe_duct" in requested
+    family_building = bool(family_els & _BUILDING_ELEMENTS)
+    family_pipe = "pipe_duct" in family_els
+    if requested_pipe and not requested_building and family_building and not family_pipe:
+        return True
+    if requested_building and not requested_pipe and family_pipe and not family_building:
+        return True
+    return False
+
+
 def placement_adjustment(family_id: str, text: str, priority: str) -> float:
     ceiling = any(x in text for x in ["ceiling level", "ceiling space", "above the ceiling", "below the roof space"])
     roofline = any(x in text for x in ["roofline", "rafter", "truss", "under the roof", "beneath the roof"])
@@ -140,9 +189,14 @@ def _lexical_rank_families(families: list[dict], answers: dict[str, str], manufa
     text_words = normalised_words(text)
     context = " ".join(value for key, value in answers.items() if key != "priority")
     priority = detected_priority(answers.get("priority", ""), context)
+    requested_elements = text_elements(text)
     ranked = []
     for family in families:
         if manufacturer_scope and manufacturer_scope != "Compare both" and family["manufacturer"].casefold() != manufacturer_scope.casefold():
+            continue
+        # Hard gate, not a score penalty: a wall/floor/roof enquiry must never
+        # surface a pipe/duct product, and vice versa.
+        if cross_element_mismatch(requested_elements, family_elements(family)):
             continue
         keyword_scores = [(term, term_match_score(term, text, text_words)) for term in family["keywords"]]
         application_scores = [(term, term_match_score(term, text, text_words)) for term in family["applications"]]

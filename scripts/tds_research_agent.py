@@ -52,6 +52,12 @@ from audit_datasheet_links import OFFICIAL_DOMAINS, domain_matches, domain_of
 EXTRACT_MODEL = os.getenv("OLLAMA_EXTRACT_MODEL", "phi4-mini:latest")
 
 CACHE_DIR = ROOT / "data" / "local" / "tds_cache"
+# Durable, human-navigable archive of every fetched datasheet, kept locally
+# only (data/tds/ is gitignored: these are third-party manufacturer PDFs, not
+# ours to redistribute). Unlike CACHE_DIR (hash-named, dedup-only) this is
+# organised by manufacturer/family so the source evidence trail can be
+# opened directly by a reviewer.
+ARCHIVE_DIR = ROOT / "data" / "tds"
 RESEARCH_DIR_NAME = "research"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) tds-research/1.0"
 
@@ -186,6 +192,29 @@ def hashlib_name(url: str) -> str:
     return hashlib.sha1(url.encode()).hexdigest()[:16]
 
 
+def archive_datasheet(manufacturer_dir: str, slug: str, source_url: str, cached_path: Path) -> Path | None:
+    """Copy a verified, family-matched datasheet from the hash cache into the
+    durable per-manufacturer/per-family archive so it survives cache cleanup
+    and can be opened by name during evidence review."""
+    try:
+        dest_dir = ARCHIVE_DIR / manufacturer_dir
+        dest_dir.mkdir(parents=True, exist_ok=True)
+        dest = dest_dir / f"{slug}{cached_path.suffix}"
+        dest.write_bytes(cached_path.read_bytes())
+        manifest = dest_dir / "_sources.json"
+        entries = {}
+        if manifest.exists():
+            try:
+                entries = json.loads(manifest.read_text(encoding="utf-8"))
+            except (json.JSONDecodeError, OSError):
+                entries = {}
+        entries[dest.name] = {"source_url": source_url, "archived_at": time.strftime("%Y-%m-%d")}
+        manifest.write_text(json.dumps(entries, indent=2, ensure_ascii=False, sort_keys=True), encoding="utf-8")
+        return dest
+    except OSError:
+        return None
+
+
 def pdf_text(path: Path, max_pages: int = 12) -> str:
     if path.suffix.lower() == ".docx":
         return docx_text(path)
@@ -311,8 +340,15 @@ def extract_spec(text: str, need_range: bool = True) -> dict | None:
     if not llm_client.ollama_available():
         return None
     trimmed = text[:16000]  # leave headroom for the JSON reply in context
-    for attempt in range(2):
-        raw = _generate_json(trimmed, need_range)
+    # A range-table extraction genuinely takes ~3 minutes on this CPU-only box
+    # (measured: 186s), so a single generous attempt fits the 240s per-family
+    # budget (main()'s FAMILY_TIMEOUT_SECONDS) better than two short ones that
+    # both time out before the model finishes. Non-range jobs are much smaller
+    # and can afford a retry within the same budget.
+    attempts = 1 if need_range else 2
+    call_timeout = 220.0 if need_range else 90.0
+    for attempt in range(attempts):
+        raw = _generate_json(trimmed, need_range, timeout=call_timeout)
         if raw:
             spec = _parse_spec(raw)
             if spec is not None:
@@ -336,7 +372,7 @@ def _adaptive_budget(text: str, need_range: bool) -> tuple[int, int]:
     return num_predict, num_ctx
 
 
-def _generate_json(text: str, need_range: bool = True) -> str | None:
+def _generate_json(text: str, need_range: bool = True, timeout: float = 90.0) -> str | None:
     """Direct Ollama call tuned for deterministic JSON: temperature 0 and a
     budget sized to the job, unlike the chat phrasing defaults in llm_client."""
     prompt = BASE_EXTRACT_PROMPT.replace("{range_fields}", RANGE_FIELDS_PROMPT if need_range else "")
@@ -359,7 +395,7 @@ def _generate_json(text: str, need_range: bool = True) -> str | None:
         method="POST",
     )
     try:
-        with urllib.request.urlopen(request, timeout=90) as response:
+        with urllib.request.urlopen(request, timeout=timeout) as response:
             data = json.loads(response.read().decode("utf-8"))
     except Exception:
         return None
@@ -447,6 +483,7 @@ def process_family(manufacturer_dir: str, family: dict, delay: float = 1.0, refr
 
     tried: list[str] = []
     text = pdf_url = None
+    matched_pdf_path: Path | None = None
     for candidate_url in candidates:
         tried.append(candidate_url)
         pdf_path = fetch_pdf(candidate_url)
@@ -456,7 +493,7 @@ def process_family(manufacturer_dir: str, family: dict, delay: float = 1.0, refr
         if len(candidate_text) < 200:
             continue
         if verify_family_identity(family["name"], manufacturer_dir, candidate_text):
-            text, pdf_url = candidate_text, candidate_url
+            text, pdf_url, matched_pdf_path = candidate_text, candidate_url, pdf_path
             break
 
     if text is None:
@@ -468,7 +505,7 @@ def process_family(manufacturer_dir: str, family: dict, delay: float = 1.0, refr
             if pdf_path:
                 candidate_text = pdf_text(pdf_path)
                 if len(candidate_text) >= 200 and verify_family_identity(family["name"], manufacturer_dir, candidate_text):
-                    text, pdf_url = candidate_text, searched_url
+                    text, pdf_url, matched_pdf_path = candidate_text, searched_url, pdf_path
 
     if text is None:
         if not tried:
@@ -478,26 +515,37 @@ def process_family(manufacturer_dir: str, family: dict, delay: float = 1.0, refr
         _write(out_path, family, tried[-1], None, None, "identity_mismatch")
         return "identity_mismatch"
 
+    archived_path = archive_datasheet(manufacturer_dir, slug, pdf_url, matched_pdf_path) if matched_pdf_path else None
+
     variant_table = parse_variant_table(text)
     spec = extract_spec(text, need_range=variant_table is None)
     if spec is None:
-        _write(out_path, family, pdf_url, None, None, "extract_failed")
+        _write(out_path, family, pdf_url, None, None, "extract_failed", archived_path)
         return "extract_failed"
     if variant_table is not None:
         headers, rows = variant_table
         spec["range_headers"], spec["range"] = headers, rows
         spec["range_extraction_status"] = "regex_parsed"
 
-    _write(out_path, family, pdf_url, spec, text[:2000], "ok")
+    _write(out_path, family, pdf_url, spec, text[:2000], "ok", archived_path)
     return "ok"
 
 
-def _write(out_path: Path, family: dict, pdf_url: str | None, spec: dict | None, excerpt: str | None, status: str) -> None:
+def _write(
+    out_path: Path,
+    family: dict,
+    pdf_url: str | None,
+    spec: dict | None,
+    excerpt: str | None,
+    status: str,
+    archived_path: Path | None = None,
+) -> None:
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps({
         "family_id": family["family_id"],
         "family_name": family["name"],
         "datasheet_pdf_url": pdf_url,
+        "datasheet_local_path": str(archived_path.relative_to(ROOT)) if archived_path else None,
         "status": status,
         "researched_at": time.strftime("%Y-%m-%d"),
         "spec": spec,
@@ -537,7 +585,7 @@ def main() -> None:
     # unattended multi-hour run: bound each one with a hard wall-clock timeout.
     # A fresh single-use executor per family means an abandoned/hung thread
     # (Python threads can't be force-killed) never blocks the next family.
-    FAMILY_TIMEOUT_SECONDS = 240
+    FAMILY_TIMEOUT_SECONDS = 300
 
     def process_with_timeout(manufacturer_dir: str, family: dict) -> str:
         executor = ThreadPoolExecutor(max_workers=1)

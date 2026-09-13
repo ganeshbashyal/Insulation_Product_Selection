@@ -155,5 +155,7 @@
   "source_excerpt": null,
   "engine": "ai_studio_batch",
   "schema_version": "1.0",
-  "range_source": ""
+  "range_source": "",
+  "datasheet_local_path": "data\\tds\\fletcher\\fletcher_membrane_tapes_and_thermal_break_accessories.pdf",
+  "datasheet_download_url": "https://insulation.com.au/wp-content/uploads/2024/Warranty-Consumer-Lifetime-Product-Pink-Batts-Rev2-290424.pdf"
 }

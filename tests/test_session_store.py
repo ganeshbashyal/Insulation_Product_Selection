@@ -155,3 +155,11 @@ def test_ttl_extension_on_update(store):
 
     # New expiry should be later than initial
     assert new_expiry > initial_expiry
+
+
+def test_sqlite_uses_wal_and_schema_version(store):
+    import sqlite3
+
+    with sqlite3.connect(store.db_path) as connection:
+        assert connection.execute("PRAGMA journal_mode").fetchone()[0] == "wal"
+        assert connection.execute("PRAGMA user_version").fetchone()[0] == 1

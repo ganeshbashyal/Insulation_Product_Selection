@@ -133,7 +133,26 @@ def detected_element(answers: dict[str, str]) -> str | None:
     return None
 
 
+# Scenario detection for question personalization: distinct from
+# detected_element (which is about *where*), this is about the *kind* of
+# project so the priority/project questions stop reading as a generic form.
+_SCENARIO_TERMS = {
+    "garage": ["garage", "carport", "shed", "outbuilding"],
+    "retrofit": ["retrofit", "upgrade", "replace", "existing", "old", "current"],
+    "new_build": ["new build", "new house", "building a", "construction", "newly"],
+}
+
+
+def detected_scenario(answers: dict[str, str]) -> str | None:
+    text = " ".join(answers.values()).casefold()
+    for scenario, terms in _SCENARIO_TERMS.items():
+        if any(term in text for term in terms):
+            return scenario
+    return None
+
+
 def question_for_step(step: int, answers: dict[str, str]) -> str:
+    scenario = detected_scenario(answers)
     if step == 1:
         text = " ".join(answers.values()).casefold()
         element = detected_element(answers)
@@ -149,6 +168,15 @@ def question_for_step(step: int, answers: dict[str, str]) -> str:
             return "Is it an internal or external wall, and what is the frame made from?"
         if element in {"pipe", "duct"}:
             return "What service is it, and is it indoors or exposed to weather?"
+        if scenario == "garage":
+            return "Is this insulation for the garage wall, roof, ceiling, or somewhere else?"
+        if scenario == "retrofit":
+            return "Where is this retrofit happening — wall, floor, roof, pipe or somewhere else?"
+    if step == 2 and scenario:
+        if scenario == "garage":
+            return "What's the main priority for your garage insulation: climate control, noise reduction, or budget?"
+        if scenario == "retrofit":
+            return "For this retrofit, what matters most: comfort, energy savings, budget, or acoustic performance?"
     if step == 3:
         text = " ".join(answers.values()).casefold()
         element = detected_element(answers)
@@ -158,6 +186,11 @@ def question_for_step(step: int, answers: dict[str, str]) -> str:
             return "What type of roof is it, and are condensation or rain noise concerns?"
         if element == "floor":
             return "What access, cavity depth, moisture or floor-finish constraints should we allow for?"
+    if step == 4 and scenario:
+        if scenario == "garage":
+            return "Is your garage project residential, commercial, or industrial?"
+        if scenario == "retrofit":
+            return "Is this a residential, commercial, or industrial retrofit?"
     return QUESTIONS[step][1]
 
 
@@ -173,9 +206,34 @@ class Conversation:
     def next_prompt(self) -> str:
         return QUESTIONS[self.step][1] if self.step < len(QUESTIONS) else ""
 
+    def to_dict(self) -> dict:
+        """Serialize all state required to resume the conversation."""
+        return {
+            "conversation_id": self.conversation_id,
+            "step": self.step,
+            "answers": self.answers,
+            "done": self.done,
+            "recommendation": self.recommendation,
+            "gate": list(self.gate) if self.gate else None,
+        }
 
-def _phrase(text: str, use_llm: bool, context: dict | None = None) -> str:
-    return llm_client.phrase(text, context=context) if use_llm else text
+    @classmethod
+    def from_dict(cls, data: dict) -> "Conversation":
+        """Restore a conversation, including sessions written by older builds."""
+        answers = dict(data.get("answers") or {})
+        gate = data.get("gate")
+        return cls(
+            conversation_id=data.get("conversation_id") or uuid.uuid4().hex[:12],
+            step=int(data.get("step", min(len(answers), len(QUESTIONS)))),
+            answers=answers,
+            done=bool(data.get("done", False)),
+            recommendation=data.get("recommendation"),
+            gate=tuple(gate) if gate else None,
+        )
+
+
+def _phrase(text: str, use_llm: bool, context: dict | None = None, is_opening: bool = False) -> str:
+    return llm_client.phrase(text, context=context, is_opening=is_opening) if use_llm else text
 
 
 _SIZE_Q_RE = re.compile(

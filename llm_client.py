@@ -121,28 +121,62 @@ def generate_reply(
 # conversation, so repeat phrasings are instant instead of another model
 # round-trip. Failures are deliberately NOT cached, so a server that starts
 # mid-session begins working on the next message without an app restart.
-_PHRASE_CACHE: dict[tuple[str, str | None], str] = {}
+_PHRASE_CACHE: dict[tuple[str, str | None, bool], str] = {}
 
 
-def phrase(fallback_text: str, context: dict | None = None) -> str:
+def is_safe_reply(text: str | None, max_length: int = 400) -> bool:
+    """Reject anything that isn't a short, clean single-topic reply.
+
+    Guards against a local model echoing prompt scaffolding back verbatim
+    instead of actually rephrasing (e.g. returning "Rephrase this message..."
+    or "Original question: ..." as if that were the reply) - callers must
+    fall back to the literal fallback text when this returns False. Shared by
+    every phrase() caller (questions, recommendations, router prompts) so the
+    same leak can never slip through one call site but not another.
+    """
+    if not text or "\n" in text:
+        return False
+    if len(text) > max_length:
+        return False
+    lowered = text.casefold()
+    if "rephrase" in lowered or "original question" in lowered or "original message" in lowered:
+        return False
+    return True
+
+
+def phrase(fallback_text: str, context: dict | None = None, is_opening: bool = False) -> str:
     """Return a naturally-phrased version of `fallback_text`, or `fallback_text`
-    itself if the local LLM is unavailable or the call fails for any reason.
+    itself if the local LLM is unavailable, the call fails, or the reply looks
+    like leaked prompt scaffolding rather than an actual rephrasing.
 
     `context` is optional supporting structured data (e.g. the matched family
     record) passed alongside the fallback text so the model has grounding
     facts, but it must not introduce anything not already present in
     `fallback_text`.
+
+    `is_opening` must be True only for the very first message of a
+    conversation. The persona's self-introduction instruction ("G'day, I'm
+    The Site Sage...") only makes sense once - without this flag every
+    follow-up question was re-introducing the bot from scratch, which reads
+    as robotic/scripted rather than a natural, continuous conversation.
     """
     context_json = json.dumps(context, ensure_ascii=False) if context else None
-    key = (fallback_text, context_json)
+    key = (fallback_text, context_json, is_opening)
     if key in _PHRASE_CACHE:
         return _PHRASE_CACHE[key]
     user_prompt = fallback_text if not context_json else (
         f"Message to rephrase: {fallback_text}\n\nSupporting facts (for grounding only, do not add anything not already in the message): {context_json}"
     )
+    if not is_opening:
+        user_prompt = (
+            "This is a follow-up message in an ongoing conversation, not the first message - "
+            "do not greet the customer or reintroduce yourself, just phrase the message below naturally.\n\n"
+            + user_prompt
+        )
     rephrased = generate_reply(SYSTEM_PROMPT, user_prompt)
-    if rephrased:
+    if rephrased and is_safe_reply(rephrased, max_length=max(400, len(fallback_text) * 3)):
         if len(_PHRASE_CACHE) < 256:
             _PHRASE_CACHE[key] = rephrased
         return rephrased
     return fallback_text
+

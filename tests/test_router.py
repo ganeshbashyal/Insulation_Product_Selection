@@ -73,6 +73,12 @@ class TestRulesBasedClassification:
         c = router_rules_only.classify("Can you give me a quote?")
         assert c.is_commercial
 
+    def test_freight_routes_to_local_placeholder(self, router_rules_only):
+        assert router_rules_only.classify("How much is delivery?").category == "freight"
+
+    def test_tracking_routes_to_local_placeholder(self, router_rules_only):
+        assert router_rules_only.classify("Where is my order?").category == "tracking"
+
     def test_size_availability(self, router_rules_only):
         """Messages asking about sizes are size-availability."""
         c = router_rules_only.classify("Available in 50mm?")
@@ -82,6 +88,26 @@ class TestRulesBasedClassification:
         """Messages asking about stock are size-availability."""
         c = router_rules_only.classify("Is this in stock?")
         assert c.category == "size-availability"
+
+    def test_service_refusal_install_request(self, router_rules_only):
+        """A direct request for the business to install is refused, not routed as product-fit/commercial."""
+        c = router_rules_only.classify("Can you install this for us next week?")
+        assert c.category == "service_refusal"
+
+    def test_service_refusal_removal_request(self, router_rules_only):
+        c = router_rules_only.classify("Can you remove the old insulation from our ceiling?")
+        assert c.category == "service_refusal"
+
+    def test_service_refusal_tool_hire_request(self, router_rules_only):
+        c = router_rules_only.classify("Do you offer tool hire for batt installation?")
+        assert c.category == "service_refusal"
+
+    def test_installation_practicality_priority_answer_not_misrouted(self, router_rules_only):
+        """'Installation practicality' is a legitimate priority answer in the
+        Q&A flow, not a request for the business to perform an install -
+        it must never be caught by the service-refusal rule."""
+        c = router_rules_only.classify("easy installation and budget matter most")
+        assert c.category != "service_refusal"
 
     def test_product_fit_scenario(self, router_rules_only):
         """Messages describing a scenario are product-fit."""
@@ -151,7 +177,10 @@ class TestRouterEdgeCases:
         """Very long message is classified (truncated if needed)."""
         long_msg = "Tell me " * 1000 + "about insulation"
         c = router_rules_only.classify(long_msg)
-        assert c.category in {"informational", "product-fit", "size-availability", "commercial", "escalate"}
+        assert c.category in {
+            "informational", "product-fit", "size-availability", "commercial",
+            "escalate", "freight", "tracking", "service_refusal",
+        }
 
     def test_message_with_numbers(self, router_rules_only):
         """Message with numbers is classified."""

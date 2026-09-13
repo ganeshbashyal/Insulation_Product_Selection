@@ -14,6 +14,10 @@
 | Matching false positives | `config/matching.json` controls vocabulary, fuzzy matching and a mandatory no-reliable-match threshold; tests cover unrelated enquiries and placement language. | Tune only against a growing labelled enquiry set and track precision/recall before production. |
 | Evidence extraction auditability | Raw downloads are stored by SHA-256 outside Git; candidates retain page/region and extraction/OCR confidence; CI produces an evidence triage artifact. | Scanned documents are flagged for OCR rather than interpreted automatically. An authorised reviewer must verify every promoted claim. |
 | Callback PII | Optional Fernet encryption, reviewer allowlist and per-record retention deadlines are implemented; production can require encryption through environment configuration. | Local SQLite has no network API. Production requires authenticated RBAC, TLS and a managed encrypted database. |
+| Offline startup stalls | RAG embeddings are lazy-loaded and guarded by a short local Ollama availability probe; lexical retrieval remains available with Ollama stopped. | Dense retrieval requires a locally running Ollama embedding model or a previously built compatible cache. |
+| Runtime flow divergence | `agent_core.Conversation` now owns serializable qualification state and recommendation flow; `conversation_service.py` owns FastAPI routing, tools, RAG, linting and audit behavior. Streamlit delegates progression and recommendation generation to `agent_core`. | Streamlit retains presentation-only review and dashboard logic. |
+| Generated artifact drift | `scripts/check_generated_artifacts.py` verifies retrieval cards, compliance/expert/building-class RAG chunks and Aircall text against local sources in CI. | Rebuild the named artifact locally when the check reports drift. |
+| SQLite contention | Local application stores use WAL mode, a five-second busy timeout and explicit schema version 1. | A managed multi-host database is still required if deployment moves beyond a single local host. |
 
 ## Release rule
 
@@ -22,6 +26,8 @@ Run both commands before merging catalogue or ranking changes:
 ```powershell
 python scripts/validate_catalogue.py
 python scripts/validate_aircall_pack.py
+python scripts/check_generated_artifacts.py
+python scripts/evidence_triage.py
 pytest -q
 ```
 

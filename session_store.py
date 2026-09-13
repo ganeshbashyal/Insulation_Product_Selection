@@ -13,6 +13,8 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
+from local_db import connect
+
 DEFAULT_DB = Path(__file__).resolve().parent / "data" / "local" / "sessions.sqlite3"
 
 
@@ -90,7 +92,8 @@ class SQLiteSessionStore(SessionStore):
 
     def _init_db(self) -> None:
         self.db_path.parent.mkdir(parents=True, exist_ok=True)
-        with sqlite3.connect(self.db_path, timeout=5.0) as conn:
+        with connect(self.db_path) as conn:
+            conn.execute("PRAGMA user_version = 1")
             conn.execute(
                 """
                 CREATE TABLE IF NOT EXISTS sessions (
@@ -118,7 +121,7 @@ class SQLiteSessionStore(SessionStore):
     def create(self, session_id: str, site_id: str, conversation: dict) -> None:
         now = datetime.now(timezone.utc).isoformat(timespec="seconds")
         expires_at = (datetime.now(timezone.utc) + timedelta(seconds=self.TTL_SECONDS)).isoformat(timespec="seconds")
-        with sqlite3.connect(self.db_path, timeout=5.0) as conn:
+        with connect(self.db_path) as conn:
             conn.execute(
                 """
                 INSERT INTO sessions (session_id, site_id, conversation_json, created_at, accessed_at, expires_at)
@@ -129,7 +132,7 @@ class SQLiteSessionStore(SessionStore):
             conn.commit()
 
     def get(self, session_id: str, site_id: str) -> Session | None:
-        with sqlite3.connect(self.db_path, timeout=5.0) as conn:
+        with connect(self.db_path) as conn:
             cursor = conn.execute(
                 """
                 SELECT session_id, site_id, conversation_json, created_at, accessed_at, expires_at
@@ -151,7 +154,7 @@ class SQLiteSessionStore(SessionStore):
     def update(self, session_id: str, site_id: str, conversation: dict) -> None:
         now = datetime.now(timezone.utc).isoformat(timespec="seconds")
         expires_at = (datetime.now(timezone.utc) + timedelta(seconds=self.TTL_SECONDS)).isoformat(timespec="seconds")
-        with sqlite3.connect(self.db_path, timeout=5.0) as conn:
+        with connect(self.db_path) as conn:
             result = conn.execute(
                 """
                 UPDATE sessions
@@ -165,13 +168,13 @@ class SQLiteSessionStore(SessionStore):
                 raise KeyError(f"Session not found: {session_id} on site {site_id}")
 
     def delete(self, session_id: str, site_id: str) -> None:
-        with sqlite3.connect(self.db_path, timeout=5.0) as conn:
+        with connect(self.db_path) as conn:
             conn.execute("DELETE FROM sessions WHERE session_id = ? AND site_id = ?", (session_id, site_id))
             conn.commit()
 
     def cleanup_expired(self) -> int:
         now = datetime.now(timezone.utc).isoformat(timespec="seconds")
-        with sqlite3.connect(self.db_path, timeout=5.0) as conn:
+        with connect(self.db_path) as conn:
             cursor = conn.execute("DELETE FROM sessions WHERE expires_at < ?", (now,))
             conn.commit()
             return cursor.rowcount

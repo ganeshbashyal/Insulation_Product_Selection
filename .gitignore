@@ -47,3 +47,7 @@ __pycache__/
 .pytest-tmp/
 .pytest_tmp/
 .pytest_cache/
+
+# Historical test scratch/output; never source data
+family_sqlite_check_*/
+full-suite-final*.txt

@@ -165,5 +165,7 @@
   "source_excerpt": null,
   "engine": "ai_studio_batch",
   "schema_version": "1.0",
-  "range_source": ""
+  "range_source": "",
+  "datasheet_local_path": "data\\tds\\stinger\\stinger_cn.pdf",
+  "datasheet_download_url": "https://www.stingerworld.com.au/wp-content/uploads/2026/06/Stinger-Catalogue-2026.pdf"
 }

@@ -15,6 +15,12 @@ The repository has four related data layers:
 
 The bot path is deliberately deterministic first: family metadata and approved evidence drive ranking and gates, while a local LLM may phrase an already-decided response. The LLM does not choose products or invent technical claims.
 
+`agent_core.py` owns serializable qualification and recommendation state.
+`conversation_service.py` applies routing, local tools, RAG, policy linting and
+interaction logging for deployable channels. The Streamlit and FastAPI surfaces
+therefore share the same qualification state instead of maintaining independent
+conversation implementations.
+
 ## Structure
 
 ### Complete Manufacturer Coverage (26 manufacturers, 283 families)
@@ -130,7 +136,7 @@ The local Streamlit demonstration compares all 283 manufacturer-classified produ
 Run it from Anaconda Prompt:
 
 ```powershell
-cd "C:\Users\ganes\OneDrive\Documents\GitHub\Insulation_Product_Selection"
+cd "C:\path\to\Insulation_Product_Selection"
 streamlit run app.py
 ```
 
@@ -181,7 +187,6 @@ ollama pull llama3.1:8b   # or any chat model you have pulled, e.g. gemma4:lates
 ollama serve
 ```
 
-Then restart the Streamlit app. A "Natural phrasing (local LLM)" toggle appears in the sidebar and turns on automatically once the local server is detected (`http://localhost:11434` by default; override with the `OLLAMA_HOST` and `OLLAMA_MODEL` environment variables). The LLM only rephrases text the rules engine has already decided — it never selects the recommended family, chooses a SKU, or asserts compliance; if the server is unreachable the app silently falls back to the fixed wording.
+Then restart the Streamlit app. A "Natural phrasing (local LLM)" toggle appears in the sidebar and turns on automatically once the local server is detected (`http://127.0.0.1:11434` by default; override with the `OLLAMA_HOST` and `OLLAMA_MODEL` environment variables). The LLM only rephrases text the rules engine has already decided — it never selects the recommended family, chooses a SKU, or asserts compliance; if the server is unreachable the app immediately falls back to fixed wording and lexical retrieval.
 
 If phrasing feels slow: use a smaller model (`ollama pull gemma3:4b` then set `OLLAMA_MODEL=gemma3:4b` — 3-4B models rephrase a short sentence in ~1-2s on CPU), keep `ollama serve` running so the model stays warm, and note the app caps reply length (`num_predict=160`), keeps the model loaded for 30 minutes, and caches successful phrasings — the demo asks the same questions every conversation, so repeat runs are instant.
-

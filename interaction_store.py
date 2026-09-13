@@ -16,6 +16,8 @@ import sqlite3
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+from local_db import connect
+
 DEFAULT_DB = Path(__file__).resolve().parent / "data" / "local" / "interactions.sqlite3"
 
 OUTCOMES = ("approved", "edited", "rejected")
@@ -28,7 +30,8 @@ def _now() -> str:
 def initialise(db_path: Path | None = None) -> None:
     db_path = db_path or DEFAULT_DB
     db_path.parent.mkdir(parents=True, exist_ok=True)
-    with sqlite3.connect(db_path, timeout=5.0) as connection:
+    with connect(db_path) as connection:
+        connection.execute("PRAGMA user_version = 1")
         connection.execute(
             """
             CREATE TABLE IF NOT EXISTS conversations (
@@ -86,7 +89,7 @@ def log_conversation(
 ) -> None:
     db_path = db_path or DEFAULT_DB
     initialise(db_path)
-    with sqlite3.connect(db_path, timeout=5.0) as connection:
+    with connect(db_path) as connection:
         connection.execute(
             "INSERT OR REPLACE INTO conversations (conversation_id, site_id, occurred_at, answers_json, recommended_family_id, recommended_family_name, gate_status, gate_reason, climate_zone, candidates_json) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
             (
@@ -118,7 +121,7 @@ def record_outcome(
         raise ValueError(f"outcome must be one of {OUTCOMES}")
     db_path = db_path or DEFAULT_DB
     initialise(db_path)
-    with sqlite3.connect(db_path, timeout=5.0) as connection:
+    with connect(db_path) as connection:
         connection.execute(
             "INSERT OR REPLACE INTO outcomes (conversation_id, site_id, decided_at, reviewer, outcome, corrected_family_id, note) VALUES (?, ?, ?, ?, ?, ?, ?)",
             (conversation_id, site_id, _now(), reviewer, outcome, corrected_family_id, note),
@@ -130,7 +133,7 @@ def family_stats(db_path: Path | None = None) -> list[dict]:
     """Recommendation counts and reviewer outcomes per family."""
     db_path = db_path or DEFAULT_DB
     initialise(db_path)
-    with sqlite3.connect(db_path, timeout=5.0) as connection:
+    with connect(db_path) as connection:
         connection.row_factory = sqlite3.Row
         rows = connection.execute(
             """
@@ -155,7 +158,7 @@ def rejection_report(db_path: Path | None = None, days: int = 90) -> list[dict]:
     db_path = db_path or DEFAULT_DB
     initialise(db_path)
     cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).isoformat(timespec="seconds")
-    with sqlite3.connect(db_path, timeout=5.0) as connection:
+    with connect(db_path) as connection:
         connection.row_factory = sqlite3.Row
         rows = connection.execute(
             """
@@ -175,7 +178,7 @@ def pending_review(db_path: Path | None = None) -> list[dict]:
     """Logged conversations that have not yet received a reviewer outcome."""
     db_path = db_path or DEFAULT_DB
     initialise(db_path)
-    with sqlite3.connect(db_path, timeout=5.0) as connection:
+    with connect(db_path) as connection:
         connection.row_factory = sqlite3.Row
         rows = connection.execute(
             """
@@ -187,5 +190,4 @@ def pending_review(db_path: Path | None = None) -> list[dict]:
             """
         ).fetchall()
     return [dict(row) for row in rows]
-
 

@@ -179,5 +179,7 @@
   "source_excerpt": null,
   "engine": "ai_studio_batch",
   "schema_version": "1.0",
-  "range_source": ""
+  "range_source": "",
+  "datasheet_local_path": "data\\tds\\fletcher\\fletcher_protect_fire_stop_party_wall_stonewool.pdf",
+  "datasheet_download_url": "https://insulation.com.au/wp-content/uploads/2024/FP_Party-Wall-Batts-blanket_A4_Revision_4_Issue-Date-05122024_LR.pdf"
 }

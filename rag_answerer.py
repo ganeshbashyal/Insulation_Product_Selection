@@ -14,7 +14,7 @@ from pathlib import Path
 import numpy as np
 
 import llm_client
-from hybrid_retrieval import _ollama_embed, load_or_embed_cards
+from hybrid_retrieval import _ollama_embed, embeddings_available, load_or_embed_cards
 
 ROOT = Path(__file__).resolve().parent
 KNOWLEDGE_DIR = ROOT / "knowledge" / "industry"
@@ -106,18 +106,14 @@ class RAGAnswerer:
     _shared_chunks: list[dict] | None = None
     _shared_embeddings: dict | None = None
 
-    def __init__(self):
+    def __init__(self, eager_embeddings: bool = False):
         cls = type(self)
         if cls._shared_chunks is None:
             cls._shared_chunks = self._load_knowledge_base()
         self.knowledge_chunks = cls._shared_chunks
-
-        if cls._shared_embeddings is None:
-            self.embeddings = {}
-            self._load_embeddings()
-            cls._shared_embeddings = self.embeddings
-        else:
-            self.embeddings = cls._shared_embeddings
+        self.embeddings = cls._shared_embeddings or {}
+        if eager_embeddings:
+            self._ensure_embeddings()
 
     @classmethod
     def reset_cache(cls) -> None:
@@ -187,7 +183,19 @@ class RAGAnswerer:
             self.embeddings, _ = load_or_embed_cards(cards, namespace="knowledge")
         except Exception:
             # If embedding fails (Ollama not running), continue with empty embeddings
-            pass
+            self.embeddings = {}
+
+    def _ensure_embeddings(self) -> None:
+        """Load dense vectors only when the local provider is reachable."""
+        cls = type(self)
+        if cls._shared_embeddings is not None:
+            self.embeddings = cls._shared_embeddings
+            return
+        if not embeddings_available():
+            self.embeddings = {}
+            return
+        self._load_embeddings()
+        cls._shared_embeddings = self.embeddings
 
     def _rank_chunks(self, question: str, top_k: int = 6) -> list[dict]:
         """Rank knowledge chunks against the question.
@@ -196,6 +204,7 @@ class RAGAnswerer:
         back to keyword overlap so retrieval still discriminates when Ollama is
         unreachable.
         """
+        self._ensure_embeddings()
         query_vec = None
         if self.embeddings:
             try:
@@ -232,13 +241,13 @@ class RAGAnswerer:
         scored.sort(key=lambda pair: pair[0], reverse=True)
         return [chunk for _, chunk in scored[:top_k]]
 
-    def answer(self, question: str, use_llm: bool = True) -> dict[str, str]:
+    def answer(self, question: str, use_llm: bool = True) -> dict:
         """
         Answer a question using RAG.
         Returns {"answer": "...", "sources": ["path1", "path2"], "confidence": 0.0-1.0}
         """
         if not self.knowledge_chunks:
-            return {"answer": "Knowledge base not available", "sources": [], "confidence": 0.0}
+            return {"answer": "Knowledge base not available", "sources": [], "confidence": 0.0, "retrieval_mode": "unavailable"}
 
         try:
             ranked = self._rank_chunks(question)
@@ -246,7 +255,7 @@ class RAGAnswerer:
             ranked = self.knowledge_chunks[:6]
 
         if not ranked:
-            return {"answer": "No relevant information found", "sources": [], "confidence": 0.0}
+            return {"answer": "No relevant information found", "sources": [], "confidence": 0.0, "retrieval_mode": "none"}
 
         # Format knowledge for prompt
         knowledge_text = ""
@@ -280,4 +289,5 @@ class RAGAnswerer:
             "answer": answer,
             "sources": sources,
             "confidence": 0.8 if ranked else 0.0,
+            "retrieval_mode": "dense" if self.embeddings else "lexical",
         }

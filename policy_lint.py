@@ -22,6 +22,14 @@ GUARANTEE_LANGUAGE = re.compile(
     re.IGNORECASE,
 )
 
+# "100% soundproof/quiet/silent" (or "completely/fully soundproof") overstates
+# what any NRC/Rw rating actually delivers - the manufacturer's rated value is
+# the only legitimate benchmark, never an absolute guarantee of silence.
+ABSOLUTE_ACOUSTIC_CLAIM = re.compile(
+    r"\b(100\s?%|completely|fully|totally|entirely)\b[^.]{0,25}\b(soundproof|silent|sound[\s-]?proof|quiet)\b",
+    re.IGNORECASE,
+)
+
 # Patterns for SKU-like mentions (softer — only reject if seems like assertion)
 SKU_ASSERTION_PATTERNS = [
     r"(?:this|our|the|this\s+)?(\d+mm)[^\w]",  # "this 50mm", "the 50mm"
@@ -67,6 +75,11 @@ class PolicyLinter:
         # Check for guarantee language
         if GUARANTEE_LANGUAGE.search(text):
             violations.append("Guarantee/promise language detected (will, ensure, guaranteed, etc.)")
+
+        # Check for absolute acoustic claims ("100% soundproof") - the NRC/Rw
+        # rating is always the ceiling, never a guarantee of total silence.
+        if ABSOLUTE_ACOUSTIC_CLAIM.search(text):
+            violations.append("Absolute soundproofing claim detected (e.g. '100% soundproof'); only the manufacturer's rated NRC/Rw value may be cited")
 
         # Check for SKU assertions (softer validation)
         if SKU_ASSERTION_RE.search(text):

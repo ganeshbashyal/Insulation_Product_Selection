@@ -9,6 +9,7 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 
+import agent_core
 import llm_client
 from audit_store import create_review, decide_review, get_review
 from bot_engine import (
@@ -18,7 +19,6 @@ from bot_engine import (
     recommendation_allowed,
     technical_gate,
 )
-from smart_questioner import SmartQuestioner
 from voice_assistant import voice_input_widget, inject_voice_css
 from data_health import run_all as run_data_health_checks
 
@@ -27,19 +27,7 @@ REPO_ROOT = Path(__file__).resolve().parent
 CATALOGUE_FILES = sorted((REPO_ROOT / "knowledge").glob("*/families.json"))
 PERFORMANCE_FILE = REPO_ROOT / "knowledge" / "performance_evidence.json"
 
-# Smart questioner for context-aware follow-ups
-smart_questioner = SmartQuestioner(use_llm=True)
-
-QUESTIONS = [
-    ("problem", "Tell me about your project or problem in your own words — e.g. 'my upstairs bedroom is freezing in winter and the walls are thin', or 'traffic noise through the front wall of my townhouse'. Mention where it is, what you're feeling, and anything about the building if you know it."),
-    ("application", "Where is the problem—wall, floor, roof, pipe or somewhere else?"),
-    ("priority", "What matters most: comfort, energy savings, sustainability, easy installation, budget or compliance?"),
-    ("conditions", "Any practical constraints, such as limited space, weather exposure, temperature or floor finish?"),
-    ("project", "Is this residential, commercial or industrial? Is it new work or a retrofit?"),
-    ("locality", "What suburb and postcode is the project in? I’ll use it for the NCC climate-zone check."),
-    ("requirements", "Do you have a target rating, NCC, fire, BAL or consultant requirement? It’s okay if you’re unsure."),
-    ("contact", "Would you prefer to call us, receive a callback or have the brief emailed to the team?"),
-]
+QUESTIONS = agent_core.QUESTIONS
 
 APPLICATION_TERMS = {
     "roof": ["roof", "ceiling", "rafter", "truss", "attic"],
@@ -57,17 +45,7 @@ PROJECT_TERMS = ["residential", "commercial", "industrial", "apartment", "townho
 
 
 def extract_from_opening(text: str) -> dict[str, str]:
-    folded = " " + text.casefold() + " "
-    found: dict[str, str] = {}
-    if any(term in folded for terms in APPLICATION_TERMS.values() for term in terms):
-        found["application"] = text
-    if any(term in folded for terms in PRIORITY_TERMS.values() for term in terms):
-        found["priority"] = text
-    if any(term in folded for term in PROJECT_TERMS):
-        found["project"] = text
-    if re.search(r"\b\d{4}\b", text):
-        found["locality"] = text
-    return found
+    return agent_core.extract_from_opening(text)
 
 NCC_ZONE_GUIDE = [
     {"Zone": 1, "Climate": "High-humidity summer, warm winter", "Wall wrap / external wall layer": "No zone-specific minimum in 10.8.1(2); membrane must still meet 10.8.1(1)", "Roof-space note": "General condensation design applies"},
@@ -157,7 +135,9 @@ EMPTY_PERFORMANCE = {"automation_status": "not_yet_extracted", "evidence_items":
 def initialise_state() -> None:
     defaults = {
         "messages": [{"role": "assistant", "content": "Hi—" + QUESTIONS[0][1]}],
-        "answers": {}, "step": 0, "demo_complete": False, "human_approved": False, "myob_quote": None, "review_id": None,
+        "answers": {}, "step": 0, "demo_complete": False, "human_approved": False,
+        "myob_quote": None, "review_id": None, "conversation_id": None,
+        "recommendation": None, "gate": None,
     }
     for key, value in defaults.items():
         if key not in st.session_state:
@@ -165,7 +145,10 @@ def initialise_state() -> None:
 
 
 def reset_demo() -> None:
-    for key in ["messages", "answers", "step", "demo_complete", "human_approved", "myob_quote", "review_id"]:
+    for key in [
+        "messages", "answers", "step", "demo_complete", "human_approved",
+        "myob_quote", "review_id", "conversation_id", "recommendation", "gate",
+    ]:
         st.session_state.pop(key, None)
     initialise_state()
 
@@ -179,59 +162,11 @@ def has_any(text: str, terms: list[str]) -> bool:
 
 
 def detected_element(answers: dict[str, str]) -> str | None:
-    text = enquiry_text(answers)
-    element_terms = {
-        "roof": ["roof", "ceiling", "rafter", "truss"],
-        "floor": ["floor", "subfloor", "underfloor", "storey", "storeys"],
-        "wall": ["wall", "partition"],
-        "pipe": ["pipe", "plumbing", "waste", "solar hot water"],
-        "duct": ["duct", "hvac"],
-    }
-    return next((element for element, terms in element_terms.items() if has_any(text, terms)), None)
+    return agent_core.detected_element(answers)
 
 
 def question_for_step(step: int, answers: dict[str, str]) -> str:
-    # Use smart questioner for follow-up questions (step > 0) when we have a problem statement
-    if step > 0 and answers.get("problem"):
-        try:
-            class LiteConversation:
-                def __init__(self, answers_dict, current_step):
-                    self.answers = answers_dict
-                    self.step = current_step
-
-            conv = LiteConversation(answers, step)
-            smart_q = smart_questioner.next_question(conv, step=step)
-            if smart_q:
-                return smart_q
-        except Exception:
-            pass  # Fall back to standard questions
-
-    # Original context-aware logic for later steps
-    if step == 1:
-        text = enquiry_text(answers)
-        element = detected_element(answers)
-        if element == "roof":
-            if has_any(text, ["ceiling level", "ceiling space", "roofline", "rafter", "truss"]):
-                return "What type of roof is it—metal, tile or something else?"
-            return "Should the insulation sit at ceiling level or up near the roofline, rafters or trusses?"
-        if element == "floor":
-            if has_any(text, ["subfloor", "underfloor", "suspended floor", "between floors", "between storeys", "floor finish", "underlay"]):
-                return "What is the floor construction—timber, concrete or something else?"
-            return "Is it under a suspended ground floor, inside the cavity between storeys, or directly beneath the floor finish?"
-        if element == "wall":
-            return "Is it an internal or external wall, and what is the frame made from?"
-        if element in {"pipe", "duct"}:
-            return "What service is it, and is it indoors or exposed to weather?"
-    if step == 3:
-        text = enquiry_text(answers)
-        element = detected_element(answers)
-        if element == "roof":
-            if has_any(text, ["metal roof", "tiled roof", "tile roof"]):
-                return "How much space is available, and are condensation or rain noise concerns?"
-            return "What type of roof is it, and are condensation or rain noise concerns?"
-        if element == "floor":
-            return "What access, cavity depth, moisture or floor-finish constraints should we allow for?"
-    return QUESTIONS[step][1]
+    return agent_core.question_for_step(step, answers)
 
 
 def supplied_locality(answers: dict[str, str]) -> str | None:
@@ -271,42 +206,31 @@ def confidence_label(value: str) -> str:
 
 def process_customer_message(prompt: str) -> None:
     st.session_state.messages.append({"role": "user", "content": prompt})
-    if st.session_state.step < len(QUESTIONS):
-        key, _ = QUESTIONS[st.session_state.step]
-        st.session_state.answers[key] = prompt.strip()
-        st.session_state.step += 1
-        # harvest what the free-text opening already answered
-        if key == "problem":
-            for filled_key, value in extract_from_opening(prompt).items():
-                st.session_state.answers.setdefault(filled_key, value)
-    if st.session_state.step < len(QUESTIONS) and QUESTIONS[st.session_state.step][0] == "locality":
-        locality = supplied_locality(st.session_state.answers)
-        if locality:
-            st.session_state.answers["locality"] = locality
-            st.session_state.step += 1
-    # skip steps the opening statement already answered
-    while st.session_state.step < len(QUESTIONS) and QUESTIONS[st.session_state.step][0] in st.session_state.answers:
-        st.session_state.step += 1
-    if st.session_state.step < len(QUESTIONS):
-        question_text = question_for_step(st.session_state.step, st.session_state.answers)
-        if st.session_state.get("use_llm_phrasing"):
-            question_text = llm_client.phrase(question_text)
-        st.session_state.messages.append({"role": "assistant", "content": question_text})
-    else:
-        st.session_state.demo_complete = True
-        top = rank_families(st.session_state.answers, st.session_state.get("manufacturer_scope", "Compare both"))[0]
-        if not top["reliable_match"]:
-            reply = "I don’t have a reliable product match from those details. I’ll send this to the team for review rather than guess."
-        elif recommendation_allowed(top):
-            application = next(iter(dict.fromkeys(top["matched_applications"])), "")
-            priority = PRIORITY_LABELS[top["priority_key"]].lower()
-            why = f"It suits {application} applications and your focus on {priority}." if application else f"It lines up with your focus on {priority}."
-            reply = f"**{top['name']}** looks like the best fit. {why} We’ll confirm the exact product and compliance details before quoting."
-        else:
-            reply = f"**{top['name']}** is the closest match, but its product evidence still needs checking. I’ll flag it for the team before anything is selected or quoted."
-        if st.session_state.get("use_llm_phrasing"):
-            reply = llm_client.phrase(reply, context={"family": top.get("name"), "manufacturer": top.get("manufacturer"), "confidence": top.get("confidence")})
-        st.session_state.messages.append({"role": "assistant", "content": reply})
+    conversation = agent_core.Conversation.from_dict(
+        {
+            "conversation_id": st.session_state.conversation_id,
+            "step": st.session_state.step,
+            "answers": st.session_state.answers,
+            "done": st.session_state.demo_complete,
+            "recommendation": st.session_state.recommendation,
+            "gate": st.session_state.gate,
+        }
+    )
+    reply = agent_core.reply(
+        conversation,
+        prompt,
+        use_llm=st.session_state.get("use_llm_phrasing", False),
+        manufacturer_scope=st.session_state.get("manufacturer_scope", "Compare both"),
+        site_id="streamlit-local",
+    )
+    st.session_state.conversation_id = conversation.conversation_id
+    st.session_state.step = conversation.step
+    st.session_state.answers = conversation.answers
+    st.session_state.demo_complete = conversation.done
+    st.session_state.recommendation = conversation.recommendation
+    st.session_state.gate = conversation.gate
+    st.session_state.messages.append({"role": "assistant", "content": reply})
+    if conversation.done:
         if st.session_state.review_id is None:
             st.session_state.review_id = create_review(
                 callback_payload(),

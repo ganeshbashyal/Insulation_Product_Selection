@@ -1,10 +1,4 @@
-"""Order-tracking placeholder.
-
-No order/shipment system is wired up yet (MYOB integration was mentioned as
-future scope, not this session's work). This tool exists so the registry shape
-is proven with more than one placeholder, and so wiring a real tracking lookup
-later is a change to this file only, not to web_agent.py's dispatch code.
-"""
+"""Local-only order-tracking hand-off until an order export is available."""
 from __future__ import annotations
 
 from typing import Any

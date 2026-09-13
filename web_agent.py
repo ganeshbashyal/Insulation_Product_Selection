@@ -39,19 +39,30 @@ from pydantic import BaseModel
 
 import agent_core
 import interaction_store
+import llm_client
+from conversation_service import ConversationService
 from auth_middleware import AuthMiddleware, AuditLog
 from cors_validator import CORSValidator
 from session_store import SQLiteSessionStore
 from site_config import load_all_sites, SiteConfigError
 from widget_config import WidgetConfigProvider
-from router import MessageRouter
-from rag_answerer import RAGAnswerer
-from policy_lint import PolicyLinter
-from tools import default_registry
 
 app = FastAPI(title="Insulation Enquiry Agent", version="2.0.0")
 
-USE_LLM = os.getenv("AGENT_USE_LLM", "false").casefold() == "true"
+# AGENT_USE_LLM lets an operator force phrasing on/off explicitly. Left unset,
+# auto-detect: if a local Ollama server is actually reachable at startup, turn
+# on natural phrasing (persona-driven, guardrailed) automatically - a robotic
+# canned-question demo was never the intent, that was just the safe fallback
+# for when no local model is running. generate_reply()/phrase() still fall
+# back to the literal text on any later failure, so this is never a
+# reliability risk, only a quality upgrade when the model is actually there.
+_use_llm_env = os.getenv("AGENT_USE_LLM")
+if _use_llm_env is not None:
+    USE_LLM = _use_llm_env.casefold() == "true"
+else:
+    USE_LLM = llm_client.ollama_available()
+    print(f"OK - AGENT_USE_LLM not set; auto-detected Ollama {'reachable' if USE_LLM else 'unreachable'} -> USE_LLM={USE_LLM}")
+
 
 # P2 infrastructure instances
 session_store: SQLiteSessionStore | None = None
@@ -62,17 +73,14 @@ audit_log: AuditLog | None = None
 sites: dict[str, Any] = {}
 
 # P3 infrastructure instances
-router: MessageRouter | None = None
-rag_answerer: RAGAnswerer | None = None
-policy_linter: PolicyLinter | None = None
-tool_registry = default_registry()
+conversation_service: ConversationService | None = None
 
 
 @app.on_event("startup")
 async def startup():
     """Initialize P2 and P3 infrastructure at startup."""
     global session_store, auth_middleware, cors_validator, widget_provider, audit_log, sites
-    global router, rag_answerer, policy_linter
+    global conversation_service
 
     try:
         sites = load_all_sites()
@@ -91,9 +99,7 @@ async def startup():
     print("OK - P2 infrastructure initialized (sessions, auth, CORS, audit)")
 
     # P3 initialization
-    router = MessageRouter(use_llm=USE_LLM)
-    rag_answerer = RAGAnswerer()
-    policy_linter = PolicyLinter(protected_families=set(f["name"] for f in agent_core.FAMILIES))
+    conversation_service = ConversationService(use_llm=USE_LLM)
 
     print("OK - P3 infrastructure initialized (router, RAG, lint)")
 
@@ -111,6 +117,9 @@ class MessageRequest(BaseModel):
 class MessageResponse(BaseModel):
     reply: str
     done: bool
+    category: str
+    retrieval_mode: str
+    human_review_required: bool
 
 
 class OutcomeRequest(BaseModel):
@@ -221,16 +230,15 @@ async def start_conversation(request: Request, site_id: str = "local") -> JSONRe
     # Create conversation and session
     conversation = agent_core.Conversation()
     session_id = str(uuid.uuid4())
-    session_store.create(session_id, site_id, {
-        "conversation_id": conversation.conversation_id,
-        "messages": [],
-        "answers": {},
-        "done": False,
-    })
+    session_store.create(
+        session_id,
+        site_id,
+        {**conversation.to_dict(), "messages": []},
+    )
 
     opening = agent_core.QUESTIONS[0][1]
     if USE_LLM:
-        opening = agent_core._phrase(opening, True)
+        opening = agent_core._phrase(opening, True, is_opening=True)
 
     response = StartResponse(conversation_id=session_id, reply=opening)
     return JSONResponse(response.model_dump(), headers=cors_headers)
@@ -249,67 +257,35 @@ async def send_message(session_id: str, body: MessageRequest, request: Request, 
         raise HTTPException(status_code=401, detail="Session expired")
 
     session_data = json.loads(session.conversation_json)
-    conversation = agent_core.Conversation()
-    conversation.conversation_id = session_data["conversation_id"]
-    conversation.answers = session_data["answers"]
-    conversation.done = session_data["done"]
-
-    # P3: Route the message (cache router result)
-    classification = router.classify(body.message)
-
-    tool_result = tool_registry.dispatch(classification.category, body.message, conversation, site_id)
-    if tool_result is not None:
-        # escalate / commercial / freight / tracking: each tool owns its own
-        # reply and log status, so a new tool needs no edit here.
-        reply = tool_result.reply
-    elif classification.is_informational:
-        # Informational: RAG answer with citations
-        rag_result = rag_answerer.answer(body.message, use_llm=USE_LLM)
-        reply = rag_result["answer"]
-    else:
-        # Product-fit: continue with existing flow. agent_core owns the
-        # interaction log for this path (it is the only place the ranked
-        # candidates and gate decision exist).
-        reply = agent_core.reply(conversation, body.message, use_llm=USE_LLM, manufacturer_scope=body.manufacturer_scope, site_id=site_id)
-
-    # P3: Policy lint validation
-    if conversation.recommendation:
-        lint_result = policy_linter.lint(reply, recommended_family=conversation.recommendation.get("name"))
-        if not lint_result.passed:
-            reply = lint_result.fallback_text
+    conversation = agent_core.Conversation.from_dict(session_data)
+    result = conversation_service.handle(
+        conversation,
+        body.message,
+        manufacturer_scope=body.manufacturer_scope,
+        site_id=site_id,
+    )
 
     # Update session
-    session_store.update(session_id, site_id, {
-        "conversation_id": conversation.conversation_id,
-        "messages": session_data["messages"] + [{"role": "user", "content": body.message}, {"role": "assistant", "content": reply}],
-        "answers": conversation.answers,
-        "done": conversation.done,
-    })
+    session_store.update(
+        session_id,
+        site_id,
+        {
+            **conversation.to_dict(),
+            "messages": session_data["messages"]
+            + [
+                {"role": "user", "content": body.message},
+                {"role": "assistant", "content": result.reply},
+            ],
+        },
+    )
 
-    # Record the interactions agent_core cannot see. The product-fit path logs
-    # itself (it owns the ranking and gate decision); every other category is
-    # logged once here so a new tool cannot forget the audit entry the way
-    # escalate/commercial/informational turns previously did (the conversations
-    # table stayed empty despite the endpoint being in use, until 86a6739).
-    if classification.category != "product-fit":
-        if tool_result is not None:
-            gate_status = tool_result.log_status or f"routed:{classification.category}"
-            gate_reason = tool_result.log_reason or f"Router classified this as {classification.category}."
-        else:
-            gate_status = f"routed:{classification.category}"
-            gate_reason = f"Router classified this as {classification.category} (confidence {classification.confidence:.2f}); no product recommendation was made."
-        interaction_store.log_conversation(
-            conversation_id=conversation.conversation_id,
-            site_id=site_id,
-            answers={**conversation.answers, "_message": body.message},
-            recommendation=None,
-            gate_status=gate_status,
-            gate_reason=gate_reason,
-            climate_zone=None,
-            candidates=[],
-        )
-
-    response = MessageResponse(reply=reply, done=conversation.done)
+    response = MessageResponse(
+        reply=result.reply,
+        done=result.done,
+        category=result.category,
+        retrieval_mode=result.retrieval_mode,
+        human_review_required=result.human_review_required,
+    )
     return JSONResponse(response.model_dump(), headers=cors_headers)
 
 

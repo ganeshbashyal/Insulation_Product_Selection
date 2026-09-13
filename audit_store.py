@@ -9,6 +9,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from cryptography.fernet import Fernet, InvalidToken
+from local_db import connect
 
 DEFAULT_DB = Path(__file__).resolve().parent / "data" / "local" / "review_queue.sqlite3"
 
@@ -50,7 +51,8 @@ def _check_reviewer(reviewer: str) -> None:
 
 def initialise(db_path: Path = DEFAULT_DB) -> None:
     db_path.parent.mkdir(parents=True, exist_ok=True)
-    with sqlite3.connect(db_path) as connection:
+    with connect(db_path) as connection:
+        connection.execute("PRAGMA user_version = 1")
         connection.executescript(
             """
             CREATE TABLE IF NOT EXISTS reviews (
@@ -94,7 +96,7 @@ def create_review(payload: dict, db_path: Path = DEFAULT_DB, retention_days: int
     if require_encryption and encryption_state != "FERNET":
         raise RuntimeError("AUDIT_ENCRYPTION_KEY is required when encryption is mandatory")
     retention_until = (datetime.now(timezone.utc) + timedelta(days=retention_days)).isoformat(timespec="seconds")
-    with sqlite3.connect(db_path) as connection:
+    with connect(db_path) as connection:
         connection.execute(
             "INSERT INTO reviews (review_id, created_at, updated_at, status, payload_json, retention_until, encryption_state, reviewer, decision_note) VALUES (?, ?, ?, 'PENDING', ?, ?, ?, NULL, NULL)",
             (review_id, timestamp, timestamp, encoded, retention_until, encryption_state),
@@ -112,7 +114,7 @@ def decide_review(review_id: str, status: str, reviewer: str, note: str = "", db
     _check_reviewer(reviewer)
     initialise(db_path)
     timestamp = _now()
-    with sqlite3.connect(db_path) as connection:
+    with connect(db_path) as connection:
         updated = connection.execute(
             "UPDATE reviews SET status=?, updated_at=?, reviewer=?, decision_note=? WHERE review_id=? AND status='PENDING'",
             (status, timestamp, reviewer, note, review_id),
@@ -127,7 +129,7 @@ def decide_review(review_id: str, status: str, reviewer: str, note: str = "", db
 
 def get_review(review_id: str, db_path: Path = DEFAULT_DB) -> dict | None:
     initialise(db_path)
-    with sqlite3.connect(db_path) as connection:
+    with connect(db_path) as connection:
         connection.row_factory = sqlite3.Row
         row = connection.execute("SELECT * FROM reviews WHERE review_id=?", (review_id,)).fetchone()
     if not row:
@@ -141,7 +143,7 @@ def purge_expired(db_path: Path = DEFAULT_DB, before: str | None = None) -> int:
     """Delete expired review payloads and events according to the configured retention deadline."""
     initialise(db_path)
     cutoff = before or _now()
-    with sqlite3.connect(db_path) as connection:
+    with connect(db_path) as connection:
         ids = [row[0] for row in connection.execute("SELECT review_id FROM reviews WHERE retention_until IS NOT NULL AND retention_until < ?", (cutoff,))]
         if not ids:
             return 0

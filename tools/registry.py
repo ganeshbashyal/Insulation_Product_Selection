@@ -55,8 +55,9 @@ def default_registry() -> ToolRegistry:
     from .commercial import CommercialTool
     from .freight import FreightTool
     from .tracking import TrackingTool
+    from .service_refusal import ServiceRefusalTool
 
     registry = ToolRegistry()
-    for tool in (EscalateTool(), CommercialTool(), FreightTool(), TrackingTool()):
+    for tool in (EscalateTool(), ServiceRefusalTool(), CommercialTool(), FreightTool(), TrackingTool()):
         registry.register(tool)
     return registry
