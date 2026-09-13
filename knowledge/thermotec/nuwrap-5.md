@@ -45,7 +45,7 @@ The barrier layer helps restrict airborne noise, while the foam layer provides s
 
 _Installation, clearance and limitation evidence is pending a verified manufacturer source. Do not infer project-specific installation instructions from this family file._
 
-Source currently recorded: the current manufacturer source
+Source currently recorded: https://thermotec.com.au/products/nuwrap-acoustic-lagging
 
 <!-- AUTO:INSTALL END -->
 
@@ -107,6 +107,6 @@ Capture service, material, outside diameter, operating temperature, exposure, no
 
 _Variation data is pending a verified manufacturer range table or technical extraction. No dimensions, ratings or product combinations are inferred._
 
-Source currently recorded: the current manufacturer source
+Source currently recorded: https://thermotec.com.au/products/nuwrap-acoustic-lagging
 
 <!-- AUTO:VARIANTS END -->

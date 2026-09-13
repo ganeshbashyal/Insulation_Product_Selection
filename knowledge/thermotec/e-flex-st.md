@@ -44,7 +44,7 @@ E-Flex ST and E-Flex HT are different product families. ST is the general HVAC, 
 
 _Installation, clearance and limitation evidence is pending a verified manufacturer source. Do not infer project-specific installation instructions from this family file._
 
-Source currently recorded: the current manufacturer source
+Source currently recorded: https://thermotec.com.au/products/thermotec-e-flex-st-hot-water-hvac-refrigeration-pipe-insulation
 
 <!-- AUTO:INSTALL END -->
 
@@ -83,6 +83,6 @@ Capture pipe OD, service/fluid, operating and peak temperature, ambient design, 
 
 _Variation data is pending a verified manufacturer range table or technical extraction. No dimensions, ratings or product combinations are inferred._
 
-Source currently recorded: the current manufacturer source
+Source currently recorded: https://thermotec.com.au/products/thermotec-e-flex-st-hot-water-hvac-refrigeration-pipe-insulation
 
 <!-- AUTO:VARIANTS END -->

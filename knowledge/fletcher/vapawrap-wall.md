@@ -36,30 +36,9 @@ Capture climate zone, wall/cladding type, cavity, condensation design, required 
 
 ## Installation and clearances
 
-Extracted from the manufacturer datasheet; the bot may share this context but must not issue project-specific installation instructions or override the human-reviewed install guide.
+_Installation, clearance and limitation evidence is pending a verified manufacturer source. Do not infer project-specific installation instructions from this family file._
 
-1. Fix Vapawrap horizontally to exterior timber or steel studs
-starting from the bottom plate.
-2. Fasten with broad-headed galvanized clouts or
-staples at maximum 300mm centres.
-3. Overlap consecutive upper sheets over lower
-sheets by minimum 150mm to shed water.
-4. Stagger vertical joints and ensure they
-occur over studs with a minimum 150mm overlap.
-5. Tape all horizontal and
-vertical seams with Sisalation VapaSeam Tape to form a continuous air barrier.
-6. Seal around window and door frames, sill flashings, and plumbing penetrations.
-7. Ensure a drained, ventilated cavity is maintained between the wrap and exterior
-cladding.
-
-**Manufacturer-stated limitations**
-
-- Not suitable for roofing
-applications (use Vapawrap Metal Roof).
-- Must not be left exposed to direct UV
-sunlight beyond 30 days (VP4-30) or 90 days (VP4-90).
-- Ensure cladding
-manufacturer requirements for cavity drainage are followed.
+Source currently recorded: https://insulation.com.au/product/sisalation-vapawrap-residential-wall-wrap/
 
 <!-- AUTO:INSTALL END -->
 
@@ -79,25 +58,8 @@ manufacturer requirements for cavity drainage are followed.
 
 ## Documented physical and technical properties
 
-| Published property | Value | Standard |
-| --- | --- | --- |
-| Material | Spunbond polyolefin non-woven
-fabric with breathable microporous film core |  |
-| Duty Classification | Light Duty | AS/NZS 4200.1 |
-| Vapour Permeance | Class 4 Vapour Permeable (> 1.14
-µg/N·s) | AS/NZS 4200.1 |
-| Water Control
-Classification | Water Barrier | AS/NZS 4201.4 |
-| Air Control Classification | Air Barrier | AS/NZS 4200.1 |
-| Roll Dimensions | 1350 mm or 1500 mm
-width x 30 m length (40.5 m² / 45 m² per roll) |  |
-| Weight per Roll | 4.7 kg (1350mm) / 5.2 kg (1500mm) |  |
-| UV Resistance Limit | Up to 30 days (VP4-30) or up
-to 90 days (VP4-90) |  |
-| Flammability Index | ≤ 5 (Low Flammability) | AS 1530.2 |
-| Product Codes | 4021556 (VP4-30 1350), 4021557 (VP4-30 1500), 4021549
-(VP4-90 1350), 4021550 (VP4-90 1500) |  |
+_Variation data is pending a verified manufacturer range table or technical extraction. No dimensions, ratings or product combinations are inferred._
 
-_No manufacturer range table was available in the extracted source; this records each published technical property without inferring product combinations._
+Source currently recorded: https://insulation.com.au/product/sisalation-vapawrap-residential-wall-wrap/
 
 <!-- AUTO:VARIANTS END -->

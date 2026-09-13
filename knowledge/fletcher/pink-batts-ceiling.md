@@ -65,15 +65,11 @@ Capture target material/Total R, joist spacing, available depth, roof type, clim
 
 Extracted from the manufacturer datasheet; the bot may share this context but must not issue project-specific installation instructions or override the human-reviewed install guide.
 
-1. Friction fit standard joists.
+1. Fit to standard timber and steel joist spacings.
 2. Easy to cut.
-3. Low itch.
-4. Fit standard timber and steel joist spacings.
-
-**Manufacturer-stated limitations**
-
-- No warranty is given or is to be implied with respect to either such information or the product itself.
-- The purchaser should independently determine the suitability of the product for the intended application.
+3. Friction fit standard joists.
+4. Provides energy savings all year round.
+5. Renowned for their firmness.
 
 <!-- AUTO:INSTALL END -->
 

@@ -42,7 +42,7 @@ Internal diameters: 13, 20, 25, 32, 39, 51, 65, 76, 89 and 102 mm. Each publishe
 
 _Installation, clearance and limitation evidence is pending a verified manufacturer source. Do not infer project-specific installation instructions from this family file._
 
-Source currently recorded: the current manufacturer source
+Source currently recorded: https://thermotec.com.au/products/thermotec-4-zero
 
 <!-- AUTO:INSTALL END -->
 
@@ -81,6 +81,6 @@ Capture pipe outside diameter, fluid, normal/maximum temperature, ambient humidi
 
 _Variation data is pending a verified manufacturer range table or technical extraction. No dimensions, ratings or product combinations are inferred._
 
-Source currently recorded: the current manufacturer source
+Source currently recorded: https://thermotec.com.au/products/thermotec-4-zero
 
 <!-- AUTO:VARIANTS END -->

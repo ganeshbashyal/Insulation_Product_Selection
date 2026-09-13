@@ -384,31 +384,9 @@ Use for discovery and legacy-code research. Do not allow it to override a curren
 
 ## Installation and clearances
 
-Extracted from the manufacturer datasheet; the bot may share this context but must not issue project-specific installation instructions or override the human-reviewed install guide.
+_Installation, clearance and limitation evidence is pending a verified manufacturer source. Do not infer project-specific installation instructions from this family file._
 
-1. Switch off electrical power at the main breaker before working in
-wall or ceiling cavities.
-2. Choose batt width (430mm or 580mm) to match
-stud/joist centres (450mm or 600mm).
-3. Friction fit batts snugly between timber
-or steel framing members ensuring no gaps or folds.
-4. Do not compress batts into
-cavities narrower than nominal thickness.
-5. Cut batts neatly around electrical
-boxes, wiring, and plumbing using a sharp insulation knife.
-6. For internal walls
-between bedrooms, bathrooms, and media rooms, combine with acoustic plasterboard
-for best results.
-7. Complete lining over insulation promptly after installation.
-
-**Manufacturer-stated limitations**
-
-- Not
-for unshielded external exposure.
-- Avoid excessive compression that reduces
-acoustic and thermal ratings.
-- Maintain required electrical clearances around
-non-IC rated fixtures.
+Source currently recorded: https://insulation.com.au/product/soundbreak/
 
 <!-- AUTO:INSTALL END -->
 
@@ -416,23 +394,8 @@ non-IC rated fixtures.
 
 ## Documented physical and technical properties
 
-| Published property | Value | Standard |
-| --- | --- | --- |
-| R-Values & Thicknesses | R1.7 (60mm), R2.0 (70mm), R2.5 (90mm), R2.7
-(90mm), R3.1 (110mm) | AS/NZS 4859.1:2018 |
-| Standard Dimensions | 1160 mm length x 430 mm or 580 mm width
-(also 1200 x 600 mm for R2.7) |  |
-| Coverage per
-Pack | R1.7: 6.9 m² (430mm) / 9.1 m² (580mm); R2.0: 5.6 m² / 7.6 m²;
-R2.5: 4.5 m² / 6.1 m²; R2.7: 4.5 m² / 6.1 m²; R3.1: 3.4 m² / 4.5 m² |  |
-| Combustibility | Non-combustible | AS 1530.1 |
-| Early Fire Hazard Indices | Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1 | AS/NZS 1530.3 |
-| Maximum Service Temperature | 340°C |  |
-| Corrosion Resistance | Non-corrosive | AS/NZS 4859.1 |
-| Acoustic
-Performance | Tested acoustic absorption coefficients across standard
-octave bands (NRC tested) | AS ISO 354 |
+_Variation data is pending a verified manufacturer range table or technical extraction. No dimensions, ratings or product combinations are inferred._
 
-_No manufacturer range table was available in the extracted source; this records each published technical property without inferring product combinations._
+Source currently recorded: https://insulation.com.au/product/soundbreak/
 
 <!-- AUTO:VARIANTS END -->

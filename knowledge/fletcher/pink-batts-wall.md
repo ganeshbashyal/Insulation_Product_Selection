@@ -40,13 +40,9 @@ Capture timber/steel frame, stud centres, clear cavity depth, wall type, target 
 
 ## Installation and clearances
 
-Extracted from the manufacturer datasheet; the bot may share this context but must not issue project-specific installation instructions or override the human-reviewed install guide.
+_Installation, clearance and limitation evidence is pending a verified manufacturer source. Do not infer project-specific installation instructions from this family file._
 
-1. Product must be kept dry and not be exposed to weather in any condition including prior, during and after installation.
-2. Product must be correctly installed in the right stud width and depth.
-3. Product must be installed without compression to keep its claimed R-value.
-4. If used with any other products except Sisalation, confirmation of suitability must be reviewed.
-5. Follow the Installation Guidelines available from insulation.com.au.
+Source currently recorded: https://insulation.com.au/product/pink-batts-insulation/
 
 <!-- AUTO:INSTALL END -->
 
@@ -58,18 +54,9 @@ Extracted from the manufacturer datasheet; the bot may share this context but mu
 
 ## Documented physical and technical properties
 
-| Published property | Value | Standard |
-| --- | --- | --- |
-| R-value | R1.5 | m2K/W |
-| R-value | R2.0 | m2K/W |
-| R-value | R2.0 HD | m2K/W |
-| R-value | R2.5 HD | m2K/W |
-| R-value | R4.0 HD | m2K/W |
-| Maximum service temperature | 340 °C | ASTM C411/C447 |
-| Thermal resistance R-value | Complies | AS/NZS 4859.1 |
-| Moisture absorption | < 0.2% | % by volume |
+_Variation data is pending a verified manufacturer range table or technical extraction. No dimensions, ratings or product combinations are inferred._
 
-_No manufacturer range table was available in the extracted source; this records each published technical property without inferring product combinations._
+Source currently recorded: https://insulation.com.au/product/pink-batts-insulation/
 
 <!-- AUTO:VARIANTS END -->
 
