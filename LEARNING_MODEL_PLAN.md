@@ -36,7 +36,7 @@ asserts NCC/AS/BAL/fire compliance, and never promotes a family that
 - **Retrieval hygiene:** 236 research JSONs cleaned (2,500 terms dropped/salvaged), ingesters protected, ranker protected. 15 tests passing.
 - **Retrieval cards:** 283 embedding-ready cards in `data/processed/retrieval_cards.jsonl`.
 - **Gold-label template:** 240 real enquiries in `data/local/gold_labels_todo.csv` (local-only, awaiting labeller).
-- **Persona:** "The Site Sage" wired into `llm_client.py` as a tone overlay beneath policy guardrails (`AGENT_PERSONA=off` kill-switch). 8 tests passing.
+- **Persona:** "Aurora" wired into `llm_client.py` as a tone overlay beneath policy guardrails (`AGENT_PERSONA=off` kill-switch). 8 tests passing.
 - **Test suite:** Full 49 passing (fixed pytest temp dir issue; removed committed `.pytest-tmp` junk tree).
 
 **Four remaining gaps** (no work done on these yet)

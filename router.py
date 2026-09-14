@@ -91,6 +91,16 @@ class MessageRouter:
         if not message or not isinstance(message, str):
             return RouterClassification("product-fit", confidence=0.5)
 
+        # A bare 1-2 word reply (e.g. "no", "wall", "residential", a postcode)
+        # is almost always a direct answer to the structured intake question
+        # just asked, not a free-form request - it carries no context for the
+        # LLM classifier to reason about and has been observed to be
+        # misclassified (e.g. "no" -> service_refusal), derailing the flow.
+        # Rules still apply here so a genuine short trigger (e.g. "NCC?",
+        # "price?") is still caught; only the LLM guess is skipped.
+        if len(message.split()) <= 2:
+            return self._classify_rules(message)
+
         # Try LLM first
         if self.use_llm:
             try:

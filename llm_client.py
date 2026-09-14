@@ -160,7 +160,7 @@ def phrase(fallback_text: str, context: dict | None = None, is_opening: bool = F
 
     `is_opening` must be True only for the very first message of a
     conversation. The persona's self-introduction instruction ("G'day, I'm
-    The Site Sage...") only makes sense once - without this flag every
+    Aurora...") only makes sense once - without this flag every
     follow-up question was re-introducing the bot from scratch, which reads
     as robotic/scripted rather than a natural, continuous conversation.
     """
