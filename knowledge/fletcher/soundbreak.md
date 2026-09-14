@@ -384,9 +384,21 @@ Use for discovery and legacy-code research. Do not allow it to override a curren
 
 ## Installation and clearances
 
-_Installation, clearance and limitation evidence is pending a verified manufacturer source. Do not infer project-specific installation instructions from this family file._
+Extracted from the manufacturer datasheet; the bot may share this context but must not issue project-specific installation instructions or override the human-reviewed install guide.
 
-Source currently recorded: https://insulation.com.au/product/soundbreak/
+1. Product should be kept dry.
+2. Product needs to be correctly installed in the right stud width and depth.
+3. Product should be installed without compression.
+4. Product needs to be allowed to fully recover before and after use.
+
+**Manufacturer-stated limitations**
+
+- Not to be used/exposed to weather in any condition.
+- Cannot be used as a water or vapour barrier.
+- Modifications not permissible.
+- Cannot be used crushed.
+- Cannot be used with any other products except Sisalation®.
+- Product needs to be correctly installed in the right stud width and depth.
 
 <!-- AUTO:INSTALL END -->
 
@@ -394,8 +406,16 @@ Source currently recorded: https://insulation.com.au/product/soundbreak/
 
 ## Documented physical and technical properties
 
-_Variation data is pending a verified manufacturer range table or technical extraction. No dimensions, ratings or product combinations are inferred._
+| Published property | Value | Standard |
+| --- | --- | --- |
+| R-value | 1.7 | m2K/M |
+| Density | 24–32kg/m3 |  |
+| Thermal Conductivity | Complies | W/m.K |
+| Moisture Absorption | <0.2% | % by volume |
+| Fire Hazard | Non-combustible | AS 1530.1 |
+| Maximum Service Temperature | 340 °C | ASTM C411/C447 |
+| Flow Resistivity | 10480, 12860, 11140, 16001, 12760 Rayls/m | ASTM C522 |
 
-Source currently recorded: https://insulation.com.au/product/soundbreak/
+_No manufacturer range table was available in the extracted source; this records each published technical property without inferring product combinations._
 
 <!-- AUTO:VARIANTS END -->

@@ -1,10 +1,68 @@
 {
   "family_id": "THERMOTEC_ROCKWOOL_PIPE",
   "family_name": "Rockwool Pipe Insulation",
-  "datasheet_pdf_url": null,
-  "datasheet_local_path": null,
-  "status": "no_pdf_found",
-  "researched_at": "2026-09-13",
-  "spec": null,
-  "source_excerpt": null
+  "datasheet_pdf_url": "https://cdn.shopify.com/s/files/1/0676/6827/9608/files/Rockwool_Data_Sheet.pdf?v=1787926230",
+  "datasheet_local_path": "data\\tds\\thermotec\\rockwool_pipe_insulation.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-14",
+  "spec": {
+    "description": "Thermotec Rockwool is a heavy duty foil faced, pre-formed pipe lagging suitable for applications not exceeding 650°C steam lines and most industrial and commercial applications.",
+    "features": [
+      "Heavy duty",
+      "Foil faced",
+      "Pre-formed",
+      "Nominal density 115 ~ 140 kg/m3",
+      "Service temperature max. 650°C",
+      "Non-combustible",
+      "Moisture absorption M ≤0.2% by weight"
+    ],
+    "applications": [
+      "Steam lines",
+      "Industrial applications",
+      "Commercial applications"
+    ],
+    "technical": [
+      {
+        "property": "Density",
+        "value": "115 ~ 140 kg/m3",
+        "standard": ""
+      },
+      {
+        "property": "Service Temperature",
+        "value": "650°C",
+        "standard": ""
+      },
+      {
+        "property": "pH Value",
+        "value": "8 (7.5-9.0)",
+        "standard": "ASTM C 871"
+      },
+      {
+        "property": "Moisture absorption",
+        "value": "M ≤0.2% by weight",
+        "standard": "ASTC C 1104"
+      },
+      {
+        "property": "Chemical Composition",
+        "value": ">85% Mineral Rock Fibre, <15% Resin Binder, Na20+K20 16.8-18.8%, CaO 7.5-7.7%, B203 6%, Fe203 0.1-0.2%",
+        "standard": ""
+      },
+      {
+        "property": "Thermal Conductivity",
+        "value": "0.036 @ 40°C",
+        "standard": ""
+      }
+    ],
+    "fire": "Non-Combustible as per AS1530.1",
+    "sustainability": "",
+    "install": [],
+    "clearances": [],
+    "limitations": [
+      "Not exceeding 650°C steam lines",
+      "Recommended for industrial and commercial applications"
+    ],
+    "range_headers": [],
+    "range": []
+  },
+  "source_excerpt": "Product Data Sheet\nThermotec Rockwool\nPre-formed Pipe Insulation\nThermotec Rockwool is a heavy duty foil faced, pre-formed pipe lagging, has a nominal \ndensity of 115 ~ 140 kg/m3 and is recommend to be used in applications not exceeding \n650C steam lines and most industrial and commercial applications where continuous \nhigher temperatures are running.\nBase Raw Material Mineral Rock \nFibres\nVolcanic diabase rock fibres \ncompressed to shape with \naluminium foil facing\nDensity Kg/M3 Nominal 115 ~140 Kg/M3\nCell Structure Compressed mineral fibres\nColour Yellowish/grey / Silver Foil\nService Temperature Max. 650̊̊̊C\npH Value ASTM C 871 Average 8 (7.5-9.0)\nMoisture absorption ASTM C 1104 M ≤0.2% by weight\nChemical Composition Mineral Rock \nFibre\n>85%\nResin binder <15%\nNa20+K20 16.8-18.8%\nCaO 7.5-7.7%\nB203 6%\nFe203 0.1-0.2%\nThermal Conductivity 0.036 @ 40C\nFlammability Non-Combustible as per AS1530.1\nROCKWOOL\nPre-formed Rockwool High \nTemperature Pipe Insulation\nFoil Faced \ntemperature continuous at 650c\nNon-Combustible\nThermotec Australia Pty Ltd – 168 Carrington Street Revesby NSW 2212\nwww.thermotec.com.au\nPh: +61 2 9771 6400"
 }

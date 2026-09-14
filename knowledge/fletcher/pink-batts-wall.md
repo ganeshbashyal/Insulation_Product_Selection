@@ -40,9 +40,20 @@ Capture timber/steel frame, stud centres, clear cavity depth, wall type, target 
 
 ## Installation and clearances
 
-_Installation, clearance and limitation evidence is pending a verified manufacturer source. Do not infer project-specific installation instructions from this family file._
+Extracted from the manufacturer datasheet; the bot may share this context but must not issue project-specific installation instructions or override the human-reviewed install guide.
 
-Source currently recorded: https://insulation.com.au/product/pink-batts-insulation/
+1. Installed without compression to keep its claimed R-value.
+2. Installed in the right stud width and depth.
+3. Correct installation method followed as per guidelines.
+
+**Manufacturer-stated limitations**
+
+- Not to be used/exposed to weather in any condition.
+- Not suitable for high humidity applications.
+- Cannot be used as a water or vapour barrier.
+- Modifications not permissible.
+- Must fully recover before use.
+- Confirm any weight limitations of ceiling framing/lining prior to installation.
 
 <!-- AUTO:INSTALL END -->
 
@@ -54,9 +65,15 @@ Source currently recorded: https://insulation.com.au/product/pink-batts-insulati
 
 ## Documented physical and technical properties
 
-_Variation data is pending a verified manufacturer range table or technical extraction. No dimensions, ratings or product combinations are inferred._
+| Published property | Value | Standard |
+| --- | --- | --- |
+| R-value | m2K/W | AS/NZS 4859.1 |
+| Nominal thickness | mm |  |
+| Width | mm |  |
+| Length | mm |  |
+| Coverage per pack | m2 |  |
 
-Source currently recorded: https://insulation.com.au/product/pink-batts-insulation/
+_No manufacturer range table was available in the extracted source; this records each published technical property without inferring product combinations._
 
 <!-- AUTO:VARIANTS END -->
 

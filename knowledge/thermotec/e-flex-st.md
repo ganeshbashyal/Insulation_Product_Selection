@@ -42,9 +42,15 @@ E-Flex ST and E-Flex HT are different product families. ST is the general HVAC, 
 
 ## Installation and clearances
 
-_Installation, clearance and limitation evidence is pending a verified manufacturer source. Do not infer project-specific installation instructions from this family file._
+Extracted from the manufacturer datasheet; the bot may share this context but must not issue project-specific installation instructions or override the human-reviewed install guide.
 
-Source currently recorded: https://thermotec.com.au/products/thermotec-e-flex-st-hot-water-hvac-refrigeration-pipe-insulation
+1. Specify E-Flex HT for weather resistance profiles.
+2. Determine if product is fit for purpose, given conditions of intended application.
+
+**Manufacturer-stated limitations**
+
+- Not for high UV degradation environments.
+- Customer's responsibility to determine fit for purpose.
 
 <!-- AUTO:INSTALL END -->
 
@@ -81,8 +87,17 @@ Capture pipe OD, service/fluid, operating and peak temperature, ambient design, 
 
 ## Documented physical and technical properties
 
-_Variation data is pending a verified manufacturer range table or technical extraction. No dimensions, ratings or product combinations are inferred._
+| Published property | Value | Standard |
+| --- | --- | --- |
+| Density | 50kg – 55kg/m3 |  |
+| Service Temperature | -50°C to +110°C continuous |  |
+| Thermal Conductivity | 0.036 @ 23°C |  |
+| Ozone Resistance | Good |  |
+| UV Resistance | Select E-Flex HT |  |
+| Weather Resistance | Good |  |
+| Flexibility | Excellent |  |
+| Flammability | AS1530.3:1999 - BS476 parts 6&7 Class 0 |  |
 
-Source currently recorded: https://thermotec.com.au/products/thermotec-e-flex-st-hot-water-hvac-refrigeration-pipe-insulation
+_No manufacturer range table was available in the extracted source; this records each published technical property without inferring product combinations._
 
 <!-- AUTO:VARIANTS END -->

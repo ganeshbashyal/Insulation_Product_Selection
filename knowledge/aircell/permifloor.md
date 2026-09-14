@@ -275,9 +275,17 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
 
 ## Documented physical and technical properties
 
-_Variation data is pending a verified manufacturer range table or technical extraction. No dimensions, ratings or product combinations are inferred._
+| Published property | Value | Standard |
+| --- | --- | --- |
+| Material R-value | R0.11 m2/K/W | ASTM C518-2017 at 23°C |
+| Flammability Index | ≤ 5 | AS 1530.2:1993 |
+| Water Control | Pass Non-Water Barrier | AS/NZS 4201.4:1994 |
+| Moisture Shrinkage | < 0.5% | AS/NZS 4201.3:1994 |
+| Surface Water Absorbency | < 100g/m2 | AS/NZS 4201.6:1994 |
+| Corrosion Resistance | App. E Pass | AS/NZS 4859.1:2018 |
+| Electrical Conductivity | ≤ 10MΩ | AS/NZS 4200.1:2017 |
 
-Source currently recorded: https://xamyxyg7fn.filerobot.com/kingspan/kil/products/air-cell-permifloor-au-and-nz/kingspan-aircell-permifloor-product-datasheet-en-au.pdf
+_No manufacturer range table was available in the extracted source; this records each published technical property without inferring product combinations._
 
 <!-- AUTO:VARIANTS END -->
 
@@ -285,8 +293,28 @@ Source currently recorded: https://xamyxyg7fn.filerobot.com/kingspan/kil/product
 
 ## Installation and clearances
 
-_Installation, clearance and limitation evidence is pending a verified manufacturer source. Do not infer project-specific installation instructions from this family file._
+Extracted from the manufacturer datasheet; the bot may share this context but must not issue project-specific installation instructions or override the human-reviewed install guide.
 
-Source currently recorded: https://xamyxyg7fn.filerobot.com/kingspan/kil/products/air-cell-permifloor-au-and-nz/kingspan-aircell-permifloor-product-datasheet-en-au.pdf
+1. Lay Kingspan AIR-CELL Permifloor® over and running perpendicular to the bearers and fix in position.
+2. Install joists as required.
+3. Fix Kingspan AIR-CELL Permifloor® to the underside of joists by stapling or screwing.
+4. Butt join or overlap by 50 mm and tape with 48 mm reinforced foil tape.
+5. Alternatively, Kingspan AIR-CELL Permifloor ® can be installed over the joists provided it doesn’t compromise the fixing of the chosen flooring, and the insulation is allowed to sag at least 40 mm between joists.
+6. Fit Kingspan AIR-CELL neatly around any penetrations, and tape if necessary to prevent air leakage.
+7. When taping a plastic squeegee or blade must be used to apply appropriate pressure to the tape. Surfaces must be dry and free from dust, oil or grease prior to taping.
+8. Leave minimum 100 mm clearance around heat producing flues or light fittings.
+9. Kingspan AIR-CELL insulation products must be transported and stored in its protective packaging and kept clean and dry.
+10. Standing rolls on end reduces risk of damage should moisture be present in the packaging.
+11. Surfaces must be kept free of contaminants such as dust and grease, and must not be stored with foil surfaces in contact with alkaline materials i.e. wet cement, lime, etc.
+
+**Clearances and safe distances**
+
+- Minimum 100 mm clearance around heat producing flues or light fittings.
+
+**Manufacturer-stated limitations**
+
+- Can be damaged by intense heat above 105˚ C.
+- Contact with sparks and flame from blow torches, welders, cutting tools, etc. must be avoided.
+- Foil facings are conductive to electricity – avoid contact with un-insulated electrical cables and fittings.
 
 <!-- AUTO:INSTALL END -->

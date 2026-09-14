@@ -36,9 +36,20 @@ Capture climate zone, wall/cladding type, cavity, condensation design, required 
 
 ## Installation and clearances
 
-_Installation, clearance and limitation evidence is pending a verified manufacturer source. Do not infer project-specific installation instructions from this family file._
+Extracted from the manufacturer datasheet; the bot may share this context but must not issue project-specific installation instructions or override the human-reviewed install guide.
 
-Source currently recorded: https://insulation.com.au/product/sisalation-vapawrap-residential-wall-wrap/
+1. Install with printed spun-bonded side facing outwards.
+2. Protect from damage and weather during storage.
+3. Inspect and repair any damaged areas after cladding removal.
+
+**Manufacturer-stated limitations**
+
+- Must be installed in accordance with AS 4200.2.
+- Not designed for prolonged direct exposure to weather elements.
+- Must be stored in a clean, dry place.
+- Must be protected from damage and weather.
+- Building Designer to consider suitability for project design requirements.
+- All joints and penetrations must be taped with Seaming Tape as per AS 4200.2 requirements.
 
 <!-- AUTO:INSTALL END -->
 
@@ -58,8 +69,19 @@ Source currently recorded: https://insulation.com.au/product/sisalation-vapawrap
 
 ## Documented physical and technical properties
 
-_Variation data is pending a verified manufacturer range table or technical extraction. No dimensions, ratings or product combinations are inferred._
+| Published property | Value | Standard |
+| --- | --- | --- |
+| Vapour Permeability | > 1.14 µg/N.s | ASTM E96 |
+| Vapour Classification | Class 4 | AS/NZS 4200.1 |
+| Water Control | Water Barrier | AS/NZS 4201.4 |
+| Emittance Outwards face | IR Non-reflective (0.9) | AS/NZS 4201.5 |
+| Emittance Inwards face | IR Non-reflective (0.9) | AS/NZS 4201.5 |
+| Resistance to Dry Delamination | PASS | AS/NZS 4201.1 |
+| Resistance to Wet Delamination | PASS | AS/NZS 4201.2 |
+| Electrical Conductivity | Electrically non-conductive | AS/NZS 4201.6 |
+| Nominal Thickness | < 1.0 mm |  |
+| Flammability Index | <= 5 | AS/NZS 1530.2 |
 
-Source currently recorded: https://insulation.com.au/product/sisalation-vapawrap-residential-wall-wrap/
+_No manufacturer range table was available in the extracted source; this records each published technical property without inferring product combinations._
 
 <!-- AUTO:VARIANTS END -->

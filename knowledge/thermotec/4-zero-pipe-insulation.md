@@ -40,9 +40,19 @@ Internal diameters: 13, 20, 25, 32, 39, 51, 65, 76, 89 and 102 mm. Each publishe
 
 ## Installation and clearances
 
-_Installation, clearance and limitation evidence is pending a verified manufacturer source. Do not infer project-specific installation instructions from this family file._
+Extracted from the manufacturer datasheet; the bot may share this context but must not issue project-specific installation instructions or override the human-reviewed install guide.
 
-Source currently recorded: https://thermotec.com.au/products/thermotec-4-zero
+1. Installed around the pipe work surface as tightly as possible without gaps.
+2. Edges and ends tightly butted together.
+3. All joints and foil overlaps taped using a 48mm wide 4-Zero rated pressure sensitive adhesive aluminium foil tape.
+4. Preformed sections cut and mitred for a tight fit around elbows and at tees.
+5. Pipe insulation butted tightly up to spacer blocks and sealed using a silicon sealant.
+
+**Manufacturer-stated limitations**
+
+- Pipe insulation shall have a wall thickness of either 15mm, 20mm, 25mm, 30mm, 38mm or 50mm.
+- Pipe insulation shall be Australian made Thermotec 4-Zero, fire retardant closed cell polyethylene foam, having a density of not less than 40kg/m3.
+- Pipe insulation shall comply with the requirements of the National Construction Code of Australia in accordance with AS/NZS4859.1, AS3500.4 and tested to AS/NZS1530.3.
 
 <!-- AUTO:INSTALL END -->
 
@@ -79,8 +89,27 @@ Capture pipe outside diameter, fluid, normal/maximum temperature, ambient humidi
 
 ## Documented physical and technical properties
 
-_Variation data is pending a verified manufacturer range table or technical extraction. No dimensions, ratings or product combinations are inferred._
+| Published property | Value | Standard |
+| --- | --- | --- |
+| Density | 40-50 Kg/M3 |  |
+| Operating Temperature Range | -40°C to 90°C |  |
+| Water Vapour Diffusion | >3.5% | DIN52615 H |
+| Water Absorption | <2% | DIN53434 |
+| UV Resistance | 10 year with E-cladding foil face |  |
+| Weatherability | Good |  |
+| Thermal Conductivity | 0.032 W/m.K @ 23°C | ISO 8302-1991 |
+| Acoustic Reduction | 4dB Insertion Loss – 100mm diameter pipe | Wilkinson Murray |
+| Chemical Resistance | Excellent - resists most common acids/chemicals, including oils | ASTM 543.56T |
+| Ozone Resistance | Excellent | ASTM 1171 |
+| Fire Performance | AS/NZS1530.3 - AWTA Australia | AS/NZS1530.3 |
+| Ignitability | 0 | AS/NZS1530.3 |
+| Spread of Flame | 0 | AS/NZS1530.3 |
+| Head Evolved | 0 | AS/NZS1530.3 |
+| Smoke Developed | 0/1 | AS/NZS1530.3 |
+| Toxicity in Fire | no toxic fumes | BS6853 |
+| Rodent/Pest Resistant | Contains no food source |  |
+| Thermal Conductivity | 0.032 W/m.K @ 23°C | ISO 8302-1991 |
 
-Source currently recorded: https://thermotec.com.au/products/thermotec-4-zero
+_No manufacturer range table was available in the extracted source; this records each published technical property without inferring product combinations._
 
 <!-- AUTO:VARIANTS END -->

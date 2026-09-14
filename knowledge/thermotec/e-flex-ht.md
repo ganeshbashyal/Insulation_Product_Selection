@@ -38,7 +38,7 @@ The manufacturer publishes a continuous operating temperature of 150°C and a ma
 
 _Installation, clearance and limitation evidence is pending a verified manufacturer source. Do not infer project-specific installation instructions from this family file._
 
-Source currently recorded: https://thermotec.com.au/products/thermotec-e-flex-ht-solar-pipe-insulation
+Source currently recorded: https://cdn.shopify.com/s/files/1/0676/6827/9608/files/E_flex_HT_Data_Sheet_V7.pdf?v=1787977723
 
 <!-- AUTO:INSTALL END -->
 
@@ -75,8 +75,20 @@ Capture pipe OD, fluid, continuous/peak/stagnation temperature, location, UV/wea
 
 ## Documented physical and technical properties
 
-_Variation data is pending a verified manufacturer range table or technical extraction. No dimensions, ratings or product combinations are inferred._
+| Published property | Value | Standard |
+| --- | --- | --- |
+| Density | 60kg/m3 | nominal |
+| Service Temperature | -57°C to +150°C continuous (180C intermittent) | ASTM D 537:2004 |
+| Thermal Conductivity | 0.036 @ 24°C |  |
+| UV Resistance | ISO 4892-2:2006 (No cracks present) |  |
+| Weather Resistance | Excellent |  |
+| Flexibility | Excellent |  |
+| Flammability | AS1530.3:1999 - BS476 parts 6&7 Class 0 |  |
+| Ignitability | 0 (range 0-20) |  |
+| Spread of flame | 0 (range 0-10) |  |
+| Heat evolved | 0 (range 0-10) |  |
+| Smoke developed | 5 (range 0-10) |  |
 
-Source currently recorded: https://thermotec.com.au/products/thermotec-e-flex-ht-solar-pipe-insulation
+_No manufacturer range table was available in the extracted source; this records each published technical property without inferring product combinations._
 
 <!-- AUTO:VARIANTS END -->

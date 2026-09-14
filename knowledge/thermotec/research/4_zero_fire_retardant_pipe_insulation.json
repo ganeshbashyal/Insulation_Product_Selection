@@ -1,10 +1,142 @@
 {
   "family_id": "THERMOTEC_4_ZERO",
   "family_name": "4-Zero Fire Retardant Pipe Insulation",
-  "datasheet_pdf_url": null,
-  "datasheet_local_path": null,
-  "status": "no_pdf_found",
-  "researched_at": "2026-09-13",
-  "spec": null,
-  "source_excerpt": null
+  "datasheet_pdf_url": "https://cdn.shopify.com/s/files/1/0676/6827/9608/files/2022_Thermotec_4pp_A4_4Zero_-_Thermal_Pipe_Insulation_Brochure.pdf?v=1787931968",
+  "datasheet_local_path": "data\\tds\\thermotec\\4_zero_fire_retardant_pipe_insulation.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-14",
+  "spec": {
+    "description": "Thermotec 4-Zero is an Australian-made, fire retardant closed-cell polyethylene foam pipe insulation with excellent thermal resistance and energy efficiency, suitable for various applications including hospitals, commercial buildings, and luxury accommodations.",
+    "features": [
+      "Heat laminated, factory fitted, reinforced aluminium foil face",
+      "Higher density foam for longevity and durability",
+      "Suitable for underground applications",
+      "Low installed cost – Maximum energy savings",
+      "Resistant to moisture with high vapour resistance - anti-microbial",
+      "Resistant to hydrocarbons and most chemicals",
+      "Non-toxic fume performance - BS6853",
+      "Pre-slit for fast installation",
+      "Green Star compliant – low VOC and zero ozone depleting substances"
+    ],
+    "applications": [
+      "Hospitals & Aged Care Facilities",
+      "Hotel & Entertainment",
+      "Commercial Buildings—Offices etc.",
+      "Public Service Facilities & Buildings",
+      "Shopping Centre Complexes",
+      "Multi Level Unit Housing",
+      "Luxury Accommodation Buildings"
+    ],
+    "technical": [
+      {
+        "property": "Density",
+        "value": "40-50 Kg/M3",
+        "standard": ""
+      },
+      {
+        "property": "Operating Temperature Range",
+        "value": "-40°C to 90°C",
+        "standard": ""
+      },
+      {
+        "property": "Water Vapour Diffusion",
+        "value": ">3.5%",
+        "standard": "DIN52615 H"
+      },
+      {
+        "property": "Water Absorption",
+        "value": "<2%",
+        "standard": "DIN53434"
+      },
+      {
+        "property": "UV Resistance",
+        "value": "10 year with E-cladding foil face",
+        "standard": ""
+      },
+      {
+        "property": "Weatherability",
+        "value": "Good",
+        "standard": ""
+      },
+      {
+        "property": "Thermal Conductivity",
+        "value": "0.032 W/m.K @ 23°C",
+        "standard": "ISO 8302-1991"
+      },
+      {
+        "property": "Acoustic Reduction",
+        "value": "4dB Insertion Loss – 100mm diameter pipe",
+        "standard": "Wilkinson Murray"
+      },
+      {
+        "property": "Chemical Resistance",
+        "value": "Excellent - resists most common acids/chemicals, including oils",
+        "standard": "ASTM 543.56T"
+      },
+      {
+        "property": "Ozone Resistance",
+        "value": "Excellent",
+        "standard": "ASTM 1171"
+      },
+      {
+        "property": "Fire Performance",
+        "value": "AS/NZS1530.3 - AWTA Australia",
+        "standard": "AS/NZS1530.3"
+      },
+      {
+        "property": "Ignitability",
+        "value": "0",
+        "standard": "AS/NZS1530.3"
+      },
+      {
+        "property": "Spread of Flame",
+        "value": "0",
+        "standard": "AS/NZS1530.3"
+      },
+      {
+        "property": "Head Evolved",
+        "value": "0",
+        "standard": "AS/NZS1530.3"
+      },
+      {
+        "property": "Smoke Developed",
+        "value": "0/1",
+        "standard": "AS/NZS1530.3"
+      },
+      {
+        "property": "Toxicity in Fire",
+        "value": "no toxic fumes",
+        "standard": "BS6853"
+      },
+      {
+        "property": "Rodent/Pest Resistant",
+        "value": "Contains no food source",
+        "standard": ""
+      },
+      {
+        "property": "Thermal Conductivity",
+        "value": "0.032 W/m.K @ 23°C",
+        "standard": "ISO 8302-1991"
+      }
+    ],
+    "fire": "AS/NZS1530.3 - AWTA Australia",
+    "sustainability": "Low V.O.C. Green Building Council & GreenStar compliant, ODP-EMI9, Zero contribution to 'Global Warming Potential', Reuse-Reduce-Recycle",
+    "install": [
+      "Installed around the pipe work surface as tightly as possible without gaps",
+      "Edges and ends tightly butted together",
+      "All joints and foil overlaps taped using a 48mm wide 4-Zero rated pressure sensitive adhesive aluminium foil tape",
+      "Preformed sections cut and mitred for a tight fit around elbows and at tees",
+      "Pipe insulation butted tightly up to spacer blocks and sealed using a silicon sealant"
+    ],
+    "clearances": [],
+    "limitations": [
+      "Pipe insulation shall have a wall thickness of either 15mm, 20mm, 25mm, 30mm, 38mm or 50mm",
+      "Pipe insulation shall be Australian made Thermotec 4-Zero, fire retardant closed cell polyethylene foam, having a density of not less than 40kg/m3",
+      "Pipe insulation shall comply with the requirements of the National Construction Code of Australia in accordance with AS/NZS4859.1, AS3500.4 and tested to AS/NZS1530.3"
+    ],
+    "range_headers": [],
+    "range": [],
+    "range_extraction_status": "inconsistent_columns_dropped"
+  },
+  "source_excerpt": "australia pty ltd.\n4-Zero\nTHERMAL PIPE INSULATION\nHot & cold pipe \ninsulation\nEnergy  \nefficient\nNon Toxic\nLow  \nV.O.C.\nGreen Star \nCompliant\n4-Zero THERMAL PIPE INSULATION\nApplications\n❱\t Hospitals & Aged Care Facilities\n❱\t Hotel & Entertainment\n❱\t \tCommercial Buildings—Offices \netc.\n❱\t \tPublic Service Facilities & \nBuildings\n❱\t Shopping Centre Complexes\n❱\t Multi Level Unit Housing\n❱\t \tLuxury Accommodation \nBuildings\nThermotec 4-Zero \npipe insulation project \napplications\nThermotec 4-Zero pipe insulation \nhas been developed to meet the \ndemanding standards of commercial \nhot and cold water reticulating \nsystems. With excellent thermal \ninsulation performance, Thermotec \n4-Zero provides the energy retention \nproperties required by current building \nspecifications.\nThis pipe insulation contains up to 50% \nrecycled materials, is environmentally \nsafe, and meets the stringent low \nV.O.C. GreenStar and Green Building \nrequirements.\nThermotec products, such as 4-Zero pipe insulation, are trusted \nto exceed performance expectations, and are designed to meet \nor exceed the Building Codes of the Countries, States, Provinces \nor industry categories where they are specified and installed.\n\n4-Zero THERMAL PIPE INSULATION\n“quality is not \nexpensive, \nit’s priceless”\nProduct Information\n❱\t Closed cell pre-formed thermal pipe insulation\n❱\t \tHeat laminated, factory fitted, reinforced \naluminium foil face\n❱\t Higher density foam for longevity and durability\n❱\t Suitable for underground applications\n❱\t Low installed cost – Maximum energy savings\n❱\t \tResistant to moisture with high vapour resistance - \nanti-microbial\n❱\t Resistant to hydrocarbons and most chemicals\n❱\t Non-toxic fume performance - BS6853\n❱\t Pre-slit for fast installation\n❱\t \tGreen Star compliant – low VOC and zero ozone \ndepleting substances\n❱\t Manufactured using up to 50% recycled material\n❱\t \tThe original and only genuine “4-Zero” Australian \nmade pipe insulation\nTechnical Data \nPhysical State Closed cell foam / foil f"
 }

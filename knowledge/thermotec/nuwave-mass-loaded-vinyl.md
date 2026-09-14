@@ -260,7 +260,7 @@ Claims appearing only in this older literature remain pending until matched to a
 
 _Variation data is pending a verified manufacturer range table or technical extraction. No dimensions, ratings or product combinations are inferred._
 
-Source currently recorded: https://thermotec.com.au/products/nuwave_mlv_acoustic_barriers_2
+Source currently recorded: the current manufacturer source
 
 <!-- AUTO:VARIANTS END -->
 
@@ -270,6 +270,6 @@ Source currently recorded: https://thermotec.com.au/products/nuwave_mlv_acoustic
 
 _Installation, clearance and limitation evidence is pending a verified manufacturer source. Do not infer project-specific installation instructions from this family file._
 
-Source currently recorded: https://thermotec.com.au/products/nuwave_mlv_acoustic_barriers_2
+Source currently recorded: the current manufacturer source
 
 <!-- AUTO:INSTALL END -->

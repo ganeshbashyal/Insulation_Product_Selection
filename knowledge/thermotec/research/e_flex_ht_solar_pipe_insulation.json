@@ -1,10 +1,95 @@
 {
   "family_id": "THERMOTEC_E_FLEX_HT",
   "family_name": "E-Flex HT Solar Pipe Insulation",
-  "datasheet_pdf_url": null,
-  "datasheet_local_path": null,
-  "status": "no_pdf_found",
-  "researched_at": "2026-09-13",
-  "spec": null,
-  "source_excerpt": null
+  "datasheet_pdf_url": "https://cdn.shopify.com/s/files/1/0676/6827/9608/files/E_flex_HT_Data_Sheet_V7.pdf?v=1787977723",
+  "datasheet_local_path": "data\\tds\\thermotec\\e_flex_ht_solar_pipe_insulation.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-14",
+  "spec": {
+    "description": "E-Flex HT PIPE INSULATION is a flexible closed-cell EPDM elastomeric foam material suitable for Solar Systems and use on hot and chilled water lines with outstanding ultraviolet and weather resistance.",
+    "features": [
+      "Flexible",
+      "Closed-cell EPDM foam",
+      "Excellent UV resistance",
+      "Excellent weather resistance",
+      "Highly flexible",
+      "Homogeneous cell structure",
+      "No external UV protection required"
+    ],
+    "applications": [
+      "Solar Systems",
+      "Hot water lines",
+      "Chilled water lines",
+      "General plumbing",
+      "Solar Hot Water",
+      "Refrigeration",
+      "Air Conditioning",
+      "LP Steam & Condensate lines"
+    ],
+    "technical": [
+      {
+        "property": "Density",
+        "value": "60kg/m3",
+        "standard": "nominal"
+      },
+      {
+        "property": "Service Temperature",
+        "value": "-57°C to +150°C continuous (180C intermittent)",
+        "standard": "ASTM D 537:2004"
+      },
+      {
+        "property": "Thermal Conductivity",
+        "value": "0.036 @ 24°C",
+        "standard": ""
+      },
+      {
+        "property": "UV Resistance",
+        "value": "ISO 4892-2:2006 (No cracks present)",
+        "standard": ""
+      },
+      {
+        "property": "Weather Resistance",
+        "value": "Excellent",
+        "standard": ""
+      },
+      {
+        "property": "Flexibility",
+        "value": "Excellent",
+        "standard": ""
+      },
+      {
+        "property": "Flammability",
+        "value": "AS1530.3:1999 - BS476 parts 6&7 Class 0",
+        "standard": ""
+      },
+      {
+        "property": "Ignitability",
+        "value": "0 (range 0-20)",
+        "standard": ""
+      },
+      {
+        "property": "Spread of flame",
+        "value": "0 (range 0-10)",
+        "standard": ""
+      },
+      {
+        "property": "Heat evolved",
+        "value": "0 (range 0-10)",
+        "standard": ""
+      },
+      {
+        "property": "Smoke developed",
+        "value": "5 (range 0-10)",
+        "standard": ""
+      }
+    ],
+    "fire": "AS1530.3:1999 - BS476 parts 6&7 Class 0",
+    "sustainability": "",
+    "install": [],
+    "clearances": [],
+    "limitations": [],
+    "range_headers": [],
+    "range": []
+  },
+  "source_excerpt": "Data Sheet\nE-Flex HT PIPE INSULATIONE-flex HT\nMaterial Details\nProduct Performance\nTest Performance\nwww.thermotec.com.authermotec.com.au customerservice@thermotec.com.au1300 727 083168 Carrington Street Revesby NSW 2212\nA ﬂexible closed-cell EPDM elastomeric foam material suitable for Solar Systems \nand use on hot and chilled water lines with outstanding ultraviolet and weather \nresistance. This product is highly ﬂexible and provides a neat appearance when \nﬁtted to exposed water lines. A homogeneous cell structure means that no \nexternal UV protection is required.\nMaterial: EPDM closed cell foam\nDensity: 60kg/m3 nominal\nService Temperature: ASTM D 537:2004 -57°C to +150°C continuous (180C intermittent) \nThermal Conductivity W/mK 0.036 @ 24°C\nUV Resistance ISO 4892-2:2006 (No cracks present)\nWeather Resistance Excellent\nFlexibility Excellent\nFlammability AS1530.3:1999 - BS476 parts 6&7 Class 0 \n•Hot & cold water lines – general plumbing \n•Solar Hot Water – all application interior & exterior \n•Refrigeration \n•Air Conditioning \n•LP Steam & Condensate lines – up to 160°C \n•Exceeds BCA R-value requirements at appropriate WT \n•Emi-4: Insulant ODP (zero ozone depleting substances)\nISO 5660.1-2002 Group 2\nAS1530.3:1999 \nIgnitability 0 (range 0-20)\nSpread of flame 0 (range 0-10)\nHeat evolved 0 (range 0-10)\nSmoke developed 5 (range 0-10)\nE-flex HT is expected to have a service life in excess of 10 years against UV degradation. It is the customer's responsibility to determine if this product is fit for \npurpose, given the conditions of the intended application.\nSpecification Guidelines\nWhere solar system or other piping is exposed to the weather, Thermotec E-Flex HT weather-\nresistant insulation shall be applied. The product must be of a wall thickness that meets or exceeds \nBCA/NCC requirements and AS/NZS 2712:2007.\n"
 }

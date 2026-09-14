@@ -1,31 +1,10 @@
 {
   "family_id": "AIRCELL_INSULINER",
-  "family_name": "Aircell Insuliner",
-  "datasheet_pdf_url": "",
-  "status": "no_pdf_found",
-  "researched_at": "2026-09-07",
-  "spec": {
-    "description": "",
-    "features": [],
-    "applications": [],
-    "technical": [],
-    "range_headers": [],
-    "range": [],
-    "fire": "",
-    "sustainability": "",
-    "install": [],
-    "clearances": [],
-    "limitations": [],
-    "selection_checklist": [],
-    "compliance": "",
-    "warranty": "",
-    "accessories": [],
-    "accessories_upsell": []
-  },
-  "source_excerpt": null,
-  "schema_version": "1.0",
-  "sds_url": "",
-  "engine": "local",
-  "retrieval": {},
-  "range_source": ""
+  "family_name": "Insuliner",
+  "datasheet_pdf_url": "https://store.filerobot.com/xamyxyg7fn/kingspan/kil/products/air-cell-insuliner-au-and-nz/kingspan-aircell-insuliner-product-datasheet-en-au.pdf?vh=e9b0dd",
+  "datasheet_local_path": "data\\tds\\aircell\\aircell_insuliner.pdf",
+  "status": "extract_failed",
+  "researched_at": "2026-09-14",
+  "spec": null,
+  "source_excerpt": null
 }

@@ -1,31 +1,85 @@
 {
   "family_id": "AIRCELL_INSULSHED",
-  "family_name": "Aircell Insulshed",
-  "datasheet_pdf_url": "",
-  "status": "no_pdf_found",
-  "researched_at": "2026-09-07",
+  "family_name": "Insulshed",
+  "datasheet_pdf_url": "https://store.filerobot.com/xamyxyg7fn/kingspan/kil/products/air-cell-insulshed-50-au-and-nz/kingspan-aircell-insulshed-product-datasheet-en-au.pdf?vh=8f076c",
+  "datasheet_local_path": "data\\tds\\aircell\\aircell_insulshed.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-14",
   "spec": {
-    "description": "",
-    "features": [],
-    "applications": [],
-    "technical": [],
+    "description": "Insulshed® 50 is a fibre-free, non-allergenic, non-irritant insulation and vapour barrier designed for sheds, providing comfort and temperature regulation.",
+    "features": [
+      "Fibre-free",
+      "Non-allergenic",
+      "Non-irritant",
+      "Quick and easy to install",
+      "Strong and durable",
+      "Water-resistant",
+      "Anti-bacterial and anti-fungal",
+      "Rodent and insect resistant",
+      "Fire retardant"
+    ],
+    "applications": [
+      "Shed"
+    ],
+    "technical": [
+      {
+        "property": "R-value",
+        "value": "Not specified",
+        "standard": ""
+      },
+      {
+        "property": "Density",
+        "value": "Not specified",
+        "standard": ""
+      },
+      {
+        "property": "Thermal Conductivity",
+        "value": "Not specified",
+        "standard": ""
+      },
+      {
+        "property": "Fire Index",
+        "value": "AS 1530.2:1993 ≤5 Low",
+        "standard": "AS 1530.2:1993"
+      },
+      {
+        "property": "Temperature Range",
+        "value": "Not specified",
+        "standard": ""
+      },
+      {
+        "property": "Vapour Resistance",
+        "value": "Not specified",
+        "standard": ""
+      },
+      {
+        "property": "pH",
+        "value": "Not specified",
+        "standard": ""
+      }
+    ],
+    "fire": "AS 1530.2:1993 ≤5 Low",
+    "sustainability": "",
+    "install": [
+      "Fit neatly around doors, windows, and penetrations",
+      "Tape with a plastic squeegee or blade",
+      "Leave minimum 100 mm clearance around heat producing flues or light fittings",
+      "Install in conformance with AS 3999:2015 and AS/NZS 4200.2:2017",
+      "Avoid intense heat above 105˚ C and contact with sparks and flame",
+      "Ensure 100 mm clearance from hot flues and light fittings",
+      "Avoid contact with un-insulated electrical cables and fittings"
+    ],
+    "clearances": [
+      "Minimum 100 mm clearance around heat producing flues or light fittings"
+    ],
+    "limitations": [
+      "Should only be used in Class 10a buildings",
+      "Can be damaged by intense heat above 105˚ C",
+      "Avoid contact with un-insulated electrical cables and fittings"
+    ],
     "range_headers": [],
     "range": [],
-    "fire": "",
-    "sustainability": "",
-    "install": [],
-    "clearances": [],
-    "limitations": [],
-    "selection_checklist": [],
-    "compliance": "",
-    "warranty": "",
-    "accessories": [],
-    "accessories_upsell": []
+    "range_extraction_status": "inconsistent_columns_dropped"
   },
-  "source_excerpt": null,
-  "schema_version": "1.0",
-  "sds_url": "",
-  "engine": "local",
-  "retrieval": {},
-  "range_source": ""
+  "source_excerpt": "Insulation\nFibre-free Comfort in your Shed\n Insulshed\n® \n50\n  2-in-1 Insulation and \nvapour barrier\n  Fibre-free, nonallergenic, \nnon-irritant\n  Quick and easy to install\n  Strong, tough, durable\n  Water-resistant and \nunaffected by moisture\n  Anti-bacterial and anti-\nfungal\n  Rodent and insect \nresistant\n  Fire retardant\n  Made in Australia\n2\nProduct Details\nTypical Design Details\nMetal Roofing \n5° Pitch\n150mm C-Section\n150mm C-Section Top-hat\nReflective\nAir Space\nKingspan AIR-CELL\nInsulshed® 50\nEaves Gutter\nFigure 1.  Side elevation of Kingspan AIR-CELL Insulshed ® 50 in a \nmetal roof shed.\nFigure 2.  Physically cross-linked Kingspan AIR-CELL Insulshed ® 50.\nProduct Description\nFigure 3.  Kingspan AIR-CELL Insulshed ® 50.\nAustralian-made Kingspan AIR-CELL Insulshed ® 50 is \nyour solution for comfort in your shed, achieving indoor \ntemperatures that are significantly cooler in summer and \nwarmer in winter.\nKingspan AIR-CELL Insulshed® is manufactured with \na patented closed-cell foam structure sandwiched by \nreflective foil surfaces, and is the fibre-free, non-allergenic \nalternative to conventional bulk insulation.\nKingspan AIR-CELL Insulshed® 50 has been designed \nspecifically for shed applications only. Kingspan AIR-CELL \nInsulshed® 50 should only be used in Class 10a buildings.\nProduct Data\nAIR-CELL Insulshed® 50 30m2 45m2\nProduct Thickness (nom.) 5 mm 5 mm\nRoll Diameter (nom.) 390 mm 470 mm\nRoll Weight (nom.) 6.9 kg 10.4 kg\nRoll Sizes 1350 mm x \n22.25 m\n1350 mm x \n33.33 m\nReflectance\n   Anti-Glare Face 95% 95%\n   Reflective Face 97% 97%\nEmittance\n   Anti-Glare Face E0.05 E0.05\n   Reflective Face E0.03 E0.03\n3\nOther Information\nManagement Standards\nStandard Management System\nISO 9001:2015 Quality Management\nISO 14001:2015 Environmental Management\nISO 45001:2018 Occupational Health & Safety \nManagement\nISO 50001:2018 Energy Management\nEnvironmental Data\nAspect Characteristic\nRe-usability Re-usable if removed with care  \n(long term of service expected)\nW"
 }

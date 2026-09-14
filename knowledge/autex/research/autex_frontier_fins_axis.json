@@ -1,9 +1,10 @@
 {
   "family_id": "AUTEX_FRONTIER_FINS_AXIS",
-  "family_name": "Autex Frontier Fins - Axis",
-  "datasheet_pdf_url": null,
-  "status": "no_pdf_found",
-  "researched_at": "2026-09-08",
+  "family_name": "Frontier Fins - Axis",
+  "datasheet_pdf_url": "https://cdn.mediavalet.com/aunsw/autex/UNYkeC1vs0-3sVb7RBrkwA/nTw1WKETV0yM9O2P0hGBtQ/Original/Frontier%20Fins%20Data%20Sheet.pdf",
+  "datasheet_local_path": "data\\tds\\autex\\autex_frontier_fins_axis.pdf",
+  "status": "extract_failed",
+  "researched_at": "2026-09-14",
   "spec": null,
   "source_excerpt": null
 }

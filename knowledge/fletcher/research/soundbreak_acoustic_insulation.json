@@ -1,10 +1,85 @@
 {
   "family_id": "FLETCHER_SOUNDBREAK",
   "family_name": "Soundbreak Acoustic Insulation",
-  "datasheet_pdf_url": "https://insulation.com.au/wp-content/uploads/2023/TDS-Pink-Soundbreak-Rev6-150124.pdf",
+  "datasheet_pdf_url": "https://insulation.com.au/wp-content/uploads/2024/10/TDS-Soundbreak-Rev7-091024.pdf",
   "datasheet_local_path": "data\\tds\\fletcher\\soundbreak_acoustic_insulation.pdf",
-  "status": "extract_failed",
-  "researched_at": "2026-09-13",
-  "spec": null,
-  "source_excerpt": null
+  "status": "ok",
+  "researched_at": "2026-09-14",
+  "spec": {
+    "description": "Soundbreak™ batts are high-density, flexible, resilient glasswool insulation designed for exceptional acoustic and thermal performance in residential ceilings, walls, and midfloors.",
+    "features": [
+      "Available in various sizes for standard timber and steel stud/joist spacings",
+      "Green dye added for easier identification during installation",
+      "High nominal density of 24–32kg/m3",
+      "Low itch",
+      "Easy to cut and friction fit",
+      "Firm and easy to install",
+      "Codemark certified for energy efficiency"
+    ],
+    "applications": [
+      "Residential ceilings",
+      "Walls",
+      "Midfloors",
+      "Internal walls between theatre rooms, bathrooms, laundries, and kitchens",
+      "External walls with limited cavity spaces"
+    ],
+    "technical": [
+      {
+        "property": "R-value",
+        "value": "1.7",
+        "standard": "m2K/M"
+      },
+      {
+        "property": "Density",
+        "value": "24–32kg/m3",
+        "standard": ""
+      },
+      {
+        "property": "Thermal Conductivity",
+        "value": "Complies",
+        "standard": "W/m.K"
+      },
+      {
+        "property": "Moisture Absorption",
+        "value": "<0.2%",
+        "standard": "% by volume"
+      },
+      {
+        "property": "Fire Hazard",
+        "value": "Non-combustible",
+        "standard": "AS 1530.1"
+      },
+      {
+        "property": "Maximum Service Temperature",
+        "value": "340 °C",
+        "standard": "ASTM C411/C447"
+      },
+      {
+        "property": "Flow Resistivity",
+        "value": "10480, 12860, 11140, 16001, 12760 Rayls/m",
+        "standard": "ASTM C522"
+      }
+    ],
+    "fire": "Non-combustible",
+    "sustainability": "Up to 80% recycled content",
+    "install": [
+      "Product should be kept dry",
+      "Product needs to be correctly installed in the right stud width and depth",
+      "Product should be installed without compression",
+      "Product needs to be allowed to fully recover before and after use"
+    ],
+    "clearances": [],
+    "limitations": [
+      "Not to be used/exposed to weather in any condition",
+      "Cannot be used as a water or vapour barrier",
+      "Modifications not permissible",
+      "Cannot be used crushed",
+      "Cannot be used with any other products except Sisalation®",
+      "Product needs to be correctly installed in the right stud width and depth"
+    ],
+    "range_headers": [],
+    "range": [],
+    "range_extraction_status": "inconsistent_columns_dropped"
+  },
+  "source_excerpt": "For more information: phone 1300 654 444 email info@insulation.com.au visit insulation.com.au\nTechnical data sheet\nSoundbreak™\nHigh performance non-combustible acoustic glasswool insulation\nDescription\nSoundbreak™ batts are made from high density, flexible and resilient glasswool, which is specifically designed to provide \nexceptional acoustic insulation performance of residential ceilings, walls and midfloors. Soundbreak™ batts are available \nin various sizes to fit standard timber and steel stud/joist spacings, with green dye added for easier identification when \ninstalled.\nApplication\nSoundbreak™ batts with its high nominal density of 24–32kg/m3 makes it ideal for reducing sound transfer through walls \n(both internal and external). Internal walls between theatre rooms, bathrooms, laundries and kitchens are just some of \nthe areas where internal wall insulation could be beneficial. The high density also aids in achieving higher thermal \nR-values for external walls with limited cavity spaces. The Soundbreak™ batts insulation range is available in various \nthermal R-values and dimensions ensuring there is an effective and efficient product solution for all residential \napplications.\nSoundbreak™ batts, renowned for their firmness, are low itch, easy to cut and friction fit standard studs/joists to make \nhomes feel cooler in summer, warmer in winter and acoustically quiet all year round.\nProduct limitations of use\n\u001f\tNot to be used/exposed to weather in any condition including prior, during and after installation \n\u001f\tCheck the plasterboard ceiling maufacturers guide for any weight limitations on ceilings\n\u001f\tThis product cannot be used as a water or vapour barrier\n\u001f\tModifications not permissible, as suitability and/or compliance may be compromised\n\u001f\tProduct needs to be allowed to fully recover before and after use (cannot be used crushed)\nFeatures and benefits\nHigher density glasswool batts Helps to reduce sound transfer through external and internal walls to \nimprove aco"
 }

@@ -36,9 +36,10 @@ Thermotec publishes a nominal density range of 115–140 kg/m³ and a maximum co
 
 ## Installation and clearances
 
-_Installation, clearance and limitation evidence is pending a verified manufacturer source. Do not infer project-specific installation instructions from this family file._
+**Manufacturer-stated limitations**
 
-Source currently recorded: https://thermotec.com.au/products/thermotec-rockwool-pipe-insulation
+- Not exceeding 650°C steam lines.
+- Recommended for industrial and commercial applications.
 
 <!-- AUTO:INSTALL END -->
 
@@ -75,8 +76,15 @@ Capture pipe OD, service, operating/maximum temperature, insulation thickness, l
 
 ## Documented physical and technical properties
 
-_Variation data is pending a verified manufacturer range table or technical extraction. No dimensions, ratings or product combinations are inferred._
+| Published property | Value | Standard |
+| --- | --- | --- |
+| Density | 115 ~ 140 kg/m3 |  |
+| Service Temperature | 650°C |  |
+| pH Value | 8 (7.5-9.0) | ASTM C 871 |
+| Moisture absorption | M ≤0.2% by weight | ASTC C 1104 |
+| Chemical Composition | >85% Mineral Rock Fibre, <15% Resin Binder, Na20+K20 16.8-18.8%, CaO 7.5-7.7%, B203 6%, Fe203 0.1-0.2% |  |
+| Thermal Conductivity | 0.036 @ 40°C |  |
 
-Source currently recorded: https://thermotec.com.au/products/thermotec-rockwool-pipe-insulation
+_No manufacturer range table was available in the extracted source; this records each published technical property without inferring product combinations._
 
 <!-- AUTO:VARIANTS END -->

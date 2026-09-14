@@ -1,10 +1,85 @@
 {
   "family_id": "THERMOTEC_E_FLEX_ST",
   "family_name": "E-Flex ST Pipe Insulation",
-  "datasheet_pdf_url": null,
-  "datasheet_local_path": null,
-  "status": "no_pdf_found",
-  "researched_at": "2026-09-13",
-  "spec": null,
-  "source_excerpt": null
+  "datasheet_pdf_url": "https://cdn.shopify.com/s/files/1/0676/6827/9608/files/E_flex_ST_Data_Sheet_V8.pdf?v=1787977722",
+  "datasheet_local_path": "data\\tds\\thermotec\\e_flex_st_pipe_insulation.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-14",
+  "spec": {
+    "description": "E-Flex ST PIPE INSULATION is a flexible, cost-effective, elastomeric foam material suitable for hot and chilled water lines with limited UV and good weather resistance.",
+    "features": [
+      "Nitrile composite, closed cell foam",
+      "Density: 50kg – 55kg/m3 nominal",
+      "Service Temperature: -50°C to +110°C continuous",
+      "Thermal Conductivity W/mK 0.036 @ 23°C",
+      "Ozone Resistance Good",
+      "UV Resistance Select E-Flex HT",
+      "Weather Resistance Good",
+      "Flexibility: Excellent",
+      "Flammability: AS1530.3:1999 - BS476 parts 6&7 Class 0"
+    ],
+    "applications": [
+      "hot and chilled water lines",
+      "general plumbing",
+      "HVAC/Refrigeration",
+      "Air Conditioning",
+      "Project specification"
+    ],
+    "technical": [
+      {
+        "property": "Density",
+        "value": "50kg – 55kg/m3",
+        "standard": ""
+      },
+      {
+        "property": "Service Temperature",
+        "value": "-50°C to +110°C continuous",
+        "standard": ""
+      },
+      {
+        "property": "Thermal Conductivity",
+        "value": "0.036 @ 23°C",
+        "standard": ""
+      },
+      {
+        "property": "Ozone Resistance",
+        "value": "Good",
+        "standard": ""
+      },
+      {
+        "property": "UV Resistance",
+        "value": "Select E-Flex HT",
+        "standard": ""
+      },
+      {
+        "property": "Weather Resistance",
+        "value": "Good",
+        "standard": ""
+      },
+      {
+        "property": "Flexibility",
+        "value": "Excellent",
+        "standard": ""
+      },
+      {
+        "property": "Flammability",
+        "value": "AS1530.3:1999 - BS476 parts 6&7 Class 0",
+        "standard": ""
+      }
+    ],
+    "fire": "AS1530.3:1999 - BS476 parts 6&7 Class 0",
+    "sustainability": "Low VOC – Exceeds Green Building Council requirements",
+    "install": [
+      "Specify E-Flex HT for weather resistance profiles",
+      "Determine if product is fit for purpose, given conditions of intended application"
+    ],
+    "clearances": [],
+    "limitations": [
+      "Not for high UV degradation environments",
+      "Customer's responsibility to determine fit for purpose"
+    ],
+    "range_headers": [],
+    "range": []
+  },
+  "source_excerpt": "Data Sheet\nE-Flex ST PIPE INSULATIONE-flex ST\nMaterial Details\nProduct Performance\nTest Performance\nwww.thermotec.com.authermotec.com.au customerservice@thermotec.com.au1300 727 083168 Carrington Street Revesby NSW 2212\nA ﬂexible closed cell, cost eﬀective, elastomeric foam material suitable for \nuse on hot and chilled water lines with limited UV and good weather \nresistance. This product is highly ﬂexible and provides a neat appearance \nwhen ﬁtted to exposed water lines.  \nMaterial: Nitrile composite, closed cell foam\nDensity: 50kg – 55kg/m3 nominal\nService Temperature: -50°C to +110°C continuous\nThermal Conductivity W/mK 0.036 @ 23°C\nOzone Resistance Good \nUV Resistance Select E-Flex HT\nWeather Resistance Good\nFlexibility: Excellent\nFlammability: AS1530.3:1999 - BS476 parts 6&7 Class 0\n•Hot & cold water lines \n•General plumbing \n•HVAC/Refrigeration \n•Air Conditioning \n•Project speciﬁcation \n•Emi-4: Insulant ODP (zero ozone depleting substances) \n•Low VOC – Exceeds Green Building Council requirements\nNFPA 274 - 2013 Vertical Test Pass\n    AS1530.3:1999 \nIgnitability 0 (range 0-20)\nSpread of flame 0 (range 0-10)\nHeat evolved 0 (range 0-10)\nSmoke developed 4 (range 0-10)\nE-flex ST should not be used in high UV degradation environments. Please specify E-Flex HT for weather resistance profiles. It is the customer's responsibility \nto determine if this product is fit for purpose, given the conditions of the intended application.\nSpecification Guidelines\nWhere general plumbing insulation is required and surrounded by a weather-resistant enclosure or \nnot exposed to the weather, the insulation shall be Thermotec E-Flex ST. The product must be of a \nwall thickness that meets or exceeds BCA/NCC requirements and AS/NZS 2712:2007.\n"
 }

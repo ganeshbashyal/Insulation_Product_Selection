@@ -36,9 +36,34 @@ Capture duct/equipment type, internal or external lining, dimensions, air veloci
 
 ## Installation and clearances
 
-_Installation, clearance and limitation evidence is pending a verified manufacturer source. Do not infer project-specific installation instructions from this family file._
+Extracted from the manufacturer datasheet; the bot may share this context but must not issue project-specific installation instructions or override the human-reviewed install guide.
 
-Source currently recorded: https://insulation.com.au/product/fi32-semi-rigid-insulation/
+1. Clean
+internal sheet metal duct or vessel surface ensuring it is free of oil and
+dust.
+2. Cut FI32 sheets or rolls accurately to fit internal duct dimensions
+using a sharp insulation knife.
+3. Apply approved water-based or solvent-based
+duct liner adhesive covering 100% of the metal surface.
+4. Press FI32 firmly into
+the wet adhesive with facing material exposed to the air stream.
+5. Fasten with
+mechanical weld pins or grip nails at recommended spacings per AS 4254.
+6. Seal
+all leading edges, transverse joints, and longitudinal seams with Vapastop 883
+tape or edge-seal mastic.
+7. For curved vessels or tanks, wrap sheets or rolls
+tightly and secure with metal banding straps.
+
+**Manufacturer-stated limitations**
+
+- Maximum
+continuous operating temperature for facing materials is 120°C (unfaced
+glasswool operates up to 340°C).
+- Black Matt Facing (BMF) is unsuitable for
+mechanical brush cleaning inside ducts.
+- Not designed for external weather
+exposure without protective sheet metal cladding.
 
 <!-- AUTO:INSTALL END -->
 
@@ -58,8 +83,23 @@ Source currently recorded: https://insulation.com.au/product/fi32-semi-rigid-ins
 
 ## Documented physical and technical properties
 
-_Variation data is pending a verified manufacturer range table or technical extraction. No dimensions, ratings or product combinations are inferred._
+| Published property | Value | Standard |
+| --- | --- | --- |
+| Density | 32 kg/m³ |  |
+| Thermal Conductivity | 0.032 W/m·K
+at 23°C | ASTM C518 |
+| Material R-values | R0.71 (25mm), R1.2 (38mm), R1.5 (50mm), R2.0 (66mm), R2.2 (75mm), R3.0
+(100mm) | AS/NZS 4859.1 |
+| Thicknesses | 25 mm, 38 mm, 50 mm, 66 mm, 75 mm, 100 mm |  |
+| Sheet Dimensions | 2400 mm x 1200 mm, 2400 mm x 1500 mm, 3000 mm
+x 1410/1500 mm |  |
+| Roll Dimensions | 15000 mm x 1200/1500 mm (25mm), 10000 mm x 1500 mm (38mm), 8000 mm x 1500 mm
+(50mm), 6500 mm x 1500 mm (75mm) |  |
+| Combustibility | Non-combustible (base board) | AS 1530.1 |
+| Early Fire Hazard Indices | Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1 | AS/NZS 1530.3 |
+| Operating Temperature | Up to 340°C (unfaced), up to 120°C (faced) |  |
+| Acoustic Performance | NRC up to 1.00 (50mm/75mm) | ISO 354 |
 
-Source currently recorded: https://insulation.com.au/product/fi32-semi-rigid-insulation/
+_No manufacturer range table was available in the extracted source; this records each published technical property without inferring product combinations._
 
 <!-- AUTO:VARIANTS END -->

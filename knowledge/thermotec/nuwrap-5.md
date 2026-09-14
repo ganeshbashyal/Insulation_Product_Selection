@@ -43,9 +43,10 @@ The barrier layer helps restrict airborne noise, while the foam layer provides s
 
 ## Installation and clearances
 
-_Installation, clearance and limitation evidence is pending a verified manufacturer source. Do not infer project-specific installation instructions from this family file._
+Extracted from the manufacturer datasheet; the bot may share this context but must not issue project-specific installation instructions or override the human-reviewed install guide.
 
-Source currently recorded: https://thermotec.com.au/products/nuwrap-acoustic-lagging
+1. Bonded to high performance acoustic foam.
+2. Faced with reinforced fire resistant aluminium foil.
 
 <!-- AUTO:INSTALL END -->
 
@@ -105,8 +106,19 @@ Capture service, material, outside diameter, operating temperature, exposure, no
 
 ## Documented physical and technical properties
 
-_Variation data is pending a verified manufacturer range table or technical extraction. No dimensions, ratings or product combinations are inferred._
+| Published property | Value | Standard |
+| --- | --- | --- |
+| LAmax | 36 |  |
+| SEL | 42.8 |  |
+| Thickness (mm) | 25 |  |
+| Nominal Width (mm) | 1370 |  |
+| Usable width (mm) | 1350 |  |
+| Weight (kg) | 33.75 |  |
+| Intermittent Temp range (0C) | -40 to 120 |  |
+| Continuous Temp range (0C) | -40 to 100 |  |
+| ODP-EMI4 | Yes |  |
+| VOC levels (mg/m²/hr) | ≤ 0.5 |  |
 
-Source currently recorded: https://thermotec.com.au/products/nuwrap-acoustic-lagging
+_No manufacturer range table was available in the extracted source; this records each published technical property without inferring product combinations._
 
 <!-- AUTO:VARIANTS END -->

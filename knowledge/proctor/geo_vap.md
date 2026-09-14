@@ -267,9 +267,19 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
 
 ## Documented physical and technical properties
 
-_Variation data is pending a verified manufacturer range table or technical extraction. No dimensions, ratings or product combinations are inferred._
+| Published property | Value | Standard |
+| --- | --- | --- |
+| R-value | Not specified |  |
+| Density | Not specified |  |
+| Thermal conductivity | Not specified |  |
+| Fire indices | AS/NZS 1530.3 Flammability Index ≤ 5 | AS/NZS 1530.3 |
+| Temperature range | Not specified |  |
+| Vapour resistance | 49 MNs/g | ASTM E96 |
+| pH | Not specified |  |
+| Water resistance | High | AS/NZS 4201.4 |
+| Emissivity | Non reflective | AS/NZS 4201.5 |
 
-Source currently recorded: https://proctorgroup.com.au/
+_No manufacturer range table was available in the extracted source; this records each published technical property without inferring product combinations._
 
 <!-- AUTO:VARIANTS END -->
 
@@ -277,8 +287,20 @@ Source currently recorded: https://proctorgroup.com.au/
 
 ## Installation and clearances
 
-_Installation, clearance and limitation evidence is pending a verified manufacturer source. Do not infer project-specific installation instructions from this family file._
+Extracted from the manufacturer datasheet; the bot may share this context but must not issue project-specific installation instructions or override the human-reviewed install guide.
 
-Source currently recorded: https://proctorgroup.com.au/
+1. Install in accordance with the supplied installation guide.
+2. Secure directly to the interior side of the wall or ceiling frame.
+3. Use factory applied integrated tape on the face of the lower course and the rear of the upper course of membrane.
+
+**Manufacturer-stated limitations**
+
+- Not to be used as a primary waterproofing membrane.
+- Can be damaged by careless handling, high winds, or vandalism.
+- Should not be left uncovered for longer than absolutely necessary.
+- Should not be left exposed to UV for longer than 4 weeks.
+- Not to be used in installations where it could be exposed to long term UV radiation.
+- No anti-slip coating, may be slippery when wet.
+- Carelessly discarded packaging also represents a slip hazard.
 
 <!-- AUTO:INSTALL END -->

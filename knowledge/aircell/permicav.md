@@ -272,9 +272,15 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
 
 ## Documented physical and technical properties
 
-_Variation data is pending a verified manufacturer range table or technical extraction. No dimensions, ratings or product combinations are inferred._
+| Published property | Value | Standard |
+| --- | --- | --- |
+| Material R-value | 0.15 m2 K/W | ASTM C518-2017 at 23°C |
+| Flammability Index | ≤ 5 | AS 1530.2:1993 |
+| Water Control | Pass | AS/NZS 4201.4:1994 |
+| Moisture Shrinkage | < 0.5% | AS/NZS 4201.3:1994 |
+| Surface Water Absorbency | ≥ 100g/m2 | AS/NZS 4201.6:1994 |
 
-Source currently recorded: https://xamyxyg7fn.filerobot.com/kingspan/kil/products/air-cell-permicav-xv-au-and-nz/kingspan-aircell-permicavxv-product-datasheet-en-au.pdf
+_No manufacturer range table was available in the extracted source; this records each published technical property without inferring product combinations._
 
 <!-- AUTO:VARIANTS END -->
 
@@ -282,8 +288,22 @@ Source currently recorded: https://xamyxyg7fn.filerobot.com/kingspan/kil/product
 
 ## Installation and clearances
 
-_Installation, clearance and limitation evidence is pending a verified manufacturer source. Do not infer project-specific installation instructions from this family file._
+Extracted from the manufacturer datasheet; the bot may share this context but must not issue project-specific installation instructions or override the human-reviewed install guide.
 
-Source currently recorded: https://xamyxyg7fn.filerobot.com/kingspan/kil/products/air-cell-permicav-xv-au-and-nz/kingspan-aircell-permicavxv-product-datasheet-en-au.pdf
+1. Lay outer leaf or brickwork with wall ties in place.
+2. Clip Kingspan AIR-CELL Spacer BiscuitsTM onto every second wall tie, or as required to maintain a nominal 20 mm air space.
+3. Roll out Kingspan AIR-CELL Permicav XV™ horizontally and fix to outside of internal wall frame, working from the bottom up.
+4. Allow 50 mm overlap between top and bottom layers and tape with 48 mm reinforced foil tape.
+5. Cut Kingspan AIR-CELL carefully around doors, windows and other openings.
+6. Penetrations for wall ties or services should be neatly cut to minimise gaps.
+
+**Clearances and safe distances**
+
+- Leave minimum 100 mm clearance around heat producing flues or light fittings.
+
+**Manufacturer-stated limitations**
+
+- Intense heat above 105˚ C must be avoided.
+- Contact with sparks and flame from blow torches, welders, cutting tools, etc. must be avoided.
 
 <!-- AUTO:INSTALL END -->
