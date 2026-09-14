@@ -1,9 +1,10 @@
 {
   "family_id": "AUTEX_HORIZON_CIRCLE",
-  "family_name": "Autex Horizon - Circle",
-  "datasheet_pdf_url": null,
-  "status": "no_pdf_found",
-  "researched_at": "2026-09-08",
+  "family_name": "Horizon - Circle",
+  "datasheet_pdf_url": "https://cdn.mediavalet.com/aunsw/autex/dRTCRsHVIkiY2tw4JI69lw/4t6Itu09y0OoiCyRQX57Ng/Original/Horizon%20Data%20Sheet.pdf",
+  "datasheet_local_path": "data\\tds\\autex\\autex_horizon_circle.pdf",
+  "status": "extract_failed",
+  "researched_at": "2026-09-14",
   "spec": null,
   "source_excerpt": null
 }

@@ -1,73 +1,79 @@
 {
   "family_id": "FLETCHER_SAFE_N_SILENT_LEGACY",
   "family_name": "Safe'n'Silent Pro350 (legacy identity review)",
-  "datasheet_pdf_url": "",
-  "sds_url": "",
-  "status": "gemini_not_found",
-  "researched_at": "2026-09-06",
+  "datasheet_pdf_url": "https://insulation.com.au/wp-content/uploads/2024/05/TDS-Rockwool-Safe_n_Silent-Pro-Technical-Datasheet-AU-FL-20251001.pdf",
+  "datasheet_local_path": "data\\tds\\fletcher\\safe_n_silent_pro350_legacy_identity_review.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-14",
   "spec": {
-    "description": "",
-    "features": "",
-    "applications": "",
-    "technical": "",
-    "range": "",
-    "fire": "",
-    "compliance": "",
+    "description": "ROCKWOOL Safe 'n' Silent Pro is a range of stone wool insulation used for interior applications requiring superior thermal and acoustical performance and fire resistance.",
+    "features": [
+      "Acoustical dampening properties",
+      "Non-combustible",
+      "Available in various sizes",
+      "Water repellent",
+      "Shrink-wrapped for ease of handling",
+      "Safe Work Australia listed as low bio persistence",
+      "Available with foil facing or glass tissue options"
+    ],
+    "applications": [
+      "Drywall partition applications in hospitals",
+      "Cinemas",
+      "Schools",
+      "Offices",
+      "Residential buildings",
+      "Industrial buildings"
+    ],
+    "technical": [
+      {
+        "property": "Density",
+        "value": "40kg/m3, 60kg/m3, 80kg/m3, 100kg/m3",
+        "standard": "N/A"
+      },
+      {
+        "property": "R-value",
+        "value": "m²K/W",
+        "standard": "N/A"
+      },
+      {
+        "property": "Thickness",
+        "value": "mm",
+        "standard": "N/A"
+      },
+      {
+        "property": "Width",
+        "value": "mm",
+        "standard": "N/A"
+      },
+      {
+        "property": "Length",
+        "value": "mm",
+        "standard": "N/A"
+      },
+      {
+        "property": "Water repellent",
+        "value": "98%",
+        "standard": "GB/T 10299"
+      },
+      {
+        "property": "Fire Hazard Properties",
+        "value": "Euroclass A1",
+        "standard": "N/A"
+      },
+      {
+        "property": "Non-Combustibility",
+        "value": "N/A",
+        "standard": "N/A"
+      }
+    ],
+    "fire": "Euroclass A1",
     "sustainability": "",
-    "install": "",
-    "selection_checklist": "",
-    "accessories": "",
-    "limitations": "",
-    "warranty": "",
-    "range_headers": [],
+    "install": [],
     "clearances": [],
-    "accessories_upsell": []
+    "limitations": [],
+    "range_headers": [],
+    "range": [],
+    "range_extraction_status": "inconsistent_columns_dropped"
   },
-  "retrieval": {
-    "search_keywords": [
-      "acoustic wall batt 350",
-      "Fletcher rockwool acoustic batts",
-      "Fletcher rockwool legacy",
-      "Fletcher Safe n Silent",
-      "mineral wool sound insulation",
-      "rockwool partition batt",
-      "Safe and Silent Pro350",
-      "Safe'n'Silent",
-      "Safe'n'Silent Pro350",
-      "stonewool acoustic batt"
-    ],
-    "problem_keywords": [
-      "acoustic privacy in apartments",
-      "fire and acoustic cavity insulation",
-      "inter-tenancy wall noise",
-      "noise between party walls",
-      "sound transfer through stud walls"
-    ],
-    "placement": [
-      "between floors",
-      "ceiling",
-      "internal wall",
-      "wall"
-    ],
-    "priority_fit": [
-      "acoustic",
-      "fire",
-      "thermal"
-    ],
-    "use_cases": [
-      "Acoustic floor-to-floor decoupling in timber and concrete intermediate floors",
-      "Legacy acoustic friction-fit infill in commercial metal stud walls",
-      "Sound transmission dampening in multi-residential party wall cavities"
-    ],
-    "not_for": [
-      "Exposed decorative wall linings",
-      "External weather-exposed facades",
-      "Underfloor crawl space ground contact"
-    ],
-    "rag_summary": "Fletcher\nSafe'n'Silent Pro350 represents a legacy high-density stonewool/mineral wool\nacoustic batt line formerly distributed by Fletcher Insulation for commercial\ndrywall partitions and party walls. Engineered for high acoustic sound\ntransmission loss (Rw) and non-combustible fire protection, it has been\nsuperseded in Fletcher's contemporary Australian catalog by Soundbreak\nhigh-density glasswool and Fletcher Protect Stonewool products. It solved\nairborne sound transfer and inter-tenancy noise leakage in commercial and\nmulti-residential partition assemblies."
-  },
-  "source_excerpt": null,
-  "engine": "ai_studio_batch",
-  "schema_version": "1.0",
-  "range_source": ""
+  "source_excerpt": "Superior Acoustic Properties\nEnhance with unique ﬁber \nstructure to absorbs sound and \nreduces noise traveling from one \nroom to another, improving \noccupant comfort.\nROCKWOOL\nSafe 'n' Silent Pro\nFire, Thermal and Acoustic Insulation for\nInterior Partition Walls and Ceilings\nROCKWOOL Safe 'n' Silent Pro is a range of stone wool insulation used \nfor interior applications where superior thermal and acoustical \nperformances as well as ﬁre resistance are required.\nIt has excellent acoustical dampening properties and provides an easy \nfriction ﬁt into walls and ceilings. It is also non-combustible – it also\ndoes not develop toxic smoke nor promote ﬂame spread, even when\n \ndirectly exposed to ﬁre. The superior performances of ROCKWOOL\nSafe 'n' Silent Pro ensure the comfort and safety of the inhabitants of\nthe interior space.\nThe product is available in a wide range of sizes to suit most interior \napplication requirements in Australia and New Zealand.\nTechnical Data Sheet \nInterior Partition & Ceiling Insulation \n1st October 2025\nFor more information at www.rockwool.com/anz\n\nTechnical Parameters\nThermal\nComplies with AS/NZS 4859.1 and meets the requirements of NCC through adherence to NCC 2022 Volume 1 Section \nJ4D3 (1), NCC 2019 Volume 1 Section J1.2(a), NCC 2019 Volume 2 Section 3.12.1.1(a) and state-prescribed variations.\nFire Hazard Properties\nAdheres to NCC 2019 Volume 1 Speciﬁcation C1.10 Clause 7 and NCC 2022 Speciﬁcation 7 Clause S7C7 for insulation \nmaterials. When tested to AS1530.3, these products conforms to the \"Spread of Flame\" and \"Smoke Developed\" \nrequirements outlined in NCC 2022 Speciﬁcation 7 Clause S7C7 and NCC 2019 Volume 1 Speciﬁcation C1.10 Clause 7.\nNon-Combustibility\nComplies with the non-combustibility standards of NCC 2022 Volume 1 C2D2 and NCC 2019 Volume 1 C1.9(a) or \nsatisﬁes the testing criteria outlined in AS 1530.1.\nROCKWOOL\nSafe 'n' Silent Pro330\n1 kg/m²\nReaction to Fire\nFire Hazard\nProperties\nMelting Point\nLess than\n0.04 Vol %\n0.037 W/mK"
 }

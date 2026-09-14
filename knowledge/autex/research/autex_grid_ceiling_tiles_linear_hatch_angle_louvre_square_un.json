@@ -3,8 +3,79 @@
   "family_name": "Grid Ceiling Tiles - Linear/Hatch/Angle/Louvre - Square - Uncapped",
   "datasheet_pdf_url": "https://cdn.mediavalet.com/aunsw/autex/2P1vrOWCVE6M_vSFlSrEdw/f5ZQQpLQrU6jl2vud2IzSQ/Original/Grid%20Ceiling%20Tiles_Data%20Sheet.pdf",
   "datasheet_local_path": "data\\tds\\autex\\autex_grid_ceiling_tiles_linear_hatch_angle_louvre_square_un.pdf",
-  "status": "extract_failed",
+  "status": "ok",
   "researched_at": "2026-09-14",
-  "spec": null,
-  "source_excerpt": null
+  "spec": {
+    "description": "Autex Global's Grid Ceiling Tiles are acoustic solutions designed to elevate traditional ceiling grid systems, featuring carbon neutrality, zero carbon manufacturing, and high recycled content.",
+    "features": [
+      "Carbon neutral product",
+      "Zero carbon manufacturing",
+      "Recycled content",
+      "Low VOC and CDPH compliant",
+      "Zero waste manufacturing initiative",
+      "Sustainable supply chain",
+      "Anti-modern slavery"
+    ],
+    "applications": [
+      "Ceiling"
+    ],
+    "technical": [
+      {
+        "property": "R-value",
+        "value": "",
+        "standard": ""
+      },
+      {
+        "property": "density",
+        "value": "",
+        "standard": ""
+      },
+      {
+        "property": "thermal conductivity",
+        "value": "",
+        "standard": ""
+      },
+      {
+        "property": "fire indices",
+        "value": "",
+        "standard": ""
+      },
+      {
+        "property": "temperature range",
+        "value": "",
+        "standard": ""
+      },
+      {
+        "property": "vapour",
+        "value": "",
+        "standard": ""
+      },
+      {
+        "property": "pH",
+        "value": "",
+        "standard": ""
+      }
+    ],
+    "fire": "Class A, FS:0 - SD:45, ISO 9705: Classification: Group 1-S",
+    "sustainability": "EPD – compliant with ISO 14025 and EN 15804, Declare – Red List free, ISO 14001 Certified Environmental Management",
+    "install": [
+      "Install as per Autex Acoustics recommendations",
+      "Install instructions included in each pack or available on the website",
+      "Consult project engineer and relevant expert for installation near fire protection systems",
+      "Adhere to relevant building codes, standards, and design rules"
+    ],
+    "clearances": [],
+    "limitations": [
+      "Grid Ceiling Tiles are made from Cube as the base material",
+      "Grid Ceiling Tiles are suitable for indoor use only",
+      "Light fastness is dependent on use and exposure",
+      "Non-woven. Product may vary from samples and batch to batch",
+      "Blot spills from fabric quickly. Wipe with a damp cloth. Avoid rubbing and excessive amounts of water",
+      "Custom printed Grid Ceiling Tiles require specialist cleaning"
+    ],
+    "range_headers": [],
+    "range": [],
+    "range_extraction_status": "inconsistent_columns_dropped"
+  },
+  "source_excerpt": "Data SheetGrid Ceiling Tiles\n autexglobal.com\nGrid Ceiling Tiles are an acoustic solution designed to elevate \ntraditional ceiling grid systems. Highly adaptable, they can be \nconfigured to create many different aesthetics, be it a subtle addition, \nor an eye-catching feature. Choose from a range of seven adaptable \nstyles with vast options for configuration.\nProduct \noverview\n• Carbon neutral product  \n• Zero carbon manufacturing\n• Recycled content  \n- >80% recycled material\n• Low VOC and CDPH compliant  \n- 0.066mg/m3 (14 days)\n• Zero waste manufacturing initiative \n• Sustainable supply chain and  \nanti-modern slavery\nSustainable material\n• EPD – compliant with ISO 14025  \nand EN 15804\n• Declare – Red List free  \n(third party verified) \n• ISO 14001 Certified Environmental \nManagement \n• Health Product Declaration\n• CDPH Standard\nEnvironmental \ncertifications\nSM \nAutex Acoustics® products meet criteria for WELL, LEED, Green Star, and BREEAM \nbuilding rating systems, helping you achieve certification for your project. For support  \nand guidance on available rating system points please visit autexglobal.com, or speak  \nwith your Autex Acoustics account manager. \nCertifying your  \ngreen building\n(Ceiling) treatment shall be Grid Ceiling \nTiles from thermally bonded high density \npolyester containing not less than 80% \nrecycled material as manufactured by Autex \nautexglobal.com\nGrid Ceiling Tiles 595 x 595 x 100 mm \n(nom) depth, colour (_), sound absorption  \n12 mm: Class E-A, NRC 0.25 - 0.85.  \nFire rating ASTM E-84-15a: Class A, FS:0 - \nSD:45, ISO 9705: Classification: Group 1-S, \nAS ISO 9705 – 2003 Classification: Group 1, \n12 mm BS EN 13501-1:2018: B - s2, d0.\nSpecification\nProduct specifications\nProduct name Grid Ceiling Tiles\nComposition 100% polyester fibre \nTile dimensions 595 mm x 595 mm\n   1195 mm x 595 mm \nTile Tolerance (+/- 0.5 mm) x (+/- 0.5 mm) \nDepth  100 mm\nDepth Tolerance (+/- 0.5 mm)\n \nInstallation \nInstall as per Autex Acoustics recommendations. Inst"
 }

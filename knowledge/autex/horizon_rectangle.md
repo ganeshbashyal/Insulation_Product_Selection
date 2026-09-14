@@ -273,9 +273,16 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
 
 ## Documented physical and technical properties
 
-_Variation data is pending a verified manufacturer range table or technical extraction. No dimensions, ratings or product combinations are inferred._
+| Published property | Value | Standard |
+| --- | --- | --- |
+| Fire Rating | ISO 9705: 1993: Group 1-S, AS ISO 9705 – 2003: Group 1, 1" BS EN 13501-1:2018: B - s2, d0, ASTM E-84-15a: Class A, FS:0 - SD:65 |  |
+| Density | 3600 gsm |  |
+| Thickness | 24 mm, Tolerance: +/- 6% |  |
+| Sound Absorption Coefficients | ISO 354, average absorption at 250 Hz, 500 Hz, 1000 Hz, and 2000 Hz |  |
+| Vapour Resistance | ASTM C1104 / C1104M-13a, 0.4% by weight after 4 days |  |
+| Microbial Resistance | ASTM G21-15, growth rating: 0 (No growth) |  |
 
-Source currently recorded: https://www.autexacoustics.com.au/
+_No manufacturer range table was available in the extracted source; this records each published technical property without inferring product combinations._
 
 <!-- AUTO:VARIANTS END -->
 
@@ -283,8 +290,16 @@ Source currently recorded: https://www.autexacoustics.com.au/
 
 ## Installation and clearances
 
-_Installation, clearance and limitation evidence is pending a verified manufacturer source. Do not infer project-specific installation instructions from this family file._
+Extracted from the manufacturer datasheet; the bot may share this context but must not issue project-specific installation instructions or override the human-reviewed install guide.
 
-Source currently recorded: https://www.autexacoustics.com.au/
+1. Install as per Autex Acoustics recommendations.
+2. Install instructions included in each pack or available on the website.
+3. Consult project engineer and fire protection engineer for installation near fire protection systems.
+
+**Manufacturer-stated limitations**
+
+- Horizon is suitable for indoor use only.
+- Light fastness dependent on use and exposure.
+- No pattern repeat, but product may vary from samples and batch to batch due to fibre blending and lay-up.
 
 <!-- AUTO:INSTALL END -->

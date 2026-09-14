@@ -276,9 +276,14 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
 
 ## Documented physical and technical properties
 
-_Variation data is pending a verified manufacturer range table or technical extraction. No dimensions, ratings or product combinations are inferred._
+| Published property | Value | Standard |
+| --- | --- | --- |
+| Groove angle | 30°, 60°, 90° | unless otherwise specified, all Grooves will be 30 degrees |
+| Groove depth | 8mm, 9mm | unless otherwise specified, all VEE Grooves will be 60 degrees, at 8mm deep |
+| Panel dimensions | Width: 1200mm, Height: 2400mm, 2700mm | Thickness: 12mm, 24mm |
+| Panel edge bevel | half of the specified groove angle | for seamless panel joins |
 
-Source currently recorded: https://www.autexacoustics.com.au/
+_No manufacturer range table was available in the extracted source; this records each published technical property without inferring product combinations._
 
 <!-- AUTO:VARIANTS END -->
 
@@ -286,8 +291,10 @@ Source currently recorded: https://www.autexacoustics.com.au/
 
 ## Installation and clearances
 
-_Installation, clearance and limitation evidence is pending a verified manufacturer source. Do not infer project-specific installation instructions from this family file._
+Extracted from the manufacturer datasheet; the bot may share this context but must not issue project-specific installation instructions or override the human-reviewed install guide.
 
-Source currently recorded: https://www.autexacoustics.com.au/
+1. installed with appropriate adhesive (supplied by contractor).
+2. See SpinFix™ install guide.
+3. See Product Installation Guide for further details.
 
 <!-- AUTO:INSTALL END -->

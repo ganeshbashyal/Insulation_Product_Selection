@@ -272,9 +272,14 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
 
 ## Documented physical and technical properties
 
-_Variation data is pending a verified manufacturer range table or technical extraction. No dimensions, ratings or product combinations are inferred._
+| Published property | Value | Standard |
+| --- | --- | --- |
+| Material R-value | 0.15 m2/K/W | ASTM C518-2017 at 23°C |
+| Flammability Index | ≤ 5 | AS 1530.2:1993 |
+| Fire Performance | Group 2 | NCC |
+| Water Control | Pass | AS/NZS 4201.4:1994 Vapour Barrier < 0.020 µg/N.s Class 2 |
 
-Source currently recorded: https://store.filerobot.com/xamyxyg7fn/kingspan/kil/products/air-cell-insuliner-au-and-nz/kingspan-aircell-insuliner-product-datasheet-en-au.pdf
+_No manufacturer range table was available in the extracted source; this records each published technical property without inferring product combinations._
 
 <!-- AUTO:VARIANTS END -->
 
@@ -282,8 +287,26 @@ Source currently recorded: https://store.filerobot.com/xamyxyg7fn/kingspan/kil/p
 
 ## Installation and clearances
 
-_Installation, clearance and limitation evidence is pending a verified manufacturer source. Do not infer project-specific installation instructions from this family file._
+Extracted from the manufacturer datasheet; the bot may share this context but must not issue project-specific installation instructions or override the human-reviewed install guide.
 
-Source currently recorded: https://store.filerobot.com/xamyxyg7fn/kingspan/kil/products/air-cell-insuliner-au-and-nz/kingspan-aircell-insuliner-product-datasheet-en-au.pdf
+1. Lay Kingspan AIR-CELL perpendicular to purlins ensuring a max. 25 mm overlap into the gutter.
+2. Allow a nominal 40 mm sag between purlins.
+3. Overlap by 50 mm at joins and apply minimum 72 mm wide Kingspan reinforced aluminium insulation tape to top of join.
+4. End joins should be overlapped by 600 mm if not taped.
+5. Fix roof sheeting by screwing through Kingspan AIR-CELL to the purlins.
+6. Attach end of insulation roll to end fixing point using three 12 gauge Tek screws.
+7. Join subsequent alongside rolls by butt joining and tape joint with minimum 72 mm wide Kingspan reinforced aluminium insulation tape.
+8. Fix a steel furring channel, top hat or similar over Kingspan AIR-CELL to the bottom of the purlins.
+9. Ensure a 100 mm clearance between insulation and heat producing items.
+10. If required to act as a water vapour barrier, tape the joints.
+
+**Clearances and safe distances**
+
+- 100 mm clearance between insulation and heat producing items such as hot flues, light fittings and transformers.
+
+**Manufacturer-stated limitations**
+
+- Suitable for use in metal framed walls on low-rise structures.
+- For consideration in high-rise buildings, contact Kingspan Insulation’s Technical Services team.
 
 <!-- AUTO:INSTALL END -->

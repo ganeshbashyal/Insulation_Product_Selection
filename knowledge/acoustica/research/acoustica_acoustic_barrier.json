@@ -1,31 +1,10 @@
 {
   "family_id": "ACOUSTICA_ACOUSTIC_BARRIER",
-  "family_name": "Acoustica Acoustic Barrier",
+  "family_name": "Acoustic Barrier",
   "datasheet_pdf_url": "https://acoustica.com.au/wp-content/uploads/2020/04/Acoustica-specifications-QuietWave_2020.docx",
-  "status": "identity_mismatch",
-  "researched_at": "2026-09-07",
-  "spec": {
-    "description": "",
-    "features": [],
-    "applications": [],
-    "technical": [],
-    "range_headers": [],
-    "range": [],
-    "fire": "",
-    "sustainability": "",
-    "install": [],
-    "clearances": [],
-    "limitations": [],
-    "selection_checklist": [],
-    "compliance": "",
-    "warranty": "",
-    "accessories": [],
-    "accessories_upsell": []
-  },
-  "source_excerpt": null,
-  "schema_version": "1.0",
-  "sds_url": "",
-  "engine": "local",
-  "retrieval": {},
-  "range_source": ""
+  "datasheet_local_path": "data\\tds\\acoustica\\acoustica_acoustic_barrier.docx",
+  "status": "extract_failed",
+  "researched_at": "2026-09-14",
+  "spec": null,
+  "source_excerpt": null
 }

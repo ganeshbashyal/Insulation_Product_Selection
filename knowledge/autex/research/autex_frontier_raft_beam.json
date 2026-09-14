@@ -1,9 +1,75 @@
 {
   "family_id": "AUTEX_FRONTIER_RAFT_BEAM",
-  "family_name": "Autex Frontier Raft - Beam",
-  "datasheet_pdf_url": null,
-  "status": "no_pdf_found",
-  "researched_at": "2026-09-08",
-  "spec": null,
-  "source_excerpt": null
+  "family_name": "Frontier Raft - Beam",
+  "datasheet_pdf_url": "https://cdn.mediavalet.com/aunsw/autex/UNYkeC1vs0-3sVb7RBrkwA/nTw1WKETV0yM9O2P0hGBtQ/Original/Frontier%20Fins%20Data%20Sheet.pdf",
+  "datasheet_local_path": "data\\tds\\autex\\autex_frontier_raft_beam.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-14",
+  "spec": {
+    "description": "Frontier Acoustic Fins are modular polyester fibre acoustic baffles designed for adjustable interior acoustic absorption.",
+    "features": [
+      "Adjustable channel and clip system",
+      "Lightweight",
+      "Made from 100% polyester fibre",
+      "Designed for tailored acoustic absorption",
+      "Available in various thicknesses and lengths",
+      "Includes Frontier Connector Clips"
+    ],
+    "applications": [
+      "Ceiling applications",
+      "Wall applications"
+    ],
+    "technical": [
+      {
+        "property": "R-value",
+        "value": "",
+        "standard": ""
+      },
+      {
+        "property": "density",
+        "value": "",
+        "standard": ""
+      },
+      {
+        "property": "thermal conductivity",
+        "value": "",
+        "standard": ""
+      },
+      {
+        "property": "fire indices",
+        "value": "Class B, Class C",
+        "standard": "ISO 9705, AS ISO 9705 - 2003"
+      },
+      {
+        "property": "temperature range",
+        "value": "",
+        "standard": ""
+      },
+      {
+        "property": "vapour",
+        "value": "",
+        "standard": ""
+      },
+      {
+        "property": "pH",
+        "value": "",
+        "standard": ""
+      }
+    ],
+    "fire": "Class B, Class C",
+    "sustainability": "Carbon neutral, >80% recycled material, Low VOC, CDPH compliant, Zero waste manufacturing, EPD compliant, Red List free, ISO 14001 Certified",
+    "install": [
+      "Install as per Autex Acoustics recommendations",
+      "Included install instructions",
+      "Fix with 6g countersink fastener",
+      "Use Frontier Connector Clips",
+      "Install as per Frontier Install Instructions"
+    ],
+    "clearances": [],
+    "limitations": [],
+    "range_headers": [],
+    "range": [],
+    "range_extraction_status": "inconsistent_columns_dropped"
+  },
+  "source_excerpt": "Data SheetFrontier™  Acoustic Fins\nFrontier™  is a modular acoustic baffle system designed to \ncommunicate with interior spaces via an adjustable channel and \nclip system—giving you complete control over the height, spacing, \nand placement of each individual component. Lightweight yet \nsolid in appearance, Frontier Acoustic Fins are made from 100% \npolyester fibre and cut to form elegant ceilingscapes.  \nFrontier is designed to be ‘tuned’ to interior spaces, offering \ntailored acoustic absorption across a wide range of frequencies.\nAcoustic absorption system shall be  \nFrontier™  Acoustic Fins (_) as compiled  \nby Autex autexglobal.com \nAcoustic absorber Frontier™  Acoustic \nFins (2400/custom)mm length x (300mm \nnominal/Axis 150mm) depth x (12/24)mm \ngauge, spaced at (_)mm centres. Colour \n(_), sound absorption: 100/200mm centres \nClass B, 300mm centres Class C, Fire rating \nISO 9705: Classification: Group 1-S, AS ISO \n9705 – 2003 Classification: Group 1, 12mm \nBS EN 13501-1:2018: B - s1, d0. 24mm BS \nEN 13501-1:2018: B - s2, d0.\nSupplied with Frontier Connector Clips, \nFrontier Channel, Frontier Fins. Fix with  \n6g countersink fastener appropriate for  \nthe substrate. Install as per Frontier  \nInstall Instructions.\n autexglobal.com\nSpecification\nProduct \nOverview\nPanel Fixing  \nSystem Patent\nUS Patent 10,113,312 \nAU Patent 2016250499 \nGB Patent 2,545,789  \nNZ Patent app 725770 \nAutex Acoustics products meet criteria for WELL, LEED, Green Star, and BREEAM \nbuilding rating systems, helping you achieve certification for your project. For support \nand guidance on available rating system points please visit autexglobal.com, or speak \nwith your Autex Acoustics account manager. \n• Carbon neutral product  \n• Zero carbon manufacturing\n• Recycled content  \n- >80% recycled material\n• Low VOC and CDPH compliant  \n- <0.092 mg/m3 (7 days)\n• Zero waste manufacturing initiative \n• Sustainable supply chain and  \nanti-modern slavery\n• EPD – compliant with ISO 14025  \nand EN 15804\n• "
 }

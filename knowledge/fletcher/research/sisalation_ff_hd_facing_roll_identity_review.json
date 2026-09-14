@@ -1,70 +1,129 @@
 {
   "family_id": "FLETCHER_FF_HD_LEGACY",
   "family_name": "Sisalation FF HD facing roll (identity review)",
-  "datasheet_pdf_url": "",
-  "sds_url": "",
-  "status": "gemini_not_found",
-  "researched_at": "2026-09-06",
+  "datasheet_pdf_url": "https://insulation.com.au/wp-content/uploads/2026/TDS-Sisalation-Multipurpose-EHD-456-Rev9-070926.pdf",
+  "datasheet_local_path": "data\\tds\\fletcher\\sisalation_ff_hd_facing_roll_identity_review.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-14",
   "spec": {
-    "description": "",
-    "features": "",
-    "applications": "",
-    "technical": "",
-    "range": "",
-    "fire": "",
-    "compliance": "",
+    "description": "Sisalation® Multipurpose EHD (456) is an extra heavy duty, non-vapour permeable single sided reflective aluminium foil and polyweave laminate with an antiglare face designed to minimize glare during installation.",
+    "features": [
+      "Extra Heavy Duty",
+      "Non-vapour permeable",
+      "Reflective aluminium foil",
+      "Polyweave laminate",
+      "Anti-glare face",
+      "Class 1 Vapour barrier",
+      "Water barrier"
+    ],
+    "applications": [
+      "residential walls",
+      "commercial walls",
+      "tile roofs (except slate)",
+      "metal roofs"
+    ],
+    "technical": [
+      {
+        "property": "Duty Classification",
+        "value": "Extra Heavy Duty",
+        "standard": "AS 4200.1"
+      },
+      {
+        "property": "Edge Tear Machine",
+        "value": "≥ 90 N",
+        "standard": "TAPPI T470"
+      },
+      {
+        "property": "Lateral Tear Machine",
+        "value": "≥ 90 N",
+        "standard": "TAPPI T470"
+      },
+      {
+        "property": "Tensile Strength",
+        "value": "≥ 13.0 kN/m",
+        "standard": "AS 1301.448s"
+      },
+      {
+        "property": "Water Control",
+        "value": "Water barrier",
+        "standard": "AS/NZS 4201.4"
+      },
+      {
+        "property": "Vapour Control",
+        "value": "Class 1 Vapour barrier",
+        "standard": "AS 4200.1"
+      },
+      {
+        "property": "Vapour Permeance",
+        "value": "<0.0022 µg/N.s",
+        "standard": "ASTM E96"
+      },
+      {
+        "property": "Air Control",
+        "value": "Air barrier (≥0.1)",
+        "standard": "ISO 5636-5"
+      },
+      {
+        "property": "Emittance",
+        "value": "IR Non-reflective (0.9)",
+        "standard": "AS/NZS 4201.5"
+      },
+      {
+        "property": "Emittance",
+        "value": "IR Reflective (≤0.05)",
+        "standard": "AS/NZS 4201.5"
+      },
+      {
+        "property": "Resistance to Dry Delamination",
+        "value": "PASS",
+        "standard": "AS/NZS 4201.1"
+      },
+      {
+        "property": "Resistance to Wet Delamination",
+        "value": "PASS",
+        "standard": "AS/NZS 4201.2"
+      },
+      {
+        "property": "Shrinkage",
+        "value": "≤ 0.5 %",
+        "standard": "AS/NZS 4201.3"
+      },
+      {
+        "property": "Electrical Conductivity",
+        "value": "Electrically conductive",
+        "standard": "AS/NZS 3100"
+      },
+      {
+        "property": "Flammability Index",
+        "value": "≤5",
+        "standard": "AS 1530.2"
+      }
+    ],
+    "fire": "Low Flammability Index (≤5)",
     "sustainability": "",
-    "install": "",
-    "selection_checklist": "",
-    "accessories": "",
-    "limitations": "",
-    "warranty": "",
-    "range_headers": [],
+    "install": [
+      "Install in accordance with AS 4200.2",
+      "Avoid contact with electrical wiring",
+      "Inspect for damage prior to installation",
+      "Repair any tears with appropriate tape",
+      "Protect from physical damage",
+      "Avoid storing under UV light",
+      "Keep dry at all times",
+      "Avoid contact with alkaline products, cement, mortar, and corrosive environments"
+    ],
     "clearances": [],
-    "accessories_upsell": []
+    "limitations": [
+      "Not suitable as an exposed internal wall and ceiling lining where a group number is required",
+      "Not suitable for applications where the cladding manufacturer specifies a vapour permeable membrane",
+      "Not suitable where a pliable building membrane or sarking-type material is required in climate zones 4–8",
+      "Not suitable as a substitute for safety mesh or a fall-arrest system",
+      "Not suitable for use within 500m of a saltwater body in unenclosed, ventilated space",
+      "Additional mechanical fasteners may be required for product exposed to adverse weather conditions",
+      "Not designed to withstand prolonged weathering – exterior cladding should be installed within 8 weeks in a wall application, or 2 weeks in a roof application"
+    ],
+    "range_headers": [],
+    "range": [],
+    "range_extraction_status": "inconsistent_columns_dropped"
   },
-  "retrieval": {
-    "search_keywords": [
-      "Fletcher FF HD facing roll",
-      "glasswool foil facing",
-      "heavy duty foil facing",
-      "reflective foil facing roll",
-      "Sisalation FF HD",
-      "Sisalation foil laminate",
-      "Sisalation Heavy Duty facing"
-    ],
-    "problem_keywords": [
-      "condensation under roof insulation",
-      "tearing foil facing on insulation batts",
-      "unfaced glasswool radiant heat loss",
-      "vapor barrier facing failure"
-    ],
-    "placement": [
-      "external wall",
-      "roof",
-      "roofline",
-      "shed",
-      "wall"
-    ],
-    "priority_fit": [
-      "condensation",
-      "fire",
-      "thermal"
-    ],
-    "use_cases": [
-      "Factory or site lamination to glasswool blankets for roof and wall insulation",
-      "Heavy-duty vapor barrier facing in industrial metal building applications",
-      "Radiant heat reflection over metal purlins and wall framing"
-    ],
-    "not_for": [
-      "Cold climate non-drained cavity walls requiring Class 4 breathable wraps",
-      "Direct floor traffic surfaces",
-      "Standalone bulk thermal insulation"
-    ],
-    "rag_summary": "Fletcher Sisalation FF HD (Foil Facing Heavy Duty) represents a\nlegacy industrial reinforced aluminum foil facing laminate formerly manufactured\nby Fletcher Insulation for laminating to bulk glasswool blankets. Featuring high\ntensile fiberglass scrim and kraft reinforcement, it provided heavy-duty tear\nresistance and an impermeable Class 1 vapor barrier reflecting up to 95% of\nradiant heat. Today, this specification is integrated into pre-laminated product\nlines like Permastop Building Blanket Heavy Duty and Sisalation Multipurpose\nEHD."
-  },
-  "source_excerpt": null,
-  "engine": "ai_studio_batch",
-  "schema_version": "1.0",
-  "range_source": ""
+  "source_excerpt": "Sisalation® Multipurpose EHD (456) \nDescription\nSisalation® Multipurpose EHD (456) is an extra heavy duty, \nnon-vapour permeable single sided reflective aluminium \nfoil and polyweave laminate. This product has an antiglare \nface designed to minimise glare experienced during \ninstallation.\nApplication\nSisalation® Multipurpose EHD (456) is class 1 vapour \nbarrier and water barrier for use in applications such as \nresidential and commercial walls, tile roofs (with the exception of slate) and residential and commercial metal roofs, \nsubject to the product limitations outlined below. \nFeatures and benefits\nExtra Heavy Duty product Suitable for use in both residential and commercial projects.\nVapour and water barrier Class 1 Vapour barrier and Water barrier.\nAnti-glare face Reduces glare during installation.\nProduct data\nWidth  \nmm\nLength  \nm\nArea per roll m\n2\nWeight per roll  \nkg\nOld product code New product code\n1350 30 40.50 4.66 352330 4006736\n1350 60 81.00 9.32 352360 4006738\n1500 30 45.00 5.12 352331 4006737\nProduct composition\nPolymer coating\nPolymer fabric\nPolymer adhesive\nAluminium foil\nTechnical data sheet\nFor more information: phone 1300 654 444 email info@insulation.com.au visit insulation.com.au\nPhysical properties\nProperty Test method/Standard Test result Unit\nDuty Classification AS 4200.1 Extra Heavy Duty \nEdge Tear Machine TAPPI T470 ≥ 90 N\nLateral ≥ 90 N\nTensile Strength Machine AS 1301.448s ≥ 13.0 kN/m\nLateral ≥ 10.5 kN/m\nWater Control AS/NZS 4201.4 Water barrier\nVapour Control AS 4200.1 Class 1 Vapour barrier\nVapour Permeance ASTM E96 <0.0022 µg/N.s\nAir Control ISO 5636-5 Air barrier (≥0.1) MNs/m\n3\nEmittance Anti-glare face AS/NZS 4201.5 IR Non-reflective (0.9)\nSilver side IR Reflective (≤0.05)\nResistance to Dry Delamination AS/NZS 4201.1 PASS\nResistance to Wet Delamination AS/NZS 4201.2 PASS\nShrinkage AS/NZS 4201.3 ≤ 0.5 %\nElectrical Conductivity AS/NZS 3100 Electrically conductive \nNominal Thickness < 1.0 mm\nFire hazard properties\nSisalation® Multipur"
 }

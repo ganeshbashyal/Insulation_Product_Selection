@@ -273,9 +273,21 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
 
 ## Documented physical and technical properties
 
-_Variation data is pending a verified manufacturer range table or technical extraction. No dimensions, ratings or product combinations are inferred._
+| Published property | Value | Standard |
+| --- | --- | --- |
+| Smoke production rate | <5.0m2/s | ISO 9705: 1993 |
+| Smoke production rate | <100m2/s2 | AS ISO 9705 - 2003 |
+| Fire classification | Group 1-S | NZBC C/VM2 |
+| Fire classification | Group 1 | AS ISO 9705 - 2003 |
+| Fire classification | S7C4 | BS EN 13501-1:2018 |
+| Fire classification | B-s2,d0 | BS EN ISO 11925-2:2020 and BS EN 13823:2020 |
+| Fire classification | Class A, FS:0 - SD:45 | ASTM E-84-14 |
+| Water vapour sorption | 0.4% by weight | ASTM C1104 / C1104M-13a |
+| Microbial resistance | 0 (No growth) | ASTM G21-15 |
+| Colour fastness to light | 6 (Highest = 7) | ISO 105-B02:2014 |
+| Colour fastness to rubbing | 4-5 (Highest = 5) | ISO 105-X12:2016 |
 
-Source currently recorded: https://www.autexacoustics.com.au/technical-documents/
+_No manufacturer range table was available in the extracted source; this records each published technical property without inferring product combinations._
 
 <!-- AUTO:VARIANTS END -->
 
@@ -283,8 +295,9 @@ Source currently recorded: https://www.autexacoustics.com.au/technical-documents
 
 ## Installation and clearances
 
-_Installation, clearance and limitation evidence is pending a verified manufacturer source. Do not infer project-specific installation instructions from this family file._
+Extracted from the manufacturer datasheet; the bot may share this context but must not issue project-specific installation instructions or override the human-reviewed install guide.
 
-Source currently recorded: https://www.autexacoustics.com.au/technical-documents/
+1. Install as per Autex Acoustics recommendations.
+2. Install instructions are included in each pack and available on the website.
 
 <!-- AUTO:INSTALL END -->
