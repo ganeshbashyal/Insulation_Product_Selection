@@ -21,6 +21,10 @@ from pathlib import Path
 OLLAMA_HOST = os.getenv("OLLAMA_HOST", "http://127.0.0.1:11434").rstrip("/")
 OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "gemma4:latest")
 OLLAMA_TIMEOUT_SECONDS = float(os.getenv("OLLAMA_TIMEOUT_SECONDS", "15"))
+# How long Ollama keeps the model resident in memory after the last request.
+# Longer than the default (a few minutes) so a quiet multi-tenant demo/prod
+# server doesn't pay a ~10-15s cold-load penalty on the next visitor.
+OLLAMA_KEEP_ALIVE = os.getenv("OLLAMA_KEEP_ALIVE", "60m")
 
 GUARDRAIL_SYSTEM_PROMPT = """You are a warm, concise sales-engineer assistant for an insulation supplier.
 
@@ -97,7 +101,7 @@ def generate_reply(
         "think": False,
         # Keep the model loaded between calls (first call after idle is by far
         # the slowest) and bound the work.
-        "keep_alive": "30m",
+        "keep_alive": OLLAMA_KEEP_ALIVE,
         "options": {"temperature": 0.4, "num_predict": max_tokens, "num_ctx": num_ctx},
     }
     request = urllib.request.Request(

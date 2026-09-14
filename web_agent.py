@@ -103,6 +103,30 @@ async def startup():
 
     print("OK - P3 infrastructure initialized (router, RAG, lint)")
 
+    if USE_LLM:
+        # Ollama unloads an idle model from memory; the first real user message
+        # after that pays a one-time ~10-15s cold-load penalty, which reads as
+        # "the chat is really slow". Pay that cost here at startup instead, on
+        # a background thread so it never blocks the server from accepting
+        # requests, and keep the model resident for the life of the process.
+        import threading
+        import time as _time
+
+        def _warm_ollama() -> None:
+            start = _time.monotonic()
+            ok = llm_client.generate_reply(
+                llm_client.SYSTEM_PROMPT,
+                "Say OK.",
+                max_tokens=5,
+                timeout=60.0,
+            )
+            elapsed = _time.monotonic() - start
+            status = "warmed" if ok is not None else "warmup failed (will retry lazily on first request)"
+            print(f"OK - Ollama model {status} in {elapsed:.1f}s")
+
+        threading.Thread(target=_warm_ollama, daemon=True).start()
+
+
 
 class StartResponse(BaseModel):
     conversation_id: str
