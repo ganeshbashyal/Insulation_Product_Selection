@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import urllib.error
 import urllib.request
 from pathlib import Path
@@ -137,6 +138,11 @@ def is_safe_reply(text: str | None, max_length: int = 400) -> bool:
     fall back to the literal fallback text when this returns False. Shared by
     every phrase() caller (questions, recommendations, router prompts) so the
     same leak can never slip through one call site but not another.
+
+    Also rejects a reply that was cut off mid-sentence by the num_predict
+    token cap (e.g. "...before w") - a customer must never see a truncated
+    recommendation. A reply is considered complete only if it ends on
+    terminal punctuation or a closing bold/quote mark.
     """
     if not text or "\n" in text:
         return False
@@ -144,6 +150,8 @@ def is_safe_reply(text: str | None, max_length: int = 400) -> bool:
         return False
     lowered = text.casefold()
     if "rephrase" in lowered or "original question" in lowered or "original message" in lowered:
+        return False
+    if not re.search(r'[.!?][\'")*]*$', text.strip()):
         return False
     return True
 
@@ -177,7 +185,7 @@ def phrase(fallback_text: str, context: dict | None = None, is_opening: bool = F
             "do not greet the customer or reintroduce yourself, just phrase the message below naturally.\n\n"
             + user_prompt
         )
-    rephrased = generate_reply(SYSTEM_PROMPT, user_prompt)
+    rephrased = generate_reply(SYSTEM_PROMPT, user_prompt, max_tokens=220)
     if rephrased and is_safe_reply(rephrased, max_length=max(400, len(fallback_text) * 3)):
         if len(_PHRASE_CACHE) < 256:
             _PHRASE_CACHE[key] = rephrased

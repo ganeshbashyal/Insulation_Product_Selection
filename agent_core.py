@@ -70,7 +70,17 @@ def extract_from_opening(text: str) -> dict[str, str]:
     found: dict[str, str] = {}
     if any(term in folded for terms in _APPLICATION_TERMS.values() for term in terms):
         found["application"] = text
-    if any(term in folded for terms in _PRIORITY_TERMS.values() for term in terms):
+    # Require at least two distinct priority-signal words before treating the
+    # priority question as already answered. A single incidental word (e.g.
+    # "cold" in "cold bedroom") merely describes the presenting symptom, not
+    # a stated preference, and locking it in as "priority" skipped the
+    # explicit priority question entirely - observed to misdirect the whole
+    # recommendation when a stronger, more specific signal (e.g. "rain noise
+    # on the roof") only showed up in a later answer. A real opening
+    # statement like "traffic noise through the front wall" still matches
+    # two terms ("noise" + "traffic") and continues to auto-skip correctly.
+    priority_hits = sum(term in folded for terms in _PRIORITY_TERMS.values() for term in terms)
+    if priority_hits >= 2:
         found["priority"] = text
     if any(term in folded for term in _PROJECT_TERMS):
         found["project"] = text
