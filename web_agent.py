@@ -16,8 +16,23 @@ Run locally:
     pip install fastapi uvicorn python-docx
     uvicorn web_agent:app --host 0.0.0.0 --port 8000
 
+Environment:
+    AURORA_ENV                      "development" (default) or "production".
+                                    Production flips the hardening defaults below.
+    AURORA_SITE_API_KEY_<SITE_ID>   Injected API key for a site, e.g.
+                                    AURORA_SITE_API_KEY_LOCAL. Takes precedence
+                                    over any api_key in config/sites/*.json, and
+                                    is mandatory when AURORA_ENV=production.
+    AURORA_REQUIRE_ORIGIN           Refuse requests with no Origin header.
+                                    Defaults to true in production.
+    AURORA_ENABLE_DEMO_CHAT         Serve the /chat development harness.
+                                    Defaults to false in production.
+    AURORA_DEMO_CHAT_SITE_ID        Site the /chat harness authenticates as
+                                    (default "local").
+    AGENT_USE_LLM                   Force phrasing on/off; auto-detected if unset.
+
 Endpoints:
-    GET  /chat                             embedded chat UI
+    GET  /chat                             embedded chat UI (development only)
     GET  /api/widget-config?site_id=X     site branding for widget injection
     POST /api/conversations                start conversation (X-API-Key header)
     POST /api/conversations/{id}/messages  send message (X-API-Key header)
@@ -44,10 +59,39 @@ from conversation_service import ConversationService
 from auth_middleware import AuthMiddleware, AuditLog
 from cors_validator import CORSValidator
 from session_store import SQLiteSessionStore
-from site_config import load_all_sites, SiteConfigError
+from site_config import load_all_sites, SiteConfigError, is_production
 from widget_config import WidgetConfigProvider
 
 app = FastAPI(title="Insulation Enquiry Agent", version="2.0.0")
+
+# Production hardening switches. Both default to the safe value whenever
+# AURORA_ENV=production, so a production deployment is locked down even if the
+# operator sets nothing, while local development keeps working untouched.
+IS_PRODUCTION = is_production()
+
+# Refuse public conversation requests that arrive without an Origin header.
+# The embedded widget always sends one, so in production a missing Origin means
+# the caller is not a browser. Off in development so curl and TestClient work.
+REQUIRE_ORIGIN = (
+    os.getenv("AURORA_REQUIRE_ORIGIN", "true" if IS_PRODUCTION else "false")
+    .strip()
+    .casefold()
+    == "true"
+)
+
+# The bundled /chat page is a development harness: it is a first-party page
+# that must hold a site API key in browser-readable JavaScript to talk to the
+# API. That is acceptable for local testing and never acceptable in production,
+# so the route is disabled there.
+DEMO_CHAT_ENABLED = (
+    os.getenv("AURORA_ENABLE_DEMO_CHAT", "false" if IS_PRODUCTION else "true")
+    .strip()
+    .casefold()
+    == "true"
+)
+
+# Which site the development /chat harness authenticates as.
+DEMO_CHAT_SITE_ID = os.getenv("AURORA_DEMO_CHAT_SITE_ID", "local")
 
 # AGENT_USE_LLM lets an operator force phrasing on/off explicitly. Left unset,
 # auto-detect: if a local Ollama server is actually reachable at startup, turn
@@ -176,10 +220,11 @@ button{padding:11px 18px;border:0;border-radius:10px;background:var(--teal);colo
 <form id="f"><input id="in" autocomplete="off" placeholder="Type your answer&hellip;"><button>Send</button></form>
 <script>
 let convo=null;const log=document.getElementById('log');
+const API_KEY=__AURORA_DEMO_KEY__;const SITE_ID=__AURORA_DEMO_SITE__;
 function add(text,cls){const d=document.createElement('div');d.className='msg '+cls;d.textContent=text;log.appendChild(d);log.scrollTop=log.scrollHeight;}
-async function start(){const r=await fetch('/api/conversations',{method:'POST',headers:{'X-API-Key':'sk_local_dev_test'}});const j=await r.json();convo=j.conversation_id;add(j.reply,'bot');}
+async function start(){const r=await fetch('/api/conversations?site_id='+encodeURIComponent(SITE_ID),{method:'POST',headers:{'X-API-Key':API_KEY}});const j=await r.json();convo=j.conversation_id;add(j.reply,'bot');}
 document.getElementById('f').addEventListener('submit',async e=>{e.preventDefault();const i=document.getElementById('in');const m=i.value.trim();if(!m||!convo)return;i.value='';add(m,'user');
-const r=await fetch('/api/conversations/'+convo+'/messages',{method:'POST',headers:{'Content-Type':'application/json','X-API-Key':'sk_local_dev_test'},body:JSON.stringify({message:m})});const j=await r.json();add(j.reply,'bot');if(j.done){i.placeholder='Enquiry sent for review';}});
+const r=await fetch('/api/conversations/'+convo+'/messages?site_id='+encodeURIComponent(SITE_ID),{method:'POST',headers:{'Content-Type':'application/json','X-API-Key':API_KEY},body:JSON.stringify({message:m})});const j=await r.json();add(j.reply,'bot');if(j.done){i.placeholder='Enquiry sent for review';}});
 start();
 </script></body></html>"""
 
@@ -210,17 +255,29 @@ def _auth_and_cors(request: Request, site_id: str) -> dict[str, str]:
         audit_log.log("site_mismatch", site_id=site_id, ip_address=client_ip, status_code=403)
         raise HTTPException(status_code=403, detail="Site ID mismatch")
 
+    # Origin enforcement. A browser-originated request must come from an origin
+    # on the site's allowlist; anything else is refused outright rather than
+    # merely served without CORS headers. Withholding the headers only stops a
+    # compliant browser reading the body - it does not stop the request, so the
+    # work is still done and the data still leaves the process.
+    if origin and not cors_validator.is_origin_allowed(site_id, origin):
+        audit_log.log("cors_blocked", site_id=site_id, ip_address=client_ip, status_code=403)
+        raise HTTPException(status_code=403, detail="Origin not allowed")
+
+    # A request with no Origin header is not a browser request. In production
+    # that is refused for public conversation endpoints, because the widget
+    # always sends one; in development it is allowed so curl and the test
+    # client keep working.
+    if not origin and REQUIRE_ORIGIN:
+        audit_log.log("origin_missing", site_id=site_id, ip_address=client_ip, status_code=403)
+        raise HTTPException(status_code=403, detail="Origin header required")
+
     # Check rate limit
     if not auth_middleware.check_rate_limit(site_id, client_ip):
         audit_log.log("rate_limit_hit", site_id=site_id, ip_address=client_ip, status_code=429)
         raise HTTPException(status_code=429, detail="Rate limit exceeded")
 
-    # Get CORS headers
-    cors_headers = cors_validator.get_cors_headers(site_id, origin)
-    if not cors_headers and origin:  # Origin was provided but not allowed
-        audit_log.log("cors_blocked", site_id=site_id, ip_address=client_ip, status_code=403)
-        # Still reject, don't return headers
-        cors_headers = {}
+    cors_headers = cors_validator.get_cors_headers(site_id, origin) if origin else {}
 
     audit_log.log("auth_success", site_id=site_id, ip_address=client_ip, status_code=200)
     return cors_headers
@@ -228,7 +285,31 @@ def _auth_and_cors(request: Request, site_id: str) -> dict[str, str]:
 
 @app.get("/chat", response_class=HTMLResponse)
 def chat() -> str:
-    return CHAT_HTML
+    """
+    Development chat harness.
+
+    Disabled whenever AURORA_ENV=production (or AURORA_ENABLE_DEMO_CHAT=false),
+    because this page necessarily exposes a site API key to the browser. The key
+    is injected from the resolved site config at render time rather than being
+    hardcoded, so no credential literal ships in the source.
+    """
+    if not DEMO_CHAT_ENABLED:
+        raise HTTPException(status_code=404, detail="Not found")
+
+    site = (sites or {}).get(DEMO_CHAT_SITE_ID)
+    if site is None or not site.api_key:
+        raise HTTPException(
+            status_code=503,
+            detail=(
+                f"Demo chat site '{DEMO_CHAT_SITE_ID}' is not configured with an "
+                "API key. Set AURORA_DEMO_CHAT_SITE_ID or supply the site's key."
+            ),
+        )
+
+    return (
+        CHAT_HTML.replace("__AURORA_DEMO_KEY__", json.dumps(site.api_key))
+        .replace("__AURORA_DEMO_SITE__", json.dumps(site.site_id))
+    )
 
 
 @app.get("/api/widget-config")
@@ -236,13 +317,16 @@ async def get_widget_config(site_id: str, request: Request):
     """Get site configuration for client-side widget injection."""
     origin = request.headers.get("Origin", "")
 
-    # No auth required for widget config (it's public branding data)
-    # But still enforce CORS
+    # No auth required for widget config (it's public branding data), but an
+    # explicit cross-origin caller must still be on the site's allowlist.
     config = widget_provider.get_widget_config(site_id)
     if not config:
         raise HTTPException(status_code=404, detail=f"Site not found: {site_id}")
 
-    cors_headers = cors_validator.get_cors_headers(site_id, origin)
+    if origin and not cors_validator.is_origin_allowed(site_id, origin):
+        raise HTTPException(status_code=403, detail="Origin not allowed")
+
+    cors_headers = cors_validator.get_cors_headers(site_id, origin) if origin else {}
     return JSONResponse(config, headers=cors_headers)
 
 

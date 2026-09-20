@@ -5,6 +5,7 @@ Validates API keys per site, enforces rate limiting, and audit logs auth events.
 from __future__ import annotations
 
 import json
+import hmac
 import sqlite3
 import time
 from abc import ABC, abstractmethod
@@ -138,9 +139,13 @@ class AuthMiddleware:
         if not api_key:
             return "Missing API key", None
 
-        # Find site by API key
+        # Constant-time comparison, and sites with no configured key can never
+        # be matched - otherwise an unconfigured site would be authenticated by
+        # any caller that happened to send a blank-equivalent value.
         for site_id, config in self.sites.items():
-            if config.api_key == api_key:
+            if not config.api_key:
+                continue
+            if hmac.compare_digest(config.api_key, api_key):
                 return None, config
 
         return "Invalid API key", None

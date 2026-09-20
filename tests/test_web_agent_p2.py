@@ -98,7 +98,7 @@ class TestAuthAndCors:
         assert response.headers["Access-Control-Allow-Origin"] == "http://localhost:3000"
 
     def test_auth_blocks_disallowed_origin(self, client):
-        """Request from disallowed origin gets no CORS headers (403-like behavior)."""
+        """Request from a disallowed origin is refused outright."""
         response = client.post(
             "/api/conversations?site_id=local",
             headers={
@@ -106,9 +106,9 @@ class TestAuthAndCors:
                 "Origin": "https://attacker.example.com"
             }
         )
-        # Still 200 because CORS doesn't block server-side (browser enforces)
-        # but client won't accept response due to missing CORS headers
-        assert response.status_code == 200 or response.status_code == 403
+        # Withholding CORS headers alone would not stop the request being
+        # served to a non-browser client, so the request itself is rejected.
+        assert response.status_code == 403
 
 
 class TestSiteScoping:
