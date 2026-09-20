@@ -238,9 +238,25 @@ button{padding:11px 18px;border:0;border-radius:10px;background:var(--teal);colo
 let convo=null;const log=document.getElementById('log');
 const API_KEY=__AURORA_DEMO_KEY__;const SITE_ID=__AURORA_DEMO_SITE__;
 function add(text,cls){const d=document.createElement('div');d.className='msg '+cls;d.textContent=text;log.appendChild(d);log.scrollTop=log.scrollHeight;}
-async function start(){const r=await fetch('/api/conversations?site_id='+encodeURIComponent(SITE_ID),{method:'POST',headers:{'X-API-Key':API_KEY}});const j=await r.json();convo=j.conversation_id;add(j.reply,'bot');}
+// Surface failures instead of rendering `undefined` into an empty bubble. A 403
+// from the origin allowlist used to look identical to a silent hang, which made
+// a one-line config problem very hard to tell apart from a broken server.
+async function post(url,body){
+  let r;
+  try{r=await fetch(url,{method:'POST',headers:{'Content-Type':'application/json','X-API-Key':API_KEY},body:body?JSON.stringify(body):undefined});}
+  catch(e){throw new Error('Cannot reach the API: '+e.message);}
+  let j=null;try{j=await r.json();}catch(e){}
+  if(!r.ok)throw new Error('HTTP '+r.status+' - '+((j&&j.detail)||r.statusText));
+  return j;
+}
+async function start(){
+  try{const j=await post('/api/conversations?site_id='+encodeURIComponent(SITE_ID));convo=j.conversation_id;add(j.reply,'bot');}
+  catch(e){add(e.message,'bot');}
+}
 document.getElementById('f').addEventListener('submit',async e=>{e.preventDefault();const i=document.getElementById('in');const m=i.value.trim();if(!m||!convo)return;i.value='';add(m,'user');
-const r=await fetch('/api/conversations/'+convo+'/messages?site_id='+encodeURIComponent(SITE_ID),{method:'POST',headers:{'Content-Type':'application/json','X-API-Key':API_KEY},body:JSON.stringify({message:m})});const j=await r.json();add(j.reply,'bot');if(j.done){i.placeholder='Enquiry sent for review';}});
+  try{const j=await post('/api/conversations/'+convo+'/messages?site_id='+encodeURIComponent(SITE_ID),{message:m});add(j.reply,'bot');if(j.done){i.placeholder='Enquiry sent for review';}}
+  catch(e){add(e.message,'bot');}
+});
 start();
 </script></body></html>"""
 
