@@ -1,7 +1,7 @@
 {
   "family_id": "AUTEX_GRID_CEILING_TILES_LINEAR_HATCH_ANGLE_LO_3",
   "family_name": "Autex Grid Ceiling Tiles - Linear/Hatch/Angle/Louvre - Square - Capped",
-  "datasheet_pdf_url": "",
+  "datasheet_pdf_url": "https://cdn.mediavalet.com/aunsw/autex/2P1vrOWCVE6M_vSFlSrEdw/f5ZQQpLQrU6jl2vud2IzSQ/Original/Grid%20Ceiling%20Tiles_Data%20Sheet.pdf",
   "sds_url": "",
   "status": "ok",
   "researched_at": "2026-09-06",
@@ -18,39 +18,39 @@
       },
       {
         "c0": "Linear (Square Slats)",
-        "c1": "600 mm × 600 mm",
-        "c2": "595 mm × 595 mm",
-        "c3": "~80 mm – 103 mm",
+        "c1": "600 mm \u00d7 600 mm",
+        "c2": "595 mm \u00d7 595 mm",
+        "c3": "~80 mm \u2013 103 mm",
         "c4": "Capped (Solid back)",
-        "c5": "8 tiles / carton (2.88 m²)",
-        "c6": "NRC 0.60 – 0.75+"
+        "c5": "8 tiles / carton (2.88 m\u00b2)",
+        "c6": "NRC 0.60 \u2013 0.75+"
       },
       {
         "c0": "Hatch (Square Lattice)",
-        "c1": "600 mm × 600 mm",
-        "c2": "595 mm × 595 mm",
-        "c3": "~80 mm – 103 mm",
+        "c1": "600 mm \u00d7 600 mm",
+        "c2": "595 mm \u00d7 595 mm",
+        "c3": "~80 mm \u2013 103 mm",
         "c4": "Capped (Solid back)",
-        "c5": "8 tiles / carton (2.88 m²)",
-        "c6": "NRC 0.65 – 0.80"
+        "c5": "8 tiles / carton (2.88 m\u00b2)",
+        "c6": "NRC 0.65 \u2013 0.80"
       },
       {
         "c0": "Angle (Square Slanted)",
-        "c1": "600 mm × 600 mm",
-        "c2": "595 mm × 595 mm",
-        "c3": "~80 mm – 103 mm",
+        "c1": "600 mm \u00d7 600 mm",
+        "c2": "595 mm \u00d7 595 mm",
+        "c3": "~80 mm \u2013 103 mm",
         "c4": "Capped (Solid back)",
-        "c5": "8 tiles / carton (2.88 m²)",
-        "c6": "NRC 0.60 – 0.75+"
+        "c5": "8 tiles / carton (2.88 m\u00b2)",
+        "c6": "NRC 0.60 \u2013 0.75+"
       },
       {
         "c0": "Louvre (Square Louvre)",
-        "c1": "600 mm × 600 mm",
-        "c2": "595 mm × 595 mm",
-        "c3": "~80 mm – 103 mm",
+        "c1": "600 mm \u00d7 600 mm",
+        "c2": "595 mm \u00d7 595 mm",
+        "c3": "~80 mm \u2013 103 mm",
         "c4": "Capped (Solid back)",
-        "c5": "8 tiles / carton (2.88 m²)",
-        "c6": "NRC 0.60 – 0.75+"
+        "c5": "8 tiles / carton (2.88 m\u00b2)",
+        "c6": "NRC 0.60 \u2013 0.75+"
       }
     ],
     "description": "",
@@ -111,5 +111,7 @@
   "source_excerpt": null,
   "engine": "knowledge_base_txt",
   "range_source": "manufacturer granular sizing matrix (knowledge-base dump)",
-  "schema_version": "1.0"
+  "schema_version": "1.0",
+  "datasheet_local_path": "data/tds/autex/autex_grid_ceiling_tiles_vault_square_uncapped.pdf",
+  "datasheet_source": "shared_range:AUTEX_GRID_CEILING_TILES_VAULT_SQUARE_UNCAPPED"
 }

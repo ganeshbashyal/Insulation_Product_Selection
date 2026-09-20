@@ -1,7 +1,7 @@
 {
   "family_id": "AUTEX_SOLID_COLOUR_CUBE",
   "family_name": "Autex Solid Colour Cube",
-  "datasheet_pdf_url": "",
+  "datasheet_pdf_url": "https://cdn.mediavalet.com/aunsw/autex/WQy9apLXOkSWnFbgSFF_Dw/yHhPYydqiEmaZP2RLoMz0g/Original/AU%20Cube%20Data%20Sheet.pdf",
   "sds_url": "",
   "status": "ok",
   "researched_at": "2026-09-06",
@@ -16,44 +16,44 @@
         "c5": "Sound Absorption Rating"
       },
       {
-        "c0": "12 mm (±6%)",
-        "c1": "1220 mm × 2440 mm",
-        "c2": "2.98 m²",
+        "c0": "12 mm (\u00b16%)",
+        "c1": "1220 mm \u00d7 2440 mm",
+        "c2": "2.98 m\u00b2",
         "c3": "2400 gsm (~7.15 kg)",
         "c4": "Clean square edge",
         "c5": "NRC 0.45 (direct) / 0.70 (air gap)"
       },
       {
-        "c0": "12 mm (±6%)",
-        "c1": "1220 mm × 2740 mm",
-        "c2": "3.34 m²",
+        "c0": "12 mm (\u00b16%)",
+        "c1": "1220 mm \u00d7 2740 mm",
+        "c2": "3.34 m\u00b2",
         "c3": "2400 gsm (~8.02 kg)",
         "c4": "Clean square edge",
         "c5": "NRC 0.45 (direct) / 0.70 (air gap)"
       },
       {
-        "c0": "24 mm (±6%)",
-        "c1": "1220 mm × 2440 mm",
-        "c2": "2.98 m²",
+        "c0": "24 mm (\u00b16%)",
+        "c1": "1220 mm \u00d7 2440 mm",
+        "c2": "2.98 m\u00b2",
         "c3": "4800 gsm (~14.3 kg)",
         "c4": "Clean square edge",
         "c5": "NRC 0.70 (direct) / 0.80 (air gap)"
       },
       {
-        "c0": "24 mm (±6%)",
-        "c1": "1220 mm × 2740 mm",
-        "c2": "3.34 m²",
+        "c0": "24 mm (\u00b16%)",
+        "c1": "1220 mm \u00d7 2740 mm",
+        "c2": "3.34 m\u00b2",
         "c3": "4800 gsm (~16.0 kg)",
         "c4": "Clean square edge",
         "c5": "NRC 0.70 (direct) / 0.80 (air gap)"
       },
       {
         "c0": "Custom Length",
-        "c1": "Up to 3600 mm × 1220 mm",
-        "c2": "Up to 4.39 m²",
+        "c1": "Up to 3600 mm \u00d7 1220 mm",
+        "c2": "Up to 4.39 m\u00b2",
         "c3": "2400 / 4800 gsm",
         "c4": "Square or bevelled",
-        "c5": "NRC 0.45 – 0.80"
+        "c5": "NRC 0.45 \u2013 0.80"
       }
     ],
     "accessories_upsell": "Autex SpinFix mounting hardware, Peel 'n' Stick backing, or contact adhesive.",
@@ -99,5 +99,7 @@
   "source_excerpt": null,
   "engine": "knowledge_base_txt",
   "range_source": "manufacturer granular sizing matrix (knowledge-base dump)",
-  "schema_version": "1.0"
+  "schema_version": "1.0",
+  "datasheet_local_path": "data/tds/autex/autex_cube.pdf",
+  "datasheet_source": "shared_range:AUTEX_CUBE"
 }

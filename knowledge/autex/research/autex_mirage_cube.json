@@ -1,7 +1,7 @@
 {
   "family_id": "AUTEX_MIRAGE_CUBE",
   "family_name": "Autex Mirage Cube",
-  "datasheet_pdf_url": "",
+  "datasheet_pdf_url": "https://cdn.mediavalet.com/aunsw/autex/WQy9apLXOkSWnFbgSFF_Dw/yHhPYydqiEmaZP2RLoMz0g/Original/AU%20Cube%20Data%20Sheet.pdf",
   "sds_url": "",
   "status": "ok",
   "researched_at": "2026-09-06",
@@ -17,38 +17,38 @@
         "c6": "Acoustic NRC (24mm Air Gap)"
       },
       {
-        "c0": "12 mm (±6%)",
-        "c1": "1200 mm × 2400 mm",
-        "c2": "2.88 m²",
+        "c0": "12 mm (\u00b16%)",
+        "c1": "1200 mm \u00d7 2400 mm",
+        "c2": "2.88 m\u00b2",
         "c3": "~2400 gsm (~6.9 kg)",
-        "c4": "4 mm 45° bevel",
+        "c4": "4 mm 45\u00b0 bevel",
         "c5": "NRC 0.45",
         "c6": "NRC 0.70"
       },
       {
-        "c0": "12 mm (±6%)",
-        "c1": "1200 mm × 2700 mm",
-        "c2": "3.24 m²",
+        "c0": "12 mm (\u00b16%)",
+        "c1": "1200 mm \u00d7 2700 mm",
+        "c2": "3.24 m\u00b2",
         "c3": "~2400 gsm (~7.8 kg)",
-        "c4": "4 mm 45° bevel",
+        "c4": "4 mm 45\u00b0 bevel",
         "c5": "NRC 0.45",
         "c6": "NRC 0.70"
       },
       {
-        "c0": "24 mm (±6%)",
-        "c1": "1200 mm × 2400 mm",
-        "c2": "2.88 m²",
+        "c0": "24 mm (\u00b16%)",
+        "c1": "1200 mm \u00d7 2400 mm",
+        "c2": "2.88 m\u00b2",
         "c3": "~4800 gsm (~13.8 kg)",
-        "c4": "4 mm 45° bevel",
+        "c4": "4 mm 45\u00b0 bevel",
         "c5": "NRC 0.70",
         "c6": "NRC 0.80"
       },
       {
-        "c0": "24 mm (±6%)",
-        "c1": "1200 mm × 2700 mm",
-        "c2": "3.24 m²",
+        "c0": "24 mm (\u00b16%)",
+        "c1": "1200 mm \u00d7 2700 mm",
+        "c2": "3.24 m\u00b2",
         "c3": "~4800 gsm (~15.6 kg)",
-        "c4": "4 mm 45° bevel",
+        "c4": "4 mm 45\u00b0 bevel",
         "c5": "NRC 0.70",
         "c6": "NRC 0.80"
       }
@@ -106,5 +106,7 @@
   "source_excerpt": null,
   "engine": "knowledge_base_txt",
   "range_source": "manufacturer granular sizing matrix (knowledge-base dump)",
-  "schema_version": "1.0"
+  "schema_version": "1.0",
+  "datasheet_local_path": "data/tds/autex/autex_cube.pdf",
+  "datasheet_source": "shared_range:AUTEX_CUBE"
 }

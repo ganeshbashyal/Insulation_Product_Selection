@@ -1,7 +1,7 @@
 {
   "family_id": "AUTEX_WILLIE_WESTON_EMMA_HAYES_CUBE",
   "family_name": "Autex Willie Weston / Emma Hayes Cube",
-  "datasheet_pdf_url": "https://www.autexglobal.com/au/products/cube/",
+  "datasheet_pdf_url": "https://cdn.mediavalet.com/aunsw/autex/WQy9apLXOkSWnFbgSFF_Dw/yHhPYydqiEmaZP2RLoMz0g/Original/AU%20Cube%20Data%20Sheet.pdf",
   "sds_url": "https://www.autexglobal.com/au/resources/technical-documents/",
   "status": "ok",
   "researched_at": "2026-09-06",
@@ -67,7 +67,7 @@
       },
       {
         "property": "Water\nVapour Sorption",
-        "value": "0.4% by weight after 4 days at 49°C, 95% RH",
+        "value": "0.4% by weight after 4 days at 49\u00b0C, 95% RH",
         "standard": "ASTM C1104 / C1104M-13a"
       },
       {
@@ -192,5 +192,7 @@
   "source_excerpt": null,
   "engine": "ai_studio_batch",
   "schema_version": "1.0",
-  "range_source": ""
+  "range_source": "",
+  "datasheet_local_path": "data/tds/autex/autex_cube.pdf",
+  "datasheet_source": "shared_range:AUTEX_CUBE"
 }

@@ -1,7 +1,7 @@
 {
   "family_id": "AUTEX_GRID_CEILING_TILES_FRAME_RECTANGLE_UNCAP",
   "family_name": "Autex Grid Ceiling Tiles - Frame - Rectangle - Uncapped",
-  "datasheet_pdf_url": "",
+  "datasheet_pdf_url": "https://cdn.mediavalet.com/aunsw/autex/2P1vrOWCVE6M_vSFlSrEdw/f5ZQQpLQrU6jl2vud2IzSQ/Original/Grid%20Ceiling%20Tiles_Data%20Sheet.pdf",
   "sds_url": "",
   "status": "ok",
   "researched_at": "2026-09-06",
@@ -17,13 +17,13 @@
         "c6": "NRC Rating"
       },
       {
-        "c0": "1200 mm × 600 mm",
-        "c1": "595 mm × 1195 mm",
-        "c2": "~80 mm – 100 mm",
+        "c0": "1200 mm \u00d7 600 mm",
+        "c1": "595 mm \u00d7 1195 mm",
+        "c2": "~80 mm \u2013 100 mm",
         "c3": "Standard 15mm or 24mm exposed T-bar tee",
         "c4": "Uncapped (Open to plenum)",
         "c5": "12 mm Cube (PET)",
-        "c6": "0.25 – 0.35"
+        "c6": "0.25 \u2013 0.35"
       }
     ],
     "description": "",
@@ -77,5 +77,7 @@
   "source_excerpt": null,
   "engine": "knowledge_base_txt",
   "range_source": "manufacturer granular sizing matrix (knowledge-base dump)",
-  "schema_version": "1.0"
+  "schema_version": "1.0",
+  "datasheet_local_path": "data/tds/autex/autex_grid_ceiling_tiles_vault_square_uncapped.pdf",
+  "datasheet_source": "shared_range:AUTEX_GRID_CEILING_TILES_VAULT_SQUARE_UNCAPPED"
 }

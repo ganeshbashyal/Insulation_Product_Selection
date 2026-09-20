@@ -1,7 +1,7 @@
 {
   "family_id": "AUTEX_COMPOSITION_SMOOTH_ROLL",
   "family_name": "Autex Composition - Smooth Roll",
-  "datasheet_pdf_url": "",
+  "datasheet_pdf_url": "https://cdn.mediavalet.com/aunsw/autex/otDZn5oeBUmKBopa_5u2UA/jGYOi-Q89kGkR8UV0IKNnQ/Original/Composition%20Data%20Sheet%20AU.pdf",
   "sds_url": "",
   "status": "ok",
   "researched_at": "2026-09-06",
@@ -19,8 +19,8 @@
       {
         "c0": "1.22 m (+5mm)",
         "c1": "25.0 m (+10mm)",
-        "c2": "30.5 m²",
-        "c3": "10 mm – 12 mm",
+        "c2": "30.5 m\u00b2",
+        "c3": "10 mm \u2013 12 mm",
         "c4": "~51.0 kg (~1680 gsm)",
         "c5": "~650 mm",
         "c6": "NRC 0.40"
@@ -72,5 +72,7 @@
   "source_excerpt": null,
   "engine": "knowledge_base_txt",
   "range_source": "manufacturer granular sizing matrix (knowledge-base dump)",
-  "schema_version": "1.0"
+  "schema_version": "1.0",
+  "datasheet_local_path": "data/tds/autex/autex_composition_velour_roll.pdf",
+  "datasheet_source": "shared_range:AUTEX_COMPOSITION_VELOUR_ROLL"
 }

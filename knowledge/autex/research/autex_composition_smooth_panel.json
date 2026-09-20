@@ -1,7 +1,7 @@
 {
   "family_id": "AUTEX_COMPOSITION_SMOOTH_PANEL",
   "family_name": "Autex Composition - Smooth Panel",
-  "datasheet_pdf_url": "",
+  "datasheet_pdf_url": "https://cdn.mediavalet.com/aunsw/autex/otDZn5oeBUmKBopa_5u2UA/jGYOi-Q89kGkR8UV0IKNnQ/Original/Composition%20Data%20Sheet%20AU.pdf",
   "sds_url": "",
   "status": "ok",
   "researched_at": "2026-09-06",
@@ -18,21 +18,21 @@
       },
       {
         "c0": "Peel 'n' Stick Tiles",
-        "c1": "600 mm × 600 mm",
-        "c2": "10 mm – 12 mm",
-        "c3": "1600–1780 gsm",
+        "c1": "600 mm \u00d7 600 mm",
+        "c2": "10 mm \u2013 12 mm",
+        "c3": "1600\u20131780 gsm",
         "c4": "Square edge",
         "c5": "NRC 0.40",
-        "c6": "Box of 6 tiles (2.16 m²)"
+        "c6": "Box of 6 tiles (2.16 m\u00b2)"
       },
       {
         "c0": "Pre-Cut Wall Panels",
-        "c1": "1200 mm × 2400 mm",
-        "c2": "10 mm – 12 mm",
-        "c3": "1600–1780 gsm",
+        "c1": "1200 mm \u00d7 2400 mm",
+        "c2": "10 mm \u2013 12 mm",
+        "c3": "1600\u20131780 gsm",
         "c4": "Square edge",
         "c5": "NRC 0.40",
-        "c6": "Single panel (2.88 m²)"
+        "c6": "Single panel (2.88 m\u00b2)"
       }
     ],
     "description": "",
@@ -83,5 +83,7 @@
   "source_excerpt": null,
   "engine": "knowledge_base_txt",
   "range_source": "manufacturer granular sizing matrix (knowledge-base dump)",
-  "schema_version": "1.0"
+  "schema_version": "1.0",
+  "datasheet_local_path": "data/tds/autex/autex_composition_velour_roll.pdf",
+  "datasheet_source": "shared_range:AUTEX_COMPOSITION_VELOUR_ROLL"
 }
