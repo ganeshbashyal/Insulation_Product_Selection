@@ -3,7 +3,8 @@
     "manufacturer": "acoustica",
     "path": "data/tds/acoustica/acoustica_acoustic_barrier.docx",
     "sha256": "de491a240c07be2c92f64c9d4041f98552e2575154da0d87aec1bbc981995079",
-    "origin": "researched"
+    "origin": "supplied_manually",
+    "inbox_name": "acoustica_acoustic_barrier.docx"
   },
   "ACOUSTICA_ACOUSTIFLEX_SQ": {
     "manufacturer": "acoustica",
@@ -15,7 +16,8 @@
     "manufacturer": "acoustica",
     "path": "data/tds/acoustica/acoustica_angelstep.docx",
     "sha256": "1d147c0c2860162443527090d90ce385d5f72ba50de377acc7f5eed875a7e827",
-    "origin": "researched"
+    "origin": "supplied_manually",
+    "inbox_name": "acoustica_angelstep.docx"
   },
   "ACOUSTICA_GL": {
     "manufacturer": "acoustica",
@@ -39,7 +41,8 @@
     "manufacturer": "aircell",
     "path": "data/tds/aircell/aircell_insulbreak.pdf",
     "sha256": "9493ae546ba4147ba99de6f72714b979da21df3e15c0dd7e1dd56e51fbbdd9fe",
-    "origin": "researched"
+    "origin": "supplied_manually",
+    "inbox_name": "aircell_insulbreak.pdf"
   },
   "AIRCELL_INSULINER": {
     "manufacturer": "aircell",
@@ -51,7 +54,8 @@
     "manufacturer": "aircell",
     "path": "data/tds/aircell/aircell_insulshed.pdf",
     "sha256": "dd270ddecfb25112bbd18d4d4946acf175804afe9706e268c26867814f232ade",
-    "origin": "researched"
+    "origin": "supplied_manually",
+    "inbox_name": "aircell_insulshed.pdf"
   },
   "AIRCELL_INSULWHITE": {
     "manufacturer": "aircell",
@@ -93,19 +97,22 @@
     "manufacturer": "autex",
     "path": "data/tds/autex/autex_cove_acoustic_desk_divider_arc.pdf",
     "sha256": "cd836fdba9cdfdb6c94401c0c0e3ad9b3987a5dda80e2a05ae4e7bddfba47eb4",
-    "origin": "researched"
+    "origin": "supplied_manually",
+    "inbox_name": "autex_cove_acoustic_desk_divider_arc.pdf"
   },
   "AUTEX_COVE_ACOUSTIC_DESK_DIVIDER_BEVEL": {
     "manufacturer": "autex",
     "path": "data/tds/autex/autex_cove_acoustic_desk_divider_bevel.pdf",
     "sha256": "cd836fdba9cdfdb6c94401c0c0e3ad9b3987a5dda80e2a05ae4e7bddfba47eb4",
-    "origin": "researched"
+    "origin": "supplied_manually",
+    "inbox_name": "autex_cove_acoustic_desk_divider_bevel.pdf"
   },
   "AUTEX_COVE_ACOUSTIC_DESK_DIVIDER_CLASSIC": {
     "manufacturer": "autex",
     "path": "data/tds/autex/autex_cove_acoustic_desk_divider_classic.pdf",
     "sha256": "cd836fdba9cdfdb6c94401c0c0e3ad9b3987a5dda80e2a05ae4e7bddfba47eb4",
-    "origin": "researched"
+    "origin": "supplied_manually",
+    "inbox_name": "autex_cove_acoustic_desk_divider_classic.pdf"
   },
   "AUTEX_CUBE": {
     "manufacturer": "autex",
@@ -117,31 +124,36 @@
     "manufacturer": "autex",
     "path": "data/tds/autex/autex_frontier_fins_axis.pdf",
     "sha256": "ca01a24ed8aca2984c48bbb524ab7f82dad3f424b1089ff500f3b1006732e384",
-    "origin": "researched"
+    "origin": "supplied_manually",
+    "inbox_name": "autex_frontier_fins_axis.pdf"
   },
   "AUTEX_FRONTIER_FINS_NON_STANDARD_POWDER_COATED": {
     "manufacturer": "autex",
     "path": "data/tds/autex/autex_frontier_fins_non_standard_powder_coated_extrusions.pdf",
     "sha256": "ca01a24ed8aca2984c48bbb524ab7f82dad3f424b1089ff500f3b1006732e384",
-    "origin": "researched"
+    "origin": "supplied_manually",
+    "inbox_name": "autex_frontier_fins_non_standard_powder_coated_extrusions.pdf"
   },
   "AUTEX_FRONTIER_FINS_STANDARD_KIT": {
     "manufacturer": "autex",
     "path": "data/tds/autex/autex_frontier_fins_standard_kit.pdf",
     "sha256": "ca01a24ed8aca2984c48bbb524ab7f82dad3f424b1089ff500f3b1006732e384",
-    "origin": "researched"
+    "origin": "supplied_manually",
+    "inbox_name": "autex_frontier_fins_standard_kit.pdf"
   },
   "AUTEX_FRONTIER_RAFT_BEAM": {
     "manufacturer": "autex",
     "path": "data/tds/autex/autex_frontier_raft_beam.pdf",
     "sha256": "ca01a24ed8aca2984c48bbb524ab7f82dad3f424b1089ff500f3b1006732e384",
-    "origin": "researched"
+    "origin": "supplied_manually",
+    "inbox_name": "autex_frontier_raft_beam.pdf"
   },
   "AUTEX_FRONTIER_RAFT_BLADE": {
     "manufacturer": "autex",
     "path": "data/tds/autex/autex_frontier_raft_blade.pdf",
     "sha256": "ca01a24ed8aca2984c48bbb524ab7f82dad3f424b1089ff500f3b1006732e384",
-    "origin": "researched"
+    "origin": "supplied_manually",
+    "inbox_name": "autex_frontier_raft_blade.pdf"
   },
   "AUTEX_GRID_CEILING_TILES_LINEAR_HATCH_ANGLE_LO_4": {
     "manufacturer": "autex",
@@ -153,67 +165,78 @@
     "manufacturer": "autex",
     "path": "data/tds/autex/autex_grid_ceiling_tiles_vault_rectangle_uncapped.pdf",
     "sha256": "0fbe895349a93a025a683c4a9b073a760ad3b6474066e1959d74ffbf439792bd",
-    "origin": "researched"
+    "origin": "supplied_manually",
+    "inbox_name": "autex_grid_ceiling_tiles_vault_rectangle_uncapped.pdf"
   },
   "AUTEX_GRID_CEILING_TILES_VAULT_SQUARE_UNCAPPED": {
     "manufacturer": "autex",
     "path": "data/tds/autex/autex_grid_ceiling_tiles_vault_square_uncapped.pdf",
     "sha256": "0fbe895349a93a025a683c4a9b073a760ad3b6474066e1959d74ffbf439792bd",
-    "origin": "researched"
+    "origin": "supplied_manually",
+    "inbox_name": "autex_grid_ceiling_tiles_vault_square_uncapped.pdf"
   },
   "AUTEX_GROOVE": {
     "manufacturer": "autex",
     "path": "data/tds/autex/autex_groove.pdf",
     "sha256": "40ff8451fb6b714fcff5425a0a806507501488798f2390a8c49a9a755d40dd65",
-    "origin": "researched"
+    "origin": "supplied_manually",
+    "inbox_name": "autex_groove.pdf"
   },
   "AUTEX_HORIZON_CIRCLE": {
     "manufacturer": "autex",
     "path": "data/tds/autex/autex_horizon_circle.pdf",
     "sha256": "245f1e725bf297eee44e98a63e8ba9030cf2e66b735d17ffb4d770946191e82b",
-    "origin": "researched"
+    "origin": "supplied_manually",
+    "inbox_name": "autex_horizon_circle.pdf"
   },
   "AUTEX_HORIZON_HEXAGON": {
     "manufacturer": "autex",
     "path": "data/tds/autex/autex_horizon_hexagon.pdf",
     "sha256": "245f1e725bf297eee44e98a63e8ba9030cf2e66b735d17ffb4d770946191e82b",
-    "origin": "researched"
+    "origin": "supplied_manually",
+    "inbox_name": "autex_horizon_hexagon.pdf"
   },
   "AUTEX_HORIZON_OVAL": {
     "manufacturer": "autex",
     "path": "data/tds/autex/autex_horizon_oval.pdf",
     "sha256": "245f1e725bf297eee44e98a63e8ba9030cf2e66b735d17ffb4d770946191e82b",
-    "origin": "researched"
+    "origin": "supplied_manually",
+    "inbox_name": "autex_horizon_oval.pdf"
   },
   "AUTEX_HORIZON_RECTANGLE": {
     "manufacturer": "autex",
     "path": "data/tds/autex/autex_horizon_rectangle.pdf",
     "sha256": "245f1e725bf297eee44e98a63e8ba9030cf2e66b735d17ffb4d770946191e82b",
-    "origin": "researched"
+    "origin": "supplied_manually",
+    "inbox_name": "autex_horizon_rectangle.pdf"
   },
   "AUTEX_HORIZON_SQUARE": {
     "manufacturer": "autex",
     "path": "data/tds/autex/autex_horizon_square.pdf",
     "sha256": "245f1e725bf297eee44e98a63e8ba9030cf2e66b735d17ffb4d770946191e82b",
-    "origin": "researched"
+    "origin": "supplied_manually",
+    "inbox_name": "autex_horizon_square.pdf"
   },
   "AUTEX_HORIZON_STEEL_CABLE": {
     "manufacturer": "autex",
     "path": "data/tds/autex/autex_horizon_steel_cable.pdf",
     "sha256": "245f1e725bf297eee44e98a63e8ba9030cf2e66b735d17ffb4d770946191e82b",
-    "origin": "researched"
+    "origin": "supplied_manually",
+    "inbox_name": "autex_horizon_steel_cable.pdf"
   },
   "ECOWOOL_ACOUSTIC_PARTITION_ROLL": {
     "manufacturer": "ecowool",
     "path": "data/tds/ecowool/ecowool_acoustic_partition_roll.pdf",
     "sha256": "4fe6606fa4c485fae0d4667fa8bbd5cce56e449fe737fb436214eabab56e816f",
-    "origin": "researched"
+    "origin": "supplied_manually",
+    "inbox_name": "ecowool_acoustic_partition_roll.pdf"
   },
   "FLETCHER_FF_HD_LEGACY": {
     "manufacturer": "fletcher",
     "path": "data/tds/fletcher/sisalation_ff_hd_facing_roll_identity_review.pdf",
     "sha256": "e29e77e29c7829bef9a5d41221808cd50a75dd2d08968cde56039d3cbe8d3a6d",
-    "origin": "researched"
+    "origin": "supplied_manually",
+    "inbox_name": "sisalation_ff_hd_facing_roll_identity_review.pdf"
   },
   "FLETCHER_FI24_FLEX_DUCTLINER": {
     "manufacturer": "fletcher",
@@ -225,7 +248,8 @@
     "manufacturer": "fletcher",
     "path": "data/tds/fletcher/fi32_semi_rigid_insulation.pdf",
     "sha256": "5c07ff52a149b59a741a723eb23c7708fa2657a4cc8908b35019e5d0f3b61119",
-    "origin": "researched"
+    "origin": "supplied_manually",
+    "inbox_name": "fi32_semi_rigid_insulation.pdf"
   },
   "FLETCHER_FOAM_BUBBLE_CELL": {
     "manufacturer": "fletcher",
@@ -261,7 +285,8 @@
     "manufacturer": "fletcher",
     "path": "data/tds/fletcher/pink_batts_wall_insulation.pdf",
     "sha256": "4929b682820eb9e8a691f680d0552dd79a7af785d1c6b2848a5115b1407c028c",
-    "origin": "researched"
+    "origin": "supplied_manually",
+    "inbox_name": "pink_batts_wall_insulation.pdf"
   },
   "FLETCHER_PINK_PARTITION": {
     "manufacturer": "fletcher",
@@ -279,7 +304,8 @@
     "manufacturer": "fletcher",
     "path": "data/tds/fletcher/safe_n_silent_pro350_legacy_identity_review.pdf",
     "sha256": "8e37c5a9cc03041ba15074ab9512eec7300ad320ce54aac225890a1ec645a607",
-    "origin": "researched"
+    "origin": "supplied_manually",
+    "inbox_name": "safe_n_silent_pro350_legacy_identity_review.pdf"
   },
   "FLETCHER_SISALATION_WRAP": {
     "manufacturer": "fletcher",
@@ -291,7 +317,8 @@
     "manufacturer": "fletcher",
     "path": "data/tds/fletcher/soundbreak_acoustic_insulation.pdf",
     "sha256": "d749f1cf6a7103d9ba8ce8382afc71bd18c5fc0ace1c8cd1d9d2d750268cab66",
-    "origin": "researched"
+    "origin": "supplied_manually",
+    "inbox_name": "soundbreak_acoustic_insulation.pdf"
   },
   "FLETCHER_SUPABATT": {
     "manufacturer": "fletcher",
@@ -315,19 +342,29 @@
     "manufacturer": "fletcher",
     "path": "data/tds/fletcher/sisalation_vapawrap_residential_wall_wrap.pdf",
     "sha256": "22f2c97c3992360edff94d4ccc0c860a54427171313d38c77229b6d8fe0e8764",
-    "origin": "researched"
+    "origin": "supplied_manually",
+    "inbox_name": "sisalation_vapawrap_residential_wall_wrap.pdf"
   },
   "HUSHTEC_BATT": {
     "manufacturer": "hushtec",
     "path": "data/tds/hushtec/hushtec_batt.pdf",
     "sha256": "b9bd73a9920b704e7883be13fbf21a2d3149d4f931a390c1dea8cec807b2e5b2",
-    "origin": "researched"
+    "origin": "supplied_manually",
+    "inbox_name": "hushtec_batt.pdf"
   },
   "METECNO_BOARD": {
     "manufacturer": "metecno",
     "path": "data/tds/metecno/metecno_board.pdf",
     "sha256": "da44a9e0a2f84161e15f4647c3ce81d43f0856cc4d49308d081a385614a5b273",
-    "origin": "researched"
+    "origin": "supplied_manually",
+    "inbox_name": "metecno_board.pdf"
+  },
+  "PAROC_INSULROCK_PARTY_WALL_BATT": {
+    "manufacturer": "paroc",
+    "path": "data/tds/paroc/paroc_insulrock_party_wall_batt.pdf",
+    "sha256": "01b7eb0ca3db9e00efa49965aa616ec37e1d21e2ed0728971c9b6a299ec0a35d",
+    "origin": "supplied_manually",
+    "inbox_name": "paroc_insulrock_party_wall_batt.pdf"
   },
   "POLYESTER_SOLUTIONS_BATT": {
     "manufacturer": "polyester solutions",
@@ -363,7 +400,8 @@
     "manufacturer": "proctor",
     "path": "data/tds/proctor/proctorgeo_vap.pdf",
     "sha256": "3b64f5ea07b350fe2cd6e4a89257d78c42cf7955ee3807a5b346bb742075eeb8",
-    "origin": "researched"
+    "origin": "supplied_manually",
+    "inbox_name": "proctorgeo_vap.pdf"
   },
   "SONATA_ACOUSTIC_PANELS_SONATA_RECITAL_CORE": {
     "manufacturer": "sonata acoustic panels",
@@ -387,30 +425,42 @@
     "manufacturer": "thermotec",
     "path": "data/tds/thermotec/4_zero_fire_retardant_pipe_insulation.pdf",
     "sha256": "63a9b2892401d8ce45729038c1460afa286fbd15b96fd7bfb87a2d176fbd605a",
-    "origin": "researched"
+    "origin": "supplied_manually",
+    "inbox_name": "4_zero_fire_retardant_pipe_insulation.pdf"
   },
   "THERMOTEC_E_FLEX_HT": {
     "manufacturer": "thermotec",
     "path": "data/tds/thermotec/e_flex_ht_solar_pipe_insulation.pdf",
     "sha256": "dad5659d1222959e10f4799ae75a4d382c0bcf79d14da95fa2455273a71e0657",
-    "origin": "researched"
+    "origin": "supplied_manually",
+    "inbox_name": "e_flex_ht_solar_pipe_insulation.pdf"
   },
   "THERMOTEC_E_FLEX_ST": {
     "manufacturer": "thermotec",
     "path": "data/tds/thermotec/e_flex_st_pipe_insulation.pdf",
     "sha256": "74b1b6887270cb2a51fb41e962ecd581e211a348e2700986cf34217766cfbb17",
-    "origin": "researched"
+    "origin": "supplied_manually",
+    "inbox_name": "e_flex_st_pipe_insulation.pdf"
+  },
+  "THERMOTEC_NUWAVE_BASE_MLV": {
+    "manufacturer": "thermotec",
+    "path": "data/tds/thermotec/nuwave_mass_loaded_vinyl_acoustic_barrier.pdf",
+    "sha256": "8539ce37c64792b8d30aff9b6e09b4bd3ae7bfa854db43b7e8cc83a9143a9fc0",
+    "origin": "supplied_manually",
+    "inbox_name": "nuwave_mass_loaded_vinyl_acoustic_barrier.pdf"
   },
   "THERMOTEC_NUWRAP_5": {
     "manufacturer": "thermotec",
     "path": "data/tds/thermotec/nuwrap_5_acoustic_pipe_lagging.pdf",
     "sha256": "2ca2d72efbdc7976c6db3dfae129b3f3d524517c6fb7cd58da8811c3de017412",
-    "origin": "researched"
+    "origin": "supplied_manually",
+    "inbox_name": "nuwrap_5_acoustic_pipe_lagging.pdf"
   },
   "THERMOTEC_ROCKWOOL_PIPE": {
     "manufacturer": "thermotec",
     "path": "data/tds/thermotec/rockwool_pipe_insulation.pdf",
     "sha256": "4f6b58031f8cbd37875c87d9c79ca0d579c5dccdf40950b4fda44f092380be0d",
-    "origin": "researched"
+    "origin": "supplied_manually",
+    "inbox_name": "rockwool_pipe_insulation.pdf"
   }
 }

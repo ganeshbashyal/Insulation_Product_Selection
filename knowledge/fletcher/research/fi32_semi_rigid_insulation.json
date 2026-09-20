@@ -1,7 +1,7 @@
 {
   "family_id": "FLETCHER_FI32_SEMI_RIGID",
   "family_name": "FI32 Semi-Rigid Insulation",
-  "datasheet_pdf_url": "https://insulation.com.au/product/fi32-semi-rigid-insulation/",
+  "datasheet_pdf_url": "https://insulation.com.au/wp-content/uploads/2024/TDS-Semi-Rigid-Insulation-Rev7-290525.pdf",
   "sds_url": "https://insulation.com.au/wp-content/uploads/2023/12/SUIS-FBS-1-Glasswool-Bio-soluble-Insulation.pdf",
   "status": "ok",
   "researched_at": "2026-09-06",
@@ -230,5 +230,6 @@
   "engine": "ai_studio_batch",
   "schema_version": "1.0",
   "range_source": "",
-  "datasheet_local_path": "data\\tds\\fletcher\\fi32_semi_rigid_insulation.pdf"
+  "datasheet_local_path": "data\\tds\\fletcher\\fi32_semi_rigid_insulation.pdf",
+  "datasheet_source": "supplied_manually"
 }

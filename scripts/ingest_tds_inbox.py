@@ -91,13 +91,19 @@ def readable_text(path: Path) -> str:
         return ""
 
 
-def load_families() -> list[dict]:
-    """Every family that currently has no usable archived datasheet."""
+def load_families(include_sourced: bool = False) -> list[dict]:
+    """Families awaiting a usable archived datasheet.
+
+    include_sourced also returns families that already have one, which is
+    needed when a supplied link is meant to *replace* a datasheet that was
+    archived but is wrong (identity_mismatch) or unreadable (extract_failed).
+    """
     families = []
     for path in sorted(ROOT.glob("knowledge/*/research/*.json")):
         data = json.loads(path.read_text(encoding="utf-8"))
         local = data.get("datasheet_local_path")
-        if local and (ROOT / local).exists():
+        has_source = bool(local and (ROOT / local).exists())
+        if has_source and not include_sourced:
             continue
         families.append({
             "research_path": path,
@@ -106,6 +112,7 @@ def load_families() -> list[dict]:
             "family_id": data.get("family_id", path.stem),
             "family_name": data.get("family_name") or "",
             "status": data.get("status"),
+            "has_source": has_source,
             "data": data,
         })
     return families
@@ -156,7 +163,27 @@ def pick_match(doc: Path, families: list[dict], min_score: float,
     return best, best_score, "ok"
 
 
-def load_manifest() -> dict:
+def invalidate_accuracy(family_ids: set[str]) -> int:
+    """Drop audit results for families whose datasheet just changed.
+
+    A score describes a specific document. Once the document is replaced the
+    score is stale, and because --resume skips families already present in the
+    report, leaving it would permanently hide the new document from auditing.
+    """
+    if not family_ids:
+        return 0
+    report = ROOT / "reports" / "tds_accuracy.json"
+    if not report.exists():
+        return 0
+    try:
+        rows = json.loads(report.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return 0
+    kept = [r for r in rows if r.get("family_id") not in family_ids]
+    dropped = len(rows) - len(kept)
+    if dropped:
+        report.write_text(json.dumps(kept, indent=2, ensure_ascii=False), encoding="utf-8")
+    return dropped
     if MANIFEST.exists():
         try:
             return json.loads(MANIFEST.read_text(encoding="utf-8"))
@@ -226,6 +253,9 @@ def main() -> None:
     parser.add_argument("--min-score", type=float, default=0.62)
     parser.add_argument("--relink-only", action="store_true",
                         help="only repair links for files already in data/tds/")
+    parser.add_argument("--allow-replace", action="store_true",
+                        help="also file against families that already have a datasheet, "
+                             "for replacing a wrong or unreadable one")
     args = parser.parse_args()
 
     INBOX.mkdir(parents=True, exist_ok=True)
@@ -247,12 +277,15 @@ def main() -> None:
               f"datasheets there (per-manufacturer subfolders help) and re-run.")
         return
 
-    families = load_families()
-    print(f"{len(docs)} document(s) in inbox; {len(families)} families awaiting a source\n")
+    families = load_families(include_sourced=args.allow_replace)
+    awaiting = sum(1 for f in families if not f["has_source"])
+    print(f"{len(docs)} document(s) in inbox; {awaiting} families awaiting a source"
+          f"{f', {len(families) - awaiting} replaceable' if args.allow_replace else ''}\n")
 
     known_manufacturers = {f["manufacturer"].casefold() for f in families}
     filed = skipped = 0
     claimed: dict[str, Path] = {}
+    replaced: set[str] = set()
     problems: list[str] = []
 
     for doc in docs:
@@ -290,9 +323,12 @@ def main() -> None:
 
         dest_dir = ARCHIVE / match["manufacturer"]
         dest = dest_dir / f"{match['slug']}{doc.suffix.casefold()}"
-        print(f"  {rel}\n    -> {match['family_id']}  ({confidence:.2f}, {len(text)} chars)")
+        action = "replaces existing" if match["has_source"] else "new source"
+        print(f"  {rel}\n    -> {match['family_id']}  ({confidence:.2f}, {len(text)} chars, {action})")
         claimed[match["family_id"]] = doc
         filed += 1
+        if match["has_source"]:
+            replaced.add(match["family_id"])
 
         if not args.apply:
             continue
@@ -319,6 +355,9 @@ def main() -> None:
     if args.apply:
         rebuild_manifest(manifest)
         write_manifest(manifest)
+        stale = invalidate_accuracy(replaced)
+        if stale:
+            print(f"\ncleared {stale} stale audit result(s) for replaced datasheets")
 
     if problems:
         print(f"\nNeeds attention ({len(problems)}):")
