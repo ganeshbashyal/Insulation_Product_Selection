@@ -16,6 +16,17 @@ Usage:
     python scripts/validate_research_accuracy.py --only Fletcher
     python scripts/validate_research_accuracy.py --limit 10        # quick pilot run
     python scripts/validate_research_accuracy.py --family FLETCHER_PINK_BATTS_CEILING
+    python scripts/validate_research_accuracy.py --resume          # continue a long sweep
+    python scripts/validate_research_accuracy.py --resume --retry-failed
+
+Results are merged into the existing report and flushed after every family, so
+a filtered run never discards untouched families and an interrupted multi-hour
+sweep can be resumed with --resume.
+
+Environment:
+    OLLAMA_VALIDATE_MODEL    auditing model (default llama3.1:8b)
+    OLLAMA_VALIDATE_TIMEOUT  per-family seconds (default 900; ~265s is typical
+                             on a CPU-only box, so do not lower this casually)
 """
 from __future__ import annotations
 
@@ -38,6 +49,11 @@ import llm_client
 import tds_research_agent as tra
 
 VALIDATE_MODEL = os.getenv("OLLAMA_VALIDATE_MODEL", "llama3.1:8b")
+
+# Auditing one family costs ~265s on a CPU-only box with llama3.1:8b. The old
+# 120s default silently turned nearly every family into "validator_call_failed",
+# which read like a model problem but was pure timeout.
+VALIDATE_TIMEOUT = float(os.getenv("OLLAMA_VALIDATE_TIMEOUT", "900"))
 
 SYSTEM_PROMPT = (
     "You are a meticulous technical auditor checking whether a structured JSON "
@@ -128,13 +144,24 @@ def validate_family(research_path: Path, model: str, timeout: float) -> dict:
 
     text, text_source = _text_for_family(data)
     if len(text) < 200:
+        # No archived datasheet and no usable excerpt: the spec exists but no
+        # evidence was retained, so it can never be audited. This is a sourcing
+        # gap, not a validator failure, and must not be confused with one.
         return {"family_id": family_id, "status": "skipped_no_source_text", "accuracy_score": None}
 
     prompt = USER_PROMPT_TEMPLATE.format(
         source=text[:12000],
         spec=json.dumps(spec, ensure_ascii=False, indent=2)[:6000],
     )
-    raw = _ollama_chat(model, SYSTEM_PROMPT, prompt, timeout)
+
+    raw = None
+    for attempt in range(2):
+        raw = _ollama_chat(model, SYSTEM_PROMPT, prompt, timeout)
+        if raw:
+            break
+        if attempt == 0:
+            print("    retrying once after validator call failure", file=sys.stderr)
+            time.sleep(5)
     if not raw:
         return {"family_id": family_id, "status": "validator_call_failed", "accuracy_score": None}
     parsed = _parse_json_reply(raw)
@@ -155,20 +182,55 @@ def validate_family(research_path: Path, model: str, timeout: float) -> dict:
     }
 
 
+FIELDNAMES = ["family_id", "family_name", "manufacturer", "status", "text_source",
+              "accuracy_score", "unsupported_claims", "missed_facts", "range_table_ok", "notes"]
+
+
+def _load_existing(out_json: Path) -> dict[str, dict]:
+    if not out_json.exists():
+        return {}
+    try:
+        return {r["family_id"]: r for r in json.loads(out_json.read_text(encoding="utf-8"))}
+    except (json.JSONDecodeError, KeyError, TypeError):
+        print(f"warning: could not read {out_json}, starting fresh", file=sys.stderr)
+        return {}
+
+
+def _write_reports(records: dict[str, dict], out_json: Path, out_csv: Path) -> None:
+    rows = [records[k] for k in sorted(records)]
+    out_json.parent.mkdir(parents=True, exist_ok=True)
+    out_json.write_text(json.dumps(rows, indent=2, ensure_ascii=False), encoding="utf-8")
+    with out_csv.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=FIELDNAMES, extrasaction="ignore")
+        writer.writeheader()
+        writer.writerows(rows)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--only", help="one manufacturer directory name")
     parser.add_argument("--family", help="one family_id")
     parser.add_argument("--limit", type=int, default=0)
     parser.add_argument("--model", default=VALIDATE_MODEL)
-    parser.add_argument("--timeout", type=float, default=120.0)
+    parser.add_argument("--timeout", type=float, default=VALIDATE_TIMEOUT)
+    parser.add_argument("--resume", action="store_true",
+                        help="skip families already validated in the existing report")
+    parser.add_argument("--retry-failed", action="store_true",
+                        help="with --resume, still re-run families that previously errored")
     args = parser.parse_args()
 
     if not llm_client.ollama_available():
         print(f"Local Ollama not reachable. Start it with `ollama serve`, ensure `{args.model}` is pulled.", file=sys.stderr)
         raise SystemExit(1)
 
-    results = []
+    out_json = ROOT / "reports" / "tds_accuracy.json"
+    out_csv = ROOT / "reports" / "tds_accuracy.csv"
+
+    # Merge into any previous report. A filtered run (--family/--only/--limit)
+    # must never discard the families it did not look at.
+    records = _load_existing(out_json)
+
+    retryable = {"validator_call_failed", "validator_reply_unparseable"}
     done = 0
     for research_path in sorted(ROOT.glob("knowledge/*/research/*.json")):
         manufacturer_dir = research_path.parent.parent.name
@@ -180,28 +242,35 @@ def main() -> None:
                 continue
         if args.limit and done >= args.limit:
             break
+
+        if args.resume:
+            prior = records.get(json.loads(research_path.read_text(encoding="utf-8"))["family_id"])
+            if prior is not None:
+                stale = args.retry_failed and prior.get("status") in retryable
+                if not stale:
+                    continue
+
+        started = time.time()
         result = validate_family(research_path, args.model, args.timeout)
-        results.append(result)
+        records[result["family_id"]] = result
         done += 1
         score = result.get("accuracy_score")
-        print(f"[{done}] {result['family_id']:<40} {result['status']:<24} score={score}")
+        elapsed = time.time() - started
+        print(f"[{done}] {result['family_id']:<40} {result['status']:<24} "
+              f"score={score} ({elapsed:.0f}s)", flush=True)
 
-    out_json = ROOT / "reports" / "tds_accuracy.json"
-    out_csv = ROOT / "reports" / "tds_accuracy.csv"
-    out_json.parent.mkdir(parents=True, exist_ok=True)
-    out_json.write_text(json.dumps(results, indent=2, ensure_ascii=False), encoding="utf-8")
-    fieldnames = ["family_id", "family_name", "manufacturer", "status", "text_source",
-                  "accuracy_score", "unsupported_claims", "missed_facts", "range_table_ok", "notes"]
-    with out_csv.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fieldnames, extrasaction="ignore")
-        writer.writeheader()
-        writer.writerows(results)
+        # Persist after every family: a multi-hour CPU sweep must survive an
+        # interrupt without losing completed work.
+        _write_reports(records, out_json, out_csv)
 
-    validated = [r for r in results if r.get("accuracy_score") is not None]
+    _write_reports(records, out_json, out_csv)
+
+    rows = list(records.values())
+    validated = [r for r in rows if r.get("accuracy_score") is not None]
     if validated:
         avg = sum(r["accuracy_score"] for r in validated) / len(validated)
         low = [r for r in validated if r["accuracy_score"] < 80]
-        print(f"\nvalidated: {len(validated)}/{len(results)}  avg accuracy: {avg:.1f}")
+        print(f"\nvalidated: {len(validated)}/{len(rows)}  avg accuracy: {avg:.1f}")
         print(f"below 80: {len(low)}")
         for r in sorted(low, key=lambda x: x["accuracy_score"])[:15]:
             print(f"  {r['accuracy_score']:>3}  {r['family_id']:<40} {r['notes']}")
