@@ -7,6 +7,7 @@ last access).
 from __future__ import annotations
 
 import json
+import os
 import sqlite3
 from abc import ABC, abstractmethod
 from datetime import datetime, timedelta, timezone
@@ -178,3 +179,107 @@ class SQLiteSessionStore(SessionStore):
             cursor = conn.execute("DELETE FROM sessions WHERE expires_at < ?", (now,))
             conn.commit()
             return cursor.rowcount
+
+
+class RedisSessionStore(SessionStore):
+    """
+    Session storage shared across hosts.
+
+    Only needed when the API is served from more than one machine. A single
+    host running several workers is already covered by SQLiteSessionStore,
+    because WAL mode coordinates concurrent processes.
+
+    Expiry is delegated to Redis key TTLs rather than a stored timestamp, so
+    abandoned sessions are reclaimed without a sweeper process. Keys are
+    namespaced by site_id, which keeps tenant isolation identical to the
+    SQLite store's composite primary key.
+    """
+
+    TTL_SECONDS = 24 * 3600
+
+    def __init__(self, client: Any, namespace: str = "aurora:sess:"):
+        self.client = client
+        self.namespace = namespace
+
+    def _key(self, session_id: str, site_id: str) -> str:
+        return f"{self.namespace}{site_id}:{session_id}"
+
+    def create(self, session_id: str, site_id: str, conversation: dict) -> None:
+        now = datetime.now(timezone.utc)
+        payload = {
+            "session_id": session_id,
+            "site_id": site_id,
+            "conversation_json": json.dumps(conversation),
+            "created_at": now.isoformat(timespec="seconds"),
+            "accessed_at": now.isoformat(timespec="seconds"),
+            "expires_at": (now + timedelta(seconds=self.TTL_SECONDS)).isoformat(timespec="seconds"),
+        }
+        self.client.set(
+            self._key(session_id, site_id),
+            json.dumps(payload),
+            ex=self.TTL_SECONDS,
+        )
+
+    def get(self, session_id: str, site_id: str) -> Session | None:
+        raw = self.client.get(self._key(session_id, site_id))
+        if raw is None:
+            return None
+
+        payload = json.loads(raw)
+        session = Session(
+            payload["session_id"],
+            payload["site_id"],
+            payload["conversation_json"],
+            payload["created_at"],
+            payload["accessed_at"],
+            payload["expires_at"],
+        )
+        # Redis TTL should have removed it already; this guards against a key
+        # written with a stale expiry and keeps behaviour identical to SQLite.
+        if session.is_expired:
+            self.delete(session_id, site_id)
+            return None
+        return session
+
+    def update(self, session_id: str, site_id: str, conversation: dict) -> None:
+        key = self._key(session_id, site_id)
+        raw = self.client.get(key)
+        if raw is None:
+            raise KeyError(f"Session not found: {session_id} on site {site_id}")
+
+        now = datetime.now(timezone.utc)
+        payload = json.loads(raw)
+        payload["conversation_json"] = json.dumps(conversation)
+        payload["accessed_at"] = now.isoformat(timespec="seconds")
+        payload["expires_at"] = (now + timedelta(seconds=self.TTL_SECONDS)).isoformat(timespec="seconds")
+
+        self.client.set(key, json.dumps(payload), ex=self.TTL_SECONDS)
+
+    def delete(self, session_id: str, site_id: str) -> None:
+        self.client.delete(self._key(session_id, site_id))
+
+    def cleanup_expired(self) -> int:
+        """Redis expires keys itself, so there is nothing to sweep."""
+        return 0
+
+
+def build_session_store(backend: str | None = None) -> SessionStore:
+    """
+    Construct the configured session store.
+
+    AURORA_SESSION_BACKEND selects the implementation:
+      sqlite (default) - shared across workers on one host, no extra services
+      redis            - shared across hosts, requires a reachable Redis
+    """
+    choice = (backend or os.getenv("AURORA_SESSION_BACKEND", "sqlite")).strip().casefold()
+
+    if choice == "sqlite":
+        return SQLiteSessionStore()
+    if choice == "redis":
+        import redis_support
+
+        return RedisSessionStore(redis_support.get_client())
+
+    raise ValueError(
+        f"Unknown AURORA_SESSION_BACKEND '{choice}'. Expected sqlite or redis."
+    )

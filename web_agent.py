@@ -29,7 +29,19 @@ Environment:
                                     Defaults to false in production.
     AURORA_DEMO_CHAT_SITE_ID        Site the /chat harness authenticates as
                                     (default "local").
+    AURORA_RATE_LIMIT_BACKEND       "sqlite" (default, shared across workers on
+                                    one host), "redis" (shared across hosts), or
+                                    "memory" (single process, tests only).
+    AURORA_SESSION_BACKEND          "sqlite" (default) or "redis".
+    AURORA_REDIS_URL                Redis connection URL when a redis backend is
+                                    selected (default redis://127.0.0.1:6379/0).
     AGENT_USE_LLM                   Force phrasing on/off; auto-detected if unset.
+
+Scaling:
+    One host, several workers  - the sqlite backends are sufficient; WAL mode
+                                 coordinates the processes. No extra services.
+    Several hosts              - set both backends to redis so quotas and
+                                 sessions are shared rather than per-machine.
 
 Endpoints:
     GET  /chat                             embedded chat UI (development only)
@@ -58,7 +70,7 @@ import llm_client
 from conversation_service import ConversationService
 from auth_middleware import AuthMiddleware, AuditLog
 from cors_validator import CORSValidator
-from session_store import SQLiteSessionStore
+from session_store import SQLiteSessionStore, SessionStore, build_session_store
 from site_config import load_all_sites, SiteConfigError, is_production
 from widget_config import WidgetConfigProvider
 
@@ -109,7 +121,7 @@ else:
 
 
 # P2 infrastructure instances
-session_store: SQLiteSessionStore | None = None
+session_store: SessionStore | None = None
 auth_middleware: AuthMiddleware | None = None
 cors_validator: CORSValidator | None = None
 widget_provider: WidgetConfigProvider | None = None
@@ -134,13 +146,17 @@ async def startup():
     except SiteConfigError as e:
         raise RuntimeError(f"Failed to load site configs: {e}")
 
-    session_store = SQLiteSessionStore()
+    session_store = build_session_store()
     auth_middleware = AuthMiddleware()
     cors_validator = CORSValidator()
     widget_provider = WidgetConfigProvider()
     audit_log = AuditLog()
 
-    print("OK - P2 infrastructure initialized (sessions, auth, CORS, audit)")
+    print(
+        f"OK - P2 infrastructure initialized "
+        f"(sessions={type(session_store).__name__}, "
+        f"rate_limit={type(auth_middleware.rate_limiter).__name__}, CORS, audit)"
+    )
 
     # P3 initialization
     conversation_service = ConversationService(use_llm=USE_LLM)
