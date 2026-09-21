@@ -29,9 +29,10 @@ OLLAMA_HOST = os.getenv("OLLAMA_HOST", "http://127.0.0.1:11434").rstrip("/")
 OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3.2:latest")
 OLLAMA_TIMEOUT_SECONDS = float(os.getenv("OLLAMA_TIMEOUT_SECONDS", "60"))
 # How long Ollama keeps the model resident in memory after the last request.
-# Longer than the default (a few minutes) so a quiet multi-tenant demo/prod
-# server doesn't pay a ~10-15s cold-load penalty on the next visitor.
-OLLAMA_KEEP_ALIVE = os.getenv("OLLAMA_KEEP_ALIVE", "60m")
+# Keep this short by default: this local Windows host is CPU-only with limited
+# free RAM, and pinning several models for an hour was enough to push it into
+# swap-thrashing. Operators can raise OLLAMA_KEEP_ALIVE on a GPU/prod host.
+OLLAMA_KEEP_ALIVE = os.getenv("OLLAMA_KEEP_ALIVE", "5m")
 
 GUARDRAIL_SYSTEM_PROMPT = """You are a warm, concise sales-engineer assistant for an insulation supplier.
 
@@ -232,4 +233,3 @@ def phrase(fallback_text: str, context: dict | None = None, is_opening: bool = F
             _PHRASE_CACHE[key] = rephrased
         return rephrased
     return fallback_text
-
