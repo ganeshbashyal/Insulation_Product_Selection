@@ -1,12 +1,92 @@
 {
+  "datasheet_source": "supplied_manually",
+  "previous_status": "extract_failed",
   "family_id": "ECOWOOL_ACOUSTIC_PARTITION_ROLL",
-  "family_name": "Acoustic Partition Roll",
+  "family_name": "Ecowool Acoustic Partition Roll",
   "datasheet_pdf_url": "https://pgfinsulation.com.au/wp-content/uploads/2026/02/ECOWOOL__Acoustic_Batts-Rolls.pdf",
   "datasheet_local_path": "data\\tds\\ecowool\\ecowool_acoustic_partition_roll.pdf",
-  "status": "extract_failed",
-  "researched_at": "2026-09-14",
-  "spec": null,
-  "source_excerpt": null,
-  "datasheet_source": "supplied_manually",
-  "previous_status": "extract_failed"
+  "status": "ok",
+  "researched_at": "2026-09-21",
+  "spec": {
+    "description": "Ecowool acoustic partition is a new generation glass mineral wool insulation by PGF Insulation, suitable for thermal and acoustic insulation, made from recycled glass and with SensiTouch Technology, which includes a natural anti-formaldehyde ingredient and no harmful chemicals.",
+    "features": [
+      "Made from recycled glass",
+      "SensiTouch Technology with natural anti-formaldehyde ingredient",
+      "Low in volatile organic compounds",
+      "Complies with AS/NZS 4859.1:2018",
+      "Certified with GreenRate Level A Certificate",
+      "Non-combustible",
+      "Inherently non-combustible",
+      "Chemically inert",
+      "Low VOC content",
+      "Bio-soluble fibers"
+    ],
+    "applications": [
+      "Partition wall systems in residential and commercial buildings",
+      "Fitted between timber or steel studs for exterior and interior walls",
+      "Floors, crawlspaces, and various ceiling applications"
+    ],
+    "technical": [
+      {
+        "property": "Density",
+        "value": "11 50 kg/m3",
+        "standard": ""
+      },
+      {
+        "property": "Thickness",
+        "value": "450 mm",
+        "standard": ""
+      },
+      {
+        "property": "R-value",
+        "value": "1.2 m2K/W",
+        "standard": "AS/NZS 4859.1:2018/Amdt 1:2006"
+      },
+      {
+        "property": "Thermal Conductivity",
+        "value": "0.04 W/mK",
+        "standard": ""
+      },
+      {
+        "property": "Fire Indices",
+        "value": "Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-1",
+        "standard": "AS/NZS 1530.3:1999"
+      },
+      {
+        "property": "Temperature Range",
+        "value": "Up to 450°C",
+        "standard": ""
+      },
+      {
+        "property": "Vapour Resistance",
+        "value": "<0.02% by volume",
+        "standard": "ASTM C1104"
+      },
+      {
+        "property": "pH",
+        "value": "9",
+        "standard": "ASTM C665-12"
+      }
+    ],
+    "fire": "Early Fire Hazard Performance Indices of; Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-1",
+    "sustainability": "Certified with GreenRate Level A Certificate",
+    "install": [
+      "Friction-fit between studs",
+      "Safe to use due to low VOC content",
+      "Does not encourage growth of mould, fungus, bacteria, or rodents",
+      "Chemically inert, will not cause or accelerate corrosion",
+      "Low allergen product with bio-soluble fibers"
+    ],
+    "clearances": [],
+    "limitations": [
+      "Physical and chemical properties are subject to normal manufacturing variations",
+      "Product facings may vary",
+      "General guidelines only",
+      "No responsibility assumed for correctness of information"
+    ],
+    "range_headers": [],
+    "range": [],
+    "range_extraction_status": "inconsistent_columns_dropped"
+  },
+  "source_excerpt": "ACOUSTIC PARTITION \nTECHNICAL DATA SHEET\nDESCRIPTION\nEcowool acoustic partition, our new generation range of glass mineral\nwool insulation, manufactured by PGF Insulation are intended for both\nthermal and acoustic insulation application. They are manufactured\nusing recycled glass and with SensiTouch Technology, employs a binder\nwhich incorporates a natural anti-formaldehyde ingredient, and has no\nharmful chemicals. The Ecowool insulation that is available in both batt\nand roll range encompasses multiple densities, thicknesses and\ndimensions to suit typical timber or steel framed construction and to\nsatisfy a broad spectrum of building requirements.\nSensiTouch TECHNOLOGY\nFormaldehyde has traditionally been used as part of the binder in glass\nmineral wool insulation. Although there is no health risk with the\ntraditional product, formaldehyde at a higher level may cause irritation \nand sensitivity. Ecowool utilizes SensiTouch Technology, this innovative\nnew binder incorporates a natural anti-formaldehyde ingredient and is\nlow in volatile organic compounds, making for a safer and more\npleasant installation process.\nAS/NZS 4859.1:2018 COMPLIANT\nAll Ecowool products have received Third Party Product Certification\nthat they comply with AS/NZS 4859.1. 2018. This independent assurance \ngives you peace of mind that you are fulfilling all your obligations as\nrequired under the Building Code of Australia\nSUSTAINABLE PRODUCT\nEcowool Insulation is committed to providing environmentally\nsustainable products. Ecowool acoustic partition are free from CFCs ,\nHCFCs and any other material, with ozone depletion, potential in their\nmanufacture/ composition content, and represent no known threat to\nthe environment. Made from nearly 80% recycled glass and locally\nsourced raw materials, the acoustic batts are perfectly in tune with\nsustainability and environmental concerns.\nAPPLICATION\nThe acoustic partition are designed to be used in partition wall systems in\nresidential and commercial bui"
 }

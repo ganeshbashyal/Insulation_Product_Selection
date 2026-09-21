@@ -1,12 +1,139 @@
 {
-  "family_id": "AIRCELL_INSULBREAK",
-  "family_name": "Insulbreak",
-  "datasheet_pdf_url": "https://store.filerobot.com/xamyxyg7fn/kingspan/kil/products/air-cell-insulbreak-au-and-nz/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf?vh=8f620a",
-  "datasheet_local_path": "data\\tds\\aircell\\aircell_insulbreak.pdf",
-  "status": "extract_failed",
-  "researched_at": "2026-09-14",
-  "spec": null,
-  "source_excerpt": null,
   "datasheet_source": "supplied_manually",
-  "previous_status": "extract_failed"
+  "previous_status": "extract_failed",
+  "family_id": "AIRCELL_INSULBREAK",
+  "family_name": "Aircell Insulbreak",
+  "datasheet_pdf_url": "https://store.filerobot.com/xamyxyg7fn/kingspan/kil/products/air-cell-insulbreak-au-and-nz/kingspan-aircell-insulbreak-product-datasheet-en-au.pdf",
+  "datasheet_local_path": "data\\tds\\aircell\\aircell_insulbreak.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-21",
+  "spec": {
+    "description": "Australian-made Kingspan AIR-CELL Insulbreak ® is a 3-in-1 insulation, vapour barrier and thermal break solution for steel-framed construction, delivering R0.20 thermal break for NCC BCA compliance.",
+    "features": [
+      "Fibre-free, non-allergenic, non-irritant",
+      "Water-resistant and unaffected by moisture",
+      "Anti-bacterial and anti-fungal",
+      "Rodent and insect resistant",
+      "Compliant with AS/NZS 4859.1:2018",
+      "CodeMark-certified for NCC compliance",
+      "Made in Australia"
+    ],
+    "applications": [
+      "metal roof",
+      "commercial office",
+      "steel-framed wall",
+      "residential metal roof",
+      "residential tiled roof"
+    ],
+    "technical": [
+      {
+        "property": "Material R-value",
+        "value": "0.20 m2 K/W",
+        "standard": "ASTM C518-2017 at 23°C (7.2mm thickness)"
+      },
+      {
+        "property": "Material R-value",
+        "value": "0.25 m2 K/W",
+        "standard": "ASTM C518-2017 at 23°C (9.2mm thickness)"
+      },
+      {
+        "property": "Material R-value",
+        "value": "0.15 m2 K/W",
+        "standard": "ASTM C518-2017 at 23°C (5.5mm thickness)"
+      },
+      {
+        "property": "Reflectance",
+        "value": "Anti-Glare Face 95%",
+        "standard": ""
+      },
+      {
+        "property": "Reflectance",
+        "value": "Reflective Face 97%",
+        "standard": ""
+      },
+      {
+        "property": "Emittance",
+        "value": "Anti-Glare Face E0.05",
+        "standard": "AS/NZS 4201.5:1994"
+      },
+      {
+        "property": "Emittance",
+        "value": "Reflective Face E0.03",
+        "standard": "AS/NZS 4201.5:1994"
+      },
+      {
+        "property": "Flammability Index",
+        "value": "≤ 5",
+        "standard": "AS 1530.2:1993"
+      },
+      {
+        "property": "Vapour Control",
+        "value": "Class 2",
+        "standard": "ASTM E96 Part B:2016"
+      },
+      {
+        "property": "Water Control",
+        "value": "Pass",
+        "standard": "AS/NZS 4201.4:1994"
+      },
+      {
+        "property": "Moisture Shrinkage",
+        "value": "< 0.5%",
+        "standard": "AS/NZS 4201.3:1994"
+      },
+      {
+        "property": "Dry Delamination",
+        "value": "Pass",
+        "standard": "AS/NZS 4201.1:1994"
+      },
+      {
+        "property": "Wet Delamination",
+        "value": "Pass",
+        "standard": "AS/NZS 4201.2:1994"
+      },
+      {
+        "property": "Surface Water Absorbency",
+        "value": "< 100g/m2",
+        "standard": "AS/NZS 4201.6:1994"
+      },
+      {
+        "property": "Corrosion Resistance",
+        "value": "App. E Pass",
+        "standard": "AS/NZS 4859.1:2018"
+      },
+      {
+        "property": "Electrical Conductivity",
+        "value": "≤ 10MΩ",
+        "standard": "AS/NZS 4200.1:2017"
+      }
+    ],
+    "fire": "AS 1530.2:1993 ≤ 5 Low",
+    "sustainability": "",
+    "install": [
+      "Lay Kingspan AIR-CELL Insulbreak® from the ridge to gutter, over and perpendicular to the roof battens.",
+      "Ensure a max. 25 mm overlap into the gutter and a nominal 40 mm sag between battens is achieved.",
+      "Allow 150 mm overlap at joins (50 mm is adequate when joins are to be taped - please refer to brochure Kingspan Insulation Tape for further information).",
+      "End joins should be overlapped by 600 mm if not taped.",
+      "Staple or tape to battens to hold in place until roofing is fixed.",
+      "Starting at the gutter, roll out the Kingspan AIR-CELL Insulbreak® across the rafters with the anti-glare side up, and ensuring a max. 25 mm overlap into the gutter is achieved.",
+      "Fix to rafters.",
+      "Allow 150 mm minimum overlap for joins (or 50 mm is adequate if joins are to be taped - please refer to brochure Kingspan Insulation Tape for further information).",
+      "End joins should be overlapped by rafter spacing if not taped.",
+      "Fix battens as per roof cover requirements and applicable.",
+      "Apply as per Residential Tiled Roof installation instructions.",
+      "Starting at the gutter, roll out the Kingspan AIR-CELL Insulbreak® 55 across the rafters with the anti-glare side up, and ensuring a max. 25 mm overlap into the gutter is achieved.",
+      "Fix to rafters.",
+      "Allow 150 mm minimum overlap for joins (or 50 mm is adequate if joins are to be taped - please refer to brochure Kingspan Insulation Tape for further information).",
+      "End joins should be overlapped by rafter spacing if not taped.",
+      "Fix battens as per roof cover requirements and applicable."
+    ],
+    "clearances": [],
+    "limitations": [
+      "For consideration in high-rise buildings, please contact Kingspan Insulation’s Technical Services Team."
+    ],
+    "range_headers": [],
+    "range": [],
+    "range_extraction_status": "inconsistent_columns_dropped"
+  },
+  "source_excerpt": "Insulation\nThermal Break Solution\n Insulbreak\n®\n  3-in-1 Insulation, thermal \nbreak and vapour barrier \n  Delivers a R0.20 thermal \nbreak solution for steel-\nframed construction\n  Helps achieve the home \nenergy efficiency provisions\n  Fibre-free, non-allergenic, \nnon-irritant \n  Quick and easy to install\n  Strong, tough, durable\n  Water-resistant and \nunaffected by moisture\n  Anti-bacterial and  \nanti-fungal\n  Rodent and insect resistant\n  Compliant with  \nAS/NZS 4859.1:2018\n  CodeMark-certified for  \nNCC compliance\n  Made in Australia\n2\nCommercial Metal Deck Roof\nTypical Design Details\nKingspan \nAIR-CELL Insulbreak®\nMetal \nRoof\nBatten\nPlasterboard \nCeiling\nRafter\nFigure 1.  Kingspan AIR-CELL Insulbreak ® in a metal roof with a \nraked ceiling.\nMetal Roof\nEaves Gutter Cornice Plasterboard Ceiling\n40 mm (nominal) Reflective Air Space\nKingspan AIR-CELL\nInsulbreak®\nFigure 2.  Side elevation of Kingspan AIR-CELL Insulbreak ® in a \nmetal roof with a raked ceiling.\nThermal Performance\nMetal Roof with Raked Ceiling Heat \nflow in\nHeat \nflow out\nKingspan AIR-CELL Insulbreak® 70 RT 1.9 RT 1.2\nThe R-values shown are Total R-values for the building element \nas required by the Energy Provisions of the NCC, calculated in \naccordance with AS/NZS 4859.2:2018 and NZS 4214:2006. \nKingspan AIR-CELL® products are manufactured, tested and \npackaged in conformance with AS/NZS 4859.1:2018.\nSpecification Guide\nThe roof insulation fixed to the battens shall be CodeMark-\ncertified Kingspan AIR-CELL Insulbreak ® (specify 70 or 90) \nthermo reflective insulation, comprising a cross-linked, \nclosed-cell fibre-free core sandwiched with an anti-glare foil \nfacing on one side and a plain foil facing on the other side \nmanufactured by Kingspan Insulation Pty Ltd, and shall be \ninstalled in accordance with the instructions issued by them.\nA Project Specific Warranty provided by Kingspan Insulation \nmust be submitted.\nInstallation Instructions\n1.  Lay Kingspan AIR-CELL Insulbreak® from the "
 }

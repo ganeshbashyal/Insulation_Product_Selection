@@ -1,12 +1,12 @@
 {
-  "family_id": "HUSHTEC_BATT",
-  "family_name": "Batt",
-  "datasheet_pdf_url": "https://www.hushtecsolutions.com/wp-content/uploads/2025/08/2025-Hushtec-Brochure-Updated.pdf",
-  "datasheet_local_path": "data\\tds\\hushtec\\hushtec_batt.pdf",
-  "status": "extract_failed",
-  "researched_at": "2026-09-14",
-  "spec": null,
-  "source_excerpt": null,
   "datasheet_source": "supplied_manually",
-  "previous_status": "extract_failed"
+  "previous_status": "extract_failed",
+  "family_id": "HUSHTEC_BATT",
+  "family_name": "Hushtec Batt",
+  "datasheet_pdf_url": "https://www.hushtecsolutions.com/wp-content/uploads/2025/08/2025-Hushtec-Brochure-Updated.pdf",
+  "datasheet_local_path": null,
+  "status": "identity_mismatch",
+  "researched_at": "2026-09-21",
+  "spec": null,
+  "source_excerpt": null
 }

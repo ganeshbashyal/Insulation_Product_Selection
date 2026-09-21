@@ -573,6 +573,20 @@ def process_family(manufacturer_dir: str, family: dict, delay: float = 1.0, refr
     return "ok"
 
 
+# Fields _write() is authoritative for; everything else in a research record
+# was put there by another tool and must survive a re-run.
+_OWNED_KEYS = {
+    "family_id",
+    "family_name",
+    "datasheet_pdf_url",
+    "datasheet_local_path",
+    "status",
+    "researched_at",
+    "spec",
+    "source_excerpt",
+}
+
+
 def _write(
     out_path: Path,
     family: dict,
@@ -583,7 +597,20 @@ def _write(
     archived_path: Path | None = None,
 ) -> None:
     out_path.parent.mkdir(parents=True, exist_ok=True)
-    out_path.write_text(json.dumps({
+
+    # Other tools annotate these records (datasheet_source, relink markers, and
+    # similar). Rewriting the file from scratch would silently drop their work,
+    # so carry forward any key this function does not own.
+    record: dict = {}
+    if out_path.exists():
+        try:
+            existing = json.loads(out_path.read_text(encoding="utf-8"))
+            if isinstance(existing, dict):
+                record = {k: v for k, v in existing.items() if k not in _OWNED_KEYS}
+        except (json.JSONDecodeError, OSError):
+            record = {}
+
+    record.update({
         "family_id": family["family_id"],
         "family_name": family["name"],
         "datasheet_pdf_url": pdf_url,
@@ -592,7 +619,10 @@ def _write(
         "researched_at": time.strftime("%Y-%m-%d"),
         "spec": spec,
         "source_excerpt": excerpt,
-    }, indent=2, ensure_ascii=False), encoding="utf-8")
+    })
+    out_path.write_text(
+        json.dumps(record, indent=2, ensure_ascii=False), encoding="utf-8"
+    )
 
 
 def status_report() -> None:
