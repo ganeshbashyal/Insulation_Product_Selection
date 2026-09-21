@@ -171,7 +171,7 @@ def generate_reply(
 _PHRASE_CACHE: dict[tuple[str, str | None, bool], str] = {}
 
 
-def is_safe_reply(text: str | None, max_length: int = 400) -> bool:
+def is_safe_reply(text: str | None, max_length: int = 400, source: str | None = None) -> bool:
     """Reject anything that isn't a short, clean single-topic reply.
 
     Guards against a local model echoing prompt scaffolding back verbatim
@@ -185,6 +185,12 @@ def is_safe_reply(text: str | None, max_length: int = 400) -> bool:
     token cap (e.g. "...before w") - a customer must never see a truncated
     recommendation. A reply is considered complete only if it ends on
     terminal punctuation or a closing bold/quote mark.
+
+    When `source` is given, also rejects a reply that emphasises a product
+    name the source never mentioned. A small model asked to rephrase
+    "what type of roof is it?" invented "**Thermatech 400**" - a product that
+    does not exist. Naming a product is exactly the decision this module must
+    never make, so an unsourced bold span is treated as fabrication.
     """
     if not text or "\n" in text:
         return False
@@ -195,6 +201,11 @@ def is_safe_reply(text: str | None, max_length: int = 400) -> bool:
         return False
     if not re.search(r'[.!?][\'")*]*$', text.strip()):
         return False
+    if source is not None:
+        source_lowered = source.casefold()
+        for emphasised in re.findall(r"\*\*(.+?)\*\*", text):
+            if emphasised.casefold().strip() not in source_lowered:
+                return False
     return True
 
 
@@ -218,9 +229,17 @@ def phrase(fallback_text: str, context: dict | None = None, is_opening: bool = F
     key = (fallback_text, context_json, is_opening)
     if key in _PHRASE_CACHE:
         return _PHRASE_CACHE[key]
-    user_prompt = fallback_text if not context_json else (
-        f"Message to rephrase: {fallback_text}\n\nSupporting facts (for grounding only, do not add anything not already in the message): {context_json}"
-    )
+    # Always label the text as the thing to rephrase. Passing a bare question
+    # as the user turn reads to a small model as a question to *answer*, so it
+    # replied in the customer's voice ("I'm here to discuss...") or invented a
+    # scenario outright. Only a large model reliably infers "rephrase" from the
+    # system prompt alone; the label costs nothing and removes the ambiguity.
+    user_prompt = f"Message to rephrase: {fallback_text}"
+    if context_json:
+        user_prompt += (
+            "\n\nSupporting facts (for grounding only, do not add anything not "
+            f"already in the message): {context_json}"
+        )
     if not is_opening:
         user_prompt = (
             "This is a follow-up message in an ongoing conversation, not the first message - "
@@ -228,7 +247,12 @@ def phrase(fallback_text: str, context: dict | None = None, is_opening: bool = F
             + user_prompt
         )
     rephrased = generate_reply(SYSTEM_PROMPT, user_prompt, max_tokens=220)
-    if rephrased and is_safe_reply(rephrased, max_length=max(400, len(fallback_text) * 3)):
+    safety_source = fallback_text if context_json is None else fallback_text + " " + context_json
+    if rephrased and is_safe_reply(
+        rephrased,
+        max_length=max(400, len(fallback_text) * 3),
+        source=safety_source,
+    ):
         if len(_PHRASE_CACHE) < 256:
             _PHRASE_CACHE[key] = rephrased
         return rephrased
