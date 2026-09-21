@@ -51,6 +51,50 @@ from audit_datasheet_links import OFFICIAL_DOMAINS, domain_matches, domain_of
 # despite think:false). Override with OLLAMA_EXTRACT_MODEL if that changes.
 EXTRACT_MODEL = os.getenv("OLLAMA_EXTRACT_MODEL", "phi4-mini:latest")
 
+# Extraction budgets. The old defaults (220s for a range job inside a 300s
+# per-family cap) were set from a measurement taken against an already-warm
+# model. A cold load on this CPU-only box alone exceeded 180s, so the first
+# family of every run - and every family after the model was evicted - spent
+# its whole budget loading and returned extract_failed with a perfectly good
+# datasheet in hand. warm_model() now pays that cost once, up front, outside
+# any family's budget, and the remaining limits describe real inference time.
+EXTRACT_TIMEOUT_RANGE = float(os.getenv("OLLAMA_EXTRACT_TIMEOUT", "900"))
+EXTRACT_TIMEOUT_PLAIN = float(os.getenv("OLLAMA_EXTRACT_TIMEOUT_PLAIN", "300"))
+FAMILY_TIMEOUT = float(os.getenv("TDS_FAMILY_TIMEOUT", "1200"))
+WARM_TIMEOUT = float(os.getenv("OLLAMA_WARM_TIMEOUT", "600"))
+
+
+def warm_model() -> bool:
+    """Load the extraction model before the run starts.
+
+    Ollama loads a model on first use, and that load is charged to whichever
+    request triggers it. Doing it here means a slow cold start is visible as a
+    slow start rather than disguised as a family-level extraction failure.
+    """
+    payload = {
+        "model": EXTRACT_MODEL,
+        "messages": [{"role": "user", "content": "Reply with the single word OK."}],
+        "stream": False,
+        "think": False,
+        "keep_alive": "30m",
+        "options": {"temperature": 0, "num_predict": 4},
+    }
+    request = urllib.request.Request(
+        f"{llm_client.OLLAMA_HOST}/api/chat",
+        data=json.dumps(payload).encode("utf-8"),
+        headers={"Content-Type": "application/json"},
+        method="POST",
+    )
+    started = time.time()
+    try:
+        with urllib.request.urlopen(request, timeout=WARM_TIMEOUT) as response:
+            response.read()
+    except Exception as exc:
+        print(f"WARNING: could not warm {EXTRACT_MODEL} ({exc}); first family may time out")
+        return False
+    print(f"OK - warmed {EXTRACT_MODEL} in {time.time() - started:.0f}s")
+    return True
+
 CACHE_DIR = ROOT / "data" / "local" / "tds_cache"
 # Durable, human-navigable archive of every fetched datasheet, kept locally
 # only (data/tds/ is gitignored: these are third-party manufacturer PDFs, not
@@ -340,13 +384,11 @@ def extract_spec(text: str, need_range: bool = True) -> dict | None:
     if not llm_client.ollama_available():
         return None
     trimmed = text[:16000]  # leave headroom for the JSON reply in context
-    # A range-table extraction genuinely takes ~3 minutes on this CPU-only box
-    # (measured: 186s), so a single generous attempt fits the 240s per-family
-    # budget (main()'s FAMILY_TIMEOUT_SECONDS) better than two short ones that
-    # both time out before the model finishes. Non-range jobs are much smaller
-    # and can afford a retry within the same budget.
+    # With the model warmed up front, these describe inference time only. A
+    # range extraction genuinely takes minutes on CPU, so give it room rather
+    # than retrying: a retry that also times out just doubles the wasted wait.
     attempts = 1 if need_range else 2
-    call_timeout = 220.0 if need_range else 90.0
+    call_timeout = EXTRACT_TIMEOUT_RANGE if need_range else EXTRACT_TIMEOUT_PLAIN
     for attempt in range(attempts):
         raw = _generate_json(trimmed, need_range, timeout=call_timeout)
         if raw:
@@ -580,12 +622,14 @@ def main() -> None:
 
     if not llm_client.ollama_available():
         print("WARNING: local Ollama not detected - extraction will fail. Start 'ollama serve' first.")
+    else:
+        warm_model()
 
     # A single family (a slow/hanging search or fetch) must never stall an
     # unattended multi-hour run: bound each one with a hard wall-clock timeout.
     # A fresh single-use executor per family means an abandoned/hung thread
     # (Python threads can't be force-killed) never blocks the next family.
-    FAMILY_TIMEOUT_SECONDS = 300
+    FAMILY_TIMEOUT_SECONDS = FAMILY_TIMEOUT
 
     def process_with_timeout(manufacturer_dir: str, family: dict) -> str:
         executor = ThreadPoolExecutor(max_workers=1)

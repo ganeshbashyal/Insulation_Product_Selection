@@ -57,6 +57,7 @@ from __future__ import annotations
 
 import json
 import os
+import threading
 import uuid
 from typing import Any
 
@@ -104,6 +105,11 @@ DEMO_CHAT_ENABLED = (
 
 # Which site the development /chat harness authenticates as.
 DEMO_CHAT_SITE_ID = os.getenv("AURORA_DEMO_CHAT_SITE_ID", "local")
+
+# How long startup will wait for the phrasing model to load. Generous because a
+# cold load on a CPU-only host is far slower than steady-state inference; it
+# runs on a background thread, so a long wait costs nothing but a late log line.
+WARM_TIMEOUT_SECONDS = float(os.getenv("AURORA_WARM_TIMEOUT_SECONDS", "300"))
 
 # AGENT_USE_LLM lets an operator force phrasing on/off explicitly. Left unset,
 # auto-detect: if a local Ollama server is actually reachable at startup, turn
@@ -165,24 +171,24 @@ async def startup():
 
     if USE_LLM:
         # Ollama unloads an idle model from memory; the first real user message
-        # after that pays a one-time ~10-15s cold-load penalty, which reads as
-        # "the chat is really slow". Pay that cost here at startup instead, on
-        # a background thread so it never blocks the server from accepting
-        # requests, and keep the model resident for the life of the process.
-        import threading
+        # after that pays the full cold-load penalty. phrase() treats a missed
+        # deadline as "use the literal text", so an unwarmed model reads as a
+        # robotic bot rather than a slow one. Pay that cost here at startup, on
+        # a background thread so a slow or absent Ollama never blocks the
+        # server from accepting requests.
         import time as _time
 
         def _warm_ollama() -> None:
             start = _time.monotonic()
-            ok = llm_client.generate_reply(
-                llm_client.SYSTEM_PROMPT,
-                "Say OK.",
-                max_tokens=5,
-                timeout=60.0,
-            )
+            ok = llm_client.warm_model(timeout=WARM_TIMEOUT_SECONDS)
             elapsed = _time.monotonic() - start
-            status = "warmed" if ok is not None else "warmup failed (will retry lazily on first request)"
-            print(f"OK - Ollama model {status} in {elapsed:.1f}s")
+            if ok:
+                print(f"OK - chat model {llm_client.OLLAMA_MODEL} warm in {elapsed:.1f}s")
+            else:
+                print(
+                    f"WARNING - could not warm {llm_client.OLLAMA_MODEL} in {elapsed:.1f}s; "
+                    f"replies will fall back to literal text"
+                )
 
         threading.Thread(target=_warm_ollama, daemon=True).start()
 
