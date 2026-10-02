@@ -1,0 +1,137 @@
+{
+  "description": "Configuration for insulation product matching and recommendation engine",
+  
+  "fuzzy_word_threshold": 0.8,
+  "comments_fuzzy_threshold": "Similarity ratio (0.0-1.0) for fuzzy word matching. Higher = stricter matching. Use 0.8+ to avoid false positives like 'insulate' ≈ 'install'.",
+  
+  "no_reliable_match_score": 1.5,
+  "comments_no_reliable_match": "Minimum score threshold to consider a match 'reliable'. Below this, human review is required. Prevents weak recommendations.",
+  
+  "min_fuzzy_match_length": 5,
+  "comments_min_fuzzy_length": "Only fuzzy-match words with 5+ characters to avoid false matches on short words.",
+  
+  "use_hybrid_ranking": false,
+  "comments_hybrid_ranking": "If true, use vector embeddings + lexical ranking. Requires 'hybrid_retrieval' module and Ollama/similar embedding service.",
+  
+  "singularisation_exceptions": [
+    "glass",
+    "bus",
+    "moss",
+    "series",
+    "species",
+    "basis",
+    "crisis",
+    "analysis",
+    "diagnosis",
+    "thesis",
+    "batts",
+    "cellulose"
+  ],
+  "comments_singularisation": "Words that should NOT have trailing 's' removed. Prevents 'glass' → 'glas', 'bus' → 'bu', etc.",
+  
+  "synonyms": {
+    "r-value": "thermal resistance",
+    "r value": "thermal resistance",
+    "r val": "thermal resistance",
+    "rw": "sound reduction index",
+    "acoustic": "sound",
+    "noise reduction": "acoustic comfort",
+    "soundproof": "sound dampening",
+    "energy efficient": "energy efficiency",
+    "thermal resistant": "thermal resistance",
+    "heat resistant": "thermal resistance",
+    "fire rated": "fire resistance",
+    "fire proof": "fire resistance",
+    "bal": "bushfire attack level",
+    "ncc": "national construction code"
+  },
+  "comments_synonyms": "Normalize common variants and abbreviations. Longest matches first to avoid partial replacements.",
+  
+  "ranking_weights": {
+    "comment": "Scoring multipliers applied during ranking. Adjust these to tune recommendation behavior.",
+    "keyword_multiplier": 4.0,
+    "comment_keyword": "Product keywords (most specific). Higher = reward exact product matches.",
+    "application_multiplier": 3.0,
+    "comment_application": "Product applications (general use cases). Lower than keywords but still important.",
+    "priority_multiplier": 1.5,
+    "comment_priority": "Priority alignment score (acoustic, energy, etc). Ensures priority is considered but keywords dominate.",
+    "not_for_penalty": 4.0,
+    "comment_not_for": "Penalty for products flagged as unsuitable for this application. Balances keyword score.",
+    "recommendation_blocked_penalty": 6.0,
+    "comment_blocked": "Penalty for products not yet approved/certified. High value to deprioritize unvetted products.",
+    "placement_boost_additive": true,
+    "comment_placement": "If true, placement boosts ADD to score. If false, they multiply. Additive recommended for transparency."
+  },
+  
+  "placement_boosts": {
+    "comment": "Product-placement-priority mapping. Boost applied when detected placement matches product suitability and user priority.",
+    "FLETCHER_PINK_BATTS_CEILING": {
+      "comment": "Fletcher ceiling batts - energy efficient for ceiling cavities",
+      "ceiling": {
+        "energy_efficiency": 12,
+        "acoustic_comfort": 2,
+        "sustainability": 1
+      }
+    },
+    "FLETCHER_PINK_BATTS_FLOOR": {
+      "comment": "Fletcher floor batts - energy efficient for subfloors",
+      "subfloor": {
+        "energy_efficiency": 12,
+        "acoustic_comfort": 3,
+        "sustainability": 1
+      }
+    },
+    "FLETCHER_SOUNDBREAK": {
+      "comment": "Fletcher SoundBreak - acoustic performance between floors",
+      "between_floors": {
+        "acoustic_comfort": 12,
+        "energy_efficiency": 3,
+        "sustainability": 0
+      }
+    },
+    "THERMOTEC_NUWAVE_UNDERLAY": {
+      "comment": "ThermaTec underlay - acoustic comfort for floor underlays",
+      "underlay": {
+        "acoustic_comfort": 12,
+        "energy_efficiency": 2,
+        "sustainability": 1
+      }
+    },
+    "THERMOTEC_E_THERM": {
+      "comment": "ThermaTec E-Therm - energy efficient for roofline applications",
+      "roofline": {
+        "energy_efficiency": 5,
+        "acoustic_comfort": 0,
+        "sustainability": 1
+      }
+    },
+    "FLETCHER_PERMASTOP": {
+      "comment": "Fletcher Permastop - energy efficient for roofline",
+      "roofline": {
+        "energy_efficiency": 5,
+        "acoustic_comfort": 0,
+        "sustainability": 0
+      }
+    },
+    "FLETCHER_CAVITY_BATT": {
+      "comment": "Fletcher cavity wall batts",
+      "cavity": {
+        "energy_efficiency": 8,
+        "acoustic_comfort": 5,
+        "sustainability": 2
+      }
+    }
+  },
+  
+  "recommendation_allowed": [
+    "approved",
+    "pending_review"
+  ],
+  "comments_recommendation_allowed": "Product confidence states where recommendation is permitted to users.",
+  
+  "recommendation_blocked": [
+    "blocked",
+    "discontinued"
+  ],
+  "comments_recommendation_blocked": "Product confidence states where recommendation is NOT permitted (requires manual review)."
+}

@@ -90,5 +90,6 @@
   "sds_url": "",
   "engine": "local",
   "retrieval": {},
-  "range_source": ""
+  "range_source": "",
+  "datasheet_local_path": "data\\tds\\fletcher\\pink_batts_floor_insulation.pdf"
 }

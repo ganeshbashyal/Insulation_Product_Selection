@@ -27,7 +27,7 @@ def test_ollama_available_is_false_when_server_unreachable(monkeypatch):
 def test_phrase_never_calls_llm_endpoint_when_fallback_returns_none(monkeypatch):
     calls = []
 
-    def fake_generate_reply(system_prompt, user_prompt):
+    def fake_generate_reply(system_prompt, user_prompt, **kwargs):
         calls.append((system_prompt, user_prompt))
         return None
 

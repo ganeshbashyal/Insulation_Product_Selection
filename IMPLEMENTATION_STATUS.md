@@ -9,11 +9,15 @@
 | No tests/CI | Pytest covers thermal/acoustic placement, paraphrase/typo matching, identity gates, schema/data checks and immutable review decisions. GitHub Actions runs validation and tests. | Add production-channel and connector tests when those integrations exist. |
 | Fragile keyword matching | Canonical synonyms, phrase/token matching and conservative fuzzy-word fallback are isolated in `bot_engine.py`. | This is deterministic and auditable, not semantic AI search. Evaluate embeddings only with a labelled enquiry set and a safe fallback. |
 | No TDS ingestion | `scripts/ingest_evidence.py` downloads PDF/HTML, hashes it and extracts candidates into an ignored review inbox. | It never promotes claims automatically. OCR for scanned PDFs and reviewer UI remain future work. |
-| No audit/approval workflow | `audit_store.py` persists enquiries and immutable approval/rejection events in local SQLite; the Streamlit approval action uses the review ID. | CRM/ticket submission is not enabled until a platform, credentials, privacy/retention rules and field mapping are approved. |
+| Human review workflow | `interaction_store.py` records conversations and reviewer outcomes in local SQLite; the FastAPI service exposes authenticated interaction-learning endpoints. `audit_store.py` remains a standalone encrypted-capable review-queue utility and is not wired into the chat service. | No customer-facing approval UI or CRM/ticket submission is enabled. A platform, credentials, privacy/retention rules and field mapping require owner approval before any external submission. |
 | Aircall cannot ingest the catalogue CSV as knowledge | `scripts/build_aircall_pack.py` publishes a paste-ready knowledge block, agent instructions, intake questions and a source-hash manifest from the governed catalogue. | Trial users paste/configure these files manually. A hosted knowledge page or API Action can replace this after the trial. |
 | Matching false positives | `config/matching.json` controls vocabulary, fuzzy matching and a mandatory no-reliable-match threshold; tests cover unrelated enquiries and placement language. | Tune only against a growing labelled enquiry set and track precision/recall before production. |
 | Evidence extraction auditability | Raw downloads are stored by SHA-256 outside Git; candidates retain page/region and extraction/OCR confidence; CI produces an evidence triage artifact. | Scanned documents are flagged for OCR rather than interpreted automatically. An authorised reviewer must verify every promoted claim. |
 | Callback PII | Optional Fernet encryption, reviewer allowlist and per-record retention deadlines are implemented; production can require encryption through environment configuration. | Local SQLite has no network API. Production requires authenticated RBAC, TLS and a managed encrypted database. |
+| Offline startup stalls | RAG embeddings are lazy-loaded and guarded by a short local Ollama availability probe; lexical retrieval remains available with Ollama stopped. | Dense retrieval requires a locally running Ollama embedding model or a previously built compatible cache. |
+| Runtime flow divergence | `agent_core.Conversation` owns serializable qualification state and recommendation flow; `conversation_service.py` owns FastAPI routing, tools, RAG, linting and audit behavior. | FastAPI is the sole supported chat surface. No desktop UI or presentation-only review dashboard is maintained. |
+| Generated artifact drift | `scripts/check_generated_artifacts.py` verifies retrieval cards, compliance/expert/building-class RAG chunks and Aircall text against local sources in CI. | Rebuild the named artifact locally when the check reports drift. |
+| SQLite contention | Local application stores use WAL mode, a five-second busy timeout and explicit schema version 1. | A managed multi-host database is still required if deployment moves beyond a single local host. |
 
 ## Release rule
 
@@ -22,6 +26,8 @@ Run both commands before merging catalogue or ranking changes:
 ```powershell
 python scripts/validate_catalogue.py
 python scripts/validate_aircall_pack.py
+python scripts/check_generated_artifacts.py
+python scripts/evidence_triage.py
 pytest -q
 ```
 

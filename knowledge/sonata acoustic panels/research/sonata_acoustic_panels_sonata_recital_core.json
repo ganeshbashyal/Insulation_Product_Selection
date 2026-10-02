@@ -192,5 +192,7 @@
   "source_excerpt": null,
   "engine": "ai_studio_batch",
   "schema_version": "1.0",
-  "range_source": ""
+  "range_source": "",
+  "datasheet_local_path": "data\\tds\\sonata acoustic panels\\sonata_acoustic_panels_sonata_recital_core.pdf",
+  "datasheet_download_url": "https://sonataacousticpanels.com.au/wp-content/uploads/2025/11/TDS-Sonata-Recital-Core-Rev2-170626.pdf"
 }

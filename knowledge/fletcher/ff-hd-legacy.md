@@ -29,9 +29,26 @@ Obtain original catalogue/date, full description, manufacturer code, photo/label
 
 ## Installation and clearances
 
-_Installation, clearance and limitation evidence is pending a verified manufacturer source. Do not infer project-specific installation instructions from this family file._
+Extracted from the manufacturer datasheet; the bot may share this context but must not issue project-specific installation instructions or override the human-reviewed install guide.
 
-Source currently recorded: https://insulation.com.au/
+1. Install in accordance with AS 4200.2.
+2. Avoid contact with electrical wiring.
+3. Inspect for damage prior to installation.
+4. Repair any tears with appropriate tape.
+5. Protect from physical damage.
+6. Avoid storing under UV light.
+7. Keep dry at all times.
+8. Avoid contact with alkaline products, cement, mortar, and corrosive environments.
+
+**Manufacturer-stated limitations**
+
+- Not suitable as an exposed internal wall and ceiling lining where a group number is required.
+- Not suitable for applications where the cladding manufacturer specifies a vapour permeable membrane.
+- Not suitable where a pliable building membrane or sarking-type material is required in climate zones 4–8.
+- Not suitable as a substitute for safety mesh or a fall-arrest system.
+- Not suitable for use within 500m of a saltwater body in unenclosed, ventilated space.
+- Additional mechanical fasteners may be required for product exposed to adverse weather conditions.
+- Not designed to withstand prolonged weathering – exterior cladding should be installed within 8 weeks in a wall application, or 2 weeks in a roof application.
 
 <!-- AUTO:INSTALL END -->
 
@@ -47,8 +64,24 @@ Source currently recorded: https://insulation.com.au/
 
 ## Documented physical and technical properties
 
-_Variation data is pending a verified manufacturer range table or technical extraction. No dimensions, ratings or product combinations are inferred._
+| Published property | Value | Standard |
+| --- | --- | --- |
+| Duty Classification | Extra Heavy Duty | AS 4200.1 |
+| Edge Tear Machine | ≥ 90 N | TAPPI T470 |
+| Lateral Tear Machine | ≥ 90 N | TAPPI T470 |
+| Tensile Strength | ≥ 13.0 kN/m | AS 1301.448s |
+| Water Control | Water barrier | AS/NZS 4201.4 |
+| Vapour Control | Class 1 Vapour barrier | AS 4200.1 |
+| Vapour Permeance | <0.0022 µg/N.s | ASTM E96 |
+| Air Control | Air barrier (≥0.1) | ISO 5636-5 |
+| Emittance | IR Non-reflective (0.9) | AS/NZS 4201.5 |
+| Emittance | IR Reflective (≤0.05) | AS/NZS 4201.5 |
+| Resistance to Dry Delamination | PASS | AS/NZS 4201.1 |
+| Resistance to Wet Delamination | PASS | AS/NZS 4201.2 |
+| Shrinkage | ≤ 0.5 % | AS/NZS 4201.3 |
+| Electrical Conductivity | Electrically conductive | AS/NZS 3100 |
+| Flammability Index | ≤5 | AS 1530.2 |
 
-Source currently recorded: https://insulation.com.au/
+_No manufacturer range table was available in the extracted source; this records each published technical property without inferring product combinations._
 
 <!-- AUTO:VARIANTS END -->

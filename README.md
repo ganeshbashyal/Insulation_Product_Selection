@@ -15,6 +15,11 @@ The repository has four related data layers:
 
 The bot path is deliberately deterministic first: family metadata and approved evidence drive ranking and gates, while a local LLM may phrase an already-decided response. The LLM does not choose products or invent technical claims.
 
+`agent_core.py` owns serializable qualification and recommendation state.
+`conversation_service.py` applies routing, local tools, RAG, policy linting and
+interaction logging for the local FastAPI service. There is one supported
+conversation interface; the retired desktop demo is not part of the runtime.
+
 ## Structure
 
 ### Complete Manufacturer Coverage (26 manufacturers, 283 families)
@@ -35,7 +40,7 @@ See [`knowledge/LITERATURE_REVIEW_STATUS.md`](knowledge/LITERATURE_REVIEW_STATUS
 - [`knowledge/performance_evidence.json`](knowledge/performance_evidence.json) — normalized R, Rw, NRC/αw, fire, vapour and temperature evidence with variant, scope, test context and provenance.
 - [`knowledge/LITERATURE_REVIEW_STATUS.md`](knowledge/LITERATURE_REVIEW_STATUS.md) — Documentation status and next steps for technical validation
 - [`knowledge/industry/`](knowledge/industry/README.md) — General (not manufacturer-specific) Australian insulation industry reference: NCC/compliance intelligence, thermal/acoustic principles, product/material overviews, customer-support triage and a Q&A training corpus. Intended as background/RAG context for the enquiry bot, not a source of manufacturer-supported product claims.
-- [`data/local/family_catalogue.sqlite3`](data/local/family_catalogue.sqlite3) — generated local SQLite catalogue containing family metadata, structured variants and installation/clearance/limitation rows.
+- `data/local/family_catalogue.sqlite3` — generated, machine-local SQLite catalogue containing family metadata, structured variants and installation/clearance/limitation rows; it may not exist in a fresh clone until rebuilt.
 - [`schemas/families.schema.json`](schemas/families.schema.json) — family metadata contract for the multi-manufacturer catalogue.
 - [`scripts/normalize_family_json.py`](scripts/normalize_family_json.py) and [`scripts/normalize_research_json.py`](scripts/normalize_research_json.py) — normalize JSON records without discarding existing values.
 
@@ -123,16 +128,24 @@ Completed demo enquiries are written to an append-audited local SQLite review qu
 
 See [`IMPLEMENTATION_STATUS.md`](IMPLEMENTATION_STATUS.md) for the control mapped to each identified gap and the remaining production work.
 
-## Team demonstration
+## Local FastAPI chat
 
-The local Streamlit demonstration compares all 283 manufacturer-classified product families across 26 manufacturers. The knowledge base supports acoustic, thermal, membrane, HVAC, pipe, roof and accessory applications. The user can filter by manufacturer or application, or compare across all manufacturers. It recommends the best supported family, exposes evidence limitations, includes a searchable range explorer, produces a callback brief and demonstrates a human-approved mock MYOB quote handoff. It does not access live Aircall, Google Drive or MYOB data.
-
-Run it from Anaconda Prompt:
+The local chat compares manufacturer-classified product families, exposes
+evidence limitations, and captures a callback lead and project brief after
+showing the recommendation. The service uses local SQLite and can use a local
+Ollama model for optional phrasing; it does not require cloud infrastructure.
+Run it on loopback for local development:
 
 ```powershell
-cd "C:\Users\ganes\OneDrive\Documents\GitHub\Insulation_Product_Selection"
-streamlit run app.py
+python -m uvicorn web_agent:app --host 127.0.0.1 --port 8001
 ```
+
+Then open `http://127.0.0.1:8001/chat`. See
+[`DEMO_CHAT_CHEATSHEET.md`](DEMO_CHAT_CHEATSHEET.md) for local setup and
+troubleshooting. Leads are stored in `data/local/interactions.sqlite3`; reading
+them requires the separate `AURORA_LEAD_ADMIN_KEY` configured on the server.
+See [`AUDIT_SECURITY.md`](AUDIT_SECURITY.md) before using any real customer
+contact details.
 
 ### Optional: product literature (sales/SEO pages)
 
@@ -143,45 +156,58 @@ python scripts/generate_family_literature.py            # all 283 families
 python scripts/generate_family_literature.py --only Autex
 ```
 
-### Optional: deep-dive TDS research agent (local, background)
+### TDS research tooling (not part of local-only chat runs)
 
-[`scripts/tds_research_agent.py`](scripts/tds_research_agent.py) fetches each family's real manufacturer datasheet PDF (from the SKU catalogue, the official `source_url`, or a web/sitemap search on the manufacturer's domain), extracts the text, and asks your **local Ollama** model to structure it into a JSON spec — real R-values, densities, fire indices, install steps, applications — stored at `knowledge/<manufacturer>/research/<family>.json` with the source URL recorded. Nothing leaves your machine; only the local model processes the text. Re-running the literature generator then folds that real data into the Markdown pages instead of thin placeholders.
+The repository retains [`scripts/tds_research_agent.py`](scripts/tds_research_agent.py)
+for future research. It can fetch manufacturer PDFs and search websites, so it
+uses network resources and is not part of local-only chat runs. Do not run it
+unless the owner explicitly authorises that research.
 
-Run it one family at a time (reliable on a local LLM; safe to schedule in the background):
+When TDS research is explicitly authorised, use the local model already
+installed on the machine; do not pull a model or use an external AI service.
 
 ```powershell
-ollama serve                                   # keep the local model running
-python scripts/research_next_family.py         # process the next pending family, then stop
-python scripts/research_next_family.py --loop --delay 3   # or keep going until done
-python scripts/research_next_family.py --status           # progress
-python scripts/tds_research_agent.py --only Fletcher      # or a whole manufacturer at once
+ollama list
+ollama serve
 ```
 
-Resumable: each family writes its own JSON, so you can stop and restart any time. Families whose PDF can't be found are marked `no_pdf_found` and skipped on later runs until you supply a link (via the TDS CSV) or one becomes discoverable. Web search can be blocked in some environments; the sitemap crawl is the fallback, and hand-filled links in `data/processed/tds_links_to_source.csv` always take precedence.
-
-**Alternative: Gemini research agent** ([`scripts/gemini_research_agent.py`](scripts/gemini_research_agent.py)) — instead of the local Ollama pipeline, asks Gemini with Google Search grounding to find the official TDS/SDS links and extract the spec in one step. Faster and higher quality, but sends product/datasheet text to Google's API (user-approved for research only; customer data and live recommendations stay local). Set `$env:GEMINI_API_KEY = "..."` then run `python scripts/gemini_research_agent.py --loop`. Both agents write to the same `research/<slug>.json` files, so the literature generator works identically either way.
+The pipeline is resumable and writes one family record at a time. Internet
+retrieval must remain off unless authorised; supplied local TDS files and links
+are the approved source material for that separate research task.
 
 ### Optional: deployable website agent
 
-[`web_agent.py`](web_agent.py) serves the same conversation flow as a self-hosted FastAPI app (no Streamlit), so it can be embedded on a website. It reuses the deterministic ranker/gates and logs every conversation for interaction learning:
+[`web_agent.py`](web_agent.py) serves the local FastAPI conversation flow and
+reuses deterministic ranking/gates while logging conversations for interaction
+learning:
 
 ```powershell
-uvicorn web_agent:app --host 0.0.0.0 --port 8000
-# embed: <iframe src="https://your-server/chat" style="width:420px;height:640px;border:0"></iframe>
+python -m uvicorn web_agent:app --host 127.0.0.1 --port 8001
 ```
 
-Interaction learning ([`interaction_store.py`](interaction_store.py)) records each completed conversation and its recommended family; reviewers then record an outcome (`approved` / `edited` / `rejected`, with an optional corrected family). Per-family stats (`/api/learning/families`), pending reviews (`/api/learning/pending`) and recent rejections (`/api/learning/rejections`) show where the deterministic ranker misfires so the team can tune it. Learning informs human tuning — it never auto-changes live recommendations.
+Interaction learning ([`interaction_store.py`](interaction_store.py)) records
+conversations and recommendations; reviewers can record outcomes (`approved`,
+`edited` or `rejected`, with an optional corrected family). Per-family stats
+(`/api/learning/families`), pending reviews (`/api/learning/pending`) and recent
+rejections (`/api/learning/rejections`) show where the deterministic ranker
+misfires. Learning informs human tuning; it never auto-changes recommendations.
 
 ### Optional: natural reply phrasing via a local LLM
 
 By default the chat's questions and recommendation replies are built from fixed template text — safe, but repetitive. To have replies phrased more naturally, run a local [Ollama](https://ollama.com) server (no external API, no data leaves your machine/server):
 
 ```powershell
-ollama pull llama3.1:8b   # or any chat model you have pulled, e.g. gemma4:latest
+ollama list               # use a model already installed locally
 ollama serve
 ```
 
-Then restart the Streamlit app. A "Natural phrasing (local LLM)" toggle appears in the sidebar and turns on automatically once the local server is detected (`http://localhost:11434` by default; override with the `OLLAMA_HOST` and `OLLAMA_MODEL` environment variables). The LLM only rephrases text the rules engine has already decided — it never selects the recommended family, chooses a SKU, or asserts compliance; if the server is unreachable the app silently falls back to the fixed wording.
+Set `AGENT_USE_LLM=true` and restart the FastAPI service to enable optional local
+phrasing when Ollama is reachable (`http://127.0.0.1:11434` by default;
+override with `OLLAMA_HOST` and `OLLAMA_MODEL`). The LLM only rephrases text
+already decided by the rules engine—it never selects the recommended family,
+chooses a SKU or asserts compliance. If the local server is unreachable, the
+service falls back to fixed wording.
 
-If phrasing feels slow: use a smaller model (`ollama pull gemma3:4b` then set `OLLAMA_MODEL=gemma3:4b` — 3-4B models rephrase a short sentence in ~1-2s on CPU), keep `ollama serve` running so the model stays warm, and note the app caps reply length (`num_predict=160`), keeps the model loaded for 30 minutes, and caches successful phrasings — the demo asks the same questions every conversation, so repeat runs are instant.
-
+For a setup designed to stay local, use an already-installed local model and
+avoid cloud-hosted model APIs. If phrasing feels slow, a smaller local model may
+help; model generation and datasheet research are not required to run the chat.

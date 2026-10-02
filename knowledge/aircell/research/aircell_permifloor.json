@@ -1,31 +1,88 @@
 {
   "family_id": "AIRCELL_PERMIFLOOR",
-  "family_name": "Aircell Permifloor",
-  "datasheet_pdf_url": "",
-  "status": "no_pdf_found",
-  "researched_at": "2026-09-07",
+  "family_name": "Permifloor",
+  "datasheet_pdf_url": "https://store.filerobot.com/xamyxyg7fn/kingspan/kil/products/air-cell-permifloor-au-and-nz/kingspan-aircell-permifloor-product-datasheet-en-au.pdf?vh=662202",
+  "datasheet_local_path": "data\\tds\\aircell\\aircell_permifloor.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-14",
   "spec": {
-    "description": "",
-    "features": [],
-    "applications": [],
-    "technical": [],
+    "description": "Australian-made Kingspan AIR-CELL Permifloor ® is insulation designed specifically for suspended framed floor applications delivering a 2-in-1 insulation and moisture management solution.",
+    "features": [
+      "Water-permeable",
+      "CodeMark-certified",
+      "Fibre-free",
+      "Non-allergenic",
+      "Non-irritant",
+      "Strong, tough, durable",
+      "Rodent and insect resistant",
+      "Flammability Index ≤ 5"
+    ],
+    "applications": [
+      "Suspended framed floors"
+    ],
+    "technical": [
+      {
+        "property": "Material R-value",
+        "value": "R0.11 m2/K/W",
+        "standard": "ASTM C518-2017 at 23°C"
+      },
+      {
+        "property": "Flammability Index",
+        "value": "≤ 5",
+        "standard": "AS 1530.2:1993"
+      },
+      {
+        "property": "Water Control",
+        "value": "Pass Non-Water Barrier",
+        "standard": "AS/NZS 4201.4:1994"
+      },
+      {
+        "property": "Moisture Shrinkage",
+        "value": "< 0.5%",
+        "standard": "AS/NZS 4201.3:1994"
+      },
+      {
+        "property": "Surface Water Absorbency",
+        "value": "< 100g/m2",
+        "standard": "AS/NZS 4201.6:1994"
+      },
+      {
+        "property": "Corrosion Resistance",
+        "value": "App. E Pass",
+        "standard": "AS/NZS 4859.1:2018"
+      },
+      {
+        "property": "Electrical Conductivity",
+        "value": "≤ 10MΩ",
+        "standard": "AS/NZS 4200.1:2017"
+      }
+    ],
+    "fire": "AS 1530.2:1993 ≤ 5",
+    "sustainability": "",
+    "install": [
+      "Lay Kingspan AIR-CELL Permifloor® over and running perpendicular to the bearers and fix in position.",
+      "Install joists as required.",
+      "Fix Kingspan AIR-CELL Permifloor® to the underside of joists by stapling or screwing.",
+      "Butt join or overlap by 50 mm and tape with 48 mm reinforced foil tape.",
+      "Alternatively, Kingspan AIR-CELL Permifloor ® can be installed over the joists provided it doesn’t compromise the fixing of the chosen flooring, and the insulation is allowed to sag at least 40 mm between joists.",
+      "Fit Kingspan AIR-CELL neatly around any penetrations, and tape if necessary to prevent air leakage.",
+      "When taping a plastic squeegee or blade must be used to apply appropriate pressure to the tape. Surfaces must be dry and free from dust, oil or grease prior to taping.",
+      "Leave minimum 100 mm clearance around heat producing flues or light fittings.",
+      "Kingspan AIR-CELL insulation products must be transported and stored in its protective packaging and kept clean and dry.",
+      "Standing rolls on end reduces risk of damage should moisture be present in the packaging.",
+      "Surfaces must be kept free of contaminants such as dust and grease, and must not be stored with foil surfaces in contact with alkaline materials i.e. wet cement, lime, etc."
+    ],
+    "clearances": [
+      "Minimum 100 mm clearance around heat producing flues or light fittings"
+    ],
+    "limitations": [
+      "Can be damaged by intense heat above 105˚ C",
+      "Contact with sparks and flame from blow torches, welders, cutting tools, etc. must be avoided.",
+      "Foil facings are conductive to electricity – avoid contact with un-insulated electrical cables and fittings."
+    ],
     "range_headers": [],
     "range": [],
-    "fire": "",
-    "sustainability": "",
-    "install": [],
-    "clearances": [],
-    "limitations": [],
-    "selection_checklist": [],
-    "compliance": "",
-    "warranty": "",
-    "accessories": [],
-    "accessories_upsell": []
+    "range_extraction_status": "inconsistent_columns_dropped"
   },
-  "source_excerpt": null,
-  "schema_version": "1.0",
-  "sds_url": "",
-  "engine": "local",
-  "retrieval": {},
-  "range_source": ""
+  "source_excerpt": "Insulation\nVapour Permeable Underfloor Insulation\n Permifloor\n®\n  3x faster to install* than \nfoil-faced polystyrene \npanels\n  Helps achieve the \nhome energy efficiency \nprovisions\n  2-in-1 insulation and \nmoisture management \nsolution\n  Fibre-free, non-allergenic, \nnon-irritant\n  Strong, tough, durable\n  Rodent and insect \nresistant\n  Flammability Index ≤ 5\n  Compliant with AS/NZS \n4859.1:2018\n  CodeMark-certified for \nNCC compliance\n  Made in Australia\n* Fast and Furious Installation \nChallenge – see page 7\n2\nResidential Suspended Framed Floors\nKingspan AIR-CELL Permifloor\n®\nTypical Design Details\nKingspan AIR-CELL \nPermifloor®\nJoist\nBearer\nFigure 1.  Kingspan AIR-CELL Permifloor ® installed over bearers.\nKingspan AIR-CELL\nPermifloor®\nJoistFlooring\nStump / Piles Bearer\nFigure 2.  Side elevation of Kingspan AIR-CELL Permifloor ® in a \nsuspended framed floor.\nThermal Performance\nKingspan AIR-CELL  \nPermifloor®\nHeat flow \nin\nHeat flow \nout\nUnenclosed sub-floor RT 0.8 RT 1.6\nEnclosed sub-floor RT 1.6 RT 3.0\nThe R-values shown are Total R-values for the building element \nas required by the Energy Provisions of the NCC, calculated in \naccordance with AS/NZS 4859.2:2018.  \nKingspan AIR-CELL® products are manufactured, tested and \npackaged in conformance with AS/NZS 4859.1:2018.\nSpecification Guide\nThe underfloor insulation fixed on the floor frame shall \nbe water-permeable, CodeMark-certified Kingspan AIR-\nCELL Permifloor® fibre-free, thermo reflective insulation, \ncomprising a closed-cell foam structure sandwiched with an \nanti-glare foil facing on one side and a plain foil facing on \nthe other side manufactured by Kingspan Insulation Pty Ltd, \nand shall be installed in accordance with the instructions \nissued by them.\nA Project Specific Warranty provided by Kingspan Insulation \nmust be submitted.\nInstallation Instructions\nNew Building\n1.  Lay Kingspan AIR-CELL Permifloor® over and running \nperpendicular to the bearers and fix in position.\n2.  Install joists a"
 }

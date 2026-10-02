@@ -275,9 +275,15 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
 
 ## Documented physical and technical properties
 
-_Variation data is pending a verified manufacturer range table or technical extraction. No dimensions, ratings or product combinations are inferred._
+| Published property | Value | Standard |
+| --- | --- | --- |
+| Impact Isolation | 6 star | AAAC Description |
+| Impact Isolation | 5 star | AAAC Description |
+| Impact Isolation | 4 star | AAAC Description |
+| Impact Isolation | 3 star | AAAC Description |
+| Impact Isolation | 2 star | AAAC Description |
 
-Source currently recorded: https://acoustica.com.au/wp-content/uploads/2020/04/Acoustica-specifications-AngelStep_2020.docx
+_No manufacturer range table was available in the extracted source; this records each published technical property without inferring product combinations._
 
 <!-- AUTO:VARIANTS END -->
 
@@ -285,8 +291,16 @@ Source currently recorded: https://acoustica.com.au/wp-content/uploads/2020/04/A
 
 ## Installation and clearances
 
-_Installation, clearance and limitation evidence is pending a verified manufacturer source. Do not infer project-specific installation instructions from this family file._
+Extracted from the manufacturer datasheet; the bot may share this context but must not issue project-specific installation instructions or override the human-reviewed install guide.
 
-Source currently recorded: https://acoustica.com.au/wp-content/uploads/2020/04/Acoustica-specifications-AngelStep_2020.docx
+1. Level structural floor to parquetry installation standard tolerances.
+2. Clean and free of debris.
+3. Fill gaps and holes in floor.
+4. Install 40mm x (AS thickness -1mm) MDF battens around the perimeter of room for grip installation.
+5. Install AngelStep tiles butted together.
+6. Leave 3mm gap between walls and finish surface.
+7. Spot glue AngelStep with maxi bond or equal.
+8. Preferably install skirting after floor has been installed, leaving a 2 to 3mm gap.
+9. Seal gaps between wall & new floor with silicone sealant to form a resilient seal.
 
 <!-- AUTO:INSTALL END -->

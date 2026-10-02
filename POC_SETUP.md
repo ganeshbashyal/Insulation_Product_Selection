@@ -1,6 +1,6 @@
 # Thermotec POC — first run
 
-This proof of concept validates Thermotec SKU rows against the product-family knowledge files in this repository. In the local Streamlit demo it may recommend a manufacturer-supported family, while exact selection and quotation remain human-controlled. It keeps the Google Sheet as the editable source and does not write back to it.
+This notebook workflow validates Thermotec SKU rows against the product-family knowledge files in this repository. The local FastAPI agent may recommend a manufacturer-supported family, while exact selection and quotation remain human-controlled. It keeps the Google Sheet as the editable source and does not write back to it.
 
 ## Step 1 — export the current Google Sheet
 

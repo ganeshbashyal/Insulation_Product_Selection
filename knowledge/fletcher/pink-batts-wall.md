@@ -42,11 +42,18 @@ Capture timber/steel frame, stud centres, clear cavity depth, wall type, target 
 
 Extracted from the manufacturer datasheet; the bot may share this context but must not issue project-specific installation instructions or override the human-reviewed install guide.
 
-1. Product must be kept dry and not be exposed to weather in any condition including prior, during and after installation.
-2. Product must be correctly installed in the right stud width and depth.
-3. Product must be installed without compression to keep its claimed R-value.
-4. If used with any other products except Sisalation, confirmation of suitability must be reviewed.
-5. Follow the Installation Guidelines available from insulation.com.au.
+1. Installed without compression to keep its claimed R-value.
+2. Installed in the right stud width and depth.
+3. Correct installation method followed as per guidelines.
+
+**Manufacturer-stated limitations**
+
+- Not to be used/exposed to weather in any condition.
+- Not suitable for high humidity applications.
+- Cannot be used as a water or vapour barrier.
+- Modifications not permissible.
+- Must fully recover before use.
+- Confirm any weight limitations of ceiling framing/lining prior to installation.
 
 <!-- AUTO:INSTALL END -->
 
@@ -60,14 +67,11 @@ Extracted from the manufacturer datasheet; the bot may share this context but mu
 
 | Published property | Value | Standard |
 | --- | --- | --- |
-| R-value | R1.5 | m2K/W |
-| R-value | R2.0 | m2K/W |
-| R-value | R2.0 HD | m2K/W |
-| R-value | R2.5 HD | m2K/W |
-| R-value | R4.0 HD | m2K/W |
-| Maximum service temperature | 340 °C | ASTM C411/C447 |
-| Thermal resistance R-value | Complies | AS/NZS 4859.1 |
-| Moisture absorption | < 0.2% | % by volume |
+| R-value | m2K/W | AS/NZS 4859.1 |
+| Nominal thickness | mm |  |
+| Width | mm |  |
+| Length | mm |  |
+| Coverage per pack | m2 |  |
 
 _No manufacturer range table was available in the extracted source; this records each published technical property without inferring product combinations._
 

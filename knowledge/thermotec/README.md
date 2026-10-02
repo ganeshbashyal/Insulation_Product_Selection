@@ -22,7 +22,7 @@ All 13 family files received a structured deep-dive review on 2026-09-04. “Com
 | `THERMOTEC_MAXTAPE_FR` | MaxTape FR Insulating Foam Tape | [maxtape-fr.md](maxtape-fr.md) | Manufacturer supported; fire classification pending TDS extraction |
 | `THERMOTEC_MAXFLEX_PIPE` | Maxflex Coil Pipe Insulation | [maxflex-pipe.md](maxflex-pipe.md) | Identity unverified; blocked from selection and quotation |
 
-The Streamlit demonstration reads [families.json](families.json), which gives each family the same applications, discovery keywords, customer-priority scores, evidence state, questions and human-review gates used by the interface. The ratings are discovery aids—not product performance ratings or compliance certificates.
+The local FastAPI agent reads [families.json](families.json), which gives each family the applications, discovery keywords, customer-priority scores, evidence state, questions and human-review gates used by the conversation flow. The ratings are discovery aids—not product performance ratings or compliance certificates.
 
 ## Bot retrieval rule
 

@@ -1,7 +1,7 @@
 {
   "family_id": "AUTEX_HORIZON_TRIANGLE",
   "family_name": "Autex Horizon - Triangle",
-  "datasheet_pdf_url": "",
+  "datasheet_pdf_url": "https://cdn.mediavalet.com/aunsw/autex/dRTCRsHVIkiY2tw4JI69lw/4t6Itu09y0OoiCyRQX57Ng/Original/Horizon%20Data%20Sheet.pdf",
   "sds_url": "",
   "status": "ok",
   "researched_at": "2026-09-06",
@@ -18,12 +18,12 @@
       },
       {
         "c0": "Right Angle Triangle",
-        "c1": "1159 mm × 1159 mm",
-        "c2": "24.0 mm (±6%)",
+        "c1": "1159 mm \u00d7 1159 mm",
+        "c2": "24.0 mm (\u00b16%)",
         "c3": "24mm Cube (PET)",
         "c4": "~3.2 kg / panel (~4800 gsm)",
         "c5": "4 panels / pack",
-        "c6": "2.88 m²"
+        "c6": "2.88 m\u00b2"
       }
     ],
     "description": "",
@@ -93,5 +93,7 @@
   "source_excerpt": null,
   "engine": "knowledge_base_txt",
   "range_source": "manufacturer granular sizing matrix (knowledge-base dump)",
-  "schema_version": "1.0"
+  "schema_version": "1.0",
+  "datasheet_local_path": "data/tds/autex/autex_horizon_circle.pdf",
+  "datasheet_source": "shared_range:AUTEX_HORIZON_CIRCLE"
 }

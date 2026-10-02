@@ -161,5 +161,7 @@
   "source_excerpt": null,
   "engine": "ai_studio_batch",
   "schema_version": "1.0",
-  "range_source": ""
+  "range_source": "",
+  "datasheet_local_path": "data\\tds\\fletcher\\sisalation_vapawrap_metal_roof.pdf",
+  "datasheet_download_url": "https://insulation.com.au/wp-content/uploads/2024/Brochure-Sisalation-Wrap-Selection-Guide-Consumer-Rev6-120825-web-1.pdf"
 }

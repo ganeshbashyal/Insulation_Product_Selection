@@ -273,9 +273,17 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
 
 ## Documented physical and technical properties
 
-_Variation data is pending a verified manufacturer range table or technical extraction. No dimensions, ratings or product combinations are inferred._
+| Published property | Value | Standard |
+| --- | --- | --- |
+| R-value | Not specified |  |
+| Density | Not specified |  |
+| Thermal Conductivity | Not specified |  |
+| Fire Index | AS 1530.2:1993 ≤5 Low | AS 1530.2:1993 |
+| Temperature Range | Not specified |  |
+| Vapour Resistance | Not specified |  |
+| pH | Not specified |  |
 
-Source currently recorded: https://xamyxyg7fn.filerobot.com/kingspan/kil/products/air-cell-insulshed-50-au-and-nz/kingspan-aircell-insulshed-product-datasheet-en-au.pdf
+_No manufacturer range table was available in the extracted source; this records each published technical property without inferring product combinations._
 
 <!-- AUTO:VARIANTS END -->
 
@@ -283,8 +291,24 @@ Source currently recorded: https://xamyxyg7fn.filerobot.com/kingspan/kil/product
 
 ## Installation and clearances
 
-_Installation, clearance and limitation evidence is pending a verified manufacturer source. Do not infer project-specific installation instructions from this family file._
+Extracted from the manufacturer datasheet; the bot may share this context but must not issue project-specific installation instructions or override the human-reviewed install guide.
 
-Source currently recorded: https://xamyxyg7fn.filerobot.com/kingspan/kil/products/air-cell-insulshed-50-au-and-nz/kingspan-aircell-insulshed-product-datasheet-en-au.pdf
+1. Fit neatly around doors, windows, and penetrations.
+2. Tape with a plastic squeegee or blade.
+3. Leave minimum 100 mm clearance around heat producing flues or light fittings.
+4. Install in conformance with AS 3999:2015 and AS/NZS 4200.2:2017.
+5. Avoid intense heat above 105˚ C and contact with sparks and flame.
+6. Ensure 100 mm clearance from hot flues and light fittings.
+7. Avoid contact with un-insulated electrical cables and fittings.
+
+**Clearances and safe distances**
+
+- Minimum 100 mm clearance around heat producing flues or light fittings.
+
+**Manufacturer-stated limitations**
+
+- Should only be used in Class 10a buildings.
+- Can be damaged by intense heat above 105˚ C.
+- Avoid contact with un-insulated electrical cables and fittings.
 
 <!-- AUTO:INSTALL END -->

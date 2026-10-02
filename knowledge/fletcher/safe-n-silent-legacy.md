@@ -33,7 +33,7 @@ Obtain manufacturer product page or archived catalogue with date/region, TDS, pr
 
 _Installation, clearance and limitation evidence is pending a verified manufacturer source. Do not infer project-specific installation instructions from this family file._
 
-Source currently recorded: https://insulation.com.au/
+Source currently recorded: https://insulation.com.au/wp-content/uploads/2024/05/TDS-Rockwool-Safe_n_Silent-Pro-Technical-Datasheet-AU-FL-20251001.pdf
 
 <!-- AUTO:INSTALL END -->
 
@@ -49,8 +49,17 @@ Source currently recorded: https://insulation.com.au/
 
 ## Documented physical and technical properties
 
-_Variation data is pending a verified manufacturer range table or technical extraction. No dimensions, ratings or product combinations are inferred._
+| Published property | Value | Standard |
+| --- | --- | --- |
+| Density | 40kg/m3, 60kg/m3, 80kg/m3, 100kg/m3 | N/A |
+| R-value | m²K/W | N/A |
+| Thickness | mm | N/A |
+| Width | mm | N/A |
+| Length | mm | N/A |
+| Water repellent | 98% | GB/T 10299 |
+| Fire Hazard Properties | Euroclass A1 | N/A |
+| Non-Combustibility | N/A | N/A |
 
-Source currently recorded: https://insulation.com.au/
+_No manufacturer range table was available in the extracted source; this records each published technical property without inferring product combinations._
 
 <!-- AUTO:VARIANTS END -->

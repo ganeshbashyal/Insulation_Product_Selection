@@ -273,9 +273,18 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
 
 ## Documented physical and technical properties
 
-_Variation data is pending a verified manufacturer range table or technical extraction. No dimensions, ratings or product combinations are inferred._
+| Published property | Value | Standard |
+| --- | --- | --- |
+| R-value | 0.20 | 23°C |
+| R-value | 0.30 | 23°C |
+| Density | 1680 gsm for 12 mm |  |
+| Density | 2980 gsm for 18 mm |  |
+| Fire ratings | ISO 9705: Classification: Group 1-S |  |
+| Fire ratings | AS ISO 9705: Group 1 |  |
+| Water vapour sorption | 0.4% by weight | ASTM C1104 / C1104M-13a |
+| Moisture absorption | <0.03% by weight | Polyester fibre |
 
-Source currently recorded: https://cdn.mediavalet.com/aunsw/autex/otDZn5oeBUmKBopa_5u2UA/jGYOi-Q89kGkR8UV0IKNnQ/Original/Composition%20Data%20Sheet%20AU.pdf
+_No manufacturer range table was available in the extracted source; this records each published technical property without inferring product combinations._
 
 <!-- AUTO:VARIANTS END -->
 
@@ -283,8 +292,16 @@ Source currently recorded: https://cdn.mediavalet.com/aunsw/autex/otDZn5oeBUmKBo
 
 ## Installation and clearances
 
-_Installation, clearance and limitation evidence is pending a verified manufacturer source. Do not infer project-specific installation instructions from this family file._
+Extracted from the manufacturer datasheet; the bot may share this context but must not issue project-specific installation instructions or override the human-reviewed install guide.
 
-Source currently recorded: https://cdn.mediavalet.com/aunsw/autex/otDZn5oeBUmKBopa_5u2UA/jGYOi-Q89kGkR8UV0IKNnQ/Original/Composition%20Data%20Sheet%20AU.pdf
+1. Install as per Autex Acoustics recommendations.
+2. Install instructions are included in each pack or available on the website.
+
+**Manufacturer-stated limitations**
+
+- Composition is suitable for indoor use only.
+- Light fastness is dependent on use and exposure.
+- Composition has been evaluated to the following standard: ISO 105-B02:2014.
+- Composition is specifically designed to reduce and control reverberated noise and echo in building interiors.
 
 <!-- AUTO:INSTALL END -->

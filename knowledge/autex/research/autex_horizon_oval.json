@@ -1,9 +1,68 @@
 {
   "family_id": "AUTEX_HORIZON_OVAL",
-  "family_name": "Autex Horizon - Oval",
-  "datasheet_pdf_url": null,
-  "status": "no_pdf_found",
-  "researched_at": "2026-09-08",
-  "spec": null,
-  "source_excerpt": null
+  "family_name": "Horizon - Oval",
+  "datasheet_pdf_url": "https://cdn.mediavalet.com/aunsw/autex/dRTCRsHVIkiY2tw4JI69lw/4t6Itu09y0OoiCyRQX57Ng/Original/Horizon%20Data%20Sheet.pdf",
+  "datasheet_local_path": "data\\tds\\autex\\autex_horizon_oval.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-14",
+  "spec": {
+    "description": "Horizon™ is a range of floating acoustic panels made from 100% polyester fibre that create a cloud-like illusion when suspended and are designed to reduce and control reverberated noise and echo in building interiors.",
+    "features": [
+      "Lightweight and strong",
+      "Can be installed on ceilings and walls without clear space",
+      "Available in various shapes and sizes",
+      "Carbon neutral product",
+      "Made from 100% recycled material",
+      "Low VOC and CDPH compliant",
+      "Zero waste manufacturing initiative"
+    ],
+    "applications": [
+      "Ceiling",
+      "Wall"
+    ],
+    "technical": [
+      {
+        "property": "Fire Rating",
+        "value": "ISO 9705: 1993: Group 1-S, AS ISO 9705 – 2003: Group 1, 1\" BS EN 13501-1:2018: B - s2, d0, ASTM E-84-15a: Class A, FS:0 - SD:65"
+      },
+      {
+        "property": "Density",
+        "value": "3600 gsm"
+      },
+      {
+        "property": "Thickness",
+        "value": "24 mm, Tolerance: +/- 6%"
+      },
+      {
+        "property": "Sound Absorption Coefficients",
+        "value": "ISO 354, average absorption at 250 Hz, 500 Hz, 1000 Hz, and 2000 Hz"
+      },
+      {
+        "property": "Vapour Resistance",
+        "value": "ASTM C1104 / C1104M-13a, 0.4% by weight after 4 days"
+      },
+      {
+        "property": "Microbial Resistance",
+        "value": "ASTM G21-15, growth rating: 0 (No growth)"
+      }
+    ],
+    "fire": "ISO 9705: 1993: Group 1-S, AS ISO 9705 – 2003: Group 1",
+    "sustainability": "Carbon neutral product, >80% recycled material, Low VOC and CDPH compliant, Zero waste manufacturing initiative",
+    "install": [
+      "Install as per Autex Acoustics recommendations",
+      "Install instructions included in each pack or available on the website",
+      "Consult project engineer and fire protection engineer for installation near fire protection systems"
+    ],
+    "clearances": [],
+    "limitations": [
+      "Horizon is suitable for indoor use only",
+      "Light fastness dependent on use and exposure",
+      "No pattern repeat, but product may vary from samples and batch to batch due to fibre blending and lay-up"
+    ],
+    "range_headers": [],
+    "range": [],
+    "range_extraction_status": "inconsistent_columns_dropped"
+  },
+  "source_excerpt": "Data SheetHorizon™\nHorizon™  is a range of floating acoustic panels that create a  \ncloud-like illusion when suspended. Made from 100% polyester \nfibre, Horizon panels are lightweight yet strong—holding form over \ntheir lifetime. Horizon can be installed on ceilings and walls without \nthe need for clear space, as the channels, clips, and suspension \nwires require limited contact.\nAcoustic panels shall be Horizon (_) as \ncompiled by Autex autexglobal.com \nAcoustic absorber Horizon \n(Rectangle 2400 x 1200 mm), \n(Square 1200 x 1200 mm), \n(Circle 1200 mm Diam.), \n(Right Angled Triangles 1159 x 1159 mm), \n(Oval 2400 x 1200 mm), \n(Hexagons 1100 mm across the widest point) \n24 mm thick. Colour (_),\n \nFire Rating ISO 9705: 1993: Group 1-S, \nAS ISO 9705 – 2003: Group 1,  \n1\" BS EN 13501-1:2018: B - s2, d0, \nASTM E-84-15a: Class A, FS:0 - SD:65. \nSeismic bracing as per local building  \ncode requirements. \nSupplied with Autex attachment, \nsuspension, or direct fix sets; fix with \ncountersunk fastener appropriate for  \nthe substrate. Install as per Horizon  \nInstall Instructions.\n autexglobal.com\nSpecification\nProduct \noverview\nPanel fixing  \nsystem patent\nUS Patent 10,113,312 \nAU Patent 2016250499 \nGB Patent 2,545,789 \nNZ Patent app 725770 \nAutex Acoustics® products meet criteria for WELL, LEED, Green Star, and BREEAM \nbuilding rating systems, helping you achieve certification for your project. For support \nand guidance on available rating system points please visit autexglobal.com, or speak \nwith your Autex Acoustics account manager. \n• Carbon neutral product  \n• Zero carbon manufacturing\n• Recycled content  \n- >80% recycled material \n• Low VOC and CDPH compliant  \n- <0.092 mg/m3 (7 days)\n• Zero waste manufacturing initiative \n• Sustainable supply chain and  \nanti-modern slavery\n• EPD – compliant with ISO 14025  \nand EN 15804\n• Declare – Red List free  \n(third party verified) \n• ISO 14001 Certified Environmental \nManagement \n• Health Product Declaration\n• CDPH Standard\nSustai",
+  "datasheet_source": "supplied_manually"
 }

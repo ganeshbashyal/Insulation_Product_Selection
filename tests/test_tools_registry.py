@@ -18,7 +18,7 @@ def make_conversation():
 
 def test_default_registry_registers_all_four_in_order():
     registry = default_registry()
-    assert registry.names == ["escalate", "commercial", "freight", "tracking"]
+    assert registry.names == ["escalate", "service_refusal", "commercial", "freight", "tracking"]
 
 
 def test_register_rejects_duplicate_name():
@@ -107,11 +107,22 @@ def test_tracking_tool_is_placeholder_and_inert_by_default():
     assert result.log_status == "routed:tracking"
 
 
-def test_placeholder_categories_unreachable_from_default_router_categories():
-    """freight/tracking are registered but router.py does not currently emit
-    those categories, so they stay dormant until the router is extended."""
+def test_local_placeholder_categories_are_registered():
     registry = default_registry()
-    for category in ("product-fit", "informational", "escalate", "commercial"):
-        pass  # sanity: these are the only categories router.py currently emits
     assert registry.find("freight") is not None
     assert registry.find("tracking") is not None
+
+
+def test_service_refusal_tool_reply_and_logging():
+    from tools.service_refusal import ServiceRefusalTool
+
+    tool = ServiceRefusalTool()
+    assert tool.matches("service_refusal") is True
+    assert tool.matches("product-fit") is False
+    conversation = make_conversation()
+    result = tool.run("can you install this for us", conversation, "site-a")
+    assert conversation.done is True
+    assert result.done is True
+    assert "supply" in result.reply.lower()
+    assert "install" in result.reply.lower()
+    assert result.log_status == "routed:service_refusal"

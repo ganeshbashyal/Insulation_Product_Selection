@@ -1,9 +1,89 @@
 {
+  "datasheet_source": "supplied_manually",
+  "previous_status": "extract_failed",
   "family_id": "ACOUSTICA_ANGELSTEP",
   "family_name": "Acoustica AngelStep",
   "datasheet_pdf_url": "https://acoustica.com.au/wp-content/uploads/2020/04/Acoustica-specifications-AngelStep_2020.docx",
-  "status": "extract_failed",
-  "researched_at": "2026-09-08",
-  "spec": null,
-  "source_excerpt": null
+  "datasheet_local_path": "data\\tds\\acoustica\\acoustica_angelstep.docx",
+  "status": "ok",
+  "researched_at": "2026-09-21",
+  "spec": {
+    "description": "AngelStep acoustic underlays from Acoustica Pty Ltd provide maximum impact noise control and sound absorption for residential and commercial developments, achieving up to a 6-star acoustic rating.",
+    "features": [
+      "Unique patented technology combining sound absorber with impact and vibration damping",
+      "Available in various variations for different flooring substrates",
+      "Achieves up to the highest 6-star acoustic rating",
+      "Includes different sizes and thicknesses",
+      "Includes tiles, rolls, and strips",
+      "Available in Gold, 48P, 484P, 630, and 250 variants",
+      "Includes instructions for various floor finishes"
+    ],
+    "applications": [
+      "Carpet",
+      "Tongue & Groove Timber",
+      "Engineered Timber",
+      "Vinyl finish",
+      "Vinyl finish",
+      "Tiled finish",
+      "Polished floor finish",
+      "Terrazzo floor finish",
+      "Parquetry floor finish"
+    ],
+    "technical": [
+      {
+        "property": "R-value",
+        "value": "Not specified",
+        "standard": ""
+      },
+      {
+        "property": "Density",
+        "value": "Not specified",
+        "standard": ""
+      },
+      {
+        "property": "Thermal Conductivity",
+        "value": "Not specified",
+        "standard": ""
+      },
+      {
+        "property": "Fire Index",
+        "value": "Not specified",
+        "standard": ""
+      },
+      {
+        "property": "Temperature Range",
+        "value": "Not specified",
+        "standard": ""
+      },
+      {
+        "property": "Vapour Resistance",
+        "value": "Not specified",
+        "standard": ""
+      },
+      {
+        "property": "pH",
+        "value": "Not specified",
+        "standard": ""
+      }
+    ],
+    "fire": "",
+    "sustainability": "",
+    "install": [
+      "Level structural floor to parquetry installation standard tolerances",
+      "Clean and free of debris",
+      "Fill gaps and holes in floor",
+      "Install 40mm x (AS thickness -1mm) MDF battens around the perimeter",
+      "Install AngelStep tiles butted together",
+      "Leave 3mm gap between walls and finish surface",
+      "Spot glue AngelStep with Maxibond or equal",
+      "Install skirting after floor with 2 to 3mm gap",
+      "Seal gaps with silicone sealant"
+    ],
+    "clearances": [],
+    "limitations": [],
+    "range_headers": [],
+    "range": [],
+    "range_extraction_status": "inconsistent_columns_dropped"
+  },
+  "source_excerpt": "Acoustic Floors\nGENERAL100\nNOTE :\tTHE NATIONAL OCCUPATIONAL HEALTH AND SAFETY COMMISSION PRODUCED IN AUGUST 1988 A CODE OF PRACTICE AND GUIDANCE NOTES ON ASBESTOS.  IN THE PREFACE TO THAT DOCUMENT, PART 3, Clause 3.1, second paragraph states :\n“ASBESTOS REMOVAL MAY NOT BE IMMEDIATELY NECESSARY, BUT MUST BE COMPLETED BEFORE A STRUCTURE OR PART OF A STRUCTURE IS DEMOLISHED.”\nGeneral\nA.\tScope\nThe work of this section includes but is not limited to the following items:\nSupply and installation of AngelStep floor system. \nAcoustica’s best performing flooring underlay range, AngelStep is the top choice for discerning residential and commercial developments where maximum impact noise control and sound absorption is needed.\nAvailable in different variations to suit flooring substrates and materials, AngelStep features unique patented technology that combines a sound absorber with impact and vibration damping to consistently achieve up to the highest 6-star acoustic rating dependent on installation. \nB.\tExamine documents:  Examine parts of the drawings and this specification for requirements which affect the work of this specification.  In particular, take note of other trades involved along with relevant body corporate requirements and/or criterions outlined in the strata by-laws i.e. AAAC star rating.\nThe NCC provides minimum construction standards for\nvarious building classes including acoustic privacy. The NCC\nrequirement is a weighted standardised impact sound\npressure level with spectrum adaptation term Ci, of less than\nor equal to 62 Lnt,W+Ci. However, the reality is that this is in\nmost cases unacceptable to occupants and can result in the\nneed for costly reparation works. In response, the Association\nof Australian Acoustic Consultants (AAAC) has developed the\nstar rating system to rank the acoustical quality of\napartments and provide guidance in the design and\nconstruction process.\nC.\tCo-ordination:  Co-ordinate with other trades affecting or affected by work of this"
 }

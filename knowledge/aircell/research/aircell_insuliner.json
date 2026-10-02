@@ -1,31 +1,74 @@
 {
   "family_id": "AIRCELL_INSULINER",
-  "family_name": "Aircell Insuliner",
-  "datasheet_pdf_url": "",
-  "status": "no_pdf_found",
-  "researched_at": "2026-09-07",
+  "family_name": "Insuliner",
+  "datasheet_pdf_url": "https://store.filerobot.com/xamyxyg7fn/kingspan/kil/products/air-cell-insuliner-au-and-nz/kingspan-aircell-insuliner-product-datasheet-en-au.pdf?vh=e9b0dd",
+  "datasheet_local_path": "data\\tds\\aircell\\aircell_insuliner.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-14",
   "spec": {
-    "description": "",
-    "features": [],
-    "applications": [],
-    "technical": [],
+    "description": "Kingspan AIR-CELL Insuliner® is a reflective insulation product suitable for use in metal framed walls on low-rise structures, with a Group 2 fire performance classification according to NCC fire ratings.",
+    "features": [
+      "Reflective insulation with a fibre-free core",
+      "Cross-linked, closed-cell foam core",
+      "Sandwiched with an anti-glare foil facing and a plain foil facing",
+      "CodeMark-certified",
+      "Water-resistant",
+      "Rodent and insect resistant",
+      "Flammability Index ≤ 5",
+      "Made in Australia"
+    ],
+    "applications": [
+      "Warehouse metal deck roof",
+      "Warehouse wall",
+      "Warehouse wall retrofit",
+      "Warehouse wall retrofit"
+    ],
+    "technical": [
+      {
+        "property": "Material R-value",
+        "value": "0.15 m2/K/W",
+        "standard": "ASTM C518-2017 at 23°C"
+      },
+      {
+        "property": "Flammability Index",
+        "value": "≤ 5",
+        "standard": "AS 1530.2:1993"
+      },
+      {
+        "property": "Fire Performance",
+        "value": "Group 2",
+        "standard": "NCC"
+      },
+      {
+        "property": "Water Control",
+        "value": "Pass",
+        "standard": "AS/NZS 4201.4:1994 Vapour Barrier < 0.020 µg/N.s Class 2"
+      }
+    ],
+    "fire": "Group 2 classification to NCC fire ratings for wall and ceiling linings",
+    "sustainability": "",
+    "install": [
+      "Lay Kingspan AIR-CELL perpendicular to purlins ensuring a max. 25 mm overlap into the gutter.",
+      "Allow a nominal 40 mm sag between purlins.",
+      "Overlap by 50 mm at joins and apply minimum 72 mm wide Kingspan reinforced aluminium insulation tape to top of join.",
+      "End joins should be overlapped by 600 mm if not taped.",
+      "Fix roof sheeting by screwing through Kingspan AIR-CELL to the purlins.",
+      "Attach end of insulation roll to end fixing point using three 12 gauge Tek screws.",
+      "Join subsequent alongside rolls by butt joining and tape joint with minimum 72 mm wide Kingspan reinforced aluminium insulation tape.",
+      "Fix a steel furring channel, top hat or similar over Kingspan AIR-CELL to the bottom of the purlins.",
+      "Ensure a 100 mm clearance between insulation and heat producing items.",
+      "If required to act as a water vapour barrier, tape the joints."
+    ],
+    "clearances": [
+      "100 mm clearance between insulation and heat producing items such as hot flues, light fittings and transformers."
+    ],
+    "limitations": [
+      "Suitable for use in metal framed walls on low-rise structures.",
+      "For consideration in high-rise buildings, contact Kingspan Insulation’s Technical Services team."
+    ],
     "range_headers": [],
     "range": [],
-    "fire": "",
-    "sustainability": "",
-    "install": [],
-    "clearances": [],
-    "limitations": [],
-    "selection_checklist": [],
-    "compliance": "",
-    "warranty": "",
-    "accessories": [],
-    "accessories_upsell": []
+    "range_extraction_status": "inconsistent_columns_dropped"
   },
-  "source_excerpt": null,
-  "schema_version": "1.0",
-  "sds_url": "",
-  "engine": "local",
-  "retrieval": {},
-  "range_source": ""
+  "source_excerpt": "Insulation\nReflective Insulation for use where it acts as the Wall or Ceiling Lining\n Insuliner\n®\n  Group 2 NCC fire \nclassification\n  Designed for warehouses \nand commercial or \nindustrial sheds where the \ninsulation acts as the wall \nor ceiling lining\n  3-in-1 Insulation, vapour \nbarrier and reflective \nbarrier\n  Quick and easy to install\n  CodeMark-certified for \nNCC compliance\n  Strong, tough, durable\n  Water-resistant and \nunaffected by moisture\n  Rodent and insect \nresistant\n  Flammability Index ≤ 5\n  AS/NZS 4859.1:2018 \ncompliant\n  Made in Australia\n2\nCommercial Metal Deck Roof\nTypical Design Details\nKingspan \nAIR-CELL Insuliner®\nMetal Roof\nStructural \nSteel Truss\nPurlin\nSafety Mesh\nFigure 1.  Warehouse metal deck roof installation.\n40 mm (nominal)\nReflective Airspace\nSafety Mesh\nStructural Steel Truss\nExposed Reflective\nAir Space\nKingspan AIR-CELL\nInsuliner\n®\nFigure 2.  Side elevation of Kingspan AIR-CELL Insuliner ® in a \nwarehouse metal deck roof.\nThermal Performance\nApplication Heat \nflow in\nHeat \nflow out\nWarehouse metal deck roof RT 1.8 RT 0.8\nThe R-values shown are Total R-values for the building element \nas required by the Energy Provisions of the NCC, calculated in \naccordance with AS/NZS 4859.2:2018 & NZS 4214:2006.  \nKingspan AIR-CELL® products are manufactured, tested and \npackaged in conformance with AS/NZS 4859.1:2018.\nSpecification Guide\nThe roof insulation installed over the purlins shall be \nclassified as Group 2 in accordance with NCC fire \nclassification for wall and ceiling linings and shall be \nCodeMark-certified Kingspan AIR-CELL Insuliner\n® thermo \nreflective insulation with a fibre-free core, comprising a \ncross-linked, closed-cell foam core sandwiched with an \nanti-glare foil facing on one side and a plain foil facing on \nthe other side manufactured by Kingspan Insulation, and \nshall be installed in accordance with the instructions issued \nby them.\nA Project Specific Warranty provided by Kingspan Insulation \nmust be submitt"
 }

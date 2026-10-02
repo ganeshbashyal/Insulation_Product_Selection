@@ -274,9 +274,17 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
 
 ## Documented physical and technical properties
 
-_Variation data is pending a verified manufacturer range table or technical extraction. No dimensions, ratings or product combinations are inferred._
+| Published property | Value | Standard |
+| --- | --- | --- |
+| R-value | Not specified |  |
+| Density | Not specified |  |
+| Thermal conductivity | Not specified |  |
+| Fire indices | Group 1-S, Group 1 |  |
+| Temperature range | Not specified |  |
+| Vapour | Not specified |  |
+| pH | Not specified |  |
 
-Source currently recorded: https://cdn.mediavalet.com/aunsw/autex/vVJbtLTmhkiu6yc1K7rYtw/uOImq3g0Jk2TMGrqwIZgug/Original/Acoustic%20Timber%20Ceiling%20Tiles%20Data%20Sheet%20AU.pdf
+_No manufacturer range table was available in the extracted source; this records each published technical property without inferring product combinations._
 
 <!-- AUTO:VARIANTS END -->
 
@@ -284,8 +292,19 @@ Source currently recorded: https://cdn.mediavalet.com/aunsw/autex/vVJbtLTmhkiu6y
 
 ## Installation and clearances
 
-_Installation, clearance and limitation evidence is pending a verified manufacturer source. Do not infer project-specific installation instructions from this family file._
+Extracted from the manufacturer datasheet; the bot may share this context but must not issue project-specific installation instructions or override the human-reviewed install guide.
 
-Source currently recorded: https://cdn.mediavalet.com/aunsw/autex/vVJbtLTmhkiu6yc1K7rYtw/uOImq3g0Jk2TMGrqwIZgug/Original/Acoustic%20Timber%20Ceiling%20Tiles%20Data%20Sheet%20AU.pdf
+1. Install as per Autex Acoustics recommendations.
+2. Install instructions included in each pack or available on the website.
+3. Adhere to relevant building codes and design rules near fire protection systems.
+
+**Manufacturer-stated limitations**
+
+- Avoid contact with the Acoustic Timber Ceiling Tile surface.
+- Gently remove liquids and contaminants immediately.
+- Do not allow liquids to soak, dry, or set.
+- Refer to product Care and Maintenance for cleaning guidance.
+- Consult a specialist cleaning company if required.
+- All loads to be independently supported or transferred to the grid.
 
 <!-- AUTO:INSTALL END -->

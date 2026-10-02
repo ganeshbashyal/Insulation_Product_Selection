@@ -1,7 +1,7 @@
 {
   "family_id": "AUTEX_GRID_CEILING_TILES_FRAME_VERTEX_SQUARE_C",
   "family_name": "Autex Grid Ceiling Tiles - Frame/Vertex - Square - Capped",
-  "datasheet_pdf_url": "",
+  "datasheet_pdf_url": "https://cdn.mediavalet.com/aunsw/autex/2P1vrOWCVE6M_vSFlSrEdw/f5ZQQpLQrU6jl2vud2IzSQ/Original/Grid%20Ceiling%20Tiles_Data%20Sheet.pdf",
   "sds_url": "",
   "status": "ok",
   "researched_at": "2026-09-06",
@@ -18,21 +18,21 @@
       },
       {
         "c0": "Frame (Coffer)",
-        "c1": "600 mm × 600 mm",
-        "c2": "595 mm × 595 mm",
-        "c3": "~50 mm – 80 mm",
+        "c1": "600 mm \u00d7 600 mm",
+        "c2": "595 mm \u00d7 595 mm",
+        "c3": "~50 mm \u2013 80 mm",
         "c4": "Capped (Solid back)",
-        "c5": "Typically 12–15 tiles (~4.32–5.4 m²)",
-        "c6": "NRC 0.60 – 0.80"
+        "c5": "Typically 12\u201315 tiles (~4.32\u20135.4 m\u00b2)",
+        "c6": "NRC 0.60 \u2013 0.80"
       },
       {
         "c0": "Vertex (Prism)",
-        "c1": "600 mm × 600 mm",
-        "c2": "595 mm × 595 mm",
-        "c3": "~70 mm – 100 mm",
+        "c1": "600 mm \u00d7 600 mm",
+        "c2": "595 mm \u00d7 595 mm",
+        "c3": "~70 mm \u2013 100 mm",
         "c4": "Capped (Solid back)",
-        "c5": "Typically 12–15 tiles (~4.32–5.4 m²)",
-        "c6": "NRC 0.60 – 0.80"
+        "c5": "Typically 12\u201315 tiles (~4.32\u20135.4 m\u00b2)",
+        "c6": "NRC 0.60 \u2013 0.80"
       }
     ],
     "description": "",
@@ -85,5 +85,7 @@
   "source_excerpt": null,
   "engine": "knowledge_base_txt",
   "range_source": "manufacturer granular sizing matrix (knowledge-base dump)",
-  "schema_version": "1.0"
+  "schema_version": "1.0",
+  "datasheet_local_path": "data/tds/autex/autex_grid_ceiling_tiles_vault_square_uncapped.pdf",
+  "datasheet_source": "shared_range:AUTEX_GRID_CEILING_TILES_VAULT_SQUARE_UNCAPPED"
 }

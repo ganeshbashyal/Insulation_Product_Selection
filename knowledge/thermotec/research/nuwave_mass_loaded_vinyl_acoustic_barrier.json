@@ -1,7 +1,7 @@
 {
   "family_id": "THERMOTEC_NUWAVE_BASE_MLV",
   "family_name": "NuWave Mass Loaded Vinyl Acoustic Barrier",
-  "datasheet_pdf_url": "",
+  "datasheet_pdf_url": "https://cdn.shopify.com/s/files/1/0676/6827/9608/files/FINALS_NuWave_Data_Sheet_1703_V3.pdf?v=1787942996",
   "sds_url": "",
   "status": "ok",
   "researched_at": "2026-09-06",
@@ -48,12 +48,14 @@
       "6–8 kg/m² is specified",
       "acoustic fixing screws",
       "Airborne noise (speech, TV, hi-fi) penetrating lightweight",
+      "between floors\", \"pipe\", \"duct\"]",
       "ceiling plenum sound bleeding between commercial",
       "drywall partition walls",
       "generator and plant room acoustic breakout",
       "tenancies"
     ],
     "placement": [
+      "[\"wall",
       "between floors",
       "ceiling",
       "external wall",
@@ -75,5 +77,7 @@
   "source_excerpt": null,
   "engine": "knowledge_base_txt",
   "schema_version": "1.0",
-  "range_source": ""
+  "range_source": "",
+  "datasheet_source": "supplied_manually",
+  "datasheet_local_path": "data\\tds\\thermotec\\nuwave_mass_loaded_vinyl_acoustic_barrier.pdf"
 }

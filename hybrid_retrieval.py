@@ -17,6 +17,7 @@ import hashlib
 import json
 import os
 import re
+import time
 import urllib.error
 import urllib.request
 from pathlib import Path
@@ -28,6 +29,31 @@ ROOT = Path(__file__).resolve().parent
 OLLAMA_HOST = os.getenv("OLLAMA_HOST", "http://127.0.0.1:11434").rstrip("/")
 OLLAMA_EMBED_MODEL = os.getenv("OLLAMA_EMBED_MODEL", "nomic-embed-text")
 EMBEDDINGS_CACHE = ROOT / "data" / "processed" / "family_embeddings.npz"
+OLLAMA_PROBE_TIMEOUT_SECONDS = float(os.getenv("OLLAMA_PROBE_TIMEOUT_SECONDS", "0.25"))
+OLLAMA_PROBE_TTL_SECONDS = float(os.getenv("OLLAMA_PROBE_TTL_SECONDS", "30"))
+
+_availability_cache: tuple[float, bool] | None = None
+
+
+def embeddings_available(force: bool = False) -> bool:
+    """Return quickly when the local embedding service is unavailable."""
+    global _availability_cache
+    now = time.monotonic()
+    if (
+        not force
+        and _availability_cache is not None
+        and now - _availability_cache[0] < OLLAMA_PROBE_TTL_SECONDS
+    ):
+        return _availability_cache[1]
+
+    request = urllib.request.Request(f"{OLLAMA_HOST}/api/tags", method="GET")
+    try:
+        with urllib.request.urlopen(request, timeout=OLLAMA_PROBE_TIMEOUT_SECONDS) as response:
+            available = 200 <= response.status < 300
+    except (urllib.error.URLError, TimeoutError, OSError):
+        available = False
+    _availability_cache = (now, available)
+    return available
 
 
 def _ollama_embed(text: str) -> list[float] | None:
@@ -114,7 +140,7 @@ def load_or_embed_cards(
             pass
 
     # Embed any cards not in cache or whose content changed
-    if needed_ids:
+    if needed_ids and embeddings_available():
         print(f"embedding {len(needed_ids)} card(s) (cache: {len(embeddings)} hit, {len(needed_ids)} miss)")
         for fid in sorted(needed_ids):
             card = card_map[fid]

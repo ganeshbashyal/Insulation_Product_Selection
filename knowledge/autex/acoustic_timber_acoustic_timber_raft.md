@@ -276,9 +276,17 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
 
 ## Documented physical and technical properties
 
-_Variation data is pending a verified manufacturer range table or technical extraction. No dimensions, ratings or product combinations are inferred._
+| Published property | Value | Standard |
+| --- | --- | --- |
+| R-value | N/A | N/A |
+| Density | N/A | N/A |
+| Thermal conductivity | N/A | N/A |
+| Fire indices | ISO 9705: Group 1-S, Group 1 | ISO 9705 |
+| Temperature range | N/A | N/A |
+| Vapour | N/A | N/A |
+| pH | N/A | N/A |
 
-Source currently recorded: https://cdn.mediavalet.com/aunsw/autex/7stmLZyUYEmq4O_fpAwUNQ/34ByV9cm6UmNXhpS6AsgFQ/Original/Acoustic%20Timber%20Raft%20Datasheet.pdf
+_No manufacturer range table was available in the extracted source; this records each published technical property without inferring product combinations._
 
 <!-- AUTO:VARIANTS END -->
 
@@ -286,8 +294,18 @@ Source currently recorded: https://cdn.mediavalet.com/aunsw/autex/7stmLZyUYEmq4O
 
 ## Installation and clearances
 
-_Installation, clearance and limitation evidence is pending a verified manufacturer source. Do not infer project-specific installation instructions from this family file._
+Extracted from the manufacturer datasheet; the bot may share this context but must not issue project-specific installation instructions or override the human-reviewed install guide.
 
-Source currently recorded: https://cdn.mediavalet.com/aunsw/autex/7stmLZyUYEmq4O_fpAwUNQ/34ByV9cm6UmNXhpS6AsgFQ/Original/Acoustic%20Timber%20Raft%20Datasheet.pdf
+1. Install as per Autex Acoustics recommendations.
+2. Install instructions included in each pack or available on the website.
+
+**Manufacturer-stated limitations**
+
+- Not recommended for areas with likely contact.
+- Light fastness dependent on use and exposure.
+- May show surface damage upon impact.
+- Avoid contact with surface.
+- Gently remove liquids and contaminants.
+- Consult specialist for cleaning if required.
 
 <!-- AUTO:INSTALL END -->

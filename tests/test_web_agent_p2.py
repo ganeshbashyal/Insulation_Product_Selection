@@ -3,6 +3,7 @@ import json
 import pytest
 from fastapi.testclient import TestClient
 
+import interaction_store
 from web_agent import app, startup
 
 
@@ -98,7 +99,7 @@ class TestAuthAndCors:
         assert response.headers["Access-Control-Allow-Origin"] == "http://localhost:3000"
 
     def test_auth_blocks_disallowed_origin(self, client):
-        """Request from disallowed origin gets no CORS headers (403-like behavior)."""
+        """Request from a disallowed origin is refused outright."""
         response = client.post(
             "/api/conversations?site_id=local",
             headers={
@@ -106,9 +107,9 @@ class TestAuthAndCors:
                 "Origin": "https://attacker.example.com"
             }
         )
-        # Still 200 because CORS doesn't block server-side (browser enforces)
-        # but client won't accept response due to missing CORS headers
-        assert response.status_code == 200 or response.status_code == 403
+        # Withholding CORS headers alone would not stop the request being
+        # served to a non-browser client, so the request itself is rejected.
+        assert response.status_code == 403
 
 
 class TestSiteScoping:
@@ -175,16 +176,12 @@ class TestConversationFlow:
         assert isinstance(data["done"], bool)
 
     def test_expired_session_returns_401(self, client):
-        """Access to expired session returns 401."""
-        # Create a session (won't actually expire in tests, but we can test the logic)
+        """Access to expired sessions or another site's session is rejected."""
         r1 = client.post(
             "/api/conversations?site_id=local",
             headers={"X-API-Key": "sk_local_dev_test"}
         )
         session_id = r1.json()["conversation_id"]
-
-        # Try to access with wrong site (different session store)
-        # This tests the "not found" path
         r2 = client.post(
             f"/api/conversations/{session_id}/messages?site_id=acme",
             json={"message": "test"},
@@ -192,6 +189,40 @@ class TestConversationFlow:
         )
         assert r2.status_code in (401, 404, 403)
 
+
+class TestLeadAccess:
+    def test_lead_access_is_disabled_without_admin_key(self, client, monkeypatch):
+        monkeypatch.delenv("AURORA_LEAD_ADMIN_KEY", raising=False)
+        response = client.get("/api/admin/leads")
+        assert response.status_code == 503
+
+    def test_lead_access_requires_separate_admin_key(self, client, monkeypatch):
+        monkeypatch.setenv("AURORA_LEAD_ADMIN_KEY", "local-only-test-key")
+        response = client.get("/api/admin/leads")
+        assert response.status_code == 401
+
+    def test_lead_access_is_site_scoped_and_requires_admin_key(
+        self, client, tmp_path, monkeypatch
+    ):
+        monkeypatch.setenv("AURORA_LEAD_ADMIN_KEY", "local-only-test-key")
+        monkeypatch.setattr(
+            interaction_store, "DEFAULT_DB", tmp_path / "interactions.sqlite3"
+        )
+        interaction_store.save_lead(
+            "local-lead", site_id="local", customer_name="Local customer"
+        )
+        interaction_store.save_lead(
+            "other-lead", site_id="other", customer_name="Other customer"
+        )
+
+        response = client.get(
+            "/api/admin/leads?site_id=local",
+            headers={"X-Aurora-Lead-Admin-Key": "local-only-test-key"},
+        )
+
+        assert response.status_code == 200
+        leads = response.json()
+        assert [lead["customer_name"] for lead in leads] == ["Local customer"]
 
 class TestLearningEndpoints:
     """Tests for /api/learning/* endpoints with auth."""

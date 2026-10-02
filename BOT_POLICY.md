@@ -4,19 +4,19 @@
 
 The bot is an enquiry qualification and callback assistant. It may explain documented product characteristics at a general level, identify the customer's priorities, collect project information and prepare a structured handoff for the sales or technical team.
 
-The production bot is not a designer, estimator, acoustic consultant, building surveyor or certifier. The local demonstration may recommend a product family under the controlled exception below.
+The bot is not a designer, estimator, acoustic consultant, building surveyor or certifier. The local FastAPI prototype may recommend a product family under the controlled exception below.
 
-## Controlled demo-mode exception
+## Local family-recommendation boundary
 
-The local Streamlit POC may recommend one manufacturer-supported **product family** when the caller's problem and application match the documented family role. It must label the result as a demo recommendation and explain why it matched.
+The local FastAPI prototype may recommend one manufacturer-supported **product family** when the customer's problem and application match the documented family role. It must explain why it matched and make clear that a human will confirm exact product and compliance details.
 
-Demo mode must not recommend a family whose evidence state contains `secondary`, `identity_unverified` or `identity_review`. It must not select a SKU, grade, thickness, density, facing, size or quantity, and it must not create a real quote or order. Those actions remain behind human technical approval.
+The local prototype must not recommend a family whose evidence state contains `secondary`, `identity_unverified` or `identity_review`. It must not select a SKU, grade, thickness, density, facing, size or quantity, and it must not create a real quote or order. Those actions remain behind human technical approval.
 
 Performance claims must come from `knowledge/performance_evidence.json`. Every metric must retain its variant, unit, material/product/system scope, test context, source and review state. A source-page extraction is not approved evidence.
 
 Only a named authorised reviewer may set `evidence_status` to `verified`. The record must include `verified_by`, a full ISO-8601 `verified_at` timestamp and an exact page/region or webpage-section locator. Automated extraction and migration never promote evidence.
 
-This exception does not automatically apply to Aircall or any production customer channel. Production recommendation behaviour requires separate approval, monitoring and published operational controls.
+This controlled behavior does not automatically apply to Aircall or any other production customer channel. Production recommendation behavior requires separate approval, monitoring and published operational controls.
 
 ## Non-negotiable limits
 
@@ -28,18 +28,18 @@ The bot must not recommend, nominate, approve or confirm:
 - suitability for a Bushfire Attack Level (BAL);
 - an expected installed acoustic, thermal or fire result.
 
-Internal ratings help determine questions, candidate ordering and the callback brief. In local demo mode only, they may contribute to a family-level recommendation when keyword/application evidence also matches. A high priority score by itself is never enough.
+Internal ratings help determine questions, candidate ordering and the callback brief. In the local FastAPI prototype, they may contribute to a family-level recommendation when keyword/application evidence also matches. A high priority score by itself is never enough.
 
 If the best candidate does not meet the configured reliable-match threshold or has no keyword/application evidence, the bot must not recommend it. It must say that no reliable match was found and route the enquiry to a person.
 
 ## Required conversation flow
 
 1. Ask what the customer is trying to improve or solve.
-2. Capture the application and project context.
-3. Ask the customer to identify their main priorities.
-4. Capture mandatory requirements and unresolved risks.
-5. In demo mode, recommend the best supported family and explain the match; otherwise summarise without selecting a product.
-6. Offer the customer a choice: call the team or request a callback.
+2. Ask for the customer's name.
+3. Capture the application and project context.
+4. Ask the customer to identify their main priorities and capture mandatory requirements or unresolved risks.
+5. Recommend the best supported family and explain the match; otherwise summarise without selecting a product.
+6. Ask for a phone number or email and preferred callback time after showing the recommendation. Explain how contact details will be used, respect a refusal, and pass a deterministic summary and any recommendation to the team.
 
 ## Information to collect
 

@@ -25,6 +25,11 @@ data/product_knowledge.json
 data/product_knowledge_status.json
 data/tds/*
 !data/tds/.gitkeep
+# Manually-supplied datasheets awaiting filing. Third-party manufacturer
+# documents, so the folder is kept but its contents are never committed.
+# Provenance lives in knowledge/_tds_manifest.json, which IS tracked.
+data/tds_inbox/*
+!data/tds_inbox/.gitkeep
 
 # Derived from knowledge/building_classes/building_class_source.json; regenerate
 # with `python -m construction_ingest.building_class --export-json --export-training`.
@@ -47,3 +52,7 @@ __pycache__/
 .pytest-tmp/
 .pytest_tmp/
 .pytest_cache/
+
+# Historical test scratch/output; never source data
+family_sqlite_check_*/
+full-suite-final*.txt

@@ -1,31 +1,110 @@
 {
   "family_id": "AIRCELL_INSULWHITE",
-  "family_name": "Aircell Insulwhite",
-  "datasheet_pdf_url": "",
-  "status": "no_pdf_found",
-  "researched_at": "2026-09-07",
+  "family_name": "Insulwhite",
+  "datasheet_pdf_url": "https://store.filerobot.com/xamyxyg7fn/kingspan/kil/products/air-cell-insulwhite-au-and-nz/kingspan-aircell-insulwhite-product-datasheet-en-au.pdf?vh=46be54",
+  "datasheet_local_path": "data\\tds\\aircell\\aircell_insulwhite.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-14",
   "spec": {
-    "description": "",
-    "features": [],
-    "applications": [],
-    "technical": [],
-    "range_headers": [],
-    "range": [],
-    "fire": "",
+    "description": "Insulwhite is a reflective insulation with a cross-linked closed cell core, designed for a white ceiling-like appearance, offering better thermal resistance and improved fire safety compared to traditional bubble insulation.",
+    "features": [
+      "Cross-linked closed cell core",
+      "Reflective insulation",
+      "White-faced for aesthetic finish",
+      "Fibre-free, non-allergenic, non-irritant",
+      "Water-resistant",
+      "Rodent and insect resistant",
+      "Flammability Index ≤ 5",
+      "Compliant with AS/NZS 4859.1:2018"
+    ],
+    "applications": [
+      "Residential Metal Roof",
+      "Residential Tiled Roof"
+    ],
+    "technical": [
+      {
+        "property": "Material R-value",
+        "value": "0.15 m2 K/W",
+        "standard": "ASTM C518-2017 at 23°C"
+      },
+      {
+        "property": "Reflectance – Reflective Face",
+        "value": "97%",
+        "standard": ""
+      },
+      {
+        "property": "Emittance – Reflective Face",
+        "value": "0.03",
+        "standard": "AS/NZS 4201.5:1994"
+      },
+      {
+        "property": "Flammability Index",
+        "value": "≤ 5",
+        "standard": "AS 1530.2:1993"
+      },
+      {
+        "property": "Vapour Control",
+        "value": "< 0.020 µg/N.s",
+        "standard": "ASTM E96 Part B:2016"
+      },
+      {
+        "property": "Water Control",
+        "value": "Pass",
+        "standard": "AS/NZS 4201.4:1994"
+      },
+      {
+        "property": "Moisture Shrinkage",
+        "value": "< 0.5%",
+        "standard": "AS/NZS 4201.3:1994"
+      },
+      {
+        "property": "Burst Strength",
+        "value": "1.0 kN",
+        "standard": "AS 3706.4:2012 (CBR)"
+      }
+    ],
+    "fire": "Flammability Index ≤ 5",
     "sustainability": "",
-    "install": [],
-    "clearances": [],
-    "limitations": [],
-    "selection_checklist": [],
-    "compliance": "",
-    "warranty": "",
-    "accessories": [],
-    "accessories_upsell": []
+    "install": [
+      "Attach one end to the underside of the first rafter",
+      "Roll out underneath the rafters with the white side facing inwards",
+      "Fix to the underside of the rafter using 25 mm button head timber screws with a white painted head",
+      "Use 4 screws across the width of the roll at rafter",
+      "Leave 100 mm clearance around heat producing flues and light fittings",
+      "Neatly cut around penetrations and tape to seal",
+      "Leave 100 mm clearance around heat producing flues and light fittings"
+    ],
+    "clearances": [
+      "Leave at least 100 mm clearance around heat producing flues and light fittings"
+    ],
+    "limitations": [
+      "Can be damaged by intense heat above 105° C",
+      "Avoid contact with sparks and flame from blow torches, welders, cutting tools, etc."
+    ],
+    "range_headers": [
+      "Product Thickness (nom.)",
+      "Product R-value at 23ºC",
+      "Roll Diameter (nom.)",
+      "Roll Weight (nom.)",
+      "Roll Size",
+      "Reflectance – Reflective Face",
+      "Emittance – Reflective Face",
+      "Maximum Span Distance",
+      "Management Standards"
+    ],
+    "range": [
+      {
+        "c0": "5.5 mm",
+        "c1": "0.15 m2 K/W",
+        "c2": "450 mm",
+        "c3": "7.65 kg",
+        "c4": "1350 mm x 22.25 m",
+        "c5": "97%",
+        "c6": "0.03",
+        "c7": "2.4 m",
+        "c8": "ISO 9001:2015, ISO 14001:2015, ISO 45001:2018"
+      }
+    ]
   },
-  "source_excerpt": null,
-  "schema_version": "1.0",
-  "sds_url": "",
-  "engine": "local",
-  "retrieval": {},
-  "range_source": ""
+  "source_excerpt": "Insulation\nWhite-faced Thermo Reflective Insulation\n Insulwhite\n®\n  Cross-linked closed cell \ninsulation core\n  3-in-1 Insulation, vapour \nbarrier and radiant barrier\n  Helps achieve the \nhome energy efficiency \nprovisions\n  White face for visible \naesthetic finish\n  Fibre-free, non-allergenic, \nnon-irritant\n  Quick and easy to install\n  Strong, tough, durable\n  Water-resistant and \nunaffected by moisture\n  Rodent and insect \nresistant\n  Flammability Index ≤ 5\n  Compliant with  \nAS/NZS 4859.1:2018\n  CodeMark certified for \nNCC compliance\n  Made in Australia\n2\nResidential Metal Roof\nTypical Design Details\nKingspan \nAIR-CELL Insulwhite®\nMetal Roof Timber Batten\nRafter\nFigure 1.  Kingspan AIR-CELL Insulwhite ® in a pitched metal roof \nretrofit installation (attic conversion).\nMetal Roof\nEaves Gutter\nPlasterboard\nKingspan AIR-CELL\nInsulwhite®\nFigure 2.  Side elevation of Kingspan AIR-CELL Insulwhite ® in a \npitched metal roof retrofit (attic conversion).\nThermal Performance\nResidential Metal Roof Heat flow \nin\nHeat flow \nout\nKingspan AIR-CELL Insulwhite® RT 1.9 RT 1.0\nThe R-values shown are Total R-values for the building element \nas required by the Energy Provisions of the NCC, calculated in \naccordance with AS/NZS 4859.2:2018.  \nKingspan AIR-CELL® products are manufactured, tested and \npackaged in conformance with AS/NZS 4859.1:2018.\nSpecification Guide\nThe roof insulation fixed to the underside of the rafters \nshall be Kingspan AIR-CELL Insulwhite® fibre-free,thermo \nreflective insulation, sandwiched by a reflective facing \non the upper side and a white facing on the other side \nmanufactured by Kingspan Insulation Pty Ltd, and shall be \ninstalled in accordance with the instructions issued by them.\nA Project Specific Warranty provided by Kingspan Insulation \nmust be submitted.\nInstallation Instructions\n1. Attach one end of the Kingspan AIR-CELL Insulwhite ® to \nthe underside of the first rafter to be covered. \n2. Roll out Kingspan AIR-CELL Insulwhite® und"
 }

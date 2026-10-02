@@ -1,4 +1,4 @@
-"""Message classifier: route to informational, product-fit, size-availability, commercial, or escalate.
+"""Message classifier for local knowledge, catalogue, and hand-off routes.
 
 Uses the local Ollama model with a rules-based fallback. Returns classification
 + confidence. No hosted or third-party model is involved.
@@ -15,7 +15,24 @@ _SIZE_Q_RE = re.compile(
     re.IGNORECASE,
 )
 _COMMERCIAL_Q_RE = re.compile(
-    r"\b(price|cost|quote|invoice|freight|shipping|delivery|bulk|discount|payment|order|purchase|where\s+to\s+buy|supply)\b",
+    r"\b(price|cost|quote|invoice|bulk|discount|payment|order|purchase|where\s+to\s+buy|supply)\b",
+    re.IGNORECASE,
+)
+_FREIGHT_Q_RE = re.compile(
+    r"\b(freight|shipping|delivery|deliver|courier)\b",
+    re.IGNORECASE,
+)
+_TRACKING_Q_RE = re.compile(
+    r"\b(track|tracking|shipment\s+status|where(?:'s|\s+is)\s+my\s+order|order\s+status)\b",
+    re.IGNORECASE,
+)
+_SERVICE_REFUSAL_Q_RE = re.compile(
+    r"\b(?:can|could|do|does|will|would)\s+you\s+(?:install|fit|remove|vacuum)\b"
+    r"|\binstall(?:ation)?\s+(?:service|team|crew|it\s+for\s+me)\b"
+    r"|\bcome\s+(?:and\s+|out\s+(?:and\s+)?)?install\b"
+    r"|\bremov(?:e|al)\s+(?:of\s+)?(?:the\s+|my\s+|our\s+)?(?:old|existing)\s+insulation\b"
+    r"|\bvacuum(?:ing)?\s+(?:out\s+)?(?:the\s+|my\s+|our\s+)?(?:old|existing)?\s*insulation\b"
+    r"|\btool\s?hire\b|\bhire\s+(?:a|the)?\s*tools?\b|\bborrow\s+(?:a|the)?\s*tools?\b",
     re.IGNORECASE,
 )
 _ESCALATE_Q_RE = re.compile(
@@ -30,10 +47,13 @@ CLASSIFIER_PROMPT = """Classify the customer's message into ONE of these categor
 3. **size-availability** — asks about sizes, stock, ordering ("available in 50mm?", "how much do I need?", "where can I order?")
 4. **commercial** — asks about price, quotes, bulk deals, freight ("how much does it cost?", "bulk discount?", "can you quote?")
 5. **escalate** — mentions compliance, fire, NCC, guarantees, legal issues ("is it fire-rated?", "NCC compliant?", "liability?")
+6. **freight** — asks about shipping, delivery cost or delivery timing
+7. **tracking** — asks for the status or location of an existing order
+8. **service_refusal** — asks the business to install, remove/vacuum existing insulation, or hire out tools (this business supplies products only)
 
 Message: "{message}"
 
-Respond ONLY with the category name (lowercase, one word). No explanation.
+Respond ONLY with the category name (lowercase, one word, use underscore for service_refusal). No explanation.
 """
 
 
@@ -41,7 +61,7 @@ class RouterClassification:
     """Result of message classification."""
 
     def __init__(self, category: str, confidence: float = 0.8):
-        self.category = category  # informational | product-fit | size-availability | commercial | escalate
+        self.category = category
         self.confidence = confidence  # 0.0-1.0
 
     @property
@@ -71,6 +91,16 @@ class MessageRouter:
         if not message or not isinstance(message, str):
             return RouterClassification("product-fit", confidence=0.5)
 
+        # A bare 1-2 word reply (e.g. "no", "wall", "residential", a postcode)
+        # is almost always a direct answer to the structured intake question
+        # just asked, not a free-form request - it carries no context for the
+        # LLM classifier to reason about and has been observed to be
+        # misclassified (e.g. "no" -> service_refusal), derailing the flow.
+        # Rules still apply here so a genuine short trigger (e.g. "NCC?",
+        # "price?") is still caught; only the LLM guess is skipped.
+        if len(message.split()) <= 2:
+            return self._classify_rules(message)
+
         # Try LLM first
         if self.use_llm:
             try:
@@ -91,7 +121,10 @@ class MessageRouter:
 
             category = reply.strip().lower()
             # Validate category
-            valid = {"informational", "product-fit", "size-availability", "commercial", "escalate"}
+            valid = {
+                "informational", "product-fit", "size-availability",
+                "commercial", "escalate", "freight", "tracking", "service_refusal",
+            }
             if category in valid:
                 return RouterClassification(category, confidence=0.95)
         except Exception:
@@ -105,6 +138,18 @@ class MessageRouter:
         # Check escalate first (highest priority)
         if _ESCALATE_Q_RE.search(msg_lower):
             return RouterClassification("escalate", confidence=0.7)
+
+        # A request for a service the business doesn't offer must be caught
+        # before commercial/size-availability, so "can you install this?"
+        # never falls through to a pricing or product answer.
+        if _SERVICE_REFUSAL_Q_RE.search(msg_lower):
+            return RouterClassification("service_refusal", confidence=0.8)
+
+        if _TRACKING_Q_RE.search(msg_lower):
+            return RouterClassification("tracking", confidence=0.8)
+
+        if _FREIGHT_Q_RE.search(msg_lower):
+            return RouterClassification("freight", confidence=0.8)
 
         # Check commercial (price/ordering)
         if _COMMERCIAL_Q_RE.search(msg_lower):

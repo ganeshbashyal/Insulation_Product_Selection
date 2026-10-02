@@ -275,7 +275,7 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
 
 _Variation data is pending a verified manufacturer range table or technical extraction. No dimensions, ratings or product combinations are inferred._
 
-Source currently recorded: https://www.autexacoustics.com.au/
+Source currently recorded: https://cdn.mediavalet.com/aunsw/autex/2P1vrOWCVE6M_vSFlSrEdw/f5ZQQpLQrU6jl2vud2IzSQ/Original/Grid%20Ceiling%20Tiles_Data%20Sheet.pdf
 
 <!-- AUTO:VARIANTS END -->
 
@@ -283,8 +283,20 @@ Source currently recorded: https://www.autexacoustics.com.au/
 
 ## Installation and clearances
 
-_Installation, clearance and limitation evidence is pending a verified manufacturer source. Do not infer project-specific installation instructions from this family file._
+Extracted from the manufacturer datasheet; the bot may share this context but must not issue project-specific installation instructions or override the human-reviewed install guide.
 
-Source currently recorded: https://www.autexacoustics.com.au/
+1. Install as per Autex Acoustics recommendations.
+2. Install instructions included in each pack or available on the website.
+3. Consult project engineer and relevant expert for installation near fire protection systems.
+4. Adhere to relevant building codes, standards, and design rules.
+
+**Manufacturer-stated limitations**
+
+- Grid Ceiling Tiles are made from Cube as the base material.
+- Grid Ceiling Tiles are suitable for indoor use only.
+- Light fastness is dependent on use and exposure.
+- Non-woven. Product may vary from samples and batch to batch.
+- Blot spills from fabric quickly. Wipe with a damp cloth. Avoid rubbing and excessive amounts of water.
+- Custom printed Grid Ceiling Tiles require specialist cleaning.
 
 <!-- AUTO:INSTALL END -->

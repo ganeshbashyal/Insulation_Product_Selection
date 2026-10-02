@@ -266,9 +266,11 @@ Reseller and distributor listings may repeat manufacturer copy. Claims appearing
 
 ## Documented physical and technical properties
 
-_Variation data is pending a verified manufacturer range table or technical extraction. No dimensions, ratings or product combinations are inferred._
+| Published property | Value | Standard |
+| --- | --- | --- |
+| fire indices | Class B, Class C | ISO 9705, AS ISO 9705 - 2003 |
 
-Source currently recorded: https://www.autexacoustics.com.au/
+_No manufacturer range table was available in the extracted source; this records each published technical property without inferring product combinations._
 
 <!-- AUTO:VARIANTS END -->
 
@@ -276,8 +278,12 @@ Source currently recorded: https://www.autexacoustics.com.au/
 
 ## Installation and clearances
 
-_Installation, clearance and limitation evidence is pending a verified manufacturer source. Do not infer project-specific installation instructions from this family file._
+Extracted from the manufacturer datasheet; the bot may share this context but must not issue project-specific installation instructions or override the human-reviewed install guide.
 
-Source currently recorded: https://www.autexacoustics.com.au/
+1. Install as per Autex Acoustics recommendations.
+2. Included install instructions.
+3. Fix with 6g countersink fastener.
+4. Use Frontier Connector Clips.
+5. Install as per Frontier Install Instructions.
 
 <!-- AUTO:INSTALL END -->

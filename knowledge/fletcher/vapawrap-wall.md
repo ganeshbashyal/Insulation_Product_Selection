@@ -38,28 +38,18 @@ Capture climate zone, wall/cladding type, cavity, condensation design, required 
 
 Extracted from the manufacturer datasheet; the bot may share this context but must not issue project-specific installation instructions or override the human-reviewed install guide.
 
-1. Fix Vapawrap horizontally to exterior timber or steel studs
-starting from the bottom plate.
-2. Fasten with broad-headed galvanized clouts or
-staples at maximum 300mm centres.
-3. Overlap consecutive upper sheets over lower
-sheets by minimum 150mm to shed water.
-4. Stagger vertical joints and ensure they
-occur over studs with a minimum 150mm overlap.
-5. Tape all horizontal and
-vertical seams with Sisalation VapaSeam Tape to form a continuous air barrier.
-6. Seal around window and door frames, sill flashings, and plumbing penetrations.
-7. Ensure a drained, ventilated cavity is maintained between the wrap and exterior
-cladding.
+1. Install with printed spun-bonded side facing outwards.
+2. Protect from damage and weather during storage.
+3. Inspect and repair any damaged areas after cladding removal.
 
 **Manufacturer-stated limitations**
 
-- Not suitable for roofing
-applications (use Vapawrap Metal Roof).
-- Must not be left exposed to direct UV
-sunlight beyond 30 days (VP4-30) or 90 days (VP4-90).
-- Ensure cladding
-manufacturer requirements for cavity drainage are followed.
+- Must be installed in accordance with AS 4200.2.
+- Not designed for prolonged direct exposure to weather elements.
+- Must be stored in a clean, dry place.
+- Must be protected from damage and weather.
+- Building Designer to consider suitability for project design requirements.
+- All joints and penetrations must be taped with Seaming Tape as per AS 4200.2 requirements.
 
 <!-- AUTO:INSTALL END -->
 
@@ -81,22 +71,16 @@ manufacturer requirements for cavity drainage are followed.
 
 | Published property | Value | Standard |
 | --- | --- | --- |
-| Material | Spunbond polyolefin non-woven
-fabric with breathable microporous film core |  |
-| Duty Classification | Light Duty | AS/NZS 4200.1 |
-| Vapour Permeance | Class 4 Vapour Permeable (> 1.14
-µg/N·s) | AS/NZS 4200.1 |
-| Water Control
-Classification | Water Barrier | AS/NZS 4201.4 |
-| Air Control Classification | Air Barrier | AS/NZS 4200.1 |
-| Roll Dimensions | 1350 mm or 1500 mm
-width x 30 m length (40.5 m² / 45 m² per roll) |  |
-| Weight per Roll | 4.7 kg (1350mm) / 5.2 kg (1500mm) |  |
-| UV Resistance Limit | Up to 30 days (VP4-30) or up
-to 90 days (VP4-90) |  |
-| Flammability Index | ≤ 5 (Low Flammability) | AS 1530.2 |
-| Product Codes | 4021556 (VP4-30 1350), 4021557 (VP4-30 1500), 4021549
-(VP4-90 1350), 4021550 (VP4-90 1500) |  |
+| Vapour Permeability | > 1.14 µg/N.s | ASTM E96 |
+| Vapour Classification | Class 4 | AS/NZS 4200.1 |
+| Water Control | Water Barrier | AS/NZS 4201.4 |
+| Emittance Outwards face | IR Non-reflective (0.9) | AS/NZS 4201.5 |
+| Emittance Inwards face | IR Non-reflective (0.9) | AS/NZS 4201.5 |
+| Resistance to Dry Delamination | PASS | AS/NZS 4201.1 |
+| Resistance to Wet Delamination | PASS | AS/NZS 4201.2 |
+| Electrical Conductivity | Electrically non-conductive | AS/NZS 4201.6 |
+| Nominal Thickness | < 1.0 mm |  |
+| Flammability Index | <= 5 | AS/NZS 1530.2 |
 
 _No manufacturer range table was available in the extracted source; this records each published technical property without inferring product combinations._
 

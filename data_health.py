@@ -6,9 +6,7 @@ right?" It never calls Ollama or any network resource - it only reads
 files and SQLite tables that are already on disk, so it works whether
 or not Ollama is running.
 
-Usable two ways:
-  1. As a library: ``python -m data_health`` prints a plain-text report.
-  2. Imported into app.py to drive the "Data & rebuild status" Streamlit tab.
+Run ``python -m data_health`` to print a plain-text report.
 
 Each check returns a ``CheckResult`` with a status of "ok", "warn", or
 "missing", plus a human note so failures are self-explanatory instead of

@@ -1,7 +1,7 @@
 {
   "family_id": "AUTEX_SURFACE_FINISHES_FRONTIER_RAFT_BEAM",
   "family_name": "Autex Surface Finishes Frontier Raft beam",
-  "datasheet_pdf_url": "",
+  "datasheet_pdf_url": "https://cdn.mediavalet.com/aunsw/autex/UNYkeC1vs0-3sVb7RBrkwA/nTw1WKETV0yM9O2P0hGBtQ/Original/Frontier%20Fins%20Data%20Sheet.pdf",
   "sds_url": "",
   "status": "ok",
   "researched_at": "2026-09-06",
@@ -23,7 +23,7 @@
         "c3": "1200 mm & 2400 mm",
         "c4": "Acoustic Timber / Stone",
         "c5": "8 beams (2.4m) / 16 (1.2m)",
-        "c6": "2.88 m² (@ 150 mm centres)"
+        "c6": "2.88 m\u00b2 (@ 150 mm centres)"
       },
       {
         "c0": "Printed Beam 250",
@@ -32,7 +32,7 @@
         "c3": "1200 mm & 2400 mm",
         "c4": "Acoustic Timber / Stone",
         "c5": "4 beams (2.4m) / 8 (1.2m)",
-        "c6": "2.88 m² (@ 300 mm centres)"
+        "c6": "2.88 m\u00b2 (@ 300 mm centres)"
       }
     ],
     "description": "",
@@ -85,5 +85,7 @@
   "source_excerpt": null,
   "engine": "knowledge_base_txt",
   "range_source": "manufacturer granular sizing matrix (knowledge-base dump)",
-  "schema_version": "1.0"
+  "schema_version": "1.0",
+  "datasheet_local_path": "data/tds/autex/autex_frontier_raft_beam.pdf",
+  "datasheet_source": "shared_range:AUTEX_FRONTIER_RAFT_BEAM"
 }

@@ -1,12 +1,4 @@
-"""Freight/shipping cost placeholder.
-
-Per the user's decision this session: freight is driven by a local rate table
-(CSV/JSON in the repo), not a carrier API - keeping it local-only. That table
-does not exist yet, so this tool is wired into the registry but inert: it only
-matches a "freight" router category, which router.py does not currently emit.
-Registering it now means adding the category and the rate table later needs no
-change to web_agent.py's dispatch code.
-"""
+"""Local-only freight hand-off until a reviewed rate table is available."""
 from __future__ import annotations
 
 from typing import Any

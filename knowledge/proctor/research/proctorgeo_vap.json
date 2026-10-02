@@ -1,67 +1,103 @@
 {
   "family_id": "PROCTOR_GEO_VAP",
   "family_name": "ProctorGeo Vap",
-  "datasheet_pdf_url": "",
-  "sds_url": "",
-  "status": "gemini_not_found",
-  "researched_at": "2026-09-06",
+  "datasheet_pdf_url": "https://proctorgroup.com.au/wp-content/uploads/2021/03/ProctorGeo_Vap_120_PDS_Apr_2020.pdf",
+  "datasheet_local_path": "data\\tds\\proctor\\proctorgeo_vap.pdf",
+  "status": "ok",
+  "researched_at": "2026-09-14",
   "spec": {
-    "description": "",
-    "features": "",
-    "applications": "",
-    "technical": "",
-    "range": "",
-    "fire": "",
-    "compliance": "",
+    "description": "ProctorGeo Vap120 is a light duty vapour and air retarder that resists the flow of vapour by both diffusion and air movement through wall, ceiling, and floor assemblies, helping to protect the building fabric and insulation from condensation and related problems such as mould, timber rot, corrosion, and loss of thermal resistance.",
+    "features": [
+      "Light duty vapour and air retarder",
+      "Resists the flow of vapour by both diffusion and air movement",
+      "Improves the efficacy of ventilation systems",
+      "Ideal for swimming pools and humid buildings",
+      "Factory applied integrated tape",
+      "Slightly translucent for ease of insulation",
+      "Water vapour resistant",
+      "Suitable for use in some corrosive environments",
+      "High water resistance",
+      "Non perforated",
+      "Non conductive",
+      "Air tight",
+      "Lightweight and easy to handle",
+      "Robust with excellent tear resistance"
+    ],
+    "applications": [
+      "Sheet roof and wall claddings",
+      "Constructions located in cold climates",
+      "Buildings with high internal humidity such as indoor swimming pools and museums",
+      "Air conditioned buildings located in hot and humid climates",
+      "Refrigerated buildings such as cold stores and ice rinks"
+    ],
+    "technical": [
+      {
+        "property": "R-value",
+        "value": "Not specified",
+        "standard": ""
+      },
+      {
+        "property": "Density",
+        "value": "Not specified",
+        "standard": ""
+      },
+      {
+        "property": "Thermal conductivity",
+        "value": "Not specified",
+        "standard": ""
+      },
+      {
+        "property": "Fire indices",
+        "value": "AS/NZS 1530.3 Flammability Index ≤ 5",
+        "standard": "AS/NZS 1530.3"
+      },
+      {
+        "property": "Temperature range",
+        "value": "Not specified",
+        "standard": ""
+      },
+      {
+        "property": "Vapour resistance",
+        "value": "49 MNs/g",
+        "standard": "ASTM E96"
+      },
+      {
+        "property": "pH",
+        "value": "Not specified",
+        "standard": ""
+      },
+      {
+        "property": "Water resistance",
+        "value": "High",
+        "standard": "AS/NZS 4201.4"
+      },
+      {
+        "property": "Emissivity",
+        "value": "Non reflective",
+        "standard": "AS/NZS 4201.5"
+      }
+    ],
+    "fire": "AS/NZS 1530.3 Flammability Index ≤ 5",
     "sustainability": "",
-    "install": "",
-    "selection_checklist": "",
-    "accessories": "",
-    "limitations": "",
-    "warranty": "",
-    "range_headers": [],
+    "install": [
+      "Install in accordance with the supplied installation guide",
+      "Secure directly to the interior side of the wall or ceiling frame",
+      "Use factory applied integrated tape on the face of the lower course and the rear of the upper course of membrane"
+    ],
     "clearances": [],
-    "accessories_upsell": []
+    "limitations": [
+      "Not to be used as a primary waterproofing membrane",
+      "Can be damaged by careless handling, high winds, or vandalism",
+      "Should not be left uncovered for longer than absolutely necessary",
+      "Should not be left exposed to UV for longer than 4 weeks",
+      "Not to be used in installations where it could be exposed to long term UV radiation",
+      "No anti-slip coating, may be slippery when wet",
+      "Carelessly discarded packaging also represents a slip hazard"
+    ],
+    "range_headers": [],
+    "range": [],
+    "range_extraction_status": "inconsistent_columns_dropped"
   },
-  "retrieval": {
-    "search_keywords": [
-      "drainage vapour barrier",
-      "proctor geotextile vapour",
-      "proctor vapour membrane",
-      "ProctorGeo Vap",
-      "ProctorGeo Vap geotextile",
-      "ProctorGeo vapour barrier"
-    ],
-    "problem_keywords": [
-      "ground moisture entering basement",
-      "hydrostatic vapour pressure on slab",
-      "subfloor moisture rising into building",
-      "water vapour migration through ground slab"
-    ],
-    "placement": [
-      "floor",
-      "subfloor",
-      "underfloor",
-      "wall"
-    ],
-    "priority_fit": [
-      "condensation",
-      "thermal"
-    ],
-    "use_cases": [
-      "Moisture and damp management in basement retaining walls and subfloor soil beds",
-      "Separation and vapour mitigation beneath commercial floor screeds",
-      "Vapour barrier and drainage layer beneath concrete slab-on-ground foundations"
-    ],
-    "not_for": [
-      "Direct foot traffic without protective screed or slab",
-      "Exposed wall cladding",
-      "Pitched roof breathable sarking"
-    ],
-    "rag_summary": "ProctorGeo Vap represents a specialized vapour-retardant\ngeotextile or composite drainage membrane within the Proctor civil and building\nenvelope line. Engineered for subterranean, under-slab, and basement foundation\napplications, it combines drainage filtration with moisture vapour control to\nblock ground dampness from migrating into structural building elements. It\nprevents damp concrete slabs, efflorescence, and moisture-induced flooring\nfailures."
-  },
-  "source_excerpt": null,
-  "engine": "ai_studio_batch",
-  "schema_version": "1.0",
-  "range_source": ""
+  "source_excerpt": "Product Description \nProctorGeo Vap120 is a light duty vapour and air retarder. \nThe air & water vapour resistance of the two layer \npolyolefin non-woven membrane resists the flow of vapour \nby both diffusion and air movement through wall, ceiling \nand floor assemblies thus helping protect the building \nfabric and insulation from condensation and related \nproblems such as mould, timber rot, corrosion and loss of \nthermal resistance.  \nWhen installed as a continuous layer, ProctorGeo Vap120 \nwill help form an air tight layer improving the efficacy of \nventilation systems thus improving the energy efficiency \nand the interior environment of the building enclosure. \n \nApplications \nVapour retarders are typically used with sheet roof and \nwall claddings, in constructions located in cold climates, \nbuildings with high internal humidity such as indoor \nswimming pools and museums, air conditioned buildings \nlocated in hot and humid climates and refrigerated \nbuildings such as cold stores and ice rinks.  \nA correctly specified and installed vapour retarder can \nlimit the volume of water vapour reaching condensing  \nsurfaces. Users need to understand, based on the climate \nlocation, building use and other factors, if and why a \nvapour retarder is required and that it is correctly located \nrelative to any insulation.  \nVapour retarders should not be used on the exterior side of \ninsulation in cold and temperate climates as a sarking \nwhere  there is a risk that condensation will form on the \ninterior face of the retarder. Please contact Proctor Group \nAustralia for advice on the suitable application of \nProctorGeo Vap120. \nIntegrated Tape \nTo improve the integrity of installation, ProctorGeo Vap120 \nis supplied with a factory applied integrated tape on the  \nface of the lower course and the rear of the upper course \nof membrane. \n \nInstallation \nProctorGeo Vap120 should be installed in accordance \nwith the supplied installation guide. \nBenefits \n• Ideal for swimming pools and",
+  "datasheet_source": "supplied_manually"
 }

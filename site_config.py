@@ -2,11 +2,49 @@
 from __future__ import annotations
 
 import json
+import os
+import re
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
 ROOT = Path(__file__).resolve().parent
+
+API_KEY_ENV_PREFIX = "AURORA_SITE_API_KEY_"
+
+
+def is_production() -> bool:
+    """True when the app is running in production mode (AURORA_ENV=production)."""
+    return os.getenv("AURORA_ENV", "development").strip().casefold() == "production"
+
+
+def api_key_env_var(site_id: str) -> str:
+    """Environment variable name that supplies the API key for a site."""
+    slug = re.sub(r"[^A-Z0-9]", "_", site_id.upper())
+    return f"{API_KEY_ENV_PREFIX}{slug}"
+
+
+def _resolve_api_key(site_id: str, data: dict) -> str:
+    """
+    Resolve a site's API key.
+
+    Precedence: injected environment variable, then the value in the committed
+    JSON. The JSON value exists only so local development keeps working without
+    a secret manager; in production it is refused so a committed placeholder can
+    never become a live credential.
+    """
+    injected = os.getenv(api_key_env_var(site_id), "").strip()
+    if injected:
+        return injected
+
+    from_file = str(data.get("api_key", "")).strip()
+    if from_file and is_production():
+        raise SiteConfigError(
+            f"Site '{site_id}' has an api_key in its committed config but "
+            f"AURORA_ENV=production. Set {api_key_env_var(site_id)} instead and "
+            "remove the key from the JSON file."
+        )
+    return from_file
 
 
 @dataclass
@@ -137,7 +175,7 @@ def _validate_and_build(data: dict) -> SiteConfig:
         privacy_text=data.get("privacy_text", ""),
         consent_text=data.get("consent_text", ""),
         allowed_origins=origins,
-        api_key=data.get("api_key", ""),
+        api_key=_resolve_api_key(data["site_id"], data),
         rate_limit=data.get("rate_limit", {"requests_per_minute": 10, "per_ip": True}),
         manufacturer_emphasis=data.get("manufacturer_emphasis", {}),
     )

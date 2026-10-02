@@ -1,7 +1,7 @@
 {
   "family_id": "PAROC_INSULROCK_PARTY_WALL_BATT",
   "family_name": "Paroc InsulRock Party Wall Batt",
-  "datasheet_pdf_url": "",
+  "datasheet_pdf_url": "https://fminsulation.com.au/assets/d/97-SDS-Rockwool.pdf",
   "sds_url": "",
   "status": "gemini_not_found",
   "researched_at": "2026-09-06",
@@ -78,5 +78,8 @@
   "source_excerpt": null,
   "engine": "ai_studio_batch",
   "schema_version": "1.0",
-  "range_source": ""
+  "range_source": "",
+  "datasheet_source": "supplied_manually",
+  "datasheet_local_path": "data\\tds\\paroc\\paroc_insulrock_party_wall_batt.pdf",
+  "previous_status": "gemini_not_found"
 }

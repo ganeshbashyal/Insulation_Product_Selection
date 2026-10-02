@@ -38,7 +38,7 @@ official_epd_url: https://insulation.com.au/wp-content/uploads/2025/07/EPD-IES-0
 
 ## Purpose of this file
 
-This is the canonical internal description for Fletcher Soundbreak. It aligns the language used by the Streamlit demonstration, future Aircall content, sales staff and the product-master dataset.
+This is the canonical internal description for Fletcher Soundbreak. It aligns the language used by the local FastAPI agent, future Aircall content, sales staff and the product-master dataset.
 
 The demo may recommend the **Soundbreak family** when the customer describes airborne sound transfer through a suitable residential wall, ceiling or midfloor and cavity insulation is an appropriate product role. It must not automatically choose an R-value, thickness, width, quantity or complete construction.
 
@@ -386,29 +386,19 @@ Use for discovery and legacy-code research. Do not allow it to override a curren
 
 Extracted from the manufacturer datasheet; the bot may share this context but must not issue project-specific installation instructions or override the human-reviewed install guide.
 
-1. Switch off electrical power at the main breaker before working in
-wall or ceiling cavities.
-2. Choose batt width (430mm or 580mm) to match
-stud/joist centres (450mm or 600mm).
-3. Friction fit batts snugly between timber
-or steel framing members ensuring no gaps or folds.
-4. Do not compress batts into
-cavities narrower than nominal thickness.
-5. Cut batts neatly around electrical
-boxes, wiring, and plumbing using a sharp insulation knife.
-6. For internal walls
-between bedrooms, bathrooms, and media rooms, combine with acoustic plasterboard
-for best results.
-7. Complete lining over insulation promptly after installation.
+1. Product should be kept dry.
+2. Product needs to be correctly installed in the right stud width and depth.
+3. Product should be installed without compression.
+4. Product needs to be allowed to fully recover before and after use.
 
 **Manufacturer-stated limitations**
 
-- Not
-for unshielded external exposure.
-- Avoid excessive compression that reduces
-acoustic and thermal ratings.
-- Maintain required electrical clearances around
-non-IC rated fixtures.
+- Not to be used/exposed to weather in any condition.
+- Cannot be used as a water or vapour barrier.
+- Modifications not permissible.
+- Cannot be used crushed.
+- Cannot be used with any other products except Sisalation®.
+- Product needs to be correctly installed in the right stud width and depth.
 
 <!-- AUTO:INSTALL END -->
 
@@ -418,20 +408,13 @@ non-IC rated fixtures.
 
 | Published property | Value | Standard |
 | --- | --- | --- |
-| R-Values & Thicknesses | R1.7 (60mm), R2.0 (70mm), R2.5 (90mm), R2.7
-(90mm), R3.1 (110mm) | AS/NZS 4859.1:2018 |
-| Standard Dimensions | 1160 mm length x 430 mm or 580 mm width
-(also 1200 x 600 mm for R2.7) |  |
-| Coverage per
-Pack | R1.7: 6.9 m² (430mm) / 9.1 m² (580mm); R2.0: 5.6 m² / 7.6 m²;
-R2.5: 4.5 m² / 6.1 m²; R2.7: 4.5 m² / 6.1 m²; R3.1: 3.4 m² / 4.5 m² |  |
-| Combustibility | Non-combustible | AS 1530.1 |
-| Early Fire Hazard Indices | Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1 | AS/NZS 1530.3 |
-| Maximum Service Temperature | 340°C |  |
-| Corrosion Resistance | Non-corrosive | AS/NZS 4859.1 |
-| Acoustic
-Performance | Tested acoustic absorption coefficients across standard
-octave bands (NRC tested) | AS ISO 354 |
+| R-value | 1.7 | m2K/M |
+| Density | 24–32kg/m3 |  |
+| Thermal Conductivity | Complies | W/m.K |
+| Moisture Absorption | <0.2% | % by volume |
+| Fire Hazard | Non-combustible | AS 1530.1 |
+| Maximum Service Temperature | 340 °C | ASTM C411/C447 |
+| Flow Resistivity | 10480, 12860, 11140, 16001, 12760 Rayls/m | ASTM C522 |
 
 _No manufacturer range table was available in the extracted source; this records each published technical property without inferring product combinations._
 

@@ -178,5 +178,7 @@
   "source_excerpt": null,
   "engine": "ai_studio_batch",
   "schema_version": "1.0",
-  "range_source": ""
+  "range_source": "",
+  "datasheet_local_path": "data\\tds\\polyester solutions\\polyester_solutions_wall_block_baffle_block_batts.pdf",
+  "datasheet_download_url": "https://www.polyestersolutions.com.au/_files/ugd/01c370_0153735f118446e7b485c3c2652c4234.pdf"
 }

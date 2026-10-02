@@ -40,20 +40,12 @@ SCENARIO_QUESTIONS = {
 def _looks_like_a_question(text: str | None) -> bool:
     """Reject anything that isn't a short, single-line reply.
 
-    Guards against a local LLM echoing prompt scaffolding back verbatim
-    instead of actually rephrasing (e.g. returning "Rephrase this
-    question..." or "Original question: ..." as if that were the message) -
-    the caller falls back to the plain deterministic question when this
-    returns False.
+    Thin alias over llm_client.is_safe_reply (the canonical, shared guard) so
+    existing tests that import this name keep working. Kept at a tighter
+    220-char bound here since a *question* should always be shorter than a
+    general phrased reply.
     """
-    if not text or "\n" in text:
-        return False
-    if len(text) > 220:
-        return False
-    lowered = text.casefold()
-    if "rephrase" in lowered or "original question" in lowered:
-        return False
-    return True
+    return llm_client.is_safe_reply(text, max_length=220)
 
 
 class SmartQuestioner:
@@ -83,6 +75,12 @@ class SmartQuestioner:
             active_step = len(answers)
 
         if active_step >= len(agent_core.QUESTIONS):
+            if (
+                active_step == len(agent_core.QUESTIONS)
+                and getattr(conversation, "lead_step", 0) < len(agent_core.LEAD_QUESTIONS)
+            ):
+                lead_step = getattr(conversation, "lead_step", 0)
+                return agent_core.LEAD_QUESTIONS[lead_step][1]
             return ""
 
         # Get the standard key and default question for the active step

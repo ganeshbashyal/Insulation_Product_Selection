@@ -2,169 +2,38 @@
   "family_id": "FLETCHER_PINK_BATTS_CEILING",
   "family_name": "Pink Batts Ceiling Insulation",
   "datasheet_pdf_url": "https://insulation.com.au/wp-content/uploads/2019/11/TDS-Pink-Batts-Ceiling-v4.pdf",
+  "datasheet_local_path": "data\\tds\\fletcher\\pink_batts_ceiling_insulation.pdf",
   "status": "ok",
-  "researched_at": "2026-09-07",
+  "researched_at": "2026-09-13",
   "spec": {
-    "description": "Pink® Batts are made from lightweight, flexible and resilient glasswool for thermal and acoustic insulation of residential ceilings. Pink® Batts are available in various sizes to fit standard timber and steel joist spacings.",
+    "description": "Pink® Batts are lightweight, flexible, and resilient glasswool batts designed for thermal and acoustic insulation of residential ceilings.",
     "features": [
-      "Lightweight",
-      "Flexible",
-      "Resilient",
-      "Thermal insulation",
-      "Acoustic insulation",
-      "Available in various sizes",
-      "Fit standard timber and steel joist spacings"
+      "Made from lightweight, flexible, and resilient glasswool",
+      "Available in various sizes to fit standard timber and steel joist spacings",
+      "Low itch",
+      "Easy to cut",
+      "Friction fit standard joists",
+      "Provides energy savings all year round",
+      "Renowned for their firmness"
     ],
     "applications": [
-      "ceiling",
-      "new homes",
-      "retrofitting existing buildings"
+      "Residential ceiling applications"
     ],
     "technical": [
       {
-        "property": "R-value",
-        "value": "2.5",
-        "standard": "AS/NZS 4859.1:2002"
-      },
-      {
-        "property": "R-value",
-        "value": "3.0",
-        "standard": "AS/NZS 4859.1:2002"
-      },
-      {
-        "property": "R-value",
-        "value": "3.5",
-        "standard": "AS/NZS 4859.1:2002"
-      },
-      {
-        "property": "R-value",
-        "value": "4.0",
-        "standard": "AS/NZS 4859.1:2002"
-      },
-      {
-        "property": "R-value",
-        "value": "4.1",
-        "standard": "AS/NZS 4859.1:2002"
-      },
-      {
-        "property": "R-value",
-        "value": "5.0",
-        "standard": "AS/NZS 4859.1:2002"
-      },
-      {
-        "property": "R-value",
-        "value": "6.0",
-        "standard": "AS/NZS 4859.1:2002"
-      },
-      {
-        "property": "R-value",
-        "value": "7.0",
-        "standard": "AS/NZS 4859.1:2002"
-      },
-      {
-        "property": "Nominal Thickness",
-        "value": "130",
-        "standard": ""
-      },
-      {
-        "property": "Nominal Thickness",
-        "value": "155",
-        "standard": ""
-      },
-      {
-        "property": "Nominal Thickness",
-        "value": "175",
-        "standard": ""
-      },
-      {
-        "property": "Nominal Thickness",
-        "value": "195",
-        "standard": ""
-      },
-      {
-        "property": "Nominal Thickness",
-        "value": "215",
-        "standard": ""
-      },
-      {
-        "property": "Nominal Thickness",
-        "value": "250",
-        "standard": ""
-      },
-      {
-        "property": "Width",
-        "value": "430",
-        "standard": ""
-      },
-      {
-        "property": "Width",
-        "value": "580",
-        "standard": ""
-      },
-      {
-        "property": "Length",
-        "value": "1160",
-        "standard": ""
-      },
-      {
-        "property": "Length",
-        "value": "1160",
-        "standard": ""
-      },
-      {
-        "property": "Batts per pack",
-        "value": "16",
-        "standard": ""
-      },
-      {
-        "property": "Batts per pack",
-        "value": "16",
-        "standard": ""
-      },
-      {
-        "property": "2 per pack",
-        "value": "8.0",
-        "standard": ""
-      },
-      {
-        "property": "2 per pack",
-        "value": "10.8",
-        "standard": ""
-      },
-      {
-        "property": "Coverage per pack",
-        "value": "9.0",
-        "standard": ""
-      },
-      {
-        "property": "Coverage per pack",
-        "value": "12.2",
-        "standard": ""
-      },
-      {
-        "property": "Packs per Bale",
-        "value": "6",
-        "standard": ""
-      },
-      {
-        "property": "Packs per Bale",
-        "value": "6",
-        "standard": ""
-      },
-      {
         "property": "Maximum Service Temperature",
-        "value": "350",
+        "value": "350 °C",
         "standard": "ASTM C411/C447"
       },
       {
         "property": "Thermal Resistance",
-        "value": "Complies",
+        "value": "Complies m² K/W",
         "standard": "AS/NZS 4859.1:2002"
       },
       {
         "property": "Moisture Absorption",
-        "value": "<0.2%",
-        "standard": ""
+        "value": "<0.2% % by volume",
+        "standard": "ASTM C871"
       },
       {
         "property": "pH",
@@ -172,19 +41,17 @@
         "standard": "ASTM C871"
       }
     ],
-    "fire": "Combustibility: Non combustible; Ignitability Index: 0; Spread of Flame Index: 0; Heat Evolved Index: 0; Smoke Developed Index: 0–1; BAL Compliance: Low – FZ",
-    "sustainability": "Zero ODP insulation; No harmful levels of Volatile Organic Compounds (VOCs) released",
+    "fire": "Non combustible",
+    "sustainability": "Avoids the use of Ozone Depleting Potential (ODP) substances",
     "install": [
-      "Friction fit standard joists",
+      "Fit to standard timber and steel joist spacings",
       "Easy to cut",
-      "Low itch",
-      "Fit standard timber and steel joist spacings"
+      "Friction fit standard joists",
+      "Provides energy savings all year round",
+      "Renowned for their firmness"
     ],
     "clearances": [],
-    "limitations": [
-      "No warranty is given or is to be implied with respect to either such information or the product itself",
-      "The purchaser should independently determine the suitability of the product for the intended application"
-    ],
+    "limitations": [],
     "range_headers": [
       "Material R-value",
       "Nominal thickness (mm)",
@@ -374,17 +241,7 @@
         "c8": "901705"
       }
     ],
-    "range_extraction_status": "regex_parsed",
-    "selection_checklist": [],
-    "compliance": "",
-    "warranty": "",
-    "accessories": [],
-    "accessories_upsell": []
+    "range_extraction_status": "regex_parsed"
   },
-  "source_excerpt": "For more information call 1300 654 444  \nemail info@insulation.com.au or web www.insulation.com.au\nTechnical Data Sheet\nPINK\n®\n BATTS: CEILING\nTHERMAL INSULATION FOR RESIDENTIAL CEILING APPLICATIONS\nDescription\nPink\n®\n Batts are made from lightweight, flexible and resilient glasswool for thermal and acoustic insulation of \nresidential ceilings. Pink\n®\n Batts are available in various sizes to fit standard timber and steel joist spacings.\nApplication\nPink\n®\n Batts are the trusted choice when it comes to constructing new homes or retrofitting existing buildings \nfor increased thermal efficiency. The Pink\n®\n Batts insulation range is available in various thermal R-values and \ndimensions ensuring there is an effective and efficient product solution for every application.\nPink\n®\n Batts, renowned for their firmness, are low itch, easy to cut and friction fit standard joists to make \nhomes feel cooler in summer, warmer in winter and provide energy savings all year round.\nPhysical Characteristics\nCeiling\nMaterial \nR-value \nm² K/W\nNominal  \nThickness \nmm\nWidth\nmm\nLength\nmm\nBatts  \nper \npack\nm\n2\n per \npack\nCoverage \nper pack \nm\n2\nPacks  \nper \nBale\nProduct\nCode\nR2.5 130 430 1160 16 8.0 9.0 6 901254\n580 1160 16 10.8 12.2 6 901255\nR3.0 155 430 1160 16 8.0 9.0 5 901304\n580 1160 16 10.8 12.2 5 901305\nR3.5 175 430 1160 16 8.0 9.0 4 901354\n580 1160 10 6.7 7.6 6 901355\nR4.0 195 430 1160 10 5.0 5.6 5 901404\n580 1160 10 6.7 7.6 6 901403\nR4.1 195 430 1160 10 5.0 5.6 5 901414\n580 1160 10 6.7 7.6 6 901415\nR5.0 215 430 1160 8 4.0 4.5 5 901504\n580 1160 8 5.4 6.1 5 901505\nR6.0 250 430 1160 6 3.0 3.4 5 901604\n580 1160 6 4.0 4.6 5 901605\nR7.0 285 430 1160 4 2.0 2.3 5 901704\n580 1160 4 2.7 3.0 5 901705\nPhysical Properties\nProperty Test Method/Standard Result Unit\nMaximum Service Temperature ASTM C411/C447 350 °C\nThermal Resistance AS/NZS 4859.1:2002 Complies m\n2\n.K/W\nMoisture Absorption\nWhen exposed to environmental \nconditions of 50°C and 95%  \nrelative humidity for four days\n<0.2% % by volume\n",
-  "schema_version": "1.0",
-  "sds_url": "",
-  "engine": "local",
-  "retrieval": {},
-  "range_source": ""
+  "source_excerpt": "For more information call 1300 654 444  \nemail info@insulation.com.au or web www.insulation.com.au\nTechnical Data Sheet\nPINK\n®\n BATTS: CEILING\nTHERMAL INSULATION FOR RESIDENTIAL CEILING APPLICATIONS\nDescription\nPink\n®\n Batts are made from lightweight, flexible and resilient glasswool for thermal and acoustic insulation of \nresidential ceilings. Pink\n®\n Batts are available in various sizes to fit standard timber and steel joist spacings.\nApplication\nPink\n®\n Batts are the trusted choice when it comes to constructing new homes or retrofitting existing buildings \nfor increased thermal efficiency. The Pink\n®\n Batts insulation range is available in various thermal R-values and \ndimensions ensuring there is an effective and efficient product solution for every application.\nPink\n®\n Batts, renowned for their firmness, are low itch, easy to cut and friction fit standard joists to make \nhomes feel cooler in summer, warmer in winter and provide energy savings all year round.\nPhysical Characteristics\nCeiling\nMaterial \nR-value \nm² K/W\nNominal  \nThickness \nmm\nWidth\nmm\nLength\nmm\nBatts  \nper \npack\nm\n2\n per \npack\nCoverage \nper pack \nm\n2\nPacks  \nper \nBale\nProduct\nCode\nR2.5 130 430 1160 16 8.0 9.0 6 901254\n580 1160 16 10.8 12.2 6 901255\nR3.0 155 430 1160 16 8.0 9.0 5 901304\n580 1160 16 10.8 12.2 5 901305\nR3.5 175 430 1160 16 8.0 9.0 4 901354\n580 1160 10 6.7 7.6 6 901355\nR4.0 195 430 1160 10 5.0 5.6 5 901404\n580 1160 10 6.7 7.6 6 901403\nR4.1 195 430 1160 10 5.0 5.6 5 901414\n580 1160 10 6.7 7.6 6 901415\nR5.0 215 430 1160 8 4.0 4.5 5 901504\n580 1160 8 5.4 6.1 5 901505\nR6.0 250 430 1160 6 3.0 3.4 5 901604\n580 1160 6 4.0 4.6 5 901605\nR7.0 285 430 1160 4 2.0 2.3 5 901704\n580 1160 4 2.7 3.0 5 901705\nPhysical Properties\nProperty Test Method/Standard Result Unit\nMaximum Service Temperature ASTM C411/C447 350 °C\nThermal Resistance AS/NZS 4859.1:2002 Complies m\n2\n.K/W\nMoisture Absorption\nWhen exposed to environmental \nconditions of 50°C and 95%  \nrelative humidity for four days\n<0.2% % by volume\n"
 }
