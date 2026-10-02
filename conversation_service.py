@@ -118,6 +118,7 @@ class ConversationService:
             retrieval_mode=retrieval_mode,
             human_review_required=bool(
                 conversation.done
+                or conversation.recommendation is not None
                 or classification.category in {"commercial", "escalate"}
             ),
         )

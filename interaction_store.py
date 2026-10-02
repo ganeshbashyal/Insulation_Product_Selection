@@ -31,7 +31,7 @@ def initialise(db_path: Path | None = None) -> None:
     db_path = db_path or DEFAULT_DB
     db_path.parent.mkdir(parents=True, exist_ok=True)
     with connect(db_path) as connection:
-        connection.execute("PRAGMA user_version = 1")
+        connection.execute("PRAGMA user_version = 2")
         connection.execute(
             """
             CREATE TABLE IF NOT EXISTS conversations (
@@ -73,6 +73,29 @@ def initialise(db_path: Path | None = None) -> None:
             )
             """
         )
+        # Leads hold customer-supplied personal data, so they live in their own
+        # table rather than inside conversations.answers_json. Keeping them
+        # separate means a deletion request can drop the personal record
+        # without destroying the interaction history the ranker learns from.
+        connection.execute(
+            """
+            CREATE TABLE IF NOT EXISTS leads (
+                conversation_id TEXT NOT NULL,
+                site_id TEXT NOT NULL,
+                created_at TEXT NOT NULL,
+                customer_name TEXT NOT NULL DEFAULT '',
+                phone TEXT NOT NULL DEFAULT '',
+                email TEXT NOT NULL DEFAULT '',
+                callback_time TEXT NOT NULL DEFAULT '',
+                problem_statement TEXT NOT NULL DEFAULT '',
+                recommended_families_json TEXT NOT NULL DEFAULT '[]',
+                consent_text TEXT NOT NULL DEFAULT '',
+                consent_at TEXT,
+                PRIMARY KEY (conversation_id, site_id),
+                FOREIGN KEY (site_id) REFERENCES sites(site_id)
+            )
+            """
+        )
         connection.commit()
 
 
@@ -89,6 +112,16 @@ def log_conversation(
 ) -> None:
     db_path = db_path or DEFAULT_DB
     initialise(db_path)
+    # A name is useful while speaking to the customer, but it is not needed
+    # for ranking or learning and must not be copied into the interaction log.
+    non_personal_answers = {
+        key: value
+        for key, value in answers.items()
+        if key.casefold() not in {
+            "name", "customer_name", "phone", "mobile", "email",
+            "contact_details", "callback_time",
+        }
+    }
     with connect(db_path) as connection:
         connection.execute(
             "INSERT OR REPLACE INTO conversations (conversation_id, site_id, occurred_at, answers_json, recommended_family_id, recommended_family_name, gate_status, gate_reason, climate_zone, candidates_json) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
@@ -96,7 +129,7 @@ def log_conversation(
                 conversation_id,
                 site_id,
                 _now(),
-                json.dumps(answers, ensure_ascii=False, sort_keys=True),
+                json.dumps(non_personal_answers, ensure_ascii=False, sort_keys=True),
                 (recommendation or {}).get("family_id"),
                 (recommendation or {}).get("name"),
                 gate_status,
@@ -106,6 +139,65 @@ def log_conversation(
             ),
         )
         connection.commit()
+
+
+def save_lead(
+    conversation_id: str,
+    site_id: str = "default",
+    customer_name: str = "",
+    phone: str = "",
+    email: str = "",
+    callback_time: str = "",
+    problem_statement: str = "",
+    recommended_families: list[dict] | None = None,
+    consent_text: str = "",
+    db_path: Path | None = None,
+) -> None:
+    """Persist the personal details and brief captured at the end of a chat."""
+    db_path = db_path or DEFAULT_DB
+    initialise(db_path)
+    now = _now()
+    with connect(db_path) as connection:
+        connection.execute(
+            "INSERT OR REPLACE INTO leads (conversation_id, site_id, created_at, customer_name, phone, email, callback_time, problem_statement, recommended_families_json, consent_text, consent_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+            (
+                conversation_id,
+                site_id,
+                now,
+                customer_name,
+                phone,
+                email,
+                callback_time,
+                problem_statement,
+                json.dumps(recommended_families or [], ensure_ascii=False),
+                consent_text,
+                # Consent is only meaningful once the customer actually handed
+                # over contact details having been shown the wording.
+                now if (phone or email) and consent_text else None,
+            ),
+        )
+        connection.commit()
+
+
+def leads(db_path: Path | None = None, site_id: str | None = None) -> list[dict]:
+    """Captured leads, newest first, optionally scoped to one site."""
+    db_path = db_path or DEFAULT_DB
+    initialise(db_path)
+    query = "SELECT * FROM leads"
+    params: tuple = ()
+    if site_id is not None:
+        query += " WHERE site_id = ?"
+        params = (site_id,)
+    query += " ORDER BY created_at DESC"
+    with connect(db_path) as connection:
+        connection.row_factory = sqlite3.Row
+        rows = connection.execute(query, params).fetchall()
+    out = []
+    for row in rows:
+        record = dict(row)
+        record["recommended_families"] = json.loads(record.pop("recommended_families_json") or "[]")
+        out.append(record)
+    return out
 
 
 def record_outcome(
@@ -190,4 +282,3 @@ def pending_review(db_path: Path | None = None) -> list[dict]:
             """
         ).fetchall()
     return [dict(row) for row in rows]
-

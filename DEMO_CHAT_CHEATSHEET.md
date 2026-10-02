@@ -148,9 +148,34 @@ Everything lives under `data/local/`:
 Deleting a file resets that concern. Do not delete them while the server is
 running — the limiter self-heals, but you will see errors first.
 
+## Lead capture
+
+The chat asks for a name after the customer's opening problem, gives the
+recommendation before requesting contact details, then asks for a phone number
+or email and a preferred callback time. The contact request states how the
+details will be used; a consent timestamp is stored only when a valid phone or
+email is supplied. If the customer declines, the anonymous problem brief and
+recommendation are retained without their name or contact details.
+
+Leads are stored locally in `data/local/interactions.sqlite3`. Contact details
+are not part of the conversation-learning answers or family-ranking inputs.
+Read them through the separate admin endpoint, not the public conversation API:
+
+```powershell
+$env:AURORA_LEAD_ADMIN_KEY = "<set a private local admin key>"
+$h = @{ "X-Aurora-Lead-Admin-Key" = $env:AURORA_LEAD_ADMIN_KEY }
+Invoke-RestMethod -Uri "http://127.0.0.1:8001/api/admin/leads?site_id=local" -Headers $h
+```
+
+Without `AURORA_LEAD_ADMIN_KEY`, lead access is disabled. Keep the key out of
+site configuration and browser code. Omit `site_id` to read leads for all
+configured sites.
+
 ## Known limits of the harness
 
 - Ships a site API key to the browser. Development only, by design.
-- No consent capture, no retries, no streaming.
+- One retry is allowed if the phone number or email cannot be parsed; declining
+  or failing to provide a valid contact ends the lead-capture step.
+- No streaming.
 - `conversation_id` is held in a JavaScript variable, so a page reload starts a
   new conversation and a server restart orphans the old one.

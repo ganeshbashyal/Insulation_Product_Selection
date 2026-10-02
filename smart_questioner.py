@@ -75,6 +75,12 @@ class SmartQuestioner:
             active_step = len(answers)
 
         if active_step >= len(agent_core.QUESTIONS):
+            if (
+                active_step == len(agent_core.QUESTIONS)
+                and getattr(conversation, "lead_step", 0) < len(agent_core.LEAD_QUESTIONS)
+            ):
+                lead_step = getattr(conversation, "lead_step", 0)
+                return agent_core.LEAD_QUESTIONS[lead_step][1]
             return ""
 
         # Get the standard key and default question for the active step

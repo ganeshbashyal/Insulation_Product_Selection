@@ -137,7 +137,8 @@ def initialise_state() -> None:
         "messages": [{"role": "assistant", "content": "Hi—" + QUESTIONS[0][1]}],
         "answers": {}, "step": 0, "demo_complete": False, "human_approved": False,
         "myob_quote": None, "review_id": None, "conversation_id": None,
-        "recommendation": None, "gate": None,
+        "recommendation": None, "gate": None, "lead_step": 0, "lead": {},
+        "candidates": [],
     }
     for key, value in defaults.items():
         if key not in st.session_state:
@@ -148,6 +149,7 @@ def reset_demo() -> None:
     for key in [
         "messages", "answers", "step", "demo_complete", "human_approved",
         "myob_quote", "review_id", "conversation_id", "recommendation", "gate",
+        "lead_step", "lead", "candidates",
     ]:
         st.session_state.pop(key, None)
     initialise_state()
@@ -214,6 +216,9 @@ def process_customer_message(prompt: str) -> None:
             "done": st.session_state.demo_complete,
             "recommendation": st.session_state.recommendation,
             "gate": st.session_state.gate,
+            "lead_step": st.session_state.lead_step,
+            "lead": st.session_state.lead,
+            "candidates": st.session_state.candidates,
         }
     )
     reply = agent_core.reply(
@@ -229,6 +234,9 @@ def process_customer_message(prompt: str) -> None:
     st.session_state.demo_complete = conversation.done
     st.session_state.recommendation = conversation.recommendation
     st.session_state.gate = conversation.gate
+    st.session_state.lead_step = conversation.lead_step
+    st.session_state.lead = conversation.lead
+    st.session_state.candidates = conversation.candidates
     st.session_state.messages.append({"role": "assistant", "content": reply})
     if conversation.done:
         if st.session_state.review_id is None:
@@ -241,8 +249,26 @@ def process_customer_message(prompt: str) -> None:
 
 def load_example(name: str) -> None:
     reset_demo()
-    for answer in EXAMPLES[name]:
-        process_customer_message(answer)
+    legacy_keys = (
+        "problem", "application", "priority", "conditions",
+        "project", "locality", "requirements",
+    )
+    answers = dict(zip(legacy_keys, EXAMPLES[name][:len(legacy_keys)]))
+    answers.update(
+        name="Taylor Example",
+        contact_details="taylor@example.invalid",
+        callback_time="Weekday mornings.",
+    )
+    for _ in range(len(QUESTIONS) + len(agent_core.LEAD_QUESTIONS)):
+        if st.session_state.demo_complete:
+            break
+        if st.session_state.step < len(QUESTIONS):
+            key = QUESTIONS[st.session_state.step][0]
+        else:
+            key = agent_core.LEAD_QUESTIONS[st.session_state.lead_step][0]
+        if key not in answers:
+            break
+        process_customer_message(answers[key])
 
 
 def score_frame(families: list[dict]) -> pd.DataFrame:

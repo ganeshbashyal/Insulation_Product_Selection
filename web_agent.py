@@ -52,10 +52,12 @@ Endpoints:
     GET  /api/learning/pending             pending review (X-API-Key header)
     POST /api/learning/outcomes            record outcome (X-API-Key header)
     GET  /api/learning/rejections          rejection report (X-API-Key header)
+    GET  /api/admin/leads                  captured leads (AURORA_LEAD_ADMIN_KEY header)
 """
 from __future__ import annotations
 
 import json
+import hmac
 import os
 import threading
 import uuid
@@ -449,6 +451,21 @@ async def learning_pending(request: Request, site_id: str = "local") -> JSONResp
     cors_headers = _auth_and_cors(request, site_id)
     pending = interaction_store.pending_review()
     return JSONResponse(pending, headers=cors_headers)
+
+
+@app.get("/api/admin/leads")
+async def admin_leads(request: Request, site_id: str | None = None) -> JSONResponse:
+    """Read captured leads using a separate, server-side admin key."""
+    expected_key = os.getenv("AURORA_LEAD_ADMIN_KEY", "")
+    if not expected_key:
+        raise HTTPException(
+            status_code=503,
+            detail="Lead access is disabled until AURORA_LEAD_ADMIN_KEY is configured",
+        )
+    supplied_key = request.headers.get("X-Aurora-Lead-Admin-Key", "")
+    if not hmac.compare_digest(supplied_key, expected_key):
+        raise HTTPException(status_code=401, detail="Invalid lead admin key")
+    return JSONResponse(interaction_store.leads(site_id=site_id))
 
 
 @app.post("/api/learning/outcomes")

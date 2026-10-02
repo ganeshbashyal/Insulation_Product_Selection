@@ -86,11 +86,12 @@ def test_rephrase_naturally_swallows_llm_client_exceptions():
 def test_next_question_never_leaks_prompt_text_to_a_short_customer_answer():
     """End-to-end: a short customer answer ("on the ceiling") must still
     produce a clean single-line question, never raw prompt scaffolding.
-    Under the new correct-key model, len(answers) == 2 means we ask the
-    step 2 (priority) question: "What matters most: comfort..."
+    Under the new correct-key model, the step is inferred from how many
+    answers are held, so name/problem/application answered means we ask the
+    priority question: "What matters most: comfort..."
     """
     sq = SmartQuestioner(use_llm=True)
-    conv = LiteConversation({"problem": "ceiling is cold in winter", "application": "on the ceiling"})
+    conv = LiteConversation({"problem": "ceiling is cold in winter", "name": "Jo", "application": "on the ceiling"})
     leaked_response = (
         "Rephrase this question to sound natural and conversational, as if asked by an "
         "experienced insulation adviser who understands: \"on the ceiling\"\n\n"
