@@ -11,7 +11,7 @@ or a running language model.
 | Area | State | Boundary |
 |---|---|---|
 | Family discovery | Operational | Deterministic ranking; family-level suggestions only |
-| Qualification flow | Operational | Shared `agent_core.Conversation` state across Streamlit and FastAPI |
+| Qualification flow | Operational | `agent_core.Conversation` state served by the local FastAPI service |
 | Informational retrieval | Operational | Dense retrieval when local Ollama is available; immediate lexical fallback otherwise |
 | SKU lookup | Limited | Published eligible rows may be shown as possible matches; no automatic quoting or ordering |
 | Human review | Operational | Local encrypted-capable SQLite queue |

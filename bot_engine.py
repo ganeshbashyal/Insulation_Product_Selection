@@ -1,4 +1,4 @@
-"""Pure recommendation and gating logic used by the Streamlit UI and tests."""
+"""Pure recommendation and gating logic used by the FastAPI agent and tests."""
 from __future__ import annotations
 
 import re

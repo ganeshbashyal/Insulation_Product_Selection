@@ -1,8 +1,7 @@
-"""Headless conversation engine for the deployable website agent.
+"""Headless conversation engine for the deployable local FastAPI agent.
 
-This module extracts the demo's conversation flow from the Streamlit UI into a
-plain-Python class so the same logic can run anywhere (web server, background
-job, future channels) without Streamlit. It owns nothing except the flow:
+This module owns the shared plain-Python conversation flow used by the local
+service and offline tests:
   - product ranking and gating come from bot_engine (unchanged, deterministic)
   - optional natural phrasing comes from llm_client (unchanged, safe fallback)
   - conversation logging + reviewer feedback come from interaction_store

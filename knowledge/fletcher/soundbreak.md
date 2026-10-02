@@ -38,7 +38,7 @@ official_epd_url: https://insulation.com.au/wp-content/uploads/2025/07/EPD-IES-0
 
 ## Purpose of this file
 
-This is the canonical internal description for Fletcher Soundbreak. It aligns the language used by the Streamlit demonstration, future Aircall content, sales staff and the product-master dataset.
+This is the canonical internal description for Fletcher Soundbreak. It aligns the language used by the local FastAPI agent, future Aircall content, sales staff and the product-master dataset.
 
 The demo may recommend the **Soundbreak family** when the customer describes airborne sound transfer through a suitable residential wall, ceiling or midfloor and cavity insulation is an appropriate product role. It must not automatically choose an R-value, thickness, width, quantity or complete construction.
 
