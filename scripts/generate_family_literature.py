@@ -2,7 +2,7 @@
 
 Runs entirely locally, no LLM calls. Mines the existing deep-dive markdown docs,
 families.json, and the SKU catalogue, then produces for each family:
-  - output/literature/<manufacturer>/<slug>.md    (customer-facing page)
+  - output/literature/<manufacturer>/<slug>.md    (unreviewed authoring draft)
 
 The copy follows the structure of the Thermotec 4-Zero literature draft
 (product description, key features, applications/selection checklist, range
@@ -37,7 +37,7 @@ sys.path.insert(0, str(ROOT))
 OUT_DIR = ROOT / "output" / "literature"
 SKU_CSV = ROOT / "data" / "processed" / "product_catalogue_skus.csv"
 STATE_FILE = OUT_DIR / ".literature_state.json"
-GENERATOR_VERSION = "4"  # bump when the template changes so all outputs regenerate
+GENERATOR_VERSION = "5"
 
 CATEGORY_TAGLINES = {
     "Batt": "bulk insulation batts for thermal and acoustic performance",
@@ -380,9 +380,16 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--only", help="limit to one manufacturer directory name")
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--confirm-draft-write", action="store_true",
+                        help="explicitly regenerate unreviewed draft literature after authoring backup")
     args = parser.parse_args()
 
-    skus = pd.read_csv(SKU_CSV).fillna("")
+    from family_knowledge import load_research
+    from knowledge_service import KnowledgeService
+    reader = KnowledgeService(ROOT)
+    skus = pd.DataFrame(reader.index().skus).fillna("")
+    records = load_research(ROOT)
+    preview_only = args.dry_run or not args.confirm_draft_write
     state = json.loads(STATE_FILE.read_text(encoding="utf-8")) if STATE_FILE.exists() else {}
 
     written = skipped = 0
@@ -398,10 +405,14 @@ def main() -> None:
             md_path = path.parent / family.get("knowledge_file", "")
             if not md_path.exists():
                 continue
-            text = md_path.read_text(encoding="utf-8")
+            text = reader.family(family["family_id"])["dossier"]["retained"]["guide_text"]
+            if text is None:
+                continue
             family_skus = skus[skus["family_id"] == family["family_id"]]
-            research = load_research(manufacturer_dir, family["name"])
-            fingerprint = hashlib.sha256((GENERATOR_VERSION + text + json.dumps(family, sort_keys=True) + str(len(family_skus)) + json.dumps(research or {}, sort_keys=True)).encode()).hexdigest()
+            research = records.get(family["family_id"])
+            fingerprint = hashlib.sha256((GENERATOR_VERSION + text + json.dumps(family, sort_keys=True)
+                                          + family_skus.to_json(orient="records")
+                                          + json.dumps(research or {}, sort_keys=True)).encode()).hexdigest()
             slug = slugify(family["name"])
             base_slug = slug
             suffix = 2
@@ -413,7 +424,7 @@ def main() -> None:
             if state.get(state_key) == fingerprint and (out_dir / f"{slug}.md").exists():
                 skipped += 1
                 continue
-            if args.dry_run:
+            if preview_only:
                 print(f"would generate {state_key}")
                 written += 1
                 continue
@@ -425,7 +436,7 @@ def main() -> None:
             written += 1
 
     print(f"\ngenerated: {written}, unchanged: {skipped}")
-    if not args.dry_run:
+    if not preview_only:
         OUT_DIR.mkdir(parents=True, exist_ok=True)
         STATE_FILE.write_text(json.dumps(state, indent=2), encoding="utf-8")
 

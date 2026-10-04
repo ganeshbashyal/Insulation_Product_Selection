@@ -150,12 +150,13 @@ running — the limiter self-heals, but you will see errors first.
 
 ## Lead capture
 
-The chat asks for a name after the customer's opening problem, gives the
-recommendation before requesting contact details, then asks for a phone number
-or email and a preferred callback time. The contact request states how the
-details will be used; a consent timestamp is stored only when a valid phone or
-email is supplied. If the customer declines, the anonymous problem brief and
-recommendation are retained without their name or contact details.
+The chat gathers missing application-specific installation and project details
+before voluntary contact. It reuses supplied facts, accepts unknown/skip and
+allows "finish now" for an early handoff with visible gaps. Name is optional.
+No customer-facing recommendation is made; provisional alternatives live only
+in a protected sales brief. Consent is recorded when contact is supplied after
+the consent question. Declining saves the anonymous brief without contact.
+Callback timing is a preference, not a booking.
 
 Leads are stored locally in `data/local/interactions.sqlite3`. Contact details
 are not part of the conversation-learning answers or family-ranking inputs.
@@ -170,6 +171,14 @@ Invoke-RestMethod -Uri "http://127.0.0.1:8001/api/admin/leads?site_id=local" -He
 Without `AURORA_LEAD_ADMIN_KEY`, lead access is disabled. Keep the key out of
 site configuration and browser code. Omit `site_id` to read leads for all
 configured sites.
+
+Open `/admin/briefs` for the read-only operator preview. Enter the separate key
+there; it is sent in a header and not saved to browser storage. Use
+`/api/admin/briefs?site_id=local` for structured briefs and
+`/api/admin/briefs/{conversation_id}?site_id=local` for an individual JSON read.
+The preview supports per-record JSON export; exports contain private data.
+Pending/rejection learning reads and outcome writes require the operator key,
+not the site API key. No endpoint automatically approves a candidate.
 
 ## Known limits of the harness
 

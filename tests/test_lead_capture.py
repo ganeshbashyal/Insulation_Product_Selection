@@ -1,4 +1,4 @@
-"""Post-recommendation lead capture: name, contact, callback, brief, families."""
+"""Short consented capture and internal-only sales briefs."""
 from __future__ import annotations
 
 import pytest
@@ -21,7 +21,9 @@ def _drive(conversation, scripted, site_id="local", limit=16):
     for _ in range(limit):
         if conversation.done:
             break
-        if conversation.step < len(agent_core.QUESTIONS):
+        if conversation.pending_field:
+            key = conversation.pending_field
+        elif conversation.step < len(agent_core.QUESTIONS):
             key = agent_core.QUESTIONS[conversation.step][0]
         else:
             key = agent_core.LEAD_QUESTIONS[conversation.lead_step][0]
@@ -38,19 +40,31 @@ SCRIPT = {
     "project": "residential retrofit",
     "locality": "Parramatta 2150",
     "requirements": "no NCC requirement",
-    "contact_details": "0412 345 678 or john.smith@example.com",
+    "contact_details": "my name is John Smith, 0412 345 678 or john.smith@example.com",
     "callback_time": "Tuesday afternoon",
+    "placement": "external wall",
+    "project_stage": "residential retrofit",
+    "building_use": "residential",
+    "construction": "timber frame",
+    "wall_assembly": "timber frame",
+    "access": "lining will be removed",
+    "cavity_depth": "90mm",
+    "area": "20 square metres",
+    "existing_insulation": "none",
+    "moisture": "no",
+    "airspace": "unknown",
+    "timeframe": "next month",
 }
 
 
-def test_lead_is_captured_after_the_recommendation(db):
+def test_lead_is_captured_without_a_customer_recommendation(db):
     conversation = agent_core.Conversation()
     replies = _drive(conversation, SCRIPT)
 
     assert conversation.done is True
-    # the recommendation must reach the customer before contact details are asked
-    recommendation_turn = next(r for r in replies if "best fit" in r or "closest match" in r)
-    assert "best number or email" in recommendation_turn
+    assert len(replies) > 3
+    assert any("best number or email" in reply for reply in replies)
+    assert not any("best fit" in reply for reply in replies)
 
     lead = interaction_store.leads(db)[0]
     assert lead["customer_name"] == "John Smith"
@@ -58,7 +72,9 @@ def test_lead_is_captured_after_the_recommendation(db):
     assert lead["email"] == "john.smith@example.com"
     assert lead["callback_time"] == "Tuesday afternoon"
     assert lead["problem_statement"].startswith("traffic noise through the front wall")
-    assert lead["recommended_families"]
+    assert lead["recommended_families"] == []
+    assert lead["sales_brief"]["approval"] is None
+    assert lead["sales_brief"]["candidates"]
     assert lead["consent_at"]
     assert lead["consent_text"] == agent_core.LEAD_CONSENT_TEXT
     with interaction_store.connect(db) as connection:
@@ -90,7 +106,8 @@ def test_customer_can_decline_to_leave_details(db):
     assert lead["customer_name"] == ""
     # declining must not lose the qualifying work already done
     assert lead["problem_statement"]
-    assert lead["recommended_families"]
+    assert lead["recommended_families"] == []
+    assert lead["sales_brief"]["candidates"]
     # consent is only recorded when details were actually handed over
     assert lead["consent_at"] is None
 
@@ -109,10 +126,8 @@ def test_customer_can_decline_callback_time_without_losing_contact_details(db):
 
 def test_unparseable_contact_is_asked_once_more_then_accepted(db):
     conversation = agent_core.Conversation()
-    for key in ("problem", "name", "conditions", "requirements", "application", "priority", "project", "locality"):
-        if conversation.capturing_lead or conversation.done:
-            break
-        _drive(conversation, SCRIPT, limit=1)
+    agent_core.reply(conversation, SCRIPT["problem"])
+    agent_core.reply(conversation, "finish now")
 
     assert conversation.capturing_lead
     first = agent_core.reply(conversation, "just email me", site_id="local")

@@ -13,12 +13,13 @@ from __future__ import annotations
 
 import json
 import sqlite3
+from contextlib import closing
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-from local_db import connect
+from local_db import connect, state_path
 
-DEFAULT_DB = Path(__file__).resolve().parent / "data" / "local" / "interactions.sqlite3"
+DEFAULT_DB = state_path("interactions.sqlite3")
 
 OUTCOMES = ("approved", "edited", "rejected")
 
@@ -30,8 +31,8 @@ def _now() -> str:
 def initialise(db_path: Path | None = None) -> None:
     db_path = db_path or DEFAULT_DB
     db_path.parent.mkdir(parents=True, exist_ok=True)
-    with connect(db_path) as connection:
-        connection.execute("PRAGMA user_version = 2")
+    with closing(connect(db_path)) as connection, connection:
+        connection.execute("PRAGMA user_version = 3")
         connection.execute(
             """
             CREATE TABLE IF NOT EXISTS conversations (
@@ -91,11 +92,14 @@ def initialise(db_path: Path | None = None) -> None:
                 recommended_families_json TEXT NOT NULL DEFAULT '[]',
                 consent_text TEXT NOT NULL DEFAULT '',
                 consent_at TEXT,
+                sales_brief_json TEXT NOT NULL DEFAULT '{}',
                 PRIMARY KEY (conversation_id, site_id),
                 FOREIGN KEY (site_id) REFERENCES sites(site_id)
             )
             """
         )
+        if "sales_brief_json" not in {row[1] for row in connection.execute("PRAGMA table_info(leads)")}:
+            connection.execute("ALTER TABLE leads ADD COLUMN sales_brief_json TEXT NOT NULL DEFAULT '{}'")
         connection.commit()
 
 
@@ -122,7 +126,7 @@ def log_conversation(
             "contact_details", "callback_time",
         }
     }
-    with connect(db_path) as connection:
+    with closing(connect(db_path)) as connection, connection:
         connection.execute(
             "INSERT OR REPLACE INTO conversations (conversation_id, site_id, occurred_at, answers_json, recommended_family_id, recommended_family_name, gate_status, gate_reason, climate_zone, candidates_json) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
             (
@@ -152,14 +156,15 @@ def save_lead(
     recommended_families: list[dict] | None = None,
     consent_text: str = "",
     db_path: Path | None = None,
+    sales_brief: dict | None = None,
 ) -> None:
     """Persist the personal details and brief captured at the end of a chat."""
     db_path = db_path or DEFAULT_DB
     initialise(db_path)
     now = _now()
-    with connect(db_path) as connection:
+    with closing(connect(db_path)) as connection, connection:
         connection.execute(
-            "INSERT OR REPLACE INTO leads (conversation_id, site_id, created_at, customer_name, phone, email, callback_time, problem_statement, recommended_families_json, consent_text, consent_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+            "INSERT OR REPLACE INTO leads (conversation_id, site_id, created_at, customer_name, phone, email, callback_time, problem_statement, recommended_families_json, consent_text, consent_at, sales_brief_json) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
             (
                 conversation_id,
                 site_id,
@@ -174,6 +179,7 @@ def save_lead(
                 # Consent is only meaningful once the customer actually handed
                 # over contact details having been shown the wording.
                 now if (phone or email) and consent_text else None,
+                json.dumps(sales_brief or {}, ensure_ascii=False),
             ),
         )
         connection.commit()
@@ -189,15 +195,31 @@ def leads(db_path: Path | None = None, site_id: str | None = None) -> list[dict]
         query += " WHERE site_id = ?"
         params = (site_id,)
     query += " ORDER BY created_at DESC"
-    with connect(db_path) as connection:
+    with closing(connect(db_path)) as connection, connection:
         connection.row_factory = sqlite3.Row
         rows = connection.execute(query, params).fetchall()
     out = []
     for row in rows:
         record = dict(row)
         record["recommended_families"] = json.loads(record.pop("recommended_families_json") or "[]")
+        record["sales_brief"] = json.loads(record.pop("sales_brief_json") or "{}")
         out.append(record)
     return out
+
+
+def sales_briefs(site_id: str, db_path: Path | None = None) -> list[dict]:
+    """Operator-only view; older leads remain explicitly unreviewed."""
+    results = []
+    for lead in leads(db_path=db_path, site_id=site_id):
+        brief = lead.pop("sales_brief")
+        if not brief:
+            brief = {
+                "decision_status": "LEGACY_REQUIRES_REVIEW", "approval": None,
+                "candidates": [{**family, "disposition": "HOLD", "reasons": ["Legacy recommendation; installation/source review was not captured."]} for family in lead["recommended_families"]],
+                "delivery_status": "saved_locally_not_sent",
+            }
+        results.append({**lead, "sales_brief": brief})
+    return results
 
 
 def record_outcome(
@@ -213,7 +235,9 @@ def record_outcome(
         raise ValueError(f"outcome must be one of {OUTCOMES}")
     db_path = db_path or DEFAULT_DB
     initialise(db_path)
-    with connect(db_path) as connection:
+    with closing(connect(db_path)) as connection, connection:
+        if connection.execute("SELECT 1 FROM conversations WHERE conversation_id = ? AND site_id = ?", (conversation_id, site_id)).fetchone() is None:
+            raise ValueError("Conversation not found for this site")
         connection.execute(
             "INSERT OR REPLACE INTO outcomes (conversation_id, site_id, decided_at, reviewer, outcome, corrected_family_id, note) VALUES (?, ?, ?, ?, ?, ?, ?)",
             (conversation_id, site_id, _now(), reviewer, outcome, corrected_family_id, note),
@@ -225,7 +249,7 @@ def family_stats(db_path: Path | None = None) -> list[dict]:
     """Recommendation counts and reviewer outcomes per family."""
     db_path = db_path or DEFAULT_DB
     initialise(db_path)
-    with connect(db_path) as connection:
+    with closing(connect(db_path)) as connection, connection:
         connection.row_factory = sqlite3.Row
         rows = connection.execute(
             """
@@ -250,7 +274,7 @@ def rejection_report(db_path: Path | None = None, days: int = 90) -> list[dict]:
     db_path = db_path or DEFAULT_DB
     initialise(db_path)
     cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).isoformat(timespec="seconds")
-    with connect(db_path) as connection:
+    with closing(connect(db_path)) as connection, connection:
         connection.row_factory = sqlite3.Row
         rows = connection.execute(
             """
@@ -270,14 +294,14 @@ def pending_review(db_path: Path | None = None) -> list[dict]:
     """Logged conversations that have not yet received a reviewer outcome."""
     db_path = db_path or DEFAULT_DB
     initialise(db_path)
-    with connect(db_path) as connection:
+    with closing(connect(db_path)) as connection, connection:
         connection.row_factory = sqlite3.Row
         rows = connection.execute(
             """
             SELECT c.conversation_id, c.site_id, c.occurred_at, c.recommended_family_name, c.gate_status
             FROM conversations c
             LEFT JOIN outcomes o ON o.conversation_id = c.conversation_id AND o.site_id = c.site_id
-            WHERE o.conversation_id IS NULL AND c.recommended_family_id IS NOT NULL
+            WHERE o.conversation_id IS NULL AND (c.recommended_family_id IS NOT NULL OR c.candidates_json != '[]')
             ORDER BY c.occurred_at DESC
             """
         ).fetchall()

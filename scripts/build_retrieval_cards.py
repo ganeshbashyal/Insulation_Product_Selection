@@ -120,7 +120,15 @@ def build_card(mdir: str, family: dict, research: dict | None) -> dict:
     return card
 
 
-def build_all() -> list[dict]:
+def build_all(profile: str = "legacy") -> list[dict]:
+    if profile == "authoring":
+        from family_knowledge import load_families, load_research
+        research = load_research(ROOT)
+        return [{**build_card(row["record_path"].split("/")[1], row, research.get(key)),
+                 "purpose": "unreviewed_authoring_retrieval_not_primary_evidence"}
+                for key, row in load_families(ROOT).items()]
+    if profile != "legacy":
+        raise ValueError("Retrieval profile must be authoring or legacy")
     cards = []
     for path in sorted(ROOT.glob("knowledge/*/families.json")):
         mdir = path.parent.name
@@ -140,14 +148,19 @@ def build_all() -> list[dict]:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--stats", action="store_true")
+    parser.add_argument("--profile", choices=["authoring", "legacy"], default="authoring")
+    parser.add_argument("--confirm-draft-write", action="store_true")
     args = parser.parse_args()
 
-    cards = build_all()
-    OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    with OUT_PATH.open("w", encoding="utf-8") as handle:
-        for card in cards:
-            handle.write(json.dumps(card, ensure_ascii=False) + "\n")
-    print(f"wrote {len(cards)} cards -> {OUT_PATH.relative_to(ROOT)}")
+    cards = build_all(args.profile)
+    if args.confirm_draft_write:
+        OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+        with OUT_PATH.open("w", encoding="utf-8") as handle:
+            for card in cards:
+                handle.write(json.dumps(card, ensure_ascii=False) + "\n")
+        print(f"wrote {len(cards)} draft cards -> {OUT_PATH.relative_to(ROOT)}")
+    else:
+        print(f"preview {len(cards)} {args.profile} draft cards; no files written")
 
     if args.stats:
         def coverage(key):

@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>Aurora | Knowledge Validation</title>
+<style>
+:root{font:15px system-ui;color:#e6edf8;background:#101a2b;color-scheme:dark}
+body{margin:0}header,main{padding:20px;max-width:1500px;margin:auto}a{color:#93c9ff}
+.panel{background:#1b2a42;border:1px solid #3d4e69;border-radius:10px;padding:18px;margin-bottom:15px}
+button,input,select{font:inherit;padding:8px;border-radius:6px;background:#132138;color:inherit;border:1px solid #536480}
+button{cursor:pointer}label{display:block;margin:10px 0}.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.warning{color:#ffda8b}.muted{color:#b0bdd1}.scroll{overflow:auto}table{width:100%;border-collapse:collapse;text-align:left}
+td,th{padding:10px;border-bottom:1px solid #43526b;vertical-align:top}td{min-width:130px}
+pre{white-space:pre-wrap;overflow-wrap:anywhere}#message{min-height:24px}[hidden]{display:none!important}
+</style>
+</head>
+<body>
+<header><h1>Knowledge Validation</h1><nav><a href="/admin/products">Product Research</a> &middot; <a href="/admin/briefs">Sales briefs</a></nav>
+<p class="muted">All families, independent source and review statuses. No single completeness or approval badge.</p></header>
+<main>
+<p id="message" role="status" aria-live="polite"></p>
+<section id="loginPanel" class="panel"><h2>Named research sign-in</h2>
+<form id="loginForm"><label>Username <input id="username" autocomplete="username" required maxlength="64"></label>
+<label>Password <input id="password" type="password" autocomplete="current-password" required maxlength="256"></label><button>Sign in</button></form>
+<p>Uses the existing Product Research account. No default passwords; the sales key cannot grant access.</p></section>
+<section id="workspace" hidden>
+<div class="panel"><div class="toolbar"><strong id="identity"></strong><button id="refresh">Refresh existing files</button><button id="logout">Sign out and clear</button></div>
+<p class="warning">A guide, PDF, research result or model audit is not human approval. Missing technical facts remain unknown; this page starts no extraction, download or model.</p>
+<p id="summary"></p><p id="errors" class="warning"></p>
+<form id="filters" class="toolbar"><input id="search" placeholder="Family name or ID" aria-label="Family search" maxlength="200">
+<select id="manufacturer" aria-label="Manufacturer"><option value="">All manufacturers</option></select>
+<select id="gap" aria-label="Knowledge gap"><option value="">All gaps</option><option value="No family-linked">Missing linked source</option><option value="extraction">Needs extraction or page review</option><option value="hash">Source integrity review</option><option value="No current verified">No verified claims</option><option value="No current commercial">No commercial SKUs</option><option value="held">Publication held</option><option value="safety data">Safety document gap</option></select><button>Search</button></form>
+</div>
+<p id="count"></p>
+<div class="panel scroll"><table><thead><tr><th>Family / identity</th><th>Guide / research</th><th>Sources / extraction</th><th>Human review / publication</th><th>Commercial records</th><th>Gaps / next action</th></tr></thead><tbody id="families"></tbody></table></div>
+<div class="toolbar"><button id="prev">Previous</button><button id="next">Next</button></div>
+</section>
+</main>
+<script>
+"use strict";
+const $=id=>document.getElementById(id);
+let account=null,offset=0,total=0,epoch=0,sequence=0;
+const controllers=new Set();
+function node(tag,text){const e=document.createElement(tag);if(text!==undefined)e.textContent=text;return e;}
+function message(text,error=false){$("message").textContent=text;$("message").className=error?"warning":"";}
+function clear(){
+  epoch++;sequence++;controllers.forEach(c=>c.abort());controllers.clear();account=null;offset=0;total=0;
+  $("password").value="";$("workspace").hidden=true;$("loginPanel").hidden=false;
+  for(const id of ["identity","summary","errors","count","families"])$(id).replaceChildren();
+}
+async function api(path,method="GET",data){
+  const token=epoch,c=new AbortController();controllers.add(c);
+  try{
+    const headers={};if(method!=="GET"){headers["Content-Type"]="application/json";if(account)headers["X-Research-CSRF"]=account.csrf;}
+    const result=await fetch("/api/research"+path,{method,headers,credentials:"same-origin",cache:"no-store",signal:c.signal,body:data===undefined?undefined:JSON.stringify(data)});
+    const body=await result.json();if(token!==epoch)throw new DOMException("Page locked","AbortError");
+    if(!result.ok){if(result.status===401&&account)clear();throw new Error(typeof body.detail==="string"?body.detail:JSON.stringify(body.detail));}
+    return body;
+  }finally{controllers.delete(c);}
+}
+function action(fn){return async event=>{if(event)event.preventDefault();try{await fn();}catch(e){if(e.name!=="AbortError")message(e.message,true);}};}
+function dump(parent,title,value){const d=node("details");d.append(node("summary",title),node("pre",JSON.stringify(value,null,2)));parent.append(d);}
+async function browse(){
+  const request=++sequence;
+  const params=new URLSearchParams({q:$("search").value,manufacturer:$("manufacturer").value,gap:$("gap").value,offset,limit:30});
+  const data=await api("/knowledge?"+params);if(request!==sequence)return;
+  total=data.total;
+  $("summary").textContent=`${data.family_count} families | ${data.families_with_linked_sources} with linked sources | ${data.document_count} library PDFs | ${data.families_with_verified_claims} with verified claims | ${data.families_without_skus} without SKUs | publication: ${data.publication_state}`;
+  $("errors").textContent=data.errors.join("; ");
+  const selected=$("manufacturer").value;$("manufacturer").replaceChildren();
+  for(const value of ["",...data.manufacturers]){const e=node("option",value||"All manufacturers");e.value=value;$("manufacturer").append(e);}
+  $("manufacturer").value=selected;
+  $("count").textContent=`${total} matching families; showing ${Math.min(offset+1,total)}-${Math.min(offset+30,total)}.`;
+  $("families").replaceChildren();
+  for(const f of data.families){
+    const tr=node("tr"),identity=node("td"),link=node("a",f.name);link.href="/admin/products#"+encodeURIComponent(f.family_id);
+    identity.append(link,node("p",f.manufacturer+" / "+f.family_id),node("p","Identity: "+f.identity_state));
+    const guide=node("td");guide.append(node("p",f.guide.state),node("p","Research: "+f.research_status),node("p","Model audit: "+f.audit_status));
+    const source=node("td");source.append(node("p",`${f.source.held_count}/${f.source.linked_count} linked files present; ${f.source.integrity}`),node("p",f.extraction.status));dump(source,"Source hashes / extraction states",{source:f.source,extraction:f.extraction});
+    const review=node("td");review.append(node("p",f.review.status),node("p",f.publication.state),node("p",`${f.publication.verified_claims} verified claims; ${f.publication.eligible_skus} eligible exact rows`));dump(review,"Review decisions (draft, not activation)",f.review.decisions);
+    const commercial=node("td",`${f.sku_count} child records. No live stock feed.`);
+    const gaps=node("td");gaps.append(node("p",f.next_action));dump(gaps,"All known gaps",f.gaps);
+    tr.append(identity,guide,source,review,commercial,gaps);$("families").append(tr);
+  }
+  $("prev").disabled=offset===0;$("next").disabled=offset+30>=total;
+}
+async function enter(){
+  $("loginPanel").hidden=true;$("workspace").hidden=false;$("identity").textContent=account.username+" / "+account.roles.join(", ");
+  await browse();message("Existing local knowledge loaded; no ingestion or model started.");
+}
+$("loginForm").onsubmit=action(async()=>{try{account=await api("/login","POST",{username:$("username").value,password:$("password").value});}finally{$("password").value="";}await enter();});
+$("logout").onclick=action(async()=>{try{await api("/logout","POST");}finally{clear();message("Signed out; displayed data cleared.");}});
+$("refresh").onclick=action(async()=>{await api("/refresh","POST");offset=0;await browse();message("Existing files refreshed; no source file changed.");});
+$("filters").onsubmit=action(async()=>{offset=0;await browse();});
+$("prev").onclick=action(async()=>{offset=Math.max(0,offset-30);await browse();});
+$("next").onclick=action(async()=>{offset+=30;await browse();});
+window.addEventListener("pagehide",clear);
+action(async()=>{try{account=await api("/me");await enter();}catch(e){if(e.message!=="Sign in with a named local research account")throw e;}})();
+</script>
+</body>
+</html>

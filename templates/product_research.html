@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>Aurora | Product Research</title>
+<style>
+:root{font:15px system-ui;color:#e6edf8;background:#101a2b;color-scheme:dark}
+body{margin:0}header,main{padding:20px;max-width:1500px;margin:auto}header{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+a{color:#93c9ff}h1,h2,h3{margin-top:0}button,input,select,textarea{font:inherit;border:1px solid #536480;border-radius:6px;padding:8px;background:#132138;color:inherit}
+button{cursor:pointer;background:#245783}button:disabled{opacity:.5;cursor:default}label{display:block;margin:10px 0}
+input:not([type=checkbox]),select,textarea{max-width:100%;box-sizing:border-box}textarea{width:100%;min-height:85px}
+.panel{background:#1b2a42;border:1px solid #3d4e69;border-radius:10px;padding:18px;margin-bottom:15px}.muted{color:#b0bdd1}.warning{color:#ffda8b}
+.toolbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.layout{display:grid;grid-template-columns:minmax(360px,1fr) minmax(400px,1.6fr);gap:16px}
+table{width:100%;border-collapse:collapse;text-align:left}td,th{padding:9px;border-bottom:1px solid #43526b;vertical-align:top}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px}
+.scroll{overflow:auto}summary{cursor:pointer;padding:8px 0}.rowbutton{text-align:left;background:transparent;border:0;color:#9bd0ff;padding:0}
+.compare{display:flex;gap:12px;overflow:auto}.compare>.panel{min-width:300px;flex:1}
+[hidden]{display:none!important}#message{min-height:25px;overflow-wrap:anywhere}#citation input{width:100%}.badge{display:inline-block;padding:3px 6px;margin:3px;background:#344967;border-radius:4px;font-size:12px}
+@media(max-width:950px){.layout{display:block}header,main{padding:12px}}
+</style>
+</head>
+<body>
+<header><div><h1>Product Research</h1><p class="muted">Family-first research workspace. SKUs are child records, not family identities.</p></div>
+<nav><a href="/admin/knowledge">Knowledge Validation</a> &middot; <a href="/admin/competitors">Competitor Research</a> &middot; <a href="/chat">Customer chat</a> &middot; <a href="/admin/briefs">Sales briefs</a></nav></header>
+<main>
+<p id="message" role="status" aria-live="polite"></p>
+<section id="loginPanel" class="panel">
+<h2>Named local sign-in</h2><p>No default accounts. On this machine, create your account with <code>python scripts\research_accounts.py create YOUR_USERNAME --roles reviewer publisher</code>. Password entry is interactive and stays out of shell arguments.</p>
+<form id="loginForm"><label>Username <input id="username" autocomplete="username" required maxlength="64"></label>
+<label>Password <input id="password" type="password" autocomplete="current-password" required maxlength="256"></label><button>Sign in</button></form>
+<p class="muted">The sales operator key does not grant research review permissions. Research sessions use HttpOnly cookies; no credentials are stored in browser storage.</p>
+</section>
+<div id="workspace" hidden>
+<section class="panel"><div class="toolbar"><strong id="identity"></strong><button id="refresh">Refresh existing results</button><button id="jobs">Local audit jobs</button><button id="preview" hidden>Preview publication</button><button id="logout">Sign out and clear</button></div>
+<p class="warning">Research, extraction and model audit are not human approval. Review drafts do not change chatbot facts. Publication never enables automatic customer product selection.</p>
+<label><input id="scopedHolds" type="checkbox"> Opt in on the next publication to source-citation/reviewer-scoped holds. Other input changes or unknown dependencies still hold the whole publication; existing releases remain immutable.</label>
+<div id="overview"></div></section>
+<section id="publication" class="panel" hidden><h2>Publication preview</h2><div id="previewContent"></div><button id="publish">Confirm and publish this preview</button></section>
+<section id="jobPanel" class="panel" hidden></section>
+<section id="comparison" class="panel" hidden><h2>Family comparison</h2><p class="muted">Source-scoped facts only, not a suitability ranking. A system rating is not a product-only rating.</p><div id="compareContent" class="compare"></div></section>
+<div class="layout">
+<section class="panel"><h2>Families</h2><form id="filters" class="toolbar">
+<input id="search" aria-label="Search families and child SKUs" placeholder="Family, application or child SKU" maxlength="200">
+<select id="manufacturer" aria-label="Manufacturer"><option value="">All manufacturers</option></select>
+<select id="category" aria-label="Category"><option value="">All categories</option></select>
+<select id="state" aria-label="Research status"><option value="">All research states</option><option value="awaiting_input">Awaiting my source input</option><option value="source_held">Local source held</option><option value="researched">Research result exists</option><option value="model_audited">Model audited (not approved)</option><option value="sku_conflicts">Child SKU conflicts</option><option value="pending_human_review">Pending human review</option><option value="reviewed_draft">Approved draft (not necessarily published)</option><option value="published">Published factual claims</option><option value="eligible">Published exact eligible SKU</option></select>
+<button>Search</button></form>
+<p id="count" class="muted"></p><div class="scroll"><table><thead><tr><th>Compare</th><th>Family / progress</th><th>Child SKUs</th></tr></thead><tbody id="families"></tbody></table></div>
+<div class="toolbar"><button id="prev">Previous</button><button id="next">Next</button><button id="compare">Compare selected (2-4)</button></div></section>
+<section id="detail" class="panel"><h2>Select a family</h2><p>All families are included, even those without commercial SKU records. Missing and unreviewed data remain explicit.</p></section>
+</div>
+<section id="reviewPanel" class="panel" hidden><h2>Human review for <span id="reviewFamily"></span></h2>
+<p class="warning">Check exact source, family identity, variant, units and test context yourself. Quotes must match the cited page text; scanned PDFs require separate manual/OCR work.</p>
+<fieldset id="citation"><legend>Exact local source citation (required for approval)</legend><label>Document <select id="docSelect"></select></label>
+<div class="toolbar"><label>Page <input id="pageNumber" type="number" min="1" value="1"></label><button type="button" id="viewPage">Read page text</button><a id="pdfLink" target="_blank" rel="noopener noreferrer">Open local PDF at page</a></div>
+<label>Exact section / table / region <input id="locator" placeholder="Table 2, row for 50 mm grade"></label>
+<label>Supporting verbatim quote <textarea id="quote"></textarea></label><pre id="pageText"></pre></fieldset>
+<form id="claimForm"><h3>Performance / identity claim</h3><label>Existing claim or new claim <select id="claimSelect"></select></label>
+<label>Structured claim fields (all original fields preserved; reviewer/time are server assigned) <textarea id="claimJSON" rows="14" spellcheck="false"></textarea></label>
+<label>Exact child SKU applicability <select id="applicable" multiple size="5"></select></label>
+<label>Decision <select id="claimDecision"><option value="needs_information">Needs information</option><option value="approved">Approve draft (not publish)</option><option value="rejected">Reject</option><option value="revoked">Revoke</option></select></label>
+<label>Review rationale <textarea id="claimRationale" required minlength="10"></textarea></label><button>Save claim review revision</button></form>
+<hr><form id="skuForm"><h3>Exact child SKU review</h3><label>Child record <select id="skuSelect"></select></label>
+<p id="skuIssues" class="warning"></p>
+<label>Explicit field corrections (JSON; original CSV remains unchanged) <textarea id="corrections" spellcheck="false">{}</textarea></label>
+<label>Resolution for every original validation issue (JSON issue-to-rationale map) <textarea id="resolutions" spellcheck="false">{}</textarea></label>
+<label>Shared-code disambiguation <textarea id="duplicateResolution"></textarea></label>
+<label>Applicable approved evidence IDs (comma-separated) <input id="skuEvidence"></label>
+<label><input type="checkbox" id="variantConfirmed"> I checked this exact row's family and variant against the cited source.</label>
+<label><input type="checkbox" id="eligibilityRequested"> Request internal selection eligibility on publication (active + READY + applicable product/component evidence required).</label>
+<label>Decision <select id="skuDecision"><option value="needs_information">Needs information</option><option value="approved">Approve draft</option><option value="rejected">Reject</option><option value="revoked">Revoke</option></select></label>
+<label>Rationale <textarea id="skuRationale" required minlength="10"></textarea></label><button>Save SKU review revision</button></form>
+</section>
+</div>
+</main>
+<script>
+"use strict";
+const $ = id => document.getElementById(id);
+let account=null, selected=null, offset=0, total=0, previewData=null, epoch=0, detailRequest=0;
+const compareIDs=new Set(), controllers=new Set();
+function node(tag,text,cls){const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e;}
+function message(text,error=false){$("message").textContent=text;$("message").className=error?"warning":"";}
+function json(value){return JSON.stringify(value,null,2);}
+function dump(parent,title,value){const d=node("details"),s=node("summary",title);d.append(s,node("pre",typeof value==="string"?value:json(value)));parent.append(d);}
+function clear(){
+  epoch++;controllers.forEach(c=>c.abort());controllers.clear();account=null;selected=null;previewData=null;compareIDs.clear();
+  $("password").value="";$("workspace").hidden=true;$("loginPanel").hidden=false;
+  ["overview","families","detail","compareContent","previewContent","jobPanel","pageText"].forEach(id=>$(id).replaceChildren());
+  ["reviewPanel","publication","comparison","jobPanel"].forEach(id=>$(id).hidden=true);
+  ["claimJSON","quote","locator","corrections","resolutions","claimRationale","skuRationale","duplicateResolution","skuEvidence"].forEach(id=>$(id).value="");
+}
+async function api(path,method="GET",data){
+  const token=epoch,c=new AbortController();controllers.add(c);
+  try{
+    const headers={};if(method!=="GET"){headers["Content-Type"]="application/json";if(account)headers["X-Research-CSRF"]=account.csrf;}
+    const r=await fetch("/api/research"+path,{method,headers,body:data===undefined?undefined:JSON.stringify(data),signal:c.signal,credentials:"same-origin",cache:"no-store"});
+    const body=await r.json();if(token!==epoch)throw new DOMException("Page locked","AbortError");
+    if(!r.ok){if(r.status===401&&account)clear();throw new Error(typeof body.detail==="string"?body.detail:json(body.detail));}return body;
+  }finally{controllers.delete(c);}
+}
+function action(fn){return async event=>{if(event)event.preventDefault();try{await fn();}catch(e){if(e.name!=="AbortError")message(e.message,true);}};}
+function option(select,value,text){const e=node("option",text);e.value=value;select.append(e);}
+function download(extension,text){const url=URL.createObjectURL(new Blob([text],{type:extension==="json"?"application/json":"text/plain;charset=utf-8"}));const a=node("a");a.href=url;a.download=(selected?selected.family.family_id:"family-comparison")+"."+extension;a.hidden=true;document.body.append(a);try{a.click();}finally{a.remove();setTimeout(()=>URL.revokeObjectURL(url),60000);}}
+function exportFallback(text) {
+  const details = node('details');
+  const summary = node('summary', 'Full readable family export');
+  const textarea = node('textarea');
+  textarea.value = text;
+  textarea.readOnly = true;
+  textarea.rows = 20;
+  textarea.setAttribute('aria-label', 'Full readable family export');
+  const button = node('button', 'Copy full text');
+  button.onclick = action(async () => {
+    if (!navigator.clipboard) throw new Error('Clipboard unavailable: select and copy text manually.');
+    await navigator.clipboard.writeText(text);
+    message('Copied readable export.');
+  });
+  details.append(summary, textarea, button);
+  details.open = true;
+  $("detail").append(details);
+}
+async function loadOverview(){
+  const data=await api("/overview");$("overview").replaceChildren();
+  $("overview").append(node("p",`${data.family_count} families | ${data.sku_count} child records | ${data.families_without_skus} families without SKUs | publication: ${data.publication}`));
+  dump($("overview"),"Existing research, audits, manual workbooks and pipeline reports",data);
+  for(const id of ["manufacturer","category"]){const value=$(id).value;$(id).replaceChildren();option($(id),"","All "+id+"s");for(const v of data[id==="manufacturer"?"manufacturers":"categories"])option($(id),v,v);$(id).value=value;}
+}
+async function browse(){
+  const sequence=++detailRequest;
+  const params=new URLSearchParams({q:$("search").value,manufacturer:$("manufacturer").value,category:$("category").value,status:$("state").value,offset,limit:30});
+  const data=await api("/families?"+params);if(sequence!==detailRequest)return;
+  total=data.total;$("count").textContent=`${total} families; showing ${Math.min(offset+1,total)}-${Math.min(offset+30,total)}. Child SKU codes are searched too.`;
+  $("families").replaceChildren();
+  for(const f of data.families){
+    const tr=node("tr"),selection=node("td"),check=node("input");check.type="checkbox";check.checked=compareIDs.has(f.family_id);check.setAttribute("aria-label","Compare "+f.name);
+    check.onchange=()=>{if(check.checked){if(compareIDs.size>=4){check.checked=false;message("Compare at most four families.",true);return;}compareIDs.add(f.family_id);}else compareIDs.delete(f.family_id);};
+    selection.append(check);const cell=node("td"),button=node("button",f.name,"rowbutton");button.onclick=action(()=>openFamily(f.family_id));cell.append(button,node("div",f.manufacturer+" / "+f.category,"muted"));
+    for(const state of f.states)cell.append(node("span",state,"badge"));cell.append(node("div","Research: "+f.research_status+" | model audit: "+f.audit_status,"muted"));tr.append(selection,cell,node("td",String(f.sku_count)));$("families").append(tr);
+  }
+  $("prev").disabled=offset===0;$("next").disabled=offset+30>=total;
+}
+function latest(target,kind){return selected.history.filter(r=>r.target===target&&r.kind===kind).at(-1);}
+function claims(){const items=new Map(selected.evidence.evidence_items.map(c=>[c.evidence_id,c]));for(const r of selected.history)if(r.kind==="review"&&r.payload.kind==="claim")items.set(r.payload.claim.evidence_id,r.payload.claim);return [...items.values()];}
+function fillClaim(){
+  const existing=claims().find(c=>c.evidence_id===$("claimSelect").value);
+  const draft=existing||{evidence_id:"NEW-CLAIM-ID",metric_type:"thermal_r",value:"",value_type:"scalar",unit:"m2.K/W",scope:"product",variant:"",test_standard:"",test_context:"",source_url:selected.family.source_url||"https://manufacturer.example/tds",source_type:"manufacturer_tds",source_locator:"",extraction_method:"manual_transcription",extractor_confidence:1,ocr_confidence:null,evidence_status:"pending_human_review",verified_by:null,verified_at:null,notes:""};
+  const prior=latest("claim:"+selected.family.family_id+":"+draft.evidence_id,"review");
+  $("claimJSON").value=json(prior?.payload.claim||draft);$("claimDecision").value=prior?.payload.decision||"needs_information";$("claimRationale").value=prior?.payload.rationale||"";
+  for(const o of $("applicable").options)o.selected=Boolean(prior?.payload.applicable_skus?.includes(o.value));
+}
+function fillSku(){
+  const row=selected.skus.find(s=>s.sku_record_id===$("skuSelect").value);if(!row){$("skuIssues").textContent="This family has no child SKU rows.";return;}
+  const prior=latest("sku:"+row.sku_record_id,"review")?.payload;
+  $("skuIssues").textContent=`${row.sku_record_id} | status ${row.validation_status} | shared codes: ${row.duplicate_codes.join(", ")||"none"} | issues: ${row.validation_notes||"none listed"}`;
+  $("corrections").value=json(prior?.corrections||{});$("resolutions").value=json(prior?.resolutions||Object.fromEntries((row.validation_notes||"").split(";").map(s=>s.trim()).filter(Boolean).map(s=>[s,""])));
+  $("duplicateResolution").value=prior?.duplicate_resolution||"";$("skuEvidence").value=(prior?.evidence_ids||[]).join(", ");
+  $("variantConfirmed").checked=prior?.variant_confirmed===true;$("eligibilityRequested").checked=prior?.eligibility_requested===true;
+  $("skuDecision").value=prior?.decision||"needs_information";$("skuRationale").value=prior?.rationale||"";
+}
+async function openFamily(id){
+  const sequence=++detailRequest,data=await api("/families/"+encodeURIComponent(id));if(sequence!==detailRequest)return;
+  selected=data;previewData=null;$("publication").hidden=true;
+  const area=$("detail");area.replaceChildren(node("h2",data.family.name),node("p",`${data.family.family_id} | ${data.family.manufacturer} | identity: ${data.family.confidence} | publication: ${data.publication_state}`));
+  const toolbar=node("div",undefined,"toolbar"),exportJSON=node("button","Export full JSON"),exportTXT=node("button","Export readable brief");
+  exportJSON.onclick=()=>download("json",json(selected));exportTXT.onclick=action(async()=>{const family=selected;const token=epoch;const r=await api("/families/"+encodeURIComponent(family.family.family_id)+"/draft-pack");if(token!==epoch||selected!==family)return;if(typeof r.readable!=="string"||!r.readable.trim())throw new Error("No stored readable draft. Read or generate the private family pack first.");exportFallback(r.readable);download("txt",r.readable);message("Readable export prepared. If no file appears, use the visible copy panel.");});toolbar.append(exportJSON,exportTXT);
+  if(account.roles.includes("reviewer")){const audit=node("button","Run selected-family local audit");audit.onclick=action(async()=>{if(!confirm("Audit this existing research with an installed local model? It is bounded, not approval, and will not replace your files."))return;const r=await api("/families/"+id+"/local-audit","POST");message("Local job "+r.job_id+" started. Open Local audit jobs for its staged result.");});toolbar.append(audit);}
+  area.append(toolbar);
+  const packPanel=node("details"),packHeading=node("summary","Stored private family draft pack"),packRead=node("button","Read stored draft"),packText=node("pre"),packStatus=node("p");
+  packPanel.append(packHeading,packRead,packStatus,packText);area.append(packPanel);
+  packRead.onclick=action(async()=>{
+    const r=await api("/families/"+encodeURIComponent(id)+"/draft-pack");
+    if(sequence!==detailRequest)return;
+    packStatus.textContent=r.state+(r.batch?" | batch "+r.batch:"");
+    if(r.authoring_stale)packStatus.textContent+=" | STALE: authoring inputs changed; refresh build before review.";
+    if(r.processing_coverage)packStatus.textContent+=" | Local Llama chunks: "+r.processing_coverage.validated_chunks+"/"+r.processing_coverage.total_chunks+" validated; "+r.processing_coverage.pending_chunks+" pending.";
+    packText.textContent=r.readable||"No stored pack. Generate a confirmed local batch through the offline knowledge workflow.";
+    if(r.annotations)packStatus.textContent+=" | Local Llama: "+json(r.annotations);
+  });
+  if(account.roles.includes("reviewer")){
+    const intake=node("details"),heading=node("summary","Preview and stage owner-supplied local sources"),form=node("form"),label=node("label","Checkout-relative JSON manifest path"),input=node("input"),preview=node("button","Preview source associations"),stage=node("button","Confirm staging (not approval)"),result=node("pre");
+    input.required=true;input.placeholder="data/source_manifest.json";stage.type="button";stage.disabled=true;let receipt=null,manifest=null,intakeRequest=0;
+    input.oninput=()=>{intakeRequest++;receipt=null;manifest=null;stage.disabled=true;result.textContent="Manifest changed; preview again.";};
+    label.append(input);form.append(label,preview,stage);intake.append(heading,node("p","Existing local PDFs only. Preview shows exact inputs and extracted candidate fields. Stage writes an ignored intake receipt, never the originals, claims or catalogue."),form,result);area.append(intake);
+    form.onsubmit=action(async()=>{const request=++intakeRequest;receipt=null;stage.disabled=true;const value=input.value;const r=await api("/source-preview","POST",{data:{manifest:value}});if(sequence!==detailRequest||request!==intakeRequest)return;receipt=r.preview_id;manifest=value;result.textContent=json(r);stage.disabled=false;});
+    stage.onclick=action(async()=>{if(!receipt||manifest!==input.value||!confirm("Stage this exact preview? This is owner-declared intake, not claim approval."))return;stage.disabled=true;const r=await api("/source-stage","POST",{data:{manifest,confirmation:receipt}});message(r.state+" | "+r.receipt);await openFamily(id);});
+  }
+  if(data.dossier){
+    area.append(node("h3","Combined retained family knowledge"));
+    area.append(node("p",data.dossier.provenance_state+" | Retained content is not approval. Repeated copies are not independent evidence.","warning"));
+    for(const [group,rows] of Object.entries(data.dossier.groups))if(rows.length)dump(area,group+" - values, origins and review state",rows);
+    dump(area,"Alternative values requiring review (no automatic merge)",data.dossier.alternatives);
+    if(account.roles.includes("reviewer")){
+      const form=node("form"),title=node("h3","Review a retained occurrence (private only)"),label=node("label","Exact retained field"),select=node("select"),text=node("pre"),decision=node("select"),rationale=node("textarea"),save=node("button","Save retained review revision");
+      for(const [group,rows] of Object.entries(data.dossier.groups))rows.forEach((row,position)=>option(select,json({group,position}),group+" / "+row.field+" / "+row.origin));
+      for(const state of ["needs_information","retained_confirmed","rejected"])option(decision,state,state);
+      const show=()=>{if(!select.value)return;const {group,position}=JSON.parse(select.value);text.textContent=json(data.dossier.groups[group][position]);};select.onchange=show;show();rationale.required=true;rationale.minLength=10;rationale.maxLength=10000;rationale.placeholder="Explain the surviving supplied records and any missing-original uncertainty.";
+      label.append(select);form.append(title,node("p","This records a named attestation about retained information. It cannot approve public technical claims, change eligibility, or substitute for a manufacturer PDF citation.","warning"),label,text,decision,rationale,save);area.append(form);
+      form.onsubmit=action(async()=>{const {group,position}=JSON.parse(select.value),target="retained:"+id+":"+group+":"+position,prior=latest(target,"retained_review");await api("/families/"+encodeURIComponent(id)+"/retained-review","POST",{expected_version:prior?.id||0,data:{dossier_id:data.dossier.dossier_id,group,position,decision:decision.value,rationale:rationale.value}});message("Retained review saved; public facts unchanged.");await openFamily(id);});
+    }
+  }
+  if(data.workflow)dump(area,"Guided next actions: exact inputs, outputs and gates",data.workflow);
+  dump(area,"Family identity / application",data.family);dump(area,"Family research: ranges, installation, limitations and specifications (unreviewed)",data.research);
+  if(data.compiled_sources)dump(area,"Frozen cache sources: TDS URLs, stored files and provenance (not approval)",data.compiled_sources);
+  if(data.source_review_queue){
+    const queue=node("details"),heading=node("summary","Source / variant review queue");
+    queue.append(heading,node("p",data.source_review_queue.warning,"warning"));
+    if(data.source_review_queue.local_llama_findings.length)dump(queue,"Retained local Llama findings (advisory)",data.source_review_queue.local_llama_findings);
+    for(const item of data.source_review_queue.items){
+      const card=node("div",undefined,"panel");dump(card,item.kind+" / "+item.status,item);
+      if(account.roles.includes("reviewer")){
+        const form=node("form"),decision=node("select"),rationale=node("textarea"),save=node("button","Save identity review (not claim approval)");
+        for(const value of ["needs_information","accepted","rejected"])option(decision,value,value);
+        decision.setAttribute("aria-label","Source identity decision");rationale.setAttribute("aria-label","Source review rationale");rationale.required=true;rationale.minLength=10;rationale.maxLength=10000;
+        form.append(decision,rationale,save);
+        form.onsubmit=action(async()=>{await api("/families/"+encodeURIComponent(id)+"/source-review","POST",{expected_version:item.revision||0,data:{item_id:item.id,source_hash:item.source_hash||"",decision:decision.value,rationale:rationale.value}});message("Identity review saved; bindings and technical claims unchanged.");await openFamily(id);});
+        card.append(form);
+      }
+      queue.append(card);
+    }
+    area.append(queue);
+  }
+  dump(area,"Family guide (raw, non-executable Markdown)",data.guide_text||"No family guide available");
+  dump(area,"Effective performance evidence / source scope",data.effective_evidence);
+  if(data.publication_holds?.length)dump(area,"Exact affected publication dependencies requiring renewed review",data.publication_holds);
+  dump(area,"Source integrity, full-page extraction status and safety gaps",data.sources);
+  if(account.roles.includes("reviewer"))for(const row of data.claim_candidates||[]){
+    const button=node("button","Copy quoted candidate into claim draft: "+row.claim.metric_type);
+    button.disabled=!row.source_current||row.candidate.performance_source_gap;
+    button.onclick=()=>{$("claimSelect").value="";$("claimJSON").value=json(row.claim);$("claimDecision").value="needs_information";$("claimRationale").value="";$("docSelect").value=row.citation.document_id;$("pageNumber").value=row.citation.page;$("quote").value=row.citation.quote;$("locator").value="";for(const option of $("applicable").options)option.selected=false;message("Candidate copied without approval. Confirm source type/URL, exact locator, variant, context and child applicability before saving a review.");$("reviewPanel").scrollIntoView();};
+    area.append(button);
+  }
+  const docs=node("div");for(const doc of data.documents){const link=node("a",doc.path);link.href="/api/research/documents/"+encodeURIComponent(doc.id)+"/file";link.target="_blank";link.rel="noopener noreferrer";docs.append(link,node("p","SHA256 "+doc.sha256,"muted"));}area.append(docs);
+  dump(area,"Existing model accuracy audit (not human approval)",data.accuracy_audit||"No local audit record");
+  dump(area,"Awaiting my input: original CSV requests and local workbook supplied-link fields",{csv:data.manual_requests,workbook:data.manual_workbook_rows,triage:data.evidence_triage});
+  dump(area,"Derived literature / retrieval cards (not primary evidence)",{literature:data.derived_literature,cards:data.retrieval_cards});
+  dump(area,"Original workbook provenance",data.source_workbooks);
+  const child=node("details"),summary=node("summary",`Child SKUs (${data.skus.length}) - exact record IDs; no inferred dimensions or live stock`);child.append(summary);
+  for(const row of data.skus)dump(child,`${row.sku_record_id}: ${row.product_name} | eligible ${data.published_sku_eligibility[row.sku_record_id].eligible}`,{raw:row,published:data.published_sku_eligibility[row.sku_record_id]});area.append(child);
+  dump(area,"Immutable notes and formal review history",data.history);
+  if(account.roles.includes("reviewer")){
+    const form=node("form"),label=node("label","Research note"),text=node("textarea"),save=node("button","Save note revision");
+    const prior=latest("family:"+id,"note");text.value=prior?.payload.text||"";text.required=true;text.maxLength=10000;label.append(text);form.append(label,save);
+    form.onsubmit=action(async()=>{await api("/families/"+id+"/notes","POST",{expected_version:prior?.id||0,data:{text:text.value}});message("Note saved; source files unchanged.");await openFamily(id);});area.append(form);
+    $("reviewPanel").hidden=false;$("reviewFamily").textContent=data.family.name;
+    const library=await api("/documents");if(sequence!==detailRequest)return;
+    $("docSelect").replaceChildren();option($("docSelect"),"","Choose exact source (linked first)");
+    const linked=new Set(data.documents.map(d=>d.id));for(const doc of [...library.documents].sort((a,b)=>Number(linked.has(b.id))-Number(linked.has(a.id)))){option($("docSelect"),doc.id,(linked.has(doc.id)?"Linked: ":"Unlinked: ")+doc.path);$("docSelect").lastChild.dataset.hash=doc.sha256;}
+    $("claimSelect").replaceChildren();option($("claimSelect"),"","New claim");for(const c of claims())option($("claimSelect"),c.evidence_id,c.evidence_id+" / "+(c.variant||"variant not yet supplied"));
+    for(const sid of ["applicable","skuSelect"]){$(sid).replaceChildren();for(const s of data.skus)option($(sid),s.sku_record_id,s.sku_record_id+" / "+s.product_name);}
+    $("skuForm").hidden=!data.skus.length;["quote","locator","pageText"].forEach(key=>{if(key==="pageText")$(key).textContent="";else $(key).value="";});$("pdfLink").removeAttribute("href");
+    fillClaim();fillSku();
+  }
+}
+function sourceCitation(){const select=$("docSelect");return {document_id:select.value,sha256:select.selectedOptions[0]?.dataset.hash,page:Number($("pageNumber").value),locator:$("locator").value,quote:$("quote").value};}
+async function saveReview(data,target){
+  const id=selected.family.family_id;await api("/families/"+encodeURIComponent(id)+"/reviews","POST",{expected_version:latest(target,"review")?.id||0,data});
+  message("Review revision saved. Runtime unchanged until separate publication.");await openFamily(id);
+}
+$("loginForm").onsubmit=action(async()=>{account=await api("/login","POST",{username:$("username").value,password:$("password").value});$("password").value="";await enter();});
+async function enter(){ $("loginPanel").hidden=true;$("workspace").hidden=false;$("identity").textContent=account.username+" / "+account.roles.join(", ");$("preview").hidden=!account.roles.includes("publisher");await loadOverview();await browse();if(location.hash)await openFamily(decodeURIComponent(location.hash.slice(1)));message("Existing local results loaded. No research download or pipeline started.");}
+$("logout").onclick=action(async()=>{try{await api("/logout","POST");}finally{clear();message("Signed out; research data cleared.");}});
+$("refresh").onclick=action(async()=>{await api("/refresh","POST");previewData=null;$("publication").hidden=true;await loadOverview();await browse();if(selected)await openFamily(selected.family.family_id);message("Existing files refreshed; no scripts run or files overwritten.");});
+$("filters").onsubmit=action(async()=>{offset=0;await browse();});$("prev").onclick=action(async()=>{offset=Math.max(0,offset-30);await browse();});$("next").onclick=action(async()=>{offset+=30;await browse();});
+$("compare").onclick=action(async()=>{
+  if(compareIDs.size<2)throw new Error("Choose 2-4 families.");
+  const result=await api("/compare?"+new URLSearchParams({ids:[...compareIDs].join(",")}));$("compareContent").replaceChildren();$("comparison").hidden=false;
+  for(const f of result.families){const card=node("div",undefined,"panel");card.append(node("h3",f.family.name),node("p",f.publication_state+" | identity "+f.family.confidence));dump(card,"Identity",f.family);dump(card,"Effective source-scoped performance",f.effective_evidence);dump(card,"Unreviewed extracted ranges / installation",f.research);dump(card,"Source gaps",f.sources.source_gaps);dump(card,"Exact child records",f.skus);$("compareContent").append(card);}
+});
+$("claimSelect").onchange=fillClaim;$("skuSelect").onchange=fillSku;
+$("viewPage").onclick=action(async()=>{const id=$("docSelect").value,page=Number($("pageNumber").value);if(!id)throw new Error("Choose a source document.");const result=await api("/documents/"+id+"/pages?page="+page);$("pageText").textContent=`Page ${result.page.page}/${result.page_count} | ${result.status} | pending human review\n\n`+result.page.text;$("pdfLink").href="/api/research/documents/"+id+"/file#page="+page;});
+$("claimForm").onsubmit=action(async()=>{const claim=JSON.parse($("claimJSON").value);await saveReview({kind:"claim",claim,decision:$("claimDecision").value,rationale:$("claimRationale").value,citation:sourceCitation(),applicable_skus:[...$("applicable").selectedOptions].map(o=>o.value)},"claim:"+selected.family.family_id+":"+claim.evidence_id);});
+$("skuForm").onsubmit=action(async()=>{const id=$("skuSelect").value;await saveReview({kind:"sku",sku_record_id:id,decision:$("skuDecision").value,rationale:$("skuRationale").value,citation:sourceCitation(),corrections:JSON.parse($("corrections").value),resolutions:JSON.parse($("resolutions").value),duplicate_resolution:$("duplicateResolution").value,variant_confirmed:$("variantConfirmed").checked,eligibility_requested:$("eligibilityRequested").checked,evidence_ids:$("skuEvidence").value.split(",").map(s=>s.trim()).filter(Boolean)},"sku:"+id);});
+$("preview").onclick=action(async()=>{previewData=await api("/publication/preview?scoped="+$("scopedHolds").checked,"POST");$("previewContent").replaceChildren();dump($("previewContent"),"Changes, revocations, eligibility impact and blockers",previewData);$("previewContent").firstChild.open=true;$("publication").hidden=false;$("publish").disabled=previewData.blockers.length>0;message("Preview only. Nothing activated.");});
+$("publish").onclick=action(async()=>{if(!previewData||!confirm("Publish preview "+previewData.proposal_id+"? This changes effective local factual evidence and explicit SKU eligibility. It does not approve customer installations."))return;const result=await api("/publication/"+previewData.proposal_id+"/publish","POST");previewData=null;$("publication").hidden=true;await loadOverview();if(selected)await openFamily(selected.family.family_id);message("Local publication "+result.publication_id+" activated.");});
+$("jobs").onclick=action(async()=>{const rows=await api("/jobs");$("jobPanel").replaceChildren(node("h2","Selected-family local audit jobs"));$("jobPanel").hidden=false;for(const r of rows){dump($("jobPanel"),`${r.id}: ${r.family_id} / ${r.state}`,r);if(account.roles.includes("reviewer")&&["running","staged"].includes(r.state)){const b=node("button","Cancel/discard job "+r.id);b.onclick=action(async()=>{await api("/jobs/"+r.id+"/cancel","POST");$("jobs").click();});$("jobPanel").append(b);if(r.state==="staged"){const accept=node("button","Accept comparison as model annotation");accept.onclick=action(async()=>{const f=await api("/families/"+r.family_id),prior=f.history.filter(v=>v.kind==="model_audit"&&v.target==="family:"+r.family_id).at(-1);await api("/jobs/"+r.id+"/accept","POST",{expected_version:prior?.id||0,data:{}});message("Model annotation accepted; not human evidence approval. Original reports unchanged.");$("jobs").click();});$("jobPanel").append(accept);}}}if(!rows.length)$("jobPanel").append(node("p","No GUI local audits requested. Existing reports remain visible under each family."));});
+window.addEventListener("pagehide",clear);
+action(async()=>{try{account=await api("/me");await enter();}catch(e){if(e.message!=="Sign in with a named local research account")throw e;}})();
+</script>
+</body></html>

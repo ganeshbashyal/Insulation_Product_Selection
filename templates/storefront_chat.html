@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Product enquiries</title>
+<style>
+body{margin:0;font:15px system-ui;color:#17232c;background:#f6f1e8}header{padding:12px;background:#102b32;color:white}
+h1{font-size:18px;margin:0}#log{height:calc(100vh - 185px);overflow:auto;padding:12px;white-space:pre-wrap}
+.bot,.customer{padding:10px;border-radius:8px;margin-bottom:8px;background:white}.customer{background:#d7efeb}
+form{display:flex;padding:10px;gap:6px}input{min-width:0;flex:1;padding:10px}button{padding:10px;cursor:pointer}
+#status{padding:0 12px;color:#6b2800}#privacy{padding:0 12px;font-size:12px}
+</style></head><body>
+<header><h1 id="title">Product enquiries</h1><p id="contact"></p></header>
+<div id="log" role="log" aria-live="polite"></div><p id="status" role="status"></p><p id="privacy"></p>
+<form id="form"><input id="message" aria-label="Message" maxlength="4000" required disabled><button id="send" disabled>Send</button></form>
+<script>
+"use strict";
+const params=new URLSearchParams(location.search),site=params.get("site_id");
+let session=null,token=null,busy=false;
+const log=document.getElementById("log"),status=document.getElementById("status"),input=document.getElementById("message"),send=document.getElementById("send");
+function append(text,role){const p=document.createElement("div");p.className=role;p.textContent=text;log.append(p);log.scrollTop=log.scrollHeight;}
+async function post(path,body){
+  const headers={"Content-Type":"application/json"};if(token)headers["X-Chat-Token"]=token;
+  const r=await fetch(path+"?"+new URLSearchParams({site_id:site}),{method:"POST",headers,body:JSON.stringify(body||{}),cache:"no-store",credentials:"omit"});
+  const data=await r.json();if(!r.ok)throw Error(typeof data.detail==="string"?data.detail:"Request rejected");return data;
+}
+async function start(){
+  try{
+    const data=await post("/api/widget/conversations");
+    session=data.conversation_id;token=data.token;
+    document.getElementById("title").textContent=data.branding.display_name;
+    document.getElementById("privacy").textContent=data.branding.privacy_text;
+    const primary=data.branding.colours?.primary;
+    if(typeof primary==="string"&&/^#[0-9a-f]{3}(?:[0-9a-f]{3})?$/i.test(primary))document.querySelector("header").style.backgroundColor=primary;
+    document.getElementById("contact").textContent=data.branding.contact_method==="phone"?(data.branding.phone||""):
+      data.branding.contact_method==="email"?(data.branding.email||""):(data.branding.callback_wording||"");
+    append(data.reply,"bot");input.disabled=false;send.disabled=false;
+  }catch(e){status.textContent="Chat unavailable: "+e.message;}
+}
+document.getElementById("form").addEventListener("submit",async e=>{
+  e.preventDefault();if(busy||!input.value.trim())return;
+  busy=true;send.disabled=true;const text=input.value;input.value="";append(text,"customer");status.textContent="";
+  try{const data=await post("/api/widget/conversations/"+encodeURIComponent(session)+"/messages",{message:text});append(data.reply,"bot");}
+  catch(error){status.textContent=error.message+" Your message was not confirmed. Reload to start a new chat if the session expired.";}
+  finally{busy=false;send.disabled=false;input.focus();}
+});
+window.addEventListener("pagehide",()=>{token=null;session=null;});
+start();
+</script></body></html>

@@ -110,8 +110,8 @@ def family_elements(family: dict) -> set[str]:
     """Which elements a family's own applications/category/keywords cover."""
     combined = " ".join([
         family.get("category", ""),
-        *family.get("applications", []),
-        *family.get("keywords", []),
+        *family.get("documented_applications", family.get("applications", [])),
+        *family.get("documented_keywords", family.get("keywords", [])),
     ])
     return text_elements(combined)
 
@@ -158,9 +158,9 @@ def recommendation_allowed(family: dict | None) -> bool:
     return family.get("confidence") in RECOMMENDATION_ALLOWED_STATES
 
 
-def rank_families(families: list[dict], answers: dict[str, str], manufacturer_scope: str | None = None) -> list[dict]:
+def rank_families(families: list[dict], answers: dict[str, str], manufacturer_scope: str | None = None, *, use_hybrid: bool | None = None) -> list[dict]:
     # Check if hybrid ranking is explicitly opted in via matching.json or environment variable
-    if MATCHING_CONFIG.get("use_hybrid_ranking") or os.getenv("USE_HYBRID_RANKING", "").casefold() == "true":
+    if use_hybrid is not False and (MATCHING_CONFIG.get("use_hybrid_ranking") or os.getenv("USE_HYBRID_RANKING", "").casefold() == "true"):
         try:
             from hybrid_retrieval import load_or_embed_cards, hybrid_rank
             cards_path = Path(__file__).resolve().parent / "data" / "processed" / "retrieval_cards.jsonl"
@@ -197,6 +197,9 @@ def _lexical_rank_families(families: list[dict], answers: dict[str, str], manufa
         # Hard gate, not a score penalty: a wall/floor/roof enquiry must never
         # surface a pipe/duct product, and vice versa.
         if cross_element_mismatch(requested_elements, family_elements(family)):
+            continue
+        documented_elements = family_elements(family)
+        if requested_elements and documented_elements and not requested_elements.intersection(documented_elements):
             continue
         keyword_scores = [(term, term_match_score(term, text, text_words)) for term in family["keywords"]]
         application_scores = [(term, term_match_score(term, text, text_words)) for term in family["applications"]]

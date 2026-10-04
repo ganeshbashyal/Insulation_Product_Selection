@@ -103,7 +103,9 @@ class SiteConfigError(Exception):
 
 def load_site_config(site_id: str) -> SiteConfig:
     """Load and validate a site config by ID. Raises SiteConfigError if missing or invalid."""
-    config_path = ROOT / "config" / "sites" / f"{site_id}.json"
+    if not re.fullmatch(r"[a-zA-Z0-9_-]{1,64}", site_id):
+        raise SiteConfigError("Invalid site ID")
+    config_path = Path(os.getenv("AURORA_SITES_DIR", str(ROOT / "config" / "sites"))) / f"{site_id}.json"
     if not config_path.exists():
         raise SiteConfigError(f"Site config not found: {config_path}")
 
@@ -115,7 +117,7 @@ def load_site_config(site_id: str) -> SiteConfig:
 
 def load_all_sites() -> dict[str, SiteConfig]:
     """Load all site configs from config/sites/. Returns {site_id -> SiteConfig}."""
-    sites_dir = ROOT / "config" / "sites"
+    sites_dir = Path(os.getenv("AURORA_SITES_DIR", str(ROOT / "config" / "sites")))
     sites_dir.mkdir(parents=True, exist_ok=True)
 
     sites: dict[str, SiteConfig] = {}

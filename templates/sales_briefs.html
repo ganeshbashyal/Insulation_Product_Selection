@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sales enquiry briefs</title>
+<style>
+:root { color-scheme: light; font-family: system-ui, sans-serif; color: #183044; background: #f2f5f7; }
+body { margin: 0; }
+header, main { max-width: 1100px; margin: auto; padding: 24px; }
+header h1 { margin-bottom: 8px; }
+header p { line-height: 1.5; margin: 8px 0; }
+.controls, article { background: white; border: 1px solid #d6e0e7; border-radius: 10px; padding: 20px; margin-bottom: 18px; }
+.controls { display: flex; align-items: end; flex-wrap: wrap; gap: 12px; }
+label { display: grid; gap: 5px; font-weight: 600; }
+input, button { font: inherit; padding: 9px 12px; border: 1px solid #9bafbe; border-radius: 5px; }
+button { background: #164e70; color: white; cursor: pointer; }
+button:disabled { opacity: .6; cursor: wait; }
+.secondary { background: white; color: #164e70; }
+#search { min-width: 260px; }
+#status { min-height: 1.5em; }
+article h2 { margin-top: 0; }
+.meta { color: #536875; font-size: .9rem; overflow-wrap: anywhere; }
+.badge { display: inline-block; background: #fff3cd; color: #674b00; padding: 4px 9px; border-radius: 5px; margin: 4px 8px 4px 0; font-size: .9rem; }
+.columns { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 20px; }
+dl { margin: 8px 0; }
+dt { font-weight: 600; margin-top: 10px; }
+dd { margin: 3px 0 12px; white-space: pre-wrap; overflow-wrap: anywhere; }
+li { margin: 8px 0; overflow-wrap: anywhere; }
+.candidate { border-left: 4px solid #d5a743; padding: 8px 16px; margin: 18px 0; background: #fafbfc; }
+.candidate h4 { margin: 4px 0; }
+details { margin-top: 14px; }
+summary { cursor: pointer; font-weight: 600; padding: 8px 0; }
+pre { white-space: pre-wrap; overflow-wrap: anywhere; font-size: .85rem; background: #f2f5f7; padding: 12px; }
+.actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 20px; }
+</style>
+</head>
+<body>
+<nav style="padding:16px"><a href="/admin/products">Product Research</a> &middot; <a href="/chat">Customer chat</a></nav>
+<header>
+<h1>Sales enquiry briefs</h1>
+<p>One brief per saved enquiry, newest first. Product questions and unfinished discovery
+do not create a completed sales brief. Refresh after an enquiry is saved.</p>
+<p>Internal provisional candidates only: no automatic approval, delivery or callback booking.
+Use synthetic contact data until storage and retention safeguards are approved.</p>
+</header>
+<main>
+<form id="access" class="controls">
+<label>Site <input id="site" value="local" required></label>
+<label>Operator key <input id="key" type="password" autocomplete="off" required></label>
+<button id="load" type="submit">Load / refresh briefs</button>
+<button id="clear" class="secondary" type="button">Clear and lock</button>
+</form>
+<label>Filter loaded enquiries <input id="search" type="search" placeholder="Enquiry ID, problem or product"></label>
+<p id="status" role="status" aria-live="polite">Enter the separate operator key to load saved enquiries.</p>
+<div id="briefs"></div>
+</main>
+<script>
+const el = id => document.getElementById(id);
+let records = [];
+let operatorKey = '';
+let requestVersion = 0;
+let activeRequest = null;
+const names = {
+ problem: 'Customer problem', application: 'Application', priority: 'Desired outcome',
+ placement: 'Placement', project: 'Project context', project_stage: 'Project stage',
+ building_use: 'Building use', construction: 'Construction', wall_assembly: 'Wall assembly',
+ access: 'Installation access', cavity_depth: 'Usable depth / clearance', area: 'Area / dimensions',
+ existing_insulation: 'Existing insulation', moisture: 'Moisture / exposure', airspace: 'Reflective airspace',
+ service: 'Pipe / duct service', service_temperature: 'Operating temperature',
+ requirements: 'Stated requirements', locality: 'Project location', timeframe: 'Project timing',
+ conditions: 'Other constraints'
+};
+function node(tag, text, className) {
+ const element = document.createElement(tag);
+ if (text !== undefined) element.textContent = String(text);
+ if (className) element.className = className;
+ return element;
+}
+function list(parent, values, emptyText) {
+ if (!values || !values.length) { parent.append(node('p', emptyText)); return; }
+ const ul = node('ul');
+ for (const value of values) ul.append(node('li', value));
+ parent.append(ul);
+}
+function facts(parent, values) {
+ const dl = node('dl');
+ for (const [key, value] of Object.entries(values)) {
+  dl.append(node('dt', names[key] || key.replaceAll('_', ' ')), node('dd', value || 'Not supplied'));
+ }
+ parent.append(dl);
+}
+function expandable(parent, title, content) {
+ const details = node('details');
+ details.append(node('summary', title), content);
+ parent.append(details);
+}
+function exportRecord(row) {
+ const url = URL.createObjectURL(new Blob([JSON.stringify(row, null, 2)], {type: 'application/json'}));
+ const link = node('a');
+ link.href = url;
+ link.download = 'sales-brief-' + String(row.conversation_id).replace(/[^a-zA-Z0-9_-]/g, '_') + '.json';
+ link.click();
+ setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+function render() {
+ el('briefs').replaceChildren();
+ const query = el('search').value.trim().toLowerCase();
+ const filtered = records.filter(row => JSON.stringify(row).toLowerCase().includes(query));
+ for (const row of filtered) {
+  const brief = row.sales_brief || {};
+  const article = node('article');
+  article.append(node('h2', row.problem_statement || 'Enquiry ' + row.conversation_id));
+  article.append(node('p', 'Enquiry ' + row.conversation_id + ' | Site ' + row.site_id + ' | Saved ' + row.created_at, 'meta'));
+  article.append(node('span', brief.decision_status || 'Human review required', 'badge'));
+  article.append(node('span', 'Saved locally - not sent', 'badge'));
+  if (brief.discovery_ended_early) article.append(node('span', 'Discovery ended early', 'badge'));
+  const columns = node('div', undefined, 'columns');
+  const known = node('section');
+  known.append(node('h3', 'Captured project facts'));
+  facts(known, brief.known_facts || {problem: row.problem_statement});
+  known.append(node('p', 'Customer-reported details, not verified installation or design evidence.', 'meta'));
+  const contact = node('section');
+  contact.append(node('h3', 'Contact and callback preference'));
+  facts(contact, {
+   Name: row.customer_name, Phone: row.phone, Email: row.email,
+   'Callback preference (not booked)': row.callback_time,
+   'Contact consent recorded': row.consent_at || 'No contact consent recorded'
+  });
+  expandable(contact, 'Consent wording', node('p', row.consent_text || 'Not recorded'));
+  columns.append(known, contact);
+  article.append(columns);
+  article.append(node('h3', 'Outstanding customer information'));
+  const completeness = brief.capture_completeness;
+  if (completeness) {
+   const fields = completeness.unresolved_fields || [];
+   list(article, fields.map(key => (names[key] || key) + ' - ' + ((completeness.field_status || {})[key] || 'not captured')),
+    'Relevant discovery fields captured. Source and installation review are still required.');
+  } else {
+   article.append(node('p', 'Legacy enquiry: completeness was not recorded. Review the original brief before selecting a product.'));
+  }
+  if (brief.operator_questions && brief.operator_questions.length) {
+   expandable(article, 'Remaining customer questions', (() => {
+    const content = node('div'); list(content, brief.operator_questions, 'None recorded'); return content;
+   })());
+  }
+  article.append(node('h3', 'Provisional product candidates - internal only'));
+  if (!brief.candidates || !brief.candidates.length) {
+   article.append(node('p', brief.no_candidate_reason || 'No provisional candidate recorded. Do not guess a product.'));
+  }
+  for (const candidate of brief.candidates || []) {
+   const card = node('section', undefined, 'candidate');
+   card.append(node('h4', candidate.name || candidate.family_id));
+   card.append(node('span', candidate.disposition || 'HOLD', 'badge'));
+   card.append(node('p', (candidate.manufacturer || '') + ' | ' + (candidate.family_id || ''), 'meta'));
+   if (candidate.documented_role) card.append(node('p', candidate.documented_role));
+   if (candidate.why_consider) card.append(node('p', candidate.why_consider));
+   list(card, candidate.reasons, 'Installation feasibility remains unapproved.');
+   const checks = node('div');
+   list(checks, candidate.operator_checks, 'No checks captured; review source and installation requirements.');
+   expandable(card, 'Technical reviewer checks', checks);
+   const evidence = candidate.evidence || {};
+   const sources = node('div');
+   facts(sources, { 'Research record': evidence.research_path, 'Research status (not approval)': evidence.research_status,
+    'Extraction engine': evidence.engine, 'Review status': evidence.review_status, 'Family guide': evidence.guide });
+   list(sources, evidence.source_gaps, 'No gaps listed; this does not establish approval.');
+   for (const document of evidence.documents || []) {
+    sources.append(node('h5', document.path));
+    facts(sources, {'File present': document.exists ? 'Yes' : 'No', 'SHA-256': document.sha256,
+     'Manifest hash match': document.manifest_hash_matches === true ? 'Yes' : document.manifest_hash_matches === false ? 'NO - integrity review required' : 'Not established',
+     'Full-page extraction': (document.extraction || {}).status || 'Not recorded'});
+   }
+   expandable(sources, 'Raw source metadata and extracted checks', node('pre', JSON.stringify(evidence, null, 2)));
+   expandable(card, 'Evidence provenance and gaps', sources);
+   article.append(card);
+  }
+  article.append(node('p', brief.limits || 'Legacy candidates are not approved products. Human installation and source review is required.', 'meta'));
+  article.append(node('p', 'Human approval: ' + (brief.approval ? 'Recorded - inspect raw brief for details' : 'Unset; no product approved')));
+  const actions = node('div', undefined, 'actions');
+  const download = node('button', 'Export this brief (JSON)');
+  download.type = 'button'; download.onclick = () => exportRecord(row);
+  actions.append(download);
+  article.append(actions);
+  expandable(article, 'Full saved brief (JSON)', node('pre', JSON.stringify(row, null, 2)));
+  el('briefs').append(article);
+ }
+ el('status').textContent = records.length ? filtered.length + ' of ' + records.length + ' saved enquiries displayed.' : 'No saved enquiries for this site. Complete an enquiry in chat, then refresh.';
+}
+function lock() {
+ requestVersion++;
+ if (activeRequest) activeRequest.abort();
+ activeRequest = null;
+ operatorKey = '';
+ records = [];
+ el('key').value = '';
+ el('key').required = true;
+ el('search').value = '';
+ el('briefs').replaceChildren();
+ el('load').disabled = false;
+ el('status').textContent = 'Cleared and locked.';
+}
+el('clear').onclick = lock;
+el('site').addEventListener('input', lock);
+el('search').addEventListener('input', render);
+el('access').onsubmit = async event => {
+ event.preventDefault();
+ const enteredKey = el('key').value;
+ if (enteredKey) operatorKey = enteredKey;
+ el('key').value = '';
+ // A key remains only in this page's memory until Clear and lock or page exit.
+ el('key').required = !operatorKey;
+ if (!operatorKey) { el('status').textContent = 'Enter the operator key.'; return; }
+ const version = ++requestVersion;
+ const controller = new AbortController();
+ if (activeRequest) activeRequest.abort();
+ activeRequest = controller;
+ el('load').disabled = true;
+ records = []; el('briefs').replaceChildren(); el('status').textContent = 'Loading saved enquiries...';
+ try {
+  const response = await fetch('/api/admin/briefs?site_id=' + encodeURIComponent(el('site').value),
+   {headers: {'X-Aurora-Lead-Admin-Key': operatorKey}, cache: 'no-store', signal: controller.signal});
+  if (!response.ok) throw new Error(response.status === 503 ? 'Operator access is disabled. Configure AURORA_LEAD_ADMIN_KEY before starting the server.' : 'Operator read failed (' + response.status + '). Check the separate operator key.');
+  const rows = await response.json();
+  if (version !== requestVersion) return;
+  if (!Array.isArray(rows)) throw new Error('Invalid brief response; expected an enquiry list.');
+  records = rows;
+  render();
+ } catch (error) {
+  if (version !== requestVersion) return;
+  operatorKey = ''; el('key').required = true;
+  el('status').textContent = error.message;
+ } finally {
+  if (version === requestVersion) { activeRequest = null; el('load').disabled = false; }
+ }
+};
+window.addEventListener('pagehide', lock);
+</script>
+</body>
+</html>

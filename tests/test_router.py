@@ -143,14 +143,14 @@ class TestLLMClassification:
     def test_llm_reply_is_used(self, router, monkeypatch):
         """A valid category from the model is trusted and reported confidently."""
         monkeypatch.setattr(llm_client, "phrase", lambda *a, **k: "commercial")
-        c = router.classify("What is an R-value?")
+        c = router.classify("An ambiguous unexplained message here")
         assert c.category == "commercial"  # proves the model's reply won, not the rules
         assert c.confidence == 0.95
 
     def test_llm_reply_is_normalised(self, router, monkeypatch):
         """Whitespace/casing from the model is tolerated."""
         monkeypatch.setattr(llm_client, "phrase", lambda *a, **k: "  ESCALATE\n")
-        assert router.classify("Is this NCC compliant?").category == "escalate"
+        assert router.classify("An ambiguous unexplained message here").category == "escalate"
 
     def test_invalid_llm_reply_falls_back_to_rules(self, router, monkeypatch):
         """A category outside the allowed set is discarded, not passed through."""

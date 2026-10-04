@@ -14,9 +14,9 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
-from local_db import connect
+from local_db import connect, state_path
 
-DEFAULT_DB = Path(__file__).resolve().parent / "data" / "local" / "sessions.sqlite3"
+DEFAULT_DB = state_path("sessions.sqlite3")
 
 
 class Session:

@@ -11,7 +11,8 @@ import llm_client
 
 # Rules for fallback classification
 _SIZE_Q_RE = re.compile(
-    r"\b(size|thickness|width|depth|height|roll|sheet|dimension|how\s+big|how\s+much|available|stock|order|buy)\b",
+    r"\b(sizes?|thickness(?:es)?|thick|widths?|lengths?|depth|height|rolls?|sheets?|dimensions?|how\s+big|how\s+much|available|stock|order|buy|carry|sell)\b"
+    r"|\bdo\s+you\s+have\b",
     re.IGNORECASE,
 )
 _COMMERCIAL_Q_RE = re.compile(
@@ -39,6 +40,25 @@ _ESCALATE_Q_RE = re.compile(
     r"\b(NCC|fire|BAL|compliance|regulation|certificate|approval|standard|liability|warrant|guarantee|legal|insurance)\b",
     re.IGNORECASE,
 )
+_GREETING_RE = re.compile(r"^(?:hi|hello|hey|good (?:morning|afternoon|evening)|thanks|thank you|cheers)[!. ]*$", re.I)
+_SELECTION_RE = re.compile(
+    r"\b(?:which|what)\b.*\b(?:should|best|suits?|suitable|recommend|need)\b"
+    r"|\b(?:recommend|help me (?:choose|select)|looking for insulation|need insulation|"
+    r"suitable|good for|best for|suit my|right product|can I use|can (?:it|this|that) be used|would .* work|will .* work)\b", re.I,
+)
+_INFORMATION_RE = re.compile(
+    r"^(?:what (?:is|are|does)|how (?:does|do|is)|why|tell me|explain|(?:can|could) you (?:tell|explain|describe|compare)|"
+    r"does|is|are|can (?:it|this|that)|what about|and (?:its|the))\b"
+    r"|\b(?:used for|made (?:of|from)|difference between|compare)\b", re.I,
+)
+
+
+def asks_selection(message: str) -> bool:
+    return bool(_SELECTION_RE.search(message))
+
+
+def asks_question(message: str) -> bool:
+    return bool(_INFORMATION_RE.search(message) or "?" in message)
 
 CLASSIFIER_PROMPT = """Classify the customer's message into ONE of these categories:
 
@@ -83,7 +103,7 @@ class MessageRouter:
     def __init__(self, use_llm: bool = True):
         self.use_llm = use_llm
 
-    def classify(self, message: str) -> RouterClassification:
+    def classify(self, message: str, *, answering: bool = False) -> RouterClassification:
         """
         Classify a message. Returns RouterClassification with category + confidence.
         Falls back to rules if LLM fails.
@@ -101,7 +121,12 @@ class MessageRouter:
         if len(message.split()) <= 2:
             return self._classify_rules(message)
 
-        # Try LLM first
+        # Clear requests and safety boundaries do not need a model round-trip.
+        rules = self._classify_rules(message)
+        if answering or rules.confidence >= 0.6:
+            return rules
+
+        # Only an ambiguous message needs optional local interpretation.
         if self.use_llm:
             try:
                 result = self._classify_llm(message)
@@ -111,7 +136,7 @@ class MessageRouter:
                 pass  # Fall through to rules
 
         # Fallback to rules
-        return self._classify_rules(message)
+        return rules
 
     def _classify_llm(self, message: str) -> RouterClassification | None:
         """Use the local model to classify. Returns None on failure."""
@@ -135,6 +160,8 @@ class MessageRouter:
         """Fallback rules-based classification."""
         msg_lower = message.lower()
 
+        if _GREETING_RE.fullmatch(message.strip()):
+            return RouterClassification("greeting", confidence=1.0)
         # Check escalate first (highest priority)
         if _ESCALATE_Q_RE.search(msg_lower):
             return RouterClassification("escalate", confidence=0.7)
@@ -155,10 +182,15 @@ class MessageRouter:
         if _COMMERCIAL_Q_RE.search(msg_lower):
             return RouterClassification("commercial", confidence=0.7)
 
+        if asks_selection(message):
+            return RouterClassification("product-fit", confidence=0.8)
+
         # Check size/availability
         if _SIZE_Q_RE.search(msg_lower):
             return RouterClassification("size-availability", confidence=0.7)
 
+        if asks_question(message):
+            return RouterClassification("informational", confidence=0.8)
         # Check if sounds like product-fit (e.g., describing a scenario)
         if any(kw in msg_lower for kw in ["my", "our", "house", "building", "garage", "attic", "retrofit", "new build", "basement"]):
             return RouterClassification("product-fit", confidence=0.6)

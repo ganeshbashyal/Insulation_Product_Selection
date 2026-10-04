@@ -9,10 +9,8 @@ from typing import Any, Protocol
 class ToolResult:
     """What a tool produced, plus what should be logged for it.
 
-    ``done`` mirrors the existing escalate/commercial behaviour: those turns
-    end the conversation. A tool sets it False to allow follow-up turns (not
-    used by the current placeholders, but freight/tracking will need it once
-    they support "what about a 40ft container" style follow-ups).
+    ``done`` reports completion without forcing an informational interruption
+    to end a selection flow. Local placeholders preserve the caller's state.
     """
 
     reply: str

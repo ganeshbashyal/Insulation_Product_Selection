@@ -9,8 +9,9 @@ def test_catalogue_and_evidence_are_valid():
 
 
 def isolated_catalogue(tmp_path):
-    for name in ("knowledge", "schemas", "data"):
+    for name in ("knowledge", "schemas"):
         shutil.copytree(validator.ROOT / name, tmp_path / name)
+    shutil.copytree(validator.ROOT / "data" / "processed", tmp_path / "data" / "processed")
     return tmp_path
 
 

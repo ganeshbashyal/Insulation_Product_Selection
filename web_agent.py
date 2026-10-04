@@ -61,11 +61,13 @@ import hmac
 import os
 import threading
 import uuid
+import sys
+from pathlib import Path
 from typing import Any
 
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import HTMLResponse, JSONResponse
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 import agent_core
 import interaction_store
@@ -78,6 +80,26 @@ from site_config import load_all_sites, SiteConfigError, is_production
 from widget_config import WidgetConfigProvider
 
 app = FastAPI(title="Insulation Enquiry Agent", version="2.0.0")
+SERVING_ONLY = os.getenv("AURORA_SERVING_ONLY", "false").casefold() == "true"
+if SERVING_ONLY:
+    if not os.getenv("AURORA_RELEASE_DIR"):
+        raise RuntimeError("Serving-only mode requires an explicitly activated knowledge release")
+else:
+    from research_api import router as research_router
+    app.include_router(research_router)
+from storefront_api import build_router as build_storefront_router
+app.include_router(build_storefront_router(sys.modules[__name__]))
+
+
+@app.middleware("http")
+async def research_response_privacy(request: Request, call_next):
+    response = await call_next(request)
+    if request.url.path.startswith(("/api/research", "/admin/products", "/admin/knowledge", "/admin/competitors")):
+        response.headers["Cache-Control"] = "no-store"
+        response.headers["Referrer-Policy"] = "no-referrer"
+        response.headers["X-Content-Type-Options"] = "nosniff"
+        response.headers["X-Frame-Options"] = "DENY"
+    return response
 
 # Production hardening switches. Both default to the safe value whenever
 # AURORA_ENV=production, so a production deployment is locked down even if the
@@ -121,10 +143,12 @@ WARM_TIMEOUT_SECONDS = float(os.getenv("AURORA_WARM_TIMEOUT_SECONDS", "300"))
 # back to the literal text on any later failure, so this is never a
 # reliability risk, only a quality upgrade when the model is actually there.
 _use_llm_env = os.getenv("AGENT_USE_LLM")
-if _use_llm_env is not None:
+if SERVING_ONLY:
+    USE_LLM = False
+elif _use_llm_env is not None:
     USE_LLM = _use_llm_env.casefold() == "true"
 else:
-    USE_LLM = llm_client.ollama_available()
+    USE_LLM = False if IS_PRODUCTION else llm_client.ollama_available()
     print(f"OK - AGENT_USE_LLM not set; auto-detected Ollama {'reachable' if USE_LLM else 'unreachable'} -> USE_LLM={USE_LLM}")
 
 
@@ -195,6 +219,19 @@ async def startup():
         threading.Thread(target=_warm_ollama, daemon=True).start()
 
 
+@app.get("/health/live")
+def live():
+    return {"status": "alive"}
+
+
+@app.get("/health/ready")
+def ready():
+    if session_store is None or conversation_service is None or not sites:
+        raise HTTPException(503, "Service not initialized")
+    return {"status": "ready", "serving_only": SERVING_ONLY,
+            "release_id": conversation_service.product_answers.release["release_id"]
+            if conversation_service.product_answers.release else None}
+
 
 class StartResponse(BaseModel):
     conversation_id: str
@@ -202,7 +239,7 @@ class StartResponse(BaseModel):
 
 
 class MessageRequest(BaseModel):
-    message: str
+    message: str = Field(min_length=1, max_length=4000)
     manufacturer_scope: str | None = None
 
 
@@ -239,7 +276,7 @@ form{display:flex;gap:8px;padding:12px;border-top:1px solid var(--line);backgrou
 input{flex:1;padding:11px 13px;border:1px solid var(--line);border-radius:10px;font-size:.95rem}
 button{padding:11px 18px;border:0;border-radius:10px;background:var(--teal);color:#fff;font-weight:700;cursor:pointer}
 </style></head><body>
-<header><h1>Insulation Enquiry</h1><p>Evidence-led family recommendation &middot; human review before quoting</p></header>
+<header><h1>Insulation Enquiry</h1><p>Project discovery and product facts &middot; human-reviewed selection</p></header>
 <div id="log"></div>
 <form id="f"><input id="in" autocomplete="off" placeholder="Type your answer&hellip;"><button>Send</button></form>
 <script>
@@ -384,7 +421,7 @@ async def start_conversation(request: Request, site_id: str = "local") -> JSONRe
         {**conversation.to_dict(), "messages": []},
     )
 
-    opening = agent_core.QUESTIONS[0][1]
+    opening = agent_core.OPENING
     if USE_LLM:
         opening = agent_core._phrase(opening, True, is_opening=True)
 
@@ -448,30 +485,53 @@ async def learning_families(request: Request, site_id: str = "local") -> JSONRes
 @app.get("/api/learning/pending")
 async def learning_pending(request: Request, site_id: str = "local") -> JSONResponse:
     """Get conversations awaiting review. Requires X-API-Key header."""
-    cors_headers = _auth_and_cors(request, site_id)
-    pending = interaction_store.pending_review()
-    return JSONResponse(pending, headers=cors_headers)
+    _require_lead_admin(request)
+    pending = [row for row in interaction_store.pending_review() if row["site_id"] == site_id]
+    return JSONResponse(pending, headers={"Cache-Control": "no-store"})
+
+
+def _require_lead_admin(request: Request) -> None:
+    expected_key = os.getenv("AURORA_LEAD_ADMIN_KEY", "")
+    if not expected_key:
+        raise HTTPException(status_code=503, detail="Operator access is disabled until AURORA_LEAD_ADMIN_KEY is configured")
+    supplied_key = request.headers.get("X-Aurora-Lead-Admin-Key", "")
+    if not hmac.compare_digest(supplied_key, expected_key):
+        raise HTTPException(status_code=401, detail="Invalid lead admin key")
 
 
 @app.get("/api/admin/leads")
 async def admin_leads(request: Request, site_id: str | None = None) -> JSONResponse:
     """Read captured leads using a separate, server-side admin key."""
-    expected_key = os.getenv("AURORA_LEAD_ADMIN_KEY", "")
-    if not expected_key:
-        raise HTTPException(
-            status_code=503,
-            detail="Lead access is disabled until AURORA_LEAD_ADMIN_KEY is configured",
-        )
-    supplied_key = request.headers.get("X-Aurora-Lead-Admin-Key", "")
-    if not hmac.compare_digest(supplied_key, expected_key):
-        raise HTTPException(status_code=401, detail="Invalid lead admin key")
-    return JSONResponse(interaction_store.leads(site_id=site_id))
+    _require_lead_admin(request)
+    return JSONResponse(interaction_store.leads(site_id=site_id), headers={"Cache-Control": "no-store"})
+
+
+@app.get("/api/admin/briefs")
+async def admin_briefs(request: Request, site_id: str = "local") -> JSONResponse:
+    _require_lead_admin(request)
+    return JSONResponse(interaction_store.sales_briefs(site_id), headers={"Cache-Control": "no-store"})
+
+
+@app.get("/api/admin/briefs/{conversation_id}")
+async def admin_brief(conversation_id: str, request: Request, site_id: str = "local") -> JSONResponse:
+    _require_lead_admin(request)
+    record = next((row for row in interaction_store.sales_briefs(site_id) if row["conversation_id"] == conversation_id), None)
+    if record is None:
+        raise HTTPException(status_code=404, detail="Brief not found for this site")
+    return JSONResponse(record, headers={"Cache-Control": "no-store"})
+
+
+@app.get("/admin/briefs")
+async def operator_preview() -> HTMLResponse:
+    # This page contains no records or secret; all reads require the admin header.
+    page = Path(__file__).resolve().parent / "templates" / "sales_briefs.html"
+    return HTMLResponse(page.read_text(encoding="utf-8"), headers={"Cache-Control": "no-store", "Referrer-Policy": "no-referrer"})
 
 
 @app.post("/api/learning/outcomes")
 async def learning_outcome(body: OutcomeRequest, request: Request, site_id: str = "local") -> JSONResponse:
     """Record an outcome for a conversation. Requires X-API-Key header."""
-    cors_headers = _auth_and_cors(request, site_id)
+    _require_lead_admin(request)
 
     try:
         interaction_store.record_outcome(
@@ -485,12 +545,12 @@ async def learning_outcome(body: OutcomeRequest, request: Request, site_id: str 
     except ValueError as exc:
         raise HTTPException(status_code=400, detail=str(exc)) from exc
 
-    return JSONResponse({"status": "recorded"}, headers=cors_headers)
+    return JSONResponse({"status": "recorded"}, headers={"Cache-Control": "no-store"})
 
 
 @app.get("/api/learning/rejections")
 async def learning_rejections(request: Request, site_id: str = "local") -> JSONResponse:
     """Get recent rejections for tuning. Requires X-API-Key header."""
-    cors_headers = _auth_and_cors(request, site_id)
-    rejections = interaction_store.rejection_report()
-    return JSONResponse(rejections, headers=cors_headers)
+    _require_lead_admin(request)
+    rejections = [row for row in interaction_store.rejection_report() if row["site_id"] == site_id]
+    return JSONResponse(rejections, headers={"Cache-Control": "no-store"})

@@ -17,12 +17,14 @@ import argparse
 import csv
 import json
 import re
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 KNOWLEDGE = ROOT / "knowledge"
 MANIFEST = KNOWLEDGE / "_tds_manifest.json"
 REPORTS = ROOT / "reports"
+sys.path.insert(0, str(ROOT))
 
 ACCESSORY_WORDS = {
     "accessories",
@@ -108,20 +110,17 @@ def _manifest_has_file(entry: dict) -> bool:
 
 
 def _research_rows() -> list[dict]:
-    manifest = _load_manifest()
+    from family_knowledge import load_families
+    from local_source_review import SourceReview
+    sources = SourceReview(ROOT)
     rows: list[dict] = []
 
-    for path in sorted(KNOWLEDGE.glob("*/research/*.json")):
-        data = json.loads(path.read_text(encoding="utf-8"))
-        family_id = data.get("family_id") or path.stem.upper()
-        family_name = data.get("family_name") or data.get("name") or path.stem
-        manufacturer = path.parent.parent.name
-        manifest_entry = manifest.get(family_id)
-        has_manifest_file = bool(manifest_entry and _manifest_has_file(manifest_entry))
-        local_path = data.get("datasheet_local_path")
-        has_local_path = bool(local_path and (ROOT / local_path).exists())
-
-        if has_manifest_file or has_local_path:
+    for family_id, family in load_families(ROOT).items():
+        data = sources.research.get(family_id, {})
+        family_name = family["name"]
+        manufacturer = family["manufacturer"]
+        manifest_entry = sources.manifest.get(family_id)
+        if any(document["exists"] for document in sources.documents(family_id)):
             continue
 
         accessory = _is_accessory(family_name)
@@ -144,13 +143,50 @@ def _research_rows() -> list[dict]:
     return rows
 
 
+def _preserve_manual(path: Path, rows: list[dict]) -> list[dict]:
+    """Keep user columns and resolved historical requests, keyed by family ID."""
+    if not path.exists():
+        return rows
+    if path.suffix == ".csv":
+        with path.open(encoding="utf-8-sig", newline="") as handle:
+            previous = list(csv.DictReader(handle))
+    else:
+        from openpyxl import load_workbook
+        book = load_workbook(path, read_only=True, data_only=False)
+        try:
+            if len(book.worksheets) != 1:
+                raise ValueError(f"{path.name}: multiple manual sheets; refusing automatic replacement")
+            values = book.active.values
+            headers = next(values, ())
+            if "family_id" not in headers:
+                raise ValueError(f"{path.name}: no family_id; cannot preserve manual work")
+            previous = [dict(zip(headers, row)) for row in values if any(value is not None for value in row)]
+        finally:
+            book.close()
+    old = {}
+    for row in previous:
+        key = row.get("family_id")
+        if not key or key in old:
+            raise ValueError(f"{path.name}: missing/duplicate family ID; cannot preserve manual work")
+        old[key] = row
+    result = []
+    generated = set(rows[0]) - {"supplied_tds_url"} if rows else set()
+    for row in rows:
+        manual = {key: value for key, value in old.pop(row["family_id"], {}).items() if key not in generated}
+        result.append({**row, **manual})
+    result.extend({**row, "missing_reason": "historical_request_retained"} for row in old.values())
+    return result
+
+
 def _write_csv(path: Path, rows: list[dict]) -> None:
+    rows = _preserve_manual(path, rows)
     path.parent.mkdir(parents=True, exist_ok=True)
     if not rows:
         path.write_text("", encoding="utf-8")
         return
     with path.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=list(rows[0]))
+        fields = list(dict.fromkeys(key for row in rows for key in row))
+        writer = csv.DictWriter(handle, fieldnames=fields)
         writer.writeheader()
         writer.writerows(rows)
 
@@ -160,6 +196,7 @@ def _write_xlsx(path: Path, rows: list[dict]) -> bool:
         import pandas as pd
     except ImportError:
         return False
+    rows = _preserve_manual(path, rows)
     path.parent.mkdir(parents=True, exist_ok=True)
     pd.DataFrame(rows).to_excel(path, index=False)
     return True
@@ -177,10 +214,17 @@ def _summarise(label: str, rows: list[dict]) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--no-xlsx", action="store_true", help="write CSV only")
+    parser.add_argument("--confirm-write", action="store_true",
+                        help="regenerate reports preserving manual fields; back up authoring data first")
     args = parser.parse_args()
 
     all_missing = _research_rows()
     products = [row for row in all_missing if row["accessory"] == "no"]
+    if not args.confirm_write:
+        _summarise("preview missing including accessories", all_missing)
+        _summarise("preview missing products only", products)
+        print("Read-only preview. --confirm-write is required; authoring backup first.")
+        return
 
     _write_csv(REPORTS / "missing_tds.csv", all_missing)
     _write_csv(REPORTS / "missing_tds_products.csv", products)

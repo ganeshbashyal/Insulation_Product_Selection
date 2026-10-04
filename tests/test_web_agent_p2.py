@@ -7,6 +7,29 @@ import interaction_store
 from web_agent import app, startup
 
 
+def test_api_product_topic_survives_persisted_turns(client, tmp_path, monkeypatch):
+    import web_agent
+    from conversation_service import ConversationService
+    from session_store import SQLiteSessionStore
+
+    monkeypatch.setattr(web_agent, "session_store", SQLiteSessionStore(tmp_path / "sessions.sqlite3"))
+    monkeypatch.setattr(web_agent, "conversation_service", ConversationService(use_llm=False))
+    monkeypatch.setattr(interaction_store, "DEFAULT_DB", tmp_path / "interactions.sqlite3")
+    headers = {"X-API-Key": "sk_local_dev_test"}
+    start = client.post("/api/conversations?site_id=local", headers=headers).json()
+    assert "product question" in start["reply"]
+    session_id = start["conversation_id"]
+    route = f"/api/conversations/{session_id}/messages?site_id=local"
+    first = client.post(route, headers=headers, json={"message": "Tell me about NuWrap 5"}).json()
+    second = client.post(route, headers=headers, json={"message": "What is it used for?"}).json()
+    assert first["category"] == second["category"] == "informational"
+    assert "NuWrap 5" in second["reply"]
+    saved = json.loads(web_agent.session_store.get(session_id, "local").conversation_json)
+    assert saved["step"] == 0
+    assert saved["topic_products"] == ["THERMOTEC_NUWRAP_5"]
+    assert len(saved["messages"]) == 4
+
+
 @pytest.fixture
 def client():
     """FastAPI test client with startup initialization."""
@@ -227,6 +250,10 @@ class TestLeadAccess:
 class TestLearningEndpoints:
     """Tests for /api/learning/* endpoints with auth."""
 
+    @pytest.fixture(autouse=True)
+    def operator_key(self, monkeypatch):
+        monkeypatch.setenv("AURORA_LEAD_ADMIN_KEY", "synthetic-operator-key")
+
     def test_learning_families_requires_auth(self, client):
         """GET /api/learning/families requires API key."""
         response = client.get("/api/learning/families?site_id=local")
@@ -249,10 +276,10 @@ class TestLearningEndpoints:
         assert response.status_code == 401
 
     def test_learning_pending_with_auth(self, client):
-        """GET /api/learning/pending with API key returns data."""
+        """Separate operator key is required; a widget key is insufficient."""
         response = client.get(
             "/api/learning/pending?site_id=local",
-            headers={"X-API-Key": "sk_local_dev_test"}
+            headers={"X-Aurora-Lead-Admin-Key": "synthetic-operator-key"}
         )
         assert response.status_code == 200
         data = response.json()
@@ -279,7 +306,7 @@ class TestLearningEndpoints:
                 "outcome": "approved",
                 "reviewer": "tester"
             },
-            headers={"X-API-Key": "sk_local_dev_test"}
+            headers={"X-Aurora-Lead-Admin-Key": "synthetic-operator-key"}
         )
         # May fail with 404/500 if conversation doesn't exist, but auth should pass
         assert response.status_code in (200, 400, 404)
@@ -293,7 +320,7 @@ class TestLearningEndpoints:
         """GET /api/learning/rejections with API key returns data."""
         response = client.get(
             "/api/learning/rejections?site_id=local",
-            headers={"X-API-Key": "sk_local_dev_test"}
+            headers={"X-Aurora-Lead-Admin-Key": "synthetic-operator-key"}
         )
         assert response.status_code == 200
         data = response.json()

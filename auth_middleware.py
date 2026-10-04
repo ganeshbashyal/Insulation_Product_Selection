@@ -18,8 +18,9 @@ from typing import Any, Callable
 from site_config import SiteConfig, load_all_sites, SiteConfigError
 
 ROOT = Path(__file__).resolve().parent
-DEFAULT_AUDIT_DB = ROOT / "data" / "local" / "audit.sqlite3"
-DEFAULT_RATE_LIMIT_DB = ROOT / "data" / "local" / "rate_limits.sqlite3"
+from local_db import state_path
+DEFAULT_AUDIT_DB = state_path("audit.sqlite3")
+DEFAULT_RATE_LIMIT_DB = state_path("rate_limits.sqlite3")
 
 
 class RateLimiter(ABC):

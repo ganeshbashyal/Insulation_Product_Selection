@@ -13,6 +13,7 @@ the caller-supplied literal text, not a broken demo.
 from __future__ import annotations
 
 import json
+import logging
 import os
 import re
 import urllib.error
@@ -33,6 +34,7 @@ OLLAMA_TIMEOUT_SECONDS = float(os.getenv("OLLAMA_TIMEOUT_SECONDS", "60"))
 # free RAM, and pinning several models for an hour was enough to push it into
 # swap-thrashing. Operators can raise OLLAMA_KEEP_ALIVE on a GPU/prod host.
 OLLAMA_KEEP_ALIVE = os.getenv("OLLAMA_KEEP_ALIVE", "5m")
+LOGGER = logging.getLogger(__name__)
 
 GUARDRAIL_SYSTEM_PROMPT = """You are a warm, concise sales-engineer assistant for an insulation supplier.
 
@@ -158,7 +160,8 @@ def generate_reply(
             request, timeout=timeout if timeout is not None else OLLAMA_TIMEOUT_SECONDS
         ) as response:
             data = json.loads(response.read().decode("utf-8"))
-    except (urllib.error.URLError, TimeoutError, OSError, json.JSONDecodeError):
+    except (urllib.error.URLError, TimeoutError, OSError, json.JSONDecodeError) as exc:
+        LOGGER.warning("Local wording unavailable (%s); retaining grounded text", type(exc).__name__)
         return None
     content = (data.get("message") or {}).get("content", "").strip()
     return content or None
@@ -203,6 +206,14 @@ def is_safe_reply(text: str | None, max_length: int = 400, source: str | None = 
         return False
     if source is not None:
         source_lowered = source.casefold()
+        source_numbers = set(re.findall(r"\d+(?:\.\d+)?", source))
+        if not set(re.findall(r"\d+(?:\.\d+)?", text)).issubset(source_numbers):
+            return False
+        if "?" in source and (text.count("?") != source.count("?")):
+            return False
+        for claim in ("guarantee", "compliant", "fire-rated", "fire rated", "soundproof", "will", "ensure"):
+            if re.search(rf"\b{re.escape(claim)}\b", lowered) and not re.search(rf"\b{re.escape(claim)}\b", source_lowered):
+                return False
         for emphasised in re.findall(r"\*\*(.+?)\*\*", text):
             if emphasised.casefold().strip() not in source_lowered:
                 return False

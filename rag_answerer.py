@@ -1,57 +1,22 @@
-"""RAG over knowledge base: answer informational questions with citations.
+"""Retrieve general local references, without inventing an answer.
 
-Queries knowledge/industry/** (Q&A pairs, generated RAG chunks and compliance
-docs), embeds with local Ollama, returns the top-6 by dense similarity and
-generates an answer via the local LLM with mandatory inline citations.
+Product properties use the separate governed product-answer path. This reader
+returns a relevant source excerpt; optional dense retrieval stays local.
 """
 from __future__ import annotations
 
 import json
-import os
+import logging
 import re
 from pathlib import Path
 
 import numpy as np
 
-import llm_client
 from hybrid_retrieval import _ollama_embed, embeddings_available, load_or_embed_cards
 
 ROOT = Path(__file__).resolve().parent
+LOGGER = logging.getLogger(__name__)
 KNOWLEDGE_DIR = ROOT / "knowledge" / "industry"
-
-# A grounded RAG answer sends several KB of context, so it needs a longer
-# deadline than the short conversational rephrases llm_client defaults to.
-RAG_TIMEOUT_SECONDS = float(os.environ.get("RAG_TIMEOUT_SECONDS", "120"))
-
-RAG_SYSTEM_PROMPT = (
-    "You are an Australian insulation and construction assistant. Answer only "
-    "from the knowledge sources supplied in the user message. Cite the source "
-    "for every claim. If the sources do not cover the question, say so plainly. "
-    "Never assert that a product or build-up is NCC-compliant; compliance is "
-    "determined by the project's certifier."
-)
-
-RAG_ANSWER_PROMPT = """Based ONLY on these knowledge sources, answer the customer's question.
-
-Question: {question}
-
-Knowledge:
-{knowledge}
-
-Requirements:
-1. Answer concisely (2-3 sentences max)
-2. Use ONLY information from the knowledge sources above
-3. Cite with the bracketed number of the source, e.g. [1] or [2], at the end of
-   each sentence it supports. Cite each source once per sentence - never repeat
-   the same marker several times in one sentence.
-4. If sources don't cover the question, say "I don't have enough information about that"
-5. Never make up information or cite sources that weren't provided
-6. Write in plain text. Never use LaTeX or maths markup - write ">=" not "\\ge",
-   and "->" not "\\rightarrow".
-
-Answer:
-"""
-
 
 def _citation_label(chunk: dict) -> str:
     """Human-readable citation for a chunk.
@@ -70,30 +35,6 @@ def _citation_label(chunk: dict) -> str:
             return f"{topic} - {module}"
         return topic
     return (chunk.get("source") or "unknown").strip()
-
-
-def _expand_citations(text: str, ranked: list[dict]) -> str:
-    """Rewrite the model's [n] markers into readable [topic](topic) links.
-
-    Small local models emit numeric markers far more reliably than they
-    reproduce long labels, so we ask for [n] and resolve it deterministically
-    here. Out-of-range markers are dropped rather than shown to the customer.
-    """
-    def replace(match: re.Match) -> str:
-        labels = []
-        for raw in re.split(r"[,\s]+", match.group(1)):
-            if not raw.isdigit():
-                continue
-            idx = int(raw)
-            if 1 <= idx <= len(ranked):
-                label = _citation_label(ranked[idx - 1])
-                if label not in labels:
-                    labels.append(label)
-        return "".join(f"[{lab}]({lab})" for lab in labels)
-
-    # Models group markers as [5, 6] as well as [5], so accept both forms.
-    text = re.sub(r"\[(\d+(?:\s*,\s*\d+)*)\]", replace, text)
-    return re.sub(r"\s+([.,;])", r"\1", text).strip()
 
 
 class RAGAnswerer:
@@ -197,16 +138,17 @@ class RAGAnswerer:
         self._load_embeddings()
         cls._shared_embeddings = self.embeddings
 
-    def _rank_chunks(self, question: str, top_k: int = 6) -> list[dict]:
+    def _rank_chunks(self, question: str, top_k: int = 6, *, use_embeddings: bool = True) -> list[dict]:
         """Rank knowledge chunks against the question.
 
         Uses dense cosine similarity when embeddings are available, and falls
         back to keyword overlap so retrieval still discriminates when Ollama is
         unreachable.
         """
-        self._ensure_embeddings()
+        if use_embeddings:
+            self._ensure_embeddings()
         query_vec = None
-        if self.embeddings:
+        if use_embeddings and self.embeddings:
             try:
                 raw = _ollama_embed(question[:2000])
                 if raw:
@@ -249,38 +191,33 @@ class RAGAnswerer:
         if not self.knowledge_chunks:
             return {"answer": "Knowledge base not available", "sources": [], "confidence": 0.0, "retrieval_mode": "unavailable"}
 
+        if re.search(r"\b(?:rating|performance|density|r[\s-]?value|rw|nrc)\b", question, re.I):
+            return {"answer": "I need the exact product and verified performance evidence to answer that property. Which product do you mean?", "sources": [], "confidence": 0.0, "retrieval_mode": "none"}
+
         try:
-            ranked = self._rank_chunks(question)
-        except Exception:
-            ranked = self.knowledge_chunks[:6]
+            ranked = self._rank_chunks(question, use_embeddings=use_llm)
+        except (OSError, ValueError, RuntimeError):
+            LOGGER.exception("Knowledge retrieval failed")
+            return {"answer": "I couldn't read the local knowledge for that question. Please ask the team to check it.", "sources": [], "confidence": 0.0, "retrieval_mode": "unavailable"}
 
         if not ranked:
             return {"answer": "No relevant information found", "sources": [], "confidence": 0.0, "retrieval_mode": "none"}
 
-        # Format knowledge for prompt
-        knowledge_text = ""
-        for i, chunk in enumerate(ranked):
-            label = _citation_label(chunk)
-            text = chunk.get("text", chunk.get("content", ""))
-            knowledge_text += f"[{i+1}] ({label}): {text}\n\n"
+        # Generic word overlap is not evidence that a source answers a query.
+        stop = {"what", "which", "where", "when", "does", "this", "that", "about", "tell", "explain", "have", "with", "your", "from", "information", "insulation", "please"}
+        terms = {term for term in re.findall(r"[a-z0-9]+", question.lower()) if len(term) > 2} - stop
+        ranked = [
+            chunk for chunk in ranked
+            if terms and sum(term in chunk.get("text", chunk.get("content", "")).lower() for term in terms) / len(terms) >= 0.7
+        ]
+        if not ranked:
+            return {"answer": "I don't have enough relevant local information to answer that. Please share the product name or the specific detail you need.", "sources": [], "confidence": 0.0, "retrieval_mode": "none"}
 
-        # Generate answer via LLM
-        answer = f"Retrieved {len(ranked)} relevant sources"
-        if use_llm:
-            try:
-                prompt = RAG_ANSWER_PROMPT.format(question=question, knowledge=knowledge_text)
-                # generate_reply returns None when Ollama is unavailable; phrase()
-                # would echo the prompt back as its fallback text, so call the
-                # generator directly and keep the deterministic fallback here.
-                reply = llm_client.generate_reply(
-                    RAG_SYSTEM_PROMPT, prompt, max_tokens=400, timeout=RAG_TIMEOUT_SECONDS
-                )
-                if reply and reply.strip():
-                    answer = _expand_citations(reply.strip(), ranked)
-                else:
-                    answer = f"Retrieved {len(ranked)} sources but LLM unavailable"
-            except Exception:
-                answer = f"Retrieved {len(ranked)} sources but LLM unavailable"
+        excerpt = ranked[0].get("text", ranked[0].get("content", "")).strip()
+        excerpt = re.split(r"(?<=[.!?])\s+", excerpt)[0]
+        if len(excerpt) > 500 or re.search(r"\b(?:R\d|Rw\s*\d|NRC\s*\d|\d+(?:\.\d+)?\s*(?:mm|dB|kg|%))", excerpt, re.I):
+            return {"answer": "The local source needs a more specific question before I can give a concise answer. What detail do you need?", "sources": [], "confidence": 0.0, "retrieval_mode": "none"}
+        answer = f"From the local reference: {excerpt}\nSource: {_citation_label(ranked[0])}."
 
         # Extract sources from answer (look for citations)
         sources = list(dict.fromkeys(_citation_label(chunk) for chunk in ranked))
@@ -289,5 +226,5 @@ class RAGAnswerer:
             "answer": answer,
             "sources": sources,
             "confidence": 0.8 if ranked else 0.0,
-            "retrieval_mode": "dense" if self.embeddings else "lexical",
+            "retrieval_mode": "dense" if use_llm and self.embeddings else "lexical",
         }

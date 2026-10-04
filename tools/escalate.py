@@ -1,5 +1,4 @@
-"""Compliance/legal/safety hand-off. Extracted from web_agent.py's former
-if/elif chain; behaviour is unchanged from before the registry existed."""
+"""Explain the compliance boundary without closing intake or promising contact."""
 from __future__ import annotations
 
 from typing import Any
@@ -14,13 +13,13 @@ class EscalateTool:
         return category == "escalate"
 
     def run(self, message: str, conversation: Any, site_id: str) -> ToolResult:
-        conversation.done = True
         return ToolResult(
             reply=(
-                "Thank you for that information. This requires our team's "
-                "attention. We'll be in touch shortly."
+                "I cannot confirm project compliance, fire or BAL suitability. "
+                "The technical team needs to review the exact product, complete construction "
+                "and project requirements. You can still ask me about documented product facts."
             ),
-            done=True,
+            done=conversation.done,
             log_status="routed:escalate",
             log_reason="Router classified this as escalate; no product recommendation was made.",
         )

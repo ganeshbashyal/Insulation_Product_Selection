@@ -119,7 +119,8 @@ def build(source: Path, output: Path, source_retrieved_at: str, manifest_output:
     result["family_confidence"] = rows["family_id"].map(lambda value: families[value]["confidence"])
     result["family_recommendation_eligible"] = rows["family_id"].map(lambda value: recommendation_allowed(families[value]))
     result["verified_evidence_available"] = rows["family_id"].map(lambda family_id: any(item["evidence_status"] == "verified" for item in evidence[family_id]["evidence_items"]))
-    result["sku_selection_eligible"] = result["family_recommendation_eligible"] & result["verified_evidence_available"] & result["validation_status"].astype(str).str.upper().eq("PASS") & result["bot_content_status"].astype(str).str.upper().eq("READY")
+    # Generated source CSV is not a published exact-row human decision.
+    result["sku_selection_eligible"] = False
     result["source_workbook"] = source.name
     result["source_sha256"] = source_hash
     result["source_retrieved_at"] = source_retrieved_at

@@ -130,7 +130,7 @@ def check_tds_pdfs() -> CheckResult:
     tds_dir = ROOT / "data" / "tds"
     if not tds_dir.exists():
         return CheckResult("Raw TDS PDFs (data/tds/)", "missing", "data/tds/ folder does not exist.")
-    pdfs = list(tds_dir.glob("*.pdf"))
+    pdfs = list(tds_dir.rglob("*.pdf"))
     if not pdfs:
         return CheckResult("Raw TDS PDFs (data/tds/)", "warn", "Folder exists but has no PDFs - local_pdf_parser.py has nothing to parse. This is expected if you're relying on the structured xlsx/JSON path instead.")
     return CheckResult("Raw TDS PDFs (data/tds/)", "ok", f"{len(pdfs)} PDF(s) present.", _mtime(tds_dir), {"count": len(pdfs)})
@@ -197,16 +197,31 @@ ALL_CHECKS = [
 ]
 
 
-def run_all() -> list[CheckResult]:
-    return [check() for check in ALL_CHECKS]
+def run_all(profile: str = "legacy") -> list[CheckResult]:
+    if profile == "legacy":
+        return [check() for check in ALL_CHECKS]
+    if profile != "authoring":
+        raise ValueError("Health profile must be authoring or legacy")
+    from knowledge_service import KnowledgeService
+    report = KnowledgeService(ROOT).validation()
+    return [
+        CheckResult("Retained family knowledge", "ok" if report["family_count"] else "missing",
+                    f"{report['family_count']} families; guides and research are not approval."),
+        CheckResult("Family source coverage", "warn" if report["families_with_linked_sources"] < report["family_count"] else "ok",
+                    f"{report['families_with_linked_sources']} families with held sources; lost-original knowledge is retained."),
+        CheckResult("Current publication", "ok" if report["publication_state"] == "published" else "warn",
+                    report["publication_state"] + "; no automatic completeness or suitability certification."),
+        CheckResult("Commercial rows", "ok" if report["sku_count"] else "warn",
+                    f"{report['sku_count']} distinct rows; {report['families_without_skus']} families without rows."),
+    ]
 
 
 def _status_icon(status: str) -> str:
     return {"ok": "OK", "warn": "WARN", "missing": "MISSING"}.get(status, "?")
 
 
-def print_report() -> None:
-    for result in run_all():
+def print_report(profile: str = "authoring") -> None:
+    for result in run_all(profile):
         print(f"[{_status_icon(result.status)}] {result.name}")
         print(f"    {result.detail}")
         if result.last_modified:
@@ -215,4 +230,7 @@ def print_report() -> None:
 
 
 if __name__ == "__main__":
-    print_report()
+    import argparse
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--profile", choices=["authoring", "legacy"], default="authoring")
+    print_report(parser.parse_args().profile)
