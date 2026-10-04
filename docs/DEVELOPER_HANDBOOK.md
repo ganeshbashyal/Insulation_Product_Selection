@@ -2,6 +2,11 @@
 
 ## Delivery boundary
 
+For the combined PR #26 and recent work, private-data retention checks and
+same-machine VS Code resume instructions, see
+[the complete Aurora handover](AURORA_PACKAGE_HANDOVER.md). A GitHub checkout
+contains code, not the private local authoring/archive/runtime state.
+
 Aurora is a local-first insulation knowledge and enquiry application. It answers
 supported product questions, gathers project details and creates private human
 review briefs. It does not approve customer suitability, installations,
@@ -18,9 +23,11 @@ Validation, explicit local PDF intake, versioned commercial previews/activation,
 private competitor inspection/review/export, content-addressed serving releases, reusable
 storefront widget, serving-only dependency profile and SQLite backup/restore.
 See the [local deployment runbook](LOCAL_DEPLOYMENT.md) for commands and limitations.
-**Still owner-input-gated:** remaining supplier documents, actual human claim
-review, the refreshed workbook, production domains/TLS and target-host capacity/
-retention decisions. These features do not prove that real deployment is complete.
+**Still owner-input-gated:** unresolved source/variant gaps and actual human
+claim review, production domains/TLS and target-host capacity/retention decisions.
+Existing document collection and compilation are frozen and complete within
+their supplied-source scope; gaps do not authorise another gathering pass.
+These features do not prove that real deployment is complete.
 
 ## Navigation
 

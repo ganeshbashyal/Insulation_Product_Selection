@@ -2,6 +2,12 @@
 
 ## Mission and hard boundaries
 
+The combined PR #26 and recent code is on the current development branch.
+Use [the complete Aurora handover](docs/AURORA_PACKAGE_HANDOVER.md) for verified
+retention, private backup/restore limits and VS Code resume instructions.
+Only accepted code/documentation is pushed to GitHub; private documents,
+databases, generated outputs and credentials remain local.
+
 After repeated weak local-model drafts, the owner approved a deterministic
 deployment-readiness path preserving the existing multi-site FastAPI service.
 Use [the developer handbook](docs/DEVELOPER_HANDBOOK.md) for current architecture,

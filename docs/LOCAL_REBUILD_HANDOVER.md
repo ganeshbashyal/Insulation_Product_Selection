@@ -2,6 +2,11 @@
 
 ## Status and scope
 
+For the combined PR #26 plus recent-code baseline and private-data retention,
+use [the complete Aurora handover](AURORA_PACKAGE_HANDOVER.md). Code is committed
+and pushed; private data stays local. The maintenance task queue below is
+historical, not an instruction to rebuild or overwrite the current workspace.
+
 Deployment strategy now uses deterministic local tools first, following repeated
 weak model policy-map drafts. See the [developer handbook](DEVELOPER_HANDBOOK.md).
 This document describes the optional proposal tool and its historical task queue,
@@ -9,11 +14,11 @@ not a requirement to keep retrying that queue or proof of deployment readiness.
 The read-only Knowledge Validation foundation is implemented; the full deployment
 programme is not.
 
-The **standalone bootstrap is implemented**. The full-stack rebuild is not yet
-performed. The owner chose a slower local Ollama workflow rather than further
-Copilot-led implementation. This document is the portable execution handover;
-the eventual consolidated developer handbook will be written by accepted local
-tasks, not automatically generated or applied by this bootstrap.
+The **standalone bootstrap is implemented**. Its original full-stack rewrite
+was not performed; later incremental knowledge/review/export work was completed
+instead. The owner chose local Ollama proposals with deterministic acceptance.
+The [developer handbook](DEVELOPER_HANDBOOK.md) now exists; this document retains
+the optional proposal-tool instructions and their historical context.
 
 `scripts\run_local_maintenance.py` uses standard Python, local files and HTTP
 requests exclusively to literal loopback Ollama on port 11434. It does not
@@ -23,8 +28,9 @@ ordinary PowerShell with Copilot paused does not invoke Copilot.
 
 Work in the checkout containing these changes. Do **not** archive/delete this
 app worktree, reset it to merged main, or run against the D-drive clone/main
-checkout accidentally. The current uncommitted work is the input baseline.
-No commit or push was performed by the bootstrap.
+checkout accidentally. The accepted code baseline was committed and pushed as
+`0b8d72c`; use the latest branch, not an old main-only checkout. The bootstrap
+itself never commits or pushes candidates.
 
 ## What to preserve
 
