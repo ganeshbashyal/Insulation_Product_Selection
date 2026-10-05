@@ -4,6 +4,7 @@ from __future__ import annotations
 import hashlib
 import json
 import re
+from datetime import datetime, timezone
 from pathlib import Path
 from functools import lru_cache
 import os
@@ -160,6 +161,8 @@ class SourceReview:
             if path.is_file():
                 item["sha256"] = file_hash(path)
                 item["manifest_hash_matches"] = item["sha256"] == manifest.get("sha256") if manifest.get("path") == value else None
+                # Filesystem last-modified time only; no document retrieval/publish date is recorded anywhere.
+                item["last_modified"] = datetime.fromtimestamp(path.stat().st_mtime, tz=timezone.utc).isoformat()
                 review = self.audit.get(item["path"], {})
                 if review.get("sha256") != item["sha256"]:
                     review = next((row["extraction"] for row in declared

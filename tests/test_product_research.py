@@ -17,7 +17,7 @@ from pypdf.generic import DictionaryObject, NameObject, DecodedStreamObject
 import research_api as api
 import knowledge_service
 from product_research import ResearchIndex
-from research_store import Conflict, ResearchStore
+from research_store import Conflict, ResearchStore, canonical
 from research_workflow import active_effective, effective_evidence, publication_preview, validate_review
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -532,6 +532,238 @@ def test_versioned_catalogue_preserves_rows_and_holds_previous_publication(resea
     library.stage(bad)
     with pytest.raises(ValueError, match="resolved"):
         library.activate(bad["version_id"], bad["version_id"], data["version_id"])
+
+
+def test_catalogue_admin_auth_preview_stage_and_activation(research):
+    import hashlib
+    from catalogue_versions import CatalogueLibrary
+    idx, store, client = research
+    assert client.get("/admin/catalogue").status_code == 200
+    assert client.get("/api/research/catalogue").status_code == 401
+    source = idx.root / "data" / "admin.csv"
+    source.write_text("family_id,our_sku,supplier_sku,product_name\nTEST_FAMILY,NEW,CODE,New row\n")
+    payload = {"source": str(source), "mapping": {key: key for key in
+               ("family_id", "our_sku", "supplier_sku", "product_name")}, "sheet": None}
+    login = client.post("/api/research/login", json={"username": "reviewer", "password": "Synthetic password only!"},
+                        headers={"Origin": "http://testserver"}).json()
+    headers = {"Origin": "http://testserver", "X-Research-CSRF": login["csrf"]}
+    assert client.post("/api/research/catalogue/preview", json={"data": payload}).status_code == 403
+    assert client.post("/api/research/catalogue/preview", json={"data": payload},
+                       headers={**headers, "Origin": "http://elsewhere"}).status_code == 403
+    assert client.post("/api/research/catalogue/preview", json={"data": {
+        **payload, "mapping": {**payload["mapping"], "active": []}}}, headers=headers).status_code == 400
+    data = client.post("/api/research/catalogue/preview", json={"data": payload}, headers=headers).json()
+    library = CatalogueLibrary(idx.root)
+    assert library.active_id() is None and not library.directory.exists()
+    forged = json.loads(json.dumps(data))
+    forged["payload"]["rows"][0]["bot_content_status"] = "READY"
+    forged["payload"]["rows"][0]["recommendation_eligible"] = "True"
+    forged["version_id"] = hashlib.sha256(canonical(forged["payload"]).encode()).hexdigest()
+    assert client.post("/api/research/catalogue/stage", json={"data": {"preview": forged}},
+                       headers=headers).status_code == 400
+    assert not library.directory.exists()
+    original = source.read_text()
+    source.write_text(original + "TEST_FAMILY,SECOND,OTHER,Second row\n")
+    assert client.post("/api/research/catalogue/stage", json={"data": {"preview": data}},
+                       headers=headers).status_code == 400
+    source.write_text(original)
+    assert client.post("/api/research/catalogue/stage", json={"data": {"preview": data}},
+                       headers=headers).status_code == 200
+    overview = client.get("/api/research/catalogue").json()
+    assert overview["active_id"] is None and overview["versions"][0]["version_id"] == data["version_id"]
+    activation = {"version_id": data["version_id"], "confirm": data["version_id"], "expected_active_id": None}
+    assert client.post("/api/research/catalogue/activate", json={"data": activation}, headers=headers).status_code == 403
+    client.post("/api/research/logout", headers=headers)
+    login = client.post("/api/research/login", json={"username": "publisher", "password": "Synthetic password only!"},
+                        headers={"Origin": "http://testserver"}).json()
+    headers["X-Research-CSRF"] = login["csrf"]
+    assert client.get("/api/research/catalogue").status_code == 200
+    assert client.post("/api/research/catalogue/preview", json={"data": payload}, headers=headers).status_code == 403
+    assert client.post("/api/research/catalogue/activate", json={"data": {
+        "version_id": data["version_id"], "confirm": data["version_id"]}}, headers=headers).status_code == 400
+    assert client.post("/api/research/catalogue/activate", json={"data": {
+        **activation, "confirm": "wrong"}}, headers=headers).status_code == 400
+    assert client.post("/api/research/catalogue/activate", json={"data": activation}, headers=headers).status_code == 200
+    assert client.post("/api/research/catalogue/activate", json={"data": activation}, headers=headers).status_code == 409
+    assert all(row["bot_content_status"] == "HOLD" for row in ResearchIndex(idx.root).skus)
+    assert store.active() is None
+
+
+@pytest.mark.parametrize("corruption", ["json", "checksum", "filename", "shape"])
+def test_catalogue_overview_surfaces_invalid_record(research, corruption):
+    idx, _, client = research
+    from catalogue_versions import CatalogueLibrary, preview
+    source = idx.root / "data" / "admin.csv"
+    source.write_text("family_id,our_sku,supplier_sku,product_name\nTEST_FAMILY,NEW,CODE,New row\n")
+    data = preview(idx.root, source, {key: key for key in ("family_id", "our_sku", "supplier_sku", "product_name")})
+    path = CatalogueLibrary(idx.root).stage(data)
+    if corruption == "json":
+        path.write_text("{invalid")
+    elif corruption == "shape":
+        path.write_text("[]")
+    elif corruption == "filename":
+        path.rename(path.with_name("wrong.json"))
+    else:
+        data["payload"]["rows"][0]["product_name"] = "tampered"
+        path.write_text(json.dumps(data))
+    client.post("/api/research/login", json={"username": "reader", "password": "Synthetic password only!"},
+                headers={"Origin": "http://testserver"})
+    result = client.get("/api/research/catalogue")
+    assert result.status_code == 422
+    assert "Local catalogue data invalid" in result.json()["detail"]
+
+
+def test_knowledge_validation_reports_filesystem_time_not_publication(research):
+    from datetime import datetime, timezone
+    idx, _, _ = research
+    path = idx.root / next(iter(idx.documents.values()))["path"]
+    os.utime(path, (1700000000, 1700000000))
+    for row in knowledge_service.knowledge_validation(ResearchIndex(idx.root))["families"]:
+        for doc in row["source"]["documents"]:
+            if doc["exists"]:
+                assert doc["last_modified"] == datetime.fromtimestamp(1700000000, timezone.utc).isoformat()
+                assert "publication_date" not in doc
+
+
+def test_catalogue_admin_edge_end_to_end_and_preview_cleanup(research, tmp_path):
+    import socket
+    import threading
+    import uvicorn
+    websocket = pytest.importorskip("websocket")
+    edge = Path(r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe")
+    if not edge.is_file():
+        pytest.skip("Installed Edge unavailable")
+    idx, store, client = research
+    store.create_user("catalogue-admin", "Synthetic password only!", ["reviewer", "publisher"])
+    source = idx.root / "data" / "browser.csv"
+    source.write_text("family_id,our_sku,supplier_sku,product_name\nTEST_FAMILY,NEW,CODE,Browser row\n")
+    with socket.socket() as sock:
+        sock.bind(("127.0.0.1", 0))
+        port = sock.getsockname()[1]
+    with socket.socket() as sock:
+        sock.bind(("127.0.0.1", 0))
+        debug_port = sock.getsockname()[1]
+    server = uvicorn.Server(uvicorn.Config(client.app, host="127.0.0.1", port=port, log_level="error"))
+    thread = threading.Thread(target=server.run, daemon=True)
+    thread.start()
+    process = None
+    connection = None
+    try:
+        deadline = time.monotonic() + 20
+        while not server.started:
+            if time.monotonic() > deadline:
+                pytest.fail("Synthetic catalogue server failed to start")
+            time.sleep(.05)
+        process = subprocess.Popen([
+            str(edge), "--headless=new", "--disable-gpu", "--no-first-run",
+            "--remote-allow-origins=http://localhost", f"--remote-debugging-port={debug_port}",
+            f"--user-data-dir={tmp_path / 'catalogue-edge'}", "about:blank"],
+            stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        opener = urllib.request.build_opener(urllib.request.ProxyHandler({}))
+        deadline = time.monotonic() + 20
+        while True:
+            try:
+                with opener.open(f"http://127.0.0.1:{debug_port}/json/list", timeout=1) as response:
+                    page = next(p for p in json.load(response) if p["type"] == "page")
+                break
+            except (OSError, StopIteration):
+                if time.monotonic() > deadline:
+                    raise
+                time.sleep(.1)
+        connection = websocket.create_connection(page["webSocketDebuggerUrl"], timeout=30,
+                                                 origin="http://localhost", http_proxy_host=None)
+        sequence = 0
+
+        def command(method, params):
+            nonlocal sequence
+            sequence += 1
+            connection.send(json.dumps({"id": sequence, "method": method, "params": params}))
+            while True:
+                result = json.loads(connection.recv())
+                if result.get("id") == sequence:
+                    assert "error" not in result, result
+                    return result.get("result", {})
+
+        command("Runtime.enable", {})
+        command("Page.navigate", {"url": f"http://127.0.0.1:{port}/admin/catalogue"})
+        deadline = time.monotonic() + 20
+        while True:
+            ready = command("Runtime.evaluate", {"expression": "typeof browse==='function' && !!document.getElementById('previewForm')",
+                                                 "returnByValue": True})
+            if ready.get("result", {}).get("value"):
+                break
+            if time.monotonic() > deadline:
+                pytest.fail("Catalogue page script did not load")
+            time.sleep(.05)
+        script = """
+(async()=>{
+ const assert=(ok,text)=>{if(!ok)throw new Error(text);};
+ const wait=async()=>{for(let i=0;i<100&&controllers.size;i++)await new Promise(r=>setTimeout(r,20));};
+ await wait();
+ window.confirm=()=>true;
+ $('username').value='catalogue-admin';$('password').value='Synthetic password only!';
+ await $('loginForm').onsubmit();
+ assert(account?.roles.includes('publisher')&&!$('workspace').hidden,'Sign-in failed');
+ $('source').value='data/browser.csv';
+ await $('previewForm').onsubmit();
+ assert(previewResult&&previewResult.payload.rows[0].bot_content_status==='HOLD','Preview lost HOLD');
+ const oldStage=$('previewArea').querySelector('button');
+ $('source').dispatchEvent(new Event('input',{bubbles:true}));
+ assert(!previewResult&&!$('previewArea').children.length,'Input retained stale preview');
+ await oldStage.onclick();
+ assert(!(await api('/catalogue')).versions.length,'Detached button staged stale preview');
+ await $('previewForm').onsubmit();
+ const identifier=previewResult.version_id;
+ await $('previewArea').querySelector('button').onclick();
+ assert(!previewResult&&$('versions').textContent.includes(identifier),'Stage/full confirmation ID missing');
+ const confirmInput=$('versions').querySelector('input');
+ confirmInput.value=identifier;
+ await $('versions').querySelector('button').onclick();
+ assert((await api('/catalogue')).active_id===identifier,'Activation failed');
+ $('source').value='data/browser.csv';
+ await $('previewForm').onsubmit();
+ assert(previewResult,'Second preview missing');
+ $('source').value='data/missing.csv';
+ await $('previewForm').onsubmit();
+ assert(!previewResult&&!$('previewArea').children.length,'Failed request retained previous preview');
+ assert($('message').className==='warning','Failure not surfaced');
+ $('source').value='data/browser.csv';await $('previewForm').onsubmit();
+ await $('logout').onclick();
+ assert(!previewResult&&!account&&$('workspace').hidden&&!$('versions').children.length,'Logout retained private data');
+ $('username').value='reader';$('password').value='Synthetic password only!';
+ await $('loginForm').onsubmit();
+ assert(!account.roles.includes('reviewer')&&$('previewForm').querySelector('button').disabled,'Reader controls enabled');
+ assert($('versions').textContent.includes('Currently active'),'Reader cannot list active version');
+ const realFetch=window.fetch;
+ account={username:'synthetic',roles:['reviewer'],csrf:'synthetic'};
+ let release;window.fetch=()=>new Promise(resolve=>release=resolve);
+ $('source').value='data/browser.csv';
+ const pending=$('previewForm').onsubmit();
+ clear();release({ok:true,json:async()=>({version_id:'a'.repeat(64),payload:{rows:[],blockers:[],changes:{added_codes:[],removed_codes:[]}}})});
+ await pending;window.fetch=realFetch;
+ assert(!previewResult&&!$('previewArea').children.length,'Locked page repopulated');
+ return true;
+})()
+"""
+        result = command("Runtime.evaluate", {"expression": script, "awaitPromise": True, "returnByValue": True})
+        assert "exceptionDetails" not in result, result
+        assert result["result"]["value"] is True
+        from catalogue_versions import CatalogueLibrary
+        assert all(row["bot_content_status"] == "HOLD" for row in CatalogueLibrary(idx.root).active_rows())
+        assert store.active() is None
+    finally:
+        if connection:
+            connection.close()
+        if process:
+            process.terminate()
+            try:
+                process.wait(timeout=10)
+            except subprocess.TimeoutExpired:
+                process.kill()
+                process.wait(timeout=10)
+        server.should_exit = True
+        thread.join(timeout=10)
+        assert not thread.is_alive()
 
 
 def test_explicit_local_intake_reaches_family_index_without_approval(research):

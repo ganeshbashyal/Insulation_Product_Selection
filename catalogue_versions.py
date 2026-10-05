@@ -7,7 +7,7 @@ import io
 import json
 from pathlib import Path
 
-from research_store import canonical
+from research_store import Conflict, canonical
 
 
 def preview(root: Path, source: Path, mapping: dict, sheet: str | None = None) -> dict:
@@ -16,6 +16,9 @@ def preview(root: Path, source: Path, mapping: dict, sheet: str | None = None) -
         raise ValueError("Commercial source must be a local file inside this checkout's data directory")
     if not isinstance(mapping, dict) or not {"family_id", "our_sku", "supplier_sku", "product_name"}.issubset(mapping):
         raise ValueError("Explicit mapping needs family_id, our_sku, supplier_sku and product_name columns")
+    if any(not isinstance(key, str) or not isinstance(column, str) or not column.strip()
+           for key, column in mapping.items()):
+        raise ValueError("Column mappings must contain nonblank strings")
     raw = source.read_bytes()
     checksum = hashlib.sha256(raw).hexdigest()
     if source.suffix.casefold() == ".csv":
@@ -96,7 +99,10 @@ class CatalogueLibrary:
             raise ValueError("Version directory escapes checkout")
 
     def stage(self, data: dict):
-        self.directory.mkdir(parents=True, exist_ok=True)
+        if not isinstance(data, dict) or not isinstance(data.get("payload"), dict):
+            raise ValueError("Unmodified catalogue preview required")
+        if not isinstance(data["payload"].get("source_path"), str):
+            raise ValueError("Local catalogue source path required")
         if hashlib.sha256(canonical(data["payload"]).encode()).hexdigest() != data["version_id"]:
             raise ValueError("Catalogue version checksum mismatch")
         source=(self.root/data["payload"]["source_path"]).resolve()
@@ -105,6 +111,10 @@ class CatalogueLibrary:
         original=source.read_bytes()
         if hashlib.sha256(original).hexdigest()!=data["payload"]["source_sha256"]:
             raise ValueError("Source changed after preview")
+        regenerated = preview(self.root, source, data["payload"]["mapping"], data["payload"].get("sheet"))
+        if canonical(data) != canonical(regenerated):
+            raise ValueError("Catalogue preview changed or is stale; preview the source again")
+        self.directory.mkdir(parents=True, exist_ok=True)
         archive=self.directory/(data["version_id"][:16]+".source"+source.suffix.casefold())
         if archive.exists():
             if archive.read_bytes()!=original:
@@ -116,6 +126,50 @@ class CatalogueLibrary:
         with target.open("x",encoding="utf-8") as handle:
             handle.write(canonical(data))
         return target
+
+    def staged(self):
+        """Read-only listing of every recorded catalogue version (staged or active). No mutation, no approval."""
+        if not self.directory.is_dir():
+            return []
+        active = self.active_id()
+        items = []
+        for path in sorted(self.directory.glob("*.json")):
+            if path.name == "active.json":
+                continue
+            try:
+                data = json.loads(path.read_text(encoding="utf-8"))
+            except (json.JSONDecodeError, OSError) as exc:
+                raise ValueError(f"Cannot read catalogue version {path.name}: {exc}") from exc
+            if not isinstance(data, dict):
+                raise ValueError(f"Invalid catalogue version record: {path.name}")
+            version_id = data.get("version_id")
+            payload = data.get("payload")
+            if not isinstance(version_id, str) or not isinstance(payload, dict):
+                raise ValueError(f"Invalid catalogue version record: {path.name}")
+            try:
+                data = self.read(version_id)
+            except (OSError, ValueError, KeyError) as exc:
+                raise ValueError(f"Invalid catalogue version {path.name}: {exc}") from exc
+            if self.version_path(version_id) != path:
+                raise ValueError(f"Catalogue version filename mismatch: {path.name}")
+            changes = payload.get("changes", {})
+            items.append({
+                "version_id": version_id,
+                "active": version_id == active,
+                "source_file": payload.get("source_file"),
+                "source_path": payload.get("source_path"),
+                "source_sha256": payload.get("source_sha256"),
+                "row_count": len(payload.get("rows", [])),
+                "blockers": payload.get("blockers", []),
+                "duplicate_codes": payload.get("duplicate_codes", []),
+                "blank_code_rows": payload.get("blank_code_rows", []),
+                "variant_continuity": payload.get("variant_continuity"),
+                "previous_version": changes.get("previous_version"),
+                "added_codes": changes.get("added_codes", []),
+                "removed_codes": changes.get("removed_codes", []),
+                "unreviewed_continuity_rows": changes.get("unreviewed_continuity_rows", []),
+            })
+        return items
 
     def active_id(self):
         pointer=self.directory/"active.json"
@@ -155,7 +209,7 @@ class CatalogueLibrary:
         temporary=self.directory/("a-"+uuid.uuid4().hex[:12]+".tmp")
         try:
             if self.active_id()!=expected:
-                raise ValueError("Active catalogue changed since preview")
+                raise Conflict("Active catalogue changed since preview")
             with temporary.open("x",encoding="utf-8") as handle:
                 handle.write(canonical({"version_id":identifier}))
             os.replace(temporary,self.directory/"active.json")

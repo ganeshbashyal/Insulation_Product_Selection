@@ -136,3 +136,21 @@ Local intake and new-code version staging/activation use explicit owner manifest
 and confirmations; no actual supplier-data approvals or real catalogue activation
 were performed. See [the deployment runbook](LOCAL_DEPLOYMENT.md).
 See the [developer handbook](DEVELOPER_HANDBOOK.md) for current boundaries.
+A dedicated `/admin/catalogue` page now exists for staging/previewing/activating
+catalogue versions (role-gated: readers can list, reviewers can preview/stage,
+publishers can activate), reusing the existing named research accounts.
+The server regenerates a preview from its unchanged local source before staging;
+client payloads cannot transfer approval or bypass HOLD/blocker defaults.
+Recorded-version corruption is an explicit error, not an empty listing.
+Activation requires the full version ID and the explicitly supplied expected
+active ID (including null for the baseline). It does not publish claims;
+running serving releases remain pinned until explicitly rebuilt/restarted.
+Filesystem modification timestamps in Knowledge Validation are labelled as
+file metadata, not manufacturer publication dates. No real catalogue was
+activated during these synthetic checks.
+
+Local acceptance on 5 October 2026: 699 tests passed, 13 skipped. The installed
+Edge browser exercised named sign-in, preview, staging, typed activation, reader
+controls, failed-preview cleanup and logout/stale-response clearing against an
+isolated synthetic API/data directory. This is not a real catalogue activation
+or a storefront deployment rehearsal.

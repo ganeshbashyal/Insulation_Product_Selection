@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>Aurora | Catalogue Versions</title>
+<style>
+:root{font:15px system-ui;color:#e6edf8;background:#101a2b;color-scheme:dark}
+body{margin:0}header,main{padding:20px;max-width:1500px;margin:auto}a{color:#93c9ff}
+.panel{background:#1b2a42;border:1px solid #3d4e69;border-radius:10px;padding:18px;margin-bottom:15px}
+button,input,select{font:inherit;padding:8px;border-radius:6px;background:#132138;color:inherit;border:1px solid #536480}
+button{cursor:pointer}button:disabled{opacity:.5;cursor:not-allowed}label{display:block;margin:10px 0}.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.warning{color:#ffda8b}.muted{color:#b0bdd1}.scroll{overflow:auto}table{width:100%;border-collapse:collapse;text-align:left}
+td,th{padding:10px;border-bottom:1px solid #43526b;vertical-align:top}td{min-width:130px}
+pre{white-space:pre-wrap;overflow-wrap:anywhere}#message{min-height:24px}[hidden]{display:none!important}
+</style>
+</head>
+<body>
+<header><h1>Catalogue Versions</h1><nav><a href="/admin/products">Product Research</a> &middot; <a href="/admin/knowledge">Knowledge Validation</a></nav>
+<p class="muted">Staging and activation of commercial SKU catalogue versions. Staging never changes which rows are live. New rows start held (bot_content_status HOLD) and still need the existing per-SKU continuity/eligibility review.</p></header>
+<main>
+<p id="message" role="status" aria-live="polite"></p>
+<section id="loginPanel" class="panel"><h2>Named research sign-in</h2>
+<form id="loginForm"><label>Username <input id="username" autocomplete="username" required maxlength="64"></label>
+<label>Password <input id="password" type="password" autocomplete="current-password" required maxlength="256"></label><button>Sign in</button></form>
+<p>Uses the existing Product Research account. No default passwords.</p></section>
+<section id="workspace" hidden>
+<div class="panel"><div class="toolbar"><strong id="identity"></strong><button id="refresh">Refresh existing versions</button><button id="logout">Sign out and clear</button></div>
+<p class="warning">Staging a version is owner-declared intake, not approval. Activating swaps which catalogue version is live; it does not confirm any SKU's exact continuity or recommendation eligibility, and does not publish anything by itself.</p>
+<p id="overview"></p>
+</div>
+<div class="panel"><h2>Stage a new catalogue version</h2>
+<p class="muted">Source file must already exist under this checkout's data directory (owner-copied there first; this page starts no download).</p>
+<form id="previewForm" class="toolbar">
+<label>Local source path <input id="source" placeholder="data/local/intake/example.csv" maxlength="4000" required></label>
+<label>Worksheet (xlsx only) <input id="sheet" maxlength="200"></label>
+<label>family_id column <input id="mapFamily" value="family_id" required></label>
+<label>our_sku column <input id="mapOurSku" value="our_sku" required></label>
+<label>supplier_sku column <input id="mapSupplierSku" value="supplier_sku" required></label>
+<label>product_name column <input id="mapProductName" value="product_name" required></label>
+<label>active column (optional) <input id="mapActive"></label>
+<button>Preview this version</button>
+</form>
+<div id="previewArea"></div>
+</div>
+<div class="panel scroll"><h2>Existing recorded versions</h2>
+<table><thead><tr><th>Version</th><th>Source</th><th>Rows / changes</th><th>Blockers</th><th>Action</th></tr></thead><tbody id="versions"></tbody></table>
+</div>
+</section>
+</main>
+<script>
+"use strict";
+const $=id=>document.getElementById(id);
+let account=null,epoch=0,browseSequence=0,previewSequence=0,previewResult=null;
+const controllers=new Set();
+function node(tag,text){const e=document.createElement(tag);if(text!==undefined)e.textContent=text;return e;}
+function message(text,error=false){$("message").textContent=text;$("message").className=error?"warning":"";}
+function clear(){
+  epoch++;browseSequence++;invalidatePreview();controllers.forEach(c=>c.abort());controllers.clear();account=null;
+  $("password").value="";$("workspace").hidden=true;$("loginPanel").hidden=false;
+  for(const id of ["identity","overview","versions"])$(id).replaceChildren();
+  $("previewArea").replaceChildren();
+  for(const id of ["source","sheet"])$(id).value="";
+}
+function invalidatePreview(){previewSequence++;previewResult=null;$("previewArea").replaceChildren();}
+async function api(path,method="GET",data){
+  const token=epoch,c=new AbortController();controllers.add(c);
+  try{
+    const headers={};if(method!=="GET"){headers["Content-Type"]="application/json";if(account)headers["X-Research-CSRF"]=account.csrf;}
+    const result=await fetch("/api/research"+path,{method,headers,credentials:"same-origin",cache:"no-store",signal:c.signal,body:data===undefined?undefined:JSON.stringify(data)});
+    const body=await result.json();if(token!==epoch)throw new DOMException("Page locked","AbortError");
+    if(!result.ok){if(result.status===401&&account)clear();throw new Error(typeof body.detail==="string"?body.detail:JSON.stringify(body.detail));}
+    return body;
+  }finally{controllers.delete(c);}
+}
+function action(fn){return async event=>{if(event)event.preventDefault();try{await fn();}catch(e){if(e.name!=="AbortError")message(e.message,true);}};}
+function dump(parent,title,value){const d=node("details");d.append(node("summary",title),node("pre",JSON.stringify(value,null,2)));parent.append(d);}
+async function browse(){
+  const request=++browseSequence,data=await api("/catalogue");if(request!==browseSequence)return;
+  $("overview").textContent=`Active version: ${data.active_id||"none (baseline CSV in use)"} | ${data.versions.length} recorded version(s).`;
+  $("versions").replaceChildren();
+  for(const v of data.versions){
+    const tr=node("tr");
+    const id=node("td",v.version_id+(v.active?" (active)":""));id.style.overflowWrap="anywhere";
+    const source=node("td",`${v.source_file||""}`);source.append(node("p",v.source_sha256?.slice(0,16)||""));
+    const rows=node("td",`${v.row_count} rows; +${v.added_codes.length}/-${v.removed_codes.length} codes vs ${v.previous_version||"baseline"}`);
+    dump(rows,"Row/code changes",{added_codes:v.added_codes,removed_codes:v.removed_codes,duplicate_codes:v.duplicate_codes,unreviewed_continuity_rows:v.unreviewed_continuity_rows});
+    const blockers=node("td",v.blockers.length?v.blockers.length+" blocker(s)":"none");dump(blockers,"Blockers",v.blockers);
+    const action_=node("td");
+    if(v.active){action_.append(node("p","Currently active"));}
+    else if(account.roles.includes("publisher")){
+      const confirmInput=node("input");confirmInput.placeholder="type exact version id to confirm";confirmInput.maxLength=200;
+      const activate=node("button","Activate this version");activate.disabled=v.blockers.length>0;
+      activate.onclick=action(async()=>{
+        if(confirmInput.value!==v.version_id){message("Typed confirmation must exactly match the full version id.",true);return;}
+        if(!confirm("Activate catalogue version "+v.version_id.slice(0,16)+"? This changes which commercial SKU rows are live. Existing per-SKU review/eligibility decisions still apply."))return;
+        activate.disabled=true;
+        try{
+          const result=await api("/catalogue/activate","POST",{data:{version_id:v.version_id,confirm:confirmInput.value,expected_active_id:data.active_id}});
+          invalidatePreview();message("Catalogue version "+result.version_id.slice(0,16)+" "+result.state+".");await browse();
+        }finally{activate.disabled=v.blockers.length>0;}
+      });
+      action_.append(confirmInput,activate);
+    } else {action_.append(node("p","Publisher role required to activate"));}
+    tr.append(id,source,rows,blockers,action_);$("versions").append(tr);
+  }
+}
+async function enter(){
+  $("loginPanel").hidden=true;$("workspace").hidden=false;$("identity").textContent=account.username+" / "+account.roles.join(", ");
+  for(const control of $("previewForm").elements)control.disabled=!account.roles.includes("reviewer");
+  await browse();message("Existing recorded catalogue versions loaded. No file was read or staged.");
+}
+$("loginForm").onsubmit=action(async()=>{try{account=await api("/login","POST",{username:$("username").value,password:$("password").value});}finally{$("password").value="";}await enter();});
+$("logout").onclick=action(async()=>{try{await api("/logout","POST");}finally{clear();message("Signed out; displayed data cleared.");}});
+$("refresh").onclick=action(async()=>{await browse();message("Existing versions refreshed.");});
+$("previewForm").addEventListener("input",invalidatePreview);
+$("previewForm").onsubmit=action(async()=>{
+  if(!account?.roles.includes("reviewer")){message("Reviewer role required to preview and stage.",true);return;}
+  invalidatePreview();const request=previewSequence;
+  const mapping={family_id:$("mapFamily").value,our_sku:$("mapOurSku").value,supplier_sku:$("mapSupplierSku").value,product_name:$("mapProductName").value};
+  if($("mapActive").value)mapping.active=$("mapActive").value;
+  const preview=await api("/catalogue/preview","POST",{data:{source:$("source").value,mapping,sheet:$("sheet").value||null}});
+  if(request!==previewSequence)return;previewResult=preview;
+  $("previewArea").replaceChildren();
+  const summary=node("p",`Preview ${previewResult.version_id.slice(0,16)}: ${previewResult.payload.rows.length} rows; `+
+    `${previewResult.payload.blockers.length} blocker(s); +${previewResult.payload.changes.added_codes.length}/-${previewResult.payload.changes.removed_codes.length} codes vs ${previewResult.payload.changes.previous_version}.`);
+  $("previewArea").append(summary);
+  dump($("previewArea"),"Full preview (unmodified payload is what gets staged)",previewResult);
+  const stage=node("button","Stage this exact preview");
+  stage.onclick=action(async()=>{
+    if(previewResult!==preview||!confirm("Stage this exact preview? This records a new version; it does not activate or approve it."))return;
+    stage.disabled=true;
+    try{
+      const result=await api("/catalogue/stage","POST",{data:{preview}});
+      if(request===previewSequence)invalidatePreview();
+      message("Staged "+result.version_id.slice(0,16)+" | "+result.receipt);await browse();
+    }finally{stage.disabled=false;}
+  });
+  $("previewArea").append(stage);
+  message("Preview only. Nothing staged or activated.");
+});
+window.addEventListener("pagehide",clear);
+action(async()=>{try{account=await api("/me");await enter();}catch(e){if(e.message!=="Sign in with a named local research account")throw e;}})();
+</script>
+</body>
+</html>

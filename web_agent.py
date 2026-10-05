@@ -94,7 +94,7 @@ app.include_router(build_storefront_router(sys.modules[__name__]))
 @app.middleware("http")
 async def research_response_privacy(request: Request, call_next):
     response = await call_next(request)
-    if request.url.path.startswith(("/api/research", "/admin/products", "/admin/knowledge", "/admin/competitors")):
+    if request.url.path.startswith(("/api/research", "/admin/products", "/admin/knowledge", "/admin/competitors", "/admin/catalogue")):
         response.headers["Cache-Control"] = "no-store"
         response.headers["Referrer-Policy"] = "no-referrer"
         response.headers["X-Content-Type-Options"] = "nosniff"

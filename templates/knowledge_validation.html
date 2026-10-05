@@ -16,7 +16,7 @@ pre{white-space:pre-wrap;overflow-wrap:anywhere}#message{min-height:24px}[hidden
 </style>
 </head>
 <body>
-<header><h1>Knowledge Validation</h1><nav><a href="/admin/products">Product Research</a> &middot; <a href="/admin/briefs">Sales briefs</a></nav>
+<header><h1>Knowledge Validation</h1><nav><a href="/admin/products">Product Research</a> &middot; <a href="/admin/catalogue">Catalogue Versions</a> &middot; <a href="/admin/briefs">Sales briefs</a></nav>
 <p class="muted">All families, independent source and review statuses. No single completeness or approval badge.</p></header>
 <main>
 <p id="message" role="status" aria-live="polite"></p>
@@ -77,7 +77,9 @@ async function browse(){
     const tr=node("tr"),identity=node("td"),link=node("a",f.name);link.href="/admin/products#"+encodeURIComponent(f.family_id);
     identity.append(link,node("p",f.manufacturer+" / "+f.family_id),node("p","Identity: "+f.identity_state));
     const guide=node("td");guide.append(node("p",f.guide.state),node("p","Research: "+f.research_status),node("p","Model audit: "+f.audit_status));
-    const source=node("td");source.append(node("p",`${f.source.held_count}/${f.source.linked_count} linked files present; ${f.source.integrity}`),node("p",f.extraction.status));dump(source,"Source hashes / extraction states",{source:f.source,extraction:f.extraction});
+    const source=node("td");source.append(node("p",`${f.source.held_count}/${f.source.linked_count} linked files present; ${f.source.integrity}`),node("p",f.extraction.status));
+    for(const doc of f.source.documents)if(doc.exists)source.append(node("p",`${doc.path}: filesystem modified ${doc.last_modified||"unknown"} (not the document's publication date)`));
+    dump(source,"Source hashes / extraction states",{source:f.source,extraction:f.extraction});
     const review=node("td");review.append(node("p",f.review.status),node("p",f.publication.state),node("p",`${f.publication.verified_claims} verified claims; ${f.publication.eligible_skus} eligible exact rows`));dump(review,"Review decisions (draft, not activation)",f.review.decisions);
     const commercial=node("td",`${f.sku_count} child records. No live stock feed.`);
     const gaps=node("td");gaps.append(node("p",f.next_action));dump(gaps,"All known gaps",f.gaps);

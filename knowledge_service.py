@@ -225,6 +225,30 @@ class KnowledgeService:
         payload = self.store().publish(proposal_id, idx.baseline(), actor)
         return {"publication_id": proposal_id, "impact": payload["impact"]}
 
+    def catalogue_overview(self) -> dict:
+        from catalogue_versions import CatalogueLibrary
+        library = CatalogueLibrary(self.root)
+        return {"active_id": library.active_id(), "versions": library.staged()}
+
+    def catalogue_preview(self, source: Path, mapping: dict, sheet: str | None) -> dict:
+        from catalogue_versions import preview
+        if not source.is_absolute():
+            source = self.root / source
+        return preview(self.root, source, mapping, sheet)
+
+    def catalogue_stage(self, data: dict) -> dict:
+        from catalogue_versions import CatalogueLibrary
+        target = CatalogueLibrary(self.root).stage(data)
+        self.index(refresh=True)
+        return {"receipt": target.relative_to(self.root).as_posix(),
+                "version_id": data["version_id"], "state": "staged_pending_human_review"}
+
+    def catalogue_activate(self, identifier: str, confirm: str, expected) -> dict:
+        from catalogue_versions import CatalogueLibrary
+        CatalogueLibrary(self.root).activate(identifier, confirm, expected)
+        self.index(refresh=True)
+        return {"version_id": identifier, "state": "activated"}
+
 
 _services: dict[tuple[Path, Path], KnowledgeService] = {}
 _services_lock = threading.RLock()

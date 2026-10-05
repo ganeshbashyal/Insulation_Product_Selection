@@ -82,6 +82,12 @@ def competitor_page():
                         headers={"Cache-Control": "no-store", "Referrer-Policy": "no-referrer"})
 
 
+@router.get("/admin/catalogue")
+def catalogue_page():
+    return HTMLResponse((ROOT / "templates" / "catalogue_versions.html").read_text(encoding="utf-8"),
+                        headers={"Cache-Control": "no-store", "Referrer-Policy": "no-referrer"})
+
+
 def competitor_report():
     from competitor_research import comparison
     try:
@@ -290,6 +296,60 @@ def source_stage(body: Change, request: Request):
         raise HTTPException(400, "Local manifest and exact preview confirmation required")
     try:
         return response(service().source_stage(service().root / value, confirmation))
+    except (OSError, ValueError, KeyError) as exc:
+        raise HTTPException(400, str(exc)) from exc
+
+
+@router.get("/api/research/catalogue")
+def catalogue_overview(request: Request):
+    user(request)
+    try:
+        return response(service().catalogue_overview())
+    except (OSError, ValueError, KeyError) as exc:
+        raise HTTPException(422, "Local catalogue data invalid: " + str(exc)) from exc
+
+
+@router.post("/api/research/catalogue/preview")
+def catalogue_preview(body: Change, request: Request):
+    user(request, "reviewer", write=True)
+    source, mapping, sheet = body.data.get("source"), body.data.get("mapping"), body.data.get("sheet")
+    if not isinstance(source, str) or not isinstance(mapping, dict):
+        raise HTTPException(400, "Local source path and explicit column mapping required")
+    if sheet is not None and not isinstance(sheet, str):
+        raise HTTPException(400, "Worksheet name must be a string when provided")
+    try:
+        return response(service().catalogue_preview(service().root / source, mapping, sheet))
+    except (OSError, ValueError, KeyError) as exc:
+        raise HTTPException(400, str(exc)) from exc
+
+
+@router.post("/api/research/catalogue/stage")
+def catalogue_stage(body: Change, request: Request):
+    user(request, "reviewer", write=True)
+    data = body.data.get("preview")
+    if not isinstance(data, dict) or "version_id" not in data or "payload" not in data:
+        raise HTTPException(400, "Unmodified preview result required to stage a catalogue version")
+    try:
+        return response(service().catalogue_stage(data))
+    except (OSError, ValueError, KeyError) as exc:
+        raise HTTPException(400, str(exc)) from exc
+
+
+@router.post("/api/research/catalogue/activate")
+def catalogue_activate(body: Change, request: Request):
+    user(request, "publisher", write=True)
+    version_id, confirm = body.data.get("version_id"), body.data.get("confirm")
+    if "expected_active_id" not in body.data:
+        raise HTTPException(400, "Expected active version must be provided; refresh the catalogue first")
+    expected = body.data.get("expected_active_id")
+    if not isinstance(version_id, str) or not isinstance(confirm, str):
+        raise HTTPException(400, "Exact catalogue version ID and typed confirmation required")
+    if expected is not None and not isinstance(expected, str):
+        raise HTTPException(400, "Expected active version must be a string or null")
+    try:
+        return response(service().catalogue_activate(version_id, confirm, expected))
+    except Conflict as exc:
+        raise HTTPException(409, str(exc)) from exc
     except (OSError, ValueError, KeyError) as exc:
         raise HTTPException(400, str(exc)) from exc
 
