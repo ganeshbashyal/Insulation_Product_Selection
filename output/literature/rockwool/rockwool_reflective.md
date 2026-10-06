@@ -110,6 +110,10 @@ Quality insulation engineered for Australian conditions. Made from natural volca
 | R1.1 | thermal_r_value | 40 | Varies | 1 |
 | R0.7 | thermal_r_value | 25 | Varies | 1 |
 
+## Staff-release SKU coverage
+
+_No SKU from this workbook was mapped or proposed for this family._
+
 ## Technical data
 
 | Property | Value | Source |

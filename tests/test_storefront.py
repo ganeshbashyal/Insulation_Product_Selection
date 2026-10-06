@@ -56,6 +56,116 @@ def test_widget_token_binds_site_and_session_not_operator_access(widget):
                        json={"message":"Hi"}).status_code == 403
 
 
+def test_widget_page_context_is_origin_checked_sanitized_and_customer_confirmable(widget):
+    client, runtime = widget
+    origin = {"Origin": "http://testserver"}
+    context = {
+        "page_url": "https://one.invalid/products/acoustic-panel?customer=private#details",
+        "page_type": "product",
+        "product_id": "123",
+        "variation_id": "456",
+        "product_name": "Acoustic panel",
+        "product_category": "Ceiling",
+        "product_url": "https://one.invalid/products/acoustic-panel?campaign=private",
+    }
+    response = client.post(
+        "/api/widget/conversations?site_id=one",
+        headers=origin,
+        json={"page_context": context},
+    )
+    assert response.status_code == 200
+    data = response.json()
+    assert data["page_context"]["page_url"] == "https://one.invalid/products/acoustic-panel"
+    assert data["page_context"]["product_url"] == "https://one.invalid/products/acoustic-panel"
+    assert data["page_context"]["confirmation"] == "unconfirmed"
+    assert "private" not in json.dumps(data["page_context"])
+    assert data["page_context"]["product_id"] == "123"
+
+    headers = {**origin, "X-Chat-Token": data["token"]}
+    decision_url = f"/api/widget/conversations/{data['conversation_id']}/context?site_id=one"
+    assert client.post(decision_url, headers=headers, json={"confirmed": True}).status_code == 200
+    assert client.post(decision_url, headers=headers, json={"confirmed": False}).status_code == 409
+    session = runtime.session_store.get(data["conversation_id"], "one")
+    assert session is not None
+    stored = json.loads(session.conversation_json)
+    assert stored["page_context"]["confirmation"] == "confirmed"
+    assert stored["page_context"]["confirmed_at"]
+
+
+def test_widget_rejects_foreign_page_and_product_urls(widget):
+    client, _ = widget
+    origin = {"Origin": "http://testserver"}
+    base = {"page_type": "product", "product_id": "123"}
+    for context in (
+        {**base, "page_url": "https://foreign.invalid/product"},
+        {"page_url": "https://one.invalid/product", "product_url": "https://foreign.invalid/product"},
+        {"page_url": "https://one.invalid/my-account/orders"},
+    ):
+        response = client.post(
+            "/api/widget/conversations?site_id=one",
+            headers=origin,
+            json={"page_context": context},
+        )
+        assert response.status_code == 422
+    response = client.post(
+        "/api/widget/conversations?site_id=one",
+        headers=origin,
+        json={"page_context": {"page_url": "https://one.invalid/product?private=value"}},
+    )
+    assert response.status_code == 200
+    assert response.json()["page_context"]["page_url"] == "https://one.invalid/product"
+
+
+def test_widget_page_context_decision_requires_matching_chat_token(widget):
+    client, _ = widget
+    origin = {"Origin": "http://testserver"}
+    response = client.post(
+        "/api/widget/conversations?site_id=one",
+        headers=origin,
+        json={"page_context": {"page_url": "https://one.invalid/product", "page_type": "product"}},
+    )
+    data = response.json()
+    path = f"/api/widget/conversations/{data['conversation_id']}/context?site_id=one"
+    assert client.post(path, headers=origin, json={"confirmed": True}).status_code == 401
+
+
+def test_page_context_survives_conversation_and_enters_private_sales_brief(monkeypatch):
+    import agent_core
+
+    context = {
+        "page_url": "https://one.invalid/products/example",
+        "page_type": "product",
+        "product_id": "123",
+        "variation_id": None,
+        "product_name": "Example product",
+        "product_category": "Ceiling",
+        "product_url": "https://one.invalid/products/example",
+        "confirmation": "confirmed",
+        "confirmed_at": "2026-10-05T10:00:00+00:00",
+    }
+    conversation = agent_core.Conversation(page_context=context)
+    restored = agent_core.Conversation.from_dict(conversation.to_dict())
+    assert restored.page_context == context
+
+    saved = {}
+
+    class Builder:
+        def __init__(self, families):
+            pass
+
+        def build(self, *args, **kwargs):
+            return {"candidates": [], "approval": None}
+
+    monkeypatch.setattr("sales_brief.SalesBriefBuilder", Builder)
+    monkeypatch.setattr(agent_core.interaction_store, "save_lead", lambda **kwargs: saved.update(kwargs))
+    monkeypatch.setattr(agent_core.interaction_store, "log_conversation", lambda **kwargs: None)
+    agent_core._finalise_lead(restored, "one")
+    assert saved["sales_brief"]["entry_context"] == context
+
+    restored.start_new_project()
+    assert restored.page_context == context
+
+
 def test_tokens_hash_storage_expiry_and_origin_validation(tmp_path):
     store = ChatTokens(tmp_path / "tokens.sqlite3")
     token = store.issue("one", "session")

@@ -1,6 +1,6 @@
 ---
 title: "NuWrap 5 Acoustic Pipe Lagging - Acoustic lagging Insulation | Thermotec"
-description: "NuWrap 5 Acoustic Pipe Lagging is a acoustic lagging insulation product family from Thermotec. View the catalogue range, applications and specificatio"
+description: "NuWrap 5 is a safe, fibre-free, high-performance acoustic pipe insulation product that exceeds NCC requirements and is AS/NZS 1530.3 compliant."
 keywords: "NuWrap 5 Acoustic Pipe Lagging, Thermotec acoustic lagging, acoustic insulation, pipe insulation, duct insulation, R-value insulation, insulation Australia, Thermotec Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: THERMOTEC_NUWRAP_5
@@ -10,19 +10,23 @@ family_id: THERMOTEC_NUWRAP_5
 
 **Thermotec Acoustic lagging** — acoustic lagging insulation product.
 
-NuWrap 5 Acoustic Pipe Lagging is a acoustic lagging product family from Thermotec. Confirm the current published specification against the manufacturer datasheet before quoting.
+NuWrap 5 is a safe, fibre-free, high-performance acoustic pipe insulation product that exceeds NCC requirements and is AS/NZS 1530.3 compliant.
 
 ## Key features
 
-- Refer to the manufacturer datasheet for published features.
+- Safe fibre free.
+- AS/NZS 1530.3 compliant.
+- Exceptional performance.
+- Low VOC.
+- Easy application.
+- High Quality.
+- Australian made.
 
 ## Applications and selection
 
-- waste pipe
-- stormwater pipe
-- duct
-- building services
-- plumbing
+- Waste pipes
+- Ductwork
+- Acoustic pipe insulation
 
 **Selection checklist**
 
@@ -35,25 +39,44 @@ NuWrap 5 Acoustic Pipe Lagging is a acoustic lagging product family from Thermot
 
 ## Current catalogue range
 
-| SKU | Product | Published rating |
-| --- | --- | --- |
-| Nuwrap5 | Nuwrap5 | R0.3 |
-| Nuwrap5 - Half Roll | Nuwrap5 - Half Roll | R0.3 |
+| SKU record | Internal SKU | Supplier SKU | Product | Published rating | Validation |
+| --- | --- | --- | --- | --- | --- |
+| SKU-EF573833AFE3C226 | Nuwrap5 | THERNUWRAP5KGW1350L3MRL | Nuwrap5 | R0.3 | PASS |
+| SKU-9C576BD5988DCF78 | Nuwrap5 - Half Roll | THERNUWRAP5KGHALFW1350L3MRL | Nuwrap5 - Half Roll | R0.3 | REVIEW |
+
+_All 2 catalogue source rows are listed; duplicate SKU codes are retained as separate records._
+
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `THERNUWRAP5KGHALFW1350L3MRL` | Nuwrap5 - Half Roll | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `THERNUWRAP5KGW1350L3MRL` | Nuwrap5 | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Acoustic lagging | Manufacturer catalogue |
-| Material | Acoustic Composite | Manufacturer catalogue |
-| Applications | waste pipe; stormwater pipe; duct; building services; plumbing | Manufacturer catalogue |
-| Published ratings | NRC 0.30, R0.3 | Internal catalogue; confirm against current TDS |
+| LAmax | 36 | - |
+| SEL | 42.8 | - |
+| Thickness (mm) | 25 | - |
+| Nominal Width (mm) | 1370 | - |
+| Usable width (mm) | 1350 | - |
+| Weight (kg) | 33.75 | - |
+| Intermittent Temp range (0C) | -40 to 120 | - |
+| Continuous Temp range (0C) | -40 to 100 | - |
+| ODP-EMI4 | Yes | - |
+| VOC levels (mg/m²/hr) | ≤ 0.5 | - |
 
-
+Extracted from manufacturer datasheet: https://cdn.shopify.com/s/files/1/0676/6827/9608/files/NuWrap_5_DATASHEET_2025.pdf?v=1787932861
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+AS1530.3 Foil faced Heat Evolved 0
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
@@ -63,7 +86,8 @@ Not verified per SKU. No fire, NCC or BAL classification is asserted in this dra
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU.
+1. Bonded to high performance acoustic foam.
+2. Faced with reinforced fire resistant aluminium foil.
 
 ## Safety and handling
 
@@ -71,7 +95,7 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Low VOC
 
 ## Warranty, returns and support
 

@@ -65,7 +65,7 @@ import sys
 from pathlib import Path
 from typing import Any
 
-from fastapi import FastAPI, HTTPException, Request
+from fastapi import FastAPI, HTTPException, Query, Request
 from fastapi.responses import HTMLResponse, JSONResponse
 from pydantic import BaseModel, Field
 
@@ -87,6 +87,16 @@ if SERVING_ONLY:
 else:
     from research_api import router as research_router
     app.include_router(research_router)
+    if (os.getenv("MATRIX_ENABLED", "true").strip().casefold() == "true"
+            and os.getenv("AURORA_ENV", "development").strip().casefold() != "production"):
+        from matrix_api import router as matrix_router
+        from neo_api import router as neo_router
+        app.include_router(matrix_router)
+        app.include_router(neo_router)
+    if (os.getenv("ORACLE_ENABLED", "true").strip().casefold() == "true"
+            and os.getenv("AURORA_ENV", "development").strip().casefold() != "production"):
+        from oracle_api import router as oracle_router
+        app.include_router(oracle_router)
 from storefront_api import build_router as build_storefront_router
 app.include_router(build_storefront_router(sys.modules[__name__]))
 
@@ -94,7 +104,8 @@ app.include_router(build_storefront_router(sys.modules[__name__]))
 @app.middleware("http")
 async def research_response_privacy(request: Request, call_next):
     response = await call_next(request)
-    if request.url.path.startswith(("/api/research", "/admin/products", "/admin/knowledge", "/admin/competitors", "/admin/catalogue")):
+    if request.url.path.startswith(("/api/research", "/admin/products", "/admin/knowledge",
+                                    "/admin/competitors", "/admin/catalogue", "/api/oracle", "/oracle")):
         response.headers["Cache-Control"] = "no-store"
         response.headers["Referrer-Policy"] = "no-referrer"
         response.headers["X-Content-Type-Options"] = "nosniff"
@@ -276,12 +287,13 @@ form{display:flex;gap:8px;padding:12px;border-top:1px solid var(--line);backgrou
 input{flex:1;padding:11px 13px;border:1px solid var(--line);border-radius:10px;font-size:.95rem}
 button{padding:11px 18px;border:0;border-radius:10px;background:var(--teal);color:#fff;font-weight:700;cursor:pointer}
 </style></head><body>
-<header><h1>Insulation Enquiry</h1><p>Project discovery and product facts &middot; human-reviewed selection</p></header>
+<header><h1 id="title">Insulation Enquiry</h1><p id="subtitle">Project discovery and product facts &middot; human-reviewed selection</p><p id="family"></p><p>Local test chat only. Do not enter customer personal information. Nothing here approves or publishes product claims.</p></header>
 <div id="log"></div>
 <form id="f"><input id="in" autocomplete="off" placeholder="Type your answer&hellip;"><button>Send</button></form>
 <script>
 let convo=null;const log=document.getElementById('log');
 const API_KEY=__AURORA_DEMO_KEY__;const SITE_ID=__AURORA_DEMO_SITE__;
+const FAMILY_ID=__AURORA_DEMO_FAMILY_ID__;const FAMILY_NAME=__AURORA_DEMO_FAMILY_NAME__;
 function add(text,cls){const d=document.createElement('div');d.className='msg '+cls;d.textContent=text;log.appendChild(d);log.scrollTop=log.scrollHeight;}
 // Surface failures instead of rendering `undefined` into an empty bubble. A 403
 // from the origin allowlist used to look identical to a silent hang, which made
@@ -295,7 +307,17 @@ async function post(url,body){
   return j;
 }
 async function start(){
-  try{const j=await post('/api/conversations?site_id='+encodeURIComponent(SITE_ID));convo=j.conversation_id;add(j.reply,'bot');}
+  try{
+    const params=new URLSearchParams({site_id:SITE_ID});
+    if(FAMILY_ID)params.set('family_id',FAMILY_ID);
+    const j=await post('/api/conversations?'+params.toString());convo=j.conversation_id;add(j.reply,'bot');
+    if(FAMILY_ID){
+      document.getElementById('title').textContent='Family review chat';
+      document.getElementById('subtitle').textContent='Ask about the selected family; the bot can explain available local information and identify gaps.';
+      document.getElementById('family').textContent='Family: '+FAMILY_NAME+' ('+FAMILY_ID+'). Your messages are not approvals.';
+      document.getElementById('in').placeholder='Ask about '+FAMILY_NAME+'…';
+    }
+  }
   catch(e){add(e.message,'bot');}
 }
 document.getElementById('f').addEventListener('submit',async e=>{e.preventDefault();const i=document.getElementById('in');const m=i.value.trim();if(!m||!convo)return;i.value='';add(m,'user');
@@ -361,7 +383,7 @@ def _auth_and_cors(request: Request, site_id: str) -> dict[str, str]:
 
 
 @app.get("/chat", response_class=HTMLResponse)
-def chat() -> str:
+def chat(family_id: str | None = Query(default=None, max_length=100)) -> str:
     """
     Development chat harness.
 
@@ -383,9 +405,21 @@ def chat() -> str:
             ),
         )
 
+    family = None
+    if family_id:
+        family = next((row for row in agent_core.FAMILIES if row["family_id"] == family_id), None)
+        if family is None:
+            raise HTTPException(status_code=404, detail="Unknown family")
+        from knowledge_release import configured_release, visible_family_ids
+        release = configured_release()
+        if release and family_id not in visible_family_ids(release, DEMO_CHAT_SITE_ID):
+            raise HTTPException(status_code=404, detail="Unknown family")
+
     return (
         CHAT_HTML.replace("__AURORA_DEMO_KEY__", json.dumps(site.api_key))
         .replace("__AURORA_DEMO_SITE__", json.dumps(site.site_id))
+        .replace("__AURORA_DEMO_FAMILY_ID__", json.dumps(family["family_id"] if family else ""))
+        .replace("__AURORA_DEMO_FAMILY_NAME__", json.dumps(family["name"] if family else ""))
     )
 
 
@@ -408,12 +442,26 @@ async def get_widget_config(site_id: str, request: Request):
 
 
 @app.post("/api/conversations")
-async def start_conversation(request: Request, site_id: str = "local") -> JSONResponse:
+async def start_conversation(
+    request: Request,
+    site_id: str = "local",
+    family_id: str | None = Query(default=None, max_length=100),
+) -> JSONResponse:
     """Start a new conversation. Requires X-API-Key header."""
     cors_headers = _auth_and_cors(request, site_id)
 
     # Create conversation and session
     conversation = agent_core.Conversation()
+    if family_id:
+        family = next((row for row in agent_core.FAMILIES if row["family_id"] == family_id), None)
+        if family is None:
+            raise HTTPException(status_code=404, detail="Unknown family")
+        from knowledge_release import configured_release, visible_family_ids
+        release = configured_release()
+        if release and family_id not in visible_family_ids(release, site_id):
+            raise HTTPException(status_code=404, detail="Unknown family")
+        conversation.topic_products = [family_id]
+        conversation.family_review_id = family_id
     session_id = str(uuid.uuid4())
     session_store.create(
         session_id,

@@ -1,7 +1,7 @@
 ---
 title: "Autex Groove - Panel Insulation | Autex"
-description: "Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled pla"
-keywords: "Autex Groove, Autex panel, acoustic insulation, wall insulation, ceiling insulation, insulation Australia, Autex Australia"
+description: "Groove™ is a semi-rigid, lightweight router-cut panel with precise angular designs that create depth, nuance, and texture. It features 12 unique desig"
+keywords: "Autex Groove, Autex panel, wall insulation, ceiling insulation, insulation Australia, Autex Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AUTEX_GROOVE
 ---
@@ -10,22 +10,19 @@ family_id: AUTEX_GROOVE
 
 **Autex Panel** — acoustic panels for sound absorption and interior finish.
 
-Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled plastic bottles, it's the sustainable choice for modern buildings.
+Groove™ is a semi-rigid, lightweight router-cut panel with precise angular designs that create depth, nuance, and texture. It features 12 unique designs that can transform any space by introducing dynamic light play and dimensionality.
 
 ## Key features
 
-- 100% polyester - safe to handle without protective equipment.
-- contains minimum 80% recycled PET plastic bottles.
-- non-allergenic, non-irritant formulation.
-- will not support mould or mildew growth.
-- maintains performance when wet - dries out naturally.
-- excellent thermal performance for roof/ceiling applications.
-- helps meet NCC energy efficiency requirements.
-- Made from recycled PET bottles.
+- 12 unique designs.
+- can transform any space.
+- introduces dynamic light play.
+- creates depth, nuance, and texture.
 
 ## Applications and selection
 
-- Internal Wall | Ceiling | General Acoustic
+- ceiling
+- external wall
 
 **Selection checklist**
 
@@ -45,16 +42,29 @@ Specialists in sustainable polyester acoustic solutions. Safe to handle without 
 | Rw 35 | acoustic_rw | 24 | 2400 x 1200 | 1 |
 | Rw 35 | acoustic_rw | 24 | 2700 x 1200 | 1 |
 
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `AUTGROOVET12L2400C1PNL` | Autex Groove - 12mm - 2400mm - Category 1 | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTGROOVET12L2700C1PNL` | Autex Groove - 12mm - 2700mm - Category 1 | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTGROOVET24L2400C1PNL` | Autex Groove - 24mm - 2400mm - Category 1 | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTGROOVET24L2700C1PNL` | Autex Groove - 24mm - 2700mm - Category 1 | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Panel | Manufacturer catalogue |
-| Material | Polyester | Manufacturer catalogue |
-| Applications | Internal Wall | Ceiling | General Acoustic | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Groove angle | 30°, 60°, 90° | unless otherwise specified, all Grooves will be 30 degrees |
+| Groove depth | 8mm, 9mm | unless otherwise specified, all VEE Grooves will be 60 degrees, at 8mm deep |
+| Panel dimensions | Width: 1200mm, Height: 2400mm, 2700mm | Thickness: 12mm, 24mm |
+| Panel edge bevel | half of the specified groove angle | for seamless panel joins |
 
-
+Extracted from manufacturer datasheet: https://cdn.mediavalet.com/aunsw/autex/2t4EiS_g-km0NGxjayecaA/gjkhvfscPUe_IvlES65vWQ/Original/Groove%20Specification%20Guide%20AU.pdf
 
 ## Fire, testing and compliance context
 
@@ -76,7 +86,9 @@ Not verified per SKU. No fire, NCC or BAL classification is asserted in this dra
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for applications requiring fire rating without additional protection.
+1. installed with appropriate adhesive (supplied by contractor).
+2. See SpinFix™ install guide.
+3. See Product Installation Guide for further details.
 
 ## Safety and handling
 

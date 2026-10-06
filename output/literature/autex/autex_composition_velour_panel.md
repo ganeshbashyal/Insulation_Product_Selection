@@ -46,6 +46,10 @@ Specialists in sustainable polyester acoustic solutions. Safe to handle without 
 
 _Variants from the manufacturer datasheet._
 
+## Staff-release SKU coverage
+
+_No SKU from this workbook was mapped or proposed for this family._
+
 ## Technical data
 
 | Property | Value | Source |

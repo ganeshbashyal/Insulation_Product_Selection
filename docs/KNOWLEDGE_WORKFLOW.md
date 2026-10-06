@@ -66,6 +66,36 @@ python scripts\audit_family_gaps.py EXACT_BUILD_ID --cache 'C:\Users\ganes\Deskt
 Read `audit.md` for advisory findings and `audit.json` for exact supplied rows,
 download errors, extraction gaps, cached candidates and held workbook rows.
 
+### Offline full-suite consistency review
+
+The full-suite packet builder can include owner-supplied source leads stored in
+`data\local\chatgpt_validation_full_suite\owner_supplied_source_leads.json`.
+Their classification is preserved (for example, product guide only, verified
+PDS, or variant pending); a known product mismatch is not treated as an
+applicable source. Regenerate packets after changing this file:
+
+```powershell
+python scripts\prepare_chatgpt_validation_pilot.py --full-suite
+```
+
+For families whose packets contain hash-bound local PDF page text, the offline
+Llama reviewer compares only those embedded excerpts with family claims. It
+does not fetch listed URLs, use a cloud API, update canonical knowledge, or
+change review/release status. URL-only, hash-only and source-gap families are
+recorded as not reviewed from local source text. A completed model pass is an
+advisory check, not source verification or Alpha release approval. Receipts are
+per-family and resumable; `--limit` selects the next pending local-text cases:
+
+```powershell
+python scripts\review_full_suite_local.py --run-dir data\local\chatgpt_validation_full_suite\FULL_RUN_ID --model llama3.1:8b --limit 2
+python scripts\review_full_suite_local.py --run-dir data\local\chatgpt_validation_full_suite\FULL_RUN_ID --model llama3.1:8b
+```
+
+Review outputs are private under the selected run's `local_review_llama3.1_8b`
+directory. Exact quoted excerpts and page numbers are checked against the
+packet before a finding is retained. Human source, variant and claim
+adjudication remains necessary before any knowledge edit or release.
+
 ### Frozen collection and the TDS register
 
 Once collection is frozen, compile the existing cache rather than retrying
@@ -90,6 +120,66 @@ and copyable Windows paths, with same-file links from the summary. Refreshing th
 report preserves these details. Local file-link launching depends on the viewer;
 the displayed Windows path remains usable independently.
 
+Each family row links to `http://127.0.0.1:8001/chat?family_id=FAMILY_ID`,
+opening the local bot with that exact family preselected as conversation context.
+Use the chat to ask questions or provide conversational review input. This is a
+local test harness; do not enter customer personal information. Messages are not
+claim/SKU approvals and do not publish or deploy anything.
+
+### Staff-release SKU overlay
+
+The local staff-release XLSM may be ingested without running macros, staging
+price values, or changing the reviewed catalogue. `Sales_Melbourne` is the
+baseline; other state tabs are recorded as presence/field/price-status
+differences. Price amounts are compared locally but are not copied to family
+literature. Family mapping is deterministic or a local-model candidate and
+remains explicitly unreviewed.
+
+```powershell
+python scripts\ingest_staff_release_skus.py --source 'C:\path\to\staff-release.xlsm' --mapping-requests data\local\staff_release_family_mapping_requests.json
+python scripts\ingest_staff_release_skus.py --source 'C:\path\to\staff-release.xlsm' --family-map data\local\staff_release_family_map.json
+# Or apply a partial or complete source-hash-bound map without replacing the current inventory:
+python scripts\ingest_staff_release_skus.py --existing-inventory data\local\staff_release_skus.json --family-map data\local\staff_release_family_map.json --output data\local\staff_release_skus_model_candidate.json
+python scripts\generate_family_literature.py --sku-inventory data\local\staff_release_skus_model_candidate.json --confirm-draft-write
+python scripts\fresh_tds_build.py --cache 'C:\Users\ganes\Desktop\Cache' report EXACT_BUILD_ID --sku-inventory data\local\staff_release_skus_model_candidate.json --links-workbook 'C:\path\to\verified-current-links.xlsx'
+```
+
+The local SKU inventory binds to the source workbook SHA-256, excludes inactive
+Product_Master rows, retains unresolved rows in the review queue, and never
+changes recommendation or deployment eligibility. Back up authoring data before
+regenerating family literature. The existing-inventory mode checks the exact
+workbook hash, review-group membership, same-manufacturer candidate IDs and
+price-redacted status; omitted groups retain their previous deterministic or
+heuristic statuses. It is useful when the original workbook is unavailable but
+the hash-bound local inventory is retained. Its output is still a candidate
+map and requires human review.
+
+### Product-sheet literature validation
+
+`scripts\validate_product_sheet.py` adds a second local-model pass over the
+current product sheet. It groups rows by family, joins the combined family data
+to the best family candidates using the manufacturer, product name, material,
+product use and product code/MPN clues, then asks an installed Ollama model to
+mark the family as supported, ambiguous, mismatch or needing more information.
+The combined family review is written to
+`reports\product_sheet_family_review.md`; the family summaries live in
+`reports\product_sheet_validation.json` and `.csv`, and the resumable progress
+checkpoint is `data\local\product_sheet_validation_state.json`. It is a
+validation aid, not an approval or auto-publish step. The model returns one
+family-level status and confidence for the combined SKU rows; the markdown
+report shows the original SKU, supplier code, MPN, product, category, material
+and use for review, but does not imply that each row received an independent
+model judgment. Confidence is model-reported and uncalibrated. Timeouts and
+unparseable replies remain explicit family failures and should not be treated as
+supported or silently retried; inspect the saved output before choosing any
+targeted local retry.
+
+```powershell
+python scripts\validate_product_sheet.py
+python scripts\validate_product_sheet.py --source data\raw\Product_Master_Bot.xlsx --sheet Sheet1 --limit 25
+python scripts\validate_product_sheet.py --resume --retry-failed
+```
+
 Private `KnowledgeService.family` and internal `SalesBriefBuilder` evidence read
 the compiled snapshot, source excerpts/locators and retained Llama findings.
 Changed files/extractions are marked stale; pointer tampering fails explicitly.
@@ -112,6 +202,214 @@ These are source identity/provenance decisions, **not** automatic family binding
 technical claim approvals or publication. Source hashes and queue IDs must still
 match; existing reviewer authentication, same-origin CSRF and optimistic revision
 checks apply. Accessory/source-less families keep a standalone-TDS need question.
+
+### Resumable V3 family and unmapped-SKU review
+
+Knowledge Validation includes a local, risk-first review queue sourced from
+`data\local\staff_release_skus_model_candidate.json` and its matching
+`v3_sku_mapping_triage.json`. It requires the inventory and triage file hashes
+and source-workbook hashes to agree before showing the queue. The queue covers
+all indexed families and every active V3 SKU; current and candidate family
+associations are shown separately, while unmapped SKUs remain in their own
+groups. The SKU table is price-redacted.
+
+For the focused human review, use the **Flagged mapped groups** lane for the
+50 triage groups / 347 flagged SKUs and the **Unmapped SKU groups** lane for
+the 67 groups / 224 unmapped SKUs. A mapped-group attestation covers only that
+exact mapping group, rather than unrelated SKUs in the same family. **Full
+family review** is a separate, broader lane and attests every V3 SKU associated
+with the family. The queue displays saved counts, pending items, and current
+source-workbook identity. The 40 literature gaps are reviewed from the family
+gap filters and Product Research's source/variant review controls; an identity
+review does not bind a source or approve a technical claim.
+
+Each review card combines the retained family dossier, local source paths,
+source hashes/extraction status and associated V3 SKU evidence. A named reviewer
+can save a rationale and explicit checklist as an immutable private review
+revision. The review signature binds the decision to the workbook, dossier,
+guide, local sources and exact SKU evidence; a changed input makes the prior
+attestation stale. These attestations do not assign families, bind sources,
+approve claims, change SKU eligibility or publish data. The workflow performs
+no downloads, hosted inference or model calls.
+
+The local browser UI can be served on loopback (keep it private to this
+computer):
+
+```powershell
+$env:AGENT_USE_LLM='false'
+python -m uvicorn web_agent:app --host 127.0.0.1 --port 8003 --workers 1
+```
+
+Open `http://127.0.0.1:8003/admin/knowledge` and sign in with an existing local
+Product Research account. A reviewer role is required to save attestations;
+never place passwords in command arguments. Do not bind the review service to
+`0.0.0.0`, expose it to the LAN, or use it as a public website.
+
+### All-family TDS transcription check
+
+The local transcription audit compares structured family research facts with
+the generated family literature and exact text on hash-matched, family-linked
+local PDF pages. It records page locators for exact matches and flags facts
+not found verbatim, missing/stale local sources, incomplete extraction, and
+family literature gaps. Regenerate it after any source, research, literature,
+or extraction-cache input changes:
+
+```powershell
+python scripts\check_family_transcription.py
+```
+
+Private, ignored outputs are
+`data\local\family_tds_transcription_check.md` and `.json`. The Knowledge
+Validation browser page shows a read-only transcription-audit lane with
+family-level flags, field-level match details, and links to matched local PDFs.
+The endpoint rejects reports whose file inputs changed; rerun the command to
+refresh a stale report.
+
+An exact text match is **provisional internal transcription evidence only**.
+It does not establish that the document is authentic/current, that the claim
+is correctly interpreted or applicable, or that a product is suitable or
+compliant. A non-match is a review flag, not proof the fact is false. The scan
+does not use source excerpts as ground truth, run a model/network call, rewrite
+family content, approve claims, change SKU mappings, or publish anything.
+Only exact matches in both a generated family literature file and a complete,
+hash-matched, family-linked local PDF qualify for the provisional count;
+manual/source review state remains separate.
+
+#### Risk-based manual closeout
+
+Use the **Full family review** lane to record a named manual disposition for
+each of the 283 dossiers, working from the highest-risk/pending families first.
+This family-level attestation covers source/dossier identity and every
+associated V3 SKU mapping; it is not a requirement to reread all 7,033
+structured fact fields. Inspect every flagged transcription exception and
+resolve it from local source evidence, or leave it held with a concrete
+evidence request. A family can only be confirmed for internal use when its
+source identity and family/variant context are clear and its material flags
+are resolved. The exact-match count alone is never a manual acceptance.
+
+Families without a hash-bound local PDF, or with unresolved revision,
+extraction, page-locator, value/unit/qualifier, interpretation, or identity
+concerns, remain blocked or correction-needed as appropriate. Do not infer a
+pass from examples reviewed in other families. Complete the separate
+literature-gap and mapped/unmapped SKU-group lanes; those decisions are not
+subsumed by a family attestation. A manual internal disposition does not
+approve a technical claim, source binding, compliance, suitability, publication,
+or release.
+
+### Independent ChatGPT knowledge-review pilot
+
+An optional owner-run ChatGPT-in-VS-Code pass can be used as a second set of
+eyes, not as a validation authority. The current product-sheet review is a
+historical family/SKU mapping assessment, not a TDS accuracy review; its model
+confidence is uncalibrated. Do not combine its `supported` count with local
+TDS audit results or exact transcription matches as though they were
+independent approvals.
+
+Prepare the five-family packet locally:
+
+```powershell
+python scripts\prepare_chatgpt_validation_pilot.py
+```
+
+The script makes no network/model calls and leaves canonical knowledge and
+review state unchanged. It fails closed unless all five selected families have
+current, hash-bound local PDF text, family knowledge files, and prior mapping
+results. Private ignored artifacts are written under
+`data\local\chatgpt_validation_pilot`:
+
+- `blind_review_packet.json` contains only the five families' structured facts,
+  family guide/literature, source paths/hashes and selected local PDF page text.
+  It omits prior outcomes/confidence and contains no SKU rows, prices, account
+  data or customer conversations.
+- `blind_review_prompt.md` gives the owner a claim-level output schema and
+  instructions for the first independent pass.
+- `prior_results_comparison_addendum.json` and its readable `.md` summary keep
+  earlier product-sheet, TDS model and transcription results separate. Open
+  them only after the blind pass to reduce anchoring.
+
+Before submitting, confirm the chosen ChatGPT account/workspace permits this
+specific disclosure. Submit only the scoped packet and prompt; do not grant
+broad repository access. The packet does not embed source PDFs. Its page
+excerpts come from the existing local extraction cache and are bound to the
+current PDF SHA-256. A generated packet is a snapshot: regenerate it if any
+input changes. ChatGPT findings are untrusted suggestions. The owner must
+verify each proposed discrepancy against the cited local PDF page and record
+confirmed, unconfirmed or unresolved outcomes separately. Do not copy a model
+`supported` result, confidence score, or suggested change into canonical data,
+source bindings, claims, SKU mappings, publication or the deployment package.
+
+#### Full-suite source-backed review batches
+
+After the five-family pass, prepare a local coverage manifest and compact blind
+batches across all indexed families:
+
+```powershell
+python scripts\prepare_chatgpt_validation_pilot.py --full-suite
+# Optionally lower or raise the conservative estimated input budget per batch:
+python scripts\prepare_chatgpt_validation_pilot.py --full-suite --max-batch-tokens 12000
+```
+
+The default estimated input budget is 24,000 tokens per batch.
+
+Each run is preserved under the ignored
+`data\local\chatgpt_validation_full_suite\<run-id>` directory. Start with
+`coverage_manifest.md`: it accounts for every family and separates locally
+hash-bound page text, existing supplied URL candidates, missing/incomplete
+extraction, stale or unbound sources, and families with no usable evidence.
+Families with no local source and no recorded source URL are not submitted as
+source-validated work; they remain held as insufficient evidence.
+
+The blind batches include the recorded family claim ledger, relevant variant
+or product-item data with price/contact fields omitted, and all HTTPS source
+links present in the local research records' datasheet, TDS, SDS, product or
+range URL fields. Link provenance is retained as recorded; an unlabelled link
+is not assumed to be manually verified. When a complete local PDF extraction is
+available and fits the compact page limit, its page text and SHA-256 are
+included. Otherwise the manifest records why local text was unavailable, and
+any listed URL is only a source lead.
+
+Packet preparation makes no model or network calls. The owner submits each
+batch and matching prompt manually through the permitted VS Code ChatGPT
+workflow. That workflow may open only URLs explicitly listed in the packet; do
+not ask it to search the web or follow unlisted links. The batch-size setting
+uses a conservative character-based token estimate and includes the prompt;
+actual token/tool use varies by ChatGPT model and URL retrieval. Save returned
+results separately with the batch ID and packet hash. Before accepting a
+correction from a fetched source, retain a local copy and SHA-256 and verify
+identity, revision and product/variant applicability. The independent pass can
+help improve the dataset, but it cannot guarantee high accuracy or approve
+claims, mappings, or Alpha release. Record reviewed, corrected, unresolved,
+and not-assessed coverage separately.
+
+### Local Vault product-file reconciliation
+
+`aurora_manager.py` is the local desktop entry point. It has no cloud or model
+calls and only offers predefined local actions. Its product-file audit re-hashes
+every PDF in the selected Vault folder, checks the existing readability report,
+verifies the frozen TDS-register pointer/checksums, and links documents to family
+IDs only by exact SHA-256. The local family pages include every catalogue SKU
+source row for that family, including duplicate SKU codes as distinct rows.
+
+Start it with `python aurora_manager.py`. Use **Validate & preview** first, then
+explicitly generate reports. The private index, JSON map and per-family Markdown
+pages are written under `data\local\vault_product_files` (ignored by Git); this
+reconciliation action does not modify source PDFs, manifests or canonical
+product-literature files. The report keeps hashes without a register family
+association visibly unassigned. A hash-backed family association is provenance
+only: it does not establish edition, regional/SKU applicability, document
+currency, or technical claim approval.
+
+For command-line use:
+
+```powershell
+python scripts\reconcile_vault_product_files.py --product-files 'C:\Users\ganes\Desktop\Vault\product_files'
+python scripts\reconcile_vault_product_files.py --product-files 'C:\Users\ganes\Desktop\Vault\product_files' --write-local-reports --confirm-local-only
+```
+
+The family literature generator no longer truncates large SKU ranges; it emits
+all catalogue source rows with record IDs, internal and supplier SKUs and
+validation status. Regeneration remains a draft-writing action and still
+requires `--confirm-draft-write`.
 
 ```powershell
 python scripts\export_source_review_queue.py
@@ -195,6 +493,19 @@ Reports are saved as `AuroraKnowledge\reports\completion.md`, `completion.csv`
 and `completion.json`, with hash-versioned JSON history. Each family shows source
 and extraction counts, validated/pending/failed current-schema model chunks,
 verified draft existence/freshness, held links and download failures.
+To include links from a later workbook without staging or downloading its
+documents, pass it explicitly:
+
+```powershell
+python scripts\fresh_tds_build.py --cache 'C:\Users\ganes\Desktop\Cache' report EXACT_BUILD_ID --links-workbook 'C:\path\to\supplied-links.xlsx'
+```
+
+Those URLs are listed separately in the private Markdown and JSON reports as
+unverified workbook-supplied links. They do not count as local primary sources,
+change family associations, or grant approval.
+When no current workbook is passed, the report explicitly records
+`supplemental_link_status: not_supplied`; a prior workbook overlay is not carried
+forward.
 `needs_source`/`draft_with_source_gap` are not completed processing.
 `draft_ready_for_human_review` means processing-ready, never public approval.
 Packs generated before later model results need refreshing before being labelled

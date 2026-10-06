@@ -238,9 +238,6 @@ async function openFamily(id){
   for(const row of data.skus)dump(child,`${row.sku_record_id}: ${row.product_name} | eligible ${data.published_sku_eligibility[row.sku_record_id].eligible}`,{raw:row,published:data.published_sku_eligibility[row.sku_record_id]});area.append(child);
   dump(area,"Immutable notes and formal review history",data.history);
   if(account.roles.includes("reviewer")){
-    const form=node("form"),label=node("label","Research note"),text=node("textarea"),save=node("button","Save note revision");
-    const prior=latest("family:"+id,"note");text.value=prior?.payload.text||"";text.required=true;text.maxLength=10000;label.append(text);form.append(label,save);
-    form.onsubmit=action(async()=>{await api("/families/"+id+"/notes","POST",{expected_version:prior?.id||0,data:{text:text.value}});message("Note saved; source files unchanged.");await openFamily(id);});area.append(form);
     $("reviewPanel").hidden=false;$("reviewFamily").textContent=data.family.name;
     const library=await api("/documents");if(sequence!==detailRequest)return;
     $("docSelect").replaceChildren();option($("docSelect"),"","Choose exact source (linked first)");

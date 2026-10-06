@@ -1,6 +1,6 @@
 ---
 title: "Aircell Permifloor - Reflective Insulation | Aircell"
-description: "Quality insulation engineered for Australian conditions. Reflects up to 97% of radiant heat, dramatically reducing summer cooling costs while providin"
+description: "Australian-made Kingspan AIR-CELL Permifloor ® is insulation designed specifically for suspended framed floor applications delivering a 2-in-1 insulat"
 keywords: "Aircell Permifloor, Aircell reflective, floor insulation, insulation Australia, Aircell Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AIRCELL_PERMIFLOOR
@@ -10,20 +10,22 @@ family_id: AIRCELL_PERMIFLOOR
 
 **Aircell Reflective** — reflective foil insulation for radiant heat control.
 
-Quality insulation engineered for Australian conditions. Reflects up to 97% of radiant heat, dramatically reducing summer cooling costs while providing an effective vapour barrier. Rigid design makes installation fast and efficient - no sagging or falling out.
+Australian-made Kingspan AIR-CELL Permifloor ® is insulation designed specifically for suspended framed floor applications delivering a 2-in-1 insulation and moisture management solution.
 
 ## Key features
 
-- High-purity aluminium reflective facing.
-- reflects up to 97% of radiant heat.
-- lightweight and easy to install.
-- provides vapour barrier when properly sealed.
-- rigid design prevents sagging between joists.
-- reduces drafts and cold floors.
+- Water-permeable.
+- CodeMark-certified.
+- Fibre-free.
+- Non-allergenic.
+- Non-irritant.
+- Strong, tough, durable.
+- Rodent and insect resistant.
+- Flammability Index ≤ 5.
 
 ## Applications and selection
 
-- Floor
+- Suspended framed floors
 
 **Selection checklist**
 
@@ -41,20 +43,34 @@ Quality insulation engineered for Australian conditions. Reflects up to 97% of r
 | Not specified | unspecified | 40 | 33340 x 1350 | 1 |
 | Not specified | unspecified | Varies | 30000 x 500 | 1 |
 
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `ACELLPERMIFLOOR40W1350L33P34M` | Permifloor 40 1350mm x 33.34m | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `ACELLPERMIFLOOR500W500L30MRL` | Permifloor 500mm x 30m \(2 rolls per bag\) | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Reflective | Manufacturer catalogue |
-| Material | Reflective Composite | Manufacturer catalogue |
-| Applications | Floor | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material R-value | R0.11 m2/K/W | ASTM C518-2017 at 23°C |
+| Flammability Index | ≤ 5 | AS 1530.2:1993 |
+| Water Control | Pass Non-Water Barrier | AS/NZS 4201.4:1994 |
+| Moisture Shrinkage | < 0.5% | AS/NZS 4201.3:1994 |
+| Surface Water Absorbency | < 100g/m2 | AS/NZS 4201.6:1994 |
+| Corrosion Resistance | App. E Pass | AS/NZS 4859.1:2018 |
+| Electrical Conductivity | ≤ 10MΩ | AS/NZS 4200.1:2017 |
 
-
+Extracted from manufacturer datasheet: https://store.filerobot.com/xamyxyg7fn/kingspan/kil/products/air-cell-permifloor-au-and-nz/kingspan-aircell-permifloor-product-datasheet-en-au.pdf?vh=662202
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+AS 1530.2:1993 ≤ 5
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
@@ -64,16 +80,23 @@ Not verified per SKU. No fire, NCC or BAL classification is asserted in this dra
 
 ## Limitations and warnings
 
-- Reflective performance requires maintained airspace..
-- conductive material - keep away from electrical services..
-- not suitable as sole insulation in cold climates..
-- Ensure adequate subfloor ventilation is maintained..
-- do not leave exposed to ground moisture or subfloor dampness..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Can be damaged by intense heat above 105˚ C.
+- Contact with sparks and flame from blow torches, welders, cutting tools, etc. must be avoided..
+- Foil facings are conductive to electricity – avoid contact with un-insulated electrical cables and fittings..
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Reflective performance requires maintained airspace.
+1. Lay Kingspan AIR-CELL Permifloor® over and running perpendicular to the bearers and fix in position..
+2. Install joists as required..
+3. Fix Kingspan AIR-CELL Permifloor® to the underside of joists by stapling or screwing..
+4. Butt join or overlap by 50 mm and tape with 48 mm reinforced foil tape..
+5. Alternatively, Kingspan AIR-CELL Permifloor ® can be installed over the joists provided it doesn’t compromise the fixing of the chosen flooring, and the insulation is allowed to sag at least 40 mm between joists..
+6. Fit Kingspan AIR-CELL neatly around any penetrations, and tape if necessary to prevent air leakage..
+7. When taping a plastic squeegee or blade must be used to apply appropriate pressure to the tape. Surfaces must be dry and free from dust, oil or grease prior to taping..
+8. Leave minimum 100 mm clearance around heat producing flues or light fittings..
+9. Kingspan AIR-CELL insulation products must be transported and stored in its protective packaging and kept clean and dry..
+10. Standing rolls on end reduces risk of damage should moisture be present in the packaging..
+11. Surfaces must be kept free of contaminants such as dust and grease, and must not be stored with foil surfaces in contact with alkaline materials i.e. wet cement, lime, etc..
 
 ## Safety and handling
 

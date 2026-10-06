@@ -6,12 +6,13 @@ import secrets
 import sqlite3
 import time
 import threading
+from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlsplit
 
 from fastapi import APIRouter, HTTPException, Request
 from fastapi.responses import HTMLResponse, JSONResponse, Response
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 
 ROOT = Path(__file__).resolve().parent
 TOKEN_SECONDS = 3600
@@ -52,6 +53,30 @@ class WidgetMessage(BaseModel):
     message: str = Field(min_length=1, max_length=4000)
 
 
+class PageContext(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    page_url: str = Field(min_length=1, max_length=2048)
+    page_type: str = Field(default="other", pattern=r"^(product|category|content|other)$")
+    product_id: str | None = Field(default=None, max_length=64, pattern=r"^[a-zA-Z0-9_-]+$")
+    variation_id: str | None = Field(default=None, max_length=64, pattern=r"^[a-zA-Z0-9_-]+$")
+    product_name: str | None = Field(default=None, max_length=200)
+    product_category: str | None = Field(default=None, max_length=120)
+    product_url: str | None = Field(default=None, max_length=2048)
+
+
+class WidgetStart(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    page_context: PageContext | None = None
+
+
+class PageContextDecision(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    confirmed: bool
+
+
 def public_origin(value: str) -> str:
     if not isinstance(value,str) or any(char.isspace() for char in value) or any(char in value for char in (";", "'", '"', "\\")):
         raise ValueError("Origin contains invalid characters")
@@ -65,6 +90,55 @@ def public_origin(value: str) -> str:
     except ValueError as exc:
         raise ValueError("Invalid origin port") from exc
     return f"{parsed.scheme}://{parsed.netloc}"
+
+
+def checked_page_context(context: PageContext | None, allowed_origins: list[str]) -> dict | None:
+    if context is None:
+        return None
+    try:
+        allowed = {public_origin(origin) for origin in allowed_origins}
+    except ValueError as exc:
+        raise HTTPException(503, "Storefront needs literal allowed origins") from exc
+
+    def checked_url(value: str, label: str) -> tuple[str, str]:
+        parsed = urlsplit(value)
+        if (any(char.isspace() for char in value) or not parsed.scheme or not parsed.netloc
+                or parsed.username or parsed.password):
+            raise HTTPException(422, f"{label} must be an absolute storefront URL")
+        restricted_paths = {"my-account", "cart", "checkout", "order-pay", "order-received", "view-order"}
+        if parsed.path.strip("/").split("/", 1)[0].casefold() in restricted_paths:
+            raise HTTPException(422, "Page context is not accepted from account, cart or checkout pages")
+        try:
+            origin = public_origin(f"{parsed.scheme}://{parsed.netloc}")
+        except ValueError as exc:
+            raise HTTPException(422, f"{label} is invalid") from exc
+        if origin not in allowed:
+            raise HTTPException(422, f"{label} must use an allowed storefront origin")
+        return origin, origin + (parsed.path or "/")
+
+    def plain_text(value: str | None) -> str | None:
+        if not value:
+            return None
+        cleaned = " ".join("".join(char for char in value if char >= " " and char != "\x7f").split())
+        return cleaned or None
+
+    page_origin, page_url = checked_url(context.page_url, "Page URL")
+    product_url = None
+    if context.product_url:
+        product_origin, product_url = checked_url(context.product_url, "Product URL")
+        if product_origin != page_origin:
+            raise HTTPException(422, "Product URL must use the same origin as the page URL")
+    return {
+        "page_url": page_url,
+        "page_type": context.page_type,
+        "product_id": context.product_id,
+        "variation_id": context.variation_id,
+        "product_name": plain_text(context.product_name),
+        "product_category": plain_text(context.product_category),
+        "product_url": product_url,
+        "confirmation": "unconfirmed",
+        "confirmed_at": None,
+    }
 
 
 def build_router(runtime) -> APIRouter:
@@ -123,20 +197,53 @@ def build_router(runtime) -> APIRouter:
                                      "Content-Security-Policy": "frame-ancestors " + " ".join(allowed)})
 
     @router.post("/api/widget/conversations")
-    def start(request: Request, site_id: str):
+    def start(request: Request, site_id: str, body: WidgetStart | None = None):
         import agent_core
         import uuid
 
         config = site(site_id)
         same_origin(request)
         rate(request, site_id)
+        page_context = checked_page_context(body.page_context if body else None, config.allowed_origins)
         conversation = agent_core.Conversation()
+        conversation.page_context = page_context
         session_id = str(uuid.uuid4())
         runtime.session_store.create(session_id, site_id, {**conversation.to_dict(), "messages": []})
         token = token_store().issue(site_id, session_id)
         return JSONResponse({"conversation_id": session_id, "token": token,
                              "reply": agent_core.OPENING,
+                             "page_context": page_context,
                              "branding": runtime.widget_provider.get_widget_config(site_id)},
+                            headers={"Cache-Control": "no-store"})
+
+    @router.post("/api/widget/conversations/{session_id}/context")
+    def decide_page_context(
+        session_id: str,
+        body: PageContextDecision,
+        request: Request,
+        site_id: str,
+    ):
+        import agent_core
+        import json
+
+        site(site_id)
+        same_origin(request)
+        if not token_store().verify(request.headers.get("X-Chat-Token", ""), site_id, session_id):
+            raise HTTPException(401, "Chat session expired or invalid; start a new enquiry")
+        rate(request, site_id)
+        with turn_lock:
+            session = runtime.session_store.get(session_id, site_id)
+            if session is None:
+                raise HTTPException(404, "Chat session not found")
+            data = json.loads(session.conversation_json)
+            context = data.get("page_context")
+            if not isinstance(context, dict) or context.get("confirmation") != "unconfirmed":
+                raise HTTPException(409, "No unconfirmed page context is available")
+            context["confirmation"] = "confirmed" if body.confirmed else "not_relevant"
+            context["confirmed_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+            data["page_context"] = context
+            runtime.session_store.update(session_id, site_id, data)
+        return JSONResponse({"confirmation": context["confirmation"]},
                             headers={"Cache-Control": "no-store"})
 
     @router.post("/api/widget/conversations/{session_id}/messages")

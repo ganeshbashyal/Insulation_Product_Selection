@@ -39,6 +39,10 @@ Quality insulation engineered for Australian conditions. Engineered to meet Aust
 | R0.1 | thermal_r_value | 60 | 50000 x 60 | 1 |
 | R0.1 | thermal_r_value | 75 | 50000 x 75 | 1 |
 
+## Staff-release SKU coverage
+
+_No SKU from this workbook was mapped or proposed for this family._
+
 ## Technical data
 
 | Property | Value | Source |

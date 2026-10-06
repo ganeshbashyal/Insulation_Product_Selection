@@ -1,6 +1,6 @@
 ---
 title: "E-Flex HT Solar Pipe Insulation - High-temperature pipe Insulation | Thermotec"
-description: "E-Flex HT Solar Pipe Insulation is a high-temperature pipe insulation product family from Thermotec. View the catalogue range, applications and specif"
+description: "E-Flex HT PIPE INSULATION is a flexible closed-cell EPDM elastomeric foam material suitable for Solar Systems and use on hot and chilled water lines w"
 keywords: "E-Flex HT Solar Pipe Insulation, Thermotec high-temperature pipe, pipe insulation, R-value insulation, insulation Australia, Thermotec Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: THERMOTEC_E_FLEX_HT
@@ -10,18 +10,28 @@ family_id: THERMOTEC_E_FLEX_HT
 
 **Thermotec High-temperature pipe** — high-temperature pipe insulation product.
 
-E-Flex HT Solar Pipe Insulation is a high-temperature pipe product family from Thermotec. Confirm the current published specification against the manufacturer datasheet before quoting.
+E-Flex HT PIPE INSULATION is a flexible closed-cell EPDM elastomeric foam material suitable for Solar Systems and use on hot and chilled water lines with outstanding ultraviolet and weather resistance.
 
 ## Key features
 
-- Refer to the manufacturer datasheet for published features.
+- Flexible.
+- Closed-cell EPDM foam.
+- Excellent UV resistance.
+- Excellent weather resistance.
+- Highly flexible.
+- Homogeneous cell structure.
+- No external UV protection required.
 
 ## Applications and selection
 
-- solar hot water
-- outdoor pipe
-- high-temperature pipe
-- UV-exposed service
+- Solar Systems
+- Hot water lines
+- Chilled water lines
+- General plumbing
+- Solar Hot Water
+- Refrigeration
+- Air Conditioning
+- LP Steam & Condensate lines
 
 **Selection checklist**
 
@@ -31,107 +41,76 @@ E-Flex HT Solar Pipe Insulation is a high-temperature pipe product family from T
 4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
 5. Record the suburb/postcode so climate-zone requirements can be checked.
 
-## Manufacturer range
-
-| Wall / R | Pipe ID | Fits Copper | Imperial OD | Carton (lineal m) | Pcs/carton |
-| --- | --- | --- | --- | --- | --- |
-| 13 mm (R0.38) | 10 mm | DN10 | 3/8" | 160 m | 80 |
-| 13 mm (R0.38) | 13 mm | DN15 | 1/2" | 136 m | 68 |
-| 13 mm (R0.38) | 19 mm | DN20 | 3/4" | 96 m | 48 |
-| 13 mm (R0.38) | 22 mm | - | 7/8" | 84 m | 42 |
-| 13 mm (R0.38) | 25 mm | DN25 | 1" | 70 m | 35 |
-| 13 mm (R0.38) | 28 mm | - | 1-1/8" | 60 m | 30 |
-| 13 mm (R0.38) | 35 mm | DN32 | 1-3/8" | 44 m | 22 |
-| 13 mm (R0.38) | 42 mm | DN40 | 1-5/8" | 36 m | 18 |
-| 13 mm (R0.38) | 54 mm | DN50 | 2-1/8" | 24 m | 12 |
-| 19 mm (R0.60) | 13 mm | DN15 | 1/2" | 72 m | 36 |
-| 19 mm (R0.60) | 19 mm | DN20 | 3/4" | 56 m | 28 |
-| 19 mm (R0.60) | 25 mm | DN25 | 1" | 48 m | 24 |
-| 19 mm (R0.60) | 35 mm | DN32 | 1-3/8" | 32 m | 16 |
-| 25 mm (R0.85) | 19 mm | DN20 | 3/4" | 36 m | 18 |
-| 25 mm (R0.85) | 25 mm | DN25 | 1" | 30 m | 15 |
-
-_Manufacturer size/packaging breakdown._
-
-**Internal catalogue range**
-
-| SKU | Product | Published rating |
-| --- | --- | --- |
-| E-FLEXHT13X13 | E-FLEXHT13X13 | R1.2, R2.5 |
-| E-FLEXHT16X13 | E-FLEXHT16X13 | R1.2, R2.5 |
-| E-flex HT 13mm Wall * 9mm | E-flex HT 13mm Wall * 9mm | R1.2, R2.5 |
-| E-flex HT 13mm Wall * 13mm | E-flex HT 13mm Wall * 13mm | R1.2, R2.5 |
-| E-flex HT 13mm Wall * 16mm | E-flex HT 13mm Wall * 16mm | R1.2, R2.5 |
-| E-flex HT 13mm Wall * 19mm | E-flex HT 13mm Wall * 19mm | R1.2, R2.5 |
-| E-flex HT 13mm Wall * 25mm | E-flex HT 13mm Wall * 25mm | R1.2, R2.5 |
-| E-flex HT 13mm Wall * 32mm | E-flex HT 13mm Wall * 32mm | R1.2, R2.5 |
-| E-flex HT 13mm Wall * 39mm | E-flex HT 13mm Wall * 39mm | R1.2, R2.5 |
-| E-flex HT 19mm Wall * 13mm | E-flex HT 19mm Wall * 13mm | R1.2, R2.5 |
-| E-flex HT 19mm Wall * 19mm | E-flex HT 19mm Wall * 19mm | R1.2, R2.5 |
-| E-flex HT 19mm Wall * 25mm | E-flex HT 19mm Wall * 25mm | R1.2, R2.5 |
-| E-flex HT 19mm Wall * 32mm | E-flex HT 19mm Wall * 32mm | R1.2, R2.5 |
-| E-flex HT 19mm Wall * 38mm | E-flex HT 19mm Wall * 38mm | R1.2, R2.5 |
-| E-flex HT 19mm Wall * 51mm | E-flex HT 19mm Wall * 51mm | R1.2, R2.5 |
-| E-flex HT 25mm Wall * 22mm | E-flex HT 25mm Wall * 22mm | R1.2, R2.5 |
-
 
 ## Current catalogue range
 
-| Wall / R | Pipe ID | Fits Copper | Imperial OD | Carton (lineal m) | Pcs/carton |
+| SKU record | Internal SKU | Supplier SKU | Product | Published rating | Validation |
 | --- | --- | --- | --- | --- | --- |
-| 13 mm (R0.38) | 10 mm | DN10 | 3/8" | 160 m | 80 |
-| 13 mm (R0.38) | 13 mm | DN15 | 1/2" | 136 m | 68 |
-| 13 mm (R0.38) | 19 mm | DN20 | 3/4" | 96 m | 48 |
-| 13 mm (R0.38) | 22 mm | - | 7/8" | 84 m | 42 |
-| 13 mm (R0.38) | 25 mm | DN25 | 1" | 70 m | 35 |
-| 13 mm (R0.38) | 28 mm | - | 1-1/8" | 60 m | 30 |
-| 13 mm (R0.38) | 35 mm | DN32 | 1-3/8" | 44 m | 22 |
-| 13 mm (R0.38) | 42 mm | DN40 | 1-5/8" | 36 m | 18 |
-| 13 mm (R0.38) | 54 mm | DN50 | 2-1/8" | 24 m | 12 |
-| 19 mm (R0.60) | 13 mm | DN15 | 1/2" | 72 m | 36 |
-| 19 mm (R0.60) | 19 mm | DN20 | 3/4" | 56 m | 28 |
-| 19 mm (R0.60) | 25 mm | DN25 | 1" | 48 m | 24 |
-| 19 mm (R0.60) | 35 mm | DN32 | 1-3/8" | 32 m | 16 |
-| 25 mm (R0.85) | 19 mm | DN20 | 3/4" | 36 m | 18 |
-| 25 mm (R0.85) | 25 mm | DN25 | 1" | 30 m | 15 |
+| SKU-36642402CE1737B7 | E-FLEXHT13X13 | THEREFLEXHTPIPEID13T13 | E-FLEXHT13X13 | R1.2, R2.5 | REVIEW |
+| SKU-0369B8C76C763F1B | E-FLEXHT16X13 | THEREFLEXHTPIPEID16T13 | E-FLEXHT16X13 | R1.2, R2.5 | REVIEW |
+| SKU-263328BA6B0F7EF9 | E-flex HT 13mm Wall * 9mm | THEREFLEXHTPIPEID9T13L2000 | E-flex HT 13mm Wall * 9mm | R1.2, R2.5 | REVIEW |
+| SKU-43D3321A7B9812A6 | E-flex HT 13mm Wall * 13mm | THEREFLEXHTPIPEID13T13L2000 | E-flex HT 13mm Wall * 13mm | R1.2, R2.5 | REVIEW |
+| SKU-E798DA9E90E16899 | E-flex HT 13mm Wall * 16mm | THEREFLEXHTPIPEID16T13L2000 | E-flex HT 13mm Wall * 16mm | R1.2, R2.5 | REVIEW |
+| SKU-EB93E24C18CB40B3 | E-flex HT 13mm Wall * 19mm | THEREFLEXHTPIPEID19T13L2000 | E-flex HT 13mm Wall * 19mm | R1.2, R2.5 | REVIEW |
+| SKU-857A7B502AAC3427 | E-flex HT 13mm Wall * 25mm | THEREFLEXHTPIPEID25T13L2000 | E-flex HT 13mm Wall * 25mm | R1.2, R2.5 | REVIEW |
+| SKU-B81A2502B40E96B7 | E-flex HT 13mm Wall * 32mm | THEREFLEXHTPIPEID32T13L2000 | E-flex HT 13mm Wall * 32mm | R1.2, R2.5 | REVIEW |
+| SKU-E7769FA6DEB4B0BF | E-flex HT 13mm Wall * 39mm | THEREFLEXHTPIPEID39T13L2000 | E-flex HT 13mm Wall * 39mm | R1.2, R2.5 | REVIEW |
+| SKU-1ADF5E3B7E3F2405 | E-flex HT 19mm Wall * 13mm | THEREFLEXHTPIPEID13T19L2000 | E-flex HT 19mm Wall * 13mm | R1.2, R2.5 | REVIEW |
+| SKU-F99FE8CA575F34C2 | E-flex HT 19mm Wall * 19mm | THEREFLEXHTPIPEID19T19L2000 | E-flex HT 19mm Wall * 19mm | R1.2, R2.5 | REVIEW |
+| SKU-9C6BA9372AD1CAED | E-flex HT 19mm Wall * 25mm | THEREFLEXHTPIPEID25T19L2000 | E-flex HT 19mm Wall * 25mm | R1.2, R2.5 | REVIEW |
+| SKU-06039B8056486ECE | E-flex HT 19mm Wall * 32mm | THEREFLEXHTPIPEID32T19L2000 | E-flex HT 19mm Wall * 32mm | R1.2, R2.5 | REVIEW |
+| SKU-CF48F65F3AA4A036 | E-flex HT 19mm Wall * 38mm | THEREFLEXHTPIPEID38T19L2000 | E-flex HT 19mm Wall * 38mm | R1.2, R2.5 | REVIEW |
+| SKU-88C46550148ADFCB | E-flex HT 19mm Wall * 51mm | THEREFLEXHTPIPEID51T19L2000 | E-flex HT 19mm Wall * 51mm | R1.2, R2.5 | REVIEW |
+| SKU-4F139DE049CE134B | E-flex HT 25mm Wall * 22mm | THEREFLEXHTPIPEID22T25L2000 | E-flex HT 25mm Wall * 22mm | R1.2, R2.5 | REVIEW |
 
-_Manufacturer size/packaging breakdown._
+_All 16 catalogue source rows are listed; duplicate SKU codes are retained as separate records._
 
-**Internal catalogue range**
+## Staff-release SKU coverage
 
-| SKU | Product | Published rating |
-| --- | --- | --- |
-| E-FLEXHT13X13 | E-FLEXHT13X13 | R1.2, R2.5 |
-| E-FLEXHT16X13 | E-FLEXHT16X13 | R1.2, R2.5 |
-| E-flex HT 13mm Wall * 9mm | E-flex HT 13mm Wall * 9mm | R1.2, R2.5 |
-| E-flex HT 13mm Wall * 13mm | E-flex HT 13mm Wall * 13mm | R1.2, R2.5 |
-| E-flex HT 13mm Wall * 16mm | E-flex HT 13mm Wall * 16mm | R1.2, R2.5 |
-| E-flex HT 13mm Wall * 19mm | E-flex HT 13mm Wall * 19mm | R1.2, R2.5 |
-| E-flex HT 13mm Wall * 25mm | E-flex HT 13mm Wall * 25mm | R1.2, R2.5 |
-| E-flex HT 13mm Wall * 32mm | E-flex HT 13mm Wall * 32mm | R1.2, R2.5 |
-| E-flex HT 13mm Wall * 39mm | E-flex HT 13mm Wall * 39mm | R1.2, R2.5 |
-| E-flex HT 19mm Wall * 13mm | E-flex HT 19mm Wall * 13mm | R1.2, R2.5 |
-| E-flex HT 19mm Wall * 19mm | E-flex HT 19mm Wall * 19mm | R1.2, R2.5 |
-| E-flex HT 19mm Wall * 25mm | E-flex HT 19mm Wall * 25mm | R1.2, R2.5 |
-| E-flex HT 19mm Wall * 32mm | E-flex HT 19mm Wall * 32mm | R1.2, R2.5 |
-| E-flex HT 19mm Wall * 38mm | E-flex HT 19mm Wall * 38mm | R1.2, R2.5 |
-| E-flex HT 19mm Wall * 51mm | E-flex HT 19mm Wall * 51mm | R1.2, R2.5 |
-| E-flex HT 25mm Wall * 22mm | E-flex HT 25mm Wall * 22mm | R1.2, R2.5 |
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `THEREFLEXHTPIPEID13T13` | E-FLEXHT13X13 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `THEREFLEXHTPIPEID13T13L2000` | E-flex HT 13mm Wall \* 13mm | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `THEREFLEXHTPIPEID13T19L2000` | E-flex HT 19mm Wall \* 13mm | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `THEREFLEXHTPIPEID16T13` | E-FLEXHT16X13 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `THEREFLEXHTPIPEID16T13L2000` | E-flex HT 13mm Wall \* 16mm | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `THEREFLEXHTPIPEID19T13L2000` | E-flex HT 13mm Wall \* 19mm | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `THEREFLEXHTPIPEID19T19L2000` | E-flex HT 19mm Wall \* 19mm | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `THEREFLEXHTPIPEID22T25L2000` | E-flex HT 25mm Wall \* 22mm | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `THEREFLEXHTPIPEID25T13L2000` | E-flex HT 13mm Wall \* 25mm | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `THEREFLEXHTPIPEID25T19L2000` | E-flex HT 19mm Wall \* 25mm | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `THEREFLEXHTPIPEID32T13L2000` | E-flex HT 13mm Wall \* 32mm | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `THEREFLEXHTPIPEID32T19L2000` | E-flex HT 19mm Wall \* 32mm | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `THEREFLEXHTPIPEID38T19L2000` | E-flex HT 19mm Wall \* 38mm | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `THEREFLEXHTPIPEID39T13L2000` | E-flex HT 13mm Wall \* 39mm | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `THEREFLEXHTPIPEID51T19L2000` | E-flex HT 19mm Wall \* 51mm | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `THEREFLEXHTPIPEID9T13L2000` | E-flex HT 13mm Wall \* 9mm | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | High-temperature pipe | Manufacturer catalogue |
-| Material | Closed-cell EPDM foam | Manufacturer catalogue |
-| Applications | solar hot water; outdoor pipe; high-temperature pipe; UV-exposed service | Manufacturer catalogue |
-| Published ratings | R1.2, R2.5 | Internal catalogue; confirm against current TDS |
+| Density | 60kg/m3 | nominal |
+| Service Temperature | -57°C to +150°C continuous (180C intermittent) | ASTM D 537:2004 |
+| Thermal Conductivity | 0.036 @ 24°C | - |
+| UV Resistance | ISO 4892-2:2006 (No cracks present) | - |
+| Weather Resistance | Excellent | - |
+| Flexibility | Excellent | - |
+| Flammability | AS1530.3:1999 - BS476 parts 6&7 Class 0 | - |
+| Ignitability | 0 (range 0-20) | - |
+| Spread of flame | 0 (range 0-10) | - |
+| Heat evolved | 0 (range 0-10) | - |
+| Smoke developed | 5 (range 0-10) | - |
 
-
+Extracted from manufacturer datasheet: https://cdn.shopify.com/s/files/1/0676/6827/9608/files/E_flex_HT_Data_Sheet_V7.pdf?v=1787977723
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+AS1530.3:1999 - BS476 parts 6&7 Class 0
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.

@@ -49,6 +49,10 @@ Bradford Thermoseal Light Duty Metal Roof / Wall is a multi-layer reflective foi
 
 _Variants from the manufacturer datasheet._
 
+## Staff-release SKU coverage
+
+_No SKU from this workbook was mapped or proposed for this family._
+
 ## Technical data
 
 | Property | Value | Standard |

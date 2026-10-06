@@ -3,7 +3,7 @@ import sqlite3
 
 import pytest
 
-from authoring_backup import backup, checked_manifest, restore
+from authoring_backup import backup, checked_manifest, inventory, restore
 from research_store import ResearchStore
 
 
@@ -70,3 +70,14 @@ def test_corrupt_snapshot_never_restores(tmp_path):
 def test_backup_inside_checkout_is_rejected(tmp_path):
     with pytest.raises(ValueError, match="outside"):
         backup(tmp_path, tmp_path / "backup")
+
+
+def test_inventory_ignores_open_office_lock_files(tmp_path):
+    workbook = tmp_path / "data" / "raw" / "Last audit.xlsx"
+    workbook.parent.mkdir(parents=True)
+    workbook.write_bytes(b"workbook")
+    lock = workbook.with_name("~$Last audit.xlsx")
+    lock.write_bytes(b"Excel lock")
+
+    assert "data/raw/Last audit.xlsx" in inventory(tmp_path)
+    assert "data/raw/~$Last audit.xlsx" not in inventory(tmp_path)

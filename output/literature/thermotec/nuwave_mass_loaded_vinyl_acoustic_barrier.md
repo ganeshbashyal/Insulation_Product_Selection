@@ -36,19 +36,25 @@ Thermotec NuWave Base is an Australian-made, flexible, high-density mass loaded 
 
 ## Current catalogue range
 
-| SKU | Product | Published rating |
-| --- | --- | --- |
-| Nuwave Base 2kg | Nuwave Base 2kg | Not stated |
-| Nuwave Base 4kg | Nuwave Base 4kg | Not stated |
-| Nuwave Base 6kg | Nuwave Base 6kg | Not stated |
-| Nuwave Base 8kg | Nuwave Base 8kg | Not stated |
-| Nuwave Base 10kg | Nuwave Base 10kg | Not stated |
-| Nuwave Base 4kg - Half Roll | Nuwave Base 4kg - Half Roll | Not stated |
-| Nuwave Base 6kg - Half Roll | Nuwave Base 6kg - Half Roll | Not stated |
-| Nuwave Base 8kg - Half Roll | Nuwave Base 8kg - Half Roll | Not stated |
-| Nuwave Base 4kg - South Australia | Nuwave Base 4kg - South Australia | Not stated |
-| Nuwave Base 6kg - South Australia | Nuwave Base 6kg - South Australia | Not stated |
-| Nuwave Base 8kg - South Australia | Nuwave Base 8kg - South Australia | Not stated |
+| SKU record | Internal SKU | Supplier SKU | Product | Published rating | Validation |
+| --- | --- | --- | --- | --- | --- |
+| SKU-E9BC0C15D1BD64DF | Nuwave Base 2kg | THERNWB2KGW1350L5MRL | Nuwave Base 2kg | Not stated | REVIEW |
+| SKU-1DD50FC487D858EC | Nuwave Base 4kg | THERNWB4KGW1350L5MRL | Nuwave Base 4kg | Not stated | REVIEW |
+| SKU-261EFFF763F2B04F | Nuwave Base 6kg | THERNWB6KGW1350L3MRL | Nuwave Base 6kg | Not stated | REVIEW |
+| SKU-D7D27400300E0AA9 | Nuwave Base 8kg | THERNWB8KGW1350L3MRL | Nuwave Base 8kg | Not stated | REVIEW |
+| SKU-AD563CF43AF9A3C9 | Nuwave Base 10kg | THERNWB10KGW1350L3MRL | Nuwave Base 10kg | Not stated | REVIEW |
+| SKU-8FEAD3CA7834641F | Nuwave Base 4kg - Half Roll | THERNWB4KGHALFW1350L2P5MRL | Nuwave Base 4kg - Half Roll | Not stated | REVIEW |
+| SKU-0B0210F794D0944A | Nuwave Base 6kg - Half Roll | THERNWB6KGHALFW1350L1P5MRL | Nuwave Base 6kg - Half Roll | Not stated | REVIEW |
+| SKU-F1B1ABDCD0BAF08B | Nuwave Base 8kg - Half Roll | THERNWB8KGHALFW1350L1P5MRL | Nuwave Base 8kg - Half Roll | Not stated | REVIEW |
+| SKU-4596DDF56EF3F1F0 | Nuwave Base 4kg - South Australia |  | Nuwave Base 4kg - South Australia | Not stated | BLOCKED |
+| SKU-8FFF67C73590A56D | Nuwave Base 6kg - South Australia |  | Nuwave Base 6kg - South Australia | Not stated | BLOCKED |
+| SKU-7D249A8B4662507A | Nuwave Base 8kg - South Australia |  | Nuwave Base 8kg - South Australia | Not stated | BLOCKED |
+
+_All 11 catalogue source rows are listed; duplicate SKU codes are retained as separate records._
+
+## Staff-release SKU coverage
+
+_No SKU from this workbook was mapped or proposed for this family._
 
 ## Technical data
 

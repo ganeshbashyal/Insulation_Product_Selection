@@ -53,6 +53,26 @@ Paroc Rockwool is a premium European-engineered stone wool insulation made from 
 
 _Variants from the manufacturer datasheet._
 
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `PARROCKWOOLD120R15T50W600PK4` | Paroc Rockwool R1.5 120kg 50mm 600x1000 4pk \(2.4m2\) | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `PARROCKWOOLD60R15T50W600PK9` | Paroc Rockwool R1.5 60kg 50mm 600x1000 9pk \(5.4m2\) | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `PARROCKWOOLD60R25T90W600PK5` | Paroc Rockwool R2.5 60kg 90mm 600x1000 5pk \(3m2\) | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `PARROCKWOOLD80R07T25W600PK12` | Paroc Rockwool R0.7 80kg 25mm 600x1000 12pk \(7.2m2\) | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `PARROCKWOOLD80R15T50W600PK7` | Paroc Rockwool R1.5 80kg 50mm 600x1000 7pk \(4.2m2\) | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `PARROCKWOOLD80R21T75W600PK5` | Paroc Rockwool R2.1 80kg 75mm 600x1000 5pk \(3m2\) | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `PARROCKWOOLD80R28T100W600PK3` | Paroc Rockwool R2.8 80kg 100mm 600x1000 3pk \(1.8m2\) | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `PARRW350FOILD50T50W1000L6MRL` | Paroc Rockwool 350 50kg Foil Faced Blanket 50mm 1000x6000 Roll \(6m2\) | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `PARRW640FOILD80T50W1000L4P5MRL` | Paroc Rockwool 640 80kg Foil Faced Blanket 50mm 1000x4500 Roll \(4.5m2\) | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `PARRW640FOILD80T80W1000L2P5MRL` | Paroc Rockwool 640 80kg Foil Faced Blanket 80mm 1000x2500 Roll \(2.5m2\) | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `PARRW660FOILD100T50W1000L4MRL` | Paroc Rockwool 660 100kg Foil Faced Blanket 50mm 1000x4000 Roll \(4m2\) | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+
 ## Technical data
 
 | Property | Value | Standard |

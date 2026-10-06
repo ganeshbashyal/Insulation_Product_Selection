@@ -14,8 +14,23 @@
   frame.referrerPolicy = "no-referrer";
   frame.style.cssText = "position:fixed;right:20px;bottom:78px;width:min(390px,calc(100vw - 40px));height:min(580px,calc(100vh - 110px));border:1px solid #bbb;border-radius:12px;z-index:2147483000;background:white";
   frame.hidden = true;
+  const restrictedPage = /^\/(?:my-account|cart|checkout|order-pay|order-received|view-order)(?:\/|$)/i.test(location.pathname);
+  const pageContext = restrictedPage ? null : {
+    page_url: location.origin + location.pathname,
+    page_type: script.dataset.pageType || "other",
+    product_id: script.dataset.productId || undefined,
+    variation_id: script.dataset.variationId || undefined,
+    product_name: script.dataset.productName || undefined,
+    product_category: script.dataset.productCategory || undefined,
+    product_url: script.dataset.productUrl || undefined
+  };
   const url = new URL("/widget", host);
   url.search = new URLSearchParams({site_id: script.dataset.siteId, parent_origin: location.origin});
+  frame.addEventListener("load", () => {
+    if (frame.contentWindow) {
+      frame.contentWindow.postMessage({type: "aurora-page-context", pageContext}, host);
+    }
+  });
   let loaded = false;
   button.addEventListener("click", () => {
     if (!loaded) { frame.src = url.href; loaded = true; }

@@ -66,6 +66,12 @@ For selection requests, use adaptive discovery rather than a short contact form 
 5. Stop discovery when relevant fields are answered or explicitly unknown/skipped. Honour an early request to finish or speak to a person, marking remaining gaps rather than claiming a complete brief.
 6. Offer voluntary contact consent and an optional callback preference. Prepare an internal shortlist with evidence gaps and unresolved customer questions. Do not show a recommendation to the customer.
 
+Storefront page/product metadata may be captured only as an optional enquiry
+hint. Confirm whether it is relevant and allow the customer to reject it; do not
+treat product IDs, names, URLs or page categories as proof of identity,
+suitability or intent, and never infer a family or SKU from that context alone.
+Remove query strings and fragments before retaining page/product URLs.
+
 Answer factual interruptions without advancing qualification or interpreting the
 question as a name, contact detail or consent. Resume the pending question when
 the customer returns to selection. A requirement supplied during intake must be

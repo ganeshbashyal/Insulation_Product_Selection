@@ -78,8 +78,8 @@ class ConversationService:
         if classification.category == "product-fit" and conversation.mode == "enquiry" and self.product_answers.definition(message) and not asks_selection(message):
             classification = RouterClassification("informational", 1.0)
         callback_request = bool(re.search(
-            r"^(?:please\s+|(?:can|could)\s+(?:you|someone|the team)\s+)?(?:call me|contact me|call back)\b"
-            r"|\b(?:I'd like|I want|request|arrange)\s+(?:a\s+)?callback\b", message, re.I,
+            r"^(?:please\s+|(?:can|could)\s+(?:you|someone|the team)\s+)?(?:call me|contact me|call back|acll back)\b"
+            r"|\b(?:I'd like|I want|I need|request|arrange)\s+(?:a\s+)?(?:callback|call back|acll back)\b", message, re.I,
         ))
         if callback_request:
             classification = RouterClassification("callback", 1.0)
@@ -88,14 +88,33 @@ class ConversationService:
             and any(agent_core.parse_contact_details(message).values())
         )
         products = [] if supplied_contact else self.product_answers.resolve(message, manufacturer_scope)
+        if conversation.product_options and not products and not message.strip().isdigit():
+            words = set(re.findall(r"[a-z0-9]+", message.casefold()))
+            option_matches = []
+            for family_id in conversation.product_options:
+                family = self.product_answers.by_id.get(family_id)
+                if family is None:
+                    continue
+                name_words = set(re.findall(r"[a-z0-9]+", family.get("name", "").casefold()))
+                score = len(words & name_words)
+                if score:
+                    option_matches.append((score, family))
+            if option_matches:
+                best_score = max(score for score, _ in option_matches)
+                best_matches = [family for score, family in option_matches if score == best_score]
+                if len(best_matches) == 1:
+                    products = best_matches
+                    matched_product_option = True
         if opening_brief or (conversation.mode == "discovery" and not asks_question(message) and not asks_selection(message) and (
             agent_core.extract_turn_details(message) or agent_core.discovery.observed(message)
         )):
             products = []
+        matched_product_option = False
         if conversation.product_options and message.strip().isdigit():
             index = int(message.strip()) - 1
             if 0 <= index < len(conversation.product_options):
                 products = [self.product_answers.by_id[conversation.product_options[index]]]
+                matched_product_option = True
         references_product = bool(re.search(r"\b(?:it|its|this|that|them|their)\b", message, re.I))
         short_followup = bool(re.fullmatch(
             r"\s*(?:(?:and|what about|how about|the)\s+)?(?:width|thickness|length|sizes?|material|rating|availability)[?.! ]*",
@@ -107,12 +126,31 @@ class ConversationService:
                 if key in self.product_answers.by_id
                 and (not manufacturer_scope or manufacturer_scope.casefold() in {"compare both", "all"} or self.product_answers.by_id[key].get("manufacturer", "").casefold() == manufacturer_scope.casefold())
             ]
+        contextual_family_id = conversation.family_review_id
+        if not contextual_family_id and len(conversation.topic_products) == 1:
+            contextual_family_id = conversation.topic_products[0]
+        if (
+            not products
+            and not supplied_contact
+            and contextual_family_id in self.product_answers.by_id
+            and (asks_question(message) or re.search(r"\b(?:rating|r[\s-]?value|rw|nrc|conductivity|density|performs?|performance)\b", message, re.I))
+            and not re.search(r"\b(?:suitable|suitability|recommend|should i use|right for my)\b", message, re.I)
+        ):
+            products = [self.product_answers.by_id[contextual_family_id]]
         if self.product_answers.release:
             from knowledge_release import visible_family_ids
             allowed = visible_family_ids(self.product_answers.release, site_id)
             products = [family for family in products if family["family_id"] in allowed]
             conversation.topic_products = [key for key in conversation.topic_products if key in allowed]
             conversation.product_options = [key for key in conversation.product_options if key in allowed]
+        if (
+            conversation.family_review_id in self.product_answers.by_id
+            and len(products) > 1
+            and not re.search(r"\b(?:compare|difference|vs|versus)\b", message, re.I)
+        ):
+            pinned = self.product_answers.by_id[conversation.family_review_id]
+            if any(row["family_id"] == conversation.family_review_id for row in products):
+                products = [pinned]
         if products:
             if len(products) == 1 or (len(products) == 2 and re.search(r"\b(?:compare|difference|vs|versus)\b", message, re.I)):
                 conversation.topic_products = [row["family_id"] for row in products]
@@ -132,7 +170,9 @@ class ConversationService:
         if classification.category == "escalate" and intake_answer:
             conversation.review_required = True
             classification = RouterClassification("product-fit", 1.0)
-        elif classification.category in {"product-fit", "informational"} and products and not asks_selection(message):
+        elif classification.category in {"product-fit", "informational"} and products and (
+            not asks_selection(message) or matched_product_option
+        ):
             classification = RouterClassification("informational", 1.0)
         elif intake_answer and classification.category in {"size-availability", "commercial"}:
             # "Budget is my priority" and "90 mm cavity" answer intake;
@@ -159,19 +199,52 @@ class ConversationService:
             if conversation.mode in {"discovery", "capture", "callback"} and not conversation.done:
                 reply += "\n\n" + conversation.next_prompt()
         elif classification.category == "callback":
-            if conversation.done:
-                conversation.start_new_project()
-            conversation.mode = "capture"
-            conversation.discovery_ended_early = True
-            conversation.answers.setdefault("problem", message.strip())
-            conversation.step = len(agent_core.QUESTIONS)
             conversation.review_required = True
-            reply = agent_core.LEAD_QUESTIONS[0][1]
+            if conversation.done:
+                has_contact = bool(conversation.lead.get("phone") or conversation.lead.get("email"))
+                if has_contact and conversation.lead.get("callback_time"):
+                    reply = (
+                        f"Your callback preference ({conversation.lead['callback_time']}) and contact details "
+                        "are already saved with this project for sales review. A callback is not booked automatically."
+                    )
+                else:
+                    conversation.done = False
+                    conversation.mode = "capture"
+                    conversation.discovery_ended_early = True
+                    conversation.step = len(agent_core.QUESTIONS)
+                    conversation.lead.pop("declined", None)
+                    conversation.lead_step = 1 if has_contact else 0
+                    reply = agent_core.LEAD_QUESTIONS[conversation.lead_step][1]
+            else:
+                if not conversation.capturing_lead:
+                    conversation.mode = "capture"
+                    conversation.discovery_ended_early = True
+                    conversation.step = len(agent_core.QUESTIONS)
+                    conversation.lead_step = 0
+                if not conversation.answers.get("problem"):
+                    conversation.answers["problem"] = message.strip()
+                reply = agent_core.LEAD_QUESTIONS[conversation.lead_step][1]
         elif tool_result is not None:
             reply = tool_result.reply
             conversation.done = tool_result.done
             if classification.category in {"commercial", "escalate"}:
                 conversation.review_required = True
+        elif (
+            conversation.done
+            and conversation.topic_products
+            and re.fullmatch(r"\s*(?:yes|yeah|yep|sure|okay|ok|that's right|that is right)[.! ]*", message, re.I)
+        ):
+            family = self.product_answers.by_id.get(conversation.topic_products[0])
+            name = family["name"] if family else "that product"
+            if conversation.lead.get("callback_time") and (
+                conversation.lead.get("phone") or conversation.lead.get("email")
+            ):
+                reply = (
+                    f"Sure — what would you like to know about {name}? Your callback preference is already "
+                    f"saved for sales review ({conversation.lead['callback_time']}); a callback is not booked automatically."
+                )
+            else:
+                reply = f"Sure — what would you like to know about {name}?"
         elif classification.is_informational:
             definition = self.product_answers.definition(message) if not products else None
             if products:

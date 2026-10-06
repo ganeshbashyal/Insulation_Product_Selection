@@ -53,59 +53,48 @@ Permastop Building Blanket is a reflective glasswool insulation blanket factory-
 | Permastop Building Blanket R3.2 (130mm) | 130 mm x 1200 mm x 10 m | Roll (12 m²) |
 | Permastop Building Blanket R3.6 (130mm) | 130 mm x 1200 mm x 6.5 m | Roll (7.8 m²) |
 
-**Internal catalogue range**
-
-| SKU | Product | Published rating |
-| --- | --- | --- |
-| FL-4005619 | PERMASTOP HD R2.5 100MM 1200X10000 | R2.67, R2.5 |
-| FL-4005622 | PERMASTOP MD R3.2 130MM 1200X10000 | R3.42, R3.2 |
-| FL-4005626 | PERMASTOP MD R3.6 130MM 1200X6500 | R3.42, R3.6 |
-| FL-4005631 | PERMASTOP MD R3.0 130MM 1200X10000 | R3.42, R3 |
-| FL-4005712 | PERMASTOP MD R1.8 75MM 1200X15000 | R2.04, R1.8 |
-| FL-4005719 | PERMASTOP MD R2.5 100MM 1200X10000 | R2.67, R2.5 |
-| FL-4005793 | PERMASTOP MD R1.3 55MM 1200X15000 | R1.54, R1.3 |
-| FL-4005821 | PERMASTOP LD R1.3 55MM 1200X20000 | R1.54, R1.3 |
-| FL-4005878 | PERMASTOP LD R2.5 100MM 1200X10000 | R2.67, R2.5 |
-| FL-4005939 | PERMASTOP LD R1.3 55MM 1200X15000 | R1.54, R1.3 |
-| FL-4020472 | PERMASTOP LD R2.5 100MM 1200X10000 | R2.67, R2.5 |
-| FL-4020480 | PERMASTOP LD R1.3 55MM 1200X15000 | R1.54, R1.3 |
-| FL-4020481 | PERMASTOP LD R1.3 55MM 1200X20000 | R1.54, R1.3 |
-| FL-4022003 | PERMASTOP LD R1.3 55MM 1200X20000 | R1.54, R1.3 |
-| FL-4022007 | PERMASTOP LD R2.5 100MM 1200X10000 | R2.67, R2.5 |
-| FL-4022059 | PERMASTOP LD R1.3 55MM 1200X15000 | R1.54, R1.3 |
-
 
 ## Current catalogue range
 
-| Variant | Size / rating | Pack |
-| --- | --- | --- |
-| Permastop Building Blanket R1.3 (55mm) | 55 mm x 1200 mm x 15 m / 20 m | Roll (18 m² / 24 m²) |
-| Permastop Building Blanket R1.8 (75mm) | 75 mm x 1200 mm x 15 m | Roll (18 m²) |
-| Permastop Building Blanket R2.5 (100mm) | 100 mm x 1200 mm x 10 m | Roll (12 m²) |
-| Permastop Building Blanket R3.0 (130mm) | 130 mm x 1200 mm x 10 m | Roll (12 m²) |
-| Permastop Building Blanket R3.2 (130mm) | 130 mm x 1200 mm x 10 m | Roll (12 m²) |
-| Permastop Building Blanket R3.6 (130mm) | 130 mm x 1200 mm x 6.5 m | Roll (7.8 m²) |
+| SKU record | Internal SKU | Supplier SKU | Product | Published rating | Validation |
+| --- | --- | --- | --- | --- | --- |
+| SKU-05D266D6E0531AC7 | FL-4005619 | FIPSTOPHDR25T100W1200L10MRL | PERMASTOP HD R2.5 100MM 1200X10000 | R2.67, R2.5 | REVIEW |
+| SKU-D933AFCAD07315EE | FL-4005622 | FIPSTOPMDR32T130W1200L10MRL | PERMASTOP MD R3.2 130MM 1200X10000 | R3.42, R3.2 | REVIEW |
+| SKU-5142D5F2250C223E | FL-4005626 | FIPSTOPMDR36T130W1200L6P5MRL | PERMASTOP MD R3.6 130MM 1200X6500 | R3.42, R3.6 | REVIEW |
+| SKU-E54C862371C698C5 | FL-4005631 | FIPSTOPMDR3T130W1200L10MRL | PERMASTOP MD R3.0 130MM 1200X10000 | R3.42, R3 | REVIEW |
+| SKU-5E97327AE8BB69A7 | FL-4005712 | FIPSTOPMDR18T75W1200L15MRL | PERMASTOP MD R1.8 75MM 1200X15000 | R2.04, R1.8 | REVIEW |
+| SKU-6CD22B3B1C5C0069 | FL-4005719 | FIPSTOPMDR25T100W1200L10MRL | PERMASTOP MD R2.5 100MM 1200X10000 | R2.67, R2.5 | REVIEW |
+| SKU-ABE57353915CDD82 | FL-4005793 | FIPSTOPMDR13T55W1200L15MRL | PERMASTOP MD R1.3 55MM 1200X15000 | R1.54, R1.3 | REVIEW |
+| SKU-9B03D96F49DC9D7A | FL-4005821 | FIPSTOPLDR13T55W1200L20MRL | PERMASTOP LD R1.3 55MM 1200X20000 | R1.54, R1.3 | REVIEW |
+| SKU-A3C436CDC6A85111 | FL-4005878 | FIPSTOPLDR25T100W1200L10MRL | PERMASTOP LD R2.5 100MM 1200X10000 | R2.67, R2.5 | REVIEW |
+| SKU-584C2D1174A6B7CD | FL-4005939 | FIPSTOPLDR13T55W1200L15MRL | PERMASTOP LD R1.3 55MM 1200X15000 | R1.54, R1.3 | REVIEW |
+| SKU-A58228BD0846B758 | FL-4020472 | FIPSTOPLDR25T100W1200L10MRL | PERMASTOP LD R2.5 100MM 1200X10000 | R2.67, R2.5 | REVIEW |
+| SKU-B1DF9ADFBA4681D7 | FL-4020480 | FIPSTOPLDR13T55W1200L15MRL | PERMASTOP LD R1.3 55MM 1200X15000 | R1.54, R1.3 | REVIEW |
+| SKU-2AAB0E386D56529D | FL-4020481 | FIPSTOPLDR13T55W1200L20MRL | PERMASTOP LD R1.3 55MM 1200X20000 | R1.54, R1.3 | REVIEW |
+| SKU-FC457D8D7DDEE02C | FL-4022003 | FIPSTOPLDR13T55W1200L20MRL | PERMASTOP LD R1.3 55MM 1200X20000 | R1.54, R1.3 | REVIEW |
+| SKU-276AAC7B5FD0A8F2 | FL-4022007 | FIPSTOPLDR25T100W1200L10MRL | PERMASTOP LD R2.5 100MM 1200X10000 | R2.67, R2.5 | REVIEW |
+| SKU-77A6E86548CB6B43 | FL-4022059 | FIPSTOPLDR13T55W1200L15MRL | PERMASTOP LD R1.3 55MM 1200X15000 | R1.54, R1.3 | REVIEW |
 
-**Internal catalogue range**
+_All 16 catalogue source rows are listed; duplicate SKU codes are retained as separate records._
 
-| SKU | Product | Published rating |
-| --- | --- | --- |
-| FL-4005619 | PERMASTOP HD R2.5 100MM 1200X10000 | R2.67, R2.5 |
-| FL-4005622 | PERMASTOP MD R3.2 130MM 1200X10000 | R3.42, R3.2 |
-| FL-4005626 | PERMASTOP MD R3.6 130MM 1200X6500 | R3.42, R3.6 |
-| FL-4005631 | PERMASTOP MD R3.0 130MM 1200X10000 | R3.42, R3 |
-| FL-4005712 | PERMASTOP MD R1.8 75MM 1200X15000 | R2.04, R1.8 |
-| FL-4005719 | PERMASTOP MD R2.5 100MM 1200X10000 | R2.67, R2.5 |
-| FL-4005793 | PERMASTOP MD R1.3 55MM 1200X15000 | R1.54, R1.3 |
-| FL-4005821 | PERMASTOP LD R1.3 55MM 1200X20000 | R1.54, R1.3 |
-| FL-4005878 | PERMASTOP LD R2.5 100MM 1200X10000 | R2.67, R2.5 |
-| FL-4005939 | PERMASTOP LD R1.3 55MM 1200X15000 | R1.54, R1.3 |
-| FL-4020472 | PERMASTOP LD R2.5 100MM 1200X10000 | R2.67, R2.5 |
-| FL-4020480 | PERMASTOP LD R1.3 55MM 1200X15000 | R1.54, R1.3 |
-| FL-4020481 | PERMASTOP LD R1.3 55MM 1200X20000 | R1.54, R1.3 |
-| FL-4022003 | PERMASTOP LD R1.3 55MM 1200X20000 | R1.54, R1.3 |
-| FL-4022007 | PERMASTOP LD R2.5 100MM 1200X10000 | R2.67, R2.5 |
-| FL-4022059 | PERMASTOP LD R1.3 55MM 1200X15000 | R1.54, R1.3 |
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `FIPSTOPHDR25T100W1200L10MRL` | PERMASTOP HD R2.5 100MM 1200X10000 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: poa, Perth: poa |
+| `FIPSTOPLDR13T55W1200L15MRL` | PERMASTOP LD R1.3 55MM 1200X15000 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: poa, Perth: poa |
+| `FIPSTOPLDR13T55W1200L20MRL` | PERMASTOP LD R1.3 55MM 1200X20000 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: poa, Perth: poa |
+| `FIPSTOPLDR25T100W1200L10MRL` | PERMASTOP LD R2.5 100MM 1200X10000 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: poa, Perth: poa |
+| `FIPSTOPMDR13T55W1200L15MRL` | PERMASTOP MD R1.3 55MM 1200X15000 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: poa, Perth: poa |
+| `FIPSTOPMDR18T75W1200L15MRL` | PERMASTOP MD R1.8 75MM 1200X15000 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: poa, Perth: poa |
+| `FIPSTOPMDR25T100W1200L10MRL` | PERMASTOP MD R2.5 100MM 1200X10000 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: poa, Perth: poa |
+| `FIPSTOPMDR32T130W1200L10MRL` | PERMASTOP MD R3.2 130MM 1200X10000 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: poa, Perth: poa |
+| `FIPSTOPMDR36T130W1200L6P5MRL` | PERMASTOP MD R3.6 130MM 1200X6500 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: poa, Perth: poa |
+| `FIPSTOPMDR3T130W1200L10MRL` | PERMASTOP MD R3.0 130MM 1200X10000 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: poa, Perth: poa |
 
 ## Technical data
 

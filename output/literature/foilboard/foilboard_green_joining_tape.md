@@ -51,6 +51,10 @@ Foilboard Green Joining Tape is a heavy-duty reinforced aluminum foil tape engin
 
 _Variants from the manufacturer datasheet._
 
+## Staff-release SKU coverage
+
+_No SKU from this workbook was mapped or proposed for this family._
+
 ## Technical data
 
 | Property | Value | Standard |

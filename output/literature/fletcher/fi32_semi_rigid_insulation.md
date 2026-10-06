@@ -52,49 +52,41 @@ FI32 Semi-Rigid Insulation is a versatile glasswool board and roll insulation en
 | FI32 Sisalation HDP Perforated Foil 50mm | 50 mm x 1200 mm x 2400 mm (R1.5) | Pack of 5 sheets |
 | FI32 Black Matt Facing (BMF) 50mm | 50 mm x 1200 mm x 2400 mm (R1.5) | Pack of 5 sheets |
 
-**Internal catalogue range**
-
-| SKU | Product | Published rating |
-| --- | --- | --- |
-| FL-4003789 | FI32 SEMI RIGID 3000X1410X75 (3) Rigid Internal Lining - PK 32kg | R2.04, R1.9 |
-| FL-4005381 | FI32 SEMI RIGID 2400X1500X38 (6) PK | R1.12, R0.9 |
-| FL-4005563 | FI32 SEMI RIGID 10000X1500X50 ROL | R1.42, R1.3 |
-| FL-4006968 | FI32 SEMI RIGID 2400X1200X25 (10) PK | R0.80, R0.6 |
-| FL-4006969 | FI32 SEMI RIGID 2400X1500X25 (10) PK | R0.80, R0.6 |
-| FL-4006972 | FI32 SEMI RIGID 2400X1200X50 (5) PK | R1.42, R1.3 |
-| FL-4006976 | FI32 SEMI RIGID 2400X1200X100 (2) PK | R2.67, R2.5 |
-| FL-4006985 | FI32 SEMI RIGID 2400X1500X25 HDP (10) PK | R0.80, R0.6 |
-| FL-4008743 | FI32 SEMI RIGID 2400X1500X50 (5) PK | R1.42, R1.3 |
-| FL-4021944 | FI32 SEMI RIGID 2400X1500X25 HDP (10) PK | R0.80, R0.6 |
-
 
 ## Current catalogue range
 
-| Variant | Size / rating | Pack |
-| --- | --- | --- |
-| FI32 Unfaced Sheet 25mm | 25 mm x 1200/1500 mm x 2400 mm (R0.71) | Pack of 10 sheets |
-| FI32 Unfaced Sheet 38mm | 38 mm x 1500 mm x 2400 mm (R1.2) | Pack of 6 sheets |
-| FI32 Unfaced Sheet 50mm | 50 mm x 1200/1500 mm x 2400 mm (R1.5) | Pack of 5 sheets |
-| FI32 Unfaced Sheet 75mm | 75 mm x 1200/1500 mm x 2400 mm (R2.2) | Pack of 3 sheets |
-| FI32 Unfaced Sheet 100mm | 100 mm x 1200/1500 mm x 2400 mm (R3.0) | Pack of 2 sheets |
-| FI32 Sisalation HDP Perforated Foil 25mm | 25 mm x 1200/1500 mm x 2400 mm (R0.71) | Pack of 10 sheets |
-| FI32 Sisalation HDP Perforated Foil 50mm | 50 mm x 1200 mm x 2400 mm (R1.5) | Pack of 5 sheets |
-| FI32 Black Matt Facing (BMF) 50mm | 50 mm x 1200 mm x 2400 mm (R1.5) | Pack of 5 sheets |
+| SKU record | Internal SKU | Supplier SKU | Product | Published rating | Validation |
+| --- | --- | --- | --- | --- | --- |
+| SKU-A27C5425EE8D50E2 | FL-4003789 | FI32SEMIRIGIDT75W1410L3000PK3 | FI32 SEMI RIGID 3000X1410X75 (3) Rigid Internal Lining - PK 32kg | R2.04, R1.9 | REVIEW |
+| SKU-AD83B6E55C119051 | FL-4005381 | FI32SEMIRIGIDT38W1500L2400PK6 | FI32 SEMI RIGID 2400X1500X38 (6) PK | R1.12, R0.9 | REVIEW |
+| SKU-1870F800275FF0B1 | FL-4005563 | FI32SEMIRIGIDT50W1500L10MPK | FI32 SEMI RIGID 10000X1500X50 ROL | R1.42, R1.3 | REVIEW |
+| SKU-569F3DE80889C58D | FL-4006968 | FI32SEMIRIGIDT25W1200L2400PK10 | FI32 SEMI RIGID 2400X1200X25 (10) PK | R0.80, R0.6 | REVIEW |
+| SKU-EEC4EE9B9253B804 | FL-4006969 | FI32SEMIRIGIDT25W1500L2400PK10 | FI32 SEMI RIGID 2400X1500X25 (10) PK | R0.80, R0.6 | REVIEW |
+| SKU-9BF1DA1B83796709 | FL-4006972 | FI32SEMIRIGIDT50W1200L2400PK5 | FI32 SEMI RIGID 2400X1200X50 (5) PK | R1.42, R1.3 | REVIEW |
+| SKU-98913C9D22B2793B | FL-4006976 | FI32SEMIRIGIDT100W1200L2400PK2 | FI32 SEMI RIGID 2400X1200X100 (2) PK | R2.67, R2.5 | REVIEW |
+| SKU-0822E9C3AAAD4791 | FL-4006985 | FI32SEMIRIGIDHDPT25W1500L2400 | FI32 SEMI RIGID 2400X1500X25 HDP (10) PK | R0.80, R0.6 | REVIEW |
+| SKU-3168259CA0109C06 | FL-4008743 | FI32SEMIRIGIDT50W1500L2400PK5 | FI32 SEMI RIGID 2400X1500X50 (5) PK | R1.42, R1.3 | REVIEW |
+| SKU-62DAF714907A2484 | FL-4021944 | FI32SEMIRIGIDHDPT25W1500L2400 | FI32 SEMI RIGID 2400X1500X25 HDP (10) PK | R0.80, R0.6 | REVIEW |
 
-**Internal catalogue range**
+_All 10 catalogue source rows are listed; duplicate SKU codes are retained as separate records._
 
-| SKU | Product | Published rating |
-| --- | --- | --- |
-| FL-4003789 | FI32 SEMI RIGID 3000X1410X75 (3) Rigid Internal Lining - PK 32kg | R2.04, R1.9 |
-| FL-4005381 | FI32 SEMI RIGID 2400X1500X38 (6) PK | R1.12, R0.9 |
-| FL-4005563 | FI32 SEMI RIGID 10000X1500X50 ROL | R1.42, R1.3 |
-| FL-4006968 | FI32 SEMI RIGID 2400X1200X25 (10) PK | R0.80, R0.6 |
-| FL-4006969 | FI32 SEMI RIGID 2400X1500X25 (10) PK | R0.80, R0.6 |
-| FL-4006972 | FI32 SEMI RIGID 2400X1200X50 (5) PK | R1.42, R1.3 |
-| FL-4006976 | FI32 SEMI RIGID 2400X1200X100 (2) PK | R2.67, R2.5 |
-| FL-4006985 | FI32 SEMI RIGID 2400X1500X25 HDP (10) PK | R0.80, R0.6 |
-| FL-4008743 | FI32 SEMI RIGID 2400X1500X50 (5) PK | R1.42, R1.3 |
-| FL-4021944 | FI32 SEMI RIGID 2400X1500X25 HDP (10) PK | R0.80, R0.6 |
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `FI32SEMIRIGIDHDPT25W1500L2400` | FI32 SEMI RIGID 2400X1500X25 HDP \(10\) PK | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: poa, Perth: poa |
+| `FI32SEMIRIGIDT100W1200L2400PK2` | FI32 SEMI RIGID 2400X1200X100 \(2\) PK | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: poa, Perth: poa |
+| `FI32SEMIRIGIDT25W1200L2400PK10` | FI32 SEMI RIGID 2400X1200X25 \(10\) PK | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: poa, Perth: poa |
+| `FI32SEMIRIGIDT25W1500L2400PK10` | FI32 SEMI RIGID 2400X1500X25 \(10\) PK | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: poa, Perth: poa |
+| `FI32SEMIRIGIDT38W1500L2400PK6` | FI32 SEMI RIGID 2400X1500X38 \(6\) PK | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: poa, Perth: poa |
+| `FI32SEMIRIGIDT50W1200L2400PK5` | FI32 SEMI RIGID 2400X1200X50 \(5\) PK | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: poa, Perth: poa |
+| `FI32SEMIRIGIDT50W1500L10MPK` | FI32 SEMI RIGID 10000X1500X50 ROL | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: poa, Perth: poa |
+| `FI32SEMIRIGIDT50W1500L2400PK5` | FI32 SEMI RIGID 2400X1500X50 \(5\) PK | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: poa, Perth: poa |
+| `FI32SEMIRIGIDT75W1410L3000PK3` | FI32 SEMI RIGID 3000X1410X75 \(3\) Rigid Internal Lining - PK 32kg | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: poa, Perth: poa |
 
 ## Technical data
 
@@ -111,7 +103,7 @@ FI32 Semi-Rigid Insulation is a versatile glasswool board and roll insulation en
 | Operating Temperature | Up to 340°C (unfaced), up to 120°C (faced) | - |
 | Acoustic Performance | NRC up to 1.00 (50mm/75mm) | ISO 354 |
 
-Extracted from manufacturer datasheet: https://insulation.com.au/product/fi32-semi-rigid-insulation/
+Extracted from manufacturer datasheet: https://insulation.com.au/wp-content/uploads/2024/TDS-Semi-Rigid-Insulation-Rev7-290525.pdf
 
 ## Fire, testing and compliance context
 

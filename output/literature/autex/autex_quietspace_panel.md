@@ -49,6 +49,17 @@ Specialists in sustainable polyester acoustic solutions. Safe to handle without 
 | Rw 45 | acoustic_rw | 75 | 2700 x 1200 | 4 |
 | Rw 50 | acoustic_rw | 100 | 2700 x 1200 | 4 |
 
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `AUTQS3DCEILPK` | Autex Quietspace 3D Ceiling Tiles - All Styles | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTQS3DWALLPK` | Autex Quietspace 3D Wall Tiles - All Styles | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+
 ## Technical data
 
 | Property | Value | Source |

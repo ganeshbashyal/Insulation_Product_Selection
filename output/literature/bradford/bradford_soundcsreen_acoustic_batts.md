@@ -53,6 +53,22 @@ Bradford SoundScreen is Australia's most popular high-density acoustic insulatio
 
 _Variants from the manufacturer datasheet._
 
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `BRADSSCRNR20T70W430L1160PK` | BRADFORD SOUNDCSREEN ACOUSTIC BATTS R2.0 1160 X 430 x 70mm | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADSSCRNR20T70W580L1160PK` | BRADFORD SOUNDCSREEN ACOUSTIC BATTS R2.0 1160 X 580 x 70mm | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADSSCRNR20T70W600L1160PK` | BRADFORD SOUNDCSREEN ACOUSTIC BATTS R2.0 1160 X 600 x 70mm | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADSSCRNR25T88W430L1160PK` | BRADFORD SOUNDCSREEN ACOUSTIC BATTS R2.5 1160 X 430 x 88mm | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADSSCRNR25T88W580L1160PK` | BRADFORD SOUNDCSREEN ACOUSTIC BATTS R2.5 1160 X 580 x 88mm | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADSSCRNR31T110W430L1160PK` | BRADFORD SOUNDCSREEN ACOUSTIC BATTS R3.1 1160 X 430 x 110mm | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADSSCRNR31T110W580L1160PK` | BRADFORD SOUNDCSREEN ACOUSTIC BATTS R3.1 1160 X 580 x 110mm | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+
 ## Technical data
 
 | Property | Value | Standard |

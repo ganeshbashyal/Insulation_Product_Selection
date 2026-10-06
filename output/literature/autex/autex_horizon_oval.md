@@ -1,7 +1,7 @@
 ---
 title: "Autex Horizon - Oval - Panel Insulation | Autex"
-description: "Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled pla"
-keywords: "Autex Horizon - Oval, Autex panel, acoustic insulation, wall insulation, ceiling insulation, insulation Australia, Autex Australia"
+description: "Horizon™ is a range of floating acoustic panels made from 100% polyester fibre that create a cloud-like illusion when suspended and are designed to re"
+keywords: "Autex Horizon - Oval, Autex panel, wall insulation, ceiling insulation, insulation Australia, Autex Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AUTEX_HORIZON_OVAL
 ---
@@ -10,22 +10,22 @@ family_id: AUTEX_HORIZON_OVAL
 
 **Autex Panel** — acoustic panels for sound absorption and interior finish.
 
-Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled plastic bottles, it's the sustainable choice for modern buildings.
+Horizon™ is a range of floating acoustic panels made from 100% polyester fibre that create a cloud-like illusion when suspended and are designed to reduce and control reverberated noise and echo in building interiors.
 
 ## Key features
 
-- 100% polyester - safe to handle without protective equipment.
-- contains minimum 80% recycled PET plastic bottles.
-- non-allergenic, non-irritant formulation.
-- will not support mould or mildew growth.
-- maintains performance when wet - dries out naturally.
-- excellent thermal performance for roof/ceiling applications.
-- helps meet NCC energy efficiency requirements.
-- Made from recycled PET bottles.
+- Lightweight and strong.
+- Can be installed on ceilings and walls without clear space.
+- Available in various shapes and sizes.
+- Carbon neutral product.
+- Made from 100% recycled material.
+- Low VOC and CDPH compliant.
+- Zero waste manufacturing initiative.
 
 ## Applications and selection
 
-- Internal Wall | Ceiling | General Acoustic
+- Ceiling
+- Wall
 
 **Selection checklist**
 
@@ -42,20 +42,26 @@ Specialists in sustainable polyester acoustic solutions. Safe to handle without 
 | --- | --- | --- | --- | --- |
 | Rw 35 | acoustic_rw | Varies | 2400 x 1200 | 2 |
 
+## Staff-release SKU coverage
+
+_No SKU from this workbook was mapped or proposed for this family._
+
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Panel | Manufacturer catalogue |
-| Material | Polyester | Manufacturer catalogue |
-| Applications | Internal Wall | Ceiling | General Acoustic | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Fire Rating | ISO 9705: 1993: Group 1-S, AS ISO 9705 – 2003: Group 1, 1" BS EN 13501-1:2018: B - s2, d0, ASTM E-84-15a: Class A, FS:0 - SD:65 | - |
+| Density | 3600 gsm | - |
+| Thickness | 24 mm, Tolerance: +/- 6% | - |
+| Sound Absorption Coefficients | ISO 354, average absorption at 250 Hz, 500 Hz, 1000 Hz, and 2000 Hz | - |
+| Vapour Resistance | ASTM C1104 / C1104M-13a, 0.4% by weight after 4 days | - |
+| Microbial Resistance | ASTM G21-15, growth rating: 0 (No growth) | - |
 
-
+Extracted from manufacturer datasheet: https://cdn.mediavalet.com/aunsw/autex/dRTCRsHVIkiY2tw4JI69lw/4t6Itu09y0OoiCyRQX57Ng/Original/Horizon%20Data%20Sheet.pdf
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+ISO 9705: 1993: Group 1-S, AS ISO 9705 – 2003: Group 1
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
@@ -65,15 +71,15 @@ Not verified per SKU. No fire, NCC or BAL classification is asserted in this dra
 
 ## Limitations and warnings
 
-- Not suitable for applications requiring fire rating without additional protection..
-- not to be exposed to weather or sustained moisture..
-- do not compress beyond manufacturer recommendations..
-- check fire-rated system requirements if fire rating is required..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Horizon is suitable for indoor use only.
+- Light fastness dependent on use and exposure.
+- No pattern repeat, but product may vary from samples and batch to batch due to fibre blending and lay-up.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for applications requiring fire rating without additional protection.
+1. Install as per Autex Acoustics recommendations.
+2. Install instructions included in each pack or available on the website.
+3. Consult project engineer and fire protection engineer for installation near fire protection systems.
 
 ## Safety and handling
 
@@ -81,7 +87,7 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Carbon neutral product, >80% recycled material, Low VOC and CDPH compliant, Zero waste manufacturing initiative
 
 ## Warranty, returns and support
 

@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>Neo | Internal Sales Copilot</title>
+<style>
+:root{font:15px system-ui;color:#17232c;background:#f2f6f8;color-scheme:light}
+*{box-sizing:border-box}body{margin:0}header,main{max-width:1400px;margin:auto;padding:14px}
+header{display:flex;justify-content:space-between;align-items:center;gap:12px}
+h1{margin:2px 0}p{line-height:1.45}button,input,select,textarea{font:inherit;padding:9px;border:1px solid #9aaebb;border-radius:7px}
+button{cursor:pointer;background:#0e665c;color:white;border-color:#0e665c}button:disabled{opacity:.55;cursor:wait}
+.muted{color:#536675}.warning{color:#8a4a00}#status{min-height:1.5em}
+.layout{display:grid;grid-template-columns:minmax(210px,280px) minmax(0,1fr);gap:14px}
+.panel{padding:14px;background:white;border:1px solid #d4e0e6;border-radius:10px;margin-bottom:12px}
+.toolbar,.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.toolbar>*{max-width:100%}
+label{display:grid;gap:5px;margin:7px 0}.row textarea{flex:1;resize:vertical;min-width:180px}
+.list button{display:block;width:100%;text-align:left;margin:6px 0;background:#eaf1f4;color:#19343d;border-color:#d1dfe5}
+#messages{height:55vh;overflow:auto;display:flex;flex-direction:column;gap:10px;padding:4px}
+.bubble{max-width:min(86%,900px);white-space:pre-wrap;overflow-wrap:anywhere;padding:11px 14px;border-radius:13px;line-height:1.45}
+.assistant{background:#e7eff1;align-self:flex-start;border-top-left-radius:3px}
+.owner{background:#d6eee7;align-self:flex-end;border-top-right-radius:3px}
+.citation{font-size:.9rem;border-left:3px solid #278276;padding:7px 10px;margin-top:7px;overflow-wrap:anywhere}
+.citation small{display:block;color:#536675}.split{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media(max-width:850px){header,main{padding:9px}.layout{display:block}#messages{height:50vh}.bubble{max-width:96%}.split{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><div><h1>Neo</h1><p class="muted">Internal local sales copilot · conversations and review outputs stay separate from Oracle and Aurora</p></div><nav><a href="/matrix">Matrix manager</a></nav></header>
+<main>
+<p id="status" role="status" aria-live="polite"></p>
+<div class="layout">
+<aside>
+<section class="panel"><h2>Local model</h2><label>Ollama model<select id="model"><option value="">No model (local evidence fallback)</option></select></label><button id="refreshModels" type="button">Refresh models</button><p id="modelState" class="muted"></p></section>
+<section class="panel"><div class="toolbar"><h2>Conversations</h2><button id="newChat" type="button">New chat</button></div><div id="conversationList" class="list"></div></section>
+<section class="panel"><h2>Human-review outputs</h2><p class="muted">Neo can prepare drafts; review them before sharing. No CRM, email, customer, or production writes.</p><button id="reviewTask" type="button">Create review task</button> <button id="salesBrief" type="button">Prepare sales brief</button><div id="records" class="list"></div></section>
+</aside>
+<section>
+<section class="panel"><div class="toolbar"><strong>Live-call support</strong><span class="muted">Local product/TDS evidence only · no cloud fallback</span><button id="clearChat" type="button">Clear current chat</button></div>
+<div id="conversationTitle" class="muted">Start a Neo conversation</div>
+<div id="messages" role="log" aria-live="polite"></div>
+<form id="messageForm" class="row"><textarea id="messageInput" rows="2" maxlength="4000" placeholder="Describe the customer's need or ask about a local product family…" required></textarea><button id="send">Ask Neo</button></form></section>
+</section></div>
+</main>
+<script>
+"use strict";
+const $=id=>document.getElementById(id);
+let csrf="",conversation=null,messages=[],busy=false;
+function node(tag,text){const item=document.createElement(tag);if(text!==undefined)item.textContent=String(text);return item;}
+function status(text,error=false){$("status").textContent=text;$("status").className=error?"warning":"";}
+async function api(path,method="GET",data){
+ const headers={};if(method!=="GET")headers["Content-Type"]="application/json";
+ if(method!=="GET"&&csrf)headers["X-Neo-CSRF"]=csrf;
+ const result=await fetch(path,{method,headers,credentials:"same-origin",cache:"no-store",body:data===undefined?undefined:JSON.stringify(data)});
+ let body;try{body=await result.json();}catch{throw new Error("Neo returned an unreadable response.");}
+ if(!result.ok)throw new Error(typeof body.detail==="string"?body.detail:"Neo request rejected");
+ return body;
+}
+function action(fn){return async event=>{if(event)event.preventDefault();try{await fn();}catch(error){status(error.message,true);}};}
+function drawCitations(parent,items){
+ for(const source of items||[]){
+  const card=node("div");card.className="citation";
+  card.append(node("strong",`${source.path||"Local source"} · ${source.status||"source"}`));
+  if(source.locator)card.append(node("div",source.locator));
+  if(source.open_url){const link=node("a","Open current local source");link.href=source.open_url;link.target="_blank";link.rel="noopener noreferrer";card.append(node("br"),link);}
+  if(source.website_url){const link=node("a","Recorded manufacturer URL (not fetched)");link.href=source.website_url;link.target="_blank";link.rel="noopener noreferrer";card.append(node("br"),link);}
+  parent.append(card);
+ }
+}
+function drawMessages(){
+ $("messages").replaceChildren();
+ for(const message of messages){
+  const bubble=node("div",message.content);bubble.className="bubble "+(message.role==="user"?"owner":"assistant");
+  $("messages").append(bubble);if(message.role==="assistant")drawCitations(bubble,message.citations);
+ }
+ $("messages").scrollTop=$("messages").scrollHeight;
+}
+async function refreshConversations(){
+ const result=await api("/api/neo/conversations");$("conversationList").replaceChildren();
+ for(const item of result.conversations){
+  const button=node("button",`${item.title} · ${item.message_count} messages`);
+  button.onclick=action(async()=>{const opened=await api(`/api/neo/conversations/${encodeURIComponent(item.conversation_id)}/messages`);conversation=opened.conversation;messages=opened.messages;$("model").value=conversation.model;drawMessages();$("conversationTitle").textContent=conversation.title;});
+  $("conversationList").append(button);
+ }
+}
+async function newConversation(){
+ const result=await api("/api/neo/conversations","POST",{model:$("model").value});
+ conversation=result.conversation;messages=[];drawMessages();$("conversationTitle").textContent=conversation.title;await refreshConversations();
+}
+async function saveModel(){
+ if(!conversation)return;
+ const result=await api(`/api/neo/conversations/${encodeURIComponent(conversation.conversation_id)}`,"PATCH",{model:$("model").value});
+ conversation=result.conversation;status("Neo's model choice saved in its own local conversation.");
+}
+async function loadModels(){
+ $("modelState").textContent="Checking local Ollama…";
+ const result=await api("/api/neo/models");$("model").replaceChildren(new Option("No model (local evidence fallback)",""));
+ for(const name of result.models)$("model").append(new Option(name,name));
+ $("modelState").textContent=result.available?`${result.models.length} local model(s) available`:result.error||"Ollama unavailable; evidence fallback only";
+}
+async function loadRecords(){
+ const result=await api("/api/neo/records");$("records").replaceChildren();
+ for(const row of result.records){const details=node("details"),summary=node("summary",row.title),content=node("pre",row.content);details.append(summary,content);drawCitations(details,row.source_refs);$("records").append(details);}
+}
+async function saveRecord(record_type){
+ if(!conversation)throw new Error("Start a Neo conversation first.");
+ await api("/api/neo/records","POST",{conversation_id:conversation.conversation_id,record_type});
+ await loadRecords();status(record_type==="review_task"?"Human-review task saved in Neo's local workspace.":"Sales brief draft saved locally; review before use.");
+}
+async function boot(){
+ try{
+  const session=await api("/api/neo/session");csrf=session.csrf;
+  await Promise.all([loadModels(),refreshConversations(),loadRecords()]);
+  status("Neo is ready. Its conversation and review records are separate from Oracle and Aurora.");
+ }catch(error){status(error.message,true);}
+}
+$("newChat").onclick=action(newConversation);
+$("clearChat").onclick=action(async()=>{
+ if(!conversation)return;
+ await api(`/api/neo/conversations/${encodeURIComponent(conversation.conversation_id)}`,"DELETE");
+ conversation=null;messages=[];drawMessages();$("conversationTitle").textContent="Current Neo chat cleared";
+ await refreshConversations();status("Current Neo conversation and its messages were deleted.");
+});
+$("refreshModels").onclick=action(loadModels);
+$("model").onchange=action(saveModel);
+$("reviewTask").onclick=action(()=>saveRecord("review_task"));
+$("salesBrief").onclick=action(()=>saveRecord("sales_brief"));
+$("messageForm").onsubmit=action(async()=>{
+ if(busy)return;if(!conversation)await newConversation();
+ const text=$("messageInput").value.trim();if(!text)return;
+ busy=true;$("send").disabled=true;$("messageInput").value="";
+ messages.push({role:"user",content:text,citations:[]});drawMessages();
+ try{
+  const result=await api(`/api/neo/conversations/${encodeURIComponent(conversation.conversation_id)}/messages`,"POST",{message:text});
+  messages.push(result.message);drawMessages();await refreshConversations();
+  status(result.model_status==="fallback"?"No model summary available; Neo showed local evidence.":`Neo replied (${result.model_status}).`);
+ }catch(error){messages.pop();$("messageInput").value=text;drawMessages();throw error;}
+ finally{busy=false;$("send").disabled=false;$("messageInput").focus();}
+});
+window.addEventListener("pagehide",()=>{csrf="";messages=[];conversation=null;});
+boot();
+</script>
+</body>
+</html>

@@ -1,7 +1,7 @@
 ---
 title: "Autex Frontier Raft - Beam - Batt Insulation | Autex"
-description: "Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled pla"
-keywords: "Autex Frontier Raft - Beam, Autex batt, acoustic insulation, ceiling insulation, insulation Australia, Autex Australia"
+description: "Frontier Acoustic Fins are modular polyester fibre acoustic baffles designed for adjustable interior acoustic absorption."
+keywords: "Autex Frontier Raft - Beam, Autex batt, wall insulation, ceiling insulation, insulation Australia, Autex Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AUTEX_FRONTIER_RAFT_BEAM
 ---
@@ -10,22 +10,21 @@ family_id: AUTEX_FRONTIER_RAFT_BEAM
 
 **Autex Batt** — bulk insulation batts for thermal and acoustic performance.
 
-Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled plastic bottles, it's the sustainable choice for modern buildings.
+Frontier Acoustic Fins are modular polyester fibre acoustic baffles designed for adjustable interior acoustic absorption.
 
 ## Key features
 
-- 100% polyester - safe to handle without protective equipment.
-- contains minimum 80% recycled PET plastic bottles.
-- non-allergenic, non-irritant formulation.
-- will not support mould or mildew growth.
-- maintains performance when wet - dries out naturally.
-- excellent thermal performance for roof/ceiling applications.
-- helps meet NCC energy efficiency requirements.
-- Made from recycled PET bottles.
+- Adjustable channel and clip system.
+- Lightweight.
+- Made from 100% polyester fibre.
+- Designed for tailored acoustic absorption.
+- Available in various thicknesses and lengths.
+- Includes Frontier Connector Clips.
 
 ## Applications and selection
 
-- Ceiling | General Acoustic
+- Ceiling applications
+- Wall applications
 
 **Selection checklist**
 
@@ -43,20 +42,57 @@ Specialists in sustainable polyester acoustic solutions. Safe to handle without 
 | Rw 50 | acoustic_rw | 1200 | 1200 (width varies) | 4 |
 | Rw 50 | acoustic_rw | 2400 | 2400 (width varies) | 4 |
 
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `AUTFRRAFTB100L1200C1PK` | Autex Frontier Raft - Beam 100 - 1200mm - Category 1 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTFRRAFTB100L1200C2PK` | Autex Frontier Raft - Beam 100 - 1200mm - Category 2 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTFRRAFTB100L2400C1PK` | Autex Frontier Raft - Beam 100 - 2400mm - Category 1 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTFRRAFTB100L2400C2PK` | Autex Frontier Raft - Beam 100 - 2400mm - Category 2 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTFRRAFTB250L1200C1PK` | Autex Frontier Raft - Beam 250 - 1200mm - Category 1 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTFRRAFTB250L1200C2PK` | Autex Frontier Raft - Beam 250 - 1200mm - Category 2 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTFRRAFTB250L2400C1PK` | Autex Frontier Raft - Beam 250 - 2400mm - Category 1 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTFRRAFTB250L2400C2PK` | Autex Frontier Raft - Beam 250 - 2400mm - Category 2 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTFRRAFTBLADEL1200C1PK` | Autex Frontier Raft - Blade - 1200mm - Category 1 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTFRRAFTBLADEL1200C2PK` | Autex Frontier Raft - Blade - 1200mm - Category 2 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTFRRAFTBLADEL2400C1PK` | Autex Frontier Raft - Blade - 2400mm - Category 1 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTFRRAFTBLADEL2400C2PK` | Autex Frontier Raft - Blade - 2400mm - Category 2 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTFRRAFTRAILKITPK` | Autex Frontier Raft - Support Rail Kit | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTFRRAFTSCB100L2400PK` | Autex Solid Colour Frontier Raft beam 100 - 2400mm | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTFRRAFTSCB100L2700PK` | Autex Solid Colour Frontier Raft beam 100 - 2700mm | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTFRRAFTSCB250L2400PK` | Autex Solid Colour Frontier Raft beam 250 - 2400mm | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTFRRAFTSCB250L2700PK` | Autex Solid Colour Frontier Raft beam 250 - 2700mm | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTFRRAFTSFB100L2400PK` | Autex Surface Finishes Frontier Raft beam 100 - 2400mm | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTFRRAFTSFB100L2700PK` | Autex Surface Finishes Frontier Raft beam 100 - 2700mm | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTFRRAFTSFB250L2400PK` | Autex Surface Finishes Frontier Raft beam 250 - 2400mm | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTFRRAFTSFB250L2700PK` | Autex Surface Finishes Frontier Raft beam 250 - 2700mm | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTFRRAFTTRAPL1200C1PK` | Autex Frontier Raft - Trapezoid - 1200mm - Category 1 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTFRRAFTTRAPL1200C2PK` | Autex Frontier Raft - Trapezoid - 1200mm - Category 2 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTFRRAFTTRAPL2400C1PK` | Autex Frontier Raft - Trapezoid - 2400mm - Category 1 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTFRRAFTTRAPL2400C2PK` | Autex Frontier Raft - Trapezoid - 2400mm - Category 2 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Batt | Manufacturer catalogue |
-| Material | Polyester | Manufacturer catalogue |
-| Applications | Ceiling | General Acoustic | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| R-value |  | - |
+| density |  | - |
+| thermal conductivity |  | - |
+| fire indices | Class B, Class C | ISO 9705, AS ISO 9705 - 2003 |
+| temperature range |  | - |
+| vapour |  | - |
+| pH |  | - |
 
-
+Extracted from manufacturer datasheet: https://cdn.mediavalet.com/aunsw/autex/UNYkeC1vs0-3sVb7RBrkwA/nTw1WKETV0yM9O2P0hGBtQ/Original/Frontier%20Fins%20Data%20Sheet.pdf
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Class B, Class C
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
@@ -74,7 +110,11 @@ Not verified per SKU. No fire, NCC or BAL classification is asserted in this dra
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for applications requiring fire rating without additional protection.
+1. Install as per Autex Acoustics recommendations.
+2. Included install instructions.
+3. Fix with 6g countersink fastener.
+4. Use Frontier Connector Clips.
+5. Install as per Frontier Install Instructions.
 
 ## Safety and handling
 
@@ -82,7 +122,7 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Carbon neutral, >80% recycled material, Low VOC, CDPH compliant, Zero waste manufacturing, EPD compliant, Red List free, ISO 14001 Certified
 
 ## Warranty, returns and support
 

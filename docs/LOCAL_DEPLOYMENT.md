@@ -165,6 +165,32 @@ Use `requirements-runtime.txt` on the self-hosted machine. Prepare dependencies
 from an owner-controlled offline wheelhouse; do not download tools as part of a
 chat request. A separate authoring installation is needed for import/review.
 
+### Alpha package allowlist gate
+
+The clean Alpha package target is an explicit dependency allowlist rooted in:
+`web_agent.py`, `storefront_api.py`, `conversation_service.py`, `agent_core.py`,
+`router.py`, `product_answers.py`, `knowledge_release.py`, `release_exports.py`,
+`session_store.py`, `site_config.py`, `auth_middleware.py`, and
+`interaction_store.py`; plus only the required `tools/`, `templates/`, one
+reviewed release snapshot, and runtime requirements. Resolve and document any
+strictly necessary dependency closure before adding files.
+
+Exclude notebooks, research ingestion/generation scripts, historical maintenance
+candidates, raw source archives, unreviewed literature from public retrieval,
+development tests, and legacy Streamlit material. Research/admin mutation routes
+must be absent from Alpha or individually protected by an explicit production
+authorization boundary. The package manifest and final tree audit must prove
+these exclusions; a passing build alone is not sufficient.
+
+`scripts/package_runtime.py` now explicitly lists `release_exports.py` and the
+supporting runtime dependency closure, and enumerates the required tool modules
+instead of copying every `tools/*.py` file. The package regression verifies
+manifest hashes, rejects an unlisted tool, starts from the copied directory,
+and confirms research/catalogue mutation routes are absent in serving-only
+mode. This verifies the builder contract with a synthetic release; it does not
+make a real package approved or deployable. Re-audit the manifest and route
+boundary whenever the runtime dependency set changes.
+
 After activating a local release, create an allowlisted portable serving folder:
 
 ```powershell
@@ -222,9 +248,31 @@ process. Multi-worker conversation ordering is not claimed.
 
 ## 5. Embed on each store
 
+The launcher accepts only page context explicitly supplied as data attributes.
+For a product page, the WooCommerce template may render:
+
 ```html
-<script defer src="https://YOUR_APPROVED_BOT_HOST/widget.js" data-site-id="YOUR_SITE_ID"></script>
+<script defer src="https://YOUR_APPROVED_BOT_HOST/widget.js"
+        data-site-id="YOUR_SITE_ID"
+        data-page-type="product"
+        data-product-id="123"
+        data-variation-id="456"
+        data-product-name="Example product"
+        data-product-category="Ceiling"
+        data-product-url="https://shop.example/products/example"></script>
 ```
+
+Use only values available to the public product page; never add account, order,
+cart, payment, stock or pricing data. `data-page-type` is one of `product`,
+`category`, `content` or `other`. The launcher also sends the current origin and
+path, excluding the browser query and fragment. It omits context on standard
+WooCommerce account, cart and checkout routes, which the API also rejects.
+Context crosses into the chat
+frame by `postMessage`, is checked against the site's exact configured origin,
+and the server strips query/fragment from supplied URLs. The chat asks the
+customer whether the page hint is relevant; rejecting it is recorded as
+`not_relevant`. This metadata is retained as context only and is not evidence
+of product identity or suitability, nor does it select a family/SKU.
 
 The launcher embeds `/widget` on the bot origin. CSP `frame-ancestors` allows only
 the configured literal store origins. Frame chat requests remain same-origin;
@@ -275,6 +323,36 @@ Changed evidence or disabled reviewers hold old annotations. Decisions are
 internal comparison reviews, not performance publication or automatic winners.
 Original files, historical notes and our reviewed facts remain separate.
 
+## Private Oracle assistant
+
+Oracle is a separate owner-only local page at `/oracle`; it is not part of the
+customer-serving package and is disabled in production. In local development,
+set up its independent passphrase interactively:
+
+```powershell
+python scripts\oracle_owner.py
+```
+
+Use `python scripts\oracle_owner.py --reset` to replace the passphrase and
+invalidate existing Oracle sessions. Oracle conversations, notes, tasks and
+login state use a dedicated local SQLite database; protect the application
+state directory with the owner's filesystem backup and access-control policy.
+Oracle accepts requests only from loopback clients, uses a separate owner
+session and CSRF token, and calls Ollama only through a loopback HTTP endpoint.
+If Ollama is unavailable or no model is selected, Oracle uses grounded local
+excerpts instead. It does not query the web, fall back to a cloud model, write
+production knowledge, or expose Oracle data through Aurora or Neo.
+
+Oracle searches local family guides, linked TDS PDFs, curated NCC/ABCB
+literature and explicitly owner-supplied pricing snapshots. Extracted PDF text
+and maintained guides remain unreviewed material until a human review gate
+changes their status. A citation opens the current local file only when its
+content hash still matches the indexed source.
+
+The four-tab Matrix manager and its separate Neo sales assistant are documented
+in [Oracle and Matrix local workspaces](ORACLE_MATRIX.md). They are excluded
+from the V1 Alpha serving package as well.
+
 ## Release gate still requiring owner inputs
 
 The local implementation and synthetic checks do not supply missing supplier
@@ -307,6 +385,68 @@ claim that an offline wheelhouse has been installed on the target host.
 
 The refreshed loopback authoring app serves chat, brief/research/knowledge/
 competitor pages and widget assets. Unauthenticated research data/export
-requests are refused. It deliberately remains in authoring mode, with no real
-serving release or commercial version activated by this work. The implementation
-is local worktree state, not a pushed release or a live e-commerce installation.
+requests are refused. It remains in authoring mode. Separately, the allowlisted
+serving package has activated release
+`1134bcd195cba93072f0f7190219b0a572d6c7dc899ac27cbbbaf11c5eae72f6`, but this
+is not a live e-commerce installation or approval of every product fact. The
+implementation is local worktree state, not a pushed release.
+
+### Same-machine Windows staging rehearsal
+
+The package was staged under
+`%LOCALAPPDATA%\Aurora\staging\alpha-serving-1134bcd1` by copying only the
+46 files in its verified package manifest. The rehearsal used a fresh isolated
+SQLite state directory, separate redacted site-config copies, test-only
+environment keys, one Uvicorn worker, `AGENT_USE_LLM=false`, and loopback
+`127.0.0.1:8011`. No production credentials, site-config key values, or
+customer data were copied into the staged package.
+
+The staged service returned live and ready, reported serving-only mode and the
+release above, served the widget frame, and had no `/api/research` routes in
+its OpenAPI surface. A synthetic widget conversation and capability were
+accepted after a stop/start, proving local SQLite session and token persistence.
+The staged backup/restore tool backed up `audit.sqlite3`, `rate_limits.sqlite3`,
+`sessions.sqlite3`, and `widget_tokens.sqlite3`; restored copies passed SQLite
+integrity checks and matched the staged database counts. The rehearsal backup
+and restored state are private local artifacts, not package contents.
+
+This proves a same-machine loopback rehearsal only. It does not test an external
+browser, public TLS/reverse proxy, another host, real operator keys, capacity,
+or a real store integration. Do not expose this service beyond loopback or
+treat test-only site keys as deployment credentials. Before using customer-
+facing data, confirm the release visibility policy and complete human/source
+review for the product facts; local model validation is evidence for review,
+not source truth.
+
+For a repeatable local start/health/stop check from one PowerShell window:
+
+```powershell
+$Root = Join-Path $env:LOCALAPPDATA 'Aurora\staging'
+$Package = Join-Path $Root 'alpha-serving-1134bcd1'
+$env:AURORA_ENV = 'production'
+$env:AURORA_SERVING_ONLY = 'true'
+$env:AURORA_RELEASE_DIR = Join-Path $Package 'releases'
+$env:AURORA_STATE_DIR = Join-Path $Root 'state-1134bcd1'
+$env:AURORA_SITES_DIR = Join-Path $Root 'operator\sites'
+$env:AGENT_USE_LLM = 'false'
+$env:USE_HYBRID_RANKING = 'false'
+$env:AURORA_SESSION_BACKEND = 'sqlite'
+$env:AURORA_RATE_LIMIT_BACKEND = 'sqlite'
+$Server = Start-Process -FilePath (Get-Command python).Source `
+  -ArgumentList @('-m','uvicorn','web_agent:app','--host','127.0.0.1','--port','8011','--workers','1') `
+  -WorkingDirectory $Package -PassThru
+try {
+  Invoke-RestMethod http://127.0.0.1:8011/health/live
+  Invoke-RestMethod http://127.0.0.1:8011/health/ready
+} finally {
+  Stop-Process -Id $Server.Id
+  Wait-Process -Id $Server.Id -ErrorAction SilentlyContinue
+}
+```
+
+Keep any operator API keys in the launching process environment, populated by
+the owner's protected local procedure; do not put values in this command,
+script, or package. Keep the listener on loopback unless a separately reviewed
+proxy setup is ready. Use a dedicated Windows service/supervisor and protected
+logs for unattended operation; this interactive command is a manual rehearsal,
+not a service manager.

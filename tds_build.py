@@ -14,7 +14,7 @@ import re
 import shutil
 import socket
 import time
-from urllib.parse import urlsplit
+from urllib.parse import quote, urlsplit
 import urllib.request
 import urllib.error
 import uuid
@@ -608,8 +608,6 @@ class Build:
                 if family_id not in packs:
                     raise ValueError("Unknown family")
                 packs = {family_id: packs[family_id]}
-            if current["preview_id"] != manifest["authoring_preview"]:
-                raise ValueError("Authoring changed since build preview; start a fresh manifest")
             sources = self.sources(build_id, family_id)
             model_jobs = list(self.chunks(build_id, family_id))
             completed = {p.stem for p in (directory / "model").glob("*.json")
@@ -682,6 +680,7 @@ class Build:
                     (temp / name).write_bytes(content)
                     files[name] = digest(temp / name)
             summary = {"family_count": len(packs), "files": files, "build_id": build_id,
+                       "authoring_preview": current["preview_id"],
                        "sources_unassigned": [s for s in sources.values() if not s["families"]],
                        "held_rows": [r for r in manifest["rows"] if r["holds"]],
                        "status": state, "warning": WARNING}
@@ -734,17 +733,20 @@ class Build:
             name = stem + "." + suffix
             if digest(folder / name) != summary["files"][name]:
                 raise ValueError("Private family pack checksum mismatch")
+        current_preview = build_preview(index)[0]["preview_id"]
+        pack_preview = summary.get("authoring_preview", manifest["authoring_preview"])
         return {"state": "private_draft_not_approved", "batch": pointer["build_id"],
                 "family_id": family_id,
                 "pack": json.loads((folder / (stem + ".json")).read_text(encoding="utf-8")),
                 "readable": (folder / (stem + ".md")).read_text(encoding="utf-8"),
                 "processing_coverage": summary["processing_coverage"],
-                "authoring_stale": build_preview(index)[0]["preview_id"] != manifest["authoring_preview"]}
+                "authoring_preview": pack_preview,
+                "authoring_stale": current_preview != pack_preview}
 
-    def report(self, build_id, index):
+    def report(self, build_id, index, supplemental_links=None, supplemental_skus=None):
         """A family is processed only when all its current chunks and packs verify."""
         directory, manifest = self.job(build_id)
-        authoring_stale = build_preview(index)[0]["preview_id"] != manifest["authoring_preview"]
+        current_authoring_preview = build_preview(index)[0]["preview_id"]
         sources = self.sources(build_id)
         by_family = {}
         for source in sources.values():
@@ -795,12 +797,17 @@ class Build:
                     failed += 1
             draft = False
             draft_current = False
+            draft_authoring_preview = None
+            authoring_stale = False
             if key in pointers and pointers[key]["build_id"] == build_id:
                 folder_name = pointers[key]["packs"]
                 if not re.fullmatch(r"packs-[a-f0-9]{16}", folder_name):
                     raise ValueError("Invalid family draft pointer")
                 folder = self.path("builds", build_id, folder_name)
                 pack_manifest = json.loads((folder / "manifest.json").read_text(encoding="utf-8"))
+                draft_authoring_preview = pack_manifest.get(
+                    "authoring_preview", manifest["authoring_preview"])
+                authoring_stale = draft_authoring_preview != current_authoring_preview
                 stem = hashlib.sha256(key.encode()).hexdigest()[:20]
                 for suffix in ("json", "md"):
                     name = stem + "." + suffix
@@ -843,9 +850,62 @@ class Build:
                          "draft_generated": draft, "held_link_rows": held, "download_failures": url_failures,
                          "draft_current": draft_current,
                          "authoring_stale": authoring_stale,
+                         "draft_authoring_preview": draft_authoring_preview,
                          "prior_schema_failed_attempts": older_failures,
                          "human_approval": "not_granted_by_build"})
+        supplemental_links = supplemental_links or {}
+        supplied_tds_links = [
+            row for row in supplemental_links.get("rows", [])
+            if isinstance(row.get("url"), str) and row["url"].strip()
+        ]
+        supplemental_skus = supplemental_skus or {}
+        sku_products = supplemental_skus.get("products", [])
+        family_sku_lists = []
+        for row in rows:
+            matches = [
+                item for item in sku_products
+                if row["family_id"] in {item.get("family_id"), item.get("candidate_family_id")}
+            ]
+            matches.sort(key=lambda item: item.get("our_sku", "").casefold())
+            row["staff_release_sku_count"] = len(matches)
+            row["staff_release_melbourne_sku_count"] = sum(
+                bool(item.get("melbourne_baseline")) for item in matches)
+            row["staff_release_state_only_sku_count"] = sum(
+                not item.get("melbourne_baseline") for item in matches)
+            row["staff_release_unreviewed_count"] = sum(
+                item.get("family_mapping_status") != "deterministic_high_unreviewed"
+                for item in matches)
+            family_sku_lists.append({
+                "family_id": row["family_id"],
+                "manufacturer": row["manufacturer"],
+                "family_name": row["family_name"],
+                "products": matches,
+            })
+        unassigned_skus = [
+            item for item in sku_products
+            if not item.get("family_id") and not item.get("candidate_family_id")
+        ]
         report = {"build_id": build_id, "sort": "manufacturer, family name, family_id",
+                  "build_authoring_preview": manifest["authoring_preview"],
+                  "current_authoring_preview": current_authoring_preview,
+                  "build_authoring_changed": manifest["authoring_preview"] != current_authoring_preview,
+                  "supplemental_link_workbook": {
+                      key: supplemental_links[key]
+                      for key in ("workbook", "sha256") if key in supplemental_links
+                  } if supplemental_links else None,
+                  "supplemental_link_status": (
+                      "supplied_unverified" if supplemental_links else "not_supplied"
+                  ),
+                  "supplemental_tds_links": supplied_tds_links,
+                  "supplemental_sku_inventory": {
+                      key: supplemental_skus[key]
+                      for key in ("source_workbook", "source_sha256", "baseline_location",
+                                  "active_product_master_skus", "inactive_product_master_skus_excluded",
+                                  "sales_location_summary", "family_mapping_model", "price_values_included")
+                      if key in supplemental_skus
+                  } if supplemental_skus else None,
+                  "staff_release_family_skus": family_sku_lists if supplemental_skus else [],
+                  "staff_release_unassigned_skus": unassigned_skus if supplemental_skus else [],
                   "warning": WARNING, "family_count": len(rows),
                   "summary": dict(Counter(r["state"] for r in rows)),
                   "families": rows, "unresolved_rows": [r for r in manifest["rows"] if r["holds"]],
@@ -859,23 +919,131 @@ class Build:
         text = ["# Family knowledge build progress", "", WARNING, "",
                 f"Build: {build_id}", "Order: manufacturer, then family name (alphabetical).", "",
                 "Processing completion is not human approval or public deployment.", "",
+                "## Chat with the bot about one family at a time", "",
+                "Use **Chat with bot** on a family row to open the local chat at "
+                "`http://127.0.0.1:8001/chat` with that exact family preselected as conversation context. "
+                "Ask what is documented, what remains unknown, or provide your review input conversationally. "
+                "The page is a local test harness: do not enter customer personal information. Messages "
+                "are not claim/SKU approvals and do not publish or deploy anything. The local workspace "
+                "must be running on port 8001.", "",
                 "## Summary", "", encoded(report["summary"]).decode(), "",
-                "| # | Family | State | Documents | Chunks validated / total | Draft | Source gaps / held links / download failures |",
-                "| --- | --- | --- | --- | --- | --- | --- |"]
+                "| # | Family | State | Documents | Chunks validated / total | Draft | Source gaps / held links / download failures | Bot input |",
+                "| --- | --- | --- | --- | --- | --- | --- | --- |"]
         for row in rows:
             name = row["family_name"].replace("|", "\\|").replace("\n", " ")
             if (self.root / "data" / "local" / "tds_register.json").is_file():
                 name = f"[{name}](#{row['family_id'].lower()})"
+            review_url = (
+                "http://127.0.0.1:8001/chat?family_id="
+                + quote(row["family_id"], safe="")
+            )
             text.append(f"| {row['order']} | {name} ({row['family_id']}) | {row['state']} | "
                         f"{row['source_documents']} | {row['validated_chunks']} / {row['total_chunks']} | "
                         f"{'Yes' if row['draft_generated'] else 'No'} | "
                         f"{'Missing primary source' if not row['source_documents'] else str(row['extraction_gaps'])+' extraction gaps'}"
-                        f" / {row['held_link_rows']} / {row['download_failures']} |")
+                        f" / {row['held_link_rows']} / {row['download_failures']} | "
+                        f"[Chat with bot]({review_url}) |")
         text.extend(["", "## Preserved earlier pilot failures", "",
                      "Failed earlier-schema attempts remain in the JSON/CSV report and original receipts; "
                      "a schema change never erases a rejected result.", "",
                      "## Held workbook rows", "", "See completion.json for both conflicting URLs "
                      "and exact workbook row provenance. Held rows are not silently completed."])
+        if supplemental_links:
+            text.extend(["", "## Supplemental workbook TDS links (unverified)", "",
+                         "These are supplied links only. They have not been downloaded or verified as "
+                         "primary sources, and do not change family source counts or approval status.",
+                         "", "Workbook: " + str(supplemental_links.get("workbook", "unspecified")),
+                         "SHA-256: " + str(supplemental_links.get("sha256", "unavailable")), ""])
+            for item in supplied_tds_links:
+                family_id = item.get("family_id") or "Unresolved family"
+                family_name = item.get("family_name") or ""
+                location = f"{item.get('sheet', 'sheet')}!{item.get('row', '?')}"
+                url = item["url"].strip()
+                parsed = urlsplit(url)
+                reasons = item.get("holds", [])
+                status = "HOLD: " + ", ".join(reasons) if reasons else "unreviewed"
+                label = f"{family_id} — {family_name} ({location}; {status})".rstrip()
+                if parsed.scheme in {"http", "https"} and parsed.netloc:
+                    rendered_url = f"[open supplied link](<{url}>)"
+                else:
+                    rendered_url = "`" + url.replace("`", "\\`") + "`"
+                text.append(f"- {label}: {rendered_url}")
+        else:
+            text.extend([
+                "", "## Supplemental workbook TDS links", "",
+                "No supplemental link workbook was supplied for this report. Only links and sources "
+                "already present in the local build are represented; a previous workbook overlay is "
+                "not carried forward without revalidation.",
+            ])
+        if supplemental_skus:
+            sku_meta = report["supplemental_sku_inventory"]
+            text.extend([
+                "", "## Staff-release SKU inventory (unreviewed)", "",
+                "Melbourne is the baseline sales list. Regional presence, missing SKUs, "
+                "field differences, and sell-price variance/status are reported without "
+                "copying price amounts. Family associations are preliminary authoring "
+                "candidates only; this workbook is not technical evidence, SKU approval, "
+                "availability confirmation, or public-release approval.",
+                "",
+                f"Workbook: `{sku_meta.get('source_workbook', 'unspecified')}`; "
+                f"SHA-256: `{sku_meta.get('source_sha256', 'unavailable')}`.",
+                f"Active Product_Master SKUs: {sku_meta.get('active_product_master_skus', 0)}; "
+                f"inactive rows excluded from family SKU lists: "
+                f"{sku_meta.get('inactive_product_master_skus_excluded', 0)}.",
+                "",
+                "| Location | SKU rows | Melbourne SKUs not listed | State-only SKUs | Sell-price variances vs Melbourne | Other field differences |",
+                "| --- | ---: | ---: | ---: | ---: | --- |",
+            ])
+            state_order = ("Melbourne", "Sydney", "Brisbane", "Adelaide", "Perth")
+            for location in state_order:
+                state = sku_meta.get("sales_location_summary", {}).get(location)
+                if not state:
+                    continue
+                field_summary = ", ".join(
+                    f"{field}: {count}" for field, count in sorted(state.get("field_differences", {}).items())
+                ) or "none"
+                text.append(
+                    f"| {location} | {state.get('sku_count', 0)} | "
+                    f"{state.get('melbourne_skus_not_listed', 0)} | "
+                    f"{state.get('state_only_skus', 0)} | "
+                    f"{state.get('sell_price_variances', 0)} | {field_summary} |"
+                )
+            text.extend([
+                "", "| Family | Active SKU candidates | Melbourne baseline SKUs | State-only SKUs | Unreviewed/candidate mappings | Our SKU codes |",
+                "| --- | ---: | ---: | ---: | ---: | --- |",
+            ])
+            for family_entry in family_sku_lists:
+                products = family_entry["products"]
+                codes = ", ".join(
+                    "`" + str(item.get("our_sku", "")).replace("`", "\\`").replace("|", "\\|") + "`"
+                    for item in products
+                ) or "—"
+                name = (family_entry["family_name"].replace("|", "\\|").replace("\n", " "))
+                text.append(
+                    f"| {name} ({family_entry['family_id']}) | {len(products)} | "
+                    f"{sum(bool(item.get('melbourne_baseline')) for item in products)} | "
+                    f"{sum(not item.get('melbourne_baseline') for item in products)} | "
+                    f"{sum(item.get('family_mapping_status') != 'deterministic_high_unreviewed' for item in products)} | "
+                    f"{codes} |"
+                )
+            text.extend([
+                "", "### SKU family assignments needing review", "",
+                "See the family-level table above for candidate SKUs. Unassigned SKUs "
+                "remain visible here and have not been forced into a family.",
+                "",
+            ])
+            if unassigned_skus:
+                for item in unassigned_skus:
+                    codes = item.get("family_codes") or []
+                    code_note = f"; source family codes: {', '.join(codes)}" if codes else ""
+                    text.append(
+                        f"- `{str(item.get('our_sku', '')).replace('`', '\\`')}` "
+                        f"({item.get('manufacturer', 'unknown manufacturer')}; "
+                        f"{item.get('product_name', '')}; "
+                        f"{item.get('family_mapping_status', 'unmapped')}{code_note})"
+                    )
+            else:
+                text.append("- No SKU rows are unassigned from the local family taxonomy.")
         register_pointer = self.root / "data" / "local" / "tds_register.json"
         if register_pointer.is_file():
             from tds_register import compiled_sources, render_family

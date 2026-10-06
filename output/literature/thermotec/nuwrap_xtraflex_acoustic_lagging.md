@@ -36,6 +36,10 @@ NuWrap XtraFlex Acoustic Lagging is a acoustic lagging product family from Therm
 
 _Range not yet extracted; confirm variants against the current manufacturer TDS._
 
+## Staff-release SKU coverage
+
+_No SKU from this workbook was mapped or proposed for this family._
+
 ## Technical data
 
 | Property | Value | Source |

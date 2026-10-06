@@ -1,7 +1,7 @@
 ---
 title: "ProctorGeo Vap - Drainage / Ventilation Insulation | Proctor"
-description: "Quality insulation engineered for Australian conditions. Engineered to meet Australian building requirements."
-keywords: "ProctorGeo Vap, Proctor drainage / ventilation, insulation Australia, Proctor Australia"
+description: "ProctorGeo Vap120 is a light duty vapour and air retarder that resists the flow of vapour by both diffusion and air movement through wall, ceiling, an"
+keywords: "ProctorGeo Vap, Proctor drainage / ventilation, wall insulation, roof insulation, insulation Australia, Proctor Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: PROCTOR_GEO_VAP
 ---
@@ -10,17 +10,32 @@ family_id: PROCTOR_GEO_VAP
 
 **Proctor Drainage / Ventilation** — drainage / ventilation insulation product.
 
-Quality insulation engineered for Australian conditions. Engineered to meet Australian building requirements.
+ProctorGeo Vap120 is a light duty vapour and air retarder that resists the flow of vapour by both diffusion and air movement through wall, ceiling, and floor assemblies, helping to protect the building fabric and insulation from condensation and related problems such as mould, timber rot, corrosion, and loss of thermal resistance.
 
 ## Key features
 
-- High-performance membrane technology.
-- provides effective vapour and moisture management.
-- compatible with a wide range of substrates.
+- Light duty vapour and air retarder.
+- Resists the flow of vapour by both diffusion and air movement.
+- Improves the efficacy of ventilation systems.
+- Ideal for swimming pools and humid buildings.
+- Factory applied integrated tape.
+- Slightly translucent for ease of insulation.
+- Water vapour resistant.
+- Suitable for use in some corrosive environments.
+- High water resistance.
+- Non perforated.
+- Non conductive.
+- Air tight.
+- Lightweight and easy to handle.
+- Robust with excellent tear resistance.
 
 ## Applications and selection
 
-- Drainage / Ventilation
+- Sheet roof and wall claddings
+- Constructions located in cold climates
+- Buildings with high internal humidity such as indoor swimming pools and museums
+- Air conditioned buildings located in hot and humid climates
+- Refrigerated buildings such as cold stores and ice rinks
 
 **Selection checklist**
 
@@ -38,20 +53,29 @@ Quality insulation engineered for Australian conditions. Engineered to meet Aust
 | R0.1 | thermal_r_value | Varies | 30000 x 1500 | 1 |
 | R0.1 | thermal_r_value | Varies | 30000 x 3000 | 1 |
 
+## Staff-release SKU coverage
+
+_No SKU from this workbook was mapped or proposed for this family._
+
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Drainage / Ventilation | Manufacturer catalogue |
-| Material | Geocomposite / Membrane | Manufacturer catalogue |
-| Applications | Drainage / Ventilation | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| R-value | Not specified | - |
+| Density | Not specified | - |
+| Thermal conductivity | Not specified | - |
+| Fire indices | AS/NZS 1530.3 Flammability Index ≤ 5 | AS/NZS 1530.3 |
+| Temperature range | Not specified | - |
+| Vapour resistance | 49 MNs/g | ASTM E96 |
+| pH | Not specified | - |
+| Water resistance | High | AS/NZS 4201.4 |
+| Emissivity | Non reflective | AS/NZS 4201.5 |
 
-
+Extracted from manufacturer datasheet: https://proctorgroup.com.au/wp-content/uploads/2021/03/ProctorGeo_Vap_120_PDS_Apr_2020.pdf
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+AS/NZS 1530.3 Flammability Index ≤ 5
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
@@ -61,13 +85,19 @@ Not verified per SKU. No fire, NCC or BAL classification is asserted in this dra
 
 ## Limitations and warnings
 
-- Ensure compatibility with substrate and adjacent materials..
-- follow manufacturer overlap requirements..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Not to be used as a primary waterproofing membrane.
+- Can be damaged by careless handling, high winds, or vandalism.
+- Should not be left uncovered for longer than absolutely necessary.
+- Should not be left exposed to UV for longer than 4 weeks.
+- Not to be used in installations where it could be exposed to long term UV radiation.
+- No anti-slip coating, may be slippery when wet.
+- Carelessly discarded packaging also represents a slip hazard.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Ensure compatibility with substrate and adjacent materials.
+1. Install in accordance with the supplied installation guide.
+2. Secure directly to the interior side of the wall or ceiling frame.
+3. Use factory applied integrated tape on the face of the lower course and the rear of the upper course of membrane.
 
 ## Safety and handling
 

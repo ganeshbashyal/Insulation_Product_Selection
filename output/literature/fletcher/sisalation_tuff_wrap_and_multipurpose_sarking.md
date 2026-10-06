@@ -50,36 +50,22 @@ Sisalation Tuff Wrap and Multipurpose Sarking (Sisalation 497 Tuff Wrap Standard
 | Sisalation Multipurpose EHD (456) 30m | 1350 mm x 30 m (40.5 m²) | Roll (Code: 4006884) |
 | Sisalation Multipurpose EHD (456) 60m | 1350 mm x 60 m (81.0 m²) | Roll (Code: 4006883) |
 
-**Internal catalogue range**
-
-| SKU | Product | Published rating |
-| --- | --- | --- |
-| FL-4005520 | MULTIPURPOSE 439 LIGHT DUTY Non Vapour 1350MMX60M Permeable Water Barrier | R33.92, R33.8 |
-| FL-4006914 | TUFF WRAP BR 497 1.35X60M Vapour Permeable Non Water Barrier | Not stated |
-| FL-4006915 | TUFF WRAP 497 1.35X30M | Not stated |
-| FL-4006916 | TUFF WRAP BR 497 1.35X30M | Not stated |
-| FL-4006917 | TUFF WRAP 497 1.35X60M | Not stated |
-
 
 ## Current catalogue range
 
-| Variant | Size / rating | Pack |
-| --- | --- | --- |
-| Sisalation Tuff Wrap Standard (497) 30m | 1350 mm x 30 m (40.5 m²) | Roll (Code: 4006880) |
-| Sisalation Tuff Wrap Standard (497) 60m | 1350 mm x 60 m (81.0 m²) | Roll (Code: 4006881) |
-| Sisalation Tuff Wrap Breather (497) 30m | 1350 mm x 30 m (40.5 m²) | Roll (Code: 4006882) |
-| Sisalation Multipurpose EHD (456) 30m | 1350 mm x 30 m (40.5 m²) | Roll (Code: 4006884) |
-| Sisalation Multipurpose EHD (456) 60m | 1350 mm x 60 m (81.0 m²) | Roll (Code: 4006883) |
+| SKU record | Internal SKU | Supplier SKU | Product | Published rating | Validation |
+| --- | --- | --- | --- | --- | --- |
+| SKU-117BDB7C04868440 | FL-4005520 | FIMULTIPURPOSE439W1350L60MRL | MULTIPURPOSE 439 LIGHT DUTY Non Vapour 1350MMX60M Permeable Water Barrier | R33.92, R33.8 | REVIEW |
+| SKU-C68A7E73B626AA9A | FL-4006914 | FITUFFWRAPBRW1350L60MRL | TUFF WRAP BR 497 1.35X60M Vapour Permeable Non Water Barrier | Not stated | REVIEW |
+| SKU-0324FB9B6A141B7D | FL-4006915 | FITUFFWRAPW1350L30MRL | TUFF WRAP 497 1.35X30M | Not stated | REVIEW |
+| SKU-5ACF4C58B989DBEA | FL-4006916 | FITUFFWRAPBRW1350L30MRL | TUFF WRAP BR 497 1.35X30M | Not stated | REVIEW |
+| SKU-BBFCA264445D6E1E | FL-4006917 | FITUFFWRAPW1350L60MRL | TUFF WRAP 497 1.35X60M | Not stated | REVIEW |
 
-**Internal catalogue range**
+_All 5 catalogue source rows are listed; duplicate SKU codes are retained as separate records._
 
-| SKU | Product | Published rating |
-| --- | --- | --- |
-| FL-4005520 | MULTIPURPOSE 439 LIGHT DUTY Non Vapour 1350MMX60M Permeable Water Barrier | R33.92, R33.8 |
-| FL-4006914 | TUFF WRAP BR 497 1.35X60M Vapour Permeable Non Water Barrier | Not stated |
-| FL-4006915 | TUFF WRAP 497 1.35X30M | Not stated |
-| FL-4006916 | TUFF WRAP BR 497 1.35X30M | Not stated |
-| FL-4006917 | TUFF WRAP 497 1.35X60M | Not stated |
+## Staff-release SKU coverage
+
+_No SKU from this workbook was mapped or proposed for this family._
 
 ## Technical data
 

@@ -30,6 +30,37 @@ def test_api_product_topic_survives_persisted_turns(client, tmp_path, monkeypatc
     assert len(saved["messages"]) == 4
 
 
+def test_family_chat_link_sets_validated_family_context(client, tmp_path, monkeypatch):
+    import web_agent
+    from session_store import SQLiteSessionStore
+
+    family = next(row for row in web_agent.agent_core.FAMILIES
+                  if row["family_id"] == "THERMOTEC_NUWRAP_5")
+    monkeypatch.setattr(web_agent, "session_store", SQLiteSessionStore(tmp_path / "family-chat.sqlite3"))
+    page = client.get("/chat", params={"family_id": family["family_id"]})
+    assert page.status_code == 200
+    assert f"const FAMILY_ID={json.dumps(family['family_id'])}" in page.text
+    assert f"const FAMILY_NAME={json.dumps(family['name'])}" in page.text
+
+    started = client.post(
+        "/api/conversations?site_id=local",
+        params={"family_id": family["family_id"]},
+        headers={"X-API-Key": "sk_local_dev_test"},
+    )
+    assert started.status_code == 200
+    saved = json.loads(web_agent.session_store.get(started.json()["conversation_id"], "local").conversation_json)
+    assert saved["topic_products"] == [family["family_id"]]
+    assert saved["family_review_id"] == family["family_id"]
+
+    unknown = client.post(
+        "/api/conversations?site_id=local",
+        params={"family_id": "NOT_A_REAL_FAMILY"},
+        headers={"X-API-Key": "sk_local_dev_test"},
+    )
+    assert unknown.status_code == 404
+    assert client.get("/chat", params={"family_id": "NOT_A_REAL_FAMILY"}).status_code == 404
+
+
 @pytest.fixture
 def client():
     """FastAPI test client with startup initialization."""

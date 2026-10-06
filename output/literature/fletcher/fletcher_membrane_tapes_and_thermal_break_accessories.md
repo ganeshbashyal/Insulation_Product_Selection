@@ -48,36 +48,29 @@ Fletcher Membrane Tapes and Thermal Break Accessories comprise high-performance 
 | Vapastop 883 Reinforced Foil Tape 72mm | 72 mm x 50 m | Roll (Carton of 16) |
 | Sisalation VapaSeam Acrylic Tape 48mm | 48 mm x 50 m | Roll (Carton of 24) |
 
-**Internal catalogue range**
-
-| SKU | Product | Published rating |
-| --- | --- | --- |
-| FL-4006792 | TAPE THERMATAPE R0.2 Thermal Break Tape 10MX30MMX10MM | R0.42, R0.2 |
-| FL-4006794 | TAPE VAPASTOP 883 50M X 48MM VapaStop Tape | R1.37, R1.2 |
-| FL-4006798 | TAPE VAPASTOP 883 50M X 63MM | R1.74, R1.6 |
-| FL-4006802 | TAPE PLAIN FOIL 400F 50M X 48MM Foil Tape | R1.37, R1.2 |
-| FL-4006803 | TAPE PLAIN FOIL 400F 50M X 72MM | R1.97, R1.8 |
-| FL-4006809 | 3M SEAMING TAPE WHITE 3M Seaming Tape 50MX48MM | R1.37, R1.2 |
-
 
 ## Current catalogue range
 
-| Variant | Size / rating | Pack |
-| --- | --- | --- |
-| Vapastop 883 Reinforced Foil Tape 48mm | 48 mm x 50 m | Roll (Carton of 24) |
-| Vapastop 883 Reinforced Foil Tape 72mm | 72 mm x 50 m | Roll (Carton of 16) |
-| Sisalation VapaSeam Acrylic Tape 48mm | 48 mm x 50 m | Roll (Carton of 24) |
+| SKU record | Internal SKU | Supplier SKU | Product | Published rating | Validation |
+| --- | --- | --- | --- | --- | --- |
+| SKU-06B0C7B0C5D47427 | FL-4006792 | FITHERMATAPER02T10W30L10MRL | TAPE THERMATAPE R0.2 Thermal Break Tape 10MX30MMX10MM | R0.42, R0.2 | REVIEW |
+| SKU-ED3CAE4EF1A29160 | FL-4006794 | FITAPEVAPASTOP883W48L50MEA | TAPE VAPASTOP 883 50M X 48MM VapaStop Tape | R1.37, R1.2 | REVIEW |
+| SKU-617C0C9A6DE89388 | FL-4006798 | FITAPEVAPASTOP883W63L50MRL | TAPE VAPASTOP 883 50M X 63MM | R1.74, R1.6 | REVIEW |
+| SKU-4424CEACC2E113E9 | FL-4006802 | FITAPEPLAINFOILW48L50MRL | TAPE PLAIN FOIL 400F 50M X 48MM Foil Tape | R1.37, R1.2 | REVIEW |
+| SKU-78B44A78AC3D2AAD | FL-4006803 | FITAPEPLAINFOILW72L50MRL | TAPE PLAIN FOIL 400F 50M X 72MM | R1.97, R1.8 | REVIEW |
+| SKU-10B10D1F45527B0E | FL-4006809 | FITAPEWHITESEAMINGW48L50MRL | 3M SEAMING TAPE WHITE 3M Seaming Tape 50MX48MM | R1.37, R1.2 | REVIEW |
 
-**Internal catalogue range**
+_All 6 catalogue source rows are listed; duplicate SKU codes are retained as separate records._
 
-| SKU | Product | Published rating |
-| --- | --- | --- |
-| FL-4006792 | TAPE THERMATAPE R0.2 Thermal Break Tape 10MX30MMX10MM | R0.42, R0.2 |
-| FL-4006794 | TAPE VAPASTOP 883 50M X 48MM VapaStop Tape | R1.37, R1.2 |
-| FL-4006798 | TAPE VAPASTOP 883 50M X 63MM | R1.74, R1.6 |
-| FL-4006802 | TAPE PLAIN FOIL 400F 50M X 48MM Foil Tape | R1.37, R1.2 |
-| FL-4006803 | TAPE PLAIN FOIL 400F 50M X 72MM | R1.97, R1.8 |
-| FL-4006809 | 3M SEAMING TAPE WHITE 3M Seaming Tape 50MX48MM | R1.37, R1.2 |
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `FITHERMATAPER02T10W30L10MRL` | TAPE THERMATAPE R0.2 Thermal Break Tape 10MX30MMX10MM | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
 
 ## Technical data
 

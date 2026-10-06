@@ -134,14 +134,15 @@ print(json.dumps({'startup_seconds':time.monotonic()-start,'release_id':web_agen
 
 def test_allowlisted_runtime_package_starts_without_authoring_sources(tmp_path):
     import shutil
-    from scripts.package_runtime import package, FILES
+    from scripts.package_runtime import package, FILES, TOOL_FILES
     source=tmp_path/"source"
     source.mkdir()
-    for name in FILES:
+    for name in (*FILES, *TOOL_FILES):
         dest=source/name
         dest.parent.mkdir(parents=True,exist_ok=True)
         shutil.copyfile(ROOT/name,dest)
-    shutil.copytree(ROOT/"tools",source/"tools",ignore=shutil.ignore_patterns("__pycache__"))
+    unlisted_tool=source/"tools"/"unlisted.py"
+    unlisted_tool.write_text("raise AssertionError('must not be packaged')")
     library=ReleaseLibrary(tmp_path/"release")
     data=envelope()
     library.save(data)
@@ -149,6 +150,13 @@ def test_allowlisted_runtime_package_starts_without_authoring_sources(tmp_path):
     target=source/"data"/"local"/"distribution"/"synthetic"
     manifest=package(source,library.directory,target)
     assert manifest["release_id"]==data["release_id"]
+    expected_files={*FILES,*TOOL_FILES,
+                    "releases/"+data["release_id"][:16]+".json","releases/active.json"}
+    assert set(manifest["files"])==expected_files
+    for name,digest in manifest["files"].items():
+        assert hashlib.sha256((target/name).read_bytes()).hexdigest()==digest
+    assert (target/"release_exports.py").is_file()
+    assert not (target/"tools"/"unlisted.py").exists()
     assert not (target/"config"/"sites").exists()
     assert not (target/"data").exists()
     assert not (target/"research_api.py").exists()
@@ -164,7 +172,25 @@ def test_allowlisted_runtime_package_starts_without_authoring_sources(tmp_path):
          "AGENT_USE_LLM":"false","USE_HYBRID_RANKING":"false","AURORA_RATE_LIMIT_BACKEND":"sqlite",
          "AURORA_SITE_API_KEY_TEST":"synthetic"}
     env.pop("PYTHONPATH",None)
-    result=subprocess.run([sys.executable,"-c","import asyncio,web_agent; asyncio.run(web_agent.startup()); assert web_agent.ready()['release_id']; print('PACKAGED_RUNTIME_READY')"],
+    script="""import asyncio, web_agent
+asyncio.run(web_agent.startup())
+assert web_agent.ready()['release_id']
+paths=set()
+pending=[web_agent.app]
+while pending:
+    app=pending.pop()
+    for route in getattr(app, 'routes', []):
+        path=getattr(route, 'path', None)
+        if path:
+            paths.add(path)
+        nested=getattr(route, 'router', None)
+        if nested:
+            pending.append(nested)
+forbidden=('/api/research','/admin/products','/admin/knowledge','/admin/competitors','/admin/catalogue')
+assert not any(path==prefix or path.startswith(prefix+'/') for path in paths for prefix in forbidden), paths
+print('PACKAGED_RUNTIME_READY')
+"""
+    result=subprocess.run([sys.executable,"-c",script],
                           cwd=target,env=env,text=True,capture_output=True,timeout=30)
     assert result.returncode==0,result.stdout+result.stderr
     assert "PACKAGED_RUNTIME_READY" in result.stdout

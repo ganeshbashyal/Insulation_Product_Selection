@@ -17,6 +17,8 @@ from product_research import ROOT
 from research_store import Conflict, canonical, stamp
 from research_workflow import active_effective, effective_evidence, latest_reviews, publication_preview, validate_review
 from knowledge_service import service, knowledge_validation
+from family_review import (ReviewInventoryError, build_review_inventory, family_review_detail,
+                           mapped_group_review_detail, unmapped_review_detail, validate_family_review)
 
 router = APIRouter()
 _job_lock = threading.Lock()
@@ -207,6 +209,136 @@ def knowledge_status(request: Request, q: str = Query("", max_length=200),
             and (not gap or any(gap.casefold() in text.casefold() for text in r["gaps"]))]
     return response({**report, "total": len(rows), "offset": offset, "limit": limit,
                      "families": rows[offset:offset + limit]})
+
+
+@router.get("/api/research/family-review")
+def family_review_worklist(request: Request, lane: str = Query("families", pattern="^(families|mapped|unmapped)$"),
+                           q: str = Query("", max_length=200), offset: int = Query(0, ge=0),
+                           limit: int = Query(30, ge=1, le=100)):
+    user(request)
+    idx = index()
+    try:
+        worklist = build_review_inventory(idx.root, idx, store())
+    except (OSError, ReviewInventoryError) as exc:
+        return response({"state": "unavailable", "error": str(exc),
+                         "note": "No review decisions can be saved until the V3 inventory and triage agree."}, 422)
+    rows = {
+        "families": worklist["families"],
+        "mapped": worklist["mapped_exception_groups"],
+        "unmapped": worklist["unmapped_groups"],
+    }[lane]
+    if q:
+        needle = q.casefold()
+        rows = [row for row in rows if needle in canonical(row).casefold()]
+    return response({
+        **{key: value for key, value in worklist.items()
+           if key not in {"families", "mapped_exception_groups", "unmapped_groups"}},
+        "lane": lane, "total": len(rows), "offset": offset, "limit": limit,
+        "items": rows[offset:offset + limit],
+    })
+
+
+@router.get("/api/research/transcription-audit")
+def transcription_audit_worklist(request: Request, q: str = Query("", max_length=200),
+                                 offset: int = Query(0, ge=0),
+                                 limit: int = Query(30, ge=1, le=100)):
+    user(request)
+    from scripts.check_family_transcription import read_current_report
+    try:
+        report = read_current_report(ROOT)
+    except (OSError, ValueError, json.JSONDecodeError) as exc:
+        raise HTTPException(409, str(exc)) from exc
+    rows = report["families"]
+    if q:
+        needle = q.casefold()
+        rows = [row for row in rows if needle in canonical([
+            row["family_id"], row["family_name"], row["manufacturer"], row["flags"], row["status"]
+        ]).casefold()]
+    return response({
+        **{key: value for key, value in report.items() if key != "families"},
+        "total": len(rows), "offset": offset, "limit": limit,
+        "items": [{key: value for key, value in row.items() if key != "facts"}
+                  for row in rows[offset:offset + limit]],
+    })
+
+
+@router.get("/api/research/transcription-audit/family/{family_id}")
+def transcription_audit_family(family_id: str, request: Request):
+    user(request)
+    from scripts.check_family_transcription import read_current_report
+    try:
+        report = read_current_report(ROOT)
+    except (OSError, ValueError, json.JSONDecodeError) as exc:
+        raise HTTPException(409, str(exc)) from exc
+    row = next((item for item in report["families"] if item["family_id"] == family_id), None)
+    if row is None:
+        raise HTTPException(404, "Unknown family")
+    documents = {
+        (item.get("path"), item.get("sha256")): item.get("id")
+        for item in index().documents.values()
+    }
+    result = {**row}
+    for fact in result["facts"]:
+        for match in fact["exact_hash_bound_pdf_matches"]:
+            match["document_id"] = documents.get((match["path"], match["sha256"]))
+    result["review_boundary"] = (
+        "Exact page text matches are provisional internal transcription checks only. "
+        "They do not validate source authenticity, currentness, applicability, technical suitability, "
+        "compliance, customer claims, or publication."
+    )
+    return response(result)
+
+
+@router.get("/api/research/family-review/family/{family_id}")
+def family_review_card(family_id: str, request: Request):
+    user(request)
+    idx = index()
+    try:
+        return response(family_review_detail(idx.root, idx, store(), family_id))
+    except (OSError, ReviewInventoryError) as exc:
+        raise HTTPException(422, "V3 review inventory is unavailable: " + str(exc)) from exc
+    except ValueError as exc:
+        raise HTTPException(404, str(exc)) from exc
+
+
+@router.get("/api/research/family-review/unmapped/{group_id}")
+def unmapped_review_card(group_id: str, request: Request):
+    user(request)
+    idx = index()
+    try:
+        return response(unmapped_review_detail(idx.root, idx, store(), group_id))
+    except (OSError, ReviewInventoryError) as exc:
+        raise HTTPException(422, "V3 review inventory is unavailable: " + str(exc)) from exc
+    except ValueError as exc:
+        raise HTTPException(404, str(exc)) from exc
+
+
+@router.get("/api/research/family-review/mapped/{group_id}")
+def mapped_review_card(group_id: str, request: Request):
+    user(request)
+    idx = index()
+    try:
+        return response(mapped_group_review_detail(idx.root, idx, store(), group_id))
+    except (OSError, ReviewInventoryError) as exc:
+        raise HTTPException(422, "V3 review inventory is unavailable: " + str(exc)) from exc
+    except ValueError as exc:
+        raise HTTPException(404, str(exc)) from exc
+
+
+@router.post("/api/research/family-review/{scope}/{scope_id}")
+def save_family_validation(scope: str, scope_id: str, body: Change, request: Request):
+    account = user(request, "reviewer", write=True)
+    idx = index()
+    try:
+        result = validate_family_review(idx.root, idx, store(), scope, scope_id,
+                                        body.data, account["username"], body.expected_version)
+        return response(result)
+    except Conflict as exc:
+        raise HTTPException(409, str(exc)) from exc
+    except ReviewInventoryError as exc:
+        raise HTTPException(422, "V3 review inventory is unavailable: " + str(exc)) from exc
+    except ValueError as exc:
+        raise HTTPException(400, str(exc)) from exc
 
 
 @router.post("/api/research/login")

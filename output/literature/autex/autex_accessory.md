@@ -45,6 +45,10 @@ Specialists in sustainable polyester acoustic solutions. Engineered to meet Aust
 | R1.4 | thermal_r_value | 50 | Varies | 1 |
 | R1.4 | thermal_r_value | 16 | Varies | 1 |
 
+## Staff-release SKU coverage
+
+_No SKU from this workbook was mapped or proposed for this family._
+
 ## Technical data
 
 | Property | Value | Source |

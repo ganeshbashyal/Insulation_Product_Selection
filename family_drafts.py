@@ -32,10 +32,10 @@ def checksum(value):
 
 
 def input_inventory(root):
-    # Generated packs are backups, not new authoring inputs or evidence.
+    # Generated packs and literature are projections, not new authoring inputs.
     prefix = "/".join(PRIVATE) + "/"
     return {name: digest for name, digest in inventory(root).items()
-            if not name.startswith(prefix) and name not in {
+            if not name.startswith(prefix) and not name.startswith("output/literature/") and name not in {
                 "data/local/fresh_tds_cache.json", "data/local/family_completion.md",
                 "data/local/tds_register.json"}}
 

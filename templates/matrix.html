@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>Matrix | Local managerial tool</title>
+<style>
+:root{font:15px system-ui;color:#17232c;background:#edf2f5}
+*{box-sizing:border-box}body{margin:0}header{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:16px 22px;background:#102b32;color:white}
+h1{font-size:22px;margin:0}header p{margin:4px 0 0;color:#d1e0e2}
+main{max-width:1600px;margin:auto;padding:16px}.tabs{display:flex;gap:8px;flex-wrap:wrap;border-bottom:1px solid #bccbd2;margin-bottom:12px}
+.tab{border:1px solid #c2d1d8;border-bottom:0;border-radius:8px 8px 0 0;background:#dde7eb;color:#24414a;padding:11px 20px;font-weight:650}
+.tab[aria-selected="true"]{background:white;color:#075b55;border-color:#a9c4c2}
+.panel{background:white;border:1px solid #d0dce1;border-radius:0 10px 10px 10px;padding:16px;min-height:70vh}
+.toolbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:12px}
+.pill{background:#e5f1ec;color:#176b5d;padding:5px 9px;border-radius:999px;font-size:.85rem}
+iframe{width:100%;height:calc(100vh - 230px);min-height:540px;border:1px solid #d0dce1;border-radius:8px;background:white}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.card{padding:16px;border:1px solid #d0dce1;border-radius:9px;background:#f9fbfc}
+a{color:#075e68}.card a{display:inline-block;margin-top:8px;font-weight:600}
+code{background:#eef2f4;padding:3px 6px;border-radius:5px}
+[hidden]{display:none!important}.muted{color:#536675}
+@media(max-width:650px){header{padding:12px}main{padding:8px}.tab{padding:9px 12px}.panel{padding:9px}iframe{height:70vh;min-height:460px}}
+</style>
+</head>
+<body>
+<header><div><h1>MATRIX</h1><p>Local sales assistant and product knowledge manager</p></div><span class="pill">Local machine only</span></header>
+<main>
+<nav class="tabs" role="tablist" aria-label="Manager workspaces">
+<button class="tab" id="tab-aurora" role="tab" aria-controls="panel-aurora" aria-selected="true">Aurora</button>
+<button class="tab" id="tab-neo" role="tab" aria-controls="panel-neo" aria-selected="false" tabindex="-1">Neo</button>
+<button class="tab" id="tab-oracle" role="tab" aria-controls="panel-oracle" aria-selected="false" tabindex="-1">Oracle</button>
+<button class="tab" id="tab-admin" role="tab" aria-controls="panel-admin" aria-selected="false" tabindex="-1">Admin</button>
+</nav>
+<section class="panel" id="panel-aurora" role="tabpanel" aria-labelledby="tab-aurora">
+<div class="toolbar"><strong>Aurora · customer enquiry harness</strong><span class="muted">Use this local demo to inspect the customer-facing conversation flow.</span><a href="/chat" target="_blank" rel="noopener noreferrer">Open Aurora separately</a></div>
+<iframe title="Aurora customer enquiry demo" src="/chat"></iframe>
+</section>
+<section class="panel" id="panel-neo" role="tabpanel" aria-labelledby="tab-neo" hidden>
+<div class="toolbar"><strong>Neo · internal sales copilot</strong><span class="muted">Separate local conversations and review drafts; customer calls are not automatically stored or shared.</span><a href="/neo" target="_blank" rel="noopener noreferrer">Open Neo separately</a></div>
+<iframe title="Neo internal sales assistant" src="/neo"></iframe>
+</section>
+<section class="panel" id="panel-oracle" role="tabpanel" aria-labelledby="tab-oracle" hidden>
+<h2>Oracle · private owner assistant</h2>
+<p>Oracle has a dedicated passphrase, conversation store, notes, and tasks. It is not visible to Neo, Aurora, or the V1 Alpha serving package.</p>
+<p><a href="/oracle" target="_blank" rel="noopener noreferrer">Open Oracle in a separate tab</a></p>
+<p class="muted">First-time setup from the repository folder: <code>python scripts\oracle_owner.py</code>. The passphrase is entered at hidden prompts, not in the command.</p>
+</section>
+<section class="panel" id="panel-admin" role="tabpanel" aria-labelledby="tab-admin" hidden>
+<h2>Admin · local knowledge and operations</h2>
+<p class="muted">Admin links reuse their existing local authentication and human-review gates. Matrix does not grant or bypass admin credentials.</p>
+<div class="cards">
+<article class="card"><h3>Knowledge validation</h3><p>Review family evidence and source coverage.</p><a href="/admin/knowledge">Open Knowledge Validation</a></article>
+<article class="card"><h3>Product research</h3><p>Inspect product families, source documents, and review queues.</p><a href="/admin/products">Open Product Research</a></article>
+<article class="card"><h3>Competitor research</h3><p>Inspect owner-supplied comparisons under the separate research account.</p><a href="/admin/competitors">Open Competitor Research</a></article>
+<article class="card"><h3>Catalogue versions</h3><p>Review staged catalogue changes; release activation remains separate.</p><a href="/admin/catalogue">Open Catalogue Versions</a></article>
+<article class="card"><h3>Sales briefs</h3><p>Review locally prepared Aurora sales briefs.</p><a href="/admin/briefs">Open Sales Briefs</a></article>
+<article class="card"><h3>Runtime health</h3><p>Check this local app process without changing or terminating other services.</p><a href="/health/ready">Open readiness status</a></article>
+<article class="card"><h3>Local password manager</h3><p>Open the separate Windows desktop utility. Credentials stay in Windows Credential Manager for your signed-in account.</p><code>python scripts\password_manager.py</code></article>
+</div>
+<p class="muted">No Matrix control sends email, changes CRM/customer data, edits approved product claims, or activates a production release. Passwords are not stored in Matrix's browser, chat history, or repository.</p>
+</section>
+</main>
+<script>
+"use strict";
+const tabs=[...document.querySelectorAll('[role="tab"]')];
+function activate(selected){
+ for(const tab of tabs){const active=tab===selected;tab.setAttribute("aria-selected",String(active));tab.tabIndex=active?0:-1;document.getElementById(tab.getAttribute("aria-controls")).hidden=!active;}
+}
+for(const tab of tabs){tab.addEventListener("click",()=>activate(tab));tab.addEventListener("keydown",event=>{
+ const current=tabs.indexOf(tab);let next=null;
+ if(event.key==="ArrowRight")next=tabs[(current+1)%tabs.length];
+ if(event.key==="ArrowLeft")next=tabs[(current+tabs.length-1)%tabs.length];
+ if(event.key==="Home")next=tabs[0];if(event.key==="End")next=tabs[tabs.length-1];
+ if(next){event.preventDefault();activate(next);next.focus();}
+});}
+const page=new URLSearchParams(location.search).get("tab");
+const chosen=tabs.find(tab=>tab.id==="tab-"+page);if(chosen)activate(chosen);
+</script>
+</body>
+</html>

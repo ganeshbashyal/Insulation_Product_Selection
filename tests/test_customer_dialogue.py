@@ -113,6 +113,61 @@ def test_ambiguous_product_can_be_chosen_by_displayed_number(local_service):
     assert conversation.step == 0
 
 
+def test_ambiguous_product_can_be_chosen_by_unique_name_term(local_service):
+    ceiling = next(row for row in agent_core.FAMILIES
+                   if row["family_id"] == "FLETCHER_PINK_BATTS_CEILING")
+    floor = next(row for row in agent_core.FAMILIES
+                 if row["family_id"] == "FLETCHER_PINK_BATTS_FLOOR")
+    conversation = agent_core.Conversation(
+        done=True,
+        product_options=[ceiling["family_id"], floor["family_id"]],
+    )
+
+    result = local_service.handle(conversation, "ceiling")
+
+    assert ceiling["name"] in result.reply
+    assert conversation.topic_products == [ceiling["family_id"]]
+    assert conversation.product_options == []
+    assert conversation.done
+
+    followup = local_service.handle(conversation, "where is r value")
+    assert followup.retrieval_mode == "product-evidence"
+    assert "don't have a verified value" in followup.reply
+    assert conversation.done
+
+
+def test_family_review_answers_metric_question_after_enquiry_is_done(local_service):
+    family_id = "FLETCHER_PINK_BATTS_FLOOR"
+    conversation = agent_core.Conversation(
+        done=True,
+        family_review_id=family_id,
+        topic_products=[family_id],
+    )
+
+    result = local_service.handle(conversation, "where is r value")
+
+    assert result.category == "informational"
+    assert result.retrieval_mode == "product-evidence"
+    assert "don't have a verified value" in result.reply
+    assert conversation.done
+
+
+def test_family_review_disambiguates_a_broad_name_to_the_pinned_family(local_service):
+    family_id = "FLETCHER_PINK_BATTS_CEILING"
+    conversation = agent_core.Conversation(
+        done=True,
+        family_review_id=family_id,
+        topic_products=[family_id],
+    )
+
+    result = local_service.handle(conversation, "what r value is pink batt")
+
+    assert result.retrieval_mode == "product-evidence"
+    assert "Pink Batts Ceiling Insulation" in result.reply
+    assert "don't have a verified value" in result.reply
+    assert "Which product do you mean" not in result.reply
+
+
 def test_suitability_is_qualified_not_answered_with_a_description(local_service):
     conversation = agent_core.Conversation()
     result = local_service.handle(conversation, "Is NuWrap 5 suitable for my roof?")
@@ -268,6 +323,52 @@ def test_callback_request_does_not_force_product_selection(local_service):
     local_service.handle(conversation, "Tuesday")
     assert interaction_store.leads()[0]["email"] == "invoice@example.com"
     assert conversation.done
+
+
+def test_callback_after_saved_project_preserves_brief_and_handles_product_followup(local_service):
+    conversation = agent_core.Conversation(
+        mode="capture",
+        step=len(agent_core.QUESTIONS),
+        lead_step=len(agent_core.LEAD_QUESTIONS),
+        lead={"phone": "02030230403", "customer_name": "Gana a", "callback_time": "tomorrow after 12"},
+        answers={"problem": "insulation enquiry"},
+        done=True,
+    )
+    conversation_id = conversation.conversation_id
+
+    callback = local_service.handle(conversation, "i need acll back")
+    assert callback.category == "callback"
+    assert "tomorrow after 12" in callback.reply
+    assert "not booked automatically" in callback.reply
+    assert conversation.done
+    assert conversation.conversation_id == conversation_id
+    assert conversation.answers["problem"] == "insulation enquiry"
+
+    options = local_service.handle(conversation, "do you sell pink batts")
+    assert "1)" in options.reply
+
+    selected = local_service.handle(conversation, "1")
+    assert "Pink Batts Ceiling Insulation" in selected.reply
+    assert conversation.done
+
+    affirmative = local_service.handle(conversation, "yes")
+    assert "Pink Batts Ceiling Insulation" in affirmative.reply
+    assert "tomorrow after 12" in affirmative.reply
+    assert "saved for sales review" in affirmative.reply
+    assert "project brief is saved locally for review" not in affirmative.reply
+
+
+def test_callback_requested_after_done_without_contact_reopens_only_contact_capture(local_service):
+    conversation = agent_core.Conversation(done=True, answers={"problem": "cold wall"})
+    conversation_id = conversation.conversation_id
+
+    result = local_service.handle(conversation, "I need a callback")
+
+    assert result.category == "callback"
+    assert "best number or email" in result.reply
+    assert not conversation.done
+    assert conversation.conversation_id == conversation_id
+    assert conversation.answers["problem"] == "cold wall"
 
 
 def test_old_session_state_still_resumes(local_service):

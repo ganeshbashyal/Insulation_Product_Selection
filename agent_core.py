@@ -285,6 +285,7 @@ class Conversation:
     candidates: list[dict] = field(default_factory=list)
     topic_products: list[str] = field(default_factory=list)
     product_options: list[str] = field(default_factory=list)
+    family_review_id: str | None = None
     topic: str = ""
     mode: str = "enquiry"
     review_required: bool = False
@@ -293,6 +294,7 @@ class Conversation:
     discovery_status: dict[str, str] = field(default_factory=dict)
     pending_field: str | None = None
     discovery_ended_early: bool = False
+    page_context: dict | None = None
 
     @property
     def capturing_lead(self) -> bool:
@@ -316,9 +318,13 @@ class Conversation:
 
     def start_new_project(self) -> None:
         """A new brief gets a new audit identity, never overwrites an old lead."""
+        page_context = self.page_context
+        family_review_id = self.family_review_id
         fresh = Conversation()
         for item in fields(self):
             setattr(self, item.name, getattr(fresh, item.name))
+        self.page_context = page_context
+        self.family_review_id = family_review_id
 
     def to_dict(self) -> dict:
         """Serialize all state required to resume the conversation."""
@@ -334,6 +340,7 @@ class Conversation:
             "candidates": self.candidates,
             "topic_products": self.topic_products,
             "product_options": self.product_options,
+            "family_review_id": self.family_review_id,
             "topic": self.topic,
             "mode": self.mode,
             "review_required": self.review_required,
@@ -342,6 +349,7 @@ class Conversation:
             "discovery_status": self.discovery_status,
             "pending_field": self.pending_field,
             "discovery_ended_early": self.discovery_ended_early,
+            "page_context": self.page_context,
         }
 
     @classmethod
@@ -361,6 +369,7 @@ class Conversation:
             candidates=list(data.get("candidates") or []),
             topic_products=list(data.get("topic_products") or [])[:2],
             product_options=list(data.get("product_options") or [])[:12],
+            family_review_id=data.get("family_review_id"),
             topic=str(data.get("topic") or "")[:160],
             mode=data.get("mode") or ("selection" if answers else "enquiry"),
             review_required=bool(data.get("review_required", False)),
@@ -369,6 +378,7 @@ class Conversation:
             discovery_status=dict(data.get("discovery_status") or {}),
             pending_field=data.get("pending_field"),
             discovery_ended_early=bool(data.get("discovery_ended_early", False)),
+            page_context=dict(data["page_context"]) if isinstance(data.get("page_context"), dict) else None,
         )
         if restored.capture_version < 3:
             restored.recommendation = None
@@ -555,6 +565,7 @@ def _finalise_lead(conversation: Conversation, site_id: str) -> None:
         site_id=site_id,
     )
     brief["discovery_ended_early"] = conversation.discovery_ended_early
+    brief["entry_context"] = conversation.page_context
     conversation.candidates = brief["candidates"]
     conversation.recommendation = None
     conversation.gate = ("REVIEW REQUIRED", "Internal candidates require source and installation review.")

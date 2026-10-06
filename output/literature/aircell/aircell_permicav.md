@@ -1,7 +1,7 @@
 ---
 title: "Aircell Permicav - Reflective Insulation | Aircell"
-description: "Quality insulation engineered for Australian conditions. Reflects up to 97% of radiant heat, dramatically reducing summer cooling costs while providin"
-keywords: "Aircell Permicav, Aircell reflective, roof insulation, shed insulation, insulation Australia, Aircell Australia"
+description: "Permicav XV™ is a vapour-permeable insulation designed to reduce condensation risk in walls with cavities, suitable for low-rise structures."
+keywords: "Aircell Permicav, Aircell reflective, wall insulation, insulation Australia, Aircell Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AIRCELL_PERMICAV
 ---
@@ -10,20 +10,23 @@ family_id: AIRCELL_PERMICAV
 
 **Aircell Reflective** — reflective foil insulation for radiant heat control.
 
-Quality insulation engineered for Australian conditions. Reflects up to 97% of radiant heat, dramatically reducing summer cooling costs while providing an effective vapour barrier.
+Permicav XV™ is a vapour-permeable insulation designed to reduce condensation risk in walls with cavities, suitable for low-rise structures.
 
 ## Key features
 
-- High-purity aluminium reflective facing.
-- reflects up to 97% of radiant heat.
-- lightweight and easy to install.
-- provides vapour barrier when properly sealed.
-- excellent thermal performance for roof/ceiling applications.
-- helps meet NCC energy efficiency requirements.
+- vapour-permeable membrane.
+- reflective barrier.
+- fibre-free.
+- non-allergenic.
+- water-resistant.
+- rodent and insect resistant.
+- flammability index ≤ 5.
+- NCC and AS/NZS 4859.1:2018 compliant.
 
 ## Applications and selection
 
-- Metal Roof / Shed
+- walls with cavities
+- low rise structures
 
 **Selection checklist**
 
@@ -40,20 +43,31 @@ Quality insulation engineered for Australian conditions. Reflects up to 97% of r
 | --- | --- | --- | --- | --- |
 | Not specified | unspecified | 55 | 22250 x 1350 | 1 |
 
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `ACELLPERMICAVXV55W1350L22P25M` | Permicav 55 XV 1350mm x 22.25m | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Reflective | Manufacturer catalogue |
-| Material | Reflective Composite | Manufacturer catalogue |
-| Applications | Metal Roof / Shed | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material R-value | 0.15 m2 K/W | ASTM C518-2017 at 23°C |
+| Flammability Index | ≤ 5 | AS 1530.2:1993 |
+| Water Control | Pass | AS/NZS 4201.4:1994 |
+| Moisture Shrinkage | < 0.5% | AS/NZS 4201.3:1994 |
+| Surface Water Absorbency | ≥ 100g/m2 | AS/NZS 4201.6:1994 |
 
-
+Extracted from manufacturer datasheet: https://store.filerobot.com/xamyxyg7fn/kingspan/kil/products/air-cell-permicav-xv-au-and-nz/kingspan-aircell-permicavxv-product-datasheet-en-au.pdf?vh=884746
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Flammability Index ≤ 5
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
@@ -63,14 +77,17 @@ Not verified per SKU. No fire, NCC or BAL classification is asserted in this dra
 
 ## Limitations and warnings
 
-- Reflective performance requires maintained airspace..
-- conductive material - keep away from electrical services..
-- not suitable as sole insulation in cold climates..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Intense heat above 105˚ C must be avoided..
+- Contact with sparks and flame from blow torches, welders, cutting tools, etc. must be avoided..
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Reflective performance requires maintained airspace.
+1. Lay outer leaf or brickwork with wall ties in place..
+2. Clip Kingspan AIR-CELL Spacer BiscuitsTM onto every second wall tie, or as required to maintain a nominal 20 mm air space..
+3. Roll out Kingspan AIR-CELL Permicav XV™ horizontally and fix to outside of internal wall frame, working from the bottom up..
+4. Allow 50 mm overlap between top and bottom layers and tape with 48 mm reinforced foil tape..
+5. Cut Kingspan AIR-CELL carefully around doors, windows and other openings..
+6. Penetrations for wall ties or services should be neatly cut to minimise gaps..
 
 ## Safety and handling
 

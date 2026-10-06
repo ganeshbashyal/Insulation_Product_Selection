@@ -47,6 +47,10 @@ ProctorGeo IRMA is a heavy-duty, water-vapour permeable non-woven geotextile mem
 
 _Variants from the manufacturer datasheet._
 
+## Staff-release SKU coverage
+
+_No SKU from this workbook was mapped or proposed for this family._
+
 ## Technical data
 
 | Property | Value | Standard |

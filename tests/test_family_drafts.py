@@ -35,6 +35,10 @@ def create(index):
 
 def test_preview_no_writes_and_full_retention(index):
     before = drafts.input_inventory(index.root)
+    literature = index.root / "output" / "literature" / "generated.md"
+    literature.parent.mkdir(parents=True, exist_ok=True)
+    literature.write_text("Generated family projection")
+    assert drafts.input_inventory(index.root) == before
     manifest, packs = drafts.build_preview(index)
     assert not (index.root / "data").exists()
     assert manifest["family_count"] == 1 and manifest["sku_count"] == 1

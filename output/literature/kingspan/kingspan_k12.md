@@ -52,6 +52,23 @@ Kingspan Kooltherm K12 Framing Board is an ultra-thin, fiber-free rigid thermose
 
 _Variants from the manufacturer datasheet._
 
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `KSK12T100W1200L2400BOARD` | K12 100mm 1200 x 2400 \(AU\) | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Brisbane: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: numeric, Brisbane: poa, Adelaide: numeric, Perth: numeric |
+| `KSK12T25W1200L2400BOARD` | K12 025mm 1200 x 2400 \(AU\) | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Brisbane: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `KSK12T30W1200L2400BOARD` | K12 030mm 1200 x 2400 \(AU\) | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Brisbane: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `KSK12T40W1200L2400BOARD` | K12 040mm 1200 x 2400 \(AU\) | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Brisbane: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `KSK12T50W1200L2400BOARD` | K12 050mm 1200 x 2400 \(AU\) | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Brisbane: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `KSK12T60W1200L2400BOARD` | K12 060mm 1200 x 2400 \(AU\) | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Brisbane: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `KSK12T70W1200L2400BOARD` | K12 070mm 1200 x 2400 \(AU\) | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Brisbane: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `KSK12T90W1200L2400BOARD` | K12 090mm 1200 x 2400 \(AU\) | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Brisbane: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: numeric, Brisbane: poa, Adelaide: numeric, Perth: numeric |
+
 ## Technical data
 
 | Property | Value | Standard |

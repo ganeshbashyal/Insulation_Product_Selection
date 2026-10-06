@@ -1,7 +1,7 @@
 ---
 title: "Aircell Insulwhite - Reflective Insulation | Aircell"
-description: "Quality insulation engineered for Australian conditions. Reflects up to 97% of radiant heat, dramatically reducing summer cooling costs while providin"
-keywords: "Aircell Insulwhite, Aircell reflective, roof insulation, shed insulation, insulation Australia, Aircell Australia"
+description: "Insulwhite is a reflective insulation with a cross-linked closed cell core, designed for a white ceiling-like appearance, offering better thermal resi"
+keywords: "Aircell Insulwhite, Aircell reflective, roof insulation, insulation Australia, Aircell Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AIRCELL_INSULWHITE
 ---
@@ -10,20 +10,23 @@ family_id: AIRCELL_INSULWHITE
 
 **Aircell Reflective** — reflective foil insulation for radiant heat control.
 
-Quality insulation engineered for Australian conditions. Reflects up to 97% of radiant heat, dramatically reducing summer cooling costs while providing an effective vapour barrier.
+Insulwhite is a reflective insulation with a cross-linked closed cell core, designed for a white ceiling-like appearance, offering better thermal resistance and improved fire safety compared to traditional bubble insulation.
 
 ## Key features
 
-- High-purity aluminium reflective facing.
-- reflects up to 97% of radiant heat.
-- lightweight and easy to install.
-- provides vapour barrier when properly sealed.
-- excellent thermal performance for roof/ceiling applications.
-- helps meet NCC energy efficiency requirements.
+- Cross-linked closed cell core.
+- Reflective insulation.
+- White-faced for aesthetic finish.
+- Fibre-free, non-allergenic, non-irritant.
+- Water-resistant.
+- Rodent and insect resistant.
+- Flammability Index ≤ 5.
+- Compliant with AS/NZS 4859.1:2018.
 
 ## Applications and selection
 
-- Metal Roof / Shed
+- Residential Metal Roof
+- Residential Tiled Roof
 
 **Selection checklist**
 
@@ -36,24 +39,40 @@ Quality insulation engineered for Australian conditions. Reflects up to 97% of r
 
 ## Current catalogue range
 
-| Rating | Type | Thickness | Dimensions | SKUs |
+| Product Thickness (nom.) | Product R-value at 23ºC | Roll Diameter (nom.) | Roll Weight (nom.) | Roll Size | Reflectance – Reflective Face | Emittance – Reflective Face | Maximum Span Distance | Management Standards |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 5.5 mm | 0.15 m2 K/W | 450 mm | 7.65 kg | 1350 mm x 22.25 m | 97% | 0.03 | 2.4 m | ISO 9001:2015, ISO 14001:2015, ISO 45001:2018 |
+
+_Manufacturer size/packaging breakdown._
+
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
 | --- | --- | --- | --- | --- |
-| Not specified | unspecified | Varies | 22250 x 1350 | 1 |
+| `ACELLINSULWHITEW1350L22P25MRL` | Insulwhite 1350mm x 22.25 m | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Reflective | Manufacturer catalogue |
-| Material | Reflective Composite | Manufacturer catalogue |
-| Applications | Metal Roof / Shed | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material R-value | 0.15 m2 K/W | ASTM C518-2017 at 23°C |
+| Reflectance – Reflective Face | 97% | - |
+| Emittance – Reflective Face | 0.03 | AS/NZS 4201.5:1994 |
+| Flammability Index | ≤ 5 | AS 1530.2:1993 |
+| Vapour Control | < 0.020 µg/N.s | ASTM E96 Part B:2016 |
+| Water Control | Pass | AS/NZS 4201.4:1994 |
+| Moisture Shrinkage | < 0.5% | AS/NZS 4201.3:1994 |
+| Burst Strength | 1.0 kN | AS 3706.4:2012 (CBR) |
 
-
+Extracted from manufacturer datasheet: https://store.filerobot.com/xamyxyg7fn/kingspan/kil/products/air-cell-insulwhite-au-and-nz/kingspan-aircell-insulwhite-product-datasheet-en-au.pdf?vh=46be54
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Flammability Index ≤ 5
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
@@ -63,14 +82,18 @@ Not verified per SKU. No fire, NCC or BAL classification is asserted in this dra
 
 ## Limitations and warnings
 
-- Reflective performance requires maintained airspace..
-- conductive material - keep away from electrical services..
-- not suitable as sole insulation in cold climates..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Can be damaged by intense heat above 105° C.
+- Avoid contact with sparks and flame from blow torches, welders, cutting tools, etc..
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Reflective performance requires maintained airspace.
+1. Attach one end to the underside of the first rafter.
+2. Roll out underneath the rafters with the white side facing inwards.
+3. Fix to the underside of the rafter using 25 mm button head timber screws with a white painted head.
+4. Use 4 screws across the width of the roll at rafter.
+5. Leave 100 mm clearance around heat producing flues and light fittings.
+6. Neatly cut around penetrations and tape to seal.
+7. Leave 100 mm clearance around heat producing flues and light fittings.
 
 ## Safety and handling
 

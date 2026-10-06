@@ -115,6 +115,23 @@ function render() {
   article.append(node('span', brief.decision_status || 'Human review required', 'badge'));
   article.append(node('span', 'Saved locally - not sent', 'badge'));
   if (brief.discovery_ended_early) article.append(node('span', 'Discovery ended early', 'badge'));
+  if (brief.entry_context) {
+   const entry = brief.entry_context;
+   const context = node('section');
+   context.append(node('h3', 'Storefront entry context (customer-confirmed hint status)'));
+   facts(context, {
+    'Page type': entry.page_type,
+    'Page URL (query and fragment removed)': entry.page_url,
+    'Context confirmation': entry.confirmation,
+    'Product ID': entry.product_id,
+    'Variation ID': entry.variation_id,
+    'Product name': entry.product_name,
+    'Product category': entry.product_category,
+    'Product URL (query and fragment removed)': entry.product_url
+   });
+   context.append(node('p', 'Page context is not proof of customer intent, product identity or suitability.', 'meta'));
+   article.append(context);
+  }
   const columns = node('div', undefined, 'columns');
   const known = node('section');
   known.append(node('h3', 'Captured project facts'));

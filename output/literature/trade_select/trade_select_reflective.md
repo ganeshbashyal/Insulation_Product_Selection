@@ -58,6 +58,10 @@ Quality insulation engineered for Australian conditions. Reflects up to 97% of r
 | R3.85 | thermal_r_value | 90 | Varies | 1 |
 | R4.3 | thermal_r_value | 100 | Varies | 1 |
 
+## Staff-release SKU coverage
+
+_No SKU from this workbook was mapped or proposed for this family._
+
 ## Technical data
 
 | Property | Value | Source |

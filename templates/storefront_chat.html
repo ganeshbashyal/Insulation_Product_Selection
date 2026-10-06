@@ -7,13 +7,17 @@ h1{font-size:18px;margin:0}#log{height:calc(100vh - 185px);overflow:auto;padding
 .bot,.customer{padding:10px;border-radius:8px;margin-bottom:8px;background:white}.customer{background:#d7efeb}
 form{display:flex;padding:10px;gap:6px}input{min-width:0;flex:1;padding:10px}button{padding:10px;cursor:pointer}
 #status{padding:0 12px;color:#6b2800}#privacy{padding:0 12px;font-size:12px}
+.context{margin:12px;padding:10px;border:1px solid #9bafbe;border-radius:8px;background:#fff}
+.context button{margin:8px 8px 0 0}
 </style></head><body>
 <header><h1 id="title">Product enquiries</h1><p id="contact"></p></header>
 <div id="log" role="log" aria-live="polite"></div><p id="status" role="status"></p><p id="privacy"></p>
+<div id="context"></div>
 <form id="form"><input id="message" aria-label="Message" maxlength="4000" required disabled><button id="send" disabled>Send</button></form>
 <script>
 "use strict";
 const params=new URLSearchParams(location.search),site=params.get("site_id");
+const parentOrigin=params.get("parent_origin");
 let session=null,token=null,busy=false;
 const log=document.getElementById("log"),status=document.getElementById("status"),input=document.getElementById("message"),send=document.getElementById("send");
 function append(text,role){const p=document.createElement("div");p.className=role;p.textContent=text;log.append(p);log.scrollTop=log.scrollHeight;}
@@ -22,9 +26,36 @@ async function post(path,body){
   const r=await fetch(path+"?"+new URLSearchParams({site_id:site}),{method:"POST",headers,body:JSON.stringify(body||{}),cache:"no-store",credentials:"omit"});
   const data=await r.json();if(!r.ok)throw Error(typeof data.detail==="string"?data.detail:"Request rejected");return data;
 }
-async function start(){
+function showContext(context){
+  if(!context)return;
+  const hasHint=Boolean(context.product_id||context.variation_id||context.product_name||context.product_category||
+    context.page_url||context.page_type!=="other");
+  if(!hasHint)return;
+  const panel=document.createElement("section");panel.className="context";
+  const description=document.createElement("p");
+  const label=context.product_name||context.product_category||
+    (context.page_type==="product"?"this product page":context.page_type==="category"?"this category page":"this page");
+  description.textContent="Page context is only a hint. Are you asking about "+label+"?";
+  const yes=document.createElement("button");yes.type="button";yes.textContent="Yes, this page";
+  const no=document.createElement("button");no.type="button";no.textContent="Something else";
+  const result=document.createElement("p");result.setAttribute("role","status");
+  async function decide(confirmed){
+    yes.disabled=true;no.disabled=true;result.textContent="Saving page-context choice…";
+    try{
+      const outcome=await post("/api/widget/conversations/"+encodeURIComponent(session)+"/context",{confirmed});
+      result.textContent=outcome.confirmation==="confirmed"?
+        "Thanks. The page remains a hint, not proof of suitability.":
+        "Understood. We won't treat this page as the subject of your enquiry.";
+    }catch(error){
+      yes.disabled=false;no.disabled=false;result.textContent="Page context was not confirmed: "+error.message;
+    }
+  }
+  yes.addEventListener("click",()=>decide(true));no.addEventListener("click",()=>decide(false));
+  panel.append(description,yes,no,result);document.getElementById("context").replaceChildren(panel);
+}
+async function start(pageContext){
   try{
-    const data=await post("/api/widget/conversations");
+    const data=await post("/api/widget/conversations",{page_context:pageContext||null});
     session=data.conversation_id;token=data.token;
     document.getElementById("title").textContent=data.branding.display_name;
     document.getElementById("privacy").textContent=data.branding.privacy_text;
@@ -32,9 +63,15 @@ async function start(){
     if(typeof primary==="string"&&/^#[0-9a-f]{3}(?:[0-9a-f]{3})?$/i.test(primary))document.querySelector("header").style.backgroundColor=primary;
     document.getElementById("contact").textContent=data.branding.contact_method==="phone"?(data.branding.phone||""):
       data.branding.contact_method==="email"?(data.branding.email||""):(data.branding.callback_wording||"");
-    append(data.reply,"bot");input.disabled=false;send.disabled=false;
+    append(data.reply,"bot");showContext(data.page_context);input.disabled=false;send.disabled=false;
   }catch(e){status.textContent="Chat unavailable: "+e.message;}
 }
+let started=false;
+window.addEventListener("message",event=>{
+  if(started||event.source!==window.parent||event.origin!==parentOrigin||
+    !event.data||event.data.type!=="aurora-page-context")return;
+  started=true;start(event.data.pageContext);
+});
 document.getElementById("form").addEventListener("submit",async e=>{
   e.preventDefault();if(busy||!input.value.trim())return;
   busy=true;send.disabled=true;const text=input.value;input.value="";append(text,"customer");status.textContent="";

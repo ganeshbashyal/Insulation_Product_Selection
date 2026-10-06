@@ -37,7 +37,8 @@ sys.path.insert(0, str(ROOT))
 OUT_DIR = ROOT / "output" / "literature"
 SKU_CSV = ROOT / "data" / "processed" / "product_catalogue_skus.csv"
 STATE_FILE = OUT_DIR / ".literature_state.json"
-GENERATOR_VERSION = "5"
+GENERATOR_VERSION = "8"
+STAFF_SKU_INVENTORY = ROOT / "data" / "local" / "staff_release_skus.json"
 
 CATEGORY_TAGLINES = {
     "Batt": "bulk insulation batts for thermal and acoustic performance",
@@ -59,6 +60,79 @@ INTENT_TERMS = {
 
 def clean(text: str) -> str:
     return re.sub(r"\s+", " ", str(text or "")).strip()
+
+
+def markdown_cell(value: str) -> str:
+    value = clean(value)
+    for character in ("\\", "|", "`", "[", "]", "(", ")", "<", ">", "*", "_"):
+        value = value.replace(character, "\\" + character)
+    return value
+
+
+def staff_release_sku_section(products: list[dict], source: dict) -> str:
+    if not products:
+        return (
+            "## Staff-release SKU coverage\n\n"
+            "_No SKU from this workbook was mapped or proposed for this family._\n"
+        )
+    location_order = ("Melbourne", "Sydney", "Brisbane", "Adelaide", "Perth")
+    rows = [
+        "| Our SKU | Product | Match status | State presence | State differences (price values omitted) |",
+        "| --- | --- | --- | --- | --- |",
+    ]
+    status_labels = {
+        "deterministic_high_unreviewed": "Rule match; unreviewed",
+        "local_model_candidate_unreviewed": "Local model candidate; review",
+        "heuristic_candidate_review_required": "Heuristic candidate; review",
+        "unmapped_review_required": "Unmapped; review",
+    }
+    for product in sorted(products, key=lambda row: row.get("our_sku", "").casefold()):
+        presence = [location for location in location_order if location in product.get("state_presence", [])]
+        state_presence = ", ".join(presence)
+        if product.get("melbourne_baseline"):
+            state_presence = f"{state_presence} (Melbourne baseline)"
+        else:
+            state_presence = f"{state_presence} (state-only; not in Melbourne baseline)"
+        differences = []
+        for location in location_order:
+            state_changes = product.get("state_differences", {}).get(location, [])
+            if "not_listed" in state_changes:
+                differences.append(f"{location}: not listed")
+                continue
+            fields = [field for field in state_changes if field != "sell_price_varies"]
+            price_varies = "sell_price_varies" in state_changes
+            if fields or price_varies:
+                notes = [f"{field} differs" for field in fields]
+                if price_varies:
+                    notes.append("sell price differs; amount omitted")
+                differences.append(f"{location}: {', '.join(notes)}")
+        price_statuses = product.get("price_statuses", {})
+        price_summary = ", ".join(
+            f"{location}: {price_statuses[location]}"
+            for location in location_order if location in price_statuses
+        )
+        if price_summary:
+            differences.append("price status: " + price_summary)
+        rows.append(
+            f"| `{markdown_cell(product.get('our_sku', ''))}` | "
+            f"{markdown_cell(product.get('sales_product_name') or product.get('product_name', ''))} | "
+            f"{markdown_cell(status_labels.get(product.get('family_mapping_status'), 'Review required'))} | "
+            f"{markdown_cell(state_presence)} | "
+            f"{markdown_cell('; '.join(differences) or 'No differences recorded')} |"
+        )
+    workbook = markdown_cell(source.get("source_workbook", "staff release workbook"))
+    sha256 = markdown_cell(source.get("source_sha256", "unavailable"))
+    return (
+        "## Staff-release SKU coverage\n\n"
+        "Internal price-list identity and regional coverage only. These family links "
+        "are preliminary and unreviewed; they do not establish technical evidence, "
+        "selection eligibility, availability, or public approval. Melbourne is the "
+        "baseline. State-specific sell-price differences/statuses are called out, "
+        "but price amounts are intentionally not copied into this literature.\n\n"
+        f"Source workbook: `{workbook}`; SHA-256: `{sha256}`.\n\n"
+        + "\n".join(rows)
+        + "\n"
+    )
 
 
 def rating_summary(values: pd.Series) -> str:
@@ -164,7 +238,11 @@ def load_research(manufacturer_dir: str, name: str) -> dict | None:
     return data if data.get("status") == "ok" and data.get("spec") else None
 
 
-def build_markdown(family: dict, fm: dict, text: str, skus: pd.DataFrame, research: dict | None = None) -> tuple[str, dict]:
+def build_markdown(
+    family: dict, fm: dict, text: str, skus: pd.DataFrame,
+    research: dict | None = None, staff_skus: list[dict] | None = None,
+    staff_source: dict | None = None,
+) -> tuple[str, dict]:
     name = family["name"]
     manufacturer = family["manufacturer"]
     category = clean(family.get("category", "")).replace(" insulation", "").replace(" Insulation", "")
@@ -230,21 +308,28 @@ def build_markdown(family: dict, fm: dict, text: str, skus: pd.DataFrame, resear
                 range_rows += f"| {clean(row.get('variant'))} | {clean(row.get('size_or_rating'))} | {clean(row.get('pack'))} |\n"
             if skus.empty:
                 range_rows += "\n_Variants from the manufacturer datasheet._\n"
-    if skus.empty is False:
-        if range_rows:
-            range_rows += "\n**Internal catalogue range**\n\n"
-        range_rows += "| SKU | Product | Published rating |\n| --- | --- | --- |\n"
-        for _, sku in skus.head(25).iterrows():
+    if not skus.empty:
+        catalogue_rows = (
+            "| SKU record | Internal SKU | Supplier SKU | Product | Published rating | Validation |\n"
+            "| --- | --- | --- | --- | --- | --- |\n"
+        )
+        for _, sku in skus.iterrows():
             rating = rating_summary(pd.Series([sku["thermal_r_value"], sku["acoustic_rw"], sku["nrc_aw"]]))
-            range_rows += f"| {clean(sku['our_sku'])} | {clean(sku['product_name'])} | {rating} |\n"
-        if len(skus) > 25:
-            range_rows += f"\n_{len(skus) - 25} further catalogue variants not listed here._\n"
+            catalogue_rows += (
+                f"| {clean(sku['sku_record_id'])} | {clean(sku['our_sku'])} | "
+                f"{clean(sku['supplier_sku'])} | {clean(sku['product_name'])} | "
+                f"{rating} | {clean(sku['validation_status'])} |\n"
+            )
+        catalogue_rows += (
+            f"\n_All {len(skus)} catalogue source rows are listed; duplicate SKU codes are retained "
+            "as separate records._\n"
+        )
     elif grade_rows and not range_rows:
-        range_rows = "| Rating | Type | Thickness | Dimensions | SKUs |\n| --- | --- | --- | --- | --- |\n"
+        catalogue_rows = "| Rating | Type | Thickness | Dimensions | SKUs |\n| --- | --- | --- | --- | --- |\n"
         for row in grade_rows:
-            range_rows += f"| {row['rating']} | {row['rating_type']} | {row['thickness']} | {row['dimensions']} | {row['sku_count']} |\n"
-    elif not range_rows:
-        range_rows = "_Range not yet extracted; confirm variants against the current manufacturer TDS._\n"
+            catalogue_rows += f"| {row['rating']} | {row['rating_type']} | {row['thickness']} | {row['dimensions']} | {row['sku_count']} |\n"
+    else:
+        catalogue_rows = range_rows or "_Range not yet extracted; confirm variants against the current manufacturer TDS._\n"
 
     if technical:
         tech_rows = "| Property | Value | Standard |\n| --- | --- | --- |\n"
@@ -270,6 +355,7 @@ def build_markdown(family: dict, fm: dict, text: str, skus: pd.DataFrame, resear
     compliance_md = compliance_text if compliance_text else ""
     warranty_md = warranty_text if warranty_text else "No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication."
     accessories_md = "\n".join(f"- {a}." for a in accessories)
+    staff_sku_md = staff_release_sku_section(staff_skus or [], staff_source or {})
     checklist_md = "\n".join(f"{i}. {item}." for i, item in enumerate(selection_checklist, 1)) if selection_checklist else (
         "1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.\n"
         "2. Confirm the target rating and construction build-up with the project team.\n"
@@ -322,7 +408,8 @@ family_id: {family['family_id']}
 
 ## Current catalogue range
 
-{range_rows}
+{catalogue_rows}
+{staff_sku_md}
 ## Technical data
 
 {tech_rows}
@@ -380,6 +467,8 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--only", help="limit to one manufacturer directory name")
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--sku-inventory", type=Path,
+                        help="use an explicit local staff-release inventory JSON instead of the default")
     parser.add_argument("--confirm-draft-write", action="store_true",
                         help="explicitly regenerate unreviewed draft literature after authoring backup")
     args = parser.parse_args()
@@ -388,6 +477,14 @@ def main() -> None:
     from knowledge_service import KnowledgeService
     reader = KnowledgeService(ROOT)
     skus = pd.DataFrame(reader.index().skus).fillna("")
+    inventory_path = args.sku_inventory or STAFF_SKU_INVENTORY
+    if args.sku_inventory and not inventory_path.is_file():
+        parser.error(f"SKU inventory does not exist: {inventory_path}")
+    staff_inventory = (
+        json.loads(inventory_path.read_text(encoding="utf-8"))
+        if inventory_path.is_file() else {}
+    )
+    staff_products = staff_inventory.get("products", [])
     records = load_research(ROOT)
     preview_only = args.dry_run or not args.confirm_draft_write
     state = json.loads(STATE_FILE.read_text(encoding="utf-8")) if STATE_FILE.exists() else {}
@@ -409,9 +506,18 @@ def main() -> None:
             if text is None:
                 continue
             family_skus = skus[skus["family_id"] == family["family_id"]]
+            family_staff_skus = [
+                row for row in staff_products
+                if family["family_id"] in {row.get("family_id"), row.get("candidate_family_id")}
+            ]
             research = records.get(family["family_id"])
             fingerprint = hashlib.sha256((GENERATOR_VERSION + text + json.dumps(family, sort_keys=True)
                                           + family_skus.to_json(orient="records")
+                                          + json.dumps(family_staff_skus, sort_keys=True)
+                                          + json.dumps({
+                                              "source_workbook": staff_inventory.get("source_workbook"),
+                                              "source_sha256": staff_inventory.get("source_sha256"),
+                                          }, sort_keys=True)
                                           + json.dumps(research or {}, sort_keys=True)).encode()).hexdigest()
             slug = slugify(family["name"])
             base_slug = slug
@@ -429,7 +535,11 @@ def main() -> None:
                 written += 1
                 continue
             fm = parse_front_matter(text)
-            md, meta = build_markdown(family, fm, text, family_skus, research=research)
+            md, meta = build_markdown(
+                family, fm, text, family_skus, research=research,
+                staff_skus=family_staff_skus,
+                staff_source=staff_inventory,
+            )
             out_dir.mkdir(parents=True, exist_ok=True)
             (out_dir / f"{slug}.md").write_text(md, encoding="utf-8")
             state[state_key] = fingerprint

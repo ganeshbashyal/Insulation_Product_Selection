@@ -14,7 +14,7 @@ sys.path.insert(0,str(ROOT))
 from knowledge_release import ReleaseLibrary
 
 FILES = (
-    "web_agent.py","storefront_api.py","knowledge_release.py","research_store.py",
+    "web_agent.py","storefront_api.py","knowledge_release.py","release_exports.py","research_store.py",
     "agent_core.py","bot_engine.py","conversation_service.py","product_answers.py",
     "sku_catalogue.py","size_index.py","sales_brief.py","local_source_review.py",
     "enquiry_discovery.py","interaction_store.py","session_store.py","local_db.py",
@@ -27,6 +27,18 @@ FILES = (
     "scripts/runtime_backup.py","docs/LOCAL_DEPLOYMENT.md",
 )
 
+TOOL_FILES = (
+    "tools/__init__.py","tools/base.py","tools/registry.py","tools/escalate.py",
+    "tools/service_refusal.py","tools/commercial.py","tools/freight.py","tools/tracking.py",
+)
+
+LOCAL_OWNER_ONLY_EXCLUSIONS = (
+    "oracle_api.py", "oracle_assistant.py", "oracle_store.py", "oracle_pricing.py",
+    "templates/oracle.html", "data/local/oracle.sqlite3",
+    "matrix_api.py", "neo_api.py", "neo_assistant.py", "neo_store.py",
+    "templates/matrix.html", "templates/neo.html", "data/local/neo.sqlite3",
+)
+
 
 def package(root: Path, releases: Path, target: Path) -> dict:
     root,target=root.resolve(),target.resolve()
@@ -35,8 +47,7 @@ def package(root: Path, releases: Path, target: Path) -> dict:
         raise ValueError("Use a new named directory under data/local/distribution")
     library=ReleaseLibrary(releases)
     release=library.active()
-    paths=[root/name for name in FILES]
-    paths.extend((root/"tools").glob("*.py"))
+    paths=[root/name for name in (*FILES, *TOOL_FILES)]
     if any(not path.resolve().is_relative_to(root) or not path.is_file() for path in paths):
         raise ValueError("Required runtime input missing or outside checkout")
     outputs = [target / path.relative_to(root) for path in paths]
@@ -61,8 +72,11 @@ def package(root: Path, releases: Path, target: Path) -> dict:
     (destination/"active.json").write_text(json.dumps(source_pointer),encoding="utf-8")
     for source in destination.glob("*.json"):
         hashes[source.relative_to(target).as_posix()]=hashlib.sha256(source.read_bytes()).hexdigest()
+    if set(LOCAL_OWNER_ONLY_EXCLUSIONS).intersection(path.relative_to(root).as_posix() for path in paths):
+        raise ValueError("Owner-only Oracle resources must never enter the customer serving package")
     manifest={"release_id":release["release_id"],"files":hashes,"default_profile":"serving-only",
-              "excluded":"site secrets, live databases, customer records, PDF/workbook originals, draft reviews, research routes, notebooks, model weights"}
+              "excluded":"site secrets, live databases, customer records, PDF/workbook originals, draft reviews, research routes, owner-only Oracle routes/prompts/conversations/notes/tasks, notebooks, model weights",
+              "local_owner_only_exclusions":list(LOCAL_OWNER_ONLY_EXCLUSIONS)}
     (target/"package_manifest.json").write_text(json.dumps(manifest,indent=2),encoding="utf-8")
     return manifest
 

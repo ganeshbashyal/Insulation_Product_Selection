@@ -42,6 +42,10 @@ Specialists in sustainable polyester acoustic solutions. Safe to handle without 
 | --- | --- | --- | --- | --- |
 | R1.5 | thermal_r_value | 100 | 8330 x 600 | 1 |
 
+## Staff-release SKU coverage
+
+_No SKU from this workbook was mapped or proposed for this family._
+
 ## Technical data
 
 | Property | Value | Source |

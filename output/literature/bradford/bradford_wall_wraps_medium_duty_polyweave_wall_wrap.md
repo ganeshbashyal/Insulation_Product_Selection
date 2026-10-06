@@ -49,6 +49,10 @@ Bradford Thermoseal Medium Duty Polyweave Wall Wrap is a heavy-duty, tear-resist
 
 _Variants from the manufacturer datasheet._
 
+## Staff-release SKU coverage
+
+_No SKU from this workbook was mapped or proposed for this family._
+
 ## Technical data
 
 | Property | Value | Standard |

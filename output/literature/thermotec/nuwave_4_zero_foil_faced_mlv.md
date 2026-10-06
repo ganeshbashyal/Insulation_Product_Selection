@@ -33,10 +33,32 @@ NuWave 4-Zero Foil-faced MLV is a foil-faced acoustic barrier product family fro
 
 ## Current catalogue range
 
-| SKU | Product | Published rating |
-| --- | --- | --- |
-| 4 Zero Foil Faced MLV Nuwave Base 4kg | 4 Zero Foil Faced MLV Nuwave Base 4kg | Not stated |
-| 4 Zero Foil Faced MLV Nuwave Base 6kg | 4 Zero Foil Faced MLV Nuwave Base 6kg | Not stated |
+| SKU record | Internal SKU | Supplier SKU | Product | Published rating | Validation |
+| --- | --- | --- | --- | --- | --- |
+| SKU-A3D816D1CE4D3D7B | 4 Zero Foil Faced MLV Nuwave Base 4kg | THERNWB4ZFOIL4KGW1350L5MRL | 4 Zero Foil Faced MLV Nuwave Base 4kg | Not stated | REVIEW |
+| SKU-DCBC8F23E0D77854 | 4 Zero Foil Faced MLV Nuwave Base 6kg | THERNWB4ZFOIL6KGW1350L3MRL | 4 Zero Foil Faced MLV Nuwave Base 6kg | Not stated | REVIEW |
+
+_All 2 catalogue source rows are listed; duplicate SKU codes are retained as separate records._
+
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `THERNWB10KGHALFW1350L1P5MRL` | Nuwave Base 10kg - Half Roll | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `THERNWB10KGW1350L3MRL` | Nuwave Base 10kg | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `THERNWB2KGW1350L5MRL` | Nuwave Base 2kg | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `THERNWB4KGHALFW1350L2P5MRL` | Nuwave Base 4kg - Half Roll | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `THERNWB4KGW1350L5MRL` | Nuwave Base 4kg | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `THERNWB4ZFOIL4KGW1350L5MRL` | 4 Zero Foil Faced MLV Nuwave Base 4kg | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `THERNWB4ZFOIL6KGW1350L3MRL` | 4 Zero Foil Faced MLV Nuwave Base 6kg | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `THERNWB6KGHALFW1350L1P5MRL` | Nuwave Base 6kg - Half Roll | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `THERNWB6KGW1350L3MRL` | Nuwave Base 6kg | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `THERNWB8KGHALFW1350L1P5MRL` | Nuwave Base 8kg - Half Roll | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `THERNWB8KGW1350L3MRL` | Nuwave Base 8kg | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
 
 ## Technical data
 

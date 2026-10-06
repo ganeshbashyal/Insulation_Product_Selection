@@ -125,6 +125,11 @@ def main(argv=None):
         cmd.add_argument("build_id")
         if name not in {"status", "report"}:
             cmd.add_argument("--family", required=True, help="one exact family ID")
+        if name == "report":
+            cmd.add_argument("--links-workbook", type=Path,
+                             help="include supplied TDS links from this workbook; links remain unverified")
+            cmd.add_argument("--sku-inventory", type=Path,
+                             help="include a local staff-release SKU inventory JSON")
         if name in {"download", "model"}:
             cmd.add_argument("--limit", type=int, default=5)
             cmd.add_argument("--retry", action="store_true", help="one explicit additional attempt; preserve failed receipt")
@@ -151,7 +156,22 @@ def main(argv=None):
             result = build.packs(args.build_id, ResearchIndex(args.root), family_id=args.family)
             result["completion_report"] = build.report(args.build_id, ResearchIndex(args.root))
         elif args.action == "report":
-            result = build.report(args.build_id, ResearchIndex(args.root))
+            index = ResearchIndex(args.root)
+            supplemental_links = None
+            if args.links_workbook:
+                preview = build.preview(args.links_workbook, index)
+                supplemental_links = {
+                    "workbook": preview["workbook"],
+                    "sha256": preview["workbook_hash"],
+                    "rows": preview["rows"],
+                }
+            supplemental_skus = None
+            if args.sku_inventory:
+                supplemental_skus = json.loads(args.sku_inventory.read_text(encoding="utf-8"))
+            result = build.report(
+                args.build_id, index, supplemental_links=supplemental_links,
+                supplemental_skus=supplemental_skus,
+            )
         elif args.action == "narrow-failed":
             result = build.narrow_failed(args.build_id, args.family)
         elif args.action == "work-family":

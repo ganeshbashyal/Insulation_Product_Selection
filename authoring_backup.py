@@ -52,7 +52,8 @@ def inventory(root: Path) -> dict[str, str]:
     paths = []
     for directory in LIBRARIES:
         base = confined(root, directory + "/placeholder").parent
-        paths.extend(path for path in base.rglob("*") if path.is_file())
+        paths.extend(path for path in base.rglob("*")
+                     if path.is_file() and not path.name.startswith("~$"))
     paths.extend(root / name for name in RECEIPTS if (root / name).is_file())
     return {path.relative_to(root).as_posix(): digest(confined(root, path.relative_to(root).as_posix()))
             for path in sorted(set(paths))}

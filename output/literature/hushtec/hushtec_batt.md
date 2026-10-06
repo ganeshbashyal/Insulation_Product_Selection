@@ -41,6 +41,10 @@ Quality insulation engineered for Australian conditions. Engineered specifically
 | Rw 40 | acoustic_rw | Varies | 20000 x 1300 | 1 |
 | Rw 40 | acoustic_rw | Varies | 10000 x 1300 | 1 |
 
+## Staff-release SKU coverage
+
+_No SKU from this workbook was mapped or proposed for this family._
+
 ## Technical data
 
 | Property | Value | Source |

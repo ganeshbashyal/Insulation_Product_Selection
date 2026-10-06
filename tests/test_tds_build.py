@@ -246,8 +246,10 @@ def test_private_packs_preserve_retained_data_and_rights_gate(setup, monkeypatch
                         "retained": {"research": {"unknown": [1, None]}, "commercial_rows": []},
                         "provenance_state": "legacy_supplied_original_unavailable"}}
     stem = tds.hashlib.sha256(b"TEST").hexdigest()[:20]
+    authoring = {"preview_id": "AUTHORING", "pack": pack}
     monkeypatch.setattr(tds, "build_preview", lambda idx: (
-        {"preview_id": "AUTHORING", "families": {"TEST": {"file": stem}}}, {"TEST": pack}))
+        {"preview_id": authoring["preview_id"], "families": {"TEST": {"file": stem}}},
+        {"TEST": authoring["pack"]}))
     preview = build.preview(workbook, index)
     build.start(preview, preview["build_id"])
     result = build.packs(preview["build_id"], index)
@@ -257,6 +259,24 @@ def test_private_packs_preserve_retained_data_and_rights_gate(setup, monkeypatch
     assert "old value" in build.family("TEST", index)["readable"]
     again = build.packs(preview["build_id"], index)
     assert again["path"] == result["path"]
+
+    updated_pack = {**pack, "dossier": {**pack["dossier"], "groups": {
+        "material": [{**row, "value": "updated value"}]}}}
+    authoring.update(preview_id="UPDATED_AUTHORING", pack=updated_pack)
+    assert build.family("TEST", index)["authoring_stale"]
+    refreshed = build.packs(preview["build_id"], index)
+    assert refreshed["authoring_preview"] == "UPDATED_AUTHORING"
+    current = build.family("TEST", index)
+    assert not current["authoring_stale"]
+    assert current["pack"]["dossier"]["groups"]["material"][0]["value"] == "updated value"
+    report_result = build.report(preview["build_id"], index)
+    report = json.loads(build.path("reports", "completion.json").read_text())
+    assert report_result["summary"] == {"draft_with_source_gap": 1}
+    assert report["build_authoring_changed"]
+    assert report["families"][0]["draft_authoring_preview"] == "UPDATED_AUTHORING"
+    assert not report["families"][0]["authoring_stale"]
+    assert build.packs(preview["build_id"], index)["path"] == refreshed["path"]
+
     metadata = json.loads(build.path("training_candidates", preview["build_id"] + ".json").read_text())
     assert metadata["eligible_content_records"] == 0 and not metadata["fine_tuning"]
     assert (build.root / "data" / "local" / "fresh_tds_cache.json").exists()
@@ -312,8 +332,82 @@ def test_completion_report_alphabetical_and_no_false_completion(setup):
     assert all(not row["draft_generated"] and row["human_approval"] == "not_granted_by_build"
                for row in report["families"])
     assert "Chunks validated / total" in Path(result["path"]).read_text()
+    report_text = Path(result["path"]).read_text()
+    assert "Chat with the bot about one family at a time" in report_text
+    assert "[Chat with bot](http://127.0.0.1:8001/chat?family_id=FIRST)" in report_text
+    assert "exact family preselected as conversation context" in report_text
+    assert "No supplemental link workbook was supplied" in Path(result["path"]).read_text()
+    assert report["supplemental_link_status"] == "not_supplied"
+    assert report["supplemental_link_workbook"] is None
     assert Path(result["csv"]).read_text().startswith("order,family_id,")
     assert "Missing primary source" in Path(result["path"]).read_text()
+
+
+def test_completion_report_includes_unverified_supplemental_tds_links(setup):
+    build, index, workbook = setup
+    preview = build.preview(workbook, index)
+    build.start(preview, preview["build_id"])
+    supplemental = {
+        "workbook": str(workbook),
+        "sha256": "a" * 64,
+        "rows": [
+            {"family_id": "TEST", "family_name": "Test Family", "sheet": "Links",
+             "row": 7, "url": "https://example.org/test-tds.pdf", "holds": []},
+            {"family_id": "TEST", "family_name": "Test Family", "sheet": "Links",
+             "row": 8, "url": "javascript:alert(1)", "holds": ["invalid_or_unresolved_url"]},
+        ],
+    }
+    sku_inventory = {
+        "source_workbook": "Staff release.xlsm",
+        "source_sha256": "b" * 64,
+        "baseline_location": "Melbourne",
+        "active_product_master_skus": 2,
+        "inactive_product_master_skus_excluded": 1,
+        "price_values_included": False,
+        "sales_location_summary": {
+            "Melbourne": {"sku_count": 1, "melbourne_skus_not_listed": 0,
+                          "state_only_skus": 0, "field_differences": {},
+                          "sell_price_variances": 0},
+            "Brisbane": {"sku_count": 2, "melbourne_skus_not_listed": 0,
+                         "state_only_skus": 1, "field_differences": {"MOQ": 1},
+                         "sell_price_variances": 1},
+        },
+        "products": [
+            {"our_sku": "SKU-1", "family_id": "TEST", "candidate_family_id": "TEST",
+             "family_mapping_status": "deterministic_high_unreviewed",
+             "melbourne_baseline": True, "state_presence": ["Melbourne", "Brisbane"],
+             "state_differences": {"Melbourne": [], "Brisbane": ["MOQ", "sell_price_varies"]},
+             "price_statuses": {"Melbourne": "numeric", "Brisbane": "poa"}},
+            {"our_sku": "SKU-2", "family_id": None, "candidate_family_id": None,
+             "family_mapping_status": "unmapped_review_required",
+             "family_codes": [], "product_name": "Unmapped product", "manufacturer": "Maker",
+             "melbourne_baseline": False, "state_presence": ["Brisbane"],
+             "state_differences": {"Brisbane": []}, "price_statuses": {"Brisbane": "numeric"}},
+        ],
+    }
+
+    result = build.report(
+        preview["build_id"], index, supplemental_links=supplemental,
+        supplemental_skus=sku_inventory,
+    )
+    markdown = Path(result["path"]).read_text()
+    report = json.loads(Path(result["json"]).read_text())
+
+    assert "Supplemental workbook TDS links (unverified)" in markdown
+    assert "[open supplied link](<https://example.org/test-tds.pdf>)" in markdown
+    assert "`javascript:alert(1)`" in markdown
+    assert "[open supplied link](<javascript:alert(1)>)" not in markdown
+    assert report["supplemental_link_workbook"]["sha256"] == "a" * 64
+    assert report["supplemental_link_status"] == "supplied_unverified"
+    assert len(report["supplemental_tds_links"]) == 2
+    assert report["summary"] == {"needs_source": 1}
+    assert "Staff-release SKU inventory (unreviewed)" in markdown
+    assert "SKU-1" in markdown and "SKU-2" in markdown
+    assert "Sell-price variance" in markdown or "sell-price variance" in markdown
+    assert "$" not in markdown
+    assert report["supplemental_sku_inventory"]["source_sha256"] == "b" * 64
+    assert report["staff_release_family_skus"][0]["products"][0]["our_sku"] == "SKU-1"
+    assert report["staff_release_unassigned_skus"][0]["our_sku"] == "SKU-2"
 
 
 def test_single_family_worker_budget_and_no_advance(monkeypatch, capsys, tmp_path):
