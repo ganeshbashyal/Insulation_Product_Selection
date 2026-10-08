@@ -246,6 +246,7 @@ def test_manifest_escape_hash_mismatch_and_audit_gaps(tmp_path):
     assert any("hash differs" in gap for gap in result["source_gaps"])
     assert any("Full-page" in gap for gap in result["source_gaps"])
     assert any("safety data" in gap for gap in result["source_gaps"])
+    assert local_document(tmp_path, r"data\sample.pdf") == (data / "sample.pdf").resolve()
     with pytest.raises(ValueError):
         local_document(tmp_path, "..\\outside.pdf")
 

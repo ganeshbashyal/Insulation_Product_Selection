@@ -26,9 +26,10 @@ def file_hash(path: Path) -> str:
 
 
 def local_document(root: Path, value: str) -> Path:
-    path = (root / value).resolve()
-    if not path.is_relative_to(root.resolve()) or not any(
-        path.is_relative_to((root / directory).resolve()) for directory in ("data", "evidence/raw")
+    resolved_root = root.resolve()
+    path = (resolved_root / value.replace("\\", "/")).resolve()
+    if not path.is_relative_to(resolved_root) or not any(
+        path.is_relative_to((resolved_root / directory).resolve()) for directory in ("data", "evidence/raw")
     ):
         raise ValueError(f"Source document is outside the local source library: {value}")
     return path
