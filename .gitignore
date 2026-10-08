@@ -52,6 +52,7 @@ __pycache__/
 .pytest-tmp/
 .pytest_tmp/
 .pytest_cache/
+/.pytest-*/
 
 # Historical test scratch/output; never source data
 family_sqlite_check_*/
