@@ -48,7 +48,8 @@ def source_hash(paths: list[Path]) -> str:
     digest = hashlib.sha256()
     for path in paths:
         digest.update(path.name.encode())
-        digest.update(path.read_bytes())
+        content = path.read_bytes().replace(b"\r\n", b"\n").replace(b"\r", b"\n")
+        digest.update(content)
     return digest.hexdigest()
 
 
