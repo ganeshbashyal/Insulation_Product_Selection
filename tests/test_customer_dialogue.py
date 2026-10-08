@@ -90,6 +90,196 @@ def test_technical_requirement_is_retained_without_closing_intake(local_service)
     assert "customer_name" not in conversation.lead
 
 
+@pytest.mark.parametrize(
+    "message",
+    (
+        "Thanks, that's all I needed. I'm done for now.",
+        "I appreciate that; that's everything for me.",
+        "I'm all set, thank you.",
+        "I'm all done, thanks.",
+        "No more questions, thanks.",
+    ),
+)
+def test_explicit_closure_pauses_discovery_without_changing_intake(local_service, message):
+    conversation = agent_core.Conversation(
+        mode="discovery",
+        step=1,
+        answers={
+            "problem": "My external wall is cold",
+            "application": "My external wall",
+            "priority": "thermal comfort",
+        },
+        discovery_status={"application": "provided", "priority": "provided"},
+        pending_field="project_stage",
+    )
+    answers_before = dict(conversation.answers)
+    statuses_before = dict(conversation.discovery_status)
+    pending_before = conversation.pending_field
+
+    result = local_service.handle(conversation, message)
+
+    assert result.category == "greeting"
+    assert "?" not in result.reply
+    assert "pause" in result.reply.casefold()
+    assert conversation.answers == answers_before
+    assert conversation.discovery_status == statuses_before
+    assert conversation.pending_field == pending_before
+    assert conversation.mode == "discovery"
+    assert not conversation.done
+    assert conversation.recommendation is None
+    assert not interaction_store.leads()
+
+
+def test_explicit_closure_in_fresh_conversation_does_not_start_an_enquiry(local_service):
+    conversation = agent_core.Conversation()
+
+    result = local_service.handle(conversation, "That's all, thank you.")
+
+    assert result.category == "greeting"
+    assert "?" not in result.reply
+    assert not conversation.answers
+    assert not conversation.done
+
+
+@pytest.mark.parametrize(
+    "message",
+    (
+        "Thanks.",
+        "Thanks for your help.",
+        "I appreciate your assistance.",
+        "Appreciate your assistance.",
+        "I really appreciate your assistance.",
+        "I appreciate the explanation.",
+        "Thanks for the assistance.",
+        "Thanks for the information.",
+        "Much appreciated.",
+    ),
+)
+def test_courtesy_only_thanks_does_not_pause_or_advance_discovery(local_service, message):
+    conversation = agent_core.Conversation(
+        mode="discovery",
+        step=1,
+        answers={"problem": "My external wall is cold", "application": "wall"},
+        pending_field="project_stage",
+    )
+
+    result = local_service.handle(conversation, message)
+
+    assert result.category == "greeting"
+    assert "welcome" in result.reply.casefold()
+    assert "?" in result.reply
+    assert conversation.pending_field == "project_stage"
+    assert conversation.answers["problem"] == "My external wall is cold"
+
+
+def test_discovery_moves_forward_without_repeated_noted_acknowledgements():
+    conversation = agent_core.Conversation()
+    replies = [
+        agent_core.reply(conversation, message)
+        for message in ("bathroom noise", "wall", "internal partition", "new build", "home")
+    ]
+
+    assert replies == [
+        "Where is the noise coming through: a wall, roof or ceiling, floor, pipe, or somewhere else?",
+        "Which part needs insulation: an internal partition or an external wall?",
+        "Is this an existing building being upgraded, or a new build?",
+        "What is the building used for: a home, commercial premises, or something else?",
+        "Do you know how the wall is built - for example, its frame or layers?",
+    ]
+    assert all("noted" not in reply.casefold() for reply in replies)
+    assert conversation.answers["priority"] == "bathroom noise"
+    assert conversation.answers["placement"] == "internal partition"
+    assert conversation.answers["project_stage"] == "new build"
+    assert conversation.answers["building_use"] == "home"
+
+
+def test_discovery_question_uses_local_natural_phrasing_with_reported_context(monkeypatch):
+    captured = {}
+
+    def phrase(text, *, context, is_opening, system_prompt):
+        captured.update({
+            "text": text, "context": context, "is_opening": is_opening,
+            "system_prompt": system_prompt,
+        })
+        return "Where is the bathroom noise coming through — a wall, roof or ceiling, floor, pipe, or somewhere else?"
+
+    monkeypatch.setattr(agent_core.llm_client, "phrase", phrase)
+    conversation = agent_core.Conversation()
+    reply = agent_core.reply(conversation, "bathroom noise", use_llm=True)
+
+    assert reply.startswith("Where is the bathroom noise coming through")
+    assert "noted" not in reply.casefold()
+    assert captured["text"] == agent_core.discovery.question("application", conversation.answers)
+    assert captured["context"]["reported_project_details"]["priority"] == "bathroom noise"
+    assert captured["context"]["next_question_field"] == "application"
+    assert captured["is_opening"] is False
+    assert "Avoid stock acknowledgements" in captured["system_prompt"]
+
+
+def test_local_rephrasing_cannot_drop_application_choices(local_service, monkeypatch):
+    monkeypatch.setattr(
+        llm_client, "generate_reply",
+        lambda *args, **kwargs: "Where is the noise coming from: a wall, floor or ceiling?",
+    )
+    llm_client._PHRASE_CACHE.clear()
+    local_service.use_llm = True
+    conversation = agent_core.Conversation()
+
+    result = local_service.handle(conversation, "bathroom noise")
+
+    assert result.reply == agent_core.discovery.question("application", conversation.answers)
+    assert "roof" in result.reply
+    assert "pipe" in result.reply
+    assert conversation.pending_field == "application"
+
+
+def test_local_rephrasing_cannot_assert_unreported_wall_construction(local_service, monkeypatch):
+    monkeypatch.setattr(
+        llm_client, "generate_reply",
+        lambda *args, **kwargs: (
+            "The wall is made from a combination of materials. Can you tell me more about them?"
+        ),
+    )
+    llm_client._PHRASE_CACHE.clear()
+    local_service.use_llm = True
+    conversation = agent_core.Conversation()
+    conversation.answers.update({
+        "application": "wall",
+        "priority": "bathroom noise",
+        "problem": "bathroom noise",
+        "placement": "internal partition",
+        "project_stage": "new build",
+        "building_use": "home",
+    })
+    conversation.discovery_status.update({
+        key: "provided" for key in conversation.answers
+    })
+    conversation.mode = "discovery"
+    conversation.pending_field = "construction"
+
+    result = local_service.handle(conversation, "home")
+
+    assert result.reply == "Do you know how the wall is built - for example, its frame or layers?"
+
+
+def test_handoff_consent_remains_deterministic_with_local_wording_enabled(monkeypatch):
+    monkeypatch.setattr(
+        agent_core.llm_client, "phrase",
+        lambda *args, **kwargs: pytest.fail("Handoff consent must remain deterministic"),
+    )
+    conversation = agent_core.Conversation(
+        answers={"problem": "bathroom noise"},
+        mode="discovery",
+        pending_field="application",
+    )
+
+    reply = agent_core.reply(conversation, "finish now", use_llm=True)
+
+    assert reply.endswith(agent_core.HANDOFF_CONSENT_PROMPT)
+    assert reply.startswith("The project details will be reviewed")
+    assert conversation.pending_field is None
+
+
 def test_price_interruption_can_resume_intake(local_service):
     conversation = agent_core.Conversation()
     local_service.handle(conversation, "My wall is cold")
@@ -213,6 +403,33 @@ def test_unknown_product_rating_does_not_get_a_generic_definition(local_service)
     assert "thermal resistance" not in result.reply
 
 
+@pytest.mark.parametrize(
+    ("message", "required_term"),
+    (
+        ("What does R-value mean for insulation?", "thermal resistance"),
+        ("What is sarking used for under a roof?", "membrane"),
+    ),
+)
+def test_generic_concept_questions_use_cited_local_glossary(local_service, message, required_term):
+    assert not local_service.product_answers.resolve(message)
+    result = local_service.handle(agent_core.Conversation(), message)
+
+    assert result.category == "informational"
+    assert result.retrieval_mode == "local-glossary"
+    assert required_term in result.reply.casefold()
+    assert "source: knowledge/industry/training/01_glossary.md" in result.reply.casefold()
+    assert not any(family["name"].casefold() in result.reply.casefold() for family in agent_core.FAMILIES)
+
+
+def test_under_floor_product_still_resolves_by_its_full_name(local_service):
+    product = next(
+        family for family in agent_core.FAMILIES
+        if family["family_id"] == "POLYESTER_SOLUTIONS_UNDER_FLOOR_ROLLS_POLYFB"
+    )
+
+    assert product in local_service.product_answers.resolve(product["name"])
+
+
 def test_model_off_knowledge_has_an_explicit_evidence_gap(local_service):
     result = local_service.handle(agent_core.Conversation(), "Explain neutrino foam insulation")
     assert "local information" in result.reply
@@ -269,13 +486,20 @@ def test_model_cannot_invent_a_dimension_in_a_question(local_service, monkeypatc
     assert "existing" in result.reply
 
 
-def test_capture_is_deterministic_even_with_local_wording_enabled(local_service, monkeypatch):
-    monkeypatch.setattr(llm_client, "generate_reply", lambda *a, **k: pytest.fail("Consent/capture must not use model wording"))
+def test_discovery_uses_local_model_only_to_rephrase_next_question(local_service, monkeypatch):
+    calls = []
+
+    def fake_generate_reply(system_prompt, user_prompt, **kwargs):
+        calls.append((system_prompt, user_prompt))
+        return "Is this a new build or an upgrade to an existing building?"
+
+    monkeypatch.setattr(llm_client, "generate_reply", fake_generate_reply)
     llm_client._PHRASE_CACHE.clear()
     local_service.use_llm = True
     conversation = agent_core.Conversation()
     result = local_service.handle(conversation, "My external wall is cold")
     assert "existing" in result.reply
+    assert calls
     assert conversation.step == 1
 
 
@@ -411,7 +635,7 @@ def test_element_correction_during_contact_requalifies_constraints(local_service
     assert conversation.step == 8  # Legacy contact stage honours the already-offered consent.
     assert "conditions" not in conversation.answers
     assert "roof" in conversation.answers["application"]
-    assert "updated" in result.reply.casefold()
+    assert "focus" in result.reply.casefold()
     assert "phone" not in conversation.lead
 
 

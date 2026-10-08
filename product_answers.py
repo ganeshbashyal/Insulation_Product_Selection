@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parent
 LOGGER = logging.getLogger(__name__)
 GLOSSARY = ROOT / "knowledge" / "industry" / "training" / "01_glossary.md"
 _GENERIC_NAMES = {
-    "acoustic", "thermal", "insulation", "accessory", "batt", "batts", "underlay",
+    "acoustic", "thermal", "insulation", "accessory", "batt", "batts", "under", "underlay",
     "barrier", "panel", "board", "foil", "tape", "mass", "pipe", "roof", "wall",
     "residential", "commercial", "industrial", "fire", "protection", "ceiling",
     "floor", "duct", "timber", "steel", "comfort", "noise", "sound", "thermal",
@@ -31,6 +31,10 @@ _METRICS = {
     "vapour_permeance": r"\bpermeance\b",
     "vapour_class": r"\bvapour class\b",
 }
+_GENERIC_METRIC_SUBJECT_RE = re.compile(
+    r"^(?:(?:a|an|the)\s+)?(?:insulation|all layers|building element|wall assembly|"
+    r"wall|roof|ceiling|floor|building|house|structure)\b"
+)
 
 
 def normalise(text: str) -> str:
@@ -81,6 +85,7 @@ class ProductAnswers:
             if tokens and tokens[0] not in _GENERIC_NAMES:
                 # Shared prefixes deliberately retain all possible identities.
                 aliases.update(" ".join(tokens[:count]) for count in range(1, len(tokens) + 1))
+            aliases.update(alias[:-1] for alias in tuple(aliases) if alias.endswith("batts"))
             meta = self.metadata.get(family["family_id"], {})
             aliases.update(normalise(meta[key]) for key in ("canonical_name", "product_family", "brand") if meta.get(key))
             for alias in aliases:
@@ -111,6 +116,25 @@ class ProductAnswers:
             families = [row for row in families if normalise(row.get("manufacturer", "")) == normalise(scope)]
         return families
 
+    def family_introduction(self, message: str) -> str | None:
+        text = normalise(message)
+        subject = text
+        for prefix in ("what is ", "what are ", "tell me about ", "explain "):
+            if subject.startswith(prefix):
+                subject = subject.removeprefix(prefix)
+                break
+        alias = self.aliases.get(subject)
+        if not alias or len(alias) < 2 or len(subject.split()) < 2:
+            return None
+        display_name = subject.title()
+        if display_name.endswith(" Batt"):
+            display_name += "s"
+        return (
+            f"{display_name} is a range of insulation products with application-based variations. "
+            "Which area are you insulating: a wall, ceiling, floor or partition?\n"
+            "Source: local product-family catalogue."
+        )
+
     def manufacturers(self, message: str) -> list[str]:
         return sorted({
             family.get("manufacturer", "") for family in self.families
@@ -134,8 +158,15 @@ class ProductAnswers:
         matches = [key for key in self.definitions if contains_name(text, key)]
         if not matches:
             return None
-        if re.search(r"\b(?:for|of)\b", text):
-            # A requested product property is not answered by defining the term.
+        metric_subject = re.search(
+            r"\b(?:r[\s-]?value|rw|nrc)\b.{0,40}?\b(?:for|of)\s+"
+            r"([^?.!,;]+)",
+            text,
+        )
+        if (
+            metric_subject
+            and not _GENERIC_METRIC_SUBJECT_RE.match(metric_subject.group(1).strip())
+        ):
             return None
         matches = [key for key in matches if not any(key != other and contains_name(other, key) for other in matches)]
         lines = []

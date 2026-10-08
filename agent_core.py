@@ -20,9 +20,11 @@ import json
 import re
 import uuid
 from dataclasses import dataclass, field, fields
+from datetime import datetime, timezone
 from pathlib import Path
 
 import llm_client
+from aurora_persona import AURORA_CONTRACT
 import interaction_store
 import enquiry_discovery as discovery
 import size_index
@@ -36,11 +38,7 @@ from bot_engine import (
 )
 
 ROOT = Path(__file__).resolve().parent
-OPENING = (
-    "I can answer a product question or prepare an enquiry for sales review. "
-    "Tell me what you want to improve in your own words. I'll ask for the relevant project details "
-    "so the team doesn't need to repeat basic questions; product selection stays with them."
-)
+OPENING = "Hi, I can help with insulation questions and collect details for our sales team. What are you working on?"
 
 QUESTIONS = [
     ("problem", "Tell me about your project or problem in your own words — e.g. 'my upstairs bedroom is freezing in winter and the walls are thin', or 'traffic noise through the front wall of my townhouse'. Mention where it is, what you're feeling, and anything about the building if you know it."),
@@ -58,6 +56,10 @@ QUESTIONS = [
 LEAD_CONSENT_TEXT = (
     "By sharing your contact details, you agree that we'll use them only to "
     "follow up on this enquiry."
+)
+HANDOFF_CONSENT_PROMPT = (
+    "May I share the project details you've provided, without your phone or email, "
+    "with our sales team for an internal review? Your enquiry will still be saved here if you say no."
 )
 LEAD_QUESTIONS = [
     ("contact_details", f"What's the best number or email for the team to reach you on? {LEAD_CONSENT_TEXT}"),
@@ -186,7 +188,7 @@ FAMILIES = load_families()
 
 
 def detected_element(answers: dict[str, str]) -> str | None:
-    text = " ".join(answers.values()).casefold()
+    text = (answers.get("application") or answers.get("problem") or "").casefold()
     for element, terms in {
         "roof": ["roof", "ceiling", "rafter", "truss"],
         "floor": ["floor", "subfloor", "underfloor", "storey", "storeys"],
@@ -289,7 +291,7 @@ class Conversation:
     topic: str = ""
     mode: str = "enquiry"
     review_required: bool = False
-    capture_version: int = 3
+    capture_version: int = 4
     manufacturer_scope: str | None = None
     discovery_status: dict[str, str] = field(default_factory=dict)
     pending_field: str | None = None
@@ -309,6 +311,11 @@ class Conversation:
         if self.mode == "capture":
             if self.step < len(QUESTIONS):
                 return "What would you like to improve, and where is the problem?"
+            has_project_details = any(key != "name" for key in self.answers)
+            if self.lead_step == 0 and has_project_details and "handoff_consent_status" not in self.lead:
+                return HANDOFF_CONSENT_PROMPT
+            if self.lead_step >= len(LEAD_QUESTIONS):
+                return ""
             return LEAD_QUESTIONS[self.lead_step][1]
         if self.step < len(QUESTIONS):
             return OPENING if self.step == 0 else question_for_step(self.step, self.answers)
@@ -317,14 +324,10 @@ class Conversation:
         return ""
 
     def start_new_project(self) -> None:
-        """A new brief gets a new audit identity, never overwrites an old lead."""
-        page_context = self.page_context
-        family_review_id = self.family_review_id
+        """A new brief gets a new identity and no inherited project context."""
         fresh = Conversation()
         for item in fields(self):
             setattr(self, item.name, getattr(fresh, item.name))
-        self.page_context = page_context
-        self.family_review_id = family_review_id
 
     def to_dict(self) -> dict:
         """Serialize all state required to resume the conversation."""
@@ -355,31 +358,101 @@ class Conversation:
     @classmethod
     def from_dict(cls, data: dict) -> "Conversation":
         """Restore a conversation, including sessions written by older builds."""
-        answers = dict(data.get("answers") or {})
+        if not isinstance(data, dict):
+            raise ValueError("Saved conversation must be an object")
+        answers = data.get("answers", {})
+        if not isinstance(answers, dict):
+            raise ValueError("Saved conversation answers must be an object")
+        valid_answer_keys = {
+            "problem", "name", "application", "priority", "conditions", "project",
+            "locality", "requirements", "placement", "project_stage", "building_use",
+            "construction", "wall_assembly", "access", "cavity_depth", "area",
+            "existing_insulation", "moisture", "airspace", "service",
+            "service_temperature", "timeframe",
+        }
+        if any(key not in valid_answer_keys or not isinstance(value, str) or len(value) > 2000
+               for key, value in answers.items()):
+            raise ValueError("Saved conversation contains invalid answer fields")
+        answers = dict(answers)
         gate = data.get("gate")
+        if gate is not None and (
+            not isinstance(gate, (list, tuple)) or len(gate) != 2
+            or any(not isinstance(item, str) or len(item) > 500 for item in gate)
+        ):
+            raise ValueError("Saved conversation gate is invalid")
+        conversation_id = data.get("conversation_id") or uuid.uuid4().hex[:12]
+        if not isinstance(conversation_id, str) or not re.fullmatch(r"[A-Za-z0-9_-]{1,80}", conversation_id):
+            raise ValueError("Saved conversation ID is invalid")
+        step = data.get("step", min(len(answers), len(QUESTIONS)))
+        lead_step = data.get("lead_step", 0)
+        if (isinstance(step, bool) or not isinstance(step, int) or not 0 <= step <= len(QUESTIONS)
+                or isinstance(lead_step, bool) or not isinstance(lead_step, int)
+                or not 0 <= lead_step <= len(LEAD_QUESTIONS)):
+            raise ValueError("Saved conversation progress is invalid")
+        mode = data.get("mode") or ("selection" if answers else "enquiry")
+        if not isinstance(mode, str) or mode not in {"enquiry", "discovery", "capture", "selection", "callback"}:
+            raise ValueError("Saved conversation mode is invalid")
+        lead = data.get("lead") or {}
+        allowed_lead_keys = {
+            "customer_name", "phone", "email", "callback_time", "declined",
+            "contact_retry", "handoff_consent_status", "handoff_consent_at",
+        }
+        if not isinstance(lead, dict) or any(
+            key not in allowed_lead_keys or not isinstance(value, str) or len(value) > 1000
+            for key, value in lead.items()
+        ):
+            raise ValueError("Saved conversation lead state is invalid")
+        candidates = data.get("candidates") or []
+        topic_products = data.get("topic_products") or []
+        product_options = data.get("product_options") or []
+        if (not isinstance(candidates, list) or any(not isinstance(row, dict) for row in candidates)
+                or not isinstance(topic_products, list) or any(not isinstance(value, str) for value in topic_products)
+                or not isinstance(product_options, list) or any(not isinstance(value, str) for value in product_options)):
+            raise ValueError("Saved conversation product state is invalid")
+        discovery_status = data.get("discovery_status") or {}
+        if not isinstance(discovery_status, dict) or any(
+            key not in valid_answer_keys or not isinstance(value, str)
+            or value not in {"provided", "unknown", "skipped", "conflict"}
+            for key, value in discovery_status.items()
+        ):
+            raise ValueError("Saved conversation discovery status is invalid")
+        pending_field = data.get("pending_field")
+        if pending_field is not None and pending_field not in discovery.QUESTIONS:
+            raise ValueError("Saved conversation pending field is invalid")
         restored = cls(
-            conversation_id=data.get("conversation_id") or uuid.uuid4().hex[:12],
-            step=int(data.get("step", min(len(answers), len(QUESTIONS)))),
+            conversation_id=conversation_id,
+            step=step,
             answers=answers,
-            done=bool(data.get("done", False)),
+            done=data.get("done", False),
             recommendation=data.get("recommendation"),
             gate=tuple(gate) if gate else None,
-            lead_step=int(data.get("lead_step", 0)),
-            lead=dict(data.get("lead") or {}),
-            candidates=list(data.get("candidates") or []),
-            topic_products=list(data.get("topic_products") or [])[:2],
-            product_options=list(data.get("product_options") or [])[:12],
+            lead_step=lead_step,
+            lead=dict(lead),
+            candidates=list(candidates)[:12],
+            topic_products=list(topic_products)[:2],
+            product_options=list(product_options)[:12],
             family_review_id=data.get("family_review_id"),
             topic=str(data.get("topic") or "")[:160],
-            mode=data.get("mode") or ("selection" if answers else "enquiry"),
-            review_required=bool(data.get("review_required", False)),
-            capture_version=int(data.get("capture_version", 1)),
+            mode=mode,
+            review_required=data.get("review_required", False),
+            capture_version=data.get("capture_version", 1),
             manufacturer_scope=data.get("manufacturer_scope"),
-            discovery_status=dict(data.get("discovery_status") or {}),
-            pending_field=data.get("pending_field"),
-            discovery_ended_early=bool(data.get("discovery_ended_early", False)),
+            discovery_status=dict(discovery_status),
+            pending_field=pending_field,
+            discovery_ended_early=data.get("discovery_ended_early", False),
             page_context=dict(data["page_context"]) if isinstance(data.get("page_context"), dict) else None,
         )
+        if not isinstance(restored.done, bool) or not isinstance(restored.review_required, bool):
+            raise ValueError("Saved conversation status flags are invalid")
+        if (isinstance(restored.capture_version, bool) or not isinstance(restored.capture_version, int)
+                or not 1 <= restored.capture_version <= 4):
+            raise ValueError("Saved conversation version is invalid")
+        if restored.recommendation is not None and not isinstance(restored.recommendation, dict):
+            raise ValueError("Saved conversation recommendation is invalid")
+        if any(not isinstance(value, bool) for value in (
+            restored.discovery_ended_early,
+        )):
+            raise ValueError("Saved conversation flags are invalid")
         if restored.capture_version < 3:
             restored.recommendation = None
             restored.candidates = []
@@ -394,6 +467,10 @@ class Conversation:
                     restored.pending_field = discovery.next_field(restored.answers, restored.discovery_status)
                     restored.step = 1
             restored.capture_version = 3
+        if restored.capture_version < 4:
+            if restored.mode == "capture" and restored.lead_step > 0:
+                restored.lead.setdefault("handoff_consent_status", "not_recorded")
+            restored.capture_version = 4
         return restored
 
 
@@ -465,11 +542,62 @@ def build_problem_statement(answers: dict[str, str]) -> str:
     return " ".join(parts)
 
 
+def _is_problem_description(message: str) -> bool:
+    text = message.strip()
+    folded = text.casefold()
+    if not text or re.fullmatch(
+        r"(?:yes|yeah|yep|no|nope|nah|ok|okay|sure|skip|unknown|unsure|thanks|thank you|hi|hello)[.! ]*",
+        folded,
+    ):
+        return False
+    if re.search(r"\b(?:what|why|when|where|who|how|can you|could you|is it|does it)\b", folded):
+        return False
+    project_signals = (
+        "insulation", "wall", "roof", "ceiling", "floor", "pipe", "duct", "noise",
+        "cold", "hot", "heat", "draft", "damp", "mould", "condensation", "retrofit",
+        "renovation", "new build", "project", "problem", "issue", "need", "want",
+        "looking for", "upgrade", "building", "house", "room", "garage", "bathroom",
+    )
+    return len(text.split()) >= 2 and any(signal in folded for signal in project_signals)
+
+
+def _application_elements(text: str) -> set[str]:
+    folded = text.casefold()
+    return {
+        element for element, terms in {
+            "roof": ("roof", "ceiling", "rafter", "truss", "attic"),
+            "floor": ("floor", "subfloor", "underfloor"),
+            "wall": ("wall", "partition"),
+            "pipe": ("pipe", "plumbing", "waste"),
+            "duct": ("duct", "hvac"),
+        }.items() if any(re.search(rf"\b{re.escape(term)}s?\b", folded) for term in terms)
+    }
+
+
+def _replace_corrected_element(text: str, old_element: str, new_element: str) -> str:
+    terms = {
+        "roof": r"\b(?:roofs?|ceilings?|rafters?|trusses?|attic)\b",
+        "floor": r"\b(?:floors?|subfloors?|underfloors?)\b",
+        "wall": r"\b(?:walls?|partitions?)\b",
+        "pipe": r"\b(?:pipes?|plumbing|waste)\b",
+        "duct": r"\b(?:ducts?|hvac)\b",
+    }
+    pattern = terms.get(old_element)
+    return re.sub(pattern, new_element, text, flags=re.I) if pattern else text
+
+
 
 def _phrase(text: str, use_llm: bool, context: dict | None = None, is_opening: bool = False) -> str:
     if not use_llm:
         return text
-    phrased = llm_client.phrase(text, context=context, is_opening=is_opening)
+    if AURORA_CONTRACT.model_prompt is None:
+        raise RuntimeError("Aurora phrasing requires its explicit persona prompt")
+    phrased = llm_client.phrase(
+        text,
+        context=context,
+        is_opening=is_opening,
+        system_prompt=AURORA_CONTRACT.model_prompt,
+    )
     if "saved locally" in text.casefold() and "local" not in phrased.casefold():
         return text
     if "skip" in text.casefold() and "skip" not in phrased.casefold():
@@ -478,6 +606,46 @@ def _phrase(text: str, use_llm: bool, context: dict | None = None, is_opening: b
         if re.search(r"\b(?:product|family|brand|model)\b", phrased, re.I):
             return text
         if not re.search(r"\b(?:name|call you|address you)\b", phrased, re.I):
+            return text
+    if context and context.get("next_question_field") is not None:
+        if (
+            phrased.count("?") != text.count("?")
+            or phrased.count("?") != 1
+            or not phrased.rstrip().endswith("?")
+            or not re.match(
+                r"^(?:and\s+)?(?:what|where|when|which|who|why|how|is|are|am|do|does|did|can|could|would|will|have|has)\b",
+                phrased.strip(), re.I,
+            )
+        ):
+            return text
+        if re.search(r"\b(?:product|family|brand|model|SKU)\b", phrased, re.I) and not re.search(
+            r"\b(?:product|family|brand|model|SKU)\b", text, re.I,
+        ):
+            return text
+        required_options = {
+            "application": (
+                ("wall",), ("roof",), ("ceiling",), ("floor",),
+                ("pipe", "pipework", "plumbing"),
+                ("somewhere else", "something else", "another location", "another area"),
+            ),
+            "priority": (
+                ("temperature", "comfort"), ("noise",), ("moisture",),
+                ("something else", "another priority"),
+            ),
+            "placement": (("internal",), ("external",)),
+            "project_stage": (
+                ("existing", "retrofit", "renovation", "upgrade"),
+                ("new build", "new construction"),
+            ),
+            "building_use": (
+                ("home", "house", "residential"), ("commercial",),
+                ("something else", "another use", "industrial"),
+            ),
+        }.get(context["next_question_field"], ())
+        if any(
+            not any(re.search(rf"\b{re.escape(option)}\b", phrased, re.I) for option in group)
+            for group in required_options
+        ):
             return text
     if context and context.get("family_id") and context.get("name", "").casefold() not in phrased.casefold():
         return text
@@ -566,6 +734,25 @@ def _finalise_lead(conversation: Conversation, site_id: str) -> None:
     )
     brief["discovery_ended_early"] = conversation.discovery_ended_early
     brief["entry_context"] = conversation.page_context
+    brief["handoff_consent"] = {
+        "status": conversation.lead.get("handoff_consent_status", "not_recorded"),
+        "recorded_at": conversation.lead.get("handoff_consent_at"),
+        "scope": "non_contact_project_details_for_internal_sales_review",
+    }
+    completeness = brief.get("capture_completeness") or {}
+    review_labels = [
+        "internal_draft_human_review_required",
+        "product_selection_not_approved",
+    ]
+    if completeness.get("unresolved_fields"):
+        review_labels.append("missing_project_details")
+    if conversation.discovery_status.get("application") == "conflict":
+        review_labels.append("application_conflict_requires_clarification")
+    if conversation.lead.get("handoff_consent_status") == "granted":
+        review_labels.append("neo_handoff_requires_operator_approval")
+    else:
+        review_labels.append("neo_handoff_not_customer_authorized")
+    brief["review_labels"] = review_labels
     conversation.candidates = brief["candidates"]
     conversation.recommendation = None
     conversation.gate = ("REVIEW REQUIRED", "Internal candidates require source and installation review.")
@@ -591,9 +778,41 @@ def _finalise_lead(conversation: Conversation, site_id: str) -> None:
 
 
 def _capture_lead(conversation: Conversation, message: str, use_llm: bool, site_id: str) -> str:
-    """Handle voluntary contact after discovery; no callback is booked."""
-    key, _ = LEAD_QUESTIONS[conversation.lead_step]
+    """Record handoff consent separately from the optional contact details."""
     text = message.strip()
+    has_project_details = any(key != "name" for key in conversation.answers)
+    if (conversation.lead_step == 0 and has_project_details
+            and "handoff_consent_status" not in conversation.lead):
+        affirmative = re.fullmatch(r"\s*(?:yes|yeah|yep|sure|okay|ok)[.! ]*\s*", text, re.I)
+        negative = re.fullmatch(r"\s*(?:no|nope|nah|no thanks|rather not|skip|pass)[.! ]*\s*", text, re.I)
+        if affirmative:
+            conversation.lead["handoff_consent_status"] = "granted"
+            conversation.lead["handoff_consent_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+            return _phrase(LEAD_QUESTIONS[0][1], use_llm)
+        if negative and text.casefold().strip() not in {"skip", "pass", "no thanks", "rather not"}:
+            conversation.lead["handoff_consent_status"] = "declined"
+            return _phrase(LEAD_QUESTIONS[0][1], use_llm)
+        if negative:
+            conversation.lead["handoff_consent_status"] = "declined"
+            conversation.lead["declined"] = "yes"
+            _finalise_lead(conversation, site_id)
+            conversation.done = True
+            return _phrase(
+                "No problem. The project brief is saved locally, without sharing it with Neo or including contact information.",
+                use_llm,
+            )
+        if not any(parse_contact_details(text).values()):
+            return _phrase("Please answer yes or no. You can decline; your enquiry will still be saved here.", use_llm=False)
+        # Legacy clients may submit contact details before seeing this prompt.
+        # That is never treated as consent to share project facts with Neo.
+        conversation.lead["handoff_consent_status"] = "not_recorded"
+
+    if conversation.lead_step >= len(LEAD_QUESTIONS):
+        _finalise_lead(conversation, site_id)
+        conversation.done = True
+        return _phrase("Your project brief is saved locally for sales review.", use_llm)
+
+    key, _ = LEAD_QUESTIONS[conversation.lead_step]
 
     if key == "contact_details" and is_decline(text):
         conversation.lead["declined"] = "yes"
@@ -638,13 +857,34 @@ def _discovery_prompt(conversation: Conversation) -> str:
         return discovery.question(key, conversation.answers)
     conversation.mode = "capture"
     conversation.step = len(QUESTIONS)
-    return "The project details will be reviewed by sales before any product is selected. " + LEAD_QUESTIONS[conversation.lead_step][1]
+    return "The project details will be reviewed by sales before any product is selected. " + conversation.next_prompt()
+
+
+def _next_discovery_reply(
+    conversation: Conversation,
+    use_llm: bool = False,
+    introduction: str = "",
+) -> str:
+    prompt = _discovery_prompt(conversation)
+    message = prompt
+    details = {
+        key: value for key, value in conversation.answers.items()
+        if key != "name" and value
+    }
+    context = {
+        "reported_project_details": details,
+        "next_question_field": conversation.pending_field,
+    }
+    if not conversation.pending_field:
+        return f"{introduction} {message}".strip()
+    phrased = _phrase(message, use_llm, context=context)
+    return f"{introduction} {phrased}".strip()
 
 
 def _retain_details(conversation: Conversation, details: dict[str, str], *, correction: bool = False) -> None:
     for key, value in details.items():
         previous = conversation.answers.get(key, "")
-        if conversation.discovery_status.get(key) in {"unknown", "skipped"} and not discovery.UNKNOWN.search(value):
+        if conversation.discovery_status.get(key) in {"unknown", "skipped", "conflict"} and not discovery.UNKNOWN.search(value):
             previous = ""
         conversation.answers[key] = value if correction or not previous else previous if value in previous else previous + "; " + value
         conversation.discovery_status[key] = "unknown" if discovery.UNKNOWN.search(value) else "provided"
@@ -652,8 +892,12 @@ def _retain_details(conversation: Conversation, details: dict[str, str], *, corr
 
 def reply(conversation: Conversation, message: str, use_llm: bool = False, manufacturer_scope: str | None = None, site_id: str = "default") -> str:
     """Adaptive discovery followed by voluntary contact; selection is private."""
-    if re.search(r"\b(?:new project|different project|start (?:again|over))\b", message, re.I):
+    new_project = re.match(r"^\s*(?:new project|different project|start (?:again|over))\s*:?\s*", message, re.I)
+    if new_project:
         conversation.start_new_project()
+        message = message[new_project.end():].strip()
+        if not message:
+            return OPENING
 
     conversation.recommendation = None
     if manufacturer_scope:
@@ -665,6 +909,23 @@ def reply(conversation: Conversation, message: str, use_llm: bool = False, manuf
         conversation.lead["customer_name"] = details["name"]
         return OPENING
     correction = bool(re.search(r"\b(?:actually|correction|I meant|rather than|instead of)\b", message, re.I))
+    elements_in_turn = _application_elements(message)
+    if len(elements_in_turn) > 1 and not correction and not conversation.done:
+        order = ("wall", "roof", "floor", "pipe", "duct")
+        listed = [item for item in order if item in elements_in_turn]
+        conversation.answers["application"] = " and ".join(listed)
+        conversation.discovery_status["application"] = "conflict"
+        conversation.pending_field = "application"
+        conversation.mode = "discovery"
+        conversation.step = 1
+        conversation.review_required = True
+        if _is_problem_description(message):
+            conversation.answers.setdefault("problem", message.strip())
+        labels = " and ".join(listed)
+        return _phrase(
+            f"I have both the {labels} noted. Which one should the sales team focus on first?",
+            use_llm,
+        )
     if correction and details:
         if conversation.done:
             # Keep a completed lead immutable; the corrected brief is a new enquiry.
@@ -674,14 +935,23 @@ def reply(conversation: Conversation, message: str, use_llm: bool = False, manuf
         old_element = detected_element(conversation.answers)
         new_element = detected_element(details)
         if new_element and old_element != new_element:
+            if old_element and conversation.answers.get("problem"):
+                conversation.answers["problem"] = _replace_corrected_element(
+                    conversation.answers["problem"], old_element, new_element,
+                )
             for key in ("application", "conditions", "placement", "construction", "wall_assembly", "access", "cavity_depth", "area", "existing_insulation", "moisture", "airspace", "service", "service_temperature"):
                 conversation.answers.pop(key, None)
                 conversation.discovery_status.pop(key, None)
         _retain_details(conversation, details, correction=True)
-        conversation.answers["problem"] = message.strip()
+        if not conversation.answers.get("problem") and _is_problem_description(message):
+            conversation.answers["problem"] = message.strip()
         conversation.candidates = []
         conversation.review_required = True
-        return "I've updated the project description for sales review. " + _discovery_prompt(conversation)
+        if new_element and old_element and new_element != old_element:
+            confirmation = f"Got it, I'll focus on the {new_element} instead."
+        else:
+            confirmation = "Okay, I'll use those corrected details."
+        return _next_discovery_reply(conversation, use_llm, introduction=confirmation)
 
     if conversation.done:
         return "This project brief is saved locally for review. You can ask a product question, or say 'new project' to start another enquiry."
@@ -691,23 +961,39 @@ def reply(conversation: Conversation, message: str, use_llm: bool = False, manuf
             conversation.lead["customer_name"] = details["name"]
         if details and not any(parse_contact_details(message).values()) and not is_decline(message):
             _retain_details(conversation, details)
-            return _discovery_prompt(conversation)
+            return _next_discovery_reply(conversation, use_llm)
         return _capture_lead(conversation, message, False, site_id)
 
     conversation.review_required = True
     if discovery.EARLY_HANDOFF.search(message):
         conversation.discovery_ended_early = True
-        conversation.answers.setdefault("problem", message.strip())
-        return _discovery_prompt(conversation)
+        if _is_problem_description(message):
+            conversation.answers.setdefault("problem", message.strip())
+        return _next_discovery_reply(conversation, use_llm)
     pending = conversation.pending_field
     if pending:
         if any(parse_contact_details(message).values()):
             return "I'll ask for contact details with consent after the project questions. " + conversation.next_prompt()
+        binary_answer = re.fullmatch(
+            r"\s*(?:yes|yeah|yep|no|nope|nah|sure|okay|ok)[.! ]*\s*", message, re.I,
+        )
+        binary_fields = {
+            "airspace": ("A continuous air gap is present.", "No continuous air gap was reported."),
+            "existing_insulation": ("Existing insulation is present; type not supplied.", "No existing insulation was reported."),
+            "moisture": ("Moisture or exposure concerns were reported; details not supplied.", "No moisture or exposure concerns were reported."),
+            "requirements": ("Project requirements may apply; details were not supplied.", "No specified project requirements were reported."),
+        }
+        if binary_answer and pending not in binary_fields:
+            return "I may have missed the context. " + discovery.question(pending, conversation.answers)
         if pending == "cavity_depth" and re.fullmatch(r"\s*(?:about\s+)?\d+(?:\.\d+)?\s*(?:mm|cm|metres?|m)\s*[.!]?\s*", message, re.I):
             details[pending] = message.strip()
         if pending == "placement" and "application" in details:
             details[pending] = details["application"]
-        if discovery.SKIP.fullmatch(message):
+        if binary_answer and pending in binary_fields:
+            negative = bool(re.match(r"\s*(?:no|nope|nah)", message, re.I))
+            conversation.answers[pending] = binary_fields[pending][1 if negative else 0]
+            conversation.discovery_status[pending] = "provided"
+        elif discovery.SKIP.fullmatch(message):
             conversation.discovery_status[pending] = "skipped"
         elif pending in details or not details:
             conversation.answers[pending] = message.strip()
@@ -715,5 +1001,6 @@ def reply(conversation: Conversation, message: str, use_llm: bool = False, manuf
     _retain_details(conversation, details)
     if "name" in details:
         conversation.lead["customer_name"] = details["name"]
-    conversation.answers.setdefault("problem", message.strip())
-    return _discovery_prompt(conversation)
+    if _is_problem_description(message):
+        conversation.answers.setdefault("problem", message.strip())
+    return _next_discovery_reply(conversation, use_llm)

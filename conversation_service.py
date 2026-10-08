@@ -15,6 +15,29 @@ from router import MessageRouter, RouterClassification, asks_question, asks_sele
 from tools import ToolRegistry, default_registry
 
 
+_EXPLICIT_CLOSURE_RE = re.compile(
+    r"\b(?:"
+    r"that(?:'s| is)\s+(?:all|everything|it|enough)\b"
+    r"|i(?:'m| am)\s+(?:all\s+(?:set|done)|done|finished)\b"
+    r"|all\s+set\b"
+    r"|done\s+for\s+now\b"
+    r"|finished\s+for\s+now\b"
+    r"|no\s+more\s+questions\b"
+    r"|nothing\s+else\b"
+    r")",
+    re.I,
+)
+_COURTESY_ONLY_RE = re.compile(
+    r"^\s*(?:thanks?|thank\s+you|cheers|"
+    r"(?:(?:i\s+)?(?:really\s+|truly\s+)?appreciate\s+(?:it|that|your help|your assistance|"
+    r"the help|the assistance|the explanation))|much appreciated)"
+    r"(?:\s+(?:very much|so much|a lot|again|for (?:your|the) "
+    r"(?:help|assistance|explanation|information|details|support)|for that))*"
+    r"[.! ]*$",
+    re.I,
+)
+
+
 @dataclass(frozen=True)
 class TurnResult:
     reply: str
@@ -22,6 +45,7 @@ class TurnResult:
     category: str
     retrieval_mode: str
     human_review_required: bool
+    review_labels: tuple[str, ...] = ()
 
 
 class ConversationService:
@@ -56,8 +80,15 @@ class ConversationService:
         *,
         site_id: str = "default",
         manufacturer_scope: str | None = None,
+        use_llm: bool | None = None,
     ) -> TurnResult:
+        phrase_with_model = self.use_llm if use_llm is None else use_llm
+        explicit_closure = bool(
+            _EXPLICIT_CLOSURE_RE.search(message) and not asks_question(message)
+        )
+        courtesy_only = bool(_COURTESY_ONLY_RE.fullmatch(message))
         conversation.recommendation = None
+        family_introduction = self.product_answers.family_introduction(message)
         if conversation.mode == "selection" and conversation.answers.get("problem") and not conversation.done:
             if conversation.step >= len(agent_core.QUESTIONS):
                 conversation.mode = "capture"
@@ -75,7 +106,9 @@ class ConversationService:
         )
         if opening_brief:
             classification = RouterClassification("product-fit", 1.0)
-        if classification.category == "product-fit" and conversation.mode == "enquiry" and self.product_answers.definition(message) and not asks_selection(message):
+        if (classification.category == "product-fit" and conversation.mode == "enquiry"
+                and (self.product_answers.definition(message) or family_introduction)
+                and not asks_selection(message)):
             classification = RouterClassification("informational", 1.0)
         callback_request = bool(re.search(
             r"^(?:please\s+|(?:can|could)\s+(?:you|someone|the team)\s+)?(?:call me|contact me|call back|acll back)\b"
@@ -88,6 +121,7 @@ class ConversationService:
             and any(agent_core.parse_contact_details(message).values())
         )
         products = [] if supplied_contact else self.product_answers.resolve(message, manufacturer_scope)
+        matched_product_option = False
         if conversation.product_options and not products and not message.strip().isdigit():
             words = set(re.findall(r"[a-z0-9]+", message.casefold()))
             option_matches = []
@@ -105,11 +139,14 @@ class ConversationService:
                 if len(best_matches) == 1:
                     products = best_matches
                     matched_product_option = True
+        if family_introduction and not asks_selection(message):
+            products = []
+            conversation.topic_products = []
+            conversation.product_options = []
         if opening_brief or (conversation.mode == "discovery" and not asks_question(message) and not asks_selection(message) and (
             agent_core.extract_turn_details(message) or agent_core.discovery.observed(message)
         )):
             products = []
-        matched_product_option = False
         if conversation.product_options and message.strip().isdigit():
             index = int(message.strip()) - 1
             if 0 <= index < len(conversation.product_options):
@@ -184,6 +221,8 @@ class ConversationService:
             and re.fullmatch(r"\s*(?:can I\s+)?(?:skip|no thanks|rather not)[?.! ]*", message, re.I)
         ):
             classification = RouterClassification("product-fit", 1.0)
+        if explicit_closure or courtesy_only:
+            classification = RouterClassification("greeting", 1.0)
 
         tool_result = self.tool_registry.dispatch(
             classification.category, message, conversation, site_id
@@ -191,12 +230,20 @@ class ConversationService:
         retrieval_mode = "none"
 
         if classification.category == "greeting":
-            reply = (
-                "You're welcome. I can help with another product question whenever you need."
-                if re.search(r"thank|cheers", message, re.I)
-                else agent_core.OPENING
-            )
-            if conversation.mode in {"discovery", "capture", "callback"} and not conversation.done:
+            if explicit_closure:
+                reply = (
+                    "No problem — I'll pause here. The details you've shared are unchanged; "
+                    "you can continue whenever you're ready."
+                )
+            elif courtesy_only or re.search(r"thank|cheers", message, re.I):
+                reply = "You're welcome. I can help with another product question whenever you need."
+            else:
+                reply = agent_core.OPENING
+            if (
+                not explicit_closure
+                and conversation.mode in {"discovery", "capture", "callback"}
+                and not conversation.done
+            ):
                 reply += "\n\n" + conversation.next_prompt()
         elif classification.category == "callback":
             conversation.review_required = True
@@ -214,16 +261,17 @@ class ConversationService:
                     conversation.step = len(agent_core.QUESTIONS)
                     conversation.lead.pop("declined", None)
                     conversation.lead_step = 1 if has_contact else 0
-                    reply = agent_core.LEAD_QUESTIONS[conversation.lead_step][1]
+                    conversation.lead.setdefault("handoff_consent_status", "not_recorded")
+                    reply = conversation.next_prompt()
             else:
                 if not conversation.capturing_lead:
                     conversation.mode = "capture"
                     conversation.discovery_ended_early = True
                     conversation.step = len(agent_core.QUESTIONS)
                     conversation.lead_step = 0
-                if not conversation.answers.get("problem"):
+                if not conversation.answers.get("problem") and agent_core._is_problem_description(message):
                     conversation.answers["problem"] = message.strip()
-                reply = agent_core.LEAD_QUESTIONS[conversation.lead_step][1]
+                reply = conversation.next_prompt()
         elif tool_result is not None:
             reply = tool_result.reply
             conversation.done = tool_result.done
@@ -246,8 +294,11 @@ class ConversationService:
             else:
                 reply = f"Sure — what would you like to know about {name}?"
         elif classification.is_informational:
-            definition = self.product_answers.definition(message) if not products else None
-            if products:
+            definition = self.product_answers.definition(message) if not products and not family_introduction else None
+            if family_introduction:
+                reply = family_introduction
+                retrieval_mode = "family-description"
+            elif products:
                 reply = self.product_answers.answer(message, products)
                 retrieval_mode = "product-evidence"
                 if re.search(r"\b(?:rating|r[\s-]?value|rw|nrc|density|install|stock|verified|review)\b", message + " " + reply, re.I):
@@ -285,7 +336,7 @@ class ConversationService:
             reply = agent_core.reply(
                 conversation,
                 message,
-                use_llm=self.use_llm,
+                use_llm=phrase_with_model,
                 manufacturer_scope=manufacturer_scope,
                 site_id=site_id,
             )
@@ -308,7 +359,7 @@ class ConversationService:
             interaction_store.log_conversation(
                 conversation_id=conversation.conversation_id,
                 site_id=site_id,
-                answers={**conversation.answers, "_message": message},
+                answers=conversation.answers,
                 recommendation=conversation.recommendation,
                 gate_status=conversation.gate[0] if conversation.gate else gate_status,
                 gate_reason=conversation.gate[1] if conversation.gate else gate_reason,
@@ -316,15 +367,38 @@ class ConversationService:
                 candidates=conversation.candidates,
             )
 
+        review_labels = []
+        if conversation.answers or conversation.mode in {"discovery", "capture", "callback"}:
+            review_labels.append("customer_project_facts_unverified")
+        if classification.category == "escalate" or re.search(
+            r"\b(?:NCC|BAL|fire[- ]rating|compliance|certif(?:ied|ication)|engineering design)\b",
+            message, re.I,
+        ):
+            review_labels.append("regulated_or_compliance_review_required")
+        if conversation.discovery_status.get("application") == "conflict":
+            review_labels.append("conflicting_application_requires_clarification")
+        elif re.search(r"\b(?:actually|correction|I meant|rather than|instead of)\b", message, re.I):
+            review_labels.append("customer_correction_recorded")
+        if classification.category in {"commercial", "size-availability", "freight", "tracking"}:
+            review_labels.append("sales_confirmation_required")
+        if conversation.done or conversation.review_required:
+            review_labels.append("internal_human_review_required")
+        if conversation.done and conversation.lead.get("handoff_consent_status") != "granted":
+            review_labels.append("neo_handoff_not_authorized_by_customer")
+        if conversation.done and conversation.lead.get("handoff_consent_status") == "granted":
+            review_labels.append("neo_handoff_requires_operator_approval")
+        human_review_required = bool(
+            review_labels
+            or conversation.done
+            or conversation.recommendation is not None
+            or conversation.review_required
+            or classification.category in {"commercial", "escalate"}
+        )
         return TurnResult(
             reply=reply,
             done=conversation.done,
             category=classification.category,
             retrieval_mode=retrieval_mode,
-            human_review_required=bool(
-                conversation.done
-                or conversation.recommendation is not None
-                or conversation.review_required
-                or classification.category in {"commercial", "escalate"}
-            ),
+            human_review_required=human_review_required,
+            review_labels=tuple(dict.fromkeys(review_labels)),
         )

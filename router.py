@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import re
 
+from aurora_persona import AURORA_CLASSIFIER_PROMPT
 import llm_client
 
 # Rules for fallback classification
@@ -139,21 +140,22 @@ class MessageRouter:
         return rules
 
     def _classify_llm(self, message: str) -> RouterClassification | None:
-        """Use the local model to classify. Returns None on failure."""
-        try:
-            prompt = CLASSIFIER_PROMPT.format(message=message[:500])
-            reply = llm_client.phrase(prompt, context={})
-
-            category = reply.strip().lower()
-            # Validate category
-            valid = {
-                "informational", "product-fit", "size-availability",
-                "commercial", "escalate", "freight", "tracking", "service_refusal",
-            }
-            if category in valid:
-                return RouterClassification(category, confidence=0.95)
-        except Exception:
-            pass
+        """Use the local model only for an advisory route label."""
+        prompt = CLASSIFIER_PROMPT.format(message=message[:500])
+        reply = llm_client.generate_reply(
+            AURORA_CLASSIFIER_PROMPT,
+            prompt,
+            max_tokens=16,
+        )
+        if not reply:
+            return None
+        category = reply.strip().casefold()
+        valid = {
+            "informational", "product-fit", "size-availability",
+            "commercial", "escalate", "freight", "tracking", "service_refusal",
+        }
+        if category in valid:
+            return RouterClassification(category, confidence=0.95)
         return None
 
     def _classify_rules(self, message: str) -> RouterClassification:

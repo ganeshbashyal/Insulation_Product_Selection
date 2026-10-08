@@ -22,30 +22,88 @@ label{display:grid;gap:5px;margin:7px 0}.row textarea{flex:1;resize:vertical;min
 .owner{background:#d6eee7;align-self:flex-end;border-top-right-radius:3px}
 .citation{font-size:.9rem;border-left:3px solid #278276;padding:7px 10px;margin-top:7px;overflow-wrap:anywhere}
 .citation small{display:block;color:#536675}.split{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.tabs{display:flex;gap:8px;margin:8px 0 14px;border-bottom:1px solid #ccd8de}
+.tabs button{border-radius:7px 7px 0 0}.tabs button[aria-selected="false"]{background:#e5edf1;color:#20333b;border-color:#ccd8de}
+.tab-panel[hidden]{display:none}
+.pricing-controls{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px;align-items:end}
+.pricing-controls label{margin:0}
+.pricing-input{background:#fff8cf}
+.pricing-table-wrap{overflow-x:auto;margin-top:12px}
+.pricing-table{width:100%;min-width:900px;border-collapse:collapse}
+.pricing-table th,.pricing-table td{padding:7px;border-bottom:1px solid #d6e0e5;text-align:left;vertical-align:top}
+.pricing-table th{background:#eaf1f4;position:sticky;top:0}
+.pricing-table input,.pricing-table select{width:100%;min-width:80px}
+.pricing-table td:first-child input{min-width:140px}
+.pricing-table td:last-child{white-space:nowrap}
+.pricing-table .row-action{padding:6px 8px;margin:1px}
+.pricing-table .lookup-price{padding:6px 8px;margin:1px;background:#255d83;border-color:#255d83}
+.pricing-table .price-source{display:block;white-space:normal;max-width:280px;margin:5px 2px;color:#536675;font-size:.82rem}
+.pricing-table .remove-row{background:#8b3434;border-color:#8b3434}
+.pricing-summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:8px}
+.summary-card{padding:10px;background:#e8f0f4;border-radius:8px}
+.summary-card strong{display:block;margin-top:3px}
+.pricing-line{padding:12px;margin:10px 0;border:1px solid #ccd8de;border-left:5px solid #47816c;border-radius:8px;background:#f8fbfc}
+.pricing-line.negative{border-left-color:#b42318;background:#fff0ef}
+.pricing-line.below_target{border-left-color:#bd7900;background:#fff7e5}
+.pricing-line.acceptable{border-left-color:#278052;background:#edfaf1}
+.pricing-metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:7px}
+.pricing-metrics>div{padding:7px;background:#e8f0f4;border-radius:6px;overflow-wrap:anywhere}
+.pricing-metrics span{display:block;color:#536675;font-size:.88rem}
+.inline-error{color:#a31f18;min-height:1.4em}
+.margin-negative{color:#a31f18}.margin-below{color:#8a4a00}.margin-good{color:#17683b}
 @media(max-width:850px){header,main{padding:9px}.layout{display:block}#messages{height:50vh}.bubble{max-width:96%}.split{grid-template-columns:1fr}}
+@media(max-width:600px){.pricing-table{min-width:0}.pricing-table thead{display:none}.pricing-table,.pricing-table tbody,.pricing-table tr,.pricing-table td{display:block;width:100%}.pricing-table tr{margin:10px 0;padding:8px;border:1px solid #d4e0e6;border-radius:8px;background:#fff}.pricing-table td{display:grid;grid-template-columns:minmax(95px,32%) minmax(0,1fr);gap:8px;padding:5px;border:0}.pricing-table td::before{content:attr(data-label);font-weight:600}.pricing-table td:last-child{white-space:normal}.pricing-table td:last-child::before{content:"Actions"}.pricing-table td:first-child input{min-width:0}.pricing-controls{grid-template-columns:1fr 1fr}.pricing-controls .toolbar{grid-column:1/-1}}
 </style>
 </head>
 <body>
 <header><div><h1>Neo</h1><p class="muted">Internal local sales copilot · conversations and review outputs stay separate from Oracle and Aurora</p></div><nav><a href="/matrix">Matrix manager</a></nav></header>
 <main>
 <p id="status" role="status" aria-live="polite"></p>
+<div class="tabs" role="tablist" aria-label="Neo tools">
+<button id="salesTab" type="button" role="tab" aria-selected="true" aria-controls="salesPanel">Sales Assistant</button>
+<button id="pricingTab" type="button" role="tab" aria-selected="false" aria-controls="pricingPanel" tabindex="-1">Pricing Calculator</button>
+</div>
+<section id="salesPanel" class="tab-panel" role="tabpanel" aria-labelledby="salesTab">
 <div class="layout">
 <aside>
-<section class="panel"><h2>Local model</h2><label>Ollama model<select id="model"><option value="">No model (local evidence fallback)</option></select></label><button id="refreshModels" type="button">Refresh models</button><p id="modelState" class="muted"></p></section>
+<section class="panel"><h2>Local model</h2><label>Ollama model<select id="model"><option value="">No model (deterministic fallback)</option></select></label><button id="refreshModels" type="button">Refresh models</button><p id="modelState" class="muted"></p></section>
 <section class="panel"><div class="toolbar"><h2>Conversations</h2><button id="newChat" type="button">New chat</button></div><div id="conversationList" class="list"></div></section>
 <section class="panel"><h2>Human-review outputs</h2><p class="muted">Neo can prepare drafts; review them before sharing. No CRM, email, customer, or production writes.</p><button id="reviewTask" type="button">Create review task</button> <button id="salesBrief" type="button">Prepare sales brief</button><div id="records" class="list"></div></section>
+<section class="panel"><h2>Aurora sales-review handoffs</h2><p class="muted">Only customer-consented, operator-approved project facts reach Neo through Matrix. The payload excludes contact details, source conversation/site IDs, and raw transcripts. Preparing a brief creates a Neo-only conversation and draft record.</p><div id="handoffs" class="list"></div></section>
 </aside>
 <section>
-<section class="panel"><div class="toolbar"><strong>Live-call support</strong><span class="muted">Local product/TDS evidence only · no cloud fallback</span><button id="clearChat" type="button">Clear current chat</button></div>
+<section class="panel"><div class="toolbar"><strong>Live-call copilot</strong><span class="muted">Free-flow local conversation · product claims stay evidence-gated · no cloud fallback</span><button id="clearChat" type="button">Clear current chat</button></div>
 <div id="conversationTitle" class="muted">Start a Neo conversation</div>
 <div id="messages" role="log" aria-live="polite"></div>
-<form id="messageForm" class="row"><textarea id="messageInput" rows="2" maxlength="4000" placeholder="Describe the customer's need or ask about a local product family…" required></textarea><button id="send">Ask Neo</button></form></section>
+<form id="messageForm" class="row"><textarea id="messageInput" rows="2" maxlength="4000" placeholder="Ask naturally, discuss the call, or check a product claim…" required></textarea><button id="send">Ask Neo</button></form></section>
 </section></div>
+</section>
+<section id="pricingPanel" class="tab-panel" role="tabpanel" aria-labelledby="pricingTab" hidden>
+<section class="panel">
+<div class="toolbar"><div><h2>Pricing &amp; Margin Calculator</h2><p class="muted">Deterministic calculation only. GST-exclusive values drive cost, profit and margin; quote totals show both tax bases.</p></div></div>
+<div class="pricing-controls">
+<label>Pricing basis<select id="pricingBasis"><option value="ex">Ex GST</option><option value="inc">Inc GST</option></select></label>
+<label>GST rate (%)<input id="gstRate" class="pricing-input" type="number" min="0" max="100" step="any" value="10"></label>
+<label>Minimum margin target (%)<input id="targetMargin" class="pricing-input" type="number" min="0" max="100" step="any" value="25"></label>
+<div class="toolbar"><button id="addPricingItem" type="button">Add item</button><button id="calculatePricing" type="button">Calculate</button><button id="resetPricing" type="button">Reset calculator</button></div>
+</div>
+<p id="pricingStatus" class="muted" role="status" aria-live="polite">Add a line item to begin. Nothing is saved.</p>
+<p class="muted">Melbourne V3 lookup uses an exact SKU match from the local staff price workbook. Buy and sell values load in the selected input basis; margins remain ex GST. The workbook is read-only and prices are not saved.</p>
+<div id="pricingSummary" class="pricing-summary" aria-live="polite"></div>
+<div class="pricing-table-wrap">
+<table class="pricing-table">
+<thead><tr><th>Description</th><th>SKU</th><th>Quantity</th><th>Unit</th><th>Buy / unit</th><th>Additional / unit</th><th>Standard sell / unit</th><th>Discount %</th><th>Notes</th><th>Actions</th></tr></thead>
+<tbody id="pricingItems"></tbody>
+</table>
+</div>
+<section id="pricingLineResults" aria-label="Calculated item results"></section>
+</section>
+</section>
 </main>
 <script>
 "use strict";
 const $=id=>document.getElementById(id);
-let csrf="",conversation=null,messages=[],busy=false;
+let csrf="",conversation=null,messages=[],busy=false,comparisonReady=false,defaultModel="";
 function node(tag,text){const item=document.createElement(tag);if(text!==undefined)item.textContent=String(text);return item;}
 function status(text,error=false){$("status").textContent=text;$("status").className=error?"warning":"";}
 async function api(path,method="GET",data){
@@ -53,10 +111,23 @@ async function api(path,method="GET",data){
  if(method!=="GET"&&csrf)headers["X-Neo-CSRF"]=csrf;
  const result=await fetch(path,{method,headers,credentials:"same-origin",cache:"no-store",body:data===undefined?undefined:JSON.stringify(data)});
  let body;try{body=await result.json();}catch{throw new Error("Neo returned an unreadable response.");}
- if(!result.ok)throw new Error(typeof body.detail==="string"?body.detail:"Neo request rejected");
+ if(!result.ok){
+  if(Array.isArray(body.detail)){
+   const messages=body.detail.map(issue=>{
+    const parts=(issue.loc||[]).filter(part=>part!=="body");
+    const itemIndex=parts.findIndex(part=>part==="items");
+    const field=parts.length?String(parts[parts.length-1]).replaceAll("_"," "):"Input";
+    const prefix=itemIndex>=0?`Item ${Number(parts[itemIndex+1])+1} · `:"";
+    return `${prefix}${field}: ${issue.msg||"is invalid"}`;
+   });
+   throw new Error(messages.join(" · ")||"Please check the calculator inputs.");
+  }
+  throw new Error(typeof body.detail==="string"?body.detail:"Neo request rejected");
+ }
  return body;
 }
 function action(fn){return async event=>{if(event)event.preventDefault();try{await fn();}catch(error){status(error.message,true);}};}
+function notifyComparison(message,ready){if(window.parent!==window)window.parent.postMessage({type:"assistant-status",message,ready},location.origin);}
 function drawCitations(parent,items){
  for(const source of items||[]){
   const card=node("div");card.className="citation";
@@ -79,7 +150,7 @@ async function refreshConversations(){
  const result=await api("/api/neo/conversations");$("conversationList").replaceChildren();
  for(const item of result.conversations){
   const button=node("button",`${item.title} · ${item.message_count} messages`);
-  button.onclick=action(async()=>{const opened=await api(`/api/neo/conversations/${encodeURIComponent(item.conversation_id)}/messages`);conversation=opened.conversation;messages=opened.messages;$("model").value=conversation.model;drawMessages();$("conversationTitle").textContent=conversation.title;});
+  button.onclick=action(async()=>{const opened=await api(`/api/neo/conversations/${encodeURIComponent(item.conversation_id)}/messages`);conversation=opened.conversation;if(!conversation.model&&defaultModel){$("model").value=defaultModel;await saveModel();}else{$("model").value=conversation.model;}messages=opened.messages;drawMessages();$("conversationTitle").textContent=conversation.title;});
   $("conversationList").append(button);
  }
 }
@@ -94,13 +165,33 @@ async function saveModel(){
 }
 async function loadModels(){
  $("modelState").textContent="Checking local Ollama…";
- const result=await api("/api/neo/models");$("model").replaceChildren(new Option("No model (local evidence fallback)",""));
+ const selected=$("model").value;
+ const result=await api("/api/neo/models");$("model").replaceChildren(new Option("No model (deterministic fallback)",""));
  for(const name of result.models)$("model").append(new Option(name,name));
- $("modelState").textContent=result.available?`${result.models.length} local model(s) available`:result.error||"Ollama unavailable; evidence fallback only";
+ defaultModel=result.default_model||"";
+ $("model").value=selected&&result.models.includes(selected)?selected:defaultModel;
+ $("modelState").textContent=result.available?`${result.models.length} local model(s) available${defaultModel?` · using resident ${defaultModel}`:""}`:result.error||"Ollama unavailable; deterministic fallback only";
 }
 async function loadRecords(){
  const result=await api("/api/neo/records");$("records").replaceChildren();
  for(const row of result.records){const details=node("details"),summary=node("summary",row.title),content=node("pre",row.content);details.append(summary,content);drawCitations(details,row.source_refs);$("records").append(details);}
+}
+async function loadAuroraHandoffs(){
+ const result=await api("/api/neo/aurora-handoffs");$("handoffs").replaceChildren();
+ for(const item of result.handoffs){
+  const card=node("section"),summary=node("strong",`Aurora handoff ${item.payload.handoff_id.slice(0,12)} · ${item.created_at}`);
+  const content=node("pre",JSON.stringify(item.payload,null,2));
+  const prepare=node("button","Prepare Neo sales brief");prepare.type="button";
+  prepare.onclick=action(async()=>{
+   const model=$("model").value;if(!model)throw new Error("Select an installed local model to prepare a Neo brief.");
+   const created=await api(`/api/neo/aurora-handoffs/${encodeURIComponent(item.payload.handoff_id)}/brief`,"POST",{model});
+   conversation=created.conversation;messages=created.messages;$("model").value=conversation.model;
+   $("conversationTitle").textContent=conversation.title;drawMessages();
+   await Promise.all([refreshConversations(),loadRecords()]);
+   status(created.model_status==="fallback"?"Neo saved a grounded fallback draft; review its evidence before use.":"Neo prepared a local draft; review its evidence before use.");
+  });
+  card.append(summary,content,prepare);$("handoffs").append(card);
+ }
 }
 async function saveRecord(record_type){
  if(!conversation)throw new Error("Start a Neo conversation first.");
@@ -110,9 +201,12 @@ async function saveRecord(record_type){
 async function boot(){
  try{
   const session=await api("/api/neo/session");csrf=session.csrf;
-  await Promise.all([loadModels(),refreshConversations(),loadRecords()]);
+  if(session.persona_id!=="neo")throw new Error("Unexpected persona session.");
+  await Promise.all([loadModels(),refreshConversations(),loadRecords(),loadAuroraHandoffs()]);
   status("Neo is ready. Its conversation and review records are separate from Oracle and Aurora.");
- }catch(error){status(error.message,true);}
+  comparisonReady=true;
+  notifyComparison("Neo is ready.",true);
+ }catch(error){comparisonReady=false;status(error.message,true);notifyComparison("Neo is unavailable: "+error.message,false);}
 }
 $("newChat").onclick=action(newConversation);
 $("clearChat").onclick=action(async()=>{
@@ -137,7 +231,263 @@ $("messageForm").onsubmit=action(async()=>{
  }catch(error){messages.pop();$("messageInput").value=text;drawMessages();throw error;}
  finally{busy=false;$("send").disabled=false;$("messageInput").focus();}
 });
+window.addEventListener("message",event=>{
+ if(event.source!==window.parent||event.origin!==location.origin||!event.data)return;
+ if(event.data.type==="assistant-status-request"){
+  notifyComparison(comparisonReady?"Neo is ready.":"Neo is still initializing.",comparisonReady);
+  return;
+ }
+ if(event.data.type!=="assistant-compare-prompt"||typeof event.data.prompt!=="string")return;
+ const prompt=event.data.prompt.trim();
+ if(!prompt||prompt.length>4000)return;
+ if(busy){notifyComparison("Neo is already processing a prompt.",true);return;}
+ $("messageInput").value=prompt;
+ $("messageForm").requestSubmit();
+});
 window.addEventListener("pagehide",()=>{csrf="";messages=[];conversation=null;});
+
+const PRICING_UNITS=["Each","Pack","Roll","Bag","m²"];
+let pricingTimer=null,pricingRequestNumber=0;
+function setTab(tab){
+ const pricing=tab==="pricing";
+ $("salesTab").setAttribute("aria-selected",String(!pricing));
+ $("salesTab").tabIndex=pricing?-1:0;
+ $("pricingTab").setAttribute("aria-selected",String(pricing));
+ $("pricingTab").tabIndex=pricing?0:-1;
+ $("salesPanel").hidden=pricing;
+ $("pricingPanel").hidden=!pricing;
+}
+function pricingStatus(text,error=false){
+ $("pricingStatus").textContent=text;
+ $("pricingStatus").className=error?"inline-error":"muted";
+}
+function addPricingField(row,field,label,type,value,attributes={}){
+ const cell=node("td");cell.dataset.label=label;
+ const control=node(type==="select"?"select":"input");
+ control.dataset.field=field;
+ control.className="pricing-input";
+ control.setAttribute("aria-label",label);
+ if(type==="select"){
+  for(const unit of PRICING_UNITS)control.add(new Option(unit,unit));
+  if(value&&!PRICING_UNITS.includes(value))control.add(new Option(value,value));
+  control.value=value||"Each";
+ }else{
+  control.type=type;
+  for(const [name,setting] of Object.entries(attributes))control.setAttribute(name,String(setting));
+  control.value=value??"";
+ }
+ control.addEventListener("input",schedulePricingCalculation);
+ control.addEventListener("change",schedulePricingCalculation);
+  if(["sku","description","unit_type","buy_price","sell_price"].includes(field)){
+   const clearPriceSource=()=>{
+    if(row.dataset.melbournePriceSource){
+     delete row.dataset.melbournePriceSource;
+     row.querySelector(".price-source").textContent="Source label cleared after a manual edit.";
+    }
+   };
+   control.addEventListener("input",clearPriceSource);
+   control.addEventListener("change",clearPriceSource);
+  }
+  cell.append(control);row.append(cell);
+ return control;
+}
+function addPricingItem(values={}){
+ const row=node("tr");row.className="pricing-item";
+ addPricingField(row,"description","Description","text",values.description||"",{maxlength:200});
+ addPricingField(row,"sku","SKU","text",values.sku||"",{maxlength:120});
+ addPricingField(row,"quantity","Quantity","number",values.quantity??"1",{min:0,step:"any"});
+ addPricingField(row,"unit_type","Unit","select",values.unit_type||"Each");
+ addPricingField(row,"buy_price","Buy / unit","number",values.buy_price??"0",{min:0,step:"any"});
+ addPricingField(row,"additional_cost","Additional / unit","number",values.additional_cost??"0",{min:0,step:"any"});
+ addPricingField(row,"sell_price","Standard sell / unit","number",values.sell_price??"0",{min:0,step:"any"});
+ addPricingField(row,"discount_percent","Discount %","number",values.discount_percent??"0",{min:0,max:100,step:"any"});
+ addPricingField(row,"notes","Notes","text",values.notes||"",{maxlength:1000});
+ const actions=node("td");actions.dataset.label="Actions";
+ let lookupSequence=0;
+ const lookup=node("button","Load Melbourne prices");lookup.type="button";lookup.className="row-action lookup-price";
+ lookup.setAttribute("aria-label","Load exact Melbourne V3 prices for this SKU");
+ const source=node("small");source.className="price-source";
+ lookup.onclick=async()=>{
+  const sku=row.querySelector('[data-field="sku"]').value.trim();
+  if(!sku){pricingStatus("Enter an SKU before looking up Melbourne prices.",true);return;}
+  const basis=$("pricingBasis").value==="inc",gst=$("gstRate").value.trim();
+  if(!gst){pricingStatus("GST rate is required for the price lookup.",true);return;}
+  const sequence=++lookupSequence;lookup.disabled=true;pricingStatus("Looking up exact SKU in the local V3 Melbourne workbook…");
+  try{
+   const result=await api("/api/pricing/melbourne-lookup","POST",{
+    sku,prices_include_gst:basis,gst_rate:gst
+   });
+   if(!row.isConnected||sequence!==lookupSequence)return;
+   if(row.querySelector('[data-field="sku"]').value.trim()!==sku
+      ||($("pricingBasis").value==="inc")!==basis||$("gstRate").value.trim()!==gst){
+    pricingStatus("Lookup result not applied because the SKU or GST basis changed. Run the lookup again.",true);return;
+   }
+   row.querySelector('[data-field="buy_price"]').value=result.buy_price;
+   row.querySelector('[data-field="sell_price"]').value=result.sell_price;
+   const unit=row.querySelector('[data-field="unit_type"]');
+   if(![...unit.options].some(option=>option.value===result.unit_type))unit.add(new Option(result.unit_type,result.unit_type));
+   unit.value=result.unit_type;
+   const description=row.querySelector('[data-field="description"]');
+   if(!description.value.trim())description.value=result.description;
+   const updated=result.effective_date?` · Updated ${result.effective_date}`:"";
+   row.dataset.melbournePriceSource="true";
+   row.dataset.priceSourceBasis=basis?"inc":"ex";
+   row.dataset.priceSourceGst=gst;
+   source.textContent=`${result.source_file} · Buy: ${result.buy_source_sheet} · Sell: ${result.sell_source_sheet}${updated} · ${result.availability_status}`;
+   pricingStatus(`Loaded exact Melbourne V3 prices for ${result.sku}. Source details are shown on the item row.`);
+   schedulePricingCalculation();
+  }catch(error){
+   if(row.isConnected&&sequence===lookupSequence)pricingStatus(error.message,true);
+  }finally{
+   if(sequence===lookupSequence)lookup.disabled=false;
+  }
+ };
+ const duplicate=node("button","Duplicate");duplicate.type="button";duplicate.className="row-action";
+ duplicate.setAttribute("aria-label","Duplicate item");
+ duplicate.onclick=()=>{addPricingItem(readPricingItem(row));schedulePricingCalculation();};
+ const remove=node("button","Remove");remove.type="button";remove.className="row-action remove-row";
+ remove.setAttribute("aria-label","Remove item");
+ remove.onclick=()=>{row.remove();schedulePricingCalculation();};
+ actions.append(lookup,duplicate,remove,source);row.append(actions);
+ $("pricingItems").append(row);
+}
+function readPricingItem(row){
+ const item={};
+ for(const field of row.querySelectorAll("[data-field]"))item[field.dataset.field]=field.value;
+ item.additional_cost=item.additional_cost.trim()||"0";
+ item.discount_percent=item.discount_percent.trim()||"0";
+ return item;
+}
+function pricingRequestBody(){
+ const rows=[...$("pricingItems").querySelectorAll(".pricing-item")];
+ const items=rows.map((row,index)=>{
+  const item=readPricingItem(row);
+  for(const field of ["quantity","buy_price","sell_price"]){
+   if(!item[field].trim())throw new Error(`Item ${index+1} · ${field.replaceAll("_"," ")} is required.`);
+  }
+  return item;
+ });
+ const gst=$("gstRate").value.trim(),target=$("targetMargin").value.trim();
+ if(!gst)throw new Error("GST rate is required.");
+ if(!target)throw new Error("Minimum margin target is required.");
+ return {items,prices_include_gst:$("pricingBasis").value==="inc",gst_rate:gst,target_margin_percent:target};
+}
+function formatMoney(value){
+ const amount=Number(value);
+ return Number.isFinite(amount)
+  ?new Intl.NumberFormat("en-AU",{style:"currency",currency:"AUD",minimumFractionDigits:2,maximumFractionDigits:2}).format(amount)
+  :String(value);
+}
+function formatPercent(value){const amount=Number(value);return Number.isFinite(amount)?`${amount.toFixed(2)}%`:String(value);}
+function summaryCard(label,value){
+ const card=node("div");card.className="summary-card";card.append(node("span",label),node("strong",value));return card;
+}
+function renderPricingSummary(totals){
+ const summary=$("pricingSummary");summary.replaceChildren();
+ const quantities=Object.entries(totals.quantities_by_unit||{}).map(([unit,value])=>`${value} ${unit}`).join(" · ")||"—";
+ summary.append(
+  summaryCard("Products",totals.product_count),
+  summaryCard("Total quantity (by unit)",quantities),
+  summaryCard("Revenue / quote · Ex GST",formatMoney(totals.total_revenue_ex_gst)),
+  summaryCard("Quote total · Inc GST",formatMoney(totals.total_revenue_inc_gst)),
+  summaryCard("Total cost · Ex GST",formatMoney(totals.total_cost)),
+  summaryCard("Gross profit · Ex GST",formatMoney(totals.total_gross_profit)),
+  summaryCard("Weighted gross margin",formatPercent(totals.weighted_margin_percent)),
+  summaryCard("Total discount · Ex GST",formatMoney(totals.total_discount_ex_gst)),
+  summaryCard("Total discount · Inc GST",formatMoney(totals.total_discount_inc_gst))
+ );
+}
+function metric(label,value){
+ const item=node("div");item.append(node("span",label),node("strong",value));return item;
+}
+function renderPricingLines(lines){
+ const results=$("pricingLineResults");results.replaceChildren();
+ for(const [index,line] of lines.entries()){
+  const card=node("article");card.className=`pricing-line ${line.margin_status}`;
+  const title=node("div");title.className="toolbar";
+  title.append(node("h3",line.description||line.sku||`Item ${index+1}`));
+  const state=node("strong",line.margin_status.replaceAll("_"," "));
+  state.className=line.margin_status==="negative"?"margin-negative":line.margin_status==="below_target"?"margin-below":"margin-good";
+  title.append(state);
+  if(line.sku&&line.description)title.append(node("span",`SKU ${line.sku}`));
+  if(line.notes)title.append(node("p",line.notes));
+  const metrics=node("div");metrics.className="pricing-metrics";
+  metrics.append(
+   metric("Quantity",`${line.quantity} ${line.unit_type}`),
+   metric("Buy / unit · Ex GST",formatMoney(line.buy_price_ex_gst)),
+   metric("Additional / unit · Ex GST",formatMoney(line.additional_cost_ex_gst)),
+   metric("Standard sell / unit · Ex GST",formatMoney(line.sell_price_ex_gst)),
+   metric("Landed cost / unit",formatMoney(line.landed_cost_per_unit)),
+   metric("Net sell / unit",formatMoney(line.net_sell_price_per_unit)),
+   metric("Revenue · Ex GST",formatMoney(line.revenue_ex_gst)),
+   metric("Quote · Inc GST",formatMoney(line.revenue_inc_gst)),
+   metric("Total cost · Ex GST",formatMoney(line.total_cost)),
+   metric("Gross profit · Ex GST",formatMoney(line.gross_profit)),
+   metric("Gross margin",formatPercent(line.margin_percent)),
+   metric("Markup",formatPercent(line.markup_percent)),
+   metric("Discount · Ex GST",formatMoney(line.discount_value_ex_gst)),
+   metric("Discount · Inc GST",formatMoney(line.discount_value_inc_gst))
+  );
+  card.append(title,metrics);results.append(card);
+ }
+}
+function schedulePricingCalculation(){
+ clearTimeout(pricingTimer);
+ pricingTimer=setTimeout(calculatePricing,180);
+}
+async function calculatePricing(){
+ const requestNumber=++pricingRequestNumber;
+ let body;
+ try{body=pricingRequestBody();}
+ catch(error){$("pricingSummary").replaceChildren();$("pricingLineResults").replaceChildren();pricingStatus(error.message,true);return;}
+ pricingStatus("Calculating…");
+ try{
+  const result=await api("/api/pricing/calculate","POST",body);
+  if(requestNumber!==pricingRequestNumber)return;
+  renderPricingSummary(result.totals);
+  renderPricingLines(result.lines);
+  pricingStatus(result.validation_messages.length?result.validation_messages.join(" "):"Calculated locally. Pricing data is not saved.");
+ }catch(error){
+  if(requestNumber!==pricingRequestNumber)return;
+  $("pricingSummary").replaceChildren();$("pricingLineResults").replaceChildren();
+  pricingStatus(error.message,true);
+ }
+}
+$("salesTab").onclick=()=>setTab("sales");
+$("pricingTab").onclick=()=>setTab("pricing");
+for(const tab of [$("salesTab"),$("pricingTab")])tab.addEventListener("keydown",event=>{
+ if(event.key!=="ArrowLeft"&&event.key!=="ArrowRight")return;
+ event.preventDefault();const next=tab.id==="salesTab"?$("pricingTab"):$("salesTab");next.focus();setTab(next=== $("pricingTab")?"pricing":"sales");
+});
+$("addPricingItem").onclick=()=>{addPricingItem();schedulePricingCalculation();};
+$("calculatePricing").onclick=calculatePricing;
+$("resetPricing").onclick=()=>{
+ clearTimeout(pricingTimer);pricingRequestNumber++;
+ $("pricingItems").replaceChildren();$("pricingSummary").replaceChildren();$("pricingLineResults").replaceChildren();
+ $("pricingBasis").value="ex";$("gstRate").value="10";$("targetMargin").value="25";
+ pricingStatus("Calculator reset. Nothing is saved.");
+};
+function pricingBasisChanged(){
+ let invalidated=0;
+ for(const row of $("pricingItems").querySelectorAll(".pricing-item")){
+  if(!row.dataset.melbournePriceSource)continue;
+  row.querySelector('[data-field="buy_price"]').value="";
+  row.querySelector('[data-field="sell_price"]').value="";
+  delete row.dataset.melbournePriceSource;
+  delete row.dataset.priceSourceBasis;
+  delete row.dataset.priceSourceGst;
+  row.querySelector(".price-source").textContent="Lookup cleared after GST basis/rate changed; run the lookup again.";
+  invalidated++;
+ }
+ if(invalidated)pricingStatus("GST basis or rate changed. Reload Melbourne prices for the affected rows before calculating.");
+ schedulePricingCalculation();
+}
+for(const id of ["pricingBasis","gstRate"]){
+ $(id).addEventListener("input",pricingBasisChanged);
+ $(id).addEventListener("change",pricingBasisChanged);
+}
+ $("targetMargin").addEventListener("input",schedulePricingCalculation);
+ $("targetMargin").addEventListener("change",schedulePricingCalculation);
 boot();
 </script>
 </body>

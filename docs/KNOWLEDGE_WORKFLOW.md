@@ -6,6 +6,16 @@ Literal alternatives remain visible; neither duplicate copies nor historical
 `ok`/approved headings prove a current claim. Lost originals remain
 `legacy_supplied_original_unavailable`, not discarded knowledge.
 
+Set paths for your own workstation before running the PowerShell examples:
+
+```powershell
+$CacheRoot = Join-Path $env:USERPROFILE 'Desktop\Cache'
+$KnowledgeCache = Join-Path $CacheRoot 'AuroraKnowledge'
+$Workbook = Join-Path $env:USERPROFILE 'Documents\missing_tds_products.xlsx'
+$ProductFiles = Join-Path $env:USERPROFILE 'Desktop\Vault\product_files'
+$PrivateRoot = Join-Path $env:USERPROFILE 'AuroraPrivate'
+```
+
 ## Fresh Desktop TDS build
 
 `scripts\fresh_tds_build.py` orchestrates existing download URL handling, full-page
@@ -15,7 +25,7 @@ matches never silently create identity. Displayed/hyperlink conflicts are held.
 Simple local cell references are resolved as candidate values, not evaluated
 Excel formulas. Existing-page links are not silently used as additional TDS.
 
-The managed archive is `C:\Users\ganes\Desktop\Cache\AuroraKnowledge`:
+The managed archive is `$KnowledgeCache`:
 `originals` contains immutable content-hash PDFs/DOCX, `extraction` persists all
 page/paragraph text, and `builds` holds original workbook, input manifest,
 download/model receipts and versioned private family packs. Existing Desktop
@@ -23,13 +33,13 @@ cache/worktree documents remain untouched. Identical originals are deduplicated;
 all family associations survive. Unknown hash-named files stay unassigned.
 
 ```powershell
-python scripts\fresh_tds_build.py --cache 'C:\Users\ganes\Desktop\Cache' preview --workbook 'D:\Aurora\missing_tds_products.xlsx'
-python scripts\fresh_tds_build.py --cache 'C:\Users\ganes\Desktop\Cache' start --workbook 'D:\Aurora\missing_tds_products.xlsx' --confirm EXACT_BUILD_ID
-python scripts\fresh_tds_build.py --cache 'C:\Users\ganes\Desktop\Cache' download EXACT_BUILD_ID --family FAMILY_ID --limit 10
-python scripts\fresh_tds_build.py --cache 'C:\Users\ganes\Desktop\Cache' extract EXACT_BUILD_ID --family FAMILY_ID
-python scripts\fresh_tds_build.py --cache 'C:\Users\ganes\Desktop\Cache' model EXACT_BUILD_ID --family FAMILY_ID --limit 5
-python scripts\fresh_tds_build.py --cache 'C:\Users\ganes\Desktop\Cache' status EXACT_BUILD_ID
-python scripts\fresh_tds_build.py --cache 'C:\Users\ganes\Desktop\Cache' packs EXACT_BUILD_ID --family FAMILY_ID
+python scripts\fresh_tds_build.py --cache $CacheRoot preview --workbook $Workbook
+python scripts\fresh_tds_build.py --cache $CacheRoot start --workbook $Workbook --confirm EXACT_BUILD_ID
+python scripts\fresh_tds_build.py --cache $CacheRoot download EXACT_BUILD_ID --family FAMILY_ID --limit 10
+python scripts\fresh_tds_build.py --cache $CacheRoot extract EXACT_BUILD_ID --family FAMILY_ID
+python scripts\fresh_tds_build.py --cache $CacheRoot model EXACT_BUILD_ID --family FAMILY_ID --limit 5
+python scripts\fresh_tds_build.py --cache $CacheRoot status EXACT_BUILD_ID
+python scripts\fresh_tds_build.py --cache $CacheRoot packs EXACT_BUILD_ID --family FAMILY_ID
 ```
 
 The importer also accepts a progress-table sheet with `Family` values ending in
@@ -60,7 +70,7 @@ of applicability. Raw local review receipts are saved and reused for identical
 inputs; malformed or truncated reviews stop explicitly.
 
 ```powershell
-python scripts\audit_family_gaps.py EXACT_BUILD_ID --cache 'C:\Users\ganes\Desktop\Cache' --output 'C:\Users\ganes\Desktop\Cache\AuroraKnowledge\reports\family-gap-audit'
+python scripts\audit_family_gaps.py EXACT_BUILD_ID --cache $CacheRoot --output (Join-Path $KnowledgeCache 'reports\family-gap-audit')
 ```
 
 Read `audit.md` for advisory findings and `audit.json` for exact supplied rows,
@@ -102,8 +112,8 @@ Once collection is frozen, compile the existing cache rather than retrying
 blocked downloads. No document is moved/deleted or claim approved:
 
 ```powershell
-python scripts\review_unassigned_tds.py EXACT_BUILD_ID --cache 'C:\Users\ganes\Desktop\Cache'
-python scripts\compile_tds_register.py EXACT_BUILD_ID --cache 'C:\Users\ganes\Desktop\Cache'
+python scripts\review_unassigned_tds.py EXACT_BUILD_ID --cache $CacheRoot
+python scripts\compile_tds_register.py EXACT_BUILD_ID --cache $CacheRoot
 ```
 
 The first command uses installed local Llama serially for only unassigned
@@ -120,11 +130,19 @@ and copyable Windows paths, with same-file links from the summary. Refreshing th
 report preserves these details. Local file-link launching depends on the viewer;
 the displayed Windows path remains usable independently.
 
-Each family row links to `http://127.0.0.1:8001/chat?family_id=FAMILY_ID`,
-opening the local bot with that exact family preselected as conversation context.
-Use the chat to ask questions or provide conversational review input. This is a
-local test harness; do not enter customer personal information. Messages are not
-claim/SKU approvals and do not publish or deploy anything.
+Each family row's **Chat with bot** link opens
+`http://127.0.0.1:8001/admin/family-manager?family_id=FAMILY_ID`, selecting that
+exact family in the local Family Knowledge Manager. Work one family/product at
+a time: inspect the current local knowledge and source states, verify details,
+identify gaps, and prepare structured source-attributed updates. A selected
+already-installed loopback Ollama model may help analyze and draft; no network
+or cloud model is used.
+
+The manager keeps resumable conversations, proposals and versioned approved
+changes in its isolated local store. An explicit approval writes only to its
+separate private authoring copy. It never edits canonical `knowledge/*` files,
+source documents, publication state, serving releases or deployment packages.
+Aurora `/chat` remains the customer-enquiry demo, and Oracle remains separate.
 
 ### Staff-release SKU overlay
 
@@ -141,7 +159,7 @@ python scripts\ingest_staff_release_skus.py --source 'C:\path\to\staff-release.x
 # Or apply a partial or complete source-hash-bound map without replacing the current inventory:
 python scripts\ingest_staff_release_skus.py --existing-inventory data\local\staff_release_skus.json --family-map data\local\staff_release_family_map.json --output data\local\staff_release_skus_model_candidate.json
 python scripts\generate_family_literature.py --sku-inventory data\local\staff_release_skus_model_candidate.json --confirm-draft-write
-python scripts\fresh_tds_build.py --cache 'C:\Users\ganes\Desktop\Cache' report EXACT_BUILD_ID --sku-inventory data\local\staff_release_skus_model_candidate.json --links-workbook 'C:\path\to\verified-current-links.xlsx'
+python scripts\fresh_tds_build.py --cache $CacheRoot report EXACT_BUILD_ID --sku-inventory data\local\staff_release_skus_model_candidate.json --links-workbook 'C:\path\to\verified-current-links.xlsx'
 ```
 
 The local SKU inventory binds to the source workbook SHA-256, excludes inactive
@@ -402,8 +420,8 @@ currency, or technical claim approval.
 For command-line use:
 
 ```powershell
-python scripts\reconcile_vault_product_files.py --product-files 'C:\Users\ganes\Desktop\Vault\product_files'
-python scripts\reconcile_vault_product_files.py --product-files 'C:\Users\ganes\Desktop\Vault\product_files' --write-local-reports --confirm-local-only
+python scripts\reconcile_vault_product_files.py --product-files $ProductFiles
+python scripts\reconcile_vault_product_files.py --product-files $ProductFiles --write-local-reports --confirm-local-only
 ```
 
 The family literature generator no longer truncates large SKU ranges; it emits
@@ -464,7 +482,7 @@ After starting a confirmed build, a bounded orchestration command runs downloads
 extraction, local model tasks and pack generation without Copilot interaction:
 
 ```powershell
-python scripts\fresh_tds_build.py --cache 'C:\Users\ganes\Desktop\Cache' run EXACT_BUILD_ID --family FAMILY_ID --download-limit 10 --model-limit 5
+python scripts\fresh_tds_build.py --cache $CacheRoot run EXACT_BUILD_ID --family FAMILY_ID --download-limit 10 --model-limit 5
 ```
 
 It resumes saved progress, stops model processing on the first failed task and
@@ -486,7 +504,7 @@ as a stable tie-breaker. The first current family is `ACOUSTICA_ACCESSORY`.
 Generate/refresh the completion report without making a model call:
 
 ```powershell
-python scripts\fresh_tds_build.py --cache 'C:\Users\ganes\Desktop\Cache' report EXACT_BUILD_ID
+python scripts\fresh_tds_build.py --cache $CacheRoot report EXACT_BUILD_ID
 ```
 
 Reports are saved as `AuroraKnowledge\reports\completion.md`, `completion.csv`
@@ -497,7 +515,7 @@ To include links from a later workbook without staging or downloading its
 documents, pass it explicitly:
 
 ```powershell
-python scripts\fresh_tds_build.py --cache 'C:\Users\ganes\Desktop\Cache' report EXACT_BUILD_ID --links-workbook 'C:\path\to\supplied-links.xlsx'
+python scripts\fresh_tds_build.py --cache $CacheRoot report EXACT_BUILD_ID --links-workbook 'C:\path\to\supplied-links.xlsx'
 ```
 
 Those URLs are listed separately in the private Markdown and JSON reports as
@@ -520,7 +538,7 @@ is a hard ceiling; failures stop the worker without retries. It never advances
 to another family or publishes claims:
 
 ```powershell
-python scripts\fresh_tds_build.py --cache 'C:\Users\ganes\Desktop\Cache' work-family EXACT_BUILD_ID --family FAMILY_ID --max-calls 20
+python scripts\fresh_tds_build.py --cache $CacheRoot work-family EXACT_BUILD_ID --family FAMILY_ID --max-calls 20
 ```
 
 Inspect the saved report before increasing the budget or selecting the next
@@ -533,7 +551,7 @@ drafts, preserves missing-source drafts with gaps, and stops on the first model/
 retention error. It is not parallel processing or human technical approval:
 
 ```powershell
-python scripts\fresh_tds_build.py --cache 'C:\Users\ganes\Desktop\Cache' work-alphabetical EXACT_BUILD_ID --max-families 1 --max-calls 20
+python scripts\fresh_tds_build.py --cache $CacheRoot work-alphabetical EXACT_BUILD_ID --max-families 1 --max-calls 20
 ```
 
 Increase `--max-families` only to authorise additional sequential families.
@@ -545,7 +563,7 @@ For low-credit overnight operation, the local controller chains **five-family
 batches** without a Copilot turn between batches:
 
 ```powershell
-python scripts\fresh_tds_build.py --cache 'C:\Users\ganes\Desktop\Cache' work-overnight EXACT_BUILD_ID --max-batches 60 --max-calls 10000
+python scripts\fresh_tds_build.py --cache $CacheRoot work-overnight EXACT_BUILD_ID --max-batches 60 --max-calls 10000
 ```
 
 Both ceilings apply to the entire run. Each batch refreshes the saved reports,
@@ -586,7 +604,7 @@ pointers require cache availability and operator review, not automatic activatio
 Use a new independent private backup directory:
 
 ```powershell
-python scripts\fresh_tds_build.py --cache 'C:\Users\ganes\Desktop\Cache' backup --target C:\AuroraPrivate\desktop-cache-NEW --confirm
+python scripts\fresh_tds_build.py --cache $CacheRoot backup --target (Join-Path $PrivateRoot 'desktop-cache-NEW') --confirm
 ```
 
 Each copied file is checksum-verified and `backup-manifest.json` records the
@@ -689,9 +707,9 @@ and the authoring review database. Treat the destination as private: it contains
 reviewer accounts. Use a **new directory outside the checkout**.
 
 ```powershell
-python scripts\authoring_backup.py backup --target C:\AuroraPrivate\snapshot-NEW --confirm
-python scripts\authoring_backup.py restore-preview --source C:\AuroraPrivate\snapshot-NEW --target C:\AuroraPrivate\restore-NEW
-python scripts\authoring_backup.py restore --source C:\AuroraPrivate\snapshot-NEW --target C:\AuroraPrivate\restore-NEW --confirm
+python scripts\authoring_backup.py backup --target (Join-Path $PrivateRoot 'snapshot-NEW') --confirm
+python scripts\authoring_backup.py restore-preview --source (Join-Path $PrivateRoot 'snapshot-NEW') --target (Join-Path $PrivateRoot 'restore-NEW')
+python scripts\authoring_backup.py restore --source (Join-Path $PrivateRoot 'snapshot-NEW') --target (Join-Path $PrivateRoot 'restore-NEW') --confirm
 ```
 
 Pause authoring writes first. File checksums are checked before restore writes;

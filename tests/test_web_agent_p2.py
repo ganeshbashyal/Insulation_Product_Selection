@@ -14,10 +14,11 @@ def test_api_product_topic_survives_persisted_turns(client, tmp_path, monkeypatc
 
     monkeypatch.setattr(web_agent, "session_store", SQLiteSessionStore(tmp_path / "sessions.sqlite3"))
     monkeypatch.setattr(web_agent, "conversation_service", ConversationService(use_llm=False))
+    monkeypatch.setattr(web_agent.agent_core, "_phrase", lambda text, *args, **kwargs: text)
     monkeypatch.setattr(interaction_store, "DEFAULT_DB", tmp_path / "interactions.sqlite3")
     headers = {"X-API-Key": "sk_local_dev_test"}
     start = client.post("/api/conversations?site_id=local", headers=headers).json()
-    assert "product question" in start["reply"]
+    assert start["reply"] == web_agent.agent_core.OPENING
     session_id = start["conversation_id"]
     route = f"/api/conversations/{session_id}/messages?site_id=local"
     first = client.post(route, headers=headers, json={"message": "Tell me about NuWrap 5"}).json()
@@ -27,7 +28,8 @@ def test_api_product_topic_survives_persisted_turns(client, tmp_path, monkeypatc
     saved = json.loads(web_agent.session_store.get(session_id, "local").conversation_json)
     assert saved["step"] == 0
     assert saved["topic_products"] == ["THERMOTEC_NUWRAP_5"]
-    assert len(saved["messages"]) == 4
+    assert len(saved["messages"]) == 5
+    assert saved["messages"][0] == {"role": "assistant", "content": web_agent.agent_core.OPENING}
 
 
 def test_family_chat_link_sets_validated_family_context(client, tmp_path, monkeypatch):
@@ -59,6 +61,60 @@ def test_family_chat_link_sets_validated_family_context(client, tmp_path, monkey
     )
     assert unknown.status_code == 404
     assert client.get("/chat", params={"family_id": "NOT_A_REAL_FAMILY"}).status_code == 404
+
+
+def test_development_chat_exposes_all_installed_models_and_uses_per_turn_choice(
+    client, tmp_path, monkeypatch,
+):
+    import web_agent
+    import llm_client
+    from conversation_service import TurnResult
+    from session_store import SQLiteSessionStore
+
+    models = ["gemma4:latest", "llama3.2:latest"]
+    monkeypatch.setattr(web_agent, "USE_LLM", True)
+    monkeypatch.setattr(web_agent, "installed_models", lambda: models)
+    monkeypatch.setattr(web_agent.agent_core, "_phrase", lambda text, *args, **kwargs: text)
+    monkeypatch.setattr(web_agent, "session_store", SQLiteSessionStore(tmp_path / "model-chat.sqlite3"))
+    monkeypatch.setattr(interaction_store, "DEFAULT_DB", tmp_path / "model-interactions.sqlite3")
+    page = client.get("/chat")
+    assert page.status_code == 200
+    assert f"const LOCAL_MODELS={json.dumps(models)}" in page.text
+
+    selected_models = []
+
+    class ModelAwareService:
+        def handle(self, conversation, message, **kwargs):
+            selected_models.append(llm_client._MODEL_OVERRIDE.get())
+            assert kwargs["use_llm"] is True
+            return TurnResult("Local reply.", False, "greeting", "none", False)
+
+    monkeypatch.setattr(web_agent, "conversation_service", ModelAwareService())
+    headers = {"X-API-Key": "sk_local_dev_test"}
+    started = client.post(
+        "/api/conversations?site_id=local",
+        params={"model": "gemma4:latest"}, headers=headers,
+    )
+    assert started.status_code == 200
+    session_id = started.json()["conversation_id"]
+    saved = json.loads(web_agent.session_store.get(session_id, "local").conversation_json)
+    assert saved["model"] == "gemma4:latest"
+
+    replied = client.post(
+        f"/api/conversations/{session_id}/messages?site_id=local",
+        headers=headers, json={"message": "Hello", "model": "llama3.2:latest"},
+    )
+
+    assert replied.status_code == 200
+    assert selected_models == ["llama3.2:latest"]
+    saved = json.loads(web_agent.session_store.get(session_id, "local").conversation_json)
+    assert saved["model"] == "llama3.2:latest"
+
+    invalid = client.post(
+        "/api/conversations?site_id=local",
+        params={"model": "not-installed"}, headers=headers,
+    )
+    assert invalid.status_code == 422
 
 
 @pytest.fixture

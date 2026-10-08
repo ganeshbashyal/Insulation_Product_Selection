@@ -175,6 +175,12 @@ def test_allowlisted_runtime_package_starts_without_authoring_sources(tmp_path):
     script="""import asyncio, web_agent
 asyncio.run(web_agent.startup())
 assert web_agent.ready()['release_id']
+from sales_brief import SalesBriefBuilder
+SalesBriefBuilder([])
+import agent_core, interaction_store
+conversation=agent_core.Conversation()
+agent_core._finalise_lead(conversation, "test")
+assert interaction_store.leads()[0]["sales_brief"]["approval"] is None
 paths=set()
 pending=[web_agent.app]
 while pending:
@@ -186,7 +192,7 @@ while pending:
         nested=getattr(route, 'router', None)
         if nested:
             pending.append(nested)
-forbidden=('/api/research','/admin/products','/admin/knowledge','/admin/competitors','/admin/catalogue')
+forbidden=('/api/research','/admin/products','/admin/knowledge','/admin/family-manager','/admin/competitors','/admin/catalogue')
 assert not any(path==prefix or path.startswith(prefix+'/') for path in paths for prefix in forbidden), paths
 print('PACKAGED_RUNTIME_READY')
 """

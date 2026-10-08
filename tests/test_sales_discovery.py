@@ -49,6 +49,8 @@ def test_brick_wall_discovers_installation_before_contact_and_preserves_answers(
         result = service.handle(state, script[key])
         state = agent_core.Conversation.from_dict(state.to_dict())
     assert len(visited) >= 8 and state.capturing_lead
+    assert agent_core.HANDOFF_CONSENT_PROMPT in result.reply
+    result = service.handle(state, "yes")
     assert agent_core.LEAD_CONSENT_TEXT in result.reply
     service.handle(state, "synthetic@example.com")
     result = service.handle(state, "skip")
@@ -278,6 +280,13 @@ def test_public_chat_never_exposes_brief_and_operator_is_site_scoped(client):
     assert client.get("/api/admin/briefs?site_id=acme", headers=operator).json() == []
     assert client.get(f"/api/admin/briefs/{lead['conversation_id']}?site_id=acme", headers=operator).status_code == 404
     assert client.get(f"/api/admin/briefs/{lead['conversation_id']}?site_id=local", headers=operator).json() == records.json()[0]
+    turns = client.get("/api/admin/interactions?site_id=local", headers=operator)
+    assert turns.status_code == 200 and turns.headers["Cache-Control"] == "no-store"
+    assert len(turns.json()["turns"]) == 5  # Opening plus every user/assistant exchange.
+    assert any(row["user_message"] == "synthetic@example.com" for row in turns.json()["turns"])
+    assert any("neo_handoff_not_authorized_by_customer" in row["review_labels"]
+               for row in turns.json()["turns"])
+    assert client.get("/api/admin/interactions?site_id=local", headers=public).status_code == 401
     assert client.post("/api/learning/outcomes?site_id=acme", headers=operator, json={"conversation_id": lead["conversation_id"], "reviewer": "operator", "outcome": "approved"}).status_code == 400
     assert client.post("/api/learning/outcomes?site_id=local", headers=public, json={"conversation_id": lead["conversation_id"], "reviewer": "widget", "outcome": "approved"}).status_code == 401
     page = client.get("/admin/briefs")

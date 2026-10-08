@@ -6,6 +6,9 @@ new cloud infrastructure or required GPU. The serving-only profile uses FastAPI,
 Pydantic, Uvicorn, pytz and standard-library SQLite; it does not import pandas,
 NumPy, PDF/workbook parsers, research routes or Jupyter.
 
+For local Alpha operator procedures, use the [management guide](AURORA_MANAGEMENT.md)
+and its [process-management notebook](../notebooks/aurora_alpha_management.ipynb).
+
 ## 1. Explicit local source intake
 
 Keep originals under the checkout's `data` library. Create an owner-mapped JSON
@@ -183,13 +186,15 @@ authorization boundary. The package manifest and final tree audit must prove
 these exclusions; a passing build alone is not sufficient.
 
 `scripts/package_runtime.py` now explicitly lists `release_exports.py` and the
-supporting runtime dependency closure, and enumerates the required tool modules
-instead of copying every `tools/*.py` file. The package regression verifies
-manifest hashes, rejects an unlisted tool, starts from the copied directory,
-and confirms research/catalogue mutation routes are absent in serving-only
-mode. This verifies the builder contract with a synthetic release; it does not
-make a real package approved or deployable. Re-audit the manifest and route
-boundary whenever the runtime dependency set changes.
+supporting runtime dependency closure, including `family_knowledge.py` required
+when finalizing a sales brief, and enumerates the required tool modules instead
+of copying every `tools/*.py` file. The package regression verifies manifest
+hashes, exercises lead finalization from the copied directory, rejects an
+unlisted tool, starts from the copied directory, and confirms research/catalogue
+mutation routes are absent in serving-only mode. This verifies the builder
+contract with a synthetic release; it does not make a real package approved or
+deployable. Re-audit the manifest and route boundary whenever the runtime
+dependency set changes.
 
 After activating a local release, create an allowlisted portable serving folder:
 
@@ -238,6 +243,27 @@ production. `/health/live` checks the process; `/health/ready` reports initializ
 and the pinned release. This profile currently retains existing private operator
 APIs; restrict them at the reverse proxy and use separate operator credentials.
 Never expose SQLite, release/backup directories or secrets as static assets.
+
+### Local chat housekeeping
+
+The local Aurora service applies these retention limits to its active SQLite
+state:
+
+- Transient chat sessions expire after 24 hours of inactivity.
+- Conversation/interaction records are removed after 30 days. Their linked
+  reviewer outcomes are removed in the same transaction.
+- Lead/contact records are retained for 12 calendar months from creation, then
+  removed separately from interaction records.
+
+The service runs housekeeping at startup and then every 24 hours. Logs contain
+aggregate deletion counts only, not conversation or contact contents. A failed
+startup cleanup prevents the service from starting; a later scheduled failure is
+logged and retried at the next interval. Use synthetic chats for demonstrations.
+
+This removes records from the active SQLite databases only. Runtime and authoring
+backup archives are not changed by housekeeping and may contain older copies;
+manage their retention separately. SQLite/WAL behavior and storage hardware mean
+database deletion is not a secure-erasure guarantee.
 
 Use a self-hosted TLS reverse proxy to the loopback service. Configure trusted
 forwarded headers only for that proxy, preserve Host/HTTPS origin information,
@@ -302,7 +328,9 @@ Restore only into an empty directory. Checksums and SQLite integrity are checked
 Backups contain private customer/session data: restrict filesystem access and
 apply the owner's retention/encryption policy. Keep site secrets and release
 withdrawal history backed up separately using protected operator procedures.
-No unattended lead deletion or invented retention period is enabled.
+Active lead/contact records are purged after 12 calendar months by runtime
+housekeeping; backup archives are not purged and have no runtime-enforced
+retention period.
 
 ## 7. Private competitor review
 

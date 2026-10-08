@@ -334,8 +334,9 @@ def test_completion_report_alphabetical_and_no_false_completion(setup):
     assert "Chunks validated / total" in Path(result["path"]).read_text()
     report_text = Path(result["path"]).read_text()
     assert "Chat with the bot about one family at a time" in report_text
-    assert "[Chat with bot](http://127.0.0.1:8001/chat?family_id=FIRST)" in report_text
-    assert "exact family preselected as conversation context" in report_text
+    assert "[Chat with bot](http://127.0.0.1:8001/admin/family-manager?family_id=FIRST)" in report_text
+    assert "private local Family Knowledge Manager" in report_text
+    assert "canonical knowledge, deployment, claims, SKU mappings and publication are not changed" in report_text
     assert "No supplemental link workbook was supplied" in Path(result["path"]).read_text()
     assert report["supplemental_link_status"] == "not_supplied"
     assert report["supplemental_link_workbook"] is None

@@ -56,22 +56,28 @@ Endpoints:
 """
 from __future__ import annotations
 
+import asyncio
 import json
 import hmac
+import logging
 import os
+import sqlite3
 import threading
 import uuid
 import sys
 from pathlib import Path
 from typing import Any
+from urllib.parse import urlsplit
 
 from fastapi import FastAPI, HTTPException, Query, Request
 from fastapi.responses import HTMLResponse, JSONResponse
 from pydantic import BaseModel, Field
 
 import agent_core
+from aurora_persona import AURORA_CONTRACT
 import interaction_store
 import llm_client
+from local_model import chat_models as installed_models
 from conversation_service import ConversationService
 from auth_middleware import AuthMiddleware, AuditLog
 from cors_validator import CORSValidator
@@ -80,6 +86,9 @@ from site_config import load_all_sites, SiteConfigError, is_production
 from widget_config import WidgetConfigProvider
 
 app = FastAPI(title="Insulation Enquiry Agent", version="2.0.0")
+LOGGER = logging.getLogger(__name__)
+PERSONA_ID = AURORA_CONTRACT.persona_id
+HOUSEKEEPING_INTERVAL_SECONDS = 24 * 60 * 60
 SERVING_ONLY = os.getenv("AURORA_SERVING_ONLY", "false").casefold() == "true"
 if SERVING_ONLY:
     if not os.getenv("AURORA_RELEASE_DIR"):
@@ -97,6 +106,9 @@ else:
             and os.getenv("AURORA_ENV", "development").strip().casefold() != "production"):
         from oracle_api import router as oracle_router
         app.include_router(oracle_router)
+        if os.getenv("MATRIX_ENABLED", "true").strip().casefold() == "true":
+            from operations_api import router as operations_router
+            app.include_router(operations_router)
 from storefront_api import build_router as build_storefront_router
 app.include_router(build_storefront_router(sys.modules[__name__]))
 
@@ -105,11 +117,15 @@ app.include_router(build_storefront_router(sys.modules[__name__]))
 async def research_response_privacy(request: Request, call_next):
     response = await call_next(request)
     if request.url.path.startswith(("/api/research", "/admin/products", "/admin/knowledge",
-                                    "/admin/competitors", "/admin/catalogue", "/api/oracle", "/oracle")):
+                                    "/admin/family-manager", "/admin/competitors",
+                                    "/admin/catalogue", "/api/oracle", "/api/operations",
+                                    "/oracle")):
         response.headers["Cache-Control"] = "no-store"
         response.headers["Referrer-Policy"] = "no-referrer"
         response.headers["X-Content-Type-Options"] = "nosniff"
-        response.headers["X-Frame-Options"] = "DENY"
+        response.headers["X-Frame-Options"] = (
+            "SAMEORIGIN" if request.url.path == "/oracle" and not IS_PRODUCTION else "DENY"
+        )
     return response
 
 # Production hardening switches. Both default to the safe value whenever
@@ -173,13 +189,50 @@ sites: dict[str, Any] = {}
 
 # P3 infrastructure instances
 conversation_service: ConversationService | None = None
+_housekeeping_task: asyncio.Task | None = None
+
+
+def _run_housekeeping() -> None:
+    if session_store is None:
+        raise RuntimeError("Aurora session store is not initialized")
+    deleted = interaction_store.purge_expired()
+    expired_sessions = session_store.cleanup_expired()
+    LOGGER.info(
+        "Aurora local housekeeping completed: turns=%d conversations=%d outcomes=%d "
+        "leads=%d transient_sessions=%d",
+        deleted["turns"], deleted["conversations"], deleted["outcomes"], deleted["leads"],
+        expired_sessions,
+    )
+
+
+async def _daily_housekeeping() -> None:
+    while True:
+        await asyncio.sleep(HOUSEKEEPING_INTERVAL_SECONDS)
+        try:
+            _run_housekeeping()
+        except (OSError, sqlite3.Error):
+            LOGGER.exception("Aurora local housekeeping failed; it will retry after the next interval")
+
+
+@app.on_event("shutdown")
+async def stop_housekeeping() -> None:
+    global _housekeeping_task
+    if _housekeeping_task is None or _housekeeping_task.done():
+        _housekeeping_task = None
+        return
+    _housekeeping_task.cancel()
+    try:
+        await _housekeeping_task
+    except asyncio.CancelledError:
+        pass
+    _housekeeping_task = None
 
 
 @app.on_event("startup")
 async def startup():
     """Initialize P2 and P3 infrastructure at startup."""
     global session_store, auth_middleware, cors_validator, widget_provider, audit_log, sites
-    global conversation_service
+    global conversation_service, _housekeeping_task
 
     try:
         sites = load_all_sites()
@@ -205,6 +258,10 @@ async def startup():
     conversation_service = ConversationService(use_llm=USE_LLM)
 
     print("OK - P3 infrastructure initialized (router, RAG, lint)")
+
+    _run_housekeeping()
+    if _housekeeping_task is None or _housekeeping_task.done():
+        _housekeeping_task = asyncio.create_task(_daily_housekeeping())
 
     if USE_LLM:
         # Ollama unloads an idle model from memory; the first real user message
@@ -247,11 +304,17 @@ def ready():
 class StartResponse(BaseModel):
     conversation_id: str
     reply: str
+    persona_id: str = PERSONA_ID
 
 
 class MessageRequest(BaseModel):
     message: str = Field(min_length=1, max_length=4000)
     manufacturer_scope: str | None = None
+    model: str | None = Field(default=None, max_length=120)
+
+
+class HandoffOperatorApproval(BaseModel):
+    operator_approved: bool = Field(...)
 
 
 class MessageResponse(BaseModel):
@@ -260,6 +323,7 @@ class MessageResponse(BaseModel):
     category: str
     retrieval_mode: str
     human_review_required: bool
+    persona_id: str = PERSONA_ID
 
 
 class OutcomeRequest(BaseModel):
@@ -279,6 +343,9 @@ CHAT_HTML = """<!doctype html>
 header{background:#102b32;color:#fff;padding:14px 18px}
 header h1{font-size:1.05rem;margin:0}
 header p{margin:.2rem 0 0;font-size:.78rem;color:#9fc9c4}
+#modelControls{display:flex;align-items:center;gap:8px;padding:8px 14px;background:#eaf2ef}
+#modelControls select{max-width:min(360px,65vw);padding:6px;border:1px solid var(--line);border-radius:7px}
+#modelStatus{font-size:.78rem;color:#536675}
 #log{height:calc(100vh - 170px);overflow-y:auto;padding:14px;display:flex;flex-direction:column;gap:8px}
 .msg{max-width:82%;padding:10px 13px;border-radius:14px;line-height:1.4;font-size:.92rem;white-space:pre-wrap}
 .bot{background:#fff;border:1px solid var(--line);border-top-left-radius:4px;align-self:flex-start}
@@ -288,13 +355,20 @@ input{flex:1;padding:11px 13px;border:1px solid var(--line);border-radius:10px;f
 button{padding:11px 18px;border:0;border-radius:10px;background:var(--teal);color:#fff;font-weight:700;cursor:pointer}
 </style></head><body>
 <header><h1 id="title">Insulation Enquiry</h1><p id="subtitle">Project discovery and product facts &middot; human-reviewed selection</p><p id="family"></p><p>Local test chat only. Do not enter customer personal information. Nothing here approves or publishes product claims.</p></header>
+<div id="modelControls"><label for="model">Local model</label><select id="model"></select><span id="modelStatus"></span></div>
 <div id="log"></div>
 <form id="f"><input id="in" autocomplete="off" placeholder="Type your answer&hellip;"><button>Send</button></form>
 <script>
-let convo=null;const log=document.getElementById('log');
+let convo=null,comparisonBusy=false;const log=document.getElementById('log');
 const API_KEY=__AURORA_DEMO_KEY__;const SITE_ID=__AURORA_DEMO_SITE__;
 const FAMILY_ID=__AURORA_DEMO_FAMILY_ID__;const FAMILY_NAME=__AURORA_DEMO_FAMILY_NAME__;
+const LOCAL_MODELS=__LOCAL_MODELS__;const DEFAULT_MODEL=__DEFAULT_MODEL__;
+const modelSelect=document.getElementById('model');
+for(const model of LOCAL_MODELS)modelSelect.add(new Option(model,model));
+if(LOCAL_MODELS.length){modelSelect.value=LOCAL_MODELS.includes(DEFAULT_MODEL)?DEFAULT_MODEL:LOCAL_MODELS[0];document.getElementById('modelStatus').textContent=LOCAL_MODELS.length+' installed local model(s); no cloud fallback.';}
+else{modelSelect.add(new Option('No local model available',''));modelSelect.disabled=true;document.getElementById('modelStatus').textContent='Start local Ollama to enable model chat.';}
 function add(text,cls){const d=document.createElement('div');d.className='msg '+cls;d.textContent=text;log.appendChild(d);log.scrollTop=log.scrollHeight;}
+function notifyComparison(message,ready){if(window.parent!==window)window.parent.postMessage({type:"assistant-status",message,ready},location.origin);}
 // Surface failures instead of rendering `undefined` into an empty bubble. A 403
 // from the origin allowlist used to look identical to a silent hang, which made
 // a one-line config problem very hard to tell apart from a broken server.
@@ -310,7 +384,8 @@ async function start(){
   try{
     const params=new URLSearchParams({site_id:SITE_ID});
     if(FAMILY_ID)params.set('family_id',FAMILY_ID);
-    const j=await post('/api/conversations?'+params.toString());convo=j.conversation_id;add(j.reply,'bot');
+    if(modelSelect.value)params.set('model',modelSelect.value);
+    const j=await post('/api/conversations?'+params.toString());convo=j.conversation_id;add(j.reply,'bot');notifyComparison("Aurora is ready.",true);
     if(FAMILY_ID){
       document.getElementById('title').textContent='Family review chat';
       document.getElementById('subtitle').textContent='Ask about the selected family; the bot can explain available local information and identify gaps.';
@@ -318,11 +393,27 @@ async function start(){
       document.getElementById('in').placeholder='Ask about '+FAMILY_NAME+'…';
     }
   }
-  catch(e){add(e.message,'bot');}
+  catch(e){add(e.message,'bot');notifyComparison("Aurora is unavailable: "+e.message,false);}
 }
-document.getElementById('f').addEventListener('submit',async e=>{e.preventDefault();const i=document.getElementById('in');const m=i.value.trim();if(!m||!convo)return;i.value='';add(m,'user');
-  try{const j=await post('/api/conversations/'+convo+'/messages?site_id='+encodeURIComponent(SITE_ID),{message:m});add(j.reply,'bot');if(j.done){i.placeholder='Enquiry sent for review';}}
+document.getElementById('f').addEventListener('submit',async e=>{e.preventDefault();const i=document.getElementById('in');const m=i.value.trim();if(!m||!convo||comparisonBusy)return;i.value='';comparisonBusy=true;add(m,'user');
+  try{const j=await post('/api/conversations/'+convo+'/messages?site_id='+encodeURIComponent(SITE_ID),{message:m,model:modelSelect.value});add(j.reply,'bot');if(j.done){i.placeholder='Enquiry sent for review';}}
   catch(e){add(e.message,'bot');}
+  finally{comparisonBusy=false;}
+});
+window.addEventListener("message",event=>{
+  if(event.source!==window.parent||event.origin!==location.origin||!event.data)return;
+  if(event.data.type==="assistant-status-request"){
+    notifyComparison(convo?"Aurora is ready.":"Aurora is still starting.",Boolean(convo));
+    return;
+  }
+  if(event.data.type!=="assistant-compare-prompt"||typeof event.data.prompt!=="string")return;
+  const prompt=event.data.prompt.trim();
+  if(!prompt||prompt.length>4000)return;
+  if(!convo){notifyComparison("Aurora is still starting; wait and retry.",false);return;}
+  if(comparisonBusy){notifyComparison("Aurora is already processing a prompt.",true);return;}
+  const input=document.getElementById("in");
+  input.value=prompt;
+  document.getElementById("f").requestSubmit();
 });
 start();
 </script></body></html>"""
@@ -382,6 +473,28 @@ def _auth_and_cors(request: Request, site_id: str) -> dict[str, str]:
     return cors_headers
 
 
+def _resolve_chat_model(requested: str | None) -> str:
+    if SERVING_ONLY or IS_PRODUCTION or not USE_LLM:
+        if requested:
+            raise HTTPException(403, "Local model selection is available only in the enabled development chat.")
+        return ""
+    if requested == "":
+        return ""
+    try:
+        models = installed_models()
+    except RuntimeError as exc:
+        if requested is not None:
+            raise HTTPException(503, "Local Ollama is unavailable; no model was selected.") from exc
+        return ""
+    if requested is not None:
+        if requested not in models:
+            raise HTTPException(422, "Selected model is not installed or does not support chat in local Ollama.")
+        return requested
+    if llm_client.OLLAMA_MODEL in models:
+        return llm_client.OLLAMA_MODEL
+    return models[0] if models else ""
+
+
 @app.get("/chat", response_class=HTMLResponse)
 def chat(family_id: str | None = Query(default=None, max_length=100)) -> str:
     """
@@ -415,11 +528,18 @@ def chat(family_id: str | None = Query(default=None, max_length=100)) -> str:
         if release and family_id not in visible_family_ids(release, DEMO_CHAT_SITE_ID):
             raise HTTPException(status_code=404, detail="Unknown family")
 
+    try:
+        local_models = installed_models() if USE_LLM and not SERVING_ONLY else []
+    except RuntimeError:
+        local_models = []
+    default_model = _resolve_chat_model(None)
     return (
         CHAT_HTML.replace("__AURORA_DEMO_KEY__", json.dumps(site.api_key))
         .replace("__AURORA_DEMO_SITE__", json.dumps(site.site_id))
         .replace("__AURORA_DEMO_FAMILY_ID__", json.dumps(family["family_id"] if family else ""))
         .replace("__AURORA_DEMO_FAMILY_NAME__", json.dumps(family["name"] if family else ""))
+        .replace("__LOCAL_MODELS__", json.dumps(local_models).replace("<", "\\u003c"))
+        .replace("__DEFAULT_MODEL__", json.dumps(default_model).replace("<", "\\u003c"))
     )
 
 
@@ -446,9 +566,11 @@ async def start_conversation(
     request: Request,
     site_id: str = "local",
     family_id: str | None = Query(default=None, max_length=100),
+    model: str | None = Query(default=None, max_length=120),
 ) -> JSONResponse:
     """Start a new conversation. Requires X-API-Key header."""
     cors_headers = _auth_and_cors(request, site_id)
+    selected_model = _resolve_chat_model(model)
 
     # Create conversation and session
     conversation = agent_core.Conversation()
@@ -463,17 +585,33 @@ async def start_conversation(
         conversation.topic_products = [family_id]
         conversation.family_review_id = family_id
     session_id = str(uuid.uuid4())
+    opening = agent_core.OPENING
+    if selected_model:
+        with llm_client.using_model(selected_model):
+            opening = agent_core._phrase(opening, True, is_opening=True)
     session_store.create(
         session_id,
         site_id,
-        {**conversation.to_dict(), "messages": []},
+        {
+            **conversation.to_dict(),
+            "persona_id": PERSONA_ID,
+            "model": selected_model,
+            "messages": [{"role": "assistant", "content": opening}],
+        },
+    )
+    interaction_store.log_turn(
+        site_id=site_id,
+        session_id=session_id,
+        conversation_id=conversation.conversation_id,
+        turn_number=0,
+        user_message="",
+        assistant_reply=opening,
+        category="greeting",
+        retrieval_mode="none",
+        human_review_required=False,
     )
 
-    opening = agent_core.OPENING
-    if USE_LLM:
-        opening = agent_core._phrase(opening, True, is_opening=True)
-
-    response = StartResponse(conversation_id=session_id, reply=opening)
+    response = StartResponse(conversation_id=session_id, reply=opening, persona_id=PERSONA_ID)
     return JSONResponse(response.model_dump(), headers=cors_headers)
 
 
@@ -490,12 +628,34 @@ async def send_message(session_id: str, body: MessageRequest, request: Request, 
         raise HTTPException(status_code=401, detail="Session expired")
 
     session_data = json.loads(session.conversation_json)
-    conversation = agent_core.Conversation.from_dict(session_data)
-    result = conversation_service.handle(
-        conversation,
-        body.message,
-        manufacturer_scope=body.manufacturer_scope,
+    if session_data.get("persona_id", PERSONA_ID) != PERSONA_ID:
+        raise HTTPException(status_code=404, detail="Session not found")
+    try:
+        conversation = agent_core.Conversation.from_dict(session_data)
+    except ValueError as exc:
+        raise HTTPException(status_code=409, detail="Saved conversation state is invalid; start a new enquiry") from exc
+    requested_model = body.model if body.model is not None else session_data.get("model")
+    selected_model = _resolve_chat_model(requested_model)
+    with llm_client.using_model(selected_model):
+        result = conversation_service.handle(
+            conversation,
+            body.message,
+            manufacturer_scope=body.manufacturer_scope,
+            site_id=site_id,
+            use_llm=bool(selected_model),
+        )
+    turn_number = sum(1 for item in session_data.get("messages", []) if item.get("role") == "user") + 1
+    interaction_store.log_turn(
         site_id=site_id,
+        session_id=session_id,
+        conversation_id=conversation.conversation_id,
+        turn_number=turn_number,
+        user_message=body.message,
+        assistant_reply=result.reply,
+        category=result.category,
+        retrieval_mode=result.retrieval_mode,
+        human_review_required=result.human_review_required,
+        review_labels=result.review_labels,
     )
 
     # Update session
@@ -504,6 +664,8 @@ async def send_message(session_id: str, body: MessageRequest, request: Request, 
         site_id,
         {
             **conversation.to_dict(),
+            "persona_id": PERSONA_ID,
+            "model": selected_model,
             "messages": session_data["messages"]
             + [
                 {"role": "user", "content": body.message},
@@ -518,6 +680,7 @@ async def send_message(session_id: str, body: MessageRequest, request: Request, 
         category=result.category,
         retrieval_mode=result.retrieval_mode,
         human_review_required=result.human_review_required,
+        persona_id=PERSONA_ID,
     )
     return JSONResponse(response.model_dump(), headers=cors_headers)
 
@@ -567,6 +730,145 @@ async def admin_brief(conversation_id: str, request: Request, site_id: str = "lo
     if record is None:
         raise HTTPException(status_code=404, detail="Brief not found for this site")
     return JSONResponse(record, headers={"Cache-Control": "no-store"})
+
+
+def _require_same_origin_local(request: Request) -> None:
+    origin = request.headers.get("Origin", "")
+    try:
+        parsed = urlsplit(origin)
+        host = request.url.hostname or ""
+        client_host = request.client.host if request.client else ""
+        client_is_local = client_host in {"127.0.0.1", "::1", "localhost"}
+        origin_host = parsed.hostname or ""
+        origin_is_local = origin_host in {"127.0.0.1", "::1", "localhost"}
+    except ValueError:
+        raise HTTPException(status_code=403, detail="A same-origin local operator request is required")
+    expected_origin = f"{request.url.scheme}://{request.url.netloc}"
+    if (not origin or origin.rstrip("/") != expected_origin or not client_is_local
+            or not origin_is_local or host != origin_host):
+        raise HTTPException(status_code=403, detail="A same-origin local operator request is required")
+
+
+@app.post("/api/admin/briefs/{conversation_id}/handoff")
+async def publish_aurora_handoff(
+    conversation_id: str,
+    body: HandoffOperatorApproval,
+    request: Request,
+    site_id: str = "local",
+) -> JSONResponse:
+    """Publish an explicitly approved, consented non-contact handoff to Matrix."""
+    if SERVING_ONLY or IS_PRODUCTION:
+        raise HTTPException(status_code=404, detail="Not found")
+    _require_lead_admin(request)
+    _require_same_origin_local(request)
+    if not body.operator_approved:
+        raise HTTPException(status_code=409, detail="Explicit operator approval is required")
+
+    record = next((
+        row for row in interaction_store.sales_briefs(site_id)
+        if row["conversation_id"] == conversation_id
+    ), None)
+    if record is None:
+        raise HTTPException(status_code=404, detail="Brief not found for this site")
+    brief = record.get("sales_brief") or {}
+    consent = brief.get("handoff_consent") or {}
+    if consent.get("status") != "granted" or not consent.get("recorded_at"):
+        raise HTTPException(status_code=409, detail="Recorded customer consent for internal project review is required")
+
+    import hashlib
+    import matrix_handoff_store
+
+    known_facts = brief.get("known_facts") or {}
+    if not isinstance(known_facts, dict):
+        raise HTTPException(status_code=409, detail="Saved project facts are invalid")
+    details = {
+        key: matrix_handoff_store.redact_contact_details(value)
+        for key, value in known_facts.items()
+        if key in matrix_handoff_store.DETAIL_FIELDS
+        and isinstance(value, str) and value.strip()
+    }
+    completeness = brief.get("capture_completeness") or {}
+    unknown_fields = completeness.get("unresolved_fields") or []
+    if not isinstance(unknown_fields, list):
+        raise HTTPException(status_code=409, detail="Saved unresolved-field list is invalid")
+    problem = matrix_handoff_store.redact_contact_details(record.get("problem_statement", ""))
+    candidates = []
+    for candidate in brief.get("candidates") or []:
+        if not isinstance(candidate, dict) or candidate.get("disposition") == "REJECTED":
+            continue
+        family_id, name = candidate.get("family_id"), candidate.get("name")
+        if isinstance(family_id, str) and isinstance(name, str) and family_id and name:
+            candidates.append({
+                "family_id": family_id,
+                "name": matrix_handoff_store.redact_contact_details(name),
+                "review_status": "requires_review",
+            })
+    escalation_flags = ["human_review_required_before_product_selection"]
+    if unknown_fields:
+        escalation_flags.append("missing_project_details")
+    if any(key in details for key in ("requirements", "moisture", "service_temperature")):
+        escalation_flags.append("technical_requirements_need_human_review")
+    consent_time = consent["recorded_at"]
+    payload_data = {
+        "source": "aurora",
+        "record_type": "sales_review",
+        "handoff_id": "",
+        "customer_context": {"enquiry_type": "insulation_project"},
+        "problem_description": problem,
+        "application_details": details,
+        "unknown_fields": unknown_fields,
+        "escalation_flags": escalation_flags,
+        "provisional_family_candidates": candidates[:12],
+        "consent": {
+            "project_details_sharing_recorded": True,
+            "recorded_at": consent_time,
+            "contact_details_included": False,
+        },
+    }
+    material = json.dumps({
+        "site_id": site_id,
+        "conversation_id": conversation_id,
+        "payload": {**payload_data, "handoff_id": ""},
+    }, sort_keys=True, ensure_ascii=False)
+    payload_data["handoff_id"] = hashlib.sha256(material.encode("utf-8")).hexdigest()
+    try:
+        payload = matrix_handoff_store.HandoffPayload.model_validate(payload_data)
+        metadata, duplicate = matrix_handoff_store.store().publish_approved(
+            payload,
+            source_site_id=site_id,
+            source_conversation_id=conversation_id,
+            consent_recorded_at=consent_time,
+            operator_approved=True,
+        )
+    except PermissionError as exc:
+        raise HTTPException(status_code=409, detail=str(exc)) from exc
+    except (ValueError, TypeError) as exc:
+        raise HTTPException(status_code=422, detail=f"Structured handoff rejected: {exc}") from exc
+    return JSONResponse(
+        {"handoff": metadata, "duplicate": duplicate},
+        status_code=200 if duplicate else 201,
+        headers={"Cache-Control": "no-store", "Referrer-Policy": "no-referrer"},
+    )
+
+
+@app.get("/api/admin/interactions")
+async def admin_interactions(
+    request: Request,
+    site_id: str = "local",
+    before_turn_id: int | None = Query(default=None, gt=0),
+    limit: int = Query(default=500, ge=1, le=500),
+) -> JSONResponse:
+    """Return complete turn-level Aurora history to an authenticated operator."""
+    if SERVING_ONLY or IS_PRODUCTION:
+        raise HTTPException(status_code=404, detail="Not found")
+    _require_lead_admin(request)
+    result = interaction_store.turn_history(
+        site_id, before_turn_id=before_turn_id, limit=limit,
+    )
+    return JSONResponse(result, headers={
+        "Cache-Control": "no-store", "Referrer-Policy": "no-referrer",
+        "X-Content-Type-Options": "nosniff",
+    })
 
 
 @app.get("/admin/briefs")

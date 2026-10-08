@@ -24,7 +24,14 @@ function append(text,role){const p=document.createElement("div");p.className=rol
 async function post(path,body){
   const headers={"Content-Type":"application/json"};if(token)headers["X-Chat-Token"]=token;
   const r=await fetch(path+"?"+new URLSearchParams({site_id:site}),{method:"POST",headers,body:JSON.stringify(body||{}),cache:"no-store",credentials:"omit"});
-  const data=await r.json();if(!r.ok)throw Error(typeof data.detail==="string"?data.detail:"Request rejected");return data;
+  let data;
+  try{data=await r.json();}
+  catch{
+    if(!r.ok)throw Error("Chat service returned HTTP "+r.status+" without a JSON error response.");
+    throw Error("Chat service returned an unreadable response.");
+  }
+  if(!r.ok)throw Error(typeof data.detail==="string"?data.detail:"Request rejected");
+  return data;
 }
 function showContext(context){
   if(!context)return;

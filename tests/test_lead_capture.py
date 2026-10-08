@@ -25,6 +25,10 @@ def _drive(conversation, scripted, site_id="local", limit=16):
             key = conversation.pending_field
         elif conversation.step < len(agent_core.QUESTIONS):
             key = agent_core.QUESTIONS[conversation.step][0]
+        elif (conversation.lead_step == 0
+              and "handoff_consent_status" not in conversation.lead
+              and any(key != "name" for key in conversation.answers)):
+            key = "handoff_consent"
         else:
             key = agent_core.LEAD_QUESTIONS[conversation.lead_step][0]
         replies.append(agent_core.reply(conversation, scripted[key], site_id=site_id))
@@ -32,6 +36,7 @@ def _drive(conversation, scripted, site_id="local", limit=16):
 
 
 SCRIPT = {
+    "handoff_consent": "yes",
     "problem": "traffic noise through the front wall of my townhouse in Parramatta 2150",
     "name": "Hi, I'm John Smith",
     "application": "external wall, timber frame",
@@ -75,6 +80,7 @@ def test_lead_is_captured_without_a_customer_recommendation(db):
     assert lead["recommended_families"] == []
     assert lead["sales_brief"]["approval"] is None
     assert lead["sales_brief"]["candidates"]
+    assert lead["sales_brief"]["handoff_consent"]["status"] == "granted"
     assert lead["consent_at"]
     assert lead["consent_text"] == agent_core.LEAD_CONSENT_TEXT
     with interaction_store.connect(db) as connection:
@@ -130,6 +136,7 @@ def test_unparseable_contact_is_asked_once_more_then_accepted(db):
     agent_core.reply(conversation, "finish now")
 
     assert conversation.capturing_lead
+    agent_core.reply(conversation, SCRIPT["handoff_consent"], site_id="local")
     first = agent_core.reply(conversation, "just email me", site_id="local")
     assert "didn't catch" in first
     # a second unusable answer must not trap the customer in a loop

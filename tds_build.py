@@ -920,12 +920,13 @@ class Build:
                 f"Build: {build_id}", "Order: manufacturer, then family name (alphabetical).", "",
                 "Processing completion is not human approval or public deployment.", "",
                 "## Chat with the bot about one family at a time", "",
-                "Use **Chat with bot** on a family row to open the local chat at "
-                "`http://127.0.0.1:8001/chat` with that exact family preselected as conversation context. "
-                "Ask what is documented, what remains unknown, or provide your review input conversationally. "
-                "The page is a local test harness: do not enter customer personal information. Messages "
-                "are not claim/SKU approvals and do not publish or deploy anything. The local workspace "
-                "must be running on port 8001.", "",
+                "Use **Chat with bot** on a family row to open the private local Family Knowledge Manager at "
+                "`http://127.0.0.1:8001/admin/family-manager` with that exact family selected. "
+                "Use it to verify and produce family/product knowledge one family at a time. Proposed "
+                "changes are saved only to its separate local authoring copy after explicit approval; "
+                "canonical knowledge, deployment, claims, SKU mappings and publication are not changed. "
+                "This tool is available only in the local authoring workspace, not the deployment package. "
+                "Aurora `/chat` remains the customer-enquiry demo.", "",
                 "## Summary", "", encoded(report["summary"]).decode(), "",
                 "| # | Family | State | Documents | Chunks validated / total | Draft | Source gaps / held links / download failures | Bot input |",
                 "| --- | --- | --- | --- | --- | --- | --- | --- |"]
@@ -934,7 +935,7 @@ class Build:
             if (self.root / "data" / "local" / "tds_register.json").is_file():
                 name = f"[{name}](#{row['family_id'].lower()})"
             review_url = (
-                "http://127.0.0.1:8001/chat?family_id="
+                "http://127.0.0.1:8001/admin/family-manager?family_id="
                 + quote(row["family_id"], safe="")
             )
             text.append(f"| {row['order']} | {name} ({row['family_id']}) | {row['state']} | "

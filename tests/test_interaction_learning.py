@@ -1,6 +1,8 @@
 """Interaction learning store + headless agent flow."""
 from __future__ import annotations
 
+from datetime import datetime, timezone
+
 import agent_core
 import interaction_store
 
@@ -35,7 +37,7 @@ def test_conversation_logs_and_learns(tmp_path, monkeypatch):
 
     conversation = agent_core.Conversation()
     opening = conversation.next_prompt()
-    assert "own words" in opening
+    assert opening == agent_core.OPENING
 
     # free-text opening carries application+priority+project+locality; the bot
     # should only ask the remaining qualifying questions
@@ -76,3 +78,50 @@ def test_rejection_report_lists_corrected(tmp_path, monkeypatch):
 def test_outcome_validation_rejects_unknown(tmp_path):
     with __import__("pytest").raises(ValueError):
         interaction_store.record_outcome("x", "maybe", "tester", db_path=tmp_path / "db.sqlite3")
+
+
+def test_housekeeping_uses_30_day_conversation_and_12_month_lead_cutoffs(tmp_path):
+    db = tmp_path / "interactions.sqlite3"
+    now = datetime(2026, 10, 6, 20, 0, tzinfo=timezone.utc)
+    interaction_store.initialise(db)
+    with interaction_store.connect(db) as connection:
+        connection.execute("INSERT INTO sites (site_id, synced_at) VALUES ('local', ?)", (now.isoformat(),))
+        for conversation_id, occurred_at in (
+            ("old", "2026-09-06T19:59:59+00:00"),
+            ("boundary", "2026-09-06T20:00:00+00:00"),
+        ):
+            connection.execute(
+                """INSERT INTO conversations
+                   (conversation_id, site_id, occurred_at, answers_json, candidates_json)
+                   VALUES (?, 'local', ?, '{}', '[]')""",
+                (conversation_id, occurred_at),
+            )
+            connection.execute(
+                """INSERT INTO outcomes
+                   (conversation_id, site_id, decided_at, reviewer, outcome)
+                   VALUES (?, 'local', ?, 'reviewer', 'approved')""",
+                (conversation_id, occurred_at),
+            )
+        for conversation_id, created_at in (
+            ("old-lead", "2025-10-06T19:59:59+00:00"),
+            ("boundary-lead", "2025-10-06T20:00:00+00:00"),
+        ):
+            connection.execute(
+                """INSERT INTO leads (conversation_id, site_id, created_at)
+                   VALUES (?, 'local', ?)""",
+                (conversation_id, created_at),
+            )
+
+    deleted = interaction_store.purge_expired(now=now, db_path=db)
+
+    assert deleted == {"turns": 0, "conversations": 1, "outcomes": 1, "leads": 1}
+    with interaction_store.connect(db) as connection:
+        assert connection.execute(
+            "SELECT conversation_id FROM conversations"
+        ).fetchall() == [("boundary",)]
+        assert connection.execute(
+            "SELECT conversation_id FROM outcomes"
+        ).fetchall() == [("boundary",)]
+        assert connection.execute(
+            "SELECT conversation_id FROM leads"
+        ).fetchall() == [("boundary-lead",)]

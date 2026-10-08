@@ -20,6 +20,9 @@ human confirmation before applying changes. Run it from ordinary PowerShell
 with Copilot paused. Deployment work now uses deterministic tooling first;
 the [deployment runbook](docs/LOCAL_DEPLOYMENT.md) describes the new serving-only
 release profile and reusable widget. Real site installation remains owner-gated.
+For local Alpha operating procedures, see the
+[management guide](docs/AURORA_MANAGEMENT.md) and its
+[process-management notebook](notebooks/aurora_alpha_management.ipynb).
 
 The local POC answers product facts and gathers a review-ready enquiry. Multiple provisional product families appear only in a protected sales brief; the customer is not given an automatic recommendation. Selection, quantities and compliance decisions remain human-gated by [`BOT_POLICY.md`](BOT_POLICY.md).
 
@@ -292,6 +295,11 @@ site explicitly; JSON reads use `/api/admin/briefs?site_id=local` and
 contain private data and must remain local.
 The key remains in page memory for refresh only. **Clear and lock**, changing
 the site, or leaving the page clears the loaded data and in-memory key.
+
+To start or refresh the local Aurora/Matrix/Neo/Oracle stack in sequence, use
+[`scripts/start_local_stack.ps1`](scripts/start_local_stack.ps1); see the
+[local stack runbook](docs/LOCAL_STACK.md). Aurora Alpha on port 8011 remains
+under its separate gated management notebook.
 
 `sales_brief.py` keeps answered facts separate from unknown/skipped/unasked
 fields, so sales need not repeat basic questions. Candidates include source

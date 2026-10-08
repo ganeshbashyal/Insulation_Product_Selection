@@ -43,6 +43,9 @@ pre { white-space: pre-wrap; overflow-wrap: anywhere; font-size: .85rem; backgro
 do not create a completed sales brief. Refresh after an enquiry is saved.</p>
 <p>Internal provisional candidates only: no automatic approval, delivery or callback booking.
 Use synthetic contact data until storage and retention safeguards are approved.</p>
+<p>Matrix handoffs require recorded customer consent and your explicit approval. Only non-contact project facts,
+unknowns, review flags and provisional family names are shared with Neo; contact details stay in Aurora, and
+source conversation/site IDs and raw turns are not sent.</p>
 </header>
 <main>
 <form id="access" class="controls">
@@ -54,6 +57,14 @@ Use synthetic contact data until storage and retention safeguards are approved.<
 <label>Filter loaded enquiries <input id="search" type="search" placeholder="Enquiry ID, problem or product"></label>
 <p id="status" role="status" aria-live="polite">Enter the separate operator key to load saved enquiries.</p>
 <div id="briefs"></div>
+<section class="controls" aria-labelledby="turnHistoryTitle">
+<h2 id="turnHistoryTitle">Full turn-level interaction history</h2>
+<p>Operator-only, site-scoped user and assistant turns with routing, retrieval and deliberate human-review labels. Local retention: 30 days.</p>
+<button id="loadTurns" type="button">Load recent turns</button>
+<button id="olderTurns" class="secondary" type="button" hidden>Load older turns</button>
+<p id="turnStatus" role="status" aria-live="polite"></p>
+<div id="turns"></div>
+</section>
 </main>
 <script>
 const el = id => document.getElementById(id);
@@ -61,6 +72,8 @@ let records = [];
 let operatorKey = '';
 let requestVersion = 0;
 let activeRequest = null;
+let turnCursor = null;
+let turnRequest = null;
 const names = {
  problem: 'Customer problem', application: 'Application', priority: 'Desired outcome',
  placement: 'Placement', project: 'Project context', project_stage: 'Project stage',
@@ -103,6 +116,24 @@ function exportRecord(row) {
  link.click();
  setTimeout(() => URL.revokeObjectURL(url), 1000);
 }
+async function publishHandoff(row) {
+ if (!operatorKey) throw new Error('Load briefs with the operator key first.');
+ const consent = (row.sales_brief || {}).handoff_consent || {};
+ if (consent.status !== 'granted') throw new Error('Recorded customer consent is required before a Neo handoff.');
+ if (!window.confirm('Approve sending non-contact project facts to Neo through Matrix? Phone/email, raw turns, and source conversation/site IDs will not be included.')) return;
+ const response = await fetch('/api/admin/briefs/' + encodeURIComponent(row.conversation_id) +
+  '/handoff?site_id=' + encodeURIComponent(el('site').value), {
+   method: 'POST', credentials: 'same-origin', cache: 'no-store',
+   headers: {'Content-Type': 'application/json', 'X-Aurora-Lead-Admin-Key': operatorKey},
+   body: JSON.stringify({operator_approved: true})
+  });
+ let result = {};
+ try { result = await response.json(); } catch { throw new Error('Matrix returned an unreadable handoff response.'); }
+ if (response.status === 401 || response.status === 503) lock();
+ if (!response.ok) throw new Error(result.detail || 'Handoff publication failed (' + response.status + ').');
+ el('status').textContent = (result.duplicate ? 'This approved handoff already exists in Matrix.' : 'Approved non-contact handoff published to Matrix for Neo.') +
+  ' Handoff ' + result.handoff.handoff_id + '.';
+}
 function render() {
  el('briefs').replaceChildren();
  const query = el('search').value.trim().toLowerCase();
@@ -114,6 +145,9 @@ function render() {
   article.append(node('p', 'Enquiry ' + row.conversation_id + ' | Site ' + row.site_id + ' | Saved ' + row.created_at, 'meta'));
   article.append(node('span', brief.decision_status || 'Human review required', 'badge'));
   article.append(node('span', 'Saved locally - not sent', 'badge'));
+  const handoffConsent = brief.handoff_consent || {};
+  article.append(node('span', 'Neo handoff consent: ' + (handoffConsent.status || 'not recorded'), 'badge'));
+  for (const label of brief.review_labels || []) article.append(node('span', label, 'badge'));
   if (brief.discovery_ended_early) article.append(node('span', 'Discovery ended early', 'badge'));
   if (brief.entry_context) {
    const entry = brief.entry_context;
@@ -196,16 +230,64 @@ function render() {
   const actions = node('div', undefined, 'actions');
   const download = node('button', 'Export this brief (JSON)');
   download.type = 'button'; download.onclick = () => exportRecord(row);
-  actions.append(download);
+  const handoff = node('button', handoffConsent.status === 'granted' ? 'Approve & send non-contact handoff to Neo' : 'Neo handoff requires customer consent');
+  handoff.type = 'button'; handoff.disabled = handoffConsent.status !== 'granted';
+  handoff.onclick = () => publishHandoff(row).catch(error => {
+   el('status').textContent = 'Handoff publication failed: ' + error.message;
+  });
+  actions.append(download, handoff);
   article.append(actions);
   expandable(article, 'Full saved brief (JSON)', node('pre', JSON.stringify(row, null, 2)));
   el('briefs').append(article);
  }
  el('status').textContent = records.length ? filtered.length + ' of ' + records.length + ' saved enquiries displayed.' : 'No saved enquiries for this site. Complete an enquiry in chat, then refresh.';
 }
+function renderTurn(turn) {
+ const article = node('article');
+ article.append(node('h3', 'Turn ' + turn.turn_number + ' · ' + turn.occurred_at));
+ article.append(node('p', 'Session ' + turn.session_id + ' · Conversation ' + turn.conversation_id +
+  ' · ' + turn.category + ' · retrieval: ' + turn.retrieval_mode, 'meta'));
+ article.append(node('span', turn.human_review_required ? 'Human review required' : 'No human review flag', 'badge'));
+ for (const label of turn.review_labels || []) article.append(node('span', label, 'badge'));
+ article.append(node('h4', 'Customer'), node('p', turn.user_message || '(Conversation opening)'));
+ article.append(node('h4', 'Aurora'), node('p', turn.assistant_reply));
+ return article;
+}
+async function loadTurns(older = false) {
+ if (!operatorKey) { el('turnStatus').textContent = 'Load briefs with the operator key before viewing turns.'; return; }
+ const version = requestVersion;
+ if (turnRequest) turnRequest.abort();
+ turnRequest = new AbortController();
+ el('turnStatus').textContent = older ? 'Loading older turns…' : 'Loading recent turns…';
+ const params = new URLSearchParams({site_id: el('site').value, limit: '500'});
+ if (older && turnCursor) params.set('before_turn_id', String(turnCursor));
+ try {
+  const response = await fetch('/api/admin/interactions?' + params.toString(), {
+   headers: {'X-Aurora-Lead-Admin-Key': operatorKey}, cache: 'no-store',
+   signal: turnRequest.signal
+  });
+  let result = {};
+  try { result = await response.json(); } catch { throw new Error('Turn history response was unreadable.'); }
+  if (!response.ok) {
+   if (response.status === 401 || response.status === 503) lock();
+   throw new Error(result.detail || 'Turn history request failed (' + response.status + ').');
+  }
+  if (version !== requestVersion) return;
+  for (const turn of result.turns || []) el('turns').append(renderTurn(turn));
+  turnCursor = result.next_cursor;
+  el('olderTurns').hidden = !turnCursor;
+  el('turnStatus').textContent = (result.turns || []).length ?
+   (older ? 'Older turns loaded.' : 'Recent turns loaded.') : 'No turns found for this site.';
+ } catch (error) {
+  if (error.name !== 'AbortError' && version === requestVersion) el('turnStatus').textContent = error.message;
+ } finally {
+  turnRequest = null;
+ }
+}
 function lock() {
  requestVersion++;
  if (activeRequest) activeRequest.abort();
+ if (turnRequest) turnRequest.abort();
  activeRequest = null;
  operatorKey = '';
  records = [];
@@ -213,12 +295,16 @@ function lock() {
  el('key').required = true;
  el('search').value = '';
  el('briefs').replaceChildren();
+ el('turns').replaceChildren(); turnCursor = null;
+ el('olderTurns').hidden = true; el('turnStatus').textContent = '';
  el('load').disabled = false;
  el('status').textContent = 'Cleared and locked.';
 }
 el('clear').onclick = lock;
 el('site').addEventListener('input', lock);
 el('search').addEventListener('input', render);
+el('loadTurns').onclick = () => loadTurns(false);
+el('olderTurns').onclick = () => loadTurns(true);
 el('access').onsubmit = async event => {
  event.preventDefault();
  const enteredKey = el('key').value;
@@ -244,7 +330,7 @@ el('access').onsubmit = async event => {
   render();
  } catch (error) {
   if (version !== requestVersion) return;
-  operatorKey = ''; el('key').required = true;
+  lock(); el('key').required = true;
   el('status').textContent = error.message;
  } finally {
   if (version === requestVersion) { activeRequest = null; el('load').disabled = false; }

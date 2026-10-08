@@ -5,14 +5,17 @@ import hmac
 import hashlib
 import json
 import threading
+import uuid
 from urllib.parse import urlparse
 from typing import Literal
 
 from fastapi import APIRouter, HTTPException, Query, Request
 from fastapi.responses import FileResponse, HTMLResponse, JSONResponse, PlainTextResponse
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 
 from local_source_review import checked_pages
+from family_assistant import FamilyAssistantError, apply_changes, answer as family_assistant_answer, build_family_context
+from family_assistant_store import FamilyAssistantStore
 from product_research import ROOT
 from research_store import Conflict, canonical, stamp
 from research_workflow import active_effective, effective_evidence, latest_reviews, publication_preview, validate_review
@@ -23,6 +26,7 @@ from family_review import (ReviewInventoryError, build_review_inventory, family_
 router = APIRouter()
 _job_lock = threading.Lock()
 COOKIE = "aurora_research_session"
+_family_assistant_store: FamilyAssistantStore | None = None
 
 
 def store():
@@ -31,6 +35,13 @@ def store():
 
 def index(refresh=False):
     return service().index(refresh)
+
+
+def family_assistant_store() -> FamilyAssistantStore:
+    global _family_assistant_store
+    if _family_assistant_store is None:
+        _family_assistant_store = FamilyAssistantStore()
+    return _family_assistant_store
 
 
 def same_origin(request):
@@ -66,6 +77,25 @@ class Change(BaseModel):
     data: dict
 
 
+class FamilyManagerConversationRequest(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    family_id: str = Field(min_length=1, max_length=100)
+    model: str = Field(min_length=1, max_length=120)
+
+
+class FamilyManagerMessageRequest(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    message: str = Field(min_length=1, max_length=4000)
+
+
+class FamilyManagerApprovalRequest(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    expected_revision: int = Field(ge=0)
+
+
 @router.get("/admin/products")
 def page():
     return HTMLResponse((ROOT / "templates" / "product_research.html").read_text(encoding="utf-8"),
@@ -76,6 +106,19 @@ def page():
 def knowledge_page():
     return HTMLResponse((ROOT / "templates" / "knowledge_validation.html").read_text(encoding="utf-8"),
                         headers={"Cache-Control": "no-store", "Referrer-Policy": "no-referrer"})
+
+
+@router.get("/admin/family-manager")
+def family_manager_page():
+    return HTMLResponse(
+        (ROOT / "templates" / "family_assistant.html").read_text(encoding="utf-8"),
+        headers={"Cache-Control": "no-store", "Referrer-Policy": "no-referrer",
+                 "X-Content-Type-Options": "nosniff",
+                 "Content-Security-Policy":
+                     "default-src 'self'; script-src 'self' 'unsafe-inline'; "
+                     "style-src 'self' 'unsafe-inline'; connect-src 'self'; "
+                     "img-src 'self' data:; frame-ancestors 'self'"},
+    )
 
 
 @router.get("/admin/competitors")
@@ -235,6 +278,229 @@ def family_review_worklist(request: Request, lane: str = Query("families", patte
            if key not in {"families", "mapped_exception_groups", "unmapped_groups"}},
         "lane": lane, "total": len(rows), "offset": offset, "limit": limit,
         "items": rows[offset:offset + limit],
+    })
+
+
+@router.get("/api/research/family-manager/models")
+def family_manager_models(request: Request):
+    user(request, "reviewer")
+    from local_model import chat_models
+    try:
+        return response({"available": True, "provider": "local_ollama",
+                         "models": chat_models()})
+    except RuntimeError as exc:
+        return response({"available": False, "provider": "local_ollama",
+                         "models": [], "error": str(exc)})
+
+
+@router.get("/api/research/family-manager/families")
+def family_manager_families(request: Request, q: str = Query("", max_length=200)):
+    user(request, "reviewer")
+    rows = []
+    for family in index().families.values():
+        item = {key: family.get(key, "") for key in
+                ("family_id", "name", "manufacturer", "category")}
+        if not q or q.casefold() in canonical(item).casefold():
+            rows.append(item)
+    rows.sort(key=lambda row: (row["manufacturer"].casefold(), row["name"].casefold(),
+                               row["family_id"]))
+    return response({"families": rows, "total": len(rows)})
+
+
+def family_manager_context(family_id: str):
+    idx = index(refresh=True)
+    if family_id not in idx.families:
+        raise HTTPException(404, "Unknown family")
+    try:
+        detail = service().family(family_id)
+    except (OSError, ValueError, KeyError) as exc:
+        raise HTTPException(409, "Current local family knowledge could not be read") from exc
+    authoring = family_assistant_store().authoring_copy(family_id)
+    context = build_family_context(detail, family_id, authoring)
+    return context, authoring
+
+
+def family_manager_public_proposal(proposal: dict, context: dict | None) -> dict:
+    return {
+        key: proposal[key] for key in (
+            "proposal_id", "family_id", "title", "summary", "source_signature",
+            "base_revision", "changes", "status", "created_at", "applied_revision",
+        ) if key in proposal
+    } | {
+        "stale": proposal["status"] == "draft" and (
+            context is None
+            or proposal["source_signature"] != context["source_signature"]
+            or proposal["base_revision"] != context["authoring_copy"]["revision"]
+        ),
+    }
+
+
+@router.get("/api/research/family-manager/families/{family_id}")
+def family_manager_family(family_id: str, request: Request):
+    user(request, "reviewer")
+    context, authoring = family_manager_context(family_id)
+    return response({
+        **context,
+        "authoring_copy": {
+            "revision": authoring["revision"],
+            "snapshot": context["authoring_copy"]["snapshot"],
+            "saved": context["authoring_copy"]["saved"],
+            "source_signature": authoring["source_signature"],
+            "source_is_current": (not authoring["source_signature"]
+                                  or authoring["source_signature"] == context["source_signature"]),
+        },
+    })
+
+
+@router.get("/api/research/family-manager/conversations")
+def family_manager_conversations(request: Request, family_id: str | None = None):
+    account = user(request, "reviewer")
+    if family_id and family_id not in index().families:
+        raise HTTPException(404, "Unknown family")
+    return response({"conversations": family_assistant_store().conversations(
+        account["username"], family_id=family_id,
+    )})
+
+
+@router.post("/api/research/family-manager/conversations", status_code=201)
+def family_manager_create_conversation(body: FamilyManagerConversationRequest,
+                                       request: Request):
+    account = user(request, "reviewer", write=True)
+    if body.family_id not in index().families:
+        raise HTTPException(404, "Unknown family")
+    from local_model import chat_models
+    try:
+        models = chat_models()
+    except RuntimeError as exc:
+        raise HTTPException(503, str(exc)) from exc
+    if body.model not in models:
+        raise HTTPException(422, "Select an installed chat-capable local Ollama model")
+    conversation = family_assistant_store().create_conversation(
+        str(uuid.uuid4()), account["username"], body.family_id, body.model,
+    )
+    return response({"conversation": conversation, "messages": []}, 201)
+
+
+@router.get("/api/research/family-manager/conversations/{conversation_id}/messages")
+def family_manager_messages(conversation_id: str, request: Request):
+    account = user(request, "reviewer")
+    conversation = family_assistant_store().conversation(conversation_id, account["username"])
+    if not conversation:
+        raise HTTPException(404, "Family conversation not found")
+    try:
+        messages = family_assistant_store().messages(conversation_id, account["username"])
+        proposals = family_assistant_store().proposals(conversation_id, account["username"])
+    except KeyError as exc:
+        raise HTTPException(404, str(exc)) from exc
+    try:
+        context, _ = family_manager_context(conversation["family_id"])
+    except HTTPException as exc:
+        if exc.status_code not in {404, 409}:
+            raise
+        context = None
+    return response({"conversation": conversation, "messages": messages,
+                     "proposals": [
+                         family_manager_public_proposal(proposal, context)
+                         for proposal in proposals
+                     ]})
+
+
+@router.post("/api/research/family-manager/conversations/{conversation_id}/messages")
+def family_manager_send_message(conversation_id: str, body: FamilyManagerMessageRequest,
+                                request: Request):
+    account = user(request, "reviewer", write=True)
+    manager = family_assistant_store()
+    conversation = manager.conversation(conversation_id, account["username"])
+    if not conversation:
+        raise HTTPException(404, "Family conversation not found")
+    context, authoring = family_manager_context(conversation["family_id"])
+    history = manager.messages(conversation_id, account["username"])
+    manager.add_message(conversation_id, account["username"], "user", body.message)
+    try:
+        result = family_assistant_answer(
+            body.message, context=context,
+            baseline=context["authoring_copy"]["snapshot"],
+            model=conversation["model"], history=history,
+        )
+    except RuntimeError as exc:
+        raise HTTPException(503, f"Local model unavailable: {exc}") from exc
+    except FamilyAssistantError as exc:
+        raise HTTPException(502, str(exc)) from exc
+
+    proposal = None
+    proposal_id = None
+    if result["proposal"]:
+        proposed = result["proposal"]
+        proposal_id = proposed["proposal_id"]
+        try:
+            proposal = manager.create_proposal(
+                proposal_id=proposal_id, conversation_id=conversation_id,
+                actor=account["username"], family_id=conversation["family_id"],
+                title=proposed["title"], summary=proposed["summary"],
+                source_signature=context["source_signature"],
+                base_revision=authoring["revision"],
+                baseline=context["authoring_copy"]["snapshot"],
+                changes=proposed["changes"],
+            )
+        except KeyError as exc:
+            raise HTTPException(404, "Family conversation not found") from exc
+    message = manager.add_message(
+        conversation_id, account["username"], "assistant", result["reply"],
+        result["citations"], proposal_id,
+    )
+    return response({"message": message,
+                     "proposal": (family_manager_public_proposal(proposal, context)
+                                  if proposal else None),
+                     "model_status": "local_model"})
+
+
+@router.delete("/api/research/family-manager/conversations/{conversation_id}")
+def family_manager_delete_conversation(conversation_id: str, request: Request):
+    account = user(request, "reviewer", write=True)
+    if not family_assistant_store().delete_conversation(conversation_id, account["username"]):
+        raise HTTPException(404, "Family conversation not found")
+    return response({"deleted": True})
+
+
+@router.delete("/api/research/family-manager/proposals/{proposal_id}")
+def family_manager_delete_proposal(proposal_id: str, request: Request):
+    account = user(request, "reviewer", write=True)
+    if not family_assistant_store().delete_proposal(proposal_id, account["username"]):
+        raise HTTPException(404, "Draft proposal not found")
+    return response({"deleted": True})
+
+
+@router.post("/api/research/family-manager/proposals/{proposal_id}/approve")
+def family_manager_approve_proposal(proposal_id: str,
+                                    body: FamilyManagerApprovalRequest,
+                                    request: Request):
+    account = user(request, "reviewer", write=True)
+    manager = family_assistant_store()
+    proposal = manager.proposal(proposal_id, account["username"])
+    if not proposal:
+        raise HTTPException(404, "Family proposal not found")
+    context, _ = family_manager_context(proposal["family_id"])
+    try:
+        snapshot = apply_changes(proposal["baseline"], proposal["changes"],
+                                 proposal["family_id"])
+        revision = manager.apply_proposal(
+            proposal_id, account["username"],
+            source_signature=context["source_signature"],
+            expected_revision=body.expected_revision,
+            snapshot=snapshot,
+        )
+    except KeyError as exc:
+        raise HTTPException(404, str(exc)) from exc
+    except ValueError as exc:
+        raise HTTPException(409, str(exc)) from exc
+    return response({
+        "saved": True,
+        "family_id": revision["family_id"],
+        "revision": revision["revision"],
+        "created_at": revision["created_at"],
+        "storage": "private local Family Knowledge Manager database",
+        "canonical_knowledge_changed": False,
+        "deployment_changed": False,
     })
 
 

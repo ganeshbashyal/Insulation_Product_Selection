@@ -163,7 +163,7 @@ def test_page_context_survives_conversation_and_enters_private_sales_brief(monke
     assert saved["sales_brief"]["entry_context"] == context
 
     restored.start_new_project()
-    assert restored.page_context == context
+    assert restored.page_context is None
 
 
 def test_tokens_hash_storage_expiry_and_origin_validation(tmp_path):

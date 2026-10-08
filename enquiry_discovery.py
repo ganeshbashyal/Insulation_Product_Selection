@@ -11,7 +11,7 @@ QUESTIONS = {
     "placement": "Which part needs insulation: {options}?",
     "project_stage": "Is this an existing building being upgraded, or a new build?",
     "building_use": "What is the building used for: a home, commercial premises, or something else?",
-    "construction": "What is the {element} made from? Describe the layers or frame if you know.",
+    "construction": "Do you know how the {element} is built - for example, its frame or layers?",
     "wall_assembly": "Is that brick veneer with a framed cavity, solid/double brick, or another arrangement? Unknown is fine.",
     "access": "What access is available to install insulation{access_hint}?",
     "cavity_depth": "How much usable depth or clearance is available for insulation? An estimate or 'unknown' is fine.",
@@ -85,11 +85,19 @@ def fields_for(answers: dict[str, str]) -> list[str]:
 
 
 def next_field(answers: dict[str, str], statuses: dict[str, str]) -> str | None:
-    return next((key for key in fields_for(answers) if not answers.get(key) and key not in statuses), None)
+    return next((
+        key for key in fields_for(answers)
+        if statuses.get(key) == "conflict" or (not answers.get(key) and key not in statuses)
+    ), None)
 
 
 def question(key: str, answers: dict[str, str]) -> str:
     which = element(answers)
+    if key == "application":
+        priority = detected_priority(answers.get("priority", ""), answers.get("problem", ""))
+        if priority == "acoustic_comfort":
+            return "Where is the noise coming through: a wall, roof or ceiling, floor, pipe, or somewhere else?"
+        return "Where is the insulation needed: a wall, roof or ceiling, floor, pipe, or somewhere else?"
     options = {
         "wall": "an internal partition or an external wall",
         "roof": "above the ceiling or up at the roofline/rafters",
@@ -105,7 +113,11 @@ def question(key: str, answers: dict[str, str]) -> str:
 
 
 def completeness(answers: dict[str, str], statuses: dict[str, str]) -> dict:
-    unresolved = [key for key in fields_for(answers) if not answers.get(key) or statuses.get(key) in {"unknown", "skipped"} or UNKNOWN.search(answers.get(key, ""))]
+    unresolved = [
+        key for key in fields_for(answers)
+        if (not answers.get(key) or statuses.get(key) in {"unknown", "skipped", "conflict"}
+            or UNKNOWN.search(answers.get(key, "")))
+    ]
     return {
         "status": "needs_followup" if unresolved else "captured_for_review",
         "unresolved_fields": unresolved,

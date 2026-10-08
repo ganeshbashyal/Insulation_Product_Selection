@@ -140,6 +140,36 @@ class NeoStore:
                          (title, now, conversation_id))
         return {"role": role, "content": content, "citations": citations or [], "occurred_at": now}
 
+    def add_exchange(self, conversation_id: str, user_content: str, assistant_content: str,
+                     citations: list[dict] | None = None) -> tuple[dict, dict]:
+        now = _stamp()
+        citations = citations or []
+        with self.connection() as conn:
+            conn.execute("BEGIN IMMEDIATE")
+            row = conn.execute("SELECT title FROM neo_conversations WHERE conversation_id=?",
+                               (conversation_id,)).fetchone()
+            if not row:
+                raise KeyError("Neo conversation not found")
+            for role, content, sources in (
+                ("user", user_content, []),
+                ("assistant", assistant_content, citations),
+            ):
+                conn.execute("""
+                    INSERT INTO neo_messages(conversation_id,role,content,citations_json,occurred_at)
+                    VALUES(?,?,?,?,?)
+                """, (conversation_id, role, content,
+                      json.dumps(sources, ensure_ascii=False), now))
+            title = row["title"]
+            if title == "New Neo conversation":
+                title = user_content.strip().splitlines()[0][:80] or title
+            conn.execute("UPDATE neo_conversations SET title=?,updated_at=? WHERE conversation_id=?",
+                         (title, now, conversation_id))
+        return (
+            {"role": "user", "content": user_content, "citations": [], "occurred_at": now},
+            {"role": "assistant", "content": assistant_content,
+             "citations": citations, "occurred_at": now},
+        )
+
     def set_model(self, conversation_id: str, model: str) -> dict | None:
         with self.connection() as conn:
             conn.execute("UPDATE neo_conversations SET model=?,updated_at=? WHERE conversation_id=?",

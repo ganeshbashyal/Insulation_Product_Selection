@@ -8,10 +8,12 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import sys
 import tempfile
 import time
 from pathlib import Path
+from typing import Callable
 from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -22,6 +24,126 @@ import interaction_store
 import llm_client
 from conversation_service import ConversationService
 from dialogue_cases import CASES
+
+
+def evaluate_case(
+    service: ConversationService,
+    case,
+    *,
+    site_id: str = "local-evaluation",
+    phrase_decisions: list[bool] | None = None,
+    turn_callback=None,
+    message_transform: Callable[[int, str, list[dict]], tuple[str, dict]] | None = None,
+    strict_case_assertions: bool = True,
+) -> tuple[dict, agent_core.Conversation]:
+    """Run and score one synthetic case against the isolated interaction store."""
+    if not case.messages:
+        raise ValueError("An evaluation case must include at least one customer message")
+
+    phrase_decisions = phrase_decisions if phrase_decisions is not None else []
+    conversation = agent_core.Conversation()
+    transcript = []
+    result = None
+    hard_failures = []
+    for turn_number, template in enumerate(case.messages):
+        message, simulation = (
+            message_transform(turn_number, template, transcript)
+            if message_transform is not None
+            else (template, None)
+        )
+        started = time.monotonic()
+        phrase_start = len(phrase_decisions)
+        result = service.handle(conversation, message, site_id=site_id)
+        turn = {
+            "turn_number": turn_number,
+            "scenario_template": template,
+            "customer": message,
+            "customer_simulation": simulation,
+            "reply": result.reply,
+            "category": result.category,
+            "step": conversation.step,
+            "done": conversation.done,
+            "retrieval_mode": result.retrieval_mode,
+            "source_references": [
+                line.strip() for line in result.reply.splitlines()
+                if line.strip().casefold().startswith("source:")
+            ],
+            "human_review_required": result.human_review_required,
+            "review_labels": list(result.review_labels),
+            "wording_changed": any(phrase_decisions[phrase_start:]),
+            "seconds": round(time.monotonic() - started, 3),
+            "state": {
+                "mode": conversation.mode,
+                "pending_field": conversation.pending_field,
+                "answer_keys": sorted(conversation.answers),
+                "discovery_status": dict(conversation.discovery_status),
+                "candidate_count": len(conversation.candidates),
+            },
+        }
+        transcript.append(turn)
+        if conversation.recommendation:
+            hard_failures.append("Customer recommendation is not permitted")
+        for candidate in conversation.candidates:
+            name = candidate.get("name")
+            if isinstance(name, str) and name and name.casefold() in result.reply.casefold():
+                hard_failures.append("Internal candidate leaked in customer reply")
+        if turn_callback is not None:
+            turn_callback(turn, conversation, result)
+        conversation = agent_core.Conversation.from_dict(conversation.to_dict())
+
+    failures = hard_failures
+    expectation_mismatches = []
+    if result.category != case.category:
+        expectation_mismatches.append(f"category: expected {case.category}, got {result.category}")
+    expectation_mismatches.extend(
+        f"missing answer detail: {fragment}"
+        for fragment in case.contains
+        if fragment not in result.reply.casefold()
+    )
+    if case.step is not None and conversation.step != case.step:
+        expectation_mismatches.append(f"step: expected {case.step}, got {conversation.step}")
+    if case.answer and case.answer[1] not in conversation.answers.get(case.answer[0], "").casefold():
+        expectation_mismatches.append(f"missing/corrected fact: {case.answer[0]}")
+    seen_replies = set()
+    for index, turn in enumerate(transcript):
+        reply = turn["reply"]
+        normalized_reply = " ".join(reply.casefold().split())
+        if "?" in reply and normalized_reply in seen_replies:
+            previous_state = transcript[index - 1]["state"] if index else {}
+            current_state = turn["state"]
+            field = previous_state.get("pending_field")
+            previous_status = previous_state.get("discovery_status", {}).get(field)
+            current_status = current_state.get("discovery_status", {}).get(field)
+            if (
+                field
+                and current_state.get("pending_field") == field
+                and previous_status in {"provided", "unknown", "skipped"}
+                and current_status == previous_status
+            ):
+                hard_failures.append("repeated assistant question after a resolved answer")
+        if "?" in reply:
+            seen_replies.add(normalized_reply)
+        if re.search(r"\b(?:i've noted|i have noted|i've also noted)\b", reply, re.I):
+            hard_failures.append("stock acknowledgement makes discovery feel repetitive")
+        if turn["category"] == "product-fit" and reply.count("?") > 1:
+            hard_failures.append("multiple questions in one discovery reply")
+    if conversation.done:
+        brief = interaction_store.leads(site_id=site_id)[-1]["sales_brief"]
+        if brief.get("approval") is not None or any(
+            candidate["disposition"] not in {"HOLD", "REVIEW", "REJECTED"}
+            for candidate in brief["candidates"]
+        ):
+            hard_failures.append("Brief contains an automatic approval")
+    if strict_case_assertions:
+        failures.extend(expectation_mismatches)
+    return {
+        "name": case.name,
+        "passed": not failures,
+        "failures": failures,
+        "scenario_expectation_mismatches": expectation_mismatches,
+        "scenario_expectations_passed": not expectation_mismatches,
+        "transcript": transcript,
+    }, conversation
 
 
 def evaluate(*, local_wording: bool = False, names: list[str] | None = None) -> dict:
@@ -64,39 +186,10 @@ def evaluate(*, local_wording: bool = False, names: list[str] | None = None) -> 
             interaction_store.DEFAULT_DB = Path(directory) / "synthetic.sqlite3"
             service = ConversationService(use_llm=local_wording)
             for case in cases:
-                conversation = agent_core.Conversation()
-                transcript = []
-                for message in case.messages:
-                    started = time.monotonic()
-                    phrase_start = len(phrase_decisions)
-                    result = service.handle(conversation, message, site_id="local-evaluation")
-                    transcript.append({
-                        "customer": message, "reply": result.reply,
-                        "category": result.category, "step": conversation.step,
-                        "retrieval_mode": result.retrieval_mode,
-                        "wording_changed": any(phrase_decisions[phrase_start:]),
-                        "seconds": round(time.monotonic() - started, 3),
-                    })
-                    conversation = agent_core.Conversation.from_dict(conversation.to_dict())
-                failures = []
-                if result.category != case.category:
-                    failures.append(f"category: expected {case.category}, got {result.category}")
-                failures.extend(f"missing answer detail: {fragment}" for fragment in case.contains if fragment not in result.reply.casefold())
-                if case.step is not None and conversation.step != case.step:
-                    failures.append(f"step: expected {case.step}, got {conversation.step}")
-                if case.answer and case.answer[1] not in conversation.answers.get(case.answer[0], "").casefold():
-                    failures.append(f"missing/corrected fact: {case.answer[0]}")
-                if case.category == "product-fit":
-                    if conversation.recommendation:
-                        failures.append("Customer recommendation is not permitted")
-                    for candidate in conversation.candidates:
-                        if candidate["name"].casefold() in result.reply.casefold():
-                            failures.append("Internal candidate leaked in customer reply")
-                if conversation.done:
-                    brief = interaction_store.leads(site_id="local-evaluation")[-1]["sales_brief"]
-                    if brief.get("approval") is not None or any(c["disposition"] not in {"HOLD", "REVIEW", "REJECTED"} for c in brief["candidates"]):
-                        failures.append("Brief contains an automatic approval")
-                reports.append({"name": case.name, "passed": not failures, "failures": failures, "transcript": transcript})
+                report, _ = evaluate_case(
+                    service, case, phrase_decisions=phrase_decisions,
+                )
+                reports.append(report)
     finally:
         interaction_store.DEFAULT_DB = original_db
         llm_client.generate_reply = original_generate

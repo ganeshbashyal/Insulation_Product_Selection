@@ -51,21 +51,22 @@ label{display:grid;gap:5px;margin:8px 0}.muted{color:#acbbd0}.warning{color:#ffd
 <div class="panel">
 <div class="split"><label>Knowledge scope <select id="scope"><option value="all">All local knowledge</option><option value="products">Products / TDS</option><option value="compliance">NCC / ABCB literature</option></select></label>
 <label>Application environment <select id="environment"><option value="local">Local / private</option></select></label></div>
-<div class="toolbar"><label>Local Ollama model <select id="model"><option value="">No model (grounded fallback only)</option></select></label><button id="refreshModels" type="button">Refresh local models</button><span id="modelState" class="muted"></span></div>
+<div class="toolbar"><label>Local Ollama model <select id="model"><option value="">No model (local sources only)</option></select></label><button id="refreshModels" type="button">Refresh local models</button><span id="modelState" class="muted"></span></div>
 <div class="split"><label>Family context (optional) <input id="familyContext" placeholder="Exact local family ID"></label><label>Page/product context (optional) <input id="pageContext" placeholder="Short owner-provided context"></label></div>
-<p class="muted">Answers search local evidence. Verified facts, unreviewed material, and suggestions are labelled separately. No web lookup, cloud model, email, CRM, or production write is available.</p>
+<p class="muted">Oracle welcomes general conversation, planning, writing, research, and workflow help. A selected local model handles free-flow conversation; workspace-specific questions also search local evidence. Verified facts, unreviewed material, and suggestions are labelled separately. No web lookup, cloud model, email, CRM, or production write is available.</p>
 </div>
 <section class="panel"><div id="conversationTitle" class="muted">Start an Oracle conversation</div><div id="messages" role="log" aria-live="polite"></div>
-<form id="messageForm" class="row"><textarea id="messageInput" rows="2" maxlength="4000" placeholder="Ask Oracle about local products, sources, NCC/ABCB, a project brief, or a local price comparison…" required></textarea><button id="send">Ask Oracle</button></form></section>
+<form id="messageForm" class="row"><textarea id="messageInput" rows="2" maxlength="4000" placeholder="Talk with Oracle about anything—planning, writing, research, everyday questions, or local product and document evidence…" required></textarea><button id="send">Ask Oracle</button></form></section>
 <section class="panel"><h2>Local sources</h2><form id="sourceForm" class="toolbar"><input id="sourceQuery" aria-label="Source search" maxlength="1000" placeholder="Search local sources" required><select id="sourceScope"><option value="all">All</option><option value="products">Products / TDS</option><option value="compliance">NCC / ABCB</option></select><button>Search sources</button></form><div id="sourceResults"></div></section>
 </section></div></section>
 </main>
 <script>
 "use strict";
 const $=id=>document.getElementById(id);
-let csrf="",conversation=null,messages=[],lastCitations=[],busy=false;
+let csrf="",conversation=null,messages=[],lastCitations=[],busy=false,comparisonReady=false,defaultModel="";
 function node(tag,text){const item=document.createElement(tag);if(text!==undefined)item.textContent=String(text);return item;}
 function status(text,error=false){$("status").textContent=text;$("status").className=error?"warning":"";}
+function notifyComparison(message,ready){if(window.parent!==window)window.parent.postMessage({type:"assistant-status",message,ready},location.origin);}
 async function api(path,method="GET",data){
   const headers={};if(method!=="GET")headers["Content-Type"]="application/json";
   if(method!=="GET"&&csrf)headers["X-Oracle-CSRF"]=csrf;
@@ -101,7 +102,9 @@ async function refreshConversations(){
 async function openConversation(id){
   const result=await api(`/api/oracle/conversations/${encodeURIComponent(id)}/messages`);
   conversation=result.conversation;messages=result.messages;lastCitations=[];
-  $("scope").value=conversation.scope;$("environment").value=conversation.environment;$("model").value=conversation.model;
+  $("scope").value=conversation.scope;$("environment").value=conversation.environment;
+  $("model").value=conversation.model&&Array.from($("model").options).some(option=>option.value===conversation.model)
+    ?conversation.model:"";
   $("familyContext").value=conversation.context.family_id||"";$("pageContext").value=conversation.context.page_title||conversation.context.product_name||"";
   $("conversationTitle").textContent=conversation.title;drawMessages();
 }
@@ -121,11 +124,14 @@ async function saveSettings(){
 }
 async function loadModels(){
   $("modelState").textContent="Checking local Ollama…";
+  const selected=$("model").value;
   const result=await api("/api/oracle/models");$("model").replaceChildren();
-  $("model").append(new Option("No model (grounded fallback only)",""));
+  $("model").append(new Option("No model (local sources only)",""));
   for(const model of result.models)$("model").append(new Option(model,model));
+  defaultModel=result.default_model||"";
+  $("model").value=selected&&result.models.includes(selected)?selected:defaultModel;
   $("modelState").textContent=result.available?`${result.models.length} local model(s) available`:
-    (result.error||"Local Ollama unavailable; fallback only");
+    (result.error||"Local Ollama unavailable; free-flow conversation needs a selected local model");
 }
 async function loadNotes(){
   const result=await api("/api/oracle/notes");$("notes").replaceChildren();
@@ -139,21 +145,23 @@ async function enter(){
   $("login").hidden=true;$("workspace").hidden=false;
   await Promise.all([refreshConversations(),loadNotes(),loadTasks(),loadModels()]);
   status("Oracle is unlocked. Conversation, notes and tasks remain in Oracle's private local store.");
+  comparisonReady=true;
+  notifyComparison("Oracle is unlocked and ready.",true);
 }
 async function start(){
   try{
     const session=await api("/api/oracle/session");
-    if(!session.configured){$("login").hidden=false;$("setupHint").textContent="First configure the dedicated passphrase locally with: python scripts\\oracle_owner.py";return;}
-    if(!session.authenticated){$("login").hidden=false;$("setupHint").textContent="Unlock with the passphrase configured for Oracle.";return;}
+    if(!session.configured){$("login").hidden=false;$("setupHint").textContent="First configure the dedicated passphrase locally with: python scripts\\oracle_owner.py";notifyComparison("Oracle is not configured; complete local owner setup first.",false);return;}
+    if(!session.authenticated){$("login").hidden=false;$("setupHint").textContent="Unlock with the passphrase configured for Oracle.";notifyComparison("Unlock Oracle in this panel before comparing.",false);return;}
     csrf=session.csrf;await enter();
-  }catch(error){status(error.message,true);}
+  }catch(error){status(error.message,true);notifyComparison("Oracle is unavailable: "+error.message,false);}
 }
 $("loginForm").onsubmit=action(async()=>{const passphrase=$("passphrase").value;$("passphrase").value="";const result=await api("/api/oracle/login","POST",{passphrase});csrf=result.csrf;await enter();});
 $("newChat").onclick=action(newConversation);
 $("scope").onchange=action(saveSettings);$("environment").onchange=action(saveSettings);$("model").onchange=action(saveSettings);
 $("familyContext").onchange=action(saveSettings);$("pageContext").onchange=action(saveSettings);
 $("clearChat").onclick=action(async()=>{if(!conversation)return;await api(`/api/oracle/conversations/${encodeURIComponent(conversation.conversation_id)}`,"DELETE");conversation=null;messages=[];drawMessages();$("conversationTitle").textContent="Session cleared";await refreshConversations();status("Current Oracle session and its message history cleared.");});
-$("logout").onclick=action(async()=>{await api("/api/oracle/logout","POST");csrf="";conversation=null;messages=[];$("workspace").hidden=true;$("login").hidden=false;status("Oracle locked.");});
+$("logout").onclick=action(async()=>{await api("/api/oracle/logout","POST");csrf="";conversation=null;messages=[];comparisonReady=false;$("workspace").hidden=true;$("login").hidden=false;status("Oracle locked.");notifyComparison("Oracle is locked; unlock it before comparing.",false);});
 $("refreshModels").onclick=action(loadModels);
 $("messageForm").onsubmit=action(async()=>{
   if(busy)return;if(!conversation)await newConversation();
@@ -164,7 +172,7 @@ $("messageForm").onsubmit=action(async()=>{
     const result=await api(`/api/oracle/conversations/${encodeURIComponent(conversation.conversation_id)}/messages`,"POST",{message:text});
     messages.push(result.message);lastCitations=result.message.citations||[];drawMessages();
     await refreshConversations();
-    status(result.model_status==="fallback"?"Local model unavailable; Oracle returned grounded local evidence.":`Oracle replied (${result.model_status}).`);
+    status(result.model_status==="fallback"?"Oracle used a local fallback response.":`Oracle replied (${result.model_status}).`);
   }catch(error){messages.pop();$("messageInput").value=text;drawMessages();throw error;}
   finally{busy=false;$("send").disabled=false;$("messageInput").focus();}
 });
@@ -188,6 +196,20 @@ $("prepareBrief").onclick=action(async()=>{
   const result=await api("/api/oracle/briefs/prepare","POST",{conversation_id:conversation.conversation_id});
   $("noteTitle").value=result.title;$("noteContent").value=result.content;lastCitations=result.source_refs;
   $("noteForm").scrollIntoView({block:"center",behavior:"smooth"});status("Draft brief prepared from this private conversation; review before saving or sharing.");
+});
+window.addEventListener("message",event=>{
+  if(event.source!==window.parent||event.origin!==location.origin||!event.data)return;
+  if(event.data.type==="assistant-status-request"){
+    notifyComparison(comparisonReady?"Oracle is unlocked and ready.":"Unlock Oracle in this panel before comparing.",comparisonReady);
+    return;
+  }
+  if(event.data.type!=="assistant-compare-prompt"||typeof event.data.prompt!=="string")return;
+  const prompt=event.data.prompt.trim();
+  if(!prompt||prompt.length>4000)return;
+  if(!comparisonReady||$("workspace").hidden){notifyComparison("Unlock Oracle in this panel before comparing.",false);return;}
+  if(busy){notifyComparison("Oracle is already processing a prompt.",true);return;}
+  $("messageInput").value=prompt;
+  $("messageForm").requestSubmit();
 });
 window.addEventListener("pagehide",()=>{csrf="";messages=[];lastCitations=[];conversation=null;});
 start();

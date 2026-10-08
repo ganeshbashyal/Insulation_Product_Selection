@@ -12,8 +12,17 @@ from fastapi.testclient import TestClient
 import pytest
 
 import llm_client
+import local_model
 import oracle_api
-from oracle_assistant import OracleAssistant, OracleKnowledge, _safe_local_path, installed_models, loopback_ollama_base
+from oracle_assistant import (
+    SYSTEM_PROMPT,
+    OracleAssistant,
+    OracleKnowledge,
+    _safe_local_path,
+    deterministic_reply,
+    installed_models,
+    loopback_ollama_base,
+)
 from oracle_pricing import OraclePricingError, analyze
 from oracle_store import OracleStore
 
@@ -108,6 +117,8 @@ def test_owner_api_requires_loopback_login_and_csrf(monkeypatch, tmp_path):
     db.set_passphrase("test Oracle owner passphrase long enough")
     monkeypatch.setattr(oracle_api, "_store_instance", db)
     monkeypatch.setattr(oracle_api, "_assistant_instance", None)
+    monkeypatch.setattr(oracle_api, "installed_models", lambda: ["gemma4:latest", "llama3.2:latest"])
+    monkeypatch.setattr(oracle_api, "resident_models", lambda: [{"name": "llama3.2:latest"}])
     app = FastAPI()
     app.include_router(oracle_api.router)
     client = TestClient(app, base_url="http://127.0.0.1", client=("127.0.0.1", 5000))
@@ -117,6 +128,10 @@ def test_owner_api_requires_loopback_login_and_csrf(monkeypatch, tmp_path):
                         json={"passphrase": "test Oracle owner passphrase long enough"})
     assert login.status_code == 200
     csrf = login.json()["csrf"]
+    models = client.get("/api/oracle/models")
+    assert models.json()["models"] == ["gemma4:latest", "llama3.2:latest"]
+    assert models.json()["default_model"] == "llama3.2:latest"
+    assert models.json()["resident"] == [{"name": "llama3.2:latest"}]
     assert client.post("/api/oracle/notes", headers={"Origin": "http://127.0.0.1"},
                        json={"title": "Note", "content": "Private"}).status_code == 403
     saved = client.post("/api/oracle/notes", headers={"Origin": "http://127.0.0.1",
@@ -129,6 +144,19 @@ def test_owner_api_requires_loopback_login_and_csrf(monkeypatch, tmp_path):
     rebinding = TestClient(app, base_url="http://oracle.attacker.invalid",
                            client=("127.0.0.1", 5000))
     assert rebinding.get("/api/oracle/session").status_code == 404
+
+
+def test_oracle_page_supports_same_origin_matrix_embedding():
+    app = FastAPI()
+    app.include_router(oracle_api.router)
+    client = TestClient(app, base_url="http://127.0.0.1", client=("127.0.0.1", 5000))
+
+    page = client.get("/oracle")
+
+    assert page.status_code == 200
+    assert page.headers["x-frame-options"] == "SAMEORIGIN"
+    assert "frame-ancestors 'self'" in page.headers["content-security-policy"]
+    assert "assistant-compare-prompt" in page.text
 
 
 def test_oracle_conversation_uses_persisted_scope_and_local_fallback(monkeypatch, tmp_path):
@@ -328,6 +356,43 @@ def test_model_selector_and_local_only_host_guard(monkeypatch):
     assert loopback_ollama_base() == "http://127.0.0.1:11434"
 
 
+def test_chat_model_discovery_excludes_embedding_only_models(monkeypatch):
+    models = ["gemma4:26b", "llama3.2:latest", "nomic-embed-text:latest"]
+    monkeypatch.setattr(local_model, "installed_models", lambda timeout=3.0: models)
+    inspected = []
+
+    class Response:
+        def __init__(self, payload):
+            self.payload = payload
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *args):
+            return None
+
+        def read(self):
+            return json.dumps(self.payload).encode()
+
+    class Opener:
+        def open(self, request, timeout):
+            name = json.loads(request.data)["model"]
+            inspected.append(name)
+            capabilities = ["embedding"] if name.startswith("nomic-") else ["completion"]
+            return Response({"capabilities": capabilities})
+
+    monkeypatch.setattr(local_model, "build_opener", lambda *_: Opener())
+    local_model._chat_model_names.cache_clear()
+    try:
+        assert local_model.chat_models() == ["gemma4:26b", "llama3.2:latest"]
+        assert local_model.chat_models() == ["gemma4:26b", "llama3.2:latest"]
+        assert inspected == models
+        with pytest.raises(RuntimeError, match="chat-capable"):
+            local_model.call_model("nomic-embed-text:latest", [])
+    finally:
+        local_model._chat_model_names.cache_clear()
+
+
 def test_oracle_fallback_is_grounded_and_never_calls_model(monkeypatch):
     class Knowledge:
         def retrieve(self, query, scope, context):
@@ -340,7 +405,186 @@ def test_oracle_fallback_is_grounded_and_never_calls_model(monkeypatch):
                         lambda *args, **kwargs: pytest.fail("No model selected; fallback only"))
     result = OracleAssistant(Knowledge()).answer("question", scope="all", context={}, model="", history=[])
     assert "Local cited excerpt" in result["answer"]
+    assert "[unresolved; unreviewed material]" in result["answer"]
+    assert "[S1]" in result["answer"]
     assert result["model_status"] == "fallback"
+
+
+def test_oracle_free_flow_reaches_local_model_without_retrieved_evidence(monkeypatch):
+    class Knowledge:
+        def retrieve(self, query, scope, context):
+            return {"evidence": [], "citations": [], "candidates": [], "scope": scope}
+
+    captured = {}
+
+    def call_model(model, messages):
+        captured["model"] = model
+        captured["messages"] = messages
+        return "That sounds like a good plan. What would you like to tackle first?"
+
+    monkeypatch.setattr("oracle_assistant._call_model", call_model)
+    result = OracleAssistant(Knowledge()).answer(
+        "I feel overwhelmed by my to-do list.",
+        scope="all",
+        context={},
+        model="local-model",
+        history=[
+            {"role": "user", "content": "I have several things to finish this week."},
+            {"role": "assistant", "content": "We can sort them by urgency."},
+        ],
+    )
+
+    assert result["answer"].startswith("That sounds like a good plan.")
+    assert result["model_status"] == "local_model_summary"
+    assert result["citations"] == []
+    assert captured["model"] == "local-model"
+    prompt = captured["messages"][1]["content"]
+    assert "I have several things to finish this week." in prompt
+    assert "without forcing them into an insulation or sales topic" in prompt
+
+
+def test_oracle_rejects_malformed_source_markers(monkeypatch):
+    class Knowledge:
+        def retrieve(self, query, scope, context):
+            return {"evidence": [], "citations": [], "candidates": [], "scope": scope}
+
+    monkeypatch.setattr(
+        "oracle_assistant._call_model",
+        lambda *args, **kwargs: "A local document confirms this detail [S#].",
+    )
+    result = OracleAssistant(Knowledge()).answer(
+        "What do local documents confirm?",
+        scope="all",
+        context={},
+        model="local-model",
+        history=[],
+    )
+
+    assert result["model_status"] == "fallback"
+    assert "invalid citation" in result["answer"]
+    assert "[S#]" not in result["answer"]
+
+
+def test_oracle_passes_ambiguous_product_matches_to_local_model(monkeypatch):
+    class Knowledge:
+        def retrieve(self, query, scope, context):
+            return {
+                "evidence": [],
+                "citations": [],
+                "candidates": ["Example Board", "Example Board Plus"],
+                "scope": scope,
+            }
+
+    captured = {}
+
+    def call_model(model, messages):
+        captured["prompt"] = messages[1]["content"]
+        return "Which product did you mean: Example Board or Example Board Plus?"
+
+    monkeypatch.setattr("oracle_assistant._call_model", call_model)
+    result = OracleAssistant(Knowledge()).answer(
+        "Compare the two boards.", scope="all", context={}, model="local-model", history=[]
+    )
+
+    assert result["model_status"] == "local_model_summary"
+    assert "Which product did you mean" in result["answer"]
+    assert "Example Board Plus" in captured["prompt"]
+    assert "ask a concise clarifying question rather than guessing" in captured["prompt"]
+
+
+def test_oracle_fallback_formats_structured_family_candidates_without_model_call(monkeypatch):
+    class Knowledge:
+        def retrieve(self, query, scope, context):
+            return {
+                "evidence": [],
+                "citations": [],
+                "candidates": [
+                    {"family_id": "EXAMPLE_BOARD", "manufacturer": "Example Maker",
+                     "name": "Example Board"},
+                ],
+                "scope": scope,
+            }
+
+    monkeypatch.setattr(
+        "oracle_assistant._call_model",
+        lambda *args, **kwargs: pytest.fail("Fallback without a model must not call the model"),
+    )
+
+    result = OracleAssistant(Knowledge()).answer(
+        "Summarize the local family records.",
+        scope="all",
+        context={},
+        model="",
+        history=[],
+    )
+
+    assert "Example Maker / Example Board" in result["answer"]
+    assert result["model_status"] == "fallback"
+
+
+def test_oracle_policy_prompt_keeps_owner_role_and_shared_guardrails():
+    from assistant_policy import SHARED_ASSISTANT_POLICY
+
+    assert SYSTEM_PROMPT.startswith(SHARED_ASSISTANT_POLICY)
+    assert "private personal assistant for the workspace owner" in SYSTEM_PROMPT
+    assert "separate from customer-facing Aurora and sales-focused Neo" in SYSTEM_PROMPT
+    assert "source inspection" in SYSTEM_PROMPT
+    assert "free-flowing general personal assistant" in SYSTEM_PROMPT
+    assert "explicit confirmation" in SYSTEM_PROMPT
+
+
+def test_oracle_fallback_separates_evidence_types_and_cites_sources():
+    result = deterministic_reply("compare options", {
+        "evidence": [
+            {"kind": "verified_claim", "status": "verified fact",
+             "text": "Verified value.", "source_id": "verified"},
+            {"kind": "inference", "status": "inferred from local notes",
+             "text": "Likely implication.", "source_id": "inferred"},
+            {"kind": "suggestion", "status": "owner decision aid",
+             "text": "Review this document.", "source_id": "suggestion"},
+            {"kind": "unreviewed_family_guide", "status": "unreviewed material",
+             "text": "Unreviewed excerpt.", "source_id": "unreviewed"},
+        ],
+        "citations": [
+            {"source_id": source_id, "path": f"knowledge/{source_id}.md"}
+            for source_id in ("verified", "inferred", "suggestion", "unreviewed")
+        ],
+    })
+
+    assert "[verified; verified fact]" in result
+    assert "[inferred; inferred from local notes]" in result
+    assert "[recommendation; owner decision aid]" in result
+    assert "[unresolved; unreviewed material]" in result
+    assert all(f"[S{index}]" in result for index in range(1, 5))
+
+
+def test_oracle_requires_model_citations_when_sources_are_available(monkeypatch):
+    class Knowledge:
+        def retrieve(self, query, scope, context):
+            return {
+                "evidence": [{
+                    "kind": "unreviewed_family_guide",
+                    "status": "unreviewed material",
+                    "text": "A sourced excerpt.",
+                    "source_id": "source",
+                }],
+                "citations": [{
+                    "source_id": "source",
+                    "path": "knowledge/example.md",
+                    "status": "owner-maintained family guide",
+                }],
+                "candidates": [],
+                "scope": scope,
+            }
+
+    monkeypatch.setattr("oracle_assistant._call_model", lambda *args, **kwargs: "A summary.")
+    result = OracleAssistant(Knowledge()).answer(
+        "question", scope="all", context={}, model="local-model", history=[]
+    )
+
+    assert result["model_status"] == "fallback"
+    assert "A summary." not in result["answer"]
+    assert "[S1]" in result["answer"]
 
 
 def test_local_pricing_comparison_uses_exact_keys_and_source_metadata(tmp_path):

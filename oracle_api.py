@@ -13,11 +13,16 @@ from fastapi import APIRouter, HTTPException, Query, Request
 from fastapi.responses import FileResponse, HTMLResponse, JSONResponse
 from pydantic import BaseModel, Field
 
-from oracle_assistant import ENVIRONMENTS, SCOPES, OracleAssistant, OracleKnowledge, installed_models
+from oracle_assistant import (
+    ENVIRONMENTS, ORACLE_CONTRACT, SCOPES, OracleAssistant, OracleKnowledge,
+)
 from oracle_store import DEFAULT_DB, OracleStore
+from local_model import chat_models as installed_models
+from local_operations import resident_models
 
 ROOT = Path(__file__).resolve().parent
 COOKIE = "oracle_owner_session"
+PERSONA_ID = ORACLE_CONTRACT.persona_id
 router = APIRouter()
 _store_instance: OracleStore | None = None
 _assistant_instance: OracleAssistant | None = None
@@ -33,7 +38,7 @@ def store() -> OracleStore:
 def assistant() -> OracleAssistant:
     global _assistant_instance
     if _assistant_instance is None:
-        _assistant_instance = OracleAssistant(OracleKnowledge(ROOT))
+        _assistant_instance = OracleAssistant(OracleKnowledge(ROOT), contract=ORACLE_CONTRACT)
     return _assistant_instance
 
 
@@ -128,8 +133,8 @@ def oracle_page(request: Request):
     path = ROOT / "templates" / "oracle.html"
     return HTMLResponse(path.read_text(encoding="utf-8"), headers={
         "Cache-Control": "no-store", "Referrer-Policy": "no-referrer",
-        "X-Content-Type-Options": "nosniff", "X-Frame-Options": "DENY",
-        "Content-Security-Policy": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; connect-src 'self'; img-src 'self' data:",
+        "X-Content-Type-Options": "nosniff", "X-Frame-Options": "SAMEORIGIN",
+        "Content-Security-Policy": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; connect-src 'self'; img-src 'self' data:; frame-ancestors 'self'",
     })
 
 
@@ -137,14 +142,15 @@ def oracle_page(request: Request):
 def oracle_session(request: Request):
     local_request(request)
     if not store().configured():
-        return response({"configured": False, "authenticated": False})
+        return response({"persona_id": PERSONA_ID, "configured": False, "authenticated": False})
     try:
         session = owner(request)
     except HTTPException as exc:
         if exc.status_code == 401:
-            return response({"configured": True, "authenticated": False})
+            return response({"persona_id": PERSONA_ID, "configured": True, "authenticated": False})
         raise
-    return response({"configured": True, "authenticated": True, "csrf": session["csrf"]})
+    return response({"persona_id": PERSONA_ID, "configured": True,
+                     "authenticated": True, "csrf": session["csrf"]})
 
 
 @router.post("/api/oracle/login")
@@ -157,7 +163,7 @@ def oracle_login(body: OwnerLogin, request: Request):
         session = store().login(body.passphrase, request.client.host if request.client else "")
     except ValueError as exc:
         raise HTTPException(429 if "Too many" in str(exc) else 401, str(exc)) from exc
-    result = response({"authenticated": True, "csrf": session["csrf"]})
+    result = response({"persona_id": PERSONA_ID, "authenticated": True, "csrf": session["csrf"]})
     result.set_cookie(COOKIE, session["token"], httponly=True, samesite="strict",
                       secure=request.url.scheme == "https", max_age=8 * 3600, path="/")
     return result
@@ -178,7 +184,13 @@ def oracle_models(request: Request):
     owner(request)
     try:
         models = installed_models()
-        return response({"available": True, "models": models, "provider": "local_ollama"})
+        resident = resident_models()
+        resident_names = [row["name"] for row in resident]
+        default_model = next((name for name in resident_names if name in models), "")
+        return response({
+            "available": True, "models": models, "resident": resident,
+            "default_model": default_model, "provider": "local_ollama",
+        })
     except RuntimeError as exc:
         return response({"available": False, "models": [], "provider": "local_ollama", "error": str(exc)})
 
@@ -208,7 +220,7 @@ def create_conversation(body: NewConversation, request: Request):
         except RuntimeError as exc:
             raise HTTPException(422, str(exc)) from exc
         if body.model not in models:
-            raise HTTPException(422, "Selected model is not installed locally")
+            raise HTTPException(422, "Selected model is not installed locally or does not support chat")
     context = {key: value for key, value in body.context.items()
                if key in {"family_id", "product_name", "page_url", "page_title"} and
                isinstance(value, (str, int, float, bool))}
@@ -231,7 +243,7 @@ def update_conversation(conversation_id: str, body: NewConversation, request: Re
         except RuntimeError as exc:
             raise HTTPException(422, str(exc)) from exc
         if body.model not in models:
-            raise HTTPException(422, "Selected model is not installed locally")
+            raise HTTPException(422, "Selected model is not installed locally or does not support chat")
     context = {key: value for key, value in body.context.items()
                if key in {"family_id", "product_name", "page_url", "page_title"} and
                isinstance(value, (str, int, float, bool))}
