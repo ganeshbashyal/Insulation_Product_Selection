@@ -1,7 +1,7 @@
 ---
 title: "Acoustica Underlay - Underlay Insulation | Acoustica"
-description: "Quality insulation engineered for Australian conditions. Engineered specifically for noise control, delivering the acoustic separation required for NC"
-keywords: "Acoustica Underlay, acoustic insulation, floor insulation, insulation Australia, Acoustica Australia"
+description: "AngelStep acoustic underlays from Acoustica Pty Ltd provide maximum impact noise control and sound absorption for residential and commercial developme"
+keywords: "Acoustica Underlay, acoustic insulation, floor insulation, shed insulation, insulation Australia, Acoustica Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: ACOUSTICA_UNDERLAY
 ---
@@ -10,19 +10,29 @@ family_id: ACOUSTICA_UNDERLAY
 
 **Acoustica Underlay** — underlay insulation product.
 
-Quality insulation engineered for Australian conditions. Engineered specifically for noise control, delivering the acoustic separation required for NCC compliance. Rigid design makes installation fast and efficient - no sagging or falling out.
+AngelStep acoustic underlays from Acoustica Pty Ltd provide maximum impact noise control and sound absorption for residential and commercial developments, available in various sizes and suitable for different flooring substrates.
 
 ## Key features
 
-- Engineered specifically for acoustic performance.
-- high NRC/Rw ratings for effective sound control.
-- suitable for commercial and residential applications.
-- rigid design prevents sagging between joists.
-- reduces drafts and cold floors.
+- Unique patented technology combining sound absorber with impact and vibration damping.
+- Achieves up to 6-star acoustic rating.
+- Available in different variations.
+- Includes tiles, rolls, and strips.
+- Suitable for various floor finishes.
+- Includes instructions for installation.
+- Available in multiple sizes and thicknesses.
 
 ## Applications and selection
 
-- Floor | Acoustic Floor
+- Carpet
+- Tongue & Groove Timber
+- Engineered Timber
+- Vinyl finish
+- Vinyl finish
+- Tiled finish
+- Polished floor finish
+- Terrazzo floor finish
+- Parquetry floor finish
 
 **Selection checklist**
 
@@ -42,16 +52,21 @@ Quality insulation engineered for Australian conditions. Engineered specifically
 | R1.5 | thermal_r_value | 17 | 1200 x 1200 | 1 |
 | R1.5 | thermal_r_value | 10 | 1150 x 1150 | 1 |
 
+## Staff-release SKU coverage
+
+_No SKU from this workbook was mapped or proposed for this family._
+
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Underlay | Manufacturer catalogue |
-| Material | Acoustic Composite | Manufacturer catalogue |
-| Applications | Floor | Acoustic Floor | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Impact Isolation | 6 star | AAAC Description |
+| Impact Isolation | 5 star | AAAC Description |
+| Impact Isolation | 4 star | AAAC Description |
+| Impact Isolation | 3 star | AAAC Description |
+| Impact Isolation | 2 star | AAAC Description |
 
-
+Extracted from manufacturer datasheet: https://acoustica.com.au/wp-content/uploads/2020/04/Acoustica-specifications-AngelStep_2020.docx
 
 ## Fire, testing and compliance context
 
@@ -73,7 +88,15 @@ Not verified per SKU. No fire, NCC or BAL classification is asserted in this dra
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Acoustic ratings are system-based - verify complete assembly matches tested configuration.
+1. Level structural floor to parquetry installation standard tolerances.
+2. Clean and free of debris.
+3. Fill gaps and holes in floor.
+4. Install 40mm x (AS thickness -1mm) MDF battens around the perimeter of room for grip installation.
+5. Install AngelStep tiles butted together.
+6. Leave 3mm gap between walls and finish surface.
+7. Spot glue AngelStep with maxi bond or equal.
+8. Preferably install skirting after floor has been installed, leaving a 2 to 3mm gap.
+9. Seal gaps between wall & new floor with silicone sealant to form a resilient seal.
 
 ## Safety and handling
 

@@ -46,6 +46,16 @@ Autex Vicinity Desk Screen - Crest is an elegant, lightweight acoustic desk divi
 
 _Variants from the manufacturer datasheet._
 
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `AUTVICINITYPOAPK` | Autex Vicinity Desk Screens - POA | Heuristic candidate; review | Melbourne \(Melbourne baseline\) | Sydney: not listed; Brisbane: not listed; Adelaide: not listed; Perth: not listed; price status: Melbourne: poa |
+
 ## Technical data
 
 | Property | Value | Standard |

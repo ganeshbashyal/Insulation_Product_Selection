@@ -1,7 +1,7 @@
 ---
 title: "Aircell Insuliner - Reflective Insulation | Aircell"
-description: "Quality insulation engineered for Australian conditions. Reflects up to 97% of radiant heat, dramatically reducing summer cooling costs while providin"
-keywords: "Aircell Insuliner, Aircell reflective, roof insulation, shed insulation, insulation Australia, Aircell Australia"
+description: "Kingspan AIR-CELL Insuliner® is a reflective insulation product suitable for use in metal framed walls on low-rise structures, with a Group 2 fire per"
+keywords: "Aircell Insuliner, Aircell reflective, wall insulation, roof insulation, insulation Australia, Aircell Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AIRCELL_INSULINER
 ---
@@ -10,20 +10,25 @@ family_id: AIRCELL_INSULINER
 
 **Aircell Reflective** — reflective foil insulation for radiant heat control.
 
-Quality insulation engineered for Australian conditions. Reflects up to 97% of radiant heat, dramatically reducing summer cooling costs while providing an effective vapour barrier.
+Kingspan AIR-CELL Insuliner® is a reflective insulation product suitable for use in metal framed walls on low-rise structures, with a Group 2 fire performance classification according to NCC fire ratings.
 
 ## Key features
 
-- High-purity aluminium reflective facing.
-- reflects up to 97% of radiant heat.
-- lightweight and easy to install.
-- provides vapour barrier when properly sealed.
-- excellent thermal performance for roof/ceiling applications.
-- helps meet NCC energy efficiency requirements.
+- Reflective insulation with a fibre-free core.
+- Cross-linked, closed-cell foam core.
+- Sandwiched with an anti-glare foil facing and a plain foil facing.
+- CodeMark-certified.
+- Water-resistant.
+- Rodent and insect resistant.
+- Flammability Index ≤ 5.
+- Made in Australia.
 
 ## Applications and selection
 
-- Metal Roof / Shed
+- Warehouse metal deck roof
+- Warehouse wall
+- Warehouse wall retrofit
+- Warehouse wall retrofit
 
 **Selection checklist**
 
@@ -40,20 +45,30 @@ Quality insulation engineered for Australian conditions. Reflects up to 97% of r
 | --- | --- | --- | --- | --- |
 | Not specified | unspecified | 55 | 22250 x 1350 | 1 |
 
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `ACELLINSULINER55W1350L22P25MRL` | Insuliner 55 1350mm x 22.25m | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Reflective | Manufacturer catalogue |
-| Material | Reflective Composite | Manufacturer catalogue |
-| Applications | Metal Roof / Shed | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Material R-value | 0.15 m2/K/W | ASTM C518-2017 at 23°C |
+| Flammability Index | ≤ 5 | AS 1530.2:1993 |
+| Fire Performance | Group 2 | NCC |
+| Water Control | Pass | AS/NZS 4201.4:1994 Vapour Barrier < 0.020 µg/N.s Class 2 |
 
-
+Extracted from manufacturer datasheet: https://store.filerobot.com/xamyxyg7fn/kingspan/kil/products/air-cell-insuliner-au-and-nz/kingspan-aircell-insuliner-product-datasheet-en-au.pdf?vh=e9b0dd
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Group 2 classification to NCC fire ratings for wall and ceiling linings
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
@@ -63,14 +78,21 @@ Not verified per SKU. No fire, NCC or BAL classification is asserted in this dra
 
 ## Limitations and warnings
 
-- Reflective performance requires maintained airspace..
-- conductive material - keep away from electrical services..
-- not suitable as sole insulation in cold climates..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Suitable for use in metal framed walls on low-rise structures..
+- For consideration in high-rise buildings, contact Kingspan Insulation’s Technical Services team..
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Reflective performance requires maintained airspace.
+1. Lay Kingspan AIR-CELL perpendicular to purlins ensuring a max. 25 mm overlap into the gutter..
+2. Allow a nominal 40 mm sag between purlins..
+3. Overlap by 50 mm at joins and apply minimum 72 mm wide Kingspan reinforced aluminium insulation tape to top of join..
+4. End joins should be overlapped by 600 mm if not taped..
+5. Fix roof sheeting by screwing through Kingspan AIR-CELL to the purlins..
+6. Attach end of insulation roll to end fixing point using three 12 gauge Tek screws..
+7. Join subsequent alongside rolls by butt joining and tape joint with minimum 72 mm wide Kingspan reinforced aluminium insulation tape..
+8. Fix a steel furring channel, top hat or similar over Kingspan AIR-CELL to the bottom of the purlins..
+9. Ensure a 100 mm clearance between insulation and heat producing items..
+10. If required to act as a water vapour barrier, tape the joints..
 
 ## Safety and handling
 

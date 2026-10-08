@@ -39,9 +39,15 @@ Pink® Floor Batts are lightweight, flexible, and resilient glasswool insulation
 
 ## Current catalogue range
 
-| SKU | Product | Published rating |
-| --- | --- | --- |
-| pbattflr | Pink Floor Batts 1160*430mm | R2.2, R2.5 |
+| SKU record | Internal SKU | Supplier SKU | Product | Published rating | Validation |
+| --- | --- | --- | --- | --- | --- |
+| SKU-F86575B30E195DEE | pbattflr | FIPBFLOORT90W430L1160PK12 | Pink Floor Batts 1160*430mm | R2.2, R2.5 | REVIEW |
+
+_All 1 catalogue source rows are listed; duplicate SKU codes are retained as separate records._
+
+## Staff-release SKU coverage
+
+_No SKU from this workbook was mapped or proposed for this family._
 
 ## Technical data
 

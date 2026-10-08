@@ -1,7 +1,7 @@
 ---
 title: "Aircell Insulshed - Reflective Insulation | Aircell"
-description: "Quality insulation engineered for Australian conditions. Reflects up to 97% of radiant heat, dramatically reducing summer cooling costs while providin"
-keywords: "Aircell Insulshed, Aircell reflective, roof insulation, shed insulation, insulation Australia, Aircell Australia"
+description: "Insulshed® 50 is a fibre-free, non-allergenic, non-irritant insulation and vapour barrier designed for sheds, providing comfort and temperature regula"
+keywords: "Aircell Insulshed, Aircell reflective, shed insulation, insulation Australia, Aircell Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AIRCELL_INSULSHED
 ---
@@ -10,20 +10,23 @@ family_id: AIRCELL_INSULSHED
 
 **Aircell Reflective** — reflective foil insulation for radiant heat control.
 
-Quality insulation engineered for Australian conditions. Reflects up to 97% of radiant heat, dramatically reducing summer cooling costs while providing an effective vapour barrier.
+Insulshed® 50 is a fibre-free, non-allergenic, non-irritant insulation and vapour barrier designed for sheds, providing comfort and temperature regulation.
 
 ## Key features
 
-- High-purity aluminium reflective facing.
-- reflects up to 97% of radiant heat.
-- lightweight and easy to install.
-- provides vapour barrier when properly sealed.
-- excellent thermal performance for roof/ceiling applications.
-- helps meet NCC energy efficiency requirements.
+- Fibre-free.
+- Non-allergenic.
+- Non-irritant.
+- Quick and easy to install.
+- Strong and durable.
+- Water-resistant.
+- Anti-bacterial and anti-fungal.
+- Rodent and insect resistant.
+- Fire retardant.
 
 ## Applications and selection
 
-- Metal Roof / Shed
+- Shed
 
 **Selection checklist**
 
@@ -41,20 +44,34 @@ Quality insulation engineered for Australian conditions. Reflects up to 97% of r
 | Not specified | unspecified | 50 | 22250 x 1350 | 1 |
 | Not specified | unspecified | 50 | 33330 x 1350 | 1 |
 
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `ACELLINSULSHED50W1350L22P25MRL` | Insulshed 50 1350mm x 22.25m \(30\) | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `ACELLINSULSHED50W1350L33P33MRL` | Insulshed 50 1350mm x 33.33m \(45\) | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Reflective | Manufacturer catalogue |
-| Material | Reflective Composite | Manufacturer catalogue |
-| Applications | Metal Roof / Shed | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| R-value | Not specified | - |
+| Density | Not specified | - |
+| Thermal Conductivity | Not specified | - |
+| Fire Index | AS 1530.2:1993 ≤5 Low | AS 1530.2:1993 |
+| Temperature Range | Not specified | - |
+| Vapour Resistance | Not specified | - |
+| pH | Not specified | - |
 
-
+Extracted from manufacturer datasheet: https://store.filerobot.com/xamyxyg7fn/kingspan/kil/products/air-cell-insulshed-50-au-and-nz/kingspan-aircell-insulshed-product-datasheet-en-au.pdf?vh=8f076c
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+AS 1530.2:1993 ≤5 Low
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
@@ -64,14 +81,19 @@ Not verified per SKU. No fire, NCC or BAL classification is asserted in this dra
 
 ## Limitations and warnings
 
-- Reflective performance requires maintained airspace..
-- conductive material - keep away from electrical services..
-- not suitable as sole insulation in cold climates..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Should only be used in Class 10a buildings.
+- Can be damaged by intense heat above 105˚ C.
+- Avoid contact with un-insulated electrical cables and fittings.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Reflective performance requires maintained airspace.
+1. Fit neatly around doors, windows, and penetrations.
+2. Tape with a plastic squeegee or blade.
+3. Leave minimum 100 mm clearance around heat producing flues or light fittings.
+4. Install in conformance with AS 3999:2015 and AS/NZS 4200.2:2017.
+5. Avoid intense heat above 105˚ C and contact with sparks and flame.
+6. Ensure 100 mm clearance from hot flues and light fittings.
+7. Avoid contact with un-insulated electrical cables and fittings.
 
 ## Safety and handling
 

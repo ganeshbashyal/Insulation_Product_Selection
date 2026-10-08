@@ -12,7 +12,6 @@ import json
 import re
 from pathlib import Path
 
-import pandas as pd
 
 ROOT = Path(__file__).resolve().parent
 
@@ -30,6 +29,9 @@ def _num(value: str) -> float | None:
 
 def build_index() -> dict:
     """Return {family_id: {name, manufacturer, widths, thicknesses, rvalues}}."""
+    from knowledge_release import configured_release
+    if configured_release() is not None:
+        return {}
     index: dict[str, dict] = {}
 
     def entry(family_id: str, name: str, manufacturer: str) -> dict:
@@ -40,6 +42,7 @@ def build_index() -> dict:
 
     csv_path = ROOT / "data" / "processed" / "product_catalogue_skus.csv"
     if csv_path.exists():
+        import pandas as pd
         df = pd.read_csv(csv_path).fillna("")
         for _, row in df.iterrows():
             e = entry(row["family_id"], row["family_name"], row["manufacturer"])

@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>Matrix | Local managerial tool</title>
+<style>
+:root{font:15px system-ui;color:#17232c;background:#edf2f5}
+*{box-sizing:border-box}body{margin:0}header{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:16px 22px;background:#102b32;color:white}
+h1{font-size:22px;margin:0}header p{margin:4px 0 0;color:#d1e0e2}
+main{max-width:1600px;margin:auto;padding:16px}.tabs{display:flex;gap:8px;flex-wrap:wrap;border-bottom:1px solid #bccbd2;margin-bottom:12px}
+.tab{border:1px solid #c2d1d8;border-bottom:0;border-radius:8px 8px 0 0;background:#dde7eb;color:#24414a;padding:11px 20px;font-weight:650}
+.tab[aria-selected="true"]{background:white;color:#075b55;border-color:#a9c4c2}
+.panel{background:white;border:1px solid #d0dce1;border-radius:0 10px 10px 10px;padding:16px;min-height:70vh}
+.toolbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:12px}
+.pill{background:#e5f1ec;color:#176b5d;padding:5px 9px;border-radius:999px;font-size:.85rem}
+iframe{width:100%;height:calc(100vh - 230px);min-height:540px;border:1px solid #d0dce1;border-radius:8px;background:white}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.card{padding:16px;border:1px solid #d0dce1;border-radius:9px;background:#f9fbfc}
+.compare-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.compare-card{min-width:0;border:1px solid #cbd8de;border-radius:9px;background:#f9fbfc;overflow:hidden}
+.compare-card h3{margin:0;padding:10px 12px;background:#e4eef1}
+.compare-card p{margin:8px 12px;color:#536675;font-size:.9rem}
+.compare-card iframe{width:100%;height:62vh;min-height:480px;border:0;border-top:1px solid #d0dce1;background:white}
+.compare-note{padding:10px 12px;border-left:4px solid #b57912;background:#fff7e6}
+#compareStatus{min-height:1.5em}
+.ops-toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ops-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:14px 0}
+.ops-card{min-width:0;padding:14px;border:1px solid #cbd8de;border-radius:9px;background:#f9fbfc}
+.ops-card h3{margin:0 0 8px}.ops-card p{margin:5px 0;color:#536675;overflow-wrap:anywhere}
+.ops-table{width:100%;border-collapse:collapse;margin:10px 0}
+.ops-table th,.ops-table td{text-align:left;border-bottom:1px solid #d6e0e4;padding:9px;vertical-align:top}
+.ops-table th{background:#edf3f5}
+.ops-panel{padding:12px 0;border-top:1px solid #d6e0e4}
+.ops-actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.ops-actions select,.ops-actions input{padding:8px;border:1px solid #bacbd2;border-radius:6px;max-width:100%}
+.ops-button{border:1px solid #176b73;border-radius:6px;background:#176b73;color:white;padding:8px 12px;font-weight:650;cursor:pointer}
+.ops-button.secondary{background:#fff;color:#176b73}
+.ops-button.danger{background:#a32929;border-color:#a32929}
+.ops-button:disabled{opacity:.5;cursor:not-allowed}
+.ops-error{color:#9d2929!important}.ops-good{color:#176b5d!important}
+#opsAuthNotice{padding:12px;border-left:4px solid #b57912;background:#fff7e6}
+#opsTaskResult{margin-top:10px}
+#opsModels,#opsTasks{max-width:100%;overflow-x:auto}
+a{color:#075e68}.card a{display:inline-block;margin-top:8px;font-weight:600}
+code{background:#eef2f4;padding:3px 6px;border-radius:5px}
+[hidden]{display:none!important}.muted{color:#536675}
+@media(max-width:950px){.compare-grid{grid-template-columns:1fr}.compare-card iframe{height:58vh}}
+@media(max-width:650px){header{padding:12px}main{padding:8px}.tab{padding:9px 12px}.panel{padding:9px}iframe{height:70vh;min-height:460px}.compare-card iframe{height:65vh;min-height:460px}.ops-table{min-width:620px}}
+</style>
+</head>
+<body>
+<header><div><h1>MATRIX</h1><p>Local sales assistant and product knowledge manager</p></div><span class="pill">Local machine only</span></header>
+<main>
+<nav class="tabs" role="tablist" aria-label="Manager workspaces">
+<button class="tab" id="tab-aurora" role="tab" aria-controls="panel-aurora" aria-selected="true">Aurora</button>
+<button class="tab" id="tab-neo" role="tab" aria-controls="panel-neo" aria-selected="false" tabindex="-1">Neo</button>
+<button class="tab" id="tab-oracle" role="tab" aria-controls="panel-oracle" aria-selected="false" tabindex="-1">Oracle</button>
+<button class="tab" id="tab-compare" role="tab" aria-controls="panel-compare" aria-selected="false" tabindex="-1">Compare agents</button>
+<button class="tab" id="tab-admin" role="tab" aria-controls="panel-admin" aria-selected="false" tabindex="-1">Admin</button>
+<button class="tab" id="tab-operations" role="tab" aria-controls="panel-operations" aria-selected="false" tabindex="-1">Operations</button>
+</nav>
+<section class="panel" id="panel-aurora" role="tabpanel" aria-labelledby="tab-aurora">
+<div class="toolbar"><strong>Aurora · customer enquiry harness</strong><span class="muted">Use this local demo to inspect the customer-facing conversation flow.</span><a href="/chat" target="_blank" rel="noopener noreferrer">Open Aurora separately</a></div>
+<iframe title="Aurora customer enquiry demo" src="/chat"></iframe>
+</section>
+<section class="panel" id="panel-neo" role="tabpanel" aria-labelledby="tab-neo" hidden>
+<div class="toolbar"><strong>Neo · internal sales copilot</strong><span class="muted">Separate local conversations and review drafts; customer calls are not automatically stored or shared.</span><a href="/neo" target="_blank" rel="noopener noreferrer">Open Neo separately</a></div>
+<iframe title="Neo internal sales assistant" src="/neo"></iframe>
+</section>
+<section class="panel" id="panel-oracle" role="tabpanel" aria-labelledby="tab-oracle" hidden>
+<h2>Oracle · private owner assistant</h2>
+<p>Oracle has a dedicated passphrase, conversation store, notes, and tasks. It is not visible to Neo, Aurora, or the V1 Alpha serving package.</p>
+<p><a href="/oracle" target="_blank" rel="noopener noreferrer">Open Oracle in a separate tab</a></p>
+<p class="muted">First-time setup from the repository folder: <code>python scripts\oracle_owner.py</code>. The passphrase is entered at hidden prompts, not in the command.</p>
+</section>
+<section class="panel" id="panel-compare" role="tabpanel" aria-labelledby="tab-compare" hidden>
+<h2>Compare assistant responses</h2>
+<p>Send the same prompt to each local assistant and compare their different roles and evidence. Their histories and data remain separate.</p>
+<form id="compareForm" class="toolbar">
+<label for="comparePrompt"><strong>Prompt</strong></label>
+<input id="comparePrompt" maxlength="4000" required style="flex:1;min-width:240px;padding:11px;border:1px solid #c2d1d8;border-radius:7px">
+<button id="compareSend" class="tab" type="submit" disabled>Send to all three</button>
+</form>
+<p class="compare-note">Comparison is local to this PC. Each submission is saved in that assistant's own local conversation; Oracle must be unlocked first. Do not enter customer personal information. No Alpha package or cloud model is involved.</p>
+<p id="compareStatus" class="muted" role="status" aria-live="polite">Loading local assistant panels…</p>
+<div class="compare-grid">
+<article class="compare-card"><h3>Aurora · customer enquiry</h3><p>Customer-facing enquiry flow; not a product selector.</p><iframe title="Aurora comparison session" src="/chat" data-agent="aurora"></iframe></article>
+<article class="compare-card"><h3>Neo · internal sales support</h3><p>Governed product evidence; no Oracle-private context.</p><iframe title="Neo comparison session" src="/neo" data-agent="neo"></iframe></article>
+<article class="compare-card"><h3>Oracle · private owner assistant</h3><p>Unlock here with the dedicated Oracle passphrase before comparing.</p><iframe title="Oracle comparison session" src="/oracle" data-agent="oracle"></iframe></article>
+</div>
+</section>
+<section class="panel" id="panel-admin" role="tabpanel" aria-labelledby="tab-admin" hidden>
+<h2>Admin · local knowledge and operations</h2>
+<p class="muted">Admin links reuse their existing local authentication and human-review gates. Matrix does not grant or bypass admin credentials.</p>
+<div class="cards">
+<article class="card"><h3>Knowledge validation</h3><p>Review family evidence and source coverage.</p><a href="/admin/knowledge">Open Knowledge Validation</a></article>
+<article class="card"><h3>Product research</h3><p>Inspect product families, source documents, and review queues.</p><a href="/admin/products">Open Product Research</a></article>
+<article class="card"><h3>Competitor research</h3><p>Inspect owner-supplied comparisons under the separate research account.</p><a href="/admin/competitors">Open Competitor Research</a></article>
+<article class="card"><h3>Catalogue versions</h3><p>Review staged catalogue changes; release activation remains separate.</p><a href="/admin/catalogue">Open Catalogue Versions</a></article>
+<article class="card"><h3>Sales briefs</h3><p>Review locally prepared Aurora sales briefs.</p><a href="/admin/briefs">Open Sales Briefs</a></article>
+<article class="card"><h3>Runtime health</h3><p>Check this local app process without changing or terminating other services.</p><a href="/health/ready">Open readiness status</a></article>
+<article class="card"><h3>Local password manager</h3><p>Open the separate Windows desktop utility. Credentials stay in Windows Credential Manager for your signed-in account.</p><code>python scripts\password_manager.py</code></article>
+</div>
+<p class="muted">No Matrix control sends email, changes CRM/customer data, edits approved product claims, or activates a production release. Passwords are not stored in Matrix's browser, chat history, or repository.</p>
+<section class="ops-panel" aria-labelledby="matrixHandoffTitle">
+<div class="ops-toolbar"><div><h3 id="matrixHandoffTitle">Aurora → Neo handoff registry</h3><p class="muted">Matrix shows status metadata only. Approved non-contact facts are available to Neo; raw turns, contact details, and source IDs are not displayed here.</p></div>
+<button class="ops-button secondary" id="matrixHandoffRefresh" type="button">Refresh handoff status</button></div>
+<p id="matrixHandoffStatus" class="muted" role="status" aria-live="polite">Handoff metadata has not been loaded.</p>
+<div id="matrixHandoffs" class="ops-grid" aria-live="polite"></div>
+</section>
+</section>
+<section class="panel" id="panel-operations" role="tabpanel" aria-labelledby="tab-operations" hidden>
+<div class="ops-toolbar">
+<div><h2>Local operations</h2><p class="muted">Live local service, model and process status. No cloud or model downloads.</p></div>
+<button class="ops-button secondary" id="opsRefresh" type="button">Refresh status</button>
+</div>
+<p id="opsAuthNotice" role="status" aria-live="polite">Checking the local owner session…</p>
+<div id="opsContent" hidden>
+<section class="ops-panel" aria-labelledby="opsServicesTitle">
+<h3 id="opsServicesTitle">Known local services</h3>
+<div class="ops-grid" id="opsServices" aria-live="polite"></div>
+</section>
+<section class="ops-panel" aria-labelledby="opsModelsTitle">
+<h3 id="opsModelsTitle">Ollama models</h3>
+<p class="muted">Load only installed models. Residency is bounded to 1, 5, or 30 minutes; unload when finished.</p>
+<div class="ops-actions">
+<label for="opsModelSelect">Installed model</label>
+<select id="opsModelSelect"></select>
+<label for="opsModelMinutes">Keep loaded</label>
+<select id="opsModelMinutes"><option value="1">1 minute</option><option value="5" selected>5 minutes</option><option value="30">30 minutes</option></select>
+<button class="ops-button" id="opsModelLoad" type="button">Load model</button>
+</div>
+<div id="opsModels" role="status" aria-live="polite"></div>
+</section>
+<section class="ops-panel" aria-labelledby="opsTasksTitle">
+<h3 id="opsTasksTitle">Recognized local tasks</h3>
+<p class="muted">Shows known assistant services and recognized long-running local model/script jobs, not every account process. Process details omit command-line arguments.</p>
+<div id="opsTasks" aria-live="polite"></div>
+<div class="ops-actions">
+<label for="opsPid">Inspect a PID</label>
+<input id="opsPid" type="number" min="1" max="2147483647" inputmode="numeric" placeholder="Windows PID">
+<button class="ops-button secondary" id="opsInspect" type="button">Inspect</button>
+</div>
+<div id="opsTaskResult" aria-live="polite"></div>
+</section>
+</div>
+</section>
+</main>
+<script>
+"use strict";
+const tabs=[...document.querySelectorAll('[role="tab"]')];
+function activate(selected){
+ for(const tab of tabs){const active=tab===selected;tab.setAttribute("aria-selected",String(active));tab.tabIndex=active?0:-1;document.getElementById(tab.getAttribute("aria-controls")).hidden=!active;}
+ if(selected.id==="tab-operations")refreshOperations();
+ if(selected.id==="tab-admin")loadMatrixHandoffs();
+}
+for(const tab of tabs){tab.addEventListener("click",()=>activate(tab));tab.addEventListener("keydown",event=>{
+ const current=tabs.indexOf(tab);let next=null;
+ if(event.key==="ArrowRight")next=tabs[(current+1)%tabs.length];
+ if(event.key==="ArrowLeft")next=tabs[(current+tabs.length-1)%tabs.length];
+ if(event.key==="Home")next=tabs[0];if(event.key==="End")next=tabs[tabs.length-1];
+ if(next){event.preventDefault();activate(next);next.focus();}
+});}
+const compareFrames=[...document.querySelectorAll(".compare-card iframe")];
+const readyAgents=new Set(),frameWindows=new Map(compareFrames.map(frame=>[frame.contentWindow,frame.dataset.agent]));
+for(const frame of compareFrames){
+ if(frame.contentWindow)frame.contentWindow.postMessage({type:"assistant-status-request"},location.origin);
+}
+for(const frame of compareFrames)frame.addEventListener("load",()=>{
+ frame.contentWindow.postMessage({type:"assistant-status-request"},location.origin);
+ updateCompareStatus();
+});
+function updateCompareStatus(){
+ const waiting=["aurora","neo","oracle"].filter(name=>!readyAgents.has(name));
+ const ready=waiting.length===0;
+ document.getElementById("compareSend").disabled=!ready;
+ document.getElementById("compareStatus").textContent=ready?
+  "All three assistants are ready. Submit the same prompt to compare their separate responses.":
+  "Waiting for assistants: "+waiting.join(", ")+". Unlock Oracle in its panel.";
+}
+window.addEventListener("message",event=>{
+ if(event.origin!==location.origin||!frameWindows.has(event.source)||!event.data||event.data.type!=="assistant-status")return;
+ const name=frameWindows.get(event.source);
+ if(event.data.ready){readyAgents.add(name);}else if(event.data.ready===false){readyAgents.delete(name);}
+ updateCompareStatus();
+});
+document.getElementById("compareForm").addEventListener("submit",event=>{
+ event.preventDefault();
+ const prompt=document.getElementById("comparePrompt").value.trim();
+ if(!prompt)return;
+ if(readyAgents.size!==3){document.getElementById("compareStatus").textContent=
+  "Wait until Aurora, Neo, and Oracle are ready. Unlock Oracle, then retry.";return;}
+ let sent=0;
+ for(const frame of compareFrames){
+  if(frame.contentWindow){
+   frame.contentWindow.postMessage({type:"assistant-compare-prompt",prompt},location.origin);
+   sent++;
+  }
+ }
+ document.getElementById("compareStatus").textContent=
+  sent===3?"Prompt sent to all three local panels. Responses are shown below in their separate conversations.":
+  "Some assistant panels are not available yet; reload Matrix and try again.";
+});
+async function loadMatrixHandoffs(){
+ const status=document.getElementById("matrixHandoffStatus");
+ const target=document.getElementById("matrixHandoffs");
+ status.className="muted";status.textContent="Loading metadata only…";target.replaceChildren();
+ try{
+  const response=await fetch("/api/matrix/handoffs",{cache:"no-store",credentials:"same-origin"});
+  const data=await response.json();
+  if(!response.ok)throw new Error(data.detail||`Request failed (${response.status})`);
+  if(data.payloads_included!==false||data.source_identifiers_included!==false)
+   throw new Error("Matrix returned an unexpected handoff metadata shape.");
+  for(const item of data.handoffs||[]){
+   const card=opsNode("article",undefined,"ops-card");
+   card.append(opsNode("h3","Handoff "+item.handoff_id));
+   card.append(opsNode("p","Status: "+item.approval_status));
+   card.append(opsNode("p","Created: "+item.created_at));
+   card.append(opsNode("p","Operator approved: "+item.approved_at));
+   card.append(opsNode("p","Customer consent recorded: "+item.consent_recorded_at));
+   target.append(card);
+  }
+  status.textContent=(data.handoffs||[]).length?
+   `${data.handoffs.length} approved handoff(s). Payload and source identifiers were not returned.`:
+   "No approved handoffs are registered in Matrix.";
+ }catch(error){status.textContent=error.message;status.className="ops-error";}
+}
+document.getElementById("matrixHandoffRefresh").addEventListener("click",loadMatrixHandoffs);
+let operationsCsrf="";
+let operationsBusy=false;
+const opsNotice=document.getElementById("opsAuthNotice");
+const opsContent=document.getElementById("opsContent");
+function opsNode(tag,text,className=""){
+ const node=document.createElement(tag);
+ if(text!==undefined)node.textContent=String(text);
+ if(className)node.className=className;
+ return node;
+}
+function opsError(message){opsNotice.textContent=message;opsNotice.className="ops-error";}
+async function opsFetch(path,options={}){
+ const headers={"Accept":"application/json",...(options.body?{"Content-Type":"application/json"}:{}),...(options.headers||{})};
+ if(options.write){
+  headers["X-Oracle-CSRF"]=operationsCsrf;
+ }
+ const result=await fetch(path,{method:options.method||"GET",headers,
+  body:options.body?JSON.stringify(options.body):undefined,credentials:"same-origin",cache:"no-store"});
+ let data={};
+ try{data=await result.json();}catch{}
+ if(!result.ok)throw new Error(data.detail||`Request failed (${result.status})`);
+ return data;
+}
+async function refreshOperations(){
+ if(operationsBusy)return;
+ operationsBusy=true;
+ opsContent.hidden=true;
+ opsNotice.className="";
+ opsNotice.textContent="Checking the local owner session…";
+ try{
+  const session=await opsFetch("/api/oracle/session");
+  if(!session.configured){
+   opsError("Oracle owner authentication is not configured. Configure Oracle locally before using process or model controls.");
+   return;
+  }
+  if(!session.authenticated){
+   opsNotice.textContent="Unlock Oracle with its dedicated owner passphrase (not the sales operator key), then return here. The dashboard does not collect or store your passphrase. ";
+   const link=opsNode("a","Open Oracle to unlock");link.href="/oracle";opsNotice.append(link);
+   return;
+  }
+  operationsCsrf=session.csrf;
+  const data=await opsFetch("/api/operations/status");
+  renderOperations(data);
+  opsContent.hidden=false;
+  opsNotice.textContent="Connected to local services. Write actions require Oracle authentication, CSRF protection, and confirmation.";
+ }catch(error){
+  opsError(error.message==="Not Found"?
+   "Operations requires the local Matrix and Oracle routes to be enabled.":
+   error.message||"Could not load local operations status.");
+ }
+ finally{operationsBusy=false;}
+}
+function renderOperations(data){
+ const services=document.getElementById("opsServices");
+ services.replaceChildren();
+ for(const service of data.services||[]){
+  const card=opsNode("article",undefined,"ops-card");
+  card.append(opsNode("h3",service.name));
+  card.append(opsNode("p",`Status: ${service.status||"unknown"}`,
+   service.status==="ready"?"ops-good":service.status==="unavailable"?"ops-error":""));
+  card.append(opsNode("p",`Port: ${service.port}${service.pid?` · PID ${service.pid}`:""}`));
+  if(service.serving_only===true)card.append(opsNode("p","Serving-only process; protected from dashboard termination."));
+  if(service.release_id)card.append(opsNode("p",`Release: ${service.release_id}`));
+  if(service.error)card.append(opsNode("p",`Detail: ${service.error}`,"ops-error"));
+  services.append(card);
+ }
+ const modelSelect=document.getElementById("opsModelSelect");
+ const selectedModel=modelSelect.value;
+ modelSelect.replaceChildren();
+ for(const model of data.models?.installed||[]){
+  const option=opsNode("option",model);option.value=model;modelSelect.append(option);
+ }
+ if((data.models?.installed||[]).includes(selectedModel))modelSelect.value=selectedModel;
+ const models=document.getElementById("opsModels");
+ models.replaceChildren();
+ if(!data.models?.available){
+  models.append(opsNode("p",data.models?.error||"Local Ollama status is unavailable.","ops-error"));
+ }else{
+  const resident=new Map((data.models.resident||[]).map(item=>[item.name,item]));
+  const table=opsNode("table",undefined,"ops-table");
+  const head=opsNode("thead"),headRow=opsNode("tr");
+  for(const label of ["Model","State","Memory","Expires","Action"])headRow.append(opsNode("th",label));
+  head.append(headRow);table.append(head);
+  const body=opsNode("tbody");
+  for(const name of data.models.installed||[]){
+   const loaded=resident.get(name),row=opsNode("tr");
+   row.append(opsNode("td",name));
+   row.append(opsNode("td",loaded?"Resident":"Installed"));
+   const size=loaded?.size_vram_bytes??loaded?.size_bytes;
+   row.append(opsNode("td",size?`${(size/1024/1024/1024).toFixed(2)} GiB`:"—"));
+   row.append(opsNode("td",loaded?.expires_at||"—"));
+   const actionCell=opsNode("td");
+   if(loaded){
+    const button=opsNode("button","Unload","ops-button danger");button.type="button";
+    button.addEventListener("click",()=>unloadOperationsModel(name));actionCell.append(button);
+   }else actionCell.textContent="—";
+   row.append(actionCell);body.append(row);
+  }
+  table.append(body);models.append(table);
+  if(!data.models.installed.length)models.append(opsNode("p","No installed local models were found."));
+ }
+ const tasks=document.getElementById("opsTasks");
+ tasks.replaceChildren();
+ if(!data.processes?.available){
+  tasks.append(opsNode("p",data.processes?.error||"Windows process inventory is unavailable.","ops-error"));
+ }else if(!(data.processes.items||[]).length){
+  tasks.append(opsNode("p","No recognized service or long-running local script processes were found."));
+ }else{
+  const table=opsNode("table",undefined,"ops-table"),head=opsNode("thead"),headRow=opsNode("tr");
+  for(const label of ["Task / service","Process","PID","Owner","Started","Control"])headRow.append(opsNode("th",label));
+  head.append(headRow);table.append(head);
+  const body=opsNode("tbody");
+  for(const process of data.processes.items){
+   const row=opsNode("tr");
+   row.append(opsNode("td",process.label));
+   row.append(opsNode("td",process.name));
+   row.append(opsNode("td",process.pid));
+   row.append(opsNode("td",process.owned_by_current_user?"Current account":"Other / unavailable"));
+   row.append(opsNode("td",process.started_at||"Unknown"));
+   const cell=opsNode("td");
+   const button=opsNode("button","Inspect","ops-button secondary");button.type="button";
+   button.addEventListener("click",()=>inspectOperationsProcess(process.pid));
+   cell.append(button);row.append(cell);body.append(row);
+  }
+  table.append(body);tasks.append(table);
+ }
+}
+async function changeOperationsModel(action,name,minutes){
+ if(!window.confirm(`${action==="load"?"Load":"Unload"} local model "${name}"${minutes?` for ${minutes} minute(s)`:""}?`))return;
+ try{
+  await opsFetch(`/api/operations/models/${action}`,{method:"POST",write:true,
+   body:action==="load"?{model:name,minutes}:{model:name}});
+  await refreshOperations();
+  opsNotice.textContent=`Model ${action==="load"?"loaded":"unloaded"}: ${name}.`;
+ }catch(error){opsError(error.message||"Model operation failed.");}
+}
+function unloadOperationsModel(name){return changeOperationsModel("unload",name,0);}
+document.getElementById("opsModelLoad").addEventListener("click",()=>{
+ const model=document.getElementById("opsModelSelect").value;
+ const minutes=Number(document.getElementById("opsModelMinutes").value);
+ if(model)changeOperationsModel("load",model,minutes);
+});
+async function inspectOperationsProcess(pid){
+ const result=document.getElementById("opsTaskResult");
+ result.replaceChildren(opsNode("p","Inspecting PID…"));
+ try{
+  const data=await opsFetch(`/api/operations/processes/${encodeURIComponent(pid)}`);
+  const process=data.process;
+  result.replaceChildren();
+  result.append(opsNode("p",`${process.name} · PID ${process.pid}`));
+  result.append(opsNode("p",`Windows account ownership: ${process.owned_by_current_user?"current account":"not verified as current account"}`));
+  result.append(opsNode("p",`Started: ${process.started_at||"unknown"}`));
+  if(!process.stop_allowed){
+   const reason=process.protected?"Protected from dashboard termination.":
+    !process.owned_by_current_user?"This PID is not verified as owned by the current Windows account.":
+    !process.started_at?"Process start time could not be verified, so termination is blocked.":
+    "This PID is not eligible for termination.";
+   result.append(opsNode("p",reason,"ops-error"));
+   return;
+  }
+  const button=opsNode("button",`Stop ${process.name} (PID ${process.pid})`,"ops-button danger");
+  button.type="button";button.addEventListener("click",()=>stopOperationsProcess(process));result.append(button);
+ }catch(error){result.replaceChildren(opsNode("p",error.message||"Could not inspect that PID.","ops-error"));}
+}
+async function stopOperationsProcess(process){
+ const expected=`STOP ${process.pid}`;
+ const confirmation=window.prompt(`Stop ${process.name} (PID ${process.pid})? Type ${expected} to confirm.`);
+ if(confirmation!==expected)return;
+ try{
+  await opsFetch(`/api/operations/processes/${encodeURIComponent(process.pid)}/stop`,{
+   method:"POST",write:true,body:{
+    process_name:process.name,started_at:process.started_at,confirmation}});
+  document.getElementById("opsTaskResult").replaceChildren(opsNode("p",`Stopped ${process.name} (PID ${process.pid}).`,"ops-good"));
+  await refreshOperations();
+ }catch(error){document.getElementById("opsTaskResult").replaceChildren(opsNode("p",error.message||"Process stop failed.","ops-error"));}
+}
+document.getElementById("opsInspect").addEventListener("click",()=>{
+ const pid=Number(document.getElementById("opsPid").value);
+ if(Number.isInteger(pid)&&pid>0)inspectOperationsProcess(pid);
+});
+document.getElementById("opsRefresh").addEventListener("click",refreshOperations);
+const page=new URLSearchParams(location.search).get("tab");
+const chosen=tabs.find(tab=>tab.id==="tab-"+page);if(chosen)activate(chosen);
+</script>
+</body>
+</html>

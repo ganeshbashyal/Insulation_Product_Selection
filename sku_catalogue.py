@@ -81,9 +81,39 @@ def lookup_sku(sku: str, db_path: Path | None = None) -> list[dict]:
 
 
 def skus_for_family(family_id: str, limit: int = 25, db_path: Path | None = None) -> list[dict]:
-    """Confirmed orderable SKUs for a recommended family, in-stock first."""
+    """Published exact rows; explicit alternate DBs retain legacy lookups."""
     if not family_id:
         return []
+    if db_path is None:
+        from knowledge_release import configured_release
+        release = configured_release()
+        if release is not None:
+            published = release["payload"]
+            by_sku = {row["sku_record_id"]: row for row in published["catalogue"]}
+            return [{**by_sku[key], **approval["corrections"],
+                     "sku": by_sku[key]["supplier_sku"], "match_tier": "published_exact",
+                     "thickness_mm": None, "width_mm": None, "length_mm": None,
+                     "r_value": None, "qty_on_hand": None, "buy_sell_unit": None,
+                     "release_id": release["release_id"]}
+                    for key, approval in published["eligibility"].items()
+                    if approval["family_id"] == family_id and approval["eligible"]][:limit]
+        from research_store import DEFAULT_DB
+        if not DEFAULT_DB.is_file():
+            return []
+        from knowledge_service import service
+        reader = service()
+        idx = reader.index()
+        _, published = reader.evidence()
+        rows = []
+        for key, approval in published["eligibility"].items():
+            if approval["family_id"] != family_id or not approval["eligible"]:
+                continue
+            raw = {**idx.by_sku[key], **approval["corrections"]}
+            rows.append({**raw, "sku": raw["supplier_sku"], "match_tier": "published_exact",
+                         "thickness_mm": None, "width_mm": None, "length_mm": None, "r_value": None,
+                         "buy_sell_unit": None, "qty_on_hand": None,
+                         "publication_id": published["publication_id"]})
+        return rows[:limit]
     conn = _connect(db_path)
     try:
         return _rows(

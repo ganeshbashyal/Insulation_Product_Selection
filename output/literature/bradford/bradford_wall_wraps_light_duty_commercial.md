@@ -48,6 +48,23 @@ Bradford Enviroseal ProctorWrap Commercial Wall (CW) is a premium, Light Duty va
 
 _Variants from the manufacturer datasheet._
 
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `BRADWWLDCOMW1500L50MRL` | Wall Wraps - Light Duty Commercial Wall \(CW\)50000 x 150075.0 36 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADWWLDMETW1350L30MRL` | Wall Wraps - Light Duty Metal Roof / Wall30000 x 135040.5 63 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADWWLDRESW1350L30MRL` | Wall Wraps - Light Duty Residential Wall \(RW Plus\)30000 x 135040.5 90 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADWWLDRESW1500L30MRL` | Wall Wraps - Light Duty Residential Wall \(RW Plus\)30000 x 150045.0 90 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADWWMDPW1350L30MRL` | Wall Wraps - Medium Duty Polyweave Wrap30000 x 135040.5 104 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADWWMDPW1350L60MRL` | Wall Wraps - Medium Duty Polyweave Wrap60000 x 135081.0 57 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADWWMDPWALLW1350L30MRL` | Wall Wraps - Medium Duty Polyweave Wall Wrap30000 x 135040.5 104 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADWWMDPWALLW1350L60MRL` | Wall Wraps - Medium Duty Polyweave Wall Wrap60000 x 135081.0 57 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+
 ## Technical data
 
 | Property | Value | Standard |

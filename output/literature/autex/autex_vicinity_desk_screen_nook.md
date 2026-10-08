@@ -47,6 +47,10 @@ Autex Vicinity Desk Screen - Nook is a comprehensive three-sided acoustic workst
 
 _Variants from the manufacturer datasheet._
 
+## Staff-release SKU coverage
+
+_No SKU from this workbook was mapped or proposed for this family._
+
 ## Technical data
 
 | Property | Value | Standard |

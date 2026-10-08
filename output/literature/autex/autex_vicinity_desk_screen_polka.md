@@ -46,6 +46,10 @@ Autex Vicinity Desk Screen - Polka is a two-piece modular acoustic desk divider 
 
 _Variants from the manufacturer datasheet._
 
+## Staff-release SKU coverage
+
+_No SKU from this workbook was mapped or proposed for this family._
+
 ## Technical data
 
 | Property | Value | Standard |

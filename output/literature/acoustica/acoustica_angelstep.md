@@ -1,7 +1,7 @@
 ---
 title: "Acoustica AngelStep - Underlay Insulation | Acoustica"
-description: "Quality insulation engineered for Australian conditions. Engineered specifically for noise control, delivering the acoustic separation required for NC"
-keywords: "Acoustica AngelStep, Acoustica underlay, acoustic insulation, floor insulation, insulation Australia, Acoustica Australia"
+description: "AngelStep acoustic underlays from Acoustica Pty Ltd provide maximum impact noise control and sound absorption for residential and commercial developme"
+keywords: "Acoustica AngelStep, Acoustica underlay, acoustic insulation, floor insulation, shed insulation, insulation Australia, Acoustica Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: ACOUSTICA_ANGELSTEP
 ---
@@ -10,19 +10,29 @@ family_id: ACOUSTICA_ANGELSTEP
 
 **Acoustica Underlay** — underlay insulation product.
 
-Quality insulation engineered for Australian conditions. Engineered specifically for noise control, delivering the acoustic separation required for NCC compliance. Rigid design makes installation fast and efficient - no sagging or falling out.
+AngelStep acoustic underlays from Acoustica Pty Ltd provide maximum impact noise control and sound absorption for residential and commercial developments, achieving up to a 6-star acoustic rating.
 
 ## Key features
 
-- Engineered specifically for acoustic performance.
-- high NRC/Rw ratings for effective sound control.
-- suitable for commercial and residential applications.
-- rigid design prevents sagging between joists.
-- reduces drafts and cold floors.
+- Unique patented technology combining sound absorber with impact and vibration damping.
+- Available in various variations for different flooring substrates.
+- Achieves up to the highest 6-star acoustic rating.
+- Includes different sizes and thicknesses.
+- Includes tiles, rolls, and strips.
+- Available in Gold, 48P, 484P, 630, and 250 variants.
+- Includes instructions for various floor finishes.
 
 ## Applications and selection
 
-- Floor | Acoustic Floor
+- Carpet
+- Tongue & Groove Timber
+- Engineered Timber
+- Vinyl finish
+- Vinyl finish
+- Tiled finish
+- Polished floor finish
+- Terrazzo floor finish
+- Parquetry floor finish
 
 **Selection checklist**
 
@@ -41,16 +51,36 @@ Quality insulation engineered for Australian conditions. Engineered specifically
 | R1.5 | thermal_r_value | 4 | 1200 x 25000 | 1 |
 | R1.5 | thermal_r_value | 12 | 1200 x 1200 | 1 |
 
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `ACOANGELSTEP12T12SHT` | AngelStep 12 - Specialised acoustic underlay - 12mm thick | Local model candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `ACOANGELSTEP250T4RL` | AngelStep 250 - Complementary acoustic underlay - 4mm thick | Local model candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `ACOANGELSTEP3DT17SHT` | AngelStep 3D - Convoluted acoustic underlay - 17/8mm thick | Local model candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `ACOANGELSTEP484PT10SHT` | AngelStep 484P - Timber joist acoustic underlay - 10mm thick | Local model candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `ACOANGELSTEP48PT8SHT` | AngelStep 48P - Reliable acoustic underlay - 8mm thick | Local model candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `ACOANGELSTEP630T4SHT` | AngelStep 630 - Vinyl acoustic underlay - 4mm thick | Local model candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `ACOANGELSTEPGOLD4T4SHT` | AngelStep GOLD4 - Everyday acoustic underlay - 4mm thick | Local model candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `ACOANGELSTEPGOLD8T8SHT` | AngelStep GOLD8 - Universal acoustic underlay - 8mm thick | Local model candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Underlay | Manufacturer catalogue |
-| Material | Acoustic Composite | Manufacturer catalogue |
-| Applications | Floor | Acoustic Floor | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| R-value | Not specified | - |
+| Density | Not specified | - |
+| Thermal Conductivity | Not specified | - |
+| Fire Index | Not specified | - |
+| Temperature Range | Not specified | - |
+| Vapour Resistance | Not specified | - |
+| pH | Not specified | - |
 
-
+Extracted from manufacturer datasheet: https://acoustica.com.au/wp-content/uploads/2020/04/Acoustica-specifications-AngelStep_2020.docx
 
 ## Fire, testing and compliance context
 
@@ -72,7 +102,15 @@ Not verified per SKU. No fire, NCC or BAL classification is asserted in this dra
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Acoustic ratings are system-based - verify complete assembly matches tested configuration.
+1. Level structural floor to parquetry installation standard tolerances.
+2. Clean and free of debris.
+3. Fill gaps and holes in floor.
+4. Install 40mm x (AS thickness -1mm) MDF battens around the perimeter.
+5. Install AngelStep tiles butted together.
+6. Leave 3mm gap between walls and finish surface.
+7. Spot glue AngelStep with Maxibond or equal.
+8. Install skirting after floor with 2 to 3mm gap.
+9. Seal gaps with silicone sealant.
 
 ## Safety and handling
 

@@ -51,6 +51,10 @@ Quality insulation engineered for Australian conditions. Highest R-value per mil
 | R3.85 | thermal_r_value | 90 | 1200 (width varies) | 1 |
 | R4.30 | thermal_r_value | 100 | 1200 (width varies) | 1 |
 
+## Staff-release SKU coverage
+
+_No SKU from this workbook was mapped or proposed for this family._
+
 ## Technical data
 
 | Property | Value | Source |

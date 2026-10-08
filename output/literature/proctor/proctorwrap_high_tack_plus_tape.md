@@ -1,7 +1,7 @@
 ---
 title: "ProctorWrap High Tack PLUS Tape - Wrap Insulation | Proctor"
-description: "ProctorWrap High Tack Plus Tape is a professional single-sided acrylic adhesive sealing tape designed for sealing overlaps, joins, and penetrations in"
-keywords: "ProctorWrap High Tack PLUS Tape, Proctor wrap, wall insulation, roof insulation, insulation Australia, Proctor Australia"
+description: "Quality insulation engineered for Australian conditions. Engineered to meet the demanding requirements of Australian building conditions."
+keywords: "ProctorWrap High Tack PLUS Tape, Proctor wrap, wall insulation, insulation Australia, Proctor Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: PROCTOR_WRAP_HIGH_TACK_PLUS_TAPE
 ---
@@ -10,89 +10,76 @@ family_id: PROCTOR_WRAP_HIGH_TACK_PLUS_TAPE
 
 **Proctor Wrap** — reflective membrane for weather protection and condensation control.
 
-ProctorWrap High Tack Plus Tape is a professional single-sided acrylic adhesive sealing tape designed for sealing overlaps, joins, and penetrations in external vapour-permeable and internal air-retarder membranes. Formulated with an aggressive acrylic adhesive delivering minimum peel adhesion of ≥ 45 N / 25 mm on a semi-transparent pliable carrier, it prevents air leakage and weather penetration. It provides high durability against heat and UV exposure with minimal edge bleed across Australian building sites.
+Quality insulation engineered for Australian conditions. Engineered to meet the demanding requirements of Australian building conditions.
 
 ## Key features
 
-- High peel adhesion strength tested to ≥ 45 N / 25 mm.
-- Semi-transparent carrier allows visible alignment over membrane lap markings.
-- Pliable film carrier conforms tightly without bridging or skipping over creases.
-- Forms an airtight and weathertight barrier across membrane overlaps.
-- Excellent resistance to heat degradation and UV exposure.
-- Minimal adhesive edge bleed under warm Australian cavity temperatures.
-- Aggressive bonding to polyolefin wraps, aluminium boards, timber, and steel.
-- Solvent-free, low-emission formulation supporting Green Star projects.
+- High-performance sealing and joining solution.
+- maintains air and vapour barrier continuity.
+- compatible with a range of insulation substrates.
 
 ## Applications and selection
 
-- wall
-- external wall
-- roof
-- roofline
-- internal wall
+- Wall Wrap / Sarking
 
 **Selection checklist**
 
-1. Confirm membrane compatibility (ideal for ProctorWrap and ProctorPassive membranes).
-2. Calculate total linear meters required for all horizontal and vertical seams.
-3. Ensure surface temperature at installation is above +5°C.
-4. Verify squeegee tool is on hand for firm pressure application.
+1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
+2. Confirm the target rating and construction build-up with the project team.
+3. Confirm available cavity or fixing depth against the product dimensions.
+4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
+5. Record the suburb/postcode so climate-zone requirements can be checked.
 
 
 ## Current catalogue range
 
-| Variant | Size / rating | Pack |
-| --- | --- | --- |
-| ProctorWrap HighTack PLUS Tape 60mm | 60 mm x 25 m | Roll (Carton of 10) |
+| Rating | Type | Thickness | Dimensions | SKUs |
+| --- | --- | --- | --- | --- |
+| R0.1 | thermal_r_value | Varies | 20000 x 60 | 1 |
 
-_Variants from the manufacturer datasheet._
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `PROPLASTIGRIPP1000BOX` | ProctorWrap Plasti-Grip Washers \(Box of 1,000 washers\) | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `PROWRAPHTPLUSW60L20MRL` | ProctorWrap High Tack Plus Tape 60mm x 20m - Single Roll | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `PROWRAPHTPLUSW60L20MRLCTN18` | ProctorWrap High Tack Plus Tape 60mm x 20m - Carton \(18 Rolls\) | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `PROWRAPHTPLUSW75L20MRL` | ProctorWrap High Tack Plus Tape 75mm x 20m - Single Roll | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `PROWRAPHTPLUSW75L20MRLCTN12` | ProctorWrap High Tack Plus Tape 75mm x 20m - Carton \(12 Rolls\) | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
 
 ## Technical data
 
-| Property | Value | Standard |
+| Property | Value | Source |
 | --- | --- | --- |
-| Adhesive | Aggressive solvent-free acrylic adhesive | - |
-| Carrier Material | Semi-transparent pliable polyolefin film | - |
-| Peel Adhesion | ≥ 45 N / 25 mm | EN 1939 |
-| Dimensions | 60 mm width x 25 m length | - |
-| Temperature Resistance | -40°C to +80°C | - |
-| Installation Temperature Range | +5°C to +40°C | - |
-| Weather & Air Tightness | Water-tight and air-tight seal | AS/NZS 4200.2 |
+| Product type | Wrap | Manufacturer catalogue |
+| Material | Tape / Sealant | Manufacturer catalogue |
+| Applications | Wall Wrap / Sarking | Manufacturer catalogue |
+| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
 
-Extracted from manufacturer datasheet: https://proctorgroup.com.au/product/high-tack-plus-tape/
+
 
 ## Fire, testing and compliance context
 
-Compliant with early fire hazard requirements to AS 1530.2 when applied to compliant building membranes
-
-AS/NZS 4200.2:2017, Passive House airtightness criteria, Green Star compliant
+Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://proctorgroup.com.au/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: https://proctorgroup.com.au/wp-content/uploads/2021/02/DCT_PIR_Silver_White_Tissue_Ver_2_2020-2.pdf.
 
-## Recommended accessories
-
-- ProctorWrap building membranes.
-- Plastic application squeegee.
-
 
 ## Limitations and warnings
 
-- Pressure-sensitive adhesive requires firm squeegee pressure to achieve full bonding.
-- Must not be applied to wet, oily, or dusty surfaces.
-- All mechanical loads must be carried by mechanical fasteners, not the tape.
+- Install in accordance with manufacturer specifications..
+- confirm product selection matches specified thermal/acoustic/fire rating..
 
 ## Installation overview
 
-1. Ensure membrane surfaces to be joined are clean, dry, and free of dust, grease, and oil.
-2. Ensure ambient application temperature is within +5°C to +40°C.
-3. Align membrane overlap with minimum 150mm overlap (or 50mm if taped per AS 4200.2).
-4. Position the 60mm tape centered evenly along the lap seam.
-5. Press down firmly along the entire tape length using a plastic squeegee.
-6. Ensure the substrate is supported from behind while applying pressure to activate the adhesive.
-7. Ensure tape is applied without tension wrinkles or air pockets.
+Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Install in accordance with manufacturer specifications.
 
 ## Safety and handling
 
@@ -100,11 +87,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Solvent-free acrylic adhesive; zero chlorine; zero formaldehyde; low VOC emissions
+Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
 
 ## Warranty, returns and support
 
-Backed by Proctor Group Australia product warranty
+No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
 
 ## Specification starting point
 

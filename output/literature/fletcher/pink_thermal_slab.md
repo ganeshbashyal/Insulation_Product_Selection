@@ -53,34 +53,21 @@ wall
 | Pink Thermal Slab R3.0 (95mm) | 95 mm x 1200 mm x 2400 mm | Pack of 2 boards |
 | Pink Thermal Slab R3.5 (110mm) | 110 mm x 1200 mm x 2400 mm | Pack of 2 boards |
 
-**Internal catalogue range**
-
-| SKU | Product | Published rating |
-| --- | --- | --- |
-| FL-4005602 | PINK THERM SLAB SIS HD HD 2400X1200X50 5PK | R1.42, R1.3 |
-| FL-4005603 | PINK THERM SLAB SIS HD HD 2400X1200X75 3PK | R2.04, R1.9 |
-| FL-4005604 | PINK THERM SLAB SIS HD 2400X1200X100 2PK | R2.67, R2.5 |
-| FL-4005605 | PINK THERM SLAB SIS HD 2400X1200X68 3PK | R1.87, R1.7 |
-
 
 ## Current catalogue range
 
-| Variant | Size / rating | Pack |
-| --- | --- | --- |
-| Pink Thermal Slab R1.5 (50mm) | 50 mm x 1200 mm x 2400 mm | Pack of 5 boards |
-| Pink Thermal Slab R2.0 (65mm) | 65 mm x 1200 mm x 2400 mm | Pack of 4 boards |
-| Pink Thermal Slab R2.5 (80mm) | 80 mm x 1200 mm x 2400 mm | Pack of 3 boards |
-| Pink Thermal Slab R3.0 (95mm) | 95 mm x 1200 mm x 2400 mm | Pack of 2 boards |
-| Pink Thermal Slab R3.5 (110mm) | 110 mm x 1200 mm x 2400 mm | Pack of 2 boards |
+| SKU record | Internal SKU | Supplier SKU | Product | Published rating | Validation |
+| --- | --- | --- | --- | --- | --- |
+| SKU-0B6CCC42E3ED50D0 | FL-4005602 | FIPTHERMSLABT50W1200L2400PK5 | PINK THERM SLAB SIS HD HD 2400X1200X50 5PK | R1.42, R1.3 | REVIEW |
+| SKU-16C273AB1A3C62D4 | FL-4005603 | FIPTHERMSLABT75W1200L2400PK3 | PINK THERM SLAB SIS HD HD 2400X1200X75 3PK | R2.04, R1.9 | REVIEW |
+| SKU-2A5D66F3DF1F3EC0 | FL-4005604 | FIPTHERMSLABT100W1200L2400PK2 | PINK THERM SLAB SIS HD 2400X1200X100 2PK | R2.67, R2.5 | REVIEW |
+| SKU-31325A1C1CB4DE0A | FL-4005605 | FIPTHERMSLABT68W1200L2400PK3 | PINK THERM SLAB SIS HD 2400X1200X68 3PK | R1.87, R1.7 | REVIEW |
 
-**Internal catalogue range**
+_All 4 catalogue source rows are listed; duplicate SKU codes are retained as separate records._
 
-| SKU | Product | Published rating |
-| --- | --- | --- |
-| FL-4005602 | PINK THERM SLAB SIS HD HD 2400X1200X50 5PK | R1.42, R1.3 |
-| FL-4005603 | PINK THERM SLAB SIS HD HD 2400X1200X75 3PK | R2.04, R1.9 |
-| FL-4005604 | PINK THERM SLAB SIS HD 2400X1200X100 2PK | R2.67, R2.5 |
-| FL-4005605 | PINK THERM SLAB SIS HD 2400X1200X68 3PK | R1.87, R1.7 |
+## Staff-release SKU coverage
+
+_No SKU from this workbook was mapped or proposed for this family._
 
 ## Technical data
 

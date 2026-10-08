@@ -1,7 +1,7 @@
 ---
 title: "Autex Frontier Raft - Blade - Batt Insulation | Autex"
-description: "Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled pla"
-keywords: "Autex Frontier Raft - Blade, Autex batt, acoustic insulation, ceiling insulation, insulation Australia, Autex Australia"
+description: "Frontier Acoustic Fins are modular polyester fibre acoustic baffles designed for adjustable interior acoustic absorption."
+keywords: "Autex Frontier Raft - Blade, Autex batt, wall insulation, ceiling insulation, insulation Australia, Autex Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AUTEX_FRONTIER_RAFT_BLADE
 ---
@@ -10,22 +10,21 @@ family_id: AUTEX_FRONTIER_RAFT_BLADE
 
 **Autex Batt** — bulk insulation batts for thermal and acoustic performance.
 
-Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled plastic bottles, it's the sustainable choice for modern buildings.
+Frontier Acoustic Fins are modular polyester fibre acoustic baffles designed for adjustable interior acoustic absorption.
 
 ## Key features
 
-- 100% polyester - safe to handle without protective equipment.
-- contains minimum 80% recycled PET plastic bottles.
-- non-allergenic, non-irritant formulation.
-- will not support mould or mildew growth.
-- maintains performance when wet - dries out naturally.
-- excellent thermal performance for roof/ceiling applications.
-- helps meet NCC energy efficiency requirements.
-- Made from recycled PET bottles.
+- Adjustable channel and clip system.
+- Lightweight.
+- Made from 100% polyester fibre.
+- Designed for tailored acoustic absorption.
+- Available in various thicknesses and lengths.
+- Includes Frontier Connector Clips.
 
 ## Applications and selection
 
-- Ceiling | General Acoustic
+- Ceiling applications
+- Wall applications
 
 **Selection checklist**
 
@@ -43,20 +42,27 @@ Specialists in sustainable polyester acoustic solutions. Safe to handle without 
 | Rw 50 | acoustic_rw | 1200 | 1200 (width varies) | 2 |
 | Rw 50 | acoustic_rw | 2400 | 2400 (width varies) | 2 |
 
+## Staff-release SKU coverage
+
+_No SKU from this workbook was mapped or proposed for this family._
+
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Batt | Manufacturer catalogue |
-| Material | Polyester | Manufacturer catalogue |
-| Applications | Ceiling | General Acoustic | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| R-value |  | - |
+| density |  | - |
+| thermal conductivity |  | - |
+| fire indices | Class B, Class C | ISO 9705, AS ISO 9705 - 2003 |
+| temperature range |  | - |
+| vapour |  | - |
+| pH |  | - |
 
-
+Extracted from manufacturer datasheet: https://cdn.mediavalet.com/aunsw/autex/UNYkeC1vs0-3sVb7RBrkwA/nTw1WKETV0yM9O2P0hGBtQ/Original/Frontier%20Fins%20Data%20Sheet.pdf
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Class B, Class C
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
@@ -74,7 +80,11 @@ Not verified per SKU. No fire, NCC or BAL classification is asserted in this dra
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for applications requiring fire rating without additional protection.
+1. Install as per Autex Acoustics recommendations.
+2. Included install instructions.
+3. Fix with 6g countersink fastener.
+4. Use Frontier Connector Clips.
+5. Install as per Frontier Install Instructions.
 
 ## Safety and handling
 
@@ -82,7 +92,7 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Carbon neutral, >80% recycled material, Low VOC, CDPH compliant, Zero waste manufacturing, EPD compliant, Red List free, ISO 14001 Certified
 
 ## Warranty, returns and support
 

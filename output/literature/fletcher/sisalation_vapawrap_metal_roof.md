@@ -43,26 +43,26 @@ Sisalation Vapawrap Vapour Permeable Metal Roof is a synthetic, Class 4 vapour-p
 | --- | --- | --- |
 | Sisalation Vapawrap Metal Roof 1350mm | 1350 mm x 30 m (40.5 m²) | Roll (Code: 4006885) |
 
-**Internal catalogue range**
-
-| SKU | Product | Published rating |
-| --- | --- | --- |
-| FL-4006598 | VAPAWRAP PERMEABLE MROOF Permeable - Vapour MBRN 1.25X40M Permeable Non | Not stated |
-| FL-4006885 | VAPAWRAP MROOF 1350MMX30M Water Barrier FLETCHER | R33.92, R33.8 |
-
 
 ## Current catalogue range
 
-| Variant | Size / rating | Pack |
-| --- | --- | --- |
-| Sisalation Vapawrap Metal Roof 1350mm | 1350 mm x 30 m (40.5 m²) | Roll (Code: 4006885) |
+| SKU record | Internal SKU | Supplier SKU | Product | Published rating | Validation |
+| --- | --- | --- | --- | --- | --- |
+| SKU-B3A987235F1288B3 | FL-4006598 | FIVAPAWRAPMROOFW1250L40MRL | VAPAWRAP PERMEABLE MROOF Permeable - Vapour MBRN 1.25X40M Permeable Non | Not stated | REVIEW |
+| SKU-65033A1DD2DC6D30 | FL-4006885 | FIVAPAWRAPMROOFW1350L30MRL | VAPAWRAP MROOF 1350MMX30M Water Barrier FLETCHER | R33.92, R33.8 | REVIEW |
 
-**Internal catalogue range**
+_All 2 catalogue source rows are listed; duplicate SKU codes are retained as separate records._
 
-| SKU | Product | Published rating |
-| --- | --- | --- |
-| FL-4006598 | VAPAWRAP PERMEABLE MROOF Permeable - Vapour MBRN 1.25X40M Permeable Non | Not stated |
-| FL-4006885 | VAPAWRAP MROOF 1350MMX30M Water Barrier FLETCHER | R33.92, R33.8 |
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `FIVAPAWRAPMROOFW1250L40MRL` | VAPAWRAP PERMEABLE MROOF Permeable - Vapour MBRN 1.25X40M Permeable Non | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: poa, Perth: poa |
+| `FIVAPAWRAPMROOFW1350L30MRL` | VAPAWRAP MROOF 1350MMX30M Water Barrier FLETCHER | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: numeric, Adelaide: poa, Perth: poa |
 
 ## Technical data
 

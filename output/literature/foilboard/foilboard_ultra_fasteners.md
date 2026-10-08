@@ -51,6 +51,19 @@ wall
 
 _Variants from the manufacturer datasheet._
 
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `FB042ULTRAFASTL40PK250CTN` | Ultra Fasteners 250 per box-40mm nail \(ctn\) | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `FB042ULTRAFASTL40PK250EA` | Ultra Fasteners 250 per box-40mm nail \(unit\) | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `FB045ULTRATEKSCREWL40PK250CTN` | Ultra Tek Screws 250 per box-40mm screw \(ctn\) | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `FB045ULTRATEKSCREWL40PK250EA` | Ultra Tek Screws 250 per box-40mm screw \(unit\) | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+
 ## Technical data
 
 | Property | Value | Standard |

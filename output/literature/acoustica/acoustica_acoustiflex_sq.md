@@ -49,6 +49,10 @@ AcoustiFlex®SQ is a high-performance flexible noise barrier designed to reduce 
 | R1.5 | thermal_r_value | 2.5 | 1300 x 5400 | 1 |
 | R1.5 | thermal_r_value | 3.5 | 1300 x 4000 | 1 |
 
+## Staff-release SKU coverage
+
+_No SKU from this workbook was mapped or proposed for this family._
+
 ## Technical data
 
 | Property | Value | Standard |

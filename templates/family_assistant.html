@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>Family Knowledge Manager</title>
+<style>
+:root{font:15px system-ui;color:#17232c;background:#f2f6f8;color-scheme:light}
+*{box-sizing:border-box}body{margin:0}header,main{max-width:1500px;margin:auto;padding:14px}
+header{display:flex;justify-content:space-between;align-items:center;gap:12px}
+h1,h2,h3,p{margin-top:0}button,input,select,textarea{font:inherit;padding:9px;border:1px solid #9aaebb;border-radius:7px}
+button{cursor:pointer;background:#0e665c;color:#fff;border-color:#0e665c}button:disabled{opacity:.55;cursor:wait}
+a{color:#155f81}.muted{color:#536675}.warning{color:#8a4a00}.error{color:#a31f18}
+.panel{padding:14px;background:#fff;border:1px solid #d4e0e6;border-radius:10px;margin-bottom:12px}
+.toolbar{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.toolbar>*{max-width:100%}
+label{display:grid;gap:5px;margin:7px 0}.manager-layout{display:grid;grid-template-columns:minmax(230px,310px) minmax(0,1fr);gap:14px}
+.sidebar{align-self:start}.sidebar button{width:100%;text-align:left;margin:4px 0;background:#eaf1f4;color:#19343d;border-color:#d1dfe5}
+.list{display:grid;gap:5px;max-height:35vh;overflow:auto}.list button[aria-current="true"]{background:#d4e9e6;border-color:#0e665c}
+#messages{height:42vh;min-height:280px;overflow:auto;display:flex;flex-direction:column;gap:10px;padding:4px}
+.bubble{max-width:min(88%,1000px);white-space:pre-wrap;overflow-wrap:anywhere;padding:11px 14px;border-radius:13px;line-height:1.45}
+.assistant{background:#e7eff1;align-self:flex-start;border-top-left-radius:3px}.owner{background:#d6eee7;align-self:flex-end;border-top-right-radius:3px}
+.source{padding:8px;margin:6px 0;border-left:3px solid #278276;background:#f2f7f8;overflow-wrap:anywhere}
+.source small{display:block;color:#536675}.chat-form{display:flex;gap:8px}.chat-form textarea{flex:1;resize:vertical;min-width:0}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:12px}.authoring{max-height:360px;overflow:auto}
+.authoring pre,.proposal pre{white-space:pre-wrap;overflow-wrap:anywhere;margin:6px 0}
+.proposal{border:1px solid #d4e0e6;border-left:5px solid #bd7900;border-radius:8px;padding:12px;margin:10px 0;background:#fffaf0}
+.change{background:#fff;padding:9px;border-radius:7px;margin:8px 0}.stale{border-left-color:#b42318;background:#fff0ef}
+.inline-error{min-height:1.5em;color:#a31f18}.status{min-height:1.5em}
+#login{max-width:500px;margin:8vh auto}
+[hidden]{display:none!important}
+@media(max-width:850px){header,main{padding:9px}.manager-layout{display:block}.sidebar{display:grid;grid-template-columns:1fr 1fr;gap:8px}.sidebar .panel{min-width:0}.split{grid-template-columns:1fr}#messages{height:48vh}}
+@media(max-width:560px){.sidebar{display:block}.chat-form{display:grid}.chat-form button{width:100%}.bubble{max-width:98%}}
+</style>
+</head>
+<body>
+<header><div><h1>Family Knowledge Manager</h1><p class="muted">Private local assistant · one family/product at a time · explicit approval before saving to the separate authoring copy</p></div><nav><a href="/admin/knowledge">Knowledge Validation</a> · <a href="/admin/products">Product Research</a></nav></header>
+<main>
+<p id="status" class="status muted" role="status" aria-live="polite"></p>
+<section id="login" class="panel" hidden>
+<h2>Sign in to local research</h2>
+<form id="loginForm"><label>Username<input id="username" autocomplete="username" required maxlength="64"></label>
+<label>Password<input id="password" type="password" autocomplete="current-password" required maxlength="256"></label>
+<button>Sign in</button></form>
+<p class="muted">Uses the named local research account. Family-manager chats and approved authoring revisions are stored separately from Aurora and Oracle.</p>
+</section>
+<section id="workspace" hidden>
+<div class="toolbar panel"><strong id="identity"></strong><button id="newConversation" type="button">New family conversation</button><button id="deleteConversation" type="button" disabled>Delete conversation</button><button id="logout" type="button">Sign out</button></div>
+<div class="manager-layout">
+<aside class="sidebar">
+<section class="panel">
+<h2>Work one family</h2>
+<label>Family / product<select id="family"><option value="">Choose a family</option></select></label>
+<label>Installed local model<select id="model"><option value="">Select a local Ollama model</option></select></label>
+<p id="modelStatus" class="muted"></p>
+<button id="refreshModels" type="button">Refresh local models</button>
+</section>
+<section class="panel"><h2>Saved family conversations</h2><div id="conversations" class="list"></div></section>
+</aside>
+<section>
+<section class="panel">
+<div class="toolbar"><div><h2 id="familyTitle">Choose a family to begin</h2><p id="familySummary" class="muted">Only one exact family is active in a conversation.</p></div><a id="researchLink" hidden>Open Product Research</a></div>
+<p id="copyStatus" class="muted">No private authoring revision has been approved yet.</p>
+<div class="split">
+<section><h3>Current local knowledge and sources</h3><div id="sources"></div></section>
+<section><h3>Separate private authoring copy</h3><div id="authoringCopy" class="authoring muted">No changes saved.</div></section>
+</div>
+</section>
+<section class="panel">
+<h2>Conversation</h2><p id="conversationTitle" class="muted">Start a new conversation for the selected family.</p>
+<div id="messages" role="log" aria-live="polite"></div>
+<form id="messageForm" class="chat-form"><textarea id="messageInput" rows="3" maxlength="4000" placeholder="Ask what is documented, verify a detail against local sources, identify a gap, or request a structured knowledge update…" required></textarea><button id="send">Ask the manager</button></form>
+<p class="muted">Local records and extracted text may be unreviewed. Model suggestions are not verified facts. This assistant never publishes or changes deployment knowledge.</p>
+</section>
+<section class="panel"><h2>Proposed knowledge updates</h2><p class="muted">Review every before/after change and its local source references. Approving saves only to this separate private local authoring copy.</p><div id="proposals"></div></section>
+</section>
+</div>
+</section>
+</main>
+<script>
+"use strict";
+const $=id=>document.getElementById(id);
+let csrf="",account=null,activeFamily="",conversation=null,context=null,messages=[],proposals=[],busy=false;
+function node(tag,text){const element=document.createElement(tag);if(text!==undefined)element.textContent=String(text);return element;}
+function status(text,error=false){$("status").textContent=text;$("status").className=error?"status error":"status muted";}
+function apiError(body){
+ if(Array.isArray(body.detail))return body.detail.map(issue=>(issue.loc||[]).slice(1).join(".")+": "+issue.msg).join(" · ");
+ return typeof body.detail==="string"?body.detail:"Family manager request failed";
+}
+async function api(path,method="GET",data){
+ const headers={};if(method!=="GET"){headers["Content-Type"]="application/json";if(csrf)headers["X-Research-CSRF"]=csrf;}
+ const result=await fetch(path,{method,headers,credentials:"same-origin",cache:"no-store",body:data===undefined?undefined:JSON.stringify(data)});
+ let body;try{body=await result.json();}catch{throw new Error("Family manager returned an unreadable response.");}
+ if(!result.ok)throw new Error(apiError(body));
+ return body;
+}
+function action(fn){return async event=>{if(event)event.preventDefault();try{await fn();}catch(error){status(error.message,true);}};}
+function clearWorkspace(){
+ csrf="";account=null;conversation=null;context=null;messages=[];proposals=[];activeFamily="";
+ $("workspace").hidden=true;$("login").hidden=false;$("password").value="";
+ $("messages").replaceChildren();$("proposals").replaceChildren();$("sources").replaceChildren();
+ $("conversations").replaceChildren();$("familyTitle").textContent="Choose a family to begin";
+ $("familySummary").textContent="Only one exact family is active in a conversation.";
+ $("authoringCopy").textContent="No changes saved.";$("copyStatus").textContent="No private authoring revision has been approved yet.";
+ $("conversationTitle").textContent="Start a new conversation for the selected family.";
+ $("deleteConversation").disabled=true;$("researchLink").hidden=true;
+}
+async function loadFamilies(selected){
+ const data=await api("/api/research/family-manager/families");
+ const control=$("family");control.replaceChildren(new Option("Choose a family",""));
+ for(const row of data.families)control.add(new Option(`${row.manufacturer} · ${row.name} (${row.family_id})`,row.family_id));
+ if(selected&&data.families.some(row=>row.family_id===selected))control.value=selected;
+}
+async function loadModels(){
+ $("modelStatus").textContent="Checking loopback Ollama for installed models…";
+ const data=await api("/api/research/family-manager/models");
+ $("model").replaceChildren(new Option("Select an installed local model",""));
+ for(const model of data.models)$("model").add(new Option(model,model));
+ $("modelStatus").textContent=data.available?`${data.models.length} installed local model(s); no download or cloud fallback.`:(data.error||"Local Ollama is unavailable.");
+}
+async function loadFamily(familyId){
+ activeFamily=familyId;conversation=null;messages=[];proposals=[];
+ $("messages").replaceChildren();$("proposals").replaceChildren();$("conversations").replaceChildren();
+ $("sources").replaceChildren();$("authoringCopy").textContent="No changes saved.";
+ $("copyStatus").textContent="No private authoring revision has been approved yet.";
+ $("conversationTitle").textContent="Start a new conversation for the selected family.";
+ $("deleteConversation").disabled=true;
+ if(!familyId){context=null;$("familyTitle").textContent="Choose a family to begin";$("familySummary").textContent="Only one exact family is active in a conversation.";$("researchLink").hidden=true;return;}
+ context=await api(`/api/research/family-manager/families/${encodeURIComponent(familyId)}`);
+ $("familyTitle").textContent=context.name||familyId;
+ $("familySummary").textContent=`${context.manufacturer||"Unknown manufacturer"} · ${context.category||"Category not recorded"} · ${familyId} · ${context.source_count} local context source(s)`;
+ $("researchLink").href="/admin/products#"+encodeURIComponent(familyId);$("researchLink").hidden=false;
+ const copy=context.authoring_copy;
+ $("copyStatus").textContent=copy.saved
+  ?`Private authoring revision ${copy.revision}. ${copy.source_is_current?"Its source snapshot matches current local inputs.":"Its source snapshot is stale; review current sources before proposing another change."}`
+  :"No private authoring revision yet. The current local family record is the proposal baseline.";
+ $("authoringCopy").replaceChildren();
+ if(copy.snapshot){const pre=node("pre",JSON.stringify(copy.snapshot,null,2));$("authoringCopy").append(pre);}
+ else $("authoringCopy").textContent="No changes saved. The first approved proposal creates the private copy.";
+ renderSources(context.sources||[]);
+ await loadConversations(familyId);
+}
+function renderSources(sources){
+ const area=$("sources");area.replaceChildren();
+ if(!sources.length){area.append(node("p","No local source references are available."));return;}
+ for(const source of sources){
+  const card=node("div");card.className="source";
+  card.append(node("strong",`${source.source_id} · ${source.status}`),node("div",source.path));
+  if(source.locator)card.append(node("small",source.locator));
+  if(source.document_id){
+   const link=node("a","Open local source");link.href=`/api/research/documents/${encodeURIComponent(source.document_id)}/file`;link.target="_blank";link.rel="noopener noreferrer";card.append(link);
+  }
+  area.append(card);
+ }
+}
+async function loadConversations(familyId){
+ const data=await api(`/api/research/family-manager/conversations?family_id=${encodeURIComponent(familyId)}`);
+ const list=$("conversations");list.replaceChildren();
+ for(const row of data.conversations){
+  const button=node("button",`${row.title} · ${row.message_count} messages`);button.type="button";
+  button.dataset.conversationId=row.conversation_id;button.setAttribute("aria-current","false");
+  button.onclick=action(()=>openConversation(row.conversation_id));list.append(button);
+ }
+}
+function renderMessages(){
+ const area=$("messages");area.replaceChildren();
+ for(const message of messages){
+  const bubble=node("article");bubble.className="bubble "+(message.role==="user"?"owner":"assistant");
+  bubble.append(node("div",message.content));
+  for(const source of message.citations||[]){
+   const citation=node("small",`[${source.source_id}] ${source.status} · ${source.path}${source.locator?" · "+source.locator:""}`);
+   bubble.append(citation);
+  }
+  area.append(bubble);
+ }
+ area.scrollTop=area.scrollHeight;
+}
+function proposalView(proposal){
+ const card=node("article");card.className="proposal"+(proposal.stale?" stale":"");
+ const heading=node("div");heading.className="toolbar";
+ heading.append(node("h3",proposal.title),node("strong",proposal.stale?"STALE · refresh and re-propose":proposal.status==="saved_to_local_copy"?`Saved revision ${proposal.applied_revision}`:"Needs your review"));
+ card.append(heading,node("p",proposal.summary));
+ for(const change of proposal.changes||[]){
+  const item=node("section");item.className="change";
+  item.append(node("strong",change.path),node("p","Before:"),node("pre",JSON.stringify(change.before,null,2)),node("p","Proposed:"),node("pre",JSON.stringify(change.after,null,2)));
+  for(const source of change.evidence||[])item.append(node("small",`${source.source_id||"OWNER"} · ${source.status} · ${source.path}`));
+  card.append(item);
+ }
+ if(proposal.status==="draft"){
+  const controls=node("div");controls.className="toolbar";
+  const approve=node("button","Approve and save to private local copy");approve.type="button";approve.disabled=Boolean(proposal.stale)||busy;
+  approve.onclick=action(async()=>{
+   if(!context)throw new Error("Select a family first.");
+   if(!window.confirm("Save these displayed changes to the separate private local authoring copy? Canonical family files and deployment will not be changed."))return;
+   const conversationId=conversation?.conversation_id;
+   const saved=await api(`/api/research/family-manager/proposals/${encodeURIComponent(proposal.proposal_id)}/approve`,"POST",{expected_revision:context.authoring_copy.revision});
+   status(`Saved private local authoring revision ${saved.revision}. Canonical knowledge and deployment were not changed.`);
+   await loadFamily(activeFamily);
+   if(conversationId)await openConversation(conversationId);
+  });
+  const discard=node("button","Discard draft");discard.type="button";discard.onclick=action(async()=>{
+   await api(`/api/research/family-manager/proposals/${encodeURIComponent(proposal.proposal_id)}`,"DELETE");
+   proposals=proposals.filter(row=>row.proposal_id!==proposal.proposal_id);renderProposals();status("Draft proposal discarded; no knowledge files changed.");
+  });
+  controls.append(approve,discard);card.append(controls);
+ }
+ return card;
+}
+function renderProposals(){
+ const area=$("proposals");area.replaceChildren();
+ if(!proposals.length){area.append(node("p","No proposals in this conversation yet."));return;}
+ for(const proposal of proposals)area.append(proposalView(proposal));
+}
+async function openConversation(id){
+ const data=await api(`/api/research/family-manager/conversations/${encodeURIComponent(id)}/messages`);
+ if(data.conversation.family_id!==activeFamily)throw new Error("Conversation belongs to a different family.");
+ conversation=data.conversation;messages=data.messages;proposals=data.proposals;
+ $("conversationTitle").textContent=`${conversation.title} · ${conversation.model}`;
+ $("deleteConversation").disabled=false;
+ for(const button of $("conversations").querySelectorAll("button"))button.setAttribute("aria-current",String(button.dataset.conversationId===conversation.conversation_id));
+ renderMessages();renderProposals();
+}
+async function createConversation(){
+ if(!activeFamily)throw new Error("Choose one family before starting a conversation.");
+ if(!$("model").value)throw new Error("Select an already-installed local Ollama model.");
+ const data=await api("/api/research/family-manager/conversations","POST",{family_id:activeFamily,model:$("model").value});
+ conversation=data.conversation;messages=[];proposals=[];renderMessages();renderProposals();
+ $("conversationTitle").textContent=`${conversation.title} · ${conversation.model}`;$("deleteConversation").disabled=false;
+ await loadConversations(activeFamily);status("New private family conversation started.");
+}
+async function sendMessage(event){
+ event.preventDefault();if(busy)return;
+ if(!activeFamily)throw new Error("Choose one family first.");
+ if(!conversation)await createConversation();
+ const text=$("messageInput").value.trim();if(!text)return;
+ const userMessage={role:"user",content:text,citations:[]};messages.push(userMessage);renderMessages();
+ $("messageInput").value="";busy=true;$("send").disabled=true;status("Asking the selected installed local model…");
+ try{
+  const result=await api(`/api/research/family-manager/conversations/${encodeURIComponent(conversation.conversation_id)}/messages`,"POST",{message:text});
+  messages.push(result.message);if(result.proposal)proposals.unshift(result.proposal);
+  renderMessages();renderProposals();await loadConversations(activeFamily);
+  status(result.proposal?"Response and proposed changes saved locally as a draft for your review.":"Response saved in the private local conversation.");
+ }catch(error){
+  messages.pop();$("messageInput").value=text;renderMessages();throw error;
+ }finally{busy=false;$("send").disabled=false;}
+}
+async function enter(){
+ const me=await api("/api/research/me");
+ if(!me.roles.includes("reviewer"))throw new Error("Reviewer permission is required for the Family Knowledge Manager.");
+ account=me;csrf=me.csrf;$("login").hidden=true;$("workspace").hidden=false;$("identity").textContent=`Signed in · ${me.username}`;
+ await Promise.all([loadFamilies(new URLSearchParams(location.search).get("family_id")||""),loadModels()]);
+ const requested=new URLSearchParams(location.search).get("family_id")||"";
+ if(requested){
+  if($("family").value!==requested)throw new Error("The family ID in this link is not in the current local knowledge set.");
+  await loadFamily(requested);
+ }
+ status("Ready. Family conversations and approved authoring revisions are stored locally and separately from Aurora and Oracle.");
+}
+async function start(){
+ try{await enter();}
+ catch(error){clearWorkspace();if(!error.message.includes("401"))status(error.message,true);}
+}
+$("loginForm").onsubmit=action(async event=>{
+ event.preventDefault();
+ const result=await fetch("/api/research/login",{method:"POST",headers:{"Content-Type":"application/json"},credentials:"same-origin",cache:"no-store",
+  body:JSON.stringify({username:$("username").value,password:$("password").value})});
+ $("password").value="";let body;try{body=await result.json();}catch{throw new Error("Research login returned an unreadable response.");}
+ if(!result.ok)throw new Error(apiError(body));csrf=body.csrf;await enter();
+});
+$("family").onchange=action(async()=>{const id=$("family").value;const url=new URL(location.href);if(id)url.searchParams.set("family_id",id);else url.searchParams.delete("family_id");history.replaceState(null,"",url);await loadFamily(id);});
+$("model").onchange=()=>{if(conversation)status("Model selection applies to the next new conversation.");};
+$("refreshModels").onclick=action(loadModels);
+$("newConversation").onclick=action(createConversation);
+$("deleteConversation").onclick=action(async()=>{
+ if(!conversation)return;if(!window.confirm("Delete this conversation and its unapproved proposals? Approved private authoring revisions will remain."))return;
+ await api(`/api/research/family-manager/conversations/${encodeURIComponent(conversation.conversation_id)}`,"DELETE");
+ conversation=null;messages=[];proposals=[];renderMessages();renderProposals();$("deleteConversation").disabled=true;
+ $("conversationTitle").textContent="Conversation deleted.";await loadConversations(activeFamily);status("Conversation and pending proposals deleted; approved authoring revisions remain.");
+});
+$("logout").onclick=action(async()=>{await api("/api/research/logout","POST");clearWorkspace();status("Signed out.");});
+$("messageForm").onsubmit=action(sendMessage);
+window.addEventListener("pagehide",()=>{csrf="";messages=[];proposals=[];});
+start();
+</script>
+</body>
+</html>

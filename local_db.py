@@ -2,9 +2,14 @@
 from __future__ import annotations
 
 import sqlite3
+import os
 from pathlib import Path
 
 BUSY_TIMEOUT_MS = 5000
+
+
+def state_path(name: str) -> Path:
+    return Path(os.getenv("AURORA_STATE_DIR", str(Path(__file__).resolve().parent / "data" / "local"))) / name
 
 
 def connect(path: Path) -> sqlite3.Connection:

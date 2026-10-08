@@ -53,6 +53,23 @@ Ecowool NoiseBreak is a high-density glass mineral wool acoustic insulation batt
 
 _Variants from the manufacturer datasheet._
 
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `ECONOISEBRKR20T70W430PK10` | Ecowool NoiseBREAK Batt R2.0 1160 x 430 x 70mm 10pk | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `ECONOISEBRKR20T70W580PK10` | Ecowool NoiseBREAK Batt R2.0 1160 x 580 x 70mm 10pk | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `ECONOISEBRKR25T90W430PK9` | Ecowool NoiseBREAK Batt R2.5 1160 x 430 x 90mm 9pk | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `ECONOISEBRKR25T90W580PK9` | Ecowool NoiseBREAK Batt R2.5 1160 x 580 x 90mm 9pk | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `ECONOISEBRKR27T90W430PK8` | Ecowool NoiseBREAK Batt R2.7 1160 x 430 x 90mm 8pk | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `ECONOISEBRKR27T90W580PK7` | Ecowool NoiseBREAK Batt R2.7 1160 x 580 x 90mm 7pk | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `ECONOISEBRKR31T110W430PK7` | Ecowool NoiseBREAK Batt R3.1 1160 x 430 x 110mm 7pk | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `ECONOISEBRKR31T110W580PK7` | Ecowool NoiseBREAK Batt R3.1 1160 x 580 x 110mm 7pk | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+
 ## Technical data
 
 | Property | Value | Standard |

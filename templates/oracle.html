@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>Oracle | Private Assistant</title>
+<style>
+:root{font:15px system-ui;color:#e5edf7;background:#111a29;color-scheme:dark}
+*{box-sizing:border-box}body{margin:0}header,main{max-width:1500px;margin:auto;padding:18px}
+a{color:#91caff}button,input,select,textarea{font:inherit;color:inherit;background:#15243a;border:1px solid #50637e;border-radius:7px;padding:9px}
+button{cursor:pointer;background:#235c83}button:disabled{opacity:.55;cursor:wait}
+.layout{display:grid;grid-template-columns:minmax(220px,300px) minmax(0,1fr);gap:14px}
+.panel{background:#1a2940;border:1px solid #364a66;border-radius:10px;padding:15px;margin-bottom:14px}
+.toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center}.toolbar>*{max-width:100%}
+label{display:grid;gap:5px;margin:8px 0}.muted{color:#acbbd0}.warning{color:#ffda8b}
+#messages{height:52vh;overflow:auto;display:flex;flex-direction:column;gap:10px;padding:6px}
+.bubble{max-width:min(82%,900px);white-space:pre-wrap;overflow-wrap:anywhere;padding:11px 14px;border-radius:14px;line-height:1.45}
+.assistant{background:#24354e;align-self:flex-start;border-top-left-radius:4px}
+.owner{background:#175b69;align-self:flex-end;border-top-right-radius:4px}
+.citation{font-size:.9rem;border-left:3px solid #71b7dc;padding:7px 10px;margin-top:7px;overflow-wrap:anywhere}
+.citation small{color:#bccadd}.list button{display:block;width:100%;text-align:left;margin:6px 0;background:#15243a}
+.row{display:flex;gap:8px}.row>*{min-width:0}.row textarea{flex:1;resize:vertical}
+#login{max-width:480px;margin:7vh auto}#status{min-height:1.5em}[hidden]{display:none!important}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media(max-width:850px){header,main{padding:10px}.layout{display:block}#messages{height:50vh}.bubble{max-width:95%}.split{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><div class="toolbar"><div><h1>Oracle</h1><p class="muted">Private local assistant for the owner</p></div><nav><a href="/admin/knowledge">Knowledge Validation</a> · <a href="/admin/products">Product Research</a></nav></div></header>
+<main>
+<p id="status" role="status" aria-live="polite"></p>
+<section id="login" class="panel" hidden>
+<h2>Unlock Oracle</h2>
+<p id="setupHint" class="warning"></p>
+<form id="loginForm"><label>Dedicated Oracle passphrase <input id="passphrase" type="password" autocomplete="current-password" required maxlength="256"></label><button>Unlock</button></form>
+<p class="muted">Oracle uses a separate local identity and private store. It is not your Aurora or Neo account.</p>
+</section>
+<section id="workspace" hidden>
+<div class="toolbar panel"><strong id="ownerIdentity">Owner session</strong><button id="newChat" type="button">New conversation</button><button id="clearChat" type="button">Clear current session</button><button id="prepareBrief" type="button">Prepare sales/project brief</button><button id="logout" type="button">Lock Oracle</button></div>
+<div class="layout">
+<aside>
+<section class="panel"><h2>Conversations</h2><div id="conversationList" class="list"></div></section>
+<section class="panel"><h2>Personal notes</h2>
+<form id="noteForm"><label>Title <input id="noteTitle" maxlength="160" required></label><label>Note <textarea id="noteContent" rows="4" maxlength="20000" required></textarea></label><button>Save private note</button></form>
+<div id="notes" class="list"></div></section>
+<section class="panel"><h2>Personal tasks</h2>
+<form id="taskForm"><label>Task <input id="taskTitle" maxlength="160" required></label><label>Details <textarea id="taskDetails" rows="2" maxlength="10000"></textarea></label><div class="split"><label>Status <select id="taskStatus"><option value="open">Open</option><option value="in_progress">In progress</option><option value="done">Done</option></select></label><label>Due date <input id="taskDue" type="date"></label></div><button>Create/update task</button></form>
+<div id="tasks" class="list"></div></section>
+</aside>
+<section>
+<div class="panel">
+<div class="split"><label>Knowledge scope <select id="scope"><option value="all">All local knowledge</option><option value="products">Products / TDS</option><option value="compliance">NCC / ABCB literature</option></select></label>
+<label>Application environment <select id="environment"><option value="local">Local / private</option></select></label></div>
+<div class="toolbar"><label>Local Ollama model <select id="model"><option value="">No model (local sources only)</option></select></label><button id="refreshModels" type="button">Refresh local models</button><span id="modelState" class="muted"></span></div>
+<div class="split"><label>Family context (optional) <input id="familyContext" placeholder="Exact local family ID"></label><label>Page/product context (optional) <input id="pageContext" placeholder="Short owner-provided context"></label></div>
+<p class="muted">Oracle welcomes general conversation, planning, writing, research, and workflow help. A selected local model handles free-flow conversation; workspace-specific questions also search local evidence. Verified facts, unreviewed material, and suggestions are labelled separately. No web lookup, cloud model, email, CRM, or production write is available.</p>
+</div>
+<section class="panel"><div id="conversationTitle" class="muted">Start an Oracle conversation</div><div id="messages" role="log" aria-live="polite"></div>
+<form id="messageForm" class="row"><textarea id="messageInput" rows="2" maxlength="4000" placeholder="Talk with Oracle about anything—planning, writing, research, everyday questions, or local product and document evidence…" required></textarea><button id="send">Ask Oracle</button></form></section>
+<section class="panel"><h2>Local sources</h2><form id="sourceForm" class="toolbar"><input id="sourceQuery" aria-label="Source search" maxlength="1000" placeholder="Search local sources" required><select id="sourceScope"><option value="all">All</option><option value="products">Products / TDS</option><option value="compliance">NCC / ABCB</option></select><button>Search sources</button></form><div id="sourceResults"></div></section>
+</section></div></section>
+</main>
+<script>
+"use strict";
+const $=id=>document.getElementById(id);
+let csrf="",conversation=null,messages=[],lastCitations=[],busy=false,comparisonReady=false,defaultModel="";
+function node(tag,text){const item=document.createElement(tag);if(text!==undefined)item.textContent=String(text);return item;}
+function status(text,error=false){$("status").textContent=text;$("status").className=error?"warning":"";}
+function notifyComparison(message,ready){if(window.parent!==window)window.parent.postMessage({type:"assistant-status",message,ready},location.origin);}
+async function api(path,method="GET",data){
+  const headers={};if(method!=="GET")headers["Content-Type"]="application/json";
+  if(method!=="GET"&&csrf)headers["X-Oracle-CSRF"]=csrf;
+  const result=await fetch(path,{method,headers,credentials:"same-origin",cache:"no-store",body:data===undefined?undefined:JSON.stringify(data)});
+  let body;try{body=await result.json();}catch{throw new Error("Oracle returned an unreadable response.");}
+  if(!result.ok)throw new Error(typeof body.detail==="string"?body.detail:"Oracle request rejected");
+  return body;
+}
+function action(fn){return async event=>{if(event)event.preventDefault();try{await fn();}catch(error){status(error.message,true);}};}
+function citations(parent,items){
+  for(const [index,source] of (items||[]).entries()){
+    const card=node("div");card.className="citation";
+    const title=node("strong",`[S${index+1}] ${source.path} · ${source.status}`);card.append(title);
+    if(source.locator)card.append(node("div",source.locator));
+    if(source.sha256)card.append(node("small",`SHA-256 ${source.sha256}`));
+    if(source.open_url){const link=node("a","Open local source");link.href=source.open_url;link.target="_blank";link.rel="noopener noreferrer";card.append(node("br"),link);}
+    if(source.website_url){const link=node("a","Open recorded website (not fetched by Oracle)");link.href=source.website_url;link.target="_blank";link.rel="noopener noreferrer";card.append(node("br"),link);}
+    parent.append(card);
+  }
+}
+function drawMessages(){
+  $("messages").replaceChildren();
+  for(const message of messages){
+    const bubble=node("div",message.content);bubble.className="bubble "+(message.role==="user"?"owner":"assistant");
+    $("messages").append(bubble);if(message.role==="assistant")citations(bubble,message.citations);
+  }
+  $("messages").scrollTop=$("messages").scrollHeight;
+}
+async function refreshConversations(){
+  const result=await api("/api/oracle/conversations");$("conversationList").replaceChildren();
+  for(const item of result.conversations){const button=node("button",`${item.title} · ${item.message_count} messages`);button.onclick=action(async()=>{await openConversation(item.conversation_id);});$("conversationList").append(button);}
+}
+async function openConversation(id){
+  const result=await api(`/api/oracle/conversations/${encodeURIComponent(id)}/messages`);
+  conversation=result.conversation;messages=result.messages;lastCitations=[];
+  $("scope").value=conversation.scope;$("environment").value=conversation.environment;
+  $("model").value=conversation.model&&Array.from($("model").options).some(option=>option.value===conversation.model)
+    ?conversation.model:"";
+  $("familyContext").value=conversation.context.family_id||"";$("pageContext").value=conversation.context.page_title||conversation.context.product_name||"";
+  $("conversationTitle").textContent=conversation.title;drawMessages();
+}
+async function newConversation(){
+  const context={};if($("familyContext").value.trim())context.family_id=$("familyContext").value.trim();
+  if($("pageContext").value.trim())context.page_title=$("pageContext").value.trim();
+  const result=await api("/api/oracle/conversations","POST",{scope:$("scope").value,environment:$("environment").value,model:$("model").value,context});
+  conversation=result.conversation;messages=[];$("conversationTitle").textContent=conversation.title;drawMessages();await refreshConversations();
+}
+async function saveSettings(){
+  if(!conversation)return;
+  const context={};if($("familyContext").value.trim())context.family_id=$("familyContext").value.trim();
+  if($("pageContext").value.trim())context.page_title=$("pageContext").value.trim();
+  const result=await api(`/api/oracle/conversations/${encodeURIComponent(conversation.conversation_id)}`,"PATCH",
+    {scope:$("scope").value,environment:$("environment").value,model:$("model").value,context});
+  conversation=result.conversation;status("Oracle conversation settings saved locally.");
+}
+async function loadModels(){
+  $("modelState").textContent="Checking local Ollama…";
+  const selected=$("model").value;
+  const result=await api("/api/oracle/models");$("model").replaceChildren();
+  $("model").append(new Option("No model (local sources only)",""));
+  for(const model of result.models)$("model").append(new Option(model,model));
+  defaultModel=result.default_model||"";
+  $("model").value=selected&&result.models.includes(selected)?selected:defaultModel;
+  $("modelState").textContent=result.available?`${result.models.length} local model(s) available`:
+    (result.error||"Local Ollama unavailable; free-flow conversation needs a selected local model");
+}
+async function loadNotes(){
+  const result=await api("/api/oracle/notes");$("notes").replaceChildren();
+  for(const note of result.notes){const details=node("details"),summary=node("summary",note.title),text=node("pre",note.content);details.append(summary,text);citations(details,note.source_refs);$("notes").append(details);}
+}
+async function loadTasks(){
+  const result=await api("/api/oracle/tasks");$("tasks").replaceChildren();
+  for(const task of result.tasks){const details=node("details"),summary=node("summary",`${task.status}: ${task.title}${task.due_date?" · "+task.due_date:""}`),text=node("p",task.details);details.append(summary,text);$("tasks").append(details);}
+}
+async function enter(){
+  $("login").hidden=true;$("workspace").hidden=false;
+  await Promise.all([refreshConversations(),loadNotes(),loadTasks(),loadModels()]);
+  status("Oracle is unlocked. Conversation, notes and tasks remain in Oracle's private local store.");
+  comparisonReady=true;
+  notifyComparison("Oracle is unlocked and ready.",true);
+}
+async function start(){
+  try{
+    const session=await api("/api/oracle/session");
+    if(!session.configured){$("login").hidden=false;$("setupHint").textContent="First configure the dedicated passphrase locally with: python scripts\\oracle_owner.py";notifyComparison("Oracle is not configured; complete local owner setup first.",false);return;}
+    if(!session.authenticated){$("login").hidden=false;$("setupHint").textContent="Unlock with the passphrase configured for Oracle.";notifyComparison("Unlock Oracle in this panel before comparing.",false);return;}
+    csrf=session.csrf;await enter();
+  }catch(error){status(error.message,true);notifyComparison("Oracle is unavailable: "+error.message,false);}
+}
+$("loginForm").onsubmit=action(async()=>{const passphrase=$("passphrase").value;$("passphrase").value="";const result=await api("/api/oracle/login","POST",{passphrase});csrf=result.csrf;await enter();});
+$("newChat").onclick=action(newConversation);
+$("scope").onchange=action(saveSettings);$("environment").onchange=action(saveSettings);$("model").onchange=action(saveSettings);
+$("familyContext").onchange=action(saveSettings);$("pageContext").onchange=action(saveSettings);
+$("clearChat").onclick=action(async()=>{if(!conversation)return;await api(`/api/oracle/conversations/${encodeURIComponent(conversation.conversation_id)}`,"DELETE");conversation=null;messages=[];drawMessages();$("conversationTitle").textContent="Session cleared";await refreshConversations();status("Current Oracle session and its message history cleared.");});
+$("logout").onclick=action(async()=>{await api("/api/oracle/logout","POST");csrf="";conversation=null;messages=[];comparisonReady=false;$("workspace").hidden=true;$("login").hidden=false;status("Oracle locked.");notifyComparison("Oracle is locked; unlock it before comparing.",false);});
+$("refreshModels").onclick=action(loadModels);
+$("messageForm").onsubmit=action(async()=>{
+  if(busy)return;if(!conversation)await newConversation();
+  const text=$("messageInput").value.trim();if(!text)return;
+  busy=true;$("send").disabled=true;$("messageInput").value="";
+  messages.push({role:"user",content:text,citations:[]});drawMessages();
+  try{
+    const result=await api(`/api/oracle/conversations/${encodeURIComponent(conversation.conversation_id)}/messages`,"POST",{message:text});
+    messages.push(result.message);lastCitations=result.message.citations||[];drawMessages();
+    await refreshConversations();
+    status(result.model_status==="fallback"?"Oracle used a local fallback response.":`Oracle replied (${result.model_status}).`);
+  }catch(error){messages.pop();$("messageInput").value=text;drawMessages();throw error;}
+  finally{busy=false;$("send").disabled=false;$("messageInput").focus();}
+});
+$("sourceForm").onsubmit=action(async()=>{
+  const query=$("sourceQuery").value.trim();const data=await api(`/api/oracle/sources?q=${encodeURIComponent(query)}&scope=${encodeURIComponent($("sourceScope").value)}`);
+  const panel=$("sourceResults");panel.replaceChildren();
+  if(!data.citations.length&&!data.evidence.length){panel.append(node("p","No local sources found."));return;}
+  for(const item of data.evidence){const card=node("div");card.className="citation";card.append(node("strong",`${item.status}${item.topic?" · "+item.topic:""}`),node("p",item.text));panel.append(card);}
+  citations(panel,data.citations);
+});
+$("noteForm").onsubmit=action(async()=>{
+  const note=await api("/api/oracle/notes","POST",{title:$("noteTitle").value,content:$("noteContent").value,source_refs:lastCitations});
+  $("noteTitle").value="";$("noteContent").value="";await loadNotes();status("Private Oracle note saved locally.");
+});
+$("taskForm").onsubmit=action(async()=>{
+  await api("/api/oracle/tasks","POST",{title:$("taskTitle").value,details:$("taskDetails").value,status:$("taskStatus").value,due_date:$("taskDue").value||null,source_refs:lastCitations});
+  $("taskTitle").value="";$("taskDetails").value="";$("taskDue").value="";await loadTasks();status("Private Oracle task saved locally.");
+});
+$("prepareBrief").onclick=action(async()=>{
+  if(!conversation)throw new Error("Start or open a conversation first.");
+  const result=await api("/api/oracle/briefs/prepare","POST",{conversation_id:conversation.conversation_id});
+  $("noteTitle").value=result.title;$("noteContent").value=result.content;lastCitations=result.source_refs;
+  $("noteForm").scrollIntoView({block:"center",behavior:"smooth"});status("Draft brief prepared from this private conversation; review before saving or sharing.");
+});
+window.addEventListener("message",event=>{
+  if(event.source!==window.parent||event.origin!==location.origin||!event.data)return;
+  if(event.data.type==="assistant-status-request"){
+    notifyComparison(comparisonReady?"Oracle is unlocked and ready.":"Unlock Oracle in this panel before comparing.",comparisonReady);
+    return;
+  }
+  if(event.data.type!=="assistant-compare-prompt"||typeof event.data.prompt!=="string")return;
+  const prompt=event.data.prompt.trim();
+  if(!prompt||prompt.length>4000)return;
+  if(!comparisonReady||$("workspace").hidden){notifyComparison("Unlock Oracle in this panel before comparing.",false);return;}
+  if(busy){notifyComparison("Oracle is already processing a prompt.",true);return;}
+  $("messageInput").value=prompt;
+  $("messageForm").requestSubmit();
+});
+window.addEventListener("pagehide",()=>{csrf="";messages=[];lastCitations=[];conversation=null;});
+start();
+</script>
+</body>
+</html>

@@ -43,33 +43,28 @@ E-Therm Reflective Roof and Wall Insulation is a reflective product family from 
 
 _Manufacturer size/packaging breakdown._
 
-**Internal catalogue range**
-
-| SKU | Product | Published rating |
-| --- | --- | --- |
-| E-Therm 50 Antiglare | E-Therm 50 Antiglare | R1.2, R2.5 |
-| E-Therm 65 Antiglare | E-Therm 65 Antiglare | R1.2, R2.5 |
-| E-Therm 80 Antiglare | E-Therm 80 Antiglare | R1.2, R2.5 |
-
 
 ## Current catalogue range
 
-| Grade | Core thickness | Roll width (net/gross) | Roll length | Coverage/roll | Roll dia | Weight | Pallet |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| E-Therm 50 | 5.0 mm | 1350/1500 mm | 22.25 m | 30.0 m2 | 420 mm | 10.5 kg | 16 rolls |
-| E-Therm 65 | 6.5/7.0 mm | 1350/1500 mm | 22.25 m | 30.0 m2 | 460 mm | 12.8 kg | 12 rolls |
-| E-Therm 80 | 8.0/8.5 mm | 1350/1500 mm | 22.25 m | 30.0 m2 | 510 mm | 14.2 kg | 9 rolls |
-| E-Therm Commercial | 6.5 mm | 1350/1500 mm | 40.00 m | 54.0 m2 | 620 mm | 23.0 kg | 6 rolls |
+| SKU record | Internal SKU | Supplier SKU | Product | Published rating | Validation |
+| --- | --- | --- | --- | --- | --- |
+| SKU-EC937D39DF240BFE | E-Therm 50 Antiglare | THERETHERM50T5P5W1350L22P2MRL | E-Therm 50 Antiglare | R1.2, R2.5 | REVIEW |
+| SKU-9FF9C879E4965D34 | E-Therm 65 Antiglare | THERETHERM65T7P2W1350L22P2MRL | E-Therm 65 Antiglare | R1.2, R2.5 | REVIEW |
+| SKU-0FEE79C94AC1C836 | E-Therm 80 Antiglare | THERETHERM80T8P5W1350L22P2MRL | E-Therm 80 Antiglare | R1.2, R2.5 | REVIEW |
 
-_Manufacturer size/packaging breakdown._
+_All 3 catalogue source rows are listed; duplicate SKU codes are retained as separate records._
 
-**Internal catalogue range**
+## Staff-release SKU coverage
 
-| SKU | Product | Published rating |
-| --- | --- | --- |
-| E-Therm 50 Antiglare | E-Therm 50 Antiglare | R1.2, R2.5 |
-| E-Therm 65 Antiglare | E-Therm 65 Antiglare | R1.2, R2.5 |
-| E-Therm 80 Antiglare | E-Therm 80 Antiglare | R1.2, R2.5 |
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `THERETHERM50T5P5W1350L22P2MRL` | E-Therm 50 Antiglare | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `THERETHERM65T7P2W1350L22P2MRL` | E-Therm 65 Antiglare | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `THERETHERM80T8P5W1350L22P2MRL` | E-Therm 80 Antiglare | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
 
 ## Technical data
 

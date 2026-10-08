@@ -33,11 +33,17 @@ NuWave UV-treated Fence MLV is a outdoor acoustic barrier product family from Th
 
 ## Current catalogue range
 
-| SKU | Product | Published rating |
-| --- | --- | --- |
-| Fence Insulation UV Treated Nuwave Base 4kg | Fence Insulation UV Treated Nuwave Base 4kg | Not stated |
-| Fence Insulation UV Treated Nuwave Base 6kg | Fence Insulation UV Treated Nuwave Base 6kg | Not stated |
-| Fence Insulation UV Treated Nuwave Base 8kg | Fence Insulation UV Treated Nuwave Base 8kg | Not stated |
+| SKU record | Internal SKU | Supplier SKU | Product | Published rating | Validation |
+| --- | --- | --- | --- | --- | --- |
+| SKU-873426C6F5E87C38 | Fence Insulation UV Treated Nuwave Base 4kg | THERNWBFENCEUV4KGW1350L5MRL | Fence Insulation UV Treated Nuwave Base 4kg | Not stated | REVIEW |
+| SKU-452AFACF7948018A | Fence Insulation UV Treated Nuwave Base 6kg | THERNWBFENCEUV6KGW1350L3MRL | Fence Insulation UV Treated Nuwave Base 6kg | Not stated | REVIEW |
+| SKU-00FCECAE3E57BE17 | Fence Insulation UV Treated Nuwave Base 8kg | THERNWBFENCEUV8KGW1350L3MRL | Fence Insulation UV Treated Nuwave Base 8kg | Not stated | REVIEW |
+
+_All 3 catalogue source rows are listed; duplicate SKU codes are retained as separate records._
+
+## Staff-release SKU coverage
+
+_No SKU from this workbook was mapped or proposed for this family._
 
 ## Technical data
 

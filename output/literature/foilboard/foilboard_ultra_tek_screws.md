@@ -49,6 +49,10 @@ Foilboard Ultra Tek Screws are long, self-drilling steel fasteners fitted with o
 
 _Variants from the manufacturer datasheet._
 
+## Staff-release SKU coverage
+
+_No SKU from this workbook was mapped or proposed for this family._
+
 ## Technical data
 
 | Property | Value | Standard |

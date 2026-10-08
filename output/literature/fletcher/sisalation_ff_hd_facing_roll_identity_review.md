@@ -1,7 +1,7 @@
 ---
 title: "Sisalation FF HD facing roll (identity review) - Reflective facing Insulation | Fletcher"
-description: "Sisalation FF HD facing roll (identity review) is a reflective facing insulation product family from Fletcher. View the catalogue range, applications "
-keywords: "Sisalation FF HD facing roll (identity review), Fletcher reflective facing, R-value insulation, insulation Australia, Fletcher Australia"
+description: "Sisalation® Multipurpose EHD (456) is an extra heavy duty, non-vapour permeable single sided reflective aluminium foil and polyweave laminate with an "
+keywords: "Sisalation FF HD facing roll (identity review), Fletcher reflective facing, wall insulation, roof insulation, R-value insulation, insulation Australia, Fletcher Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: FLETCHER_FF_HD_LEGACY
 ---
@@ -10,16 +10,24 @@ family_id: FLETCHER_FF_HD_LEGACY
 
 **Fletcher Reflective facing** — reflective facing insulation product.
 
-Sisalation FF HD facing roll (identity review) is a reflective facing product family from Fletcher. Confirm the current published specification against the manufacturer datasheet before quoting.
+Sisalation® Multipurpose EHD (456) is an extra heavy duty, non-vapour permeable single sided reflective aluminium foil and polyweave laminate with an antiglare face designed to minimize glare during installation.
 
 ## Key features
 
-- Refer to the manufacturer datasheet for published features.
+- Extra Heavy Duty.
+- Non-vapour permeable.
+- Reflective aluminium foil.
+- Polyweave laminate.
+- Anti-glare face.
+- Class 1 Vapour barrier.
+- Water barrier.
 
 ## Applications and selection
 
-- industrial facing
-- insulation fabrication
+- residential walls
+- commercial walls
+- tile roofs (except slate)
+- metal roofs
 
 **Selection checklist**
 
@@ -32,24 +40,47 @@ Sisalation FF HD facing roll (identity review) is a reflective facing product fa
 
 ## Current catalogue range
 
-| SKU | Product | Published rating |
-| --- | --- | --- |
-| FL-4008040 | FF HD (1350MM 500M) (450) | R33.92, R33.8 |
+| SKU record | Internal SKU | Supplier SKU | Product | Published rating | Validation |
+| --- | --- | --- | --- | --- | --- |
+| SKU-13CC457B6427B858 | FL-4008040 | FIFFHEAVYDUTYW1350L500MRL | FF HD (1350MM 500M) (450) | R33.92, R33.8 | REVIEW |
+
+_All 1 catalogue source rows are listed; duplicate SKU codes are retained as separate records._
+
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `FIFFHEAVYDUTYW1350L500MRL` | FF HD \(1350MM 500M\) \(450\) | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: poa, Perth: poa |
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Reflective facing | Manufacturer catalogue |
-| Material | Reflective Foil | Manufacturer catalogue |
-| Applications | industrial facing; insulation fabrication | Manufacturer catalogue |
-| Published ratings | R33.8, R33.92 | Internal catalogue; confirm against current TDS |
+| Duty Classification | Extra Heavy Duty | AS 4200.1 |
+| Edge Tear Machine | ≥ 90 N | TAPPI T470 |
+| Lateral Tear Machine | ≥ 90 N | TAPPI T470 |
+| Tensile Strength | ≥ 13.0 kN/m | AS 1301.448s |
+| Water Control | Water barrier | AS/NZS 4201.4 |
+| Vapour Control | Class 1 Vapour barrier | AS 4200.1 |
+| Vapour Permeance | <0.0022 µg/N.s | ASTM E96 |
+| Air Control | Air barrier (≥0.1) | ISO 5636-5 |
+| Emittance | IR Non-reflective (0.9) | AS/NZS 4201.5 |
+| Emittance | IR Reflective (≤0.05) | AS/NZS 4201.5 |
+| Resistance to Dry Delamination | PASS | AS/NZS 4201.1 |
+| Resistance to Wet Delamination | PASS | AS/NZS 4201.2 |
+| Shrinkage | ≤ 0.5 % | AS/NZS 4201.3 |
+| Electrical Conductivity | Electrically conductive | AS/NZS 3100 |
+| Flammability Index | ≤5 | AS 1530.2 |
 
-
+Extracted from manufacturer datasheet: https://insulation.com.au/wp-content/uploads/2026/TDS-Sisalation-Multipurpose-EHD-456-Rev9-070926.pdf
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Low Flammability Index (≤5)
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
@@ -57,9 +88,26 @@ Not verified per SKU. No fire, NCC or BAL classification is asserted in this dra
 - SDS: to be sourced.
 
 
+## Limitations and warnings
+
+- Not suitable as an exposed internal wall and ceiling lining where a group number is required.
+- Not suitable for applications where the cladding manufacturer specifies a vapour permeable membrane.
+- Not suitable where a pliable building membrane or sarking-type material is required in climate zones 4–8.
+- Not suitable as a substitute for safety mesh or a fall-arrest system.
+- Not suitable for use within 500m of a saltwater body in unenclosed, ventilated space.
+- Additional mechanical fasteners may be required for product exposed to adverse weather conditions.
+- Not designed to withstand prolonged weathering – exterior cladding should be installed within 8 weeks in a wall application, or 2 weeks in a roof application.
+
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU.
+1. Install in accordance with AS 4200.2.
+2. Avoid contact with electrical wiring.
+3. Inspect for damage prior to installation.
+4. Repair any tears with appropriate tape.
+5. Protect from physical damage.
+6. Avoid storing under UV light.
+7. Keep dry at all times.
+8. Avoid contact with alkaline products, cement, mortar, and corrosive environments.
 
 ## Safety and handling
 

@@ -55,6 +55,39 @@ wall
 
 _Variants from the manufacturer datasheet._
 
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `BRADGOLDHPR20T75W420L1160PK12` | GOLD HI-PERFORMANCE BATTS - 420mm wide R2.0 HP 1160 X 420 x 75mm - 12/pack | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADGOLDHPR20T75W570L1160PK12` | GOLD HI-PERFORMANCE BATTS - 570mm wide R2.0 HP 1160 X 570 x 75mm - 12/pack | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADGOLDHPR25T90W420L1160PK9` | GOLD HI-PERFORMANCE BATTS - 420mm wide R2.5 HP 1160 X 420 x 90mm | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADGOLDHPR25T90W570L1160PK` | GOLD HI-PERFORMANCE BATTS - 570mm wide R2.5 HP 1160 X 570 x 90mm | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADGOLDHPR27T90W420L1160PK` | GOLD HI-PERFORMANCE BATTS - 420mm wide R2.7 HP 1160 X 420 x 90mm | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADGOLDHPR27T90W570L1160PK` | GOLD HI-PERFORMANCE BATTS - 570mm wide R2.7 HP 1160 X 570 x 90mm | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADGOLDHPR40T140W420L1160PK5` | GOLD HI-PERFORMANCE BATTS - 420mm wide R4.0 HP 1160 X 420 x 140mm | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADGOLDHPR40T140W570L1160PK5` | GOLD HI-PERFORMANCE BATTS - 570mm wide R4.0 HP 1160 X 570 x 140mm | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADGOLDHPR50T240W430L1160PK8` | GOLD BATTS - 430mm wide R5.0 HP 1160 X 430 x 240mm | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADGOLDHPR50T240W580L1160PK8` | GOLD BATTS - 580mm wide R5.0 HP 1160 X 580 x 240mm | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADGOLDHPR60T260W430L1160PK6` | GOLD BATTS - 430mm wide R6.0 HP 1160 X 430 x 260mm | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADGOLDHPR60T260W580L1160PK6` | GOLD BATTS - 580mm wide R6.0 HP 1160 X 580 x 260mm | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADGOLDHPR70T290W430L1160PK4` | GOLD BATTS - 430mm wide R7.0 HP 1160 X 430 x 290mm | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADGOLDHPR70T290W580L1160PK4` | GOLD BATTS - 580mm wide R7.0 HP 1160 X 580 x 290mm | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADGOLDR20T90W430L1160PK22` | GOLD BATTS - 430mm wide R2.0 1160 X 430 x 90mm | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADGOLDR20T90W580L1160PK18` | GOLD BATTS - 580mm wide R2.0 1160 X 580 x 90mm | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADGOLDR25T140W430L1160PK16` | GOLD BATTS - 430mm wide R2.5 1160 X 430 x 140mm | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADGOLDR25T140W580L1160PK16` | GOLD BATTS - 580mm wide R2.5 1160 X 580 x 140mm | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADGOLDR30T165W430L1160PK16` | GOLD BATTS - 430mm wide R3.0 1160 X 430 x 165mm | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADGOLDR30T165W580L1160PK16` | GOLD BATTS - 580mm wide R3.0 1160 X 580 x 165mm | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADGOLDR35T185W430L1160PK16` | GOLD BATTS - 430mm wide R3.5 1160 X 430 x 185mm | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADGOLDR35T185W580L1160PK10` | GOLD BATTS - 580mm wide R3.5 1160 X 580 x 185mm | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADGOLDR41T215W430L1160PK10` | GOLD BATTS - 430mm wide R4.1 1160 X 430 x 215mm | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADGOLDR41T215W580L1160PK10` | GOLD BATTS - 580mm wide R4.1 1160 X 580 x 215mm | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+
 ## Technical data
 
 | Property | Value | Standard |

@@ -1,6 +1,6 @@
 ---
 title: "Autex Cove Acoustic Desk Divider - Classic - Batt Insulation | Autex"
-description: "Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled pla"
+description: "Cove™ is a lightweight, slide-on acoustic desk divider made from 100% polyester fibre, designed to slide on and off standard desks without additional "
 keywords: "Autex Cove Acoustic Desk Divider - Classic, Autex batt, acoustic insulation, wall insulation, ceiling insulation, insulation Australia, Autex Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AUTEX_COVE_ACOUSTIC_DESK_DIVIDER_CLASSIC
@@ -10,22 +10,24 @@ family_id: AUTEX_COVE_ACOUSTIC_DESK_DIVIDER_CLASSIC
 
 **Autex Batt** — bulk insulation batts for thermal and acoustic performance.
 
-Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled plastic bottles, it's the sustainable choice for modern buildings.
+Cove™ is a lightweight, slide-on acoustic desk divider made from 100% polyester fibre, designed to slide on and off standard desks without additional fixings.
 
 ## Key features
 
-- 100% polyester - safe to handle without protective equipment.
-- contains minimum 80% recycled PET plastic bottles.
-- non-allergenic, non-irritant formulation.
-- will not support mould or mildew growth.
-- maintains performance when wet - dries out naturally.
-- excellent thermal performance for roof/ceiling applications.
-- helps meet NCC energy efficiency requirements.
-- Made from recycled PET bottles.
+- 100% polyester fibre (PET).
+- Thickness: 24 mm.
+- Weight: 3600 gsm.
+- Carbon neutral product.
+- Zero carbon manufacturing.
+- Recycled content: >80% recycled material.
+- Low VOC and CDPH compliant.
+- Zero waste manufacturing initiative.
+- Sustainable supply chain and anti-modern slavery.
 
 ## Applications and selection
 
-- Internal Wall | Ceiling | General Acoustic
+- Wall applications
+- Ceiling applications
 
 **Selection checklist**
 
@@ -42,20 +44,31 @@ Specialists in sustainable polyester acoustic solutions. Safe to handle without 
 | --- | --- | --- | --- | --- |
 | Rw 35 | acoustic_rw | Varies | 799 x 538 | 2 |
 
+## Staff-release SKU coverage
+
+_No SKU from this workbook was mapped or proposed for this family._
+
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Batt | Manufacturer catalogue |
-| Material | Polyester | Manufacturer catalogue |
-| Applications | Internal Wall | Ceiling | General Acoustic | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Smoke production rate | <5.0m2/s | ISO 9705: 1993 |
+| Smoke production rate | <100m2/s2 | AS ISO 9705 - 2003 |
+| Fire classification | Group 1-S | NZBC C/VM2 |
+| Fire classification | Group 1 | AS ISO 9705 - 2003 |
+| Fire classification | S7C4 | BS EN 13501-1:2018 |
+| Fire classification | B-s2,d0 | BS EN ISO 11925-2:2020 and BS EN 13823:2020 |
+| Fire classification | Class A, FS:0 - SD:45 | ASTM E-84-14 |
+| Water vapour sorption | 0.4% by weight | ASTM C1104 / C1104M-13a |
+| Microbial resistance | 0 (No growth) | ASTM G21-15 |
+| Colour fastness to light | 6 (Highest = 7) | ISO 105-B02:2014 |
+| Colour fastness to rubbing | 4-5 (Highest = 5) | ISO 105-X12:2016 |
 
-
+Extracted from manufacturer datasheet: https://cdn.mediavalet.com/aunsw/autex/vhFUp0nBW0K4cpqrvAZ-Ow/2ex0zxZQgkOT3h1KuhvVsQ/Original/Cove%20Datasheet.pdf
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Group 1-S (NZBC C/VM2), Group 1 (AS ISO 9705 - 2003), S7C4 (BS EN 13501-1:2018)
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
@@ -73,7 +86,8 @@ Not verified per SKU. No fire, NCC or BAL classification is asserted in this dra
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for applications requiring fire rating without additional protection.
+1. Install as per Autex Acoustics recommendations..
+2. Install instructions are included in each pack and available on the website..
 
 ## Safety and handling
 
@@ -81,7 +95,7 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Recycled content: >80% recycled material, Low VOC and CDPH compliant, Zero waste manufacturing initiative, Sustainable supply chain and anti-modern slavery
 
 ## Warranty, returns and support
 

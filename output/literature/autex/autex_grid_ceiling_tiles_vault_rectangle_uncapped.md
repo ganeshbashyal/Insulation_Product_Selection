@@ -1,6 +1,6 @@
 ---
 title: "Autex Grid Ceiling Tiles - Vault - Rectangle - Uncapped - Panel Insulation | Autex"
-description: "Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability"
+description: "Autex Global's Grid Ceiling Tiles are acoustic solutions designed to elevate traditional ceiling grid systems, featuring carbon neutrality, zero carbo"
 keywords: "Autex Grid Ceiling Tiles - Vault - Rectangle - Uncapped, Autex panel, ceiling insulation, insulation Australia, Autex Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AUTEX_GRID_CEILING_TILES_VAULT_RECTANGLE_UNCAP
@@ -10,18 +10,17 @@ family_id: AUTEX_GRID_CEILING_TILES_VAULT_RECTANGLE_UNCAP
 
 **Autex Panel** — acoustic panels for sound absorption and interior finish.
 
-Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks. Made from recycled plastic bottles for sustainability.
+Autex Global's Grid Ceiling Tiles are acoustic solutions designed to elevate traditional ceiling grid systems, featuring carbon neutrality, zero carbon manufacturing, and high recycled content.
 
 ## Key features
 
-- 100% polyester - safe to handle without protective equipment.
-- contains minimum 80% recycled PET plastic bottles.
-- non-allergenic, non-irritant formulation.
-- will not support mould or mildew growth.
-- maintains performance when wet.
-- excellent thermal performance for roof/ceiling applications.
-- Made from recycled PET bottles.
-- Safe to handle without PPE.
+- Carbon neutral product.
+- Zero carbon manufacturing.
+- Recycled content.
+- Low VOC and CDPH compliant.
+- Zero waste manufacturing initiative.
+- Sustainable supply chain.
+- Anti-modern slavery.
 
 ## Applications and selection
 
@@ -42,20 +41,27 @@ Specialists in sustainable polyester acoustic solutions. Safe to handle without 
 | --- | --- | --- | --- | --- |
 | Rw 35 | acoustic_rw | Varies | 1195 x 595 | 2 |
 
+## Staff-release SKU coverage
+
+_No SKU from this workbook was mapped or proposed for this family._
+
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Panel | Manufacturer catalogue |
-| Material | Polyester | Manufacturer catalogue |
-| Applications | Ceiling | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| R-value |  | - |
+| density |  | - |
+| thermal conductivity |  | - |
+| fire indices |  | - |
+| temperature range |  | - |
+| vapour |  | - |
+| pH |  | - |
 
-
+Extracted from manufacturer datasheet: https://cdn.mediavalet.com/aunsw/autex/2P1vrOWCVE6M_vSFlSrEdw/f5ZQQpLQrU6jl2vud2IzSQ/Original/Grid%20Ceiling%20Tiles_Data%20Sheet.pdf
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Class A, FS:0 - SD:45, ISO 9705: Classification: Group 1-S
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
@@ -65,15 +71,18 @@ Not verified per SKU. No fire, NCC or BAL classification is asserted in this dra
 
 ## Limitations and warnings
 
-- Not suitable for fire rating without additional protection..
-- not to be exposed to weather or sustained moisture..
-- do not compress beyond manufacturer recommendations..
-- check fire-rated system requirements..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Grid Ceiling Tiles are made from Cube as the base material.
+- Grid Ceiling Tiles are suitable for indoor use only.
+- Light fastness is dependent on use and exposure.
+- Non-woven. Product may vary from samples and batch to batch.
+- Blot spills from fabric quickly. Wipe with a damp cloth. Avoid rubbing and excessive amounts of water.
+- Custom printed Grid Ceiling Tiles require specialist cleaning.
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for fire rating without additional protection.
+1. Install as per Autex Acoustics recommendations.
+2. Install instructions included in each pack or available on the website.
+3. Consult project engineer and fire protection engineer for installation near fire protection systems.
 
 ## Safety and handling
 
@@ -81,7 +90,7 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+EPD – compliant with ISO 14025 and EN 15804, Declare – Red List free, ISO 14001 Certified Environmental Management
 
 ## Warranty, returns and support
 

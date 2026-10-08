@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>Aurora | Knowledge Validation</title>
+<style>
+:root{font:15px system-ui;color:#e6edf8;background:#101a2b;color-scheme:dark}
+body{margin:0}header,main{padding:20px;max-width:1500px;margin:auto}a{color:#93c9ff}
+.panel{background:#1b2a42;border:1px solid #3d4e69;border-radius:10px;padding:18px;margin-bottom:15px}
+button,input,select{font:inherit;padding:8px;border-radius:6px;background:#132138;color:inherit;border:1px solid #536480}
+button{cursor:pointer}label{display:block;margin:10px 0}.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.warning{color:#ffda8b}.muted{color:#b0bdd1}.scroll{overflow:auto}table{width:100%;border-collapse:collapse;text-align:left}
+td,th{padding:10px;border-bottom:1px solid #43526b;vertical-align:top}td{min-width:130px}
+pre{white-space:pre-wrap;overflow-wrap:anywhere}#message{min-height:24px}[hidden]{display:none!important}
+.review-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px}.review-item{padding:12px;border:1px solid #43526b;border-radius:8px;width:100%;text-align:left}
+.risk-high{color:#ff9b9b}.risk-review{color:#ffda8b}.risk-routine{color:#a9e6bb}.sku-table td{min-width:0}
+</style>
+</head>
+<body>
+<header><h1>Knowledge Validation</h1><nav><a href="/admin/family-manager">Family Knowledge Manager</a> &middot; <a href="/admin/products">Product Research</a> &middot; <a href="/admin/catalogue">Catalogue Versions</a> &middot; <a href="/admin/briefs">Sales briefs</a></nav>
+<p class="muted">All families, independent source and review statuses. No single completeness or approval badge.</p></header>
+<main>
+<p id="message" role="status" aria-live="polite"></p>
+<section id="loginPanel" class="panel"><h2>Named research sign-in</h2>
+<form id="loginForm"><label>Username <input id="username" autocomplete="username" required maxlength="64"></label>
+<label>Password <input id="password" type="password" autocomplete="current-password" required maxlength="256"></label><button>Sign in</button></form>
+<p>Uses the existing Product Research account. No default passwords; the sales key cannot grant access.</p></section>
+<section id="workspace" hidden>
+<div class="panel"><div class="toolbar"><strong id="identity"></strong><button id="refresh">Refresh existing files</button><button id="logout">Sign out and clear</button></div>
+<p class="warning">A guide, PDF, research result or model audit is not human approval. Missing technical facts remain unknown; this page starts no extraction, download or model.</p>
+<p id="summary"></p><p id="errors" class="warning"></p>
+<form id="filters" class="toolbar"><input id="search" placeholder="Family name or ID" aria-label="Family search" maxlength="200">
+<select id="manufacturer" aria-label="Manufacturer"><option value="">All manufacturers</option></select>
+<select id="gap" aria-label="Knowledge gap"><option value="">All gaps</option><option value="No family-linked">Missing linked source</option><option value="extraction">Needs extraction or page review</option><option value="hash">Source integrity review</option><option value="No current verified">No verified claims</option><option value="No current commercial">No commercial SKUs</option><option value="held">Publication held</option><option value="safety data">Safety document gap</option></select><button>Search</button></form>
+</div>
+<section class="panel" aria-labelledby="reviewHeading">
+<h2 id="reviewHeading">Resumable V3 review queue</h2>
+<p class="muted">Source-hash-bound. The two-day exception review covers flagged mapped groups, unmapped groups, and family source gaps. Full family attestations are separate and cover every associated SKU. Review does not assign families, approve claims or publish data. Prices are excluded.</p>
+<p class="muted">For the 40 literature gaps, use the family gap filters below and open Product Research to inspect linked or unlinked local documents and save a source-identity disposition. A source disposition does not bind the document to a family.</p>
+<div class="toolbar"><button id="mappedLane" type="button">Flagged mapped groups</button><button id="unmappedLane" type="button">Unmapped SKU groups</button><button id="familyLane" type="button">Full family review</button>
+<input id="reviewSearch" placeholder="Search manufacturer, family, SKU or ID" aria-label="Review queue search" maxlength="200"><button id="reviewSearchButton" type="button">Search queue</button></div>
+<p id="reviewProgress"></p><p id="reviewCount" class="muted"></p>
+<div id="reviewQueue" class="review-grid" aria-live="polite"></div>
+<div class="toolbar"><button id="reviewPrev" type="button">Previous queue page</button><button id="reviewNext" type="button">Next queue page</button></div>
+</section>
+<section id="reviewDetail" class="panel" hidden aria-labelledby="reviewDetailTitle"></section>
+<section class="panel" aria-labelledby="transcriptionHeading">
+<h2 id="transcriptionHeading">TDS transcription check — read-only</h2>
+<p class="warning">Exact source-text matches are provisional internal transcription evidence only. This check does not validate source authenticity/currentness, interpretation, product applicability, compliance, customer suitability or publication. Human review attestations remain separate above.</p>
+<div class="toolbar"><input id="transcriptionSearch" placeholder="Search family or flag" aria-label="Transcription audit search" maxlength="200"><button id="transcriptionSearchButton" type="button">Search audit</button><button id="transcriptionRefresh" type="button">Reload audit report</button></div>
+<p id="transcriptionSummary"></p><p id="transcriptionCount" class="muted"></p>
+<div id="transcriptionQueue" class="review-grid" aria-live="polite"></div>
+<div class="toolbar"><button id="transcriptionPrev" type="button">Previous audit page</button><button id="transcriptionNext" type="button">Next audit page</button></div>
+<section id="transcriptionDetail" class="panel" hidden aria-labelledby="transcriptionDetailTitle"></section>
+</section>
+<p id="count"></p>
+<div class="panel scroll"><table><thead><tr><th>Family / identity</th><th>Guide / research</th><th>Sources / extraction</th><th>Human review / publication</th><th>Commercial records</th><th>Gaps / next action</th></tr></thead><tbody id="families"></tbody></table></div>
+<div class="toolbar"><button id="prev">Previous</button><button id="next">Next</button></div>
+</section>
+</main>
+<script>
+"use strict";
+const $=id=>document.getElementById(id);
+let account=null,offset=0,total=0,epoch=0,sequence=0,reviewLane="mapped",reviewOffset=0,reviewSequence=0,reviewTotal=0,transcriptionOffset=0,transcriptionSequence=0,transcriptionTotal=0;
+const controllers=new Set();
+function node(tag,text){const e=document.createElement(tag);if(text!==undefined)e.textContent=text;return e;}
+function message(text,error=false){$("message").textContent=text;$("message").className=error?"warning":"";}
+function clear(){
+  epoch++;sequence++;reviewSequence++;transcriptionSequence++;controllers.forEach(c=>c.abort());controllers.clear();account=null;offset=0;total=0;reviewOffset=0;transcriptionOffset=0;
+  $("password").value="";$("workspace").hidden=true;$("loginPanel").hidden=false;
+  for(const id of ["identity","summary","errors","count","families","reviewProgress","reviewCount","reviewQueue","reviewDetail","transcriptionSummary","transcriptionCount","transcriptionQueue","transcriptionDetail"])$(id).replaceChildren();
+  $("reviewDetail").hidden=true;$("transcriptionDetail").hidden=true;
+}
+async function api(path,method="GET",data){
+  const token=epoch,c=new AbortController();controllers.add(c);
+  try{
+    const headers={};if(method!=="GET"){headers["Content-Type"]="application/json";if(account)headers["X-Research-CSRF"]=account.csrf;}
+    const result=await fetch("/api/research"+path,{method,headers,credentials:"same-origin",cache:"no-store",signal:c.signal,body:data===undefined?undefined:JSON.stringify(data)});
+    const body=await result.json();if(token!==epoch)throw new DOMException("Page locked","AbortError");
+    if(!result.ok){if(result.status===401&&account)clear();throw new Error(typeof body.detail==="string"?body.detail:JSON.stringify(body.detail));}
+    return body;
+  }finally{controllers.delete(c);}
+}
+function action(fn){return async event=>{if(event)event.preventDefault();try{await fn();}catch(e){if(e.name!=="AbortError")message(e.message,true);}};}
+function dump(parent,title,value){const d=node("details");d.append(node("summary",title),node("pre",JSON.stringify(value,null,2)));parent.append(d);}
+async function browse(){
+  const request=++sequence;
+  const params=new URLSearchParams({q:$("search").value,manufacturer:$("manufacturer").value,gap:$("gap").value,offset,limit:30});
+  const data=await api("/knowledge?"+params);if(request!==sequence)return;
+  total=data.total;
+  $("summary").textContent=`${data.family_count} families | ${data.families_with_linked_sources} with linked sources | ${data.document_count} library PDFs | ${data.families_with_verified_claims} with verified claims | ${data.families_without_skus} without SKUs | publication: ${data.publication_state}`;
+  $("errors").textContent=data.errors.join("; ");
+  const selected=$("manufacturer").value;$("manufacturer").replaceChildren();
+  for(const value of ["",...data.manufacturers]){const e=node("option",value||"All manufacturers");e.value=value;$("manufacturer").append(e);}
+  $("manufacturer").value=selected;
+  $("count").textContent=`${total} matching families; showing ${Math.min(offset+1,total)}-${Math.min(offset+30,total)}.`;
+  $("families").replaceChildren();
+  for(const f of data.families){
+    const tr=node("tr"),identity=node("td"),link=node("a",f.name);link.href="/admin/products#"+encodeURIComponent(f.family_id);
+    identity.append(link,node("p",f.manufacturer+" / "+f.family_id),node("p","Identity: "+f.identity_state));
+    const guide=node("td");guide.append(node("p",f.guide.state),node("p","Research: "+f.research_status),node("p","Model audit: "+f.audit_status));
+    const source=node("td");source.append(node("p",`${f.source.held_count}/${f.source.linked_count} linked files present; ${f.source.integrity}`),node("p",f.extraction.status));
+    for(const doc of f.source.documents)if(doc.exists)source.append(node("p",`${doc.path}: filesystem modified ${doc.last_modified||"unknown"} (not the document's publication date)`));
+    dump(source,"Source hashes / extraction states",{source:f.source,extraction:f.extraction});
+    const review=node("td");review.append(node("p",f.review.status),node("p",f.publication.state),node("p",`${f.publication.verified_claims} verified claims; ${f.publication.eligible_skus} eligible exact rows`));dump(review,"Review decisions (draft, not activation)",f.review.decisions);
+    const commercial=node("td",`${f.sku_count} child records. No live stock feed.`);
+    const gaps=node("td");gaps.append(node("p",f.next_action));dump(gaps,"All known gaps",f.gaps);
+    tr.append(identity,guide,source,review,commercial,gaps);$("families").append(tr);
+  }
+  $("prev").disabled=offset===0;$("next").disabled=offset+30>=total;
+}
+function reviewStatus(item){return item.review.status==="pending"?"Not reviewed":item.review.status.replaceAll("_"," ");}
+async function browseReview(){
+  const request=++reviewSequence;
+  const params=new URLSearchParams({lane:reviewLane,q:$("reviewSearch").value,offset:reviewOffset,limit:30});
+  const data=await api("/family-review?"+params);if(request!==reviewSequence)return;
+  reviewTotal=data.total;
+  const stateKey={families:"family_review_states",mapped:"mapped_review_states",unmapped:"unmapped_review_states"}[reviewLane];
+  const states=data[stateKey];
+  const counts=Object.entries(states||{}).map(([key,value])=>`${key.replaceAll("_"," ")}: ${value}`).join(" | ")||"no reviewed items";
+  const recordCount=Object.values(states||{}).reduce((a,b)=>a+b,0);
+  const laneLabel={families:"family",mapped:"flagged mapped group",unmapped:"unmapped group"}[reviewLane];
+  $("reviewProgress").textContent=`${data.family_count} families | ${data.mapped_sku_count} mapped SKUs | ${data.mapped_exception_group_count} flagged mapped groups / ${data.mapped_exception_sku_count} SKUs | ${data.unmapped_sku_count} unmapped SKUs | ${recordCount} ${laneLabel} records; ${counts}.`;
+  $("reviewCount").textContent=`${reviewTotal} ${laneLabel} records in this search; showing ${Math.min(reviewOffset+1,reviewTotal)}-${Math.min(reviewOffset+30,reviewTotal)}. Source workbook ${data.workbook_sha256}.`;
+  $("reviewQueue").replaceChildren();
+  for(const item of data.items){
+    const button=node("button"),title=reviewLane==="families"?item.name:reviewLane==="mapped"?item.family_name:item.group_id;
+    button.type="button";button.className="review-item";button.dataset.id=reviewLane==="families"?item.family_id:item.group_id;
+    const risk=reviewLane==="families"?item.risk_tier:null;
+    const detailText=reviewLane==="families"?`Risk: ${risk} · ${item.review_reasons.join(", ")||"no flagged gaps"}`:
+      reviewLane==="mapped"?`Mapping group ${item.group_id} · ${item.mapping_status} · ${item.review_reasons.join(", ")}`:
+      `Family code: ${item.family_code||"none"} · candidate: ${item.suggestion.family_id||"none"}`;
+    button.append(node("strong",title),node("p",`${item.manufacturer||"Unknown manufacturer"} · ${item.sku_count} SKUs`),
+      node("p",detailText),
+      node("p",`Review: ${reviewStatus(item)}`));
+    if(risk)button.classList.add("risk-"+risk);
+    button.onclick=action(()=>showReview(button.dataset.id));
+    $("reviewQueue").append(button);
+  }
+  $("reviewPrev").disabled=reviewOffset===0;$("reviewNext").disabled=reviewOffset+30>=reviewTotal;
+}
+function check(labelText,name){
+  const label=node("label"),input=node("input");input.type="checkbox";input.name=name;input.required=true;
+  label.append(input,document.createTextNode(" "+labelText));return label;
+}
+function mappingTable(rows){
+  const wrap=node("div");wrap.className="scroll";
+  const table=node("table"),head=node("thead"),header=node("tr");
+  for(const title of ["SKU","Product","Manufacturer / category","MPN","Association","Mapping state / flags"])header.append(node("th",title));
+  head.append(header);const body=node("tbody");
+  for(const row of rows){
+    const tr=node("tr");
+    for(const value of [row.sku,row.product_name,[row.manufacturer,row.category].filter(Boolean).join(" / "),
+      row.mpn||row.manufacturer_product_code||"not recorded",row.association||row.family_mapping_status||"unmapped",
+      [row.mapping_status,row.family_mapping_status,...(row.group_review_reasons||row.mapping_flags||[]),
+       row.alternate_family_match?`alternate family: ${JSON.stringify(row.alternate_family_match)}`:""].filter(Boolean).join("; ")||"no flag"])
+      tr.append(node("td",String(value??"")));
+    body.append(tr);
+  }
+  table.append(head,body);wrap.append(table);return wrap;
+}
+async function showReview(id){
+  const scope=reviewLane==="families"?"family":reviewLane==="mapped"?"mapped":"unmapped";
+  const detail=await api(`/family-review/${scope}/${encodeURIComponent(id)}`);
+  const panel=$("reviewDetail");panel.hidden=false;panel.replaceChildren();
+  const titleText=scope==="family"?`${detail.manufacturer} · ${detail.name}`:
+    scope==="mapped"?`${detail.manufacturer} · ${detail.family_name} · ${detail.group_id}`:`Unmapped SKU group · ${detail.group_id}`;
+  const title=node("h2",titleText);
+  title.id="reviewDetailTitle";panel.append(title);
+  panel.append(node("p",`Review status: ${reviewStatus(detail)} · signature: ${detail.signature}`));
+  const identity=node("div");identity.className="review-grid";
+  if(scope==="family"){
+    identity.append(node("p",`Family ID: ${detail.family_id}`),node("p",`Category: ${detail.category||"not recorded"}`),
+      node("p",`Risk: ${detail.risk_tier} · ${detail.review_reasons.join(", ")||"no flagged gaps"}`),
+      node("p",`Dossier provenance: ${detail.dossier_summary.provenance_state||"unknown"} · ${detail.dossier_summary.alternative_count} alternatives`));
+    panel.append(identity);
+    dump(panel,"Family identity, retained dossier and extracted facts", {family:detail.family,research:detail.research,dossier:detail.dossier});
+    dump(panel,"Source identity, local paths, hashes and extraction states",{guide_available:detail.guide_available,source_gaps:detail.source_gaps,documents:detail.source_documents});
+    panel.append(mappingTable(detail.v3_products));
+  }else if(scope==="mapped"){
+    identity.append(node("p",`Family ID: ${detail.family_id}`),node("p",`Mapping status: ${detail.mapping_status||"unknown"}`),
+      node("p",`Review flags: ${detail.review_reasons.join(", ")||"none"}`),
+      node("p",`Alternate family leads: ${JSON.stringify(detail.alternate_family_matches||[])}`),
+      node("p",`Form conflicts: ${JSON.stringify(detail.form_conflicts||[])}`));
+    panel.append(identity);
+    dump(panel,"Current family identity, retained dossier and extracted facts",{family:detail.family,research:detail.research,dossier:detail.dossier});
+    dump(panel,"Source identity, local paths, hashes and extraction states",{source_gaps:detail.source_gaps,documents:detail.source_documents});
+    panel.append(mappingTable(detail.products));
+  }else{
+    identity.append(node("p",`Manufacturer: ${detail.manufacturer||"unknown"}`),node("p",`Family code: ${detail.family_code||"not recorded"}`),
+      node("p",`Candidate suggestion (not applied): ${detail.suggestion.family_id||"none"} · score ${detail.suggestion.evidence_score??"unknown"}`),
+      node("p",`Suggestion evidence: ${JSON.stringify(detail.suggestion.evidence||[])}`));
+    panel.append(identity,mappingTable(detail.products));
+  }
+  if(scope==="family"){
+    panel.append(node("p",`${detail.v3_products.length} associated V3 SKU rows; current and candidate associations are labelled separately.`));
+    const link=node("a","Open existing Product Research family controls");link.href=detail.product_research_url;panel.append(link);
+  }else if(scope==="mapped"){
+    panel.append(node("p",`${detail.products.length} flagged mapped SKU rows; this attestation applies only to this mapping group and will not change its family assignment.`));
+    const link=node("a","Open existing Product Research family controls");link.href=detail.product_research_url;panel.append(link);
+  }else{
+    panel.append(node("p",`${detail.products.length} unassigned SKUs; this attestation will not assign a family.`));
+    if(detail.product_research_url){const link=node("a","Inspect suggested family dossier");link.href=detail.product_research_url;panel.append(link);}
+  }
+  const form=node("form");form.id="familyReviewForm";
+  form.append(node("h3","Record human review"));
+  if(scope!=="unmapped"){
+    form.append(check("I checked the family identity and retained dossier.","identity_checked"),
+      check("I checked every listed source path, hash and extraction state.","sources_checked"),
+      check("I checked every associated SKU row and its mapping flags.","sku_mappings_checked"));
+  }else form.append(check("I checked every SKU in this unmapped group.","products_checked"));
+  const decision=node("select");decision.name="decision";decision.required=true;
+  const options=scope!=="unmapped"?[["","Choose a decision"],["confirmed","Confirmed"],["correction_needed","Correction needed"],["blocked","Blocked / needs evidence"]]:
+    [["","Choose a decision"],["candidate_supported_not_applied","Candidate supported; leave unapplied"],["candidate_rejected_keep_unassigned","Candidate rejected; keep unassigned"],["needs_evidence","Needs evidence"],["non_product_hold","Non-product hold"]];
+  for(const [value,label] of options){const option=node("option",label);option.value=value;decision.append(option);}
+  const decisionLabel=node("label","Decision ");decisionLabel.append(decision);form.append(decisionLabel);
+  const rationale=node("textarea");rationale.name="rationale";rationale.required=true;rationale.minLength=10;rationale.maxLength=10000;rationale.rows=4;rationale.placeholder="Record what you checked and any remaining uncertainty.";
+  const rationaleLabel=node("label","Review rationale ");rationaleLabel.append(rationale);form.append(rationaleLabel);
+  const save=node("button","Save local review attestation");save.type="submit";form.append(save);
+  form.onsubmit=action(async event=>{
+    const ids=scope==="family"?detail.v3_sku_ids:detail.sku_ids;
+    const data={decision:decision.value,rationale:rationale.value,review_signature:detail.signature,reviewed_sku_ids:ids};
+    for(const name of ["identity_checked","sources_checked","sku_mappings_checked","products_checked"])data[name]=Boolean(form.elements.namedItem(name)?.checked);
+    await api(`/family-review/${scope}/${encodeURIComponent(id)}`,"POST",{expected_version:detail.review.revision||0,data});
+    message("Local review attestation saved; canonical mappings, source bindings, claims and publication were unchanged.");
+    await browseReview();await showReview(id);
+  });
+  panel.append(form);
+  panel.scrollIntoView({block:"start",behavior:"smooth"});
+}
+async function browseTranscription(){
+  const request=++transcriptionSequence;
+  const params=new URLSearchParams({q:$("transcriptionSearch").value,offset:transcriptionOffset,limit:30});
+  const data=await api("/transcription-audit?"+params);if(request!==transcriptionSequence)return;
+  transcriptionTotal=data.total;
+  $("transcriptionSummary").textContent=`${data.family_count} families checked · ${JSON.stringify(data.family_status_counts)} · ${data.fact_count} structured fact fields · ${data.provisional_internal_transcription_match_count} provisional exact text matches · ${data.fact_review_count} fields need review. Report ${data.report_signature}.`;
+  $("transcriptionCount").textContent=`${transcriptionTotal} matching family rows; showing ${Math.min(transcriptionOffset+1,transcriptionTotal)}-${Math.min(transcriptionOffset+30,transcriptionTotal)}. Automated text check only; owner/source review state is separate.`;
+  $("transcriptionQueue").replaceChildren();
+  for(const item of data.items){
+    const button=node("button"),title=`${item.manufacturer||"Unknown manufacturer"} · ${item.family_name}`;
+    button.type="button";button.className="review-item";button.dataset.id=item.family_id;
+    button.append(node("strong",title),node("p",`${item.family_id} · ${item.status}`),
+      node("p",`${item.facts_provisional_internal_match} provisional exact matches / ${item.facts_checked} fact fields · ${item.facts_needing_review} flagged`),
+      node("p",item.flags.join(", ")||"No automated flags"));
+    button.onclick=action(()=>showTranscription(button.dataset.id));
+    $("transcriptionQueue").append(button);
+  }
+  $("transcriptionPrev").disabled=transcriptionOffset===0;$("transcriptionNext").disabled=transcriptionOffset+30>=transcriptionTotal;
+}
+async function showTranscription(id){
+  const detail=await api(`/transcription-audit/family/${encodeURIComponent(id)}`);
+  const panel=$("transcriptionDetail");panel.hidden=false;panel.replaceChildren();
+  const title=node("h3",`${detail.manufacturer||"Unknown manufacturer"} · ${detail.family_name} transcription results`);
+  title.id="transcriptionDetailTitle";panel.append(title,node("p",`Automated source-text state: ${detail.status}. ${detail.facts_provisional_internal_match} provisional internal text matches; ${detail.facts_needing_review} flagged fields.`));
+  panel.append(node("p",detail.review_boundary,"warning"));
+  dump(panel,"Local hash and extraction status",detail.documents);
+  if(detail.literature_gap)dump(panel,"Existing literature-gap triage (not source approval)",detail.literature_gap);
+  for(const fact of detail.facts){
+    const card=node("details");
+    card.append(node("summary",`${fact.status} · ${fact.field}`),node("p",fact.text));
+    if(fact.exact_hash_bound_pdf_matches.length){
+      for(const match of fact.exact_hash_bound_pdf_matches){
+        const citation=node("p",`${match.path} · SHA-256 ${match.sha256} · page(s) ${match.pages.join(", ")}`);
+        if(match.document_id){
+          const link=node("a","Open matched local PDF");link.href=`/api/research/documents/${encodeURIComponent(match.document_id)}/file#page=${match.pages[0]}`;link.target="_blank";link.rel="noopener noreferrer";
+          citation.append(document.createTextNode(" · "),link);
+        }
+        card.append(citation);
+      }
+    }else card.append(node("p","No exact text match found in a complete, hash-matched family-linked PDF; inspect source and transcription."));
+    panel.append(card);
+  }
+  const productLink=node("a","Open Product Research family and source-review controls");productLink.href="/admin/products#"+encodeURIComponent(id);panel.append(productLink);
+  panel.scrollIntoView({block:"start",behavior:"smooth"});
+}
+async function enter(){
+  $("loginPanel").hidden=true;$("workspace").hidden=false;$("identity").textContent=account.username+" / "+account.roles.join(", ");
+  await Promise.all([browse(),browseReview()]);await browseTranscription();message("Existing local knowledge and read-only transcription audit loaded; no ingestion or model started.");
+}
+$("loginForm").onsubmit=action(async()=>{try{account=await api("/login","POST",{username:$("username").value,password:$("password").value});}finally{$("password").value="";}await enter();});
+$("logout").onclick=action(async()=>{try{await api("/logout","POST");}finally{clear();message("Signed out; displayed data cleared.");}});
+$("refresh").onclick=action(async()=>{await api("/refresh","POST");offset=0;await browse();message("Existing files refreshed; no source file changed.");});
+$("filters").onsubmit=action(async()=>{offset=0;await browse();});
+$("prev").onclick=action(async()=>{offset=Math.max(0,offset-30);await browse();});
+$("next").onclick=action(async()=>{offset+=30;await browse();});
+$("familyLane").onclick=action(async()=>{reviewLane="families";reviewOffset=0;await browseReview();});
+$("mappedLane").onclick=action(async()=>{reviewLane="mapped";reviewOffset=0;await browseReview();});
+$("unmappedLane").onclick=action(async()=>{reviewLane="unmapped";reviewOffset=0;await browseReview();});
+$("reviewSearchButton").onclick=action(async()=>{reviewOffset=0;await browseReview();});
+$("reviewPrev").onclick=action(async()=>{reviewOffset=Math.max(0,reviewOffset-30);await browseReview();});
+$("reviewNext").onclick=action(async()=>{reviewOffset+=30;await browseReview();});
+$("transcriptionSearchButton").onclick=action(async()=>{transcriptionOffset=0;await browseTranscription();});
+$("transcriptionRefresh").onclick=action(async()=>{transcriptionOffset=0;await browseTranscription();});
+$("transcriptionPrev").onclick=action(async()=>{transcriptionOffset=Math.max(0,transcriptionOffset-30);await browseTranscription();});
+$("transcriptionNext").onclick=action(async()=>{transcriptionOffset+=30;await browseTranscription();});
+window.addEventListener("pagehide",clear);
+action(async()=>{try{account=await api("/me");await enter();}catch(e){if(e.message!=="Sign in with a named local research account")throw e;}})();
+</script>
+</body>
+</html>

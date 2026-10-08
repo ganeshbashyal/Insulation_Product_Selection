@@ -1,6 +1,6 @@
 ---
 title: "Soundbreak Acoustic Insulation - Acoustic bulk Insulation | Fletcher"
-description: "Fletcher Soundbreak is a high-density, non-combustible glasswool acoustic insulation batt specifically engineered to provide exceptional acoustic perf"
+description: "Soundbreak™ batts are high-density, flexible, resilient glasswool insulation designed for exceptional acoustic and thermal performance in residential "
 keywords: "Soundbreak Acoustic Insulation, Fletcher acoustic bulk, acoustic insulation, wall insulation, ceiling insulation, floor insulation, R-value insulation, insulation Australia, Fletcher Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: FLETCHER_SOUNDBREAK
@@ -10,139 +10,113 @@ family_id: FLETCHER_SOUNDBREAK
 
 **Fletcher Acoustic bulk** — acoustic bulk insulation product.
 
-Fletcher Soundbreak is a high-density, non-combustible glasswool acoustic insulation batt specifically engineered to provide exceptional acoustic performance in residential wall, ceiling, and mid-floor applications. Produced in a distinctive green colour for easy site identification as a high-density acoustic batt, it effectively reduces external environmental noise and absorbs airborne sound transfer between rooms. Manufactured in Australia using FBS-1 bio-soluble glasswool with up to 80% recycled content, it provides combined acoustic dampening and thermal insulation backed by a Consumer Lifetime Warranty.
+Soundbreak™ batts are high-density, flexible, resilient glasswool insulation designed for exceptional acoustic and thermal performance in residential ceilings, walls, and midfloors.
 
 ## Key features
 
-- High-density acoustic glasswool batt delivering exceptional sound dampening.
-- Distinctive green colour for easy on-site identification.
-- Non-combustible when tested in accordance with AS 1530.1.
-- FBS-1 Glasswool Bio-Soluble Insulation: safe to handle and use.
-- Manufactured from up to 80% recycled glass content.
-- Provides excellent thermal insulation properties keeping homes cooler in summer and warmer in winter.
-- Easy to handle and firm to fit ensuring batts remain securely in place without slumping.
-- CodeMark certified (Certificate of Conformity CM 30006) for NCC compliance.
-- Meets Australian Standard AS/NZS 4859.1:2018.
-- Backed by Fletcher Insulation Consumer Lifetime Warranty.
+- Available in various sizes for standard timber and steel stud/joist spacings.
+- Green dye added for easier identification during installation.
+- High nominal density of 24–32kg/m3.
+- Low itch.
+- Easy to cut and friction fit.
+- Firm and easy to install.
+- Codemark certified for energy efficiency.
 
 ## Applications and selection
 
-- wall
-- internal wall
-- external wall
-- ceiling
-- between floors
+- Residential ceilings
+- Walls
+- Midfloors
+- Internal walls between theatre rooms, bathrooms, laundries, and kitchens
+- External walls with limited cavity spaces
 
 **Selection checklist**
 
-1. Measure wall stud depth (70mm, 90mm, or 110mm) to select appropriate thickness.
-2. Confirm stud spacing (430mm for 450mm centres; 580mm for 600mm centres).
-3. Select required R-value / acoustic rating (R2.0 for 70mm, R2.5/R2.7 for 90mm, R3.1 for 110mm).
-4. Check CodeMark certification compliance requirements.
-
-## Manufacturer range
-
-| Variant | Size / rating | Pack |
-| --- | --- | --- |
-| Soundbreak R1.7 (60mm) | 60 mm x 1160 mm x 430/580 mm | Pack of 12 batts (Code: 4010564 / 4010565) |
-| Soundbreak R2.0 (70mm) | 70 mm x 1160 mm x 430/580 mm | Pack of 10 batts (Code: 4010566 / 4010567) |
-| Soundbreak R2.5 (90mm) | 90 mm x 1160 mm x 430/580 mm | Pack of 8 batts (Code: 4010568 / 4010569) |
-| Soundbreak R2.7 (90mm) | 90 mm x 1160 mm x 430/580 mm | Pack of 8 batts (Code: 4010570 / 4010571 / 4010572) |
-| Soundbreak R3.1 (110mm) | 110 mm x 1160 mm x 430/580 mm | Pack of 6 batts (Code: 4010573 / 4010574) |
-
-**Internal catalogue range**
-
-| SKU | Product | Published rating |
-| --- | --- | --- |
-| FI SB 17430 SB | PinksSoundB R1.7 SB 1160*430 | R1.87, R1.7 |
-| FI SB 17580 SB | PinksSoundB R1.7 SB 1160*580 | R1.87, R1.7 |
-| FI SB 20430 SB | PinksSoundB R2.0 SB 1160*430 | R2.17, R2.0 |
-| FI SB 20580 SB | PinksSoundB R2.0 SB 1160*580 | R2.17, R2.0 |
-| FI SB 27430 SB | PinksSoundB R2.7 SB 1160*430 | R2.87, R2.7 |
-| FI SB 27580 SB | PinksSoundB R2.7 SB 1160*580 | R2.87, R2.7 |
-| FI SB 31430 SB | PinksSoundB R3.1 SB 1160*430 | R3.27, R3.1 |
-| FI SB 31580 SB | PinksSoundB R3.1 SB 1160*580 | R3.27, R3.1 |
-| FL-4006068 | PINK SOUNDBREAK R2.7 1200X600X90 8PK | R2.42, R2.7 |
-| FL-4010568 | SOUNDBREAK R2.5 1160X430X90 8PK | R2.42, R2.5 |
-| FL-4010569 | SOUNDBREAK R2.5 1160X580X90 8PK | R2.42, R2.5 |
-| FL-4010572 | SOUNDBREAK R2.7 1200X600X90 8PK | R2.42, R2.7 |
+1. Confirm the application (wall, ceiling, floor, roof, pipe or service) matches the family.
+2. Confirm the target rating and construction build-up with the project team.
+3. Confirm available cavity or fixing depth against the product dimensions.
+4. Check NCC, fire, BAL or acoustic requirements with a qualified reviewer before specifying.
+5. Record the suburb/postcode so climate-zone requirements can be checked.
 
 
 ## Current catalogue range
 
-| Variant | Size / rating | Pack |
-| --- | --- | --- |
-| Soundbreak R1.7 (60mm) | 60 mm x 1160 mm x 430/580 mm | Pack of 12 batts (Code: 4010564 / 4010565) |
-| Soundbreak R2.0 (70mm) | 70 mm x 1160 mm x 430/580 mm | Pack of 10 batts (Code: 4010566 / 4010567) |
-| Soundbreak R2.5 (90mm) | 90 mm x 1160 mm x 430/580 mm | Pack of 8 batts (Code: 4010568 / 4010569) |
-| Soundbreak R2.7 (90mm) | 90 mm x 1160 mm x 430/580 mm | Pack of 8 batts (Code: 4010570 / 4010571 / 4010572) |
-| Soundbreak R3.1 (110mm) | 110 mm x 1160 mm x 430/580 mm | Pack of 6 batts (Code: 4010573 / 4010574) |
+| SKU record | Internal SKU | Supplier SKU | Product | Published rating | Validation |
+| --- | --- | --- | --- | --- | --- |
+| SKU-2AF85CC4616A34C8 | FI SB 17430 SB | FISBR17W430L1160PK12 | PinksSoundB R1.7 SB 1160*430 | R1.87, R1.7 | REVIEW |
+| SKU-4AC8EC4BDA5BC488 | FI SB 17580 SB | FISBR17W580L1160PK12 | PinksSoundB R1.7 SB 1160*580 | R1.87, R1.7 | REVIEW |
+| SKU-BEFB558100681F73 | FI SB 20430 SB | FISBR20W430L1160PK10 | PinksSoundB R2.0 SB 1160*430 | R2.17, R2.0 | REVIEW |
+| SKU-F6DB47177ABE714C | FI SB 20580 SB | FISBR20W580L1160PK10 | PinksSoundB R2.0 SB 1160*580 | R2.17, R2.0 | REVIEW |
+| SKU-97652EEB247D271C | FI SB 27430 SB | FISBR27W430L1160PK8 | PinksSoundB R2.7 SB 1160*430 | R2.87, R2.7 | REVIEW |
+| SKU-2CD9ADC36F6870D0 | FI SB 27580 SB | FISBR27W580L1160PK8 | PinksSoundB R2.7 SB 1160*580 | R2.87, R2.7 | REVIEW |
+| SKU-0234511CB15AFD65 | FI SB 31430 SB | FISBR31W430L1160PK6 | PinksSoundB R3.1 SB 1160*430 | R3.27, R3.1 | REVIEW |
+| SKU-C2D3AD8AB7F1DDEB | FI SB 31580 SB | FISBR31W580L1160PK6 | PinksSoundB R3.1 SB 1160*580 | R3.27, R3.1 | REVIEW |
+| SKU-43F6EF43FBF8001C | FL-4006068 | FISBR27T90W600L1200PK8 | PINK SOUNDBREAK R2.7 1200X600X90 8PK | R2.42, R2.7 | REVIEW |
+| SKU-ADB581022B5125A9 | FL-4010568 | FISBR25T90W430L1160PK8 | SOUNDBREAK R2.5 1160X430X90 8PK | R2.42, R2.5 | REVIEW |
+| SKU-2D94BE6DA8319439 | FL-4010569 | FISBR25T90W580L1160PK8 | SOUNDBREAK R2.5 1160X580X90 8PK | R2.42, R2.5 | REVIEW |
+| SKU-70D5B7D65695B236 | FL-4010572 | FISBR27T90W600L1200PK8 | SOUNDBREAK R2.7 1200X600X90 8PK | R2.42, R2.7 | REVIEW |
 
-**Internal catalogue range**
+_All 12 catalogue source rows are listed; duplicate SKU codes are retained as separate records._
 
-| SKU | Product | Published rating |
-| --- | --- | --- |
-| FI SB 17430 SB | PinksSoundB R1.7 SB 1160*430 | R1.87, R1.7 |
-| FI SB 17580 SB | PinksSoundB R1.7 SB 1160*580 | R1.87, R1.7 |
-| FI SB 20430 SB | PinksSoundB R2.0 SB 1160*430 | R2.17, R2.0 |
-| FI SB 20580 SB | PinksSoundB R2.0 SB 1160*580 | R2.17, R2.0 |
-| FI SB 27430 SB | PinksSoundB R2.7 SB 1160*430 | R2.87, R2.7 |
-| FI SB 27580 SB | PinksSoundB R2.7 SB 1160*580 | R2.87, R2.7 |
-| FI SB 31430 SB | PinksSoundB R3.1 SB 1160*430 | R3.27, R3.1 |
-| FI SB 31580 SB | PinksSoundB R3.1 SB 1160*580 | R3.27, R3.1 |
-| FL-4006068 | PINK SOUNDBREAK R2.7 1200X600X90 8PK | R2.42, R2.7 |
-| FL-4010568 | SOUNDBREAK R2.5 1160X430X90 8PK | R2.42, R2.5 |
-| FL-4010569 | SOUNDBREAK R2.5 1160X580X90 8PK | R2.42, R2.5 |
-| FL-4010572 | SOUNDBREAK R2.7 1200X600X90 8PK | R2.42, R2.7 |
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `FISBR17W430L1160PK12` | SOUNDBREAK R1.7 1160X430X60 12PK | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: poa, Perth: poa |
+| `FISBR17W580L1160PK12` | SOUNDBREAK R1.7 1160X580X60 12PK | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: numeric, Perth: numeric |
+| `FISBR20W430L1160PK10` | SOUNDBREAK R2.0 1160X430X70 10PK | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `FISBR20W580L1160PK10` | SOUNDBREAK R2.0 1160X580X70 10PK | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `FISBR25T90W430L1160PK8` | SOUNDBREAK R2.5 1160X430X90 8PK | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: numeric, Perth: numeric |
+| `FISBR25T90W580L1160PK8` | SOUNDBREAK R2.5 1160X580X90 8PK | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: numeric, Perth: numeric |
+| `FISBR27T90W600L1200PK8` | SOUNDBREAK R2.7 1200X600X90 8PK | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: numeric, Brisbane: poa, Adelaide: poa, Perth: poa |
+| `FISBR27W430L1160PK8` | SOUNDBREAK R2.7 1160X430X90 8PK | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `FISBR27W580L1160PK8` | SOUNDBREAK R2.7 1160X580X90 8PK | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `FISBR31W430L1160PK6` | SOUNDBREAK R3.1 1160X430X110 6PK | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `FISBR31W580L1160PK6` | SOUNDBREAK R3.1 1160X580X110 6PK | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
 
 ## Technical data
 
 | Property | Value | Standard |
 | --- | --- | --- |
-| R-Values & Thicknesses | R1.7 (60mm), R2.0 (70mm), R2.5 (90mm), R2.7 (90mm), R3.1 (110mm) | AS/NZS 4859.1:2018 |
-| Standard Dimensions | 1160 mm length x 430 mm or 580 mm width (also 1200 x 600 mm for R2.7) | - |
-| Coverage per Pack | R1.7: 6.9 m² (430mm) / 9.1 m² (580mm); R2.0: 5.6 m² / 7.6 m²; R2.5: 4.5 m² / 6.1 m²; R2.7: 4.5 m² / 6.1 m²; R3.1: 3.4 m² / 4.5 m² | - |
-| Combustibility | Non-combustible | AS 1530.1 |
-| Early Fire Hazard Indices | Ignitability: 0, Spread of Flame: 0, Heat Evolved: 0, Smoke Developed: 0-1 | AS/NZS 1530.3 |
-| Maximum Service Temperature | 340°C | - |
-| Corrosion Resistance | Non-corrosive | AS/NZS 4859.1 |
-| Acoustic Performance | Tested acoustic absorption coefficients across standard octave bands (NRC tested) | AS ISO 354 |
+| R-value | 1.7 | m2K/M |
+| Density | 24–32kg/m3 | - |
+| Thermal Conductivity | Complies | W/m.K |
+| Moisture Absorption | <0.2% | % by volume |
+| Fire Hazard | Non-combustible | AS 1530.1 |
+| Maximum Service Temperature | 340 °C | ASTM C411/C447 |
+| Flow Resistivity | 10480, 12860, 11140, 16001, 12760 Rayls/m | ASTM C522 |
 
-Extracted from manufacturer datasheet: https://insulation.com.au/product/soundbreak/
+Extracted from manufacturer datasheet: https://insulation.com.au/wp-content/uploads/2024/10/TDS-Soundbreak-Rev7-091024.pdf
 
 ## Fire, testing and compliance context
 
-Non-combustible to AS 1530.1; AS/NZS 1530.3 indices: Ignitability 0, Spread of Flame 0, Heat Evolved 0, Smoke Developed 0-1; Meets NCC fire hazard requirements
-
-AS/NZS 4859.1:2018, AS 3999, CodeMark Certificate CM 30006, NCC 2022 Volume 1 and Volume 2
+Non-combustible
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
 - Datasheet: https://insulation.com.au/product/soundbreak/ (link audited 2026-09-05; exact product TDS may still be pending).
 - SDS: to be sourced.
 
-## Recommended accessories
-
-- Acoustic plasterboard.
-- Resilient mounts.
-- Insulation knife.
-
 
 ## Limitations and warnings
 
-- Not for unshielded external exposure.
-- Avoid excessive compression that reduces acoustic and thermal ratings.
-- Maintain required electrical clearances around non-IC rated fixtures.
+- Not to be used/exposed to weather in any condition.
+- Cannot be used as a water or vapour barrier.
+- Modifications not permissible.
+- Cannot be used crushed.
+- Cannot be used with any other products except Sisalation®.
+- Product needs to be correctly installed in the right stud width and depth.
 
 ## Installation overview
 
-1. Switch off electrical power at the main breaker before working in wall or ceiling cavities.
-2. Choose batt width (430mm or 580mm) to match stud/joist centres (450mm or 600mm).
-3. Friction fit batts snugly between timber or steel framing members ensuring no gaps or folds.
-4. Do not compress batts into cavities narrower than nominal thickness.
-5. Cut batts neatly around electrical boxes, wiring, and plumbing using a sharp insulation knife.
-6. For internal walls between bedrooms, bathrooms, and media rooms, combine with acoustic plasterboard for best results.
-7. Complete lining over insulation promptly after installation.
+1. Product should be kept dry.
+2. Product needs to be correctly installed in the right stud width and depth.
+3. Product should be installed without compression.
+4. Product needs to be allowed to fully recover before and after use.
 
 ## Safety and handling
 
@@ -150,11 +124,11 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Manufactured from up to 80% recycled glass; bio-soluble FBS-1 formulation; zero ODP; low VOC
+Up to 80% recycled content
 
 ## Warranty, returns and support
 
-Consumer Lifetime Warranty
+No product-specific warranty term is asserted in this draft. Refer to the manufacturer's general terms and confirm warranty wording before publication.
 
 ## Specification starting point
 

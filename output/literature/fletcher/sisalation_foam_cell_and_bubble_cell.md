@@ -51,32 +51,28 @@ Sisalation Foam Cell and Bubble Cell is an advanced 3-in-1 reflective composite 
 | Sisalation Foam Cell Shed Liner (4.0mm) | 4.0 mm x 1350 mm x 22.25 m (30 m²) | Roll (Code: 4006741) |
 | Sisalation Bubble Cell (4.0mm) | 4.0 mm x 1350 mm x 22.25 m (30 m²) | Roll (Code: 4006740) |
 
-**Internal catalogue range**
-
-| SKU | Product | Published rating |
-| --- | --- | --- |
-| FL-4006740 | SISAL BUBBLE CELL 100 Non Vapour 1350MMX22.25M 30M2 Permeable Water | R33.92, R33.8 |
-| FL-4006742 | SISALATION FOAM CELL Multipurpose - MULTIPURP R0.2 30M2 Thermal Non Vapour | R0.2 |
-| FL-4006747 | SISALATION FOAM CELL Permeable Water MULTIPURP LT 30M2 | Not stated |
-
 
 ## Current catalogue range
 
-| Variant | Size / rating | Pack |
-| --- | --- | --- |
-| Sisalation Foam Cell Multipurpose (8.4mm) | 8.4 mm x 1350 mm x 22.25 m (30 m², R0.25) | Roll (Code: 4006742) |
-| Sisalation Foam Cell Multipurpose LT (8.4mm) | 8.4 mm x 1350 mm x 22.25 m (30 m², R0.20) | Roll (Code: 4006747) |
-| Sisalation Foam Cell Resi Liner (5.0mm) | 5.0 mm x 1350 mm x 22.25 m (30 m²) | Roll (Code: 4006743) |
-| Sisalation Foam Cell Shed Liner (4.0mm) | 4.0 mm x 1350 mm x 22.25 m (30 m²) | Roll (Code: 4006741) |
-| Sisalation Bubble Cell (4.0mm) | 4.0 mm x 1350 mm x 22.25 m (30 m²) | Roll (Code: 4006740) |
+| SKU record | Internal SKU | Supplier SKU | Product | Published rating | Validation |
+| --- | --- | --- | --- | --- | --- |
+| SKU-5E6302FA89025378 | FL-4006740 | FISISABUBBLECELLW1350L22P25MRL | SISAL BUBBLE CELL 100 Non Vapour 1350MMX22.25M 30M2 Permeable Water | R33.92, R33.8 | REVIEW |
+| SKU-FF490AB6A12ECF68 | FL-4006742 | FISISAFOAMCELLR02M230RL | SISALATION FOAM CELL Multipurpose - MULTIPURP R0.2 30M2 Thermal Non Vapour | R0.2 | REVIEW |
+| SKU-326D510DE70FA2CE | FL-4006747 | FISISAFOAMCELLM230RL | SISALATION FOAM CELL Permeable Water MULTIPURP LT 30M2 | Not stated | REVIEW |
 
-**Internal catalogue range**
+_All 3 catalogue source rows are listed; duplicate SKU codes are retained as separate records._
 
-| SKU | Product | Published rating |
-| --- | --- | --- |
-| FL-4006740 | SISAL BUBBLE CELL 100 Non Vapour 1350MMX22.25M 30M2 Permeable Water | R33.92, R33.8 |
-| FL-4006742 | SISALATION FOAM CELL Multipurpose - MULTIPURP R0.2 30M2 Thermal Non Vapour | R0.2 |
-| FL-4006747 | SISALATION FOAM CELL Permeable Water MULTIPURP LT 30M2 | Not stated |
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `FISISABUBBLECELLW1350L22P25MRL` | SISAL BUBBLE CELL 100 Non Vapour 1350MMX22.25M 30M2 Permeable Water | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `FISISAFOAMCELLM230RL` | SISALATION FOAM CELL Permeable Water MULTIPURP LT 30M2 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: poa, Perth: poa |
+| `FISISAFOAMCELLR02M230RL` | SISALATION FOAM CELL Multipurpose - MULTIPURP R0.2 30M2 Thermal Non Vapour | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
 
 ## Technical data
 

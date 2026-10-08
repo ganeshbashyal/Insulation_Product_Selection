@@ -55,6 +55,19 @@ Martini MAB (Multi-Application Blanket & Batts) is a premium commercial and indu
 
 _Variants from the manufacturer datasheet._
 
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `MARMAB14T50W610L15MPK` | Commercial Polyester / Martini MAB - 14 50 15m x 610mm 2 18.30 | Rule match; unreviewed | Melbourne \(Melbourne baseline\) | Sydney: not listed; Brisbane: not listed; Adelaide: not listed; Perth: not listed; price status: Melbourne: numeric |
+| `MARMAB14T75W610L10MPK` | Commercial Polyester / Martini MAB - 14 75 10m x 610mm 2 12.20 | Rule match; unreviewed | Melbourne \(Melbourne baseline\) | Sydney: not listed; Brisbane: not listed; Adelaide: not listed; Perth: not listed; price status: Melbourne: numeric |
+| `MARMAB32T25W610L25MPK` | Commercial Polyester / Martini MAB - 32 25 25m x 610mm 2 30.50 | Rule match; unreviewed | Melbourne \(Melbourne baseline\) | Sydney: not listed; Brisbane: not listed; Adelaide: not listed; Perth: not listed; price status: Melbourne: numeric |
+| `MARMAB32T75W610L6MPK` | Commercial Polyester / Martini MAB - 32 75 6m x 610mm 2 7.32 | Rule match; unreviewed | Melbourne \(Melbourne baseline\) | Sydney: not listed; Brisbane: not listed; Adelaide: not listed; Perth: not listed; price status: Melbourne: numeric |
+
 ## Technical data
 
 | Property | Value | Standard |

@@ -53,6 +53,35 @@ wall
 
 _Variants from the manufacturer datasheet._
 
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `BRADACOUSTGARDR13T50W450L16P2M` | Acoustigard - R1.3 50 16.2m x 450 3 21.90 | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADACOUSTGARDR13T50W600L16P2M` | Acoustigard - R1.3 50 16.2m x 600 2 19.40 | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADACOUSTGARDR17T75W450L13P5M` | Acoustigard - R1.7 75 13.5m x 450 3 18.20 | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADACOUSTGARDR17T75W600L13P5M` | Acoustigard - R1.7 75 13.5m x 600 2 16.20 | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADACOUSTGARDR18T75W450L13P5M` | Acoustigard - R1.8 75 13.5m x 450 3 18.20 | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADACOUSTGARDR18T75W600L13P5M` | Acoustigard - R1.8 75 13.5m x 600 2 16.20 | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADACOUSTGARDR22T90W450L10P8M` | Acoustigard - R2.2 90 10.8m x 450 3 14.60 | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADACOUSTGARDR22T90W600L10P8M` | Acoustigard - R2.2 90 10.8m x 600 2 13.00 | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADACOUSTGARDR25T110W600L8P1M` | Acoustigard - R2.5 110 8.1m x 600 2 9.70 | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADACOUSTGARDR35T165W600L5P4M` | Acoustigard - R3.5 165 5.4m x 600 2 6.50 | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADACOUSTGRDR065T25W450L16P2M` | Acoustigard - R0.65 25 16.2m x 450 3 21.90 | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADACOUSTGRDR065T25W600L16P2M` | Acoustigard - R0.65 25 16.2m x 600 2 19.40 | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADACOUSTGRDR25T100W450L10P8M` | Acoustigard - R2.5 100 10.8m x 450 3 14.60 | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADACOUSTGRDR25T100W600L10P8M` | Acoustigard - R2.5 100 10.8m x 600 2 13.00 | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADACOUSTIGARDR15T50W600L8P1M` | Acoustigard - R1.5 50 8.1m x 600 2 9.70 | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADACOUSTIGARDR21T75W450L8P1M` | Acoustigard - R2.1 75 8.1m x 450 3 10.90 | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADACOUSTIGARDR21T75W600L8P1M` | Acoustigard - R2.1 75 8.1m x 600 2 9.70 | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADACOUSTIGARDR22T75W600L5P4M` | Acoustigard - R2.2 75 5.4 X 600 2 6.50 | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADACOUSTIGARDR25T90W600L5P4M` | Acoustigard - R2.5 90 5.4m x 600 2 6.50 | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `BRADACOUSTIGARDR27T90W450L5P4M` | Acoustigard - R2.7 90 5.4 X 450 3 7.30 | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+
 ## Technical data
 
 | Property | Value | Standard |

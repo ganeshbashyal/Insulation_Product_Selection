@@ -50,6 +50,10 @@ ProctorGeo D-Rain HC (HC9 / HC10) is a flexible, lightweight horizontal and vert
 
 _Variants from the manufacturer datasheet._
 
+## Staff-release SKU coverage
+
+_No SKU from this workbook was mapped or proposed for this family._
+
 ## Technical data
 
 | Property | Value | Standard |

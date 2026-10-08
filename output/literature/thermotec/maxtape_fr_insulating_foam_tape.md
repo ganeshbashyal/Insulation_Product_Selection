@@ -41,30 +41,19 @@ MaxTape FR Insulating Foam Tape is a accessory product family from Thermotec. Co
 
 _Manufacturer size/packaging breakdown._
 
-**Internal catalogue range**
-
-| SKU | Product | Published rating |
-| --- | --- | --- |
-| Maxflex MaxTape 3mm x 50mm x 9.1m | Maxflex MaxTape 3mm x 50mm x 9.1m | R1.2, R2.5 |
-| Maxflex MaxTape 3mm x 98mm x 9.1m | Maxflex MaxTape 3mm x 98mm x 9.1m | R1.2, R2.5 |
-
 
 ## Current catalogue range
 
-| Variant | Thickness | Width | Length | Area/roll | Box qty | Master carton |
-| --- | --- | --- | --- | --- | --- | --- |
-| MaxTape FR 50 | 3.0 mm | 50 mm | 9.1 m | 0.455 m2 | 10 rolls | 91.0 lineal m |
-| MaxTape FR 98 | 3.0 mm | 98 mm | 9.1 m | 0.892 m2 | 5 rolls | 45.5 lineal m |
-| MaxTape FR Heavy | 6.0 mm | 50 mm | 7.5 m | 0.375 m2 | 10 rolls | 75.0 lineal m |
+| SKU record | Internal SKU | Supplier SKU | Product | Published rating | Validation |
+| --- | --- | --- | --- | --- | --- |
+| SKU-234A7D70504A2B63 | Maxflex MaxTape 3mm x 50mm x 9.1m | THERMAXTAPET3W50L9P1MRL | Maxflex MaxTape 3mm x 50mm x 9.1m | R1.2, R2.5 | REVIEW |
+| SKU-C620E11432926D2E | Maxflex MaxTape 3mm x 98mm x 9.1m | THERMAXTAPET3W98L9P1MRL | Maxflex MaxTape 3mm x 98mm x 9.1m | R1.2, R2.5 | REVIEW |
 
-_Manufacturer size/packaging breakdown._
+_All 2 catalogue source rows are listed; duplicate SKU codes are retained as separate records._
 
-**Internal catalogue range**
+## Staff-release SKU coverage
 
-| SKU | Product | Published rating |
-| --- | --- | --- |
-| Maxflex MaxTape 3mm x 50mm x 9.1m | Maxflex MaxTape 3mm x 50mm x 9.1m | R1.2, R2.5 |
-| Maxflex MaxTape 3mm x 98mm x 9.1m | Maxflex MaxTape 3mm x 98mm x 9.1m | R1.2, R2.5 |
+_No SKU from this workbook was mapped or proposed for this family._
 
 ## Technical data
 

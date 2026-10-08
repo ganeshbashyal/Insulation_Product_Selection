@@ -23,7 +23,19 @@ def _same_text(path: Path, expected: str) -> bool:
     return path.exists() and path.read_text(encoding="utf-8") == expected
 
 
-def check() -> list[str]:
+def check(profile: str = "legacy") -> list[str]:
+    if profile == "authoring":
+        from knowledge_service import KnowledgeService
+        reader = KnowledgeService(ROOT)
+        idx = reader.index()
+        errors = list(idx.errors)
+        for key in idx.families:
+            dossier = reader.family(key)["dossier"]
+            if dossier["family_id"] != key or dossier["retained"]["family"]["family_id"] != key:
+                errors.append(f"{key}: retained projection identity mismatch")
+        return errors
+    if profile != "legacy":
+        raise ValueError("Artifact profile must be authoring or legacy")
     stale: list[str] = []
 
     retrieval = _jsonl(build_retrieval_cards.build_all())
@@ -109,13 +121,17 @@ def check() -> list[str]:
 
 
 def main() -> int:
-    stale = check()
+    import argparse
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--profile", choices=["authoring", "legacy"], default="authoring")
+    profile = parser.parse_args().profile
+    stale = check(profile)
     if stale:
         print("Generated artifact drift detected:")
         for item in stale:
             print(f"- {item}")
         return 1
-    print("Generated artifacts match their local sources.")
+    print(f"{profile} projection checks passed; draft/legacy outputs are not reviewed release evidence.")
     return 0
 
 

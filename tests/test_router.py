@@ -142,19 +142,19 @@ class TestLLMClassification:
 
     def test_llm_reply_is_used(self, router, monkeypatch):
         """A valid category from the model is trusted and reported confidently."""
-        monkeypatch.setattr(llm_client, "phrase", lambda *a, **k: "commercial")
-        c = router.classify("What is an R-value?")
+        monkeypatch.setattr(llm_client, "generate_reply", lambda *a, **k: "commercial")
+        c = router.classify("An ambiguous unexplained message here")
         assert c.category == "commercial"  # proves the model's reply won, not the rules
         assert c.confidence == 0.95
 
     def test_llm_reply_is_normalised(self, router, monkeypatch):
         """Whitespace/casing from the model is tolerated."""
-        monkeypatch.setattr(llm_client, "phrase", lambda *a, **k: "  ESCALATE\n")
-        assert router.classify("Is this NCC compliant?").category == "escalate"
+        monkeypatch.setattr(llm_client, "generate_reply", lambda *a, **k: "  ESCALATE\n")
+        assert router.classify("An ambiguous unexplained message here").category == "escalate"
 
     def test_invalid_llm_reply_falls_back_to_rules(self, router, monkeypatch):
         """A category outside the allowed set is discarded, not passed through."""
-        monkeypatch.setattr(llm_client, "phrase", lambda *a, **k: "banana")
+        monkeypatch.setattr(llm_client, "generate_reply", lambda *a, **k: "banana")
         c = router.classify("Does it meet NCC requirements?")
         assert c.category == "escalate"  # from the rules, which catch "NCC"
         assert c.confidence == 0.7
@@ -164,7 +164,7 @@ class TestLLMClassification:
         def boom(*a, **k):
             raise RuntimeError("ollama down")
 
-        monkeypatch.setattr(llm_client, "phrase", boom)
+        monkeypatch.setattr(llm_client, "generate_reply", boom)
         c = router.classify("How much does it cost?")
         assert c.category == "commercial"
         assert c.confidence == 0.7

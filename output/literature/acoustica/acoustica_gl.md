@@ -48,6 +48,19 @@ GreenLAG pipe lagging is an environmentally-friendly acoustic insulation system 
 | R1.5 | thermal_r_value | 25 | 1300 x 3000 | 1 |
 | R1.5 | thermal_r_value | 25 | 1300 x 5000 | 1 |
 
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `ACOGLFOAMGL153T15W3000RL` | GL 15/3 - 3m Flat Foam Full or Split Rolls - STANDARD 1300 X 3000 | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `ACOGLFOAMGL155FT15W5000RL` | GL 15/5 - 5m Flat Foam Full Rolls - STANDARD 1300 X 5000 | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `ACOGLFOAMGL253T25W3000RL` | GL 25/3 - 3.5kg Conv' Foam Full or Split Rolls - STANDARD 1300 X 3000 | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `ACOGLFOAMGL255FT25W5000RL` | GL 25/5 - 5kg Convoluted Foam Full Roll - STANDARD 1300 X 5000 | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+
 ## Technical data
 
 | Property | Value | Standard |

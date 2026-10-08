@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Aurora | Competitor Research</title>
+<style>body{font:15px system-ui;max-width:1200px;margin:30px auto;padding:20px}pre{white-space:pre-wrap;overflow-wrap:anywhere}section{border:1px solid #aaa;padding:15px;margin:15px 0}button,input{font:inherit;padding:8px}.warning{color:#8a3500}</style></head><body>
+<h1>Competitor Research</h1><nav><a href="/admin/products">Product Research / sign-in</a> | <a href="/admin/knowledge">Knowledge Validation</a> | <a href="/admin/catalogue">Catalogue Versions</a></nav>
+<p class="warning">Private local evidence only. No automatic winner, public claims or SKU approval. Match metric, unit, exact variant, product/system scope and test context before comparing.</p>
+<p>Use your existing named Product Research account. The workspace is empty until owner-supplied JSON and cited local PDFs are provided under <code>data\local\competitors</code>.</p>
+<button id="refresh">Read existing comparison files</button> <select id="format" aria-label="Private export format"><option value="json">JSON</option><option value="text">Readable text</option></select> <button id="export">Export private comparison</button><p id="status" role="status"></p><div id="records"></div>
+<script>
+"use strict";
+const records=document.getElementById("records"),status=document.getElementById("status");
+let epoch=0;
+async function load(){
+ const request=++epoch;records.replaceChildren();status.textContent="";
+ try{
+  const r=await fetch("/api/research/competitors",{cache:"no-store",credentials:"same-origin"}),data=await r.json();
+  if(request!==epoch)return;
+  if(!r.ok)throw Error(typeof data.detail==="string"?data.detail:"Comparison unavailable");
+  const mr=await fetch("/api/research/me",{cache:"no-store",credentials:"same-origin"}),account=await mr.json();
+  if(request!==epoch)return;
+  if(!mr.ok)throw Error("Sign in again before reviewing comparisons");
+  status.textContent=data.errors.length?data.errors.join("; "):data.competitors.length+" competitor records; no approvals implied.";
+  for(const row of data.competitors){
+   const section=document.createElement("section"),h=document.createElement("h2"),p=document.createElement("pre"),a=document.createElement("a");
+   h.textContent=row.name;p.textContent=JSON.stringify(row,null,2);a.textContent="Review our linked family";a.href="/admin/products#"+encodeURIComponent(row.our_family_id);
+   section.append(h,a,p);records.append(section);
+   if(account.roles.includes("reviewer")){
+    const notes=document.createElement("textarea"),choice=document.createElement("select"),save=document.createElement("button");
+    notes.setAttribute("aria-label","Private comparison notes");notes.maxLength=20000;notes.rows=4;
+    notes.value=row.review?row.review.notes:"";
+    for(const value of ["needs_information","not_comparable","comparable"]){
+     const option=document.createElement("option");option.value=value;option.textContent=value.replaceAll("_"," ");choice.append(option);
+    }
+    choice.setAttribute("aria-label","Comparison review decision");
+    save.textContent="Save named internal review (no public effect)";
+    save.onclick=async()=>{
+     save.disabled=true;
+     try{
+      const reply=await fetch("/api/research/competitors/"+encodeURIComponent(row.competitor_id)+"/reviews",{
+       method:"POST",credentials:"same-origin",headers:{"Content-Type":"application/json","X-Research-CSRF":account.csrf},
+       body:JSON.stringify({expected_version:row.review_version,data:{decision:choice.value,notes:notes.value,evidence_hash:row.evidence_hash}})
+      }),result=await reply.json();
+      if(request!==epoch)return;
+      if(!reply.ok)throw Error(typeof result.detail==="string"?result.detail:"Review refused; refresh before retrying");
+      await load();
+     }catch(e){if(request===epoch)status.textContent=e.message;}
+    };
+    section.append(document.createElement("br"),choice,notes,save);
+   }
+  }
+ }catch(e){status.textContent=e.message;}
+}
+document.getElementById("refresh").onclick=load;
+document.getElementById("export").onclick=async()=>{
+ const request=epoch;
+ try{
+  const format=document.getElementById("format").value;
+  const reply=await fetch("/api/research/competitors/export?format="+format,{cache:"no-store",credentials:"same-origin"});
+  if(!reply.ok)throw Error("Private export requires a current named research session");
+  const blob=await reply.blob();if(request!==epoch)return;
+  const url=URL.createObjectURL(blob),link=document.createElement("a");
+  link.href=url;link.download="competitor-comparison."+(format==="json"?"json":"txt");link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+ }catch(e){status.textContent=e.message;}
+};
+window.addEventListener("pagehide",()=>{epoch++;records.replaceChildren();});
+load();
+</script></body></html>

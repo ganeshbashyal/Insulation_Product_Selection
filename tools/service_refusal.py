@@ -20,7 +20,6 @@ class ServiceRefusalTool:
         return category == "service_refusal"
 
     def run(self, message: str, conversation: Any, site_id: str) -> ToolResult:
-        conversation.done = True
         return ToolResult(
             reply=(
                 "We supply insulation products only - we don't offer installation, "
@@ -28,7 +27,7 @@ class ServiceRefusalTool:
                 "A licensed installer or removalist in your area can help with that "
                 "part of the job."
             ),
-            done=True,
+            done=conversation.done,
             log_status="routed:service_refusal",
             log_reason="Router classified this as a request for a service (install/removal/tool hire) the business does not offer.",
         )

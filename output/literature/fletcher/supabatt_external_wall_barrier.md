@@ -43,27 +43,35 @@ supaBATT is a high-density, rigid glasswool external wall insulation board engin
 | supaBATT Unfaced Rigid Board | 30-50 mm thickness x standard framing widths | Pack of boards |
 | supaBATT VP4 Faced (Class 4 Membrane) | 30-50 mm thickness x standard framing widths | Pack of boards |
 
-**Internal catalogue range**
-
-| SKU | Product | Published rating |
-| --- | --- | --- |
-| FL-4020908 | SUPABATT 2400X1200X15 (20) PK GROUP PRICE | R0.55, R0.4 |
-| FL-4020912 | SUPABATT VP4 2400X1200X15 (20) PK | R0.55, R0.4 |
-
 
 ## Current catalogue range
 
-| Variant | Size / rating | Pack |
-| --- | --- | --- |
-| supaBATT Unfaced Rigid Board | 30-50 mm thickness x standard framing widths | Pack of boards |
-| supaBATT VP4 Faced (Class 4 Membrane) | 30-50 mm thickness x standard framing widths | Pack of boards |
+| SKU record | Internal SKU | Supplier SKU | Product | Published rating | Validation |
+| --- | --- | --- | --- | --- | --- |
+| SKU-2681AADED1E82D7A | FL-4020908 | FISUPABATT15W1200L2400PK20 | SUPABATT 2400X1200X15 (20) PK GROUP PRICE | R0.55, R0.4 | REVIEW |
+| SKU-8A3FC786D3C24161 | FL-4020912 | FISUPABATTVP4T15W1200L2400PK20 | SUPABATT VP4 2400X1200X15 (20) PK | R0.55, R0.4 | REVIEW |
 
-**Internal catalogue range**
+_All 2 catalogue source rows are listed; duplicate SKU codes are retained as separate records._
 
-| SKU | Product | Published rating |
-| --- | --- | --- |
-| FL-4020908 | SUPABATT 2400X1200X15 (20) PK GROUP PRICE | R0.55, R0.4 |
-| FL-4020912 | SUPABATT VP4 2400X1200X15 (20) PK | R0.55, R0.4 |
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `FIMULTIPURPOSE439W1350L60MRL` | MULTIPURPOSE 439 LIGHT DUTY Non Vapour 1350MMX60M Permeable Water Barrier | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: poa, Perth: poa |
+| `FISUPABATT15W1200L2400PK20` | SUPABATT 2400X1200X15 \(20\) PK GROUP PRICE | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: numeric, Brisbane: poa, Adelaide: poa, Perth: poa |
+| `FISUPABATTVP4T15W1200L2400PK20` | SUPABATT VP4 2400X1200X15 \(20\) PK | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: numeric, Brisbane: poa, Adelaide: poa, Perth: poa |
+| `FITUFFWRAPBRW1350L30MRL` | TUFF WRAP BR 497 1.35X30M | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `FITUFFWRAPBRW1350L60MRL` | TUFF WRAP BR 497 1.35X60M Vapour Permeable Non Water Barrier | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `FITUFFWRAPW1350L30MRL` | TUFF WRAP 497 1.35X30M | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `FITUFFWRAPW1350L60MRL` | TUFF WRAP 497 1.35X60M | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `FIVAPAWRAP490W1350L30MRL` | VAPAWRAP 4-90 1.35X30M FLETCHER | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `FIVAPAWRAP490W1500L30MRL` | VAPAWRAP 4-90 1.5X30M FLETCHER | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `FIVAPAWRAPRESWALLW1350L30MRL` | VAPAWRAP RESWALL 1.35X30M Vapour Permeable Water Barrier | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: poa, Perth: poa |
+| `FIVAPAWRAPRESWALLW1500L30MRL` | VAPAWRAP RESI WALL 1.5X30M | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: poa, Perth: poa |
 
 ## Technical data
 

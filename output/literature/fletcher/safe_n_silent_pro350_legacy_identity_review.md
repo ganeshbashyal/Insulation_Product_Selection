@@ -1,7 +1,7 @@
 ---
 title: "Safe'n'Silent Pro350 (legacy identity review) - Acoustic bulk Insulation | Fletcher"
-description: "Safe'n'Silent Pro350 (legacy identity review) is a acoustic bulk insulation product family from Fletcher. View the catalogue range, applications and s"
-keywords: "Safe'n'Silent Pro350 (legacy identity review), Fletcher acoustic bulk, acoustic insulation, wall insulation, ceiling insulation, R-value insulation, insulation Australia, Fletcher Australia"
+description: "ROCKWOOL Safe 'n' Silent Pro is a range of stone wool insulation used for interior applications requiring superior thermal and acoustical performance "
+keywords: "Safe'n'Silent Pro350 (legacy identity review), Fletcher acoustic bulk, wall insulation, R-value insulation, insulation Australia, Fletcher Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: FLETCHER_SAFE_N_SILENT_LEGACY
 ---
@@ -10,17 +10,26 @@ family_id: FLETCHER_SAFE_N_SILENT_LEGACY
 
 **Fletcher Acoustic bulk** — acoustic bulk insulation product.
 
-Safe'n'Silent Pro350 (legacy identity review) is a acoustic bulk product family from Fletcher. Confirm the current published specification against the manufacturer datasheet before quoting.
+ROCKWOOL Safe 'n' Silent Pro is a range of stone wool insulation used for interior applications requiring superior thermal and acoustical performance and fire resistance.
 
 ## Key features
 
-- Refer to the manufacturer datasheet for published features.
+- Acoustical dampening properties.
+- Non-combustible.
+- Available in various sizes.
+- Water repellent.
+- Shrink-wrapped for ease of handling.
+- Safe Work Australia listed as low bio persistence.
+- Available with foil facing or glass tissue options.
 
 ## Applications and selection
 
-- internal wall
-- ceiling
-- general acoustic
+- Drywall partition applications in hospitals
+- Cinemas
+- Schools
+- Offices
+- Residential buildings
+- Industrial buildings
 
 **Selection checklist**
 
@@ -33,26 +42,44 @@ Safe'n'Silent Pro350 (legacy identity review) is a acoustic bulk product family 
 
 ## Current catalogue range
 
-| SKU | Product | Published rating |
-| --- | --- | --- |
-| FL-4007197 | SAFE'N'SILENT PRO350 1200X600X50MM 6PK | R1.56 |
-| FL-4007198 | SAFE'N'SILENT PRO350 1200X600X65MM 5PK | R1.98 |
-| FL-4007200 | SAFE'N'SILENT PRO350 1200X600X90MM 3PK | R2.67 |
+| SKU record | Internal SKU | Supplier SKU | Product | Published rating | Validation |
+| --- | --- | --- | --- | --- | --- |
+| SKU-B23816FDF3A99210 | FL-4007197 | FISAFENSILENTT50W600L1200PK6 | SAFE'N'SILENT PRO350 1200X600X50MM 6PK | R1.56 | REVIEW |
+| SKU-233F5EAFDAAC6D84 | FL-4007198 | FISAFENSILENTT65W600L1200PK5 | SAFE'N'SILENT PRO350 1200X600X65MM 5PK | R1.98 | REVIEW |
+| SKU-FF37E382D3D5C78F | FL-4007200 | FISAFENSILENTT90W600L1200PK3 | SAFE'N'SILENT PRO350 1200X600X90MM 3PK | R2.67 | REVIEW |
+
+_All 3 catalogue source rows are listed; duplicate SKU codes are retained as separate records._
+
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `FISAFENSILENTT50W600L1200PK6` | SAFE'N'SILENT PRO350 1200X600X50MM 6PK | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: numeric, Perth: numeric |
+| `FISAFENSILENTT65W600L1200PK5` | SAFE'N'SILENT PRO350 1200X600X65MM 5PK | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: numeric, Perth: numeric |
+| `FISAFENSILENTT90W600L1200PK3` | SAFE'N'SILENT PRO350 1200X600X90MM 3PK | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: numeric, Perth: numeric |
 
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Acoustic bulk | Manufacturer catalogue |
-| Material | Rockwool | Manufacturer catalogue |
-| Applications | internal wall; ceiling; general acoustic | Manufacturer catalogue |
-| Published ratings | NRC 0.90, R1.56, R1.98, R2.67, Rw 40, Rw 45 | Internal catalogue; confirm against current TDS |
+| Density | 40kg/m3, 60kg/m3, 80kg/m3, 100kg/m3 | N/A |
+| R-value | m²K/W | N/A |
+| Thickness | mm | N/A |
+| Width | mm | N/A |
+| Length | mm | N/A |
+| Water repellent | 98% | GB/T 10299 |
+| Fire Hazard Properties | Euroclass A1 | N/A |
+| Non-Combustibility | N/A | N/A |
 
-
+Extracted from manufacturer datasheet: https://insulation.com.au/wp-content/uploads/2024/05/TDS-Rockwool-Safe_n_Silent-Pro-Technical-Datasheet-AU-FL-20251001.pdf
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+Euroclass A1
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.

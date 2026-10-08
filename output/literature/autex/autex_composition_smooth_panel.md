@@ -46,6 +46,25 @@ Specialists in sustainable polyester acoustic solutions. Safe to handle without 
 
 _Variants from the manufacturer datasheet._
 
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `AUTCOMPOSITIONSMTHPNLT16CUSTM` | Autex Composition - Smooth Panel - 16mm - Custom Length | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTCOMPOSITIONSMTHRLT10M` | Autex Composition - Smooth Roll - 10mm | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTCOMPOSITIONTILEPEELBULKPK` | Autex Composition Peel 'n' Stick Tiles - Bulk Pack \(36 tiles\) | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTCOMPOSITIONTILEPEELSTDPK` | Autex Composition Peel 'n' Stick Tiles - Standard Pack | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTCOMPOSITIONVELPNLT16CUSTM` | Autex Composition - Velour Panel - 16mm - Custom Length | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTCOMPOSITIONVELRLT10M` | Autex Composition - Velour Roll - 10mm | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTCOMPSMTHPNLT16L2440PNL` | Autex Composition - Smooth Panel - 16mm - 2440mm | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTCOMPSMTHPNLT16L2740PNL` | Autex Composition - Smooth Panel - 16mm - 2740mm | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTCOMPVELPNLT16L2440PNL` | Autex Composition - Velour Panel - 16mm - 2440mm | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTCOMPVELPNLT16L2740PNL` | Autex Composition - Velour Panel - 16mm - 2740mm | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+
 ## Technical data
 
 | Property | Value | Source |

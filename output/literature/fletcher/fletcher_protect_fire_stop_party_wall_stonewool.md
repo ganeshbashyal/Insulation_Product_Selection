@@ -46,42 +46,40 @@ Fletcher Protect Party Wall Stonewool Batts and Blankets are non-combustible min
 | Fletcher Protect Party Wall Foil Faced Blanket 50mm | 50 mm x 300/360 mm x 4000 mm | Pack of 2 rolls (8 lineal metres) |
 | Fletcher Protect Party Wall Foil Faced Blanket 75mm | 75 mm x 300/360 mm x 4000 mm | Pack of 2 rolls (8 lineal metres) |
 
-**Internal catalogue range**
-
-| SKU | Product | Published rating |
-| --- | --- | --- |
-| FI PW Batt 168 | P/Wall Btt 1200*168*100 338005 | R2.0 |
-| FI Protect PW Batt 300 | Protect PW Batt 1200*300*50 | Not stated |
-| FI Protect PW Batt 300 | Fletcher Protect Party Wall Stonewool Batts | R1.5 |
-| FL-4006705 | MW FIRESEAL 750X225X13 (60) PartyWall | R1.5 |
-| FL-4006706 | MW PARTYWALL BATT 1200X168X100 (10) | R2.0 |
-| FL-4006707 | MW PARTYWALL BATT 1000X200X50 (3) | R1.5 |
-| FL-4006708 | MW FIRE STRIP 1000X225X13 (60) | R0.53 |
-| FL-4021101 | PROTECT FF ROLL 5000X300X50MM Batts (4) | R1.42 |
-| FL-4021102 | PROTECT PWALL BATT 100X168X1200MM (10) | R2.0 |
-
 
 ## Current catalogue range
 
-| Variant | Size / rating | Pack |
-| --- | --- | --- |
-| Fletcher Protect Party Wall Stonewool Batts 100mm | 100 mm x 168 mm x 1200 mm | Pack of 10 batts (12 lineal metres) |
-| Fletcher Protect Party Wall Foil Faced Blanket 50mm | 50 mm x 300/360 mm x 4000 mm | Pack of 2 rolls (8 lineal metres) |
-| Fletcher Protect Party Wall Foil Faced Blanket 75mm | 75 mm x 300/360 mm x 4000 mm | Pack of 2 rolls (8 lineal metres) |
+| SKU record | Internal SKU | Supplier SKU | Product | Published rating | Validation |
+| --- | --- | --- | --- | --- | --- |
+| SKU-8C15BFDD281CB4FF | FI PW Batt 168 | FIPWBATT100W168L1200PK | P/Wall Btt 1200*168*100 338005 | R2.0 | REVIEW |
+| SKU-D455FA7A7F888C88 | FI Protect PW Batt 300 | FIPROTECTPWBATT50W300L1200PK | Protect PW Batt 1200*300*50 | Not stated | REVIEW |
+| SKU-DA43B7F16C7ACEC9 | FI Protect PW Batt 300 | FIPROTECTPWBATT50W300L1200PK | Fletcher Protect Party Wall Stonewool Batts | R1.5 | REVIEW |
+| SKU-EC1456D4CF12BD82 | FL-4006705 | FIFIRESEALT13W225L750PK60 | MW FIRESEAL 750X225X13 (60) PartyWall | R1.5 | REVIEW |
+| SKU-F8DDC85A9785B7CD | FL-4006706 | FIPWBATT100W168L1200PK | MW PARTYWALL BATT 1200X168X100 (10) | R2.0 | REVIEW |
+| SKU-D38D24D8EA6E4114 | FL-4006707 | FIPWBATT50W200L1000PK3 | MW PARTYWALL BATT 1000X200X50 (3) | R1.5 | REVIEW |
+| SKU-F31254C116E05872 | FL-4006708 | FIFIRESTRIPT13W225L1000PK60 | MW FIRE STRIP 1000X225X13 (60) | R0.53 | REVIEW |
+| SKU-C0152D4F989DB80F | FL-4021101 | FIPROTECTFFT50W300L5MPK4 | PROTECT FF ROLL 5000X300X50MM Batts (4) | R1.42 | REVIEW |
+| SKU-428BFD43FEF83961 | FL-4021102 | FIPROTECTPWT100W168L1200PK10 | PROTECT PWALL BATT 100X168X1200MM (10) | R2.0 | REVIEW |
 
-**Internal catalogue range**
+_All 9 catalogue source rows are listed; duplicate SKU codes are retained as separate records._
 
-| SKU | Product | Published rating |
-| --- | --- | --- |
-| FI PW Batt 168 | P/Wall Btt 1200*168*100 338005 | R2.0 |
-| FI Protect PW Batt 300 | Protect PW Batt 1200*300*50 | Not stated |
-| FI Protect PW Batt 300 | Fletcher Protect Party Wall Stonewool Batts | R1.5 |
-| FL-4006705 | MW FIRESEAL 750X225X13 (60) PartyWall | R1.5 |
-| FL-4006706 | MW PARTYWALL BATT 1200X168X100 (10) | R2.0 |
-| FL-4006707 | MW PARTYWALL BATT 1000X200X50 (3) | R1.5 |
-| FL-4006708 | MW FIRE STRIP 1000X225X13 (60) | R0.53 |
-| FL-4021101 | PROTECT FF ROLL 5000X300X50MM Batts (4) | R1.42 |
-| FL-4021102 | PROTECT PWALL BATT 100X168X1200MM (10) | R2.0 |
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `FIFIRESEALT13W225L750PK60` | MW FIRESEAL 750X225X13 \(60\) PartyWall | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: poa, Perth: poa |
+| `FIFIRESTRIPT13W225L1000PK60` | MW FIRE STRIP 1000X225X13 \(60\) | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: poa, Perth: poa |
+| `FIPROTECTFFT50W300L5MPK4` | PROTECT FF ROLL 5000X300X50MM Batts \(4\) | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: numeric, Perth: numeric |
+| `FIPROTECTPWBATT50W300L1200PK` | Protect PW Batt 1200\*300\*50 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: poa, Perth: poa |
+| `FIPROTECTPWT100W168L1200PK10` | PROTECT PWALL BATT 100X168X1200MM \(10\) | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: numeric, Perth: numeric |
+| `FIPWBATT100W168L1200PK` | P/Wall Btt 1200\*168\*100 338005 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: poa, Perth: poa |
+| `FIPWBATT50W200L1000PK3` | MW PARTYWALL BATT 1000X200X50 \(3\) | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: poa, Adelaide: poa, Perth: poa |
+| `FITAPEVAPASTOP883W48L50MEA` | TAPE VAPASTOP 883 50M X 48MM VapaStop Tape | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `FITAPEVAPASTOP883W63L50MRL` | TAPE VAPASTOP 883 50M X 63MM | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: sell price differs; amount omitted; Brisbane: sell price differs; amount omitted; Adelaide: sell price differs; amount omitted; Perth: sell price differs; amount omitted; price status: Melbourne: numeric, Sydney: poa, Brisbane: numeric, Adelaide: poa, Perth: poa |
 
 ## Technical data
 

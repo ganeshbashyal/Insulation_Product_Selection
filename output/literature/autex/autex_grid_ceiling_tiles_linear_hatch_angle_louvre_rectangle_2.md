@@ -38,15 +38,13 @@ Specialists in sustainable polyester acoustic solutions. Safe to handle without 
 
 ## Current catalogue range
 
-| Variant | Size / rating | Pack |
-| --- | --- | --- |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| Rating | Type | Thickness | Dimensions | SKUs |
+| --- | --- | --- | --- | --- |
+| Rw 35 | acoustic_rw | Varies | 1195 x 595 | 2 |
 
-_Variants from the manufacturer datasheet._
+## Staff-release SKU coverage
+
+_No SKU from this workbook was mapped or proposed for this family._
 
 ## Technical data
 

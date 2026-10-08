@@ -48,6 +48,10 @@ Autex Verve Cube is a sculpted 3D acoustic wall panel that animates spaces throu
 
 _Variants from the manufacturer datasheet._
 
+## Staff-release SKU coverage
+
+_No SKU from this workbook was mapped or proposed for this family._
+
 ## Technical data
 
 | Property | Value | Standard |
@@ -63,7 +67,7 @@ _Variants from the manufacturer datasheet._
 | Microbial Resistance | Growth rating: 0 (No growth) | ASTM G21-15 |
 | VOC Emissions | < 0.092 mg/m3 (7 days) | CDPH Standard Method v1.2 |
 
-Extracted from manufacturer datasheet: https://www.autexglobal.com/au/products/verve/
+Extracted from manufacturer datasheet: https://cdn.mediavalet.com/aunsw/autex/WQy9apLXOkSWnFbgSFF_Dw/yHhPYydqiEmaZP2RLoMz0g/Original/AU%20Cube%20Data%20Sheet.pdf
 
 ## Fire, testing and compliance context
 

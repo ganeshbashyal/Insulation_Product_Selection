@@ -35,11 +35,25 @@ NuWave Acoustic Floor Underlay is a acoustic underlay product family from Thermo
 
 ## Current catalogue range
 
-| SKU | Product | Published rating |
-| --- | --- | --- |
-| Underlay Nuwave 4kg | Underlay Nuwave 4kg | Not stated |
-| Underlay Nuwave 6kg | Underlay Nuwave 6kg | Not stated |
-| Underlay Nuwave 8kg | Underlay Nuwave 8kg | Not stated |
+| SKU record | Internal SKU | Supplier SKU | Product | Published rating | Validation |
+| --- | --- | --- | --- | --- | --- |
+| SKU-47C41E5420553AB3 | Underlay Nuwave 4kg | THERNWBUNDERLAY4KGW1350L5MRL | Underlay Nuwave 4kg | Not stated | REVIEW |
+| SKU-922F6D36EB3351FA | Underlay Nuwave 6kg | THERNWBUNDERLAY6KGW1350L3MRL | Underlay Nuwave 6kg | Not stated | REVIEW |
+| SKU-263C10DE32B62217 | Underlay Nuwave 8kg | THERNWBUNDERLAY8KGW1350L3MRL | Underlay Nuwave 8kg | Not stated | REVIEW |
+
+_All 3 catalogue source rows are listed; duplicate SKU codes are retained as separate records._
+
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `THERNWBUNDERLAY4KGW1350L5MRL` | Underlay Nuwave 4kg | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `THERNWBUNDERLAY6KGW1350L3MRL` | Underlay Nuwave 6kg | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `THERNWBUNDERLAY8KGW1350L3MRL` | Underlay Nuwave 8kg | Rule match; unreviewed | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
 
 ## Technical data
 

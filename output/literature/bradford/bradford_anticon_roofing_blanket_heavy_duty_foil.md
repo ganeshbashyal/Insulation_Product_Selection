@@ -53,6 +53,10 @@ Bradford Anticon Roofing Blanket - Heavy Duty Foil is a premium glasswool roofin
 
 _Variants from the manufacturer datasheet._
 
+## Staff-release SKU coverage
+
+_No SKU from this workbook was mapped or proposed for this family._
+
 ## Technical data
 
 | Property | Value | Standard |

@@ -53,6 +53,10 @@ Bradford Supertel Plain - Plain - Unfaced is a high-density (32kg/m3) plain glas
 
 _Variants from the manufacturer datasheet._
 
+## Staff-release SKU coverage
+
+_No SKU from this workbook was mapped or proposed for this family._
+
 ## Technical data
 
 | Property | Value | Standard |

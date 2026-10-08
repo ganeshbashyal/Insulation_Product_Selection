@@ -10,6 +10,7 @@ from __future__ import annotations
 import re
 
 import agent_core
+from aurora_persona import AURORA_CONTRACT
 import llm_client
 from router import MessageRouter
 
@@ -157,7 +158,13 @@ class SmartQuestioner:
         must never see prompt scaffolding instead of a real question.
         """
         try:
-            rephrased = llm_client.phrase(question, context={"customer_said": context} if context else None)
+            if AURORA_CONTRACT.model_prompt is None:
+                return question
+            rephrased = llm_client.phrase(
+                question,
+                context={"customer_said": context} if context else None,
+                system_prompt=AURORA_CONTRACT.model_prompt,
+            )
         except Exception:
             return question
         return rephrased if _looks_like_a_question(rephrased) else question

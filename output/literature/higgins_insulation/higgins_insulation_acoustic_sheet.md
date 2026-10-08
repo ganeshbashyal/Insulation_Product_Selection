@@ -42,6 +42,32 @@ Quality insulation engineered for Australian conditions. Safe to handle without 
 | R1.5 | thermal_r_value | 75 | Varies | 3 |
 | R1.5 | thermal_r_value | 25 | Varies | 2 |
 
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `HIGACOUSHEETD20KGT50W1200L2400` | Higgins Polyester Acoustic Sheet 20kg 50mm cut to size | Heuristic candidate; review | Brisbane \(state-only; not in Melbourne baseline\) | Melbourne: not listed; Sydney: not listed; Adelaide: not listed; Perth: not listed; price status: Brisbane: numeric |
+| `HIGACOUSHEETD32KGT50W1200L2400` | Higgins Polyester Acoustic Sheet 32kg 50mm cut to size | Heuristic candidate; review | Brisbane \(state-only; not in Melbourne baseline\) | Melbourne: not listed; Sydney: not listed; Adelaide: not listed; Perth: not listed; price status: Brisbane: numeric |
+| `HIGACOUSHEETD32KGT75W1200L2400` | Higgins Polyester Acoustic Sheet 32kg 75mm cut to size | Heuristic candidate; review | Brisbane \(state-only; not in Melbourne baseline\) | Melbourne: not listed; Sydney: not listed; Adelaide: not listed; Perth: not listed; price status: Brisbane: numeric |
+| `HIGACOUSHEETD40KGT25W1200L2400` | Higgins Polyester Acoustic Sheet 40kg 25mm cut to size | Heuristic candidate; review | Brisbane \(state-only; not in Melbourne baseline\) | Melbourne: not listed; Sydney: not listed; Adelaide: not listed; Perth: not listed; price status: Brisbane: numeric |
+| `HIGACOUSHEETD40KGT50W1200L2400` | Higgins Polyester Acoustic Sheet 40kg 50mm cut to size | Heuristic candidate; review | Brisbane \(state-only; not in Melbourne baseline\) | Melbourne: not listed; Sydney: not listed; Adelaide: not listed; Perth: not listed; price status: Brisbane: numeric |
+| `HIGACOUSHEETD40KGT75W1200L2400` | Higgins Polyester Acoustic Sheet 40kg 75mm cut to size | Heuristic candidate; review | Brisbane \(state-only; not in Melbourne baseline\) | Melbourne: not listed; Sydney: not listed; Adelaide: not listed; Perth: not listed; price status: Brisbane: numeric |
+| `HIGACOUSHEETD48KGT25W1200L2400` | Higgins Polyester Acoustic Sheet 48kg 25mm cut to size | Heuristic candidate; review | Brisbane \(state-only; not in Melbourne baseline\) | Melbourne: not listed; Sydney: not listed; Adelaide: not listed; Perth: not listed; price status: Brisbane: numeric |
+| `HIGACOUSHEETD48KGT50W1200L2400` | Higgins Polyester Acoustic Sheet 48kg 50mm cut to size | Heuristic candidate; review | Brisbane \(state-only; not in Melbourne baseline\) | Melbourne: not listed; Sydney: not listed; Adelaide: not listed; Perth: not listed; price status: Brisbane: numeric |
+| `HIGACOUSHEETD48KGT75W1200L2400` | Higgins Polyester Acoustic Sheet 48kg 75mm cut to size | Heuristic candidate; review | Brisbane \(state-only; not in Melbourne baseline\) | Melbourne: not listed; Sydney: not listed; Adelaide: not listed; Perth: not listed; price status: Brisbane: numeric |
+| `HIGACOUSHTD11KGT75W1200L2400` | Higgins Polyester Acoustic Sheet 11kg 75mm cut to size | Heuristic candidate; review | Brisbane \(state-only; not in Melbourne baseline\) | Melbourne: not listed; Sydney: not listed; Adelaide: not listed; Perth: not listed; price status: Brisbane: numeric |
+| `HIGACOUSHTD14KGT50W1200L2400` | Higgins Polyester Acoustic Sheet 14kg 50mm cut to size | Heuristic candidate; review | Brisbane \(state-only; not in Melbourne baseline\) | Melbourne: not listed; Sydney: not listed; Adelaide: not listed; Perth: not listed; price status: Brisbane: numeric |
+| `HIGACOUSHTD14KGT75W1200L2400` | Higgins Polyester Acoustic Sheet 14kg 75mm cut to size | Heuristic candidate; review | Brisbane \(state-only; not in Melbourne baseline\) | Melbourne: not listed; Sydney: not listed; Adelaide: not listed; Perth: not listed; price status: Brisbane: numeric |
+| `HIGACOUSHTD20KGT100W1200L2400` | Higgins Polyester Acoustic Sheet 20kg 100mm cut to size | Heuristic candidate; review | Brisbane \(state-only; not in Melbourne baseline\) | Melbourne: not listed; Sydney: not listed; Adelaide: not listed; Perth: not listed; price status: Brisbane: numeric |
+| `HIGACOUSHTD25KGT100W1200L2400` | Higgins Polyester Acoustic Sheet 25kg 100mm cut to size | Heuristic candidate; review | Brisbane \(state-only; not in Melbourne baseline\) | Melbourne: not listed; Sydney: not listed; Adelaide: not listed; Perth: not listed; price status: Brisbane: numeric |
+| `HIGACOUSHTD32KGT100W1200L2400` | Higgins Polyester Acoustic Sheet 32kg 100mm cut to size | Heuristic candidate; review | Brisbane \(state-only; not in Melbourne baseline\) | Melbourne: not listed; Sydney: not listed; Adelaide: not listed; Perth: not listed; price status: Brisbane: numeric |
+| `HIGACOUSHTD40KGT100W1200L2400` | Higgins Polyester Acoustic Sheet 40kg 100mm cut to size | Heuristic candidate; review | Brisbane \(state-only; not in Melbourne baseline\) | Melbourne: not listed; Sydney: not listed; Adelaide: not listed; Perth: not listed; price status: Brisbane: numeric |
+| `HIGACOUSHTD48KGT100W1200L2400` | Higgins Polyester Acoustic Sheet 48kg 100mm cut to size | Heuristic candidate; review | Brisbane \(state-only; not in Melbourne baseline\) | Melbourne: not listed; Sydney: not listed; Adelaide: not listed; Perth: not listed; price status: Brisbane: numeric |
+
 ## Technical data
 
 | Property | Value | Source |

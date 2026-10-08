@@ -18,7 +18,17 @@ def read_json(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def validate() -> list[str]:
+def validate(profile: str = "legacy") -> list[str]:
+    if profile == "authoring":
+        from product_research import ResearchIndex
+        idx = ResearchIndex(ROOT)
+        issues = list(idx.errors)
+        issues.extend(f"Unknown child family: {row['sku_record_id']}" for row in idx.skus
+                      if row["family_id"] not in idx.families)
+        issues.extend(f"Missing retained guide: {key}" for key in idx.families if key not in idx.sources.guides)
+        return issues
+    if profile != "legacy":
+        raise ValueError("Catalogue profile must be authoring or legacy")
     errors: list[str] = []
     family_schema = read_json(ROOT / "schemas" / "families.schema.json")
     evidence_schema = read_json(ROOT / "schemas" / "performance-evidence.schema.json")
@@ -135,7 +145,7 @@ def validate() -> list[str]:
             has_verified_evidence = any(item.get("evidence_status") == "verified" for item in evidence_by_id.get(row.get("family_id"), {}).get("evidence_items", []))
             if row.get("verified_evidence_available", "").casefold() != str(has_verified_evidence).casefold():
                 errors.append(f"SKU row {index}: verified-evidence flag conflicts with evidence registry")
-            expected_sku = recommendation_allowed(family) and has_verified_evidence and row.get("validation_status", "").upper() == "PASS" and row.get("bot_content_status", "").upper() == "READY"
+            expected_sku = False  # Eligibility lives in the separate reviewed publication, never source CSV.
             if row.get("sku_selection_eligible", "").casefold() != str(expected_sku).casefold():
                 errors.append(f"SKU row {index}: SKU eligibility conflicts with validation state")
 
@@ -159,13 +169,17 @@ def validate() -> list[str]:
 
 
 def main() -> None:
-    errors = validate()
+    import argparse
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--profile", choices=["authoring", "legacy"], default="authoring")
+    profile = parser.parse_args().profile
+    errors = validate(profile)
     if errors:
         print("Catalogue validation failed:")
         for error in errors:
             print(f"- {error}")
         raise SystemExit(1)
-    print("Catalogue validation passed: family schemas, knowledge files, evidence coverage and gates are consistent.")
+    print(f"Catalogue {profile} validation passed; structural checks are not claim approval or completeness.")
 
 
 if __name__ == "__main__":

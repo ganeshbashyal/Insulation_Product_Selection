@@ -41,6 +41,10 @@ Composition® is a durable, high-performance acoustic wallcovering designed as a
 | --- | --- | --- | --- | --- |
 | R0.3 | thermal_r_value | 10 | 1200 x 1220 | 1 |
 
+## Staff-release SKU coverage
+
+_No SKU from this workbook was mapped or proposed for this family._
+
 ## Technical data
 
 | Property | Value | Standard |

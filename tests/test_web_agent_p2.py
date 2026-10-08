@@ -7,6 +7,116 @@ import interaction_store
 from web_agent import app, startup
 
 
+def test_api_product_topic_survives_persisted_turns(client, tmp_path, monkeypatch):
+    import web_agent
+    from conversation_service import ConversationService
+    from session_store import SQLiteSessionStore
+
+    monkeypatch.setattr(web_agent, "session_store", SQLiteSessionStore(tmp_path / "sessions.sqlite3"))
+    monkeypatch.setattr(web_agent, "conversation_service", ConversationService(use_llm=False))
+    monkeypatch.setattr(web_agent.agent_core, "_phrase", lambda text, *args, **kwargs: text)
+    monkeypatch.setattr(interaction_store, "DEFAULT_DB", tmp_path / "interactions.sqlite3")
+    headers = {"X-API-Key": "sk_local_dev_test"}
+    start = client.post("/api/conversations?site_id=local", headers=headers).json()
+    assert start["reply"] == web_agent.agent_core.OPENING
+    session_id = start["conversation_id"]
+    route = f"/api/conversations/{session_id}/messages?site_id=local"
+    first = client.post(route, headers=headers, json={"message": "Tell me about NuWrap 5"}).json()
+    second = client.post(route, headers=headers, json={"message": "What is it used for?"}).json()
+    assert first["category"] == second["category"] == "informational"
+    assert "NuWrap 5" in second["reply"]
+    saved = json.loads(web_agent.session_store.get(session_id, "local").conversation_json)
+    assert saved["step"] == 0
+    assert saved["topic_products"] == ["THERMOTEC_NUWRAP_5"]
+    assert len(saved["messages"]) == 5
+    assert saved["messages"][0] == {"role": "assistant", "content": web_agent.agent_core.OPENING}
+
+
+def test_family_chat_link_sets_validated_family_context(client, tmp_path, monkeypatch):
+    import web_agent
+    from session_store import SQLiteSessionStore
+
+    family = next(row for row in web_agent.agent_core.FAMILIES
+                  if row["family_id"] == "THERMOTEC_NUWRAP_5")
+    monkeypatch.setattr(web_agent, "session_store", SQLiteSessionStore(tmp_path / "family-chat.sqlite3"))
+    page = client.get("/chat", params={"family_id": family["family_id"]})
+    assert page.status_code == 200
+    assert f"const FAMILY_ID={json.dumps(family['family_id'])}" in page.text
+    assert f"const FAMILY_NAME={json.dumps(family['name'])}" in page.text
+
+    started = client.post(
+        "/api/conversations?site_id=local",
+        params={"family_id": family["family_id"]},
+        headers={"X-API-Key": "sk_local_dev_test"},
+    )
+    assert started.status_code == 200
+    saved = json.loads(web_agent.session_store.get(started.json()["conversation_id"], "local").conversation_json)
+    assert saved["topic_products"] == [family["family_id"]]
+    assert saved["family_review_id"] == family["family_id"]
+
+    unknown = client.post(
+        "/api/conversations?site_id=local",
+        params={"family_id": "NOT_A_REAL_FAMILY"},
+        headers={"X-API-Key": "sk_local_dev_test"},
+    )
+    assert unknown.status_code == 404
+    assert client.get("/chat", params={"family_id": "NOT_A_REAL_FAMILY"}).status_code == 404
+
+
+def test_development_chat_exposes_all_installed_models_and_uses_per_turn_choice(
+    client, tmp_path, monkeypatch,
+):
+    import web_agent
+    import llm_client
+    from conversation_service import TurnResult
+    from session_store import SQLiteSessionStore
+
+    models = ["gemma4:latest", "llama3.2:latest"]
+    monkeypatch.setattr(web_agent, "USE_LLM", True)
+    monkeypatch.setattr(web_agent, "installed_models", lambda: models)
+    monkeypatch.setattr(web_agent.agent_core, "_phrase", lambda text, *args, **kwargs: text)
+    monkeypatch.setattr(web_agent, "session_store", SQLiteSessionStore(tmp_path / "model-chat.sqlite3"))
+    monkeypatch.setattr(interaction_store, "DEFAULT_DB", tmp_path / "model-interactions.sqlite3")
+    page = client.get("/chat")
+    assert page.status_code == 200
+    assert f"const LOCAL_MODELS={json.dumps(models)}" in page.text
+
+    selected_models = []
+
+    class ModelAwareService:
+        def handle(self, conversation, message, **kwargs):
+            selected_models.append(llm_client._MODEL_OVERRIDE.get())
+            assert kwargs["use_llm"] is True
+            return TurnResult("Local reply.", False, "greeting", "none", False)
+
+    monkeypatch.setattr(web_agent, "conversation_service", ModelAwareService())
+    headers = {"X-API-Key": "sk_local_dev_test"}
+    started = client.post(
+        "/api/conversations?site_id=local",
+        params={"model": "gemma4:latest"}, headers=headers,
+    )
+    assert started.status_code == 200
+    session_id = started.json()["conversation_id"]
+    saved = json.loads(web_agent.session_store.get(session_id, "local").conversation_json)
+    assert saved["model"] == "gemma4:latest"
+
+    replied = client.post(
+        f"/api/conversations/{session_id}/messages?site_id=local",
+        headers=headers, json={"message": "Hello", "model": "llama3.2:latest"},
+    )
+
+    assert replied.status_code == 200
+    assert selected_models == ["llama3.2:latest"]
+    saved = json.loads(web_agent.session_store.get(session_id, "local").conversation_json)
+    assert saved["model"] == "llama3.2:latest"
+
+    invalid = client.post(
+        "/api/conversations?site_id=local",
+        params={"model": "not-installed"}, headers=headers,
+    )
+    assert invalid.status_code == 422
+
+
 @pytest.fixture
 def client():
     """FastAPI test client with startup initialization."""
@@ -227,6 +337,10 @@ class TestLeadAccess:
 class TestLearningEndpoints:
     """Tests for /api/learning/* endpoints with auth."""
 
+    @pytest.fixture(autouse=True)
+    def operator_key(self, monkeypatch):
+        monkeypatch.setenv("AURORA_LEAD_ADMIN_KEY", "synthetic-operator-key")
+
     def test_learning_families_requires_auth(self, client):
         """GET /api/learning/families requires API key."""
         response = client.get("/api/learning/families?site_id=local")
@@ -249,10 +363,10 @@ class TestLearningEndpoints:
         assert response.status_code == 401
 
     def test_learning_pending_with_auth(self, client):
-        """GET /api/learning/pending with API key returns data."""
+        """Separate operator key is required; a widget key is insufficient."""
         response = client.get(
             "/api/learning/pending?site_id=local",
-            headers={"X-API-Key": "sk_local_dev_test"}
+            headers={"X-Aurora-Lead-Admin-Key": "synthetic-operator-key"}
         )
         assert response.status_code == 200
         data = response.json()
@@ -279,7 +393,7 @@ class TestLearningEndpoints:
                 "outcome": "approved",
                 "reviewer": "tester"
             },
-            headers={"X-API-Key": "sk_local_dev_test"}
+            headers={"X-Aurora-Lead-Admin-Key": "synthetic-operator-key"}
         )
         # May fail with 404/500 if conversation doesn't exist, but auth should pass
         assert response.status_code in (200, 400, 404)
@@ -293,7 +407,7 @@ class TestLearningEndpoints:
         """GET /api/learning/rejections with API key returns data."""
         response = client.get(
             "/api/learning/rejections?site_id=local",
-            headers={"X-API-Key": "sk_local_dev_test"}
+            headers={"X-Aurora-Lead-Admin-Key": "synthetic-operator-key"}
         )
         assert response.status_code == 200
         data = response.json()

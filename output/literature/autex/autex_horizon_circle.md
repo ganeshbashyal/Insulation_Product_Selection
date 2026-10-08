@@ -1,7 +1,7 @@
 ---
 title: "Autex Horizon - Circle - Panel Insulation | Autex"
-description: "Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled pla"
-keywords: "Autex Horizon - Circle, Autex panel, acoustic insulation, wall insulation, ceiling insulation, insulation Australia, Autex Australia"
+description: "Horizon™ is a range of floating acoustic panels made from 100% polyester fibre that create a cloud-like illusion when suspended and are designed to re"
+keywords: "Autex Horizon - Circle, Autex panel, wall insulation, ceiling insulation, insulation Australia, Autex Australia"
 status: "Draft - pending manufacturer TDS/SDS confirmation"
 family_id: AUTEX_HORIZON_CIRCLE
 ---
@@ -10,22 +10,23 @@ family_id: AUTEX_HORIZON_CIRCLE
 
 **Autex Panel** — acoustic panels for sound absorption and interior finish.
 
-Specialists in sustainable polyester acoustic solutions. Safe to handle without gloves or masks - perfect for DIY installation. Made from recycled plastic bottles, it's the sustainable choice for modern buildings.
+Horizon™ is a range of floating acoustic panels made from 100% polyester fibre that create a cloud-like illusion when suspended and are designed to reduce and control reverberated noise and echo in building interiors.
 
 ## Key features
 
-- 100% polyester - safe to handle without protective equipment.
-- contains minimum 80% recycled PET plastic bottles.
-- non-allergenic, non-irritant formulation.
-- will not support mould or mildew growth.
-- maintains performance when wet - dries out naturally.
-- excellent thermal performance for roof/ceiling applications.
-- helps meet NCC energy efficiency requirements.
-- Made from recycled PET bottles.
+- Lightweight and strong.
+- Can be installed on ceilings and walls without clear space.
+- Supplied with Autex attachment, suspension, or direct fix sets.
+- Carbon neutral product.
+- Made from 100% recycled material.
+- Low VOC and CDPH compliant.
+- Zero waste manufacturing initiative.
+- EPD – compliant with ISO 14025 and EN 15804.
 
 ## Applications and selection
 
-- Internal Wall | Ceiling | General Acoustic
+- Ceiling
+- Wall
 
 **Selection checklist**
 
@@ -42,20 +43,44 @@ Specialists in sustainable polyester acoustic solutions. Safe to handle without 
 | --- | --- | --- | --- | --- |
 | Rw 35 | acoustic_rw | Varies | 1200 x 1200 | 2 |
 
+## Staff-release SKU coverage
+
+Internal price-list identity and regional coverage only. These family links are preliminary and unreviewed; they do not establish technical evidence, selection eligibility, availability, or public approval. Melbourne is the baseline. State-specific sell-price differences/statuses are called out, but price amounts are intentionally not copied into this literature.
+
+Source workbook: `67bbf9d8-e55a-4d3d-974c-1ac4bbe2a005-Insulation\_Easy\_Sell\_Price\_List\_V3\_Final\_Staff\_Release.xlsm`; SHA-256: `c6134ff77b8a5601dfd0f862cfb32a8166e42ed20c339c8901728d388495a1e9`.
+
+| Our SKU | Product | Match status | State presence | State differences (price values omitted) |
+| --- | --- | --- | --- | --- |
+| `AUTHORIZONCIRC1PK` | Autex Horizon - Circle - Category 1 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTHORIZONCIRC2PK` | Autex Horizon - Circle - Category 2 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTHORIZONHEXC1PK` | Autex Horizon - Hexagon - Category 1 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTHORIZONHEXC2PK` | Autex Horizon - Hexagon - Category 2 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTHORIZONOVALC1PK` | Autex Horizon - Oval - Category 1 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTHORIZONOVALC2PK` | Autex Horizon - Oval - Category 2 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTHORIZONRECC1PK` | Autex Horizon - Rectangle - Category 1 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTHORIZONRECC2PK` | Autex Horizon - Rectangle - Category 2 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTHORIZONSQRC1PK` | Autex Horizon - Square - Category 1 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTHORIZONSQRC2PK` | Autex Horizon - Square - Category 2 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTHORIZONTRIC1PK` | Autex Horizon - Triangle - Category 1 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+| `AUTHORIZONTRIC2PK` | Autex Horizon - Triangle - Category 2 | Heuristic candidate; review | Melbourne, Sydney, Brisbane, Adelaide, Perth \(Melbourne baseline\) | Sydney: MOQ differs; Brisbane: MOQ differs; Adelaide: MOQ differs; Perth: MOQ differs; price status: Melbourne: numeric, Sydney: numeric, Brisbane: numeric, Adelaide: numeric, Perth: numeric |
+
 ## Technical data
 
-| Property | Value | Source |
+| Property | Value | Standard |
 | --- | --- | --- |
-| Product type | Panel | Manufacturer catalogue |
-| Material | Polyester | Manufacturer catalogue |
-| Applications | Internal Wall | Ceiling | General Acoustic | Manufacturer catalogue |
-| Published ratings | Not yet extracted per SKU | Internal catalogue; confirm against current TDS |
+| Fire Rating | ISO 9705: 1993: Group 1-S, AS ISO 9705 – 2003: Group 1, 1" BS EN 13501-1:2018: B - s2, d0, ASTM E-84-15a: Class A, FS:0 - SD:65 | - |
+| Density | 3600 gsm | - |
+| Thickness | 24 mm, Tolerance: +/- 6% | - |
+| Fire Indices | ASTM E-84-15a: Class A, FS:0 - SD:65 | - |
+| Temperature Range |  | - |
+| Vapour | ASTM C1104 / C1104M-13a: Water vapour absorbed and adsorped after 4 days: 0.4% by weight | - |
+| pH |  | - |
 
-
+Extracted from manufacturer datasheet: https://cdn.mediavalet.com/aunsw/autex/dRTCRsHVIkiY2tw4JI69lw/4t6Itu09y0OoiCyRQX57Ng/Original/Horizon%20Data%20Sheet.pdf
 
 ## Fire, testing and compliance context
 
-Not verified per SKU. No fire, NCC or BAL classification is asserted in this draft.
+ASTM E-84-15a: Class A, FS:0 - SD:65
 
 - NCC / project compliance: conditional — project-specific evidence required.
 - BAL: not verified.
@@ -65,15 +90,14 @@ Not verified per SKU. No fire, NCC or BAL classification is asserted in this dra
 
 ## Limitations and warnings
 
-- Not suitable for applications requiring fire rating without additional protection..
-- not to be exposed to weather or sustained moisture..
-- do not compress beyond manufacturer recommendations..
-- check fire-rated system requirements if fire rating is required..
-- confirm product selection matches specified thermal/acoustic/fire rating..
+- Horizon is suitable for indoor use only. Light fastness is dependent on use and exposure..
+- Horizon requires the services of a specialist cleaning company for custom printed panels..
 
 ## Installation overview
 
-Use the current manufacturer instructions and the project specification. Handling, fixing and jointing details must be confirmed against the TDS for the selected SKU. Key limitation: Not suitable for applications requiring fire rating without additional protection.
+1. Install as per Autex Acoustics recommendations.
+2. Install instructions included in each pack or available on the website.
+3. Consult the project engineer and relevant expert such as a fire protection engineer when installed near fire protection systems.
 
 ## Safety and handling
 
@@ -81,7 +105,7 @@ Confirm the current SDS before handling or cutting. No product-specific hazard c
 
 ## Sustainability and indoor environment
 
-Sustainability and VOC statements are manufacturer-published claims and are not independently verified in this draft. Confirm any recycled-content or Green Star wording with the manufacturer before publication.
+Carbon neutral product, Zero carbon manufacturing, Recycled content, Low VOC and CDPH compliant, Zero waste manufacturing initiative, EPD – compliant with ISO 14025 and EN 15804
 
 ## Warranty, returns and support
 

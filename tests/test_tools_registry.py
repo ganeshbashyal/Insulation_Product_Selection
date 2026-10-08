@@ -68,12 +68,14 @@ def test_dispatch_first_match_wins():
     assert result.reply == "first"
 
 
-def test_escalate_tool_reply_matches_old_branch_text():
+def test_escalate_tool_requires_review_without_promising_contact():
     tool = EscalateTool()
     conversation = make_conversation()
     result = tool.run("some message", conversation, "site-a")
-    assert result.reply == "Thank you for that information. This requires our team's attention. We'll be in touch shortly."
-    assert conversation.done is True
+    assert "cannot confirm" in result.reply
+    assert "in touch" not in result.reply
+    assert conversation.done is False
+    assert result.done is False
     assert result.log_status == "routed:escalate"
 
 
@@ -82,7 +84,8 @@ def test_commercial_tool_reply_matches_old_branch_text():
     conversation = make_conversation()
     result = tool.run("what's the price", conversation, "site-a")
     assert result.reply == "For pricing and availability details, please contact our sales team directly."
-    assert conversation.done is True
+    assert conversation.done is False
+    assert result.done is False
     assert result.log_status == "routed:commercial"
 
 
@@ -92,7 +95,7 @@ def test_freight_tool_is_placeholder_and_inert_by_default():
     assert tool.matches("product-fit") is False
     conversation = make_conversation()
     result = tool.run("how much is delivery", conversation, "site-a")
-    assert result.done is True
+    assert result.done is False
     assert result.log_status == "routed:freight"
     assert "not available" in result.reply.lower() or "not connected" in result.reply.lower() or "isn't" in result.reply.lower()
 
@@ -103,7 +106,7 @@ def test_tracking_tool_is_placeholder_and_inert_by_default():
     assert tool.matches("product-fit") is False
     conversation = make_conversation()
     result = tool.run("where's my order", conversation, "site-a")
-    assert result.done is True
+    assert result.done is False
     assert result.log_status == "routed:tracking"
 
 
@@ -121,8 +124,8 @@ def test_service_refusal_tool_reply_and_logging():
     assert tool.matches("product-fit") is False
     conversation = make_conversation()
     result = tool.run("can you install this for us", conversation, "site-a")
-    assert conversation.done is True
-    assert result.done is True
+    assert conversation.done is False
+    assert result.done is False
     assert "supply" in result.reply.lower()
     assert "install" in result.reply.lower()
     assert result.log_status == "routed:service_refusal"

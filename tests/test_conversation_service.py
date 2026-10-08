@@ -41,5 +41,5 @@ def test_service_advances_product_qualification(tmp_path, monkeypatch):
     )
 
     assert result.category == "product-fit"
-    assert result.retrieval_mode == "deterministic-ranking"
+    assert result.retrieval_mode == "needs-capture"
     assert conversation.step > 0
