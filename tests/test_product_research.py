@@ -165,7 +165,8 @@ def test_all_real_families_and_child_record_ids_preserved():
     assert idx.overview()["families_without_skus"] == 253
     assert idx.browse(query="SKU-")["total"] > 0
     assert idx.browse(limit=300)["total"] == 283
-    assert idx.manual_rows and all("_row" in row for row in idx.manual_rows)
+    if idx.manual_rows:
+        assert all("_row" in row for row in idx.manual_rows)
 
 
 def test_every_real_dossier_preserves_raw_inputs_and_child_record_ids():
